@@ -1,37 +1,38 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/italy/general",
-  "input_hash": "03ca02899173e7b83605948c41e9de895686cb44ad365768fdf024c204872f14",
-  "summary": "Italy general local functionality in Business Central: company information setup, the deprecated Italian Subcontracting feature and its migration, and Intrastat journal templates and batches. Answers setup and configuration questions for Italian localization.",
-  "overview": "This section collects three general setup topics for the Italian version of Business Central. They are independent of each other, so you can read whichever matches your task.\n\nCompany information covers the Company Information page, where general, communication, payment, shipping, and administration details are entered. These details appear in all reports and fiscal documents, so it is a sensible first step. The Intrastat page explains how to create journal templates and batches to record EU trade transactions for submission to tax authorities.\n\nThe Italian Subcontracting page describes outsourcing component production through linked BOM and subcontractor operations. It is marked as deprecated and replaced by the Subcontracting app, with a migration available for sandbox environments. Read it before using or migrating legacy subcontracting data.",
+  "input_hash": "8c562434312e745c9264252586e7d7329339920dc7a4731e76ebf9441630d945",
+  "summary": "General Italy functionality in Business Central: company information setup with Italian fiscal fields, Intrastat journal templates and batches, and the deprecation of Italian subcontracting with migration to the new Subcontracting app. It answers setup and migration questions for Italian companies.",
+  "overview": "This section collects the general setup topics for Italian localization. Three pages cover it: company information, Intrastat journal setup, and Italian subcontracting with its migration path. There are no subtopics.\n\nStart with the company information page. It covers the general, contact, bank and shipping details, plus Italian fiscal registration fields that reports and electronic documents use. Then set up Intrastat journal templates and batches if the company reports EU trade, before submitting Intrastat reports.\n\nThe subcontracting page matters if you use the legacy Italian subcontracting. It is deprecated and hidden by default in version 28.3. A new Subcontracting app replaces it, and the IT Subcontracting Migration app supports migration in sandbox environments.",
   "key_points": [
-    "Company Information page holds general, communication, payment, shipping, and administration details.",
-    "Company information appears in all reports and fiscal documents.",
-    "Intrastat journal templates are set up with a name and description.",
-    "Intrastat journal batches are configured with periodicity, type, statistics period, and currency information.",
-    "Intrastat journals record EU trade transactions for submission to tax authorities.",
-    "Italian Subcontracting uses BOM linking, subcontractor price lists, and Work in Progress (WIP).",
-    "Italian Subcontracting is deprecated and replaced by the Subcontracting app.",
-    "The IT Subcontracting Migration app is available for sandbox environments; the page mentions versions 27.0 and 28.3."
+    "Company information for Italy includes fiscal code, activity code, REA number and register company number.",
+    "Company information also covers contact, bank and shipping details used in reports and electronic documents.",
+    "Intrastat journal templates and batches are set up before submitting Intrastat reports.",
+    "Intrastat batch setup includes periodicity, entry type (Purchases/Sales), statistics period and corrective entries.",
+    "Italian subcontracting is deprecated and hidden by default in version 28.3.",
+    "Legacy Subcontracting can still be activated if needed.",
+    "The IT Subcontracting Migration app moves data to the new Subcontracting app, available for sandbox environments.",
+    "The new Subcontracting app involves WIP, subcontracting price lists and Production BOM integration."
   ],
   "members_used": 3,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:03:22.086Z",
+  "at": "2026-10-28T10:57:52.035Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.009867
+    "cost_usd": 0.010425
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:27:37.467Z",
+    "at": "2026-10-28T11:03:51.041Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the overview's 'They are independent of each other' and 'so it is a sensible first step' are reasonable inferences, but no page summary states them.",
-      "Minor: the overview opens with 'This section', which is close to the discouraged 'This hub' phrasing."
+      "Key point on contact, bank and shipping details says they are 'used in reports and electronic documents'; the source can be read as applying that only to the Italian fiscal registration fields. Minor.",
+      "Key point ties WIP, subcontracting price lists and Production BOM integration specifically to the new Subcontracting app; the source lists them as features of the subcontracting page as a whole. Minor.",
+      "Periodicity, entry type, statistics period and corrective entries are attributed to batch setup; the source lists them for journal templates and batches together. Minor."
     ],
-    "input_hash": "03ca02899173e7b83605948c41e9de895686cb44ad365768fdf024c204872f14",
-    "cost_usd": 0.0259072
+    "input_hash": "8c562434312e745c9264252586e7d7329339920dc7a4731e76ebf9441630d945",
+    "cost_usd": 0.0326032
   }
 }

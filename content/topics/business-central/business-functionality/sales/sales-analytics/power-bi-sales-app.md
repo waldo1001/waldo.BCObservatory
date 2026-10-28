@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/sales/sales-analytics/power-bi-sales-app
 type: topic
 title: Power BI Sales app
-summary: "The Power BI Sales app section covers the Business Central sales analytics app: its individual reports, the semantic model behind them, and the KPI and measure definitions. It answers questions about what each report shows, which metrics it uses, and who it is meant for."
+summary: "The Power BI Sales app section covers the sales analytics app for Business Central: its individual reports (sales trends, customers, items, salespeople, locations, projects, budget, opportunities, quotes, returns, forecasting), the semantic model, and the KPI and measure definitions. It answers what each report shows and how the underlying data is structured."
 tier: official
 language: en
 system: sales
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:16:39.116Z"
+  at: "2026-10-28T11:01:34.432Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: ddb1e25a60e3661f30eb616853d4a2957100c677574b148bc1f2501d62132897
+  input_hash: 0bbbd6a769678ef6f4c0b3e5cf1443534284be4dc93d4f4ca2f8eb6fe4047fb5
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget
@@ -69,7 +69,7 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-opportunity-overview
-    title: Opportunity Overview (Power BI report)
+    title: Opportunity Overview (Power BI Report)
     date: "2025-05-20"
     commit: null
     t: null
@@ -290,28 +290,24 @@ narrative: generated
 
 # Power BI Sales app
 
-> The Power BI Sales app section covers the Business Central sales analytics app: its individual reports, the semantic model behind them, and the KPI and measure definitions. It answers questions about what each report shows, which metrics it uses, and who it is meant for.
+> The Power BI Sales app section covers the sales analytics app for Business Central: its individual reports (sales trends, customers, items, salespeople, locations, projects, budget, opportunities, quotes, returns, forecasting), the semantic model, and the KPI and measure definitions. It answers what each report shows and how the underlying data is structured.
 
 Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Sales analytics](../sales-analytics.md) > Power BI Sales app · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Power BI Sales app gives leadership, sales managers, and sales teams a set of reports on sales data from Business Central. The main app page lists the core reports, and each report has its own page describing its metrics and purpose.
-
-The reports fall into a few groups. Overall and trend views include Sales Overview, Daily Sales, Month-to-Date, Moving Average, Moving Annual Total, and Period-Over-Period Growth. Breakdown reports cover sales by customer, item, location, project, and salesperson, plus Sales Demographics and Actual vs Budget. Others cover customer retention (overview and history), opportunities, sales quotes, and return orders. Key Sales Influencers, Sales Decomposition, and Sales Forecasting use AI visuals, decomposition, and forecasting.
-
-Start with the Power BI Sales app page for the overall picture. Then open the report page that matches your question. For how the data is built, use the semantic model page (star schema of fact and dimension tables) and the Sales KPIs and measures page (formulas and data sources).
+The Power BI Sales app gives leadership, sales managers and sales teams a set of reports on sales performance. The main app page lists the included reports, such as Sales Overview, Period-Over-Period Growth, Month-To-Date, Sales by Salesperson, Actual vs. Budget and Sales by Item. Each report has its own page describing its metrics and intended audience.
 
 ## Key points
 
-- The app page lists core reports: Sales Overview, Period-Over-Period Growth, Month-To-Date, Sales by Salesperson, Actual vs. Budget, and Sales by Item.
-- Common metrics include Sales (LCY), Sales Quantity, Adjusted Cost (LCY), Adjusted Profit (LCY), and Adjusted Profit Margin.
-- Trend reports: Daily Sales, 30-day Moving Average, rolling 12-month Moving Annual Total, and year-over-year Period-Over-Period Growth.
-- Customer retention reports track new, lost, returning, and recovered customers, by location, time, and segment.
-- Sales Forecasting gives three-month projections by customer, item, and salesperson, with confidence intervals and monthly seasonality.
-- Key Sales Influencers uses the key influencers visual; Sales Decomposition uses a decomposition tree.
-- The semantic model uses a star schema with fact tables (such as opportunity entries, sales budget, project ledger, sales credit lines) and dimension tables; the page lists 2025 release wave 2.
-- The Sales KPIs and measures page documents formulas for customer, opportunity, sales document, Pareto, project ledger, and budget measures.
+- Start with the Power BI Sales app page for the list of included reports, then open the page for the report you need.
+- Trend reports: Daily Sales, Moving Annual Total (rolling 12 months), Moving Average (30-day), Month-to-Date, and Period-Over-Period Growth (year-over-year).
+- Breakdown reports: Sales by Customer (with Pareto analysis), Item, Location, Project and Salesperson, plus Sales Demographics and Sales Decomposition.
+- Customer Retention Overview and History track new, lost, returning and recovered customers by location and over time.
+- Pipeline and documents: Opportunity Overview (counts, estimated value, win/loss), Sales Quote Overview and Return Order Overview (reasons, credit memos, return rate).
+- Actual vs Budget compares sales to budget with variance percentage and item category breakdown.
+- Advanced analytics: Key Sales Influencers uses a key influencers visual, and Sales Forecasting gives three-month projections with confidence intervals.
+- The semantic model uses a star schema of fact and dimension tables (opportunity entries, sales budget, project ledger, sales credit lines); the model page mentions 2025 release wave 2.
 
 ## Learn pages
 
@@ -322,7 +318,7 @@ Start with the Power BI Sales app page for the overall picture. Then open the re
 - [Key Sales Influencers (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-key-sales-influencers): Identify and analyze factors that influence sales performance. Explore the most impactful variables and trends based on sales data.
 - [Moving Annual Total (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-annual-total): The Moving Annual Total report provides a total of sales over the last 12 months.
 - [Moving Average (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-average): The Moving Average report provides a clear picture of your organization's average sales over a 30 day period.
-- [Opportunity Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-opportunity-overview): The Opportunity Overview report provides a comprehensive view of sales opportunities, including the number of opportunities, estimated values, sales cycle, and a breakdown of potential value by location.
+- [Opportunity Overview (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-opportunity-overview): Use the Opportunity Overview Power BI report with Business Central to review sales opportunity values, sales cycle stages, locations, and salesperson performance.
 - [Power BI Sales app](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app): The Power BI Sales app provides comprehensive sales analytics to stakeholders at all levels of your organization.
 - [Power BI Sales app semantic model](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model): Get an overview of all tables and fields in the Sales App Semantic Model.
   - In the observatory: [Table 113 "Sales Invoice Line"](../../../../../objects/table/113.md), [Table 13 "Salesperson/Purchaser"](../../../../../objects/table/13.md), [Table 14 "Location"](../../../../../objects/table/14.md), [Table 15 "G/L Account"](../../../../../objects/table/15.md), [Table 156 "Resource"](../../../../../objects/table/156.md), [Table 167 "Job"](../../../../../objects/table/167.md)

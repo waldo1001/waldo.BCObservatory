@@ -8,13 +8,13 @@
   ],
   "summary": "Shopify tax matching agent upgrades from GPT-4.1 to GPT-5.6 Ceres, a newer managed model version. The change selects a different model while keeping all other components like chat completions, temperature, token limits, and validation behavior the same.",
   "key_points": [
-    "Model selection changes from GetGPT41Latest() to GetGPT56CeresLatest()",
-    "All other parameters and validation mechanisms remain unchanged",
-    "Chat Completions, temperature, token limit, and review behavior are unaffected",
-    "Tax matching proposals may differ due to the newer model",
-    "Existing validation gates and human review process continue to protect data integrity"
+    "Shopify tax matching now calls GetGPT56CeresLatest() instead of GetGPT41Latest()",
+    "Chat Completions, forced function calling, temperature 0, token limit and capability registration are unchanged",
+    "Matching proposals may differ because of the new model",
+    "Existing structured-response validation and human review gates stay in place",
+    "No schema, permission or data migration changes"
   ],
-  "change_kind": "feature",
+  "change_kind": "other",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

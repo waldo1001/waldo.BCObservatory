@@ -2,33 +2,33 @@
 id: topic/business-central/business-functionality/local-functionality/iceland
 type: topic
 title: Iceland
-summary: "Iceland local functionality in Business Central: VAT summaries on documents, IRS number mapping, electronic invoicing rules for single-copy invoices, deletion of posted documents, audit data export, and the W1 core app migration from version 24.0. It answers Icelandic compliance and setup questions."
+summary: "Iceland local functionality in Business Central: the Icelandic localization based on the W1 Base App, available from version 24.0. It answers questions about the IS Core App, electronic invoicing for single-copy invoices, VAT reporting, IRS number mapping and deleting posted invoices."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:20:36.644Z"
+  at: "2026-10-28T11:02:02.695Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: bb5038bc40d409688066ba6eff7a50a1720a0fd3e00539efc571732f0821748b
+  input_hash: 2f26632186e58841e378c2ca8fdc3cc215db2f32a7c4250cb9396f43551af406
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos
-    title: Deleting posted invoices and credit memos [IS]
-    date: "2025-02-05"
+    title: Delete Posted Invoices and Credit Memos in Iceland
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice
-    title: Electronic invoicing requirement for issuing single-copy invoice
-    date: "2025-02-05"
+    title: Electronic Invoicing for Single-Copy Invoices
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -41,43 +41,43 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/iceland-local-functionality
-    title: Iceland local functionality
-    date: "2025-02-06"
+    title: Icelandic Local Functionality Overview
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/iceland-global-core-app
-    title: Iceland W1 core app setup
-    date: "2025-02-06"
+    title: Icelandic Localization With the IS Core App
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts
-    title: Map IRS numbers to chart of accounts [IS]
-    date: "2025-02-06"
+    title: Map IRS Numbers to the Chart of Accounts in Iceland
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents
-    title: Print VAT Summary Information on Document [IS]
-    date: "2025-02-06"
+    title: Print VAT Summary Information on Documents in Iceland
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/use-registration-no
-    title: Registration numbers in the Icelandic localization
-    date: "2025-02-06"
+    title: Registration Numbers in the Icelandic Localization
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority
-    title: Special data output and reports for the tax authorities in Iceland
-    date: "2025-02-06"
+    title: Special Data Output and Reports for the Icelandic Tax Authority
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -129,28 +129,27 @@ narrative: generated
 
 # Iceland
 
-> Iceland local functionality in Business Central: VAT summaries on documents, IRS number mapping, electronic invoicing rules for single-copy invoices, deletion of posted documents, audit data export, and the W1 core app migration from version 24.0. It answers Icelandic compliance and setup questions.
+> Iceland local functionality in Business Central: the Icelandic localization based on the W1 Base App, available from version 24.0. It answers questions about the IS Core App, electronic invoicing for single-copy invoices, VAT reporting, IRS number mapping and deleting posted invoices.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Iceland · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section describes the Icelandic localization of Business Central. The overview page lists the available features: VAT reporting, electronic invoicing, IRS mapping and document deletion. It notes version 24.0.
+The Iceland section describes the Icelandic localization of Business Central, which is built on the W1 Base App and available from version 24.0. The overview page lists the local features: VAT reporting, electronic invoicing, chart of accounts mapping and deletion of posted invoices.
 
-Two pages stand on their own. One covers the legal requirement for issuing a single-copy invoice: when invoices are printed several times, a government report confirms ERP compliance, and the IRS Notification report prints the required legal statements. The other covers the Iceland W1 core app setup, which moves from the Icelandic localization to the W1 base app model, with features delivered as apps, starting from 24.0.
+Two pages cover the foundation and one compliance topic. The IS Core App page explains how Icelandic localization data is transferred during an app upgrade from the W1 base app. The electronic invoicing page explains how companies issuing single-copy invoices use the Electronic Invoicing checkbox and the IRS notification report to declare compliance with Regulation No. 598/1999 to the tax authority.
 
-Two subtopics hold the detail. VAT covers printing VAT summary information and mapping chart of accounts entries to IRS tax numbers. General covers rules for deleting posted invoices and credit memos, exporting audit data, IRS number mapping, and registration number fields. Start with the overview page, then go to the subtopic that matches your task.
+Two subtopics go deeper. VAT covers printing VAT summary information on documents and preparing data and reports for the tax authority. General covers deleting posted invoices and credit memos, exporting audit data, mapping IRS numbers to the chart of accounts, and registration numbers. Start with the overview, then the IS Core App page if you are upgrading.
 
 ## Key points
 
-- The overview page lists Icelandic features: VAT reporting, electronic invoicing, IRS mapping and document deletion.
-- For single-copy invoices, printing an invoice several times requires a government report confirming ERP compliance.
-- Sales & Receivables Setup has an electronic invoicing checkbox. It lets you print the IRS Notification report with the legal statements.
-- The Iceland W1 core app setup applies from version 24.0 and delivers localization features as apps.
-- Migration to the W1 base app model is a one-time manual data migration.
-- VAT pages cover VAT summary information on sales and purchase documents.
-- Chart of accounts entries can be mapped to IRS tax numbers for data files sent to the tax authorities.
-- General pages cover deleting posted invoices and credit memos, exporting audit data, and registration number fields.
+- Icelandic localization is based on the W1 Base App and available from version 24.0.
+- The IS Core App page covers transferring Icelandic localization data during an app upgrade from the W1 base app (versions 24.0 and 27.0 are mentioned).
+- Companies issuing single-copy invoices use the Electronic Invoicing checkbox and the IRS notification report (Print Statement action).
+- The IRS notification report declares compliance with Regulation No. 598/1999 to the tax authority.
+- The VAT subtopic covers printing VAT summary information on purchase and sales documents and tax authority data and reports.
+- IRS numbers can be mapped to the chart of accounts.
+- The General subtopic covers deleting posted invoices and credit memos, exporting audit data and registration numbers.
 
 ## Subtopics
 
@@ -159,9 +158,10 @@ Two subtopics hold the detail. VAT covers printing VAT summary information and m
 
 ## More Learn pages
 
-- [Electronic invoicing requirement for issuing single-copy invoice](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice): In Iceland, a report must be sent to the government if an invoice is printed more than once when using electronic invoicing.
-- [Iceland local functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/iceland-local-functionality): This article provides links to descriptions of features that are specific to the Icelandic version of Dynamics 365 Business Central.
-- [Iceland W1 core app setup](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/iceland-global-core-app): This article provides instructions about delocalization of the Icelandic version of Dynamics 365 Business Central.
+- [Electronic Invoicing for Single-Copy Invoices](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice): Learn how to use the Electronic Invoicing reminder and print an IRS notification for single-copy invoices in the Icelandic version of Business Central.
+  - In the observatory: [Page 1 "Company Information"](../../../../objects/page/1.md), [Page 459 "Sales & Receivables Setup"](../../../../objects/page/459.md), [Report 10913 "IRS notification (IS)"](../../../../objects/report/10913-is.md)
+- [Icelandic Local Functionality Overview](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/iceland-local-functionality): This article provides links to descriptions of features that are specific to the Icelandic version of Dynamics 365 Business Central.
+- [Icelandic Localization With the IS Core App](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/iceland-global-core-app): Learn how the Icelandic IS Core app provides local features on the W1 base app, migrates existing data, and differs from the earlier manual setup.
 
 ## Business Central pages and reports
 

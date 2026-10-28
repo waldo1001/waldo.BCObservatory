@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:28.632Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -34,8 +34,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-json-launch-file
-    title: Launch JSON file
-    date: "2026-05-29"
+    title: Launch JSON Settings for Business Central AL
+    date: "2026-10-16"
     commit: null
     t: null
     quote: null
@@ -105,7 +105,7 @@ Start with the app.json page, which holds the core extension settings such as pu
 
 - [Directory.app.props.json file](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-directory-app-json): Description of the JSON file for setting project metadata in AL extensions for Business Central.
 - [JSON Files for AL Extension Projects](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-json-files): Learn how to configure the app.json manifest for AL extension projects in Business Central, including runtime, features, dependencies, and IDs.
-- [Launch JSON file](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-json-launch-file): Description of the settings of the launch JSON file for AL in Business Central.
+- [Launch JSON Settings for Business Central AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-json-launch-file): Configure launch.json settings for AL publishing, attach debugging, and snapshot debugging in Business Central online and on-premises environments.
 - [Migration JSON file](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migration-json-file): Description of the JSON file for data migration for AL in Business Central.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -2,54 +2,54 @@
 id: topic/business-central/business-functionality/local-functionality/mexico/electronic-invoice
 type: topic
 title: Electronic invoice
-summary: "Electronic invoicing for Mexico in Business Central: CFDI XML invoices, SAT certificates, PAC web services, invoice generation, and Carta de Porte packing slips and transfer orders. It answers setup, stamping, and compliance questions."
+summary: "Electronic invoicing in the Mexican version of Business Central: setup of SAT certificates and PAC web services, generating and cancelling CFDI invoices and payment receipts, and Carta de Porte waybills for goods transport. It answers setup, stamping, export and compliance questions."
 tier: official
 language: en
 system: sales
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:24:09.741Z"
+  at: "2026-10-28T11:02:59.703Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 89f2fcdcd32f6489e9fa6bc3e22cf8ad461bdd86d94d1b2fefcd8a263c28093f
+  input_hash: 9783729904adbeb8fda8eab6250509b6b8e01fbeb4fa6acdc5f8dac082d7e7da
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/packing-slips-transfer-orders
-    title: Carta de Porte packing slips and transfer orders [MX]
-    date: "2025-02-26"
+    title: Carta de Porte Packing Slips and Transfer Orders in Mexico
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-invoicing
-    title: Electronic invoicing - Mexico
-    date: "2025-05-01"
+    title: Electronic Invoicing in the Mexican Version
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices
-    title: Generate electronic invoices [MX]
-    date: "2025-02-25"
+    title: Generate Electronic Invoices in the Mexican Version [MX]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing
-    title: Set Up Electronic Invoicing [MX]
-    date: "2025-05-01"
+    title: Set Up Electronic Invoicing - Mexico [MX]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-pac-web-services
-    title: Set Up PAC Web Services
-    date: "2025-02-25"
+    title: Set Up PAC Web Services in Mexico
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -116,40 +116,38 @@ narrative: generated
 
 # Electronic invoice
 
-> Electronic invoicing for Mexico in Business Central: CFDI XML invoices, SAT certificates, PAC web services, invoice generation, and Carta de Porte packing slips and transfer orders. It answers setup, stamping, and compliance questions.
+> Electronic invoicing in the Mexican version of Business Central: setup of SAT certificates and PAC web services, generating and cancelling CFDI invoices and payment receipts, and Carta de Porte waybills for goods transport. It answers setup, stamping, export and compliance questions.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Mexico](../mexico.md) > Electronic invoice · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers how Business Central meets Mexican tax authority requirements for electronic documents. Invoices are produced as CFDI XML files, digitally signed with a SAT certificate and stamped through a PAC (authorized certification provider) web service.
+This section covers how Business Central meets Mexican electronic document requirements. Sales and service invoices are exported as CFDI XML files, signed with digital signatures, stamped by an authorized PAC provider, and can be sent by email or exported as XML. Cancellation and communication with the tax authorities are also covered.
 
-The pages follow the order of work. The "Electronic invoicing - Mexico" page gives the overview. "Set Up Electronic Invoicing [MX]" covers company information, general ledger, customer and vendor tax IDs, locations, and CFDI field mappings. "Set Up PAC Web Services" covers certificate upload and web service details. "Generate electronic invoices [MX]" covers day-to-day creation, stamping, and sending. The Carta de Porte page covers shipping documents.
+Start with the setup pages. "Set Up Electronic Invoicing - Mexico" covers tax identification information, SAT certificates, PAC web services and CFDI field mapping for the company, customers, vendors and locations. "Set Up PAC Web Services in Mexico" goes into the stamp provider, certificates, web service methods and the test or production environment.
 
-Start with the overview, then do the electronic invoicing setup and the PAC setup before you generate any documents. Go to the Carta de Porte page only if you ship goods and need compliant packing slips or transfer orders.
+Once setup is done, "Electronic Invoicing in the Mexican Version" gives the overview and "Generate Electronic Invoices in the Mexican Version" describes posting and stamping, including payment receipts and the export complement. The Carta de Porte page covers waybill documents for packing slips and transfer orders.
 
 ## Key points
 
-- Invoices are generated and sent as CFDI XML files, digitally signed and carrying a QR code.
-- Setup needs a SAT certificate, PAC web services, and company information. Multiple SAT certificates are supported.
-- Setup also covers general ledger, customer and vendor tax IDs, locations, CFDI field mappings, and the option to include a PDF report.
-- PAC web service setup includes certificate upload and separate test and production environments. It enables digital stamp requests and document cancellation.
-- Invoice generation covers sales and service documents, CFDI digital stamps, XML export, and payment stamping.
-- Foreign trade invoices use the Comercio Exterior Complement, which needs its own setup.
-- Carta de Porte packing slips and transfer orders can be printed and sent as signed CFDI files. This is documented for version 24.4.
-- Carta de Porte setup includes SCT permission, vehicle configuration, item classification, hazardous material, packaging type, and custom transit number.
+- Invoices are exported as CFDI XML files (CFDI 4.0) with digital signatures and a digital stamp from a PAC.
+- Setup involves tax identification information, SAT certificate upload (multiple certificates supported), PAC web services and CFDI field mapping.
+- PAC web service setup specifies the stamp provider, certificates, web service methods, and test or production environment.
+- PAC operations include requesting a stamp, submitting cancellations and retrieving status.
+- Posted sales invoices can be stamped, then sent by email or exported as XML; QR codes and PDF attachment are supported.
+- CFDI 4.0 payment receipts, the Pagos 2.0 complement and the Comercio Exterior Complement for exports are covered.
+- Carta de Porte 3.1 complements let packing slips and transfer orders be printed and sent electronically, as required since December 1, 2021.
+- Carta de Porte setup includes vehicles, trailers, item classification and hazardous material.
 
 ## Learn pages
 
-- [Carta de Porte packing slips and transfer orders [MX]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/packing-slips-transfer-orders): Business Central supports CFDI, allowing the printing of packing slips and transfer orders with the necessary digital signature to meet Carta de Porte requirements.
-  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 36957 "Locations"](../../../../../objects/page/36957.md)
-- [Electronic invoicing - Mexico](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-invoicing): Learn how Business Central supports CFDI so that you can export sales and service invoices and credit memos as electronic documents with the required digital signature.
-  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 21 "Customer Card"](../../../../../objects/page/21.md), [Page 5703 "Location Card"](../../../../../objects/page/5703.md)
-- [Generate electronic invoices [MX]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices): After a sales invoice is posted in the Mexican version, an electronic invoice must be generated and sent to the customer.
-  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 209 "Units of Measure"](../../../../../objects/page/209.md)
-- [Set Up Electronic Invoicing [MX]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing): To send electronic documents in Mexico, it's necessary to set up Business Central to include the required identification numbers for CFDI.
+- [Carta de Porte Packing Slips and Transfer Orders in Mexico](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/packing-slips-transfer-orders): Business Central supports CFDI, allowing the printing of packing slips and transfer orders with the necessary digital signature to meet Carta de Porte requirements.
+- [Electronic Invoicing in the Mexican Version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-invoicing): Learn how to set up, stamp, send, and cancel CFDI electronic invoices and customer payment receipts in the Mexican version of Business Central.
+- [Generate Electronic Invoices in the Mexican Version [MX]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices): After a sales invoice is posted in the Mexican version, an electronic invoice must be generated and sent to the customer.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 143 "Posted Sales Invoices"](../../../../../objects/page/143.md), [Page 209 "Units of Measure"](../../../../../objects/page/209.md)
+- [Set Up Electronic Invoicing - Mexico [MX]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing): To send electronic documents in Mexico, it's necessary to set up Business Central to include the required identification numbers for CFDI.
   - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 10 "Countries/Regions"](../../../../../objects/page/10.md), [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 209 "Units of Measure"](../../../../../objects/page/209.md), [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 36954 "Customers"](../../../../../objects/page/36954.md)
-- [Set Up PAC Web Services](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-pac-web-services): To send electronic invoices and credit memos in Mexico, you need to specify at least one provider for the required electronic stamp.
+- [Set Up PAC Web Services in Mexico](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-pac-web-services): To send electronic invoices and credit memos in Mexico, you need to specify at least one provider for the required electronic stamp.
   - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md)
 
 ## Videos, posts and code changes

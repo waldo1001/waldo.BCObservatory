@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/demiliani-com/17552",
+  "input_hash": "9b34e03028afe3dc8bfe167dcf00326be7a90cefef4a365076bbec46024518b9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-28T10:55:53.836Z",
+  "issues": [
+    "The key point added 'per tenant' to the limit of 3 operations. The post only says 3 per month.",
+    "'Environment restart capability' is not a feature. The restart is just a side effect of starting the operation, so it was dropped.",
+    "The quotes match the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [
+    "drop object: none listed as \"other Business Central Mobile App\""
+  ],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043061,
+    "posts_in_call": 4
+  }
+}

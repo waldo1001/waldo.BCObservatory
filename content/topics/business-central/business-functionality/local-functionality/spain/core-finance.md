@@ -2,75 +2,75 @@
 id: topic/business-central/business-functionality/local-functionality/spain/core-finance
 type: topic
 title: Core finance
-summary: Core finance for Spain in Business Central covers general ledger setup, transaction numbering, official account book and invoice book reports, year-end income statement closing, and ASC export of financial reports. It answers how-to questions about Spanish statutory finance tasks.
+summary: "Spain core finance local functionality in Business Central: chart of accounts handling, transaction numbering, official account books, invoice books, income statement closing, discount handling on G/L accounts, and ASC export of financial reports. Answers setup and reporting questions for Spanish tax authority requirements."
 tier: official
 language: en
 system: finance
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:21:21.075Z"
+  at: "2026-10-28T11:02:37.851Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 1a90675604f388119888d1a52f20f298cad79ead58d4e0b44760d2adab541e44
+  input_hash: 5a668232b97c6e5cd04c3931405e8ed1e95babe6ba33bd78399ceec7940169a7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format
-    title: How to Export Financial Reports to ASC Format
-    date: "2025-05-27"
+    title: Export Financial Reports to ASC Format
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts
-    title: How to Ignore Discounts in General Ledger Accounts
-    date: "2025-05-27"
+    title: Ignore Discounts in General Ledger Accounts
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts
-    title: How to Indent and Validate Chart of Accounts
-    date: "2025-05-27"
+    title: Indent and Validate Chart of Accounts
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-post-and-print-all-transactions-for-a-period
-    title: How to Post and Print All Transactions for a Period
-    date: "2025-05-28"
+    title: Post and Print All Transactions for a Period
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-print-account-book-reports
-    title: How to print account book reports [ES]
-    date: "2025-05-28"
+    title: Print Account Book Reports in the Spanish Version [ES]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books
-    title: How to Print Sales and Purchase Invoice Books
-    date: "2025-05-28"
+    title: Print Sales and Purchase Invoice Books
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances
-    title: How to Set Up and Close Income Statement Balances
-    date: "2025-05-28"
+    title: Set Up and Close Income Statement Balances
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/transaction-numbers
-    title: Transaction numbers
-    date: "2025-05-29"
+    title: Transaction Numbers in Business Central for Spain
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -116,44 +116,46 @@ narrative: generated
 
 # Core finance
 
-> Core finance for Spain in Business Central covers general ledger setup, transaction numbering, official account book and invoice book reports, year-end income statement closing, and ASC export of financial reports. It answers how-to questions about Spanish statutory finance tasks.
+> Spain core finance local functionality in Business Central: chart of accounts handling, transaction numbering, official account books, invoice books, income statement closing, discount handling on G/L accounts, and ASC export of financial reports. Answers setup and reporting questions for Spanish tax authority requirements.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section collects the Spain-specific finance procedures in Business Central. They cover chart of accounts upkeep, how transactions are numbered and posted, the reports required by tax authorities and auditors, and year-end closing.
+This section covers the general ledger and reporting features specific to the Spanish localization. It has no subtopics; all eight pages sit directly under it. They cover the chart of accounts, period transaction numbering, official printed books, year-end closing, and exports for the tax authorities.
 
-Start with the Transaction numbers page, which explains how sequential numbers group entries by document number and date. The posting and printing page builds on it. Chart of accounts pages (indenting and validating, ignoring discounts) cover setup. Reporting pages cover account books, sales and purchase invoice books, and ASC export. The income statement page covers year-end closing.
+For setup, start with Indent and Validate Chart of Accounts (maximum 20 numbers per account, account types, Income Stmt. Bal. Acc. field) and Set Up and Close Income Statement Balances. Then read Transaction Numbers in Business Central for Spain and Post and Print All Transactions for a Period, which explain how entries are grouped and numbered sequentially for a fiscal year.
+
+For reporting, use Print Account Book Reports (Official Account Book and Summarized Book), Print Sales and Purchase Invoice Books, and Export Financial Reports to ASC Format for balance sheet and income statement files. Ignore Discounts in General Ledger Accounts is a small configuration page for G/L account cards.
 
 ## Key points
 
-- Transaction numbers group entries with the same document number and date for balancing, and start at 2 each fiscal year because 1 is reserved for the opening transaction.
-- Journal posting uses sequential numbering, and the Set Period Transaction No. action supports printing all transactions of a period for tax authorities.
-- The chart of accounts can be indented and validated to build the account hierarchy and check accuracy.
-- A General Ledger account can be set with the Ignore Discounts checkbox so it does not accept payment or invoice discounts.
-- Account book reports show general ledger entries by transaction or summary, with options for first page number, additional currency, opening and closing transaction descriptions, and account type filtering.
-- Sales and Purchase Invoice Book reports list documents for a period, with additional currency, invoice or credit memo filtering, and ordering by posting date.
-- The Close Income Statement batch job closes income statement balances at year end using a balancing account, and covers retained earnings, business units, and dimensions.
-- Balance sheet and profit/loss annual reports can be exported to ASC format for tax authorities.
+- The chart of accounts can be indented and validated, with a maximum of 20 numbers per account and account types Posting, Heading, or Total (Total applies to Portugal); the page covers Spain and Portugal localization.
+- The Set Period Trans. Nos. batch job assigns period transaction numbers to G/L entries in posting date and transaction number order.
+- Transaction numbers group entries with the same document number and date so they can be balanced.
+- Posting and printing all transactions for a period in General Journal and G/L Registers gives sequential numbers for fiscal year reporting to Spanish tax authorities.
+- The Close Income Statement batch job closes balances at fiscal year end using income statement balancing accounts, with support for business units and dimensions.
+- Official Account Book and Official Account Summarized Book reports show G/L entries for a period, with summarized or detailed options, custom first page number and additional currency display.
+- Sales and Purchases Invoice Book reports can filter by invoices or credit memos, order by posting date and show additional reporting currency.
+- Financial reports export to ASC format in Balance de Situación (Abreviado/Normal) and Cuenta de PyG (Abreviado/Normal) variants.
 
 ## Learn pages
 
-- [How to Export Financial Reports to ASC Format](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format): Export financial report data to a digital file format approved by Spanish tax authorities for specific annual reports.
+- [Export Financial Reports to ASC Format](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format): Learn how to export financial report data to ASC format in Business Central for Spain and configure the options for the annual report file.
   - In the observatory: [Page 108 "Financial Reports"](../../../../../objects/page/108.md)
-- [How to Ignore Discounts in General Ledger Accounts](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts): Learn how to set up general ledger accounts in Business Central for Spain to exclude payment and invoice discounts.
-  - In the observatory: [Page 17 "G/L Account Card"](../../../../../objects/page/17.md)
-- [How to Indent and Validate Chart of Accounts](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts): Learn how to indent and validate the chart of accounts on the G/L Account Card page.
+- [Ignore Discounts in General Ledger Accounts](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts): Learn how to select Ignore Discounts on a general ledger account in Business Central for Spain to exclude payment and invoice discounts.
   - In the observatory: [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md), [Page 17 "G/L Account Card"](../../../../../objects/page/17.md)
-- [How to Post and Print All Transactions for a Period](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-post-and-print-all-transactions-for-a-period): Businesses are required to provide annual reports to tax authorities, grouping their transaction entries by transaction numbers.
+- [Indent and Validate Chart of Accounts](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts): Learn how to configure general ledger accounts, indent the chart of accounts, and validate account structure in Business Central for Spain.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md), [Page 17 "G/L Account Card"](../../../../../objects/page/17.md)
+- [Post and Print All Transactions for a Period](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-post-and-print-all-transactions-for-a-period): Businesses are required to provide annual reports to tax authorities, grouping their transaction entries by transaction numbers.
   - In the observatory: [Page 116 "G/L Registers"](../../../../../objects/page/116.md), [Page 39 "General Journal"](../../../../../objects/page/39.md)
-- [How to print account book reports [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-print-account-book-reports): Learn how to print the Official Account Book report and the Official Account Summarize Book report with the Spanish version of Business Central.
+- [Print Account Book Reports in the Spanish Version [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-print-account-book-reports): Learn how to print the Official Account Book report and the Official Account Summarize Book report with the Spanish version of Business Central.
   - In the observatory: [Report 10706 "Account - Official Acc. Book (ES)"](../../../../../objects/report/10706-es.md), [Report 10716 "Official Acc.Summarized Book (ES)"](../../../../../objects/report/10716-es.md)
-- [How to Print Sales and Purchase Invoice Books](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books): The Sales Invoice Book report and Purchases Invoice Book report allow you to check all of the sales and purchase documents created for a specific period.
+- [Print Sales and Purchase Invoice Books](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books): The Sales Invoice Book report and Purchases Invoice Book report allow you to check all of the sales and purchase documents created for a specific period.
   - In the observatory: [Report 10704 "Sales Invoice Book (ES)"](../../../../../objects/report/10704-es.md), [Report 10705 "Purchases Invoice Book (ES)"](../../../../../objects/report/10705-es.md)
-- [How to Set Up and Close Income Statement Balances](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances): Use income statement balancing accounts to efficiently track and balance multiple accounts simultaneously.
+- [Set Up and Close Income Statement Balances](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances): Learn how to set up income statement balancing accounts and run Close Income Statement to post year-end balances in Business Central for Spain.
   - In the observatory: [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md), [Page 17 "G/L Account Card"](../../../../../objects/page/17.md), [Report 94 "Close Income Statement"](../../../../../objects/report/94.md)
-- [Transaction numbers](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/transaction-numbers): Use transaction numbers to group and balance entries that share the same document number and date.
+- [Transaction Numbers in Business Central for Spain](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/transaction-numbers): Learn how transaction numbers group general ledger entries in Business Central for Spain and how period transaction numbers order entries by date.
 
 ## Videos, posts and code changes
 

@@ -2,33 +2,33 @@
 id: topic/business-central/business-functionality/local-functionality/india/fixed-asset
 type: topic
 title: Fixed asset
-summary: Fixed asset depreciation for the India localization of Business Central. It covers setup under the Income Tax Act 1961 and Companies Act 2013, and how depreciation is calculated with FA blocks, additional depreciation and multiple shifts.
+summary: Fixed asset depreciation for the India localization of Business Central. It covers how depreciation is calculated with FA blocks, additional depreciation and shift-based methods, and how to set up the books, periods and block codes. It answers questions on calculation and configuration.
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T05:21:50.968Z"
+  at: "2026-10-28T11:04:01.639Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 42ce041264f32dc72432566d59dadf388d9424ce2fe433d712b8b181e7e9f053
+  input_hash: 913386b5d3c039e9fbd83aee22857f608480cb365640622dfeeb2ca13af47a6a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/FA_Depreciation
     title: FA Depreciation Calculation
-    date: "2025-06-19"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/FA_Overview
-    title: Setting up Fixed Asset for depreciation calculation
-    date: "2025-06-19"
+    title: Set Up Fixed Asset for Depreciation Calculation
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
@@ -65,33 +65,33 @@ narrative: generated
 
 # Fixed asset
 
-> Fixed asset depreciation for the India localization of Business Central. It covers setup under the Income Tax Act 1961 and Companies Act 2013, and how depreciation is calculated with FA blocks, additional depreciation and multiple shifts.
+> Fixed asset depreciation for the India localization of Business Central. It covers how depreciation is calculated with FA blocks, additional depreciation and shift-based methods, and how to set up the books, periods and block codes. It answers questions on calculation and configuration.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > Fixed asset · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers fixed asset depreciation for India. It has two pages: one on setting up fixed assets for depreciation, and one on how depreciation is calculated once setup is done.
+This section covers fixed asset depreciation under the India localization. It has two pages: one explains how depreciation is calculated, and one explains how to set up Business Central so the calculation works.
 
-The setup page covers the items needed under the Income Tax Act 1961 and Companies Act 2013: depreciation books, the FA accounting period for income tax, FA block codes, additional depreciation, seasonal and non-seasonal days, and depreciation thresholds. The calculation page covers FA block depreciation, additional depreciation, and shift depreciation for manufacturing operations with multiple production shifts.
+The calculation page describes FA block depreciation, additional depreciation and multiple shift depreciation, using an income tax depreciation book. It mentions straight-line and declining-balance methods. The setup page covers the configuration behind these: FA Depreciation Books, FA Accounting Period for Income Tax, FA Block Code and additional depreciation settings.
 
-Start with the setup page to configure the depreciation book, accounting period and block codes. Then use the calculation page to see how depreciation is computed.
+Start with the calculation page to understand the methods, then use the setup page to configure the books, periods and block codes before running depreciation.
 
 ## Key points
 
-- Setup is based on the Income Tax Act 1961 and Companies Act 2013.
-- Setup items include depreciation book, FA accounting period for income tax, and FA block code.
-- Additional depreciation has its own setup.
-- Setup covers seasonal and non-seasonal days and a depreciation threshold.
-- Depreciation can be calculated by FA block.
-- Additional depreciation rules are part of the calculation.
-- Multiple shift depreciation supports manufacturing operations with several production shifts.
-- Read the setup page first, then the calculation page.
+- Depreciation can be calculated by FA block, as block-based income tax depreciation.
+- Additional depreciation is supported and has its own configuration.
+- Shift-based depreciation covers multiple shifts, which suits manufacturing operations.
+- An income tax depreciation book is used for the calculation.
+- Straight-line and declining-balance methods are mentioned.
+- Setup involves FA Depreciation Books, FA Accounting Period for Income Tax and FA Block Code.
+- The section has no subtopics, only a calculation page and a setup page.
 
 ## Learn pages
 
 - [FA Depreciation Calculation](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/FA_Depreciation): Learn how to calculate fixed asset depreciation, including FA block, additional depreciation, and multiple shift scenarios for India in Business Central.
-- [Setting up Fixed Asset for depreciation calculation](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/FA_Overview): Describes the essential setup steps for calculating fixed asset depreciation.
+  - In the observatory: [Page 5600 "Fixed Asset Card"](../../../../../objects/page/5600.md), [Page 5628 "Fixed Asset G/L Journal"](../../../../../objects/page/5628.md), [Page 5629 "Fixed Asset Journal"](../../../../../objects/page/5629.md)
+- [Set Up Fixed Asset for Depreciation Calculation](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/FA_Overview): Set up fixed asset depreciation books, accounting periods, asset blocks, and additional depreciation for the India localization of Business Central.
   - In the observatory: [Page 5615 "FA Classes"](../../../../../objects/page/5615.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

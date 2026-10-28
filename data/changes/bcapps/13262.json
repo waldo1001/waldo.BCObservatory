@@ -60,8 +60,19 @@
   },
   "join": {
     "major": "30",
-    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
     "objects": [
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRTrialBalbyPeriod.Query.al",
+        "status": "added",
+        "key": "query/4408",
+        "type": "query",
+        "id": 4408,
+        "name": "EXR Trial Bal by Period",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "query/4408"
+      },
       {
         "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRTrialBalbyPeriodExcel.Report.al",
         "status": "modified",
@@ -85,13 +96,7 @@
         "page": "permissionset/4401"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRTrialBalbyPeriod.Query.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "finance",

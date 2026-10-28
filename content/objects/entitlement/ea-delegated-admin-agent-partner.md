@@ -2,7 +2,7 @@
 id: object/entitlement/ea-delegated-admin-agent-partner
 type: object
 title: Entitlement "EA - Delegated Admin agent - Partner"
-summary: Entitlement "EA - Delegated Admin agent - Partner" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30, changed in BC30.
+summary: Entitlement "EA - Delegated Admin agent - Partner" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 tier: official
 language: en
 tags:
@@ -10,7 +10,7 @@ tags:
   - expenseagent
 versions:
   introduced: "29"
-  last_changed: "30"
+  last_changed: null
   deprecated: null
 review:
   state: derived
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:15:39.036Z"
+  at: "2026-10-28T10:42:34.480Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8becde3bf448548597142ded7517d6bb6ae4b706195504a8b70e36350c8922de
+  input_hash: 58304d6e6c03934e9b81687a953a67e3aadb2453c05ae1107408198fc5d40ccc
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedAdminagentPartner.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedAdminagentPartner.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedAdminagentPartner.Entitlement.al (releases/29.x)
     date: null
-    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
+    commit: 4c1c1638beb6d5da8540cc1f61889b80c7b3356f
     t: null
     quote: null
 links:
@@ -59,8 +59,7 @@ last_version: "30"
 present_in:
   - "29"
   - "30"
-changed_in:
-  - "30"
+changed_in: []
 source_major: "29"
 obsolete: null
 countries: []
@@ -83,9 +82,9 @@ relations:
 
 # Entitlement "EA - Delegated Admin agent - Partner"
 
-> Entitlement "EA - Delegated Admin agent - Partner" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30, changed in BC30.
+> Entitlement "EA - Delegated Admin agent - Partner" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedAdminagentPartner.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 4c1c1638](https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedAdminagentPartner.Entitlement.al) · facts from BC29
 
 ## Recent changes
 
@@ -95,7 +94,7 @@ ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at dc14cfd1](https:
 ## Across versions
 
 - Present in: BC29-30
-- Changed (declaration) in: BC30
+- Changed (declaration) in: none
 
 ## Possibly related
 

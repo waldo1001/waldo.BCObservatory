@@ -2,61 +2,61 @@
 id: topic/business-central/business-functionality/relationship-management/relationship-management-analytics
 type: topic
 title: Relationship management analytics
-summary: Relationship management analytics covers the built-in reports for Business Central relationship management (marketing/CRM). It answers questions about reports for contacts, campaigns, opportunities, sales cycles, segments and questionnaires, plus cover sheets, labels and email merge letters.
+summary: Relationship management analytics covers the built-in reports for contacts, campaigns, opportunities, sales cycles, segments, and profile questionnaires in Business Central. It answers questions about what each report shows, its filters and options, and how to print labels, cover sheets, and merged letters.
 tier: official
 language: en
 system: crm
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:17:35.268Z"
+  at: "2026-10-28T11:01:41.357Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 149d2a72d32c46179317cefb292ff894e1b50bf5bd2b0e16311ff627c70d3f2e
+  input_hash: 6d73915cf1752ad36647bdc3c474e827d570a23a42bb66d1cf848aa70edee8ae
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5060
     title: Campaign - Details (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5051
     title: Contact - Company Summary (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5055
     title: Contact - Cover Sheet (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5056
     title: Contact - Labels (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5050
     title: Contact - List (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5053
     title: Contact - Person Summary (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
@@ -77,28 +77,28 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5068
     title: Opportunity - Details (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5061
     title: Opportunity - List (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5066
     title: Questionnaire - Handouts (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5067
     title: Questionnaire - Test (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
@@ -112,35 +112,35 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5062
     title: Sales Cycle - Analysis (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5058
     title: Salesperson - Opportunities (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5063
     title: Segment - Contacts (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5064
     title: Segment - Cover Sheet (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5065
     title: Segment - Labels (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
@@ -223,58 +223,55 @@ bc_forms:
   - 5068
   - 5084
   - 5085
-  - 50585058
 member_hash: 3693781c45191e243a698a389e207d4c1653e01f07caf69f81dbecdba8d2b40d
 narrative: generated
 ---
 
 # Relationship management analytics
 
-> Relationship management analytics covers the built-in reports for Business Central relationship management (marketing/CRM). It answers questions about reports for contacts, campaigns, opportunities, sales cycles, segments and questionnaires, plus cover sheets, labels and email merge letters.
+> Relationship management analytics covers the built-in reports for contacts, campaigns, opportunities, sales cycles, segments, and profile questionnaires in Business Central. It answers questions about what each report shows, its filters and options, and how to print labels, cover sheets, and merged letters.
 
 Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Relationship management analytics · tier official · system crm · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section lists the built-in relationship management reports, which you can reach through Report Explorer. The overview page "Relationship management reports" is the entry point. Each other page describes one report.
+This section lists the standard reports for relationship management (marketing and CRM). The entry page, Relationship management reports, explains that the built-in reports are reached through Report Explorer. The other pages each describe one report.
 
-The reports fall into groups. Contact reports include List, Company Summary, Person Summary, Labels and two cover sheet reports. Opportunity and sales reports include Opportunity - Details, Opportunity - List, Sales Cycle - Analysis and Salesperson - Opportunities. Campaign - Details covers campaigns. Segment reports cover contact lists, cover sheets and labels. Questionnaire reports print handouts and test profile questionnaires. Email Merge produces personalized letters for a marketing segment.
+The reports fall into groups. Contact reports include List, Company Summary, Person Summary, Labels, and two cover sheet reports. Campaign - Details covers campaign costs, duration, and opportunity values. Opportunity - Details, Opportunity - List, Sales Cycle - Analysis, and Salesperson - Opportunities cover the sales pipeline. Segment - Contacts, Segment - Cover Sheet, Segment - Labels, and Email Merge support mailings to segments. Questionnaire - Handouts and Questionnaire - Test cover profile questionnaires.
 
-Start with the overview page to find the report you need. Then open its page to see what it shows and where to run it, for example from the Contact Card, the Segment page or the Profile Questionnaire Setup page.
+Start with Relationship management reports to see how to open reports. Then go to the page for the report you need to check its filters, options, and output.
 
 ## Key points
 
-- Reports are available through Report Explorer, listed on the Relationship management reports page.
-- Contact - List shows all contacts with contact type, related opportunities and to-dos; Company Summary and Person Summary show address or name, contact number, interactions and to-dos.
-- Contact - Cover Sheet is run from the Contact Card page and can log interactions; the separate Contact Cover Sheet report prints contact and company addresses, VAT registration and bank details.
-- Segment - Cover Sheet is run through Print Cover Sheets on the Segment page; Segment - Contacts lists the contacts selected in one or more segments.
-- Contact - Labels and Segment - Labels print names and addresses with configurable label size and column layout, useful for campaign letters.
-- Opportunity - Details, Opportunity - List, Sales Cycle - Analysis and Salesperson - Opportunities support sales pipeline review, with estimated and calculated values and salesperson filtering.
-- Email Merge creates personalized letters for a segment, with formal or informal salutation, segment content, salesperson signature and multilingual support.
-- Questionnaire - Handouts prints profile questionnaires; Questionnaire - Test shows test reports from the Profile Questionnaire Setup page.
+- Built-in relationship management reports are accessed through Report Explorer.
+- Contact - List can be filtered by contact number, name, type, salesperson, post code, or country/region. It shows opportunity counts and values, costs, duration, and next task date.
+- Contact - Company Summary and Contact - Person Summary show contact details with related interactions and to-dos. The company version also lists contact persons with job titles.
+- Contact - Labels and Segment - Labels print names and addresses. Segment - Labels offers 36 x 70 mm, 37 x 70 mm (three columns), 36 x 105 mm, and 37 x 105 mm (two columns) formats.
+- Contact - Cover Sheet and Segment - Cover Sheet support custom text, remarks, and interaction logging with an interaction template. The Contact Cover Sheet report also prints addresses, VAT registration, giro number, and bank details.
+- Email Merge creates personalized letters for segment contacts, with a formal or informal salutation, segment content, a salesperson signature, and multilingual support.
+- Opportunity - Details, Opportunity - List, Sales Cycle - Analysis, and Salesperson - Opportunities cover stages, to-dos, probability, completion, and estimated and calculated values.
+- Questionnaire - Handouts prints profile questionnaires. Questionnaire - Test finds questions without answers, answers without preceding questions, and missing classification settings.
 
 ## Learn pages
 
-- [Campaign - Details (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5060): Get an overview about the information related to a campaign.
-- [Contact - Company Summary (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5051): Get an overview about your contact companies, including related interactions and to-dos.
-- [Contact - Cover Sheet (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5055): Get cover sheets to send to one or more of your contacts.
-- [Contact - Labels (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5056): Print mailing labels with the names and addresses of your contacts.
-- [Contact - List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5050): Get list of all your contacts, including related opportunities and to-dos.
-- [Contact - Person Summary (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5053): Get information about a contact person, including related interactions and to-dos.
+- [Campaign - Details (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5060): Review campaign dates, status, costs, opportunity values, related segments, and campaign entries with the Campaign - Details report in Business Central.
+- [Contact - Company Summary (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5051): Review company contact details, associated contact persons, tasks, and interactions with the Contact - Company Summary report in Business Central.
+- [Contact - Cover Sheet (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5055): Create cover sheets for contacts, add text and remarks, and optionally log interactions with the Contact - Cover Sheet report in Business Central.
+- [Contact - Labels (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5056): Print mailing labels with contact names and addresses, using preset sizes and column counts, with the Contact Labels report in Business Central.
+- [Contact - List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5050): Review contact types, opportunity counts and values, costs, duration, and next task dates with the Contact List report in Business Central.
+- [Contact - Person Summary (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5053): Review contact person details and related interactions and tasks with the Contact - Person Summary report in Microsoft Dynamics 365 Business Central.
 - [Contact Cover Sheet report](https://learn.microsoft.com/dynamics365/business-central/reports/report-5085): Print a contact cover sheet that combines contact and company addresses with company banking details for correspondence and segment mailings.
 - [Email Merge report](https://learn.microsoft.com/dynamics365/business-central/reports/report-5084): Generate personalized mail merge letters for contacts by using segment content, salutations, company details, and salesperson signatures.
-- [Opportunity - Details (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5068): Get an overview of sales stages, to-dos, and planned to-dos for an opportunity.
-- [Opportunity - List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5061): Get a list of all your opportunities, including information about the sales cycle of the opportunity and related contacts and campaigns.
-- [Questionnaire - Handouts (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5066): Print handouts for a profile questionnaire.
-- [Questionnaire - Test (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5067): Show test reports of your profile questionnaires.
-  - In the observatory: [Page 5110 "Profile Questionnaire Setup"](../../../../objects/page/5110.md)
+- [Opportunity - Details (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5068): Review an opportunity's sales cycle stages, initial tasks, stage-related tasks, and planned activities with the Opportunity - Details report in Business Central.
+- [Opportunity - List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5061): Review opportunity descriptions, sales cycles and stages, status, probability, contacts, and campaigns with the Opportunity - List report in Business Central.
+- [Questionnaire - Handouts (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5066): Print profile questionnaire handouts and choose whether to include automatically answered questions with the Questionnaire - Handouts report in Business Central.
+- [Questionnaire - Test (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5067): Find missing questions, answers, and classification settings in profile questionnaires with the Questionnaire - Test report in Business Central.
 - [Relationship management reports](https://learn.microsoft.com/dynamics365/business-central/marketing-reports): Discover built-in reports that can help you monitor and manage your relationship management activities.
-- [Sales Cycle - Analysis (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5062): Get an overview about your sales cycles.
-- [Salesperson - Opportunities (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5058): Review which salespeople handle which opportunities.
-  - In the observatory: [Report 5058 "Salesperson - Opportunities"](../../../../objects/report/5058.md)
-- [Segment - Contacts (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5063): Review the distribution of contacts across segments.
-- [Segment - Cover Sheet (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5064): Get or print cover sheets for your segments.
-- [Segment - Labels (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5065): Print labels with the names and addresses of contacts for your segments.
+- [Sales Cycle - Analysis (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5062): Review sales cycle stages, opportunity counts, estimated and calculated current values, and average days with the Sales Cycle - Analysis report in Business Central.
+- [Salesperson - Opportunities (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5058): Review opportunities by salesperson, including status, priority, probability, and closing dates, with the Salesperson Opportunities report in Business Central.
+- [Segment - Contacts (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5063): Review contacts in selected segments, including addresses, salespeople, interaction counts, costs, and opportunity values, with this Business Central report.
+- [Segment - Cover Sheet (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5064): Create cover sheets for contacts in segments, add text and remarks, and optionally log interactions with the Segment - Cover Sheet report in Business Central.
+- [Segment - Labels (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5065): Print names and addresses for contacts in a segment, using preset label sizes and column counts, with the Segment - Labels report in Business Central.
 
 ## Videos, posts and code changes
 
@@ -304,7 +301,5 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Report 5068 "Opportunity - Details"](../../../../objects/report/5068.md)
 - [Report 5084 "Email Merge"](../../../../objects/report/5084.md)
 - [Report 5085 "Contact Cover Sheet"](../../../../objects/report/5085.md)
-
-Learn also names 1 object with no object page: report/50585058.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

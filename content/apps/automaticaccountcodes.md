@@ -2,7 +2,7 @@
 id: app/automaticaccountcodes
 type: app
 title: AutomaticAccountCodes
-summary: "AutomaticAccountCodes (Microsoft.Finance): 46 objects in BC29-30 (14 page extensions, 13 table extensions, 8 permission set extensions, 3 tables, 3 pages, ...); documented by 1 Learn hub."
+summary: "AutomaticAccountCodes (Microsoft.Finance): 46 objects in BC29-30 (14 page extensions, 13 table extensions, 8 permission set extensions, 3 tables, 3 pages, ...); documented by 2 Learn hubs."
 tier: official
 language: en
 tags:
@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: bd0ea66c22c491ecc231615aed5491d8c952c30c54f774f29e1a6c29a0b9b2d2
+  input_hash: cb2f9c0f4ccb7dc6919693ad19c0b60a07967656d7a1f61564d4ee287beb8284
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/AutomaticAccountCodes/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/AutomaticAccountCodes/app
     title: src/Apps/W1/AutomaticAccountCodes/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -78,6 +78,7 @@ links:
     - object/permissionsetextension/4857
   features: []
   topics:
+    - topic/business-central/business-functionality/local-functionality/sweden/core-finance
     - topic/business-central/business-functionality/local-functionality/finland/core-finance
   localizations: []
   videos: []
@@ -99,14 +100,14 @@ counts:
     permissionset: 3
     codeunit: 1
     enum: 1
-  hubs: 1
+  hubs: 2
   videos: 0
   posts: 0
 ---
 
 # AutomaticAccountCodes
 
-> AutomaticAccountCodes (Microsoft.Finance): 46 objects in BC29-30 (14 page extensions, 13 table extensions, 8 permission set extensions, 3 tables, 3 pages, ...); documented by 1 Learn hub.
+> AutomaticAccountCodes (Microsoft.Finance): 46 objects in BC29-30 (14 page extensions, 13 table extensions, 8 permission set extensions, 3 tables, 3 pages, ...); documented by 2 Learn hubs.
 
 First-party app · folder `src/Apps/W1/AutomaticAccountCodes/app` · namespace `Microsoft.Finance` · BC29-30 · system finance · facts from the code pillar and the joins, nothing machine-written
 
@@ -114,6 +115,7 @@ First-party app · folder `src/Apps/W1/AutomaticAccountCodes/app` · namespace `
 
 The topic hubs whose Learn pages name this app's pages and reports (a table counts through the pages on it), by the number of the app's objects they document.
 
+- [Core finance](../topics/business-central/business-functionality/local-functionality/sweden/core-finance.md) (Business functionality > Local functionality > Sweden): 5 objects
 - [Core finance](../topics/business-central/business-functionality/local-functionality/finland/core-finance.md) (Business functionality > Local functionality > Finland): 3 objects
 
 ## Objects
@@ -206,4 +208,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 4856 | [D365 TEAM MEMBER - AAC](../objects/permissionsetextension/4856.md) |  |
 | 4857 | [INTELLIGENT CLOUD - AAC](../objects/permissionsetextension/4857.md) |  |
 
-Source: [src/Apps/W1/AutomaticAccountCodes/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/AutomaticAccountCodes/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/AutomaticAccountCodes/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/AutomaticAccountCodes/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

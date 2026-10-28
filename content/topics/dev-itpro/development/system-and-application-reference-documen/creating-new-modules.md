@@ -2,26 +2,26 @@
 id: topic/dev-itpro/development/system-and-application-reference-documen/creating-new-modules
 type: topic
 title: Creating new modules
-summary: Creating new modules covers how to build, change, and contribute AL modules in the Business Central System Application. It answers questions about environment setup, module architecture rules, facade and implementation codeunits, .NET wrapper modules, tests, and the Git workflow.
+summary: "Creating new modules covers how to contribute to the Business Central System Application: setting up the environment, understanding module architecture, building new modules, changing existing ones, and writing .NET wrapper modules. It answers how-to and design-rule questions for contributors."
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:23:23.589Z"
+  at: "2026-10-28T11:02:57.469Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 46b2a05aa39730e70e5be4f4629ecddde03d1dc7514919b1874dbd1b76affd3a
+  input_hash: 014733d1329091582de0a653a930eb3b33bb6c551782d34537813cc85d2c6f35
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-change-a-module
-    title: Change a module in the System Application
-    date: "2024-01-03"
+    title: Change a System Application Module in Business Central
+    date: "2026-10-16"
     commit: null
     t: null
     quote: null
@@ -96,32 +96,31 @@ narrative: generated
 
 # Creating new modules
 
-> Creating new modules covers how to build, change, and contribute AL modules in the Business Central System Application. It answers questions about environment setup, module architecture rules, facade and implementation codeunits, .NET wrapper modules, tests, and the Git workflow.
+> Creating new modules covers how to contribute to the Business Central System Application: setting up the environment, understanding module architecture, building new modules, changing existing ones, and writing .NET wrapper modules. It answers how-to and design-rule questions for contributors.
 
 Path: [Development](../../development.md) > [System and application reference documentation](../system-and-application-reference-documen.md) > Creating new modules · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section is for developers who want to contribute modules to the System Application in the BCApps repository. It explains the design rules for modules, how to prepare a local development environment, and how to create or change a module.
+This section is for developers who want to add or change modules in the System Application, working in the BCApps repository. It explains the design rules for modules and walks through the practical steps of contributing.
 
-Start with "Get started with modules" for the requirements (AL development, Git, environment setup). Then follow "Set up an environment for developing a module", which uses GitHub, Docker, BcContainerHelper, and Visual Studio Code. "Module Architecture" gives the design principles you need before writing code: independent projects, public facades, dependency layers, and access modifiers.
+Start with "Get started with modules" for the requirements (AL development, Git, environment setup), then "Set up an environment for developing a module" for GitHub, Docker, BcContainerHelper and Visual Studio Code. Read "Module Architecture" before writing code, since it defines facades, dependencies, access modifiers and extensibility controls.
 
-Next, choose the task page. "Create a new module in the System Application" walks through facade and implementation codeunits, tests, and contribution guidelines. "Change a module in the System Application" covers modifying existing modules without breaking changes. "Create a .NET Wrapper Module" shows how to expose .NET functionality in AL, using the Regex module as an example.
+Then pick the task page: "Create a new module in the System Application" for a new module with facade and implementation codeunits plus tests, "Change a System Application Module" for edits to existing modules, or "Create a .NET Wrapper Module" for exposing .NET functionality in AL, with the Regex module as the example.
 
 ## Key points
 
-- Modules are developed in the BCApps repository using a Git workflow.
-- Environment setup uses GitHub, Docker, BcContainerHelper, and Visual Studio Code.
-- Module architecture separates modules into independent projects with a public facade and internal implementation.
-- Architecture guidance covers dependencies across functional layers, object accessibility, access modifiers, and extensibility controls.
-- A new module needs a facade codeunit, an implementation codeunit, and unit tests.
-- Changes to existing modules must follow the architecture guidelines, avoid breaking changes, and include tests.
-- .NET wrapper modules use codeunits and temporary tables, the facade pattern, an argument-table pattern, and constructor handling.
-- The Regex module is the worked example for .NET wrapping.
+- Work happens in the BCApps repository with a Git workflow, Docker container, BcContainerHelper and Visual Studio Code.
+- Module architecture separates modules into independent projects with public facades and managed dependencies across functional layers.
+- Access modifiers and object accessibility keep implementation internal and control extensibility.
+- A new module needs a facade codeunit, an implementation codeunit and unit tests.
+- Changing a module involves updating the implementation, exposing and documenting public functions, and adding tests.
+- A .NET wrapper module uses codeunits and temporary tables, with facade and argument-table patterns and constructor handling.
+- The Regex module is the worked example for .NET wrappers.
 
 ## Learn pages
 
-- [Change a module in the System Application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-change-a-module): Learn about steps and examples of how to change a module in the System Application.
+- [Change a System Application Module in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-change-a-module): Learn how to change a System Application module in Business Central, preserve existing behavior, add public APIs and tests, and submit a contribution.
 - [Create a .NET Wrapper Module](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-create-a-wrapper-module): This article provides a description of how to contribute a .NET wrapper module.
   - In the observatory: [Codeunit 3960 "Regex"](../../../../objects/codeunit/3960.md), [Codeunit 3961 "Regex Impl."](../../../../objects/codeunit/3961.md), [Table 3965 "Matches"](../../../../objects/table/3965.md), [Table 3966 "Regex Options"](../../../../objects/table/3966.md)
 - [Create a new module in the System Application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-new-module): Learn how to create a new module in the System Application.

@@ -1,34 +1,36 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/italy/inventory",
-  "input_hash": "25247baa66853751a4ab600c6390f53dc343377798f5dded4affe5dd44335956",
-  "summary": "Italian local inventory functionality in Business Central: setting up fiscal inventory valuation and initial item costs. It answers how to configure valuation methods, components valuation, estimated WIP consumption, valuation types per item, and starting costs used for average year cost.",
-  "overview": "This section covers two setup tasks for the Italian version of Business Central that support fiscal inventory valuation. One page explains how to configure the valuation methods. The other explains how to enter starting item costs so average year costs can be calculated.",
+  "input_hash": "263aa3e53b34a27b4271cd6e88d0ef7c698f995e826078be2d82fdbc15b7119a",
+  "summary": "Italy inventory functionality in Business Central covers fiscal inventory valuation setup and entry of initial item costs from before implementation. It answers questions about valuation methods, item costing setup, LIFO categories and the Before Start Item Cost page.",
+  "overview": "This section covers two setup tasks specific to the Italian version of Business Central. Both support fiscal inventory valuation, which is the calculation of inventory value for Italian fiscal purposes.\n\nThe first page explains how to configure item costing setup and assign a valuation method to each item. The second explains how to use the Before Start Item Cost page to enter historical item costs and quantities from before Business Central was implemented, so fiscal valuation calculations have a starting basis.\n\nStart with the fiscal inventory valuation page to set the methods and costing setup. Then use the initial item costs page to load historical data if you are moving from an earlier system.",
   "key_points": [
-    "Fiscal inventory valuation setup includes components valuation and estimated WIP consumption settings.",
-    "Inventory valuation types are assigned to individual items after the general settings are configured.",
-    "Initial item costs are entered in the Before Start Item Cost page.",
-    "Entries include a starting date, purchase quantities and amounts, and production quantities and amounts.",
-    "These entries are used to calculate average year costs.",
-    "Both pages are marked [IT] and apply to the Italian local functionality."
+    "Fiscal inventory valuation is set up through item costing setup plus a valuation method on each item.",
+    "Valuation-related features include Components Valuation, Estimated WIP Consumption, Inventory Valuation, Discrete LIFO and Lifo Category.",
+    "The Before Start Item Cost page holds historical item costs and quantities from before Business Central was implemented.",
+    "Initial cost data feeds fiscal valuation calculations.",
+    "Cost fields on the Before Start Item Cost page include Direct Components Amount, Direct Routing Amount, Overhead Routing Amount, Subcontracted Amount and Production Amount.",
+    "Both pages apply only to the Italian version."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:50.516Z",
+  "at": "2026-10-28T10:57:46.452Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.006841
+    "cost_usd": 0.009085
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T05:21:54.210Z",
+    "at": "2026-10-28T11:04:00.152Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the overview describes the content as two setup tasks for the Italian version. The two page summaries support this reading, and no change is needed."
+      "The overview tells readers to do the fiscal inventory valuation setup before entering initial item costs. The page summaries don't give any order, so this is the writer's suggestion rather than documented guidance. It is harmless.",
+      "Key point 5 calls Direct Components Amount, Direct Routing Amount and the others fields on the Before Start Item Cost page. The source lists them as features of the initial item costs page, so 'fields' is a reasonable reading but not stated outright.",
+      "The overview describes fiscal inventory valuation as calculating inventory value for Italian fiscal purposes, and says the initial costs page is for when you are moving from an earlier system. Both are light paraphrases that go slightly beyond the summaries but fit them."
     ],
-    "input_hash": "25247baa66853751a4ab600c6390f53dc343377798f5dded4affe5dd44335956",
-    "cost_usd": 0.0205392
+    "input_hash": "263aa3e53b34a27b4271cd6e88d0ef7c698f995e826078be2d82fdbc15b7119a",
+    "cost_usd": 0.0231992
   }
 }

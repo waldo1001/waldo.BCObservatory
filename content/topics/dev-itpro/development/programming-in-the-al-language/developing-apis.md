@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:21.197Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,6 +107,7 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/aardvarklabs-blog/3388
     - post/aardvarklabs-blog/4082
     - post/thinkaboutit-be/7061
   guidelines: []
@@ -126,7 +127,7 @@ coverage:
   learn: 10
   code: 0
   video: 0
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 198bbaa7e4c9ee4e788121e511fb23fa78de1ec0a3f9625833096531ab5a506e
@@ -178,6 +179,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11701 [MCP] Hide codeunit APIs from Available APIs dropdown (AB#650771)](../../../../changes/bcapps/11701.md) (code change): "Codeunit API options are hidden from the MCP Configuration Available APIs dropdown"
 - [#9725 [Master] - Slice 626127: [Excise Tax][VENDOR] Multiple Excise Taxes per Item](../../../../changes/bcapps/9725.md) (code change): "Item Excise Tax API page (7417)"
 - [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../../changes/bcquality/156.md) (code change): "2 web-services articles: keep consumer-provided key fields editable on insert"
+- [My 2026 Tradeshow Schedule and Highlights](../../../../posts/aardvarklabs-blog/3388.md) (community post): "the session guides migration to modern Business Central APIs"
 - [Business Central’s New API Overview: A Modern Replacement for Web Services](../../../../posts/aardvarklabs-blog/4082.md) (community post): "AL-defined APIs are the future direction Microsoft is moving toward"
 - [Quick Tip: Say Goodbye to OData on Microsoft Pages in Business Central 2027 Wave 1 (version 30.0)](../../../../posts/thinkaboutit-be/7061.md) (community post): "Developers must audit current integrations, migrate to custom extensions or query objects"
 

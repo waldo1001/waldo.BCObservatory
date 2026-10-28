@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/finance/set-up-and-use-e-documents
 type: topic
 title: Set up and use E-Documents
-summary: "E-Documents in Business Central: how to set up, connect and use electronic invoices and business documents in sales and purchasing. It answers questions about service and workflow setup, Peppol formats, external access points, Microsoft 365 connectors, and extending the framework."
+summary: E-Documents in Business Central covers setting up the E-Documents app and services, connecting to external access points and Microsoft 365, and using e-documents in sales and purchasing. It answers questions about setup, connectors, Peppol formats, status tracking, matching incoming documents, and extending the framework.
 tier: official
 language: en
 system: finance
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:21:05.029Z"
+  at: "2026-10-28T11:02:25.424Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: de5f6315fc1c1c74725721329c76d04e681cd8a6d3562f2ddff3f4a26916d652
+  input_hash: eab143d7c707c507001798b92afbfffcb22922b0c74ad47127a6d8d88265758a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-edocuments-connectors
@@ -49,7 +49,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-edocuments
     title: Set Up E-documents
-    date: "2025-07-17"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
@@ -160,27 +160,24 @@ narrative: generated
 
 # Set up and use E-Documents
 
-> E-Documents in Business Central: how to set up, connect and use electronic invoices and business documents in sales and purchasing. It answers questions about service and workflow setup, Peppol formats, external access points, Microsoft 365 connectors, and extending the framework.
+> E-Documents in Business Central covers setting up the E-Documents app and services, connecting to external access points and Microsoft 365, and using e-documents in sales and purchasing. It answers questions about setup, connectors, Peppol formats, status tracking, matching incoming documents, and extending the framework.
 
 Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Set up and use E-Documents · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The E-Documents app manages electronic invoices and other business documents in Business Central. It supports localization for multiple countries and can be extended for specific requirements. The overview page is the place to start, followed by the setup page, which covers e-document services, workflows and document sending profiles.
-
-Connectivity has two sides. Connectors to external access points (Pagero, Avalara, Logiq, ExFlow, B2BRouter) are described in one page, and a second page covers installing the E-Document Core app and connector apps from Microsoft Marketplace. A separate page covers connecting to Outlook, SharePoint and OneDrive to import vendor invoices and receipts.
-
-Day-to-day use is split into sales and purchase pages. Sales covers creating and sending e-invoices and credit memos and checking status and logs. Purchase covers receiving, matching and processing incoming documents. A page for developers describes the interfaces that localization apps and ISVs use to add formats and services.
+The E-Documents app manages electronic invoices and other business documents in Business Central. It supports localizations for several countries and has extension points for specific requirements. Start with the overview page, then read \"Set Up E-documents\". That page covers the E-Documents Service, document sending profiles, the PEPPOL BIS 3.0 format, and the clearance model used in countries such as Spain, India, Mexico, and Italy.\n\nThree pages cover connections. One explains connecting to external access points (Pagero, Avalara, Logiq, ExFlow, B2BRouter). Another covers installing the E-Document Core app and connector apps from Microsoft Marketplace, then configuring services, GLN, customers, and workflows for non-Microsoft endpoints. A third covers connecting Outlook, SharePoint, and OneDrive to import vendor invoices and receipts.\n\nFor daily work, \"Use e-documents in sales\" covers creating and sending e-invoices and credit memos, sending them as email attachments, and checking status and logs. \"Use E-Documents in the purchase process\" covers receiving, matching, vendor setup, and error handling. Developers building localizations or ISV extensions should read \"Extending the e-documents functionality\".
 
 ## Key points
 
-- Setup covers e-document services, workflows and document sending profiles, with PEPPOL BIS 3.0, Data Exchange formats and the clearance model (page lists version 24.0).
-- External connectors listed: Pagero, Avalara, Logiq, ExFlow and B2BRouter, with OAuth 2.0 authentication.
-- Endpoint connector setup needs the E-Document Core app plus connector apps from Microsoft Marketplace, then connection setup, GLN configuration, customer e-document setup and workflow configuration.
+- The E-Documents app manages sales and purchase e-documents, tracks document status, and supports Peppol formats.
+- Setup covers the E-Documents Service, document sending profiles, data exchange, and automatic import and processing. A clearance model is described for countries such as Spain, India, Mexico, and Italy.
+- The listed connectors to external access points are Pagero, Avalara, Logiq, ExFlow, and B2BRouter, and they use OAuth 2.0 authentication.
+- Connecting to non-Microsoft endpoints requires the E-Document Core app and connector apps from Microsoft Marketplace, plus setup of GLN, customer e-documents, and workflows.
 - Microsoft 365 connectors (Outlook, SharePoint, OneDrive) import vendor invoices and receipts for accounts payable, using E-Document Services and Service Integration V2.
-- Sales: create and send e-invoices and credit memos in Peppol formats, and view e-document status and logs.
-- Purchase: handles invoices, orders and credit memos, with automatic matching, Copilot purchase order matching, text-to-account mapping, item reference mapping and vendor configuration.
-- Extensibility covers document format creation, service integration, async sending, batch processing, response handling and receiving (page lists 2025 release wave 1).
+- In sales you can create and send e-invoices and credit memos in Peppol formats, view status and logs, and send documents as email attachments.
+- Purchasing supports invoices, orders, and credit memos, with automatic matching, purchase order matching with Copilot, text-to-account mapping, and item reference mapping.
+- The extension framework covers document format creation, service integration, async sending, batch processing, response handling, and document receiving. The page references 2025 release wave 1.
 
 ## Learn pages
 
@@ -190,7 +187,7 @@ Day-to-day use is split into sales and purchase pages. Sales covers creating and
 - [Extending the e-documents functionality](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments): Learn how to extend e-documents functionality with specific requirements.
   - In the observatory: [Codeunit 6109 "E-Document Import Helper"](../../../../objects/codeunit/6109.md), [Codeunit 6115 "E-Document Error Helper"](../../../../objects/codeunit/6115.md), [Codeunit 6148 "E-Document Helper"](../../../../objects/codeunit/6148.md), [Enum 6101 "E-Document Format"](../../../../objects/enum/6101.md), [Enum 6121 "E-Document Type"](../../../../objects/enum/6121.md), [Enum 6128 "E-Document Processing Phase"](../../../../objects/enum/6128.md)
 - [Set Up E-documents](https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-edocuments): Learn how to set up e-documents in Business Central with step-by-step configuration of services, formats, workflows, and document sending profiles.
-  - In the observatory: [Page 143 "Posted Sales Invoices"](../../../../objects/page/143.md), [Page 1500 "Workflows"](../../../../objects/page/1500.md), [Page 1505 "Workflow Templates"](../../../../objects/page/1505.md), [Page 5194 "Contoso Demo Tool"](../../../../objects/page/5194.md)
+  - In the observatory: [Page 143 "Posted Sales Invoices"](../../../../objects/page/143.md), [Page 1500 "Workflows"](../../../../objects/page/1500.md), [Page 1505 "Workflow Templates"](../../../../objects/page/1505.md), [Page 5194 "Contoso Demo Tool"](../../../../objects/page/5194.md), [Page 6121 "E-Document"](../../../../objects/page/6121.md)
 - [Set up the E-Documents connector with external endpoints](https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-edocuments-external): This article explains how to set up E-Documents functionality when connected to external endpoints.
   - In the observatory: [Page 1 "Company Information"](../../../../objects/page/1.md), [Page 36954 "Customers"](../../../../objects/page/36954.md)
 - [Use e-documents in sales](https://learn.microsoft.com/dynamics365/business-central/finance-how-use-edocuments): Learn how to use e-documents functionality that is related to sales.

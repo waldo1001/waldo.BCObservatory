@@ -2,47 +2,47 @@
 id: topic/business-central/business-functionality/local-functionality/italy/general
 type: topic
 title: General
-summary: "Italy general local functionality in Business Central: company information setup, the deprecated Italian Subcontracting feature and its migration, and Intrastat journal templates and batches. Answers setup and configuration questions for Italian localization."
+summary: "General Italy functionality in Business Central: company information setup with Italian fiscal fields, Intrastat journal templates and batches, and the deprecation of Italian subcontracting with migration to the new Subcontracting app. It answers setup and migration questions for Italian companies."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:27:37.467Z"
+  at: "2026-10-28T11:03:51.041Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 03ca02899173e7b83605948c41e9de895686cb44ad365768fdf024c204872f14
+  input_hash: 8c562434312e745c9264252586e7d7329339920dc7a4731e76ebf9441630d945
 evidence:
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-company-information
-    title: How to set up company information
-    date: "2025-05-21"
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-subcontracting
+    title: Italian Subcontracting and Migration
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-subcontracting
-    title: Italian Subcontracting
-    date: "2026-09-01"
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-company-information
+    title: Set Up Company Information for Italy
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches
-    title: Set Up Journal Templates and Batches (IT)
-    date: "2025-05-22"
+    title: Set Up Journal Templates and Batches
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-company-information
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-subcontracting
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-company-information
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches
   objects: []
   features: []
@@ -83,35 +83,36 @@ narrative: generated
 
 # General
 
-> Italy general local functionality in Business Central: company information setup, the deprecated Italian Subcontracting feature and its migration, and Intrastat journal templates and batches. Answers setup and configuration questions for Italian localization.
+> General Italy functionality in Business Central: company information setup with Italian fiscal fields, Intrastat journal templates and batches, and the deprecation of Italian subcontracting with migration to the new Subcontracting app. It answers setup and migration questions for Italian companies.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section collects three general setup topics for the Italian version of Business Central. They are independent of each other, so you can read whichever matches your task.
+This section collects the general setup topics for Italian localization. Three pages cover it: company information, Intrastat journal setup, and Italian subcontracting with its migration path. There are no subtopics.
 
-Company information covers the Company Information page, where general, communication, payment, shipping, and administration details are entered. These details appear in all reports and fiscal documents, so it is a sensible first step. The Intrastat page explains how to create journal templates and batches to record EU trade transactions for submission to tax authorities.
+Start with the company information page. It covers the general, contact, bank and shipping details, plus Italian fiscal registration fields that reports and electronic documents use. Then set up Intrastat journal templates and batches if the company reports EU trade, before submitting Intrastat reports.
 
-The Italian Subcontracting page describes outsourcing component production through linked BOM and subcontractor operations. It is marked as deprecated and replaced by the Subcontracting app, with a migration available for sandbox environments. Read it before using or migrating legacy subcontracting data.
+The subcontracting page matters if you use the legacy Italian subcontracting. It is deprecated and hidden by default in version 28.3. A new Subcontracting app replaces it, and the IT Subcontracting Migration app supports migration in sandbox environments.
 
 ## Key points
 
-- Company Information page holds general, communication, payment, shipping, and administration details.
-- Company information appears in all reports and fiscal documents.
-- Intrastat journal templates are set up with a name and description.
-- Intrastat journal batches are configured with periodicity, type, statistics period, and currency information.
-- Intrastat journals record EU trade transactions for submission to tax authorities.
-- Italian Subcontracting uses BOM linking, subcontractor price lists, and Work in Progress (WIP).
-- Italian Subcontracting is deprecated and replaced by the Subcontracting app.
-- The IT Subcontracting Migration app is available for sandbox environments; the page mentions versions 27.0 and 28.3.
+- Company information for Italy includes fiscal code, activity code, REA number and register company number.
+- Company information also covers contact, bank and shipping details used in reports and electronic documents.
+- Intrastat journal templates and batches are set up before submitting Intrastat reports.
+- Intrastat batch setup includes periodicity, entry type (Purchases/Sales), statistics period and corrective entries.
+- Italian subcontracting is deprecated and hidden by default in version 28.3.
+- Legacy Subcontracting can still be activated if needed.
+- The IT Subcontracting Migration app moves data to the new Subcontracting app, available for sandbox environments.
+- The new Subcontracting app involves WIP, subcontracting price lists and Production BOM integration.
 
 ## Learn pages
 
-- [How to set up company information](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-company-information): Learn how to set up required company details on the Company Information page to ensure fiscal documents include complete and accurate information.
+- [Italian Subcontracting and Migration](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-subcontracting): Learn about legacy Italian subcontracting in Business Central, check migration prerequisites, and move applicable data to the Subcontracting app.
+  - In the observatory: [Page 99000768 "Manufacturing Setup"](../../../../../objects/page/99000768.md)
+- [Set Up Company Information for Italy](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-company-information): Learn how to set up required company details on the Company Information page to ensure fiscal documents include complete and accurate information.
   - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md)
-- [Italian Subcontracting](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-subcontracting): Master Production Scheduling (MPS) and Material Requirements Planning (MRP) enable contractors to efficiently manage outsourced and subcontracted components.
-- [Set Up Journal Templates and Batches (IT)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches): Learn how the Italian version of Business Central helps EU companies meet the requirement to submit Intrastat reports to the customs office.
+- [Set Up Journal Templates and Batches](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches): Learn how the Italian version of Business Central helps EU companies meet the requirement to submit Intrastat reports to the customs office.
 
 ## Business Central pages and reports
 

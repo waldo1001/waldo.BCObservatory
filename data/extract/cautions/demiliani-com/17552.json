@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/demiliani-com/17552",
+  "page_id": "post/demiliani-com/17552",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "After the 72 hours time limit, the sandbox environment configuration will be restored during the next update window.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2026 Wave 2"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "You have a maximum number of 3 operations of this type per month.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2026 Wave 2"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003697,
+    "posts_in_call": 3
+  }
+}

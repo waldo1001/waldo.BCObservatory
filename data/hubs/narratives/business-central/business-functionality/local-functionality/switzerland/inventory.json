@@ -1,34 +1,37 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/switzerland/inventory",
-  "input_hash": "c2ea669ed7961bf90f78feea684feb18d1cb5f81b744ecb4785e381279681af6",
-  "summary": "Inventory functionality specific to the Swiss version of Business Central. It covers printing inventory picking lists from sales orders and Swiss inventory management behavior such as default location codes, multiple shipments per invoice, and inventory reporting.",
-  "overview": "This section describes inventory features that apply to the Swiss (CH) version of Business Central. It has two pages and no subtopics.\n\nStart with \"Swiss inventory management [CH]\" for the general behavior: invoices can track multiple shipments, and default location codes from item cards are used on sales lines and journals. It also mentions storing customer and sales person information and customized reporting through Inventory reports.\n\nThen read \"Print an Inventory Picking List from a Sales Order in Switzerland\" if you work with warehouse picking. It explains how to use the Picking List action on a sales order to print bin codes, location codes, serial numbers and quantities.",
+  "input_hash": "fcea654cba648fc39b002a527dc0d73ff37cb23fdef63f50e2c54935671dfaa3",
+  "summary": "Swiss inventory functionality in Business Central: printing a sales order picking list and the Swiss inventory management features for reporting, multi-shipment invoice tracking and location codes. It answers questions about picking lists and Swiss-specific inventory behavior.",
+  "overview": "This section covers inventory features specific to the Swiss localization of Business Central. It has two pages and no subtopics.\n\n\"Swiss Inventory Management [CH]\" is the general page. It describes detailed reporting, item ledger entry details, default location codes, and tracking of multi-shipment invoices, including combined invoicing and shipment numbers in the invoice text. \"Print a Sales Order Picking List in Switzerland\" is the task page. It shows how to print a picking list from a sales order.\n\nStart with the Swiss Inventory Management page for an overview of what the localization adds. Then use the picking list page when you need to print pick documents for warehouse staff.",
   "key_points": [
-    "Swiss inventory management tracks invoices that have multiple shipments.",
-    "Default location codes from item cards are used for sales lines and journals.",
-    "Customer and sales person information is stored, and Inventory reports give detailed, customizable reporting.",
-    "The Picking List action on a sales order prints an inventory picking list.",
+    "The picking list is printed from a sales order in the Swiss version.",
     "The picking list shows bin codes, location codes, serial numbers and quantities.",
-    "Only items with a shipping quantity greater than zero appear on the picking list."
+    "Only items with a shipping quantity greater than 0 appear on the picking list.",
+    "The picking list print options include the number of copies.",
+    "Swiss inventory management includes detailed reporting with item ledger entry details.",
+    "Multi-shipment invoices can be tracked, with combined invoicing and shipment numbers in the invoice text.",
+    "Default location codes can be managed for items."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:06:12.669Z",
+  "at": "2026-10-28T10:58:22.127Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.008149
+    "cost_usd": 0.008545
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T05:22:01.586Z",
+    "at": "2026-10-28T11:04:12.429Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the source lists customer information storage, sales person information and customized reporting only as feature labels. The narrative words them carefully, but it can't add any more detail about them."
+      "Overview says pick documents are for 'warehouse staff'; the source doesn't name the audience. Minor and harmless.",
+      "Key point 5 links detailed reporting to item ledger entry details. The source lists them as separate features, so this is a slight inference.",
+      "Combined invoicing and shipment number in invoice text are presented as part of multi-shipment tracking. The source lists them side by side, so this is a reasonable but unstated grouping."
     ],
-    "input_hash": "c2ea669ed7961bf90f78feea684feb18d1cb5f81b744ecb4785e381279681af6",
-    "cost_usd": 0.0165712
+    "input_hash": "fcea654cba648fc39b002a527dc0d73ff37cb23fdef63f50e2c54935671dfaa3",
+    "cost_usd": 0.0277032
   }
 }

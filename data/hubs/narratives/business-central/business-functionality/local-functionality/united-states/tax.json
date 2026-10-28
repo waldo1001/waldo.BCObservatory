@@ -1,37 +1,36 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/united-states/tax",
-  "input_hash": "bb238a3740286730b62972f2c27e630c2bf7da5bd0ea78508c1cff5456b40356",
-  "summary": "US tax in Business Central: sales tax, use and purchase tax, unrealized sales tax, and IRS 1099 and 1096 forms. It answers questions about tax setup, jurisdictions and groups, 1099 vendor tracking, form format changes, and submitting forms to the IRS.",
-  "overview": "This section covers tax functionality specific to the US version. One group of pages handles sales and purchase taxes: basic tax setup (Tax Setup page, default G/L accounts, nontaxable sales group code), sales tax details, jurisdictions and groups, use tax and purchase tax, and unrealized sales tax with sales payment discounts.\n\nThe other group covers IRS reporting. It includes an introduction to the 1099 forms (MISC, NEC, INT, DIV), setup of 1099 forms and reporting periods, tracking 1099 data on purchase documents, regulatory box format changes, submission to the IRS, and the 1096 transmittal form for paper 1099s.\n\nStart with Basic Tax Setup and Sales tax for general tax configuration. For 1099 work, read the introduction first, then the setup pages, then tracking and submission. Several 1099 pages carry version notes. The regulatory format changes are available from version 24.0 and mandatory from version 27.0. The 1099 setup is enabled automatically from version 27.0. Check the version notes on each page.",
+  "input_hash": "fcb59fa238d1e797116863b77cdbdce74cdab2bc4a628ad7ddd077fedb8bc25c",
+  "summary": "US tax in Business Central: sales tax setup (tax groups, jurisdictions, areas, details), use and purchase tax, unrealized sales tax, and IRS 1099 and 1096 form setup, tracking, reporting and submission. It answers setup and compliance questions for US companies.",
+  "overview": "This section covers tax features specific to the US version of Business Central. Two areas are covered: sales and use tax, and IRS information reporting.\n\nFor sales tax, start with Basic Tax Setup in the US Version (tax groups, default tax accounts, jurisdictions, areas). Then see Sales tax in the US Version for tax details, rates and effective dates. Separate pages cover Use Tax and Purchase Tax, and unrealized sales tax with sales payment discounts.\n\nFor IRS reporting, start with the 1099 overview, then Set Up IRS 1099 Forms Reporting (assisted setup guide or manual setup). Next, Track and Review Vendor Data for IRS 1099 Forms, then IRS 1099 Forms Reporting and Submission. Form 1096 has its own setup and reporting page. A legacy workflow page applies to versions before 27.0. A regulatory page lists 1099 box format changes, available from version 24.0 and mandatory from 27.0.",
   "key_points": [
-    "Basic tax setup uses the Tax Setup page to define tax information, group codes and default accounts for tax posting.",
-    "Sales tax is configured through the Tax Details page, tax jurisdictions and tax groups, with a Copy Tax Setup task.",
-    "Separate pages cover use tax, purchase tax, and unrealized sales tax with sales payment discounts.",
-    "The 1099 forms supported are 1099-MISC, 1099-NEC, 1099-INT and 1099-DIV, with IRS submission and Copy B vendor copies.",
-    "1099 setup covers reporting periods, form box configuration, vendor mapping, TIN protection and 1099 codes and amounts on purchase documents and vendor ledger entries.",
-    "Regulatory 1099 box format changes are available from version 24.0 and mandatory from version 27.0, applied with the Update Form Boxes action.",
-    "1099 forms can be submitted through IRIS or magnetic media, with transmission status, error handling, corrections and email delivery.",
-    "Form 1096 is enabled in Feature Management, needs a number series, and is created, replaced, released and printed per tax period."
+    "Basic tax setup covers the non-taxable tax group code, default sales and purchase tax accounts, reverse charge for purchases, tax jurisdictions and tax areas.",
+    "Sales tax details are set per jurisdiction and tax group, with tax type, effective date, and rates below and above the maximum.",
+    "IRS 1099 setup is done through the IRS Forms Guide or manually: reporting periods, forms, form boxes, vendor defaults, print settings, and copying setup across companies.",
+    "Vendor tracking uses 1099 liable marking, form numbers and form box numbers on purchase documents, with vendor form box adjustments and corrections.",
+    "1099 submission supports IRIS integration, magnetic media or manual methods: create form documents, release them, submit transmissions, correct errors, handle rejected transmissions, and email vendor copies.",
+    "The overview lists 1099-MISC, 1099-NEC, 1099-INT and 1099-DIV, with IRIS electronic filing and substitute copy printing.",
+    "Form 1096 transmits paper 1099 forms and needs the extension activated, number series, company EIN and IRS contact information.",
+    "The legacy 1099 workflow (Update Form Boxes, IRS 1099 Code and Amount fields) applies to versions before 27.0. The Update Form Boxes action supports regulatory box changes, available from 24.0 and mandatory from 27.0."
   ],
   "members_used": 11,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:04:30.173Z",
+  "at": "2026-10-28T10:57:39.226Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.017505
+    "cost_usd": 0.019739
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:19:42.213Z",
-    "verdict": "fix",
+    "at": "2026-10-28T11:02:05.120Z",
+    "verdict": "approve",
     "issues": [
-      "Key point 4 says Copy B vendor copies were introduced in version 24.0. The intro page lists version 24.0 but doesn't link it to Copy B, so I removed that version claim.",
-      "The overview calls some pages an 'older' 1099 setup and others a 'newer' one. The summaries don't say that. I replaced it with the version notes they do support: format changes available from 24.0 and mandatory from 27.0, and automatic enablement from 27.0."
+      "Minor: key point 4 places 1099 form number and form box number on purchase documents. That is a reasonable inference from the tracking page (it mentions configuring purchase documents and lists those fields) but the summary does not say it directly."
     ],
-    "input_hash": "bb238a3740286730b62972f2c27e630c2bf7da5bd0ea78508c1cff5456b40356",
-    "cost_usd": 0.0585952
+    "input_hash": "fcb59fa238d1e797116863b77cdbdce74cdab2bc4a628ad7ddd077fedb8bc25c",
+    "cost_usd": 0.0561392
   }
 }

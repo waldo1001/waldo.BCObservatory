@@ -6,15 +6,15 @@
   "systems_joined": [
     "sales"
   ],
-  "summary": "A failing test in the Contract Renewal Selection page was fixed to restore proper functionality after the BCApps uptake.",
+  "summary": "Fixed the Contract Renewal Selection page (8006) in Subscription Billing so the selection updates after Calc. Base Percentage is validated. This lets the disabled test TestIfContractRenewalSelectionIsUpdateOnAfterValidateCalcBasePercentage pass again.",
   "key_points": [
-    "Test was disabled after BCApps migration",
-    "Affects Contract Renewal Selection page functionality",
-    "Small code change to restore test compatibility",
-    "Finance team subscription billing module"
+    "Page 8006 Contract Renewal Selection code was changed (+9 -2)",
+    "Targets updating the selection after Calc. Base Percentage is validated",
+    "Re-enables a Contract Renewal Test case that was disabled after BCApps uptake",
+    "Subscription Billing app, Finance team"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

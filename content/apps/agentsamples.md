@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 79d2211df91ee402e565ffb1aeba1c0316980b7de8a34273761b138ac02a11af
+  input_hash: 64ee72d19a8edb851d1245a84a77e5d323f50c1dd00dff2ef2c694af1df04877
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/AgentSamples/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/AgentSamples/app
     title: src/Apps/W1/AgentSamples/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -101,4 +101,4 @@ First-party app · folder `src/Apps/W1/AgentSamples/app` · namespace `System.Ag
 |  | [SVSalesOrderSubform](../objects/pagecustomization/svsalesordersubform.md) |  |
 |  | [SVSOProcessorActivities](../objects/pagecustomization/svsoprocessoractivities.md) |  |
 
-Source: [src/Apps/W1/AgentSamples/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/AgentSamples/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/AgentSamples/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/AgentSamples/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

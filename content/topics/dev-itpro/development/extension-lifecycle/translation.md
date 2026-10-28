@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:14.345Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -53,6 +53,7 @@ links:
   changes:
     - change/bcapps/12062
     - change/bcapps/12097
+    - change/bcapps/13333
 learn_toc_path:
   - Development
   - Extension lifecycle
@@ -102,6 +103,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#12062 [Master]-[Quality Management] Workflow events are not localized](../../../../changes/bcapps/12062.md) (code change): "Workflow event labels in the Quality Management app are now properly localized"
 - [#12097 [29.X]-[Quality Management] Workflow events are not localized](../../../../changes/bcapps/12097.md) (code change): "Event labels for quality workflows now support localization"
+- [#13333 Fix configuration package import label translation collisions](../../../../changes/bcapps/13333.md) (code change): "Configuration package import methods in codeunit 8614"
 - [🚫 Never Publish an AL Extension with Missing Translations Again](../../../../posts/gerardorenteria-blog/14381.md) (community post): "A VS Code extension that validates translation files are present before publishing AL extensions"
 - [Still locking strings on table (field) removal?](../../../../posts/nataliekarolak-com/4242.md) (community post): "removed fields and tables are automatically excluded from translation files"
 - [Dynamics 365 Business Central: How to use Custom Translator (D365 Translation Service support ends)](../../../../posts/yzhums-com/64982.md) (community post): "migrating to Azure AI Custom Translator for translating Business Central"

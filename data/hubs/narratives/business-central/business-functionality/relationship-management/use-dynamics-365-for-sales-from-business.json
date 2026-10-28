@@ -1,37 +1,37 @@
 {
   "hub_id": "topic/business-central/business-functionality/relationship-management/use-dynamics-365-for-sales-from-business",
-  "input_hash": "cb43b8a8dee99abf06eb1ba3ab1ce8a9ce8978427b81e9b70bd3e20390bc9a34",
-  "summary": "Using Dynamics 365 Sales with Business Central: coupling and synchronizing records with Dataverse or Dynamics 365 Sales, managing customers, orders, quotes, pricing and invoices across both systems, and checking synchronization job errors. It answers how-to questions about linking records and fixing sync problems.",
-  "overview": "This section covers the integration between Business Central and Dynamics 365 Sales. It explains how Business Central records such as customers, vendors and items are linked to Dataverse or Sales records so data can be shared in both directions.\n\nThe three pages follow a natural order. \"Coupling and synchronizing\" explains how to link records and keep them in sync. \"Manage customers using Dynamics 365 Sales\" describes the sales scenario built on that link: customers, sales orders, quotes, pricing and invoices. \"View the Status of Synchronization Jobs\" covers the error page you use when a job fails.\n\nStart with the coupling page, since the other scenarios depend on records being coupled. Use the status page when a synchronization fails and you need to retry, restore or remove a coupling.",
+  "input_hash": "e8d6b0e5307b0fd0a1e87604e073c8601842a1796b09c30f8f6a106fac58743a",
+  "summary": "Using Dynamics 365 Sales with Business Central: coupling and synchronizing records with Dataverse or Dynamics 365 Sales, managing customers and sales orders across both systems, and checking synchronization job status and errors. It answers how-to and troubleshooting questions about the integration.",
+  "overview": "This section covers the day-to-day use of the integration between Business Central and Dynamics 365 Sales (through Dataverse). It explains how records such as customers, contacts, items, prices and sales orders are linked and kept in sync across both systems.\n\nThe three pages follow a natural order. \"Manage Customers Using Dynamics 365 Sales\" gives the business scenario: customer engagement, order processing, quotes, invoices and payment tracking. \"Couple and Synchronize Records with Dataverse\" explains the mechanics of linking records and syncing them. \"View the Status of Synchronization Jobs\" covers monitoring and fixing problems after synchronization runs.\n\nStart with the customer management page for the overall picture, then use the coupling page when you need to link or sync specific records. Go to the synchronization status page when jobs fail or records conflict.",
   "key_points": [
-    "Coupling links Business Central records with Dataverse or Dynamics 365 Sales records for bidirectional data sharing.",
-    "Coupling methods: manual coupling, match-based coupling, and bulk import or insert; records can also be uncoupled.",
-    "Customers, vendors, items and other entities can be synchronized.",
-    "The customer scenario covers sales order synchronization, quote processing, pricing synchronization, invoice creation and full synchronization.",
-    "The customer management page references 2020 release wave 2.",
-    "The Coupled Data Synchronization Errors page shows the status of synchronization jobs and error details.",
-    "Error actions include Retry, Synchronize, Restore and Delete, used to resolve conflicts and coupling issues."
+    "Records can be coupled by setting up coupling on existing records, creating new coupled records, or using match-based coupling for bulk matching.",
+    "Coupling and sync actions include Set Up Coupling, Synchronize Now, Match-Based Coupling, Bulk-insert and couple records, Delete Coupling, and Sync. Only Coupled Records.",
+    "Synchronization is bidirectional between Business Central and Dataverse or Dynamics 365 Sales.",
+    "The integration covers customers, contacts, items, prices and sales orders, with automatic sales order creation and quote processing.",
+    "The customer management scenario also includes invoice transfer and customer payment tracking.",
+    "The Coupled Data Synchronization Errors page shows synchronization job status and errors from coupled records.",
+    "Error handling options include retry, retry all, remove coupling, synchronize with conflict resolution, and restore records."
   ],
   "members_used": 3,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:10:53.006Z",
+  "at": "2026-10-28T10:59:01.575Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.010853
+    "cost_usd": 0.011706999999999999
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:27:45.528Z",
-    "verdict": "approve",
+    "at": "2026-10-28T11:03:56.670Z",
+    "verdict": "fix",
     "issues": [
-      "The customer management page also mentions tracking payments, which the narrative leaves out. Minor.",
-      "The overview's advice to start with the coupling page because other scenarios depend on coupled records is a reasonable inference. The 'customer coupling' feature supports it, but no page states it directly.",
-      "The key point about '2020 release wave 2' is accurate but gives agents little to act on, since the page only references that release."
+      "Overview says the section covers 'how sales staff and finance staff work across both systems'. No source summary mentions these roles, so I removed the phrase.",
+      "Key point 5 puts the '2020 release wave 2' label on invoice transfer and payment tracking, which suggests those features arrived in that release. The source only tags the whole customer management page with that version, so I removed the version from the key point.",
+      "Key point 2 says certain actions 'are available in the coupling tasks', which the sources don't say. I rewrote it to simply list the actions named on the coupling page."
     ],
-    "input_hash": "cb43b8a8dee99abf06eb1ba3ab1ce8a9ce8978427b81e9b70bd3e20390bc9a34",
-    "cost_usd": 0.031595200000000004
+    "input_hash": "e8d6b0e5307b0fd0a1e87604e073c8601842a1796b09c30f8f6a106fac58743a",
+    "cost_usd": 0.0399232
   }
 }

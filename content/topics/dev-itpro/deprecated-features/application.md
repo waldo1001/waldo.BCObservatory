@@ -2,20 +2,20 @@
 id: topic/dev-itpro/deprecated-features/application
 type: topic
 title: Application
-summary: Deprecated application features in Business Central W1 across release waves 2020 to 2027, plus objects deleted from the Base App and first-party apps in 2025 release wave 1 (v26). It answers what was removed or deprecated, when, and how to move off it.
+summary: "Deprecated application features in Business Central: which W1 features are ending or replaced across release waves, which obsolete tables and fields were deleted from the Base App in 2025 release wave 1 (v26), and examples of moving off deprecated features."
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:24:55.310Z"
+  at: "2026-10-28T11:03:23.872Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 01f172f206cee2acbd111c94386e3091bb1f0e90d915876755d7aa2097d71b05
+  input_hash: f9213fa5f586e4c456f7450d13f1d480a77e9d669e355b6a7707b5e9ef12e887
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deleted-objects-25w1
@@ -85,27 +85,27 @@ narrative: generated
 
 # Application
 
-> Deprecated application features in Business Central W1 across release waves 2020 to 2027, plus objects deleted from the Base App and first-party apps in 2025 release wave 1 (v26). It answers what was removed or deprecated, when, and how to move off it.
+> Deprecated application features in Business Central: which W1 features are ending or replaced across release waves, which obsolete tables and fields were deleted from the Base App in 2025 release wave 1 (v26), and examples of moving off deprecated features.
 
 Path: [Deprecated features](../deprecated-features.md) > Application · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section lists what has been deprecated or removed in the Business Central application. One page covers deprecated W1 features by release wave, from 2020 release wave 1 through 2025 release wave 2, with items such as API v1.0, Finance reports API, legacy Power BI apps, Intelligent Cloud Insights, Excel reports and configuration packages. Another page covers the table and field objects permanently deleted in 2025 release wave 1 (v26).
+This section tracks deprecations in the Business Central application. One page lists deprecated W1 features by release wave, with removal timing and the alternatives to use. A second page documents the permanent deletion of obsolete tables and fields from the Base Application and first-party apps.
 
-The deleted objects page lists more than 150 obsolete tables and fields in the Base App and localized versions (W1, AT, APAC, BE, CH, CZ), tied to the version 25.0 upgrade. The goal is better database performance, a more unified codebase across regions and less technical debt.
+A subtopic gives worked examples of moving off deprecated features: the North American bank reconciliation and deposits removal, the move from user groups to permission sets or security groups, and the move from legacy views to modern list views.
 
-Start with the deprecated features page to check whether a feature you rely on is affected and in which wave. Then use the subtopic with uptake examples for practical guidance on moving off the North American bank reconciliation and deposits, user groups, and legacy views.
+Start with the deprecated features page to see what affects you and when. Then check the deleted objects page if you have extensions that depend on Base App tables or fields, and use the examples subtopic for migration guidance.
 
 ## Key points
 
-- Deprecated W1 features are listed by release wave, from 2020 release wave 1 to 2025 release wave 2.
-- Removals named include API v1.0, Finance reports API, legacy Power BI apps, Intelligent Cloud Insights and configuration packages.
-- Excel reports deprecation and moved subcontracting objects are also covered.
+- The deprecated features page covers W1 removals and replacements from 2024 release wave 2 through 2027 release wave 1 (version 30.0).
+- Features named on the deprecated features page include the AMC Fundamentals app, Peppol BIS 2.0 and 2.1, Peppol BIS 3.0, the Finance reports API, the Analytics API and Excel reports.
 - 2025 release wave 1 (v26) permanently deletes over 150 obsolete tables and fields from the Base App and first-party apps.
-- Deleted objects are listed for W1, AT, APAC, BE, CH and CZ, relating to the version 25.0 upgrade.
-- Deleted objects are in the Obsolete::Removed state; the aims are database performance, unified base apps and less technical debt.
-- Uptake examples cover North American bank reconciliation and deposits removal, user groups to permission sets or security groups, and legacy views to modern list views.
+- The deletions aim to improve database performance, unify the codebase across regions and reduce technical debt.
+- Deleted objects are listed for W1 and localized versions including AT, APAC, BE, CH and CZ, for the version 25.0 upgrade.
+- The deleted objects page refers to the Obsolete::Removed state for the affected tables and fields.
+- Uptake examples cover the bank reconciliation and deposits removal in North America, user groups to permission sets or security groups, and legacy views to modern list views.
 
 ## Subtopics
 
@@ -115,6 +115,6 @@ Start with the deprecated features page to check whether a feature you rely on i
 
 - [Deleted objects in the Base App and first-party apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deleted-objects-25w1): Describes the objects that have been deleted in the W1 and country versions in 2025 release wave 1.
 - [Deprecated Features in the application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1): Describes the features that have been moved, removed, or replaced in the W1 version.
-  - In the observatory: [Codeunit 1799 "Import Config. Package File"](../../../objects/codeunit/1799.md), [Codeunit 1800 "Assisted Company Setup"](../../../objects/codeunit/1800.md), [Codeunit 1805 "Import Config. Package Files"](../../../objects/codeunit/1805.md), [Enum 9120 "Company Data Type (Internal)"](../../../objects/enum/9120.md), [Enum 9121 "Company Data Type (Production)"](../../../objects/enum/9121.md), [Enum 9122 "Company Data Type (Sandbox)"](../../../objects/enum/9122.md)
+  - In the observatory: [Codeunit 1799 "Import Config. Package File"](../../../objects/codeunit/1799.md), [Codeunit 1800 "Assisted Company Setup"](../../../objects/codeunit/1800.md), [Codeunit 1805 "Import Config. Package Files"](../../../objects/codeunit/1805.md), [Codeunit 9510 "Document Service Management"](../../../objects/codeunit/9510.md), [Enum 9120 "Company Data Type (Internal)"](../../../objects/enum/9120.md), [Enum 9121 "Company Data Type (Production)"](../../../objects/enum/9121.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

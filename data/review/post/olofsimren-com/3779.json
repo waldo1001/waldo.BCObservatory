@@ -1,12 +1,12 @@
 {
   "item_id": "blog/olofsimren-com/3779",
-  "input_hash": "369b486a90944b83c6081a506547b2ac2abb0a369561198a93d6c2927a7e95ff",
+  "input_hash": "123a810948ca3dee444c1059b14d7594b54fdcaa7e7fdbe1cfa960496bfa513f",
   "verdict": "fix",
   "by": "opus",
-  "at": "2026-10-08T01:54:27.659Z",
+  "at": "2026-10-28T10:55:45.087Z",
   "issues": [
-    "Key point 1 says the batch lock lasts until approval completes or is rejected; the post says until it completes or is canceled.",
-    "Other content, objects and quotes are supported."
+    "The first key point says the batch stays locked until approval completes or is rejected. The post says it stays locked until the approval completes or is canceled, so the point was rewritten.",
+    "The objects, features, quotes and version 28 are all supported by the post."
   ],
   "applied": [
     "key points rewritten"
@@ -16,7 +16,7 @@
   "llm": {
     "model": "claude-opus-5-5",
     "cached": false,
-    "cost_usd": 0.031649,
-    "posts_in_call": 4
+    "cost_usd": 0.040584,
+    "posts_in_call": 3
   }
 }

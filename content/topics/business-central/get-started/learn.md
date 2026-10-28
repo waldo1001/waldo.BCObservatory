@@ -2,20 +2,20 @@
 id: topic/business-central/get-started/learn
 type: topic
 title: Learn
-summary: "The Learn section of Business Central gathers learning material: step-by-step business process walkthroughs in the CRONUS demo company, Contoso Coffee demo data scenarios, user resource links, and a video library. It answers where to find training, demo data, community and support resources."
+summary: "The Learn section of Business Central get-started content covers learning resources: user resource links, a video library, step-by-step business process walkthroughs in the CRONUS demo company, and Contoso Coffee demo data scenarios. It answers questions about where to find help, community, videos, and how to practice common tasks."
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-10-24T00:53:57.516Z"
+  at: "2026-10-28T11:01:12.507Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d2ff1beb5f88b576f43dc4b0f5a2957cadd1e411d9a6db51f34ba2fc605a426d
+  input_hash: 1df3e1ec8d743034ce0fc9015afa1a3f79810a45e8ab7babe9875d253e3d6ee5
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/walkthrough-business-process-walkthroughs
@@ -235,13 +235,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/walkthrough-conducting-a-sales-campaign
-    title: Walkthrough conducting a sales campaign
-    date: "2024-01-31"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-contract-flow
     title: Walkthrough of service contracts for service items
     date: "2024-08-26"
@@ -252,6 +245,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-basic-flow-order
     title: Walkthrough of service orders for service items
     date: "2025-02-18"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/walkthrough-conducting-a-sales-campaign
+    title: "Walkthrough: Conduct a Sales Campaign"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
@@ -378,26 +378,28 @@ narrative: generated
 
 # Learn
 
-> The Learn section of Business Central gathers learning material: step-by-step business process walkthroughs in the CRONUS demo company, Contoso Coffee demo data scenarios, user resource links, and a video library. It answers where to find training, demo data, community and support resources.
+> The Learn section of Business Central get-started content covers learning resources: user resource links, a video library, step-by-step business process walkthroughs in the CRONUS demo company, and Contoso Coffee demo data scenarios. It answers questions about where to find help, community, videos, and how to practice common tasks.
 
 Path: [Get started](../get-started.md) > Learn · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Learn section is for people who want to learn Business Central by doing or watching. It has two hands-on subtopics: business process walkthroughs that use the CRONUS demonstration company, and Contoso Coffee demo data, a fictitious company dataset used for scenario-based learning.
+Learn collects material for people who want to get familiar with Business Central. Two own pages point to general help: Resources for users links to documentation, community forums, release plans, apps, mobile access and support materials, and the video library links to introduction videos, product videos and the Business Central YouTube channel.
 
-Two standalone pages complete the section. "Resources for users" links to documentation, community forums, release plans, apps, mobile access, reporting guides and Power Platform integration. "Visit our video library" points to introduction videos, product videos reached from Role Centers, and the Business Central YouTube channel.
+Two subtopics provide hands-on practice. Business process walkthroughs are end-to-end scenarios in the CRONUS demonstration company. Contoso Coffee demo data is a fictitious company dataset with walkthroughs for manufacturing, warehousing, service and quality management.
 
-Start with the resources page for orientation. Then pick a walkthrough for a specific process, such as sales campaigns, prepayments or warehouse picking. Use the Contoso Coffee pages when you need to set up demo data for manufacturing, warehousing, service or quality management scenarios.
+Start with Resources for users or the video library for orientation. Then pick a walkthrough that matches the area you want to practice, using CRONUS or Contoso Coffee as the data source.
 
 ## Key points
 
-- Business process walkthroughs (9 pages) use the CRONUS demonstration company.
-- Walkthrough topics: sales campaigns, prepayments, purchase approvals, projects and WIP, warehouse picking, cash flow forecasts, and the Shopify Connector.
+- Resources for users links to documentation, community forums, release plans, apps, mobile access and support materials.
+- The resources page also covers marketplace app discovery, reporting guides and Power Platform integration.
+- The video library offers introduction videos, how to videos and product videos reachable from a Product Videos tile in Role Centers.
+- The Business Central YouTube channel is linked from the video library.
+- Business process walkthroughs (9 pages) run in the CRONUS demonstration company.
+- Walkthrough topics include sales campaigns, prepayments, approval workflows, project WIP, warehouse picking, cash flow forecasts and the Shopify Connector.
 - Contoso Coffee demo data (23 pages) is a fictitious company dataset for learning.
-- Contoso Coffee scenarios cover manufacturing, warehousing, service and quality management, plus setting up the demo data.
-- Resources for users links to documentation, community forums, release plans, Marketplace apps, the mobile app, reporting guides and Power Platform integration.
-- The video library offers introduction videos, how-to videos, a Product Videos tile in Role Centers, and the Business Central YouTube channel.
+- Contoso Coffee scenarios cover manufacturing, warehousing, service and quality management, plus demo data setup.
 
 ## Subtopics
 

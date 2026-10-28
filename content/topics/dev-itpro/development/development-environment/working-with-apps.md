@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/development-environment/working-with-apps
 type: topic
 title: Working with apps
-summary: "Working with apps covers how to build and manage AL extensions in Business Central: app identity in app.json, runtime version choice, packaged resources, data shipped with extensions, and library and dependency apps. It answers setup and configuration questions about app.json and extension packaging."
+summary: "Working with apps covers how to build and manage AL apps (extensions) in Business Central: app identity in app.json, runtime version choice, packaging resources and data, and library and dependency apps. It answers questions about app.json settings and extension packaging."
 tier: official
 language: en
 system: administration
 review:
   state: reviewed
   by: opus
-  at: "2026-10-24T00:56:19.921Z"
+  at: "2026-10-28T11:03:23.369Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 1f1337b7147c35e1c454d6ab47186009542abca5da75c5082bf0f7dbe7784d38
+  input_hash: 531f03897284d9df710ef5df4e09f0b0b4c4320d1dd5b5e3fc498b0bf73384dd
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-resources
@@ -34,8 +34,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-choosing-runtime
-    title: Choose runtime version in AL
-    date: "2026-08-20"
+    title: Choose an AL Runtime Version for Business Central
+    date: "2026-10-16"
     commit: null
     t: null
     quote: null
@@ -88,31 +88,31 @@ narrative: generated
 
 # Working with apps
 
-> Working with apps covers how to build and manage AL extensions in Business Central: app identity in app.json, runtime version choice, packaged resources, data shipped with extensions, and library and dependency apps. It answers setup and configuration questions about app.json and extension packaging.
+> Working with apps covers how to build and manage AL apps (extensions) in Business Central: app identity in app.json, runtime version choice, packaging resources and data, and library and dependency apps. It answers questions about app.json settings and extension packaging.
 
 Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Working with apps · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section collects practical topics for developers handling the structure and metadata of an AL app. Most of them center on the app.json manifest: the app ID, version, name, publisher and scope, the runtime version, and the resource folders.
+This section collects practical topics for developers handling the app package itself rather than its AL code. Most of them center on the app.json manifest: which identity values it holds, which runtime version it targets, and which resource folders it declares.
 
-Start with "Understand App Identity for AL Apps" to learn when and how identity settings may change. Then read "Choose runtime version in AL" to target a runtime. Two pages cover content packaged with an extension: "Adding and Accessing Resources" explains resource folders and access, and "Adding data for Extensions" explains data imported on installation. The FAQ on library and dependency apps covers shared code across Marketplace apps and how dependencies are installed.
+Start with the app identity page to learn when the app ID, version, name, and publisher can change. Then read the runtime version page to pick a version that every target environment supports, including Business Central online. After that, use the resources page and the extension data page to bundle files and data with the app. The FAQ on library and dependency apps explains shared code across Marketplace apps and how dependencies get installed.
 
 ## Key points
 
-- App identity is managed in app.json: app ID, version numbering, name, publisher and scope, with guidance on when each can change.
-- The runtime version is set in app.json (for example "runtime": "18.0"); an extension can be published to servers with an equal or later runtime version.
-- Resources are packaged with resourceFolders and publicResourceFolders in app.json (runtime version 18.0); public resources can be read by other extensions.
-- Resource limits are 16 MB per file, 128 MB per folder and 256 files.
-- Extensions can ship exported permission sets, web services, table data and custom report layouts to be imported during installation; the page also covers the NavApp.LoadPackageData procedure.
-- Library apps hold shared code for multiple Marketplace apps and are installed automatically as dependencies.
-- The library app FAQ covers version control, library app validation and technical validation.
+- App identity is managed in app.json: app ID, version, name, publisher, and scope, with guidance on when each can change.
+- The AL runtime version is set in app.json and determines available AL capabilities. Pick one supported by all target environments, including Business Central online.
+- The runtime version page covers compiler defaults, version history, and IntelliSense support, with release waves from 2024 wave 2 to 2026 wave 2.
+- resourceFolders packages private resources for local access. publicResourceFolders exposes resources that other extensions can read (runtime version 18.0).
+- Resource limits are 16 MB per file, 128 MB per folder, and 256 files.
+- Extensions can include permission sets, web services, table data, and custom report layouts, imported at install and loaded with NavApp.LoadPackageData.
+- Library apps hold shared code for multiple Marketplace apps and are installed automatically as dependencies. The FAQ covers version control and technical validation.
 
 ## Learn pages
 
 - [Adding and Accessing Resources in Business Central extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-resources): Describes how to package, share, and access resources, such as sample data, images, and schemas, across Business Central extensions.
 - [Adding data for Extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-export-data-for-extension): How you can add data such as permisisons, web services, and table data for an extension.
-- [Choose runtime version in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-choosing-runtime): How to choose runtime in AL for Business Central.
+- [Choose an AL Runtime Version for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-choosing-runtime): Choose an AL runtime version for Business Central extensions. Check compiler defaults, server compatibility, and runtime-to-product version mappings.
 - [FAQ about Library & Dependency Apps in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-dependencies-libraries): Get answers to some of your questions about library apps and dependency apps in Dynamics 365 Business Central
 - [Understand App Identity for AL Apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-identity): Learn how app IDs, versions, names, publishers, and tenant scopes identify AL apps and affect upgrades, dependencies, and data continuity.
 

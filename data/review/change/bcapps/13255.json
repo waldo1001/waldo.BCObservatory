@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13255",
+  "input_hash": "ad82393e7241df00e0e4af8f8965246cf18cee894ddad3f54e20111ec794eb5f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-28T10:56:13.846Z",
+  "issues": [
+    "The description supports the summary, key points and flags: the key is set to primary key order before the view is copied, and a regression test was added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016678,
+    "changes_in_call": 6
+  }
+}

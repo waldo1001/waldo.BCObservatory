@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12998",
+  "input_hash": "c8d067818936849911fd4897ea4667ba73ad4cda282731004d1a89e920df5c95",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-28T10:56:09.594Z",
+  "issues": [
+    "Root cause, fix and regression test (price 50 with 10% discount gives 45) all match the description."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017257,
+    "changes_in_call": 4
+  }
+}

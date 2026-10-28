@@ -2,47 +2,47 @@
 id: topic/business-central/business-functionality/local-functionality/netherlands/vat
 type: topic
 title: VAT
-summary: "VAT in the Dutch (NL) version of Business Central: setting up and submitting electronic VAT and ICP declarations through Digipoort, configuring VAT categories, and creating an audit file for the Dutch tax authority. It answers setup, certificate, submission and audit file questions."
+summary: "Dutch VAT functionality in Business Central: setting up and submitting electronic VAT and ICP declarations through Digipoort, configuring VAT declaration categories, and creating an audit file (XAF) for the Dutch tax authority. It answers setup, submission and audit file questions for the Netherlands."
 tier: official
 language: en
 system: finance
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:25:30.259Z"
+  at: "2026-10-28T11:03:37.310Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: bb75bed5a3d6ad183bd60358d60e482a7a081d2b3edbc7ed0340c52dca3f01e3
+  input_hash: a13e628db4ca066a1862d4b78cd4a923934e7bfc36fb73979c0075a83cdec8b7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority
-    title: Create an Audit File for Tax Authority [NL]
-    date: "2025-03-17"
+    title: Create an Audit File for the Dutch Tax Authority
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations
-    title: Electronic VAT and ICP Declarations [NL]
-    date: "2026-05-08"
+    title: Set Up Dutch Electronic VAT and ICP Declarations
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-set-up-vat-categories
-    title: How to Set Up VAT Categories
-    date: "2025-03-18"
+    title: Set Up Dutch VAT Declaration Categories
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations
-    title: Submit electronic VAT & ICP declarations [NL]
-    date: "2026-05-08"
+    title: Submit Electronic VAT and ICP Declarations in the Netherlands
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -81,36 +81,37 @@ narrative: generated
 
 # VAT
 
-> VAT in the Dutch (NL) version of Business Central: setting up and submitting electronic VAT and ICP declarations through Digipoort, configuring VAT categories, and creating an audit file for the Dutch tax authority. It answers setup, certificate, submission and audit file questions.
+> Dutch VAT functionality in Business Central: setting up and submitting electronic VAT and ICP declarations through Digipoort, configuring VAT declaration categories, and creating an audit file (XAF) for the Dutch tax authority. It answers setup, submission and audit file questions for the Netherlands.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers the Netherlands-specific VAT tasks. It has four pages and no subtopics. Two pages deal with preparing the electronic declarations: configuring Digipoort and certificates, and mapping VAT categories to XML elements. One page covers submitting the declarations, and one covers the audit file.
+This section covers the Netherlands-specific VAT tasks in Business Central. It has four pages with no subtopics: two on setting up electronic declarations, one on submitting them, and one on the audit file.
 
-A practical order is: set up Digipoort endpoints, the PKIoverheid certificate, the service certificate and the fiscal entity details; set up VAT categories and subcategories; then create and submit VAT and ICP declarations and process the responses from the tax authority. The audit file is a separate task that can be done independently when tax inspectors need data.
+Start with the setup page for electronic VAT and ICP declarations, which covers certificates, Digipoort endpoints, fiscal entity and tax contact settings. Then set up the VAT declaration categories, which map VAT statement data to the XML elements of the DigitalTaxDecl format. After that, the submission page explains how to send VAT and ICP declarations to the Dutch tax authorities and process the response messages.
 
-Start with "Electronic VAT and ICP Declarations [NL]" if you are preparing to file for the first time. Start with "Create an Audit File for Tax Authority [NL]" if you only need to hand over ledger data.
+The audit file page is separate. It describes creating an audit file from general ledger journal entries for a chosen fiscal year period, for tax authority examinations or for data exchange between companies.
 
 ## Key points
 
-- Electronic VAT and ICP setup requires Digipoort endpoint URLs, a PKIoverheid certificate, a service certificate and tax authority (fiscal entity) information.
-- VAT category codes are set up as category and subcategory combinations that map to XML elements in the electronic VAT declaration.
-- Declarations are created in XBRL format and submitted to the tax authorities through Digipoort.
-- VAT declarations are reported monthly or quarterly; ICP declarations are reported quarterly.
-- Submission includes certificate management and processing of response messages from the tax authority.
-- The audit file is built from general ledger journal entries for a selected fiscal period.
-- The audit file creation can exclude begin balances and exports in XAF format.
+- Electronic VAT and ICP declarations need certificates, Digipoort endpoints and tax declaration parameters to be configured first.
+- Setup also includes the fiscal entity and tax contact configuration.
+- VAT category codes, category and subcategory combinations, and box number mappings link VAT statement data to XML elements in the DigitalTaxDecl format.
+- The VAT declaration categories page covers DigitalTaxDecl version support and optional fields.
+- Declarations go to the Dutch tax authorities through Digipoort, using XBRL format or the Digital Tax Declaration app.
+- Submission uses certificate-based authentication (PKIoverheid certificates) and includes processing of response messages.
+- The audit file is based on general ledger journal entries for a specified fiscal year period, with start date, end date and an option to exclude the begin balance.
+- The audit file is exported as an XAF file.
 
 ## Learn pages
 
-- [Create an Audit File for Tax Authority [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority): Learn how to create an audit file for the tax authority with the Dutch version of Business Central.
+- [Create an Audit File for the Dutch Tax Authority](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority): Create a Dutch tax authority audit file from general ledger transactions in Business Central, and choose the reporting dates and opening balance options.
   - In the observatory: [Report 11412 "Tax Authority - Audit File (NL)"](../../../../../objects/report/11412-nl.md)
-- [Electronic VAT and ICP Declarations [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations): Learn how to set up electronic VAT and ICP declarations in the Dutch Version.
-  - In the observatory: [Page 11410 "Elec. Tax Declaration Setup (NL)"](../../../../../objects/page/11410-nl.md)
-- [How to Set Up VAT Categories](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-set-up-vat-categories): Learn how to set up VAT category codes for all XML elements required in the electronic VAT declaration.
-- [Submit electronic VAT & ICP declarations [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations): With the eXtensible Business Reporting Language (XBRL) reporter, you can submit the ICP declaration or the VAT declaration in the required XML format.
-  - In the observatory: [Page 11411 "Elec. Tax Declaration Card (NL)"](../../../../../objects/page/11411-nl.md), [Page 11412 "Elec. Tax Declaration List (NL)"](../../../../../objects/page/11412-nl.md), [Page 11416 "Elec. Tax Decl. Response Msgs. (NL)"](../../../../../objects/page/11416-nl.md)
+- [Set Up Dutch Electronic VAT and ICP Declarations](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations): Set up Dutch electronic VAT and ICP declarations in Business Central, including contact details, Digipoort service endpoints, and certificate settings.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 11410 "Elec. Tax Declaration Setup (NL)"](../../../../../objects/page/11410-nl.md)
+- [Set Up Dutch VAT Declaration Categories](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-set-up-vat-categories): Map Dutch VAT statement amounts to electronic declaration categories, or use box numbers for VAT returns that use the DigitalTaxDecl reporting version.
+- [Submit Electronic VAT and ICP Declarations in the Netherlands](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations): With the eXtensible Business Reporting Language (XBRL) reporter, you can submit the ICP declaration or the VAT declaration in the required XML format.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 11410 "Elec. Tax Declaration Setup (NL)"](../../../../../objects/page/11410-nl.md), [Page 11411 "Elec. Tax Declaration Card (NL)"](../../../../../objects/page/11411-nl.md), [Page 11416 "Elec. Tax Decl. Response Msgs. (NL)"](../../../../../objects/page/11416-nl.md), [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

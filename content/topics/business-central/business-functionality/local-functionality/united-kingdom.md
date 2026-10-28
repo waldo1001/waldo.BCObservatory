@@ -2,117 +2,117 @@
 id: topic/business-central/business-functionality/local-functionality/united-kingdom
 type: topic
 title: United Kingdom
-summary: "United Kingdom local functionality in Business Central (GB): VAT and Making Tax Digital, banking and payments such as check printing, fixed asset straight-line depreciation, and general features like address lookup. It answers setup and how-to questions for the British version."
+summary: United Kingdom local functionality in Business Central covers VAT and Making Tax Digital submission to HMRC, banking and payments (APACS checks, remittance advice), general UK company features, and straight-line depreciation of fixed assets. It answers setup and how-to questions for UK compliance.
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:18:47.961Z"
+  at: "2026-10-28T11:01:51.190Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 021f873ecfa88863cfdf389c96c7082254ba54b42d963d2ba19f837ce1237790
+  input_hash: db56fb979b4d109ddf80a36d28b515d51b330105e6c5423985c4ea0c316c25b7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals
-    title: Change VAT Setup in Journals
-    date: "2025-02-18"
+    title: Change VAT Setup in Journals in the United Kingdom
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information
     title: Enter Statutory Information [UK]
-    date: "2025-02-18"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes
     title: Ideal Postcodes extension [UK]
-    date: "2026-02-09"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return
     title: Making Tax Digital - Submitting VAT Returns
-    date: "2025-02-20"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs
-    title: Print Checks for APACS
-    date: "2021-02-18"
+    title: Print Checks for APACS in the United Kingdom
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice
-    title: Print Remittance Advice [GB]
-    date: "2025-02-19"
+    title: Print Remittance Advice in the United Kingdom
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports
-    title: Print VAT Audit Reports
-    date: "2025-02-19"
+    title: Print VAT Audit Reports in the United Kingdom
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-reports
-    title: Print VAT Reports [GB]
-    date: "2025-02-19"
+    title: Print VAT Reports in the United Kingdom
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/fraud-prevention-data
-    title: Send Fraud Prevention Data (UK)
-    date: "2025-02-18"
+    title: Send Fraud Prevention Data in the UK
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning
-    title: Set up a posting date warning [GB]
-    date: "2025-06-19"
+    title: Set Up a Posting Date Warning in the United Kingdom
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat
     title: Set Up Reverse Charges on VAT [UK]
-    date: "2025-02-19"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/ui-extensions-setup-idealpostcodes-service
     title: Set up the Ideal Postcodes Extension [UK]
-    date: "2026-04-09"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets
     title: Straight-Line Depreciation of Fixed Assets in the UK
-    date: "2025-02-18"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality
     title: United Kingdom local functionality [GB]
-    date: "2025-12-30"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
@@ -186,26 +186,27 @@ narrative: generated
 
 # United Kingdom
 
-> United Kingdom local functionality in Business Central (GB): VAT and Making Tax Digital, banking and payments such as check printing, fixed asset straight-line depreciation, and general features like address lookup. It answers setup and how-to questions for the British version.
+> United Kingdom local functionality in Business Central covers VAT and Making Tax Digital submission to HMRC, banking and payments (APACS checks, remittance advice), general UK company features, and straight-line depreciation of fixed assets. It answers setup and how-to questions for UK compliance.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > United Kingdom · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section collects the features specific to the United Kingdom version of Business Central, as listed for 2025 release wave 2. The landing page gives a short map of the areas: VAT and tax, banking and payments, fixed assets, and general features.
-Three subtopics hold most of the detail. VAT covers Making Tax Digital returns to HMRC, VAT setup in journals, VAT audit and day book reports, and reverse charge VAT. Banking and payments covers check printing in the APACS layout and vendor remittance advice. General covers statutory company information, Ideal Postcodes address lookup, fraud prevention data for Making Tax Digital, and posting date warnings.
-The section's own pages also include a fixed assets article on straight-line depreciation using accounting periods. Start with the landing page to find the area you need, then go to the matching subtopic. For HMRC submissions, read the VAT pages together with the fraud prevention data page under General.
+This section describes what is specific to the British version of Business Central. The main areas are VAT reporting (including Making Tax Digital), banking and payments, general compliance features, and fixed asset depreciation.
+
+The subtopics split the work. VAT covers MTD VAT return submission, VAT audit and reports, reverse charge setup, and copying VAT setup to journal lines. Banking and payments covers printing checks to the APACS specification and printing remittance advice from payment journals. General covers statutory company information, Ideal Postcodes address lookup, fraud prevention headers for MTD submissions, and posting date warnings.
+
+The section's own pages are an overview page listing the local features, and a page on straight-line depreciation. The depreciation page explains how to define up to 13 accounting periods and set up the depreciation book. Start with the overview page, then go to VAT if you need MTD submission to HMRC.
 
 ## Key points
 
-- Making Tax Digital VAT returns can be submitted to HMRC from the British version.
-- VAT pages cover journal VAT setup, VAT audit and day book reports, and reverse charge VAT.
-- Payment journals can print checks in the APACS specification layout and print vendor remittance advice.
-- Straight-line depreciation can use up to 13 accounting periods defined in depreciation books.
-- Depreciation is calculated daily and distributed across periods, with 360, 365, or 366-day methods and a Use Accounting Period toggle.
+- Making Tax Digital VAT returns can be submitted to HMRC from Business Central, with fraud prevention data supplied for MTD.
+- VAT topics include VAT audit reports, VAT reports, reverse charges on VAT, and VAT setup in journals.
+- Checks can be printed to the APACS specification, and remittance advice can be printed from the Payment Journals page.
 - General features include statutory company information, Ideal Postcodes address lookup, and posting date warnings.
-- Fraud prevention data setup supports HMRC Making Tax Digital.
-- The landing page describes functionality as of 2025 release wave 2.
+- Straight-line depreciation in the UK uses up to 13 accounting periods, with daily depreciation spread across periods.
+- Depreciation supports 360-day and 365/366-day years, set up on the Depreciation Books page and checked with the FA - Projected Value report.
+- The overview page references 2025 release wave 2 and 2027 release wave 1.
 
 ## Subtopics
 
@@ -215,8 +216,8 @@ The section's own pages also include a fixed assets article on straight-line dep
 
 ## More Learn pages
 
-- [Straight-Line Depreciation of Fixed Assets in the UK](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets): Define 13 accounting periods to calculate straight-line depreciation in the UK version. Calculate daily depreciation and distribute it across these periods appropriately.
-  - In the observatory: [Report 10560 "FA - Projected Value (GB)"](../../../../objects/report/10560-gb.md)
+- [Straight-Line Depreciation of Fixed Assets in the UK](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets): Define 13 accounting periods for straight-line fixed asset depreciation in the UK version, and calculate projected values for those periods.
+  - In the observatory: [Page 100 "Accounting Periods"](../../../../objects/page/100.md), [Report 10560 "FA - Projected Value (GB)"](../../../../objects/report/10560-gb.md)
 - [United Kingdom local functionality [GB]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality): This article gives you an overview of local functionality in the United Kingdom version of Business Central.
 
 ## Videos, posts and code changes

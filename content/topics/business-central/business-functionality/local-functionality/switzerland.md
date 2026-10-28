@@ -2,257 +2,257 @@
 id: topic/business-central/business-functionality/local-functionality/switzerland
 type: topic
 title: Switzerland
-summary: Switzerland local functionality in Business Central covers Swiss VAT statements, banking and payments (ESR, LSV+, QR-bills, SEPA), core finance, purchasing delivery reminders, inventory picking lists, and Swiss post codes. It answers how-to questions on Swiss-specific setup, reporting and processing.
+summary: Switzerland local functionality in Business Central covers Swiss VAT statements, QR-bills, ESR and LSV+ payments, delivery reminders, Swiss general ledger functions, inventory picking lists and Swiss-specific document behavior. It answers how to set up and use these features in the Swiss version.
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:15:49.727Z"
+  at: "2026-10-28T11:01:13.171Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 011a1d90672abc9991cebdd3d8ee7dc414a4d0416eca0f1e526090cd902fae73
+  input_hash: 4fb57bc5b1aa82e8ea4d14e5d52ede04883060086f93dfb2cc47aba53e98e7af
 evidence:
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-adjust-exchange-rates
+    title: Adjust Exchange Rates in the Swiss Version [CH]
+    date: "2026-10-19"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-assign-delivery-reminder-codes-to-vendors
-    title: Assign Delivery Reminder Codes to Vendors [CH]
-    date: "2025-04-28"
+    title: Assign Delivery Reminder Codes to Vendors in Switzerland
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-close-an-lsv-collection
-    title: Close an LSV Collection [CH]
-    date: "2025-04-28"
+    title: Close an LSV Collection in the Swiss Version [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement
-    title: Create and print a Swiss VAT statement [CH]
-    date: "2025-04-28"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminder-terms-levels-and-text
-    title: Delivery Reminder Terms, Levels, and Text [CH]
-    date: "2025-04-29"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/delivery-reminders
-    title: Delivery Reminders [CH]
-    date: "2025-04-28"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-export-payments-using-lsv
-    title: Export Payments Using LSV [CH]
-    date: "2025-04-28"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/balance
-    title: G/L balance [CH]
-    date: "2025-04-28"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-adjust-exchange-rates
-    title: How to Adjust Exchange Rates [CH]
-    date: "2025-04-28"
+    title: Create and Print a Swiss VAT Statement in the Swiss Version [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-create-delivery-reminders-manually
-    title: How to create delivery reminders manually [CH]
-    date: "2025-04-28"
+    title: Create Delivery Reminders Manually in the Swiss Version [CH]
+    date: "2026-10-19"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/delivery-reminders
+    title: Delivery Reminders in the Swiss Version [CH]
+    date: "2026-10-19"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-export-payments-using-lsv
+    title: Export Payments Using LSV in the Swiss Version [CH]
+    date: "2026-10-19"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/balance
+    title: General Ledger Balance in the Swiss Version [CH]
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-generate-delivery-reminders
-    title: How to generate delivery reminders [CH]
-    date: "2025-04-28"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-post-codes
-    title: How to import Swiss post codes [CH]
-    date: "2025-04-29"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-issue-delivery-reminders
-    title: How to issue delivery reminders [CH]
-    date: "2025-04-29"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-post-lsv-payments
-    title: How to Post LSV+ payments
-    date: "2025-04-29"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-esr-invoices
-    title: How to print ESR invoices [CH]
-    date: "2025-04-29"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-
-    title: How to Print Swiss VAT Statements (older version)
-    date: "2025-04-29"
+    title: Generate Delivery Reminders in the Swiss Version [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-esr-payments
-    title: Import ESR Payments [CH]
-    date: "2025-04-28"
+    title: Import ESR Payments in the Swiss Version [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-bank-clearing-numbers
-    title: Import Swiss Bank Clearing Numbers [CH]
-    date: "2025-04-29"
+    title: Import Swiss Bank Clearing Numbers in the Swiss Version [CH]
+    date: "2026-10-19"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-post-codes
+    title: Import Swiss Post Codes in the Swiss Version [CH]
+    date: "2026-10-19"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-issue-delivery-reminders
+    title: Issue Delivery Reminders in the Swiss Version [CH]
+    date: "2026-10-19"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-post-lsv-payments
+    title: Post LSV+ Payments in Switzerland
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order
-    title: Print an Inventory Picking List from a Sales Order in Switzerland
-    date: "2025-04-29"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information
-    title: Print General Ledger Setup Information [CH]
-    date: "2025-04-29"
+    title: Print a Sales Order Picking List in Switzerland
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders
-    title: Print test reports for delivery reminders [CH]
-    date: "2025-04-29"
+    title: Print Delivery Reminder Test Reports in Switzerland
+    date: "2026-10-19"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-esr-invoices
+    title: Print ESR Invoices in the Swiss Version [CH]
+    date: "2026-10-19"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information
+    title: Print General Ledger Setup Information in the Swiss Version [CH]
+    date: "2026-10-19"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-
+    title: Print Swiss VAT Statements (Older Version)
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-vendor-payments-list-reports
-    title: Print Vendor Payments List Reports [CH]
-    date: "2025-04-29"
+    title: Print Vendor Payments List Reports in the Swiss Version [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-process-an-lsv-collection
-    title: Process an LSV collection [CH]
-    date: "2025-04-29"
+    title: Process an LSV Collection in the Swiss Version [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/ui-extensions-qr-bill-management
-    title: QR-Bill Management [CH]
-    date: "2026-06-15"
+    title: QR-Bill Management in the Swiss Version [CH]
+    date: "2026-10-19"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminder-terms-levels-and-text
+    title: Set Up Delivery Reminder Terms, Levels, and Text in Switzerland
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminders
-    title: Set up delivery reminders (CH)
-    date: "2025-04-29"
+    title: Set Up Delivery Reminders in the Swiss Version
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments
     title: Swiss Electronic Payments
-    date: "2025-04-30"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr
-    title: Swiss Electronic Payments Using ESR [CH]
-    date: "2025-04-30"
+    title: Swiss Electronic Payments Using ESR in the Swiss Version [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-lsv-
-    title: Swiss electronic payments using LSV+ [CH]
-    date: "2025-04-30"
+    title: Swiss Electronic Payments Using LSV+ in the Swiss Version [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-general-ledger-accounts
     title: Swiss General Ledger Accounts [CH]
-    date: "2025-04-30"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-inventory-management
-    title: Swiss inventory management [CH]
-    date: "2025-04-30"
+    title: Swiss Inventory Management [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents
     title: Swiss Purchase Documents and Sales Documents
-    date: "2025-04-30"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-value-added-tax
-    title: Swiss Value Added [CH]
-    date: "2025-05-02"
+    title: Swiss Value Added Tax [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/switzerland-local-functionality
-    title: Switzerland local functionality
-    date: "2025-05-02"
+    title: Switzerland Local Functionality
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/vat-rates-for-switzerland
-    title: VAT rates for Switzerland
-    date: "2023-12-11"
+    title: VAT Rates for Switzerland
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals
-    title: View temporary balances in GL journals [CH]
-    date: "2025-04-30"
+    title: View Temporary General Journal Balances in Switzerland
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -328,27 +328,26 @@ narrative: generated
 
 # Switzerland
 
-> Switzerland local functionality in Business Central covers Swiss VAT statements, banking and payments (ESR, LSV+, QR-bills, SEPA), core finance, purchasing delivery reminders, inventory picking lists, and Swiss post codes. It answers how-to questions on Swiss-specific setup, reporting and processing.
+> Switzerland local functionality in Business Central covers Swiss VAT statements, QR-bills, ESR and LSV+ payments, delivery reminders, Swiss general ledger functions, inventory picking lists and Swiss-specific document behavior. It answers how to set up and use these features in the Swiss version.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Switzerland · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Switzerland section describes features added or changed in the Swiss version of Business Central. An overview page lists the main areas: Swiss VAT statements, QR-bill management, LSV and ESR payment methods, delivery reminders, Swiss general ledger accounts and inventory management.
+This section describes the features added or adapted for the Swiss version of Business Central. The landing page lists the main areas: VAT statements, electronic payments (QR-bills, LSV, ESR), delivery reminders, Swiss general ledger accounts, inventory management, and Swiss-specific purchase and sales documents.
 
-The pages are grouped into six subtopics. Banking & Payments is the largest, with 12 pages on ESR, LSV+ direct debit, QR-bills, SEPA credit transfers, bank clearing number import and the Vendor Payments List report. Purchasing has 8 pages on delivery reminders. Core finance has 5 pages and VAT has 4. Inventory and General have 2 pages each.
+The subtopics split along those lines. Banking & Payments is the largest, with 12 pages on QR-bills, ESR slips, LSV+ direct debit, bank clearing numbers and the Vendor Payments List report. VAT covers statements and rate changes. Core finance covers ledger and VAT currency handling. Purchasing covers delivery reminders. Inventory and General cover picking lists, Swiss Post codes and document behavior.
 
-Start with the overview page to see what applies to your setup. Then go to the subtopic that matches your task: VAT for reporting and rate changes, Banking & Payments for Swiss payment formats, and Core finance for general ledger behavior.
+Start with the subtopic that matches your task. For payment setup go to Banking & Payments. For reporting to the tax authority go to VAT, then Core finance if foreign currencies are involved.
 
 ## Key points
 
-- VAT: create and print Swiss VAT statements (current and older version), adjust VAT amounts and exchange rates, and handle VAT rate changes.
-- Banking & Payments: ESR, LSV+ direct debit, QR-bills and SEPA credit transfers, covering collecting, exporting, importing, posting and printing.
-- Banking also includes bank clearing number import and the Vendor Payments List report.
-- Core finance: general ledger balances, Swiss G/L accounts, temporary balance previews in journals, VAT exchange rate adjustment and the G/L Setup Information report.
-- Purchasing: delivery reminders to vendors, including setup, code assignment, manual creation, batch generation, test reports and issuing.
-- Inventory: print inventory picking lists from sales orders, and Swiss inventory behavior such as default location codes and multiple shipments per invoice.
-- General: import Swiss post codes from Swiss Post, and Swiss-specific behavior of purchase and sales documents (posting descriptions, subtotals, invoice rounding, shipment printing).
+- VAT: create and print Swiss VAT statements (current and older versions), with automatic VAT adjustment for payment discounts and foreign currencies, plus steps for changing VAT rates.
+- Banking & Payments: QR-bills, ESR payment slips, LSV+ direct debit collections, bank clearing numbers and the Vendor Payments List report; covers setup, issuing, export, import and posting.
+- Core finance: foreign currency balances on G/L accounts, VAT exchange rate adjustment, balance views in journals, and the G/L setup information report.
+- Purchasing: delivery reminders for late vendor deliveries, including reminder terms, levels, text, vendor codes, and creating, generating, testing and issuing reminders.
+- Inventory: print a sales order picking list; Swiss features for reporting, multi-shipment invoice tracking and location codes.
+- General: import Swiss Post codes into the Post Code table and Swiss behavior for posting descriptions, subtotals, invoice rounding with payment discounts, and shipment printing.
 
 ## Subtopics
 
@@ -361,7 +360,7 @@ Start with the overview page to see what applies to your setup. Then go to the s
 
 ## More Learn pages
 
-- [Switzerland local functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/switzerland-local-functionality): The following articles describe all of the local functionality that is unique to the Swiss version of Business Central.
+- [Switzerland Local Functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/switzerland-local-functionality): The following articles describe all of the local functionality that is unique to the Swiss version of Business Central.
 
 ## Business Central pages and reports
 

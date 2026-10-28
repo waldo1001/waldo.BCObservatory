@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:10.145Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,6 +109,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11744
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -178,6 +180,12 @@ Start with Belgian VAT or Belgian Intrastat Reporting for the overview, then use
   - In the observatory: [Table 98 "General Ledger Setup"](../../../../../objects/table/98.md)
 - [Verify the Intrastat Report Before Export [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report): Learn how to verify the Belgian Intrastat report with the Checklist Report action before you export and submit your monthly declaration.
   - In the observatory: [Page 4811 "Intrastat Report List"](../../../../../objects/page/4811.md), [Page 4812 "Intrastat Report"](../../../../../objects/page/4812.md)
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#11744 Fixes #11605 - GetCurrencyCode Error](../../../../../changes/bcapps/11744.md) (code change): "GetCurrencyCode no longer raises an error if bank account lookup fails"
 
 ## Business Central pages and reports
 

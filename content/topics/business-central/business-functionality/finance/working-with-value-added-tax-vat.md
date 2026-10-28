@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/finance/working-with-value-added-tax-vat
 type: topic
 title: Working with Value Added Tax (VAT)
-summary: "Value Added Tax (VAT) in Business Central: setup, VAT on sales and purchases, non-deductible VAT, rate changes, multiple registration numbers, number validation, EU third-party trade, built-in reports and submission to tax authorities. It answers how-to questions on configuring, posting, correcting and reporting VAT."
+summary: "Value Added Tax (VAT) in Business Central: setup, VAT on sales and purchases, non-deductible VAT, rate changes, multiple registration numbers, number validation, EU third-party trades, built-in reports and submission to tax authorities. It answers how-to questions about configuring, posting, correcting, validating and reporting VAT."
 tier: official
 language: en
 system: finance
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:18:08.129Z"
+  at: "2026-10-28T11:01:48.839Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 01cccaaecea4d2a321e783d63ac29bd9bb7e1123cbcdd3b620c556090acaecb1
+  input_hash: 1ab4e1d05f5d1bac7274705da92f27bbc91bfb1ab5fe9a88692995e3c883426b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-vat-reports
@@ -112,7 +112,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-how-validate-vat-registration-number
     title: Validate VAT Registration Numbers
-    date: "2021-06-16"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
@@ -226,9 +226,11 @@ links:
     - change/bcapps/11736
     - change/bcapps/12119
     - change/bcapps/12141
+    - change/bcapps/12474
     - change/bcapps/12982
     - change/bcapps/13054
     - change/bcapps/13085
+    - change/bcapps/13216
     - change/bcapps/9089
     - change/bcapps/9260
     - change/bcapps/9340
@@ -315,24 +317,26 @@ narrative: generated
 
 # Working with Value Added Tax (VAT)
 
-> Value Added Tax (VAT) in Business Central: setup, VAT on sales and purchases, non-deductible VAT, rate changes, multiple registration numbers, number validation, EU third-party trade, built-in reports and submission to tax authorities. It answers how-to questions on configuring, posting, correcting and reporting VAT.
+> Value Added Tax (VAT) in Business Central: setup, VAT on sales and purchases, non-deductible VAT, rate changes, multiple registration numbers, number validation, EU third-party trades, built-in reports and submission to tax authorities. It answers how-to questions about configuring, posting, correcting, validating and reporting VAT.
 
 Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Working with Value Added Tax (VAT) · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers the full VAT workflow in Business Central. It starts with VAT setup (rates, posting groups, registration numbers, clauses, VAT statements, nondeductible and unrealized VAT), which is the base for how VAT is calculated, posted to G/L accounts and reported.
+This section covers VAT work in Business Central from configuration to reporting. The Set up VAT subtopic holds the configuration: VAT rates, posting groups, registration numbers, clauses, VAT statements, nondeductible VAT and unrealized VAT. The pages in the hub itself describe day-to-day use of that setup.
+
+For daily transactions, the pages on VAT on sales and purchases, non-deductible VAT and multiple VAT registration numbers explain how VAT is calculated, displayed, adjusted and assigned to documents. Validation of VAT registration numbers uses the EU VAT Reg. No. Validation Service with VIES. EU third-party purchase transactions and certificates of supply cover cross-border cases.
 
 ## Key points
 
-- Set up VAT subtopic covers VAT rates, posting groups, registration numbers, clauses, VAT statements, nondeductible VAT and unrealized VAT.
-- Working with VAT on sales and purchases covers calculation and display, VAT date functionality, prices including VAT, manual VAT adjustment, VAT difference tolerance and certificates of supply (version 23.1 noted).
-- The VAT Rate Change tool converts VAT and general product posting groups on master data, journals and orders, can update unit prices, offers test conversion and logging, and has limits for some document types.
-- Multiple VAT registration numbers (2024 release wave 2) lets businesses with warehouses in several EU countries apply the right VAT registration and posting groups to sales documents, including ship-to addresses and credit memos.
-- Non-deductible VAT is handled on purchase invoices and orders using Non-Deductible VAT Base, Amount and % fields, with VAT adjustment before posting.
-- VAT registration numbers for customers, vendors and contacts are validated through the EU VAT Reg. No. Validation Service, which uses VIES and optional validation templates.
-- EU third-party purchase transactions are enabled in VAT setup and can be filtered in VAT statements and VIES declarations.
-- Submitting VAT reports covers the EC Sales List and VAT Return, with service connection, test mode, error validation and VAT settlement.
+- Start with the Value Added Tax management overview, then Set up VAT for rates, posting groups, clauses, statements, nondeductible and unrealized VAT.
+- VAT on sales and purchases covers calculation and display, prices including VAT, VAT date functionality, manual VAT adjustment, VAT difference tolerance and certificates of supply for EU transactions. The page references version 23.1.
+- Non-deductible VAT lets you create purchase invoices and orders with Non-Deductible VAT Base, Amount and % and adjust amounts before posting. The page refers to the VAT Setup page.
+- Multiple VAT registration numbers (2024 release wave 2) assign the right VAT registration and posting groups to sales documents based on ship-to address or country.
+- The VAT Rate Change tool converts VAT and general product posting groups on master data, journals and orders and updates unit prices for items and resources. It has a test conversion and logging, but has limits for some document types.
+- Validate VAT registration numbers for customers, vendors and contacts through the EU VAT Reg. No. Validation Service (VIES). Results go to the VAT Registration Log.
+- Submit VAT reports covers EC Sales List and VAT Return reports, service connection, test mode, error validation and VAT settlement. Built-in VAT reports can be explored with Report Explorer.
+- EU 3-party trade purchases can be filtered in VAT statements and VIES declarations. Service contracts with VAT amounts are converted manually using corrections and credit memos.
 
 ## Subtopics
 
@@ -376,9 +380,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11736 [29.x][VIES Integration] Per-environment daily request rate-limit](../../../../changes/bcapps/11736.md) (code change): "VAT Registration Number lookups against the EU VIES service"
 - [#12119 Fixing an APAC-specific issue with applying a posted sales credit memo when using unrealized VAT (GST)](../../../../changes/bcapps/12119.md) (code change): "An infinite loop when applying a posted sales credit memo with unrealized VAT (GST)"
 - [#12141 [Master]-Incorrect project ledger costs when non-deductible VAT is posted to a foreign-currency project](../../../../changes/bcapps/12141.md) (code change): "Fixed incorrect project ledger costs when posting non-deductible VAT to a foreign-currency project"
+- [#12474 [Master]-Non-Deductible Reverse-Charge VAT Correction Is Posted to Purchase VAT Account Instead of Payment Discount Account.](../../../../changes/bcapps/12474.md) (code change): "When posting non-deductible reverse-charge VAT corrections with payment discounts"
 - [#12982 [29x][All-e]Since Business Central 28.4, we have observed changed behaviour when the VAT Prod](../../../../changes/bcapps/12982.md) (code change): "VAT Product Posting Group behavior was corrected in Sales Line handling"
 - [#13054 [FR] Delocalize delayed VAT and SEPA payment-slip integration](../../../../changes/bcapps/13054.md) (code change): "Delayed VAT recognition and percentage validation now run through"
 - [#13085 [Main]- Since Business Central 28.4, we have observed changed behaviour when the VAT Prod.](../../../../changes/bcapps/13085.md) (code change): "VAT Rate Change Conversion codeunit fixes a behavior change"
+- [#13216 Fix VAT adjustment register](../../../../changes/bcapps/13216.md) (code change): "Fix VAT adjustment register. VAT adjustment register calculation corrected"
 - [#9089 Merge-ES-Excluded-from-Calculation-to-W1](../../../../changes/bcapps/9089.md) (code change): "ES Excluded from Calculation functionality is merged into W1"
 - [#9260 Bug 637507: [master] [Report 743 VAT Reconciliation Report] Incorrect VAT Base and Amount when using Non-Deductible VAT](../../../../changes/bcapps/9260.md) (code change): "VAT Reconciliation Report now includes a configurable option to report either the total VAT amount"
 - [#9340 [main][Gen. Jnl.-Post Line]` Add var NextVATEntryNo to OnAfterGLFinishPosting in Code](../../../../changes/bcapps/9340.md) (code change): "OnAfterGLFinishPosting now exposes NextVATEntryNo as a var parameter"

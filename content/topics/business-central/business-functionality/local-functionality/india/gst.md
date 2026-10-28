@@ -2,299 +2,299 @@
 id: topic/business-central/business-functionality/local-functionality/india/gst
 type: topic
 title: GST
-summary: "GST in the India localization of Business Central: setup, sales and purchase transactions, returns, advance payments, TDS/TCS, cess, e-invoice, e-way bill, input service distribution, reconciliation and settlement. It answers how GST is calculated and posted to the general ledger in each scenario."
+summary: "GST in the India localization of Business Central: setup, purchase and sales transactions, advance payments, returns, imports and exports, credit adjustments, settlement, reconciliation, E-Invoice and E-Way Bill. It answers how to configure GST, TDS, TCS and Cess, and how each transaction type calculates tax and posts to the general ledger."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:15:32.621Z"
+  at: "2026-10-28T11:01:01.827Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9132b94817d06fafce2c108bf763e8f06599c164fb8acdad7c7894fbc3170316
+  input_hash: 5e81ccbbbf79e2b595a41057597d8f38e428bb2319d679d8f0c6cda21cffa061
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-and-GST-on-Purchase
     title: Calculation of Income Tax TDS and GST on Purchase Transactions
-    date: "2025-06-25"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction
     title: Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
-    date: "2025-06-25"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Cess-Calculations
     title: Cess Calculation
-    date: "2025-06-19"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-E-Invoice
     title: E-Invoice
-    date: "2025-06-19"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-E-Way-Bill
     title: E-Way Bill
-    date: "2025-06-19"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Foreign-Customer-Service
-    title: Export of Goods and/or Services to Foreign Customer
-    date: "2025-06-23"
+    title: Export of Goods and Services to Foreign Customer
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-and-Kerala-Flood-Cess-on-Sales
     title: GST and Kerala Flood Cess on Sales Transaction
-    date: "2025-06-19"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice
     title: GST and TCS on Advance Customer Payments
-    date: "2025-06-25"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice
     title: GST and TDS on Vendor Advance Payments
-    date: "2025-06-25"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice
-    title: GST Credit and GST Liability adjustment for open Reverse Charge Goods and Services Invoices
-    date: "2025-06-19"
+    title: GST Credit and GST Liability Adjustment for Open Reverse Charge Goods and Services Invoices
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Exempted-Sales
     title: GST Exempted Sales
-    date: "2025-06-19"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Overview
     title: GST Input Service Distribution Overview
-    date: "2025-10-16"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment
     title: GST Input Tax Credit Adjustments
-    date: "2025-06-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application
-    title: GST on Advance Payment application with Purchase Invoice
-    date: "2025-06-19"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice
-    title: GST on Advance Payment Application with Sales Invoice
-    date: "2025-06-19"
+    title: GST on Advance Payment and Application with Sales Invoice
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-made-to-Vendor
-    title: GST on Advance Payment made to Vendor, with reverse charge
-    date: "2025-06-19"
+    title: GST on Advance Payment Made to Vendor with Reverse Charge
+    date: "2026-10-21"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application
+    title: GST on Advance Payment or Normal Payment Application with Purchase Invoice
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer
-    title: GST on advance payment received from customer
-    date: "2025-06-19"
+    title: GST on Advance Payment Received from Customer
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Bank-Charges-Transaction
     title: GST on Bank Charges Transaction
-    date: "2025-06-19"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank
-    title: GST on Journals where Services paid directly through Cash or Bank
-    date: "2025-10-16"
+    title: GST on Journals for Services Paid Directly Through Cash or Bank
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Management
     title: GST on Service Management
-    date: "2025-06-24"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Reconciliation
     title: GST Reconciliation
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Settelement
     title: GST Settlement of Net Payment Liability
-    date: "2025-06-24"
+    date: "2026-10-21"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-TCS-on-Receipt
+    title: GST TCS on Customer Payments
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-on-Payment
     title: GST TCS on Vendor Payment
-    date: "2025-06-25"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-TCS-on-Receipt
-    title: GST TDS and GST TCS on Customer Payments
-    date: "2025-06-25"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Foreign-Vendor
     title: Import from Foreign Vendor
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Process
     title: Input Service Distribution Process
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Foreign-Vendor
     title: Purchase Credit Memo or Return Order to Foreign Vendor
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Composite-Vendor
-    title: Purchase from Composite Vendor or Purchase of exempted goods and services with no GST Impact
-    date: "2025-06-23"
+    title: Purchase from Composite Vendor or Purchase of Exempted Goods and Services with No GST Impact
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Registered-Vendor
     title: Purchase from Registered Vendors
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM
     title: Purchase of Goods from an Unregistered Vendor (Reverse Charge)
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-SEZ-Vendor
     title: Purchase of Goods from SEZ Vendor
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor
     title: Purchase of Services for Overseas Place of Supply from Registered Vendor
-    date: "2025-06-24"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Composite-Vendor
-    title: Purchase Return of Goods and Services to Composite Vendor or Purchase Return of exempted goods and services with no GST Impact
-    date: "2025-06-23"
+    title: Purchase Return of Goods and Services to Composite Vendor or Purchase Return of Exempted Goods and Services with No GST Impact
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor
     title: Purchase Return of Services for Overseas Place of Supply to Registered Vendor
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Registered-Vendor
     title: Purchase Return to Registered Vendor
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Unregistered-Vendor-RCM
     title: Purchase Return to Unregistered Vendor (Reverse Charge)
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Registered-Customer-Overseas-POS
-    title: Sale of Services to Overseas Place of Supply to registered customer
-    date: "2025-06-23"
+    title: Sale of Services to Overseas Place of Supply to Registered Customer
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-Return-to-Registered-Unregistered-Customer
     title: Sales Return of Goods from Registered or Unregistered Customer
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS
-    title: Sales returns from registered customers for goods with an overseas place of supply
-    date: "2025-06-23"
+    title: Sales Returns from Registered Customers for Goods with an Overseas Place of Supply
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Registered-Unregistered-Customer
     title: Sales to Registered or Unregistered Customer
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
@@ -313,17 +313,17 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Exempted-Sales
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Overview
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-made-to-Vendor
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Bank-Charges-Transaction
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Management
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Reconciliation
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Settelement
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-on-Payment
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-TCS-on-Receipt
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-on-Payment
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Foreign-Vendor
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Process
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Foreign-Vendor
@@ -341,10 +341,10 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Registered-Unregistered-Customer
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Transfer
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-TCS-Overview
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-001-Basic-Setup
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Cess-Basic-Setup
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Bank-Charges-Overview
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-TCS-Overview
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Stock-Transfer
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Transaction
   objects: []
@@ -385,117 +385,110 @@ narrative: generated
 
 # GST
 
-> GST in the India localization of Business Central: setup, sales and purchase transactions, returns, advance payments, TDS/TCS, cess, e-invoice, e-way bill, input service distribution, reconciliation and settlement. It answers how GST is calculated and posted to the general ledger in each scenario.
+> GST in the India localization of Business Central: setup, purchase and sales transactions, advance payments, returns, imports and exports, credit adjustments, settlement, reconciliation, E-Invoice and E-Way Bill. It answers how to configure GST, TDS, TCS and Cess, and how each transaction type calculates tax and posts to the general ledger.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > GST · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers Goods and Services Tax handling in the India localization. It starts with setup pages (GST, Compensation Cess, GST TDS and TCS, bank charges) and then walks through transaction scenarios. Most pages describe one scenario, with intra-state (CGST/SGST) and inter-state (IGST) treatment and the resulting GL entries, often with and without input tax credit.
+This section documents Goods and Services Tax handling for Indian companies in Business Central. It starts with setup pages (Set Up Goods and Services Tax, GST Compensation Cess, GST for bank charges, GST TDS and TCS). These cover GST rates, registration numbers, GST groups, HSN/SAC codes, posting setup, and GST details on vendors, customers, items and locations.
 
-Transaction pages are grouped by party and type. Sales cover registered and unregistered customers, exempted sales, exports, SEZ and overseas place of supply, and returns. Purchases cover registered, unregistered (reverse charge), composite, SEZ and foreign vendors and services with an overseas place of supply. Separate return pages cover registered, unregistered, composite or exempted, foreign and overseas place of supply cases. Further pages cover advance payments, journals, bank charges, service management, service and stock transfers, and Input Service Distribution.
+The transaction pages are organized by scenario. Purchases cover registered, unregistered (reverse charge), composite or exempted, SEZ and foreign vendors, plus the matching returns. Sales cover registered and unregistered customers, exempted sales, exports, overseas place of supply and sales returns. Further pages deal with advance payments to vendors and from customers, bank charges, service management, stock and service transfers, and input service distribution. Most pages give GL entry examples for intra-state (CGST/SGST) and inter-state (IGST) cases, with and without input tax credit.
 
-Compliance and period-end pages cover E-Invoice, E-Way Bill, GST reconciliation with GSTR-2A, credit adjustments and settlement of net payment liability. Start with "Setting up Goods and Service Tax", then open the page for the transaction type you need.
+Later pages cover compliance and period-end work: credit adjustments, GST liability adjustment for open reverse charge invoices, settlement of net payment liability, GSTR-2A reconciliation, E-Invoice and E-Way Bill. Start with Set Up Goods and Services Tax, then go to the page for your transaction type.
 
 ## Key points
 
-- Setting up Goods and Services Tax covers the tax engine, rates, registration numbers, accounting periods, GST groups, HSN/SAC codes and posting accounts.
-- Purchases from registered vendors use CGST/SGST or IGST with credit availment options. Unregistered vendors attract GST only for notified services under reverse charge. Composite vendors and exempted goods have no GST impact.
-- Imports from foreign vendors fall under reverse charge, with IGST on GST Assessable Value plus Basic Custom Duty. Purchases from SEZ vendors also carry IGST on that base, with or without bill of entry.
-- GST Compensation Cess has five calculation types: Cess%, Threshold, Cess% + Amount/Unit Factor, whichever higher of Cess% or Amount/Unit Factor, and Amount/Unit Factor.
-- GST TDS is set up at 2% on payments above INR 250000, and e-commerce operators collect GST TCS at 1%. Separate pages cover vendor and customer payments.
-- Advance payments are covered for customers and vendors, including application to invoices, un-application, interim accounts and GSTR-1 reporting.
-- E-Invoice generates JSON invoices and imports signed responses with IRN validation. E-Way Bill exports a template to Excel for goods over INR 50,000.
-- GST reconciliation matches purchases to GSTR-2A, and settlement of net payment liability discharges tax monthly using credit offsets in priority order.
+- Setup includes GST rates, registration numbers, tax accounting periods, states, GST groups, HSN/SAC codes, posting setup by state and component, and GST types on vendors and customers.
+- Purchase scenarios cover registered, unregistered (reverse charge), composite or exempted, SEZ and foreign vendors. Composite and exempted purchases calculate no GST.
+- Sales scenarios cover B2B and B2C, exempted customers, exports with or without payment of duty, deemed export, SEZ, and overseas place of supply.
+- GST Compensation Cess supports five calculation types: percentage, threshold, percentage plus amount, percentage or amount whichever is higher, and amount per unit factor. Cess credit can only offset cess liability.
+- TDS is deducted on the base amount excluding GST. TCS applies on sales by nature of collection. GST TDS is 2% on payments above INR 250000 and GST TCS is 1% for e-commerce operators.
+- Advance payments from customers and to vendors have their own GST treatment, covering application, unapplication and reversal.
+- GST liability adjustment for open reverse charge invoices applies when payment is not made within 30 days for goods or 60 days for services.
+- Compliance features include the Credit Adjustment Journal, GST settlement, GSTR-2A reconciliation, E-Invoice (JSON export, IRN, cancellation) and E-Way Bill Excel export.
 
 ## Learn pages
 
-- [Calculation of Income Tax TDS and GST on Purchase Transactions](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-and-GST-on-Purchase): Learn how to calculate Income Tax TDS and GST on purchase transactions in Business Central for India.
-- [Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction): Learn how to calculate TCS under the Income Tax Act, 1961, and GST on sales transactions in Business Central.
-  - In the observatory: [Page 43 "Sales Invoice"](../../../../../objects/page/43.md)
+- [Calculation of Income Tax TDS and GST on Purchase Transactions](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-and-GST-on-Purchase): Calculate income tax TDS and GST on purchase transactions, and review illustrative calculation and accounting entries in Business Central for India.
+  - In the observatory: [Page 9308 "Purchase Invoices"](../../../../../objects/page/9308.md)
+- [Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction): Calculate income tax TCS and GST on sales transactions, and review illustrative calculation and accounting entries in Business Central for India.
 - [Cess Calculation](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Cess-Calculations): Learn how GST Compensation Cess is calculated in Business Central for India, including calculation types, methods, and examples.
-- [E-Invoice](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-E-Invoice): Learn about the E-Invoice feature in Business Central for India, including how to generate, export, import, and manage e-invoices in compliance with GST requirements.
+- [E-Invoice](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-E-Invoice): Generate, export, and import e-invoice data, manage invoice reference details, and review cancellation workflows in Business Central for India.
   - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 132 "Posted Sales Invoice"](../../../../../objects/page/132.md), [Page 134 "Posted Sales Credit Memo"](../../../../../objects/page/134.md)
-- [E-Way Bill](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-E-Way-Bill): Learn how to generate and manage E-Way Bills for goods transportation in India using Business Central.
-- [Export of Goods and/or Services to Foreign Customer](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Foreign-Customer-Service): Learn how to export goods and services to foreign customers in India, including GST treatment, invoice creation, and accounting entries.
-  - In the observatory: [Page 43 "Sales Invoice"](../../../../../objects/page/43.md)
-- [GST and Kerala Flood Cess on Sales Transaction](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-and-Kerala-Flood-Cess-on-Sales): Information about GST and the discontinued Kerala Flood Cess on sales transactions in India.
-  - In the observatory: [Page 43 "Sales Invoice"](../../../../../objects/page/43.md)
+- [E-Way Bill](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-E-Way-Bill): Review e-way bill information and workflows for goods transportation, including document details and related actions in Business Central for India.
+- [Export of Goods and Services to Foreign Customer](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Foreign-Customer-Service): Learn how to export goods and services to foreign customers in India, including GST treatment, invoice creation, and accounting entries.
+- [GST and Kerala Flood Cess on Sales Transaction](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-and-Kerala-Flood-Cess-on-Sales): Review the historical Kerala Flood Cess sales example and its GST accounting context in Business Central for India, without treating old rates as current.
 - [GST and TCS on Advance Customer Payments](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice): Learn how GST and TCS are applied to advance customer payments in Business Central for India, including calculation and posting details.
-- [GST and TDS on Vendor Advance Payments](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice): Learn how GST and TDS are applied to vendor advance payments in Business Central.
-  - In the observatory: [Page 18550 "Bank Payment Voucher (IN)"](../../../../../objects/page/18550-in.md), [Page 18554 "Cash Payment Voucher (IN)"](../../../../../objects/page/18554-in.md), [Page 51 "Purchase Invoice"](../../../../../objects/page/51.md)
-- [GST Credit and GST Liability adjustment for open Reverse Charge Goods and Services Invoices](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice): Explains how to adjust GST credit and GST liability for open reverse charge service invoices in Business Central India localization.
-  - In the observatory: [Page 18320 "GST Liability Adjustment (IN)"](../../../../../objects/page/18320-in.md)
+  - In the observatory: [Page 18553 "Bank Receipt Voucher (IN)"](../../../../../objects/page/18553-in.md), [Page 18555 "Cash Receipt Voucher (IN)"](../../../../../objects/page/18555-in.md)
+- [GST and TDS on Vendor Advance Payments](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice): Apply vendor advance payments to purchase invoices and review the related GST and TDS adjustment and accounting examples in Business Central for India.
+  - In the observatory: [Page 18550 "Bank Payment Voucher (IN)"](../../../../../objects/page/18550-in.md), [Page 18554 "Cash Payment Voucher (IN)"](../../../../../objects/page/18554-in.md), [Page 9308 "Purchase Invoices"](../../../../../objects/page/9308.md)
+- [GST Credit and GST Liability Adjustment for Open Reverse Charge Goods and Services Invoices](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice): Explains how to adjust GST credit and GST liability for open reverse charge service invoices in Business Central India localization.
+  - In the observatory: [Page 18319 "GST Liability Adj. Journal (IN)"](../../../../../objects/page/18319-in.md), [Page 18320 "GST Liability Adjustment (IN)"](../../../../../objects/page/18320-in.md)
 - [GST Exempted Sales](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Exempted-Sales): Learn how to process GST exempted sales in Business Central, including creating sales invoices and credit memos for exempt customers in India.
-  - In the observatory: [Page 43 "Sales Invoice"](../../../../../objects/page/43.md), [Page 44 "Sales Credit Memo"](../../../../../objects/page/44.md)
+  - In the observatory: [Page 9302 "Sales Credit Memos"](../../../../../objects/page/9302.md)
 - [GST Input Service Distribution Overview](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Overview): Overview of GST Input Service Distribution functionality in Business Central for India, including setup steps and configuration requirements.
-  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 18003 "GST Posting Setup (IN)"](../../../../../objects/page/18003-in.md), [Page 18202 "GST Component Dist. List (IN)"](../../../../../objects/page/18202-in.md), [Page 279 "Source Code Setup"](../../../../../objects/page/279.md)
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 18003 "GST Posting Setup (IN)"](../../../../../objects/page/18003-in.md), [Page 18202 "GST Component Dist. List (IN)"](../../../../../objects/page/18202-in.md), [Page 18559 "Posting No. Series Setup (IN)"](../../../../../objects/page/18559-in.md), [Page 279 "Source Code Setup"](../../../../../objects/page/279.md), [Page 36957 "Locations"](../../../../../objects/page/36957.md)
 - [GST Input Tax Credit Adjustments](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment): Learn how to manage and adjust GST input tax credit in Business Central for India, including credit reversals, reavailment, and reverse charge transactions.
-  - In the observatory: [Page 18317 "GST Credit Adjustment (IN)"](../../../../../objects/page/18317-in.md)
-- [GST on Advance Payment application with Purchase Invoice](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application): Learn how GST is applied when advance or normal payments are made to vendors and later applied to purchase invoices in Business Central for India.
-- [GST on Advance Payment Application with Sales Invoice](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice): Learn how GST is applied on advance payments and their application to sales invoices in Business Central for India.
-  - In the observatory: [Page 43 "Sales Invoice"](../../../../../objects/page/43.md)
-- [GST on Advance Payment made to Vendor, with reverse charge](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-made-to-Vendor): Learn how GST is calculated and applied on advance payments made to vendors under reverse charge in Business Central India localization.
-  - In the observatory: [Page 18550 "Bank Payment Voucher (IN)"](../../../../../objects/page/18550-in.md), [Page 18554 "Cash Payment Voucher (IN)"](../../../../../objects/page/18554-in.md), [Page 39 "General Journal"](../../../../../objects/page/39.md)
-- [GST on advance payment received from customer](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer): Learn how GST is calculated and reported on advance payments received from customers in Business Central for India.
-  - In the observatory: [Page 18553 "Bank Receipt Voucher (IN)"](../../../../../objects/page/18553-in.md), [Page 18555 "Cash Receipt Voucher (IN)"](../../../../../objects/page/18555-in.md), [Page 39 "General Journal"](../../../../../objects/page/39.md)
+- [GST on Advance Payment and Application with Sales Invoice](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice): Apply customer advance receipts to sales invoices and review related GST adjustment and accounting examples in Business Central for India.
+- [GST on Advance Payment Made to Vendor with Reverse Charge](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-made-to-Vendor): Learn how GST is calculated and applied on advance payments made to vendors under reverse charge in Business Central India localization.
+- [GST on Advance Payment or Normal Payment Application with Purchase Invoice](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application): Learn how GST is applied when advance or normal payments are made to vendors and later applied to purchase invoices in Business Central for India.
+- [GST on Advance Payment Received from Customer](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer): Record customer advance receipts and review the related GST calculation and accounting entries in the India localization of Business Central.
+  - In the observatory: [Page 18553 "Bank Receipt Voucher (IN)"](../../../../../objects/page/18553-in.md), [Page 18555 "Cash Receipt Voucher (IN)"](../../../../../objects/page/18555-in.md)
 - [GST on Bank Charges Transaction](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Bank-Charges-Transaction): Learn how GST is applied to bank charges transactions in India, including calculation methods, accounting entries, and compliance requirements for Business Central.
-  - In the observatory: [Page 18247 "Journal Bank Charges (IN)"](../../../../../objects/page/18247-in.md), [Page 18550 "Bank Payment Voucher (IN)"](../../../../../objects/page/18550-in.md), [Page 18553 "Bank Receipt Voucher (IN)"](../../../../../objects/page/18553-in.md)
-- [GST on Journals where Services paid directly through Cash or Bank](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank): Explains GST calculation on journals for services paid directly via cash or bank in Business Central India localization.
-  - In the observatory: [Page 39 "General Journal"](../../../../../objects/page/39.md)
+  - In the observatory: [Page 18550 "Bank Payment Voucher (IN)"](../../../../../objects/page/18550-in.md), [Page 18553 "Bank Receipt Voucher (IN)"](../../../../../objects/page/18553-in.md)
+- [GST on Journals for Services Paid Directly Through Cash or Bank](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank): Explains GST calculation on journals for services paid directly via cash or bank in Business Central India localization.
 - [GST on Service Management](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Management): Learn how GST is applied to service management processes in Business Central for India, including service orders, invoices, and credit memos.
-  - In the observatory: [Page 5900 "Service Order"](../../../../../objects/page/5900.md), [Page 5933 "Service Invoice"](../../../../../objects/page/5933.md), [Page 9320 "Service Credit Memos"](../../../../../objects/page/9320.md)
-- [GST Reconciliation](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Reconciliation): Provides an overview and setup instructions for GST reconciliation in Business Central for India.
-  - In the observatory: [Page 18280 "GST Component Mapping Recon. (IN)"](../../../../../objects/page/18280-in.md), [Page 18283 "GST Reconciliation Lines (IN)"](../../../../../objects/page/18283-in.md), [Table 18283 "Periodic GSTR-2A Data (IN)"](../../../../../objects/table/18283-in.md)
-- [GST Settlement of Net Payment Liability](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Settelement): Provides information about the GST settlement process for net payment liability in Business Central for India.
-  - In the observatory: [Page 18007 "Return & Reco Components (IN)"](../../../../../objects/page/18007-in.md), [Page 18321 "GST Settlement (IN)"](../../../../../objects/page/18321-in.md)
-- [GST TCS on Vendor Payment](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-on-Payment): Learn how GST Tax Collected at Source (TCS) is applied and processed on vendor payments in Business Central for India.
-  - In the observatory: [Page 18550 "Bank Payment Voucher (IN)"](../../../../../objects/page/18550-in.md), [Page 18554 "Cash Payment Voucher (IN)"](../../../../../objects/page/18554-in.md)
-- [GST TDS and GST TCS on Customer Payments](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-TCS-on-Receipt): Learn how to apply GST TDS and GST TCS on customer payments in Business Central for India.
+  - In the observatory: [Page 9318 "Service Orders"](../../../../../objects/page/9318.md), [Page 9319 "Service Invoices"](../../../../../objects/page/9319.md), [Page 9320 "Service Credit Memos"](../../../../../objects/page/9320.md)
+- [GST Reconciliation](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Reconciliation): Set up GST reconciliation, import reconciliation data, and review matching criteria and related actions in the India localization of Business Central.
+  - In the observatory: [Page 18280 "GST Component Mapping Recon. (IN)"](../../../../../objects/page/18280-in.md), [Table 18283 "Periodic GSTR-2A Data (IN)"](../../../../../objects/table/18283-in.md)
+- [GST Settlement of Net Payment Liability](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Settelement): Review GST settlement setup and steps for calculating net payment liability and recording settlement transactions in Business Central for India.
+  - In the observatory: [Page 18007 "Return & Reco Components (IN)"](../../../../../objects/page/18007-in.md), [Page 18321 "GST Settlement (IN)"](../../../../../objects/page/18321-in.md), [Page 18322 "Pay GST (IN)"](../../../../../objects/page/18322-in.md)
+- [GST TCS on Customer Payments](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-TCS-on-Receipt): Apply GST TDS and GST TCS to customer receipts, and review certificate details and illustrative accounting entries in Business Central for India.
+  - In the observatory: [Page 18553 "Bank Receipt Voucher (IN)"](../../../../../objects/page/18553-in.md), [Page 18555 "Cash Receipt Voucher (IN)"](../../../../../objects/page/18555-in.md)
+- [GST TCS on Vendor Payment](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-on-Payment): Record GST Tax Collected at Source on vendor payments and review the associated setup and accounting entries in Business Central for India.
+  - In the observatory: [Page 18550 "Bank Payment Voucher (IN)"](../../../../../objects/page/18550-in.md), [Page 18554 "Cash Payment Voucher (IN)"](../../../../../objects/page/18554-in.md), [Table 18245 "GST TDS/TCS Entry (IN)"](../../../../../objects/table/18245-in.md)
 - [Import from Foreign Vendor](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Foreign-Vendor): Learn how to process imports from foreign vendors in India, including GST and reverse charge procedures for goods and services.
-  - In the observatory: [Page 51 "Purchase Invoice"](../../../../../objects/page/51.md)
-- [Input Service Distribution Process](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Process): Describes the process of distributing input service GST credits across locations in Business Central for India.
+  - In the observatory: [Page 9308 "Purchase Invoices"](../../../../../objects/page/9308.md)
+- [Input Service Distribution Process](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Process): Set up and process input service distribution to allocate eligible GST credits across locations in the India localization of Business Central.
 - [Purchase Credit Memo or Return Order to Foreign Vendor](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Foreign-Vendor): Learn how to create a purchase credit memo or return order to a foreign vendor in India, including GST and reverse charge considerations.
-  - In the observatory: [Page 52 "Purchase Credit Memo"](../../../../../objects/page/52.md), [Page 6640 "Purchase Return Order"](../../../../../objects/page/6640.md)
-- [Purchase from Composite Vendor or Purchase of exempted goods and services with no GST Impact](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Composite-Vendor): Explains how to record purchases from composite vendors or for exempted goods and services that have no GST impact in Business Central India localization.
-  - In the observatory: [Page 51 "Purchase Invoice"](../../../../../objects/page/51.md)
+  - In the observatory: [Page 6643 "Purchase Return Orders"](../../../../../objects/page/6643.md), [Page 9309 "Purchase Credit Memos"](../../../../../objects/page/9309.md)
+- [Purchase from Composite Vendor or Purchase of Exempted Goods and Services with No GST Impact](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Composite-Vendor): Explains how to record purchases from composite vendors or for exempted goods and services that have no GST impact in Business Central India localization.
+  - In the observatory: [Page 9308 "Purchase Invoices"](../../../../../objects/page/9308.md)
 - [Purchase from Registered Vendors](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Registered-Vendor): Learn how to process purchases from registered vendors in India, including GST setup, invoice creation, and accounting entries in Dynamics 365 Business Central.
-  - In the observatory: [Page 51 "Purchase Invoice"](../../../../../objects/page/51.md)
+  - In the observatory: [Page 9308 "Purchase Invoices"](../../../../../objects/page/9308.md)
 - [Purchase of Goods from an Unregistered Vendor (Reverse Charge)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM): Learn how to process purchases from unregistered vendors in India under the GST reverse charge mechanism in Dynamics 365 Business Central.
-  - In the observatory: [Page 51 "Purchase Invoice"](../../../../../objects/page/51.md)
+  - In the observatory: [Page 460 "Purchases & Payables Setup"](../../../../../objects/page/460.md), [Page 9308 "Purchase Invoices"](../../../../../objects/page/9308.md)
 - [Purchase of Goods from SEZ Vendor](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-SEZ-Vendor): Learn how to process the purchase of goods from a Special Economic Zone (SEZ) vendor in India, including GST calculation and accounting entries in Business Central.
-  - In the observatory: [Page 51 "Purchase Invoice"](../../../../../objects/page/51.md)
-- [Purchase of Services for Overseas Place of Supply from Registered Vendor](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor): Learn how to process the purchase of services from a registered vendor in India when the place of supply is overseas, including GST calculation and accounting entries.
-  - In the observatory: [Page 51 "Purchase Invoice"](../../../../../objects/page/51.md)
-- [Purchase Return of Goods and Services to Composite Vendor or Purchase Return of exempted goods and services with no GST Impact](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Composite-Vendor): Purchase Return of Goods and Services to Composite Vendor or Purchase Return of exempted goods and services with no GST Impact
-  - In the observatory: [Page 52 "Purchase Credit Memo"](../../../../../objects/page/52.md), [Page 6640 "Purchase Return Order"](../../../../../objects/page/6640.md)
-- [Purchase Return of Services for Overseas Place of Supply to Registered Vendor](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor): Purchase return of services for overseas place of supply to registered vendor
-  - In the observatory: [Page 52 "Purchase Credit Memo"](../../../../../objects/page/52.md), [Page 6640 "Purchase Return Order"](../../../../../objects/page/6640.md)
+  - In the observatory: [Page 9308 "Purchase Invoices"](../../../../../objects/page/9308.md)
+- [Purchase of Services for Overseas Place of Supply from Registered Vendor](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor): Process service purchases from registered vendors with an overseas place of supply and review GST accounting entries in Business Central for India.
+  - In the observatory: [Page 9308 "Purchase Invoices"](../../../../../objects/page/9308.md)
+- [Purchase Return of Goods and Services to Composite Vendor or Purchase Return of Exempted Goods and Services with No GST Impact](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Composite-Vendor): Purchase Return of Goods and Services to Composite Vendor or Purchase Return of exempted goods and services with no GST Impact
+  - In the observatory: [Page 6643 "Purchase Return Orders"](../../../../../objects/page/6643.md), [Page 9309 "Purchase Credit Memos"](../../../../../objects/page/9309.md)
+- [Purchase Return of Services for Overseas Place of Supply to Registered Vendor](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor): Process service purchase returns to registered vendors with an overseas place of supply and review GST entries in Business Central for India.
+  - In the observatory: [Page 6643 "Purchase Return Orders"](../../../../../objects/page/6643.md), [Page 9309 "Purchase Credit Memos"](../../../../../objects/page/9309.md)
 - [Purchase Return to Registered Vendor](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Registered-Vendor): Learn how to process purchase returns to registered vendors in India, including GST implications and accounting entries in Business Central.
-  - In the observatory: [Page 52 "Purchase Credit Memo"](../../../../../objects/page/52.md), [Page 6640 "Purchase Return Order"](../../../../../objects/page/6640.md)
-- [Purchase Return to Unregistered Vendor (Reverse Charge)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Unregistered-Vendor-RCM): Learn how to process purchase returns to unregistered vendors under GST reverse charge in Business Central India.
-  - In the observatory: [Page 52 "Purchase Credit Memo"](../../../../../objects/page/52.md), [Page 6640 "Purchase Return Order"](../../../../../objects/page/6640.md)
-- [Sale of Services to Overseas Place of Supply to registered customer](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Registered-Customer-Overseas-POS): Explains how to process sales of services to registered customers when the place of supply is overseas, under GST regulations in India.
-  - In the observatory: [Page 43 "Sales Invoice"](../../../../../objects/page/43.md)
-- [Sales Return of Goods from Registered or Unregistered Customer](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-Return-to-Registered-Unregistered-Customer): Learn how to process sales returns of goods from registered or unregistered customers in India.
-  - In the observatory: [Page 44 "Sales Credit Memo"](../../../../../objects/page/44.md), [Page 6630 "Sales Return Order"](../../../../../objects/page/6630.md)
-- [Sales returns from registered customers for goods with an overseas place of supply](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS): Process for handling sales returns or issuing credit notes for services supplied overseas to registered customers in India.
-  - In the observatory: [Page 44 "Sales Credit Memo"](../../../../../objects/page/44.md), [Page 6630 "Sales Return Order"](../../../../../objects/page/6630.md)
-- [Sales to Registered or Unregistered Customer](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Registered-Unregistered-Customer): Learn how to process and report sales to registered (B2B) and unregistered (B2C) customers in India.
-  - In the observatory: [Page 43 "Sales Invoice"](../../../../../objects/page/43.md)
+  - In the observatory: [Page 6643 "Purchase Return Orders"](../../../../../objects/page/6643.md), [Page 9309 "Purchase Credit Memos"](../../../../../objects/page/9309.md)
+- [Purchase Return to Unregistered Vendor (Reverse Charge)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Unregistered-Vendor-RCM): Process purchase returns to unregistered vendors under GST reverse charge and review illustrative accounting entries in Business Central for India.
+  - In the observatory: [Page 6643 "Purchase Return Orders"](../../../../../objects/page/6643.md), [Page 9309 "Purchase Credit Memos"](../../../../../objects/page/9309.md)
+- [Sale of Services to Overseas Place of Supply to Registered Customer](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Registered-Customer-Overseas-POS): Explains how to process sales of services to registered customers when the place of supply is overseas, under GST regulations in India.
+- [Sales Return of Goods from Registered or Unregistered Customer](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-Return-to-Registered-Unregistered-Customer): Process sales returns from registered or unregistered customers and review illustrative GST accounting entries in Business Central for India.
+  - In the observatory: [Page 6633 "Sales Return Orders"](../../../../../objects/page/6633.md), [Page 9302 "Sales Credit Memos"](../../../../../objects/page/9302.md)
+- [Sales Returns from Registered Customers for Goods with an Overseas Place of Supply](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS): Process for handling sales returns or issuing credit notes for services supplied overseas to registered customers in India.
+  - In the observatory: [Page 6633 "Sales Return Orders"](../../../../../objects/page/6633.md), [Page 9302 "Sales Credit Memos"](../../../../../objects/page/9302.md)
+- [Sales to Registered or Unregistered Customer](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Registered-Unregistered-Customer): Process sales to registered and unregistered customers, and review illustrative GST calculation and ledger entries in Business Central for India.
 - [Service Transfer](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Transfer): Learn how to process service transfers between locations, branches, or divisions under GST in India, including order creation and accounting entries.
   - In the observatory: [Page 18358 "Service Transfer Order (IN)"](../../../../../objects/page/18358-in.md)
-- [Setting up for GST TDS and GST TCS](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-TCS-Overview): Learn how to configure GST TDS and GST TCS in Business Central for India, including setup steps and compliance requirements.
-- [Setting up Goods and Service Tax](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-001-Basic-Setup): Describes the essential steps for basic GST setup in Business Central for India.
-  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 18003 "GST Posting Setup (IN)"](../../../../../objects/page/18003-in.md), [Page 18004 "GST Registration Nos. (IN)"](../../../../../objects/page/18004-in.md), [Page 18005 "HSN/SAC (IN)"](../../../../../objects/page/18005-in.md), [Page 18547 "States (IN)"](../../../../../objects/page/18547-in.md)
-- [Setting up GST Compensation Cess](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Cess-Basic-Setup): Describes the essential configurations needed to set up GST Compensation Cess.
-  - In the observatory: [Page 18003 "GST Posting Setup (IN)"](../../../../../objects/page/18003-in.md), [Page 18005 "HSN/SAC (IN)"](../../../../../objects/page/18005-in.md), [Page 20249 "Tax Type"](../../../../../objects/page/20249.md)
-- [Setting up GST for Bank Charges](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Bank-Charges-Overview): Learn how to configure GST for bank charges in Business Central, including setup steps for bank accounts, bank charges master, and deemed value calculations.
-  - In the observatory: [Page 18244 "Bank Charges (IN)"](../../../../../objects/page/18244-in.md)
+- [Set Up Goods and Services Tax](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-001-Basic-Setup): Set up GST registration, tax groups, posting accounts, and transaction defaults for the India localization of Microsoft Dynamics 365 Business Central.
+  - In the observatory: [Table 18004 "GST Group (IN)"](../../../../../objects/table/18004-in.md), [Table 18007 "GST Posting Setup (IN)"](../../../../../objects/table/18007-in.md), [Table 18008 "GST Registration Nos. (IN)"](../../../../../objects/table/18008-in.md), [Table 18009 "HSN/SAC (IN)"](../../../../../objects/table/18009-in.md), [Table 242 "Source Code Setup"](../../../../../objects/table/242.md), [Table 312 "Purchases & Payables Setup"](../../../../../objects/table/312.md)
+- [Set Up GST Compensation Cess](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Cess-Basic-Setup): Set up GST Compensation Cess components and item classifications for applicable transactions in the India localization of Business Central.
+- [Set Up GST for Bank Charges](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Bank-Charges-Overview): Learn how to configure GST for bank charges in Business Central, including setup steps for bank accounts, bank charges master, and deemed value calculations.
+  - In the observatory: [Table 18243 "Bank Charge (IN)"](../../../../../objects/table/18243-in.md), [Table 18244 "Bank Charge Deemed Value Setup (IN)"](../../../../../objects/table/18244-in.md)
+- [Setup for GST TDS and GST TCS](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-TCS-Overview): Learn how to configure GST TDS and GST TCS in Business Central for India, including setup steps and compliance requirements.
 - [Stock Transfer](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Stock-Transfer): Learn how to process stock transfers under GST in India, including steps for transfer orders, GST calculation, and handling bonded warehouse scenarios.
-  - In the observatory: [Page 5740 "Transfer Order"](../../../../../objects/page/5740.md)
+  - In the observatory: [Page 5740 "Transfer Order"](../../../../../objects/page/5740.md), [Page 5742 "Transfer Orders"](../../../../../objects/page/5742.md)
 - [Transactions for Input Service Distributor](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Transaction): Describes how to process and record transactions for Input Service Distributor in Business Central, including purchase and return scenarios with GST calculations.
-  - In the observatory: [Page 51 "Purchase Invoice"](../../../../../objects/page/51.md), [Page 52 "Purchase Credit Memo"](../../../../../objects/page/52.md), [Page 6640 "Purchase Return Order"](../../../../../objects/page/6640.md)
+  - In the observatory: [Page 6643 "Purchase Return Orders"](../../../../../objects/page/6643.md), [Page 9308 "Purchase Invoices"](../../../../../objects/page/9308.md), [Page 9309 "Purchase Credit Memos"](../../../../../objects/page/9309.md)
 
 ## Videos, posts and code changes
 

@@ -2,21 +2,21 @@
 id: topic/business-central/development-and-administration/customize-business-central/customize-with-extensions
 type: topic
 title: Customize with extensions
-summary: "Extensions for Business Central: how to install, uninstall and manage apps, plus individual extensions for migration, payments, banking, insights, forecasting and country-specific needs (UK, DK, EU). Answers what each extension does, how it is set up, and its limits or deprecation status."
+summary: "Customizing Business Central with extensions: how to install and manage apps, and the individual Microsoft extensions for cloud and data migration, payments and banking, insights and AI predictions, and country-specific reporting. It answers questions about what each extension does, which countries or products it supports, and how to set it up."
 tier: official
 language: en
 system: administration
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:16:28.193Z"
+  at: "2026-10-28T11:01:30.126Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 1b7fa604624770d92d47ff6849671e94de388e1b1bf5d3a9c10078fd37c926ba
+  input_hash: fee5b290da051ebae3b84102b544f3f1b81c8ebc404e574621616c39e1441be4
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions-other
@@ -56,7 +56,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes
     title: Ideal Postcodes extension [UK]
-    date: "2026-02-09"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
@@ -154,7 +154,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions-c5-data-migration
     title: Using the C5 data migration extension | Microsoft Docs
-    date: "2023-12-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
@@ -436,28 +436,28 @@ narrative: generated
 
 # Customize with extensions
 
-> Extensions for Business Central: how to install, uninstall and manage apps, plus individual extensions for migration, payments, banking, insights, forecasting and country-specific needs (UK, DK, EU). Answers what each extension does, how it is set up, and its limits or deprecation status.
+> Customizing Business Central with extensions: how to install and manage apps, and the individual Microsoft extensions for cloud and data migration, payments and banking, insights and AI predictions, and country-specific reporting. It answers questions about what each extension does, which countries or products it supports, and how to set it up.
 
 Path: [Development and administration](../../development-and-administration.md) > [Customize Business Central](../customize-business-central.md) > Customize with extensions · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers customizing Business Central by adding extensions. General pages explain how to install and manage apps through the Extension Management page, Marketplace or the Admin Center, including permissions, setup and data deletion on uninstall. One page lists third-party extensions on Marketplace.microsoft.com and the risks of installing them.
+This section starts with general guidance on extending Business Central online: using the Extension Management page and Marketplace, installing and uninstalling apps (permissions, setup, data deletion options), and the risks of third-party apps from other providers. It has no subtopics, so all pages sit at one level.
 
-Most other pages each describe one extension. They fall into groups: cloud migration (the base extension and product-specific extensions) and data migration (QuickBooks Desktop, QuickBooks Online, C5); payments and banking (PayPal, WorldPay, Microsoft Pay, Envestnet Yodlee, AMC Banking 365, Send Remittance Advice, Payments and Reconciliations DK); payroll import (Ceridian, QuickBooks Payroll); insights and AI (Essential Business Insights, Late Payment Prediction, Sales and Inventory Forecast, Image Analyzer, Company Hub); and country or regulatory extensions (Ideal Postcodes UK, VAT Group Management UK, tax file formats DK, Service Declaration).
+The remaining pages each describe one extension. They fall into groups: migration (cloud migration base extension, cloud migration extensions, QuickBooks, QuickBooks Online, C5), payments and banking (PayPal, Microsoft Pay, WorldPay, Envestnet Yodlee, AMC Banking 365, Send Remittance Advice, Payments and Reconciliations DK), payroll imports (Ceridian, QuickBooks Payroll), insights and AI (Essential Business Insights, Late Payment Prediction, Sales and Inventory Forecast, Image Analyzer, Company Hub), and country reporting (Service Declaration, VAT Group Management UK, tax file formats DK, Ideal Postcodes UK).
 
-Start with "Customizing Business Central online using apps" and "Install and uninstall apps", then go to the page for the extension you need.
+Start with "Customizing Business Central online using apps" and "Install and uninstall apps" for the general process. Then go to the page for the extension you need, and check its country, product and deprecation notes first.
 
 ## Key points
 
-- Apps are installed and managed via the Extension Management page, Marketplace or Admin Center; per-tenant extensions are supported and uninstall offers data deletion options.
-- Third-party extensions are listed on Marketplace.microsoft.com; the page explains the risks of installing apps from non-Microsoft companies.
-- The Cloud Migration base extension is the first step for moving on-premises data to Business Central online; product-specific extensions exist for Business Central on-premises and Dynamics GP.
-- Data migration extensions cover QuickBooks Desktop (2017 and 2018, needs the Microsoft Data Exporter Tool), QuickBooks Online and Dynamics C5 2012.
-- Microsoft Pay Standard was deprecated on February 8, 2020 (use PayPal); WorldPay Payments Standard was marked obsolete in 2023 release wave 2 and will be removed after three major releases.
-- Envestnet Yodlee Bank Feeds serves the United States and Canada; AMC Banking 365 Fundamentals converts bank data for over 600 banks.
-- Late Payment Prediction and Sales and Inventory Forecast use machine learning and can use custom Azure-based or web service models.
-- Country extensions include Ideal Postcodes and VAT Group Management (UK), Payments and Reconciliations and tax file formats (DK), and Service Declaration for EU reporting.
+- Apps are installed and managed through the Extension Management page, Marketplace or Admin Center, with the right permissions; uninstall can include deleting extension data.
+- Third-party extensions are listed on Marketplace.microsoft.com, and the related page covers the risks of installing apps from non-Microsoft companies.
+- The Cloud Migration base extension is the first step when moving from on-premises to Business Central online; product-specific extensions exist for Business Central on-premises and Dynamics GP.
+- Data migration extensions cover QuickBooks Desktop (2017 and 2018, needs the Microsoft Data Exporter Tool), QuickBooks Online (via the Data Migration assisted setup guide) and Dynamics C5 2012.
+- Microsoft Pay Standard was deprecated on February 8, 2020 (use PayPal instead); WorldPay Payments Standard was marked obsolete in 2023 release wave 2 and will be removed after three major releases.
+- Late Payment Prediction and Sales and Inventory Forecast use machine learning, with standard Microsoft models or custom Azure-based web services.
+- Country-specific extensions include Service Declaration (EU), VAT Group Management (UK, with HMRC and OAuth2), tax file formats and Payments and Reconciliations (Denmark), and Ideal Postcodes (UK).
+- Bank feeds and conversion: Envestnet Yodlee for the US and Canada, and AMC Banking 365 Fundamentals for over 600 banks worldwide.
 
 ## Learn pages
 

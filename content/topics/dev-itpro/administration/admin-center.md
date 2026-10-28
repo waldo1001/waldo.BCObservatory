@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:05.688Z"
   flags: []
 generated:
-  at: "2026-10-26T08:46:07.995Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -275,6 +275,7 @@ links:
     - video/wPEZ3U5j4zw
   posts:
     - post/demiliani-com/14163
+    - post/demiliani-com/17552
     - post/duiliotacconi-com/1537
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2501623073598492643--ce507d65a8
@@ -309,7 +310,7 @@ coverage:
   learn: 31
   code: 0
   video: 13
-  blog: 23
+  blog: 24
   guideline: 0
 bc_forms: []
 member_hash: 930971b86417f2cb2b2eec1be9a17360eecf5bc00c57b0be177b1f74f8f8c24d
@@ -487,6 +488,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Dynamics 365 Business Central: important changes in PTE management.](../../../posts/demiliani-com/14163.md) (community post): "upload PTEs and schedule their installation via the Admin Center's Manage Apps page"
+- [Dynamics 365 Business Central: matching Production database configuration for Sandboxes.](../../../posts/demiliani-com/17552.md) (community post): "available via Admin Center API and supports all paid license types"
 - [How to choose the best Update Window in Dynamics 365 Business Central Online](../../../posts/duiliotacconi-com/1537.md) (community post): "pick a Business Central Online update window so that application hotfixes"
 - [Managing Apps in the Business Central Admin Center](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "The Manage Apps page in the Business Central admin center controls the stack"
 - [How I Recreated the Extension Upload Experience in Business Central](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2501623073598492643--ce507d65a8.md) (community post): "calling the Business Central admin center API from AL"

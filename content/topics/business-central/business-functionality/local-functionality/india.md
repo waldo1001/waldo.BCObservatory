@@ -2,299 +2,299 @@
 id: topic/business-central/business-functionality/local-functionality/india
 type: topic
 title: India
-summary: "India local functionality in Business Central covers tax and compliance features: GST, TDS, TCS, the Tax Engine, vouchers, fixed asset depreciation, gate entry and subcontracting. It also covers audit trail and edit logs, charge assignment, and stale checks. It answers how to set up, calculate and post these items."
+summary: "India local functionality in Business Central covers Indian statutory and compliance features: GST, TDS, TCS, the tax engine, vouchers, fixed asset depreciation, gate entry, subcontracting, audit trail, charge assignment and stale cheques. It answers setup, calculation, posting and compliance questions for the India localization."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:14:15.599Z"
+  at: "2026-10-28T11:00:36.086Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 91453fb0d78953dd5f983e4d3e6a98ce12a3d488bf1c3bc75f27a17619a34724
+  input_hash: 3d9f20b6c911ac239f572f6902cd5693a072d69c0b55743a3dfe721ff4744639
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software
-    title: Audit trail and edit logs for accounting software in India
-    date: "2026-06-12"
+    title: Audit Trail and Edit Logs for Accounting Software in India
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-and-GST-on-Purchase
     title: Calculation of Income Tax TDS and GST on Purchase Transactions
-    date: "2025-06-25"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction
     title: Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
-    date: "2025-06-25"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Cess-Calculations
     title: Cess Calculation
-    date: "2025-06-19"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/charge-assignment-functionality
-    title: Charge assignment functionality
-    date: "2025-11-12"
+    title: Charge Assignment Functionality
+    date: "2026-10-21"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-Inward_Transactions
+    title: Create and Attach Inward Gate Entries
+    date: "2026-10-21"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-Outward_Transactions
+    title: Create and Attach Outward Gate Entries
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Create-GST-Liability
     title: Create GST Liability
-    date: "2025-06-26"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-E-Invoice
     title: E-Invoice
-    date: "2025-06-19"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-E-Way-Bill
     title: E-Way Bill
-    date: "2025-06-19"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Foreign-Customer-Service
-    title: Export of Goods and/or Services to Foreign Customer
-    date: "2025-06-23"
+    title: Export of Goods and Services to Foreign Customer
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/FA_Depreciation
     title: FA Depreciation Calculation
-    date: "2025-06-19"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-Inward_Transactions
-    title: Gate Entry Inward Transactions
-    date: "2025-06-19"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-Outward_Transactions
-    title: Gate Entry Outward Transactions
-    date: "2025-06-19"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-and-Kerala-Flood-Cess-on-Sales
     title: GST and Kerala Flood Cess on Sales Transaction
-    date: "2025-06-19"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice
     title: GST and TCS on Advance Customer Payments
-    date: "2025-06-25"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice
     title: GST and TDS on Vendor Advance Payments
-    date: "2025-06-25"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice
-    title: GST Credit and GST Liability adjustment for open Reverse Charge Goods and Services Invoices
-    date: "2025-06-19"
+    title: GST Credit and GST Liability Adjustment for Open Reverse Charge Goods and Services Invoices
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Exempted-Sales
     title: GST Exempted Sales
-    date: "2025-06-19"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Overview
     title: GST Input Service Distribution Overview
-    date: "2025-10-16"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment
     title: GST Input Tax Credit Adjustments
-    date: "2025-06-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application
-    title: GST on Advance Payment application with Purchase Invoice
-    date: "2025-06-19"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice
-    title: GST on Advance Payment Application with Sales Invoice
-    date: "2025-06-19"
+    title: GST on Advance Payment and Application with Sales Invoice
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-made-to-Vendor
-    title: GST on Advance Payment made to Vendor, with reverse charge
-    date: "2025-06-19"
+    title: GST on Advance Payment Made to Vendor with Reverse Charge
+    date: "2026-10-21"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application
+    title: GST on Advance Payment or Normal Payment Application with Purchase Invoice
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer
-    title: GST on advance payment received from customer
-    date: "2025-06-19"
+    title: GST on Advance Payment Received from Customer
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Bank-Charges-Transaction
     title: GST on Bank Charges Transaction
-    date: "2025-06-19"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank
-    title: GST on Journals where Services paid directly through Cash or Bank
-    date: "2025-10-16"
+    title: GST on Journals for Services Paid Directly Through Cash or Bank
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Management
     title: GST on Service Management
-    date: "2025-06-24"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Reconciliation
     title: GST Reconciliation
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Settelement
     title: GST Settlement of Net Payment Liability
-    date: "2025-06-24"
+    date: "2026-10-21"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-TCS-on-Receipt
+    title: GST TCS on Customer Payments
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-on-Payment
     title: GST TCS on Vendor Payment
-    date: "2025-06-25"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-TCS-on-Receipt
-    title: GST TDS and GST TCS on Customer Payments
-    date: "2025-06-25"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Foreign-Vendor
     title: Import from Foreign Vendor
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/india-local-functionality
     title: India Local Functionality | Microsoft Docs
-    date: "2025-06-26"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Process
     title: Input Service Distribution Process
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Vouche-Interface-Overview
-    title: Overview on Voucher Interface
-    date: "2025-06-30"
+    title: Overview of Voucher Interface
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Payment-to-Authority
-    title: Payment of TCS to the Government Authorities
-    date: "2025-06-27"
+    title: Payment of TCS to Government Authorities
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-TDS-Payment-to-Authority
     title: Payment of TDS to Government Authorities
-    date: "2025-06-30"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Foreign-Vendor
     title: Purchase Credit Memo or Return Order to Foreign Vendor
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Composite-Vendor
-    title: Purchase from Composite Vendor or Purchase of exempted goods and services with no GST Impact
-    date: "2025-06-23"
+    title: Purchase from Composite Vendor or Purchase of Exempted Goods and Services with No GST Impact
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Registered-Vendor
     title: Purchase from Registered Vendors
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM
     title: Purchase of Goods from an Unregistered Vendor (Reverse Charge)
-    date: "2025-06-23"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
@@ -350,28 +350,28 @@ narrative: generated
 
 # India
 
-> India local functionality in Business Central covers tax and compliance features: GST, TDS, TCS, the Tax Engine, vouchers, fixed asset depreciation, gate entry and subcontracting. It also covers audit trail and edit logs, charge assignment, and stale checks. It answers how to set up, calculate and post these items.
+> India local functionality in Business Central covers Indian statutory and compliance features: GST, TDS, TCS, the tax engine, vouchers, fixed asset depreciation, gate entry, subcontracting, audit trail, charge assignment and stale cheques. It answers setup, calculation, posting and compliance questions for the India localization.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > India · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The India section groups the localized features for Indian statutory and accounting needs. The largest area is GST, with setup, sales and purchase scenarios, returns, e-invoice, e-way bill and settlement. TDS, TDS for customer and TCS cover tax deducted or collected at source, including thresholds, adjustments and payment to government. The Tax Engine is a configurable framework with tax types, rates, use cases, scripting and JSON import and export.
+The India section groups the localization features that support Indian regulatory requirements. Most of the content sits in subtopics: the configuration-driven Tax engine, GST (the largest), TDS, TDS for customer, TCS, Voucher interface, Fixed asset, Gate entry and Subcontracting. The section's own pages cover audit trail and edit logs, charge assignment and stale cheque setup.
 
-Other subtopics cover operational processes: voucher interface for day-to-day entries, fixed asset depreciation under Indian laws, gate entry for goods movement, and subcontracting with delivery challans and job work reports.
+The India Local Functionality overview page is the entry point and lists the areas available. For taxes, start with the Tax engine pages for the underlying model of tax types, rates and use cases, then go to GST, TDS or TCS for setup and transaction-level posting behavior. Operational topics such as gate entry, subcontracting with delivery challans, and vouchers are separate and can be read on their own.
 
-The section's own pages cover four areas. They are an overview of India local functionality, audit trail and edit log compliance, charge assignment for purchase order charges, and stale check setup. Start with the overview page, then go to the subtopic for the tax or process you need. GST is the usual entry point for transaction questions.
+The own pages are narrower. Audit trail and edit logs describe compliance requirements and the change log setup. Charge assignment explains charge groups and the Explode Charge Group action. Set Up Stale Check explains how checks become invalid after a set period.
 
 ## Key points
 
-- GST (47 pages) covers setup, sales and purchase transactions, returns, advance payments, cess, e-invoice, e-way bill, input service distribution, reconciliation and settlement, with general ledger posting for each scenario.
-- TDS covers setup, calculation on purchases and payments, threshold rules, Section 194Q, provisional entries, adjustments and payment to government.
-- TDS for customer covers TDS master data, calculation on customer documents and tracking TDS certificates receivable.
-- TCS covers calculation on sales and receipts, thresholds, Section 206C(1H), adjustments and deposit to authorities.
-- Tax Engine is a configurable engine for tax types, rates, use cases, scripting and lookups, with JSON import and export.
-- Charge assignment distributes purchase order charges across lines using fixed, percentage or quantity computation and equal, amount, weight or volume assignment, with GST integration.
-- Audit trail and edit log page lists seven compliance requirements, including recording transactions, retaining the original format, preserving data and keeping books in India with backup.
-- Stale check setup uses Activate Cheque No., Stale Cheque Stipulated Period and Stale Cheque Expiry Date, and expired checks are marked via Bank Ledger Entry or Check Ledger Entry.
+- GST subtopic is the largest (47 pages): setup, purchase and sales, advance payments, returns, imports and exports, credit adjustments, settlement, reconciliation, E-Invoice and E-Way Bill.
+- TDS and TCS each cover setup, calculation, thresholds, adjustments and payment to government; TDS includes section 194Q and TCS includes Section 206C(1H).
+- TDS for customer covers TDS setup under the Income Tax Act, 1961, TDS calculation on customer payments, and assigning, updating or rectifying TDS certificates.
+- Tax engine supports tax types, rates, use cases, lookups, scripting and JSON import/export of tax configuration.
+- Voucher interface offers six voucher types: Journal, Bank Receipt, Bank Payment, Cash Receipt, Cash Payment and Contra.
+- Charge assignment uses reusable charge groups and Explode Charge Group; computation is Fixed Value, Percentage or Amount Per Quantity, assigned Equally, By Amount, By Weight or By Volume.
+- Stale check setup uses a Stale Cheque Stipulated Period on the bank account, with expiry date and financially voided handling in check ledger entries.
+- Audit trail and edit logs page covers change log setup, general ledger entry tracking and electronic books of accounts requirements; fixed asset, gate entry and subcontracting (delivery challans, GST liability for overdue challans) have their own subtopics.
 
 ## Subtopics
 
@@ -387,12 +387,12 @@ The section's own pages cover four areas. They are an overview of India local fu
 
 ## More Learn pages
 
-- [Audit trail and edit logs for accounting software in India](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software): This article provides information about the new Indian tax and companies legislation guidelines for accounting software.
-  - In the observatory: [Page 595 "Change Log Entries"](../../../../objects/page/595.md)
-- [Charge assignment functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/charge-assignment-functionality): Discover the enhanced charge group assignment functionality in Business Central India localization. Simplify charge distribution for purchase orders efficiently.
+- [Audit Trail and Edit Logs for Accounting Software in India](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software): Review audit registers, configurable change logs, and accounting record controls in Business Central for India, with historical legislation context.
+  - In the observatory: [Page 116 "G/L Registers"](../../../../objects/page/116.md), [Page 20 "General Ledger Entries"](../../../../objects/page/20.md), [Page 592 "Change Log Setup"](../../../../objects/page/592.md), [Page 595 "Change Log Entries"](../../../../objects/page/595.md)
+- [Charge Assignment Functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/charge-assignment-functionality): Discover the enhanced charge group assignment functionality in Business Central India localization. Simplify charge distribution for purchase orders efficiently.
   - In the observatory: [Page 18507 "Charge Group Card (IN)"](../../../../objects/page/18507-in.md)
-- [India Local Functionality \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/india-local-functionality): Provides information about local functionality available for India.
-- [Setting up and how to stale check](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Stale-Check): Describes the setup steps and process for handling stale checks in Business Central for India.
-  - In the observatory: [Page 118 "General Ledger Setup"](../../../../objects/page/118.md)
+- [India Local Functionality \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/india-local-functionality): Explore India localization features in Business Central, including GST, TDS, TCS, subcontracting, fixed assets, gate entries, vouchers, and charge groups.
+- [Set Up Stale Check](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Stale-Check): Set up cheque expiry periods and learn how stale-check actions differ between check ledger and bank account ledger entries in Business Central for India.
+  - In the observatory: [Table 98 "General Ledger Setup"](../../../../objects/table/98.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

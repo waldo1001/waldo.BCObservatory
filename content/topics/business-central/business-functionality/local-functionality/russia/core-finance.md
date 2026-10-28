@@ -2,47 +2,47 @@
 id: topic/business-central/business-functionality/local-functionality/russia/core-finance
 type: topic
 title: Core finance
-summary: Core finance for Russia in Business Central covers local currency information and exchange rate import from Russian banks, general ledger correspondence, and financial reports. It answers questions about setting up these features, building statutory reports, and comparing results with budgets.
+summary: Core finance for Russia in Business Central covers local currency setup and exchange rate import, general ledger correspondence, and financial reports for statutory reporting. It answers questions on configuring Russian currency data, creating and analyzing G/L correspondence, and building financial reports.
 tier: official
 language: en
 system: finance
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:25:39.260Z"
+  at: "2026-10-28T11:03:33.872Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0b281bcb76394d66044093e743ab926eae9a41d43547d9924ef89981cf62130e
+  input_hash: 8064ed15213b8cf20bf69cdc951b86ac236e392041cd0850aecdf3c25f7a0380
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Currency-information-Import-currency-rates
     title: Currency information in Russia
-    date: "2025-07-11"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/account-schedules-overview
     title: Financial Reports Overview in Russia
-    date: "2025-07-11"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/general-ledger-correspondence
     title: General ledger correspondence in Russia
-    date: "2025-07-11"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/How-to-Work-with-Account-Schedules
     title: Working with Financial Reports in Russia
-    date: "2025-07-17"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -85,38 +85,39 @@ narrative: generated
 
 # Core finance
 
-> Core finance for Russia in Business Central covers local currency information and exchange rate import from Russian banks, general ledger correspondence, and financial reports. It answers questions about setting up these features, building statutory reports, and comparing results with budgets.
+> Core finance for Russia in Business Central covers local currency setup and exchange rate import, general ledger correspondence, and financial reports for statutory reporting. It answers questions on configuring Russian currency data, creating and analyzing G/L correspondence, and building financial reports.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Core finance for Russia groups the Russian local finance features. It has four pages: currency setup, general ledger correspondence, an overview of financial reports, and a guide to working with them.
+This section groups the Russia-specific core finance pages. It has four pages and no subtopics. They cover currency information, general ledger correspondence, and two pages on financial reports.
 
-Start with the currency page to describe the local currency and import exchange rates from Russian banks. Then read the general ledger correspondence page, which explains how correspondence transactions between GL accounts are created for audit trails, including automatic posting, and how to analyze account turnovers and correspondence entries.
+Start with the currency page if you are setting up a company: it explains the local currency details in General Ledger Setup and Company Information, and the batch job that imports exchange rates from Russian bank sources. The general ledger correspondence page covers creating and posting correspondence transactions and analyzing them.
 
-For reporting, read the Financial Reports overview first. It explains the Financial Reports page and its building blocks: column layouts, GL correspondence, constants, extensions and expressions. Then use the Working with Financial Reports page for the steps: account categories, row and column layouts, percentages and budget comparisons.
+For reporting, read the Financial Reports Overview first to see what the tool can do. Then read Working with Financial Reports for the steps to generate and view reports based on account categories and row and column definitions.
 
 ## Key points
 
-- Currency information setup holds local currency details and imports exchange rates from Russian banks, using Russian bank codes.
-- Exchange rate import includes conflict resolution options.
-- General ledger correspondence creates correspondence transactions between GL accounts to provide an audit trail.
-- GL correspondence can be posted automatically.
-- Analysis reports show account turnovers and correspondence entries.
-- Financial reports use user-defined rows and columns for statutory reporting, set up on the Financial Reports page.
-- Report building blocks include column layout, GL correspondence, constants, extensions and expressions.
-- Financial reports can use account categories, calculate percentages, compare with budget entries, and are produced with the Generate Financial Reports action.
+- Currency setup: local currency details are set in General Ledger Setup and Company Information, including LCY Code and local currency description.
+- The Import Currency Exchange Rate batch job imports rates from Russian bank sources; related fields include Ru Bank Code and Ru Bank Digital Code, and there is an import conflict resolution option.
+- General ledger correspondence is created periodically with Create G/L Correspondence, and an Automatic G/L Correspondence option exists.
+- Correspondence can be analyzed in the General Ledger - Correspondence window and the G/L Corresp Entries Analysis report, with Date Filter and Business unit Filter.
+- Financial reports are customizable statutory reports where you define rows, columns and data comparisons without a report designer.
+- Financial reports can use general ledger correspondence, constants, extensions, expressions and predefined column layouts.
+- Working with financial reports: use the Generate Financial Reports action, Insert G/L Accounts, a Formula column type, Set Base for Percent, G/L Budget Filter and View Financial Report.
+- Financial reports compare general ledger accounts with budget entries.
 
 ## Learn pages
 
 - [Currency information in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Currency-information-Import-currency-rates): Russian localization provides features for importing currency rates in Business Central.
   - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md)
 - [Financial Reports Overview in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/account-schedules-overview): Learn about enhanced financial reporting features and customization options available for Russia in Business Central.
+  - In the observatory: [Page 108 "Financial Reports"](../../../../../objects/page/108.md)
 - [General ledger correspondence in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/general-ledger-correspondence): Russian functionality includes enhancements for general ledger correspondence.
   - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 12401 "G/L Correspondence Entries (RU)"](../../../../../objects/page/12401-ru.md), [Report 12432 "G/L Corresp. Journal Order (RU)"](../../../../../objects/report/12432-ru.md), [Report 12435 "G/L Corresp Entries Analysis (RU)"](../../../../../objects/report/12435-ru.md)
 - [Working with Financial Reports in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/How-to-Work-with-Account-Schedules): Provides information about enhanced financial reporting features available for Russia.
-  - In the observatory: [Page 108 "Financial Reports"](../../../../../objects/page/108.md), [Page 489 "Column Layout"](../../../../../objects/page/489.md), [Page 790 "G/L Account Categories"](../../../../../objects/page/790.md)
+  - In the observatory: [Page 108 "Financial Reports"](../../../../../objects/page/108.md), [Page 790 "G/L Account Categories"](../../../../../objects/page/790.md)
 
 ## Videos, posts and code changes
 

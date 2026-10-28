@@ -2,68 +2,68 @@
 id: topic/business-central/business-functionality/local-functionality/norway/vat
 type: topic
 title: VAT
-summary: "Norwegian VAT functionality in Business Central: VAT codes, entering one VAT code in journals, proportional VAT deduction, VAT reconciliation reporting, electronic VAT returns via ID-Porten, and SAF-T file setup and export. It answers setup and usage questions for Norway-specific VAT."
+summary: "Norwegian VAT functionality in Business Central: VAT codes, one-code entry in journals, proportional VAT, the VAT reconciliation report, electronic VAT return submission through ID-Porten, and SAF-T file setup and export. It answers setup and usage questions for Norway-specific VAT."
 tier: official
 language: en
 system: finance
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:22:10.804Z"
+  at: "2026-10-28T11:02:46.153Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 403601c81a913af0f50e07160e08b9dbd271fa3680a355640adfdcc95805a152
+  input_hash: 3f509f11f256d9f9eee6c709b8c9dd206ca0d5aa67b68024c89879144dd847a2
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-calculate-proportional-vat
-    title: Calculate proportional VAT [NO]
-    date: "2025-05-12"
+    title: Calculate Proportional VAT in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-codes
-    title: Norwegian VAT Codes
-    date: "2025-05-15"
+    title: Norwegian VAT Codes in Business Central
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-reporting
-    title: Norwegian VAT reporting [NO]
-    date: "2025-05-15"
+    title: Norwegian VAT Reporting in Business Central
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-print-a-vat-reconciliation-report
-    title: Print a VAT reconciliation report [NO]
-    date: "2025-05-13"
+    title: Print a VAT Reconciliation Report in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/proportional-vat
-    title: Proportional VAT [NO]
-    date: "2025-05-15"
+    title: Proportional VAT in Norway [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no
-    title: Setup and generate SAF-T files
-    date: "2025-05-16"
+    title: Set Up and Export Norwegian SAF-T Files
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals
-    title: Use One VAT Code in Journals [NO]
-    date: "2025-05-14"
+    title: Use One VAT Code in Journals in Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -147,43 +147,43 @@ narrative: generated
 
 # VAT
 
-> Norwegian VAT functionality in Business Central: VAT codes, entering one VAT code in journals, proportional VAT deduction, VAT reconciliation reporting, electronic VAT returns via ID-Porten, and SAF-T file setup and export. It answers setup and usage questions for Norway-specific VAT.
+> Norwegian VAT functionality in Business Central: VAT codes, one-code entry in journals, proportional VAT, the VAT reconciliation report, electronic VAT return submission through ID-Porten, and SAF-T file setup and export. It answers setup and usage questions for Norway-specific VAT.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Norway](../norway.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers the local VAT features for Norway. The basics are the Norwegian VAT codes. Instead of filling in separate VAT business and product posting group fields, you select a single VAT Code. A related journal feature lets you post VAT using that one field, based on VAT Posting Setup.
+This section covers the Norway-specific VAT features. The base is VAT setup: Norwegian VAT codes are defined on the VAT Reporting Codes page and assigned through the VAT Number field on VAT Posting Setup. This lets users pick the VAT business and product posting group combination with one field, including in journals.
 
-Other pages cover deduction and reporting. Proportional VAT lets you deduct only a percentage of purchase VAT when an asset is used for both deductible and non-deductible purposes. The percentage is set in VAT Posting Setup based on historical usage data. The VAT Reconciliation report shows base and VAT amounts by general ledger account and VAT type. Norwegian VAT reporting describes how to send VAT returns electronically to the tax authorities through ID-Porten, including authorization, VAT statement mapping and VAT period closure. The SAF-T page covers setting up, generating and exporting the Standard Audit File - Tax.
+Other pages cover calculation and reporting. Two pages explain proportional VAT, where only part of the VAT on shared expenses is deductible, and how to set the percentage. The VAT Reconciliation report prints reconciliation by general ledger account. Norwegian VAT Reporting describes electronic VAT return submission with ID-Porten authentication. The SAF-T page covers file setup and export for the tax authority.
 
-Start with the VAT codes page if you are setting up VAT or using single-code journal entry. Otherwise go straight to the page for the task you need.
+Start with the VAT codes page, since the journal and reporting pages depend on that setup. Then go to the page for your task: proportional VAT, reconciliation, VAT return submission or SAF-T export.
 
 ## Key points
 
-- Norwegian VAT codes simplify setup by using one VAT Code field instead of separate VAT Bus. and VAT Prod. Posting Group fields.
-- Journals can post VAT with a single VAT Code field, based on VAT Posting Setup.
-- Proportional VAT uses the Calc. Prop. Deduction VAT setting and a Proportional Deduction VAT % in VAT Posting Setup, based on historical usage data.
-- Norwegian VAT reporting sends VAT returns electronically through ID-Porten. It covers OAuth 2.0 authorization, VAT statement mapping, VAT period closure and concessional rate configuration. The page references version 23.5.
-- The VAT Reconciliation report shows reconciliation settlement for base and VAT amounts by general ledger account and VAT type.
-- The SAF-T extension supports setup, generation and export, with chart of accounts mapping, VAT code mapping and dimension export control.
-- SAF-T versions 1.20 and 1.30 are supported starting in version 25.3, with options for parallel processing and split by date.
+- Norwegian VAT codes are set up on VAT Reporting Codes and assigned via the VAT Number field on VAT Posting Setup (Business Central 29).
+- One VAT code in journals fills the VAT fields, replacing separate VAT business and product posting group entry.
+- Proportional VAT uses Calc. Prop. Deduction VAT and Proportional Deduction VAT % on VAT Posting Setup, for cases with both deductible and non-deductible VAT.
+- The VAT Reconciliation report shows base and VAT amounts by G/L account, with Show Details and Show Transactions without VAT options and print preview.
+- Electronic VAT return submission uses ID-Porten authentication with OAuth 2.0 setup, VAT return validation, submission and VAT period closure (version 23.5).
+- Norwegian SAF-T supports versions 1.20 and 1.30 (version 25.3), with G/L account mapping to standard accounts and VAT posting setup mapping to SAF-T tax codes.
+- SAF-T export offers dimension export control, parallel background job processing and data quality validation controls.
 
 ## Learn pages
 
-- [Calculate proportional VAT [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-calculate-proportional-vat): Learn how to calculate VAT using proportional VAT for both deductible and non-deductible items in the Norwegian version of Business Central.
-- [Norwegian VAT Codes](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-codes): Learn how to set up VAT processing information in the Norwegian version of Business Central by using standard Norwegian VAT codes.
+- [Calculate Proportional VAT in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-calculate-proportional-vat): Learn how to calculate VAT using proportional VAT for both deductible and non-deductible items in the Norwegian version of Business Central.
+- [Norwegian VAT Codes in Business Central](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-codes): Learn how to set up VAT processing information in the Norwegian version of Business Central by using standard Norwegian VAT codes.
   - In the observatory: [Table 325 "VAT Posting Setup"](../../../../../objects/table/325.md)
-- [Norwegian VAT reporting [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-reporting): Use Norwegian-specific features in Business Central to calculate and report VAT returns electronically to the Norwegian tax authorities.
-  - In the observatory: [Page 1140 "OAuth 2.0 Setup"](../../../../../objects/page/1140.md), [Page 1801 "Assisted Setup"](../../../../../objects/page/1801.md), [Report 20 "Calc. and Post VAT Settlement"](../../../../../objects/report/20.md)
-- [Print a VAT reconciliation report [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-print-a-vat-reconciliation-report): Learn to print the VAT Reconciliation report to view the reconciliation settlement for base and VAT amounts in general ledger accounts.
+- [Norwegian VAT Reporting in Business Central](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-reporting): Use Norwegian-specific features in Business Central to calculate and report VAT returns electronically to the Norwegian tax authorities.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 349 "VAT Reporting Codes"](../../../../../objects/page/349.md), [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md), [Page 746 "VAT Reports Configuration"](../../../../../objects/page/746.md), [Report 20 "Calc. and Post VAT Settlement"](../../../../../objects/report/20.md)
+- [Print a VAT Reconciliation Report in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-print-a-vat-reconciliation-report): Learn to print the VAT Reconciliation report to view the reconciliation settlement for base and VAT amounts in general ledger accounts.
   - In the observatory: [Report 10630 "VAT Reconciliation (NO)"](../../../../../objects/report/10630-no.md)
-- [Proportional VAT [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/proportional-vat): Norwegian features enable calculation of VAT when both deductible and non-deductible VATs apply.
+- [Proportional VAT in Norway [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/proportional-vat): Learn how Norwegian proportional VAT in Business Central calculates deductible VAT and posts the nondeductible amount to general ledger cost accounts.
   - In the observatory: [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md)
-- [Setup and generate SAF-T files](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no): Use the SAF-T extension to set up and generate SAF-T files for the Norwegian authorities in Business Central.
-  - In the observatory: [Page 10670 "SAF-T Mapping Setup Card (NO)"](../../../../../objects/page/10670-no.md), [Page 10678 "SAF-T VAT Posting Setup (NO)"](../../../../../objects/page/10678-no.md), [Page 10686 "SAF-T Exports (NO)"](../../../../../objects/page/10686-no.md), [Page 10690 "SAF-T Setup (NO)"](../../../../../objects/page/10690-no.md)
-- [Use One VAT Code in Journals [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals): Learn how to use one VAT code in journals within the Norwegian version of Business Central to simplify VAT posting.
-  - In the observatory: [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md)
+- [Set Up and Export Norwegian SAF-T Files](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no): Set up Norwegian SAF-T mappings in Business Central, choose an export version, and generate XML or ZIP files to provide to the Norwegian tax authorities.
+  - In the observatory: [Page 10678 "SAF-T VAT Posting Setup (NO)"](../../../../../objects/page/10678-no.md), [Page 10679 "SAF-T Mapping Setup (NO)"](../../../../../objects/page/10679-no.md), [Page 10680 "SAF-T Mapping Source (NO)"](../../../../../objects/page/10680-no.md), [Page 10686 "SAF-T Exports (NO)"](../../../../../objects/page/10686-no.md), [Page 10690 "SAF-T Setup (NO)"](../../../../../objects/page/10690-no.md), [Page 10691 "SAF-T Export Files (NO)"](../../../../../objects/page/10691-no.md)
+- [Use One VAT Code in Journals in Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals): Use VAT Number and Bal. VAT Number in Norwegian Business Central journals to fill in VAT posting groups from a unique VAT posting setup combination.
+  - In the observatory: [Page 349 "VAT Reporting Codes"](../../../../../objects/page/349.md), [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md)
 
 ## Videos, posts and code changes
 

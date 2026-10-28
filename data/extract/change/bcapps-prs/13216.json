@@ -6,12 +6,11 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "VAT adjustment register calculation corrected in Gen. Jnl.-Post Line codeunit across multiple localization layers with accompanying test coverage.",
+  "summary": "Fixes how the VAT adjustment register is handled when posting through the Gen. Jnl.-Post Line codeunit, with a one-line change in each localization layer. New tests were added to the W1 and CZ ERMPmtDiscAndVATCustVend test codeunits.",
   "key_points": [
-    "Fixed VAT adjustment register posting logic in the Gen. Jnl.-Post Line codeunit",
-    "Change applied consistently across all localization layers (W1, APAC, BE, CH, ES, FI, FR, IT, NA, NO, RU, CZ)",
-    "Test cases added to verify correct VAT adjustment register behavior",
-    "Minimal code changes focused on the core issue"
+    "One-line fix in Gen. Jnl.-Post Line for the VAT adjustment register",
+    "Applied in the W1, APAC, BE, CH, ES, FI, FR, IT, NA, NO and RU layers",
+    "Tests added in the W1 and CZ test layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

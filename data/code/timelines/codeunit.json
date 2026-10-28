@@ -164,8 +164,7 @@
         "26",
         "27",
         "28",
-        "29",
-        "30"
+        "29"
       ],
       "obsoleted": [],
       "removed": null
@@ -6843,7 +6842,8 @@
         "24",
         "25",
         "26",
-        "28"
+        "28",
+        "30"
       ],
       "obsoleted": [],
       "removed": null
@@ -18834,7 +18834,8 @@
       "introduced": "23",
       "changed": [
         "24",
-        "28"
+        "28",
+        "30"
       ],
       "obsoleted": [],
       "removed": null
@@ -24183,7 +24184,8 @@
       ],
       "introduced": "23",
       "changed": [
-        "25"
+        "25",
+        "30"
       ],
       "obsoleted": [],
       "removed": null
@@ -28360,7 +28362,8 @@
       "introduced": "23",
       "changed": [
         "25",
-        "27"
+        "27",
+        "30"
       ],
       "obsoleted": [],
       "removed": null
@@ -32923,9 +32926,10 @@
     "7754": {
       "name": "Copilot Feature Trial Impl.",
       "versions": [
+        "29",
         "30"
       ],
-      "introduced": "30",
+      "introduced": "29",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -32933,9 +32937,10 @@
     "7755": {
       "name": "Copilot Feature Trial",
       "versions": [
+        "29",
         "30"
       ],
-      "introduced": "30",
+      "introduced": "29",
       "changed": [],
       "obsoleted": [],
       "removed": null
@@ -33999,6 +34004,16 @@
       "obsoleted": [],
       "removed": null
     },
+    "8377": {
+      "name": "MCP Config Empty",
+      "versions": [
+        "30"
+      ],
+      "introduced": "30",
+      "changed": [],
+      "obsoleted": [],
+      "removed": null
+    },
     "8390": {
       "name": "Financial Report Auditing",
       "versions": [
@@ -34140,7 +34155,8 @@
       "changed": [
         "24",
         "26",
-        "27"
+        "27",
+        "30"
       ],
       "obsoleted": [],
       "removed": null
@@ -34352,7 +34368,9 @@
         "30"
       ],
       "introduced": "23",
-      "changed": [],
+      "changed": [
+        "30"
+      ],
       "obsoleted": [],
       "removed": null
     },

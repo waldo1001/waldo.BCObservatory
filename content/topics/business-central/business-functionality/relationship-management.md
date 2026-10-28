@@ -2,75 +2,75 @@
 id: topic/business-central/business-functionality/relationship-management
 type: topic
 title: Relationship management
-summary: Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing campaigns and the Dynamics 365 Sales integration. It answers setup, how-to and reporting questions for managing customer relationships.
+summary: Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing reports, and the Dynamics 365 Sales integration. It answers setup and how-to questions about tracking customers and prospects and their communication history.
 tier: official
 language: en
 system: crm
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:15:27.161Z"
+  at: "2026-10-28T11:00:54.816Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 482353e8b0b040aa12667db966019666bfd91603e14999b1055d9907a850ab34
+  input_hash: f994bb8923f52b19554b1e17aefb65f70dc4c441d42c15d57a9d0d6672e77d9e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-add-contact-segment
-    title: Add contacts to segments
-    date: "2025-10-03"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-attachments
-    title: Attachments for interactions
-    date: "2025-10-03"
+    title: Add Contacts to Marketing Segments
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5060
     title: Campaign - Details (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-profile-questionnaire
+    title: Classify Contacts with Profile Questionnaires
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5051
     title: Contact - Company Summary (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5055
     title: Contact - Cover Sheet (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5056
     title: Contact - Labels (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5050
     title: Contact - List (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5053
     title: Contact - Person Summary (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
@@ -83,50 +83,50 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-how-to-couple-and-synchronize-records-manually
-    title: Coupling and synchronizing
-    date: "2025-04-25"
+    title: Couple and Synchronize Records with Dataverse
+    date: "2026-10-22"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-companies
+    title: Create and Link Business Contacts
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-contacts
-    title: Create and manage company contacts
-    date: "2025-10-03"
+    title: Create and Manage Business Contacts
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-interactions-overview
     title: Create and Manage Interactions with Contacts
-    date: "2025-10-03"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-companies
-    title: Create business contacts
-    date: "2025-10-03"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-interactions
-    title: Create interactions on contacts and segments
-    date: "2025-10-03"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-opportunities
-    title: Create Sales Opportunities
-    date: "2025-10-03"
+    title: Create Interactions for Contacts and Segments
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-segment
-    title: Create Segments
-    date: "2025-10-03"
+    title: Create Marketing Segments for Contacts
+    date: "2026-10-22"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-opportunities
+    title: Create Sales Opportunities from Contacts
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
@@ -138,86 +138,86 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-segments
-    title: Keep track of segments and related interactions
-    date: "2025-10-03"
+    url: https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-attachments
+    title: Manage Attachments for Contact Interactions
+    date: "2026-10-22"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/marketing-relationship-management
+    title: Manage Business Relationships and Marketing
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-integrate-dynamicscrm
-    title: Manage customers using Dynamics 365 Sales
+    title: Manage Customers Using Dynamics 365 Sales
     date: "2025-10-03"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-interactions
-    title: Manage interactions with your contacts
-    date: "2025-10-03"
+    title: Manage Interactions with Your Contacts
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-manage-sales-opportunities
-    title: Manage sales opportunities and leads
-    date: "2025-10-03"
+    title: Manage Sales Opportunities and Leads
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-segments
-    title: Manage segments and select contacts
-    date: "2025-10-03"
+    title: Manage Segments and Select Contacts
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records
-    title: Merge duplicate customer or vendor records
-    date: "2025-06-13"
+    title: Merge Duplicate Customers, Vendors, or Contacts
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5068
     title: Opportunity - Details (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5061
     title: Opportunity - List (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-processing-sales-opportunities
-    title: Process sales opportunities in sales cycles
-    date: "2025-10-03"
+    title: Process Sales Opportunities in Sales Cycles
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5066
     title: Questionnaire - Handouts (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5067
     title: Questionnaire - Test (report)
-    date: "2024-11-11"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/marketing-relationship-management
-    title: Relationship management
-    date: "2025-10-03"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
@@ -231,14 +231,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5062
     title: Sales Cycle - Analysis (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5058
     title: Salesperson - Opportunities (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
@@ -252,49 +252,49 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5063
     title: Segment - Contacts (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5064
     title: Segment - Cover Sheet (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5065
     title: Segment - Labels (report)
-    date: "2024-11-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-auto-record-interactions
-    title: Set up automatic recording of interactions
-    date: "2025-10-03"
+    title: Set Up Automatic Recording of Interactions
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-set-up-email-logging
-    title: Set up email logging
-    date: "2025-10-03"
+    title: Set Up Email Logging for Contact Interactions
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-setup-contacts
-    title: Set up information for contacts
-    date: "2025-10-03"
+    title: Set Up Information for Business Contacts
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-setup-marketing
-    title: Set up marketing and contact management information
-    date: "2025-10-03"
+    title: Set Up Marketing and Contact Management
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
@@ -385,34 +385,34 @@ bc_forms:
   - 5109
   - 5110
   - 6250
-  - 50585058
 member_hash: d225d2a6e1a4c3640b49a6b09ce035ecf3bac269f9e56a1c575f356af34103fc
 narrative: generated
 ---
 
 # Relationship management
 
-> Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing campaigns and the Dynamics 365 Sales integration. It answers setup, how-to and reporting questions for managing customer relationships.
+> Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing reports, and the Dynamics 365 Sales integration. It answers setup and how-to questions about tracking customers and prospects and their communication history.
 
 Path: [Business functionality](../business-functionality.md) > Relationship management · tier official · system crm · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Relationship management is the Business Central area for organizing customer relationships. It brings together contacts, interactions, segments, sales opportunities and marketing campaigns, and can be integrated with Dynamics 365 Sales.
+Relationship management helps teams manage sales efforts with complete contact information, communication tracking, and lead-to-opportunity handling across customer segments. It also supports marketing campaign planning and integration with Dynamics 365 Sales.
 
-Start with the setup page for marketing and contact management information. It covers contact synchronization with customers, vendors and bank accounts, inheritance of contact fields, number series, duplicate search and interaction recording. After setup, the subtopics follow the working flow: manage contacts, group them into segments, record interactions with contacts and segments, and track sales opportunities through sales cycles.
+Start with the setup page, "Set Up Marketing and Contact Management". It covers contact synchronization with customers, vendors, and bank accounts, number series, field inheritance, duplicate detection, and automatic interaction recording. The overview page, "Manage Business Relationships and Marketing", gives the big picture.
 
-Two further subtopics round out the area. One covers using Dynamics 365 Sales with Business Central, including coupling records and checking synchronization errors. The other covers the built-in analytics reports for contacts, campaigns, opportunities, segments and questionnaires.
+The subtopics follow the working flow. Manage contacts creates and classifies contacts. Manage segments groups them for campaigns. Manage interactions records communication. Manage sales opportunities moves deals through sales cycles. The analytics pages describe the reports, and the Dynamics 365 Sales pages cover synchronization with Dataverse.
 
 ## Key points
 
-- Setup covers contact synchronization with customers, vendors and bank accounts, automatic field inheritance, number series for contacts, duplicate search and interaction recording.
-- Contacts can be person or company records, linked to customers, vendors and banks, merged when duplicated, synced to Outlook, and organized with groups and profiles.
-- Segments group contacts for campaigns and bulk communications. Contact lists can be refined or reduced with filters, and interactions can be logged with segment members.
-- Interactions record communications with contacts and segments, use interaction templates and attachments, and can be recorded automatically for documents, emails and phone calls.
-- Sales opportunities rely on sales cycles and stages. They can be created for contacts and salespeople and processed to quotes, orders or closure, with email exchanges logged.
-- The Dynamics 365 Sales integration lets you couple and synchronize records with Dataverse or Dynamics 365 Sales, covering customers, orders, quotes, pricing and invoices, and check synchronization job errors.
-- Built-in reports cover contacts, campaigns, opportunities, sales cycles, segments and questionnaires, plus cover sheets, labels and email merge letters.
+- Setup covers contact synchronization with customers, vendors, and bank accounts, plus business relation codes.
+- Contact persons can inherit fields from their contact company; duplicate contacts are detected automatically and can be merged.
+- Number series are set up for contacts and opportunities.
+- Contacts can be classified with profile questionnaires and saved to Outlook.
+- Segments group contacts for targeted campaigns such as direct mail, and interactions can be logged for a whole segment.
+- Interactions use templates and attachments, and can be recorded automatically for documents, emails, and phone calls.
+- Sales opportunities follow sales cycles and stages, and can be closed or turned into quotes and orders.
+- Built-in reports cover contacts, campaigns, opportunities, sales cycles, segments, and questionnaires, and they print labels, cover sheets, and merged letters.
 
 ## Subtopics
 
@@ -425,9 +425,9 @@ Two further subtopics round out the area. One covers using Dynamics 365 Sales wi
 
 ## More Learn pages
 
-- [Relationship management](https://learn.microsoft.com/dynamics365/business-central/marketing-relationship-management): Use relationship management features to streamline sales, access detailed contact and prospect information, and improve customer service efficiency.
-- [Set up marketing and contact management information](https://learn.microsoft.com/dynamics365/business-central/marketing-setup-marketing): Set up marketing and contact management to strengthen relationships with prospects and customers, and enhance the effectiveness of your campaigns and promotions.
-  - In the observatory: [Page 5050 "Contact Card"](../../../objects/page/5050.md), [Page 5076 "Interaction Log Entries"](../../../objects/page/5076.md), [Page 5094 "Marketing Setup"](../../../objects/page/5094.md)
+- [Manage Business Relationships and Marketing](https://learn.microsoft.com/dynamics365/business-central/marketing-relationship-management): Use relationship management features to streamline sales, access detailed contact and prospect information, and improve customer service efficiency.
+- [Set Up Marketing and Contact Management](https://learn.microsoft.com/dynamics365/business-central/marketing-setup-marketing): Set up marketing and contact management to strengthen relationships with prospects and customers, and enhance the effectiveness of your campaigns and promotions.
+  - In the observatory: [Page 5050 "Contact Card"](../../../objects/page/5050.md), [Page 5094 "Marketing Setup"](../../../objects/page/5094.md)
 
 ## Videos and posts
 
@@ -464,6 +464,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Report 5084 "Email Merge"](../../../objects/report/5084.md) · via [Relationship management analytics](relationship-management/relationship-management-analytics.md)
 - [Report 5085 "Contact Cover Sheet"](../../../objects/report/5085.md) · via [Relationship management analytics](relationship-management/relationship-management-analytics.md)
 
-Learn also names 2 objects with no object page: page/1811, report/50585058.
+Learn also names 1 object with no object page: page/1811.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

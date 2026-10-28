@@ -1,37 +1,37 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/netherlands/vat",
-  "input_hash": "bb75bed5a3d6ad183bd60358d60e482a7a081d2b3edbc7ed0340c52dca3f01e3",
-  "summary": "VAT in the Dutch (NL) version of Business Central: setting up and submitting electronic VAT and ICP declarations through Digipoort, configuring VAT categories, and creating an audit file for the Dutch tax authority. It answers setup, certificate, submission and audit file questions.",
-  "overview": "This section covers the Netherlands-specific VAT tasks. It has four pages and no subtopics. Two pages deal with preparing the electronic declarations: configuring Digipoort and certificates, and mapping VAT categories to XML elements. One page covers submitting the declarations, and one covers the audit file.\n\nA practical order is: set up Digipoort endpoints, the PKIoverheid certificate, the service certificate and the fiscal entity details; set up VAT categories and subcategories; then create and submit VAT and ICP declarations and process the responses from the tax authority. The audit file is a separate task that can be done independently when tax inspectors need data.\n\nStart with \"Electronic VAT and ICP Declarations [NL]\" if you are preparing to file for the first time. Start with \"Create an Audit File for Tax Authority [NL]\" if you only need to hand over ledger data.",
+  "input_hash": "a13e628db4ca066a1862d4b78cd4a923934e7bfc36fb73979c0075a83cdec8b7",
+  "summary": "Dutch VAT functionality in Business Central: setting up and submitting electronic VAT and ICP declarations through Digipoort, configuring VAT declaration categories, and creating an audit file (XAF) for the Dutch tax authority. It answers setup, submission and audit file questions for the Netherlands.",
+  "overview": "This section covers the Netherlands-specific VAT tasks in Business Central. It has four pages with no subtopics: two on setting up electronic declarations, one on submitting them, and one on the audit file.\n\nStart with the setup page for electronic VAT and ICP declarations, which covers certificates, Digipoort endpoints, fiscal entity and tax contact settings. Then set up the VAT declaration categories, which map VAT statement data to the XML elements of the DigitalTaxDecl format. After that, the submission page explains how to send VAT and ICP declarations to the Dutch tax authorities and process the response messages.\n\nThe audit file page is separate. It describes creating an audit file from general ledger journal entries for a chosen fiscal year period, for tax authority examinations or for data exchange between companies.",
   "key_points": [
-    "Electronic VAT and ICP setup requires Digipoort endpoint URLs, a PKIoverheid certificate, a service certificate and tax authority (fiscal entity) information.",
-    "VAT category codes are set up as category and subcategory combinations that map to XML elements in the electronic VAT declaration.",
-    "Declarations are created in XBRL format and submitted to the tax authorities through Digipoort.",
-    "VAT declarations are reported monthly or quarterly; ICP declarations are reported quarterly.",
-    "Submission includes certificate management and processing of response messages from the tax authority.",
-    "The audit file is built from general ledger journal entries for a selected fiscal period.",
-    "The audit file creation can exclude begin balances and exports in XAF format."
+    "Electronic VAT and ICP declarations need certificates, Digipoort endpoints and tax declaration parameters to be configured first.",
+    "Setup also includes the fiscal entity and tax contact configuration.",
+    "VAT category codes, category and subcategory combinations, and box number mappings link VAT statement data to XML elements in the DigitalTaxDecl format.",
+    "The VAT declaration categories page covers DigitalTaxDecl version support and optional fields.",
+    "Declarations go to the Dutch tax authorities through Digipoort, using XBRL format or the Digital Tax Declaration app.",
+    "Submission uses certificate-based authentication (PKIoverheid certificates) and includes processing of response messages.",
+    "The audit file is based on general ledger journal entries for a specified fiscal year period, with start date, end date and an option to exclude the begin balance.",
+    "The audit file is exported as an XAF file."
   ],
   "members_used": 4,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:04:21.719Z",
+  "at": "2026-10-28T10:57:53.198Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011463
+    "cost_usd": 0.012053
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:25:30.259Z",
+    "at": "2026-10-28T11:03:37.310Z",
     "verdict": "approve",
     "issues": [
-      "The suggested order (Digipoort and certificates first, then VAT categories, then submission) is the writer's inference. No page summary states it, but it is reasonable and harmless.",
-      "The overview opens with \"This section covers\", which is close to the banned \"This hub\" phrasing. Consider starting with the subject instead.",
-      "The 'Key point 7' wording 'exports in XAF format' is a little awkward ('and exports the file in XAF format' would read better), but it is supported."
+      "Minor: the overview says the categories map VAT statement data 'to the XML elements of the DigitalTaxDecl format'. The source says the mapping is 'to XML elements' and is there to meet DigitalTaxDecl format requirements. The meaning is close enough to accept.",
+      "Minor: the suggested reading order (setup, then categories, then submission) is the writer's own guidance, not something the sources state. It is reasonable and does not mislead."
     ],
-    "input_hash": "bb75bed5a3d6ad183bd60358d60e482a7a081d2b3edbc7ed0340c52dca3f01e3",
-    "cost_usd": 0.0247952
+    "input_hash": "a13e628db4ca066a1862d4b78cd4a923934e7bfc36fb73979c0075a83cdec8b7",
+    "cost_usd": 0.041711200000000004
   }
 }

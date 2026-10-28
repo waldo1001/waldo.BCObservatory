@@ -1,38 +1,36 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/italy/vat",
-  "input_hash": "2695b878b30e0ff08dc19870c265c0f70554e41b464126d0b1b18e5594cb3814",
-  "summary": "Italian VAT functionality in Business Central: VAT codes and rates, VAT transaction reports (prepare, create, export, correct), VAT statement submission, G/L book and VAT register printing, and Intrastat reports for Italy. It answers setup and how-to questions for Italian tax compliance.",
-  "overview": "This section covers the Italian localization of VAT. A general page on Italian VAT describes VAT codes and rates, VAT calculation based on transaction dates, non-deductible VAT, service tariffs, reverse charges and prepayment handling, and notes that VAT transaction reports must be submitted to the authorities. Several pages then cover the VAT transaction report process in order: setting up VAT posting for the reports, creating the electronic report, exporting it as a .ccf file and recording receipt numbers, and correcting or cancelling submitted reports. Other pages explain how to submit VAT statements through the VAT settlement process, how to print and reprint G/L Book and VAT Register fiscal reports, and how to set up and print monthly or quarterly Intrastat reports for Italy.",
+  "input_hash": "5efb82eb132fdfda6a5cec1e4c35e54d286d1a082d7e7caeb736686c7718d2a8",
+  "summary": "Italian VAT functionality in Business Central: VAT transactions reports (prepare, create, export, correct), VAT statements and periodic settlement, printing G/L Books and VAT registers, and Intrastat reports. It answers setup and submission questions for Italian tax compliance.",
+  "overview": "This section covers the Italian version's VAT reporting. An introductory page explains periodic VAT reports, VAT codes and rates, calculation and posting, VAT date handling, nondeductible VAT, service tariffs for EU cross-border trade, and threshold-based transaction reporting.\n\nThe VAT transactions report follows a sequence of pages. First prepare thresholds and customer details. Then create the report from VAT entries in a posting-date range. Then release, export and submit it. Finally, correct or cancel earlier submissions if needed. Separate pages cover submitting VAT statements, printing and reprinting the G/L Book and VAT Fiscal Register, and setting up Intrastat reports.\n\nStart with the Italian VAT Reporting overview, then follow the VAT transactions report pages in order. Go to the statement, print or Intrastat pages for those tasks.",
   "key_points": [
-    "Italian VAT defines VAT codes and rates, computes VAT by transaction date, and supports non-deductible VAT, service tariffs, reverse charges and prepayments.",
-    "Preparing for VAT transaction reports involves the VAT Transaction Report Amount threshold, the Individual Person and Resident flags, tax representative assignment, and the Foreign Trade FastTab.",
-    "Electronic VAT Transactions reports list transactions above the threshold, are categorized by contract type, and include credit memos for non-EU customers.",
-    "Reports are exported with the Export VAT Transactions batch job as .ccf files, with a Detailed Export option. Receipt numbers from the tax authority are then recorded.",
-    "Corrections are made with corrective or cancellation reports linked to the original submitted report. Lines are suggested from VAT entries and threshold setup, and can be excluded.",
-    "VAT statements are submitted by reviewing VAT entries, running Calc. and Post VAT Settlement, and exporting the statement as PDF.",
-    "G/L Book and VAT Register fiscal reports print with progressive page numbering, can be reprinted, and track the last printed page.",
-    "Intrastat reports for Italy can be monthly or quarterly, cover purchases or sales, and support corrective entries by referencing the corrected report number. The Intrastat page is tagged for 2022 release wave 2."
+    "Prepare: set VAT Transaction Report Amount thresholds (incl. and excl. VAT) and customer fields such as Individual Person, Resident and Tax Representative Type.",
+    "Create: use a VAT Transactions Report with a VAT Report Config Code, the Suggest Lines action, and Incl. in Report marking to review entries against thresholds.",
+    "Export: release the report, export to CCF format in detailed or aggregate mode, mark as submitted, and reopen released reports if needed.",
+    "Correct: create corrective or cancellation reports to replace or cancel earlier submissions to the tax authorities.",
+    "VAT statements: review VAT entries, print, calculate and post settlement, export to PDF, and generate an XML file for periodic VAT payment.",
+    "Printing: G/L Book and VAT Fiscal Register use progressive page numbers, with last printed page and reprinting information kept in General Ledger Setup and VAT Register.",
+    "Intrastat: the Intrastat Report page supports monthly and quarterly purchase or sales declarations and corrective reports, with Export Parameters and periodicity settings (2022 release wave 2)."
   ],
   "members_used": 8,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:49.288Z",
+  "at": "2026-10-28T10:57:43.562Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.014696999999999998
+    "cost_usd": 0.016235
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:21:30.197Z",
-    "verdict": "fix",
+    "at": "2026-10-28T11:02:15.974Z",
+    "verdict": "approve",
     "issues": [
-      "The overview only describes the general Italian VAT page. It leaves out VAT transaction report setup, creation, export and correction, VAT statement submission, G/L book and VAT register printing, and Intrastat, so it doesn't help an agent find the right page.",
-      "Key point 8 puts '(2022 release wave 2)' right after corrective entries, which suggests that feature arrived in that release. The source only tags the Intrastat page as a whole with that version. I reworded it to tag the page instead.",
-      "All other claims in the summary and key points are supported by the page summaries."
+      "Minor: the Intrastat key point ends with '(2022 release wave 2)'. The source page has that version tag, but the narrative doesn't say what it means, so a reader could take it as the release that introduced these features. Saying 'tagged 2022 release wave 2' would be clearer.",
+      "Minor: the Create page also lists Contract Payment Type, and the narrative leaves it out. That is acceptable."
     ],
-    "input_hash": "2695b878b30e0ff08dc19870c265c0f70554e41b464126d0b1b18e5594cb3814",
-    "cost_usd": 0.0509792
+    "input_hash": "5efb82eb132fdfda6a5cec1e4c35e54d286d1a082d7e7caeb736686c7718d2a8",
+    "cost_usd": 0.0324712
   }
 }

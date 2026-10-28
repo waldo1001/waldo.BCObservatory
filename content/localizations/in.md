@@ -2,7 +2,7 @@
 id: localization/in
 type: localization
 title: India (IN)
-summary: India (IN) localization adds GST (including Cess, ISD, TDS/TCS on GST), e-invoice, gate entry, subcontracting, voucher interface, fixed asset depreciation by block and shift, and stale check handling. It answers which objects implement Indian tax and compliance features and where Learn documents them.
+summary: India localization for Business Central 29 adds GST (including cess, reverse charge, advance payments, input service distribution, reconciliation, settlement), TDS and TCS, e-invoice and e-way bill, voucher interface, gate entry, subcontracting, FA depreciation and stale cheques. Use it for questions on Indian tax setup, posting and local reports.
 tier: official
 language: en
 tags:
@@ -11,20 +11,20 @@ tags:
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T23:28:02.015Z"
+  at: "2026-10-28T10:37:28.434Z"
   flags: []
 generated:
-  at: "2026-10-24T01:15:39.036Z"
+  at: "2026-10-28T10:42:34.480Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: aefd88b7cffd0da905f42e17e43cf53e3354c31616a5ca4c274b0cf3491d7f42
+  input_hash: d347d2db711e9c86280fbd4c19915839dc402cdf83bfecdf7a1bd8ba519fb6f3
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-in
     date: null
-    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
+    commit: 4c1c1638beb6d5da8540cc1f61889b80c7b3356f
     t: null
     quote: null
 links:
@@ -50,28 +50,28 @@ learn_folder: LocalFunctionality/India
 
 # India (IN)
 
-> India (IN) localization adds GST (including Cess, ISD, TDS/TCS on GST), e-invoice, gate entry, subcontracting, voucher interface, fixed asset depreciation by block and shift, and stale check handling. It answers which objects implement Indian tax and compliance features and where Learn documents them.
+> India localization for Business Central 29 adds GST (including cess, reverse charge, advance payments, input service distribution, reconciliation, settlement), TDS and TCS, e-invoice and e-way bill, voucher interface, gate entry, subcontracting, FA depreciation and stale cheques. Use it for questions on Indian tax setup, posting and local reports.
 
 BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/india.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The India layer is almost entirely additive: 1,262 own objects and no changes to W1 objects listed. Most of it is GST, built on a tax engine with use case and tax type setup codeunits (GST, Cess, GST TDS/TCS), plus table and page extensions that add GST fields to sales, purchase, service, inventory, pricing, resource, company and bank objects. Codeunits cover posting, settlement, journals, reconciliation, input service distribution, e-invoice JSON handling and QR generation.
+The India layer is almost entirely additive: about 1,260 own objects (codeunits, pages, page and table extensions, enums, queries, reports) and no changes to W1 objects. GST is the largest block. Codeunits such as "GST Base Validation", "GST Posting Management", "GST Settlement" and "e-Invoice Management" sit on a tax engine, with use-case, tax type and dataset codeunits for GST, Cess, GST TDS/TCS, TDS and TCS. GST fields and pages extend the sales, purchase, service, inventory, pricing, project and setup objects.
 
-Beyond GST, the layer provides gate entry (inward and outward, with posted entries and a Gate Entry report), subcontracting with delivery challans and GST liability, charge assignment for purchases, a voucher interface with Day Book, Bank Book, Cash Book, Ledger and Voucher Register reports, and fixed asset depreciation with blocks, shifts and an income tax accounting period. Related TDS and TCS use case import codeunits are also present.
+Beyond tax, the layer adds a voucher interface with narration and books reports (Day Book, Bank Book, Cash Book, Ledger, Voucher Register), gate entry tracking, subcontracting with delivery challans and GST liability, fixed asset block and shift depreciation, charge groups, and stale cheque handling.
 
-Learn documents the setup and the posting scenarios on its India local functionality pages. These include purchases, sales, returns, imports, exports, advance payments, bank charges, reconciliation, settlement, e-invoice, e-way bill, gate entry, depreciation and subcontracting.
+Microsoft Learn documents these features page by page: GST setup, purchase and sales scenarios, advance payments, settlement, reconciliation, e-invoice, e-way bill, TDS and TCS setup and payment, gate entry, voucher interface, depreciation and subcontracting.
 
 ## Key points
 
-- GST is configured through tax engine use case and tax type codeunits (GST, Cess, GST TDS/TCS) and covers sales, purchases, services, transfers, journals and bank charges.
-- e-Invoice codeunits (e-Invoice Management, e-Invoice Json Handler, plus service and transfer shipment variants) generate JSON and import signed responses; Learn also covers E-Way Bill.
-- GST settlement, reconciliation with GSTR-2A, credit adjustment journals and Input Service Distribution have their own codeunits.
-- Gate entry provides inward and outward entries, posted entries, comments, attachments and a Gate Entry report.
-- Subcontracting adds delivery challan handling and GST liability creation when materials are not returned in time.
-- Voucher interface adds posting setup tables, narration, and Day Book, Bank Book, Cash Book, Ledger and Voucher Register reports, plus stale check support.
-- Fixed assets get depreciation books, FA blocks, shifts and an income tax accounting period, with Calculate FA Depreciation and Create FA Fiscal Year reports.
-- Posting number series by location and document type, and charge group assignment for purchases are local setup features.
+- GST engine: setup, HSN/SAC and GST groups, posting by state and component, reverse charge, exempted, composite, SEZ, import and export scenarios
+- GST Compensation Cess with five calculation types
+- GST settlement, credit adjustment journal, liability adjustment for open reverse charge invoices, input service distribution and GSTR-2A reconciliation
+- E-invoice (JSON, IRN, cancellation) and e-way bill Excel template export
+- TDS and TCS setup, calculation and payment to authorities, plus GST TCS/TDS on payments
+- Voucher interface with six voucher types, narration and Day Book, Bank Book, Cash Book, Ledger and Voucher Register reports
+- Inward and outward gate entries linked to purchase, sales, transfer and return documents
+- Subcontracting with delivery challans and GST liability, FA block/shift depreciation, and stale cheque setup
 
 Narrative written by Sonnet from the code diff and 60 Learn page summaries. In numbers: India (IN) localization of Business Central in BC29: 1262 objects of its own, 0 W1 objects changed (0 fields and 0 events added). From the code; country apps outside the Base Application are not included yet.
 
@@ -97,97 +97,97 @@ Narrative written by Sonnet from the code diff and 60 Learn page summaries. In n
 
 ### Finance
 
-The core GST engine lives here: tax type and use case setup, GST posting management, settlement, journals, reconciliation matching, distribution (ISD), e-invoice management and JSON handlers, plus Cess and GST TDS/TCS configuration. Hundreds of own tables, pages, reports and queries support these.
+Holds the core of the India layer: GST codeunits for validation, posting, settlement, journals, distribution, reconciliation, applications and reverse transactions, plus cess, TDS and TCS tax engine setup and use-case data. Also includes e-invoice management and JSON handlers, bank charge GST and non-availment logic.
 
-Why: Learn documents GST setup, settlement of net payment liability, reconciliation with GSTR-2A, Cess calculation, ISD and e-invoice as Indian compliance features.
+Why: Learn pages describe GST setup, settlement, cess, e-invoice, TDS, TCS and audit trail requirements that these objects implement.
 
-Objects: [codeunit/18000 "GST Use Case Config"](../objects/codeunit/18000-in.md) (own), [codeunit/18015 "GST Posting Management"](../objects/codeunit/18015-in.md) (own), [codeunit/18318 "GST Settlement"](../objects/codeunit/18318-in.md) (own), [codeunit/18146 "e-Invoice Management"](../objects/codeunit/18146-in.md) (own), [codeunit/18147 "e-Invoice Json Handler"](../objects/codeunit/18147-in.md) (own), [codeunit/18280 "GST Reconcilation Match"](../objects/codeunit/18280-in.md) (own), [codeunit/18200 "GST Distribution"](../objects/codeunit/18200-in.md) (own), [codeunit/18017 "GST Tax Configuration"](../objects/codeunit/18017-in.md) (own).
+Objects: [codeunit/18001 "GST Base Validation"](../objects/codeunit/18001-in.md) (own), [codeunit/18015 "GST Posting Management"](../objects/codeunit/18015-in.md) (own), [codeunit/18318 "GST Settlement"](../objects/codeunit/18318-in.md) (own), [codeunit/18146 "e-Invoice Management"](../objects/codeunit/18146-in.md) (own), [codeunit/18147 "e-Invoice Json Handler"](../objects/codeunit/18147-in.md) (own), [codeunit/18200 "GST Distribution"](../objects/codeunit/18200-in.md) (own), [codeunit/18280 "GST Reconcilation Match"](../objects/codeunit/18280-in.md) (own), [codeunit/18017 "GST Tax Configuration"](../objects/codeunit/18017-in.md) (own).
 
 [All 804 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### Sales
 
-Page extensions add GST fields to sales documents, subforms, statistics, archives, customer card and ledger entries, ship-to address and finance charge memos. Posting logic sits in Finance codeunits.
+Page extensions add GST fields to customers, sales documents and subforms, archives, statistics, finance charge memos and ledger entries. Sales posting uses GST validation and number series codeunits.
 
 Why: Learn covers GST on sales to registered and unregistered customers, exports, exempted sales and sales returns.
 
-Objects: [pageextension/18150 "GST Sales Order Ext"](../objects/pageextension/18150-in.md) (own), [pageextension/18148 "GST Sales Invoice Ext"](../objects/pageextension/18148-in.md) (own), [pageextension/18146 "GST Sales Credit Memo Ext"](../objects/pageextension/18146-in.md) (own), [pageextension/18142 "GST Customer Card Ext"](../objects/pageextension/18142-in.md) (own), [pageextension/18144 "GST Posted Sales Invoice Ext"](../objects/pageextension/18144-in.md) (own), [pageextension/18156 "GST Sales Setup Ext"](../objects/pageextension/18156-in.md) (own), [pageextension/18141 "GST Cust. Ledger Entries Ext"](../objects/pageextension/18141-in.md) (own), [pageextension/18155 "GST Sales Return Order Ext"](../objects/pageextension/18155-in.md) (own).
+Objects: [pageextension/18142 "GST Customer Card Ext"](../objects/pageextension/18142-in.md) (own), [pageextension/18150 "GST Sales Order Ext"](../objects/pageextension/18150-in.md) (own), [pageextension/18148 "GST Sales Invoice Ext"](../objects/pageextension/18148-in.md) (own), [pageextension/18144 "GST Posted Sales Invoice Ext"](../objects/pageextension/18144-in.md) (own), [pageextension/18141 "GST Cust. Ledger Entries Ext"](../objects/pageextension/18141-in.md) (own), [pageextension/18156 "GST Sales Setup Ext"](../objects/pageextension/18156-in.md) (own), [pageextension/18555 "Sales Credit Memo"](../objects/pageextension/18555-in.md) (own), [pageextension/18557 "Sales Order"](../objects/pageextension/18557-in.md) (own).
 
 [All 133 objects of Sales in the diff](?ns=Sales#country-diff)
 
 ### Purchases
 
-Page extensions add GST and charge assignment fields to purchase documents, vendor card, ledger entries, order address, statistics and archives.
+Page extensions add GST fields to vendors and purchase documents, archives and statistics, including charge assignment variants for purchase documents. Supports vendor types such as registered, unregistered, import, SEZ, composite and exempted.
 
-Why: Learn documents GST and TDS on purchases from registered, unregistered, SEZ, composite and foreign vendors, with reverse charge.
+Why: Learn describes GST credit, reverse charge, import and return scenarios for purchases.
 
-Objects: [pageextension/18084 "GST Purchase Order Ext"](../objects/pageextension/18084-in.md) (own), [pageextension/18083 "GST Purchase invoice Ext"](../objects/pageextension/18083-in.md) (own), [pageextension/18082 "GST Purchase Credit Memo Ext"](../objects/pageextension/18082-in.md) (own), [pageextension/18092 "GST Vendor Card Ext"](../objects/pageextension/18092-in.md) (own), [pageextension/18088 "GST Purchases Setup Ext"](../objects/pageextension/18088-in.md) (own), [pageextension/18523 "Charge Purchase Order Ext"](../objects/pageextension/18523-in.md) (own), [pageextension/18081 "GST Posted Purch. Invoice Ext"](../objects/pageextension/18081-in.md) (own), [pageextension/18093 "GST Vendor Ledger Entries Ext"](../objects/pageextension/18093-in.md) (own).
+Objects: [pageextension/18092 "GST Vendor Card Ext"](../objects/pageextension/18092-in.md) (own), [pageextension/18084 "GST Purchase Order Ext"](../objects/pageextension/18084-in.md) (own), [pageextension/18083 "GST Purchase invoice Ext"](../objects/pageextension/18083-in.md) (own), [pageextension/18081 "GST Posted Purch. Invoice Ext"](../objects/pageextension/18081-in.md) (own), [pageextension/18088 "GST Purchases Setup Ext"](../objects/pageextension/18088-in.md) (own), [pageextension/18093 "GST Vendor Ledger Entries Ext"](../objects/pageextension/18093-in.md) (own), [pageextension/18523 "Charge Purchase Order Ext"](../objects/pageextension/18523-in.md) (own), [pageextension/18254 "Purchase Agent Role Center GST"](../objects/pageextension/18254-in.md) (own).
 
 [All 98 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
 ### Warehouse
 
-Gate entry tracking: inward and outward gate entry pages, posted entries, comments, attachments, posting codeunits, enums for source type and status, and a Gate Entry report. Warehouse receipt pages are extended.
+Adds gate entry tracking: inward and outward gate entries, posted gate entries, comments, attachments, a posting codeunit, enums for source type and status, and the Gate Entry report. Extends warehouse receipt pages.
 
-Why: Learn describes gate entry as a record of material entrance and exit tied to purchase, sales, transfer and return orders.
+Why: Learn explains gate entry as a record of goods entering and leaving premises, linked to purchase, sales and transfer documents.
 
-Objects: [codeunit/18602 "Gate Entry Post"](../objects/codeunit/18602-in.md) (own), [codeunit/18601 "Gate Entry Handler"](../objects/codeunit/18601-in.md) (own), [page/18605 "Inward Gate Entry"](../objects/page/18605-in.md) (own), [page/18608 "Outward Gate Entry"](../objects/page/18608-in.md) (own), [page/18614 "Posted Inward Gate Entry"](../objects/page/18614-in.md) (own), [page/18617 "Posted Outward Gate Entry"](../objects/page/18617-in.md) (own), [report/18601 "Gate Entry"](../objects/report/18601-in.md) (own), [pageextension/18607 "Gate Entry Whse Rcpt"](../objects/pageextension/18607-in.md) (own).
+Objects: [codeunit/18602 "Gate Entry Post"](../objects/codeunit/18602-in.md) (own), [codeunit/18603 "Gate Entry- Post (Yes/No)"](../objects/codeunit/18603-in.md) (own), [page/18605 "Inward Gate Entry"](../objects/page/18605-in.md) (own), [page/18608 "Outward Gate Entry"](../objects/page/18608-in.md) (own), [page/18614 "Posted Inward Gate Entry"](../objects/page/18614-in.md) (own), [page/18617 "Posted Outward Gate Entry"](../objects/page/18617-in.md) (own), [report/18601 "Gate Entry"](../objects/report/18601-in.md) (own), [enum/18603 "Gate Entry Type"](../objects/enum/18603-in.md) (own).
 
 [All 52 objects of Warehouse in the diff](?ns=Warehouse#country-diff)
 
 ### Bank
 
-Voucher interface with debit and credit posting setup tables, narration, journal voucher setup, plus Day Book, Bank Book, Cash Book, Ledger, Voucher Register and Check reports. Also extends bank account and check ledger objects for stale check and GST.
+Provides the voucher interface (voucher posting setup, debit and credit accounts, posted narration), India books reports (Day Book, Bank Book, Cash Book, Ledger, Voucher Register), and an extended Check Report with stale cheque support. Bank account pages carry GST fields.
 
-Why: Learn describes vouchers for journal, bank, cash and contra transactions, and the stale check setup.
+Why: Learn describes six voucher types routed by account type and a stale check feature that invalidates cheques after a set period.
 
-Objects: [report/18929 "Day Book"](../objects/report/18929-in.md) (own), [report/18930 "Bank Book"](../objects/report/18930-in.md) (own), [report/18931 "Cash Book"](../objects/report/18931-in.md) (own), [report/18933 "Voucher Register"](../objects/report/18933-in.md) (own), [table/18930 "Journal Voucher Posting Setup"](../objects/table/18930-in.md) (own), [page/18930 "Journal Voucher Posting Setup"](../objects/page/18930-in.md) (own), [codeunit/18929 "Narration Posting Events"](../objects/codeunit/18929-in.md) (own), [report/18935 "Check Report"](../objects/report/18935-in.md) (own).
+Objects: [codeunit/18931 "Gen. Jnl. Post Line Subscriber"](../objects/codeunit/18931-in.md) (own), [codeunit/18929 "Narration Posting Events"](../objects/codeunit/18929-in.md) (own), [table/18930 "Journal Voucher Posting Setup"](../objects/table/18930-in.md) (own), [page/18930 "Journal Voucher Posting Setup"](../objects/page/18930-in.md) (own), [report/18929 "Day Book"](../objects/report/18929-in.md) (own), [report/18930 "Bank Book"](../objects/report/18930-in.md) (own), [report/18931 "Cash Book"](../objects/report/18931-in.md) (own), [report/18935 "Check Report"](../objects/report/18935-in.md) (own).
 
 [All 43 objects of Bank in the diff](?ns=Bank#country-diff)
 
 ### FixedAssets
 
-India depreciation: FA blocks, shifts, income tax accounting periods, depreciation method and book extensions, normal depreciation calculation, fiscal year close and the Calculate FA Depreciation report.
+Adds income tax depreciation with FA blocks, shifts, additional depreciation, a separate accounting period for income tax, and a fiscal year close. Includes Calculate FA Depreciation and Create FA Fiscal Year reports and extensions of depreciation books.
 
-Why: Learn explains depreciation under the Income Tax Act 1961 and Companies Act 2013 with block codes and additional depreciation.
+Why: Learn documents block-based and shift-based depreciation setup and calculation for India.
 
-Objects: [codeunit/18631 "Calc Normal Depreciation"](../objects/codeunit/18631-in.md) (own), [report/18631 "Calculate FA Depreciation"](../objects/report/18631-in.md) (own), [report/18632 "Create FA Fiscal Year"](../objects/report/18632-in.md) (own), [table/18632 "Fixed Asset Block"](../objects/table/18632-in.md) (own), [table/18633 "Fixed Asset Shift"](../objects/table/18633-in.md) (own), [table/18631 "FA Accounting Period Inc. Tax"](../objects/table/18631-in.md) (own), [tableextension/18631 "Depreciation Book Ext"](../objects/tableextension/18631-in.md) (own), [tableextension/18632 "FA Depreciation Book Ext"](../objects/tableextension/18632-in.md) (own).
+Objects: [codeunit/18631 "Calc Normal Depreciation"](../objects/codeunit/18631-in.md) (own), [report/18631 "Calculate FA Depreciation"](../objects/report/18631-in.md) (own), [report/18632 "Create FA Fiscal Year"](../objects/report/18632-in.md) (own), [table/18632 "Fixed Asset Block"](../objects/table/18632-in.md) (own), [table/18633 "Fixed Asset Shift"](../objects/table/18633-in.md) (own), [table/18631 "FA Accounting Period Inc. Tax"](../objects/table/18631-in.md) (own), [enum/18631 "Depreciation Method"](../objects/enum/18631-in.md) (own), [tableextension/18631 "Depreciation Book Ext"](../objects/tableextension/18631-in.md) (own).
 
 [All 43 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
 
 ### Service
 
-Table and page extensions add GST fields to service headers, lines, contracts, shipments, invoices, credit memos and archives, with posting handled in Finance codeunits.
+Table and page extensions add GST to service orders, quotes, invoices, credit memos, contracts, shipments and archives, with GST on service lines and setup.
 
-Why: Learn covers GST on service orders, invoices and credit memos with GST group and HSN/SAC codes.
+Why: Learn covers GST on service orders, invoices and credit memos.
 
-Objects: [tableextension/18440 "GST Service Header"](../objects/tableextension/18440-in.md) (own), [tableextension/18441 "GST Service Line"](../objects/tableextension/18441-in.md) (own), [pageextension/18440 "GST Service Order"](../objects/pageextension/18440-in.md) (own), [pageextension/18441 "GST Service Lines"](../objects/pageextension/18441-in.md) (own), [tableextension/18442 "GST Service Mgt Setup"](../objects/tableextension/18442-in.md) (own), [pageextension/18442 "GST Service Invoice"](../objects/pageextension/18442-in.md) (own), [pageextension/18444 "GST Service Credit Memo"](../objects/pageextension/18444-in.md) (own), [tableextension/18449 "GST Service Contract Header"](../objects/tableextension/18449-in.md) (own).
+Objects: [tableextension/18440 "GST Service Header"](../objects/tableextension/18440-in.md) (own), [tableextension/18441 "GST Service Line"](../objects/tableextension/18441-in.md) (own), [pageextension/18440 "GST Service Order"](../objects/pageextension/18440-in.md) (own), [pageextension/18442 "GST Service Invoice"](../objects/pageextension/18442-in.md) (own), [pageextension/18444 "GST Service Credit Memo"](../objects/pageextension/18444-in.md) (own), [pageextension/18457 "GST Service Mgt Setup"](../objects/pageextension/18457-in.md) (own), [tableextension/18442 "GST Service Mgt Setup"](../objects/tableextension/18442-in.md) (own), [pageextension/18453 "GST Service Contract"](../objects/pageextension/18453-in.md) (own).
 
 [All 35 objects of Service in the diff](?ns=Service#country-diff)
 
 ### Inventory
 
-GST fields on items, item charges, locations, item templates and inventory setup, plus gate entry and TCS fields on location and transfer pages, and subcontracting item ledger extensions.
+Extends item, item charge, location, inventory setup and item template with GST fields, adds gate entry setup on inventory and transfer order pages, and adds subcontracting fields on item journal and ledger entries.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [tableextension/18008 "GST Item Ext."](../objects/tableextension/18008-in.md) (own), [pageextension/18007 "GST Item Card Ext"](../objects/pageextension/18007-in.md) (own), [tableextension/18009 "GST Location Ext"](../objects/tableextension/18009-in.md) (own), [pageextension/18009 "GST Location Card Ext"](../objects/pageextension/18009-in.md) (own), [tableextension/18006 "GST Inventory Setup Ext"](../objects/tableextension/18006-in.md) (own), [tableextension/18007 "GST Item Charge Ext"](../objects/tableextension/18007-in.md) (own), [tableextension/18546 "LocationExt"](../objects/tableextension/18546-in.md) (own), [tableextension/18467 "Subcon Item Ledger Entry Ext"](../objects/tableextension/18467-in.md) (own).
+Objects: [tableextension/18008 "GST Item Ext."](../objects/tableextension/18008-in.md) (own), [tableextension/18009 "GST Location Ext"](../objects/tableextension/18009-in.md) (own), [pageextension/18007 "GST Item Card Ext"](../objects/pageextension/18007-in.md) (own), [pageextension/18009 "GST Location Card Ext"](../objects/pageextension/18009-in.md) (own), [tableextension/18007 "GST Item Charge Ext"](../objects/tableextension/18007-in.md) (own), [tableextension/18006 "GST Inventory Setup Ext"](../objects/tableextension/18006-in.md) (own), [pageextension/18606 "Gate Entry Transfer Order"](../objects/pageextension/18606-in.md) (own), [tableextension/18466 "SubconItemJournalLine"](../objects/tableextension/18466-in.md) (own).
 
 [All 23 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### Foundation
 
-Extensions to company information, source code setup and shipping agents for GST, TCS, TDS and voucher features.
+Extends company information, shipping agents and source code setup with GST, TCS, TDS and voucher-related fields.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [tableextension/18001 "GST Company Information Ext"](../objects/tableextension/18001-in.md) (own), [pageextension/18002 "GST Company Information Ext"](../objects/pageextension/18002-in.md) (own), [tableextension/18012 "GST Source Code Setup Ext"](../objects/tableextension/18012-in.md) (own), [tableextension/18156 "GST Shipping Agent Ext"](../objects/tableextension/18156-in.md) (own), [tableextension/18543 "CompanyInformation"](../objects/tableextension/18543-in.md) (own), [tableextension/18807 "CompayInformationTCSExt"](../objects/tableextension/18807-in.md) (own), [tableextension/18930 "Source Code Setup Ext."](../objects/tableextension/18930-in.md) (own), [pageextension/18543 "CompanyInformation"](../objects/pageextension/18543-in.md) (own).
+Objects: [tableextension/18001 "GST Company Information Ext"](../objects/tableextension/18001-in.md) (own), [pageextension/18002 "GST Company Information Ext"](../objects/pageextension/18002-in.md) (own), [tableextension/18543 "CompanyInformation"](../objects/tableextension/18543-in.md) (own), [tableextension/18807 "CompayInformationTCSExt"](../objects/tableextension/18807-in.md) (own), [tableextension/18012 "GST Source Code Setup Ext"](../objects/tableextension/18012-in.md) (own), [tableextension/18156 "GST Shipping Agent Ext"](../objects/tableextension/18156-in.md) (own), [pageextension/18014 "Source Code Setup Ext"](../objects/pageextension/18014-in.md) (own), [tableextension/18930 "Source Code Setup Ext."](../objects/tableextension/18930-in.md) (own).
 
 [All 17 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
 ### (no namespace)
 
-Codeunits that import GST, TDS and TCS use case definitions for the tax engine.
+Codeunits that import tax use cases for GST, TDS and TCS into the tax engine.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -197,9 +197,9 @@ Objects: [codeunit/18022 "Import GST Use Case"](../objects/codeunit/18022-in.md)
 
 ### Manufacturing
 
-Subcontracting extensions on production order lines and components.
+Subcontracting fields are added to production order lines and components, with a page extension on the production order line.
 
-Why: Learn covers subcontracting setup with delivery challans and job work return periods.
+Why: Learn describes subcontracting setup with delivery challans and job work.
 
 Objects: [tableextension/18469 "Subcon Prod. Order Line"](../objects/tableextension/18469-in.md) (own), [tableextension/18468 "Subcon Prod.Order Component"](../objects/tableextension/18468-in.md) (own), [pageextension/18466 "Subcon ProdOrder Line Ext"](../objects/pageextension/18466-in.md) (own).
 
@@ -207,7 +207,7 @@ Objects: [tableextension/18469 "Subcon Prod. Order Line"](../objects/tableextens
 
 ### Pricing
 
-GST fields on price list lines and price worksheet lines.
+Adds GST-related fields to price list lines and price worksheet lines.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -217,7 +217,7 @@ Objects: [tableextension/18163 "GST Price List Line Ext"](../objects/tableextens
 
 ### Projects
 
-GST fields on the resource table and resource card.
+Adds GST fields to the resource table and resource card.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -227,7 +227,7 @@ Objects: [tableextension/18010 "GST Resource Ext"](../objects/tableextension/180
 
 ### QRGeneration
 
-A QR Generator codeunit with a .NET component, used for e-invoice QR codes.
+Provides a QR Generator codeunit and a .NET reference, used for QR codes such as on e-invoices.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -237,7 +237,7 @@ Objects: [codeunit/18650 "QR Generator"](../objects/codeunit/18650-in.md) (own),
 
 ### Security
 
-A permission set extension for India TDS added to D365 BASIC.
+Permission set extension giving the D365 BASIC set access to India TDS objects.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 

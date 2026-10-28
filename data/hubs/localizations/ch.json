@@ -1,30 +1,30 @@
 {
   "country": "CH",
   "version": "29",
-  "input_hash": "dcaeb496fdc7c3be4ebc2a8e2eb10a3f25a769128d4f0a37cb9a1c8c0e036a2d",
-  "summary": "Switzerland (CH) localization of Business Central 29. It covers Swiss electronic payments (QR-bill, ESR, LSV+, SEPA with Swiss rules), Swiss VAT statements with ciphers and VAT exchange rates, delivery reminders, quote management, physical inventory, and bank and post code directories. It answers how Swiss payment, VAT and document features are built.",
-  "overview": "The Swiss layer centers on payments. QR-bill objects (codeunits 11502, 11512 to 11514 and 11516 to 11519, pages 11510 to 11518) create, scan, decode and print QR-bills and handle incoming documents. ESR (EsrMgt), LSV+ (LSVMgt, LSV journal pages) and DTA (DtaMgt) cover the other Swiss payment methods. Swiss rules are added to SEPA credit transfer and direct debit export, and to CAMT 053 and 054 import. Fields on vendor and customer bank accounts, journal lines and purchase headers carry ESR, giro, clearing and payment form data.\n\nIn finance, the Swiss VAT statement uses cipher codes (pages 11023 \\\"VAT Cipher Codes\\\" and 11024 \\\"VAT Cipher Setup\\\", plus cipher fields on VAT posting setup and VAT statement lines). The layer also adds codeunit 26100 \\\"Update VAT-CH\\\". VAT entries, G/L accounts and currency exchange rates gain foreign currency and VAT exchange rate fields, and the Exch. Rate Adjustment report gets a valuation method and VAT entry adjustment. Provisional G/L balances and DACH report selections are also added. Several objects carry DACH naming or come from the German and Austrian localizations, such as VAT Statement Germany, VAT Statement AT and Update VAT-AT.\n\nOther additions are delivery reminders for vendors, sales quote management (quote status, subtotals, levels, positions), physical inventory orders, and Swiss post code and bank directory imports. Learn documents these under \\\"Switzerland local functionality\\\" and its sub-pages.",
+  "input_hash": "090b8932c02e11054d4ff12fe99f83cfc576b789f3cf6fd4a6102ddc4c34671d",
+  "summary": "Switzerland (CH) localization of Business Central 29. It covers Swiss electronic payments (QR-bill, ESR, LSV+, SEPA with Swiss rules), Swiss VAT statements and VAT exchange rate adjustment, delivery reminders, foreign-currency G/L balances, sales quote handling and physical inventory. Use it for questions on Swiss payment formats, VAT ciphers and local reports.",
+  "overview": "The Swiss layer is built around payments. Its own codeunits and pages implement the Swiss QR-bill (encode, decode, scan, print, setup wizard, billing info), ESR setup and file import, DTA setup, LSV+ direct debit collection with an LSV journal, Swiss SEPA credit transfer and direct debit exports, and CAMT 053/054 import. The W1 tables Vendor Bank Account, Customer Bank Account, Gen. Journal Line and Payment Export Data get new fields, including Payment Form, ESR Type, Giro Account No., Reference No., ESR/ISR Coding Line and Swiss Payment Type. Learn covers these topics on the Swiss Electronic Payments, QR-Bill Management, ESR and LSV+ pages.\n\nFor tax and finance, the layer adds VAT cipher setup and codes, a VAT Statement Cipher field on VAT statement lines, Sales VAT Stat. Cipher and Purch. VAT Stat. Cipher fields on VAT Posting Setup, and foreign-currency fields on VAT entries. The exchange rate adjustment gets a valuation method and an option to adjust VAT entries, which uses the official VAT exchange rates stored on Currency Exchange Rate. G/L accounts get foreign-currency balances, and a provisional balance page previews how journals will affect balances.\n\nOther local features:\n- Delivery reminders for late vendor deliveries, with their own pages, issue and create codeunits, and a report selection usage.\n- Sales quote management with levels, positions, subtotals and archiving of quote status.\n- Physical inventory orders and recordings.\n- Swiss post code import.\n- Many Swiss \"SR\" reports.\n\nThe layer also contains objects named for Germany, Austria and DACH, such as Data Export, Update VAT-AT, VAT Statement Germany and DACH Report Selections.",
   "key_points": [
-    "QR-bill management: generate, print, scan and import QR-bills, with IBAN/QR-IBAN, payment reference types and billing information (codeunit 11518 \"Swiss QR-Bill Mgt.\", page 11514 \"Swiss QR-Bill Setup\").",
-    "ESR, LSV+ and DTA payment methods: ESR file import and printing, LSV collection journals with file export, DTA setup.",
-    "SEPA credit transfer and direct debit exports with Swiss payment form and payment type fields on table 1226 \"Payment Export Data\", plus Swiss CAMT 053/054 import.",
-    "Swiss VAT statement with VAT cipher setup, VAT exchange rate fields and VAT exchange rate adjustment on table 254 \"VAT Entry\" and the Exch. Rate Adjustment report.",
-    "Delivery reminders for vendors: terms, levels, text, issuing and a test report, with their own pages, codeunits and page extensions.",
-    "Sales quote management and posting changes: quote status, probability, subtotals, levels and positions on sales lines and archives.",
-    "Foreign currency balances on G/L accounts and provisional balance view for journals.",
-    "Imports of Swiss post codes and bank clearing numbers (Bank Directory)."
+    "QR-bill: encode, decode and scan; print on posted sales and service invoices; setup wizard; IBAN and QR-IBAN types; structured and combined addresses; SWICO billing info.",
+    "ESR and LSV+: ESR setup and bank file import into cash receipt journals; LSV setup; an LSV journal to suggest, close and export collections; an LSV No. field on customer ledger entries.",
+    "Swiss SEPA credit transfer export, SEPA direct debit export (pain.008.001.02.ch03), CAMT 053/054 import, and checks of the Swiss payment type on bank accounts.",
+    "Swiss VAT: VAT cipher codes and setup, ciphers on VAT posting setup and VAT statement lines, a VAT statement schedule, and VAT entry fields in foreign currency.",
+    "Exchange rate adjustment gets a valuation method and VAT entry adjustment, using the VAT exchange rate fields on Currency Exchange Rate.",
+    "Delivery reminders: terms, levels, texts and vendor codes; create, issue and print; a Delivery Reminder source code.",
+    "Sales quote management: level, position, subtotal and title fields on sales lines, plus quote status, follow-up and archiving of quotes.",
+    "Foreign-currency balances on G/L accounts, a provisional trial balance report, and import of the Swiss bank directory and post codes."
   ],
   "areas": [
     {
       "area": "Bank",
-      "what": "Adds the Swiss payment stack: QR-bill (encode, decode, image, setup wizard, scan, billing info), ESR, DTA and LSV management, a Bank Directory, and Swiss SEPA CT and DD export files. It also adds CAMT 053 and 054 import and Swiss fields and checks on the W1 SEPA codeunits and Payment Export Data.",
-      "why": "Learn describes ESR, LSV+, SEPA credit transfers and QR-bills with IBAN and QR-IBAN as the Swiss electronic payment methods, and bank clearing number import from SIX Interbank Clearing files.",
+      "what": "Adds the Swiss payment stack: QR-bill codeunits, enums, setup and print pages, ESR, DTA and LSV management, bank directory, and Swiss SEPA CT and DD export files. CAMT 053/054 import codeunits and extensions to SEPA CT and CAMT W1 codeunits support Swiss payment types.",
+      "why": "Learn describes QR-bills, ESR, LSV+ and SEPA credit transfers as the Swiss electronic payment methods, with clearing numbers imported from a bank directory file.",
       "objects": [
-        "table/1226",
         "codeunit/11518",
         "codeunit/11513",
         "codeunit/11512",
         "page/11514",
+        "page/11516",
         "codeunit/3010531",
         "codeunit/3010831",
         "codeunit/11520"
@@ -32,82 +32,82 @@
     },
     {
       "area": "Finance",
-      "what": "Adds the Swiss VAT statement with cipher setup and codes, VAT exchange rate fields on VAT Entry and G/L Account, and the Exch. Rate Adjustment changes. It also adds provisional G/L balance, data export objects and ESR fields on journal lines. Some objects are shared with Germany and Austria.",
-      "why": "Learn says Swiss VAT uses official exchange rates for foreign currency and adjusts VAT amounts for payment discounts, and describes foreign currency balances and temporary journal balances.",
+      "what": "Adds VAT cipher setup and codes, VAT statement schedule and exchange rate related VAT entry fields. Extends exchange rate adjustment, gen. journal lines with ESR fields, and G/L accounts with foreign currency balances. Also includes data export objects and provisional balance reports.",
+      "why": "Learn explains that VAT exchange rates from the Federal Tax Administration are applied when foreign currency sales differ from invoice rates, and that the adjustment runs before VAT statements.",
       "objects": [
         "table/254",
-        "table/81",
         "codeunit/597",
         "report/596",
         "table/596",
+        "table/325",
         "page/11023",
         "page/11024",
-        "codeunit/26100"
+        "page/11500"
       ]
     },
     {
       "area": "Purchases",
-      "what": "Adds ESR, giro, clearing and payment form fields to Vendor Bank Account, reference fields on Purchase Header, and Suggest Vendor Payments changes. It adds a full delivery reminder feature for vendors, with tables, pages, codeunits and enum, and Swiss vendor reports.",
-      "why": "Learn documents delivery reminders (codes, terms, levels, text, generation, issue, test report) and the Vendor Payments List report.",
+      "what": "Extends vendor bank accounts with Swiss payment fields (ESR type, clearing no., payment form, debit bank) and purchase headers with ESR reference fields. Adds delivery reminder tables, pages and codeunits, vendor payment reports and extra procedures in Suggest Vendor Payments.",
+      "why": "Learn documents delivery reminders as a way to remind vendors about overdue purchases, configured with terms, levels, texts and vendor codes.",
       "objects": [
         "table/288",
         "table/38",
         "report/393",
-        "codeunit/5005271",
         "codeunit/5005270",
+        "codeunit/5005271",
         "page/5005270",
-        "page/5005273",
+        "page/5005281",
         "report/11507"
       ]
     },
     {
       "area": "Sales",
-      "what": "Adds quote management fields (probability, follow-up, competition, validity) to Sales Header and archive. It adds position, level, subtotal and classification fields to sales lines and posted lines, posting description events, and Swiss customer reports.",
-      "why": "Learn lists subtotals with begin and end totals, enhanced posting descriptions and invoice rounding with payment discounts for Swiss sales documents.",
+      "what": "Adds quote management fields on sales headers and lines (levels, positions, subtotals, probability, follow-up) and copies them to posted and archive lines. Adds the LSV number on customer ledger entries, Giro account on customer bank accounts, posting description handling and Swiss customer reports.",
+      "why": "Learn lists subtotals in quotes and orders, Begin Total and End Total line types and a sales order picking list.",
       "objects": [
-        "table/36",
         "table/37",
+        "table/36",
         "codeunit/3010801",
-        "codeunit/80",
         "table/5107",
-        "table/311",
         "table/287",
-        "report/3010801"
+        "codeunit/80",
+        "report/11512",
+        "table/21"
       ]
     },
     {
       "area": "Inventory",
-      "what": "Adds a physical inventory order feature with its own tables, plus fields on Item, Item Ledger Entry and Item Journal Line for default location, customer and salesperson. It also adds Swiss item reports and dispatcher and receiver places.",
-      "why": "Learn says Swiss inventory uses default location codes from the item card and tracks invoices with multiple shipments.",
+      "what": "Adds physical inventory order and recording tables with posted counterparts, places of dispatcher and receiver, and item fields such as location code and inventory price. Includes Swiss item reports such as ABC analysis, ranking and inventory value.",
+      "why": "Learn mentions detailed reporting, multi-shipment invoice tracking and default location codes for items.",
       "objects": [
-        "table/27",
-        "table/83",
-        "table/32",
-        "table/313",
         "table/5005350",
         "table/5005351",
+        "table/5005352",
+        "table/27",
+        "table/32",
         "report/11503",
-        "table/11000"
+        "report/11517",
+        "page/11000"
       ]
     },
     {
       "area": "Foundation",
-      "what": "Extends Company Information with Swiss fields including tax office data and authorized numbers. Adds DACH report selections, address formatting for the tax office, post code priority and a post code import report.",
-      "why": "Learn describes importing the latest Swiss Post post code file into the Post Code table.",
+      "what": "Extends Company Information with tax office and authorization fields and adds DACH report selections, with report selection usages for delivery reminders and purchases. Adds post code priority, address formatting for the tax office, and Swiss QR-bill company info.",
+      "why": "Learn describes importing Swiss post codes from CSV or ZIP files to update the Post Code table.",
       "objects": [
         "table/79",
-        "report/11502",
-        "table/225",
         "table/26100",
         "codeunit/365",
         "codeunit/1901",
-        "codeunit/2",
-        "tableextension/11511"
+        "report/11502",
+        "tableextension/11511",
+        "table/225",
+        "codeunit/11515"
       ]
     },
     {
       "area": "(no namespace)",
-      "what": "Holds the Swiss SEPA direct debit pain.008.001.02.ch03 XMLport, the PURCHASE-DEL.REMIND. permission set, data export setup and the Intrastat item list report. Upgrade and sandbox cleanup codeunits are not covered.",
+      "what": "Holds the SEPA direct debit pain.008.001.02.ch03 XMLport, the Data Export setup table, an Intrastat item list and the delivery reminder permission set.",
       "why": null,
       "objects": [
         "xmlport/11501",
@@ -118,18 +118,18 @@
     },
     {
       "area": "FixedAssets",
-      "what": "Adds Swiss depreciation fields on Fixed Asset (BWR depreciation book, premium depreciation) and a Swiss book value report. Also changes FA General Report to exclude reclassification entries.",
+      "what": "Adds premium depreciation and BWR depreciation book fields on Fixed Asset, a book value report and an Austrian fixed asset list. Adds a procedure to FA General Report to exclude reclassification entries.",
       "why": null,
       "objects": [
         "table/5600",
         "report/11011",
         "codeunit/5626",
-        "table/5612"
+        "report/11100"
       ]
     },
     {
       "area": "Security",
-      "what": "Adds permission set extensions for delivery reminders and changes the LOCAL and LOCAL READ sets and the payables journal sets.",
+      "what": "Changes the LOCAL and LOCAL READ permission sets and the payables journal permission sets, and adds delivery reminder extensions.",
       "why": null,
       "objects": [
         "permissionset/1001",
@@ -142,8 +142,8 @@
     },
     {
       "area": "Service",
-      "what": "Adds Swiss fields through table extensions on service lines, service invoice lines and service line archive. Also adds a service document management codeunit.",
-      "why": null,
+      "what": "Adds Swiss table extensions to service lines, posted service invoice lines and service line archive, plus service document and bank payment handling codeunits. These support QR-bills on service invoices.",
+      "why": "Learn says QR-bills can be generated on posted sales and service invoices.",
       "objects": [
         "codeunit/11524",
         "tableextension/11550",
@@ -162,7 +162,7 @@
     },
     {
       "area": "Microsoft",
-      "what": "Adds an ELM Interop Input page and a Certificate table.",
+      "what": "Adds an ELM interop input page and a Certificate table.",
       "why": null,
       "objects": [
         "page/35563",
@@ -171,7 +171,7 @@
     },
     {
       "area": "Utilities",
-      "what": "Adds a general management codeunit and archive procedures that archive sales documents together with the quote status.",
+      "what": "Adds general management codeunit and extends ArchiveManagement with procedures that archive sales documents together with quote status.",
       "why": null,
       "objects": [
         "codeunit/5063",
@@ -180,7 +180,7 @@
     },
     {
       "area": "EServices",
-      "what": "Changes the ReadSoft OCR master data sync codeunit for the Swiss layer.",
+      "what": "Changes the ReadSoft OCR master data sync codeunit.",
       "why": null,
       "objects": [
         "codeunit/884"
@@ -188,7 +188,7 @@
     },
     {
       "area": "IO",
-      "what": "Adds XML handling procedures to Read Data Exch. from File, used to split payments per invoice and read amount nodes in bank files.",
+      "what": "Extends Read Data Exch. from File with XML procedures to split payments per invoice, check invoices and read or write amount nodes.",
       "why": null,
       "objects": [
         "codeunit/1240"
@@ -196,7 +196,7 @@
     },
     {
       "area": "Manufacturing",
-      "what": "Adds a page extension for the Manufacturing Manager role center shared with the DACH layers.",
+      "what": "Adds a DACH page extension for the Manufacturing Manager role center.",
       "why": null,
       "objects": [
         "pageextension/11010"
@@ -205,25 +205,25 @@
   ],
   "learn_pages_used": 34,
   "prompt_version": 2,
-  "at": "2026-10-07T13:24:00.365Z",
+  "at": "2026-10-28T10:30:45.329Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.2420912
+    "cost_usd": 0.191096
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T23:25:29.286Z",
+    "at": "2026-10-28T10:36:41.398Z",
     "verdict": "fix",
     "issues": [
-      "Overview gives the QR-bill codeunits as '11512 to 11519', but codeunit 11515 is 'CH Report Management', not a QR-bill object. The QR-bill codeunits are 11502, 11512 to 11514 and 11516 to 11519.",
-      "'Many objects are shared with the German and Austrian layers' is not supported by the input. The input only shows DACH-named objects and German or Austrian objects included in the CH layer (VAT Statement Germany, VAT Statement AT, Update VAT-AT).",
-      "Overview links codeunit 26100 'Update VAT-CH' to the cipher setup, but the input does not show that link. It is now listed as a separate item.",
-      "The delivery reminder key point claims its own tables. The input lists its own pages, codeunits and page extensions for delivery reminders, but no delivery reminder tables."
+      "Key point 2 says customer ledger entries carry an LSV status. The input only adds an 'LSV No.' field to Cust. Ledger Entry. LSV Status appears in the Learn pages for the LSV journal and collection process, not on ledger entries.",
+      "The overview groups DTA with LSV+ as 'direct debit collection'. The input shows DTA objects (DTA Setup, DtaMgt, DTA EZAG Pictures) but does not say they are for direct debit, so DTA is now listed separately.",
+      "The overview says delivery reminders have 'own tables'. No delivery reminder tables appear in the input lists (only pages, codeunits, an enum, page extensions and the report selection usage), so the wording now names only the listed objects.",
+      "Small point: the claim that the code is 'shared with the DACH layers' is an inference from object names (DACH Report Selections, Update VAT-AT, VAT Statement Germany). It was kept but softened."
     ],
-    "input_hash": "dcaeb496fdc7c3be4ebc2a8e2eb10a3f25a769128d4f0a37cb9a1c8c0e036a2d",
-    "cost_usd": 0.3477428,
+    "input_hash": "090b8932c02e11054d4ff12fe99f83cfc576b789f3cf6fd4a6102ddc4c34671d",
+    "cost_usd": 0.3596108,
     "applied": [
       "overview",
       "key_points"

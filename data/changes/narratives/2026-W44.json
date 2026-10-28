@@ -1,0 +1,23 @@
+{
+  "week": "2026-W44",
+  "input_hash": "3b7f2f5bc4a9a9cc91e899396430658655e55021f97cdeeaee877c799524bee6",
+  "text": "Most of the week's 21 pull requests in microsoft/BCApps are behaviour-changing fixes, and none are marked as breaking. In finance, #13272 aligns the revaluation date when backdated payments are unapplied, so unrealized FX amounts stop shifting between periods. #12474 and #13216 change VAT posting in Gen. Jnl.-Post Line, #12979 fixes rounding in GST Distribution Reversal, and #13224 removes a Modify permission error on G/L Entry when updating registers. #13160 stops the parentheses format from altering decimal precision in Financial Reports, and #12518 fixes a page that could not open because of a FlowField. #11744 makes GetCurrencyCode on CODA Statement return an empty string instead of an error. Subscription Billing gets #13240, #12998, #12519 and #12430, covering renewal selection, discounts, partner filters and source currency on deferral entries. #13255 fixes a vendor remittance export that hung when sorted by Document No. Also changed: #12867 stops Description edits resetting Quantity on Dutch purchase lines in 29.x, and #13307 clears stale pricing notifications in Sales Order Agent. New behaviour arrives with #12539 (Expense Agent consumption V2 and a 50-expense trial), #13105 (MCP warnings for empty configurations) and #13052 (Shopify tax matching moves to GPT-5.6 Ceres). #13262 and #11222 improve performance, and #13333 fixes label translation collisions.",
+  "changes": 21,
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.028912,
+  "at": "2026-10-28T08:47:18.430Z",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-28T10:56:48.170Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: #12867 applies specifically to purchase invoice and credit memo subform lines; 'Dutch purchase lines' is a slight generalisation but accurate.",
+      "Minor: #13216 is specifically about the VAT adjustment register; grouping it under 'change VAT posting in Gen. Jnl.-Post Line' is acceptable."
+    ],
+    "input_hash": "3b7f2f5bc4a9a9cc91e899396430658655e55021f97cdeeaee877c799524bee6",
+    "cost_usd": 0.084512,
+    "applied": [],
+    "rejected_edits": []
+  }
+}

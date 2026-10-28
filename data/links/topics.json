@@ -5584,6 +5584,20 @@
       "at": "2026-10-07T13:33:00.664Z",
       "matches": []
     },
+    "change/bcapps/11222": {
+      "kind": "change",
+      "key": "change/bcapps/11222",
+      "hash": "17b955a2705c60896897011541a339261df1860ca898dfeaf8d5f76845acff4a",
+      "title": "#11222 Improve Low-Level Code Calculator performance",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:06.609Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-supply-planning",
+          "quote": "Low-Level Code Calculator performance improved by filtering out items without a Production BOM"
+        }
+      ]
+    },
     "change/bcapps/11238": {
       "kind": "change",
       "key": "change/bcapps/11238",
@@ -7035,6 +7049,20 @@
         }
       ]
     },
+    "change/bcapps/11744": {
+      "kind": "change",
+      "key": "change/bcapps/11744",
+      "hash": "2049bd257ce0bad2d3c8f3134fae32b1a84242494c942df3f5cd2af07129d40f",
+      "title": "#11744 Fixes #11605 - GetCurrencyCode Error",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:15.237Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/belgium/vat",
+          "quote": "GetCurrencyCode no longer raises an error if bank account lookup fails"
+        }
+      ]
+    },
     "change/bcapps/11745": {
       "kind": "change",
       "key": "change/bcapps/11745",
@@ -7334,6 +7362,24 @@
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/running-things-in-the-background",
           "quote": "Scheduler proactively sends admins remediation steps"
+        }
+      ]
+    },
+    "change/bcapps/11894": {
+      "kind": "change",
+      "key": "change/bcapps/11894",
+      "hash": "dfa8826353d384135272c263f1ec586abc643f6d3aae8f65a9887ded5ee9b44a",
+      "title": "#11894 Fix mixed-currency totals in Close Income Statement",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:15.237Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/closing-years-and-periods",
+          "quote": "Fixed the Close Income Statement report to correctly process mixed-currency GL entries"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/working-with-currencies",
+          "quote": "Fixed grouped calculations to process each filtered GL entry group"
         }
       ]
     },
@@ -8908,6 +8954,20 @@
         }
       ]
     },
+    "change/bcapps/12430": {
+      "kind": "change",
+      "key": "change/bcapps/12430",
+      "hash": "17ef5ce1662f6d2bf2bf9f5d135f14e70c15c311bf82a55e13fbb6a973ad4ffd",
+      "title": "#12430 [main] Source Currency Code and Source Currency Amount not getting updated on Contract Deferral release G/L entries.",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:13.653Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/sales/subscription-billing/contracts",
+          "quote": "Contract deferral release G/L entries now include source currency code and amount"
+        }
+      ]
+    },
     "change/bcapps/12432": {
       "kind": "change",
       "key": "change/bcapps/12432",
@@ -9075,6 +9135,20 @@
         }
       ]
     },
+    "change/bcapps/12474": {
+      "kind": "change",
+      "key": "change/bcapps/12474",
+      "hash": "17ef34f72a0be1973fc259d3d18d8f4c467e9627182bee5f3b14d6fd68e6685a",
+      "title": "#12474 [Master]-Non-Deductible Reverse-Charge VAT Correction Is Posted to Purchase VAT Account Instead of Payment Discount Account.",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:15.237Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
+          "quote": "When posting non-deductible reverse-charge VAT corrections with payment discounts"
+        }
+      ]
+    },
     "change/bcapps/12507": {
       "kind": "change",
       "key": "change/bcapps/12507",
@@ -9117,6 +9191,34 @@
         }
       ]
     },
+    "change/bcapps/12518": {
+      "kind": "change",
+      "key": "change/bcapps/12518",
+      "hash": "a0916741fd9460eff8ac710d01c0e84657e032cf0137d7eeee77d955901b5714",
+      "title": "#12518 [29.X]Page cannot open because of FlowField 'Last Run By User'- #12304",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:15.237Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/financial-analytics/built-in-finance-reports",
+          "quote": "Fixed a page opening error caused by an invalid FlowField definition in the Financial Report table"
+        }
+      ]
+    },
+    "change/bcapps/12519": {
+      "kind": "change",
+      "key": "change/bcapps/12519",
+      "hash": "ed614425c32ea8b94170fa2a1efec0aa380625a889efa71177f78ea60ade7ec8",
+      "title": "#12519 [29.X]- Create Documents on Recurring Billing ignores the Partner filter and fails when a vendor billing proposal exists- #11637",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:13.653Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/sales/subscription-billing",
+          "quote": "subscription billing document creation process now respects the partner filter"
+        }
+      ]
+    },
     "change/bcapps/12532": {
       "kind": "change",
       "key": "change/bcapps/12532",
@@ -9146,6 +9248,24 @@
         {
           "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-sales",
           "quote": "Removes CLEAN27 code for the Create Item from Item No. fields in tables 311 and 312"
+        }
+      ]
+    },
+    "change/bcapps/12539": {
+      "kind": "change",
+      "key": "change/bcapps/12539",
+      "hash": "85f5b783fff9dfce2ea419f4b96903a36e82d91dd66076756b2872f86b2d7874",
+      "title": "#12539 Add Expense Agent consumption V2 and trial support",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:13.468Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Add Expense Agent consumption V2 and trial support"
+        },
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Expense Agent now supports consumption V2 API, a 50-expense trial quota"
         }
       ]
     },
@@ -9768,6 +9888,20 @@
         }
       ]
     },
+    "change/bcapps/12867": {
+      "kind": "change",
+      "key": "change/bcapps/12867",
+      "hash": "322aeb781c9162e2f408aac2d4ba565b6eab7c169740a75f1fb28c51705f85a0",
+      "title": "#12867 [29.X]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:14.572Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/purchasing",
+          "quote": "modifying the description field on purchase invoice and credit memo lines"
+        }
+      ]
+    },
     "change/bcapps/12868": {
       "kind": "change",
       "key": "change/bcapps/12868",
@@ -9906,6 +10040,20 @@
         }
       ]
     },
+    "change/bcapps/12979": {
+      "kind": "change",
+      "key": "change/bcapps/12979",
+      "hash": "941df7de7ffc3ff47eee2e8cf7ea0cd6f8c78aff3256026667ff6acf2339ace7",
+      "title": "#12979 [Main] Consistent Error Posting GST Distribution Reversal",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:15.237Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/new-zealand/core-finance",
+          "quote": "GST Distribution Reversal posting now correctly handles rounding differences"
+        }
+      ]
+    },
     "change/bcapps/12982": {
       "kind": "change",
       "key": "change/bcapps/12982",
@@ -9942,6 +10090,20 @@
         }
       ]
     },
+    "change/bcapps/12998": {
+      "kind": "change",
+      "key": "change/bcapps/12998",
+      "hash": "f94a5ebafe7a44061148c5fc4d5a284bf9808a9e78ce7a5b2672164a0eaa659a",
+      "title": "#12998 [main] Discount is not taken into account on Renewal Offer using Sales Quote for Subscription Billing report layout.",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:13.653Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/sales/subscription-billing/contracts",
+          "quote": "Subscription Billing renewal quote report now correctly applies discounts"
+        }
+      ]
+    },
     "change/bcapps/13005": {
       "kind": "change",
       "key": "change/bcapps/13005",
@@ -9950,6 +10112,20 @@
       "source": "bcapps-prs",
       "at": "2026-10-21T09:15:35.693Z",
       "matches": []
+    },
+    "change/bcapps/13052": {
+      "kind": "change",
+      "key": "change/bcapps/13052",
+      "hash": "13b3c11afbd062076cece4378e050c26f4e31f321f9699ffd737174675dfa498",
+      "title": "#13052 [Shopify] Upgrade tax matching to GPT-5.6 Ceres",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:06.752Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/shopify-tax-matching-preview",
+          "quote": "Shopify tax matching agent upgrades from GPT-4.1 to GPT-5.6 Ceres"
+        }
+      ]
     },
     "change/bcapps/13054": {
       "kind": "change",
@@ -10033,6 +10209,15 @@
         }
       ]
     },
+    "change/bcapps/13105": {
+      "kind": "change",
+      "key": "change/bcapps/13105",
+      "hash": "d1c4a17cfa2edb12b3c9f6d1d61e40f209b085553d3b6ce8aa727154af4e9853",
+      "title": "#13105 [MCP] Warn when configurations have no tools",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:07.106Z",
+      "matches": []
+    },
     "change/bcapps/13107": {
       "kind": "change",
       "key": "change/bcapps/13107",
@@ -10044,6 +10229,20 @@
         {
           "topic": "topic/business-central/business-functionality/local-functionality/czech-republic/core-finance",
           "quote": "CZ Registration No. verification must do integrity and schema check"
+        }
+      ]
+    },
+    "change/bcapps/13160": {
+      "kind": "change",
+      "key": "change/bcapps/13160",
+      "hash": "e5a71999c413915ac82f34d2208e5e047400d961723829bf184933dbb73bbe39",
+      "title": "#13160 [Main][all-e]Changing Negative Amount Format to Parentheses modifies displayed decimal precision despite unchanged rounding settings in the Financial Reports",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:15.237Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/financial-analytics/built-in-finance-reports",
+          "quote": "Negative amount formatting was using a hardcoded two-decimal pattern instead of the configured precision"
         }
       ]
     },
@@ -10089,6 +10288,113 @@
         {
           "topic": "topic/business-central/business-functionality/service-management/deliver-service",
           "quote": "Service orders are generated. Test coverage was expanded to verify the dimension population behavior"
+        }
+      ]
+    },
+    "change/bcapps/13216": {
+      "kind": "change",
+      "key": "change/bcapps/13216",
+      "hash": "e97b8d9340ab10633b33f66356e79fa7ad950e2e774d2d8983576d1050454fb9",
+      "title": "#13216 Fix VAT adjustment register",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:12.525Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
+          "quote": "Fix VAT adjustment register. VAT adjustment register calculation corrected"
+        }
+      ]
+    },
+    "change/bcapps/13224": {
+      "kind": "change",
+      "key": "change/bcapps/13224",
+      "hash": "2e8cd3d2719803ea2de000fb7070661e24493bc55cc1455215fd7c693de4cd1d",
+      "title": "#13224 [29.X]-\"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify\" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:12.525Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
+          "quote": "Fixed permission error preventing modification of G/L Register records"
+        }
+      ]
+    },
+    "change/bcapps/13240": {
+      "kind": "change",
+      "key": "change/bcapps/13240",
+      "hash": "ad4c723441ba0e779c33d183ae602d1725aeb13040c44aee8bf1ed59875a9a46",
+      "title": "#13240 [Main]-Test disabled after BCApps uptake: Contract Renewal Test.TestIfContractRenewalSelectionIsUpdateOnAfterValidateCalcBasePercentage fails",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:13.653Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/sales/subscription-billing/contracts",
+          "quote": "Contract Renewal Selection page was fixed to restore proper functionality"
+        }
+      ]
+    },
+    "change/bcapps/13255": {
+      "kind": "change",
+      "key": "change/bcapps/13255",
+      "hash": "a5b282ff7bf574c9962d8c813b422da932dc3702713d9ff00d89d4c1e05058bf",
+      "title": "#13255 [Main]-Exporting vendor remittance gets stuck when a payment jour nal is sorted by Document No.",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:12.525Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-payables/apply-payments-automatically-and-reconci",
+          "quote": "Fixed vendor remittance export hanging when a payment journal is sorted"
+        }
+      ]
+    },
+    "change/bcapps/13262": {
+      "kind": "change",
+      "key": "change/bcapps/13262",
+      "hash": "7ae124bc076b566ce4e5e66c6a4478e1738a5963f0ab3056e8faef260190ca2c",
+      "title": "#13262 [Financial Reports] Trial Balance by Period (Excel) should use a query-based approach rather than loop and CalcFields",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:12.525Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-datasets",
+          "quote": "Trial Balance by Period (Excel) report now uses a query-based approach"
+        }
+      ]
+    },
+    "change/bcapps/13272": {
+      "kind": "change",
+      "key": "change/bcapps/13272",
+      "hash": "02f6016edf21577aa65f17894a0c185cfb49c43a83695cf81401644554048e07",
+      "title": "#13272 Keep historical FX balances when unapplying payments",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:12.525Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/working-with-currencies",
+          "quote": "Keep historical FX balances when unapplying payments. The exchange rate revaluation"
+        }
+      ]
+    },
+    "change/bcapps/13307": {
+      "kind": "change",
+      "key": "change/bcapps/13307",
+      "hash": "3f7e1d77a119a25e318b271dc5976cfce3bb45f80a7d95a2557227c47d013211",
+      "title": "#13307 [SOA] Clear stale pricing notifications on item availability refresh",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:13.468Z",
+      "matches": []
+    },
+    "change/bcapps/13333": {
+      "kind": "change",
+      "key": "change/bcapps/13333",
+      "hash": "86127f1a0c377b2ef7506c1f6be6c37847b8ae80724389116065433117b84a95",
+      "title": "#13333 Fix configuration package import label translation collisions",
+      "source": "bcapps-prs",
+      "at": "2026-10-28T10:50:07.106Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/translation",
+          "quote": "Configuration package import methods in codeunit 8614"
         }
       ]
     },
@@ -20413,6 +20719,28 @@
         ]
       }
     },
+    "post/demiliani-com/17552": {
+      "kind": "post",
+      "key": "post/demiliani-com/17552",
+      "hash": "ee66fe2f5d13bf205c67014ac6dd5e1e483639f563519c9ec7dac9f3d7ff1379",
+      "title": "Dynamics 365 Business Central: matching Production database configuration for Sandboxes.",
+      "source": "demiliani-com",
+      "at": "2026-10-28T10:50:07.158Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/development-environment/work-in-sandboxes",
+          "quote": "sandbox environment's database configuration to production-level performance for 72 hours"
+        },
+        {
+          "topic": "topic/dev-itpro/administration/admin-center",
+          "quote": "available via Admin Center API and supports all paid license types"
+        },
+        {
+          "topic": "topic/dev-itpro/performance",
+          "quote": "enabling realistic testing and performance validation without deploying to production"
+        }
+      ]
+    },
     "post/duiliotacconi-com/1425": {
       "kind": "post",
       "key": "post/duiliotacconi-com/1425",
@@ -24467,18 +24795,22 @@
     "post/olofsimren-com/3779": {
       "kind": "post",
       "key": "post/olofsimren-com/3779",
-      "hash": "8a49a205f635d7f166ab3f9ede6b003074eb6f86d3db764493a374b8f126f34a",
+      "hash": "82d6fed30084b090fc288879a66a252a3100f7a7b1e4b9aaa8ad7a22b4bc6c42",
       "title": "Approval Workflows in Planning Worksheet",
       "source": "olofsimren-com",
-      "at": "2026-10-08T06:25:32.013Z",
+      "at": "2026-10-28T10:50:08.650Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/general-business-functionality/workflows/use-approval-workflows",
-          "quote": "Business Central version 28 adds approval workflow support to planning, requisition, and subcontracting"
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-approval-workflows-based-on-templ",
+          "quote": "Approval workflows now lock planning worksheet batches and prevent line modifications"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning",
+          "quote": "approval workflow support to planning, requisition, and subcontracting worksheets"
         },
         {
           "topic": "topic/business-central/business-functionality/planning",
-          "quote": "approval workflow support to planning, requisition, and subcontracting worksheets at the batch level"
+          "quote": "Approval Workflows in Planning Worksheet. Business Central version 28"
         }
       ]
     },
@@ -24508,18 +24840,22 @@
     "post/olofsimren-com/3865": {
       "kind": "post",
       "key": "post/olofsimren-com/3865",
-      "hash": "f008fe9eb81c022ce219d474e0d51411e632194f9fb446a87da99d176748b6b4",
+      "hash": "330cc6674ae36c8bc0ae13c27213e2ac80f0e13a49eaf8d0a9221cc8b6fd875b",
       "title": "Business Central Case Study: How World Emblem Automated High-Volume Manufacturing Processes",
       "source": "olofsimren-com",
-      "at": "2026-10-24T00:07:16.263Z",
+      "at": "2026-10-28T10:50:15.592Z",
       "matches": [
         {
-          "topic": "topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-automate",
-          "quote": "automation and configuration-driven customizations to scale operations"
+          "topic": "topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica",
+          "quote": "Automated warehouse routing and order decisions that previously required manual tribal knowledge"
         },
         {
-          "topic": "topic/dev-itpro/integration",
-          "quote": "Migrated freight calculation logic from external systems into Business Central"
+          "topic": "topic/business-central/development-and-administration/customize-business-central",
+          "quote": "Built configuration tables for business rules instead of hard-coded customizations"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing/manufacturing-analytics",
+          "quote": "high-volume embroidered garment manufacturer, used Business Central automation"
         }
       ],
       "second": {
@@ -24557,6 +24893,24 @@
           }
         ]
       }
+    },
+    "post/olofsimren-com/3928": {
+      "kind": "post",
+      "key": "post/olofsimren-com/3928",
+      "hash": "6ac948d6420916816c3a910a72924940cb38480cce87e98a6035a48729241f57",
+      "title": "Business Central Case Study: Engineer-to-Order Manufacturing at Zook",
+      "source": "olofsimren-com",
+      "at": "2026-10-28T10:50:08.650Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing",
+          "quote": "engineer-to-order manufacturing with custom extensions. The case study shows"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing",
+          "quote": "Custom product configurator determines production methods, inspection rules, and documentation"
+        }
+      ]
     },
     "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1316829649948552218": {
       "kind": "post",
@@ -28787,6 +29141,64 @@
         }
       ]
     },
+    "post/thinkaboutit-be/8291": {
+      "kind": "post",
+      "key": "post/thinkaboutit-be/8291",
+      "hash": "1316b1e71d5faae1e3c3f5ad6189e60565505eb9f34b6574a08cba89c11069d4",
+      "title": "Business Central 29: What’s New in the Word Add-in?",
+      "source": "thinkaboutit-be",
+      "at": "2026-10-28T10:50:07.356Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
+          "quote": "Word Add-in for document reporting, including a new Company Information dataset, an improved Table Builder"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports",
+          "quote": "reusable design components provide predefined formatting for addresses, field groups, amounts, signatures"
+        }
+      ]
+    },
+    "post/thinkaboutit-be/8313": {
+      "kind": "post",
+      "key": "post/thinkaboutit-be/8313",
+      "hash": "e54345293faf48ea20a12b9551037830d82ff914b6b1f28e28a71c4a27bb6ca6",
+      "title": "Business Central 29: Manage Per-Tenant Extensions from the Admin Center",
+      "source": "thinkaboutit-be",
+      "at": "2026-10-28T10:50:07.158Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/administration/automation-api/extension",
+          "quote": "Per-Tenant Extension PTE management to the Admin Center, allowing administrators to upload, install, update"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing",
+          "quote": "PTEs can now be deployed through the Admin Center with scheduling options"
+        },
+        {
+          "topic": "topic/dev-itpro/administration/admin-center/admin-center-api",
+          "quote": "Admin Center APIs expose PTE deployment operations, enabling automation"
+        }
+      ]
+    },
+    "post/thinkaboutit-be/8331": {
+      "kind": "post",
+      "key": "post/thinkaboutit-be/8331",
+      "hash": "2cdea9405d14b152cd9bf74d370d98166eb693c7805a8a0f366d7b701a1ac41f",
+      "title": "Business Central 29: What’s New in BC-Bench?",
+      "source": "thinkaboutit-be",
+      "at": "2026-10-28T10:50:07.106Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+          "quote": "AL MCP (Model Context Protocol) improves bug-fixing performance"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "evaluating AI coding agents on Business Central AL development tasks"
+        }
+      ]
+    },
     "post/tine-staric-net/https://tine.staric.net/blog/2025/copilot-fancy-autocomplete-vol2/": {
       "kind": "post",
       "key": "post/tine-staric-net/https://tine.staric.net/blog/2025/copilot-fancy-autocomplete-vol2/",
@@ -31838,11 +32250,16 @@
     "post/yzhums-com/67705": {
       "kind": "post",
       "key": "post/yzhums-com/67705",
-      "hash": "14baff0f2d24ce4e8a6f4ddb885ced379e2b545e2302d7bc467ad0db38cdc544",
+      "hash": "9e2457a499a35d29509b8e09e9f1b8796c3d173e938d29bf4c6bb787d4df65cb",
       "title": "Business Central 2025 wave 2 (BC27): Record and edit easier with enhanced page scripting tool",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:14:53.567Z",
-      "matches": []
+      "at": "2026-10-28T10:50:07.106Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/development-environment/testing",
+          "quote": "page scripting tool, including improved script recording and editing"
+        }
+      ]
     },
     "post/yzhums-com/67740": {
       "kind": "post",
@@ -36305,6 +36722,38 @@
         ]
       }
     },
+    "post/yzhums-com/76918": {
+      "kind": "post",
+      "key": "post/yzhums-com/76918",
+      "hash": "ef908c38a621d631fc2a75cddc49f186e420cbe4e482262c0c0985693c609c10",
+      "title": "Dynamics 365 Business Central: The AL Table Proxy Generator is distributed in the Microsoft.Dynamics.BusinessCentral.Development.Tools.Altpgen NuGet package (altpgen.exe missing from AL Language extension)",
+      "source": "yzhums-com",
+      "at": "2026-10-28T10:50:06.752Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
+          "quote": "generates proxy tables for integrating Microsoft Dataverse tables into Business Central"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-apis",
+          "quote": "AL Table Proxy Generator tool generates proxy tables for integrating"
+        }
+      ]
+    },
+    "post/yzhums-com/76990": {
+      "kind": "post",
+      "key": "post/yzhums-com/76990",
+      "hash": "37fae2c50185ce1257aa7aa14929303bce9427ed0a617c13f6337d40f81db59a",
+      "title": "Dynamics 365 Business Central: An error occurred when communicating with Dataverse (User does not have required privileges to access the org when it is in Admin Only mode)",
+      "source": "yzhums-com",
+      "at": "2026-10-28T10:50:06.752Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
+          "quote": "integrating Business Central with Dataverse, users may encounter an error"
+        }
+      ]
+    },
     "video/_1LhwG2ZgFw": {
       "kind": "video",
       "key": "video/_1LhwG2ZgFw",
@@ -38327,6 +38776,20 @@
           }
         ]
       }
+    },
+    "video/a3j6JjyWDv0": {
+      "kind": "video",
+      "key": "video/a3j6JjyWDv0",
+      "hash": "7081fdbad1cef3a0e5f99397a74b5378cab63c69d265db365ebc052847a88ddf",
+      "title": "20261026 - The Rollback That Wasn’t Transaction & Error Handling",
+      "source": "yt-areopa",
+      "at": "2026-10-28T10:50:07.106Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/error-handling",
+          "quote": "transaction handling; error handling; rollback behavior; commit semantics"
+        }
+      ]
     },
     "video/a4DaacZvOMM": {
       "kind": "video",

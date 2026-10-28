@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:02.947Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -229,6 +229,7 @@ links:
     - post/thinkaboutit-be/7750
     - post/thinkaboutit-be/8096
     - post/thinkaboutit-be/8272
+    - post/thinkaboutit-be/8291
     - post/yzhums-com/67838
     - post/yzhums-com/67892
     - post/yzhums-com/72933
@@ -254,7 +255,7 @@ coverage:
   learn: 22
   code: 5
   video: 5
-  blog: 26
+  blog: 27
   guideline: 0
 bc_forms:
   - 21
@@ -346,6 +347,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [How Do I: Use the Word Add-in for Business Central Report Layouts](../../../../../posts/thinkaboutit-be/7750.md) (community post): "The Dynamics 365 Business Central Word add-in is a free Microsoft Word extension that simplifies designing Word layouts"
 - [Quick Tip: It’s Time to Move to the Word Add-in Data Picker](../../../../../posts/thinkaboutit-be/8096.md) (community post): "Word add-in data picker provides a cleaner alternative by inserting mapped fields directly"
 - [Business Central 29: More Control Over Report Layouts and New Report Inbox APIs](../../../../../posts/thinkaboutit-be/8272.md) (community post): "Layout statuses (Draft, Pending Approval, Approved, Retired) now apply"
+- [Business Central 29: What’s New in the Word Add-in?](../../../../../posts/thinkaboutit-be/8291.md) (community post): "Word Add-in for document reporting, including a new Company Information dataset, an improved Table Builder"
 - [Business Central 2025 wave 2 (BC27): New layout information fields in the aggregated metadata sheet for the Excel layout template (Object caption, Local date, and UTC timezone offset)](../../../../../posts/yzhums-com/67838.md) (community post): "three layout information fields to the hidden Aggregated Metadata sheet of Excel layout templates"
 - [Business Central 2025 wave 2 (BC27): Add data fields to report layouts using Word add-in (new data picker)](../../../../../posts/yzhums-com/67892.md) (community post): "new data picker task pane in the Word add-in that simplifies adding data fields"
 - [Business Central 2026 release wave 1 (BC28.1): Control the lifecycle of report layouts (Layout Status)](../../../../../posts/yzhums-com/72933.md) (community post): "control the lifecycle of report layouts by assigning statuses"

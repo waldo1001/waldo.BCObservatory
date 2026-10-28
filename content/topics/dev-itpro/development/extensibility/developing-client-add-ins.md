@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/extensibility/developing-client-add-ins
 type: topic
 title: Developing client add-ins
-summary: Developing client add-ins covers guidance for building control add-ins in Business Central. It answers questions about performance practices, such as AL trigger invocation, callbacks and payload size, and about visual styling, such as colors, typography and CSS.
+summary: Developing client add-ins covers best practices for building control add-ins in Business Central. It answers questions about performance (AL trigger calls, payload size, throttling) and about styling (color palette, fonts, CSS, accessibility).
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T05:22:58.998Z"
+  at: "2026-10-28T11:04:11.643Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9cb4221d3b5dfc505fb6a851ea88ab386bd3c810ce886ba6bf7d60bc9cd3d83f
+  input_hash: 888eec5943c54f44ab9ec7bc8291ed72768ccef330e2f0dd83204b63b628c331
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-bestpractices
@@ -27,8 +27,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-style
-    title: Control Add-in Style Guide
-    date: "2021-04-01"
+    title: Control Add-in Styling for Business Central
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
@@ -70,32 +70,29 @@ narrative: generated
 
 # Developing client add-ins
 
-> Developing client add-ins covers guidance for building control add-ins in Business Central. It answers questions about performance practices, such as AL trigger invocation, callbacks and payload size, and about visual styling, such as colors, typography and CSS.
+> Developing client add-ins covers best practices for building control add-ins in Business Central. It answers questions about performance (AL trigger calls, payload size, throttling) and about styling (color palette, fonts, CSS, accessibility).
 
 Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Developing client add-ins · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section has two pages for developers who build control add-ins that run in the Business Central client. One page covers how an add-in should behave at runtime. The other covers how it should look.
+This section is for developers who build control add-ins for the Business Central client. It has two pages, and neither depends on the other. One covers how an add-in should behave at run time, and the other covers how it should look and respond to users.
 
-The performance page explains how to call AL triggers and handle callbacks, and how to keep payloads small. Poor performance can lead to reduced functionality warnings and request throttling. The style guide gives the CSS color palette, typography, font families, chart colors and design principles. Following it helps an add-in blend into the client with consistent theming and accessibility.
-
-Start with the performance page to avoid throttling and warnings, then use the style guide while you design the add-in's interface. The pages do not depend on each other, so read them in either order.
+Start with the performance page if your add-in calls AL triggers often or sends a lot of data. Poor performance can cause reduced functionality warnings and request throttling. Then read the styling page to make the add-in match the client and stay usable for everyone, including keyboard users.
 
 ## Key points
 
 - Invoke AL triggers only after previous calls have completed.
-- Avoid excessive payloads when passing data between the add-in and AL.
-- Poor add-in performance can trigger reduced functionality warnings and request throttling.
-- The performance page covers callback handling, payload optimization, performance monitoring and error handling.
-- The style guide defines the color palette, typography and font families for add-ins.
-- The style guide includes chart colors and CSS styling guidance.
-- Design principles in the style guide aim for consistent theming and accessibility within Business Central.
+- Avoid excessive payloads between the add-in and AL.
+- Poor add-in performance can lead to reduced functionality warnings and request throttling.
+- The performance page covers callback handling, performance monitoring and error handling.
+- Style add-ins with the Business Central color palette, font families and CSS so they fit the client.
+- Test color contrast and keyboard interaction to keep add-ins accessible to all users.
 
 ## Learn pages
 
 - [Control add-in performance best practices](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-bestpractices): Learn how to provide the best possible experience and performance for control add-ins in Business Central.
-- [Control Add-in Style Guide](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-style): Learn about the style guide for control add-ins in Dynamics 365 Finance.
+- [Control Add-in Styling for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-style): Style control add-ins for Business Central with selected colors, fonts, and CSS examples, and learn how to check readability and keyboard interaction.
 
 ## Videos and posts
 

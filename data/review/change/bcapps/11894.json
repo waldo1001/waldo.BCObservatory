@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/11894",
+  "input_hash": "c1812a8fcebf4cef633c9ed155d7d7a682deccad7a902ddfeb606dd6406dade1",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-28T10:56:09.594Z",
+  "issues": [
+    "The page matches the description: grouped entries are now processed once, regression tests were added, and the report fix was copied to ES and IT.",
+    "It leaves out that the tests were also copied to CH and IT. That is a small gap, not an error."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017257,
+    "changes_in_call": 4
+  }
+}

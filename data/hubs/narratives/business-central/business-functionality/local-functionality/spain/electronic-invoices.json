@@ -1,36 +1,36 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/spain/electronic-invoices",
-  "input_hash": "12ee462006c4a452e925e3e55c3b28e1ebc2fe9906ad44e4a3471f1fded3862f",
-  "summary": "Spanish electronic invoicing and Cartera functionality in Business Central: VERI*FACTU reporting to AEAT (embedded mode or B2Brouter), SII invoice and credit memo types, and the Cartera modules for receivables and payables bills. It answers setup and scope questions for Spain compliance.",
-  "overview": "This section covers Spain-specific e-invoicing and bill handling. Two pages deal with VERI*FACTU, Spain's real-time invoice reporting to the Spanish Tax Agency (AEAT): one for the embedded mode, which uses digital signing, hash chaining and QR codes through the e-document framework, and one for integration with an external service through the B2Brouter API. VERI*FACTU is presented as an alternative to SII.\n\nA separate page lists the SII invoice and credit memo types for sales and purchase documents, including which types Business Central supports and how they appear in the XML.\n\nThe Cartera pages describe handling of bills of exchange and promissory notes. An overview page introduces the module, with separate pages for Receivables Cartera (bill groups, collections, discounts, factoring) and Payments Cartera (payables documents, payment orders). Start with the VERI*FACTU page that matches your chosen approach, or the Cartera overview if you work with bills.",
+  "input_hash": "0a32ff7dd215a9a1714339fefbe65e348aaae144ff0cb39f70f3be3809b9d623",
+  "summary": "Electronic invoices for Spain in Business Central: VERI*FACTU setup (embedded mode and external B2BRouter integration), SII invoice types, and the Cartera modules for receivables and payables. It answers questions about Spanish tax reporting and bill or payment document handling.",
+  "overview": "This section collects Spain-specific pages on electronic invoicing and on Cartera document management. The invoicing pages cover VERI*FACTU, the Spanish regulatory framework for verifiable electronic invoicing aimed at combating tax fraud, and the SII invoice and credit memo types used on sales and purchase documents.\n\nThere are two ways to set up VERI*FACTU. The embedded mode reports invoice records to the Spanish Tax Agency (AEAT) through the E-Documents framework. The external service option uses the B2BRouter API connector. The SII types page tells you which invoice and credit memo types Business Central supports and how they appear in XML.\n\nThe Cartera pages describe handling of customer and vendor payments with bills of exchange and promissory notes. Start with the general Cartera page, then go to the Receivables page for sales-side bills and bill groups, or the Payments page for payment orders to vendors.",
   "key_points": [
-    "VERI*FACTU is Spain's e-invoicing standard for real-time reporting of invoices to AEAT.",
-    "Embedded VERI*FACTU mode uses digital signatures, hash chaining, QR codes and the e-document framework.",
-    "The external option connects through the B2Brouter API and is described as an alternative to SII.",
-    "The SII invoice types page states which invoice and credit memo types are supported, with XML details.",
-    "Cartera manages bills of exchange and promissory notes for customers and vendors, with multi-currency support.",
-    "Receivables Cartera covers bill groups, collections, discounting, factoring, finance charges and interest.",
-    "Payments Cartera builds payables documents from purchase invoices grouped by bank, due date, value or currency, and supports draft payment orders and payment confirmation."
+    "Embedded VERI*FACTU reports invoice records to AEAT through the E-Documents framework; Business Central generates chained hashes and QR codes and authenticates with a certificate.",
+    "VERI*FACTU can also be set up through external service integration using the B2BRouter API connector, with API key configuration and a staging mode.",
+    "The SII invoice types page lists supported invoice types (including simplified and corrected invoices) and credit memo types, with XML implementation details.",
+    "Cartera manages customer and vendor payments using bills of exchange and promissory notes, with multi-currency tracking and credit limit management.",
+    "Receivables Cartera handles bills from sales invoices, bill groups, discount bill groups, factoring (risked and unrisked), finance charges, and manual bill creation via the Cartera Journal.",
+    "Payments Cartera handles payables from purchase invoices, grouping payment orders by bank, due date, value, and currency, and supports payment confirmation services.",
+    "Several pages are marked [ES] and apply to the Spanish version of Business Central."
   ],
   "members_used": 6,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:04:00.484Z",
+  "at": "2026-10-28T10:58:10.917Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.013227000000000001
+    "cost_usd": 0.014381000000000001
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:22:51.771Z",
+    "at": "2026-10-28T11:02:51.177Z",
     "verdict": "approve",
     "issues": [
-      "Small point: the Cartera Module page also covers handling by document type, cost and credit limits. The narrative leaves this out, but the omission doesn't make anything it says wrong.",
-      "Small point: the claim that VERI*FACTU is an alternative to SII comes only from the external service (B2Brouter) page. The overview applies it to VERI*FACTU in general. That is a reasonable reading, but no source says it directly about embedded mode."
+      "Minor omission: the B2BRouter page also lists real-time invoice reporting and the SII system, which the narrative leaves out.",
+      "Minor omission: the Receivables page also covers sending bills for collection and discount, which the narrative leaves out."
     ],
-    "input_hash": "12ee462006c4a452e925e3e55c3b28e1ebc2fe9906ad44e4a3471f1fded3862f",
-    "cost_usd": 0.0323152
+    "input_hash": "0a32ff7dd215a9a1714339fefbe65e348aaae144ff0cb39f70f3be3809b9d623",
+    "cost_usd": 0.043155200000000005
   }
 }

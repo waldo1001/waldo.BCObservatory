@@ -2,33 +2,33 @@
 id: topic/business-central/business-functionality/local-functionality/netherlands
 type: topic
 title: Netherlands
-summary: "Netherlands local functionality in Business Central (NL version): VAT and ICP declarations via Digipoort, audit files, telebanking, payment and collection proposals, SEPA payments, G/L entry handling, purchase amount checks, CMR notes and Dutch post codes. It answers setup and how-to questions for Dutch-specific features."
+summary: Netherlands local functionality in Business Central covers Dutch VAT and ICP declarations, the XAF audit file, telebanking and SEPA payments, G/L entry handling, purchase document totals, CMR notes and Dutch post codes. It answers setup, workflow and compliance questions for the Dutch localization.
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:16:24.825Z"
+  at: "2026-10-28T11:01:23.629Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 1a0f7658bbc0fcc028f41349e18fa6f7c047927e330b2f8da5392b90258b2c33
+  input_hash: ba02eeb5022cfb1cdc4579e30e27a90f2ddb98d7142ebc5651fecf9f484e208b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-activate-sepa-payments
-    title: Activate SEPA payments in the Dutch version
-    date: "2025-03-17"
+    title: Activate SEPA Payments in the Dutch Version
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries
-    title: Apply and Unapply General Ledger Entries [NL]
-    date: "2025-03-14"
+    title: Apply and Unapply General Ledger Entries in the Netherlands
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -41,176 +41,176 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/cmr-notes
-    title: CMR Notes [NL]
-    date: "2025-03-14"
+    title: CMR Notes in the Dutch Version [NL]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority
-    title: Create an Audit File for Tax Authority [NL]
-    date: "2025-03-17"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/docket-reports
-    title: Docket Reports [NL]
-    date: "2025-03-14"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/dutch-electronic-banking
-    title: Dutch Electronic Banking
-    date: "2025-03-14"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/dutch-post-codes
-    title: Dutch Post Codes
-    date: "2025-03-14"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos
-    title: Edit Doc Amounts Purch Invoices Credit Memos
-    date: "2025-03-17"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations
-    title: Electronic VAT and ICP Declarations [NL]
-    date: "2026-05-08"
+    title: Create an Audit File for the Dutch Tax Authority
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-and-export-payment-history
-    title: How to Create and Export Payment History [NL]
-    date: "2025-03-17"
+    title: Create and Export Payment History in the Dutch Version [NL]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-proposals
-    title: How to Create Proposals
-    date: "2025-03-17"
+    title: Create Dutch Telebanking Payment Proposals
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/docket-reports
+    title: Docket Reports for Dutch Telebanking
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/dutch-electronic-banking
+    title: Dutch Electronic Banking in Business Central
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-
+    title: Dutch Payment Scenario 1 - Domestic Payments (LCY to LCY)
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-
+    title: Dutch Payment Scenario 2 - Foreign Payments (FCY to FCY)
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-
+    title: Dutch Payment Scenario 3 - Foreign Payments (LCY to FCY)
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/dutch-post-codes
+    title: Dutch Post Codes in Business Central
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/telebanking
+    title: Dutch Telebanking in Business Central
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenarios
+    title: Dutch Telebanking Payment Scenarios
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos
+    title: Edit Dutch Purchase Invoice and Credit Memo Document Amounts
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals
-    title: How to Enter and Post Cash and Bank or Giro Journals
-    date: "2025-04-24"
+    title: Enter and Post Cash and Bank/Giro Journals
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements
-    title: How to import and reconcile bank statements
-    date: "2025-03-17"
+    title: Import and Reconcile Bank Statements
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-post-code-updates
-    title: How to import post code updates [NL]
-    date: "2025-03-18"
+    title: Import Post Code Updates in the Dutch Version [NL]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-post-codes
-    title: How to Import Post Codes [NL]
-    date: "2025-03-18"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals
-    title: How to Print the Test Reports for Cash and Bank or Giro Journals
-    date: "2025-04-24"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-set-up-vat-categories
-    title: How to Set Up VAT Categories
-    date: "2025-03-18"
+    title: Import Post Codes in the Dutch Version [NL]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/netherlands-local-functionality
     title: Netherlands Local Functionality [NL]
-    date: "2025-03-19"
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenarios
-    title: Payment scenarios
-    date: "2025-03-20"
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals
+    title: Print the Test Reports for Cash and Bank or Giro Journals
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry
-    title: Required descriptions in G-L entry
-    date: "2025-03-20"
+    title: Require Descriptions in General Ledger Entries
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-
-    title: Scenario 1 Domestic payments (LCY to LCY) [NL]
-    date: "2025-03-19"
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations
+    title: Set Up Dutch Electronic VAT and ICP Declarations
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-
-    title: Scenario 2 foreign payment (FCY to FCY) [NL]
-    date: "2025-03-19"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-
-    title: Scenario 3 - Foreign Payment (LCY to FCY) [NL]
-    date: "2025-03-19"
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-set-up-vat-categories
+    title: Set Up Dutch VAT Declaration Categories
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/single-euro-payments-area-sepa-
-    title: Single EURO Payments Area (SEPA)
-    date: "2025-03-20"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations
-    title: Submit electronic VAT & ICP declarations [NL]
-    date: "2026-05-08"
+    title: Single Euro Payments Area (SEPA)
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format
-    title: Submit Vendor Payments Electronically in SEPA ISO 20022 Format (NL)
-    date: "2025-03-18"
+    title: Submit Dutch Vendor Payments in SEPA ISO 20022 Format
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/telebanking
-    title: Telebanking
-    date: "2025-03-20"
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations
+    title: Submit Electronic VAT and ICP Declarations in the Netherlands
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -255,28 +255,28 @@ narrative: generated
 
 # Netherlands
 
-> Netherlands local functionality in Business Central (NL version): VAT and ICP declarations via Digipoort, audit files, telebanking, payment and collection proposals, SEPA payments, G/L entry handling, purchase amount checks, CMR notes and Dutch post codes. It answers setup and how-to questions for Dutch-specific features.
+> Netherlands local functionality in Business Central covers Dutch VAT and ICP declarations, the XAF audit file, telebanking and SEPA payments, G/L entry handling, purchase document totals, CMR notes and Dutch post codes. It answers setup, workflow and compliance questions for the Dutch localization.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Netherlands · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Netherlands hub collects the Dutch local features of Business Central. It starts with a reference guide, "Netherlands Local Functionality [NL]", which lists the areas: VAT declarations, electronic banking, telebanking, payment scenarios, SEPA payments and postal code management. Subtopics then go into each area.
+The Netherlands section collects the features that adapt Business Central to Dutch regulatory and banking practice. An overview page lists the main areas: VAT categories, electronic VAT and ICP declarations, Dutch electronic banking, telebanking, SEPA payments and payment proposals.
 
-Banking and payments is the largest subtopic (15 pages). It covers telebanking, payment and collection proposals, payment history export, cash, bank and giro journals, bank statement import and SEPA ISO 20022. VAT (4 pages) covers electronic VAT and ICP declarations through Digipoort, VAT categories and the audit file for the Dutch tax authority.
+The pages are grouped into five subtopics. VAT covers Digipoort submission, declaration categories and the audit file (XAF). Banking & payments is the largest group, with 15 pages on telebanking, SEPA ISO 20022 payments and direct debits, payment proposals and history, bank statement import, and cash and bank/giro journals. Core finance, Purchasing and General handle smaller topics: G/L entry application and descriptions, document totals on purchase documents, CMR notes and Dutch post codes.
 
-Smaller subtopics cover core finance (applying and unapplying G/L entries, required descriptions), purchasing (document amount checks on invoices and credit memos) and general topics (CMR notes and post code import). Start with the reference guide, then open the subtopic that matches your task.
+Start with the overview page to see the scope. Then go to VAT for tax reporting setup, or to Banking & payments for payment workflows.
 
 ## Key points
 
-- The reference guide lists all Dutch local functionality: VAT declarations, electronic banking, telebanking, payment scenarios, SEPA payments and postal codes.
-- VAT: set up and submit electronic VAT and ICP declarations through Digipoort, including certificate setup.
-- VAT: configure VAT categories and create an audit file for the Dutch tax authority.
-- Banking and payments: telebanking, payment and collection proposals, payment history export, and cash, bank and giro journals.
-- Banking and payments: bank statement import and SEPA ISO 20022 payments for domestic and foreign flows.
-- Core finance: apply and unapply G/L entries, and require descriptions on G/L entries to support audit trails.
-- Purchasing: check document amounts on purchase invoices and credit memos, and edit the document amount including VAT and the VAT amount.
-- General: print CMR notes under the UN CMR Convention, and subscribe to and import Dutch post code data and monthly updates.
+- VAT: set up and submit electronic VAT and ICP declarations through Digipoort.
+- VAT: configure VAT declaration categories and create an audit file (XAF) for the Dutch tax authority.
+- Banking & payments (15 pages): telebanking, SEPA ISO 20022 payments and direct debits, payment proposals and history.
+- Banking & payments also covers bank statement import and cash and bank/giro journals.
+- Core finance: apply and unapply G/L entries, and require descriptions on G/L entries.
+- Purchasing: check and edit document totals on purchase invoices and credit memos, including Doc. Amount Incl. VAT and Doc. Amount VAT.
+- General: three CMR note types for international road transport.
+- General: subscribe to, import and update Dutch post code data.
 
 ## Subtopics
 
@@ -288,6 +288,6 @@ Smaller subtopics cover core finance (applying and unapplying G/L entries, requi
 
 ## More Learn pages
 
-- [Netherlands Local Functionality [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/netherlands-local-functionality): The following articles describe the various local functionality in the Dutch version of Business Central.
+- [Netherlands Local Functionality [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/netherlands-local-functionality): Explore Dutch local functionality in Business Central for VAT and ICP declarations, telebanking, payment proposals, audit files, and post code imports.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

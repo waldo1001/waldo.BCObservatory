@@ -2,61 +2,61 @@
 id: topic/business-central/business-functionality/local-functionality/switzerland/core-finance
 type: topic
 title: Core finance
-summary: Core finance for the Swiss version of Business Central covers general ledger balances, Swiss G/L accounts, temporary balance previews in journals, VAT exchange rate adjustment, and the G/L Setup Information report. It answers questions about Swiss-specific general ledger behavior and checks.
+summary: "Core finance for the Swiss version of Business Central covers Swiss-specific general ledger functions: foreign currency balances on G/L accounts, VAT exchange rate adjustment, balance views in journals, and the G/L setup information report. It answers questions about Swiss ledger setup and VAT currency handling."
 tier: official
 language: en
 system: finance
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:24:14.133Z"
+  at: "2026-10-28T11:03:07.647Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: bdb25425a1e53fdb4861a5febc40a8d611de78cf4dc0b74858e4d2de244b39fd
+  input_hash: de09a8a038ffcfd945b946442850ccec8f632bb77383a4cd1744d241d0adfae6
 evidence:
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/balance
-    title: G/L balance [CH]
-    date: "2025-04-28"
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-adjust-exchange-rates
+    title: Adjust Exchange Rates in the Swiss Version [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-adjust-exchange-rates
-    title: How to Adjust Exchange Rates [CH]
-    date: "2025-04-28"
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/balance
+    title: General Ledger Balance in the Swiss Version [CH]
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information
-    title: Print General Ledger Setup Information [CH]
-    date: "2025-04-29"
+    title: Print General Ledger Setup Information in the Swiss Version [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-general-ledger-accounts
     title: Swiss General Ledger Accounts [CH]
-    date: "2025-04-30"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals
-    title: View temporary balances in GL journals [CH]
-    date: "2025-04-30"
+    title: View Temporary General Journal Balances in Switzerland
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/balance
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-adjust-exchange-rates
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/balance
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-general-ledger-accounts
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals
@@ -93,40 +93,39 @@ narrative: generated
 
 # Core finance
 
-> Core finance for the Swiss version of Business Central covers general ledger balances, Swiss G/L accounts, temporary balance previews in journals, VAT exchange rate adjustment, and the G/L Setup Information report. It answers questions about Swiss-specific general ledger behavior and checks.
+> Core finance for the Swiss version of Business Central covers Swiss-specific general ledger functions: foreign currency balances on G/L accounts, VAT exchange rate adjustment, balance views in journals, and the G/L setup information report. It answers questions about Swiss ledger setup and VAT currency handling.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section collects the Swiss-specific general ledger functionality. It covers how Swiss G/L accounts work (foreign currency balances on bank accounts, text data types for the standardized Swiss KMU chart of accounts), and how to check balances before and after posting.
+This section collects the Swiss [CH] localization pages for core finance. They deal with general ledger accounts, balances shown during journal entry, VAT exchange rates, and a report that prints setup data.
 
-Three pages deal with balances: G/L balance shows provisional balances including posted entries and current journal postings, Swiss General Ledger Accounts describes the temporary balance preview, and View temporary balances in GL journals explains how to see the effect of posting, including foreign currency amounts, before you post.
+Swiss G/L accounts can hold foreign currency balances and can be sorted by a text data type, which supports the Kontenrahmen Käfer (KMU) chart. Two pages describe the Balance action and the temporary balance preview in journals. These show posted balances and unposted amounts, so you can see the effect of posting before you post.
 
-The remaining pages cover setup and VAT: How to Adjust Exchange Rates describes converting VAT currency using official Federal Tax Administration rates, and Print General Ledger Setup Information describes the report used to verify master data. Start with Swiss General Ledger Accounts for the overall picture, then go to the task page you need.
+For VAT, the exchange rate adjustment page explains how to use official Federal Tax Administration rates when foreign currency sales differ from invoice rates. The G/L Setup Information report helps verify configuration. Start with the Swiss General Ledger Accounts page, then read the others as needed.
 
 ## Key points
 
-- G/L balance shows provisional balances from posted entries plus current journal postings, and helps confirm bank balances after recording transactions.
-- Balance views include journal balance, all journals balance and actual journal balance.
-- Swiss G/L accounts can hold foreign currency balances on bank accounts, set up through a currency code.
-- Accounts use text data types to support the standardized Swiss KMU chart of accounts.
-- Temporary balances in G/L journals show how posting would change account balances, including foreign currency amounts, before you post.
-- VAT exchange rate adjustment uses official Federal Tax Administration rates for VAT statements.
-- The G/L Setup Information report displays G/L setup, posting groups, posting matrix, and VAT setup, and checks number series.
-- The setup report also supports GDPdU compliance checks.
+- Swiss G/L accounts can maintain foreign currency balances, set up through currency code configuration.
+- Accounts can be sorted using a text data type for compatibility with Kontenrahmen Käfer (KMU).
+- The Balance action in journal lines shows posted balances and unposted amounts, which exclude VAT.
+- Balance views can use the Actual Journal option (current batch) or the All Journals option.
+- Temporary balance preview shows how posting journal entries would change account balances, including foreign currency balances.
+- The Adjust Exchange Rates batch job corrects VAT entries using official Federal Tax Administration rates when foreign currency sales differ from invoice rates.
+- Run the exchange rate adjustment batch job before creating VAT statements.
+- The G/L Setup Information report shows G/L setup, company data, consolidation, posting groups, posting matrix, and VAT setup, and helps spot data export issues.
 
 ## Learn pages
 
-- [G/L balance [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/balance): Learn how to use the General Ledger Acc. Provisional Balance page to view posted ledger entries.
-  - In the observatory: [Page 11500 "G/L Acc. Provisional Balance (CH)"](../../../../../objects/page/11500-ch.md)
-- [How to Adjust Exchange Rates [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-adjust-exchange-rates): Learn how to use the official VAT currency conversion rates set by the Federal Tax Administration for taxable sales in foreign currencies.
-  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 483 "Currency Exchange Rates"](../../../../../objects/page/483.md)
-- [Print General Ledger Setup Information [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information): Run the G/L Setup Information report in Business Central to review and verify the master data you configured before starting daily operations.
+- [Adjust Exchange Rates in the Swiss Version [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-adjust-exchange-rates): Learn how to use the official VAT currency conversion rates set by the Federal Tax Administration for taxable sales in foreign currencies.
+- [General Ledger Balance in the Swiss Version [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/balance): Review posted balances and unposted journal amounts on the G/L Account temp. Balance page before posting a general journal in the Swiss version.
+  - In the observatory: [Page 39 "General Journal"](../../../../../objects/page/39.md)
+- [Print General Ledger Setup Information in the Swiss Version [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information): Run the G/L Setup Information report in Business Central to review and verify the master data you configured before starting daily operations.
 - [Swiss General Ledger Accounts [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-general-ledger-accounts): This article explains enhancements to the Swiss General Ledger Accounts and General Journals.
-  - In the observatory: [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md), [Table 32 "Item Ledger Entry"](../../../../../objects/table/32.md)
-- [View temporary balances in GL journals [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals): Learn how to view temporary balances in general ledger journals that show the impact of a new transaction on general ledger account balances.
-  - In the observatory: [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md)
+- [View Temporary General Journal Balances in Switzerland](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals): Learn how to view temporary balances in general ledger journals that show the impact of a new transaction on general ledger account balances.
+  - In the observatory: [Page 39 "General Journal"](../../../../../objects/page/39.md), [Table 81 "Gen. Journal Line"](../../../../../objects/table/81.md)
 
 ## Videos, posts and code changes
 

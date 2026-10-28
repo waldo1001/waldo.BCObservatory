@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 230321e163233f49d4ebbe842d79f81ca28d8faf808d9926a1e2c9afbbcc462d
+  input_hash: 1e656aa4257b9b3941e22cda825ae7dfb9cae88a9cd995a7d466d06e8f3b4f23
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/HybridGP/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/HybridGP/app
     title: src/Apps/W1/HybridGP/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -406,4 +406,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 4027 | [D365 TEAM MEMBER - HGP](../objects/permissionsetextension/4027.md) |  |
 | 4028 | [INTELLIGENT CLOUD - HGP](../objects/permissionsetextension/4028.md) |  |
 
-Source: [src/Apps/W1/HybridGP/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/HybridGP/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/HybridGP/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/HybridGP/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

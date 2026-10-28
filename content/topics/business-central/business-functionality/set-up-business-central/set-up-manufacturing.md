@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:57.224Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -200,6 +200,7 @@ links:
     - video/zt9_HEmPKNg
   posts:
     - post/yzhums-com/67657
+    - post/yzhums-com/71239
   guidelines: []
   changes:
     - change/bcapps/10343
@@ -228,7 +229,7 @@ coverage:
   learn: 13
   code: 67
   video: 1
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 911
@@ -374,6 +375,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9787 [Subcontracting] Added actionable notification when a vendor does not have a subcontracting location code](../../../../changes/bcapps/9787.md) (code change): "enabling early detection of missing configuration before downstream"
 - [#9818 [Subcontracting] Added assisted setup guide for initial app configuration](../../../../changes/bcapps/9818.md) (code change): "Added assisted setup guide for initial app configuration"
 - [Business Central 2025 wave 2 (BC27): Configure the default calculation for the Calculate Consumption report (Default Consumption Calculation Based on)](../../../../posts/yzhums-com/67657.md) (community post): "Default Consumption Calculation Based on field in Manufacturing Setup"
+- [Business Central 2026 release wave 1 (BC28): Add the Description 2 field to various pages to gain more insight (planning, routing, production order creation, and related processes)](../../../../posts/yzhums-com/71239.md) (community post): "Description 2 is added at table level and supported across planning, routing, production order creation"
 - [Manufacturing Foundations Capacities (2026)](../../../../videos/zt9_HEmPKNg.md) (video): "work centers; machine centers; shop calendar; work shifts; production scheduling"
 
 ## Business Central pages and reports

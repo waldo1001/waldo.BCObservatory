@@ -2,26 +2,26 @@
 id: topic/business-central/business-functionality/local-functionality
 type: topic
 title: Local functionality
-summary: Local functionality in Business Central covers country-specific features and regulatory compliance for 20+ countries and regions, plus guidance on localization strategy, validated localization apps and regulatory alerts. It answers which local features exist per country and how to set them up.
+summary: Local functionality in Business Central covers country-specific features and regulatory compliance for more than 20 countries and regions, plus guidance on developing Validated Localization apps and submitting regulatory alerts. It answers setup, tax, banking, e-invoicing and reporting questions for a given country.
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-25T12:53:09.599Z"
+  at: "2026-10-28T11:00:30.140Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 721330c240d44cd958c338893d8355bee65970851256f9a9b8cec2b855eed5fb
+  input_hash: 3975039b48bdcd595606d3b280234c51554d2120db7af05bb03e1211173bb986
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Absence-registration
     title: Absence registration in Russia
-    date: "2025-07-11"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
@@ -35,14 +35,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Accounting-for-personal-income-tax-payments
     title: Accounting for personal income tax payments in Russia
-    date: "2025-07-11"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-activate-sepa-payments
-    title: Activate SEPA payments in the Dutch version
-    date: "2025-03-17"
+    title: Activate SEPA Payments in the Dutch Version
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -62,8 +62,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/addresses
-    title: Addresses in New Zealand
-    date: "2025-05-05"
+    title: Addresses in the New Zealand Version
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-adjust-exchange-rates
+    title: Adjust Exchange Rates in the Swiss Version [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
@@ -76,8 +83,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries
-    title: Adjust Settlement Exchange Rates for VAT Entries (NZ)
-    date: "2025-05-05"
+    title: Adjust VAT Settlement Exchange Rates in New Zealand
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -111,8 +118,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries
-    title: Apply and Unapply General Ledger Entries [NL]
-    date: "2025-03-14"
+    title: Apply and Unapply General Ledger Entries in the Netherlands
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -120,6 +127,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-coda-statements
     title: Apply CODA Statements [BE]
     date: "2026-10-08"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods
+    title: Apply Entries in Closed VAT Periods in Norway
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -145,13 +159,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-assign-delivery-reminder-codes-to-vendors
-    title: Assign Delivery Reminder Codes to Vendors [CH]
-    date: "2025-04-28"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-assign-delivery-reminder-codes-to-vendors
     title: Assign delivery reminder codes to vendors [DE]
     date: "2026-10-09"
@@ -159,9 +166,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-assign-delivery-reminder-codes-to-vendors
+    title: Assign Delivery Reminder Codes to Vendors in Switzerland
+    date: "2026-10-19"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software
-    title: Audit trail and edit logs for accounting software in India
-    date: "2026-06-12"
+    title: Audit Trail and Edit Logs for Accounting Software in India
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
@@ -202,15 +216,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/automatic-account-codes
-    title: Automatic account codes in the Swedish version
-    date: "2025-02-06"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills
-    title: Automatic Payments and Automatic Bills [IT]
-    date: "2025-05-21"
+    title: Automatic Account Codes in the Swedish Version
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -222,16 +229,9 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-bank-accounts-for-electronic-payments
-    title: Bank Accounts for Electronic Payments [ES]
-    date: "2025-05-28"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/bank-management
     title: Bank management in Russia
-    date: "2025-07-11"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -245,7 +245,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/us-tax-setup
     title: Basic Tax Setup in the US Version
-    date: "2025-02-04"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
@@ -347,6 +347,7 @@ links:
     - object/page/1700
     - object/page/1701
     - object/page/4850
+    - object/page/4851
     - object/page/4852
     - object/page/5260
     - object/page/5264
@@ -360,8 +361,6 @@ links:
     - object/page/5919
     - object/page/6103
     - object/page/6133
-    - object/page/9001
-    - object/page/9027
   features: []
   topics:
     - topic/business-central/business-functionality
@@ -423,7 +422,7 @@ children:
   - topic/business-central/business-functionality/local-functionality/united-states
 coverage:
   learn: 603
-  code: 58
+  code: 57
   video: 2
   blog: 0
   guideline: 0
@@ -472,6 +471,7 @@ bc_forms:
   - 1700
   - 1701
   - 4850
+  - 4851
   - 4852
   - 5260
   - 5261
@@ -486,8 +486,6 @@ bc_forms:
   - 5919
   - 6103
   - 6133
-  - 9001
-  - 9027
   - 9142
   - 10015
   - 10016
@@ -613,10 +611,9 @@ bc_forms:
   - 11026
   - 11027
   - 11028
-  - 11206
-  - 11207
-  - 11208
   - 11212
+  - 11290
+  - 11291
   - 11300
   - 11301
   - 11303
@@ -877,28 +874,28 @@ narrative: generated
 
 # Local functionality
 
-> Local functionality in Business Central covers country-specific features and regulatory compliance for 20+ countries and regions, plus guidance on localization strategy, validated localization apps and regulatory alerts. It answers which local features exist per country and how to set them up.
+> Local functionality in Business Central covers country-specific features and regulatory compliance for more than 20 countries and regions, plus guidance on developing Validated Localization apps and submitting regulatory alerts. It answers setup, tax, banking, e-invoicing and reporting questions for a given country.
 
 Path: [Business functionality](../business-functionality.md) > Local functionality · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section describes how Business Central supports local legal, tax, banking and reporting needs. Three pages cover the general side: the local functionality and localization strategy, requirements for developing Validated Localization apps, and how to submit regulatory alerts through Microsoft Dynamics Lifecycle Services.
+This section describes the country-specific features Business Central offers for regulatory compliance. It has one subtopic per country or region, from Australia to the United States. Each subtopic groups pages by area such as tax and VAT, banking and payments, e-invoicing, core finance and general features.
 
-The rest of the section is split into one subtopic per country or region: Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Iceland, India, Italy, Mexico, Netherlands, New Zealand, Norway, Russia, Spain, Sweden, Switzerland, United Kingdom and United States. Each one typically covers tax and VAT reporting, banking and payments, core finance, and general setup, with some adding e-invoicing or audit exports.
+Three pages sit at the top level. The localization strategy page explains the approach across the 20+ supported countries and regions. The development page sets requirements for Validated Localization apps. The regulatory alerts page explains how to notify Microsoft, through Microsoft Dynamics Lifecycle Services, of legislation changes.
 
-Start with the strategy page to understand the overall approach. Then go to your country's subtopic for setup and how-to details. India (87 pages) and Czech Republic (60 pages) are the largest. Partners building a localization should read the validated apps page. Anyone who needs to report a new or changed regulation should use the regulatory alert page.
+Start with the strategy page for context, then go to your country's subtopic. Larger localizations such as India (87 pages) and the Czech Republic (60 pages) have many pages, and the Czech Republic is split into further subtopics. Smaller ones such as Sweden (6 pages) are brief.
 
 ## Key points
 
-- Covers country-specific features and regulatory compliance across 20+ countries and regions.
-- Validated Localization apps have requirements for regulatory compliance, national standards, language translation, demo data and functional documentation.
-- Regulatory alerts are submitted through Microsoft Dynamics Lifecycle Services, with an alert description, law enforcement date and filing deadline.
-- E-invoicing appears in several countries, for example Peppol PINT A-NZ (Australia, New Zealand), OIOUBL (Denmark), EHF (Norway), CFDI (Mexico) and VERI*FACTU (Spain).
-- VAT and tax reporting is a common theme, such as GST/HST in Canada, ELSTER in Germany, SII in Spain and Making Tax Digital in the UK.
-- Banking and payment formats are local, for example CODA (Belgium), FIK (Denmark), QR-bills (Switzerland) and EFT (Australia, New Zealand).
-- India has the largest set of pages, covering GST, TDS, TCS, the Tax Engine and more.
-- Audit and SAF-T style exports are covered for countries such as Denmark, Norway, Germany and Austria.
+- Covers 22 country and region subtopics, including Australia, India, Norway, Spain, Switzerland, the UK and the US.
+- Typical areas per country: VAT/GST and other tax, banking and payment files, e-invoicing, core finance, and general features.
+- E-invoicing formats named include Peppol PINT A-NZ (Australia, New Zealand), OIOUBL (Denmark), EHF (Norway), CFDI (Mexico), and UBL 2.1 and Factur-X (France).
+- Audit and reporting exports include SAF-T (Denmark, Norway), XAF (Netherlands), ELSTER (Germany) and SII (Spain).
+- Iceland's localization is based on the W1 Base App and is available from version 24.0.
+- The Czech Republic uses Core and Advanced Localization Pack extensions.
+- Validated Localization apps must meet functional and technical standards, including national standards, language translation, demo data and functional documentation.
+- Regulatory alerts are submitted through Lifecycle Services with a description, law enforcement date and filing deadline.
 
 ## Subtopics
 
@@ -950,7 +947,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 29 "Vendor Ledger Entries"](../../../objects/page/29.md) · on [Table 25 "Vendor Ledger Entry"](../../../objects/table/25.md) · via [United States](local-functionality/united-states.md)
 - [Page 39 "General Journal"](../../../objects/page/39.md) · captioned "General Journals" · on [Table 81 "Gen. Journal Line"](../../../objects/table/81.md) · via [United Kingdom](local-functionality/united-kingdom.md)
 - [Page 50 "Purchase Order"](../../../objects/page/50.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md) · via [United States](local-functionality/united-states.md)
-- [Page 51 "Purchase Invoice"](../../../objects/page/51.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md) · via [United States](local-functionality/united-states.md)
+- [Page 51 "Purchase Invoice"](../../../objects/page/51.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md) · via [Sweden](local-functionality/sweden.md)
 - [Page 118 "General Ledger Setup"](../../../objects/page/118.md) · on [Table 98 "General Ledger Setup"](../../../objects/table/98.md) · via [Czech Republic](local-functionality/czech-republic.md)
 - [Page 132 "Posted Sales Invoice"](../../../objects/page/132.md) · on [Table 112 "Sales Invoice Header"](../../../objects/table/112.md) · via [Mexico](local-functionality/mexico.md)
 - [Page 255 "Cash Receipt Journal"](../../../objects/page/255.md) · captioned "Cash Receipt Journals" · on [Table 81 "Gen. Journal Line"](../../../objects/table/81.md) · via [Norway](local-functionality/norway.md)
@@ -985,6 +982,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 1700 "Deferral Template Card"](../../../objects/page/1700.md) · on [Table 1700 "Deferral Template"](../../../objects/table/1700.md) · via [Belgium](local-functionality/belgium.md)
 - [Page 1701 "Deferral Template List"](../../../objects/page/1701.md) · captioned "Deferral Templates" · on [Table 1700 "Deferral Template"](../../../objects/table/1700.md) · via [Belgium](local-functionality/belgium.md)
 - [Page 4850 "Automatic Account Header"](../../../objects/page/4850.md) · captioned "Automatic Account Groups" · on [Table 4850 "Automatic Account Header"](../../../objects/table/4850.md) · via [Finland](local-functionality/finland.md)
+- [Page 4851 "Automatic Account Line"](../../../objects/page/4851.md) · on [Table 4851 "Automatic Account Line"](../../../objects/table/4851.md) · via [Sweden](local-functionality/sweden.md)
 - [Page 4852 "Automatic Account List"](../../../objects/page/4852.md) · captioned "Automatic Account Groups" · on [Table 4850 "Automatic Account Header"](../../../objects/table/4850.md) · via [Finland](local-functionality/finland.md)
 - [Page 5260 "G/L Account Mapping"](../../../objects/page/5260.md) · on [Table 5260 "G/L Account Mapping Header"](../../../objects/table/5260.md) · via [Austria](local-functionality/austria.md)
 - [Page 5264 "Audit File Export Setup"](../../../objects/page/5264.md) · on [Table 5264 "Audit File Export Setup"](../../../objects/table/5264.md) · via [Austria](local-functionality/austria.md)
@@ -998,9 +996,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 5919 "Service Mgt. Setup"](../../../objects/page/5919.md) · captioned "Service Management Setup" · on [Table 5911 "Service Mgt. Setup"](../../../objects/table/5911.md) · via [Norway](local-functionality/norway.md)
 - [Page 6103 "E-Document Services"](../../../objects/page/6103.md) · on [Table 6103 "E-Document Service"](../../../objects/table/6103.md) · via [Norway](local-functionality/norway.md)
 - [Page 6133 "E-Document Service"](../../../objects/page/6133.md) · on [Table 6103 "E-Document Service"](../../../objects/table/6103.md) · via [Norway](local-functionality/norway.md)
-- [Page 9001 "Accounting Manager Role Center"](../../../objects/page/9001.md) · captioned "Accounting Manager" · via [Sweden](local-functionality/sweden.md)
-- [Page 9027 "Accountant Role Center"](../../../objects/page/9027.md) · captioned "Accountant" · via [Sweden](local-functionality/sweden.md)
 
-Learn also names 385 objects with no object page: page/328, page/5261, page/9142, page/10015, page/10016, page/10017, page/10018, page/10019, page/10020, page/10021, page/10030, page/10031, page/10033, page/10034, page/10036, page/10037, page/10048, page/10049, page/10050, page/10051, page/10101, page/10120, page/10121, page/10122, page/10123, page/10124, page/10125, page/10126, page/10127, page/10128, page/10129, page/10130, page/10131, page/10133, page/10134, page/10140, page/10141, page/10143, page/10144, page/10146, page/10147, page/10148, page/10455, page/10456, page/10458, page/10459, page/10530, page/10531, page/10532, page/10537, page/10538, page/10539, page/10601, page/10602, page/10604, page/10670, page/10671, page/10672, page/10673, page/10674, page/10675, page/10677, page/10678, page/10679, page/10680, page/10685, page/10686, page/10687, page/10688, page/10689, page/10690, page/10691, page/10692, page/10696, page/10697, page/10698, page/10704, page/10705, page/10710, page/10736, page/10737, page/10738, page/10740, page/10744, page/10751, page/10752, page/10753, page/10770, page/10771, page/10810, page/10811, page/10842, page/10860, page/10861, page/10864, page/10865, page/10866, page/10867, page/10868, page/10869, page/10870, page/10871, page/10872, page/10873, page/10874, page/10877, page/10878, page/10879, page/10880, page/10882, page/10900, page/11002, page/11003, page/11004, page/11007, page/11008, page/11009, page/11014, page/11016, page/11017, page/11019, page/11023, page/11024, page/11025, page/11026, page/11027, page/11028, page/11206, page/11207, page/11208, page/11212, page/11300, page/11301, page/11303, page/11306, page/11307, page/11308, page/11500, page/11501, page/11502, page/11510, page/11511, page/11512, page/11513, page/11514, page/11515, page/11516, page/11517, page/11518, page/11600, page/11601, page/11602, page/11603, page/11604, page/11605, page/11606, page/11607, page/11608, page/11609, page/11610, page/11611, page/11612, page/11613, page/11614, page/11615, page/12100, page/12102, page/12103, page/12104, page/12105, page/12111, page/12112, page/12113, page/12116, page/12119, page/12121, page/12122, page/12123, page/12126, page/12127, page/12132, page/12133, page/12135, page/12140, page/12141, page/12143, page/12149, page/12150, page/12151, page/12152, page/12153, page/12154, page/12155, page/12156, page/12158, page/12170, page/12171, page/12172, page/12173, page/12174, page/12175, page/12176, page/12178, page/12180, page/12181, page/12182, page/12183, page/12184, page/12185, page/12186, page/12187, page/12188, page/12189, page/12190, page/12192, page/12193, page/12194, page/12195, page/12198, page/12199, page/12202, page/12203, page/12204, page/13640, page/13645, page/13646, page/13647, page/17101, page/27001, page/27002, page/27003, page/27010, page/27011, page/27012, page/27013, page/27014, page/27015, page/27016, page/27017, page/27018, page/27030, page/27031, page/27032, page/27033, page/27034, page/27040, page/27041, page/27042, page/27043, page/27044, page/28040, page/28041, page/28042, page/28043, page/28044, page/28071, page/28072, page/28073, page/28074, page/28075, page/28076, page/28077, page/28078, page/28079, page/28080, page/28081, page/28082, page/28090, page/28091, page/28092, page/28093, page/28164, page/28165, page/28166, page/28167, page/35291, page/35292, page/35293, page/35294, page/35295, page/35296, page/35297, page/35298, page/35299, page/35300, page/35301, page/35302, page/35303, page/35304, page/35305, page/35306, page/35490, page/35491, page/35561, page/35562, page/35563, page/35848, page/35850, page/36646, page/100136, page/700071, page/700072, page/2000000, page/2000001, page/2000003, page/2000005, page/2000006, page/2000020, page/2000021, page/2000022, page/2000040, page/2000041, page/2000042, page/2000043, page/2000045, page/3010531, page/3010532, page/3010541, page/3010542, page/3010543, page/3010830, page/3010831, page/3010832, page/3010834, page/3010835, page/5005270, page/5005271, page/5005272, page/5005273, page/5005274, page/5005275, page/5005276, page/5005279, page/5005280, page/5005281, page/5005282, page/5005283, page/7000003, page/7000004, page/7000005, page/7000006, page/7000007, page/7000008, page/7000009, page/7000010, page/7000011, page/7000012, page/7000014, page/7000015, page/7000016, page/7000017, page/7000018, page/7000019, page/7000020, page/7000021, page/7000022, page/7000024, page/7000025, page/7000029, page/7000030, page/7000031, page/7000032, page/7000033, page/7000034, page/7000036, page/7000037, page/7000040, page/7000041, page/7000044, page/7000045, page/7000048, page/15000000, page/15000002, page/15000004, page/15000006, page/15000007, page/15000010, page/15000100, page/32000000, page/32000001, page/32000002, page/32000004, page/32000005, page/32000006, page/70000013.
+Learn also names 384 objects with no object page: page/328, page/5261, page/9142, page/10015, page/10016, page/10017, page/10018, page/10019, page/10020, page/10021, page/10030, page/10031, page/10033, page/10034, page/10036, page/10037, page/10048, page/10049, page/10050, page/10051, page/10101, page/10120, page/10121, page/10122, page/10123, page/10124, page/10125, page/10126, page/10127, page/10128, page/10129, page/10130, page/10131, page/10133, page/10134, page/10140, page/10141, page/10143, page/10144, page/10146, page/10147, page/10148, page/10455, page/10456, page/10458, page/10459, page/10530, page/10531, page/10532, page/10537, page/10538, page/10539, page/10601, page/10602, page/10604, page/10670, page/10671, page/10672, page/10673, page/10674, page/10675, page/10677, page/10678, page/10679, page/10680, page/10685, page/10686, page/10687, page/10688, page/10689, page/10690, page/10691, page/10692, page/10696, page/10697, page/10698, page/10704, page/10705, page/10710, page/10736, page/10737, page/10738, page/10740, page/10744, page/10751, page/10752, page/10753, page/10770, page/10771, page/10810, page/10811, page/10842, page/10860, page/10861, page/10864, page/10865, page/10866, page/10867, page/10868, page/10869, page/10870, page/10871, page/10872, page/10873, page/10874, page/10877, page/10878, page/10879, page/10880, page/10882, page/10900, page/11002, page/11003, page/11004, page/11007, page/11008, page/11009, page/11014, page/11016, page/11017, page/11019, page/11023, page/11024, page/11025, page/11026, page/11027, page/11028, page/11212, page/11290, page/11291, page/11300, page/11301, page/11303, page/11306, page/11307, page/11308, page/11500, page/11501, page/11502, page/11510, page/11511, page/11512, page/11513, page/11514, page/11515, page/11516, page/11517, page/11518, page/11600, page/11601, page/11602, page/11603, page/11604, page/11605, page/11606, page/11607, page/11608, page/11609, page/11610, page/11611, page/11612, page/11613, page/11614, page/11615, page/12100, page/12102, page/12103, page/12104, page/12105, page/12111, page/12112, page/12113, page/12116, page/12119, page/12121, page/12122, page/12123, page/12126, page/12127, page/12132, page/12133, page/12135, page/12140, page/12141, page/12143, page/12149, page/12150, page/12151, page/12152, page/12153, page/12154, page/12155, page/12156, page/12158, page/12170, page/12171, page/12172, page/12173, page/12174, page/12175, page/12176, page/12178, page/12180, page/12181, page/12182, page/12183, page/12184, page/12185, page/12186, page/12187, page/12188, page/12189, page/12190, page/12192, page/12193, page/12194, page/12195, page/12198, page/12199, page/12202, page/12203, page/12204, page/13640, page/13645, page/13646, page/13647, page/17101, page/27001, page/27002, page/27003, page/27010, page/27011, page/27012, page/27013, page/27014, page/27015, page/27016, page/27017, page/27018, page/27030, page/27031, page/27032, page/27033, page/27034, page/27040, page/27041, page/27042, page/27043, page/27044, page/28040, page/28041, page/28042, page/28043, page/28044, page/28071, page/28072, page/28073, page/28074, page/28075, page/28076, page/28077, page/28078, page/28079, page/28080, page/28081, page/28082, page/28090, page/28091, page/28092, page/28093, page/28164, page/28165, page/28166, page/28167, page/35291, page/35292, page/35293, page/35294, page/35295, page/35296, page/35297, page/35298, page/35299, page/35300, page/35301, page/35302, page/35303, page/35304, page/35305, page/35306, page/35490, page/35491, page/35561, page/35562, page/35563, page/35848, page/35850, page/36646, page/100136, page/700071, page/700072, page/2000000, page/2000001, page/2000003, page/2000005, page/2000006, page/2000020, page/2000021, page/2000022, page/2000040, page/2000041, page/2000042, page/2000043, page/2000045, page/3010531, page/3010532, page/3010541, page/3010542, page/3010543, page/3010830, page/3010831, page/3010832, page/3010834, page/3010835, page/5005270, page/5005271, page/5005272, page/5005273, page/5005274, page/5005275, page/5005276, page/5005279, page/5005280, page/5005281, page/5005282, page/5005283, page/7000003, page/7000004, page/7000005, page/7000006, page/7000007, page/7000008, page/7000009, page/7000010, page/7000011, page/7000012, page/7000014, page/7000015, page/7000016, page/7000017, page/7000018, page/7000019, page/7000020, page/7000021, page/7000022, page/7000024, page/7000025, page/7000029, page/7000030, page/7000031, page/7000032, page/7000033, page/7000034, page/7000036, page/7000037, page/7000040, page/7000041, page/7000044, page/7000045, page/7000048, page/15000000, page/15000002, page/15000004, page/15000006, page/15000007, page/15000010, page/15000100, page/32000000, page/32000001, page/32000002, page/32000004, page/32000005, page/32000006, page/70000013.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

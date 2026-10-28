@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 90ed8529e072b5e2338f824aa78632b77bb309f51aa6cc81a3372a5ea23d4ce6
+  input_hash: fbc28b4da9186a3c67cb3e4942887e30ad7d07f3c0fdd238f55acf2729b393c1
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/QBMigration/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/QBMigration/app
     title: src/Apps/W1/QBMigration/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -178,4 +178,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 44603 | [D365 BUS PREMIUMQuickBooks Data Migration](../objects/permissionsetextension/44603.md) |  |
 | 46049 | [D365 BASICQuickBooks Data Migration](../objects/permissionsetextension/46049.md) |  |
 
-Source: [src/Apps/W1/QBMigration/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/QBMigration/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/QBMigration/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/QBMigration/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

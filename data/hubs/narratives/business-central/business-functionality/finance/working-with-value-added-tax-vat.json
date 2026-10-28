@@ -1,38 +1,38 @@
 {
   "hub_id": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
-  "input_hash": "01cccaaecea4d2a321e783d63ac29bd9bb7e1123cbcdd3b620c556090acaecb1",
-  "summary": "Value Added Tax (VAT) in Business Central: setup, VAT on sales and purchases, non-deductible VAT, rate changes, multiple registration numbers, number validation, EU third-party trade, built-in reports and submission to tax authorities. It answers how-to questions on configuring, posting, correcting and reporting VAT.",
-  "overview": "This section covers the full VAT workflow in Business Central. It starts with VAT setup (rates, posting groups, registration numbers, clauses, VAT statements, nondeductible and unrealized VAT), which is the base for how VAT is calculated, posted to G/L accounts and reported.",
+  "input_hash": "1ab4e1d05f5d1bac7274705da92f27bbc91bfb1ab5fe9a88692995e3c883426b",
+  "summary": "Value Added Tax (VAT) in Business Central: setup, VAT on sales and purchases, non-deductible VAT, rate changes, multiple registration numbers, number validation, EU third-party trades, built-in reports and submission to tax authorities. It answers how-to questions about configuring, posting, correcting, validating and reporting VAT.",
+  "overview": "This section covers VAT work in Business Central from configuration to reporting. The Set up VAT subtopic holds the configuration: VAT rates, posting groups, registration numbers, clauses, VAT statements, nondeductible VAT and unrealized VAT. The pages in the hub itself describe day-to-day use of that setup.\n\nFor daily transactions, the pages on VAT on sales and purchases, non-deductible VAT and multiple VAT registration numbers explain how VAT is calculated, displayed, adjusted and assigned to documents. Validation of VAT registration numbers uses the EU VAT Reg. No. Validation Service with VIES. EU third-party purchase transactions and certificates of supply cover cross-border cases.",
   "key_points": [
-    "Set up VAT subtopic covers VAT rates, posting groups, registration numbers, clauses, VAT statements, nondeductible VAT and unrealized VAT.",
-    "Working with VAT on sales and purchases covers calculation and display, VAT date functionality, prices including VAT, manual VAT adjustment, VAT difference tolerance and certificates of supply (version 23.1 noted).",
-    "The VAT Rate Change tool converts VAT and general product posting groups on master data, journals and orders, can update unit prices, offers test conversion and logging, and has limits for some document types.",
-    "Multiple VAT registration numbers (2024 release wave 2) lets businesses with warehouses in several EU countries apply the right VAT registration and posting groups to sales documents, including ship-to addresses and credit memos.",
-    "Non-deductible VAT is handled on purchase invoices and orders using Non-Deductible VAT Base, Amount and % fields, with VAT adjustment before posting.",
-    "VAT registration numbers for customers, vendors and contacts are validated through the EU VAT Reg. No. Validation Service, which uses VIES and optional validation templates.",
-    "EU third-party purchase transactions are enabled in VAT setup and can be filtered in VAT statements and VIES declarations.",
-    "Submitting VAT reports covers the EC Sales List and VAT Return, with service connection, test mode, error validation and VAT settlement."
+    "Start with the Value Added Tax management overview, then Set up VAT for rates, posting groups, clauses, statements, nondeductible and unrealized VAT.",
+    "VAT on sales and purchases covers calculation and display, prices including VAT, VAT date functionality, manual VAT adjustment, VAT difference tolerance and certificates of supply for EU transactions. The page references version 23.1.",
+    "Non-deductible VAT lets you create purchase invoices and orders with Non-Deductible VAT Base, Amount and % and adjust amounts before posting. The page refers to the VAT Setup page.",
+    "Multiple VAT registration numbers (2024 release wave 2) assign the right VAT registration and posting groups to sales documents based on ship-to address or country.",
+    "The VAT Rate Change tool converts VAT and general product posting groups on master data, journals and orders and updates unit prices for items and resources. It has a test conversion and logging, but has limits for some document types.",
+    "Validate VAT registration numbers for customers, vendors and contacts through the EU VAT Reg. No. Validation Service (VIES). Results go to the VAT Registration Log.",
+    "Submit VAT reports covers EC Sales List and VAT Return reports, service connection, test mode, error validation and VAT settlement. Built-in VAT reports can be explored with Report Explorer.",
+    "EU 3-party trade purchases can be filtered in VAT statements and VIES declarations. Service contracts with VAT amounts are converted manually using corrections and credit memos."
   ],
   "members_used": 10,
   "subtopics_used": 1,
   "prompt_version": 1,
-  "at": "2026-10-07T02:09:20.974Z",
+  "at": "2026-10-28T10:58:53.734Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.017049
+    "cost_usd": 0.018213
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:18:08.129Z",
-    "verdict": "approve",
+    "at": "2026-10-28T11:01:48.839Z",
+    "verdict": "fix",
     "issues": [
-      "Key point 2 puts 'version 23.1' next to certificates of supply. The source only lists version 23.1 for the page as a whole, so it should not be read as the version for that one feature.",
-      "The narrative leaves out the page on converting service contracts that include VAT (correcting invoices, credit memos, prepaid contracts and rate changes). It could be added to the overview or the rate-change key point.",
-      "The overview is thin. It only describes VAT setup and largely repeats key point 1, without covering the other areas (sales and purchases, rate changes, reporting, submission)."
+      "Key point 2 links 'version 23.1' to certificates of supply. The source only attaches version 23.1 to the VAT on sales and purchases page as a whole, so I removed the link.",
+      "Key point 3 says non-deductible VAT 'is enabled on the VAT Setup page'. The source lists the VAT Setup page as a feature but never says that is where you turn the feature on, so I softened the wording.",
+      "Built-in VAT reports with Report Explorer appear in the summary but not in the key points. I added that to the last key point."
     ],
-    "input_hash": "01cccaaecea4d2a321e783d63ac29bd9bb7e1123cbcdd3b620c556090acaecb1",
-    "cost_usd": 0.042479199999999995
+    "input_hash": "1ab4e1d05f5d1bac7274705da92f27bbc91bfb1ab5fe9a88692995e3c883426b",
+    "cost_usd": 0.0527512
   }
 }

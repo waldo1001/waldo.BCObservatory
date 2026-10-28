@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 49421f899a4da243190537b376250079c6785e636342bf3edbf2b22d3afc092c
+  input_hash: 349c32050cc185cb0fc6aca1b80eccc953eb4a71b933caa088b2fd23606429a6
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/VATGroupManagement/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/VATGroupManagement/app
     title: src/Apps/W1/VATGroupManagement/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -222,4 +222,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 4706 | [D365 TEAM MEMBER - VAT Group Management](../objects/permissionsetextension/4706.md) |  |
 | 4707 | [INTELLIGENT CLOUD - VAT Group Management](../objects/permissionsetextension/4707.md) |  |
 
-Source: [src/Apps/W1/VATGroupManagement/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/VATGroupManagement/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/VATGroupManagement/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/VATGroupManagement/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

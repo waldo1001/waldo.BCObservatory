@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/yzhums-com/76918",
+  "input_hash": "3e56ce8ea317a4941b9d4077b6e78c01af24dd7bfe95ff0c8ae890560588a249",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-28T10:55:50.414Z",
+  "issues": [
+    "Summary and key points match the post; both quotes are verbatim.",
+    "The version tags are weakly supported: BC29 shows up only in the test app name, and the 2024 wave 1 entry comes from a linked earlier post. Tolerable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.03678,
+    "posts_in_call": 4
+  }
+}

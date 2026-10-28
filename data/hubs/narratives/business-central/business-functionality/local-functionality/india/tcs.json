@@ -1,37 +1,38 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/india/tcs",
-  "input_hash": "4257e96a97bf08f614571f00dc59fd456b0669d870438aa0236187f1f1a0eaac",
-  "summary": "TCS (Tax Collected at Source) in the Business Central India localization: setup, calculation on sales and receipts, threshold handling, Section 206C(1H), adjustments, and payment to government authorities. It answers how to configure and post TCS and how to correct and deposit it.",
-  "overview": "This section covers Tax Collected at Source for India under the Income Tax Act, 1961. It starts with setup, then moves to calculation on documents and journals, then to adjustment and payment.\n\nTwo setup pages exist. One covers general manual and automatic TCS configuration: TCS rates, tax accounting period, T.C.A.N, assessee code, nature of collection, concessional code and posting setup. The other covers Section 206C(1H), which applies to sales above INR 50,00,000 with different rates for PAN and non-PAN customers.\n\nCalculation pages explain how TCS applies to sales invoices, orders, returns and receipt journals. They also explain how threshold limits per TCS Nature of Collection work, and how Section 206C(1H) TCS is calculated on receipts. After posting, use the adjustment page to correct unpaid entries and the payment page to deposit TCS with the authorities. Start with the general setup page.",
+  "input_hash": "48284ffd39bec9b540e111a5e0734decd5f3ddc791ad6524193456780759bfe6",
+  "summary": "TCS (Tax Collected at Source) in the Business Central India localization: setup, calculation on sales and receipts, threshold handling, Section 206C(1H), adjustment entries, and payment to government authorities. It answers how to configure and post TCS and how to correct or pay it.",
+  "overview": "This section covers the full TCS lifecycle in the India localization. Setup pages describe configuring TCS rates, tax accounting periods, T.C.A.N., assessee codes, TCS nature of collection, concessional codes, posting setup and customer master settings. A separate setup page covers Section 206C(1H), including threshold-based rates and PAN and non-PAN customer rates.\n\nCalculation pages show how TCS is computed on sales orders, invoices, return orders and receipt vouchers, with examples of base amounts, rates and GL entries. Further pages cover threshold behavior (Threshold Overlook, Calc. Over & Above Threshold) and TCS on receipt of payment under Section 206C(1H), where a separate customer debit note is created.\n\nAfter calculation, TCS Adjustment Entries correct amounts, rates or base amounts that are not yet paid, and the payment page explains recording payment to government authorities through Payment Journal or Bank Payment Voucher. Start with the general TCS setup page, then the calculation pages. Use the Section 206C(1H) and threshold pages if those rules apply.",
   "key_points": [
-    "General setup covers TCS rates, tax accounting period, T.C.A.N, assessee code, TCS Nature of Collection, concessional code and posting setup.",
-    "Section 206C(1H) setup applies to Indian sales above INR 50,00,000, with different rates for PAN and non-PAN customers, and uses the Threshold Amount and Calc. Over & Above Threshold settings.",
-    "TCS under Section 206C(1H) is calculated on customer payment receipts over the INR 50 lakh threshold through journals, with GL posting and GST integration.",
-    "Threshold logic applies TCS only when amounts exceed the limit set per TCS Nature of Collection, aggregated over the financial year.",
-    "Sales and receipt calculation covers sales invoices, orders, returns and receipt journals, with scenarios for PAN status, lower rate certificates, zero rate, foreign currency and advance payment adjustment.",
-    "TCS adjustment journals correct TCS amount, rate and base on unpaid entries, with revised TCS, surcharge, eCess and SHE cess percentages.",
-    "Adjustments update GL accounts, TCS entries and customer ledger entries.",
-    "TCS is paid to the government through the Payment Journal or Bank Payment Voucher, with filters such as TCAN and Assessee. Entries are marked as paid when the journal is posted."
+    "General TCS setup includes rates, tax accounting periods, T.C.A.N., assessee codes, TCS nature of collection, concessional codes, posting setup and customer master settings.",
+    "Section 206C(1H) setup uses TCS nature of collection and rates with threshold-based calculation, and supports PAN and non-PAN customer rates.",
+    "Threshold options include Threshold Overlook and Calc. Over & Above Threshold, plus Allowed NOC and tax accounting period settings.",
+    "TCS can be calculated on goods and services through sales orders, invoices, return orders and receipt vouchers.",
+    "Examples cover customer advance payment adjustment, foreign currency conversion, higher rates for customers without PAN, and multiple natures of goods in one invoice.",
+    "For Section 206C(1H) receipts, enter the amount subject to TCS or use Get Open Posted Lines For TCS On Payment Calculation; the system creates a separate TCS debit note.",
+    "TCS Adjustment Entries correct TCS amount, rate, surcharge, eCESS, SHE Cess and base amount only for TCS not yet paid.",
+    "Payment to government is recorded in Payment Journal or Bank Payment Voucher using the TCS action, with filtering by posting date and assessee code."
   ],
   "members_used": 7,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:31.552Z",
+  "at": "2026-10-28T10:58:31.500Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.016263
+    "cost_usd": 0.017043
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:22:03.885Z",
+    "at": "2026-10-28T11:02:39.138Z",
     "verdict": "approve",
     "issues": [
-      "Minor: 'aggregated over the financial year' relies only on the 'financial year aggregation' feature label of the threshold page. It is supported, but the page summaries give no detail on how the aggregation works.",
-      "Minor: the overview and key points repeat the same setup field lists. This is acceptable, but the overview could be shorter."
+      "Minor: the setup page mentions automatic and manual configuration of TCS; the narrative omits this, which is acceptable.",
+      "Minor: the payment page's 'Tax Payments' feature is not mentioned; not required.",
+      "Minor: Key point 3 groups Allowed NOC and tax accounting period with threshold options. The threshold page supports this, but it lists them only as features."
     ],
-    "input_hash": "4257e96a97bf08f614571f00dc59fd456b0669d870438aa0236187f1f1a0eaac",
-    "cost_usd": 0.0396272
+    "input_hash": "48284ffd39bec9b540e111a5e0734decd5f3ddc791ad6524193456780759bfe6",
+    "cost_usd": 0.0428752
   }
 }

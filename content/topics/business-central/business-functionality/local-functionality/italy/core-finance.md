@@ -2,40 +2,40 @@
 id: topic/business-central/business-functionality/local-functionality/italy/core-finance
 type: topic
 title: Core finance
-summary: Core finance for the Italian version of Business Central covers fiscal year closing, how debit and credit amounts are defined in journals and ledger entries, and the restrictions on reversing journal entries. It answers how-to and rule questions for Italian accounting.
+summary: Core finance for the Italian version of Business Central covers closing a fiscal year, entering debit and credit amounts in the General Journal, and reversing journal entries under Italy-specific checks. It answers how-to and restriction questions for these three tasks.
 tier: official
 language: en
 system: finance
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:27:34.995Z"
+  at: "2026-10-28T11:03:47.201Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: a76056bb426b046a7921ccbac3a81ecba64aaab496f3c56beee760d179547698
+  input_hash: 0562fb67ed27611ad6435b756b9dd2dc4331426c7488ff1e2a1f1cc8d3c486b3
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-close-a-fiscal-year
-    title: How to Close a Fiscal Year
-    date: "2025-05-20"
+    title: Close a Fiscal Year in Business Central for Italy
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts
-    title: How to Define Debit and Credit Amounts
-    date: "2025-05-20"
+    title: Define Debit and Credit Amounts
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/reversing-journal-entries
-    title: Reversing Journal Entries [IT]
-    date: "2025-05-23"
+    title: Reversing Journal Entries in the Italian Version [IT]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -73,33 +73,31 @@ narrative: generated
 
 # Core finance
 
-> Core finance for the Italian version of Business Central covers fiscal year closing, how debit and credit amounts are defined in journals and ledger entries, and the restrictions on reversing journal entries. It answers how-to and rule questions for Italian accounting.
+> Core finance for the Italian version of Business Central covers closing a fiscal year, entering debit and credit amounts in the General Journal, and reversing journal entries under Italy-specific checks. It answers how-to and restriction questions for these three tasks.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section collects three Italy-specific pages on core finance tasks. They cover closing a fiscal year, defining debit and credit amounts, and the limits on reversing transactions in the Italian version.
+This section collects three pages on core general ledger tasks in the Italian localization. They deal with year-end closing, how journal lines are entered with debit and credit amounts, and what limits apply when reversing entries.
 
-For year-end work, start with the fiscal year closing page. It walks through closing accounting periods, running the Close Income Statement batch job to generate closing entries, and posting them from the general journal. The debit and credit page explains the matching rule that applies in the General Journal, Customer Ledger Entry, and Vendor Ledger Entry tables. The reversing entries page explains what the Italian Reverse Transaction Entries page blocks.
+Start with the debit and credit page if you work with the General Journal, since journal lines must balance before posting. The fiscal year page then shows how closing entries are generated and posted to the general journal. The reversal page explains the extra Italian checks that can block a reversal, and which workflows to use instead.
 
 ## Key points
 
-- Fiscal year closing steps: close accounting periods, generate closing entries with the Close Income Statement batch job, then post them to the general journal.
-- The closing process includes options for business units and dimensions, so entries can be filtered by them.
-- Closing entries transfer the income statement result to the balance sheet.
-- Debit and credit amounts can be defined in the General Journal, Customer Ledger Entry, and Vendor Ledger Entry tables.
-- Debit and credit amounts must match before the entry can be posted or saved.
-- The Italian Reverse Transaction Entries page prevents reversal of invoices, credit notes, and VAT-related documents.
-- Posted documents cannot be deleted, and reserved documents cannot be reversed.
+- Closing a fiscal year: close the accounting period, run Close Income Statement to generate closing entries, then post them from the general journal.
+- The year-end process uses Fiscal Year Ending Date, Gen. Journal Template, Gen. Journal Batch and Balancing Account.
+- Debit Amount and Credit Amount fields in the General Journal are used in the Italian localization, and journal lines must balance before posting.
+- Reverse Transaction in the Italian version has additional checks beyond the standard ones.
+- You cannot reverse invoices or credit memos with Reverse Transaction; use document correction or credit memo workflows for sales and purchase documents.
+- Transactions with final G/L book progressive numbers cannot be reversed.
+- Closed or already-reversed VAT entries cannot be reversed.
 
 ## Learn pages
 
-- [How to Close a Fiscal Year](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-close-a-fiscal-year): Learn to close a fiscal year, create a closing entry with the Close Income Statement option, and post it.
-  - In the observatory: [Page 100 "Accounting Periods"](../../../../../objects/page/100.md)
-- [How to Define Debit and Credit Amounts](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts): In the Italian version of Business Central, the Debit Amount and Credit Amount fields are included in multiple journals and tables.
-  - In the observatory: [Page 39 "General Journal"](../../../../../objects/page/39.md), [Table 21 "Cust. Ledger Entry"](../../../../../objects/table/21.md), [Table 25 "Vendor Ledger Entry"](../../../../../objects/table/25.md)
-- [Reversing Journal Entries [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/reversing-journal-entries): Reversing Journal Entries feature introduces controls on the Reverse Transaction Entries page to ensure compliance with Italian legal requirements.
-  - In the observatory: [Page 183 "Reverse Transaction Entries"](../../../../../objects/page/183.md)
+- [Close a Fiscal Year in Business Central for Italy](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-close-a-fiscal-year): Learn how to close an accounting year in the Italian version of Business Central, generate income statement closing entries, and post the journal.
+  - In the observatory: [Page 100 "Accounting Periods"](../../../../../objects/page/100.md), [Report 94 "Close Income Statement"](../../../../../objects/report/94.md)
+- [Define Debit and Credit Amounts](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts): In the Italian version of Business Central, the Debit Amount and Credit Amount fields are included in multiple journals and tables.
+- [Reversing Journal Entries in the Italian Version [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/reversing-journal-entries): Reversing Journal Entries feature introduces controls on the Reverse Transaction Entries page to ensure compliance with Italian legal requirements.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

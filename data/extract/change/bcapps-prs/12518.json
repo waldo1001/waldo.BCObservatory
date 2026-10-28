@@ -6,12 +6,13 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Fixed a page opening error caused by an invalid FlowField definition in the Financial Report table that referenced a non-existent user field.",
+  "summary": "Fixes a problem on releases/29.x where a page could not open because of the FlowField 'Last Run By User'. The change touches the Financial Report and Financial Report Audit Log tables and the Financial Reports and Acc. Schedule Overview pages.",
   "key_points": [
-    "Corrected the FlowField 'Last Run By User' in the Financial Report table that was causing page 490 to fail opening",
-    "Added proper field definitions to support the financial report tracking functionality",
-    "Added test cases to verify the fix works across different localizations",
-    "Changes affect the Financial Reports page and Accounting Schedule Overview"
+    "Fixes a page that failed to open because of the 'Last Run By User' FlowField",
+    "Changes the Financial Report and Financial Report Audit Log tables",
+    "Updates the Financial Reports and Acc. Schedule Overview pages",
+    "Adds tests to ERMAccountScheduleII in the W1, CZ and NA layers",
+    "Targets releases/29.x (BC29)"
   ],
   "change_kind": "fix",
   "behavior_change": true,

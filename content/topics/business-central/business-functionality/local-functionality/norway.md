@@ -2,299 +2,299 @@
 id: topic/business-central/business-functionality/local-functionality/norway
 type: topic
 title: Norway
-summary: "Norway local functionality in Business Central: VAT and SAF-T reporting, remittance and electronic banking, OCR/KID payments, EHF invoicing, recurring sales orders, payroll import, and applying entries in closed periods. It answers setup and how-to questions for Norway-specific processes."
+summary: "Norway local functionality in Business Central: VAT (VAT codes, reconciliation, SAF-T, electronic VAT return), banking and payments (remittance, OCR/KID, giro, EHF e-invoicing), and general features such as recurring sales orders and payroll import. It answers setup and usage questions for Norway-specific features."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:15:27.637Z"
+  at: "2026-10-28T11:01:03.848Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 34bb872842738ef7276c93aa139c029ba37cccdf4716164d1c463b528e113b31
+  input_hash: 3eae0fd4824b544bd049b0d983c2954157e85c73744e262730e83a0033d91bd2
 evidence:
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods
+    title: Apply Entries in Closed VAT Periods in Norway
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-calculate-proportional-vat
-    title: Calculate proportional VAT [NO]
-    date: "2025-05-12"
+    title: Calculate Proportional VAT in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-cancel-payments
-    title: Cancel payments [NO]
-    date: "2025-05-12"
+    title: Cancel Payments in the Norwegian Version [NO]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-electronic-documents-for-ehf
+    title: Create Electronic Documents for EHF
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-manual-remittance-payments
-    title: Create manual remittance payments [NO]
-    date: "2025-05-12"
+    title: Create Manual Remittance Payments in the Norwegian Version [NO]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-recurring-orders
+    title: Create Recurring Orders in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-remittance-accounts
-    title: Create remittance accounts [NO]
-    date: "2025-05-12"
+    title: Create Remittance Accounts in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-remittance-suggestions
-    title: Create remittance suggestions [NO]
-    date: "2025-05-13"
+    title: Create Remittance Suggestions in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-delete-remittance-payment-orders
-    title: Delete remittance payment orders [NO]
-    date: "2025-05-13"
+    title: Delete Remittance Payment Orders in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/electronic-banking-in-norway
-    title: Electronic banking in Norway
-    date: "2025-05-12"
+    title: Electronic Banking in Norway in Business Central
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway
-    title: Electronic invoicing in Norway
-    date: "2025-05-12"
+    title: Electronic Invoicing in Norway
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/electronic-payments-to-vendors-in-norway
     title: Electronic Payments to Vendors in Norway
-    date: "2025-05-12"
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-export-remittance-payments
-    title: Export remittance payments [NO]
-    date: "2025-05-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods
-    title: How to Apply General Ledger Entries in Closed Periods
-    date: "2025-05-12"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-electronic-documents-for-ehf
-    title: How to Create Electronic Documents for EHF
-    date: "2025-05-12"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-recurring-orders
-    title: How to Create Recurring Orders [NO]
-    date: "2025-05-12"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-payment-return-data
-    title: How to import payment return data [NO]
-    date: "2025-05-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-payroll-transactions
-    title: How to import payroll transactions [NO]
-    date: "2025-05-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-document-printing
-    title: How to Set Up Document Printing
-    date: "2025-05-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-kid-numbers-on-sales-documents
-    title: How to set up KID numbers on sales documents
-    date: "2025-05-14"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-payment-line-information
-    title: How to set up payment line information [NO]
-    date: "2025-05-14"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-recurring-groups
-    title: How to Set Up Recurring Groups
-    date: "2025-05-14"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-recurring-orders
-    title: How to Set Up Recurring Orders
-    date: "2025-05-14"
+    title: Export Remittance Payments in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-and-post-ocr-payments
-    title: Import and post OCR payments [NO]
-    date: "2025-05-13"
+    title: Import and Post OCR Payments [NO]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-payment-return-data
+    title: Import Payment Return Data in the Norwegian Version [NO]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-payroll-transactions
+    title: Import Payroll Transactions in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norway-local-functionality
-    title: Norway local functionality [NO]
-    date: "2025-10-29"
+    title: Norway Local Functionality [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-giro-and-ocr-b-font
-    title: Norwegian Giro and OCR-B font
-    date: "2025-05-15"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-codes
-    title: Norwegian VAT Codes
-    date: "2025-05-15"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-reporting
-    title: Norwegian VAT reporting [NO]
-    date: "2025-05-15"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-payroll-data-definitions-no
-    title: Payroll Data Definitions [NO]
-    date: "2025-05-16"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-print-a-vat-reconciliation-report
-    title: Print a VAT reconciliation report [NO]
-    date: "2025-05-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report
-    title: Print the OCR journal - Test report
-    date: "2025-05-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/proportional-vat
-    title: Proportional VAT [NO]
-    date: "2025-05-15"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/recipient-reference-codes
-    title: Recipient reference codes [NO]
-    date: "2025-05-16"
+    title: Norwegian Giro Payments and the OCR-B Font
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/recurring-orders
-    title: Recurring orders
-    date: "2025-05-16"
+    title: Norwegian Recurring Sales Orders
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-codes
+    title: Norwegian VAT Codes in Business Central
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-reporting
+    title: Norwegian VAT Reporting in Business Central
+    date: "2026-10-22"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-print-a-vat-reconciliation-report
+    title: Print a VAT Reconciliation Report in the Norwegian Version [NO]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report
+    title: Print the OCR Journal - Test Report
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/proportional-vat
+    title: Proportional VAT in Norway [NO]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/recipient-reference-codes
+    title: Recipient Reference Codes in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/remittance-errors
-    title: Remittance errors [NO]
-    date: "2025-05-15"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-customers-for-ehf
-    title: Set Up Customers for EHF
-    date: "2025-05-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ehf
-    title: Set Up EHF [NO]
-    date: "2025-05-14"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ocr-payments
-    title: Set up OCR payments [NO]
-    date: "2025-05-14"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-remittance-agreements
-    title: Set Up Remittance Agreements [NO]
-    date: "2025-05-14"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-vendors-for-remittance
-    title: Set Up Vendors for Remittance [NO]
-    date: "2025-05-14"
+    title: Remittance Errors in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no
-    title: Setup and generate SAF-T files
-    date: "2025-05-16"
+    title: Set Up and Export Norwegian SAF-T Files
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ehf
+    title: Set Up EHF in the Norwegian Version [NO]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-kid-numbers-on-sales-documents
+    title: Set Up KID Numbers on Sales Documents
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-customers-for-ehf
+    title: Set Up Norwegian Customers for EHF
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ocr-payments
+    title: Set Up Norwegian OCR Customer Payments
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-recurring-groups
+    title: Set Up Norwegian Recurring Order Groups
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-recurring-orders
+    title: Set Up Norwegian Recurring Sales Orders
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-document-printing
+    title: Set Up Norwegian Sales Document Printing
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-payment-line-information
+    title: Set Up Payment Line Information in the Norwegian Version [NO]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-payroll-data-definitions-no
+    title: Set Up Payroll Data Import in Norway [NO]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-remittance-agreements
+    title: Set Up Remittance Agreements in the Norwegian Version [NO]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-vendors-for-remittance
+    title: Set Up Vendors for Remittance in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-test-remittance-payments
-    title: Test Remittance Payments [NO]
-    date: "2025-05-14"
+    title: Test Remittance Payments in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/types-of-payment-returns-files
-    title: Types of payment returns files [NO]
-    date: "2025-05-16"
+    title: Types of Payment Returns Files in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -401,28 +401,27 @@ narrative: generated
 
 # Norway
 
-> Norway local functionality in Business Central: VAT and SAF-T reporting, remittance and electronic banking, OCR/KID payments, EHF invoicing, recurring sales orders, payroll import, and applying entries in closed periods. It answers setup and how-to questions for Norway-specific processes.
+> Norway local functionality in Business Central: VAT (VAT codes, reconciliation, SAF-T, electronic VAT return), banking and payments (remittance, OCR/KID, giro, EHF e-invoicing), and general features such as recurring sales orders and payroll import. It answers setup and usage questions for Norway-specific features.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Norway · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Norway section collects the localization features for Norwegian businesses. It opens with an overview page listing the covered areas: Norwegian VAT reporting, SAF-T management, electronic banking, EHF invoicing, remittance payments and OCR payments. The overview also mentions planned future legislation updates and refers to 2026 release wave 2.
+The Norway section collects the features specific to the Norwegian version of Business Central. It opens with an overview page that lists the main areas: VAT management including SAF-T reporting, banking and payments, recurring orders and payroll integration. The overview page mentions 2026 release wave 2.
 
-The content is split into three subtopics. VAT covers VAT codes, proportional deduction, reconciliation, electronic VAT returns via ID-Porten and SAF-T. Banking & payments is the largest group, with remittance setup, vendor payments, return files, OCR and KID customer payments, and EHF invoicing. General covers recurring sales orders, payroll transaction import, KID number setup and giro/KID document printing.
+The content is split into three subtopics. VAT covers VAT codes, one-code entry in journals, proportional VAT, the VAT reconciliation report, electronic VAT return submission through ID-Porten, and SAF-T setup and export. Banking & payments is the largest group and covers remittance payments to vendors, OCR and KID customer payments, Norwegian giro, and EHF electronic invoicing. General covers recurring sales orders, KID numbers on sales documents, giro printing setup, and payroll transaction import.
 
-One page sits directly in the hub: applying general ledger entries in closed periods. Start with the overview page, then go to the subtopic that matches your task.
+A standalone page explains how to let users apply entries in closed VAT periods, using General Ledger Setup and User Setup. Start with the overview page to find the area you need, then go to the matching subtopic for setup and processing steps.
 
 ## Key points
 
-- VAT: Norwegian VAT codes, entering one VAT code in journals, proportional VAT deduction, and VAT reconciliation reporting.
-- Electronic VAT returns are submitted via ID-Porten; SAF-T file setup and export are covered under VAT.
-- Banking & payments (25 pages): remittance agreements, accounts and vendors; create, test, export and cancel vendor payments; handle return files and errors.
-- Customer payments use OCR and KID; EHF electronic invoicing is also covered.
-- General: recurring sales orders from blanket orders and recurring groups, payroll import via the Payroll Data Definitions extension.
-- General also covers KID number setup and document printing setup for giro and KID.
-- To apply entries outside the allowed posting period, enable Application always Allowed in General Ledger Setup and User Setup.
-- The overview page references 2026 release wave 2 and planned future legislation updates.
+- VAT subtopic (7 pages): VAT codes, one-code entry in journals, proportional VAT, VAT reconciliation report.
+- Electronic VAT return is submitted through ID-Porten; SAF-T files have their own setup and export steps.
+- Banking & payments (25 pages): remittance payments to vendors via TelePay, BBS and SEPA, with return file and error handling topics.
+- Customer payments use OCR and KID; Norwegian giro with OCR-B font is covered; EHF is the e-invoicing format.
+- General subtopic (8 pages): recurring sales orders and groups, KID numbers on sales documents, giro printing setup.
+- Payroll transactions can be imported from Huldt & Lillevik Lønn - Visma.
+- Applying entries in closed VAT periods is allowed by configuring General Ledger Setup and User Setup (Application always Allowed).
 
 ## Subtopics
 
@@ -432,9 +431,9 @@ One page sits directly in the hub: applying general ledger entries in closed per
 
 ## More Learn pages
 
-- [How to Apply General Ledger Entries in Closed Periods](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods): Learn to post entries after a closed posting period, even without performing any actual postings during that time.
+- [Apply Entries in Closed VAT Periods in Norway](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods): Allow customer and vendor entry applications in closed Norwegian VAT periods for all users or selected users, while retaining posting date restrictions.
   - In the observatory: [Page 118 "General Ledger Setup"](../../../../objects/page/118.md), [Page 119 "User Setup"](../../../../objects/page/119.md)
-- [Norway local functionality [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norway-local-functionality): These articles describe all the local functionality in the Norwegian version of Business Central.
+- [Norway Local Functionality [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norway-local-functionality): Explore Norwegian functionality in Business Central for VAT reporting, SAF-T exports, remittance payments, OCR imports, EHF invoicing, and recurring orders.
 
 ## Business Central pages and reports
 

@@ -1,35 +1,35 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/netherlands/core-finance",
-  "input_hash": "1354e39e0856c329ede4f7008ca083acd29dcaa50e16d598e70af19a43c8fddf",
-  "summary": "Core finance for the Netherlands local version of Business Central covers two general ledger topics: applying and unapplying G/L entries, and requiring descriptions on G/L entries to support audit trails. It answers questions about Dutch-specific general ledger behavior.",
-  "overview": "This section holds Netherlands-specific general ledger functionality. It has no subtopics, only two pages, each covering one capability of the Dutch version.\n\nOne page explains how to apply and unapply general ledger entries in the Dutch version. The other describes required descriptions in G/L entries: the system can be configured so that journal lines need a detailed description beyond the default account description when posted, which helps maintain an audit trail.\n\nStart with the required descriptions page if you are setting up posting rules and audit controls. Use the apply and unapply page when you need to match or reverse the matching of G/L entries.",
+  "input_hash": "86968d7ef4069b2ef3f9d2b9be1041f72a90bc0b28e708cebe75442221186b8e",
+  "summary": "Core finance for the Netherlands localization of Business Central covers two general ledger topics: applying and unapplying G/L entries, and requiring descriptions on G/L entries. It answers questions about matching or reversing entries and enforcing descriptions for audit trails.",
+  "overview": "This section holds Netherlands-specific general ledger functionality. It has no subtopics, only two standalone pages, so each can be read on its own.\n\nThe first page explains how to apply and unapply general ledger entries in the Dutch version, which lets users manually match entries or reverse a match. The second page explains how to configure G/L accounts so users must type a description in journal lines instead of relying on the default account name. Posting is blocked when the description is blank.\n\nStart with the apply and unapply page if your question is about matching entries. Use the description page if you need better documentation in the audit trail.",
   "key_points": [
-    "Applies only to the Dutch (Netherlands) version of Business Central.",
-    "General ledger entries can be applied and unapplied in the Dutch version.",
-    "Required descriptions on G/L entries support audit trails.",
-    "The system can be configured to enforce detailed descriptions beyond the default account description.",
-    "Description validation takes place when journal lines are posted.",
-    "The section has two pages and no subtopics."
+    "G/L entries can be applied manually in the Netherlands localization.",
+    "Applied G/L entries can be unapplied to reverse the match.",
+    "G/L accounts can be set to require a description instead of the default account name.",
+    "The setting is called Omit Default Descr. in Jnl.",
+    "With required descriptions on, posting with a blank description is blocked.",
+    "Required descriptions are meant to improve audit trail documentation."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:06:25.267Z",
+  "at": "2026-10-28T10:57:57.972Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.0076489999999999995
+    "cost_usd": 0.0077009999999999995
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T05:22:00.172Z",
+    "at": "2026-10-28T11:04:05.144Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the key point 'The section has two pages and no subtopics' describes how the section is organized, not what Business Central does. It is accurate but of little use to an agent.",
-      "Minor: the overview describes apply and unapply as matching or reversing the matching of G/L entries. The source page summary only says 'apply and unapply', so this is a fair paraphrase but adds a little interpretation."
+      "Minor: the page summary lists 'Omit Default Descr. in Jnl.' as a feature but does not explicitly say it is a field on the G/L account. Calling it 'the setting' is a reasonable reading.",
+      "Minor: 'journal lines' is inferred from the 'Jnl.' in the setting name. It is plausible and not contradicted."
     ],
-    "input_hash": "1354e39e0856c329ede4f7008ca083acd29dcaa50e16d598e70af19a43c8fddf",
-    "cost_usd": 0.0275592
+    "input_hash": "86968d7ef4069b2ef3f9d2b9be1041f72a90bc0b28e708cebe75442221186b8e",
+    "cost_usd": 0.0222032
   }
 }

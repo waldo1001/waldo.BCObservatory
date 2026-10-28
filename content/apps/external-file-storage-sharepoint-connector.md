@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-26T05:39:01.092Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1e3cb775a6ff74f3fe31110bd603655b48f0d682470bf82938a427c1790aef91
+  input_hash: 15af0068c6f37c0c0f67bd22397c06230bcc6592d5d9ebac63d5b8430fc519ec
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/External%20File%20Storage%20-%20SharePoint%20Connector/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/External%20File%20Storage%20-%20SharePoint%20Connector/app
     title: src/Apps/W1/External File Storage - SharePoint Connector/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -146,4 +146,4 @@ Videos and posts that name this app's objects by exact type and name.
 
 - [Business Central 2026 release wave 1 (BC28): Storing Document Attachments outside the database (No customization) – See benefits of external storage support for document attachments](../posts/yzhums-com/69818.md) (community post, 2026-04-15): names Codeunit 4580 "Ext. SharePoint Connector Impl"
 
-Source: [src/Apps/W1/External File Storage - SharePoint Connector/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/External%20File%20Storage%20-%20SharePoint%20Connector/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/External File Storage - SharePoint Connector/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/External%20File%20Storage%20-%20SharePoint%20Connector/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

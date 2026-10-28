@@ -2,61 +2,54 @@
 id: topic/business-central/business-functionality/local-functionality/mexico
 type: topic
 title: Mexico
-summary: "Mexico local functionality in Business Central covers features unique to the Mexican version: tax reporting (DIOT, RFC and CURP, VAT recalculation), electronic invoicing with CFDI, and general tasks such as electronic accounting export and vendor payment export. It answers setup and how-to questions for these tasks."
+summary: "Mexico local functionality in Business Central: tax (DIOT reports, RFC and CURP tax IDs, cash-basis VAT), electronic invoicing (CFDI, payment receipts, Carta de Porte), and general features such as electronic accounting export, bank deposits and vendor payment export. It answers setup, reporting and compliance questions for Mexican companies."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:19:06.401Z"
+  at: "2026-10-28T11:01:49.407Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: e12b5dc29e3848af38b0698b767109256993a4e8355aa455f90206ba165803a6
+  input_hash: 48327f078257d187aa5bde63e4c75a62d2346db9f019711034e14a78ce890f55
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/packing-slips-transfer-orders
-    title: Carta de Porte packing slips and transfer orders [MX]
-    date: "2025-02-26"
+    title: Carta de Porte Packing Slips and Transfer Orders in Mexico
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-accounting-regulations
-    title: Electronic accounting regulations in Mexico
-    date: "2025-02-25"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-invoicing
-    title: Electronic invoicing - Mexico
-    date: "2025-05-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices
-    title: Generate electronic invoices [MX]
-    date: "2025-02-25"
+    title: Comply with Electronic Accounting Regulations in Mexico
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-create-deposits
-    title: How to create deposits [MX]
-    date: "2025-02-25"
+    title: Create Deposits in the Mexican Version [MX]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-print-troubleshooting-reports
-    title: How to Print Troubleshooting Reports [MX]
-    date: "2025-02-25"
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-invoicing
+    title: Electronic Invoicing in the Mexican Version
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices
+    title: Generate Electronic Invoices in the Mexican Version [MX]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -69,43 +62,50 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/mexico-local-functionality
-    title: Mexico local functionality
-    date: "2025-06-30"
+    title: Mexico Local Functionality in Business Central
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-print-troubleshooting-reports
+    title: Print Troubleshooting Reports in the Mexican Version [MX]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx
-    title: Set up and generate DIOT reports | Microsoft Docs
-    date: "2025-06-30"
+    title: Set Up and Generate DIOT Reports
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing
-    title: Set Up Electronic Invoicing [MX]
-    date: "2025-05-01"
+    title: Set Up Electronic Invoicing - Mexico [MX]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-pac-web-services
-    title: Set Up PAC Web Services
-    date: "2025-02-25"
+    title: Set Up PAC Web Services in Mexico
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/tax-identification-types-for-mexico
     title: Tax Identification Types for Mexico
-    date: "2025-02-26"
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/vat-recalculation
-    title: VAT recalculation
-    date: "2025-02-26"
+    title: VAT Recalculation and Cash-Basis VAT in Mexico
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -194,22 +194,28 @@ narrative: generated
 
 # Mexico
 
-> Mexico local functionality in Business Central covers features unique to the Mexican version: tax reporting (DIOT, RFC and CURP, VAT recalculation), electronic invoicing with CFDI, and general tasks such as electronic accounting export and vendor payment export. It answers setup and how-to questions for these tasks.
+> Mexico local functionality in Business Central: tax (DIOT reports, RFC and CURP tax IDs, cash-basis VAT), electronic invoicing (CFDI, payment receipts, Carta de Porte), and general features such as electronic accounting export, bank deposits and vendor payment export. It answers setup, reporting and compliance questions for Mexican companies.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Mexico · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Mexico section documents functionality specific to the Mexican version of Business Central. The section's landing page names the main areas: tax reports, electronic invoicing with CFDI 4.0, and payments. It lists the 2025 version.\n\nThe content is split into three subtopics. Tax covers DIOT reporting of vendor purchase VAT to SAT, tax identification types for customers and vendors, and VAT recalculation on foreign currency payments. Electronic invoice covers CFDI XML invoices, SAT certificates, PAC web services, invoice generation, and Carta de Porte for packing slips and transfer orders. General covers electronic accounting export to the SAT, deposits and troubleshooting reports, and vendor payment export.\n\nUse Electronic invoice for CFDI setup, certificates, PAC web services and stamping questions. Use Tax for DIOT, RFC and CURP, and VAT recalculation. Use General for electronic accounting export, deposits and troubleshooting reports, and payment export files.
+This section collects the Business Central features built for Mexican legal and tax requirements. The landing page lists the main areas: tax features such as DIOT reports and VAT recalculation, electronic invoicing (CFDI 4.0, Pagos 2.0, Carta de Porte 3.1), and general features like electronic accounting and payments. It is marked for 2025.
+
+The content is split into three subtopics. Tax covers DIOT reports for SAT, tax identification types (RFC and CURP), and cash-basis VAT with exchange-rate adjustments. Electronic invoice covers SAT certificates and PAC web service setup, generating and cancelling CFDI invoices and payment receipts, and Carta de Porte waybills for goods transport. General covers electronic accounting export, bank deposits, vendor payment export, and troubleshooting report printing.
+
+Start with the landing page for an overview. Then go to Electronic invoice if you are setting up stamping and certificates, to Tax for VAT and registration questions, or to General for accounting exports and payments.
 
 ## Key points
 
-- The landing page lists DIOT reports, tax identification types, VAT recalculation, electronic invoicing, CFDI 4.0 and PAC web services, and names the 2025 version.
-- Tax (3 pages): DIOT reporting of vendor purchase VAT to SAT, RFC and CURP identification types, and VAT recalculation on foreign currency payments.
-- Electronic invoice (5 pages): CFDI XML invoices, SAT certificates, PAC web services, invoice generation and stamping.
-- Electronic invoice also covers Carta de Porte for packing slips and transfer orders.
-- General (4 pages): electronic accounting export to the SAT as XML, plus deposits and troubleshooting reports in the Mexican version.
-- Vendor payments can be exported with SEPA Credit Transfer or AMC Banking 365 Fundamentals.
+- Tax: DIOT reports for SAT, tax identification types (RFC and CURP), and cash-basis VAT with exchange-rate adjustments.
+- VAT recalculation is listed among the Mexico tax features on the landing page.
+- Electronic invoicing covers CFDI 4.0, Pagos 2.0 payment receipts, and Carta de Porte 3.1 waybills.
+- Electronic invoice setup involves SAT certificates and PAC web services; the pages also cover generating and cancelling CFDI invoices and payment receipts.
+- Electronic accounting export produces XML files for chart of accounts, trial balance, journals, and auxiliary accounts.
+- General pages also cover bank deposits and vendor payment export via SEPA or AMC Banking.
+- A troubleshooting page covers report printing problems.
+- The landing page is marked for version 2025.
 
 ## Subtopics
 
@@ -219,7 +225,7 @@ The Mexico section documents functionality specific to the Mexican version of Bu
 
 ## More Learn pages
 
-- [Mexico local functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/mexico-local-functionality): The following articles provide descriptions of the local functionality in the Mexican version of Business Central.
+- [Mexico Local Functionality in Business Central](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/mexico-local-functionality): Learn about electronic invoicing, DIOT reports, electronic accounting, tax identification, and bank deposits in Business Central for Mexico.
 
 ## Business Central pages and reports
 

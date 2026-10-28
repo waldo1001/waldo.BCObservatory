@@ -2,47 +2,47 @@
 id: topic/business-central/business-functionality/relationship-management/manage-segments
 type: topic
 title: Manage segments
-summary: "Segments in Business Central relationship management: creating segments, adding contacts, refining or reducing the contact list with filters, and logging interactions with segment members. It answers questions about grouping contacts for marketing campaigns and bulk communications."
+summary: "Marketing segments in Business Central Relationship management: creating segments, adding and filtering contacts, and logging interactions for a whole group. It answers questions about grouping contacts for targeted campaigns such as direct mail, and about tracking follow-up."
 tier: official
 language: en
 system: crm
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:25:39.128Z"
+  at: "2026-10-28T11:03:39.378Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: cc8b1be5925c1068acbbf973dc33be6c0052b2752f9590dfb8a87bfa743704d3
+  input_hash: 3ce22b7fce2aba0b8d48983d288fb17ccccaecf98b168d783e6e30c243225af6
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-add-contact-segment
-    title: Add contacts to segments
-    date: "2025-10-03"
+    title: Add Contacts to Marketing Segments
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-segment
-    title: Create Segments
-    date: "2025-10-03"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-segments
-    title: Keep track of segments and related interactions
-    date: "2025-10-03"
+    title: Create Marketing Segments for Contacts
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-segments
-    title: Manage segments and select contacts
-    date: "2025-10-03"
+    title: Manage Segments and Select Contacts
+    date: "2026-10-22"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-segments
+    title: Track Segments and Their Contact Interactions
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
@@ -50,8 +50,8 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/marketing-add-contact-segment
     - https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-segment
-    - https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-segments
     - https://learn.microsoft.com/dynamics365/business-central/marketing-segments
+    - https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-segments
   objects:
     - object/page/5091
     - object/page/5093
@@ -86,35 +86,35 @@ narrative: generated
 
 # Manage segments
 
-> Segments in Business Central relationship management: creating segments, adding contacts, refining or reducing the contact list with filters, and logging interactions with segment members. It answers questions about grouping contacts for marketing campaigns and bulk communications.
+> Marketing segments in Business Central Relationship management: creating segments, adding and filtering contacts, and logging interactions for a whole group. It answers questions about grouping contacts for targeted campaigns such as direct mail, and about tracking follow-up.
 
 Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Manage segments · tier official · system crm · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Segments group contacts by criteria such as industry or business relationship, so you can target campaigns and send bulk communications such as direct mail. The section has four pages and no subtopics.
+Segments group contacts that share criteria, such as industry or business relationship, so you can target them with campaigns and communications. The section has four pages and no subtopics.
 
-Start with "Create Segments" for how a segment is made and numbered with a number series. Then read "Add contacts to segments" for the Add Contacts batch job and the Refine Contacts and Reduce Contacts actions, which use filter criteria to adjust who is in the segment. "Manage segments and select contacts" covers choosing target contacts for campaigns. "Keep track of segments and related interactions" covers logging interactions with segment members, merging documents, and follow-up.
+Start with "Create Marketing Segments for Contacts" to set up a segment and its number. Then use "Add Contacts to Marketing Segments" to fill and adjust membership with the Add, Refine, and Reduce Contacts actions. "Manage Segments and Select Contacts" gives the overall view of selecting contacts by criteria. "Track Segments and Their Contact Interactions" covers the Segment page for logging interactions, personalizing them per contact, merging with Word documents, and creating follow-up segments.
 
 ## Key points
 
-- Segments group contacts for targeted marketing campaigns and bulk interactions such as direct mail.
-- Segment numbering uses a number series.
-- The Add Contacts action runs a batch job that adds contacts to a segment.
-- Refine Contacts and Reduce Contacts use filter criteria to narrow or shrink the contact list.
-- The Go Back action is available when working with segment contacts.
-- Contacts can be grouped by criteria such as industry or business relationship.
-- Interactions with segment members can be logged, including marketing and sales communications.
-- Document merging and segment follow-up support tracking of communications.
+- A segment groups contacts for targeted interactions such as direct mail campaigns.
+- Segments get a number, which comes from a number series.
+- Add Contacts, Refine Contacts, and Reduce Contacts actions build and adjust segment membership using filters.
+- The Go Back action and segment criteria tracking help when changing contact selections.
+- Contacts can be managed manually or by selection criteria.
+- Interactions can be logged for many contacts at once and personalized for individual contacts.
+- Segments can be merged with Word documents for bulk communications.
+- Follow-up segments can be created to track later actions.
 
 ## Learn pages
 
-- [Add contacts to segments](https://learn.microsoft.com/dynamics365/business-central/marketing-add-contact-segment): Add contacts to a segment after creating it to target specific customers or clients as part of a marketing campaign.
-- [Create Segments](https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-segment): Describes how to create a segment for a group of contacts, for example, to target several contacts with a direct mail.
+- [Add Contacts to Marketing Segments](https://learn.microsoft.com/dynamics365/business-central/marketing-add-contact-segment): Add contacts to marketing segments in Business Central, then refine or reduce the group to target the right audience for your campaigns.
+- [Create Marketing Segments for Contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-how-create-segment): Create a marketing segment in Business Central to group contacts for a campaign, assign a segment number, and prepare to add your target audience.
   - In the observatory: [Page 5094 "Marketing Setup"](../../../../objects/page/5094.md)
-- [Keep track of segments and related interactions](https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-segments): Learn about creating segments to define groups of contacts and specifying interactions for segments.
+- [Manage Segments and Select Contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-segments): Group contacts into marketing segments in Business Central, select contacts using criteria, and record interactions with your campaign audience.
+- [Track Segments and Their Contact Interactions](https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-segments): Create contact segments in Business Central, reuse selection criteria, personalize interactions, and log segments to keep a history of communication.
   - In the observatory: [Page 5091 "Segment"](../../../../objects/page/5091.md), [Page 5139 "Logged Segments"](../../../../objects/page/5139.md)
-- [Manage segments and select contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-segments): Learn how to create and manage segments by selecting groups of contacts based on specific criteria, enabling you to effectively target these segments in future campaigns.
 
 ## Videos, posts and code changes
 

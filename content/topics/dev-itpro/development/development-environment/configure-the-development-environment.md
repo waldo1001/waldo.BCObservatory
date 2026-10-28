@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:18.690Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,8 +48,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-json-launch-file
-    title: Launch JSON file
-    date: "2026-05-29"
+    title: Launch JSON Settings for Business Central AL
+    date: "2026-10-16"
     commit: null
     t: null
     quote: null

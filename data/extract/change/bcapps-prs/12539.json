@@ -6,13 +6,13 @@
   "systems_joined": [
     "copilot"
   ],
-  "summary": "Expense Agent now supports consumption V2 API, a 50-expense trial quota, improved telemetry with static messages and model metadata dimensions, and an internal quota interface for extensibility.",
+  "summary": "Expense Agent adds a V2 consumption API and a 50-expense feature trial, with trial status in the billing overview and remaining free expenses in setup. Quota checks go through an internal interface so tests can inject a mock, and telemetry now logs a static message with selected metadata dimensions instead of the raw request.",
   "key_points": [
-    "Adds V2 consumption API with nested v1 field validation",
-    "Implements 50-expense feature trial with trial status display",
-    "Policy-evaluation operations excluded from trial usage counting",
-    "Internal quota interface enables test injection and production routing",
-    "Replaces raw telemetry with static messages and PascalCase metadata dimensions"
+    "V2 consumption API validates nested v1 fields and required identifiers and rejects null usage values",
+    "50-expense trial; policy-evaluation operations do not count toward trial usage",
+    "Trial status shown in billing overview and remaining free expenses in setup wizard",
+    "Saved trial classification is preserved on retries, and consumption is allowed when trial quota is available",
+    "Internal quota interface with a default production implementation and test injection"
   ],
   "change_kind": "feature",
   "behavior_change": true,

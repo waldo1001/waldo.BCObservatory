@@ -1,24 +1,24 @@
 {
   "country": "US",
   "version": "29",
-  "input_hash": "aaa7137bb4435126f517191b325715a56314577f5a18d91f18a87bc622c92933",
-  "summary": "United States (US) localization of Business Central 29. It covers sales and use tax (tax areas, jurisdictions, groups, external tax engine), IRS 1099 and 1096 reporting with IRIS submission, EFT/ACH payments, deposits and bank reconciliation, plus shared North American objects (Canada and Mexico CFDI). It answers where US tax, 1099 and banking behavior differs from W1.",
-  "overview": "The US layer is built around sales tax. Tax Area, Tax Jurisdiction and Tax Detail tables, codeunit 398 \"Sales Tax Calculate\" and sales tax procedures in the Sales-Post, Purch.-Post and Service posting codeunits calculate and post sales tax, and General Ledger Setup gains a \"VAT in Use\" field. Learn documents the setup in \"Basic Tax Setup in the US Version\", \"Sales tax in the US Version\", \"Set Up Use Tax and Purchase Tax [US]\" and \"Unrealized sales tax and sales payment discounts\". Code adds many events around tax calculation and posting, and an external tax engine hook (codeunit 400 \"ExternalTaxEngineDefault\" and the Use External Tax Engine field on Tax Area).\n\nIRS reporting is a large block of own objects. Codeunits for IRS 1099 form documents, form box calculation, IRIS XML generation, OAuth, transmission processing, the email queue and IRS 1096 form management support 1099-MISC, NEC, INT and DIV forms, printing, emailing vendors and IRIS submission. Vendors carry an IRS 1099 Code. Purchase headers, journal lines and vendor ledger entries carry IRS 1099 Code and Amount fields, and purchase lines an IRS 1099 Liable field. Learn covers setup, tracking, submission, 1096 and the regulatory box changes.\n\nBanking adds EFT export (ACH, RB, Cecoban, IAT) through data exchange definitions, check printing helpers, deposits and bank reconciliation codeunits. Learn notes that US bank reconciliation now uses the standard process, because the North American-specific features were deprecated and moved to the standard version in 2023 release wave 2. The layer also holds North American extras: Mexico CFDI e-invoicing fields and DIOT, Canadian provincial tax, GP and SL 1099 data migration, Yodlee bank feeds, Ceridian payroll, a Shopify tax matching extension and many NA reports.",
+  "input_hash": "250f82627e6cb20f8b1ca145e464d732ae82afe2d1f7acf1284114fcfc730181",
+  "summary": "United States (US) localization of Business Central 29. It covers sales and use tax (tax areas, jurisdictions, external tax engine), IRS 1099 and 1096 reporting with IRIS, EFT and ACH payments, checks, bank reconciliation and deposits. It also carries North American reports and Mexican CFDI and Canadian tax pieces.",
+  "overview": "The US layer adds sales tax logic alongside VAT (General Ledger Setup gets a VAT in Use field). Tax Area, Tax Jurisdiction and Tax Detail tables, codeunit 398 \\\"Sales Tax Calculate\\\" and the posting codeunits (Sales-Post, Purch.-Post, Serv-Documents Mgt.) carry events and procedures for tax calculation, rounding, prepayments and an external tax engine. Learn documents basic tax setup, sales tax, use and purchase tax, and unrealized sales tax and sales payment discounts.\\n\\nIRS reporting is a large block of its own objects: IRS 1099 form documents, form box calculation, IRIS transmission with OAuth, vendor email and printing, plus Form 1096, which is used to send paper 1099 forms to the IRS. Vendors, purchase documents, vendor ledger entries and journal lines get IRS 1099 fields. Learn covers setup, tracking vendor data, reporting and submission, legacy 1099 and the regulatory format changes.\\n\\nBanking adds EFT export (ACH, RB, Cecoban, IAT) through data exchange codeunits, check printing helpers, bank reconciliation worksheets and deposits. The code also holds many NA reports, Mexican CFDI/SAT e-invoicing fields and objects, Canadian tax fields (GST/HST, provincial tax area), Yodlee, Ceridian payroll, Shopify tax matching, and GP and SL 1099 data migration.",
   "key_points": [
-    "Sales and use tax engine: Tax Area, Tax Jurisdiction, Tax Detail, codeunit 398 with external tax engine procedures and many Before/After events in posting codeunits.",
-    "IRS 1099 forms with IRS reporting periods, form boxes, vendor mapping, printing, email and IRIS electronic filing; IRS 1096 for paper transmittals.",
-    "Vendor gains an IRS 1099 Code field; Purchase Header, Gen. Journal Line and Vendor Ledger Entry gain IRS 1099 Code and Amount fields, and purchase lines an IRS 1099 Liable field.",
-    "EFT and ACH payment export codeunits (US, CA, MX formats) with new Bank Account, Vendor Bank Account and Gen. Journal Line fields.",
-    "Deposits and bank reconciliation support, with codeunits to delete and print posted deposits and reconciliations; Learn says reconciliation follows the standard process since 2023 release wave 2.",
-    "Unrealized sales tax procedures in Gen. Jnl.-Post Line and prepayment sales tax handling.",
-    "Mexican CFDI e-invoice, SAT catalogs and DIOT objects are included in the NA layer, plus Canadian provincial tax fields.",
-    "Data migration for GP and SL 1099 data, Shopify tax matching, Yodlee and Ceridian payroll integrations."
+    "Sales tax: Tax Area, Tax Jurisdiction and Tax Detail tables, codeunit 398 with external tax engine hooks, and tax events in sales, purchase and service posting.",
+    "IRS 1099 forms with IRIS submission, vendor emailing, printing and form box calculation; legacy 1099 and IRS 1096 forms also present.",
+    "Vendor, Vendor Ledger Entry, purchase headers and journal lines carry an IRS 1099 Code field; IRS 1099 Amount is on Vendor Ledger Entry, Purchase Header and the general journal lines.",
+    "EFT export for ACH, RB, Cecoban and IAT formats, with new fields on Bank Account and Gen. Journal Line.",
+    "Bank reconciliation worksheet, deposits and check printing are local objects, with source codes and number series in setup.",
+    "Unrealized sales tax is supported by new procedures in Gen. Jnl.-Post Line and VAT Entry; Learn also documents sales payment discounts.",
+    "Mexican CFDI/SAT e-invoicing: own e-invoice codeunits and pages, with CFDI and SAT fields on sales, transfer, customer and company tables.",
+    "Data migration from GP and SL for 1099 data, plus Ceridian payroll import and Yodlee bank feeds."
   ],
   "areas": [
     {
       "area": "Finance",
-      "what": "Sales tax calculation (codeunit 398 with external tax engine procedures and events), tax fields on Gen. Journal Line, G/L Entry, VAT Entry, Tax Area and Tax Jurisdiction, unrealized tax procedures in Gen. Jnl.-Post Line. Also the full IRS 1099/1096 and IRIS codeunits and interfaces.",
-      "why": "Learn explains sales tax setup, unrealized sales tax, and the IRS 1099 and 1096 forms with mandatory format changes from version 27.0.",
+      "what": "Adds sales tax calculation (codeunit 398 with external tax engine hooks), tax detail rules, unrealized VAT handling in posting, and the whole IRS 1099/1096/IRIS reporting stack. Journal lines, VAT entries, G/L accounts and setup gain tax and IRS fields.",
+      "why": "Learn describes basic tax setup, sales tax, unrealized sales tax and IRS 1099 reporting as the US requirements.",
       "objects": [
         "codeunit/398",
         "codeunit/12",
@@ -26,59 +26,59 @@
         "table/318",
         "table/320",
         "table/81",
-        "codeunit/10045",
-        "codeunit/10031"
+        "table/254",
+        "codeunit/10045"
       ]
     },
     {
       "area": "eServices",
-      "what": "Mexican CFDI e-invoicing: E-Invoice Mgt., PAC communication (on-prem and SaaS), SAT catalogs and setup pages, CFDI wizard and field updaters, and accounts export.",
+      "what": "Own codeunits, pages and setup for Mexican CFDI e-invoicing, PAC web services and SAT catalogs, plus e-invoice communication.",
       "why": null,
       "objects": [
         "codeunit/10145",
         "codeunit/10146",
-        "codeunit/10174",
-        "codeunit/10175",
         "codeunit/27030",
-        "page/27010",
+        "interface/einvoice communication v2",
         "page/10457",
-        "interface/einvoice communication v2"
+        "page/27010",
+        "codeunit/10174",
+        "codeunit/10175"
       ]
     },
     {
       "area": "Bank",
-      "what": "EFT/ACH export codeunits and data exchange mapping for US, CA and MX formats, deposits, bank reconciliation, check handling. Adds export and check formatting fields on Bank Account and Check Ledger Entry.",
-      "why": "Learn covers creating deposits and reconciling bank accounts, noting deprecated NA features moved to standard in 2023 release wave 2.",
+      "what": "EFT export through ACH, RB, Cecoban and IAT codeunits, bank reconciliation, deposits and check printing. Bank Account, Check Ledger Entry and related pages gain fields and procedures.",
+      "why": "Learn documents bank reconciliation and deposit creation for the US.",
       "objects": [
         "table/270",
+        "codeunit/10098",
         "codeunit/10090",
         "codeunit/10094",
-        "codeunit/10098",
+        "codeunit/10130",
         "codeunit/10331",
         "table/272",
-        "page/370",
-        "codeunit/10130"
+        "page/370"
       ]
     },
     {
       "area": "Sales",
-      "what": "Sales tax on sales documents (tax area, exemption number, UPS zone, rounding fields), sales tax posting events in Sales-Post and prepayments, US report totals, and CFDI fields on posted documents.",
+      "what": "Sales tax on sales documents and posting, tax area on header, exemption and UPS zone fields, standard report totals with tax summaries, and CFDI fields on posted documents. Adds NA order, shipment and statistics pages.",
       "why": null,
       "objects": [
-        "table/36",
         "codeunit/80",
-        "codeunit/442",
+        "table/36",
         "table/37",
-        "table/18",
         "table/112",
         "report/1306",
+        "codeunit/442",
+        "table/18",
         "table/44"
       ]
     },
     {
       "area": "Purchases",
-      "what": "Purchase tax and use tax in Purch.-Post, provincial tax, IRS 1099 fields on vendors and purchase documents, and NA purchasing reports and statistics pages.",
-      "why": "Learn documents use tax and purchase tax setup and 1099 liable vendor tracking.",
+      "what": "Purchase tax, provincial tax and use tax posting, IRS 1099 fields on vendor and purchase documents, plus statistics pages and NA vendor reports.",
+      "why": "Learn covers use tax and purchase tax setup and vendor data tracking for 1099.",
       "objects": [
         "codeunit/90",
         "table/39",
@@ -91,33 +91,33 @@
     },
     {
       "area": "Inventory",
-      "what": "Mexican carta porte and SAT fields on items, transfer orders and shipments, plus NA inventory reports and vendor locations.",
+      "what": "Adds SAT and duty fields on items and transfer documents, vendor locations, and North American inventory reports.",
       "why": null,
       "objects": [
         "table/5744",
         "table/5740",
         "table/27",
-        "table/5741",
         "codeunit/333",
-        "table/10013"
+        "table/10013",
+        "report/10139"
       ]
     },
     {
       "area": "Service",
-      "what": "Sales tax in service documents: events and procedures in service posting codeunits, NA table and page extensions, statistics pages and sales tax reports.",
+      "what": "Sales tax calculation in service posting and documents, NA table and page extensions, and tax statistics pages and reports.",
       "why": null,
       "objects": [
         "codeunit/5988",
         "codeunit/10288",
         "codeunit/5987",
-        "report/10470",
-        "tableextension/10011",
-        "table/5902"
+        "report/5915",
+        "table/5902",
+        "report/10470"
       ]
     },
     {
       "area": "DataMigration",
-      "what": "GP and SL migration support for vendor 1099 data: box mapping, migration logs, helpers, validators and setup extensions.",
+      "what": "Migration of 1099 data from GP and SL, with box mapping tables, logs, and settings page extensions.",
       "why": null,
       "objects": [
         "codeunit/42003",
@@ -125,83 +125,88 @@
         "codeunit/47201",
         "table/41101",
         "table/47201",
-        "page/41000"
+        "page/41000",
+        "page/47200"
       ]
     },
     {
       "area": "Integration",
-      "what": "Shopify tax match (TMA) objects that match order tax lines to tax areas and jurisdictions, with review pages and shop setup extensions.",
+      "what": "Shopify tax match extension: tax area builder, matcher, review page and extensions of shop and order tax tables.",
       "why": null,
       "objects": [
         "codeunit/30471",
         "codeunit/30472",
-        "codeunit/30474",
         "page/30471",
         "tableextension/30470",
+        "tableextension/30481",
         "enum/30471"
       ]
     },
     {
       "area": "(no namespace)",
-      "what": "Bank reconciliation report and printing, DIOT and CFDI subject-to-tax objects, upgrade codeunits, bank permission sets and role profiles.",
+      "what": "Upgrade codeunits, bank reconciliation and deposit permission sets, role profiles, and the CFDI Subject to Tax table.",
       "why": null,
       "objects": [
         "report/10408",
+        "permissionset/27004",
         "codeunit/10124",
         "table/27008",
-        "permissionset/27004",
-        "profile/credit manager"
+        "profile/credit manager",
+        "enum/27030"
       ]
     },
     {
       "area": "Foundation",
-      "what": "Company Information gains US, Canada and Mexico tax fields, plus No. Series authorization fields, Source Code Setup for deposits and bank rec, and Navigate support for deposits.",
+      "what": "Company Information gains US and Canada tax fields, plus Navigate, No. Series Line and source code setup changes for bank rec and deposits.",
       "why": null,
       "objects": [
         "table/79",
         "page/344",
         "table/242",
         "table/309",
-        "codeunit/229"
+        "codeunit/229",
+        "table/204"
       ]
     },
     {
       "area": "Projects",
-      "what": "NA job and resource reports, plus extra budget fields on the Job Difference Buffer.",
+      "what": "North American job and resource reports, plus extra fields on the Job Difference Buffer.",
       "why": null,
       "objects": [
         "table/1019",
         "report/10210",
         "report/10216",
-        "report/10054"
+        "report/10219",
+        "report/10200"
       ]
     },
     {
       "area": "Payroll",
-      "what": "Ceridian payroll import: setup table and page, import xmlport, management codeunits and permission set extensions.",
+      "what": "Ceridian payroll import with setup table, XML port, and permission set extensions.",
       "why": null,
       "objects": [
-        "codeunit/1668",
         "codeunit/1666",
-        "xmlport/1661",
+        "codeunit/1668",
         "table/1665",
+        "xmlport/1661",
         "page/1665"
       ]
     },
     {
       "area": "Security",
-      "what": "Permission sets for the GP hybrid migration and changes to LOCAL and payables journal permission sets.",
+      "what": "Permission sets for the GP hybrid migration and changes to local and payables journal sets.",
       "why": null,
       "objects": [
         "permissionset/1001",
         "permissionset/1002",
-        "permissionset/4714",
-        "permissionset/3602"
+        "permissionset/3602",
+        "permissionset/8824",
+        "permissionset/4714"
       ]
     },
     {
       "area": "Utilities",
-      "what": "Document totals without rounding, copy document handling of sales tax lines and retention, Paragraph Handling, assisted setup tax step and data classification for DIOT.",
+      "what": "Document totals without rounding, copy document handling for sales tax and retention, plus assisted setup tax steps.",
       "why": null,
       "objects": [
         "codeunit/57",
@@ -223,29 +228,18 @@
     },
     {
       "area": "IO",
-      "what": "Data exchange definitions get EFT payment export type handling, and Config. Setup gets a Tax Area Code field.",
+      "what": "Data exchange definition changes to support EFT export types, and tax area code on Config. Setup.",
       "why": null,
       "objects": [
         "table/1222",
         "enum/1222",
-        "table/8627",
-        "table/1224"
-      ]
-    },
-    {
-      "area": "Microsoft",
-      "what": "B10 Adjustment table and page, and label reports for declarations 347 and 349.",
-      "why": null,
-      "objects": [
-        "table/10240",
-        "page/10240",
-        "report/14022",
-        "report/14023"
+        "table/1224",
+        "table/8627"
       ]
     },
     {
       "area": "HumanResources",
-      "what": "RFC No. and License No. fields on Employee, plus HR and Payroll role centers.",
+      "what": "Employee gains RFC and license fields, and HR and Payroll role centers.",
       "why": null,
       "objects": [
         "table/5200",
@@ -255,7 +249,7 @@
     },
     {
       "area": "ExpenseAgent",
-      "what": "A US subscriber for expense agent events.",
+      "what": "Adds a US event subscriber for the expense agent.",
       "why": null,
       "objects": [
         "codeunit/6913"
@@ -263,7 +257,7 @@
     },
     {
       "area": "FixedAssets",
-      "what": "Vehicle and SAT transport permission fields on Fixed Asset.",
+      "what": "Fixed Asset gains vehicle and SAT transport fields.",
       "why": null,
       "objects": [
         "table/5600"
@@ -272,27 +266,26 @@
   ],
   "learn_pages_used": 15,
   "prompt_version": 2,
-  "at": "2026-10-16T01:06:29.034Z",
+  "at": "2026-10-28T10:35:38.273Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.27175
+    "cost_usd": 0.26939399999999997
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-18T00:48:28.901Z",
+    "at": "2026-10-28T10:40:24.825Z",
     "verdict": "fix",
     "issues": [
-      "Overview says IRS 1099 forms are supported by own codeunits 'and interfaces'; the only interface named in the input is EInvoice Communication V2, so no interface is tied to IRS forms.",
-      "'IRS reporting is the largest newer block' is unsupported; the input gives no object counts or ages for the IRS block (the Mexican e-invoicing area alone has 124 objects).",
-      "'replace VAT calculation' overstates the input; General Ledger Setup gains a 'VAT in Use' field and HasVatInUse/IsVATInUse procedures, so VAT is optional, not simply replaced.",
-      "'the older bank reconciliation worksheet' conflicts with Learn, which says US bank reconciliation uses the standard process and the deprecated NA features moved to the standard version in 2023 release wave 2.",
-      "Key point 3 says Vendor gains IRS 1099 Code and Amount fields; Vendor only gains IRS 1099 Code. Amount is on Purchase Header, Gen. Journal Line and Vendor Ledger Entry.",
-      "Overview contains a stray whitespace-only line."
+      "The overview calls Form 1096 \"the older 1096 form\", which the input doesn't support. Learn describes Form 1096 as the form used to send paper 1099 forms to the IRS.",
+      "The overview says \"replaces VAT with sales tax logic\". The code adds a \"VAT in Use\" field and keeps VAT objects, and Learn lists reverse charge, so sales tax is added alongside VAT rather than replacing it.",
+      "A key point says Vendor and purchase documents carry IRS 1099 Code and Amount fields. Vendor and the posted purchase headers only add IRS 1099 Code. Amount is on Vendor Ledger Entry, Purchase Header, Gen. Journal Line and Posted Gen. Journal Line.",
+      "A key point says payment discounts are handled through new procedures in Gen. Jnl.-Post Line and VAT Entry. The added procedures cover unrealized VAT (CustUnrealizedVAT, VendUnrealizedVAT, PostUnrealVATEntry, GetUnrealizedVATPart), and none relates to payment discounts. Only Learn documents sales payment discounts.",
+      "The Mexican CFDI key point says \"Shipped\" and places e-invoice codeunits on tables. The codeunits are their own objects, and the fields extend sales, transfer and company tables."
     ],
-    "input_hash": "aaa7137bb4435126f517191b325715a56314577f5a18d91f18a87bc622c92933",
-    "cost_usd": 0.5043748,
+    "input_hash": "250f82627e6cb20f8b1ca145e464d732ae82afe2d1f7acf1284114fcfc730181",
+    "cost_usd": 0.4897148,
     "applied": [
       "overview",
       "key_points"

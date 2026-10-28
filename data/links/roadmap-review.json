@@ -4,73 +4,88 @@
     "573253": {
       "docs/learn-devitpro/dev-itpro/compliance/apptest-countries-and-translations.md@466349fd62ad3085": {
         "verdict": "drop",
-        "reason": "General Business Central country and language availability page with no mention of Expense Agent.",
-        "at": "2026-10-25T12:47:17.032Z"
+        "reason": "General Business Central country and language availability page, not about Expense Agent.",
+        "at": "2026-10-28T10:49:21.763Z"
       },
       "docs/learn-smb-docs/business-central/about-locale-language.md@39db8481ca1568ab": {
         "verdict": "drop",
-        "reason": "General multilanguage settings page, not about Expense Agent language support.",
-        "at": "2026-10-25T12:47:17.032Z"
+        "reason": "Covers general language and region settings, not Expense Agent's language support.",
+        "at": "2026-10-28T10:49:21.763Z"
       },
       "docs/learn-smb-docs/business-central/copilot-agents-region-language-availability.md@5d3fbc7e8695b77b": {
         "verdict": "keep",
-        "reason": "Documents which countries and languages Expense Agent supports, the capability this feature expands.",
-        "at": "2026-10-25T12:47:17.032Z"
+        "reason": "Documents country/region and language availability for Copilot features, including Expense Agent, which is what this feature extends.",
+        "at": "2026-10-28T10:49:21.763Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-calculate-depreciation-basis.md@fcb45685dce50721": {
         "verdict": "drop",
-        "reason": "Czech fixed asset localization, unrelated to Expense Agent.",
-        "at": "2026-10-25T12:47:17.032Z"
+        "reason": "Czech fixed-asset localization, not related to Expense Agent.",
+        "at": "2026-10-28T10:49:21.763Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-depreciate-holidays-for-fixed-assets.md@71959b7198351bb6": {
         "verdict": "drop",
-        "reason": "Czech depreciation holiday localization, unrelated to Expense Agent.",
-        "at": "2026-10-25T12:47:17.032Z"
+        "reason": "Czech depreciation holiday localization, not related to Expense Agent.",
+        "at": "2026-10-28T10:49:21.763Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/sales-correcting-documents.md@09aa45ec54dc612f": {
         "verdict": "drop",
-        "reason": "Czech VAT correcting documents, unrelated to Expense Agent.",
-        "at": "2026-10-25T12:47:17.032Z"
+        "reason": "Czech sales correction documents, not related to Expense Agent.",
+        "at": "2026-10-28T10:49:21.763Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md@dfbecffc9c56ec1b": {
         "verdict": "drop",
-        "reason": "Czech Intrastat extension, unrelated to Expense Agent.",
-        "at": "2026-10-25T12:47:17.032Z"
+        "reason": "Czech Intrastat extension, not related to Expense Agent.",
+        "at": "2026-10-28T10:49:21.763Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/unreliable-payer.md@2a956bff828b7070": {
         "verdict": "drop",
-        "reason": "Czech unreliable payer feature, unrelated to Expense Agent.",
-        "at": "2026-10-25T12:47:17.032Z"
+        "reason": "Czech unreliable payer feature, not related to Expense Agent.",
+        "at": "2026-10-28T10:49:21.763Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/denmark-local-functionality.md@3ad2d9d30fbca4f4": {
         "verdict": "drop",
-        "reason": "Denmark local functionality, unrelated to Expense Agent languages.",
-        "at": "2026-10-25T12:47:17.032Z"
+        "reason": "Denmark localization overview, not related to Expense Agent.",
+        "at": "2026-10-28T10:49:21.763Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/posting-depreciation-differences.md@3c23870ce5d4177a": {
         "verdict": "drop",
-        "reason": "Finnish depreciation localization, unrelated to Expense Agent.",
-        "at": "2026-10-25T12:47:17.032Z"
+        "reason": "Finnish depreciation localization, not related to Expense Agent.",
+        "at": "2026-10-28T10:49:21.763Z"
+      },
+      "docs/learn-smb-docs/business-central/LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md@ed3051e4e6f7e051": {
+        "verdict": "drop",
+        "reason": "Icelandic IRS mapping localization, not related to Expense Agent.",
+        "at": "2026-10-28T10:49:21.763Z"
+      },
+      "docs/learn-smb-docs/business-central/LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md@cc3dcf7a55d99449": {
+        "verdict": "drop",
+        "reason": "Icelandic VAT summary printing, not related to Expense Agent.",
+        "at": "2026-10-28T10:49:21.763Z"
+      },
+      "docs/learn-smb-docs/business-central/LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md@4180dfdd9efff5e9": {
+        "verdict": "drop",
+        "reason": "Icelandic tax reporting, not related to Expense Agent.",
+        "at": "2026-10-28T10:49:21.763Z"
       },
       "video/cVfZoDwKYpI#4@3ceea63163fb4bf9": {
         "verdict": "drop",
-        "reason": "Describes reading receipts in multiple languages, a different capability from translating the agent experience.",
-        "at": "2026-10-25T12:47:17.032Z"
+        "reason": "Covers reading receipts written in multiple languages, not adding new UI languages or regions.",
+        "at": "2026-10-28T10:49:21.763Z"
       },
       "video/kDixaZFPYE8#0@caa2556ba90f0fe2": {
         "verdict": "drop",
-        "reason": "Describes the earlier wave 1 languages, not the newly added ones.",
-        "at": "2026-10-25T12:47:17.032Z"
+        "reason": "Describes the earlier wave 1 languages (Danish, French, German, Spanish, English), not the newly added ones.",
+        "at": "2026-10-28T10:49:21.763Z"
       },
       "video/kDixaZFPYE8#1@caa2556ba90f0fe2": {
         "verdict": "drop",
-        "reason": "Describes the earlier wave 1 country expansion, not this feature's additions.",
-        "at": "2026-10-25T12:47:17.032Z"
+        "reason": "Describes the earlier wave 1 country expansion, not this release's coverage of all regions.",
+        "at": "2026-10-28T10:49:21.763Z"
       },
       "video/tj1vvsmAMVs#16@a67fc09321e506bd": {
         "verdict": "keep",
-        "reason": "Announces Expense Agent support for Czech, Dutch, Icelandic, Italian, Norwegian and Swedish.",
-        "at": "2026-10-25T12:47:17.032Z"
+        "reason": "Announces that Expense Agent now supports Czech, Dutch, Icelandic, Italian, Norwegian and Swedish, matching this feature.",
+        "at": "2026-10-28T10:49:21.763Z"
       }
     },
     "573254": {
@@ -445,10 +460,15 @@
       }
     },
     "573263": {
+      "docs/learn-smb-docs/business-central/across-how-to-create-workflows.md@5798f86c10d948e5": {
+        "verdict": "drop",
+        "reason": "General workflow creation page; it does not mention approvals for fixed asset journals.",
+        "at": "2026-10-28T10:49:10.881Z"
+      },
       "docs/learn-smb-docs/business-central/across-use-workflows.md@c3c6221619765f5a": {
         "verdict": "drop",
-        "reason": "This is a general page about approval workflows and says nothing about fixed asset journals.",
-        "at": "2026-10-25T12:48:33.161Z"
+        "reason": "General approval workflow overview; it does not describe approvals for fixed asset journals.",
+        "at": "2026-10-28T10:49:10.881Z"
       }
     },
     "573264": {
@@ -533,303 +553,288 @@
     "573305": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-extend-edocuments.md@ed55cc710b998bc0": {
         "verdict": "drop",
-        "reason": "General guide to extending the e-documents framework; it doesn't mention EDI exchange.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "General page on extending the e-documents framework; it doesn't mention EDI or order exchange.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "docs/learn-smb-docs/business-central/across-how-to-set-up-electronic-document-sending-and-receiving.md@f84769e285191305": {
         "verdict": "drop",
-        "reason": "Older PEPPOL setup for sending invoices and credit memos, from before this feature.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the older PEPPOL invoice setup, not EDI document exchange.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "docs/learn-smb-docs/business-central/across-set-up-data-exchange.md@77b1737345b188a9": {
         "verdict": "drop",
-        "reason": "General data exchange framework setup, not EDI in e-documents.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "About the general data exchange framework, not EDI in e-documents.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "docs/learn-smb-docs/business-central/finance-edocuments-connectors.md@921578fb3a2a4aec": {
         "verdict": "drop",
-        "reason": "Covers e-document connectors to access points, a different capability.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the access point connectors in general and doesn't mention EDI.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "docs/learn-smb-docs/business-central/finance-how-setup-edocuments-external.md@202b1a45f00700c9": {
         "verdict": "drop",
-        "reason": "Covers connector setup with external endpoints, not EDI document exchange.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "General connector setup with no EDI content.",
+        "at": "2026-10-28T10:49:33.841Z"
+      },
+      "docs/learn-smb-docs/business-central/finance-how-setup-edocuments.md@51fc566c41ef70c6": {
+        "verdict": "drop",
+        "reason": "General e-documents setup page with no EDI order or remittance exchange.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-edocuments-nemhadel.md@74136e25606e4e2e": {
         "verdict": "drop",
-        "reason": "Danish NemHandel e-invoicing setup, a different localization capability.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers Danish NemHandel e-invoicing, a different capability.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-set-up-oioubl.md@234b9d5547d9deac": {
         "verdict": "drop",
-        "reason": "OIOUBL setup for Danish invoicing, unrelated to EDI exchange.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the OIOUBL invoicing setup, which is unrelated to EDI.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/ui-extensions-oioubl.md@8d9dc96f8a8add0e": {
         "verdict": "drop",
-        "reason": "OIOUBL invoice generation, a different capability.",
-        "at": "2026-10-25T12:46:21.352Z"
-      },
-      "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/electronic-invoicing.md@4895090b1e32dd0a": {
-        "verdict": "drop",
-        "reason": "Mexican CFDI invoicing, unrelated.",
-        "at": "2026-10-25T12:46:21.352Z"
-      },
-      "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md@3e53544d73a28a22": {
-        "verdict": "drop",
-        "reason": "Mexican e-invoicing setup, unrelated.",
-        "at": "2026-10-25T12:46:21.352Z"
-      },
-      "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md@d26d1750919cd8cc": {
-        "verdict": "drop",
-        "reason": "Mexican PAC web services, unrelated.",
-        "at": "2026-10-25T12:46:21.352Z"
-      },
-      "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-nz-einvoice.md@42cda59f693fdbe4": {
-        "verdict": "drop",
-        "reason": "New Zealand Peppol PINT invoicing, not EDI order exchange.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the OIOUBL invoice extension, which is unrelated to EDI.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "docs/learn-smb-docs/business-central/purchasing-how-to-receive-and-convert-electronic-documents.md@38272cbac777d949": {
         "verdict": "drop",
-        "reason": "Older receiving and conversion of PEPPOL and OCR invoices.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the older capability for receiving PEPPOL and OCR invoices.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/07G7aC14Y_w#0@804b55ce0987230e": {
         "verdict": "keep",
-        "reason": "Announces EDI order exchange through the e-documents framework.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Announces EDI order exchange built on the e-documents framework.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/07G7aC14Y_w#1@804b55ce0987230e": {
         "verdict": "keep",
-        "reason": "Shows purchase orders sent as EDI e-documents.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Shows sending purchase orders as EDI e-documents.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/07G7aC14Y_w#12@804b55ce0987230e": {
         "verdict": "keep",
-        "reason": "Shows navigation between EDI purchase orders and the sales orders they create.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Shows navigation between EDI purchase orders, e-documents and the sales orders they create, which is part of the feature.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/07G7aC14Y_w#2@804b55ce0987230e": {
         "verdict": "keep",
-        "reason": "Shows sales orders created automatically from EDI purchase orders.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Shows a sales order being created automatically from an EDI purchase order.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/07G7aC14Y_w#3@804b55ce0987230e": {
         "verdict": "keep",
-        "reason": "Shows order responses sent back as part of the EDI exchange.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Shows the order response, which is part of EDI order exchange.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/07G7aC14Y_w#4@804b55ce0987230e": {
         "verdict": "keep",
-        "reason": "Shows remittance advices sent through EDI, a listed capability.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Shows sending a remittance advice through EDI, which the feature names.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/07G7aC14Y_w#5@804b55ce0987230e": {
         "verdict": "keep",
         "reason": "Shows the inbound/outbound direction setting for EDI exchanges.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/07G7aC14Y_w#6@804b55ce0987230e": {
         "verdict": "keep",
-        "reason": "Shows electronic identifiers used to match buyers and sellers in EDI.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Shows electronic identifiers used to match vendors and customers in EDI.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/07G7aC14Y_w#8@804b55ce0987230e": {
         "verdict": "keep",
         "reason": "Shows logging for each EDI exchange.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/07G7aC14Y_w#9@804b55ce0987230e": {
         "verdict": "keep",
-        "reason": "Shows Peppol as the underlying format for EDI exchanges.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Shows the Peppol format used underneath EDI exchanges.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/axQegcPweNY#7@5167867b4e37fa16": {
         "verdict": "drop",
-        "reason": "Covers the draft page service version for invoices, a different feature.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the draft page for invoices, a different feature.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/hba7KVWrIwY#0@9a5cc6114b35ad2a": {
         "verdict": "drop",
-        "reason": "Covers new connectors from 2024, a different capability.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the 2024 connectors, a different capability.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/hba7KVWrIwY#5@9a5cc6114b35ad2a": {
         "verdict": "drop",
-        "reason": "Older Peppol format showcase for invoicing, not EDI.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the older Peppol invoice format, not EDI.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/hba7KVWrIwY#7@9a5cc6114b35ad2a": {
         "verdict": "drop",
         "reason": "Covers the Avalara integration, a different capability.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/hba7KVWrIwY#8@9a5cc6114b35ad2a": {
         "verdict": "drop",
-        "reason": "Older document sending profile feature.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the older document sending profile capability.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/hba7KVWrIwY#9@9a5cc6114b35ad2a": {
         "verdict": "drop",
-        "reason": "Older scheduled import feature.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the older scheduled import capability.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/kAFdLxb2ghc#10@e2d53bab95d51f1e": {
         "verdict": "drop",
-        "reason": "Older workflow automation.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the older workflow automation.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/kAFdLxb2ghc#14@e2d53bab95d51f1e": {
         "verdict": "drop",
-        "reason": "Older sales invoice export.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the older sales invoice export.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/kAFdLxb2ghc#5@e2d53bab95d51f1e": {
         "verdict": "drop",
-        "reason": "Older matching of incoming e-documents to purchase orders, not EDI order exchange.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers older matching of incoming invoices to purchase orders, not EDI order exchange.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/kAFdLxb2ghc#8@e2d53bab95d51f1e": {
         "verdict": "drop",
-        "reason": "Describes the original framework in general.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Introduces the framework in general (2024), not EDI.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/QGIr_XPp8lk#0@5f58ba128a27c151": {
         "verdict": "drop",
-        "reason": "Developer interface for sending, not EDI.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers a developer interface, a different capability.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/QGIr_XPp8lk#1@5f58ba128a27c151": {
         "verdict": "drop",
-        "reason": "Developer response handler interface, not EDI.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers a developer interface, a different capability.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/QGIr_XPp8lk#2@5f58ba128a27c151": {
         "verdict": "drop",
-        "reason": "Developer receiver interface, not EDI.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers a developer interface, a different capability.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/QGIr_XPp8lk#3@5f58ba128a27c151": {
         "verdict": "drop",
-        "reason": "Developer receipt-marker interface, not EDI.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers a developer interface, a different capability.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/QGIr_XPp8lk#4@5f58ba128a27c151": {
         "verdict": "drop",
-        "reason": "Developer action interface, not EDI.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers a developer interface, a different capability.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/QGIr_XPp8lk#5@5f58ba128a27c151": {
         "verdict": "drop",
-        "reason": "Error handling improvements, unrelated.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers error handling improvements, which are unrelated to EDI.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/QGIr_XPp8lk#6@5f58ba128a27c151": {
         "verdict": "drop",
-        "reason": "Developer send context wrapper, unrelated.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers a developer parameter, a different capability.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/QGIr_XPp8lk#7@5f58ba128a27c151": {
         "verdict": "drop",
-        "reason": "Developer receive context wrapper, unrelated.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers a developer wrapper, a different capability.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/QGIr_XPp8lk#8@5f58ba128a27c151": {
         "verdict": "drop",
-        "reason": "Avalara connector update, unrelated.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the Avalara connector update, which is unrelated.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/S5Xw-b8YF-c#0@dc42371f9ce5ab29": {
         "verdict": "drop",
-        "reason": "E-document APIs, a different feature.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the e-document APIs, a different feature.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/tCmDKBszA1w#0@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Introduces the original core app, too general.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the 2023 E-Document Core app foundation, not EDI.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/tCmDKBszA1w#1@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "General e-invoicing introduction from 2023.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the older e-invoicing feature in general.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/tCmDKBszA1w#10@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older workflow functionality.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the older workflow feature.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/tCmDKBszA1w#11@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older document sending profile.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the older document sending profile.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/tCmDKBszA1w#12@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older status tracking.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers older status tracking in general.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/tCmDKBszA1w#13@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older manual actions.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the older manual actions.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/tCmDKBszA1w#14@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older receiving through a background job.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the older background receiving of invoices.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/tCmDKBszA1w#15@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older import of e-documents to purchase invoices.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the older purchase invoice import.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/tCmDKBszA1w#18@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older sales invoice e-invoicing.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the older sales e-invoices.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/tCmDKBszA1w#19@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older credit memo handling.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the older credit memo handling.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/tCmDKBszA1w#24@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Access point provider options, unrelated.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers access point provider options in general.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/tCmDKBszA1w#5@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older messaging system between access points, not EDI order exchange.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the older messaging system for invoices, not EDI.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/tCmDKBszA1w#9@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older service setup.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the older service setup.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/zy-Tg9bBtHc#2@49d3a462342ad5ac": {
         "verdict": "drop",
-        "reason": "Sales shipment e-documents, a different feature.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers e-shipments, a different feature.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/zy-Tg9bBtHc#4@49d3a462342ad5ac": {
         "verdict": "drop",
-        "reason": "Creating e-documents from already posted documents, a different feature.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers creating e-documents after posting, a different feature.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/zy-Tg9bBtHc#5@49d3a462342ad5ac": {
         "verdict": "drop",
-        "reason": "Email export workflow, a different feature.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers the export and email workflow, a different feature.",
+        "at": "2026-10-28T10:49:33.841Z"
       },
       "video/zy-Tg9bBtHc#6@49d3a462342ad5ac": {
         "verdict": "drop",
-        "reason": "Post and send attachments, a different feature.",
-        "at": "2026-10-25T12:46:21.352Z"
+        "reason": "Covers post-and-send attachments, a different feature.",
+        "at": "2026-10-28T10:49:33.841Z"
       }
     },
     "573306": {
@@ -855,112 +860,122 @@
       }
     },
     "573307": {
+      "docs/learn-smb-docs/business-central/LocalFunctionality/India/Posting-No-series-setup.md@a6bc11cd8cb6b712": {
+        "verdict": "drop",
+        "reason": "Describes number series by location in the Indian localization, not per-vendor series for self-billing invoices.",
+        "at": "2026-10-28T10:49:15.442Z"
+      },
       "video/8VRtBLNAOiI#2@788e96d0f75a0663": {
         "verdict": "drop",
-        "reason": "It describes the earlier global self-billing number series in Purchases & Payables Setup, not number series set per vendor.",
-        "at": "2026-10-25T12:48:20.034Z"
+        "reason": "Describes the earlier single self-billing number series in Purchase and Payable Setup, not the vendor-specific enhancement.",
+        "at": "2026-10-28T10:49:15.442Z"
       },
       "video/N_J1HB_fUCM#5@c217f39d96795196": {
         "verdict": "keep",
-        "reason": "It directly announces choosing a specific number series for each self-billing vendor, falling back to the setup default when none is chosen.",
-        "at": "2026-10-25T12:48:20.034Z"
+        "reason": "Directly announces choosing a number series for each self-billing vendor, with fallback to the setup default.",
+        "at": "2026-10-28T10:49:15.442Z"
       }
     },
     "573308": {
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-2.md@14ffd58f93aa19cd": {
         "verdict": "drop",
-        "reason": "Release notes only list generic withholding tax calculation, with nothing about employee transactions.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "These update notes only mention withholding tax calculation in general and say nothing about employee transactions.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
       "docs/learn-smb-docs/business-central/finance-how-record-reimburse-employee-expenses.md@350a6b074dfb6128": {
         "verdict": "keep",
-        "reason": "Covers withholding tax calculation on employee expense reimbursements.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "It explains withholding tax calculation on employee expense reimbursements posted to employee accounts.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
       "docs/learn-smb-docs/business-central/finance-set-up-withholding-tax.md@a7ff804a6a6bd578": {
         "verdict": "keep",
-        "reason": "Setup page explicitly covers withholding tax for employees, including employee withholding tax.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "It explicitly covers withholding tax setup for employees, including employee withholding tax and expense categories.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
       "docs/learn-smb-docs/business-central/finance-withholding-tax-employees.md@700621c459296d39": {
         "verdict": "keep",
-        "reason": "Documents setting up and posting employee withholding tax in journals.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "It documents how to set up and post withholding tax on employee transactions in journals.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
       "docs/learn-smb-docs/business-central/finance-withholding-tax.md@9915795e7aad9e84": {
         "verdict": "drop",
-        "reason": "Covers vendor withholding tax only.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "It covers withholding tax on vendor purchase documents only, not employees.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-calculate-and-post-withholding-tax-settlements.md@dfead4b35966a314": {
         "verdict": "drop",
-        "reason": "Covers Australian WHT settlements, not employee transactions.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "It covers Australian withholding tax settlements, a different capability.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
-      "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/set-up-withholding-tax.md@3023c2c2f0293f0b": {
+      "docs/learn-smb-docs/business-central/LocalFunctionality/India/TCS-206C-1H-Overview.md@c0c415c13e40308e": {
         "verdict": "drop",
-        "reason": "Covers Italian vendor withholding tax setup.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "It covers India's Tax Collected at Source, a different tax capability.",
+        "at": "2026-10-28T10:49:18.510Z"
+      },
+      "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/set-up-withholding-tax.md@3f5361d450fc1816": {
+        "verdict": "drop",
+        "reason": "It covers the Italian vendor withholding tax setup, not employee transactions.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
       "video/d4mYltz4Zwg#0@ea481a4d302829e5": {
         "verdict": "drop",
-        "reason": "Shows withholding tax for vendors in the purchase process.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "This segment covers withholding tax for vendors in the purchase process, not employees.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
       "video/d4mYltz4Zwg#1@ea481a4d302829e5": {
         "verdict": "drop",
-        "reason": "Shows the general posting group configuration for vendors, with nothing on employees.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "This segment shows general posting group configuration framed around vendors, with no mention of employees.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
       "video/d4mYltz4Zwg#2@ea481a4d302829e5": {
         "verdict": "drop",
-        "reason": "Shows enabling withholding tax on vendors.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "This segment covers enabling withholding tax on vendors only.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
       "video/d4mYltz4Zwg#3@ea481a4d302829e5": {
         "verdict": "drop",
-        "reason": "Shows item-level product posting groups, not employee transactions.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "This segment covers item product posting groups, not employee transactions.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
       "video/d4mYltz4Zwg#4@ea481a4d302829e5": {
         "verdict": "drop",
-        "reason": "Shows threshold rules described for vendors.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "This segment covers threshold rules applied to vendors, not employees.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
       "video/d4mYltz4Zwg#5@ea481a4d302829e5": {
         "verdict": "drop",
-        "reason": "General invoice vs. payment timing, with nothing on employees.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "This segment covers invoice versus payment timing for vendor withholding tax, not employees.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
       "video/d4mYltz4Zwg#6@ea481a4d302829e5": {
         "verdict": "drop",
-        "reason": "Base amount override on invoices, with nothing on employees.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "This segment covers overriding the base amount on vendor invoices, not employee transactions.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
       "video/d4mYltz4Zwg#7@ea481a4d302829e5": {
         "verdict": "drop",
-        "reason": "General posting preview of vendor withholding tax.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "This segment covers the general posting preview in the vendor withholding tax demo, not employees.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
       "video/d4mYltz4Zwg#8@ea481a4d302829e5": {
         "verdict": "drop",
-        "reason": "General withholding tax entries, not specific to employees.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "This segment covers general withholding tax entries from vendor posting, not employees.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
       "video/d4mYltz4Zwg#9@ea481a4d302829e5": {
         "verdict": "drop",
-        "reason": "General Ledger Setup prerequisite for withholding tax in general.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "This segment covers the general General Ledger Setup requirement, not the employee extension.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
       "video/mT_0VKqdEzA#7@a02b3f8e1845ce02": {
         "verdict": "keep",
-        "reason": "Shows new withholding tax fields on the employee card used for employee withholding tax.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "It shows the new withholding tax fields on the employee card used for employee withholding tax.",
+        "at": "2026-10-28T10:49:18.510Z"
       },
       "video/N_J1HB_fUCM#8@c217f39d96795196": {
         "verdict": "keep",
-        "reason": "Announces withholding tax calculation for employees.",
-        "at": "2026-10-25T12:47:00.920Z"
+        "reason": "It directly announces the new capability to calculate and apply withholding tax for employees.",
+        "at": "2026-10-28T10:49:18.510Z"
       }
     },
     "573312": {
@@ -1692,53 +1707,58 @@
     "573325": {
       "docs/learn-devitpro/dev-itpro/administration/telemetry-financial-report-lifecycle-trace.md@bf72400c24da5c3b": {
         "verdict": "drop",
-        "reason": "Covers lifecycle telemetry for financial reports, a different capability from logging changes in the change log.",
-        "at": "2026-10-25T12:48:37.316Z"
+        "reason": "Covers lifecycle telemetry, which is a separate capability from automatic change log recording.",
+        "at": "2026-10-28T10:49:15.903Z"
       },
       "docs/learn-devitpro/dev-itpro/auditing/auditing-overview.md@b891a597fdea15a0": {
         "verdict": "drop",
-        "reason": "General auditing overview that doesn't mention financial report definitions.",
-        "at": "2026-10-25T12:48:37.316Z"
+        "reason": "A general auditing overview that doesn't describe change logging for financial report definitions.",
+        "at": "2026-10-28T10:49:15.903Z"
       },
       "docs/learn-smb-docs/business-central/finance-financial-reporting-auditing.md@c671ee4781c1e028": {
         "verdict": "keep",
-        "reason": "2026 wave 2 Learn page on using the change log to monitor changes to financial report definitions.",
-        "at": "2026-10-25T12:48:37.316Z"
+        "reason": "Explains how to monitor changes to financial report definitions with the change log, in the 2026 release wave 2 version.",
+        "at": "2026-10-28T10:49:15.903Z"
+      },
+      "docs/learn-smb-docs/business-central/LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md@e2734f57861c64bf": {
+        "verdict": "drop",
+        "reason": "Covers Indian audit trail compliance, not change logging for financial report definitions.",
+        "at": "2026-10-28T10:49:15.903Z"
       },
       "video/b54ehH4AlFA#1@a1b4d549103d4ff7": {
         "verdict": "drop",
-        "reason": "Covers telemetry for row definitions, not the change log.",
-        "at": "2026-10-25T12:48:37.316Z"
+        "reason": "Covers telemetry for row definitions, not change log recording.",
+        "at": "2026-10-28T10:49:15.903Z"
       },
       "video/b54ehH4AlFA#2@a1b4d549103d4ff7": {
         "verdict": "drop",
-        "reason": "Covers telemetry for column definitions, not the change log.",
-        "at": "2026-10-25T12:48:37.316Z"
+        "reason": "Covers telemetry for column definitions, not change log recording.",
+        "at": "2026-10-28T10:49:15.903Z"
       },
       "video/b54ehH4AlFA#3@a1b4d549103d4ff7": {
         "verdict": "drop",
-        "reason": "Covers modification telemetry, not change log recording.",
-        "at": "2026-10-25T12:48:37.316Z"
+        "reason": "Covers telemetry events, not the automatic change log.",
+        "at": "2026-10-28T10:49:15.903Z"
       },
       "video/hS8yWS3bxWE#1@5f974e2a059e040d": {
         "verdict": "drop",
-        "reason": "Covers telemetry for definition changes, a different capability.",
-        "at": "2026-10-25T12:48:37.316Z"
+        "reason": "Covers telemetry for definition changes from an earlier wave, not the change log.",
+        "at": "2026-10-28T10:49:15.903Z"
       },
       "video/Oxfai-_UnTI#0@eecf0ea95706b44a": {
         "verdict": "drop",
         "reason": "Covers usage and lifecycle telemetry, not the change log.",
-        "at": "2026-10-25T12:48:37.316Z"
+        "at": "2026-10-28T10:49:15.903Z"
       },
       "video/Oxfai-_UnTI#1@eecf0ea95706b44a": {
         "verdict": "drop",
-        "reason": "Describes the older 2025 capability, where you had to set up the change log tables yourself, not automatic logging.",
-        "at": "2026-10-25T12:48:37.316Z"
+        "reason": "Describes the older change log option that has to be set up by hand, not automatic logging.",
+        "at": "2026-10-28T10:49:15.903Z"
       },
       "video/qj0VHB2Pmvc#7@c4ce43973c40178e": {
         "verdict": "keep",
-        "reason": "Directly announces that the change log is now set up automatically on all financial report definitions.",
-        "at": "2026-10-25T12:48:37.316Z"
+        "reason": "Says the change log is now set up automatically on all financial report definitions, which is exactly this feature.",
+        "at": "2026-10-28T10:49:15.903Z"
       }
     },
     "573326": {
@@ -2753,60 +2773,65 @@
       }
     },
     "573345": {
+      "docs/learn-smb-docs/business-central/LocalFunctionality/India/Subcontracting-Reports.md@5803d2b5f758736c": {
+        "verdict": "drop",
+        "reason": "India localization subcontracting reports are unrelated to carrying comments and attachments into purchase orders.",
+        "at": "2026-10-28T10:49:21.607Z"
+      },
       "docs/learn-smb-docs/business-central/subcontract-components.md@b497e74429ebe4ce": {
         "verdict": "drop",
-        "reason": "This page is about component supply and transfers, not about carrying instructions to purchase orders.",
-        "at": "2026-10-25T12:47:11.672Z"
+        "reason": "Covers component supply and transfers, not subcontracting instructions.",
+        "at": "2026-10-28T10:49:21.607Z"
       },
       "docs/learn-smb-docs/business-central/subcontract-item-charges.md@f050c3f1db18a592": {
         "verdict": "drop",
-        "reason": "Assigning item charges is a different subcontracting capability.",
-        "at": "2026-10-25T12:47:11.672Z"
+        "reason": "Covers item charges on subcontracting receipts, a different capability.",
+        "at": "2026-10-28T10:49:21.607Z"
       },
       "docs/learn-smb-docs/business-central/subcontract-order.md@ed9f455a20c25d94": {
         "verdict": "keep",
-        "reason": "It documents creating subcontracting purchase orders, directly or from the worksheet, with comments and attachments.",
-        "at": "2026-10-25T12:47:11.672Z"
+        "reason": "Documents creating subcontracting purchase orders from routings with support for comments and attachments.",
+        "at": "2026-10-28T10:49:21.607Z"
       },
       "docs/learn-smb-docs/business-central/subcontract-prices.md@9b2112b2ebac5d6b": {
         "verdict": "drop",
-        "reason": "Subcontractor pricing is unrelated to instructions on purchase orders.",
-        "at": "2026-10-25T12:47:11.672Z"
+        "reason": "Covers subcontractor pricing, not instructions on purchase orders.",
+        "at": "2026-10-28T10:49:21.607Z"
       },
       "docs/learn-smb-docs/business-central/subcontract-setup.md@c6d9fa428840d1f1": {
         "verdict": "keep",
-        "reason": "It covers setting up operation comments and routing attachments, which is the starting point of this feature.",
-        "at": "2026-10-25T12:47:11.672Z"
+        "reason": "Setup page explicitly covers operation/routing comments and routing attachments used by this feature.",
+        "at": "2026-10-28T10:49:21.607Z"
       },
       "video/QdWPlIV3Avk#10@7dc576bf80c600c9": {
         "verdict": "keep",
-        "reason": "It shows routing attachments flowing to purchase lines, controlled by the production and purchase toggles.",
-        "at": "2026-10-25T12:47:11.672Z"
+        "reason": "Shows attachments flowing from routing to purchase lines, controlled by toggles for production and purchase.",
+        "at": "2026-10-28T10:49:21.607Z"
       },
       "video/QdWPlIV3Avk#12@7dc576bf80c600c9": {
         "verdict": "keep",
-        "reason": "It shows routing subcontracting comments inherited from standard tasks and copied to the purchase order.",
-        "at": "2026-10-25T12:47:11.672Z"
+        "reason": "Shows subcontracting comments on routing lines inherited from standard tasks and copied to the purchase order.",
+        "at": "2026-10-28T10:49:21.607Z"
       },
       "video/QdWPlIV3Avk#6@7dc576bf80c600c9": {
         "verdict": "keep",
-        "reason": "It shows the purchase order filled automatically with description and instruction comment lines from the routing.",
-        "at": "2026-10-25T12:47:11.672Z"
+        "reason": "Shows purchase orders with instruction comment lines populated automatically from the production order and routing.",
+        "at": "2026-10-28T10:49:21.607Z"
       },
       "video/QdWPlIV3Avk#9@7dc576bf80c600c9": {
         "verdict": "keep",
-        "reason": "It shows comment lines on the subcontracting purchase order that carry instructions for the subcontractor.",
-        "at": "2026-10-25T12:47:11.672Z"
+        "reason": "Shows comment lines with subcontractor instructions on subcontracting purchase orders.",
+        "at": "2026-10-28T10:49:21.607Z"
       },
       "video/sqjb_gsXqM8#14@3e0f3805f4fc321c": {
         "verdict": "drop",
-        "reason": "It is a general overview of wave 1 subcontracting that doesn't mention comments or attachments.",
-        "at": "2026-10-25T12:47:11.672Z"
+        "reason": "General subcontracting overview from an earlier wave with no mention of comments or attachments flowing to purchase orders.",
+        "at": "2026-10-28T10:49:21.607Z"
       },
       "video/WACQbAEVOJg#0@e2490580dfb182a3": {
         "verdict": "keep",
-        "reason": "It directly announces subcontracting comments and attachments flowing from routing operations to purchase lines.",
-        "at": "2026-10-25T12:47:11.672Z"
+        "reason": "Directly announces subcontracting comments and attachments from routing operations on purchase lines.",
+        "at": "2026-10-28T10:49:21.607Z"
       }
     },
     "573346": {
@@ -4847,48 +4872,53 @@
     "576832": {
       "docs/learn-smb-docs/business-central/LocalFunctionality/France/electronic-reporting-france.md@826c412942c4fc78": {
         "verdict": "keep",
-        "reason": "Documents the French e-reporting format, which is part of this feature.",
-        "at": "2026-10-25T12:47:19.638Z"
+        "reason": "It documents the French E-Reporting format for transactions outside B2B e-invoicing scope, which is part of this feature.",
+        "at": "2026-10-28T10:49:23.536Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/France/enable-electronic-invoicing-france.md@8bfc15ac362fed23": {
         "verdict": "keep",
-        "reason": "Documents French e-invoicing with Peppol BIS 3 and Factur-X, the core of this feature.",
-        "at": "2026-10-25T12:47:19.638Z"
+        "reason": "It documents French e-invoicing with Peppol BIS 3 and Factur-X for sending and receiving invoices.",
+        "at": "2026-10-28T10:49:23.536Z"
+      },
+      "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/electronic-invoicing.md@e4e4486401404491": {
+        "verdict": "drop",
+        "reason": "It covers Mexican CFDI e-invoicing, which is a different country's capability.",
+        "at": "2026-10-28T10:49:23.536Z"
       },
       "video/07G7aC14Y_w#10@804b55ce0987230e": {
         "verdict": "keep",
-        "reason": "Shows the new French e-document formats being set up in the E-Document Service.",
-        "at": "2026-10-25T12:47:19.638Z"
+        "reason": "It announces the new French e-document formats that are set up in the E-Document Service.",
+        "at": "2026-10-28T10:49:23.536Z"
       },
       "video/07G7aC14Y_w#11@804b55ce0987230e": {
         "verdict": "keep",
-        "reason": "Shows how French lifecycle statuses are tracked, which is one of this feature's behaviors.",
-        "at": "2026-10-25T12:47:19.638Z"
+        "reason": "It demonstrates French lifecycle status tracking, which the feature lists as a mandatory part.",
+        "at": "2026-10-28T10:49:23.536Z"
       },
       "video/N_J1HB_fUCM#9@c217f39d96795196": {
         "verdict": "keep",
-        "reason": "Announces that French e-invoicing is generally available.",
-        "at": "2026-10-25T12:47:19.638Z"
+        "reason": "It announces that French e-invoicing is now generally available.",
+        "at": "2026-10-28T10:49:23.536Z"
       },
       "video/tCmDKBszA1w#23@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Only talks about country localizations in general and says nothing about France.",
-        "at": "2026-10-25T12:47:19.638Z"
+        "reason": "It talks about country localizations in general and doesn't mention France.",
+        "at": "2026-10-28T10:49:23.536Z"
       },
       "video/tCmDKBszA1w#3@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Explains the general three-corner model, not the French five-corner capability.",
-        "at": "2026-10-25T12:47:19.638Z"
+        "reason": "It's a general explanation of the three-corner model, not the French feature.",
+        "at": "2026-10-28T10:49:23.536Z"
       },
       "video/tCmDKBszA1w#4@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Explains the general four-corner model and is not specific to France.",
-        "at": "2026-10-25T12:47:19.638Z"
+        "reason": "It's a general explanation of the four-corner model, not France's five-corner model.",
+        "at": "2026-10-28T10:49:23.536Z"
       },
       "video/tCmDKBszA1w#6@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Describes localizations in general, not the French feature.",
-        "at": "2026-10-25T12:47:19.638Z"
+        "reason": "It's a general description of how localizations are built, with nothing specific to France.",
+        "at": "2026-10-28T10:49:23.536Z"
       }
     },
     "576836": {
@@ -5045,35 +5075,40 @@
       }
     },
     "576864": {
+      "docs/learn-smb-docs/business-central/across-how-to-create-workflows.md@5798f86c10d948e5": {
+        "verdict": "drop",
+        "reason": "General Learn page on creating workflows; it doesn't mention the read-only approval APIs.",
+        "at": "2026-10-28T10:49:22.882Z"
+      },
       "video/YbuO1n_Lqj0#1@dd38f4bea3864358": {
         "verdict": "drop",
-        "reason": "Describes a new in-product Approval User Overview page, not the read-only approval APIs this feature adds.",
-        "at": "2026-10-25T12:47:45.231Z"
+        "reason": "Describes a new in-product overview page, not the read-only APIs.",
+        "at": "2026-10-28T10:49:22.882Z"
       },
       "video/YbuO1n_Lqj0#14@dd38f4bea3864358": {
         "verdict": "keep",
-        "reason": "Demonstrates the Workflows API, which is one of the new read-only workflow APIs.",
-        "at": "2026-10-25T12:47:45.231Z"
+        "reason": "Demonstrates the Workflows API for querying workflows, which is part of this feature.",
+        "at": "2026-10-28T10:49:22.882Z"
       },
       "video/YbuO1n_Lqj0#15@dd38f4bea3864358": {
         "verdict": "keep",
-        "reason": "Shows the Workflow Steps API, which is part of the read-only workflow API set.",
-        "at": "2026-10-25T12:47:45.231Z"
+        "reason": "Demonstrates the Workflow Steps API, which is part of the new read-only workflow APIs.",
+        "at": "2026-10-28T10:49:22.882Z"
       },
       "video/YbuO1n_Lqj0#16@dd38f4bea3864358": {
         "verdict": "keep",
-        "reason": "Shows the Workflow Response Option API, which exposes approver types and IDs for the workflow and user mappings.",
-        "at": "2026-10-25T12:47:45.231Z"
+        "reason": "Shows the API that exposes approver type and ID, which covers the workflow and user mappings.",
+        "at": "2026-10-28T10:49:22.882Z"
       },
       "video/YbuO1n_Lqj0#17@dd38f4bea3864358": {
         "verdict": "keep",
-        "reason": "Shows the Approval Entries API, which provides the history of which user took which action and when.",
-        "at": "2026-10-25T12:47:45.231Z"
+        "reason": "Shows the Approval Entries API listing who approved what and when, which covers the action history query.",
+        "at": "2026-10-28T10:49:22.882Z"
       },
       "video/YbuO1n_Lqj0#2@dd38f4bea3864358": {
         "verdict": "drop",
-        "reason": "Describes a new Approval Entry Overview page in the client, not the APIs.",
-        "at": "2026-10-25T12:47:45.231Z"
+        "reason": "Describes a new overview page with analysis mode, not the APIs.",
+        "at": "2026-10-28T10:49:22.882Z"
       }
     },
     "576872": {

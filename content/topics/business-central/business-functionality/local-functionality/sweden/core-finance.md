@@ -2,47 +2,47 @@
 id: topic/business-central/business-functionality/local-functionality/sweden/core-finance
 type: topic
 title: Core finance
-summary: Core finance for the Swedish version of Business Central covers automatic account codes and posting groups, SIE import and export of general ledger data, and printing balance sheet and income statement reports. It answers setup and usage questions for Swedish accounting.
+summary: Core finance for the Swedish version of Business Central covers automatic account codes and groups, SIE import and export in earlier Swedish versions, and the Balance Sheet - SE and Income Statement - SE reports. It answers setup and usage questions for these Sweden-specific general ledger tasks.
 tier: official
 language: en
 system: finance
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:25:33.077Z"
+  at: "2026-10-28T11:03:39.883Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c9c49f7d05489f7b22169c12c44ef352cd6a6fc1e2e372596098046eb8e27e1a
+  input_hash: 7259249702abae20b2cc2cec508dacabc90e86aa3fad78bed71a276675e12974
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/automatic-account-codes
-    title: Automatic account codes in the Swedish version
-    date: "2025-02-06"
+    title: Automatic Account Codes in the Swedish Version
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format
-    title: Import and Export Data in SIE [SE]
-    date: "2025-02-06"
+    title: Import and Export SIE Data in Earlier Swedish Versions [SE]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports
     title: Print Balance Sheet and Income Statement Reports
-    date: "2025-02-06"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups
-    title: Set Up Automatic Account Posting Groups [SE]
-    date: "2025-02-07"
+    title: Set Up Automatic Account Groups in Sweden
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -53,8 +53,9 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups
   objects:
-    - object/page/9001
-    - object/page/9027
+    - object/page/4850
+    - object/page/4851
+    - object/page/4852
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/sweden
@@ -72,60 +73,61 @@ parent: topic/business-central/business-functionality/local-functionality/sweden
 children: []
 coverage:
   learn: 4
-  code: 2
+  code: 3
   video: 0
   blog: 0
   guideline: 0
 bc_forms:
-  - 9001
-  - 9027
-  - 11206
-  - 11207
-  - 11208
+  - 4850
+  - 4851
+  - 4852
   - 11212
+  - 11290
+  - 11291
 member_hash: 38ef0f39a2dc3560540f3a8f25aa46bc7e1b11bc2154746f3c8e446230477c63
 narrative: generated
 ---
 
 # Core finance
 
-> Core finance for the Swedish version of Business Central covers automatic account codes and posting groups, SIE import and export of general ledger data, and printing balance sheet and income statement reports. It answers setup and usage questions for Swedish accounting.
+> Core finance for the Swedish version of Business Central covers automatic account codes and groups, SIE import and export in earlier Swedish versions, and the Balance Sheet - SE and Income Statement - SE reports. It answers setup and usage questions for these Sweden-specific general ledger tasks.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Sweden](../sweden.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section collects the Sweden-specific finance features in Business Central. Two pages deal with automatic account assignment during posting: one describes the automatic account codes functionality, and one explains how to set up automatic account posting groups.
+This section collects Sweden-specific general ledger functionality. It has no subtopics, so all four pages sit at one level: two on automatic account codes, one on SIE data exchange, and one on statutory-style financial reports.
 
-The other two pages cover reporting and data exchange. One explains how to import and export general ledger data in the Standard Import Export (SIE) format. The other explains how to print balance sheet and income statement reports for banks and authorities.
+For automatic account codes, start with the overview page on the Automatic Account Codes extension, then follow the setup page to define the account groups. Once set up, the groups can be used in journals and in sales and purchase documents to distribute amounts across accounts.
 
-Start with the automatic account codes page to understand the posting behavior and its move to an extension. Then use the posting groups page to configure it. Use the SIE and report pages when you exchange ledger data or prepare statutory reporting.
+The SIE page applies to earlier Swedish versions and describes the SIE Import and SIE Export reports. The reporting page explains how to print or preview Balance Sheet - SE and Income Statement - SE for Swedish authorities and banks.
 
 ## Key points
 
-- Automatic account codes assign accounts automatically during posting in the Swedish version.
-- From version 22.1 the automatic account codes feature moved to an extension, with no functional changes.
-- Automatic account posting groups are set up to configure how accounts are assigned during general ledger transactions.
-- SIE (Standard Import Export) lets you import and export general ledger data.
-- In SIE you specify dimensions and file types to control the detail level of transactions.
-- SIE data can include year-end balances, periodic balances and object balances.
-- Balance sheet and income statement reports show assets, liabilities, equity, income and expenses, and are meant for banks and authorities.
-- The reports support account filtering and a show all accounts option.
+- Automatic account codes in the Swedish version are provided through the Automatic Account Codes extension.
+- Automatic account groups can be used in journals and in sales and purchase documents.
+- Setting up an automatic account group involves assigning G/L accounts, allocation percentages and dimensions, with total balance validation.
+- Automatic account groups distribute transaction amounts across multiple accounts by percentage.
+- SIE Import and SIE Export reports handle general ledger data in SIE format in earlier Swedish versions.
+- SIE options include dimension selection, file type configuration, document number series, periodic balances export and transaction export.
+- Balance Sheet - SE and Income Statement - SE are meant for Swedish authorities and banks.
+- These reports can be filtered by date, accounts and global dimensions, with a show all accounts option, and can be printed or previewed.
 
 ## Learn pages
 
-- [Automatic account codes in the Swedish version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/automatic-account-codes): Use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents in the Swedish version.
-- [Import and Export Data in SIE [SE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format): You can import and export general ledger data according to the standard import export (SIE) format explained in this article.
-- [Print Balance Sheet and Income Statement Reports](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports): You can print balance sheet reports and income statement reports to submit to banks and other authorities.
-- [Set Up Automatic Account Posting Groups [SE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups): To use automatic account codes, you must create an automatic account posting group in the Swedish version.
+- [Automatic Account Codes in the Swedish Version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/automatic-account-codes): Use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents in the Swedish version.
+- [Import and Export SIE Data in Earlier Swedish Versions [SE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format): Find the earlier SIE import and export report procedures for the Swedish version of Business Central, with a link to the current extension.
+- [Print Balance Sheet and Income Statement Reports](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports): Print Swedish balance sheet and income statement reports in Business Central, and filter the results by reporting period, account, and dimension.
+- [Set Up Automatic Account Groups in Sweden](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups): Set up automatic account groups in the Swedish version of Business Central to allocate journal and document amounts across accounts and dimensions.
 
 ## Business Central pages and reports
 
 The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
 
-- [Page 9001 "Accounting Manager Role Center"](../../../../../objects/page/9001.md) · captioned "Accounting Manager"
-- [Page 9027 "Accountant Role Center"](../../../../../objects/page/9027.md) · captioned "Accountant"
+- [Page 4850 "Automatic Account Header"](../../../../../objects/page/4850.md) · captioned "Automatic Account Groups" · on [Table 4850 "Automatic Account Header"](../../../../../objects/table/4850.md)
+- [Page 4851 "Automatic Account Line"](../../../../../objects/page/4851.md) · on [Table 4851 "Automatic Account Line"](../../../../../objects/table/4851.md)
+- [Page 4852 "Automatic Account List"](../../../../../objects/page/4852.md) · captioned "Automatic Account Groups" · on [Table 4850 "Automatic Account Header"](../../../../../objects/table/4850.md)
 
-Learn also names 4 objects with no object page: page/11206, page/11207, page/11208, page/11212.
+Learn also names 3 objects with no object page: page/11212, page/11290, page/11291.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -2,33 +2,33 @@
 id: topic/business-central/business-functionality/local-functionality/switzerland/inventory
 type: topic
 title: Inventory
-summary: Inventory functionality specific to the Swiss version of Business Central. It covers printing inventory picking lists from sales orders and Swiss inventory management behavior such as default location codes, multiple shipments per invoice, and inventory reporting.
+summary: "Swiss inventory functionality in Business Central: printing a sales order picking list and the Swiss inventory management features for reporting, multi-shipment invoice tracking and location codes. It answers questions about picking lists and Swiss-specific inventory behavior."
 tier: official
 language: en
 system: inventory
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T05:22:01.586Z"
+  at: "2026-10-28T11:04:12.429Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c2ea669ed7961bf90f78feea684feb18d1cb5f81b744ecb4785e381279681af6
+  input_hash: fcea654cba648fc39b002a527dc0d73ff37cb23fdef63f50e2c54935671dfaa3
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order
-    title: Print an Inventory Picking List from a Sales Order in Switzerland
-    date: "2025-04-29"
+    title: Print a Sales Order Picking List in Switzerland
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-inventory-management
-    title: Swiss inventory management [CH]
-    date: "2025-04-30"
+    title: Swiss Inventory Management [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
@@ -65,32 +65,32 @@ narrative: generated
 
 # Inventory
 
-> Inventory functionality specific to the Swiss version of Business Central. It covers printing inventory picking lists from sales orders and Swiss inventory management behavior such as default location codes, multiple shipments per invoice, and inventory reporting.
+> Swiss inventory functionality in Business Central: printing a sales order picking list and the Swiss inventory management features for reporting, multi-shipment invoice tracking and location codes. It answers questions about picking lists and Swiss-specific inventory behavior.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > Inventory · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section describes inventory features that apply to the Swiss (CH) version of Business Central. It has two pages and no subtopics.
+This section covers inventory features specific to the Swiss localization of Business Central. It has two pages and no subtopics.
 
-Start with "Swiss inventory management [CH]" for the general behavior: invoices can track multiple shipments, and default location codes from item cards are used on sales lines and journals. It also mentions storing customer and sales person information and customized reporting through Inventory reports.
+"Swiss Inventory Management [CH]" is the general page. It describes detailed reporting, item ledger entry details, default location codes, and tracking of multi-shipment invoices, including combined invoicing and shipment numbers in the invoice text. "Print a Sales Order Picking List in Switzerland" is the task page. It shows how to print a picking list from a sales order.
 
-Then read "Print an Inventory Picking List from a Sales Order in Switzerland" if you work with warehouse picking. It explains how to use the Picking List action on a sales order to print bin codes, location codes, serial numbers and quantities.
+Start with the Swiss Inventory Management page for an overview of what the localization adds. Then use the picking list page when you need to print pick documents for warehouse staff.
 
 ## Key points
 
-- Swiss inventory management tracks invoices that have multiple shipments.
-- Default location codes from item cards are used for sales lines and journals.
-- Customer and sales person information is stored, and Inventory reports give detailed, customizable reporting.
-- The Picking List action on a sales order prints an inventory picking list.
+- The picking list is printed from a sales order in the Swiss version.
 - The picking list shows bin codes, location codes, serial numbers and quantities.
-- Only items with a shipping quantity greater than zero appear on the picking list.
+- Only items with a shipping quantity greater than 0 appear on the picking list.
+- The picking list print options include the number of copies.
+- Swiss inventory management includes detailed reporting with item ledger entry details.
+- Multi-shipment invoices can be tracked, with combined invoicing and shipment numbers in the invoice text.
+- Default location codes can be managed for items.
 
 ## Learn pages
 
-- [Print an Inventory Picking List from a Sales Order in Switzerland](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order): Learn how to print an inventory picking list directly from a sales order in the Swiss version of Business Central.
-  - In the observatory: [Page 48 "Sales Orders"](../../../../../objects/page/48.md)
-- [Swiss inventory management [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-inventory-management): This article describes Swiss enhancements to special inventory management features in Business Central.
-  - In the observatory: [Page 5708 "Get Shipment Lines"](../../../../../objects/page/5708.md), [Table 32 "Item Ledger Entry"](../../../../../objects/table/32.md), [Table 37 "Sales Line"](../../../../../objects/table/37.md), [Table 83 "Item Journal Line"](../../../../../objects/table/83.md)
+- [Print a Sales Order Picking List in Switzerland](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order): Print an inventory picking list from a sales order in the Swiss version of Business Central, with location, bin, and shipping quantity information.
+- [Swiss Inventory Management [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-inventory-management): This article describes Swiss enhancements to special inventory management features in Business Central.
+  - In the observatory: [Page 5708 "Get Shipment Lines"](../../../../../objects/page/5708.md), [Report 701 "Inventory - List"](../../../../../objects/report/701.md), [Report 712 "Inventory - Sales Statistics"](../../../../../objects/report/712.md), [Table 32 "Item Ledger Entry"](../../../../../objects/table/32.md), [Table 37 "Sales Line"](../../../../../objects/table/37.md), [Table 83 "Item Journal Line"](../../../../../objects/table/83.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

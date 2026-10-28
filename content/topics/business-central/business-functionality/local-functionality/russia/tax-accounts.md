@@ -2,33 +2,33 @@
 id: topic/business-central/business-functionality/local-functionality/russia/tax-accounts
 type: topic
 title: Tax accounts
-summary: "Tax accounts for Russia in Business Central: how personal income tax payments are accounted for in payroll, and how to import the KLADR address database. It answers questions about tax accrual, payment orders to tax authorities, and loading Russian address data."
+summary: "Tax accounts for Russia in Business Central: how personal income tax payments are accrued, paid and reported, and how to upload KLADR address data for specific regions. It answers questions about Russian payroll tax handling and regional address setup."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T05:22:01.204Z"
+  at: "2026-10-28T11:04:08.324Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: ff7135c4e307f8a3f76ce266cabdb07a76ed5cc9517727cc314dfb44be360262
+  input_hash: 6fcbf7516235b5c8abda71c9d068520f61aab19c39d688904a676a4d4fc4c0d6
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Accounting-for-personal-income-tax-payments
     title: Accounting for personal income tax payments in Russia
-    date: "2025-07-11"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Upload-KLADR
     title: Upload KLADR in Russia
-    date: "2025-07-22"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
@@ -65,25 +65,27 @@ narrative: generated
 
 # Tax accounts
 
-> Tax accounts for Russia in Business Central: how personal income tax payments are accounted for in payroll, and how to import the KLADR address database. It answers questions about tax accrual, payment orders to tax authorities, and loading Russian address data.
+> Tax accounts for Russia in Business Central: how personal income tax payments are accrued, paid and reported, and how to upload KLADR address data for specific regions. It answers questions about Russian payroll tax handling and regional address setup.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Tax accounts · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers two Russia-specific tasks. The first is accounting for personal income tax payments. Tax is calculated during payroll, debt entries are created for employees, and payment orders are generated for the tax authorities, with mandatory reporting. The second is uploading the KLADR address database so Russian address data can be managed in Business Central.
+This section covers two Russia-specific tasks. The first is accounting for personal income tax payments. Tax is calculated automatically during payroll, and payment orders to tax authorities are generated from it. The page also covers registering tax authorities as suppliers, tracking debt, and the mandatory reporting.
 
-The pages are independent and have no subtopics. Start with the personal income tax page if you work with payroll and tax payments. Use the KLADR page if you need to load Russian address data by giving a file path and a region code.
+The second task is uploading KLADR address data. The Import KLADR feature loads an address file for the region codes you specify, which sets up regional address data.
+
+The section has no subtopics, so the two pages stand alone. Start with the personal income tax page if you work with payroll and tax payments. Use the KLADR page when you need regional address data configured.
 
 ## Key points
 
 - Personal income tax is calculated automatically during payroll.
-- Debt entries are created for employees as part of the accounting.
-- Payment orders to tax authorities are generated.
-- Mandatory reporting is part of the personal income tax process.
-- Suppliers need to be registered as tax authorities for tax payments.
-- KLADR import loads the Russian address database into Business Central.
-- The KLADR import requires a file path and a region code.
+- Payment orders to tax authorities are generated from the accrued tax.
+- Tax authorities are registered as suppliers to support payments.
+- The personal income tax page covers debt tracking and mandatory reporting.
+- Import KLADR uploads address data for specific Russian regions.
+- The KLADR upload requires specifying region codes and an address file.
+- The section has two pages and no subtopics.
 
 ## Learn pages
 

@@ -2,68 +2,68 @@
 id: topic/business-central/business-functionality/local-functionality/russia/human-resources
 type: topic
 title: Human resources
-summary: Human resources for the Russian localization of Business Central covers payroll, absence registration, dismissal, charges and deductions, staff list changes, and vacation planning. It answers how-to questions about HR and payroll processes for Russian employees.
+summary: "Human resources for Russia in Business Central: payroll, charges and deductions, absence registration, dismissal, staff list management and vacation planning. Use it to find how to manage the staff list through HR orders, record absences and charges, run payroll with salary documents and register dismissals for Russian employees."
 tier: official
 language: en
 system: hr
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:22:19.662Z"
+  at: "2026-10-28T11:02:48.187Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: a8d1238728328fa147be0fa9f2784cb4b39d48c011069708629f90d69a6959e4
+  input_hash: 5b178ab1fc92709b2ea0af1d7695b81b8c915978423c5305bd00c72feaef5f30
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Absence-registration
     title: Absence registration in Russia
-    date: "2025-07-11"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Dismissal
     title: Dismissal in Russia
-    date: "2025-07-11"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee
     title: Establishment of charges and deductions in Russia
-    date: "2025-07-11"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement
     title: Forming and changing staff in Russia
-    date: "2025-07-11"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Human-Resources
     title: Human resources in Russia
-    date: "2025-07-17"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Payroll
     title: Payroll in Russia
-    date: "2025-07-18"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Vacation-planning
     title: Vacation planning in Russia
-    date: "2025-07-22"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
@@ -105,31 +105,32 @@ narrative: generated
 
 # Human resources
 
-> Human resources for the Russian localization of Business Central covers payroll, absence registration, dismissal, charges and deductions, staff list changes, and vacation planning. It answers how-to questions about HR and payroll processes for Russian employees.
+> Human resources for Russia in Business Central: payroll, charges and deductions, absence registration, dismissal, staff list management and vacation planning. Use it to find how to manage the staff list through HR orders, record absences and charges, run payroll with salary documents and register dismissals for Russian employees.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Human resources · tier official · system hr · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section describes the HR and payroll processes in the Russian localization. It has an overview page, "Human resources in Russia", and one page for each process: payroll, absence registration, dismissal, charges and deductions, staff forming and changing, and vacation planning. There are no subtopics.
+This section covers the Russian HR and payroll processes in Business Central. It starts with an overview page, "Human resources in Russia", that lists the areas: payroll, charges and deductions, absence registration, dismissal, staff list order and vacation planning. Each area has its own page.
 
-Start with the overview page to see which areas are covered. Then go to the process page you need. Payroll sets up salary elements, calculation types and accounting groups. Charges and deductions enter payroll automatically, and absence orders are posted to payroll. Dismissal covers dismissal lines, compensation payments and employee status. Staff list orders and vacation schedules cover organization and planning.
+Staff list changes (positions and organizational units) are made through HR orders. Absences (vacation, travel, sick leave, other) are recorded through absence orders. These are posted to payroll and to Employee Ledger Entries. Dismissals are registered with employment contract details, dismissal reasons and compensation, and the dismissal record is then approved. Payroll pages cover salary element and calculation type setup, and processing through salary documents. Charges and deductions are entered in the Employee Journal, and payroll picks them up based on their start and end dates.
+
+Start with the overview page, then go to the page for your task.
 
 ## Key points
 
-- Absence registration handles four absence types (vacation, travel, sick leave, other) through orders posted to payroll and employee ledger entries, and orders can be cancelled.
-- Dismissal uses dismissal lines with an operation type, a reason code and a dismissal document. It also covers compensation payments and updates the employee status.
-- Charges and deductions (bonuses, fines, benefits, deductions, assistance) are recorded in the Employee Journal and enter payroll automatically based on start and end dates.
-- HR managers create and modify staff lists through staff list orders. They manage position and organizational unit actions and generate archived staff lists and staff arrangement reports.
-- Payroll covers salary elements, calculation types, payroll accounting groups, wage and bonus calculation, tax deductions and fund payments.
-- Vacation planning builds a yearly vacation schedule, suggests employees, handles leave transfers, and fills in actual start dates when vacation orders are posted.
+- Absence registration supports four types (vacation, travel, sick leave, other) through absence orders. The orders are posted to payroll and Employee Ledger Entries, and HR order numbering applies to them.
+- Dismissal registration covers employment contract details, dismissal reason codes, compensation payments and approval of the dismissal document.
+- The Employee Journal records charges and deductions such as bonuses, fines, benefits and financial assistance. Payroll includes them automatically based on their start and end dates.
+- Staff list changes to positions and organizational units are made through HR orders. You can archive the staff list, and staff arrangement documents show occupied and vacant positions.
+- Payroll covers salary element types, calculation types, payroll accounting groups, interperiod payments, basic monthly payroll and personal income tax calculation.
+- Vacation planning creates schedules by year. You add employees and specify start and end dates, and actual dates are tracked when vacation orders are posted.
 
 ## Learn pages
 
 - [Absence registration in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Absence-registration): Enhanced absence registration features tailored to meet Russian local requirements.
 - [Dismissal in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Dismissal): Russian localization includes features for managing employee dismissals.
 - [Establishment of charges and deductions in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee): Russian localization provides tools for managing employee charges and deductions in Business Central.
-  - In the observatory: [Page 5200 "Employee Card"](../../../../../objects/page/5200.md), [Page 5237 "Employee Ledger Entries"](../../../../../objects/page/5237.md)
 - [Forming and changing staff in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement): Learn how to form and update staff lists and arrangements in Business Central for Russia.
 - [Human resources in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Human-Resources): The Russian version includes enhancements for managing human resources.
 - [Payroll in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Payroll): Russian localization offers payroll management with salary calculation, deductions, tax processing, and compliance with local regulations.

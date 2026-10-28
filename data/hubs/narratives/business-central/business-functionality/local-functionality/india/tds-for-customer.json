@@ -1,35 +1,37 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/india/tds-for-customer",
-  "input_hash": "72742ac47497ec13549423616123169ae01738476c2156820e9c36ac5abe496d",
-  "summary": "TDS for customer in the India local functionality covers Tax Deducted at Source on customer payments. It answers questions about setting up TDS master data, calculating TDS on customer documents, and tracking TDS certificates receivable from customers.",
-  "overview": "TDS (Tax Deducted at Source) by customer is a withholding tax deducted at payment or invoice booking, under the Income Tax Act, 1961. This section explains how to configure it in Business Central, how TDS is calculated for customer transactions, and how to follow up on the certificates customers owe.\n\nThe three pages follow the order of work. Start with the setup page, which covers the rates, sections, assessee codes, concessional codes and customer master configuration. Then read the calculation page, which describes deducting TDS on customer receipts and the TDS certificate receivable. Finish with the certificate tracking page, which covers assigning, updating and rectifying certificate details in customer ledger entries.",
+  "input_hash": "01d512f0dcdb387ac662a2be1c32f2d9cbcadfdd895c2135075628cf338d4c87",
+  "summary": "TDS for customer in the India localization covers setting up Tax Deducted at Source under the Income Tax Act, 1961, calculating TDS on customer payments, and tracking TDS certificates. It answers questions on TDS setup data, which documents calculate TDS, and how to assign, update or rectify certificates.",
+  "overview": "This section describes how Business Central's India localization handles TDS deducted by customers from payments made to the company. It has three pages and no subtopics: one for setup, one for calculation, and one for certificate tracking.\n\nStart with the setup page. It covers the master data TDS depends on: TDS rates, tax accounting periods and quarters, T.A.N., assessee codes, sections, concessional codes, posting setup, and customer, location, company and state data. Next, the TDS for Customer page explains how TDS is calculated and tracked on payments and certificates receivable, using General Journal, Cash Receipt Voucher, Bank Receipt Voucher, Cash Receipt Journal and Sales Invoice documents. Finally, TDS Certificate Tracking explains how to manage certificate details against customer ledger entries after TDS has been posted.",
   "key_points": [
-    "TDS by customer is a withholding tax deducted at payment or invoice booking.",
-    "Setup covers TDS Rate, Tax Accounting Period, T.A.N, Assessee Code, TDS Section and Concessional Code.",
-    "Customer master configuration is needed for TDS calculation and certificate tracking.",
-    "The calculation page covers TDS section selection and customer receipt tracking, and notes a location code requirement.",
-    "TDS certificates receivable from customers are identified through customer ledger entries.",
-    "TDS Certificate Tracking lets you assign, update and rectify certificate details in customer ledger entries."
+    "Setup is based on the Income Tax Act, 1961 and includes TDS rates by section and assessee code.",
+    "Setup also needs tax accounting periods and quarters, T.A.N. numbers, TDS sections, and concessional codes for government-authorized rates.",
+    "Posting setup and customer, location, company and state master data are part of the configuration.",
+    "TDS can be calculated and tracked from General Journal, Cash Receipt Voucher, Bank Receipt Voucher, Cash Receipt Journal and Sales Invoice documents.",
+    "The TDS for Customer page covers the TDS Section Code, TDS Base Amount calculation, TDS Customer Allowed Sections, Location Code and T.A.N. No.",
+    "TDS certificates can be assigned, updated and rectified against customer ledger entries.",
+    "Certificate tracking distinguishes TDS Certificate Receivable from TDS Certificate Received."
   ],
   "members_used": 3,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:29.649Z",
+  "at": "2026-10-28T10:58:27.061Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.009689
+    "cost_usd": 0.012119
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:27:34.969Z",
+    "at": "2026-10-28T11:03:44.046Z",
     "verdict": "approve",
     "issues": [
-      "Key point 5 joins 'certificate identification' and 'customer ledger entry' into one claim. The calculation page lists them as separate features, so this is a reasonable inference rather than a stated fact. The certificate tracking page does tie certificate details to customer ledger entries.",
-      "The overview says 'customer receipts' where the calculation page summary says 'customer payments'. The features list includes 'customer receipt tracking', so this is acceptable."
+      "The overview says TDS is deducted by customers from payments made to the company. This is a reasonable reading of 'TDS on customer payments and certificates receivable' but is slightly inferred.",
+      "The overview says certificates are managed 'after TDS has been posted'. The certificate tracking summary does not say when this happens.",
+      "The last key point says tracking 'distinguishes' receivable from received certificates. The sources only list both as features. This is a minor wording stretch."
     ],
-    "input_hash": "72742ac47497ec13549423616123169ae01738476c2156820e9c36ac5abe496d",
-    "cost_usd": 0.0267352
+    "input_hash": "01d512f0dcdb387ac662a2be1c32f2d9cbcadfdd895c2135075628cf338d4c87",
+    "cost_usd": 0.0296792
   }
 }

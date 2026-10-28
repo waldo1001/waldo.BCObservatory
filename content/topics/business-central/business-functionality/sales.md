@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/sales
 type: topic
 title: Sales
-summary: "Sales in Business Central covers the sales process from customer setup and quotes through orders, shipments, invoicing, posting, returns and corrections. It also covers delivery dates, drop and special orders, prepayments, campaigns, and two subtopics: sales analytics and subscription billing. It answers how-to and setup questions."
+summary: "Sales in Business Central covers the sales process: quotes, orders, invoices, posting, shipments, returns, corrections, prepayments, drop and special orders, customer setup, and campaigns. It has two subtopics, Sales analytics and Subscription billing. It answers how-to and setup questions for selling and billing."
 tier: official
 language: en
 system: sales
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:14:09.155Z"
+  at: "2026-10-28T11:00:37.736Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 756bb349be1d98334fab8138a12f877e5bbdb0dd250915505077f5f7c0ef35d7
+  input_hash: decf754cf563fab8ed287b4a18e9304b092aa1f8dff933ce48ef096df1544233
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget
@@ -707,24 +707,28 @@ narrative: generated
 
 # Sales
 
-> Sales in Business Central covers the sales process from customer setup and quotes through orders, shipments, invoicing, posting, returns and corrections. It also covers delivery dates, drop and special orders, prepayments, campaigns, and two subtopics: sales analytics and subscription billing. It answers how-to and setup questions.
+> Sales in Business Central covers the sales process: quotes, orders, invoices, posting, shipments, returns, corrections, prepayments, drop and special orders, customer setup, and campaigns. It has two subtopics, Sales analytics and Subscription billing. It answers how-to and setup questions for selling and billing.
 
 Path: [Business functionality](../business-functionality.md) > Sales · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Sales section describes the day-to-day sales workflow. You register customers with a Customer Card, make quotes, convert them to orders or invoices, ship in full or in part, and post. After posting, you can correct or cancel invoices, process returns and credit memos, and track packages.
+The Sales section groups task guides for the full sales cycle. Pages cover making quotes, creating sales orders and invoices, posting, shipping (partial shipments, combined shipments, picking lists, package tracking), and handling returns, credit memos, and corrections or cancellations of posted invoices.
+
+Other pages cover specific order types and dates: blanket orders, drop shipments, special orders, recurring sales lines, and prepayments. Delivery date calculation and order promising (ATP and CTP) explain how dates are set. Customer-side pages cover registering customers, merging duplicates, entering external document numbers, saving contacts to Outlook, and running a sales campaign.
+
+Start with "Overview of tasks to manage sales", which links to the detailed guides. Two subtopics go deeper: Sales analytics (Power BI reports, ad-hoc analysis, built-in reports) and Subscription billing (contracts, recurring billing proposals, usage-based billing).
 
 ## Key points
 
-- Start with 'Overview of tasks to manage sales', which links to the detailed task guides.
-- Customer setup: create Customer Cards, use customer templates, manage credit limits and overdue warnings, and merge duplicates (needs the MERGE DUPLICATES permission set).
-- Order types: sales quotes, sales orders, blanket orders, drop shipments, special orders, and recurring sales lines with a batch job for invoices.
-- Shipping: the Shipping Advice field controls partial shipments; delivery dates use shipping time and warehouse handling time; ATP and CTP calculate order promising dates.
-- Invoicing: you can combine shipments on one invoice, set up and invoice prepayments, and enter external document numbers (not checked for uniqueness).
-- Posting and corrections: posting options include preview, post and send, and batch posting. The Cancel and Correct actions fix unpaid posted invoices before shipment is complete.
-- Returns: use sales return orders or credit memos, with replacement orders, restock charges, and item charges.
-- Subtopics: Sales analytics (61 pages) covers the Power BI Sales app and sales reports. Subscription billing (47 pages) covers recurring billing for contracts.
+- Start with 'Overview of tasks to manage sales' for links to the detailed task guides.
+- Sales documents include quotes (convertible to orders or invoices), orders, invoices, blanket orders, credit memos, and return orders.
+- Posting offers post, post and new, post and send, preview posting, and batch posting.
+- Posted unpaid invoices can be corrected (new invoice and credit memo) or canceled (reversing credit memo) using the Correct and Cancel actions.
+- The Shipping Advice field on the Customer Card controls partial shipments; shipments can also be combined on one invoice manually or by batch job.
+- Order promising uses Available to Promise and Capable to Promise; delivery dates depend on shipping time and outbound warehouse handling time.
+- Drop shipments let vendors ship directly to customers from sales orders; special orders link purchase and sales orders so specific catalog items reach customers through vendors.
+- Save Business Contacts to Outlook and Teams is listed for 2026 release wave 1, with optional two-way sync.
 
 ## Subtopics
 
@@ -748,7 +752,7 @@ The Sales section describes the day-to-day sales workflow. You register customer
 - [Make drop shipments](https://learn.microsoft.com/dynamics365/business-central/sales-how-drop-shipment): Describes how to create a sales order linked to a purchase order to enable shipment directly from the vendor to the customer.
   - In the observatory: [Page 42 "Sales Order"](../../../objects/page/42.md), [Page 45 "Sales List"](../../../objects/page/45.md), [Page 5522 "Order Planning"](../../../objects/page/5522.md)
 - [Make sales quotes](https://learn.microsoft.com/dynamics365/business-central/sales-how-make-offers): Read about how to create a sales offer to a customer or prospect to sell products.
-- [Merge duplicate customer or vendor records](https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records): Describes how to consolidate information about customers or vendors when you have duplicate entries about some of them.
+- [Merge Duplicate Customers, Vendors, or Contacts](https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records): Merge duplicate customer, vendor, or contact records in Business Central, choose which field values to keep, and resolve conflicts in related records.
   - In the observatory: [Page 21 "Customer Card"](../../../objects/page/21.md), [Page 702 "Merge Duplicate"](../../../objects/page/702.md), [Page 704 "Merge Duplicate Conflicts"](../../../objects/page/704.md)
 - [Overview of tasks to manage sales](https://learn.microsoft.com/dynamics365/business-central/sales-manage-sales): Read all about how to use Business Central's services to manage your customers' sales activities with sales invoices, orders, quotes, and more.
 - [Posting sales documents](https://learn.microsoft.com/dynamics365/business-central/ui-post-sales): Learn about the different posting functions to post sales documents, and how you can update posted documents.
@@ -769,8 +773,8 @@ The Sales section describes the day-to-day sales workflow. You register customer
   - In the observatory: [Page 36954 "Customers"](../../../objects/page/36954.md)
 - [Track packages](https://learn.microsoft.com/dynamics365/business-central/sales-how-track-packages): Use the shipping agents tracking service on the Internet to track parcels and follow the progress of a delivery.
   - In the observatory: [Page 130 "Posted Sales Shipment"](../../../objects/page/130.md), [Page 132 "Posted Sales Invoice"](../../../objects/page/132.md), [Page 134 "Posted Sales Credit Memo"](../../../objects/page/134.md), [Page 6660 "Posted Return Receipt"](../../../objects/page/6660.md)
-- [Walkthrough conducting a sales campaign](https://learn.microsoft.com/dynamics365/business-central/walkthrough-conducting-a-sales-campaign): This walkthrough gives a detailed overview of all the tasks involved in conducting a sales campaign in Business Central.
-  - In the observatory: [Page 5075 "Interaction Templates"](../../../objects/page/5075.md), [Page 5139 "Logged Segments"](../../../objects/page/5139.md), [Page 5142 "Save Segment Criteria"](../../../objects/page/5142.md), [Page 5155 "Segment Interaction Languages"](../../../objects/page/5155.md)
+- [Walkthrough: Conduct a Sales Campaign](https://learn.microsoft.com/dynamics365/business-central/walkthrough-conducting-a-sales-campaign): Follow a sales campaign in Business Central, from selecting contacts and saving segment criteria to sending correspondence and recording campaign responses.
+  - In the observatory: [Page 5075 "Interaction Templates"](../../../objects/page/5075.md), [Page 5094 "Marketing Setup"](../../../objects/page/5094.md), [Page 5139 "Logged Segments"](../../../objects/page/5139.md), [Page 5142 "Save Segment Criteria"](../../../objects/page/5142.md), [Page 5155 "Segment Interaction Languages"](../../../objects/page/5155.md)
 - [Work with blanket sales orders or purchase orders](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-blanket-sales-orders): Use blanket orders when a customer agrees to buy large quantities that you deliver in small shipments over a period of time.
   - In the observatory: [Page 516 "Sales Lines"](../../../objects/page/516.md)
 - [Work with recurring revenue](https://learn.microsoft.com/dynamics365/business-central/finance-recurring-invoicing): Learn about the available options to automate sending subscription invoices to your customers and register recurring revenue.

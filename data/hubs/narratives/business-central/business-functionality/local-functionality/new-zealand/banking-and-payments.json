@@ -1,36 +1,36 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/new-zealand/banking-and-payments",
-  "input_hash": "1cd8997b86a8a72934ac381e3d5e9098cdf3023b81ceeeee7e473f60a2f962c7",
-  "summary": "Banking and payments functionality specific to the New Zealand version of Business Central. It covers bank cash flow comparison, check installments, electronic funds transfer (EFT) for vendors, and bank reconciliation and deposit slip reports.",
-  "overview": "This section collects the New Zealand local pages for banking and payment tasks. Each page is a short topic on one function: comparing bank cash flow, creating check installments, using EFT, and printing two kinds of reports.\n\nThe pages are independent of each other and there are no subtopics. Pick the page that matches the task. For vendor payments, look at check installments and EFT. For checking and documenting bank activity, look at the bank account reconciliation reports, deposit slip reports and bank cash flow comparison.",
+  "input_hash": "18548ee557d33742b94ed9d5afd9d46e8883a0d73aa7d300fd1a4a3cf990c797",
+  "summary": "Banking and payments features of the New Zealand version of Business Central: bank cash flow comparison, check installments, Electronic Funds Transfer (EFT) for vendor payments, and printing bank reconciliation and deposit slip reports. It answers questions about NZ-specific banking functions.",
+  "overview": "This section collects the banking and payment features that are specific to the New Zealand localization of Business Central. It has no subtopics. It holds five pages, each covering one function.\n\nThe pages cover two areas. Payments: paying vendors through EFT and creating check installments to split a payment into several parts. Bank work and reporting: comparing bank cash flow, and printing bank account reconciliation reports and deposit slip reports.\n\nStart with the EFT page if you need to pay vendors electronically. Use the reconciliation and deposit slip pages for printed output. The summaries are brief, so check the individual Learn pages for steps and setup details.",
   "key_points": [
-    "Compare Bank Cash Flow [NZ]: analyze bank cash flow in the New Zealand version.",
-    "Create check installments [NZ]: split a check into multiple payment installments for vendor payments.",
-    "Electronic Funds Transfer (EFT) [NZ]: process vendor payments through the electronic funds transfer system.",
-    "Print bank account reconciliation reports [NZ]: produce reports to verify bank accounts.",
-    "Print deposit slip reports [NZ]: generate deposit slip reports for bank deposits.",
-    "All five pages apply to the New Zealand version only and have no subtopics."
+    "All pages apply only to the New Zealand version of Business Central.",
+    "EFT supports vendor payments through the EFT payment system.",
+    "Check installments let you split a payment into multiple installments.",
+    "Bank cash flow comparison lets you compare bank transactions.",
+    "Bank account reconciliation reports can be printed to show reconciled bank transactions.",
+    "Deposit slip reports can be printed in the New Zealand localization.",
+    "The section has five pages and no subtopics."
   ],
   "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:59.955Z",
+  "at": "2026-10-28T10:57:59.902Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.008933
+    "cost_usd": 0.009505
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:24:06.520Z",
+    "at": "2026-10-28T11:02:58.419Z",
     "verdict": "approve",
     "issues": [
-      "The overview calls each page a \"short topic\". The summaries don't say how long the pages are, but this doesn't mislead.",
-      "The overview says the pages are \"independent of each other\". The summaries don't say this either, but it is a reasonable inference since there are no subtopics and each page covers a different function.",
-      "The overview groups bank cash flow comparison under \"checking and documenting bank activity\". The source only says it is used to analyze bank cash flow, so this grouping is the writer's own reading. It is acceptable."
+      "Minor: the key point 'The section has five pages and no subtopics' describes the structure rather than the product, so an agent gets little from it.",
+      "Minor: the source summaries are thin, so the narrative stays general. It says so correctly and sends readers to the Learn pages for steps and setup."
     ],
-    "input_hash": "1cd8997b86a8a72934ac381e3d5e9098cdf3023b81ceeeee7e473f60a2f962c7",
-    "cost_usd": 0.0205112
+    "input_hash": "18548ee557d33742b94ed9d5afd9d46e8883a0d73aa7d300fd1a4a3cf990c797",
+    "cost_usd": 0.025155199999999996
   }
 }

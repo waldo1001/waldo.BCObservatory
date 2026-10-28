@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 54ca32917165ca52ce6e1add9edc39db3e59783f5dc47c11f277cb606efa8730
+  input_hash: ebaead0c79db958089df35b9f13ab7a46d90d586d7014b7a49d3065ef7da7e51
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/Subcontracting/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/Subcontracting/app
     title: src/Apps/W1/Subcontracting/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -518,4 +518,4 @@ Possibly related: these roadmap features have "Subcontracting" in their title. A
 - [Use inventory put-aways and picks for subcontracting](../features/573355.md) (ga, GA 2026-10)
 - [Use subcontracting capabilities in production processes](../features/576872.md) (ga, GA 2026-07)
 
-Source: [src/Apps/W1/Subcontracting/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/Subcontracting/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/Subcontracting/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/Subcontracting/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

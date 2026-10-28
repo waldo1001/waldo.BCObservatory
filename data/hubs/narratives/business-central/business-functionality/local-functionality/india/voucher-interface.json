@@ -1,34 +1,35 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/india/voucher-interface",
-  "input_hash": "22a146c898cd695d0c304153933b527b85dc90019202ce296ee596d9a68d0b55",
-  "summary": "Voucher interface for India in Business Central covers recording day-to-day transactions with journal, bank receipt, bank payment, cash receipt, cash payment, and contra vouchers. It answers questions about voucher types, journal templates and batches, mandatory fields, and GL entry examples.",
-  "overview": "The voucher interface is an India local functionality for recording daily transactions through voucher types: journal, bank receipt, bank payment, cash receipt, cash payment, and contra. It uses journal templates and batches that can be configured for these voucher types.\n\nThe section has two pages and no subtopics. The overview page introduces the feature and the six voucher types. The transaction page shows how to record each voucher, with the mandatory fields and GL entry examples for Indian operations.\n\nStart with the overview page to understand the voucher types and the template and batch setup. Then use the transaction page when you need to enter a specific voucher or check the resulting GL entries.",
+  "input_hash": "7e60db308174f67b2d3e16b1d275d623fd6e3089f09017e199315ffeeaed1313",
+  "summary": "Voucher interface for the Indian localization of Business Central: six voucher types (Journal, Bank Receipt, Bank Payment, Cash Receipt, Cash Payment, Contra), how they are set up, and how transactions are recorded. It answers questions about voucher configuration and debit/credit and GL posting rules.",
+  "overview": "The Voucher interface is a feature of the India localization. It records journal entries in a structured way using voucher types. Each type routes a transaction based on the account type and the direction of the entry.\n\nThe section has two pages and no subtopics. \"Overview of Voucher Interface\" explains the voucher types and how to configure them through General Journal Templates, Batches, and Voucher Setup at company and location levels. \"Voucher Transaction\" covers how cash, bank, and journal entries are recorded, with the debit/credit rules and GL posting patterns for each type.\n\nStart with the overview to set up templates, batches, and voucher setup. Then use the transaction page to see how a specific voucher type behaves when you post.",
   "key_points": [
-    "Six voucher types are supported: journal, bank receipt, bank payment, cash receipt, cash payment, and contra.",
-    "Journal templates and batches are configurable for the voucher interface.",
-    "The feature is for recording day-to-day transactions in Indian operations.",
-    "The transaction page lists mandatory fields for the cash, bank, contra, and journal vouchers.",
-    "The transaction page gives GL entry examples for the vouchers.",
-    "The section has two pages: an overview and a transactions page."
+    "Six voucher types: Journal, Bank Receipt, Bank Payment, Cash Receipt, Cash Payment, and Contra.",
+    "Vouchers route transactions based on account type and direction (debit or credit).",
+    "Configuration uses General Journal Templates, Batches, and Voucher Setup.",
+    "Voucher Setup can be defined at company level and at location level.",
+    "The Voucher Transaction page covers cash, bank, and journal entries.",
+    "Each voucher type has specific debit/credit rules and GL posting patterns.",
+    "The feature belongs to the India localization only."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:30.343Z",
+  "at": "2026-10-28T10:58:29.541Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.008659
+    "cost_usd": 0.009453
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T05:21:53.939Z",
+    "at": "2026-10-28T11:03:57.638Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the last key point (two pages) repeats structural information already given in the overview and adds little for agents."
+      "Key point 'The feature belongs to the India localization only' says 'only', which goes slightly beyond the sources. The TOC path and both page summaries place the feature under India, but they don't say it is missing elsewhere. This is a small overreach and can stay."
     ],
-    "input_hash": "22a146c898cd695d0c304153933b527b85dc90019202ce296ee596d9a68d0b55",
-    "cost_usd": 0.022035199999999998
+    "input_hash": "7e60db308174f67b2d3e16b1d275d623fd6e3089f09017e199315ffeeaed1313",
+    "cost_usd": 0.020959199999999997
   }
 }

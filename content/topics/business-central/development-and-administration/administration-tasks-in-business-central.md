@@ -2,21 +2,21 @@
 id: topic/business-central/development-and-administration/administration-tasks-in-business-central
 type: topic
 title: Administration tasks in Business Central
-summary: "Administration tasks in Business Central: access and licensing, user settings and profiles, data control, company creation, job queues, web services, API templates, indexes, printers, languages and trial extension. It answers how-to questions for administrators running an environment."
+summary: Administration tasks in Business Central cover user access, user settings, data control, company creation, web services, job queues, indexes, printers, languages and trial handling. It answers how-to questions for administrators setting up and maintaining an environment.
 tier: official
 language: en
 system: administration
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T13:37:26.819Z"
+  at: "2026-10-28T11:01:16.922Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: eb31efe9ecef6b4ee45da7d96b20f028adaf973acc2047285823e9ef145f4313
+  input_hash: cdd28abc28dbde8f8f75f868e517715c89836a6334509e3293e4c7e726b6423d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-faq
@@ -189,7 +189,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-responding-to-requests-about-personal-data
     title: Responding to requests about users' personal data
-    date: "2024-11-14"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
@@ -507,28 +507,28 @@ narrative: generated
 
 # Administration tasks in Business Central
 
-> Administration tasks in Business Central: access and licensing, user settings and profiles, data control, company creation, job queues, web services, API templates, indexes, printers, languages and trial extension. It answers how-to questions for administrators running an environment.
+> Administration tasks in Business Central cover user access, user settings, data control, company creation, web services, job queues, indexes, printers, languages and trial handling. It answers how-to questions for administrators setting up and maintaining an environment.
 
 Path: [Development and administration](../development-and-administration.md) > Administration tasks in Business Central · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section collects the routine and occasional tasks an administrator performs in Business Central. Three subtopics cover the larger areas: managing access (licenses, user accounts, permissions, security groups), managing user settings (profiles, role-based page layouts, language, region, time zone), and controlling data (auditing, classification, retention, encryption, cleanup, personal data requests, database locks).
+This section collects the routine and occasional work administrators do in Business Central. The overview page, "Administrative tasks in Business Central", lists core tasks such as user creation and permissions, data encryption, job scheduling, document management and integration with Dynamics 365 Sales and Dataverse. It is a good first stop.
 
-The section's own pages cover individual tasks. Setup tasks include creating companies with an assisted setup guide, onboarding users with checklists, setting default printers, specifying allowed languages, and configuring text search language for multilingual environments. Integration and technical tasks include exposing objects as OData or SOAP web services, configuring API templates, and scheduling jobs in the job queue. Diagnostics and performance pages cover inspecting pages, viewing table information, and managing database index usage.
+Three subtopics go deeper. "Manage access to Business Central" covers licensing, user accounts, permissions and security groups. "Manage user settings" covers company, role, language, region and time zone settings, plus profiles and role-based page layouts. "Control your data" covers auditing, data classification, retention, encryption, archiving and personal data requests.
 
-Start with "Administrative tasks in Business Central" for an overview, then go to the subtopic or task page that matches your need. Use Feature Management to try upcoming features early, and the trial page if you need to extend an evaluation.
+Standalone pages handle specific jobs: creating companies with an assisted setup guide, scheduling jobs, exposing objects as web services, configuring API templates, managing database indexes, viewing table information, inspecting pages, setting default printers, allowed and search languages, onboarding checklists, early feature activation and trial extension.
 
 ## Key points
 
-- Subtopics cover access (licensing, permissions, security groups), user settings and profiles, and data control (auditing, retention, encryption, personal data requests).
-- Create companies with an assisted setup guide: copy a company, use evaluation templates with sample data, or start blank.
-- Job Queue Entries schedules reports and codeunits one-time or recurring, with status tracking and failure notifications.
-- Publish objects as OData V4 or SOAP web services; API Templates set default entity values for records created through the API.
-- Manage database indexes per company: view usage statistics and sizes, turn nonessential indexes off to help write performance; unique indexes and primary keys cannot be disabled.
-- Table Information shows record counts, data and index sizes, and compression types for performance troubleshooting.
-- Trials last 30 days and can be extended by another 30 days once; partners can extend again, and a subscription is required after 90 days total.
-- Feature Management lets administrators enable upcoming features early, before mandatory activation.
+- New companies are created with an assisted setup guide; you can copy a company, use evaluation templates with sample data, or start blank.
+- The Job Queue Entries page schedules reports and codeunits one-time or recurring, tracks status, and can notify on failures.
+- Objects can be published as OData V4 or SOAP web services (page cites version 16.3).
+- API Templates set default property values for records created through the API, assigned on the API Setup page by condition.
+- Index management works per company: view usage statistics, turn off nonessential indexes to help write performance; unique indexes and primary keys cannot be disabled.
+- The Table Information page shows record counts, data and index sizes, and compression types for troubleshooting.
+- Trials start at 30 days and can be extended once by 30 days; partners can extend again, and a subscription is required after 90 days total.
+- Feature Management lets administrators enable upcoming features early to test before mandatory activation.
 
 ## Subtopics
 

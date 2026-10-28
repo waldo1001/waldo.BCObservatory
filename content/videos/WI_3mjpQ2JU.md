@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:10:50.862Z"
   flags: []
 generated:
-  at: "2026-10-26T06:21:45.768Z"
+  at: "2026-10-28T10:49:33.847Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -231,6 +231,11 @@ links:
       label: possibly related
       why: both name Page 26 "Vendor Card"
       by: code
+    - to: post/yzhums-com/76990
+      title: "Dynamics 365 Business Central: An error occurred when communicating with Dataverse (User does not have required privileges to access the org when it is in Admin Only mode)"
+      label: possibly related
+      why: both name Page 1801 "Assisted Setup"
+      by: code
     - to: post/yzhums-com/74973
       title: "Dynamics 365 Business Central: How to add a setup to the Manual Setup (1875, List) page"
       label: possibly related
@@ -250,11 +255,6 @@ links:
       title: "Dynamics 365 Business Central: Merge duplicate records (customers, vendors, or contacts)"
       label: possibly related
       why: both name Page 26 "Vendor Card"
-      by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24
-      title: Set up IRS 1099 forms
-      label: possibly related
-      why: names Page 10031 "IRS Reporting Periods (US)"
       by: code
 video_id: WI_3mjpQ2JU
 channel: yt-microsoft
@@ -755,10 +755,10 @@ No source states these links: they share an object, a model read them, or a pers
 - [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../posts/yzhums-com/71463.md) — possibly related: both name Page 26 "Vendor Card"
 - [Business Central 2026 release wave 1 (BC28): Use self-billed invoices](../posts/yzhums-com/71666.md) — possibly related: both name Page 26 "Vendor Card"
 - [Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central](../videos/fpc_XlVEnWw.md) — possibly related: both name Page 26 "Vendor Card"
+- [Dynamics 365 Business Central: An error occurred when communicating with Dataverse (User does not have required privileges to access the org when it is in Admin Only mode)](../posts/yzhums-com/76990.md) — possibly related: both name Page 1801 "Assisted Setup"
 - [Dynamics 365 Business Central: How to add a setup to the Manual Setup (1875, List) page](../posts/yzhums-com/74973.md) — possibly related: both name Page 1801 "Assisted Setup"
 - [Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page](../posts/yzhums-com/56521.md) — possibly related: both name Page 26 "Vendor Card"
 - [Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL](../posts/yzhums-com/65762.md) — possibly related: both name Page 26 "Vendor Card"
 - [Dynamics 365 Business Central: Merge duplicate records (customers, vendors, or contacts)](../posts/yzhums-com/67058.md) — possibly related: both name Page 26 "Vendor Card"
-- [Set up IRS 1099 forms](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24) — possibly related: names Page 10031 "IRS Reporting Periods (US)"
 
 Presenters (as heard): Alexander Toic, Arthur Vel, Alexander, Arthur.

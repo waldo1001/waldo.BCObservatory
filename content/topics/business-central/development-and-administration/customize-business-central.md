@@ -2,21 +2,21 @@
 id: topic/business-central/development-and-administration/customize-business-central
 type: topic
 title: Customize Business Central
-summary: "Customization of Business Central for administrators and users: role-based page layouts, Premium experience, colored Cue indicators, and extensions. It answers how to tailor the interface and features, and what individual extensions do, how they are set up, and their limits."
+summary: "Customization of Business Central: tailoring pages for roles, enabling the Premium experience, setting colored Cue indicators, and installing and managing extensions. It answers how administrators and users change the interface and features, and what each Microsoft extension does and supports."
 tier: official
 language: en
 system: administration
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:16:12.145Z"
+  at: "2026-10-28T11:01:17.293Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 66c8cbf36f1bf8fb711afbe95f2896416695faebcf45f26306ab18ef71ec4660
+  input_hash: 51d124d033159efed6aff4ab8e217d91f77f0a5700e4f4810002212a57608820
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions-other
@@ -77,7 +77,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes
     title: Ideal Postcodes extension [UK]
-    date: "2026-02-09"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
@@ -182,7 +182,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions-c5-data-migration
     title: Using the C5 data migration extension | Microsoft Docs
-    date: "2023-12-11"
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
@@ -458,27 +458,27 @@ narrative: generated
 
 # Customize Business Central
 
-> Customization of Business Central for administrators and users: role-based page layouts, Premium experience, colored Cue indicators, and extensions. It answers how to tailor the interface and features, and what individual extensions do, how they are set up, and their limits.
+> Customization of Business Central: tailoring pages for roles, enabling the Premium experience, setting colored Cue indicators, and installing and managing extensions. It answers how administrators and users change the interface and features, and what each Microsoft extension does and supports.
 
 Path: [Development and administration](../development-and-administration.md) > Customize Business Central · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers the ways to tailor Business Central. The overview page "Customizing Business Central" introduces the approaches: profile customization, experience settings, colored indicators on cues, app installation and page personalization. Start there to pick the right approach.
+This section covers the ways administrators and users can adapt Business Central without development. The overview page introduces the main approaches: profile customization, experience settings, colored indicators on cues, page personalization and app installation.
 
-The remaining pages each cover one task. "Customizing Pages for Roles" explains how administrators change page layouts for profiles and roles. "Enable Premium features" shows how to select the experience level in Company Information. The Cue page explains how to set colored indicators on Role Center tiles.
+Three task pages go deeper. Customizing Pages for Roles explains how to add fields from source tables, lock or unlock editing, and manage or clear customized pages for a profile. Enable Premium features explains how to select the Premium experience in Company Information to get functionality such as Manufacturing and Service Management. The Cue page explains how to set low, middle and high color thresholds on the Cue Setup page.
 
-The subtopic "Customize with extensions" (26 pages) covers installing, uninstalling and managing apps. It also covers individual extensions for migration, payments, banking, insights, forecasting and country-specific needs (UK, DK, EU), including setup, limits and deprecation status.
+The subtopic Customize with extensions (26 pages) covers installing and managing apps and the individual Microsoft extensions, for example for cloud and data migration, payments and banking, insights and AI predictions, and country-specific reporting. Start with the overview page, then go to the task page that matches your goal, and use the extensions subtopic to check what an extension does, which countries or products it supports, and how to set it up.
 
 ## Key points
 
-- Page customization for profiles and roles lets administrators add fields from source tables and control field visibility.
-- Editing of customized pages can be locked or unlocked, and customizations can be managed or cleared.
-- Selecting the Premium experience in Company Information gives access to all functionality, including Manufacturing and Service Management. Essentials is also an experience level.
-- Colored Cue indicators use low, middle and high threshold ranges, each with its own color style.
-- Cue indicators are set up on the Cue Setup page, either company-wide or for individual users.
-- The extensions subtopic covers installing, uninstalling and managing apps.
-- Extensions cover migration, payments, banking, insights, forecasting and country-specific needs for UK, DK and EU, with notes on limits and deprecation.
+- The overview lists the customization options: profile customization, experience settings, colored cue indicators, page personalization and app installation.
+- Page customization for roles lets administrators add fields from source tables and control field visibility for a profile.
+- Editing of a customized page can be locked or unlocked, and customizations can be managed or cleared.
+- Premium experience is selected in Company Information and gives access to all functionality, including Manufacturing and Service Management; Essentials is the other experience level.
+- Colored Cue indicators use low, middle and high value ranges, set on the Cue Setup page, with color styles.
+- Cue indicator settings can apply company-wide or be personalized for individual users.
+- The Customize with extensions subtopic has 26 pages on installing and managing apps and on Microsoft extensions for cloud and data migration, payments and banking, insights and AI predictions, and country-specific reporting.
 
 ## Subtopics
 

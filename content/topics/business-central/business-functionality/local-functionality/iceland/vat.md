@@ -2,33 +2,33 @@
 id: topic/business-central/business-functionality/local-functionality/iceland/vat
 type: topic
 title: VAT
-summary: VAT functionality for Iceland in Business Central. It covers printing VAT summary information on sales and purchase documents, and mapping chart of accounts entries to IRS tax numbers for data files sent to the tax authorities.
+summary: "VAT functionality for Iceland in Business Central: printing VAT summary information on purchase and sales documents, and preparing data and reports for the Icelandic tax authority using IRS number mapping. It answers questions about document VAT summaries and tax authority reporting."
 tier: official
 language: en
 system: finance
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T05:21:56.338Z"
+  at: "2026-10-28T11:03:58.682Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 878611df273fb0335161fccec5f9053ac3580d359f43058d0c030a98ab47933b
+  input_hash: b37f8e97b169c0a2ad936b1748e2ec3347237fc36caaa74bab8b5e20c421b62e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents
-    title: Print VAT Summary Information on Document [IS]
-    date: "2025-02-06"
+    title: Print VAT Summary Information on Documents in Iceland
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority
-    title: Special data output and reports for the tax authorities in Iceland
-    date: "2025-02-06"
+    title: Special Data Output and Reports for the Icelandic Tax Authority
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -65,31 +65,31 @@ narrative: generated
 
 # VAT
 
-> VAT functionality for Iceland in Business Central. It covers printing VAT summary information on sales and purchase documents, and mapping chart of accounts entries to IRS tax numbers for data files sent to the tax authorities.
+> VAT functionality for Iceland in Business Central: printing VAT summary information on purchase and sales documents, and preparing data and reports for the Icelandic tax authority using IRS number mapping. It answers questions about document VAT summaries and tax authority reporting.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Iceland](../iceland.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section holds two Iceland-specific pages about VAT and tax reporting. It has no subtopics, so everything sits in these two pages.
+This section covers two Iceland-specific VAT and tax topics. The first explains how to show VAT summary information on purchase and sales documents, even when only a single VAT identifier is used, by selecting the Always Show VAT Summary option on supported reports.
 
-The first page explains how to show VAT summary information on Icelandic sales and purchase documents. By default VAT is hidden when only one VAT code is used. Turning on the Always Show VAT Summary option overrides that behavior.
+The second describes the tax reporting requirements and the process for submitting data files in a predefined format to the Icelandic tax authority. It relies on mapping IRS numbers to the chart of accounts, then reviewing balances in the IRS Details and Trial Balance - IRS Number reports.
 
-The second page covers special data output and reports for the tax authorities. You set up IRS tax numbers for the chart of accounts by mapping general ledger accounts to predefined government account codes. This lets you generate compliant data files. Start with the page that matches your task: document printing or tax authority reporting.
+Start with the document printing page if your question is about how invoices, credit memos or orders look. Start with the tax authority page if you need to prepare or check data for submission.
 
 ## Key points
 
-- Always Show VAT Summary prints VAT summary information on Icelandic sales and purchase documents.
-- Without that option, VAT is hidden on documents when only one VAT code is used.
-- IRS tax numbers are set up for the chart of accounts in Iceland.
-- General ledger accounts are mapped to predefined government account codes.
-- The mapping supports generating compliant data files for the tax authorities.
-- The section covers VAT reporting, account grouping and tax compliance for Iceland.
+- The Always Show VAT Summary option prints VAT details on purchase and sales documents even when only a single VAT identifier is used.
+- The option is available on supported reports, including Purchase - Invoice, Purchase - Credit Memo, Order and Blanket Sales Order.
+- Without the option, the VAT summary can be left off documents that use a single VAT identifier.
+- Data for the Icelandic tax authority is submitted as data files in a predefined format.
+- Submission relies on mapping IRS numbers to the chart of accounts, which relates accounts to government account codes.
+- The IRS Details report and the Trial Balance - IRS Number report are used to review balances before submission.
+- Balance at date reporting is part of the tax authority output.
 
 ## Learn pages
 
-- [Print VAT Summary Information on Document [IS]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents): If VAT is calculated, VAT summary information is typically printed on the sales and purchase documents.
-  - In the observatory: [Page 143 "Posted Sales Invoices"](../../../../../objects/page/143.md)
-- [Special data output and reports for the tax authorities in Iceland](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority): In Iceland, it's a legal requirement to send a data file in a specific format to the tax authorities.
+- [Print VAT Summary Information on Documents in Iceland](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents): Learn how to show VAT summary information on supported purchase and blanket sales order reports with the Icelandic IS Core app in Business Central.
+- [Special Data Output and Reports for the Icelandic Tax Authority](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority): Learn how to prepare Icelandic tax reporting data in Business Central by mapping IRS numbers to posting accounts and reviewing account balances.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

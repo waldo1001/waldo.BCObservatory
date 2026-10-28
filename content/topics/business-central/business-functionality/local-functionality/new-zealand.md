@@ -2,173 +2,173 @@
 id: topic/business-central/business-functionality/local-functionality/new-zealand
 type: topic
 title: New Zealand
-summary: "New Zealand local functionality in Business Central: GST and withholding tax, Peppol PINT A-NZ e-invoicing, banking and EFT, statutory finance reports, and NZ address and IRD number handling. It answers setup and usage questions for NZ-specific requirements."
+summary: "New Zealand local functionality in Business Central: GST and withholding tax, Peppol PINT A-NZ e-invoicing, banking and payments (EFT, check installments), financial reports, and general items such as addresses, IRD numbers and adjustment notes. It answers setup and usage questions for the New Zealand version."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:16:52.700Z"
+  at: "2026-10-28T11:01:32.735Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 5fb394571010f8633f5f06110466e95e6cc8394c6f20dd7f4b1bb7128d7f4844
+  input_hash: 6076d7d5ec7559e22f0d08ada63d85bbfadf3fe95bd4f44bed7bd9ed79e67254
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/addresses
-    title: Addresses in New Zealand
-    date: "2025-05-05"
+    title: Addresses in the New Zealand Version
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries
-    title: Adjust Settlement Exchange Rates for VAT Entries (NZ)
-    date: "2025-05-05"
+    title: Adjust VAT Settlement Exchange Rates in New Zealand
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-calculate-and-post-withholding-tax-settlements
-    title: Calculate and post withholding tax settlements (NZ)
-    date: "2025-05-05"
+    title: Calculate and Post WHT Settlements in New Zealand
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments
-    title: Calculate goods and services tax on prepayments (NZ)
-    date: "2025-05-05"
+    title: Calculate GST on Prepayments in New Zealand
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/calculating-distribution-amounts
-    title: Calculating distribution amounts [NZ]
-    date: "2025-05-05"
+    title: Calculating Distribution Amounts in the New Zealand Version [NZ]
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-compare-bank-cash-flow
-    title: Compare Bank Cash Flow [NZ]
-    date: "2025-05-05"
+    title: Compare Bank Cash Flow in the New Zealand Version [NZ]
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-create-check-installments
-    title: Create check installments [NZ]
-    date: "2025-05-05"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-determine-sales-price-by-cost-plus-percentage
-    title: Determine Sales Price by Cost Plus Percentage (NZ)
-    date: "2025-05-05"
+    title: Create Check Installments in the New Zealand Version [NZ]
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/electronic-funds-transfer-eft-
-    title: Electronic Funds Transfer (EFT) [NZ]
-    date: "2025-05-05"
+    title: Electronic Funds Transfer (EFT) in the New Zealand Version [NZ]
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-nz-einvoice
-    title: Electronic invoicing in New Zealand
-    date: "2025-05-06"
+    title: Electronic Invoicing in New Zealand
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-enter-new-zealand-business-numbers
-    title: Enter Inland revenue department numbers
-    date: "2025-05-05"
+    title: Enter New Zealand Inland Revenue Department Number
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/new-zealand-business-numbers-and-adjustment-notes
-    title: Inland Revenue Department Numbers and Adjustment Notes
-    date: "2025-05-07"
+    title: New Zealand IRD Numbers and Adjustment Notes
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/new-zealand-local-functionality
-    title: New Zealand local functionality
-    date: "2025-07-15"
+    title: New Zealand Local Functionality
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-balance-sheet-reports
-    title: Print Balance Sheet Reports [NZ]
-    date: "2025-05-06"
+    title: Print Balance Sheet Reports in the New Zealand Version [NZ]
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-bank-account-reconciliation-reports
-    title: Print bank account reconciliation reports [NZ]
-    date: "2025-05-06"
+    title: Print Bank Account Reconciliation Reports in New Zealand
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-deposit-slip-reports
-    title: Print deposit slip reports [NZ]
-    date: "2025-05-06"
+    title: Print Deposit Slip Reports in the New Zealand Version [NZ]
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports
-    title: Print Goods and Service Tax Settlement Reports (NZ)
-    date: "2025-05-06"
+    title: Print GST Settlement Reports in New Zealand
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-income-statements
-    title: Print Income Statements [NZ]
-    date: "2025-05-06"
+    title: Print Income Statements in the New Zealand Version [NZ]
+    date: "2026-10-23"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-determine-sales-price-by-cost-plus-percentage
+    title: Set Sales Prices by Cost-Plus Percentage in New Zealand
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-goods-and-service-tax-posting
-    title: Set Up Goods and Service Tax Posting [NZ]
-    date: "2025-05-06"
+    title: Set Up Goods and Services Tax Posting in New Zealand
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax
-    title: Set up vendors without IRD for calculating withholding tax (NZ)
-    date: "2025-05-06"
+    title: Set Up Vendors Without IRD Numbers for Withholding Tax
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-withholding-tax
-    title: Set up withholding tax [NZ]
-    date: "2025-05-07"
+    title: Set Up Withholding Tax in the New Zealand Version [NZ]
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/withholding-tax
-    title: Withholding Tax in the New Zealand version
-    date: "2025-05-07"
+    title: Withholding Tax in the New Zealand Version
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -229,27 +229,27 @@ narrative: generated
 
 # New Zealand
 
-> New Zealand local functionality in Business Central: GST and withholding tax, Peppol PINT A-NZ e-invoicing, banking and EFT, statutory finance reports, and NZ address and IRD number handling. It answers setup and usage questions for NZ-specific requirements.
+> New Zealand local functionality in Business Central: GST and withholding tax, Peppol PINT A-NZ e-invoicing, banking and payments (EFT, check installments), financial reports, and general items such as addresses, IRD numbers and adjustment notes. It answers setup and usage questions for the New Zealand version.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > New Zealand · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers the features Business Central adds for companies in New Zealand. It starts with an overview page listing the main areas: Withholding Tax, Goods and Services Tax, E-Invoicing with Peppol PINT A-NZ, Electronic Funds Transfer and GST settlement reporting.
+This section collects the features specific to the New Zealand version of Business Central. It has an overview page listing the local functionality, a page on electronic invoicing, and four subtopics: Tax, Banking & payments, Core finance, and General.
 
-A separate page explains how to set up and use the E-Documents framework with the Peppol PINT A-NZ format, including service integration and the sales and purchasing workflows. The subtopics hold the detailed how-to pages: Tax (8 pages), Banking & payments (5), Core finance (3) and General (4).
+Electronic invoicing uses the E-Documents framework to send and receive invoices and credit memos in Peppol PINT A-NZ format. Setup covers the company GLN, customer information, tax categories and the local format configuration.
 
-Start with the overview page to find your area. For tax setup go to Tax. For electronic invoicing use the e-invoicing page. Bank, EFT and reconciliation tasks are under Banking & payments.
+Start with the New Zealand Local Functionality overview to see what exists. Then go to Tax for GST and withholding tax, Banking & payments for EFT and bank reports, Core finance for balance sheet and income statement options, or General for addresses, IRD numbers, adjustment notes and cost-plus pricing.
 
 ## Key points
 
-- Electronic invoicing uses the E-Documents framework with the Peppol PINT A-NZ format for sales and purchasing workflows.
-- Tax covers GST posting setup, GST on prepayments, GST settlement reports and VAT exchange rate adjustment.
-- Withholding tax (WHT) setup, calculation and settlement are documented under Tax.
-- Banking & payments covers bank cash flow comparison, check installments, vendor EFT, and bank reconciliation and deposit slip reports.
-- Core finance covers calculating distribution amounts, and printing statutory balance sheet and income statement reports.
-- General covers address handling with DPID and postal codes, and cost plus percentage sales pricing.
-- General also covers IRD numbers and adjustment notes for GST.
+- Tax (8 pages): GST posting setup, GST settlement reports, GST on prepayments, VAT settlement exchange rate adjustment, and withholding tax (WHT) setup and settlement.
+- E-invoicing uses the E-Documents framework with Peppol PINT A-NZ format for invoices and credit memos.
+- E-invoicing setup needs the company GLN, customer information, tax category mapping and local format configuration.
+- Banking & payments (5 pages): bank cash flow comparison, check installments, EFT for vendor payments, and bank reconciliation and deposit slip reports.
+- Core finance (3 pages): distribution amount calculation and printing the balance sheet and income statement reports with their options.
+- General (4 pages): postal codes and DPID bar codes in addresses, IRD number entry, adjustment notes for GST corrections, and cost-plus percentage sales pricing.
+- The overview page references the 2026 release wave 1.
 
 ## Subtopics
 
@@ -260,9 +260,9 @@ Start with the overview page to find your area. For tax setup go to Tax. For ele
 
 ## More Learn pages
 
-- [Electronic invoicing in New Zealand](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-nz-einvoice): Learn how to work with the New Zealand localization of the E-Document framework.
-  - In the observatory: [Page 6103 "E-Document Services"](../../../../objects/page/6103.md)
-- [New Zealand local functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/new-zealand-local-functionality): These articles describe the local functionality in the New Zealand version of Business Central.
+- [Electronic Invoicing in New Zealand](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-nz-einvoice): Learn how to set up PINT A-NZ e-document formats, identifiers, and tax categories to send and receive electronic invoices in New Zealand.
+  - In the observatory: [Page 1 "Company Information"](../../../../objects/page/1.md), [Page 21 "Customer Card"](../../../../objects/page/21.md), [Page 472 "VAT Posting Setup"](../../../../objects/page/472.md), [Page 6103 "E-Document Services"](../../../../objects/page/6103.md)
+- [New Zealand Local Functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/new-zealand-local-functionality): Explore New Zealand features for GST, withholding tax, electronic invoices, banking, and financial reports in Dynamics 365 Business Central.
 
 ## Business Central pages and reports
 

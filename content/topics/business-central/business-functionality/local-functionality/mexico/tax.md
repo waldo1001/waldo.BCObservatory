@@ -2,40 +2,40 @@
 id: topic/business-central/business-functionality/local-functionality/mexico/tax
 type: topic
 title: Tax
-summary: "Mexico tax functionality in Business Central: DIOT reporting of vendor purchase VAT to SAT, RFC and CURP tax identification types for customers and vendors, and VAT recalculation on foreign currency payments. Answers setup and usage questions for these Mexico tax tasks."
+summary: "Mexico tax functionality in Business Central: DIOT reports for SAT, tax identification types (RFC and CURP), and cash-basis VAT with exchange-rate adjustments. It answers setup and reporting questions for Mexican VAT and tax registration."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:27:39.666Z"
+  at: "2026-10-28T11:03:50.326Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 8501bfb6807c1f7612144cc2ba6c550cedbcbf9f9bc442fb56b0e7990e6fd195
+  input_hash: 5d045c6a6f66adc6b90796f3ab7ebfa61d4fc81fbcb1d5dde2bd4a946141ad1a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx
-    title: Set up and generate DIOT reports | Microsoft Docs
-    date: "2025-06-30"
+    title: Set Up and Generate DIOT Reports
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/tax-identification-types-for-mexico
     title: Tax Identification Types for Mexico
-    date: "2025-02-26"
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/vat-recalculation
-    title: VAT recalculation
-    date: "2025-02-26"
+    title: VAT Recalculation and Cash-Basis VAT in Mexico
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -78,32 +78,33 @@ narrative: generated
 
 # Tax
 
-> Mexico tax functionality in Business Central: DIOT reporting of vendor purchase VAT to SAT, RFC and CURP tax identification types for customers and vendors, and VAT recalculation on foreign currency payments. Answers setup and usage questions for these Mexico tax tasks.
+> Mexico tax functionality in Business Central: DIOT reports for SAT, tax identification types (RFC and CURP), and cash-basis VAT with exchange-rate adjustments. It answers setup and reporting questions for Mexican VAT and tax registration.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Mexico](../mexico.md) > Tax · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers three Mexico-specific tax areas. The DIOT page explains how to report VAT from vendor purchases to SAT by generating a text file. The tax identification page explains which identifier to use for Mexican customers and vendors. The VAT recalculation page explains how VAT is handled when customers pay in foreign currency.
+This section covers three areas of Mexican tax handling. One page explains how to set up and generate DIOT reports for VAT reporting to SAT. Another describes tax identification types for customers, vendors, and companies. The third explains cash-basis VAT, where VAT is recorded when invoices are paid.
 
-Start with the tax identification page if you are setting up customers and vendors, because the DIOT report relies on vendor data such as the RFC number. Then move to the DIOT page for setup through Assisted Setup, vendor configuration and optional withholding tax reporting. Use the VAT recalculation page when payments arrive in a foreign currency.
+The pages are independent and have no subtopics. Start with the tax identification page if you are registering parties, since RFC and CURP data depends on the entity classification. Read the cash-basis VAT page when configuring VAT Posting Setup and General Ledger Setup. Use the DIOT page when you are ready to prepare the TXT export, which relies on vendor and VAT posting group setup.
 
 ## Key points
 
-- The DIOT report extension for Mexico generates a text file to report VAT from vendor purchases to SAT.
-- DIOT setup is done through Assisted Setup.
-- Each vendor needs a DIOT type of operation, and DIOT concepts are part of the configuration.
-- Withholding tax reporting in DIOT is optional.
-- DIOT setup involves the RFC number and tax jurisdiction location; the DIOT page references version 26.3.
-- RFC and CURP are the tax identification types, chosen by whether the customer or vendor is a company or a person.
-- VAT recalculation on payment uses the exchange rates at payment time for foreign currency payments.
-- VAT recalculation involves currency exchange adjustment and unrealized VAT reporting.
+- DIOT reports are set up and generated for Mexican VAT reporting to SAT, with TXT export files compliant with 2025 regulations (version 26.3).
+- DIOT setup involves vendor information, linking VAT posting groups, configuring DIOT concepts, and selecting operation types.
+- DIOT reports include withholding tax reporting.
+- Tax Identification Type defines whether a customer, vendor, or company registers with an RFC or CURP number.
+- Registration depends on classification as Legal Entity or Natural Person.
+- Cash-basis VAT records VAT when invoices are paid rather than when posted, using unrealized VAT.
+- Foreign-currency transactions under cash-basis VAT get automatic exchange-rate adjustments.
+- Cash-basis VAT is configured in VAT Posting Setup and General Ledger Setup.
 
 ## Learn pages
 
-- [Set up and generate DIOT reports \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx): Use this extension to set up and generate DIOT declarations in Business Central for the Mexican authorities.
+- [Set Up and Generate DIOT Reports](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx): Set up vendor operation types and VAT concept links, then export a 54-field DIOT declaration from Business Central for the Mexican tax authorities.
 - [Tax Identification Types for Mexico](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/tax-identification-types-for-mexico): All customers and vendors must have a federal tax identification number. This article covers the tax identification types in the Mexican version.
-- [VAT recalculation](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/vat-recalculation): When a customer pays in a foreign currency, VAT must be recalculated using the exchange rate at the time of the invoice payment.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 21 "Customer Card"](../../../../../objects/page/21.md), [Page 26 "Vendor Card"](../../../../../objects/page/26.md)
+- [VAT Recalculation and Cash-Basis VAT in Mexico](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/vat-recalculation): Set up cash-basis VAT in Business Central to recognize VAT on customer payments and account for exchange-rate differences on foreign-currency invoices.
 
 ## Business Central pages and reports
 

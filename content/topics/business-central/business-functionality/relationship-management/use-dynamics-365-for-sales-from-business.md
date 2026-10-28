@@ -2,32 +2,32 @@
 id: topic/business-central/business-functionality/relationship-management/use-dynamics-365-for-sales-from-business
 type: topic
 title: Use Dynamics 365 for Sales from Business Central
-summary: "Using Dynamics 365 Sales with Business Central: coupling and synchronizing records with Dataverse or Dynamics 365 Sales, managing customers, orders, quotes, pricing and invoices across both systems, and checking synchronization job errors. It answers how-to questions about linking records and fixing sync problems."
+summary: "Using Dynamics 365 Sales with Business Central: coupling and synchronizing records with Dataverse or Dynamics 365 Sales, managing customers and sales orders across both systems, and checking synchronization job status and errors. It answers how-to and troubleshooting questions about the integration."
 tier: official
 language: en
 system: sales
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:27:45.528Z"
+  at: "2026-10-28T11:03:56.670Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: cb43b8a8dee99abf06eb1ba3ab1ce8a9ce8978427b81e9b70bd3e20390bc9a34
+  input_hash: e8d6b0e5307b0fd0a1e87604e073c8601842a1796b09c30f8f6a106fac58743a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-how-to-couple-and-synchronize-records-manually
-    title: Coupling and synchronizing
-    date: "2025-04-25"
+    title: Couple and Synchronize Records with Dataverse
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-integrate-dynamicscrm
-    title: Manage customers using Dynamics 365 Sales
+    title: Manage Customers Using Dynamics 365 Sales
     date: "2025-10-03"
     commit: null
     t: null
@@ -74,34 +74,34 @@ narrative: generated
 
 # Use Dynamics 365 for Sales from Business Central
 
-> Using Dynamics 365 Sales with Business Central: coupling and synchronizing records with Dataverse or Dynamics 365 Sales, managing customers, orders, quotes, pricing and invoices across both systems, and checking synchronization job errors. It answers how-to questions about linking records and fixing sync problems.
+> Using Dynamics 365 Sales with Business Central: coupling and synchronizing records with Dataverse or Dynamics 365 Sales, managing customers and sales orders across both systems, and checking synchronization job status and errors. It answers how-to and troubleshooting questions about the integration.
 
 Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Use Dynamics 365 for Sales from Business Central · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers the integration between Business Central and Dynamics 365 Sales. It explains how Business Central records such as customers, vendors and items are linked to Dataverse or Sales records so data can be shared in both directions.
+This section covers the day-to-day use of the integration between Business Central and Dynamics 365 Sales (through Dataverse). It explains how records such as customers, contacts, items, prices and sales orders are linked and kept in sync across both systems.
 
-The three pages follow a natural order. "Coupling and synchronizing" explains how to link records and keep them in sync. "Manage customers using Dynamics 365 Sales" describes the sales scenario built on that link: customers, sales orders, quotes, pricing and invoices. "View the Status of Synchronization Jobs" covers the error page you use when a job fails.
+The three pages follow a natural order. "Manage Customers Using Dynamics 365 Sales" gives the business scenario: customer engagement, order processing, quotes, invoices and payment tracking. "Couple and Synchronize Records with Dataverse" explains the mechanics of linking records and syncing them. "View the Status of Synchronization Jobs" covers monitoring and fixing problems after synchronization runs.
 
-Start with the coupling page, since the other scenarios depend on records being coupled. Use the status page when a synchronization fails and you need to retry, restore or remove a coupling.
+Start with the customer management page for the overall picture, then use the coupling page when you need to link or sync specific records. Go to the synchronization status page when jobs fail or records conflict.
 
 ## Key points
 
-- Coupling links Business Central records with Dataverse or Dynamics 365 Sales records for bidirectional data sharing.
-- Coupling methods: manual coupling, match-based coupling, and bulk import or insert; records can also be uncoupled.
-- Customers, vendors, items and other entities can be synchronized.
-- The customer scenario covers sales order synchronization, quote processing, pricing synchronization, invoice creation and full synchronization.
-- The customer management page references 2020 release wave 2.
-- The Coupled Data Synchronization Errors page shows the status of synchronization jobs and error details.
-- Error actions include Retry, Synchronize, Restore and Delete, used to resolve conflicts and coupling issues.
+- Records can be coupled by setting up coupling on existing records, creating new coupled records, or using match-based coupling for bulk matching.
+- Coupling and sync actions include Set Up Coupling, Synchronize Now, Match-Based Coupling, Bulk-insert and couple records, Delete Coupling, and Sync. Only Coupled Records.
+- Synchronization is bidirectional between Business Central and Dataverse or Dynamics 365 Sales.
+- The integration covers customers, contacts, items, prices and sales orders, with automatic sales order creation and quote processing.
+- The customer management scenario also includes invoice transfer and customer payment tracking.
+- The Coupled Data Synchronization Errors page shows synchronization job status and errors from coupled records.
+- Error handling options include retry, retry all, remove coupling, synchronize with conflict resolution, and restore records.
 
 ## Learn pages
 
-- [Coupling and synchronizing](https://learn.microsoft.com/dynamics365/business-central/admin-how-to-couple-and-synchronize-records-manually): Synchronizing an integration table mapping enables data syncing in all records in a table in Business Central and Sales tables that are coupled.
-  - In the observatory: [Page 21 "Customer Card"](../../../../objects/page/21.md), [Page 5050 "Contact Card"](../../../../objects/page/5050.md)
-- [Manage customers using Dynamics 365 Sales](https://learn.microsoft.com/dynamics365/business-central/marketing-integrate-dynamicscrm): Learn how to use Dynamics 365 Sales from inside Business Central with seamless integration and synchronization in the lead-to-cash process.
-  - In the observatory: [Page 132 "Posted Sales Invoice"](../../../../objects/page/132.md), [Page 21 "Customer Card"](../../../../objects/page/21.md), [Page 7016 "Sales Price List"](../../../../objects/page/7016.md)
+- [Couple and Synchronize Records with Dataverse](https://learn.microsoft.com/dynamics365/business-central/admin-how-to-couple-and-synchronize-records-manually): Synchronizing an integration table mapping enables data syncing in all records in a table in Business Central and Sales tables that are coupled.
+  - In the observatory: [Page 21 "Customer Card"](../../../../objects/page/21.md), [Page 36954 "Customers"](../../../../objects/page/36954.md), [Page 5050 "Contact Card"](../../../../objects/page/5050.md)
+- [Manage Customers Using Dynamics 365 Sales](https://learn.microsoft.com/dynamics365/business-central/marketing-integrate-dynamicscrm): Learn how to use Dynamics 365 Sales from inside Business Central with seamless integration and synchronization in the lead-to-cash process.
+  - In the observatory: [Page 132 "Posted Sales Invoice"](../../../../objects/page/132.md), [Page 21 "Customer Card"](../../../../objects/page/21.md), [Page 459 "Sales & Receivables Setup"](../../../../objects/page/459.md), [Page 7 "Customer Price Groups"](../../../../objects/page/7.md), [Page 7016 "Sales Price List"](../../../../objects/page/7016.md)
 - [View the Status of Synchronization Jobs](https://learn.microsoft.com/dynamics365/business-central/admin-how-to-view-synchronization-status): Use the Coupled Data Synchronization Errors page to view the status of synchronization jobs that have been run for coupled records in integrations.
 
 ## Business Central pages and reports

@@ -2,47 +2,47 @@
 id: topic/business-central/business-functionality/local-functionality/netherlands/general
 type: topic
 title: General
-summary: "General Netherlands local functionality in Business Central: printing CMR notes under the UN CMR Convention, and subscribing to and importing Dutch post code data and monthly updates. It answers questions on CMR documents and on post code import in the Dutch version."
+summary: General Netherlands functionality in Business Central covers CMR notes for international road transport and Dutch post code handling. It answers questions about the three CMR note types and about subscribing to, importing and updating Dutch post code data.
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:25:26.116Z"
+  at: "2026-10-28T11:03:32.956Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 7a6377bdae72847d076b767d6202fb5145be3d2d9e53172e7e17aed48bb5da7a
+  input_hash: e4908553ab88f89df29407a2d5505f61e2ab4228288e45ffe4f1a94b88dc88db
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/cmr-notes
-    title: CMR Notes [NL]
-    date: "2025-03-14"
+    title: CMR Notes in the Dutch Version [NL]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/dutch-post-codes
-    title: Dutch Post Codes
-    date: "2025-03-14"
+    title: Dutch Post Codes in Business Central
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-post-code-updates
-    title: How to import post code updates [NL]
-    date: "2025-03-18"
+    title: Import Post Code Updates in the Dutch Version [NL]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-post-codes
-    title: How to Import Post Codes [NL]
-    date: "2025-03-18"
+    title: Import Post Codes in the Dutch Version [NL]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -81,35 +81,35 @@ narrative: generated
 
 # General
 
-> General Netherlands local functionality in Business Central: printing CMR notes under the UN CMR Convention, and subscribing to and importing Dutch post code data and monthly updates. It answers questions on CMR documents and on post code import in the Dutch version.
+> General Netherlands functionality in Business Central covers CMR notes for international road transport and Dutch post code handling. It answers questions about the three CMR note types and about subscribing to, importing and updating Dutch post code data.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers two Dutch-specific areas. The first is CMR notes, which let you print transport documents according to the UN CMR Convention for sales shipments, purchase returns, and transfer shipments. The second is Dutch post codes, used for marketing and relationship management activities.
+This section collects the general Dutch-specific features of Business Central. One feature is CMR notes, which are bills of lading for international road transport in countries following the 1956 UN Convention. The other is Dutch post code support, used for marketing and relationship management activities.
 
-The post code pages fit together as one overview and two how-to pages. Start with the Dutch Post Codes page to understand the subscription and the data. Then use the import page for the initial post code file and the update page for monthly updates. Both imports store data in the Post Code Range table and keep a log.
+The post code pages fit together as a group. One page introduces the feature and the option to subscribe to post code data and updates. Two pages describe the import steps: one for importing post code files, and one for importing the monthly update files. Both use the Post Code Updates page.
+
+Start with the Dutch Post Codes page for an overview. Then use the import pages for the actual procedure. Read the CMR page separately if you handle international shipments.
 
 ## Key points
 
-- CMR notes can be printed for sales shipments, purchase return shipments, and transfer shipments in the Dutch version.
-- CMR notes follow the UN CMR Convention.
-- Dutch post codes can be obtained by subscription, with data and updates imported into Business Central.
-- Post code files are imported for marketing and relationship management activities.
-- Imported post code data is stored in the Post Code Range table.
-- Monthly post code updates are imported with automatic date validation and gap checking.
-- Both post code imports record update logging.
-- All pages in this section apply to the Dutch (NL) version.
+- CMR notes are bills of lading for international road transport under the 1956 UN Convention.
+- Three CMR types exist: CMR - Sales Shipment, CMR - Return Shipment and CMR - Transfer Shipment.
+- The CMR page also mentions preprinted CMR forms.
+- Dutch post code data and updates can be subscribed to and imported into Business Central.
+- Post code files are imported on the Post Code Updates page, using the PTT text format with post code ranges.
+- Monthly post code update files are validated against previous imports, including period checking and warnings for missing periods.
+- Each post code update import is logged.
 
 ## Learn pages
 
-- [CMR Notes [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/cmr-notes): Process claims with complete CMR note information easily. Use the Dutch feature to follow the CMR Convention with standard CMR notes.
-  - In the observatory: [Report 11401 "CMR - Sales Shipment (NL)"](../../../../../objects/report/11401-nl.md), [Report 11402 "CMR - Transfer Shipment (NL)"](../../../../../objects/report/11402-nl.md)
-- [Dutch Post Codes](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/dutch-post-codes): Subscribe to receive post codes and updates for your business. These updates are useful for marketing and relationship management activities.
-- [How to import post code updates [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-post-code-updates): Import the post code file to update the relevant data in the Post Code Range table.
-  - In the observatory: [Table 11406 "Post Code Range (NL)"](../../../../../objects/table/11406-nl.md)
-- [How to Import Post Codes [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-post-codes): Import a file with post codes for marketing and relationship management activities, which is saved in the Post Code Range table.
-  - In the observatory: [Table 11406 "Post Code Range (NL)"](../../../../../objects/table/11406-nl.md)
+- [CMR Notes in the Dutch Version [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/cmr-notes): Process claims with complete CMR note information easily. Use the Dutch feature to follow the CMR Convention with standard CMR notes.
+- [Dutch Post Codes in Business Central](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/dutch-post-codes): Subscribe to receive post codes and updates for your business. These updates are useful for marketing and relationship management activities.
+- [Import Post Code Updates in the Dutch Version [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-post-code-updates): Import monthly Dutch post code updates in Business Central, check the update period, and review the import log for changes to the post code ranges.
+  - In the observatory: [Page 11408 "Post Code Updates (NL)"](../../../../../objects/page/11408-nl.md), [Table 11406 "Post Code Range (NL)"](../../../../../objects/table/11406-nl.md), [Table 11407 "Post Code Update Log Entry (NL)"](../../../../../objects/table/11407-nl.md)
+- [Import Post Codes in the Dutch Version [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-import-post-codes): Import a file with post codes for marketing and relationship management activities, which is saved in the Post Code Range table.
+  - In the observatory: [Page 11408 "Post Code Updates (NL)"](../../../../../objects/page/11408-nl.md), [Table 11406 "Post Code Range (NL)"](../../../../../objects/table/11406-nl.md), [Table 11407 "Post Code Update Log Entry (NL)"](../../../../../objects/table/11407-nl.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

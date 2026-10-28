@@ -7,7 +7,7 @@
     "finance",
     "reporting"
   ],
-  "summary": "Trial Balance by Period (Excel) report now uses a query-based approach instead of looping with CalcFields, reducing SQL calls from hundreds of thousands to just two per account and period, enabling completion within reasonable timeframes.",
+  "summary": "Trial Balance by Period (Excel) (report 4408) now gets amounts from a new query, EXR Trial Bal by Period, grouped by global dimensions instead of looping with CalcFields. This cuts SQL calls to two per account and period, no matter how many dimension values exist, while producing the same dataset rows.",
   "key_points": [
     "Replaced inefficient loop-and-CalcFields pattern with a single query that groups G/L entries by dimension values",
     "Reduces SQL calls from approximately 4 × accounts × periods × (1 + D1 + D2 + D1·D2) to just 2 × accounts × periods",

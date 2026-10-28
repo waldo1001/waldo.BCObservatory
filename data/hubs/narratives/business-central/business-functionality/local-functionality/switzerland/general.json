@@ -1,39 +1,37 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/switzerland/general",
-  "input_hash": "2511466021d66aa99addbaa8fca2ed870103c5c8a3fd31bd14ef5695d014cf18",
-  "summary": "Swiss (CH) general local functionality in Business Central: importing Swiss post codes from Swiss Post, and Swiss-specific behavior of purchase and sales documents. It answers questions about post code updates, posting descriptions, subtotals, invoice rounding and shipment printing.",
-  "overview": "This section covers two areas of Business Central that are specific to the Swiss version. The first is keeping post code data current. The second is the Swiss additions to purchase and sales documents.\\n\\nThe post code page explains how to import the latest file from Swiss Post to update the Post Code table. Those post codes can then be used for customers and vendors. The documents page describes the Swiss additions to purchase and sales documents, including posting descriptions, subtotals, invoice rounding and shipment printing.\\n\\nThere are no subtopics. Start with the post code page if you are setting up master data. Use the documents page when you work with quotes, orders and invoices.",
+  "input_hash": "00d8a8922512b90123c9accb5a376e0d74143a1f4c814a9c3ab4d5fc9649517a",
+  "summary": "Swiss (CH) localization in Business Central: importing Swiss Post codes and Swiss-specific behavior of purchase and sales documents. It answers questions about updating the Post Code table, posting descriptions, subtotals, invoice rounding with payment discounts, and shipment printing.",
+  "overview": "This section covers general functionality specific to the Swiss version of Business Central. It has two pages and no subtopics.\n\nThe first page explains how to import Swiss post codes from CSV or ZIP files so the Post Code table reflects the latest Swiss Post data, and how to define post codes for customers and vendors. The second page describes Swiss changes to purchase and sales documents, such as posting descriptions, subtotals in quotes and orders, invoice rounding, and shipment printing.\n\nStart with the post code page if you are setting up master data for a Swiss company. Go to the documents page when you configure or troubleshoot sales and purchase document behavior.",
   "key_points": [
-    "The Import Post Codes action loads the latest Swiss Post file and updates the Post Code table.",
-    "City and country are populated automatically for post codes.",
-    "Imported post codes can be used for customers and vendors in the Swiss version.",
-    "Swiss purchase and sales documents have enhanced posting descriptions.",
-    "Quotes and orders support subtotals with begin and end totals.",
-    "Invoice rounding is available for payment discounts.",
-    "Printing of shipment documents is optional and can be controlled.",
-    "Item variants in quotes and position field references are also covered."
+    "Post codes can be imported from CSV or ZIP files to update the Post Code table with Swiss Post data.",
+    "City and country/region are populated automatically during import.",
+    "Post codes are validated against the range 1000-9999.",
+    "Post codes can be defined for both customers and vendors.",
+    "Ledger entries get enhanced posting descriptions in Swiss sales and purchase documents.",
+    "Sales quotes and orders support subtitles and subtotals using Begin Total and End Total line types.",
+    "Invoice rounding works together with payment discounts.",
+    "Printing of shipment documents can be controlled."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:06:13.427Z",
+  "at": "2026-10-28T10:58:22.370Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.008629000000000001
+    "cost_usd": 0.009089
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T05:22:07.955Z",
-    "verdict": "fix",
+    "at": "2026-10-28T11:04:08.939Z",
+    "verdict": "approve",
     "issues": [
-      "Key point 2 says the import itself fills in city and country. The source only lists 'automatic city and country population' and doesn't say when it happens, so the wording is softened.",
-      "The overview says the two pages are independent because there are no subtopics. That reasoning doesn't hold, so the sentence now just says there are no subtopics.",
-      "Key point 6 ties invoice rounding to payment discounts. The source summary says 'invoice rounding for payment discounts', so the wording now follows it more closely.",
-      "Small point: 'differ from the base behavior' is an inference. The source only describes Swiss additions, so the overview now uses that wording."
+      "Key point linking Begin Total and End Total line types to subtitles and subtotals is a reasonable inference; the source lists them as separate features without explicitly linking them.",
+      "'During import' for automatic city and country/region population is implied rather than stated explicitly."
     ],
-    "input_hash": "2511466021d66aa99addbaa8fca2ed870103c5c8a3fd31bd14ef5695d014cf18",
-    "cost_usd": 0.0328952
+    "input_hash": "00d8a8922512b90123c9accb5a376e0d74143a1f4c814a9c3ab4d5fc9649517a",
+    "cost_usd": 0.0250072
   }
 }

@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 19f8a705f06890fae8cfbd99dd2ab3f8d2b3b2ca4ace69d84b016559eb54eaef
+  input_hash: 08b0606f41970df1e6a9024f1ab4b23798763c33e6f12b387a24848d8649f422
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/PEPPOL/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/PEPPOL/app
     title: src/Apps/W1/PEPPOL/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -224,4 +224,4 @@ Videos and posts that name this app's objects by exact type and name.
 
 - [What's New: E-Documents (2026 release wave 1)](../videos/oL8OlbEoUnQ.md) (video, 2026-04-01): names Page 37202 "PEPPOL 3.0 Setup", Enum 37200 "PEPPOL 3.0 Format"
 
-Source: [src/Apps/W1/PEPPOL/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/PEPPOL/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/PEPPOL/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/PEPPOL/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

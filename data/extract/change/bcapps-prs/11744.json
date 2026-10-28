@@ -8,10 +8,9 @@
   ],
   "summary": "The GetCurrencyCode procedure in the CODA Statement table now returns an empty string instead of throwing an error when the bank account is not found.",
   "key_points": [
-    "GetCurrencyCode no longer raises an error if bank account lookup fails",
-    "The procedure returns an empty string in that case",
-    "Affects CODA statement handling in Belgium localization",
-    "Error condition previously prevented normal processing"
+    "GetCurrencyCode on the CODA Statement table no longer raises an error when the bank account is not found",
+    "It returns an empty string in that case",
+    "The change is in the Belgian (BE) localization layer"
   ],
   "change_kind": "fix",
   "behavior_change": true,

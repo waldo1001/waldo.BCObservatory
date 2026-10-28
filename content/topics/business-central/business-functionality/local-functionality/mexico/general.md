@@ -2,40 +2,33 @@
 id: topic/business-central/business-functionality/local-functionality/mexico/general
 type: topic
 title: General
-summary: "Mexico general local functionality in Business Central: electronic accounting export to the SAT as XML, deposits and troubleshooting reports in the Mexican version, and vendor payment export with SEPA Credit Transfer or AMC Banking 365 Fundamentals. It answers setup and how-to questions for these tasks."
+summary: "Mexico general localization pages for Business Central: electronic accounting export (XML files for chart of accounts, trial balance, journals, auxiliary accounts), bank deposits, vendor payment export via SEPA or AMC Banking, and troubleshooting report printing. Answers setup and how-to questions for Mexican companies."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:25:27.247Z"
+  at: "2026-10-28T11:03:27.169Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9b770bb79c45a080d91edc7f7a86b234ff4e0e1f16ba00eb1845160581681d6d
+  input_hash: 8c6a79d5a49facc45682ec53f87bffcab71283295dad92047086e372269e5eb9
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-accounting-regulations
-    title: Electronic accounting regulations in Mexico
-    date: "2025-02-25"
+    title: Comply with Electronic Accounting Regulations in Mexico
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-create-deposits
-    title: How to create deposits [MX]
-    date: "2025-02-25"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-print-troubleshooting-reports
-    title: How to Print Troubleshooting Reports [MX]
-    date: "2025-02-25"
+    title: Create Deposits in the Mexican Version [MX]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -46,12 +39,19 @@ evidence:
     commit: null
     t: null
     quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-print-troubleshooting-reports
+    title: Print Troubleshooting Reports in the Mexican Version [MX]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-accounting-regulations
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-create-deposits
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-print-troubleshooting-reports
     - https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-print-troubleshooting-reports
   objects:
     - object/page/256
     - object/page/1205
@@ -99,33 +99,35 @@ narrative: generated
 
 # General
 
-> Mexico general local functionality in Business Central: electronic accounting export to the SAT as XML, deposits and troubleshooting reports in the Mexican version, and vendor payment export with SEPA Credit Transfer or AMC Banking 365 Fundamentals. It answers setup and how-to questions for these tasks.
+> Mexico general localization pages for Business Central: electronic accounting export (XML files for chart of accounts, trial balance, journals, auxiliary accounts), bank deposits, vendor payment export via SEPA or AMC Banking, and troubleshooting report printing. Answers setup and how-to questions for Mexican companies.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Mexico](../mexico.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section collects four pages for Mexican finance work. One covers compliance with Mexico's electronic accounting regulations. Two are short how-to pages for the Mexican version, on creating deposits and printing troubleshooting reports. The fourth covers paying vendors by exporting payment files.
+This section gathers general topics for the Mexican version of Business Central. It has no subtopics, so all content is in four standalone pages.
 
-Start with the electronic accounting page if you need to report to the Mexican Tax Authority (SAT). It describes exporting the chart of accounts, trial balance and journal transactions as XML through the Export Elect. Accounting functionality. The deposit and troubleshooting pages are for day-to-day finance tasks and diagnosing finance issues. The payment page applies when you pay vendors through a bank using exported payment information.
+The main compliance page covers Export Electr. Accounting, which prepares XML files for Mexican electronic accounting requirements. It depends on setup of RFC numbers, SAT account codes, and bank information. Two finance pages cover bank deposits (pointing to the standard Bank Deposits feature) and paying vendors by exporting payment files in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension.
+
+The last page covers printing troubleshooting reports with Object Designer, and applies to version 14 and earlier. Start with the electronic accounting page if you handle Mexican statutory reporting. Use the payment page for bank file exports.
 
 ## Key points
 
-- Export Elect. Accounting produces XML files of the chart of accounts, trial balance and journal transactions for the SAT.
-- Electronic accounting setup involves a SAT account code, bank account setup and payment method coding.
-- Deposits can be created in the Mexican version of Business Central.
-- Troubleshooting reports can be printed in the Mexican version to diagnose finance issues.
+- Export Electr. Accounting exports chart of accounts, trial balance, journal transactions, and auxiliary accounts as XML files.
+- Electronic accounting needs RFC numbers, SAT account codes, and bank information to be set up.
+- Bank deposits in the Mexican version point to the standard Bank Deposits feature for the current workflow.
 - Vendor payments can be exported in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension.
-- Payment export includes payment file export, bank data conversion, credit transfer registration tracking and payment export history.
+- Payment export tracks credit transfer registration and payment export history, and converts bank data.
+- Troubleshooting reports are printed through Object Designer, for version 14 and earlier (Spring 2019).
 
 ## Learn pages
 
-- [Electronic accounting regulations in Mexico](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-accounting-regulations): This article explains how Business Central can assist with compliance regarding electronic accounting requirements in Mexico.
-  - In the observatory: [Page 423 "Customer Bank Account Card"](../../../../../objects/page/423.md), [Page 425 "Vendor Bank Account Card"](../../../../../objects/page/425.md)
-- [How to create deposits [MX]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-create-deposits): Make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos in the Mexican version.
-- [How to Print Troubleshooting Reports [MX]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-print-troubleshooting-reports): Troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues in the Mexican version.
+- [Comply with Electronic Accounting Regulations in Mexico](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-accounting-regulations): This article explains how Business Central can assist with compliance regarding electronic accounting requirements in Mexico.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 21 "Customer Card"](../../../../../objects/page/21.md), [Page 26 "Vendor Card"](../../../../../objects/page/26.md), [Page 423 "Customer Bank Account Card"](../../../../../objects/page/423.md), [Page 425 "Vendor Bank Account Card"](../../../../../objects/page/425.md), [Table 289 "Payment Method"](../../../../../objects/table/289.md)
+- [Create Deposits in the Mexican Version [MX]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-create-deposits): Make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos in the Mexican version.
 - [Make payments with AMC banking (US) or SEPA credit transfer (EU)](https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer): Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
   - In the observatory: [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 427 "Payment Methods"](../../../../../objects/page/427.md)
+- [Print Troubleshooting Reports in the Mexican Version [MX]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-print-troubleshooting-reports): Troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues in the Mexican version.
 
 ## Business Central pages and reports
 

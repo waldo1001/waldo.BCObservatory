@@ -2,13 +2,13 @@
   "inputs": [
     7,
     [
-      "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+      "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
       "4",
-      9501
+      9502
     ]
   ],
   "major": "30",
-  "count": 686,
+  "count": 723,
   "by_tag": {
     "untagged": 104,
     "23.0": 1,
@@ -21,7 +21,7 @@
     "28.0": 144,
     "29.0": 71,
     "29.1": 2,
-    "30.0": 17
+    "30.0": 54
   },
   "items": [
     {
@@ -8480,6 +8480,487 @@
       "state": "Pending",
       "tag": "30.0",
       "reason": "Renamed to DeleteAPITool.",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "AddDimensionFields",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure AddDimensionFields",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "AddDimensionFieldsWhenProcessingOrder",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure AddDimensionFieldsWhenProcessingOrder",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "AddDimPackageFields",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure AddDimPackageFields",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "AddFieldAttributes",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure AddFieldAttributes",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "AddTableAttributes",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure AddTableAttributes",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "CreateRecordNodes",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure CreateRecordNodes",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "ExportConfigPackageMediaSetToXML",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure ExportConfigPackageMediaSetToXML",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "ExportConfigTableToXML",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure ExportConfigTableToXML",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "ExportPackageXMLDocument",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure ExportPackageToXMLDocument",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "ExportPackageXMLLegacy",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure ExportPackageXML",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "ExportPackageXMLToStreamLegacy",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure ExportPackageXMLToStream",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "FieldNodeExists",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure FieldNodeExists",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "FillPackageDataFromXML",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure FillPackageDataFromXML",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "FillPackageMetadataFromXML",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure FillPackageMetadataFromXML",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "GetAttribute",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure GetAttribute",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "GetConfigPackageDataValue",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure GetConfigPackageDataValue",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "GetNodeValue",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure GetNodeValue",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "GetPackageCode",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure GetPackageCode",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "GetTableStatisticsForTelemetry",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure GetTableStatisticsForTelemetry",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "ImportPackageXML",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure ImportPackageXMLFromFile(XMLDataFile: Text)",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "ImportPackageXMLDocument",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure ImportPackageXMLDocument",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "ImportPackageXMLFromStream",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure ImportPackageXML(InStream: InStream)",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "ImportPackageXMLWithCodeFromStream",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure ImportPackageXMLWithCode(InStream: InStream; PackageCode: Code[20])",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "ImportTableFromXMLNode",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure ImportTableFromXMLNode",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "OnAfterAddFieldAttributes",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by event OnAfterAddFieldAttributesProcedure",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "OnAfterAddTableAttributes",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by event OnAfterAddTableAttributesProcedure",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "OnAfterExportPackageXMLDocument",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by event OnAfterExportPackageToXMLDocument",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "OnBeforeCreateRecordNodes",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by event OnBeforeCreateRecordNodesProcedure",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "OnCreateRecordNodesOnAfterNotFoundRecordProcessed",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by event OnCreateRecordNodesProcedureOnAfterNotFoundRecordProcessed",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "OnCreateRecordNodesOnAfterRecordProcessed",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by event OnCreateRecordNodesProcedureOnAfterRecordProcessed",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "OnExportPackageXMLDocumentOnAfterSetAttributes",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by event OnExportPackageToXMLDocumentOnAfterSetAttributes",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "OnExportPackageXMLDocumentOnBeforeConfigProgressBarInit",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by event OnExportPackageToXMLDocumentOnBeforeConfigProgressBarInit",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "OnFillPackageMetadataFromXMLOnAfterGetPackageTableValueFromXML",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by event OnFillPackageMetadataFromXMLOnAfterGetPackageTableValueFromTableNode",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "OnFillPackageMetadataFromXMLOnBeforeConfigPackageFieldModify",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by event OnFillPackageMetadataFromXMLOnBeforeModifyConfigPackageField",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "OnImportPackageXMLDocumentOnBeforeModify",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by event OnImportPackageXMLDocumentOnBeforeModifyConfigPackage",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "OnImportPackageXMLFromClientOnBeforeImportPackage",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Temporary fallback to the DotNet based import. It is removed together with the DotNet based import.",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/8614",
+      "object": "Config. XML Exchange",
+      "member": "PackageDataExistsInXML",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by procedure PackageDataExistsInXML",
       "clean": [
         "CLEAN30"
       ],

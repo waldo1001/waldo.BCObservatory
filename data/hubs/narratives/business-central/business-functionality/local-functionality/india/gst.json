@@ -1,38 +1,38 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/india/gst",
-  "input_hash": "9132b94817d06fafce2c108bf763e8f06599c164fb8acdad7c7894fbc3170316",
-  "summary": "GST in the India localization of Business Central: setup, sales and purchase transactions, returns, advance payments, TDS/TCS, cess, e-invoice, e-way bill, input service distribution, reconciliation and settlement. It answers how GST is calculated and posted to the general ledger in each scenario.",
-  "overview": "This section covers Goods and Services Tax handling in the India localization. It starts with setup pages (GST, Compensation Cess, GST TDS and TCS, bank charges) and then walks through transaction scenarios. Most pages describe one scenario, with intra-state (CGST/SGST) and inter-state (IGST) treatment and the resulting GL entries, often with and without input tax credit.\n\nTransaction pages are grouped by party and type. Sales cover registered and unregistered customers, exempted sales, exports, SEZ and overseas place of supply, and returns. Purchases cover registered, unregistered (reverse charge), composite, SEZ and foreign vendors and services with an overseas place of supply. Separate return pages cover registered, unregistered, composite or exempted, foreign and overseas place of supply cases. Further pages cover advance payments, journals, bank charges, service management, service and stock transfers, and Input Service Distribution.\n\nCompliance and period-end pages cover E-Invoice, E-Way Bill, GST reconciliation with GSTR-2A, credit adjustments and settlement of net payment liability. Start with \"Setting up Goods and Service Tax\", then open the page for the transaction type you need.",
+  "input_hash": "5e81ccbbbf79e2b595a41057597d8f38e428bb2319d679d8f0c6cda21cffa061",
+  "summary": "GST in the India localization of Business Central: setup, purchase and sales transactions, advance payments, returns, imports and exports, credit adjustments, settlement, reconciliation, E-Invoice and E-Way Bill. It answers how to configure GST, TDS, TCS and Cess, and how each transaction type calculates tax and posts to the general ledger.",
+  "overview": "This section documents Goods and Services Tax handling for Indian companies in Business Central. It starts with setup pages (Set Up Goods and Services Tax, GST Compensation Cess, GST for bank charges, GST TDS and TCS). These cover GST rates, registration numbers, GST groups, HSN/SAC codes, posting setup, and GST details on vendors, customers, items and locations.\n\nThe transaction pages are organized by scenario. Purchases cover registered, unregistered (reverse charge), composite or exempted, SEZ and foreign vendors, plus the matching returns. Sales cover registered and unregistered customers, exempted sales, exports, overseas place of supply and sales returns. Further pages deal with advance payments to vendors and from customers, bank charges, service management, stock and service transfers, and input service distribution. Most pages give GL entry examples for intra-state (CGST/SGST) and inter-state (IGST) cases, with and without input tax credit.\n\nLater pages cover compliance and period-end work: credit adjustments, GST liability adjustment for open reverse charge invoices, settlement of net payment liability, GSTR-2A reconciliation, E-Invoice and E-Way Bill. Start with Set Up Goods and Services Tax, then go to the page for your transaction type.",
   "key_points": [
-    "Setting up Goods and Services Tax covers the tax engine, rates, registration numbers, accounting periods, GST groups, HSN/SAC codes and posting accounts.",
-    "Purchases from registered vendors use CGST/SGST or IGST with credit availment options. Unregistered vendors attract GST only for notified services under reverse charge. Composite vendors and exempted goods have no GST impact.",
-    "Imports from foreign vendors fall under reverse charge, with IGST on GST Assessable Value plus Basic Custom Duty. Purchases from SEZ vendors also carry IGST on that base, with or without bill of entry.",
-    "GST Compensation Cess has five calculation types: Cess%, Threshold, Cess% + Amount/Unit Factor, whichever higher of Cess% or Amount/Unit Factor, and Amount/Unit Factor.",
-    "GST TDS is set up at 2% on payments above INR 250000, and e-commerce operators collect GST TCS at 1%. Separate pages cover vendor and customer payments.",
-    "Advance payments are covered for customers and vendors, including application to invoices, un-application, interim accounts and GSTR-1 reporting.",
-    "E-Invoice generates JSON invoices and imports signed responses with IRN validation. E-Way Bill exports a template to Excel for goods over INR 50,000.",
-    "GST reconciliation matches purchases to GSTR-2A, and settlement of net payment liability discharges tax monthly using credit offsets in priority order."
+    "Setup includes GST rates, registration numbers, tax accounting periods, states, GST groups, HSN/SAC codes, posting setup by state and component, and GST types on vendors and customers.",
+    "Purchase scenarios cover registered, unregistered (reverse charge), composite or exempted, SEZ and foreign vendors. Composite and exempted purchases calculate no GST.",
+    "Sales scenarios cover B2B and B2C, exempted customers, exports with or without payment of duty, deemed export, SEZ, and overseas place of supply.",
+    "GST Compensation Cess supports five calculation types: percentage, threshold, percentage plus amount, percentage or amount whichever is higher, and amount per unit factor. Cess credit can only offset cess liability.",
+    "TDS is deducted on the base amount excluding GST. TCS applies on sales by nature of collection. GST TDS is 2% on payments above INR 250000 and GST TCS is 1% for e-commerce operators.",
+    "Advance payments from customers and to vendors have their own GST treatment, covering application, unapplication and reversal.",
+    "GST liability adjustment for open reverse charge invoices applies when payment is not made within 30 days for goods or 60 days for services.",
+    "Compliance features include the Credit Adjustment Journal, GST settlement, GSTR-2A reconciliation, E-Invoice (JSON export, IRN, cancellation) and E-Way Bill Excel export."
   ],
   "members_used": 47,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:16.792Z",
+  "at": "2026-10-28T10:58:28.010Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.043445000000000004
+    "cost_usd": 0.048625
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:15:32.621Z",
-    "verdict": "fix",
+    "at": "2026-10-28T11:01:01.827Z",
+    "verdict": "approve",
     "issues": [
-      "Key point 3 says SEZ vendor purchases are 'under reverse charge'; the sources only tie reverse charge to imports from foreign vendors. The SEZ page covers IGST on GST Assessable Value plus Basic Custom Duty, with or without bill of entry.",
-      "The overview's 'plus their returns' suggests every purchase vendor type has a return page; there is no SEZ vendor return page. The overseas place of supply services purchase page was also missing.",
-      "Minor: Kerala Flood Cess on B2C sales is not mentioned. This is optional to add."
+      "The narrative leaves out the Kerala Flood Cess page, a historical sales example where the source says the cess no longer applies. That's fine, but if it's ever added it should be labeled as no longer applicable.",
+      "The GST TCS on vendor payments and GST TCS/TDS on customer payments pages (settlement and certificates) aren't named. The general TDS/TCS points cover them only indirectly.",
+      "'GST TCS is 1% for e-commerce operators' is slightly loose. The source says the 1% TCS is collected by e-commerce operators."
     ],
-    "input_hash": "9132b94817d06fafce2c108bf763e8f06599c164fb8acdad7c7894fbc3170316",
-    "cost_usd": 0.1275472
+    "input_hash": "5e81ccbbbf79e2b595a41057597d8f38e428bb2319d679d8f0c6cda21cffa061",
+    "cost_usd": 0.10859919999999999
   }
 }

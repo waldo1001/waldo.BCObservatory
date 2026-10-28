@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/12539",
+  "input_hash": "ac039a8d4fd40c6e0f8493c22c243740dfcd2ad84c0bc1166d402424fd93cb5e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-28T10:56:15.279Z",
+  "issues": [
+    "The summary calls the quota interface 'for extensibility', but the description says it is internal and used for test injection with a default production implementation."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01829,
+    "changes_in_call": 6
+  }
+}

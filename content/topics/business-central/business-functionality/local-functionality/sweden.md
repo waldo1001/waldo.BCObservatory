@@ -2,61 +2,61 @@
 id: topic/business-central/business-functionality/local-functionality/sweden
 type: topic
 title: Sweden
-summary: "Sweden local functionality in Business Central: how the Swedish version handles VAT, EU third-party purchase transactions, automatic account codes, SIE import and export, and balance sheet and income statement reports. It answers setup and usage questions for Swedish accounting and compliance."
+summary: "Sweden local functionality in the Swedish version of Business Central: EU third-party purchase transactions for VAT reporting, automatic account codes and posting groups, SIE import/export, and the Balance Sheet - SE and Income Statement - SE reports. It answers Sweden-specific setup and usage questions."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:22:53.826Z"
+  at: "2026-10-28T11:02:48.912Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 6afd8dfd1defddd1060990675dbc4515d62fd77b9fda1e720aed19e17c1d201d
+  input_hash: d94d7f57a6fe5577ee3bf20b772099b7628fd6d734ff55d4eaa1bb6305181a7f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/automatic-account-codes
-    title: Automatic account codes in the Swedish version
-    date: "2025-02-06"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions
-    title: EU Third-Party Purchase Transactions [SE]
-    date: "2025-02-07"
+    title: Automatic Account Codes in the Swedish Version
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format
-    title: Import and Export Data in SIE [SE]
-    date: "2025-02-06"
+    title: Import and Export SIE Data in Earlier Swedish Versions [SE]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports
     title: Print Balance Sheet and Income Statement Reports
-    date: "2025-02-06"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups
-    title: Set Up Automatic Account Posting Groups [SE]
-    date: "2025-02-07"
+    title: Set Up Automatic Account Groups in Sweden
+    date: "2026-10-23"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions
+    title: Set Up EU Third-Party Purchase Transactions in Sweden
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/sweden-local-functionality
-    title: Sweden Local Functionality [SE]
-    date: "2025-02-06"
+    title: Sweden Local Functionality in the Swedish Version [SE]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -65,8 +65,11 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/sweden-local-functionality
   objects:
-    - object/page/9001
-    - object/page/9027
+    - object/page/51
+    - object/page/472
+    - object/page/4850
+    - object/page/4851
+    - object/page/4852
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality
@@ -87,44 +90,47 @@ children:
   - topic/business-central/business-functionality/local-functionality/sweden/core-finance
 coverage:
   learn: 6
-  code: 2
+  code: 5
   video: 0
   blog: 0
   guideline: 0
 bc_forms:
-  - 9001
-  - 9027
-  - 11206
-  - 11207
-  - 11208
+  - 51
+  - 472
+  - 4850
+  - 4851
+  - 4852
   - 11212
+  - 11290
+  - 11291
 member_hash: fc969d45234df5ce763d47291b3a78317dc97d8f22ac897c0195592d685e5ef2
 narrative: generated
 ---
 
 # Sweden
 
-> Sweden local functionality in Business Central: how the Swedish version handles VAT, EU third-party purchase transactions, automatic account codes, SIE import and export, and balance sheet and income statement reports. It answers setup and usage questions for Swedish accounting and compliance.
+> Sweden local functionality in the Swedish version of Business Central: EU third-party purchase transactions for VAT reporting, automatic account codes and posting groups, SIE import/export, and the Balance Sheet - SE and Income Statement - SE reports. It answers Sweden-specific setup and usage questions.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Sweden · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Sweden section describes what the Swedish version of Business Central adds on top of the global product. Since release 2023 wave 1, the Swedish localization runs as an extension on the W1 BaseApp. The overview page lists the Swedish features: VAT, automatic account codes, SIE import and export, and financial reporting.
+The Sweden section describes features built for Swedish regulatory requirements in Business Central. It covers VAT handling, automatic account codes, automatic account posting groups, SIE data import and export, and Swedish balance sheet and income statement reports.
 
-Two kinds of pages sit here. One page covers EU third-party purchase transactions, used for Swedish VAT reporting and VIES requirements. This feature moved to a global extension starting version 22.1. The Core finance subtopic covers automatic account codes and posting groups, SIE import and export of general ledger data, and printing balance sheet and income statement reports.
+The section has an overview page that lists these features, a page on setting up EU third-party purchase transactions, and a Core finance subtopic. Core finance holds the general ledger pages: automatic account codes and groups, SIE import and export in earlier Swedish versions, and the Balance Sheet - SE and Income Statement - SE reports.
 
-Start with the Sweden Local Functionality page for the overall picture. Then go to Core finance for accounting setup, or to the EU third-party page if you need VAT and VIES reporting.
+Start with the overview page to find the feature you need. For VAT questions about purchases between EU countries, go to the EU third-party purchase page. For ledger and reporting tasks, go to Core finance.
 
 ## Key points
 
-- Swedish localization is an extension on the W1 BaseApp starting release 2023 wave 1.
-- EU third-party purchase transactions (EU 3-Party Trade) support Swedish VAT reporting and VIES declarations, including purchase transaction filtering.
-- The EU third-party feature moved to a global extension starting version 22.1.
-- Automatic account codes and automatic account posting groups are part of the Swedish core finance setup.
-- SIE import and export moves general ledger data in and out of Business Central.
-- Balance sheet and income statement reports can be printed in the Swedish version.
-- The Core finance subtopic has 4 pages covering these accounting topics.
+- EU third-party purchases are purchases from one EU country where the products are sent to another country without entering Sweden. They are reported separately for VAT compliance.
+- The EU third-party purchase setup page is marked version 25.0.
+- Setup steps for EU third-party purchases: enable EU 3-Party Purchase, mark transactions as EU 3-Party Trade, and filter the VAT statement.
+- The VAT-VIES Declaration Tax Auth report is part of the EU third-party purchase reporting.
+- Automatic account codes and automatic account posting groups are Sweden-specific general ledger features.
+- SIE data import and export is covered for earlier Swedish versions.
+- Balance Sheet - SE and Income Statement - SE are the Swedish financial reports.
+- The Core finance subtopic has 4 pages for general ledger setup and usage.
 
 ## Subtopics
 
@@ -132,9 +138,8 @@ Start with the Sweden Local Functionality page for the overall picture. Then go 
 
 ## More Learn pages
 
-- [EU Third-Party Purchase Transactions [SE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions): This article explains how to set up EU Third-Party Purchase Transactions with the Swedish version of Business Central.
-  - In the observatory: [Page 9308 "Purchase Invoices"](../../../../objects/page/9308.md)
-- [Sweden Local Functionality [SE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/sweden-local-functionality): The links in this article describe the different local functionality in the Swedish version of Business Central.
+- [Set Up EU Third-Party Purchase Transactions in Sweden](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions): Set up EU third-party purchase transactions in the Swedish version of Business Central, enable VAT tracking, and mark qualifying purchase invoices.
+- [Sweden Local Functionality in the Swedish Version [SE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/sweden-local-functionality): Explore Swedish functionality in Business Central, including SIE import and export, automatic account groups, EU third-party purchases, and reports.
 
 ## Videos, posts and code changes
 
@@ -146,9 +151,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
 
-- [Page 9001 "Accounting Manager Role Center"](../../../../objects/page/9001.md) · captioned "Accounting Manager" · via [Core finance](sweden/core-finance.md)
-- [Page 9027 "Accountant Role Center"](../../../../objects/page/9027.md) · captioned "Accountant" · via [Core finance](sweden/core-finance.md)
+- [Page 51 "Purchase Invoice"](../../../../objects/page/51.md) · on [Table 38 "Purchase Header"](../../../../objects/table/38.md)
+- [Page 472 "VAT Posting Setup"](../../../../objects/page/472.md) · on [Table 325 "VAT Posting Setup"](../../../../objects/table/325.md)
+- [Page 4850 "Automatic Account Header"](../../../../objects/page/4850.md) · captioned "Automatic Account Groups" · on [Table 4850 "Automatic Account Header"](../../../../objects/table/4850.md) · via [Core finance](sweden/core-finance.md)
+- [Page 4851 "Automatic Account Line"](../../../../objects/page/4851.md) · on [Table 4851 "Automatic Account Line"](../../../../objects/table/4851.md) · via [Core finance](sweden/core-finance.md)
+- [Page 4852 "Automatic Account List"](../../../../objects/page/4852.md) · captioned "Automatic Account Groups" · on [Table 4850 "Automatic Account Header"](../../../../objects/table/4850.md) · via [Core finance](sweden/core-finance.md)
 
-Learn also names 4 objects with no object page: page/11206, page/11207, page/11208, page/11212.
+Learn also names 3 objects with no object page: page/11212, page/11290, page/11291.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

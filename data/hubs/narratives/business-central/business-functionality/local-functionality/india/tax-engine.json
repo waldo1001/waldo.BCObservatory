@@ -1,37 +1,37 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/india/tax-engine",
-  "input_hash": "c162eb2ac2155952038f374518dee5e49b97a0b5b6af6479c47a9c1aed8cccdd",
-  "summary": "The Tax engine section covers the configurable Tax Engine for India in Business Central. It answers questions about setting up tax types, rates and use cases, scripting and lookups, design best practices, and importing or exporting configuration as JSON.",
-  "overview": "Tax Engine is a configurable extension suite for India. It lets you set up tax rules, calculation and posting without code changes, through six modular extensions. The Overview page introduces the components, including Tax Type Handler, Tax Use Case Handler, Tax Scripting, Tax Posting Handler and JSON import/export.\n\nThe configuration pages follow a sequence. Tax Configuration 01 covers tax types (GST, TDS, TCS, WHT), attributes, components, rate parameters and tax rates. Tax Configuration 02 covers use cases: conditions, attribute and rate parameter mapping, computation scripts, component formulas, posting and tax ledger mapping. The Script Activity and Lookup pages are references for building the logic inside use cases.\n\nStart with the Overview, then read the two configuration pages in order. Use the Design Consideration page for best practices before you build. Use the Import/Export page when you move configuration between environments.",
+  "input_hash": "07a70080655ffc3958f49704cab6e32e59c68c78a4cf78008aef8393b1f1728f",
+  "summary": "The Tax engine section covers the configuration-driven tax engine in the India localization of Business Central. It answers questions about tax types, rates, use cases, lookups, scripting, design choices, and JSON import/export of tax configuration.",
+  "overview": "The tax engine manages tax rules and calculations through configuration rather than fixed code. The overview page describes its six modules: core, tax type handler, use case handler, scripting, posting handler, and JSON exchange. Start there to see how the parts relate.\n\nThe other pages follow the setup flow. The design consideration page covers choices for tax types, attributes, rate setup, and use case sequencing. The tax type and tax rate page covers tax types, components, attributes, and rates used to calculate and post taxes to G/L accounts. The use case page defines when and how tax is calculated, using conditions, attribute mapping, rate parameters, computation scripts, and posting setup.\n\nLookup and Script Activity pages are references for building use case logic. Lookup fetches values from sources such as the current record, variables, tables, and tax attributes. Script Activity covers string, number, date, condition, and loop activities. The Import/Export page explains moving tax type configuration and use cases as JSON, and using the Tax Engine Setup wizard.",
   "key_points": [
-    "Tax Engine is an India-specific extension suite with six modular extensions for tax setup, calculation and posting without code changes.",
-    "Tax types such as GST, TDS, TCS and WHT are set up with attributes, components, rate parameters and tax rates, and are posted to G/L accounts.",
-    "Use cases define business scenarios: stages, conditions, attribute mapping, rate parameter mapping, variables, computation scripts, component formulas, posting and tax ledger mapping.",
-    "Script Activity supports string operations, number calculations, date manipulation, conditions, loops and miscellaneous activities.",
-    "Lookups fetch values from the current record, variables, tables, the database, the system, tax attributes, components and other sources.",
-    "The Json Exchange extension imports and exports full tax type configurations or specific use cases in JSON format, and is reached through Assisted Setup.",
-    "Design Consideration gives best practices for creating tax types, generic attributes and rate setups, sequencing use cases, deploying configuration files and managing versions."
+    "The tax engine has six modules: core, tax type handler, use case handler, scripting, posting handler, and JSON exchange.",
+    "Tax types are configured with components, attributes, entity mapping, and rate setup so taxes can be calculated and posted to G/L accounts.",
+    "Design guidance covers generic attributes, mapping attributes to table fields, rate column setup, and use case execution order.",
+    "Use cases define conditions, attribute mapping, rate parameter mapping, variables, computation scripts, component formulas, and posting setup.",
+    "Lookups fetch values from the current record, variables, tables, database, system, tax attributes, and components.",
+    "Script activities include string operations, number calculations, date manipulation, conditions, and loops.",
+    "Tax type configuration and use cases can be exported and imported as JSON, and the Tax Engine Setup wizard supports assisted setup."
   ],
   "members_used": 7,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:29.973Z",
+  "at": "2026-10-28T10:58:23.478Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.014343000000000002
+    "cost_usd": 0.014031
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:22:01.979Z",
+    "at": "2026-10-28T11:02:34.369Z",
     "verdict": "approve",
     "issues": [
-      "Overview says to use the Import/Export page 'when you move configuration between environments'. This is a reasonable reading but goes slightly beyond the page summary, which only describes importing and exporting configuration in JSON.",
-      "'Reached through Assisted Setup' comes only from the Import/Export page's feature list, not its summary. It is acceptable but thinly sourced.",
-      "The reading order advice (Design Consideration before you build) is the narrative's own suggestion, not something the sources state. It is harmless."
+      "The overview says the engine works through configuration \"rather than fixed code\". The overview page summary only says \"through configuration\", so this contrast is a small inference.",
+      "\"The other pages follow the setup flow\" is an editorial framing. The page summaries don't say this outright, but it is reasonable.",
+      "Two smaller points from the page summaries are left out: deployment of tax configurations (design consideration page) and miscellaneous script activities. Leaving them out is fine."
     ],
-    "input_hash": "c162eb2ac2155952038f374518dee5e49b97a0b5b6af6479c47a9c1aed8cccdd",
-    "cost_usd": 0.0390352
+    "input_hash": "07a70080655ffc3958f49704cab6e32e59c68c78a4cf78008aef8393b1f1728f",
+    "cost_usd": 0.0304432
   }
 }

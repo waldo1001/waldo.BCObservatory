@@ -1,6 +1,6 @@
 # BC Observatory: Codeunit objects
 
-4052 objects, by id.
+4071 objects, by id.
 
 - [Codeunit 2 "Company-Initialize"](2.md): Base Application
 - [Codeunit 3 "G/L Account-Indent"](3.md): Base Application
@@ -2541,6 +2541,7 @@
 - [Codeunit 6910 "Expense Report"](6910.md): ExpenseAgent
 - [Codeunit 6911 "Expense Per Diem Calculation"](6911.md): ExpenseAgent
 - [Codeunit 6912 "Expense Auto Population"](6912.md): ExpenseAgent
+- [Codeunit 6913 "Expense Agent Quota Impl."](6913.md): ExpenseAgent
 - [Codeunit 6922 "Expense Agent Entra App Mgt."](6922.md): ExpenseAgent
 - [Codeunit 6926 "Expense Activity Log Mgt."](6926.md): ExpenseAgent
 - [Codeunit 6930 "Expense Agent MCP Config."](6930.md): ExpenseAgent, obsolete 28.0
@@ -2891,6 +2892,23 @@
 - [Codeunit 8077 "Deferral Post. Preview Handler"](8077.md): Subscription Billing
 - [Codeunit 8078 "Deferral Post. Preview Subscr."](8078.md): Subscription Billing
 - [Codeunit 8079 "PBI Sub. Billing App"](8079.md): Subscription Billing
+- [Codeunit 8125 "Report Filename Mgt."](8125.md): ReportFilenameManager
+- [Codeunit 8126 "Report Filename Subscribers"](8126.md): ReportFilenameManager
+- [Codeunit 8127 "Report Filename Context"](8127.md): ReportFilenameManager
+- [Codeunit 8128 "Report Filename Preview Mgt."](8128.md): ReportFilenameManager
+- [Codeunit 8129 "Report Filename Plh. Mgt."](8129.md): ReportFilenameManager
+- [Codeunit 8131 "Report Filename Company Plh."](8131.md): ReportFilenameManager
+- [Codeunit 8132 "Report Filename Created Plh."](8132.md): ReportFilenameManager
+- [Codeunit 8133 "Report Filename User Plh."](8133.md): ReportFilenameManager
+- [Codeunit 8134 "Report Filename Report Plh."](8134.md): ReportFilenameManager
+- [Codeunit 8135 "Report Filename Total Plh."](8135.md): ReportFilenameManager
+- [Codeunit 8136 "Report Filename Inbox Mgt."](8136.md): ReportFilenameManager
+- [Codeunit 8137 "Report Filename Inbox Sub."](8137.md): ReportFilenameManager
+- [Codeunit 8138 "Report Filename Fin. Rep. Sub."](8138.md): ReportFilenameManager
+- [Codeunit 8139 "Report Filename Doc. Kind Plh."](8139.md): ReportFilenameManager
+- [Codeunit 8140 "Report Filename Guided Exp."](8140.md): ReportFilenameManager
+- [Codeunit 8141 "Report Filename Period Plh."](8141.md): ReportFilenameManager
+- [Codeunit 8142 "Report Filename Excel Sub."](8142.md): ReportFilenameManager
 - [Codeunit 8333 "VS Code Integration Impl."](8333.md): System Application
 - [Codeunit 8334 "VS Code Integration"](8334.md): System Application
 - [Codeunit 8347 "Feature Configuration"](8347.md): System Application
@@ -2916,6 +2934,7 @@
 - [Codeunit 8369 "MCP API Tools Feature"](8369.md): System Application
 - [Codeunit 8370 "MCP Dyn. Tool Mode Feature"](8370.md): System Application
 - [Codeunit 8376 "MCP Agent Tools Feature"](8376.md): System Application
+- [Codeunit 8377 "MCP Config Empty"](8377.md): System Application
 - [Codeunit 8390 "Financial Report Auditing"](8390.md): Base Application
 - [Codeunit 8400 "Record Set Management"](8400.md): Base Application
 - [Codeunit 8510 "Over-Receipt Mgt."](8510.md): Base Application

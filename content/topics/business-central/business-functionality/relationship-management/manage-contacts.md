@@ -2,40 +2,47 @@
 id: topic/business-central/business-functionality/relationship-management/manage-contacts
 type: topic
 title: Manage contacts
-summary: "Managing contacts in Business Central: creating person and company contacts, linking them to customers, vendors and banks, merging duplicates, syncing to Outlook, and organizing contacts with groups and profiles. It answers how-to questions on contact setup and maintenance."
+summary: "Managing business contacts in Business Central: creating and linking contacts, setting up segmentation data, classifying with profile questionnaires, merging duplicates, and saving contacts to Outlook. It answers how-to questions about the Contacts list and its related setup."
 tier: official
 language: en
 system: crm
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:23:04.955Z"
+  at: "2026-10-28T11:02:52.438Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 4c0d5a6783c5593d68beba09347b35a4ac4cff62f97d857e1012a23ce20d8dcc
+  input_hash: dd8c9c80fc9ad33f389a2a6bb3b0aeb42082fa96858d2f76568cc0ad212d069c
 evidence:
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/marketing-contacts
-    title: Create and manage company contacts
-    date: "2025-10-03"
+    url: https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-profile-questionnaire
+    title: Classify Contacts with Profile Questionnaires
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-companies
-    title: Create business contacts
-    date: "2025-10-03"
+    title: Create and Link Business Contacts
+    date: "2026-10-22"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/marketing-contacts
+    title: Create and Manage Business Contacts
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records
-    title: Merge duplicate customer or vendor records
-    date: "2025-06-13"
+    title: Merge Duplicate Customers, Vendors, or Contacts
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
@@ -48,26 +55,19 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-setup-contacts
-    title: Set up information for contacts
-    date: "2025-10-03"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-profile-questionnaire
-    title: Use profiles to classify contacts
-    date: "2025-10-03"
+    title: Set Up Information for Business Contacts
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/marketing-contacts
+    - https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-profile-questionnaire
     - https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-companies
+    - https://learn.microsoft.com/dynamics365/business-central/marketing-contacts
     - https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records
     - https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook
     - https://learn.microsoft.com/dynamics365/business-central/marketing-setup-contacts
-    - https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-profile-questionnaire
   objects:
     - object/page/5109
     - object/page/5110
@@ -109,38 +109,40 @@ narrative: generated
 
 # Manage contacts
 
-> Managing contacts in Business Central: creating person and company contacts, linking them to customers, vendors and banks, merging duplicates, syncing to Outlook, and organizing contacts with groups and profiles. It answers how-to questions on contact setup and maintenance.
+> Managing business contacts in Business Central: creating and linking contacts, setting up segmentation data, classifying with profile questionnaires, merging duplicates, and saving contacts to Outlook. It answers how-to questions about the Contacts list and its related setup.
 
 Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Manage contacts · tier official · system crm · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers the contact records used in relationship management to track prospects and business relationships. Contacts can be people or companies. They can be created from, or linked to, existing customers, vendors and bank accounts, and contact data can be synchronized with customers, vendors, employees and banks.
+The Contacts list holds prospective business relations and external contacts, so they can be tracked and later converted to formal customers, vendors, or bank relationships. The page "Create and Manage Business Contacts" is the best starting point, since it introduces the contact card, statistics, sales opportunities, and the related tools.
 
-The pages fit together as a workflow. Start with "Create and manage company contacts" and "Create business contacts" for the contact card, contact types and linking. Then use "Set up information for contacts" and "Use profiles to classify contacts" to segment contacts for targeted marketing. "Merge duplicate customer or vendor records" handles cleanup. "Save Business Contacts to Microsoft Outlook" covers saving contacts to Outlook and Teams and synchronizing them with Outlook.
+Supporting pages cover specific tasks. "Create and Link Business Contacts" explains creating contacts manually or from customers, vendors, and bank accounts, creating those records from a contact, linking, unlinking, and synchronizing data. "Set Up Information for Business Contacts" covers the setup data used to segment contacts, such as industry groups, mailing groups, job responsibilities, organizational levels, and web sources.
+
+Further pages deal with data quality and reach. Profile questionnaires classify contacts using answers with point values. The Merge Duplicate feature combines duplicate customer, vendor, or contact records. Contacts can also be saved to Microsoft Outlook, with optional two-way synchronization.
 
 ## Key points
 
-- Contacts can be person or company types. The contact card supports interaction tracking, opportunity management and contact statistics.
-- Contacts can be created from customers, vendors and bank accounts, and can be linked to existing business entities.
-- Contacts can be converted to customers, vendors or banks.
-- Merging duplicate customer, vendor or contact records means comparing field values, choosing which to keep, and resolving conflicts. It requires the MERGE DUPLICATES permission set.
-- Contacts can be saved to Outlook and Teams, with optional two-way sync and contact filtering. The page references 2026 release wave 1.
-- Master data for contacts includes industry groups, mailing groups, job responsibilities, organizational levels, web sources and alternate addresses.
-- Profile questionnaires classify and rate contacts using answer points, with automatic classification, to support targeted campaigns.
+- The Contacts list manages prospects and external contacts and helps convert them to customers, vendors, or bank relations.
+- Contacts can be created manually, from customers, vendors, or bank accounts, and customers, vendors, employees, or bank accounts can be created from a contact.
+- Existing contacts can be linked to or unlinked from customers, vendors, employees, and bank accounts, with contact data synchronized.
+- Setup data includes industry groups, mailing groups, alternate addresses, job responsibilities, organizational levels, and web sources.
+- Profile questionnaires use questions and answers with point values to classify contacts automatically for targeted campaigns.
+- Merge Duplicate lets users choose which field values to keep and review related tables; it requires the MERGE DUPLICATES permission set.
+- Saving contacts to Outlook and Teams supports optional two-way sync and contact filtering (listed under 2026 release wave 1).
 
 ## Learn pages
 
-- [Create and manage company contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-contacts): Record every external person or organization you interact with—such as prospects, customers, vendors, and consultants—as contacts to track relationship details and communications.
-- [Create business contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-companies): Outlines the tasks needed to create contacts and define your business relationships on the Contact Card.
+- [Classify Contacts with Profile Questionnaires](https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-profile-questionnaire): Set up profile questionnaires in Business Central to rate prospects, classify contacts, and target marketing campaigns using customer and vendor data.
+  - In the observatory: [Page 5112 "Profile Question Details"](../../../../objects/page/5112.md), [Page 5172 "Answer Points"](../../../../objects/page/5172.md)
+- [Create and Link Business Contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-companies): Create contacts in Business Central, create related customer or vendor records, and link existing records to keep shared contact information synchronized.
   - In the observatory: [Page 5050 "Contact Card"](../../../../objects/page/5050.md), [Page 5060 "Business Relations"](../../../../objects/page/5060.md), [Page 5094 "Marketing Setup"](../../../../objects/page/5094.md)
-- [Merge duplicate customer or vendor records](https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records): Describes how to consolidate information about customers or vendors when you have duplicate entries about some of them.
+- [Create and Manage Business Contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-contacts): Manage people and companies as contacts in Business Central, record relationship details, classify prospects, and find duplicate contact records.
+- [Merge Duplicate Customers, Vendors, or Contacts](https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records): Merge duplicate customer, vendor, or contact records in Business Central, choose which field values to keep, and resolve conflicts in related records.
   - In the observatory: [Page 21 "Customer Card"](../../../../objects/page/21.md), [Page 702 "Merge Duplicate"](../../../../objects/page/702.md), [Page 704 "Merge Duplicate Conflicts"](../../../../objects/page/704.md)
 - [Save Business Contacts to Microsoft Outlook](https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook): Learn how to synchronize Business Central contacts with Microsoft Outlook and Teams to streamline communication and access contact details effortlessly.
-- [Set up information for contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-setup-contacts): Outlines the tasks to specify information and codes, for example, about industry groups and business relationships, before you set up contacts.
-  - In the observatory: [Page 5050 "Contact Card"](../../../../objects/page/5050.md), [Page 5057 "Contact Alt. Address List"](../../../../objects/page/5057.md), [Page 5061 "Contact Business Relations"](../../../../objects/page/5061.md), [Page 5064 "Contact Mailing Groups"](../../../../objects/page/5064.md), [Page 5067 "Contact Industry Groups"](../../../../objects/page/5067.md), [Page 5070 "Contact Web Sources"](../../../../objects/page/5070.md)
-- [Use profiles to classify contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-profile-questionnaire): Learn how to set up profile questionnaires to help classify your business contacts' profiles.
-  - In the observatory: [Page 5050 "Contact Card"](../../../../objects/page/5050.md), [Page 5112 "Profile Question Details"](../../../../objects/page/5112.md), [Page 5172 "Answer Points"](../../../../objects/page/5172.md)
+- [Set Up Information for Business Contacts](https://learn.microsoft.com/dynamics365/business-central/marketing-setup-contacts): Outlines the tasks to specify information and codes, for example, about industry groups and business relationships, before you set up contacts.
+  - In the observatory: [Page 5050 "Contact Card"](../../../../objects/page/5050.md), [Page 5057 "Contact Alt. Address List"](../../../../objects/page/5057.md), [Page 5061 "Contact Business Relations"](../../../../objects/page/5061.md), [Page 5063 "Mailing Groups"](../../../../objects/page/5063.md), [Page 5064 "Contact Mailing Groups"](../../../../objects/page/5064.md), [Page 5066 "Industry Groups"](../../../../objects/page/5066.md)
 
 ## Videos, posts and code changes
 

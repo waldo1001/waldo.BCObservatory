@@ -2,54 +2,54 @@
 id: topic/business-central/business-functionality/local-functionality/new-zealand/banking-and-payments
 type: topic
 title: Banking & payments
-summary: Banking and payments functionality specific to the New Zealand version of Business Central. It covers bank cash flow comparison, check installments, electronic funds transfer (EFT) for vendors, and bank reconciliation and deposit slip reports.
+summary: "Banking and payments features of the New Zealand version of Business Central: bank cash flow comparison, check installments, Electronic Funds Transfer (EFT) for vendor payments, and printing bank reconciliation and deposit slip reports. It answers questions about NZ-specific banking functions."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:24:06.520Z"
+  at: "2026-10-28T11:02:58.419Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 1cd8997b86a8a72934ac381e3d5e9098cdf3023b81ceeeee7e473f60a2f962c7
+  input_hash: 18548ee557d33742b94ed9d5afd9d46e8883a0d73aa7d300fd1a4a3cf990c797
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-compare-bank-cash-flow
-    title: Compare Bank Cash Flow [NZ]
-    date: "2025-05-05"
+    title: Compare Bank Cash Flow in the New Zealand Version [NZ]
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-create-check-installments
-    title: Create check installments [NZ]
-    date: "2025-05-05"
+    title: Create Check Installments in the New Zealand Version [NZ]
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/electronic-funds-transfer-eft-
-    title: Electronic Funds Transfer (EFT) [NZ]
-    date: "2025-05-05"
+    title: Electronic Funds Transfer (EFT) in the New Zealand Version [NZ]
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-bank-account-reconciliation-reports
-    title: Print bank account reconciliation reports [NZ]
-    date: "2025-05-06"
+    title: Print Bank Account Reconciliation Reports in New Zealand
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-deposit-slip-reports
-    title: Print deposit slip reports [NZ]
-    date: "2025-05-06"
+    title: Print Deposit Slip Reports in the New Zealand Version [NZ]
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -94,32 +94,35 @@ narrative: generated
 
 # Banking & payments
 
-> Banking and payments functionality specific to the New Zealand version of Business Central. It covers bank cash flow comparison, check installments, electronic funds transfer (EFT) for vendors, and bank reconciliation and deposit slip reports.
+> Banking and payments features of the New Zealand version of Business Central: bank cash flow comparison, check installments, Electronic Funds Transfer (EFT) for vendor payments, and printing bank reconciliation and deposit slip reports. It answers questions about NZ-specific banking functions.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [New Zealand](../new-zealand.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section collects the New Zealand local pages for banking and payment tasks. Each page is a short topic on one function: comparing bank cash flow, creating check installments, using EFT, and printing two kinds of reports.
+This section collects the banking and payment features that are specific to the New Zealand localization of Business Central. It has no subtopics. It holds five pages, each covering one function.
 
-The pages are independent of each other and there are no subtopics. Pick the page that matches the task. For vendor payments, look at check installments and EFT. For checking and documenting bank activity, look at the bank account reconciliation reports, deposit slip reports and bank cash flow comparison.
+The pages cover two areas. Payments: paying vendors through EFT and creating check installments to split a payment into several parts. Bank work and reporting: comparing bank cash flow, and printing bank account reconciliation reports and deposit slip reports.
+
+Start with the EFT page if you need to pay vendors electronically. Use the reconciliation and deposit slip pages for printed output. The summaries are brief, so check the individual Learn pages for steps and setup details.
 
 ## Key points
 
-- Compare Bank Cash Flow [NZ]: analyze bank cash flow in the New Zealand version.
-- Create check installments [NZ]: split a check into multiple payment installments for vendor payments.
-- Electronic Funds Transfer (EFT) [NZ]: process vendor payments through the electronic funds transfer system.
-- Print bank account reconciliation reports [NZ]: produce reports to verify bank accounts.
-- Print deposit slip reports [NZ]: generate deposit slip reports for bank deposits.
-- All five pages apply to the New Zealand version only and have no subtopics.
+- All pages apply only to the New Zealand version of Business Central.
+- EFT supports vendor payments through the EFT payment system.
+- Check installments let you split a payment into multiple installments.
+- Bank cash flow comparison lets you compare bank transactions.
+- Bank account reconciliation reports can be printed to show reconciled bank transactions.
+- Deposit slip reports can be printed in the New Zealand localization.
+- The section has five pages and no subtopics.
 
 ## Learn pages
 
-- [Compare Bank Cash Flow [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-compare-bank-cash-flow): Learn how to compare the flow of cash in a particular bank for a specified period in the New Zealand version.
-- [Create check installments [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-create-check-installments): Learn how to create check installments for post-dated checks in the New Zealand version.
-- [Electronic Funds Transfer (EFT) [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/electronic-funds-transfer-eft-): Learn how to pay vendors using the electronic funds transfer (EFT) system in New Zealand.
-- [Print bank account reconciliation reports [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-bank-account-reconciliation-reports): Learn how to print a report showing open bank ledger entries as unpresented checks or unrecorded deposits in the New Zealand version of Business Central.
-- [Print deposit slip reports [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-deposit-slip-reports): Learn how to print a deposit slip report in the New Zealand version, detailing cash and check transactions in a bank-compliant format.
+- [Compare Bank Cash Flow in the New Zealand Version [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-compare-bank-cash-flow): Learn how to compare cash flow for bank accounts, review balances, and print debit and credit amounts in the New Zealand version of Business Central.
+- [Create Check Installments in the New Zealand Version [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-create-check-installments): Learn how to divide a postdated check into installments, specify interest and payment periods, and create the checks in the New Zealand version.
+- [Electronic Funds Transfer (EFT) in the New Zealand Version [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/electronic-funds-transfer-eft-): Learn how to set up bank accounts and vendors, export electronic funds transfer (EFT) files, and cancel payment exports in New Zealand.
+- [Print Bank Account Reconciliation Reports in New Zealand](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-bank-account-reconciliation-reports): Learn how to print a report showing open bank ledger entries as unpresented checks or unrecorded deposits in the New Zealand version of Business Central.
+- [Print Deposit Slip Reports in the New Zealand Version [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-deposit-slip-reports): Learn how to print a deposit slip report in the New Zealand version, detailing cash and check transactions in a bank-compliant format.
 
 ## Business Central pages and reports
 

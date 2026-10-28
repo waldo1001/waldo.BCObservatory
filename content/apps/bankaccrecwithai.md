@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: eb399fc7134985a94b4833be86307ad88f526762ba0fcd773df2bcba8f31abf3
+  input_hash: 9bf80fb2f51e4b2aa494fe83afd5c6705ad265e27e8c9c47f7a48d5bf5b24b38
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/BankAccRecWithAI/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/BankAccRecWithAI/app
     title: src/Apps/W1/BankAccRecWithAI/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -113,4 +113,4 @@ First-party app · folder `src/Apps/W1/BankAccRecWithAI/app` · namespace `Micro
 |---|---|---|
 | 7250 | [Bank Rec. Copilot Capability](../objects/enumextension/7250.md) |  |
 
-Source: [src/Apps/W1/BankAccRecWithAI/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/BankAccRecWithAI/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/BankAccRecWithAI/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/BankAccRecWithAI/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

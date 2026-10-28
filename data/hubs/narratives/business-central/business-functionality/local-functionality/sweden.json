@@ -1,37 +1,37 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/sweden",
-  "input_hash": "6afd8dfd1defddd1060990675dbc4515d62fd77b9fda1e720aed19e17c1d201d",
-  "summary": "Sweden local functionality in Business Central: how the Swedish version handles VAT, EU third-party purchase transactions, automatic account codes, SIE import and export, and balance sheet and income statement reports. It answers setup and usage questions for Swedish accounting and compliance.",
-  "overview": "The Sweden section describes what the Swedish version of Business Central adds on top of the global product. Since release 2023 wave 1, the Swedish localization runs as an extension on the W1 BaseApp. The overview page lists the Swedish features: VAT, automatic account codes, SIE import and export, and financial reporting.\n\nTwo kinds of pages sit here. One page covers EU third-party purchase transactions, used for Swedish VAT reporting and VIES requirements. This feature moved to a global extension starting version 22.1. The Core finance subtopic covers automatic account codes and posting groups, SIE import and export of general ledger data, and printing balance sheet and income statement reports.\n\nStart with the Sweden Local Functionality page for the overall picture. Then go to Core finance for accounting setup, or to the EU third-party page if you need VAT and VIES reporting.",
+  "input_hash": "d94d7f57a6fe5577ee3bf20b772099b7628fd6d734ff55d4eaa1bb6305181a7f",
+  "summary": "Sweden local functionality in the Swedish version of Business Central: EU third-party purchase transactions for VAT reporting, automatic account codes and posting groups, SIE import/export, and the Balance Sheet - SE and Income Statement - SE reports. It answers Sweden-specific setup and usage questions.",
+  "overview": "The Sweden section describes features built for Swedish regulatory requirements in Business Central. It covers VAT handling, automatic account codes, automatic account posting groups, SIE data import and export, and Swedish balance sheet and income statement reports.\n\nThe section has an overview page that lists these features, a page on setting up EU third-party purchase transactions, and a Core finance subtopic. Core finance holds the general ledger pages: automatic account codes and groups, SIE import and export in earlier Swedish versions, and the Balance Sheet - SE and Income Statement - SE reports.\n\nStart with the overview page to find the feature you need. For VAT questions about purchases between EU countries, go to the EU third-party purchase page. For ledger and reporting tasks, go to Core finance.",
   "key_points": [
-    "Swedish localization is an extension on the W1 BaseApp starting release 2023 wave 1.",
-    "EU third-party purchase transactions (EU 3-Party Trade) support Swedish VAT reporting and VIES declarations, including purchase transaction filtering.",
-    "The EU third-party feature moved to a global extension starting version 22.1.",
-    "Automatic account codes and automatic account posting groups are part of the Swedish core finance setup.",
-    "SIE import and export moves general ledger data in and out of Business Central.",
-    "Balance sheet and income statement reports can be printed in the Swedish version.",
-    "The Core finance subtopic has 4 pages covering these accounting topics."
+    "EU third-party purchases are purchases from one EU country where the products are sent to another country without entering Sweden. They are reported separately for VAT compliance.",
+    "The EU third-party purchase setup page is marked version 25.0.",
+    "Setup steps for EU third-party purchases: enable EU 3-Party Purchase, mark transactions as EU 3-Party Trade, and filter the VAT statement.",
+    "The VAT-VIES Declaration Tax Auth report is part of the EU third-party purchase reporting.",
+    "Automatic account codes and automatic account posting groups are Sweden-specific general ledger features.",
+    "SIE data import and export is covered for earlier Swedish versions.",
+    "Balance Sheet - SE and Income Statement - SE are the Swedish financial reports.",
+    "The Core finance subtopic has 4 pages for general ledger setup and usage."
   ],
   "members_used": 2,
   "subtopics_used": 1,
   "prompt_version": 1,
-  "at": "2026-10-07T02:11:09.167Z",
+  "at": "2026-10-28T10:59:23.441Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.010549
+    "cost_usd": 0.011051
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:22:53.826Z",
+    "at": "2026-10-28T11:02:48.912Z",
     "verdict": "approve",
     "issues": [
-      "Overview phrase 'Two kinds of pages sit here' is a little unclear. The hub has two own pages (the Sweden overview and the EU third-party page) plus the Core finance subtopic, and the paragraph describes one page and the subtopic.",
-      "Key point 'The Core finance subtopic has 4 pages covering these accounting topics.' is accurate but gives an agent little useful information.",
-      "The EU third-party page also lists version 25.0, which the narrative leaves out. That is acceptable because the source gives no context for it."
+      "Key point 3 presents the EU third-party purchase features (Enable EU 3-Party Purchase, EU 3-Party Trade marking, VAT statement filtering) as ordered setup steps. The page summary lists them as features, not as a sequence, so the ordering is a mild inference.",
+      "Key point 2 (version 25.0) is accurate but adds little for an agent. It could be dropped or merged with another point."
     ],
-    "input_hash": "6afd8dfd1defddd1060990675dbc4515d62fd77b9fda1e720aed19e17c1d201d",
-    "cost_usd": 0.0321112
+    "input_hash": "d94d7f57a6fe5577ee3bf20b772099b7628fd6d734ff55d4eaa1bb6305181a7f",
+    "cost_usd": 0.0277392
   }
 }

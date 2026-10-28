@@ -1,36 +1,38 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/russia/tax-accounts",
-  "input_hash": "ff7135c4e307f8a3f76ce266cabdb07a76ed5cc9517727cc314dfb44be360262",
-  "summary": "Tax accounts for Russia in Business Central: how personal income tax payments are accounted for in payroll, and how to import the KLADR address database. It answers questions about tax accrual, payment orders to tax authorities, and loading Russian address data.",
-  "overview": "This section covers two Russia-specific tasks. The first is accounting for personal income tax payments. Tax is calculated during payroll, debt entries are created for employees, and payment orders are generated for the tax authorities, with mandatory reporting. The second is uploading the KLADR address database so Russian address data can be managed in Business Central.\n\nThe pages are independent and have no subtopics. Start with the personal income tax page if you work with payroll and tax payments. Use the KLADR page if you need to load Russian address data by giving a file path and a region code.",
+  "input_hash": "6fcbf7516235b5c8abda71c9d068520f61aab19c39d688904a676a4d4fc4c0d6",
+  "summary": "Tax accounts for Russia in Business Central: how personal income tax payments are accrued, paid and reported, and how to upload KLADR address data for specific regions. It answers questions about Russian payroll tax handling and regional address setup.",
+  "overview": "This section covers two Russia-specific tasks. The first is accounting for personal income tax payments. Tax is calculated automatically during payroll, and payment orders to tax authorities are generated from it. The page also covers registering tax authorities as suppliers, tracking debt, and the mandatory reporting.\n\nThe second task is uploading KLADR address data. The Import KLADR feature loads an address file for the region codes you specify, which sets up regional address data.\n\nThe section has no subtopics, so the two pages stand alone. Start with the personal income tax page if you work with payroll and tax payments. Use the KLADR page when you need regional address data configured.",
   "key_points": [
     "Personal income tax is calculated automatically during payroll.",
-    "Debt entries are created for employees as part of the accounting.",
-    "Payment orders to tax authorities are generated.",
-    "Mandatory reporting is part of the personal income tax process.",
-    "Suppliers need to be registered as tax authorities for tax payments.",
-    "KLADR import loads the Russian address database into Business Central.",
-    "The KLADR import requires a file path and a region code."
+    "Payment orders to tax authorities are generated from the accrued tax.",
+    "Tax authorities are registered as suppliers to support payments.",
+    "The personal income tax page covers debt tracking and mandatory reporting.",
+    "Import KLADR uploads address data for specific Russian regions.",
+    "The KLADR upload requires specifying region codes and an address file.",
+    "The section has two pages and no subtopics."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:35.785Z",
+  "at": "2026-10-28T10:57:28.994Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.007623
+    "cost_usd": 0.011095999999999998
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T05:22:01.204Z",
+    "at": "2026-10-28T11:04:08.324Z",
     "verdict": "approve",
     "issues": [
-      "The key point 'Suppliers need to be registered as tax authorities for tax payments' states a requirement. The source only lists 'Supplier-tax authority registration' as a feature, so 'need to' goes a little beyond the source. Something like 'Suppliers can be registered as tax authorities' would match the source more closely.",
-      "The overview says the pages are independent. This is reasonable because they cover unrelated tasks, but the summaries don't state it directly."
+      "Key point 2 says payment orders are generated 'from the accrued tax'. The source mentions payment order generation to tax authorities but doesn't say what the orders are generated from. This is a minor inference.",
+      "Key point 3 adds 'to support payments', which the source doesn't state. It is a reasonable reading of 'tax authority supplier registration'.",
+      "Key point 6 says the upload 'requires' region codes and an address file. The source lists both as features but doesn't call them required.",
+      "Key point 7 ('two pages and no subtopics') is accurate but tells an agent little about the content."
     ],
-    "input_hash": "ff7135c4e307f8a3f76ce266cabdb07a76ed5cc9517727cc314dfb44be360262",
-    "cost_usd": 0.0202272
+    "input_hash": "6fcbf7516235b5c8abda71c9d068520f61aab19c39d688904a676a4d4fc4c0d6",
+    "cost_usd": 0.0240392
   }
 }

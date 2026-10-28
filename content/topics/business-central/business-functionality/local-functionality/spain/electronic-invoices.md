@@ -2,61 +2,61 @@
 id: topic/business-central/business-functionality/local-functionality/spain/electronic-invoices
 type: topic
 title: Electronic invoices
-summary: "Spanish electronic invoicing and Cartera functionality in Business Central: VERI*FACTU reporting to AEAT (embedded mode or B2Brouter), SII invoice and credit memo types, and the Cartera modules for receivables and payables bills. It answers setup and scope questions for Spain compliance."
+summary: "Electronic invoices for Spain in Business Central: VERI*FACTU setup (embedded mode and external B2BRouter integration), SII invoice types, and the Cartera modules for receivables and payables. It answers questions about Spanish tax reporting and bill or payment document handling."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:22:51.771Z"
+  at: "2026-10-28T11:02:51.177Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 12ee462006c4a452e925e3e55c3b28e1ebc2fe9906ad44e4a3471f1fded3862f
+  input_hash: 0a32ff7dd215a9a1714339fefbe65e348aaae144ff0cb39f70f3be3809b9d623
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/cartera-module
-    title: Cartera Module
-    date: "2025-05-26"
+    title: Cartera Module in Business Central for Spain
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/enable-real-time-invoice-reporting
-    title: Enable embedded VERIFACTU mode [ES]
-    date: "2026-06-15"
+    title: Enable Embedded VERI*FACTU Mode in Spain [ES]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/payments-cartera-module
-    title: Payments Cartera Module
-    date: "2025-05-29"
+    title: Payments Cartera Module in Business Central for Spain
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/receivables-cartera-module
-    title: Receivables Cartera module [ES]
-    date: "2025-05-29"
+    title: Receivables Cartera Module in the Spanish Version [ES]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents
-    title: SII Invoice Types in Sales and Purchase Documents
-    date: "2025-05-29"
+    title: SII Invoice and Credit Memo Types for Spain
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/verifactu-setup
-    title: VERIFACTU with external service integration [ES]
-    date: "2026-06-15"
+    title: VERI*FACTU with External Service Integration [ES]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -159,39 +159,38 @@ narrative: generated
 
 # Electronic invoices
 
-> Spanish electronic invoicing and Cartera functionality in Business Central: VERI*FACTU reporting to AEAT (embedded mode or B2Brouter), SII invoice and credit memo types, and the Cartera modules for receivables and payables bills. It answers setup and scope questions for Spain compliance.
+> Electronic invoices for Spain in Business Central: VERI*FACTU setup (embedded mode and external B2BRouter integration), SII invoice types, and the Cartera modules for receivables and payables. It answers questions about Spanish tax reporting and bill or payment document handling.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > Electronic invoices · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers Spain-specific e-invoicing and bill handling. Two pages deal with VERI*FACTU, Spain's real-time invoice reporting to the Spanish Tax Agency (AEAT): one for the embedded mode, which uses digital signing, hash chaining and QR codes through the e-document framework, and one for integration with an external service through the B2Brouter API. VERI*FACTU is presented as an alternative to SII.
+This section collects Spain-specific pages on electronic invoicing and on Cartera document management. The invoicing pages cover VERI*FACTU, the Spanish regulatory framework for verifiable electronic invoicing aimed at combating tax fraud, and the SII invoice and credit memo types used on sales and purchase documents.
 
-A separate page lists the SII invoice and credit memo types for sales and purchase documents, including which types Business Central supports and how they appear in the XML.
+There are two ways to set up VERI*FACTU. The embedded mode reports invoice records to the Spanish Tax Agency (AEAT) through the E-Documents framework. The external service option uses the B2BRouter API connector. The SII types page tells you which invoice and credit memo types Business Central supports and how they appear in XML.
 
-The Cartera pages describe handling of bills of exchange and promissory notes. An overview page introduces the module, with separate pages for Receivables Cartera (bill groups, collections, discounts, factoring) and Payments Cartera (payables documents, payment orders). Start with the VERI*FACTU page that matches your chosen approach, or the Cartera overview if you work with bills.
+The Cartera pages describe handling of customer and vendor payments with bills of exchange and promissory notes. Start with the general Cartera page, then go to the Receivables page for sales-side bills and bill groups, or the Payments page for payment orders to vendors.
 
 ## Key points
 
-- VERI*FACTU is Spain's e-invoicing standard for real-time reporting of invoices to AEAT.
-- Embedded VERI*FACTU mode uses digital signatures, hash chaining, QR codes and the e-document framework.
-- The external option connects through the B2Brouter API and is described as an alternative to SII.
-- The SII invoice types page states which invoice and credit memo types are supported, with XML details.
-- Cartera manages bills of exchange and promissory notes for customers and vendors, with multi-currency support.
-- Receivables Cartera covers bill groups, collections, discounting, factoring, finance charges and interest.
-- Payments Cartera builds payables documents from purchase invoices grouped by bank, due date, value or currency, and supports draft payment orders and payment confirmation.
+- Embedded VERI*FACTU reports invoice records to AEAT through the E-Documents framework; Business Central generates chained hashes and QR codes and authenticates with a certificate.
+- VERI*FACTU can also be set up through external service integration using the B2BRouter API connector, with API key configuration and a staging mode.
+- The SII invoice types page lists supported invoice types (including simplified and corrected invoices) and credit memo types, with XML implementation details.
+- Cartera manages customer and vendor payments using bills of exchange and promissory notes, with multi-currency tracking and credit limit management.
+- Receivables Cartera handles bills from sales invoices, bill groups, discount bill groups, factoring (risked and unrisked), finance charges, and manual bill creation via the Cartera Journal.
+- Payments Cartera handles payables from purchase invoices, grouping payment orders by bank, due date, value, and currency, and supports payment confirmation services.
+- Several pages are marked [ES] and apply to the Spanish version of Business Central.
 
 ## Learn pages
 
-- [Cartera Module](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/cartera-module): Learn how to use the Cartera module to manage customer and vendor payments with documents such as bills of exchange and promissory notes.
-- [Enable embedded VERIFACTU mode [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/enable-real-time-invoice-reporting): Enable real-time invoice reporting to AEAT with Verifactu in Business Central, ensuring QR code, hash chaining, and digital signature compliance.
+- [Cartera Module in Business Central for Spain](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/cartera-module): Learn how to use the Cartera module to manage customer and vendor payments with documents such as bills of exchange and promissory notes.
+- [Enable Embedded VERI*FACTU Mode in Spain [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/enable-real-time-invoice-reporting): Set up embedded VERIFACTU reporting in Business Central, configure certificate authentication, and review invoice submissions and QR codes for Spain.
   - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 143 "Posted Sales Invoices"](../../../../../objects/page/143.md), [Page 1500 "Workflows"](../../../../../objects/page/1500.md), [Page 306 "Report Selection - Sales"](../../../../../objects/page/306.md), [Page 359 "Document Sending Profiles"](../../../../../objects/page/359.md), [Page 367 "Post Codes"](../../../../../objects/page/367.md)
-- [Payments Cartera Module](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/payments-cartera-module): Manage payables documents from generated from purchase invoices or the Cartera Journal using the Payments Cartera module.
-- [Receivables Cartera module [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/receivables-cartera-module): Use the Receivables Cartera module to manage bills generated from sales invoices, including grouping, collection, and factoring, through the Cartera Journal.
+- [Payments Cartera Module in Business Central for Spain](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/payments-cartera-module): Learn how the Payments Cartera module in Business Central for Spain manages payables documents from purchase invoices and the Cartera Journal.
   - In the observatory: [Page 7000036 "Cartera Journal (ES)"](../../../../../objects/page/7000036-es.md)
-- [SII Invoice Types in Sales and Purchase Documents](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents): Learn how Business Central supports SII and the different invoice and credit memo types used in the Spanish version.
-- [VERIFACTU with external service integration [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/verifactu-setup): Learn how to set up and use VERI*FACTU in the Spanish version of Business Central.
-  - In the observatory: [Page 10751 "SII Setup (ES)"](../../../../../objects/page/10751-es.md), [Page 6103 "E-Document Services"](../../../../../objects/page/6103.md)
+- [Receivables Cartera Module in the Spanish Version [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/receivables-cartera-module): Use the Receivables Cartera module to manage bills generated from sales invoices, including grouping, collection, and factoring, through the Cartera Journal.
+- [SII Invoice and Credit Memo Types for Spain](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents): Learn how Business Central for Spain exports SII invoice and credit memo types, including simplified invoices and replacement corrective invoices.
+- [VERI*FACTU with External Service Integration [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/verifactu-setup): Configure the B2Brouter connector for external VERIFACTU integration in Business Central, including API credentials, project settings, and sandbox mode.
 
 ## Videos, posts and code changes
 

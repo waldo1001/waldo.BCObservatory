@@ -2,13 +2,13 @@
   "inputs": [
     7,
     [
-      "dc14cfd1217fbd3fa364b63565e752e5f0653955",
+      "4c1c1638beb6d5da8540cc1f61889b80c7b3356f",
       "4",
-      9472
+      9474
     ]
   ],
   "major": "29",
-  "count": 1228,
+  "count": 1229,
   "by_tag": {
     "untagged": 326,
     "23.0": 1,
@@ -19,7 +19,7 @@
     "27.0": 465,
     "27.2": 1,
     "28.0": 144,
-    "29.0": 71,
+    "29.0": 72,
     "29.1": 2
   },
   "items": [
@@ -15399,6 +15399,19 @@
       "state": "Pending",
       "tag": "29.0",
       "reason": "Peppol functionality is replaced by PEPPOL App. This event will be removed in future versions.",
+      "clean": [
+        "CLEAN29"
+      ],
+      "clean_version": "29"
+    },
+    {
+      "key": "table/88",
+      "object": "Financial Report",
+      "member": "Last Run by User",
+      "kind": "field",
+      "state": "Pending",
+      "tag": "29.0",
+      "reason": "This field could not be calculated because the user filter was not resolvable. Use \"Last Run by Current User\" together with the \"User Security ID Filter\" flow filter instead.",
       "clean": [
         "CLEAN29"
       ],

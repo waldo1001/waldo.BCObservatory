@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:00.486Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -95,6 +95,7 @@ links:
   changes:
     - change/bcapps/10030
     - change/bcapps/10166
+    - change/bcapps/11222
     - change/bcapps/11411
     - change/bcapps/12098
     - change/bcapps/12124
@@ -177,6 +178,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10030 [main]planning worksheet requires second runof calculate regenerative plan](../../../../changes/bcapps/10030.md) (code change): "planning worksheets generate all required planning lines in a single run"
 - [#10166 [Extensibility Request] issue 29643: enable split transfer demand profiles](../../../../changes/bcapps/10166.md) (code change): "Transfer demand profile handling now supports an event that allows extensions"
+- [#11222 Improve Low-Level Code Calculator performance](../../../../changes/bcapps/11222.md) (code change): "Low-Level Code Calculator performance improved by filtering out items without a Production BOM"
 - [#11411 [Master]-Item Availability by BOM Level Produces Inconsistent Able-to-Make Results When G-TOP-BOM-02 Replenishment Changes from Assembly to Purchase - 2606050050002529](../../../../changes/bcapps/11411.md) (code change): "Fixed inconsistent able-to-make calculations in BOM analysis when a component's"
 - [#12098 [29.X]-[Planning Worksheet] Production Copy to Req. Wksh fails because destination fields are missing](../../../../changes/bcapps/12098.md) (code change): "carrying out planning worksheet action messages for production"
 - [#12124 Fix default bin assignment when creating purchase orders for drop shipments](../../../../changes/bcapps/12124.md) (code change): "Fixed default bin assignment for drop shipments when creating purchase orders"

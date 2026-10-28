@@ -1,37 +1,36 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/netherlands",
-  "input_hash": "1a0f7658bbc0fcc028f41349e18fa6f7c047927e330b2f8da5392b90258b2c33",
-  "summary": "Netherlands local functionality in Business Central (NL version): VAT and ICP declarations via Digipoort, audit files, telebanking, payment and collection proposals, SEPA payments, G/L entry handling, purchase amount checks, CMR notes and Dutch post codes. It answers setup and how-to questions for Dutch-specific features.",
-  "overview": "The Netherlands hub collects the Dutch local features of Business Central. It starts with a reference guide, \"Netherlands Local Functionality [NL]\", which lists the areas: VAT declarations, electronic banking, telebanking, payment scenarios, SEPA payments and postal code management. Subtopics then go into each area.\n\nBanking and payments is the largest subtopic (15 pages). It covers telebanking, payment and collection proposals, payment history export, cash, bank and giro journals, bank statement import and SEPA ISO 20022. VAT (4 pages) covers electronic VAT and ICP declarations through Digipoort, VAT categories and the audit file for the Dutch tax authority.\n\nSmaller subtopics cover core finance (applying and unapplying G/L entries, required descriptions), purchasing (document amount checks on invoices and credit memos) and general topics (CMR notes and post code import). Start with the reference guide, then open the subtopic that matches your task.",
+  "input_hash": "ba02eeb5022cfb1cdc4579e30e27a90f2ddb98d7142ebc5651fecf9f484e208b",
+  "summary": "Netherlands local functionality in Business Central covers Dutch VAT and ICP declarations, the XAF audit file, telebanking and SEPA payments, G/L entry handling, purchase document totals, CMR notes and Dutch post codes. It answers setup, workflow and compliance questions for the Dutch localization.",
+  "overview": "The Netherlands section collects the features that adapt Business Central to Dutch regulatory and banking practice. An overview page lists the main areas: VAT categories, electronic VAT and ICP declarations, Dutch electronic banking, telebanking, SEPA payments and payment proposals.\n\nThe pages are grouped into five subtopics. VAT covers Digipoort submission, declaration categories and the audit file (XAF). Banking & payments is the largest group, with 15 pages on telebanking, SEPA ISO 20022 payments and direct debits, payment proposals and history, bank statement import, and cash and bank/giro journals. Core finance, Purchasing and General handle smaller topics: G/L entry application and descriptions, document totals on purchase documents, CMR notes and Dutch post codes.\n\nStart with the overview page to see the scope. Then go to VAT for tax reporting setup, or to Banking & payments for payment workflows.",
   "key_points": [
-    "The reference guide lists all Dutch local functionality: VAT declarations, electronic banking, telebanking, payment scenarios, SEPA payments and postal codes.",
-    "VAT: set up and submit electronic VAT and ICP declarations through Digipoort, including certificate setup.",
-    "VAT: configure VAT categories and create an audit file for the Dutch tax authority.",
-    "Banking and payments: telebanking, payment and collection proposals, payment history export, and cash, bank and giro journals.",
-    "Banking and payments: bank statement import and SEPA ISO 20022 payments for domestic and foreign flows.",
-    "Core finance: apply and unapply G/L entries, and require descriptions on G/L entries to support audit trails.",
-    "Purchasing: check document amounts on purchase invoices and credit memos, and edit the document amount including VAT and the VAT amount.",
-    "General: print CMR notes under the UN CMR Convention, and subscribe to and import Dutch post code data and monthly updates."
+    "VAT: set up and submit electronic VAT and ICP declarations through Digipoort.",
+    "VAT: configure VAT declaration categories and create an audit file (XAF) for the Dutch tax authority.",
+    "Banking & payments (15 pages): telebanking, SEPA ISO 20022 payments and direct debits, payment proposals and history.",
+    "Banking & payments also covers bank statement import and cash and bank/giro journals.",
+    "Core finance: apply and unapply G/L entries, and require descriptions on G/L entries.",
+    "Purchasing: check and edit document totals on purchase invoices and credit memos, including Doc. Amount Incl. VAT and Doc. Amount VAT.",
+    "General: three CMR note types for international road transport.",
+    "General: subscribe to, import and update Dutch post code data."
   ],
   "members_used": 1,
   "subtopics_used": 5,
   "prompt_version": 1,
-  "at": "2026-10-07T02:10:02.573Z",
+  "at": "2026-10-28T10:59:18.515Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.013175000000000001
+    "cost_usd": 0.012509
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:16:24.825Z",
+    "at": "2026-10-28T11:01:23.629Z",
     "verdict": "approve",
     "issues": [
-      "Key point 5 ties 'domestic and foreign flows' only to bank statement import and SEPA ISO 20022. The source applies the phrase to the Banking & payments subtopic as a whole. It is still broadly supported.",
-      "'Electronic banking' is a separate feature on the reference page. It appears in the overview but not in the summary. This is minor because telebanking and SEPA cover it."
+      "Minor: the overview's description of the overview page follows its feature list but leaves out purchase validation and postal code management, which the page summary also mentions. Both are covered elsewhere in the narrative, so no fix is needed."
     ],
-    "input_hash": "1a0f7658bbc0fcc028f41349e18fa6f7c047927e330b2f8da5392b90258b2c33",
-    "cost_usd": 0.0332032
+    "input_hash": "ba02eeb5022cfb1cdc4579e30e27a90f2ddb98d7142ebc5651fecf9f484e208b",
+    "cost_usd": 0.0330992
   }
 }

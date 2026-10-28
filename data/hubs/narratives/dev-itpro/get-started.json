@@ -1,38 +1,37 @@
 {
   "hub_id": "topic/dev-itpro/get-started",
-  "input_hash": "adaeaf7e532aadc2965fc3999ae4458803307f5ad49b0418524bafd7756d2044",
-  "summary": "Get started for Business Central is an entry section for partners and developers. It covers orientation material, app development and publishing, selling and reselling, short FAQ answers, and help and support. Use it to find where to begin and which subtopic answers a question.",
-  "overview": "The Get started section has no pages of its own. It is a gateway to five subtopics: Learn, Develop, Sell, Frequently asked questions, and Help and support.\n\nLearn is the orientation point. It has an overview of supported business functionality, design details for complex features, CRONUS walkthroughs, Contoso Coffee demo data, and partner resources. Develop (36 pages) is the largest area. It covers building, customizing, publishing, maintaining and retiring apps and extensions, including marketplace submission and validation, localization, embed apps, and Microsoft versus partner responsibilities. Sell covers reselling Business Central Online, selling apps through Marketplace, onboarding customers and configuration packages.\n\nFor quick answers, go to Frequently asked questions. It covers Marketplace apps, library and dependency apps, AL development, migration to online, and the Windows client discontinuation. Help and support is the place for assistance, but no summary of its content was provided. New readers should start with Learn. Developers then move to Develop, and resellers to Sell.",
+  "input_hash": "fdeb3add5a4347c64fcd1ae049585b8c287d4fb87b9efd8b5364a36ed7e4ac95",
+  "summary": "The Get started section of Business Central is the entry point for newcomers and partners. It covers orientation material, partner guidance on developing, selling and publishing apps, frequently asked questions, and help and support. Use it to find where to begin and which subtopic answers a given question.",
+  "overview": "Get started has no pages of its own. It groups five subtopics: Learn, Develop, Sell, Frequently asked questions, and Help and support.\n\nLearn is the orientation area. It gives an overview of supported business functionality, design details for complex features, CRONUS walkthroughs, Contoso Coffee demo data, and partner resources. Develop and Sell are aimed at partners. Develop covers building, publishing and maintaining apps and extensions. Sell covers reselling Business Central Online, selling apps through Marketplace, and onboarding customers.\n\nStart with Learn to see what the product can do. Partners should then move to Develop or Sell. Use the Frequently asked questions for short practical answers. The summaries give no details for Help and support beyond its 10 pages.",
   "key_points": [
-    "Learn offers a functionality overview, CRONUS walkthroughs, Contoso Coffee demo data and partner resources (6 pages).",
-    "Develop (36 pages) covers the app lifecycle: build, customize, publish, maintain and retire apps and extensions.",
-    "Develop also covers getting started as a publisher, marketplace submission and validation, localization and embed apps.",
-    "Develop explains Microsoft versus partner responsibilities.",
-    "Sell covers reseller enrollment, licensing, app plans and entitlements, onboarding tools and configuration packages (5 pages).",
-    "Frequently asked questions (9 pages) gives short answers on Marketplace apps, dependency apps, AL development, migration to online and the Windows client discontinuation.",
-    "Help and support has 10 pages. No details were given about its content."
+    "Learn (6 pages): overview of business functionality, design details for complex features, CRONUS walkthroughs, Contoso Coffee demo data, and partner resources.",
+    "Develop (36 pages): getting started, customizing tenants, localization, marketplace submission and discontinuation, app lifecycle, and Microsoft versus partner responsibilities.",
+    "Develop also answers questions on publishing steps, update obligations, and app architecture.",
+    "Sell (5 pages): reseller enrollment, licensing, app plans and entitlements, onboarding tools, and configuration packages.",
+    "Frequently asked questions (9 pages): building, testing, submitting and updating Marketplace apps, library and dependency apps, and AL development.",
+    "The FAQ also covers migrating to Business Central online and the Windows client discontinuation.",
+    "Help and support (10 pages): no summary was provided, so its content is not described here."
   ],
   "members_used": 0,
   "subtopics_used": 4,
   "prompt_version": 1,
-  "at": "2026-10-19T01:11:47.386Z",
+  "at": "2026-10-28T11:00:09.933Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011443
+    "cost_usd": 0.010929
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-24T00:53:35.767Z",
+    "at": "2026-10-28T11:00:48.058Z",
     "verdict": "approve",
     "issues": [
-      "Calling the section an entry point 'for partners and developers' is an inference. The Learn summary covers general orientation (what Business Central can do), not only partners and developers. This is acceptable but slightly narrow.",
-      "Saying Help and support is 'the place for assistance' is inferred from its title alone, since that subtopic has no summary. The narrative is open about this gap.",
-      "The suggested reading order (Learn first, then Develop or Sell) is editorial guidance that the inputs don't state. It is reasonable and harmless.",
-      "The Sell overview leaves out that the section also covers customizing the product, and the key points leave out Learn's design details for complex features. These are minor gaps, not errors."
+      "Overview omits 'customize the product' from the Sell description; minor omission, not an error.",
+      "The reading-order advice (start with Learn, then Develop or Sell) is the writer's own suggestion; it is reasonable and fits the summaries.",
+      "Two lines describe the writer's inputs rather than the product: 'The summaries give no details for Help and support' (overview) and 'no summary was provided' (key point). Consider neutral wording such as 'Help and support has 10 pages', or fill these in once a summary exists."
     ],
-    "input_hash": "adaeaf7e532aadc2965fc3999ae4458803307f5ad49b0418524bafd7756d2044",
-    "cost_usd": 0.0279232
+    "input_hash": "fdeb3add5a4347c64fcd1ae049585b8c287d4fb87b9efd8b5364a36ed7e4ac95",
+    "cost_usd": 0.0328072
   }
 }

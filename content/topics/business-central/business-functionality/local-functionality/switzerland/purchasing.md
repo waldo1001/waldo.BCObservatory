@@ -2,87 +2,87 @@
 id: topic/business-central/business-functionality/local-functionality/switzerland/purchasing
 type: topic
 title: Purchasing
-summary: "Purchasing for the Swiss version of Business Central covers delivery reminders to vendors: setup, code assignment, manual creation, batch generation, test reports, and issuing. It answers how to chase overdue vendor deliveries in the Swiss localization."
+summary: Swiss purchasing in Business Central covers delivery reminders for late vendor deliveries. It answers questions on setting up reminder terms, levels, text and vendor codes, and on creating, generating, testing and issuing reminders.
 tier: official
 language: en
 system: purchasing
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:21:20.016Z"
+  at: "2026-10-28T11:02:26.248Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 98d9df65aaa7faf13d36a4d0f67922e416a06aece7021c25f34d8c7b2169d3ad
+  input_hash: 955c76e1e5c3591eb732f6cfbe76fea2a55494012cc22a66be840da8cc59b5c2
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-assign-delivery-reminder-codes-to-vendors
-    title: Assign Delivery Reminder Codes to Vendors [CH]
-    date: "2025-04-28"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminder-terms-levels-and-text
-    title: Delivery Reminder Terms, Levels, and Text [CH]
-    date: "2025-04-29"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/delivery-reminders
-    title: Delivery Reminders [CH]
-    date: "2025-04-28"
+    title: Assign Delivery Reminder Codes to Vendors in Switzerland
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-create-delivery-reminders-manually
-    title: How to create delivery reminders manually [CH]
-    date: "2025-04-28"
+    title: Create Delivery Reminders Manually in the Swiss Version [CH]
+    date: "2026-10-19"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/delivery-reminders
+    title: Delivery Reminders in the Swiss Version [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-generate-delivery-reminders
-    title: How to generate delivery reminders [CH]
-    date: "2025-04-28"
+    title: Generate Delivery Reminders in the Swiss Version [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-issue-delivery-reminders
-    title: How to issue delivery reminders [CH]
-    date: "2025-04-29"
+    title: Issue Delivery Reminders in the Swiss Version [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders
-    title: Print test reports for delivery reminders [CH]
-    date: "2025-04-29"
+    title: Print Delivery Reminder Test Reports in Switzerland
+    date: "2026-10-19"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminder-terms-levels-and-text
+    title: Set Up Delivery Reminder Terms, Levels, and Text in Switzerland
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminders
-    title: Set up delivery reminders (CH)
-    date: "2025-04-29"
+    title: Set Up Delivery Reminders in the Swiss Version
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-assign-delivery-reminder-codes-to-vendors
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminder-terms-levels-and-text
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/delivery-reminders
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-create-delivery-reminders-manually
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/delivery-reminders
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-generate-delivery-reminders
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-issue-delivery-reminders
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminder-terms-levels-and-text
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminders
   objects: []
   features: []
@@ -115,36 +115,37 @@ narrative: generated
 
 # Purchasing
 
-> Purchasing for the Swiss version of Business Central covers delivery reminders to vendors: setup, code assignment, manual creation, batch generation, test reports, and issuing. It answers how to chase overdue vendor deliveries in the Swiss localization.
+> Swiss purchasing in Business Central covers delivery reminders for late vendor deliveries. It answers questions on setting up reminder terms, levels, text and vendor codes, and on creating, generating, testing and issuing reminders.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > Purchasing · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The section is about one Swiss-specific purchasing feature, delivery reminders. These are used to follow up with vendors on overdue deliveries. The pages follow the process in order: setup, assignment to vendors, creation, review, and issuing.
+This section describes the delivery reminder feature in the Swiss version of Business Central. Delivery reminders let a company remind vendors about overdue purchases and track vendor delivery performance.
 
-Start with the Delivery Reminders overview page, which describes the whole feature. Then use the setup page and the page on delivery reminder terms, levels, and text to configure it. After that, assign delivery reminder codes to vendors. Once setup is done, you can create reminders manually or generate them with a batch job. You can preview them with a test report before issuing them.
+The pages follow the order of the process. An overview page introduces the feature. Setup pages cover reminder terms, levels and text, and how to assign reminder codes to vendors. Further pages cover creating reminders manually or generating them automatically, printing test reports, and issuing the reminders.
+
+Start with the overview page, then do the setup pages: terms, levels and text first, then vendor codes. After that, use the pages on creating or generating, testing and issuing reminders.
 
 ## Key points
 
-- Delivery Reminders [CH] is the overview page: setup, assignment, generation, and issuance.
-- Set up delivery reminders (CH) establishes the initial configuration.
-- Delivery reminder terms, levels, and text are configured on their own setup page.
-- Delivery reminder codes are assigned to vendor records so reminders can be managed per vendor.
-- Reminders can be created manually or generated through a batch job based on configured criteria.
-- The Delivery Reminder - Test report lets you review and modify reminders before issuing, with selective filtering.
-- Issuing delivery reminders is the final step to follow up on overdue deliveries.
+- Delivery reminders remind vendors about overdue purchases in the Swiss version [CH].
+- Setup covers delivery reminder terms, levels and text.
+- Delivery reminder codes are assigned to vendors to automate reminders for late deliveries.
+- Reminders can be generated automatically or created manually for pending orders.
+- Test reports can be printed to review and modify reminders before issuing.
+- Issuing reminders is the final step for tracking and managing late supplier deliveries.
 
 ## Learn pages
 
-- [Assign Delivery Reminder Codes to Vendors [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-assign-delivery-reminder-codes-to-vendors): Learn how to assign delivery reminder terms to vendors in the Swiss version to enable reminders for overdue purchases.
-- [Delivery Reminder Terms, Levels, and Text [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminder-terms-levels-and-text): Learn how to set up delivery reminder terms, levels, and text messages in the Swiss version of Business Central to create delivery reminders.
-- [Delivery Reminders [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/delivery-reminders): Learn how to use delivery reminders to track overdue vendor shipments, and to remind vendors about overdue deliveries in the Swiss version.
-- [How to create delivery reminders manually [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-create-delivery-reminders-manually): Learn how to manually create delivery reminders in Business Central for undelivered purchases in the Swiss version.
-- [How to generate delivery reminders [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-generate-delivery-reminders): Learn how to generate delivery reminders in Business Central for overdue deliveries or create single reminders manually in the Swiss version.
-- [How to issue delivery reminders [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-issue-delivery-reminders): Learn how to issue and print delivery reminders after creating them to notify vendors effectively.
-- [Print test reports for delivery reminders [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders): Learn how to print test reports for delivery reminders in the Swiss version of Business Central.
-- [Set up delivery reminders (CH)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminders): Learn how to use purchase delivery reminders to remind vendors about overdue deliveries.
+- [Assign Delivery Reminder Codes to Vendors in Switzerland](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-assign-delivery-reminder-codes-to-vendors): Assign delivery reminder terms to vendors in the Swiss version of Business Central to enable reminders for overdue purchase order deliveries.
+- [Create Delivery Reminders Manually in the Swiss Version [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-create-delivery-reminders-manually): Create a delivery reminder manually for a vendor in the Swiss version of Business Central, and suggest lines for overdue purchase deliveries.
+- [Delivery Reminders in the Swiss Version [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/delivery-reminders): Learn how to use delivery reminders to track overdue vendor shipments, and to remind vendors about overdue deliveries in the Swiss version.
+- [Generate Delivery Reminders in the Swiss Version [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-generate-delivery-reminders): Learn how to generate delivery reminders in Business Central for overdue deliveries or create single reminders manually in the Swiss version.
+- [Issue Delivery Reminders in the Swiss Version [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-issue-delivery-reminders): Issue delivery reminders in the Swiss version of Business Central, print them for vendors, and review the resulting delivery reminder ledger entries.
+- [Print Delivery Reminder Test Reports in Switzerland](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders): Print or preview delivery reminder test reports in the Swiss version of Business Central to review the reminder details before you issue them.
+- [Set Up Delivery Reminder Terms, Levels, and Text in Switzerland](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminder-terms-levels-and-text): Learn how to set up delivery reminder terms, levels, and text messages in the Swiss version of Business Central to create delivery reminders.
+- [Set Up Delivery Reminders in the Swiss Version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-set-up-delivery-reminders): Set up purchase delivery reminders in the Swiss version of Business Central, including date selection and number series for reminders and issued reminders.
 
 ## Business Central pages and reports
 

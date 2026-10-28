@@ -2,47 +2,47 @@
 id: topic/business-central/business-functionality/local-functionality/switzerland/vat
 type: topic
 title: VAT
-summary: "Swiss VAT in Business Central: creating and printing Swiss VAT statements (current and older version), how VAT amounts and exchange rates are adjusted, and how to handle VAT rate changes. Answers questions about Swiss VAT reporting and rate changes."
+summary: "Swiss VAT in Business Central: creating and printing Swiss VAT statements (current and older versions), automatic VAT adjustment for payment discounts and foreign currencies, and changing VAT rates. It answers questions on Swiss VAT reporting setup and rate updates."
 tier: official
 language: en
 system: finance
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:25:34.744Z"
+  at: "2026-10-28T11:03:40.158Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 69aab0adbad4baf818741b5caaa2c9f5e51d32eebc003e587641133a0a492d57
+  input_hash: a9b7d96d1782674da199a72fddd5744d5d26c0112476680e967be881dbedfa93
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement
-    title: Create and print a Swiss VAT statement [CH]
-    date: "2025-04-28"
+    title: Create and Print a Swiss VAT Statement in the Swiss Version [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-
-    title: How to Print Swiss VAT Statements (older version)
-    date: "2025-04-29"
+    title: Print Swiss VAT Statements (Older Version)
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-value-added-tax
-    title: Swiss Value Added [CH]
-    date: "2025-05-02"
+    title: Swiss Value Added Tax [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/vat-rates-for-switzerland
-    title: VAT rates for Switzerland
-    date: "2023-12-11"
+    title: VAT Rates for Switzerland
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
@@ -86,37 +86,35 @@ narrative: generated
 
 # VAT
 
-> Swiss VAT in Business Central: creating and printing Swiss VAT statements (current and older version), how VAT amounts and exchange rates are adjusted, and how to handle VAT rate changes. Answers questions about Swiss VAT reporting and rate changes.
+> Swiss VAT in Business Central: creating and printing Swiss VAT statements (current and older versions), automatic VAT adjustment for payment discounts and foreign currencies, and changing VAT rates. It answers questions on Swiss VAT reporting setup and rate updates.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers the Swiss-specific VAT functionality in Business Central. It has four pages: two on printing VAT statements, one on how Swiss VAT handles payment discounts and exchange rates, and one on changing VAT rates.
+This section covers VAT functionality specific to the Swiss version. It has four pages: one on creating and printing the Swiss VAT statement, one on the older statement report, one on Swiss Value Added Tax adjustments, and one on VAT rates.
 
-For reporting, start with "Create and print a Swiss VAT statement [CH]". It describes setting up VAT statement templates and printing statements with various tax rates and reporting options. The older "How to Print Swiss VAT Statements" page documents the earlier report, kept for backward compatibility, which prints quarterly VAT reporting including VAT entries, adjusting entries and an accounting sheet.
-
-"Swiss Value Added [CH]" explains the automatic adjustment of VAT amounts for payment discounts and the use of official government exchange rates for foreign currency VAT. "VAT rates for Switzerland" explains that rate changes must be made with the VAT rate change tool.
+Start with the page on creating and printing a Swiss VAT statement if you report realized VAT. It covers the statement template setup, VAT posting details and reporting options. The older version page is for backward compatibility and points to the newer report. The Swiss Value Added Tax page explains how VAT is adjusted automatically for payment discounts and for foreign currency exchange rates. The VAT rates page explains the VAT rate change tool, which replaces the deprecated option of using old and new rates at the same time.
 
 ## Key points
 
-- Swiss VAT statements are created from VAT statement templates and can be printed with various tax rates and reporting options.
-- The current statement page covers VAT Statement, VAT Statement Cipher, VAT rates and Additional Reporting Currency.
-- The older Swiss VAT Statement report is kept for backward compatibility and prints VAT entries, adjusting entries and an accounting sheet for quarterly reporting.
-- The older report supports closed journal filtering, open date settlement and VAT rate selection.
-- VAT amounts are adjusted automatically for payment discounts.
-- Foreign currency VAT calculations use official government exchange rates, and VAT exchange rates are adjusted automatically for transactions.
-- VAT rate changes must use the VAT rate change tool; the earlier option of using old and new rates at the same time is deprecated.
+- The Swiss VAT statement is created through a VAT statement setup and printed for realized VAT reporting.
+- Setup involves the VAT Statement Cipher field, VAT rate configuration, VAT posting details, and an optional additional reporting currency.
+- The older Swiss VAT Statement report calculates VAT quarterly, including VAT entries, adjusting entries and accounting sheets.
+- The older report supports normal, reduced and special VAT rates and can filter journals by closed periods.
+- VAT is adjusted automatically for payment discounts.
+- VAT exchange rates are used for foreign currencies, with exchange rate gain/loss posting and VAT entries that track original currency amounts.
+- Use the VAT rate change tool to update rates; simultaneous use of old and new rates is deprecated.
 
 ## Learn pages
 
-- [Create and print a Swiss VAT statement [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement): Learn the steps to create and print a Swiss VAT Statement using details configured on the VAT Posting Setup page.
-  - In the observatory: [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md), [Report 26100 "Swiss VAT Statement (CH)"](../../../../../objects/report/26100-ch.md)
-- [How to Print Swiss VAT Statements (older version)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-): Learn how to print the Swiss VAT statement to use it for quarterly tax reporting.
+- [Create and Print a Swiss VAT Statement in the Swiss Version [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement): Create a Swiss VAT statement template from VAT posting setup, review the statement lines, and print a report for the selected reporting period.
+  - In the observatory: [Page 317 "VAT Statement"](../../../../../objects/page/317.md), [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md)
+- [Print Swiss VAT Statements (Older Version)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-): Review the older Swiss VAT statement report and its options for VAT entries, adjustment entries, and accounting sheets, with a link to newer guidance.
   - In the observatory: [Report 26100 "Swiss VAT Statement (CH)"](../../../../../objects/report/26100-ch.md)
-- [Swiss Value Added [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-value-added-tax): This article explains several enhancements that have been made to the Swiss VAT reporting features.
+- [Swiss Value Added Tax [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-value-added-tax): This article explains several enhancements that have been made to the Swiss VAT reporting features.
   - In the observatory: [Table 254 "VAT Entry"](../../../../../objects/table/254.md), [Table 325 "VAT Posting Setup"](../../../../../objects/table/325.md), [Table 330 "Currency Exchange Rate"](../../../../../objects/table/330.md), [Table 98 "General Ledger Setup"](../../../../../objects/table/98.md)
-- [VAT rates for Switzerland](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/vat-rates-for-switzerland): Learn how to manage VAT rate changes using the VAT rate change tool.
+- [VAT Rates for Switzerland](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/vat-rates-for-switzerland): Learn how to manage VAT rate changes using the VAT rate change tool.
 
 ## Videos, posts and code changes
 

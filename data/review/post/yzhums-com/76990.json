@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/yzhums-com/76990",
+  "input_hash": "ee455beb19d228a82425fc4a0e63809a537e884c18eef33465313cf8fc89d9ed",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-28T10:55:50.414Z",
+  "issues": [
+    "All objects come from the AL call stack in the post; version matches the call stack.",
+    "Quotes are verbatim and the resolution steps are accurately summarized."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.03678,
+    "posts_in_call": 4
+  }
+}

@@ -2,75 +2,75 @@
 id: topic/business-central/business-functionality/local-functionality/new-zealand/tax
 type: topic
 title: Tax
-summary: "New Zealand tax functionality in Business Central: GST posting setup, GST on prepayments, GST settlement reports, VAT exchange rate adjustment, and withholding tax (WHT) setup, calculation and settlement. It answers how-to questions for NZ tax configuration and reporting."
+summary: Tax in the New Zealand version of Business Central covers GST posting setup, GST settlement reports, GST on prepayments, VAT settlement exchange rate adjustment, and withholding tax (WHT) setup and settlement. It answers how to configure and run these New Zealand tax processes.
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:21:18.205Z"
+  at: "2026-10-28T11:02:16.524Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c7d09fd72adc203bee4ec26df3d54fb34e100719d1bf7f6b8a065ebe07d56049
+  input_hash: ff6b5c07e03fa2ed74e4b778e46da0a9ef3c5153392634234bcc97cf871e9368
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries
-    title: Adjust Settlement Exchange Rates for VAT Entries (NZ)
-    date: "2025-05-05"
+    title: Adjust VAT Settlement Exchange Rates in New Zealand
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-calculate-and-post-withholding-tax-settlements
-    title: Calculate and post withholding tax settlements (NZ)
-    date: "2025-05-05"
+    title: Calculate and Post WHT Settlements in New Zealand
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments
-    title: Calculate goods and services tax on prepayments (NZ)
-    date: "2025-05-05"
+    title: Calculate GST on Prepayments in New Zealand
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports
-    title: Print Goods and Service Tax Settlement Reports (NZ)
-    date: "2025-05-06"
+    title: Print GST Settlement Reports in New Zealand
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-goods-and-service-tax-posting
-    title: Set Up Goods and Service Tax Posting [NZ]
-    date: "2025-05-06"
+    title: Set Up Goods and Services Tax Posting in New Zealand
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax
-    title: Set up vendors without IRD for calculating withholding tax (NZ)
-    date: "2025-05-06"
+    title: Set Up Vendors Without IRD Numbers for Withholding Tax
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-withholding-tax
-    title: Set up withholding tax [NZ]
-    date: "2025-05-07"
+    title: Set Up Withholding Tax in the New Zealand Version [NZ]
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/withholding-tax
-    title: Withholding Tax in the New Zealand version
-    date: "2025-05-07"
+    title: Withholding Tax in the New Zealand Version
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -125,40 +125,42 @@ narrative: generated
 
 # Tax
 
-> New Zealand tax functionality in Business Central: GST posting setup, GST on prepayments, GST settlement reports, VAT exchange rate adjustment, and withholding tax (WHT) setup, calculation and settlement. It answers how-to questions for NZ tax configuration and reporting.
+> Tax in the New Zealand version of Business Central covers GST posting setup, GST settlement reports, GST on prepayments, VAT settlement exchange rate adjustment, and withholding tax (WHT) setup and settlement. It answers how to configure and run these New Zealand tax processes.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [New Zealand](../new-zealand.md) > Tax · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers the tax features specific to the New Zealand version of Business Central. It has two main areas: Goods and Services Tax (GST) and withholding tax (WHT). GST is applied to most goods and services and reported in the Business Activity Statement (BAS).
+This section holds the New Zealand tax pages for Business Central. It has two main areas: goods and services tax (GST), which uses the VAT posting framework, and withholding tax (WHT) on vendor payments. There are no subtopics, so all guidance is on eight pages.
 
-For GST, start with the posting setup page, then use the pages on GST for prepayments, printing GST settlement reports, and adjusting settlement exchange rates for VAT entries.
+For GST, start with the page on setting up GST posting. It covers VAT business and product posting groups, rates and GL accounts. After that, use the pages on GST on prepayments, printing the Calculate GST Settlement report, and adjusting VAT settlement exchange rates for currency conversions.
 
-For WHT, start with the conceptual page on withholding tax in the New Zealand version, which explains posting groups, calculation rules and certificates. Then follow the setup pages: general WHT setup, and setup for vendors without an IRD number. Finally, use the page on calculating and posting WHT settlements to close open entries.
+For WHT, read the overview page first. It explains how WHT reduces vendor payments and which setup fields matter. Then use the setup page for posting groups, the page on vendors without IRD numbers, and the page on calculating and posting WHT settlements.
 
 ## Key points
 
-- GST posting is set up for the NZ version, and GST is reported in the Business Activity Statement (BAS).
-- GST on prepayments is calculated for prepayment invoicing.
-- GST settlement reports can be printed to support GST reporting.
-- Settlement exchange rates can be adjusted for VAT entries.
-- Withholding tax is withheld from payments to vendors without IRD numbers and remitted to tax authorities in the BAS.
-- WHT is configured with business and product posting groups, WHT posting setup, calculation rules, minimum invoice amount, percentage and realized WHT type.
-- Vendors without an IRD number are set up so the WHT percentage is withheld automatically per WHT Posting Setup; a WHT certificate is supported.
-- The Calculate and Post WHT Settlement page closes open WHT entries, with truncated whole-number reporting and a rounding account.
+- GST posting setup uses VAT business and product posting groups, VAT identifier, VAT percentage, VAT calculation type and a Sales VAT account.
+- The Calculate GST Settlement report calculates and prints GST settlements. It can post entries, filter by account types, and set posting date and document numbering. It also supports intercompany posting.
+- GST on prepayments is calculated for prepayment transactions subject to GST in New Zealand.
+- VAT settlement exchange rates can be adjusted so VAT is handled correctly with currency conversions.
+- WHT reduces vendor payments by the tax withheld. It covers schedular payments and non-resident withholding tax, depending on payment type and Inland Revenue rules.
+- Key WHT setup fields include WHT Calculation Rule, WHT Minimum Invoice Amount, WHT Percentage, Realized WHT Type, Payable WHT Account Code and Purchase WHT Adjustment Account.
+- WHT setup is done through business and product posting groups, using payment types, rates, thresholds and exemptions.
+- The Calc. and Post WHT Settlement page closes open WHT entries and moves amounts to settlement accounts, using truncated rounding and a rounding account.
 
 ## Learn pages
 
-- [Adjust Settlement Exchange Rates for VAT Entries (NZ)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries): Use a batch job to settle VAT entries according to the government exchange rates in the New Zealand version.
-- [Calculate and post withholding tax settlements (NZ)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-calculate-and-post-withholding-tax-settlements): Learn how to calculate and post the withholding tax (WHT) in the New Zealand version of Business Central.
-- [Calculate goods and services tax on prepayments (NZ)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments): Learn how to calculate Goods and Services Tax (GST) for prepayments or partial payments based on the total invoice amount rather than just the partial payment.
-- [Print Goods and Service Tax Settlement Reports (NZ)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports): Learn how to prepare and submit a periodic goods and services tax (GST) settlement in the New Zealand version of Business Central.
-- [Set Up Goods and Service Tax Posting [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-goods-and-service-tax-posting): Learn how to set up posting for goods and services tax (GST) in the New Zealand version of Business Central.
-- [Set up vendors without IRD for calculating withholding tax (NZ)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax): Learn how to set up vendors without IRD numbers to calculate withholding tax, ensuring compliance with New Zealand tax regulations for local vendors.
-  - In the observatory: [Page 26 "Vendor Card"](../../../../../objects/page/26.md)
-- [Set up withholding tax [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-withholding-tax): Learn how to set up product posting groups and business posting groups for Withholding tax (WHT) in the New Zealand version of Business Central.
-- [Withholding Tax in the New Zealand version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/withholding-tax): Learn about withholding tax (WHT) scenarios in New Zealand and how to manage them effectively.
+- [Adjust VAT Settlement Exchange Rates in New Zealand](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries): Learn how to adjust VAT entries with settlement exchange rates, choose the settlement period, and review the results in the New Zealand version.
+- [Calculate and Post WHT Settlements in New Zealand](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-calculate-and-post-withholding-tax-settlements): Learn how to calculate withholding tax (WHT) settlements, close unsettled entries, and post amounts to a settlement account in New Zealand.
+- [Calculate GST on Prepayments in New Zealand](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments): Learn how to calculate Goods and Services Tax (GST) for prepayments or partial payments based on the total invoice amount rather than just the partial payment.
+- [Print GST Settlement Reports in New Zealand](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports): Learn how to print goods and services tax (GST) settlement reports and distinguish posting a settlement from filing a New Zealand GST return.
+- [Set Up Goods and Services Tax Posting in New Zealand](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-goods-and-service-tax-posting): Learn how to set up GST posting groups, tax rates, and general ledger accounts for purchases and sales in the New Zealand version of Business Central.
+  - In the observatory: [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md)
+- [Set Up Vendors Without IRD Numbers for Withholding Tax](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax): Learn how to set up local vendors without IRD numbers when withholding tax applies in the New Zealand version of Business Central.
+  - In the observatory: [Page 26 "Vendor Card"](../../../../../objects/page/26.md), [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 460 "Purchases & Payables Setup"](../../../../../objects/page/460.md)
+- [Set Up Withholding Tax in the New Zealand Version [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-withholding-tax): Learn how to set up product posting groups and business posting groups for Withholding tax (WHT) in the New Zealand version of Business Central.
+- [Withholding Tax in the New Zealand Version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/withholding-tax): Learn how to configure withholding tax rates and thresholds, manage vendor payments, and print WHT certificates in the New Zealand version.
+  - In the observatory: [Page 460 "Purchases & Payables Setup"](../../../../../objects/page/460.md)
 
 ## Business Central pages and reports
 

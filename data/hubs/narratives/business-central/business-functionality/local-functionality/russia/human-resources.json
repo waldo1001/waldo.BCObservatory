@@ -1,36 +1,38 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/russia/human-resources",
-  "input_hash": "a8d1238728328fa147be0fa9f2784cb4b39d48c011069708629f90d69a6959e4",
-  "summary": "Human resources for the Russian localization of Business Central covers payroll, absence registration, dismissal, charges and deductions, staff list changes, and vacation planning. It answers how-to questions about HR and payroll processes for Russian employees.",
-  "overview": "This section describes the HR and payroll processes in the Russian localization. It has an overview page, \"Human resources in Russia\", and one page for each process: payroll, absence registration, dismissal, charges and deductions, staff forming and changing, and vacation planning. There are no subtopics.\n\nStart with the overview page to see which areas are covered. Then go to the process page you need. Payroll sets up salary elements, calculation types and accounting groups. Charges and deductions enter payroll automatically, and absence orders are posted to payroll. Dismissal covers dismissal lines, compensation payments and employee status. Staff list orders and vacation schedules cover organization and planning.",
+  "input_hash": "5b178ab1fc92709b2ea0af1d7695b81b8c915978423c5305bd00c72feaef5f30",
+  "summary": "Human resources for Russia in Business Central: payroll, charges and deductions, absence registration, dismissal, staff list management and vacation planning. Use it to find how to manage the staff list through HR orders, record absences and charges, run payroll with salary documents and register dismissals for Russian employees.",
+  "overview": "This section covers the Russian HR and payroll processes in Business Central. It starts with an overview page, \"Human resources in Russia\", that lists the areas: payroll, charges and deductions, absence registration, dismissal, staff list order and vacation planning. Each area has its own page.\n\nStaff list changes (positions and organizational units) are made through HR orders. Absences (vacation, travel, sick leave, other) are recorded through absence orders. These are posted to payroll and to Employee Ledger Entries. Dismissals are registered with employment contract details, dismissal reasons and compensation, and the dismissal record is then approved. Payroll pages cover salary element and calculation type setup, and processing through salary documents. Charges and deductions are entered in the Employee Journal, and payroll picks them up based on their start and end dates.\n\nStart with the overview page, then go to the page for your task.",
   "key_points": [
-    "Absence registration handles four absence types (vacation, travel, sick leave, other) through orders posted to payroll and employee ledger entries, and orders can be cancelled.",
-    "Dismissal uses dismissal lines with an operation type, a reason code and a dismissal document. It also covers compensation payments and updates the employee status.",
-    "Charges and deductions (bonuses, fines, benefits, deductions, assistance) are recorded in the Employee Journal and enter payroll automatically based on start and end dates.",
-    "HR managers create and modify staff lists through staff list orders. They manage position and organizational unit actions and generate archived staff lists and staff arrangement reports.",
-    "Payroll covers salary elements, calculation types, payroll accounting groups, wage and bonus calculation, tax deductions and fund payments.",
-    "Vacation planning builds a yearly vacation schedule, suggests employees, handles leave transfers, and fills in actual start dates when vacation orders are posted."
+    "Absence registration supports four types (vacation, travel, sick leave, other) through absence orders. The orders are posted to payroll and Employee Ledger Entries, and HR order numbering applies to them.",
+    "Dismissal registration covers employment contract details, dismissal reason codes, compensation payments and approval of the dismissal document.",
+    "The Employee Journal records charges and deductions such as bonuses, fines, benefits and financial assistance. Payroll includes them automatically based on their start and end dates.",
+    "Staff list changes to positions and organizational units are made through HR orders. You can archive the staff list, and staff arrangement documents show occupied and vacant positions.",
+    "Payroll covers salary element types, calculation types, payroll accounting groups, interperiod payments, basic monthly payroll and personal income tax calculation.",
+    "Vacation planning creates schedules by year. You add employees and specify start and end dates, and actual dates are tracked when vacation orders are posted."
   ],
   "members_used": 7,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:04:35.851Z",
+  "at": "2026-10-28T10:57:29.936Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.012551
+    "cost_usd": 0.016652
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:22:19.662Z",
+    "at": "2026-10-28T11:02:48.187Z",
     "verdict": "fix",
     "issues": [
-      "Overview says dismissals feed into payroll. The sources only say that charges and deductions enter payroll and that absence orders post to payroll. The dismissal page covers compensation payments and employee status, but it never says dismissals feed into payroll. The sentence now names only charges, deductions and absences.",
-      "The vacation planning key points were split in two: one for schedules and a separate one for leave transfers. They are now a single point.",
-      "Small fix: the staff list point now says staff lists are created and modified through staff list orders, as the source states, and the payroll point now includes bonuses."
+      "The overview says dismissals are recorded through HR orders. The dismissal page only mentions a dismissal document that is approved, not HR orders.",
+      "The overview gives a 'typical order' of tasks (form the staff list, set up payroll, plan vacations, and so on). None of the sources give such a sequence. I replaced it with a neutral pointer to each task page.",
+      "The staff list key point reads as if the archives show occupied and vacant positions. The source says the staff arrangement documents do that. I reworded it.",
+      "The key point 'HR order numbering is part of absence registration' adds little on its own, so I folded it into the absence registration point.",
+      "In the vacation planning point, 'per employee' slightly misstates the source, which describes schedules created by year with employees added to them. I reworded it."
     ],
-    "input_hash": "a8d1238728328fa147be0fa9f2784cb4b39d48c011069708629f90d69a6959e4",
-    "cost_usd": 0.0458672
+    "input_hash": "5b178ab1fc92709b2ea0af1d7695b81b8c915978423c5305bd00c72feaef5f30",
+    "cost_usd": 0.0479752
   }
 }

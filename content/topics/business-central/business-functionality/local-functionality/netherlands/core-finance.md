@@ -2,33 +2,33 @@
 id: topic/business-central/business-functionality/local-functionality/netherlands/core-finance
 type: topic
 title: Core finance
-summary: "Core finance for the Netherlands local version of Business Central covers two general ledger topics: applying and unapplying G/L entries, and requiring descriptions on G/L entries to support audit trails. It answers questions about Dutch-specific general ledger behavior."
+summary: "Core finance for the Netherlands localization of Business Central covers two general ledger topics: applying and unapplying G/L entries, and requiring descriptions on G/L entries. It answers questions about matching or reversing entries and enforcing descriptions for audit trails."
 tier: official
 language: en
 system: finance
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T05:22:00.172Z"
+  at: "2026-10-28T11:04:05.144Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 1354e39e0856c329ede4f7008ca083acd29dcaa50e16d598e70af19a43c8fddf
+  input_hash: 86968d7ef4069b2ef3f9d2b9be1041f72a90bc0b28e708cebe75442221186b8e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries
-    title: Apply and Unapply General Ledger Entries [NL]
-    date: "2025-03-14"
+    title: Apply and Unapply General Ledger Entries in the Netherlands
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry
-    title: Required descriptions in G-L entry
-    date: "2025-03-20"
+    title: Require Descriptions in General Ledger Entries
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -68,31 +68,32 @@ narrative: generated
 
 # Core finance
 
-> Core finance for the Netherlands local version of Business Central covers two general ledger topics: applying and unapplying G/L entries, and requiring descriptions on G/L entries to support audit trails. It answers questions about Dutch-specific general ledger behavior.
+> Core finance for the Netherlands localization of Business Central covers two general ledger topics: applying and unapplying G/L entries, and requiring descriptions on G/L entries. It answers questions about matching or reversing entries and enforcing descriptions for audit trails.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section holds Netherlands-specific general ledger functionality. It has no subtopics, only two pages, each covering one capability of the Dutch version.
+This section holds Netherlands-specific general ledger functionality. It has no subtopics, only two standalone pages, so each can be read on its own.
 
-One page explains how to apply and unapply general ledger entries in the Dutch version. The other describes required descriptions in G/L entries: the system can be configured so that journal lines need a detailed description beyond the default account description when posted, which helps maintain an audit trail.
+The first page explains how to apply and unapply general ledger entries in the Dutch version, which lets users manually match entries or reverse a match. The second page explains how to configure G/L accounts so users must type a description in journal lines instead of relying on the default account name. Posting is blocked when the description is blank.
 
-Start with the required descriptions page if you are setting up posting rules and audit controls. Use the apply and unapply page when you need to match or reverse the matching of G/L entries.
+Start with the apply and unapply page if your question is about matching entries. Use the description page if you need better documentation in the audit trail.
 
 ## Key points
 
-- Applies only to the Dutch (Netherlands) version of Business Central.
-- General ledger entries can be applied and unapplied in the Dutch version.
-- Required descriptions on G/L entries support audit trails.
-- The system can be configured to enforce detailed descriptions beyond the default account description.
-- Description validation takes place when journal lines are posted.
-- The section has two pages and no subtopics.
+- G/L entries can be applied manually in the Netherlands localization.
+- Applied G/L entries can be unapplied to reverse the match.
+- G/L accounts can be set to require a description instead of the default account name.
+- The setting is called Omit Default Descr. in Jnl.
+- With required descriptions on, posting with a blank description is blocked.
+- Required descriptions are meant to improve audit trail documentation.
 
 ## Learn pages
 
-- [Apply and Unapply General Ledger Entries [NL]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries): Apply temporary general ledger entries to allow companies to work with temporary and transfer accounts in the general ledger.
-- [Required descriptions in G-L entry](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry): When entering general journal lines on a form, the system automatically fills in the description field.
+- [Apply and Unapply General Ledger Entries in the Netherlands](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries): Learn about the retired Dutch G/L entry application feature and use account review to track and confirm general ledger balances in Business Central.
+- [Require Descriptions in General Ledger Entries](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry): Require a meaningful description on journal lines by omitting the default G/L account description in the Dutch version of Business Central.
+  - In the observatory: [Page 17 "G/L Account Card"](../../../../../objects/page/17.md)
 
 ## Videos, posts and code changes
 

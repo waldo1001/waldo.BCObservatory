@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/sales/sales-analytics
 type: topic
 title: Sales analytics
-summary: "Sales analytics in Business Central covers the ways to analyze sales performance: the Power BI Sales app, built-in sales reports, ad-hoc analysis on list pages, custom analysis reports, and legacy reports slated for removal. It helps answer which tool fits a question, what each report shows, and which KPIs and filters are available."
+summary: "Sales analytics in Business Central covers how sales managers and teams analyze sales performance: Power BI Sales app reports, ad-hoc analysis on list pages, configurable analysis reports, built-in sales reports and legacy reports marked for removal. It answers what each report shows and which approach fits a given analysis need."
 tier: official
 language: en
 system: sales
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:14:39.920Z"
+  at: "2026-10-28T11:00:47.808Z"
   flags: []
 generated:
-  at: "2026-10-26T08:46:07.995Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: e51fb1ca48c9d6c49c3d209abb016739857918a507ad3a27cae583ffb82fc1a0
+  input_hash: 4199bda535c583628adf254fa30c6f9a9dbcfbe6c853da8039b1092f754f8de7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget
@@ -202,7 +202,7 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-opportunity-overview
-    title: Opportunity Overview (Power BI report)
+    title: Opportunity Overview (Power BI Report)
     date: "2025-05-20"
     commit: null
     t: null
@@ -476,28 +476,28 @@ narrative: generated
 
 # Sales analytics
 
-> Sales analytics in Business Central covers the ways to analyze sales performance: the Power BI Sales app, built-in sales reports, ad-hoc analysis on list pages, custom analysis reports, and legacy reports slated for removal. It helps answer which tool fits a question, what each report shows, and which KPIs and filters are available.
+> Sales analytics in Business Central covers how sales managers and teams analyze sales performance: Power BI Sales app reports, ad-hoc analysis on list pages, configurable analysis reports, built-in sales reports and legacy reports marked for removal. It answers what each report shows and which approach fits a given analysis need.
 
 Path: [Business functionality](../../business-functionality.md) > [Sales](../sales.md) > Sales analytics · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Sales analytics is for sales managers and sales teams who need to monitor KPIs such as gross profit, sales by period and customer acquisition. The section offers several routes: Power BI reports, ad-hoc analysis, financial reporting, dimension analysis, consolidation, and built-in reports.
+Sales analytics brings together several ways to look at sales data in Business Central, such as gross profit, sales by period and customer acquisition. The landing page names the options: Power BI reports, ad-hoc analysis, financial reporting, dimension analysis and consolidation, plus the built-in reports.
 
-The hub's own pages cover two hands-on methods. Ad-hoc analysis uses the Data Analysis feature on list pages, with analysis mode, pivot-style row groups, column labels, filters and custom tabs, for quick fact-checking without running a report. Analysis reports combine line and column templates with analysis type codes to build PivotTable-style reports on sales, purchases and inventory.
+Two pages in this section are hands-on. Ad-hoc analysis uses the Data Analysis feature on list pages, with analysis mode, pivot tables, row groups, column labels and filters, for quick fact-checking without running a predefined report. Create analysis reports combines line and column templates to build reports for sales, purchases and inventory, covering turnover, profit and periodic comparisons.
 
-Subtopics go deeper. The Power BI Sales app describes its reports, semantic model and KPI and measure definitions. Built-in sales reports cover receivables, customer balances, orders, back orders, salespersons and printable sales documents. A legacy group lists five reports marked for removal. Start with the main Sales analytics page to pick a method, then go to the matching subtopic.
+Three subtopics go deeper. The Power BI Sales app describes its reports, semantic model and KPI definitions. Built-in sales reports covers receivables, orders, salespeople and printable sales documents. The legacy reports subtopic lists five reports that will be removed. Start with the section overview to choose a method, then go to the matching subtopic.
 
 ## Key points
 
-- Audience: sales managers and sales teams tracking KPIs like gross profit, sales by period and customer acquisition.
-- Ad-hoc analysis works directly from list pages via the Data Analysis feature, with analysis mode, pivot tables, row groups, column labels, filtering and custom tabs.
-- Analysis reports are built from line and column templates and analysis type codes, and can cover sales turnover, profit calculations, periodic comparisons and item ledger analysis.
-- The Power BI Sales app section documents individual reports, the semantic model and the KPI and measure definitions.
-- Built-in sales reports include receivables, customer balance, order, back-order and salesperson reports plus printable documents (quotes, order confirmations, invoices, credit memos, shipments, return receipts).
-- Built-in report variants exist for subscription billing, QR codes and sustainability data.
-- Legacy reports to be removed: Customer - Sales list, Customer - Top 10 list, Customer List, Sales Reservation Avail., and Sales Statistics.
-- Other analysis routes named: financial reporting, dimension analysis and consolidation.
+- Analysis options named on the landing page: Power BI reports, ad-hoc analysis, financial reporting, dimension analysis, consolidation and built-in reports.
+- Ad-hoc analysis works from list pages through the Data Analysis feature, using analysis mode, pivot-style row groups and column labels, filters and custom tabs.
+- Analysis reports are built from line and column templates and analysis type codes, for sales, purchases and inventory.
+- Analysis reports can show sales turnover, profit calculations, periodic comparisons and item ledger analysis.
+- The Power BI Sales app has reports for sales trends, customers, items, salespeople, locations, projects, budget, opportunities, quotes, returns and forecasting, with a documented semantic model and KPI definitions.
+- Built-in sales reports include customer balance and receivables, order and back-order reports, salesperson reports, and printable documents such as quotes, invoices, credit memos, shipments and return receipts.
+- Built-in reports also have variants for subscription billing, QR codes and sustainability data.
+- Legacy reports marked for removal: Customer - Sales list, Customer - Top 10 list, Customer List, Sales Reservation Avail. and Sales Statistics.
 
 ## Subtopics
 

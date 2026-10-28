@@ -1,36 +1,37 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/india/gate-entry",
-  "input_hash": "8d9b9d05244f490cbd3df5680f7498accb6b40d827cbb1f4a6ab393008f30c18",
-  "summary": "Gate entry in the Business Central India localization covers recording goods entering and leaving the organization. It answers questions on setting up gate entry tracking and number series, and on creating and attaching inward and outward gate entries to purchase, sales, transfer and return documents.",
-  "overview": "Gate entry is part of the India local functionality. It keeps a record of material that enters (inward) and exits (outward) the organization and relates each movement to a source document such as a purchase order, sales order, transfer order or a return order.\n\nStart with the setup page, which describes the requirements for inventory and posting number series. After that, the inward page explains how to create gate entries and attach them to incoming documents. The outward page explains the same for goods leaving, including transport and vehicle details and posting.",
+  "input_hash": "a3fde16ec92aa4524aa16739d9f8d1549754e897c3ce0f700fb83ce25dca88b3",
+  "summary": "Gate entry in the India localization of Business Central records the physical movement of goods into and out of company premises. It answers questions about setting up gate entry tracking and about creating and attaching inward and outward gate entries to purchase, sales, and transfer documents.",
+  "overview": "Gate entry tracking in the India localization records goods entering and leaving organizational premises. It supports audit trails and links each movement to purchase, sales, and transfer documents. The section has no subtopics, only three pages.\n\nStart with Set Up Gate Entry Tracking, which covers inward and outward gate entry number series and posted gate entry records. Then use Create and Attach Inward Gate Entries for goods coming in (purchase orders, transfer receipts, sales returns). Use Create and Attach Outward Gate Entries for goods going out (posted sales shipments, transfer shipments, purchase return shipments).",
   "key_points": [
-    "Gate entry tracks material entrance and exit in the India localization, in both inward and outward directions.",
-    "Setup comes first and requires number series for inventory and posting.",
-    "Inward gate entries apply to purchase orders, transfer orders and sales return orders.",
-    "Inward entries record source type and challan number, and can be attached to the document and viewed after posting.",
-    "Inward gate entry integrates with warehouse receipts.",
-    "Outward gate entries apply to sales orders, transfer shipments and purchase return orders.",
-    "Outward entries capture transport details and vehicle tracking, are attached to a source document, and are then posted."
+    "Gate entry tracking is part of the India localization and records physical goods movement in and out of premises.",
+    "Setup involves the Inward Gate Entry Nos. and Outward Gate Entry Nos. number series.",
+    "Gate entries can be posted, which produces posted gate entry records for audit trails.",
+    "Inward gate entries can be attached to purchase orders, transfer receipts, and sales return orders.",
+    "Inward entries use a get gate entry lines action to bring lines into the document.",
+    "Outward gate entries can be attached to posted sales shipments, transfer shipments, and purchase return shipments.",
+    "Outward entries capture fields such as Location Code, Station To, LR/RR No., Vehicle No., Challan No., and Source Type."
   ],
   "members_used": 3,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:30.919Z",
+  "at": "2026-10-28T10:58:33.332Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.008889000000000001
+    "cost_usd": 0.010013
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:27:33.927Z",
+    "at": "2026-10-28T11:03:41.985Z",
     "verdict": "approve",
     "issues": [
-      "The outward key point says entries are attached to a source document and then posted. The page summary lists attachment and posting as features but doesn't state the order, so 'then' is a slight inference.",
-      "The overview says to start with the setup page. The sources don't state a reading order, but setup coming first is a reasonable way to guide readers."
+      "Minor: the key point 'Inward entries use a get gate entry lines action to bring lines into the document' goes slightly beyond the source. The source only lists 'get gate entry lines' as a feature, so calling it an action that brings lines into the document is an assumption, though a reasonable one.",
+      "Minor: the key point linking posted gate entry records to audit trails combines two separate items from the setup page summary: posting and posted records, and support for audit trails. The link is reasonable but is not stated directly.",
+      "Minor: the overview sentence 'The section has no subtopics, only three pages' describes the structure rather than the subject, and an agent gets little from it."
     ],
-    "input_hash": "8d9b9d05244f490cbd3df5680f7498accb6b40d827cbb1f4a6ab393008f30c18",
-    "cost_usd": 0.029971200000000003
+    "input_hash": "a3fde16ec92aa4524aa16739d9f8d1549754e897c3ce0f700fb83ce25dca88b3",
+    "cost_usd": 0.0257272
   }
 }

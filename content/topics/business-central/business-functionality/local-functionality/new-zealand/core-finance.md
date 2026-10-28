@@ -2,40 +2,40 @@
 id: topic/business-central/business-functionality/local-functionality/new-zealand/core-finance
 type: topic
 title: Core finance
-summary: "Core finance for the New Zealand version of Business Central covers local finance functions: calculating distribution amounts, printing statutory balance sheet reports, and printing income statements. It answers questions about NZ-specific financial reporting tasks."
+summary: Core finance for the New Zealand version of Business Central covers distribution amount calculation and printing of the balance sheet and income statement reports. It answers questions about NZ-specific financial reporting and the options available on these reports.
 tier: official
 language: en
 system: finance
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:27:42.900Z"
+  at: "2026-10-28T11:03:51.447Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 6e55988bf4e09099dc4d1628ed471cf2381dfdbd0d0b44d0ea2479fad20f6abe
+  input_hash: dfca6b4cb0e2a2c5af351b24907ea0bdc5f14c9f5f650ea843e50d65a6b19818
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/calculating-distribution-amounts
-    title: Calculating distribution amounts [NZ]
-    date: "2025-05-05"
+    title: Calculating Distribution Amounts in the New Zealand Version [NZ]
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-balance-sheet-reports
-    title: Print Balance Sheet Reports [NZ]
-    date: "2025-05-06"
+    title: Print Balance Sheet Reports in the New Zealand Version [NZ]
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-income-statements
-    title: Print Income Statements [NZ]
-    date: "2025-05-06"
+    title: Print Income Statements in the New Zealand Version [NZ]
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -52,6 +52,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12979
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -73,31 +75,37 @@ narrative: generated
 
 # Core finance
 
-> Core finance for the New Zealand version of Business Central covers local finance functions: calculating distribution amounts, printing statutory balance sheet reports, and printing income statements. It answers questions about NZ-specific financial reporting tasks.
+> Core finance for the New Zealand version of Business Central covers distribution amount calculation and printing of the balance sheet and income statement reports. It answers questions about NZ-specific financial reporting and the options available on these reports.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [New Zealand](../new-zealand.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section holds three pages on finance functionality specific to the New Zealand version of Business Central. It has no subtopics, so all the content sits on these pages.
+This section holds three pages on New Zealand local functionality in core finance. They are standalone topics with no subtopics, so each can be read on its own.
 
-Two pages deal with statutory reporting. One covers printing balance sheet reports. The other covers printing income statements, which show revenues and expenses for the current and prior years. A third page covers calculating distribution amounts. Its summary gives no detail beyond the topic.
+One page explains how to calculate and process distribution amounts for New Zealand. The other two cover financial statements: printing balance sheet reports with localized formatting, and printing the income statement, which shows company revenues and expenses for the current and previous year and is needed for auditing accounts.
 
-Start with the balance sheet or income statement page if you need to produce reports for financial reporting. Open the distribution amounts page for that calculation. The summaries are brief, so check each page for the steps.
+Start with the page that matches your task. For financial statements or audit reporting, use the balance sheet and income statement pages. For distribution amounts, use the calculation page.
 
 ## Key points
 
-- Applies only to the New Zealand version of Business Central.
-- Balance sheet reports can be printed as statutory reports required for financial reporting.
-- The income statement report shows revenues and expenses for current and prior years.
-- Income statement options include Amounts in whole and Show Amounts in Add. Reporting Currency.
-- A separate page covers calculating distribution amounts for NZ.
-- The section has three pages and no subtopics.
+- Distribution amounts can be calculated and processed using NZ-specific functionality.
+- The balance sheet report prints financial statements with localized New Zealand formatting.
+- The income statement report shows revenues and expenses for the current and previous year.
+- The income statement is described as required for auditing accounts.
+- Income statement options include Amounts in whole rounding and Show Amounts in Add. Reporting Currency.
+- The income statement can be previewed as well as printed.
 
 ## Learn pages
 
-- [Calculating distribution amounts [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/calculating-distribution-amounts): Learn how to maintain account balances in proportion by reallocating amounts between general ledger accounts.
-- [Print Balance Sheet Reports [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-balance-sheet-reports): Learn how to print the company's balance sheet report in the New Zealand version of Business Central
-- [Print Income Statements [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-income-statements): Learn how to print the company's annual income statement in a report in the New Zealand version of Business Central.
+- [Calculating Distribution Amounts in the New Zealand Version [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/calculating-distribution-amounts): Learn how to reallocate amounts between general ledger accounts with recurring journal allocations in the New Zealand version of Business Central.
+- [Print Balance Sheet Reports in the New Zealand Version [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-balance-sheet-reports): Learn how to print a balance sheet, select the reporting date, and set amount rounding in the New Zealand version of Dynamics 365 Business Central.
+- [Print Income Statements in the New Zealand Version [NZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-income-statements): Learn how to print income statements, compare current and previous year figures, and select rounding and currency options in New Zealand.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#12979 [Main] Consistent Error Posting GST Distribution Reversal](../../../../../changes/bcapps/12979.md) (code change): "GST Distribution Reversal posting now correctly handles rounding differences"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -1,37 +1,37 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/spain/vat",
-  "input_hash": "6d3af41e512e753fd7e8a6add183ad8be27d3a43dadd517c1c8d6f31030dc1b2",
-  "summary": "Spanish VAT functionality in Business Central: Equivalence Charges, VAT statements, telematic export in text and XML, SII setup, and the tax authority reports 340, 347 and 349. It answers how to set up, generate and submit these declarations.",
-  "overview": "This section covers the VAT reporting a company needs in the Spanish version of Business Central. It includes the Equivalence Charge (EC) tax for retail sales, one-column and two-column VAT statement templates, and the periodic declarations sent to the Spanish tax authorities: Report 340 (invoices and taxes, monthly or quarterly), Report 347 (annual sales, purchases and cash payments) and Report 349 (intra-EU trade).\n\nMost topics come in pairs: a conceptual page (Report 340, Report 347, Report 349) and a how-to page (Create Report 340, How to create report 347, Create Report 349). Other pages cover creating text and XML templates for telematic VAT statements and exporting statements with them. Setup pages cover cash accounting criteria for Report 340 and SII (Suministro Inmediato de Información) for VAT reporting.\n\nStart with the VAT Reports page for an overview and with Equivalence Charges to see how EC and VAT are tracked. Then read the page for the specific declaration you need. If you file electronically, set up the statement templates before exporting.",
+  "input_hash": "4b97ddd47c349cc74eebb2ca0e1444a9fcb0475e11ca1f39ed5ae34138e09c5a",
+  "summary": "Spanish VAT functionality in Business Central: Reports 340, 347 and 349, Equivalence Charges, telematic VAT statement templates and exports in text and XML, cash accounting setup, and SII setup. It answers how to set up, create and submit these declarations to Spanish tax authorities.",
+  "overview": "This section covers the VAT reporting tools of the Spanish version. The \"VAT Reports in the Spanish Version\" page gives the entry point, listing Equivalence Charge tax, telematic VAT, VAT statements and VIES declarations for EU sales. Equivalence Charges (EC) are tracked in an EC % field kept separate from the VAT % field.\n\nReports 340, 347 and 349 each have a concept page and a how-to page for creating the report. Report 340 lists invoices and taxes issued or received in a period. Report 347 is the annual declaration of sales and purchases, including cash payments. Report 349 is the periodic declaration of intra-community trade with EU countries.\n\nFor electronic filing, you first create text or XML templates (Transference Format pages), then export the VAT statement in the matching format. Separate pages cover cash accounting setup for Report 340 (unrealized VAT and VAT posting groups) and SII setup for VAT reporting. Start with the overview page, then go to the report or setup you need.",
   "key_points": [
-    "Equivalence Charges (EC) are tracked separately from VAT on purchase and sales lines, shown combined as VAT + EC, and stored separately in the VAT Entry table at posting.",
-    "Report 340 documents sales and purchase invoices with operation codes for monthly or quarterly submission, and supports cash accounting criteria (CAC), nondeductible VAT and equivalence charge reporting.",
-    "Setting up CAC for Report 340 means configuring unrealized VAT in General Ledger Setup and VAT Posting Setup.",
-    "Report 347 is an annual declaration by VAT date; it helps identify unapplied cash payments and generate declaration labels.",
-    "Report 349 covers intra-EU trade, filtered by EU country codes, with delivery operation codes (E, M, H), item card setup for exports and credit memo corrections.",
-    "VAT statements can be exported as text or XML for telematic submission, using templates with field mapping (XML templates also use indentation levels).",
-    "Text export uses the Generate txt file action, with filters for open or closed entries and an option to show amounts in the additional currency.",
-    "SII setup includes enabling the module, batch submission thresholds, marking documents as accepted, flagging customers not in AEAT, VAT exemptions and ignoring invoice lines."
+    "Report 340 documents sales and purchase invoices with operation codes and cash payments, monthly or quarterly; creation uses fiscal year, minimum payment amount and G/L account selection.",
+    "Report 347 is an annual declaration based on VAT Date; the how-to covers identifying unapplied cash payments, creating the declaration and generating 347 declaration labels.",
+    "Report 349 reports EU intra-community trade using VAT entries filtered by EU country codes and operation codes E, M and H; it can be submitted telematically or on CD-ROM, with credit memo warnings to correct.",
+    "Equivalence Charges use the EC % field, separate from VAT %, with a combined VAT + EC % field for display.",
+    "Telematic VAT templates are defined in text format (Transference Format page: positions, lengths, types, data sources) or XML format (XML Transference Format page: field mappings, indentation levels, value types).",
+    "VAT statements are exported through the Generate txt file or Generate XML file actions, with filters for open or closed VAT entries, period, date and additional reporting currency.",
+    "Cash accounting for Report 340 requires enabling Unrealized VAT in General Ledger Setup and setting up VAT Posting Setup with G/L accounts for sales and purchases.",
+    "SII setup covers enabling the module, batch submission with automatic thresholds, marking documents as accepted, VAT exemption codes and customer NIF registration."
   ],
   "members_used": 14,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:02:50.871Z",
+  "at": "2026-10-28T10:58:09.591Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.020416999999999998
+    "cost_usd": 0.021709
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:18:44.882Z",
-    "verdict": "approve",
+    "at": "2026-10-28T11:01:53.027Z",
+    "verdict": "fix",
     "issues": [
-      "Minor: the XML export page's own options (date filter, additional currency) are not described the way the text export page is in key point 7. Optional.",
-      "Minor: the CD-ROM submission option for Reports 347 and 349 and the VAT-VIES declaration on the VAT Reports page are not mentioned. Leaving them out is fine."
+      "The overview says Reports 340, 347 and 349 each have a concept page and 'for most' a how-to page. The sources include a Create page for all three reports, so 'for most' is wrong. Corrected in the overview.",
+      "All other claims in the summary and key points are supported by the page summaries."
     ],
-    "input_hash": "6d3af41e512e753fd7e8a6add183ad8be27d3a43dadd517c1c8d6f31030dc1b2",
-    "cost_usd": 0.0456432
+    "input_hash": "4b97ddd47c349cc74eebb2ca0e1444a9fcb0475e11ca1f39ed5ae34138e09c5a",
+    "cost_usd": 0.0521392
   }
 }

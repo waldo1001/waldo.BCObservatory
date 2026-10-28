@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:15:39.036Z"
+  at: "2026-10-28T10:42:34.480Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1177e426f701ed4fee7c47ad58732ea3e480022b6d8d8f57859eac22d8888e1e
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/System%20Application/App/ControlAddIns/src/BusinessChart.ControlAddin.al
+    url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/System%20Application/App/ControlAddIns/src/BusinessChart.ControlAddin.al
     title: src/System Application/App/ControlAddIns/src/BusinessChart.ControlAddin.al (releases/29.x)
     date: null
-    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
+    commit: 4c1c1638beb6d5da8540cc1f61889b80c7b3356f
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Control add-in "BusinessChart" in System Application (System.Integration). 1 public procedures. Introduced in BC24, still in BC30, changed in BC26.
 
-System Application · System.Integration · BC24-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/System%20Application/App/ControlAddIns/src/BusinessChart.ControlAddin.al) · facts from BC29
+System Application · System.Integration · BC24-30 · [source at 4c1c1638](https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/System%20Application/App/ControlAddIns/src/BusinessChart.ControlAddin.al) · facts from BC29
 
 ## Procedures
 

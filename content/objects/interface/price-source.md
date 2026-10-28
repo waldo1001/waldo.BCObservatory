@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:15:39.036Z"
+  at: "2026-10-28T10:42:34.480Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f3accdc0f22a20f09a7b45903bc5dbe22426bac5e73e62e960e8acca6067fd0f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Layers/W1/BaseApp/Pricing/Source/PriceSource.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Layers/W1/BaseApp/Pricing/Source/PriceSource.Interface.al
     title: src/Layers/W1/BaseApp/Pricing/Source/PriceSource.Interface.al (releases/29.x)
     date: null
-    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
+    commit: 4c1c1638beb6d5da8540cc1f61889b80c7b3356f
     t: null
     quote: null
 links:
@@ -83,7 +83,7 @@ relations:
 
 > Interface "Price Source" in Base Application (Microsoft.Pricing.Source). 7 public procedures. Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Pricing.Source · BC23-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Layers/W1/BaseApp/Pricing/Source/PriceSource.Interface.al) · facts from BC29
+Base Application · Microsoft.Pricing.Source · BC23-30 · [source at 4c1c1638](https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Layers/W1/BaseApp/Pricing/Source/PriceSource.Interface.al) · facts from BC29
 
 ## Procedures
 

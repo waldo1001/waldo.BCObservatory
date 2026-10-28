@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:15:39.036Z"
+  at: "2026-10-28T10:42:34.480Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 66bd3ed6ca28abfa976d61bdb7e313e136d4b2e34c80654f26ddc5bb032f6d6a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/Sustainability/app/src/RoleCenters/SustainabilityManager.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Apps/W1/Sustainability/app/src/RoleCenters/SustainabilityManager.Profile.al
     title: src/Apps/W1/Sustainability/app/src/RoleCenters/SustainabilityManager.Profile.al (releases/29.x)
     date: null
-    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
+    commit: 4c1c1638beb6d5da8540cc1f61889b80c7b3356f
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Profile "SUSTAINABILITY MANAGER" in Sustainability (Microsoft.Sustainability.RoleCenters). Introduced in BC29, still in BC30.
 
-Sustainability · Microsoft.Sustainability.RoleCenters · captioned "Sustainability Manager" · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/Sustainability/app/src/RoleCenters/SustainabilityManager.Profile.al) · facts from BC29
+Sustainability · Microsoft.Sustainability.RoleCenters · captioned "Sustainability Manager" · BC29-30 · [source at 4c1c1638](https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Apps/W1/Sustainability/app/src/RoleCenters/SustainabilityManager.Profile.al) · facts from BC29
 
 ## Properties
 

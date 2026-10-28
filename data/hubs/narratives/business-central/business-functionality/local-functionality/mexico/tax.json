@@ -1,37 +1,36 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/mexico/tax",
-  "input_hash": "8501bfb6807c1f7612144cc2ba6c550cedbcbf9f9bc442fb56b0e7990e6fd195",
-  "summary": "Mexico tax functionality in Business Central: DIOT reporting of vendor purchase VAT to SAT, RFC and CURP tax identification types for customers and vendors, and VAT recalculation on foreign currency payments. Answers setup and usage questions for these Mexico tax tasks.",
-  "overview": "This section covers three Mexico-specific tax areas. The DIOT page explains how to report VAT from vendor purchases to SAT by generating a text file. The tax identification page explains which identifier to use for Mexican customers and vendors. The VAT recalculation page explains how VAT is handled when customers pay in foreign currency.\n\nStart with the tax identification page if you are setting up customers and vendors, because the DIOT report relies on vendor data such as the RFC number. Then move to the DIOT page for setup through Assisted Setup, vendor configuration and optional withholding tax reporting. Use the VAT recalculation page when payments arrive in a foreign currency.",
+  "input_hash": "5d045c6a6f66adc6b90796f3ab7ebfa61d4fc81fbcb1d5dde2bd4a946141ad1a",
+  "summary": "Mexico tax functionality in Business Central: DIOT reports for SAT, tax identification types (RFC and CURP), and cash-basis VAT with exchange-rate adjustments. It answers setup and reporting questions for Mexican VAT and tax registration.",
+  "overview": "This section covers three areas of Mexican tax handling. One page explains how to set up and generate DIOT reports for VAT reporting to SAT. Another describes tax identification types for customers, vendors, and companies. The third explains cash-basis VAT, where VAT is recorded when invoices are paid.\n\nThe pages are independent and have no subtopics. Start with the tax identification page if you are registering parties, since RFC and CURP data depends on the entity classification. Read the cash-basis VAT page when configuring VAT Posting Setup and General Ledger Setup. Use the DIOT page when you are ready to prepare the TXT export, which relies on vendor and VAT posting group setup.",
   "key_points": [
-    "The DIOT report extension for Mexico generates a text file to report VAT from vendor purchases to SAT.",
-    "DIOT setup is done through Assisted Setup.",
-    "Each vendor needs a DIOT type of operation, and DIOT concepts are part of the configuration.",
-    "Withholding tax reporting in DIOT is optional.",
-    "DIOT setup involves the RFC number and tax jurisdiction location; the DIOT page references version 26.3.",
-    "RFC and CURP are the tax identification types, chosen by whether the customer or vendor is a company or a person.",
-    "VAT recalculation on payment uses the exchange rates at payment time for foreign currency payments.",
-    "VAT recalculation involves currency exchange adjustment and unrealized VAT reporting."
+    "DIOT reports are set up and generated for Mexican VAT reporting to SAT, with TXT export files compliant with 2025 regulations (version 26.3).",
+    "DIOT setup involves vendor information, linking VAT posting groups, configuring DIOT concepts, and selecting operation types.",
+    "DIOT reports include withholding tax reporting.",
+    "Tax Identification Type defines whether a customer, vendor, or company registers with an RFC or CURP number.",
+    "Registration depends on classification as Legal Entity or Natural Person.",
+    "Cash-basis VAT records VAT when invoices are paid rather than when posted, using unrealized VAT.",
+    "Foreign-currency transactions under cash-basis VAT get automatic exchange-rate adjustments.",
+    "Cash-basis VAT is configured in VAT Posting Setup and General Ledger Setup."
   ],
   "members_used": 3,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:44.610Z",
+  "at": "2026-10-28T10:57:52.342Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.009941
+    "cost_usd": 0.010662999999999999
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:27:39.666Z",
+    "at": "2026-10-28T11:03:50.326Z",
     "verdict": "approve",
     "issues": [
-      "The overview says to read the tax identification page first because the DIOT report relies on vendor RFC numbers. This is a small inference: the DIOT page lists RFC number as a feature but does not explicitly depend on the tax identification page. The advice is reasonable, though.",
-      "The key point mentioning that the DIOT page references version 26.3 is accurate but adds little for an agent. Merging it into a setup point or dropping it would be fine."
+      "Key point 1 puts 'version 26.3' in parentheses right after '2025 regulations'. The page lists 26.3 as a version, but its summary does not say the 2025 compliance is tied to that version. This is a minor overreach and acceptable."
     ],
-    "input_hash": "8501bfb6807c1f7612144cc2ba6c550cedbcbf9f9bc442fb56b0e7990e6fd195",
-    "cost_usd": 0.026079199999999997
+    "input_hash": "5d045c6a6f66adc6b90796f3ab7ebfa61d4fc81fbcb1d5dde2bd4a946141ad1a",
+    "cost_usd": 0.0298632
   }
 }

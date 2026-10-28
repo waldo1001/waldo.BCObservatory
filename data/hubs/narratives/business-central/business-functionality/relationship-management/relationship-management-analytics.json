@@ -1,37 +1,38 @@
 {
   "hub_id": "topic/business-central/business-functionality/relationship-management/relationship-management-analytics",
-  "input_hash": "149d2a72d32c46179317cefb292ff894e1b50bf5bd2b0e16311ff627c70d3f2e",
-  "summary": "Relationship management analytics covers the built-in reports for Business Central relationship management (marketing/CRM). It answers questions about reports for contacts, campaigns, opportunities, sales cycles, segments and questionnaires, plus cover sheets, labels and email merge letters.",
-  "overview": "This section lists the built-in relationship management reports, which you can reach through Report Explorer. The overview page \"Relationship management reports\" is the entry point. Each other page describes one report.\n\nThe reports fall into groups. Contact reports include List, Company Summary, Person Summary, Labels and two cover sheet reports. Opportunity and sales reports include Opportunity - Details, Opportunity - List, Sales Cycle - Analysis and Salesperson - Opportunities. Campaign - Details covers campaigns. Segment reports cover contact lists, cover sheets and labels. Questionnaire reports print handouts and test profile questionnaires. Email Merge produces personalized letters for a marketing segment.\n\nStart with the overview page to find the report you need. Then open its page to see what it shows and where to run it, for example from the Contact Card, the Segment page or the Profile Questionnaire Setup page.",
+  "input_hash": "6d73915cf1752ad36647bdc3c474e827d570a23a42bb66d1cf848aa70edee8ae",
+  "summary": "Relationship management analytics covers the built-in reports for contacts, campaigns, opportunities, sales cycles, segments, and profile questionnaires in Business Central. It answers questions about what each report shows, its filters and options, and how to print labels, cover sheets, and merged letters.",
+  "overview": "This section lists the standard reports for relationship management (marketing and CRM). The entry page, Relationship management reports, explains that the built-in reports are reached through Report Explorer. The other pages each describe one report.\n\nThe reports fall into groups. Contact reports include List, Company Summary, Person Summary, Labels, and two cover sheet reports. Campaign - Details covers campaign costs, duration, and opportunity values. Opportunity - Details, Opportunity - List, Sales Cycle - Analysis, and Salesperson - Opportunities cover the sales pipeline. Segment - Contacts, Segment - Cover Sheet, Segment - Labels, and Email Merge support mailings to segments. Questionnaire - Handouts and Questionnaire - Test cover profile questionnaires.\n\nStart with Relationship management reports to see how to open reports. Then go to the page for the report you need to check its filters, options, and output.",
   "key_points": [
-    "Reports are available through Report Explorer, listed on the Relationship management reports page.",
-    "Contact - List shows all contacts with contact type, related opportunities and to-dos; Company Summary and Person Summary show address or name, contact number, interactions and to-dos.",
-    "Contact - Cover Sheet is run from the Contact Card page and can log interactions; the separate Contact Cover Sheet report prints contact and company addresses, VAT registration and bank details.",
-    "Segment - Cover Sheet is run through Print Cover Sheets on the Segment page; Segment - Contacts lists the contacts selected in one or more segments.",
-    "Contact - Labels and Segment - Labels print names and addresses with configurable label size and column layout, useful for campaign letters.",
-    "Opportunity - Details, Opportunity - List, Sales Cycle - Analysis and Salesperson - Opportunities support sales pipeline review, with estimated and calculated values and salesperson filtering.",
-    "Email Merge creates personalized letters for a segment, with formal or informal salutation, segment content, salesperson signature and multilingual support.",
-    "Questionnaire - Handouts prints profile questionnaires; Questionnaire - Test shows test reports from the Profile Questionnaire Setup page."
+    "Built-in relationship management reports are accessed through Report Explorer.",
+    "Contact - List can be filtered by contact number, name, type, salesperson, post code, or country/region. It shows opportunity counts and values, costs, duration, and next task date.",
+    "Contact - Company Summary and Contact - Person Summary show contact details with related interactions and to-dos. The company version also lists contact persons with job titles.",
+    "Contact - Labels and Segment - Labels print names and addresses. Segment - Labels offers 36 x 70 mm, 37 x 70 mm (three columns), 36 x 105 mm, and 37 x 105 mm (two columns) formats.",
+    "Contact - Cover Sheet and Segment - Cover Sheet support custom text, remarks, and interaction logging with an interaction template. The Contact Cover Sheet report also prints addresses, VAT registration, giro number, and bank details.",
+    "Email Merge creates personalized letters for segment contacts, with a formal or informal salutation, segment content, a salesperson signature, and multilingual support.",
+    "Opportunity - Details, Opportunity - List, Sales Cycle - Analysis, and Salesperson - Opportunities cover stages, to-dos, probability, completion, and estimated and calculated values.",
+    "Questionnaire - Handouts prints profile questionnaires. Questionnaire - Test finds questions without answers, answers without preceding questions, and missing classification settings."
   ],
   "members_used": 18,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:08:22.150Z",
+  "at": "2026-10-28T10:58:54.640Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.018371000000000002
+    "cost_usd": 0.020505000000000002
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:17:35.268Z",
+    "at": "2026-10-28T11:01:41.357Z",
     "verdict": "approve",
     "issues": [
-      "Minor: Campaign - Details is mentioned only in the overview; no key point covers what it shows (number, date, description, campaign entries).",
-      "Minor: The opportunity key point leaves out that Opportunity - Details shows sales stages, to-dos and planned to-dos, and that Opportunity - List shows related contacts and campaigns."
+      "Overview groups Segment - Contacts under reports that 'support mailings to segments'; the source only says it lists contacts selected in segments. This is a minor generalization.",
+      "Key point 7 lists the opportunity reports together, so it doesn't show which report covers which item (for example, estimated and calculated values come from Sales Cycle - Analysis). It is acceptable as a collective statement.",
+      "Key point 4 puts '(three columns)' only after the 37 x 70 mm format. The source says both 70 mm formats have three columns, so the wording is a little unclear but not wrong."
     ],
-    "input_hash": "149d2a72d32c46179317cefb292ff894e1b50bf5bd2b0e16311ff627c70d3f2e",
-    "cost_usd": 0.0473272
+    "input_hash": "6d73915cf1752ad36647bdc3c474e827d570a23a42bb66d1cf848aa70edee8ae",
+    "cost_usd": 0.0486872
   }
 }

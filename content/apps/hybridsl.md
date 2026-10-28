@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 138ac9b1dac0ed38d64648bfbd80aa736a1109c35d77fedadb14769cb8e4d378
+  input_hash: a5b0c1075350a216a600183360e9ae31729f9942a1bffc61281f8cb44779c9c0
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/HybridSL/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/HybridSL/app
     title: src/Apps/W1/HybridSL/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -387,4 +387,4 @@ First-party app · folder `src/Apps/W1/HybridSL/app` · namespace `Microsoft.Dat
 | 47002 | [SLD365 BASIC ISV - MSL](../objects/permissionsetextension/47002.md) |  |
 | 47003 | [SLD365 TEAM MEMBER - MSL](../objects/permissionsetextension/47003.md) |  |
 
-Source: [src/Apps/W1/HybridSL/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/HybridSL/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/HybridSL/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/HybridSL/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

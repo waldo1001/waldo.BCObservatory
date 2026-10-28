@@ -1,0 +1,51 @@
+{
+  "item_id": "blog/thinkaboutit-be/8313",
+  "page_id": "post/thinkaboutit-be/8313",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "PTE management through the existing Extension Management pages and the Automation API will be deprecated starting with Business Central 30.0",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "30.0",
+        "April 2027"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "A scheduled PTE deployment is only visible in the experience where it was scheduled until the deployment completes.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Microsoft also recommends avoiding simultaneous use of the old and new deployment experiences within the same environment.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Early installation bypasses Microsoft's normal staged deployment process.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004294,
+    "posts_in_call": 4
+  }
+}

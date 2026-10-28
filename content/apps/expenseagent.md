@@ -2,7 +2,7 @@
 id: app/expenseagent
 type: app
 title: ExpenseAgent
-summary: "ExpenseAgent (Microsoft.ExpenseAgent): 386 objects in BC29-30 (152 pages, 68 codeunits, 56 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos."
+summary: "ExpenseAgent (Microsoft.ExpenseAgent): 388 objects in BC29-30 (152 pages, 69 codeunits, 56 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos."
 tier: official
 language: en
 tags:
@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 25c0522d4ab5cf72546c15db8cbf607a5e2d6b9a9b9947dcbe63534e21f6ecda
+  input_hash: 274b129d14ee288284f73a0cc8a5644b44c250cb7624a20d4a40c4358fa23ea5
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ExpenseAgent/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ExpenseAgent/app
     title: src/Apps/W1/ExpenseAgent/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -254,10 +254,10 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 386
+  objects: 388
   by_type:
     page: 152
-    codeunit: 68
+    codeunit: 69
     table: 56
     enum: 37
     entitlement: 25
@@ -268,6 +268,7 @@ counts:
     enumextension: 5
     report: 4
     permissionsetextension: 4
+    interface: 1
     profile: 1
   hubs: 6
   videos: 6
@@ -276,7 +277,7 @@ counts:
 
 # ExpenseAgent
 
-> ExpenseAgent (Microsoft.ExpenseAgent): 386 objects in BC29-30 (152 pages, 68 codeunits, 56 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos.
+> ExpenseAgent (Microsoft.ExpenseAgent): 388 objects in BC29-30 (152 pages, 69 codeunits, 56 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos.
 
 First-party app · folder `src/Apps/W1/ExpenseAgent/app` · namespace `Microsoft.ExpenseAgent` · BC29-30 · system copilot · facts from the code pillar and the joins, nothing machine-written
 
@@ -293,7 +294,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-386 objects, by type.
+388 objects, by type.
 
 ### Tables (56)
 
@@ -552,7 +553,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6951 | [Expense Report Cover Page](../objects/report/6951.md) |  |
 | 6952 | [Expense Report Summary Page](../objects/report/6952.md) |  |
 
-### Codeunits (68)
+### Codeunits (69)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -569,6 +570,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6910 | [Expense Report](../objects/codeunit/6910.md) |  |
 | 6911 | [Expense Per Diem Calculation](../objects/codeunit/6911.md) |  |
 | 6912 | [Expense Auto Population](../objects/codeunit/6912.md) |  |
+| 6913 | [Expense Agent Quota Impl.](../objects/codeunit/6913.md) |  |
 | 6922 | [Expense Agent Entra App Mgt.](../objects/codeunit/6922.md) |  |
 | 6926 | [Expense Activity Log Mgt.](../objects/codeunit/6926.md) |  |
 | 6930 | [Expense Agent MCP Config.](../objects/codeunit/6930.md) |  |
@@ -688,6 +690,12 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6998 | [EA Agent Metadata](../objects/enumextension/6998.md) |  |
 | 7107 | [Exp. Spend Request Doc. Type](../objects/enumextension/7107.md) |  |
 
+### Interfaces (1)
+
+| Id | Name | Caption |
+|---|---|---|
+|  | [Expense Agent Quota](../objects/interface/expense-agent-quota.md) |  |
+
 ### Permission sets (8)
 
 | Id | Name | Caption |
@@ -757,4 +765,4 @@ Videos and posts that name this app's objects by exact type and name.
 - [Introducing: Expense Management (2026 release wave 1)](../videos/pjML7lXSsd0.md) (video, 2026-04-27): names Page 6996 "Expense Agent Setup"
 - [Introducing: Approvals for the Expense Agent (2026 release wave 1)](../videos/qZALauRY_So.md) (video, 2026-04-27): names Page 6951 "Expense Users"
 
-Source: [src/Apps/W1/ExpenseAgent/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ExpenseAgent/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/ExpenseAgent/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ExpenseAgent/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

@@ -1,37 +1,36 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/netherlands/banking-and-payments",
-  "input_hash": "fd434d8dfe73b622c0390eca8c06d731d8dc65dc46d00cb94fd9f9d6e6b35123",
-  "summary": "Banking and payments in the Dutch (Netherlands) version of Business Central: telebanking, payment and collection proposals, payment history export, cash/bank/giro journals, bank statement import, and SEPA ISO 20022 payments. It answers how-to and setup questions for domestic and foreign payment flows.",
-  "overview": "This section covers the Dutch localization of electronic banking. It explains telebanking, which handles payment and collection proposals, payment histories, and bank statement import and export, and the cash, bank and giro journals used to post and reconcile transactions.\n\nThe pages follow the workflow. Create proposals from vendor and customer ledger entries, turn them into payment history and export it with a supported protocol (BTL91, BBV or PAYMUL), then import bank statements and reconcile them in the Bank/Giro Journal. Three scenario pages walk through the full cycle for domestic (LCY to LCY), foreign same-currency (FCY to FCY) and foreign mixed-currency (LCY to FCY) payments.\n\nStart with Dutch Electronic Banking and Telebanking for the overview, then the proposal and payment history how-tos. For SEPA, read the SEPA overview, then activate SEPA payments and submit vendor payments in ISO 20022 format.",
+  "input_hash": "b3520b297ea405b13f9ac5f3ab0a2defdee2172ed544e9817ff60c1d52478a98",
+  "summary": "Banking and payments in the Dutch (NL) version of Business Central: telebanking, SEPA ISO 20022 payments and direct debits, payment proposals and history, bank statement import, and cash and bank/giro journals. It answers setup, workflow and scenario questions for Dutch payments.",
+  "overview": "This section covers the Dutch localization of banking. It centers on telebanking, which creates payment and collection proposals from vendor and customer ledger entries, turns them into payment history, exports files to the bank, and imports bank statements for reconciliation. SEPA pages explain the ISO 20022 setup and how to submit vendor payments in that format.\n\nThe pages fit together in a flow. Start with the overview pages (Dutch Telebanking, Dutch Electronic Banking, and Single Euro Payments Area) to understand the concepts. Then use the setup page for activating SEPA, followed by the how-to pages for creating proposals, exporting payment history, and docket reports. Three scenario pages walk through domestic (LCY to LCY), foreign (FCY to FCY) and mixed (LCY to FCY) payments end to end.",
   "key_points": [
-    "Dutch electronic banking covers telebanking, payment files, direct debit files, bank statement import, payment proposals and giro journals.",
-    "Proposals can be created manually or automatically from vendor and customer ledger entries using the Get Proposal Entries batch job.",
-    "Payment history can be created from proposals and exported using BTL91, BBV or PAYMUL protocols.",
-    "Docket reports give detailed payment information when ledger entries are combined into a single payment order; enable them with the Docket checkbox.",
-    "Bank statements are imported electronically (including Rabobank protocols and SEPA CAMT) and reconciled automatically in the Bank/Giro Journal.",
-    "Test reports for cash and bank/giro journals preview posting effects and show applied entries before posting.",
-    "Activating SEPA requires configuring transaction modes with SEPA export protocols (such as SEPA CT and SEPA DD, ISO 20022) and checking vendor transaction modes.",
-    "Three payment scenarios are documented: LCY to LCY, FCY to FCY, and LCY to FCY."
+    "Activate SEPA by configuring export formats and transaction modes. The pages name Pain.001.001.09 for credit transfers and Pain.008.001.08 for direct debits.",
+    "SEPA setup also touches Countries/Regions, Bank Accounts, Export Protocols and Transaction Modes, with IBAN and SWIFT code support.",
+    "Payment proposals can be created manually or automatically from sales and purchase ledger entries using Get Entries in the Telebank Bank Overview.",
+    "Processed proposals become payment history, which is exported in SEPA or another bank-accepted format.",
+    "Docket reports list the individual transactions behind combined payments or collections. They use the Docket checkbox and the Get Proposal Entries batch job.",
+    "Bank statements are imported into bank/giro journals with protocols such as Rabobank mut.asc, vvmut.asc, ASCII and SEPA CAMT, with optional automatic reconciliation.",
+    "Cash and bank/giro journals are posted using journal templates. The CBG Posting - Test report lets you review lines and balances before posting.",
+    "Three payment scenarios cover domestic LCY to LCY, foreign FCY to FCY, and foreign LCY to FCY payments."
   ],
   "members_used": 15,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:06:25.792Z",
+  "at": "2026-10-28T10:57:58.734Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.019769000000000002
+    "cost_usd": 0.021363
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:18:15.891Z",
+    "at": "2026-10-28T11:01:52.873Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the key point naming the 'Get Proposal Entries batch job' uses the name from the Docket Reports page; the Create Proposals page calls it the 'get entries batch job'. The two are consistent, so no change is needed.",
-      "Minor: 'reconciled automatically' matches the pages' 'automatic reconciliation' feature, but the pages don't say whether every statement line is matched without manual steps."
+      "Minor: the pairing of Pain.001.001.09 with credit transfers and Pain.008.001.08 with direct debits is inferred. The page lists both formats and both payment types but does not say which goes with which. The pairing is the standard ISO 20022 one, so it is acceptable."
     ],
-    "input_hash": "fd434d8dfe73b622c0390eca8c06d731d8dc65dc46d00cb94fd9f9d6e6b35123",
-    "cost_usd": 0.0532752
+    "input_hash": "b3520b297ea405b13f9ac5f3ab0a2defdee2172ed544e9817ff60c1d52478a98",
+    "cost_usd": 0.0570992
   }
 }

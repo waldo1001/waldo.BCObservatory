@@ -1,37 +1,37 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/united-kingdom/banking-and-payments",
-  "input_hash": "e88dde30d752f4946b18eb2e22e41dda96b3b1a9f165b5c79fe4c33359b0e155",
-  "summary": "Banking and payments for the United Kingdom version of Business Central covers two payment journal outputs: printing checks in the APACS specification layout and printing remittance advice for vendors. It answers questions about UK check printing and vendor remittance.",
-  "overview": "This section holds UK-specific functionality for paying vendors from payment journals. It has two pages and no subtopics.\n\nPrint Checks for APACS explains how checks are printed in the standard APACS specification layout, including check preview, test print and a preprinted stub. Print Remittance Advice [GB] explains how to print remittance advice so vendors can see their invoice numbers and reconcile payments.\n\nStart with the check page if you need to print checks from a payment journal. Use the remittance page if you need to send vendors payment details, before or after posting.",
+  "input_hash": "245025163037789039dffe3d1640fc5e5058ff6563a02a4a110e4a47872b1255",
+  "summary": "Banking and payments for the United Kingdom covers two payment tasks in Business Central: printing checks to the APACS specification and printing remittance advice from payment journals. It answers questions about how to run these from the Payment Journals page and which options apply.",
+  "overview": "This section holds UK-specific guidance for paying vendors. Both pages relate to the payment journal: checks are printed from the Payment Journals page, and remittance advice can be printed before or after the payment journal is posted.\n\nThe check page explains how to print checks that follow the APACS specification used by UK payment clearing services. It uses the Payment Journals page and the Check report, with preview and print actions and a few options that control how checks are grouped and reprinted.\n\nThe remittance advice page explains how to print or preview a remittance advice before or after posting a payment journal, so vendors can match payments to their invoices. Start with the check page if you pay by check, or the remittance page if you need to send payment details to vendors.",
   "key_points": [
-    "Print Checks for APACS prints checks from payment journals using the standard APACS specification layout.",
-    "Check printing supports check preview and test print.",
-    "The APACS check layout works with a preprinted stub.",
-    "Print Remittance Advice [GB] is available in the British version.",
-    "Remittance advice shows vendor invoice numbers to help vendors reconcile.",
-    "Remittance advice can be printed before or after posting a payment journal.",
-    "The section has two pages and no subtopics."
+    "Checks can be printed in the UK using the APACS specification for payment clearing services.",
+    "Check printing runs from Payment Journals and uses the Check report.",
+    "The Preview Check and Print Check actions let you review before printing.",
+    "Check settings include the Bank Account and Last Check No. fields.",
+    "Options include One Check per Vendor per Document No. and Reprint Checks.",
+    "Remittance advice can be printed or previewed before or after posting a payment journal.",
+    "Remittance advice helps vendors reconcile payments with their invoices.",
+    "Remittance advice can be filtered by the vendor's external document number."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:06:13.353Z",
+  "at": "2026-10-28T10:57:35.341Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.0076489999999999995
+    "cost_usd": 0.008739
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T05:22:09.235Z",
-    "verdict": "approve",
+    "at": "2026-10-28T11:04:14.110Z",
+    "verdict": "fix",
     "issues": [
-      "The key point that the APACS layout 'works with a preprinted stub' goes a little beyond the source, which only lists 'preprinted stub' as a feature. It is acceptable, but it could be worded more neutrally, for example 'Check printing covers a preprinted stub.'",
-      "The key point 'The section has two pages and no subtopics' only describes how the section is built and gives an agent little useful information.",
-      "The overview says vendors receive payment details 'before or after posting' without naming the payment journal. The key points name it, so this is minor."
+      "The overview says the steps run in a fixed order (prepare the journal, produce the check or remittance advice, then post). The remittance page says remittance advice can be printed before or after posting, so that order does not hold. I reworded the sentence.",
+      "All other claims match the page summaries and feature lists. These include the APACS specification, the Payment Journals page, the Check report, the preview and print actions, the Bank Account and Last Check No. fields, the grouping and reprint options, and filtering by external document number."
     ],
-    "input_hash": "e88dde30d752f4946b18eb2e22e41dda96b3b1a9f165b5c79fe4c33359b0e155",
-    "cost_usd": 0.019891199999999998
+    "input_hash": "245025163037789039dffe3d1640fc5e5058ff6563a02a4a110e4a47872b1255",
+    "cost_usd": 0.0289192
   }
 }

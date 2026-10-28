@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4ef526d9ff8e7129b4968bcf3ef2e3a9335d781bf7ef570a5b8cc6cb3340b3c2
+  input_hash: ef302ef910685967ca4ef02d1003568dc76c312a0fe51f1dda092e1cb223a512
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/Email%20-%20Current%20User%20Connector/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/Email%20-%20Current%20User%20Connector/app
     title: src/Apps/W1/Email - Current User Connector/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -98,4 +98,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 |---|---|---|
 | 4501 | [EmailCurUser-Objects](../objects/permissionset/4501.md) | Email Current User Connector - Objects |
 
-Source: [src/Apps/W1/Email - Current User Connector/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/Email%20-%20Current%20User%20Connector/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/Email - Current User Connector/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/Email%20-%20Current%20User%20Connector/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: b582cf46f6f7786f52d8b55a2a9fc3af2e3aedb8728cc63f80493887cca0d9de
+  input_hash: 14991a3623d975f730b4c5f47318db513f2fa635a44385cbb8d61dad227f79dc
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/EssentialBusinessHeadlines/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/EssentialBusinessHeadlines/app
     title: src/Apps/W1/EssentialBusinessHeadlines/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -162,4 +162,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 30958 | [D365 TEAM MEMBER - Essential Business Headlines](../objects/permissionsetextension/30958.md) |  |
 | 37050 | [D365 BUS PREMIUM - Essential Business Headlines](../objects/permissionsetextension/37050.md) |  |
 
-Source: [src/Apps/W1/EssentialBusinessHeadlines/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/EssentialBusinessHeadlines/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/EssentialBusinessHeadlines/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/EssentialBusinessHeadlines/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:28.466Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,6 +46,7 @@ links:
     - post/yzhums-com/76367
   guidelines: []
   changes:
+    - change/bcapps/13262
     - change/bcquality/230
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -98,6 +99,7 @@ Then read Performance Articles for AL Developers. It covers efficient page desig
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13262 [Financial Reports] Trial Balance by Period (Excel) should use a query-based approach rather than loop and CalcFields](../../../../changes/bcapps/13262.md) (code change): "Trial Balance by Period (Excel) report now uses a query-based approach"
 - [#230 Knowledge: report layouts and dataset contract, query join and grouping defaults](../../../../changes/bcquality/230.md) (code change): "Report dataset column names are a contract with Excel Data sheets"
 - [Business Central 2026 release wave 2 (BC29): Reduce complexity of report datasets (Company information dataitem in Word layouts)](../../../../posts/yzhums-com/76367.md) (community post): "reduces developer effort and standardizes company information use across layouts"
 

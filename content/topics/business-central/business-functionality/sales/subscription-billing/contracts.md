@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:37.954Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -116,10 +116,13 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12377
+    - change/bcapps/12430
     - change/bcapps/12622
     - change/bcapps/12767
     - change/bcapps/12857
     - change/bcapps/12967
+    - change/bcapps/12998
+    - change/bcapps/13240
 learn_toc_path:
   - Business functionality
   - Sales
@@ -197,10 +200,13 @@ Other pages cover lifecycle tasks: renewing contracts through sales quotes and o
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12377 [main] Bug 653097 Billing Lines Not Rolled Back When Vendor Subscription Contract Invoice Creation Fails.](../../../../../changes/bcapps/12377.md) (code change): "Billing lines are now rolled back when vendor subscription contract invoice creation fails"
+- [#12430 [main] Source Currency Code and Source Currency Amount not getting updated on Contract Deferral release G/L entries.](../../../../../changes/bcapps/12430.md) (code change): "Contract deferral release G/L entries now include source currency code and amount"
 - [#12622 [Master]-Subscription Billing: Recurring Billing (Document Per = Contract Partner) Overwrites Contract Currency with Customer Currency Without Amount Conversion.](../../../../../changes/bcapps/12622.md) (code change): "Subscription Billing now correctly carries the contract currency to generated invoices"
 - [#12767 [29x] Bug 654025 Billing Lines Not Rolled Back When Vendor Subscription Contract Invoice Creation Fails.](../../../../../changes/bcapps/12767.md) (code change): "Billing lines are rolled back when vendor subscription contract invoice creation fails"
 - [#12857 [master]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../../changes/bcapps/12857.md) (code change): "Prevents customer credit memo lines from affecting vendor contract billing totals"
 - [#12967 [29.x]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../../changes/bcapps/12967.md) (code change): "customer and vendor subscription contracts share the same contract number"
+- [#12998 [main] Discount is not taken into account on Renewal Offer using Sales Quote for Subscription Billing report layout.](../../../../../changes/bcapps/12998.md) (code change): "Subscription Billing renewal quote report now correctly applies discounts"
+- [#13240 [Main]-Test disabled after BCApps uptake: Contract Renewal Test.TestIfContractRenewalSelectionIsUpdateOnAfterValidateCalcBasePercentage fails](../../../../../changes/bcapps/13240.md) (code change): "Contract Renewal Selection page was fixed to restore proper functionality"
 - [What's New: Subscription Billing (2024 release wave 2)](../../../../../videos/jJxBswIy_Xw.md) (video): "contracts; billing proposals; pricing; automation; usage-based billing; contract management"
 
 ## Business Central pages and reports

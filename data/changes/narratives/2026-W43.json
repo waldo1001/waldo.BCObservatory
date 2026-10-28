@@ -1,22 +1,22 @@
 {
   "week": "2026-W43",
-  "input_hash": "6515e677f759f337490fc6e61634b3dbffc2b09c01cf66b1261535c42e9e5a9c",
-  "text": "Most of the week's behaviour changes were fixes in BCApps. In VAT and finance, #13085 and #12982 correct the VAT product posting group regression seen since 28.4, #12813 fixes GB reverse charge sales posting, #11998 blocks posting with a missing General Posting Setup combination, and #13107 adds schema and integrity checks to the CZ ARES lookup. In supply chain, #12842 fixes false \"Nothing to handle\" pick failures, #12541 keeps the unit of measure when Direct Transfer is toggled, #12868 addresses a rounding variance in Adjust Cost, and #12690 stops a serial number error when reversing capacity entries. Subscription Billing got #12967, #12767 and #10444 for credit memo, rollback and notice period problems. Subcontracting fixes include #12783, #12584 and #11665. New features include credit memo recognition from PDFs in E-Documents (#12855) and the Payables Agent (#12894), and Expense Agent alternate approvers (#11955) and enforced itemization (#12599). French localization moved into separate apps through #13054, #9143 and #9104, while #12160 moves French accelerated depreciation into the W1 base application. AL-Go added protectedSettings (#2293), GitHub Enterprise Cloud data residency support (#2407) and a built-in Copilot review (#2402). BCQuality added many knowledge articles. In BCApps, #10384 opens Subscription Billing procedures for custom usage data connectors.",
-  "changes": 69,
+  "input_hash": "0162e16b429ff7db5bfb02ab930774c5b58a0b6589f7015de7cd62515990148c",
+  "text": "Most of the week's 70 pull requests change behaviour, mainly through fixes in BCApps. VAT regressions seen since Business Central 28.4 are addressed in #13085 and #12982, and #13107 adds schema, integrity and size checks to the CZ ARES registration lookup. Cost and posting fixes include #12868 (Adjust Cost rounding variance), #11894 (mixed-currency totals in Close Income Statement), #12201 (non-deductible VAT on foreign-currency projects) and #11998 (missing General Posting Setup combination). Subscription Billing gets #10444, #12767, #12967 and #10477. Subcontracting fixes are #12783, #12584, #11665 and #12986. Expense Agent adds alternate approvers in #11955 and enforced itemization in #12599, plus #13058. Credit memos recognised from PDFs arrive in #12855 and #12894. French features move out of base layers into apps in #13054, #9104 and #9143, while #12160 moves French accelerated depreciation into the W1 base application. In AL-Go, #2293 adds protectedSettings, #2407 supports GitHub Enterprise Cloud with data residency, and #2402 adds a built-in Copilot review, limited to opt-in triggers by #2413. Extensibility changes include #10384 and #13075. #12186 merges ModifyAll calls; where RunTrigger is passed, OnModify now runs once per row, not once per field. #12607 speeds up the Belgian Purchase Ledger. BCQuality added knowledge articles and plan guidance, for example #246 and #229.",
+  "changes": 70,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.07436,
-  "at": "2026-10-26T05:51:10.938Z",
+  "cost_usd": 0.0727618,
+  "at": "2026-10-28T08:47:18.430Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-26T06:43:47.644Z",
+    "at": "2026-10-28T10:57:13.596Z",
     "verdict": "fix",
     "issues": [
-      "#12160 is listed as moving French localization into a separate app. It actually moves French accelerated depreciation into the W1 base application; only #13054, #9143 and #9104 move French features into separate apps.",
-      "#10384 comes straight after the BCQuality clause, joined by 'and', so it reads like a BCQuality change. It is a BCApps pull request."
+      "#12160 moves French accelerated depreciation into the W1 base application; it does not move a French feature out of base layers. Only #13054, #9104 and #9143 fit that description.",
+      "#12186: OnModify runs once per row only where RunTrigger was passed, instead of once per field. The original states this without the condition."
     ],
-    "input_hash": "6515e677f759f337490fc6e61634b3dbffc2b09c01cf66b1261535c42e9e5a9c",
-    "cost_usd": 0.19459600000000002,
+    "input_hash": "0162e16b429ff7db5bfb02ab930774c5b58a0b6589f7015de7cd62515990148c",
+    "cost_usd": 0.1931644,
     "applied": [
       "text"
     ],

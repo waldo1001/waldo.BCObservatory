@@ -1,35 +1,38 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/iceland/vat",
-  "input_hash": "878611df273fb0335161fccec5f9053ac3580d359f43058d0c030a98ab47933b",
-  "summary": "VAT functionality for Iceland in Business Central. It covers printing VAT summary information on sales and purchase documents, and mapping chart of accounts entries to IRS tax numbers for data files sent to the tax authorities.",
-  "overview": "This section holds two Iceland-specific pages about VAT and tax reporting. It has no subtopics, so everything sits in these two pages.\n\nThe first page explains how to show VAT summary information on Icelandic sales and purchase documents. By default VAT is hidden when only one VAT code is used. Turning on the Always Show VAT Summary option overrides that behavior.\n\nThe second page covers special data output and reports for the tax authorities. You set up IRS tax numbers for the chart of accounts by mapping general ledger accounts to predefined government account codes. This lets you generate compliant data files. Start with the page that matches your task: document printing or tax authority reporting.",
+  "input_hash": "b37f8e97b169c0a2ad936b1748e2ec3347237fc36caaa74bab8b5e20c421b62e",
+  "summary": "VAT functionality for Iceland in Business Central: printing VAT summary information on purchase and sales documents, and preparing data and reports for the Icelandic tax authority using IRS number mapping. It answers questions about document VAT summaries and tax authority reporting.",
+  "overview": "This section covers two Iceland-specific VAT and tax topics. The first explains how to show VAT summary information on purchase and sales documents, even when only a single VAT identifier is used, by selecting the Always Show VAT Summary option on supported reports.\n\nThe second describes the tax reporting requirements and the process for submitting data files in a predefined format to the Icelandic tax authority. It relies on mapping IRS numbers to the chart of accounts, then reviewing balances in the IRS Details and Trial Balance - IRS Number reports.\n\nStart with the document printing page if your question is about how invoices, credit memos or orders look. Start with the tax authority page if you need to prepare or check data for submission.",
   "key_points": [
-    "Always Show VAT Summary prints VAT summary information on Icelandic sales and purchase documents.",
-    "Without that option, VAT is hidden on documents when only one VAT code is used.",
-    "IRS tax numbers are set up for the chart of accounts in Iceland.",
-    "General ledger accounts are mapped to predefined government account codes.",
-    "The mapping supports generating compliant data files for the tax authorities.",
-    "The section covers VAT reporting, account grouping and tax compliance for Iceland."
+    "The Always Show VAT Summary option prints VAT details on purchase and sales documents even when only a single VAT identifier is used.",
+    "The option is available on supported reports, including Purchase - Invoice, Purchase - Credit Memo, Order and Blanket Sales Order.",
+    "Without the option, the VAT summary can be left off documents that use a single VAT identifier.",
+    "Data for the Icelandic tax authority is submitted as data files in a predefined format.",
+    "Submission relies on mapping IRS numbers to the chart of accounts, which relates accounts to government account codes.",
+    "The IRS Details report and the Trial Balance - IRS Number report are used to review balances before submission.",
+    "Balance at date reporting is part of the tax authority output."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:06:19.990Z",
+  "at": "2026-10-28T10:57:37.674Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.008163
+    "cost_usd": 0.009356999999999999
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T05:21:56.338Z",
-    "verdict": "approve",
+    "at": "2026-10-28T11:03:58.682Z",
+    "verdict": "fix",
     "issues": [
-      "Minor: 'VAT is hidden' follows the source wording; the default behavior likely hides the VAT summary section, but this matches the page summary.",
-      "Minor: the last key point is drawn from feature tags and adds little beyond the other points."
+      "Key point 3 ('VAT summary suppression is covered as part of the document printing behavior') says almost nothing. I rewrote it to say what the option overrides.",
+      "Key point 5 says IRS numbers are 'linked to government account codes'. The page lists IRS number mapping, chart of accounts mapping and government account codes as separate features, so I reworded it to stay closer to that.",
+      "Key point 7 reads 'Balance at date reporting' as reporting as of a chosen date. That is a reasonable reading but goes slightly beyond the summary, so I softened it.",
+      "The summary and overview are supported by the page summaries and need no changes."
     ],
-    "input_hash": "878611df273fb0335161fccec5f9053ac3580d359f43058d0c030a98ab47933b",
-    "cost_usd": 0.0204352
+    "input_hash": "b37f8e97b169c0a2ad936b1748e2ec3347237fc36caaa74bab8b5e20c421b62e",
+    "cost_usd": 0.0293352
   }
 }

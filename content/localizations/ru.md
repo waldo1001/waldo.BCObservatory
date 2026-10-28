@@ -2,7 +2,7 @@
 id: localization/ru
 type: localization
 title: Russia (RU)
-summary: Russia (RU) localization of Business Central 29 adds Russian VAT ledgers and settlement, prepayment differences, general ledger correspondence, tax registers and tax differences, fixed assets, cash and bank payment orders, inventory documents with red storno, and statutory forms. It answers what the Russian layer adds to W1 and which objects carry it.
+summary: "Russia localization of Business Central 29. It adds Russian accounting and tax functionality: VAT ledgers and settlement, G/L correspondence, prepayment differences, fixed assets, cash and bank orders, tax registers, and statutory print forms (TORG, M-, FA-, CO- series). It answers what Russia-specific setup, posting and reports exist."
 tier: official
 language: en
 tags:
@@ -11,20 +11,20 @@ tags:
 review:
   state: reviewed
   by: opus
-  at: "2026-10-21T00:39:45.490Z"
+  at: "2026-10-28T10:39:30.925Z"
   flags: []
 generated:
-  at: "2026-10-24T01:15:39.036Z"
+  at: "2026-10-28T10:42:34.480Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: ea8fc8a1226308099e351e65388c3b1b1ee0ffba6b10bcc1ed25fddb178376cd
+  input_hash: e49e57602f6b2f66d65809c3af2654792300d2b2193d8e5146ffab275d01ca27
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-ru
     date: null
-    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
+    commit: 4c1c1638beb6d5da8540cc1f61889b80c7b3356f
     t: null
     quote: null
 links:
@@ -270,28 +270,28 @@ learn_folder: LocalFunctionality/Russia
 
 # Russia (RU)
 
-> Russia (RU) localization of Business Central 29 adds Russian VAT ledgers and settlement, prepayment differences, general ledger correspondence, tax registers and tax differences, fixed assets, cash and bank payment orders, inventory documents with red storno, and statutory forms. It answers what the Russian layer adds to W1 and which objects carry it.
+> Russia localization of Business Central 29. It adds Russian accounting and tax functionality: VAT ledgers and settlement, G/L correspondence, prepayment differences, fixed assets, cash and bank orders, tax registers, and statutory print forms (TORG, M-, FA-, CO- series). It answers what Russia-specific setup, posting and reports exist.
 
 BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/russia.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Russian layer is large: 879 objects, about 1,145 fields added to W1 tables and 427 procedures added. Most of it is new objects (268 pages, 151 tables, 140 reports, 73 codeunits) plus replaced W1 objects. Learn documents it on the "Russia local functionality" page and on topic pages for financial reports, payables and receivables, fixed assets, inventory, bank and cash, and human resources.
+The Russian layer is large: 879 objects, of which 659 are new (including 140 reports, 268 pages, 151 tables and 73 codeunits) and 220 replace W1 objects, with 1145 fields and 427 procedures added. Core posting objects such as Gen. Jnl.-Post Line, Purch.-Post, Sales-Post, Item Jnl.-Post Line and the fixed asset posting codeunits are extended with Russian procedures. VAT Entry, VAT Posting Setup, Currency, Customer, Vendor and the journal and ledger tables receive many local fields.
 
-Finance and VAT are the core. Codeunits such as "VAT Settlement Management", "VAT Ledger Management", "VAT Prepayment-Post", "PrepmtDiffManagement" and "G/L Corresp. Management" implement VAT ledgers, VAT settlement, prepayment differences and G/L correspondence. W1 posting objects ("Gen. Jnl.-Post Line", "Purch.-Post", "Sales-Post", "Exch. Rate Adjmt. Process") gain RU procedures, and VAT Entry, VAT Posting Setup, Gen. Journal Line and the ledger entry tables gain many fields. Tax registers (codeunits 17200 to 17207), tax differences (17300 to 17302) and tax calculation (17303 to 17307) support tax accounting.
+New functionality sits mainly in its own codeunits and pages: VAT prepayment, allocation, settlement, reinstatement, ledgers and the VAT invoice journal (codeunits 12410, 12411, 12417, 12418, 12423, 12424), G/L correspondence (12402, 12404), prepayment differences (12412), agreements (12421), corrective documents (12422), fixed asset documents (12470 to 12472), customs declaration tracking (14100 series), tax registers (17200 series), tax differences (17300 series) and statutory reports (26550). Excel report helper codeunits in the 14930 to 14955 range produce forms such as Factura-Invoice, TORG-12, TORG-13, TORG-16, TORG-29, M-4, M-11, M-15, INV-17, INV-18, FA-1, FA-2, FA-3, FA-4, FA-14, FA-15, cash orders and bank payment orders.
 
-Operational areas follow the same pattern. Fixed assets get depreciation bonus, FA acts, locations and employees. Inventory gets item documents and red storno. Bank and cash get bank payment orders, cash orders and bank directories. Report helper codeunits produce many printed forms (Factura-Invoice, TORG-12, M-4, FA-1, INV-17, cash orders). Learn also covers the CO-3 cash order journal and CO-4 cash report, as well as payroll and HR topics.
+Microsoft Learn documents this under "Russia local functionality" with pages on fixed assets, VAT ledgers, prepayments, petty cash and bank management, inventory documents and red storno, financial reports, tax registers and tax differences, customs declarations, and HR and payroll topics.
 
 ## Key points
 
-- VAT: VAT ledgers (sales and purchase), additional sheets, VAT settlement and reinstatement, with new fields on VAT Entry and VAT Posting Setup (transfer VAT account, tax invoice amount type).
-- Prepayments and prepayment differences for customers and vendors, with dedicated accounts, ledger entry fields and FillPrepmtDiffEntryBuff in the apply codeunits.
-- General ledger correspondence entries, turnover pages and analysis reports, with automatic G/L correspondence set up in General Ledger Setup.
-- Tax accounting: tax registers by period, tax difference journal, and financial reports with constants, extensions and expressions on account schedules.
-- Fixed assets: depreciation bonus, FA release, movement and write-off acts, locations and employees, FA charges, inventory, and disposal cost.
-- Inventory: item documents, red storno corrections, customs declaration (CD) tracking, INV-17 act, TORG-12/13/16/29, M-4, M-11 and M-15 forms.
-- Bank and cash: bank directory with BIC, bank payment orders, cash account cards, cash orders, CO-3 journal and CO-4 report.
-- Corrective documents, agreements, letters of attorney and document signatures extend sales and purchase documents; the W1 permission sets LOCAL and LOCAL READ are changed.
+- VAT: VAT ledgers (sales, purchase, additional sheets), VAT settlement and reinstatement journals, vendor VAT invoice registration, and VAT agent fields on Vendor; VAT Posting Setup gains transit VAT, settlement template and tax invoice amount type fields.
+- G/L correspondence: correspondence entries, analysis and turnover pages for accounts, customers, vendors and items, with an Automatic G/L Correspondence option in General Ledger Setup.
+- Prepayments and prepayment differences: prepayment accounts on posting groups, Prepmt. Diff. fields on ledger entries, and per-entry exchange rate adjustment when Russian accounting is enabled.
+- Fixed assets: FA documents for release, movement and write-off, locations and responsible employees, depreciation bonus, assessed tax, FA charges, inventory, and tax depreciation books.
+- Bank and cash: bank directory with BIC, bank payment orders, cash account cards, ingoing and outgoing cash orders, and reports CO-3 and CO-4.
+- Inventory and documents: red storno posting, item documents, TORG-12, TORG-13, TORG-16, TORG-29, M-4, M-11, INV-17 and Factura-Invoice forms exported to Excel through template codes in setup tables.
+- Tax accounting and reporting: tax registers, tax difference journals, financial report extensions and constants on account schedules, and statutory report management.
+- Customs declaration (CD) tracking on items, packages and warehouse lines, plus corrective documents and agreements on sales and purchase documents.
 
 Narrative written by Sonnet from the code diff and 60 Learn page summaries. In numbers: Russia (RU) localization of Business Central in BC29: 659 objects of its own, 220 W1 objects changed (1145 fields and 6 events added). From the code; country apps outside the Base Application are not included yet.
 
@@ -317,29 +317,29 @@ Narrative written by Sonnet from the code diff and 60 Learn page summaries. In n
 
 ### (no namespace)
 
-Holds most Russian own objects: management codeunits for localisation, VAT ledgers, VAT settlement, prepayment differences, corrective documents and agreements. It also holds report helper codeunits for Russian forms, tax register and tax difference codeunits, and hundreds of pages, tables and reports.
+Holds most of the Russian layer as own objects: VAT ledger, settlement and reinstatement codeunits, G/L correspondence, prepayment differences, agreements, corrective documents, FA documents, customs declaration tracking, tax registers, tax differences and statutory reports. Also adds hundreds of pages and reports, including Excel report helpers for local print forms.
 
-Why: Learn pages describe VAT ledgers, tax registers, tax differences and unified forms such as TORG-12, CO-3 and CO-4 as local requirements.
+Why: Learn documents these as VAT ledgers, G/L correspondence, tax registers, tax differences and the Russian print forms.
 
-Objects: [codeunit/12400 "Localisation Management"](../objects/codeunit/12400-ru.md) (own), [codeunit/12411 "VAT Settlement Management"](../objects/codeunit/12411-ru.md) (own), [codeunit/12423 "VAT Ledger Management"](../objects/codeunit/12423-ru.md) (own), [codeunit/12410 "VAT Prepayment-Post"](../objects/codeunit/12410-ru.md) (own), [codeunit/12412 "PrepmtDiffManagement"](../objects/codeunit/12412-ru.md) (own), [codeunit/12404 "G/L Corresp. Management"](../objects/codeunit/12404-ru.md) (own), [codeunit/17201 "Tax Register Mgt."](../objects/codeunit/17201-ru.md) (own), [codeunit/17301 "Tax Diff.-Post Jnl. Line"](../objects/codeunit/17301-ru.md) (own).
+Objects: [codeunit/12400 "Localisation Management"](../objects/codeunit/12400-ru.md) (own), [codeunit/12411 "VAT Settlement Management"](../objects/codeunit/12411-ru.md) (own), [codeunit/12423 "VAT Ledger Management"](../objects/codeunit/12423-ru.md) (own), [codeunit/12404 "G/L Corresp. Management"](../objects/codeunit/12404-ru.md) (own), [codeunit/12412 "PrepmtDiffManagement"](../objects/codeunit/12412-ru.md) (own), [codeunit/12470 "FA Document-Post (Yes/No)"](../objects/codeunit/12470-ru.md) (own), [codeunit/17201 "Tax Register Mgt."](../objects/codeunit/17201-ru.md) (own), [codeunit/26550 "Statutory Report Management"](../objects/codeunit/26550-ru.md) (own).
 
 [All 654 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
 ### Finance
 
-Extends posting with RU procedures for VAT, prepayment differences, exchange rate adjustment, reversal and VAT settlement batches. Adds many fields to Gen. Journal Line, VAT Entry, VAT Posting Setup, Currency, General Ledger Setup and account schedule tables.
+Extends general ledger posting with Russian VAT, prepayment and tax difference handling. Adds many fields to Gen. Journal Line, VAT Entry, Currency, General Ledger Setup, VAT Posting Setup and G/L Account. Adds journal batch VAT settlement and reinstatement, per-entry exchange rate adjustment and reversal logic.
 
-Why: Learn pages explain exchange rate adjustment, VAT posting on sales, VAT settlement worksheet and G/L correspondence.
+Why: Learn describes VAT Posting Setup fields, VAT settlement, prepayment differences and exchange rate adjustment per entry under Russian accounting.
 
-Objects: [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/254 "VAT Entry"](../objects/table/254.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), [table/4 "Currency"](../objects/table/4.md), [table/98 "General Ledger Setup"](../objects/table/98.md), [codeunit/699 "Exch. Rate Adjmt. Process"](../objects/codeunit/699.md), [codeunit/13 "Gen. Jnl.-Post Batch"](../objects/codeunit/13.md).
+Objects: [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/254 "VAT Entry"](../objects/table/254.md), [table/4 "Currency"](../objects/table/4.md), [codeunit/699 "Exch. Rate Adjmt. Process"](../objects/codeunit/699.md), [table/98 "General Ledger Setup"](../objects/table/98.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), [codeunit/13 "Gen. Jnl.-Post Batch"](../objects/codeunit/13.md).
 
 [All 51 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### FixedAssets
 
-Adds Russian fixed asset fields (inventory number, status, depreciation bonus, locations, employees) and RU procedures for depreciation bonus, tax depreciation books, reclassification and disposal. Extends FA setup, posting groups and journals.
+Adds Russian fixed asset features: inventory number, depreciation group, status, FA locations and employees, depreciation bonus, tax depreciation books, FA charges and disposal results. Extends FA posting, depreciation and reclassification codeunits.
 
-Why: Learn pages cover depreciation bonus, FA acts, locations and employees, inventory, charges and assessed tax.
+Why: Learn covers release, movement, write-off, depreciation bonus, assessed tax and disposal expense accounting for fixed assets.
 
 Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md), [table/5603 "FA Setup"](../objects/table/5603.md), [table/5612 "FA Depreciation Book"](../objects/table/5612.md), [table/5601 "FA Ledger Entry"](../objects/table/5601.md), [table/5621 "FA Journal Line"](../objects/table/5621.md), [codeunit/5611 "Calculate Normal Depreciation"](../objects/codeunit/5611.md), [codeunit/5600 "FA Insert Ledger Entry"](../objects/codeunit/5600.md), [table/5606 "FA Posting Group"](../objects/table/5606.md).
 
@@ -347,67 +347,67 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md), [table/5603 "FA S
 
 ### Purchases
 
-Adds employee purchases (advance statements), corrective documents, vendor VAT invoice and receipt data, agreements and prepayment fields to purchase documents and vendor ledger entries. Vendor gains Russian codes and VAT agent fields, and Purch.-Post gets RU procedures.
+Adds employee purchases (advance statements), corrective documents, prepayment difference fields, agreement numbers and vendor VAT invoice data to purchase documents and ledgers. Vendor and Vendor Bank Account get Russian codes (OKPO, BIC) and VAT agent fields; Suggest Vendor Payments supports VAT agent payments.
 
-Why: Learn pages describe registering VAT on purchase orders, letters of attorney and prepayments.
+Why: Learn documents vendor VAT invoice registration, vendor prepayments, and VAT agent handling.
 
-Objects: [table/38 "Purchase Header"](../objects/table/38.md), [table/23 "Vendor"](../objects/table/23.md), [table/312 "Purchases & Payables Setup"](../objects/table/312.md), [table/122 "Purch. Inv. Header"](../objects/table/122.md), [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/39 "Purchase Line"](../objects/table/39.md), [report/393 "Suggest Vendor Payments"](../objects/report/393.md).
+Objects: [table/38 "Purchase Header"](../objects/table/38.md), [table/23 "Vendor"](../objects/table/23.md), [table/312 "Purchases & Payables Setup"](../objects/table/312.md), [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/39 "Purchase Line"](../objects/table/39.md), [table/288 "Vendor Bank Account"](../objects/table/288.md), [report/393 "Suggest Vendor Payments"](../objects/report/393.md).
 
 [All 33 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
 ### Sales
 
-Adds corrective document fields (before and after quantities and amounts), agreements, prepayment fields and Russian codes (KPP, OKPO) to sales documents, customers and ledger entries. Sales-Post gets procedures for corrective documents and prepayment unapply.
+Adds corrective documents with before and after line values, prepayment and agreement fields, act signer data and KPP/OKPO codes to sales documents and customer tables. Sales-Post gains procedures for corrective documents and prepayment difference documents.
 
-Why: Learn pages describe prepayments, bill of lading and customer agreements.
+Why: Learn documents customer prepayments, prepayment differences and the shipment documents printed from sales.
 
-Objects: [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [table/37 "Sales Line"](../objects/table/37.md), [table/18 "Customer"](../objects/table/18.md), [table/36 "Sales Header"](../objects/table/36.md), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [table/112 "Sales Invoice Header"](../objects/table/112.md), [table/21 "Cust. Ledger Entry"](../objects/table/21.md), [table/379 "Detailed Cust. Ledg. Entry"](../objects/table/379.md).
+Objects: [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [table/37 "Sales Line"](../objects/table/37.md), [table/18 "Customer"](../objects/table/18.md), [table/36 "Sales Header"](../objects/table/36.md), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [table/112 "Sales Invoice Header"](../objects/table/112.md), [table/21 "Cust. Ledger Entry"](../objects/table/21.md), [table/287 "Customer Bank Account"](../objects/table/287.md).
 
 [All 29 objects of Sales in the diff](?ns=Sales#country-diff)
 
 ### Inventory
 
-Adds item document setup, red storno posting, fixed asset links on item and value entries, prepayment difference accounts and form template codes. Extends Item Jnl.-Post Line and Inventory Posting To G/L with RU procedures.
+Adds red storno posting, links between items and fixed assets, prepayment difference accounts on inventory posting groups, and many local template codes in Inventory Setup. Item journal, value entry and posting codeunits are extended.
 
-Why: Learn pages describe inventory setup, red storno corrections and item documents with forms such as TORG-13 and INV-17.
+Why: Learn documents red storno corrections, inventory setup and item documents.
 
-Objects: [table/313 "Inventory Setup"](../objects/table/313.md), [table/83 "Item Journal Line"](../objects/table/83.md), [codeunit/22 "Item Jnl.-Post Line"](../objects/codeunit/22.md), [table/5802 "Value Entry"](../objects/table/5802.md), [page/5802 "Value Entries"](../objects/page/5802.md), [codeunit/5802 "Inventory Posting To G/L"](../objects/codeunit/5802.md), [table/94 "Inventory Posting Group"](../objects/table/94.md), [table/32 "Item Ledger Entry"](../objects/table/32.md).
+Objects: [table/313 "Inventory Setup"](../objects/table/313.md), [table/83 "Item Journal Line"](../objects/table/83.md), [codeunit/22 "Item Jnl.-Post Line"](../objects/codeunit/22.md), [table/5802 "Value Entry"](../objects/table/5802.md), [page/5802 "Value Entries"](../objects/page/5802.md), [table/94 "Inventory Posting Group"](../objects/table/94.md), [codeunit/5802 "Inventory Posting To G/L"](../objects/codeunit/5802.md), [table/27 "Item"](../objects/table/27.md).
 
 [All 26 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### Foundation
 
-Adds Russian company data (director, OKPO, OGRN, SONO), extra source codes, print and report selection procedures, local country names and the OKEI code on units of measure.
+Extends Company Information with Russian codes and officials, Source Code Setup with local source codes, Country/Region with local names and EAEU codes, and Unit of Measure with an OKEI code. Document printing and report selection get local print procedures.
 
-Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
+Why: Learn covers currency and company information setup and report selection for local print forms.
 
-Objects: [table/79 "Company Information"](../objects/table/79.md), [table/242 "Source Code Setup"](../objects/table/242.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md), [table/77 "Report Selections"](../objects/table/77.md), [table/9 "Country/Region"](../objects/table/9.md), [table/204 "Unit of Measure"](../objects/table/204.md), [codeunit/1901 "Report Selection Mgt."](../objects/codeunit/1901.md), [page/344 "Navigate"](../objects/page/344.md).
+Objects: [table/79 "Company Information"](../objects/table/79.md), [table/242 "Source Code Setup"](../objects/table/242.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md), [table/77 "Report Selections"](../objects/table/77.md), [table/9 "Country/Region"](../objects/table/9.md), [codeunit/1901 "Report Selection Mgt."](../objects/codeunit/1901.md), [table/204 "Unit of Measure"](../objects/table/204.md), [pageextension/12400 "SourceCodeSetupRU"](../objects/pageextension/12400-ru.md) (own).
 
 [All 14 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
 ### Bank
 
-Adds BIC, correspondent accounts, cash order numbering and payment order fields to bank accounts, reconciliation lines, check ledger entries and payment export data. Extends check management and payment export for Russian payment orders.
+Adds bank BIC, correspondent account and cash account fields to Bank Account, plus Russian payer and recipient details on bank reconciliation lines, check ledger entries and payment export data. Supports bank payment orders and cash orders.
 
-Why: Learn pages describe bank directory, bank payment orders and cash account cards.
+Why: Learn documents bank payment orders, cash account cards and petty cash management.
 
-Objects: [table/270 "Bank Account"](../objects/table/270.md), [table/274 "Bank Acc. Reconciliation Line"](../objects/table/274.md), [table/272 "Check Ledger Entry"](../objects/table/272.md), [table/1226 "Payment Export Data"](../objects/table/1226.md), [codeunit/1206 "Pmt Export Mgt Gen. Jnl Line"](../objects/codeunit/1206.md), [codeunit/367 "CheckManagement"](../objects/codeunit/367.md), [table/271 "Bank Account Ledger Entry"](../objects/table/271.md), [codeunit/1223 "SEPA CT-Check Line"](../objects/codeunit/1223.md).
+Objects: [table/270 "Bank Account"](../objects/table/270.md), [table/274 "Bank Acc. Reconciliation Line"](../objects/table/274.md), [table/272 "Check Ledger Entry"](../objects/table/272.md), [table/1226 "Payment Export Data"](../objects/table/1226.md), [codeunit/1206 "Pmt Export Mgt Gen. Jnl Line"](../objects/codeunit/1206.md), [codeunit/367 "CheckManagement"](../objects/codeunit/367.md), [table/271 "Bank Account Ledger Entry"](../objects/table/271.md), [page/370 "Bank Account Card"](../objects/page/370.md).
 
 [All 13 objects of Bank in the diff](?ns=Bank#country-diff)
 
 ### Security
 
-Changes W1 permission sets (LOCAL, LOCAL READ and fixed asset, vendor and customer sets) to cover the Russian objects.
+Extends several W1 permission sets (LOCAL, LOCAL READ, fixed assets, vendor and customer sets) to cover the Russian objects.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permissionset/1002 "LOCAL READ"](../objects/permissionset/1002.md), [permissionset/7568 "Fixed Assets - Admin"](../objects/permissionset/7568.md), [permissionset/3846 "Fixed Assets - Edit"](../objects/permissionset/3846.md), [permissionset/2018 "Fixed Assets Journals - Post"](../objects/permissionset/2018.md), [permissionset/7371 "Vendor - Edit"](../objects/permissionset/7371.md).
+Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permissionset/1002 "LOCAL READ"](../objects/permissionset/1002.md), [permissionset/3846 "Fixed Assets - Edit"](../objects/permissionset/3846.md), [permissionset/7568 "Fixed Assets - Admin"](../objects/permissionset/7568.md), [permissionset/2018 "Fixed Assets Journals - Post"](../objects/permissionset/2018.md), [permissionset/7371 "Vendor - Edit"](../objects/permissionset/7371.md).
 
 [All 8 objects of Security in the diff](?ns=Security#country-diff)
 
 ### IO
 
-Extends data exchange definitions and fields with column type and document tags, adds font size to Excel Buffer, and adjusts CSV import and export XMLports.
+Adds fields and procedures to data exchange definitions, Excel Buffer and generic CSV import and export, for example column type and name, document start and end tags, and header or footer skipping.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -417,9 +417,9 @@ Objects: [table/1222 "Data Exch. Def"](../objects/table/1222.md), [table/1221 "D
 
 ### HumanResources
 
-Adds employee fields (vendor link, bank code, short name, identity document) and name and age procedures. Adds a type to Misc. Article.
+Extends Employee with an employee vendor link, bank code, identity document, short name and helper procedures such as full name and age. Employee List and Misc. Article also get local changes.
 
-Why: Learn pages cover payroll, absence, dismissal and staff topics for Russia.
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
 Objects: [table/5200 "Employee"](../objects/table/5200.md), [page/5201 "Employee List"](../objects/page/5201.md), [table/5213 "Misc. Article"](../objects/table/5213.md).
 
@@ -437,9 +437,9 @@ Objects: [codeunit/1752 "Data Class. Eval. Data Country"](../objects/codeunit/17
 
 ### Warehouse
 
-Adds a customs declaration number (CD No.) field to warehouse activity lines and bin content buffer.
+Adds a CD No. field for customs declaration tracking to warehouse activity lines and bin content buffer.
 
-Why: Learn describes CD number tracking for imported goods.
+Why: Learn describes customs declaration tracking on goods.
 
 Objects: [table/5767 "Warehouse Activity Line"](../objects/table/5767.md), [table/7330 "Bin Content Buffer"](../objects/table/7330.md).
 
@@ -461,7 +461,7 @@ Objects: [pageextension/12420 "ReportSelectionProdOrderRU"](../objects/pageexten
 |---|---|
 | [codeunit/8 "AccSchedManagement"](../objects/codeunit/8.md) | +4 procedures |
 | [codeunit/11 "Gen. Jnl.-Check Line"](../objects/codeunit/11.md) | +4 procedures |
-| [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md) | +1 events, +61 procedures, 2 procedures changed |
+| [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md) | +1 events, +61 procedures, 3 procedures changed |
 | [codeunit/13 "Gen. Jnl.-Post Batch"](../objects/codeunit/13.md) | +8 procedures, 1 properties |
 | [codeunit/17 "Gen. Jnl.-Post Reverse"](../objects/codeunit/17.md) | +7 procedures |
 | [codeunit/20 "Posting Preview Event Handler"](../objects/codeunit/20.md) | +1 procedures, 1 procedures changed |

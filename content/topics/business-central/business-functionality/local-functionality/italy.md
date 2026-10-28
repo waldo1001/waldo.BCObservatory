@@ -2,215 +2,215 @@
 id: topic/business-central/business-functionality/local-functionality/italy
 type: topic
 title: Italy
-summary: "Italy local functionality in Business Central: VAT, withholding tax, banking and payments, core finance, inventory valuation, fixed assets, and general setup such as company information and Intrastat templates. It answers setup, how-to and reporting questions for Italian compliance."
+summary: "Italy local functionality in Business Central: VAT, withholding tax, banking and payments, core finance, inventory, fixed assets and general setup for Italian regulatory requirements. It answers setup, reporting and compliance questions for Italian companies."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T05:21:03.562Z"
+  at: "2026-10-28T11:01:22.439Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 88452f1c82a4d7f06f982b74c7cd69e76d25f7c97182b21740f7015b66ce15f8
+  input_hash: 612c5d69f85c9ef9caf4482cfc6f04b7babade109b81a847e11def7588d9fcaf
 evidence:
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills
-    title: Automatic Payments and Automatic Bills [IT]
-    date: "2025-05-21"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets
-    title: compressed depreciation of fixed assets [IT]
-    date: "2025-05-21"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-create-electronic-vat-transactions-reports
-    title: Create Electronic VAT Transactions Report [IT]
-    date: "2025-05-20"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-close-a-fiscal-year
-    title: How to Close a Fiscal Year
-    date: "2025-05-20"
+    title: Close a Fiscal Year in Business Central for Italy
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-correct-vat-transactions-reports
-    title: How to correct VAT transactions reports [IT]
-    date: "2025-05-20"
+    title: Correct VAT Transactions Reports in the Italian Version [IT]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-create-electronic-vat-transactions-reports
+    title: Create Electronic VAT Transactions Reports for Italy
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-create-multiple-fixed-asset-cards
-    title: How to Create Multiple Fixed Asset Cards [IT]
-    date: "2025-10-29"
+    title: Create Multiple Fixed Asset Cards in the Italian Version [IT]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts
-    title: How to Define Debit and Credit Amounts
-    date: "2025-05-20"
+    title: Define Debit and Credit Amounts
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-export-vat-transactions-reports
-    title: How to export VAT transactions reports [IT]
-    date: "2025-05-20"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-depreciation-book-reports
-    title: How to Print Depreciation Book Reports [IT]
-    date: "2025-05-21"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-alternate-depreciation-methods
-    title: How to set up alternate depreciation methods
-    date: "2025-05-21"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-company-information
-    title: How to set up company information
-    date: "2025-05-21"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation
-    title: How to Set Up Fiscal Inventory Valuation [IT]
-    date: "2025-05-21"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-initial-item-costs
-    title: How to set up initial item costs [IT]
-    date: "2025-05-22"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-submit-vat-statements
-    title: How to Submit VAT Statements [IT]
-    date: "2025-05-22"
+    title: Export VAT Transactions Reports in the Italian Version [IT]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills
-    title: Issue Vendor Payments and Customer Bills (IT)
-    date: "2025-05-20"
+    title: Issue Vendor Payments and Customer Bills
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-fixed-assets
-    title: Italian fixed assets
-    date: "2025-05-22"
+    title: Italian Fixed Assets in Business Central
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-subcontracting
-    title: Italian Subcontracting
-    date: "2026-09-01"
+    title: Italian Subcontracting and Migration
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-vat
-    title: Italian VAT
-    date: "2025-05-22"
+    title: Italian VAT Reporting in Business Central
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italy-local-functionality
-    title: Italy local functionality
-    date: "2025-12-30"
+    title: Italy Local Functionality in Business Central
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports
-    title: Prepare for VAT transactions reports [IT]
-    date: "2025-05-21"
+    title: Prepare for VAT Transactions Reports in the Italian Version [IT]
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers
-    title: Print and reprint G-L books VAT registers [IT]
-    date: "2025-05-21"
+    title: Print and Reprint G/L Books and VAT Registers for Italy
+    date: "2026-10-21"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-depreciation-book-reports
+    title: Print Depreciation Book Reports in the Italian Version [IT]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-withholding-tax-reports
-    title: Print withholding tax reports (IT)
-    date: "2025-05-21"
+    title: Print Withholding Tax Reports in the Italian Version
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/reversing-journal-entries
-    title: Reversing Journal Entries [IT]
-    date: "2025-05-23"
+    title: Reversing Journal Entries in the Italian Version [IT]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-alternate-depreciation-methods
+    title: Set Up Alternate Depreciation Methods
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy
-    title: Set up and Print Intrastat Reports for Italy
-    date: "2025-05-21"
+    title: Set Up and Print Intrastat Reports for Italy
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills
+    title: Set Up Automatic Payments and Bills for Italy
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-company-information
+    title: Set Up Company Information for Italy
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets
+    title: Set Up Compressed Depreciation of Fixed Assets
+    date: "2026-10-21"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation
+    title: Set Up Fiscal Inventory Valuation in the Italian Version [IT]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-initial-item-costs
+    title: Set Up Initial Item Costs in the Italian Version [IT]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches
-    title: Set Up Journal Templates and Batches (IT)
-    date: "2025-05-22"
+    title: Set Up Journal Templates and Batches
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-payment-terms
-    title: Set Up Payment Terms (IT)
-    date: "2025-05-22"
+    title: Set Up Payment Terms in the Italian Version
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/set-up-withholding-tax
-    title: Set Up Withholding Tax (IT)
-    date: "2025-05-23"
+    title: Set Up Withholding Tax in the Italian Version
+    date: "2026-10-21"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-submit-vat-statements
+    title: Submit VAT Statements in the Italian Version [IT]
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview
-    title: Vendor Payments Customer Bills Overview [IT]
-    date: "2025-05-23"
+    title: Vendor Payments and Customer Bills in Italy
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
@@ -319,33 +319,28 @@ narrative: generated
 
 # Italy
 
-> Italy local functionality in Business Central: VAT, withholding tax, banking and payments, core finance, inventory valuation, fixed assets, and general setup such as company information and Intrastat templates. It answers setup, how-to and reporting questions for Italian compliance.
+> Italy local functionality in Business Central: VAT, withholding tax, banking and payments, core finance, inventory, fixed assets and general setup for Italian regulatory requirements. It answers setup, reporting and compliance questions for Italian companies.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Italy · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Italy section collects the features that adapt Business Central to Italian accounting and tax rules. The landing page "Italy local functionality" briefly summarizes the areas: VAT, withholding tax, banking and payments, core finance, inventory, fixed assets, and electronic invoicing. It names Italian VAT, VAT statements, VAT transactions reports, payment terms and automatic payments as features.
+This section collects the Italy-specific features of Business Central. The landing page lists the main areas: Italian VAT, withholding tax, VAT statements, VAT transactions reports, electronic VAT reports and payment terms. It names 2027 release wave 1 and 2027 release wave 2 as the versions it covers.
 
-Subtopics cover each area in detail. VAT is the largest, with VAT codes and rates, transaction reports, statement submission, G/L book and VAT register printing, and Intrastat. Each of these areas has its own pages:
-- Withholding tax.
-- Banking and payments: bills, SEPA Credit Transfer and Direct Debit, and installments.
-- Core finance: fiscal year closing, debit and credit definitions, and journal reversal limits.
-- Inventory: fiscal valuation and initial costs.
-- Fixed assets: alternate and compressed depreciation, and Depreciation Book reports.
+The subtopics split the work by function. VAT is the largest, with transactions reports, VAT statements, periodic settlement, G/L Books, VAT registers and Intrastat. Withholding tax, banking and payments, core finance, inventory and fixed assets each cover one area. General covers company information and Intrastat journal setup, and also the move from Italian subcontracting to the new Subcontracting app.
 
-The General subtopic holds company information setup, Intrastat journal templates, and the deprecated Italian Subcontracting feature. For other tasks, go to the subtopic for that area.
+Start with General to set up company information with the Italian fiscal fields. Then go to the area you need. Use VAT for periodic reporting and submissions, and Banking and payments for bills and SEPA formats.
 
 ## Key points
 
-- VAT: set up VAT codes and rates, then prepare, create, export and correct VAT transaction reports and submit VAT statements.
-- VAT also covers printing the G/L book and VAT registers, plus Intrastat reports for Italy.
-- Withholding tax: set it up for vendor purchases and third-party services, and print Withholding Taxes reports for amounts payable to the Italian government.
-- Banking and payments: automatic payments and bills, vendor payments and customer bills with SEPA Credit Transfer and SEPA Direct Debit, and payment terms with installments.
-- Core finance: fiscal year closing, how debit and credit amounts are defined in journals and ledger entries, and restrictions on reversing journal entries.
-- Inventory: fiscal inventory valuation (components valuation, estimated WIP consumption, valuation type per item) and initial item costs for average year cost.
-- Fixed assets: anticipated, accelerated and reduced depreciation, compressed depreciation, multiple fixed asset cards from purchase invoices, and Depreciation Book reports.
-- General: company information setup, Intrastat journal templates and batches, and the deprecated Italian Subcontracting feature with its migration.
+- VAT covers VAT transactions reports (prepare, create, export, correct), VAT statements, periodic settlement, G/L Books, VAT registers and Intrastat reports.
+- Withholding tax pages cover setting up codes and vendor assignments, calculation on purchase invoices and vendor payments, and the printed reports.
+- Banking and payments cover vendor payments, customer bills, SEPA and Italian bill formats, bill posting groups, bank account setup, and installment and discount payment terms.
+- Core finance covers closing a fiscal year, entering debit and credit amounts in the General Journal, and reversing journal entries under Italy-specific checks.
+- Inventory covers fiscal inventory valuation setup, LIFO categories, and the Before Start Item Cost page for costs from before implementation.
+- Fixed assets cover anticipated, accelerated and reduced depreciation, compressed depreciation posting, multiple asset cards from one purchase invoice, and the Depreciation Book report.
+- General covers company information with Italian fiscal fields and Intrastat journal templates and batches.
+- Italian subcontracting is deprecated, and the General pages describe migration to the new Subcontracting app.
 
 ## Subtopics
 
@@ -359,7 +354,7 @@ The General subtopic holds company information setup, Intrastat journal template
 
 ## More Learn pages
 
-- [Italy local functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italy-local-functionality): The following outlined articles describe the local functionality in the Italian version of Business Central.
+- [Italy Local Functionality in Business Central](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italy-local-functionality): Explore Italian functionality in Business Central for VAT, withholding tax, bank payments, fiscal inventory valuation, fixed assets, and subcontracting.
 
 ## Business Central pages and reports
 

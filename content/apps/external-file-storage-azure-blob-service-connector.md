@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 44eeaa738c10a2a3f3676468d31e35ffff65cf87ee7d25ed362fb8760cbc454d
+  input_hash: 92b56b347c19a0417f75f7354dd8f927054eac202617ea43178fe74a0f092cdd
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/External%20File%20Storage%20-%20Azure%20Blob%20Service%20Connector/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/External%20File%20Storage%20-%20Azure%20Blob%20Service%20Connector/app
     title: src/Apps/W1/External File Storage - Azure Blob Service Connector/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -133,4 +133,4 @@ First-party app · folder `src/Apps/W1/External File Storage - Azure Blob Servic
 |---|---|---|
 |  | [Ext. Blob Storage Connector](../objects/entitlement/ext-blob-storage-connector.md) |  |
 
-Source: [src/Apps/W1/External File Storage - Azure Blob Service Connector/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/External%20File%20Storage%20-%20Azure%20Blob%20Service%20Connector/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/External File Storage - Azure Blob Service Connector/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/External%20File%20Storage%20-%20Azure%20Blob%20Service%20Connector/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

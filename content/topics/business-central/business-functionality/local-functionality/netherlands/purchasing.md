@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/netherlands/purchasing
 type: topic
 title: Purchasing
-summary: Purchasing for the Netherlands local version of Business Central. It covers checking document amounts on purchase invoices and credit memos and editing the document amount including VAT and the VAT amount. Use it for questions about amount validation before posting.
+summary: Purchasing for the Netherlands local version covers checking and editing document total amounts on purchase invoices and credit memos. It answers questions about validating totals including VAT before posting and about editing Doc. Amount Incl. VAT and Doc. Amount VAT.
 tier: official
 language: en
 system: purchasing
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T05:22:00.460Z"
+  at: "2026-10-28T11:04:08.659Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: dfefd5bf6b87943d257dc7a63b452e1700cdf9ec84ff1c8cc2c6e0bab9a9ba57
+  input_hash: 8ce7a2639202a9fbdde6a4107a245cbfed73ec2fbb87e81e735cd6e4dabd1f8b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/check-purchase-amounts
@@ -27,8 +27,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos
-    title: Edit Doc Amounts Purch Invoices Credit Memos
-    date: "2025-03-17"
+    title: Edit Dutch Purchase Invoice and Credit Memo Document Amounts
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -65,33 +65,31 @@ narrative: generated
 
 # Purchasing
 
-> Purchasing for the Netherlands local version of Business Central. It covers checking document amounts on purchase invoices and credit memos and editing the document amount including VAT and the VAT amount. Use it for questions about amount validation before posting.
+> Purchasing for the Netherlands local version covers checking and editing document total amounts on purchase invoices and credit memos. It answers questions about validating totals including VAT before posting and about editing Doc. Amount Incl. VAT and Doc. Amount VAT.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > Purchasing · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section holds two pages on purchase documents in the Dutch version. Both deal with the document total on purchase invoices and credit memos, and how it relates to the purchase lines.
+This section holds two pages about document amount control on purchase invoices and credit memos in the Dutch version of Business Central. Both deal with making sure the document total, including VAT, matches the sum of the purchase lines before the document is posted.
 
-One page explains the amount check. It validates that the document total including VAT matches the sum of the purchase lines before posting. It is tied to 2025 release wave 1. The other page explains how to edit the document amount including VAT and the VAT amount fields in the Dutch version. It also mentions recurring purchase lines.
-
-Start with the amount check page to learn what is validated. Then use the editing page to learn which fields you can change.
+Start with the page on checking amounts, which explains the validation itself (mentioned for 2025 release wave 1). Then read the page on editing Dutch document amounts, which explains how to turn on Check Doc. Total Amounts in Purchases & Payables Setup and how to change the amount fields, with VAT recalculated proportionally. The editing page also mentions e-document service support.
 
 ## Key points
 
-- Applies to the Netherlands local version, under Purchasing.
-- Amount check compares the document total including VAT with the sum of the purchase lines before posting.
-- The check covers both purchase invoices and credit memos.
-- The amount check page is listed for 2025 release wave 1.
-- In the Dutch version you can edit the document amount including VAT and the VAT amount fields.
-- The editing page also covers recurring purchase lines.
-- There are no subtopics, so the two pages are the full scope.
+- Validates that document total amounts including VAT match the sum of purchase lines before posting.
+- Applies to both purchase invoices and purchase credit memos.
+- The check is enabled with Check Doc. Total Amounts in Purchases & Payables Setup.
+- Doc. Amount Incl. VAT and Doc. Amount VAT fields can be edited in the Dutch version.
+- Editing these amounts triggers proportional VAT recalculation.
+- The editing page mentions e-document service support.
+- The amount check page is tied to 2025 release wave 1.
 
 ## Learn pages
 
 - [Check amounts on purchase invoices and credit memos](https://learn.microsoft.com/dynamics365/business-central/check-purchase-amounts): You can verify that the total amount on purchase invoices and credit memos equals the total amounts, including VAT, on the lines.
   - In the observatory: [Page 460 "Purchases & Payables Setup"](../../../../../objects/page/460.md)
-- [Edit Doc Amounts Purch Invoices Credit Memos](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos): In the Dutch version of Business Central, you can quickly edit amounts in purchase invoices and credit memos.
-  - In the observatory: [Page 51 "Purchase Invoice"](../../../../../objects/page/51.md), [Page 52 "Purchase Credit Memo"](../../../../../objects/page/52.md)
+- [Edit Dutch Purchase Invoice and Credit Memo Document Amounts](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos): Enter expected purchase invoice and credit memo totals in the Dutch version of Business Central to check the document and VAT amounts before posting.
+  - In the observatory: [Page 460 "Purchases & Payables Setup"](../../../../../objects/page/460.md), [Page 9308 "Purchase Invoices"](../../../../../objects/page/9308.md), [Page 9309 "Purchase Credit Memos"](../../../../../objects/page/9309.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

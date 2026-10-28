@@ -2,7 +2,7 @@
 id: source/olofsimren-com
 type: source
 title: Olof Simren
-summary: "Olof Simren: 12 posts in the knowledge base, 2025-07-29 to 2026-10-19, mostly about manufacturing, administration, copilot."
+summary: "Olof Simren: 13 posts in the knowledge base, 2025-07-29 to 2026-10-26, mostly about manufacturing, administration, copilot."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:10:49.229Z"
+  at: "2026-10-28T08:47:18.430Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 425b1449710c897fcfb54f38ba6de3c98a506970b133cc74c68da6e26b012f20
+  input_hash: 87c03ec1665b120b1ba03fbcb4f03dd39d1193c8212ef648c2b306a20352f3a9
 evidence:
   - kind: blog
     url: https://www.olofsimren.com
@@ -45,6 +45,7 @@ links:
     - post/olofsimren-com/3853
     - post/olofsimren-com/3865
     - post/olofsimren-com/3885
+    - post/olofsimren-com/3928
   guidelines: []
 source_id: olofsimren-com
 kind: blog
@@ -52,11 +53,11 @@ url: https://www.olofsimren.com
 author: Olof Simren
 mvp: false
 full_text: false
-item_count: 12
+item_count: 13
 footprint:
   systems:
     - id: manufacturing
-      weight: 12
+      weight: 14
     - id: administration
       weight: 6
     - id: copilot
@@ -115,12 +116,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-07-29"
-last_item: "2026-10-19"
+last_item: "2026-10-26"
 ---
 
 # Olof Simren
 
-> Olof Simren: 12 posts in the knowledge base, 2025-07-29 to 2026-10-19, mostly about manufacturing, administration, copilot.
+> Olof Simren: 13 posts in the knowledge base, 2025-07-29 to 2026-10-26, mostly about manufacturing, administration, copilot.
 
 [https://www.olofsimren.com](https://www.olofsimren.com) · blog · tier community
 
@@ -128,7 +129,7 @@ last_item: "2026-10-19"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| manufacturing (12) | azure openai (2) | codeunit 50100 (1) |
+| manufacturing (14) | azure openai (2) | codeunit 50100 (1) |
 | administration (6) | compliance (2) | codeunit 70666591 (1) |
 | copilot (5) | copilot (2) | other BarcodeScannerProviderAddIn (1) |
 | inventory (5) | mrp (2) | other Capacity Ledger Entries (1) |
@@ -150,10 +151,11 @@ Items per quarter, oldest first:
 - 2026-Q1: * 1
 - 2026-Q2: ** 2
 - 2026-Q3: ** 2
-- 2026-Q4: ** 2
+- 2026-Q4: *** 3
 
 ## Most recent
 
+- [Business Central Case Study: Engineer-to-Order Manufacturing at Zook](../posts/olofsimren-com/3928.md) (2026-10-26)
 - [Mobile Solutions for Business Central: Why the Native App Is All You Need](../posts/olofsimren-com/3885.md) (2026-10-19)
 - [Business Central Case Study: How World Emblem Automated High-Volume Manufacturing Processes](../posts/olofsimren-com/3865.md) (2026-10-09)
 - [Allow Posting Date Formula](../posts/olofsimren-com/3853.md) (2026-09-01)

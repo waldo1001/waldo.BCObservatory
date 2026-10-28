@@ -2,64 +2,64 @@
 id: topic/business-central/business-functionality/local-functionality/italy/fixed-assets
 type: topic
 title: Fixed assets
-summary: "Italian fixed assets functionality in Business Central: alternate depreciation methods (anticipated, accelerated, reduced), compressed depreciation, creating multiple fixed asset cards from purchase invoices, and printing Depreciation Book reports. It answers setup and how-to questions for Italy."
+summary: "Italian fixed assets in Business Central: alternate depreciation methods (anticipated, accelerated, reduced), compressed depreciation posting, creating multiple fixed asset cards from one purchase invoice, and the Depreciation Book report. It answers setup and usage questions for the Italian version."
 tier: official
 language: en
 system: fixed-assets
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:24:08.293Z"
+  at: "2026-10-28T11:03:00.626Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: ed340cdb42ef59608404c16211baa48c46ab5d1d72dc3ca8d33d774566871235
+  input_hash: 5e5fc4ad43275fdef8ac169dedc4800c8d96469c9f8f0b90635f79d933deafce
 evidence:
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets
-    title: compressed depreciation of fixed assets [IT]
-    date: "2025-05-21"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-create-multiple-fixed-asset-cards
-    title: How to Create Multiple Fixed Asset Cards [IT]
-    date: "2025-10-29"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-depreciation-book-reports
-    title: How to Print Depreciation Book Reports [IT]
-    date: "2025-05-21"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-alternate-depreciation-methods
-    title: How to set up alternate depreciation methods
-    date: "2025-05-21"
+    title: Create Multiple Fixed Asset Cards in the Italian Version [IT]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-fixed-assets
-    title: Italian fixed assets
-    date: "2025-05-22"
+    title: Italian Fixed Assets in Business Central
+    date: "2026-10-21"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-depreciation-book-reports
+    title: Print Depreciation Book Reports in the Italian Version [IT]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-alternate-depreciation-methods
+    title: Set Up Alternate Depreciation Methods
+    date: "2026-10-21"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets
+    title: Set Up Compressed Depreciation of Fixed Assets
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-create-multiple-fixed-asset-cards
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-fixed-assets
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-depreciation-book-reports
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-alternate-depreciation-methods
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-fixed-assets
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets
   objects: []
   features: []
   topics:
@@ -89,39 +89,37 @@ narrative: generated
 
 # Fixed assets
 
-> Italian fixed assets functionality in Business Central: alternate depreciation methods (anticipated, accelerated, reduced), compressed depreciation, creating multiple fixed asset cards from purchase invoices, and printing Depreciation Book reports. It answers setup and how-to questions for Italy.
+> Italian fixed assets in Business Central: alternate depreciation methods (anticipated, accelerated, reduced), compressed depreciation posting, creating multiple fixed asset cards from one purchase invoice, and the Depreciation Book report. It answers setup and usage questions for the Italian version.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Fixed assets · tier official · system fixed-assets · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers the Italy-specific parts of fixed asset management. It starts with an overview page, "Italian fixed assets", which summarizes the main capabilities: anticipated, accelerated and reduced depreciation, automatic creation of multiple asset cards from invoices, and depreciation book reporting.
+This section covers the Italian-specific additions to fixed asset management. It has an overview page and four task pages: setting up alternate depreciation methods, setting up compressed depreciation, creating multiple fixed asset cards, and printing the Depreciation Book report.
 
-The other pages are task guides. One explains how to set up alternate depreciation methods using depreciation tables. One covers compressing depreciation into subclasses so fewer ledger entries are posted, using the depreciation book setup. One describes creating multiple fixed asset cards during purchase invoice posting. One covers printing the Depreciation Book report.
-
-Start with the overview page, then set up the alternate depreciation methods. Print the Depreciation Book report after depreciation methods are set up and assets are entered.
+Start with the overview page, "Italian Fixed Assets in Business Central", to see how the features relate. Then use the setup pages. Alternate depreciation methods are configured through depreciation tables. Compressed depreciation changes how depreciation is posted to the general ledger. The multiple-card feature acts during purchase invoice posting. The Depreciation Book report is for reviewing results.
 
 ## Key points
 
-- Alternate depreciation methods (anticipated, accelerated, reduced) are defined with depreciation tables.
-- Depreciation tables use fields such as Period Depreciation %, Total Depreciation % and No. of Units in Period.
-- Compressed depreciation groups depreciation by subclass and posts only totals, reducing ledger entries when many assets are involved.
-- Compression is configured through the depreciation book setup.
-- Multiple fixed asset cards can be created automatically during purchase invoice posting, with sequential numbering.
-- The multiple-card feature was originally Italian localization and is now delocalized into standard Business Central.
-- The Depreciation Book report shows fixed asset changes by year and item class, with a Print per Fixed Asset option and Starting Date and Ending Date filters.
-- Run the report after depreciation methods are set up and assets are entered.
+- Alternate depreciation methods are anticipated, accelerated and reduced. They are set up through depreciation tables with period lengths, units and percentages.
+- A User-Defined depreciation method is available, along with the calculations Calc. Anticipated Depreciation and Calc. Custom 2 Depreciation.
+- Compressed depreciation summarizes compatible depreciation amounts in the general ledger when fixed asset journals are posted. Individual asset entries are kept.
+- Compress Depreciation grouping depends on the fixed asset posting type, the depreciation book and the dimension set.
+- Multiple fixed asset cards can be created automatically during purchase invoice posting. This suits buying several identical assets from one vendor.
+- The multiple-card feature copies the depreciation book and default dimensions, divides the acquisition amount, and uses the fixed asset number configuration.
+- The Depreciation Book report shows fixed asset movements by acquisition year, fixed asset class and subclass.
+- The report has Starting Date and Ending Date parameters, fixed asset filtering and a Print per Fixed Asset option.
 
 ## Learn pages
 
-- [compressed depreciation of fixed assets [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets): You can compress fixed asset depreciation into subclasses and choose to display only the total sum by subclass.
-  - In the observatory: [Page 5610 "Depreciation Book Card"](../../../../../objects/page/5610.md), [Page 5611 "Depreciation Book List"](../../../../../objects/page/5611.md)
-- [How to Create Multiple Fixed Asset Cards [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-create-multiple-fixed-asset-cards): Learn how to automatically create multiple fixed asset cards during purchase invoice posting in Business Central.
-  - In the observatory: [Page 5600 "Fixed Asset Card"](../../../../../objects/page/5600.md), [Page 5601 "Fixed Asset List"](../../../../../objects/page/5601.md)
-- [How to Print Depreciation Book Reports [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-depreciation-book-reports): Learn how to print the Depreciation Book report, after configuring depreciation methods and entering fixed assets.
+- [Create Multiple Fixed Asset Cards in the Italian Version [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-create-multiple-fixed-asset-cards): Learn how to create multiple fixed asset cards during purchase invoice posting in Business Central and split the acquisition amount among the assets.
+  - In the observatory: [Page 56 "Purchase Orders"](../../../../../objects/page/56.md), [Page 5600 "Fixed Asset Card"](../../../../../objects/page/5600.md), [Page 5601 "Fixed Asset List"](../../../../../objects/page/5601.md)
+- [Italian Fixed Assets in Business Central](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-fixed-assets): Learn about the features available for managing fixed assets in Italy, including depreciation methods and automated processes in Business Central.
   - In the observatory: [Report 12119 "Depreciation Book (IT)"](../../../../../objects/report/12119-it.md)
-- [How to set up alternate depreciation methods](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-alternate-depreciation-methods): Learn how to set up alternate depreciation methods, such as anticipated, accelerated, and reduced depreciation.
-  - In the observatory: [Page 5663 "Depreciation Table List"](../../../../../objects/page/5663.md)
-- [Italian fixed assets](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-fixed-assets): Learn about the features available for managing fixed assets in Italy, including depreciation methods and automated processes in Business Central.
+- [Print Depreciation Book Reports in the Italian Version [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-depreciation-book-reports): Learn how to print the Italian Depreciation Book report in Business Central by acquisition year, asset class, and subclass, with optional asset details.
+  - In the observatory: [Report 12119 "Depreciation Book (IT)"](../../../../../objects/report/12119-it.md)
+- [Set Up Alternate Depreciation Methods](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-alternate-depreciation-methods): Learn how to set up depreciation tables and enable anticipated, accelerated, or reduced depreciation in the Italian version of Business Central.
+- [Set Up Compressed Depreciation of Fixed Assets](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets): Learn how to summarize compatible fixed asset depreciation amounts in the general ledger while retaining individual asset entries in Business Central.
+  - In the observatory: [Page 5610 "Depreciation Book Card"](../../../../../objects/page/5610.md), [Page 5611 "Depreciation Book List"](../../../../../objects/page/5611.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

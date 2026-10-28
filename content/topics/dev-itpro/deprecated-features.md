@@ -2,20 +2,20 @@
 id: topic/dev-itpro/deprecated-features
 type: topic
 title: Deprecated features
-summary: Deprecated features in Business Central covers what has been removed or replaced in the platform, application, local versions, tables and AL code. It answers what is deprecated, when (release waves 2020 to 2027), what replaces it, and how Microsoft times code obsoletion.
+summary: Deprecated features in Business Central covers what is being removed or replaced across the platform, application, local versions, tables and AL code. It answers questions on deprecation timelines, replacements such as MSAL or AL-Go for GitHub, obsolete tables, and Microsoft's rules for obsoleting code.
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:16:17.199Z"
+  at: "2026-10-28T11:01:25.879Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 55885de2d5ced3af13f01348356ed8c905adbe2f9c3e030be7f1b37d59a90882
+  input_hash: ddafb339f3e97d548bce12fa551d7159dc3876ee8b306b6b22223e1184eaf124
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-at
@@ -258,28 +258,28 @@ narrative: generated
 
 # Deprecated features
 
-> Deprecated features in Business Central covers what has been removed or replaced in the platform, application, local versions, tables and AL code. It answers what is deprecated, when (release waves 2020 to 2027), what replaces it, and how Microsoft times code obsoletion.
+> Deprecated features in Business Central covers what is being removed or replaced across the platform, application, local versions, tables and AL code. It answers questions on deprecation timelines, replacements such as MSAL or AL-Go for GitHub, obsolete tables, and Microsoft's rules for obsoleting code.
 
 Path: Deprecated features · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section lists features that Microsoft has deprecated or removed in Business Central. The pages of this section cover the client, server and database platform, including OData and SOAP endpoints, PowerShell 5.0, permission sets, authentication methods, the Windows Client and ADAL. It also covers BcContainerHelper and the rules for how long code stays obsolete before removal.
+This section lists features that Microsoft has deprecated or removed in Business Central and points to what replaces them. Its own pages cover the platform (client, server, database) with a timeline from 2021 to 2027, the planned end of BcContainerHelper support, and Microsoft's timeline for obsoleting code.
 
-Subtopics split the material by area: Application (W1 features and objects deleted in 2025 release wave 1, v26), Local functionality (17 pages), Deprecated tables (with mappings to new table names), and Deprecating code (obsolete attributes, preprocessor symbols, and the 'with' statement deprecation).
+Subtopics split the rest by area. Application covers W1 features that are ending and obsolete tables and fields removed from the Base App. Local functionality holds country-specific items. Deprecated tables maps old table names to new ones. Deprecating code explains obsolete markers and the deprecation of 'with' statements in AL.
 
-Start with the platform page for a timeline by release wave. Use the Application and Deprecated tables subtopics when rewriting extension code. Read the code deprecation timeline article to plan around the 12-month minimum between marking code obsolete and removing it.
+Start with the platform timeline to see which release wave affects you. Developers should then read the code deprecation timeline and the Deprecated tables pages before rewriting extensions.
 
 ## Key points
 
-- The platform timeline covers 2021 to 2027 and lists OData endpoints on Microsoft pages, SOAP endpoints on UI pages, PowerShell 5.0 modules, Web Service Access Keys (Basic Auth), data-defined permission sets and delta links with APIs.
-- ADAL/Azure AD Graph is replaced by MSAL/Microsoft Graph.
-- The Windows Client is removed in favor of web, desktop and mobile apps. The Excel COM add-in and programmatic printing, which depend on it, go with it.
-- User personalizations and profile configurations are replaced by new AL tooling.
-- BcContainerHelper is deprecated, with official support ending October 1, 2027. AL-Go for GitHub is the replacement.
+- The platform page tracks deprecations from 2022 release wave 1 through 2027 release wave 1, including OData and SOAP endpoints, PowerShell 5.0 modules, Web Service Access Keys (Basic Auth), data-defined permission sets and delta links with APIs.
+- ADAL and Azure AD Graph are replaced by MSAL and Microsoft Graph.
+- The Windows Client is removed in favor of web, desktop and mobile apps. The Excel COM add-in and programmatic printing are tied to it.
+- BcContainerHelper official support ends October 1, 2027, with AL-Go for GitHub as the replacement.
 - Microsoft allows at least 12 months between marking code obsolete and removing it, using ObsoleteState, ObsoleteTag, the Obsolete attribute and AppSourceCop.
-- Deprecated tables pages give mappings to new table names for code rewrites, and list deprecated tables in the India version for 2021 release wave 2.
-- Application pages include objects deleted from the Base App and first-party apps in 2025 release wave 1 (v26).
+- Obsolete tables and fields were deleted from the Base App in 2025 release wave 1 (v26).
+- Deprecated tables pages map old tables to new names from 2020 release wave 1 and list India tables for 2021 release wave 2. Data migration may be needed.
+- Explicit and implicit 'with' statements in AL are deprecated.
 
 ## Subtopics
 

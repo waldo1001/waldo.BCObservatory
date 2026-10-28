@@ -2,47 +2,75 @@
 id: topic/business-central/business-functionality/local-functionality/united-states
 type: topic
 title: United States
-summary: "United States local functionality in Business Central: tax (sales tax, use and purchase tax, unrealized sales tax, IRS 1099 and 1096 forms), banking and payments (bank deposits, vendor payment export, bank reconciliation), and printing troubleshooting reports. It answers setup and how-to questions for the US version."
+summary: "United States local functionality in Business Central: tax (sales tax, use and purchase tax, unrealized sales tax, IRS 1099 and 1096 forms), banking and payments (deposits, bank reconciliation, vendor payment export), and a troubleshooting reports page. It answers setup and compliance questions for US companies."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:17:51.465Z"
+  at: "2026-10-28T11:01:41.836Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9d81f9e8a19bb90727feccd0d1c360c91dc6d791120bcf99370a348f4e25c1b3
+  input_hash: 2c428df32be60f23de3a702df61fa475f2beb7e93bb166c3c455accf1232ab5c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/us-tax-setup
     title: Basic Tax Setup in the US Version
-    date: "2025-02-04"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-create-deposits
     title: Create deposits [US]
-    date: "2025-02-04"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports
     title: How to print troubleshooting reports [US]
-    date: "2025-02-04"
+    date: "2026-10-26"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1096-form
+    title: IRS 1096 Forms Setup and Reporting [US]
+    date: "2026-10-19"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-report
+    title: IRS 1099 Forms Reporting and Submission [US]
+    date: "2026-10-19"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/tax-1099-changes
+    title: IRS 1099 Legacy Format Changes and Details
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/introduction-to-the-irs-forms
-    title: Introduction to the IRS 1099 tax forms [US]
-    date: "2026-02-04"
+    title: IRS 1099 Tax Forms Overview in Business Central
+    date: "2026-10-19"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form
+    title: Legacy IRS 1099 Forms Setup and Reporting [US]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
@@ -56,77 +84,49 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts
     title: Reconciling Bank Accounts [US]
-    date: "2025-02-04"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/tax-1099-changes
-    title: Regulatory 1099 format changes and details
-    date: "2025-02-04"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-report
-    title: Report and submit the IRS 1099 form [US]
-    date: "2026-05-06"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/us-sales-tax
     title: Sales tax in the US Version
-    date: "2025-02-04"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1096-form
-    title: Set up and use the IRS 1096 form [US]
-    date: "2025-02-04"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form
-    title: Set up and use the IRS 1099 form [US]
-    date: "2025-02-04"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24
-    title: Set up IRS 1099 forms
-    date: "2025-12-30"
+    title: Set Up IRS 1099 Forms Reporting in Business Central
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax
     title: Set Up Use Tax and Purchase Tax [US]
-    date: "2025-02-04"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-use
-    title: Track data and use the IRS 1099 form
-    date: "2026-05-06"
+    title: Track and Review Vendor Data for IRS 1099 Forms
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/united-states-local-functionality
     title: United States local functionality
-    date: "2025-12-30"
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts
     title: Unrealized sales tax and sales payment discounts
-    date: "2025-02-04"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
@@ -243,27 +243,28 @@ narrative: generated
 
 # United States
 
-> United States local functionality in Business Central: tax (sales tax, use and purchase tax, unrealized sales tax, IRS 1099 and 1096 forms), banking and payments (bank deposits, vendor payment export, bank reconciliation), and printing troubleshooting reports. It answers setup and how-to questions for the US version.
+> United States local functionality in Business Central: tax (sales tax, use and purchase tax, unrealized sales tax, IRS 1099 and 1096 forms), banking and payments (deposits, bank reconciliation, vendor payment export), and a troubleshooting reports page. It answers setup and compliance questions for US companies.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > United States · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section collects the features specific to the US version of Business Central. The landing page, "United States local functionality", gives the overall picture: tax reporting, banking and payments, and general features such as 1099 form handling, deposit creation, bank reconciliation, and e-invoicing support. It mentions version 27.0.
+This section covers features specific to the US version of Business Central. The main page, United States local functionality, lists the topics: basic tax setup, sales tax reporting, use tax and purchase tax, unrealized sales tax, sales payment discounts and IRS 1099 forms. It also mentions the 2027 release wave 1.
 
-Two subtopics hold the detail. Tax covers sales tax, use and purchase tax, unrealized sales tax, and the IRS 1099 and 1096 forms, including setup, jurisdictions and groups, vendor tracking, form format changes, and submission to the IRS. Banking & payments has three how-to pages: creating bank deposits, paying vendors by exporting payments, and reconciling bank accounts.
+Two subtopics hold the detail. Tax has 11 pages on sales tax setup (tax groups, jurisdictions, areas, details), use and purchase tax, unrealized sales tax, and IRS 1099 and 1096 setup, tracking, reporting and submission. Banking & payments has 3 pages on creating deposits, reconciling bank accounts with the Bank Rec. Worksheet, and exporting vendor payments through AMC Banking 365 Fundamentals or SEPA credit transfer.
 
-The hub also has a page on printing troubleshooting reports for diagnostic and reporting purposes. Start with the landing page for orientation, then go to Tax or Banking & payments depending on the task.
+Start with the main page for orientation. Then go to Tax for setup and compliance questions, or to Banking & payments for bank workflows. The page on printing troubleshooting reports is for diagnosing issues in the US localization.
 
 ## Key points
 
-- Tax subtopic (11 pages) covers sales tax, use and purchase tax, and unrealized sales tax.
-- IRS 1099 and 1096 forms are covered, including 1099 setup, vendor tracking, reporting, APIs, form format changes, and submission to the IRS.
-- Tax setup includes jurisdictions and groups.
-- Banking & payments subtopic (3 pages) covers creating bank deposits, paying vendors, and reconciling bank accounts.
-- Vendor payments can be exported with AMC Banking 365 Fundamentals (US) or SEPA credit transfer (EU).
-- A separate page explains how to print troubleshooting reports in the US version.
-- The landing page references e-invoicing support and version 27.0.
+- Sales tax setup uses tax groups, jurisdictions, areas and details.
+- Use tax and purchase tax, and unrealized sales tax, are covered in the Tax subtopic.
+- IRS 1099 and 1096 forms: setup, tracking, reporting and submission.
+- Sales payment discounts are listed among the US local features.
+- Deposits can be created and bank accounts reconciled with the Bank Rec. Worksheet.
+- Vendor payments can be exported through AMC Banking 365 Fundamentals or SEPA credit transfer.
+- A US-specific page explains how to print troubleshooting reports for diagnosing issues.
+- The main page references 2027 release wave 1.
 
 ## Subtopics
 

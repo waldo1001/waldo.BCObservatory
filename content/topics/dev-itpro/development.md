@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development
 type: topic
 title: Development
-summary: "Development for Business Central covers building AL extensions: setting up Visual Studio Code and sandboxes, the AL language, extensibility, best practices, extension lifecycle, analytics and reporting, and troubleshooting. It answers setup, syntax, design, deployment and debugging questions, plus AL-Go DevOps automation."
+summary: "Development in Business Central covers building AL extensions: tool setup, the AL language, extensibility, rules and best practices, extension lifecycle, data analytics and reporting, AL-Go for GitHub, and troubleshooting. It helps find the right area for setup, coding, deployment and diagnostic questions."
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-25T12:53:09.453Z"
+  at: "2026-10-28T11:00:23.406Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 8f578016d175c59df7ad2753a06467d654854f6a4f8577d106e62b7c5cbbfc4c
+  input_hash: 5d67244616191a74f2a67626d4a65300c98ad8351b36e40e67f2beebfedb432e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dotnet-controladdins
@@ -167,8 +167,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-actions
-    title: AL code actions
-    date: "2026-05-27"
+    title: AL Code Actions in Visual Studio Code
+    date: "2026-10-16"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-analysis-performance-configuration
+    title: AL Code Analysis Performance Configuration
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
@@ -288,13 +295,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-simple-statements
     title: AL simple statements
     date: "2025-01-24"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-type-conversion-expressions
-    title: AL type conversion in expressions
-    date: "2025-02-07"
     commit: null
     t: null
     quote: null
@@ -532,28 +532,28 @@ narrative: generated
 
 # Development
 
-> Development for Business Central covers building AL extensions: setting up Visual Studio Code and sandboxes, the AL language, extensibility, best practices, extension lifecycle, analytics and reporting, and troubleshooting. It answers setup, syntax, design, deployment and debugging questions, plus AL-Go DevOps automation.
+> Development in Business Central covers building AL extensions: tool setup, the AL language, extensibility, rules and best practices, extension lifecycle, data analytics and reporting, AL-Go for GitHub, and troubleshooting. It helps find the right area for setup, coding, deployment and diagnostic questions.
 
 Path: Development · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Development is the entry point for anyone building extensions for Business Central in AL. The hub's own pages introduce the AL Language reference (data types, methods, properties, triggers, diagnostics, code analyzers), the basics of developing extensions in AL with Visual Studio Code, and AL-Go for GitHub, which provides templates and actions for CI/CD, automated testing and version control.
+This section is the entry point for developing Business Central extensions in AL with Visual Studio Code. Its own pages give a first look: an introduction to developing extensions (extension model, table and page extensions, code snippets, compiler validation, the designer), an AL Language reference overview (data types, methods, properties, attributes, diagnostics and code analyzers), and an overview of AL-Go for GitHub, which supplies templates and actions for CI/CD, automated testing and version control.
 
-The subtopics follow a typical project path. Start with Get started and Development environment for tooling, sandboxes, projects, compiling, publishing, debugging and app.json packaging. Then use Programming in the AL language and The AL programming language for syntax, object types and design topics, and Extensibility for changing base behavior through events and extensions without altering Microsoft's code.
+The subtopics split the work by stage. Get started and Development environment handle setup, projects, sandboxes, compiling, publishing, debugging and testing. Programming in the AL language and The AL programming language cover syntax, object types and design. Extensibility explains how extensions change behavior without touching base code. Rules, guidelines, and best practices, Extension lifecycle and Troubleshooting cover quality, deployment and problem solving. Data analytics and reporting and System and application reference documentation cover analysis options and the modular application layers.
 
-Later stages are covered by Rules, guidelines, and best practices (deprecation, code style, performance, security, Marketplace submission), Extension lifecycle (testing, deploying, updating, migrating data), and Troubleshooting (debugging, profiling, telemetry). Data analytics and reporting and System and application reference documentation cover reporting options and the modular System Application.
+New developers should begin with Developing extensions in AL, then Get started and Development environment. Move to the language and extensibility sections when coding, and use best practices, lifecycle and troubleshooting pages as the work moves toward release and support.
 
 ## Key points
 
-- Own pages: AL Language reference overview, Developing extensions in AL, and Overview of AL-Go.
-- Get started covers Visual Studio Code and sandbox setup, editor tools, Designer, translations, telemetry, runtime packages, ALTool and AppSource publishing.
-- Development environment covers projects and workspaces, code analysis, compiling, publishing, debugging, testing, app.json packaging, Page Inspection and Txt2Al.
-- AL-Go for GitHub offers templates and actions for CI/CD, automated testing, version control and repository maintenance, for per-tenant extensions or Marketplace apps.
-- Extensibility explains extending code flow, tables, pages, reports, enums and permission sets using events, without changing base code.
-- Rules and best practices include deprecating objects, methods, symbols and external business events, plus code style, testing, performance, security and telemetry.
-- Extension lifecycle covers phases from development to deprovisioning, extension types and scopes, and moving apps between scopes.
-- Troubleshooting covers client tools, AL debugging and profiling, telemetry, and guides for migration, report and web service failures.
+- Developing extensions in AL uses Visual Studio Code and covers tables, pages, codeunits and reports, with table and page extensions, snippets, compiler validation and a drag and drop designer.
+- The AL Language reference overview points to data types, methods, properties, method attributes, AL and AVS diagnostics, and code analyzers.
+- AL-Go for GitHub provides GitHub templates and actions for CI/CD, automated testing, version control and repository maintenance, for per-tenant extensions or Marketplace apps.
+- Get started covers VS Code and AL Language extension setup, editor tools, Designer, telemetry, translation, runtime packages and ALTool.
+- Development environment covers projects and workspaces, sandboxes, compiling, publishing, debugging, code analysis, testing and app packaging.
+- Extensibility explains extension objects, events, client add-ins and Power BI embedding, plus contributing to System Application modules.
+- Rules, guidelines, and best practices covers deprecation, code style, testing, performance, security, telemetry and Marketplace submission.
+- Extension lifecycle and Troubleshooting cover deploying, updating, migrating data, AL debugging and profiling, and telemetry analysis.
 
 ## Subtopics
 

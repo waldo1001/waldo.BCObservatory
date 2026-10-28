@@ -2,47 +2,47 @@
 id: topic/business-central/business-functionality/local-functionality/india/subcontracting
 type: topic
 title: Subcontracting
-summary: "Subcontracting in the India localization of Business Central: setup of locations, vendors and items, creating subcontracting orders from released production orders, sending materials by delivery challan, GST liability, and job work reports. It answers how-to questions about the subcontracting process."
+summary: Subcontracting for India in Business Central covers setting up subcontracting, creating subcontracting orders, sending materials to vendors by delivery challan, creating GST liability for overdue challans, and reporting. It answers how-to questions on job work processes and GST handling.
 tier: official
 language: en
 system: manufacturing
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:25:24.463Z"
+  at: "2026-10-28T11:03:26.437Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 8fdc4692c712999bdaa59e3ba7551eaf2238ec443a6c4e0850d00a9e10dcfd3b
+  input_hash: 543aaf67eb2fe5305d287ea881065b619361761cddaea244070fff64fd510458
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Create-GST-Liability
     title: Create GST Liability
-    date: "2025-06-26"
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-001-Basic-Setup
-    title: Setting Up Subcontracting
-    date: "2025-06-26"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Reports
-    title: Sub Contracting Reports
-    date: "2025-06-26"
+    title: Set Up Subcontracting for India
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Transactions
-    title: Sub-Contracting Order Creation
-    date: "2025-06-26"
+    title: Subcontracting Order Creation
+    date: "2026-10-21"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Reports
+    title: Subcontracting Reports
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
@@ -50,8 +50,8 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Create-GST-Liability
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-001-Basic-Setup
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Reports
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Transactions
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Reports
   objects: []
   features: []
   topics:
@@ -83,37 +83,38 @@ narrative: generated
 
 # Subcontracting
 
-> Subcontracting in the India localization of Business Central: setup of locations, vendors and items, creating subcontracting orders from released production orders, sending materials by delivery challan, GST liability, and job work reports. It answers how-to questions about the subcontracting process.
+> Subcontracting for India in Business Central covers setting up subcontracting, creating subcontracting orders, sending materials to vendors by delivery challan, creating GST liability for overdue challans, and reporting. It answers how-to questions on job work processes and GST handling.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > Subcontracting · tier official · system manufacturing · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Subcontracting for the Indian localization lets a manufacturer send raw materials to a subcontractor under a delivery challan, receive the processed goods back, and handle GST liability when materials are not returned within the job work return period.
+Subcontracting in the India localization lets manufacturers send raw materials to subcontractors under delivery challans and manage the job work process, including GST liability when materials are not returned in time.
 
-The pages follow the process in order. Start with Setting Up Subcontracting (location, vendor and item setup, return period). Then Sub-Contracting Order Creation covers the worksheet-based order flow, material issue and receipt. Create GST Liability covers challans whose materials were not returned in time. Sub Contracting Reports describes the Delivery Challan and Stock Register for Job Work reports for review.
+The pages follow the process order. Start with Set Up Subcontracting for India, which covers the subcontracting location, vendor and item setup, the job work return period, and GST liability for overdue challans. Then Subcontracting Order Creation explains how a released production order with a subcontracting location feeds the Subcontracting Worksheet, which generates orders and handles material sent to and received from the vendor.
+
+Create GST Liability is used for overdue delivery challans. It filters by vendor, order, challan, and liability date, then posts to the GST Liability account. Subcontracting Reports covers the Delivery Challan and Stock Register for Job Work reports for tracking.
 
 ## Key points
 
-- Setup covers subcontracting location, vendor and item, plus the job work return period.
-- Subcontracting orders require a released production order.
-- The subcontracting worksheet is used to create subcontracting orders.
-- Materials are issued to the subcontractor with a delivery challan, which carries a challan number and date.
-- Receipt from the subcontractor includes vendor shipment tracking and quantity acceptance.
-- GST liability is created for delivery challans when materials are not returned within the specified period.
-- The Delivery Challan report lists raw materials sent to vendors.
-- The Stock Register for Job Work report tracks job work transfers, consumption entries and GST liability.
+- Setup covers the subcontracting location, vendor, and item, plus the job work return period.
+- A subcontracting order requires a released production order with a subcontracting location.
+- The Subcontracting Worksheet (calculate subcontracts) generates subcontracting orders; the order creation page mentions version 28.
+- Raw materials are sent to the vendor under a delivery challan, and receipt from the vendor is recorded afterward.
+- Create GST Liability prepares liability lines for eligible overdue delivery challans.
+- Create GST Liability filters by vendor, order, challan, and liability date, and tracks remaining quantity.
+- Liability is posted to the GST Liability account.
+- The Delivery Challan and Stock Register for Job Work reports show materials sent and GST-related transfer, consumption, and output entries.
 
 ## Learn pages
 
 - [Create GST Liability](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Create-GST-Liability): Learn how to create GST liability for subcontracting vendors in Business Central when materials aren't returned within the specified period.
   - In the observatory: [Page 18467 "Create GST Liability (IN)"](../../../../../objects/page/18467-in.md)
-- [Setting Up Subcontracting](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-001-Basic-Setup): Learn how to set up subcontracting in Business Central for India.
-  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 279 "Source Code Setup"](../../../../../objects/page/279.md), [Page 36957 "Locations"](../../../../../objects/page/36957.md), [Page 461 "Inventory Setup"](../../../../../objects/page/461.md), [Page 99000766 "Routing"](../../../../../objects/page/99000766.md)
-- [Sub Contracting Reports](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Reports): Learn about the available subcontracting reports in Business Central for India.
+- [Set Up Subcontracting for India](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-001-Basic-Setup): Set up subcontracting locations, vendors, items, return periods, and GST liability posting accounts in the India localization of Business Central.
+- [Subcontracting Order Creation](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Transactions): Create subcontracting orders, send components with delivery challans, and apply challans when receiving finished items in Business Central for India.
+  - In the observatory: [Page 18466 "Applied Delivery Challan (IN)"](../../../../../objects/page/18466-in.md), [Page 18481 "Order Subcon Details Receipt (IN)"](../../../../../objects/page/18481-in.md), [Page 99000886 "Subcontracting Worksheet"](../../../../../objects/page/99000886.md)
+- [Subcontracting Reports](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Reports): Preview delivery challans and stock registers for job work to review subcontracting material movements and GST liability in Business Central for India.
   - In the observatory: [Report 18467 "Delivery Challan (IN)"](../../../../../objects/report/18467-in.md), [Report 18468 "Stock Register for Job Work (IN)"](../../../../../objects/report/18468-in.md)
-- [Sub-Contracting Order Creation](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Transactions): Learn how to create and manage subcontracting orders in Business Central for India.
-  - In the observatory: [Page 18481 "Order Subcon Details Receipt (IN)"](../../../../../objects/page/18481-in.md), [Page 99000886 "Subcontracting Worksheet"](../../../../../objects/page/99000886.md)
 
 ## Videos, posts and code changes
 

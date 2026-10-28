@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: b17f9ef6825ad4d39da7848e5e1382de75133d3d6273b52274a1a62ae25f4c70
+  input_hash: ed5153bc34fc76ad84b71ea2ca99858f4aec8d661b569f2e0b918fce67305e97
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ESGStatisticalAccountsDemoTool/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ESGStatisticalAccountsDemoTool/app
     title: src/Apps/W1/ESGStatisticalAccountsDemoTool/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -85,4 +85,4 @@ First-party app · folder `src/Apps/W1/ESGStatisticalAccountsDemoTool/app` · BC
 |---|---|---|
 | 5236 | [Stat. Contoso Demo Data Module](../objects/enumextension/5236.md) |  |
 
-Source: [src/Apps/W1/ESGStatisticalAccountsDemoTool/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ESGStatisticalAccountsDemoTool/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/ESGStatisticalAccountsDemoTool/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ESGStatisticalAccountsDemoTool/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

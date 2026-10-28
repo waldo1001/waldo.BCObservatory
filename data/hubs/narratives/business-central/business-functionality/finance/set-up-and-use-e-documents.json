@@ -1,38 +1,39 @@
 {
   "hub_id": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
-  "input_hash": "de5f6315fc1c1c74725721329c76d04e681cd8a6d3562f2ddff3f4a26916d652",
-  "summary": "E-Documents in Business Central: how to set up, connect and use electronic invoices and business documents in sales and purchasing. It answers questions about service and workflow setup, Peppol formats, external access points, Microsoft 365 connectors, and extending the framework.",
-  "overview": "The E-Documents app manages electronic invoices and other business documents in Business Central. It supports localization for multiple countries and can be extended for specific requirements. The overview page is the place to start, followed by the setup page, which covers e-document services, workflows and document sending profiles.\n\nConnectivity has two sides. Connectors to external access points (Pagero, Avalara, Logiq, ExFlow, B2BRouter) are described in one page, and a second page covers installing the E-Document Core app and connector apps from Microsoft Marketplace. A separate page covers connecting to Outlook, SharePoint and OneDrive to import vendor invoices and receipts.\n\nDay-to-day use is split into sales and purchase pages. Sales covers creating and sending e-invoices and credit memos and checking status and logs. Purchase covers receiving, matching and processing incoming documents. A page for developers describes the interfaces that localization apps and ISVs use to add formats and services.",
+  "input_hash": "eab143d7c707c507001798b92afbfffcb22922b0c74ad47127a6d8d88265758a",
+  "summary": "E-Documents in Business Central covers setting up the E-Documents app and services, connecting to external access points and Microsoft 365, and using e-documents in sales and purchasing. It answers questions about setup, connectors, Peppol formats, status tracking, matching incoming documents, and extending the framework.",
+  "overview": "The E-Documents app manages electronic invoices and other business documents in Business Central. It supports localizations for several countries and has extension points for specific requirements. Start with the overview page, then read \\\"Set Up E-documents\\\". That page covers the E-Documents Service, document sending profiles, the PEPPOL BIS 3.0 format, and the clearance model used in countries such as Spain, India, Mexico, and Italy.\\n\\nThree pages cover connections. One explains connecting to external access points (Pagero, Avalara, Logiq, ExFlow, B2BRouter). Another covers installing the E-Document Core app and connector apps from Microsoft Marketplace, then configuring services, GLN, customers, and workflows for non-Microsoft endpoints. A third covers connecting Outlook, SharePoint, and OneDrive to import vendor invoices and receipts.\\n\\nFor daily work, \\\"Use e-documents in sales\\\" covers creating and sending e-invoices and credit memos, sending them as email attachments, and checking status and logs. \\\"Use E-Documents in the purchase process\\\" covers receiving, matching, vendor setup, and error handling. Developers building localizations or ISV extensions should read \\\"Extending the e-documents functionality\\\".",
   "key_points": [
-    "Setup covers e-document services, workflows and document sending profiles, with PEPPOL BIS 3.0, Data Exchange formats and the clearance model (page lists version 24.0).",
-    "External connectors listed: Pagero, Avalara, Logiq, ExFlow and B2BRouter, with OAuth 2.0 authentication.",
-    "Endpoint connector setup needs the E-Document Core app plus connector apps from Microsoft Marketplace, then connection setup, GLN configuration, customer e-document setup and workflow configuration.",
+    "The E-Documents app manages sales and purchase e-documents, tracks document status, and supports Peppol formats.",
+    "Setup covers the E-Documents Service, document sending profiles, data exchange, and automatic import and processing. A clearance model is described for countries such as Spain, India, Mexico, and Italy.",
+    "The listed connectors to external access points are Pagero, Avalara, Logiq, ExFlow, and B2BRouter, and they use OAuth 2.0 authentication.",
+    "Connecting to non-Microsoft endpoints requires the E-Document Core app and connector apps from Microsoft Marketplace, plus setup of GLN, customer e-documents, and workflows.",
     "Microsoft 365 connectors (Outlook, SharePoint, OneDrive) import vendor invoices and receipts for accounts payable, using E-Document Services and Service Integration V2.",
-    "Sales: create and send e-invoices and credit memos in Peppol formats, and view e-document status and logs.",
-    "Purchase: handles invoices, orders and credit memos, with automatic matching, Copilot purchase order matching, text-to-account mapping, item reference mapping and vendor configuration.",
-    "Extensibility covers document format creation, service integration, async sending, batch processing, response handling and receiving (page lists 2025 release wave 1)."
+    "In sales you can create and send e-invoices and credit memos in Peppol formats, view status and logs, and send documents as email attachments.",
+    "Purchasing supports invoices, orders, and credit memos, with automatic matching, purchase order matching with Copilot, text-to-account mapping, and item reference mapping.",
+    "The extension framework covers document format creation, service integration, async sending, batch processing, response handling, and document receiving. The page references 2025 release wave 1."
   ],
   "members_used": 8,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:06:57.692Z",
+  "at": "2026-10-28T10:59:11.218Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.015837
+    "cost_usd": 0.016993
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:21:05.029Z",
-    "verdict": "approve",
+    "at": "2026-10-28T11:02:25.424Z",
+    "verdict": "fix",
     "issues": [
-      "Overview presents the overview page as the start and setup as the next step. That is a reasonable reading order but none of the page summaries states it.",
-      "Overview says 'Connectivity has two sides' and then describes three pages. Two of them cover external access points and one covers Microsoft 365, so the wording is loose but not wrong.",
-      "The endpoint connector key point says 'then connection setup, GLN configuration...'. This implies an order the source does not give, since these items are only listed as features.",
-      "Some supported details are left out: purchase error handling and linking e-documents to existing documents, sending sales e-documents as email attachments, and automatic import and processing in setup. Adding them would make the narrative more useful."
+      "Overview says \"Transmission needs a connector.\" The sources don't say that, and the sales page lists sending e-documents as email attachments. Reworded so connectors are presented as the way to reach access points, not a requirement for every transmission.",
+      "Key point 2 says the clearance model \"applies to Spain, India, Mexico, and Italy\", which reads as a complete list. The source says \"countries like\" these, so it's now worded as examples.",
+      "Key point 8 attaches \"2025 release wave 1\" to the whole extension framework. The source only lists it as a version reference on the page. Reworded to say the page references that release instead of tying every feature to it.",
+      "Minor: Copilot mapping from the overview page and version 24.0 from the setup page are left out. Both omissions are acceptable."
     ],
-    "input_hash": "de5f6315fc1c1c74725721329c76d04e681cd8a6d3562f2ddff3f4a26916d652",
-    "cost_usd": 0.037271200000000004
+    "input_hash": "eab143d7c707c507001798b92afbfffcb22922b0c74ad47127a6d8d88265758a",
+    "cost_usd": 0.059267200000000006
   }
 }

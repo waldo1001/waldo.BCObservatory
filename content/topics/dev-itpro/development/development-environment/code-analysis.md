@@ -12,11 +12,18 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 61e2a4d07f1a0d5d0861caf2b89566311e9d4f58e240af3c6531aff87ef76f16
 evidence:
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-analysis-performance-configuration
+    title: AL Code Analysis Performance Configuration
+    date: "2026-10-21"
+    commit: null
+    t: null
+    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostics-overview
     title: AL diagnostics
@@ -28,13 +35,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop
     title: AppSourceCop analyzer
     date: "2026-10-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-analysis-performance-configuration
-    title: Code analysis performance configuration
-    date: "2023-01-09"
     commit: null
     t: null
     quote: null
@@ -82,9 +82,9 @@ evidence:
     quote: null
 links:
   learn:
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-analysis-performance-configuration
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostics-overview
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-analysis-performance-configuration
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/codecop
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/pertenantextensioncop
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-rule-set-syntax-for-code-analysis-tools
@@ -127,9 +127,9 @@ Path: [Development](../../development.md) > [Development environment](../develop
 
 ## Learn pages
 
+- [AL Code Analysis Performance Configuration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-analysis-performance-configuration): Configure background code analysis in AL for Business Central, identify slow analyzers, and adjust the analysis scope to improve editor performance.
 - [AL diagnostics](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostics-overview)
 - [AppSourceCop analyzer](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/appsourcecop): AppSourceCop is an analyzer that enforces rules that must be respected by extensions meant to be published to Microsoft AppSource.
-- [Code analysis performance configuration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-analysis-performance-configuration): Guidance on troubleshooting and optimizing code analysis performance in AL for Business Central.
 - [CodeCop analyzer](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/codecop): CodeCop is an analyzer that enforces the official AL Coding Guidelines.
 - [PerTenantExtensionCop analyzer](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/pertenantextensioncop): PerTenantExtensionCop is an analyzer that enforces rules that must be respected by extensions meant to be installed for individual tenants.
 - [Ruleset for the code analysis tool](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-rule-set-syntax-for-code-analysis-tools): Description of how to create custom rulesets for the code analysis tool in AL for Business Central.

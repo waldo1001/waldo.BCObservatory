@@ -4,12 +4,12 @@
   "title": "[29.X]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines",
   "repo": "microsoft/BCApps",
   "systems_joined": [],
-  "summary": "Fixed an issue where modifying the description field on purchase invoice and credit memo lines would unexpectedly reset the quantity to 1.",
+  "summary": "Fixed an issue in the Dutch (NL) version on 29.x where editing the Description on purchase invoice or credit memo subform lines reset the Quantity to 1. A test was added.",
   "key_points": [
-    "Quantity field was being reset when description was edited on purchase document lines",
-    "Issue affected both purchase invoices and credit memos",
-    "Fix applied to the subform pages handling these documents",
-    "Test case added to verify the corrected behavior"
+    "Editing Description on purchase invoice and credit memo lines reset Quantity to 1",
+    "Fix is in the NL layer subform pages for purchase invoices and credit memos",
+    "Targets the 29.x release branch",
+    "Test added in the NL local test codeunit"
   ],
   "change_kind": "fix",
   "behavior_change": true,

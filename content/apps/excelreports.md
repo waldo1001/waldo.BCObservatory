@@ -2,7 +2,7 @@
 id: app/excelreports
 type: app
 title: ExcelReports
-summary: "ExcelReports (Microsoft.Finance): 70 objects in BC29-30 (36 page extensions, 12 reports, 7 queries, 5 codeunits, 5 permission set extensions, ...); documented by 8 Learn hubs."
+summary: "ExcelReports (Microsoft.Finance): 71 objects in BC29-30 (36 page extensions, 12 reports, 8 queries, 5 codeunits, 5 permission set extensions, ...); documented by 8 Learn hubs."
 tier: official
 language: en
 tags:
@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 0ddb824ca2888f416d18ff527fde337a8e914d38839020fb1f19eedb58e09377
+  input_hash: de86cc15c5074540e98d18412da6cd2e8d53da5a8a456d5d832ec2a24a1e76a9
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ExcelReports/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ExcelReports/app
     title: src/Apps/W1/ExcelReports/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -94,6 +94,7 @@ links:
     - object/query/4405
     - object/query/4406
     - object/query/4407
+    - object/query/4408
     - object/permissionset/4401
     - object/permissionsetextension/4400
     - object/permissionsetextension/4401
@@ -120,11 +121,11 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 70
+  objects: 71
   by_type:
     pageextension: 36
     report: 12
-    query: 7
+    query: 8
     codeunit: 5
     permissionsetextension: 5
     table: 4
@@ -136,7 +137,7 @@ counts:
 
 # ExcelReports
 
-> ExcelReports (Microsoft.Finance): 70 objects in BC29-30 (36 page extensions, 12 reports, 7 queries, 5 codeunits, 5 permission set extensions, ...); documented by 8 Learn hubs.
+> ExcelReports (Microsoft.Finance): 71 objects in BC29-30 (36 page extensions, 12 reports, 8 queries, 5 codeunits, 5 permission set extensions, ...); documented by 8 Learn hubs.
 
 First-party app · folder `src/Apps/W1/ExcelReports/app` · namespace `Microsoft.Finance` · BC29-30 · system finance · facts from the code pillar and the joins, nothing machine-written
 
@@ -155,7 +156,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-70 objects, by type.
+71 objects, by type.
 
 ### Tables (4)
 
@@ -234,7 +235,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 4410 | [Trial Balance](../objects/codeunit/4410.md) |  |
 | 4412 | [Excel Reports Telemetry](../objects/codeunit/4412.md) |  |
 
-### Queries (7)
+### Queries (8)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -245,6 +246,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 4405 | [EXR Trial Balance](../objects/query/4405.md) |  |
 | 4406 | [EXR Trial Balance Budget](../objects/query/4406.md) |  |
 | 4407 | [EXR Trial Balance BU](../objects/query/4407.md) |  |
+| 4408 | [EXR Trial Bal by Period](../objects/query/4408.md) |  |
 
 ### Permission sets (1)
 
@@ -262,4 +264,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 4403 | [D365 FULL ACCESS - FE Reports](../objects/permissionsetextension/4403.md) |  |
 | 4404 | [D365 READ - FE Reports](../objects/permissionsetextension/4404.md) |  |
 
-Source: [src/Apps/W1/ExcelReports/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ExcelReports/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/ExcelReports/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ExcelReports/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

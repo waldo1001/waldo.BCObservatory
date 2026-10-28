@@ -1,35 +1,36 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/new-zealand",
-  "input_hash": "5fb394571010f8633f5f06110466e95e6cc8394c6f20dd7f4b1bb7128d7f4844",
-  "summary": "New Zealand local functionality in Business Central: GST and withholding tax, Peppol PINT A-NZ e-invoicing, banking and EFT, statutory finance reports, and NZ address and IRD number handling. It answers setup and usage questions for NZ-specific requirements.",
-  "overview": "This section covers the features Business Central adds for companies in New Zealand. It starts with an overview page listing the main areas: Withholding Tax, Goods and Services Tax, E-Invoicing with Peppol PINT A-NZ, Electronic Funds Transfer and GST settlement reporting.\n\nA separate page explains how to set up and use the E-Documents framework with the Peppol PINT A-NZ format, including service integration and the sales and purchasing workflows. The subtopics hold the detailed how-to pages: Tax (8 pages), Banking & payments (5), Core finance (3) and General (4).\n\nStart with the overview page to find your area. For tax setup go to Tax. For electronic invoicing use the e-invoicing page. Bank, EFT and reconciliation tasks are under Banking & payments.",
+  "input_hash": "6076d7d5ec7559e22f0d08ada63d85bbfadf3fe95bd4f44bed7bd9ed79e67254",
+  "summary": "New Zealand local functionality in Business Central: GST and withholding tax, Peppol PINT A-NZ e-invoicing, banking and payments (EFT, check installments), financial reports, and general items such as addresses, IRD numbers and adjustment notes. It answers setup and usage questions for the New Zealand version.",
+  "overview": "This section collects the features specific to the New Zealand version of Business Central. It has an overview page listing the local functionality, a page on electronic invoicing, and four subtopics: Tax, Banking & payments, Core finance, and General.\n\nElectronic invoicing uses the E-Documents framework to send and receive invoices and credit memos in Peppol PINT A-NZ format. Setup covers the company GLN, customer information, tax categories and the local format configuration.\n\nStart with the New Zealand Local Functionality overview to see what exists. Then go to Tax for GST and withholding tax, Banking & payments for EFT and bank reports, Core finance for balance sheet and income statement options, or General for addresses, IRD numbers, adjustment notes and cost-plus pricing.",
   "key_points": [
-    "Electronic invoicing uses the E-Documents framework with the Peppol PINT A-NZ format for sales and purchasing workflows.",
-    "Tax covers GST posting setup, GST on prepayments, GST settlement reports and VAT exchange rate adjustment.",
-    "Withholding tax (WHT) setup, calculation and settlement are documented under Tax.",
-    "Banking & payments covers bank cash flow comparison, check installments, vendor EFT, and bank reconciliation and deposit slip reports.",
-    "Core finance covers calculating distribution amounts, and printing statutory balance sheet and income statement reports.",
-    "General covers address handling with DPID and postal codes, and cost plus percentage sales pricing.",
-    "General also covers IRD numbers and adjustment notes for GST."
+    "Tax (8 pages): GST posting setup, GST settlement reports, GST on prepayments, VAT settlement exchange rate adjustment, and withholding tax (WHT) setup and settlement.",
+    "E-invoicing uses the E-Documents framework with Peppol PINT A-NZ format for invoices and credit memos.",
+    "E-invoicing setup needs the company GLN, customer information, tax category mapping and local format configuration.",
+    "Banking & payments (5 pages): bank cash flow comparison, check installments, EFT for vendor payments, and bank reconciliation and deposit slip reports.",
+    "Core finance (3 pages): distribution amount calculation and printing the balance sheet and income statement reports with their options.",
+    "General (4 pages): postal codes and DPID bar codes in addresses, IRD number entry, adjustment notes for GST corrections, and cost-plus percentage sales pricing.",
+    "The overview page references the 2026 release wave 1."
   ],
   "members_used": 2,
   "subtopics_used": 4,
   "prompt_version": 1,
-  "at": "2026-10-07T02:11:07.108Z",
+  "at": "2026-10-28T10:59:18.317Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011904999999999999
+    "cost_usd": 0.012827000000000002
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:16:52.700Z",
+    "at": "2026-10-28T11:01:32.735Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the overview says 'Bank, EFT and reconciliation tasks'. The source says the EFT coverage is vendor EFT specifically, but the key points already make that clear."
+      "Minor: the overview opens with 'This section collects...'. That is allowed, but leading with the subject would read more directly.",
+      "Minor: the key point on the 2026 release wave 1 version adds little for agents, though the source supports it."
     ],
-    "input_hash": "5fb394571010f8633f5f06110466e95e6cc8394c6f20dd7f4b1bb7128d7f4844",
-    "cost_usd": 0.024547199999999998
+    "input_hash": "6076d7d5ec7559e22f0d08ada63d85bbfadf3fe95bd4f44bed7bd9ed79e67254",
+    "cost_usd": 0.023351200000000003
   }
 }

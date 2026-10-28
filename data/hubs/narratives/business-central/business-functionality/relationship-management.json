@@ -1,37 +1,36 @@
 {
   "hub_id": "topic/business-central/business-functionality/relationship-management",
-  "input_hash": "482353e8b0b040aa12667db966019666bfd91603e14999b1055d9907a850ab34",
-  "summary": "Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing campaigns and the Dynamics 365 Sales integration. It answers setup, how-to and reporting questions for managing customer relationships.",
-  "overview": "Relationship management is the Business Central area for organizing customer relationships. It brings together contacts, interactions, segments, sales opportunities and marketing campaigns, and can be integrated with Dynamics 365 Sales.\n\nStart with the setup page for marketing and contact management information. It covers contact synchronization with customers, vendors and bank accounts, inheritance of contact fields, number series, duplicate search and interaction recording. After setup, the subtopics follow the working flow: manage contacts, group them into segments, record interactions with contacts and segments, and track sales opportunities through sales cycles.\n\nTwo further subtopics round out the area. One covers using Dynamics 365 Sales with Business Central, including coupling records and checking synchronization errors. The other covers the built-in analytics reports for contacts, campaigns, opportunities, segments and questionnaires.",
+  "input_hash": "f994bb8923f52b19554b1e17aefb65f70dc4c441d42c15d57a9d0d6672e77d9e",
+  "summary": "Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing reports, and the Dynamics 365 Sales integration. It answers setup and how-to questions about tracking customers and prospects and their communication history.",
+  "overview": "Relationship management helps teams manage sales efforts with complete contact information, communication tracking, and lead-to-opportunity handling across customer segments. It also supports marketing campaign planning and integration with Dynamics 365 Sales.\n\nStart with the setup page, \"Set Up Marketing and Contact Management\". It covers contact synchronization with customers, vendors, and bank accounts, number series, field inheritance, duplicate detection, and automatic interaction recording. The overview page, \"Manage Business Relationships and Marketing\", gives the big picture.\n\nThe subtopics follow the working flow. Manage contacts creates and classifies contacts. Manage segments groups them for campaigns. Manage interactions records communication. Manage sales opportunities moves deals through sales cycles. The analytics pages describe the reports, and the Dynamics 365 Sales pages cover synchronization with Dataverse.",
   "key_points": [
-    "Setup covers contact synchronization with customers, vendors and bank accounts, automatic field inheritance, number series for contacts, duplicate search and interaction recording.",
-    "Contacts can be person or company records, linked to customers, vendors and banks, merged when duplicated, synced to Outlook, and organized with groups and profiles.",
-    "Segments group contacts for campaigns and bulk communications. Contact lists can be refined or reduced with filters, and interactions can be logged with segment members.",
-    "Interactions record communications with contacts and segments, use interaction templates and attachments, and can be recorded automatically for documents, emails and phone calls.",
-    "Sales opportunities rely on sales cycles and stages. They can be created for contacts and salespeople and processed to quotes, orders or closure, with email exchanges logged.",
-    "The Dynamics 365 Sales integration lets you couple and synchronize records with Dataverse or Dynamics 365 Sales, covering customers, orders, quotes, pricing and invoices, and check synchronization job errors.",
-    "Built-in reports cover contacts, campaigns, opportunities, sales cycles, segments and questionnaires, plus cover sheets, labels and email merge letters."
+    "Setup covers contact synchronization with customers, vendors, and bank accounts, plus business relation codes.",
+    "Contact persons can inherit fields from their contact company; duplicate contacts are detected automatically and can be merged.",
+    "Number series are set up for contacts and opportunities.",
+    "Contacts can be classified with profile questionnaires and saved to Outlook.",
+    "Segments group contacts for targeted campaigns such as direct mail, and interactions can be logged for a whole segment.",
+    "Interactions use templates and attachments, and can be recorded automatically for documents, emails, and phone calls.",
+    "Sales opportunities follow sales cycles and stages, and can be closed or turned into quotes and orders.",
+    "Built-in reports cover contacts, campaigns, opportunities, sales cycles, segments, and questionnaires, and they print labels, cover sheets, and merged letters."
   ],
   "members_used": 2,
   "subtopics_used": 6,
   "prompt_version": 1,
-  "at": "2026-10-07T02:12:37.130Z",
+  "at": "2026-10-28T10:59:42.515Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.014359
+    "cost_usd": 0.014027000000000001
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:15:27.161Z",
+    "at": "2026-10-28T11:00:54.816Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the overview says the subtopics 'follow the working flow' (contacts, segments, interactions, opportunities). The sources do not state this order, but it is a reasonable framing and not misleading.",
-      "Minor: the overview's description of the analytics subtopic leaves out sales cycle reports. Key point 7 includes them, so the narrative still covers them.",
-      "Minor: interaction recording as a setup item comes only from the setup page summary, not its features list. That summary is enough support."
+      "Minor: no key point covers the Dynamics 365 Sales integration (coupling and synchronizing records with Dataverse, checking synchronization job status and errors), though the overview mentions it."
     ],
-    "input_hash": "482353e8b0b040aa12667db966019666bfd91603e14999b1055d9907a850ab34",
-    "cost_usd": 0.0355632
+    "input_hash": "f994bb8923f52b19554b1e17aefb65f70dc4c441d42c15d57a9d0d6672e77d9e",
+    "cost_usd": 0.0266152
   }
 }

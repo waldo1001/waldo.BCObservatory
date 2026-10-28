@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:15:23.211Z"
   flags: []
 generated:
-  at: "2026-10-26T06:21:45.768Z"
+  at: "2026-10-28T10:49:33.847Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -208,11 +208,6 @@ links:
       label: possibly related
       why: both name Table 27 "Item"
       by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/finance-sales-invoice-specifics
-      title: Deliver sales invoices with French specifics
-      label: possibly related
-      why: names Table 5050 "Contact"
-      by: code
     - to: post/demiliani-com/11962
       title: "Dynamics 365 Business Central: compressing API responses at max."
       label: possibly related
@@ -242,6 +237,11 @@ links:
       title: "Dynamics 365 Business Central: How to set the minimum and maximum numeric values ​​for a field"
       label: possibly related
       why: both name Table 23 "Vendor"
+      by: code
+    - to: post/yzhums-com/57334
+      title: "Dynamics 365 Business Central: Why are the newly added fields in drop-down not displayed? (e.g., adding item Search Description to DropDown fieldgroup)"
+      label: possibly related
+      why: both name Table 27 "Item"
       by: code
 video_id: YTA8c2XyTX4
 channel: yt-microsoft
@@ -574,12 +574,12 @@ No source states these links: they share an object, a model read them, or a pers
 - [BC Friday Tips #69 Item Blocked Fields](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d.md) — possibly related: both name Table 27 "Item"
 - [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) — possibly related: both name Table 27 "Item"
 - [Business Central 2025 wave 2 (BC27): App version in “Copy error details”/”Share details via”](../posts/yzhums-com/68174.md) — possibly related: both name Table 27 "Item"
-- [Deliver sales invoices with French specifics](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/finance-sales-invoice-specifics) — possibly related: names Table 5050 "Contact"
 - [Dynamics 365 Business Central: compressing API responses at max.](../posts/demiliani-com/11962.md) — possibly related: both name Table 27 "Item"
 - [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../posts/yzhums-com/74458.md) — possibly related: both name Table 27 "Item"
 - [Dynamics 365 Business Central: How to bulk import marketing text to items – Customization](../posts/yzhums-com/65326.md) — possibly related: both name Table 27 "Item"
 - [Dynamics 365 Business Central: How to change Zero (0) of Flowfield field to Dash (-) on the page](../posts/yzhums-com/65156.md) — possibly related: both name Table 27 "Item"
 - [Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL](../posts/yzhums-com/65762.md) — possibly related: both name Table 23 "Vendor"
 - [Dynamics 365 Business Central: How to set the minimum and maximum numeric values ​​for a field](../posts/yzhums-com/68658.md) — possibly related: both name Table 23 "Vendor"
+- [Dynamics 365 Business Central: Why are the newly added fields in drop-down not displayed? (e.g., adding item Search Description to DropDown fieldgroup)](../posts/yzhums-com/57334.md) — possibly related: both name Table 27 "Item"
 
 Presenters (as heard): Sandy vinaro, Ivan kage.

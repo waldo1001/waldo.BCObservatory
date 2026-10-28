@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:55.812Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -163,6 +163,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10096
+    - change/bcapps/11894
     - change/bcapps/9733
 learn_toc_path:
   - Business functionality
@@ -262,6 +263,7 @@ Start with "Close fiscal years and accounting periods" or "Closing the books" fo
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10096 Fix Close Income Statement grouping when no dimensions are selected](../../../../changes/bcapps/10096.md) (code change): "Fixed the Close Income Statement report to properly group G/L entries by account"
+- [#11894 Fix mixed-currency totals in Close Income Statement](../../../../changes/bcapps/11894.md) (code change): "Fixed the Close Income Statement report to correctly process mixed-currency GL entries"
 - [#9733 [main] bug 644111 - Reorder "Open Balance Sheet" action in Accountant CZ Role Center CZL page](../../../../changes/bcapps/9733.md) (code change): "Open Balance Sheet action after the Close Balance Sheet action, aligning the menu with the standard year-end closing workflow"
 - [Allow Posting From/To DateFormula: No More Monthly Date Updates from Business Central v28](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8913658799123411419--5a782b6899.md) (community post): "eliminating manual monthly updates to posting period dates"
 - [Allow Posting Date Formula](../../../../posts/olofsimren-com/3853.md) (community post): "supports date formulas for allowed posting dates in General Ledger Setup"

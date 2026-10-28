@@ -1,37 +1,38 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/spain/core-finance",
-  "input_hash": "1a90675604f388119888d1a52f20f298cad79ead58d4e0b44760d2adab541e44",
-  "summary": "Core finance for Spain in Business Central covers general ledger setup, transaction numbering, official account book and invoice book reports, year-end income statement closing, and ASC export of financial reports. It answers how-to questions about Spanish statutory finance tasks.",
-  "overview": "This section collects the Spain-specific finance procedures in Business Central. They cover chart of accounts upkeep, how transactions are numbered and posted, the reports required by tax authorities and auditors, and year-end closing.\n\nStart with the Transaction numbers page, which explains how sequential numbers group entries by document number and date. The posting and printing page builds on it. Chart of accounts pages (indenting and validating, ignoring discounts) cover setup. Reporting pages cover account books, sales and purchase invoice books, and ASC export. The income statement page covers year-end closing.",
+  "input_hash": "5a668232b97c6e5cd04c3931405e8ed1e95babe6ba33bd78399ceec7940169a7",
+  "summary": "Spain core finance local functionality in Business Central: chart of accounts handling, transaction numbering, official account books, invoice books, income statement closing, discount handling on G/L accounts, and ASC export of financial reports. Answers setup and reporting questions for Spanish tax authority requirements.",
+  "overview": "This section covers the general ledger and reporting features specific to the Spanish localization. It has no subtopics; all eight pages sit directly under it. They cover the chart of accounts, period transaction numbering, official printed books, year-end closing, and exports for the tax authorities.\n\nFor setup, start with Indent and Validate Chart of Accounts (maximum 20 numbers per account, account types, Income Stmt. Bal. Acc. field) and Set Up and Close Income Statement Balances. Then read Transaction Numbers in Business Central for Spain and Post and Print All Transactions for a Period, which explain how entries are grouped and numbered sequentially for a fiscal year.\n\nFor reporting, use Print Account Book Reports (Official Account Book and Summarized Book), Print Sales and Purchase Invoice Books, and Export Financial Reports to ASC Format for balance sheet and income statement files. Ignore Discounts in General Ledger Accounts is a small configuration page for G/L account cards.",
   "key_points": [
-    "Transaction numbers group entries with the same document number and date for balancing, and start at 2 each fiscal year because 1 is reserved for the opening transaction.",
-    "Journal posting uses sequential numbering, and the Set Period Transaction No. action supports printing all transactions of a period for tax authorities.",
-    "The chart of accounts can be indented and validated to build the account hierarchy and check accuracy.",
-    "A General Ledger account can be set with the Ignore Discounts checkbox so it does not accept payment or invoice discounts.",
-    "Account book reports show general ledger entries by transaction or summary, with options for first page number, additional currency, opening and closing transaction descriptions, and account type filtering.",
-    "Sales and Purchase Invoice Book reports list documents for a period, with additional currency, invoice or credit memo filtering, and ordering by posting date.",
-    "The Close Income Statement batch job closes income statement balances at year end using a balancing account, and covers retained earnings, business units, and dimensions.",
-    "Balance sheet and profit/loss annual reports can be exported to ASC format for tax authorities."
+    "The chart of accounts can be indented and validated, with a maximum of 20 numbers per account and account types Posting, Heading, or Total (Total applies to Portugal); the page covers Spain and Portugal localization.",
+    "The Set Period Trans. Nos. batch job assigns period transaction numbers to G/L entries in posting date and transaction number order.",
+    "Transaction numbers group entries with the same document number and date so they can be balanced.",
+    "Posting and printing all transactions for a period in General Journal and G/L Registers gives sequential numbers for fiscal year reporting to Spanish tax authorities.",
+    "The Close Income Statement batch job closes balances at fiscal year end using income statement balancing accounts, with support for business units and dimensions.",
+    "Official Account Book and Official Account Summarized Book reports show G/L entries for a period, with summarized or detailed options, custom first page number and additional currency display.",
+    "Sales and Purchases Invoice Book reports can filter by invoices or credit memos, order by posting date and show additional reporting currency.",
+    "Financial reports export to ASC format in Balance de Situación (Abreviado/Normal) and Cuenta de PyG (Abreviado/Normal) variants."
   ],
   "members_used": 8,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:44.874Z",
+  "at": "2026-10-28T10:58:13.675Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.013665
+    "cost_usd": 0.016611
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:21:21.075Z",
-    "verdict": "approve",
+    "at": "2026-10-28T11:02:37.851Z",
+    "verdict": "fix",
     "issues": [
-      "Key point 2 says the Set Period Transaction No. action is what supports printing all transactions of a period. The source lists this action as a feature of the post-and-print page but does not say exactly what it does. The claim is a reasonable reading of the page, not a direct statement from it.",
-      "The overview says the posting and printing page builds on the Transaction numbers page. That is a reading-order suggestion inferred from the shared topic, not something the sources state. It is harmless."
+      "Overview and key point 1 say account numbers are limited to 20 characters; the source says a maximum of 20 numbers per account.",
+      "Key point 1 was awkwardly worded ('Total (Portugal) types, also used in Spain and Portugal localization'); rewritten for clarity.",
+      "Minor: Ignore Discounts is covered only in summary/overview, not in key points (acceptable given the 8-point limit)."
     ],
-    "input_hash": "1a90675604f388119888d1a52f20f298cad79ead58d4e0b44760d2adab541e44",
-    "cost_usd": 0.0336752
+    "input_hash": "5a668232b97c6e5cd04c3931405e8ed1e95babe6ba33bd78399ceec7940169a7",
+    "cost_usd": 0.0632592
   }
 }

@@ -2,15 +2,15 @@
   "inputs": [
     7,
     [
-      "6a21491231b1d3dd80b32c9abbe0d403ee424bc4",
+      "0fb847c9328c88cc3442d3da799e697f01ae2b65",
       "4",
       9416
     ]
   ],
   "major": "28",
-  "count": 1464,
+  "count": 1465,
   "by_tag": {
-    "untagged": 392,
+    "untagged": 393,
     "23.0": 3,
     "24.0": 11,
     "25.0": 164,
@@ -983,6 +983,19 @@
         "CLEAN26"
       ],
       "clean_version": "26"
+    },
+    {
+      "key": "codeunit/265",
+      "object": "Feature Key Management",
+      "member": "IsVATReverseChargeEnabled",
+      "kind": "procedure",
+      "state": null,
+      "tag": null,
+      "reason": null,
+      "clean": [
+        "CLEAN27"
+      ],
+      "clean_version": "27"
     },
     {
       "key": "codeunit/265",

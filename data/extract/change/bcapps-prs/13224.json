@@ -6,12 +6,11 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "The G/L Register table was updated to fix a permission issue that occurred when updating registers from the G/L Registers page for old entries with Register No. = 0.",
+  "summary": "Fixes a missing Modify permission error on G/L Entry (table 17) when users run Update Registers from the G/L Registers page for old entries with G/L Register No. = 0. The change is in the G/L Register table in the W1, ES and APAC layers.",
   "key_points": [
-    "Fixed permission error preventing modification of G/L Register records",
-    "Addresses issue with old entries having G/L Register No. = 0",
-    "Changes apply to W1, ES, and APAC localization layers",
-    "Affects the G/L Register table structure"
+    "Running Update Registers from the G/L Registers page no longer fails with a G/L Entry Modify permission error",
+    "Affects old entries where G/L Register No. is 0",
+    "G/L Register table updated in the W1, ES and APAC layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

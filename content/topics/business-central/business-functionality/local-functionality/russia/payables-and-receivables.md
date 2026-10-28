@@ -2,85 +2,85 @@
 id: topic/business-central/business-functionality/local-functionality/russia/payables-and-receivables
 type: topic
 title: Payables and receivables
-summary: "Russian local functionality for payables and receivables in Business Central: customer and vendor agreements, prepayments and prepayment differences, letters of attorney, customs declaration tracking, and vendor and customer reports. It answers setup and usage questions for these features."
+summary: "Russian local functionality for payables and receivables in Business Central: vendor and customer reports, agreements, customer and vendor prepayments, prepayment exchange differences, letters of attorney, and customs declaration tracking. It answers setup and usage questions for these areas."
 tier: official
 language: en
 system: sales
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:21:18.543Z"
+  at: "2026-10-28T11:02:33.457Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d1e5b340600c19eb187361464d8b1dd7671d8060cf1031d0653cf58f7d5a76f0
+  input_hash: 3093038cea0d68fa59b0364a74b1af6770568f5f1f9959304a1d2679d08bef73
 evidence:
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-enter-custom-declarations-information
-    title: Entering custom declaration information in Russia
-    date: "2025-07-15"
-    commit: null
-    t: null
-    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/russian-payables-reports
     title: Payables reports in Russia
-    date: "2025-07-21"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/prepayment-differences-invoices-prepayment-differences
     title: Prepayment differences in Russia
-    date: "2025-07-18"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/russian-receivables-reports
     title: Receivables reports in Russia
-    date: "2025-07-21"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-and-create-letters-of-attorney
     title: Set up and creating letters of attorney in Russia
-    date: "2025-07-16"
+    date: "2026-10-23"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-enter-custom-declarations-information
+    title: Set Up Customs Declaration Tracking in Russia
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements
     title: Setting up customer and vendor agreements in Russia
-    date: "2025-07-16"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-customer-prepayments
     title: Setting up customer prepayments in Russia
-    date: "2025-07-16"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-vendor-prepayments
     title: Setting up vendor prepayments in Russia
-    date: "2025-07-17"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-enter-custom-declarations-information
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/russian-payables-reports
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/prepayment-differences-invoices-prepayment-differences
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/russian-receivables-reports
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-and-create-letters-of-attorney
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-enter-custom-declarations-information
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-customer-prepayments
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-vendor-prepayments
@@ -116,41 +116,41 @@ narrative: generated
 
 # Payables and receivables
 
-> Russian local functionality for payables and receivables in Business Central: customer and vendor agreements, prepayments and prepayment differences, letters of attorney, customs declaration tracking, and vendor and customer reports. It answers setup and usage questions for these features.
+> Russian local functionality for payables and receivables in Business Central: vendor and customer reports, agreements, customer and vendor prepayments, prepayment exchange differences, letters of attorney, and customs declaration tracking. It answers setup and usage questions for these areas.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Payables and receivables · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers Russia-specific features for vendor and customer accounts. It has setup pages for agreements, customer prepayments, vendor prepayments, letters of attorney and customs declaration information. It also has pages on prepayment differences and on payables and receivables reports.
+This section covers the Russia-specific tools for handling vendor and customer transactions. The reporting pages describe payables and receivables reports that analyze general ledger turnover, balances, entries and reconciliation acts. Agreements pages explain how to track contractual terms with customers and vendors, synchronize them with dimensions, and report ledger entries by agreement.
 
-Start with the agreements page, since agreements synchronize with dimensions that the reports and analyses use. Then set up the prepayment pages (customer or vendor) with their accounts, number series and dimension values. The prepayment differences page follows, for exchange rate adjustments between prepayments and foreign currency invoices. The report pages describe the turnover, accounting card, entries analysis and reconciliation act reports for vendors and customers.
+Prepayment pages cover setup for customer prepayments and vendor prepayments, including prepayment accounts, number series and posting groups. A separate page explains how currency exchange differences are calculated when prepayments are applied to foreign-currency invoices.
 
-Letters of attorney and custom declaration pages are for document-driven tasks. Letters of attorney cover numbering and linking to employees, vendors and purchase documents. Customs declaration tracking covers CD number format checks and item tracking for imported goods.
+Two further pages deal with documents tied to purchasing and sales: letters of attorney (numbering, M-2A template, creation and printing) and customs declaration tracking (declaration numbers and countries of origin for imported goods). A reasonable start is the agreements page, since receivables reports can use agreement-based calculations, followed by the prepayment setup pages.
 
 ## Key points
 
-- Customer and vendor agreements sync with dimensions for reports; setup includes dimension mapping, number series, validity dates and blocking.
-- Customer prepayments cover advance payments on sales orders, with prepayment accounts, number series, PD document symbols and dimension values for conditional gains and losses.
-- Vendor prepayments are configured in Purchases & Payables Setup and Vendor Posting Groups, including Use Prepayment Account, Posted Prepmt. Inv. Nos., PD Doc. Nos. Type and Symbol for PD Doc.
-- Prepayment differences handle exchange rate adjustments between prepayments and foreign currency invoices, posted to separate accounts.
-- Vendor reports include general ledger turnover, accounting card, turnover, posting group turnover, entries analysis and reconciliation act.
-- Receivables reports mirror the vendor set and offer options such as rounding precision, zero line exclusion, detail levels, agreement printing and currency selection.
-- Letters of attorney use number series for open and released documents and link to employees, vendors and source purchase documents, with validity dates and status.
-- Customs declaration tracking offers CD No. format checks, package-specific tracking, country of origin code, temporary CD numbers and Factura-Invoice printing.
+- Payables reports: vendor general ledger turnover, accounting card, turnover, posting group turnover, entries analysis and reconciliation act.
+- Receivables reports: six matching customer reports, with rounding precision options, zero value filtering and agreement-based calculations.
+- Customer and vendor agreements sync with dimensions, use numbering series, support blocking options and allow ledger entry reporting by agreement.
+- Customer prepayment setup uses Use Prepayment Account, Create Prepayment Invoice, Posted Prepayment Nos., Posted PD Doc. Nos., PD Doc. Nos. Type and Symbol for PD Doc.
+- Vendor prepayment setup is done in Purchases & Payables Setup and Vendor Posting Groups, including numbering for prepayment invoices and credit memos and dimension codes for gains and losses.
+- Prepayment differences covers currency exchange differences when applying prepayments to foreign-currency invoices.
+- Letters of attorney need numbering for open and released letters and the M-2A template; they can be created from employee details and source documents and then printed.
+- Customs declaration tracking records declaration numbers and countries of origin via package and item tracking codes, supports permanent and temporary numbers, and feeds factura-invoice reports.
 
 ## Learn pages
 
-- [Entering custom declaration information in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-enter-custom-declarations-information): Russian localization includes enhancements for managing customs declarations, enabling tracking, and printing of declaration numbers for imported goods.
-  - In the observatory: [Page 132 "Posted Sales Invoice"](../../../../../objects/page/132.md), [Page 43 "Sales Invoice"](../../../../../objects/page/43.md), [Page 461 "Inventory Setup"](../../../../../objects/page/461.md), [Page 6502 "Item Tracking Codes"](../../../../../objects/page/6502.md)
 - [Payables reports in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/russian-payables-reports): Russian localization provides enhanced payables reports for vendors.
+  - In the observatory: [Page 12407 "Vendor G/L Turnover (RU)"](../../../../../objects/page/12407-ru.md), [Report 12444 "Vendor Turnover (RU)"](../../../../../objects/report/12444-ru.md), [Report 12445 "Vendor Accounting Card (RU)"](../../../../../objects/report/12445-ru.md), [Report 12446 "Vendor Entries Analysis (RU)"](../../../../../objects/report/12446-ru.md)
 - [Prepayment differences in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/prepayment-differences-invoices-prepayment-differences): Russian localization features allow you to manage differences between prepayments and invoices due to currency exchange rate changes.
+  - In the observatory: [Page 459 "Sales & Receivables Setup"](../../../../../objects/page/459.md), [Page 460 "Purchases & Payables Setup"](../../../../../objects/page/460.md)
 - [Receivables reports in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/russian-receivables-reports): Learn about receivables reports and related enhancements available for Russia in Business Central.
-  - In the observatory: [Report 12439 "Customer Turnover (RU)"](../../../../../objects/report/12439-ru.md), [Report 12441 "Customer Accounting Card (RU)"](../../../../../objects/report/12441-ru.md), [Report 12442 "Customer Entries Analysis (RU)"](../../../../../objects/report/12442-ru.md), [Report 14910 "Customer - Reconciliation Act (RU)"](../../../../../objects/report/14910-ru.md)
 - [Set up and creating letters of attorney in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-and-create-letters-of-attorney): Russian localization allows you to create, print, and manage letters of attorney in Business Central.
-  - In the observatory: [Page 460 "Purchases & Payables Setup"](../../../../../objects/page/460.md)
+  - In the observatory: [Page 26 "Vendor Card"](../../../../../objects/page/26.md), [Page 460 "Purchases & Payables Setup"](../../../../../objects/page/460.md), [Page 5200 "Employee Card"](../../../../../objects/page/5200.md), [Page 5607 "Fixed Asset Setup"](../../../../../objects/page/5607.md)
+- [Set Up Customs Declaration Tracking in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-enter-custom-declarations-information): Set up customs declaration tracking in the Russian version of Business Central to track imported goods and print declaration details on factura-invoices.
+  - In the observatory: [Report 12411 "Order Factura-Invoice (A) (RU)"](../../../../../objects/report/12411-ru.md), [Report 12418 "Posted Factura-Invoice (A) (RU)"](../../../../../objects/report/12418-ru.md), [Table 311 "Sales & Receivables Setup"](../../../../../objects/table/311.md), [Table 313 "Inventory Setup"](../../../../../objects/table/313.md)
 - [Setting up customer and vendor agreements in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements): Russian localization provides features for managing customer and vendor agreements.
-  - In the observatory: [Page 14900 "Customer Agreements (RU)"](../../../../../objects/page/14900-ru.md), [Page 36954 "Customers"](../../../../../objects/page/36954.md), [Page 459 "Sales & Receivables Setup"](../../../../../objects/page/459.md), [Page 460 "Purchases & Payables Setup"](../../../../../objects/page/460.md)
 - [Setting up customer prepayments in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-customer-prepayments): This article describes how to set up and manage customer prepayments in Business Central for Russia.
   - In the observatory: [Page 110 "Customer Posting Groups"](../../../../../objects/page/110.md), [Page 459 "Sales & Receivables Setup"](../../../../../objects/page/459.md)
 - [Setting up vendor prepayments in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-vendor-prepayments): Russian localization adds features for managing vendor prepayments.

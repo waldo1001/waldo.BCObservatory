@@ -1,36 +1,38 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/italy/withholding-tax",
-  "input_hash": "2814579f83083019ae1eee165c5fdcd9fc6c87fef9e5facbb2ccb23d849e65ce",
-  "summary": "Withholding tax in the Italian version of Business Central: how to set it up for vendor purchases and third-party services, and how to print the Withholding Taxes reports for amounts payable to the Italian government. It answers setup and reporting questions.",
-  "overview": "Withholding tax in the Italian version applies to third-party services and vendor purchases. The tax is calculated when the payment is processed, not when the invoice is posted. This section has two pages, one for setup and one for reporting.\n\nStart with \"Set Up Withholding Tax (IT)\". It covers withholding tax codes, vendor withholding setup, tax calculation and payment processing. Once withholding tax is set up and payments are posted, use \"Print withholding tax reports (IT)\" to produce the Withholding Taxes report. The report lists the withholding taxes payable to the Italian government.",
+  "input_hash": "30e89d56d7e79acc73f836a0a1533dc7f1399bbdee7cf37f5cb16838bd02a2ae",
+  "summary": "Withholding tax in the Italian version of Business Central: creating withholding tax codes and assigning them to vendors, setting tax rates with starting dates, calculating tax on purchase invoices, generating withholding tax entries automatically when vendor payments are processed, and printing withholding tax reports for amounts payable to the Italian government. Use it for Italian setup and reporting questions.",
+  "overview": "This section covers withholding tax for Italian operations. It has two pages and no subtopics: one for setup and one for reporting.\n\nStart with the setup page. It explains how to create withholding tax codes, assign them to vendors, and configure tax rates with starting dates. It then shows how the tax is calculated on purchase invoices and how withholding tax entries are generated automatically when you process vendor payments. Residency and contribution details are also tracked.\n\nAfter the setup is in place and payments are processed, use the reporting page. It describes how to print withholding tax reports to display and manage the withholding taxes payable to the Italian government. The report uses a Reference Month and Reference Year and has options for detailed information (Print Details) and final processing (Final Printing).",
   "key_points": [
-    "Withholding tax is calculated at payment, not at invoice posting.",
-    "It applies to third-party services and vendor purchases in the Italian version.",
-    "Setup involves withholding tax codes and vendor withholding setup.",
-    "The Withholding Taxes report lists the taxes payable to the Italian government.",
-    "The report is run by Reference Month and Reference Year.",
-    "A Print Details option sets the level of detail in the report.",
-    "A Final Printing checkbox marks the print as final."
+    "Withholding tax codes are created first and then assigned to vendors.",
+    "Tax rates can be configured with starting dates.",
+    "Withholding tax is calculated on purchase invoices.",
+    "Processing vendor payments automatically generates withholding tax entries.",
+    "Residency and contribution details are tracked as part of the setup.",
+    "The report is printed for a Reference Month and Reference Year.",
+    "The Print Details option gives detailed information in the report.",
+    "Final Printing is the option for final processing of the report."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:49.419Z",
+  "at": "2026-10-28T10:57:43.966Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.007941
+    "cost_usd": 0.008570999999999999
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T05:21:58.372Z",
-    "verdict": "approve",
+    "at": "2026-10-28T11:04:03.288Z",
+    "verdict": "fix",
     "issues": [
-      "Minor: the overview says to run the report once withholding tax is set up and payments are posted. That order is a reasonable reading of the sources, but neither page summary says it outright.",
-      "Minor: the key point that Final Printing 'marks the print as final' just restates 'final printing designation' and adds nothing new. It is supported, so it can stay."
+      "Summary says tax is calculated on purchase invoices and vendor payments. The sources say tax is calculated on purchase invoices, and withholding tax entries are generated automatically when vendor payments are processed. Reworded to match.",
+      "Overview presented Print Details and Final Printing as an either/or choice. The source only lists them as report options (detailed information and final processing). Reworded to match.",
+      "Key point saying the report is printed for a Reference Month and Reference Year is a mild inference from the feature list, but it is reasonable. Kept."
     ],
-    "input_hash": "2814579f83083019ae1eee165c5fdcd9fc6c87fef9e5facbb2ccb23d849e65ce",
-    "cost_usd": 0.0212592
+    "input_hash": "30e89d56d7e79acc73f836a0a1533dc7f1399bbdee7cf37f5cb16838bd02a2ae",
+    "cost_usd": 0.0303672
   }
 }

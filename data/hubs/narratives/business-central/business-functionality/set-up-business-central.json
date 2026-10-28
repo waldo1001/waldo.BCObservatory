@@ -1,37 +1,38 @@
 {
   "hub_id": "topic/business-central/business-functionality/set-up-business-central",
-  "input_hash": "d2e9e32d642fcb524e970cd4de525bc6cdbbad8851aac42bbf72cdfa52a23ecb",
-  "summary": "Set up Business Central covers initial and ongoing configuration: company information, number series, base calendars, report selection, online maps, change log auditing, and desktop and mobile apps. It also links to setup areas for finance, sales, inventory, manufacturing, email, printers, workflows and data import.",
-  "overview": "This section is the starting point for configuring Business Central. Its own pages cover general settings that apply across the product: company information, number series, base calendars, report selection, online maps, auditing of setup changes, and getting the desktop and mobile apps. The overview of setup tasks ties these together with company configuration, business processes, Microsoft product integrations, apps and data migration.\n\nThe subtopics go deeper by area. There are setup guides for finance, banking, sales, purchase, inventory, project management, fixed assets, warehouse management, manufacturing, quality management and service management. Others cover email, approval workflows, printers, importing data, and best practices for costing methods and supply planning.\n\nStart with the overview of tasks to set up Business Central, then do company information, number series and base calendars. After that, move to the subtopic for each business process you plan to use.",
+  "input_hash": "c6f244188596f47fecc8a9c467cd9c8bd03ad6d74ed5dfd93405bea8d7ddcd51",
+  "summary": "Set up Business Central covers initial and ongoing configuration: company information, number series, base calendars, report selection, online maps, setup change auditing, and desktop and mobile apps. It also points to subtopics for finance, sales, inventory, manufacturing, email, printers, workflows and data import.",
+  "overview": "This section is the starting point for configuring Business Central. Its own pages cover general setup that applies across the product: company information, number series, base calendars, report selection, online maps, and auditing of setup changes with the Change Log. It also has pages on getting the desktop app (Windows and macOS) and the mobile app.\n\nThe \"Overview of tasks to set up Business Central\" page is a good first read. It covers the main setup areas: company configuration, general functionality, business processes, Microsoft product integrations, apps, and data migration from other systems.\n\nThe subtopics go deeper by area. There are separate groups for finance, banking, sales, purchase, inventory, project management, fixed assets, warehouse, manufacturing, quality and service management. Cross-cutting setup is covered in email, printers, approval workflows and import data. A separate subtopic on setup best practices for complex areas covers costing methods and supply planning.",
   "key_points": [
-    "Number series assign unique sequential codes to customers, vendors, documents and master data. Options include Manual Nos., Default Nos., Allow Gaps in Nos., series lines and relationships.",
-    "Company information covers headquarters and warehouse addresses, company badges, display names, the company switcher and experience selection.",
-    "Base calendars set working and non-working days for the company and business partners. They feed date calculations in orders and production planning.",
-    "Report selection sets default reports and layouts for printing and emailing sales, purchase, service and other documents, including email body, attachment and check layouts.",
-    "The Change Log captures setup changes by table, with email notifications for sensitive fields. Automatic tracking of financial report changes starts in 2026 release wave 2.",
-    "Online maps show locations and route directions for customer and vendor addresses, with a customizable map provider.",
-    "The desktop app runs on Windows and macOS and supports multiple online environments. The mobile app works with cloud and on-premises deployments.",
-    "Subtopics cover 16 setup areas, from finance and banking to email, printers, approval workflows and data import from QuickBooks or Excel."
+    "Start with the overview of setup tasks: company configuration, general functionality, business processes, Microsoft integrations, apps, and data migration.",
+    "Number series assign unique codes to records and documents; options include Manual Nos., Default Nos., Allow Gaps in Nos., and Number Series Lines and Relationships.",
+    "Company information covers headquarters and warehouse addresses, company badges, display names, the company switcher, and experience selection.",
+    "Base calendars define working and non-working days for date calculations in orders and production planning.",
+    "Report selection sets default reports and layouts for printing and emailing documents, including email body, attachment and check layouts.",
+    "The Change Log records setup changes by table; financial report changes are tracked automatically starting in 2026 release wave 2, with email notifications for sensitive fields.",
+    "Online maps show locations and route directions for customer and vendor addresses.",
+    "Desktop app (Windows, macOS) supports multiple online environments; the mobile app works with cloud and on-premises deployments."
   ],
   "members_used": 9,
   "subtopics_used": 16,
   "prompt_version": 1,
-  "at": "2026-10-24T00:52:52.579Z",
+  "at": "2026-10-28T10:59:44.745Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.022621000000000002
+    "cost_usd": 0.022161
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-24T00:53:27.899Z",
-    "verdict": "approve",
+    "at": "2026-10-28T11:00:24.465Z",
+    "verdict": "fix",
     "issues": [
-      "Minor: the advice on where to start (overview of tasks, then company information, number series and base calendars) is the writer's own suggestion. It is a reasonable order but no page states it.",
-      "Minor: the company information key point names the company switcher, which comes from the page's feature list, not its summary. The point is still supported."
+      "The overview calls the setup best practices material \"a page\". It is actually a subtopic with 6 pages, so the wording is corrected.",
+      "The overview says the overview page lists setup tasks \"in order\". The source only says it covers those areas, not that it gives a sequence, so the wording is softened.",
+      "Small point: the summary leaves banking, purchase, project management, fixed assets, warehouse, quality and service management out of the subtopic list. That's acceptable for length, and the overview covers them."
     ],
-    "input_hash": "d2e9e32d642fcb524e970cd4de525bc6cdbbad8851aac42bbf72cdfa52a23ecb",
-    "cost_usd": 0.058792
+    "input_hash": "c6f244188596f47fecc8a9c467cd9c8bd03ad6d74ed5dfd93405bea8d7ddcd51",
+    "cost_usd": 0.0574658
   }
 }

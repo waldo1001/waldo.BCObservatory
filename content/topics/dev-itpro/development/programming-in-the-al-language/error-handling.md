@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:03.133Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -147,9 +147,9 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/error-handling/al-language-reference-errors
   localizations: []
   videos:
+    - video/a3j6JjyWDv0
     - video/RNR4wsFeedI
   posts:
-    - post/demiliani-com/14203
     - post/gerardorenteria-blog/12238
     - post/miljan-rs/966
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-how-to-write-error-messages-that-help--6e1cc8407f
@@ -174,8 +174,8 @@ children:
 coverage:
   learn: 16
   code: 0
-  video: 1
-  blog: 9
+  video: 2
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: 5f28cfcbe8ab1c64bbdc1ec42f2d716b7ab875888435183319b893b988efe312
@@ -228,7 +228,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#12117 [Job Queue] Clearer message and attempt number for runs interrupted by the platform](../../../../changes/bcapps/12117.md) (code change): "confusing 'job has stopped' error message with 'run was interrupted' message"
 - [#99 Add lifecycle error and privacy knowledge](../../../../changes/bcquality/99.md) (code change): "covering try-function semantics, upgrade phase data writes, install-versus-upgrade dispatch logic, ErrorInfo privacy"
-- [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../../posts/demiliani-com/14203.md) (community post): "AL transaction rollback does not undo external"
 - [🔧 Transforming BC Error Handling with Smart Recommendations 📝](../../../../posts/gerardorenteria-blog/12238.md) (community post): "Event Subscribers intercept Business Central errors, validate tag matches, and invoke the ErrorMessageFix interface"
 - [When “Errors” Don’t Stop the Process: A Hidden Risk in Business Central](../../../../posts/miljan-rs/966.md) (community post): "ErrorBehavior::Collect allows code to continue after errors"
 - [How to Write Error Messages That Help](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-how-to-write-error-messages-that-help--6e1cc8407f.md) (community post): "Error messages significantly impact user experience in enterprise software"
@@ -237,6 +236,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2025 wave 2 (BC27): App version in “Copy error details”/”Share details via”](../../../../posts/yzhums-com/68174.md) (community post): "Error dialogs now display the extension version number alongside extension name"
 - [Dynamics 365 Business Central: View the last known error](../../../../posts/yzhums-com/70329.md) (community post): "Use GetLastErrorCode and GetLastErrorText methods to programmatically access error details"
 - [Dynamics 365 Business Central: GetLastErrorCode, GetLastErrorText and GetLastErrorCallStack Methods](../../../../posts/yzhums-com/75574.md) (community post): "GetLastErrorCode retrieves the error classification and is not translated to local language"
+- [20261026 - The Rollback That Wasn’t Transaction & Error Handling](../../../../videos/a3j6JjyWDv0.md) (video): "transaction handling; error handling; rollback behavior; commit semantics"
 - [What's New: Boost Your Productivity with Business Central (2024 release wave 1)](../../../../videos/RNR4wsFeedI.md) (video): "Actions for platform-generated errors; Error sharing via Teams and email"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

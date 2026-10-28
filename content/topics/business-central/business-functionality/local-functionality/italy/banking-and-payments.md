@@ -2,54 +2,54 @@
 id: topic/business-central/business-functionality/local-functionality/italy/banking-and-payments
 type: topic
 title: Banking & payments
-summary: "Banking and payments in the Italian version of Business Central: automatic payments and bills, issuing vendor payments and customer bills with SEPA Credit Transfer and SEPA Direct Debit, and payment terms with installments. It answers setup and processing questions for Italian bill and payment handling."
+summary: "Banking and payments in the Italian version of Business Central: vendor payments, customer bills, automatic payment and bill setup, and payment terms. It answers questions about SEPA and Italian bill formats, bill posting groups, bank account configuration, and installment and discount terms."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:25:26.790Z"
+  at: "2026-10-28T11:03:24.816Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 1df75923ae5097b1872600b0f68a5a440a2ef63f2a44ff69e0a1cb5bed959b74
+  input_hash: 5c74d1a2418dccf7ef9dde189543f17cf2c3aaa1541270c1487be25fc751bb1c
 evidence:
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills
-    title: Automatic Payments and Automatic Bills [IT]
-    date: "2025-05-21"
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills
+    title: Issue Vendor Payments and Customer Bills
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills
-    title: Issue Vendor Payments and Customer Bills (IT)
-    date: "2025-05-20"
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills
+    title: Set Up Automatic Payments and Bills for Italy
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-payment-terms
-    title: Set Up Payment Terms (IT)
-    date: "2025-05-22"
+    title: Set Up Payment Terms in the Italian Version
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview
-    title: Vendor Payments Customer Bills Overview [IT]
-    date: "2025-05-23"
+    title: Vendor Payments and Customer Bills in Italy
+    date: "2026-10-21"
     commit: null
     t: null
     quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-payment-terms
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview
   objects: []
@@ -105,37 +105,35 @@ narrative: generated
 
 # Banking & payments
 
-> Banking and payments in the Italian version of Business Central: automatic payments and bills, issuing vendor payments and customer bills with SEPA Credit Transfer and SEPA Direct Debit, and payment terms with installments. It answers setup and processing questions for Italian bill and payment handling.
+> Banking and payments in the Italian version of Business Central: vendor payments, customer bills, automatic payment and bill setup, and payment terms. It answers questions about SEPA and Italian bill formats, bill posting groups, bank account configuration, and installment and discount terms.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers the Italy-specific way of handling bills and payments. It explains how customer and vendor bills are processed automatically, which payment formats are supported (SEPA Credit Transfer, SEPA Direct Debit and Italian bill formats), and how payment terms are defined for invoices.
+This section covers how the Italian version of Business Central handles payments and bills. It has four pages and no subtopics. They cover automatic bills to customers and from vendors, using SEPA and Italian bill formats.
 
-Start with the overview page on vendor payments and customer bills to see the formats and bill posting groups. Then use the automatic payments and automatic bills page for setup of bank information, sales and receivables setup, and bill codes on payment methods. The issuing page describes how to export bill lists to file and review errors. The payment terms page covers installments and discounts.
+Start with "Vendor Payments and Customer Bills in Italy" for the concept. Then use "Set Up Automatic Payments and Bills for Italy" for the configuration: bank accounts, bill posting groups, payment methods, export formats and temporary bill lists. "Issue Vendor Payments and Customer Bills" covers the daily work of creating vendor bill lists and exporting payment files for the bank. "Set Up Payment Terms in the Italian Version" is separate. It covers installments, due dates and payment discounts.
 
 ## Key points
 
-- Automatic bills to customers and from vendors are supported in the Italian version.
-- Supported formats include SEPA Credit Transfer, SEPA Direct Debit and Italian bill formats.
-- Automatic payments setup involves bank account information, sales and receivables setup, and bill codes for payment methods.
-- Issuing payments and bills uses Export Bill List to File, with a File Export Errors FactBox for problems.
-- The TRASFBANC payment method is mentioned for issuing SEPA-based payments.
-- Bill posting groups are part of the vendor payments and customer bills overview.
-- Payment terms support installments with payment percentages, due date calculations, discount dates and discount percentages.
-- Payment terms apply to both customer and vendor invoices.
+- Supports automatic bills to customers and from vendors, with SEPA and Italian bill formats.
+- SEPA Credit Transfer and SEPA Direct Debit are covered, with a payment export format for each.
+- Setup includes bank accounts, bill posting groups, payment methods and temporary bill lists, for both sales and purchasing.
+- Other setup items are a recall bill description and a bank receipts risk period.
+- Issuing payments means configuring the bank account, creating a vendor bill list and exporting the file for bank submission.
+- Payment terms can define installment percentages, due date calculation, discount dates and discount percentages.
+- Payment terms apply to both customer and vendor payments.
 
 ## Learn pages
 
-- [Automatic Payments and Automatic Bills [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills): Learn how to set up automatic payments and bills in the Italian version of Business Central.
-  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 12184 "Bill (IT)"](../../../../../objects/page/12184-it.md), [Page 370 "Bank Account Card"](../../../../../objects/page/370.md), [Page 427 "Payment Methods"](../../../../../objects/page/427.md), [Page 459 "Sales & Receivables Setup"](../../../../../objects/page/459.md)
-- [Issue Vendor Payments and Customer Bills (IT)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills): The vendor and customer bill pay feature supports SEPA-based formats in addition to Italian file formats.
-  - In the observatory: [Page 12185 "Vendor Bill Card (IT)"](../../../../../objects/page/12185-it.md), [Page 12190 "Vendor Bill List Sent Card (IT)"](../../../../../objects/page/12190-it.md), [Page 370 "Bank Account Card"](../../../../../objects/page/370.md), [Page 426 "Vendor Bank Account List"](../../../../../objects/page/426.md)
-- [Set Up Payment Terms (IT)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-payment-terms): In Business Central for Italy, you can define payment terms that allow payments in one or multiple installments, specifying details for each installment as needed.
+- [Issue Vendor Payments and Customer Bills](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills): Learn how to prepare vendor payment details, create an issued bill list, and export a bank payment file in the Italian version of Business Central.
+  - In the observatory: [Page 12185 "Vendor Bill Card (IT)"](../../../../../objects/page/12185-it.md), [Page 12190 "Vendor Bill List Sent Card (IT)"](../../../../../objects/page/12190-it.md), [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 370 "Bank Account Card"](../../../../../objects/page/370.md), [Page 426 "Vendor Bank Account List"](../../../../../objects/page/426.md)
+- [Set Up Automatic Payments and Bills for Italy](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills): Learn how to configure bank accounts, bill posting groups, number series, and payment methods for automatic bills in Business Central for Italy.
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 12183 "Bill Posting Group (IT)"](../../../../../objects/page/12183-it.md), [Page 12184 "Bill (IT)"](../../../../../objects/page/12184-it.md), [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 370 "Bank Account Card"](../../../../../objects/page/370.md), [Page 427 "Payment Methods"](../../../../../objects/page/427.md)
+- [Set Up Payment Terms in the Italian Version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-payment-terms): In Business Central for Italy, you can define payment terms that allow payments in one or multiple installments, specifying details for each installment as needed.
   - In the observatory: [Page 12170 "Payment Terms Lines (IT)"](../../../../../objects/page/12170-it.md), [Page 4 "Payment Terms"](../../../../../objects/page/4.md)
-- [Vendor Payments Customer Bills Overview [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview): Manage automatic customer bills and vendor payments in the Italian version of Business Central.
-  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md)
+- [Vendor Payments and Customer Bills in Italy](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview): Learn how customer bills and vendor payment lists work in Business Central for Italy, including bank account setup, export formats, and file submission.
 
 ## Business Central pages and reports
 

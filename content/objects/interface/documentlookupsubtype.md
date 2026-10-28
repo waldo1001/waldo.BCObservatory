@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:15:39.036Z"
+  at: "2026-10-28T10:42:34.480Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 286ef47ca836b699148306c29df52b71363a3f48406db367e954cc45bc252849
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/SalesLinesSuggestions/app/SalesAzureOpenAITools/DocumentLookupImpl/DocumentLookupSubType.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Apps/W1/SalesLinesSuggestions/app/SalesAzureOpenAITools/DocumentLookupImpl/DocumentLookupSubType.Interface.al
     title: src/Apps/W1/SalesLinesSuggestions/app/SalesAzureOpenAITools/DocumentLookupImpl/DocumentLookupSubType.Interface.al (releases/29.x)
     date: null
-    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
+    commit: 4c1c1638beb6d5da8540cc1f61889b80c7b3356f
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "DocumentLookupSubType" in SalesLinesSuggestions (Microsoft.Sales.Document). 1 public procedures. Introduced in BC29, still in BC30.
 
-SalesLinesSuggestions · Microsoft.Sales.Document · BC29-30 · [source at dc14cfd1](https://github.com/microsoft/BCApps/blob/dc14cfd1217fbd3fa364b63565e752e5f0653955/src/Apps/W1/SalesLinesSuggestions/app/SalesAzureOpenAITools/DocumentLookupImpl/DocumentLookupSubType.Interface.al) · facts from BC29
+SalesLinesSuggestions · Microsoft.Sales.Document · BC29-30 · [source at 4c1c1638](https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Apps/W1/SalesLinesSuggestions/app/SalesAzureOpenAITools/DocumentLookupImpl/DocumentLookupSubType.Interface.al) · facts from BC29
 
 ## Properties
 

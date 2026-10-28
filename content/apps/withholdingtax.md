@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-26T05:39:01.092Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c908dc9d212b665517ba5c9d6cb7dd84658407617f938da401a2ea8ed3ce40b7
+  input_hash: 5fbe428ab4578a7dd8ca9f33e3ad211c8e211549988165a265c6c3f98d728701
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/WithholdingTax/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/WithholdingTax/app
     title: src/Apps/W1/WithholdingTax/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -325,4 +325,4 @@ Videos and posts that name this app's objects by exact type and name.
 - [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../posts/yzhums-com/71463.md) (community post, 2026-05-21): names Table 6787 "Withholding Tax Revenue Types", Table 6786 "Withholding Tax Posting Setup"
 - [Introducing: Withholding Taxes (2026 release wave 1)](../videos/d4mYltz4Zwg.md) (video, 2026-04-01): names Table 6786 "Withholding Tax Posting Setup"
 
-Source: [src/Apps/W1/WithholdingTax/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/WithholdingTax/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/WithholdingTax/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/WithholdingTax/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

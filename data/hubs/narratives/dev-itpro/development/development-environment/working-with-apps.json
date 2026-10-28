@@ -1,36 +1,36 @@
 {
   "hub_id": "topic/dev-itpro/development/development-environment/working-with-apps",
-  "input_hash": "1f1337b7147c35e1c454d6ab47186009542abca5da75c5082bf0f7dbe7784d38",
-  "summary": "Working with apps covers how to build and manage AL extensions in Business Central: app identity in app.json, runtime version choice, packaged resources, data shipped with extensions, and library and dependency apps. It answers setup and configuration questions about app.json and extension packaging.",
-  "overview": "This section collects practical topics for developers handling the structure and metadata of an AL app. Most of them center on the app.json manifest: the app ID, version, name, publisher and scope, the runtime version, and the resource folders.\n\nStart with \"Understand App Identity for AL Apps\" to learn when and how identity settings may change. Then read \"Choose runtime version in AL\" to target a runtime. Two pages cover content packaged with an extension: \"Adding and Accessing Resources\" explains resource folders and access, and \"Adding data for Extensions\" explains data imported on installation. The FAQ on library and dependency apps covers shared code across Marketplace apps and how dependencies are installed.",
+  "input_hash": "531f03897284d9df710ef5df4e09f0b0b4c4320d1dd5b5e3fc498b0bf73384dd",
+  "summary": "Working with apps covers how to build and manage AL apps (extensions) in Business Central: app identity in app.json, runtime version choice, packaging resources and data, and library and dependency apps. It answers questions about app.json settings and extension packaging.",
+  "overview": "This section collects practical topics for developers handling the app package itself rather than its AL code. Most of them center on the app.json manifest: which identity values it holds, which runtime version it targets, and which resource folders it declares.\n\nStart with the app identity page to learn when the app ID, version, name, and publisher can change. Then read the runtime version page to pick a version that every target environment supports, including Business Central online. After that, use the resources page and the extension data page to bundle files and data with the app. The FAQ on library and dependency apps explains shared code across Marketplace apps and how dependencies get installed.",
   "key_points": [
-    "App identity is managed in app.json: app ID, version numbering, name, publisher and scope, with guidance on when each can change.",
-    "The runtime version is set in app.json (for example \"runtime\": \"18.0\"); an extension can be published to servers with an equal or later runtime version.",
-    "Resources are packaged with resourceFolders and publicResourceFolders in app.json (runtime version 18.0); public resources can be read by other extensions.",
-    "Resource limits are 16 MB per file, 128 MB per folder and 256 files.",
-    "Extensions can ship exported permission sets, web services, table data and custom report layouts to be imported during installation; the page also covers the NavApp.LoadPackageData procedure.",
-    "Library apps hold shared code for multiple Marketplace apps and are installed automatically as dependencies.",
-    "The library app FAQ covers version control, library app validation and technical validation."
+    "App identity is managed in app.json: app ID, version, name, publisher, and scope, with guidance on when each can change.",
+    "The AL runtime version is set in app.json and determines available AL capabilities. Pick one supported by all target environments, including Business Central online.",
+    "The runtime version page covers compiler defaults, version history, and IntelliSense support, with release waves from 2024 wave 2 to 2026 wave 2.",
+    "resourceFolders packages private resources for local access. publicResourceFolders exposes resources that other extensions can read (runtime version 18.0).",
+    "Resource limits are 16 MB per file, 128 MB per folder, and 256 files.",
+    "Extensions can include permission sets, web services, table data, and custom report layouts, imported at install and loaded with NavApp.LoadPackageData.",
+    "Library apps hold shared code for multiple Marketplace apps and are installed automatically as dependencies. The FAQ covers version control and technical validation."
   ],
   "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-17T01:13:04.987Z",
+  "at": "2026-10-28T10:58:45.254Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011711
+    "cost_usd": 0.011719
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-24T00:56:19.921Z",
-    "verdict": "fix",
+    "at": "2026-10-28T11:03:23.369Z",
+    "verdict": "approve",
     "issues": [
-      "Key point on extension data says everything is 'imported on installation with NavApp.LoadPackageData'. The source summaries list import during installation and the NavApp.LoadPackageData procedure separately. They never say that procedure is how every data type gets imported. I reworded the point so it doesn't connect the two that way.",
-      "Minor: the app identity key point says there is guidance on when each setting can change, including scope. The source covers when and how to change app ID, version, name and publisher. Scope appears only as 'scope management'. I left this point as written."
+      "Key point 4 ties runtime version 18.0 specifically to publicResourceFolders. The resources page lists 18.0 only as a version reference for the whole page, so this link is a reasonable inference but not stated directly.",
+      "Key point 1 says there is guidance on when scope can change. The source summary only names change guidance for app ID, version, name and publisher; scope appears only as 'scope management'. This is a minor overreach."
     ],
-    "input_hash": "1f1337b7147c35e1c454d6ab47186009542abca5da75c5082bf0f7dbe7784d38",
-    "cost_usd": 0.0431232
+    "input_hash": "531f03897284d9df710ef5df4e09f0b0b4c4320d1dd5b5e3fc498b0bf73384dd",
+    "cost_usd": 0.034819199999999995
   }
 }

@@ -2,7 +2,7 @@
 id: localization/mx
 type: localization
 title: Mexico (MX)
-summary: Mexico (MX) localization of Business Central 29. It covers CFDI 4.0 electronic invoicing with SAT certificates and PAC web services, Carta de Porte transfers, DIOT reports, electronic accounting export, tax identification (RFC, CURP), VAT recalculation on foreign-currency payments, and EFT bank exports, deposits and bank reconciliation. It also carries North American sales tax objects.
+summary: Mexico (MX) localization of Business Central 29. It covers CFDI 4.0 electronic invoicing with PAC stamping and SAT certificates, Carta de Porte for transfers and shipments, DIOT reports, electronic accounting export, cash-basis VAT, tax identification (RFC, CURP) and electronic bank payments. It also carries NA-derived sales tax, bank reconciliation and report objects.
 tier: official
 language: en
 tags:
@@ -11,20 +11,20 @@ tags:
 review:
   state: reviewed
   by: opus
-  at: "2026-10-18T00:47:34.305Z"
+  at: "2026-10-28T10:38:27.099Z"
   flags: []
 generated:
-  at: "2026-10-24T01:15:39.036Z"
+  at: "2026-10-28T10:42:34.480Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 106f2c6a87a7f45cc8d88eea2e1eb0ddebe2bc298f92c906905025fa469b2cd5
+  input_hash: fc5178650ac7332d13c4cd63fa1833c9ad5f9d619eb4cdeb1e31f57615fd66b8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-mx
     date: null
-    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
+    commit: 4c1c1638beb6d5da8540cc1f61889b80c7b3356f
     t: null
     quote: null
 links:
@@ -197,28 +197,28 @@ learn_folder: LocalFunctionality/Mexico
 
 # Mexico (MX)
 
-> Mexico (MX) localization of Business Central 29. It covers CFDI 4.0 electronic invoicing with SAT certificates and PAC web services, Carta de Porte transfers, DIOT reports, electronic accounting export, tax identification (RFC, CURP), VAT recalculation on foreign-currency payments, and EFT bank exports, deposits and bank reconciliation. It also carries North American sales tax objects.
+> Mexico (MX) localization of Business Central 29. It covers CFDI 4.0 electronic invoicing with PAC stamping and SAT certificates, Carta de Porte for transfers and shipments, DIOT reports, electronic accounting export, cash-basis VAT, tax identification (RFC, CURP) and electronic bank payments. It also carries NA-derived sales tax, bank reconciliation and report objects.
 
 BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/mexico.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Mexican layer is mainly an electronic invoicing solution. General Ledger Setup, Company Information, customers, items, units of measure, payment methods and sales documents get SAT and CFDI fields. Posted sales invoices, credit memos, shipments and transfer shipments store the original XML, digital stamps, status and cancellation data, and have ExportEDocument, RequestStampEDocument and CancelEDocument procedures. The eServices objects (E-Invoice Mgt., PAC Web Services pages, SAT catalog pages, SAT Utilities) implement stamping, cancellation and the SAT catalogs. Learn documents setup of certificates, PAC web services, CFDI field mapping and foreign trade complements.
+The Mexican layer contains 758 objects: 147 W1 objects it changes and 611 objects of its own. Its core is electronic invoicing. Posted sales shipments, invoices and credit memos, customer ledger entries and transfer shipments get SAT/CFDI fields (digital stamps, signed XML, status, cancellation) and ExportEDocument, RequestStampEDocument and CancelEDocument procedures. Service documents are handled by Service E-Invoice Mgt. (27006). Codeunits such as E-Invoice Mgt. (10145), EInvoice Communication (10146) and SAT Utilities (27030) handle PAC communication, and General Ledger Setup, Company Information, Customer, Item and Unit of Measure carry the SAT mappings. Learn documents setup of PAC web services, SAT certificates, CFDI 4.0, Pagos 2.0, Comercio Exterior and Carta de Porte 3.1.
 
-Other local features are the DIOT report for vendor VAT, the electronic accounting export (chart of accounts, trial balance, journal transactions as XML), and Carta de Porte data on transfer orders and sales documents (vehicles, transport operators, SCT permissions, hazardous material). Customers and vendors get RFC and CURP tax identification. Gen. Jnl.-Post Line gains unrealized VAT and realized VAT gain/loss procedures, used for VAT recalculation on foreign-currency payments.
+Tax and accounting features include DIOT reporting (codeunits 27020 to 27022), electronic accounting export (Export Accounts, SAT Account Code on G/L Account), tax identification types with RFC and CURP, and cash-basis VAT with unrealized VAT posting in Gen. Jnl.-Post Line.
 
-The layer also includes objects shared with the North American (US/CA) base: sales tax calculation with an external tax engine interface, EFT export codeunits (ACH, RB, Cecoban, IAT), bank reconciliation and deposits, check printing, many NA reports, Yodlee, Ceridian payroll, Shopify tax matching and PEPPOL NA. Events and procedures on posting codeunits give extension points.
+The layer also contains a large body of North American (NA) objects: sales tax calculation with an external tax engine interface, EFT bank exports (ACH, Cecoban, RB, IAT), bank reconciliation and deposits, Yodlee and Ceridian connectors, many classic reports, and a Shopify tax matching extension.
 
 ## Key points
 
-- CFDI 4.0 electronic invoicing: SAT certificates (including multiple), PAC web services, digital stamp, QR code, cancellation, PDF inclusion.
-- Electronic document fields and ExportEDocument, RequestStampEDocument and CancelEDocument procedures on posted sales and transfer documents.
-- Carta de Porte for packing slips and transfer orders: vehicles, transport operators, SCT permissions, item SAT classification, hazardous material, custom transit number.
-- DIOT report extension: vendor type of operation, DIOT concepts, optional withholding tax reporting, text file for SAT.
-- Electronic accounting export of chart of accounts, trial balance and journal transactions as XML, using SAT account codes on G/L accounts.
-- RFC and CURP tax identification types on customers, vendors and company information.
-- VAT recalculation for foreign-currency payments through unrealized VAT procedures in Gen. Jnl.-Post Line.
-- Banking: EFT export (ACH, RB, Cecoban, IAT), deposits, bank reconciliation, and the external tax engine interface for sales tax.
+- CFDI 4.0 e-invoicing: stamp requests to a PAC, XML export, email, cancellation, QR code, multiple SAT certificates
+- Pagos 2.0 payment receipts and Comercio Exterior complement for export operations
+- Carta de Porte 3.1 on packing slips and transfer orders with vehicle, trailer, operator and hazardous material data
+- DIOT reports exported as TXT, set up through vendor, VAT posting group and concept configuration
+- Electronic accounting XML export of chart of accounts, trial balance, journals and auxiliary accounts using SAT account codes
+- Cash-basis VAT with unrealized VAT and exchange-rate adjustment, controlled in General Ledger Setup and VAT Posting Setup
+- Tax identification types with RFC No. and CURP No. on customers, vendors and company information; employees carry RFC No.
+- Electronic payment (EFT) exports and bank reconciliation and deposit objects from the NA layer
 
 Narrative written by Sonnet from the code diff and 12 Learn page summaries. In numbers: Mexico (MX) localization of Business Central in BC29: 611 objects of its own, 147 W1 objects changed (526 fields and 103 events added). From the code; country apps outside the Base Application are not included yet.
 
@@ -248,49 +248,49 @@ Narrative written by Sonnet from the code diff and 12 Learn page summaries. In n
 
 ### Finance
 
-Adds sales tax calculation with an external tax engine interface, DIOT objects, and Mexican fields on G/L Account, General Ledger Setup, VAT Posting Setup and journal lines. Gen. Jnl.-Post Line gets unrealized VAT and realized gain/loss procedures plus EFT checks.
+Adds sales tax calculation with an external tax engine interface (codeunit 398 "Sales Tax Calculate"), DIOT objects, and unrealized VAT posting procedures in codeunit 12 "Gen. Jnl.-Post Line". General Ledger Setup, G/L Account, VAT Entry and VAT Posting Setup get fields for CFDI, SAT account codes and VAT handling.
 
-Why: Learn describes VAT recalculation at payment time for foreign-currency payments, DIOT reporting of vendor VAT to SAT, and SAT account codes for electronic accounting.
+Why: Cash-basis VAT records VAT when invoices are paid, with exchange-rate adjustments. DIOT reports go to SAT as TXT files.
 
-Objects: [table/98 "General Ledger Setup"](../objects/table/98.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [codeunit/398 "Sales Tax Calculate"](../objects/codeunit/398.md), [table/15 "G/L Account"](../objects/table/15.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), [codeunit/27020 "DIOT - Initialize"](../objects/codeunit/27020-mx.md) (own), [codeunit/27021 "DIOT Data Management"](../objects/codeunit/27021-mx.md) (own), [table/254 "VAT Entry"](../objects/table/254.md).
+Objects: [table/98 "General Ledger Setup"](../objects/table/98.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [codeunit/398 "Sales Tax Calculate"](../objects/codeunit/398.md), [table/15 "G/L Account"](../objects/table/15.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), [table/254 "VAT Entry"](../objects/table/254.md), [codeunit/27020 "DIOT - Initialize"](../objects/codeunit/27020-mx.md) (own), [codeunit/27021 "DIOT Data Management"](../objects/codeunit/27021-mx.md) (own).
 
 [All 132 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### eServices
 
-Core of CFDI electronic invoicing: e-invoice management, PAC communication (on-prem and SaaS, via interface), cancel batches, SAT catalog pages, a setup wizard and electronic accounting export codeunits.
+Provides the CFDI electronic invoicing engine: PAC web services, SAT catalogs, CFDI setup pages and wizard, on-prem and SaaS communication codeunits, cancel request batches and electronic accounting export.
 
-Why: Mexican tax authority rules require CFDI XML invoices stamped by a PAC, and electronic accounting files sent to SAT.
+Why: Mexican invoices must be exported as digitally signed CFDI XML, stamped by a PAC and cancelled through defined procedures. Electronic accounting files are XML exports to the tax authority.
 
-Objects: [codeunit/10145 "E-Invoice Mgt."](../objects/codeunit/10145-mx.md) (own), [codeunit/10146 "EInvoice Communication"](../objects/codeunit/10146-mx.md) (own), [interface/einvoice communication v2 "EInvoice Communication V2"](../objects/interface/einvoice-communication-v2-mx.md) (own), [codeunit/27030 "SAT Utilities"](../objects/codeunit/27030-mx.md) (own), [page/10455 "PAC Web Services"](../objects/page/10455-mx.md) (own), [page/10457 "MX Electronic Invoice Setup"](../objects/page/10457-mx.md) (own), [page/27010 "Mexican CFDI Wizard"](../objects/page/27010-mx.md) (own), [codeunit/27000 "Export Accounts"](../objects/codeunit/27000-mx.md) (own).
+Objects: [codeunit/10145 "E-Invoice Mgt."](../objects/codeunit/10145-mx.md) (own), [codeunit/10146 "EInvoice Communication"](../objects/codeunit/10146-mx.md) (own), [codeunit/10174 "EInvoice OnPrem Communication"](../objects/codeunit/10174-mx.md) (own), [codeunit/10175 "EInvoice SaaS Communication"](../objects/codeunit/10175-mx.md) (own), [codeunit/27030 "SAT Utilities"](../objects/codeunit/27030-mx.md) (own), [page/10455 "PAC Web Services"](../objects/page/10455-mx.md) (own), [page/10457 "MX Electronic Invoice Setup"](../objects/page/10457-mx.md) (own), [codeunit/27000 "Export Accounts"](../objects/codeunit/27000-mx.md) (own).
 
 [All 124 objects of eServices in the diff](?ns=eServices#country-diff)
 
 ### Bank
 
-Adds EFT export codeunits for ACH, RB, Cecoban and IAT formats, Data Exchange mapping codeunits, bank reconciliation and deposit handling. Bank Account, Check Ledger Entry and Bank Account Card get export and check fields.
+Adds EFT export codeunits (ACH, Cecoban, RB, IAT), Data Exchange mapping codeunits, bank reconciliation, deposits and check printing. Bank Account and Check Ledger Entry gain fields for electronic payment export.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/270 "Bank Account"](../objects/table/270.md), [codeunit/10094 "Export EFT (ACH)"](../objects/codeunit/10094-mx.md) (own), [codeunit/10096 "Export EFT (Cecoban)"](../objects/codeunit/10096-mx.md) (own), [codeunit/10098 "Generate EFT"](../objects/codeunit/10098-mx.md) (own), [codeunit/10331 "EFT Export Mgt"](../objects/codeunit/10331-mx.md) (own), [codeunit/10130 "Bank Reconciliation Mgt."](../objects/codeunit/10130-mx.md) (own), [table/272 "Check Ledger Entry"](../objects/table/272.md), [page/370 "Bank Account Card"](../objects/page/370.md).
+Objects: [table/270 "Bank Account"](../objects/table/270.md), [codeunit/10092 "Export Payments (Cecoban)"](../objects/codeunit/10092-mx.md) (own), [codeunit/10098 "Generate EFT"](../objects/codeunit/10098-mx.md) (own), [codeunit/10331 "EFT Export Mgt"](../objects/codeunit/10331-mx.md) (own), [codeunit/10333 "Exp. Mapping Head EFT MX"](../objects/codeunit/10333-mx.md) (own), [codeunit/10130 "Bank Reconciliation Mgt."](../objects/codeunit/10130-mx.md) (own), [table/272 "Check Ledger Entry"](../objects/table/272.md), [page/370 "Bank Account Card"](../objects/page/370.md).
 
 [All 122 objects of Bank in the diff](?ns=Bank#country-diff)
 
 ### Sales
 
-Adds CFDI, electronic document, foreign trade and Carta de Porte fields on sales headers, lines and posted documents, plus RFC/CURP and SAT fields on Customer. Sales-Post and prepayment codeunits get sales tax events and procedures, and statistics pages are added.
+Sales headers, lines and posted documents get CFDI stamp fields, export and cancel procedures, transport (Carta de Porte) fields and retention fields. Customer gets RFC, CURP and CFDI defaults. Sales-Post adds sales tax events and procedures.
 
-Why: CFDI documents need stamps, SAT codes and complement data stored on the posted document.
+Why: Posted invoices and credit memos must carry the SAT digital stamp and signed XML, and shipments can carry Carta de Porte data.
 
-Objects: [table/112 "Sales Invoice Header"](../objects/table/112.md), [table/114 "Sales Cr.Memo Header"](../objects/table/114.md), [table/36 "Sales Header"](../objects/table/36.md), [table/18 "Customer"](../objects/table/18.md), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [table/21 "Cust. Ledger Entry"](../objects/table/21.md), [table/110 "Sales Shipment Header"](../objects/table/110.md), [table/37 "Sales Line"](../objects/table/37.md).
+Objects: [table/112 "Sales Invoice Header"](../objects/table/112.md), [table/114 "Sales Cr.Memo Header"](../objects/table/114.md), [table/110 "Sales Shipment Header"](../objects/table/110.md), [table/36 "Sales Header"](../objects/table/36.md), [table/18 "Customer"](../objects/table/18.md), [table/21 "Cust. Ledger Entry"](../objects/table/21.md), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [table/37 "Sales Line"](../objects/table/37.md).
 
 [All 109 objects of Sales in the diff](?ns=Sales#country-diff)
 
 ### Purchases
 
-Adds tax fields on vendors and purchase documents (RFC, CURP, tax identification type, fiscal invoice number PAC), sales tax posting events in Purch.-Post, DIOT page extensions and NA purchase reports.
+Vendor, purchase headers and lines gain RFC, CURP, tax identification type and provincial tax fields. Purch.-Post adds sales tax procedures and events. DIOT page extensions sit on setup, vendor card and invoice, with many NA vendor reports.
 
-Why: DIOT reporting needs vendor RFC and operation type data.
+Why: DIOT reporting needs vendor setup and VAT posting group linking.
 
 Objects: [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [table/23 "Vendor"](../objects/table/23.md), [table/38 "Purchase Header"](../objects/table/38.md), [table/39 "Purchase Line"](../objects/table/39.md), [pageextension/27030 "DIOT Purch. & Payables Setup"](../objects/pageextension/27030-mx.md) (own), [pageextension/27031 "DIOT Vendor Card"](../objects/pageextension/27031-mx.md) (own), [pageextension/27033 "DIOT Purchase Invoice"](../objects/pageextension/27033-mx.md) (own), [table/288 "Vendor Bank Account"](../objects/table/288.md).
 
@@ -298,9 +298,9 @@ Objects: [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [table/23 "Vend
 
 ### Inventory
 
-Adds SAT classification, hazardous material and packaging fields to Item and Item Template, Carta de Porte and stamp fields on transfer orders and transfer shipments, and NA inventory reports.
+Transfer orders and shipments carry transport, stamp and customs fields so transfers can be issued as Carta de Porte. Item, Item Templ. and Item Charge get SAT classification, hazardous material and packaging fields. Many NA inventory reports are included.
 
-Why: Carta de Porte transfer orders require item classification, vehicle, transport and customs data.
+Why: Carta de Porte 3.1 requires vehicle, trailer, item classification and hazardous material data for goods transport.
 
 Objects: [table/5744 "Transfer Shipment Header"](../objects/table/5744.md), [table/5740 "Transfer Header"](../objects/table/5740.md), [table/27 "Item"](../objects/table/27.md), [table/1382 "Item Templ."](../objects/table/1382.md), [table/5741 "Transfer Line"](../objects/table/5741.md), [table/5745 "Transfer Shipment Line"](../objects/table/5745.md), [codeunit/10461 "Transfer Shpt. Header - Edit"](../objects/codeunit/10461-mx.md) (own), [page/10461 "Posted Transfer Shpt. - Update"](../objects/page/10461-mx.md) (own).
 
@@ -308,57 +308,57 @@ Objects: [table/5744 "Transfer Shipment Header"](../objects/table/5744.md), [tab
 
 ### Service
 
-Adds sales tax handling to service documents, with events and procedures in Serv-Documents Mgt., NA page extensions, table extensions and statistics pages.
+Service documents get sales tax calculation events, external tax engine support, NA page and table extensions, statistics pages and CFDI cancellation batch support through service codeunits.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/5988 "Serv-Documents Mgt."](../objects/codeunit/5988.md), [codeunit/10288 "Serv-Documents Mgt. NA"](../objects/codeunit/10288-mx.md) (own), [report/5915 "Service Document - Test"](../objects/report/5915.md), [codeunit/5987 "Serv-Posting Journals Mgt."](../objects/codeunit/5987.md), [tableextension/10011 "Service Header NA"](../objects/tableextension/10011-mx.md) (own), [tableextension/10014 "Service Line NA"](../objects/tableextension/10014-mx.md) (own), [report/10470 "Service Order-Sales Tax"](../objects/report/10470-mx.md) (own), [report/10471 "Service Quote-Sales Tax"](../objects/report/10471-mx.md) (own).
+Objects: [codeunit/5988 "Serv-Documents Mgt."](../objects/codeunit/5988.md), [codeunit/10288 "Serv-Documents Mgt. NA"](../objects/codeunit/10288-mx.md) (own), [report/5915 "Service Document - Test"](../objects/report/5915.md), [codeunit/5987 "Serv-Posting Journals Mgt."](../objects/codeunit/5987.md), [tableextension/10011 "Service Header NA"](../objects/tableextension/10011-mx.md) (own), [tableextension/10014 "Service Line NA"](../objects/tableextension/10014-mx.md) (own), [report/10470 "Service Order-Sales Tax"](../objects/report/10470-mx.md) (own), [page/10052 "Service Order Stats."](../objects/page/10052-mx.md) (own).
 
 [All 39 objects of Service in the diff](?ns=Service#country-diff)
 
 ### Integration
 
-Adds a Shopify tax match layer (TMA): matcher, tax area builder, review pages and extensions of shop, order and tax jurisdiction tables.
+Adds a Shopify tax matching extension that maps order tax lines to tax areas and jurisdictions, with review pages, install and upgrade codeunits and a permission set.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/30471 "Shpfy TMA Matcher"](../objects/codeunit/30471-mx.md) (own), [codeunit/30472 "Shpfy Tax Area Builder"](../objects/codeunit/30472-mx.md) (own), [codeunit/30470 "Shpfy TMA Register"](../objects/codeunit/30470-mx.md) (own), [page/30471 "Shpfy TMA Review"](../objects/page/30471-mx.md) (own), [tableextension/30470 "Shpfy TMA Shop"](../objects/tableextension/30470-mx.md) (own), [tableextension/30476 "Shpfy TMA Order Header"](../objects/tableextension/30476-mx.md) (own), [pageextension/30470 "Shpfy TMA Shop Card"](../objects/pageextension/30470-mx.md) (own), [permissionset/30470 "Shpfy TMA"](../objects/permissionset/30470-mx.md) (own).
+Objects: [codeunit/30471 "Shpfy TMA Matcher"](../objects/codeunit/30471-mx.md) (own), [codeunit/30472 "Shpfy Tax Area Builder"](../objects/codeunit/30472-mx.md) (own), [page/30471 "Shpfy TMA Review"](../objects/page/30471-mx.md) (own), [tableextension/30470 "Shpfy TMA Shop"](../objects/tableextension/30470-mx.md) (own), [tableextension/30481 "Shpfy TMA Tax Jurisdiction"](../objects/tableextension/30481-mx.md) (own), [codeunit/30470 "Shpfy TMA Register"](../objects/codeunit/30470-mx.md) (own), [permissionset/30470 "Shpfy TMA"](../objects/permissionset/30470-mx.md) (own).
 
 [All 24 objects of Integration in the diff](?ns=Integration#country-diff)
 
 ### (no namespace)
 
-Holds the CFDI Subject to Tax table, page and xmlport, upgrade codeunits for CFDI, EFT and sales tax, bank reconciliation printing, bank permission sets and role profiles.
+Holds the CFDI Subject to Tax table, page and XML port, bank reconciliation printing and report, bank permission sets, role profiles, and upgrade codeunits for CFDI, EFT, sales tax and RFC numbers.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/27008 "CFDI Subject to Tax"](../objects/table/27008-mx.md) (own), [page/27008 "CFDI Subjects to Tax"](../objects/page/27008-mx.md) (own), [xmlport/27008 "CFDI Subject to Tax"](../objects/xmlport/27008-mx.md) (own), [report/10408 "Bank Reconciliation"](../objects/report/10408-mx.md) (own), [codeunit/104151 "UPG. MX CFDI"](../objects/codeunit/104151-mx.md) (own), [codeunit/104155 "Upgrade CFDI RFC Number"](../objects/codeunit/104155-mx.md) (own), [permissionset/27004 "BANKREC-POST"](../objects/permissionset/27004-mx.md) (own), [enum/27030 "DIOT Type of Operation"](../objects/enum/27030-mx.md) (own).
+Objects: [table/27008 "CFDI Subject to Tax"](../objects/table/27008-mx.md) (own), [page/27008 "CFDI Subjects to Tax"](../objects/page/27008-mx.md) (own), [xmlport/27008 "CFDI Subject to Tax"](../objects/xmlport/27008-mx.md) (own), [report/10408 "Bank Reconciliation"](../objects/report/10408-mx.md) (own), [codeunit/10124 "BankRec-Printed"](../objects/codeunit/10124-mx.md) (own), [codeunit/104151 "UPG. MX CFDI"](../objects/codeunit/104151-mx.md) (own), [codeunit/104155 "Upgrade CFDI RFC Number"](../objects/codeunit/104155-mx.md) (own), [enum/27030 "DIOT Type of Operation"](../objects/enum/27030-mx.md) (own).
 
 [All 22 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
 ### Projects
 
-Adds NA job and resource reports and extends Job Difference Buffer with budget fields.
+Adds NA-style job and resource reports and extends the Job Difference Buffer with budget quantity, cost and amount fields.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/1019 "Job Difference Buffer"](../objects/table/1019.md), [report/10210 "Job Actual to Budget (Cost)"](../objects/report/10210-mx.md) (own), [report/10211 "Job Actual to Budget (Price)"](../objects/report/10211-mx.md) (own), [report/10215 "Job Cost Budget"](../objects/report/10215-mx.md) (own), [report/10219 "Job Cost Suggested Billing"](../objects/report/10219-mx.md) (own), [report/10216 "Job List"](../objects/report/10216-mx.md) (own), [report/10200 "Resource Usage"](../objects/report/10200-mx.md) (own).
+Objects: [table/1019 "Job Difference Buffer"](../objects/table/1019.md), [report/10210 "Job Actual to Budget (Cost)"](../objects/report/10210-mx.md) (own), [report/10211 "Job Actual to Budget (Price)"](../objects/report/10211-mx.md) (own), [report/10215 "Job Cost Budget"](../objects/report/10215-mx.md) (own), [report/10219 "Job Cost Suggested Billing"](../objects/report/10219-mx.md) (own), [report/10054 "Open Sales Invoices by Job"](../objects/report/10054-mx.md) (own).
 
 [All 17 objects of Projects in the diff](?ns=Projects#country-diff)
 
 ### Foundation
 
-Adds Mexican fields to Company Information (RFC, CURP, SAT tax regime, postal code), Country/Region, Payment Terms, Unit of Measure and No. Series Line, plus bank reconciliation and deposit support in Navigate and Document-Print.
+Company Information gets RFC, CURP, tax scheme, SAT regime and postal code fields plus a check for missing e-invoice fields. Payment Terms, Country/Region and Unit of Measure get SAT mapping fields, and No. Series Line gets series and authorization fields.
 
-Why: Electronic invoicing setup requires company tax data and SAT codes.
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/79 "Company Information"](../objects/table/79.md), [table/204 "Unit of Measure"](../objects/table/204.md), [table/9 "Country/Region"](../objects/table/9.md), [table/3 "Payment Terms"](../objects/table/3.md), [table/309 "No. Series Line"](../objects/table/309.md), [page/344 "Navigate"](../objects/page/344.md), [table/242 "Source Code Setup"](../objects/table/242.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md).
+Objects: [table/79 "Company Information"](../objects/table/79.md), [table/204 "Unit of Measure"](../objects/table/204.md), [table/3 "Payment Terms"](../objects/table/3.md), [table/9 "Country/Region"](../objects/table/9.md), [table/309 "No. Series Line"](../objects/table/309.md), [table/242 "Source Code Setup"](../objects/table/242.md), [page/344 "Navigate"](../objects/page/344.md).
 
 [All 16 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
 ### Payroll
 
-Adds the Ceridian payroll import: setup table and page, import xmlport, management codeunits and permission set extensions.
+Includes the Ceridian payroll import: setup table and page, import XML port, management codeunits and permission set extensions.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -368,37 +368,37 @@ Objects: [codeunit/1668 "MS Ceridian Payroll Mgt."](../objects/codeunit/1668-mx.
 
 ### Utilities
 
-Extends Document Totals, Copy Document Mgt. and assisted setup with sales tax and retention handling. Adds a DIOT data classification procedure and Data Dictionary objects.
+Adjusts Document Totals, Copy Document Mgt. (retention and sales tax lines), assisted setup for tax area, data classification for DIOT, and adds a data dictionary report and table.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/57 "Document Totals"](../objects/codeunit/57.md), [codeunit/6620 "Copy Document Mgt."](../objects/codeunit/6620.md), [codeunit/1814 "Assisted Setup Subscribers"](../objects/codeunit/1814.md), [page/1803 "Assisted Company Setup Wizard"](../objects/page/1803.md), [codeunit/1752 "Data Class. Eval. Data Country"](../objects/codeunit/1752.md), [table/10040 "Data Dictionary Info"](../objects/table/10040-mx.md) (own), [report/10315 "Data Dictionary"](../objects/report/10315-mx.md) (own).
+Objects: [codeunit/57 "Document Totals"](../objects/codeunit/57.md), [codeunit/6620 "Copy Document Mgt."](../objects/codeunit/6620.md), [codeunit/1814 "Assisted Setup Subscribers"](../objects/codeunit/1814.md), [page/1803 "Assisted Company Setup Wizard"](../objects/page/1803.md), [codeunit/1752 "Data Class. Eval. Data Country"](../objects/codeunit/1752.md), [table/10040 "Data Dictionary Info"](../objects/table/10040-mx.md) (own).
 
 [All 11 objects of Utilities in the diff](?ns=Utilities#country-diff)
 
 ### Peppol
 
-Adds PEPPOL 3.0 NA codeunits and format enum extension, with install, upgrade and subscribers.
+Adds PEPPOL 3.0 NA codeunits for install, upgrade and subscribers plus an enum extension for the format.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/37350 "PEPPOL30 NA"](../objects/codeunit/37350-mx.md) (own), [codeunit/37353 "PEPPOL30 NA Subscribers"](../objects/codeunit/37353-mx.md) (own), [enumextension/37350 "PEPPOL 3.0 Format NA"](../objects/enumextension/37350-mx.md) (own).
+Objects: [codeunit/37350 "PEPPOL30 NA"](../objects/codeunit/37350-mx.md) (own), [codeunit/37353 "PEPPOL30 NA Subscribers"](../objects/codeunit/37353-mx.md) (own), [enumextension/37350 "PEPPOL 3.0 Format NA"](../objects/enumextension/37350-mx.md) (own), [codeunit/37351 "PEPPOL30 NA Install"](../objects/codeunit/37351-mx.md) (own).
 
 [All 5 objects of Peppol in the diff](?ns=Peppol#country-diff)
 
 ### IO
 
-Extends Data Exchange Definition and Mapping for EFT payment export, and adds a Tax Area Code field to Config. Setup.
+Data Exch. Def gains EFT export checks and codeunit updates, and Config. Setup gets a tax area code, supporting EFT payment file definitions.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/1222 "Data Exch. Def"](../objects/table/1222.md), [table/1224 "Data Exch. Mapping"](../objects/table/1224.md), [enum/1222 "Data Exchange Definition Type"](../objects/enum/1222.md), [table/8627 "Config. Setup"](../objects/table/8627.md).
+Objects: [table/1222 "Data Exch. Def"](../objects/table/1222.md), [table/1224 "Data Exch. Mapping"](../objects/table/1224.md), [table/8627 "Config. Setup"](../objects/table/8627.md), [enum/1222 "Data Exchange Definition Type"](../objects/enum/1222.md).
 
 [All 4 objects of IO in the diff](?ns=IO#country-diff)
 
 ### Microsoft
 
-Holds Declaration 347 and 349 label reports and the B10 Adjustment table and page.
+Contains a B10 adjustment table and page and Declaration 347 and 349 label reports.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -418,7 +418,7 @@ Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permis
 
 ### HumanResources
 
-Adds RFC No. and License No. to Employee, and HR and Payroll role centers.
+Employee gets RFC No. and License No. fields, and Human Resources and Payroll role center pages are added.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -428,9 +428,9 @@ Objects: [table/5200 "Employee"](../objects/table/5200.md), [page/36600 "Human R
 
 ### FixedAssets
 
-Adds vehicle and SAT transport fields to Fixed Asset (licence plate, gross weight, federal autotransport, trailer type, SCT permission).
+Fixed Asset gets vehicle fields (plate, year, weight) and SAT federal autotransport, trailer type and permission fields used for transport documents.
 
-Why: Carta de Porte documents need vehicle and permission data.
+Why: Carta de Porte needs vehicle and permission data.
 
 Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 

@@ -5,12 +5,13 @@
   "source": "olofsimren-com",
   "published_at": "2026-10-26T12:10:34.000Z",
   "words": 1154,
-  "summary": "ZOOK, a manufacturer of rupture disks and pressure-safety devices, demonstrates how Business Central and Dynamics NAV support complex engineer-to-order manufacturing with custom extensions. The case study shows how partner expertise in manufacturing combined with deep customization achieved significant operational efficiencies.",
+  "summary": "Case study of ZOOK, a maker of rupture disks built to order. With partner Naviona, ZOOK heavily customized Dynamics NAV with a custom configurator, certificate automation, a tool for merging data across environments and a Canadian UPS WorldShip interface. ZOOK is now moving to Business Central and reviewing which customizations to keep or replace with standard features.",
   "key_points": [
-    "Custom product configurator determines production methods, inspection rules, and documentation requirements beyond simple component selection for engineer-to-order products.",
-    "Automation reduced certificate generation from 30 minutes to 2 minutes while enabling production of 30+ different document types sold across 170+ countries.",
-    "Shipping integration for Canadian UPS operations was reduced from 20 minutes per shipment to 2 seconds through custom interface development; ZOOK handles 45-80 daily Canadian shipments.",
-    "ZOOK's approximately 30% customized NAV environment is being evaluated for migration to Business Central with careful assessment of which customizations are still needed versus standard capabilities."
+    "An off-the-shelf ISV configurator was too limited, so a custom one was built. It also drives production, inspection and the information each step needs.",
+    "Certificate creation dropped from about 30 minutes to about 2 minutes. ZOOK can now build its own documents and has around 30 types for customers in more than 170 countries.",
+    "A table copy and merge tool cut consolidation of three NAV environments from an estimated 70 to 95 hours to about two hours.",
+    "A NAV to UPS WorldShip Canada interface cut shipment handling from 12 to 20 minutes to about two seconds, for 45 to 80 shipments a day.",
+    "The NAV system is about 30 percent customized. In the migration, each customization is reviewed against what Business Central now offers as standard."
   ],
   "systems": [
     "manufacturing",

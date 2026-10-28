@@ -7,11 +7,11 @@
   "words": 283,
   "summary": "Dynamics 365 Business Central 2026 Wave 2 introduces the ability to temporarily match a sandbox environment's database configuration to production-level performance for 72 hours, enabling realistic testing and performance validation without deploying to production.",
   "key_points": [
-    "Sandbox environments can now temporarily match production database configuration for 72 hours through Admin Center",
-    "Configuration automatically reverts after 72 hours during the next scheduled update",
-    "Maximum of 3 operations allowed per month per tenant",
-    "Feature available via Admin Center API and supports all paid license types including Partner Sandbox environments",
-    "Useful for testing app performance, Performance Toolkit, and Cloud Migration scenarios"
+    "In the Admin Center, a sandbox can temporarily get the database configuration of a typical production environment for 72 hours.",
+    "Starting the operation restarts the environment, and the operation is logged under Operations in the Admin Center.",
+    "After 72 hours the original configuration is restored in the next update window.",
+    "The operation can be used at most 3 times per month.",
+    "It is also available through the Admin Center API on tenants with paid licenses, including Partner Sandboxes. It helps with performance testing, Performance Toolkit and Cloud Migration."
   ],
   "systems": [
     "administration",
@@ -30,8 +30,7 @@
     "Sandbox database configuration matching",
     "Temporary production-level performance",
     "Admin Center API support",
-    "Automatic configuration reversion",
-    "Environment restart capability"
+    "Automatic configuration reversion"
   ],
   "versions": [
     "2026 Wave 2"

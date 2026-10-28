@@ -2,33 +2,33 @@
 id: topic/business-central/business-functionality/local-functionality/united-kingdom/banking-and-payments
 type: topic
 title: Banking and payments
-summary: "Banking and payments for the United Kingdom version of Business Central covers two payment journal outputs: printing checks in the APACS specification layout and printing remittance advice for vendors. It answers questions about UK check printing and vendor remittance."
+summary: "Banking and payments for the United Kingdom covers two payment tasks in Business Central: printing checks to the APACS specification and printing remittance advice from payment journals. It answers questions about how to run these from the Payment Journals page and which options apply."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T05:22:09.235Z"
+  at: "2026-10-28T11:04:14.110Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: e88dde30d752f4946b18eb2e22e41dda96b3b1a9f165b5c79fe4c33359b0e155
+  input_hash: 245025163037789039dffe3d1640fc5e5058ff6563a02a4a110e4a47872b1255
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs
-    title: Print Checks for APACS
-    date: "2021-02-18"
+    title: Print Checks for APACS in the United Kingdom
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice
-    title: Print Remittance Advice [GB]
-    date: "2025-02-19"
+    title: Print Remittance Advice in the United Kingdom
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
@@ -67,33 +67,34 @@ narrative: generated
 
 # Banking and payments
 
-> Banking and payments for the United Kingdom version of Business Central covers two payment journal outputs: printing checks in the APACS specification layout and printing remittance advice for vendors. It answers questions about UK check printing and vendor remittance.
+> Banking and payments for the United Kingdom covers two payment tasks in Business Central: printing checks to the APACS specification and printing remittance advice from payment journals. It answers questions about how to run these from the Payment Journals page and which options apply.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United Kingdom](../united-kingdom.md) > Banking and payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section holds UK-specific functionality for paying vendors from payment journals. It has two pages and no subtopics.
+This section holds UK-specific guidance for paying vendors. Both pages relate to the payment journal: checks are printed from the Payment Journals page, and remittance advice can be printed before or after the payment journal is posted.
 
-Print Checks for APACS explains how checks are printed in the standard APACS specification layout, including check preview, test print and a preprinted stub. Print Remittance Advice [GB] explains how to print remittance advice so vendors can see their invoice numbers and reconcile payments.
+The check page explains how to print checks that follow the APACS specification used by UK payment clearing services. It uses the Payment Journals page and the Check report, with preview and print actions and a few options that control how checks are grouped and reprinted.
 
-Start with the check page if you need to print checks from a payment journal. Use the remittance page if you need to send vendors payment details, before or after posting.
+The remittance advice page explains how to print or preview a remittance advice before or after posting a payment journal, so vendors can match payments to their invoices. Start with the check page if you pay by check, or the remittance page if you need to send payment details to vendors.
 
 ## Key points
 
-- Print Checks for APACS prints checks from payment journals using the standard APACS specification layout.
-- Check printing supports check preview and test print.
-- The APACS check layout works with a preprinted stub.
-- Print Remittance Advice [GB] is available in the British version.
-- Remittance advice shows vendor invoice numbers to help vendors reconcile.
-- Remittance advice can be printed before or after posting a payment journal.
-- The section has two pages and no subtopics.
+- Checks can be printed in the UK using the APACS specification for payment clearing services.
+- Check printing runs from Payment Journals and uses the Check report.
+- The Preview Check and Print Check actions let you review before printing.
+- Check settings include the Bank Account and Last Check No. fields.
+- Options include One Check per Vendor per Document No. and Reprint Checks.
+- Remittance advice can be printed or previewed before or after posting a payment journal.
+- Remittance advice helps vendors reconcile payments with their invoices.
+- Remittance advice can be filtered by the vendor's external document number.
 
 ## Learn pages
 
-- [Print Checks for APACS](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs): The APACS specification sets the standard layout for fields on checks in the UK. The Check report uses the APACS specification.
-  - In the observatory: [Report 1401 "Check"](../../../../../objects/report/1401.md)
-- [Print Remittance Advice [GB]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice): You can print remittance advice both before posting a payment journal and subsequent to posting a payment.
+- [Print Checks for APACS in the United Kingdom](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs): The APACS specification sets the standard layout for fields on checks in the UK. The Check report uses the APACS specification.
+  - In the observatory: [Page 370 "Bank Account Card"](../../../../../objects/page/370.md), [Report 1401 "Check"](../../../../../objects/report/1401.md)
+- [Print Remittance Advice in the United Kingdom](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice): Print remittance advice before posting a payment journal or after posting a payment in the British version of Business Central, with report options.
   - In the observatory: [Report 399 "Remittance Advice - Journal"](../../../../../objects/report/399.md)
 
 ## Business Central pages and reports

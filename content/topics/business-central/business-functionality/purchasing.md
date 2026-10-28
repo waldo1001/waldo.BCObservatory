@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/purchasing
 type: topic
 title: Purchasing
-summary: Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, approvals and electronic documents. It answers how-to questions on posting, matching, correcting and cancelling purchase documents, and points to a subtopic on purchasing analytics.
+summary: Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, approvals, and electronic documents. It answers how-to questions on posting and correcting purchase documents, matching invoices to orders, blanket orders, date calculation, and purchasing analytics.
 tier: official
 language: en
 system: purchasing
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T05:20:58.086Z"
+  at: "2026-10-28T11:00:59.767Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 14b03b3f21a31501aa0f5ea3310a49ed5561b0bf144e46054fba8b8783fa705d
+  input_hash: c67aab42f4f7c9e0ca8de9faae2993a4157f6fc8e739536827a2d96471e2f044
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget
@@ -160,8 +160,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records
-    title: Merge duplicate customer or vendor records
-    date: "2025-06-13"
+    title: Merge Duplicate Customers, Vendors, or Contacts
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
@@ -447,6 +447,7 @@ links:
     - change/bcapps/12723
     - change/bcapps/12809
     - change/bcapps/12816
+    - change/bcapps/12867
     - change/bcapps/12931
     - change/bcapps/13075
     - change/bcapps/9044
@@ -566,28 +567,28 @@ narrative: generated
 
 # Purchasing
 
-> Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, approvals and electronic documents. It answers how-to questions on posting, matching, correcting and cancelling purchase documents, and points to a subtopic on purchasing analytics.
+> Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, approvals, and electronic documents. It answers how-to questions on posting and correcting purchase documents, matching invoices to orders, blanket orders, date calculation, and purchasing analytics.
 
 Path: [Business functionality](../business-functionality.md) > Purchasing · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Purchasing section describes how a company buys goods and services in Business Central. It starts with an overview page listing the document types: purchase quotes, orders, invoices, returns, blanket orders and OCR invoices. Task pages then cover each step: requesting an offer with a quote, recording purchases with orders and invoices, combining receipts or order lines on one invoice, and handling returns, cancellations and corrections.
+Purchasing groups the pages for managing what a company buys. The core flow starts with purchase quotes, which convert to purchase orders, then receipt and invoicing through purchase invoices. Related pages cover blanket orders, standard recurring lines, external document numbers, date and lead time calculation, and purchasing items directly from sales orders.
 
-Other pages cover supporting setup and controls. These include lead time and date calculation, external document numbers, standard recurring purchase lines, purchase approval workflows, and checking invoice amounts before posting. Electronic documents (PEPPOL and OCR) and matching invoice drafts to purchase orders cover incoming invoices. A few pages are about contacts and master data, such as merging duplicate vendors and syncing contacts to Outlook.
+Other pages handle exceptions and control. You can amend or cancel unpaid posted invoices, process returns and cancellations with credit memos or return orders, and check document amounts before posting. Approval workflows control who can approve purchase documents. PEPPOL and OCR electronic invoices and credit memos can be converted into purchase documents. Purchase invoice drafts can be matched to purchase orders and receipts.
 
-Start with the overview page, then go to "Record purchases with purchase invoices" for the core flow. The Purchasing analytics subtopic covers reports, the Power BI Purchases app and ad-hoc data analysis for spend and vendor questions.
+Start with "Overview of tasks to manage to purchase" for the map of capabilities, then "Record purchases with purchase invoices" for the basic posting flow. The Purchasing analytics subtopic covers the Power BI Purchases app, built-in reports, and Data Analysis. The Payment practices report tracks how quickly vendors are paid. Some pages here, such as merging duplicates and saving contacts to Outlook, deal with vendor and contact data rather than purchase documents.
 
 ## Key points
 
-- Purchase quotes can be converted to purchase orders. Vendor templates and automatic vendor creation are supported.
-- Unpaid posted purchase invoices can be corrected or cancelled with a corrective credit memo. This keeps the audit trail and reverses financial and inventory entries.
-- Get Receipt Lines and Get Order Lines combine several receipts or order lines on one vendor invoice. Receipt-on-invoice creates the receipt automatically when you invoice.
-- Incoming purchase invoice drafts can be matched to purchase orders and receipts. The matching shows order-match warnings and checks unit of measure and quantity.
-- PEPPOL and OCR electronic invoices and credit memos can be received and converted into purchase documents using text-to-account mapping.
-- Purchase returns and cancellations use credit memos or return orders, with options for exact cost reversing and item charge assignment.
-- Purchase approval workflows use approvers, amount limits and notifications such as internal notes.
-- The payment practices report shows agreed versus actual payment periods and the percentage of on-time payments.
+- Purchase quotes convert to purchase orders; vendor templates and automatic vendor creation are supported.
+- Posted unpaid purchase invoices can be corrected or cancelled with a corrective credit memo that keeps the audit trail.
+- Get Receipt Lines and Get Order Lines combine several receipts or order lines on one vendor invoice; receipt-on-invoice creates the receipt automatically.
+- Purchase invoice drafts can be matched to purchase orders and receipts, with order-match warnings and unit of measure and quantity checks.
+- Returns use purchase credit memos or purchase return orders, with exact cost reversing and item charge assignment.
+- Purchase approval workflows use approvers, amount limits, and notifications such as internal notes.
+- PEPPOL and OCR electronic invoices and credit memos convert to purchase documents using text-to-account mapping (page tagged 2023 release wave 2).
+- Check amounts on purchase invoices and credit memos validates totals including VAT against lines before posting (page tagged 2025 release wave 1).
 
 ## Subtopics
 
@@ -606,7 +607,7 @@ Start with the overview page, then go to "Record purchases with purchase invoice
 - [External document numbers on purchase documents](https://learn.microsoft.com/dynamics365/business-central/purchasing-ext-doc-no): Learn how to record vendor-assigned document numbers using the External Document Number or Your Reference fields, and understand the differences between these options.
 - [Match Purchase Invoice Drafts to Purchase Orders](https://learn.microsoft.com/dynamics365/business-central/match-purchase-invoice-drafts-to-orders): Learn how to match incoming purchase invoice draft lines to purchase orders and receipts, review warnings, and prepare invoices for posting.
   - In the observatory: [Page 460 "Purchases & Payables Setup"](../../../objects/page/460.md)
-- [Merge duplicate customer or vendor records](https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records): Describes how to consolidate information about customers or vendors when you have duplicate entries about some of them.
+- [Merge Duplicate Customers, Vendors, or Contacts](https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records): Merge duplicate customer, vendor, or contact records in Business Central, choose which field values to keep, and resolve conflicts in related records.
   - In the observatory: [Page 21 "Customer Card"](../../../objects/page/21.md), [Page 702 "Merge Duplicate"](../../../objects/page/702.md), [Page 704 "Merge Duplicate Conflicts"](../../../objects/page/704.md)
 - [Overview of tasks to manage to purchase](https://learn.microsoft.com/dynamics365/business-central/purchasing-manage-purchasing): Outlines tasks to manage your purchasing or procurement processes, including how purchase invoices and purchase orders work.
 - [Payment practices report](https://learn.microsoft.com/dynamics365/business-central/ui-payment-practices): Learn how to easily create the Payment Practices report for vendors and customers.
@@ -645,6 +646,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12723 [Master]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](../../../changes/bcapps/12723.md) (code change): "changing the Description on a purchase invoice line no longer resets its Quantity"
 - [#12809 Bugs/bug 654102 main]purch order vendor change automatically applied to next order](../../../changes/bcapps/12809.md) (code change): "vendor change on one order is no longer automatically applied to the next order"
 - [#12816 [29.x]- Project Planning Lines are created in reverse order when purchase line descriptions are copied](../../../changes/bcapps/12816.md) (code change): "Project planning lines now maintain the original purchase line sequence when Copy Line"
+- [#12867 [29.X]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](../../../changes/bcapps/12867.md) (code change): "modifying the description field on purchase invoice and credit memo lines"
 - [#12931 [29.x][Repair Item] Purchase Order vendor change is automatically applied to the next order after navigation](../../../changes/bcapps/12931.md) (code change): "Purchase Order vendor change is automatically applied to the next order"
 - [#13075 [MAIN] [IN] Add extensibility events to support deferred TDS calculation on purchase documents](../../../changes/bcapps/13075.md) (code change): "deferred TDS calculation on purchase documents"
 - [#9044 [Master] Contact email is no validated during creation purchase documents_New](../../../changes/bcapps/9044.md) (code change): "Contact email validation is restored during purchase document creation"

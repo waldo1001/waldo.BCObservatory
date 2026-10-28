@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: bb0d1e64560b8effb8c0287e3daf60b34965af8a0a2835bf649ea71960b081bb
@@ -149,6 +149,7 @@ links:
   posts:
     - post/aardvarklabs-blog/3950
     - post/aardvarklabs-blog/4023
+    - post/thinkaboutit-be/8313
   guidelines: []
 learn_toc_path:
   - Administration
@@ -161,7 +162,7 @@ coverage:
   learn: 15
   code: 0
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: bb0d1e64560b8effb8c0287e3daf60b34965af8a0a2835bf649ea71960b081bb
@@ -220,6 +221,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Mastering the Business Central Administration API: A Complete Guide for SaaS Admins](../../../../posts/aardvarklabs-blog/3950.md) (community post): "Business Central Administration API enables SaaS admins to automate environment management"
 - [Automate Business Central Extension Deployment with PowerShell and the Admin API](../../../../posts/aardvarklabs-blog/4023.md) (community post): "monitoring installation status through the Admin API"
+- [Business Central 29: Manage Per-Tenant Extensions from the Admin Center](../../../../posts/thinkaboutit-be/8313.md) (community post): "Admin Center APIs expose PTE deployment operations, enabling automation"
 - [Introducing: Tenant Discovery Endpoint (2025 release wave 1)](../../../../videos/669rJN75L2g.md) (video): "Tenant Discovery Endpoint; Manageable Tenants API; S2S App Authentication for Admin Center"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

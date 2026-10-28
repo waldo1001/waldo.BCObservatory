@@ -2,20 +2,20 @@
 id: topic/business-central/business-functionality/set-up-business-central
 type: topic
 title: Set up Business Central
-summary: "Set up Business Central covers initial and ongoing configuration: company information, number series, base calendars, report selection, online maps, change log auditing, and desktop and mobile apps. It also links to setup areas for finance, sales, inventory, manufacturing, email, printers, workflows and data import."
+summary: "Set up Business Central covers initial and ongoing configuration: company information, number series, base calendars, report selection, online maps, setup change auditing, and desktop and mobile apps. It also points to subtopics for finance, sales, inventory, manufacturing, email, printers, workflows and data import."
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-10-24T00:53:27.899Z"
+  at: "2026-10-28T11:00:24.465Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d2e9e32d642fcb524e970cd4de525bc6cdbbad8851aac42bbf72cdfa52a23ecb
+  input_hash: c6f244188596f47fecc8a9c467cd9c8bd03ad6d74ed5dfd93405bea8d7ddcd51
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-how-enable-application-ledger-entries-different-currencies
@@ -111,7 +111,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-to-create-workflows
     title: Create approval workflows to connect tasks
-    date: "2025-10-15"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
@@ -1158,28 +1158,28 @@ narrative: generated
 
 # Set up Business Central
 
-> Set up Business Central covers initial and ongoing configuration: company information, number series, base calendars, report selection, online maps, change log auditing, and desktop and mobile apps. It also links to setup areas for finance, sales, inventory, manufacturing, email, printers, workflows and data import.
+> Set up Business Central covers initial and ongoing configuration: company information, number series, base calendars, report selection, online maps, setup change auditing, and desktop and mobile apps. It also points to subtopics for finance, sales, inventory, manufacturing, email, printers, workflows and data import.
 
 Path: [Business functionality](../business-functionality.md) > Set up Business Central · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section is the starting point for configuring Business Central. Its own pages cover general settings that apply across the product: company information, number series, base calendars, report selection, online maps, auditing of setup changes, and getting the desktop and mobile apps. The overview of setup tasks ties these together with company configuration, business processes, Microsoft product integrations, apps and data migration.
+This section is the starting point for configuring Business Central. Its own pages cover general setup that applies across the product: company information, number series, base calendars, report selection, online maps, and auditing of setup changes with the Change Log. It also has pages on getting the desktop app (Windows and macOS) and the mobile app.
 
-The subtopics go deeper by area. There are setup guides for finance, banking, sales, purchase, inventory, project management, fixed assets, warehouse management, manufacturing, quality management and service management. Others cover email, approval workflows, printers, importing data, and best practices for costing methods and supply planning.
+The "Overview of tasks to set up Business Central" page is a good first read. It covers the main setup areas: company configuration, general functionality, business processes, Microsoft product integrations, apps, and data migration from other systems.
 
-Start with the overview of tasks to set up Business Central, then do company information, number series and base calendars. After that, move to the subtopic for each business process you plan to use.
+The subtopics go deeper by area. There are separate groups for finance, banking, sales, purchase, inventory, project management, fixed assets, warehouse, manufacturing, quality and service management. Cross-cutting setup is covered in email, printers, approval workflows and import data. A separate subtopic on setup best practices for complex areas covers costing methods and supply planning.
 
 ## Key points
 
-- Number series assign unique sequential codes to customers, vendors, documents and master data. Options include Manual Nos., Default Nos., Allow Gaps in Nos., series lines and relationships.
-- Company information covers headquarters and warehouse addresses, company badges, display names, the company switcher and experience selection.
-- Base calendars set working and non-working days for the company and business partners. They feed date calculations in orders and production planning.
-- Report selection sets default reports and layouts for printing and emailing sales, purchase, service and other documents, including email body, attachment and check layouts.
-- The Change Log captures setup changes by table, with email notifications for sensitive fields. Automatic tracking of financial report changes starts in 2026 release wave 2.
-- Online maps show locations and route directions for customer and vendor addresses, with a customizable map provider.
-- The desktop app runs on Windows and macOS and supports multiple online environments. The mobile app works with cloud and on-premises deployments.
-- Subtopics cover 16 setup areas, from finance and banking to email, printers, approval workflows and data import from QuickBooks or Excel.
+- Start with the overview of setup tasks: company configuration, general functionality, business processes, Microsoft integrations, apps, and data migration.
+- Number series assign unique codes to records and documents; options include Manual Nos., Default Nos., Allow Gaps in Nos., and Number Series Lines and Relationships.
+- Company information covers headquarters and warehouse addresses, company badges, display names, the company switcher, and experience selection.
+- Base calendars define working and non-working days for date calculations in orders and production planning.
+- Report selection sets default reports and layouts for printing and emailing documents, including email body, attachment and check layouts.
+- The Change Log records setup changes by table; financial report changes are tracked automatically starting in 2026 release wave 2, with email notifications for sensitive fields.
+- Online maps show locations and route directions for customer and vendor addresses.
+- Desktop app (Windows, macOS) supports multiple online environments; the mobile app works with cloud and on-premises deployments.
 
 ## Subtopics
 

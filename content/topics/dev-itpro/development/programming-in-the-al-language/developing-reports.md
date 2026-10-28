@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.945Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -344,6 +344,7 @@ links:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5
     - post/thinkaboutit-be/7181
     - post/thinkaboutit-be/7813
+    - post/thinkaboutit-be/8291
     - post/yzhums-com/62513
     - post/yzhums-com/63559
     - post/yzhums-com/65570
@@ -383,7 +384,7 @@ coverage:
   learn: 54
   code: 12
   video: 2
-  blog: 13
+  blog: 14
   guideline: 0
 bc_forms:
   - 21
@@ -483,6 +484,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md) (community post): "In AL, the Subtype, HeaderFooterPart and ThemePart properties configure this"
 - [Quick Tip: Deep Dive into Report Objects and Layouts @BC TechDays 2025](../../../../posts/thinkaboutit-be/7181.md) (community post): "Reports combine three layers: data dataset, presentation layout, and user input"
 - [Quick Tip: BC28: What Is New in Document Reporting](../../../../posts/thinkaboutit-be/7813.md) (community post): "BC28 introduces enhanced document reporting features including an improved Word add-in"
+- [Business Central 29: What’s New in the Word Add-in?](../../../../posts/thinkaboutit-be/8291.md) (community post): "reusable design components provide predefined formatting for addresses, field groups, amounts, signatures"
 - [Business Central 2025 wave 1 (BC26): Running objects in actions defaults to UI descriptors on target object](../../../../posts/yzhums-com/62513.md) (community post): "Reports now have a ToolTip property"
 - [Dynamics 365 Business Central: Save a document as a Word attachment (Attach as Word) – Customization](../../../../posts/yzhums-com/63559.md) (community post): "demonstrates two approaches to save Business Central documents as Word attachments instead of PDF files"
 - [Dynamics 365 Business Central Blog Series: Adding Barcodes](../../../../posts/yzhums-com/65570.md) (community post): "barcode generation in reports, barcode scanning through AL code, printing barcodes from production orders"

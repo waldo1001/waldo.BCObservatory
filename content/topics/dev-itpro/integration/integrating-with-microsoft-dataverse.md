@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.950Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -193,6 +193,8 @@ links:
     - post/yzhums-com/63916
     - post/yzhums-com/64775
     - post/yzhums-com/71914
+    - post/yzhums-com/76918
+    - post/yzhums-com/76990
   guidelines: []
   changes:
     - change/bcapps/10207
@@ -215,7 +217,7 @@ coverage:
   learn: 22
   code: 1
   video: 5
-  blog: 3
+  blog: 5
   guideline: 0
 bc_forms:
   - 7214
@@ -272,6 +274,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central Blog Series: Integrate with Microsoft Dataverse](../../../posts/yzhums-com/63916.md) (community post): "three methods to integrate Business Central with Microsoft Dataverse: using the standard Dataverse connector"
 - [Dynamics 365 Business Central: Integrate with Microsoft Dataverse via APIs (Not using the standard Dataverse connector)](../../../posts/yzhums-com/64775.md) (community post): "integrate Dynamics 365 Business Central with Microsoft Dataverse using direct REST APIs instead of the standard connector"
 - [Business Central 2026 release wave 1 (BC28): Map new Dataverse fields (New and custom Dataverse tables are readily available for mapping from the lookup on Integration Table column)](../../../posts/yzhums-com/71914.md) (community post): "Map new Dataverse fields directly without writing code"
+- [Dynamics 365 Business Central: The AL Table Proxy Generator is distributed in the Microsoft.Dynamics.BusinessCentral.Development.Tools.Altpgen NuGet package (altpgen.exe missing from AL Language extension)](../../../posts/yzhums-com/76918.md) (community post): "generates proxy tables for integrating Microsoft Dataverse tables into Business Central"
+- [Dynamics 365 Business Central: An error occurred when communicating with Dataverse (User does not have required privileges to access the org when it is in Admin Only mode)](../../../posts/yzhums-com/76990.md) (community post): "integrating Business Central with Dataverse, users may encounter an error"
 - [What's New: Business Central Integration with Dataverse (2024 release wave 1)](../../../videos/-q8Gm7u7R2A.md) (video): "Business Central Integration with Dataverse; data synchronization; virtual tables"
 - [What's New: Using Power Pages with Business Central (2024 release wave 1)](../../../videos/auoHUd24Gfw.md) (video): "Multi-company support through Dataverse shared execution variable; Anonymous read-only access for external users"
 - [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../../../videos/fIOnGEARkKs.md) (video): "Multi-company and multi-environment synchronization; Multi-currency synchronization"

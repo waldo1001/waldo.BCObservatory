@@ -2,26 +2,26 @@
 id: topic/dev-itpro/development/system-and-application-reference-documen
 type: topic
 title: System and application reference documentation
-summary: System and application reference documentation describes how the Business Central application is split into modular layers (System Application and Business Foundation) and how to build or contribute AL modules to the System Application. It answers questions about application structure, module architecture rules, and the contribution workflow.
+summary: System and application reference documentation describes how the Business Central application is organized into modular layers, and how contributors build on the System Application. It answers questions about the System Application and Business Foundation layers and about creating or changing modules.
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:22:35.706Z"
+  at: "2026-10-28T11:02:41.014Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: be02286c3d0d86ae444fd700df1307d19d6a770426e836017532c1d595cbeb92
+  input_hash: 94eca4ac53658c06558aaf00c06945325ececf43507e55c46ced4886b7f63f87
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-change-a-module
-    title: Change a module in the System Application
-    date: "2024-01-03"
+    title: Change a System Application Module in Business Central
+    date: "2026-10-16"
     commit: null
     t: null
     quote: null
@@ -106,27 +106,26 @@ narrative: generated
 
 # System and application reference documentation
 
-> System and application reference documentation describes how the Business Central application is split into modular layers (System Application and Business Foundation) and how to build or contribute AL modules to the System Application. It answers questions about application structure, module architecture rules, and the contribution workflow.
+> System and application reference documentation describes how the Business Central application is organized into modular layers, and how contributors build on the System Application. It answers questions about the System Application and Business Foundation layers and about creating or changing modules.
 
 Path: [Development](../development.md) > System and application reference documentation · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Business Central application is being refactored into smaller modular layers to improve code organization and maintainability. The System Application layer holds ERP agnostic functionality. The Business Foundation layer holds ERP related functionality. The overview page explains this split.
+The Business Central application is being refactored into smaller modular layers to improve code organization and maintainability. Two layers are named: the System Application, which holds ERP agnostic functionality, and Business Foundation, which holds ERP related functionality.
 
-The "Creating new modules" subtopic (6 pages) is the practical follow-up. It covers how to build, change, and contribute AL modules in the System Application: environment setup, architecture rules, facade and implementation codeunits, .NET wrapper modules, tests, and the Git workflow.
+The section has one overview page that explains this layer structure, and one subtopic, Creating new modules, with six pages for contributors to the System Application. That subtopic covers environment setup, module architecture, building new modules, changing existing ones, and writing .NET wrapper modules.
 
-Start with the overview page to understand the layers and where code belongs. Then move to Creating new modules if you plan to add or change a module.
+Start with the overview page to understand where functionality sits, then move to Creating new modules if you plan to contribute or need the design rules.
 
 ## Key points
 
-- The application is being refactored into smaller modular layers.
-- System Application contains ERP agnostic functionality.
-- Business Foundation contains ERP related functionality.
-- The goal of the modular design is better code organization and maintainability.
-- Creating new modules covers environment setup for working on the System Application.
-- Module guidance includes architecture rules and facade and implementation codeunits.
-- It also covers .NET wrapper modules, tests, and the Git workflow for contributions.
+- The application is being split into smaller modular layers for better code organization and maintainability.
+- System Application layer: ERP agnostic functionality.
+- Business Foundation layer: ERP related functionality.
+- Creating new modules has 6 pages aimed at System Application contributors.
+- Contributor topics: environment setup, module architecture, building new modules, changing existing modules.
+- The contributor guidance also covers writing .NET wrapper modules and design rules.
 
 ## Subtopics
 

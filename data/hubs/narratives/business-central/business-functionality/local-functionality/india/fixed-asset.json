@@ -1,36 +1,36 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/india/fixed-asset",
-  "input_hash": "42ce041264f32dc72432566d59dadf388d9424ce2fe433d712b8b181e7e9f053",
-  "summary": "Fixed asset depreciation for the India localization of Business Central. It covers setup under the Income Tax Act 1961 and Companies Act 2013, and how depreciation is calculated with FA blocks, additional depreciation and multiple shifts.",
-  "overview": "This section covers fixed asset depreciation for India. It has two pages: one on setting up fixed assets for depreciation, and one on how depreciation is calculated once setup is done.\n\nThe setup page covers the items needed under the Income Tax Act 1961 and Companies Act 2013: depreciation books, the FA accounting period for income tax, FA block codes, additional depreciation, seasonal and non-seasonal days, and depreciation thresholds. The calculation page covers FA block depreciation, additional depreciation, and shift depreciation for manufacturing operations with multiple production shifts.\n\nStart with the setup page to configure the depreciation book, accounting period and block codes. Then use the calculation page to see how depreciation is computed.",
+  "input_hash": "913386b5d3c039e9fbd83aee22857f608480cb365640622dfeeb2ca13af47a6a",
+  "summary": "Fixed asset depreciation for the India localization of Business Central. It covers how depreciation is calculated with FA blocks, additional depreciation and shift-based methods, and how to set up the books, periods and block codes. It answers questions on calculation and configuration.",
+  "overview": "This section covers fixed asset depreciation under the India localization. It has two pages: one explains how depreciation is calculated, and one explains how to set up Business Central so the calculation works.\n\nThe calculation page describes FA block depreciation, additional depreciation and multiple shift depreciation, using an income tax depreciation book. It mentions straight-line and declining-balance methods. The setup page covers the configuration behind these: FA Depreciation Books, FA Accounting Period for Income Tax, FA Block Code and additional depreciation settings.\n\nStart with the calculation page to understand the methods, then use the setup page to configure the books, periods and block codes before running depreciation.",
   "key_points": [
-    "Setup is based on the Income Tax Act 1961 and Companies Act 2013.",
-    "Setup items include depreciation book, FA accounting period for income tax, and FA block code.",
-    "Additional depreciation has its own setup.",
-    "Setup covers seasonal and non-seasonal days and a depreciation threshold.",
-    "Depreciation can be calculated by FA block.",
-    "Additional depreciation rules are part of the calculation.",
-    "Multiple shift depreciation supports manufacturing operations with several production shifts.",
-    "Read the setup page first, then the calculation page."
+    "Depreciation can be calculated by FA block, as block-based income tax depreciation.",
+    "Additional depreciation is supported and has its own configuration.",
+    "Shift-based depreciation covers multiple shifts, which suits manufacturing operations.",
+    "An income tax depreciation book is used for the calculation.",
+    "Straight-line and declining-balance methods are mentioned.",
+    "Setup involves FA Depreciation Books, FA Accounting Period for Income Tax and FA Block Code.",
+    "The section has no subtopics, only a calculation page and a setup page."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:04:29.614Z",
+  "at": "2026-10-28T10:58:29.659Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.009037
+    "cost_usd": 0.008857
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T05:21:50.968Z",
+    "at": "2026-10-28T11:04:01.639Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the summary and overview list setup items such as seasonal days and thresholds without explaining what they do. The source summaries don't give that detail either, so this is acceptable."
+      "Key point 'The section has no subtopics, only a calculation page and a setup page' only describes the layout and gives the agent little; it could be replaced with a more useful point.",
+      "The reading order in the overview (calculation first, then setup) is a sensible suggestion, not something the sources state; acceptable as guidance."
     ],
-    "input_hash": "42ce041264f32dc72432566d59dadf388d9424ce2fe433d712b8b181e7e9f053",
-    "cost_usd": 0.016967199999999998
+    "input_hash": "913386b5d3c039e9fbd83aee22857f608480cb365640622dfeeb2ca13af47a6a",
+    "cost_usd": 0.0281152
   }
 }

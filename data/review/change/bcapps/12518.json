@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/12518",
+  "input_hash": "185956dda798ea7762dd0075c0fb2f72a3d1686b26186c8b9a53f251c43304a8",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-28T10:56:09.594Z",
+  "issues": [
+    "The description is only a work item link, so the claim about an invalid FlowField that referenced a non-existent user field is not supported.",
+    "The title does not say which page failed to open, so tying the failure to page 490 is not supported.",
+    "The key point 'Added proper field definitions' is vague and not supported.",
+    "This is a 29.x backport, which the page does not mention."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017257,
+    "changes_in_call": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thinkaboutit-be/8291",
+  "input_hash": "da4f5dfcc53c860ddaa3a0d37b08f5d7780dbbd09072c1811b3c0d5a60987bc5",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-28T10:55:53.836Z",
+  "issues": [
+    "The listed objects are Word Add-in tools and datasets, not AL objects. They are already listed as features, so they were dropped from objects.",
+    "The summary, key points, quotes, versions and features match the post."
+  ],
+  "applied": [
+    "dropped 4 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043061,
+    "posts_in_call": 4
+  }
+}

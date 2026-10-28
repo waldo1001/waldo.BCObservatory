@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12519",
+  "input_hash": "725653b7bfc19808ada65ab39595c193cc5e536519ac7a2f218f938d6ef8f972",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-28T10:56:13.846Z",
+  "issues": [
+    "The title supports the summary and key points. The diff is a small codeunit change plus tests."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016678,
+    "changes_in_call": 6
+  }
+}

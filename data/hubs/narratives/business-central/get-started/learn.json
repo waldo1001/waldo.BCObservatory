@@ -1,35 +1,36 @@
 {
   "hub_id": "topic/business-central/get-started/learn",
-  "input_hash": "d2ff1beb5f88b576f43dc4b0f5a2957cadd1e411d9a6db51f34ba2fc605a426d",
-  "summary": "The Learn section of Business Central gathers learning material: step-by-step business process walkthroughs in the CRONUS demo company, Contoso Coffee demo data scenarios, user resource links, and a video library. It answers where to find training, demo data, community and support resources.",
-  "overview": "The Learn section is for people who want to learn Business Central by doing or watching. It has two hands-on subtopics: business process walkthroughs that use the CRONUS demonstration company, and Contoso Coffee demo data, a fictitious company dataset used for scenario-based learning.\n\nTwo standalone pages complete the section. \"Resources for users\" links to documentation, community forums, release plans, apps, mobile access, reporting guides and Power Platform integration. \"Visit our video library\" points to introduction videos, product videos reached from Role Centers, and the Business Central YouTube channel.\n\nStart with the resources page for orientation. Then pick a walkthrough for a specific process, such as sales campaigns, prepayments or warehouse picking. Use the Contoso Coffee pages when you need to set up demo data for manufacturing, warehousing, service or quality management scenarios.",
+  "input_hash": "1df3e1ec8d743034ce0fc9015afa1a3f79810a45e8ab7babe9875d253e3d6ee5",
+  "summary": "The Learn section of Business Central get-started content covers learning resources: user resource links, a video library, step-by-step business process walkthroughs in the CRONUS demo company, and Contoso Coffee demo data scenarios. It answers questions about where to find help, community, videos, and how to practice common tasks.",
+  "overview": "Learn collects material for people who want to get familiar with Business Central. Two own pages point to general help: Resources for users links to documentation, community forums, release plans, apps, mobile access and support materials, and the video library links to introduction videos, product videos and the Business Central YouTube channel.\n\nTwo subtopics provide hands-on practice. Business process walkthroughs are end-to-end scenarios in the CRONUS demonstration company. Contoso Coffee demo data is a fictitious company dataset with walkthroughs for manufacturing, warehousing, service and quality management.\n\nStart with Resources for users or the video library for orientation. Then pick a walkthrough that matches the area you want to practice, using CRONUS or Contoso Coffee as the data source.",
   "key_points": [
-    "Business process walkthroughs (9 pages) use the CRONUS demonstration company.",
-    "Walkthrough topics: sales campaigns, prepayments, purchase approvals, projects and WIP, warehouse picking, cash flow forecasts, and the Shopify Connector.",
+    "Resources for users links to documentation, community forums, release plans, apps, mobile access and support materials.",
+    "The resources page also covers marketplace app discovery, reporting guides and Power Platform integration.",
+    "The video library offers introduction videos, how to videos and product videos reachable from a Product Videos tile in Role Centers.",
+    "The Business Central YouTube channel is linked from the video library.",
+    "Business process walkthroughs (9 pages) run in the CRONUS demonstration company.",
+    "Walkthrough topics include sales campaigns, prepayments, approval workflows, project WIP, warehouse picking, cash flow forecasts and the Shopify Connector.",
     "Contoso Coffee demo data (23 pages) is a fictitious company dataset for learning.",
-    "Contoso Coffee scenarios cover manufacturing, warehousing, service and quality management, plus setting up the demo data.",
-    "Resources for users links to documentation, community forums, release plans, Marketplace apps, the mobile app, reporting guides and Power Platform integration.",
-    "The video library offers introduction videos, how-to videos, a Product Videos tile in Role Centers, and the Business Central YouTube channel."
+    "Contoso Coffee scenarios cover manufacturing, warehousing, service and quality management, plus demo data setup."
   ],
   "members_used": 2,
   "subtopics_used": 2,
   "prompt_version": 1,
-  "at": "2026-10-24T00:52:52.568Z",
+  "at": "2026-10-28T10:59:33.403Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.010865
+    "cost_usd": 0.010863
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-24T00:53:57.516Z",
+    "at": "2026-10-28T11:01:12.507Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the overview's advice to start with the resources page is the writer's own reading suggestion, not something the sources say. It is harmless.",
-      "Minor: 'Marketplace apps' in the key points comes from the feature 'Marketplace app discovery'. The page summary itself only says 'apps', but the wording is supported."
+      "Small point: key point 3 says the Product Videos tile is in Role Centers. The sources list the tile as a feature and say product videos come 'from Role Centers', so this reading is reasonable but slightly inferred."
     ],
-    "input_hash": "d2ff1beb5f88b576f43dc4b0f5a2957cadd1e411d9a6db51f34ba2fc605a426d",
-    "cost_usd": 0.03630320000000001
+    "input_hash": "1df3e1ec8d743034ce0fc9015afa1a3f79810a45e8ab7babe9875d253e3d6ee5",
+    "cost_usd": 0.0201512
   }
 }

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12867",
+  "input_hash": "684daf776f7ab2d4d3443feb7dbb2b3c2ba3f622f5df2c3a1f2bbac3abec179e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-28T10:56:15.279Z",
+  "issues": [
+    "The PR has no description, so the page relies on the title and file paths.",
+    "The changes are in the NL BaseApp layer on 29.x only, and the summary does not say this."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01829,
+    "changes_in_call": 6
+  }
+}

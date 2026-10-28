@@ -1,37 +1,37 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/russia/vat",
-  "input_hash": "3541103abe3a5bcd5fa01f7ee695d6cea6f9a30447c10780e723e034841c9036",
-  "summary": "Russia VAT functionality in Business Central: uploading VAT purchase and sales books and declarations to XML, customer prepayment VAT, VAT reinstatement, VAT settlement, and the vendor tax agent scheme. It answers setup and process questions for each of these.",
-  "overview": "The VAT section for Russia covers the local VAT processes a Russian company runs in Business Central. It has five pages, each on one process: reporting (books of purchases and sales and VAT declarations), customer prepayments, reinstatement of deducted VAT, settlement, and the vendor tax agent scheme.\\n\\nStart with the process you need. For reporting, the upload page explains the folder settings and the XML generation through Statutory Report Setup. For the VAT lifecycle, the prepayment, settlement and reinstatement pages cover unrealized VAT, transit VAT and the worksheets used to process them. Reinstatement also draws on settlement concepts such as manual VAT settlement and realized VAT amounts. The tax agent page covers VAT handling for vendors with tax agent roles.",
+  "input_hash": "83b4fb665dd5d4741d71497de067af98f86672b747d212fe9e0d4fac1d59193b",
+  "summary": "Russian VAT functionality in Business Central: uploading purchase and sales ledgers and VAT declarations to XML, VAT on customer prepayments, VAT reinstatement, manual VAT settlement, and the vendor tax agent scheme. Answers setup and posting questions for these Russia-specific VAT processes.",
+  "overview": "This section covers the Russia-specific VAT features in Business Central. Each page describes one process: statutory reporting of VAT books, handling VAT on customer prepayments, reinstating previously deducted VAT, settling VAT manually, and the vendor tax agent scheme.\n\nThe pages are independent. The prepayment, reinstatement and settlement pages depend on VAT posting setup, such as VAT posting groups, calculation types and accounts. The tax agent scheme depends on vendor card setup, and the upload page depends on statutory report setup. The prepayment, reinstatement and settlement pages also deal with unrealized VAT or transit VAT, so it helps to read their setup sections first.\n\nUse the VAT settlement page for manual full or partial settlement in the VAT settlement worksheet. Use the customer prepayment or VAT reinstatement pages for those specific cases. Use the upload page when you need to produce the Purchase and Sales Ledgers as XML files for statutory reporting.",
   "key_points": [
-    "Upload VAT purchase and sales books and VAT declarations to XML files; set the Electronic Files Folder and generate the files through Statutory Report Setup.",
-    "VAT by customer prepayment creates VAT invoices and records when a customer prepays. It supports unrealized VAT setup and uses VAT posting configuration.",
-    "Prepayment returns are handled with corrective entries.",
-    "VAT reinstatement returns previously deducted VAT to the budget. The VAT Reinstatement Worksheet finds the documents that need it, and configurable factors adjust the amounts.",
-    "VAT settlement can be full or partial. It uses manual settlement worksheets and VAT allocation, with support for transit VAT and unrealized VAT tracking and a VAT register.",
-    "The vendor tax agent scheme supports VAT payment from internal funds or from vendor funds, set up through agreements and payment journal operations.",
-    "The tax agent scheme also covers multi-currency prepayments and payments to the Tax Authority."
+    "Upload of VAT Purchase Ledgers, VAT Sales Ledgers and VAT declarations to XML files for Russian statutory reporting, including report folder configuration and additional sheets.",
+    "VAT by customer prepayment creates VAT entries and a VAT invoice when a customer prepayment is posted. It is configured in General Ledger Setup, VAT Posting Setup and customer posting groups, and covers returned prepayments.",
+    "VAT reinstatement records the reversal of previously deducted VAT in the VAT Reinstatement Worksheet, using transit VAT with manual posting. It involves the Suggest Documents task and the VAT Amount Factor, and needs specific VAT posting setup.",
+    "VAT settlement is manual and can be full or partial, through the VAT settlement worksheet. It needs VAT posting groups, calculation types and accounts set up, handles transit VAT and unrealized VAT, and covers VAT allocation and write-off.",
+    "The vendor tax agent scheme processes VAT on prepayments and payments, paid from internal funds or from vendor funds.",
+    "The vendor tax agent scheme needs a vendor card with agreement details and payment journal entries. It supports multi-currency payments."
   ],
   "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:04:33.810Z",
+  "at": "2026-10-28T10:57:30.934Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.012437
+    "cost_usd": 0.017074
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:24:22.536Z",
+    "at": "2026-10-28T11:03:11.098Z",
     "verdict": "fix",
     "issues": [
-      "Overview says the pages are independent. The sources don't support this: the reinstatement page lists transit VAT, manual VAT settlement and realized VAT amount, which ties it to settlement, and prepayment builds on the unrealized VAT setup.",
-      "Overview describes the tax agent page as covering 'VAT paid on behalf of vendors'. The source only says it manages VAT handling for vendors with tax agent roles.",
-      "Key point 2 says prepayment 'depends on' unrealized VAT and VAT posting setup. The source says it supports unrealized VAT setup and lists VAT posting configuration as a feature."
+      "Key point 4 says the VAT Amount Factor is part of the VAT posting setup. The source lists the VAT Amount Factor as a feature of the reinstatement page and separately mentions specific VAT posting setup requirements. It never says the factor belongs to that setup. I merged points 3 and 4 and removed that link.",
+      "The overview calls VAT settlement 'the core worksheet-based flow'. Nothing in the sources ranks it as the core process, and VAT reinstatement also uses a worksheet. I changed the reading-order advice to neutral wording.",
+      "Small point: 'most rely on VAT Posting Setup' only fits three of the five pages. The upload page uses statutory report setup and the tax agent scheme uses the vendor card. I made the wording more precise.",
+      "Small point: key point 5 left out VAT allocation and write-off, which the settlement page lists as features. I added them."
     ],
-    "input_hash": "3541103abe3a5bcd5fa01f7ee695d6cea6f9a30447c10780e723e034841c9036",
-    "cost_usd": 0.05836720000000001
+    "input_hash": "83b4fb665dd5d4741d71497de067af98f86672b747d212fe9e0d4fac1d59193b",
+    "cost_usd": 0.0569512
   }
 }

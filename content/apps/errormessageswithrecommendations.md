@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8f61676350dc7c716ea1335f0235dae15149da2fe95f9a3af17a58560aecfe41
+  input_hash: 8d9f2e022e3d0320eb7ab5645b7b542a2cdaeee0001d5291d1772c4de71ddfc4
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ErrorMessagesWithRecommendations/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ErrorMessagesWithRecommendations/app
     title: src/Apps/W1/ErrorMessagesWithRecommendations/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -128,4 +128,4 @@ Videos and posts that name this app's objects by exact type and name.
 
 - [🔧 Transforming BC Error Handling with Smart Recommendations 📝](../posts/gerardorenteria-blog/12238.md) (community post, 2025-09-23): names Interface "ErrorMessageFix"
 
-Source: [src/Apps/W1/ErrorMessagesWithRecommendations/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/ErrorMessagesWithRecommendations/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/ErrorMessagesWithRecommendations/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ErrorMessagesWithRecommendations/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

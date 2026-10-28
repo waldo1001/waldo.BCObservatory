@@ -3,21 +3,21 @@
     7,
     [
       1,
-      "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+      "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
       "4",
-      "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+      "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
       "4"
     ]
   ],
   "schema": "bcobs-field-docs@1",
   "major": "30",
   "stats": {
-    "tooltips": 18988,
-    "bound": 12909,
-    "unparsed": 2990,
-    "unmatched": 3089,
+    "tooltips": 19002,
+    "bound": 12910,
+    "unparsed": 2991,
+    "unmatched": 3101,
     "tables": 1085,
-    "fields": 9077
+    "fields": 9078
   },
   "tables": {
     "table/4": {
@@ -31728,6 +31728,11 @@
         "tooltip": "Specifies the expense user associated with this consumption entry.",
         "page": "page/7079",
         "control": "ExpenseUserNo"
+      },
+      "Is Feature Trial": {
+        "tooltip": "Specifies whether this consumption entry was part of a feature trial.",
+        "page": "page/7079",
+        "control": "FeatureTrial"
       },
       "Processed For Billing": {
         "tooltip": "Specifies whether this consumption entry has been processed for billing.",

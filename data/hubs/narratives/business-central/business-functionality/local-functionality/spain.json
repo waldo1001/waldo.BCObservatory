@@ -1,36 +1,35 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/spain",
-  "input_hash": "5be7d40755b67a9c50b90a1e902ca7e39bd7f05a42ce623f34d2cca178359fa8",
-  "summary": "Spain local functionality in Business Central: VAT declarations and SII, banking and payment exports, VERI*FACTU electronic invoicing and Cartera bills, statutory finance reports, and general items such as due dates and NACE codes. It answers setup, generation and submission questions for Spanish compliance.",
-  "overview": "This section groups the Spain-specific features of Business Central into five areas: VAT, banking and payments, electronic invoices, core finance, and general. Each area has its own set of pages. They cover both the setup of a feature and the steps to run it.\n\nVAT is the largest area. It covers Equivalence Charges, VAT statements, telematic export, SII setup and the 340, 347 and 349 reports. Banking and payments covers CCC bank codes, bank account setup, AEB N34.1 and other export formats, and the 340 declaration for cash payments. Electronic invoices covers VERI*FACTU reporting, SII invoice types and the Cartera modules for receivables and payables bills. Core finance covers the statutory books and year-end closing. General covers due date calculation, corrective invoices, NACE codes and operation codes for Report 340.\n\nStart with the area that matches your task. For tax declarations, go to VAT. For paying vendors, go to Banking and payments. For invoice reporting to AEAT, go to Electronic invoices. For company-wide setup, check General and Core finance first. Operation codes for Report 340 are in General, so check there when you prepare VAT declarations.",
+  "input_hash": "87f44a0e832beb1f8288e382306fcf063e6a6f21adb5833505f63dc8118c9469",
+  "summary": "Spain local functionality in Business Central: VAT declarations and SII, banking and electronic payments, electronic invoices (VERI*FACTU, Cartera), core finance books and reports, and general compliance items. It answers setup and how-to questions for Spanish tax and legal requirements.",
+  "overview": "The Spain section collects the features that adapt Business Central to Spanish tax, banking and accounting rules. It has no pages of its own and is split into five subtopics: VAT, Banking & payments, Electronic invoices, Core finance and General.\n\nVAT is the largest group (14 pages) and covers Reports 340, 347 and 349, Equivalence Charges, telematic VAT statements, cash accounting and SII setup. Banking & payments deals with CCC bank codes, vendor payment files and the 340 cash payments declaration. Electronic invoices covers VERI*FACTU, SII invoice types and Cartera. Core finance covers official books and ASC exports, and General covers corrective invoices, due date limits, NACE codes and operation codes.\n\nStart with General for basic company and invoice setup, then move to the subtopic that matches your task: VAT or Electronic invoices for tax reporting, Banking & payments for payment files, Core finance for statutory books.",
   "key_points": [
-    "VAT (14 pages): Equivalence Charges, VAT statements, telematic export in text and XML, SII setup, and reports 340, 347 and 349.",
-    "Banking and payments (9 pages): CCC bank codes, bank account setup for electronic payments, AEB N34.1 and other export formats, paying vendors and voiding exports.",
-    "Banking also covers payment days, non-payment periods, and reporting cash payments with the 340 declaration.",
-    "Electronic invoices (6 pages): VERI*FACTU reporting to AEAT in embedded mode or through B2Brouter, plus SII invoice and credit memo types.",
-    "Cartera modules handle receivables and payables bills.",
-    "Core finance (8 pages): general ledger setup, transaction numbering, official account book and invoice book reports, year-end income statement closing, and ASC export of financial reports.",
-    "General (5 pages): due date calculation under legal payment-delay limits, corrective invoices, NACE codes on company information, and operation codes for Report 340."
+    "VAT: Reports 340, 347 and 349, Equivalence Charges, telematic VAT statement templates with text and XML export, cash accounting and SII setup.",
+    "Banking: CCC bank codes, bank account setup, and vendor payment exports in AEB N34, N34.1, E-PAY and SEPA formats, including voiding exports.",
+    "Banking also covers payment days, non-payment periods and the 340 cash payments declaration.",
+    "Electronic invoices: VERI*FACTU setup in embedded mode or through the external B2BRouter integration.",
+    "Electronic invoices also covers SII invoice types and Cartera modules for receivables and payables bill/payment documents.",
+    "Core finance: chart of accounts handling, transaction numbering, official account books, invoice books, income statement closing, G/L account discount handling and ASC export of financial reports.",
+    "General: corrective invoices, legal due date limits and payment terms, NACE codes on company information, and operation codes for VAT reporting."
   ],
   "members_used": 0,
   "subtopics_used": 5,
   "prompt_version": 1,
-  "at": "2026-10-07T05:19:54.239Z",
+  "at": "2026-10-28T10:59:19.740Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.016082
+    "cost_usd": 0.012499
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T05:21:05.799Z",
-    "verdict": "fix",
+    "at": "2026-10-28T11:01:06.110Z",
+    "verdict": "approve",
     "issues": [
-      "The summary calls Cartera electronic invoicing ('VERI*FACTU and Cartera electronic invoicing'). The source treats them separately ('electronic invoicing and Cartera functionality'), and Cartera covers receivables and payables bills.",
-      "The overview says General 'covers smaller items that affect several of these areas', which the inputs don't support. Replaced it with the topics General actually covers."
+      "Minor: the overview's advice to 'Start with General for basic company and invoice setup' is an editorial reading order not stated in the sources. General covers corrective invoices, due date limits, payment terms, NACE codes on company information and operation codes, so 'basic company and invoice setup' is a loose description. It is acceptable as guidance."
     ],
-    "input_hash": "5be7d40755b67a9c50b90a1e902ca7e39bd7f05a42ce623f34d2cca178359fa8",
-    "cost_usd": 0.0455592
+    "input_hash": "87f44a0e832beb1f8288e382306fcf063e6a6f21adb5833505f63dc8118c9469",
+    "cost_usd": 0.0313272
   }
 }

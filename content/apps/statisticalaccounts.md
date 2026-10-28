@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T01:19:27.803Z"
+  at: "2026-10-28T10:46:30.808Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 6a1703b899daa41add92ae8eb5c7408df823352595653d20126a77e634ed37e4
+  input_hash: ed0f60c6e060d3612c0b1ff603f9a5512b653dcb53e1fce24e7cd9fcb07c059f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/StatisticalAccounts/app
+    url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/StatisticalAccounts/app
     title: src/Apps/W1/StatisticalAccounts/app (main)
     date: null
-    commit: 15385dede95a4f9e7be01be47c684fc9d654a7ce
+    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
     t: null
     quote: null
 links:
@@ -202,4 +202,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 2632 | [D365 FULL ACCESS - Statistical Accounts](../objects/permissionsetextension/2632.md) |  |
 | 2633 | [D365 TEAM MEMBER - Statistical Accounts](../objects/permissionsetextension/2633.md) |  |
 
-Source: [src/Apps/W1/StatisticalAccounts/app](https://github.com/microsoft/BCApps/tree/15385dede95a4f9e7be01be47c684fc9d654a7ce/src/Apps/W1/StatisticalAccounts/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/StatisticalAccounts/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/StatisticalAccounts/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

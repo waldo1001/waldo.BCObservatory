@@ -2,7 +2,7 @@
 id: localization/se
 type: localization
 title: Sweden (SE)
-summary: Sweden (SE) localization of Business Central 29. It covers SIE import and export of general ledger data, automatic account codes, EU third-party purchase trade for VAT and VIES, Swedish balance sheet and income statement reports, PEPPOL 3.0 additions, and Swedish-layout document reports.
+summary: Sweden (SE) localization of Business Central 29. It covers SIE import and export of general ledger data, automatic account codes, EU third-party purchase reporting, Swedish balance sheet and income statement reports, PEPPOL 3.0 for Sweden, and Swedish extensions of document reports. It answers what Sweden adds to W1 and where Learn documents it.
 tier: official
 language: en
 tags:
@@ -11,20 +11,20 @@ tags:
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T23:30:38.215Z"
+  at: "2026-10-28T10:39:54.944Z"
   flags: []
 generated:
-  at: "2026-10-24T01:15:39.036Z"
+  at: "2026-10-28T10:42:34.480Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: afff7f82c0d5e5b0417e66a989f3a76dde78534f1edb62c0b8c543d83df9dc57
+  input_hash: 106172eda94ba2655820b80c1a213b0a2b228cb040840ed52a0144489e2a67cf
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-se
     date: null
-    commit: dc14cfd1217fbd3fa364b63565e752e5f0653955
+    commit: 4c1c1638beb6d5da8540cc1f61889b80c7b3356f
     t: null
     quote: null
 links:
@@ -75,26 +75,28 @@ learn_folder: LocalFunctionality/Sweden
 
 # Sweden (SE)
 
-> Sweden (SE) localization of Business Central 29. It covers SIE import and export of general ledger data, automatic account codes, EU third-party purchase trade for VAT and VIES, Swedish balance sheet and income statement reports, PEPPOL 3.0 additions, and Swedish-layout document reports.
+> Sweden (SE) localization of Business Central 29. It covers SIE import and export of general ledger data, automatic account codes, EU third-party purchase reporting, Swedish balance sheet and income statement reports, PEPPOL 3.0 for Sweden, and Swedish extensions of document reports. It answers what Sweden adds to W1 and where Learn documents it.
 
 BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/sweden.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Swedish layer runs as an extension on the W1 base application. Its main capabilities are SIE import and export (codeunits 5314 to 5318, report 5314 "Import SIE", page 5314 "SIE Setup Wizard", dimension pages and SIE tables), automatic account codes (tables 11203 and 11204 plus an "Auto. Acc. Group" field on G/L accounts, journal, sales and purchase lines), and EU third-party purchase trade.
+The Swedish layer centres on the Standard Import Export (SIE) format. Codeunits 5314 to 5318 (Standard Account SIE, Data Handling SIE, SIE Management, Data Check SIE, Generate File SIE), the SIE Setup Wizard page, SIE dimension pages and extensions of the audit file export and G/L account mapping pages support SIE audit file export. Report 5314 Import SIE handles import. Learn documents both the current SIE functions and the dedicated SIE reports of earlier Swedish versions.
 
-Local reports include "SE Balance sheet" and "SE Income statement", plus report extensions for the VAT statement, VIES declaration and many sales, purchase and service documents. The code adds fields to W1 tables, for example "Plus Giro No." and "Registered Office" on Company Information, "EU 3-Party Trade" on purchase headers, and "Source Inv. No.", "Source Inv. VAT" and "Source Inv. Total" on sales headers. It also adds PEPPOL 3.0 subscribers and a Swedish format value, and an Intrastat management codeunit. Learn documents the SIE, automatic account, EU third-party and financial report topics under the "Sweden Local Functionality [SE]" overview.
+Automatic account codes use tables 11203 "Automatic Acc. Header" and 11204 "Automatic Acc. Line" and an Auto. Acc. Group field on G/L accounts, sales and purchase lines, journal lines, posted document lines and posting buffers. EU third-party purchases use an EU 3-Party Trade field on purchase headers, posted purchase invoice and credit memo headers and VAT statement lines. Learn describes VAT statement filtering and the VAT-VIES Declaration Tax Auth report for these transactions, and Sweden adds extensions of the VAT Statement and VAT-VIES declaration reports. Sweden also adds the reports SE Balance sheet and SE Income statement.
+
+Other changes are smaller: Plus Giro number and registered office on Company Information, source invoice fields on sales headers and credit memos, a PEPPOL 3.0 format for Sweden, an Intrastat management codeunit, and Swedish report extensions for sales, purchase, service, reminder and other documents.
 
 ## Key points
 
-- SIE import and export of general ledger data with selectable dimensions and file types, set up through a wizard and integrated with audit file export setup.
-- Automatic account codes and automatic account posting groups, with the Auto. Acc. Group field on G/L accounts and on journal, sales and purchase lines.
-- EU 3-Party Trade on purchase documents and VAT statement lines supports Swedish VAT reporting and VIES declaration.
-- Swedish Balance sheet and Income statement reports for banks and authorities.
-- Source invoice fields on sales credit memos and an SRU code on G/L accounts.
-- Company Information gets Plus Giro No. and Registered Office; Finance Charge Terms gets a multiple lines description option.
-- PEPPOL 3.0 Swedish format with party info and subscribers; Swedish Intrastat management codeunit.
-- SIE permission sets and extensions of standard permission sets, plus Swedish layouts for sales, purchase, service and reminder documents.
+- SIE import (report Import SIE) and SIE audit file export with a setup wizard, SIE dimensions and G/L account mapping
+- Automatic account codes: automatic account groups on journals and sales and purchase documents, with allocation percentages and dimensions
+- EU third-party purchase transactions marked with EU 3-Party Trade and reported through VAT statement filtering and the VAT-VIES Declaration Tax Auth report
+- SE Balance sheet and SE Income statement reports filtered by date, accounts and global dimensions
+- Company Information gains Plus Giro No. and Registered Office; G/L Account gains SRU-code
+- PEPPOL 3.0 format for Sweden with party info and subscriber codeunits
+- Swedish report extensions for sales, purchase, service, reminder and finance charge documents
+- Sales and credit memo headers carry Source Inv. No., Source Inv. VAT and Source Inv. Total
 
 Narrative written by Sonnet from the code diff and 7 Learn page summaries. In numbers: Sweden (SE) localization of Business Central in BC29: 82 objects of its own, 25 W1 objects changed (32 fields and 0 events added). From the code; country apps outside the Base Application are not included yet.
 
@@ -115,47 +117,47 @@ Narrative written by Sonnet from the code diff and 7 Learn page summaries. In nu
 
 ### Finance
 
-Adds SIE import and export (codeunits for standard accounts, data handling, checks and file generation, a setup wizard, dimension pages, an import report and an export format option), Swedish Balance sheet and Income statement reports, and automatic account tables. Also extends the VAT statement and VIES declaration reports and adds install and company size code handling.
+Adds SIE import and audit file export (codeunits, setup wizard, dimension pages, import buffers), automatic account tables, SE Balance sheet and SE Income statement reports, and extensions for the VAT Statement and VAT-VIES reports. Also adds role center extensions, company size codes and install/event codeunits.
 
-Why: Learn describes SIE as the way to import and export general ledger data, and the balance sheet and income statement reports as the ones submitted to banks and authorities.
+Why: Learn explains SIE as the Swedish standard import/export format for general ledger data, and the balance sheet and income statement reports are for Swedish authorities and banks.
 
-Objects: [codeunit/5316 "SIE Management"](../objects/codeunit/5316-se.md) (own), [codeunit/5318 "Generate File SIE"](../objects/codeunit/5318-se.md) (own), [report/5314 "Import SIE"](../objects/report/5314-se.md) (own), [page/5314 "SIE Setup Wizard"](../objects/page/5314-se.md) (own), [report/11290 "SE Balance sheet"](../objects/report/11290-se.md) (own), [report/11291 "SE Income statement"](../objects/report/11291-se.md) (own), [table/11203 "Automatic Acc. Header"](../objects/table/11203-se.md) (own), [table/11204 "Automatic Acc. Line"](../objects/table/11204-se.md) (own).
+Objects: [codeunit/5316 "SIE Management"](../objects/codeunit/5316-se.md) (own), [codeunit/5318 "Generate File SIE"](../objects/codeunit/5318-se.md) (own), [page/5314 "SIE Setup Wizard"](../objects/page/5314-se.md) (own), [report/5314 "Import SIE"](../objects/report/5314-se.md) (own), [report/11290 "SE Balance sheet"](../objects/report/11290-se.md) (own), [report/11291 "SE Income statement"](../objects/report/11291-se.md) (own), [table/11203 "Automatic Acc. Header"](../objects/table/11203-se.md) (own), [reportextension/11230 "SE VAT Statement"](../objects/reportextension/11230-se.md) (own).
 
 [All 51 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### Purchases
 
-Adds EU 3-Party Trade to purchase headers and posted invoice and credit memo headers, Auto. Acc. Group on purchase lines, and Part. Pay. Nos. on Purchases & Payables Setup. Adds a vendor card page extension and Swedish layouts for purchase documents.
+Adds EU 3-Party Trade to purchase headers and posted purchase documents, Auto. Acc. Group to purchase lines, and Part. Pay. Nos. to Purchases & Payables Setup. Adds Swedish purchase report layouts and a vendor card extension.
 
-Why: Learn explains EU third-party purchase transactions as a setup for Swedish VAT reporting and VIES requirements.
+Why: Learn describes EU third-party purchases as purchases from one EU country sent to another without entering Sweden, to be reported separately for VAT.
 
-Objects: [table/38 "Purchase Header"](../objects/table/38.md), [table/39 "Purchase Line"](../objects/table/39.md), [table/122 "Purch. Inv. Header"](../objects/table/122.md), [table/124 "Purch. Cr. Memo Hdr."](../objects/table/124.md), [table/312 "Purchases & Payables Setup"](../objects/table/312.md), [pageextension/11292 "SE Vendor Card"](../objects/pageextension/11292-se.md) (own), [reportextension/11295 "SE Purchase - Invoice"](../objects/reportextension/11295-se.md) (own), [reportextension/11294 "SE Purchase - Credit Memo"](../objects/reportextension/11294-se.md) (own).
+Objects: [table/38 "Purchase Header"](../objects/table/38.md), [table/122 "Purch. Inv. Header"](../objects/table/122.md), [table/124 "Purch. Cr. Memo Hdr."](../objects/table/124.md), [table/39 "Purchase Line"](../objects/table/39.md), [table/312 "Purchases & Payables Setup"](../objects/table/312.md), [pageextension/11292 "SE Vendor Card"](../objects/pageextension/11292-se.md) (own), [reportextension/11295 "SE Purchase - Invoice"](../objects/reportextension/11295-se.md) (own), [reportextension/11294 "SE Purchase - Credit Memo"](../objects/reportextension/11294-se.md) (own).
 
 [All 19 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
 ### Sales
 
-Adds source invoice fields (number, VAT, total) to sales headers and credit memo headers and Auto. Acc. Group to sales lines. Finance Charge Terms gets a multiple lines description field, and reminder, finance charge memo, statement and shipment reports get Swedish extensions.
+Adds source invoice fields to sales headers and credit memo headers, Auto. Acc. Group to sales lines and posted lines, and a multiple lines description on Finance Charge Terms. Adds Swedish reminder, finance charge, statement and shipment layouts.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/36 "Sales Header"](../objects/table/36.md), [table/114 "Sales Cr.Memo Header"](../objects/table/114.md), [table/37 "Sales Line"](../objects/table/37.md), [table/5 "Finance Charge Terms"](../objects/table/5.md), [tableextension/11291 "SE Sales & Receivables Setup"](../objects/tableextension/11291-se.md) (own), [reportextension/11211 "SE Reminder"](../objects/reportextension/11211-se.md) (own), [reportextension/11292 "SE Finance Charge Memo"](../objects/reportextension/11292-se.md) (own), [reportextension/11228 "SE Statement"](../objects/reportextension/11228-se.md) (own).
+Objects: [table/36 "Sales Header"](../objects/table/36.md), [table/114 "Sales Cr.Memo Header"](../objects/table/114.md), [table/37 "Sales Line"](../objects/table/37.md), [table/113 "Sales Invoice Line"](../objects/table/113.md), [table/5 "Finance Charge Terms"](../objects/table/5.md), [tableextension/11291 "SE Sales & Receivables Setup"](../objects/tableextension/11291-se.md) (own), [reportextension/11211 "SE Reminder"](../objects/reportextension/11211-se.md) (own), [reportextension/11292 "SE Finance Charge Memo"](../objects/reportextension/11292-se.md) (own).
 
 [All 16 objects of Sales in the diff](?ns=Sales#country-diff)
 
 ### Service
 
-Swedish report extensions for service orders, quotes, invoices, credit memos, shipments and service contracts.
+Provides Swedish layouts for service orders, quotes, invoices, credit memos, shipments and service contracts through report extensions.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [reportextension/11217 "SE Service Order"](../objects/reportextension/11217-se.md) (own), [reportextension/11216 "SE Service - Invoice"](../objects/reportextension/11216-se.md) (own), [reportextension/11215 "SE Service - Credit Memo"](../objects/reportextension/11215-se.md) (own), [reportextension/11218 "SE Service Quote"](../objects/reportextension/11218-se.md) (own), [reportextension/11219 "SE Service - Shipment"](../objects/reportextension/11219-se.md) (own), [reportextension/11225 "SE Service Contract"](../objects/reportextension/11225-se.md) (own), [reportextension/11226 "SE Service Contract Quote"](../objects/reportextension/11226-se.md) (own), [reportextension/11227 "SE Ser. Contract Quote-Detail"](../objects/reportextension/11227-se.md) (own).
+Objects: [reportextension/11217 "SE Service Order"](../objects/reportextension/11217-se.md) (own), [reportextension/11216 "SE Service - Invoice"](../objects/reportextension/11216-se.md) (own), [reportextension/11215 "SE Service - Credit Memo"](../objects/reportextension/11215-se.md) (own), [reportextension/11218 "SE Service Quote"](../objects/reportextension/11218-se.md) (own), [reportextension/11225 "SE Service Contract"](../objects/reportextension/11225-se.md) (own), [reportextension/11226 "SE Service Contract Quote"](../objects/reportextension/11226-se.md) (own), [reportextension/11227 "SE Ser. Contract Quote-Detail"](../objects/reportextension/11227-se.md) (own), [reportextension/11219 "SE Service - Shipment"](../objects/reportextension/11219-se.md) (own).
 
 [All 8 objects of Service in the diff](?ns=Service#country-diff)
 
 ### Peppol
 
-Adds PEPPOL 3.0 Swedish support: a format enum extension, party info, subscribers and an initialize codeunit.
+Adds a PEPPOL 3.0 format for Sweden through an enum extension, with codeunits for party information, event subscribers and initialization.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -165,7 +167,7 @@ Objects: [enumextension/37450 "PEPPOL 3.0 Format SE"](../objects/enumextension/3
 
 ### Foundation
 
-Adds Plus Giro No. and Registered Office to Company Information, with a table extension and a page extension showing them.
+Adds Plus Giro No. and Registered Office to Company Information, with a table extension and page extension showing them.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -175,7 +177,7 @@ Objects: [table/79 "Company Information"](../objects/table/79.md), [tableextensi
 
 ### Inventory
 
-Adds a Swedish Intrastat report management codeunit and a permission set extension for it.
+Adds an Intrastat report management codeunit for Sweden and a permission set extension for it.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -185,7 +187,7 @@ Objects: [codeunit/11298 "IntrastatReportManagementSE"](../objects/codeunit/1129
 
 ### Security
 
-Changes the W1 LOCAL and LOCAL READ permission sets for the Swedish objects.
+Changes the W1 LOCAL and LOCAL READ permission sets to cover the Swedish objects.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -195,7 +197,7 @@ Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permis
 
 ### (no namespace)
 
-Extends the G/L Account Mapping card with SIE-related fields.
+Extends the G/L Account Mapping Card page with SIE mapping information.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -205,7 +207,7 @@ Objects: [pageextension/5326 "G/L Account Mapping Card SIE"](../objects/pageexte
 
 ### CRM
 
-Adds a Swedish layout extension for the Contact Cover Sheet report.
+Provides a Swedish layout for the Contact Cover Sheet report.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 

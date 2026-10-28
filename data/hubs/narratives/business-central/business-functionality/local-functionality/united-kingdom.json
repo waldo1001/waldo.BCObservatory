@@ -1,37 +1,36 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/united-kingdom",
-  "input_hash": "021f873ecfa88863cfdf389c96c7082254ba54b42d963d2ba19f837ce1237790",
-  "summary": "United Kingdom local functionality in Business Central (GB): VAT and Making Tax Digital, banking and payments such as check printing, fixed asset straight-line depreciation, and general features like address lookup. It answers setup and how-to questions for the British version.",
-  "overview": "This section collects the features specific to the United Kingdom version of Business Central, as listed for 2025 release wave 2. The landing page gives a short map of the areas: VAT and tax, banking and payments, fixed assets, and general features.\nThree subtopics hold most of the detail. VAT covers Making Tax Digital returns to HMRC, VAT setup in journals, VAT audit and day book reports, and reverse charge VAT. Banking and payments covers check printing in the APACS layout and vendor remittance advice. General covers statutory company information, Ideal Postcodes address lookup, fraud prevention data for Making Tax Digital, and posting date warnings.\nThe section's own pages also include a fixed assets article on straight-line depreciation using accounting periods. Start with the landing page to find the area you need, then go to the matching subtopic. For HMRC submissions, read the VAT pages together with the fraud prevention data page under General.",
+  "input_hash": "db56fb979b4d109ddf80a36d28b515d51b330105e6c5423985c4ea0c316c25b7",
+  "summary": "United Kingdom local functionality in Business Central covers VAT and Making Tax Digital submission to HMRC, banking and payments (APACS checks, remittance advice), general UK company features, and straight-line depreciation of fixed assets. It answers setup and how-to questions for UK compliance.",
+  "overview": "This section describes what is specific to the British version of Business Central. The main areas are VAT reporting (including Making Tax Digital), banking and payments, general compliance features, and fixed asset depreciation.\n\nThe subtopics split the work. VAT covers MTD VAT return submission, VAT audit and reports, reverse charge setup, and copying VAT setup to journal lines. Banking and payments covers printing checks to the APACS specification and printing remittance advice from payment journals. General covers statutory company information, Ideal Postcodes address lookup, fraud prevention headers for MTD submissions, and posting date warnings.\n\nThe section's own pages are an overview page listing the local features, and a page on straight-line depreciation. The depreciation page explains how to define up to 13 accounting periods and set up the depreciation book. Start with the overview page, then go to VAT if you need MTD submission to HMRC.",
   "key_points": [
-    "Making Tax Digital VAT returns can be submitted to HMRC from the British version.",
-    "VAT pages cover journal VAT setup, VAT audit and day book reports, and reverse charge VAT.",
-    "Payment journals can print checks in the APACS specification layout and print vendor remittance advice.",
-    "Straight-line depreciation can use up to 13 accounting periods defined in depreciation books.",
-    "Depreciation is calculated daily and distributed across periods, with 360, 365, or 366-day methods and a Use Accounting Period toggle.",
+    "Making Tax Digital VAT returns can be submitted to HMRC from Business Central, with fraud prevention data supplied for MTD.",
+    "VAT topics include VAT audit reports, VAT reports, reverse charges on VAT, and VAT setup in journals.",
+    "Checks can be printed to the APACS specification, and remittance advice can be printed from the Payment Journals page.",
     "General features include statutory company information, Ideal Postcodes address lookup, and posting date warnings.",
-    "Fraud prevention data setup supports HMRC Making Tax Digital.",
-    "The landing page describes functionality as of 2025 release wave 2."
+    "Straight-line depreciation in the UK uses up to 13 accounting periods, with daily depreciation spread across periods.",
+    "Depreciation supports 360-day and 365/366-day years, set up on the Depreciation Books page and checked with the FA - Projected Value report.",
+    "The overview page references 2025 release wave 2 and 2027 release wave 1."
   ],
   "members_used": 2,
   "subtopics_used": 3,
   "prompt_version": 1,
-  "at": "2026-10-07T02:10:02.656Z",
+  "at": "2026-10-28T10:59:02.489Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011903
+    "cost_usd": 0.012249
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:18:47.961Z",
+    "at": "2026-10-28T11:01:51.190Z",
     "verdict": "approve",
     "issues": [
-      "The overview's advice to read the VAT pages together with the fraud prevention data page for HMRC submissions is the writer's own reasonable guidance; the sources don't state it directly.",
-      "Two key points cover depreciation details from a single page, which weights them slightly toward fixed assets. Acceptable."
+      "The last key point (overview page references 2025 release wave 2 and 2027 release wave 1) is supported by the version list, but it gives no context. An agent can't tell what those release waves refer to, so it's worth dropping or explaining in a later revision.",
+      "Fraud prevention data is listed under General in the subtopics and also appears in the overview page's features. The narrative mentions it in both places, which is consistent with the sources."
     ],
-    "input_hash": "021f873ecfa88863cfdf389c96c7082254ba54b42d963d2ba19f837ce1237790",
-    "cost_usd": 0.0346432
+    "input_hash": "db56fb979b4d109ddf80a36d28b515d51b330105e6c5423985c4ea0c316c25b7",
+    "cost_usd": 0.0280032
   }
 }

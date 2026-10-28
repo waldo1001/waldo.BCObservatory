@@ -1,36 +1,34 @@
 {
   "hub_id": "topic/dev-itpro/development/system-and-application-reference-documen",
-  "input_hash": "be02286c3d0d86ae444fd700df1307d19d6a770426e836017532c1d595cbeb92",
-  "summary": "System and application reference documentation describes how the Business Central application is split into modular layers (System Application and Business Foundation) and how to build or contribute AL modules to the System Application. It answers questions about application structure, module architecture rules, and the contribution workflow.",
-  "overview": "The Business Central application is being refactored into smaller modular layers to improve code organization and maintainability. The System Application layer holds ERP agnostic functionality. The Business Foundation layer holds ERP related functionality. The overview page explains this split.\n\nThe \"Creating new modules\" subtopic (6 pages) is the practical follow-up. It covers how to build, change, and contribute AL modules in the System Application: environment setup, architecture rules, facade and implementation codeunits, .NET wrapper modules, tests, and the Git workflow.\n\nStart with the overview page to understand the layers and where code belongs. Then move to Creating new modules if you plan to add or change a module.",
+  "input_hash": "94eca4ac53658c06558aaf00c06945325ececf43507e55c46ced4886b7f63f87",
+  "summary": "System and application reference documentation describes how the Business Central application is organized into modular layers, and how contributors build on the System Application. It answers questions about the System Application and Business Foundation layers and about creating or changing modules.",
+  "overview": "The Business Central application is being refactored into smaller modular layers to improve code organization and maintainability. Two layers are named: the System Application, which holds ERP agnostic functionality, and Business Foundation, which holds ERP related functionality.\n\nThe section has one overview page that explains this layer structure, and one subtopic, Creating new modules, with six pages for contributors to the System Application. That subtopic covers environment setup, module architecture, building new modules, changing existing ones, and writing .NET wrapper modules.\n\nStart with the overview page to understand where functionality sits, then move to Creating new modules if you plan to contribute or need the design rules.",
   "key_points": [
-    "The application is being refactored into smaller modular layers.",
-    "System Application contains ERP agnostic functionality.",
-    "Business Foundation contains ERP related functionality.",
-    "The goal of the modular design is better code organization and maintainability.",
-    "Creating new modules covers environment setup for working on the System Application.",
-    "Module guidance includes architecture rules and facade and implementation codeunits.",
-    "It also covers .NET wrapper modules, tests, and the Git workflow for contributions."
+    "The application is being split into smaller modular layers for better code organization and maintainability.",
+    "System Application layer: ERP agnostic functionality.",
+    "Business Foundation layer: ERP related functionality.",
+    "Creating new modules has 6 pages aimed at System Application contributors.",
+    "Contributor topics: environment setup, module architecture, building new modules, changing existing modules.",
+    "The contributor guidance also covers writing .NET wrapper modules and design rules."
   ],
   "members_used": 1,
   "subtopics_used": 1,
   "prompt_version": 1,
-  "at": "2026-10-07T02:13:03.180Z",
+  "at": "2026-10-28T10:59:33.502Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.008076999999999999
+    "cost_usd": 0.007783
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T02:22:35.706Z",
+    "at": "2026-10-28T11:02:41.014Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the summary's 'split into modular layers (System Application and Business Foundation)' could read as if these are the only two layers. The source says the layers 'include' these two, so 'including System Application and Business Foundation' would be more precise.",
-      "Minor: 'where code belongs' in the overview's reading guidance goes slightly beyond the source. It is a reasonable inference from the ERP agnostic vs ERP related split, though."
+      "Minor: the source says the layers 'include' System Application and Business Foundation. The wording 'Two layers are named' is accurate, but it should not be read as meaning these are the only layers."
     ],
-    "input_hash": "be02286c3d0d86ae444fd700df1307d19d6a770426e836017532c1d595cbeb92",
-    "cost_usd": 0.0192912
+    "input_hash": "94eca4ac53658c06558aaf00c06945325ececf43507e55c46ced4886b7f63f87",
+    "cost_usd": 0.0162992
   }
 }

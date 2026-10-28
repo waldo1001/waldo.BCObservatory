@@ -2,200 +2,201 @@
 id: topic/business-central/business-functionality/local-functionality/norway/banking-and-payments
 type: topic
 title: Banking & payments
-summary: "Norwegian banking and payments in Business Central: remittance setup (agreements, accounts, vendors), creating, testing, exporting and cancelling vendor payments, handling return files and errors, OCR and KID customer payments, and EHF electronic invoicing. It answers setup and procedure questions for these Norway-specific processes."
+summary: "Banking and payments in the Norwegian version of Business Central: remittance payments to vendors (TelePay, BBS, SEPA), OCR and KID customer payments, Norwegian giro with OCR-B font, and EHF electronic invoicing. It answers setup, processing, return file, error handling and e-invoicing questions."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:16:40.238Z"
+  at: "2026-10-28T11:01:45.169Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 6a979b10e1dc1211567c10dcf079a8c61f629d30daa0fd326b54c3c3e4dccf48
+  input_hash: 551b261708544705ce1cdd0703dcff37ae3936b44e5fbe0853b3d23e7ee51733
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-cancel-payments
-    title: Cancel payments [NO]
-    date: "2025-05-12"
+    title: Cancel Payments in the Norwegian Version [NO]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-electronic-documents-for-ehf
+    title: Create Electronic Documents for EHF
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-manual-remittance-payments
-    title: Create manual remittance payments [NO]
-    date: "2025-05-12"
+    title: Create Manual Remittance Payments in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-remittance-accounts
-    title: Create remittance accounts [NO]
-    date: "2025-05-12"
+    title: Create Remittance Accounts in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-remittance-suggestions
-    title: Create remittance suggestions [NO]
-    date: "2025-05-13"
+    title: Create Remittance Suggestions in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-delete-remittance-payment-orders
-    title: Delete remittance payment orders [NO]
-    date: "2025-05-13"
+    title: Delete Remittance Payment Orders in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/electronic-banking-in-norway
-    title: Electronic banking in Norway
-    date: "2025-05-12"
+    title: Electronic Banking in Norway in Business Central
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway
-    title: Electronic invoicing in Norway
-    date: "2025-05-12"
+    title: Electronic Invoicing in Norway
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/electronic-payments-to-vendors-in-norway
     title: Electronic Payments to Vendors in Norway
-    date: "2025-05-12"
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-export-remittance-payments
-    title: Export remittance payments [NO]
-    date: "2025-05-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-electronic-documents-for-ehf
-    title: How to Create Electronic Documents for EHF
-    date: "2025-05-12"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-payment-return-data
-    title: How to import payment return data [NO]
-    date: "2025-05-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-payment-line-information
-    title: How to set up payment line information [NO]
-    date: "2025-05-14"
+    title: Export Remittance Payments in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-and-post-ocr-payments
-    title: Import and post OCR payments [NO]
-    date: "2025-05-13"
+    title: Import and Post OCR Payments [NO]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-payment-return-data
+    title: Import Payment Return Data in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-giro-and-ocr-b-font
-    title: Norwegian Giro and OCR-B font
-    date: "2025-05-15"
+    title: Norwegian Giro Payments and the OCR-B Font
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report
-    title: Print the OCR journal - Test report
-    date: "2025-05-13"
+    title: Print the OCR Journal - Test Report
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/recipient-reference-codes
-    title: Recipient reference codes [NO]
-    date: "2025-05-16"
+    title: Recipient Reference Codes in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/remittance-errors
-    title: Remittance errors [NO]
-    date: "2025-05-15"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-customers-for-ehf
-    title: Set Up Customers for EHF
-    date: "2025-05-13"
+    title: Remittance Errors in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ehf
-    title: Set Up EHF [NO]
-    date: "2025-05-14"
+    title: Set Up EHF in the Norwegian Version [NO]
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-customers-for-ehf
+    title: Set Up Norwegian Customers for EHF
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ocr-payments
-    title: Set up OCR payments [NO]
-    date: "2025-05-14"
+    title: Set Up Norwegian OCR Customer Payments
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-payment-line-information
+    title: Set Up Payment Line Information in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-remittance-agreements
-    title: Set Up Remittance Agreements [NO]
-    date: "2025-05-14"
+    title: Set Up Remittance Agreements in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-vendors-for-remittance
-    title: Set Up Vendors for Remittance [NO]
-    date: "2025-05-14"
+    title: Set Up Vendors for Remittance in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-test-remittance-payments
-    title: Test Remittance Payments [NO]
-    date: "2025-05-14"
+    title: Test Remittance Payments in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/types-of-payment-returns-files
-    title: Types of payment returns files [NO]
-    date: "2025-05-16"
+    title: Types of Payment Returns Files in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-view-remittance-error-codes
-    title: View remittance error codes [NO]
-    date: "2025-05-15"
+    title: View Remittance Error Codes in the Norwegian Version [NO]
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-cancel-payments
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-electronic-documents-for-ehf
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-manual-remittance-payments
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-remittance-accounts
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-remittance-suggestions
@@ -204,17 +205,16 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/electronic-payments-to-vendors-in-norway
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-export-remittance-payments
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-electronic-documents-for-ehf
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-payment-return-data
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-payment-line-information
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-and-post-ocr-payments
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-payment-return-data
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-giro-and-ocr-b-font
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/recipient-reference-codes
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/remittance-errors
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-customers-for-ehf
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ehf
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-customers-for-ehf
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ocr-payments
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-payment-line-information
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-remittance-agreements
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-vendors-for-remittance
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-test-remittance-payments
@@ -272,68 +272,72 @@ narrative: generated
 
 # Banking & payments
 
-> Norwegian banking and payments in Business Central: remittance setup (agreements, accounts, vendors), creating, testing, exporting and cancelling vendor payments, handling return files and errors, OCR and KID customer payments, and EHF electronic invoicing. It answers setup and procedure questions for these Norway-specific processes.
+> Banking and payments in the Norwegian version of Business Central: remittance payments to vendors (TelePay, BBS, SEPA), OCR and KID customer payments, Norwegian giro with OCR-B font, and EHF electronic invoicing. It answers setup, processing, return file, error handling and e-invoicing questions.
 
 Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Norway](../norway.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers three connected areas for the Norwegian version. The first is vendor remittance: set up remittance agreements, remittance accounts and vendors, create suggestions or manual payments, set payment line information and recipient reference codes, test the lines, export a bank file in SEPA, Telepay or BBS format, import return files, review errors, and cancel or delete orders. The second is incoming customer payments: KID numbers printed on documents and giro forms using the OCR-B font, with OCR payment files imported into a cash receipt journal. The third is EHF electronic invoicing for public sector customers, alongside the newer E-Documents framework.
+This section covers Norwegian-specific banking and payment functionality. It has three main areas: electronic payments to vendors through remittance, receipt of customer payments through OCR, and electronic invoicing to the public sector in EHF format. There are no subtopics, so all guidance is on the pages in this section.
+
+For vendor payments, start with the overview pages "Electronic Banking in Norway" and "Electronic Payments to Vendors in Norway". The setup pages cover remittance agreements, remittance accounts, vendor remittance setup, payment line information and recipient reference codes. The processing pages cover creating remittance suggestions or manual payments, testing, exporting, importing return files, and handling errors, cancellations and deletion of old payment orders.
+
+For customer payments, the pages cover Norwegian giro and the OCR-B font, setting up OCR payments, importing and posting OCR files in the cash receipt journal, and printing the OCR test report. For invoicing, "Electronic Invoicing in Norway" describes setup for the E-Documents framework and the PEPPOL BIS Billing 3.0 requirements. The pages on setting up customers for EHF and creating EHF documents describe the older workflow, which the E-Documents framework is superseding. "Set Up EHF" covers where EHF files are saved.
 
 ## Key points
 
-- Remittance setup covers remittance agreements with the bank, remittance accounts for domestic and foreign payments, and vendors set up for remittance.
-- Payments can come from remittance suggestions (filters for payment date, discounts, vendor priority, document types) or be created manually with Initialize Payment Info on the Payment Info page.
-- Run the Remittance Test report before posting and transferring payments to the bank.
-- Export to a bank file uses SEPA or local standards such as Telepay and BBS, configured on the Bank Account Card.
-- Return files are of two types, receipt returns and settlement returns. Errors show on the Return Error page and the Waiting Journal.
-- Open payment orders and unsettled individual payments can be cancelled. Orders can be deleted only for closed financial years, when all payments are fully managed and none has sent or approved status.
-- OCR payments are set up with a journal template that balances by document number, then imported to a cash receipt journal. The OCR Journal Test report checks them before posting.
-- EHF invoicing needs customer GLN, account code and the E-Invoice checkbox, plus file locations for XML files. The E-Documents framework is the newer route to external endpoints.
+- Remittance setup covers remittance agreements (payment system, bank operator, return files), remittance accounts (one per bank account, separate for domestic and foreign payments), vendor remittance details and payment line information.
+- Remittance suggestions add payment lines for vendors set up for remittance, with options such as Last Payment Date, Find Payment Discounts and Use Vendor Priority.
+- Payments are exported from the Payment Journal with Export Payments, using SEPA or local standards such as Telepay and BBS. A Remittance Test report checks lines before posting.
+- Bank return files come as receipt returns and settlement returns. They are imported on the Rem. payment order import page, and errors appear on the Return Error and Waiting Journal pages.
+- Recipient reference codes use special formatting codes (%1-11) to put invoice numbers, amounts and due dates in messages to payment recipients.
+- OCR customer payments are set up with file formats (BBS, Data Dialog), divergence tolerances and journal settings. They are imported with Import Payments in the cash receipt journal, and the OCR test report can be printed before posting.
+- Norwegian giro uses the OCR-B-10 BT font by default for BBS processing. A different OCR-B font requires updates from a Microsoft Certified Partner.
+- Electronic invoicing to the public sector uses EHF/UBL format. New setups should use the E-Documents framework. The EHF customer setup (GLN, Account Code, E-Invoice checkbox) and document creation pages describe the older workflow. EHF file paths are set in Sales & Receivables Setup and Service Management Setup.
 
 ## Learn pages
 
-- [Cancel payments [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-cancel-payments): Learn how the Norwegian enhancements of Business Central allow you to cancel payments and remittances received.
+- [Cancel Payments in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-cancel-payments): Cancel Norwegian remittance payment orders or individual unsettled payments in Business Central, and contact your bank for payments already sent.
   - In the observatory: [Page 15000002 "Remittance Payment Order (NO)"](../../../../../objects/page/15000002-no.md), [Page 15000005 "Waiting Journal (NO)"](../../../../../objects/page/15000005-no.md)
-- [Create manual remittance payments [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-manual-remittance-payments): Learn how to create a remittance payment, either linked to an invoice or independently, such as a vendor payment, through manual processes.
-  - In the observatory: [Page 15000001 "Payment Info (NO)"](../../../../../objects/page/15000001-no.md)
-- [Create remittance accounts [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-remittance-accounts): Learn how to create a remittance account for each bank account used for payments in the Norwegian version of Business Central.
-  - In the observatory: [Page 15000004 "Remittance Account Card (NO)"](../../../../../objects/page/15000004-no.md), [Page 15000006 "Remittance Account Overview (NO)"](../../../../../objects/page/15000006-no.md)
-- [Create remittance suggestions [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-remittance-suggestions): Learn how to create a remittance suggestion to ensure that payment proposals are sent to vendors configured to receive remittance payments.
-- [Delete remittance payment orders [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-delete-remittance-payment-orders): Remittance payment orders can be deleted if they're managed in full and belong to a closed financial year.
-- [Electronic banking in Norway](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/electronic-banking-in-norway): Learn about the Norwegian-specific enhancements in Business Central for managing electronic banking operations efficiently.
-- [Electronic invoicing in Norway](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway): Learn how to electronically send sales invoices and credit memos to the Norwegian public sector using EHF, which is based on Universal Business Language (UBL).
-  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 36954 "Customers"](../../../../../objects/page/36954.md)
-- [Electronic Payments to Vendors in Norway](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/electronic-payments-to-vendors-in-norway): Learn about the Norwegian enhancements that simplify vendor payments, enabling invoice searches, bank transactions, status updates, and electronic payments in various formats.
-- [Export remittance payments [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-export-remittance-payments): Learn how to export remittance payment files to your computer using the export remittance payments process.
-  - In the observatory: [Page 256 "Payment Journal"](../../../../../objects/page/256.md), [Page 370 "Bank Account Card"](../../../../../objects/page/370.md), [Report 15000050 "Remittance - export (Bank) (NO)"](../../../../../objects/report/15000050-no.md), [Report 15000060 "Remittance - export (BBS) (NO)"](../../../../../objects/report/15000060-no.md)
-- [How to Create Electronic Documents for EHF](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-electronic-documents-for-ehf): Learn how to create and submit electronic documents for public sector customers in compliance with EHF requirements.
+- [Create Electronic Documents for EHF](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-electronic-documents-for-ehf): Learn about the legacy Norwegian EHF workflow for posting sales invoices and creating electronic documents with customer references and invoicing details.
   - In the observatory: [Page 143 "Posted Sales Invoices"](../../../../../objects/page/143.md), [Page 459 "Sales & Receivables Setup"](../../../../../objects/page/459.md)
-- [How to import payment return data [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-payment-return-data): Learn how to use the Rem. payment order – import page to import receipt and settlement returns efficiently.
-  - In the observatory: [Page 15000008 "Return Files (NO)"](../../../../../objects/page/15000008-no.md), [Page 15000011 "Settlement Info (NO)"](../../../../../objects/page/15000011-no.md)
-- [How to set up payment line information [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-payment-line-information): Learn how to set up payment journal line information for remittance payments on the Payment Info page in the Norwegian version of Business Central.
+- [Create Manual Remittance Payments in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-manual-remittance-payments): Learn how to create a remittance payment, either linked to an invoice or independently, such as a vendor payment, through manual processes.
   - In the observatory: [Page 15000001 "Payment Info (NO)"](../../../../../objects/page/15000001-no.md)
-- [Import and post OCR payments [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-and-post-ocr-payments): Learn how to prepare for and receive optical character recognition (OCR) payments in the Norwegian version of Business Central.
-- [Norwegian Giro and OCR-B font](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-giro-and-ocr-b-font): Learn about the Norwegian Giro payment system, which functions as a credit transfer, and its use of the OCR-B font for payment processing.
-- [Print the OCR journal - Test report](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report): Learn how to print the OCR Journal Test report to test imported payment transactions in the cash receipt journal.
-  - In the observatory: [Report 15000100 "OCR Journal - Test (NO)"](../../../../../objects/report/15000100-no.md)
-- [Recipient reference codes [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/recipient-reference-codes): Learn about the message sent to the recipient and shown on the remittance account, based on the recipient reference code.
+- [Create Remittance Accounts in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-remittance-accounts): Learn how to create a remittance account for each bank account used for payments in the Norwegian version of Business Central.
+  - In the observatory: [Page 15000004 "Remittance Account Card (NO)"](../../../../../objects/page/15000004-no.md), [Page 15000006 "Remittance Account Overview (NO)"](../../../../../objects/page/15000006-no.md)
+- [Create Remittance Suggestions in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-remittance-suggestions): Learn how to create a remittance suggestion to ensure that payment proposals are sent to vendors configured to receive remittance payments.
+- [Delete Remittance Payment Orders in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-delete-remittance-payment-orders): Delete fully handled Norwegian remittance payment orders from closed financial periods in Business Central, using a start date and an end date.
+  - In the observatory: [Page 15000005 "Waiting Journal (NO)"](../../../../../objects/page/15000005-no.md)
+- [Electronic Banking in Norway in Business Central](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/electronic-banking-in-norway): Learn about the Norwegian-specific enhancements in Business Central for managing electronic banking operations efficiently.
+- [Electronic Invoicing in Norway](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway): Learn how to electronically send sales invoices and credit memos to the Norwegian public sector using EHF, which is based on Universal Business Language (UBL).
+  - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 10 "Countries/Regions"](../../../../../objects/page/10.md), [Page 36954 "Customers"](../../../../../objects/page/36954.md), [Page 472 "VAT Posting Setup"](../../../../../objects/page/472.md)
+- [Electronic Payments to Vendors in Norway](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/electronic-payments-to-vendors-in-norway): Learn about Norwegian vendor payment workflows in Business Central, including payment proposals, bank file exports, return files, and payment status updates.
+- [Export Remittance Payments in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-export-remittance-payments): Export Norwegian remittance payments to a bank file in Business Central, review the export report options, and transfer payments to the waiting journal.
+  - In the observatory: [Page 256 "Payment Journal"](../../../../../objects/page/256.md), [Page 370 "Bank Account Card"](../../../../../objects/page/370.md), [Report 15000050 "Remittance - export (Bank) (NO)"](../../../../../objects/report/15000050-no.md), [Report 15000060 "Remittance - export (BBS) (NO)"](../../../../../objects/report/15000060-no.md)
+- [Import and Post OCR Payments [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-and-post-ocr-payments): Learn how to prepare for and receive optical character recognition (OCR) payments in the Norwegian version of Business Central.
+- [Import Payment Return Data in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-payment-return-data): Import Norwegian remittance receipt and settlement return files into an empty payment journal in Business Central, then review settlement warnings.
+  - In the observatory: [Page 15000008 "Return Files (NO)"](../../../../../objects/page/15000008-no.md), [Page 15000011 "Settlement Info (NO)"](../../../../../objects/page/15000011-no.md)
+- [Norwegian Giro Payments and the OCR-B Font](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-giro-and-ocr-b-font): Learn about the Norwegian Giro payment system, which functions as a credit transfer, and its use of the OCR-B font for payment processing.
+- [Print the OCR Journal - Test Report](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report): Print the Norwegian OCR journal test report in Business Central to review imported payment transactions, OCR warnings, and dimensions before posting.
+- [Recipient Reference Codes in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/recipient-reference-codes): Learn about the message sent to the recipient and shown on the remittance account, based on the recipient reference code.
   - In the observatory: [Page 26 "Vendor Card"](../../../../../objects/page/26.md)
-- [Remittance errors [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/remittance-errors): Learn about remittance errors can occur during data transfer or after payments are sent to the bank. These errors are displayed on the Return Error page.
+- [Remittance Errors in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/remittance-errors): Learn about remittance errors that can occur during data transfer or after payments are sent to the bank, and view them on the Return Error page.
   - In the observatory: [Page 15000005 "Waiting Journal (NO)"](../../../../../objects/page/15000005-no.md), [Page 15000013 "Return Error (NO)"](../../../../../objects/page/15000013-no.md)
-- [Set Up Customers for EHF](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-customers-for-ehf): Learn how to create Elektronisk Handelsformat (EHF) documents for customers in the public sector.
+- [Set Up EHF in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ehf): Learn how to configure storage locations for EHF files when generating electronic documents such as invoices or credit memos.
+- [Set Up Norwegian Customers for EHF](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-customers-for-ehf): Set up customer identifiers, account codes, and invoicing options for the legacy Norwegian EHF electronic document workflow in Business Central.
   - In the observatory: [Page 36954 "Customers"](../../../../../objects/page/36954.md)
-- [Set Up EHF [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ehf): Learn how to configure storage locations for EHF files when generating electronic documents such as invoices or credit memos.
-- [Set up OCR payments [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ocr-payments): Learn how to process electronic payments using predefined payment IDs in the Norwegian version, known as optical character recognition (OCR) payments.
-  - In the observatory: [Page 15000100 "OCR Setup (NO)"](../../../../../objects/page/15000100-no.md)
-- [Set Up Remittance Agreements [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-remittance-agreements): Learn how to set up remittance agreements with your bank for electronic payments in the Norwegian version of Business Central.
+- [Set Up Norwegian OCR Customer Payments](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ocr-payments): Learn how to process electronic payments using predefined payment IDs in the Norwegian version, known as optical character recognition (OCR) payments.
+  - In the observatory: [Table 80 "Gen. Journal Template"](../../../../../objects/table/80.md)
+- [Set Up Payment Line Information in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-payment-line-information): Learn how to set up payment journal line information for remittance payments on the Payment Info page in the Norwegian version of Business Central.
+  - In the observatory: [Page 15000001 "Payment Info (NO)"](../../../../../objects/page/15000001-no.md)
+- [Set Up Remittance Agreements in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-remittance-agreements): Learn how to set up remittance agreements with your bank for electronic payments in the Norwegian version of Business Central.
   - In the observatory: [Page 15000009 "Return File Setup List (NO)"](../../../../../objects/page/15000009-no.md), [Page 15000010 "Remittance Agreement Overview (NO)"](../../../../../objects/page/15000010-no.md)
-- [Set Up Vendors for Remittance [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-vendors-for-remittance): Learn how to set up vendors for remittance to automate payments and minimize manual entry errors.
-  - In the observatory: [Page 15000000 "Remittance Info (NO)"](../../../../../objects/page/15000000-no.md), [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md)
-- [Test Remittance Payments [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-test-remittance-payments): Learn how to test payment journal lines for errors before posting, after setting up remittance payments and generating suggestions.
-- [Types of payment returns files [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/types-of-payment-returns-files): The Norwegian Business Central allows importing receipt returns and settlement returns payment files.
-  - In the observatory: [Page 15000005 "Waiting Journal (NO)"](../../../../../objects/page/15000005-no.md), [Page 15000011 "Settlement Info (NO)"](../../../../../objects/page/15000011-no.md), [Table 15000000 "Remittance Agreement (NO)"](../../../../../objects/table/15000000-no.md)
-- [View remittance error codes [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-view-remittance-error-codes): Learn how to view remittance error codes and their explanations for payments on the Waiting Journal page in the Norwegian version of Business Central.
+- [Set Up Vendors for Remittance in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-vendors-for-remittance): Set up Norwegian vendors for remittance payments in Business Central, including remittance accounts, recipient references, and foreign bank details.
+  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md)
+- [Test Remittance Payments in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-test-remittance-payments): Learn how to test payment journal lines for errors before posting, after setting up remittance payments and generating suggestions.
+- [Types of Payment Returns Files in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/types-of-payment-returns-files): Learn how Norwegian remittance receipt and settlement return files update payment status and create returned payment journal lines in Business Central.
+  - In the observatory: [Page 15000011 "Settlement Info (NO)"](../../../../../objects/page/15000011-no.md), [Table 15000000 "Remittance Agreement (NO)"](../../../../../objects/table/15000000-no.md), [Table 15000004 "Waiting Journal (NO)"](../../../../../objects/table/15000004-no.md)
+- [View Remittance Error Codes in the Norwegian Version [NO]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-view-remittance-error-codes): Learn how to view remittance error codes and their explanations for payments on the Waiting Journal page in the Norwegian version of Business Central.
   - In the observatory: [Page 15000005 "Waiting Journal (NO)"](../../../../../objects/page/15000005-no.md), [Page 15000013 "Return Error (NO)"](../../../../../objects/page/15000013-no.md)
 
 ## Business Central pages and reports

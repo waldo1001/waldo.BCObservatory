@@ -1,36 +1,36 @@
 {
   "schema": "bcobs-index@1",
-  "pages": 29563,
+  "pages": 29646,
   "shards": [
     {
-      "file": "pages-hubs-76a498dea0b8.json",
-      "count": 945,
-      "sha256": "76a498dea0b8f55e7158026e58c04d7d81c91d2a542ed4384bab9cf666a5719b",
+      "file": "pages-hubs-c7c0d56bf321.json",
+      "count": 946,
+      "sha256": "c7c0d56bf321c1dae3afba46eabbec9e90ca0b986b0213d800646dba833178f8",
       "kind": "hubs"
     },
     {
-      "file": "pages-media-ee4a01cbf3ea.json",
-      "count": 2951,
-      "sha256": "ee4a01cbf3eaa54dad619e31757d0b074352290915e9932f858728b6518c9d1b",
+      "file": "pages-media-9236b2eb0d8b.json",
+      "count": 2981,
+      "sha256": "9236b2eb0d8bf18b14441320141e1cee48c415c4218782f74b343d0e62fdc809",
       "kind": "media"
     },
     {
-      "file": "pages-objects-1-a4a47460b67f.json",
-      "count": 14419,
-      "sha256": "a4a47460b67f2c7befbd9e0c14f094364d789270968e04be6ecf7ae223d94849",
+      "file": "pages-objects-1-af0b80b3c64f.json",
+      "count": 14421,
+      "sha256": "af0b80b3c64f3b2093760d5c3218d4fbad6debcac284a4045d2a1ab64536187b",
       "kind": "objects"
     },
     {
-      "file": "pages-objects-2-e18953764fe0.json",
-      "count": 11248,
-      "sha256": "e18953764fe0950db26765e9e14e17928339bc8c8849333815c1c3a459f744fd",
+      "file": "pages-objects-2-bc38ab211af8.json",
+      "count": 11298,
+      "sha256": "bc38ab211af899d83b2870ddf8b79af363fa3f776eaed267518a09a8bf8325c0",
       "kind": "objects"
     }
   ],
   "learn": {
-    "file": "learn-20bf0c85bfd0.json",
-    "count": 8054,
-    "sha256": "20bf0c85bfd093ba2efda764b6c44228ab4fc8d91735a08b4217ab1c144dc581"
+    "file": "learn-9fc2f93454ef.json",
+    "count": 8055,
+    "sha256": "9fc2f93454efacfdcbfa83e78ca7db13a4064ae00a8c1d290d9dd806927c8210"
   },
   "learn_facts": {
     "file": "learn-facts-0bf14c1b74aa.json",
@@ -38,17 +38,17 @@
     "sha256": "0bf14c1b74aacf6089e7ea4d69ad6dbbc3dab3e22330246f51ea8c6bad316fe7"
   },
   "by_type": {
-    "app": 96,
-    "change": 1244,
+    "app": 97,
+    "change": 1266,
     "digest": 7,
     "feature": 108,
     "hotfix": 3,
     "localization": 22,
-    "object": 25667,
-    "post": 1084,
+    "object": 25719,
+    "post": 1091,
     "release": 64,
     "source": 39,
     "topic": 606,
-    "video": 623
+    "video": 624
   }
 }

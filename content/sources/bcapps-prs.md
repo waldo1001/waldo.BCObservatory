@@ -2,7 +2,7 @@
 id: source/bcapps-prs
 type: source
 title: microsoft/BCApps pull requests
-summary: "microsoft/BCApps pull requests: 1108 code changes in the knowledge base, 2026-07-07 to 2026-10-25, mostly about development, finance, integration."
+summary: "microsoft/BCApps pull requests: 1130 code changes in the knowledge base, 2026-07-07 to 2026-10-28, mostly about development, finance, integration."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-26T05:51:10.938Z"
+  at: "2026-10-28T08:47:18.430Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 610630ca0a91418e59abea0b5daac6b6847f392d442dafb3f77081c418237333
+  input_hash: 1553d7b234e5b4da8d1e9b923c027c7dab9aa1c679a6179fb831466b4d3b54ee
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
@@ -1122,6 +1122,7 @@ links:
     - change/bcapps/12541
     - change/bcapps/12201
     - change/bcapps/13056
+    - change/bcapps/11894
     - change/bcapps/12754
     - change/bcapps/12607
     - change/bcapps/11665
@@ -1143,81 +1144,102 @@ links:
     - change/bcapps/12927
     - change/bcapps/13107
     - change/bcapps/12929
+    - change/bcapps/12518
+    - change/bcapps/11222
+    - change/bcapps/12998
+    - change/bcapps/12474
+    - change/bcapps/12519
+    - change/bcapps/13216
+    - change/bcapps/13224
+    - change/bcapps/11744
+    - change/bcapps/13255
+    - change/bcapps/12979
+    - change/bcapps/12539
+    - change/bcapps/12867
+    - change/bcapps/12430
+    - change/bcapps/13105
+    - change/bcapps/13052
+    - change/bcapps/13262
+    - change/bcapps/13307
+    - change/bcapps/13272
+    - change/bcapps/13333
+    - change/bcapps/13160
+    - change/bcapps/13240
 source_id: bcapps-prs
 kind: github-pr
 url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 1108
+item_count: 1130
 footprint:
   systems:
     - id: development
-      weight: 608
+      weight: 612
     - id: finance
-      weight: 429
+      weight: 451
     - id: integration
-      weight: 370
-    - id: inventory
-      weight: 191
+      weight: 372
     - id: sales
-      weight: 188
+      weight: 196
+    - id: inventory
+      weight: 193
     - id: manufacturing
       weight: 177
   topics:
     - id: bc30
-      weight: 1036
+      weight: 1054
     - id: main
-      weight: 1036
+      weight: 1054
     - id: fix
-      weight: 672
+      weight: 689
     - id: feature
-      weight: 323
+      weight: 325
     - id: bc29
-      weight: 72
+      weight: 76
     - id: releases/29.x
-      weight: 72
+      weight: 76
     - id: refactor
       weight: 49
     - id: performance
-      weight: 32
+      weight: 34
     - id: codeunit gen. jnl.-post line
-      weight: 21
+      weight: 23
     - id: other
-      weight: 17
+      weight: 18
   objects:
     - id: codeunit Gen. Jnl.-Post Line
-      weight: 26
+      weight: 28
     - id: table Expense Report Header
       weight: 17
     - id: page Expense Agent Setup Wizard
-      weight: 15
+      weight: 16
     - id: table Purchase Line
       weight: 14
     - id: table Sales Line
       weight: 14
     - id: codeunit Item Jnl.-Post Line
       weight: 13
+    - id: permissionset Expense Agent - Objects
+      weight: 13
+    - id: permissionset Expense Management - Objects
+      weight: 13
+    - id: codeunit Create Billing Documents
+      weight: 12
     - id: codeunit Expense Report Approval Mgmt
       weight: 12
     - id: page Expense Agent Setup
       weight: 12
-    - id: permissionset Expense Agent - Objects
-      weight: 12
-    - id: permissionset Expense Management - Objects
-      weight: 12
     - id: table Subscription Line
       weight: 12
-    - id: codeunit Create Billing Documents
-      weight: 11
   features: []
 first_item: "2026-07-07"
-last_item: "2026-10-25"
+last_item: "2026-10-28"
 ---
 
 # microsoft/BCApps pull requests
 
-> microsoft/BCApps pull requests: 1108 code changes in the knowledge base, 2026-07-07 to 2026-10-25, mostly about development, finance, integration.
+> microsoft/BCApps pull requests: 1130 code changes in the knowledge base, 2026-07-07 to 2026-10-28, mostly about development, finance, integration.
 
 [https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -1225,47 +1247,47 @@ last_item: "2026-10-25"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (608) | bc30 (1036) | codeunit Gen. Jnl.-Post Line (26) |
-| finance (429) | main (1036) | table Expense Report Header (17) |
-| integration (370) | fix (672) | page Expense Agent Setup Wizard (15) |
-| inventory (191) | feature (323) | table Purchase Line (14) |
-| sales (188) | bc29 (72) | table Sales Line (14) |
-| manufacturing (177) | releases/29.x (72) | codeunit Item Jnl.-Post Line (13) |
-|  | refactor (49) | codeunit Expense Report Approval Mgmt (12) |
-|  | performance (32) | page Expense Agent Setup (12) |
-|  | codeunit gen. jnl.-post line (21) | permissionset Expense Agent - Objects (12) |
-|  | other (17) | permissionset Expense Management - Objects (12) |
+| development (612) | bc30 (1054) | codeunit Gen. Jnl.-Post Line (28) |
+| finance (451) | main (1054) | table Expense Report Header (17) |
+| integration (372) | fix (689) | page Expense Agent Setup Wizard (16) |
+| sales (196) | feature (325) | table Purchase Line (14) |
+| inventory (193) | bc29 (76) | table Sales Line (14) |
+| manufacturing (177) | releases/29.x (76) | codeunit Item Jnl.-Post Line (13) |
+|  | refactor (49) | permissionset Expense Agent - Objects (13) |
+|  | performance (34) | permissionset Expense Management - Objects (13) |
+|  | codeunit gen. jnl.-post line (23) | codeunit Create Billing Documents (12) |
+|  | other (18) | codeunit Expense Report Approval Mgmt (12) |
+|  |  | page Expense Agent Setup (12) |
 |  |  | table Subscription Line (12) |
-|  |  | codeunit Create Billing Documents (11) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 882
-- 2026-Q4: **************************************** 226
+- 2026-Q4: **************************************** 248
 
 ## Most recent
 
-- [#12929 [Main]"Use GLN in Electronic Documents" on the Company Information is not respected when importing E-Docs from Inbound E-Documents page using the Import XML action.](../changes/bcapps/12929.md) (2026-10-25)
-- [#13107 CZ Registration No. verification must do integrity and schema check of the response](../changes/bcapps/13107.md) (2026-10-25)
-- [#12927 Add AboutTitle and AboutText to Workflow Categories page](../changes/bcapps/12927.md) (2026-10-24)
-- [#12337 [MAIN]-Bug 642602: Address AL1430 and remove exception from ruleset](../changes/bcapps/12337.md) (2026-10-24)
-- [#10477 [Bug Fix] #249: Raise populated ErrorInfo for Subscription Billing failures](../changes/bcapps/10477.md) (2026-10-23)
-- [#13183 [Master]-Service Order created from Service Contract does not populate header dimensions until Dimensions action is opened](../changes/bcapps/13183.md) (2026-10-23)
-- [#13165 [Master]-"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.](../changes/bcapps/13165.md) (2026-10-23)
-- [#11258 [GB] IdealPostcodes: fix provider selection and address retrieval through the Postcode Service Manager framework](../changes/bcapps/11258.md) (2026-10-23)
-- [#9880 [Bug Fix] #620132: Prevent IRS 1099 data on vendor ledger entries of non-1099 vendors](../changes/bcapps/9880.md) (2026-10-23)
-- [#10444 [Bug][Subscription Billing] "Cancellation Possible Until" is rounded to the end of the month when the Notice Period is expressed in days](../changes/bcapps/10444.md) (2026-10-23)
-- [#12842 [main] Bug 653921 Warehouse pick fails with "Nothing to handle" when an earlier unshipped pick uses a non-default shipment bin](../changes/bcapps/12842.md) (2026-10-23)
-- [#10384 [Extensibility][SubscriptionBilling] Make procedures necessary for custom Usage Data Connector externally accessible](../changes/bcapps/10384.md) (2026-10-23)
-- [#12690 [Master]-You must assign a serial number for item xxx" when trying to reverse Capacity Ledger Entry](../changes/bcapps/12690.md) (2026-10-23)
-- [#12783 [29.x] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](../changes/bcapps/12783.md) (2026-10-23)
-- [#13054 [FR] Delocalize delayed VAT and SEPA payment-slip integration](../changes/bcapps/13054.md) (2026-10-23)
-- [#13174 [E-Documents] Remove the PDF reader service credit memo upgrade](../changes/bcapps/13174.md) (2026-10-22)
-- [#12894 [PayablesAgent] Add support for credit memos, recognised from the PDF and applied to the original invoice](../changes/bcapps/12894.md) (2026-10-22)
-- [#11997 Clarify Expense Agent Entra app permission checks](../changes/bcapps/11997.md) (2026-10-22)
-- [#11665 Bug 649580: [Subcontracting] Transfer Shipment report is missing subcontractor and manufacturing references](../changes/bcapps/11665.md) (2026-10-22)
-- [#12607 [BE] Improve Purchase Ledger report performance](../changes/bcapps/12607.md) (2026-10-22)
+- [#13240 [Main]-Test disabled after BCApps uptake: Contract Renewal Test.TestIfContractRenewalSelectionIsUpdateOnAfterValidateCalcBasePercentage fails](../changes/bcapps/13240.md) (2026-10-28)
+- [#13160 [Main][all-e]Changing Negative Amount Format to Parentheses modifies displayed decimal precision despite unchanged rounding settings in the Financial Reports](../changes/bcapps/13160.md) (2026-10-28)
+- [#13333 Fix configuration package import label translation collisions](../changes/bcapps/13333.md) (2026-10-28)
+- [#13272 Keep historical FX balances when unapplying payments](../changes/bcapps/13272.md) (2026-10-27)
+- [#13307 [SOA] Clear stale pricing notifications on item availability refresh](../changes/bcapps/13307.md) (2026-10-27)
+- [#13262 [Financial Reports] Trial Balance by Period (Excel) should use a query-based approach rather than loop and CalcFields](../changes/bcapps/13262.md) (2026-10-27)
+- [#13052 [Shopify] Upgrade tax matching to GPT-5.6 Ceres](../changes/bcapps/13052.md) (2026-10-27)
+- [#13105 [MCP] Warn when configurations have no tools](../changes/bcapps/13105.md) (2026-10-27)
+- [#12430 [main] Source Currency Code and Source Currency Amount not getting updated on Contract Deferral release G/L entries.](../changes/bcapps/12430.md) (2026-10-27)
+- [#12867 [29.X]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](../changes/bcapps/12867.md) (2026-10-27)
+- [#12539 Add Expense Agent consumption V2 and trial support](../changes/bcapps/12539.md) (2026-10-26)
+- [#12979 [Main] Consistent Error Posting GST Distribution Reversal](../changes/bcapps/12979.md) (2026-10-26)
+- [#13255 [Main]-Exporting vendor remittance gets stuck when a payment jour nal is sorted by Document No.](../changes/bcapps/13255.md) (2026-10-26)
+- [#11744 Fixes #11605 - GetCurrencyCode Error](../changes/bcapps/11744.md) (2026-10-26)
+- [#13224 [29.X]-"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.](../changes/bcapps/13224.md) (2026-10-26)
+- [#13216 Fix VAT adjustment register](../changes/bcapps/13216.md) (2026-10-26)
+- [#12519 [29.X]- Create Documents on Recurring Billing ignores the Partner filter and fails when a vendor billing proposal exists- #11637](../changes/bcapps/12519.md) (2026-10-26)
+- [#12474 [Master]-Non-Deductible Reverse-Charge VAT Correction Is Posted to Purchase VAT Account Instead of Payment Discount Account.](../changes/bcapps/12474.md) (2026-10-26)
+- [#12998 [main] Discount is not taken into account on Renewal Offer using Sales Quote for Subscription Billing report layout.](../changes/bcapps/12998.md) (2026-10-26)
+- [#11222 Improve Low-Level Code Calculator performance](../changes/bcapps/11222.md) (2026-10-26)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

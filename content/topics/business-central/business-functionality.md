@@ -2,20 +2,20 @@
 id: topic/business-central/business-functionality
 type: topic
 title: Business functionality
-summary: "Business functionality in Business Central is the main section on business processes and modules: finance, sales, purchasing, inventory, projects, fixed assets, manufacturing, warehouse, service, sustainability, Shopify and more. It answers which area handles a process and where setup and how-to guidance lives, including local and design-detail topics."
+summary: "Business functionality in Business Central is the top-level section for the business processes the product supports: finance, sales, purchasing, inventory, projects, manufacturing, warehouse, service, sustainability, and more. It helps an agent find the right area for setup and how-to questions, including local functionality, setup, and design details."
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-10-25T12:53:09.256Z"
+  at: "2026-10-28T11:00:21.935Z"
   flags: []
 generated:
-  at: "2026-10-25T12:53:09.600Z"
+  at: "2026-10-28T11:04:14.111Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: aea1e65fc7aee18f546908591144a8ac4edf508f08e148157abb5ed1b8a13d70
+  input_hash: 3c3a3bbe2c1b813dd27bcbbb8ba3bc1478f44fa0d2be989d0c50867939685dd1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-abc-analysis
@@ -90,7 +90,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Absence-registration
     title: Absence registration in Russia
-    date: "2025-07-11"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
@@ -125,7 +125,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Accounting-for-personal-income-tax-payments
     title: Accounting for personal income tax payments in Russia
-    date: "2025-07-11"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
@@ -152,8 +152,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-activate-sepa-payments
-    title: Activate SEPA payments in the Dutch version
-    date: "2025-03-17"
+    title: Activate SEPA Payments in the Dutch Version
+    date: "2026-10-20"
     commit: null
     t: null
     quote: null
@@ -236,8 +236,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-add-contact-segment
-    title: Add contacts to segments
-    date: "2025-10-03"
+    title: Add Contacts to Marketing Segments
+    date: "2026-10-22"
     commit: null
     t: null
     quote: null
@@ -271,8 +271,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/addresses
-    title: Addresses in New Zealand
-    date: "2025-05-05"
+    title: Addresses in the New Zealand Version
+    date: "2026-10-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-adjust-exchange-rates
+    title: Adjust Exchange Rates in the Swiss Version [CH]
+    date: "2026-10-19"
     commit: null
     t: null
     quote: null
@@ -285,15 +292,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries
-    title: Adjust Settlement Exchange Rates for VAT Entries (NZ)
-    date: "2025-05-05"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz
-    title: Advance Payments Localization for Czech (Extension)
-    date: "2026-10-08"
+    title: Adjust VAT Settlement Exchange Rates in New Zealand
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -893,6 +893,7 @@ links:
     - object/page/4810
     - object/page/4811
     - object/page/4850
+    - object/page/4851
     - object/page/4852
     - object/page/5050
     - object/page/5052
@@ -1248,7 +1249,6 @@ links:
     - object/page/8903
     - object/page/8904
     - object/page/9000
-    - object/page/9001
     - object/page/9002
     - object/page/9004
     - object/page/9005
@@ -2623,6 +2623,7 @@ bc_forms:
   - 4810
   - 4811
   - 4850
+  - 4851
   - 4852
   - 5050
   - 5051
@@ -3054,7 +3055,6 @@ bc_forms:
   - 8903
   - 8904
   - 9000
-  - 9001
   - 9002
   - 9004
   - 9005
@@ -3262,10 +3262,9 @@ bc_forms:
   - 11026
   - 11027
   - 11028
-  - 11206
-  - 11207
-  - 11208
   - 11212
+  - 11290
+  - 11291
   - 11300
   - 11301
   - 11303
@@ -3696,7 +3695,6 @@ bc_forms:
   - 32000004
   - 32000005
   - 32000006
-  - 50585058
   - 70000013
   - 99000750
   - 99000751
@@ -3831,28 +3829,28 @@ narrative: generated
 
 # Business functionality
 
-> Business functionality in Business Central is the main section on business processes and modules: finance, sales, purchasing, inventory, projects, fixed assets, manufacturing, warehouse, service, sustainability, Shopify and more. It answers which area handles a process and where setup and how-to guidance lives, including local and design-detail topics.
+> Business functionality in Business Central is the top-level section for the business processes the product supports: finance, sales, purchasing, inventory, projects, manufacturing, warehouse, service, sustainability, and more. It helps an agent find the right area for setup and how-to questions, including local functionality, setup, and design details.
 
 Path: Business functionality · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section groups the Business Central functional areas. One overview page lists what the product supports: finance and payments, sales and quotes, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management. Each area has its own subtopic with setup and how-to pages.
+This section groups the functional areas of Business Central. One overview page lists the supported processes: finance and payments, sales and quotes, purchase management, inventory, projects, and fixed assets. The subtopics go deeper into each area, along with others such as relationship management, human resources, planning, assembly, manufacturing, warehouse, quality, service, sustainability, Shopify, and expense management (preview).
 
-The subtopics fall into a few groups. Core transaction areas are Finance, Sales, Purchasing and Inventory. Operations areas are Manufacturing, Planning, Assembly, Warehouse, Project, Service and Fixed assets. Others cover Relationship management, Human resources, Quality management, Sustainability, Expense management (preview), the Shopify connector and the Company hub. General business functionality covers features shared across areas, such as posting, email, job queues and workflows.
+Some subtopics cover cross-cutting material. General business functionality holds features shared across areas, such as posting, email, job queues, workflows and approvals. Local functionality covers country-specific and regulatory features. Set up Business Central covers initial and ongoing configuration. Design details explain how calculations and posting work internally, for example supply planning and inventory costing.
 
-Start with the overview page to find the right area, then open that subtopic. Use Set up Business Central for configuration, Local functionality for country-specific features, and Design details when you need to know how calculation or posting logic works internally.
+Start with the overview page to place a process, then go to the matching subtopic. Finance (256 pages) and Local functionality (603 pages) are the largest. For how-it-works questions, use Design details.
 
 ## Key points
 
-- Finance is the largest functional area (256 pages): general ledger, dimensions, currencies, receivables, payables, bank reconciliation, VAT, cost accounting, cash flow, E-Documents and multi-company.
-- Sales and Purchasing cover the document flow from quotes and orders to invoices, returns, corrections and posting; Sales also covers prepayments, campaigns and subscription billing.
-- Inventory covers item setup, counting, item tracking by serial, lot and package, reservations, transfers, variants and BOMs.
-- Manufacturing, Planning, Assembly and Warehouse management cover production orders, MPS and MRP runs, assembly orders and inbound/outbound warehouse processes.
-- Service management is available in the Premium experience only.
-- Expense management is a preview feature and works with or without the AI-based Expense Agent.
-- Quality management is an extension for automatic, manual and scheduled inspections.
-- Local functionality (603 pages) covers 20+ countries and regions; Design details explains costing, planning, item tracking and posting logic.
+- The overview page lists supported areas: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.
+- General business functionality covers shared features: posting and batch posting, comments, extended text, archiving, email, tasks, job queues, general journals, Excel export, incoming documents, workflows and approvals.
+- Finance covers general ledger, dimensions, currencies, receivables, payables, bank reconciliation, VAT, cash flow, consolidation, E-Documents and withholding and excise tax.
+- Sales includes subtopics for Sales analytics and Subscription billing; Inventory covers item tracking, reservations, transfers and variants.
+- Manufacturing, Planning, Assembly management and Warehouse management cover production orders, MPS/MRP runs, assembly orders and warehouse processes.
+- Service management is for the Premium experience only; Expense management is in preview and works with or without the AI-based Expense Agent.
+- Sustainability management covers emissions tracking, certificates, scorecards, carbon credits, CBAM, EPR and Scope 3; Online store with Shopify covers the Shopify Connector.
+- Local functionality covers more than 20 countries and regions; Design details explain internal logic such as item tracking and dimension set entries.
 
 ## Subtopics
 
@@ -4494,6 +4492,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 4810 "Intrastat Report Setup"](../../objects/page/4810.md) · on [Table 4810 "Intrastat Report Setup"](../../objects/table/4810.md) · via [Finance](business-functionality/finance.md)
 - [Page 4811 "Intrastat Report List"](../../objects/page/4811.md) · on [Table 4811 "Intrastat Report Header"](../../objects/table/4811.md) · via [Finance](business-functionality/finance.md)
 - [Page 4850 "Automatic Account Header"](../../objects/page/4850.md) · captioned "Automatic Account Groups" · on [Table 4850 "Automatic Account Header"](../../objects/table/4850.md) · via [Local functionality](business-functionality/local-functionality.md)
+- [Page 4851 "Automatic Account Line"](../../objects/page/4851.md) · on [Table 4851 "Automatic Account Line"](../../objects/table/4851.md) · via [Local functionality](business-functionality/local-functionality.md)
 - [Page 4852 "Automatic Account List"](../../objects/page/4852.md) · captioned "Automatic Account Groups" · on [Table 4850 "Automatic Account Header"](../../objects/table/4850.md) · via [Local functionality](business-functionality/local-functionality.md)
 - [Page 5050 "Contact Card"](../../objects/page/5050.md) · on [Table 5050 "Contact"](../../objects/table/5050.md) · via [General business functionality](business-functionality/general-business-functionality.md)
 - [Page 5052 "Contact List"](../../objects/page/5052.md) · captioned "Contacts" · on [Table 5050 "Contact"](../../objects/table/5050.md) · via [Finance](business-functionality/finance.md)
@@ -4848,7 +4847,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 8900 "Administrator Main Role Center"](../../objects/page/8900.md) · captioned "Administrator Role Center" · via [Set up Business Central](business-functionality/set-up-business-central.md)
 - [Page 8903 "Manufacturing Manager RC"](../../objects/page/8903.md) · via [Manufacturing](business-functionality/manufacturing.md)
 - [Page 8904 "Project Manager Role Center"](../../objects/page/8904.md) · via [Project management](business-functionality/project-management.md)
-- [Page 9001 "Accounting Manager Role Center"](../../objects/page/9001.md) · captioned "Accounting Manager" · via [Local functionality](business-functionality/local-functionality.md)
 - [Page 9002 "Acc. Payables Coordinator RC"](../../objects/page/9002.md) · captioned "Accounts Payable Coordinator" · via [Finance](business-functionality/finance.md)
 - [Page 9008 "Whse. Basic Role Center"](../../objects/page/9008.md) · captioned "Inventory Manager" · via [Warehouse management](business-functionality/warehouse-management.md)
 - [Page 9011 "Shop Supervisor Mfg Foundation"](../../objects/page/9011.md) · captioned "Shop Supervisor - Manufacturing Foundation" · via [Manufacturing](business-functionality/manufacturing.md)
@@ -5461,6 +5459,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Report 99000791 "Production Order Statistics"](../../objects/report/99000791.md) · via [Manufacturing](business-functionality/manufacturing.md)
 - [Report 99001048 "Planning Availability"](../../objects/report/99001048.md) · captioned "Planning Availability (Obsolete)" · via [Inventory](business-functionality/inventory.md)
 
-Learn also names 429 objects with no object page: page/86, page/311, page/325, page/326, page/327, page/328, page/950, page/1805, page/1811, page/1826, page/2107, page/5261, page/5390, page/5540, page/7379, page/8451, page/9142, page/9245, page/10015, page/10016, page/10017, page/10018, page/10019, page/10020, page/10021, page/10030, page/10031, page/10033, page/10034, page/10036, page/10037, page/10048, page/10049, page/10050, page/10051, page/10101, page/10120, page/10121, page/10122, page/10123, page/10124, page/10125, page/10126, page/10127, page/10128, page/10129, page/10130, page/10131, page/10133, page/10134, page/10140, page/10141, page/10143, page/10144, page/10146, page/10147, page/10148, page/10455, page/10456, page/10458, page/10459, page/10530, page/10531, page/10532, page/10537, page/10538, page/10539, page/10601, page/10602, page/10604, page/10670, page/10671, page/10672, page/10673, page/10674, page/10675, page/10677, page/10678, page/10679, page/10680, page/10685, page/10686, page/10687, page/10688, page/10689, page/10690, page/10691, page/10692, page/10696, page/10697, page/10698, page/10704, page/10705, page/10710, page/10736, page/10737, page/10738, page/10740, page/10744, page/10751, page/10752, page/10753, page/10770, page/10771, page/10810, page/10811, page/10842, page/10860, page/10861, page/10864, page/10865, page/10866, page/10867, page/10868, page/10869, page/10870, page/10871, page/10872, page/10873, page/10874, page/10877, page/10878, page/10879, page/10880, page/10882, page/10900, page/11002, page/11003, page/11004, page/11007, page/11008, page/11009, page/11014, page/11016, page/11017, page/11019, page/11023, page/11024, page/11025, page/11026, page/11027, page/11028, page/11206, page/11207, page/11208, page/11212, page/11300, page/11301, page/11303, page/11306, page/11307, page/11308, page/11400, page/11402, page/11403, page/11405, page/11500, page/11501, page/11502, page/11510, page/11511, page/11512, page/11513, page/11514, page/11515, page/11516, page/11517, page/11518, page/11600, page/11601, page/11602, page/11603, page/11604, page/11605, page/11606, page/11607, page/11608, page/11609, page/11610, page/11611, page/11612, page/11613, page/11614, page/11615, page/12100, page/12102, page/12103, page/12104, page/12105, page/12111, page/12112, page/12113, page/12116, page/12119, page/12121, page/12122, page/12123, page/12126, page/12127, page/12132, page/12133, page/12135, page/12140, page/12141, page/12143, page/12149, page/12150, page/12151, page/12152, page/12153, page/12154, page/12155, page/12156, page/12158, page/12170, page/12171, page/12172, page/12173, page/12174, page/12175, page/12176, page/12178, page/12180, page/12181, page/12182, page/12183, page/12184, page/12185, page/12186, page/12187, page/12188, page/12189, page/12190, page/12192, page/12193, page/12194, page/12195, page/12198, page/12199, page/12202, page/12203, page/12204, page/12409, page/12410, page/12411, page/13640, page/13645, page/13646, page/13647, page/17101, page/27001, page/27002, page/27003, page/27010, page/27011, page/27012, page/27013, page/27014, page/27015, page/27016, page/27017, page/27018, page/27030, page/27031, page/27032, page/27033, page/27034, page/27040, page/27041, page/27042, page/27043, page/27044, page/28040, page/28041, page/28042, page/28043, page/28044, page/28071, page/28072, page/28073, page/28074, page/28075, page/28076, page/28077, page/28078, page/28079, page/28080, page/28081, page/28082, page/28090, page/28091, page/28092, page/28093, page/28164, page/28165, page/28166, page/28167, page/31077, page/35291, page/35292, page/35293, page/35294, page/35295, page/35296, page/35297, page/35298, page/35299, page/35300, page/35301, page/35302, page/35303, page/35304, page/35305, page/35306, page/35490, page/35491, page/35561, page/35562, page/35563, page/35848, page/35850, page/36601, page/36646, page/100136, page/700071, page/700072, page/2000000, page/2000001, page/2000003, page/2000005, page/2000006, page/2000020, page/2000021, page/2000022, page/2000040, page/2000041, page/2000042, page/2000043, page/2000045, page/3010531, page/3010532, page/3010541, page/3010542, page/3010543, page/3010830, page/3010831, page/3010832, page/3010834, page/3010835, page/5005270, page/5005271, page/5005272, page/5005273, page/5005274, page/5005275, page/5005276, page/5005279, page/5005280, page/5005281, page/5005282, page/5005283, page/7000003, page/7000004, page/7000005, page/7000006, page/7000007, page/7000008, page/7000009, page/7000010, page/7000011, page/7000012, page/7000014, page/7000015, page/7000016, page/7000017, page/7000018, page/7000019, page/7000020, page/7000021, page/7000022, page/7000024, page/7000025, page/7000029, page/7000030, page/7000031, page/7000032, page/7000033, page/7000034, page/7000036, page/7000037, page/7000040, page/7000041, page/7000044, page/7000045, page/7000048, page/9900083, page/15000000, page/15000002, page/15000004, page/15000006, page/15000007, page/15000010, page/15000100, page/32000000, page/32000001, page/32000002, page/32000004, page/32000005, page/32000006, page/70000013, page/99000919, page/99001500, page/99001503, page/99001504, page/99001560, page/99001561, report/6086, report/6166, report/6168, report/6298, report/6299, report/8008, report/8010, report/8011, report/10007, report/10008, report/50585058, report/990000785, report/990003804.
+Learn also names 427 objects with no object page: page/86, page/311, page/325, page/326, page/327, page/328, page/950, page/1805, page/1811, page/1826, page/2107, page/5261, page/5390, page/5540, page/7379, page/8451, page/9142, page/9245, page/10015, page/10016, page/10017, page/10018, page/10019, page/10020, page/10021, page/10030, page/10031, page/10033, page/10034, page/10036, page/10037, page/10048, page/10049, page/10050, page/10051, page/10101, page/10120, page/10121, page/10122, page/10123, page/10124, page/10125, page/10126, page/10127, page/10128, page/10129, page/10130, page/10131, page/10133, page/10134, page/10140, page/10141, page/10143, page/10144, page/10146, page/10147, page/10148, page/10455, page/10456, page/10458, page/10459, page/10530, page/10531, page/10532, page/10537, page/10538, page/10539, page/10601, page/10602, page/10604, page/10670, page/10671, page/10672, page/10673, page/10674, page/10675, page/10677, page/10678, page/10679, page/10680, page/10685, page/10686, page/10687, page/10688, page/10689, page/10690, page/10691, page/10692, page/10696, page/10697, page/10698, page/10704, page/10705, page/10710, page/10736, page/10737, page/10738, page/10740, page/10744, page/10751, page/10752, page/10753, page/10770, page/10771, page/10810, page/10811, page/10842, page/10860, page/10861, page/10864, page/10865, page/10866, page/10867, page/10868, page/10869, page/10870, page/10871, page/10872, page/10873, page/10874, page/10877, page/10878, page/10879, page/10880, page/10882, page/10900, page/11002, page/11003, page/11004, page/11007, page/11008, page/11009, page/11014, page/11016, page/11017, page/11019, page/11023, page/11024, page/11025, page/11026, page/11027, page/11028, page/11212, page/11290, page/11291, page/11300, page/11301, page/11303, page/11306, page/11307, page/11308, page/11400, page/11402, page/11403, page/11405, page/11500, page/11501, page/11502, page/11510, page/11511, page/11512, page/11513, page/11514, page/11515, page/11516, page/11517, page/11518, page/11600, page/11601, page/11602, page/11603, page/11604, page/11605, page/11606, page/11607, page/11608, page/11609, page/11610, page/11611, page/11612, page/11613, page/11614, page/11615, page/12100, page/12102, page/12103, page/12104, page/12105, page/12111, page/12112, page/12113, page/12116, page/12119, page/12121, page/12122, page/12123, page/12126, page/12127, page/12132, page/12133, page/12135, page/12140, page/12141, page/12143, page/12149, page/12150, page/12151, page/12152, page/12153, page/12154, page/12155, page/12156, page/12158, page/12170, page/12171, page/12172, page/12173, page/12174, page/12175, page/12176, page/12178, page/12180, page/12181, page/12182, page/12183, page/12184, page/12185, page/12186, page/12187, page/12188, page/12189, page/12190, page/12192, page/12193, page/12194, page/12195, page/12198, page/12199, page/12202, page/12203, page/12204, page/12409, page/12410, page/12411, page/13640, page/13645, page/13646, page/13647, page/17101, page/27001, page/27002, page/27003, page/27010, page/27011, page/27012, page/27013, page/27014, page/27015, page/27016, page/27017, page/27018, page/27030, page/27031, page/27032, page/27033, page/27034, page/27040, page/27041, page/27042, page/27043, page/27044, page/28040, page/28041, page/28042, page/28043, page/28044, page/28071, page/28072, page/28073, page/28074, page/28075, page/28076, page/28077, page/28078, page/28079, page/28080, page/28081, page/28082, page/28090, page/28091, page/28092, page/28093, page/28164, page/28165, page/28166, page/28167, page/31077, page/35291, page/35292, page/35293, page/35294, page/35295, page/35296, page/35297, page/35298, page/35299, page/35300, page/35301, page/35302, page/35303, page/35304, page/35305, page/35306, page/35490, page/35491, page/35561, page/35562, page/35563, page/35848, page/35850, page/36601, page/36646, page/100136, page/700071, page/700072, page/2000000, page/2000001, page/2000003, page/2000005, page/2000006, page/2000020, page/2000021, page/2000022, page/2000040, page/2000041, page/2000042, page/2000043, page/2000045, page/3010531, page/3010532, page/3010541, page/3010542, page/3010543, page/3010830, page/3010831, page/3010832, page/3010834, page/3010835, page/5005270, page/5005271, page/5005272, page/5005273, page/5005274, page/5005275, page/5005276, page/5005279, page/5005280, page/5005281, page/5005282, page/5005283, page/7000003, page/7000004, page/7000005, page/7000006, page/7000007, page/7000008, page/7000009, page/7000010, page/7000011, page/7000012, page/7000014, page/7000015, page/7000016, page/7000017, page/7000018, page/7000019, page/7000020, page/7000021, page/7000022, page/7000024, page/7000025, page/7000029, page/7000030, page/7000031, page/7000032, page/7000033, page/7000034, page/7000036, page/7000037, page/7000040, page/7000041, page/7000044, page/7000045, page/7000048, page/9900083, page/15000000, page/15000002, page/15000004, page/15000006, page/15000007, page/15000010, page/15000100, page/32000000, page/32000001, page/32000002, page/32000004, page/32000005, page/32000006, page/70000013, page/99000919, page/99001500, page/99001503, page/99001504, page/99001560, page/99001561, report/6086, report/6166, report/6168, report/6298, report/6299, report/8008, report/8010, report/8011, report/10007, report/10008, report/990000785, report/990003804.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

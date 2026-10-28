@@ -60,7 +60,7 @@
   },
   "join": {
     "major": "30",
-    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
     "objects": [
       {
         "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfig.Codeunit.al",
@@ -74,6 +74,17 @@
         "page": "codeunit/8350"
       },
       {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfigEmpty.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8377",
+        "type": "codeunit",
+        "id": 8377,
+        "name": "MCP Config Empty",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8377"
+      },
+      {
         "path": "src/System Application/App/MCP/src/Configuration/Enums/MCPConfigWarningType.Enum.al",
         "status": "modified",
         "key": "enum/8350",
@@ -85,13 +96,7 @@
         "page": "enum/8350"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfigEmpty.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "development"

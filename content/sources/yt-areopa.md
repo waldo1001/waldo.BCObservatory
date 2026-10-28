@@ -2,7 +2,7 @@
 id: source/yt-areopa
 type: source
 title: Areopa webinars
-summary: "Areopa webinars (Areopa (Steven Renders)): 16 videos in the knowledge base, 2025-12-09 to 2026-10-19, mostly about development, copilot, platform."
+summary: "Areopa webinars (Areopa (Steven Renders)): 17 videos in the knowledge base, 2025-12-09 to 2026-10-27, mostly about development, copilot, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-25T12:26:48.227Z"
+  at: "2026-10-28T08:47:18.430Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 50380704b33df4069030a4c493f096250a7e7fd07b97667f229dfe65d3c75ad1
+  input_hash: 6a0fa189eef0e32712a383b8cf7b8b3e66bf6c6e31861b880811413440ecec3c
 evidence:
   - kind: video
     url: https://www.youtube.com/channel/UCWL0RbbT6ILzzCd6Ix7t0AQ
@@ -49,6 +49,7 @@ links:
     - video/Ug_uM59DRRE
     - video/d8SZ81uxj_k
     - video/5xeATIUFiGg
+    - video/a3j6JjyWDv0
   posts: []
   guidelines: []
 source_id: yt-areopa
@@ -57,11 +58,11 @@ url: https://www.youtube.com/channel/UCWL0RbbT6ILzzCd6Ix7t0AQ
 author: Areopa (Steven Renders)
 mvp: false
 full_text: false
-item_count: 16
+item_count: 17
 footprint:
   systems:
     - id: development
-      weight: 8
+      weight: 9
     - id: copilot
       weight: 4
     - id: platform
@@ -77,6 +78,8 @@ footprint:
       weight: 2
     - id: automated testing
       weight: 2
+    - id: error handling
+      weight: 2
     - id: interfaces
       weight: 2
     - id: permissions
@@ -88,8 +91,6 @@ footprint:
     - id: abstraction levels
       weight: 1
     - id: agent architecture
-      weight: 1
-    - id: agent building
       weight: 1
   objects:
     - id: api Business Central admin API
@@ -110,22 +111,22 @@ footprint:
       weight: 1
     - id: codeunit change global dimension functionality
       weight: 1
+    - id: codeunit codeunit.run
+      weight: 1
     - id: codeunit Contoso Bank Helper
       weight: 1
     - id: codeunit Contoso bank helper code unit
-      weight: 1
-    - id: codeunit create activate
       weight: 1
   features:
     - id: feature/578068
       weight: 1
 first_item: "2025-12-09"
-last_item: "2026-10-19"
+last_item: "2026-10-27"
 ---
 
 # Areopa webinars
 
-> Areopa webinars (Areopa (Steven Renders)): 16 videos in the knowledge base, 2025-12-09 to 2026-10-19, mostly about development, copilot, platform.
+> Areopa webinars (Areopa (Steven Renders)): 17 videos in the knowledge base, 2025-12-09 to 2026-10-27, mostly about development, copilot, platform.
 
 [https://www.youtube.com/channel/UCWL0RbbT6ILzzCd6Ix7t0AQ](https://www.youtube.com/channel/UCWL0RbbT6ILzzCd6Ix7t0AQ) · channel · tier community
 
@@ -133,18 +134,18 @@ last_item: "2026-10-19"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (8) | ai adoption (2) | api Business Central admin API (1) |
+| development (9) | ai adoption (2) | api Business Central admin API (1) |
 | copilot (4) | al development (2) | api sales order item categories (1) |
 | platform (2) | automated testing (2) | api sales orders API (1) |
-| reporting (1) | interfaces (2) | codeunit Agent Creation Codeunit (1) |
-| sales (1) | permissions (2) | codeunit agent task (1) |
-|  | prompt engineering (2) | codeunit agent task builder (1) |
-|  | 90-day iterations (1) | codeunit agent task message builder (1) |
-|  | abstraction levels (1) | codeunit app environment (1) |
-|  | agent architecture (1) | codeunit change global dimension functionality (1) |
-|  | agent building (1) | codeunit Contoso Bank Helper (1) |
+| reporting (1) | error handling (2) | codeunit Agent Creation Codeunit (1) |
+| sales (1) | interfaces (2) | codeunit agent task (1) |
+|  | permissions (2) | codeunit agent task builder (1) |
+|  | prompt engineering (2) | codeunit agent task message builder (1) |
+|  | 90-day iterations (1) | codeunit app environment (1) |
+|  | abstraction levels (1) | codeunit change global dimension functionality (1) |
+|  | agent architecture (1) | codeunit codeunit.run (1) |
+|  |  | codeunit Contoso Bank Helper (1) |
 |  |  | codeunit Contoso bank helper code unit (1) |
-|  |  | codeunit create activate (1) |
 
 ## Flight path
 
@@ -154,7 +155,7 @@ Items per quarter, oldest first:
 - 2026-Q1: **** 4
 - 2026-Q2: ****** 6
 - 2026-Q3: **** 4
-- 2026-Q4: * 1
+- 2026-Q4: ** 2
 
 ## Roadmap features it demonstrates
 
@@ -162,6 +163,7 @@ Items per quarter, oldest first:
 
 ## Most recent
 
+- [20261026 - The Rollback That Wasn’t Transaction & Error Handling](../videos/a3j6JjyWDv0.md) (2026-10-27)
 - [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../videos/5xeATIUFiGg.md) (2026-10-19)
 - [290928 - You Are the Art : Notes from Six Years of Becoming a Speaker](../videos/d8SZ81uxj_k.md) (2026-09-29)
 - [Demo or Disaster? How to build better Business Central demos?](../videos/Ug_uM59DRRE.md) (2026-09-21)
