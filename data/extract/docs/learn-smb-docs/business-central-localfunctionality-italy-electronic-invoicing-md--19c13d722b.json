@@ -1,19 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/electronic-invoicing.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/electronic-invoicing",
-  "title": "Electronic Invoicing [FatturaPA]",
-  "blob": "015178100b8e6de900eea93170299282f72b7dbf",
-  "summary": "Electronic invoicing (FatturaPA) in Italian version enables invoicing to public administration through the Sistema di Interscambio (SDI) platform. Set up Fattura Setup page with VAT business groups and document types for invoices, credit memos, self-billing, and prepayments.",
+  "title": "Electronic Invoicing (FatturaPA) in the Italian Version",
+  "blob": "2a015e3aa14b361eebd38e742abc51d5a4a9fdd1",
+  "summary": "Electronic invoicing (FatturaPA) setup in the Italian version of Business Central covers configuration of FatturaPA document formats, VAT business posting groups, and document type codes for invoices, credit memos, self-billing, and prepayments.",
   "systems": [
-    "sales",
-    "localization"
+    "localization",
+    "integration",
+    "finance"
   ],
   "topics": [
-    "italy",
     "electronic invoicing",
     "fatturapa",
-    "sdi platform",
-    "public administration"
+    "italy",
+    "setup",
+    "vat",
+    "xml export",
+    "document types"
   ],
   "objects": [
     {
@@ -26,12 +29,14 @@
     }
   ],
   "features": [
-    "FatturaPA",
-    "SDI platform",
-    "self-billing",
-    "prepayment invoices",
-    "XML export",
-    "credit memo handling"
+    "FatturaPA document format",
+    "Self-Billing VAT Business Posting Group",
+    "Company PA Code export",
+    "Document Type Code configuration",
+    "Invoice document type",
+    "Credit Memo document type",
+    "Self-Billing document type",
+    "Prepayment document type"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +45,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002778,
-      "pages_in_call": 8
+      "cost_usd": 0.003977,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Fiscal denial list",
+  "title": "Fiscal Denial List in the Italian Version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/fiscal-deny-list",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.868Z",
-      "blob": "8d955b53eb46188693e7c99b1ab33aff258ababa",
-      "words": 173,
+      "at": "2026-10-28T09:01:19.804Z",
+      "blob": "0c2991cd15812b394e3881364e86f66a6e5382cd",
+      "words": 118,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:39:28.799Z",
+      "at": "2026-10-28T09:01:30.249Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.004528
+      "cost_usd": 0.00276
     },
     "summarized": {
-      "at": "2026-10-06T18:39:28.819Z",
+      "at": "2026-10-28T09:01:30.250Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:39:28.820Z",
+      "at": "2026-10-28T09:01:30.251Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:39:28.821Z",
+      "at": "2026-10-28T09:01:30.253Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/fiscal-deny-list.md",
     "description": "Learn how to set up and report vendors from fiscally denied countries or regions in the Italian version of Business Central.",
-    "ms_date": "2025-05-20",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "denied regions",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 173,
+    "ai_usage": "ai-assisted",
+    "words": 118,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5d19921adb2e9845b55928b0edc9c496b00dca82e43ac9db84f68b96dad6a702"
+  "output_hash": "16f175eb8b7f21e419f75fd68456af38bac388b03b692bf9871539c2b9afe476"
 }

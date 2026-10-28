@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-close-a-fiscal-year.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-close-a-fiscal-year",
-  "title": "How to Close a Fiscal Year",
-  "blob": "6c91e1ac475548aa1b316cf40794d211f2ccc74c",
-  "summary": "Close a fiscal year in Italian version by closing accounting periods, generating year-end closing entries using Close Income Statement batch job, and posting the entries to the general journal. Includes options for business units and dimensions.",
+  "title": "Close a Fiscal Year in Business Central for Italy",
+  "blob": "36c2b7566149aa1d079fec559b09eaa76790b470",
+  "summary": "Closing a fiscal year in Business Central for Italy involves closing the accounting period, generating year-end closing entries via the Close Income Statement option, and posting those entries to the general journal.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "italy",
     "fiscal year closing",
-    "year-end",
+    "year-end closing",
+    "accounting periods",
+    "general journal",
     "income statement",
-    "accounting period"
+    "italy"
   ],
   "objects": [
     {
@@ -21,7 +22,7 @@
       "name": "Accounting Periods"
     },
     {
-      "type": "codeunit",
+      "type": "report",
       "name": "Close Income Statement"
     },
     {
@@ -30,12 +31,14 @@
     }
   ],
   "features": [
-    "fiscal year closing",
-    "income statement closing",
-    "closing entries",
-    "balance sheet transfer",
-    "business unit filtering",
-    "dimension filtering"
+    "Close Year",
+    "Close Income Statement",
+    "Fiscal Year Ending Date",
+    "Gen. Journal Template",
+    "Gen. Journal Batch",
+    "Balancing Account",
+    "Net Profit Account",
+    "Net Loss Account"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002778,
-      "pages_in_call": 8
+      "cost_usd": 0.004097,
+      "pages_in_call": 1
     }
   ]
 }

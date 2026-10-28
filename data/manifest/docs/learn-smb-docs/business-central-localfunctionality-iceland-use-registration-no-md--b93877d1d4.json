@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Registration numbers in the Icelandic localization",
+  "title": "Registration Numbers in the Icelandic Localization",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/use-registration-no",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.699Z",
-      "blob": "4841ff7e0b46620932893f824c5b40ee9aabe30e",
-      "words": 104,
+      "at": "2026-10-28T09:01:01.407Z",
+      "blob": "9fd497a263879c23d06e62ea855db343adeba338",
+      "words": 181,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:04.654Z",
+      "at": "2026-10-28T09:01:23.399Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003271
+      "cost_usd": 0.003629
     },
     "summarized": {
-      "at": "2026-10-06T19:27:04.664Z",
+      "at": "2026-10-28T09:01:23.400Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:04.665Z",
+      "at": "2026-10-28T09:01:23.402Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:04.666Z",
+      "at": "2026-10-28T09:01:23.403Z",
       "page": false
     }
   },
@@ -44,20 +44,24 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Iceland/use-registration-no.md",
-    "description": "This article provides instructions about how to use registration numbers in the Icelandic localization.",
-    "ms_date": "2025-02-06",
-    "ms_topic": "article",
+    "description": "Learn where to enter Icelandic registration numbers in Business Central and how sales documents and payment exports use company and recipient details.",
+    "ms_date": "2026-10-23",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "registration numbers",
       "Icelandic localization"
     ],
-    "ai_usage": null,
-    "words": 104,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 181,
+    "identifiers": [
+      "OnBeforeInsertPmtExportDataJnlFromGenJnlLine",
+      "OnPreparePaymentExportDataCLEOnBeforeTempPaymentExportDataInsert",
+      "OnBeforeInsertPmtExportDataJnlFromVendorLedgerEntry"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eff6a57f0ca8e4c637e07ae400ae72ab28246b58ea60548550e3fd115758e2c6"
+  "output_hash": "6a61e01c53407d910da274efa50af56429c7362319ce51da670e8d63384367dc"
 }

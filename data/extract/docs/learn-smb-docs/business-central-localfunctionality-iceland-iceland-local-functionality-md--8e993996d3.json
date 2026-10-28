@@ -1,31 +1,33 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Iceland/iceland-local-functionality.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/iceland-local-functionality",
-  "title": "Iceland local functionality",
-  "blob": "1593c8bb8944e515d7c423b4f664fc52a4562b92",
-  "summary": "Iceland local functionality overview documenting localization features available in Business Central, including VAT, electronic invoicing, IRS mapping, and document deletion capabilities.",
+  "title": "Icelandic Local Functionality Overview",
+  "blob": "0162025fbea91a5068d776d5cf21b1ffe28ba5f1",
+  "summary": "Iceland local functionality for Business Central includes VAT reporting, electronic invoicing, chart of accounts mapping, and deletion of posted invoices with Icelandic localization available from version 24.0.",
   "systems": [
     "localization",
-    "finance",
-    "sales"
+    "finance"
   ],
   "topics": [
     "iceland",
-    "localization",
     "vat",
     "electronic invoicing",
-    "regulatory"
+    "localization",
+    "regulatory",
+    "chart of accounts"
   ],
   "objects": [],
   "features": [
-    "Icelandic localization",
-    "VAT reporting",
-    "electronic invoicing",
-    "IRS mapping",
-    "document deletion"
+    "Icelandic localization based on W1 Base App",
+    "Print VAT Summary Information on Documents",
+    "Special Data Output and Reports for the Tax Authority",
+    "Electronic invoicing for single-copy invoices",
+    "Map IRS Numbers to the Chart of Accounts",
+    "Deleting Posted Invoices and Credit Memos",
+    "Registration Number in Icelandic localization"
   ],
   "versions": [
-    "v24.0"
+    "24.0"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -33,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002475,
-      "pages_in_call": 8
+      "cost_usd": 0.003419,
+      "pages_in_call": 1
     }
   ]
 }

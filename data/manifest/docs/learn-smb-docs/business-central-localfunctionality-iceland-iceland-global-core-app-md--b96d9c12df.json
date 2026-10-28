@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Iceland W1 core app setup",
+  "title": "Icelandic Localization With the IS Core App",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/iceland-global-core-app",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.694Z",
-      "blob": "3342c668c7c854e6c4994b3f1efd021a5fbff11c",
-      "words": 185,
+      "at": "2026-10-28T09:00:59.336Z",
+      "blob": "1a05e814c6d43625c3cd95303bcc21713ecdce6a",
+      "words": 160,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:04.653Z",
+      "at": "2026-10-28T09:01:18.025Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003271
+      "cost_usd": 0.003048
     },
     "summarized": {
-      "at": "2026-10-06T19:27:04.661Z",
+      "at": "2026-10-28T09:01:18.027Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:04.662Z",
+      "at": "2026-10-28T09:01:18.028Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:04.663Z",
+      "at": "2026-10-28T09:01:18.029Z",
       "page": false
     }
   },
@@ -44,21 +44,21 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Iceland/iceland-global-core-app.md",
-    "description": "This article provides instructions about delocalization of the Icelandic version of Dynamics 365 Business Central.",
-    "ms_date": "2025-02-06",
-    "ms_topic": "install-set-up-deploy",
+    "description": "Learn how the Icelandic IS Core app provides local features on the W1 base app, migrates existing data, and differs from the earlier manual setup.",
+    "ms_date": "2026-10-23",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "delocalization",
       "core app",
       "core app setup"
     ],
-    "ai_usage": null,
-    "words": 185,
+    "ai_usage": "ai-assisted",
+    "words": 160,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a3ebe9c6efe6aa13a626fc6d82df72448f9f8ff43298cd80024426fabbb76453"
+  "output_hash": "7581246e3034dd22f8a61f78c46df46c2a77d03f04fccb47f55b27c42e958c0f"
 }

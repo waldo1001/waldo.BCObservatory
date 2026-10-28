@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Iceland/use-registration-no.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/use-registration-no",
-  "title": "Registration numbers in the Icelandic localization",
-  "blob": "4841ff7e0b46620932893f824c5b40ee9aabe30e",
-  "summary": "Registration numbers in Icelandic localization allows users to add Registration No. and Sender Reg. No. fields to sales documents and payment export data when activated from version 24.0.",
+  "title": "Registration Numbers in the Icelandic Localization",
+  "blob": "9fd497a263879c23d06e62ea855db343adeba338",
+  "summary": "Registration numbers in the Icelandic localization are stored on company information and customer/vendor cards, and populate sales documents and payment exports automatically based on the IS Core app introduced in version 24.0.",
   "systems": [
-    "localization",
-    "sales",
-    "purchasing"
+    "localization"
   ],
   "topics": [
+    "registration numbers",
     "iceland",
-    "localization",
-    "registration number",
-    "payment export"
+    "company information",
+    "sales documents",
+    "payment exports",
+    "vendor payments",
+    "customer payments"
   ],
   "objects": [
     {
@@ -22,15 +23,17 @@
     }
   ],
   "features": [
-    "Registration No. field",
-    "Sender Reg. No. field",
-    "sales invoice",
-    "sales order",
-    "sales credit memo",
-    "payment export"
+    "Registration No. on Company Information",
+    "Customer Registration No.",
+    "Vendor Registration No.",
+    "Sales invoice registration number",
+    "Sales order registration number",
+    "Sales credit memo registration number",
+    "Sender Reg. No. in payment exports",
+    "Recipient Reg. No. in payment exports"
   ],
   "versions": [
-    "24.0"
+    "version 24.0"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -38,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003271,
-      "pages_in_call": 8
+      "cost_usd": 0.003629,
+      "pages_in_call": 1
     }
   ]
 }

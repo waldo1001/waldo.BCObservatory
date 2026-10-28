@@ -1,29 +1,28 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents",
-  "title": "Print VAT Summary Information on Document [IS]",
-  "blob": "f13ce83f96673b35cc3763e780cb28c9d1768632",
-  "summary": "Print VAT summary information on Icelandic sales and purchase documents by enabling the Always Show VAT Summary option, which overrides the default behavior of hiding VAT when only one VAT code is used.",
+  "title": "Print VAT Summary Information on Documents in Iceland",
+  "blob": "dbda2dd2e7622b506de245b5d6a98cfdab81a19d",
+  "summary": "Print VAT summary information on purchase and sales documents in Iceland by selecting the 'Always Show VAT Summary' option on supported reports to include VAT details even when using a single VAT identifier.",
   "systems": [
-    "localization",
     "finance",
-    "sales"
+    "localization"
   ],
   "topics": [
+    "vat reporting",
     "iceland",
-    "vat",
-    "documents",
-    "reporting"
+    "purchase documents",
+    "sales documents",
+    "print settings"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Posted Sales Invoices"
-    }
-  ],
+  "objects": [],
   "features": [
     "Always Show VAT Summary",
-    "VAT reporting"
+    "VAT summary suppression",
+    "Purchase - Invoice report",
+    "Purchase - Credit Memo report",
+    "Order report",
+    "Blanket Sales Order report"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002475,
-      "pages_in_call": 8
+      "cost_usd": 0.002996,
+      "pages_in_call": 1
     }
   ]
 }

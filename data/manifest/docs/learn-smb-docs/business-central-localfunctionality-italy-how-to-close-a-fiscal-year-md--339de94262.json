@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Close a Fiscal Year",
+  "title": "Close a Fiscal Year in Business Central for Italy",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-close-a-fiscal-year",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.855Z",
-      "blob": "6c91e1ac475548aa1b316cf40794d211f2ccc74c",
-      "words": 475,
+      "at": "2026-10-28T09:01:27.106Z",
+      "blob": "36c2b7566149aa1d079fec559b09eaa76790b470",
+      "words": 442,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:13.024Z",
+      "at": "2026-10-28T09:01:39.391Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.002778
+      "cost_usd": 0.004097
     },
     "summarized": {
-      "at": "2026-10-06T19:24:19.621Z",
+      "at": "2026-10-28T09:01:45.081Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:19.622Z",
+      "at": "2026-10-28T09:01:45.083Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:19.623Z",
+      "at": "2026-10-28T09:01:45.084Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/how-to-close-a-fiscal-year.md",
-    "description": "Learn to close a fiscal year, create a closing entry with the Close Income Statement option, and post it.",
-    "ms_date": "2025-05-20",
+    "description": "Learn how to close an accounting year in the Italian version of Business Central, generate income statement closing entries, and post the journal.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "post closing entry",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 475,
+    "ai_usage": "ai-assisted",
+    "words": 442,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f972e0bc3ae36e81d0eff09f349ba7b969717330650e1c0bd9fee1778ecaf61a"
+  "output_hash": "b2b694b962fcc2867075b7296358b67e0c8d00afadffaf348848af42fbf97288"
 }

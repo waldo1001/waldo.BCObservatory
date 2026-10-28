@@ -1,26 +1,39 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority",
-  "title": "Special data output and reports for the tax authorities in Iceland",
-  "blob": "c2cb79a16436827b850d995057a5cc8de40b211d",
-  "summary": "Set up IRS tax numbers for chart of accounts in Iceland to generate compliant data files for tax authorities by mapping general ledger accounts to predefined government account codes.",
+  "title": "Special Data Output and Reports for the Icelandic Tax Authority",
+  "blob": "39f5acbcde22621a5fb844d2f9121d602e498605",
+  "summary": "Icelandic tax reporting requirements and process for submitting predefined format data files to the tax authority by mapping IRS numbers to chart of accounts and reviewing balances in IRS Details and Trial Balance reports.",
   "systems": [
-    "localization",
     "finance",
-    "administration"
+    "localization",
+    "reporting"
   ],
   "topics": [
     "iceland",
-    "tax",
+    "tax authority",
     "irs numbers",
     "chart of accounts",
-    "compliance"
+    "data output",
+    "reporting"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "IRS Details"
+    },
+    {
+      "type": "report",
+      "name": "Trial Balance - IRS Number"
+    }
+  ],
   "features": [
-    "IRS tax mapping",
-    "account grouping",
-    "tax compliance"
+    "IRS number mapping",
+    "Chart of accounts mapping",
+    "Balance at date reporting",
+    "IRS Details report",
+    "Trial Balance - IRS Number report",
+    "Government account codes"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002475,
-      "pages_in_call": 8
+      "cost_usd": 0.003485,
+      "pages_in_call": 1
     }
   ]
 }

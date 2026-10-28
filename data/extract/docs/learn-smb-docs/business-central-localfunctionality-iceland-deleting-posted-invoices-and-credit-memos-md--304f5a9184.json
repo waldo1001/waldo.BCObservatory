@@ -1,24 +1,43 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos",
-  "title": "Deleting posted invoices and credit memos [IS]",
-  "blob": "fffe19702b8fd84ad0f5ebfd788b539e1bf09cb5",
-  "summary": "In Iceland, before v24.0 posted invoices and credit memos cannot be deleted per legislation; after v24.0 with new localization enabled, deletion is allowed only for documents older than seven years at fiscal year start.",
+  "title": "Delete Posted Invoices and Credit Memos in Iceland",
+  "blob": "1bdd7a686843ec4625d16ca519c938f4fd50c1ff",
+  "summary": "Delete posted invoices and credit memos in the Icelandic version based on document retention requirements and fiscal year regulations.",
   "systems": [
+    "localization",
     "sales",
-    "purchasing",
-    "localization"
+    "purchasing"
   ],
   "topics": [
-    "iceland local functionality",
-    "posted invoices",
-    "credit memos",
-    "document retention"
+    "iceland",
+    "posted documents",
+    "deletion",
+    "retention",
+    "invoices",
+    "credit memos"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    }
+  ],
   "features": [
-    "document deletion",
-    "document retention period"
+    "Delete posted sales invoices",
+    "Delete posted purchase invoices",
+    "Delete posted credit memos",
+    "Document Retention Period",
+    "Allow Document Deletion Before",
+    "IS Core app"
   ],
   "versions": [
     "version 24.0"
@@ -29,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003116,
-      "pages_in_call": 8
+      "cost_usd": 0.003582,
+      "pages_in_call": 1
     }
   ]
 }

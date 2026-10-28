@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Electronic Invoicing [FatturaPA]",
+  "title": "Electronic Invoicing (FatturaPA) in the Italian Version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/electronic-invoicing",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.846Z",
-      "blob": "015178100b8e6de900eea93170299282f72b7dbf",
-      "words": 281,
+      "at": "2026-10-28T09:01:19.687Z",
+      "blob": "2a015e3aa14b361eebd38e742abc51d5a4a9fdd1",
+      "words": 303,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:13.022Z",
+      "at": "2026-10-28T09:01:30.267Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002778
+      "cost_usd": 0.003977
     },
     "summarized": {
-      "at": "2026-10-06T19:24:19.616Z",
+      "at": "2026-10-28T09:01:30.269Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:19.616Z",
+      "at": "2026-10-28T09:01:30.270Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:19.617Z",
+      "at": "2026-10-28T09:01:30.272Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/electronic-invoicing.md",
     "description": "Business Central enables you to export sales invoices and credit memos as electronic documents (FatturaPA) in compliance with Italian regulations.",
-    "ms_date": "2025-05-20",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,14 @@
       "electronic invoicing setup",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 281,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 303,
+    "identifiers": [
+      "CodiceDestinatario"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "20cc3c72a1aaa02b234575c4c2c442bdd17280f4f2258cd0ddbc3a7add2caef1"
+  "output_hash": "13d2d09c443fa386f39d9ab2363b7f2bc12e153f9ec458dd5b085ed1a55fa5da"
 }

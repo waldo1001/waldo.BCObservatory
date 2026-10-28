@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Fiscal Inventory Valuation",
+  "title": "Fiscal Inventory Valuation in Italy",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/fiscal-inventory-valuation",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.850Z",
-      "blob": "a7bb2cd208456ba39aca28537a73430268a510ca",
-      "words": 370,
+      "at": "2026-10-28T09:01:25.740Z",
+      "blob": "decb204e7fb8fcd3448eb76f8bf583a886ac64e7",
+      "words": 344,
       "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T19:24:13.023Z",
+      "at": "2026-10-28T09:01:45.094Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 7,
-      "cost_usd": 0.002778
+      "cost_usd": 0.004366
     },
     "summarized": {
-      "at": "2026-10-06T19:24:19.618Z",
+      "at": "2026-10-28T09:01:45.095Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:19.619Z",
+      "at": "2026-10-28T09:01:45.097Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:19.620Z",
+      "at": "2026-10-28T09:01:45.098Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/fiscal-inventory-valuation.md",
-    "description": "Submit an annual report detailing the monetary value of inventory items for the fiscal year.",
-    "ms_date": "2025-05-20",
-    "ms_topic": "article",
+    "description": "Learn how to calculate fiscal inventory costs in the Italian version of Business Central, review cost history, and finalize year-end valuations.",
+    "ms_date": "2026-10-21",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "12117",
@@ -80,12 +80,12 @@
       "inventory items",
       "fiscal inventory valuation"
     ],
-    "ai_usage": null,
-    "words": 370,
+    "ai_usage": "ai-assisted",
+    "words": 344,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8d50ff5aa59a7c63616010ce03d915e6a7c2fc9673f9638c94a2f7b5864e4514"
+  "output_hash": "90f021e507bf7b8ac1cb88f0520e63f79e48495ce9fb622adfbb87dc8d0fd86c"
 }

@@ -1,20 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/fiscal-inventory-valuation.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/fiscal-inventory-valuation",
-  "title": "Fiscal Inventory Valuation",
-  "blob": "a7bb2cd208456ba39aca28537a73430268a510ca",
-  "summary": "Fiscal inventory valuation in Italian version calculates annual inventory monetary value using multiple cost methods: year average, weighted average, FIFO, LIFO, and discrete LIFO. Set up on Item Card and Item Costing Setup pages, then run batch jobs for year-end calculations.",
+  "title": "Fiscal Inventory Valuation in Italy",
+  "blob": "decb204e7fb8fcd3448eb76f8bf583a886ac64e7",
+  "summary": "Fiscal inventory valuation in Italy supports multiple cost calculation methods (year average, weighted average, FIFO, LIFO, discrete LIFO) for annual inventory reporting. Set up valuation methods on items, enter historical costs if needed, and run year-end batch jobs to calculate fiscal inventory values.",
   "systems": [
     "inventory",
     "localization",
     "finance"
   ],
   "topics": [
-    "italy",
-    "inventory valuation",
-    "cost methods",
     "fiscal reporting",
-    "year-end"
+    "inventory valuation",
+    "italy",
+    "cost methods",
+    "year-end closing",
+    "lifo",
+    "fifo"
   ],
   "objects": [
     {
@@ -31,11 +33,11 @@
     },
     {
       "type": "page",
-      "name": "Subcontracting Prices"
+      "name": "Item Cost History List"
     },
     {
-      "type": "page",
-      "name": "Item Cost History List"
+      "type": "report",
+      "name": "Calculate End Year Costs"
     },
     {
       "type": "report",
@@ -47,13 +49,14 @@
     }
   ],
   "features": [
-    "year average cost",
-    "weighted average cost",
-    "FIFO cost",
-    "LIFO cost",
-    "discrete LIFO cost",
-    "year-end cost calculation",
-    "competence year"
+    "Year average cost method",
+    "Weighted average cost method",
+    "FIFO cost method",
+    "LIFO cost method",
+    "Discrete LIFO cost method",
+    "Historical cost entry",
+    "End year cost calculation",
+    "Definitive cost marking"
   ],
   "versions": [],
   "parts": 1,
@@ -62,8 +65,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002778,
-      "pages_in_call": 8
+      "cost_usd": 0.004366,
+      "pages_in_call": 1
     }
   ]
 }

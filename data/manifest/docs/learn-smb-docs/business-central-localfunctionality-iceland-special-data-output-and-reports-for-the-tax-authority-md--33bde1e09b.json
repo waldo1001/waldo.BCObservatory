@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Special data output and reports for the tax authorities in Iceland",
+  "title": "Special Data Output and Reports for the Icelandic Tax Authority",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.479Z",
-      "blob": "c2cb79a16436827b850d995057a5cc8de40b211d",
-      "words": 116,
+      "at": "2026-10-28T09:01:00.395Z",
+      "blob": "39f5acbcde22621a5fb844d2f9121d602e498605",
+      "words": 182,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:37.900Z",
+      "at": "2026-10-28T09:01:22.521Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002475
+      "objects": 2,
+      "cost_usd": 0.003485
     },
     "summarized": {
-      "at": "2026-10-06T19:29:37.915Z",
+      "at": "2026-10-28T09:01:22.523Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:37.916Z",
+      "at": "2026-10-28T09:01:22.525Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:37.917Z",
+      "at": "2026-10-28T09:01:22.526Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md",
-    "description": "In Iceland, it's a legal requirement to send a data file in a specific format to the tax authorities.",
-    "ms_date": "2025-02-06",
-    "ms_topic": "article",
+    "description": "Learn how to prepare Icelandic tax reporting data in Business Central by mapping IRS numbers to posting accounts and reviewing account balances.",
+    "ms_date": "2026-10-23",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "data file",
@@ -54,12 +54,12 @@
       "data file output",
       "tax authorities"
     ],
-    "ai_usage": null,
-    "words": 116,
+    "ai_usage": "ai-assisted",
+    "words": 182,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "14ae64293fa886e647da075ed86626ee8d3b6fd0651f5174aae425c4cce12019"
+  "output_hash": "405eb0ebf2c26340eb8a2209bade9bd37251a0a823217e1009b670674152ab6b"
 }
