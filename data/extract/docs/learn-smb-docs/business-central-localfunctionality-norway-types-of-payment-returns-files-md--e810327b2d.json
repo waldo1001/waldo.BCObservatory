@@ -1,41 +1,43 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/types-of-payment-returns-files.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/types-of-payment-returns-files",
-  "title": "Types of payment returns files [NO]",
-  "blob": "27930e1bbee8da0a3e26405ee86e6a461d6a2c0f",
-  "summary": "Payment return files in Norwegian Business Central include receipt returns and settlement returns, with receipt returns confirming received payments and settlement returns tracking executed payments.",
+  "title": "Types of Payment Returns Files in the Norwegian Version [NO]",
+  "blob": "42a5111a1a9faba1caac42669ad0ba9a1b0b48c8",
+  "summary": "Types of payment returns files in the Norwegian version of Business Central, including receipt returns and settlement returns that banks send after remittance file submission and payment execution.",
   "systems": [
+    "localization",
     "purchasing",
-    "localization"
+    "integration"
   ],
   "topics": [
-    "payment",
-    "remittance",
-    "bank",
-    "settlement",
     "norway",
-    "return files"
+    "payment returns",
+    "remittance",
+    "settlement",
+    "receipt",
+    "bank integration"
   ],
   "objects": [
     {
-      "type": "page",
+      "type": "table",
+      "name": "Remittance Agreement"
+    },
+    {
+      "type": "table",
       "name": "Waiting Journal"
     },
     {
       "type": "page",
       "name": "Settlement Info"
-    },
-    {
-      "type": "table",
-      "name": "Remittance Agreement"
     }
   ],
   "features": [
-    "receipt returns",
-    "settlement returns",
-    "exchange rates",
-    "payment status",
-    "journal transfer"
+    "Receipt returns",
+    "Settlement returns",
+    "Exchange rates by settlement",
+    "Warnings on settlement returns",
+    "Return File Is Not In Use field",
+    "Payment status tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003699,
-      "pages_in_call": 8
+      "cost_usd": 0.004028,
+      "pages_in_call": 1
     }
   ]
 }

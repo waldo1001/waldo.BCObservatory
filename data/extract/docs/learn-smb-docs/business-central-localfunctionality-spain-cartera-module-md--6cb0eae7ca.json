@@ -1,27 +1,31 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/cartera-module.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/cartera-module",
-  "title": "Cartera Module",
-  "blob": "4e09b5dd89b65193e7656e53babb19e1f147806f",
-  "summary": "Cartera module in Spanish Business Central manages bills of exchange and promissory notes for customer and vendor payment handling by document type, cost, and credit limits.",
+  "title": "Cartera Module in Business Central for Spain",
+  "blob": "992c5b28e665c482446c4cc671c4f3ba1d9ccaba",
+  "summary": "The Cartera module enables management of customer and vendor payments using specific financial documents like bills of exchange and promissory notes, organized by document type, cost, and credit limit in local or original currencies.",
   "systems": [
-    "sales",
+    "finance",
     "purchasing",
-    "localization"
+    "sales"
   ],
   "topics": [
-    "cartera module",
+    "cartera",
+    "payments",
+    "receivables",
+    "spain",
     "bills of exchange",
     "promissory notes",
-    "receivables",
-    "payables"
+    "localization"
   ],
   "objects": [],
   "features": [
-    "receivables cartera",
-    "payments cartera",
-    "multi-currency support",
-    "document management"
+    "Receivables Cartera module",
+    "Payments Cartera module",
+    "bills of exchange management",
+    "promissory notes management",
+    "multi-currency tracking",
+    "credit limit management"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003091,
-      "pages_in_call": 8
+      "cost_usd": 0.002959,
+      "pages_in_call": 1
     }
   ]
 }

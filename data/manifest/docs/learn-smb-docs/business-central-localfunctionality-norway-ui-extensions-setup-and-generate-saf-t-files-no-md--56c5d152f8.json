@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Setup and generate SAF-T files",
+  "title": "Set Up and Export Norwegian SAF-T Files",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.181Z",
-      "blob": "abaef7323f97e48c7f53d6b5cdf0dae50aaefa5b",
-      "words": 1404,
+      "at": "2026-10-28T09:06:22.830Z",
+      "blob": "7021fb6eb79983bd46874d422105d558ff26750f",
+      "words": 1659,
       "forms": 17
     },
     "extracted": {
-      "at": "2026-10-06T19:25:22.530Z",
+      "at": "2026-10-28T09:06:31.447Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 6,
-      "cost_usd": 0.003699
+      "objects": 9,
+      "cost_usd": 0.011671
     },
     "summarized": {
-      "at": "2026-10-06T19:25:24.322Z",
+      "at": "2026-10-28T09:06:31.449Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:24.323Z",
+      "at": "2026-10-28T09:06:31.452Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:24.324Z",
+      "at": "2026-10-28T09:06:31.454Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md",
-    "description": "Use the SAF-T extension to set up and generate SAF-T files for the Norwegian authorities in Business Central.",
-    "ms_date": "2025-05-16",
-    "ms_topic": "install-set-up-deploy",
+    "description": "Set up Norwegian SAF-T mappings in Business Central, choose an export version, and generate XML or ZIP files to provide to the Norwegian tax authorities.",
+    "ms_date": "2026-10-20",
+    "ms_topic": "how-to",
     "search_form": [
       {
         "raw": "10670",
@@ -141,12 +141,12 @@
       "export",
       "compliance"
     ],
-    "ai_usage": null,
-    "words": 1404,
+    "ai_usage": "ai-assisted",
+    "words": 1659,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c226dae6b562b0db09f1977485f618a5ae64eaf077289b32aef19eb058dde3bc"
+  "output_hash": "eae288f6529627ab24a4f0ca4e35865e809c89a9de4825b44eb0a3064e743674"
 }

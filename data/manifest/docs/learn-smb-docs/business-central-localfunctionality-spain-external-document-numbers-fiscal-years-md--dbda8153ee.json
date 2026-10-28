@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "External Document Numbers and Fiscal Years (ES)",
+  "title": "Use the Same External Document Numbers Across Fiscal Years",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/external-document-numbers-fiscal-years",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.648Z",
-      "blob": "46c70f301dc0499467e0e1ea7897f517c1a9bd35",
-      "words": 105,
+      "at": "2026-10-28T09:06:31.519Z",
+      "blob": "cd5b8e7be5cdc5add20371b5f29a1e83fe5b2988",
+      "words": 131,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:45.366Z",
+      "at": "2026-10-28T09:06:38.768Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002453
+      "objects": 1,
+      "cost_usd": 0.002978
     },
     "summarized": {
-      "at": "2026-10-06T19:23:45.397Z",
+      "at": "2026-10-28T09:06:38.769Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:45.398Z",
+      "at": "2026-10-28T09:06:38.771Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:45.399Z",
+      "at": "2026-10-28T09:06:38.772Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/external-document-numbers-fiscal-years.md",
-    "description": "Learn how you can reuse External Document Numbers in different fiscal years in the Spanish version of Business Central.",
-    "ms_date": "2025-05-26",
+    "description": "Learn how to allow repeated external document numbers across years in Business Central for Spain and how document dates limit duplicate checks.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "external document",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 105,
+    "ai_usage": "ai-assisted",
+    "words": 131,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "56b2d65695aad970aadbb6e8f701ddcc659e34e177f8da873d9c4e3d8fe10f26"
+  "output_hash": "3b568cc1a92b642b02f4b54770785d3fc98920e28616055a3eb66b92b1afd75a"
 }

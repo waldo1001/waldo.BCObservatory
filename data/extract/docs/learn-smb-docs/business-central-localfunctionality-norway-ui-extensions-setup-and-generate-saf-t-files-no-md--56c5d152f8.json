@@ -1,20 +1,23 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no",
-  "title": "Setup and generate SAF-T files",
-  "blob": "abaef7323f97e48c7f53d6b5cdf0dae50aaefa5b",
-  "summary": "The SAF-T extension for Norwegian Business Central enables setup, generation, and export of Standard Audit Files - Tax required by Norwegian authorities, with support for SAF-T versions 1.20 and 1.30 starting in version 25.3.",
+  "title": "Set Up and Export Norwegian SAF-T Files",
+  "blob": "7021fb6eb79983bd46874d422105d558ff26750f",
+  "summary": "Norwegian SAF-T file extension setup and export capabilities, including chart of accounts mapping, VAT setup mapping, dimension control, and background job processing for compliance with Norwegian tax authority requirements.",
   "systems": [
-    "reporting",
-    "localization"
+    "localization",
+    "finance",
+    "administration"
   ],
   "topics": [
-    "saf-t",
-    "tax",
-    "audit",
-    "compliance",
     "norway",
-    "reporting"
+    "saf-t",
+    "tax reporting",
+    "audit files",
+    "chart of accounts mapping",
+    "vat mapping",
+    "export",
+    "data quality"
   ],
   "objects": [
     {
@@ -23,15 +26,11 @@
     },
     {
       "type": "page",
-      "name": "SAF-T Exports"
-    },
-    {
-      "type": "page",
       "name": "SAF-T Export"
     },
     {
       "type": "page",
-      "name": "SAF-T Mapping Setup Card"
+      "name": "SAF-T Mapping Setup"
     },
     {
       "type": "page",
@@ -39,17 +38,34 @@
     },
     {
       "type": "page",
-      "name": "SAF-T Export File"
+      "name": "SAF-T Mapping Source"
+    },
+    {
+      "type": "page",
+      "name": "SAF-T Exports"
+    },
+    {
+      "type": "page",
+      "name": "SAF-T Export Files"
+    },
+    {
+      "type": "page",
+      "name": "Dimensions"
+    },
+    {
+      "type": "page",
+      "name": "Source Codes"
     }
   ],
   "features": [
-    "SAF-T version selection",
-    "chart of accounts mapping",
-    "VAT code mapping",
-    "dimension export control",
-    "parallel processing",
-    "split by date",
-    "multiple zip files"
+    "SAF-T version selection (1.20 and 1.30)",
+    "G/L account to SAF-T standard account mapping",
+    "VAT posting setup to SAF-T tax code mapping",
+    "Dimension export control",
+    "Parallel background job processing",
+    "Data quality validation controls",
+    "Split by date option",
+    "Multiple ZIP file creation"
   ],
   "versions": [
     "version 25.3"
@@ -60,8 +76,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003699,
-      "pages_in_call": 8
+      "cost_usd": 0.011671,
+      "pages_in_call": 1
     }
   ]
 }

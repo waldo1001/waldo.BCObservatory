@@ -1,23 +1,29 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/external-document-numbers-fiscal-years.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/external-document-numbers-fiscal-years",
-  "title": "External Document Numbers and Fiscal Years (ES)",
-  "blob": "46c70f301dc0499467e0e1ea7897f517c1a9bd35",
-  "summary": "Spain allows posting of documents with the same external document number across different fiscal years, controlled by the Same Ext. Doc. No. in Diff. FY option in Purchases & Payables Setup.",
+  "title": "Use the Same External Document Numbers Across Fiscal Years",
+  "blob": "cd5b8e7be5cdc5add20371b5f29a1e83fe5b2988",
+  "summary": "Configure Business Central to allow the same external document numbers across different fiscal years in Spain, which is required by Spanish legislation.",
   "systems": [
     "purchasing",
-    "finance",
-    "administration"
+    "localization"
   ],
   "topics": [
     "external document numbers",
     "fiscal years",
     "spain",
-    "document posting"
+    "duplicate check",
+    "purchases payables setup"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    }
+  ],
   "features": [
-    "Same Ext. Doc. No. in Diff. FY setting"
+    "Same Ext. Doc. No. in Diff. FY",
+    "duplicate-number check"
   ],
   "versions": [],
   "parts": 1,
@@ -26,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002453,
-      "pages_in_call": 7
+      "cost_usd": 0.002978,
+      "pages_in_call": 1
     }
   ]
 }

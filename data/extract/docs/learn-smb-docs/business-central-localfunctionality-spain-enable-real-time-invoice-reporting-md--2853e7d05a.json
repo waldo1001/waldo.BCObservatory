@@ -1,30 +1,35 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/enable-real-time-invoice-reporting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/enable-real-time-invoice-reporting",
-  "title": "Enable embedded VERIFACTU mode [ES]",
-  "blob": "31ba8c2a0826ccc85e5edbe3dde0af389957ee67",
-  "summary": "VERI*FACTU is Spain's embedded e-invoicing standard that enables real-time invoice reporting to AEAT with digital signatures, hash chaining, and QR codes for compliance.",
+  "title": "Enable Embedded VERI*FACTU Mode in Spain [ES]",
+  "blob": "a566689ef6a8bb7f2686f0722718b186d199bb66",
+  "summary": "Enable embedded VERI*FACTU mode to report invoice records directly to the Spanish Tax Agency (AEAT) through the E-Documents framework, with Business Central generating chained hashes, QR codes, and authenticating via certificate.",
   "systems": [
-    "sales",
     "finance",
+    "sales",
     "localization"
   ],
   "topics": [
-    "verifactu",
-    "e-invoicing",
     "spain",
-    "tax reporting",
+    "e-invoicing",
+    "veri*factu",
     "aeat",
-    "qr code"
+    "regulatory compliance",
+    "e-documents",
+    "qr codes"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Company Information"
+      "name": "Verifactu Setup"
     },
     {
       "type": "page",
-      "name": "Verifactu Setup"
+      "name": "Company information"
+    },
+    {
+      "type": "page",
+      "name": "Post Codes"
     },
     {
       "type": "page",
@@ -44,6 +49,10 @@
     },
     {
       "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
       "name": "Sales Invoices"
     },
     {
@@ -52,29 +61,18 @@
     },
     {
       "type": "page",
-      "name": "Customers"
-    },
-    {
-      "type": "page",
-      "name": "Post Codes"
-    },
-    {
-      "type": "page",
-      "name": "Verifactu Document"
-    },
-    {
-      "type": "page",
       "name": "E-Document Card"
     }
   ],
   "features": [
-    "digital signing",
+    "embedded VERI*FACTU",
+    "e-document workflow",
     "QR code generation",
-    "real-time reporting",
+    "certificate authentication",
     "AEAT submission",
-    "invoice validation",
-    "e-document framework",
-    "certificate support"
+    "chained hashes",
+    "clearance status",
+    "document sending profiles"
   ],
   "versions": [],
   "parts": 1,
@@ -83,8 +81,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004125,
-      "pages_in_call": 8
+      "cost_usd": 0.005778,
+      "pages_in_call": 1
     }
   ]
 }

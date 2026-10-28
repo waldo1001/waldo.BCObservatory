@@ -1,20 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/calculating-due-dates.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/calculating-due-dates",
-  "title": "Calculating Due Dates [ES]",
-  "blob": "54a1a53aa9ea2007a314566cf88aac0c7ac4f8e3",
-  "summary": "Calculate due dates for Spanish companies according to legal limits on payment delays. Set up payment terms with maximum days to due date and generate reports on overdue payments from customers and vendors.",
+  "title": "Due Date Calculation in Business Central for Spain",
+  "blob": "7ba8e8e4ad61a0f31a3b50ea781588585c3f5b49",
+  "summary": "Due date calculation in the Spanish version of Business Central enforces legal payment delay limits for public sector and private company transactions, with separate payment terms and overdue payment reporting.",
   "systems": [
     "finance",
-    "purchasing",
-    "sales"
+    "localization"
   ],
   "topics": [
-    "due dates",
-    "spain",
+    "due date calculation",
     "payment terms",
+    "spain",
     "overdue payments",
-    "legal compliance"
+    "legal compliance",
+    "public sector",
+    "private company"
   ],
   "objects": [
     {
@@ -27,11 +28,12 @@
     }
   ],
   "features": [
-    "Due date calculation",
-    "Maximum days till due date",
-    "Payment term setup",
-    "Overdue payment reporting",
-    "Weighted average term calculation"
+    "Payment terms setup",
+    "Max. No. of Days till Due Date",
+    "Due date calculation limits",
+    "Overdue payment reports",
+    "Weighted average term exceeded calculation",
+    "Non-payment period handling"
   ],
   "versions": [],
   "parts": 1,
@@ -39,9 +41,9 @@
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": true,
-      "cost_usd": null,
-      "pages_in_call": 8
+      "cached": false,
+      "cost_usd": 0.003951,
+      "pages_in_call": 1
     }
   ]
 }

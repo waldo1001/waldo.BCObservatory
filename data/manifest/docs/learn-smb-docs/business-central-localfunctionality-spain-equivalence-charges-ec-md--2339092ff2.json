@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Equivalence Charges (EC) [ES]",
+  "title": "Equivalence Charges (EC) in the Spanish Version [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/equivalence-charges-ec-",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.643Z",
-      "blob": "5d1b582122fc530af1b5c2603363c89a14f36f21",
+      "at": "2026-10-28T09:06:29.497Z",
+      "blob": "daa9897ff74069a16b5d20e8ca475795c0e222b3",
       "words": 180,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:45.365Z",
+      "at": "2026-10-28T09:06:38.752Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 7,
-      "cost_usd": 0.002453
+      "cost_usd": 0.003862
     },
     "summarized": {
-      "at": "2026-10-06T19:23:45.394Z",
+      "at": "2026-10-28T09:06:38.754Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:45.395Z",
+      "at": "2026-10-28T09:06:38.756Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:45.396Z",
+      "at": "2026-10-28T09:06:38.758Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/equivalence-charges-ec-.md",
-    "description": "An Equivalence Charge (EC) is a tax used in retail sales and activities that don't follow VAT rules.",
-    "ms_date": "2025-05-26",
-    "ms_topic": "article",
+    "description": "Learn how Business Central for Spain records equivalence charge percentages alongside VAT on document lines and in posted VAT entries.",
+    "ms_date": "2026-10-20",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "equivalence charge",
@@ -54,12 +54,12 @@
       "EC tax",
       "Spanish version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 180,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f3151ba8be2f15714ca98f1fb86eed156d665d1c3b5dd84ded4c4c9e93ccb8f3"
+  "output_hash": "cbe943ef3ec32da4d03608b6f46c593deb30ce2c183c3a7df666dd3253ff33c1"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Enable embedded VERIFACTU mode [ES]",
+  "title": "Enable Embedded VERI*FACTU Mode in Spain [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/enable-real-time-invoice-reporting",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:23.290Z",
-      "blob": "31ba8c2a0826ccc85e5edbe3dde0af389957ee67",
-      "words": 1318,
+      "at": "2026-10-28T09:06:29.182Z",
+      "blob": "a566689ef6a8bb7f2686f0722718b186d199bb66",
+      "words": 1281,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T17:52:19.193Z",
+      "at": "2026-10-28T09:06:38.740Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 12,
-      "cost_usd": 0.004125
+      "objects": 11,
+      "cost_usd": 0.005778
     },
     "summarized": {
-      "at": "2026-10-06T17:52:21.026Z",
+      "at": "2026-10-28T09:06:38.742Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:52:21.026Z",
+      "at": "2026-10-28T09:06:38.743Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:52:21.027Z",
+      "at": "2026-10-28T09:06:38.744Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/enable-real-time-invoice-reporting.md",
-    "description": "Enable real-time invoice reporting to AEAT with Verifactu in Business Central, ensuring QR code, hash chaining, and digital signature compliance.",
-    "ms_date": "2026-06-15",
-    "ms_topic": "article",
+    "description": "Set up embedded VERIFACTU reporting in Business Central, configure certificate authentication, and review invoice submissions and QR codes for Spain.",
+    "ms_date": "2026-10-20",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "verifactu",
@@ -57,12 +57,12 @@
       "auditing",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 1318,
+    "ai_usage": "ai-assisted",
+    "words": 1281,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "425db15412930c349f0aa3dcbe45e11f83a30091c24844d2ac47e38f6c3b3fb5"
+  "output_hash": "d275581a79dbd8298dccd4724f6bd945ffcfcf68eff4c77dcd71f1e7efcfbded"
 }

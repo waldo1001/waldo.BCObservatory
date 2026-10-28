@@ -1,26 +1,29 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/corrective-invoices.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/corrective-invoices",
-  "title": "Corrective invoices [ES]",
-  "blob": "e3201bd108fecdea2497a4d5ee793d84bf27a8a1",
-  "summary": "Corrective invoices in Spanish Business Central allow correction of errors affecting VAT or fiscal data while maintaining original invoice validity, with full audit trail and reference tracking.",
+  "title": "Corrective Invoices in the Spanish Version [ES]",
+  "blob": "3f344abe59983a9fe79878cd26940b197305c73e",
+  "summary": "Corrective invoices in Spain allow you to issue legal invoice corrections for VAT or fiscal data errors while keeping original invoices valid and intact. Use this to correct multiple invoices with proper traceability and legal compliance.",
   "systems": [
-    "sales",
+    "finance",
     "localization"
   ],
   "topics": [
     "corrective invoices",
-    "spanish tax",
-    "vat correction",
-    "invoice management"
+    "spain",
+    "vat",
+    "fiscal data",
+    "invoice corrections",
+    "local functionality"
   ],
   "objects": [],
   "features": [
-    "corrective invoice creation",
-    "original invoice reference",
-    "VAT correction",
-    "legal compliance",
-    "invoice lookup"
+    "corrective invoice parameters",
+    "posted invoice selection",
+    "corrective invoice printing",
+    "corrective invoice posting",
+    "invoice number tracking",
+    "discount corrections"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003091,
-      "pages_in_call": 8
+      "cost_usd": 0.003025,
+      "pages_in_call": 1
     }
   ]
 }

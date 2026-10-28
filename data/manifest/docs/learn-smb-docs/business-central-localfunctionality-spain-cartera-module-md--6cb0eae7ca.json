@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Cartera Module",
+  "title": "Cartera Module in Business Central for Spain",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/cartera-module",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.629Z",
-      "blob": "4e09b5dd89b65193e7656e53babb19e1f147806f",
+      "at": "2026-10-28T09:06:22.788Z",
+      "blob": "992c5b28e665c482446c4cc671c4f3ba1d9ccaba",
       "words": 113,
       "forms": 54
     },
     "extracted": {
-      "at": "2026-10-06T19:23:12.812Z",
+      "at": "2026-10-28T09:06:28.921Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003091
+      "cost_usd": 0.002959
     },
     "summarized": {
-      "at": "2026-10-06T19:23:12.871Z",
+      "at": "2026-10-28T09:06:28.923Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:12.873Z",
+      "at": "2026-10-28T09:06:28.924Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:12.874Z",
+      "at": "2026-10-28T09:06:28.926Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/cartera-module.md",
     "description": "Learn how to use the Cartera module to manage customer and vendor payments with documents such as bills of exchange and promissory notes.",
-    "ms_date": "2025-05-26",
-    "ms_topic": "article",
+    "ms_date": "2026-10-20",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "35291",
@@ -327,12 +327,12 @@
       "promissory notes",
       "Spanish version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 113,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f9c6c276994a0b004bedc3c11767883c7072ce8b79249e4609e86570951d3df8"
+  "output_hash": "84b8334bc64e7c258ea983d0d64ca778b8c5b5c557811bee751cbc0180f923ae"
 }

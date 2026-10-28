@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Corrective invoices [ES]",
+  "title": "Corrective Invoices in the Spanish Version [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/corrective-invoices",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.634Z",
-      "blob": "e3201bd108fecdea2497a4d5ee793d84bf27a8a1",
+      "at": "2026-10-28T09:06:29.030Z",
+      "blob": "3f344abe59983a9fe79878cd26940b197305c73e",
       "words": 207,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:12.825Z",
+      "at": "2026-10-28T09:06:33.719Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003091
+      "cost_usd": 0.003025
     },
     "summarized": {
-      "at": "2026-10-06T19:23:12.876Z",
+      "at": "2026-10-28T09:06:33.721Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:12.877Z",
+      "at": "2026-10-28T09:06:38.717Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:12.878Z",
+      "at": "2026-10-28T09:06:38.719Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/corrective-invoices.md",
     "description": "Learn how to use corrective invoices in Business Central to address errors or disputes affecting VAT amounts or fiscal data.",
-    "ms_date": "2025-05-26",
-    "ms_topic": "article",
+    "ms_date": "2026-10-20",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "corrective invoices",
@@ -54,12 +54,12 @@
       "fiscal data correction",
       "invoice dispute"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 207,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dcc4e4adf2287a04209d68eb1d3519af26d062efb439b8433f4e9c55d987bf40"
+  "output_hash": "da8df4d36a6de56ce7155c2e044a7ca56e89650201b3e1aa30983b7e6946121b"
 }

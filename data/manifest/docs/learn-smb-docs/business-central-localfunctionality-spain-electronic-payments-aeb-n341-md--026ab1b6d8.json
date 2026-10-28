@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Electronic payments – AEB N34.1 - [ES]",
+  "title": "Electronic Payments – AEB N34.1 in the Spanish Version [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/electronic-payments-aeb-n341",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.639Z",
-      "blob": "9788cdbbea807f8c972a54bf1a2de08522bddd31",
+      "at": "2026-10-28T09:06:29.086Z",
+      "blob": "4099bd472d87dd277aef003c789578e5eaf50f58",
       "words": 225,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:45.364Z",
+      "at": "2026-10-28T09:06:38.728Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002453
+      "cost_usd": 0.003249
     },
     "summarized": {
-      "at": "2026-10-06T19:23:45.371Z",
+      "at": "2026-10-28T09:06:38.729Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:45.372Z",
+      "at": "2026-10-28T09:06:38.730Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:45.373Z",
+      "at": "2026-10-28T09:06:38.732Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/electronic-payments-aeb-n341.md",
     "description": "Learn how to use electronic payments to pay vendors by exporting payments in the standard AEB N34.1 file format used by banks in Spain.",
-    "ms_date": "2025-05-26",
-    "ms_topic": "article",
+    "ms_date": "2026-10-20",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "AEB N34.1",
@@ -54,12 +54,12 @@
       "vendor payments",
       "Spanish version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 225,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1b17f4440895d32bfaae77115d65a95d1aa5fefea0972949f968434a8eafef25"
+  "output_hash": "d31aea2ff5ea13b2623206d8354255431d895c1d4d623c28e1f716a5920df291"
 }

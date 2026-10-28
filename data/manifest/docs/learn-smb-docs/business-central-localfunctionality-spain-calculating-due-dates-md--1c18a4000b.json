@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Calculating Due Dates [ES]",
+  "title": "Due Date Calculation in Business Central for Spain",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/calculating-due-dates",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:23.067Z",
-      "blob": "54a1a53aa9ea2007a314566cf88aac0c7ac4f8e3",
+      "at": "2026-10-28T09:06:22.872Z",
+      "blob": "7ba8e8e4ad61a0f31a3b50ea781588585c3f5b49",
       "words": 613,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T17:35:19.293Z",
+      "at": "2026-10-28T09:06:29.128Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0
+      "cost_usd": 0.003951
     },
     "summarized": {
-      "at": "2026-10-06T17:35:19.314Z",
+      "at": "2026-10-28T09:06:29.129Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:35:19.315Z",
+      "at": "2026-10-28T09:06:29.131Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:35:19.316Z",
+      "at": "2026-10-28T09:06:29.132Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/calculating-due-dates.md",
-    "description": "Learn how to submit an annual report of purchases and sales for payments that were made before or after the due date.",
-    "ms_date": "2025-05-26",
+    "description": "Learn how payment terms, due date limits, payment days, and nonpayment periods affect due date calculations in Business Central for Spain.",
+    "ms_date": "2026-10-20",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -61,12 +61,12 @@
       "overdue payments",
       "Spanish version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 613,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "02d078b6d1259c1cf0ca44c542049fdb42e9bf3aa8683fb60e33148fe00243be"
+  "output_hash": "8761f492f8f28858d6e04a7898b2a8eab2c7b29a6731ec0bf2c2e77e9ccc8966"
 }

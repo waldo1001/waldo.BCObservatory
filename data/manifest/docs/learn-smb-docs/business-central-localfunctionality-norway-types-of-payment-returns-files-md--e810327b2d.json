@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Types of payment returns files [NO]",
+  "title": "Types of Payment Returns Files in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/types-of-payment-returns-files",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.172Z",
-      "blob": "27930e1bbee8da0a3e26405ee86e6a461d6a2c0f",
+      "at": "2026-10-28T09:06:22.685Z",
+      "blob": "42a5111a1a9faba1caac42669ad0ba9a1b0b48c8",
       "words": 406,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:25:22.528Z",
+      "at": "2026-10-28T09:06:29.420Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.003699
+      "cost_usd": 0.004028
     },
     "summarized": {
-      "at": "2026-10-06T19:25:24.316Z",
+      "at": "2026-10-28T09:06:29.424Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:24.317Z",
+      "at": "2026-10-28T09:06:29.426Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:24.318Z",
+      "at": "2026-10-28T09:06:29.428Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/types-of-payment-returns-files.md",
-    "description": "The Norwegian Business Central allows importing receipt returns and settlement returns payment files.",
-    "ms_date": "2025-05-16",
+    "description": "Learn how Norwegian remittance receipt and settlement return files update payment status and create returned payment journal lines in Business Central.",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [
       {
@@ -86,12 +86,12 @@
       "payment files",
       "Norwegian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 406,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cfb0a9bc6820606a59a31abe9c7ece0db33fdcfc699adb9fb705618db833a1f0"
+  "output_hash": "dcb83503c2d6591accf9f8a97555f905f36cc999031c823f42e04f05f83b2f9a"
 }
