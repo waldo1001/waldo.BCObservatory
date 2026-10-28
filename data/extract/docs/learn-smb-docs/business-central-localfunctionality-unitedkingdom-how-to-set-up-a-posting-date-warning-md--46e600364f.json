@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning",
-  "title": "Set up a posting date warning [GB]",
-  "blob": "076cd5f7ad338217c968966dab5eb4fce7baef39",
-  "summary": "Set up a posting date warning in the British version to display a message when posting sales and purchase documents with a posting date different from the work date.",
+  "title": "Set Up a Posting Date Warning in the United Kingdom",
+  "blob": "413989fdb8891acd48de71f9889b1bcc603d6896",
+  "summary": "Posting Date Warning in the UK allows you to show a confirmation when posting sales or purchase documents with a posting date different from the work date. Configure it on the Sales & Receivables Setup and Purchases & Payables Setup pages by enabling the Posting Date Check on Posting toggle.",
   "systems": [
     "sales",
     "purchasing",
@@ -11,25 +11,25 @@
   ],
   "topics": [
     "posting date",
+    "confirmation",
     "warning",
-    "british",
-    "sales receivables setup",
-    "purchases payables setup"
+    "batch posting",
+    "uk localization"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Sales Receivables Setup"
+      "name": "Sales & Receivables Setup"
     },
     {
       "type": "page",
-      "name": "Purchases Payables Setup"
+      "name": "Purchases & Payables Setup"
     }
   ],
   "features": [
-    "Posting Date Check on Posting toggle",
-    "batch posting warning",
-    "work date validation"
+    "Posting Date Check on Posting",
+    "posting date warning",
+    "batch posting check"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00316,
-      "pages_in_call": 8
+      "cost_usd": 0.003279,
+      "pages_in_call": 1
     }
   ]
 }

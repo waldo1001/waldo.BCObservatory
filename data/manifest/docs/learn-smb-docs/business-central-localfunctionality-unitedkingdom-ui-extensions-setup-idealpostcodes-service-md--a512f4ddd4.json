@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/ui-extensions-setup-idealpostcodes-service",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.653Z",
-      "blob": "4d44e86c663cc2ceabb1e2955abdeaaab666ddf3",
-      "words": 432,
+      "at": "2026-10-28T09:08:49.201Z",
+      "blob": "fed9191d9679604abcfaf3a557b1103c019fc2c7",
+      "words": 384,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:30:22.539Z",
+      "at": "2026-10-28T09:08:58.531Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005419
+      "cost_usd": 0.003488
     },
     "summarized": {
-      "at": "2026-10-06T18:30:22.559Z",
+      "at": "2026-10-28T09:08:58.533Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:30:22.560Z",
+      "at": "2026-10-28T09:08:58.534Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:30:22.561Z",
+      "at": "2026-10-28T09:08:58.535Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedKingdom/ui-extensions-setup-idealpostcodes-service.md",
     "description": "Learn how to configure the Ideal Postcodes extension in the British version of Business Central.",
-    "ms_date": "2026-04-09",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -59,12 +59,12 @@
       "postcodes",
       "extension"
     ],
-    "ai_usage": null,
-    "words": 432,
+    "ai_usage": "ai-assisted",
+    "words": 384,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e96f21e051fb156db507b985927a1eb00c503806e8ba25eeb14cbab037a0c977"
+  "output_hash": "767031466f3d6baee1499e1d2034350bbf7310b56846c94794fc3db60260de0f"
 }

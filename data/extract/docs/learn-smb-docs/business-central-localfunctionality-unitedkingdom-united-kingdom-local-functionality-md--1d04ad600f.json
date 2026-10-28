@@ -2,30 +2,39 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality",
   "title": "United Kingdom local functionality [GB]",
-  "blob": "b1879b0c8f1debd9da96306dc97c5b10cbbf82f5",
-  "summary": "United Kingdom local functionality in Business Central covering VAT and tax features, banking and payments, fixed assets, and general features available as of 2025 release wave 2.",
+  "blob": "f7c4e24dde02cbd2319bec0b3a56d4a273fb4934",
+  "summary": "United Kingdom local functionality provides features for VAT reporting (including Making Tax Digital), banking, fixed assets, and general compliance specific to the British version of Business Central.",
   "systems": [
+    "finance",
     "localization",
-    "finance"
+    "administration"
   ],
   "topics": [
     "united kingdom",
     "vat",
-    "tax",
+    "making tax digital",
+    "tax compliance",
     "banking",
     "fixed assets"
   ],
   "objects": [],
   "features": [
-    "Making Tax Digital VAT returns",
-    "VAT audit reports",
-    "VAT reverse charges",
-    "Check printing",
-    "Fixed asset depreciation",
-    "IdealPostcodes extension"
+    "Making Tax Digital VAT Returns submission",
+    "Fraud prevention data for MTD",
+    "VAT Setup in Journals",
+    "VAT Audit Reports",
+    "VAT Reports",
+    "Reverse Charges on VAT",
+    "VAT Group Management",
+    "Intrastat reporting",
+    "APACS check printing",
+    "Remittance Advice printing",
+    "Fixed asset depreciation accounting periods",
+    "Posting Date Warning"
   ],
   "versions": [
-    "2025 release wave 2"
+    "2025 release wave 2",
+    "2027 release wave 1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -33,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00543,
-      "pages_in_call": 8
+      "cost_usd": 0.004043,
+      "pages_in_call": 1
     }
   ]
 }

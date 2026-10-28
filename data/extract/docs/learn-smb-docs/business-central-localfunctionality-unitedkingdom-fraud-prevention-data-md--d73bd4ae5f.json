@@ -1,33 +1,38 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/fraud-prevention-data.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/fraud-prevention-data",
-  "title": "Send Fraud Prevention Data (UK)",
-  "blob": "e4125c2d604130dd87fb81ea0e7b9d96dac260d7",
-  "summary": "Fraud prevention data for UK VAT requires fraud prevention headers when communicating with HMRC through Making Tax Digital APIs. Admins must consent to send device and user identification data.",
+  "title": "Send Fraud Prevention Data in the UK",
+  "blob": "de2245ca0702a0fc46f0474332f2d9a636f3ca6a",
+  "summary": "Fraud prevention headers for Making Tax Digital VAT submissions to HMRC in the United Kingdom. Describes how to enable fraud prevention data collection, which HTTP headers are sent, how they're populated, and IP address service configuration requirements.",
   "systems": [
     "finance",
-    "integration"
+    "localization"
   ],
   "topics": [
-    "uk vat",
+    "vat reporting",
     "fraud prevention",
-    "hmrc",
     "making tax digital",
-    "headers"
+    "hmrc",
+    "headers",
+    "united kingdom"
   ],
   "objects": [
     {
       "type": "page",
       "name": "VAT Report Setup"
+    },
+    {
+      "type": "page",
+      "name": "Communicating with HMRC"
     }
   ],
   "features": [
-    "fraud prevention headers",
-    "HMRC communication",
-    "Making Tax Digital",
-    "device identification",
-    "user IP address service",
-    "multi-factor authentication headers"
+    "Fraud prevention headers",
+    "Making Tax Digital API requests",
+    "Enabled setting on VAT Report Setup",
+    "User IP Address Service field",
+    "Gov-Client and Gov-Vendor headers",
+    "Browser information collection"
   ],
   "versions": [
     "version 20.1"
@@ -38,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003194,
-      "pages_in_call": 8
+      "cost_usd": 0.00527,
+      "pages_in_call": 1
     }
   ]
 }

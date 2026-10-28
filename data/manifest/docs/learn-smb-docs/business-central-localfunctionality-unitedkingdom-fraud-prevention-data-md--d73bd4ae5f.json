@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Send Fraud Prevention Data (UK)",
+  "title": "Send Fraud Prevention Data in the UK",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/fraud-prevention-data",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.011Z",
-      "blob": "e4125c2d604130dd87fb81ea0e7b9d96dac260d7",
-      "words": 1216,
+      "at": "2026-10-28T09:08:41.973Z",
+      "blob": "de2245ca0702a0fc46f0474332f2d9a636f3ca6a",
+      "words": 1129,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:27:59.943Z",
+      "at": "2026-10-28T09:08:49.129Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003194
+      "objects": 2,
+      "cost_usd": 0.00527
     },
     "summarized": {
-      "at": "2026-10-06T19:27:59.978Z",
+      "at": "2026-10-28T09:08:49.131Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:59.979Z",
+      "at": "2026-10-28T09:08:49.133Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:59.980Z",
+      "at": "2026-10-28T09:08:49.134Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedKingdom/fraud-prevention-data.md",
-    "description": "Business Central supports the British requirement to submit fraud prevention data to HMRC as part of Making Tax Digital. This article explains how to set up the headers.",
-    "ms_date": "2025-02-18",
-    "ms_topic": "article",
+    "description": "Learn how Business Central collects fraud prevention data for Making Tax Digital in the United Kingdom and how to set up the IP address service.",
+    "ms_date": "2026-10-19",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "10539",
@@ -66,12 +66,12 @@
       "HMRC",
       "tax"
     ],
-    "ai_usage": null,
-    "words": 1216,
+    "ai_usage": "ai-assisted",
+    "words": 1129,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a51e2c40582022715ef460313bcb16f1f2397e770c3c4fdc7beaf37d87642da2"
+  "output_hash": "b74f0ed40da39c246ffe6399e27605ab7500c94ff6a1cccf8d66b7910fdacc28"
 }

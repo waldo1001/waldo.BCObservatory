@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up a posting date warning [GB]",
+  "title": "Set Up a Posting Date Warning in the United Kingdom",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.186Z",
-      "blob": "076cd5f7ad338217c968966dab5eb4fce7baef39",
-      "words": 174,
+      "at": "2026-10-28T09:08:42.024Z",
+      "blob": "413989fdb8891acd48de71f9889b1bcc603d6896",
+      "words": 193,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:21:55.708Z",
+      "at": "2026-10-28T09:08:48.260Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.00316
+      "cost_usd": 0.003279
     },
     "summarized": {
-      "at": "2026-10-06T19:21:55.715Z",
+      "at": "2026-10-28T09:08:48.261Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:21:57.397Z",
+      "at": "2026-10-28T09:08:48.262Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:21:57.398Z",
+      "at": "2026-10-28T09:08:48.263Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md",
     "description": "Learn to set up the warning message displayed when posting sales and purchase documents with a posting date different from the work date.",
-    "ms_date": "2025-06-19",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -66,12 +66,12 @@
       "posting date",
       "work date"
     ],
-    "ai_usage": null,
-    "words": 174,
+    "ai_usage": "ai-assisted",
+    "words": 193,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "996d0a1cc86674466fee12a6363284e715a9cdf7d7979cfa87e984c40c0fc033"
+  "output_hash": "79c1c413a6bbff2694c11cf5815bf53374878e0cbcd7a99dc7375db70f22b9f7"
 }

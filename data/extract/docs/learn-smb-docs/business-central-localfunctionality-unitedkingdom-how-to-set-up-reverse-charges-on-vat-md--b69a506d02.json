@@ -2,24 +2,29 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat",
   "title": "Set Up Reverse Charges on VAT [UK]",
-  "blob": "1c0aa004e8bab2a0e623cdddd0b150b2f08b50e4",
-  "summary": "Set up reverse charge VAT in the British version to prevent carousel fraud on electronic goods and integrated circuit devices, using VAT business posting groups and item card settings.",
+  "blob": "6147a7028160a5a95ac39ec698b0adb4450c63f9",
+  "summary": "Set up reverse charge VAT accounting in the British version to prevent Missing Trader Intercommunity Fund Fraud on specific items like electronic goods and integrated circuit devices. Configure VAT posting groups, thresholds, and item settings to enable automatic reverse charge checks on sales and purchases.",
   "systems": [
     "finance",
-    "purchasing",
-    "sales"
+    "sales",
+    "purchasing"
   ],
   "topics": [
-    "reverse charge vat",
-    "carousel fraud",
-    "mtic",
+    "reverse charge",
+    "vat",
+    "uk",
+    "fraud prevention",
     "electronic goods",
-    "united kingdom"
+    "compliance"
   ],
   "objects": [
     {
-      "type": "page",
+      "type": "table",
       "name": "VAT Business Posting Groups"
+    },
+    {
+      "type": "table",
+      "name": "VAT Entry"
     },
     {
       "type": "page",
@@ -43,9 +48,14 @@
     }
   ],
   "features": [
-    "Reverse Charge VAT accounting",
-    "Reverse Charge Sales List report",
-    "Reverse Charge Applies field"
+    "Reverse Charge VAT Posting Group",
+    "Threshold applies",
+    "Domestic Customers",
+    "Domestic Vendors",
+    "Invoice Wording",
+    "Reverse Charge Applies",
+    "VAT registration number validation",
+    "CSV export"
   ],
   "versions": [],
   "parts": 1,
@@ -54,8 +64,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002834,
-      "pages_in_call": 7
+      "cost_usd": 0.004513,
+      "pages_in_call": 1
     }
   ]
 }

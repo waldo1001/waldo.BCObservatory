@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.367Z",
-      "blob": "b31f28fb0d524ad65e46103c1aaaf020fe9eb6de",
-      "words": 2131,
+      "at": "2026-10-28T09:08:48.315Z",
+      "blob": "6562a09902b9a53bc715eae27bd306813a367ce5",
+      "words": 1996,
       "forms": 7
     },
     "extracted": {
-      "at": "2026-10-06T18:49:44.229Z",
+      "at": "2026-10-28T09:08:58.560Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 15,
-      "cost_usd": 0.00543
+      "objects": 17,
+      "cost_usd": 0.013533
     },
     "summarized": {
-      "at": "2026-10-06T18:49:51.081Z",
+      "at": "2026-10-28T09:08:58.562Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:49:51.082Z",
+      "at": "2026-10-28T09:08:58.564Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:49:51.082Z",
+      "at": "2026-10-28T09:08:58.565Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md",
     "description": "Business Central includes features to manage your VAT and comply with Making Tax Digital. This article describes how to set up and use these features.",
-    "ms_date": "2025-02-20",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -89,12 +89,12 @@
       "VAT",
       "HMRC"
     ],
-    "ai_usage": null,
-    "words": 2131,
+    "ai_usage": "ai-assisted",
+    "words": 1996,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a2d8514008633f53a354e5264c3e57270e0adab45b5dbdb858b9f96bcbd6cb03"
+  "output_hash": "488f330c36008991dfcf4de08f6e3eb4b8ddbf64c83dbb9e02018c510f450d7a"
 }

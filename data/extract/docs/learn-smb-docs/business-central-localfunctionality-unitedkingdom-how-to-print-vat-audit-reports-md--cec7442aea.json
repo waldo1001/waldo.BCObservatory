@@ -1,24 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports",
-  "title": "Print VAT Audit Reports",
-  "blob": "fa73a730f4ce3d7d889fac310c578a00a4e28cbc",
-  "summary": "Print VAT Audit and VAT Entry Exception reports in the British version to export VAT data in CSV format for auditing, including customer, vendor, and VAT entry information.",
+  "title": "Print VAT Audit Reports in the United Kingdom",
+  "blob": "ff870d1e6161456973d93800d81a1059633438d7",
+  "summary": "Print VAT Audit and VAT Entry Exception reports in the UK version of Business Central by exporting customer, vendor, and VAT entry data in CSV format for compliance with UK auditing requirements.",
   "systems": [
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
     "vat reporting",
     "audit reports",
-    "csv export",
     "united kingdom",
-    "tax compliance"
+    "compliance",
+    "csv export"
   ],
   "objects": [
-    {
-      "type": "page",
-      "name": "VAT Statements"
-    },
     {
       "type": "report",
       "name": "VAT Audit"
@@ -26,17 +23,29 @@
     {
       "type": "report",
       "name": "VAT Entry Exception"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    },
+    {
+      "type": "table",
+      "name": "VAT Entry"
     }
   ],
   "features": [
-    "CSV export format",
     "Export Customers",
     "Export Open Payments",
     "Export Late Invoicing",
     "Export Vendors",
     "Export VAT Entries",
-    "VAT Base Discount",
-    "Manual VAT Difference"
+    "VAT Base Discount checking",
+    "Manual VAT Difference checking",
+    "VAT Rate difference checking"
   ],
   "versions": [],
   "parts": 1,
@@ -45,8 +54,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002834,
-      "pages_in_call": 7
+      "cost_usd": 0.004607,
+      "pages_in_call": 1
     }
   ]
 }

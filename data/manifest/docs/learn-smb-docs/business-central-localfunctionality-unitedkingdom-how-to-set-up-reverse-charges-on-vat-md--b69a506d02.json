@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.048Z",
-      "blob": "1c0aa004e8bab2a0e623cdddd0b150b2f08b50e4",
-      "words": 354,
+      "at": "2026-10-28T09:08:42.115Z",
+      "blob": "6147a7028160a5a95ac39ec698b0adb4450c63f9",
+      "words": 431,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:28:30.048Z",
+      "at": "2026-10-28T09:08:49.178Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 6,
-      "cost_usd": 0.002834
+      "objects": 7,
+      "cost_usd": 0.004513
     },
     "summarized": {
-      "at": "2026-10-06T19:28:30.070Z",
+      "at": "2026-10-28T09:08:49.180Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:30.072Z",
+      "at": "2026-10-28T09:08:49.182Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:30.074Z",
+      "at": "2026-10-28T09:08:49.184Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat.md",
     "description": "Learn how you can use reverse charge VAT accounting for a specific range of items to prevent Missing Trader Intercommunity Fund Fraud (MTIC).",
-    "ms_date": "2025-02-19",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "reverse charge VAT",
       "VAT accounting"
     ],
-    "ai_usage": null,
-    "words": 354,
+    "ai_usage": "ai-assisted",
+    "words": 431,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e56b407aa554e13f5d3eb8f5309b1d5ac0de5912023e8af00198bbcab0f75705"
+  "output_hash": "af3e86bb15db77ee461082013bcfa88e2d64fa2395f080012fa53c60dc947fdd"
 }

@@ -2,23 +2,31 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets",
   "title": "Straight-Line Depreciation of Fixed Assets in the UK",
-  "blob": "0621ec07b3496cac6980dea7e3eeace8afa341c5",
-  "summary": "Define up to 13 accounting periods in depreciation books to calculate straight-line depreciation of fixed assets daily and distribute across periods for British compliance, with options for 360, 365, or 366-day methods.",
+  "blob": "00aac1f980fe1bf891e5cad09d3a7e3ea24f5c1b",
+  "summary": "Define up to 13 accounting periods in the UK to calculate straight-line depreciation of fixed assets, distributing daily depreciation across periods using the Depreciation Books page and FA - Projected Value report.",
   "systems": [
     "fixed-assets",
-    "finance"
+    "localization"
   ],
   "topics": [
     "depreciation",
-    "fixed assets",
     "accounting periods",
-    "straight-line",
-    "united kingdom"
+    "fixed assets",
+    "straight-line method",
+    "uk localization"
   ],
   "objects": [
     {
       "type": "page",
+      "name": "Depreciation Books"
+    },
+    {
+      "type": "page",
       "name": "Depreciation Book Card"
+    },
+    {
+      "type": "page",
+      "name": "Accounting Periods"
     },
     {
       "type": "report",
@@ -26,10 +34,10 @@
     }
   ],
   "features": [
-    "13 accounting periods",
+    "Use Accounting Period",
     "daily depreciation calculation",
-    "360/365/366 day methods",
-    "Use Accounting Period toggle"
+    "360-day and 365/366-day year support",
+    "depreciation book setup"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002834,
-      "pages_in_call": 7
+      "cost_usd": 0.003586,
+      "pages_in_call": 1
     }
   ]
 }

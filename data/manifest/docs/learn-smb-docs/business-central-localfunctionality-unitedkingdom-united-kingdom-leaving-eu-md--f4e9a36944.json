@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/united-kingdom-leaving-eu",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.441Z",
-      "blob": "e4e879783a6b893b601f5c0cb8c9d025467e7f1e",
-      "words": 901,
+      "at": "2026-10-28T09:08:49.253Z",
+      "blob": "7342928cecc9f8f41818443c1de9588af84b7ef6",
+      "words": 936,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:26:12.196Z",
+      "at": "2026-10-28T09:08:58.597Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 7,
-      "cost_usd": 0.003525
+      "objects": 0,
+      "cost_usd": 0.00446
     },
     "summarized": {
-      "at": "2026-10-06T19:26:13.933Z",
+      "at": "2026-10-28T09:08:58.598Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:13.935Z",
+      "at": "2026-10-28T09:08:58.599Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:13.936Z",
+      "at": "2026-10-28T09:08:58.607Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedKingdom/united-kingdom-leaving-eu.md",
     "description": "Learn about recommended steps you can take in Business Central to help manage the impact of the United Kingdom leaving the European Union.",
-    "ms_date": "2025-02-21",
+    "ms_date": "2026-10-19",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "great britain",
       "northern ireland"
     ],
-    "ai_usage": null,
-    "words": 901,
+    "ai_usage": "ai-assisted",
+    "words": 936,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "db437b88d158943ca50b20d94ac5079b0dc9d5911957e1c493ca9c8df46881b3"
+  "output_hash": "046e2b034a3776994d99c8459dcd5babd6a452a50b861167b8bb03480d7d53f4"
 }

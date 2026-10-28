@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.019Z",
-      "blob": "0621ec07b3496cac6980dea7e3eeace8afa341c5",
-      "words": 292,
+      "at": "2026-10-28T09:08:42.083Z",
+      "blob": "00aac1f980fe1bf891e5cad09d3a7e3ea24f5c1b",
+      "words": 284,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T19:28:30.042Z",
+      "at": "2026-10-28T09:08:50.572Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002834
+      "objects": 4,
+      "cost_usd": 0.003586
     },
     "summarized": {
-      "at": "2026-10-06T19:28:30.052Z",
+      "at": "2026-10-28T09:08:50.574Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:30.053Z",
+      "at": "2026-10-28T09:08:50.577Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:30.054Z",
+      "at": "2026-10-28T09:08:50.578Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md",
-    "description": "Define 13 accounting periods to calculate straight-line depreciation in the UK version. Calculate daily depreciation and distribute it across these periods appropriately.",
-    "ms_date": "2025-02-18",
+    "description": "Define 13 accounting periods for straight-line fixed asset depreciation in the UK version, and calculate projected values for those periods.",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -68,12 +68,12 @@
       "straight line depreciation",
       "fixed assets"
     ],
-    "ai_usage": null,
-    "words": 292,
+    "ai_usage": "ai-assisted",
+    "words": 284,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d599915d67455321275b1273df14bba1ad503530e58c5d1c371006664a8dabb1"
+  "output_hash": "456a6772f4aeade21c8b8097e8ed9c0528aeecac57d295abe7914e7d183e7c60"
 }

@@ -2,72 +2,42 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/united-kingdom-leaving-eu.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/united-kingdom-leaving-eu",
   "title": "Brexit Impact on Business Central [GB]",
-  "blob": "e4e879783a6b893b601f5c0cb8c9d025467e7f1e",
-  "summary": "Brexit impact guidance for UK Business Central users covers EORI numbers, supplementary VAT registration, Northern Ireland trade considerations, Intrastat reporting, and VAT implications for goods movement.",
+  "blob": "7342928cecc9f8f41818443c1de9588af84b7ef6",
+  "summary": "Brexit impact on Business Central for UK businesses describes configuration changes needed for importing, exporting, and moving goods across EU borders, including EORI numbers, VAT registration, Intrastat reporting, and Northern Ireland trade requirements.",
   "systems": [
+    "finance",
     "localization",
-    "integration",
-    "finance"
+    "integration"
   ],
   "topics": [
     "brexit",
-    "united kingdom",
-    "trade",
-    "eori",
-    "vat",
+    "uk",
+    "eori number",
     "intrastat",
+    "vat",
     "northern ireland",
-    "customs"
+    "customs",
+    "trade"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Company Information"
-    },
-    {
-      "type": "page",
-      "name": "Customer"
-    },
-    {
-      "type": "page",
-      "name": "Vendor"
-    },
-    {
-      "type": "page",
-      "name": "Countries/Regions"
-    },
-    {
-      "type": "page",
-      "name": "Locations"
-    },
-    {
-      "type": "page",
-      "name": "Intrastat Journal"
-    },
-    {
-      "type": "page",
-      "name": "Intrastat Journal Lines"
-    }
-  ],
+  "objects": [],
   "features": [
-    "EORI Number",
-    "Supplementary VAT Registration",
-    "Northern Ireland Support",
-    "Intrastat Reporting",
-    "Location Code",
-    "Trade Borders"
+    "EORI number field",
+    "Supplementary VAT Reg. Number field",
+    "Intrastat reporting",
+    "Location Code filtering",
+    "Intrastat Report Setup",
+    "Company Information page",
+    "Countries/Regions list"
   ],
-  "versions": [
-    "January 2021"
-  ],
+  "versions": [],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003525,
-      "pages_in_call": 8
+      "cost_usd": 0.00446,
+      "pages_in_call": 1
     }
   ]
 }

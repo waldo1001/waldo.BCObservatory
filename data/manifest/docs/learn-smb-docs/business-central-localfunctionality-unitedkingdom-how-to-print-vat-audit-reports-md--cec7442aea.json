@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Print VAT Audit Reports",
+  "title": "Print VAT Audit Reports in the United Kingdom",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.039Z",
-      "blob": "fa73a730f4ce3d7d889fac310c578a00a4e28cbc",
-      "words": 519,
+      "at": "2026-10-28T09:08:42.053Z",
+      "blob": "ff870d1e6161456973d93800d81a1059633438d7",
+      "words": 551,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:28:30.046Z",
+      "at": "2026-10-28T09:08:48.675Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.002834
+      "objects": 5,
+      "cost_usd": 0.004607
     },
     "summarized": {
-      "at": "2026-10-06T19:28:30.062Z",
+      "at": "2026-10-28T09:08:48.676Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:30.063Z",
+      "at": "2026-10-28T09:08:48.678Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:30.064Z",
+      "at": "2026-10-28T09:08:48.679Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports.md",
-    "description": "Learn how Business Central supports the British requirements for VAT audits.",
-    "ms_date": "2025-02-19",
+    "description": "Print the VAT Audit and VAT Entry Exception reports in the British version of Business Central to review posted VAT entries and identify differences.",
+    "ms_date": "2026-10-19",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -62,12 +62,12 @@
     "keywords": [
       "VAT audits"
     ],
-    "ai_usage": null,
-    "words": 519,
+    "ai_usage": "ai-assisted",
+    "words": 551,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "269bb8dc3c12bc4e822982827267339ac591dffc8cf4d1008f7f7c5c888f2499"
+  "output_hash": "08a20a768d7a7271a11929c33bd86b7d80d1ac02afeafad459bee29f4840ea2a"
 }
