@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Norwegian VAT reporting [NO]",
+  "title": "Norwegian VAT Reporting in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-reporting",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.182Z",
-      "blob": "f621d3f8d229bd5fd801a3fe93ab9f9039511312",
-      "words": 1965,
+      "at": "2026-10-28T08:52:53.420Z",
+      "blob": "c3d50a460b4251713c91eb5213f21d499ff78598",
+      "words": 2266,
       "forms": 7
     },
     "extracted": {
-      "at": "2026-10-06T19:17:36.858Z",
+      "at": "2026-10-28T08:53:07.499Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 9,
-      "cost_usd": 0.005722
+      "objects": 10,
+      "cost_usd": 0.013821
     },
     "summarized": {
-      "at": "2026-10-06T19:17:46.876Z",
+      "at": "2026-10-28T08:53:07.501Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:46.878Z",
+      "at": "2026-10-28T08:53:07.502Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:46.879Z",
+      "at": "2026-10-28T08:53:07.503Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/norwegian-vat-reporting.md",
     "description": "Use Norwegian-specific features in Business Central to calculate and report VAT returns electronically to the Norwegian tax authorities.",
-    "ms_date": "2025-05-15",
-    "ms_topic": "article",
+    "ms_date": "2026-10-22",
+    "ms_topic": "how-to",
     "search_form": [
       {
         "raw": "737",
@@ -97,12 +97,12 @@
       "VAT reporting setup",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 1965,
+    "ai_usage": "ai-assisted",
+    "words": 2266,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1a4ce6293be44325a2cc0da5623551fc44de900dd993157f3e144f6a0161a0b7"
+  "output_hash": "2c0a042e8047c3cf3849655f668ba7662b096fa9fec4a428d780193edb778f56"
 }

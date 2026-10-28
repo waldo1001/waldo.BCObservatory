@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12430,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12430",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-27T10:18:13Z",
+  "merge_commit_sha": "5c91c779c667b16b723d807be05eca5631716f5f",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] Source Currency Code and Source Currency Amount not getting updated on Contract Deferral release G/L entries.",
+  "body_hash": "66d55e10919874aefee0503f324fe59c2d33e72d334cba7b4fd747be7a0bbcea",
+  "fixes_issues": [],
+  "work_items": [
+    653146
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Deferrals/Reports/ContractDeferralsRelease.Report.al",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Deferrals/CustomerDeferralsTest.Codeunit.al",
+      "status": "modified",
+      "additions": 78,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 125,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Deferrals/Reports/ContractDeferralsRelease.Report.al",
+        "status": "modified",
+        "key": "report/8051",
+        "type": "report",
+        "id": 8051,
+        "name": "Contract Deferrals Release",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "report/8051"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ]
+}

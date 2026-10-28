@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12430",
+  "number": 12430,
+  "title": "[main] Source Currency Code and Source Currency Amount not getting updated on Contract Deferral release G/L entries.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Contract deferral release G/L entries now include source currency code and amount information, using the originating invoice's currency factor.",
+  "key_points": [
+    "Source currency code and amount are now populated when posting contract deferral release entries",
+    "Uses currency factor from the originating invoice for calculation",
+    "Added test coverage to verify source currency information is correctly populated"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "projects"
+  ],
+  "quote": "Customer contract deferral release G/L entries omitted source currency information.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003069,
+    "changes_in_call": 1
+  }
+}

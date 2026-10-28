@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Synchronize Contacts in Business Central with Contacts in Microsoft Outlook (legacy)",
+  "title": "Synchronize Contacts with Microsoft Outlook (Legacy)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-synchronize-outlook-contacts",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.771Z",
-      "blob": "234ed4031e46b54e55da5824606342db6e4275f0",
-      "words": 645,
+      "at": "2026-10-28T08:52:14.775Z",
+      "blob": "2d6712942fdd7086596c09b0925879b02d9b4c38",
+      "words": 649,
       "forms": 14
     },
     "extracted": {
-      "at": "2026-10-06T18:45:29.161Z",
+      "at": "2026-10-28T08:52:53.488Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.006308
+      "objects": 6,
+      "cost_usd": 0.004895
     },
     "summarized": {
-      "at": "2026-10-06T18:45:30.268Z",
+      "at": "2026-10-28T08:52:53.490Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:45:30.268Z",
+      "at": "2026-10-28T08:52:53.492Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:45:30.282Z",
+      "at": "2026-10-28T08:52:53.493Z",
       "page": false
     }
   },
@@ -44,7 +44,7 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-synchronize-outlook-contacts.md",
-    "description": "This service has deep integration with Microsoft 365 so you can share contacts between Outlook and Business Central.",
+    "description": "Set up legacy contact synchronization between Business Central version 27 or earlier and Microsoft Outlook, and choose which contacts to synchronize.",
     "ms_date": "2025-05-21",
     "ms_topic": "article",
     "search_form": [
@@ -123,12 +123,12 @@
       "contacts",
       "Microsoft 365"
     ],
-    "ai_usage": null,
-    "words": 645,
+    "ai_usage": "ai-assisted",
+    "words": 649,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eb0b8a023d0764ab85bc1e355204c80ed6efd5d3c16d06f3f7bf04dbb6f21950"
+  "output_hash": "26c3e93bddf467b0b018fad0c9dd1bbd5a45992a329ae65fe7abe808c9d7acf2"
 }

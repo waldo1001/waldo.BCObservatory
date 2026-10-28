@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-validate-vat-registration-number",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.616Z",
-      "blob": "be906e297fa2d204dffeb424fb1601d9db8a7399",
-      "words": 721,
+      "at": "2026-10-28T08:52:46.323Z",
+      "blob": "d61cb43c1f154036402efc24237b3a490ba171ea",
+      "words": 722,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T19:26:38.955Z",
+      "at": "2026-10-28T08:53:01.459Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 5,
-      "cost_usd": 0.003855
+      "cost_usd": 0.00467
     },
     "summarized": {
-      "at": "2026-10-06T19:26:38.988Z",
+      "at": "2026-10-28T08:53:01.460Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:38.990Z",
+      "at": "2026-10-28T08:53:01.461Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:39.000Z",
+      "at": "2026-10-28T08:53:01.462Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-how-validate-vat-registration-number.md",
     "description": "Let Business Central validate VAT registration numbers for your contacts, customers, and vendors, based on EU VIES VAT Number Validation service.",
-    "ms_date": "2021-06-16",
+    "ms_date": "2026-10-22",
     "ms_topic": "article",
     "search_form": [
       {
@@ -70,12 +70,12 @@
       "tax",
       "value-added tax"
     ],
-    "ai_usage": null,
-    "words": 721,
+    "ai_usage": "ai-assisted",
+    "words": 722,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "78ef20124b7423577a6bb93900f30567859cc1afe05a1ddb92599b60b06217c8"
+  "output_hash": "95f9d96dc87174112c81111f05c1a47f9371a634bd1ca2484a252f77af3b13fc"
 }

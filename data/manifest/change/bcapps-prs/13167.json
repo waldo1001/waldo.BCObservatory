@@ -6,7 +6,7 @@
   "title": "[IT] Re-enable disabled cash-flow page tests",
   "url": "https://github.com/microsoft/BCApps/pull/13167",
   "published_at": "2026-10-27T11:05:32Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-28T00:16:46.912Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "it re enable disabled cash flow page tests"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-28T08:51:29.302Z",
+  "retry_after": null
 }

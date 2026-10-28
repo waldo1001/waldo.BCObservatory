@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-responding-to-requests-about-personal-data",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.161Z",
-      "blob": "8f22104d1d6150e963d3e73b24e549cb18c825bc",
-      "words": 1178,
+      "at": "2026-10-28T08:51:50.111Z",
+      "blob": "5ac282b26f68db247af70eef3eae0ec2a687e608",
+      "words": 1176,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:32:21.504Z",
+      "at": "2026-10-28T08:52:23.935Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.004224
+      "objects": 6,
+      "cost_usd": 0.005319
     },
     "summarized": {
-      "at": "2026-10-06T19:32:21.511Z",
+      "at": "2026-10-28T08:52:23.937Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:21.512Z",
+      "at": "2026-10-28T08:52:23.938Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:21.513Z",
+      "at": "2026-10-28T08:52:23.939Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-responding-to-requests-about-personal-data.md",
     "description": "This article explains how to respond to requests about personal data.",
-    "ms_date": "2024-11-14",
+    "ms_date": "2026-10-22",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1178,
+    "ai_usage": "ai-assisted",
+    "words": 1176,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "19d708f5a2d48c6aa61fba738d391cb066bf7bdc15828335ac3a40bb78939085"
+  "output_hash": "05034410b94152c03240fd1904d752ccdf4c3b28b1bd1070c84b6f1b42b31051"
 }

@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcapps-prs/12867",
+  "number": 12867,
+  "title": "[29.X]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Fixed an issue where modifying the description field on purchase invoice and credit memo lines would unexpectedly reset the quantity to 1.",
+  "key_points": [
+    "Quantity field was being reset when description was edited on purchase document lines",
+    "Issue affected both purchase invoices and credit memos",
+    "Fix applied to the subform pages handling these documents",
+    "Test case added to verify the corrected behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002951,
+    "changes_in_call": 1
+  }
+}

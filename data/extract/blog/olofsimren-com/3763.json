@@ -39,14 +39,6 @@
   ],
   "versions": [],
   "language": "en",
-  "trimmed_for_policy": 0,
-  "prompt_version": 1,
-  "llm": {
-    "model": "claude-haiku-4-5-20251001",
-    "cached": false,
-    "cost_usd": 0.006095,
-    "posts_in_call": 1
-  },
   "quotes": [
     {
       "text": "It uses the Cosmo Consult's Digital Consultant to guide companies through the steps of learning and configuring Business Central on their own.",
@@ -56,5 +48,13 @@
       "text": "It takes a complex task and makes it simple by guiding and educating the users step by step.",
       "why_it_matters": "Captures the value proposition comparing the product to TurboTax, emphasizing user empowerment through guided learning while accomplishing work"
     }
-  ]
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
 }

@@ -1,25 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/norwegian-vat-reporting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-reporting",
-  "title": "Norwegian VAT reporting [NO]",
-  "blob": "f621d3f8d229bd5fd801a3fe93ab9f9039511312",
-  "summary": "Norwegian VAT reporting describes the process for generating and submitting electronic VAT returns to Norwegian tax authorities through ID-Porten integration, including setup, authorization, VAT statement mapping, and VAT period management.",
+  "title": "Norwegian VAT Reporting in Business Central",
+  "blob": "c3d50a460b4251713c91eb5213f21d499ff78598",
+  "summary": "Norwegian VAT Reporting describes how to set up and submit electronic VAT returns using ID-Porten authentication, including integration point configuration, VAT code setup, and submission workflow through tax authorities.",
   "systems": [
     "finance",
-    "localization"
+    "localization",
+    "administration"
   ],
   "topics": [
     "vat reporting",
-    "norway localization",
-    "electronic submission",
+    "norway",
     "id-porten",
-    "vat setup",
+    "electronic submission",
+    "vat codes",
+    "oauth 2.0",
     "tax authorities"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Assisted Setup"
+      "name": "VAT Returns"
     },
     {
       "type": "page",
@@ -27,19 +29,19 @@
     },
     {
       "type": "page",
-      "name": "OAuth 2.0 Setup"
-    },
-    {
-      "type": "page",
       "name": "VAT Report Setup"
     },
     {
       "type": "page",
-      "name": "VAT Returns"
+      "name": "VAT Reporting Codes"
     },
     {
       "type": "page",
-      "name": "VAT Settlement"
+      "name": "VAT Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
     },
     {
       "type": "page",
@@ -50,17 +52,23 @@
       "name": "Settled VAT Period"
     },
     {
+      "type": "page",
+      "name": "VAT Reports Configuration"
+    },
+    {
       "type": "report",
       "name": "Calc. and Post VAT Settlement"
     }
   ],
   "features": [
-    "ID-Porten integration",
     "electronic VAT submission",
-    "OAuth 2.0 authorization",
+    "ID-Porten authentication",
+    "OAuth 2.0 setup",
     "VAT period closure",
-    "VAT statement mapping",
-    "concessional rate configuration"
+    "VAT return validation",
+    "VAT return submission",
+    "tax authority response handling",
+    "VAT statement creation"
   ],
   "versions": [
     "23.5"
@@ -71,8 +79,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005722,
-      "pages_in_call": 8
+      "cost_usd": 0.013821,
+      "pages_in_call": 1
     }
   ]
 }

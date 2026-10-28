@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-responding-to-requests-about-personal-data.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-responding-to-requests-about-personal-data",
   "title": "Responding to requests about users' personal data",
-  "blob": "8f22104d1d6150e963d3e73b24e549cb18c825bc",
-  "summary": "Responding to data subject requests for personal data export, deletion, and correction, with tools to manage data portability, restrict processing, and handle minors' data under privacy regulations.",
+  "blob": "5ac282b26f68db247af70eef3eae0ec2a687e608",
+  "summary": "Administrators can respond to data subject requests for personal data including export, deletion, and modification using the Data Privacy Utility and options in the Administration Role Center.",
   "systems": [
     "administration",
     "platform"
@@ -11,19 +11,45 @@
   "topics": [
     "data privacy",
     "data subject requests",
-    "gdpr compliance",
-    "personal data export",
-    "data classification"
+    "gdpr",
+    "personal data",
+    "data export",
+    "data deletion"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Administration of users, security groups and permissions"
+    },
+    {
+      "type": "table",
+      "name": "Contact"
+    },
+    {
+      "type": "table",
+      "name": "Contact Profile Answers"
+    },
+    {
+      "type": "table",
+      "name": "Profile Questions"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    }
+  ],
   "features": [
     "Data Privacy Utility",
-    "Data portability requests",
-    "Data deletion",
-    "Data correction",
-    "Privacy Blocked marking",
-    "Minor classification",
-    "Parental Consent tracking"
+    "Data Privacy tab",
+    "Privacy Blocked checkbox",
+    "RapidStart configuration packages",
+    "Data portability export",
+    "Change Log Setup",
+    "Parental Consent Received"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +58,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004224,
-      "pages_in_call": 8
+      "cost_usd": 0.005319,
+      "pages_in_call": 1
     }
   ]
 }

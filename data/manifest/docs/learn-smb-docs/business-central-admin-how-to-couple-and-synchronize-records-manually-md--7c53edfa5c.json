@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Coupling and synchronizing",
+  "title": "Couple and Synchronize Records with Dataverse",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-to-couple-and-synchronize-records-manually",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.521Z",
-      "blob": "114352a480d43cfc9f6c6d922faa47632c848b22",
-      "words": 954,
+      "at": "2026-10-28T08:51:21.223Z",
+      "blob": "072187e0325af877a168e2694276eb836fc97faa",
+      "words": 949,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:05:19.650Z",
+      "at": "2026-10-28T08:51:42.777Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.004037
+      "objects": 6,
+      "cost_usd": 0.005224
     },
     "summarized": {
-      "at": "2026-10-06T19:05:19.665Z",
+      "at": "2026-10-28T08:51:42.779Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:05:19.666Z",
+      "at": "2026-10-28T08:51:42.780Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:05:19.667Z",
+      "at": "2026-10-28T08:51:42.782Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-how-to-couple-and-synchronize-records-manually.md",
     "description": "Synchronizing an integration table mapping enables data syncing in all records in a table in Business Central and Sales tables that are coupled.",
-    "ms_date": "2025-04-25",
+    "ms_date": "2026-10-22",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -61,12 +61,12 @@
       "decouple",
       "synchronize"
     ],
-    "ai_usage": null,
-    "words": 954,
+    "ai_usage": "ai-assisted",
+    "words": 949,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "07d85cd9b446441c7672e3ac36691a673328c4ad5c041412a3efd434a30a2059"
+  "output_hash": "cfda33453dafda0ea80d011de848447caeed2bc67142e2b5a929939244e4eb2a"
 }

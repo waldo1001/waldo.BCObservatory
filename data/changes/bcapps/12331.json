@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12331,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12331",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-10-27T06:07:15Z",
+  "merge_commit_sha": "64a7e30308ba53cea1c6de7ac5410ae02053e3f4",
+  "author": "v-praghav",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.x]-FIX-Bug 652342 Check Remittance - Cutting off Vendor Invoice Number",
+  "body_hash": "6444f7f991498708cdd671439606d27e2b0c5109f878891c382309b986ef606e",
+  "fixes_issues": [],
+  "work_items": [
+    652342
+  ],
+  "change_class": "non-code",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 26,
+    "deletions": 14,
+    "al": 0
+  },
+  "join": {
+    "major": "29",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

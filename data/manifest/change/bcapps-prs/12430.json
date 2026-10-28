@@ -6,10 +6,35 @@
   "title": "[main] Source Currency Code and Source Currency Amount not getting updated on Contract Deferral release G/L entries.",
   "url": "https://github.com/microsoft/BCApps/pull/12430",
   "published_at": "2026-10-27T10:18:13Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-28T00:16:46.912Z"
+    },
+    "fetched": {
+      "at": "2026-10-28T08:51:43.086Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-28T08:51:51.262Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003069
+    },
+    "linked": {
+      "at": "2026-10-28T08:51:51.536Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
+    },
+    "published": {
+      "at": "2026-10-28T08:51:51.543Z",
+      "path": "content/changes/bcapps/12430.md"
     }
   },
   "input_hash": "5c91c779c667b16b723d807be05eca5631716f5f:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "source currency code and source currency amount not getting updated on contract deferral release g l entries"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a7332fcef1a48f6faf68d889aa397ad14ee263b14a8350d9114370818a5e1d12"
 }

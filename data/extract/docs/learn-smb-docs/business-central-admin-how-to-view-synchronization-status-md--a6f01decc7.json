@@ -2,19 +2,21 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-how-to-view-synchronization-status.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-to-view-synchronization-status",
   "title": "View the Status of Synchronization Jobs",
-  "blob": "0139783e78dd7e309441c6e0bc2347bc316b17d9",
-  "summary": "Coupled Data Synchronization Errors page shows the status of synchronization jobs for records integrated with Dataverse or Dynamics 365 Sales. View error details and use actions like Retry, Synchronize, Restore, or Delete to resolve coupling issues.",
+  "blob": "8cc475047a312ba5a143a951415da36db16a643f",
+  "summary": "The Coupled Data Synchronization Errors page displays the status of synchronization jobs between Business Central and Dataverse or Dynamics 365 Sales, helping troubleshoot errors from coupled record synchronization.",
   "systems": [
     "integration",
-    "crm"
+    "crm",
+    "administration"
   ],
   "topics": [
     "synchronization",
-    "error handling",
-    "coupling",
-    "job status",
-    "troubleshooting",
-    "dataverse"
+    "dataverse",
+    "dynamics 365 sales",
+    "error resolution",
+    "coupled records",
+    "integration troubleshooting",
+    "data synchronization"
   ],
   "objects": [
     {
@@ -24,15 +26,21 @@
     {
       "type": "page",
       "name": "Integration Table Mappings"
+    },
+    {
+      "type": "page",
+      "name": "Synchronization Log"
     }
   ],
   "features": [
-    "synchronization status",
-    "error resolution",
-    "retry actions",
-    "conflict resolution",
-    "record restoration",
-    "coupling removal"
+    "View synchronization job status",
+    "Coupled record synchronization errors",
+    "Remove coupling",
+    "Retry and retry all",
+    "Synchronize with conflict resolution",
+    "Restore records",
+    "Delete records",
+    "Find deleted couplings"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +49,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004037,
-      "pages_in_call": 8
+      "cost_usd": 0.004463,
+      "pages_in_call": 1
     }
   ]
 }

@@ -6,10 +6,35 @@
   "title": "[29.X]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines",
   "url": "https://github.com/microsoft/BCApps/pull/12867",
   "published_at": "2026-10-27T10:10:20Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-28T00:16:46.912Z"
+    },
+    "fetched": {
+      "at": "2026-10-28T08:52:18.912Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-28T08:52:31.770Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002951
+    },
+    "linked": {
+      "at": "2026-10-28T08:52:35.553Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": "4c1c1638beb6d5da8540cc1f61889b80c7b3356f"
+    },
+    "published": {
+      "at": "2026-10-28T08:52:35.558Z",
+      "path": "content/changes/bcapps/12867.md"
     }
   },
   "input_hash": "e618c7a86083a3e793e8840a1d390aad8410a90d:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "modifying description resets quantity to 1 on purchase invoice lines"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "08a48c29ea7bc7a46e792b3e0e20db9d64de83e6a91c84d88da14d1983bae5b7"
 }

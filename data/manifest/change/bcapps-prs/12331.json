@@ -6,7 +6,7 @@
   "title": "[29.x]-FIX-Bug 652342 Check Remittance - Cutting off Vendor Invoice Number",
   "url": "https://github.com/microsoft/BCApps/pull/12331",
   "published_at": "2026-10-27T06:07:15Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-28T00:16:46.912Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix bug 652342 check remittance cutting off vendor invoice number"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-28T08:52:56.484Z",
+  "retry_after": null
 }
