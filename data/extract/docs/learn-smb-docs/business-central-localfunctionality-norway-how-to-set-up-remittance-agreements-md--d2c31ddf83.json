@@ -1,19 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-set-up-remittance-agreements.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-remittance-agreements",
-  "title": "Set Up Remittance Agreements [NO]",
-  "blob": "c6a0462096e50b879bdcc5419d639e6c660b188d",
-  "summary": "Set up remittance agreements with Norwegian banks for electronic payments by specifying payment systems, bank details, payment file handling, and return file configuration.",
+  "title": "Set Up Remittance Agreements in the Norwegian Version [NO]",
+  "blob": "339e500fdc7e1f17bdb7cb1d9e0c553c8dbf90ce",
+  "summary": "Set up remittance agreements in the Norwegian version to enable electronic payments to vendors through banks. Configure agreement codes, payment systems, bank operator details, and return file handling.",
   "systems": [
-    "finance",
-    "localization"
+    "purchasing",
+    "localization",
+    "finance"
   ],
   "topics": [
     "remittance",
-    "norway",
     "electronic payments",
-    "bank agreements",
-    "vendor payments"
+    "norway",
+    "vendor payments",
+    "bank integration",
+    "payment systems"
   ],
   "objects": [
     {
@@ -26,14 +28,14 @@
     }
   ],
   "features": [
-    "Payment System selection",
-    "Operator No.",
-    "Company/Agreement No.",
-    "BBS Customer Unit ID",
-    "Payment File Name",
-    "Save Return File",
-    "Receipt Return Required",
-    "On Hold Rejection Code"
+    "Remittance agreement setup",
+    "Payment system configuration",
+    "Bank operator information",
+    "Return file handling",
+    "Return file name setup",
+    "Receipt return verification",
+    "On Hold rejection codes",
+    "Document numbering per field"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002876,
-      "pages_in_call": 8
+      "cost_usd": 0.004629,
+      "pages_in_call": 1
     }
   ]
 }

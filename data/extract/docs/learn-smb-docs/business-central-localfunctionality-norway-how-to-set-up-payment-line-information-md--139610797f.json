@@ -1,19 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-set-up-payment-line-information.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-payment-line-information",
-  "title": "How to set up payment line information [NO]",
-  "blob": "c49ec15887de5daa079aada80ce42f02c54cfa70",
-  "summary": "Configure payment line information for Norwegian remittance payments including remittance account codes, recipient references, KID numbers, and payment types.",
+  "title": "Set Up Payment Line Information in the Norwegian Version [NO]",
+  "blob": "1dadf4822c862bd57178496d4aa969ab70e955fb",
+  "summary": "Setting up payment line information in the Norwegian version involves configuring remittance account codes, remittance types, and payment details on the Payment Info page for vendor payments.",
   "systems": [
-    "finance",
+    "purchasing",
     "localization"
   ],
   "topics": [
+    "payment journals",
     "remittance payments",
-    "norway",
-    "payment setup",
-    "electronic payments",
-    "vendor payments"
+    "norwegian localization",
+    "vendor payments",
+    "payment line information"
   ],
   "objects": [
     {
@@ -27,13 +27,12 @@
   ],
   "features": [
     "Remittance Account Code",
-    "Remittance Agreement Code",
     "Remittance Type",
+    "KID (Customer ID Number)",
     "Recipient Reference",
-    "KID number",
     "Payment Type Code",
-    "Check options",
-    "Exchange rate settings"
+    "Foreign Exchange Rate",
+    "Futures Contract"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002876,
-      "pages_in_call": 8
+      "cost_usd": 0.004148,
+      "pages_in_call": 1
     }
   ]
 }

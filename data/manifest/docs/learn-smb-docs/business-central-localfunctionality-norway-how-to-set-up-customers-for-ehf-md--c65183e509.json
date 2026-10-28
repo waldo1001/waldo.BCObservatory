@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set Up Customers for EHF",
+  "title": "Set Up Norwegian Customers for EHF",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-customers-for-ehf",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.088Z",
-      "blob": "fb1545364b5e7c9d3057903592e96c97891e0a5c",
-      "words": 233,
+      "at": "2026-10-28T09:05:49.921Z",
+      "blob": "9a7354235f77a924209f8b4a7d05f88064d119af",
+      "words": 254,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:25:07.023Z",
+      "at": "2026-10-28T09:05:55.886Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002876
+      "cost_usd": 0.003542
     },
     "summarized": {
-      "at": "2026-10-06T19:25:08.741Z",
+      "at": "2026-10-28T09:05:55.887Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:08.742Z",
+      "at": "2026-10-28T09:05:55.889Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:08.743Z",
+      "at": "2026-10-28T09:05:55.891Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-set-up-customers-for-ehf.md",
-    "description": "Learn how to create Elektronisk Handelsformat (EHF) documents for customers in the public sector.",
-    "ms_date": "2025-05-13",
+    "description": "Set up customer identifiers, account codes, and invoicing options for the legacy Norwegian EHF electronic document workflow in Business Central.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -66,12 +66,12 @@
       "add EHF information",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 233,
+    "ai_usage": "ai-assisted",
+    "words": 254,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3994e15fefb6f521773f6c19f4eb6a4e967a3d83db8399aa5df6732aca794723"
+  "output_hash": "ce5ce8eae395bf67d226d47f8a561a9cdd7efa457bbe5bc5bf6100364043b712"
 }

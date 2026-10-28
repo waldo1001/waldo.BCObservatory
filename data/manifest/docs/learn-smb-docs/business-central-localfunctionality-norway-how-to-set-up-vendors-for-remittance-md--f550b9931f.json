@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set Up Vendors for Remittance [NO]",
+  "title": "Set Up Vendors for Remittance in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-vendors-for-remittance",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.127Z",
-      "blob": "7545cc96ca1dbe96fd830756971e1d5714008575",
-      "words": 784,
+      "at": "2026-10-28T09:05:55.999Z",
+      "blob": "66708cba47d93cb6a4b7344fe045a328575c6083",
+      "words": 773,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:25:20.900Z",
+      "at": "2026-10-28T09:06:06.154Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002792
+      "objects": 1,
+      "cost_usd": 0.004887
     },
     "summarized": {
-      "at": "2026-10-06T19:25:20.907Z",
+      "at": "2026-10-28T09:06:06.156Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:20.907Z",
+      "at": "2026-10-28T09:06:06.163Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:20.908Z",
+      "at": "2026-10-28T09:06:06.171Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-set-up-vendors-for-remittance.md",
-    "description": "Learn how to set up vendors for remittance to automate payments and minimize manual entry errors.",
-    "ms_date": "2025-05-14",
+    "description": "Set up Norwegian vendors for remittance payments in Business Central, including remittance accounts, recipient references, and foreign bank details.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -86,12 +86,12 @@
       "Norwegian version",
       "remittance payments"
     ],
-    "ai_usage": null,
-    "words": 784,
+    "ai_usage": "ai-assisted",
+    "words": 773,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ff75a7bae1831bd598dde1e587727c28676051cd280cfcf0a6139fc9f2e2c83c"
+  "output_hash": "509a97826886283707c03c93a4a75c95dc19717f3e7dfefceb8f8a2be18abd42"
 }

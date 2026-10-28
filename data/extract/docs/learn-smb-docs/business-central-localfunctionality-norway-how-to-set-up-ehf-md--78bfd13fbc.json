@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-set-up-ehf.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ehf",
-  "title": "Set Up EHF [NO]",
-  "blob": "6525787b8c0b7348364a56d1088894680fa67c3e",
-  "summary": "Norwegian electronic invoicing setup describes configuring EHF file storage locations for sales, receivables, and service management documents. Use this to define where electronic invoice files are saved in the Norwegian version.",
+  "title": "Set Up EHF in the Norwegian Version [NO]",
+  "blob": "fa51ff338af937e1a11424ceb577e1375d2dd040",
+  "summary": "Set up Elektronisk Handelsformat (EHF) file storage locations for electronic invoices, credit memos, reminders, and finance charges in the Norwegian version. Configure output paths in Sales & Receivables Setup and Service Management Setup.",
   "systems": [
     "sales",
     "service",
@@ -13,8 +13,10 @@
     "ehf",
     "electronic invoicing",
     "norway",
+    "file locations",
     "e-invoice",
-    "file paths"
+    "sales invoices",
+    "credit memos"
   ],
   "objects": [
     {
@@ -28,10 +30,12 @@
   ],
   "features": [
     "EHF file locations",
-    "invoice path",
-    "credit memo path",
-    "e-invoice reminder path",
-    "finance charge path"
+    "Invoice Path",
+    "Credit Memo Path",
+    "E-Invoice Reminder Path",
+    "E-Invoice Finance Charge Path",
+    "E-Invoice Service Invoice Path",
+    "E-Invoice Service Credit Memo Path"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004284,
-      "pages_in_call": 8
+      "cost_usd": 0.003916,
+      "pages_in_call": 1
     }
   ]
 }

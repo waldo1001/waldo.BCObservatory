@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to set up payment line information [NO]",
+  "title": "Set Up Payment Line Information in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-payment-line-information",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.106Z",
-      "blob": "c49ec15887de5daa079aada80ce42f02c54cfa70",
-      "words": 423,
+      "at": "2026-10-28T09:05:55.497Z",
+      "blob": "1dadf4822c862bd57178496d4aa969ab70e955fb",
+      "words": 432,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:08.736Z",
+      "at": "2026-10-28T09:06:06.104Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002876
+      "cost_usd": 0.004148
     },
     "summarized": {
-      "at": "2026-10-06T19:25:08.753Z",
+      "at": "2026-10-28T09:06:06.106Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:08.754Z",
+      "at": "2026-10-28T09:06:06.108Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:08.755Z",
+      "at": "2026-10-28T09:06:06.109Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-set-up-payment-line-information.md",
     "description": "Learn how to set up payment journal line information for remittance payments on the Payment Info page in the Norwegian version of Business Central.",
-    "ms_date": "2025-05-14",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "payment info",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 423,
+    "ai_usage": "ai-assisted",
+    "words": 432,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a52c462cd69e39c79124b8d618229abb1dd4e06b0d674ee6ba05f4c3a609facc"
+  "output_hash": "7f81de8355267f6588f31316805b66fc49bf5020ef6e04229b37b674c52bbba3"
 }

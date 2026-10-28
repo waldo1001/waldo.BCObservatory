@@ -1,40 +1,37 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-set-up-vendors-for-remittance.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-vendors-for-remittance",
-  "title": "Set Up Vendors for Remittance [NO]",
-  "blob": "7545cc96ca1dbe96fd830756971e1d5714008575",
-  "summary": "Set up vendors for remittance in Norwegian Business Central by configuring vendor information, remittance accounts, bank details, and payment specifications for electronic payments to vendors.",
+  "title": "Set Up Vendors for Remittance in the Norwegian Version [NO]",
+  "blob": "66708cba47d93cb6a4b7344fe045a328575c6083",
+  "summary": "Set up vendors for remittance in the Norwegian version of Business Central by configuring remittance details, payment information, and bank details for domestic and foreign payments.",
   "systems": [
     "purchasing",
-    "localization"
+    "localization",
+    "administration"
   ],
   "topics": [
     "vendor setup",
     "remittance",
-    "payment",
+    "electronic payments",
     "norway",
-    "bank accounts",
-    "electronic payments"
+    "banking",
+    "payments"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Vendors"
-    },
-    {
-      "type": "page",
-      "name": "Remittance Info"
     }
   ],
   "features": [
-    "Remittance",
-    "Remittance Account Code",
-    "Recipient Bank Account No.",
-    "Remittance Agreement Code",
-    "Recipient Reference",
-    "Payment abroad",
-    "SWIFT",
-    "Bank information"
+    "Remittance setup",
+    "Remittance account code",
+    "Recipient bank account",
+    "Recipient reference codes",
+    "Domestic payment charges",
+    "Foreign payment charges",
+    "SWIFT address",
+    "Bank details for recipients"
   ],
   "versions": [],
   "parts": 1,
@@ -43,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002792,
-      "pages_in_call": 8
+      "cost_usd": 0.004887,
+      "pages_in_call": 1
     }
   ]
 }

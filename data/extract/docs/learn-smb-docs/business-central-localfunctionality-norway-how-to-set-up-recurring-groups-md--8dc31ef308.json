@@ -1,39 +1,42 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-set-up-recurring-groups.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-recurring-groups",
-  "title": "How to Set Up Recurring Groups",
-  "blob": "75c6e6a92e5910b199c1eda4a2cca3cb01bc610d",
-  "summary": "Set up recurring group codes with date formulas and update rules to create templates for recurring sales orders in Norway.",
+  "title": "Set Up Norwegian Recurring Order Groups",
+  "blob": "0a2b5075e564e633329cbecc388ed8424e704007",
+  "summary": "Set up recurring group codes with date formulas to define templates for creating sales orders based on recurring intervals in Norwegian Business Central. Use this to configure when and how recurring orders are generated.",
   "systems": [
     "sales",
     "localization"
   ],
   "topics": [
     "recurring orders",
-    "norway",
-    "blanket orders",
+    "blanket sales orders",
     "date formulas",
-    "order automation"
+    "norway",
+    "order templates",
+    "sales setup"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Recurring Groups"
+      "name": "Blanket Sales Order"
     },
     {
       "type": "page",
-      "name": "Blanket Sales Order"
+      "name": "Recurring Groups"
     }
   ],
   "features": [
     "Recurring Group Code",
     "Date formula",
-    "Create only latest",
+    "Create only the latest",
+    "Starting date",
+    "Closing date",
+    "Update Document Date",
     "Document Date Formula",
     "Delivery Date Formula",
     "Update Price",
-    "Update Number",
-    "Reset Delivery"
+    "Update Number"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +45,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002876,
-      "pages_in_call": 8
+      "cost_usd": 0.003618,
+      "pages_in_call": 1
     }
   ]
 }

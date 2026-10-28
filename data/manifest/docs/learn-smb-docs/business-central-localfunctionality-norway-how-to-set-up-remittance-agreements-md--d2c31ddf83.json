@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set Up Remittance Agreements [NO]",
+  "title": "Set Up Remittance Agreements in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-remittance-agreements",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.121Z",
-      "blob": "c6a0462096e50b879bdcc5419d639e6c660b188d",
-      "words": 625,
+      "at": "2026-10-28T09:05:55.942Z",
+      "blob": "339e500fdc7e1f17bdb7cb1d9e0c553c8dbf90ce",
+      "words": 614,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:25:08.740Z",
+      "at": "2026-10-28T09:06:06.137Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002876
+      "cost_usd": 0.004629
     },
     "summarized": {
-      "at": "2026-10-06T19:25:08.762Z",
+      "at": "2026-10-28T09:06:06.139Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:08.763Z",
+      "at": "2026-10-28T09:06:06.140Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:08.764Z",
+      "at": "2026-10-28T09:06:06.142Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-set-up-remittance-agreements.md",
     "description": "Learn how to set up remittance agreements with your bank for electronic payments in the Norwegian version of Business Central.",
-    "ms_date": "2025-05-14",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -84,12 +84,12 @@
       "remittance agreement setup",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 625,
+    "ai_usage": "ai-assisted",
+    "words": 614,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "07d4562f613abb8e41a3c4a2657aed63bafd53883bb15880fc83e0507b31d814"
+  "output_hash": "3377266fc886470e325e945f26c22afcea73fc3414dec22a45de8655708720ac"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set Up EHF [NO]",
+  "title": "Set Up EHF in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ehf",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.999Z",
-      "blob": "6525787b8c0b7348364a56d1088894680fa67c3e",
-      "words": 309,
+      "at": "2026-10-28T09:05:50.059Z",
+      "blob": "fa51ff338af937e1a11424ceb577e1375d2dd040",
+      "words": 317,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:24:42.893Z",
+      "at": "2026-10-28T09:05:55.875Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.004284
+      "cost_usd": 0.003916
     },
     "summarized": {
-      "at": "2026-10-06T19:24:44.614Z",
+      "at": "2026-10-28T09:05:55.876Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:44.615Z",
+      "at": "2026-10-28T09:05:55.877Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:44.616Z",
+      "at": "2026-10-28T09:05:55.879Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-set-up-ehf.md",
     "description": "Learn how to configure storage locations for EHF files when generating electronic documents such as invoices or credit memos.",
-    "ms_date": "2025-05-14",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -66,12 +66,12 @@
       "sales and receivables",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 309,
+    "ai_usage": "ai-assisted",
+    "words": 317,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7ba427a6f2449058abbbd8397e0a4ee1a63e14d5fa51aaca7433e930d77f670f"
+  "output_hash": "8c3cc49bac8bc79b167bfd18d5f776e177e4209fd6220abceb51a60f3cc0b8df"
 }

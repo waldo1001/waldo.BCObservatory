@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Set Up Recurring Groups",
+  "title": "Set Up Norwegian Recurring Order Groups",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-recurring-groups",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.111Z",
-      "blob": "75c6e6a92e5910b199c1eda4a2cca3cb01bc610d",
-      "words": 464,
+      "at": "2026-10-28T09:05:55.835Z",
+      "blob": "0a2b5075e564e633329cbecc388ed8424e704007",
+      "words": 440,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:08.738Z",
+      "at": "2026-10-28T09:06:01.107Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002876
+      "cost_usd": 0.003618
     },
     "summarized": {
-      "at": "2026-10-06T19:25:08.756Z",
+      "at": "2026-10-28T09:06:01.109Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:08.757Z",
+      "at": "2026-10-28T09:06:01.110Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:08.758Z",
+      "at": "2026-10-28T09:06:06.094Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-set-up-recurring-groups.md",
     "description": "Learn how to use the Recurring Group Code field on the Blanket Sales Order page to define date formulas for creating sales orders based on date intervals.",
-    "ms_date": "2025-05-14",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "create sales orders",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 464,
+    "ai_usage": "ai-assisted",
+    "words": 440,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "15bd583d260c48f954a247cf8c03975073292bfd2a8275af806fcf604d1ab6fd"
+  "output_hash": "24c105520a8c703c93a6d0fbf24f7b0a5415f7b6a5253129e332561567a9821a"
 }

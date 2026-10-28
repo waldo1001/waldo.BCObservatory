@@ -1,36 +1,35 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-set-up-ocr-payments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-ocr-payments",
-  "title": "Set up OCR payments [NO]",
-  "blob": "6d2c03889718caf13a57abe7656911229097017d",
-  "summary": "Set up OCR payment processing in Norway to handle electronic payments from customers using predefined payment IDs and import payment transaction data.",
+  "title": "Set Up Norwegian OCR Customer Payments",
+  "blob": "0e5365ae7aeacb2d9455af50ce34565374a91b32",
+  "summary": "Set up optical character recognition (OCR) payments in Norway to process electronic customer payments using payment IDs. Configure OCR file formats, account types, divergence tolerances, and journal settings for importing and posting OCR Giro payments.",
   "systems": [
     "finance",
+    "sales",
     "localization"
   ],
   "topics": [
     "ocr payments",
-    "norway",
     "electronic banking",
+    "customer payments",
+    "norway",
     "payment processing",
-    "optical character recognition"
+    "cash receipt journal"
   ],
   "objects": [
     {
-      "type": "page",
-      "name": "OCR Setup"
-    },
-    {
-      "type": "page",
+      "type": "table",
       "name": "Gen. Journal Template"
     }
   ],
   "features": [
-    "OCR file format",
-    "payment file import",
-    "balance account setup",
-    "maximum divergence",
-    "journal template configuration"
+    "OCR payment file formats (BBS, Data Dialog)",
+    "Balance account configuration",
+    "Maximum divergence handling",
+    "Divergence account posting",
+    "Journal template assignment",
+    "OCR Giro payment import"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002876,
-      "pages_in_call": 8
+      "cost_usd": 0.003583,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Set Up Recurring Orders",
+  "title": "Set Up Norwegian Recurring Sales Orders",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-recurring-orders",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.116Z",
-      "blob": "a262d0951ade6b5ab3a7ea40b5277a3d7c7b9a88",
-      "words": 210,
+      "at": "2026-10-28T09:05:55.900Z",
+      "blob": "36f20c52ef363407af88cfdad3307d2c573c4296",
+      "words": 199,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:08.739Z",
+      "at": "2026-10-28T09:06:06.119Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002876
+      "cost_usd": 0.005733
     },
     "summarized": {
-      "at": "2026-10-06T19:25:08.759Z",
+      "at": "2026-10-28T09:06:06.122Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:08.760Z",
+      "at": "2026-10-28T09:06:06.124Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:08.761Z",
+      "at": "2026-10-28T09:06:06.126Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-set-up-recurring-orders.md",
-    "description": "Learn how to set up recurring orders by adding a recurring group to a blanket sales order.",
-    "ms_date": "2025-05-14",
+    "description": "Set up Norwegian recurring sales orders in Business Central by assigning a recurring group to a blanket sales order and defining the quantity to ship.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "recurring group",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 210,
+    "ai_usage": "ai-assisted",
+    "words": 199,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d15b63a982aa515bfceafc368c0949faed2af480d3e475f168242ea16f38e694"
+  "output_hash": "82d89568952dda87f0bf5c93c848b0dfb5671a1c7ee36f6b18c3bea32d742b52"
 }

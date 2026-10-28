@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Set Up Document Printing",
+  "title": "Set Up Norwegian Sales Document Printing",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-document-printing",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.092Z",
-      "blob": "3a2aef8953f4e579131b20accb29df4d3b868f78",
-      "words": 274,
+      "at": "2026-10-28T09:05:49.868Z",
+      "blob": "c7679c7bd5e9d67479e3bca34870ea7c590b0aa3",
+      "words": 263,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:07.024Z",
+      "at": "2026-10-28T09:05:55.439Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002876
+      "objects": 0,
+      "cost_usd": 0.003223
     },
     "summarized": {
-      "at": "2026-10-06T19:25:08.744Z",
+      "at": "2026-10-28T09:05:55.441Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:08.745Z",
+      "at": "2026-10-28T09:05:55.442Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:08.746Z",
+      "at": "2026-10-28T09:05:55.444Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-set-up-document-printing.md",
-    "description": "Learn how to print sales reports with giro specifications using various paper types and trays.",
-    "ms_date": "2025-05-13",
+    "description": "Learn about Norwegian sales document printing with giro and KID information, including the paper source and tray settings described for sales reports.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "KID information",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 274,
+    "ai_usage": "ai-assisted",
+    "words": 263,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1de3ec35e50344cc73a756c7d1871bcd12f4b8ea0f05feae5e44389d2c7fd5fc"
+  "output_hash": "967d4c4d72a4a1bec78dfc70be588e1b96d2e16539bd9ca00508287aa667b9f7"
 }

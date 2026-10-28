@@ -1,19 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-set-up-recurring-orders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-set-up-recurring-orders",
-  "title": "How to Set Up Recurring Orders",
-  "blob": "a262d0951ade6b5ab3a7ea40b5277a3d7c7b9a88",
-  "summary": "Configure recurring orders on blanket sales orders by assigning recurring group codes to create automatic recurring sales orders in Norway.",
+  "title": "Set Up Norwegian Recurring Sales Orders",
+  "blob": "36f20c52ef363407af88cfdad3307d2c573c4296",
+  "summary": "Setting up Norwegian recurring sales orders involves creating a blanket sales order with a recurring group code and specifying quantities to ship. Use this to automate repeated sales orders based on defined recurring groups.",
   "systems": [
     "sales",
     "localization"
   ],
   "topics": [
     "recurring orders",
-    "norway",
-    "blanket orders",
-    "order automation",
-    "sales orders"
+    "blanket sales orders",
+    "norwegian functionality",
+    "order setup"
   ],
   "objects": [
     {
@@ -22,8 +21,8 @@
     }
   ],
   "features": [
-    "Order Date",
     "Recurring Group Code",
+    "Order Date",
     "Quantity",
     "Qty. to Ship"
   ],
@@ -34,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002876,
-      "pages_in_call": 8
+      "cost_usd": 0.005733,
+      "pages_in_call": 1
     }
   ]
 }
