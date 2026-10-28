@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Async processing Overview",
+  "title": "Async Processing Overview for Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview",
-  "published_at": "2024-11-21T09:54:17.000Z",
+  "published_at": "2026-10-27T14:30:34.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:42.579Z",
-      "blob": "48a6276fa6887ed6e4284142b0fa178f3b8a2993",
-      "words": 118,
+      "at": "2026-10-28T00:17:15.589Z",
+      "blob": "00891d0a905b3243fab05fbd97af7c7cb661fbc6",
+      "words": 110,
       "forms": 0
     },
     "extracted": {
@@ -38,23 +38,23 @@
       "page": false
     }
   },
-  "input_hash": "48a6276fa6887ed6e4284142b0fa178f3b8a2993",
+  "input_hash": "00891d0a905b3243fab05fbd97af7c7cb661fbc6",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-async-overview.md",
-    "description": "Overview on the different ways an AL developer can do asynchronous (async) processing.",
-    "ms_date": "2023-10-04",
+    "description": "Compare asynchronous processing options in AL, including page background tasks, background sessions, scheduled tasks, and job queues in Business Central.",
+    "ms_date": "2026-10-15",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 118,
+    "words": 110,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2b889f3727cd0ad4a745564d27e14dfa0e0486e0e9ca15c9c31c55f799887e80"
+  "output_hash": "00891d0a905b3243fab05fbd97af7c7cb661fbc6"
 }

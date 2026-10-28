@@ -1,0 +1,43 @@
+{
+  "id": "change/bcapps-prs/13272",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Keep historical FX balances when unapplying payments",
+  "url": "https://github.com/microsoft/BCApps/pull/13272",
+  "published_at": "2026-10-27T19:26:59Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-28T00:16:46.912Z"
+    },
+    "fetched": {
+      "at": "2026-10-28T00:17:16.898Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "4a81310c5067edc6dafba4990a8f5487b2ec4012:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13272,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4a81310c5067edc6dafba4990a8f5487b2ec4012",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "keep historical fx balances when unapplying payments"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "60f791c649c7f2f3160dbd947b89d486b23971a76abf5e53c8cad6f79412f347"
+}

@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Attach and debug next",
+  "title": "Attach and Debug Next in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-attach-debug-next",
-  "published_at": "2026-03-23T10:24:30.000Z",
+  "published_at": "2026-10-27T14:30:34.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.494Z",
-      "blob": "535aa3bf02c3c34b9b5d3bfba41951b0c8733723",
-      "words": 797,
+      "at": "2026-10-28T00:17:15.666Z",
+      "blob": "8e38d4276b6ee317f3d2841731003aa7fd9678bd",
+      "words": 874,
       "forms": 0
     },
     "extracted": {
@@ -38,30 +38,29 @@
       "page": false
     }
   },
-  "input_hash": "535aa3bf02c3c34b9b5d3bfba41951b0c8733723",
+  "input_hash": "8e38d4276b6ee317f3d2841731003aa7fd9678bd",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-attach-debug-next.md",
-    "description": "Attach to a session on a specified server and debug for Web API sessions.",
-    "ms_date": "2026-03-04",
+    "description": "Attach the AL debugger to an existing or next session in Business Central. Configure web client, web service, background, and agent session debugging.",
+    "ms_date": "2026-10-15",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 797,
+    "words": 874,
     "identifiers": [
-      "sessionId",
       "userId",
+      "sessionId",
       "breakOnNext",
       "WebServiceClient",
-      "WebClient",
-      "serverInstance"
+      "WebClient"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "19fbe26dca1debf35df8e552a42251470bd5cb54d7889933d173053969c0751e"
+  "output_hash": "8e38d4276b6ee317f3d2841731003aa7fd9678bd"
 }

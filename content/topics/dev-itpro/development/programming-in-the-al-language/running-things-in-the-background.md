@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:30.865Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-28T00:22:52.258Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -20,8 +20,8 @@ generated:
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview
-    title: Async processing Overview
-    date: "2023-10-04"
+    title: Async Processing Overview for Business Central
+    date: "2026-10-15"
     commit: null
     t: null
     quote: null
@@ -143,7 +143,7 @@ Start with the Async processing overview, which sets out the operational limits 
 
 ## More Learn pages
 
-- [Async processing Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview): Overview on the different ways an AL developer can do asynchronous (async) processing.
+- [Async Processing Overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview): Compare asynchronous processing options in AL, including page background tasks, background sessions, scheduled tasks, and job queues in Business Central.
 - [Job queue](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-job-queue): Learn about how the job queue works
   - In the observatory: [Codeunit 448 "Job Queue Dispatcher"](../../../../objects/codeunit/448.md), [Codeunit 450 "Job Queue Error Handler"](../../../../objects/codeunit/450.md), [Table 472 "Job Queue Entry"](../../../../objects/table/472.md)
 - [Page Background Tasks](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-background-tasks): Explains how to create page background tasks in Business Central.

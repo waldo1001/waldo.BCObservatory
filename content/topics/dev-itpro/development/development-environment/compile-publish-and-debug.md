@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:07.389Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-28T00:22:52.258Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -27,8 +27,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-attach-debug-next
-    title: Attach and debug next
-    date: "2026-03-04"
+    title: Attach and Debug Next in Business Central
+    date: "2026-10-15"
     commit: null
     t: null
     quote: null
@@ -174,7 +174,7 @@ Other pages deal with compilation scope (OnPrem or Cloud target levels), signing
 ## Learn pages
 
 - [Analyze AL Performance with the AL Profiler](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-profiler-overview): Use instrumentation or sampling with the AL Profiler to analyze AL execution, SQL activity, call stacks, and performance hot spots.
-- [Attach and debug next](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-attach-debug-next): Attach to a session on a specified server and debug for Web API sessions.
+- [Attach and Debug Next in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-attach-debug-next): Attach the AL debugger to an existing or next session in Business Central. Configure web client, web service, background, and agent session debugging.
 - [Compilation scope overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-compilation-scope-overview): This article explains the configuration and compilation scope for publishing the extension.
 - [Debug AL Code in Visual Studio Code](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debugging): Debug AL code in Visual Studio Code by using breakpoints, attach sessions, record-write breaks, SQL statistics, and debugger settings.
 - [Debug Upgrade and Install Code in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debug-upgrade-install-code): Debug AL install and upgrade codeunits by attaching to Business Central before you publish an extension from Visual Studio Code.

@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2343",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "RunTests action",
+  "url": "https://github.com/microsoft/AL-Go/pull/2343",
+  "published_at": "2026-10-27T14:17:26Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-28T00:16:46.912Z"
+    }
+  },
+  "input_hash": "adb81ccf121dfbf1de8fe4ae2da7e7474528bed9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2343,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "adb81ccf121dfbf1de8fe4ae2da7e7474528bed9",
+    "author": "spetersenms",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "runtests action"
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-22T01:12:24.802Z"
   flags: []
 generated:
-  at: "2026-10-26T10:55:37.280Z"
+  at: "2026-10-28T00:22:52.258Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -293,8 +293,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview
-    title: Async processing Overview
-    date: "2023-10-04"
+    title: Async Processing Overview for Business Central
+    date: "2026-10-15"
     commit: null
     t: null
     quote: null

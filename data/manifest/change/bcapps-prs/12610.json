@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/12610",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Report Filename Manager] New app for configurable report output file names - Slice 651696 [vendor work]",
+  "url": "https://github.com/microsoft/BCApps/pull/12610",
+  "published_at": "2026-10-27T14:24:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-28T00:16:46.912Z"
+    }
+  },
+  "input_hash": "7af239e3a8b9b4946c287cf964cf44d86a8ac4ae:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12610,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7af239e3a8b9b4946c287cf964cf44d86a8ac4ae",
+    "author": "anordmann",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "report filename manager new app for configurable report output file names slice 651696 vendor work"
+  }
+}

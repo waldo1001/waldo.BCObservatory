@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13052",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Upgrade tax matching to GPT-5.6 Ceres",
+  "url": "https://github.com/microsoft/BCApps/pull/13052",
+  "published_at": "2026-10-27T13:08:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-28T00:16:46.912Z"
+    }
+  },
+  "input_hash": "ebee89b226a82666ceafc93aa3d84809f8b831c4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13052,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ebee89b226a82666ceafc93aa3d84809f8b831c4",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify upgrade tax matching to gpt 5 6 ceres"
+  }
+}

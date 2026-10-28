@@ -440,6 +440,15 @@
       "title_key": "bug 650297 29 x renumber new es sii extension objects"
     }
   ],
+  "11400": [
+    {
+      "number": 13210,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-27T19:15:28Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13210",
+      "title_key": "shopify show product in shopify fails when mapped item has no matching shopify variant"
+    }
+  ],
   "11441": [
     {
       "number": 11442,
@@ -746,6 +755,15 @@
       "title_key": "contoso demo data refresh common g l mappings before manufacturing demo setup"
     }
   ],
+  "12561": [
+    {
+      "number": 13209,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-27T14:19:06Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13209",
+      "title_key": "shopify tax match state is rolled back when a rate conflict blocks sales document creation"
+    }
+  ],
   "12584": [
     {
       "number": 12433,
@@ -825,6 +843,15 @@
       "merged_at": "2026-10-26T09:00:20Z",
       "url": "https://github.com/microsoft/BCApps/pull/13204",
       "title_key": "fix duplicate xml audit file fr test codeunit id"
+    }
+  ],
+  "13216": [
+    {
+      "number": 13265,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-27T10:19:02Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13265",
+      "title_key": "fix vat adjustment register 13216"
     }
   ],
   "unmatched": [
@@ -1905,6 +1932,27 @@
       "merged_at": "2026-10-26T19:50:22Z",
       "url": "https://github.com/microsoft/BCApps/pull/13084",
       "title_key": "consistent error posting gst distribution reversal"
+    },
+    {
+      "number": 13136,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-27T07:37:20Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13136",
+      "title_key": "fix work center field persistence when auto save is disabled"
+    },
+    {
+      "number": 12431,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-27T08:30:38Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12431",
+      "title_key": "it should not be possible to post invoices with a non existing posting setup combination because it creates trouble with adjust for payment discount"
+    },
+    {
+      "number": 12764,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-27T21:56:20Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12764",
+      "title_key": "bug 654022 expense agent professional online creating production setup data only company with delegated admin access indirectinsert permission on tabledata 6913 expense pmt method 2610091420000495"
     }
   ]
 }

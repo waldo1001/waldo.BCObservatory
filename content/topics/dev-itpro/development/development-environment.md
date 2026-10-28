@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:46.729Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-28T00:22:52.258Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,8 +69,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-attach-debug-next
-    title: Attach and debug next
-    date: "2026-03-04"
+    title: Attach and Debug Next in Business Central
+    date: "2026-10-15"
     commit: null
     t: null
     quote: null
