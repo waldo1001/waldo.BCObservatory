@@ -2,25 +2,42 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice",
   "title": "GST and TCS on Advance Customer Payments",
-  "blob": "98015d34e382035c772fc9c34b6743130996f03f",
-  "summary": "GST and TCS calculation on advance customer payments in India applies tax on the advance amount received, with specific GL entries tracking interim and final tax payables.",
+  "blob": "4c154059551826c0a1db8dd32fcea2df208a2870",
+  "summary": "GST and TCS calculation on customer advance payments in India localization. Use this to apply advance receipts to sales invoices with proper tax computation and GL entries.",
   "systems": [
     "finance",
     "sales"
   ],
   "topics": [
-    "india localization",
     "gst",
     "tcs",
-    "advance payments",
-    "tax calculation"
+    "advance payment",
+    "india",
+    "tax",
+    "customer receipt"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Receipt Voucher"
+    },
+    {
+      "type": "page",
+      "name": "Cash Receipt Voucher"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoices"
+    }
+  ],
   "features": [
-    "GST on advance payments",
-    "TCS on advance payments",
-    "interim tax accounts",
-    "tax credit adjustment"
+    "GST on Advance Payment",
+    "TCS calculation",
+    "advance receipt application",
+    "GST Group Code",
+    "HSN/SAC Code",
+    "IGST calculation",
+    "GL entries"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00322,
-      "pages_in_call": 8
+      "cost_usd": 0.004058,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Setting up and how to stale check",
+  "title": "Set Up Stale Check",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Stale-Check",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.062Z",
-      "blob": "1c63768a66327157f47420854772c18af6d8940c",
-      "words": 437,
+      "at": "2026-10-28T09:10:41.351Z",
+      "blob": "63ce304162634474478e0f7ffaa7ed3f05cd800f",
+      "words": 539,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:55.868Z",
+      "at": "2026-10-28T09:10:50.923Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.004317
+      "cost_usd": 0.004533
     },
     "summarized": {
-      "at": "2026-10-06T19:16:57.658Z",
+      "at": "2026-10-28T09:10:50.924Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:57.658Z",
+      "at": "2026-10-28T09:10:50.926Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:57.659Z",
+      "at": "2026-10-28T09:10:50.927Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/Stale-Check.md",
-    "description": "Describes the setup steps and process for handling stale checks in Business Central for India.",
-    "ms_date": "2025-06-26",
+    "description": "Set up cheque expiry periods and learn how stale-check actions differ between check ledger and bank account ledger entries in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "stale check setup",
       "manage stale cheques"
     ],
-    "ai_usage": null,
-    "words": 437,
+    "ai_usage": "ai-assisted",
+    "words": 539,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d3b2bb4bd7dafdd5d01d43fe42ec3ce61aed95107b8e670a9992fa0137f4ebeb"
+  "output_hash": "5e8c5513d849896ba32f71d2a801c8a387d30f15148ca7c62019c74e3764a9a4"
 }

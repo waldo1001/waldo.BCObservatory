@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Setting up Posting No. Series",
+  "title": "Setting Up Posting Number Series",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Posting-No-series-setup",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.303Z",
-      "blob": "58c93aad08aa65576c415cb651af21cad210ac08",
-      "words": 313,
+      "at": "2026-10-28T09:10:41.238Z",
+      "blob": "00d075f310dc7525cbd08f9096896e83c0a6f600",
+      "words": 320,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:18:09.413Z",
+      "at": "2026-10-28T09:10:45.617Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00322
+      "objects": 1,
+      "cost_usd": 0.00339
     },
     "summarized": {
-      "at": "2026-10-06T19:18:11.183Z",
+      "at": "2026-10-28T09:10:45.619Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:18:11.184Z",
+      "at": "2026-10-28T09:10:45.620Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:18:11.186Z",
+      "at": "2026-10-28T09:10:45.621Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/Posting-No-series-setup.md",
-    "description": "Learn how to set up posting number series for document numbering.",
-    "ms_date": "2025-06-26",
+    "description": "Set up conditional posting number series for sales, purchase, transfer, and gate entry documents in the India localization of Business Central.",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "document numbering",
       "transfers"
     ],
-    "ai_usage": null,
-    "words": 313,
+    "ai_usage": "ai-assisted",
+    "words": 320,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "908cf26e1d1a5289baf4347065953f26f427d0c7ac221c53d12fbad8d38a4183"
+  "output_hash": "d9931c59201d2297c359ca64608e5346b9ae288d59f3bfc59fb96057b1c0aac4"
 }

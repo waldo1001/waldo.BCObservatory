@@ -2,22 +2,27 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-TCS-on-Payment.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-on-Payment",
   "title": "GST TCS on Vendor Payment",
-  "blob": "e9e83c2ae6d1a63ae8dfa6bf520907efff01b80f",
-  "summary": "GST TCS on vendor payment processing in Business Central India localization, calculating and posting GST TCS liability on vendor payments with GL entry examples for intrastate and interstate transactions.",
+  "blob": "3c18cbf01facf6aeb534dfeb86be8207514e73da",
+  "summary": "GST TCS on Vendor Payment documents how GST Tax Collected at Source is calculated and applied when making payments to registered vendors in India, with entries tracked in the GST TDS/TCS Entry table and settled through cash or bank payments.",
   "systems": [
     "localization",
     "purchasing",
     "finance"
   ],
   "topics": [
-    "gst tcs",
+    "gst",
+    "tcs",
     "vendor payment",
-    "india localization",
-    "tax calculation",
-    "liability",
-    "gst posting"
+    "india",
+    "tax",
+    "cash payment",
+    "bank payment"
   ],
   "objects": [
+    {
+      "type": "table",
+      "name": "GST TDS/TCS Entry"
+    },
     {
       "type": "page",
       "name": "Bank Payment Voucher"
@@ -28,11 +33,12 @@
     }
   ],
   "features": [
-    "GST TCS calculation",
-    "Intrastate transaction posting",
-    "Interstate transaction posting",
-    "Liability tracking",
-    "Payment voucher processing"
+    "GST TCS calculation on vendor payments",
+    "CGST and SGST for intra-state transactions",
+    "IGST for inter-state transactions",
+    "Liable to Pay field tracking",
+    "GST TCS settlement",
+    "Bank and cash payment processing"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006497,
-      "pages_in_call": 8
+      "cost_usd": 0.004291,
+      "pages_in_call": 1
     }
   ]
 }

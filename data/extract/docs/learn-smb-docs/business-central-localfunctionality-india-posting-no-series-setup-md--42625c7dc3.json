@@ -1,26 +1,33 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/Posting-No-series-setup.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Posting-No-series-setup",
-  "title": "Setting up Posting No. Series",
-  "blob": "58c93aad08aa65576c415cb651af21cad210ac08",
-  "summary": "Posting number series setup in India allows different document number series for sales, purchase, and transfer orders by location and document type.",
+  "title": "Setting Up Posting Number Series",
+  "blob": "00d075f310dc7525cbd08f9096896e83c0a6f600",
+  "summary": "Setting Up Posting Number Series explains how to configure conditional posting number series in the Indian localization of Business Central to maintain different number series for sales, purchase, and transfer orders across different locations.",
   "systems": [
     "localization",
-    "administration"
+    "purchasing",
+    "sales"
   ],
   "topics": [
-    "india localization",
     "posting number series",
+    "india localization",
     "document numbering",
-    "location-based series"
+    "location-based filtering",
+    "setup configuration"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posting No. Series Setup"
+    }
+  ],
   "features": [
-    "location-based numbering",
+    "conditional posting number series",
+    "location-specific numbering",
     "document type filtering",
-    "purchase receipts",
-    "sales invoices",
-    "transfer orders",
+    "posting number assignment",
+    "transfer order numbering",
     "gate entry numbering"
   ],
   "versions": [],
@@ -30,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00322,
-      "pages_in_call": 8
+      "cost_usd": 0.00339,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST TDS and GST TCS on Customer Payments",
+  "title": "GST TCS on Customer Payments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-TCS-on-Receipt",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.294Z",
-      "blob": "7d9d9f5dc979132a7cc249e60b6371ba78ea29e3",
-      "words": 639,
+      "at": "2026-10-28T09:10:34.967Z",
+      "blob": "646bcc06430f18d47ec0180bc8112b1c93fd5501",
+      "words": 749,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:18:09.412Z",
+      "at": "2026-10-28T09:10:42.180Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00322
+      "objects": 3,
+      "cost_usd": 0.004903
     },
     "summarized": {
-      "at": "2026-10-06T19:18:09.427Z",
+      "at": "2026-10-28T09:10:42.185Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:18:09.428Z",
+      "at": "2026-10-28T09:10:42.187Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:18:09.429Z",
+      "at": "2026-10-28T09:10:42.189Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-TDS-TCS-on-Receipt.md",
-    "description": "Learn how to apply GST TDS and GST TCS on customer payments in Business Central for India.",
-    "ms_date": "2025-06-25",
+    "description": "Apply GST TDS and GST TCS to customer receipts, and review certificate details and illustrative accounting entries in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "TCS",
       "GST"
     ],
-    "ai_usage": null,
-    "words": 639,
+    "ai_usage": "ai-assisted",
+    "words": 749,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7840fe97a58cbbf9984c8cc8eb2b8d09222a78f16b0b300c292a8a6ed7708103"
+  "output_hash": "aee84960e37a9f34726f0f7f6919e80d67fd3a4db2c876ea3254b0723dbada17"
 }

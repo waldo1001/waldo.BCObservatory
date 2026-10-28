@@ -1,42 +1,51 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software",
-  "title": "Audit trail and edit logs for accounting software in India",
-  "blob": "16bd38a0b1b4188132666c61fd6b90fb1d527998",
-  "summary": "India localization compliance for audit trail and edit logs in accounting software, covering seven compliance requirements including recording transactions, retaining original format, preserving data, and maintaining books in India with proper backup.",
+  "title": "Audit Trail and Edit Logs for Accounting Software in India",
+  "blob": "f1688099aa47dfb25970bb29ac7f95c8e59f10e2",
+  "summary": "Audit trail and edit logs for accounting software in India describes compliance requirements under Indian legislation for recording transaction audit trails, creating audit logs of account changes, and maintaining books of accounts in electronic format with proper retention and accessibility controls.",
   "systems": [
     "localization",
-    "finance",
-    "administration"
+    "administration",
+    "reporting"
   ],
   "topics": [
+    "audit trail",
+    "edit logs",
     "india",
-    "audit-trail",
-    "edit-logs",
     "compliance",
-    "accounting-software",
-    "gst",
-    "backup"
+    "general ledger",
+    "change tracking",
+    "data retention",
+    "electronic records"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Change Log Entries"
+      "name": "G/L Registers"
     },
     {
       "type": "page",
-      "name": "Find Entries"
+      "name": "General Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Change Log Setup"
+    },
+    {
+      "type": "page",
+      "name": "Change Log Entries"
     }
   ],
   "features": [
     "audit trail recording",
-    "edit log creation",
-    "change tracking",
-    "data retention",
-    "original format preservation",
-    "branch transaction preservation",
-    "electronic records display",
-    "storage systems"
+    "change log creation",
+    "find entries function",
+    "general ledger entries tracking",
+    "change log setup and configuration",
+    "posting batch details",
+    "print voucher report",
+    "environment backup and restore"
   ],
   "versions": [],
   "parts": 1,
@@ -45,8 +54,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005891,
-      "pages_in_call": 8
+      "cost_usd": 0.01018,
+      "pages_in_call": 1
     }
   ]
 }

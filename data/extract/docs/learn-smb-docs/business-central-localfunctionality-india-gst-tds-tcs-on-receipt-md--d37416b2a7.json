@@ -1,28 +1,44 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-TDS-TCS-on-Receipt.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-TCS-on-Receipt",
-  "title": "GST TDS and GST TCS on Customer Payments",
-  "blob": "7d9d9f5dc979132a7cc249e60b6371ba78ea29e3",
-  "summary": "GST TCS and TDS on customer payments in India applies tax-collected-at-source on cash/bank receipts with settlement tracking and manual credit utilization.",
+  "title": "GST TCS on Customer Payments",
+  "blob": "646bcc06430f18d47ec0180bc8112b1c93fd5501",
+  "summary": "GST TCS and TDS on customer payments in India explains how to calculate and record Goods and Services Tax Collected at Source (TCS) and Tax Deducted at Source (TDS) on cash or bank receipts from customers, including settlement and certificate management.",
   "systems": [
     "finance",
-    "sales"
+    "localization"
   ],
   "topics": [
-    "india localization",
     "gst",
     "tcs",
     "tds",
+    "india",
     "customer payments",
-    "tax settlement"
+    "tax compliance",
+    "settlement"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Receipt Voucher"
+    },
+    {
+      "type": "page",
+      "name": "Cash Receipt Voucher"
+    },
+    {
+      "type": "page",
+      "name": "Update GST TDS Certificate Details"
+    }
+  ],
   "features": [
-    "GST TCS on payments",
-    "GST TDS on payments",
-    "tax credit reversal",
-    "settlement process",
-    "certificate tracking"
+    "GST TCS calculation",
+    "GST TDS calculation",
+    "TCS credit utilization",
+    "TDS certificate management",
+    "TDS credit availed",
+    "GST jurisdiction determination",
+    "Intra-state and inter-state transactions"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00322,
-      "pages_in_call": 8
+      "cost_usd": 0.004903,
+      "pages_in_call": 1
     }
   ]
 }

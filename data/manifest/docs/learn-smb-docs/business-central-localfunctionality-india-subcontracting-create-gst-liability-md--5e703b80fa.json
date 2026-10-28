@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Create-GST-Liability",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.114Z",
-      "blob": "378c6b343e4ad8818fb24c649f2474aaada0b062",
-      "words": 317,
+      "at": "2026-10-28T09:10:42.246Z",
+      "blob": "c9aa54155a64990b90f2d9d6d1ec58b46ce75e05",
+      "words": 420,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:01.207Z",
+      "at": "2026-10-28T09:10:50.823Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003704
+      "cost_usd": 0.003628
     },
     "summarized": {
-      "at": "2026-10-06T19:17:10.267Z",
+      "at": "2026-10-28T09:10:50.825Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:10.268Z",
+      "at": "2026-10-28T09:10:50.826Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:10.269Z",
+      "at": "2026-10-28T09:10:50.827Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/Subcontracting-Create-GST-Liability.md",
     "description": "Learn how to create GST liability for subcontracting vendors in Business Central when materials aren't returned within the specified period.",
-    "ms_date": "2025-06-26",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "create GST liability",
       "GST liability"
     ],
-    "ai_usage": null,
-    "words": 317,
+    "ai_usage": "ai-assisted",
+    "words": 420,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1756b692dc9ce8dd5175be81e966070403458a9186d56f0936bc5a93ec6b0e0a"
+  "output_hash": "054597191db2063bb5ef497371287a646e1cdd3947791a0de969dac2dfbd0460"
 }

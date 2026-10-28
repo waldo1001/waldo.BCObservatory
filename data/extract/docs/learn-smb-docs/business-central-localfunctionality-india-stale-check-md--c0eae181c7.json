@@ -1,41 +1,47 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/Stale-Check.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Stale-Check",
-  "title": "Setting up and how to stale check",
-  "blob": "1c63768a66327157f47420854772c18af6d8940c",
-  "summary": "Stale check feature allows setting up check validity periods by bank, calculating stale expiry dates, and marking expired checks through Bank Ledger Entry or Check Ledger Entry.",
+  "title": "Set Up Stale Check",
+  "blob": "63ce304162634474478e0f7ffaa7ed3f05cd800f",
+  "summary": "Set up stale check feature for Indian localization in Business Central, which marks checks as invalid after their validity period expires. Configure the stale cheque stipulated period on bank accounts and use check ledger entries to manage and void stale checks.",
   "systems": [
     "finance",
-    "administration"
+    "localization"
   ],
   "topics": [
-    "india",
     "stale check",
-    "bank",
-    "check validity"
+    "check ledger",
+    "bank account",
+    "indian localization",
+    "cheque validity",
+    "financial voiding"
   ],
   "objects": [
     {
-      "type": "page",
+      "type": "table",
       "name": "General Ledger Setup"
     },
     {
-      "type": "page",
-      "name": "Bank Account"
+      "type": "table",
+      "name": "Bank Accounts"
     },
     {
-      "type": "page",
-      "name": "Bank Ledger Entry"
+      "type": "table",
+      "name": "Check Ledger Entries"
     },
     {
-      "type": "page",
-      "name": "Check Ledger Entry"
+      "type": "table",
+      "name": "Bank Account Ledger Entries"
     }
   ],
   "features": [
+    "Stale Check Feature",
     "Activate Cheque No.",
     "Stale Cheque Stipulated Period",
-    "Stale Cheque Expiry Date"
+    "Stale Cheque Expiry Date",
+    "Financially Voided",
+    "Unapply and Stale check",
+    "Stale check only"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +50,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004317,
-      "pages_in_call": 8
+      "cost_usd": 0.004533,
+      "pages_in_call": 1
     }
   ]
 }

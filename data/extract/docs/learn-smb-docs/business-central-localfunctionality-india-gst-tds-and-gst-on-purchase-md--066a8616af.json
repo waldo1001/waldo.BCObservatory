@@ -2,26 +2,33 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-TDS-and-GST-on-Purchase.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-and-GST-on-Purchase",
   "title": "Calculation of Income Tax TDS and GST on Purchase Transactions",
-  "blob": "d5eafa0cde07915913e0a66b296ec9241b98b7ca",
-  "summary": "TDS and GST calculation on purchase transactions in India applies income tax withholding only to base amounts excluding GST, with different GL entries for intra-state and inter-state transactions.",
+  "blob": "38e61eaa15201cb2c577e1baaa9ded331861859f",
+  "summary": "Calculation of Income Tax TDS and GST on purchase transactions in India, where TDS is deducted only on the base amount excluding GST, with examples for intra-state, inter-state, and reverse charge scenarios.",
   "systems": [
     "finance",
-    "purchasing"
+    "localization"
   ],
   "topics": [
-    "india localization",
-    "gst",
+    "india",
     "tds",
-    "purchase transactions",
+    "gst",
+    "purchase invoices",
+    "tax calculation",
     "reverse charge"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
+    }
+  ],
   "features": [
-    "TDS calculation",
-    "GST credit availment",
-    "reverse charge mechanism",
-    "intra-state transactions",
-    "inter-state transactions"
+    "TDS Section Code",
+    "GST Group Code",
+    "HSN/SAC Code",
+    "GST Credit",
+    "TDS calculation on base amount",
+    "Reverse charge mechanism"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00322,
-      "pages_in_call": 8
+      "cost_usd": 0.003914,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Setting Up Subcontracting",
+  "title": "Set Up Subcontracting for India",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-001-Basic-Setup",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.658Z",
-      "blob": "05d44479d531b38cb35fedcec99ea0f5968ca720",
-      "words": 1116,
+      "at": "2026-10-28T09:10:42.232Z",
+      "blob": "5b9a2d9e932446362ef968f64cb42d74087b7aa6",
+      "words": 960,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:32:16.393Z",
+      "at": "2026-10-28T09:10:50.811Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 8,
-      "cost_usd": 0.005677
+      "objects": 0,
+      "cost_usd": 0.004928
     },
     "summarized": {
-      "at": "2026-10-06T18:32:16.401Z",
+      "at": "2026-10-28T09:10:50.812Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:32:16.402Z",
+      "at": "2026-10-28T09:10:50.812Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:32:16.403Z",
+      "at": "2026-10-28T09:10:50.813Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/Subcontracting-001-Basic-Setup.md",
-    "description": "Learn how to set up subcontracting in Business Central for India.",
-    "ms_date": "2025-06-26",
+    "description": "Set up subcontracting locations, vendors, items, return periods, and GST liability posting accounts in the India localization of Business Central.",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -60,12 +60,12 @@
       "routing",
       "work center"
     ],
-    "ai_usage": null,
-    "words": 1116,
+    "ai_usage": "ai-assisted",
+    "words": 960,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "26b83524052a7b3a1108e2585d51c2f79775dd9974f2002dc13ce0dd35a92a3e"
+  "output_hash": "4ce7e3ab6c663c4c4761a90d4764ba6688b79c4d33ce7acb9690fcec223d3dd0"
 }

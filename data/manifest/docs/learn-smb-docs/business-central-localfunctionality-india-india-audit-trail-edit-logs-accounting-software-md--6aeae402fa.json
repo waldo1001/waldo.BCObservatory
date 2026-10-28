@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Audit trail and edit logs for accounting software in India",
+  "title": "Audit Trail and Edit Logs for Accounting Software in India",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:24.808Z",
-      "blob": "16bd38a0b1b4188132666c61fd6b90fb1d527998",
-      "words": 1882,
+      "at": "2026-10-28T09:10:34.999Z",
+      "blob": "f1688099aa47dfb25970bb29ac7f95c8e59f10e2",
+      "words": 1699,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:02:39.822Z",
+      "at": "2026-10-28T09:10:42.195Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.005891
+      "objects": 4,
+      "cost_usd": 0.01018
     },
     "summarized": {
-      "at": "2026-10-06T18:02:39.836Z",
+      "at": "2026-10-28T09:10:42.196Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:02:39.837Z",
+      "at": "2026-10-28T09:10:42.197Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:02:39.838Z",
+      "at": "2026-10-28T09:10:42.199Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md",
-    "description": "This article provides information about the new Indian tax and companies legislation guidelines for accounting software.",
-    "ms_date": "2026-06-12",
+    "description": "Review audit registers, configurable change logs, and accounting record controls in Business Central for India, with historical legislation context.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "audit trail",
       "edit logs"
     ],
-    "ai_usage": null,
-    "words": 1882,
+    "ai_usage": "ai-assisted",
+    "words": 1699,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "95b6e89775e5070b31627515337b4a7c39f318776abe93c79cd71859c7884915"
+  "output_hash": "9dc23caaa06fadfb49a7bbcbbf7b1eb40acba4094f84f212e271b91c3329b9e4"
 }

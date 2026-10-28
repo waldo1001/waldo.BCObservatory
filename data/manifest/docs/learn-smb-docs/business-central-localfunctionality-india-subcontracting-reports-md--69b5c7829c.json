@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Sub Contracting Reports",
+  "title": "Subcontracting Reports",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Reports",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.119Z",
-      "blob": "ae12e3621aee6238562038167a7f3af6b4805203",
-      "words": 261,
+      "at": "2026-10-28T09:10:42.372Z",
+      "blob": "415e7f75e3843b40bb588da6b5378dc63e110cb4",
+      "words": 237,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:23.246Z",
+      "at": "2026-10-28T09:10:50.843Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003451
+      "cost_usd": 0.006167
     },
     "summarized": {
-      "at": "2026-10-06T19:17:23.254Z",
+      "at": "2026-10-28T09:10:50.845Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:23.255Z",
+      "at": "2026-10-28T09:10:50.854Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:23.256Z",
+      "at": "2026-10-28T09:10:50.862Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/Subcontracting-Reports.md",
-    "description": "Learn about the available subcontracting reports in Business Central for India.",
-    "ms_date": "2025-06-26",
+    "description": "Preview delivery challans and stock registers for job work to review subcontracting material movements and GST liability in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "stock register",
       "job work"
     ],
-    "ai_usage": null,
-    "words": 261,
+    "ai_usage": "ai-assisted",
+    "words": 237,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d5cba589fe1fed6215a851ef7cba26468a095d1f226dbe45c96904e0fd08c13c"
+  "output_hash": "c1451b4382327afefb6f9d727600c0867c0149793b79d08b94d2ab140399b3ac"
 }
