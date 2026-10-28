@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/russian-payables-reports",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.427Z",
-      "blob": "d381332910669ad03f732980e8895cef06530e85",
-      "words": 1531,
+      "at": "2026-10-28T09:13:00.781Z",
+      "blob": "d65b5e358ea48dd85f8ed0f22480e2c44dd3d9f0",
+      "words": 1392,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:14.554Z",
+      "at": "2026-10-28T09:13:06.414Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003478
+      "objects": 7,
+      "cost_usd": 0.005674
     },
     "summarized": {
-      "at": "2026-10-06T19:13:22.033Z",
+      "at": "2026-10-28T09:13:06.416Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:22.034Z",
+      "at": "2026-10-28T09:13:06.417Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:22.035Z",
+      "at": "2026-10-28T09:13:11.104Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/russian-payables-reports.md",
     "description": "Russian localization provides enhanced payables reports for vendors.",
-    "ms_date": "2025-07-21",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "vendor entries analysis",
       "vendor reconciliation act"
     ],
-    "ai_usage": null,
-    "words": 1531,
+    "ai_usage": "ai-assisted",
+    "words": 1392,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cde5318c90e6b6092d12d62ce6fc39fbab34b20524c45538a24d1744a8a46178"
+  "output_hash": "0f393cb153f9a594832a0cc9de16b3fa579cfa47134ec22532e8f0bc47870b6f"
 }

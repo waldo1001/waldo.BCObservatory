@@ -2,24 +2,40 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/setting-up-tax-difference-calculation.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/setting-up-tax-difference-calculation",
   "title": "Setting up tax difference calculation in Russia",
-  "blob": "38f5799776961ca7ef933562146177eeef7c6072",
-  "summary": "Tax difference calculation setup in Russia handles accounting for differences between bookkeeping and tax accounting for fixed assets, item costs, and finance transactions.",
+  "blob": "9904e4c36f2422eb987033c2ac5992fb063148c1",
+  "summary": "Setting up tax difference calculation in Russia for fixed asset entries, item costs, and finance transactions where expenses must be tracked separately in bookkeeping and tax accounting. Configure posting groups and use normalization procedures for journal entries.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "tax differences",
-    "russia",
     "tax accounting",
+    "tax differences",
     "posting groups",
-    "normalization"
+    "russia",
+    "depreciation",
+    "expense tracking"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Tax Difference Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "Future Expenses Journal"
+    },
+    {
+      "type": "report",
+      "name": "Calculate FE Depr. With Norm"
+    }
+  ],
   "features": [
-    "Tax Difference Posting Groups",
-    "future expenses journal normalization",
-    "depreciation calculation by norm"
+    "tax difference calculation",
+    "posting groups setup",
+    "normalization function",
+    "depreciation by norm",
+    "tax difference filters"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002563,
-      "pages_in_call": 8
+      "cost_usd": 0.003265,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Prepayments-Vendor-and-Customers",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.687Z",
-      "blob": "993468f648ea629b6568f46eb1a2a5552275a561",
-      "words": 167,
+      "at": "2026-10-28T09:12:54.992Z",
+      "blob": "16d8c157d30d36aed3f556955cfea673fa4a8489",
+      "words": 162,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:42.523Z",
+      "at": "2026-10-28T09:13:00.741Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.0033
+      "objects": 3,
+      "cost_usd": 0.003234
     },
     "summarized": {
-      "at": "2026-10-06T19:14:44.174Z",
+      "at": "2026-10-28T09:13:00.743Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:44.176Z",
+      "at": "2026-10-28T09:13:00.743Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:44.177Z",
+      "at": "2026-10-28T09:13:00.744Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/Prepayments-Vendor-and-Customers.md",
     "description": "Learn how to manage vendor and customer prepayments in the Russian version of Business Central.",
-    "ms_date": "2025-07-18",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "prepayments",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 167,
+    "ai_usage": "ai-assisted",
+    "words": 162,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ed87ce3ea55fc6c7bc1c278cf599156be88968b58f06fa5653087edf4fd09f7f"
+  "output_hash": "c4ea4d5e03ba0b76a2643605c3cedd0437f8194825efabdea85964bbf79d30d0"
 }

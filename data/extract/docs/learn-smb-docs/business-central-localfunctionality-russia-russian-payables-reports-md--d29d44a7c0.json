@@ -2,27 +2,60 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/russian-payables-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/russian-payables-reports",
   "title": "Payables reports in Russia",
-  "blob": "d381332910669ad03f732980e8895cef06530e85",
-  "summary": "Payables reports in Russia provides multiple vendor-related reports for financial analysis including vendor general ledger turnover, accounting card, turnover analysis, reconciliation act, and entries analysis.",
+  "blob": "d65b5e358ea48dd85f8ed0f22480e2c44dd3d9f0",
+  "summary": "Russian payables reports provide vendor general ledger turnover analysis and reconciliation capabilities through multiple reports and an interactive page that display vendor balances, posting groups, entries analysis, and reconciliation acts.",
   "systems": [
     "purchasing",
-    "finance"
+    "localization"
   ],
   "topics": [
-    "vendor reports",
-    "russia localization",
     "payables",
-    "financial analysis",
-    "turnover reports"
+    "russia",
+    "vendor",
+    "reporting",
+    "reconciliation",
+    "general ledger",
+    "turnover"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Vendor G/L Turnover"
+    },
+    {
+      "type": "report",
+      "name": "Vendor General Ledger Turnover"
+    },
+    {
+      "type": "report",
+      "name": "Vendor Accounting Card"
+    },
+    {
+      "type": "report",
+      "name": "Vendor Turnover"
+    },
+    {
+      "type": "report",
+      "name": "Vendor Posting Group Turnover"
+    },
+    {
+      "type": "report",
+      "name": "Vendor Entries Analysis"
+    },
+    {
+      "type": "report",
+      "name": "Vendor Reconciliation Act"
+    }
+  ],
   "features": [
     "vendor general ledger turnover",
     "vendor accounting card",
     "vendor turnover",
     "vendor posting group turnover",
     "vendor entries analysis",
-    "vendor reconciliation act"
+    "vendor reconciliation act",
+    "rounding precision",
+    "vendor posting groups"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +64,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003478,
-      "pages_in_call": 8
+      "cost_usd": 0.005674,
+      "pages_in_call": 1
     }
   ]
 }

@@ -2,27 +2,33 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/posting-vat-on-sales.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/posting-vat-on-sales",
   "title": "Posting VAT on sales in Russia",
-  "blob": "97eb285870f510f9197a3205c6f29380ce393335",
-  "summary": "VAT posting on sales in Russia defines VAT extraction rules, transfer VAT accounts, and tax invoice amount types in VAT posting setup for different tax scenarios.",
+  "blob": "8b9efa710b96a8e36e3e4c4396c3fd36298d1ed6",
+  "summary": "VAT Posting Setup in Russia defines fields for VAT transaction types, accounts, and tax invoice amounts to control how VAT entries are posted across different sales and purchase ledger columns.",
   "systems": [
     "finance",
-    "sales",
     "localization"
   ],
   "topics": [
     "vat",
-    "sales",
+    "posting setup",
     "russia",
     "tax accounting",
-    "posting setup"
+    "sales vat"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    }
+  ],
   "features": [
-    "VAT posting setup",
-    "transfer VAT type",
-    "transfer VAT account",
-    "tax invoice amount type",
-    "VAT ledgers"
+    "Trans. VAT Type field",
+    "Trans. VAT Account field",
+    "Tax Invoice Amount Type field",
+    "Amount + Tax option",
+    "Amount & Tax option",
+    "VAT to Federal Budget account mapping",
+    "Gain VAT accounting entries"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.0033,
-      "pages_in_call": 8
+      "cost_usd": 0.003669,
+      "pages_in_call": 1
     }
   ]
 }

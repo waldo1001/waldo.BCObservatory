@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Sale-of-fixed-assets",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.024Z",
-      "blob": "b53aa99d26a925096d6288b02cb346334773ddc9",
-      "words": 210,
+      "at": "2026-10-28T09:13:01.311Z",
+      "blob": "091a583d36decc4578e9c55b74e0bcf190273d6c",
+      "words": 218,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:41:21.203Z",
+      "at": "2026-10-28T09:13:11.127Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003061
+      "cost_usd": 0.003333
     },
     "summarized": {
-      "at": "2026-10-06T18:41:22.980Z",
+      "at": "2026-10-28T09:13:11.129Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:41:22.981Z",
+      "at": "2026-10-28T09:13:11.131Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:41:22.982Z",
+      "at": "2026-10-28T09:13:11.133Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/Sale-of-fixed-assets.md",
     "description": "Learn how to manage the sale or transfer of fixed assets in Russia, including local regulatory enhancements.",
-    "ms_date": "2025-07-21",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "sale of fixed assets",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 210,
+    "ai_usage": "ai-assisted",
+    "words": 218,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fa56ead956d7031d690bce35548682c0fbe3ea410880902aeedb19fbf46bfecb"
+  "output_hash": "e4630f619b0aa76a95fc7fb3953fc4b7b79c4b04a3b1b0a35388288f90079b19"
 }

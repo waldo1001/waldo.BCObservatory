@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/setting-up-tax-difference-calculation",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.704Z",
-      "blob": "38f5799776961ca7ef933562146177eeef7c6072",
+      "at": "2026-10-28T09:13:01.491Z",
+      "blob": "9904e4c36f2422eb987033c2ac5992fb063148c1",
       "words": 206,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:51.904Z",
+      "at": "2026-10-28T09:13:11.114Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002563
+      "objects": 3,
+      "cost_usd": 0.003265
     },
     "summarized": {
-      "at": "2026-10-06T19:15:27.654Z",
+      "at": "2026-10-28T09:13:11.117Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:15:27.655Z",
+      "at": "2026-10-28T09:13:11.118Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:15:27.656Z",
+      "at": "2026-10-28T09:13:11.120Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/setting-up-tax-difference-calculation.md",
     "description": "Enables calculation of tax differences for fixed assets as part of Russian localization enhancements.",
-    "ms_date": "2025-07-21",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "tax difference setup",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 206,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dcd23ec1d067d6ed47747b68f2cb62db3619c31c3a2f178b94d8c96bfb756192"
+  "output_hash": "55a1936d9444d99a1f5cec6bbc3dec9254dd75a5332b6699c69f6f939e70443c"
 }

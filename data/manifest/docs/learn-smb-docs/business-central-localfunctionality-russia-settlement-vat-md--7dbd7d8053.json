@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Settlement-VAT",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.708Z",
-      "blob": "97e047d8ea31e6d6313bb914d00c3a88b25c067c",
-      "words": 295,
+      "at": "2026-10-28T09:13:01.929Z",
+      "blob": "1a050076d42bea66d20c5c2579d2b15ed9599482",
+      "words": 291,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:51.905Z",
+      "at": "2026-10-28T09:13:11.158Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002563
+      "objects": 3,
+      "cost_usd": 0.003652
     },
     "summarized": {
-      "at": "2026-10-06T19:15:27.657Z",
+      "at": "2026-10-28T09:13:11.160Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:15:27.658Z",
+      "at": "2026-10-28T09:13:11.167Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:15:27.660Z",
+      "at": "2026-10-28T09:13:11.175Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/Settlement-VAT.md",
     "description": "Learn about VAT settlement in Russia, including setup, manual settlement, and VAT allocation features in Business Central.",
-    "ms_date": "2025-07-21",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "VAT settlement worksheet",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 295,
+    "ai_usage": "ai-assisted",
+    "words": 291,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "49d92f4efacad4af82b4ae4d67fea317e5220c35f854a62e405e35f5673da6c8"
+  "output_hash": "9819b8b0c7417c6f2589dcc33074f04a7a2cbe38533b78a8d733f057b6a33ad6"
 }

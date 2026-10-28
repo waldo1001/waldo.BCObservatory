@@ -2,52 +2,54 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/russian-receivables-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/russian-receivables-reports",
   "title": "Receivables reports in Russia",
-  "blob": "8c33f0ef3353c8a37e1208636f7f7d65ff77c395",
-  "summary": "Russian receivables reports include customer general ledger turnover, accounting card, turnover, posting group turnover, entries analysis, and reconciliation act reports for analyzing customer accounts and balances.",
+  "blob": "00bf595e2acaaf318e216460ed0b916b169eabdc",
+  "summary": "Russian receivables reports provide analysis of customer general ledger turnover and account balances through six specialized reports including Customer General Ledger Turnover, Accounting Card, Turnover, Posting Group Turnover, Entries Analysis, and Reconciliation Act.",
   "systems": [
+    "finance",
     "sales",
     "localization"
   ],
   "topics": [
     "receivables",
-    "customer reporting",
-    "russia",
+    "russian localization",
+    "customer reports",
     "general ledger",
-    "turnover analysis"
+    "turnover analysis",
+    "reconciliation"
   ],
   "objects": [
     {
       "type": "report",
-      "name": "Customer General Ledger Turnover"
+      "name": "Customer General Ledger Turnover (12450)"
     },
     {
       "type": "report",
-      "name": "Customer Accounting Card"
+      "name": "Customer Accounting Card (12441)"
     },
     {
       "type": "report",
-      "name": "Customer Turnover"
+      "name": "Customer Turnover (12439)"
     },
     {
       "type": "report",
-      "name": "Customer Posting Group Turnover"
+      "name": "Customer Posting Group Turnover (12440)"
     },
     {
       "type": "report",
-      "name": "Customer Entries Analysis"
+      "name": "Customer Entries Analysis (12442)"
     },
     {
       "type": "report",
-      "name": "Customer - Reconciliation Act"
+      "name": "Customer - Reconciliation Act (14910)"
     }
   ],
   "features": [
-    "rounding precision",
-    "zero value replacement",
-    "zero line exclusion",
-    "agreement printing",
-    "detail levels",
-    "currency selection"
+    "rounding precision options",
+    "zero value filtering",
+    "agreement-based calculations",
+    "customer ledger analysis",
+    "payment reconciliation",
+    "multi-period reporting"
   ],
   "versions": [],
   "parts": 1,
@@ -56,8 +58,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002563,
-      "pages_in_call": 8
+      "cost_usd": 0.005425,
+      "pages_in_call": 1
     }
   ]
 }

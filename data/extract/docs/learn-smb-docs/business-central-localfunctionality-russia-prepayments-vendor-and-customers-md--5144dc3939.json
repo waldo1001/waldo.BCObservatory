@@ -2,27 +2,41 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/Prepayments-Vendor-and-Customers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Prepayments-Vendor-and-Customers",
   "title": "Prepayments for vendors and customers in Russia",
-  "blob": "993468f648ea629b6568f46eb1a2a5552275a561",
-  "summary": "Posting vendor and customer prepayments in Russia uses separate prepayment accounts per accounting rules, with posting and application functionality in general journal and ledger entries.",
+  "blob": "16d8c157d30d36aed3f556955cfea673fa4a8489",
+  "summary": "Posting and applying vendor and customer prepayments in the Russian version of Business Central using separate prepayment accounts and the General Journal.",
   "systems": [
+    "localization",
     "purchasing",
-    "sales",
-    "finance"
+    "sales"
   ],
   "topics": [
     "prepayments",
-    "vendor prepayments",
-    "customer prepayments",
     "russia",
-    "prepayment accounts"
+    "vendor payments",
+    "customer payments",
+    "general journal",
+    "posting groups"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journal"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Customer Ledger Entries"
+    }
+  ],
   "features": [
-    "prepayment posting",
-    "prepayment accounts",
-    "prepayment application",
-    "vendor ledger",
-    "customer ledger"
+    "Prepayment Account",
+    "Use Prepayment Account",
+    "Apply Entries",
+    "Set applies-to ID",
+    "Post Application"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +45,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.0033,
-      "pages_in_call": 8
+      "cost_usd": 0.003234,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/petty-cash-management",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.422Z",
-      "blob": "d57290698be1851187e8b52453082b8705691e1d",
-      "words": 1450,
+      "at": "2026-10-28T09:12:54.982Z",
+      "blob": "b4f5d27b041494c76a1e123ef049b9fac639dbdd",
+      "words": 1234,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:14.553Z",
+      "at": "2026-10-28T09:13:01.820Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003478
+      "objects": 5,
+      "cost_usd": 0.005385
     },
     "summarized": {
-      "at": "2026-10-06T19:13:22.030Z",
+      "at": "2026-10-28T09:13:01.822Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:22.031Z",
+      "at": "2026-10-28T09:13:01.824Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:22.032Z",
+      "at": "2026-10-28T09:13:01.825Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/petty-cash-management.md",
     "description": "Russian localization provides enhanced features for managing petty cash transactions.",
-    "ms_date": "2025-07-18",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "Cash receipt Journal",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 1450,
+    "ai_usage": "ai-assisted",
+    "words": 1234,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a965488aac955f4c9e72b54c48e5c265828e339b17bf69d09d4f44a14d1e2362"
+  "output_hash": "de75753d192a7dd84bb9e70cc7a822ce688f7828ccf0011367b338b28fe3ce4d"
 }

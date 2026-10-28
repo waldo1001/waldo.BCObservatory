@@ -2,27 +2,52 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/petty-cash-management.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/petty-cash-management",
   "title": "Petty cash management in Russia",
-  "blob": "d57290698be1851187e8b52453082b8705691e1d",
-  "summary": "Petty cash management in Russia enables creating cash account cards, cash order documents with special numbering, cash journals, and printing required Russian cash reports CO-3 and CO-4.",
+  "blob": "b4f5d27b041494c76a1e123ef049b9fac639dbdd",
+  "summary": "Petty cash management in Russia enables creation of cash account cards, ingoing and outgoing cash order documents with special numbering rules, and generation of Cash Order Journal CO-3 and Cash Report CO-4 reports for tracking daily cash transactions.",
   "systems": [
     "finance",
-    "localization"
+    "localization",
+    "administration"
   ],
   "topics": [
     "petty cash",
-    "russia localization",
+    "cash orders",
+    "russia",
     "cash management",
-    "cash accounts",
-    "reports"
+    "journal",
+    "reporting"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cash Order Journal"
+    },
+    {
+      "type": "page",
+      "name": "Ingoing Cash Order"
+    },
+    {
+      "type": "page",
+      "name": "Outgoing Cash Order"
+    },
+    {
+      "type": "report",
+      "name": "Cash Order Journal CO-3"
+    },
+    {
+      "type": "report",
+      "name": "Cash Report CO-4"
+    }
+  ],
   "features": [
     "cash account cards",
-    "cash order documents",
-    "cash order journal",
-    "cash receipt journal",
-    "cash reports",
-    "void posted checks"
+    "ingoing cash orders",
+    "outgoing cash orders",
+    "cash order numbering",
+    "void posted cash documents",
+    "Cash Order Journal CO-3 report",
+    "Cash Report CO-4 report",
+    "general journal template"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +56,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003478,
-      "pages_in_call": 8
+      "cost_usd": 0.005385,
+      "pages_in_call": 1
     }
   ]
 }

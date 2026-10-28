@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/russian-receivables-reports",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.700Z",
-      "blob": "8c33f0ef3353c8a37e1208636f7f7d65ff77c395",
-      "words": 1210,
+      "at": "2026-10-28T09:13:00.791Z",
+      "blob": "00bf595e2acaaf318e216460ed0b916b169eabdc",
+      "words": 1094,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:51.903Z",
+      "at": "2026-10-28T09:13:11.140Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 6,
-      "cost_usd": 0.002563
+      "cost_usd": 0.005425
     },
     "summarized": {
-      "at": "2026-10-06T19:15:27.651Z",
+      "at": "2026-10-28T09:13:11.142Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:15:27.652Z",
+      "at": "2026-10-28T09:13:11.144Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:15:27.653Z",
+      "at": "2026-10-28T09:13:11.146Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/russian-receivables-reports.md",
     "description": "Learn about receivables reports and related enhancements available for Russia in Business Central.",
-    "ms_date": "2025-07-21",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "turnover",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 1210,
+    "ai_usage": "ai-assisted",
+    "words": 1094,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c8534dee214c09ef4dca2229b6c39e4025c2c4fe6bffae3287fd27886b12cab0"
+  "output_hash": "4d7ee061190ad6c3f145650e445ebef25764c625a9fccb5ffe266051faf01ed3"
 }

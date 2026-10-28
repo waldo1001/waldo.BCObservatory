@@ -2,26 +2,36 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/prepayment-differences-invoices-prepayment-differences.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/prepayment-differences-invoices-prepayment-differences",
   "title": "Prepayment differences in Russia",
-  "blob": "f8b55066990f06048091fe3550ad6730dfa5c504",
-  "summary": "Prepayment differences in Russia handles currency exchange rate adjustments between prepayments and invoices in foreign currency with separate account posting configuration.",
+  "blob": "c921dc056d6c961714b5020a207fea9139491b73",
+  "summary": "Prepayment differences in Russia explains how Business Central calculates currency exchange differences when applying prepayments to invoices in foreign currencies, and configures prepayment posting through Purchases & Payables and Sales & Receivables setup pages.",
   "systems": [
-    "purchasing",
-    "sales",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "prepayments",
-    "currency differences",
+    "prepayment",
+    "prepayment differences",
     "russia",
-    "prepayment setup",
-    "foreign currency"
+    "foreign currency",
+    "exchange rates"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    }
+  ],
   "features": [
-    "prepayment account posting",
-    "prepayment difference entries",
-    "number series configuration",
-    "symbol identification"
+    "Use Prepayment Account",
+    "Posted PD Doc. Nos.",
+    "PD Doc. Nos. Type",
+    "Symbol for PD Doc",
+    "Create Prepayment Invoice",
+    "Posted Prepayment Nos."
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.0033,
-      "pages_in_call": 8
+      "cost_usd": 0.003688,
+      "pages_in_call": 1
     }
   ]
 }
