@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/fixed-asset-charges",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.852Z",
-      "blob": "a8830c174016dbc4897f631221b9b4e9623a6f75",
+      "at": "2026-10-28T09:11:38.732Z",
+      "blob": "077f4b632ede31531f7438d5091672b6027f06fc",
       "words": 116,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:01.567Z",
+      "at": "2026-10-28T09:11:44.366Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00367
+      "cost_usd": 0.002952
     },
     "summarized": {
-      "at": "2026-10-06T19:16:03.319Z",
+      "at": "2026-10-28T09:11:44.368Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:03.320Z",
+      "at": "2026-10-28T09:11:44.369Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:03.321Z",
+      "at": "2026-10-28T09:11:44.370Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/fixed-asset-charges.md",
     "description": "Russian localization adds support for fixed asset charges, enabling additional costs to be included in asset acquisition.",
-    "ms_date": "2025-07-11",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
       "fixed asset charges",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 116,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e8016ce32f64f8d060e8c011806d95f78379d7f9af303737c1debe9a1aa1bdab"
+  "output_hash": "d1a6481565094f7d64ea0980f58c14bb8a95c750d5e27872572d95e6e52b8ebf"
 }

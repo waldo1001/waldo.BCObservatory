@@ -2,23 +2,38 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/bill-of-lading.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/bill-of-lading",
   "title": "Bill of Lading [RU]",
-  "blob": "944913129e0268c9a5b375a504e03fdb107e6b8a",
-  "summary": "Bill of Lading [RU] explains how to set up and print the Russian bill of lading report, a legal shipment document that accompanies shipped items as a delivery receipt.",
+  "blob": "b6f40e4d9525db9767cc437a6646b451586e6c13",
+  "summary": "Bill of Lading is a legal document for shipments in Russia that accompanies shipped items as a receipt of delivery. Set up the report through Sales & Receivables Setup and Report Selection - Sales, then print it from Posted Sales Shipment pages.",
   "systems": [
     "sales",
     "localization"
   ],
   "topics": [
     "bill of lading",
-    "russia localization",
-    "sales shipment",
-    "reports"
+    "shipping documents",
+    "russia",
+    "sales shipments",
+    "report setup"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Bill of Lading"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Shipment"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    }
+  ],
   "features": [
-    "bill of lading report",
-    "posted sales shipment",
-    "report selection"
+    "Bill of Lading Template Code",
+    "Report Selection - Sales",
+    "Export to Excel",
+    "Shipment receipt documentation"
   ],
   "versions": [],
   "parts": 1,
@@ -27,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003478,
-      "pages_in_call": 8
+      "cost_usd": 0.006082,
+      "pages_in_call": 1
     }
   ]
 }

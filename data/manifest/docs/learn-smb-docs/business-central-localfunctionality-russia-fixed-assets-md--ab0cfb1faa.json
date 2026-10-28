@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/fixed-assets",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.870Z",
-      "blob": "11d5968a75b9ecbbe8a0ba7da4117929be743bed",
+      "at": "2026-10-28T09:11:45.164Z",
+      "blob": "1a8587da59ef4a17d496c2c4596be709b7bfedfd",
       "words": 384,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:01.569Z",
+      "at": "2026-10-28T09:11:54.434Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00367
+      "cost_usd": 0.003713
     },
     "summarized": {
-      "at": "2026-10-06T19:16:03.331Z",
+      "at": "2026-10-28T09:11:54.442Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:03.332Z",
+      "at": "2026-10-28T09:11:54.451Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:03.334Z",
+      "at": "2026-10-28T09:11:54.453Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/fixed-assets.md",
     "description": "Learn about enhanced fixed asset management features available for Russia.",
-    "ms_date": "2025-07-11",
+    "ms_date": "2026-10-23",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
       "fixed assets",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 384,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "99ec563dd59fcac1ef400b73bfa42ca1ca4b375d10f588ff552547b30e9239c7"
+  "output_hash": "30fd37248aa8e02f5a45b4bdb3e83449f935e320a4fb317daebe2f7585e4c498"
 }

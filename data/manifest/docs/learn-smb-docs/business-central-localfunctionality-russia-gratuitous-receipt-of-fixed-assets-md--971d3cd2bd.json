@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Gratuitous-receipt-of-fixed-assets",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.471Z",
-      "blob": "a912badcea3b18c7d716c2377b44a0d9512ac5fc",
-      "words": 434,
+      "at": "2026-10-28T09:11:46.428Z",
+      "blob": "4a7612c98bd1082e515a0ce1d21a327ecbd27518",
+      "words": 413,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:55.571Z",
+      "at": "2026-10-28T09:11:54.392Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.003091
+      "objects": 3,
+      "cost_usd": 0.004036
     },
     "summarized": {
-      "at": "2026-10-06T19:13:55.579Z",
+      "at": "2026-10-28T09:11:54.394Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:55.580Z",
+      "at": "2026-10-28T09:11:54.395Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:55.581Z",
+      "at": "2026-10-28T09:11:54.397Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/Gratuitous-receipt-of-fixed-assets.md",
     "description": "Russian localization features support the processing of gratuitous receipt of fixed assets.",
-    "ms_date": "2025-07-11",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "fixed assets",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 434,
+    "ai_usage": "ai-assisted",
+    "words": 413,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2c7260e0fd2507290dbabd981d51f9d0110003fa59fe4a2f0ee6b8f417516449"
+  "output_hash": "66ee986598dcaf5dfe9781b1c4352e651e427387be6e78eb0eccb515034b549a"
 }

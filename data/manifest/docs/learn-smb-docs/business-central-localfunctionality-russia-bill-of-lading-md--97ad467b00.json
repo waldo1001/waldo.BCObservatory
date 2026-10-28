@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/bill-of-lading",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.414Z",
-      "blob": "944913129e0268c9a5b375a504e03fdb107e6b8a",
-      "words": 157,
+      "at": "2026-10-28T09:11:38.711Z",
+      "blob": "b6f40e4d9525db9767cc437a6646b451586e6c13",
+      "words": 199,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:14.550Z",
+      "at": "2026-10-28T09:11:46.350Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003478
+      "objects": 3,
+      "cost_usd": 0.006082
     },
     "summarized": {
-      "at": "2026-10-06T19:13:22.024Z",
+      "at": "2026-10-28T09:11:46.352Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:22.025Z",
+      "at": "2026-10-28T09:11:46.353Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:22.026Z",
+      "at": "2026-10-28T09:11:46.355Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/bill-of-lading.md",
     "description": "Enhancements for Bill of Lading documents in the Russian version of Business Central.",
-    "ms_date": "2025-07-11",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "lading report",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 157,
+    "ai_usage": "ai-assisted",
+    "words": 199,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "20b742943b6777d7dca3b3998dc489e9f1b39bad562da630c8a2c68c0cf217a1"
+  "output_hash": "bb3dab8f0f42d60504b15c8485f90d80178d98642c005ec2d51cee774d5fadb1"
 }

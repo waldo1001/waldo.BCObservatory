@@ -2,28 +2,43 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/fixed-asset-inventory.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/fixed-asset-inventory",
   "title": "Fixed asset inventory in Russia",
-  "blob": "962ba2c7c1292f03545f005fb81393fd5490c77a",
-  "summary": "Fixed asset inventory feature in Russia enables inventory auditing, generating electronic inventory lists filtered by location and analytics, with calculated quantities and amounts.",
+  "blob": "40a859f1755ee1e39a164ecfa0a33c799f116e51",
+  "summary": "Fixed asset inventory feature for Russia enables inventory auditing of fixed assets, generation of electronic inventory lists organized by physical location, and printing of forms showing inventoried assets with quantities and amounts.",
   "systems": [
     "fixed-assets",
-    "inventory",
     "localization"
   ],
   "topics": [
-    "fixed asset inventory",
+    "fixed assets",
     "inventory auditing",
-    "inventory lists",
+    "russia",
+    "depreciation",
     "asset locations",
-    "russia"
+    "inventory lists"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "FA Journals"
+    },
+    {
+      "type": "table",
+      "name": "Fixed Asset Journal"
+    },
+    {
+      "type": "report",
+      "name": "Calculate FA"
+    }
+  ],
   "features": [
-    "Inventory Auditing",
-    "Electronic Inventory Lists",
-    "Location-Based Filtering",
-    "Quantity and Amount Calculations",
-    "Unified Fixed Asset Forms",
-    "FA Journal Templates"
+    "inventory auditing",
+    "electronic inventory lists",
+    "location-based filtering",
+    "employee filtering",
+    "inventory forms",
+    "fixed asset journals",
+    "depreciation book selection",
+    "book value filtering"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00367,
-      "pages_in_call": 8
+      "cost_usd": 0.003679,
+      "pages_in_call": 1
     }
   ]
 }

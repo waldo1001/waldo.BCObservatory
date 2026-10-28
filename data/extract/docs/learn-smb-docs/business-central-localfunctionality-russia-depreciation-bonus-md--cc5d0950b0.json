@@ -2,34 +2,32 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/depreciation-bonus.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/depreciation-bonus",
   "title": "Depreciation bonus in Russia",
-  "blob": "ee1285f58f33216e8452ccd82e38fe95177c12c3",
-  "summary": "Depreciation bonus in Russia is an accelerated depreciation method for fixed assets at 10% or 30% rates applied in tax accounting, configured through tax registers and applied selectively to asset acquisitions and capital investments.",
+  "blob": "5406d644a2a95a93a9c162198eb7a2d6f8f73891",
+  "summary": "Depreciation bonus in Russia allows including a configured percentage of fixed asset and capital investment expenses in the current tax period. Configure the calculation through Tax Register Setup and select transactions in Fixed Asset Journal before monthly depreciation posting.",
   "systems": [
     "fixed-assets",
-    "finance"
+    "localization"
   ],
   "topics": [
-    "depreciation",
+    "depreciation bonus",
     "tax accounting",
     "fixed assets",
-    "russia local"
+    "russia",
+    "tax differences",
+    "capital investments"
   ],
   "objects": [
     {
-      "type": "page",
-      "name": "Depreciation Group"
+      "type": "other",
+      "name": "Tax Register Setup window"
     },
     {
-      "type": "page",
-      "name": "Tax Register Setup"
+      "type": "other",
+      "name": "Fixed Asset Journal window"
     },
     {
-      "type": "page",
-      "name": "Fixed Asset Journal"
-    },
-    {
-      "type": "page",
-      "name": "Fixed Asset G/L Journal"
+      "type": "other",
+      "name": "Fixed Asset G/L Journal window"
     },
     {
       "type": "codeunit",
@@ -38,10 +36,13 @@
   ],
   "features": [
     "Depreciation bonus calculation",
-    "Tax difference setup",
-    "Bonus recovery periods",
-    "Bonus cancellation",
-    "Depreciation basis selection"
+    "Fixed asset acquisition costs",
+    "Capital investment expenses",
+    "Depreciation bonus percentage",
+    "Depreciation group assignment",
+    "Fixed asset release handling",
+    "Tax difference codes",
+    "Depreciation bonus recovery"
   ],
   "versions": [],
   "parts": 1,
@@ -50,8 +51,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002808,
-      "pages_in_call": 8
+      "cost_usd": 0.003698,
+      "pages_in_call": 1
     }
   ]
 }

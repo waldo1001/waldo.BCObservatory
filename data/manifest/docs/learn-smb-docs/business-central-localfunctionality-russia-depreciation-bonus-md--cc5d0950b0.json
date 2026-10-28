@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/depreciation-bonus",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.452Z",
-      "blob": "ee1285f58f33216e8452ccd82e38fe95177c12c3",
-      "words": 416,
+      "at": "2026-10-28T09:11:38.754Z",
+      "blob": "5406d644a2a95a93a9c162198eb7a2d6f8f73891",
+      "words": 398,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:38.450Z",
+      "at": "2026-10-28T09:11:45.098Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.002808
+      "objects": 4,
+      "cost_usd": 0.003698
     },
     "summarized": {
-      "at": "2026-10-06T19:13:47.615Z",
+      "at": "2026-10-28T09:11:45.100Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:47.616Z",
+      "at": "2026-10-28T09:11:45.102Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:47.617Z",
+      "at": "2026-10-28T09:11:45.103Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/depreciation-bonus.md",
     "description": "Learn about the depreciation bonus feature for fixed assets in Russian tax accounting.",
-    "ms_date": "2025-07-11",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "bonus transactions",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 416,
+    "ai_usage": "ai-assisted",
+    "words": 398,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6d9f68650d24e5b1ec8bc3f395f63cb2f9caf54900c0d733ebe47a0c4f4427e7"
+  "output_hash": "68a47c97fed67b76651c3cc95244481ec0daa99a2b4e4da0ca29e92f6a7511ee"
 }

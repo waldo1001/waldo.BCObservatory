@@ -2,17 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/Currency-information-Import-currency-rates.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Currency-information-Import-currency-rates",
   "title": "Currency information in Russia",
-  "blob": "1a876dce691715a50099f7b429e71f146f1cd45f",
-  "summary": "Currency information setup in Russia specifies local currency details and enables importing exchange rates from Russian banks with conflict resolution options.",
+  "blob": "502bb63fc0a8371511c98346f59cf4dc476130df",
+  "summary": "Currency information and import currency rates in Business Central for Russia. Specifies how to configure local currency details in General Ledger Setup and Company Information, and how to use the Import Currency Exchange Rate batch job to import exchange rates from Russian bank sources.",
   "systems": [
-    "finance",
-    "localization"
+    "localization",
+    "finance"
   ],
   "topics": [
-    "russia",
     "currency",
     "exchange rates",
-    "general ledger"
+    "russia",
+    "import",
+    "local functionality"
   ],
   "objects": [
     {
@@ -26,17 +27,15 @@
     {
       "type": "page",
       "name": "Currency"
-    },
-    {
-      "type": "report",
-      "name": "Import currency rates"
     }
   ],
   "features": [
-    "local currency description",
-    "import exchange rates",
-    "russian bank codes",
-    "conflict resolution"
+    "Import Curr. Exch. Rates",
+    "Import Conflict Resolution",
+    "Ru Bank Code",
+    "Ru Bank Digital Code",
+    "LCY Code",
+    "Local currency description"
   ],
   "versions": [],
   "parts": 1,
@@ -45,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003061,
-      "pages_in_call": 8
+      "cost_usd": 0.003373,
+      "pages_in_call": 1
     }
   ]
 }

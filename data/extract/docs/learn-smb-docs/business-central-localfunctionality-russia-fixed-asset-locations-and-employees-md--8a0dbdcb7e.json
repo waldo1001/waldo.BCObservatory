@@ -2,28 +2,38 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/fixed-asset-locations-and-employees.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/fixed-asset-locations-and-employees",
   "title": "Fixed asset locations and employees in Russia",
-  "blob": "717bad70681b30ca7a3c449c66af48460b6b2871",
-  "summary": "Fixed asset locations and employees feature in Russia controls movement history of fixed assets between locations and responsible employees with associated analytics and reports.",
+  "blob": "569f95ee62202bcb4466948482c37a8d60a9b73c",
+  "summary": "Fixed asset locations and employees feature in Russia enables tracking of fixed asset movements between locations and responsible employees, with mandatory field setup options and integration into purchase documents, journals, and asset cards.",
   "systems": [
     "fixed-assets",
-    "localization"
+    "localization",
+    "administration"
   ],
   "topics": [
     "fixed assets",
     "locations",
     "employees",
-    "asset movement",
-    "history tracking",
-    "russia"
+    "russia",
+    "movement tracking",
+    "mandatory fields",
+    "setup"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Fixed Asset Setup"
+    },
+    {
+      "type": "table",
+      "name": "Fixed Asset Location"
+    }
+  ],
   "features": [
-    "Asset Movement Control",
-    "Location Tracking",
-    "Employee Assignment",
-    "FA Location Code",
+    "FA Location Mandatory",
     "Employee No. Mandatory",
-    "OKATO Code Classification"
+    "Fixed asset movement history",
+    "Location and employee tracking in documents",
+    "OKATO code classification"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00367,
-      "pages_in_call": 8
+      "cost_usd": 0.003512,
+      "pages_in_call": 1
     }
   ]
 }

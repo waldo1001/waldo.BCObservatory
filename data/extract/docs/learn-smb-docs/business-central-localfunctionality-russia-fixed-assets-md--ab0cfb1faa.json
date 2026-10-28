@@ -2,29 +2,36 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/fixed-assets.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/fixed-assets",
   "title": "Fixed assets in Russia",
-  "blob": "11d5968a75b9ecbbe8a0ba7da4117929be743bed",
-  "summary": "Overview of fixed asset management features specific to Russia including depreciation, charges, inventory tracking, locations, and asset lifecycle management.",
+  "blob": "1a8587da59ef4a17d496c2c4596be709b7bfedfd",
+  "summary": "Fixed assets in Russia covers localized features for tracking and managing fixed assets including depreciation, maintenance, movement, sale, disposal, and reporting in compliance with Russian legal requirements.",
   "systems": [
     "fixed-assets",
-    "localization"
+    "localization",
+    "finance"
   ],
   "topics": [
     "fixed assets",
-    "russia",
     "depreciation",
+    "russia",
     "asset management",
-    "disposal"
+    "inventory",
+    "disposal",
+    "accounting"
   ],
   "objects": [],
   "features": [
-    "Fixed Asset Depreciation",
-    "Asset Charges",
-    "Depreciation Bonus",
-    "Asset Inventory",
-    "Location and Employee Tracking",
-    "Asset Turnover",
-    "Future Expense Journals",
-    "Asset Disposal"
+    "assessed tax calculation",
+    "depreciation bonus",
+    "depreciation methods",
+    "fixed asset charges",
+    "gratuitous receipt",
+    "asset inventory",
+    "asset locations and employees",
+    "asset turnover",
+    "future expense journals",
+    "intangible assets",
+    "asset disposal costs",
+    "undepreciable assets"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00367,
-      "pages_in_call": 8
+      "cost_usd": 0.003713,
+      "pages_in_call": 1
     }
   ]
 }

@@ -2,19 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/fixed-asset-turnover.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/fixed-asset-turnover",
   "title": "Fixed asset turnover in Russia",
-  "blob": "50f3624350b75f7e6b47f0f9526074cc175e9c5f",
-  "summary": "Fixed asset turnover feature in Russia enables control of fixed asset turnover, viewing financial results, comparing depreciation books, and generating various turnover reports.",
+  "blob": "fc1bdfb18da640bb44585fc867616fce7fff5268",
+  "summary": "Fixed asset turnover in Russia enables control and monitoring of fixed asset movements across depreciation books. It provides reports and windows to view asset information, compare depreciation entries, and track financial results for auditing and compliance purposes.",
   "systems": [
     "fixed-assets",
     "localization",
-    "reporting"
+    "finance"
   ],
   "topics": [
     "fixed assets",
-    "turnover",
-    "depreciation",
-    "financial results",
-    "russia"
+    "depreciation books",
+    "asset turnover",
+    "russia",
+    "auditing",
+    "financial reporting"
   ],
   "objects": [
     {
@@ -39,11 +40,13 @@
     }
   ],
   "features": [
-    "FA Turnover Report",
-    "Depreciation Book Comparison",
-    "FA Sheet Window",
-    "Financial Results Monitoring",
-    "Fixed Asset Depreciation Analysis"
+    "Fixed asset turnover control",
+    "Depreciation books comparison",
+    "Asset status tracking",
+    "Acquisition cost monitoring",
+    "Depreciation tracking",
+    "General ledger integration",
+    "Asset filtering and layout customization"
   ],
   "versions": [],
   "parts": 1,
@@ -52,8 +55,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00367,
-      "pages_in_call": 8
+      "cost_usd": 0.00419,
+      "pages_in_call": 1
     }
   ]
 }

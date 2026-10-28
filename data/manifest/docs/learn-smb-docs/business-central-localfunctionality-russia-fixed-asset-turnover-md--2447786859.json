@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/fixed-asset-turnover",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.865Z",
-      "blob": "50f3624350b75f7e6b47f0f9526074cc175e9c5f",
+      "at": "2026-10-28T09:11:44.691Z",
+      "blob": "fc1bdfb18da640bb44585fc867616fce7fff5268",
       "words": 358,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:01.569Z",
+      "at": "2026-10-28T09:11:54.418Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 5,
-      "cost_usd": 0.00367
+      "cost_usd": 0.00419
     },
     "summarized": {
-      "at": "2026-10-06T19:16:03.328Z",
+      "at": "2026-10-28T09:11:54.420Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:03.329Z",
+      "at": "2026-10-28T09:11:54.421Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:03.330Z",
+      "at": "2026-10-28T09:11:54.423Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/fixed-asset-turnover.md",
     "description": "Provides information about the fixed asset turnover feature and related reports for Russia.",
-    "ms_date": "2025-07-11",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "compare depreciation book",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 358,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d571450aa29ac1591e1326cc40e9a38049b40696f85f2cc31da0645f2fc34de2"
+  "output_hash": "08a7d09be86d1c0c558782046dbdf6d4f282debaafeb686198b0d9b3d5e62693"
 }

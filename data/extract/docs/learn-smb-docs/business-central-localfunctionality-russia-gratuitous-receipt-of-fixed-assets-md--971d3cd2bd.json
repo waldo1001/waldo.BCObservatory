@@ -2,35 +2,44 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/Gratuitous-receipt-of-fixed-assets.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Gratuitous-receipt-of-fixed-assets",
   "title": "Gratuitous receipts in Russia",
-  "blob": "a912badcea3b18c7d716c2377b44a0d9512ac5fc",
-  "summary": "Gratuitous receipt of fixed assets registers the posting of fixed assets received without acquisition cost through FA G/L Journals and FA Journals, including depreciation book configuration and tax ledger setup for Russian compliance.",
+  "blob": "4a7612c98bd1082e515a0ce1d21a327ecbd27518",
+  "summary": "Gratuitous receipts in Russia documents how to post gratuitous receipt of fixed assets in Business Central using Fixed Asset G/L Journals and FA Journals for Russian organizations, including handling of depreciation books and tax accounting.",
   "systems": [
     "fixed-assets",
-    "finance",
-    "localization"
+    "localization",
+    "finance"
   ],
   "topics": [
     "fixed assets",
     "gratuitous receipt",
-    "depreciation",
+    "russia",
+    "depreciation book",
+    "posting",
     "tax accounting",
-    "russia"
+    "acquisition cost"
   ],
   "objects": [
     {
-      "type": "table",
-      "name": "FA G/L Journals"
+      "type": "page",
+      "name": "Fixed Asset G/L Journals"
     },
     {
-      "type": "table",
+      "type": "page",
       "name": "FA Journals"
+    },
+    {
+      "type": "page",
+      "name": "TAX Register Setup"
     }
   ],
   "features": [
-    "Gratuitous receipt posting",
-    "Depreciation book configuration",
-    "Tax ledger creation",
-    "Acquisition cost recording"
+    "Gratuitous receipt of fixed assets",
+    "Fixed asset acquisition posting",
+    "Depreciation book management",
+    "Tax difference coding",
+    "Deferred income accounting",
+    "Depreciation bonus handling",
+    "FA Tax Ledger creation"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003091,
-      "pages_in_call": 7
+      "cost_usd": 0.004036,
+      "pages_in_call": 1
     }
   ]
 }

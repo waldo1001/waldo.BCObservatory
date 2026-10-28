@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Currency-information-Import-currency-rates",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.020Z",
-      "blob": "1a876dce691715a50099f7b429e71f146f1cd45f",
-      "words": 184,
+      "at": "2026-10-28T09:11:38.689Z",
+      "blob": "502bb63fc0a8371511c98346f59cf4dc476130df",
+      "words": 244,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:41:21.201Z",
+      "at": "2026-10-28T09:11:44.636Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.003061
+      "objects": 3,
+      "cost_usd": 0.003373
     },
     "summarized": {
-      "at": "2026-10-06T18:41:22.977Z",
+      "at": "2026-10-28T09:11:44.638Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:41:22.978Z",
+      "at": "2026-10-28T09:11:44.639Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:41:22.979Z",
+      "at": "2026-10-28T09:11:44.640Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/Currency-information-Import-currency-rates.md",
     "description": "Russian localization provides features for importing currency rates in Business Central.",
-    "ms_date": "2025-07-11",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "import currencies",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 184,
+    "ai_usage": "ai-assisted",
+    "words": 244,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ff16185541f3495341c704ac8982f0bc849c27f4ae4ce94162af6935b97b0fe3"
+  "output_hash": "a2bd134a914640ed3910dfabb042e000c7d8d8a4b0cfb02b9318f208cb839ee2"
 }

@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/fixed-asset-charges.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/fixed-asset-charges",
   "title": "Fixed asset charges in Russia",
-  "blob": "a8830c174016dbc4897f631221b9b4e9623a6f75",
-  "summary": "Fixed asset charges in Russia allow including additional charges on fixed asset purchases and specifying depreciation methods for various charge types.",
+  "blob": "077f4b632ede31531f7438d5091672b6027f06fc",
+  "summary": "Fixed asset charges in Russia allow you to include additional costs (service, repair, modernization, partial write-off, revaluation) in the acquisition cost of fixed assets and configure depreciation methods.",
   "systems": [
     "fixed-assets",
     "localization"
@@ -12,17 +12,18 @@
     "fixed assets",
     "charges",
     "depreciation",
-    "asset acquisition",
+    "acquisition cost",
     "russia"
   ],
   "objects": [],
   "features": [
-    "After Service Charges",
-    "Repair Charges",
-    "Modernization Charges",
-    "Partial Write-Off",
-    "Revaluation",
-    "Multiple Depreciation Methods"
+    "fixed asset charges",
+    "service charges",
+    "repair charges",
+    "modernization charges",
+    "partial write-off",
+    "revaluation",
+    "depreciation methods"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00367,
-      "pages_in_call": 8
+      "cost_usd": 0.002952,
+      "pages_in_call": 1
     }
   ]
 }

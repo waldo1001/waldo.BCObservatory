@@ -2,19 +2,25 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/general-ledger-correspondence.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/general-ledger-correspondence",
   "title": "General ledger correspondence in Russia",
-  "blob": "b310e92cc9b82a6fa3defd2f0b42bd4173b73547",
-  "summary": "General ledger correspondence in Russia creates correspondence transactions between GL accounts for audit trails, supports automatic posting, and provides analysis reports showing account turnovers and correspondence entries.",
+  "blob": "a9e5ae5c16d330f1572b552d9127ad29863a7cf8",
+  "summary": "General ledger correspondence in Russia enables periodic creation and posting of correspondence transactions with accounts, plus analysis via dedicated reports and windows.",
   "systems": [
     "finance",
-    "reporting"
+    "localization"
   ],
   "topics": [
     "general ledger",
     "correspondence",
-    "audit trails",
-    "russia local"
+    "russia",
+    "localization",
+    "transaction posting",
+    "financial analysis"
   ],
   "objects": [
+    {
+      "type": "page",
+      "name": "Create G/L Correspondence"
+    },
     {
       "type": "page",
       "name": "General Ledger Setup"
@@ -28,6 +34,10 @@
       "name": "G/L Correspondence Entries"
     },
     {
+      "type": "page",
+      "name": "Correspondence"
+    },
+    {
       "type": "report",
       "name": "General Ledger - Correspondence"
     },
@@ -38,17 +48,16 @@
     {
       "type": "report",
       "name": "G/L Corresp Entries Analysis"
-    },
-    {
-      "type": "codeunit",
-      "name": "Create G/L Correspondence"
     }
   ],
   "features": [
-    "Correspondence transaction creation",
-    "Automatic GL correspondence",
-    "Account turnover analysis",
-    "Correspondence entry reporting"
+    "Create G/L Correspondence",
+    "Automatic G/L Correspondence",
+    "General Ledger - Correspondence window",
+    "G/L Corresp Entries Analysis report",
+    "Date Filter",
+    "Business unit Filter",
+    "Global Dimension filters"
   ],
   "versions": [],
   "parts": 1,
@@ -57,8 +66,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002808,
-      "pages_in_call": 8
+      "cost_usd": 0.0041,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/general-ledger-correspondence",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.465Z",
-      "blob": "b310e92cc9b82a6fa3defd2f0b42bd4173b73547",
+      "at": "2026-10-28T09:11:45.214Z",
+      "blob": "a9e5ae5c16d330f1572b552d9127ad29863a7cf8",
       "words": 448,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:38.453Z",
+      "at": "2026-10-28T09:11:54.406Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 7,
-      "cost_usd": 0.002808
+      "objects": 8,
+      "cost_usd": 0.0041
     },
     "summarized": {
-      "at": "2026-10-06T19:13:49.443Z",
+      "at": "2026-10-28T09:11:54.407Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:49.444Z",
+      "at": "2026-10-28T09:11:54.408Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:49.446Z",
+      "at": "2026-10-28T09:11:54.409Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/general-ledger-correspondence.md",
     "description": "Russian functionality includes enhancements for general ledger correspondence.",
-    "ms_date": "2025-07-11",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "correspondence window",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 448,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f07bd2152ec95151473e959ca2398786533e40eb768d32ba145a29bce665e4e8"
+  "output_hash": "f5fce892b2f6dc599a9877d815771f927a9cc0e48d77909a7ed4310d7b12aedf"
 }
