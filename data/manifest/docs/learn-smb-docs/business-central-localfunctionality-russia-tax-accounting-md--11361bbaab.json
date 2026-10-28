@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/tax-accounting",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.720Z",
-      "blob": "035b456824736830491ba9ee2f8d48794741befe",
-      "words": 380,
+      "at": "2026-10-28T09:13:11.328Z",
+      "blob": "b70189d189ff796efcdba67c263439617aca2380",
+      "words": 374,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:51.908Z",
+      "at": "2026-10-28T09:13:16.950Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002563
+      "cost_usd": 0.003529
     },
     "summarized": {
-      "at": "2026-10-06T19:15:29.501Z",
+      "at": "2026-10-28T09:13:16.952Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:15:29.502Z",
+      "at": "2026-10-28T09:13:16.953Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:15:29.503Z",
+      "at": "2026-10-28T09:13:16.953Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/tax-accounting.md",
     "description": "Provides information about tax accounting features and enhancements for Russia in Business Central.",
-    "ms_date": "2025-07-21",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "tax registers",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 380,
+    "ai_usage": "ai-assisted",
+    "words": 374,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3ec66ca9b8736323fdc7370e71cddc0f43b247a49659f61120cb67fd38d6dd80"
+  "output_hash": "fb06c528c92ace40f68c7c14ad8c4c746946876d359fa7eaec93befddfd65d08"
 }

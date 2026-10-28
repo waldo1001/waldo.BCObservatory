@@ -2,17 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/VAT-by-Customer-prepayments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/VAT-by-Customer-prepayments",
   "title": "VAT by customer prepayment in Russia",
-  "blob": "1bb0e8251dc98bad5b49f922362efdee30fd7ba5",
-  "summary": "VAT by customer prepayment in Russia handles the creation of VAT invoices and records when customers provide prepayments, supporting both unrealized VAT setup and prepayment return processes with corrective entries.",
+  "blob": "e49624f194d3d208bb471cbc7c12b0f07be95bb0",
+  "summary": "VAT by customer prepayment in Russia enables creation of VAT entries and invoices when posting customer prepayments, with configuration through General Ledger Setup, VAT Posting Setup, and customer posting groups.",
   "systems": [
+    "finance",
     "sales",
-    "finance"
+    "localization"
   ],
   "topics": [
-    "vat processing",
-    "prepayments",
-    "customer invoices",
-    "russia local"
+    "vat",
+    "prepayment",
+    "customer",
+    "russia",
+    "unrealized vat",
+    "posting setup"
   ],
   "objects": [
     {
@@ -25,14 +28,22 @@
     },
     {
       "type": "page",
-      "name": "Customer ledger entries"
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customer Ledger Entries"
     }
   ],
   "features": [
-    "Unrealized VAT setup",
-    "VAT posting configuration",
-    "Prepayment processing",
-    "Corrective entry generation"
+    "unrealized VAT",
+    "VAT entries",
+    "VAT invoice",
+    "customer prepayment posting",
+    "prepayment invoice creation",
+    "return prepayment",
+    "VAT business group",
+    "VAT product posting group"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002808,
-      "pages_in_call": 8
+      "cost_usd": 0.004066,
+      "pages_in_call": 1
     }
   ]
 }

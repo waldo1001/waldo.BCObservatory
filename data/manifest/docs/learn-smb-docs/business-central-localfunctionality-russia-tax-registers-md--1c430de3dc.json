@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/tax-registers",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.733Z",
-      "blob": "12649255b1bd69982efc8b32f964e3c419354bfd",
-      "words": 123,
+      "at": "2026-10-28T09:13:16.708Z",
+      "blob": "f3dd40a1a59b11d779c93c1b438ec77b415e7541",
+      "words": 131,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:15:27.640Z",
+      "at": "2026-10-28T09:13:21.444Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002603
+      "objects": 2,
+      "cost_usd": 0.003117
     },
     "summarized": {
-      "at": "2026-10-06T19:15:29.507Z",
+      "at": "2026-10-28T09:13:21.445Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:15:29.508Z",
+      "at": "2026-10-28T09:13:21.447Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:15:29.509Z",
+      "at": "2026-10-28T09:13:26.377Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/tax-registers.md",
     "description": "Tax registers in Russia help track and manage taxable profits and losses according to local tax accounting requirements.",
-    "ms_date": "2025-07-22",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "tax register setup",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 123,
+    "ai_usage": "ai-assisted",
+    "words": 131,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "047d169256c2a5c399b21c09ac4a37e582318c96c09b9ab5ab7c656c8099c174"
+  "output_hash": "3843bcaa43cf98cdbe38bbb100bba80810243e9f8a9745e54fbfd73a55af57b3"
 }

@@ -2,38 +2,48 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/undepreciable-fixed-assets.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/undepreciable-fixed-assets",
   "title": "Undepreciable fixed assets in Russia",
-  "blob": "0b85e744640b5bdd149dd5254246e2cc23d1513e",
-  "summary": "Undepreciable fixed assets in Russia can be repaid with their full acquisition amount at release and tracked with quantity records. Create depreciation books and quantity books to manage fixed assets that are fully written off upon release.",
+  "blob": "a258019a77aa6d4a9cc6142e0a10149efc24fc0f",
+  "summary": "Undepreciable fixed assets in Russia enables repayment of fixed assets with their full acquisition amount at release and tracks their quantitative existence and movements.",
   "systems": [
     "fixed-assets",
     "localization"
   ],
   "topics": [
-    "undepreciable fixed assets",
-    "depreciation",
-    "quantity records",
     "russia",
-    "release orders"
+    "fixed assets",
+    "depreciation",
+    "accounting",
+    "undepreciable assets",
+    "quantity records"
   ],
   "objects": [
     {
-      "type": "table",
+      "type": "page",
+      "name": "Fixed Assets"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset Releases"
+    },
+    {
+      "type": "page",
       "name": "Fixed Asset Card"
     },
     {
-      "type": "table",
-      "name": "FA Releases"
-    },
-    {
-      "type": "table",
+      "type": "page",
       "name": "FA Release Act"
     }
   ],
   "features": [
     "undepreciable fixed assets",
-    "quantity books",
-    "depreciation books",
-    "fixed asset release"
+    "quantity book",
+    "depreciation book",
+    "fixed asset release",
+    "purchase order for fixed assets"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002603,
-      "pages_in_call": 7
+      "cost_usd": 0.00339,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/tax-differences",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.729Z",
-      "blob": "f7542ad93732083a8c9a0f6efc1982cc3480a2d0",
-      "words": 193,
+      "at": "2026-10-28T09:13:11.317Z",
+      "blob": "aba94d0234023786c01555db390432f0c29508b8",
+      "words": 202,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:15:27.639Z",
+      "at": "2026-10-28T09:13:17.140Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.002603
+      "cost_usd": 0.003505
     },
     "summarized": {
-      "at": "2026-10-06T19:15:27.648Z",
+      "at": "2026-10-28T09:13:17.141Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:15:27.649Z",
+      "at": "2026-10-28T09:13:17.143Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:15:27.650Z",
+      "at": "2026-10-28T09:13:17.144Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/tax-differences.md",
     "description": "Russian localization features allow you to manage and track tax differences between book and tax accounting.",
-    "ms_date": "2025-07-22",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "tax difference registers",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 193,
+    "ai_usage": "ai-assisted",
+    "words": 202,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "65370f1eebcb7e587c320ab7160285e54786af0ec7b800421dfe50802d3499f7"
+  "output_hash": "2c0dcb9e397a60d9feca1e6fd5edf5270cd49bfbfc0c1c07c1e0417f10d4cc3a"
 }

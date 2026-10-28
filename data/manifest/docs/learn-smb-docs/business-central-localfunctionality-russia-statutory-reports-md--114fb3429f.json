@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/statutory-reports",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.716Z",
-      "blob": "fe322a781a87346a6711bd96cb80586ccf6d0863",
+      "at": "2026-10-28T09:13:11.260Z",
+      "blob": "2644e9c3462faf94803a71b1919c4afb7000c039",
       "words": 383,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:51.907Z",
+      "at": "2026-10-28T09:13:17.204Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 7,
-      "cost_usd": 0.002563
+      "cost_usd": 0.003826
     },
     "summarized": {
-      "at": "2026-10-06T19:15:27.666Z",
+      "at": "2026-10-28T09:13:17.206Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:15:27.667Z",
+      "at": "2026-10-28T09:13:17.207Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:15:29.499Z",
+      "at": "2026-10-28T09:13:17.209Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/statutory-reports.md",
     "description": "Russian localization provides features for statutory reporting compliance.",
-    "ms_date": "2025-07-21",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "financial report",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 383,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1f5f6f5942d6d934321d41549a8798f6b65ceffaea0c80e5ecfbb85092abd405"
+  "output_hash": "7a621d9ca1922109e8633d7d8d48cbae063991afbdb6fb2ae2e89a4c87385502"
 }

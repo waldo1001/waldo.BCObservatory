@@ -2,30 +2,34 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/tax-registers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/tax-registers",
   "title": "Tax registers in Russia",
-  "blob": "12649255b1bd69982efc8b32f964e3c419354bfd",
-  "summary": "Tax registers in Russia track and manage taxable profits and losses using tax accounting principles. Set up tax register details and create registers that group taxable transactions into logical categories.",
+  "blob": "f3dd40a1a59b11d779c93c1b438ec77b415e7541",
+  "summary": "Tax registers in Russia allow you to track and manage taxable profits and losses by grouping transactions into categories and applying tax accounting rules for revenue and expenditure recognition.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
+    "tax accounting",
+    "russian localization",
     "tax registers",
     "taxable profits",
-    "taxable losses",
-    "russia",
-    "tax accounting"
+    "tax compliance"
   ],
   "objects": [
     {
-      "type": "table",
+      "type": "page",
       "name": "Tax Register Setup"
+    },
+    {
+      "type": "page",
+      "name": "Create Tax Registers"
     }
   ],
   "features": [
     "tax register setup",
-    "taxable profit tracking",
-    "revenue recognition",
-    "expenditure recognition"
+    "tax register creation",
+    "tax accounting configuration",
+    "transaction grouping"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002603,
-      "pages_in_call": 7
+      "cost_usd": 0.003117,
+      "pages_in_call": 1
     }
   ]
 }

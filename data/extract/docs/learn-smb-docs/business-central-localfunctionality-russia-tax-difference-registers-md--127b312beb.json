@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/tax-difference-registers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/tax-difference-registers",
   "title": "Tax difference registers in Russia",
-  "blob": "3a8b0f2832a5befb0869330b6f15851c9002303c",
-  "summary": "Tax difference registers in Russia display posted tax difference transactions with income and expense codes, allowing navigation to transaction details and creation information.",
+  "blob": "bfef5cb362166b965baa146eb36e6bac28e788c8",
+  "summary": "Tax difference registers allow viewing posted tax difference transactions with income or expense codes in Russia. Use this to examine tax ledger entries and find related postings by date and document number.",
   "systems": [
     "finance",
     "localization"
@@ -11,15 +11,14 @@
   "topics": [
     "tax differences",
     "russia",
-    "tax registers",
-    "ledger entries",
-    "posting"
+    "tax accounting",
+    "registers"
   ],
   "objects": [],
   "features": [
-    "tax difference register view",
-    "ledger entries navigation",
-    "transaction details"
+    "tax difference registers",
+    "tax difference ledger entries",
+    "find entries"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +27,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002563,
-      "pages_in_call": 8
+      "cost_usd": 0.002632,
+      "pages_in_call": 1
     }
   ]
 }

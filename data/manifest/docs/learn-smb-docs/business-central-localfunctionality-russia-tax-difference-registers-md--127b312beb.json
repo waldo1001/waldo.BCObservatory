@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/tax-difference-registers",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.725Z",
-      "blob": "3a8b0f2832a5befb0869330b6f15851c9002303c",
-      "words": 112,
+      "at": "2026-10-28T09:13:11.322Z",
+      "blob": "bfef5cb362166b965baa146eb36e6bac28e788c8",
+      "words": 94,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:51.909Z",
+      "at": "2026-10-28T09:13:16.654Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002563
+      "cost_usd": 0.002632
     },
     "summarized": {
-      "at": "2026-10-06T19:15:29.504Z",
+      "at": "2026-10-28T09:13:16.656Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:15:29.505Z",
+      "at": "2026-10-28T09:13:16.657Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:15:29.506Z",
+      "at": "2026-10-28T09:13:16.659Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/tax-difference-registers.md",
     "description": "Tax difference registers help track and manage tax difference transactions in Russian localizations.",
-    "ms_date": "2025-07-21",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "tax difference transactions",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 112,
+    "ai_usage": "ai-assisted",
+    "words": 94,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9192f5a77b553d7deccdd917fb9d1f2fa44c375ecceaa10fbb3b27ab89a4cbec"
+  "output_hash": "f2dba68379cccc257f8de7f410ea058b4c17390b12cc5ac4bc512893a4d84c78"
 }

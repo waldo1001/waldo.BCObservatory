@@ -2,29 +2,42 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/special-codes-company-information-customers-vendors.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/special-codes-company-information-customers-vendors",
   "title": "Special codes for company information, customers, and vendors (RU)",
-  "blob": "811b8ea3d4029eca2f19ba572e81c3645111e116",
-  "summary": "Special codes for company information, customers, and vendors in Russia include VAT registration, KPP, BIC, pension fund, medical fund, and various statistical classification codes required for Russian reporting forms.",
+  "blob": "506cb41d08ea953a94968e0f593ed2ff4e85f215",
+  "summary": "The Russian localization of Business Central supports special classified codes for company information, customers, and vendors needed in Russian printing forms and reports. These codes include VAT registration numbers, KPP codes, bank BIC, pension fund registration, and various OKXXX classification codes.",
   "systems": [
-    "localization",
-    "administration"
+    "localization"
   ],
   "topics": [
     "russia",
-    "company setup",
-    "customer setup",
-    "vendor setup",
-    "classification codes"
+    "localization",
+    "company information",
+    "customer codes",
+    "vendor codes",
+    "special codes"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    }
+  ],
   "features": [
-    "VAT registration",
+    "VAT registration number",
     "KPP code",
-    "OKPO code",
-    "OKONX code",
-    "BIC code",
-    "OGRN code",
-    "OKVED code",
-    "pension fund registration"
+    "Bank BIC",
+    "Pension fund registration number",
+    "Medical fund registration number",
+    "Social insurance code",
+    "Tax bearer category code",
+    "OKPO code"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002563,
-      "pages_in_call": 8
+      "cost_usd": 0.003328,
+      "pages_in_call": 1
     }
   ]
 }

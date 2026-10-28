@@ -2,18 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/tax-differences.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/tax-differences",
   "title": "Tax differences in Russia",
-  "blob": "f7542ad93732083a8c9a0f6efc1982cc3480a2d0",
-  "summary": "Tax differences track variations between book accounting and tax accounting amounts in Russia. Set up tax difference registers, journals, and posting groups to manage differences in income and expense recognition.",
+  "blob": "aba94d0234023786c01555db390432f0c29508b8",
+  "summary": "Tax differences track variations between book accounting and tax accounting amounts in Russia. Set up tax difference registers, journals, and accounts to manage these differences.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
     "tax differences",
-    "book accounting",
     "tax accounting",
+    "book accounting",
     "russia",
-    "chart of accounts"
+    "tax registers"
   ],
   "objects": [
     {
@@ -36,8 +36,8 @@
   "features": [
     "tax difference registers",
     "tax difference journals",
-    "tax difference posting groups",
-    "book vs tax accounting"
+    "chart of accounts setup",
+    "tax difference ledger entries"
   ],
   "versions": [],
   "parts": 1,
@@ -46,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002603,
-      "pages_in_call": 7
+      "cost_usd": 0.003505,
+      "pages_in_call": 1
     }
   ]
 }

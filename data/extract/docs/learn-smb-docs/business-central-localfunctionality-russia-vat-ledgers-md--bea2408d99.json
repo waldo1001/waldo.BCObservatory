@@ -2,35 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/vat-ledgers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/vat-ledgers",
   "title": "VAT ledgers in Russia",
-  "blob": "3ce07513dcc06463f6a7d4a1336582e3e57ab472",
-  "summary": "VAT ledgers in Russia create and print VAT purchase and sales ledgers with additional sheets. Set up VAT posting groups and number series, then use batch jobs to add lines and print ledgers for VAT tracking.",
+  "blob": "38b76751cd6b4608224937b9d61dfe3a2cf0832c",
+  "summary": "VAT ledgers in Russia enable creation and printing of VAT Purchase Ledger, VAT Sales Ledger, and additional sheets. The feature requires setup of number series, posting groups, and VAT posting group configuration to identify how VAT entries are included in ledgers.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "vat ledgers",
-    "vat purchase ledger",
-    "vat sales ledger",
+    "vat",
+    "ledgers",
     "russia",
-    "vat posting"
+    "tax reporting",
+    "posting groups",
+    "sales",
+    "purchases"
   ],
-  "objects": [
-    {
-      "type": "table",
-      "name": "Sales Return Order"
-    },
-    {
-      "type": "table",
-      "name": "Sales Credit Memo"
-    }
-  ],
+  "objects": [],
   "features": [
-    "VAT purchase ledger",
-    "VAT sales ledger",
-    "additional sheets",
-    "VAT posting groups",
-    "VAT ledger types"
+    "VAT Purchase Ledger",
+    "VAT Sales Ledger",
+    "VAT Purchase Ledger Additional Sheet",
+    "VAT Sales Ledger Additional Sheet",
+    "Create VAT Purchase Ledger batch job",
+    "Create VAT Sales Ledger batch job",
+    "Mark VAT purchase ledger"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002603,
-      "pages_in_call": 7
+      "cost_usd": 0.003528,
+      "pages_in_call": 1
     }
   ]
 }

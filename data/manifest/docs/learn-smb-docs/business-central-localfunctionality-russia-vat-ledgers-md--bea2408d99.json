@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/vat-ledgers",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.741Z",
-      "blob": "3ce07513dcc06463f6a7d4a1336582e3e57ab472",
+      "at": "2026-10-28T09:13:17.255Z",
+      "blob": "38b76751cd6b4608224937b9d61dfe3a2cf0832c",
       "words": 308,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:15:27.642Z",
+      "at": "2026-10-28T09:13:26.404Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002603
+      "objects": 0,
+      "cost_usd": 0.003528
     },
     "summarized": {
-      "at": "2026-10-06T19:15:29.515Z",
+      "at": "2026-10-28T09:13:26.406Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:15:29.516Z",
+      "at": "2026-10-28T09:13:26.407Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:15:29.517Z",
+      "at": "2026-10-28T09:13:26.408Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/vat-ledgers.md",
     "description": "Russian localization provides features for managing and reporting VAT ledgers.",
-    "ms_date": "2025-07-22",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "VAT sales ledger additional sheet",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 308,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "edfc63fc5d8b2a246070f65ce464568e90d9458a01a4b2ad2a78334ed6da1c19"
+  "output_hash": "7186b17bb8d130de09bc3968723b5c3a059b1cb677539f4f99d5146a07c3c133"
 }

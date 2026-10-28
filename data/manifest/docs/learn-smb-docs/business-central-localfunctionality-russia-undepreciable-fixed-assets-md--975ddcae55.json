@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/undepreciable-fixed-assets",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.737Z",
-      "blob": "0b85e744640b5bdd149dd5254246e2cc23d1513e",
-      "words": 237,
+      "at": "2026-10-28T09:13:16.982Z",
+      "blob": "a258019a77aa6d4a9cc6142e0a10149efc24fc0f",
+      "words": 297,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:15:27.641Z",
+      "at": "2026-10-28T09:13:26.420Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.002603
+      "objects": 5,
+      "cost_usd": 0.00339
     },
     "summarized": {
-      "at": "2026-10-06T19:15:29.510Z",
+      "at": "2026-10-28T09:13:26.421Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:15:29.511Z",
+      "at": "2026-10-28T09:13:26.429Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:15:29.513Z",
+      "at": "2026-10-28T09:13:26.431Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/undepreciable-fixed-assets.md",
     "description": "Russian localization lets you manage fixed assets that aren't subject to depreciation.",
-    "ms_date": "2025-07-22",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Russia",
       "depreciation"
     ],
-    "ai_usage": null,
-    "words": 237,
+    "ai_usage": "ai-assisted",
+    "words": 297,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3db514d8422a022236e2429574ca1cc46f83b6a0fccc2808353301a84d1a41cb"
+  "output_hash": "84dcc324f516db37618c920556b4aa9b562be56791a6f6f41e542157b6f00ce9"
 }

@@ -2,18 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/statutory-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/statutory-reports",
   "title": "Statutory reports in Russia",
-  "blob": "fe322a781a87346a6711bd96cb80586ccf6d0863",
-  "summary": "Statutory reports in Russia enable setup and export of tax reporting and required documents through format versions, report tables, requisites groups, and data source mapping.",
+  "blob": "2644e9c3462faf94803a71b1919c4afb7000c039",
+  "summary": "Statutory reports in Russia allow you to set up and export data for electronic tax reporting and required documents by configuring templates, formats, and mappings to financial reports and tax registers.",
   "systems": [
-    "reporting",
-    "localization"
+    "localization",
+    "finance",
+    "reporting"
   ],
   "topics": [
     "statutory reports",
     "russia",
     "tax reporting",
-    "excel export",
-    "data mapping"
+    "electronic export",
+    "financial reports",
+    "tax registers"
   ],
   "objects": [
     {
@@ -46,12 +48,13 @@
     }
   ],
   "features": [
+    "statutory report setup",
     "report templates",
-    "format versions",
-    "XML schema",
-    "data export",
-    "table mapping",
-    "financial report basis"
+    "XML schema configuration",
+    "data export to Excel",
+    "table mappings",
+    "financial report integration",
+    "tax register integration"
   ],
   "versions": [],
   "parts": 1,
@@ -60,8 +63,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002563,
-      "pages_in_call": 8
+      "cost_usd": 0.003826,
+      "pages_in_call": 1
     }
   ]
 }
