@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Overview",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.616Z",
-      "blob": "d9e7f13dd6286cf3a3b23aae730e693e6aed1ed9",
-      "words": 502,
+      "at": "2026-10-28T09:09:45.564Z",
+      "blob": "cee89ec4b4940226e0636c3a98ad2645c4b26467",
+      "words": 539,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:01:29.021Z",
+      "at": "2026-10-28T09:09:52.470Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.003247
+      "objects": 6,
+      "cost_usd": 0.004853
     },
     "summarized": {
-      "at": "2026-10-06T19:01:29.036Z",
+      "at": "2026-10-28T09:09:52.472Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:29.037Z",
+      "at": "2026-10-28T09:09:52.475Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:29.038Z",
+      "at": "2026-10-28T09:09:52.476Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md",
     "description": "Overview of GST Input Service Distribution functionality in Business Central for India, including setup steps and configuration requirements.",
-    "ms_date": "2025-10-16",
+    "ms_date": "2026-10-21",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -59,12 +59,12 @@
       "ISD on source code setup",
       "ISD on GST posting setup"
     ],
-    "ai_usage": null,
-    "words": 502,
+    "ai_usage": "ai-assisted",
+    "words": 539,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4475bc38522f00ef3694b58e4682ebced8fba370e55b2244c075a568fd336dcd"
+  "output_hash": "4cc8b9f67fb01a62da198eb4f9d091028e8d042decd7a1797cdb511a5f2fb66d"
 }

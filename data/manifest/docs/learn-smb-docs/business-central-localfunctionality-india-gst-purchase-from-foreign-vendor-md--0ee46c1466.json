@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Foreign-Vendor",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.975Z",
-      "blob": "9076f2c66584036d1fe3d8d93487a39f8ac8119e",
-      "words": 733,
+      "at": "2026-10-28T09:09:51.839Z",
+      "blob": "ff075c46e3cf5af8a89bc1ff46e8af4d2e4efd5e",
+      "words": 861,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:24.806Z",
+      "at": "2026-10-28T09:10:01.617Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.004773
+      "cost_usd": 0.005169
     },
     "summarized": {
-      "at": "2026-10-06T19:16:24.849Z",
+      "at": "2026-10-28T09:10:01.618Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:24.850Z",
+      "at": "2026-10-28T09:10:01.619Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:24.850Z",
+      "at": "2026-10-28T09:10:01.621Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Purchase-from-Foreign-Vendor.md",
     "description": "Learn how to process imports from foreign vendors in India, including GST and reverse charge procedures for goods and services.",
-    "ms_date": "2025-06-23",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "English",
       "foreign vendor import"
     ],
-    "ai_usage": null,
-    "words": 733,
+    "ai_usage": "ai-assisted",
+    "words": 861,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "749f522865f794da7e3531e5c1a79ceadb855d725ff68bd0cd7d0492f34b4ffa"
+  "output_hash": "dc8a336efac64fe34cdac55daadb455b344a0abc0c232aed3591a27e52a5e754"
 }

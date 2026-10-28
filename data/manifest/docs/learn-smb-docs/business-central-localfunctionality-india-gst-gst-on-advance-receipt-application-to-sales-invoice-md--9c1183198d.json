@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:15.253Z",
+      "at": "2026-10-28T09:09:51.262Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003459
+      "objects": 0,
+      "cost_usd": 0.003836
     },
     "summarized": {
-      "at": "2026-10-06T19:16:24.835Z",
+      "at": "2026-10-28T09:09:51.264Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:24.836Z",
+      "at": "2026-10-28T09:09:51.265Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:24.837Z",
+      "at": "2026-10-28T09:09:51.266Z",
       "page": false
     }
   },
@@ -63,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "53f59be0fbc11cc612d0385b8ec30b6bd32efd0d"
+  "output_hash": "a99814cbf4e294a379803683d80c2ca875d8045fd1069eb223255d98f311d3c8"
 }

@@ -1,33 +1,31 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice",
-  "title": "GST on Advance Payment Application with Sales Invoice",
-  "blob": "cf4b9bf9139fa083a131ec17ef26524ffb5045a7",
-  "summary": "GST application of advance payments received from customers to sales invoices in India, with GSTR-1 reporting requirements based on payment and invoice timing.",
+  "title": "GST on Advance Payment and Application with Sales Invoice",
+  "blob": "53f59be0fbc11cc612d0385b8ec30b6bd32efd0d",
+  "summary": "GST on advance payment received from customers and its application to sales invoices in India. Explains GST calculation, timing of liability disclosure, application and unapplication processes with GL entry examples.",
   "systems": [
-    "localization",
+    "finance",
     "sales",
-    "finance"
+    "localization"
   ],
   "topics": [
     "gst",
     "advance payment",
+    "india localization",
     "sales invoice",
-    "application",
-    "india"
+    "tax calculation"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Sales Invoice"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Advance payment application",
-    "Sales invoice linking",
+    "GST on Advance Payment",
+    "GST Group Code",
+    "HSN/SAC Code",
+    "Applies-to Doc. No.",
     "GSTR-1 reporting",
-    "Un-application functionality",
-    "Tax liability settlement"
+    "GST Settlement Screen",
+    "CGST",
+    "SGST/UTGST"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003459,
-      "pages_in_call": 8
+      "cost_usd": 0.003836,
+      "pages_in_call": 1
     }
   ]
 }

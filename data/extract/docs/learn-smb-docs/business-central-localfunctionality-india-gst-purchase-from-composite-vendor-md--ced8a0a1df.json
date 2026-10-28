@@ -1,32 +1,37 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Purchase-from-Composite-Vendor.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Composite-Vendor",
-  "title": "Purchase from Composite Vendor or Purchase of exempted goods and services with no GST Impact",
-  "blob": "61149f1102e30586061d26056e1fa7cf744b288b",
-  "summary": "Purchases from composite vendors or exempted goods and services have no GST impact, as composite vendors are not entitled to collect tax or pass on credit.",
+  "title": "Purchase from Composite Vendor or Purchase of Exempted Goods and Services with No GST Impact",
+  "blob": "0a82b0aa04f15ade6325f966197ced48e3f993f3",
+  "summary": "How to handle purchases from composite vendors or exempted goods with no GST impact in India localization. Set the vendor's GST Vendor Type to Composite or Exempted and mark applicable lines as Exempted to prevent GST calculation.",
   "systems": [
     "finance",
-    "localization",
-    "purchasing"
+    "purchasing",
+    "localization"
   ],
   "topics": [
     "gst",
+    "india",
     "composite vendor",
     "exempted goods",
-    "india",
-    "tax exemption"
+    "purchase invoice",
+    "tax calculation"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Purchase Invoice"
+      "name": "Purchase Invoices"
     }
   ],
   "features": [
+    "GST Vendor Type",
     "Composite vendor",
-    "Exempted goods and services",
-    "GST vendor type",
-    "No GST calculation"
+    "Exempted goods",
+    "GST Registration No.",
+    "ARN No.",
+    "State Code",
+    "PAN details",
+    "Exempted field on purchase lines"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004773,
-      "pages_in_call": 8
+      "cost_usd": 0.003577,
+      "pages_in_call": 1
     }
   ]
 }

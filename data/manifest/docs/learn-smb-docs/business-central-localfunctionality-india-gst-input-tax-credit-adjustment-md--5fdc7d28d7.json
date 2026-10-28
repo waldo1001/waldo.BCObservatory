@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.965Z",
-      "blob": "36c4fe413e2801506991595a9804c2ab07fbd297",
-      "words": 1205,
+      "at": "2026-10-28T09:09:45.668Z",
+      "blob": "dbcaaeb238013ec43fea0d98c12a167933bd1617",
+      "words": 1232,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:24.804Z",
+      "at": "2026-10-28T09:09:51.913Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.004773
+      "objects": 0,
+      "cost_usd": 0.009901
     },
     "summarized": {
-      "at": "2026-10-06T19:16:24.843Z",
+      "at": "2026-10-28T09:09:51.915Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:24.843Z",
+      "at": "2026-10-28T09:09:51.917Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:24.844Z",
+      "at": "2026-10-28T09:09:51.918Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md",
     "description": "Learn how to manage and adjust GST input tax credit in Business Central for India, including credit reversals, reavailment, and reverse charge transactions.",
-    "ms_date": "2025-06-23",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "credit adjustment journal",
       "reverse charge transactions"
     ],
-    "ai_usage": null,
-    "words": 1205,
+    "ai_usage": "ai-assisted",
+    "words": 1232,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9c7f11fe3e4454751b027efb061a74e0eb639eab9eb21e43a8216833509f7639"
+  "output_hash": "48769db795b2aa0fb098fa3b34146d13eeb4693d8f915d2ef8640ccf6e39df17"
 }

@@ -2,35 +2,40 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM",
   "title": "Purchase of Goods from an Unregistered Vendor (Reverse Charge)",
-  "blob": "51bc210bf66f1cf1c4d84165b5b5d0500c03d7be",
-  "summary": "Purchases from unregistered vendors have no GST except for notified services under reverse charge mechanism, with tax credit availment options and reverse charge exempt transactions.",
+  "blob": "e34fc913f78ee18ffa59a11cf0335c1a60042f93",
+  "summary": "Purchase of goods from unregistered vendors in India with GST reverse charge mechanism. This page explains how to create purchase invoices for unregistered vendors and the resulting GST calculations and GL entries.",
   "systems": [
-    "finance",
+    "purchasing",
     "localization",
-    "purchasing"
+    "finance"
   ],
   "topics": [
     "gst",
-    "unregistered vendor",
     "reverse charge",
-    "rcm",
     "india",
-    "tax credit"
+    "unregistered vendor",
+    "purchase invoice",
+    "tax calculation"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Purchase Invoice"
+      "name": "Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
     }
   ],
   "features": [
-    "Unregistered vendor",
-    "Reverse charge",
-    "GST Credit",
-    "Notified services",
-    "Intra-state transactions",
-    "Inter-state transactions",
-    "Reverse charge exempt"
+    "reverse charge mechanism",
+    "GST credit availment",
+    "GST group code",
+    "HSN/SAC code",
+    "unregistered vendor classification",
+    "intra-state transactions",
+    "inter-state transactions",
+    "fixed asset purchases"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004773,
-      "pages_in_call": 8
+      "cost_usd": 0.004638,
+      "pages_in_call": 1
     }
   ]
 }

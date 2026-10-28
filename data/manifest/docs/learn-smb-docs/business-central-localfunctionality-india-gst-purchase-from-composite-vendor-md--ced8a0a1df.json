@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Purchase from Composite Vendor or Purchase of exempted goods and services with no GST Impact",
+  "title": "Purchase from Composite Vendor or Purchase of Exempted Goods and Services with No GST Impact",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Composite-Vendor",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.970Z",
-      "blob": "61149f1102e30586061d26056e1fa7cf744b288b",
-      "words": 233,
+      "at": "2026-10-28T09:09:51.324Z",
+      "blob": "0a82b0aa04f15ade6325f966197ced48e3f993f3",
+      "words": 316,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:24.805Z",
+      "at": "2026-10-28T09:09:56.470Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.004773
+      "cost_usd": 0.003577
     },
     "summarized": {
-      "at": "2026-10-06T19:16:24.845Z",
+      "at": "2026-10-28T09:09:56.471Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:24.846Z",
+      "at": "2026-10-28T09:09:56.472Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:24.848Z",
+      "at": "2026-10-28T09:09:56.473Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Purchase-from-Composite-Vendor.md",
     "description": "Explains how to record purchases from composite vendors or for exempted goods and services that have no GST impact in Business Central India localization.",
-    "ms_date": "2025-06-23",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "composite vendor",
       "exempted goods and services"
     ],
-    "ai_usage": null,
-    "words": 233,
+    "ai_usage": "ai-assisted",
+    "words": 316,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cd1897b7f1e1a171050649c8916c5f90b6076511fb997b991cf763ecdec28af8"
+  "output_hash": "dc70c353f24957dde4573c6babb869f2eb8cee36e7e4f5fe22a0674f463fca1c"
 }

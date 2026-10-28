@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment",
   "title": "GST Input Tax Credit Adjustments",
-  "blob": "36c4fe413e2801506991595a9804c2ab07fbd297",
-  "summary": "GST Credit Adjustment Journal handles credit reversals, re-availments, and permanent reversals for reconciliation adjustments and reverse charge transactions in India GST compliance.",
+  "blob": "dbcaaeb238013ec43fea0d98c12a167933bd1617",
+  "summary": "GST Input Tax Credit Adjustments explains how to handle credit adjustments for GST in India, including credit reversal, re-availment, and permanent reversal for regular and reverse charge transactions using the Credit Adjustment Journal.",
   "systems": [
     "finance",
     "localization"
@@ -11,26 +11,20 @@
   "topics": [
     "gst",
     "credit adjustment",
-    "tax credit",
-    "reverse charge",
+    "input tax credit",
     "india",
-    "reconciliation"
+    "reverse charge",
+    "tax compliance"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "GST Credit Adjustment"
-    }
-  ],
+  "objects": [],
   "features": [
     "Credit Reversal",
     "Credit Re-availment",
     "Permanent Reversal",
+    "Reverse Charge Adjustments",
     "Credit Availment",
     "Reversal of Availment",
-    "GST Registration No",
-    "Nature of Adjustment",
-    "Adjustment percentage"
+    "GST Credit Adjustment Journal"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004773,
-      "pages_in_call": 8
+      "cost_usd": 0.009901,
+      "pages_in_call": 1
     }
   ]
 }

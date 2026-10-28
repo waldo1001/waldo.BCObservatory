@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Registered-Vendor",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.980Z",
-      "blob": "e7deb5e2fe52eadc6b83f1bab7306952e6ce0bb2",
-      "words": 786,
+      "at": "2026-10-28T09:09:51.971Z",
+      "blob": "7721d71b225d5eb9da55bc3cc27aea6ec26a78d0",
+      "words": 821,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:24.806Z",
+      "at": "2026-10-28T09:10:01.602Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.004773
+      "cost_usd": 0.005269
     },
     "summarized": {
-      "at": "2026-10-06T19:16:24.851Z",
+      "at": "2026-10-28T09:10:01.604Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:24.852Z",
+      "at": "2026-10-28T09:10:01.606Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:24.853Z",
+      "at": "2026-10-28T09:10:01.608Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Purchase-from-Registered-Vendor.md",
     "description": "Learn how to process purchases from registered vendors in India, including GST setup, invoice creation, and accounting entries in Dynamics 365 Business Central.",
-    "ms_date": "2025-06-23",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "purchase process",
       "registered vendor"
     ],
-    "ai_usage": null,
-    "words": 786,
+    "ai_usage": "ai-assisted",
+    "words": 821,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e894fc545904d06d8df3ffb3cee361321c30ecad3607fa44d701d7aed6cbb7ed"
+  "output_hash": "2a6fb00eca26ae609a3e345f5d5ba435b5471c194e316037be4517e9eb79c3c5"
 }

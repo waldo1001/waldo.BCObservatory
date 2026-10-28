@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-SEZ-Vendor",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.985Z",
-      "blob": "98ed7fea0d5c48f20e62b8f16884f4bebd9c5f83",
-      "words": 546,
+      "at": "2026-10-28T09:09:52.151Z",
+      "blob": "d77493f461f751fc4eef6bdf6280ab924736eb37",
+      "words": 618,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:24.807Z",
+      "at": "2026-10-28T09:10:01.485Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.004773
+      "cost_usd": 0.004388
     },
     "summarized": {
-      "at": "2026-10-06T19:16:24.854Z",
+      "at": "2026-10-28T09:10:01.487Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:24.855Z",
+      "at": "2026-10-28T09:10:01.489Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:24.856Z",
+      "at": "2026-10-28T09:10:01.491Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Purchase-from-SEZ-Vendor.md",
     "description": "Learn how to process the purchase of goods from a Special Economic Zone (SEZ) vendor in India, including GST calculation and accounting entries in Business Central.",
-    "ms_date": "2025-06-23",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "SEZ vendor",
       "create purchase invoice"
     ],
-    "ai_usage": null,
-    "words": 546,
+    "ai_usage": "ai-assisted",
+    "words": 618,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "996fa4de8b4aca66e44a0171d95ce82d55841d0532011e1bd8236c7362ea4ac9"
+  "output_hash": "f8f7366d39c5826b7f76c591cfe3b3311e81f5e13d6104ec27a3f517114b4d59"
 }

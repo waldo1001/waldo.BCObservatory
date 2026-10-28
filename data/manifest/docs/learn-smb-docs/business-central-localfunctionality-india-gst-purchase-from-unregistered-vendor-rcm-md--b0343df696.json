@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.991Z",
-      "blob": "51bc210bf66f1cf1c4d84165b5b5d0500c03d7be",
-      "words": 542,
+      "at": "2026-10-28T09:09:52.567Z",
+      "blob": "e34fc913f78ee18ffa59a11cf0335c1a60042f93",
+      "words": 574,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:24.808Z",
+      "at": "2026-10-28T09:10:01.566Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.004773
+      "objects": 2,
+      "cost_usd": 0.004638
     },
     "summarized": {
-      "at": "2026-10-06T19:16:24.857Z",
+      "at": "2026-10-28T09:10:01.568Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:24.858Z",
+      "at": "2026-10-28T09:10:01.569Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:24.859Z",
+      "at": "2026-10-28T09:10:01.570Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM.md",
     "description": "Learn how to process purchases from unregistered vendors in India under the GST reverse charge mechanism in Dynamics 365 Business Central.",
-    "ms_date": "2025-06-23",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "unregistered vendor",
       "create purchase invoice"
     ],
-    "ai_usage": null,
-    "words": 542,
+    "ai_usage": "ai-assisted",
+    "words": 574,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "708352aa63783154027024862b29e85e7afc2fd39fa0583f18934bbf0d8c4ef1"
+  "output_hash": "76db6eb79afbf141e3dcfac48c22e0b731d1eec080d3b714fbe8adb36d11248d"
 }

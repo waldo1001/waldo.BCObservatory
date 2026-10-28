@@ -2,41 +2,44 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Transaction.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Transaction",
   "title": "Transactions for Input Service Distributor",
-  "blob": "4b4997f23c42c69dc1032d0e4941181d98ec6b1b",
-  "summary": "Input service distributor transactions handle purchase invoices and purchase returns with GST calculations for intra-state and inter-state transactions with availability or non-availability of input tax credit.",
+  "blob": "cc5cd14501749bddb6e26195754a78ae264bac60",
+  "summary": "Purchase invoices and purchase returns for input service distributor locations in India with GST calculations and general ledger entries for intra-state and inter-state transactions with or without input tax credit.",
   "systems": [
-    "finance",
     "localization",
-    "purchasing"
+    "purchasing",
+    "finance"
   ],
   "topics": [
     "gst",
-    "input service distribution",
-    "purchase invoice",
-    "tax credit",
-    "india"
+    "input service distributor",
+    "purchase invoices",
+    "purchase returns",
+    "india",
+    "tax credit"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Purchase Invoice"
+      "name": "Purchase Invoices"
     },
     {
       "type": "page",
-      "name": "Purchase Return Order"
+      "name": "Purchase Return Orders"
     },
     {
       "type": "page",
-      "name": "Purchase Credit Memo"
+      "name": "Purchase Credit Memos"
     }
   ],
   "features": [
-    "Input Service Distribution",
+    "GST calculation",
+    "Input Service Distributor location",
+    "GST Group Code",
+    "HSN/SAC Code",
     "GST Credit",
-    "Vendor location code",
-    "Service transactions",
-    "Intra-state transactions",
-    "Inter-state transactions"
+    "CGST/SGST calculation",
+    "IGST calculation",
+    "G/L entries posting"
   ],
   "versions": [],
   "parts": 1,
@@ -45,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004773,
-      "pages_in_call": 8
+      "cost_usd": 0.005443,
+      "pages_in_call": 1
     }
   ]
 }

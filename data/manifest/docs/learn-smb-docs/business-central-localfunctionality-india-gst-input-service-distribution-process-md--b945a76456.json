@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Process",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.956Z",
-      "blob": "2520ee393087e7d9c2ee183b1dbb10d0fe5070b4",
-      "words": 785,
+      "at": "2026-10-28T09:09:45.626Z",
+      "blob": "e53768d34ce46fbc82139d9494f5ec013c163a43",
+      "words": 930,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:24.802Z",
+      "at": "2026-10-28T09:09:51.786Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004773
+      "cost_usd": 0.004717
     },
     "summarized": {
-      "at": "2026-10-06T19:16:24.810Z",
+      "at": "2026-10-28T09:09:51.787Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:24.811Z",
+      "at": "2026-10-28T09:09:51.788Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:24.811Z",
+      "at": "2026-10-28T09:09:51.789Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Process.md",
-    "description": "Describes the process of distributing input service GST credits across locations in Business Central for India.",
-    "ms_date": "2025-06-23",
+    "description": "Set up and process input service distribution to allocate eligible GST credits across locations in the India localization of Business Central.",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "inter-state distribution",
       "intra-state distribution"
     ],
-    "ai_usage": null,
-    "words": 785,
+    "ai_usage": "ai-assisted",
+    "words": 930,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c4c561d67b807d261ea8268ea672a6de5fb7a05af030700ca0e6a80da206e816"
+  "output_hash": "452fc5c32737136853cdcab41bac3182e8485e666eaa32b66c7925a2b44a66a6"
 }

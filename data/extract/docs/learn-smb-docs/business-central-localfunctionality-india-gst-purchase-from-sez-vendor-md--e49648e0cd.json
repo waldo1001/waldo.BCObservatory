@@ -2,34 +2,36 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Purchase-from-SEZ-Vendor.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-SEZ-Vendor",
   "title": "Purchase of Goods from SEZ Vendor",
-  "blob": "98ed7fea0d5c48f20e62b8f16884f4bebd9c5f83",
-  "summary": "Purchases from SEZ vendors are subject to IGST on GST Assessable Value plus Basic Custom Duty, with or without bill of entry coverage for goods and fixed assets.",
+  "blob": "d77493f461f751fc4eef6bdf6280ab924736eb37",
+  "summary": "Process for creating purchase invoices from Special Economic Zone (SEZ) vendors in India, including GST calculation with bill of entry coverage, custom duty amounts, and general ledger entries for goods and fixed assets.",
   "systems": [
     "finance",
-    "localization",
-    "purchasing"
+    "purchasing",
+    "localization"
   ],
   "topics": [
-    "gst",
     "sez vendor",
-    "special economic zone",
-    "igst",
-    "custom duty",
-    "india"
+    "gst",
+    "purchase invoice",
+    "india",
+    "customs duty",
+    "bill of entry",
+    "igst"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Purchase Invoice"
+      "name": "Purchase Invoices"
     }
   ],
   "features": [
-    "SEZ vendor",
+    "GST Assessable Value",
+    "Custom Duty Amount",
     "Bill of Entry",
-    "GST Credit",
-    "IGST calculation",
-    "Custom duty",
-    "SEZ supply"
+    "IGST Receivable",
+    "Without Bill Of Entry option",
+    "GST Group Code",
+    "HSN/SAC Code"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004773,
-      "pages_in_call": 8
+      "cost_usd": 0.004388,
+      "pages_in_call": 1
     }
   ]
 }
