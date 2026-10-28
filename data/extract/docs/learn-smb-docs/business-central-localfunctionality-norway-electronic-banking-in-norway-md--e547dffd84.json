@@ -1,29 +1,28 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/electronic-banking-in-norway.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/electronic-banking-in-norway",
-  "title": "Electronic banking in Norway",
-  "blob": "c16dc1f2f1f4225e1b5ea2b294a7d9a607710e63",
-  "summary": "Electronic banking in Norway covers OCR payment ID receipt, KID number printing on documents, and electronic vendor payments. Use this to set up customer identification numbers and electronic payment capabilities.",
+  "title": "Electronic Banking in Norway in Business Central",
+  "blob": "9e901055b69b691bb0372a63acfd544819f2f5e1",
+  "summary": "Electronic banking in Norway enables receipt of OCR-based payments, printing of KID customer identification numbers on sales and receivables documents, and sending electronic payments to vendors.",
   "systems": [
     "finance",
-    "purchasing",
-    "sales"
+    "sales",
+    "purchasing"
   ],
   "topics": [
-    "electronic banking",
-    "ocr",
-    "kid",
-    "payments",
     "norway",
+    "electronic banking",
+    "kid numbers",
+    "ocr payments",
+    "payment reference",
     "vendor payments"
   ],
   "objects": [],
   "features": [
-    "OCR payment ID",
-    "KID numbers",
-    "electronic payments",
-    "customer identification",
-    "payment reference"
+    "OCR payment receipt",
+    "KID number printing",
+    "Electronic vendor payments",
+    "Payment reference management"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004284,
-      "pages_in_call": 8
+      "cost_usd": 0.002965,
+      "pages_in_call": 1
     }
   ]
 }

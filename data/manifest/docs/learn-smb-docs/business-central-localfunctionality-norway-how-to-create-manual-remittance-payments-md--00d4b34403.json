@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Create manual remittance payments [NO]",
+  "title": "Create Manual Remittance Payments in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-manual-remittance-payments",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.036Z",
-      "blob": "692dd707ec4dacf5b47c98c34094e52679730651",
-      "words": 192,
+      "at": "2026-10-28T09:05:27.317Z",
+      "blob": "c7996ff4240216114933a6dbf6623937d6f281c9",
+      "words": 208,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:24:58.272Z",
+      "at": "2026-10-28T09:05:33.399Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002577
+      "objects": 2,
+      "cost_usd": 0.003423
     },
     "summarized": {
-      "at": "2026-10-06T19:24:58.341Z",
+      "at": "2026-10-28T09:05:33.401Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:58.343Z",
+      "at": "2026-10-28T09:05:33.402Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:58.344Z",
+      "at": "2026-10-28T09:05:33.403Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-create-manual-remittance-payments.md",
     "description": "Learn how to create a remittance payment, either linked to an invoice or independently, such as a vendor payment, through manual processes.",
-    "ms_date": "2025-05-12",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -84,12 +84,12 @@
       "remittance payment",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 192,
+    "ai_usage": "ai-assisted",
+    "words": 208,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "79af0a1c0c42714a8149bc480835850dbc4ed0f9017e810e4f13b3d1646b0fef"
+  "output_hash": "e9dfe4f6b1113e0b65d61ef50ab52b444f893d83b36fafb919f8974b9b0bcc2e"
 }

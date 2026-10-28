@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "New Zealand local functionality",
+  "title": "New Zealand Local Functionality",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/new-zealand-local-functionality",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.224Z",
-      "blob": "68f3f7db3560047d61b80950ae5b365718b91f61",
-      "words": 253,
+      "at": "2026-10-28T09:05:19.401Z",
+      "blob": "a3c3b4771aaa2115d71afeb368c2973452f2158a",
+      "words": 254,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:47.885Z",
+      "at": "2026-10-28T09:05:25.666Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004432
+      "cost_usd": 0.00404
     },
     "summarized": {
-      "at": "2026-10-06T19:17:49.561Z",
+      "at": "2026-10-28T09:05:25.668Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:49.562Z",
+      "at": "2026-10-28T09:05:25.669Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:49.562Z",
+      "at": "2026-10-28T09:05:25.670Z",
       "page": false
     }
   },
@@ -44,20 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/new-zealand-local-functionality.md",
-    "description": "These articles describe the local functionality in the New Zealand version of Business Central.",
-    "ms_date": "2025-07-15",
+    "description": "Explore New Zealand features for GST, withholding tax, electronic invoices, banking, and financial reports in Dynamics 365 Business Central.",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
       "New Zealand",
       "local functionality"
     ],
-    "ai_usage": null,
-    "words": 253,
+    "ai_usage": "ai-assisted",
+    "words": 254,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e666b4107dcbe3a27f2bf0bc740c1964eb32d04bda8a5c750da7319b0bd69e82"
+  "output_hash": "e03514cc9ab8a8ced6e2b3faf951c2301d391dcb330a85f7f941cba67eae733a"
 }

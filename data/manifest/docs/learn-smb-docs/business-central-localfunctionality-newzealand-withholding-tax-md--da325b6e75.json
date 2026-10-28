@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Withholding Tax in the New Zealand version",
+  "title": "Withholding Tax in the New Zealand Version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/withholding-tax",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.272Z",
-      "blob": "06d9b0d8b7b3983cd456ead8165254b22be3b7e8",
-      "words": 576,
+      "at": "2026-10-28T09:05:19.312Z",
+      "blob": "446aece3c36c2be157f7c37b69b1f066e945a2df",
+      "words": 639,
       "forms": 10
     },
     "extracted": {
-      "at": "2026-10-06T19:25:27.083Z",
+      "at": "2026-10-28T09:05:26.004Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.001792
+      "objects": 6,
+      "cost_usd": 0.004588
     },
     "summarized": {
-      "at": "2026-10-06T19:25:27.099Z",
+      "at": "2026-10-28T09:05:26.005Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:27.100Z",
+      "at": "2026-10-28T09:05:26.006Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:27.101Z",
+      "at": "2026-10-28T09:05:26.008Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/withholding-tax.md",
-    "description": "Learn about withholding tax (WHT) scenarios in New Zealand and how to manage them effectively.",
-    "ms_date": "2025-05-07",
+    "description": "Learn how to configure withholding tax rates and thresholds, manage vendor payments, and print WHT certificates in the New Zealand version.",
+    "ms_date": "2026-10-23",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -101,16 +101,16 @@
     ],
     "keywords": [
       "withholding tax scenarios",
-      "BAS submission",
+      "schedular payments",
       "IRD number",
       "New Zealand version"
     ],
-    "ai_usage": null,
-    "words": 576,
+    "ai_usage": "ai-assisted",
+    "words": 639,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e2b7a82d9bee2967274d37903f6bee5d943a66843b82bad3208a91bf287cf3eb"
+  "output_hash": "122444a1ebfbc5d397135ece6d771bc6f5666cc0a58ac833412dfdbb6f30e877"
 }

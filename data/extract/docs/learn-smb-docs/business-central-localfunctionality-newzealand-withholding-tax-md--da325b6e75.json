@@ -1,19 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/withholding-tax.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/withholding-tax",
-  "title": "Withholding Tax in the New Zealand version",
-  "blob": "06d9b0d8b7b3983cd456ead8165254b22be3b7e8",
-  "summary": "Withholding tax in New Zealand is tax withheld by companies from vendor payments under specific circumstances, configured through WHT posting groups and calculation rules.",
+  "title": "Withholding Tax in the New Zealand Version",
+  "blob": "446aece3c36c2be157f7c37b69b1f066e945a2df",
+  "summary": "Withholding Tax in New Zealand reduces vendor payments by tax withheld, with setup requirements for schedular payments and non-resident withholding tax that depend on payment type and Inland Revenue rules.",
   "systems": [
     "localization",
-    "finance",
     "purchasing"
   ],
   "topics": [
     "withholding tax",
+    "new zealand",
     "vendor payments",
-    "wht posting",
-    "new zealand"
+    "tax calculation",
+    "posting setup",
+    "schedular payments",
+    "non-resident tax"
   ],
   "objects": [
     {
@@ -22,16 +24,34 @@
     },
     {
       "type": "page",
+      "name": "WHT Business Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "WHT Product Posting Groups"
+    },
+    {
+      "type": "page",
       "name": "WHT Revenue Types"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Payment Journals"
     }
   ],
   "features": [
-    "WHT calculation rule",
-    "WHT minimum invoice amount",
-    "WHT percentage",
-    "realized WHT type",
-    "WHT posting groups",
-    "WHT certificate"
+    "WHT Calculation Rule",
+    "WHT Minimum Invoice Amount",
+    "WHT Percentage",
+    "Realized WHT Type",
+    "Payable WHT Account Code",
+    "Purchase WHT Adjustment Account",
+    "Revenue Type",
+    "Print WHT Certificate"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +60,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001792,
-      "pages_in_call": 8
+      "cost_usd": 0.004588,
+      "pages_in_call": 1
     }
   ]
 }

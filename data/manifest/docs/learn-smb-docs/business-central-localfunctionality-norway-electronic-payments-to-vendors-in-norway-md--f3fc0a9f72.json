@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/electronic-payments-to-vendors-in-norway",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.012Z",
-      "blob": "fbdc82f7a5a93521ebe53e243548fb0a21df64c8",
+      "at": "2026-10-28T09:05:19.459Z",
+      "blob": "0da7fd64750313f74ed3618e86753236113f2fa7",
       "words": 431,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:58.266Z",
+      "at": "2026-10-28T09:05:25.328Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002577
+      "cost_usd": 0.003758
     },
     "summarized": {
-      "at": "2026-10-06T19:24:58.275Z",
+      "at": "2026-10-28T09:05:25.330Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:58.279Z",
+      "at": "2026-10-28T09:05:25.331Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:58.280Z",
+      "at": "2026-10-28T09:05:25.333Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/electronic-payments-to-vendors-in-norway.md",
-    "description": "Learn about the Norwegian enhancements that simplify vendor payments, enabling invoice searches, bank transactions, status updates, and electronic payments in various formats.",
-    "ms_date": "2025-05-12",
+    "description": "Learn about Norwegian vendor payment workflows in Business Central, including payment proposals, bank file exports, return files, and payment status updates.",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "remittance payment",
       "Norwegian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 431,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c8d116018a7e05e8d68170672d7bc1af373ce2ff452e5c053a426cd0f8d2b8c1"
+  "output_hash": "ed326abcfd61ba24e4fe1f6db218e47b4ff76fc604727fb2d034405761453842"
 }

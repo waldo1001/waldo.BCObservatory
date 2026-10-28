@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Cancel payments [NO]",
+  "title": "Cancel Payments in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-cancel-payments",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.026Z",
-      "blob": "048e4282060880dbe746dea3fdc58c71c23c4c75",
-      "words": 285,
+      "at": "2026-10-28T09:05:25.731Z",
+      "blob": "6adb46e846123d2b79249995565c9e5359928a2f",
+      "words": 263,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:24:58.269Z",
+      "at": "2026-10-28T09:05:33.385Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002577
+      "cost_usd": 0.003431
     },
     "summarized": {
-      "at": "2026-10-06T19:24:58.313Z",
+      "at": "2026-10-28T09:05:33.387Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:58.320Z",
+      "at": "2026-10-28T09:05:33.389Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:58.321Z",
+      "at": "2026-10-28T09:05:33.390Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-cancel-payments.md",
-    "description": "Learn how the Norwegian enhancements of Business Central allow you to cancel payments and remittances received.",
-    "ms_date": "2025-05-12",
+    "description": "Cancel Norwegian remittance payment orders or individual unsettled payments in Business Central, and contact your bank for payments already sent.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -86,12 +86,12 @@
       "remittance cancellation",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 285,
+    "ai_usage": "ai-assisted",
+    "words": 263,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3958a1d3f7f1d1f82d237c30d4d806847f70c0501174328b9512d00660d09787"
+  "output_hash": "44e660ecbe31b19747d403575b4eeae9245fdb5ffde5376bbef95e2148338e90"
 }

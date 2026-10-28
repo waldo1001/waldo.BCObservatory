@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Apply General Ledger Entries in Closed Periods",
+  "title": "Apply Entries in Closed VAT Periods in Norway",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.016Z",
-      "blob": "c8c37359f7bf2e8d3f1ba52630b611f43e988473",
-      "words": 162,
+      "at": "2026-10-28T09:05:24.439Z",
+      "blob": "d623ddc35a152dc48cf2d62bfaf6c5d658592209",
+      "words": 192,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:58.267Z",
+      "at": "2026-10-28T09:05:28.478Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002577
+      "cost_usd": 0.002927
     },
     "summarized": {
-      "at": "2026-10-06T19:24:58.282Z",
+      "at": "2026-10-28T09:05:28.480Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:58.283Z",
+      "at": "2026-10-28T09:05:28.482Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:58.286Z",
+      "at": "2026-10-28T09:05:33.362Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md",
-    "description": "Learn to post entries after a closed posting period, even without performing any actual postings during that time.",
-    "ms_date": "2025-05-12",
+    "description": "Allow customer and vendor entry applications in closed Norwegian VAT periods for all users or selected users, while retaining posting date restrictions.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "apply general ledger entries",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 162,
+    "ai_usage": "ai-assisted",
+    "words": 192,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "30fd425b62daebb33a814e50bfa735e85f315cc1a0a2bbe4a68a0d437bfe61ac"
+  "output_hash": "9ba437d31be59fa45f559dcde8634939f89095702e3cec669dd604c509fa25e8"
 }

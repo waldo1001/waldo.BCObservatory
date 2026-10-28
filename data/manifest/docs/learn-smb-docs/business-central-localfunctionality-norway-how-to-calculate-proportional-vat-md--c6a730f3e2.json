@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Calculate proportional VAT [NO]",
+  "title": "Calculate Proportional VAT in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-calculate-proportional-vat",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.021Z",
-      "blob": "dd825c3c9eed4ae68bf9fa3cd7bbe0963b10a91f",
-      "words": 160,
+      "at": "2026-10-28T09:05:25.386Z",
+      "blob": "41bfd73b15f10f622694de4a0438c501b9b77e5b",
+      "words": 149,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:24:58.268Z",
+      "at": "2026-10-28T09:05:33.414Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002577
+      "cost_usd": 0.003389
     },
     "summarized": {
-      "at": "2026-10-06T19:24:58.294Z",
+      "at": "2026-10-28T09:05:33.415Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:58.302Z",
+      "at": "2026-10-28T09:05:33.417Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:58.311Z",
+      "at": "2026-10-28T09:05:33.418Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-calculate-proportional-vat.md",
     "description": "Learn how to calculate VAT using proportional VAT for both deductible and non-deductible items in the Norwegian version of Business Central.",
-    "ms_date": "2025-05-12",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -59,12 +59,12 @@
       "proportional VAT calculation",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 160,
+    "ai_usage": "ai-assisted",
+    "words": 149,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0337bce6c4bcb69806eb4c325d0e3f33dab3999d1e305b12438332bbe229f690"
+  "output_hash": "ae82a7e6ccc53c898df3654de70cfd8fc16e9e65f6f5ffca4e1a2ea0a8742d92"
 }

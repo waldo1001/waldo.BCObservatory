@@ -1,19 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods",
-  "title": "How to Apply General Ledger Entries in Closed Periods",
-  "blob": "c8c37359f7bf2e8d3f1ba52630b611f43e988473",
-  "summary": "Applying General Ledger Entries in Closed Periods in Norway allows users to apply entries outside the allowed posting period by enabling the Application always Allowed setting in General Ledger Setup and User Setup.",
+  "title": "Apply Entries in Closed VAT Periods in Norway",
+  "blob": "d623ddc35a152dc48cf2d62bfaf6c5d658592209",
+  "summary": "How to configure settings in General Ledger Setup and User Setup to allow users to apply entries in closed VAT periods in Norway.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
+    "vat",
+    "norway",
     "general ledger",
     "closed periods",
-    "application",
-    "norway",
-    "posting"
+    "user permissions"
   ],
   "objects": [
     {
@@ -26,7 +26,9 @@
     }
   ],
   "features": [
-    "Application always Allowed"
+    "Application always Allowed",
+    "closed VAT periods",
+    "entry application"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002577,
-      "pages_in_call": 8
+      "cost_usd": 0.002927,
+      "pages_in_call": 1
     }
   ]
 }

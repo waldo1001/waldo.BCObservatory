@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Create Electronic Documents for EHF",
+  "title": "Create Electronic Documents for EHF",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-electronic-documents-for-ehf",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.031Z",
-      "blob": "b7fdc71004ed918a3f88babb7996beae9e6182bf",
-      "words": 406,
+      "at": "2026-10-28T09:05:26.066Z",
+      "blob": "378de6117c701d670c8054cf86c37ce42ed9bd43",
+      "words": 414,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:58.271Z",
+      "at": "2026-10-28T09:05:33.373Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.002577
+      "cost_usd": 0.004072
     },
     "summarized": {
-      "at": "2026-10-06T19:24:58.330Z",
+      "at": "2026-10-28T09:05:33.374Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:58.336Z",
+      "at": "2026-10-28T09:05:33.376Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:58.337Z",
+      "at": "2026-10-28T09:05:33.377Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-create-electronic-documents-for-ehf.md",
-    "description": "Learn how to create and submit electronic documents for public sector customers in compliance with EHF requirements.",
-    "ms_date": "2025-05-12",
+    "description": "Learn about the legacy Norwegian EHF workflow for posting sales invoices and creating electronic documents with customer references and invoicing details.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "create e-invoice",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 406,
+    "ai_usage": "ai-assisted",
+    "words": 414,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a137653eaf7599ce3388cc0c7a500d3eaf29a4b9d37ab1529a4a09ba2e638d9f"
+  "output_hash": "64e3397ed1554cbd1b0da7163a64994c9828ec312b5e072351551055ce6da380"
 }

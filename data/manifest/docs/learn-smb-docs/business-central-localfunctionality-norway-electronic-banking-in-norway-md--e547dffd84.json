@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Electronic banking in Norway",
+  "title": "Electronic Banking in Norway in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/electronic-banking-in-norway",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.007Z",
-      "blob": "c16dc1f2f1f4225e1b5ea2b294a7d9a607710e63",
+      "at": "2026-10-28T09:05:19.508Z",
+      "blob": "9e901055b69b691bb0372a63acfd544819f2f5e1",
       "words": 196,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:44.599Z",
+      "at": "2026-10-28T09:05:24.382Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004284
+      "cost_usd": 0.002965
     },
     "summarized": {
-      "at": "2026-10-06T19:24:44.620Z",
+      "at": "2026-10-28T09:05:24.384Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:44.621Z",
+      "at": "2026-10-28T09:05:24.385Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:44.622Z",
+      "at": "2026-10-28T09:05:24.386Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/electronic-banking-in-norway.md",
     "description": "Learn about the Norwegian-specific enhancements in Business Central for managing electronic banking operations efficiently.",
-    "ms_date": "2025-05-12",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "KID",
       "Kunde ID"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 196,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f505ad1dc32993270e4856a8cf51c746f9f673d359d20f6b0d005556fbee06ae"
+  "output_hash": "beba2d80dddf4a56c17d92afddb563af017651b3717e0e5da4690ac652f5be3f"
 }

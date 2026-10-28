@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Electronic invoicing in Norway",
+  "title": "Electronic Invoicing in Norway",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.003Z",
-      "blob": "d6ab5181ea1338eb991b6c736c73e6e2f7f5c9c6",
-      "words": 847,
+      "at": "2026-10-28T09:05:19.566Z",
+      "blob": "1fb9ab51b0f3d2d5c87a5e7b1da1380bd88857fe",
+      "words": 889,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:24:44.598Z",
+      "at": "2026-10-28T09:05:27.245Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.004284
+      "objects": 6,
+      "cost_usd": 0.005532
     },
     "summarized": {
-      "at": "2026-10-06T19:24:44.617Z",
+      "at": "2026-10-28T09:05:27.250Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:44.618Z",
+      "at": "2026-10-28T09:05:27.252Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:44.619Z",
+      "at": "2026-10-28T09:05:27.256Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway.md",
     "description": "Learn how to electronically send sales invoices and credit memos to the Norwegian public sector using EHF, which is based on Universal Business Language (UBL).",
-    "ms_date": "2025-05-12",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [
       {
@@ -86,12 +86,12 @@
       "e-invoicing",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 847,
+    "ai_usage": "ai-assisted",
+    "words": 889,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0520779f13ad143b448f4fcdcf462a21400b7a62b4985e14196558f917d76d82"
+  "output_hash": "5a216ae85ad5da325efa2f105a75c1e46199493e9adeda8d3b970ab7b2d014dc"
 }

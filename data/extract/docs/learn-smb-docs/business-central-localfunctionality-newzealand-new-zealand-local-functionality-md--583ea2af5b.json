@@ -1,38 +1,44 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/new-zealand-local-functionality.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/new-zealand-local-functionality",
-  "title": "New Zealand local functionality",
-  "blob": "68f3f7db3560047d61b80950ae5b365718b91f61",
-  "summary": "New Zealand local functionality overview covering tax, electronic documents, banking, and finance features. Use when implementing Business Central for New Zealand companies.",
+  "title": "New Zealand Local Functionality",
+  "blob": "a3c3b4771aaa2115d71afeb368c2973452f2158a",
+  "summary": "New Zealand local functionality for Business Central including withholding tax, goods and services tax, e-invoicing, banking and payments, and financial reporting features specific to the New Zealand version.",
   "systems": [
     "finance",
-    "purchasing",
-    "sales"
+    "localization",
+    "integration"
   ],
   "topics": [
-    "localization",
     "new zealand",
     "withholding tax",
     "gst",
-    "electronic payments"
+    "e-invoicing",
+    "banking",
+    "tax compliance",
+    "local functionality"
   ],
   "objects": [],
   "features": [
     "Withholding Tax",
     "Goods and Services Tax",
-    "E-Invoicing Peppol PINT A-NZ",
+    "E-Invoicing (Peppol PINT A-NZ)",
     "Electronic Funds Transfer",
-    "GST settlement reporting"
+    "Bank Cash Flow Comparison",
+    "Check Installments",
+    "IRD Numbers"
   ],
-  "versions": [],
+  "versions": [
+    "2026 release wave 1"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004432,
-      "pages_in_call": 8
+      "cost_usd": 0.00404,
+      "pages_in_call": 1
     }
   ]
 }
