@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set Up Journal Templates and Batches (IT)",
+  "title": "Set Up Journal Templates and Batches",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.925Z",
-      "blob": "409588e47adb2af972fef77f97085df5d70e0189",
-      "words": 414,
+      "at": "2026-10-28T09:02:41.608Z",
+      "blob": "753331a1c54df1e2541ea92dacb12f172cd1dc8b",
+      "words": 430,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T19:24:27.867Z",
+      "at": "2026-10-28T09:02:51.878Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002351
+      "cost_usd": 0.004226
     },
     "summarized": {
-      "at": "2026-10-06T19:24:33.706Z",
+      "at": "2026-10-28T09:02:51.880Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:35.490Z",
+      "at": "2026-10-28T09:02:51.881Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:35.492Z",
+      "at": "2026-10-28T09:02:51.883Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md",
     "description": "Learn how the Italian version of Business Central helps EU companies meet the requirement to submit Intrastat reports to the customs office.",
-    "ms_date": "2025-05-22",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -73,12 +73,12 @@
       "journal batches",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 414,
+    "ai_usage": "ai-assisted",
+    "words": 430,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "819e8610af748301d0c701770043c0e73a216440d4fc04164d82f5fd9f607754"
+  "output_hash": "eb73febe730df520c3cde10ead88b9bc237dc95f6647e73e3ab7e5fa6f1525b9"
 }

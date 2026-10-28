@@ -1,17 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches",
-  "title": "Set Up Journal Templates and Batches (IT)",
-  "blob": "409588e47adb2af972fef77f97085df5d70e0189",
-  "summary": "Set up Intrastat journal templates and batches to record EU trade transactions for submission to tax authorities. Configure templates with names and descriptions, then batches with periodicity, type, statistics period, and currency information.",
+  "title": "Set Up Journal Templates and Batches",
+  "blob": "753331a1c54df1e2541ea92dacb12f172cd1dc8b",
+  "summary": "Set up Intrastat journal templates and batches to manage EU trade reporting entries for Italian companies. Use this to configure journal names, descriptions, periodicity, type, and reporting details before submitting Intrastat reports.",
   "systems": [
-    "integration",
     "finance",
-    "localization"
+    "localization",
+    "reporting"
   ],
   "topics": [
-    "intrastat reporting",
+    "intrastat",
     "journal setup",
+    "italy",
+    "eu trade reporting",
     "tax compliance"
   ],
   "objects": [
@@ -27,8 +29,12 @@
   "features": [
     "Intrastat journal templates",
     "Intrastat journal batches",
-    "trade reporting",
-    "periodicity settings"
+    "Periodicity selection",
+    "Entry type (Purchases/Sales)",
+    "Statistics period",
+    "Corrective entries",
+    "File disk management",
+    "Currency identifier"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002351,
-      "pages_in_call": 8
+      "cost_usd": 0.004226,
+      "pages_in_call": 1
     }
   ]
 }

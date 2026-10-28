@@ -1,17 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets",
-  "title": "compressed depreciation of fixed assets [IT]",
-  "blob": "b3d3eb50ac850701d10b3b6357010ffa11bd1be4",
-  "summary": "Compress fixed asset depreciation into subclasses to reduce ledger entries by posting only depreciation totals grouped by category. This is useful when multiple assets generate many individual depreciation lines.",
+  "title": "Set Up Compressed Depreciation of Fixed Assets",
+  "blob": "b0bd7b0c899f4a06b50d6039c13ac2c0d58d8c35",
+  "summary": "Compressed depreciation in Italian Business Central summarizes compatible depreciation amounts in the general ledger when posting fixed asset journals, while retaining individual asset entries.",
   "systems": [
     "fixed-assets",
+    "localization",
     "finance"
   ],
   "topics": [
-    "depreciation",
     "fixed assets",
-    "ledger compression"
+    "depreciation",
+    "italy",
+    "general ledger",
+    "posting",
+    "compression"
   ],
   "objects": [
     {
@@ -24,8 +28,11 @@
     }
   ],
   "features": [
-    "compress depreciation",
-    "depreciation book setup"
+    "Compress Depreciation",
+    "depreciation grouping",
+    "fixed asset posting type",
+    "depreciation book",
+    "dimension set"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002351,
-      "pages_in_call": 8
+      "cost_usd": 0.003351,
+      "pages_in_call": 1
     }
   ]
 }

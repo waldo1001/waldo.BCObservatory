@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to set up initial item costs [IT]",
+  "title": "Set Up Initial Item Costs in the Italian Version [IT]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-initial-item-costs",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.920Z",
-      "blob": "e8e9a080910b77988f77e319d67bafbd08733171",
-      "words": 145,
+      "at": "2026-10-28T09:02:38.252Z",
+      "blob": "ab07533161d709b1efedeb912c702d6cc1ea638c",
+      "words": 174,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:27.866Z",
+      "at": "2026-10-28T09:02:49.544Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002351
+      "objects": 3,
+      "cost_usd": 0.003471
     },
     "summarized": {
-      "at": "2026-10-06T19:24:33.701Z",
+      "at": "2026-10-28T09:02:49.546Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:33.703Z",
+      "at": "2026-10-28T09:02:49.547Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:33.704Z",
+      "at": "2026-10-28T09:02:49.549Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/how-to-set-up-initial-item-costs.md",
     "description": "Learn how to set up initial item costs using the Before Start Item Cost page in the Italian version of Business Central.",
-    "ms_date": "2025-05-22",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "before start item cost",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 145,
+    "ai_usage": "ai-assisted",
+    "words": 174,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f08d0ce448b4222534d7c80213bd47c539d971cccb02b9b2affb6e65b93a7291"
+  "output_hash": "386dff4ae74fe8d7037f2e585d4c11a619cf6d6a0d9d65c7b15aed41095227b3"
 }

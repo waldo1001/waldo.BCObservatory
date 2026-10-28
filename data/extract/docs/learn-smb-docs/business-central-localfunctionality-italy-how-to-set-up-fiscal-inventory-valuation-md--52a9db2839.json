@@ -1,17 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation",
-  "title": "How to Set Up Fiscal Inventory Valuation [IT]",
-  "blob": "ac47e49ceef10330e4a3d97bc840747ea393792c",
-  "summary": "Set up fiscal inventory valuation methods in Business Central by configuring components valuation and estimated WIP consumption settings, then assigning inventory valuation types to individual items.",
+  "title": "Set Up Fiscal Inventory Valuation in the Italian Version [IT]",
+  "blob": "0c2c21ad8bacc88377c199140b8b0618d6c3a7ce",
+  "summary": "Set up fiscal inventory valuation methods in the Italian version of Business Central by configuring item costing setup and assigning valuation methods to individual items.",
   "systems": [
     "inventory",
+    "localization",
     "finance"
   ],
   "topics": [
-    "inventory valuation",
-    "fiscal methods",
-    "item costing"
+    "fiscal inventory valuation",
+    "item costing",
+    "italian localization",
+    "inventory methods",
+    "lifo",
+    "wip consumption"
   ],
   "objects": [
     {
@@ -20,13 +24,15 @@
     },
     {
       "type": "page",
-      "name": "Item List"
+      "name": "Items"
     }
   ],
   "features": [
-    "components valuation",
-    "estimated WIP consumption",
-    "inventory valuation types"
+    "Components Valuation",
+    "Estimated WIP Consumption",
+    "Inventory Valuation",
+    "Discrete LIFO",
+    "Lifo Category"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002351,
-      "pages_in_call": 8
+      "cost_usd": 0.003203,
+      "pages_in_call": 1
     }
   ]
 }

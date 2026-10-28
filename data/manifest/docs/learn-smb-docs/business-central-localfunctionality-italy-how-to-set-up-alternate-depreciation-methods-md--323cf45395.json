@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to set up alternate depreciation methods",
+  "title": "Set Up Alternate Depreciation Methods",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-alternate-depreciation-methods",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.902Z",
-      "blob": "13bfaa148eeeff7e9fbd8d938fe9ad29a8ca3126",
-      "words": 227,
+      "at": "2026-10-28T09:02:26.965Z",
+      "blob": "a9265f2b61cc9cbfa6061c19c5ea852df4df9023",
+      "words": 295,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:11.143Z",
+      "at": "2026-10-28T09:02:34.925Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002785
+      "objects": 1,
+      "cost_usd": 0.003771
     },
     "summarized": {
-      "at": "2026-10-06T19:24:11.167Z",
+      "at": "2026-10-28T09:02:34.927Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:11.168Z",
+      "at": "2026-10-28T09:02:34.928Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:11.169Z",
+      "at": "2026-10-28T09:02:34.929Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/how-to-set-up-alternate-depreciation-methods.md",
-    "description": "Learn how to set up alternate depreciation methods, such as anticipated, accelerated, and reduced depreciation.",
-    "ms_date": "2025-05-21",
+    "description": "Learn how to set up depreciation tables and enable anticipated, accelerated, or reduced depreciation in the Italian version of Business Central.",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "depreciation table",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 227,
+    "ai_usage": "ai-assisted",
+    "words": 295,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "75b86b68dba837d069d600d58e9695d304e0f089d4e842a6aa97a17e9254efb2"
+  "output_hash": "bd4153b08a23941f7965d261b9fff9f8094f2c204d7760951ad02dd47136a5fa"
 }

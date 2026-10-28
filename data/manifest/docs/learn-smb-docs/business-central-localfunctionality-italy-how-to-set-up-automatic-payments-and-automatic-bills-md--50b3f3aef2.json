@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Automatic Payments and Automatic Bills [IT]",
+  "title": "Set Up Automatic Payments and Bills for Italy",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.836Z",
-      "blob": "313f31be756dd998d83ae19e4839ca4e3bed6875",
-      "words": 526,
+      "at": "2026-10-28T09:02:27.708Z",
+      "blob": "52e9a9c21cde469110d01d63b0ae22a13d00332a",
+      "words": 513,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:24:13.020Z",
+      "at": "2026-10-28T09:02:38.238Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.002778
+      "objects": 8,
+      "cost_usd": 0.004823
     },
     "summarized": {
-      "at": "2026-10-06T19:24:19.609Z",
+      "at": "2026-10-28T09:02:38.240Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:19.610Z",
+      "at": "2026-10-28T09:02:38.241Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:19.611Z",
+      "at": "2026-10-28T09:02:38.242Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills.md",
-    "description": "Learn how to set up automatic payments and bills in the Italian version of Business Central.",
-    "ms_date": "2025-05-21",
+    "description": "Learn how to configure bank accounts, bill posting groups, number series, and payment methods for automatic bills in Business Central for Italy.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -66,12 +66,12 @@
       "set up automatic bills",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 526,
+    "ai_usage": "ai-assisted",
+    "words": 513,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d41f1c6de26ce24c560eaa65e2cb1160ccb887f3b790eee39b71cbabdfa4d48e"
+  "output_hash": "17e2d15b2ee8bee48f84b6dd46884535fc3209ff395d3594d8256a975576f38e"
 }

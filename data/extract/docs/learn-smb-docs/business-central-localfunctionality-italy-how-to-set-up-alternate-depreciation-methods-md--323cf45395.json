@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-set-up-alternate-depreciation-methods.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-alternate-depreciation-methods",
-  "title": "How to set up alternate depreciation methods",
-  "blob": "13bfaa148eeeff7e9fbd8d938fe9ad29a8ca3126",
-  "summary": "Set up alternate depreciation methods including anticipated, accelerated, and reduced depreciation using depreciation tables. Use this to define custom fixed asset depreciation rates by period.",
+  "title": "Set Up Alternate Depreciation Methods",
+  "blob": "a9265f2b61cc9cbfa6061c19c5ea852df4df9023",
+  "summary": "Set up alternate depreciation methods (anticipated, accelerated, reduced) for Italian fixed assets by creating depreciation tables with period lengths, units, and percentage calculations.",
   "systems": [
     "fixed-assets",
     "localization"
@@ -12,25 +12,24 @@
     "depreciation",
     "fixed assets",
     "italy",
-    "depreciation methods"
+    "alternate methods",
+    "depreciation tables"
   ],
   "objects": [
     {
-      "type": "page",
+      "type": "table",
       "name": "Depreciation Tables"
-    },
-    {
-      "type": "page",
-      "name": "Depreciation Table List"
     }
   ],
   "features": [
     "Anticipated depreciation",
     "Accelerated depreciation",
     "Reduced depreciation",
+    "User-Defined depreciation method",
+    "Calc. Anticipated Depreciation",
+    "Calc. Custom 2 Depreciation",
     "Period Depreciation %",
-    "Total Depreciation %",
-    "No. of Units in Period"
+    "Total Depreciation %"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002785,
-      "pages_in_call": 8
+      "cost_usd": 0.003771,
+      "pages_in_call": 1
     }
   ]
 }

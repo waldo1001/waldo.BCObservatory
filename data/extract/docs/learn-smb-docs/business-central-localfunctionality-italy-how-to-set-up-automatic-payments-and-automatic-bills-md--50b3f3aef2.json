@@ -1,29 +1,42 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills",
-  "title": "Automatic Payments and Automatic Bills [IT]",
-  "blob": "313f31be756dd998d83ae19e4839ca4e3bed6875",
-  "summary": "Set up automatic payments and automatic bills in the Italian version by configuring bank information, sales and receivables setup, and bill codes for payment methods. Enables processing of customer and vendor bills automatically.",
+  "title": "Set Up Automatic Payments and Bills for Italy",
+  "blob": "52e9a9c21cde469110d01d63b0ae22a13d00332a",
+  "summary": "Configure automatic payments and bills in the Italian version of Business Central by setting up bank accounts, bill posting groups, payment methods, and temporary bill lists for both sales and purchasing.",
   "systems": [
-    "purchasing",
+    "finance",
     "sales",
-    "localization"
+    "purchasing"
   ],
   "topics": [
-    "italy",
     "automatic payments",
-    "bills",
-    "bank setup",
-    "payment methods"
+    "automatic bills",
+    "bank accounts",
+    "italy",
+    "payment methods",
+    "bill posting"
   ],
   "objects": [
+    {
+      "type": "page",
+      "name": "Bank Accounts"
+    },
     {
       "type": "page",
       "name": "Company Information"
     },
     {
       "type": "page",
+      "name": "Bill Posting Group"
+    },
+    {
+      "type": "page",
       "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
     },
     {
       "type": "page",
@@ -39,12 +52,13 @@
     }
   ],
   "features": [
-    "automatic payments",
-    "automatic bills",
-    "payment export format",
-    "SEPA direct debit",
-    "bill codes",
-    "bank account setup"
+    "Bill Posting Group",
+    "Payment Export Format",
+    "SEPA Direct Debit Export Format",
+    "Temporary Bill List",
+    "Recall Bill Description",
+    "Bank Receipts Risk Period",
+    "Bill Code"
   ],
   "versions": [],
   "parts": 1,
@@ -53,8 +67,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002778,
-      "pages_in_call": 8
+      "cost_usd": 0.004823,
+      "pages_in_call": 1
     }
   ]
 }

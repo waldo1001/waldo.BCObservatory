@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Print withholding tax reports (IT)",
+  "title": "Print Withholding Tax Reports in the Italian Version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-withholding-tax-reports",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.898Z",
-      "blob": "0a3bcd1cc60cb4ff06c47a2d543b166c98cadbfa",
-      "words": 162,
+      "at": "2026-10-28T09:02:27.031Z",
+      "blob": "04ed2f7ed436bf09883dcfca9bb837dff838a666",
+      "words": 186,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:24:11.142Z",
+      "at": "2026-10-28T09:02:34.953Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002785
+      "cost_usd": 0.003115
     },
     "summarized": {
-      "at": "2026-10-06T19:24:11.163Z",
+      "at": "2026-10-28T09:02:34.955Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:11.165Z",
+      "at": "2026-10-28T09:02:34.957Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:11.166Z",
+      "at": "2026-10-28T09:02:34.958Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md",
-    "description": "Learn how to print the Withholding Taxes report for Italy, showing all withholding taxes payable to the government.",
-    "ms_date": "2025-05-21",
+    "description": "Learn how to print the Italian Withholding Taxes report in Business Central and understand how final printing updates payment records and paid status.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -59,12 +59,12 @@
       "print withholding tax reports",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 162,
+    "ai_usage": "ai-assisted",
+    "words": 186,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "634051b742520d5bddbaf97b1105598b21345aedae155a66c14e2fe6ff8ab79e"
+  "output_hash": "e5cc37131b71480bc379a061869789a8c62dfcbbb7d80b1857b1326b67f252c7"
 }

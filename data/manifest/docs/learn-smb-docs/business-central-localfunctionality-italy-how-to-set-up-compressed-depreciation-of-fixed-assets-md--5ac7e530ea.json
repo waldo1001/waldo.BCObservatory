@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "compressed depreciation of fixed assets [IT]",
+  "title": "Set Up Compressed Depreciation of Fixed Assets",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.911Z",
-      "blob": "b3d3eb50ac850701d10b3b6357010ffa11bd1be4",
-      "words": 216,
+      "at": "2026-10-28T09:02:38.426Z",
+      "blob": "b0bd7b0c899f4a06b50d6039c13ac2c0d58d8c35",
+      "words": 185,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:27.864Z",
+      "at": "2026-10-28T09:02:50.707Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002351
+      "cost_usd": 0.003351
     },
     "summarized": {
-      "at": "2026-10-06T19:24:33.693Z",
+      "at": "2026-10-28T09:02:50.708Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:33.694Z",
+      "at": "2026-10-28T09:02:50.710Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:33.695Z",
+      "at": "2026-10-28T09:02:50.711Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets.md",
-    "description": "You can compress fixed asset depreciation into subclasses and choose to display only the total sum by subclass.",
-    "ms_date": "2025-05-21",
+    "description": "Learn how to summarize compatible fixed asset depreciation amounts in the general ledger while retaining individual asset entries in Business Central.",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "compressed depreciation set up",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 216,
+    "ai_usage": "ai-assisted",
+    "words": 185,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "81d9af5d32ff4d18845b19854fad1f7bfbf2f5a0c98c2baff6a3554fdf4414cf"
+  "output_hash": "336019dd9b4599eb9e36fd49694e88d0a0f39380682955754beb0f5b578a20a5"
 }
