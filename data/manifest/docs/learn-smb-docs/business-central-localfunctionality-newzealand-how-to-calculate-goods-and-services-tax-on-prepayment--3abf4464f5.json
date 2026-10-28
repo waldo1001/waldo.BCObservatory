@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Calculate goods and services tax on prepayments (NZ)",
+  "title": "Calculate GST on Prepayments in New Zealand",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.286Z",
-      "blob": "22a76ffe253a05bed14cb2cb586a9d090a8093b6",
+      "at": "2026-10-28T09:04:48.263Z",
+      "blob": "107f0c7dd6b07bd50e2135739462aafa6781a9b3",
       "words": 23,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:25:27.086Z",
+      "at": "2026-10-28T09:04:53.642Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001792
+      "cost_usd": 0.002602
     },
     "summarized": {
-      "at": "2026-10-06T19:25:27.107Z",
+      "at": "2026-10-28T09:04:53.644Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:27.108Z",
+      "at": "2026-10-28T09:04:53.645Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:27.109Z",
+      "at": "2026-10-28T09:04:53.646Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md",
     "description": "Learn how to calculate Goods and Services Tax (GST) for prepayments or partial payments based on the total invoice amount rather than just the partial payment.",
-    "ms_date": "2025-05-05",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [
       {
@@ -75,12 +75,12 @@
       "GST partial payment",
       "New Zealand version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 23,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "95703235f2eea7884699c9d1696da820212cb258f050340e259a7fa18c91dd58"
+  "output_hash": "5049cf01cd48161175264b87891481467e737407b1edb19d76d097e5d39a8581"
 }

@@ -1,20 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-determine-sales-price-by-cost-plus-percentage.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-determine-sales-price-by-cost-plus-percentage",
-  "title": "Determine Sales Price by Cost Plus Percentage (NZ)",
-  "blob": "668e84919662a7616c71b2b10a675bcd2824e633",
-  "summary": "Determine sales price by cost plus percentage is a New Zealand local functionality for calculating sales prices based on cost markup.",
+  "title": "Set Sales Prices by Cost-Plus Percentage in New Zealand",
+  "blob": "09d807561eb2ecd128a25927183842ba9789ecea",
+  "summary": "Determines how to set sales prices by applying a cost-plus percentage calculation in the New Zealand version of Business Central.",
   "systems": [
+    "sales",
     "localization"
   ],
   "topics": [
-    "sales price",
-    "cost plus percentage",
-    "new zealand"
+    "sales prices",
+    "cost-plus pricing",
+    "new zealand",
+    "price calculation"
   ],
   "objects": [],
   "features": [
-    "cost plus percentage pricing"
+    "cost-plus percentage pricing"
   ],
   "versions": [],
   "parts": 1,
@@ -23,8 +25,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001792,
-      "pages_in_call": 8
+      "cost_usd": 0.002563,
+      "pages_in_call": 1
     }
   ]
 }

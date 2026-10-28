@@ -1,20 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-create-check-installments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-create-check-installments",
-  "title": "Create check installments [NZ]",
-  "blob": "5b86d703823b44b0b7ea82d2219123e285130f25",
-  "summary": "Create check installments in the New Zealand version enables splitting checks into multiple payment installments for vendor payments.",
+  "title": "Create Check Installments in the New Zealand Version [NZ]",
+  "blob": "7d35a5aadd94fce7e7dfce69dfe123496b7306cb",
+  "summary": "Creating check installments in the New Zealand version of Business Central enables splitting payments into multiple installments. This feature is specific to the New Zealand localization.",
   "systems": [
+    "localization",
     "purchasing"
   ],
   "topics": [
     "check installments",
     "new zealand",
-    "vendor payments"
+    "payment methods",
+    "local functionality"
   ],
   "objects": [],
   "features": [
-    "Create check installments"
+    "check installments"
   ],
   "versions": [],
   "parts": 1,
@@ -23,8 +25,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.000994,
-      "pages_in_call": 7
+      "cost_usd": 0.002558,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Determine Sales Price by Cost Plus Percentage (NZ)",
+  "title": "Set Sales Prices by Cost-Plus Percentage in New Zealand",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-determine-sales-price-by-cost-plus-percentage",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.253Z",
-      "blob": "668e84919662a7616c71b2b10a675bcd2824e633",
+      "at": "2026-10-28T09:04:48.302Z",
+      "blob": "09d807561eb2ecd128a25927183842ba9789ecea",
       "words": 21,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:27.078Z",
+      "at": "2026-10-28T09:04:53.786Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001792
+      "cost_usd": 0.002563
     },
     "summarized": {
-      "at": "2026-10-06T19:25:27.088Z",
+      "at": "2026-10-28T09:04:53.789Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:27.088Z",
+      "at": "2026-10-28T09:04:53.791Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:27.089Z",
+      "at": "2026-10-28T09:04:53.793Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/how-to-determine-sales-price-by-cost-plus-percentage.md",
-    "description": "Learn how to use the cost plus percentage function to set a sales price based on the cost of an item.",
-    "ms_date": "2025-05-05",
+    "description": "Learn how to calculate item sales prices from unit costs and cost-plus percentages, or use a discount amount instead, in the New Zealand version.",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "sales price by cost",
       "New Zealand version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 21,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1dc6060ed6151c3fa5da2081a3cb57ec8b032f232bddc232bf7ab2ed849f9b07"
+  "output_hash": "e10697f2be92293319ed0e1b7d1dd7b2fa855a3678ada592db224f4fe6fcddf6"
 }

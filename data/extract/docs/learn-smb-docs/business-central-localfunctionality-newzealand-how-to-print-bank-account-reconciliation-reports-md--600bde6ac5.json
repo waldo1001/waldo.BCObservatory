@@ -1,16 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-print-bank-account-reconciliation-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-bank-account-reconciliation-reports",
-  "title": "Print bank account reconciliation reports [NZ]",
-  "blob": "ecc5757ae5f83efaa6612a7a0bf4f481cb07dee8",
-  "summary": "Print bank account reconciliation reports in the New Zealand version produces reconciliation reports for bank account verification.",
+  "title": "Print Bank Account Reconciliation Reports in New Zealand",
+  "blob": "e44e2965ca9a34f4eb6309db677c68bba5227388",
+  "summary": "The New Zealand version of Business Central supports printing bank account reconciliation reports to provide formatted output of reconciled bank account transactions.",
   "systems": [
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
     "bank reconciliation",
     "new zealand",
-    "reporting"
+    "printing",
+    "reports"
   ],
   "objects": [],
   "features": [
@@ -23,8 +25,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.000994,
-      "pages_in_call": 7
+      "cost_usd": 0.002442,
+      "pages_in_call": 1
     }
   ]
 }

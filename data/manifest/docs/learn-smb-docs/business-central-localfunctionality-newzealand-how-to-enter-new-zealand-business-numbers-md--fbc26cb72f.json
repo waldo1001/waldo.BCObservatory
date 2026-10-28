@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Enter Inland revenue department numbers",
+  "title": "Enter New Zealand Inland Revenue Department Number",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-enter-new-zealand-business-numbers",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.300Z",
-      "blob": "a10ef438bf899938434ab2c958b455b854abcbb1",
-      "words": 151,
+      "at": "2026-10-28T09:04:53.268Z",
+      "blob": "afa452c52eefe3a803b7c9d9374bf9e75f66fc96",
+      "words": 146,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:50.679Z",
+      "at": "2026-10-28T09:05:03.192Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.000994
+      "cost_usd": 0.003114
     },
     "summarized": {
-      "at": "2026-10-06T19:25:52.458Z",
+      "at": "2026-10-28T09:05:03.193Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:52.460Z",
+      "at": "2026-10-28T09:05:03.195Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:52.461Z",
+      "at": "2026-10-28T09:05:03.197Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/how-to-enter-new-zealand-business-numbers.md",
     "description": "Learn how to enter an Inland Revenue Department Number (IRD) on specific pages in the New Zealand version of Business Central.",
-    "ms_date": "2025-05-05",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "inland revenue department number",
       "New Zealand version"
     ],
-    "ai_usage": null,
-    "words": 151,
+    "ai_usage": "ai-assisted",
+    "words": 146,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ed5fb99ebcec12be67f9098be46abe2f80fb6b8dd7ee32dd2ffb4f388ed0f16f"
+  "output_hash": "52aef45efed31072cea52bf97570a00b3f73e4a71872b11eb839e7d05af2348a"
 }

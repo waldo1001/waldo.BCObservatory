@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Create check installments [NZ]",
+  "title": "Create Check Installments in the New Zealand Version [NZ]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-create-check-installments",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.295Z",
-      "blob": "5b86d703823b44b0b7ea82d2219123e285130f25",
+      "at": "2026-10-28T09:04:48.345Z",
+      "blob": "7d35a5aadd94fce7e7dfce69dfe123496b7306cb",
       "words": 17,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:25:50.678Z",
+      "at": "2026-10-28T09:04:53.215Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.000994
+      "cost_usd": 0.002558
     },
     "summarized": {
-      "at": "2026-10-06T19:25:50.690Z",
+      "at": "2026-10-28T09:04:53.217Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:50.691Z",
+      "at": "2026-10-28T09:04:53.218Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:50.692Z",
+      "at": "2026-10-28T09:04:53.219Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/how-to-create-check-installments.md",
-    "description": "Learn how to create check installments for post-dated checks in the New Zealand version.",
-    "ms_date": "2025-05-05",
+    "description": "Learn how to divide a postdated check into installments, specify interest and payment periods, and create the checks in the New Zealand version.",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [
       {
@@ -75,12 +75,12 @@
       "create check installments",
       "New Zealand version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 17,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "625ae18e39c2024703d167675714c8b7e56b0b68aa4ac51c34aabc723ec00653"
+  "output_hash": "8aa204af3779a3a6fba9d6a117fb61d019135b79a90ab4e27225b199c6dcac1d"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Print Balance Sheet Reports [NZ]",
+  "title": "Print Balance Sheet Reports in the New Zealand Version [NZ]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-balance-sheet-reports",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.310Z",
-      "blob": "c66940dd9ae3fe97a53bf3f4e443be5b5ce25580",
+      "at": "2026-10-28T09:04:53.659Z",
+      "blob": "1b8b554fb1f63cd9a900ed4a10b56349d500ff58",
       "words": 28,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:50.683Z",
+      "at": "2026-10-28T09:04:58.228Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.000994
+      "cost_usd": 0.002495
     },
     "summarized": {
-      "at": "2026-10-06T19:25:52.470Z",
+      "at": "2026-10-28T09:04:58.230Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:52.472Z",
+      "at": "2026-10-28T09:04:58.231Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:52.473Z",
+      "at": "2026-10-28T09:05:03.167Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/how-to-print-balance-sheet-reports.md",
-    "description": "Learn how to print the company's balance sheet report in the New Zealand version of Business Central",
-    "ms_date": "2025-05-06",
+    "description": "Learn how to print a balance sheet, select the reporting date, and set amount rounding in the New Zealand version of Dynamics 365 Business Central.",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "print balance sheet report",
       "New Zealand version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 28,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "63ddbc7af95361461b180463b0b4e2eb8756fc9a65934a1a2d0237a87945e9d5"
+  "output_hash": "86a7580f1e5e2fe3d45b76e2cb00b1ccced6f46157704b36af7c4afa067fd2b2"
 }

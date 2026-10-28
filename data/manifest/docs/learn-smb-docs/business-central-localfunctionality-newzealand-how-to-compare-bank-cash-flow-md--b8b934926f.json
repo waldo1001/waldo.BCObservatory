@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Compare Bank Cash Flow [NZ]",
+  "title": "Compare Bank Cash Flow in the New Zealand Version [NZ]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-compare-bank-cash-flow",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.291Z",
-      "blob": "16f08d19fbc4fb2361957c8ad7ce590d3c94471e",
+      "at": "2026-10-28T09:04:48.389Z",
+      "blob": "30d7579b063c45d74a05e54828841a9b94b350bc",
       "words": 21,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:50.676Z",
+      "at": "2026-10-28T09:04:53.519Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.000994
+      "cost_usd": 0.002477
     },
     "summarized": {
-      "at": "2026-10-06T19:25:50.687Z",
+      "at": "2026-10-28T09:04:53.520Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:50.688Z",
+      "at": "2026-10-28T09:04:53.522Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:50.689Z",
+      "at": "2026-10-28T09:04:53.523Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/how-to-compare-bank-cash-flow.md",
-    "description": "Learn how to compare the flow of cash in a particular bank for a specified period in the New Zealand version.",
-    "ms_date": "2025-05-05",
+    "description": "Learn how to compare cash flow for bank accounts, review balances, and print debit and credit amounts in the New Zealand version of Business Central.",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "bank cash flow",
       "New Zealand version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 21,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bebfd2631d44459adebfb1f5992cd228954178229e606b751c058a0efb142251"
+  "output_hash": "a5bbd20b92c73dea0fa5310e77d96075d9bc57defa2b92bec7ea0efb0294e021"
 }

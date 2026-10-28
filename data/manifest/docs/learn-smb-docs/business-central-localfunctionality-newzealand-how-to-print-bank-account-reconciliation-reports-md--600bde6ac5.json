@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Print bank account reconciliation reports [NZ]",
+  "title": "Print Bank Account Reconciliation Reports in New Zealand",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-bank-account-reconciliation-reports",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.314Z",
-      "blob": "ecc5757ae5f83efaa6612a7a0bf4f481cb07dee8",
+      "at": "2026-10-28T09:04:53.713Z",
+      "blob": "e44e2965ca9a34f4eb6309db677c68bba5227388",
       "words": 18,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:50.684Z",
+      "at": "2026-10-28T09:05:03.178Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.000994
+      "cost_usd": 0.002442
     },
     "summarized": {
-      "at": "2026-10-06T19:25:52.475Z",
+      "at": "2026-10-28T09:05:03.180Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:52.476Z",
+      "at": "2026-10-28T09:05:03.182Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:52.477Z",
+      "at": "2026-10-28T09:05:03.183Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/how-to-print-bank-account-reconciliation-reports.md",
     "description": "Learn how to print a report showing open bank ledger entries as unpresented checks or unrecorded deposits in the New Zealand version of Business Central.",
-    "ms_date": "2025-05-06",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "bank account reconciliation report",
       "New Zealand version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 18,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "693f8c52a3bdcac8149eabb45b913b937610a544b28875932209bacf95df525f"
+  "output_hash": "35083e07e5c61893821ecbcfb495c699e05c963d59b97e1f09f4ba1ee4adf761"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Calculate and post withholding tax settlements (NZ)",
+  "title": "Calculate and Post WHT Settlements in New Zealand",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-calculate-and-post-withholding-tax-settlements",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.248Z",
-      "blob": "6ede7b7777d10699e27134c9ef5dc9911d0561c6",
+      "at": "2026-10-28T09:04:48.207Z",
+      "blob": "dd5ef213cfbf7b76d8f72b3443916e68e9050413",
       "words": 102,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:29.343Z",
+      "at": "2026-10-28T09:04:53.603Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003688
+      "cost_usd": 0.003073
     },
     "summarized": {
-      "at": "2026-10-06T19:25:29.376Z",
+      "at": "2026-10-28T09:04:53.605Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:29.377Z",
+      "at": "2026-10-28T09:04:53.606Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:29.378Z",
+      "at": "2026-10-28T09:04:53.607Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/how-to-calculate-and-post-withholding-tax-settlements.md",
-    "description": "Learn how to calculate and post the withholding tax (WHT) in the New Zealand version of Business Central.",
-    "ms_date": "2025-05-05",
+    "description": "Learn how to calculate withholding tax (WHT) settlements, close unsettled entries, and post amounts to a settlement account in New Zealand.",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "calculate withholding tax",
       "New Zealand version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 102,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "63484f72eff8b28c6875e881021b44eea345a386932a2fd4c2513c221130a86e"
+  "output_hash": "be1c99b7824e8073cdc3407e9ba53c7fb814532034f08f8f537614aadeeb399d"
 }

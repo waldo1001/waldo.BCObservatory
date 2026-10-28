@@ -1,22 +1,23 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments",
-  "title": "Calculate goods and services tax on prepayments (NZ)",
-  "blob": "22a76ffe253a05bed14cb2cb586a9d090a8093b6",
-  "summary": "Calculate goods and services tax on prepayments in New Zealand handles GST calculation for prepayment invoicing.",
+  "title": "Calculate GST on Prepayments in New Zealand",
+  "blob": "107f0c7dd6b07bd50e2135739462aafa6781a9b3",
+  "summary": "Calculate goods and services tax on prepayments in the New Zealand version of Business Central. Use this when setting up and processing prepayment transactions subject to GST in New Zealand.",
   "systems": [
-    "localization",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
     "gst",
     "prepayments",
-    "tax calculation",
-    "new zealand"
+    "new zealand",
+    "tax calculation"
   ],
   "objects": [],
   "features": [
-    "GST on prepayments"
+    "GST on prepayments",
+    "New Zealand tax functionality"
   ],
   "versions": [],
   "parts": 1,
@@ -25,8 +26,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001792,
-      "pages_in_call": 8
+      "cost_usd": 0.002602,
+      "pages_in_call": 1
     }
   ]
 }
