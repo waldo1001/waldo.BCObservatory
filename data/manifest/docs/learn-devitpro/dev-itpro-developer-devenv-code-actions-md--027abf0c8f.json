@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "AL code actions",
+  "title": "AL Code Actions in Visual Studio Code",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-actions",
   "published_at": "2026-10-27T14:30:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.482Z",
-      "blob": "012467e70ce546964041396749404e569d443a80",
-      "words": 1200,
+      "at": "2026-10-28T08:48:55.203Z",
+      "blob": "5f9aa2bc70b4e404d9e753a8e6fa933e8fb534ae",
+      "words": 1239,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:27:24.249Z",
+      "at": "2026-10-28T08:49:06.199Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004719
+      "cost_usd": 0.004864
     },
     "summarized": {
-      "at": "2026-10-06T18:27:24.256Z",
+      "at": "2026-10-28T08:49:06.201Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:27:24.256Z",
+      "at": "2026-10-28T08:49:06.204Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:27:24.257Z",
+      "at": "2026-10-28T08:49:06.206Z",
       "page": false
     }
   },
@@ -45,20 +45,22 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-code-actions.md",
     "description": "Learn about AL code actions in Visual Studio Code, including scope levels, available actions, and how to enable them for your project.",
-    "ms_date": "2026-05-27",
-    "ms_topic": "article",
+    "ms_date": "2026-10-16",
+    "ms_topic": "conceptual",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1200,
+    "words": 1239,
     "identifiers": [
+      "RequiredPending",
       "RDLCLayout",
       "WordLayout",
-      "ApplicationArea"
+      "ApplicationArea",
+      "EventSubscriber"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e7c2437eea0336f0439200557e4466e219462f75b89ce0c98ac05631bd2ed599"
+  "output_hash": "ea43d1d5b9cea729a134c75ceff96e5162b43645f86f5e2ca8b6023c877b7947"
 }

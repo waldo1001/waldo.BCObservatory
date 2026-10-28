@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/10/business-central-29-whats-new-in-the-word-add-in/",
   "published_at": "2026-10-26T08:27:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-27T00:21:39.999Z"
+    },
+    "fetched": {
+      "at": "2026-10-28T08:49:09.916Z",
+      "path": "vault:posts/thinkaboutit-be/8291.md",
+      "words": 804
+    },
+    "extracted": {
+      "at": "2026-10-28T08:49:18.133Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.006091
+    },
+    "summarized": {
+      "at": "2026-10-28T08:49:18.135Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-28T08:49:18.136Z"
+    },
+    "published": {
+      "at": "2026-10-28T08:49:18.153Z",
+      "path": "content/posts/thinkaboutit-be/8291.md"
     }
   },
   "input_hash": "2026-10-26T08:27:23.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d1027e4f9d1d23b0b3d96a7f772931812622355a743315dfb77802f39411c06a"
 }

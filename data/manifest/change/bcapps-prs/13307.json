@@ -6,10 +6,35 @@
   "title": "[SOA] Clear stale pricing notifications on item availability refresh",
   "url": "https://github.com/microsoft/BCApps/pull/13307",
   "published_at": "2026-10-27T16:36:45Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-28T00:16:46.912Z"
+    },
+    "fetched": {
+      "at": "2026-10-28T08:49:04.570Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-28T08:49:12.265Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.0036
+    },
+    "linked": {
+      "at": "2026-10-28T08:49:12.451Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
+    },
+    "published": {
+      "at": "2026-10-28T08:49:12.463Z",
+      "path": "content/changes/bcapps/13307.md"
     }
   },
   "input_hash": "7b234a989437b3819f33e840c429e8566e17647f:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa clear stale pricing notifications on item availability refresh"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "000be09a5234b2d47e97f96f059ac2a13c32ac57c989240a2db911598d7bdedf"
 }

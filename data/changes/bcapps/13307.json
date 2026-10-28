@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13307,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13307",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-27T16:36:45Z",
+  "merge_commit_sha": "7b234a989437b3819f33e840c429e8566e17647f",
+  "author": "qasimikram",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[SOA] Clear stale pricing notifications on item availability refresh",
+  "body_hash": "e00578e20557593c50b7e3216ff09c531000da98cf37db601e622c8ca1ca0769",
+  "fixes_issues": [],
+  "work_items": [
+    656864
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemAvailability/SOAMultiItemsAvailability.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/ItemAvailability/SOAMultiItemsAvailability.Page.al",
+        "status": "modified",
+        "key": "page/4410",
+        "type": "page",
+        "id": 4410,
+        "name": "SOA Multi Items Availability",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "page/4410"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "SalesOrderAgent"
+  ]
+}

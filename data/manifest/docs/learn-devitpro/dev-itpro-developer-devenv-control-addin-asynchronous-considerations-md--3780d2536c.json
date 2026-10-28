@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Asynchronous considerations for control add-ins",
+  "title": "Asynchronous Considerations for Control Add-ins",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-asynchronous-considerations",
   "published_at": "2026-10-27T14:30:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.716Z",
-      "blob": "41857e3cc5ef7be7c77ffb3311fa81ea98a5fa6d",
-      "words": 199,
+      "at": "2026-10-28T08:49:14.234Z",
+      "blob": "424586ab3de34df7e4baa7121ffb2d30286be67a",
+      "words": 218,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:35:25.348Z",
+      "at": "2026-10-28T08:49:22.213Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003305
+      "objects": 2,
+      "cost_usd": 0.003276
     },
     "summarized": {
-      "at": "2026-10-06T19:35:25.362Z",
+      "at": "2026-10-28T08:49:22.215Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:35:25.363Z",
+      "at": "2026-10-28T08:49:22.216Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:35:25.365Z",
+      "at": "2026-10-28T08:49:22.217Z",
       "page": false
     }
   },
@@ -44,17 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-control-addin-asynchronous-considerations.md",
-    "description": "Learn about asynchronous communication limitations in Dynamics 365 Business Central server and how to effectively write control add-ins for all display targets.",
-    "ms_date": "2023-12-29",
-    "ms_topic": "article",
+    "description": "Learn how control add-ins exchange data asynchronously between AL and JavaScript in Business Central without relying on synchronous return values.",
+    "ms_date": "2026-10-21",
+    "ms_topic": "conceptual",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 199,
-    "identifiers": [],
+    "words": 218,
+    "identifiers": [
+      "successCallback",
+      "InvokeExtensibilityMethod"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "443d0d791c622b52f1c6ba1cbf32889777e3f45724c6a1a2aa01506e228db5da"
+  "output_hash": "03caf984d2bb88b7ab5bf8c77cdef3133c76b538c855fe02c9c3a0401d96e805"
 }

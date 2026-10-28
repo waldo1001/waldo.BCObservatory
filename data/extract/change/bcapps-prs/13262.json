@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/13262",
+  "number": 13262,
+  "title": "[Financial Reports] Trial Balance by Period (Excel) should use a query-based approach rather than loop and CalcFields",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "reporting"
+  ],
+  "summary": "Trial Balance by Period (Excel) report now uses a query-based approach instead of looping with CalcFields, reducing SQL calls from hundreds of thousands to just two per account and period, enabling completion within reasonable timeframes.",
+  "key_points": [
+    "Replaced inefficient loop-and-CalcFields pattern with a single query that groups G/L entries by dimension values",
+    "Reduces SQL calls from approximately 4 × accounts × periods × (1 + D1 + D2 + D1·D2) to just 2 × accounts × periods",
+    "Query runs twice per account per period: once for net change and once for balance",
+    "Dimension values loaded once in OnPreReport instead of repeatedly queried",
+    "Dataset generation moved from database to memory buffer, maintaining same output format with and without zero-value filtering"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004397,
+    "changes_in_call": 1
+  }
+}

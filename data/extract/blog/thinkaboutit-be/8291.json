@@ -1,0 +1,79 @@
+{
+  "item_id": "blog/thinkaboutit-be/8291",
+  "url": "https://thinkaboutit.be/2026/10/business-central-29-whats-new-in-the-word-add-in/",
+  "title": "Business Central 29: What’s New in the Word Add-in?",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-10-26T08:27:23.000Z",
+  "words": 804,
+  "summary": "Business Central 2026 release wave 2 introduces improvements to the Word Add-in for document reporting, including a new Company Information dataset, an improved Table Builder for editing existing tables, reusable design components, and conditional content controls. These changes reduce repetitive work when building Word layouts and provide a more structured approach to report development.",
+  "key_points": [
+    "Company Information dataset is now automatically available in all Word layouts, eliminating the need to duplicate company fields across multiple report datasets",
+    "The Table Builder can now edit existing tables by reopening them to add or change columns and modify table structure without full recreation",
+    "Reusable design components provide predefined formatting for addresses, field groups, amounts, signatures, and notes to create consistent document structures",
+    "Hide If conditional control allows content to be shown or hidden based on Boolean values from the report dataset",
+    "Theme and Header/Footer Layout samples help developers design consistent branding across documents"
+  ],
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "word add-in",
+    "document reporting",
+    "layouts",
+    "composite documents",
+    "design components",
+    "conditional content",
+    "release wave 2"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Company Information dataset"
+    },
+    {
+      "type": "other",
+      "name": "Table Builder"
+    },
+    {
+      "type": "other",
+      "name": "Data Picker"
+    },
+    {
+      "type": "other",
+      "name": "Hide If control"
+    }
+  ],
+  "features": [
+    "Company Information dataset",
+    "Table Builder editing",
+    "Reusable design components",
+    "Conditional content controls (Hide If)",
+    "Theme samples",
+    "Header/Footer Layout samples",
+    "Composite Document Layouts"
+  ],
+  "versions": [
+    "Business Central 29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Business Central 29 introduces a dedicated Company Information dataset that is automatically available to Word layouts.",
+      "why_it_matters": "Eliminates repetitive work by providing company fields once instead of duplicating them across multiple report datasets"
+    },
+    {
+      "text": "With Business Central 29, you can reopen an existing table in the Table Builder and modify its definition.",
+      "why_it_matters": "Avoids the need to recreate entire tables when layout requirements change, saving development time"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006091,
+    "posts_in_call": 1
+  }
+}

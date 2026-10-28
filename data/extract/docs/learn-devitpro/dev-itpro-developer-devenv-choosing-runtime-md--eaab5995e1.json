@@ -1,32 +1,32 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-choosing-runtime.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-choosing-runtime",
-  "title": "Choose runtime version in AL",
-  "blob": "e4db963e8cbddcf692deb1fa009d3a17bbbd0e50",
-  "summary": "Choose the runtime version in AL by setting it in app.json (e.g., \"runtime\": \"18.0\"). Extensions can publish to servers with equal or later runtime versions than specified.",
+  "title": "Choose an AL Runtime Version for Business Central",
+  "blob": "469470f93cce64fe90f8b9f95f01afc3425da865",
+  "summary": "AL runtime versions determine AL capabilities and are specified in app.json. Choose a runtime supported by all target environments, including Business Central online.",
   "systems": [
     "development",
     "platform"
   ],
   "topics": [
-    "runtime version",
+    "al runtime",
     "app.json",
-    "version compatibility",
-    "version selection"
+    "extension development",
+    "version compatibility"
   ],
   "objects": [],
   "features": [
     "runtime version specification",
-    "backward compatibility",
-    "version targeting"
+    "AL compiler defaults",
+    "runtime version history",
+    "IntelliSense support"
   ],
   "versions": [
-    "16.0",
-    "17.0",
-    "18.0",
     "2025 release wave 2",
     "2026 release wave 1",
-    "2026 release wave 2"
+    "2026 release wave 2",
+    "2024 release wave 2",
+    "2025 release wave 1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -34,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006766,
-      "pages_in_call": 6
+      "cost_usd": 0.003878,
+      "pages_in_call": 1
     }
   ]
 }

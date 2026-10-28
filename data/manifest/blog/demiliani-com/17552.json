@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/10/26/dynamics-365-business-central-matching-production-database-configuration-for-sandboxes/",
   "published_at": "2026-10-26T07:48:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-27T00:21:39.999Z"
+    },
+    "fetched": {
+      "at": "2026-10-28T08:49:19.490Z",
+      "path": "vault:posts/demiliani-com/17552.md",
+      "words": 283
+    },
+    "extracted": {
+      "at": "2026-10-28T08:49:33.348Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.005106
+    },
+    "summarized": {
+      "at": "2026-10-28T08:49:33.349Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-28T08:49:33.350Z"
+    },
+    "published": {
+      "at": "2026-10-28T08:49:33.363Z",
+      "path": "content/posts/demiliani-com/17552.md"
     }
   },
   "input_hash": "2026-10-26T07:48:07.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5245b23f9e0248cc210d5c1e1b2987a8b54e1a1e89c8c9d4afa73022c4e9801a"
 }

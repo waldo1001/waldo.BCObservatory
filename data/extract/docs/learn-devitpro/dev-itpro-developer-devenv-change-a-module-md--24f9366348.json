@@ -1,19 +1,18 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-change-a-module.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-change-a-module",
-  "title": "Change a module in the System Application",
-  "blob": "497cab5100080e33c8b3bab9e6c1370b6ba586a4",
-  "summary": "Change a Module in System Application explains how to modify existing AL modules following architecture guidelines while maintaining backward compatibility and adding tests.",
+  "title": "Change a System Application Module in Business Central",
+  "blob": "45b165f37726c77b0f9b7f675921253a50832720",
+  "summary": "Change a System Application module by updating implementation, exposing public functions, documenting them, and adding tests following module architecture guidelines and contribution requirements.",
   "systems": [
-    "development",
-    "platform"
+    "development"
   ],
   "topics": [
-    "al development",
-    "module",
     "system application",
-    "git",
-    "testing"
+    "module development",
+    "al development",
+    "bcapps contribution",
+    "module architecture"
   ],
   "objects": [
     {
@@ -30,10 +29,13 @@
     }
   ],
   "features": [
-    "Module architecture",
-    "Breaking changes prevention",
-    "Test validation",
-    "Git workflow"
+    "module implementation",
+    "public function exposure",
+    "function documentation",
+    "module testing",
+    "code preservation",
+    "visual studio code setup",
+    "git workflow"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003796,
-      "pages_in_call": 8
+      "cost_usd": 0.011134,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13307",
+  "number": 13307,
+  "title": "[SOA] Clear stale pricing notifications on item availability refresh",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Sales Order Agent now clears stale pricing-error notifications when refreshing item availability results, preventing outdated errors from remaining visible after a successful search on the same page.",
+  "key_points": [
+    "Pricing-error notification is recalled at the start of result refresh in the Multi Items Availability page",
+    "Prevents stale notifications from persisting when subsequent searches succeed",
+    "New pricing failures encountered during result reading can still send notifications",
+    "No changes to pricing rules, item selection, or subscription billing validation",
+    "Limited to notification lifecycle management without schema or permission changes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.0036,
+    "changes_in_call": 1
+  }
+}

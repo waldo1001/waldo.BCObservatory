@@ -6,10 +6,35 @@
   "title": "Fix configuration package import label translation collisions",
   "url": "https://github.com/microsoft/BCApps/pull/13333",
   "published_at": "2026-10-28T01:03:29Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-28T08:47:18.430Z"
+    },
+    "fetched": {
+      "at": "2026-10-28T08:48:41.638Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-28T08:48:52.172Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003908
+    },
+    "linked": {
+      "at": "2026-10-28T08:48:52.397Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
+    },
+    "published": {
+      "at": "2026-10-28T08:48:52.405Z",
+      "path": "content/changes/bcapps/13333.md"
     }
   },
   "input_hash": "e7547a67cad25f7c71fa4d343a0214cdcebf5b0d:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix configuration package import label translation collisions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f825e0636bff1d9072e03eabcc2d6cc23aa3a6e8659eeb080cc57e95c4b23fd5"
 }

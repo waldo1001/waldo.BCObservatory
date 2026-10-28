@@ -6,10 +6,35 @@
   "title": "[Financial Reports] Trial Balance by Period (Excel) should use a query-based approach rather than loop and CalcFields",
   "url": "https://github.com/microsoft/BCApps/pull/13262",
   "published_at": "2026-10-27T15:55:17Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-28T00:16:46.912Z"
+    },
+    "fetched": {
+      "at": "2026-10-28T08:49:19.407Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-28T08:49:26.478Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": false,
+      "cost_usd": 0.004397
+    },
+    "linked": {
+      "at": "2026-10-28T08:49:32.331Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
+    },
+    "published": {
+      "at": "2026-10-28T08:49:32.340Z",
+      "path": "content/changes/bcapps/13262.md"
     }
   },
   "input_hash": "a1af339d809df26ed0c499da8c3918ac9a11b099:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "financial reports trial balance by period excel should use a query based approach rather than loop and calcfields"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0deb0a0dcf911260ee168e46f8fe372ae9f176ce5f74ec087d06c13c543310de"
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13333",
+  "number": 13333,
+  "title": "Fix configuration package import label translation collisions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Configuration package import methods in codeunit 8614 now share global label variables instead of declaring duplicate local ones, resolving translation ID collisions during compilation.",
+  "key_points": [
+    "Moved PackageImportStartMsg and PackageImportFinishMsg labels from local method declarations to global codeunit variables",
+    "Both native XML and obsolete DotNet overloads of ImportPackageXMLDocument reference the same shared labels",
+    "Fixes AL0570 compiler diagnostic for duplicate translation IDs in LCG generation",
+    "No runtime behavior or telemetry changes; execution logic and locked status preserved",
+    "Internal validation blocker fix with no public API impact"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003908,
+    "changes_in_call": 1
+  }
+}

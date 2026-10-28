@@ -1,0 +1,103 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13262,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13262",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-27T15:55:17Z",
+  "merge_commit_sha": "a1af339d809df26ed0c499da8c3918ac9a11b099",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Financial Reports] Trial Balance by Period (Excel) should use a query-based approach rather than loop and CalcFields",
+  "body_hash": "af9de9babe8f53e77d41616e560c7d38a76bec7882698bb0de9ee06f007a43aa",
+  "fixes_issues": [],
+  "work_items": [
+    656773
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRTrialBalbyPeriod.Query.al",
+      "status": "added",
+      "additions": 55,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRTrialBalbyPeriodExcel.Report.al",
+      "status": "modified",
+      "additions": 161,
+      "deletions": 38,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/App/src/permissions/ExcelReportsObjects.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExcelReports/Test/src/TrialBalanceExcelReports.Codeunit.al",
+      "status": "modified",
+      "additions": 191,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 408,
+    "deletions": 38,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRTrialBalbyPeriodExcel.Report.al",
+        "status": "modified",
+        "key": "report/4408",
+        "type": "report",
+        "id": 4408,
+        "name": "EXR Trial Bal by Period Excel",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "report/4408"
+      },
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/permissions/ExcelReportsObjects.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/4401",
+        "type": "permissionset",
+        "id": 4401,
+        "name": "Excel Reports - Objects",
+        "app": "ExcelReports",
+        "cc": "w1",
+        "page": "permissionset/4401"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/ExcelReports/App/src/Financials/EXRTrialBalbyPeriod.Query.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "apps": [
+    "ExcelReports"
+  ]
+}

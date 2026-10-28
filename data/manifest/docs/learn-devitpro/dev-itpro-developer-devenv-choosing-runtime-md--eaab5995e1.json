@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Choose runtime version in AL",
+  "title": "Choose an AL Runtime Version for Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-choosing-runtime",
   "published_at": "2026-10-27T14:30:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:18.194Z",
-      "blob": "e4db963e8cbddcf692deb1fa009d3a17bbbd0e50",
-      "words": 521,
+      "at": "2026-10-28T08:48:38.541Z",
+      "blob": "469470f93cce64fe90f8b9f95f01afc3425da865",
+      "words": 485,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:32:55.327Z",
+      "at": "2026-10-28T08:48:52.159Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.006766
+      "cost_usd": 0.003878
     },
     "summarized": {
-      "at": "2026-10-06T13:32:55.346Z",
+      "at": "2026-10-28T08:48:52.161Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:32:55.347Z",
+      "at": "2026-10-28T08:48:52.162Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:32:55.347Z",
+      "at": "2026-10-28T08:48:52.163Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-choosing-runtime.md",
-    "description": "How to choose runtime in AL for Business Central.",
-    "ms_date": "2026-08-20",
-    "ms_topic": "article",
+    "description": "Choose an AL runtime version for Business Central extensions. Check compiler defaults, server compatibility, and runtime-to-product version mappings.",
+    "ms_date": "2026-10-16",
+    "ms_topic": "conceptual",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 521,
+    "words": 485,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a722ee85caff3d74b4e2f23f0209a4d7304081d58fa4b025f772ee5aedbc28bd"
+  "output_hash": "2f5f2f10e2de43ecbf3883d29f948efd1ee8fab45099823852aa05db3b56b37f"
 }

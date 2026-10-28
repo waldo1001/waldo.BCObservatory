@@ -1,27 +1,26 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-code-analysis-performance-configuration.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-analysis-performance-configuration",
-  "title": "Code analysis performance configuration",
-  "blob": "cabc2fb3c7df553db7b6a5b425717704d040dfd1",
-  "summary": "Configuration guidance for Business Central AL code analysis tool performance, including workspace scope settings, troubleshooting long-running rules, and workspace size optimization.",
+  "title": "AL Code Analysis Performance Configuration",
+  "blob": "b880097595574baf72171cebc89b2fe05c18e086",
+  "summary": "AL code analysis performance configuration controls background code analysis scope and identifies long-running analyzers to reduce editor performance impact in Business Central development.",
   "systems": [
-    "development",
-    "platform"
+    "development"
   ],
   "topics": [
     "code analysis",
-    "performance",
-    "al language",
-    "development tools",
+    "performance tuning",
+    "al extension",
+    "analyzer configuration",
     "diagnostics"
   ],
   "objects": [],
   "features": [
-    "background code analysis scope",
-    "analyzer statistics",
-    "rule configuration",
-    "workspace optimization",
-    "performance tuning"
+    "background analysis scope configuration",
+    "analyzer statistics output",
+    "ruleset-based analyzer disabling",
+    "file-level diagnostics",
+    "project-level diagnostics"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +29,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.011392,
-      "pages_in_call": 6
+      "cost_usd": 0.003449,
+      "pages_in_call": 1
     }
   ]
 }
