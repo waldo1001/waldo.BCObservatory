@@ -1,29 +1,28 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-import-payroll-transactions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-payroll-transactions",
-  "title": "How to import payroll transactions [NO]",
-  "blob": "c9110e3f16e9c517d48f1cbe236555ecdca1529a",
-  "summary": "Import payroll transactions in Norway from Huldt & Lillevik Lønn - Visma payroll solution into general journals using the Payroll Data Definitions extension.",
+  "title": "Import Payroll Transactions in the Norwegian Version [NO]",
+  "blob": "a924eb2695a91ca8bedffd97d37726fd2e141182",
+  "summary": "Import payroll transactions from Norwegian payroll solution Huldt & Lillevik Lønn - Visma into Business Central general journals for posting to general ledger or bank accounts. Requires the Payroll Data Import Definition (NO) extension.",
   "systems": [
-    "hr",
-    "localization"
+    "finance",
+    "localization",
+    "administration"
   ],
   "topics": [
     "payroll",
-    "transaction import",
+    "import",
+    "general journal",
+    "norway",
     "payroll integration",
-    "norway"
+    "huldt lillevik"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "General Journals"
-    }
-  ],
+  "objects": [],
   "features": [
-    "payroll import",
-    "payroll data definitions",
-    "general journal posting"
+    "Payroll Trans. Import Format",
+    "Import Dimension Codes",
+    "Import Payroll File action",
+    "Payroll Data Import Definition (NO) extension"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002455,
-      "pages_in_call": 8
+      "cost_usd": 0.003228,
+      "pages_in_call": 1
     }
   ]
 }

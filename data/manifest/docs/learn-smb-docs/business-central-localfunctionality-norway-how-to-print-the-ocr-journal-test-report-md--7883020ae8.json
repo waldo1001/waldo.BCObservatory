@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Print the OCR journal - Test report",
+  "title": "Print the OCR Journal - Test Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.084Z",
-      "blob": "c63676b449a55e894bd848f17f4ffa23bb4f1b60",
-      "words": 165,
+      "at": "2026-10-28T09:05:40.858Z",
+      "blob": "0ccb6e70daa9a3917b2db564b3a6d8e22c0dd2fc",
+      "words": 168,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:24:56.454Z",
+      "at": "2026-10-28T09:05:49.725Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002455
+      "objects": 2,
+      "cost_usd": 0.003022
     },
     "summarized": {
-      "at": "2026-10-06T19:24:58.250Z",
+      "at": "2026-10-28T09:05:49.726Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:58.251Z",
+      "at": "2026-10-28T09:05:49.727Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:58.252Z",
+      "at": "2026-10-28T09:05:49.728Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md",
-    "description": "Learn how to print the OCR Journal Test report to test imported payment transactions in the cash receipt journal.",
-    "ms_date": "2025-05-13",
+    "description": "Print the Norwegian OCR journal test report in Business Central to review imported payment transactions, OCR warnings, and dimensions before posting.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -64,12 +64,12 @@
       "test imported payment transactions",
       "reconcile conflicts"
     ],
-    "ai_usage": null,
-    "words": 165,
+    "ai_usage": "ai-assisted",
+    "words": 168,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ef0b29abb08a4ad43d20f416832b64a0c00368eb39e6aeb38592c42bafc37b4f"
+  "output_hash": "48f7ad2054c5906a877d956397fca126ded3bf2df755461ab280b6ce7b9c0119"
 }

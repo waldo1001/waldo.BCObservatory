@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to import payroll transactions [NO]",
+  "title": "Import Payroll Transactions in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-payroll-transactions",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.075Z",
-      "blob": "c9110e3f16e9c517d48f1cbe236555ecdca1529a",
-      "words": 152,
+      "at": "2026-10-28T09:05:39.749Z",
+      "blob": "a924eb2695a91ca8bedffd97d37726fd2e141182",
+      "words": 189,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:56.452Z",
+      "at": "2026-10-28T09:05:44.667Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002455
+      "objects": 0,
+      "cost_usd": 0.003228
     },
     "summarized": {
-      "at": "2026-10-06T19:24:58.245Z",
+      "at": "2026-10-28T09:05:44.669Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:58.245Z",
+      "at": "2026-10-28T09:05:44.670Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:58.246Z",
+      "at": "2026-10-28T09:05:49.714Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-import-payroll-transactions.md",
     "description": "Learn how to import payroll transactions into a general journal in Business Central using the Norwegian payroll solution, Huldt & Lillevik Lønn - Visma.",
-    "ms_date": "2025-05-13",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "payroll solution",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 152,
+    "ai_usage": "ai-assisted",
+    "words": 189,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f67f34e1d5cb0b4cb696d32487e4e1b6bf3edeb1c9d3a44c8724e287f094cc97"
+  "output_hash": "414176d8db25f39d9a91e292db1bb0c961317c88875facfd1013d8d0201d9642"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Export remittance payments [NO]",
+  "title": "Export Remittance Payments in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-export-remittance-payments",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.060Z",
-      "blob": "53e46bd9237f6378e19567da87296839ab536419",
-      "words": 377,
+      "at": "2026-10-28T09:05:33.569Z",
+      "blob": "18e12921d6d1dfe4503b243341c28927db2e28ed",
+      "words": 417,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:24:56.449Z",
+      "at": "2026-10-28T09:05:40.571Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.002455
+      "cost_usd": 0.004431
     },
     "summarized": {
-      "at": "2026-10-06T19:24:56.460Z",
+      "at": "2026-10-28T09:05:40.573Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:56.461Z",
+      "at": "2026-10-28T09:05:40.575Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:56.462Z",
+      "at": "2026-10-28T09:05:40.577Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-export-remittance-payments.md",
-    "description": "Learn how to export remittance payment files to your computer using the export remittance payments process.",
-    "ms_date": "2025-05-13",
+    "description": "Export Norwegian remittance payments to a bank file in Business Central, review the export report options, and transfer payments to the waiting journal.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -88,12 +88,12 @@
       "waiting journal",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 377,
+    "ai_usage": "ai-assisted",
+    "words": 417,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ee06c22f24ef8ccb72fe7129fe25072c01215b37e89d3e6df3966cd0c97cea85"
+  "output_hash": "7baae2e657516d58e31dbc6fa169b43654da1d52e73d2c2b007b02ceb157b8ae"
 }

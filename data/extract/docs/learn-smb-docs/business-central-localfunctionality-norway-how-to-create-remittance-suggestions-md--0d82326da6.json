@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-create-remittance-suggestions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-remittance-suggestions",
-  "title": "Create remittance suggestions [NO]",
-  "blob": "8508170a1356e19d0d588000154c21380b000afc",
-  "summary": "Create remittance suggestions in Norway to send payment proposals to vendors who receive remittance payments, with options to filter by payment date, discounts, vendor priority, and document types.",
+  "title": "Create Remittance Suggestions in the Norwegian Version [NO]",
+  "blob": "cf26d67273bcd1d230871be1db95e72f42034cc6",
+  "summary": "Create remittance suggestions in the Norwegian version to add payment lines for vendors set up to receive remittance payments, which can then be reviewed, exported, and submitted to the bank.",
   "systems": [
     "purchasing",
     "localization"
@@ -11,8 +11,9 @@
   "topics": [
     "remittance payments",
     "vendor payments",
-    "payment suggestions",
-    "norway"
+    "payment journals",
+    "norway",
+    "electronic payments"
   ],
   "objects": [
     {
@@ -25,11 +26,14 @@
     }
   ],
   "features": [
-    "remittance suggestions",
-    "payment discounts",
-    "vendor priority",
-    "posting date",
-    "payment filtering"
+    "Remittance Suggestion",
+    "Last Payment Date",
+    "Find Payment Discounts",
+    "Use Vendor Priority",
+    "Available Amount (LCY)",
+    "Posting Date",
+    "Replace Posting Date with Due Date",
+    "Test Document Type"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002455,
-      "pages_in_call": 8
+      "cost_usd": 0.003918,
+      "pages_in_call": 1
     }
   ]
 }

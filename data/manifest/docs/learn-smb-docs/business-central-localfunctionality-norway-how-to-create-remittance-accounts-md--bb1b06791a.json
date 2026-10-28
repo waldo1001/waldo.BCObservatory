@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Create remittance accounts [NO]",
+  "title": "Create Remittance Accounts in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-remittance-accounts",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.046Z",
-      "blob": "2957d6409ae12caa11f099f482432c3a7817d184",
-      "words": 597,
+      "at": "2026-10-28T09:05:33.703Z",
+      "blob": "937fd253c3c4109d6a71ab04be735ba37589edf7",
+      "words": 586,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:24:58.274Z",
+      "at": "2026-10-28T09:05:40.738Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002577
+      "cost_usd": 0.0046
     },
     "summarized": {
-      "at": "2026-10-06T19:24:58.350Z",
+      "at": "2026-10-28T09:05:40.741Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:58.350Z",
+      "at": "2026-10-28T09:05:40.743Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:58.351Z",
+      "at": "2026-10-28T09:05:40.747Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-create-remittance-accounts.md",
     "description": "Learn how to create a remittance account for each bank account used for payments in the Norwegian version of Business Central.",
-    "ms_date": "2025-05-12",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -85,12 +85,12 @@
       "remittance payment",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 597,
+    "ai_usage": "ai-assisted",
+    "words": 586,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "14c64773a6c92ee44f763624f77b768fdd11bccf6b8f9fe4d1d9b8abcb18e4a0"
+  "output_hash": "1c5b7bc1157e9331226bc79abf3cf40fecdaaaf3920f48f47642f3176f794fa2"
 }

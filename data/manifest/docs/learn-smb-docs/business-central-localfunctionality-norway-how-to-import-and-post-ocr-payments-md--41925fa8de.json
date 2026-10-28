@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Import and post OCR payments [NO]",
+  "title": "Import and Post OCR Payments [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-and-post-ocr-payments",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.065Z",
-      "blob": "d0b49d155e54f203832b53622936ef74873232dc",
-      "words": 236,
+      "at": "2026-10-28T09:05:39.559Z",
+      "blob": "fcae4ba84f71ee45982f0b2930a833fc11d98650",
+      "words": 225,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:24:56.450Z",
+      "at": "2026-10-28T09:05:49.749Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002455
+      "cost_usd": 0.003535
     },
     "summarized": {
-      "at": "2026-10-06T19:24:56.464Z",
+      "at": "2026-10-28T09:05:49.751Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:58.239Z",
+      "at": "2026-10-28T09:05:49.752Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:58.241Z",
+      "at": "2026-10-28T09:05:49.754Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md",
     "description": "Learn how to prepare for and receive optical character recognition (OCR) payments in the Norwegian version of Business Central.",
-    "ms_date": "2025-05-13",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -65,12 +65,12 @@
       "OCR payments",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 236,
+    "ai_usage": "ai-assisted",
+    "words": 225,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "795c9c37fc9de64773b4ec44570a8357ffc2ff6d1fcfb95ddd6324a43186f37d"
+  "output_hash": "045a1c6a5390b90ae44b2931dec2b1183bf1b1a3f1b84067d9854f23cc785b1a"
 }

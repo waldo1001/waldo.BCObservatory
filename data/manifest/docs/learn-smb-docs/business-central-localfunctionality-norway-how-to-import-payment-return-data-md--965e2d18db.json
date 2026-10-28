@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to import payment return data [NO]",
+  "title": "Import Payment Return Data in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-import-payment-return-data",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.070Z",
-      "blob": "4f2703d515c8f8730fa67c7ab938c5cb08a796fc",
-      "words": 306,
+      "at": "2026-10-28T09:05:39.600Z",
+      "blob": "b01f52365958b95247c354d5186e920bbf726378",
+      "words": 311,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:56.451Z",
+      "at": "2026-10-28T09:05:49.737Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.002455
+      "objects": 4,
+      "cost_usd": 0.004053
     },
     "summarized": {
-      "at": "2026-10-06T19:24:58.242Z",
+      "at": "2026-10-28T09:05:49.738Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:58.243Z",
+      "at": "2026-10-28T09:05:49.740Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:58.244Z",
+      "at": "2026-10-28T09:05:49.741Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-import-payment-return-data.md",
-    "description": "Learn how to use the Rem. payment order – import page to import receipt and settlement returns efficiently.",
-    "ms_date": "2025-05-13",
+    "description": "Import Norwegian remittance receipt and settlement return files into an empty payment journal in Business Central, then review settlement warnings.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "import receipt and settlement returns",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 306,
+    "ai_usage": "ai-assisted",
+    "words": 311,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "970d455015cf5302000ab100d1c07fe834ccc2e233867fbe0214582486197830"
+  "output_hash": "66665221b237792ffce93a3c2bf8715ce4f9f744592b90071f2e11f49bab2057"
 }

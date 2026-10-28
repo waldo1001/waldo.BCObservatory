@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Create Recurring Orders [NO]",
+  "title": "Create Recurring Orders in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-recurring-orders",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.041Z",
-      "blob": "5c869583925ff8d176a5292af0f41254644ee137",
-      "words": 144,
+      "at": "2026-10-28T09:05:33.479Z",
+      "blob": "142e50b94a0d4bf5869287f1f629ee75b7363ceb",
+      "words": 158,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:58.273Z",
+      "at": "2026-10-28T09:05:39.513Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002577
+      "cost_usd": 0.003291
     },
     "summarized": {
-      "at": "2026-10-06T19:24:58.345Z",
+      "at": "2026-10-28T09:05:39.515Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:58.347Z",
+      "at": "2026-10-28T09:05:39.517Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:58.348Z",
+      "at": "2026-10-28T09:05:39.518Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-create-recurring-orders.md",
-    "description": "Learn how to create recurring orders by using the options available on the Create Recurring Orders page.",
-    "ms_date": "2025-05-12",
+    "description": "Create sales orders from Norwegian recurring blanket orders in Business Central, using a processing date and the option to create only the latest order.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "create recurring orders",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 144,
+    "ai_usage": "ai-assisted",
+    "words": 158,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ad57c51e05f2fefb58db1ffafc5908431893dba99fa70f22c953795d3aefbffb"
+  "output_hash": "76e4701a33487368dafaa682b8347bcbfc5c68acb301aef9db44011f50eb28c8"
 }

@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/how-to-export-remittance-payments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-export-remittance-payments",
-  "title": "Export remittance payments [NO]",
-  "blob": "53e46bd9237f6378e19567da87296839ab536419",
-  "summary": "Export remittance payments in Norway to a bank file using SEPA or local payment standards like Telepay and BBS, configured through the Bank Account Card.",
+  "title": "Export Remittance Payments in the Norwegian Version [NO]",
+  "blob": "18e12921d6d1dfe4503b243341c28927db2e28ed",
+  "summary": "Export remittance payments in the Norwegian version allows users to export payment files from the Payment Journal using the Remittance export batch jobs to transfer payments to the bank through SEPA or local payment standards like Telepay and BBS.",
   "systems": [
     "purchasing",
     "localization"
@@ -11,17 +11,18 @@
   "topics": [
     "remittance payments",
     "payment export",
-    "sepa",
-    "norway"
+    "norwegian localization",
+    "bank payments",
+    "payment journal"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Payment Journal"
+      "name": "Bank Account Card"
     },
     {
       "type": "page",
-      "name": "Bank Account Card"
+      "name": "Payment Journal"
     },
     {
       "type": "report",
@@ -33,11 +34,11 @@
     }
   ],
   "features": [
-    "payment export",
+    "Export Payments button",
     "SEPA payment standard",
     "Telepay format",
-    "BBS format",
-    "payment file export"
+    "Remittance agreement code",
+    "Payment Export Format"
   ],
   "versions": [],
   "parts": 1,
@@ -46,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002455,
-      "pages_in_call": 8
+      "cost_usd": 0.004431,
+      "pages_in_call": 1
     }
   ]
 }

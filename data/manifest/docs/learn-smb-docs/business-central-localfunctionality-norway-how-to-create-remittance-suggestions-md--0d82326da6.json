@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Create remittance suggestions [NO]",
+  "title": "Create Remittance Suggestions in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-create-remittance-suggestions",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.051Z",
-      "blob": "8508170a1356e19d0d588000154c21380b000afc",
-      "words": 321,
+      "at": "2026-10-28T09:05:33.661Z",
+      "blob": "cf26d67273bcd1d230871be1db95e72f42034cc6",
+      "words": 319,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:24:56.447Z",
+      "at": "2026-10-28T09:05:39.679Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002455
+      "cost_usd": 0.003918
     },
     "summarized": {
-      "at": "2026-10-06T19:24:56.454Z",
+      "at": "2026-10-28T09:05:39.680Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:56.455Z",
+      "at": "2026-10-28T09:05:39.681Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:56.456Z",
+      "at": "2026-10-28T09:05:39.682Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-create-remittance-suggestions.md",
     "description": "Learn how to create a remittance suggestion to ensure that payment proposals are sent to vendors configured to receive remittance payments.",
-    "ms_date": "2025-05-13",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -86,12 +86,12 @@
       "remittance payments",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 321,
+    "ai_usage": "ai-assisted",
+    "words": 319,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "29d2387a6baf01755aff30b4eaba22e43cd62f7426a7d64028c31ec150971937"
+  "output_hash": "66b4b2a791f1fcfe34aecda15c197f1b6e801e7d59d6ac52aebc8601d64ba86a"
 }

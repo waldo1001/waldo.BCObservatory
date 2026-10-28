@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Delete remittance payment orders [NO]",
+  "title": "Delete Remittance Payment Orders in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-delete-remittance-payment-orders",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.055Z",
-      "blob": "44c67f682c9733094121a8428e25015e511c20b6",
-      "words": 178,
+      "at": "2026-10-28T09:05:33.611Z",
+      "blob": "09ec675876e7289bb7ef99204fc4d2376ad64f98",
+      "words": 167,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:24:56.448Z",
+      "at": "2026-10-28T09:05:39.527Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002455
+      "objects": 2,
+      "cost_usd": 0.003315
     },
     "summarized": {
-      "at": "2026-10-06T19:24:56.457Z",
+      "at": "2026-10-28T09:05:39.529Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:56.458Z",
+      "at": "2026-10-28T09:05:39.530Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:56.459Z",
+      "at": "2026-10-28T09:05:39.531Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-delete-remittance-payment-orders.md",
-    "description": "Remittance payment orders can be deleted if they're managed in full and belong to a closed financial year.",
-    "ms_date": "2025-05-13",
+    "description": "Delete fully handled Norwegian remittance payment orders from closed financial periods in Business Central, using a start date and an end date.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -84,12 +84,12 @@
       "delete remittance payment order",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 178,
+    "ai_usage": "ai-assisted",
+    "words": 167,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6d16bc30c5d3d0771c510b74768bd33524cfa7b0f63e210e3e2da189836cd2cd"
+  "output_hash": "d3d3bacaede628c7c48cf9f24c44aac75e180359949ef52f9929aaeaf7746265"
 }

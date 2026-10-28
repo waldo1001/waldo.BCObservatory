@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Print a VAT reconciliation report [NO]",
+  "title": "Print a VAT Reconciliation Report in the Norwegian Version [NO]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/how-to-print-a-vat-reconciliation-report",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.079Z",
-      "blob": "24ef4286021e3b8fe4ea2e3d1e5c920abd982081",
-      "words": 149,
+      "at": "2026-10-28T09:05:40.652Z",
+      "blob": "f0b893fb478d38499c6e3d19a007ecaaf5b6c5ef",
+      "words": 138,
       "forms": 9
     },
     "extracted": {
-      "at": "2026-10-06T19:24:56.453Z",
+      "at": "2026-10-28T09:05:49.765Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002455
+      "cost_usd": 0.003073
     },
     "summarized": {
-      "at": "2026-10-06T19:24:58.248Z",
+      "at": "2026-10-28T09:05:49.767Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:58.248Z",
+      "at": "2026-10-28T09:05:49.768Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:58.249Z",
+      "at": "2026-10-28T09:05:49.776Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Norway/how-to-print-a-vat-reconciliation-report.md",
     "description": "Learn to print the VAT Reconciliation report to view the reconciliation settlement for base and VAT amounts in general ledger accounts.",
-    "ms_date": "2025-05-13",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -99,12 +99,12 @@
       "reconciliation settlement",
       "Norwegian version"
     ],
-    "ai_usage": null,
-    "words": 149,
+    "ai_usage": "ai-assisted",
+    "words": 138,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "56382f0d283ef9350c386cc97987bae9b61cfdf2485648a49557edfc1d407581"
+  "output_hash": "c96b2586e8d1c69c28c87b9f95300915cf3e1f20263665a524e0030582128d85"
 }
