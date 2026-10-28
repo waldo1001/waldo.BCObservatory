@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "TDS calculation considering Threshold limits",
+  "title": "TDS with Threshold",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Threshold",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.161Z",
-      "blob": "8597f5f4f1fe6ad591478105eed2ac91c9967dda",
-      "words": 319,
+      "at": "2026-10-28T09:11:23.000Z",
+      "blob": "89bfcaa96f4ef9a0ee25e0456446645556ebd441",
+      "words": 322,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:35.015Z",
+      "at": "2026-10-28T09:11:29.337Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.005722
+      "objects": 1,
+      "cost_usd": 0.0036
     },
     "summarized": {
-      "at": "2026-10-06T19:17:46.867Z",
+      "at": "2026-10-28T09:11:29.339Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:46.868Z",
+      "at": "2026-10-28T09:11:29.341Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:46.869Z",
+      "at": "2026-10-28T09:11:29.342Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TDS-Threshold.md",
-    "description": "Explains how TDS is calculated when threshold limits are applied, including examples and GL entries.",
-    "ms_date": "2025-06-30",
+    "description": "Review TDS calculations with configured threshold limits, including illustrative calculations and general ledger entries in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "English",
       "TDS threshold"
     ],
-    "ai_usage": null,
-    "words": 319,
+    "ai_usage": "ai-assisted",
+    "words": 322,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4b0005d4dc8e6ec4b9d48acfaa6aeb3b8e86f60aa99d0876d41e12a969258208"
+  "output_hash": "5a2198a862def4fba2ee8bf43848510fa170efdf1285819fa021e119c05d6d8a"
 }

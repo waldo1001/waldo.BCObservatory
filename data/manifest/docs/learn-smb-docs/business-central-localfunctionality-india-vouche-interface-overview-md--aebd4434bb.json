@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Overview on Voucher Interface",
+  "title": "Overview of Voucher Interface",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Vouche-Interface-Overview",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.082Z",
-      "blob": "2df5dddb380bfa3d008647b924aee567f5d34db5",
-      "words": 1042,
+      "at": "2026-10-28T09:11:22.963Z",
+      "blob": "50da9a800f2871715f14ba754eb936daa947eb37",
+      "words": 1063,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:01.201Z",
+      "at": "2026-10-28T09:11:30.054Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.003704
+      "cost_usd": 0.005364
     },
     "summarized": {
-      "at": "2026-10-06T19:17:08.495Z",
+      "at": "2026-10-28T09:11:30.056Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:08.496Z",
+      "at": "2026-10-28T09:11:30.058Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:08.497Z",
+      "at": "2026-10-28T09:11:30.060Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/Vouche-Interface-Overview.md",
-    "description": "Provides an overview of the Voucher Interface feature for Indian localization in Business Central.",
-    "ms_date": "2025-06-30",
+    "description": "Set up journal templates, batches, voucher directions, and permitted accounts for cash and bank transactions in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "English",
       "voucher interface"
     ],
-    "ai_usage": null,
-    "words": 1042,
+    "ai_usage": "ai-assisted",
+    "words": 1063,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2c0550fbb61fc63201b160e8e98e04531e0390a1388b598df62657981416c2ed"
+  "output_hash": "c13cc12312598317a0745c80f024fc8ed403b244292012ed8d4cae932543e372"
 }

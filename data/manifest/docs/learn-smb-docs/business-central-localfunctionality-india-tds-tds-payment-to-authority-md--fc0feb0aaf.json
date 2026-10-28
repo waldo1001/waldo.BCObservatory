@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-TDS-Payment-to-Authority",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.156Z",
-      "blob": "c8376e20f7870cc1558275a854bed7c94960e245",
-      "words": 155,
+      "at": "2026-10-28T09:11:22.927Z",
+      "blob": "9c405adb29564265d78311fc919a9ba272bd7967",
+      "words": 162,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:35.014Z",
+      "at": "2026-10-28T09:11:28.778Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.005722
+      "cost_usd": 0.003208
     },
     "summarized": {
-      "at": "2026-10-06T19:17:36.864Z",
+      "at": "2026-10-28T09:11:28.780Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:36.865Z",
+      "at": "2026-10-28T09:11:28.781Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:36.866Z",
+      "at": "2026-10-28T09:11:28.782Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md",
-    "description": "Learn how to pay Tax Deducted at Source (TDS) to government authorities in Business Central.",
-    "ms_date": "2025-06-30",
+    "description": "Select Tax Deducted at Source entries for payment to government authorities and review the payment workflow in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "English",
       "TDS payment"
     ],
-    "ai_usage": null,
-    "words": 155,
+    "ai_usage": "ai-assisted",
+    "words": 162,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5f36f97a674c488159713f259d8f9dbf493591faafb071364b3316922fc0f65f"
+  "output_hash": "2f80e5490cdd607e07ad01d441b0aefd5a33b1084849fb142eb939541af35d5b"
 }

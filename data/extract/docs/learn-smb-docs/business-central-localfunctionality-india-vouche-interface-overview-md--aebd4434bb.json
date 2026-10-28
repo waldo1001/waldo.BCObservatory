@@ -1,41 +1,44 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/Vouche-Interface-Overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Vouche-Interface-Overview",
-  "title": "Overview on Voucher Interface",
-  "blob": "2df5dddb380bfa3d008647b924aee567f5d34db5",
-  "summary": "Voucher interface feature for India enables day-to-day transaction recording across journal, bank receipt, bank payment, cash receipt, cash payment, and contra vouchers with configurable journal templates and batches.",
+  "title": "Overview of Voucher Interface",
+  "blob": "50da9a800f2871715f14ba754eb936daa947eb37",
+  "summary": "Voucher Interface Feature for Indian localization provides structured journal entry recording with six voucher types (Journal, Bank Receipt, Bank Payment, Cash Receipt, Cash Payment, and Contra) that route transactions based on account type and direction. Configure via General Journal Templates, Batches, and Voucher Setup at company and location levels.",
   "systems": [
-    "finance",
-    "localization"
+    "localization",
+    "finance"
   ],
   "topics": [
-    "voucher",
-    "journal",
-    "cash management",
-    "bank management",
-    "india"
+    "voucher interface",
+    "indian localization",
+    "general journal",
+    "transaction recording",
+    "account validation",
+    "posting setup"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "General Journal Template"
+      "name": "General Journal Templates"
     },
     {
       "type": "page",
-      "name": "General Journal Batch"
+      "name": "Company Information"
     },
     {
       "type": "page",
-      "name": "General Voucher Setup"
+      "name": "Locations"
     }
   ],
   "features": [
-    "Journal voucher",
-    "Bank receipt voucher",
-    "Bank payment voucher",
-    "Cash receipt voucher",
-    "Cash payment voucher",
-    "Contra voucher"
+    "Journal Voucher",
+    "Bank Receipt Voucher",
+    "Bank Payment Voucher",
+    "Cash Receipt Voucher",
+    "Cash Payment Voucher",
+    "Contra Voucher",
+    "Transaction Direction validation",
+    "Voucher Setup configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003704,
-      "pages_in_call": 8
+      "cost_usd": 0.005364,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,19 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TDS-Transactions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Transactions",
-  "title": "TDS calculation on Purchase and Payment Transactions",
-  "blob": "f8abaa7161de93b366d28f2a4f9b81b01364e7c4",
-  "summary": "TDS calculation on Purchase and Payment Transactions explains TDS deduction on expenses for various document types including purchase orders, invoices, journals, with rules for mandatory fields, special rates for non-residents, concessional rates, and partial expense subject to TDS.",
+  "title": "TDS Calculation on Purchase and Payment Transactions",
+  "blob": "a8a6a3aee3eb42b699d8f5b0d6b69f53c7368813",
+  "summary": "TDS (Tax Deducted at Source) calculation on purchase orders, invoices, and payment transactions in India localization, including scenarios for vendor invoices, advance payments, foreign currency, missing PAN, concessional rates, and multiple expenses.",
   "systems": [
-    "finance",
-    "purchasing"
+    "purchasing",
+    "localization",
+    "finance"
   ],
   "topics": [
     "tds calculation",
-    "purchase transactions",
-    "payment transactions",
     "tax deduction",
-    "india localization"
+    "india",
+    "purchase transactions",
+    "vendor payments",
+    "expense accounts"
   ],
   "objects": [
     {
@@ -34,13 +36,14 @@
     }
   ],
   "features": [
-    "TDS section selection",
-    "non-resident vendor TDS",
-    "concessional rate handling",
-    "higher rate for missing PAN",
-    "partial expense TDS",
-    "multiple expenses per invoice",
-    "foreign currency conversion"
+    "TDS deduction on expenses",
+    "TDS Section configuration",
+    "Location Code and T.A.N No. validation",
+    "Advance payment TDS calculation",
+    "Foreign currency exchange rate handling",
+    "PAN-based higher rate TDS",
+    "Partial TDS applicability",
+    "Concessional rate certificates"
   ],
   "versions": [],
   "parts": 1,
@@ -49,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005722,
-      "pages_in_call": 8
+      "cost_usd": 0.0059,
+      "pages_in_call": 1
     }
   ]
 }

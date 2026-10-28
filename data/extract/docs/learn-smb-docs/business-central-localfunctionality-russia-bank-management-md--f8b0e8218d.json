@@ -2,25 +2,59 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/bank-management.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/bank-management",
   "title": "Bank management in Russia",
-  "blob": "72b3d5dadfff0752cee5247fcda86148e9723f12",
-  "summary": "Bank management in Russia describes creating bank directory structures, budget classification codes, bank account details records, and printing bank-related documents for Russian operations.",
+  "blob": "1510ac08a711c04613888f6965f52420c24e965d",
+  "summary": "Bank management in Russia allows creating bank directory structures, budget classification codes, bank account details, and printing/posting bank payment orders, cash orders, and related documents.",
   "systems": [
     "finance",
-    "integration"
+    "localization",
+    "administration"
   ],
   "topics": [
     "bank management",
-    "russia localization",
-    "bank accounts",
-    "reference data"
+    "russia",
+    "bank directories",
+    "budget classification",
+    "bank account details",
+    "payment orders",
+    "cash orders"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Customer Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Details"
+    },
+    {
+      "type": "report",
+      "name": "Bank Payment Order"
+    },
+    {
+      "type": "report",
+      "name": "Bank Account G/L Turnover"
+    },
+    {
+      "type": "report",
+      "name": "Bank Account Card"
+    }
+  ],
   "features": [
     "bank directory structures",
     "budget classification codes",
     "bank account details",
     "bank payment orders",
-    "bank documents"
+    "cash orders",
+    "payment journal"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +63,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003478,
-      "pages_in_call": 8
+      "cost_usd": 0.004009,
+      "pages_in_call": 1
     }
   ]
 }

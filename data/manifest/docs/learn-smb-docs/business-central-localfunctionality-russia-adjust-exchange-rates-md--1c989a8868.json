@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Adjust-Exchange-Rates",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.833Z",
-      "blob": "d83be43c54fdc0e9addf1738cfe9ddb839067e3d",
+      "at": "2026-10-28T09:11:29.398Z",
+      "blob": "131879d074dafd9fdb5721b56c6abc1d259144ce",
       "words": 253,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:15:50.175Z",
+      "at": "2026-10-28T09:11:38.567Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.005235
+      "objects": 1,
+      "cost_usd": 0.003534
     },
     "summarized": {
-      "at": "2026-10-06T19:15:51.974Z",
+      "at": "2026-10-28T09:11:38.568Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:15:51.975Z",
+      "at": "2026-10-28T09:11:38.570Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:15:51.976Z",
+      "at": "2026-10-28T09:11:38.571Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/Adjust-Exchange-Rates.md",
     "description": "Russian localization adds detailed exchange rate adjustment features for vendors and customers.",
-    "ms_date": "2025-07-11",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "exchange rate adjustment",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 253,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f101ba1a2a31f2c98271ac928efd6ef8238148617820d366972d2284dcb7df10"
+  "output_hash": "bb8d5c3895b12b954290fcde00ec9066285ca1e23f0b2ff604937e46eb4000e8"
 }

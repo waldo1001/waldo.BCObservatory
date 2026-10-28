@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/account-schedules-overview",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.829Z",
-      "blob": "1c1bf5db5a2e27fcc71221c3e12cdad962261a05",
+      "at": "2026-10-28T09:11:29.070Z",
+      "blob": "10b72698cb325270bb6c5e610db77394ab9e9f2b",
       "words": 152,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:15:50.174Z",
+      "at": "2026-10-28T09:11:33.530Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.005235
+      "objects": 1,
+      "cost_usd": 0.002893
     },
     "summarized": {
-      "at": "2026-10-06T19:15:51.971Z",
+      "at": "2026-10-28T09:11:33.532Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:15:51.972Z",
+      "at": "2026-10-28T09:11:33.533Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:15:51.973Z",
+      "at": "2026-10-28T09:11:38.524Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/account-schedules-overview.md",
     "description": "Learn about enhanced financial reporting features and customization options available for Russia in Business Central.",
-    "ms_date": "2025-07-11",
+    "ms_date": "2026-10-23",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
       "financial reports",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 152,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "35f4ebef14474c4f89dc78122eef05e127f935108964eee2ff3c7018da1f0515"
+  "output_hash": "aa4b70e40e2d525ac5db287376658523fde7ea2b09c88167d268da0ec01b8f7a"
 }

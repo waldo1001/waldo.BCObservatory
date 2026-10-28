@@ -2,26 +2,33 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/account-schedules-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/account-schedules-overview",
   "title": "Financial Reports Overview in Russia",
-  "blob": "1c1bf5db5a2e27fcc71221c3e12cdad962261a05",
-  "summary": "Financial Reports Overview in Russia explains how to create customized financial reports with user-defined rows and columns for statutory reporting using the Financial Reports page.",
+  "blob": "10b72698cb325270bb6c5e610db77394ab9e9f2b",
+  "summary": "Financial reports are customizable tools for creating statutory reports in Business Central Russia, allowing users to define rows, columns, and data comparisons without a report designer.",
   "systems": [
     "finance",
+    "localization",
     "reporting"
   ],
   "topics": [
     "financial reports",
-    "russia localization",
     "account schedules",
-    "reporting"
+    "russia",
+    "general ledger",
+    "statutory reporting",
+    "custom financial statements"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Financial Reports"
+    }
+  ],
   "features": [
-    "Financial Reports page",
-    "Column layout",
-    "General ledger correspondence",
-    "Constants",
-    "Extensions",
-    "Expressions"
+    "general ledger correspondence",
+    "constants",
+    "extensions",
+    "expressions",
+    "predefined column layouts"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005235,
-      "pages_in_call": 8
+      "cost_usd": 0.002893,
+      "pages_in_call": 1
     }
   ]
 }

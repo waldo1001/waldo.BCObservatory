@@ -2,18 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-TDS-Payment-to-Authority",
   "title": "Payment of TDS to Government Authorities",
-  "blob": "c8376e20f7870cc1558275a854bed7c94960e245",
-  "summary": "Payment of TDS to Government Authorities explains how to deposit Tax Deducted at Source that has been deducted on transactions to government using Payment Journal or General Journal, with provisions to select TDS entries based on filters like TAN and assessee.",
+  "blob": "9c405adb29564265d78311fc919a9ba272bd7967",
+  "summary": "Payment of TDS to Government Authorities explains how to record payments of deducted TDS using Payment Journal or Bank Payment Voucher, including filtering unpaid TDS entries and posting journal entries to mark them as paid.",
   "systems": [
     "finance",
-    "purchasing"
+    "localization"
   ],
   "topics": [
-    "tds payment",
-    "tax deduction",
-    "india localization",
+    "tds",
     "payment journal",
-    "government authorities"
+    "bank payment voucher",
+    "tax deduction at source",
+    "india"
   ],
   "objects": [
     {
@@ -26,14 +26,15 @@
     },
     {
       "type": "page",
-      "name": "General Journal"
+      "name": "Pay TDS"
     }
   ],
   "features": [
-    "TDS payment marking",
-    "TDS entry filtering",
-    "TAN selection",
-    "GL entry posting"
+    "TDS payment processing",
+    "TDS payable account",
+    "T.A.N. number",
+    "entry filtering",
+    "journal posting"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005722,
-      "pages_in_call": 8
+      "cost_usd": 0.003208,
+      "pages_in_call": 1
     }
   ]
 }

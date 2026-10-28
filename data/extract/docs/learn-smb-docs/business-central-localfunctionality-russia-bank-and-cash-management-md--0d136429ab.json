@@ -2,23 +2,25 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/bank-and-cash-management.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/bank-and-cash-management",
   "title": "Bank and cash management in Russia",
-  "blob": "22ad599fdb97eb54100ad8ec3ef5ebb6e6c7c56f",
-  "summary": "Bank and cash management in Russia provides an overview of Russian-specific functionality for bank management, petty cash management, bank payment orders, and cash account reporting.",
+  "blob": "77d8462d1acf5f33807fbafe710e2aafb3738863",
+  "summary": "Russian bank and cash management functionality covers bank payment orders, petty cash management, cash account cards, and regulatory reports CO-3 and CO-4.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
+    "russia",
     "bank management",
     "cash management",
-    "russia localization",
-    "petty cash"
+    "petty cash",
+    "payment orders",
+    "regulatory reporting"
   ],
   "objects": [],
   "features": [
     "Bank Management",
     "Petty Cash Management",
-    "Bank Payment Order",
+    "Bank Payment Orders",
     "Cash Account Cards",
     "Cash Report CO-4",
     "Cash Order Journal CO-3"
@@ -30,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005235,
-      "pages_in_call": 8
+      "cost_usd": 0.002775,
+      "pages_in_call": 1
     }
   ]
 }

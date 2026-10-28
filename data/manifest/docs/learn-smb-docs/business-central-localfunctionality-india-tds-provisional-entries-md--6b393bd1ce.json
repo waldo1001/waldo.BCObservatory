@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Provisional-Entries",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.151Z",
-      "blob": "9f69fa306de39bce4ac82bb837c56562c06af0cd",
-      "words": 541,
+      "at": "2026-10-28T09:11:22.947Z",
+      "blob": "e6ec052759ca8536839a85b7f4580e7856011071",
+      "words": 566,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:23.253Z",
+      "at": "2026-10-28T09:11:29.015Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.003451
+      "objects": 1,
+      "cost_usd": 0.004153
     },
     "summarized": {
-      "at": "2026-10-06T19:17:26.576Z",
+      "at": "2026-10-28T09:11:29.017Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:26.577Z",
+      "at": "2026-10-28T09:11:29.019Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:26.578Z",
+      "at": "2026-10-28T09:11:29.020Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TDS-Provisional-Entries.md",
-    "description": "Learn how TDS is applied to provisional entries in Business Central India.",
-    "ms_date": "2025-06-30",
+    "description": "Record provisional TDS entries and review the related transaction fields, processing steps, and accounting examples in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "English",
       "provisional entries"
     ],
-    "ai_usage": null,
-    "words": 541,
+    "ai_usage": "ai-assisted",
+    "words": 566,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "33bb28ae7bb380894d184c7fa03a0a50e1ef4c968954c3312a30a4bba29a4fcd"
+  "output_hash": "e29047438b2704a220743c23315514095df82315d053ee7aa14762aa62223173"
 }

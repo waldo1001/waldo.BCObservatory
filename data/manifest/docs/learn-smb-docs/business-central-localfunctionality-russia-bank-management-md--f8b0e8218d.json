@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/bank-management",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.409Z",
-      "blob": "72b3d5dadfff0752cee5247fcda86148e9723f12",
+      "at": "2026-10-28T09:11:30.818Z",
+      "blob": "1510ac08a711c04613888f6965f52420c24e965d",
       "words": 297,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:14.549Z",
+      "at": "2026-10-28T09:11:38.551Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003478
+      "objects": 7,
+      "cost_usd": 0.004009
     },
     "summarized": {
-      "at": "2026-10-06T19:13:20.122Z",
+      "at": "2026-10-28T09:11:38.553Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:20.123Z",
+      "at": "2026-10-28T09:11:38.555Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:22.022Z",
+      "at": "2026-10-28T09:11:38.557Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/bank-management.md",
     "description": "Bank management features for Russia, including bank directories, budget classifications, and document processing.",
-    "ms_date": "2025-07-11",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "bank account details",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 297,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0397be8eb1ca191bf80cb91cc8e09ab414e35600f0a4bd330ea5ab5597abcc07"
+  "output_hash": "9dd8bc3d293c86f764414353432979486d225b52c9d90713eef6c35034dc8885"
 }

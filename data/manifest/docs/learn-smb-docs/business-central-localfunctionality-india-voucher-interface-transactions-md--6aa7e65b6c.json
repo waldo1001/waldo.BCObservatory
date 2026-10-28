@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Transaction on Voucher Interface",
+  "title": "Voucher Transaction",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Voucher-Interface-Transactions",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.294Z",
-      "blob": "c3f70983790c3925d6d163d82c18177132ee703c",
-      "words": 730,
+      "at": "2026-10-28T09:11:28.831Z",
+      "blob": "4e4a8a2d2f05e4cbea7ab3fc497b4eb1b17cbc2c",
+      "words": 801,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:10.645Z",
+      "at": "2026-10-28T09:11:38.534Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003796
+      "cost_usd": 0.00454
     },
     "summarized": {
-      "at": "2026-10-06T19:13:12.567Z",
+      "at": "2026-10-28T09:11:38.535Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:12.568Z",
+      "at": "2026-10-28T09:11:38.538Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:12.569Z",
+      "at": "2026-10-28T09:11:38.539Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/Voucher-Interface-Transactions.md",
-    "description": "Learn how to record day-to-day transactions using the voucher interface in Business Central for India.",
-    "ms_date": "2025-06-30",
+    "description": "Record cash, bank, contra, and journal voucher transactions, review posting examples, and print posted vouchers in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "English",
       "voucher transaction"
     ],
-    "ai_usage": null,
-    "words": 730,
+    "ai_usage": "ai-assisted",
+    "words": 801,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b59552d1ac48c7d04b9c14b0c9acbf82a82254d86e3f9cb6c47e2616e8c6c192"
+  "output_hash": "2343b33ca885e6466b401da5b1cf2f5c3cc6da1e4d69a6e2c0e0b4b85cf8d480"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "TDS calculation on Purchase and Payment Transactions",
+  "title": "TDS Calculation on Purchase and Payment Transactions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Transactions",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.166Z",
-      "blob": "f8abaa7161de93b366d28f2a4f9b81b01364e7c4",
-      "words": 981,
+      "at": "2026-10-28T09:11:22.979Z",
+      "blob": "a8a6a3aee3eb42b699d8f5b0d6b69f53c7368813",
+      "words": 1003,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:35.016Z",
+      "at": "2026-10-28T09:11:30.761Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.005722
+      "cost_usd": 0.0059
     },
     "summarized": {
-      "at": "2026-10-06T19:17:46.870Z",
+      "at": "2026-10-28T09:11:30.763Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:46.871Z",
+      "at": "2026-10-28T09:11:30.765Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:46.872Z",
+      "at": "2026-10-28T09:11:30.766Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TDS-Transactions.md",
-    "description": "Learn how TDS is calculated on purchase and payment transactions in Business Central for India.",
-    "ms_date": "2025-06-30",
+    "description": "Calculate TDS on purchase and payment transactions, and review the documented workflows and illustrative entries in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "purchase transactions",
       "payment transactions"
     ],
-    "ai_usage": null,
-    "words": 981,
+    "ai_usage": "ai-assisted",
+    "words": 1003,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "92dcb616e6f84246c620d6c6b017f4985c0aab62241849c04bdb74c6a3afe0ca"
+  "output_hash": "f41305e8ecefdb1379fb5c4c8ccd02ab3cec7cfa80e4783550214c229d885cb7"
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/bank-and-cash-management",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.838Z",
-      "blob": "22ad599fdb97eb54100ad8ec3ef5ebb6e6c7c56f",
+      "at": "2026-10-28T09:11:30.184Z",
+      "blob": "77d8462d1acf5f33807fbafe710e2aafb3738863",
       "words": 48,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:15:50.175Z",
+      "at": "2026-10-28T09:11:38.584Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005235
+      "cost_usd": 0.002775
     },
     "summarized": {
-      "at": "2026-10-06T19:15:51.977Z",
+      "at": "2026-10-28T09:11:38.586Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:15:51.978Z",
+      "at": "2026-10-28T09:11:38.587Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:15:51.978Z",
+      "at": "2026-10-28T09:11:38.588Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/bank-and-cash-management.md",
     "description": "Advanced features for managing bank accounts and cash operations in Russia.",
-    "ms_date": "2025-07-11",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "cash management",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 48,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "43450b4b46334fe7a0b85643801fa5a2d703a68559d935ddf372afeb4f05ac70"
+  "output_hash": "138d68a6a79a7f257dad87ff6bc982ab370674ebd9dfa88f46bc75b15272d39d"
 }

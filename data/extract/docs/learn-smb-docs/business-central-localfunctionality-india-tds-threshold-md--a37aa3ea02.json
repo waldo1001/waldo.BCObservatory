@@ -1,26 +1,34 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TDS-Threshold.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Threshold",
-  "title": "TDS calculation considering Threshold limits",
-  "blob": "8597f5f4f1fe6ad591478105eed2ac91c9967dda",
-  "summary": "TDS calculation considering Threshold limits documents how Tax Deducted at Source is calculated only when transaction amounts exceed specified thresholds, with different threshold limits for aggregate and single transaction amounts in a financial year.",
+  "title": "TDS with Threshold",
+  "blob": "89bfcaa96f4ef9a0ee25e0456446645556ebd441",
+  "summary": "TDS with Threshold explains how Tax Deducted at Source is calculated when transactions meet or exceed defined threshold amounts, including single-transaction and aggregate thresholds with settings like Threshold Overlook and Calc. Over & Above Threshold.",
   "systems": [
     "finance",
-    "purchasing"
+    "localization"
   ],
   "topics": [
-    "tds threshold",
-    "tds calculation",
-    "tax deduction",
-    "india localization",
-    "threshold limits"
+    "tds",
+    "threshold",
+    "tax deducted at source",
+    "india",
+    "tax calculation",
+    "vendor"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Allowed Sections"
+    }
+  ],
   "features": [
-    "threshold limit enforcement",
-    "aggregate amount calculation",
-    "single transaction threshold",
-    "tds deduction rules"
+    "Threshold Overlook",
+    "Calc. Over & Above Threshold",
+    "Single-transaction threshold",
+    "Aggregate threshold",
+    "TDS rate configuration",
+    "Tax accounting period"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005722,
-      "pages_in_call": 8
+      "cost_usd": 0.0036,
+      "pages_in_call": 1
     }
   ]
 }
