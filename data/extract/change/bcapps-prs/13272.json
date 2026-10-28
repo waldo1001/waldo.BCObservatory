@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13272",
+  "number": 13272,
+  "title": "Keep historical FX balances when unapplying payments",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The exchange rate revaluation date is now aligned with the entry's latest adjustment when unapplying backdated payments, preventing unrealized FX amounts from shifting between periods.",
+  "key_points": [
+    "Fixes FX balance movement when unapplying backdated payments",
+    "Aligns revaluation date with latest exchange-rate adjustment",
+    "Covers vendors, customers and employees in W1 and RU",
+    "Prevents month-end balance distortion from period shifts",
+    "Includes regression tests for multiple scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Unapplying a backdated payment could move unrealized FX amounts between periods, changing month-end balances.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002443,
+    "changes_in_call": 3
+  }
+}

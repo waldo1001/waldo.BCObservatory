@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=a3j6JjyWDv0",
   "published_at": "2026-10-27T18:09:15.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-28T00:16:46.912Z"
@@ -16,6 +16,15 @@
       "at": "2026-10-28T00:17:21.766Z",
       "captions": "auto:en-orig",
       "duration_s": 3597
+    },
+    "captioned": {
+      "at": "2026-10-28T08:48:03.167Z",
+      "path": "vault:captions/community/yt-areopa/a3j6JjyWDv0.vtt",
+      "vtt_sha256": "e55d3344aba6f252720c628e6143a0c84a82c7174ee37e08a98bee558b63f42b",
+      "segments": 295,
+      "words": 8131,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -30,5 +39,6 @@
     }
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "e55d3344aba6f252720c628e6143a0c84a82c7174ee37e08a98bee558b63f42b"
 }

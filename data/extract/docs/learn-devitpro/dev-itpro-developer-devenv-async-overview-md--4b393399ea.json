@@ -1,28 +1,29 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-async-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview",
-  "title": "Async processing Overview",
-  "blob": "48a6276fa6887ed6e4284142b0fa178f3b8a2993",
-  "summary": "Asynchronous processing overview covers operational limits for background sessions, child sessions, and scheduled tasks in Business Central Online and on-premises environments.",
+  "title": "Async Processing Overview for Business Central",
+  "blob": "00891d0a905b3243fab05fbd97af7c7cb661fbc6",
+  "summary": "Asynchronous processing overview documents operational limits and configuration options for async tasks, job queues, page background tasks, and scheduled tasks in Business Central online and on-premises.",
   "systems": [
-    "platform",
-    "administration",
-    "development"
+    "development",
+    "platform"
   ],
   "topics": [
-    "async processing",
-    "background sessions",
+    "asynchronous processing",
     "job queue",
+    "page background tasks",
     "task scheduler",
     "operational limits",
     "performance"
   ],
   "objects": [],
   "features": [
-    "job queue",
-    "page background tasks",
-    "task scheduler",
-    "operational limits"
+    "asynchronous operations",
+    "child session concurrency",
+    "background session concurrency",
+    "page background task timeouts",
+    "scheduled task concurrency",
+    "queue limits"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003414,
-      "pages_in_call": 8
+      "cost_usd": 0.00409,
+      "pages_in_call": 3
     }
   ]
 }

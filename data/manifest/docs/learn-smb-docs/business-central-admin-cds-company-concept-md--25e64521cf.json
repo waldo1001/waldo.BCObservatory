@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-cds-company-concept",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:47.887Z",
+      "at": "2026-10-28T08:48:04.392Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004432
+      "cost_usd": 0.00409
     },
     "summarized": {
-      "at": "2026-10-06T19:17:49.568Z",
+      "at": "2026-10-28T08:48:04.400Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:49.569Z",
+      "at": "2026-10-28T08:48:04.401Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:49.570Z",
+      "at": "2026-10-28T08:48:04.403Z",
       "page": false
     }
   },
@@ -61,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ad63f5644639ff0d4f0437c89d8831ce691e7939"
+  "output_hash": "d066ff404c2024a3c54fc57757aaa34fb611d88c4cbb230b731eb756634bd00c"
 }

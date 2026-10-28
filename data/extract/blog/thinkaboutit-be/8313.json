@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/thinkaboutit-be/8313",
+  "url": "https://thinkaboutit.be/2026/10/business-central-29-manage-per-tenant-extensions-from-the-admin-center/",
+  "title": "Business Central 29: Manage Per-Tenant Extensions from the Admin Center",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-10-27T08:00:03.000Z",
+  "words": 1125,
+  "summary": "Business Central 29 moves Per-Tenant Extension (PTE) management to the Admin Center, allowing administrators to upload, install, update, schedule, and monitor PTE deployments centrally. The existing Extension Management experience will be deprecated starting with Business Central 30 in April 2027.",
+  "key_points": [
+    "PTEs can now be deployed through the Admin Center with scheduling options: immediate, next update window, next minor update, or next major update.",
+    "PTE updates can be coordinated with Business Central environment updates, allowing multiple version schedules simultaneously for the same extension.",
+    "Admin Center APIs expose PTE deployment operations, enabling automation; S2S applications no longer require in-environment registration for PTE uploads.",
+    "Extension Management in Business Central and the Automation API will be deprecated with Business Central 30.0; simultaneous use of both experiences can hide pending deployments."
+  ],
+  "systems": [
+    "administration",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "per-tenant extensions",
+    "pte management",
+    "admin center",
+    "deployment",
+    "lifecycle management",
+    "deprecation"
+  ],
+  "objects": [],
+  "features": [
+    "PTE upload and installation",
+    "PTE deployment scheduling",
+    "environment update coordination",
+    "deployment monitoring",
+    "scheduled deployment cancellation",
+    "Admin Center APIs for PTE management",
+    "Microsoft app hotfix installation",
+    "development extension lifecycle"
+  ],
+  "versions": [
+    "Business Central 29",
+    "Business Central 30"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A scheduled PTE deployment is only visible in the experience where it was scheduled until the deployment completes.",
+      "why_it_matters": "Explains why simultaneous use of old and new deployment experiences can create incomplete visibility of pending operations."
+    },
+    {
+      "text": "With Business Central 30.0 scheduled for April 2027, it's worth planning the transition now.",
+      "why_it_matters": "Provides a clear timeline for partners to migrate PTE deployment processes away from deprecated experiences."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006729,
+    "posts_in_call": 4
+  }
+}

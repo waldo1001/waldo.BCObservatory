@@ -1,0 +1,45 @@
+{
+  "id": "blog/yzhums-com/76990",
+  "pillar": "blog",
+  "source": "yzhums-com",
+  "tier": "community",
+  "title": "Dynamics 365 Business Central: An error occurred when communicating with Dataverse (User does not have required privileges to access the org when it is in Admin Only mode)",
+  "url": "https://yzhums.com/76990/",
+  "published_at": "2026-10-28T00:45:20.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-28T08:47:18.430Z"
+    },
+    "fetched": {
+      "at": "2026-10-28T08:48:10.146Z",
+      "path": "vault:posts/yzhums-com/76990.md",
+      "words": 626
+    },
+    "extracted": {
+      "at": "2026-10-28T08:48:25.891Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.00329
+    },
+    "summarized": {
+      "at": "2026-10-28T08:48:25.896Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-28T08:48:32.904Z"
+    },
+    "published": {
+      "at": "2026-10-28T08:48:32.917Z",
+      "path": "content/posts/yzhums-com/76990.md"
+    }
+  },
+  "input_hash": "2026-10-28T00:45:22.000Z",
+  "attempts": 0,
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a6475865e86a45a2217479caa290bbfa7f53c442eb357d0880d01bbdeb570f89"
+}

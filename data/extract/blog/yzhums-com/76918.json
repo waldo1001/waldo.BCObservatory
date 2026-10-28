@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/yzhums-com/76918",
+  "url": "https://yzhums.com/76918/",
+  "title": "Dynamics 365 Business Central: The AL Table Proxy Generator is distributed in the Microsoft.Dynamics.BusinessCentral.Development.Tools.Altpgen NuGet package (altpgen.exe missing from AL Language extension)",
+  "source": "yzhums-com",
+  "published_at": "2026-10-26T23:53:08.000Z",
+  "words": 750,
+  "summary": "The AL Table Proxy Generator tool (altpgen.exe) is now distributed through the Microsoft.Dynamics.BusinessCentral.Development.Tools.Altpgen NuGet package instead of the AL Language extension, with support for .NET versions 8.0 and 10.0. The tool generates proxy tables for integrating Microsoft Dataverse tables into Business Central.",
+  "key_points": [
+    "AL Table Proxy Generator moved from the AL Language extension to the Microsoft.Dynamics.BusinessCentral.Development.Tools.Altpgen NuGet package as the official distribution method.",
+    "Tool supports multiple .NET versions (net8.0 and net10.0); users select the altpgen.exe matching their installed .NET version.",
+    "Azure app registration must be configured as multi-tenant to authenticate with Dataverse; Dataverse table names are case-sensitive.",
+    "Proxy tables act as integration connectors linking Business Central tables to Microsoft Dataverse columns, enabling cross-system data integration."
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "dataverse integration",
+    "proxy tables",
+    "altpgen tool",
+    "nuget package",
+    "table generation",
+    "data integration"
+  ],
+  "objects": [],
+  "features": [
+    "AL Table Proxy Generator",
+    "Dataverse integration",
+    "proxy table generation",
+    "multi-table generation",
+    "NuGet distribution"
+  ],
+  "versions": [
+    "Business Central 29",
+    "Business Central 2024 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The AL Table Proxy Generator is distributed in the Microsoft.Dynamics.BusinessCentral.Development.Tools.Altpgen NuGet package now.",
+      "why_it_matters": "Indicates the official shift from bundled extension distribution to centralized NuGet package management for the tool."
+    },
+    {
+      "text": "The app registered in the Azure Portal must support multi-tenant.",
+      "why_it_matters": "Critical configuration requirement to successfully authenticate Dataverse connections from altpgen."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006729,
+    "posts_in_call": 4
+  }
+}

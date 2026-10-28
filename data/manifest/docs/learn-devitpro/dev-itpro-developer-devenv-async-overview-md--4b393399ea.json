@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview",
   "published_at": "2026-10-27T14:30:34.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:44:25.669Z",
+      "at": "2026-10-28T08:48:04.390Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003414
+      "cost_usd": 0.00409
     },
     "summarized": {
-      "at": "2026-10-06T19:44:25.682Z",
+      "at": "2026-10-28T08:48:04.397Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:44:25.683Z",
+      "at": "2026-10-28T08:48:04.398Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:44:25.684Z",
+      "at": "2026-10-28T08:48:04.399Z",
       "page": false
     }
   },
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "00891d0a905b3243fab05fbd97af7c7cb661fbc6"
+  "output_hash": "cfe9a9119c66f2ded997e6aa6482063a4d2c38636a10f67c71ec02c4afbb938d"
 }

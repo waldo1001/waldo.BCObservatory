@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13240,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13240",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-28T06:33:24Z",
+  "merge_commit_sha": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main]-Test disabled after BCApps uptake: Contract Renewal Test.TestIfContractRenewalSelectionIsUpdateOnAfterValidateCalcBasePercentage fails",
+  "body_hash": "e555d369637345b2fa61d63720f4c53847a96866ca7a5ac25b0a17244422e56e",
+  "fixes_issues": [],
+  "work_items": [
+    647313
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Contract Renewal/Pages/ContractRenewalSelection.Page.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 9,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Contract Renewal/Pages/ContractRenewalSelection.Page.al",
+        "status": "modified",
+        "key": "page/8006",
+        "type": "page",
+        "id": 8006,
+        "name": "Contract Renewal Selection",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "page/8006"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ]
+}

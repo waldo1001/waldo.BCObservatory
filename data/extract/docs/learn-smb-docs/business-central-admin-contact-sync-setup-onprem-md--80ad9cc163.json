@@ -1,39 +1,39 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/admin-contact-sync-setup-onprem.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-contact-sync-setup-onprem",
-  "title": "Set up contact sync with Outlook for Business Central on-premises",
-  "blob": "d7539c43d5e73adc37f1c206e9831d1007a0c842",
-  "summary": "Set up contact sync with Outlook for Business Central on-premises describes OAuth 2.0 authentication setup for synchronizing contacts between Business Central and Exchange Online. This applies to version 27 and earlier; later versions use a different feature.",
+  "title": "Set Up Legacy Outlook Contact Sync On-Premises",
+  "blob": "4bd80b86e1870f13cf2f61bf61043b919a7f46ea",
+  "summary": "Setup guide for legacy Outlook contact synchronization on Business Central on-premises using OAuth 2.0 authentication with Exchange Online, applicable through v27.",
   "systems": [
-    "integration",
-    "administration"
+    "administration",
+    "integration"
   ],
   "topics": [
-    "contact sync",
-    "outlook",
+    "outlook contact sync",
     "exchange online",
-    "oauth",
-    "on-premises",
-    "authentication"
+    "oauth authentication",
+    "on-premises setup",
+    "legacy contact sync"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Exchange Sync. Setup"
+      "name": "Users - Common Data Service"
     },
     {
       "type": "page",
-      "name": "Contact Sync. Setup"
+      "name": "Users"
     }
   ],
   "features": [
     "contact synchronization",
     "oauth 2.0 authentication",
+    "microsoft entra registration",
     "exchange online integration",
-    "microsoft entra registration"
+    "delegated permissions"
   ],
   "versions": [
-    "2025 release wave 2"
+    "2025 release wave 2 (v27)"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -41,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006308,
-      "pages_in_call": 8
+      "cost_usd": 0.00409,
+      "pages_in_call": 3
     }
   ]
 }

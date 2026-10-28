@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12539",
+  "number": 12539,
+  "title": "Add Expense Agent consumption V2 and trial support",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Expense Agent now supports consumption V2 API, a 50-expense trial quota, improved telemetry with static messages and model metadata dimensions, and an internal quota interface for extensibility.",
+  "key_points": [
+    "Adds V2 consumption API with nested v1 field validation",
+    "Implements 50-expense feature trial with trial status display",
+    "Policy-evaluation operations excluded from trial usage counting",
+    "Internal quota interface enables test injection and production routing",
+    "Replaces raw telemetry with static messages and PascalCase metadata dimensions"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "finance"
+  ],
+  "quote": "Add the Expense Agent V2 consumption API and a 50-expense feature trial.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002443,
+    "changes_in_call": 3
+  }
+}

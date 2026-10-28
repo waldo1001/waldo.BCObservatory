@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13333",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix configuration package import label translation collisions",
+  "url": "https://github.com/microsoft/BCApps/pull/13333",
+  "published_at": "2026-10-28T01:03:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-28T08:47:18.430Z"
+    }
+  },
+  "input_hash": "e7547a67cad25f7c71fa4d343a0214cdcebf5b0d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13333,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e7547a67cad25f7c71fa4d343a0214cdcebf5b0d",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix configuration package import label translation collisions"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13240",
+  "number": 13240,
+  "title": "[Main]-Test disabled after BCApps uptake: Contract Renewal Test.TestIfContractRenewalSelectionIsUpdateOnAfterValidateCalcBasePercentage fails",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "A failing test in the Contract Renewal Selection page was fixed to restore proper functionality after the BCApps uptake.",
+  "key_points": [
+    "Test was disabled after BCApps migration",
+    "Affects Contract Renewal Selection page functionality",
+    "Small code change to restore test compatibility",
+    "Finance team subscription billing module"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002443,
+    "changes_in_call": 3
+  }
+}

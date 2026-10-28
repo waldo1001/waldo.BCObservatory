@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/thinkaboutit-be/8331",
+  "url": "https://thinkaboutit.be/2026/10/business-central-29-whats-new-in-bc-bench/",
+  "title": "Business Central 29: What’s New in BC-Bench?",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-10-28T08:00:16.000Z",
+  "words": 883,
+  "summary": "BC-Bench is Microsoft's open-source framework for evaluating AI coding agents on Business Central AL development tasks like bug fixing, test generation, and code review. It helps measure whether AI models and tools actually improve AL development performance compared to general coding benchmarks.",
+  "key_points": [
+    "AL MCP (Model Context Protocol) improves bug-fixing performance by nearly 10% when integrated with AI agents like GitHub Copilot CLI with Claude Opus 4.6.",
+    "Agent harness choice (GitHub Copilot CLI vs Claude Code) shows no significant performance difference when the underlying model is the same; model selection and tool access matter more.",
+    "BC-Bench is publicly available on GitHub for partners to evaluate AI agents against their own AL development tasks and compare configurations.",
+    "Code review evaluation is now part of BC-Bench, measuring AI-assisted review quality using semantic equivalence rather than exact comment matching."
+  ],
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "ai agents",
+    "benchmarking",
+    "al development",
+    "code generation",
+    "bug fixing",
+    "code review"
+  ],
+  "objects": [],
+  "features": [
+    "BC-Bench framework",
+    "bug fixing evaluation",
+    "test generation evaluation",
+    "code review evaluation",
+    "AL MCP integration",
+    "benchmark contamination detection"
+  ],
+  "versions": [
+    "Business Central 2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "AL MCP gives AI coding agents access to development capabilities such as compiling, publishing, and searching.",
+      "why_it_matters": "Demonstrates that providing tools access is as important as model capability for improving AL development performance."
+    },
+    {
+      "text": "As AI agents become better at generating code and pull requests, code review could become the next bottleneck.",
+      "why_it_matters": "Identifies code review as an emerging critical capability for AI-assisted development quality assurance."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006729,
+    "posts_in_call": 4
+  }
+}

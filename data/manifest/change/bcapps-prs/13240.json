@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13240",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Test disabled after BCApps uptake: Contract Renewal Test.TestIfContractRenewalSelectionIsUpdateOnAfterValidateCalcBasePercentage fails",
+  "url": "https://github.com/microsoft/BCApps/pull/13240",
+  "published_at": "2026-10-28T06:33:24Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-28T08:47:18.430Z"
+    },
+    "fetched": {
+      "at": "2026-10-28T08:47:55.013Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-28T08:48:05.760Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.002443
+    },
+    "linked": {
+      "at": "2026-10-28T08:48:06.050Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
+    },
+    "published": {
+      "at": "2026-10-28T08:48:06.207Z",
+      "path": "content/changes/bcapps/13240.md"
+    }
+  },
+  "input_hash": "d2abc1d2ceae394331716c8183ef60e1534c2ce0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13240,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "test disabled after bcapps uptake contract renewal test testifcontractrenewalselectionisupdateonaftervalidatecalcbasepercentage fails"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2cbabc56f7f4ebdccd8f762a383c495c5ee6990b0892e792f085dafe2f6eb35a"
+}

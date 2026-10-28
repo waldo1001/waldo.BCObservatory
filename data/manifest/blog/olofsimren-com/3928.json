@@ -7,7 +7,7 @@
   "url": "https://www.olofsimren.com/business-central-case-study-engineer-to-order-manufacturing-at-zook/",
   "published_at": "2026-10-26T12:10:34.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-27T00:21:39.999Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-27T00:22:09.779Z",
       "path": "vault:posts/olofsimren-com/3928.md",
       "words": 1154
+    },
+    "extracted": {
+      "at": "2026-10-28T08:48:20.199Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.006729
+    },
+    "summarized": {
+      "at": "2026-10-28T08:48:20.418Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-28T08:48:20.419Z"
+    },
+    "published": {
+      "at": "2026-10-28T08:48:20.428Z",
+      "path": "content/posts/olofsimren-com/3928.md"
     }
   },
   "input_hash": "2026-10-26T12:10:38.000Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f5bfb9fa7288247fcfdc67de799ccecfcae2648f74869ce2695366595acae523"
+  "output_hash": "9b16774fb585d8a0aa7b81cc5885618406f4a997d4f43c703699389bc57d0e21"
 }

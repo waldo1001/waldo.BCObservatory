@@ -6,7 +6,7 @@
   "title": "Add Expense Agent consumption V2 and trial support",
   "url": "https://github.com/microsoft/BCApps/pull/12539",
   "published_at": "2026-10-26T22:29:26Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-27T00:21:39.999Z"
@@ -18,6 +18,23 @@
       "al": 9,
       "objects": 7,
       "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-28T08:48:05.763Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.002443
+    },
+    "linked": {
+      "at": "2026-10-28T08:48:06.715Z",
+      "objects": 7,
+      "unjoined": 2,
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
+    },
+    "published": {
+      "at": "2026-10-28T08:48:06.726Z",
+      "path": "content/changes/bcapps/12539.md"
     }
   },
   "input_hash": "6c85fdb57aa3ebd7566ab0269f81afb7123d1143:c1",
@@ -42,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "556088a5bfde9106b2e76b5519e72fba0fb5c65626570fcef73f234490097f4b"
+  "output_hash": "688d8fc3bf340faaafba50cdf40abba1d10a5a76381815b9d18e374f66939d05"
 }

@@ -1,27 +1,32 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-attach-debug-next.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-attach-debug-next",
-  "title": "Attach and debug next",
-  "blob": "535aa3bf02c3c34b9b5d3bfba41951b0c8733723",
-  "summary": "Attach and debug next feature allows developers to attach a debugging session to a running server without publishing first, supporting breakpoints on web clients, web services, background sessions, and agent sessions.",
+  "title": "Attach and Debug Next in Business Central",
+  "blob": "8e38d4276b6ee317f3d2841731003aa7fd9678bd",
+  "summary": "Attaching the AL debugger to existing or next sessions allows troubleshooting code in sandbox and on-premises environments without launching from Visual Studio Code. Configure breakOnNext to attach to web client, web service, background, or agent sessions.",
   "systems": [
-    "development"
+    "development",
+    "platform"
   ],
   "topics": [
     "debugging",
-    "attach session",
-    "breakpoint",
+    "al debugger",
+    "attach debugging",
     "visual studio code",
-    "development environment"
+    "breakpoints",
+    "sandbox",
+    "on-premises"
   ],
   "objects": [],
   "features": [
-    "attach functionality",
+    "Attach to existing session",
+    "Attach to next session",
     "breakOnNext configuration",
-    "sessionId property",
-    "userId property",
-    "snapshot debugging",
-    "RAD publishing"
+    "sessionId targeting",
+    "userId targeting",
+    "Background session debugging",
+    "Agent session debugging",
+    "D365 ATTACH DEBUG permission set"
   ],
   "versions": [
     "2023 release wave 1"
@@ -32,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003619,
-      "pages_in_call": 8
+      "cost_usd": 0.004862,
+      "pages_in_call": 1
     }
   ]
 }

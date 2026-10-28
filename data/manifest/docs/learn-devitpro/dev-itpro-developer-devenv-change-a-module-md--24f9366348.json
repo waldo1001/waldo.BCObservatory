@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Change a module in the System Application",
+  "title": "Change a System Application Module in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-change-a-module",
   "published_at": "2026-10-27T14:30:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.388Z",
-      "blob": "497cab5100080e33c8b3bab9e6c1370b6ba586a4",
-      "words": 576,
+      "at": "2026-10-28T08:48:32.925Z",
+      "blob": "45b165f37726c77b0f9b7f675921253a50832720",
+      "words": 660,
       "forms": 0
     },
     "extracted": {
@@ -44,17 +44,21 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-change-a-module.md",
-    "description": "Learn about steps and examples of how to change a module in the System Application.",
-    "ms_date": "2024-01-03",
+    "description": "Learn how to change a System Application module in Business Central, preserve existing behavior, add public APIs and tests, and submit a contribution.",
+    "ms_date": "2026-10-16",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 576,
-    "identifiers": [],
+    "words": 660,
+    "identifiers": [
+      "YourDockerContainerName",
+      "MSDos",
+      "Base64Convert"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fca50b12da41a36dbc179466f6582b72c45ec2bbe07c832a02f36e678fb0f4cb"
+  "output_hash": "45b165f37726c77b0f9b7f675921253a50832720"
 }

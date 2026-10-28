@@ -1,0 +1,76 @@
+{
+  "item_id": "blog/yzhums-com/76990",
+  "url": "https://yzhums.com/76990/",
+  "title": "Dynamics 365 Business Central: An error occurred when communicating with Dataverse (User does not have required privileges to access the org when it is in Admin Only mode)",
+  "source": "yzhums-com",
+  "published_at": "2026-10-28T00:45:20.000Z",
+  "words": 626,
+  "summary": "When integrating Business Central with Dataverse, users may encounter an error stating they lack required privileges in Admin Only mode. The issue originates in the Power Platform environment, not Business Central. Disabling Administration mode in the Power Platform admin center and reconfiguring the Dataverse integration resolves the problem.",
+  "key_points": [
+    "The error occurs when a Power Platform environment is in Administration mode, restricting access to System Administrators and System Customizers only",
+    "The root cause is not a Business Central issue but a Power Platform environment configuration",
+    "Disable Administration mode in Power Platform admin center settings and reconfigure Dataverse integration in Business Central",
+    "Administration mode is useful for making operational changes without affecting regular users"
+  ],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "dataverse integration",
+    "error handling",
+    "power platform",
+    "admin mode",
+    "dataverse configuration"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "CDS Connection Setup"
+    },
+    {
+      "type": "codeunit",
+      "name": "CDS Setup Defaults"
+    },
+    {
+      "type": "page",
+      "name": "CDS Connection Setup Wizard"
+    },
+    {
+      "type": "codeunit",
+      "name": "Guided Experience Impl."
+    },
+    {
+      "type": "page",
+      "name": "Assisted Setup"
+    }
+  ],
+  "features": [
+    "Dataverse integration",
+    "Administration mode",
+    "Background operations",
+    "CDS connection setup"
+  ],
+  "versions": [
+    "29.0.54011.56690"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "the root cause lies within the Power Platform environment, not Business Central itself",
+      "why_it_matters": "Clarifies that the error originates outside Business Central, directing troubleshooting to the correct platform"
+    },
+    {
+      "text": "Only System Administrators or System Customizers will be able to sign in to the selected sandbox or production environment",
+      "why_it_matters": "Explains why regular users cannot access Dataverse when Administration mode is enabled"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00329,
+    "posts_in_call": 3
+  }
+}
