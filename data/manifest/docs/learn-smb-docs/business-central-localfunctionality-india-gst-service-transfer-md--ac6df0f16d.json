@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Transfer",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.052Z",
-      "blob": "90b490f6e31023df11164d2e64ca818766611c54",
-      "words": 336,
+      "at": "2026-10-28T09:10:18.296Z",
+      "blob": "49eabcf3d8c5794964b0348b0afb908f3ec83d5f",
+      "words": 433,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:55.866Z",
+      "at": "2026-10-28T09:10:24.590Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.004317
+      "cost_usd": 0.004111
     },
     "summarized": {
-      "at": "2026-10-06T19:16:57.652Z",
+      "at": "2026-10-28T09:10:24.592Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:57.653Z",
+      "at": "2026-10-28T09:10:24.594Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:57.654Z",
+      "at": "2026-10-28T09:10:24.595Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Service-Transfer.md",
     "description": "Learn how to process service transfers between locations, branches, or divisions under GST in India, including order creation and accounting entries.",
-    "ms_date": "2025-06-24",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "English",
       "service transfer"
     ],
-    "ai_usage": null,
-    "words": 336,
+    "ai_usage": "ai-assisted",
+    "words": 433,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a749a6d9eb78d32b0307d58b2a6283d31e04c92d076dab5ae9dbe415ced19f82"
+  "output_hash": "beb91f566d1266f87102076b48488386ddd8914bf2eaa46e6e4f920cdd46a016"
 }

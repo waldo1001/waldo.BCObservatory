@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Sales returns from registered customers for goods with an overseas place of supply",
+  "title": "Sales Returns from Registered Customers for Goods with an Overseas Place of Supply",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.047Z",
-      "blob": "eea2d980f0f01dab4a4ee40bb3a5ac09798f565e",
-      "words": 296,
+      "at": "2026-10-28T09:10:18.211Z",
+      "blob": "759eb1e5093466e556800da6122f6e4cc3cac46e",
+      "words": 312,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:55.864Z",
+      "at": "2026-10-28T09:10:24.426Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.004317
+      "cost_usd": 0.003802
     },
     "summarized": {
-      "at": "2026-10-06T19:16:57.650Z",
+      "at": "2026-10-28T09:10:24.428Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:57.650Z",
+      "at": "2026-10-28T09:10:24.429Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:57.651Z",
+      "at": "2026-10-28T09:10:24.431Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS.md",
     "description": "Process for handling sales returns or issuing credit notes for services supplied overseas to registered customers in India.",
-    "ms_date": "2025-06-23",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "registered customers",
       "overseas place of supply"
     ],
-    "ai_usage": null,
-    "words": 296,
+    "ai_usage": "ai-assisted",
+    "words": 312,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7e7fcee6b87d3287a778001b568ea9eabe1ecda534cfd537a613343dc96ee5c9"
+  "output_hash": "783ea51c1025843b0536837d6bb0537976a1a01d3458e71a2cd492282b6c4532"
 }

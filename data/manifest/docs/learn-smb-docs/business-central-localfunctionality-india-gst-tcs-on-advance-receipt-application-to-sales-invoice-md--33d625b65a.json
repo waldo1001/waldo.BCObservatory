@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.286Z",
-      "blob": "98015d34e382035c772fc9c34b6743130996f03f",
-      "words": 465,
+      "at": "2026-10-28T09:10:24.499Z",
+      "blob": "4c154059551826c0a1db8dd32fcea2df208a2870",
+      "words": 491,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:18:09.410Z",
+      "at": "2026-10-28T09:10:34.922Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00322
+      "objects": 3,
+      "cost_usd": 0.004058
     },
     "summarized": {
-      "at": "2026-10-06T19:18:09.421Z",
+      "at": "2026-10-28T09:10:34.923Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:18:09.422Z",
+      "at": "2026-10-28T09:10:34.924Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:18:09.423Z",
+      "at": "2026-10-28T09:10:34.925Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice.md",
     "description": "Learn how GST and TCS are applied to advance customer payments in Business Central for India, including calculation and posting details.",
-    "ms_date": "2025-06-25",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "TCS",
       "advance customer payments"
     ],
-    "ai_usage": null,
-    "words": 465,
+    "ai_usage": "ai-assisted",
+    "words": 491,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5112664671b82470805e249b9960d72545506e665bccde60280001ab24f9bfdd"
+  "output_hash": "938a3b326045b6efccfa3a39b0776edcda5bab396d6348639f7bbc6153623ba6"
 }

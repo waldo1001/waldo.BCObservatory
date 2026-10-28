@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-on-Payment",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.269Z",
-      "blob": "e9e83c2ae6d1a63ae8dfa6bf520907efff01b80f",
-      "words": 300,
+      "at": "2026-10-28T09:10:24.650Z",
+      "blob": "3c18cbf01facf6aeb534dfeb86be8207514e73da",
+      "words": 326,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:12:59.310Z",
+      "at": "2026-10-28T09:10:34.893Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.006497
+      "objects": 3,
+      "cost_usd": 0.004291
     },
     "summarized": {
-      "at": "2026-10-06T19:13:12.553Z",
+      "at": "2026-10-28T09:10:34.895Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:12.553Z",
+      "at": "2026-10-28T09:10:34.896Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:12.554Z",
+      "at": "2026-10-28T09:10:34.897Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-TCS-on-Payment.md",
-    "description": "Learn how GST Tax Collected at Source (TCS) is applied and processed on vendor payments in Business Central for India.",
-    "ms_date": "2025-06-25",
+    "description": "Record GST Tax Collected at Source on vendor payments and review the associated setup and accounting entries in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "TCS on vendor payment",
       "vendor payment"
     ],
-    "ai_usage": null,
-    "words": 300,
+    "ai_usage": "ai-assisted",
+    "words": 326,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "58e7112754a125cea5a31db9770774b064269c7108efacfb5584b4af40d80ffb"
+  "output_hash": "76dc68f3d4b8273e30387b4f85de52cfca79fe57e66d55a3352b242e5008ccc2"
 }

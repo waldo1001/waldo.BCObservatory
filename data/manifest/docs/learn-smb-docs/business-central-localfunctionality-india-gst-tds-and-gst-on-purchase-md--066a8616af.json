@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-and-GST-on-Purchase",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.290Z",
-      "blob": "d5eafa0cde07915913e0a66b296ec9241b98b7ca",
-      "words": 378,
+      "at": "2026-10-28T09:10:25.686Z",
+      "blob": "38e61eaa15201cb2c577e1baaa9ded331861859f",
+      "words": 413,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:18:09.411Z",
+      "at": "2026-10-28T09:10:34.951Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00322
+      "objects": 1,
+      "cost_usd": 0.003914
     },
     "summarized": {
-      "at": "2026-10-06T19:18:09.424Z",
+      "at": "2026-10-28T09:10:34.953Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:18:09.425Z",
+      "at": "2026-10-28T09:10:34.954Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:18:09.426Z",
+      "at": "2026-10-28T09:10:34.956Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-TDS-and-GST-on-Purchase.md",
-    "description": "Learn how to calculate Income Tax TDS and GST on purchase transactions in Business Central for India.",
-    "ms_date": "2025-06-25",
+    "description": "Calculate income tax TDS and GST on purchase transactions, and review illustrative calculation and accounting entries in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "TDS",
       "purchase transactions"
     ],
-    "ai_usage": null,
-    "words": 378,
+    "ai_usage": "ai-assisted",
+    "words": 413,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7b3fe8cf75e794c24983667bc7d9b3ec73090a7cc423e17329ba8e0ee7c29237"
+  "output_hash": "6512a8ccf31fbf4819bf19108019f3215b1c3f5643f7d9250d4fc9db2bcd7333"
 }

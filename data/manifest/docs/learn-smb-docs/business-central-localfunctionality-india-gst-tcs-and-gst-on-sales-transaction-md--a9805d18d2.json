@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.104Z",
-      "blob": "37202e792c399a6656c51437fb6270544214ddb0",
-      "words": 246,
+      "at": "2026-10-28T09:10:24.298Z",
+      "blob": "5d5edcbba214cd45e8f1643f0d4eaeba0abac5a4",
+      "words": 278,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:01.205Z",
+      "at": "2026-10-28T09:10:34.935Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003704
+      "cost_usd": 0.003834
     },
     "summarized": {
-      "at": "2026-10-06T19:17:08.507Z",
+      "at": "2026-10-28T09:10:34.936Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:08.508Z",
+      "at": "2026-10-28T09:10:34.938Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:10.262Z",
+      "at": "2026-10-28T09:10:34.939Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction.md",
-    "description": "Learn how to calculate TCS under the Income Tax Act, 1961, and GST on sales transactions in Business Central.",
-    "ms_date": "2025-06-25",
+    "description": "Calculate income tax TCS and GST on sales transactions, and review illustrative calculation and accounting entries in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "Income Tax Act",
       "sales transactions"
     ],
-    "ai_usage": null,
-    "words": 246,
+    "ai_usage": "ai-assisted",
+    "words": 278,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fadab92ca79854d2f22fb6f8805f89381ded32e094f28a1d73fc702600f41190"
+  "output_hash": "a04a51ec943acb8ebed9a020d865623deac0d88811a2e63f91090527ab0863d6"
 }

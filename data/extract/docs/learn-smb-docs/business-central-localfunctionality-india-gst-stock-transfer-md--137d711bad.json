@@ -2,33 +2,41 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Stock-Transfer.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Stock-Transfer",
   "title": "Stock Transfer",
-  "blob": "5283d81857746f5da59c3d8a70d844e26430cd7a",
-  "summary": "Stock transfer between locations with different registration numbers under GST with inter-state and intra-state tax implications, including bonded warehouse transfers with customs duty and GST assessable value.",
+  "blob": "bb932d706ee2416f5f298b0a056d008f0eaf6bf1",
+  "summary": "Stock transfer in India handles GST calculations differently based on location registration numbers and state boundaries, with separate workflows for ordinary locations and bonded warehouses.",
   "systems": [
     "inventory",
     "finance",
     "localization"
   ],
   "topics": [
-    "gst",
     "stock transfer",
-    "cgst",
-    "sgst",
-    "igst",
+    "gst",
+    "india",
+    "transfer orders",
     "bonded warehouse",
-    "india"
+    "inventory transfer",
+    "tax calculation"
   ],
   "objects": [
+    {
+      "type": "page",
+      "name": "Transfer Orders"
+    },
     {
       "type": "page",
       "name": "Transfer Order"
     }
   ],
   "features": [
-    "Inter-state stock transfer",
-    "Intra-state stock transfer",
+    "CGST and SGST/UTGST calculation",
+    "IGST calculation for interstate transfers",
     "Bonded warehouse transfer",
-    "GST calculation on transfer"
+    "GST Group Code",
+    "HSN/SAC Code",
+    "GST Assessable Value",
+    "Custom Duty Amount",
+    "Bill of Entry tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +45,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003704,
-      "pages_in_call": 8
+      "cost_usd": 0.004384,
+      "pages_in_call": 1
     }
   ]
 }

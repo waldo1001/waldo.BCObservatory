@@ -1,37 +1,40 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS",
-  "title": "Sales returns from registered customers for goods with an overseas place of supply",
-  "blob": "eea2d980f0f01dab4a4ee40bb3a5ac09798f565e",
-  "summary": "Sales returns from registered customers for goods with overseas place of supply under GST involve creating return orders or credit memos with POS Out of India marked and IGST charged, posting GL entries to reverse the original sale.",
+  "title": "Sales Returns from Registered Customers for Goods with an Overseas Place of Supply",
+  "blob": "759eb1e5093466e556800da6122f6e4cc3cac46e",
+  "summary": "Sales returns and credit memos for registered customers with overseas place of supply in India under GST. Covers credit note creation, IGST calculation, and G/L account entries for inter-state trade scenarios.",
   "systems": [
     "finance",
-    "sales"
+    "sales",
+    "localization"
   ],
   "topics": [
     "gst",
-    "india",
     "sales returns",
-    "overseas",
-    "igst",
-    "registered customer"
+    "credit memos",
+    "india",
+    "overseas supply",
+    "igst"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Sales Return Order"
+      "name": "Sales Return Orders"
     },
     {
       "type": "page",
-      "name": "Sales Credit Memo"
+      "name": "Sales Credit Memos"
     }
   ],
   "features": [
-    "POS Out of India",
+    "GST customer type selection",
+    "GST Group Code assignment",
+    "HSN/SAC Code specification",
+    "POS Out of India field",
     "IGST calculation",
-    "GST Group Code",
-    "HSN/SAC Code",
-    "Registered customer type"
+    "G/L account entries",
+    "GST Place Of Supply field"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004317,
-      "pages_in_call": 8
+      "cost_usd": 0.003802,
+      "pages_in_call": 1
     }
   ]
 }

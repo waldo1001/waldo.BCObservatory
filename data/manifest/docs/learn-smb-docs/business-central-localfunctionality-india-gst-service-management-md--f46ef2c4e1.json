@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Management",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.088Z",
-      "blob": "030671ba97b4bcc298305f9cc03d122e66066cf4",
-      "words": 368,
+      "at": "2026-10-28T09:10:18.346Z",
+      "blob": "e4464cc81960ed402927304ad1c16e15dc3f634b",
+      "words": 369,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:01.202Z",
+      "at": "2026-10-28T09:10:24.055Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.003704
+      "cost_usd": 0.003653
     },
     "summarized": {
-      "at": "2026-10-06T19:17:08.498Z",
+      "at": "2026-10-28T09:10:24.056Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:08.499Z",
+      "at": "2026-10-28T09:10:24.058Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:08.500Z",
+      "at": "2026-10-28T09:10:24.059Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Service-Management.md",
     "description": "Learn how GST is applied to service management processes in Business Central for India, including service orders, invoices, and credit memos.",
-    "ms_date": "2025-06-24",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "service invoice",
       "service credit memo"
     ],
-    "ai_usage": null,
-    "words": 368,
+    "ai_usage": "ai-assisted",
+    "words": 369,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a9a74839ea6c2814a7bdf4c1ad572e18d5d298ce6c29ad7bec92556f3dfc5bb9"
+  "output_hash": "f00bcc054de9863e9a6208a8193211e395859f8d5243f18dfb057b57cc49e633"
 }

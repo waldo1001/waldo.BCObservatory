@@ -2,31 +2,36 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor",
   "title": "Purchase of Services for Overseas Place of Supply from Registered Vendor",
-  "blob": "10a2f33eb8ef15484d8d01fdc6a4bce49071c5c9",
-  "summary": "Purchase of services for overseas place of supply from registered vendors covers IGST calculation where supplier is in India but place of supply is outside India, with input tax credit availment or non-availment options.",
+  "blob": "06a66216c3682257794a89e0974c6896a4b82c54",
+  "summary": "Purchase of services with overseas place of supply from registered GST vendors in India. Explains the tax computation process, GST jurisdiction treatment as interstate supply, and GL posting differences when input tax credit is available or unavailable.",
   "systems": [
-    "purchasing",
     "finance",
+    "purchasing",
     "localization"
   ],
   "topics": [
     "gst",
-    "igst",
-    "overseas supply",
-    "purchase",
     "india",
-    "tax credit"
+    "services",
+    "overseas place of supply",
+    "registered vendor",
+    "input tax credit",
+    "igst"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Purchase Invoice"
+      "name": "Purchase Invoices"
     }
   ],
   "features": [
+    "GST Invoice selection",
+    "POS Out Of India setting",
+    "GST Group Code",
+    "HSN/SAC Code",
+    "GST Credit (Availment/Non-Availment)",
     "IGST calculation",
-    "Input tax credit availment",
-    "Tax credit non-availment"
+    "Interstate supply jurisdiction"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003704,
-      "pages_in_call": 8
+      "cost_usd": 0.003729,
+      "pages_in_call": 1
     }
   ]
 }

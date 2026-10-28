@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Stock-Transfer",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.099Z",
-      "blob": "5283d81857746f5da59c3d8a70d844e26430cd7a",
-      "words": 483,
+      "at": "2026-10-28T09:10:24.112Z",
+      "blob": "bb932d706ee2416f5f298b0a056d008f0eaf6bf1",
+      "words": 519,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:01.204Z",
+      "at": "2026-10-28T09:10:29.783Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003704
+      "objects": 2,
+      "cost_usd": 0.004384
     },
     "summarized": {
-      "at": "2026-10-06T19:17:08.504Z",
+      "at": "2026-10-28T09:10:29.785Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:08.505Z",
+      "at": "2026-10-28T09:10:29.787Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:08.506Z",
+      "at": "2026-10-28T09:10:29.788Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Stock-Transfer.md",
     "description": "Learn how to process stock transfers under GST in India, including steps for transfer orders, GST calculation, and handling bonded warehouse scenarios.",
-    "ms_date": "2025-06-24",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "English",
       "stock transfer"
     ],
-    "ai_usage": null,
-    "words": 483,
+    "ai_usage": "ai-assisted",
+    "words": 519,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0defe060733aabffc3cf15235a6b6c6c1b18d5cea845d450659bf6cee8ed31f6"
+  "output_hash": "41ae6b264acca53c2f5fb061b3e8ab2851471e5e118e8bcdcf9c3e53f2638eff"
 }

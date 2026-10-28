@@ -2,21 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Settelement.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Settelement",
   "title": "GST Settlement of Net Payment Liability",
-  "blob": "cd46b988daeea2a609b70f99f677b71bc60c9d36",
-  "summary": "GST settlement of net payment liability involves calculating tax payable from outward and inward supplies, applying credit offsets in priority order, and discharging liability through cash or credit utilization on a monthly basis.",
+  "blob": "399d478575e8396251efcfa5b8b6881ee7abc5c0",
+  "summary": "GST settlement process in India for discharging tax liability on sales, purchases, and reverse charge transactions monthly, with credit offset mechanisms and posting procedures.",
   "systems": [
     "finance",
-    "administration"
+    "localization"
   ],
   "topics": [
-    "gst",
-    "india",
-    "settlement",
+    "gst settlement",
     "tax liability",
-    "credit",
-    "igst",
-    "cgst",
-    "sgst"
+    "credit utilization",
+    "india",
+    "reverse charge",
+    "payment processing"
   ],
   "objects": [
     {
@@ -25,20 +23,21 @@
     },
     {
       "type": "page",
+      "name": "Pay GST"
+    },
+    {
+      "type": "page",
       "name": "Return & Reco Components"
     }
   ],
   "features": [
-    "Net Payment Liability",
-    "Credit Availed",
-    "Credit Utilized",
-    "Reverse Charge Liability",
-    "GST TDS Credit",
-    "GST TCS Credit",
-    "Interest",
-    "Penalty",
-    "Fees",
-    "Payment Liability"
+    "GST component setoff priorities",
+    "credit availed calculation",
+    "reverse charge liability",
+    "net payment liability",
+    "credit utilization rules",
+    "settlement posting",
+    "interest and penalty accounts"
   ],
   "versions": [],
   "parts": 1,
@@ -47,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004317,
-      "pages_in_call": 8
+      "cost_usd": 0.010682,
+      "pages_in_call": 1
     }
   ]
 }

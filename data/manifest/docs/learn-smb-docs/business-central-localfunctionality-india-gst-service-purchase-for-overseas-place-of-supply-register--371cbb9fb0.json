@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.093Z",
-      "blob": "10a2f33eb8ef15484d8d01fdc6a4bce49071c5c9",
-      "words": 303,
+      "at": "2026-10-28T09:10:18.319Z",
+      "blob": "06a66216c3682257794a89e0974c6896a4b82c54",
+      "words": 292,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:01.203Z",
+      "at": "2026-10-28T09:10:24.234Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003704
+      "cost_usd": 0.003729
     },
     "summarized": {
-      "at": "2026-10-06T19:17:08.502Z",
+      "at": "2026-10-28T09:10:24.236Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:08.503Z",
+      "at": "2026-10-28T09:10:24.238Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:08.503Z",
+      "at": "2026-10-28T09:10:24.239Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor.md",
-    "description": "Learn how to process the purchase of services from a registered vendor in India when the place of supply is overseas, including GST calculation and accounting entries.",
-    "ms_date": "2025-06-24",
+    "description": "Process service purchases from registered vendors with an overseas place of supply and review GST accounting entries in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "registered vendor",
       "overseas place of supply"
     ],
-    "ai_usage": null,
-    "words": 303,
+    "ai_usage": "ai-assisted",
+    "words": 292,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a46a459acd181699677fda85a632f9e2489ea12142bffc0995e6011205aea7c7"
+  "output_hash": "ea3482fdd2326f72d222485143383d1eefcc7a711273918a5715303abc78e7f6"
 }
