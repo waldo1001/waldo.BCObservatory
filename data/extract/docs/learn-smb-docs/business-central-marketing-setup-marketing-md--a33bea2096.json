@@ -1,20 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/marketing-setup-marketing.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-setup-marketing",
-  "title": "Set up marketing and contact management information",
-  "blob": "2d21cf69714bafa5053b285719f02a5119526f2a",
-  "summary": "Set up marketing and contact management configuration including contact synchronization, inheritance of contact fields, number series, duplicate search, and interaction recording to manage customer relationships effectively.",
+  "title": "Set Up Marketing and Contact Management",
+  "blob": "90983ba162ecc087544abc41cabe1b0a67e9d9ea",
+  "summary": "Set up relationship management and contact management configuration including contact synchronization with customers and vendors, number series assignment, inheritance of contact fields, duplicate detection, and interaction recording.",
   "systems": [
     "crm",
+    "sales",
     "administration"
   ],
   "topics": [
-    "marketing setup",
     "contact management",
+    "marketing setup",
     "customer relationships",
+    "duplicate detection",
+    "business relations",
     "contact synchronization",
-    "contact inheritance",
-    "duplicate detection"
+    "number series"
   ],
   "objects": [
     {
@@ -24,21 +26,16 @@
     {
       "type": "page",
       "name": "Contact Card"
-    },
-    {
-      "type": "page",
-      "name": "Interaction Log Entries"
     }
   ],
   "features": [
-    "automatic field inheritance",
-    "contact-customer synchronization",
-    "contact-vendor synchronization",
-    "contact-bank account synchronization",
-    "duplicate contact search",
-    "number series for contacts",
-    "number series for opportunities",
-    "automatic interaction recording"
+    "Contact synchronization with customers, vendors, and bank accounts",
+    "Field inheritance from contact companies to contact persons",
+    "Automatic duplicate contact detection",
+    "Number series for contacts and opportunities",
+    "Automatic interaction recording",
+    "Business relation codes",
+    "Duplicate search hit percentage threshold"
   ],
   "versions": [],
   "parts": 1,
@@ -47,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003247,
-      "pages_in_call": 8
+      "cost_usd": 0.00407,
+      "pages_in_call": 1
     }
   ]
 }

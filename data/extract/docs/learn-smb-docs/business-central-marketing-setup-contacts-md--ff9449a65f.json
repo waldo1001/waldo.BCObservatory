@@ -1,19 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/marketing-setup-contacts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-setup-contacts",
-  "title": "Set up information for contacts",
-  "blob": "205d690c051023ad55e718d72ecb17460ba2917c",
-  "summary": "Set up master data for contacts including industry groups, mailing groups, job responsibilities, organizational levels, and business relations to organize and segment customers and prospects.",
+  "title": "Set Up Information for Business Contacts",
+  "blob": "74dcbe0e806f83058df31b50137954739b2ba08e",
+  "summary": "Set up contact management features including industry groups, mailing groups, job responsibilities, organizational levels, web sources, and business relations to organize and segment contacts effectively.",
   "systems": [
-    "crm",
-    "sales"
+    "crm"
   ],
   "topics": [
     "contacts",
-    "setup",
-    "industry groups",
+    "contact setup",
+    "contact management",
+    "segments",
     "mailing groups",
-    "segmentation"
+    "industry groups"
   ],
   "objects": [
     {
@@ -22,7 +22,15 @@
     },
     {
       "type": "page",
+      "name": "Industry Groups"
+    },
+    {
+      "type": "page",
       "name": "Contact Industry Groups"
+    },
+    {
+      "type": "page",
+      "name": "Mailing Groups"
     },
     {
       "type": "page",
@@ -42,11 +50,19 @@
     },
     {
       "type": "page",
-      "name": "Contact Business Relations"
+      "name": "Job Responsibilities"
+    },
+    {
+      "type": "page",
+      "name": "Organizational Levels"
     },
     {
       "type": "page",
       "name": "Contact Web Sources"
+    },
+    {
+      "type": "page",
+      "name": "Contact Business Relations"
     },
     {
       "type": "page",
@@ -58,15 +74,14 @@
     }
   ],
   "features": [
-    "Industry groups assignment",
-    "Mailing groups assignment",
-    "Alternate address definition",
-    "Job responsibilities",
-    "Organizational levels",
-    "Web sources",
-    "Business relations",
-    "Inheritance settings",
-    "Duplicate detection"
+    "industry groups",
+    "mailing groups",
+    "alternate addresses",
+    "job responsibilities",
+    "organizational levels",
+    "web sources",
+    "business relations",
+    "duplicate search"
   ],
   "versions": [],
   "parts": 1,
@@ -75,8 +90,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00703,
-      "pages_in_call": 8
+      "cost_usd": 0.00602,
+      "pages_in_call": 1
     }
   ]
 }

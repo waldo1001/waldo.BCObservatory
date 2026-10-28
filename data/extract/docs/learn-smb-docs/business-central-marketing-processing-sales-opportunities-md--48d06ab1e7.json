@@ -1,20 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/marketing-processing-sales-opportunities.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-processing-sales-opportunities",
-  "title": "Process sales opportunities in sales cycles",
-  "blob": "60fa6d05d8d22074dc9005b7a09fc90e176c630f",
-  "summary": "Manage sales opportunities through the Opportunities page by viewing, closing, creating quotes and orders, moving through sales cycle stages, and deleting closed opportunities using batch jobs.",
+  "title": "Process Sales Opportunities in Sales Cycles",
+  "blob": "a56b9e729e482a73a551221e161c359b42222166",
+  "summary": "Process sales opportunities through sales cycles by viewing, closing, creating quotes and orders, and moving opportunities through stages. Use this to manage the sales pipeline and track opportunity progression.",
   "systems": [
     "sales",
-    "crm"
+    "crm",
+    "reporting"
   ],
   "topics": [
     "sales opportunities",
-    "sales cycle",
-    "quotes",
-    "orders",
+    "sales cycles",
+    "sales quotes",
+    "sales orders",
     "opportunity management",
-    "sales process"
+    "sales pipeline"
   ],
   "objects": [
     {
@@ -31,21 +32,26 @@
     },
     {
       "type": "page",
-      "name": "Opportunity List"
+      "name": "Update Opportunity"
     },
     {
       "type": "page",
-      "name": "Update Opportunity"
+      "name": "Salespeople"
+    },
+    {
+      "type": "page",
+      "name": "Contacts"
     }
   ],
   "features": [
-    "close opportunities",
-    "opportunity codes",
-    "create sales quotes",
-    "create sales orders",
-    "delete opportunities",
-    "sales cycle stages",
-    "update opportunity"
+    "View opportunities by salesperson or contact",
+    "Close opportunities with reason codes",
+    "Create sales quotes from opportunities",
+    "Create sales orders from quotes",
+    "Delete closed opportunities",
+    "Move opportunities through sales cycle stages",
+    "Skip stages in sales cycle",
+    "Update opportunity information"
   ],
   "versions": [],
   "parts": 1,
@@ -54,8 +60,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00335,
-      "pages_in_call": 8
+      "cost_usd": 0.004878,
+      "pages_in_call": 1
     }
   ]
 }

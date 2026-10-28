@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up marketing and contact management information",
+  "title": "Set Up Marketing and Contact Management",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-setup-marketing",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.608Z",
-      "blob": "2d21cf69714bafa5053b285719f02a5119526f2a",
-      "words": 759,
+      "at": "2026-10-28T08:57:49.178Z",
+      "blob": "90983ba162ecc087544abc41cabe1b0a67e9d9ea",
+      "words": 763,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:01:27.382Z",
+      "at": "2026-10-28T08:57:57.959Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.003247
+      "objects": 2,
+      "cost_usd": 0.00407
     },
     "summarized": {
-      "at": "2026-10-06T19:01:29.029Z",
+      "at": "2026-10-28T08:57:57.961Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:29.030Z",
+      "at": "2026-10-28T08:57:57.962Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:29.031Z",
+      "at": "2026-10-28T08:57:57.963Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/marketing-setup-marketing.md",
     "description": "Set up marketing and contact management to strengthen relationships with prospects and customers, and enhance the effectiveness of your campaigns and promotions.",
-    "ms_date": "2025-10-03",
+    "ms_date": "2026-10-22",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "campaign",
       "promo"
     ],
-    "ai_usage": null,
-    "words": 759,
+    "ai_usage": "ai-assisted",
+    "words": 763,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f16df09f7d43034f8d15027e8e33636a6734d3e094a72303a0ad4265f760ecba"
+  "output_hash": "160794dcad201c69a9db414aede5a914751cf5cc6960c4fd6f04ee40cba55f8a"
 }

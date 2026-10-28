@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Process sales opportunities in sales cycles",
+  "title": "Process Sales Opportunities in Sales Cycles",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-processing-sales-opportunities",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.810Z",
-      "blob": "60fa6d05d8d22074dc9005b7a09fc90e176c630f",
-      "words": 742,
+      "at": "2026-10-28T08:57:37.171Z",
+      "blob": "a56b9e729e482a73a551221e161c359b42222166",
+      "words": 794,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:02:13.739Z",
+      "at": "2026-10-28T08:57:46.919Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.00335
+      "objects": 6,
+      "cost_usd": 0.004878
     },
     "summarized": {
-      "at": "2026-10-06T19:02:13.770Z",
+      "at": "2026-10-28T08:57:46.920Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:02:13.771Z",
+      "at": "2026-10-28T08:57:46.921Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:02:13.772Z",
+      "at": "2026-10-28T08:57:46.922Z",
       "page": false
     }
   },
@@ -44,20 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/marketing-processing-sales-opportunities.md",
-    "description": "Learn how move opportunities through different stages in the sales process.",
-    "ms_date": "2025-10-03",
+    "description": "Move sales opportunities through sales cycle stages in Business Central, create sales quotes, close deals, and delete closed opportunities.",
+    "ms_date": "2026-10-22",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "relationship",
       "prospect"
     ],
-    "ai_usage": null,
-    "words": 742,
+    "ai_usage": "ai-assisted",
+    "words": 794,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "26428678a2ecc281ecea67da0d02f788295bb1c66d34ad4587cad5e669fa1a83"
+  "output_hash": "39a9ef1dec8583f3fea442d3c7e59eba2afae59e84bb040d39bbdd3daaefd31a"
 }

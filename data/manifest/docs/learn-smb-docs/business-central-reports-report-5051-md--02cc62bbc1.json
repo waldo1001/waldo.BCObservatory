@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5051",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.362Z",
-      "blob": "e42ef7c70fb53b28e6c87098c370705f84d28d11",
-      "words": 138,
+      "at": "2026-10-28T08:57:50.907Z",
+      "blob": "c166d6bc791d231085f30fdf90846cb2d254503f",
+      "words": 159,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:06.489Z",
+      "at": "2026-10-28T08:57:59.081Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002133
+      "cost_usd": 0.002867
     },
     "summarized": {
-      "at": "2026-10-06T18:54:06.788Z",
+      "at": "2026-10-28T08:57:59.083Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:06.788Z",
+      "at": "2026-10-28T08:57:59.084Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:06.790Z",
+      "at": "2026-10-28T08:57:59.085Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5051.md",
-    "description": "Get an overview about your contact companies, including related interactions and to-dos.",
-    "ms_date": "2024-11-11",
+    "description": "Review company contact details, associated contact persons, tasks, and interactions with the Contact - Company Summary report in Business Central.",
+    "ms_date": "2026-10-22",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 138,
+    "ai_usage": "ai-assisted",
+    "words": 159,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e3323f11b789cc76aa106c33605bbe905f27204d0c1bd45d9f1b540eba62aa28"
+  "output_hash": "b76776cca7f93185e5185fd537a481d359aaa7f6f4ab1a7e9888baf20e92a4ba"
 }

@@ -1,20 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/marketing-set-up-email-logging.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-set-up-email-logging",
-  "title": "Set up email logging",
-  "blob": "eb4935e1fc41cacfe27abf22f7a20f48e7c242a4",
-  "summary": "Set up email logging to track email exchanges between salespeople and contacts in Business Central by configuring Exchange Online with shared mailbox and mail flow rules. Use this to maintain interaction logs and manage sales opportunities from email communications.",
+  "title": "Set Up Email Logging for Contact Interactions",
+  "blob": "48856c2d4cac60e77ca00fea47f5cbdd2ab1a6b3",
+  "summary": "Configure email logging to track and log email exchanges between salespeople and contacts using Exchange Online or on-premises Exchange, then view and analyze messages in the Interaction Log Entries page.",
   "systems": [
     "crm",
-    "integration",
-    "sales"
+    "sales",
+    "integration"
   ],
   "topics": [
     "email logging",
     "exchange online",
-    "interaction log",
-    "sales opportunities",
-    "contact management"
+    "interaction tracking",
+    "contact management",
+    "email setup"
   ],
   "objects": [
     {
@@ -23,11 +23,23 @@
     },
     {
       "type": "page",
+      "name": "Marketing Setup"
+    },
+    {
+      "type": "page",
       "name": "Email Logging"
     },
     {
       "type": "page",
-      "name": "Marketing Setup"
+      "name": "Assisted Setup"
+    },
+    {
+      "type": "page",
+      "name": "Contact"
+    },
+    {
+      "type": "page",
+      "name": "Salesperson/Purchaser"
     },
     {
       "type": "codeunit",
@@ -35,12 +47,14 @@
     }
   ],
   "features": [
-    "email logging setup",
+    "email message logging",
     "exchange online integration",
-    "shared mailbox configuration",
+    "interaction log entries",
+    "sales opportunity creation",
+    "email validation",
+    "shared mailbox setup",
     "mail flow rules",
-    "interaction tracking",
-    "opportunity creation"
+    "job queue entry management"
   ],
   "versions": [],
   "parts": 1,
@@ -49,8 +63,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005672,
-      "pages_in_call": 8
+      "cost_usd": 0.010561,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,25 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/marketing-segments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-segments",
-  "title": "Manage segments and select contacts",
-  "blob": "a209906bd564b16b6444d0c24208e4a33849d706",
-  "summary": "Create and manage segments to group contacts by specific criteria such as industry or business relationship, and select target contacts for campaigns.",
+  "title": "Manage Segments and Select Contacts",
+  "blob": "f6d6db8070f830070c72da0ed9d986b3879a12df",
+  "summary": "Manage segments to select groups of contacts based on specific criteria like industry or business relationship for targeted campaigns.",
   "systems": [
-    "crm"
+    "crm",
+    "sales"
   ],
   "topics": [
     "segments",
     "contacts",
-    "contact selection",
-    "targeting",
-    "campaigns"
+    "campaigns",
+    "marketing",
+    "selection",
+    "grouping"
   ],
   "objects": [],
   "features": [
     "segment creation",
-    "contact grouping",
     "contact selection",
-    "campaign targeting"
+    "segment management",
+    "interaction management"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003362,
-      "pages_in_call": 8
+      "cost_usd": 0.002882,
+      "pages_in_call": 1
     }
   ]
 }

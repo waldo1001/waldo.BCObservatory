@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Manage segments and select contacts",
+  "title": "Manage Segments and Select Contacts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-segments",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.604Z",
-      "blob": "a209906bd564b16b6444d0c24208e4a33849d706",
+      "at": "2026-10-28T08:57:37.893Z",
+      "blob": "f6d6db8070f830070c72da0ed9d986b3879a12df",
       "words": 161,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:01:21.953Z",
+      "at": "2026-10-28T08:57:49.240Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003362
+      "cost_usd": 0.002882
     },
     "summarized": {
-      "at": "2026-10-06T19:01:23.608Z",
+      "at": "2026-10-28T08:57:49.242Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:23.609Z",
+      "at": "2026-10-28T08:57:49.244Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:23.610Z",
+      "at": "2026-10-28T08:57:49.244Z",
       "page": false
     }
   },
@@ -44,20 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/marketing-segments.md",
-    "description": "Learn how to create and manage segments by selecting groups of contacts based on specific criteria, enabling you to effectively target these segments in future campaigns.",
-    "ms_date": "2025-10-03",
+    "description": "Group contacts into marketing segments in Business Central, select contacts using criteria, and record interactions with your campaign audience.",
+    "ms_date": "2026-10-22",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "relationship",
       "prospect"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 161,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "47602002905f2ad631878bd1116eb3a9bd1b2e6b69a7c1d772972c0abe018d34"
+  "output_hash": "111b9e4e106e611fdb7e5f9f84940cbc5db4e6533909f59b50eb5cb457f6cef6"
 }

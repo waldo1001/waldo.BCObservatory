@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5053",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.367Z",
-      "blob": "d0b7b30563ee4d5c9c1b9311e77171852736ca87",
+      "at": "2026-10-28T08:57:59.092Z",
+      "blob": "1c7c2c50f0aa780fd746604925f44dfe11b7c4e7",
       "words": 138,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T21:17:39.811Z",
+      "at": "2026-10-28T08:58:05.570Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003275
+      "cost_usd": 0.002581
     },
     "summarized": {
-      "at": "2026-10-06T21:17:39.823Z",
+      "at": "2026-10-28T08:58:05.571Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T21:17:39.824Z",
+      "at": "2026-10-28T08:58:11.228Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T21:17:39.825Z",
+      "at": "2026-10-28T08:58:11.230Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5053.md",
-    "description": "Get information about a contact person, including related interactions and to-dos.",
-    "ms_date": "2024-11-11",
+    "description": "Review contact person details and related interactions and tasks with the Contact - Person Summary report in Microsoft Dynamics 365 Business Central.",
+    "ms_date": "2026-10-22",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 138,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5b9d0996594e9843d1ec9d581e362d53e559026386795f004e222da08ddb40c6"
+  "output_hash": "40a397c0fbde0fcd38f8c91fb143c0809697862d830326158b521074dec7490e"
 }

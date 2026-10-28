@@ -1,30 +1,30 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/marketing-relationship-management.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-relationship-management",
-  "title": "Relationship management",
-  "blob": "416ba1080ef39063683c896b8b579bc717aae128",
-  "summary": "Manage customer relationships by organizing contacts, interactions, segments, opportunities, and marketing campaigns integrated with Dynamics 365 Sales.",
+  "title": "Manage Business Relationships and Marketing",
+  "blob": "1fc7714bed6e7214367021e90a88bd890e33296a",
+  "summary": "Relationship management features help manage sales efforts by providing complete contact information, communication tracking, and lead-to-opportunity management across customer segments.",
   "systems": [
     "crm",
-    "sales",
-    "integration"
+    "sales"
   ],
   "topics": [
     "relationship management",
     "contacts",
     "interactions",
+    "sales opportunities",
     "segments",
-    "opportunities",
-    "campaigns"
+    "marketing campaigns",
+    "lead management"
   ],
   "objects": [],
   "features": [
-    "contact management",
-    "interaction management",
-    "segment management",
-    "opportunity management",
-    "marketing campaigns",
-    "crm integration"
+    "Contact management",
+    "Interaction tracking",
+    "Segment creation",
+    "Sales opportunity management",
+    "Marketing campaign planning",
+    "Dynamics 365 Sales integration"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003362,
-      "pages_in_call": 8
+      "cost_usd": 0.003159,
+      "pages_in_call": 1
     }
   ]
 }

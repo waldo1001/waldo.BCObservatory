@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5056",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.377Z",
-      "blob": "ca36b2db9cf8823c3c05047a5e7583651fc2f8af",
-      "words": 154,
+      "at": "2026-10-28T08:57:59.779Z",
+      "blob": "ab86e3fc78ba08bb739e4c1e7500d532f4d1bf77",
+      "words": 168,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:06.745Z",
+      "at": "2026-10-28T08:58:11.959Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001102
+      "cost_usd": 0.002793
     },
     "summarized": {
-      "at": "2026-10-06T18:54:06.791Z",
+      "at": "2026-10-28T08:58:11.961Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:06.793Z",
+      "at": "2026-10-28T08:58:11.962Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:06.794Z",
+      "at": "2026-10-28T08:58:11.963Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5056.md",
-    "description": "Print mailing labels with the names and addresses of your contacts.",
-    "ms_date": "2024-11-11",
+    "description": "Print mailing labels with contact names and addresses, using preset sizes and column counts, with the Contact Labels report in Business Central.",
+    "ms_date": "2026-10-22",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 154,
+    "ai_usage": "ai-assisted",
+    "words": 168,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "af2cf9e1544f2383ffa10cf6c63281eb320b003ef2df29c55c291c463c7390da"
+  "output_hash": "6b69691107ca67d5c0af7f9bc4ba9744bce94606600415b472fdb16f7e2fd94f"
 }

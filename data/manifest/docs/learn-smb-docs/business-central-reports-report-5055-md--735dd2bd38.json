@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5055",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.372Z",
-      "blob": "43766242292e6685ca0506602cb35bbcc5a19cda",
-      "words": 179,
+      "at": "2026-10-28T08:57:59.847Z",
+      "blob": "03e7c4c1be3d81c70d8dc81a90e1f340ae79c2f6",
+      "words": 198,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:06.744Z",
+      "at": "2026-10-28T08:58:12.816Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001102
+      "cost_usd": 0.002909
     },
     "summarized": {
-      "at": "2026-10-06T18:54:06.761Z",
+      "at": "2026-10-28T08:58:12.817Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:06.762Z",
+      "at": "2026-10-28T08:58:12.819Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:06.763Z",
+      "at": "2026-10-28T08:58:12.820Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5055.md",
-    "description": "Get cover sheets to send to one or more of your contacts.",
-    "ms_date": "2024-11-11",
+    "description": "Create cover sheets for contacts, add text and remarks, and optionally log interactions with the Contact - Cover Sheet report in Business Central.",
+    "ms_date": "2026-10-22",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 179,
+    "ai_usage": "ai-assisted",
+    "words": 198,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "324c44d5303280613eaab34b9af08d62108972c92447236e0a4e3ac7b035950c"
+  "output_hash": "c2305fbb18b851249a301644b7f91b58e20ab5c39fc91890f159bad136272372"
 }

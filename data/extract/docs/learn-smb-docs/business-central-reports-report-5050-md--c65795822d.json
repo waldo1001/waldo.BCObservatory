@@ -2,15 +2,16 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5050.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5050",
   "title": "Contact - List (report)",
-  "blob": "18b96b5f12907ba385f24a5847784ec0feab638e",
-  "summary": "Contact - List report displays all contacts with details about contact type, related opportunities, and to-dos for relationship management.",
+  "blob": "105770566362bbcd29c74a4d4f8ad36b59a78b81",
+  "summary": "The Contact List report displays contacts with their type, opportunity information, costs, duration, and next task dates, filterable by contact number, name, type, salesperson, post code, or country/region.",
   "systems": [
     "crm"
   ],
   "topics": [
     "contacts",
-    "opportunities",
-    "relationship management"
+    "reports",
+    "relationship management",
+    "filtering"
   ],
   "objects": [
     {
@@ -19,10 +20,14 @@
     }
   ],
   "features": [
-    "contact list",
     "contact type",
-    "opportunity tracking",
-    "to-do tracking"
+    "opportunity counts",
+    "opportunity values",
+    "costs",
+    "duration",
+    "next task date",
+    "filtering by contact number",
+    "filtering by search name"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002133,
-      "pages_in_call": 7
+      "cost_usd": 0.002767,
+      "pages_in_call": 1
     }
   ]
 }

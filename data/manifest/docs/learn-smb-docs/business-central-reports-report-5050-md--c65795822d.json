@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5050",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.357Z",
-      "blob": "18b96b5f12907ba385f24a5847784ec0feab638e",
-      "words": 125,
+      "at": "2026-10-28T08:57:49.116Z",
+      "blob": "105770566362bbcd29c74a4d4f8ad36b59a78b81",
+      "words": 143,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:06.488Z",
+      "at": "2026-10-28T08:57:57.418Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002133
+      "cost_usd": 0.002767
     },
     "summarized": {
-      "at": "2026-10-06T18:54:06.784Z",
+      "at": "2026-10-28T08:57:57.420Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:06.785Z",
+      "at": "2026-10-28T08:57:57.421Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:06.786Z",
+      "at": "2026-10-28T08:57:57.422Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5050.md",
-    "description": "Get list of all your contacts, including related opportunities and to-dos.",
-    "ms_date": "2024-11-11",
+    "description": "Review contact types, opportunity counts and values, costs, duration, and next task dates with the Contact List report in Business Central.",
+    "ms_date": "2026-10-22",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 125,
+    "ai_usage": "ai-assisted",
+    "words": 143,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bcd9f309f48ed12d1a26abf47bb876a15ecdbd6210934b0688a53421d8d8d84a"
+  "output_hash": "538b401e0240e2eb3b9a0924fa0202f1c130586b3b7aef2e4e80a432685c8242"
 }

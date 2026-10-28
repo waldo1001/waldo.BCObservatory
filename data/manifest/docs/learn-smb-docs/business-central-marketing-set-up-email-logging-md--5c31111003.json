@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up email logging",
+  "title": "Set Up Email Logging for Contact Interactions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-set-up-email-logging",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.326Z",
-      "blob": "eb4935e1fc41cacfe27abf22f7a20f48e7c242a4",
-      "words": 1805,
+      "at": "2026-10-28T08:57:37.827Z",
+      "blob": "48856c2d4cac60e77ca00fea47f5cbdd2ab1a6b3",
+      "words": 1786,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T18:49:35.259Z",
+      "at": "2026-10-28T08:57:46.932Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.005672
+      "objects": 7,
+      "cost_usd": 0.010561
     },
     "summarized": {
-      "at": "2026-10-06T18:49:41.429Z",
+      "at": "2026-10-28T08:57:46.934Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:49:41.430Z",
+      "at": "2026-10-28T08:57:46.935Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:49:41.431Z",
+      "at": "2026-10-28T08:57:46.936Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/marketing-set-up-email-logging.md",
-    "description": "Learn how to turn email interactions between salespeople and customers into real sales opportunities.",
-    "ms_date": "2025-10-03",
+    "description": "Set up email logging between salespeople and contacts in Business Central, configure an Exchange Online mailbox, and turn messages into sales opportunities.",
+    "ms_date": "2026-10-22",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -70,12 +70,12 @@
       "opportunity",
       "email"
     ],
-    "ai_usage": null,
-    "words": 1805,
+    "ai_usage": "ai-assisted",
+    "words": 1786,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1695976be5657c2e0b92cd4484b8d8ac73dd340d2fba713849e1a38939903d6b"
+  "output_hash": "bbaa40717a20f9f80f392d28eece175c03a7dc4333825d4307260ba7e8aaf6a7"
 }
