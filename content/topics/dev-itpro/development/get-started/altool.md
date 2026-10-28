@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:09.736Z"
   flags: []
 generated:
-  at: "2026-10-26T08:46:07.995Z"
+  at: "2026-10-28T08:42:58.321Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,7 +41,8 @@ links:
   topics:
     - topic/dev-itpro/development/get-started
   localizations: []
-  videos: []
+  videos:
+    - video/urLsKPqOSbc
   posts:
     - post/nataliekarolak-com/3995
   guidelines: []
@@ -61,7 +62,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 1
   blog: 1
   guideline: 0
 bc_forms: []
@@ -109,5 +110,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2382 Fix dependency artifact pattern for branch names with glob-special characters](../../../../changes/al-go/2382.md) (code change): "Fixed a bug where dependency artifact downloads failed silently"
 - [#2407 Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency](../../../../changes/al-go/2407.md) (code change): "AL-Go for GitHub now supports GitHub Enterprise Cloud with dynamic host resolution"
 - [Docs: What’s new in BC 28 for developers](../../../../posts/nataliekarolak-com/3995.md) (community post): "MCP tooling grows, including an Admin Center API MCP server usable from VS Code"
+- [Exploring Rabbit Holes with AL Tool Graphs](../../../../videos/urLsKPqOSbc.md) (video): "AL Tool Graphs; AL tools; call graphs; code analysis"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

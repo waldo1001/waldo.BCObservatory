@@ -2284,43 +2284,88 @@
     "573336": {
       "video/D_Lur52IrIg#14@cff0c68c213caf6c": {
         "verdict": "keep",
-        "reason": "This announces the offline static call graph analysis across an extension and its dependencies, which is the core of this feature.",
-        "at": "2026-10-25T12:47:28.476Z"
+        "reason": "Announces offline static call graph analysis that extracts and queries call chains across an extension and its dependencies.",
+        "at": "2026-10-28T08:41:01.335Z"
       },
       "video/i0gBrA1tx50#0@487dbafc5ba98856": {
         "verdict": "keep",
-        "reason": "It introduces AL Graph, which builds call graphs to analyze caller and callee relationships, dependencies and security issues.",
-        "at": "2026-10-25T12:47:28.476Z"
+        "reason": "Introduces AL Graph, which builds call graphs for caller-callee and dependency analysis, the core of this feature.",
+        "at": "2026-10-28T08:41:01.335Z"
       },
       "video/i0gBrA1tx50#1@487dbafc5ba98856": {
         "verdict": "keep",
-        "reason": "The query language for tracing callers and security boundaries is the 'query' part of the feature.",
-        "at": "2026-10-25T12:47:28.476Z"
+        "reason": "Describes the AL Graph query language, including tracing security boundaries.",
+        "at": "2026-10-28T08:41:01.335Z"
       },
       "video/i0gBrA1tx50#2@487dbafc5ba98856": {
         "verdict": "keep",
-        "reason": "DGML export is one of the feature's visual exports.",
-        "at": "2026-10-25T12:47:28.476Z"
+        "reason": "Covers the DGML visual export of graph queries.",
+        "at": "2026-10-28T08:41:01.335Z"
       },
       "video/i0gBrA1tx50#3@487dbafc5ba98856": {
         "verdict": "keep",
-        "reason": "SARIF export is another of the feature's exports and supports automated governance.",
-        "at": "2026-10-25T12:47:28.476Z"
+        "reason": "Covers the SARIF export format for graph queries, one of the feature's export options.",
+        "at": "2026-10-28T08:41:01.335Z"
       },
       "video/i0gBrA1tx50#4@487dbafc5ba98856": {
         "verdict": "keep",
-        "reason": "Extracting the meta model is the 'build' step of the static call graph.",
-        "at": "2026-10-25T12:47:28.476Z"
+        "reason": "Explains the meta model extraction step used to build the call graph.",
+        "at": "2026-10-28T08:41:01.335Z"
       },
       "video/i0gBrA1tx50#5@487dbafc5ba98856": {
         "verdict": "keep",
-        "reason": "It shows a call-graph query that traces call paths to HTTP client, an audit use of the feature.",
-        "at": "2026-10-25T12:47:28.476Z"
+        "reason": "Shows a graph query that traces call paths to the HTTP client, a cross-boundary audit use case.",
+        "at": "2026-10-28T08:41:01.335Z"
       },
       "video/i0gBrA1tx50#6@487dbafc5ba98856": {
         "verdict": "keep",
-        "reason": "It shows the debugging boundary audit, where secrets could become inspectable in the debugger.",
-        "at": "2026-10-25T12:47:28.476Z"
+        "reason": "Shows the audit of non-debuggable to debuggable boundaries where secrets could be exposed in the debugger.",
+        "at": "2026-10-28T08:41:01.335Z"
+      },
+      "video/urLsKPqOSbc#0@ac6721339f4323e3": {
+        "verdict": "keep",
+        "reason": "Demonstrates generating AL call graphs, including flows from one app to another.",
+        "at": "2026-10-28T08:41:01.335Z"
+      },
+      "video/urLsKPqOSbc#1@ac6721339f4323e3": {
+        "verdict": "keep",
+        "reason": "Shows the AL graph command for querying call graphs across apps.",
+        "at": "2026-10-28T08:41:01.335Z"
+      },
+      "video/urLsKPqOSbc#2@ac6721339f4323e3": {
+        "verdict": "keep",
+        "reason": "Shows the extract command that builds the call graph for one or more apps.",
+        "at": "2026-10-28T08:41:01.335Z"
+      },
+      "video/urLsKPqOSbc#3@ac6721339f4323e3": {
+        "verdict": "keep",
+        "reason": "Shows the export command, which uses query selectors to scope the exported graph.",
+        "at": "2026-10-28T08:41:01.335Z"
+      },
+      "video/urLsKPqOSbc#4@ac6721339f4323e3": {
+        "verdict": "keep",
+        "reason": "Explains the query syntax, including filtering by debuggable status.",
+        "at": "2026-10-28T08:41:01.335Z"
+      },
+      "video/urLsKPqOSbc#5@ac6721339f4323e3": {
+        "verdict": "keep",
+        "reason": "Demonstrates DGML export for visualizing the graph.",
+        "at": "2026-10-28T08:41:01.335Z"
+      },
+      "video/urLsKPqOSbc#6@ac6721339f4323e3": {
+        "verdict": "keep",
+        "reason": "Shows extracting the graph across the whole codebase, compiling multiple apps together.",
+        "at": "2026-10-28T08:41:01.335Z"
+      },
+      "video/urLsKPqOSbc#7@ac6721339f4323e3": {
+        "verdict": "keep",
+        "reason": "Shows selector filtering to find which methods call specific functions such as HTTP client operations.",
+        "at": "2026-10-28T08:41:01.335Z"
+      },
+      "video/urLsKPqOSbc#8@ac6721339f4323e3": {
+        "verdict": "keep",
+        "reason": "Shows member notation in graph queries to find the callers of specific methods.",
+        "at": "2026-10-28T08:41:01.335Z"
       }
     },
     "573338": {

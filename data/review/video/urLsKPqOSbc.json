@@ -1,0 +1,32 @@
+{
+  "video_id": "urLsKPqOSbc",
+  "item_id": "video/yt-hougaard/urLsKPqOSbc",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary names the presenter 'Erik Hougaard'. The transcript only says 'I'm Eric', so the surname comes from outside knowledge.",
+    "The key point on export repeats the help text ('no selectors, whole graph exported') but leaves out that the presenter said he did not think this actually works.",
+    "Quote at 881.8 is garbled caption text ('something something something') and adds nothing useful.",
+    "Features 'AL graph extract whole corpus command' and 'AL graph export and format to DGML' overlap with the extract and export features. The transcript supports them, so they are kept.",
+    "All features are left as unclear. The pre-release install mention is not stated as the graph feature's status.",
+    "The stitch command and the non-debuggable to debuggable (secrets leak) use case were missing, so quotes for them are added."
+  ],
+  "input_hash": "ca81fb39870a709db6ddb5e31cf5de345cefbeb336fd9d3d101512dd42a21a81",
+  "by": "opus",
+  "at": "2026-10-28T08:36:19.621Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 558s",
+    "quote at 670s",
+    "quote at 34s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.136052
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "video_id": "urLsKPqOSbc",
+  "item_id": "video/yt-hougaard/urLsKPqOSbc",
+  "title": "Exploring Rabbit Holes with AL Tool Graphs",
+  "duration_s": 1621,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al tools",
+    "call graphs",
+    "code analysis",
+    "app compilation",
+    "graph extraction",
+    "graph export",
+    "query syntax",
+    "dependency visualization",
+    "method filtering",
+    "object selectors",
+    "static analysis",
+    "debugging"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to AL Tools call graphs",
+      "t_start": 0,
+      "t_end": 58.4
+    },
+    {
+      "title": "Installing and accessing AL tools",
+      "t_start": 58.4,
+      "t_end": 173.9
+    },
+    {
+      "title": "AL tools capabilities and graph command",
+      "t_start": 173.9,
+      "t_end": 288.7
+    },
+    {
+      "title": "Extracting call graphs from apps",
+      "t_start": 288.7,
+      "t_end": 427.6
+    },
+    {
+      "title": "Examining extracted graph data",
+      "t_start": 427.6,
+      "t_end": 557.8
+    },
+    {
+      "title": "Exporting and filtering graph results",
+      "t_start": 557.8,
+      "t_end": 790.6
+    },
+    {
+      "title": "Running AL graph extract command",
+      "t_start": 790.6,
+      "t_end": 900
+    },
+    {
+      "title": "Visualizing HTTP client dependencies",
+      "t_start": 900,
+      "t_end": 1000
+    },
+    {
+      "title": "Exploring method filtering syntax",
+      "t_start": 1000,
+      "t_end": 1100
+    },
+    {
+      "title": "Testing hashtag member filter notation",
+      "t_start": 1100,
+      "t_end": 1250
+    },
+    {
+      "title": "Troubleshooting selector syntax and documentation",
+      "t_start": 1250,
+      "t_end": 1400
+    },
+    {
+      "title": "Wrapping up AL tool graphs discussion",
+      "t_start": 1400,
+      "t_end": 1621
+    }
+  ],
+  "features": [
+    {
+      "name": "AL call graph generation",
+      "description": "The ability to generate call graphs showing how code reaches something or flows from one app to another. Part of the latest version of AL tools.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.8,
+      "t_end": 45.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "call graphs",
+        "code analysis",
+        "flowchart"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL graph command",
+      "description": "Command to query the AL call graph across your apps, allowing cross-app interaction analysis. Part of AL tools capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 264,
+      "t_end": 288.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires multiple steps"
+      ],
+      "tags": [
+        "graph",
+        "cross-app",
+        "query"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL graph extract command",
+      "description": "Extracts the call graph from one app or multiple apps depending on folder structure. Can extract all, a specific app, or compile all apps under corpus root as one compilation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 325.8,
+      "t_end": 427.6,
+      "is_demoed": true,
+      "caveats": [
+        "Takes longer for larger apps",
+        "Multi-app extraction takes more time"
+      ],
+      "tags": [
+        "extraction",
+        "compilation",
+        "cross-app"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL graph export command",
+      "description": "Exports the graph in various formats with query selectors to scope to consumable subgraphs. Supports filtering what parts of the graph are exported.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 557.8,
+      "t_end": 695.2,
+      "is_demoed": true,
+      "caveats": [
+        "Query selector functionality may not work as expected in all cases",
+        "Requires proper syntax for filtering"
+      ],
+      "tags": [
+        "export",
+        "format",
+        "filtering"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Graph query syntax",
+      "description": "Query language allowing selection of specific object types, namespaces, and debuggable status. Can filter by object types like page and specific names.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 703.9,
+      "t_end": 756,
+      "is_demoed": true,
+      "caveats": [
+        "Still being learned",
+        "Documentation incomplete"
+      ],
+      "tags": [
+        "query",
+        "syntax",
+        "filtering"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL graph export and format to DGML",
+      "description": "Tool that exports AL dependency graphs and formats them to DGML format for visualization. Can output to various formats including DGML for viewing with tools like Visual Studio.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 790.6,
+      "t_end": 920,
+      "is_demoed": true,
+      "caveats": [
+        "requires properly formatted input graphs",
+        "output quality depends on graph file preparation"
+      ],
+      "tags": [
+        "graph visualization",
+        "dgml format",
+        "dependency analysis"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL graph extract whole corpus command",
+      "description": "Command to extract dependency graphs from entire extension codebase. Compiles multiple files together and generates a graph representation of dependencies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 831.8,
+      "t_end": 895.2,
+      "is_demoed": true,
+      "caveats": [
+        "output file size varies based on extraction parameters",
+        "may require specific command syntax"
+      ],
+      "tags": [
+        "graph extraction",
+        "corpus analysis",
+        "whole codebase"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Tool Graph method filtering with selectors",
+      "description": "Feature to filter dependency graphs by specific methods or objects using selector syntax. Allows querying which methods call specific functions like HTTP client operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1040,
+      "t_end": 1200,
+      "is_demoed": true,
+      "caveats": [
+        "selector syntax documentation appears incomplete",
+        "method specification requires specific notation format",
+        "hashtag member syntax needed for filtering"
+      ],
+      "tags": [
+        "method filtering",
+        "object selectors",
+        "graph queries"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL graph visualization using hashtag member notation",
+      "description": "Filtering method using hashtag member syntax to identify specific method overloads and their callers in dependency graphs. Shows where methods like create folder are called throughout the codebase.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1165.5,
+      "t_end": 1220,
+      "is_demoed": true,
+      "caveats": [
+        "syntax requires hashtag prefix for member specification",
+        "documentation on this syntax is limited"
+      ],
+      "tags": [
+        "method selection",
+        "visualization filtering",
+        "syntax notation"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "HTTP client",
+      "t": 681.6
+    },
+    {
+      "type": "report",
+      "name": "report",
+      "t": 483.6
+    },
+    {
+      "type": "codeunit",
+      "name": "codeunits",
+      "t": 483.6
+    },
+    {
+      "type": "page",
+      "name": "pages",
+      "t": 483.6
+    },
+    {
+      "type": "codeunit",
+      "name": "SharePoint EFQ",
+      "t": 1073.9
+    },
+    {
+      "type": "codeunit",
+      "name": "SharePoint",
+      "t": 1124
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0.8,
+      "text": "something new in the in the latest version of AL tools is the ability to generate call graphs",
+      "why_it_matters": "Establishes the main feature being demonstrated - a new capability in AL tools for visualizing code flow.",
+      "check": "exact"
+    },
+    {
+      "t": 18.6,
+      "text": "imagine you want to say I wonder what calls this and then you could actually get a nice flowchart of how the code reaches",
+      "why_it_matters": "Explains the use case for call graphs - understanding code dependencies and call chains.",
+      "check": "exact"
+    },
+    {
+      "t": 33.6,
+      "text": "perhaps you want to make sure that your secrets are not getting leaked out so do we go from non-debuggable to debuggable",
+      "why_it_matters": "Gives a security use case for call graphs: checking calls from non-debuggable to debuggable code.",
+      "check": "exact"
+    },
+    {
+      "t": 264,
+      "text": "there's command called graph. Query the AL call graph across your apps",
+      "why_it_matters": "Identifies the main command and its capability to work across multiple apps.",
+      "check": "exact"
+    },
+    {
+      "t": 277.6,
+      "text": "Meaning that you can actually do this across multiple apps if you want to see how they interact",
+      "why_it_matters": "Clarifies that the graph command supports cross-app analysis.",
+      "check": "exact"
+    },
+    {
+      "t": 338.2,
+      "text": "you can extract all, you can extract a specific one, and you can um the the one extract whole compile compile all apps under",
+      "why_it_matters": "Details the extraction options available for building call graphs from apps.",
+      "check": "exact"
+    },
+    {
+      "t": 438.8,
+      "text": "that took a few seconds uh because it's actually compiling the app. And the bigger the app, the more apps you have, the longer",
+      "why_it_matters": "Explains performance characteristics - extraction time scales with app complexity.",
+      "check": "exact"
+    },
+    {
+      "t": 557.8,
+      "text": "we have a stitch uh command that if you have multiple apps, you can stitch them together to one",
+      "why_it_matters": "Documents the stitch subcommand for combining graphs from multiple apps.",
+      "check": "exact"
+    },
+    {
+      "t": 570.6,
+      "text": "export the graph as a format. Uh the query selector scope it to a consumable subgraph. With no selectors, the whole graph is exported.",
+      "why_it_matters": "Describes how to export graphs and filter results using selectors.",
+      "check": "exact"
+    },
+    {
+      "t": 669.6,
+      "text": "I don't think that actually works. So, let's let's add a parameter here.",
+      "why_it_matters": "Presenter reports that exporting with no selectors did not work in practice.",
+      "check": "exact"
+    },
+    {
+      "t": 831.8,
+      "text": "I will do AL graph extract. This time I'm going to do extract whole. And then you specify the corpus.",
+      "why_it_matters": "Explains the core command syntax for extracting dependency graphs from an entire codebase",
+      "check": "exact"
+    },
+    {
+      "t": 1152.1,
+      "text": "So this is an object. So maybe this is not how you specify a method. An object by the type and name of an",
+      "why_it_matters": "Documents the correct notation pattern for specifying methods in graph filters",
+      "check": "exact"
+    },
+    {
+      "t": 1577.8,
+      "text": "This is very interesting and and it it it is a debug tool to investigate how something is is is running. Static static analysis",
+      "why_it_matters": "Describes AL Tool Graphs as a static analysis debugging tool distinct from runtime snapshot debugging",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 745.1,
+      "kind": "other",
+      "text": "I'm I'm still kind of learning this"
+    },
+    {
+      "t": 1350.9,
+      "kind": "other",
+      "text": "None of these actually talks about how we do a notes of a kind method. Unfortunately, that None of these actually talks about how we do a notes of a kind method."
+    },
+    {
+      "t": 1398.4,
+      "kind": "other",
+      "text": "I feel like I could do this much better if I had slightly more documentation on the how this actually works."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 11,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022313
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019969
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012595
+    }
+  ]
+}

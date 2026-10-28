@@ -1,0 +1,25 @@
+{
+  "video_id": "urLsKPqOSbc",
+  "item_id": "video/yt-hougaard/urLsKPqOSbc",
+  "summary": "AL tools call graph commands (graph extract, extract whole, export) shown in a live, exploratory session by the presenter, Eric. It covers extracting call graphs from apps to JSONL, exporting to DGML, and trying selector syntax to find callers of HTTP client methods and a specific method.",
+  "overview": "Erik Hougaard looks at a new capability in the latest version of AL tools: generating call graphs that show what calls a given piece of code and how code in one app reaches another. He installs the tools, runs the graph extract command on an app, and then extracts a whole corpus, where 28 files are compiled together.\n\nHe then exports the graph, including to DGML for visualization, and tries to scope the output with query selectors, for example to see which methods call HTTP client operations or where create folder is called. The selector syntax takes trial and error, including a hashtag member notation, and he says he is still learning it and would like more documentation.",
+  "key_points": [
+    "AL tools in its latest version can generate call graphs to answer what calls a given piece of code, or whether code goes from non-debuggable to debuggable.",
+    "AL tools can be installed as a .NET global tool (optionally pre-release) and called as 'AL', or used as the AL tool binary in the VS Code extension bin folder.",
+    "The graph command queries the call graph across multiple apps, so cross-app interaction can be analyzed; a stitch command combines graphs of multiple apps.",
+    "Graph extract compiles the app, so it takes longer for larger apps or several apps; extract whole compiles all apps under the corpus root as one compilation.",
+    "Graph export writes the graph in formats including DGML; help says no selectors exports the whole graph, but the presenter did not think that actually works.",
+    "Query selectors scope the export to a smaller subgraph by object type and name, but the syntax did not always work as expected.",
+    "Filtering by method needed a hashtag member notation, and the presenter wanted more documentation on selector syntax."
+  ],
+  "audience": [
+    "developer"
+  ],
+  "extraction_hash": "9a5df501768635f14839079c869463028cbec5d78503797d62a9258591fd7ef0",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.020478
+  }
+}

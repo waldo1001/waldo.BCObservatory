@@ -4909,46 +4909,46 @@
       }
     },
     "topic/business-central/responsible-ai": {
-      "post/jeremyvyska-com/1289@cb2a21d99b0f0279": {
-        "verdict": "drop",
-        "reason": "A personal reflection on AI ethics in general (training data, jobs, environment), not Business Central's responsible AI practices.",
-        "at": "2026-10-26T10:54:48.619Z",
+      "post/jeremyvyska-com/1289@dcc2272b7c006269": {
+        "verdict": "keep",
+        "reason": "Discusses AI ethics, data consent and regulation, which overlaps the responsible AI concerns this section documents; kept on the doubt rule.",
+        "at": "2026-10-28T08:42:33.049Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/05/28/the-lump-of-labour-fallacy-fallacy/@7733ab2e82ec5c11": {
         "verdict": "drop",
-        "reason": "An essay on automation and the economics of employment; nothing in it is documented in this section.",
-        "at": "2026-10-26T10:54:48.619Z",
+        "reason": "About AI's effect on jobs and the lump of labour fallacy, which this section does not document.",
+        "at": "2026-10-28T08:42:33.049Z",
         "v": 2
       },
       "video/7SSNcUMFtCw@0a389bab8e080e1f": {
         "verdict": "keep",
-        "reason": "Covers content safety policies, data residency for AI calls and system prompts for safety, all of which fall under responsible AI.",
-        "at": "2026-10-26T10:54:48.619Z",
+        "reason": "Covers content safety blocking, data residency for AI calls and safety system prompts, all responsible AI controls.",
+        "at": "2026-10-28T08:42:33.049Z",
         "v": 2
       },
       "video/bCIcq1zESKk@0927c46482877797": {
         "verdict": "drop",
-        "reason": "A demo of the item substitution Copilot feature; the Copilot capabilities section documents it more exactly.",
-        "at": "2026-10-26T10:54:48.619Z",
+        "reason": "Demo of the item substitution Copilot feature, which belongs in Copilot and agent capabilities; responsible AI is only mentioned in passing.",
+        "at": "2026-10-28T08:42:33.049Z",
         "v": 2
       },
       "video/lNASlydCidI@22cc3fc62993bd91": {
         "verdict": "keep",
-        "reason": "Includes responsible AI principles and guidelines, AI-generated content disclaimers and safety mechanisms in prompts.",
-        "at": "2026-10-26T10:54:48.619Z",
+        "reason": "Includes responsible AI principles and guidelines, AI-generated content disclaimers and prompt safety mechanisms.",
+        "at": "2026-10-28T08:42:33.049Z",
         "v": 2
       },
       "video/qP0id91bIlA@2955d3db6f4e0f12": {
         "verdict": "keep",
-        "reason": "Discusses human-in-the-loop design, building user trust, previewing and discarding AI content, and confidence marking, all responsible AI practices.",
-        "at": "2026-10-26T10:54:48.619Z",
+        "reason": "Discusses human-in-the-loop design, user trust, risk management and confidence marking for AI outputs, all responsible AI practices.",
+        "at": "2026-10-28T08:42:33.049Z",
         "v": 2
       },
       "video/YIeE63Kn8sI@a6dede46bd184156": {
         "verdict": "drop",
-        "reason": "A podcast on general business AI strategy and governance, not responsible AI in Business Central.",
-        "at": "2026-10-26T10:54:48.619Z",
+        "reason": "General AI business strategy and governance consulting, not Business Central's responsible AI documentation.",
+        "at": "2026-10-28T08:42:33.049Z",
         "v": 2
       }
     },
@@ -6429,52 +6429,58 @@
       }
     },
     "topic/dev-itpro/development/extensibility": {
+      "post/jeremyvyska-com/1524@3a6021fbb4c02c15": {
+        "verdict": "drop",
+        "reason": "A general storytelling framework for learning AL development, not about the extensibility mechanisms this section documents.",
+        "at": "2026-10-28T08:42:33.320Z",
+        "v": 2
+      },
       "post/miljan-rs/866@ab181e156b842fd5": {
         "verdict": "keep",
-        "reason": "A reusable AL extension that adds actions to base customer pages through page extensions; this is a practical example of extending the base application.",
-        "at": "2026-10-26T08:45:10.634Z",
+        "reason": "Sample AL extension that adds actions to existing customer pages, showing how to extend base application objects.",
+        "at": "2026-10-28T08:42:33.320Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/@673d3b69a52266a0": {
         "verdict": "keep",
-        "reason": "Explains that you must add the Excel Reports extension as a dependency before you can extend its objects, which is a core extensibility point.",
-        "at": "2026-10-26T08:45:10.634Z",
+        "reason": "Explains that you must add the Excel Reports extension as a dependency before you can extend its objects, which is part of extending the base application.",
+        "at": "2026-10-28T08:42:33.320Z",
         "v": 2
       },
       "post/yzhums-com/53887@d0930e9af3147d68": {
         "verdict": "keep",
-        "reason": "Covers which tables can't be extended (system tables) and how to check for them, which ties directly to extending AL objects.",
-        "at": "2026-10-26T08:45:10.634Z",
+        "reason": "Covers which tables can't be extended (system tables) and how to check for them, which relates to extending AL objects.",
+        "at": "2026-10-28T08:42:33.320Z",
         "v": 2
       },
       "post/yzhums-com/74458@9738a00a245a208c": {
         "verdict": "keep",
-        "reason": "Shows a page extension that adds actions and a FactBox to a base application page.",
-        "at": "2026-10-26T08:45:10.634Z",
+        "reason": "Shows a page extension on Item Ledger Entries, a direct example of extending AL objects.",
+        "at": "2026-10-28T08:42:33.320Z",
         "v": 2
       },
       "video/6SyNNeHQDUo@d04a94dcbf138900": {
         "verdict": "keep",
-        "reason": "The co-development initiative covers community contributions to the base application on GitHub and platform extensibility, which relates to extensibility requests.",
-        "at": "2026-10-26T08:45:10.634Z",
+        "reason": "The co-development initiative for contributing to the base application relates to the extensibility requests topic.",
+        "at": "2026-10-28T08:42:33.320Z",
         "v": 2
       },
       "video/88s0QjsaCUQ@94e48adf8f56fd71": {
         "verdict": "drop",
-        "reason": "About the sign-up context and customer onboarding profiling, which this section doesn't document.",
-        "at": "2026-10-26T08:45:10.634Z",
+        "reason": "Sign-up context and onboarding profiling aren't covered by the extensibility section.",
+        "at": "2026-10-28T08:42:33.320Z",
         "v": 2
       },
       "video/no1mmnPfyNY@97a5d75f03737328": {
         "verdict": "drop",
-        "reason": "Mainly about partner business models and the history of moving from NAV to Business Central, not how to extend AL objects.",
-        "at": "2026-10-26T08:45:10.634Z",
+        "reason": "About partner business models and NAV history, not the extensibility techniques this section documents.",
+        "at": "2026-10-28T08:42:33.320Z",
         "v": 2
       },
       "video/uxYuoJP-uH8@7d819bffc513f471": {
         "verdict": "keep",
-        "reason": "Shows how to extend the ApplicationArea setup with custom areas through table and page extensions.",
-        "at": "2026-10-26T08:45:10.634Z",
+        "reason": "Extending application areas with custom areas through table and page extensions is part of extending the base application.",
+        "at": "2026-10-28T08:42:33.320Z",
         "v": 2
       }
     },
@@ -7011,26 +7017,32 @@
     "topic/dev-itpro/development/get-started/altool": {
       "post/nataliekarolak-com/3995@86d3d7fd9a3178df": {
         "verdict": "keep",
-        "reason": "The BC 28 roundup lists a new standalone MCP server in ALTool, which is part of what this section documents.",
-        "at": "2026-10-26T08:45:12.383Z",
+        "reason": "The release-notes post covers a new standalone MCP server in ALTool, which is part of what this section documents.",
+        "at": "2026-10-28T08:42:25.674Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/01/07/object-ids-now-assignable-by-vs-code-agents-lm-tool-integration/@f9cabfb8bbb1e894": {
         "verdict": "drop",
-        "reason": "It covers AL Object ID Ninja's ID assignment for VS Code agents, which is a different tool from ALTool.",
-        "at": "2026-10-26T08:45:12.383Z",
+        "reason": "About AL Object ID Ninja's ID assignment for agents, not ALTool.",
+        "at": "2026-10-28T08:42:25.674Z",
         "v": 2
       },
       "post/vondervoort-be/130@80f191b9b56f9b87": {
         "verdict": "drop",
-        "reason": "ALCops is a community code-analyzer collection and has nothing to do with ALTool.",
-        "at": "2026-10-26T08:45:12.383Z",
+        "reason": "About the ALCops code analyzer collection, which is not ALTool.",
+        "at": "2026-10-28T08:42:25.674Z",
         "v": 2
       },
       "post/waldo-be/318731@a281429d51145b83": {
         "verdict": "drop",
-        "reason": "BC Observatory is a knowledge-map MCP server that doesn't involve ALTool; the only overlap is the word MCP.",
-        "at": "2026-10-26T08:45:12.383Z",
+        "reason": "About the BC Observatory knowledge map and its MCP server; ALTool isn't involved.",
+        "at": "2026-10-28T08:42:25.674Z",
+        "v": 2
+      },
+      "video/urLsKPqOSbc@affd8c83d223efd0": {
+        "verdict": "keep",
+        "reason": "Demonstrates ALTool's graph extract/export commands directly.",
+        "at": "2026-10-28T08:42:25.674Z",
         "v": 2
       }
     },
@@ -7163,100 +7175,106 @@
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services": {
-      "post/yzhums-com/56046@3ffeb9db3d1d7784": {
-        "verdict": "keep",
-        "reason": "It calls the external QuickChart API from AL code using HttpClient, which is exactly what this section documents.",
-        "at": "2026-10-26T08:45:20.134Z",
-        "v": 2
-      },
       "post/yzhums-com/61543@c4fdefff7bfc97e1": {
         "verdict": "drop",
-        "reason": "It is about getting an HTML image src from stored media with the Image Helpers codeunit and never calls an external service.",
-        "at": "2026-10-26T08:45:20.134Z",
+        "reason": "Getting the HTML src for an image from Tenant Media doesn't involve calling any external service.",
+        "at": "2026-10-28T08:42:27.228Z",
         "v": 2
       },
       "post/yzhums-com/63735@80a0b7d071de1243": {
         "verdict": "keep",
-        "reason": "The series includes calling the Graph API from AL to upload and read SharePoint files, which is calling an external service.",
-        "at": "2026-10-26T08:45:20.134Z",
+        "reason": "The series covers uploading and reading SharePoint files from AL code through the Graph API, which is calling an external service.",
+        "at": "2026-10-28T08:42:27.228Z",
         "v": 2
       },
       "post/yzhums-com/64775@8b57d989aaa742bb": {
         "verdict": "keep",
-        "reason": "It shows REST calls from AL with OAuth to the Dataverse APIs, which is calling an external service.",
-        "at": "2026-10-26T08:45:20.134Z",
+        "reason": "It shows REST calls from AL with OAuth to do GET, POST, PATCH and DELETE against Dataverse, a direct example of calling an external service.",
+        "at": "2026-10-28T08:42:27.228Z",
         "v": 2
       },
       "post/yzhums-com/65391@cfcc0e62a92cf422": {
         "verdict": "keep",
-        "reason": "It covers the Allow HttpClient Requests setting, which outbound HTTP calls from AL depend on.",
-        "at": "2026-10-26T08:45:20.134Z",
+        "reason": "Allow HttpClient Requests is the setting that outbound HTTP calls from AL depend on.",
+        "at": "2026-10-28T08:42:27.228Z",
         "v": 2
       },
       "post/yzhums-com/65525@5ee931cd23816686": {
         "verdict": "keep",
-        "reason": "It shows a helper that checks a URL uses HTTPS before AL code calls external services.",
-        "at": "2026-10-26T08:45:20.134Z",
+        "reason": "It checks that a URL uses HTTPS before AL code calls an external service.",
+        "at": "2026-10-28T08:42:27.228Z",
         "v": 2
       },
       "post/yzhums-com/65533@a60b4f1eee9ea3fd": {
         "verdict": "keep",
-        "reason": "It turns on Allow HttpClient Requests automatically so that an app can call external services.",
-        "at": "2026-10-26T08:45:20.134Z",
+        "reason": "It turns on Allow HttpClient Requests automatically so the app's external HTTP calls work.",
+        "at": "2026-10-28T08:42:27.228Z",
+        "v": 2
+      },
+      "post/yzhums-com/66461@f1d31fc1c9c7fb3c": {
+        "verdict": "drop",
+        "reason": "Removing unsupported characters from file names is about file handling, not calling external services.",
+        "at": "2026-10-28T08:42:27.228Z",
         "v": 2
       },
       "video/qNHUj3ZEang@79cabc8a630d8bbb": {
         "verdict": "keep",
-        "reason": "It demonstrates the REST Client module, which AL code uses to make HTTP calls to external services.",
-        "at": "2026-10-26T08:45:20.134Z",
+        "reason": "It covers cookie support and collectible errors in the REST Client module, which AL code uses to make HTTP requests.",
+        "at": "2026-10-28T08:42:27.228Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2953@e78fa2a25a9ddb42": {
         "verdict": "keep",
-        "reason": "Directly explains consuming external APIs from AL with HttpClient and JSON parsing.",
-        "at": "2026-10-26T08:45:20.881Z",
+        "reason": "Directly covers consuming external APIs with HttpClient and JSON parsing, including the external-call security prompt.",
+        "at": "2026-10-28T08:42:29.930Z",
         "v": 2
       },
       "post/demiliani-com/13588@77847e9e3efdbf67": {
         "verdict": "keep",
-        "reason": "Covers new URI validation rules affecting outbound HttpClient calls from AL.",
-        "at": "2026-10-26T08:45:20.881Z",
+        "reason": "Covers new URI validation rules for AL HttpClient outbound requests, which affect how external services are called.",
+        "at": "2026-10-28T08:42:29.930Z",
         "v": 2
       },
       "post/demiliani-com/13640@cda26441af8aa784": {
         "verdict": "keep",
-        "reason": "Shows calling external SFTP servers from AL via a System Application codeunit.",
-        "at": "2026-10-26T08:45:20.881Z",
+        "reason": "Shows calling external SFTP servers from AL through the native SFTP Client codeunit.",
+        "at": "2026-10-28T08:42:29.930Z",
         "v": 2
       },
       "post/demiliani-com/14203@48f9cf58ff1ac562": {
         "verdict": "keep",
-        "reason": "Discusses handling side effects and retries of external API calls made from AL.",
-        "at": "2026-10-26T08:45:20.881Z",
+        "reason": "Discusses a practice for safely calling external APIs from AL, including retries and idempotency of HTTP calls.",
+        "at": "2026-10-28T08:42:29.930Z",
         "v": 2
       },
       "post/gerardorenteria-blog/14816@d18dad9b14fe94e8": {
         "verdict": "drop",
-        "reason": "About a World Cup prediction sample app; the external JSON import is incidental, not the lesson.",
-        "at": "2026-10-26T08:45:20.881Z",
+        "reason": "About a World Cup prediction sample app; the JSON import is just a detail, not a lesson on calling external services.",
+        "at": "2026-10-28T08:42:29.930Z",
         "v": 2
       },
       "post/kauffmann-nl/8332@f185c6bcbc3e7f69": {
         "verdict": "keep",
-        "reason": "OAuth library extending the Rest Client module used to authenticate external service calls from AL.",
-        "at": "2026-10-26T08:45:20.881Z",
+        "reason": "OAuth library that extends the Rest Client module used to call external services from AL.",
+        "at": "2026-10-28T08:42:29.930Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643@bcd3363825c3e8ed": {
         "verdict": "drop",
-        "reason": "The post is about rebuilding extension upload management, not about how to call external services.",
-        "at": "2026-10-26T08:45:20.881Z",
+        "reason": "About extension management and the upload deprecation; calling the admin API is incidental to that subject.",
+        "at": "2026-10-28T08:42:29.930Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/02/02/al-object-id-ninja-mcp-server-is-here/@c1a26403c4b8f9b9": {
         "verdict": "drop",
-        "reason": "About an MCP server for object ID management, unrelated to calling external services from AL.",
-        "at": "2026-10-26T08:45:20.881Z",
+        "reason": "About an MCP server for object ID management, not calling external services from AL.",
+        "at": "2026-10-28T08:42:29.930Z",
+        "v": 2
+      },
+      "post/yzhums-com/56046@3ffeb9db3d1d7784": {
+        "verdict": "keep",
+        "reason": "Shows calling external barcode APIs with HttpClient in AL and importing the result.",
+        "at": "2026-10-28T08:42:29.930Z",
         "v": 2
       }
     },
@@ -7999,38 +8017,44 @@
     "topic/dev-itpro/development/programming-in-the-al-language/language-elements": {
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-28-math-codeunit/@b93da663416105fc": {
         "verdict": "drop",
-        "reason": "The Math codeunit is a System Application module, not an AL language element covered under data types, methods or objects.",
-        "at": "2026-10-26T06:36:25.990Z",
+        "reason": "The Math codeunit is a System Application module, not an AL language element.",
+        "at": "2026-10-28T08:42:28.525Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-47-enum-display-order/@58948a1fecb73b19": {
         "verdict": "keep",
-        "reason": "Explains how the Enum data type orders its values, which falls under the Data types subtopic.",
-        "at": "2026-10-26T06:36:25.990Z",
+        "reason": "Explains how enum values are ordered when displayed, and enums are an AL data type and object covered here.",
+        "at": "2026-10-28T08:42:28.525Z",
         "v": 2
       },
       "post/yzhums-com/65578@f75adcc0f3a78e57": {
         "verdict": "keep",
-        "reason": "Shows the Text data type's methods (Trim, TrimStart, TrimEnd, DelChr), which this section documents under data types and methods.",
-        "at": "2026-10-26T06:36:25.990Z",
+        "reason": "Demonstrates the Text data type methods Trim, TrimStart, TrimEnd and DelChr, which this section documents.",
+        "at": "2026-10-28T08:42:28.525Z",
         "v": 2
       },
       "post/yzhums-com/68082@6559f97d90bffea4": {
         "verdict": "keep",
-        "reason": "Covers the new methods on the TextConst data type, which falls under the Data types subtopic.",
-        "at": "2026-10-26T06:36:25.990Z",
+        "reason": "Covers the new methods on the TextConst data type, a data-type topic in this section.",
+        "at": "2026-10-28T08:42:28.525Z",
+        "v": 2
+      },
+      "post/yzhums-com/70481@dc6b6cc8e1e0ad1d": {
+        "verdict": "drop",
+        "reason": "About a procedure in the Base Application's Type Helper codeunit, not an AL language element.",
+        "at": "2026-10-28T08:42:28.525Z",
         "v": 2
       },
       "video/lofGuQRe1BM@9a4ac686202039f9": {
         "verdict": "keep",
-        "reason": "Covers new AL language features, including extendable interfaces, the 'is' and 'as' keywords and self reference with 'this'.",
-        "at": "2026-10-26T06:36:25.990Z",
+        "reason": "Covers new AL language features such as extendable interfaces, the is/as keywords, this and the ternary operator.",
+        "at": "2026-10-28T08:42:28.525Z",
         "v": 2
       },
       "video/qlFEdXPjX6A@c0acd9d9c46340fd": {
         "verdict": "keep",
-        "reason": "Covers AL language updates, including TextConst methods, extended data types and namespace metadata, all of which are in this section.",
-        "at": "2026-10-26T06:36:25.990Z",
+        "reason": "Covers new AL language features including TextConst methods, RecordRef methods and namespace support.",
+        "at": "2026-10-28T08:42:28.525Z",
         "v": 2
       }
     },
@@ -9509,68 +9533,74 @@
     "topic/dev-itpro/development/the-al-programming-language/code-analysis": {
       "post/gerardorenteria-blog/11565@a1adbb44bfa791e6": {
         "verdict": "keep",
-        "reason": "Changelog includes new analyzer rules (AS, PTE, AA codes), which is part of what code analysis documents.",
-        "at": "2026-10-26T08:21:05.406Z",
+        "reason": "Changelog includes new analyzer rules (AppSourceCop, CodeCop, PTECop), which the code analysis section documents.",
+        "at": "2026-10-28T08:42:46.136Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3697577773817687094@3568b599018657cc": {
-        "verdict": "drop",
-        "reason": "Subject is Integer-to-BigInteger field migration; the AppSourceCop rule is only a side mention.",
-        "at": "2026-10-26T08:21:05.406Z",
+        "verdict": "keep",
+        "reason": "Discusses AppSourceCop rule AS0141 and compiler warnings tied to the field type change, though the main topic is the migration.",
+        "at": "2026-10-28T08:42:46.136Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-6265805346314332006@bc99b4bc1bda9f5b": {
         "verdict": "drop",
-        "reason": "About table field limits and a compiler warning, not the code analyzers this section documents.",
-        "at": "2026-10-26T08:21:05.406Z",
+        "reason": "Main subject is table field and SQL column limits; the compiler warning is only mentioned in passing.",
+        "at": "2026-10-28T08:42:46.136Z",
         "v": 2
       },
       "post/sshadows-dk/https://sshadows.dk/blog/centralgauge-benchmark-update/@fb2fb20b114fdb48": {
         "verdict": "drop",
-        "reason": "LLM benchmark for AL code generation; not about code analysis tools.",
-        "at": "2026-10-26T08:21:05.406Z",
+        "reason": "Benchmark of AI models on AL code generation, not about code analysis.",
+        "at": "2026-10-28T08:42:46.136Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/@7c539af3ddd905ec": {
         "verdict": "keep",
-        "reason": "ALCops is a set of AL code analyzers that extends code analysis.",
-        "at": "2026-10-26T08:21:05.406Z",
+        "reason": "ALCops is a third-party analyzer suite that extends AL code analysis.",
+        "at": "2026-10-28T08:42:46.136Z",
         "v": 2
       },
       "post/vondervoort-be/130@80f191b9b56f9b87": {
         "verdict": "keep",
-        "reason": "Introduces the ALCops community analyzer collection for AL code analysis.",
-        "at": "2026-10-26T08:21:05.406Z",
+        "reason": "Covers ALCops, a community code analyzer collection for AL.",
+        "at": "2026-10-28T08:42:46.136Z",
         "v": 2
       },
       "post/vondervoort-be/147@99d92e66e963843b": {
         "verdict": "keep",
-        "reason": "Covers the ALCops analyzers and how they fit into AL code analysis workflows.",
-        "at": "2026-10-26T08:21:05.406Z",
+        "reason": "Covers ALCops analyzers and how they are organised for AL code analysis.",
+        "at": "2026-10-28T08:42:46.136Z",
         "v": 2
       },
       "post/yzhums-com/76053@21019b4447d73338": {
-        "verdict": "drop",
-        "reason": "About compiler warnings for SQL column limits in table design, not code analyzers.",
-        "at": "2026-10-26T08:21:05.406Z",
+        "verdict": "keep",
+        "reason": "About two new compiler warning diagnostics that developers see during analysis (assumes this section covers compiler warnings).",
+        "at": "2026-10-28T08:42:46.136Z",
         "v": 2
       },
       "video/JI5KlMxrtoA@725f5f44ac0d5e00": {
         "verdict": "keep",
-        "reason": "Code-quality review that uses analyzer configuration, ALCops and static analysis rules.",
-        "at": "2026-10-26T08:21:05.406Z",
+        "reason": "Code quality review using the default analyzers configuration and community analyzers.",
+        "at": "2026-10-28T08:42:46.136Z",
         "v": 2
       },
       "video/Q-oazDEucLE@54d66d11fb923d23": {
         "verdict": "keep",
-        "reason": "Partly covers static analysis linters and ruleset files with warnings as errors.",
-        "at": "2026-10-26T08:21:05.406Z",
+        "reason": "Covers static analysis linters and the warnings-as-errors option with ruleset files, practices that build on code analysis.",
+        "at": "2026-10-28T08:42:46.136Z",
         "v": 2
       },
       "video/tMqCSibSRug@bea35e2233934e97": {
         "verdict": "keep",
-        "reason": "Video on ALCops analyzers, rule severity and code fixes for AL code analysis.",
-        "at": "2026-10-26T08:21:05.406Z",
+        "reason": "Video on ALCops analyzers, rule severity settings and code fixes for AL code analysis.",
+        "at": "2026-10-28T08:42:46.136Z",
+        "v": 2
+      },
+      "video/urLsKPqOSbc@affd8c83d223efd0": {
+        "verdict": "drop",
+        "reason": "About call-graph extraction and visualisation tooling, not the analyzers this section documents.",
+        "at": "2026-10-28T08:42:46.136Z",
         "v": 2
       }
     },
@@ -9777,32 +9807,38 @@
     "topic/dev-itpro/integration-with-ai": {
       "post/demiliani-com/12036@2c9b7f3c2df35822": {
         "verdict": "keep",
-        "reason": "Discusses making Business Central APIs discoverable and callable by AI agents via metadata and OpenAPI, which relates to AI/agent integration and MCP.",
-        "at": "2026-10-26T08:21:02.231Z",
+        "reason": "Discusses making Business Central APIs consumable by LLMs and AI agents through metadata and OpenAPI, which is AI integration with Business Central.",
+        "at": "2026-10-28T08:42:42.123Z",
         "v": 2
       },
       "post/demiliani-com/13611@3f81a7d9140ce132": {
         "verdict": "keep",
-        "reason": "Covers the System.AI namespace wrapping Azure OpenAI Chat Completions, the core of the developer tools for Copilot.",
-        "at": "2026-10-26T08:21:02.231Z",
+        "reason": "Discusses the System.AI namespace that wraps Azure OpenAI Chat Completions, part of the developer tools for Copilot.",
+        "at": "2026-10-28T08:42:42.123Z",
+        "v": 2
+      },
+      "post/jeremyvyska-com/1437@7d818304d4d4649e": {
+        "verdict": "drop",
+        "reason": "About tuning GitHub Copilot for AL coding; its MCP use feeds knowledge to the coding assistant, not Business Central's MCP integration.",
+        "at": "2026-10-28T08:42:42.123Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-818643009386692123@982baa375093ea02": {
         "verdict": "keep",
-        "reason": "Recap covers agent design with the AI Development Toolkit and Agent Building Sandbox, related to designing agents.",
-        "at": "2026-10-26T08:21:02.231Z",
+        "reason": "Discusses agent design and the AI Development Toolkit and Agent Building Sandbox, which relate to designing and coding agents.",
+        "at": "2026-10-28T08:42:42.123Z",
         "v": 2
       },
       "post/yzhums-com/75296@325b0526e8e1321c": {
         "verdict": "drop",
-        "reason": "About AI coding-assistant skills for writing AL code, not about integrating AI capabilities into Business Central.",
-        "at": "2026-10-26T08:21:02.231Z",
+        "reason": "A VS Code extension of AI coding-assistant skills for writing AL, not about integrating AI into Business Central.",
+        "at": "2026-10-28T08:42:42.123Z",
         "v": 2
       },
       "video/7SSNcUMFtCw@0a389bab8e080e1f": {
         "verdict": "keep",
-        "reason": "Shows AI Resources, managed resource authorization and the Azure OpenAI Deployments codeunit used when developing Copilot features.",
-        "at": "2026-10-26T08:21:02.231Z",
+        "reason": "Shows AI Resources, managed and bring-your-own Azure OpenAI, and the Azure OpenAI Deployments codeunit, all part of the developer tools for Copilot.",
+        "at": "2026-10-28T08:42:42.123Z",
         "v": 2
       }
     },

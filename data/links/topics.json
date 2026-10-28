@@ -22822,74 +22822,79 @@
     "post/jeremyvyska-com/1289": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1289",
-      "hash": "cb2a21d99b0f02797e473c9cbcc07f37ede1d99e754c5d0b98c7b29348f3b644",
+      "hash": "dcc2272b7c0062696765bf668354cfa4bba2a5e4d436abe148b66204981f8ac6",
       "title": "Before I begin… Ethics Moment",
       "source": "jeremyvyska-com",
-      "at": "2026-10-26T10:53:06.526Z",
+      "at": "2026-10-28T08:41:33.704Z",
       "matches": [
         {
           "topic": "topic/business-central/responsible-ai",
-          "quote": "AI ethics encompasses multiple concerns: unconsenting data use in training"
-        },
-        {
-          "topic": "topic/dev-itpro/responsible-ai",
-          "quote": "ethical considerations when using AI tools in technology work"
+          "quote": "Ethics Moment. Summary withheld: an Opus review found that the machine-written summary"
         }
       ]
     },
     "post/jeremyvyska-com/1405": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1405",
-      "hash": "7b670d8d78554098f72d0a7ca416a84c4770652d4b60deca9ed081ce7c036ce5",
+      "hash": "1920708780c2d01232ad66328f3ee4e6a82b5a8fdf3935aeba94bbcde471319c",
       "title": "Creating and Maintaining a Shared Knowledge Source",
       "source": "jeremyvyska-com",
-      "at": "2026-10-26T10:53:08.658Z",
+      "at": "2026-10-28T08:41:34.949Z",
       "matches": []
     },
     "post/jeremyvyska-com/1423": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1423",
-      "hash": "bceafe92c50bb19629fdc3177285254fcc166053c04cf78c9419b825a3773d63",
+      "hash": "53f16f14fd1ddaf554765cf4dab42b1c3ecd7a5c6c225c3a05c759abb7cfc7ba",
       "title": "From AI Skeptic to Believer in 90 Days",
       "source": "jeremyvyska-com",
-      "at": "2026-10-26T10:53:13.459Z",
+      "at": "2026-10-28T08:41:34.228Z",
       "matches": []
     },
     "post/jeremyvyska-com/1428": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1428",
-      "hash": "08a177b6c494099b54fdd951bcbc9bdc94bd84f7ba61b3ce18da242a9fea388e",
+      "hash": "77d09e65eacd66cc9c80a0e9f4211c71a7ae1ed319e6672058f52a63aff10f7f",
       "title": "Building AI Infrastructure That Actually Works",
       "source": "jeremyvyska-com",
-      "at": "2026-10-26T10:53:13.459Z",
+      "at": "2026-10-28T08:41:34.228Z",
       "matches": []
     },
     "post/jeremyvyska-com/1433": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1433",
-      "hash": "9c9667663c83b0e4efb34cd1c7be60806d0ff2ef9401b311d3bfe4cfdc3ed414",
+      "hash": "5b3baf1ba749de863d68ce2343ac679c6e3df4a201f2e379a29848fb08bc18da",
       "title": "From Individual Success to Team Transformation",
       "source": "jeremyvyska-com",
-      "at": "2026-10-26T10:53:13.459Z",
+      "at": "2026-10-28T08:41:34.228Z",
       "matches": []
     },
     "post/jeremyvyska-com/1437": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1437",
-      "hash": "bad99f919766000978da4bf5c42c40598c9540b17975532cd9cbb336e2cd2c2b",
+      "hash": "7d818304d4d4649ec5896a0fac4e65436dc0795f2cf3d17150be6fae1abbe21b",
       "title": "Testing GitHub Copilot Knowledge Engineering: What Actually Works and What Doesn\\’t",
       "source": "jeremyvyska-com",
-      "at": "2026-10-26T10:53:13.459Z",
+      "at": "2026-10-28T08:41:34.946Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "systematic, context-aware knowledge delivery achieved 100x+ performance improvements"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "GitHub Copilot's effectiveness for Business Central development improves significantly with domain-specific knowledge engineering"
+          "topic": "topic/dev-itpro/integration-with-ai",
+          "quote": "Model Context Protocol delivery showed that systematic, context-aware knowledge delivery achieved 100x+ performance improvements"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-28T08:41:25.356Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+            "reason": "Its subject is feeding knowledge to GitHub Copilot for AL coding, not the Business Central MCP server."
+          },
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+            "reason": "About tuning GitHub Copilot with domain knowledge for AL coding, not about building Copilot capabilities in Business Central."
+          }
+        ]
+      }
     },
     "post/jeremyvyska-com/1449": {
       "kind": "post",
@@ -22903,93 +22908,118 @@
     "post/jeremyvyska-com/1524": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1524",
-      "hash": "deffa48576d552abcf588203aa043aec5a2dbfa27af2cc467bf3381be9983f24",
+      "hash": "3a6021fbb4c02c151da950e928f76ba05de0db2cfa00c7ef569391e3f170d458",
       "title": "Introducing Nubimancy: Where Fantasy Storytelling Meets Real Business Central Development",
       "source": "jeremyvyska-com",
-      "at": "2026-10-26T10:53:13.459Z",
+      "at": "2026-10-28T08:41:34.946Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/warehouse-management",
-          "quote": "Five hero characters each run businesses showcasing specific BC domains: warehouse management, fixed assets"
-        },
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
-          "quote": "Real, production-quality AL code and multi-app architecture are built to solve actual business problems"
-        },
-        {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices",
-          "quote": "Real AL code, architecture patterns, and best practices in a narrative"
+          "topic": "topic/dev-itpro/development/extensibility",
+          "quote": "Five hero characters each run businesses showcasing specific BC domains: warehouse management, fixed assets/service, projects"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-28T08:41:25.356Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/business-functionality/warehouse-management",
+            "reason": "About a storytelling framework for AL development; warehouse management is only one example domain."
+          },
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+            "reason": "Introduces a storytelling learning project without covering any specific AL programming topic this section documents."
+          },
+          {
+            "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices",
+            "reason": "Subject is a storytelling education framework; best practices are only mentioned in passing."
+          }
+        ]
+      }
     },
     "post/jeremyvyska-com/1732": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1732",
-      "hash": "226690b03a4f0d46fa8301412f95618793596fe1badd0fcb90aa3499811c8d7c",
+      "hash": "a9947d5890079d0217b0bee60a6020f4e8a497ff24bec680c2d9473955d3e1d9",
       "title": "Building at Scale: Long-Running AI Agents for Real Development",
       "source": "jeremyvyska-com",
-      "at": "2026-10-26T10:53:09.581Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "Use different Claude models strategically: Opus for planning and instruction creation"
-        }
-      ]
+      "at": "2026-10-28T08:41:34.946Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-28T08:41:25.356Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+            "reason": "About using Claude agents to generate AL code at scale; the AI is the coding tool, not a Copilot feature in the product."
+          }
+        ]
+      }
     },
     "post/jeremyvyska-com/1739": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1739",
-      "hash": "8c5f11a9e52f051e7e0486e7e9ac65beac5c73488c76b17a325e04f37755b8cc",
+      "hash": "91f9f41c707d0175a726945befd2089e454cdad65b201c972db23648191e7fde",
       "title": "Agentic Development Training Spring/Summer 2026",
       "source": "jeremyvyska-com",
-      "at": "2026-10-26T10:53:09.581Z",
+      "at": "2026-10-28T08:41:34.228Z",
       "matches": []
     },
     "post/jeremyvyska-com/1756": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1756",
-      "hash": "9d0c810950064c85639fe508fb36726fa377fafd14201b98bee14515ea4958ff",
+      "hash": "47e8a3bf738f10f41bb021c4912a6dfa4adc09eea986eef6ed6273027e5ca6ec",
       "title": "Agentic Development Training: Beginner Recording Now Available — Plus What’s Coming Next",
       "source": "jeremyvyska-com",
-      "at": "2026-10-26T10:53:09.581Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "agentic development workflows for Business Central is now available, covering core concepts and AI-assisted automation"
-        }
-      ]
+      "at": "2026-10-28T08:41:34.946Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-28T08:41:25.356Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+            "reason": "Announces training on agentic development workflows; it does not cover the Business Central Copilot developer toolkit."
+          }
+        ]
+      }
     },
     "post/jeremyvyska-com/1763": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1763",
-      "hash": "f4339e6f5fa6600c9834459cf936eac85c8523e54cfde9a7001fa18083ec948b",
+      "hash": "bb7a2b4291179c1c6ce772e803cb069b6ae73e6515870cf1e29e308a3f922f43",
       "title": "You Are the Art – Using Agents to Be a Better Speaker",
       "source": "jeremyvyska-com",
-      "at": "2026-10-26T10:53:06.526Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "AI agents can measure delivery mechanics like speaking pace, filler words"
-        }
-      ]
+      "at": "2026-10-28T08:41:36.599Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-28T08:41:25.356Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+            "reason": "About AI-assisted speaker coaching, unrelated to Business Central agents."
+          }
+        ]
+      }
     },
     "post/jeremyvyska-com/1770": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1770",
-      "hash": "d6874e2d9529fdb6588a6f832514ee0aa830de08daa2a3754f516fde95405a6b",
+      "hash": "ac1d867943997a307c43daf0a2a3df429ec276942c2206c0b015defc51f2a488",
       "title": "Fall 2026 Agentic Development Classes: Copilot Refresh, Claude Code, and BCQuality",
       "source": "jeremyvyska-com",
-      "at": "2026-10-26T10:53:06.526Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "Claude Code for Business Central work, and BCQuality for consistent code standards"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "MCP servers for AL work. Claude Code class teaches"
-        }
-      ]
+      "at": "2026-10-28T08:41:36.599Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-28T08:41:25.356Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+            "reason": "Announces classes on GitHub Copilot, Claude Code and BCQuality for AL development, which this section doesn't document."
+          },
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+            "reason": "Class announcement about agentic AL development tools; MCP servers come up only as a coding aid."
+          }
+        ]
+      }
     },
     "post/jpearson-blog/1419": {
       "kind": "post",
@@ -31334,16 +31364,29 @@
     "post/yzhums-com/66461": {
       "kind": "post",
       "key": "post/yzhums-com/66461",
-      "hash": "fccec88099588e1bb9a5ac8560a0c8071ac74f53368c9b9f4095a89e767d3ff9",
+      "hash": "f1d31fc1c9c7fb3c591a4fc52bfdbfd7d521ca8f0e15feaaa41d2a1474af7d64",
       "title": "Dynamics 365 Business Central: How to quickly strip not supported chars in File Name via AL",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:38.103Z",
+      "at": "2026-10-28T08:41:34.784Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
-          "quote": "demonstrates using the StripNotsupportChrInFileName method from codeunit 419"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data",
+          "quote": "using the StripNotsupportChrInFileName method to automatically clean file names"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
+          "quote": "Saving files from Business Central to external systems requires removing unsupported characters"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-28T08:41:25.356Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+            "reason": "About a specific base-app codeunit method (File Management), which the sibling reference documentation section covers more exactly."
+          }
+        ]
+      }
     },
     "post/yzhums-com/66463": {
       "kind": "post",
@@ -33279,16 +33322,25 @@
     "post/yzhums-com/70481": {
       "kind": "post",
       "key": "post/yzhums-com/70481",
-      "hash": "cf42698d2bfe84d55b66c59a2eb5707c23fb522ac4704db4a70befd7b85ffe3a",
+      "hash": "dc6b6cc8e1e0ad1d85c338e8fc56eded6035db89d70e4e64a6f450e318769ad3",
       "title": "Dynamics 365 Business Central: How to convert Month Name (Text) to Month Number (Integer)",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:31.148Z",
+      "at": "2026-10-28T08:41:34.946Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
-          "quote": "converting a month name text value to its corresponding month number integer"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements",
+          "quote": "Type Helper codeunit provides the built-in GetLocalizedMonthToInt procedure for this conversion"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-28T08:41:25.356Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+            "reason": "About a Type Helper codeunit method, which the application reference documentation covers rather than AL programming."
+          }
+        ]
+      }
     },
     "post/yzhums-com/70491": {
       "kind": "post",
@@ -45443,6 +45495,24 @@
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
           "quote": "Setting Up Copilot in Business Central; copilot setup; ai capabilities"
+        }
+      ]
+    },
+    "video/urLsKPqOSbc": {
+      "kind": "video",
+      "key": "video/urLsKPqOSbc",
+      "hash": "affd8c83d223efd0b86e993416d1ae9f924978c98d7de6f111889481bef72a3e",
+      "title": "Exploring Rabbit Holes with AL Tool Graphs",
+      "source": "yt-hougaard",
+      "at": "2026-10-28T08:41:34.228Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+          "quote": "AL Tool Graph method filtering with selectors; AL graph visualization"
+        },
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "AL Tool Graphs; AL tools; call graphs; code analysis"
         }
       ]
     },

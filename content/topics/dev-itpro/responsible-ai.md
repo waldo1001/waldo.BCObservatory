@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:21.306Z"
   flags: []
 generated:
-  at: "2026-10-26T10:55:37.280Z"
+  at: "2026-10-28T08:42:58.321Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,8 +51,7 @@ links:
   videos:
     - video/06vgkq2EXmA
     - video/NE7NIjpkX3c
-  posts:
-    - post/jeremyvyska-com/1289
+  posts: []
   guidelines: []
 learn_toc_path:
   - Responsible AI
@@ -63,7 +62,7 @@ coverage:
   learn: 3
   code: 0
   video: 2
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 88cdf0656fd99d4e1396a8de5a1204ced1bee609ac5f9f7802ff622102fce563
@@ -104,7 +103,6 @@ The pages are independent, so start with the one that matches your scenario. Par
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Before I begin… Ethics Moment](../../posts/jeremyvyska-com/1289.md) (community post): "ethical considerations when using AI tools in technology work"
 - [Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central](../../videos/06vgkq2EXmA.md) (video): "Jailbreak Prevention; Harmful Input Dataset Testing"
 - [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../videos/NE7NIjpkX3c.md) (video): "Hallucinations and Fabrications Management"
 
