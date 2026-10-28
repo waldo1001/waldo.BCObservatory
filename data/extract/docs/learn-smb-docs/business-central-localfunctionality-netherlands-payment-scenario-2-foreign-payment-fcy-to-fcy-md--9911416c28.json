@@ -1,31 +1,48 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-",
-  "title": "Scenario 2 foreign payment (FCY to FCY) [NL]",
-  "blob": "053e76f09e7994ddd4a37f83c3f87e79c41e2628",
-  "summary": "Payment scenario for foreign currency payments between your company and foreign vendors/customers using the same foreign currency (FCY to FCY) in Dutch Business Central, covering telebanking workflows including proposal creation, payment history, and bank statement import/export.",
+  "title": "Dutch Payment Scenario 2 - Foreign Payments (FCY to FCY)",
+  "blob": "9ec977598ebf71f1a176b9d7e68746273397be97",
+  "summary": "Dutch telebanking scenario for foreign currency payments between your company and foreign customers/vendors using the same foreign currency as your bank account. Covers creating vendors and invoices, generating payment proposals, exporting payment history, and importing bank statements.",
   "systems": [
-    "finance",
     "purchasing",
-    "localization"
+    "sales",
+    "integration"
   ],
   "topics": [
+    "dutch",
     "telebanking",
-    "foreign currency payments",
-    "fcy to fcy",
-    "payment proposals",
-    "payment history",
-    "bank statements",
-    "netherlands local"
+    "foreign currency",
+    "payment scenario",
+    "fcy payments",
+    "vendor payments"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Telebank - Bank Overview"
+    },
+    {
+      "type": "page",
+      "name": "Telebank Proposal"
+    },
+    {
+      "type": "page",
+      "name": "Payment History List"
+    },
+    {
+      "type": "page",
+      "name": "Import Protocol List"
+    }
+  ],
   "features": [
-    "telebanking",
+    "foreign currency payments",
+    "transaction mode code",
+    "preferred bank account",
     "payment proposals",
     "payment history export",
     "bank statement import",
-    "foreign currency handling",
-    "transaction modes"
+    "vendor/customer bank accounts"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +51,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00286,
-      "pages_in_call": 8
+      "cost_usd": 0.004416,
+      "pages_in_call": 1
     }
   ]
 }

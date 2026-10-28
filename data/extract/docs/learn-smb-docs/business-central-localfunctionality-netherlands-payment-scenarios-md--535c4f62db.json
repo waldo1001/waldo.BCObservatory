@@ -1,29 +1,29 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/payment-scenarios.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenarios",
-  "title": "Payment scenarios",
-  "blob": "6d195a00231ad049f06333c401aa717771189312",
-  "summary": "Overview of three telebanking payment scenarios in Dutch Business Central covering domestic payments (LCY to LCY), foreign payments with same currency (FCY to FCY), and foreign payments with different currencies (LCY to FCY).",
+  "title": "Dutch Telebanking Payment Scenarios",
+  "blob": "6366b214380fbe8e5d8ef78ee9c86652747d14e9",
+  "summary": "Dutch telebanking payment scenarios enable creating payment proposals from invoices or credit memos and exporting them to banks, supporting domestic payments in local currency and foreign currency payments with various currency combinations.",
   "systems": [
-    "finance",
     "purchasing",
+    "finance",
     "localization"
   ],
   "topics": [
     "telebanking",
     "payment scenarios",
-    "domestic payments",
     "foreign currency",
-    "payment processing",
-    "netherlands local"
+    "dutch localization",
+    "bank payments"
   ],
   "objects": [],
   "features": [
-    "telebanking",
-    "payment scenarios",
-    "lcy to lcy payments",
-    "fcy to fcy payments",
-    "lcy to fcy payments"
+    "Domestic payments (LCY to LCY)",
+    "Foreign payments (FCY to FCY)",
+    "Foreign payments (LCY to FCY)",
+    "Payment proposal creation",
+    "Payment history processing",
+    "Bank file export"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00286,
-      "pages_in_call": 8
+      "cost_usd": 0.003024,
+      "pages_in_call": 1
     }
   ]
 }

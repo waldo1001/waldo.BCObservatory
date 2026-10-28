@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Calculating distribution amounts [NZ]",
+  "title": "Calculating Distribution Amounts in the New Zealand Version [NZ]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/calculating-distribution-amounts",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.239Z",
-      "blob": "5e3660281d4cb984a3121b2224e483e81f3f4067",
+      "at": "2026-10-28T09:04:38.406Z",
+      "blob": "d0798557aeb66c04904b51a27d29d74cc3b76ae5",
       "words": 17,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:29.339Z",
+      "at": "2026-10-28T09:04:48.088Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003688
+      "cost_usd": 0.002478
     },
     "summarized": {
-      "at": "2026-10-06T19:25:29.369Z",
+      "at": "2026-10-28T09:04:48.091Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:29.371Z",
+      "at": "2026-10-28T09:04:48.092Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:29.372Z",
+      "at": "2026-10-28T09:04:48.094Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/calculating-distribution-amounts.md",
-    "description": "Learn how to maintain account balances in proportion by reallocating amounts between general ledger accounts.",
-    "ms_date": "2025-05-05",
+    "description": "Learn how to reallocate amounts between general ledger accounts with recurring journal allocations in the New Zealand version of Business Central.",
+    "ms_date": "2026-10-23",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "reallocate amounts",
       "New Zealand version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 17,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "71fd0334b25dbead736cc4ad6635425f06c754eee2c60aa324462b2009a87e12"
+  "output_hash": "80cc5afe34e2ad98b22fb2f8b4ae57aaa83a6f8d00329d2640df939fd73de0b5"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Addresses in New Zealand",
+  "title": "Addresses in the New Zealand Version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/addresses",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.277Z",
-      "blob": "d6cf6e3a916f9d3bf1fb8a2604bba79b56814fe1",
+      "at": "2026-10-28T09:04:38.019Z",
+      "blob": "0c3cbb1bb6f9a73ab096909f80c4560ee14f85e0",
       "words": 284,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:27.084Z",
+      "at": "2026-10-28T09:04:48.111Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001792
+      "cost_usd": 0.003293
     },
     "summarized": {
-      "at": "2026-10-06T19:25:27.102Z",
+      "at": "2026-10-28T09:04:48.112Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:27.103Z",
+      "at": "2026-10-28T09:04:48.122Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:27.104Z",
+      "at": "2026-10-28T09:04:48.123Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/addresses.md",
     "description": "Learn how to use the address bar coding system, where each address is assigned a unique Delivery Point Identifier (DPID) to improve postal efficiency.",
-    "ms_date": "2025-05-05",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "delivery point identifier",
       "New Zealand version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 284,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7bc1c93a6e2d0f8e7e404ec0f57e68ca1b4b45174d4bf957cbd01055a11ba9db"
+  "output_hash": "36183620764ccb212b1d39215ff3422a82cc540004baa4b4e89c7cd8f000fd92"
 }

@@ -1,22 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries",
-  "title": "Adjust Settlement Exchange Rates for VAT Entries (NZ)",
-  "blob": "b2cf40330db7fd4a2406ee1e8ea0bb59aa1c859c",
-  "summary": "Adjust settlement exchange rates for VAT entries in the New Zealand version of Business Central.",
+  "title": "Adjust VAT Settlement Exchange Rates in New Zealand",
+  "blob": "98e948d8436590327f579c5afcb8cb0adff4c2a9",
+  "summary": "Adjust VAT settlement exchange rates in the New Zealand version of Business Central to ensure correct VAT handling with currency conversions.",
   "systems": [
     "localization",
     "finance"
   ],
   "topics": [
-    "vat entries",
+    "vat",
+    "settlement",
     "exchange rates",
     "new zealand"
   ],
   "objects": [],
   "features": [
-    "settlement exchange rates",
-    "VAT entries"
+    "VAT settlement exchange rate adjustment"
   ],
   "versions": [],
   "parts": 1,
@@ -25,8 +25,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003688,
-      "pages_in_call": 8
+      "cost_usd": 0.002508,
+      "pages_in_call": 1
     }
   ]
 }

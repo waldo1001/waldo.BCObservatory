@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Electronic Funds Transfer (EFT) [NZ]",
+  "title": "Electronic Funds Transfer (EFT) in the New Zealand Version [NZ]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/electronic-funds-transfer-eft-",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.282Z",
-      "blob": "891d2cd57e62acfc834c079c3ad6b84515eb8618",
+      "at": "2026-10-28T09:04:39.020Z",
+      "blob": "e7b2fd54805031eacf545294788637390954215b",
       "words": 38,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:25:27.085Z",
+      "at": "2026-10-28T09:04:48.075Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001792
+      "cost_usd": 0.002635
     },
     "summarized": {
-      "at": "2026-10-06T19:25:27.105Z",
+      "at": "2026-10-28T09:04:48.077Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:27.106Z",
+      "at": "2026-10-28T09:04:48.079Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:27.106Z",
+      "at": "2026-10-28T09:04:48.080Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/electronic-funds-transfer-eft-.md",
-    "description": "Learn how to pay vendors using the electronic funds transfer (EFT) system in New Zealand.",
-    "ms_date": "2025-05-05",
+    "description": "Learn how to set up bank accounts and vendors, export electronic funds transfer (EFT) files, and cancel payment exports in New Zealand.",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [
       {
@@ -59,12 +59,12 @@
       "EFT",
       "New Zealand version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 38,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8101f83cd07a21bc867ceee4876a49299120c5103c4b8ac3d374ad55b0772234"
+  "output_hash": "187fecb95095093e0ebe50aa4393563d34fcfe170f2e867c0824ee839db922b2"
 }

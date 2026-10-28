@@ -1,29 +1,29 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/single-euro-payments-area-sepa-.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/single-euro-payments-area-sepa-",
-  "title": "Single EURO Payments Area (SEPA)",
-  "blob": "5fd3f10acf891ff7c202ea98f9904faa70e2551d",
-  "summary": "SEPA (Single Euro Payments Area) functionality in Dutch Business Central for unified euro payment processing across European countries, enabling electronic vendor payments in ISO 20022 format using IBAN and BIC information.",
+  "title": "Single Euro Payments Area (SEPA)",
+  "blob": "bac61092bf263f3449e78a5e16b9c19c4cca96ad",
+  "summary": "Single Euro Payments Area (SEPA) enables unified euro payment processing across participating countries. Configure SEPA in Countries/Regions, Bank Accounts, Export Protocols, and Transaction Modes to submit vendor payments electronically in SEPA ISO 20022 format.",
   "systems": [
-    "finance",
     "purchasing",
     "localization"
   ],
   "topics": [
     "sepa",
-    "euro payments",
+    "payments",
+    "electronic payments",
     "iso 20022",
-    "european payments",
     "vendor payments",
-    "netherlands local"
+    "euro",
+    "netherlands"
   ],
   "objects": [],
   "features": [
-    "SEPA payments",
-    "ISO 20022 format",
-    "IBAN/BIC support",
-    "cross-border payments",
-    "euro currency"
+    "SEPA ISO 20022 format",
+    "IBAN support",
+    "SWIFT Code configuration",
+    "Electronic vendor payments",
+    "Cross-border euro payments"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00286,
-      "pages_in_call": 8
+      "cost_usd": 0.003118,
+      "pages_in_call": 1
     }
   ]
 }

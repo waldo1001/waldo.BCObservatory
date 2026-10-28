@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Telebanking",
+  "title": "Dutch Telebanking in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/telebanking",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.635Z",
-      "blob": "1967f2407e5d46db40fb987e1bc3491a940e78fd",
-      "words": 410,
+      "at": "2026-10-28T09:04:37.845Z",
+      "blob": "cbbbc18ccddbe72cc9300eea4813be24d44b1ee8",
+      "words": 431,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:30.390Z",
+      "at": "2026-10-28T09:04:43.122Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00286
+      "cost_usd": 0.003882
     },
     "summarized": {
-      "at": "2026-10-06T19:30:30.898Z",
+      "at": "2026-10-28T09:04:43.124Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:30.899Z",
+      "at": "2026-10-28T09:04:43.125Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:30.900Z",
+      "at": "2026-10-28T09:04:48.052Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/telebanking.md",
     "description": "Telebanking allows you to electronically generate and exchange payments and collections with your bank based on sales and purchase transactions.",
-    "ms_date": "2025-03-20",
+    "ms_date": "2026-10-20",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "payment history",
       "exchange protocols"
     ],
-    "ai_usage": null,
-    "words": 410,
+    "ai_usage": "ai-assisted",
+    "words": 431,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d31c58c90d39f93a275d24cc86b84020e1ca5240d86ecf9e687838e5ca232dab"
+  "output_hash": "0905fa19d36e0b42c9965f0dfcb14489fbe38a31ff3eb30e6f7da2f48f5bf429"
 }

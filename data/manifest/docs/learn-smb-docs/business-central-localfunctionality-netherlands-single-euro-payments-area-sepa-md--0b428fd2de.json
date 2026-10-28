@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Single EURO Payments Area (SEPA)",
+  "title": "Single Euro Payments Area (SEPA)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/single-euro-payments-area-sepa-",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.630Z",
-      "blob": "5fd3f10acf891ff7c202ea98f9904faa70e2551d",
-      "words": 183,
+      "at": "2026-10-28T09:04:32.334Z",
+      "blob": "bac61092bf263f3449e78a5e16b9c19c4cca96ad",
+      "words": 191,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:30.388Z",
+      "at": "2026-10-28T09:04:37.966Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00286
+      "cost_usd": 0.003118
     },
     "summarized": {
-      "at": "2026-10-06T19:30:30.895Z",
+      "at": "2026-10-28T09:04:37.967Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:30.896Z",
+      "at": "2026-10-28T09:04:37.968Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:30.897Z",
+      "at": "2026-10-28T09:04:37.969Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/single-euro-payments-area-sepa-.md",
-    "description": "SEPA (Single Euro Payments Area) unifies payment methods across participating European countries/regions, simplifying international payments to be as straightforward as domestic ones.",
-    "ms_date": "2025-03-20",
+    "description": "Learn about Dutch SEPA payment requirements in Business Central, including euro payments,IBANs, and bank account holder details.",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "Dutch version",
       "Netherlands"
     ],
-    "ai_usage": null,
-    "words": 183,
+    "ai_usage": "ai-assisted",
+    "words": 191,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ceb7153ecb876e004658e182313874451aef40153a48c281ba55394bfb22838c"
+  "output_hash": "f050b48fdde24d452faadb7ba94ce092aa91a591023c566928b238c65b3f69ca"
 }

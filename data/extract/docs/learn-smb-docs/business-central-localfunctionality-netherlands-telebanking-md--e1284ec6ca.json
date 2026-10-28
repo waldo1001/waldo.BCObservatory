@@ -1,31 +1,37 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/telebanking.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/telebanking",
-  "title": "Telebanking",
-  "blob": "1967f2407e5d46db40fb987e1bc3491a940e78fd",
-  "summary": "Telebanking functionality in Dutch Business Central for electronic payment and collection management, including proposal generation, payment histories, bank statement import/export, and protocol support for both domestic and foreign transactions.",
+  "title": "Dutch Telebanking in Business Central",
+  "blob": "cbbbc18ccddbe72cc9300eea4813be24d44b1ee8",
+  "summary": "Dutch telebanking enables electronic generation and interchange of payments and collections with banks, including export of payment data and import of bank statements with automatic reconciliation capabilities.",
   "systems": [
     "finance",
-    "purchasing",
+    "integration",
     "localization"
   ],
   "topics": [
     "telebanking",
-    "payments",
-    "collections",
+    "payment processing",
     "bank statements",
-    "proposals",
-    "payment history",
-    "netherlands local"
+    "netherlands",
+    "electronic banking",
+    "payment proposals",
+    "bank reconciliation"
   ],
   "objects": [],
   "features": [
-    "payment proposals",
+    "payment and collection proposals",
     "payment history",
-    "bank statement import/export",
-    "electronic interchange",
-    "domestic and foreign payments",
-    "exchange protocols"
+    "bank statement import",
+    "automatic reconciliation",
+    "electronic data interchange",
+    "cross-border payments",
+    "SEPA support",
+    "BTL91 protocol",
+    "BBV protocol",
+    "PAYMUL protocol",
+    "Generic Payment File protocol",
+    "SEPA ISO 20022 credit transfer"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00286,
-      "pages_in_call": 8
+      "cost_usd": 0.003882,
+      "pages_in_call": 1
     }
   ]
 }

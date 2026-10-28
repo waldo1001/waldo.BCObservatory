@@ -1,22 +1,23 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/electronic-funds-transfer-eft-.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/electronic-funds-transfer-eft-",
-  "title": "Electronic Funds Transfer (EFT) [NZ]",
-  "blob": "891d2cd57e62acfc834c079c3ad6b84515eb8618",
-  "summary": "Electronic Funds Transfer (EFT) in New Zealand enables vendor payment processing through the electronic funds transfer system.",
+  "title": "Electronic Funds Transfer (EFT) in the New Zealand Version [NZ]",
+  "blob": "e7b2fd54805031eacf545294788637390954215b",
+  "summary": "Electronic Funds Transfer (EFT) enables vendor payments in the New Zealand version of Business Central using the EFT payment system.",
   "systems": [
-    "localization",
     "finance",
-    "purchasing"
+    "localization"
   ],
   "topics": [
+    "electronic funds transfer",
     "eft",
-    "vendor payment",
-    "electronic transfer",
-    "new zealand"
+    "vendor payments",
+    "new zealand",
+    "localization"
   ],
   "objects": [],
   "features": [
+    "vendor payment with EFT",
     "electronic funds transfer"
   ],
   "versions": [],
@@ -26,8 +27,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001792,
-      "pages_in_call": 8
+      "cost_usd": 0.002635,
+      "pages_in_call": 1
     }
   ]
 }

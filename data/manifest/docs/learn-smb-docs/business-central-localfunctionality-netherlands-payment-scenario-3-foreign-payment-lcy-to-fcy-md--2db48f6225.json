@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Scenario 3 - Foreign Payment (LCY to FCY) [NL]",
+  "title": "Dutch Payment Scenario 3 - Foreign Payments (LCY to FCY)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.616Z",
-      "blob": "6c2db1d29a581eea8058c1808d5a22c9e3806d90",
-      "words": 880,
+      "at": "2026-10-28T09:04:32.210Z",
+      "blob": "3ecbc972bf66f992ce50419e082e236b730c08c1",
+      "words": 826,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:30.384Z",
+      "at": "2026-10-28T09:04:38.904Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00286
+      "objects": 4,
+      "cost_usd": 0.00476
     },
     "summarized": {
-      "at": "2026-10-06T19:30:30.885Z",
+      "at": "2026-10-28T09:04:38.907Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:30.886Z",
+      "at": "2026-10-28T09:04:38.909Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:30.887Z",
+      "at": "2026-10-28T09:04:38.910Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md",
     "description": "This article describes a third scenario where you can use telebanking for trade with domestic and foreign customers and vendors.",
-    "ms_date": "2025-03-19",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Dutch version",
       "Netherlands"
     ],
-    "ai_usage": null,
-    "words": 880,
+    "ai_usage": "ai-assisted",
+    "words": 826,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fce2c12c5dc1cbdb55f78fa93fe2fe425dcd10ee7ac72c7b85845a4c4dbb7b74"
+  "output_hash": "3e8d2bc8775b0de8805e9f240663d71f214466916130c7c1db16930ed18bc16c"
 }

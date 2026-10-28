@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Required descriptions in G-L entry",
+  "title": "Require Descriptions in General Ledger Entries",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.625Z",
-      "blob": "70ea7d5aed8cb6a29de942726b95bc9cf742bada",
-      "words": 209,
+      "at": "2026-10-28T09:04:32.390Z",
+      "blob": "11d62ce0c317e90e0b9fdb02ddad4ed3bdee9d85",
+      "words": 166,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:30.386Z",
+      "at": "2026-10-28T09:04:37.790Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00286
+      "objects": 1,
+      "cost_usd": 0.002899
     },
     "summarized": {
-      "at": "2026-10-06T19:30:30.891Z",
+      "at": "2026-10-28T09:04:37.791Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:30.892Z",
+      "at": "2026-10-28T09:04:37.792Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:30.893Z",
+      "at": "2026-10-28T09:04:37.793Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md",
-    "description": "When entering general journal lines on a form, the system automatically fills in the description field.",
-    "ms_date": "2025-03-20",
+    "description": "Require a meaningful description on journal lines by omitting the default G/L account description in the Dutch version of Business Central.",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Dutch version",
       "Netherlands"
     ],
-    "ai_usage": null,
-    "words": 209,
+    "ai_usage": "ai-assisted",
+    "words": 166,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d430efeb1877a00323058cbb2eca4dd69cdfef368df00040653df26f7f2fed13"
+  "output_hash": "f6bb87406e3b9a84f708dd7a2ba592cd50d1dfd87beb287877db16ddab5b1188"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Payment scenarios",
+  "title": "Dutch Telebanking Payment Scenarios",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenarios",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.620Z",
-      "blob": "6d195a00231ad049f06333c401aa717771189312",
-      "words": 147,
+      "at": "2026-10-28T09:04:32.459Z",
+      "blob": "6366b214380fbe8e5d8ef78ee9c86652747d14e9",
+      "words": 155,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:30.385Z",
+      "at": "2026-10-28T09:04:38.343Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00286
+      "cost_usd": 0.003024
     },
     "summarized": {
-      "at": "2026-10-06T19:30:30.888Z",
+      "at": "2026-10-28T09:04:38.344Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:30.889Z",
+      "at": "2026-10-28T09:04:38.346Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:30.889Z",
+      "at": "2026-10-28T09:04:38.347Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/payment-scenarios.md",
-    "description": "Based on a sales or purchase invoice or credit memo, you can generate and export a proposal for processing by the bank.",
-    "ms_date": "2025-03-20",
+    "description": "Compare Dutch telebanking payment scenarios for local and foreign currencies, from posted invoices and credit memos to proposals and bank payment files.",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "Dutch version",
       "Netherlands"
     ],
-    "ai_usage": null,
-    "words": 147,
+    "ai_usage": "ai-assisted",
+    "words": 155,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9aaf7f7ce7288fb3d1121d79a767c077c97828835d795c5508f8b4e7bfb11689"
+  "output_hash": "b36f521b7c6fa8bb303cd74c3ab83964f3aca2015c3177a56fc943ea816f7021"
 }

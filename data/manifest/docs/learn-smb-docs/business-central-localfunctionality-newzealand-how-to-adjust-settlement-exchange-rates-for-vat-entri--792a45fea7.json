@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Adjust Settlement Exchange Rates for VAT Entries (NZ)",
+  "title": "Adjust VAT Settlement Exchange Rates in New Zealand",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.243Z",
-      "blob": "b2cf40330db7fd4a2406ee1e8ea0bb59aa1c859c",
+      "at": "2026-10-28T09:04:39.628Z",
+      "blob": "98e948d8436590327f579c5afcb8cb0adff4c2a9",
       "words": 21,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:29.341Z",
+      "at": "2026-10-28T09:04:48.063Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003688
+      "cost_usd": 0.002508
     },
     "summarized": {
-      "at": "2026-10-06T19:25:29.374Z",
+      "at": "2026-10-28T09:04:48.064Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:29.374Z",
+      "at": "2026-10-28T09:04:48.066Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:29.375Z",
+      "at": "2026-10-28T09:04:48.067Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries.md",
-    "description": "Use a batch job to settle VAT entries according to the government exchange rates in the New Zealand version.",
-    "ms_date": "2025-05-05",
+    "description": "Learn how to adjust VAT entries with settlement exchange rates, choose the settlement period, and review the results in the New Zealand version.",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "adjust exchange rates",
       "New Zealand"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 21,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "96c208d34da5883c38703287401995fa42954fc30b4c61530438984cfef12c74"
+  "output_hash": "814804dd3c22fce0d5dcd580ee60e22755d201fe6b6a01ad45ecdff853c2788f"
 }

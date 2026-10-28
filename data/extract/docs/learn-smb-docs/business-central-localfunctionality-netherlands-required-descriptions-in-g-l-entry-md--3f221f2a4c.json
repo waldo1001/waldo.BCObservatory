@@ -1,27 +1,30 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry",
-  "title": "Required descriptions in G-L entry",
-  "blob": "70ea7d5aed8cb6a29de942726b95bc9cf742bada",
-  "summary": "Required descriptions for general ledger entries in Dutch Business Central to maintain audit trails, allowing system configuration to enforce detailed descriptions beyond default account descriptions when posting journal lines.",
+  "title": "Require Descriptions in General Ledger Entries",
+  "blob": "11d62ce0c317e90e0b9fdb02ddad4ed3bdee9d85",
+  "summary": "Configure General Ledger accounts to require users to enter descriptions instead of using default account names, blocking posts with blank descriptions for better audit trail documentation.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
     "general ledger",
+    "descriptions",
     "journal entries",
     "audit trail",
-    "descriptions",
-    "compliance",
-    "netherlands local"
+    "netherlands"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "G/L Account Card"
+    }
+  ],
   "features": [
+    "Omit Default Descr. in Jnl.",
     "required descriptions",
-    "gl entry descriptions",
-    "audit trail enforcement",
-    "journal posting validation"
+    "posting validation"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00286,
-      "pages_in_call": 8
+      "cost_usd": 0.002899,
+      "pages_in_call": 1
     }
   ]
 }

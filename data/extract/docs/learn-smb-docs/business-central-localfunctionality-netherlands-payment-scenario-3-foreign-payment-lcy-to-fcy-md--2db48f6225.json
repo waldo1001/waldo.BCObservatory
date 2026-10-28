@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-",
-  "title": "Scenario 3 - Foreign Payment (LCY to FCY) [NL]",
-  "blob": "6c2db1d29a581eea8058c1808d5a22c9e3806d90",
-  "summary": "Payment scenario for international payments where your company uses local currency (LCY) but foreign vendors/customers use foreign currency (FCY) in Dutch Business Central, including telebanking processes for proposals, payment histories, and bank reconciliation.",
+  "title": "Dutch Payment Scenario 3 - Foreign Payments (LCY to FCY)",
+  "blob": "3ecbc972bf66f992ce50419e082e236b730c08c1",
+  "summary": "Dutch telebanking scenario for foreign payments converting from local currency (LCY) to foreign currency (FCY). Covers creating vendors/customers, bank accounts, invoices, and processing payments through export and bank statement import.",
   "systems": [
     "finance",
     "purchasing",
@@ -12,20 +12,38 @@
   "topics": [
     "telebanking",
     "foreign currency payments",
-    "lcy to fcy",
-    "payment proposals",
-    "payment history",
-    "bank statements",
-    "netherlands local"
+    "netherlands",
+    "payment processing",
+    "bank integration",
+    "vendor payments"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Telebank - Bank Overview"
+    },
+    {
+      "type": "page",
+      "name": "Telebank Proposal"
+    },
+    {
+      "type": "page",
+      "name": "Payment History List"
+    },
+    {
+      "type": "page",
+      "name": "Import Protocol List"
+    }
+  ],
   "features": [
-    "telebanking",
-    "payment proposals",
-    "payment history export",
-    "bank statement import",
-    "currency conversion",
-    "transaction modes"
+    "Foreign currency payments",
+    "Telebanking",
+    "Payment proposals",
+    "Payment history export",
+    "Bank statement import",
+    "Transaction mode codes",
+    "Preferred bank account",
+    "Currency conversion"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00286,
-      "pages_in_call": 8
+      "cost_usd": 0.00476,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,18 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/calculating-distribution-amounts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/calculating-distribution-amounts",
-  "title": "Calculating distribution amounts [NZ]",
-  "blob": "5e3660281d4cb984a3121b2224e483e81f3f4067",
-  "summary": "Page about calculating distribution amounts in New Zealand version of Business Central.",
+  "title": "Calculating Distribution Amounts in the New Zealand Version [NZ]",
+  "blob": "d0798557aeb66c04904b51a27d29d74cc3b76ae5",
+  "summary": "Calculating Distribution Amounts in the New Zealand Version explains how to calculate and process distribution amounts specific to New Zealand local functionality in Business Central.",
   "systems": [
-    "localization"
+    "localization",
+    "finance"
   ],
   "topics": [
+    "new zealand",
     "distribution amounts",
-    "new zealand"
+    "local functionality"
   ],
   "objects": [],
-  "features": [],
+  "features": [
+    "distribution amount calculation"
+  ],
   "versions": [],
   "parts": 1,
   "prompt_version": 1,
@@ -20,8 +24,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003688,
-      "pages_in_call": 8
+      "cost_usd": 0.002478,
+      "pages_in_call": 1
     }
   ]
 }
