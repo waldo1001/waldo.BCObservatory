@@ -2,18 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets",
   "title": "Releasing, tracking, and writing off fixed assets in Russia",
-  "blob": "c6e96efb678e157f276e741a94f200e8bcebd51d",
-  "summary": "Fixed assets acts features allow you to release fixed assets into service, track asset movements between locations, and write off remaining book values using dedicated act windows and depreciation book management.",
+  "blob": "0cfb0394b904b460f962339f3713ed1c268b2e2a",
+  "summary": "Release, track, and write off fixed assets in Russia using fixed assets acts features. Set up numbering and source codes, then use dedicated windows to release assets into service, record their movements, and write off remaining values.",
   "systems": [
-    "fixed-assets"
+    "fixed-assets",
+    "localization"
   ],
   "topics": [
     "fixed assets",
-    "release",
-    "tracking",
-    "writeoff",
     "russia",
-    "localization"
+    "asset release",
+    "asset tracking",
+    "asset writeoff",
+    "depreciation books"
   ],
   "objects": [
     {
@@ -38,13 +39,14 @@
     }
   ],
   "features": [
-    "Fixed Asset Setup",
-    "FA Release Act",
-    "FA Movement Act",
-    "FA Writeoff Act",
-    "Depreciation Book Code",
-    "Fixed Asset Status",
-    "Source Code Setup"
+    "fixed assets acts",
+    "asset numbering",
+    "source codes",
+    "depreciation books",
+    "asset location tracking",
+    "asset status tracking",
+    "asset movement recording",
+    "asset writeoff"
   ],
   "versions": [],
   "parts": 1,
@@ -53,8 +55,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002569,
-      "pages_in_call": 8
+      "cost_usd": 0.005566,
+      "pages_in_call": 1
     }
   ]
 }

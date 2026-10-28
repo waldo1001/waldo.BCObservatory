@@ -2,30 +2,26 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-import-and-export-account-schedules.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-import-and-export-account-schedules",
   "title": "Importing and Exporting Financial Reports in Russia",
-  "blob": "969e0ef1af274692694cf721277c4df10172809d",
-  "summary": "Importing and exporting financial reports in Russian localization uses XML files to transfer report configurations between companies and databases.",
+  "blob": "3187766e0c3b28a3d96a307baff1b0469f35d206",
+  "summary": "Import and export financial reports between companies and databases in Russia by creating or importing XML files from the Financial Reports page.",
   "systems": [
-    "finance",
-    "localization"
+    "localization",
+    "reporting"
   ],
   "topics": [
     "financial reports",
-    "russian localization",
-    "import export",
-    "xml",
-    "account schedules"
+    "import",
+    "export",
+    "russia",
+    "row definitions",
+    "xml"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Financial Reports"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Import settings",
-    "Export settings",
-    "XML file format",
-    "Cross-company transfer"
+    "Export Settings",
+    "Import Settings",
+    "Financial Reports",
+    "Show All Row Definitions"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002467,
-      "pages_in_call": 7
+      "cost_usd": 0.002615,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-a-bank-payment-order",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.577Z",
-      "blob": "93186fbeffa4899e8eb07421517e8c1f48610637",
-      "words": 186,
+      "at": "2026-10-28T09:12:18.492Z",
+      "blob": "e52d0b1791b19be72cff12722eaab0967adc0fc5",
+      "words": 184,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:12.605Z",
+      "at": "2026-10-28T09:12:24.933Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.002569
+      "cost_usd": 0.003038
     },
     "summarized": {
-      "at": "2026-10-06T19:14:17.876Z",
+      "at": "2026-10-28T09:12:24.935Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:19.650Z",
+      "at": "2026-10-28T09:12:24.936Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:19.651Z",
+      "at": "2026-10-28T09:12:24.937Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-set-up-a-bank-payment-order.md",
     "description": "Learn how to set up bank payment orders in Russia using enhanced features for compliance with local banking requirements.",
-    "ms_date": "2025-07-16",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "bank payment",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 186,
+    "ai_usage": "ai-assisted",
+    "words": 184,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f5d6327116a6158541beeeedb181ed15ee082dba69b1bffe0cc15f4b4905e806"
+  "output_hash": "6f581ea2324fabfc99233923afd355bdebf3e5da386fe319e82e4528ed840a67"
 }

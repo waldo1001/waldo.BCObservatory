@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.572Z",
-      "blob": "c6e96efb678e157f276e741a94f200e8bcebd51d",
-      "words": 1424,
+      "at": "2026-10-28T09:12:17.668Z",
+      "blob": "0cfb0394b904b460f962339f3713ed1c268b2e2a",
+      "words": 1418,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:12.604Z",
+      "at": "2026-10-28T09:12:24.947Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 5,
-      "cost_usd": 0.002569
+      "cost_usd": 0.005566
     },
     "summarized": {
-      "at": "2026-10-06T19:14:17.873Z",
+      "at": "2026-10-28T09:12:24.949Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:17.874Z",
+      "at": "2026-10-28T09:12:24.955Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:17.875Z",
+      "at": "2026-10-28T09:12:24.956Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets.md",
     "description": "Use the fixed asset acts features in Business Central to release, track, and write off your organization's fixed assets.",
-    "ms_date": "2025-07-16",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "numbering",
       "source codesRussia"
     ],
-    "ai_usage": null,
-    "words": 1424,
+    "ai_usage": "ai-assisted",
+    "words": 1418,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "db65f0c4faec955ad2bdf8562e3fd973c13346aab9e767667f20580b6cccfdbf"
+  "output_hash": "3da55c61dbeb6317646e4ffd33529b94e24022ac2509d96bff79dbea93c6df4e"
 }

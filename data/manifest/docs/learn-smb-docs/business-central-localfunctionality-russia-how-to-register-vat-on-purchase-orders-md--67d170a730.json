@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-register-vat-on-purchase-orders",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.568Z",
-      "blob": "3b1426e32328a63cb25ff993f0175b5bc1f46d3a",
-      "words": 208,
+      "at": "2026-10-28T09:12:17.081Z",
+      "blob": "f4a36bc77c8f95421651b5b1c3767a6bb4b0e35f",
+      "words": 210,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:12.603Z",
+      "at": "2026-10-28T09:12:24.905Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002569
+      "cost_usd": 0.003431
     },
     "summarized": {
-      "at": "2026-10-06T19:14:17.870Z",
+      "at": "2026-10-28T09:12:24.906Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:17.871Z",
+      "at": "2026-10-28T09:12:24.908Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:17.872Z",
+      "at": "2026-10-28T09:12:24.909Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-register-vat-on-purchase-orders.md",
     "description": "Learn how to register VAT on purchase orders in Russia using Business Central's enhanced tracking features to maintain accurate VAT invoice records",
-    "ms_date": "2025-07-16",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "purchase orders",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 208,
+    "ai_usage": "ai-assisted",
+    "words": 210,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "caea44e621bb1c69f15a078fc907e3ed5ebc3a800767f97c4b13f5f386c82caa"
+  "output_hash": "8cd22c27a39281990207e099b67093e4abd9273ddb8a2b854ff6f88d69d393ba"
 }

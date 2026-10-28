@@ -2,17 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-print-the-cash-order-journal-co-3-report.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-print-the-cash-order-journal-co-3-report",
   "title": "Printing the cash order journal CO-3 report in Russia",
-  "blob": "e57985684e03b6b5a171d31d4bbb9bd8e9724de9",
-  "summary": "Cash Order Journal CO-3 report displays a unified standard printing form showing the register of posted ingoing and outgoing cash orders during a specified reporting period, typically on a monthly basis.",
+  "blob": "f1a0c0209d1b0b516dc52ef29aa9558404e1337e",
+  "summary": "The Cash Order Journal CO-3 report prints a unified standard form showing registers of posted ingoing and outgoing cash orders during a specified reporting period, primarily used in Russia on a monthly basis.",
   "systems": [
-    "finance"
+    "localization"
   ],
   "topics": [
-    "cash",
-    "report",
+    "cash order journal",
+    "co-3 report",
     "russia",
-    "localization",
-    "journal"
+    "cash account",
+    "reporting",
+    "general ledger setup"
   ],
   "objects": [
     {
@@ -21,11 +22,12 @@
     }
   ],
   "features": [
-    "Cash Order Journal CO-3",
-    "Cash Account No.",
-    "Starting Date",
-    "Ending Date",
-    "Employee No."
+    "Cash Order Journal CO-3 report",
+    "Cash Order KO3 Template Code",
+    "cash account filtering",
+    "date range filtering",
+    "employee assignment",
+    "Excel export"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002569,
-      "pages_in_call": 8
+      "cost_usd": 0.003094,
+      "pages_in_call": 1
     }
   ]
 }

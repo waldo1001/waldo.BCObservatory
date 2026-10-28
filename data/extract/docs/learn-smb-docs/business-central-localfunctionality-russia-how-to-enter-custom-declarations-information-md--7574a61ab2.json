@@ -1,62 +1,81 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-enter-custom-declarations-information.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-enter-custom-declarations-information",
-  "title": "Entering custom declaration information in Russia",
-  "blob": "ca0d4d6b4df154e8891c562701dff98d30790646",
-  "summary": "Track customs declaration numbers for imported goods in Russia with format validation, item tracking codes, and package-specific tracking to meet regulatory requirements for invoices and goods transfers.",
+  "title": "Set Up Customs Declaration Tracking in Russia",
+  "blob": "141fbb3fd373a6f126a0289a627edb1a054e8e79",
+  "summary": "Set up and use customs declaration tracking in Russia to record declaration numbers and countries of origin for imported goods through package tracking and item tracking codes. The feature integrates with factura-invoice reports to include declaration details and supports both permanent and temporary declaration numbers.",
   "systems": [
-    "inventory",
     "localization",
+    "inventory",
     "sales"
   ],
   "topics": [
     "customs declaration",
+    "russia",
     "item tracking",
-    "russia localization",
-    "import tracking",
-    "cd number format"
+    "package tracking",
+    "localization",
+    "factura-invoice"
   ],
   "objects": [
     {
-      "type": "page",
+      "type": "table",
       "name": "Inventory Setup"
     },
     {
-      "type": "page",
-      "name": "CD Number Format"
+      "type": "table",
+      "name": "CD Number Formats"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "Item Tracking Codes"
     },
     {
-      "type": "page",
-      "name": "Custom Declarations"
+      "type": "table",
+      "name": "Items"
     },
     {
-      "type": "page",
-      "name": "Posted Sales Invoice"
+      "type": "table",
+      "name": "Customs Declarations"
     },
     {
-      "type": "page",
-      "name": "Sales Invoice"
+      "type": "table",
+      "name": "Item Tracking Lines"
+    },
+    {
+      "type": "table",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "table",
+      "name": "Report Selection - Sales"
     },
     {
       "type": "report",
-      "name": "Posted Factura-Invoice"
+      "name": "Posted Factura-Invoice (A)"
     },
     {
       "type": "report",
-      "name": "Order Factura-Invoice"
+      "name": "Order Factura-Invoice (A)"
+    },
+    {
+      "type": "table",
+      "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoices"
     }
   ],
   "features": [
-    "Check CD No. Format",
+    "Check CD Number Format",
+    "CD Location Setup",
     "Package Specific Tracking",
-    "CD Tracking Location Setup",
-    "Country of Origin Code",
-    "Temporary CD Number",
-    "Factura-Invoice printing"
+    "CD Info. Must Exist",
+    "CD Sales Check on Release",
+    "CD Purchase Check on Release",
+    "Allow Temporary CD Number",
+    "Factura Template Code"
   ],
   "versions": [],
   "parts": 1,
@@ -65,8 +84,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003087,
-      "pages_in_call": 7
+      "cost_usd": 0.006483,
+      "pages_in_call": 1
     }
   ]
 }

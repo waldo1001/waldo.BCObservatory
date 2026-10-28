@@ -2,19 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-post-red-storno-corrections.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-post-red-storno-corrections",
   "title": "Posting Red Storno corrections in Russia",
-  "blob": "51a8186bf39af3174fa8586aae907369d8224e7f",
-  "summary": "Post red storno corrections in Russia to record corrective inventory entries, reversals of item documents, and periodic adjustments using opposite quantities and red storno flags.",
+  "blob": "a810aa2c0746961f3388457ff65b26f59720f831",
+  "summary": "Red storno is a Russian inventory posting method that uses corrective entries to reverse or adjust original postings in the same column for item journals, receipts, shipments, and revaluation documents.",
   "systems": [
     "inventory",
-    "localization",
-    "finance"
+    "localization"
   ],
   "topics": [
     "red storno",
-    "corrective posting",
-    "russia localization",
-    "inventory correction",
-    "item reversal"
+    "corrective postings",
+    "inventory",
+    "russia",
+    "item entries",
+    "posting"
   ],
   "objects": [
     {
@@ -36,16 +36,25 @@
     {
       "type": "page",
       "name": "Item Reclass Journal"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "page",
+      "name": "Copy Document"
     }
   ],
   "features": [
-    "Red Storno flag",
-    "Entry Type",
-    "Negative Quantity",
-    "Applies-to Entry",
-    "Applies-from Entry",
-    "Correction checkbox",
-    "Copy Document action"
+    "red storno posting",
+    "corrective entries",
+    "item journal corrections",
+    "item document reversal",
+    "item revaluation",
+    "item reclassification",
+    "applies-to entry",
+    "applies-from entry"
   ],
   "versions": [],
   "parts": 1,
@@ -54,8 +63,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003087,
-      "pages_in_call": 7
+      "cost_usd": 0.004383,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-post-red-storno-corrections",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.544Z",
-      "blob": "51a8186bf39af3174fa8586aae907369d8224e7f",
+      "at": "2026-10-28T09:12:10.426Z",
+      "blob": "a810aa2c0746961f3388457ff65b26f59720f831",
       "words": 424,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:56.751Z",
+      "at": "2026-10-28T09:12:17.023Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.003087
+      "objects": 7,
+      "cost_usd": 0.004383
     },
     "summarized": {
-      "at": "2026-10-06T19:13:58.665Z",
+      "at": "2026-10-28T09:12:17.025Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:58.665Z",
+      "at": "2026-10-28T09:12:17.026Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:58.666Z",
+      "at": "2026-10-28T09:12:17.027Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-post-red-storno-corrections.md",
     "description": "Russian localization provides functionality for posting Red Storno corrections in inventory management.",
-    "ms_date": "2025-07-15",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "item reclassification journals",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 424,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ee35e0a01f70e5609c3c37d385cf58f0d9d8b6d1ddafd09153865f31c15f90ec"
+  "output_hash": "2b51c2be219d4dd0f912b823b59799f74204b39ca1f28b18f3a9b0ff01ff9c35"
 }

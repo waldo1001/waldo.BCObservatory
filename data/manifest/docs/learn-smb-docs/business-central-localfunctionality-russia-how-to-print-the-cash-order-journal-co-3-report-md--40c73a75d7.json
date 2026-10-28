@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-print-the-cash-order-journal-co-3-report",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.558Z",
-      "blob": "e57985684e03b6b5a171d31d4bbb9bd8e9724de9",
-      "words": 211,
+      "at": "2026-10-28T09:12:15.356Z",
+      "blob": "f1a0c0209d1b0b516dc52ef29aa9558404e1337e",
+      "words": 209,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:12.601Z",
+      "at": "2026-10-28T09:12:19.784Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002569
+      "cost_usd": 0.003094
     },
     "summarized": {
-      "at": "2026-10-06T19:14:17.864Z",
+      "at": "2026-10-28T09:12:19.786Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:17.865Z",
+      "at": "2026-10-28T09:12:19.787Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:17.866Z",
+      "at": "2026-10-28T09:12:24.894Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-print-the-cash-order-journal-co-3-report.md",
     "description": "Russian localization provides functionality for generating and printing the Cash Order Journal CO-3 report.",
-    "ms_date": "2025-07-15",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "cash orders",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 211,
+    "ai_usage": "ai-assisted",
+    "words": 209,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f668b72e2781446a25981d70a94ed9e7893ec71631dd6c9440fa9cfbfd84629c"
+  "output_hash": "d8f7f437410de122f4d6b9e43173efc9e93b7d017d328ebe88e4519a36ab98f3"
 }

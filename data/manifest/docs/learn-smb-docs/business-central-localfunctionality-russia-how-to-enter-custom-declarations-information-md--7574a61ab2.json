@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Entering custom declaration information in Russia",
+  "title": "Set Up Customs Declaration Tracking in Russia",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-enter-custom-declarations-information",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.535Z",
-      "blob": "ca0d4d6b4df154e8891c562701dff98d30790646",
-      "words": 773,
+      "at": "2026-10-28T09:12:10.398Z",
+      "blob": "141fbb3fd373a6f126a0289a627edb1a054e8e79",
+      "words": 1112,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:56.748Z",
+      "at": "2026-10-28T09:12:18.430Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 8,
-      "cost_usd": 0.003087
+      "objects": 12,
+      "cost_usd": 0.006483
     },
     "summarized": {
-      "at": "2026-10-06T19:13:58.661Z",
+      "at": "2026-10-28T09:12:18.432Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:58.662Z",
+      "at": "2026-10-28T09:12:18.434Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:58.663Z",
+      "at": "2026-10-28T09:12:18.435Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-enter-custom-declarations-information.md",
-    "description": "Russian localization includes enhancements for managing customs declarations, enabling tracking, and printing of declaration numbers for imported goods.",
-    "ms_date": "2025-07-15",
+    "description": "Set up customs declaration tracking in the Russian version of Business Central to track imported goods and print declaration details on factura-invoices.",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "item tracking codes",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 773,
+    "ai_usage": "ai-assisted",
+    "words": 1112,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "923053b26928f6cc6498ed6d70e784e591cab5b033ffd53c615fb465e40693e2"
+  "output_hash": "b9667e67e0e8a0442ea0883ff857c838d7ccf1ed6c622280ef679a6411cfa83f"
 }

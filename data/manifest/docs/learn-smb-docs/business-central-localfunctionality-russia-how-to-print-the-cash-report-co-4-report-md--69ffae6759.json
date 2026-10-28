@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-print-the-cash-report-co-4-report",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.563Z",
-      "blob": "546c1b80c790e9f7a31089cfd08eecacb8169845",
-      "words": 237,
+      "at": "2026-10-28T09:12:16.738Z",
+      "blob": "268aa1b9a3e779e3d59b9bfa0d125352af22ccea",
+      "words": 222,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:12.601Z",
+      "at": "2026-10-28T09:12:24.919Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002569
+      "cost_usd": 0.003487
     },
     "summarized": {
-      "at": "2026-10-06T19:14:17.867Z",
+      "at": "2026-10-28T09:12:24.921Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:17.868Z",
+      "at": "2026-10-28T09:12:24.922Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:17.869Z",
+      "at": "2026-10-28T09:12:24.923Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-print-the-cash-report-co-4-report.md",
     "description": "Russian enhancements include support for the Cash Report CO-4, a standardized daily cash account report.",
-    "ms_date": "2025-07-15",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "CO-4",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 237,
+    "ai_usage": "ai-assisted",
+    "words": 222,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "648f9f9b0ed0440b23eba4028b8f2c55627bc493d721258b5e395e0dd0946f75"
+  "output_hash": "0d8376b6b68f95d0c571d6734405287620c85f025e417985519f1ce5e21cd7e5"
 }

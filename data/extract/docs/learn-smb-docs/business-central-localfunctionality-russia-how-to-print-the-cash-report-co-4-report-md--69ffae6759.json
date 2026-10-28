@@ -2,17 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-print-the-cash-report-co-4-report.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-print-the-cash-report-co-4-report",
   "title": "Printing the cash report CO-4 report in Russia",
-  "blob": "546c1b80c790e9f7a31089cfd08eecacb8169845",
-  "summary": "Cash Report CO-4 report shows the unified standard printing form for cashiers reporting one operational day of a cash account, displaying opening balance, posted cash orders, and closing balance.",
+  "blob": "268aa1b9a3e779e3d59b9bfa0d125352af22ccea",
+  "summary": "The Cash Report CO-4 report displays cash transactions for one operational day of a cash account, including opening balance, posted cash orders, and closing balance. Use it to print cash account activity reports for Russia with configurable options for title sheets and page numbering.",
   "systems": [
+    "localization",
     "finance"
   ],
   "topics": [
-    "cash",
-    "report",
+    "cash report",
     "russia",
-    "localization",
-    "daily"
+    "co-4 report",
+    "cash transactions",
+    "petty cash",
+    "reporting"
   ],
   "objects": [
     {
@@ -23,11 +25,11 @@
   "features": [
     "Cash Report CO-4",
     "Cash Additional Sheet",
-    "Cash Account No.",
-    "Report Type",
-    "Cashier",
+    "Cash Order KO4 Template Code",
     "Print Title Sheet",
-    "Print Last Sheet"
+    "Print Last Sheet",
+    "Preview Without Page Numbering",
+    "Excel export"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002569,
-      "pages_in_call": 8
+      "cost_usd": 0.003487,
+      "pages_in_call": 1
     }
   ]
 }

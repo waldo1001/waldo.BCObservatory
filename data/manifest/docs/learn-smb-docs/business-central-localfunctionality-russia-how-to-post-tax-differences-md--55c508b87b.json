@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-post-tax-differences",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.549Z",
-      "blob": "b7958f7783c1e97627a9863fc8a6529ffbce5a1e",
-      "words": 651,
+      "at": "2026-10-28T09:12:10.411Z",
+      "blob": "aa421afca374e27f83b319697124b07bc272c505",
+      "words": 655,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:56.752Z",
+      "at": "2026-10-28T09:12:17.596Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003087
+      "cost_usd": 0.004368
     },
     "summarized": {
-      "at": "2026-10-06T19:13:58.667Z",
+      "at": "2026-10-28T09:12:17.598Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:58.668Z",
+      "at": "2026-10-28T09:12:17.600Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:58.669Z",
+      "at": "2026-10-28T09:12:17.602Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-post-tax-differences.md",
     "description": "Russian localization provides functionality for posting tax differences in compliance with local tax regulations.",
-    "ms_date": "2025-07-15",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "tax difference journal",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 651,
+    "ai_usage": "ai-assisted",
+    "words": 655,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cc63d9b426f786094e14866412fcc35f1fabc40de324c35b2076e433e6a40f16"
+  "output_hash": "feb77050465c4dc4fcff84ed5d27b524b38903cf412104289353f08124537b8e"
 }
