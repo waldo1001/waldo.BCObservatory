@@ -1,20 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books",
-  "title": "How to Print Sales and Purchase Invoice Books",
-  "blob": "6f09083c6e4377d7d77b87cc650db8984e5103ec",
-  "summary": "Sales and Purchase Invoice Book reports in Spanish localization display all sales and purchase documents created in a specific period with options to show amounts in additional currency, filter by invoice or credit memo type, and order by posting date.",
+  "title": "Print Sales and Purchase Invoice Books",
+  "blob": "ff91bef49f929d4d4d242bc2d0ab8e7dc37a5799",
+  "summary": "The Sales Invoice Book and Purchases Invoice Book reports display all sales and purchase documents created in a specific period, with options to filter by invoices or credit memos and display amounts in additional reporting currency.",
   "systems": [
-    "sales",
-    "purchasing",
-    "reporting"
+    "localization"
   ],
   "topics": [
-    "spain localization",
-    "invoice book",
-    "reports",
-    "sales invoice",
-    "purchase invoice"
+    "sales invoices",
+    "purchase invoices",
+    "invoice books",
+    "reporting",
+    "spain"
   ],
   "objects": [
     {
@@ -27,10 +25,10 @@
     }
   ],
   "features": [
-    "additional currency display",
-    "posting date ordering",
-    "invoice filtering",
-    "credit memo filtering"
+    "Display amounts in additional currency",
+    "Order by posting date",
+    "Filter by invoices",
+    "Filter by credit memos"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002263,
-      "pages_in_call": 8
+      "cost_usd": 0.003072,
+      "pages_in_call": 1
     }
   ]
 }

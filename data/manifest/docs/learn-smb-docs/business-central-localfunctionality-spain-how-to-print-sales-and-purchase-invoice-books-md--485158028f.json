@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Print Sales and Purchase Invoice Books",
+  "title": "Print Sales and Purchase Invoice Books",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.705Z",
-      "blob": "6f09083c6e4377d7d77b87cc650db8984e5103ec",
-      "words": 207,
+      "at": "2026-10-28T09:07:00.673Z",
+      "blob": "ff91bef49f929d4d4d242bc2d0ab8e7dc37a5799",
+      "words": 196,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T23:41:10.602Z",
+      "at": "2026-10-28T09:07:06.349Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002263
+      "cost_usd": 0.003072
     },
     "summarized": {
-      "at": "2026-10-06T23:41:10.621Z",
+      "at": "2026-10-28T09:07:06.350Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T23:41:13.917Z",
+      "at": "2026-10-28T09:07:11.352Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T23:41:13.918Z",
+      "at": "2026-10-28T09:07:11.353Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books.md",
     "description": "The Sales Invoice Book report and Purchases Invoice Book report allow you to check all of the sales and purchase documents created for a specific period.",
-    "ms_date": "2025-05-28",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "purchase invoice book",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 207,
+    "ai_usage": "ai-assisted",
+    "words": 196,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "25878112fd3948eac364b95b38a2d292fcd477407685a0a80f00326e2d9eab5b"
+  "output_hash": "16a8c37cd95f3c75dff976af447b510ca08188f5a15804d04329645d2fff0658"
 }

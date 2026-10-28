@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments",
-  "title": "Pay vendors using electronic payments [ES]",
-  "blob": "cefa1f362eed65c032e5982545b55539ba1a89aa",
-  "summary": "Pay vendors using electronic payment files that are transmitted to banks for automated transfers. Use this when processing vendor payments electronically.",
+  "title": "Pay Vendors Using Electronic Payments in the Spanish Version [ES]",
+  "blob": "f57750f49037c094a039098c8219b36cfc8061cd",
+  "summary": "Electronic payment processing for vendors in the Spanish localization, where payments are exported to a file and transmitted through the bank to vendor accounts.",
   "systems": [
     "purchasing",
     "localization"
@@ -11,20 +11,16 @@
   "topics": [
     "electronic payments",
     "vendor payments",
-    "bank transfers",
-    "spain"
+    "spanish localization",
+    "payment journals",
+    "bank transfers"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Payment Journals"
-    }
-  ],
+  "objects": [],
   "features": [
     "Electronic Payment bank payment type",
-    "Payment type selection",
-    "Statistical code",
-    "Check ledger entry"
+    "Payment Type field",
+    "Statistical Code field",
+    "check ledger entry creation"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +29,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002268,
-      "pages_in_call": 7
+      "cost_usd": 0.003007,
+      "pages_in_call": 1
     }
   ]
 }

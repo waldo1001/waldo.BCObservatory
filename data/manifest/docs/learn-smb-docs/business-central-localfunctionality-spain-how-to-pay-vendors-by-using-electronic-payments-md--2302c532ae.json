@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Pay vendors using electronic payments [ES]",
+  "title": "Pay Vendors Using Electronic Payments in the Spanish Version [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.691Z",
-      "blob": "cefa1f362eed65c032e5982545b55539ba1a89aa",
-      "words": 226,
+      "at": "2026-10-28T09:06:54.751Z",
+      "blob": "f57750f49037c094a039098c8219b36cfc8061cd",
+      "words": 215,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:44.118Z",
+      "at": "2026-10-28T09:07:00.642Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002268
+      "objects": 0,
+      "cost_usd": 0.003007
     },
     "summarized": {
-      "at": "2026-10-06T19:23:45.380Z",
+      "at": "2026-10-28T09:07:00.644Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:45.381Z",
+      "at": "2026-10-28T09:07:00.645Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:45.382Z",
+      "at": "2026-10-28T09:07:00.646Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments.md",
-    "description": "Learn how to pay vendors electronically by exporting payment files and sending them to your bank for processing.",
-    "ms_date": "2025-05-27",
+    "description": "Learn how to prepare vendor payment journal lines in Business Central for Spain, then export electronic payments for submission to your bank.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "pay vendor electronically",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 226,
+    "ai_usage": "ai-assisted",
+    "words": 215,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4fc21a068ca62fd0312ac23523b7ce6550ae41e8c07887e615431b417825e03f"
+  "output_hash": "0920e0a79d6a8e6d6b1918725c9c9623e57b4e1756756cde4b367fc3a11247c6"
 }

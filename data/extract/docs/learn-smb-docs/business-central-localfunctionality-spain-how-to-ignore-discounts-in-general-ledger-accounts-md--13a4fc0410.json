@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts",
-  "title": "How to Ignore Discounts in General Ledger Accounts",
-  "blob": "8d32e8f484afb71514366de911b570975ed7622e",
-  "summary": "Configure general ledger accounts to ignore payment and invoice discounts. Use this when certain GL accounts should not accept discounts.",
+  "title": "Ignore Discounts in General Ledger Accounts",
+  "blob": "05963fedc7bdb265eabc5fcb6f909e8e2bec29ee",
+  "summary": "Configure general ledger accounts to ignore payment and invoice discounts by selecting the Ignore Discounts checkbox on the G/L Account Card in Spain local functionality.",
   "systems": [
     "finance",
     "localization"
@@ -12,16 +12,21 @@
     "general ledger",
     "discounts",
     "account setup",
-    "spain"
+    "spain local functionality"
   ],
   "objects": [
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
     {
       "type": "page",
       "name": "G/L Account Card"
     }
   ],
   "features": [
-    "Ignore Discounts checkbox"
+    "Ignore Discounts checkbox",
+    "General Ledger Account configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002268,
-      "pages_in_call": 7
+      "cost_usd": 0.003062,
+      "pages_in_call": 1
     }
   ]
 }

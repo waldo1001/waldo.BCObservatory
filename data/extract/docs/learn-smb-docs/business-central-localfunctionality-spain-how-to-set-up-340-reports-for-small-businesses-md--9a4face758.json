@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses",
-  "title": "Set up 340 reports for small businesses [ES]",
-  "blob": "ce4d68b83640e546900556f2b649c27e3fee9c5e",
-  "summary": "Set up cash accounting criteria (CAC) reporting for Spanish businesses by configuring unrealized VAT in General Ledger Setup and VAT Posting Setup to enable Report 340 filing.",
+  "title": "Set Up Report 340 for Cash Accounting in Spain",
+  "blob": "b09b21c2765e48f2e7cdf634ab31e4fe6ba76254",
+  "summary": "Set up cash accounting (CAC) for Report 340 in the Spanish version by enabling unrealized VAT in General Ledger Setup and configuring VAT posting groups with appropriate general ledger accounts for sales and purchases.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "vat reporting",
+    "report 340",
     "cash accounting",
     "unrealized vat",
-    "report 340",
-    "spanish regulations"
+    "vat posting",
+    "spain",
+    "small businesses"
   ],
   "objects": [
     {
@@ -26,9 +27,9 @@
     }
   ],
   "features": [
-    "unrealized VAT",
-    "cash accounting criteria",
-    "VAT posting groups",
+    "Unrealized VAT",
+    "Cash Accounting Criteria (CAC)",
+    "VAT Posting Setup",
     "Report 340"
   ],
   "versions": [],
@@ -38,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002403,
-      "pages_in_call": 7
+      "cost_usd": 0.003323,
+      "pages_in_call": 1
     }
   ]
 }

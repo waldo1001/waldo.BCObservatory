@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up 340 reports for small businesses [ES]",
+  "title": "Set Up Report 340 for Cash Accounting in Spain",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.715Z",
-      "blob": "ce4d68b83640e546900556f2b649c27e3fee9c5e",
-      "words": 277,
+      "at": "2026-10-28T09:07:00.903Z",
+      "blob": "b09b21c2765e48f2e7cdf634ab31e4fe6ba76254",
+      "words": 255,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T19:23:56.436Z",
+      "at": "2026-10-28T09:07:11.368Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002403
+      "cost_usd": 0.003323
     },
     "summarized": {
-      "at": "2026-10-06T19:23:58.246Z",
+      "at": "2026-10-28T09:07:11.369Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:58.247Z",
+      "at": "2026-10-28T09:07:11.369Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:58.248Z",
+      "at": "2026-10-28T09:07:11.370Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses.md",
-    "description": "Learn how to set up 340 reports for small businesses in Spain on cash basis, that is, Cash Accounting Criteria (CAC)",
-    "ms_date": "2025-05-28",
+    "description": "Learn how to configure unrealized VAT posting for cash accounting criteria (CAC) and report 340 in the Spanish version of Business Central.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -73,12 +73,12 @@
       "CAC",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 277,
+    "ai_usage": "ai-assisted",
+    "words": 255,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f94d9f27712ec3e89e9ed8b714877ae6111d0da20c34e691af440d92d849686c"
+  "output_hash": "75e9837b28e06e3dac87d348cc3d33ed464d9407e8bcc91a9a6864ef780fa533"
 }

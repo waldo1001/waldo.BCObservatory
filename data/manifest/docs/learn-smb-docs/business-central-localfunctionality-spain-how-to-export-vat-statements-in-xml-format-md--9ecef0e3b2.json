@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to export VAT statements in XML format",
+  "title": "Export VAT Statements in XML Format",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.677Z",
-      "blob": "3f8009f71976d708625c3cfc12d069c94c163515",
-      "words": 281,
+      "at": "2026-10-28T09:06:54.668Z",
+      "blob": "72c0643c9c3ac5e8c93906ce3da7ce2f0bd23fa7",
+      "words": 270,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:44.115Z",
+      "at": "2026-10-28T09:07:00.824Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.002268
+      "cost_usd": 0.003788
     },
     "summarized": {
-      "at": "2026-10-06T19:23:44.123Z",
+      "at": "2026-10-28T09:07:00.826Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:44.123Z",
+      "at": "2026-10-28T09:07:00.827Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:44.124Z",
+      "at": "2026-10-28T09:07:00.829Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format.md",
-    "description": "Export VAT statements as XML files for electronic submission to the Spanish tax authorities.",
-    "ms_date": "2025-05-27",
+    "description": "Learn how to export a VAT statement as an XML file in Business Central for Spain, select VAT entries, and review the XML transference format.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "VAT XML format",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 281,
+    "ai_usage": "ai-assisted",
+    "words": 270,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "52830ef8cc83bdcae3bcb2ba8982897d8332cf6f6d180967f397605c3c67dc4e"
+  "output_hash": "4ff43b81ff22152d9bb8435420c5317cd5bb0d09739458840fde5da4bfe102c2"
 }

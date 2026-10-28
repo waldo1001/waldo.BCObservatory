@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Set Limits for Due Dates",
+  "title": "Set Due Date Limits for Payments in Spain",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-limits-for-due-dates",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.710Z",
-      "blob": "ebd4d920dc1c2975b387329fa6cfa15baae75bcd",
-      "words": 300,
+      "at": "2026-10-28T09:07:00.715Z",
+      "blob": "134258d6ad317b509d4877f82ef13ed3cb7e68b2",
+      "words": 289,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:44.122Z",
+      "at": "2026-10-28T09:07:11.361Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002268
+      "cost_usd": 0.003256
     },
     "summarized": {
-      "at": "2026-10-06T19:23:45.390Z",
+      "at": "2026-10-28T09:07:11.362Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:45.391Z",
+      "at": "2026-10-28T09:07:11.363Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:45.392Z",
+      "at": "2026-10-28T09:07:11.364Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/how-to-set-limits-for-due-dates.md",
     "description": "Learn how to set maximum limits on the number of days allowed between delivery and payment by configuring payment terms in Business Central.",
-    "ms_date": "2025-05-28",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "set limits",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 300,
+    "ai_usage": "ai-assisted",
+    "words": 289,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "25469966adece4d4f0767cbc24b0eb033d6174ea85cd73985dc7ee5fa528a035"
+  "output_hash": "7e0a3e3954d4aa318586e5b9d7e104744be6c902016b963dcd0c11da1c00ef7c"
 }

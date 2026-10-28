@@ -1,18 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-print-account-book-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-print-account-book-reports",
-  "title": "How to print account book reports [ES]",
-  "blob": "cc05880bcc5f4a7ce279af79d985a3415365f884",
-  "summary": "Print official account book reports showing general ledger entries grouped by transaction or summary. Use this when generating regulatory account reports for authorities or auditors.",
+  "title": "Print Account Book Reports in the Spanish Version [ES]",
+  "blob": "dadae99da3adaef6c3d01eebc4a21aecfe59597b",
+  "summary": "Print official account book reports in Spanish Business Central that display general ledger entries for a specific period, with options to show summarized or detailed information and set custom page numbering.",
   "systems": [
-    "reporting",
+    "finance",
     "localization"
   ],
   "topics": [
-    "account book reports",
-    "general ledger reporting",
-    "tax reporting",
-    "spain"
+    "account book",
+    "general ledger",
+    "spanish localization",
+    "reporting",
+    "official reports"
   ],
   "objects": [
     {
@@ -25,10 +26,13 @@
     }
   ],
   "features": [
-    "First page number configuration",
-    "Additional currency reporting",
+    "Official Account Book report",
+    "Official Account Summarized Book report",
     "Closing transaction description",
     "Opening transaction description",
+    "First page numbering",
+    "Additional currency display",
+    "GL Register filtering",
     "Account type filtering"
   ],
   "versions": [],
@@ -38,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002268,
-      "pages_in_call": 7
+      "cost_usd": 0.003881,
+      "pages_in_call": 1
     }
   ]
 }

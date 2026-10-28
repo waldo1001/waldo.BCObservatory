@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Post and Print All Transactions for a Period",
+  "title": "Post and Print All Transactions for a Period",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-post-and-print-all-transactions-for-a-period",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.695Z",
-      "blob": "ee03cd3c2a46aefee7359a1434a151d3bf7cebc7",
-      "words": 313,
+      "at": "2026-10-28T09:06:54.706Z",
+      "blob": "bb7909409490e20f261a7ec1b4bd5b5359df3ca5",
+      "words": 291,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:44.119Z",
+      "at": "2026-10-28T09:07:00.617Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002268
+      "cost_usd": 0.003609
     },
     "summarized": {
-      "at": "2026-10-06T19:23:45.383Z",
+      "at": "2026-10-28T09:07:00.619Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:45.385Z",
+      "at": "2026-10-28T09:07:00.620Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:45.386Z",
+      "at": "2026-10-28T09:07:00.622Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/how-to-post-and-print-all-transactions-for-a-period.md",
     "description": "Businesses are required to provide annual reports to tax authorities, grouping their transaction entries by transaction numbers.",
-    "ms_date": "2025-05-28",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "periodic printing of transactions",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 313,
+    "ai_usage": "ai-assisted",
+    "words": 291,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "08e4fc17e505b86e49881bea5beb2d264b8cf87f1f757cc8dfad498e97007868"
+  "output_hash": "49c02c6d51a4863476fb3a2d827c1a55bb0ed1b0b16979616a4996642d0cbdc5"
 }

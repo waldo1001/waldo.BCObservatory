@@ -1,30 +1,33 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-set-limits-for-due-dates.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-limits-for-due-dates",
-  "title": "How to Set Limits for Due Dates",
-  "blob": "ebd4d920dc1c2975b387329fa6cfa15baae75bcd",
-  "summary": "Set maximum days allowed between delivery and payment in payment terms for compliance with legal limits. Use this when defining payment terms that must comply with regulatory due date restrictions.",
+  "title": "Set Due Date Limits for Payments in Spain",
+  "blob": "134258d6ad317b509d4877f82ef13ed3cb7e68b2",
+  "summary": "Set limits on the maximum number of days allowed between delivery and payment in Spain by configuring the Max. No. of Days till Due Date field on payment terms, which affects due date calculations for both public and private customers and vendors.",
   "systems": [
-    "sales",
-    "purchasing",
-    "localization"
+    "finance",
+    "localization",
+    "purchasing"
   ],
   "topics": [
     "payment terms",
     "due dates",
-    "legal compliance",
-    "spain"
+    "spain",
+    "localization",
+    "public sector",
+    "payment limits"
   ],
   "objects": [
     {
-      "type": "page",
+      "type": "table",
       "name": "Payment Terms"
     }
   ],
   "features": [
     "Max. No. of Days till Due Date",
-    "Due date calculation",
-    "Document date update"
+    "payment term limits",
+    "due date calculation",
+    "document date"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002268,
-      "pages_in_call": 7
+      "cost_usd": 0.003256,
+      "pages_in_call": 1
     }
   ]
 }

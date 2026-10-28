@@ -1,19 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts",
-  "title": "How to Indent and Validate Chart of Accounts",
-  "blob": "f7cc6ea197806fd2e474b9122774738af6b1c257",
-  "summary": "Indent and validate the chart of accounts structure to organize GL accounts hierarchically and verify accuracy. Use this when setting up or maintaining the chart of accounts structure.",
+  "title": "Indent and Validate Chart of Accounts",
+  "blob": "bc865e2880f773ecaf092311c93b2dd6dcb47ee5",
+  "summary": "Indent and validate the chart of accounts in Business Central, with maximum 20 numbers per account and different account types (Posting, Heading, or Total for Portugal). Used in Spain and Portugal localization.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
     "chart of accounts",
-    "account structure",
-    "validation",
+    "general ledger",
+    "indent",
+    "validate",
     "spain",
-    "portugal"
+    "portugal",
+    "account setup"
   ],
   "objects": [
     {
@@ -27,9 +29,11 @@
   ],
   "features": [
     "Indent Chart of Accounts",
-    "Chart of Accounts validation",
-    "Account type selection",
-    "Income statement balance account"
+    "Validate Chart of Accounts",
+    "Check Chart of Accounts",
+    "Account Type selection",
+    "Income Stmt. Bal. Acc. field",
+    "Account numbering"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002268,
-      "pages_in_call": 7
+      "cost_usd": 0.003564,
+      "pages_in_call": 1
     }
   ]
 }

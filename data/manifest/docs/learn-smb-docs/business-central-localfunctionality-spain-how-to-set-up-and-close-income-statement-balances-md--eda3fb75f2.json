@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Set Up and Close Income Statement Balances",
+  "title": "Set Up and Close Income Statement Balances",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.237Z",
-      "blob": "802855e145d4e79d13474080fe89b55fb3a18d26",
-      "words": 338,
+      "at": "2026-10-28T09:07:01.216Z",
+      "blob": "d2cb18cdeb903cb304294cbcf3d10826889b3884",
+      "words": 321,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:47.888Z",
+      "at": "2026-10-28T09:07:11.458Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.004432
+      "cost_usd": 0.00343
     },
     "summarized": {
-      "at": "2026-10-06T19:17:49.571Z",
+      "at": "2026-10-28T09:07:11.459Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:49.572Z",
+      "at": "2026-10-28T09:07:11.460Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:49.573Z",
+      "at": "2026-10-28T09:07:11.461Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md",
-    "description": "Use income statement balancing accounts to efficiently track and balance multiple accounts simultaneously.",
-    "ms_date": "2025-05-28",
+    "description": "Learn how to set up income statement balancing accounts and run Close Income Statement to post year-end balances in Business Central for Spain.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "close income statement",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 338,
+    "ai_usage": "ai-assisted",
+    "words": 321,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "29129648d6ca5a6ca1dbbeb1ef41d20b636eaca37c9089bfdf690d48a69e8b43"
+  "output_hash": "8151e1bbc82075a22e997c5f7f84fd397bb63b170dad7165935518eab64b7f75"
 }
