@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/item-general-ledger-turnover",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.661Z",
-      "blob": "f77dbf606e5e8ce9ec1ed65a5b14d3a7e8e414f7",
-      "words": 918,
+      "at": "2026-10-28T09:12:45.807Z",
+      "blob": "3771a58fe3c8cd29f4e6732809e3d0c7aa8b1bed",
+      "words": 889,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:42.517Z",
+      "at": "2026-10-28T09:12:54.864Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.0033
+      "cost_usd": 0.004742
     },
     "summarized": {
-      "at": "2026-10-06T19:14:42.525Z",
+      "at": "2026-10-28T09:12:54.865Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:42.525Z",
+      "at": "2026-10-28T09:12:54.873Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:42.526Z",
+      "at": "2026-10-28T09:12:54.874Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/item-general-ledger-turnover.md",
     "description": "Russian localization features allow you to generate turnover sheets for goods and materials.",
-    "ms_date": "2025-07-18",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "item turnover",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 918,
+    "ai_usage": "ai-assisted",
+    "words": 889,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b9481a66eeed9ae6408a5b117b86e2bd283e9b52f7111756305f3227e002e3c7"
+  "output_hash": "289f298229c26084674c0ba98fe0341d4992b904340409758501a694f5aab25b"
 }

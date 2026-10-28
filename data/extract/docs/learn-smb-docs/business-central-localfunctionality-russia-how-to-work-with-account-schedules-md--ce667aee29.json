@@ -2,19 +2,21 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/How-to-Work-with-Account-Schedules",
   "title": "Working with Financial Reports in Russia",
-  "blob": "be239e8742fdf10d0e23c830ae5835d75b8d3355",
-  "summary": "Working with financial reports in Russia enables analysis of general ledger accounts and comparison with budget entries. Create custom financial reports with account categories, configure row and column layouts, calculate percentages, and generate statements with budget comparisons.",
+  "blob": "d79961f850a6d3b474becbe7be01f376fb09c27e",
+  "summary": "Financial reports analyze general ledger accounts and compare them with budget entries. Use account categories and row/column definitions to create custom financial reports that display insights on charts and statements.",
   "systems": [
     "finance",
-    "reporting",
     "localization"
   ],
   "topics": [
     "financial reports",
     "general ledger",
-    "budgets",
-    "analysis",
-    "russia"
+    "account categories",
+    "chart of accounts",
+    "budget comparison",
+    "row definition",
+    "column definition",
+    "percentage calculations"
   ],
   "objects": [
     {
@@ -27,20 +29,20 @@
     },
     {
       "type": "page",
-      "name": "Column Layout"
+      "name": "Row Definition"
     },
     {
       "type": "page",
-      "name": "Row Definition"
+      "name": "Column Definition"
     }
   ],
   "features": [
-    "Account categories",
-    "Financial report creation",
-    "Column layout setup",
-    "Percentage calculations",
-    "Budget comparisons",
-    "Generate Financial Reports action"
+    "Generate Financial Reports action",
+    "Set Base for Percent",
+    "Formula column type",
+    "G/L Budget Filter",
+    "Insert G/L Accounts",
+    "View Financial Report"
   ],
   "versions": [],
   "parts": 1,
@@ -49,8 +51,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00284,
-      "pages_in_call": 8
+      "cost_usd": 0.00412,
+      "pages_in_call": 1
     }
   ]
 }

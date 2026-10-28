@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/inventory",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.652Z",
-      "blob": "272a58f9cf94f0f674ed699f58065215d854f714",
+      "at": "2026-10-28T09:12:45.285Z",
+      "blob": "d66bbb9c616dd42d72e254044dcc175242b0ab2f",
       "words": 40,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:28.639Z",
+      "at": "2026-10-28T09:12:49.767Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00284
+      "cost_usd": 0.002886
     },
     "summarized": {
-      "at": "2026-10-06T19:14:30.506Z",
+      "at": "2026-10-28T09:12:49.768Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:30.507Z",
+      "at": "2026-10-28T09:12:49.770Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:30.508Z",
+      "at": "2026-10-28T09:12:54.815Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/inventory.md",
     "description": "Additional inventory features are available in the Russian version to support local requirements.",
-    "ms_date": "2025-07-17",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
       "inventory",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 40,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6397bf8105dfd07b114a7a6daeda6ec1f00c02957e628fc38d17e17f2b0100b4"
+  "output_hash": "ba14dc1aa79f52ec213d2057f41a5f5248b4460a95d414ad1c68ad1698b36c50"
 }

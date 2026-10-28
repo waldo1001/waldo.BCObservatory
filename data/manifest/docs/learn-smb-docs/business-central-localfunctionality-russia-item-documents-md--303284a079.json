@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/item-documents",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.656Z",
-      "blob": "12ab35927443c17982b2ae35d2eafee54bd937d6",
-      "words": 727,
+      "at": "2026-10-28T09:12:45.694Z",
+      "blob": "5280843d143dd2782fbe5bf5f030a1b3f1330909",
+      "words": 798,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T19:14:28.640Z",
+      "at": "2026-10-28T09:12:54.823Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 7,
-      "cost_usd": 0.00284
+      "cost_usd": 0.005339
     },
     "summarized": {
-      "at": "2026-10-06T19:14:30.509Z",
+      "at": "2026-10-28T09:12:54.825Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:30.509Z",
+      "at": "2026-10-28T09:12:54.826Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:30.510Z",
+      "at": "2026-10-28T09:12:54.827Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/item-documents.md",
     "description": "Russian enhancements for inventory documents.",
-    "ms_date": "2025-07-17",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -72,12 +72,12 @@
       "items receipt",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 727,
+    "ai_usage": "ai-assisted",
+    "words": 798,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8a3882fe3858017f9dfe7bb70b2bf1c71e8f8e5464ca8945ae898f9aaea8b699"
+  "output_hash": "08a660f68c83a1c631af17c3069ff0221e8f36cdcf000c84e1a00c645a149034"
 }

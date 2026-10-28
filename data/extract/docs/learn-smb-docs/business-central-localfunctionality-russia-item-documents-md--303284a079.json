@@ -2,19 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/item-documents.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/item-documents",
   "title": "Inventory documents in Russia",
-  "blob": "12ab35927443c17982b2ae35d2eafee54bd937d6",
-  "summary": "Inventory documents in Russia describes how to create and print required inventory reports including receipt acts M-7 and TORG-1, deviations TORG-2, write-off acts TORG-16, and transfer orders TORG-13 from posted and unposted inventory documents.",
+  "blob": "5280843d143dd2782fbe5bf5f030a1b3f1330909",
+  "summary": "Inventory documents in Russia including reports for receipts (M-7, TORG-1, TORG-2), write-off acts (TORG-16), and transfer orders (TORG-13) based on unposted and posted inventory documents.",
   "systems": [
     "inventory",
     "localization"
   ],
   "topics": [
+    "russia",
     "inventory documents",
     "reports",
-    "item receipts",
-    "item shipments",
-    "transfers",
-    "russia"
+    "receipts",
+    "shipments",
+    "transfer orders",
+    "employee signatures"
   ],
   "objects": [
     {
@@ -31,7 +32,7 @@
     },
     {
       "type": "page",
-      "name": "Item Shipments"
+      "name": "Posted Inventory Shipments"
     },
     {
       "type": "page",
@@ -47,12 +48,15 @@
     }
   ],
   "features": [
-    "M-7 report",
-    "TORG-1 report",
-    "TORG-2 deviations report",
-    "TORG-16 write-off act",
-    "TORG-13 transfer order",
-    "Employee signatures"
+    "Act Items Receipt M-7",
+    "Items Receipt Act TORG-1",
+    "Receipt Deviations TORG-2",
+    "Item Write-off act TORG-16",
+    "Transfer Order TORG-13",
+    "Employee Signatures",
+    "Report Selection - Print",
+    "M-7 Template Code",
+    "TORG-1 Template Code"
   ],
   "versions": [],
   "parts": 1,
@@ -61,8 +65,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00284,
-      "pages_in_call": 8
+      "cost_usd": 0.005339,
+      "pages_in_call": 1
     }
   ]
 }

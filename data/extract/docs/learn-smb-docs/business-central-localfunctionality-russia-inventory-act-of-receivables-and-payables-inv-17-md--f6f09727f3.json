@@ -2,36 +2,42 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/inventory-act-of-receivables-and-payables-inv-17.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/inventory-act-of-receivables-and-payables-inv-17",
   "title": "Inventory act of receivables and payables INV-17 in Russia",
-  "blob": "2b4e2c169047f9ae33b977bc45fd0d8756a9b84f",
-  "summary": "Inventory act of receivables and payables INV-17 in Russia enables preparation of debt and liability inventories. Create inventory acts, manage contractor accounts, calculate debts and liabilities on specific dates, and print INV-17 and supplement forms.",
+  "blob": "2b8ca8341d9e463222c5a08b436574aff41a54a9",
+  "summary": "Inventory act of receivables and payables INV-17 is a Russian localization feature that enables preparation of debt and liability inventories with support for creating inventory acts, suggesting lines for contractors, and printing INV-17 and supplementary forms to Excel.",
   "systems": [
-    "inventory",
-    "localization"
+    "finance",
+    "purchasing"
   ],
   "topics": [
-    "inventory acts",
+    "russia",
+    "localization",
+    "inventory",
     "receivables",
     "payables",
-    "contractors",
-    "russia"
+    "compliance"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "General Ledger Setup"
+      "name": "Invent. Act Card"
     },
     {
       "type": "page",
-      "name": "Inventory Account Card"
+      "name": "Contractors Inventory Acts"
+    },
+    {
+      "type": "table",
+      "name": "General Ledger Setup"
     }
   ],
   "features": [
-    "INV-17 form printing",
-    "Contractor inventory acts",
-    "Debt and liability calculation",
-    "Confirmed and not confirmed amounts",
-    "Overdue amount tracking",
-    "Number series setup"
+    "inventory act creation",
+    "contractor debt calculation",
+    "liability tracking",
+    "INV-17 reporting",
+    "supplement to INV-17",
+    "employee signatures",
+    "amount confirmation"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00284,
-      "pages_in_call": 8
+      "cost_usd": 0.00407,
+      "pages_in_call": 1
     }
   ]
 }

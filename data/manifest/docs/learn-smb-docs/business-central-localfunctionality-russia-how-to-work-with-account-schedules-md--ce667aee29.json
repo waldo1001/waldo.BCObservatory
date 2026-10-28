@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/How-to-Work-with-Account-Schedules",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.636Z",
-      "blob": "be239e8742fdf10d0e23c830ae5835d75b8d3355",
-      "words": 849,
+      "at": "2026-10-28T09:12:39.809Z",
+      "blob": "d79961f850a6d3b474becbe7be01f376fb09c27e",
+      "words": 869,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:28.635Z",
+      "at": "2026-10-28T09:12:46.000Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.00284
+      "cost_usd": 0.00412
     },
     "summarized": {
-      "at": "2026-10-06T19:14:30.495Z",
+      "at": "2026-10-28T09:12:46.002Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:30.496Z",
+      "at": "2026-10-28T09:12:46.007Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:30.497Z",
+      "at": "2026-10-28T09:12:46.008Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md",
     "description": "Provides information about enhanced financial reporting features available for Russia.",
-    "ms_date": "2025-07-17",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "budget statement",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 849,
+    "ai_usage": "ai-assisted",
+    "words": 869,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "181075207ee76d3200e77d049282e7a401c9a98cdf5cd38c0cae5d8234b66624"
+  "output_hash": "5957d83bdf17c69036d1b7e0f2c40d305fe75b48bd590eaa987e03c58e8b1f6b"
 }

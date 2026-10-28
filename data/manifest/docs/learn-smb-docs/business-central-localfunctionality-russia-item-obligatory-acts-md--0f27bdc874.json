@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/item-obligatory-acts",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.665Z",
-      "blob": "d8e85fe3be9d784adf3d4597f6f74eadb6e76b84",
-      "words": 708,
+      "at": "2026-10-28T09:12:46.100Z",
+      "blob": "cba39eaf8ebb05059b5b8ea733dbcb2352e96ac3",
+      "words": 437,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:42.518Z",
+      "at": "2026-10-28T09:12:54.836Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 7,
-      "cost_usd": 0.0033
+      "cost_usd": 0.004594
     },
     "summarized": {
-      "at": "2026-10-06T19:14:42.527Z",
+      "at": "2026-10-28T09:12:54.837Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:42.529Z",
+      "at": "2026-10-28T09:12:54.838Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:42.530Z",
+      "at": "2026-10-28T09:12:54.840Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/item-obligatory-acts.md",
     "description": "Russian localization provides support for item obligatory acts and related reporting.",
-    "ms_date": "2025-07-18",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
       "Item obligatory acts",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 708,
+    "ai_usage": "ai-assisted",
+    "words": 437,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "da6daffa1b3e932e1c60fa386a314e7bd8a96a7bb5b87ac2535809e4f9a76ac9"
+  "output_hash": "bbab4088248ee6270fb319b2c9a2efac8233069998878bf0a4864cac679c370f"
 }

@@ -2,24 +2,28 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/inventory.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/inventory",
   "title": "Inventory in Russia",
-  "blob": "272a58f9cf94f0f674ed699f58065215d854f714",
-  "summary": "Inventory in the Russian version provides overview of Russian inventory functionality including inventory setup, item documents, obligatory acts, receivables and payables inventory acts, and goods reports.",
+  "blob": "d66bbb9c616dd42d72e254044dcc175242b0ab2f",
+  "summary": "Russian inventory functionality includes setup, item documents, obligatory acts, receivables and payables acts, general ledger turnover, and TORG-29 goods reporting for localized compliance.",
   "systems": [
     "inventory",
     "localization"
   ],
   "topics": [
     "inventory",
-    "russian functionality",
-    "item management"
+    "russia",
+    "localization",
+    "item documents",
+    "acts",
+    "torg-29"
   ],
   "objects": [],
   "features": [
-    "Inventory setup",
-    "Item documents",
-    "Obligatory acts",
-    "Receivables and payables acts",
-    "Goods reports"
+    "Inventory Setup",
+    "Item Documents",
+    "Item Obligatory Acts",
+    "Inventory Act of Receivables and Payables INV-17",
+    "Item General Ledger Turnover",
+    "TORG-29 Goods Report"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00284,
-      "pages_in_call": 8
+      "cost_usd": 0.002886,
+      "pages_in_call": 1
     }
   ]
 }

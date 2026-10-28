@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/payables-and-receivables",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.670Z",
-      "blob": "c6eb1028779eaceeed63178901adc5ffb53e0e68",
+      "at": "2026-10-28T09:12:47.341Z",
+      "blob": "b749b3fd6a0d20970e8fa4c7dd11f4c636268bd9",
       "words": 241,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:42.519Z",
+      "at": "2026-10-28T09:12:54.849Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.0033
+      "cost_usd": 0.003343
     },
     "summarized": {
-      "at": "2026-10-06T19:14:42.531Z",
+      "at": "2026-10-28T09:12:54.850Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:42.532Z",
+      "at": "2026-10-28T09:12:54.852Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:42.533Z",
+      "at": "2026-10-28T09:12:54.854Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/payables-and-receivables.md",
     "description": "The Russian version includes enhanced features for managing payables and receivables.",
-    "ms_date": "2025-07-18",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "receivables",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 241,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "546673c615b00f9d1d1bed968b4d6b5b3c42dc1f9089fea639fd9fa901c84f3a"
+  "output_hash": "016afca75d23d49a4a6a0e629fde7c75df38e229e47f559a99ca9b36d99ff056"
 }

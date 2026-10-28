@@ -2,30 +2,33 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/payables-and-receivables.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/payables-and-receivables",
   "title": "Payables and receivables in Russia",
-  "blob": "c6eb1028779eaceeed63178901adc5ffb53e0e68",
-  "summary": "Payables and receivables features for Russia track and manage accounts payable and receivable including customs declarations, letters of attorney, prepayments, and related reporting.",
+  "blob": "b749b3fd6a0d20970e8fa4c7dd11f4c636268bd9",
+  "summary": "Russian-specific features for tracking and managing accounts payable and receivable, including customs declarations, letters of attorney, prepayments, and financial reporting.",
   "systems": [
     "purchasing",
     "sales",
-    "localization"
+    "finance"
   ],
   "topics": [
+    "russia",
     "payables",
     "receivables",
-    "russia",
-    "customs declarations",
     "prepayments",
-    "agreements"
+    "customs declarations",
+    "letters of attorney",
+    "financial reports"
   ],
   "objects": [],
   "features": [
-    "customs declarations",
-    "letters of attorney",
-    "customer prepayments",
-    "vendor prepayments",
-    "prepayment differences",
-    "customer agreements",
-    "vendor agreements"
+    "Custom Declarations",
+    "Letters of Attorney",
+    "Russian Payables Reports",
+    "Russian Receivables Reports",
+    "Customer Prepayments",
+    "Vendor Prepayments",
+    "Prepayment Posting",
+    "Prepayment Differences",
+    "Customer and Vendor Agreements"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.0033,
-      "pages_in_call": 8
+      "cost_usd": 0.003343,
+      "pages_in_call": 1
     }
   ]
 }

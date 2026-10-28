@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Human-Resources",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.640Z",
-      "blob": "336deb0191fce01d6c19a7711583149463ae06b7",
+      "at": "2026-10-28T09:12:39.786Z",
+      "blob": "8724e73b1a200a5a1bd63091e2458d665b87a2a3",
       "words": 28,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:28.636Z",
+      "at": "2026-10-28T09:12:45.640Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00284
+      "cost_usd": 0.002762
     },
     "summarized": {
-      "at": "2026-10-06T19:14:30.498Z",
+      "at": "2026-10-28T09:12:45.641Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:30.499Z",
+      "at": "2026-10-28T09:12:45.643Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:30.499Z",
+      "at": "2026-10-28T09:12:45.644Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/Human-Resources.md",
     "description": "The Russian version includes enhancements for managing human resources.",
-    "ms_date": "2025-07-17",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
       "human resources",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 28,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9d353659e96a95a3dccf96fca2c280d9bf8da48c5d7eb31d0d22df57af9c70f0"
+  "output_hash": "b729562e6350a425da56d6899871985d92632e589d952a0fa2370b7e6669d155"
 }

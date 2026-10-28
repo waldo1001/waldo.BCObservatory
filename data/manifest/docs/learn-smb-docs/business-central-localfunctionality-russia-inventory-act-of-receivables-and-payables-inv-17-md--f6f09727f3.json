@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/inventory-act-of-receivables-and-payables-inv-17",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.644Z",
-      "blob": "2b4e2c169047f9ae33b977bc45fd0d8756a9b84f",
-      "words": 653,
+      "at": "2026-10-28T09:12:39.799Z",
+      "blob": "2b8ca8341d9e463222c5a08b436574aff41a54a9",
+      "words": 675,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:28.637Z",
+      "at": "2026-10-28T09:12:47.261Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.00284
+      "objects": 3,
+      "cost_usd": 0.00407
     },
     "summarized": {
-      "at": "2026-10-06T19:14:30.501Z",
+      "at": "2026-10-28T09:12:47.263Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:30.501Z",
+      "at": "2026-10-28T09:12:47.264Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:30.502Z",
+      "at": "2026-10-28T09:12:47.266Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/inventory-act-of-receivables-and-payables-inv-17.md",
     "description": "Provides guidance on using the INV-17 and Supplement to INV-17 reports as part of Russian localization in Business Central.",
-    "ms_date": "2025-07-17",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "inventory act processing",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 653,
+    "ai_usage": "ai-assisted",
+    "words": 675,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "faa2f26fa5e5c0c3369899cfd43fa2ca845476ac5f7c93fd94d0d9ebe2b09214"
+  "output_hash": "c45e5653597beac54677a2c7a5800865f02323887671563ffd4cd492b94de146"
 }

@@ -2,19 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/item-general-ledger-turnover.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/item-general-ledger-turnover",
   "title": "Item general ledger turnover in Russia",
-  "blob": "f77dbf606e5e8ce9ec1ed65a5b14d3a7e8e414f7",
-  "summary": "Item General Ledger Turnover page and report display monthly turnover for items in quantities and costs, including beginning/ending balances and adjustments, with data validated against warehouse and general ledger accounts.",
+  "blob": "3771a58fe3c8cd29f4e6732809e3d0c7aa8b1bed",
+  "summary": "Item General Ledger Turnover page (12449) and Item Turnover report (12469) show Russian compliance features for tracking item quantities and costs with beginning/ending balances and adjustments. Used to create monthly turnover sheets for goods and materials with GL reconciliation.",
   "systems": [
     "inventory",
-    "finance",
-    "localization"
+    "localization",
+    "reporting"
   ],
   "topics": [
-    "item turnover",
-    "inventory reporting",
     "russia",
-    "cost accounting",
-    "quantity tracking"
+    "item turnover",
+    "general ledger",
+    "inventory accounting",
+    "compliance reporting"
   ],
   "objects": [
     {
@@ -27,12 +27,14 @@
     }
   ],
   "features": [
-    "turnover sheet",
-    "date filter",
-    "location filter",
-    "global dimension filters",
-    "cost data verification",
-    "quantity reporting"
+    "Item quantity and cost tracking",
+    "Opening and closing balances",
+    "Positive and negative adjustments",
+    "Date and location filtering",
+    "Global dimension filtering",
+    "Export to Excel",
+    "Rounding precision options",
+    "Unit of measure selection"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.0033,
-      "pages_in_call": 8
+      "cost_usd": 0.004742,
+      "pages_in_call": 1
     }
   ]
 }

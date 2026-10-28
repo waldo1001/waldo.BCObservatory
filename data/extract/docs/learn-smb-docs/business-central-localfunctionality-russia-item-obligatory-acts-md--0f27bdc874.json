@@ -2,19 +2,21 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/item-obligatory-acts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/item-obligatory-acts",
   "title": "Item obligatory acts in Russia",
-  "blob": "d8e85fe3be9d784adf3d4597f6f74eadb6e76b84",
-  "summary": "Item obligatory acts enable printing required material and production resource reports for Russia including item details, storage locations, and vendor information with various regulatory forms.",
+  "blob": "cba39eaf8ebb05059b5b8ea733dbcb2352e96ac3",
+  "summary": "Item obligatory acts provides reports for material and production resources in Russia, including item card movements, physical inventory forms, transfer orders, and shipment documents with template configuration in setup pages.",
   "systems": [
+    "localization",
     "inventory",
-    "purchasing",
-    "localization"
+    "purchasing"
   ],
   "topics": [
-    "item reports",
-    "obligatory acts",
+    "item obligatory acts",
+    "reports",
+    "material resources",
+    "production resources",
     "russia",
-    "regulatory forms",
-    "inventory documentation"
+    "templates",
+    "physical inventory"
   ],
   "objects": [
     {
@@ -39,7 +41,7 @@
     },
     {
       "type": "report",
-      "name": "Warehouse Purchase Receipt М-4"
+      "name": "Warehouse Purchase Receipt M-4"
     },
     {
       "type": "report",
@@ -47,11 +49,12 @@
     }
   ],
   "features": [
-    "regulatory reporting",
-    "inventory documentation",
-    "item tracking",
-    "warehouse reports",
-    "shipment forms"
+    "Item Card M-17 Template Code",
+    "M-4 Template Code",
+    "Sales shipment templates",
+    "Report Selection - Print",
+    "Physical Inventory Journal",
+    "Item Reclass. Journal"
   ],
   "versions": [],
   "parts": 1,
@@ -60,8 +63,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.0033,
-      "pages_in_call": 8
+      "cost_usd": 0.004594,
+      "pages_in_call": 1
     }
   ]
 }
