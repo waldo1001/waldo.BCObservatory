@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST on Advance Payment Application with Sales Invoice",
+  "title": "GST on Advance Payment and Application with Sales Invoice",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.951Z",
-      "blob": "cf4b9bf9139fa083a131ec17ef26524ffb5045a7",
-      "words": 356,
+      "at": "2026-10-28T09:09:40.592Z",
+      "blob": "53f59be0fbc11cc612d0385b8ec30b6bd32efd0d",
+      "words": 442,
       "forms": 0
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md",
-    "description": "Learn how GST is applied on advance payments and their application to sales invoices in Business Central for India.",
-    "ms_date": "2025-06-19",
+    "description": "Apply customer advance receipts to sales invoices and review related GST adjustment and accounting examples in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "GST on advance payment",
       "GST GL entries"
     ],
-    "ai_usage": null,
-    "words": 356,
+    "ai_usage": "ai-assisted",
+    "words": 442,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "393ca11e6505acc24cc2238256381f0b31c22327f86ccf5b90ae98d8e23f87ad"
+  "output_hash": "53f59be0fbc11cc612d0385b8ec30b6bd32efd0d"
 }

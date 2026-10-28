@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST on advance payment received from customer",
+  "title": "GST on Advance Payment Received from Customer",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.947Z",
-      "blob": "11e0ba3d62c2ab4ee58da4cf5555c21b9b695ff1",
-      "words": 322,
+      "at": "2026-10-28T09:09:36.819Z",
+      "blob": "e892a1d3817dc0e41aeac9f473fc6438ec0802ba",
+      "words": 311,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:15.253Z",
+      "at": "2026-10-28T09:09:45.490Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.003459
+      "cost_usd": 0.003796
     },
     "summarized": {
-      "at": "2026-10-06T19:16:24.832Z",
+      "at": "2026-10-28T09:09:45.492Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:24.833Z",
+      "at": "2026-10-28T09:09:45.493Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:24.834Z",
+      "at": "2026-10-28T09:09:45.494Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer.md",
-    "description": "Learn how GST is calculated and reported on advance payments received from customers in Business Central for India.",
-    "ms_date": "2025-06-19",
+    "description": "Record customer advance receipts and review the related GST calculation and accounting entries in the India localization of Business Central.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "cash receipt voucher",
       "advance payment reversal create general journal"
     ],
-    "ai_usage": null,
-    "words": 322,
+    "ai_usage": "ai-assisted",
+    "words": 311,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d887af47fc8ae88b8b1332b60642dd31554b795fa0f9f2a8c0559aadff193b8b"
+  "output_hash": "72aaca1c79ff93ac4b6fac7975d48286043f21abf8c47c1ab2ef881e608d8862"
 }

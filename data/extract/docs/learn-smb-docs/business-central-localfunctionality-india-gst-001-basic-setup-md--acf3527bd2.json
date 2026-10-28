@@ -1,123 +1,118 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-001-Basic-Setup.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-001-Basic-Setup",
-  "title": "Setting up Goods and Service Tax",
-  "blob": "48246677c76fa5823cfe47e73bdbce251d5f644a",
-  "summary": "Setting up Goods and Services Tax (GST) for Indian localization with automatic tax engine configuration and manual setup of rates, registration numbers, accounting periods, states, groups, HSN/SAC codes, posting accounts, and master data.",
+  "title": "Set Up Goods and Services Tax",
+  "blob": "66830cbbae360d4b79b96b37925ccda9b24131cb",
+  "summary": "Setting up Goods and Services Tax (GST) in Business Central for India involves configuring automatic setup items like tax types and rates, plus manual setup of registration numbers, accounting periods, states, GST groups, HSN/SAC codes, posting accounts, and GST details on vendors, customers, items, and locations.",
   "systems": [
     "finance",
-    "purchasing",
-    "sales"
+    "localization",
+    "purchasing"
   ],
   "topics": [
     "gst",
-    "india localization",
+    "india",
     "tax setup",
-    "tax rates",
     "registration",
-    "accounting periods"
+    "posting accounts",
+    "vendor setup",
+    "customer setup"
   ],
   "objects": [
     {
-      "type": "page",
-      "name": "Tax Type"
+      "type": "table",
+      "name": "Tax Types"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "GST Registration Nos."
     },
     {
-      "type": "page",
-      "name": "Tax Accounting Period"
+      "type": "table",
+      "name": "Tax Accounting Periods"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "States"
     },
     {
-      "type": "page",
-      "name": "GST Groups"
+      "type": "table",
+      "name": "GST Group"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "HSN/SAC"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "GST Posting Setup"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "Company Information"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "Locations"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "General Ledger Setup"
     },
     {
-      "type": "page",
-      "name": "Purchase & Payable Setup"
+      "type": "table",
+      "name": "Purchases & Payables Setup"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "Source Code Setup"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "Items"
     },
     {
-      "type": "page",
-      "name": "Fixed Asset"
+      "type": "table",
+      "name": "Fixed Assets"
     },
     {
-      "type": "page",
-      "name": "Chart of Account"
+      "type": "table",
+      "name": "Chart of Accounts"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "Resources"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "Item Charges"
     },
     {
-      "type": "page",
-      "name": "Sales Price"
+      "type": "table",
+      "name": "Vendors"
     },
     {
-      "type": "page",
-      "name": "Vendor"
-    },
-    {
-      "type": "page",
+      "type": "table",
       "name": "Customers"
     },
     {
-      "type": "page",
-      "name": "Service Cost"
+      "type": "table",
+      "name": "Service Costs"
     },
     {
-      "type": "page",
-      "name": "Bank Account"
+      "type": "table",
+      "name": "Bank Accounts"
     }
   ],
   "features": [
-    "gst rates",
-    "registration number setup",
-    "tax accounting periods",
-    "gst groups",
-    "hsn/sac codes",
-    "gst posting setup",
-    "tax engine configuration",
-    "reverse charge",
-    "cess",
-    "kfc"
+    "GST rates configuration",
+    "GST registration number setup",
+    "Tax accounting periods",
+    "GST groups and HSN/SAC codes",
+    "GST posting setup by state and component",
+    "GST on vendor and customer types",
+    "Price inclusive of tax",
+    "GST credit availment and non-availment"
   ],
   "versions": [],
   "parts": 1,
@@ -126,8 +121,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005419,
-      "pages_in_call": 8
+      "cost_usd": 0.017959,
+      "pages_in_call": 1
     }
   ]
 }

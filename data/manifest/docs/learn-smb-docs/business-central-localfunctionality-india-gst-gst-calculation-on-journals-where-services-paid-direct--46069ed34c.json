@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST on Journals where Services paid directly through Cash or Bank",
+  "title": "GST on Journals for Services Paid Directly Through Cash or Bank",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.621Z",
-      "blob": "1f74c0c310ad561b1498d1f65fcda0030eb3f675",
-      "words": 372,
+      "at": "2026-10-28T09:09:35.996Z",
+      "blob": "a2c53abeaa661c40fd8033f01e2aee65d4ab8f7c",
+      "words": 404,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:01:29.022Z",
+      "at": "2026-10-28T09:09:45.419Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003247
+      "cost_usd": 0.00354
     },
     "summarized": {
-      "at": "2026-10-06T19:01:29.039Z",
+      "at": "2026-10-28T09:09:45.422Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:29.041Z",
+      "at": "2026-10-28T09:09:45.423Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:29.042Z",
+      "at": "2026-10-28T09:09:45.425Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank.md",
     "description": "Explains GST calculation on journals for services paid directly via cash or bank in Business Central India localization.",
-    "ms_date": "2025-10-16",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "IN",
       "English. GST on journals"
     ],
-    "ai_usage": null,
-    "words": 372,
+    "ai_usage": "ai-assisted",
+    "words": 404,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8ab4a0727d8f248575fb385146c46f4870219e0c907636c7691a413c6d0f4121"
+  "output_hash": "7dc68d0bb9464edccfc2c07ef856101db826088f2c6473a40cf151c2462faeb9"
 }

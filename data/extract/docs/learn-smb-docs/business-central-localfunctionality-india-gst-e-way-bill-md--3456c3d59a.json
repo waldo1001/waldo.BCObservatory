@@ -2,32 +2,29 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-E-Way-Bill.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-E-Way-Bill",
   "title": "E-Way Bill",
-  "blob": "16c41d9927cf173522545b50853ffa42075bde45",
-  "summary": "E-Way Bill template generation for goods transport exceeding INR 50,000 in India, exporting to Excel format for JSON preparation tool integration.",
+  "blob": "f7aacf3d4613ea2845e06084a06f839ff01fbbac",
+  "summary": "E-Way Bill template feature enables users to export transaction information for goods transportation into an Excel file for submission to the E-Waybill JSON Preparation tool, supporting Sales, Purchase, and Transfer transactions.",
   "systems": [
-    "localization",
-    "sales",
-    "purchasing"
+    "localization"
   ],
   "topics": [
     "e-way bill",
     "gst",
     "india",
-    "goods transport",
-    "template"
+    "goods transportation",
+    "export",
+    "excel",
+    "compliance"
   ],
-  "objects": [
-    {
-      "type": "report",
-      "name": "E-Way Bill File Format"
-    }
-  ],
+  "objects": [],
   "features": [
     "E-Way Bill template generation",
     "Excel file export",
-    "JSON Preparation tool integration",
-    "Transport documentation",
-    "Goods movement tracking"
+    "GST Registration No. configuration",
+    "State Code configuration",
+    "Transportation Mode specification",
+    "Transaction Type filtering",
+    "Source Type filtering"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003459,
-      "pages_in_call": 8
+      "cost_usd": 0.003253,
+      "pages_in_call": 1
     }
   ]
 }

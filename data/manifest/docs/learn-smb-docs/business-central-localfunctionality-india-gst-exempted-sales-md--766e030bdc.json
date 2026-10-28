@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Exempted-Sales",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.932Z",
-      "blob": "f6ad39f737850eb151b17120e7d390e50b60d005",
-      "words": 165,
+      "at": "2026-10-28T09:09:35.735Z",
+      "blob": "24e9ce7666c72790eab0f45cda0d7e16f2531709",
+      "words": 159,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:15.249Z",
+      "at": "2026-10-28T09:09:40.535Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003459
+      "cost_usd": 0.00328
     },
     "summarized": {
-      "at": "2026-10-06T19:16:24.820Z",
+      "at": "2026-10-28T09:09:40.536Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:24.821Z",
+      "at": "2026-10-28T09:09:40.537Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:24.822Z",
+      "at": "2026-10-28T09:09:40.538Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Exempted-Sales.md",
     "description": "Learn how to process GST exempted sales in Business Central, including creating sales invoices and credit memos for exempt customers in India.",
-    "ms_date": "2025-06-19",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "create sales invoice",
       "create sales credit memo"
     ],
-    "ai_usage": null,
-    "words": 165,
+    "ai_usage": "ai-assisted",
+    "words": 159,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "44106e0aaa310bb4088c69487a8a730381d7f34168cd8ca6baa43a937f9ad9a4"
+  "output_hash": "0808542491bcbd4decffc22b62a311ad199ef4ec8a3931c6eb21020efa734f98"
 }

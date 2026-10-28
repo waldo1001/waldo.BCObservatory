@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-E-Invoice",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.923Z",
-      "blob": "d3cfb0e0423db85b9a373985b3a270a5491aeb2f",
-      "words": 563,
+      "at": "2026-10-28T09:09:29.730Z",
+      "blob": "42c3da7fc91d10eae32f86141595742788c0a79d",
+      "words": 606,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:15.248Z",
+      "at": "2026-10-28T09:09:36.379Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.003459
+      "objects": 4,
+      "cost_usd": 0.004434
     },
     "summarized": {
-      "at": "2026-10-06T19:16:24.813Z",
+      "at": "2026-10-28T09:09:36.381Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:24.815Z",
+      "at": "2026-10-28T09:09:36.382Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:24.816Z",
+      "at": "2026-10-28T09:09:36.384Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-E-Invoice.md",
-    "description": "Learn about the E-Invoice feature in Business Central for India, including how to generate, export, import, and manage e-invoices in compliance with GST requirements.",
-    "ms_date": "2025-06-19",
+    "description": "Generate, export, and import e-invoice data, manage invoice reference details, and review cancellation workflows in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "English",
       "e-invoice"
     ],
-    "ai_usage": null,
-    "words": 563,
+    "ai_usage": "ai-assisted",
+    "words": 606,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ccd1da551bdbd8f1ae8a25009e740fe81deff46ea9eff0737a33528bea43559c"
+  "output_hash": "92a89c19e6e6ed972ea4a58932f2d03b192820b18392e72c0886a849d62945f2"
 }

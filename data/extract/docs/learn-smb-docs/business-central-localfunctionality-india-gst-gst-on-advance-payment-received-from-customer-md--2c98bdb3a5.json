@@ -1,25 +1,24 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer",
-  "title": "GST on advance payment received from customer",
-  "blob": "11e0ba3d62c2ab4ee58da4cf5555c21b9b695ff1",
-  "summary": "GST calculation on advance payments received from customers in India, requiring GSTR-1 reporting with applicable GST rates.",
+  "title": "GST on Advance Payment Received from Customer",
+  "blob": "e892a1d3817dc0e41aeac9f473fc6438ec0802ba",
+  "summary": "GST on advance payments received from customers in Business Central India localization. Explains how to process advance payment receipts with GST calculation, including journal entry creation and reversal procedures for GSTR-1 reporting.",
   "systems": [
-    "localization",
-    "sales",
-    "finance"
+    "finance",
+    "sales"
   ],
   "topics": [
     "gst",
     "advance payment",
-    "customer",
-    "receipt",
-    "india"
+    "india",
+    "customer receipts",
+    "tax calculation"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "General Journal"
+      "name": "General Journals"
     },
     {
       "type": "page",
@@ -32,10 +31,12 @@
   ],
   "features": [
     "GST on Advance Payment",
-    "Customer registration",
-    "GST Group code",
-    "Place of Supply",
-    "Advance payment reporting"
+    "GST calculation",
+    "GSTR-1 reporting",
+    "advance payment reversal",
+    "GST Group",
+    "HSN/SAC Code",
+    "GST Place of Supply"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +45,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003459,
-      "pages_in_call": 8
+      "cost_usd": 0.003796,
+      "pages_in_call": 1
     }
   ]
 }

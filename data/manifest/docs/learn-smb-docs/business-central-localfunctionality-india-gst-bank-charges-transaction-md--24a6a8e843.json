@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Bank-Charges-Transaction",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:15:56.554Z",
+      "at": "2026-10-28T09:09:35.681Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.005419
+      "objects": 2,
+      "cost_usd": 0.005664
     },
     "summarized": {
-      "at": "2026-10-06T19:16:03.310Z",
+      "at": "2026-10-28T09:09:35.682Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:03.311Z",
+      "at": "2026-10-28T09:09:35.683Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:03.312Z",
+      "at": "2026-10-28T09:09:35.684Z",
       "page": false
     }
   },
@@ -62,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "08d321c0b0d2597d1680380758bec00adbdcc01d"
+  "output_hash": "753c4895bfeba1fb224d6065ea88ab975dff70d8bcbb9c22d7610f74386d1160"
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-E-Way-Bill",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.928Z",
-      "blob": "16c41d9927cf173522545b50853ffa42075bde45",
-      "words": 305,
+      "at": "2026-10-28T09:09:29.700Z",
+      "blob": "f7aacf3d4613ea2845e06084a06f839ff01fbbac",
+      "words": 308,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:15.249Z",
+      "at": "2026-10-28T09:09:35.929Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003459
+      "objects": 0,
+      "cost_usd": 0.003253
     },
     "summarized": {
-      "at": "2026-10-06T19:16:24.817Z",
+      "at": "2026-10-28T09:09:35.931Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:24.818Z",
+      "at": "2026-10-28T09:09:35.933Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:24.819Z",
+      "at": "2026-10-28T09:09:35.935Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-E-Way-Bill.md",
-    "description": "Learn how to generate and manage E-Way Bills for goods transportation in India using Business Central.",
-    "ms_date": "2025-06-19",
+    "description": "Review e-way bill information and workflows for goods transportation, including document details and related actions in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "E-Way bill",
       "template generation"
     ],
-    "ai_usage": null,
-    "words": 305,
+    "ai_usage": "ai-assisted",
+    "words": 308,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0c062269e98508c159dc65855cbfc410cefce61061ebdaee5eec8464cc0fb83e"
+  "output_hash": "af160563040e2d6cbdce63f9dd3107af9d1c6467455eeef431967423ca25906f"
 }

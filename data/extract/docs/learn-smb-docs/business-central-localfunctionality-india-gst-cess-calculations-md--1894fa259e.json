@@ -2,28 +2,31 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Cess-Calculations.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Cess-Calculations",
   "title": "Cess Calculation",
-  "blob": "a19523801e3b845481a212de4dd0859ca3900b44",
-  "summary": "GST Compensation Cess calculation for notified goods in India with five calculation types: Cess%, Threshold, Cess% + Amount/Unit Factor, Cess% or Amount/Unit Factor whichever higher, and Amount/Unit Factor.",
+  "blob": "2021195a4939f9c49f9221d22118b634bb447fd1",
+  "summary": "GST Compensation Cess calculation in India with five calculation types: percentage-based, threshold-based, percentage plus amount, percentage or amount whichever is higher, and amount per unit factor. Input tax credit on cess can only be used for cess output tax liability.",
   "systems": [
     "localization",
     "finance"
   ],
   "topics": [
-    "gst",
-    "cess",
-    "taxation",
-    "india",
-    "calculation",
-    "goods"
+    "gst cess",
+    "india tax",
+    "cess calculation",
+    "gst compensation cess",
+    "threshold",
+    "unit factor",
+    "input tax credit"
   ],
   "objects": [],
   "features": [
     "Cess % calculation",
     "Threshold calculation",
     "Cess % + Amount/Unit Factor",
-    "Cess % or Amount/Unit Factor whichever higher",
+    "Cess % or Amount whichever higher",
     "Amount/Unit Factor calculation",
-    "Input Tax Credit"
+    "GST Group Code",
+    "Cess UOM",
+    "Fact Box display"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003459,
-      "pages_in_call": 8
+      "cost_usd": 0.005281,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Setting up GST Compensation Cess",
+  "title": "Set Up GST Compensation Cess",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Cess-Basic-Setup",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.913Z",
-      "blob": "8a8c5d0eae81ac1e558b7f7a0e30c12b66067f49",
-      "words": 710,
+      "at": "2026-10-28T09:09:29.644Z",
+      "blob": "f58f9e6f68e6e9156264cc28d1913d70cd3707c3",
+      "words": 704,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:15:56.555Z",
+      "at": "2026-10-28T09:09:36.717Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.005419
+      "objects": 5,
+      "cost_usd": 0.005097
     },
     "summarized": {
-      "at": "2026-10-06T19:16:03.313Z",
+      "at": "2026-10-28T09:09:36.719Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:03.314Z",
+      "at": "2026-10-28T09:09:36.720Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:03.315Z",
+      "at": "2026-10-28T09:09:36.722Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Cess-Basic-Setup.md",
-    "description": "Describes the essential configurations needed to set up GST Compensation Cess.",
-    "ms_date": "2025-06-19",
+    "description": "Set up GST Compensation Cess components and item classifications for applicable transactions in the India localization of Business Central.",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "tax rates",
       "GST groups"
     ],
-    "ai_usage": null,
-    "words": 710,
+    "ai_usage": "ai-assisted",
+    "words": 704,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fcb4adf7f1e5c24a266765213ad57f8dbe1627ad0ea198ee2fa97a74ce6f5df0"
+  "output_hash": "c89f0393cad44c4d16963faccfc081a71b1c2cc69c1212aaa0454cdaee7df338"
 }

@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Bank-Charges-Transaction.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Bank-Charges-Transaction",
   "title": "GST on Bank Charges Transaction",
-  "blob": "133b07485ea639cfc4744088214688c91ffefd1c",
-  "summary": "GST calculation on bank charges transactions in bank payment and receipt vouchers, with examples for intra-state and inter-state scenarios with and without input tax credit.",
+  "blob": "08d321c0b0d2597d1680380758bec00adbdcc01d",
+  "summary": "GST on Bank Charges Transaction explains how to calculate and post Goods and Services Tax on bank charges in India, including intra-state and inter-state transactions with input tax credit scenarios and foreign exchange charge calculations.",
   "systems": [
     "finance",
     "localization"
@@ -11,10 +11,10 @@
   "topics": [
     "gst",
     "bank charges",
-    "transaction",
-    "india localization",
-    "deemed value",
-    "payment voucher"
+    "india",
+    "tax calculation",
+    "input tax credit",
+    "foreign exchange"
   ],
   "objects": [
     {
@@ -24,19 +24,16 @@
     {
       "type": "page",
       "name": "Bank Receipt Voucher"
-    },
-    {
-      "type": "page",
-      "name": "Journal Bank Charges"
     }
   ],
   "features": [
-    "gst on bank charges",
-    "deemed value calculation",
-    "foreign exchange bank charges",
-    "input tax credit",
-    "intra-state",
-    "inter-state"
+    "GST calculation on bank charges",
+    "Input tax credit availability",
+    "CGST and SGST calculation",
+    "IGST calculation for inter-state transactions",
+    "Foreign exchange bank charge valuation",
+    "Deemed value calculation",
+    "Bank charge posting entries"
   ],
   "versions": [],
   "parts": 1,
@@ -45,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005419,
-      "pages_in_call": 8
+      "cost_usd": 0.005664,
+      "pages_in_call": 1
     }
   ]
 }

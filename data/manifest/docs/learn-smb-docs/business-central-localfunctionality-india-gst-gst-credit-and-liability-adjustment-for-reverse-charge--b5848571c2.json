@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST Credit and GST Liability adjustment for open Reverse Charge Goods and Services Invoices",
+  "title": "GST Credit and GST Liability Adjustment for Open Reverse Charge Goods and Services Invoices",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.937Z",
-      "blob": "5a37fd4f40c9097eaa06b0e6deee291d05b936cd",
-      "words": 551,
+      "at": "2026-10-28T09:09:36.245Z",
+      "blob": "7e79c2c2da6e16448662994ebb7832b79759aac5",
+      "words": 646,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:15.250Z",
+      "at": "2026-10-28T09:09:45.434Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003459
+      "objects": 2,
+      "cost_usd": 0.004888
     },
     "summarized": {
-      "at": "2026-10-06T19:16:24.824Z",
+      "at": "2026-10-28T09:09:45.436Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:24.825Z",
+      "at": "2026-10-28T09:09:45.437Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:24.826Z",
+      "at": "2026-10-28T09:09:45.438Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice.md",
     "description": "Explains how to adjust GST credit and GST liability for open reverse charge service invoices in Business Central India localization.",
-    "ms_date": "2025-06-19",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "reverse charge goods",
       "services invoices"
     ],
-    "ai_usage": null,
-    "words": 551,
+    "ai_usage": "ai-assisted",
+    "words": 646,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7b05de0b46ecc712cc6186a220e1ba6c92b7b82c1e37c63b9fcaa9f29a229ad6"
+  "output_hash": "180933549c88712e9912fb8a29b5af5cd33eda24289264e86a91f26f3068470c"
 }

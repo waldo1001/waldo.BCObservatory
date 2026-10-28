@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Cess-Calculations",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.918Z",
-      "blob": "a19523801e3b845481a212de4dd0859ca3900b44",
-      "words": 820,
+      "at": "2026-10-28T09:09:29.673Z",
+      "blob": "2021195a4939f9c49f9221d22118b634bb447fd1",
+      "words": 902,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:15.247Z",
+      "at": "2026-10-28T09:09:36.156Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003459
+      "cost_usd": 0.005281
     },
     "summarized": {
-      "at": "2026-10-06T19:16:15.255Z",
+      "at": "2026-10-28T09:09:36.160Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:15.255Z",
+      "at": "2026-10-28T09:09:36.163Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:15.256Z",
+      "at": "2026-10-28T09:09:36.165Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-Cess-Calculations.md",
     "description": "Learn how GST Compensation Cess is calculated in Business Central for India, including calculation types, methods, and examples.",
-    "ms_date": "2025-06-19",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "Cess calculation types",
       "Cess ca;culation methods"
     ],
-    "ai_usage": null,
-    "words": 820,
+    "ai_usage": "ai-assisted",
+    "words": 902,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0871edf2f0ad8ef6c5e2ce94ad89932c1c459adf722f0204df09a455473576d8"
+  "output_hash": "439ddbe3e82fc9714b2a453de5e9ef4922958ba206bdf20a2708fa0573d4b474"
 }

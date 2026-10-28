@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "GST on Advance Payment made to Vendor, with reverse charge",
+  "title": "GST on Advance Payment Made to Vendor with Reverse Charge",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-made-to-Vendor",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.942Z",
-      "blob": "a97c2a01128ddec8183e8098c7f9de5781861c39",
-      "words": 420,
+      "at": "2026-10-28T09:09:36.450Z",
+      "blob": "ac06628f843ef8e5d8620f79e78d850678e0c8bb",
+      "words": 443,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:16:15.252Z",
+      "at": "2026-10-28T09:09:45.547Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.003459
+      "objects": 0,
+      "cost_usd": 0.003745
     },
     "summarized": {
-      "at": "2026-10-06T19:16:24.827Z",
+      "at": "2026-10-28T09:09:45.549Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:16:24.828Z",
+      "at": "2026-10-28T09:09:45.550Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:16:24.830Z",
+      "at": "2026-10-28T09:09:45.553Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/GST-GST-on-Advance-Payment-made-to-Vendor.md",
     "description": "Learn how GST is calculated and applied on advance payments made to vendors under reverse charge in Business Central India localization.",
-    "ms_date": "2025-06-19",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "reverse charge",
       "create a general journal"
     ],
-    "ai_usage": null,
-    "words": 420,
+    "ai_usage": "ai-assisted",
+    "words": 443,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dd8a605ac5b2401a9773d533c624199500292e661f38d896ea73bbc95a37b226"
+  "output_hash": "e9df4634aad59edbb4ad8197a712e2f1687396cc235c0f83059c1335767f4cd8"
 }

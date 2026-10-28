@@ -1,33 +1,40 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice",
-  "title": "GST Credit and GST Liability adjustment for open Reverse Charge Goods and Services Invoices",
-  "blob": "5a37fd4f40c9097eaa06b0e6deee291d05b936cd",
-  "summary": "GST credit and liability adjustment for open reverse charge goods and services invoices in India with different timelines for goods and services.",
+  "title": "GST Credit and GST Liability Adjustment for Open Reverse Charge Goods and Services Invoices",
+  "blob": "7e79c2c2da6e16448662994ebb7832b79759aac5",
+  "summary": "GST Credit and GST Liability Adjustment for open reverse charge goods and services invoices in India explains how to adjust GST amounts using the GST Liability Adjustment feature when payments haven't been made within specified timeframes (30 days for goods, 60 days for services).",
   "systems": [
     "localization",
-    "purchasing",
-    "finance"
+    "finance",
+    "purchasing"
   ],
   "topics": [
     "gst",
     "reverse charge",
-    "liability",
-    "credit adjustment",
-    "india"
+    "india",
+    "liability adjustment",
+    "input tax credit",
+    "tax compliance"
   ],
   "objects": [
     {
       "type": "page",
       "name": "GST Liability Adjustment"
+    },
+    {
+      "type": "page",
+      "name": "GST Liability Adj. Journal"
     }
   ],
   "features": [
     "GST Liability Adjustment",
-    "Reverse charge processing",
-    "Open invoice handling",
-    "Liability date formula",
-    "Generate/Reverse adjustment options"
+    "GST Credit generation",
+    "Reverse charge invoices",
+    "Liability Date Formula",
+    "Generate/Reverse options",
+    "Input Tax Credit tracking",
+    "Interim account management"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003459,
-      "pages_in_call": 8
+      "cost_usd": 0.004888,
+      "pages_in_call": 1
     }
   ]
 }
