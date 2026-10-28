@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "View posted tax credit memos [NZ]",
+  "title": "View Posted Tax Credit Memos in the New Zealand Version [NZ]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-view-posted-tax-credit-memos",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.341Z",
-      "blob": "1fa1a4c97e3471cf1dbd9a46fbf2dae9a5671277",
-      "words": 153,
+      "at": "2026-10-28T09:05:08.798Z",
+      "blob": "91042661a3126a4f56e588b541da53789f6cf19e",
+      "words": 142,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:25:45.881Z",
+      "at": "2026-10-28T09:05:13.638Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.00122
+      "cost_usd": 0.003179
     },
     "summarized": {
-      "at": "2026-10-06T19:25:45.895Z",
+      "at": "2026-10-28T09:05:13.640Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:45.896Z",
+      "at": "2026-10-28T09:05:13.641Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:45.897Z",
+      "at": "2026-10-28T09:05:19.149Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/how-to-view-posted-tax-credit-memos.md",
-    "description": "Learn how to view posted sales tax and purchase tax credit memos in the New Zealand version of Business Central.",
-    "ms_date": "2025-05-05",
+    "description": "Learn how to view posted sales and purchase tax credit memos and review their invoicing and shipping details in the New Zealand version.",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -75,12 +75,12 @@
       "purchase tax credit memo",
       "New Zealand version"
     ],
-    "ai_usage": null,
-    "words": 153,
+    "ai_usage": "ai-assisted",
+    "words": 142,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "05eb8b2758e989703ff88f7d040bd16eb05b8b9922502c4022698602cb1a15b2"
+  "output_hash": "7d3d0e828d31c5f9efa6df98a1cf3405279ff5877455a405e6ff041a5d279834"
 }

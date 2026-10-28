@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Inland Revenue Department Numbers and Adjustment Notes",
+  "title": "New Zealand IRD Numbers and Adjustment Notes",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/new-zealand-business-numbers-and-adjustment-notes",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.267Z",
-      "blob": "c4aa934b886b18c508bc8173dfc8a32c84ec6f7e",
-      "words": 314,
+      "at": "2026-10-28T09:05:09.898Z",
+      "blob": "e0ce6e9424c2db3a62f01a3f0efc42b626c5ed60",
+      "words": 305,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:27.082Z",
+      "at": "2026-10-28T09:05:19.194Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001792
+      "cost_usd": 0.003293
     },
     "summarized": {
-      "at": "2026-10-06T19:25:27.096Z",
+      "at": "2026-10-28T09:05:19.195Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:27.097Z",
+      "at": "2026-10-28T09:05:19.197Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:27.098Z",
+      "at": "2026-10-28T09:05:19.198Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/new-zealand-business-numbers-and-adjustment-notes.md",
-    "description": "Learn about IRD numbers and adjustment notes and how they're supported in the New Zealand version of Business Central.",
-    "ms_date": "2025-05-07",
+    "description": "Learn how IRD numbers and credit memo adjustment fields support tax reporting and corrections in the New Zealand version of Business Central.",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "adjustment notes",
       "credit memos"
     ],
-    "ai_usage": null,
-    "words": 314,
+    "ai_usage": "ai-assisted",
+    "words": 305,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4418cc2692b716f020be37142eea4539e0da2ead0e343931ee60c9ebad74f031"
+  "output_hash": "f1d033ade3a878798a617df4025e5008df029f55814bd3324f90b05f0b2ce8b7"
 }

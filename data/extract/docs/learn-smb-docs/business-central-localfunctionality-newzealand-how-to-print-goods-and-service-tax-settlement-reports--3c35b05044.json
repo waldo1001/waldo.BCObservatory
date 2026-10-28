@@ -1,21 +1,32 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports",
-  "title": "Print Goods and Service Tax Settlement Reports (NZ)",
-  "blob": "84f5c836002d286a43b3cb2021420a0908d04c5e",
-  "summary": "Print Goods and Service Tax Settlement reports in New Zealand to manage GST reporting requirements.",
+  "title": "Print GST Settlement Reports in New Zealand",
+  "blob": "01ef65ecc6803e8c4eb105cab8add3840b28c1e0",
+  "summary": "The Calculate GST Settlement report helps New Zealand businesses calculate and print goods and services tax settlements, with options for posting entries and filtering by various account types.",
   "systems": [
-    "localization",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
     "gst settlement",
+    "new zealand",
     "tax reporting",
-    "new zealand"
+    "goods and services tax"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Calculate GST Settlement"
+    }
+  ],
   "features": [
-    "GST settlement reports"
+    "GST settlement calculation",
+    "settlement posting",
+    "account filtering",
+    "intercompany posting",
+    "posting date configuration",
+    "document numbering"
   ],
   "versions": [],
   "parts": 1,
@@ -24,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001792,
-      "pages_in_call": 8
+      "cost_usd": 0.003213,
+      "pages_in_call": 1
     }
   ]
 }

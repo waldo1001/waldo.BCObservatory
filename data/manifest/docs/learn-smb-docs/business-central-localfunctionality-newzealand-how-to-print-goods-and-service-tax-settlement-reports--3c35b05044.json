@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Print Goods and Service Tax Settlement Reports (NZ)",
+  "title": "Print GST Settlement Reports in New Zealand",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.257Z",
-      "blob": "84f5c836002d286a43b3cb2021420a0908d04c5e",
-      "words": 24,
+      "at": "2026-10-28T09:05:03.372Z",
+      "blob": "01ef65ecc6803e8c4eb105cab8add3840b28c1e0",
+      "words": 219,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:27.080Z",
+      "at": "2026-10-28T09:05:09.147Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.001792
+      "objects": 1,
+      "cost_usd": 0.003213
     },
     "summarized": {
-      "at": "2026-10-06T19:25:27.091Z",
+      "at": "2026-10-28T09:05:09.149Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:27.091Z",
+      "at": "2026-10-28T09:05:09.150Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:27.092Z",
+      "at": "2026-10-28T09:05:09.151Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports.md",
-    "description": "Learn how to prepare and submit a periodic goods and services tax (GST) settlement in the New Zealand version of Business Central.",
-    "ms_date": "2025-05-06",
+    "description": "Learn how to print goods and services tax (GST) settlement reports and distinguish posting a settlement from filing a New Zealand GST return.",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "GST settlement report",
       "New Zealand version"
     ],
-    "ai_usage": null,
-    "words": 24,
+    "ai_usage": "ai-assisted",
+    "words": 219,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9e003c421a2234a882961ddd6e612345667aa7b39f6f7d81e795a9d675dbc390"
+  "output_hash": "4fe2a8b3d9eaaa5d162023e4ff693d3391801584dc3ebf344a7ec836f19f06a5"
 }

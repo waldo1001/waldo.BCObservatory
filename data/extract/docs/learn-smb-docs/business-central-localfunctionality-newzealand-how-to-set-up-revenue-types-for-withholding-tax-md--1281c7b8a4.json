@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-set-up-revenue-types-for-withholding-tax.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-revenue-types-for-withholding-tax",
-  "title": "Set up revenue types for withholding tax [NZ]",
-  "blob": "0756c529048db331974f5a3e6320158ce30899a7",
-  "summary": "Set up revenue types for withholding tax calculations in the New Zealand version of Business Central. Revenue types are configured to support withholding tax compliance.",
+  "title": "Set Up Withholding Tax Revenue Types in New Zealand",
+  "blob": "ee805bb70285b933bcaf95d9372de37c5bfde1d9",
+  "summary": "Configure revenue types for withholding tax calculations in the New Zealand version of Business Central.",
   "systems": [
     "finance",
     "localization"
@@ -16,8 +16,7 @@
   ],
   "objects": [],
   "features": [
-    "withholding tax configuration",
-    "revenue type setup"
+    "withholding tax revenue types"
   ],
   "versions": [],
   "parts": 1,
@@ -26,8 +25,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00122,
-      "pages_in_call": 8
+      "cost_usd": 0.002558,
+      "pages_in_call": 1
     }
   ]
 }

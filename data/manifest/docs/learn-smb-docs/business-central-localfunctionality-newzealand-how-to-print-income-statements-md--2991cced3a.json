@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Print Income Statements [NZ]",
+  "title": "Print Income Statements in the New Zealand Version [NZ]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-income-statements",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.323Z",
-      "blob": "71f56895b1e1d0cd38f2db6b09a144d0b4d3c967",
-      "words": 176,
+      "at": "2026-10-28T09:05:03.301Z",
+      "blob": "12532f2cedd0baac91fc4c4dbcab133055a8bda5",
+      "words": 165,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:50.686Z",
+      "at": "2026-10-28T09:05:08.746Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.000994
+      "cost_usd": 0.003205
     },
     "summarized": {
-      "at": "2026-10-06T19:25:52.481Z",
+      "at": "2026-10-28T09:05:08.748Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:52.482Z",
+      "at": "2026-10-28T09:05:08.749Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:52.483Z",
+      "at": "2026-10-28T09:05:08.750Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/how-to-print-income-statements.md",
-    "description": "Learn how to print the company's annual income statement in a report in the New Zealand version of Business Central.",
-    "ms_date": "2025-05-06",
+    "description": "Learn how to print income statements, compare current and previous year figures, and select rounding and currency options in New Zealand.",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "print income statement",
       "New Zealand version"
     ],
-    "ai_usage": null,
-    "words": 176,
+    "ai_usage": "ai-assisted",
+    "words": 165,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7d3b4e0e004e342b8c6f9e92d47f7071e9a2618cc4d84b38567ded7ae4df85fb"
+  "output_hash": "53b9c79edea330ec6eb100d01e5608258a69ef6e92eed4b16090643326a9ce6e"
 }

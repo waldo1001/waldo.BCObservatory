@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up revenue types for withholding tax [NZ]",
+  "title": "Set Up Withholding Tax Revenue Types in New Zealand",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-revenue-types-for-withholding-tax",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.332Z",
-      "blob": "0756c529048db331974f5a3e6320158ce30899a7",
+      "at": "2026-10-28T09:05:03.462Z",
+      "blob": "ee805bb70285b933bcaf95d9372de37c5bfde1d9",
       "words": 33,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:25:45.879Z",
+      "at": "2026-10-28T09:05:08.580Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00122
+      "cost_usd": 0.002558
     },
     "summarized": {
-      "at": "2026-10-06T19:25:45.890Z",
+      "at": "2026-10-28T09:05:08.582Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:45.891Z",
+      "at": "2026-10-28T09:05:08.583Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:45.892Z",
+      "at": "2026-10-28T09:05:08.584Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/how-to-set-up-revenue-types-for-withholding-tax.md",
-    "description": "Learn how to set up revenue types for withholding tax in the New Zealand version of Business Central. Revenue types help classify withholding tax (WHT) entries and are used for WHT certificates.",
-    "ms_date": "2025-05-06",
+    "description": "Learn how to set up revenue type codes, descriptions, and sequences to classify withholding tax entries and support WHT certificates in New Zealand.",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [
       {
@@ -64,12 +64,12 @@
       "withholding tax",
       "New Zealand version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 33,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cb2e0ca3ec9fe6d7f634e59947660030c745a3b1d5fcc86175551e3f8429b56d"
+  "output_hash": "7e6ff7670d334c3495115de81b4d0da3e42dc4db6c00572c87f7b536ede86746"
 }

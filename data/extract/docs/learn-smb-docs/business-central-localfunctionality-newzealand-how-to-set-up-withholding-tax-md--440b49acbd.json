@@ -1,26 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-set-up-withholding-tax.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-withholding-tax",
-  "title": "Set up withholding tax [NZ]",
-  "blob": "9c11fe6dad8020309530bd894ea8f1d82c1f8e9f",
-  "summary": "Withholding tax setup in New Zealand allows companies to withhold tax when paying vendors without IRD numbers and remit to tax authorities in Business Activity Statements.",
+  "title": "Set Up Withholding Tax in the New Zealand Version [NZ]",
+  "blob": "95e51bcc6455398613cec1e0a4f7e71988cb4a93",
+  "summary": "Set up withholding tax in New Zealand by configuring business and product posting groups to calculate correct WHT deductions for vendors based on payment types, rates, thresholds, and exemptions.",
   "systems": [
-    "localization",
-    "purchasing"
+    "finance",
+    "localization"
   ],
   "topics": [
     "withholding tax",
     "new zealand",
     "vendor payments",
+    "posting groups",
     "tax setup"
   ],
   "objects": [],
   "features": [
-    "withholding tax",
+    "withholding tax setup",
     "business posting groups",
     "product posting groups",
-    "IRD number",
-    "BAS submission"
+    "WHT calculations",
+    "vendor deductions"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003688,
-      "pages_in_call": 8
+      "cost_usd": 0.005528,
+      "pages_in_call": 1
     }
   ]
 }

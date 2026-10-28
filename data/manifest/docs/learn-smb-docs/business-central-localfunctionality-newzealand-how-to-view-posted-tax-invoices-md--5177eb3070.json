@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "View posted tax invoices [NZ]",
+  "title": "View Posted Tax Invoices in the New Zealand Version [NZ]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-view-posted-tax-invoices",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.346Z",
-      "blob": "f895d0ec0936b30d6cc607274f832f66eda61750",
-      "words": 142,
+      "at": "2026-10-28T09:05:09.202Z",
+      "blob": "b39948e19035cbe996b1f79123540133a78e5643",
+      "words": 131,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:25:45.882Z",
+      "at": "2026-10-28T09:05:19.163Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.00122
+      "cost_usd": 0.003099
     },
     "summarized": {
-      "at": "2026-10-06T19:25:45.898Z",
+      "at": "2026-10-28T09:05:19.165Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:45.899Z",
+      "at": "2026-10-28T09:05:19.166Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:45.900Z",
+      "at": "2026-10-28T09:05:19.167Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/how-to-view-posted-tax-invoices.md",
-    "description": "Learn how to view posted sales tax invoices and purchase tax invoices in the New Zealand version of Business Central",
-    "ms_date": "2025-05-07",
+    "description": "Learn how to open posted sales and purchase tax invoices and review general, invoicing, and shipping details in the New Zealand version.",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -75,12 +75,12 @@
       "purchase tax invoice",
       "New Zealand version"
     ],
-    "ai_usage": null,
-    "words": 142,
+    "ai_usage": "ai-assisted",
+    "words": 131,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "573dd9b073d20dc68abe367ec17f8faf5da154f517f47ec8a7ee64a56b82837b"
+  "output_hash": "f888c7fab33037d7ec687ac3e3984c2660edc00faf146db63bcfbc29b61e0caa"
 }

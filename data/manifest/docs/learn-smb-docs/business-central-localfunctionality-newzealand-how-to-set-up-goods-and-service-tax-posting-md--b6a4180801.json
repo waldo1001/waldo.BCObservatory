@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set Up Goods and Service Tax Posting [NZ]",
+  "title": "Set Up Goods and Services Tax Posting in New Zealand",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-goods-and-service-tax-posting",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.328Z",
-      "blob": "ebaa453bb823f3c845a2621b12c58e792b95cb03",
-      "words": 66,
+      "at": "2026-10-28T09:05:03.515Z",
+      "blob": "f643d09448553d9f03e59d8c0365a6a30c7534e4",
+      "words": 237,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:45.878Z",
+      "at": "2026-10-28T09:05:09.811Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00122
+      "objects": 1,
+      "cost_usd": 0.003449
     },
     "summarized": {
-      "at": "2026-10-06T19:25:45.887Z",
+      "at": "2026-10-28T09:05:09.813Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:45.888Z",
+      "at": "2026-10-28T09:05:09.815Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:45.889Z",
+      "at": "2026-10-28T09:05:09.816Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/how-to-set-up-goods-and-service-tax-posting.md",
-    "description": "Learn how to set up posting for goods and services tax (GST) in the New Zealand version of Business Central.",
-    "ms_date": "2025-05-06",
+    "description": "Learn how to set up GST posting groups, tax rates, and general ledger accounts for purchases and sales in the New Zealand version of Business Central.",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "tax setup",
       "New Zealand"
     ],
-    "ai_usage": null,
-    "words": 66,
+    "ai_usage": "ai-assisted",
+    "words": 237,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6b7ad969f793cbef5341361d579b50ef089469cba3ba994ddb369a9a24a95fb8"
+  "output_hash": "b5f32d81e7e30ffc5f19ba754a9668d6112ad4c9625fbab6240deca4efdd7f20"
 }

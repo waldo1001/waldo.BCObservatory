@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up withholding tax [NZ]",
+  "title": "Set Up Withholding Tax in the New Zealand Version [NZ]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-withholding-tax",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.234Z",
-      "blob": "9c11fe6dad8020309530bd894ea8f1d82c1f8e9f",
-      "words": 190,
+      "at": "2026-10-28T09:05:08.636Z",
+      "blob": "95e51bcc6455398613cec1e0a4f7e71988cb4a93",
+      "words": 136,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:25:29.338Z",
+      "at": "2026-10-28T09:05:19.176Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003688
+      "cost_usd": 0.005528
     },
     "summarized": {
-      "at": "2026-10-06T19:25:29.365Z",
+      "at": "2026-10-28T09:05:19.178Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:29.366Z",
+      "at": "2026-10-28T09:05:19.179Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:29.367Z",
+      "at": "2026-10-28T09:05:19.181Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/NewZealand/how-to-set-up-withholding-tax.md",
     "description": "Learn how to set up product posting groups and business posting groups for Withholding tax (WHT) in the New Zealand version of Business Central.",
-    "ms_date": "2025-05-07",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [
       {
@@ -76,12 +76,12 @@
       "business posting groups",
       "New Zealand version"
     ],
-    "ai_usage": null,
-    "words": 190,
+    "ai_usage": "ai-assisted",
+    "words": 136,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "aed24bb2e5947e44fced4d242593fb9efe589f7eac34bc102f550a2314afbede"
+  "output_hash": "4a0c05a6220624f9f2b53ba0941ac25815fac6aaccd36c072a837833f2c660c1"
 }

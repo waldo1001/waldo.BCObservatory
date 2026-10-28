@@ -1,17 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-view-withholding-tax-entries.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-view-withholding-tax-entries",
-  "title": "View Withholding Tax Entries [NZ]",
-  "blob": "62274abe6e0a8dc380a6e22cc06258ac6ccfc841",
-  "summary": "View withholding tax entries posted for a general ledger register in New Zealand, including base amount, calculation method, and unrealized WHT.",
+  "title": "View Withholding Tax Entries in the New Zealand Version [NZ]",
+  "blob": "dcfc8747d15ea767c5e5acd5abbe57722ae4e80c",
+  "summary": "View withholding tax entries posted to general ledger registers in the New Zealand version, including base amounts, calculated WHT amounts, calculation methods, and unrealized WHT amounts.",
   "systems": [
-    "localization",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
     "withholding tax",
+    "general ledger",
+    "new zealand",
     "tax entries",
-    "new zealand"
+    "posting"
   ],
   "objects": [
     {
@@ -24,7 +26,9 @@
     }
   ],
   "features": [
-    "withholding tax entries",
+    "withholding tax entry details",
+    "base amount",
+    "calculated WHT amount",
     "WHT calculation method",
     "unrealized WHT amount"
   ],
@@ -35,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001792,
-      "pages_in_call": 8
+      "cost_usd": 0.003219,
+      "pages_in_call": 1
     }
   ]
 }

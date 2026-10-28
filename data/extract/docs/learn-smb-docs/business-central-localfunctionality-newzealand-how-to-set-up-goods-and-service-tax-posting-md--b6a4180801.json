@@ -1,24 +1,36 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-set-up-goods-and-service-tax-posting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-goods-and-service-tax-posting",
-  "title": "Set Up Goods and Service Tax Posting [NZ]",
-  "blob": "ebaa453bb823f3c845a2621b12c58e792b95cb03",
-  "summary": "Set up Goods and Service Tax (GST) posting in the New Zealand version of Business Central. GST is applied to most goods and services and reported in the Business Activity Statement (BAS) submitted to tax authorities.",
+  "title": "Set Up Goods and Services Tax Posting in New Zealand",
+  "blob": "f643d09448553d9f03e59d8c0365a6a30c7534e4",
+  "summary": "Setting up goods and services tax (GST) posting in the New Zealand version involves configuring VAT posting groups, GST rates, and GL accounts for different combinations of business and product posting groups.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "goods and service tax",
     "gst",
-    "tax posting",
+    "vat posting",
     "new zealand",
-    "bas"
+    "tax setup",
+    "posting groups",
+    "gl accounts"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    }
+  ],
   "features": [
-    "GST posting",
-    "Business Activity Statement reporting"
+    "VAT business posting group",
+    "VAT product posting group",
+    "VAT identifier",
+    "VAT percentage",
+    "VAT calculation type",
+    "Sales VAT account",
+    "Purchase VAT account",
+    "Reverse charge VAT account"
   ],
   "versions": [],
   "parts": 1,
@@ -27,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00122,
-      "pages_in_call": 8
+      "cost_usd": 0.003449,
+      "pages_in_call": 1
     }
   ]
 }
