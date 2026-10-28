@@ -1,35 +1,39 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format",
-  "title": "Create templates for telematic VAT statements in XML format (ES)",
-  "blob": "7c85a24da788f17ec5377c3f493cd16fa3d8df72",
-  "summary": "Create XML file format templates for telematic VAT statements in Spanish Business Central to generate electronic files meeting tax authority requirements.",
+  "title": "Create Templates for Telematic VAT Statements in XML File Format",
+  "blob": "2a034f056f7c36581a4b6d1a4685cf5e68d32cb4",
+  "summary": "Creating templates for telematic VAT statements in XML file format to submit VAT statements electronically to Spanish tax authorities. Configure XML structure using the XML Transference Format page with field mappings, indentation levels, value types, and data sources.",
   "systems": [
-    "reporting",
+    "finance",
     "localization"
   ],
   "topics": [
-    "spanish tax",
     "vat statements",
-    "telematic filing",
-    "xml format"
+    "xml templates",
+    "spain",
+    "tax reporting",
+    "electronic submission",
+    "telematic"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "VAT Statement"
+      "name": "XML Transference Format"
     },
     {
       "type": "page",
-      "name": "XML Transference Format"
+      "name": "VAT Statement"
     }
   ],
   "features": [
-    "VAT statement templates",
-    "XML file generation",
-    "tax authority submission",
-    "field mapping",
-    "indentation levels"
+    "XML file format",
+    "Template design",
+    "Field mapping",
+    "Indentation levels",
+    "Value types",
+    "Box references",
+    "Line types"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003091,
-      "pages_in_call": 8
+      "cost_usd": 0.003614,
+      "pages_in_call": 1
     }
   ]
 }

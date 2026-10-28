@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Export Financial Reports to ASC Format",
+  "title": "Export Financial Reports to ASC Format",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.619Z",
-      "blob": "d8a6fac0fb83817e2f72ab21b82c3138401a2c99",
-      "words": 128,
+      "at": "2026-10-28T09:06:45.657Z",
+      "blob": "9e74a311eda591345fd1b448cc82b67bc52b847f",
+      "words": 120,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:12.800Z",
+      "at": "2026-10-28T09:06:54.504Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.003091
+      "cost_usd": 0.003446
     },
     "summarized": {
-      "at": "2026-10-06T19:23:12.863Z",
+      "at": "2026-10-28T09:06:54.505Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:12.864Z",
+      "at": "2026-10-28T09:06:54.507Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:12.865Z",
+      "at": "2026-10-28T09:06:54.508Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format.md",
-    "description": "Export financial report data to a digital file format approved by Spanish tax authorities for specific annual reports.",
-    "ms_date": "2025-05-27",
+    "description": "Learn how to export financial report data to ASC format in Business Central for Spain and configure the options for the annual report file.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "annual reports",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 128,
+    "ai_usage": "ai-assisted",
+    "words": 120,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7b47479883cc2cd8f86123f48bb3865de1e8f49dfd895aacf63fc99b409b9647"
+  "output_hash": "1828bd049f7af04b463ccd1a8d0991e69a627ada7f3ac29a85729f9158c7b566"
 }

@@ -1,23 +1,26 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-create-report-349.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-create-report-349",
-  "title": "Create Report 349 [ES]",
-  "blob": "c64a9c29d225a2d51e1140d6673fd5bbe78259f4",
-  "summary": "Report 349 is a periodic Spanish tax declaration of intra-EU trade submitted electronically or on CD-ROM, with features to handle credit memo corrections and adjust delivery operation codes.",
+  "title": "Create Report 349 in the Spanish Version [ES]",
+  "blob": "cd4943331d8ade9008120f030d52eef7976153fa",
+  "summary": "Report 349 is a periodic EU trade declaration required by Spanish tax authorities. This page explains how to create and submit the report electronically or on CD-ROM, and how to correct warnings related to credit memos.",
   "systems": [
-    "finance",
-    "reporting"
+    "localization"
   ],
   "topics": [
     "report 349",
-    "eu trade",
-    "spain",
-    "tax declaration",
-    "credit memos"
+    "spanish tax",
+    "eu trade declaration",
+    "credit memo correction",
+    "telematic submission"
   ],
   "objects": [
     {
       "type": "report",
+      "name": "Report 349"
+    },
+    {
+      "type": "page",
       "name": "Make 349 Declaration"
     },
     {
@@ -26,11 +29,13 @@
     }
   ],
   "features": [
-    "349 Declaration",
-    "Telematic submission",
-    "CD-ROM support",
-    "Delivery operation codes",
-    "Credit memo corrections"
+    "fiscal year specification",
+    "period frequency selection",
+    "declaration media type",
+    "telematic submission",
+    "credit memo handling",
+    "general product posting group exclusion",
+    "delivery operation code"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002453,
-      "pages_in_call": 7
+      "cost_usd": 0.004257,
+      "pages_in_call": 1
     }
   ]
 }

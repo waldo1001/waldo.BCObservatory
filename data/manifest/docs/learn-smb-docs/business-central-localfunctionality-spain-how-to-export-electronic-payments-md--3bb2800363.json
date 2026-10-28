@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Export Electronic Payments [ES]",
+  "title": "Export Electronic Payments in the Spanish Version [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-electronic-payments",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.228Z",
-      "blob": "998faa00f4a6057aeb0aca2d4a95f4ee0384f374",
-      "words": 1064,
+      "at": "2026-10-28T09:06:45.712Z",
+      "blob": "43ec99ad151e48bbaa8a85b7feeeb845f1706cce",
+      "words": 976,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:47.886Z",
+      "at": "2026-10-28T09:06:54.471Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 6,
-      "cost_usd": 0.004432
+      "objects": 7,
+      "cost_usd": 0.00577
     },
     "summarized": {
-      "at": "2026-10-06T19:17:49.563Z",
+      "at": "2026-10-28T09:06:54.473Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:49.565Z",
+      "at": "2026-10-28T09:06:54.475Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:49.566Z",
+      "at": "2026-10-28T09:06:54.476Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/how-to-export-electronic-payments.md",
     "description": "In Business Central, you can export payment journal entries to files using four different payment standards, each supported by specific pages.",
-    "ms_date": "2025-05-27",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "payment orders",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 1064,
+    "ai_usage": "ai-assisted",
+    "words": 976,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "22a4de3688e4cf1f20191814d9e26ee1e3b85ddb38157451f3862b48f05a4de7"
+  "output_hash": "cede510f58a457ebb4a1513740b2eb470c40063756eafaa3d7acfa207fb92af9"
 }

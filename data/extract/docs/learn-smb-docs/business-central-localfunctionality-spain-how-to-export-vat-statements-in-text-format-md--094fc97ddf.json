@@ -1,31 +1,40 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format",
-  "title": "How to Export VAT Statements in Text Format",
-  "blob": "7c596fb4cb3146b770271b8be0abbb36622c3121",
-  "summary": "VAT statements can be exported in text format for electronic submission to Spanish tax authorities from VAT Statements using the Generate txt file action with filtering options.",
+  "title": "Export VAT Statements in Text Format",
+  "blob": "8edc5c95cad8aa5af7faef0551d728af072886ff",
+  "summary": "Export VAT statements in text format for electronic submission to Spanish tax authorities using the Telematic VAT Declaration process with filtering options for VAT entries and reporting currency.",
   "systems": [
     "finance",
-    "reporting"
+    "localization"
   ],
   "topics": [
-    "vat statements",
-    "text format export",
+    "vat",
+    "tax reporting",
     "spain",
-    "tax submission"
+    "text export",
+    "telematic declaration"
   ],
   "objects": [
     {
       "type": "page",
+      "name": "VAT Statements"
+    },
+    {
+      "type": "page",
       "name": "Telematic VAT Declaration"
+    },
+    {
+      "type": "page",
+      "name": "Transference Format"
     }
   ],
   "features": [
-    "VAT statement export",
-    "Text file format",
-    "Open/closed entries filter",
-    "Additional currency display",
-    "Telematic submission"
+    "Generate txt file action",
+    "VAT entries filtering (open/closed)",
+    "Period-based entry inclusion",
+    "Additional currency reporting",
+    "Date filter specification"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002453,
-      "pages_in_call": 7
+      "cost_usd": 0.003723,
+      "pages_in_call": 1
     }
   ]
 }

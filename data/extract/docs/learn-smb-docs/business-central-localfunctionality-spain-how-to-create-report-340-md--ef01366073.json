@@ -1,32 +1,40 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-create-report-340.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-create-report-340",
-  "title": "Create Report 340 [ES]",
-  "blob": "36cb48b8192aa099f7718fe33d23b2f1ee19c4a1",
-  "summary": "Report 340 in Spanish Business Central documents sales and purchase invoices with operation codes and tax information for submission to tax authorities on a monthly or quarterly basis.",
+  "title": "Create Report 340 in the Spanish Version [ES]",
+  "blob": "dd55f7a099aeaaec9aeea7ab48abfb0160d3fed8",
+  "summary": "Create Report 340 for Spanish tax compliance, which documents sales and purchase invoices with operation codes and cash payments for monthly or quarterly submission to tax authorities.",
   "systems": [
-    "reporting",
+    "finance",
     "localization"
   ],
   "topics": [
-    "spanish tax",
+    "tax reporting",
+    "spain",
     "report 340",
-    "tax compliance",
     "invoices",
-    "cash payments"
+    "cash payments",
+    "tax compliance"
   ],
   "objects": [
+    {
+      "type": "report",
+      "name": "Report 340"
+    },
     {
       "type": "page",
       "name": "Make 340 Declaration"
     }
   ],
   "features": [
-    "operation codes",
-    "cash payment reporting",
-    "nondeductible VAT",
+    "Fiscal Year selection",
+    "Monthly reporting",
+    "Minimum Payment Amount filtering",
+    "General Ledger account selection",
+    "Operation codes",
+    "Cash payment tracking",
     "CAC regimen support",
-    "electronic submission"
+    "Replacement declaration"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003091,
-      "pages_in_call": 8
+      "cost_usd": 0.003889,
+      "pages_in_call": 1
     }
   ]
 }

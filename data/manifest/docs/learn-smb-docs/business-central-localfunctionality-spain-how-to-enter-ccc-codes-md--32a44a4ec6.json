@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to enter CCC codes [ES]",
+  "title": "Enter CCC Codes in the Spanish Version [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-enter-ccc-codes",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.662Z",
-      "blob": "5553ee8df43c8dc76031137027603e516ca6060a",
-      "words": 159,
+      "at": "2026-10-28T09:06:45.089Z",
+      "blob": "0c66f3eae9ac16cd9e0c51f3e25cc6a30ffe2182",
+      "words": 148,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:45.369Z",
+      "at": "2026-10-28T09:06:49.471Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002453
+      "cost_usd": 0.002934
     },
     "summarized": {
-      "at": "2026-10-06T19:23:47.134Z",
+      "at": "2026-10-28T09:06:49.472Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:47.135Z",
+      "at": "2026-10-28T09:06:54.460Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:47.137Z",
+      "at": "2026-10-28T09:06:54.462Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/how-to-enter-ccc-codes.md",
     "description": "Learn how to enter the Código Cuenta Cliente (CCC) unique bank account identification code using the Spanish version of Business Central.",
-    "ms_date": "2025-05-27",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "bank account identification code",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 159,
+    "ai_usage": "ai-assisted",
+    "words": 148,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "18e68061295fdda77f185052bb7409579ad3760a6db04b03894da7e6acbd8643"
+  "output_hash": "2bf47e51638341b1f0980f037ce63f3a9bb811b95af4884493bf1ee7add3c708"
 }

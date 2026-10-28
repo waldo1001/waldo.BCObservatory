@@ -1,24 +1,26 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-create-report-347.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-create-report-347",
-  "title": "How to create report 347 [ES]",
-  "blob": "14ec9669a287e24719e6d16bee2603f65b3acb55",
-  "summary": "Report 347 is an annual Spanish tax declaration of sales and purchase transactions submitted to tax authorities in approved format, with tools to identify unapplied cash payments and generate declaration labels.",
+  "title": "Create Report 347 in the Spanish Version [ES]",
+  "blob": "548cd275a92f11d841a96b0aedf20a296e6bae62",
+  "summary": "Report 347 is an annual tax declaration in Spanish Business Central that reports sales and purchase transactions to tax authorities. The page explains how to identify unapplied cash payments, create the declaration, and generate required declaration labels.",
   "systems": [
+    "localization",
     "finance",
     "reporting"
   ],
   "topics": [
-    "report 347",
-    "tax declaration",
+    "tax compliance",
     "spain",
-    "annual reporting",
-    "cash payments"
+    "report 347",
+    "declarations",
+    "cash payments",
+    "tax authorities"
   ],
   "objects": [
     {
       "type": "report",
-      "name": "Unapplied Payments in Cash"
+      "name": "347 Declaration"
     },
     {
       "type": "report",
@@ -27,13 +29,17 @@
     {
       "type": "report",
       "name": "347 Declaration Labels"
+    },
+    {
+      "type": "report",
+      "name": "Unapplied Payments in Cash"
     }
   ],
   "features": [
-    "347 Declaration",
-    "Unapplied payments identification",
-    "Declaration labels",
-    "CD-ROM submission"
+    "Report 347 declaration generation",
+    "Unapplied payments in cash identification",
+    "347 declaration labels",
+    "Tax authority submission"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002453,
-      "pages_in_call": 7
+      "cost_usd": 0.003447,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,19 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-enter-ccc-codes.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-enter-ccc-codes",
-  "title": "How to enter CCC codes [ES]",
-  "blob": "5553ee8df43c8dc76031137027603e516ca6060a",
-  "summary": "CCC codes (Código Cuenta Cliente) are unique 20-digit Spanish or 21-digit Portuguese bank account identification codes with component fields for bank, branch, control digits, and account number.",
+  "title": "Enter CCC Codes in the Spanish Version [ES]",
+  "blob": "0c66f3eae9ac16cd9e0c51f3e25cc6a30ffe2182",
+  "summary": "CCC codes are unique Spanish bank account identification codes with 20 digits (Spain) or 21 digits (Portugal). The page explains how to enter CCC code components in the Company Information page.",
   "systems": [
-    "finance",
-    "administration"
+    "localization"
   ],
   "topics": [
-    "ccc codes",
-    "bank accounts",
     "spain",
-    "portugal",
-    "account identification"
+    "localization",
+    "bank accounts",
+    "payment setup",
+    "ccc codes"
   ],
   "objects": [],
   "features": [
@@ -29,8 +28,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002453,
-      "pages_in_call": 7
+      "cost_usd": 0.002934,
+      "pages_in_call": 1
     }
   ]
 }

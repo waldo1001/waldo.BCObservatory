@@ -1,18 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format",
-  "title": "How to Export Financial Reports to ASC Format",
-  "blob": "d8a6fac0fb83817e2f72ab21b82c3138401a2c99",
-  "summary": "Export financial report data to ASC format in Spanish Business Central for balance sheet and profit/loss statement annual reports required by tax authorities.",
+  "title": "Export Financial Reports to ASC Format",
+  "blob": "9e74a311eda591345fd1b448cc82b67bc52b847f",
+  "summary": "Export financial reports to ASC format approved by Spanish tax authorities for balance sheet and income statement reports. Use this when you need to submit annual financial reports in the required digital format.",
   "systems": [
-    "reporting",
+    "finance",
     "localization"
   ],
   "topics": [
-    "spanish tax",
     "financial reporting",
+    "export",
+    "spain",
     "asc format",
-    "annual reports"
+    "tax compliance"
   ],
   "objects": [
     {
@@ -29,10 +30,11 @@
     }
   ],
   "features": [
-    "financial report export",
-    "ASC format compliance",
-    "balance sheet reporting",
-    "profit/loss reporting"
+    "Export financial reports to ASC format",
+    "Balance de Situación Abreviado",
+    "Balance de Situación Normal",
+    "Cuenta de PyG Abreviado",
+    "Cuenta de PyG Normal"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003091,
-      "pages_in_call": 8
+      "cost_usd": 0.003446,
+      "pages_in_call": 1
     }
   ]
 }

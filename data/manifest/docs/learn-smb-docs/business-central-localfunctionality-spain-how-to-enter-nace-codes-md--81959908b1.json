@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Enter NACE Codes [ES]",
+  "title": "Enter NACE Codes in the Spanish Version [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-enter-nace-codes",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.667Z",
-      "blob": "92b7bf18d3cb3a5bdb52b6c400a86310363979f3",
-      "words": 142,
+      "at": "2026-10-28T09:06:45.221Z",
+      "blob": "569112373b814e26afbf9d7fb4833febd11a8cc6",
+      "words": 131,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T23:41:10.601Z",
+      "at": "2026-10-28T09:06:54.604Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002263
+      "objects": 1,
+      "cost_usd": 0.00307
     },
     "summarized": {
-      "at": "2026-10-06T23:41:10.618Z",
+      "at": "2026-10-28T09:06:54.606Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T23:41:10.619Z",
+      "at": "2026-10-28T09:06:54.607Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T23:41:10.620Z",
+      "at": "2026-10-28T09:06:54.609Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/how-to-enter-nace-codes.md",
     "description": "Learn how to enter the Nomenclature génerale des Activités économiques dans les Communautés Européennes (NACE) codes using the Spanish version of Business Central.",
-    "ms_date": "2025-05-27",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "NACE codes",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 142,
+    "ai_usage": "ai-assisted",
+    "words": 131,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b3751d589329e4326cb5b60949215d77b9e316456263b04e33d941aaa709881e"
+  "output_hash": "4ad883fccf9c36e9365869c98c56098bfcf9b6a7f8a996cd75c752faa2e353fb"
 }

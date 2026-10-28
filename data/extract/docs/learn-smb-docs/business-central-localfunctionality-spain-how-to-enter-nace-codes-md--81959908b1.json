@@ -1,24 +1,30 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-enter-nace-codes.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-enter-nace-codes",
-  "title": "How to Enter NACE Codes [ES]",
-  "blob": "92b7bf18d3cb3a5bdb52b6c400a86310363979f3",
-  "summary": "NACE codes in Spanish localization enable entry of five- or six-digit statistical classification codes for industry sectors on the Company Information page to compile production, labor, and financial statistics within the EU.",
+  "title": "Enter NACE Codes in the Spanish Version [ES]",
+  "blob": "569112373b814e26afbf9d7fb4833febd11a8cc6",
+  "summary": "NACE codes represent the statistical classification of economic activities within the EU and can be entered in the Company Information page in the Spanish version to compile statistics on production, labor, materials, capital formation, and financial operations.",
   "systems": [
-    "administration",
-    "localization"
+    "localization",
+    "administration"
   ],
   "topics": [
-    "spain localization",
     "nace codes",
-    "industrial classification",
+    "spain",
     "company information",
-    "eu statistics"
+    "economic classification",
+    "statistics"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    }
+  ],
   "features": [
     "NACE code entry",
-    "industrial classification field"
+    "Industrial Classification field",
+    "Spanish localization"
   ],
   "versions": [],
   "parts": 1,
@@ -27,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002263,
-      "pages_in_call": 8
+      "cost_usd": 0.00307,
+      "pages_in_call": 1
     }
   ]
 }

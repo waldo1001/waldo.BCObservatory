@@ -1,18 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format",
-  "title": "Create Templates for Telematic VAT Statements in Text Format (ES)",
-  "blob": "757e2bbd9cefdaeb18775d4f79c5a72db21a673d",
-  "summary": "Create text file format templates for telematic VAT statements in Spanish Business Central to generate electronic files for tax authority submission.",
+  "title": "Create Templates for Telematic VAT Statements in Text File Format",
+  "blob": "ea504f9b6f77e3e009971104267be62a92adac8e",
+  "summary": "Create text file templates for Spain's telematic VAT statements to submit electronic VAT filings with tax authorities. Use the Transference Format page to define field positions, lengths, types, and data sources.",
   "systems": [
-    "reporting",
+    "finance",
     "localization"
   ],
   "topics": [
-    "spanish tax",
     "vat statements",
-    "telematic filing",
-    "text format"
+    "tax compliance",
+    "spain",
+    "templates",
+    "text file format",
+    "telematic submission"
   ],
   "objects": [
     {
@@ -26,9 +28,10 @@
   ],
   "features": [
     "VAT statement templates",
-    "text file generation",
-    "tax authority submission",
-    "field mapping"
+    "text file format",
+    "telematic VAT submission",
+    "field configuration",
+    "tax authority compliance"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003091,
-      "pages_in_call": 8
+      "cost_usd": 0.003535,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to create report 347 [ES]",
+  "title": "Create Report 347 in the Spanish Version [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-create-report-347",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.653Z",
-      "blob": "14ec9669a287e24719e6d16bee2603f65b3acb55",
-      "words": 253,
+      "at": "2026-10-28T09:06:38.850Z",
+      "blob": "548cd275a92f11d841a96b0aedf20a296e6bae62",
+      "words": 220,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:45.367Z",
+      "at": "2026-10-28T09:06:45.603Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.002453
+      "objects": 4,
+      "cost_usd": 0.003447
     },
     "summarized": {
-      "at": "2026-10-06T19:23:45.401Z",
+      "at": "2026-10-28T09:06:45.604Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:45.402Z",
+      "at": "2026-10-28T09:06:45.606Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:47.129Z",
+      "at": "2026-10-28T09:06:45.607Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/how-to-create-report-347.md",
     "description": "Learn how to make a Report 347 declaration to the tax authorities providing the sales and purchase transactions from the previous fiscal period.",
-    "ms_date": "2025-05-26",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "347 declaration",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 253,
+    "ai_usage": "ai-assisted",
+    "words": 220,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1ae3131bef7f96664f7ad68498e4aedb155bdc5f51ab1dc11790ec7dea413726"
+  "output_hash": "b34ef7cb66cf506b98ddd1db2ded7c1073744c5c9d5f0a16ca5a49b752cdfb71"
 }

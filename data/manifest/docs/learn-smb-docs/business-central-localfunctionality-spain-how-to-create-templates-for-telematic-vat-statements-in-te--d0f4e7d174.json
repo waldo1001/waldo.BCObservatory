@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Create Templates for Telematic VAT Statements in Text Format (ES)",
+  "title": "Create Templates for Telematic VAT Statements in Text File Format",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.608Z",
-      "blob": "757e2bbd9cefdaeb18775d4f79c5a72db21a673d",
-      "words": 299,
+      "at": "2026-10-28T09:06:39.040Z",
+      "blob": "ea504f9b6f77e3e009971104267be62a92adac8e",
+      "words": 288,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:23:12.781Z",
+      "at": "2026-10-28T09:06:45.169Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003091
+      "cost_usd": 0.003535
     },
     "summarized": {
-      "at": "2026-10-06T19:23:12.854Z",
+      "at": "2026-10-28T09:06:45.170Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:12.855Z",
+      "at": "2026-10-28T09:06:45.171Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:12.856Z",
+      "at": "2026-10-28T09:06:45.173Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md",
     "description": "Learn how to create templates for telematic VAT statements in text file format for electronic submission in the Spanish version of Business Central.",
-    "ms_date": "2025-05-26",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -66,12 +66,12 @@
       "VAT statement template",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 299,
+    "ai_usage": "ai-assisted",
+    "words": 288,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9a363c7d6bef13acd8e806934ca4a992d6e25506ce20aed8b468bbba43a769f6"
+  "output_hash": "c4c1688fffdc9ceb57e0ad5a947de6bc313f62f77dc4005ebfd7716648b894a2"
 }

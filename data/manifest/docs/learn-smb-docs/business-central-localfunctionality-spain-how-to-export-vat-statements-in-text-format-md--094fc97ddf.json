@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Export VAT Statements in Text Format",
+  "title": "Export VAT Statements in Text Format",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.672Z",
-      "blob": "7c596fb4cb3146b770271b8be0abbb36622c3121",
-      "words": 281,
+      "at": "2026-10-28T09:06:46.298Z",
+      "blob": "8edc5c95cad8aa5af7faef0551d728af072886ff",
+      "words": 270,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:45.370Z",
+      "at": "2026-10-28T09:06:54.485Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002453
+      "objects": 3,
+      "cost_usd": 0.003723
     },
     "summarized": {
-      "at": "2026-10-06T19:23:47.139Z",
+      "at": "2026-10-28T09:06:54.487Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:47.140Z",
+      "at": "2026-10-28T09:06:54.488Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:47.141Z",
+      "at": "2026-10-28T09:06:54.490Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format.md",
-    "description": "Export VAT statements in text format for electronic submission to tax authorities.",
-    "ms_date": "2025-05-27",
+    "description": "Learn how to export a VAT statement as a text file in Business Central for Spain, select VAT entries, and review the transference format.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "VAT text format",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 281,
+    "ai_usage": "ai-assisted",
+    "words": 270,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "11375c465dcc4515026565fe739f926a95365d706b48e7e8c2a81636693214e5"
+  "output_hash": "003608c0cb7184cff42236d18eaf5fa44e5cf0dd21451cdf20cf695f513a75a6"
 }
