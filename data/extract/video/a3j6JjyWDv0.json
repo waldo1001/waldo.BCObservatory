@@ -270,27 +270,6 @@
       "system": "development"
     },
     {
-      "name": "Posting preview technique",
-      "description": "Posting preview is a technique where posting code writes to temporary tables while subscribers copy entries into temporary records. An intentional error is then raised inside a try-catch block. The real posting rolls back but temporary data persists, allowing the system to show a preview of what would be posted without actually committing the changes.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 698,
-      "t_end": 748,
-      "is_demoed": false,
-      "caveats": [
-        "Requires intentional error to trigger rollback",
-        "Depends on temporary tables surviving rollback"
-      ],
-      "tags": [
-        "preview functionality",
-        "temporary records",
-        "posting logic"
-      ],
-      "system": "finance"
-    },
-    {
       "name": "Try function error handling",
       "description": "Try functions catch errors but do not undo writes that occurred within the try block. Catching an error is not the same as undoing the write transaction.",
       "status": "unclear",
@@ -330,46 +309,6 @@
         "commit",
         "transactions",
         "final state"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "CommitBehavior procedure attribute",
-      "description": "An attribute on procedures or events that controls how commits are handled in called code. Can be set to ignore commits, raise errors on commits, or enforce commit-only mode.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1405.2,
-      "t_end": 1674.1,
-      "is_demoed": true,
-      "caveats": [
-        "The stricter CommitBehavior rule wins in parent-child scenarios",
-        "Subscribers cannot protect themselves from a publisher's commits"
-      ],
-      "tags": [
-        "commit behavior",
-        "attribute",
-        "integration events",
-        "control"
-      ],
-      "system": "development"
-    },
-    {
-      "name": "If-Could-You-Run error handling",
-      "description": "A mechanism that catches errors and undoes one unit of work within a transaction, allowing conditional logic based on operation success.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 1140.5,
-      "t_end": 1169.9,
-      "is_demoed": false,
-      "caveats": [],
-      "tags": [
-        "error handling",
-        "conditional logic",
-        "transactions"
       ],
       "system": "development"
     },
@@ -711,27 +650,6 @@
       "system": "development"
     },
     {
-      "name": "Commit Behavior Property",
-      "description": "Discusses the commit behavior property and whether making it ignore by default for publishers would be beneficial, noting backwards compatibility concerns.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
-      "t_start": 3283.1,
-      "t_end": 3367.4,
-      "is_demoed": false,
-      "caveats": [
-        "Would break backwards compatibility",
-        "Relies on existing behavior in base and system application"
-      ],
-      "tags": [
-        "commit behavior",
-        "default settings",
-        "publisher"
-      ],
-      "system": "platform"
-    },
-    {
       "name": "Try Function Behavior: On-Premise vs Online",
       "description": "Explains that try function behavior differs between on-premise and Business Central online: on-premise throws runtime error for writes in try, while online allows writes but does not undo them on error.",
       "status": "unclear",
@@ -806,6 +724,12 @@
       "check": "exact"
     },
     {
+      "t": 698,
+      "text": "Posting preview. So, let's imagine we have general uh posting preview could you need which really post into real tables data.",
+      "why_it_matters": "Shows posting preview writes to real tables and relies on rollback.",
+      "check": "exact"
+    },
+    {
       "t": 840.7,
       "text": "The error was caught, but the right inside the try function wasn't undone. That's how it works online.",
       "why_it_matters": "Demonstrates the core bug pattern of the session where try-catch prevents rollback in online BC, leaving data modified despite error handling.",
@@ -848,21 +772,9 @@
       "check": "fuzzy"
     },
     {
-      "t": 1591.2,
-      "text": "So, as you can see, the how commit behavior can be used to control it. And there is like four simple rules which we",
-      "why_it_matters": "Establishes commit behavior as a key control mechanism with defined rules that developers must understand.",
-      "check": "exact"
-    },
-    {
-      "t": 1631.1,
-      "text": "The stricter one wins. A parent error beats child ignore.",
-      "why_it_matters": "Key rule for understanding CommitBehavior attribute precedence in nested procedure calls.",
-      "check": "exact"
-    },
-    {
       "t": 1631.1,
       "text": "Also, the stricter one wins. A parent error beats child ignore. If you have several uh parent child commit behavior procedures combined.",
-      "why_it_matters": "Explains the critical rule that stricter parent behavior overrides child behavior in nested calls, affecting data integrity.",
+      "why_it_matters": "States how nested CommitBehavior attributes combine.",
       "check": "exact"
     },
     {
@@ -951,14 +863,8 @@
     },
     {
       "t": 3172.4,
-      "text": "So, first, no insert, modify, or delete inside try function. Every commit has comment that says why.",
-      "why_it_matters": "First two items of code review checklist establishing best practices for transaction safety.",
-      "check": "exact"
-    },
-    {
-      "t": 3172.4,
       "text": "Every commit has comment that says why. To skip a failed record and continue a like run each one if could you need run",
-      "why_it_matters": "Documents required documentation and proper loop handling patterns for transaction safety",
+      "why_it_matters": "Checklist items on documenting commits and per-record Codeunit.Run boundaries.",
       "check": "exact"
     },
     {
@@ -975,8 +881,8 @@
     },
     {
       "t": 3420.7,
-      "text": "By default on any on-premise installation, it will this setting will be set it to that way that if you ...",
-      "why_it_matters": "Documents the on-premise default behavior for try functions, which differs from online",
+      "text": "if you have any rights inside your try functions, you will have runtime error.",
+      "why_it_matters": "Explains the on-premises default for writes inside try functions.",
       "check": "exact"
     },
     {

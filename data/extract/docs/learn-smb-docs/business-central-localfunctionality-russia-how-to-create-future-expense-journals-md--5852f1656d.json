@@ -2,38 +2,46 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-create-future-expense-journals.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-future-expense-journals",
   "title": "Creating future expense journals in Russia",
-  "blob": "081a33e89a6e0932a827149021a336cc8d1a5a1f",
-  "summary": "Future expense journals post monthly expenses to a special account that are later included as regular expenses with VAT deduction through the Future Expense Journal in Russian accounting.",
+  "blob": "f3f08dc5b4a7a0cd5292a4630eb7418ca994d0f6",
+  "summary": "Future expense journals in Russia post expenses to a special account monthly and defer VAT deduction until expenses are included in current accounts. Configure VAT Posting Setup and General Journal Templates with Future Expenses type, then create and post transactions using the Future Expense Journals window.",
   "systems": [
     "finance",
-    "localization",
-    "fixed-assets"
+    "localization"
   ],
   "topics": [
     "future expenses",
-    "expense deferral",
     "vat deduction",
-    "russia"
+    "journal templates",
+    "russia",
+    "expense posting",
+    "fixed assets"
   ],
   "objects": [
     {
-      "type": "table",
+      "type": "page",
       "name": "VAT Posting Setup"
     },
     {
       "type": "page",
-      "name": "Future Expense Journal"
+      "name": "General Journal Templates"
     },
     {
-      "type": "table",
-      "name": "General Journal Templates"
+      "type": "page",
+      "name": "Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Future Expense Journals"
     }
   ],
   "features": [
-    "Future expense posting",
-    "VAT settlement",
-    "Monthly expense deferral",
-    "Depreciation tracking"
+    "Future Expenses journal type",
+    "Recurring journal batches",
+    "Copy VAT Setup to journal lines",
+    "VAT Settlement Template",
+    "VAT Settlement Batch",
+    "Monthly VAT deduction",
+    "Fixed asset posting types"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +50,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003091,
-      "pages_in_call": 7
+      "cost_usd": 0.004412,
+      "pages_in_call": 1
     }
   ]
 }

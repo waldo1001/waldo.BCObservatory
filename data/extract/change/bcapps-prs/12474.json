@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12474",
+  "number": 12474,
+  "title": "[Master]-Non-Deductible Reverse-Charge VAT Correction Is Posted to Purchase VAT Account Instead of Payment Discount Account.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "When posting non-deductible reverse-charge VAT corrections with payment discounts, the system now correctly retrieves the GL account from General Posting Setup instead of posting to the purchase VAT account.",
+  "key_points": [
+    "Fixed GL account selection for non-deductible VAT corrections when payment discounts are involved",
+    "GL account is now sourced from General Posting Setup configuration",
+    "Prevents incorrect posting to purchase VAT account",
+    "Affects multiple localizations including W1, BE, CH, ES, FI, FR, IT, NA, NO, RU, and APAC",
+    "Includes updated test case for non-deductible VAT payment discount scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "GL Account is now called from the General Posting Setup instead when Pmt Discount is Involved.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004037,
+    "changes_in_call": 1
+  }
+}

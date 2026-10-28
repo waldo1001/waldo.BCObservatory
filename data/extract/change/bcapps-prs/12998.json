@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/12998",
+  "number": 12998,
+  "title": "[main] Discount is not taken into account on Renewal Offer using Sales Quote for Subscription Billing report layout.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "The Subscription Billing renewal quote report now correctly applies discounts to line amounts, fixing a logic error that prevented discount copying to renewal subscription lines.",
+  "key_points": [
+    "Discount percentage comparison logic was always false, blocking discount transfer",
+    "Discount is now properly applied after setting the renewal subscription line price",
+    "Added regression test confirming 50 price with 10% discount yields 45 total"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "A self-comparison of the discount percentage always evaluated to false, preventing the discount from being copied to the Sales Subscription Line.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003136,
+    "changes_in_call": 1
+  }
+}

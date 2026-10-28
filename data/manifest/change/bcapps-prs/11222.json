@@ -6,10 +6,35 @@
   "title": "Improve Low-Level Code Calculator performance",
   "url": "https://github.com/microsoft/BCApps/pull/11222",
   "published_at": "2026-10-26T10:05:53Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-27T00:21:39.999Z"
+    },
+    "fetched": {
+      "at": "2026-10-28T08:55:07.687Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-28T08:55:14.540Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": false,
+      "cost_usd": 0.003624
+    },
+    "linked": {
+      "at": "2026-10-28T08:55:14.773Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
+    },
+    "published": {
+      "at": "2026-10-28T08:55:14.779Z",
+      "path": "content/changes/bcapps/11222.md"
     }
   },
   "input_hash": "026e1e2120469e629b022c36b9dc02cd5980760c:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "improve low level code calculator performance"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5f982dc0109fb2f3cadeb4a9f923cb731f09ee8f2847d44847e66f57393c72af"
 }

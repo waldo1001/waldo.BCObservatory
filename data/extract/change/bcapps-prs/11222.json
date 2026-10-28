@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11222",
+  "number": 11222,
+  "title": "Improve Low-Level Code Calculator performance",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Low-Level Code Calculator performance improved by filtering out items without a Production BOM and replacing a List with a Dictionary for node key tracking, reducing calculation time significantly in real-world scenarios.",
+  "key_points": [
+    "Production BOM query now filters for non-empty BOM numbers before opening",
+    "NodeKeysAddedToTree changed from List to Dictionary to improve lookup and insert performance from O(n) to near-constant",
+    "Eliminates unnecessary cache invalidation and item loading for items without Production BOMs",
+    "New extensibility point OnBeforeItemProductionBOMsOpen added to allow query customization",
+    "Combined changes reduced calculation time from 10 hours to 2 hours in tested scenario"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "platform"
+  ],
+  "quote": "the combination of these changes reduced low-level code calculation time from roughly 10 hours to about 2 hours",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003624,
+    "changes_in_call": 1
+  }
+}

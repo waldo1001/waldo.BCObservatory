@@ -1,0 +1,37 @@
+{
+  "video_id": "a3j6JjyWDv0",
+  "item_id": "video/yt-areopa/a3j6JjyWDv0",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Commit Behavior function attribute: evidence_quote is verbatim, but it starts at segment 1674.1, not 1591.2. Corrected the evidence_t.",
+    "CommitBehavior procedure attribute duplicates the Commit Behavior function attribute. It also claims an 'enforce commit-only mode' that the transcript does not support: the rule is that CommitBehavior affects explicit commits only. Dropped.",
+    "Commit Behavior Property is a Q&A discussion, not a separate feature, and it duplicates the attribute. Dropped.",
+    "The Posting preview technique description is wrong. In the transcript, preview posts into real tables, subscribers copy entries into temporary tables, and the error is caught by if Codeunit.Run, not a try block. Dropped, and the correct version is now a key point.",
+    "If-Could-You-Run error handling is a caption-garbled name ('if Codeunit.Run') and duplicates the Error-scoped Code Units feature. Dropped. The 'Error-scoped' name is also garbled; the speaker said 'scoped undo button'.",
+    "The Transaction Handling Checklist t_start (3127.8) is early; the checklist starts at 3160.8.",
+    "Duplicate quotes at t 1631.1 and overlapping quotes at t 3172.4 were consolidated, and one copy of each was added back.",
+    "Quote at 1591.2 says nothing useful. Quote at 3420.7 ends with an ellipsis that is not in the transcript. Both replaced or dropped.",
+    "Try function attribute description says 'Changes are committed'. The transcript only says they are not rolled back. Minor, left as is."
+  ],
+  "input_hash": "615e798a3cfde51e6d2a4b4bd120e972bce9e420f1d84fa787da5daa6104188a",
+  "by": "opus",
+  "at": "2026-10-28T08:54:26.150Z",
+  "applied": [
+    "dropped 4 feature(s)",
+    "Commit Behavior function attribute: status ga",
+    "dropped 6 quote(s)",
+    "quote at 1631s",
+    "quote at 3172s",
+    "quote at 3421s",
+    "quote at 698s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.305773
+  }
+}

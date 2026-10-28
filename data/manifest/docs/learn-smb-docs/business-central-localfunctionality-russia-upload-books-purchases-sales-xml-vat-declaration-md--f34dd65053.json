@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.029Z",
-      "blob": "79bb550855712f6b96231830fb93a01cc010d5b0",
+      "at": "2026-10-28T08:55:08.733Z",
+      "blob": "144944caf58715b0ac7c1fe2fdbcff752a8d82ea",
       "words": 551,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:41:53.341Z",
+      "at": "2026-10-28T08:55:21.254Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.007495
+      "objects": 2,
+      "cost_usd": 0.003669
     },
     "summarized": {
-      "at": "2026-10-06T18:41:53.350Z",
+      "at": "2026-10-28T08:55:26.278Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:41:53.351Z",
+      "at": "2026-10-28T08:55:26.279Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:41:53.352Z",
+      "at": "2026-10-28T08:55:26.280Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration.md",
     "description": "Russian enhancements include books of purchases and sales VAT in XML format.",
-    "ms_date": "2025-07-22",
+    "ms_date": "2026-10-26",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "additional sheets",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 551,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "51eb7b72e93fd2cbfe6ef4cc815b008adb541a0b0601581daf6a23cc145ae560"
+  "output_hash": "9278f00f7bf2f48d32c7c70fc9d0a970f44c7947d547bbc6b3fc387447dde99f"
 }

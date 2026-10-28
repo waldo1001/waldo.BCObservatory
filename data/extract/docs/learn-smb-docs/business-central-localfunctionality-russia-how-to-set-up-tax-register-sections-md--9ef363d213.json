@@ -2,44 +2,58 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-set-up-tax-register-sections.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-tax-register-sections",
   "title": "Setting up tax register sections in Russia",
-  "blob": "c1e43cc86e464d5c005d735d137d25de3dcf865b",
-  "summary": "Tax register sections in Russia organize tax data by taxation periods with different statuses and allow copying registers between sections. Set up register sections with dates, dimensions, balance points, and assign specific tax registers to each section.",
+  "blob": "4b0e87c9f882bdd2ee104aebbef03d1491007acb",
+  "summary": "Setting up tax register sections in Russia allows you to create and manage tax registers for different taxation periods, configure their status, dimensions, balance deadlines, and copy existing sections.",
   "systems": [
     "localization",
-    "finance"
+    "finance",
+    "reporting"
   ],
   "topics": [
-    "russia",
+    "tax accounting",
     "tax registers",
+    "russia",
     "taxation periods",
-    "tax sections",
-    "register setup"
+    "tax register sections"
   ],
   "objects": [
     {
-      "type": "page",
-      "name": "Tax Registers"
+      "type": "table",
+      "name": "Tax Registers (17208)"
     },
     {
-      "type": "page",
-      "name": "Tax Registers Sections"
+      "type": "table",
+      "name": "General Ledger Entries (17209)"
     },
     {
-      "type": "page",
-      "name": "Tax Register Names"
+      "type": "table",
+      "name": "Customer and Vendor Entries (17210)"
     },
     {
-      "type": "page",
-      "name": "Copy Tax Register Section"
+      "type": "table",
+      "name": "Fixed Assets and Immaterial Assets Entries (17211)"
+    },
+    {
+      "type": "table",
+      "name": "Item Entries (17212)"
+    },
+    {
+      "type": "table",
+      "name": "Expenses of Future Periods (17213)"
+    },
+    {
+      "type": "table",
+      "name": "Payroll Entry Ledger (17214)"
     }
   ],
   "features": [
-    "Register section status management",
-    "Taxation period tracking",
-    "Dimension filtering",
-    "Balance deadlines",
-    "Norm jurisdiction mapping",
-    "Register copying"
+    "tax register section creation",
+    "tax register copying",
+    "status management (Blocked, Open, Reporting, Closed)",
+    "dimension filtering",
+    "balance deadline configuration",
+    "norm jurisdiction code selection",
+    "tax register type selection (Calculation, Build entry)"
   ],
   "versions": [],
   "parts": 1,
@@ -48,8 +62,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003704,
-      "pages_in_call": 8
+      "cost_usd": 0.005313,
+      "pages_in_call": 1
     }
   ]
 }

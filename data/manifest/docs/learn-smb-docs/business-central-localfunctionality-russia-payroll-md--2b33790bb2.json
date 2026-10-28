@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Payroll",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.674Z",
-      "blob": "7a1be1b2ba4d9ec6f6e3af6860bcebd9089f6d39",
-      "words": 703,
+      "at": "2026-10-28T08:54:49.581Z",
+      "blob": "cb3c2232741ee9050b552bfe19a666a4ba40bf0b",
+      "words": 710,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:42.520Z",
+      "at": "2026-10-28T08:55:03.955Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.0033
+      "cost_usd": 0.003677
     },
     "summarized": {
-      "at": "2026-10-06T19:14:42.535Z",
+      "at": "2026-10-28T08:55:03.957Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:42.536Z",
+      "at": "2026-10-28T08:55:03.958Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:42.537Z",
+      "at": "2026-10-28T08:55:03.959Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/Payroll.md",
     "description": "Russian localization offers payroll management with salary calculation, deductions, tax processing, and compliance with local regulations.",
-    "ms_date": "2025-07-18",
+    "ms_date": "2026-10-26",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -59,12 +59,12 @@
       "tax deduction",
       "Russia"
     ],
-    "ai_usage": null,
-    "words": 703,
+    "ai_usage": "ai-assisted",
+    "words": 710,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "06628738a5682e9a493c89eef3f644d4270665b20ee2d34eb66d2069b69d977b"
+  "output_hash": "1361d1448dca875555b359b8fbae0b1c386c95c54f986abf6e5e55520975728a"
 }

@@ -6,10 +6,35 @@
   "title": "[Master]-Non-Deductible Reverse-Charge VAT Correction Is Posted to Purchase VAT Account Instead of Payment Discount Account.",
   "url": "https://github.com/microsoft/BCApps/pull/12474",
   "published_at": "2026-10-26T11:24:02Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-27T00:21:39.999Z"
+    },
+    "fetched": {
+      "at": "2026-10-28T08:54:39.786Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 11,
+      "objects": 11,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-28T08:54:47.386Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004037
+    },
+    "linked": {
+      "at": "2026-10-28T08:54:47.618Z",
+      "objects": 11,
+      "unjoined": 0,
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
+    },
+    "published": {
+      "at": "2026-10-28T08:54:47.624Z",
+      "path": "content/changes/bcapps/12474.md"
     }
   },
   "input_hash": "d9cccde50accf526b1c88f688c5e8ef09ebc5bd3:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master non deductible reverse charge vat correction is posted to purchase vat account instead of payment discount account"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "07ed336c45680fb12e68060453129782b38f1905466f6372ae78764f27e4c876"
 }

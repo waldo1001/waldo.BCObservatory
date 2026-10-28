@@ -1,0 +1,115 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11894,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11894",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-22T11:32:36Z",
+  "merge_commit_sha": "c7d51df077ccb347367b03404d4e924fd2b1f0f1",
+  "author": "ventselartur",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Fix mixed-currency totals in Close Income Statement",
+  "body_hash": "38634eb5f39852095f3a74ea45a55c310ba53e492846f557bd324a6a402e83f7",
+  "fixes_issues": [],
+  "work_items": [
+    651504
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CH/Tests/ERM-Finance/ERMCloseIncomeStatement.Codeunit.al",
+      "status": "modified",
+      "additions": 527,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Setup/CloseIncomeStatement.Report.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Setup/CloseIncomeStatement.Report.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM-Finance/ERMCloseIncomeStatement.Codeunit.al",
+      "status": "modified",
+      "additions": 556,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/CloseIncomeStatement.Report.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ERMCloseIncomeStatement.Codeunit.al",
+      "status": "modified",
+      "additions": 527,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 1691,
+    "deletions": 48,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce",
+    "objects": [
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Setup/CloseIncomeStatement.Report.al",
+        "status": "modified",
+        "key": "report/94",
+        "type": "report",
+        "id": 94,
+        "name": "Close Income Statement",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "report/94"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Setup/CloseIncomeStatement.Report.al",
+        "status": "modified",
+        "key": "report/94",
+        "type": "report",
+        "id": 94,
+        "name": "Close Income Statement",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/94"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Setup/CloseIncomeStatement.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

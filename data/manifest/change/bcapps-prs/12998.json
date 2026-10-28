@@ -6,10 +6,35 @@
   "title": "[main] Discount is not taken into account on Renewal Offer using Sales Quote for Subscription Billing report layout.",
   "url": "https://github.com/microsoft/BCApps/pull/12998",
   "published_at": "2026-10-26T10:05:53Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-27T00:21:39.999Z"
+    },
+    "fetched": {
+      "at": "2026-10-28T08:54:58.069Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-28T08:55:05.646Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003136
+    },
+    "linked": {
+      "at": "2026-10-28T08:55:05.906Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "15385dede95a4f9e7be01be47c684fc9d654a7ce"
+    },
+    "published": {
+      "at": "2026-10-28T08:55:05.910Z",
+      "path": "content/changes/bcapps/12998.md"
     }
   },
   "input_hash": "d03c39293af2e4fd4ecbb0f90770d3969faf52ab:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "discount is not taken into account on renewal offer using sales quote for subscription billing report layout"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a40596687dc44e6ab49b33050a7b1b8a506b4231570e4869e6ff1a73084b9eb9"
 }

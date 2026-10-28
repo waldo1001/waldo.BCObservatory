@@ -2,29 +2,32 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/russia-local-functionality.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/russia-local-functionality",
   "title": "Russia local functionality",
-  "blob": "79aa307d9b8dd1edce2ce735d08ac80e58be3df3",
-  "summary": "Russia local functionality provides country-specific features across finance, payables, receivables, fixed assets, VAT, tax accounting, banking, inventory, and human resources.",
+  "blob": "f7274b700914a89354fbae4c613c679499792839",
+  "summary": "Russia-specific features for tracking and managing business operations in Business Central, including VAT calculation, financial reporting, payables/receivables, fixed assets, tax accounting, and payroll management.",
   "systems": [
+    "localization",
     "finance",
-    "purchasing",
-    "sales"
+    "purchasing"
   ],
   "topics": [
     "russia",
     "local functionality",
-    "regulatory compliance",
-    "financial reports",
-    "tax accounting"
+    "vat",
+    "tax accounting",
+    "payroll",
+    "fixed assets",
+    "financial reporting"
   ],
   "objects": [],
   "features": [
-    "financial reports",
-    "VAT calculation",
-    "tax accounting",
-    "fixed assets",
-    "payroll",
-    "inventory management",
-    "bank management"
+    "Financial Reports (import, export, extensions, constants)",
+    "General Ledger Correspondence",
+    "Currency and exchange rates",
+    "VAT ledgers and settlement",
+    "VAT declaration with XML export",
+    "Tax registers and tax differences",
+    "Customer and vendor prepayments",
+    "Fixed asset tracking (depreciation, inventory, disposal)"
   ],
   "versions": [
     "2022 release wave 1"
@@ -35,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.0033,
-      "pages_in_call": 8
+      "cost_usd": 0.005241,
+      "pages_in_call": 1
     }
   ]
 }

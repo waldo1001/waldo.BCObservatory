@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12519",
+  "number": 12519,
+  "title": "[29.X]- Create Documents on Recurring Billing ignores the Partner filter and fails when a vendor billing proposal exists- #11637",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "The subscription billing document creation process now respects the partner filter and handles vendor billing proposals correctly without failing during recurring billing operations.",
+  "key_points": [
+    "Fixes partner filter being ignored during recurring billing document creation",
+    "Resolves failures that occurred when a vendor billing proposal exists",
+    "Affects the Create Billing Documents codeunit behavior",
+    "Includes test coverage for the recurring billing scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002942,
+    "changes_in_call": 1
+  }
+}

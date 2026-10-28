@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/russia-local-functionality",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.691Z",
-      "blob": "79aa307d9b8dd1edce2ce735d08ac80e58be3df3",
-      "words": 514,
+      "at": "2026-10-28T08:55:07.610Z",
+      "blob": "f7274b700914a89354fbae4c613c679499792839",
+      "words": 513,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:42.524Z",
+      "at": "2026-10-28T08:55:16.460Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.0033
+      "cost_usd": 0.005241
     },
     "summarized": {
-      "at": "2026-10-06T19:14:44.178Z",
+      "at": "2026-10-28T08:55:16.462Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:44.179Z",
+      "at": "2026-10-28T08:55:16.463Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:44.180Z",
+      "at": "2026-10-28T08:55:16.464Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/russia-local-functionality.md",
     "description": "The following articles describe the local functionality in the Russian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].",
-    "ms_date": "2025-07-18",
+    "ms_date": "2026-10-26",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "country specific",
       "Russian version"
     ],
-    "ai_usage": null,
-    "words": 514,
+    "ai_usage": "ai-assisted",
+    "words": 513,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "78c42ec238db7d15d9310effca2dd16a40ece0d08bb5a6ed346968e0c1bc2257"
+  "output_hash": "eb585a78dbdeb110e8f25b71b031dd8cce2e66a17a780668c24892fcedf068be"
 }

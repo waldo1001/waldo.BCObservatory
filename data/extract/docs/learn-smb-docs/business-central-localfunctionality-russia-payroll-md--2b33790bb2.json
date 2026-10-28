@@ -2,31 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/Payroll.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Payroll",
   "title": "Payroll in Russia",
-  "blob": "7a1be1b2ba4d9ec6f6e3af6860bcebd9089f6d39",
-  "summary": "Payroll module in Russia handles salary elements, calculation types, and payroll processing including wages, bonuses, tax deductions, and fund payments with accounting group setup.",
+  "blob": "cb3c2232741ee9050b552bfe19a666a4ba40bf0b",
+  "summary": "Payroll in Russia covers salary element configuration, calculation types, and payroll processing through salary documents including interperiod payments and basic monthly payroll with posting to ledgers and accounting groups.",
   "systems": [
     "hr",
-    "finance",
-    "localization"
+    "finance"
   ],
   "topics": [
     "payroll",
-    "salary elements",
-    "calculation types",
     "russia",
-    "tax deductions",
-    "employee payments"
+    "salary elements",
+    "calculation groups",
+    "deductions",
+    "tax",
+    "localization"
   ],
   "objects": [],
   "features": [
-    "salary elements",
+    "salary element types",
     "calculation types",
     "payroll accounting groups",
-    "wage calculation",
-    "tax deductions",
-    "fund payments",
-    "interperiod payments",
-    "payroll documents"
+    "interperiod payroll",
+    "basic payroll",
+    "personal income tax calculation",
+    "deduction configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.0033,
-      "pages_in_call": 8
+      "cost_usd": 0.003677,
+      "pages_in_call": 1
     }
   ]
 }

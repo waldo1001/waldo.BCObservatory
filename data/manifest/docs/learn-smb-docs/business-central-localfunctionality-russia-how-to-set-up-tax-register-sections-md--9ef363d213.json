@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-tax-register-sections",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.619Z",
-      "blob": "c1e43cc86e464d5c005d735d137d25de3dcf865b",
+      "at": "2026-10-28T08:54:46.503Z",
+      "blob": "4b0e87c9f882bdd2ee104aebbef03d1491007acb",
       "words": 885,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:14:23.897Z",
+      "at": "2026-10-28T08:55:00.607Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.003704
+      "objects": 7,
+      "cost_usd": 0.005313
     },
     "summarized": {
-      "at": "2026-10-06T19:14:28.661Z",
+      "at": "2026-10-28T08:55:00.608Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:14:28.663Z",
+      "at": "2026-10-28T08:55:00.609Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:14:28.664Z",
+      "at": "2026-10-28T08:55:00.610Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-set-up-tax-register-sections.md",
     "description": "Russian localization includes features for setting up and managing tax register sections.",
-    "ms_date": "2025-07-17",
+    "ms_date": "2026-10-26",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "tax register setup",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 885,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f845a40d50cabd09034221d0e3f3fd91ecdd1228c47e63ec9448af3d0ece0c3f"
+  "output_hash": "128cd460c0b04a37e5faabe4f83a750bbc6bff50ca74f88a07fc6285d5705b75"
 }

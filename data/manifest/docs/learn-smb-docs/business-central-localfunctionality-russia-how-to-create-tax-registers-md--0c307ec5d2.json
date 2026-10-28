@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-tax-registers",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.512Z",
-      "blob": "e17b0e62aa40fcc6f8533dea02b0440fb98cc514",
+      "at": "2026-10-28T08:54:30.652Z",
+      "blob": "aad45606768c07f29fb07e9184aa07394b57d275",
       "words": 545,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:55.578Z",
+      "at": "2026-10-28T08:54:41.664Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.003091
+      "cost_usd": 0.003855
     },
     "summarized": {
-      "at": "2026-10-06T19:13:56.775Z",
+      "at": "2026-10-28T08:54:41.665Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:56.777Z",
+      "at": "2026-10-28T08:54:41.666Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:56.778Z",
+      "at": "2026-10-28T08:54:41.667Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/how-to-create-tax-registers.md",
     "description": "Step-by-step guide to creating tax registers in Russia for tax accounting purposes.",
-    "ms_date": "2025-07-14",
+    "ms_date": "2026-10-26",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "create tax registers",
       "Russia"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 545,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "416bbdfdc42ff26867c08dff40d0800fed1b839553406a9b3ca49274e012c852"
+  "output_hash": "a4c09817d433439ee65eb995d5008ef6eda4b6f99cc42053d18aab52a622b1fc"
 }

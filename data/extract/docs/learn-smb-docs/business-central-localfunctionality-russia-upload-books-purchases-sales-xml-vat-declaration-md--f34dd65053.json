@@ -2,26 +2,39 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration",
   "title": "Upload books of purchases and sales in Russia",
-  "blob": "79bb550855712f6b96231830fb93a01cc010d5b0",
-  "summary": "Upload VAT purchase and sales books and VAT declarations to XML files in Russia. Configure folder settings and generate XML files through the Statutory Report Setup.",
+  "blob": "144944caf58715b0ac7c1fe2fdbcff752a8d82ea",
+  "summary": "How to upload VAT Purchase and Sales Ledgers and VAT declarations to XML files in Business Central for Russian statutory reporting, including configuration of report folders and file generation steps.",
   "systems": [
-    "localization",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
     "vat reporting",
     "xml export",
     "russia",
-    "purchase ledgers",
-    "sales ledgers"
+    "purchase ledger",
+    "sales ledger",
+    "statutory reporting",
+    "tax compliance"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Statutory Report Setup"
+    },
+    {
+      "type": "other",
+      "name": "Export VAT Declaration to XML"
+    }
+  ],
   "features": [
     "VAT Purchase Ledgers",
     "VAT Sales Ledgers",
-    "VAT Declaration XML export",
-    "Statutory Report Setup",
-    "Electronic Files Folder"
+    "XML file export",
+    "additional sheets",
+    "invoice journal",
+    "statutory report setup",
+    "electronic files folder configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007495,
-      "pages_in_call": 6
+      "cost_usd": 0.003669,
+      "pages_in_call": 1
     }
   ]
 }
