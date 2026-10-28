@@ -1,28 +1,40 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TCS-206C-1H-Overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-206C-1H-Overview",
-  "title": "Setting up Tax Collected at Source for the section 206C(1H)",
-  "blob": "8dc3df67880aab023943de6dbcf5f18394bccc27",
-  "summary": "Tax Collected at Source (TCS) for Section 206C(1H) describes how to set up TCS collection requirements for Indian sales transactions exceeding INR 50,00,000 threshold with different rates for PAN and non-PAN customers.",
+  "title": "Set Up Tax Collected at Source (TCS) for Section 206C(1H)",
+  "blob": "9dc7eadf5c526a58b46768db5275f52e5cd314ea",
+  "summary": "Set up Tax Collected at Source (TCS) for Section 206C(1H) in India localization, including configuration of TCS nature of collection and rates with threshold-based calculations for buyer/seller transactions.",
   "systems": [
-    "sales",
+    "localization",
     "finance",
-    "localization"
+    "sales"
   ],
   "topics": [
     "tax collected at source",
+    "india",
     "tcs",
     "section 206c",
-    "india",
-    "tax rates"
+    "threshold",
+    "payment receipt"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "TCS Nature of Collections"
+    },
+    {
+      "type": "page",
+      "name": "TCS Rates"
+    }
+  ],
   "features": [
-    "TCS Nature of Collection",
-    "TCS Rates setup",
-    "Threshold Amount",
-    "PAN/Non-PAN differentiation",
-    "Calc. Over & Above Threshold"
+    "TCS nature of collection",
+    "TCS rates configuration",
+    "TCS on receipt of payment",
+    "Calc. Over & Above Threshold",
+    "Threshold Overlook",
+    "PAN and non-PAN customer rates",
+    "Assessee code"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003796,
-      "pages_in_call": 8
+      "cost_usd": 0.004005,
+      "pages_in_call": 1
     }
   ]
 }

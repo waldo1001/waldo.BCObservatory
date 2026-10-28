@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.278Z",
-      "blob": "a9404427b98324e00976acc6ed7145f8d56ac4ad",
-      "words": 184,
+      "at": "2026-10-28T09:10:50.957Z",
+      "blob": "dcbd179e61db9b0964662ed830c3a43e9fb4ef44",
+      "words": 315,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:10.640Z",
+      "at": "2026-10-28T09:10:56.539Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003796
+      "objects": 2,
+      "cost_usd": 0.003617
     },
     "summarized": {
-      "at": "2026-10-06T19:13:10.649Z",
+      "at": "2026-10-28T09:10:56.541Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:10.650Z",
+      "at": "2026-10-28T09:10:56.542Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:10.651Z",
+      "at": "2026-10-28T09:10:56.544Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md",
-    "description": "Learn how to import and export tax engine configuration data in JSON format for India localization in Business Central.",
-    "ms_date": "2025-06-26",
+    "description": "Import and export tax engine configuration in JSON format, and review configuration setup and file handling in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "tax engine configuration",
       "json exchange"
     ],
-    "ai_usage": null,
-    "words": 184,
+    "ai_usage": "ai-assisted",
+    "words": 315,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c4d18fb4a98bb09dbc780b2b194433d05598984ada96528b3545a0cc8edd16b6"
+  "output_hash": "4bd9afa13afe1f144a5141649e1efa6421d46e6da23af517afea7a1b0a5b1f03"
 }

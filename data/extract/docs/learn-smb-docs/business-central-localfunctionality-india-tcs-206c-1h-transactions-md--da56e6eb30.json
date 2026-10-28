@@ -1,32 +1,36 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TCS-206C-1H-Transactions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-206C-1H-Transactions",
-  "title": "TCS calculation and transactions as per Section 206C(1H)",
-  "blob": "bc773efd9887fde9871d664c8df9c40b3fda9f2e",
-  "summary": "TCS Calculation under Section 206C(1H) explains how Tax Collected at Source is calculated on customer payment receipts over INR 50 lakh threshold through journals, including calculation logic and GL posting.",
+  "title": "TCS Calculation and Transactions as per Section 206C(1H)",
+  "blob": "acd7eb22631bb5a52fa0fea6bd3a087590dad43c",
+  "summary": "TCS calculation on customer receipts using section 206C(1H) configuration, with provisions for entering amounts subject to TCS and selecting posted sales lines for payment calculations. The system creates separate customer debit notes for TCS amounts.",
   "systems": [
     "finance",
-    "sales",
-    "localization"
+    "sales"
   ],
   "topics": [
-    "tcs",
-    "tax collected at source",
-    "section 206c",
-    "payment receipts",
-    "customer payments"
+    "tcs calculation",
+    "customer payments",
+    "section 206c(1h)",
+    "gst",
+    "india localization",
+    "tax compliance"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "TCS Nature Of Collection"
+    }
+  ],
   "features": [
-    "tcs calculation on receipt",
-    "payment journal entry",
-    "get open posted lines for tcs payment",
-    "tcs base amount",
-    "tcs nature of collection",
-    "gst integration",
-    "tcs surcharge",
-    "gl posting",
-    "customer ledger posting"
+    "TCS on Receipt of Payment Amount",
+    "Get Open Posted Lines For TCS On Payment Calculation",
+    "TCS Debit Note creation",
+    "TCS Posting Setup",
+    "GST on Advance Payment",
+    "General Journal",
+    "Cash Receipt Journal",
+    "Bank Receipt Journal"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003682,
-      "pages_in_call": 7
+      "cost_usd": 0.00469,
+      "pages_in_call": 1
     }
   ]
 }

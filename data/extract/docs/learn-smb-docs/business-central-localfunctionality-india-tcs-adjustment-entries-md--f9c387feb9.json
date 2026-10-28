@@ -2,29 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TCS-Adjustment-Entries.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Adjustment-Entries",
   "title": "TCS Adjustment Entries",
-  "blob": "1ad2f71239f2b0f918cad09b96156f73084e8f7a",
-  "summary": "TCS Adjustment Entries describes how to correct TCS amount, rate, and base for unpaid entries through adjustment journals, updating GL accounts, TCS entries, and customer ledger entries accordingly.",
+  "blob": "55c5d729d51ec6c92411d20fdf10a22e2dfa8bbf",
+  "summary": "TCS Adjustment Entries allow correction of Tax Collected at Source amounts, rates, and base amounts already calculated but not yet paid to government authorities in India.",
   "systems": [
-    "finance",
-    "localization"
+    "localization",
+    "finance"
   ],
   "topics": [
-    "tcs adjustment",
-    "tax correction",
-    "tcs rates",
-    "tcs entries"
+    "tcs",
+    "tax",
+    "adjustment",
+    "india",
+    "payable",
+    "journal"
   ],
   "objects": [],
   "features": [
-    "tcs adjustment journal",
-    "revised tcs percentage",
-    "revised surcharge percentage",
-    "revised ecess percentage",
-    "revised she cess percentage",
-    "revised tcs base",
-    "gl entry adjustment",
-    "tcs entry update",
-    "customer ledger entry update"
+    "TCS amount correction",
+    "TCS rate adjustment",
+    "surcharge percentage",
+    "eCESS percentage",
+    "SHE Cess percentage",
+    "TCS base amount revision",
+    "GL account updates",
+    "customer ledger entries"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003682,
-      "pages_in_call": 7
+      "cost_usd": 0.003204,
+      "pages_in_call": 1
     }
   ]
 }

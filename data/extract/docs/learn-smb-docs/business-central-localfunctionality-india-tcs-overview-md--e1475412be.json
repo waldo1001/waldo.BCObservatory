@@ -1,31 +1,63 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TCS-Overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Overview",
-  "title": "Setting up Tax Collected at Source, as per the provisions of the Income Tax Act, 1961",
-  "blob": "b5575db0ed15ad2fa5918fb2d95f7e4c9e38fe74",
-  "summary": "Tax Collected at Source (TCS) setup covers manual and automatic tax collection configuration requirements including TCS rates, accounting periods, nature of collection, posting setup, and master data configuration for India localization.",
+  "title": "Set Up Tax Collected at Source (TCS)as per the Provisions of the Income Tax Act, 1961",
+  "blob": "a996ee4e4d2002decb4de2e8f523dfc069c16b59",
+  "summary": "Set up Tax Collected at Source (TCS) in Business Central's Indian localization, including automatic and manual configuration of TCS rates, accounting periods, T.C.A.N., assessee codes, posting setup, and customer master settings.",
   "systems": [
-    "finance",
-    "sales",
-    "localization"
+    "localization",
+    "finance"
   ],
   "topics": [
     "tax collected at source",
     "tcs",
     "india",
-    "tax accounting",
-    "configuration"
+    "income tax",
+    "tax setup"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "TCS Rates"
+    },
+    {
+      "type": "table",
+      "name": "Tax Acc. Period Setup"
+    },
+    {
+      "type": "table",
+      "name": "T.C.A.N. Nos."
+    },
+    {
+      "type": "table",
+      "name": "Assessee Codes"
+    },
+    {
+      "type": "table",
+      "name": "TCS Nature of Collections"
+    },
+    {
+      "type": "table",
+      "name": "Concessional Codes"
+    },
+    {
+      "type": "table",
+      "name": "TCS Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    }
+  ],
   "features": [
-    "TCS Rates",
-    "Tax Accounting Period",
-    "T.C.A.N",
-    "Assessee Code",
-    "TCS Nature of Collection",
-    "Concessional Code",
-    "TCS Posting Setup",
-    "TCS on Customer Master"
+    "TCS rates configuration",
+    "tax accounting period setup",
+    "T.C.A.N. number management",
+    "assessee code setup",
+    "TCS nature of collection",
+    "concessional codes",
+    "TCS posting setup",
+    "customer TCS configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +66,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003796,
-      "pages_in_call": 8
+      "cost_usd": 0.010753,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Setting up Tax Collected at Source for the section 206C(1H)",
+  "title": "Set Up Tax Collected at Source (TCS) for Section 206C(1H)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-206C-1H-Overview",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.282Z",
-      "blob": "8dc3df67880aab023943de6dbcf5f18394bccc27",
-      "words": 438,
+      "at": "2026-10-28T09:10:56.608Z",
+      "blob": "9dc7eadf5c526a58b46768db5275f52e5cd314ea",
+      "words": 346,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:13:10.641Z",
+      "at": "2026-10-28T09:11:06.860Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003796
+      "objects": 2,
+      "cost_usd": 0.004005
     },
     "summarized": {
-      "at": "2026-10-06T19:13:12.557Z",
+      "at": "2026-10-28T09:11:06.862Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:12.558Z",
+      "at": "2026-10-28T09:11:06.864Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:12.559Z",
+      "at": "2026-10-28T09:11:06.865Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TCS-206C-1H-Overview.md",
-    "description": "Describes the essential setup steps for implementing Tax Collected at Source under section 206C(1H).",
-    "ms_date": "2025-06-27",
+    "description": "Review setup for the documented section 206C(1H) TCS workflow, including customer and tax configuration, in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "TCS",
       "Section 206C"
     ],
-    "ai_usage": null,
-    "words": 438,
+    "ai_usage": "ai-assisted",
+    "words": 346,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c8b99150998b5f451906bebd2cad2c799a8331d281c8b16fc22e52186180c834"
+  "output_hash": "98232aa6767ca4f6f0eb2ee458c55df309f46911d337dca1be3283b384d11a93"
 }

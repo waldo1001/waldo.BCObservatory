@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-006-Design-Consideration",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.328Z",
-      "blob": "baddaf9bdc7c0d09f70c0d4bf4210eb6fbdb0baf",
-      "words": 814,
+      "at": "2026-10-28T09:10:56.285Z",
+      "blob": "3d45fe43bab16a1ad2c5de1c1e25be82e0574676",
+      "words": 790,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:18:35.292Z",
+      "at": "2026-10-28T09:11:06.846Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003682
+      "cost_usd": 0.003934
     },
     "summarized": {
-      "at": "2026-10-06T19:18:51.463Z",
+      "at": "2026-10-28T09:11:06.848Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:18:51.464Z",
+      "at": "2026-10-28T09:11:06.850Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:18:51.465Z",
+      "at": "2026-10-28T09:11:06.852Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TaxEngine-006-Design-Consideration.md",
-    "description": "Key considerations and best practices for designing and configuring the Tax Engine in Business Central for India.",
-    "ms_date": "2025-06-27",
-    "ms_topic": "article",
+    "description": "Review design considerations for Tax Engine configuration, including use cases, calculations, and versioning in Business Central for India.",
+    "ms_date": "2026-10-21",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "India",
@@ -58,12 +58,12 @@
       "tax attributes",
       "design consideration"
     ],
-    "ai_usage": null,
-    "words": 814,
+    "ai_usage": "ai-assisted",
+    "words": 790,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "778fa73f59b725e025d98a01fc6058a358c88ef10db26d5119a5541efc744dd3"
+  "output_hash": "8ee3c062c31e9bfe9e92ccad1fb363140598c4174683dadbb139bad55aa55da2"
 }

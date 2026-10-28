@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TaxEngine-003-Tax-Configuration.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-003-Tax-Configuration",
-  "title": "Tax Engine - Tax Configuration 01",
-  "blob": "d4b1d508204ff08a95fed9aedbf182f3c0bfd0bb",
-  "summary": "Tax Engine Configuration explains how to set up tax types (GST, TDS, TCS, WHT), define tax attributes, components, rate parameters, and tax rates for calculation and posting to G/L accounts.",
+  "title": "Tax Engine - Configuration of Tax Type and Tax Rates",
+  "blob": "23b2a19aa8d855545d84da54999358837a386c66",
+  "summary": "Tax Engine configuration guides setting up tax types, their components, input parameters, and rate structures to calculate and post taxes to G/L accounts in India localization.",
   "systems": [
     "finance",
     "localization"
@@ -11,23 +11,65 @@
   "topics": [
     "tax engine",
     "tax configuration",
-    "tax types",
-    "tax rates",
     "gst",
     "tds",
-    "tcs",
-    "wht"
+    "tax types",
+    "tax rates",
+    "india"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Tax Types"
+    },
+    {
+      "type": "other",
+      "name": "Tax Information FactBox"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    },
+    {
+      "type": "table",
+      "name": "Location"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Line"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    },
+    {
+      "type": "table",
+      "name": "Transfer Line"
+    },
+    {
+      "type": "table",
+      "name": "Gen. Journal Line"
+    }
+  ],
   "features": [
-    "tax type setup",
-    "tax entities",
-    "input parameters",
+    "tax type configuration",
+    "tax entity mapping",
+    "tax attributes",
     "tax components",
     "rate setup",
     "tax rates",
-    "attribute mapping",
-    "blank setup allowance"
+    "GST",
+    "TDS",
+    "TCS",
+    "withholding tax"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +78,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003682,
-      "pages_in_call": 7
+      "cost_usd": 0.004253,
+      "pages_in_call": 1
     }
   ]
 }

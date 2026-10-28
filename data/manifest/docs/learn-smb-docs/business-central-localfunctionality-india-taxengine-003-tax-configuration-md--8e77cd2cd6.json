@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Tax Engine - Tax Configuration 01",
+  "title": "Tax Engine - Configuration of Tax Type and Tax Rates",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-003-Tax-Configuration",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.311Z",
-      "blob": "d4b1d508204ff08a95fed9aedbf182f3c0bfd0bb",
+      "at": "2026-10-28T09:10:51.024Z",
+      "blob": "23b2a19aa8d855545d84da54999358837a386c66",
       "words": 566,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:18:35.287Z",
+      "at": "2026-10-28T09:10:56.796Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003682
+      "objects": 10,
+      "cost_usd": 0.004253
     },
     "summarized": {
-      "at": "2026-10-06T19:18:35.296Z",
+      "at": "2026-10-28T09:10:56.800Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:18:35.298Z",
+      "at": "2026-10-28T09:10:56.803Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:18:35.299Z",
+      "at": "2026-10-28T09:10:56.808Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TaxEngine-003-Tax-Configuration.md",
     "description": "Provides details on configuring tax types, tax entities, input parameters, components, and rate setup in the Tax Engine for India localization in Business Central.",
-    "ms_date": "2025-06-26",
-    "ms_topic": "article",
+    "ms_date": "2026-10-21",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "India",
@@ -60,12 +60,12 @@
       "input parameters",
       "rate setup"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 566,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8aaf58d1924d8d85e01a50e10bb39cd623ca4c9e9d7ef2b8cb737276f5e8efd6"
+  "output_hash": "be4f334b3828aa7e6f12a2d5a92a3776dc2c817caeb8a34bf0d71a4901a57fc0"
 }

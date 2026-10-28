@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "TCS calculation and transactions as per Section 206C(1H)",
+  "title": "TCS Calculation and Transactions as per Section 206C(1H)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-206C-1H-Transactions",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.333Z",
-      "blob": "bc773efd9887fde9871d664c8df9c40b3fda9f2e",
-      "words": 901,
+      "at": "2026-10-28T09:10:56.640Z",
+      "blob": "acd7eb22631bb5a52fa0fea6bd3a087590dad43c",
+      "words": 879,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:18:35.293Z",
+      "at": "2026-10-28T09:11:06.833Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003682
+      "objects": 1,
+      "cost_usd": 0.00469
     },
     "summarized": {
-      "at": "2026-10-06T19:18:51.466Z",
+      "at": "2026-10-28T09:11:06.834Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:18:51.467Z",
+      "at": "2026-10-28T09:11:06.836Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:18:51.467Z",
+      "at": "2026-10-28T09:11:06.837Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TCS-206C-1H-Transactions.md",
-    "description": "Learn how to calculate and process TCS transactions in compliance with Section 206C(1H) in Business Central for India.",
-    "ms_date": "2025-06-27",
+    "description": "Review the documented section 206C(1H) TCS transaction workflow and illustrative calculation and accounting examples in Business Central for India.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "TCS calculation",
       "Section 206C"
     ],
-    "ai_usage": null,
-    "words": 901,
+    "ai_usage": "ai-assisted",
+    "words": 879,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "118173b63f2c137f0a54d56f2b637e5ab84fbf0713ce6bd585d3f2c74fe9526d"
+  "output_hash": "dd46cbf700768a8fb24bd3d8bb995a6d87e55221256467b71aadbf2438073020"
 }

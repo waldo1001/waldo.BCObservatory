@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Transactions",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:23.247Z",
+      "at": "2026-10-28T09:10:57.339Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 7,
-      "cost_usd": 0.003451
+      "objects": 6,
+      "cost_usd": 0.004769
     },
     "summarized": {
-      "at": "2026-10-06T19:17:26.559Z",
+      "at": "2026-10-28T09:10:57.346Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:26.560Z",
+      "at": "2026-10-28T09:10:57.348Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:26.561Z",
+      "at": "2026-10-28T09:10:57.349Z",
       "page": false
     }
   },
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6e5280f0e738683570489d52330e00237cbedf3d"
+  "output_hash": "dc06969a2b87e33708d1851aa2ecfad67cdb0d4519ead54b9fb4ec2016379e5a"
 }

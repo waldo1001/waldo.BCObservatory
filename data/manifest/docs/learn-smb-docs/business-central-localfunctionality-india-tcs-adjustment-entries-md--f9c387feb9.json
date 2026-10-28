@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Adjustment-Entries",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.337Z",
-      "blob": "1ad2f71239f2b0f918cad09b96156f73084e8f7a",
-      "words": 242,
+      "at": "2026-10-28T09:10:56.918Z",
+      "blob": "55c5d729d51ec6c92411d20fdf10a22e2dfa8bbf",
+      "words": 227,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:18:35.294Z",
+      "at": "2026-10-28T09:11:01.848Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003682
+      "cost_usd": 0.003204
     },
     "summarized": {
-      "at": "2026-10-06T19:18:51.468Z",
+      "at": "2026-10-28T09:11:01.850Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:18:51.469Z",
+      "at": "2026-10-28T09:11:01.852Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:18:51.469Z",
+      "at": "2026-10-28T09:11:06.823Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TCS-Adjustment-Entries.md",
-    "description": "This article provides information about TCS adjustment entries and process in Business Central for India.",
-    "ms_date": "2025-06-27",
+    "description": "Create TCS adjustment entries and review the transaction fields and processing steps for the India localization of Microsoft Dynamics 365 Business Central.",
+    "ms_date": "2026-10-21",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "TCS adjustment entries",
       "adjustment process"
     ],
-    "ai_usage": null,
-    "words": 242,
+    "ai_usage": "ai-assisted",
+    "words": 227,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c46b04d8aae063fc5d0a6fbf47e9ffe35b79238ef9fceb842f3c73cbfff660ab"
+  "output_hash": "6327b63d2092a62a4fc9b5a010c3c9796a61bda14f6571a2fcb4b3c692de8eac"
 }

@@ -2,33 +2,36 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TaxEngine-006-Design-Consideration.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-006-Design-Consideration",
   "title": "Tax Engine - Design Consideration",
-  "blob": "baddaf9bdc7c0d09f70c0d4bf4210eb6fbdb0baf",
-  "summary": "Tax Engine Design Consideration provides best practices for configuring taxes, including when to create tax types, attributes, rate setups, handling metadata, use case execution sequencing, deployment of configuration files, and version management.",
+  "blob": "3d45fe43bab16a1ad2c5de1c1e25be82e0574676",
+  "summary": "Tax engine design considerations for configuring taxes, including choices for tax types, attributes, rate setup, use case execution sequencing, and deployment of tax configurations.",
   "systems": [
     "finance",
     "localization",
-    "administration"
+    "integration"
   ],
   "topics": [
     "tax engine",
-    "design considerations",
-    "configuration deployment",
-    "version management"
+    "tax configuration",
+    "tax types",
+    "tax attributes",
+    "tax rates",
+    "use cases",
+    "design patterns"
   ],
   "objects": [],
   "features": [
     "tax type creation",
     "generic attributes",
-    "generic tax rate setup",
+    "attribute mapping to table fields",
+    "rate column setup",
     "tax transaction values",
-    "tax rate configuration values",
-    "child use cases",
+    "tax rate values",
+    "use case tree execution",
     "use case sequencing",
-    "json configuration files",
     "configuration import/export",
-    "configuration archiving",
+    "JSON configuration",
     "version management",
-    "enable/disable use cases"
+    "use case archiving"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003682,
-      "pages_in_call": 7
+      "cost_usd": 0.003934,
+      "pages_in_call": 1
     }
   ]
 }

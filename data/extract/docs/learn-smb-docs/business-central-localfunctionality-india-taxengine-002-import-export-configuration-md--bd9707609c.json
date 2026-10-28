@@ -2,24 +2,41 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration",
   "title": "Tax Engine - Import/Export Configuration",
-  "blob": "a9404427b98324e00976acc6ed7145f8d56ac4ad",
-  "summary": "Tax Engine Import/Export Configuration explains how to use the Json Exchange extension to import and export tax engine configuration data in JSON format, supporting both full tax type configurations and specific use case imports.",
+  "blob": "dcbd179e61db9b0964662ed830c3a43e9fb4ef44",
+  "summary": "Tax Engine Import/Export Configuration enables JSON-based transfer of tax type configuration data and use cases in Business Central's India localization, supporting import, export, and assisted setup workflows.",
   "systems": [
-    "localization"
+    "localization",
+    "integration",
+    "administration"
   ],
   "topics": [
     "tax engine",
-    "configuration",
     "import/export",
-    "json",
+    "json configuration",
+    "tax types",
+    "use cases",
+    "assisted setup",
     "india"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Tax Types"
+    },
+    {
+      "type": "page",
+      "name": "Assisted Setup"
+    }
+  ],
   "features": [
-    "Json Exchange extension",
-    "Tax Type import/export",
-    "Use Case import/export",
-    "Assisted Setup"
+    "JSON Exchange module",
+    "Export tax type configuration",
+    "Import tax type configuration",
+    "Export use cases",
+    "Import use cases",
+    "Tax Engine Setup wizard",
+    "Append configuration option",
+    "Replace configuration option"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +45,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003796,
-      "pages_in_call": 8
+      "cost_usd": 0.003617,
+      "pages_in_call": 1
     }
   ]
 }

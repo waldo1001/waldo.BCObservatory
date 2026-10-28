@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-001-Overview",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.307Z",
-      "blob": "fa45f5f5ed6ae4ebe9ade6fd746afced7cfc2a13",
-      "words": 387,
+      "at": "2026-10-28T09:10:50.975Z",
+      "blob": "a5f1f99b3c5f348a1209fd09b8cbb5d640a37d0d",
+      "words": 308,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:18:09.414Z",
+      "at": "2026-10-28T09:10:56.104Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00322
+      "cost_usd": 0.003052
     },
     "summarized": {
-      "at": "2026-10-06T19:18:11.189Z",
+      "at": "2026-10-28T09:10:56.106Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:18:11.191Z",
+      "at": "2026-10-28T09:10:56.107Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:18:11.192Z",
+      "at": "2026-10-28T09:10:56.108Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TaxEngine-001-Overview.md",
     "description": "Provides an overview of the Tax Engine, its components, and configuration options for managing tax rules and calculations in Business Central for India.",
-    "ms_date": "2025-06-26",
+    "ms_date": "2026-10-21",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "English",
       "tax engine"
     ],
-    "ai_usage": null,
-    "words": 387,
+    "ai_usage": "ai-assisted",
+    "words": 308,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b943db0a69f8da24c579f8debbee3419e7e0c4e66d1209f00840b1926d619a56"
+  "output_hash": "2ca3ffe94304fb51b104554cb8ce9d6225d8afd94ab3fbffffff3c03816dd789"
 }

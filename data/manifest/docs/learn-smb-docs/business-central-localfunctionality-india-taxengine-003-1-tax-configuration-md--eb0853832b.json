@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Tax Engine - Tax Configuration 02",
+  "title": "Tax Engine - Use Case Configuration",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-003.1-Tax-Configuration",
   "published_at": "2026-10-26T11:09:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.315Z",
-      "blob": "f6d23573d4e0a1338ea3516ea22726495787dbdf",
-      "words": 506,
+      "at": "2026-10-28T09:10:51.003Z",
+      "blob": "09a108145cb9015bb7f3a7467ecab90b3f2cf2c7",
+      "words": 576,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:18:35.289Z",
+      "at": "2026-10-28T09:10:56.585Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003682
+      "objects": 2,
+      "cost_usd": 0.003757
     },
     "summarized": {
-      "at": "2026-10-06T19:18:51.457Z",
+      "at": "2026-10-28T09:10:56.586Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:18:51.457Z",
+      "at": "2026-10-28T09:10:56.588Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:18:51.458Z",
+      "at": "2026-10-28T09:10:56.589Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/India/TaxEngine-003.1-Tax-Configuration.md",
-    "description": "Provides details about configuring tax use cases in the Tax Engine for India localization in Business Central.",
-    "ms_date": "2025-06-27",
-    "ms_topic": "article",
+    "description": "Configure tax use cases, mappings, calculations, and posting behavior with the Tax Engine for the India localization of Business Central.",
+    "ms_date": "2026-10-21",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "India",
@@ -58,12 +58,12 @@
       "attribute mapping",
       "rate parameter mapping"
     ],
-    "ai_usage": null,
-    "words": 506,
+    "ai_usage": "ai-assisted",
+    "words": 576,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "224ef2b672700d717cd8713e3c8cb8dcb4ee53bb6e2e96110b0795fd0c8e8013"
+  "output_hash": "6aec9c41bb0b4de99f9984a3ee3f9890338975d6d7e4dfce76607b0ca86b1e9b"
 }
