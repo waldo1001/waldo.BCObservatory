@@ -1,23 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/ui-extensions-qr-bill-management",
-  "title": "QR-Bill Management [CH]",
-  "blob": "799c7bc6252930e3e93acd221cd1ed4b250ca605",
-  "summary": "QR-Bill Management in Switzerland handles creation and receipt of QR-bills for payments, including scanning, importing, and reconciliation with support for structured addresses starting October 2026.",
+  "title": "QR-Bill Management in the Swiss Version [CH]",
+  "blob": "6716ea0622e97e0293b2eada7128199b3f45a54d",
+  "summary": "QR-bill management is a Swiss feature that enables companies to issue QR-bills on invoices and receive QR-bills for payment processing, including scanning, importing, and reconciliation of payment information.",
   "systems": [
     "localization",
     "finance",
-    "integration"
+    "purchasing"
   ],
   "topics": [
-    "qr-bill",
+    "qr-bills",
     "swiss",
-    "payment",
-    "invoice",
-    "scanning",
-    "iban",
-    "reconciliation",
-    "structured-address"
+    "payment processing",
+    "invoices",
+    "incoming documents",
+    "bank reconciliation",
+    "qr codes"
   ],
   "objects": [
     {
@@ -26,23 +25,11 @@
     },
     {
       "type": "page",
-      "name": "QR-Bill Layout"
-    },
-    {
-      "type": "page",
-      "name": "Report Selection - Sales"
-    },
-    {
-      "type": "page",
-      "name": "Vendor Ledger Entries"
-    },
-    {
-      "type": "page",
       "name": "Company Information"
     },
     {
       "type": "page",
-      "name": "Bank Accounts"
+      "name": "QR-Bill Layout"
     },
     {
       "type": "page",
@@ -50,7 +37,11 @@
     },
     {
       "type": "page",
-      "name": "Bank Account Card"
+      "name": "QR-Bill Report Setup"
+    },
+    {
+      "type": "page",
+      "name": "QR-Bill Scan"
     },
     {
       "type": "page",
@@ -70,30 +61,44 @@
     },
     {
       "type": "page",
+      "name": "Bank Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Ledger Entries"
+    },
+    {
+      "type": "page",
       "name": "Payment Reconciliation Journals"
     },
     {
       "type": "page",
+      "name": "Report Selection - Sales"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection - Service"
+    },
+    {
+      "type": "page",
       "name": "Data Exchange Definitions"
-    },
-    {
-      "type": "page",
-      "name": "Field Mapping"
-    },
-    {
-      "type": "page",
-      "name": "Matching Details"
     }
   ],
   "features": [
-    "QR-bill generation",
-    "QR-bill scanning",
-    "QR-bill import",
-    "structured addresses",
-    "IBAN/QR-IBAN support",
-    "payment reference",
-    "multiple bank accounts",
-    "Kofax OCR integration"
+    "QR-bill generation on posted sales and service invoices",
+    "QR-bill scanning and importing",
+    "IBAN and QR-IBAN support",
+    "Structured and combined address types",
+    "SWICO billing information format",
+    "Payment reference generation and matching",
+    "Multiple bank accounts for issuers",
+    "Kofax OCR service integration",
+    "camt.054 bank statement file import",
+    "Payment reconciliation with QR references"
   ],
   "versions": [],
   "parts": 1,
@@ -102,8 +107,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005891,
-      "pages_in_call": 8
+      "cost_usd": 0.015311,
+      "pages_in_call": 1
     }
   ]
 }

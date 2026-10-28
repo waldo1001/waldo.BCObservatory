@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Switzerland local functionality",
+  "title": "Switzerland Local Functionality",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/switzerland-local-functionality",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.437Z",
-      "blob": "1ce1bffd1fba09813e0a0d0b8e414c7c3160700f",
+      "at": "2026-10-28T09:08:31.972Z",
+      "blob": "088ce68ed277a39b33eb62f751e9f8cc2285f0c8",
       "words": 275,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:26:12.190Z",
+      "at": "2026-10-28T09:08:41.847Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003525
+      "cost_usd": 0.004153
     },
     "summarized": {
-      "at": "2026-10-06T19:26:12.246Z",
+      "at": "2026-10-28T09:08:41.849Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:12.247Z",
+      "at": "2026-10-28T09:08:41.850Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:13.932Z",
+      "at": "2026-10-28T09:08:41.852Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/switzerland-local-functionality.md",
     "description": "The following articles describe all of the local functionality that is unique to the Swiss version of Business Central.",
-    "ms_date": "2025-05-02",
+    "ms_date": "2026-10-19",
     "ms_topic": "article",
     "search_form": [
       {
@@ -83,12 +83,12 @@
       "Swiss local functionality",
       "Swiss version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 275,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6c0b7e4e1262ec394baae619441840d6d4b3b23f46f926dae94373196fc7e93d"
+  "output_hash": "9a7e7be7fcb2c53bd4e92eb20f9b17fa0169c135d2594e1393130930e99e93f7"
 }

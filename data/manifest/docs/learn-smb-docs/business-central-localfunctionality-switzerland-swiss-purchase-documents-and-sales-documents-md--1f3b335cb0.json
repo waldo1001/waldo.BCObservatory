@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.998Z",
-      "blob": "6b8df2a97bf22d4ffaeebff0d6a430dd11ac07a8",
+      "at": "2026-10-28T09:08:31.541Z",
+      "blob": "0d25cbf32cf8130c8c1cc7eb5dd62f69de15b83b",
       "words": 494,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:59.940Z",
+      "at": "2026-10-28T09:08:36.896Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.003194
+      "objects": 6,
+      "cost_usd": 0.004428
     },
     "summarized": {
-      "at": "2026-10-06T19:27:59.964Z",
+      "at": "2026-10-28T09:08:41.833Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:59.966Z",
+      "at": "2026-10-28T09:08:41.835Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:59.967Z",
+      "at": "2026-10-28T09:08:41.836Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md",
     "description": "This article describes enhancements made to the Swiss version of Business Central including special Swiss purchase document and sales document features.",
-    "ms_date": "2025-04-30",
+    "ms_date": "2026-10-19",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "sales orders",
       "Swiss version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 494,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5c2e9085fbd743826bba5f88557889f868bc72f2e9ed1bf85276580523b17056"
+  "output_hash": "3c3ddf5f262704e8f07944ab53cb89490fd285c9c6114063fb19aaf1ede4c2ae"
 }

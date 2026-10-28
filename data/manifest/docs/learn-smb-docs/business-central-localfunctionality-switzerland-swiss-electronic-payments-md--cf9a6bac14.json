@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.985Z",
-      "blob": "561ae8fa8cf2bc2d50826352c00dfa36d6d72521",
-      "words": 426,
+      "at": "2026-10-28T09:08:26.059Z",
+      "blob": "af2c7cbde856ca734bcd0aa3bce2cbb6a430c400",
+      "words": 428,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:59.935Z",
+      "at": "2026-10-28T09:08:31.926Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003194
+      "cost_usd": 0.003919
     },
     "summarized": {
-      "at": "2026-10-06T19:27:59.950Z",
+      "at": "2026-10-28T09:08:31.928Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:59.954Z",
+      "at": "2026-10-28T09:08:31.929Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:59.956Z",
+      "at": "2026-10-28T09:08:31.930Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/swiss-electronic-payments.md",
-    "description": "Learn about electronic payment methods, ESR, LSV+, and SEPA credit transfers.",
-    "ms_date": "2025-04-30",
+    "description": "Learn about QR-bills, ESR, LSV+, and SEPA credit transfers for collecting customer payments and paying vendors in the Swiss version of Business Central.",
+    "ms_date": "2026-10-19",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "SEPA credit transfers",
       "Swiss version"
     ],
-    "ai_usage": null,
-    "words": 426,
+    "ai_usage": "ai-assisted",
+    "words": 428,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1449efae327aba9c96a9c6374570d2d0e49f4cd9a6454f695ce48ef660fe1668"
+  "output_hash": "f125b844cfd17bb8b0048ba6e9a8c2d15fdffc8bcb9a6fe521ce03015f76bff3"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "QR-Bill Management [CH]",
+  "title": "QR-Bill Management in the Swiss Version [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/ui-extensions-qr-bill-management",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:24.462Z",
-      "blob": "799c7bc6252930e3e93acd221cd1ed4b250ca605",
-      "words": 2362,
+      "at": "2026-10-28T09:08:32.002Z",
+      "blob": "6716ea0622e97e0293b2eada7128199b3f45a54d",
+      "words": 2328,
       "forms": 10
     },
     "extracted": {
-      "at": "2026-10-06T18:02:39.819Z",
+      "at": "2026-10-28T09:08:41.899Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 16,
-      "cost_usd": 0.005891
+      "objects": 17,
+      "cost_usd": 0.015311
     },
     "summarized": {
-      "at": "2026-10-06T18:02:39.827Z",
+      "at": "2026-10-28T09:08:41.901Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:02:39.828Z",
+      "at": "2026-10-28T09:08:41.902Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:02:39.829Z",
+      "at": "2026-10-28T09:08:41.902Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md",
-    "description": "Learn how the QR-Bill Management extension in Business Central simplifies the process of generating, sending, and importing QR-bills for streamlined payment management in Switzerland.",
-    "ms_date": "2026-06-15",
+    "description": "Set up QR-bill management in Business Central to issue payment slips, import vendor QR-bills, and reconcile incoming payments in Switzerland.",
+    "ms_date": "2026-10-19",
     "ms_topic": "article",
     "search_form": [
       {
@@ -105,12 +105,12 @@
       "incoming documents",
       "payment reference"
     ],
-    "ai_usage": null,
-    "words": 2362,
+    "ai_usage": "ai-assisted",
+    "words": 2328,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5fc9ddd9ea43a32db48fe5e885a7f73af4e05614d1b6f07a34bb3ffebe4c04d6"
+  "output_hash": "c42085d31de27e69c68a4ea3b2e02472e88a71e0ee69813928f84f8674db15d9"
 }

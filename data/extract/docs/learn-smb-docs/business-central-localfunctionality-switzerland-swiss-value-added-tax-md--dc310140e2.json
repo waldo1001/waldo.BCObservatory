@@ -1,18 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/swiss-value-added-tax.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-value-added-tax",
-  "title": "Swiss Value Added [CH]",
-  "blob": "f212db7da82289b420f5cc431c400c7465cbb206",
-  "summary": "Swiss VAT supports automatic adjustment of VAT amounts for payment discounts and uses official government exchange rates for foreign currency VAT calculations. It adjusts VAT exchange rates automatically for transactions.",
+  "title": "Swiss Value Added Tax [CH]",
+  "blob": "e878e80591f422e310e4393e8cb3bc10d7077e85",
+  "summary": "Swiss Value Added Tax functionality for automatic VAT adjustment based on payment discounts and foreign currency exchange rates for VAT reporting.",
   "systems": [
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "swiss vat",
-    "payment discount adjustment",
-    "exchange rates",
-    "vat posting",
-    "foreign currency"
+    "vat",
+    "switzerland",
+    "tax reporting",
+    "payment discount",
+    "currency exchange",
+    "vat entries"
   ],
   "objects": [
     {
@@ -33,12 +35,10 @@
     }
   ],
   "features": [
-    "VAT amount adjustment",
-    "payment discount VAT",
-    "exchange rate adjustment",
-    "VAT exchange rates",
-    "currency exchange rates",
-    "exchange gain/loss accounts"
+    "Automatic VAT adjustment for payment discounts",
+    "VAT exchange rates for foreign currencies",
+    "Exchange rate gain/loss posting",
+    "VAT entry tracking with original currency amounts"
   ],
   "versions": [],
   "parts": 1,
@@ -47,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003194,
-      "pages_in_call": 8
+      "cost_usd": 0.003391,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Swiss electronic payments using LSV+ [CH]",
+  "title": "Swiss Electronic Payments Using LSV+ in the Swiss Version [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-lsv-",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.980Z",
-      "blob": "07c1d183b7df71dfa870456b500ffa2fd2f450bf",
+      "at": "2026-10-28T09:08:25.926Z",
+      "blob": "5a0c1ea7dd5fe1f0671045c841a51a09962d0f41",
       "words": 335,
       "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T19:27:59.934Z",
+      "at": "2026-10-28T09:08:31.825Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003194
+      "cost_usd": 0.003642
     },
     "summarized": {
-      "at": "2026-10-06T19:27:59.944Z",
+      "at": "2026-10-28T09:08:31.827Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:59.947Z",
+      "at": "2026-10-28T09:08:31.828Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:59.948Z",
+      "at": "2026-10-28T09:08:31.829Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-lsv-.md",
     "description": "Learn about the LSV+, or direct debit, which is an electronic payment method that permits companies to retrieve payments directly from their customers' bank accounts.",
-    "ms_date": "2025-04-30",
+    "ms_date": "2026-10-19",
     "ms_topic": "article",
     "search_form": [
       {
@@ -80,12 +80,12 @@
       "direct payment retrieval",
       "Swiss version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 335,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b79f7620a28e6dbfe760173eb5d1a0c91e3bf610c182a1f8c5c67b739da156a0"
+  "output_hash": "82dbbc6afed5561e07f3b35bc963b9033073188f9f0a52ab64393e74449aa139"
 }

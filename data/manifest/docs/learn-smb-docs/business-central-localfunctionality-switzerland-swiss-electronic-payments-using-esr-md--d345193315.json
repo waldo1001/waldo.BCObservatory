@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Swiss Electronic Payments Using ESR [CH]",
+  "title": "Swiss Electronic Payments Using ESR in the Swiss Version [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.976Z",
-      "blob": "9d7c5729c6eded2800be7c6ede9f8592882a9524",
-      "words": 241,
+      "at": "2026-10-28T09:08:25.962Z",
+      "blob": "a0380974dea9e0bfa767c6c05af7664a1e1e7bab",
+      "words": 256,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:27:54.445Z",
+      "at": "2026-10-28T09:08:31.484Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002137
+      "cost_usd": 0.003277
     },
     "summarized": {
-      "at": "2026-10-06T19:27:54.483Z",
+      "at": "2026-10-28T09:08:31.485Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:54.484Z",
+      "at": "2026-10-28T09:08:31.486Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:54.485Z",
+      "at": "2026-10-28T09:08:31.488Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr.md",
     "description": "Learn about the different tasks you can accomplish with the Einzahlungsschein mit Referenznummer (ESR) electronic payment method debtor service.",
-    "ms_date": "2025-04-30",
+    "ms_date": "2026-10-19",
     "ms_topic": "article",
     "search_form": [
       {
@@ -68,12 +68,12 @@
       "bill open invoices",
       "Swiss version"
     ],
-    "ai_usage": null,
-    "words": 241,
+    "ai_usage": "ai-assisted",
+    "words": 256,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a3ece678b474341a9ba15bfa1aedaf7065ba084cac918e0a9e84fc07e835eabb"
+  "output_hash": "48846cbbff950e50fe003006cdbf5cb65435e1b4cf391f93bcfea04ac58fbf8c"
 }

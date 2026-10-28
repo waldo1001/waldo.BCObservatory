@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "VAT rates for Switzerland",
+  "title": "VAT Rates for Switzerland",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/vat-rates-for-switzerland",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.006Z",
-      "blob": "5aa4c0efb24533e2ac87d722016b17bfcca8c66b",
+      "at": "2026-10-28T09:08:32.331Z",
+      "blob": "8dbbc5535332e738d84692b795ca1450c466f6c0",
       "words": 66,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:59.942Z",
+      "at": "2026-10-28T09:08:41.875Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003194
+      "cost_usd": 0.002702
     },
     "summarized": {
-      "at": "2026-10-06T19:27:59.974Z",
+      "at": "2026-10-28T09:08:41.877Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:59.975Z",
+      "at": "2026-10-28T09:08:41.879Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:59.976Z",
+      "at": "2026-10-28T09:08:41.880Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/vat-rates-for-switzerland.md",
     "description": "Learn how to manage VAT rate changes using the VAT rate change tool.",
-    "ms_date": "2023-12-11",
+    "ms_date": "2026-10-19",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "VAT rates",
       "Swiss version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 66,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fcd8bd25024d1997f08bbb0e2c0f4366a8ca7d902cabef9d8a2eb51574f6abf4"
+  "output_hash": "b6d4134f53c581c39fe0b013c3300dab8aaa92352d083427f2a5d416bb849079"
 }

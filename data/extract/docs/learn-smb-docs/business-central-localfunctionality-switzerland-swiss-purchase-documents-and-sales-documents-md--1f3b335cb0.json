@@ -2,18 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents",
   "title": "Swiss Purchase Documents and Sales Documents",
-  "blob": "6b8df2a97bf22d4ffaeebff0d6a430dd11ac07a8",
-  "summary": "Swiss purchase and sales documents include enhanced posting descriptions, subtotals with begin/end totals in quotes/orders, invoice rounding for payment discounts, and optional shipment document printing.",
+  "blob": "0d25cbf32cf8130c8c1cc7eb5dd62f69de15b83b",
+  "summary": "Swiss localization features for purchase and sales documents including enhanced posting descriptions, subtotals in quotes/orders, invoice rounding with payment discounts, and shipment document printing controls.",
   "systems": [
+    "localization",
     "sales",
     "purchasing"
   ],
   "topics": [
-    "swiss documents",
+    "swiss functionality",
+    "purchase documents",
+    "sales documents",
     "posting descriptions",
     "invoice rounding",
-    "sales quotes",
-    "shipment control"
+    "shipment documents"
   ],
   "objects": [
     {
@@ -33,17 +35,20 @@
       "name": "Sales Line"
     },
     {
-      "type": "page",
+      "type": "table",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "table",
       "name": "Sales & Receivables Setup"
     }
   ],
   "features": [
-    "enhanced posting descriptions",
-    "subtotals and begin/end totals",
-    "invoice rounding with discounts",
-    "shipment document control",
-    "item variants in quotes",
-    "position field references"
+    "Enhanced posting descriptions for ledger entries",
+    "Subtitles and subtotals in sales quotes and orders",
+    "Begin Total and End Total line types",
+    "Invoice rounding with payment discounts",
+    "Shipment document printing control"
   ],
   "versions": [],
   "parts": 1,
@@ -52,8 +57,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003194,
-      "pages_in_call": 8
+      "cost_usd": 0.004428,
+      "pages_in_call": 1
     }
   ]
 }

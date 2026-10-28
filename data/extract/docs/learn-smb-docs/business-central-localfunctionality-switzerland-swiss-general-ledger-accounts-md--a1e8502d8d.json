@@ -2,36 +2,34 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/swiss-general-ledger-accounts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-general-ledger-accounts",
   "title": "Swiss General Ledger Accounts [CH]",
-  "blob": "a2127316488a166c701bdc11c335be47b42cf553",
-  "summary": "Swiss general ledger accounts support foreign currency balances on bank accounts and use text data types for standardized Swiss KMU chart of accounts. It includes temporary balance preview for journals before posting.",
+  "blob": "a20691516d15ef72169a6efc3e4a779497b3d164",
+  "summary": "Swiss general ledger accounts enable companies to maintain foreign currency balances in the general ledger, sort accounts using text data type for Swiss Kontenrahmen Käfer (KMU) compatibility, and preview posting effects on account balances before journal posting.",
   "systems": [
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "swiss accounting",
     "general ledger",
     "foreign currency",
+    "bank accounts",
     "chart of accounts",
-    "kmu",
-    "journal preview"
+    "swiss localization",
+    "exchange rates",
+    "journal posting"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Chart of Accounts"
-    },
-    {
-      "type": "table",
-      "name": "Item Ledger Entry"
     }
   ],
   "features": [
-    "foreign currency balances",
-    "currency code setup",
-    "text data type accounts",
-    "KMU chart of accounts",
-    "exchange rate adjustment",
-    "temporary balance preview"
+    "Foreign currency balance maintenance",
+    "General ledger account sorting by text data type",
+    "Currency code configuration",
+    "Exchange rate adjustment batch job",
+    "Temporary balance preview in journals",
+    "Kontenrahmen Käfer (KMU) support"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003194,
-      "pages_in_call": 8
+      "cost_usd": 0.003739,
+      "pages_in_call": 1
     }
   ]
 }

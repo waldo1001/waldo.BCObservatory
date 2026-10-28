@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-general-ledger-accounts",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.990Z",
-      "blob": "a2127316488a166c701bdc11c335be47b42cf553",
+      "at": "2026-10-28T09:08:26.025Z",
+      "blob": "a20691516d15ef72169a6efc3e4a779497b3d164",
       "words": 363,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:27:59.936Z",
+      "at": "2026-10-28T09:08:32.187Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.003194
+      "objects": 1,
+      "cost_usd": 0.003739
     },
     "summarized": {
-      "at": "2026-10-06T19:27:59.957Z",
+      "at": "2026-10-28T09:08:32.191Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:59.959Z",
+      "at": "2026-10-28T09:08:32.198Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:59.960Z",
+      "at": "2026-10-28T09:08:32.200Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/swiss-general-ledger-accounts.md",
     "description": "This article explains enhancements to the Swiss General Ledger Accounts and General Journals.",
-    "ms_date": "2025-04-30",
+    "ms_date": "2026-10-19",
     "ms_topic": "article",
     "search_form": [
       {
@@ -59,12 +59,12 @@
       "General Ledger Accounts enhancements",
       "Swiss version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 363,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8e6542c3b9dfe2cbebd8b95e80fe175acdf5640d96da712a6187622b43a908af"
+  "output_hash": "b472b317d394efcd96d547a26a309ab0d6e89ede9b101fc42b648dec263487e9"
 }

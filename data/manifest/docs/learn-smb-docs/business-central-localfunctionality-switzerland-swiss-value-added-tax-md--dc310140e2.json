@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Swiss Value Added [CH]",
+  "title": "Swiss Value Added Tax [CH]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-value-added-tax",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.002Z",
-      "blob": "f212db7da82289b420f5cc431c400c7465cbb206",
-      "words": 337,
+      "at": "2026-10-28T09:08:31.878Z",
+      "blob": "e878e80591f422e310e4393e8cb3bc10d7077e85",
+      "words": 324,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:59.941Z",
+      "at": "2026-10-28T09:08:41.863Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.003194
+      "cost_usd": 0.003391
     },
     "summarized": {
-      "at": "2026-10-06T19:27:59.969Z",
+      "at": "2026-10-28T09:08:41.864Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:59.970Z",
+      "at": "2026-10-28T09:08:41.866Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:59.971Z",
+      "at": "2026-10-28T09:08:41.867Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Switzerland/swiss-value-added-tax.md",
     "description": "This article explains several enhancements that have been made to the Swiss VAT reporting features.",
-    "ms_date": "2025-05-02",
+    "ms_date": "2026-10-19",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "currency exchange rates",
       "Swiss version"
     ],
-    "ai_usage": null,
-    "words": 337,
+    "ai_usage": "ai-assisted",
+    "words": 324,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eac14152fe69070fd1d7552411beb37b13498b411b3cf54595068f5a8369965b"
+  "output_hash": "73ce80921939feccf4937391a7cd6f75721e24c26cb7d455f3be92a521f71174"
 }
