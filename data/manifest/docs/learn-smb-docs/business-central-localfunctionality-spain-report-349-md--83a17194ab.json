@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Report 349 [ES]",
+  "title": "Report 349 in the Spanish Version [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/report-349",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.759Z",
-      "blob": "db314ddc3f65e4ef3ad44792865808d436dd0ead",
+      "at": "2026-10-28T09:07:27.797Z",
+      "blob": "022c15bd2f4f3858054eb9c1184824a808687bf4",
       "words": 615,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:47.796Z",
+      "at": "2026-10-28T09:07:33.779Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003387
+      "cost_usd": 0.004073
     },
     "summarized": {
-      "at": "2026-10-06T19:23:47.808Z",
+      "at": "2026-10-28T09:07:33.781Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:47.809Z",
+      "at": "2026-10-28T09:07:33.782Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:47.809Z",
+      "at": "2026-10-28T09:07:33.784Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/report-349.md",
-    "description": "Learn how to use Business Central to prepare and submit Report 349, the periodic declaration of trade with other EU countries/regions required by Spanish tax authorities.",
-    "ms_date": "2025-05-29",
-    "ms_topic": "article",
+    "description": "Learn how Business Central for Spain prepares report 349 for EU trade, uses delivery operation codes, and handles corrections to earlier declarations.",
+    "ms_date": "2026-10-20",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "report 349",
@@ -54,12 +54,12 @@
       "item setup",
       "Spanish version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 615,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fc35b7bbb67a76f5883f920d372cd7393898c50ecb2be1b0aeeae464ed8c34ce"
+  "output_hash": "da8f2508aded535df667a880bab748c7c76e94071829eadbe041dfdda4c87a36"
 }

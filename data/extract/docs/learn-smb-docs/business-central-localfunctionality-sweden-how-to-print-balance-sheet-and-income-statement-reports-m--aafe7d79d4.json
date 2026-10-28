@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports",
   "title": "Print Balance Sheet and Income Statement Reports",
-  "blob": "2323f1950c42ff7150aae687a9b4efc0d4a37313",
-  "summary": "Print balance sheet and income statement reports in the Swedish version for submission to banks and authorities. Reports display assets, liabilities, equity, income, and expenses.",
+  "blob": "284cf02cc48670352e6b2ce83918740fb141d37d",
+  "summary": "Print Balance Sheet - SE and Income Statement - SE reports for Swedish authorities and banks, filtering by date, accounts, and dimensions.",
   "systems": [
     "finance",
     "reporting",
@@ -12,24 +12,28 @@
   "topics": [
     "balance sheet",
     "income statement",
-    "reports",
-    "swedish localization"
+    "sweden",
+    "financial reporting",
+    "gl accounts",
+    "printing"
   ],
   "objects": [
     {
       "type": "report",
-      "name": "Balance Sheet"
+      "name": "Balance Sheet - SE"
     },
     {
       "type": "report",
-      "name": "Income Statement"
+      "name": "Income Statement - SE"
     }
   ],
   "features": [
-    "balance sheet reporting",
-    "income statement reporting",
+    "date filtering",
     "account filtering",
-    "show all accounts"
+    "global dimension filtering",
+    "show all accounts",
+    "print action",
+    "preview action"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002264,
-      "pages_in_call": 8
+      "cost_usd": 0.003247,
+      "pages_in_call": 1
     }
   ]
 }

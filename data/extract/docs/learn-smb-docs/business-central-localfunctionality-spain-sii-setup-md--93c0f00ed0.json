@@ -1,21 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/sii-setup.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/sii-setup",
-  "title": "Set up SII for VAT reporting [ES]",
-  "blob": "4a5121d9e56e755cdf1cef8b9a08240bd02652b2",
-  "summary": "Set up SII (Suministro Inmediato de Información) for VAT reporting in the Spanish version of Business Central. Enable the SII module, configure batch submission thresholds, mark documents as accepted, specify customers not in AEAT, set VAT exemptions, and ignore invoice lines for SII reporting.",
+  "title": "Set Up SII for VAT Reporting in the Spanish Version [ES]",
+  "blob": "1ce2888a5033cdd8a76ee6d402c252998c4c34b5",
+  "summary": "Set up the Spanish SII module for VAT reporting, including enabling SII, configuring batch submission, marking documents as accepted, managing VAT exemptions, and handling customer NIF registration.",
   "systems": [
     "finance",
-    "localization",
-    "administration"
+    "localization"
   ],
   "topics": [
-    "sii",
+    "sii setup",
     "vat reporting",
-    "spain",
-    "tax compliance",
-    "e-invoicing",
-    "document submission"
+    "spanish localization",
+    "vat exemptions",
+    "batch submission",
+    "aeat registration"
   ],
   "objects": [
     {
@@ -24,11 +23,7 @@
     },
     {
       "type": "page",
-      "name": "SII History"
-    },
-    {
-      "type": "page",
-      "name": "Customers"
+      "name": "Customer Card"
     },
     {
       "type": "page",
@@ -37,6 +32,10 @@
     {
       "type": "page",
       "name": "VAT Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "SII History"
     },
     {
       "type": "page",
@@ -52,15 +51,14 @@
     }
   ],
   "features": [
-    "SII module enable/disable",
-    "Operation date configuration",
-    "Batch submission",
-    "Job batch submission thresholds",
-    "Mark documents as accepted",
-    "AEAT customer registration",
-    "VAT exemptions",
-    "No Taxable Type setup",
-    "Ignore in SII configuration"
+    "SII module enablement",
+    "batch submission",
+    "automatic batch submission thresholds",
+    "mark as accepted",
+    "AEAT NIF registration",
+    "VAT exemption codes",
+    "no taxable entries",
+    "ignore invoice lines for SII"
   ],
   "versions": [],
   "parts": 1,
@@ -69,8 +67,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008326,
-      "pages_in_call": 8
+      "cost_usd": 0.005349,
+      "pages_in_call": 1
     }
   ]
 }

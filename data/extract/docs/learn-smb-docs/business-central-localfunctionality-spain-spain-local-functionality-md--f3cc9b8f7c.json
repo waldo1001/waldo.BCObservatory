@@ -1,34 +1,32 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/spain-local-functionality.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/spain-local-functionality",
-  "title": "Spain local functionality [ES]",
-  "blob": "15c303f885ff52060357aed5cb24d05826450896",
-  "summary": "Spain local functionality provides features for VAT reporting (SII, reports 340/347/349), electronic invoicing (Factura-E, VERI*FACTU), banking, e-payments, and core finance.",
+  "title": "Spain Local Functionality in the Spanish Version [ES]",
+  "blob": "f2c43dad7c9ab4b57184c2707fdf4be178d70471",
+  "summary": "Spain local functionality in Business Central covers compliance, VAT reporting (including SII), electronic payments (AEB N34.1), e-invoicing (Factura-E and VERI*FACTU), and core finance features specific to Spanish business requirements.",
   "systems": [
     "finance",
-    "sales",
-    "purchasing"
+    "localization",
+    "sales"
   ],
   "topics": [
     "spain",
-    "vat",
-    "e-invoicing",
-    "banking",
+    "vat reporting",
+    "electronic invoicing",
+    "e-payments",
     "compliance",
-    "electronic payments"
+    "local functionality"
   ],
   "objects": [],
   "features": [
     "SII VAT reporting",
-    "VAT reports",
-    "report 340",
-    "report 347",
-    "report 349",
-    "Factura-E",
+    "VAT reports (340, 347, 349)",
+    "E-Invoicing Factura-E",
     "VERI*FACTU",
-    "electronic payments",
-    "cartera module",
-    "self-responsible declaration"
+    "Electronic payments AEB N34.1",
+    "Cartera module",
+    "Self-responsible declaration of billing system",
+    "Non-deductible VAT"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004125,
-      "pages_in_call": 8
+      "cost_usd": 0.00473,
+      "pages_in_call": 1
     }
   ]
 }

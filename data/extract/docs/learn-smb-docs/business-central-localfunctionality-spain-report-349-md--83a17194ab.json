@@ -1,20 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/report-349.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/report-349",
-  "title": "Report 349 [ES]",
-  "blob": "db314ddc3f65e4ef3ad44792865808d436dd0ead",
-  "summary": "Report 349 is a periodic declaration for trade with other EU countries in Spain, based on VAT entries filtered by EU country codes. It includes delivery operation codes to specify different types of exports and must be submitted to the Spanish Tax Agency.",
+  "title": "Report 349 in the Spanish Version [ES]",
+  "blob": "022c15bd2f4f3858054eb9c1184824a808687bf4",
+  "summary": "Report 349 is a periodic declaration for Spanish tax authorities tracking intra-community trade with other EU countries, based on VAT entries filtered by EU country codes and delivery operation codes (E, M, H).",
   "systems": [
-    "finance",
     "localization",
+    "finance",
     "reporting"
   ],
   "topics": [
     "report 349",
+    "spanish tax",
+    "vat entries",
     "eu trade",
-    "vat reporting",
     "delivery operation codes",
-    "intra-community"
+    "vies declaration"
   ],
   "objects": [
     {
@@ -27,11 +28,12 @@
     }
   ],
   "features": [
-    "Delivery operation codes (E, M, H)",
+    "Report 349 declaration",
+    "EU intra-community VAT Information Exchange System",
+    "delivery operation codes",
     "VAT product posting groups",
-    "EU country filtering",
-    "Credit memo corrections",
-    "Item card setup for exports"
+    "VAT entries filtering",
+    "credit memo handling"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003387,
-      "pages_in_call": 8
+      "cost_usd": 0.004073,
+      "pages_in_call": 1
     }
   ]
 }

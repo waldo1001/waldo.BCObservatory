@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up SII for VAT reporting [ES]",
+  "title": "Set Up SII for VAT Reporting in the Spanish Version [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/sii-setup",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.135Z",
-      "blob": "4a5121d9e56e755cdf1cef8b9a08240bd02652b2",
-      "words": 1180,
+      "at": "2026-10-28T09:07:27.956Z",
+      "blob": "1ce2888a5033cdd8a76ee6d402c252998c4c34b5",
+      "words": 1191,
       "forms": 9
     },
     "extracted": {
-      "at": "2026-10-06T13:53:10.117Z",
+      "at": "2026-10-28T09:07:34.717Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 8,
-      "cost_usd": 0.008326
+      "cost_usd": 0.005349
     },
     "summarized": {
-      "at": "2026-10-06T13:53:10.120Z",
+      "at": "2026-10-28T09:07:34.720Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:53:10.121Z",
+      "at": "2026-10-28T09:07:34.722Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:53:10.121Z",
+      "at": "2026-10-28T09:07:34.725Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/sii-setup.md",
     "description": "Set up and submit documents with SII in Business Central, and resolve incorrect or pending statuses from posted documents in Spain.",
-    "ms_date": "2026-09-18",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -106,12 +106,12 @@
       "posted documents",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 1180,
+    "ai_usage": "ai-assisted",
+    "words": 1191,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e386017ea49abf618d44f4e8dcae31516498fa40072fd16cc425b5f03597f933"
+  "output_hash": "0bac12cb321ccd64ff79f96395dcb57c358edd71afa458b6d1c707f5d9ac50cd"
 }

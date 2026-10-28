@@ -1,45 +1,45 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/verifactu-setup.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/verifactu-setup",
-  "title": "VERIFACTU with external service integration [ES]",
-  "blob": "2e4cd2270915db3bce958ad10f2e8efbdc6e2e7d",
-  "summary": "VERI*FACTU setup for Spain enables real-time invoice reporting to the Spanish Tax Agency through B2Brouter API integration. Use this to comply with Spanish regulatory requirements for electronic invoicing instead of SII.",
+  "title": "VERI*FACTU with External Service Integration [ES]",
+  "blob": "79be73ef7ac12c6549076e36c9f791d69c18f30a",
+  "summary": "VERI*FACTU is a Spanish regulatory framework for verifiable electronic invoicing that combats tax fraud. This page documents how to set up VERI*FACTU using external service integration through the B2BRouter API connector.",
   "systems": [
-    "integration",
+    "finance",
     "localization",
-    "finance"
+    "integration"
   ],
   "topics": [
     "spain",
-    "verifactu",
+    "invoicing",
     "e-documents",
-    "tax-compliance",
-    "real-time-reporting"
+    "veri*factu",
+    "b2brouter",
+    "tax compliance",
+    "regulatory"
   ],
   "objects": [
     {
-      "type": "page",
+      "type": "other",
       "name": "SII Setup"
     },
     {
-      "type": "page",
+      "type": "other",
       "name": "E-Document Services"
     },
     {
-      "type": "page",
-      "name": "B2BRouter Connection Setup"
-    },
-    {
-      "type": "page",
-      "name": "Shopify Shop Card"
+      "type": "other",
+      "name": "B2Brouter Setup"
     }
   ],
   "features": [
     "VERI*FACTU framework",
-    "B2Brouter API connector",
-    "Real-time invoice reporting",
-    "SII alternative",
-    "Embedded VERI*FACTU mode"
+    "B2BRouter connector",
+    "real-time invoice reporting",
+    "SII system",
+    "staging mode",
+    "API key configuration",
+    "tax agency integration"
   ],
   "versions": [],
   "parts": 1,
@@ -48,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006414,
-      "pages_in_call": 8
+      "cost_usd": 0.004068,
+      "pages_in_call": 1
     }
   ]
 }

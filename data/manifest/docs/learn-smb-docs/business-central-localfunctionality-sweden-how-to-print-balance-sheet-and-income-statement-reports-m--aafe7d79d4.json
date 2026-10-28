@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.854Z",
-      "blob": "2323f1950c42ff7150aae687a9b4efc0d4a37313",
-      "words": 204,
+      "at": "2026-10-28T09:07:34.819Z",
+      "blob": "284cf02cc48670352e6b2ce83918740fb141d37d",
+      "words": 206,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:27:25.968Z",
+      "at": "2026-10-28T09:07:43.250Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002264
+      "cost_usd": 0.003247
     },
     "summarized": {
-      "at": "2026-10-06T19:27:30.055Z",
+      "at": "2026-10-28T09:07:43.251Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:30.056Z",
+      "at": "2026-10-28T09:07:43.253Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:30.057Z",
+      "at": "2026-10-28T09:07:43.254Z",
       "page": false
     }
   },
@@ -44,18 +44,18 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports.md",
-    "description": "You can print balance sheet reports and income statement reports to submit to banks and other authorities.",
-    "ms_date": "2025-02-06",
+    "description": "Print Swedish balance sheet and income statement reports in Business Central, and filter the results by reporting period, account, and dimension.",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [
       {
-        "raw": "9001",
-        "id": 9001,
+        "raw": "11290",
+        "id": 11290,
         "kind": null
       },
       {
-        "raw": "9027",
-        "id": 9027,
+        "raw": "11291",
+        "id": 11291,
         "kind": null
       }
     ],
@@ -64,12 +64,12 @@
       "income statement reports",
       "print reports"
     ],
-    "ai_usage": null,
-    "words": 204,
+    "ai_usage": "ai-assisted",
+    "words": 206,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d8e92df3ec6ed1239df3cf668b2663c7a749c69fea5e5ba197a42ccf48de3a57"
+  "output_hash": "e26f9f0b76b598c11e8a2fc2e5d080a7653be91e88937bc8b30233391c2f1fd3"
 }

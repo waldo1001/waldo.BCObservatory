@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Electronic invoicing in Spain",
+  "title": "Electronic Invoicing with Factura-E in Spain",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/spain-einvoicing",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.763Z",
-      "blob": "f3874d9c2a7479c2a4ce1841382ec2ffb67dd983",
-      "words": 353,
+      "at": "2026-10-28T09:07:27.916Z",
+      "blob": "5bb6013b5c3de9efbf2e3cafc9d698f939f9eb3e",
+      "words": 391,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:47.798Z",
+      "at": "2026-10-28T09:07:34.079Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.003387
+      "cost_usd": 0.003772
     },
     "summarized": {
-      "at": "2026-10-06T19:23:47.811Z",
+      "at": "2026-10-28T09:07:34.081Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:47.812Z",
+      "at": "2026-10-28T09:07:34.082Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:47.813Z",
+      "at": "2026-10-28T09:07:34.083Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/spain-einvoicing.md",
-    "description": "Learn how to set up and work with the Spanish localization of the E-Document framework.",
-    "ms_date": "2025-05-29",
-    "ms_topic": "article",
+    "description": "Learn how to configure Factura-E 3.2.2 in the Business Central E-Documents framework for Spain and export invoices and corrective credit memos.",
+    "ms_date": "2026-10-20",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "Spanish localization",
@@ -59,12 +59,12 @@
       "credit memos corrections",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 353,
+    "ai_usage": "ai-assisted",
+    "words": 391,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4ea3e0b0fec5efecf6a8c8dff39f7fbd02fbe1dca85f7a3b821db0f4a213421a"
+  "output_hash": "1f3f7ebb187b9ce68fb469b2863b2c5be152dc0930bbf8bc0ae00b6da1fe4bc9"
 }

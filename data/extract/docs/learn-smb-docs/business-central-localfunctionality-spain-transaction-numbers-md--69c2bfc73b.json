@@ -1,26 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/transaction-numbers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/transaction-numbers",
-  "title": "Transaction numbers",
-  "blob": "bdaea92a6c291d35d6d1c4537d8061bd886b96dd",
-  "summary": "Transaction numbers in Spain allow you to group entries with the same document number and date for balancing, starting with number 2 each fiscal year (number 1 reserved for opening transaction). Sequential transaction numbers ordered by date identify every transaction posted in a fiscal year.",
+  "title": "Transaction Numbers in Business Central for Spain",
+  "blob": "35dbc70b66d59c6abbea9a17cbf21f822d9a248b",
+  "summary": "Transaction numbers in Business Central for Spain group entries with the same document number and date to enable balancing. The Set Period Trans. Nos. batch job assigns period transaction numbers to general ledger entries in posting date and transaction number order.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
     "transaction numbers",
-    "spanish accounting",
-    "journal entries",
-    "fiscal year",
-    "opening transaction"
+    "general ledger",
+    "period numbering",
+    "spain",
+    "entry grouping",
+    "fiscal year"
   ],
   "objects": [],
   "features": [
-    "Sequential transaction numbering",
-    "Automatic number assignment",
-    "Entry balancing",
-    "Fiscal year ordering"
+    "Set Period Trans. Nos. batch job",
+    "Period Trans. No. values",
+    "Sequential period transaction numbering",
+    "Transaction number auto-entry in journals"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003387,
-      "pages_in_call": 8
+      "cost_usd": 0.003033,
+      "pages_in_call": 1
     }
   ]
 }

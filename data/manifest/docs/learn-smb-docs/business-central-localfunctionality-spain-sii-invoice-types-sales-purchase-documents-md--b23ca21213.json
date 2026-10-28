@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "SII Invoice Types in Sales and Purchase Documents",
+  "title": "SII Invoice and Credit Memo Types for Spain",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.242Z",
-      "blob": "b4a19d862774323c94208df18097b73c469572d9",
-      "words": 559,
+      "at": "2026-10-28T09:07:27.786Z",
+      "blob": "661c640f8f7aa6826ab4cfa57b9f408e5fdae8ac",
+      "words": 545,
       "forms": 5
     },
     "extracted": {
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md",
-    "description": "Learn how Business Central supports SII and the different invoice and credit memo types used in the Spanish version.",
-    "ms_date": "2025-05-29",
-    "ms_topic": "article",
+    "description": "Learn how Business Central for Spain exports SII invoice and credit memo types, including simplified invoices and replacement corrective invoices.",
+    "ms_date": "2026-10-20",
+    "ms_topic": "reference",
     "search_form": [
       {
         "raw": "10751",
@@ -85,8 +85,8 @@
       "purchase credit memos",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 559,
+    "ai_usage": "ai-assisted",
+    "words": 545,
     "identifiers": [
       "ImporteTotal",
       "NumSerieFacturaEmisorResumenFin"
@@ -95,5 +95,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "be59a223ee67490841fcd32d41b05b154f7d03367c0d9652f91df8c480039ab9"
+  "output_hash": "661c640f8f7aa6826ab4cfa57b9f408e5fdae8ac"
 }

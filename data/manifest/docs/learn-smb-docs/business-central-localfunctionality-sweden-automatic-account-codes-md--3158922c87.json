@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Automatic account codes in the Swedish version",
+  "title": "Automatic Account Codes in the Swedish Version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/automatic-account-codes",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.844Z",
-      "blob": "b5b6bb74e1362c764a3a2a7679dc39f1a6c4c756",
-      "words": 80,
-      "forms": 2
+      "at": "2026-10-28T09:07:34.138Z",
+      "blob": "e51799e9e772691ca1a47fa87b65677aca4b3ceb",
+      "words": 74,
+      "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T19:27:25.966Z",
+      "at": "2026-10-28T09:07:43.286Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002264
+      "cost_usd": 0.002856
     },
     "summarized": {
-      "at": "2026-10-06T19:27:30.049Z",
+      "at": "2026-10-28T09:07:43.287Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:30.050Z",
+      "at": "2026-10-28T09:07:43.296Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:30.051Z",
+      "at": "2026-10-28T09:07:43.297Z",
       "page": false
     }
   },
@@ -45,17 +45,22 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Sweden/automatic-account-codes.md",
     "description": "Use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents in the Swedish version.",
-    "ms_date": "2025-02-06",
-    "ms_topic": "article",
+    "ms_date": "2026-10-23",
+    "ms_topic": "concept-article",
     "search_form": [
       {
-        "raw": "11207",
-        "id": 11207,
+        "raw": "4850",
+        "id": 4850,
         "kind": null
       },
       {
-        "raw": "11208",
-        "id": 11208,
+        "raw": "4851",
+        "id": 4851,
+        "kind": null
+      },
+      {
+        "raw": "4852",
+        "id": 4852,
         "kind": null
       }
     ],
@@ -64,12 +69,12 @@
       "customized posting groups",
       "automate recurring transactions"
     ],
-    "ai_usage": null,
-    "words": 80,
+    "ai_usage": "ai-assisted",
+    "words": 74,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4a2cd2fb0f2c75c242f93dde353f26b527564ae98dca8ae18de9a94c0c6001f5"
+  "output_hash": "fc0c66be74b40b0e9388bfd4373b46e43ffd3fff0be18b656d2d0c2b549edd91"
 }

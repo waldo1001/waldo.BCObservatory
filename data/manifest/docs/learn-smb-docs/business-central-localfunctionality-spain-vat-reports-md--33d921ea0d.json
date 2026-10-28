@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "VAT Reports [ES]",
+  "title": "VAT Reports in the Spanish Version [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/vat-reports",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.773Z",
-      "blob": "048eabc61f48585d48eee29cad74dc8640baf1e3",
+      "at": "2026-10-28T09:07:33.183Z",
+      "blob": "f85b1eec5b3de085d701478205784f4dd019f23f",
       "words": 288,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:47.799Z",
+      "at": "2026-10-28T09:07:38.291Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003387
+      "cost_usd": 0.003703
     },
     "summarized": {
-      "at": "2026-10-06T19:23:47.818Z",
+      "at": "2026-10-28T09:07:43.224Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:47.819Z",
+      "at": "2026-10-28T09:07:43.226Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:47.819Z",
+      "at": "2026-10-28T09:07:43.228Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/vat-reports.md",
     "description": "Provides detailed information about VAT functionality for transactions involving goods and services in Spain, including imports.",
-    "ms_date": "2025-05-29",
-    "ms_topic": "article",
+    "ms_date": "2026-10-20",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "VAT functionality",
@@ -58,12 +58,12 @@
       "VAT statement",
       "Spanish version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 288,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a0af6fa98f060514d334e90ee89679f9c2f902b1a0b7618e6397d9169be81f5d"
+  "output_hash": "b105fc7454644a57330c3700313416b00a7a17a5bc5aeb0dda08c51ea7a2204e"
 }

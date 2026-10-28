@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Import and Export Data in SIE [SE]",
+  "title": "Import and Export SIE Data in Earlier Swedish Versions [SE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.849Z",
-      "blob": "139ca1ff90a66b8a36c8de5570df74e7bac441f7",
-      "words": 424,
+      "at": "2026-10-28T09:07:34.481Z",
+      "blob": "cfb4338ae675fc73d35b72f32416f0fc035fcf0e",
+      "words": 392,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:27:25.967Z",
+      "at": "2026-10-28T09:07:43.238Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002264
+      "cost_usd": 0.003951
     },
     "summarized": {
-      "at": "2026-10-06T19:27:30.052Z",
+      "at": "2026-10-28T09:07:43.239Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:30.053Z",
+      "at": "2026-10-28T09:07:43.241Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:30.054Z",
+      "at": "2026-10-28T09:07:43.242Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format.md",
-    "description": "You can import and export general ledger data according to the standard import export (SIE) format explained in this article.",
-    "ms_date": "2025-02-06",
+    "description": "Find the earlier SIE import and export report procedures for the Swedish version of Business Central, with a link to the current extension.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -61,12 +61,12 @@
       "SIE",
       "general ledger data"
     ],
-    "ai_usage": null,
-    "words": 424,
+    "ai_usage": "ai-assisted",
+    "words": 392,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "98c9b8b5019ca0da4ea1884abe1a9320716b567e19d645f20d6c27a8444e57b1"
+  "output_hash": "8946ae71bd8cfdb25eb20bcaf635fc49165212ec43992da3118ea997ce4bbe16"
 }

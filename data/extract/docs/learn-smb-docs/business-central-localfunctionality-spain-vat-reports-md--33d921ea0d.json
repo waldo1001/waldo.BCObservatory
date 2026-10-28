@@ -1,20 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/vat-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/vat-reports",
-  "title": "VAT Reports [ES]",
-  "blob": "048eabc61f48585d48eee29cad74dc8640baf1e3",
-  "summary": "VAT reports in Spain cover equivalence charge taxation, VAT with EC percentages, telematic VAT filing, and VAT statements. The system tracks EC and VAT separately in posting groups and supports one-column and two-column VAT statement templates.",
+  "title": "VAT Reports in the Spanish Version [ES]",
+  "blob": "f85b1eec5b3de085d701478205784f4dd019f23f",
+  "summary": "VAT reporting functionality for Spanish Business Central, including equivalence charge tax, telematic VAT filing, VAT statements, and VIES declarations for EU sales.",
   "systems": [
     "finance",
-    "localization",
-    "reporting"
+    "localization"
   ],
   "topics": [
-    "vat reporting",
+    "vat",
+    "tax reporting",
+    "spain",
     "equivalence charge",
     "telematic vat",
-    "vat statements",
-    "spanish vat"
+    "vat statement",
+    "eu compliance"
   ],
   "objects": [
     {
@@ -27,11 +28,14 @@
     }
   ],
   "features": [
-    "Equivalence Charge (EC) tracking",
+    "Equivalence Charge tax",
     "VAT with EC percentage",
-    "Telematic VAT filing",
-    "One-Column and Two-Column VAT Statement templates",
-    "VAT-VIES declaration"
+    "Telematic VAT",
+    "Monthly and yearly tax reports",
+    "Electronic and printed file formats",
+    "VAT statement",
+    "One-Column Report template",
+    "Two-Columns Report template"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003387,
-      "pages_in_call": 8
+      "cost_usd": 0.003703,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/spain-einvoicing.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/spain-einvoicing",
-  "title": "Electronic invoicing in Spain",
-  "blob": "f3874d9c2a7479c2a4ce1841382ec2ffb67dd983",
-  "summary": "Electronic invoicing in Spain uses the E-Documents framework with Factura-E 3.2.2 format for sales and purchase transactions. The feature supports corrections with credit memos and determines invoice metadata from posting dates, document types, and unit of measures.",
+  "title": "Electronic Invoicing with Factura-E in Spain",
+  "blob": "5bb6013b5c3de9efbf2e3cafc9d698f939f9eb3e",
+  "summary": "Electronic invoicing in Spain using the Factura-E format with the E-Document framework, including setup of local formats, workflows, and handling of sales invoices and credit memos with tax-specific requirements.",
   "systems": [
     "finance",
-    "localization",
-    "integration"
+    "localization"
   ],
   "topics": [
-    "e-invoicing",
-    "spanish localization",
-    "edocuments",
+    "electronic invoicing",
     "factura-e",
-    "electronic submission"
+    "spain",
+    "e-documents",
+    "tax compliance",
+    "credit memos"
   ],
   "objects": [
     {
@@ -32,10 +32,13 @@
   ],
   "features": [
     "Factura-E 3.2.2 format",
-    "Credit memo reason codes",
-    "SII Sales Invoice Types (OO, OR, OC)",
-    "Exchange rate details",
-    "VAT Return Period matching"
+    "E-Document framework",
+    "workflow setup",
+    "sales invoicing",
+    "purchase invoicing",
+    "credit memo corrections",
+    "VAT return periods",
+    "exchange rate details"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003387,
-      "pages_in_call": 8
+      "cost_usd": 0.003772,
+      "pages_in_call": 1
     }
   ]
 }

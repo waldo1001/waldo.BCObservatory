@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "VERIFACTU with external service integration [ES]",
+  "title": "VERI*FACTU with External Service Integration [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/verifactu-setup",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:23.299Z",
-      "blob": "2e4cd2270915db3bce958ad10f2e8efbdc6e2e7d",
-      "words": 570,
+      "at": "2026-10-28T09:07:33.845Z",
+      "blob": "79be73ef7ac12c6549076e36c9f791d69c18f30a",
+      "words": 511,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T17:52:58.910Z",
+      "at": "2026-10-28T09:07:43.263Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.006414
+      "objects": 3,
+      "cost_usd": 0.004068
     },
     "summarized": {
-      "at": "2026-10-06T17:52:58.919Z",
+      "at": "2026-10-28T09:07:43.264Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:52:58.920Z",
+      "at": "2026-10-28T09:07:43.266Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:52:58.921Z",
+      "at": "2026-10-28T09:07:43.267Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/verifactu-setup.md",
-    "description": "Learn how to set up and use VERI*FACTU in the Spanish version of Business Central.",
-    "ms_date": "2026-06-15",
+    "description": "Configure the B2Brouter connector for external VERIFACTU integration in Business Central, including API credentials, project settings, and sandbox mode.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "Spanish version",
       "b2brouter connector"
     ],
-    "ai_usage": null,
-    "words": 570,
+    "ai_usage": "ai-assisted",
+    "words": 511,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3dff9599e927e5336a2052c7b4df9fc5bd0667122729477fc1c5e9bcefb679ea"
+  "output_hash": "cdcbeb5bcb5bb7ccd48cc9819fc6cc66c9b47189c74bcf0500965babf99d51b4"
 }

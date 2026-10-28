@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Transaction numbers",
+  "title": "Transaction Numbers in Business Central for Spain",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/transaction-numbers",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.768Z",
-      "blob": "bdaea92a6c291d35d6d1c4537d8061bd886b96dd",
-      "words": 152,
+      "at": "2026-10-28T09:07:27.848Z",
+      "blob": "35dbc70b66d59c6abbea9a17cbf21f822d9a248b",
+      "words": 172,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:47.798Z",
+      "at": "2026-10-28T09:07:33.131Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003387
+      "cost_usd": 0.003033
     },
     "summarized": {
-      "at": "2026-10-06T19:23:47.814Z",
+      "at": "2026-10-28T09:07:33.133Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:47.815Z",
+      "at": "2026-10-28T09:07:33.133Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:47.816Z",
+      "at": "2026-10-28T09:07:33.134Z",
       "page": false
     }
   },
@@ -44,20 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/transaction-numbers.md",
-    "description": "Use transaction numbers to group and balance entries that share the same document number and date.",
-    "ms_date": "2025-05-29",
-    "ms_topic": "article",
+    "description": "Learn how transaction numbers group general ledger entries in Business Central for Spain and how period transaction numbers order entries by date.",
+    "ms_date": "2026-10-20",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "transaction numbers",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 152,
+    "ai_usage": "ai-assisted",
+    "words": 172,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5f37a1f10fe97b1359fcf2416d01ed6bab5fd1829957a420f7b2769de15d4f97"
+  "output_hash": "8ea6e052488b87e6ca5fa4998eb11d3ec494da448b8f4ba2f43e6414c61cef31"
 }
