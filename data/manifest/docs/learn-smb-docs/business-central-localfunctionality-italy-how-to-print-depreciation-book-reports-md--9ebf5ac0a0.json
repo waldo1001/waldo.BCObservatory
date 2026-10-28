@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Print Depreciation Book Reports [IT]",
+  "title": "Print Depreciation Book Reports in the Italian Version [IT]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-depreciation-book-reports",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.889Z",
-      "blob": "bf5928910dd4cf4c657958ef25c23636046f4962",
-      "words": 207,
+      "at": "2026-10-28T09:02:10.541Z",
+      "blob": "f5993ac88295aca2cf66ed93aa2082aee6aa4e2f",
+      "words": 163,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:11.139Z",
+      "at": "2026-10-28T09:02:25.731Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002785
+      "objects": 1,
+      "cost_usd": 0.003056
     },
     "summarized": {
-      "at": "2026-10-06T19:24:11.157Z",
+      "at": "2026-10-28T09:02:25.733Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:11.158Z",
+      "at": "2026-10-28T09:02:25.735Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:11.159Z",
+      "at": "2026-10-28T09:02:25.737Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/how-to-print-depreciation-book-reports.md",
-    "description": "Learn how to print the Depreciation Book report, after configuring depreciation methods and entering fixed assets.",
-    "ms_date": "2025-05-21",
+    "description": "Learn how to print the Italian Depreciation Book report in Business Central by acquisition year, asset class, and subclass, with optional asset details.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "print depreciation book report",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 207,
+    "ai_usage": "ai-assisted",
+    "words": 163,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3691b5620be9d73491faef70fbc1ee7340b627fea335281974ecd28c612f9652"
+  "output_hash": "f56d47b8cd57c821049fedb4110466298cdb0101a84dfb9fdd4d3daafe5e5508"
 }

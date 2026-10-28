@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Print and reprint G-L books VAT registers [IT]",
+  "title": "Print and Reprint G/L Books and VAT Registers for Italy",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.884Z",
-      "blob": "4937784fe89cf96c4bd1de080f881cbf174020b6",
-      "words": 592,
+      "at": "2026-10-28T09:02:08.702Z",
+      "blob": "915beafb6d9923fcc14f600a7bab4135bff0672c",
+      "words": 551,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:24:11.138Z",
+      "at": "2026-10-28T09:02:20.328Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.002785
+      "objects": 7,
+      "cost_usd": 0.004934
     },
     "summarized": {
-      "at": "2026-10-06T19:24:11.154Z",
+      "at": "2026-10-28T09:02:20.330Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:11.155Z",
+      "at": "2026-10-28T09:02:20.331Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:11.156Z",
+      "at": "2026-10-28T09:02:25.723Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md",
-    "description": "Submit two fiscal reports—the G/L Book - Print report and the VAT Register - Print report—that list all posted ledger entries, as required by tax authorities.",
-    "ms_date": "2025-05-21",
+    "description": "Learn how to print and reprint the G/L Book - Print and VAT Fiscal Register - Print reports, and maintain their page numbers in Business Central for Italy.",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -75,12 +75,12 @@
       "VAT registers",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 592,
+    "ai_usage": "ai-assisted",
+    "words": 551,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "18a59dd5d17025036a07bbee19ede93383cdf268f62c25097bd8a4069612bb80"
+  "output_hash": "40336076bb9747c6d3d97a4b21b00fb456084a6ed405d73140fbae489dcb68dc"
 }

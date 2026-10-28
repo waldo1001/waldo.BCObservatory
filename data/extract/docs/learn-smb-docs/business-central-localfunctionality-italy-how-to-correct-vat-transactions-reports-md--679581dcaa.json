@@ -1,19 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-correct-vat-transactions-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-correct-vat-transactions-reports",
-  "title": "How to correct VAT transactions reports [IT]",
-  "blob": "473504091c19f12bb84a57082c9b38f6eb857c57",
-  "summary": "Correct VAT Transactions reports in Italian version by creating corrective or cancellation reports linked to original submitted reports. Suggest lines based on VAT entries and threshold setup, exclude lines as needed, export, and update with tax authority receipt numbers.",
+  "title": "Correct VAT Transactions Reports in the Italian Version [IT]",
+  "blob": "3c63334ea1913c59f0003ee28f6d484d5aad0aa1",
+  "summary": "Correct VAT Transactions Reports in the Italian version by creating corrective or cancellation reports to replace or cancel previous VAT report submissions to tax authorities.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "italy",
     "vat",
-    "tax reporting",
-    "corrective reporting",
-    "compliance"
+    "italy",
+    "tax compliance",
+    "reporting",
+    "corrections"
   ],
   "objects": [
     {
@@ -24,10 +24,11 @@
   "features": [
     "corrective reports",
     "cancellation reports",
-    "line suggestion",
-    "threshold-based filtering",
-    "tax authority receipt",
-    "report status tracking"
+    "VAT report type",
+    "suggest lines",
+    "export VAT transactions",
+    "mark as submitted",
+    "tax authority receipt"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002778,
-      "pages_in_call": 8
+      "cost_usd": 0.00621,
+      "pages_in_call": 1
     }
   ]
 }

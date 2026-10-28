@@ -1,37 +1,36 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy",
-  "title": "Set up and Print Intrastat Reports for Italy",
-  "blob": "8776951090d241ef7985ddfebcb05208d57616e7",
-  "summary": "Set up and print monthly and quarterly Intrastat reports for Italy with corrective entry support. Use this for submitting intra-community trade information to authorities.",
+  "title": "Set Up and Print Intrastat Reports for Italy",
+  "blob": "cba7f61a0227e008273a31995d866866a76152e9",
+  "summary": "Set up and print Intrastat reports for Italy using the Intrastat Report page with support for monthly and quarterly purchase or sales declarations, including corrective reports for previously filed amendments.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "intrastat",
-    "trade reporting",
+    "intrastat reporting",
     "italy",
-    "customs",
-    "corrective reports"
+    "goods declarations",
+    "purchase reports",
+    "sales reports",
+    "corrective entries"
   ],
   "objects": [
-    {
-      "type": "report",
-      "name": "Intrastat Make Disk Tax Auth"
-    },
     {
       "type": "page",
       "name": "Intrastat Report"
     }
   ],
   "features": [
-    "Periodicity selection",
-    "Type selection (Purchases/Sales)",
+    "Export Parameters",
+    "Periodicity setting",
+    "Monthly and quarterly formats",
+    "Purchase and sales reports",
     "File Disk No.",
-    "Include Intra-Community Entries",
-    "Corrective Entry field",
-    "Corrected Intrastat Report No."
+    "Intra-Community Entries",
+    "Corrective Intrastat report",
+    "Credit memo application"
   ],
   "versions": [
     "2022 release wave 2"
@@ -42,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002785,
-      "pages_in_call": 8
+      "cost_usd": 0.003629,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers",
-  "title": "Print and reprint G-L books VAT registers [IT]",
-  "blob": "4937784fe89cf96c4bd1de080f881cbf174020b6",
-  "summary": "Print and reprint G/L Book and VAT Register fiscal reports in Italy with progressive page numbering. Use this to generate official ledger and VAT reports for tax authorities.",
+  "title": "Print and Reprint G/L Books and VAT Registers for Italy",
+  "blob": "915beafb6d9923fcc14f600a7bab4135bff0672c",
+  "summary": "Print and reprint the G/L Book and VAT Fiscal Register reports for Italian tax compliance by managing progressive page numbers and updating General Ledger Setup and VAT Register with last printed page information.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "g/l reports",
-    "vat registers",
     "italy",
-    "fiscal reporting",
-    "page numbering"
+    "vat reporting",
+    "general ledger",
+    "fiscal reports",
+    "page numbering",
+    "tax compliance"
   ],
   "objects": [
     {
@@ -22,7 +23,7 @@
     },
     {
       "type": "report",
-      "name": "VAT Register - Print"
+      "name": "VAT Fiscal Register - Print"
     },
     {
       "type": "page",
@@ -30,19 +31,30 @@
     },
     {
       "type": "page",
-      "name": "G/L Book Reprint Info"
+      "name": "VAT Register"
     },
     {
       "type": "page",
-      "name": "VAT Register Reprint Info"
+      "name": "G/L Book Reprinting Information"
+    },
+    {
+      "type": "page",
+      "name": "VAT Register Reprinting Information"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
     }
   ],
   "features": [
+    "G/L Book printing",
+    "VAT Fiscal Register printing",
+    "Report reprinting",
     "Progressive page numbering",
-    "Reprint functionality",
-    "Report Type selection",
-    "Last Printed Page tracking",
-    "Company Information printing"
+    "Last printed page tracking",
+    "Reprinting information management",
+    "Company information printing",
+    "Test and final print modes"
   ],
   "versions": [],
   "parts": 1,
@@ -51,8 +63,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002785,
-      "pages_in_call": 8
+      "cost_usd": 0.004934,
+      "pages_in_call": 1
     }
   ]
 }

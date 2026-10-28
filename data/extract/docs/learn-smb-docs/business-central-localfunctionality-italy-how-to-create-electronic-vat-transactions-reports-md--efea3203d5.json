@@ -1,32 +1,28 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-create-electronic-vat-transactions-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-create-electronic-vat-transactions-reports",
-  "title": "Create Electronic VAT Transactions Report [IT]",
-  "blob": "0549e863fa558f2283abe07a970132d43b203eee",
-  "summary": "Create electronic VAT Transactions reports in the Italian version to submit lists of VAT transactions exceeding the current threshold to tax authorities. Reports are categorized by contract type and include credit memos for non-EU customers.",
+  "title": "Create Electronic VAT Transactions Reports for Italy",
+  "blob": "68bedf55ca8ce928006d8ca14dbb4140fcbc0476",
+  "summary": "Create a VAT Transactions Report from VAT entries within a posting-date range in the Italian version, marking entries for inclusion and reviewing them against applicable thresholds.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "italy",
     "vat",
-    "tax reporting",
-    "electronic reporting",
-    "vat transactions"
+    "italy",
+    "reporting",
+    "tax",
+    "transactions",
+    "compliance"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "VAT Report"
-    }
-  ],
+  "objects": [],
   "features": [
-    "vat transactions reporting",
-    "threshold filtering",
-    "contract classification",
-    "credit memo inclusion",
-    "tax authority submission"
+    "VAT Transactions Report",
+    "VAT Report Config Code",
+    "Contract Payment Type",
+    "Suggest Lines action",
+    "Incl. in Report marking"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002778,
-      "pages_in_call": 8
+      "cost_usd": 0.003128,
+      "pages_in_call": 1
     }
   ]
 }

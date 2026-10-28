@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Create Multiple Fixed Asset Cards [IT]",
+  "title": "Create Multiple Fixed Asset Cards in the Italian Version [IT]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-create-multiple-fixed-asset-cards",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.112Z",
-      "blob": "4717b223df5d72143f7195fac34eceeddc4be60c",
-      "words": 290,
+      "at": "2026-10-28T09:01:50.365Z",
+      "blob": "549b661ad99a8a58a572041f155b1bb84d210d50",
+      "words": 309,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:56:57.579Z",
+      "at": "2026-10-28T09:02:02.764Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.004171
+      "objects": 4,
+      "cost_usd": 0.003586
     },
     "summarized": {
-      "at": "2026-10-06T18:57:00.549Z",
+      "at": "2026-10-28T09:02:02.766Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:57:00.550Z",
+      "at": "2026-10-28T09:02:02.767Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:57:00.551Z",
+      "at": "2026-10-28T09:02:02.768Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/how-to-create-multiple-fixed-asset-cards.md",
-    "description": "Learn how to automatically create multiple fixed asset cards during purchase invoice posting in Business Central.",
-    "ms_date": "2025-10-29",
+    "description": "Learn how to create multiple fixed asset cards during purchase invoice posting in Business Central and split the acquisition amount among the assets.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "invoice posting",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 290,
+    "ai_usage": "ai-assisted",
+    "words": 309,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "80cd96af0d1f384225da30bf667daeb8d27544c146cd995bf762e6b741b3653d"
+  "output_hash": "de9da7bfcc166c0f02bd31fa79d5f22473c93e966e6c5df59a0c1508b1d99d08"
 }

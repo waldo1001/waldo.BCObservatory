@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Prepare for VAT transactions reports [IT]",
+  "title": "Prepare for VAT Transactions Reports in the Italian Version [IT]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.879Z",
-      "blob": "21b60ca878d8a9f57e6d85d8515f9cbdd300cac6",
-      "words": 384,
+      "at": "2026-10-28T09:02:07.282Z",
+      "blob": "e731c10af73024b766c2c599467c253fa8f2a4fb",
+      "words": 354,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:11.137Z",
+      "at": "2026-10-28T09:02:19.374Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002785
+      "cost_usd": 0.003932
     },
     "summarized": {
-      "at": "2026-10-06T19:24:11.150Z",
+      "at": "2026-10-28T09:02:19.376Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:11.151Z",
+      "at": "2026-10-28T09:02:19.377Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:11.153Z",
+      "at": "2026-10-28T09:02:19.379Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md",
     "description": "Learn how to prepare and submit periodic VAT Transactions reports to the Italian tax authorities, including setup steps and required information.",
-    "ms_date": "2025-05-21",
+    "ms_date": "2026-10-21",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "VAT transaction amount",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 384,
+    "ai_usage": "ai-assisted",
+    "words": 354,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "86f54daac22c2b7de37d30d087995e23f779670fdeef1f8ea526e02d641d720f"
+  "output_hash": "d09c5d100eac5f5b1a9e3ce33d9b46ec556cce29baaeb0bec803b157add134ba"
 }

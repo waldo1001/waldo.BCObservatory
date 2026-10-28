@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports",
-  "title": "Prepare for VAT transactions reports [IT]",
-  "blob": "21b60ca878d8a9f57e6d85d8515f9cbdd300cac6",
-  "summary": "Set up VAT posting to prepare for periodic VAT transaction reports required by Italian tax authorities. Use this to configure individual person details, residency status, and tax representatives.",
+  "title": "Prepare for VAT Transactions Reports in the Italian Version [IT]",
+  "blob": "e731c10af73024b766c2c599467c253fa8f2a4fb",
+  "summary": "Set up VAT transaction threshold amounts and customer details in the Italian version before creating VAT transactions reports, including individual person information and tax representative assignments.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "vat setup",
-    "tax reporting",
+    "vat",
     "italy",
-    "transaction reporting",
-    "foreign trade"
+    "threshold setup",
+    "customer details",
+    "tax reporting",
+    "compliance"
   ],
   "objects": [
     {
@@ -27,10 +28,13 @@
   ],
   "features": [
     "VAT Transaction Report Amount",
-    "Individual Person flag",
-    "Resident flag",
-    "Tax Representative assignment",
-    "Foreign Trade FastTab"
+    "Threshold Amount Incl. VAT",
+    "Threshold Amount Excl. VAT",
+    "Individual Person field",
+    "Resident field",
+    "Tax Representative Type",
+    "Tax Representative No.",
+    "Include in VAT Transac. Rep."
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002785,
-      "pages_in_call": 8
+      "cost_usd": 0.003932,
+      "pages_in_call": 1
     }
   ]
 }

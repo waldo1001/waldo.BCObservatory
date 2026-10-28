@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up and Print Intrastat Reports for Italy",
+  "title": "Set Up and Print Intrastat Reports for Italy",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.893Z",
-      "blob": "8776951090d241ef7985ddfebcb05208d57616e7",
-      "words": 371,
+      "at": "2026-10-28T09:02:10.482Z",
+      "blob": "cba7f61a0227e008273a31995d866866a76152e9",
+      "words": 335,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:24:11.141Z",
+      "at": "2026-10-28T09:02:19.388Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002785
+      "objects": 1,
+      "cost_usd": 0.003629
     },
     "summarized": {
-      "at": "2026-10-06T19:24:11.160Z",
+      "at": "2026-10-28T09:02:19.389Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:11.161Z",
+      "at": "2026-10-28T09:02:19.390Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:11.162Z",
+      "at": "2026-10-28T09:02:19.391Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md",
     "description": "Learn how to set up and print monthly or quarterly Intrastat reports, and submit them to authorities in the Italian version of Business Central.",
-    "ms_date": "2025-05-21",
-    "ms_topic": "article",
+    "ms_date": "2026-10-20",
+    "ms_topic": "how-to",
     "search_form": [
       {
         "raw": "12116",
@@ -61,12 +61,12 @@
       "corrective Intrastat report",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 371,
+    "ai_usage": "ai-assisted",
+    "words": 335,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bd9494d5405475b38ace7e8730f9dca7fb8208fffbeed236b539c79bee4bb5e2"
+  "output_hash": "077a8e51bf11b5676818ddb66817856cbdb52c160a163ced5e0ebe26dbe1b6b0"
 }

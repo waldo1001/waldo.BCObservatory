@@ -1,19 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-export-vat-transactions-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-export-vat-transactions-reports",
-  "title": "How to export VAT transactions reports [IT]",
-  "blob": "75021d003ebc3093b9921e4741ed4bf4cf67f5e0",
-  "summary": "Export VAT Transactions reports to tax authorities in Italy by releasing, exporting as .ccf files, and submitting receipt numbers. Use this when preparing VAT reports for Italian compliance.",
+  "title": "Export VAT Transactions Reports in the Italian Version [IT]",
+  "blob": "1921c8ba069df2d0db71265966bdc5e4a317ed2a",
+  "summary": "Export VAT Transactions Reports in the Italian Version guides users through releasing, exporting, and submitting VAT reports to Italian tax authorities, including handling of report lines, detailed exports, and status management.",
   "systems": [
-    "finance",
-    "localization"
+    "localization",
+    "finance"
   ],
   "topics": [
     "vat reporting",
+    "italian localization",
     "tax compliance",
-    "italy",
-    "export",
-    "submitted reports"
+    "report export",
+    "electronic submission"
   ],
   "objects": [
     {
@@ -23,14 +23,21 @@
     {
       "type": "page",
       "name": "VAT Report Setup"
+    },
+    {
+      "type": "report",
+      "name": "Export VAT Transactions"
     }
   ],
   "features": [
-    "Export VAT Transactions batch job",
-    "Detailed Export option",
-    "Modify Submitted Reports",
-    "Incl. in Report checkbox",
-    "Receipt number tracking"
+    "Release VAT reports",
+    "Export to CCF format",
+    "Detailed and aggregate export modes",
+    "Mark as submitted",
+    "Reopen released reports",
+    "Modify submitted reports",
+    "Exclude lines from reporting",
+    "Track tax authority receipt numbers"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002785,
-      "pages_in_call": 8
+      "cost_usd": 0.004096,
+      "pages_in_call": 1
     }
   ]
 }

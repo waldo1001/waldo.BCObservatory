@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to export VAT transactions reports [IT]",
+  "title": "Export VAT Transactions Reports in the Italian Version [IT]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-export-vat-transactions-reports",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.870Z",
-      "blob": "75021d003ebc3093b9921e4741ed4bf4cf67f5e0",
-      "words": 535,
+      "at": "2026-10-28T09:01:52.833Z",
+      "blob": "1921c8ba069df2d0db71265966bdc5e4a317ed2a",
+      "words": 495,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:11.134Z",
+      "at": "2026-10-28T09:02:05.158Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002785
+      "objects": 3,
+      "cost_usd": 0.004096
     },
     "summarized": {
-      "at": "2026-10-06T19:24:11.143Z",
+      "at": "2026-10-28T09:02:05.160Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:11.144Z",
+      "at": "2026-10-28T09:02:05.161Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:11.145Z",
+      "at": "2026-10-28T09:02:05.162Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/how-to-export-vat-transactions-reports.md",
-    "description": "Learn how to release, export, and submit VAT Transactions reports to the authorities.",
-    "ms_date": "2025-05-20",
+    "description": "Learn how to release and export VAT transaction reports in Business Central for Italy and record receipt details after submission to the authorities.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "release VAT transaction report",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 535,
+    "ai_usage": "ai-assisted",
+    "words": 495,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "065dc5c52f200b3a6cdf4cee0c782f2b7bf32eb553aa13cadc2e06b930ec312a"
+  "output_hash": "4cab76dc257fc05df627fc5e6a61572f0550ab61458afa484299c596b646f7e1"
 }

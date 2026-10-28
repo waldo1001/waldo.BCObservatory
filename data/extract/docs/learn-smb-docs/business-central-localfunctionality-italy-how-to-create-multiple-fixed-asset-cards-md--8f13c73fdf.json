@@ -1,34 +1,45 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-create-multiple-fixed-asset-cards.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-create-multiple-fixed-asset-cards",
-  "title": "How to Create Multiple Fixed Asset Cards [IT]",
-  "blob": "4717b223df5d72143f7195fac34eceeddc4be60c",
-  "summary": "This Italian localization feature, now delocalized to standard Business Central, enables automatic creation of multiple fixed asset cards during purchase invoice posting.",
+  "title": "Create Multiple Fixed Asset Cards in the Italian Version [IT]",
+  "blob": "549b661ad99a8a58a572041f155b1bb84d210d50",
+  "summary": "Create multiple fixed asset cards automatically during purchase invoice posting in Business Central, useful when purchasing quantities of identical assets from the same vendor.",
   "systems": [
     "fixed-assets",
     "purchasing"
   ],
   "topics": [
     "fixed assets",
-    "italy",
-    "localization",
-    "purchase invoice",
-    "automation"
+    "purchase orders",
+    "bulk creation",
+    "automation",
+    "italian localization"
   ],
   "objects": [
+    {
+      "type": "page",
+      "name": "Fixed Asset List"
+    },
     {
       "type": "page",
       "name": "Fixed Asset Card"
     },
     {
       "type": "page",
-      "name": "Fixed Asset List"
+      "name": "Purchase Orders"
+    },
+    {
+      "type": "table",
+      "name": "Fixed Asset Setup"
     }
   ],
   "features": [
     "Automatic fixed asset card creation",
-    "Bulk asset creation",
-    "Sequential numbering"
+    "Multiple asset cards from single purchase",
+    "Depreciation book copying",
+    "Default dimensions copying",
+    "Acquisition amount division",
+    "Fixed asset number configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004171,
-      "pages_in_call": 8
+      "cost_usd": 0.003586,
+      "pages_in_call": 1
     }
   ]
 }
