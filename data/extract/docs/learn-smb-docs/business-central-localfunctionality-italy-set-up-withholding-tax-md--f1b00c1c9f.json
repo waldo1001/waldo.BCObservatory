@@ -1,24 +1,26 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/set-up-withholding-tax.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/set-up-withholding-tax",
-  "title": "Set Up Withholding Tax (IT)",
-  "blob": "7997cc06dfa8f3ef9a27159a5eb6ba9f91967fc9",
-  "summary": "Set up and calculate withholding tax in Italian version for third-party services and vendor purchases, calculated during payment rather than invoice posting.",
+  "title": "Set Up Withholding Tax in the Italian Version",
+  "blob": "fcc090e9bb934d44e99d65c2130f302350dabb23",
+  "summary": "Withholding tax setup for Italian operations involves creating withholding tax codes, assigning them to vendors, calculating tax amounts on purchase invoices, and processing vendor payments with automatic tax entry generation.",
   "systems": [
-    "purchasing",
     "finance",
+    "purchasing",
     "localization"
   ],
   "topics": [
     "withholding tax",
-    "italy",
+    "italian functionality",
+    "tax codes",
     "vendor payments",
-    "tax"
+    "purchase invoices",
+    "tax calculation"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Withholding Tax Code"
+      "name": "Withholding Tax Codes"
     },
     {
       "type": "page",
@@ -30,18 +32,20 @@
     },
     {
       "type": "page",
-      "name": "Withh. Taxes-Contribution Card"
+      "name": "Payment Journals"
     },
     {
       "type": "page",
-      "name": "Payment Journals"
+      "name": "Withh. Taxes-Contribution Card"
     }
   ],
   "features": [
-    "Withholding tax codes",
-    "Vendor withholding setup",
-    "Tax calculation",
-    "Payment processing"
+    "Withholding tax code setup",
+    "Vendor withholding tax assignment",
+    "Withholding tax calculation on purchase invoices",
+    "Tax rate configuration with starting dates",
+    "Withholding tax entries on vendor payments",
+    "Residency and contribution details tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -50,8 +54,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003592,
-      "pages_in_call": 8
+      "cost_usd": 0.004235,
+      "pages_in_call": 1
     }
   ]
 }

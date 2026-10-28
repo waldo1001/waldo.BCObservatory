@@ -1,32 +1,46 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/italian-vat.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-vat",
-  "title": "Italian VAT",
-  "blob": "bf0b183ee3bb934465f324dc9340a52295254102",
-  "summary": "Italian VAT system defines VAT codes and rates, computes VAT based on transaction dates, supports non-deductible VAT, and requires submission of VAT transaction reports to authorities.",
+  "title": "Italian VAT Reporting in Business Central",
+  "blob": "fc753e1d7d9e7c11c14293bd8b70d5a3b55a0642",
+  "summary": "Italian VAT Reporting in Business Central explains how to define and manage periodic VAT reports, including VAT codes, rates, calculations, deductibility rules, and service tariffs for cross-border EU trade compliance.",
   "systems": [
     "finance",
-    "localization"
+    "localization",
+    "reporting"
   ],
   "topics": [
-    "vat",
-    "italy",
-    "tax reporting",
-    "intrastat"
+    "vat reporting",
+    "italian compliance",
+    "vat codes",
+    "vat entries",
+    "nondeductible vat",
+    "service declarations",
+    "vat transactions"
   ],
   "objects": [
     {
       "type": "page",
       "name": "VAT Report"
+    },
+    {
+      "type": "page",
+      "name": "Service Declaration"
+    },
+    {
+      "type": "page",
+      "name": "VAT Transactions Report"
     }
   ],
   "features": [
-    "VAT codes and rates",
-    "Non-deductible VAT",
-    "Service tariffs",
-    "VAT transaction reports",
-    "Reverse charges",
-    "Prepayment handling"
+    "VAT codes and rates setup",
+    "VAT calculation and posting",
+    "VAT date handling",
+    "Nondeductible VAT tracking",
+    "Service tariffs for EU cross-border trade",
+    "VAT transaction reporting with thresholds",
+    "Intrastat reporting for goods",
+    "VAT settlement processing"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +49,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003592,
-      "pages_in_call": 8
+      "cost_usd": 0.004918,
+      "pages_in_call": 1
     }
   ]
 }

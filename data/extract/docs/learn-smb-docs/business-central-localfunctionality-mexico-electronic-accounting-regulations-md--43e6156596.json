@@ -1,25 +1,29 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/electronic-accounting-regulations.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-accounting-regulations",
-  "title": "Electronic accounting regulations in Mexico",
-  "blob": "ef5cab4383726be167e29e7269a400466a614f85",
-  "summary": "Comply with Mexico's electronic accounting regulations by exporting chart of accounts, trial balance, and journal transactions as XML files to the Mexican Tax Authority (SAT) through the Export Elect. Accounting functionality.",
+  "title": "Comply with Electronic Accounting Regulations in Mexico",
+  "blob": "2f131db92831f0e18b6f22d01eb2f360db99af0b",
+  "summary": "Export Electr. Accounting helps Mexican companies prepare XML files for electronic accounting requirements by exporting chart of accounts, trial balance, journal transactions, and auxiliary accounts with proper setup of RFC numbers, SAT account codes, and bank information.",
   "systems": [
-    "localization",
     "finance",
-    "administration"
+    "localization"
   ],
   "topics": [
-    "mexico",
     "electronic accounting",
-    "tax compliance",
+    "mexico",
     "xml export",
-    "regulatory"
+    "regulatory compliance",
+    "sat requirements",
+    "tax reporting"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Export Elect. Accounting"
+      "name": "Export Electr. Accounting"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
     },
     {
       "type": "page",
@@ -35,23 +39,26 @@
     },
     {
       "type": "page",
-      "name": "Customer"
+      "name": "Customer Card"
     },
     {
       "type": "page",
-      "name": "Vendor"
+      "name": "Vendor Card"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "Payment Method"
     }
   ],
   "features": [
-    "SAT account code",
-    "trial balance export",
-    "journal transaction export",
-    "bank account setup",
-    "payment method coding"
+    "Export Electr. Accounting",
+    "Chart of Accounts export",
+    "Trial Balance export",
+    "Journal Transactions export",
+    "Auxiliary Accounts export",
+    "SAT Account Code",
+    "RFC Number",
+    "Bank Code mapping"
   ],
   "versions": [],
   "parts": 1,
@@ -60,8 +67,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002475,
-      "pages_in_call": 8
+      "cost_usd": 0.004327,
+      "pages_in_call": 1
     }
   ]
 }

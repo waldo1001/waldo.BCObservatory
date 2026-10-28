@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Italy local functionality",
+  "title": "Italy Local Functionality in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italy-local-functionality",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.726Z",
-      "blob": "6b3036e908604269679e8374ebd6485dc1847392",
-      "words": 295,
+      "at": "2026-10-28T09:03:20.166Z",
+      "blob": "b88ece26375e695dc30f4c366dc989f325d56ebb",
+      "words": 300,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T16:15:27.486Z",
+      "at": "2026-10-28T09:03:31.733Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.006152
+      "cost_usd": 0.004383
     },
     "summarized": {
-      "at": "2026-10-06T16:15:27.498Z",
+      "at": "2026-10-28T09:03:31.735Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T16:15:27.499Z",
+      "at": "2026-10-28T09:03:31.736Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T16:15:27.499Z",
+      "at": "2026-10-28T09:03:31.738Z",
       "page": false
     }
   },
@@ -44,21 +44,21 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/italy-local-functionality.md",
-    "description": "The following outlined articles describe the local functionality in the Italian version of Business Central.",
-    "ms_date": "2025-12-30",
-    "ms_topic": "article",
+    "description": "Explore Italian functionality in Business Central for VAT, withholding tax, bank payments, fiscal inventory valuation, fixed assets, and subcontracting.",
+    "ms_date": "2026-10-20",
+    "ms_topic": "overview",
     "search_form": [],
     "keywords": [
       "Italian local functionality",
       "Italian version",
       "Italian localization"
     ],
-    "ai_usage": null,
-    "words": 295,
+    "ai_usage": "ai-assisted",
+    "words": 300,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "739d0abe3b4530b7d251afc0946e02a5c23f98187b5cdf0a343768ad2a233be2"
+  "output_hash": "e7cb8e6cd8082c030894d0db869d50560fc309684083b137bd93cd9e3d8677f4"
 }

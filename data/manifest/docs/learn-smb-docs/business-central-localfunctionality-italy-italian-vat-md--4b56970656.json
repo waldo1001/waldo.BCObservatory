@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Italian VAT",
+  "title": "Italian VAT Reporting in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-vat",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.951Z",
-      "blob": "bf0b183ee3bb934465f324dc9340a52295254102",
-      "words": 1295,
+      "at": "2026-10-28T09:03:18.712Z",
+      "blob": "fc753e1d7d9e7c11c14293bd8b70d5a3b55a0642",
+      "words": 796,
       "forms": 18
     },
     "extracted": {
-      "at": "2026-10-06T19:24:35.519Z",
+      "at": "2026-10-28T09:03:30.691Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003592
+      "objects": 3,
+      "cost_usd": 0.004918
     },
     "summarized": {
-      "at": "2026-10-06T19:24:35.542Z",
+      "at": "2026-10-28T09:03:30.692Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:35.543Z",
+      "at": "2026-10-28T09:03:30.694Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:35.551Z",
+      "at": "2026-10-28T09:03:30.695Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/italian-vat.md",
     "description": "In the Italian version, companies can deduct VAT on goods or services purchased if they're used to generate business income.",
-    "ms_date": "2025-05-22",
-    "ms_topic": "article",
+    "ms_date": "2026-10-21",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "12100",
@@ -149,12 +149,12 @@
       "VAT transaction reports",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 1295,
+    "ai_usage": "ai-assisted",
+    "words": 796,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "94d73c21c9ab485c0b90b3aec8679a32efd8735e4498ea260fe91226e8ce2acb"
+  "output_hash": "1681776e8a4e3abc287f40ac0cef8a542e06816ab58af1dda14385b07e25a3c9"
 }

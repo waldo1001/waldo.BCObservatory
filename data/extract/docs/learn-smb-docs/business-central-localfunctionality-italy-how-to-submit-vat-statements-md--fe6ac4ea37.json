@@ -1,17 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/how-to-submit-vat-statements.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-submit-vat-statements",
-  "title": "How to Submit VAT Statements [IT]",
-  "blob": "63e974ebb5330a694fc709bf9942dbe7ebb49c3f",
-  "summary": "Submit VAT statements to Italian tax authorities by reviewing VAT entries, settling and posting VAT transactions using the Calc. and Post VAT Settlement process, then exporting the statement as PDF.",
+  "title": "Submit VAT Statements in the Italian Version [IT]",
+  "blob": "cc72dc885ffd2a224f42ea0bbee07b1d6c01c281",
+  "summary": "Submit VAT statements in the Italian version by reviewing VAT amounts, settling transactions, and exporting to PDF or XML formats for tax authority reporting.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "vat reporting",
-    "tax submission",
-    "vat settlement"
+    "vat statements",
+    "italy",
+    "tax reporting",
+    "vat settlement",
+    "periodic payment"
   ],
   "objects": [
     {
@@ -20,13 +22,20 @@
     },
     {
       "type": "report",
-      "name": "Calc. and Post VAT Settlement"
+      "name": "Calculate and Post VAT Settlement"
+    },
+    {
+      "type": "report",
+      "name": "Periodic VAT Payment Communication"
     }
   ],
   "features": [
-    "VAT statement review",
-    "VAT settlement posting",
-    "PDF export for tax authorities"
+    "Review VAT entries",
+    "Print VAT statements",
+    "Calculate and post VAT settlement",
+    "Export to PDF",
+    "Generate XML file for periodic VAT payment",
+    "Threshold-based VAT transactions reporting"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002351,
-      "pages_in_call": 8
+      "cost_usd": 0.003704,
+      "pages_in_call": 1
     }
   ]
 }

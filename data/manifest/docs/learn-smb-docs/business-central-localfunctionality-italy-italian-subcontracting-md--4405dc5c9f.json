@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Italian Subcontracting",
+  "title": "Italian Subcontracting and Migration",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-subcontracting",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:20.131Z",
-      "blob": "352f496754eb85db1edb9f96e95127ccb8686e52",
-      "words": 432,
+      "at": "2026-10-28T09:03:18.768Z",
+      "blob": "4b0f6ee1cd9c74e5be8bb2b4d063f99f370680a9",
+      "words": 603,
       "forms": 7
     },
     "extracted": {
-      "at": "2026-10-06T14:21:56.240Z",
+      "at": "2026-10-28T09:03:30.705Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.004317
+      "objects": 1,
+      "cost_usd": 0.004216
     },
     "summarized": {
-      "at": "2026-10-06T14:21:56.244Z",
+      "at": "2026-10-28T09:03:30.706Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:21:56.244Z",
+      "at": "2026-10-28T09:03:30.707Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:21:56.244Z",
+      "at": "2026-10-28T09:03:30.709Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/italian-subcontracting.md",
-    "description": "Master Production Scheduling (MPS) and Material Requirements Planning (MRP) enable contractors to efficiently manage outsourced and subcontracted components.",
-    "ms_date": "2026-09-01",
-    "ms_topic": "article",
+    "description": "Learn about legacy Italian subcontracting in Business Central, check migration prerequisites, and move applicable data to the Subcontracting app.",
+    "ms_date": "2026-10-21",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "12152",
@@ -92,12 +92,12 @@
       "subcontracting",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 432,
+    "ai_usage": "ai-assisted",
+    "words": 603,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eaa639abc041fe280d67d87d628b0fc0af8c9ebe2b6bfd3de366fb7b94e94084"
+  "output_hash": "52b3f598c46e0db6d666fb6b6d32b5f91471b7f6511970ea5bb07af1982747d4"
 }

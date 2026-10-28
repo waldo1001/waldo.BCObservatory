@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Italian fixed assets",
+  "title": "Italian Fixed Assets in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-fixed-assets",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.946Z",
-      "blob": "ce70c139f3f0fe9fc82cd6417e83f4c1e9b2655d",
-      "words": 278,
+      "at": "2026-10-28T09:03:16.334Z",
+      "blob": "8a8e431bab9929e6261cabbb0c48cd775078629c",
+      "words": 234,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:35.518Z",
+      "at": "2026-10-28T09:03:29.441Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003592
+      "objects": 1,
+      "cost_usd": 0.003521
     },
     "summarized": {
-      "at": "2026-10-06T19:24:35.533Z",
+      "at": "2026-10-28T09:03:29.443Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:35.536Z",
+      "at": "2026-10-28T09:03:29.444Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:35.538Z",
+      "at": "2026-10-28T09:03:29.445Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/italian-fixed-assets.md",
     "description": "Learn about the features available for managing fixed assets in Italy, including depreciation methods and automated processes in Business Central.",
-    "ms_date": "2025-05-22",
-    "ms_topic": "article",
+    "ms_date": "2026-10-21",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "Italian fixed assets",
@@ -57,12 +57,12 @@
       "automatic fixed asset creation",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 278,
+    "ai_usage": "ai-assisted",
+    "words": 234,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "18cffc66cdeb8782b103f1553ed84b2ff275a2abfa5182e12f957917b7d01411"
+  "output_hash": "24cfbc2ab010c60201c908b091e10be87f0c8aee813cd217ff96c088e49d5ab4"
 }

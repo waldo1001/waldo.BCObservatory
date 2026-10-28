@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Electronic invoicing - Mexico",
+  "title": "Electronic Invoicing in the Mexican Version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-invoicing",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.489Z",
-      "blob": "9066b1ea6e4b001dc3dfe001c4d6ff7ffec0f032",
-      "words": 1361,
+      "at": "2026-10-28T09:03:37.205Z",
+      "blob": "a990470cc683718b830f124b0b1e210de2e7dac3",
+      "words": 1384,
       "forms": 20
     },
     "extracted": {
-      "at": "2026-10-06T19:29:37.901Z",
+      "at": "2026-10-28T09:03:44.215Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.002475
+      "objects": 1,
+      "cost_usd": 0.005408
     },
     "summarized": {
-      "at": "2026-10-06T19:29:37.922Z",
+      "at": "2026-10-28T09:03:44.216Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:37.923Z",
+      "at": "2026-10-28T09:03:44.218Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:37.924Z",
+      "at": "2026-10-28T09:03:44.219Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Mexico/electronic-invoicing.md",
-    "description": "Learn how Business Central supports CFDI so that you can export sales and service invoices and credit memos as electronic documents with the required digital signature.",
-    "ms_date": "2025-05-01",
-    "ms_topic": "article",
+    "description": "Learn how to set up, stamp, send, and cancel CFDI electronic invoices and customer payment receipts in the Mexican version of Business Central.",
+    "ms_date": "2026-10-20",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "10458",
@@ -158,12 +158,12 @@
       "electronic documents",
       "digital signature"
     ],
-    "ai_usage": null,
-    "words": 1361,
+    "ai_usage": "ai-assisted",
+    "words": 1384,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7542944c2c1360855766400029f78216d6db848d94c1522cc8db8d0524dde179"
+  "output_hash": "fda5282c4e5fe7990195aaefc25c070432ce633bd9070411c5249c465c99436f"
 }

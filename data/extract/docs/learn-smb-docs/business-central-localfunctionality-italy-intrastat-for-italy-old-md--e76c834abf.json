@@ -1,18 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/intrastat-for-italy-old.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/intrastat-for-italy-old",
-  "title": "Print Intrastat Reports for Italy - Deprecated feature",
-  "blob": "d51089dfe51966982b11d6dad26b3dbb11ef16b8",
-  "summary": "Print monthly and quarterly Intrastat reports for Italy to submit to authorities on diskette using batch jobs and included reports.",
+  "title": "Print Intrastat Reports for Italy - Deprecated Feature",
+  "blob": "b15fcc7625761d61f48b5aba57847be80f2dbab4",
+  "summary": "Print and submit monthly and quarterly Intrastat reports for Italy using batch jobs and diskette submission. This is a deprecated feature for reporting goods receipt and delivery information to authorities.",
   "systems": [
+    "finance",
     "localization"
   ],
   "topics": [
     "intrastat",
-    "italy",
     "reporting",
-    "tax",
-    "deprecated"
+    "italy",
+    "tax compliance",
+    "deprecated",
+    "goods movement"
   ],
   "objects": [
     {
@@ -24,15 +26,25 @@
       "name": "Intrastat - Form"
     },
     {
-      "type": "page",
-      "name": "Intrastat Journals"
+      "type": "report",
+      "name": "Intrastat - Monthly"
+    },
+    {
+      "type": "report",
+      "name": "Intrastat - Quarterly"
+    },
+    {
+      "type": "codeunit",
+      "name": "Intrastat Make Disk Tax Auth"
     }
   ],
   "features": [
-    "Intrastat reporting",
-    "Monthly reports",
-    "Quarterly reports",
-    "Make Diskette action"
+    "Monthly Intrastat reports",
+    "Quarterly Intrastat reports",
+    "Intrastat checklist reports",
+    "Intrastat form reports",
+    "Diskette submission",
+    "Journal batch filtering"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +53,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003592,
-      "pages_in_call": 8
+      "cost_usd": 0.003864,
+      "pages_in_call": 1
     }
   ]
 }

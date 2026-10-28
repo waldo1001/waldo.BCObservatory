@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Vendor Payments Customer Bills Overview [IT]",
+  "title": "Vendor Payments and Customer Bills in Italy",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.964Z",
-      "blob": "820581e0b7f6f068d28406b3946a9cb5476046e8",
-      "words": 233,
-      "forms": 7
+      "at": "2026-10-28T09:03:33.020Z",
+      "blob": "5cad9aa1173836d51ad7c48ecc4725fb73e9c2ed",
+      "words": 196,
+      "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:24:35.522Z",
+      "at": "2026-10-28T09:03:38.648Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003592
+      "objects": 0,
+      "cost_usd": 0.003232
     },
     "summarized": {
-      "at": "2026-10-06T19:24:35.588Z",
+      "at": "2026-10-28T09:03:38.650Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:35.590Z",
+      "at": "2026-10-28T09:03:38.651Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:35.591Z",
+      "at": "2026-10-28T09:03:44.191Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview.md",
-    "description": "Manage automatic customer bills and vendor payments in the Italian version of Business Central.",
-    "ms_date": "2025-05-23",
+    "description": "Learn how customer bills and vendor payment lists work in Business Central for Italy, including bank account setup, export formats, and file submission.",
+    "ms_date": "2026-10-21",
     "ms_topic": "overview",
     "search_form": [
       {
@@ -77,11 +77,6 @@
         "raw": "12195",
         "id": 12195,
         "kind": null
-      },
-      {
-        "raw": "12195",
-        "id": 12195,
-        "kind": null
       }
     ],
     "keywords": [
@@ -93,12 +88,12 @@
       "vendor bills",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 233,
+    "ai_usage": "ai-assisted",
+    "words": 196,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f719b94695afe7344bda304aa882b0c90f08b897bbd4b0029756afd85cefaea5"
+  "output_hash": "512999a8d1b5f65afaa729085568cb85a8538708521506e084570d8ef102cff7"
 }

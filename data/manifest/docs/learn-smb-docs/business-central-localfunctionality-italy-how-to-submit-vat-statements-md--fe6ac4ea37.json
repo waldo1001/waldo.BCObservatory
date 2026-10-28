@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-submit-vat-statements",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:24:27.870Z",
+      "at": "2026-10-28T09:03:09.906Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002351
+      "objects": 3,
+      "cost_usd": 0.003704
     },
     "summarized": {
-      "at": "2026-10-06T19:24:35.496Z",
+      "at": "2026-10-28T09:03:09.908Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:35.497Z",
+      "at": "2026-10-28T09:03:09.909Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:35.498Z",
+      "at": "2026-10-28T09:03:09.910Z",
       "page": false
     }
   },
@@ -76,5 +76,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cc72dc885ffd2a224f42ea0bbee07b1d6c01c281"
+  "output_hash": "fd4ae93ab77bbfa191355a3dd7760c1ef621476515f0961d6b8b4795602628fa"
 }

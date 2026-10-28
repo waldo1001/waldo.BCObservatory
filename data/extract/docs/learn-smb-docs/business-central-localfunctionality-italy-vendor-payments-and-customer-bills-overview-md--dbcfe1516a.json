@@ -1,32 +1,33 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview",
-  "title": "Vendor Payments Customer Bills Overview [IT]",
-  "blob": "820581e0b7f6f068d28406b3946a9cb5476046e8",
-  "summary": "Manage automatic bills to customers and from vendors in Italian version, supporting multiple payment formats including SEPA Credit Transfer, SEPA Direct Debit, and Italian bill formats.",
+  "title": "Vendor Payments and Customer Bills in Italy",
+  "blob": "5cad9aa1173836d51ad7c48ecc4725fb73e9c2ed",
+  "summary": "Vendor payments and customer bills in the Italian version of Business Central enable automatic bill management with support for SEPA and Italian payment formats. Set up payment methods, export formats, and bill posting groups to generate and process vendor and customer bill lists.",
   "systems": [
-    "sales",
+    "finance",
     "purchasing",
-    "localization"
+    "sales"
   ],
   "topics": [
     "vendor payments",
     "customer bills",
     "italy",
-    "payment formats"
+    "sepa credit transfer",
+    "sepa direct debit",
+    "automatic payments",
+    "bill posting groups"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Company Information"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Automatic vendor bills",
-    "Automatic customer bills",
+    "automatic bills to customers",
+    "automatic bills from vendors",
     "SEPA Credit Transfer",
     "SEPA Direct Debit",
-    "Bill posting groups"
+    "Italian bill formats",
+    "bill posting groups",
+    "vendor bill lists",
+    "customer bill lists"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003592,
-      "pages_in_call": 8
+      "cost_usd": 0.003232,
+      "pages_in_call": 1
     }
   ]
 }

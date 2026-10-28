@@ -1,47 +1,38 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/electronic-invoicing.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-invoicing",
-  "title": "Electronic invoicing - Mexico",
-  "blob": "9066b1ea6e4b001dc3dfe001c4d6ff7ffec0f032",
-  "summary": "Generate and send electronic invoices as CFDI XML files in Mexico by setting up SAT certificates, PAC web services, and company information to comply with Mexican tax authority requirements.",
+  "title": "Electronic Invoicing in the Mexican Version",
+  "blob": "a990470cc683718b830f124b0b1e210de2e7dac3",
+  "summary": "Electronic invoicing in Mexico requires exporting sales and service invoices as CFDI XML files with digital signatures. The page covers setup, sending documents to authorized PAC service providers, cancellation procedures, and communication with tax authorities.",
   "systems": [
-    "localization",
+    "finance",
     "sales",
-    "integration"
+    "localization"
   ],
   "topics": [
-    "mexico",
     "electronic invoicing",
+    "mexico",
     "cfdi",
+    "pac",
+    "digital signature",
     "tax compliance",
-    "pac"
+    "xml documents"
   ],
   "objects": [
     {
-      "type": "page",
-      "name": "General Ledger Setup"
-    },
-    {
-      "type": "page",
-      "name": "Location Card"
-    },
-    {
-      "type": "page",
-      "name": "Company Information"
-    },
-    {
-      "type": "page",
-      "name": "Customer Card"
+      "type": "codeunit",
+      "name": "10151 E-Invoice Cancel Request Batch"
     }
   ],
   "features": [
-    "CFDI electronic invoicing",
-    "SAT certificate",
-    "multiple SAT certificates",
-    "PAC web services",
-    "digital signature",
-    "QR code",
-    "document cancellation"
+    "CFDI 4.0 document generation",
+    "Multiple SAT Certificates",
+    "Digital stamp from PAC",
+    "Electronic document cancellation",
+    "QR code generation",
+    "Email transmission",
+    "Payment receipts (Pagos 2.0)",
+    "Carta de Porte documents"
   ],
   "versions": [],
   "parts": 1,
@@ -50,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002475,
-      "pages_in_call": 8
+      "cost_usd": 0.005408,
+      "pages_in_call": 1
     }
   ]
 }

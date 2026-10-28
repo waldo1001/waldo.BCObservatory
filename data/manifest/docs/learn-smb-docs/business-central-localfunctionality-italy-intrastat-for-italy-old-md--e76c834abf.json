@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/intrastat-for-italy-old",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:24:35.516Z",
+      "at": "2026-10-28T09:03:14.100Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.003592
+      "objects": 5,
+      "cost_usd": 0.003864
     },
     "summarized": {
-      "at": "2026-10-06T19:24:35.526Z",
+      "at": "2026-10-28T09:03:14.102Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:35.530Z",
+      "at": "2026-10-28T09:03:14.103Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:35.532Z",
+      "at": "2026-10-28T09:03:14.105Z",
       "page": false
     }
   },
@@ -70,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b15fcc7625761d61f48b5aba57847be80f2dbab4"
+  "output_hash": "b0ffb443e10712669e56a6322504d7248a2b46f3bdd5f719cb7ce9127d796541"
 }

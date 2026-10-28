@@ -1,29 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/reversing-journal-entries.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/reversing-journal-entries",
-  "title": "Reversing Journal Entries [IT]",
-  "blob": "4acb231b6204e133bff6dd6f8a9765696f985470",
-  "summary": "Italian Reverse Transaction Entries page prevents reversal of invoices, credit notes, and VAT-related documents; prevents deletion of posted documents and reversals of reserved documents.",
+  "title": "Reversing Journal Entries in the Italian Version [IT]",
+  "blob": "e0519e00ec6f25f3e6db385335e5f475f6d73113",
+  "summary": "Reversing journal entries in the Italian version has additional checks: you cannot reverse invoices or credit memos, transactions with final G/L book progressive numbers, or closed/already-reversed VAT entries. Use document correction or credit memo workflows for sales and purchase documents.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "italy",
     "journal entries",
+    "reversing",
+    "italian",
     "vat",
-    "posting controls"
+    "document types",
+    "constraints"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Reverse Transaction Entries"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Reverse transaction restrictions",
-    "VAT document protection",
-    "Posted document protection"
+    "Reverse Transaction",
+    "Document Type checks",
+    "VAT entry validation",
+    "progressive number checks"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003592,
-      "pages_in_call": 8
+      "cost_usd": 0.002837,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,25 +1,36 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/italian-fixed-assets.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-fixed-assets",
-  "title": "Italian fixed assets",
-  "blob": "ce70c139f3f0fe9fc82cd6417e83f4c1e9b2655d",
-  "summary": "Italian fixed assets functionality includes anticipated, accelerated, and reduced depreciation methods; automatic creation of multiple asset cards from invoices; and depreciation book reporting.",
+  "title": "Italian Fixed Assets in Business Central",
+  "blob": "8a8e431bab9929e6261cabbb0c48cd775078629c",
+  "summary": "Italian fixed assets functionality adds multiple depreciation methods (anticipated, accelerated, reduced), automatic creation of asset cards from invoices, and specialized reporting for fixed asset depreciation.",
   "systems": [
     "fixed-assets",
-    "localization"
+    "localization",
+    "finance"
   ],
   "topics": [
     "fixed assets",
+    "depreciation methods",
+    "asset cards",
     "italy",
-    "depreciation",
-    "asset management"
+    "tangible assets",
+    "intangible assets"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Depreciation Book"
+    }
+  ],
   "features": [
     "Anticipated depreciation",
     "Accelerated depreciation",
     "Reduced depreciation",
-    "Depreciation Book report"
+    "Automatic creation of multiple fixed asset cards from invoices",
+    "Depreciation Book report",
+    "Alternate depreciation methods",
+    "Compressed depreciation"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003592,
-      "pages_in_call": 8
+      "cost_usd": 0.003521,
+      "pages_in_call": 1
     }
   ]
 }

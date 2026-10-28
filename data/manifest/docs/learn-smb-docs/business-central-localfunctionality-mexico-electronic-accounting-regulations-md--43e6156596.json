@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Electronic accounting regulations in Mexico",
+  "title": "Comply with Electronic Accounting Regulations in Mexico",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/electronic-accounting-regulations",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.483Z",
-      "blob": "ef5cab4383726be167e29e7269a400466a614f85",
-      "words": 503,
+      "at": "2026-10-28T09:03:33.627Z",
+      "blob": "2f131db92831f0e18b6f22d01eb2f360db99af0b",
+      "words": 595,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:37.900Z",
+      "at": "2026-10-28T09:03:44.201Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 7,
-      "cost_usd": 0.002475
+      "objects": 8,
+      "cost_usd": 0.004327
     },
     "summarized": {
-      "at": "2026-10-06T19:29:37.918Z",
+      "at": "2026-10-28T09:03:44.203Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:37.919Z",
+      "at": "2026-10-28T09:03:44.204Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:37.920Z",
+      "at": "2026-10-28T09:03:44.206Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Mexico/electronic-accounting-regulations.md",
     "description": "This article explains how Business Central can assist with compliance regarding electronic accounting requirements in Mexico.",
-    "ms_date": "2025-02-25",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "electronic accounting requirements",
       "electronic accounting"
     ],
-    "ai_usage": null,
-    "words": 503,
+    "ai_usage": "ai-assisted",
+    "words": 595,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3963cef5246a17cb9551791ae8d073e0f3cdcd38ea974876905da6aee7f6901f"
+  "output_hash": "d683e591948f310dc0e4d687acc046e58c6f89564338c22f8affac0fcb4af8ef"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-payment-terms",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T19:24:27.868Z",
+      "at": "2026-10-28T09:03:12.326Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002351
+      "cost_usd": 0.003476
     },
     "summarized": {
-      "at": "2026-10-06T19:24:35.493Z",
+      "at": "2026-10-28T09:03:12.328Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:35.494Z",
+      "at": "2026-10-28T09:03:12.329Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:35.495Z",
+      "at": "2026-10-28T09:03:12.330Z",
       "page": false
     }
   },
@@ -87,5 +87,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "58c0867c7b19d013614dee6f69bba6d199a01d25"
+  "output_hash": "0e0905b7567acefcdf44cfed4578d736f96ac26e335e3a20154bdb9c666e396e"
 }

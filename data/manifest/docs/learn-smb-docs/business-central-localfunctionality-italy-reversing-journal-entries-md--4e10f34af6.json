@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Reversing Journal Entries [IT]",
+  "title": "Reversing Journal Entries in the Italian Version [IT]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/reversing-journal-entries",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.955Z",
-      "blob": "4acb231b6204e133bff6dd6f8a9765696f985470",
-      "words": 97,
+      "at": "2026-10-28T09:03:32.266Z",
+      "blob": "e0519e00ec6f25f3e6db385335e5f475f6d73113",
+      "words": 111,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:35.520Z",
+      "at": "2026-10-28T09:03:38.493Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003592
+      "objects": 0,
+      "cost_usd": 0.002837
     },
     "summarized": {
-      "at": "2026-10-06T19:24:35.558Z",
+      "at": "2026-10-28T09:03:38.495Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:35.560Z",
+      "at": "2026-10-28T09:03:38.497Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:35.573Z",
+      "at": "2026-10-28T09:03:38.498Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Italy/reversing-journal-entries.md",
     "description": "Reversing Journal Entries feature introduces controls on the Reverse Transaction Entries page to ensure compliance with Italian legal requirements.",
-    "ms_date": "2025-05-23",
+    "ms_date": "2026-10-20",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "reversing journal entries",
       "Italian version"
     ],
-    "ai_usage": null,
-    "words": 97,
+    "ai_usage": "ai-assisted",
+    "words": 111,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "57d8f2c438422b569e7affddcab8ed9388df3b6bfd98f00021106c1cc4431fe0"
+  "output_hash": "04c8b55465c14ce61069018d6171ceb7d0ea5bcb1ada86c4b7d04cdba05dfd75"
 }

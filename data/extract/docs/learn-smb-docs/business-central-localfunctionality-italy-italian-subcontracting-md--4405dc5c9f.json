@@ -1,33 +1,39 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/italian-subcontracting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/italian-subcontracting",
-  "title": "Italian Subcontracting",
-  "blob": "352f496754eb85db1edb9f96e95127ccb8686e52",
-  "summary": "Italian subcontracting functionality for outsourcing component production through linked BOM and subcontractor operations. Deprecated and replaced by the Subcontracting app; migration available for sandbox environments.",
+  "title": "Italian Subcontracting and Migration",
+  "blob": "4b0f6ee1cd9c74e5be8bb2b4d063f99f370680a9",
+  "summary": "Italian subcontracting is deprecated and hidden by default in version 28.3, with migration to a new Subcontracting app available via the IT Subcontracting Migration app for sandbox environments.",
   "systems": [
     "manufacturing",
-    "purchasing",
-    "localization"
+    "localization",
+    "purchasing"
   ],
   "topics": [
     "subcontracting",
-    "italy",
-    "deprecated",
-    "manufacturing",
+    "italian functionality",
+    "legacy migration",
     "work in progress",
-    "migration"
+    "production bom"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Manufacturing Setup"
+    }
+  ],
   "features": [
+    "Legacy Subcontracting activation",
+    "Subcontracting app",
+    "IT Subcontracting Migration app",
     "Work in Progress (WIP)",
-    "Subcontractor price list",
-    "BOM linking",
-    "Legacy subcontracting",
-    "IT Subcontracting Migration app"
+    "Subcontracting price list",
+    "Production BOM integration",
+    "Master Production Scheduling (MPS)",
+    "Material Requirements Planning (MRP)"
   ],
   "versions": [
-    "version 28.3",
-    "version 27.0"
+    "28.3"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -35,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004317,
-      "pages_in_call": 8
+      "cost_usd": 0.004216,
+      "pages_in_call": 1
     }
   ]
 }
