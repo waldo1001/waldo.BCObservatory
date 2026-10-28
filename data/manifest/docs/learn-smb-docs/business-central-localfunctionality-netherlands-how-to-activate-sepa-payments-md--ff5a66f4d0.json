@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Activate SEPA payments in the Dutch version",
+  "title": "Activate SEPA Payments in the Dutch Version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-activate-sepa-payments",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.543Z",
-      "blob": "10cd1fa7284cfdf0c5b98b702666ab3503eaa13f",
-      "words": 230,
+      "at": "2026-10-28T09:04:01.169Z",
+      "blob": "a56dfa09628f724ec5bd690db22316a1b2f2e5c1",
+      "words": 342,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:10.398Z",
+      "at": "2026-10-28T09:04:08.927Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002269
+      "objects": 8,
+      "cost_usd": 0.004835
     },
     "summarized": {
-      "at": "2026-10-06T19:30:10.439Z",
+      "at": "2026-10-28T09:04:08.929Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:10.440Z",
+      "at": "2026-10-28T09:04:08.931Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:10.448Z",
+      "at": "2026-10-28T09:04:08.932Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md",
     "description": "To submit vendor payments electronically in Single Euro Payments Area (SEPA) ISO 20022 payment format, you must set up prerequisites for enabling SEPA payments.",
-    "ms_date": "2025-03-17",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "Dutch version",
       "Netherlands"
     ],
-    "ai_usage": null,
-    "words": 230,
+    "ai_usage": "ai-assisted",
+    "words": 342,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "41139fd065d3191e91e9720a1acdce240a94aedc3ab1d0858dc3cd9f17d83d2e"
+  "output_hash": "e870f9961d2c4c6d284e9d85137a60b526e6f753a22931744898e0e55e2ff27f"
 }

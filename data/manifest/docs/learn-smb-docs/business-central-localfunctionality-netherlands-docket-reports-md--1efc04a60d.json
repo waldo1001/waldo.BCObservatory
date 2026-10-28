@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Docket Reports [NL]",
+  "title": "Docket Reports for Dutch Telebanking",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/docket-reports",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.529Z",
-      "blob": "3e3dc20707e7b5c7671c08f02b49dfd794afa769",
+      "at": "2026-10-28T09:04:01.105Z",
+      "blob": "2341095d05cd2feacb199272a20c10c0ff3564b6",
       "words": 168,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:08.577Z",
+      "at": "2026-10-28T09:04:07.431Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003567
+      "cost_usd": 0.00283
     },
     "summarized": {
-      "at": "2026-10-06T19:30:10.378Z",
+      "at": "2026-10-28T09:04:07.432Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:10.379Z",
+      "at": "2026-10-28T09:04:07.434Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:10.380Z",
+      "at": "2026-10-28T09:04:07.434Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/docket-reports.md",
     "description": "The Dutch telebanking app lets you combine ledger entries for a customer or vendor into a single payment or collection order to the bank.",
-    "ms_date": "2025-03-14",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "Dutch version",
       "Netherlands"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 168,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c88c61e257486fd2192120dd0eb6acc150e54db355647eb9ca62f36de7e85d3b"
+  "output_hash": "bddebc1aed5afe642eb27609d2aa18c7fd78742f6c4a62d597974559737098ac"
 }

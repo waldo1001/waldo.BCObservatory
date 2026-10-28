@@ -1,20 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-create-proposals.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-proposals",
-  "title": "How to Create Proposals",
-  "blob": "ec99775bfc43ebd3a3f9419f57d863c668190b2d",
-  "summary": "Create Proposals in the Netherlands localization describes how to generate payment and collection proposals manually or automatically from vendor and customer ledger entries.",
+  "title": "Create Dutch Telebanking Payment Proposals",
+  "blob": "615dd62b630f806f9d0209da3f100aeacbbedb46",
+  "summary": "Create Dutch Telebanking payment proposals manually or automatically from vendor and customer ledger entries. Payment proposals are generated using the Telebank Bank Overview and Get Entries functionality for processing payments to vendors and customers.",
   "systems": [
-    "purchasing",
-    "sales",
-    "finance"
+    "finance",
+    "integration",
+    "localization"
   ],
   "topics": [
-    "proposals",
+    "telebanking",
+    "payment proposals",
     "netherlands",
-    "payments",
-    "collections",
-    "telebanking"
+    "vendor payments",
+    "customer payments",
+    "bank accounts"
   ],
   "objects": [
     {
@@ -32,15 +33,21 @@
     {
       "type": "page",
       "name": "Proposal Detail Line"
+    },
+    {
+      "type": "report",
+      "name": "Get Proposal Entries"
     }
   ],
   "features": [
-    "manual proposals",
-    "automatic proposals",
-    "customer proposals",
-    "vendor proposals",
-    "proposal detail lines",
-    "get entries batch job"
+    "manual proposal creation",
+    "automatic proposal generation from sales",
+    "automatic proposal generation from purchases",
+    "account holder details validation",
+    "transaction mode configuration",
+    "bank account linking",
+    "currency code setup",
+    "payment discount date filtering"
   ],
   "versions": [],
   "parts": 1,
@@ -49,8 +56,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003005,
-      "pages_in_call": 8
+      "cost_usd": 0.004137,
+      "pages_in_call": 1
     }
   ]
 }

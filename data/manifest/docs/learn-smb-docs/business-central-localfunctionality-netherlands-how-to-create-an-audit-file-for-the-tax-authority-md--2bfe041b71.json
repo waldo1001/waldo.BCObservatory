@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Create an Audit File for Tax Authority [NL]",
+  "title": "Create an Audit File for the Dutch Tax Authority",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.552Z",
-      "blob": "96ce223429adbf0b93fb3e3dd836d41f58c519dc",
-      "words": 295,
+      "at": "2026-10-28T09:04:07.033Z",
+      "blob": "165346dfc44a7411c6e608e37755ef884ea6a443",
+      "words": 287,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:10.401Z",
+      "at": "2026-10-28T09:04:15.599Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002269
+      "cost_usd": 0.003284
     },
     "summarized": {
-      "at": "2026-10-06T19:30:10.464Z",
+      "at": "2026-10-28T09:04:15.600Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:10.465Z",
+      "at": "2026-10-28T09:04:15.601Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:10.466Z",
+      "at": "2026-10-28T09:04:15.603Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md",
-    "description": "Learn how to create an audit file for the tax authority with the Dutch version of Business Central.",
-    "ms_date": "2025-03-17",
+    "description": "Create a Dutch tax authority audit file from general ledger transactions in Business Central, and choose the reporting dates and opening balance options.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "create audit file",
       "basis transactions"
     ],
-    "ai_usage": null,
-    "words": 295,
+    "ai_usage": "ai-assisted",
+    "words": 287,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ad3a996e4a4faea8d7129af15063c710cd7794aa21d44939897813dd4fa2470b"
+  "output_hash": "7e33b736605d52d3f8d34f4b5645c8b3405a30a0bba693dfb1a66ea41804942f"
 }

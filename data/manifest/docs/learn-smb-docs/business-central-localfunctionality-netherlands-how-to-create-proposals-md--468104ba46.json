@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Create Proposals",
+  "title": "Create Dutch Telebanking Payment Proposals",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-proposals",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.561Z",
-      "blob": "ec99775bfc43ebd3a3f9419f57d863c668190b2d",
-      "words": 556,
+      "at": "2026-10-28T09:04:08.602Z",
+      "blob": "615dd62b630f806f9d0209da3f100aeacbbedb46",
+      "words": 577,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T23:41:13.949Z",
+      "at": "2026-10-28T09:04:15.640Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.003005
+      "objects": 5,
+      "cost_usd": 0.004137
     },
     "summarized": {
-      "at": "2026-10-06T23:41:14.022Z",
+      "at": "2026-10-28T09:04:15.642Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T23:41:14.024Z",
+      "at": "2026-10-28T09:04:15.651Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T23:41:14.026Z",
+      "at": "2026-10-28T09:04:15.660Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/how-to-create-proposals.md",
-    "description": "Generate proposals manually or automatically based on either vendor or customer ledger entries.",
-    "ms_date": "2025-03-17",
+    "description": "Create Dutch telebanking payment proposals manually or from posted customer and vendor ledger entries, then review the payment details before processing.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "Dutch version",
       "Netherlands"
     ],
-    "ai_usage": null,
-    "words": 556,
+    "ai_usage": "ai-assisted",
+    "words": 577,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e7f98ebc8f58a12f3101216a636bb7f0b7d3ea366e9424ee9fc732a331a6fc7d"
+  "output_hash": "0748442e672eaf24d566d702385d214c190cc8aa58092880cb55108b668656a0"
 }

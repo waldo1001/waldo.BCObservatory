@@ -1,28 +1,30 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/dutch-electronic-banking.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/dutch-electronic-banking",
-  "title": "Dutch Electronic Banking",
-  "blob": "c3427f2a03b15665c4320239862253950b473314",
-  "summary": "Dutch electronic banking in the Netherlands localization enables telebanking, payment file creation, direct debit collection, and bank statement import for cash and bank account management.",
+  "title": "Dutch Electronic Banking in Business Central",
+  "blob": "29b079862782b393d5569a1e7119a662f1d3932b",
+  "summary": "Dutch electronic banking functionality enables creation of electronic payment files and direct debit files, and import of electronic bank statements for reconciliation with supported bank software.",
   "systems": [
     "finance",
-    "localization"
+    "integration"
   ],
   "topics": [
+    "dutch localization",
     "electronic banking",
+    "payment files",
+    "direct debit",
+    "bank statements",
     "telebanking",
-    "netherlands",
-    "payments",
-    "direct debit"
+    "sepa"
   ],
   "objects": [],
   "features": [
-    "telebanking",
-    "payment files",
+    "payment proposals",
+    "electronic payment files",
     "direct debit files",
     "bank statement import",
-    "payment proposals",
-    "giro journals"
+    "payment file reconciliation",
+    "SEPA direct debit"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003005,
-      "pages_in_call": 8
+      "cost_usd": 0.003233,
+      "pages_in_call": 1
     }
   ]
 }

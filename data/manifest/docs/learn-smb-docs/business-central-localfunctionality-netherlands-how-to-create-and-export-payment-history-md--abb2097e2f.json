@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Create and Export Payment History [NL]",
+  "title": "Create and Export Payment History in the Dutch Version [NL]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-create-and-export-payment-history",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.557Z",
-      "blob": "547c6018f433a581b887a638cc8c929891d321d8",
-      "words": 203,
+      "at": "2026-10-28T09:04:07.496Z",
+      "blob": "f8e76786ffd7d3c3e6c3c7456beabb3be68b65b2",
+      "words": 260,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:10.404Z",
+      "at": "2026-10-28T09:04:15.611Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.002269
+      "objects": 0,
+      "cost_usd": 0.003233
     },
     "summarized": {
-      "at": "2026-10-06T19:30:10.467Z",
+      "at": "2026-10-28T09:04:15.613Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:10.468Z",
+      "at": "2026-10-28T09:04:15.614Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:10.469Z",
+      "at": "2026-10-28T09:04:15.615Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md",
     "description": "After creating and modifying your proposal as needed, you can move forward with processing it to create a payment history.",
-    "ms_date": "2025-03-17",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "Netherlands",
       "proposal"
     ],
-    "ai_usage": null,
-    "words": 203,
+    "ai_usage": "ai-assisted",
+    "words": 260,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d16b02264888a191b144c4372340a00eaa89527d850dc0a226d2f23bf789d8ce"
+  "output_hash": "737543afe58a4bbec0e1c688ea07180cfa43440ab4f3269c44f057f3a0682e53"
 }

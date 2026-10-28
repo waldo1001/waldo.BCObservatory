@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Submit electronic VAT & ICP declarations [NL]",
+  "title": "Submit Electronic VAT and ICP Declarations in the Netherlands",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.672Z",
-      "blob": "3a0c70476bdbeb54a512f5fb0d58e3da7c168de7",
-      "words": 961,
+      "at": "2026-10-28T09:04:01.231Z",
+      "blob": "d74f92dfc739ee63e58d8adf82756ca393805e75",
+      "words": 1279,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:32:16.396Z",
+      "at": "2026-10-28T09:04:08.543Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.005677
+      "objects": 7,
+      "cost_usd": 0.006337
     },
     "summarized": {
-      "at": "2026-10-06T18:32:16.411Z",
+      "at": "2026-10-28T09:04:08.545Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:32:16.412Z",
+      "at": "2026-10-28T09:04:08.546Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:32:16.413Z",
+      "at": "2026-10-28T09:04:08.547Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md",
     "description": "With the eXtensible Business Reporting Language (XBRL) reporter, you can submit the ICP declaration or the VAT declaration in the required XML format.",
-    "ms_date": "2026-05-08",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "electronic ICP declaration",
       "Netherlands"
     ],
-    "ai_usage": null,
-    "words": 961,
+    "ai_usage": "ai-assisted",
+    "words": 1279,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e8fe0c48cf910a17a36731ca2da91f801b4681181cf86bc3cf474b8a88a7812a"
+  "output_hash": "5c883405fa69d87153fc5a5d5310aacaf10f9cc025816a7af06e1f674471d821"
 }

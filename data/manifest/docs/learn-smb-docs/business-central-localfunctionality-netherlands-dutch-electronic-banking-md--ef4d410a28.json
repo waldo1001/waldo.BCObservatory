@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Dutch Electronic Banking",
+  "title": "Dutch Electronic Banking in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/dutch-electronic-banking",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.534Z",
-      "blob": "c3427f2a03b15665c4320239862253950b473314",
-      "words": 302,
+      "at": "2026-10-28T09:04:01.006Z",
+      "blob": "29b079862782b393d5569a1e7119a662f1d3932b",
+      "words": 315,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T23:41:13.948Z",
+      "at": "2026-10-28T09:04:06.443Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003005
+      "cost_usd": 0.003233
     },
     "summarized": {
-      "at": "2026-10-06T23:41:14.018Z",
+      "at": "2026-10-28T09:04:06.445Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T23:41:14.019Z",
+      "at": "2026-10-28T09:04:06.446Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T23:41:14.020Z",
+      "at": "2026-10-28T09:04:06.448Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/dutch-electronic-banking.md",
     "description": "Learn how to create electronic payment files and direct debit files, and import electronic bank statements from supported bank software.",
-    "ms_date": "2025-03-14",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -61,12 +61,12 @@
       "bank statement import",
       "Netherlands"
     ],
-    "ai_usage": null,
-    "words": 302,
+    "ai_usage": "ai-assisted",
+    "words": 315,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a728234b71cda81f35d7411571cb491446d6bbf1714260627d952269dbf638b2"
+  "output_hash": "927c74fee5b42af62c4e93c38a37f0a6b2919b87c78a57b1cd8d6f5ecdec3f7a"
 }

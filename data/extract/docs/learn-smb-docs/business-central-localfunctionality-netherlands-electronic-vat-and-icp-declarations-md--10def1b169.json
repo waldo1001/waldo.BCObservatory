@@ -1,26 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations",
-  "title": "Submit electronic VAT & ICP declarations [NL]",
-  "blob": "3a0c70476bdbeb54a512f5fb0d58e3da7c168de7",
-  "summary": "Submitting electronic VAT and ICP declarations in the Dutch version involves creating XBRL-formatted declarations, managing certificates, and communicating with tax authorities through Digipoort to report monthly/quarterly VAT and quarterly ICP transactions.",
+  "title": "Submit Electronic VAT and ICP Declarations in the Netherlands",
+  "blob": "d74f92dfc739ee63e58d8adf82756ca393805e75",
+  "summary": "Submit electronic VAT and ICP declarations to Dutch tax authorities through Digipoort using XBRL format or the Digital Tax Declaration app, with support for certificate-based authentication and response message processing.",
   "systems": [
-    "localization",
     "finance",
+    "localization",
     "integration"
   ],
   "topics": [
-    "vat declaration",
-    "icp declaration",
+    "vat declarations",
+    "icp declarations",
     "netherlands",
     "digipoort",
-    "electronic filing",
-    "xbrl"
+    "xbrl",
+    "tax compliance",
+    "certificates"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Elec. Tax Declaration List"
+      "name": "Electronic Tax Declarations"
     },
     {
       "type": "page",
@@ -28,16 +29,34 @@
     },
     {
       "type": "page",
+      "name": "Elec. Tax Declaration Setup"
+    },
+    {
+      "type": "page",
       "name": "Elec. Tax Decl. Response Msgs."
+    },
+    {
+      "type": "page",
+      "name": "VAT Returns"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
     }
   ],
   "features": [
-    "electronic VAT declaration",
-    "ICP declaration",
+    "electronic VAT declarations",
+    "ICP declarations",
     "Digipoort submission",
     "XBRL format",
-    "certificate management",
-    "response message processing"
+    "PKIoverheid certificates",
+    "response message processing",
+    "DigitalTaxDecl version",
+    "VAT category codes"
   ],
   "versions": [],
   "parts": 1,
@@ -46,8 +65,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005677,
-      "pages_in_call": 8
+      "cost_usd": 0.006337,
+      "pages_in_call": 1
     }
   ]
 }

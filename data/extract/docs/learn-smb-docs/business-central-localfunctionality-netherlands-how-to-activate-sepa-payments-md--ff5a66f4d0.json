@@ -1,36 +1,65 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-activate-sepa-payments",
-  "title": "Activate SEPA payments in the Dutch version",
-  "blob": "10cd1fa7284cfdf0c5b98b702666ab3503eaa13f",
-  "summary": "Enable SEPA payments in the Dutch version by configuring transaction modes with SEPA export protocols and verifying vendor payment transaction modes.",
+  "title": "Activate SEPA Payments in the Dutch Version",
+  "blob": "a56dfa09628f724ec5bd690db22316a1b2f2e5c1",
+  "summary": "Configure SEPA payment export formats and transaction modes in the Dutch version of Business Central to enable SEPA credit transfers and direct debits using ISO 20022 format.",
   "systems": [
     "purchasing",
-    "localization"
+    "localization",
+    "integration"
   ],
   "topics": [
     "sepa payments",
-    "netherlands",
+    "dutch localization",
+    "export protocols",
     "transaction modes",
-    "vendor payments",
-    "electronic payments"
+    "iso 20022",
+    "vendor payments"
   ],
   "objects": [
+    {
+      "type": "page",
+      "name": "Export Protocols"
+    },
     {
       "type": "page",
       "name": "Transaction Mode Card"
     },
     {
       "type": "page",
+      "name": "Transaction Modes"
+    },
+    {
+      "type": "page",
       "name": "Vendors"
+    },
+    {
+      "type": "report",
+      "name": "SEPA credit transfers (11000014)"
+    },
+    {
+      "type": "report",
+      "name": "SEPA direct debits (11000015)"
+    },
+    {
+      "type": "codeunit",
+      "name": "SEPA validation (11000010)"
+    },
+    {
+      "type": "codeunit",
+      "name": "SEPA direct debit validation (11000011)"
     }
   ],
   "features": [
-    "SEPA export protocol",
-    "transaction modes",
-    "SEPA ISO20022",
-    "SEPA DD",
-    "SEPA CT"
+    "SEPA export format configuration",
+    "Pain.001.001.09 format",
+    "Pain.008.001.08 format",
+    "Export protocols",
+    "Transaction modes",
+    "Payment proposal",
+    "Vendor payment setup",
+    "SEPA validation"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +68,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002269,
-      "pages_in_call": 7
+      "cost_usd": 0.004835,
+      "pages_in_call": 1
     }
   ]
 }

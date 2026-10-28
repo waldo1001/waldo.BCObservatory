@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Dutch Post Codes",
+  "title": "Dutch Post Codes in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/dutch-post-codes",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.538Z",
-      "blob": "a8abf83dc9347ff6ba73dbf8e57f851eeff51516",
+      "at": "2026-10-28T09:04:01.302Z",
+      "blob": "fcd21d0d2282ba254649061a5091c0d6de9e9614",
       "words": 62,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:10.397Z",
+      "at": "2026-10-28T09:04:06.974Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002269
+      "cost_usd": 0.002706
     },
     "summarized": {
-      "at": "2026-10-06T19:30:10.427Z",
+      "at": "2026-10-28T09:04:06.976Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:10.428Z",
+      "at": "2026-10-28T09:04:06.978Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:10.437Z",
+      "at": "2026-10-28T09:04:06.979Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Netherlands/dutch-post-codes.md",
     "description": "Subscribe to receive post codes and updates for your business. These updates are useful for marketing and relationship management activities.",
-    "ms_date": "2025-03-14",
+    "ms_date": "2026-10-20",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "receive post codes",
       "relationship management"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 62,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cc234abace519ef25c4c6f5f84261bf4c5a87f1cafbf7654e1e5dfaa640cc159"
+  "output_hash": "373e7b834e322c62c5e7485df09e7e6bbb3512d7591cf5a3794bdef00534daa3"
 }

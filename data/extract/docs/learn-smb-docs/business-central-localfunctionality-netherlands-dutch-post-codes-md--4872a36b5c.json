@@ -1,24 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Netherlands/dutch-post-codes.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/dutch-post-codes",
-  "title": "Dutch Post Codes",
-  "blob": "a8abf83dc9347ff6ba73dbf8e57f851eeff51516",
-  "summary": "Dutch post codes functionality allows businesses to subscribe to and import post code data and updates for marketing and relationship management activities in the Netherlands.",
+  "title": "Dutch Post Codes in Business Central",
+  "blob": "fcd21d0d2282ba254649061a5091c0d6de9e9614",
+  "summary": "Dutch post codes feature allows subscribing to postal code data and updates for marketing and relationship management activities, with the ability to import changes into Business Central.",
   "systems": [
-    "localization"
+    "localization",
+    "crm",
+    "sales"
   ],
   "topics": [
-    "post codes",
+    "dutch post codes",
     "netherlands",
-    "data import",
-    "marketing",
-    "relationship management"
+    "localization",
+    "postal data",
+    "imports",
+    "marketing"
   ],
   "objects": [],
   "features": [
-    "post code subscription",
+    "post code subscriptions",
     "post code updates",
-    "data import"
+    "postal code data import"
   ],
   "versions": [],
   "parts": 1,
@@ -27,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002269,
-      "pages_in_call": 7
+      "cost_usd": 0.002706,
+      "pages_in_call": 1
     }
   ]
 }
