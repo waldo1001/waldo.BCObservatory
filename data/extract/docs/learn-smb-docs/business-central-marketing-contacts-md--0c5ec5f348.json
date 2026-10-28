@@ -1,32 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/marketing-contacts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-contacts",
-  "title": "Create and manage company contacts",
-  "blob": "22237a7ac31c38adfda9d5d8b5ee5eab3d6372db",
-  "summary": "Manage business contacts to track prospective relationships and enable conversion to customers, vendors, or banks while organizing communications and viewing contact statistics.",
+  "title": "Create and Manage Business Contacts",
+  "blob": "73787ec7195d75b4c4768899ea99d20ad0b5e164",
+  "summary": "The Contacts list manages prospective business relations and external contacts to improve communication and convert them to formal customer, vendor, or bank relationships.",
   "systems": [
-    "crm"
+    "crm",
+    "sales"
   ],
   "topics": [
     "contacts",
+    "business relations",
     "contact management",
-    "relationships",
-    "communication",
-    "customer conversion"
+    "opportunities"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Contacts"
-    }
-  ],
+  "objects": [],
   "features": [
-    "contact card",
-    "opportunity management",
-    "interaction tracking",
+    "Contacts list",
+    "contact card creation",
+    "profile questionnaires",
+    "duplicate record merging",
     "contact statistics",
-    "sorting and filtering",
-    "duplicate resolution"
+    "sales opportunities management"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003171,
-      "pages_in_call": 8
+      "cost_usd": 0.002968,
+      "pages_in_call": 1
     }
   ]
 }

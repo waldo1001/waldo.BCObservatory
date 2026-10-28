@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Create business contacts",
+  "title": "Create and Link Business Contacts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-companies",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.551Z",
-      "blob": "0f6ed8e8a1bd925054fc8eb5858d6b16a50ab85a",
-      "words": 1368,
+      "at": "2026-10-28T08:56:36.644Z",
+      "blob": "badc009263bdb03b607f235ddafc7dcf85f011b5",
+      "words": 1375,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:01:01.904Z",
+      "at": "2026-10-28T08:56:47.803Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.003171
+      "objects": 6,
+      "cost_usd": 0.005617
     },
     "summarized": {
-      "at": "2026-10-06T19:01:01.955Z",
+      "at": "2026-10-28T08:56:47.804Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:01.957Z",
+      "at": "2026-10-28T08:56:53.160Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:01.969Z",
+      "at": "2026-10-28T08:56:53.161Z",
       "page": false
     }
   },
@@ -44,20 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/marketing-create-contact-companies.md",
-    "description": "Outlines the tasks needed to create contacts and define your business relationships on the Contact Card.",
-    "ms_date": "2025-10-03",
+    "description": "Create contacts in Business Central, create related customer or vendor records, and link existing records to keep shared contact information synchronized.",
+    "ms_date": "2026-10-22",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "relationship",
       "prospect"
     ],
-    "ai_usage": null,
-    "words": 1368,
+    "ai_usage": "ai-assisted",
+    "words": 1375,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "79e28c6403cff57032578c107624f261e8bdf1f3b7c38c1d925a855bd936f63d"
+  "output_hash": "23868bd30eda00971f4d636137e1fd3d0dd8b6a5145f28b69a2ae17f65a82a29"
 }

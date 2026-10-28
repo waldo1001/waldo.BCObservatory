@@ -2,16 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts",
   "title": "Unrealized sales tax and sales payment discounts",
-  "blob": "ee59062bb06735debc4487e8f05587e7c8ad6011",
-  "summary": "Set up unrealized sales tax and sales payment discounts in Business Central's US version for accurate tax accounting.",
+  "blob": "42f982ed6158cb81fbc2cc0d638b8aac40c0ec68",
+  "summary": "Set up unrealized sales tax and sales payment discounts in the United States version of Business Central.",
   "systems": [
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "us local functionality",
-    "sales tax",
-    "unrealized tax",
-    "payment discounts"
+    "unrealized sales tax",
+    "sales payment discounts",
+    "tax setup",
+    "united states",
+    "local functionality"
   ],
   "objects": [],
   "features": [
@@ -25,8 +27,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.0019,
-      "pages_in_call": 7
+      "cost_usd": 0.002658,
+      "pages_in_call": 1
     }
   ]
 }

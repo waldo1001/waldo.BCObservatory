@@ -2,17 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts",
   "title": "Reconciling Bank Accounts [US]",
-  "blob": "78d63fdd9d1a83531add5532b0a4da267bbfb41b",
-  "summary": "Reconciling bank accounts in the US version uses the standard bank reconciliation process, with deprecated North American-specific features moved to the standard version in 2023 release wave 2.",
+  "blob": "30efa4f9ea97a84d1a220e76bdc926d93f05719b",
+  "summary": "Bank account reconciliation in the US version of Business Central uses the Bank Rec. Worksheet page to reconcile bank account ledger entries with bank statements, including posting reconciliations, viewing results, and printing test reports.",
   "systems": [
     "finance"
   ],
   "topics": [
     "bank reconciliation",
-    "united states",
+    "bank accounts",
+    "us localization",
     "deposits",
-    "bank statements",
-    "localization"
+    "checks",
+    "adjustments",
+    "posting"
   ],
   "objects": [
     {
@@ -21,11 +23,27 @@
     },
     {
       "type": "page",
+      "name": "Bank Rec. Process Lines"
+    },
+    {
+      "type": "page",
       "name": "Bank Rec. Worksheet"
     },
     {
       "type": "page",
-      "name": "Bank Accounts"
+      "name": "Bank Reconciliation Comments"
+    },
+    {
+      "type": "page",
+      "name": "Bank Reconciliation"
+    },
+    {
+      "type": "table",
+      "name": "Post Bank Rec. Worksheet"
+    },
+    {
+      "type": "table",
+      "name": "G/L Entry"
     },
     {
       "type": "report",
@@ -37,11 +55,13 @@
     }
   ],
   "features": [
-    "bank reconciliation",
-    "deposit management",
-    "bank statement reconciliation",
-    "reconciliation posting",
-    "test reports"
+    "reconcile bank account ledger entries",
+    "match with bank statements",
+    "mark cleared transactions",
+    "post reconciliation adjustments",
+    "view posted reconciliations",
+    "print test reports",
+    "auditing capabilities"
   ],
   "versions": [
     "2023 release wave 2"
@@ -52,8 +72,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003005,
-      "pages_in_call": 8
+      "cost_usd": 0.005933,
+      "pages_in_call": 1
     }
   ]
 }

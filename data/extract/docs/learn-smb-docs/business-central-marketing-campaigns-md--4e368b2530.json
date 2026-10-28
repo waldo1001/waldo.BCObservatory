@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/marketing-campaigns.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-campaigns",
-  "title": "Set up marketing campaigns in Business Central",
-  "blob": "b8bedf2f959d238f0bdd9c2ef01218cc7a39a7cd",
-  "summary": "Set up and manage marketing campaigns by defining campaign status codes, creating campaign cards, selecting target audiences through segments, and registering campaign discounts and sales prices.",
+  "title": "Set Up Marketing Campaigns in Business Central",
+  "blob": "b9b675cc91e6b2ca17d1751853bc3a704ed444ee",
+  "summary": "Marketing campaigns enable identifying, attracting, and retaining customers by targeting audiences, planning campaign activities and tasks, setting up status codes, and registering sales prices and discounts for campaign participants.",
   "systems": [
     "crm",
     "sales"
   ],
   "topics": [
     "marketing campaigns",
-    "segments",
     "campaign management",
-    "sales discounts",
-    "campaign status"
+    "sales pricing",
+    "customer targeting",
+    "campaign activities",
+    "segments"
   ],
   "objects": [
     {
@@ -27,24 +28,17 @@
     {
       "type": "page",
       "name": "Segment"
-    },
-    {
-      "type": "page",
-      "name": "Sales Line Discounts"
-    },
-    {
-      "type": "page",
-      "name": "Sales Prices"
     }
   ],
   "features": [
-    "Campaign status codes",
-    "Campaign card creation",
-    "Segment targeting",
-    "Sales price setup",
-    "Line discount registration",
-    "Campaign activation",
-    "Activity management"
+    "campaign status codes",
+    "campaign cards",
+    "target audience segments",
+    "sales price lists",
+    "sales discounts",
+    "campaign pricing activation",
+    "interaction recording",
+    "campaign statistics"
   ],
   "versions": [],
   "parts": 1,
@@ -52,9 +46,9 @@
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": true,
-      "cost_usd": null,
-      "pages_in_call": 8
+      "cached": false,
+      "cost_usd": 0.004041,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.068Z",
-      "blob": "ee59062bb06735debc4487e8f05587e7c8ad6011",
+      "at": "2026-10-28T08:56:08.797Z",
+      "blob": "42f982ed6158cb81fbc2cc0d638b8aac40c0ec68",
       "words": 32,
       "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T19:28:23.517Z",
+      "at": "2026-10-28T08:56:19.760Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.0019
+      "cost_usd": 0.002658
     },
     "summarized": {
-      "at": "2026-10-06T19:28:25.342Z",
+      "at": "2026-10-28T08:56:19.762Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:25.343Z",
+      "at": "2026-10-28T08:56:19.762Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:25.344Z",
+      "at": "2026-10-28T08:56:19.763Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md",
     "description": "You can use the General Ledger Setup page to set up unrealized sales tax in the US version.",
-    "ms_date": "2025-02-04",
+    "ms_date": "2026-10-26",
     "ms_topic": "article",
     "search_form": [
       {
@@ -78,12 +78,12 @@
       "unrealized sales tax",
       "sales payment discounts"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 32,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5e6765875ee97a585835594f72217597d4078dbacb0171cab547a370f95e0f0a"
+  "output_hash": "ae46d8084a64b11302bf53d580656bd477103eb58c623d532dd226a68173b757"
 }

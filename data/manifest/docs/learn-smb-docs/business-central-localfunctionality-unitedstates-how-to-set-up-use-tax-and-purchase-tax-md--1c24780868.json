@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.073Z",
-      "blob": "dcfedef2a1031f4e13a2bb9634be0b8303c434c7",
+      "at": "2026-10-28T08:56:11.346Z",
+      "blob": "8f4c270bfe0fb245415350c3d05f1776b21a2316",
       "words": 30,
       "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T19:28:23.518Z",
+      "at": "2026-10-28T08:56:24.298Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.0019
+      "cost_usd": 0.002634
     },
     "summarized": {
-      "at": "2026-10-06T19:28:25.345Z",
+      "at": "2026-10-28T08:56:24.300Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:25.346Z",
+      "at": "2026-10-28T08:56:24.301Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:25.347Z",
+      "at": "2026-10-28T08:56:24.302Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md",
     "description": "This article explains how sales tax includes taxes that companies pay for using items in the US version.",
-    "ms_date": "2025-02-04",
+    "ms_date": "2026-10-26",
     "ms_topic": "article",
     "search_form": [
       {
@@ -79,12 +79,12 @@
       "purchase tax",
       "sales tax"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 30,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fd7eb4f2a7028332ab3fad743d0f84fa281932f719bec935674257f2edb8817a"
+  "output_hash": "6cda17babc3fb126fac57535642e774f2092e1de6214220b05898c03821819fc"
 }

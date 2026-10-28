@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up automatic recording of interactions",
+  "title": "Set Up Automatic Recording of Interactions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-auto-record-interactions",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.542Z",
-      "blob": "65c06a376b1c9de5a02f9bc94bb443b390159796",
-      "words": 118,
+      "at": "2026-10-28T08:56:24.236Z",
+      "blob": "e27cc24a1697ad38c73cd350e69d4ae3e3454281",
+      "words": 120,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:01:01.901Z",
+      "at": "2026-10-28T08:56:32.168Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003171
+      "cost_usd": 0.002847
     },
     "summarized": {
-      "at": "2026-10-06T19:01:01.918Z",
+      "at": "2026-10-28T08:56:32.170Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:01.919Z",
+      "at": "2026-10-28T08:56:32.171Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:01.921Z",
+      "at": "2026-10-28T08:56:32.172Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/marketing-auto-record-interactions.md",
     "description": "Automatically record interactions with customers and contacts, including sales, purchase, and service documents, emails, and phone calls.",
-    "ms_date": "2025-10-03",
+    "ms_date": "2026-10-22",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "client",
       "customer"
     ],
-    "ai_usage": null,
-    "words": 118,
+    "ai_usage": "ai-assisted",
+    "words": 120,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d377a5027d712d9e6e4281ca4c01dbec0fbdb6a6b4414b1b1147a7268401957c"
+  "output_hash": "61c96d5e811234f1040e43ef149ddbbb8b98fdbc43d9f5a6d9370910874a823c"
 }

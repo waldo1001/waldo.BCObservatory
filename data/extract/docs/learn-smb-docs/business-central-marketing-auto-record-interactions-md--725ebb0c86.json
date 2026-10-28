@@ -1,20 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/marketing-auto-record-interactions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-auto-record-interactions",
-  "title": "Set up automatic recording of interactions",
-  "blob": "65c06a376b1c9de5a02f9bc94bb443b390159796",
-  "summary": "Configure automatic recording of interactions for sales, purchase, and service documents, emails, and phone calls using the Interaction Template Setup page.",
+  "title": "Set Up Automatic Recording of Interactions",
+  "blob": "e27cc24a1697ad38c73cd350e69d4ae3e3454281",
+  "summary": "Set up automatic recording of interactions for sales, purchase, service documents, emails, and phone calls using the Interaction Template Setup page.",
   "systems": [
     "crm",
     "sales",
-    "purchasing"
+    "service"
   ],
   "topics": [
     "interactions",
+    "contact management",
     "automation",
-    "templates",
-    "communications",
-    "contact management"
+    "document recording"
   ],
   "objects": [
     {
@@ -24,11 +23,11 @@
   ],
   "features": [
     "automatic interaction recording",
-    "interaction templates",
-    "document interactions",
+    "sales documents",
+    "purchase documents",
+    "service orders",
     "email tracking",
-    "phone call recording",
-    "TAPI support"
+    "phone call recording"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003171,
-      "pages_in_call": 8
+      "cost_usd": 0.002847,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,21 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/marketing-create-contact-companies.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-create-contact-companies",
-  "title": "Create business contacts",
-  "blob": "0f6ed8e8a1bd925054fc8eb5858d6b16a50ab85a",
-  "summary": "Create and manage contact cards for people and companies, synchronize contact data with customers, vendors, employees and banks, and link contacts to existing business entities.",
+  "title": "Create and Link Business Contacts",
+  "blob": "badc009263bdb03b607f235ddafc7dcf85f011b5",
+  "summary": "Creating and linking business contacts in Business Central, including how to create contacts manually, from customers/vendors, and how to synchronize contact data with customers, vendors, employees, and bank accounts.",
   "systems": [
     "crm",
     "sales",
-    "purchasing"
+    "integration"
   ],
   "topics": [
     "contacts",
-    "contact creation",
-    "business relations",
+    "business relationships",
     "data synchronization",
-    "customer conversion",
-    "vendors"
+    "contact management",
+    "customer linking"
   ],
   "objects": [
     {
@@ -28,19 +27,29 @@
     },
     {
       "type": "page",
+      "name": "Create Contacts from Customers"
+    },
+    {
+      "type": "page",
+      "name": "Create Contacts from Vendors"
+    },
+    {
+      "type": "page",
+      "name": "Create Contacts from Bank Accounts"
+    },
+    {
+      "type": "page",
       "name": "Business Relations"
     }
   ],
   "features": [
-    "contact type selection",
-    "person contacts",
-    "company contacts",
-    "create contacts from customers",
-    "create contacts from vendors",
-    "create contacts from bank accounts",
-    "synchronize contacts",
-    "link existing entities",
-    "inheritance settings"
+    "create contacts manually",
+    "create contacts from customers/vendors/bank accounts",
+    "create customer/vendor/employee/bank account from contact",
+    "link contact with existing customer/vendor/employee/bank account",
+    "remove contact links",
+    "synchronize contact data",
+    "view contact relationships"
   ],
   "versions": [],
   "parts": 1,
@@ -49,8 +58,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003171,
-      "pages_in_call": 8
+      "cost_usd": 0.005617,
+      "pages_in_call": 1
     }
   ]
 }

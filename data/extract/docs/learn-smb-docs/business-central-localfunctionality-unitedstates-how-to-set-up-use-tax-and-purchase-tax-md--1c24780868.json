@@ -2,21 +2,23 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax",
   "title": "Set Up Use Tax and Purchase Tax [US]",
-  "blob": "dcfedef2a1031f4e13a2bb9634be0b8303c434c7",
-  "summary": "Set up use tax and purchase tax in Business Central's US version for proper tax reporting on purchases.",
+  "blob": "8f4c270bfe0fb245415350c3d05f1776b21a2316",
+  "summary": "Set up Use Tax and Purchase Tax in Business Central US version. Use this page to configure US-specific tax settings for purchasing transactions.",
   "systems": [
     "finance",
-    "purchasing"
+    "localization"
   ],
   "topics": [
-    "us local functionality",
     "use tax",
-    "purchase tax"
+    "purchase tax",
+    "tax setup",
+    "united states",
+    "sales tax"
   ],
   "objects": [],
   "features": [
-    "use tax",
-    "purchase tax"
+    "Use Tax",
+    "Purchase Tax"
   ],
   "versions": [],
   "parts": 1,
@@ -25,8 +27,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.0019,
-      "pages_in_call": 7
+      "cost_usd": 0.002634,
+      "pages_in_call": 1
     }
   ]
 }

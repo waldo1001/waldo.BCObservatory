@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts",
   "published_at": "2026-10-26T15:34:23.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.063Z",
-      "blob": "78d63fdd9d1a83531add5532b0a4da267bbfb41b",
+      "at": "2026-10-28T08:56:08.856Z",
+      "blob": "30efa4f9ea97a84d1a220e76bdc926d93f05719b",
       "words": 1001,
       "forms": 15
     },
     "extracted": {
-      "at": "2026-10-06T23:41:13.946Z",
+      "at": "2026-10-28T08:56:24.227Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.003005
+      "objects": 9,
+      "cost_usd": 0.005933
     },
     "summarized": {
-      "at": "2026-10-06T23:41:14.012Z",
+      "at": "2026-10-28T08:56:24.228Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T23:41:14.014Z",
+      "at": "2026-10-28T08:56:24.229Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T23:41:14.016Z",
+      "at": "2026-10-28T08:56:24.230Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md",
     "description": "This article describes how to reconcile bank account ledger entries with bank statements in the North American version.",
-    "ms_date": "2025-02-04",
+    "ms_date": "2026-10-26",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -130,12 +130,12 @@
       "reconciliation reports",
       "bank account reconcile"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 1001,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "899ef3d780bbc8c800a350bfcc770dc33a3610791ee93e377813b8d11e7f34fc"
+  "output_hash": "d045ed107a6e18fd755fafa34a77c64d116e545647c217a2b87010177e1ae607"
 }
