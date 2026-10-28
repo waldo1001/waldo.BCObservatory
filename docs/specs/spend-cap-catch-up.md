@@ -14,6 +14,11 @@ at `d95c1217eb` on 2026-10-28. Not in scope: the usage guard token (`BCOBS_USAGE
 404s, quotas, and the post-execute LLM passes, which already stop on their own at the cap (for example
 `pipeline/link/topics.ts:278`).
 
+Blast radius (`sdd-build` section 1): **risky**, because it touches `pipeline/orchestrator/`, `config/` and
+`schemas/`. A League build writes its plan and ends `plan-waiting`. The owner approves that plan, and then the build
+runs. No task needs a command outside `npm test` and `npm run typecheck`. The checks on the Mini are operator steps
+(section 7), not build steps.
+
 ## 1. Goal
 
 The weekly cap (D17) is meant to stop a normal week from running away. Instead, it blocks the nightly for days after
@@ -112,10 +117,22 @@ export interface SpendHistory { today_usd: number; today_total_usd: number; week
 `week_before_uncapped_usd = Σ reportSpend − Σ cappedSpend` over the six previous dates. `reportSpend` stays as it is,
 for the total.
 
-**`nightly.ts`:** the carry-over today is `report.spend.today_usd + llmStats().cost_usd`. It becomes
-`day_capped_usd = spend.today_usd + (opts.capOverride ? 0 : llmStats().cost_usd)`, and `day_cost_usd` carries all
-of the date's spend. To make that possible, `readSpendHistory` also returns the date's total so far (`today_total_usd`,
-from `reportSpend`); `day_cost_usd = today_total_usd + llmStats().cost_usd`.
+A pure function, so the carry-over is unit-tested without stubbing `llmStats()`:
+```ts
+/** The day totals a run writes into its report's llm block (D125). */
+export function daySpend(h: SpendHistory, runCostUsd: number, override: boolean): { day_cost_usd: number; day_capped_usd: number };
+// day_cost_usd   = round6(h.today_total_usd + runCostUsd)
+// day_capped_usd = round6(h.today_usd + (override ? 0 : runCostUsd))
+```
+
+**`nightly.ts`:** today, `nightly.ts:606` writes
+`day_cost_usd: round6((report.spend?.today_usd ?? 0) + llmStats().cost_usd)`. It becomes
+`...daySpend(history, llmStats().cost_usd, !!opts.capOverride)`, where `history` is the `readSpendHistory` result
+already read at `nightly.ts:210` (keep it in a variable). Catch-up mode sets `opts.capOverride` at `nightly.ts:208`,
+so it counts as an override with no extra code. The early budget-skip heartbeat report must carry both totals over
+unchanged (the existing assertion "a budget-skipped heartbeat must not reset the day total",
+`tests/unit/nightly.test.ts:200`). After `spendAllowance`, log
+`spend window: $<week_before_usd> counted, $<week_before_uncapped_usd> from override runs not counted`.
 
 **`execute.ts`:**
 - `settle` on `LlmBudgetExhausted`: no longer sets `stop`. It sets `llmOff = true` (once, with a log line), adds the
@@ -123,8 +140,15 @@ from `reportSpend`); `day_cost_usd = today_total_usd + llmStats().cost_usd`.
 - New report fields: `llm_held: number` and `llm_exhausted_at_calls?: number`.
 - `stop_reason` stays `"spend-cap"` in the type, for old reports. A run whose only limit was the allowance now ends
   `"done"`.
-- `charge()`: once `llmOff` is set, an item's quota stays charged when its stage throws. That is harmless, because
-  only items that cannot run that night are affected.
+- `charge()` is unchanged. An LLM item that throws keeps its quota charge for the night. That's harmless, because
+  it can't run that night anyway.
+- `llmOff` is not checked before a stage starts. An LLM stage finds out from `llm.ts` itself, before any spend
+  (`llm.ts:141`). There is no new per-handler flag (section 3).
+- On the first exhaustion, log once:
+  `LLM allowance used up at <calls> calls: LLM stages wait, deterministic stages go on`. Set
+  `r.llm_exhausted_at_calls` to `callCount()` at that moment.
+- `schemas/run-report.json` `execution`: add `llm_held` (integer) and `llm_exhausted_at_calls` (integer), both
+  optional.
 
 **`config/budget.json`:** `"spend_caps": { "night_usd": 15, "week_usd": 80 }`, and the `$comment` sentence on
 spend_caps gains: "night $15 and week $80 since 2026-10-28 (D125): about twice the worst normal week; override runs
@@ -143,62 +167,82 @@ In that example, the first run (override) spent $36.60 and the nightly after it 
    gives 0. `{llm:{day_cost_usd:9}}` gives 9. `{llm:{cost_usd:4}}` gives 4. Junk gives 0.
 2. `readSpendHistory` over seven dates with mixed reports: `week_before_usd` sums only capped spend,
    `week_before_uncapped_usd` sums the rest, and `today_total_usd` is the date's full `day_cost_usd`.
-3. Replay of real history: the six reports for 2026-10-22 to 2026-10-27, as committed, run with caps 15/80, give
-   2026-10-28 an allowance of $15 (window $49.80: 3.24 + 3.44 + 43.12, with the override days at 0). With the
-   old function and caps 10/50, the allowance is 0. Fixture: copies of those six reports, trimmed to their `llm` and
-   `spend` blocks.
+3. Replay of real history, in a temp runs dir written by the test (the existing `put()` helper,
+   `tests/unit/budget.test.ts:109`). Use the committed values of 2026-10-22 to 2026-10-27:
+   `{llm:{day_cost_usd:3.235482}}`, `{llm:{day_cost_usd:3.442062}}`, `{llm:{day_cost_usd:43.121836}}`,
+   `{llm:{day_cost_usd:36.604146}, spend:{override:true}}`, `{llm:{day_cost_usd:35.270381}, spend:{override:true}}`,
+   `{llm:{day_cost_usd:0}}`. `readSpendHistory(dir, "2026-10-28")` gives `week_before_usd` 49.79938 (± 1e-6) and
+   `week_before_uncapped_usd` 71.874527. `spendAllowance({night_usd:15, week_usd:80}, h).allowance_usd` is 15.
+   With the new function and the old caps `{night_usd:10, week_usd:50}`, the allowance is 0.200620: the old cap was all but used up even
+   without the catch-ups.
+4. `daySpend`: `h = {today_usd:1, today_total_usd:1, ...}`, `runCostUsd` 5. With `override` true, the result is
+   `{day_cost_usd:6, day_capped_usd:1}`. With `override` false, it is `{6, 6}`.
 
-`tests/unit/nightly.test.ts`:
-4. A run with `capOverride` and stubbed `cost_usd: 5`, with an earlier same-date report of
-   `day_capped_usd: 1, day_cost_usd: 1`, writes `day_cost_usd: 6, day_capped_usd: 1`. The same run without an
-   override writes `6` and `6`.
-5. Catch-up mode (`cfg.catch_up.until >= date`) is treated as an override: `day_capped_usd` does not grow.
+`tests/unit/nightly.test.ts`, following the existing spend tests (lines 186 to 227, `NOOP` handlers, zero LLM
+cost):
+5. An earlier same-date report `{llm:{day_cost_usd:9, day_capped_usd:2}}`. A run without an override reports
+   `spend.today_usd` 2, `llm.day_cost_usd` 9 and `llm.day_capped_usd` 2. A run with
+   `capOverride: {week_usd: 500}` reports the same. A budget-skipped heartbeat (`usage(61, 10)`) keeps both. The
+   report validates against `run-report`.
+6. A runs dir holding one override report of `day_cost_usd` = `budget().spend_caps.week_usd` two days back. A
+   normal run's allowance is not 0 (it would be 0 today, as in the existing test at line 203).
 
 `tests/unit/execute.test.ts`:
-6. Three items in the plan. A's next stage throws `LlmBudgetExhausted`. B has two deterministic stages. C has one
+7. Three items in the plan. A's next stage throws `LlmBudgetExhausted`. B has two deterministic stages. C has one
    deterministic stage and then an LLM stage that throws. Expected: A untouched (same state, attempts 0). B advanced
    through both stages. C advanced one stage, then untouched. `stop_reason: "done"`, `llm_held: 2`,
    `failed_attempts: 0`.
-7. A batch handler whose result map holds `LlmBudgetExhausted` for each item: every item stays untouched, and the
+8. A batch handler whose result map holds `LlmBudgetExhausted` for each item: every item stays untouched, and the
    next non-LLM item still runs.
-8. Regression: `LlmInfraError` still aborts the run (`stop_reason: "aborted"`).
-9. Lane case: item X, parked on lane `youtube` behind Y, still runs after an LLM item elsewhere throws
-   `LlmBudgetExhausted` (the 28 Oct case). `parked_left: 0`.
+9. Regression: `LlmInfraError` still aborts the run (`stop_reason: "aborted"`).
+10. Lane case: item X, parked on lane `youtube` behind Y, still runs after an LLM item elsewhere throws
+    `LlmBudgetExhausted` (the 28 Oct case). `parked_left: 0`.
+11. One existing test asserts the old behaviour and changes on purpose. In
+    `"spend cap stops cleanly without failing the item; infra errors abort"` (`tests/unit/execute.test.ts:88`),
+    `r.stop_reason` becomes `"done"`. VID2 stays `["captioned", 0]` as today. The assertion
+    `get(m, "VID1").state === "discovered"` ("no new item starts after the cap") becomes VID1 advancing through
+    `fetched` and `captioned` (its deterministic stages in `allVideo`) and then waiting, with attempts 0 and
+    `r.llm_held` 2. Rename the test to `"spend cap holds LLM stages without failing the item; deterministic stages go
+    on; infra errors abort"`. The `LlmInfraError` half stays as it is. Every other existing test stays green
+    unchanged. Record this rewrite in section 12 as an intended change, not a deviation.
 
 ## 6. Tasks
 
-**Phase 1 — caps (ships alone, a one-line config change).**
-1. `config/budget.json` `spend_caps` to 15/80, and the `$comment` sentence.
+**Phase 1 — caps (ships alone, one commit).**
+1. `config/budget.json` `spend_caps` to 15/80, and the `$comment` sentence. The existing tests read the caps from
+   `budget()`, so they need no change. Run `npm test` and confirm that.
 
 With the old window and the new caps, the 10-29 and 10-30 nightlies are still blocked: their windows are $118.44
 and $115.00. Phase 1 alone unblocks from the 10-31 run ($71.87, $8.13 allowed).
 
-**Phase 2 — override spend not counted.**
-2. Tests 1 to 5.
-3. `cappedSpend`, `readSpendHistory` with the new fields, and `spendAllowance` unchanged.
-4. `nightly.ts`: `day_capped_usd` and `day_cost_usd` from the totals, the new log line, and
-   `week_before_uncapped_usd` in the report.
-5. `schemas/run-report.json`: `day_capped_usd` (optional, so old reports stay valid) and `week_before_uncapped_usd`
-   (optional).
+**Phase 2 — override spend not counted (one commit).**
+2. Tests 1 to 6, red.
+3. `budget.ts`: `cappedSpend`, `daySpend`, `readSpendHistory` with the new fields, and `spendAllowance` unchanged.
+   Update the comment block at `budget.ts:130-133` to say that override runs are not counted.
+4. `nightly.ts`: `daySpend` at line 606, the heartbeat carry-over, the `spend window:` log line, and
+   `week_before_uncapped_usd` in the report's `spend` block.
+5. `schemas/run-report.json`: `llm.day_capped_usd`, `spend.week_before_uncapped_usd` and `spend.today_total_usd`,
+   all optional so old reports stay valid.
 
-**Phase 3 — the executor goes on.**
-6. Tests 6 to 9.
-7. `execute.ts` `settle`, the report fields, and the file header bullet on run-level stops (`execute.ts:8-9`).
+**Phase 3 — the executor goes on (one commit).**
+6. Tests 7 to 11, red.
+7. `execute.ts`: `settle`, the report fields, the log line, and the file header bullet on run-level stops
+   (`execute.ts:8-9`). `schemas/run-report.json`: the two `execution` fields.
 
 No phase rewrites content pages. Phase 3 lets more items advance on capped nights, and those land in the normal
 nightly content commit.
 
 ## 7. Verification
 
-- `npm test`. The three test files above must be green, and `tests/unit/specs-frontmatter.test.ts` too.
-- `npx tsc --noEmit`.
-- Real-data check (test 3 as a script):
-  `tsx -e 'import {readSpendHistory,spendAllowance} from "./pipeline/lib/budget.ts"; const h=readSpendHistory("data/manifest/_runs","2026-10-28"); console.log(h, spendAllowance({night_usd:15,week_usd:80},h))'`.
-  Expected: `week_before_usd` is about 49.80 and `allowance_usd` is 15.
-- `npm run nightly -- --dry-run` on the developer Mac logs the new `spend window:` line.
-- After the first real nightly on the Mini: the run report has `llm.day_capped_usd`. If the night ran out of
-  allowance, it shows `execution.llm_held > 0` with `stop_reason: "done"`, and video items move from `discovered` to
-  `captioned` in the same run.
+**Build (both modes):** `npm run typecheck` and `npm test`, green after each phase. `git diff --stat origin/main --
+content data` is empty: no phase writes `content/` or `data/`.
+
+**Operator steps (owner, after merge; not for the League):**
+- The next nightly on the Mini (scheduled 01:00 Europe/Brussels, or `gh workflow run nightly.yml --ref main`) logs
+  `spend window:`. Its report `data/manifest/_runs/<date>.json` has `llm.day_capped_usd` and
+  `spend.week_before_uncapped_usd`.
+- The first night that runs out of allowance shows `execution.llm_held > 0`, `stop_reason: "done"`, and video items
+  moving from `discovered` past `fetched` in that same run.
 
 ## 8. Later, not in this spec
 
@@ -215,9 +259,12 @@ nightly content commit.
    the window within a week of shipping.
 3. **2026-10-24 counts $43.12.** Its final report was a capped nightly that carried spend from an earlier run that
    date, probably an uncapped one, but the report does not say so. Default: count it. The $80 cap absorbs it (test 3).
-4. **LLM-held items each cost a worker turn.** Measured on 28 Oct: 558 planned items, most of them LLM stages. Each
+4. **The full catch-up of 2026-10-28** (workflow run 40657797703, `unlimited`) overwrites that date's report with
+   `spend.override: true`. Under the legacy rule, all of 2026-10-28 counts as 0, including the capped 00:16 run,
+   which spent $0. Default: nothing to do.
+5. **LLM-held items each cost a worker turn.** Measured on 28 Oct: 558 planned items, most of them LLM stages. Each
    throws before spawning anything, so the cost is microseconds per item. Default: no up-front filter.
-5. **Unbounded override spend.** An override run is bounded only by its quotas, `llm_calls_max`, and the owner's
+6. **Unbounded override spend.** An override run is bounded only by its quotas, `llm_calls_max`, and the owner's
    choice of `--week-cap`. That is intended (D41), and the decision says so.
 
 ## 10. Files
@@ -225,19 +272,21 @@ nightly content commit.
 Changed: `config/budget.json`, `pipeline/lib/budget.ts`, `pipeline/orchestrator/nightly.ts`,
 `pipeline/orchestrator/execute.ts`, `schemas/run-report.json`, `tests/unit/budget.test.ts`,
 `tests/unit/nightly.test.ts`, `tests/unit/execute.test.ts`.
-New: `tests/fixtures/runs-2026-10-22..27/` (six trimmed reports).
+New: none.
 Docs at ship time: `docs/DECISIONS.md`, `docs/PLAN.md`, `docs/HANDOFF.md`, this spec.
 
 ## 11. Definition of Done
 
 - [ ] `spend_caps` are 15/80 and the `$comment` names D125.
-- [ ] Tests 1 to 9 exist and pass. `npm test` and `npx tsc --noEmit` are green.
-- [ ] The real-data check prints `allowance_usd: 15` for 2026-10-28.
+- [ ] Tests 1 to 11 exist, were red before their phase, and pass. `npm test` and `npm run typecheck` are green.
+- [ ] Test 3 (the real-history replay) gives allowance 15 under 15/80.
+- [ ] `git diff --stat origin/main -- content data` is empty.
 - [ ] A run with an override writes `day_capped_usd` without its own cost, and a run without one writes it with
       its cost.
 - [ ] On `LlmBudgetExhausted`, the executor leaves the item untouched, keeps running non-LLM stages, and reports
       `llm_held`. `LlmInfraError` still aborts.
 - [ ] The `execute.ts` header and the `budget.ts` comment block (lines 130–133) describe the new behaviour.
+- [ ] The HANDOFF "Where things stand" bullet lists the section 7 operator steps.
 - [ ] D125 appended to docs/DECISIONS.md; PLAN M60 marked shipped; HANDOFF entry moved from "Open specs" to "Where
       things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
       implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
