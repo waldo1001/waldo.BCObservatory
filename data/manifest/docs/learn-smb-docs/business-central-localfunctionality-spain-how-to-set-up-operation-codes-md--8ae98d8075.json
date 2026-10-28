@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Set Up Operation Codes",
+  "title": "Set Up Operation Codes for Spanish VAT Reporting",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-operation-codes",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.724Z",
-      "blob": "38a9227839925ff01799915efc9592363b10383b",
-      "words": 360,
+      "at": "2026-10-28T09:07:11.659Z",
+      "blob": "6f3a1b289e96f365a7539b276b376776507a1b94",
+      "words": 338,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:56.438Z",
+      "at": "2026-10-28T09:07:17.734Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002403
+      "objects": 3,
+      "cost_usd": 0.003673
     },
     "summarized": {
-      "at": "2026-10-06T19:24:06.484Z",
+      "at": "2026-10-28T09:07:17.736Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:06.485Z",
+      "at": "2026-10-28T09:07:17.737Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:06.486Z",
+      "at": "2026-10-28T09:07:17.738Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/how-to-set-up-operation-codes.md",
     "description": "You can add any number of operation codes to the table, except for the system-created codes C, D, and I, which are already available in Business Central.",
-    "ms_date": "2025-05-28",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "posting groups",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 360,
+    "ai_usage": "ai-assisted",
+    "words": 338,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c141722b458619073fd1b152fdb80555ad9fd7c71e9bbc2eec949dee6b650ad3"
+  "output_hash": "0ccdcdea7f3721b315eb5a2dcca7e943d496aec60d6f9f43571ebbbc3a4cc59b"
 }

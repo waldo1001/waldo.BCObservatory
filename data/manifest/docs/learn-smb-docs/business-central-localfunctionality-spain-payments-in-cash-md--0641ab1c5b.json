@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Payments in Cash",
+  "title": "Payments in Cash Reporting for Spain",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/payments-in-cash",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.744Z",
-      "blob": "6ccd995c1bbaaf0fead6b843565ad88fa76852ec",
-      "words": 218,
+      "at": "2026-10-28T09:07:17.577Z",
+      "blob": "5dcae6c7d97e994ec7c67bfcb7508d451d591ef7",
+      "words": 219,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:58.244Z",
+      "at": "2026-10-28T09:07:22.727Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002403
+      "cost_usd": 0.003071
     },
     "summarized": {
-      "at": "2026-10-06T19:24:06.493Z",
+      "at": "2026-10-28T09:07:22.728Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:06.494Z",
+      "at": "2026-10-28T09:07:27.627Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:06.495Z",
+      "at": "2026-10-28T09:07:27.629Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/payments-in-cash.md",
-    "description": "Spanish companies must submit an annual summary for each customer if cash payments exceed EUR 6,000.00.",
-    "ms_date": "2025-05-29",
-    "ms_topic": "article",
+    "description": "Learn how applied customer cash payments are used for reporting in Business Central for Spain and where to prepare a payments in cash declaration.",
+    "ms_date": "2026-10-20",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "annual summary",
@@ -58,12 +58,12 @@
       "cash declaration",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 218,
+    "ai_usage": "ai-assisted",
+    "words": 219,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d50a1b57e33c08e8285b3ee5382b1b7f7a4224c1b8ef4c1464abb27154d77b71"
+  "output_hash": "17d9c4acb725842de6ffb0577f81bc89055206f33d9a9a23e5149fdd9bb8ac70"
 }

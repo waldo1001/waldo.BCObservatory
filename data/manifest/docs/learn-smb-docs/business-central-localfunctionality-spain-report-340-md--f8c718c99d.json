@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Report 340 [ES]",
+  "title": "Report 340 in the Spanish Version [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/report-340",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.754Z",
-      "blob": "fdd436bdb4472fc087cf0bb2b5befaf8291c474e",
-      "words": 688,
+      "at": "2026-10-28T09:07:17.657Z",
+      "blob": "0eb4f270ff0a1e4e49d05adaed1be8153ba9ae17",
+      "words": 689,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:47.795Z",
+      "at": "2026-10-28T09:07:27.663Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.003387
+      "objects": 17,
+      "cost_usd": 0.005206
     },
     "summarized": {
-      "at": "2026-10-06T19:23:47.805Z",
+      "at": "2026-10-28T09:07:27.665Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:47.806Z",
+      "at": "2026-10-28T09:07:27.667Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:47.807Z",
+      "at": "2026-10-28T09:07:27.668Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/report-340.md",
     "description": "Provides an overview of Report 340, detailing how it captures information on invoices and taxes issued or received by your company within a specific period.",
-    "ms_date": "2025-05-29",
-    "ms_topic": "article",
+    "ms_date": "2026-10-20",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "report 340",
@@ -57,12 +57,12 @@
       "EC percentages",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 688,
+    "ai_usage": "ai-assisted",
+    "words": 689,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "050a1e3857342e08d171fc9a844c573f0c5950063143d2acb9cf59a8a91ce5c3"
+  "output_hash": "f4fe3d9f1e0db82d7f0ba1f2e86b11a079dc8262faabab283cf2a5b780656e24"
 }

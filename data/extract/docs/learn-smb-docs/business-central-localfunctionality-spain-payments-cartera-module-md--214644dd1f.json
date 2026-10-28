@@ -1,28 +1,36 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/payments-cartera-module.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/payments-cartera-module",
-  "title": "Payments Cartera Module",
-  "blob": "5977f261f90b3d362c2389c8a0251246f6ca2637",
-  "summary": "Payments Cartera module in Spanish localization manages payables documents from purchase invoices grouped by bank, due date, value, or currency, supporting payment orders to vendors and payment confirmation services.",
+  "title": "Payments Cartera Module in Business Central for Spain",
+  "blob": "c0c91490899bafe4afaaed79ac6e79c9327b467f",
+  "summary": "The Payments Cartera module manages payables documents from purchase invoices, organizing payment orders to vendors by bank, due date, value, and currency. It supports payment confirmation services and handles drafts and distinct payables documents in local or original currency.",
   "systems": [
-    "purchasing",
-    "finance"
+    "finance",
+    "purchasing"
   ],
   "topics": [
-    "spain localization",
-    "cartera module",
-    "payments",
-    "payables",
-    "payment orders"
+    "payments cartera",
+    "payables documents",
+    "payment orders",
+    "payment confirmation",
+    "spain",
+    "localization"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cartera Journal"
+    }
+  ],
   "features": [
-    "payment order management",
-    "draft payment orders",
-    "payables document management",
-    "bank grouping",
-    "due date grouping",
-    "payment confirmation"
+    "Payment order management",
+    "Document grouping by bank",
+    "Document grouping by due date",
+    "Document grouping by value",
+    "Document grouping by currency",
+    "Multi-currency support",
+    "Payment confirmation service",
+    "Finance charges"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002263,
-      "pages_in_call": 8
+      "cost_usd": 0.003421,
+      "pages_in_call": 1
     }
   ]
 }

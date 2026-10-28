@@ -1,22 +1,70 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/report-340.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/report-340",
-  "title": "Report 340 [ES]",
-  "blob": "fdd436bdb4472fc087cf0bb2b5befaf8291c474e",
-  "summary": "Report 340 contains information about invoices and taxes issued or received by a company in a given period in Spain, generated in a tax authority-approved format for monthly or quarterly submission. The report supports businesses using cash accounting criteria and includes various sales, purchase, and service documents.",
+  "title": "Report 340 in the Spanish Version [ES]",
+  "blob": "0eb4f270ff0a1e4e49d05adaed1be8153ba9ae17",
+  "summary": "Report 340 documents invoices and taxes issued or received by a company in a given period, formatted for submission to Spanish tax authorities. It supports VAT Date tracking, cash accounting criteria for small businesses, and multiple VAT percentages.",
   "systems": [
     "finance",
-    "localization",
-    "reporting"
+    "localization"
   ],
   "topics": [
-    "vat reporting",
-    "spanish tax",
     "report 340",
+    "spanish tax",
+    "vat reporting",
     "cash accounting",
-    "intra-community trade"
+    "invoices",
+    "tax authorities"
   ],
   "objects": [
+    {
+      "type": "report",
+      "name": "Report 340"
+    },
+    {
+      "type": "report",
+      "name": "Report 117"
+    },
+    {
+      "type": "report",
+      "name": "Report 118"
+    },
+    {
+      "type": "report",
+      "name": "Report 205"
+    },
+    {
+      "type": "report",
+      "name": "Report 206"
+    },
+    {
+      "type": "report",
+      "name": "Report 207"
+    },
+    {
+      "type": "report",
+      "name": "Report 405"
+    },
+    {
+      "type": "report",
+      "name": "Report 406"
+    },
+    {
+      "type": "report",
+      "name": "Report 407"
+    },
+    {
+      "type": "report",
+      "name": "Report 5900"
+    },
+    {
+      "type": "report",
+      "name": "Report 5911"
+    },
+    {
+      "type": "report",
+      "name": "Report 5912"
+    },
     {
       "type": "table",
       "name": "Company Information"
@@ -30,20 +78,23 @@
       "name": "Vendor"
     },
     {
-      "type": "table",
-      "name": "VAT Entry"
+      "type": "report",
+      "name": "Sales Invoice Book"
     },
     {
       "type": "report",
-      "name": "Report 340"
+      "name": "Purchase Invoice Book"
     }
   ],
   "features": [
-    "VAT Date filtering",
-    "Cash Accounting Criteria support",
-    "Multiple VAT percentages",
-    "Equivalence charge reporting",
-    "EU intra-community VAT Information Exchange"
+    "VAT Date tracking",
+    "cash accounting criteria",
+    "small business support",
+    "multiple VAT percentages",
+    "equivalence charge reporting",
+    "payment method tracking",
+    "file format validation",
+    "electronic submission"
   ],
   "versions": [],
   "parts": 1,
@@ -52,8 +103,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003387,
-      "pages_in_call": 8
+      "cost_usd": 0.005206,
+      "pages_in_call": 1
     }
   ]
 }

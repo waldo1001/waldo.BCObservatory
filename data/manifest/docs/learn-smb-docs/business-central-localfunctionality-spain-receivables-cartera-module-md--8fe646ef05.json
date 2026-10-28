@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Receivables Cartera module [ES]",
+  "title": "Receivables Cartera Module in the Spanish Version [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/receivables-cartera-module",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.749Z",
-      "blob": "675ebf0bac1c6bbaf1f01fa9e950bbbb338b417f",
+      "at": "2026-10-28T09:07:17.614Z",
+      "blob": "557e4af063a38fa20545e801af3137bc6f74a177",
       "words": 364,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:58.245Z",
+      "at": "2026-10-28T09:07:27.638Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002403
+      "objects": 0,
+      "cost_usd": 0.003263
     },
     "summarized": {
-      "at": "2026-10-06T19:24:06.496Z",
+      "at": "2026-10-28T09:07:27.640Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:06.497Z",
+      "at": "2026-10-28T09:07:27.642Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:06.498Z",
+      "at": "2026-10-28T09:07:27.643Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/receivables-cartera-module.md",
     "description": "Use the Receivables Cartera module to manage bills generated from sales invoices, including grouping, collection, and factoring, through the Cartera Journal.",
-    "ms_date": "2025-05-29",
-    "ms_topic": "article",
+    "ms_date": "2026-10-20",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "receivables cartera module",
@@ -54,12 +54,12 @@
       "cartera journal",
       "Spanish version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 364,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7bfff541a1c679ae366b9ac9f051203f24832df4001a1161a9d0d3cc393745df"
+  "output_hash": "f9563d2c1a40ad7ffccfb9f3a8ec1e0c00e7cd8957408d697792c870f0a85093"
 }

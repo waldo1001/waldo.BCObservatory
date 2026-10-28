@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Bank Accounts for Electronic Payments [ES]",
+  "title": "Set Up Bank Accounts for Electronic Payments in Spain",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-bank-accounts-for-electronic-payments",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.805Z",
-      "blob": "810382693c87a81f889071336a19d4c4dc4dca8b",
-      "words": 405,
+      "at": "2026-10-28T09:07:11.512Z",
+      "blob": "8aeaf7d0d23adaebdd3793d65ae33f88af95b66d",
+      "words": 383,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:15:50.170Z",
+      "at": "2026-10-28T09:07:17.422Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.005235
+      "objects": 2,
+      "cost_usd": 0.003604
     },
     "summarized": {
-      "at": "2026-10-06T19:15:50.179Z",
+      "at": "2026-10-28T09:07:17.424Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:15:51.962Z",
+      "at": "2026-10-28T09:07:17.426Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:15:51.963Z",
+      "at": "2026-10-28T09:07:17.427Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md",
-    "description": "Learn how to use Business Central to set up bank accounts and vendor bank accounts to make electronic payments.",
-    "ms_date": "2025-05-28",
+    "description": "Learn how to configure bank and vendor bank accounts for electronic payments in Business Central for Spain, including export and remittance details.",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "vendor bank accounts",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 405,
+    "ai_usage": "ai-assisted",
+    "words": 383,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6b49f192ed8140d70b64a65ba9d243d129e25941635f988fb0754e49c1ff7f0a"
+  "output_hash": "f9ab565f0fc7f959fb8124776179bd963d084be6a3eb31ad63bedf5f94cc2d37"
 }

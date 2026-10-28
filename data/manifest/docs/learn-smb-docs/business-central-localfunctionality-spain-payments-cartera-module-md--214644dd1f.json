@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Payments Cartera Module",
+  "title": "Payments Cartera Module in Business Central for Spain",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/payments-cartera-module",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.739Z",
-      "blob": "5977f261f90b3d362c2389c8a0251246f6ca2637",
+      "at": "2026-10-28T09:07:17.482Z",
+      "blob": "c0c91490899bafe4afaaed79ac6e79c9327b467f",
       "words": 183,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T23:41:10.603Z",
+      "at": "2026-10-28T09:07:27.650Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002263
+      "objects": 1,
+      "cost_usd": 0.003421
     },
     "summarized": {
-      "at": "2026-10-06T23:41:13.920Z",
+      "at": "2026-10-28T09:07:27.651Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T23:41:13.921Z",
+      "at": "2026-10-28T09:07:27.652Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T23:41:13.922Z",
+      "at": "2026-10-28T09:07:27.654Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/payments-cartera-module.md",
-    "description": "Manage payables documents from generated from purchase invoices or the Cartera Journal using the Payments Cartera module.",
-    "ms_date": "2025-05-29",
-    "ms_topic": "article",
+    "description": "Learn how the Payments Cartera module in Business Central for Spain manages payables documents from purchase invoices and the Cartera Journal.",
+    "ms_date": "2026-10-20",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "manage payable documents",
@@ -56,12 +56,12 @@
       "payment orders",
       "Spanish version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 183,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "792ce5a5cbc182e220380e32de3d1e3d4fc41d1c17c272dd5d9d926ecfaad689"
+  "output_hash": "4b2f5e07e99b5c0d9ce41f6eee732b4c87226ab48c5f13f4fada1532601c4d67"
 }

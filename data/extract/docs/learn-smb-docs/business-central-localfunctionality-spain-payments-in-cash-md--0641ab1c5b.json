@@ -1,25 +1,28 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/payments-in-cash.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/payments-in-cash",
-  "title": "Payments in Cash",
-  "blob": "6ccd995c1bbaaf0fead6b843565ad88fa76852ec",
-  "summary": "Report cash payments exceeding EUR 6,000.00 per customer annually in Spain using the Make 340 Declaration batch job to apply and report payments in cash.",
+  "title": "Payments in Cash Reporting for Spain",
+  "blob": "5dcae6c7d97e994ec7c67bfcb7508d451d591ef7",
+  "summary": "Payments in cash reporting for Spain requires companies to submit summaries for cash payments over EUR 6,000 per customer annually, using the Make 340 Declaration batch job to report applied cash payments to invoices.",
   "systems": [
-    "finance",
     "sales",
-    "localization"
+    "localization",
+    "finance"
   ],
   "topics": [
-    "cash payments",
-    "report 340",
-    "spanish tax reporting",
-    "receivables"
+    "payments in cash",
+    "spain",
+    "340 declaration",
+    "receivables",
+    "cash reporting",
+    "compliance"
   ],
   "objects": [],
   "features": [
-    "340 cash payments declaration",
+    "Make 340 Declaration batch job",
+    "payments in cash reporting",
     "cash payment application",
-    "tax compliance"
+    "340 payments in cash declaration"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002403,
-      "pages_in_call": 7
+      "cost_usd": 0.003071,
+      "pages_in_call": 1
     }
   ]
 }

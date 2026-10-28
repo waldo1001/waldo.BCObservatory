@@ -1,33 +1,29 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/receivables-cartera-module.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/receivables-cartera-module",
-  "title": "Receivables Cartera module [ES]",
-  "blob": "675ebf0bac1c6bbaf1f01fa9e950bbbb338b417f",
-  "summary": "Manage receivable bills and bill groups in the Spanish Cartera module to handle collections, discounts, and factoring of sales invoices with finance charges and interest calculations.",
+  "title": "Receivables Cartera Module in the Spanish Version [ES]",
+  "blob": "557e4af063a38fa20545e801af3137bc6f74a177",
+  "summary": "The Receivables Cartera module manages bills from sales invoices with support for bill groups, factoring, and discounting, available in the Spanish version of Business Central.",
   "systems": [
     "sales",
-    "finance",
     "localization"
   ],
   "topics": [
-    "cartera module",
-    "bill management",
     "receivables",
-    "factoring",
-    "collections"
-  ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Cartera Journal"
-    }
-  ],
-  "features": [
+    "cartera",
     "bill groups",
     "factoring",
-    "collections",
-    "discount bills",
-    "finance charges"
+    "spanish localization",
+    "invoices"
+  ],
+  "objects": [],
+  "features": [
+    "Bill group management",
+    "Discount bill groups",
+    "Manual bill creation via Cartera Journal",
+    "Factoring (risked and unrisked)",
+    "Finance charge calculation",
+    "Collection and discount submission"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002403,
-      "pages_in_call": 7
+      "cost_usd": 0.003263,
+      "pages_in_call": 1
     }
   ]
 }

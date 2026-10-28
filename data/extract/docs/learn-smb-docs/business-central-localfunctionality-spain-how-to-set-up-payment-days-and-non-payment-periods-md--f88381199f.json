@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-set-up-payment-days-and-non-payment-periods.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-payment-days-and-non-payment-periods",
-  "title": "How to Set Up Payment Days and Non-Payment Periods",
-  "blob": "2969ea280192544542cd2f019625c39211489772",
-  "summary": "Configure payment days and non-payment periods in Company Information, Customer, and Vendor cards to calculate due dates for sales and purchase documents in Spain.",
+  "title": "Set Up Payment Days and Non-Payment Periods",
+  "blob": "4449370424235186d600c75a58b3950f841dfc89",
+  "summary": "Set up payment days and non-payment periods for companies, customers, and vendors to calculate due dates for sales and purchase documents, including holidays and other non-payment ranges.",
   "systems": [
     "finance",
-    "sales",
-    "purchasing"
+    "purchasing",
+    "sales"
   ],
   "topics": [
-    "payment terms",
-    "due dates",
     "payment days",
-    "non-payment periods"
+    "non-payment periods",
+    "due dates",
+    "spain localization",
+    "invoices"
   ],
   "objects": [
     {
@@ -22,25 +23,28 @@
     },
     {
       "type": "page",
-      "name": "Customers"
-    },
-    {
-      "type": "page",
-      "name": "Vendors"
-    },
-    {
-      "type": "page",
       "name": "Payment Days"
     },
     {
       "type": "page",
       "name": "Non-Payment Periods"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Vendors"
     }
   ],
   "features": [
-    "payment days",
-    "non-payment periods",
-    "due date calculation"
+    "Payment Days Code",
+    "Non-Payment Periods Code",
+    "Payment Day field",
+    "From Date",
+    "To Date",
+    "Description"
   ],
   "versions": [],
   "parts": 1,
@@ -49,8 +53,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002403,
-      "pages_in_call": 7
+      "cost_usd": 0.003778,
+      "pages_in_call": 1
     }
   ]
 }

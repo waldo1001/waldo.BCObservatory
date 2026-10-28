@@ -1,26 +1,57 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/report-347.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/report-347",
-  "title": "Report 347 [ES]",
-  "blob": "70ca786f538d1553aa4cfb1570fefdefd1e52dd1",
-  "summary": "Report 347 in Spanish Business Central is an annual report documenting sales, purchases, and cash payments by VAT date for submission to Spanish Tax Agency.",
+  "title": "Report 347 in the Spanish Version [ES]",
+  "blob": "d16efa977635c11ead0d76accfffdbf8a6867340",
+  "summary": "Report 347 is a required annual Spanish tax report for declaring sales and purchases based on VAT Date. It generates a tax authority-approved file format that can be submitted to the Spanish Tax Agency.",
   "systems": [
-    "reporting",
+    "finance",
     "localization"
   ],
   "topics": [
-    "spanish tax",
     "report 347",
+    "spanish tax reporting",
+    "vat",
     "tax compliance",
-    "annual reporting",
-    "cash payments"
+    "sales and purchases reporting"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Report 347"
+    },
+    {
+      "type": "table",
+      "name": "Company Information"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Cust. Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Ledger Entry"
+    }
+  ],
   "features": [
-    "VAT date tracking",
-    "cash payment reporting",
-    "file format validation",
-    "tax agency submission"
+    "annual tax reporting",
+    "VAT Date filtering",
+    "cash payment tracking",
+    "file format generation",
+    "tax authority submission",
+    "file format restrictions"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +60,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003091,
-      "pages_in_call": 8
+      "cost_usd": 0.003658,
+      "pages_in_call": 1
     }
   ]
 }

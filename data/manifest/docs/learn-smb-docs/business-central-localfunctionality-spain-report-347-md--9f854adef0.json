@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Report 347 [ES]",
+  "title": "Report 347 in the Spanish Version [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/report-347",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.624Z",
-      "blob": "70ca786f538d1553aa4cfb1570fefdefd1e52dd1",
+      "at": "2026-10-28T09:07:17.817Z",
+      "blob": "d16efa977635c11ead0d76accfffdbf8a6867340",
       "words": 299,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:12.810Z",
+      "at": "2026-10-28T09:07:27.687Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003091
+      "objects": 7,
+      "cost_usd": 0.003658
     },
     "summarized": {
-      "at": "2026-10-06T19:23:12.867Z",
+      "at": "2026-10-28T09:07:27.695Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:12.868Z",
+      "at": "2026-10-28T09:07:27.704Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:12.870Z",
+      "at": "2026-10-28T09:07:27.713Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/report-347.md",
     "description": "Report 347 is an annual report that companies in Spain must submit to tax authorities, detailing sales and purchases for a specified period.",
-    "ms_date": "2025-05-29",
-    "ms_topic": "article",
+    "ms_date": "2026-10-20",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "report 347",
@@ -54,12 +54,12 @@
       "file format restrictions",
       "Spanish version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 299,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "be4524a152f7871b149dddbfe150c1085c4a57814a7de43c89b4ca588f9ad22e"
+  "output_hash": "7dc772781840778f5aedcbad3f69a19cae5b4a55a6a4fafeaa294a2fba4d7074"
 }

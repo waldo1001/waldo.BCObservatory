@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up bank CCC codes [ES]",
+  "title": "Set Up Bank CCC Codes in the Spanish Version [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-bank-ccc-codes",
   "published_at": "2026-10-26T11:09:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.720Z",
-      "blob": "07be2ef1e3ca40fac92045b23e5e8bc8994c6e42",
-      "words": 275,
+      "at": "2026-10-28T09:07:11.469Z",
+      "blob": "af3803ce23961be8e87cde4ea0bd75ba915420ac",
+      "words": 253,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:56.437Z",
+      "at": "2026-10-28T09:07:17.539Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.002403
+      "cost_usd": 0.003619
     },
     "summarized": {
-      "at": "2026-10-06T19:24:06.481Z",
+      "at": "2026-10-28T09:07:17.541Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:06.482Z",
+      "at": "2026-10-28T09:07:17.542Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:06.483Z",
+      "at": "2026-10-28T09:07:17.543Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/how-to-set-up-bank-ccc-codes.md",
     "description": "The Código Cuenta Cliente (CCC) is a unique account code assigned by Spanish banks to customer accounts, appearing on documents, such as checks and statements.",
-    "ms_date": "2025-05-28",
+    "ms_date": "2026-10-20",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "bank codes",
       "Spanish version"
     ],
-    "ai_usage": null,
-    "words": 275,
+    "ai_usage": "ai-assisted",
+    "words": 253,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c06b7130a9bb47c6a89fe2d5c0aba40b91054c008a7549cd481c626fd275f0ba"
+  "output_hash": "46153d31fc718430973b06a2e26eb777ef7cecd45ff4c342626380a0dd1d6ea3"
 }

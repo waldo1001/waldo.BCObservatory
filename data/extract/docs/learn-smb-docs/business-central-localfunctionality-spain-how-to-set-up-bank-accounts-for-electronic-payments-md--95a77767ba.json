@@ -1,27 +1,39 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-bank-accounts-for-electronic-payments",
-  "title": "Bank Accounts for Electronic Payments [ES]",
-  "blob": "810382693c87a81f889071336a19d4c4dc4dca8b",
-  "summary": "Set up bank accounts for electronic payments in Spanish Business Central by configuring CCC bank details and electronic payment file paths on the Bank Account Card and Vendor Bank Account Card.",
+  "title": "Set Up Bank Accounts for Electronic Payments in Spain",
+  "blob": "8aeaf7d0d23adaebdd3793d65ae33f88af95b66d",
+  "summary": "Setting up bank accounts for electronic payments in the Spanish version of Business Central, including company bank account and vendor bank account configuration with CCC bank details and export file paths.",
   "systems": [
-    "purchasing",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "electronic payments",
     "bank accounts",
-    "spain localization",
-    "vendor setup"
+    "electronic payments",
+    "spain",
+    "setup",
+    "vendor bank accounts"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Bank Account Card"
+    }
+  ],
   "features": [
-    "E-Pay Export File Path",
     "CCC Bank No.",
     "CCC Bank Branch No.",
     "CCC Control Digits",
     "CCC Bank Account No.",
-    "Last Remittance Advice No."
+    "E-Pay Export File Path",
+    "Last E-Pay Export File Name",
+    "Last Remittance Advice No.",
+    "Use For Electronic Payments"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005235,
-      "pages_in_call": 8
+      "cost_usd": 0.003604,
+      "pages_in_call": 1
     }
   ]
 }

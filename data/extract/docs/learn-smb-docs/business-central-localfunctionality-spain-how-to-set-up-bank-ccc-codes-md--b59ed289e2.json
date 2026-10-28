@@ -1,28 +1,30 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-set-up-bank-ccc-codes.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-bank-ccc-codes",
-  "title": "Set up bank CCC codes [ES]",
-  "blob": "07be2ef1e3ca40fac92045b23e5e8bc8994c6e42",
-  "summary": "Set up Código Cuenta Cliente (CCC) bank codes in Company Information, Bank Account Card, and Customer/Vendor Bank Account Card pages to identify Spanish and Portuguese bank accounts.",
+  "title": "Set Up Bank CCC Codes in the Spanish Version [ES]",
+  "blob": "af3803ce23961be8e87cde4ea0bd75ba915420ac",
+  "summary": "Set up Código Cuenta Cliente (CCC) codes for Spanish banks to identify customers on bank documents. Configure CCC codes in Bank Account Card, Company Information, Customer Bank Account Card, and Vendor Bank Account Card pages.",
   "systems": [
-    "finance",
     "localization",
-    "administration"
+    "finance"
   ],
   "topics": [
-    "bank setup",
+    "bank accounts",
+    "spanish localization",
     "ccc codes",
-    "spanish banks",
-    "payment processing"
+    "customer bank accounts",
+    "vendor bank accounts",
+    "company information",
+    "payment setup"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Company Information"
+      "name": "Bank Account Card"
     },
     {
       "type": "page",
-      "name": "Bank Account Card"
+      "name": "Company Information"
     },
     {
       "type": "page",
@@ -34,9 +36,13 @@
     }
   ],
   "features": [
-    "CCC bank codes",
-    "bank account identification",
-    "payment reference"
+    "CCC Bank No.",
+    "CCC Bank Branch No.",
+    "CCC Control Digits",
+    "CCC Bank Account No.",
+    "bank account setup",
+    "customer bank account setup",
+    "vendor bank account setup"
   ],
   "versions": [],
   "parts": 1,
@@ -45,8 +51,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002403,
-      "pages_in_call": 7
+      "cost_usd": 0.003619,
+      "pages_in_call": 1
     }
   ]
 }
