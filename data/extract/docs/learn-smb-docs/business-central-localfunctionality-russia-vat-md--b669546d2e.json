@@ -2,25 +2,29 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/vat.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/vat",
   "title": "VAT in Russia",
-  "blob": "4358bcad056b2091ff340951d945a8ba32eec46d",
-  "summary": "VAT in Russian localization uses tiered rates for different goods and services, with specific exemptions for insurance, banking, and medical transactions.",
+  "blob": "08ad7bc5eb810eb6986eb7007d378e4bf44a8618",
+  "summary": "VAT in Russia covers posting, settlement, and ledger features for sales and purchases. Configure VAT calculation types, percentages, and posting accounts using VAT Posting Setup and VAT Settlement Worksheet.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
     "vat",
-    "russian localization",
-    "tax calculation",
-    "sales tax",
-    "tax compliance"
+    "russia",
+    "tax",
+    "posting setup",
+    "settlement",
+    "ledgers"
   ],
   "objects": [],
   "features": [
+    "VAT Posting Setup",
     "VAT calculation",
-    "Tiered VAT rates",
-    "VAT exemptions",
-    "VAT payments",
+    "Transit VAT",
+    "Manual VAT settlement",
+    "VAT reinstatement",
+    "VAT Settlement Worksheet",
+    "VAT Settlement Journal",
     "VAT ledgers"
   ],
   "versions": [],
@@ -30,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002467,
-      "pages_in_call": 7
+      "cost_usd": 0.00313,
+      "pages_in_call": 1
     }
   ]
 }

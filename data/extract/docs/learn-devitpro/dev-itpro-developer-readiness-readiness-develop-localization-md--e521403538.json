@@ -2,32 +2,33 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/readiness/readiness-develop-localization.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization",
   "title": "Development of a Localization Solution",
-  "blob": "21b59006c3814a89b4d96d7a1ac557791937d6dd",
-  "summary": "Development of a localization solution provides comprehensive guidance on building localization apps for Business Central covering regulatory requirements, national standards, and market-specific features with technical scope and best practices.",
+  "blob": "94a88deba4ceb9cd6dd8ae35341b8f24362c10e9",
+  "summary": "Development of a Localization Solution covers building localization apps for Business Central that address local regulatory requirements, national standards, and market-specific needs. Use this guide when developing country or region-specific apps to meet compliance and local business requirements.",
   "systems": [
     "localization",
     "development",
-    "administration"
+    "integration"
   ],
   "topics": [
     "localization apps",
-    "regulatory compliance",
-    "local market adaptation",
-    "tax reporting",
-    "translation",
-    "data classification"
+    "regulatory requirements",
+    "national standards",
+    "market requirements",
+    "app development",
+    "technical checklist",
+    "data classification",
+    "application areas"
   ],
   "objects": [],
   "features": [
-    "Localization framework",
-    "Regulatory compliance features",
-    "National standards",
-    "Market requirements",
+    "Regulatory requirements support",
+    "National standards functionality",
+    "Market requirements features",
     "RapidStart data packages",
-    "Translation support",
-    "Upgrade code",
-    "Application Area property",
-    "Data classification"
+    "Translation capabilities",
+    "Setup guides and wizards",
+    "Word and RDLC report layouts",
+    "Data classification properties"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004105,
-      "pages_in_call": 7
+      "cost_usd": 0.005092,
+      "pages_in_call": 1
     }
   ]
 }

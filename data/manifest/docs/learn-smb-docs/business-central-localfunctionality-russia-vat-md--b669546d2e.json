@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/vat",
   "published_at": "2026-10-26T11:08:38.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.750Z",
-      "blob": "4358bcad056b2091ff340951d945a8ba32eec46d",
-      "words": 246,
+      "at": "2026-10-28T09:13:26.533Z",
+      "blob": "08ad7bc5eb810eb6986eb7007d378e4bf44a8618",
+      "words": 181,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T21:27:13.494Z",
+      "at": "2026-10-28T09:13:31.551Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002467
+      "cost_usd": 0.00313
     },
     "summarized": {
-      "at": "2026-10-06T21:27:40.349Z",
+      "at": "2026-10-28T09:13:31.552Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T21:27:40.350Z",
+      "at": "2026-10-28T09:13:31.554Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T21:27:40.351Z",
+      "at": "2026-10-28T09:13:31.555Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Russia/vat.md",
     "description": "Provides an overview of VAT functionality and enhancements for Russia.",
-    "ms_date": "2025-07-22",
+    "ms_date": "2026-10-23",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "VAT calculation",
       "VAT payments"
     ],
-    "ai_usage": null,
-    "words": 246,
+    "ai_usage": "ai-assisted",
+    "words": 181,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c5d3fcb599919188b643d1a500ce2ea2ea5af9537d5b799ea0664b1dcadaf8b9"
+  "output_hash": "bbf26b1bbabd4a9ea4d33d2ea30dde70cd81feae1beea6b3549553a41ce1c391"
 }
