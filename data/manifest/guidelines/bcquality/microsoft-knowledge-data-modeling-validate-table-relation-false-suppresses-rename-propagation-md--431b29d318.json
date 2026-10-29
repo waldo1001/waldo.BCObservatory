@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.129Z",
+      "at": "2026-10-29T21:28:25.715Z",
       "blob": "0131edbf332a83cc3dfaaac5f8173692b0bd172f",
       "words": 383,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:25.914Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.md"
     }
   },
   "input_hash": "0131edbf332a83cc3dfaaac5f8173692b0bd172f",
@@ -25,13 +29,54 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.md",
-    "description": null,
+    "description": "Renaming a record updates it in all other locations that reference it through a TableRelation, with no code. That guarantee has two preconditions, and a field failing either one is silently left holding a key that no longer exists.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "validatetablerelation",
+      "table-relation",
+      "rename",
+      "onrename",
+      "propagation",
+      "dangling-reference",
+      "soft-relation"
+    ],
     "ai_usage": null,
-    "words": 383
+    "words": 383,
+    "identifiers": [
+      "TableRelation",
+      "OnRename",
+      "ValidateTableRelation"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "validatetablerelation",
+        "table-relation",
+        "rename",
+        "onrename",
+        "propagation",
+        "dangling-reference",
+        "soft-relation"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Renaming a record updates it in all other locations that reference it through a TableRelation, with no code. That guarantee has two preconditions, and a field failing either one is silently left holding a key that no longer exists."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

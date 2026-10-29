@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/prefix-temporary-record-event-parameters-with-temp.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.247Z",
+      "at": "2026-10-29T21:28:32.677Z",
       "blob": "08370bf3c98905e96e64873622dfcb0562f86d01",
       "words": 205,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:32.860Z",
+      "path": "content/guidelines/microsoft/knowledge/events/prefix-temporary-record-event-parameters-with-temp.md"
     }
   },
   "input_hash": "08370bf3c98905e96e64873622dfcb0562f86d01",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/events/prefix-temporary-record-event-parameters-with-temp.md",
-    "description": null,
+    "description": "When a record passed to an event is a temporary record — an in-memory buffer not persisted to the database — its parameter name must start with Temp.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "temporary-record",
+      "naming",
+      "event-parameters",
+      "buffer",
+      "temp-prefix",
+      "integration-event",
+      "conventions"
+    ],
     "ai_usage": null,
-    "words": 205
+    "words": 205,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "events",
+      "keywords": [
+        "temporary-record",
+        "naming",
+        "event-parameters",
+        "buffer",
+        "temp-prefix",
+        "integration-event",
+        "conventions"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "When a record passed to an event is a temporary record — an in-memory buffer not persisted to the database — its parameter name must start with Temp."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

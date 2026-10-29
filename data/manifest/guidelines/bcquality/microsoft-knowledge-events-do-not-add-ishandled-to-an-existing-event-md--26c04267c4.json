@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/do-not-add-ishandled-to-an-existing-event.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.198Z",
+      "at": "2026-10-29T21:28:27.216Z",
       "blob": "df0c5e2c6fb2876f0a5d89959c1c067ced7dc804",
       "words": 198,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:27.300Z",
+      "path": "content/guidelines/microsoft/knowledge/events/do-not-add-ishandled-to-an-existing-event.md"
     }
   },
   "input_hash": "df0c5e2c6fb2876f0a5d89959c1c067ced7dc804",
@@ -25,13 +29,54 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/events/do-not-add-ishandled-to-an-existing-event.md",
-    "description": null,
+    "description": "Adding a var IsHandled: Boolean parameter to an event that already shipped without one silently changes the event's purpose — from a plain notification into an overridable seam.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "ishandled",
+      "semantic-change",
+      "event-contract",
+      "backward-compatibility",
+      "onbefore",
+      "integration-event",
+      "subscribers"
+    ],
     "ai_usage": null,
-    "words": 198
+    "words": 198,
+    "identifiers": [
+      "IsHandled",
+      "OnAfterCalculateTotal",
+      "OnBefore"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "events",
+      "keywords": [
+        "ishandled",
+        "semantic-change",
+        "event-contract",
+        "backward-compatibility",
+        "onbefore",
+        "integration-event",
+        "subscribers"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Adding a var IsHandled: Boolean parameter to an event that already shipped without one silently changes the event's purpose — from a plain notification into an overridable seam."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

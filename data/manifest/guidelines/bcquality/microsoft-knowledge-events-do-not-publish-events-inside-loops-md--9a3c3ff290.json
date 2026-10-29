@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/do-not-publish-events-inside-loops.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.214Z",
+      "at": "2026-10-29T21:28:27.445Z",
       "blob": "ecebd19ae15b16ce4d04af4e9a112264f11ad911",
       "words": 205,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:27.526Z",
+      "path": "content/guidelines/microsoft/knowledge/events/do-not-publish-events-inside-loops.md"
     }
   },
   "input_hash": "ecebd19ae15b16ce4d04af4e9a112264f11ad911",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/events/do-not-publish-events-inside-loops.md",
-    "description": null,
+    "description": "Raising an event on every iteration of a loop multiplies the cost of every subscriber by the number of records.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "performance",
+      "loops",
+      "event-publishing",
+      "batch",
+      "onbefore",
+      "onafter",
+      "subscriber-cost"
+    ],
     "ai_usage": null,
-    "words": 205
+    "words": 205,
+    "identifiers": [
+      "OnBeforeProcessLines",
+      "OnAfterProcessLines"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "events",
+      "keywords": [
+        "performance",
+        "loops",
+        "event-publishing",
+        "batch",
+        "onbefore",
+        "onafter",
+        "subscriber-cost"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Raising an event on every iteration of a loop multiplies the cost of every subscriber by the number of records."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/avoid-raising-events-inside-try-functions.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.182Z",
+      "at": "2026-10-29T21:28:26.743Z",
       "blob": "80b3b344de9d4e6ca7ec1b57d072cbb10d0f0851",
       "words": 160,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:26.834Z",
+      "path": "content/guidelines/microsoft/knowledge/events/avoid-raising-events-inside-try-functions.md"
     }
   },
   "input_hash": "80b3b344de9d4e6ca7ec1b57d072cbb10d0f0851",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/events/avoid-raising-events-inside-try-functions.md",
-    "description": null,
+    "description": "A TryFunction catches all errors — including errors thrown by event subscribers. When an [IntegrationEvent] is raised inside a TryFunction body, any error a subscriber raises is silently swallowed by the TryFunction's error boundary.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "tryfunction",
+      "integration-event",
+      "subscriber",
+      "error-handling",
+      "silent-failure",
+      "event-publisher"
+    ],
     "ai_usage": null,
-    "words": 160
+    "words": 160,
+    "identifiers": [
+      "TryFunction"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "events",
+      "keywords": [
+        "tryfunction",
+        "integration-event",
+        "subscriber",
+        "error-handling",
+        "silent-failure",
+        "event-publisher"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A TryFunction catches all errors — including errors thrown by event subscribers. When an [IntegrationEvent] is raised inside a TryFunction body, any error a subscriber raises is silently swallowed by the TryFunction's error boundary."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

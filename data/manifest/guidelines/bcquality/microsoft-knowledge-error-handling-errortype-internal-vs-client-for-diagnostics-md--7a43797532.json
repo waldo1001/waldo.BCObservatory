@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/error-handling/errortype-internal-vs-client-for-diagnostics.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.145Z",
+      "at": "2026-10-29T21:28:25.674Z",
       "blob": "ece3bafebf06cac7e814dd3d720c78f61f07ca9e",
       "words": 272,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:25.766Z",
+      "path": "content/guidelines/microsoft/knowledge/error-handling/errortype-internal-vs-client-for-diagnostics.md"
     }
   },
   "input_hash": "ece3bafebf06cac7e814dd3d720c78f61f07ca9e",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/error-handling/errortype-internal-vs-client-for-diagnostics.md",
-    "description": null,
+    "description": "ErrorInfo.ErrorType controls where an error's message is shown. With ErrorType::Client — the behaviour of a normal Error — the message is both shown to the user and sent to telemetry.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "errorinfo",
+      "errortype",
+      "internal",
+      "client",
+      "telemetry",
+      "diagnostics",
+      "generic-message"
+    ],
     "ai_usage": null,
-    "words": 272
+    "words": 272,
+    "identifiers": [
+      "ErrorType",
+      "ErrorInfo"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "error-handling",
+      "keywords": [
+        "errorinfo",
+        "errortype",
+        "internal",
+        "client",
+        "telemetry",
+        "diagnostics",
+        "generic-message"
+      ],
+      "bc_version": [
+        "14.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "ErrorInfo.ErrorType controls where an error's message is shown. With ErrorType::Client — the behaviour of a normal Error — the message is both shown to the user and sent to telemetry."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

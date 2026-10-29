@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/name-event-parameters-without-abbreviations.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.225Z",
+      "at": "2026-10-29T21:28:27.818Z",
       "blob": "9985ae253ef6a32e587b8dc54f7732f7ac3d74f0",
       "words": 192,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:27.914Z",
+      "path": "content/guidelines/microsoft/knowledge/events/name-event-parameters-without-abbreviations.md"
     }
   },
   "input_hash": "9985ae253ef6a32e587b8dc54f7732f7ac3d74f0",
@@ -25,13 +29,55 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/events/name-event-parameters-without-abbreviations.md",
-    "description": null,
+    "description": "Event parameter names are part of the public contract a subscriber codes against, so they must be self-explanatory. Record parameters take the full table name with the spaces removed — SalesHeader for \"Sales Header\", not SalesHdr or SH.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "parameter-naming",
+      "readability",
+      "conventions",
+      "event-parameters",
+      "no-abbreviations",
+      "integration-event",
+      "clarity"
+    ],
     "ai_usage": null,
-    "words": 192
+    "words": 192,
+    "identifiers": [
+      "SalesHeader",
+      "SalesHdr",
+      "DocumentNo",
+      "DocNo"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "events",
+      "keywords": [
+        "parameter-naming",
+        "readability",
+        "conventions",
+        "event-parameters",
+        "no-abbreviations",
+        "integration-event",
+        "clarity"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Event parameter names are part of the public contract a subscriber codes against, so they must be self-explanatory. Record parameters take the full table name with the spaces removed — SalesHeader for \"Sales Header\", not SalesHdr or SH."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

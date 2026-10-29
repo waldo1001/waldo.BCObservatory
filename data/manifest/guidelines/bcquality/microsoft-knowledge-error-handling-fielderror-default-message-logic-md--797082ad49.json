@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/error-handling/fielderror-default-message-logic.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.150Z",
+      "at": "2026-10-29T21:28:26.085Z",
       "blob": "51c116aaf245f37fa030df518efab526cb2619be",
       "words": 308,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:26.146Z",
+      "path": "content/guidelines/microsoft/knowledge/error-handling/fielderror-default-message-logic.md"
     }
   },
   "input_hash": "51c116aaf245f37fa030df518efab526cb2619be",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/error-handling/fielderror-default-message-logic.md",
-    "description": null,
+    "description": "Rec.FieldError(FieldNo) does not just print the text you give it. Business Central automatically prepends the field caption, appends the current field value (when non-blank), and suffixes the table name and primary-key values for record identification.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "fielderror",
+      "testfield",
+      "error-message",
+      "field-caption",
+      "lowercase-convention",
+      "record-context",
+      "validation"
+    ],
     "ai_usage": null,
-    "words": 308
+    "words": 308,
+    "identifiers": [
+      "TestField",
+      "FieldError"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "error-handling",
+      "keywords": [
+        "fielderror",
+        "testfield",
+        "error-message",
+        "field-caption",
+        "lowercase-convention",
+        "record-context",
+        "validation"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Rec.FieldError(FieldNo) does not just print the text you give it. Business Central automatically prepends the field caption, appends the current field value (when non-blank), and suffixes the table name and primary-key values for record identification."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

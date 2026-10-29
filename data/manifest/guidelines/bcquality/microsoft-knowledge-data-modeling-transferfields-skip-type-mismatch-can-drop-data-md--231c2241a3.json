@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.117Z",
+      "at": "2026-10-29T21:28:25.288Z",
       "blob": "7f288b2836b94d4106e712517bf702b43c5e7ab7",
       "words": 239,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:25.361Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.md"
     }
   },
   "input_hash": "7f288b2836b94d4106e712517bf702b43c5e7ab7",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/transferfields-skip-type-mismatch-can-drop-data.md",
-    "description": null,
+    "description": "Record.TransferFields copies values between fields with matching field numbers. Without SkipFieldsNotMatchingType (or with it false), a type mismatch between two fields in the same extension raises a runtime error at the point of transfer.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "transferfields",
+      "skipfieldsnotmatchingtype",
+      "type-mismatch",
+      "field-mapping",
+      "data-transfer"
+    ],
     "ai_usage": null,
-    "words": 239
+    "words": 239,
+    "identifiers": [
+      "SkipFieldsNotMatchingType",
+      "InitPrimaryKeyFields",
+      "TransferFields"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "transferfields",
+        "skipfieldsnotmatchingtype",
+        "type-mismatch",
+        "field-mapping",
+        "data-transfer"
+      ],
+      "bc_version": [
+        "16.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Record.TransferFields copies values between fields with matching field numbers. Without SkipFieldsNotMatchingType (or with it false), a type mismatch between two fields in the same extension raises a runtime error at the point of transfer."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

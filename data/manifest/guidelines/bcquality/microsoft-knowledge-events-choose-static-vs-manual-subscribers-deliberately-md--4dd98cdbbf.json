@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/choose-static-vs-manual-subscribers-deliberately.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.187Z",
+      "at": "2026-10-29T21:28:26.733Z",
       "blob": "68c0dc399f7ca14c3bf85049054300ee7ba4daec",
       "words": 301,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:26.814Z",
+      "path": "content/guidelines/microsoft/knowledge/events/choose-static-vs-manual-subscribers-deliberately.md"
     }
   },
   "input_hash": "68c0dc399f7ca14c3bf85049054300ee7ba4daec",
@@ -25,13 +29,54 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/events/choose-static-vs-manual-subscribers-deliberately.md",
-    "description": null,
+    "description": "An [EventSubscriber] codeunit is static by default (EventSubscriberInstance = StaticAutomatic): it is always bound, so it fires for every raise of the event in every session.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "event-subscriber",
+      "static-subscriber",
+      "manual-subscriber",
+      "bindsubscription",
+      "unbindsubscription",
+      "eventsubscriberinstance",
+      "scoped-binding"
+    ],
     "ai_usage": null,
-    "words": 301
+    "words": 301,
+    "identifiers": [
+      "BindSubscription",
+      "UnbindSubscription",
+      "SingleInstance"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "events",
+      "keywords": [
+        "event-subscriber",
+        "static-subscriber",
+        "manual-subscriber",
+        "bindsubscription",
+        "unbindsubscription",
+        "eventsubscriberinstance",
+        "scoped-binding"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An [EventSubscriber] codeunit is static by default (EventSubscriberInstance = StaticAutomatic): it is always bound, so it fires for every raise of the event in every session."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

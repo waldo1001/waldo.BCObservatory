@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/avoid-loosely-typed-event-parameters.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.177Z",
+      "at": "2026-10-29T21:28:26.594Z",
       "blob": "894b1ad3fce04239b23252c54370e7ce75528885",
       "words": 197,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:26.663Z",
+      "path": "content/guidelines/microsoft/knowledge/events/avoid-loosely-typed-event-parameters.md"
     }
   },
   "input_hash": "894b1ad3fce04239b23252c54370e7ce75528885",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/events/avoid-loosely-typed-event-parameters.md",
-    "description": null,
+    "description": "Passing RecordRef or xRec as event parameters weakens the contract. A RecordRef parameter erases the table type, so subscribers must inspect at run time which table they received and can be handed an unexpected one, losing compile-time checking and direct field access.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "recordref",
+      "xrec",
+      "type-safety",
+      "event-parameters",
+      "strong-typing",
+      "integration-event",
+      "clarity"
+    ],
     "ai_usage": null,
-    "words": 197
+    "words": 197,
+    "identifiers": [
+      "RecordRef",
+      "xRec"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "events",
+      "keywords": [
+        "recordref",
+        "xrec",
+        "type-safety",
+        "event-parameters",
+        "strong-typing",
+        "integration-event",
+        "clarity"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Passing RecordRef or xRec as event parameters weakens the contract. A RecordRef parameter erases the table type, so subscribers must inspect at run time which table they received and can be handed an unexpected one, losing compile-time checking and direct field access."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

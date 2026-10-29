@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/preserve-onafter-execution-when-ishandled-skips-the-body.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.251Z",
+      "at": "2026-10-29T21:28:32.672Z",
       "blob": "10b7fd14930d1482f526011a6516e87ef4bcfc43",
       "words": 220,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:32.812Z",
+      "path": "content/guidelines/microsoft/knowledge/events/preserve-onafter-execution-when-ishandled-skips-the-body.md"
     }
   },
   "input_hash": "10b7fd14930d1482f526011a6516e87ef4bcfc43",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/events/preserve-onafter-execution-when-ishandled-skips-the-body.md",
-    "description": null,
+    "description": "A routine that exposes both an OnBefore… event (with var IsHandled) and a paired OnAfter… event has a subtle trap. The common if IsHandled then exit; guard returns from the whole routine, so when a subscriber handles the OnBefore the OnAfter event never fires.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "ishandled",
+      "onafter",
+      "event-pairing",
+      "control-flow",
+      "guard",
+      "integration-event",
+      "side-effects"
+    ],
     "ai_usage": null,
-    "words": 220
+    "words": 220,
+    "identifiers": [
+      "OnAfterX"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "events",
+      "keywords": [
+        "ishandled",
+        "onafter",
+        "event-pairing",
+        "control-flow",
+        "guard",
+        "integration-event",
+        "side-effects"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A routine that exposes both an OnBefore… event (with var IsHandled) and a paired OnAfter… event has a subtle trap. The common if IsHandled then exit; guard returns from the whole routine, so when a subscriber handles the OnBefore the OnAfter event never fires."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

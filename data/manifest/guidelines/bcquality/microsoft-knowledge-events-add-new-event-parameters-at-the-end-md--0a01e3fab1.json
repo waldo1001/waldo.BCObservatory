@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/add-new-event-parameters-at-the-end.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.171Z",
+      "at": "2026-10-29T21:28:26.599Z",
       "blob": "418a50f0f59d6adb620d7e5a53156f01c43c407d",
       "words": 181,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:26.671Z",
+      "path": "content/guidelines/microsoft/knowledge/events/add-new-event-parameters-at-the-end.md"
     }
   },
   "input_hash": "418a50f0f59d6adb620d7e5a53156f01c43c407d",
@@ -25,13 +29,54 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/events/add-new-event-parameters-at-the-end.md",
-    "description": null,
+    "description": "Event subscribers bind publisher parameters by name and can omit parameters they do not use. A local or internal Business or Integration event can therefore gain a parameter at any position without breaking subscriber-only consumers; appending is not a compatibility requirement.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "event-parameters",
+      "signature",
+      "backward-compatibility",
+      "public-event",
+      "local-event",
+      "internal-event",
+      "appsourcecop",
+      "as0024",
+      "as0025"
+    ],
     "ai_usage": null,
-    "words": 181
+    "words": 181,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "events",
+      "keywords": [
+        "event-parameters",
+        "signature",
+        "backward-compatibility",
+        "public-event",
+        "local-event",
+        "internal-event",
+        "appsourcecop",
+        "as0024",
+        "as0025"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Event subscribers bind publisher parameters by name and can omit parameters they do not use. A local or internal Business or Integration event can therefore gain a parameter at any position without breaking subscriber-only consumers; appending is not a compatibility requirement."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

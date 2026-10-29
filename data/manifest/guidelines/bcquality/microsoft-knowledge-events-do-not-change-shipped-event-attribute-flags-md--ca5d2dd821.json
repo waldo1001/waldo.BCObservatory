@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/do-not-change-shipped-event-attribute-flags.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.209Z",
+      "at": "2026-10-29T21:28:27.307Z",
       "blob": "f613f3ad65d4f1d58a5370222aea6f874ee53a38",
       "words": 182,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:27.372Z",
+      "path": "content/guidelines/microsoft/knowledge/events/do-not-change-shipped-event-attribute-flags.md"
     }
   },
   "input_hash": "f613f3ad65d4f1d58a5370222aea6f874ee53a38",
@@ -25,13 +29,59 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/events/do-not-change-shipped-event-attribute-flags.md",
-    "description": null,
+    "description": "IncludeSender and, on Integration events, GlobalVarAccess have been event-contract flags since runtime 1.0. Removing sender or global access breaks subscribers, so AppSourceCop AS0021 prevents changing those flags from true to false.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "event-attribute",
+      "includesender",
+      "globalvaraccess",
+      "isolated-event",
+      "compatibility",
+      "integration-event",
+      "business-event",
+      "appsourcecop",
+      "as0021",
+      "as0101"
+    ],
     "ai_usage": null,
-    "words": 182
+    "words": 182,
+    "identifiers": [
+      "IncludeSender",
+      "GlobalVarAccess"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "events",
+      "keywords": [
+        "event-attribute",
+        "includesender",
+        "globalvaraccess",
+        "isolated-event",
+        "compatibility",
+        "integration-event",
+        "business-event",
+        "appsourcecop",
+        "as0021",
+        "as0101"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "IncludeSender and, on Integration events, GlobalVarAccess have been event-contract flags since runtime 1.0. Removing sender or global access breaks subscribers, so AppSourceCop AS0021 prevents changing those flags from true to false."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

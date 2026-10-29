@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/prefer-reusing-or-extending-existing-events.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.235Z",
+      "at": "2026-10-29T21:28:32.690Z",
       "blob": "d2e272b09cbcc6871e0e87046df9f79b583d68f3",
       "words": 212,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:33.024Z",
+      "path": "content/guidelines/microsoft/knowledge/events/prefer-reusing-or-extending-existing-events.md"
     }
   },
   "input_hash": "d2e272b09cbcc6871e0e87046df9f79b583d68f3",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/events/prefer-reusing-or-extending-existing-events.md",
-    "description": null,
+    "description": "Before adding a publisher, check whether an event already fires at that point in the code. Two related smells signal that you should reuse or extend instead of adding one.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "event-reuse",
+      "duplication",
+      "consecutive-events",
+      "extension-point",
+      "onbefore",
+      "integration-event",
+      "maintainability"
+    ],
     "ai_usage": null,
-    "words": 212
+    "words": 212,
+    "identifiers": [
+      "OnBeforeProcessOrderWithCustomer",
+      "OnBeforeProcessOrder"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "events",
+      "keywords": [
+        "event-reuse",
+        "duplication",
+        "consecutive-events",
+        "extension-point",
+        "onbefore",
+        "integration-event",
+        "maintainability"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Before adding a publisher, check whether an event already fires at that point in the code. Two related smells signal that you should reuse or extend instead of adding one."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/do-not-bypass-critical-operations-with-ishandled.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.202Z",
+      "at": "2026-10-29T21:28:27.246Z",
       "blob": "7eff65fd40dd6d8f3e3bc25755ca43a0100f0072",
       "words": 236,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:27.314Z",
+      "path": "content/guidelines/microsoft/knowledge/events/do-not-bypass-critical-operations-with-ishandled.md"
     }
   },
   "input_hash": "7eff65fd40dd6d8f3e3bc25755ca43a0100f0072",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/events/do-not-bypass-critical-operations-with-ishandled.md",
-    "description": null,
+    "description": "The IsHandled override pattern lets a subscriber skip the guarded code entirely.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "ishandled",
+      "critical-operations",
+      "posting",
+      "data-integrity",
+      "ledger",
+      "integration-event",
+      "safety"
+    ],
     "ai_usage": null,
-    "words": 236
+    "words": 236,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "events",
+      "keywords": [
+        "ishandled",
+        "critical-operations",
+        "posting",
+        "data-integrity",
+        "ledger",
+        "integration-event",
+        "safety"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The IsHandled override pattern lets a subscriber skip the guarded code entirely."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
