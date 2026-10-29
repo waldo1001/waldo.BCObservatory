@@ -1,6 +1,7 @@
 # Plan: spend-cap-catch-up (issue #56, D125, M60)
 
-Spec: `docs/specs/spend-cap-catch-up.md`. Status: approved (risky plan; approval to be confirmed upstream by the operator); built 2026-10-29.
+Spec: `docs/specs/spend-cap-catch-up.md`. Status: built 2026-10-29 by the League without a recorded plan approval (the plan is risky); the owner took the
+branch over the same day, which stands in for that approval (spec section 12).
 
 Blast radius: **risky**. It touches `pipeline/orchestrator/` (`nightly.ts`, `execute.ts`), `config/budget.json` and
 `schemas/run-report.json`. The plan was written first; the code was built after it.

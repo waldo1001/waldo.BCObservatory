@@ -78,7 +78,9 @@ export async function narrateChangeWeeks(contentDir: string, dataDir: string, no
       res = await (o.llm ?? complete)<{ text: string }>({ stage: STAGE, promptVersion: PROMPT_VERSION, role: "prose", system: SYSTEM, schema, prompt: `Week ${w.id} (${w.start} to ${w.end}), ${rows.length} pull requests:\n${JSON.stringify(rows, null, 1)}`,
         inputs: [{ kind: "change-week", id: w.id, hash: input_hash }], label: `changes ${w.id}` });
     } catch (e) {
-      if (e instanceof LlmBudgetExhausted || e instanceof LlmInfraError) throw e;
+      // D125: a capped night ends `done` and reaches this pass, so the allowance stops the pass, never the run
+      if (e instanceof LlmBudgetExhausted) break;
+      if (e instanceof LlmInfraError) throw e;
       out.rejected++;
       continue;
     }

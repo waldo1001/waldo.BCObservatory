@@ -5,7 +5,7 @@ import { mkdirSync, mkdtempSync, readFileSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import matter from "gray-matter";
-import type { LlmRequest } from "../../pipeline/lib/llm.js";
+import { LlmBudgetExhausted, LlmInfraError, type LlmRequest } from "../../pipeline/lib/llm.js";
 import type { Llm } from "../../pipeline/extract/video.js";
 import { writeJson } from "../../pipeline/lib/fsx.js";
 import { changeUnit, mediaByTopic, unitPageId, type TopicCandidate, type TopicLinks } from "../../pipeline/link/topics.js";
@@ -58,6 +58,16 @@ test("weekly narrative: one Sonnet call, numbers validated, redone only when the
   assert.match(d.page, /## Code changes\n\nPayment terms moved this week\. #102[\s\S]*\(4 changes summarised by Sonnet/);
   assert.equal(acceptNarrative(`${said} See #999.`, new Set([101, 102, 103, 104])), null, "an invented number rejects the text");
   assert.equal(acceptNarrative("Too short.", new Set()), null);
+});
+
+test("weekly narrative: a used-up spend allowance stops the pass, never the run (D125: capped nights reach it)", async () => {
+  const pages = Object.fromEntries([101, 102, 103, 104].map((n) => [`changes/bcapps/${n}.md`, changePage(n)]));
+  const { contentDir, dataDir } = contentWith(pages);
+  const llm: Llm = async () => { throw new LlmBudgetExhausted(15, 15); };
+  assert.deepEqual(await narrateChangeWeeks(contentDir, dataDir, now, { quota: 2, llm }), { written: 0, rejected: 0, calls: 1 });
+  assert.equal(loadNarrative(dataDir, "2026-W41"), null, "nothing written: the week waits for a night with allowance");
+  const infra: Llm = async () => { throw new LlmInfraError("auth"); };
+  await assert.rejects(narrateChangeWeeks(contentDir, dataDir, now, { quota: 1, llm: infra }), LlmInfraError);
 });
 
 test("activity: the index lists what is open and the releases; the digest lists the week's releases", () => {

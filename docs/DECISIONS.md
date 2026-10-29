@@ -1373,8 +1373,10 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   $15 a night and $80 a week. Why: catch-ups on 7–8 and 24–26 Oct ($233 and $115) blocked ten nightlies, and with them
   even the free caption fetches. Normal weeks cost $26–40. Measured by replaying 22–27 Oct: the old window counted
   $121.67 and left $0 under the old caps; the new one counts $49.80, which under the old caps would leave $0.20 and
-  under the new caps leaves the full $15. Consequence: an
-  override run's spend is unbounded by design, so the owner bounds it when starting the run. Rejected: a week cap
+  under the new caps leaves the full $15. Because a capped run now ends `done`, the post-execute LLM passes run on
+  capped nights too and each stops itself on the allowance (the weekly change narrative rethrew it and was fixed in
+  the build's review). Consequence: an override run's spend is unbounded by design, so the owner bounds it when
+  starting the run. Rejected: a week cap
   near $260 (guards nothing), resetting the window after a catch-up (state outside the run reports), a per-handler
   `llm: true` flag (every handler could get it wrong; `LlmBudgetExhausted` is thrown before any spend), counting
   `--week-cap` raises. Spec `docs/specs/spend-cap-catch-up.md`, issue #56.

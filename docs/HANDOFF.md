@@ -42,16 +42,16 @@ questions in its section 12).
 
 ## Where things stand
 
-**Built 2026-10-29 (pipeline and config; takes effect on the next nightly on the Mini):**
+**Shipped 2026-10-29 (pipeline and config; takes effect on the next nightly on the Mini):**
 - **Catch-up runs no longer block the nightlies, and free stages run past the spend cap (D125, M60, issue #56).**
   Caps are $15 a night and $80 a week (`config/budget.json`). Spend of a run with a cap override (catch-up mode,
   `--unlimited`, `--night-cap`, `--week-cap`) is kept out of the window: the run report's `llm.day_capped_usd` is what
   counts, `llm.day_cost_usd` stays the full day total, and `spend.week_before_uncapped_usd` shows what was left out.
   When the allowance runs out, the executor no longer stops: an item whose stage needs the LLM waits untouched
-  (`execution.llm_held`, `llm_exhausted_at_calls`) and fetch and caption stages go on; such a run ends `done`. Once
-  deployed, the 25, 26 and 28 Oct override reports count as $0, so the window for the 10-30 run is about $46.56 and
-  it gets the full $15 allowance; the cap change alone (phase 1) would only unblock from 10-31 ($71.87 left out).
-  The spec's own edits wait in `docs/built/spend-cap-catch-up.md` for the PR review. Operator steps (spec section 7):
+  (`execution.llm_held`, `llm_exhausted_at_calls`) and fetch and caption stages go on; such a run ends `done`, and the
+  post-execute LLM passes each stop on the allowance without ending the run. Once deployed, the 25, 26 and 28 Oct
+  override reports count as $0, so the 10-30 run's window counts $43.12 (24 Oct only) and gets the full $15. Built by
+  the League (PR #57, quarantined) and finished by hand; spec section 12 has the deviations. Operator steps (spec section 7):
   the next nightly on the Mini (01:00 Europe/Brussels, or `gh workflow run nightly.yml --ref main`) logs `spend window:`
   and its report `data/manifest/_runs/<date>.json` has `llm.day_capped_usd` and `spend.week_before_uncapped_usd`; the
   first night that runs out of allowance shows `execution.llm_held > 0`, `stop_reason: "done"` and videos moving past
