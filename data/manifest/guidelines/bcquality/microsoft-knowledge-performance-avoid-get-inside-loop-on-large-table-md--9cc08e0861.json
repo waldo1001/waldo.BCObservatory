@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/avoid-get-inside-loop-on-large-table.md",
   "published_at": "2026-09-29T15:21:28.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:16:30.961Z",
+      "at": "2026-10-29T21:27:37.845Z",
       "blob": "08c73a9e8126c8fdf73061e775083c82d5ac1429",
       "words": 202,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:37.909Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/avoid-get-inside-loop-on-large-table.md"
     }
   },
   "input_hash": "08c73a9e8126c8fdf73061e775083c82d5ac1429",
@@ -25,13 +29,55 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/avoid-get-inside-loop-on-large-table.md",
-    "description": null,
+    "description": "A Get or FindFirst against another persistent table inside a loop can produce an N+1 access pattern: one outer query followed by repeated inner lookups. Server and primary-key caches can satisfy some Get calls, so a source-level Get is not proof of one SQL round-trip.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "n-plus-one",
+      "get",
+      "findfirst",
+      "loop",
+      "inner-lookup",
+      "large-table",
+      "item-get",
+      "query"
+    ],
     "ai_usage": null,
-    "words": 202
+    "words": 202,
+    "identifiers": [
+      "FindFirst",
+      "SetLoadFields"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "n-plus-one",
+        "get",
+        "findfirst",
+        "loop",
+        "inner-lookup",
+        "large-table",
+        "item-get",
+        "query"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A Get or FindFirst against another persistent table inside a loop can produce an N+1 access pattern: one outer query followed by repeated inner lookups. Server and primary-key caches can satisfy some Get calls, so a source-level Get is not proof of one SQL round-trip."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

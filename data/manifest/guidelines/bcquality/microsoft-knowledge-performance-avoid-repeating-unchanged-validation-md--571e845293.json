@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/avoid-repeating-unchanged-validation.md",
   "published_at": "2026-09-29T15:21:28.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:16:32.261Z",
+      "at": "2026-10-29T21:27:38.067Z",
       "blob": "96325b35267a1ff1bb88c28dd889310c9652b2ac",
       "words": 235,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:38.129Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/avoid-repeating-unchanged-validation.md"
     }
   },
   "input_hash": "96325b35267a1ff1bb88c28dd889310c9652b2ac",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/avoid-repeating-unchanged-validation.md",
-    "description": null,
+    "description": "Validate runs field validation logic, which can invoke subscribers and additional reads or writes even if the assigned value is unchanged. When a document-building path validates the same field twice without changing any input its validation depends on, the second cascade may do the same work again.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "validate",
+      "onvalidate",
+      "repeated-write",
+      "sales-line",
+      "subscriber",
+      "unchanged-value"
+    ],
     "ai_usage": null,
-    "words": 235
+    "words": 235,
+    "identifiers": [
+      "OnValidate"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "validate",
+        "onvalidate",
+        "repeated-write",
+        "sales-line",
+        "subscriber",
+        "unchanged-value"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Validate runs field validation logic, which can invoke subscribers and additional reads or writes even if the assigned value is unchanged. When a document-building path validates the same field twice without changing any input its validation depends on, the second cascade may do the same work again."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

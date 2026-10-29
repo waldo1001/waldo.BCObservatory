@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/prefer-modifyall-over-per-row-modify.md",
   "published_at": "2026-09-29T15:21:28.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:18:00.936Z",
+      "at": "2026-10-29T21:27:38.561Z",
       "blob": "34ea81cca09dd98c9471fff563b92fc814da98f0",
       "words": 228,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:38.644Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/prefer-modifyall-over-per-row-modify.md"
     }
   },
   "input_hash": "34ea81cca09dd98c9471fff563b92fc814da98f0",
@@ -25,13 +29,54 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/prefer-modifyall-over-per-row-modify.md",
-    "description": null,
+    "description": "ModifyAll assigns one value to one field across the filtered set. It does not run the field's OnValidate trigger. Its optional RunTrigger parameter controls the table OnModify trigger, not field validation.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "modifyall",
+      "deleteall",
+      "bulk",
+      "loop",
+      "modify",
+      "set-based"
+    ],
     "ai_usage": null,
-    "words": 228
+    "words": 228,
+    "identifiers": [
+      "ModifyAll",
+      "OnValidate",
+      "RunTrigger",
+      "OnModify",
+      "MediaSet"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "modifyall",
+        "deleteall",
+        "bulk",
+        "loop",
+        "modify",
+        "set-based"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "ModifyAll assigns one value to one field across the filtered set. It does not run the field's OnValidate trigger. Its optional RunTrigger parameter controls the table OnModify trigger, not field validation."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

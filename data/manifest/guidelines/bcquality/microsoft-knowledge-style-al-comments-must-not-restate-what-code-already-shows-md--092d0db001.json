@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/al-comments-must-not-restate-what-code-already-shows.md",
   "published_at": "2026-09-29T15:29:36.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:14:49.464Z",
+      "at": "2026-10-29T21:27:37.458Z",
       "blob": "52c3c0a697cc894153f1dfc50da4b0ca44684039",
       "words": 190,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:37.506Z",
+      "path": "content/guidelines/microsoft/knowledge/style/al-comments-must-not-restate-what-code-already-shows.md"
     }
   },
   "input_hash": "52c3c0a697cc894153f1dfc50da4b0ca44684039",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/al-comments-must-not-restate-what-code-already-shows.md",
-    "description": null,
+    "description": "A comment above nearly every statement that just narrates what the statement already says (// Validate the customer number above SalesHeader.Validate(\"Sell-to Customer No.\", CustomerNo)) adds noise without adding information.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "comments",
+      "verbosity",
+      "self-documenting",
+      "restate",
+      "tutorial-style",
+      "credit-memo-routing"
+    ],
     "ai_usage": null,
-    "words": 190
+    "words": 190,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "comments",
+        "verbosity",
+        "self-documenting",
+        "restate",
+        "tutorial-style",
+        "credit-memo-routing"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A comment above nearly every statement that just narrates what the statement already says (// Validate the customer number above SalesHeader.Validate(\"Sell-to Customer No.\", CustomerNo)) adds noise without adding information."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

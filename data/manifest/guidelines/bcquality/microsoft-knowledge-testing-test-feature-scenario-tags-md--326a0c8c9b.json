@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/test-feature-scenario-tags.md",
   "published_at": "2026-09-29T15:29:36.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:15:19.503Z",
+      "at": "2026-10-29T21:27:37.669Z",
       "blob": "89198fb4cc676a2f501302a1bd9b2706a5db7d8c",
       "words": 266,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:37.718Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/test-feature-scenario-tags.md"
     }
   },
   "input_hash": "89198fb4cc676a2f501302a1bd9b2706a5db7d8c",
@@ -25,13 +29,56 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/test-feature-scenario-tags.md",
-    "description": null,
+    "description": "Test codeunits are easier to trust and to review when they carry a four-level comment structure taken from Behaviour-/Acceptance-Test-Driven Development: [FEATURE] once at the top of the codeunit naming the functional area under test, [SCENARIO] above each test procedure stating one falsifiable…",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "feature",
+      "scenario",
+      "given",
+      "when",
+      "then",
+      "tags",
+      "bdd",
+      "atdd",
+      "comments",
+      "subtype-test"
+    ],
     "ai_usage": null,
-    "words": 266
+    "words": 266,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "feature",
+        "scenario",
+        "given",
+        "when",
+        "then",
+        "tags",
+        "bdd",
+        "atdd",
+        "comments",
+        "subtype-test"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Test codeunits are easier to trust and to review when they carry a four-level comment structure taken from Behaviour-/Acceptance-Test-Driven Development: [FEATURE] once at the top of the codeunit naming the functional area under test, [SCENARIO] above each test procedure stating one falsifiable…"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

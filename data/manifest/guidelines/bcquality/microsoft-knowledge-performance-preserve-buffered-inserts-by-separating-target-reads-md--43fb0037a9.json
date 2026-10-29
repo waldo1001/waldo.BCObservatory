@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/preserve-buffered-inserts-by-separating-target-reads.md",
   "published_at": "2026-09-29T15:21:28.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:18:33.364Z",
+      "at": "2026-10-29T21:27:38.754Z",
       "blob": "7459ee438de6e1723a9994e2e3fb8d8b93fe5cfe",
       "words": 247,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:43.651Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/preserve-buffered-inserts-by-separating-target-reads.md"
     }
   },
   "input_hash": "7459ee438de6e1723a9994e2e3fb8d8b93fe5cfe",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/preserve-buffered-inserts-by-separating-target-reads.md",
-    "description": null,
+    "description": "Business Central can automatically buffer eligible Insert calls. Find/Calc on the target table, Modify/Delete on it, or Commit flushes pending inserts; consuming the Insert return value, or BLOB/AutoIncrement fields on the target, prevents buffering.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "buffered-inserts",
+      "bulk-inserts",
+      "findlast",
+      "insert",
+      "target-table",
+      "commit",
+      "staging"
+    ],
     "ai_usage": null,
-    "words": 247
+    "words": 247,
+    "identifiers": [
+      "InsertAll",
+      "FindLast"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "buffered-inserts",
+        "bulk-inserts",
+        "findlast",
+        "insert",
+        "target-table",
+        "commit",
+        "staging"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Business Central can automatically buffer eligible Insert calls. Find/Calc on the target table, Modify/Delete on it, or Commit flushes pending inserts; consuming the Insert return value, or BLOB/AutoIncrement fields on the target, prevents buffering."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

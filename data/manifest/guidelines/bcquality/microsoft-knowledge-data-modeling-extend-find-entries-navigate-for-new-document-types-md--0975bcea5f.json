@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/extend-find-entries-navigate-for-new-document-types.md",
   "published_at": "2026-09-30T11:22:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:12:57.033Z",
+      "at": "2026-10-29T21:27:36.738Z",
       "blob": "468756e923238d010f4d3797e4add9e8c6b594a6",
       "words": 615,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:36.833Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/extend-find-entries-navigate-for-new-document-types.md"
     }
   },
   "input_hash": "468756e923238d010f4d3797e4add9e8c6b594a6",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/extend-find-entries-navigate-for-new-document-types.md",
-    "description": null,
+    "description": "page 344 Navigate (caption \"Find entries\") lets a user enter a document number and posting date and see, across every document and ledger entry table BC knows about, how many matching records exist — then drill into any of those rows.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "navigate",
+      "find-entries",
+      "document-entry",
+      "integration-event",
+      "drill-down"
+    ],
     "ai_usage": null,
-    "words": 615
+    "words": 615,
+    "identifiers": [
+      "OnAfterFindRecords",
+      "DocNoFilter",
+      "PostingDateFilter",
+      "OnBeforeShowRecords"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "navigate",
+        "find-entries",
+        "document-entry",
+        "integration-event",
+        "drill-down"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "page 344 Navigate (caption \"Find entries\") lets a user enter a document number and posting date and see, across every document and ledger entry table BC knows about, how many matching records exist — then drill into any of those rows."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

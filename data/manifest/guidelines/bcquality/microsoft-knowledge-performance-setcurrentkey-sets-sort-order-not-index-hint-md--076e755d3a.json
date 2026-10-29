@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/setcurrentkey-sets-sort-order-not-index-hint.md",
   "published_at": "2026-09-29T15:21:28.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:19:30.218Z",
+      "at": "2026-10-29T21:27:43.488Z",
       "blob": "ea99299924917bc3e303126dd1a61fb035e6339a",
       "words": 441,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:43.751Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/setcurrentkey-sets-sort-order-not-index-hint.md"
     }
   },
   "input_hash": "ea99299924917bc3e303126dd1a61fb035e6339a",
@@ -25,13 +29,59 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/setcurrentkey-sets-sort-order-not-index-hint.md",
-    "description": null,
+    "description": "A common misconception is that SetCurrentKey tells SQL Server which index to use for a filtered FindSet/FindFirst query. It does not.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "setcurrentkey",
+      "sort",
+      "order-by",
+      "index",
+      "key",
+      "query-optimizer",
+      "hint"
+    ],
     "ai_usage": null,
-    "words": 441
+    "words": 441,
+    "identifiers": [
+      "SetCurrentKey",
+      "FindSet",
+      "FindFirst",
+      "SumIndexFields",
+      "CalcSums",
+      "SetRange",
+      "SetFilter",
+      "FindLast"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "setcurrentkey",
+        "sort",
+        "order-by",
+        "index",
+        "key",
+        "query-optimizer",
+        "hint"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A common misconception is that SetCurrentKey tells SQL Server which index to use for a filtered FindSet/FindFirst query. It does not."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

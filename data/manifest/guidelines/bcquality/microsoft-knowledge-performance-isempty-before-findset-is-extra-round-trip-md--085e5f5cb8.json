@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/isempty-before-findset-is-extra-round-trip.md",
   "published_at": "2026-09-29T15:21:28.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:17:34.612Z",
+      "at": "2026-10-29T21:27:38.436Z",
       "blob": "cdbd8ae5ca94072e12c3a6044ce0150f80ec27f6",
       "words": 206,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:38.553Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/isempty-before-findset-is-extra-round-trip.md"
     }
   },
   "input_hash": "cdbd8ae5ca94072e12c3a6044ce0150f80ec27f6",
@@ -25,13 +29,49 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/isempty-before-findset-is-extra-round-trip.md",
-    "description": null,
+    "description": "IsEmpty is the right API when the caller only needs existence — see microsoft/knowledge/performance/use-isempty-for-existence-check.md. It is not a cheap guard in front of a loop that will FindSet anyway.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "isempty",
+      "findset",
+      "extra-round-trip",
+      "existence-check",
+      "false-positive"
+    ],
     "ai_usage": null,
-    "words": 206
+    "words": 206,
+    "identifiers": [
+      "IsEmpty",
+      "FindSet"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "isempty",
+        "findset",
+        "extra-round-trip",
+        "existence-check",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "IsEmpty is the right API when the caller only needs existence — see microsoft/knowledge/performance/use-isempty-for-existence-check.md. It is not a cheap guard in front of a loop that will FindSet anyway."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

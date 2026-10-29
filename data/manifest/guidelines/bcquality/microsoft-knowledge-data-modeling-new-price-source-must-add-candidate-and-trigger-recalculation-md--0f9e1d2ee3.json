@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/new-price-source-must-add-candidate-and-trigger-recalculation.md",
   "published_at": "2026-09-30T11:22:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:14:01.171Z",
+      "at": "2026-10-29T21:27:36.924Z",
       "blob": "828fc8c442b15e19893dbd97ce22d0917597f4d8",
       "words": 593,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:37.226Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/new-price-source-must-add-candidate-and-trigger-recalculation.md"
     }
   },
   "input_hash": "828fc8c442b15e19893dbd97ce22d0917597f4d8",
@@ -25,13 +29,55 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/new-price-source-must-add-candidate-and-trigger-recalculation.md",
-    "description": null,
+    "description": "Making a custom field usable as a price source on a sales line is two separate, independent pieces of wiring, and doing only one produces a line that looks like it's using the new source without ever actually being priced by it.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "price-calculation",
+      "price-source",
+      "onafteraddsources",
+      "recalculation",
+      "pricing"
+    ],
     "ai_usage": null,
-    "words": 593
+    "words": 593,
+    "identifiers": [
+      "UpdateUnitPriceByField",
+      "PlanPriceCalcByField",
+      "OnAfterAddSources",
+      "OnValidate",
+      "OnAfterValidate",
+      "UpdateUnitPrice",
+      "FieldCausedPriceCalculation",
+      "CalledByFieldNo"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "price-calculation",
+        "price-source",
+        "onafteraddsources",
+        "recalculation",
+        "pricing"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Making a custom field usable as a price source on a sales line is two separate, independent pieces of wiring, and doing only one produces a line that looks like it's using the new source without ever actually being priced by it."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

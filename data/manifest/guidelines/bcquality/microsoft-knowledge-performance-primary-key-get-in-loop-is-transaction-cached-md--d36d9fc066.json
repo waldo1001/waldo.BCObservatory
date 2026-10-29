@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/primary-key-get-in-loop-is-transaction-cached.md",
   "published_at": "2026-09-29T15:21:28.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:18:41.856Z",
+      "at": "2026-10-29T21:27:43.507Z",
       "blob": "3594a057be4248be308e60faa9345ee009d92a5e",
       "words": 272,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:43.941Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/primary-key-get-in-loop-is-transaction-cached.md"
     }
   },
   "input_hash": "3594a057be4248be308e60faa9345ee009d92a5e",
@@ -25,13 +29,55 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/primary-key-get-in-loop-is-transaction-cached.md",
-    "description": null,
+    "description": "The Business Central server caches primary-key reads within a transaction. Repeated Record.Get(<primary key>) calls for the same key are served from that cache rather than re-queried, so a guarded if not Rec.Get(...) then exit; inside a per-row helper is not a genuine N+1 pattern.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "get",
+      "primary-key",
+      "record-cache",
+      "transaction",
+      "n-plus-one",
+      "dictionary-cache",
+      "over-engineering",
+      "false-positive"
+    ],
     "ai_usage": null,
-    "words": 272
+    "words": 272,
+    "identifiers": [
+      "FindSet",
+      "FindFirst"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "get",
+        "primary-key",
+        "record-cache",
+        "transaction",
+        "n-plus-one",
+        "dictionary-cache",
+        "over-engineering",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The Business Central server caches primary-key reads within a transaction. Repeated Record.Get(<primary key>) calls for the same key are served from that cache rather than re-queried, so a guarded if not Rec.Get(...) then exit; inside a per-row helper is not a genuine N+1 pattern."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

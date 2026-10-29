@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/custom-document-dispatch-must-not-bypass-report-selections.md",
   "published_at": "2026-09-30T11:22:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:12:22.026Z",
+      "at": "2026-10-29T21:27:36.218Z",
       "blob": "f6b15f99b911bded45fc52c706a85020d6a4e61e",
       "words": 406,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:36.291Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/custom-document-dispatch-must-not-bypass-report-selections.md"
     }
   },
   "input_hash": "f6b15f99b911bded45fc52c706a85020d6a4e61e",
@@ -25,13 +29,49 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/custom-document-dispatch-must-not-bypass-report-selections.md",
-    "description": null,
+    "description": "A codeunit that hardcodes which report to run (Report.RunModal(MyReportId, ...)), or builds its own email directly, instead of registering the document through table 77 \"Report Selections\" and calling its own Print/Email procedures, works for the one case it was written for — and loses everything…",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "report-selections",
+      "document-layouts",
+      "custom-report-layout",
+      "email-attachment",
+      "bespoke-dispatch"
+    ],
     "ai_usage": null,
-    "words": 406
+    "words": 406,
+    "identifiers": [
+      "SendEmailToCust",
+      "PrintWithDialogForCust"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "report-selections",
+        "document-layouts",
+        "custom-report-layout",
+        "email-attachment",
+        "bespoke-dispatch"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A codeunit that hardcodes which report to run (Report.RunModal(MyReportId, ...)), or builds its own email directly, instead of registering the document through table 77 \"Report Selections\" and calling its own Print/Email procedures, works for the one case it was written for — and loses everything…"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

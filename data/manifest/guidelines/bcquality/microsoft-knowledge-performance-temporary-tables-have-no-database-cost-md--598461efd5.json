@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/temporary-tables-have-no-database-cost.md",
   "published_at": "2026-09-29T15:21:28.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:19:43.387Z",
+      "at": "2026-10-29T21:27:43.482Z",
       "blob": "a392e0bd647d6d88977055246f1b03005e19a711",
       "words": 208,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:43.773Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/temporary-tables-have-no-database-cost.md"
     }
   },
   "input_hash": "a392e0bd647d6d88977055246f1b03005e19a711",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/temporary-tables-have-no-database-cost.md",
-    "description": null,
+    "description": "A temporary table stores its rows in Business Central Server memory instead of a physical SQL table. Its reads and writes therefore do not incur SQL round-trips, locking, or SIFT maintenance.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "temporary-table",
+      "in-memory",
+      "findset",
+      "findfirst",
+      "get",
+      "no-db-cost"
+    ],
     "ai_usage": null,
-    "words": 208
+    "words": 208,
+    "identifiers": [
+      "SetLoadFields"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "temporary-table",
+        "in-memory",
+        "findset",
+        "findfirst",
+        "get",
+        "no-db-cost"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A temporary table stores its rows in Business Central Server memory instead of a physical SQL table. Its reads and writes therefore do not incur SQL round-trips, locking, or SIFT maintenance."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

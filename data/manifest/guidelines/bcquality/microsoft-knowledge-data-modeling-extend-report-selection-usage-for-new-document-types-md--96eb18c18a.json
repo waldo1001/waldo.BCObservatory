@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/extend-report-selection-usage-for-new-document-types.md",
   "published_at": "2026-09-30T11:22:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:13:45.442Z",
+      "at": "2026-10-29T21:27:36.891Z",
       "blob": "375064566aa7575c0fed2707a55911b2e5a9519a",
       "words": 534,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:37.063Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/extend-report-selection-usage-for-new-document-types.md"
     }
   },
   "input_hash": "375064566aa7575c0fed2707a55911b2e5a9519a",
@@ -25,13 +29,57 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/extend-report-selection-usage-for-new-document-types.md",
-    "description": null,
+    "description": "A custom document that needs printing/emailing should be registered through table 77 \"Report Selections\".",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "report-selections",
+      "report-selection-usage",
+      "enumextension",
+      "document-layouts",
+      "custom-report-selection"
+    ],
     "ai_usage": null,
-    "words": 534
+    "words": 534,
+    "identifiers": [
+      "OnAfterOnMapTableUsageValueToPageValue",
+      "ReportSelectionHandlerCZZ",
+      "ReportSelectionHandlerCZC",
+      "InsertRecord",
+      "FilterCustomerUsageReportSelections",
+      "OnAfterFilterCustomerUsageReportSelections",
+      "OnValidateUsage2OnCaseElse",
+      "FilterVendorUsageReportSelections",
+      "OnAfterFilterVendorUsageReportSelections",
+      "OnMapTableUsageValueToPageValueOnCaseElse"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "report-selections",
+        "report-selection-usage",
+        "enumextension",
+        "document-layouts",
+        "custom-report-selection"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A custom document that needs printing/emailing should be registered through table 77 \"Report Selections\"."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

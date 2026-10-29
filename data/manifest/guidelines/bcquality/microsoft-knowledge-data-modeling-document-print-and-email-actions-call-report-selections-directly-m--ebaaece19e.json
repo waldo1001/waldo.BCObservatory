@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/document-print-and-email-actions-call-report-selections-directly.md",
   "published_at": "2026-09-30T11:22:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:12:47.015Z",
+      "at": "2026-10-29T21:27:36.438Z",
       "blob": "f331619e9f76b7ddadfb4bc319cac57d3df2d587",
       "words": 525,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:36.727Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/document-print-and-email-actions-call-report-selections-directly.md"
     }
   },
   "input_hash": "f331619e9f76b7ddadfb4bc319cac57d3df2d587",
@@ -25,13 +29,70 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/document-print-and-email-actions-call-report-selections-directly.md",
-    "description": null,
+    "description": "table 60 \"Document Sending Profile\" is not a general gateway for every print/email path — it exists specifically for the combined Post and Send action: \"You can set each customer up with a preferred method of sending sales documents, so that you do not have to select a sending option every time…",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "report-selections",
+      "document-sending-profile",
+      "print",
+      "email",
+      "post-and-send"
+    ],
     "ai_usage": null,
-    "words": 525
+    "words": 525,
+    "identifiers": [
+      "PrintSalesOrder",
+      "EmailSalesHeader",
+      "PrintWithDialogForCust",
+      "SendEmailToCust",
+      "PrintWithDialogForVend",
+      "PrintRecords",
+      "EmailRecords",
+      "TrySendToEMail",
+      "TrySendToPrinterVendor",
+      "SendToPrinter",
+      "SendToEMailGroupedMultipleSelection",
+      "SendToEMail",
+      "SendToDisk",
+      "SendProfile",
+      "SendRecords",
+      "PrintForCust",
+      "SendEmailToVendor",
+      "TrySendToPrinter",
+      "GetDefaultForCustomer",
+      "GetDefaultForVendor",
+      "SendVendor",
+      "DoPrintSalesHeader",
+      "ConfirmPostAndSend"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "report-selections",
+        "document-sending-profile",
+        "print",
+        "email",
+        "post-and-send"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "table 60 \"Document Sending Profile\" is not a general gateway for every print/email path — it exists specifically for the combined Post and Send action: \"You can set each customer up with a preferred method of sending sales documents, so that you do not have to select a sending option every time…"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

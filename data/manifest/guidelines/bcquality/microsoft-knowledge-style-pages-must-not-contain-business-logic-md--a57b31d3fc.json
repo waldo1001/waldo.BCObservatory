@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/pages-must-not-contain-business-logic.md",
   "published_at": "2026-09-29T15:29:36.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:15:03.676Z",
+      "at": "2026-10-29T21:27:37.484Z",
       "blob": "ed5a4cb1a0b43f5c404b8a391fee5eef30493f58",
       "words": 330,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:37.561Z",
+      "path": "content/guidelines/microsoft/knowledge/style/pages-must-not-contain-business-logic.md"
     }
   },
   "input_hash": "ed5a4cb1a0b43f5c404b8a391fee5eef30493f58",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/pages-must-not-contain-business-logic.md",
-    "description": null,
+    "description": "A page procedure that persists a business mutation directly (Rec.Modify() outside the standard record-bound save, or a cross-entry-point business rule implemented only in a page trigger) is an architecture violation even when it compiles: the rule only applies when a user opens that specific page,…",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "pages",
+      "business-logic",
+      "codeunit",
+      "separation-of-concerns",
+      "presentation-layer",
+      "rec-modify"
+    ],
     "ai_usage": null,
-    "words": 330
+    "words": 330,
+    "identifiers": [
+      "OnOpenPage",
+      "OnValidate",
+      "OnAction"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "pages",
+        "business-logic",
+        "codeunit",
+        "separation-of-concerns",
+        "presentation-layer",
+        "rec-modify"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A page procedure that persists a business mutation directly (Rec.Modify() outside the standard record-bound save, or a cross-entry-point business rule implemented only in a page trigger) is an architecture violation even when it compiles: the rule only applies when a user opens that specific page,…"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/extend-price-source-type-must-sync-document-subset-enum.md",
   "published_at": "2026-09-30T11:22:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:13:35.871Z",
+      "at": "2026-10-29T21:27:36.733Z",
       "blob": "02e628729807ed0cd9b3098d4d0e1c79de994b6c",
       "words": 438,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:36.779Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/extend-price-source-type-must-sync-document-subset-enum.md"
     }
   },
   "input_hash": "02e628729807ed0cd9b3098d4d0e1c79de994b6c",
@@ -25,13 +29,46 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/extend-price-source-type-must-sync-document-subset-enum.md",
-    "description": null,
+    "description": "enum 7003 \"Price Source Type\" (implements \"Price Source\", \"Price Source Group\") is the base list of who a price can apply to — Customer, Vendor, Customer Price Group, Campaign, and so on. It is not, by itself, what drives the \"Applies-to Type\" field on an actual sales, purchase, or job price list.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "price-calculation",
+      "price-source",
+      "price-source-type",
+      "enumextension",
+      "pricing"
+    ],
     "ai_usage": null,
-    "words": 438
+    "words": 438,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "price-calculation",
+        "price-source",
+        "price-source-type",
+        "enumextension",
+        "pricing"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "enum 7003 \"Price Source Type\" (implements \"Price Source\", \"Price Source Group\") is the base list of who a price can apply to — Customer, Vendor, Customer Price Group, Campaign, and so on. It is not, by itself, what drives the \"Applies-to Type\" field on an actual sales, purchase, or job price list."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

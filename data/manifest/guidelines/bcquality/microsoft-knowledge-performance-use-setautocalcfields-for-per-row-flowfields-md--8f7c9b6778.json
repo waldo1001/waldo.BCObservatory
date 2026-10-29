@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/use-setautocalcfields-for-per-row-flowfields.md",
   "published_at": "2026-09-29T15:21:28.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:19:54.496Z",
+      "at": "2026-10-29T21:27:43.476Z",
       "blob": "e23cc98e31a70219bc1c8a4864c78dc01b168551",
       "words": 186,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:43.834Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/use-setautocalcfields-for-per-row-flowfields.md"
     }
   },
   "input_hash": "e23cc98e31a70219bc1c8a4864c78dc01b168551",
@@ -25,13 +29,54 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/use-setautocalcfields-for-per-row-flowfields.md",
-    "description": null,
+    "description": "Record.SetAutoCalcFields has been available since runtime 1.0 and makes the specified FlowFields calculate as records are retrieved. Microsoft's AL database-method performance guidance uses it to remove an explicit CalcFields call from every iteration when each row's FlowField drives a branch.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "setautocalcfields",
+      "calcfields",
+      "calcsums",
+      "flowfield",
+      "loop",
+      "per-row"
+    ],
     "ai_usage": null,
-    "words": 186
+    "words": 186,
+    "identifiers": [
+      "CalcFields",
+      "CalcSums",
+      "SetAutoCalcFields",
+      "FindSet",
+      "CalcFormula"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "setautocalcfields",
+        "calcfields",
+        "calcsums",
+        "flowfield",
+        "loop",
+        "per-row"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Record.SetAutoCalcFields has been available since runtime 1.0 and makes the specified FlowFields calculate as records are retrieved. Microsoft's AL database-method performance guidance uses it to remove an explicit CalcFields call from every iteration when each row's FlowField drives a branch."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
