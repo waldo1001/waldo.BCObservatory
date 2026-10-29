@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-scm-review.md",
   "published_at": "2026-09-29T11:03:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:28:30.332Z",
+      "at": "2026-10-29T21:27:52.722Z",
       "blob": "8e22e2c5bf6d2a252f2c36a13471d0be3e049420",
       "words": 901,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:52.943Z",
+      "path": "content/guidelines/microsoft/skills/review/al-scm-review.md"
     }
   },
   "input_hash": "8e22e2c5bf6d2a252f2c36a13471d0be3e049420",
@@ -31,7 +35,41 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 901
+    "words": 901,
+    "identifiers": [
+      "ApplicationArea",
+      "RunWithCheck",
+      "UnApply",
+      "ReApply",
+      "RedoApplications",
+      "CostAdjust",
+      "CancelReservation",
+      "TransferSaleLineToSalesLine",
+      "TransferReservEntry",
+      "CopyItemTracking",
+      "CalcQtyAvailableToPromise",
+      "CarryOutBatchAction"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": null,
+      "keywords": [],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "skill",
+      "summary": "Reviews SCM inventory costing, item application, reservations, order tracking, item tracking, warehouse, transfer, and planning workflows in AL."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

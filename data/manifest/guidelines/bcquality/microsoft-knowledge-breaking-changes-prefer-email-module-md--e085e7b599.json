@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/breaking-changes/prefer-email-module.md",
   "published_at": "2026-09-29T10:48:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:28:30.380Z",
+      "at": "2026-10-29T21:27:53.876Z",
       "blob": "6c04b37d5f3a06b79b283471b31ee310a731bc59",
       "words": 246,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:53.948Z",
+      "path": "content/guidelines/microsoft/knowledge/breaking-changes/prefer-email-module.md"
     }
   },
   "input_hash": "6c04b37d5f3a06b79b283471b31ee310a731bc59",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/breaking-changes/prefer-email-module.md",
-    "description": null,
+    "description": "Older AL code sends email by calling Codeunit Mail (397).",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "email",
+      "codeunit-mail",
+      "email-message",
+      "email-scenario",
+      "email-account",
+      "smtp",
+      "sending-email"
+    ],
     "ai_usage": null,
-    "words": 246
+    "words": 246,
+    "identifiers": [
+      "CreateMessage",
+      "GetErrorDesc"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "breaking-changes",
+      "keywords": [
+        "email",
+        "codeunit-mail",
+        "email-message",
+        "email-scenario",
+        "email-account",
+        "smtp",
+        "sending-email"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Older AL code sends email by calling Codeunit Mail (397)."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/check-http-status-before-consuming-response-body.md",
   "published_at": "2026-09-29T11:03:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:28:01.546Z",
+      "at": "2026-10-29T21:27:52.563Z",
       "blob": "f92487073caa0abad369e7a7e26e3fdec1360f0a",
       "words": 169,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:52.616Z",
+      "path": "content/guidelines/microsoft/knowledge/web-services/check-http-status-before-consuming-response-body.md"
     }
   },
   "input_hash": "f92487073caa0abad369e7a7e26e3fdec1360f0a",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/web-services/check-http-status-before-consuming-response-body.md",
-    "description": null,
+    "description": "A successful AL HttpClient call only confirms that the platform completed the HTTP exchange. The server can still return 4xx or 5xx, often with an error document whose shape differs from the expected success payload.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "httpclient",
+      "httpresponsemessage",
+      "issuccessstatuscode",
+      "httpstatuscode",
+      "response-body",
+      "json"
+    ],
     "ai_usage": null,
-    "words": 169
+    "words": 169,
+    "identifiers": [
+      "HttpClient"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "web-services",
+      "keywords": [
+        "httpclient",
+        "httpresponsemessage",
+        "issuccessstatuscode",
+        "httpstatuscode",
+        "response-body",
+        "json"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A successful AL HttpClient call only confirms that the platform completed the HTTP exchange. The server can still return 4xx or 5xx, often with an error document whose shape differs from the expected success payload."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

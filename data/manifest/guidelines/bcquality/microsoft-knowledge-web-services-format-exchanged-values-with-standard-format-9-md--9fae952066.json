@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/format-exchanged-values-with-standard-format-9.md",
   "published_at": "2026-09-29T11:03:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:28:01.560Z",
+      "at": "2026-10-29T21:27:52.568Z",
       "blob": "adc1daecb7df7b525312e630c0ed3761f0763c39",
       "words": 395,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:52.711Z",
+      "path": "content/guidelines/microsoft/knowledge/web-services/format-exchanged-values-with-standard-format-9.md"
     }
   },
   "input_hash": "adc1daecb7df7b525312e630c0ed3761f0763c39",
@@ -25,13 +29,61 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/web-services/format-exchanged-values-with-standard-format-9.md",
-    "description": null,
+    "description": "Format(Value) uses standard format 0, the display format, and follows the current user's regional settings. The same decimal renders as -76.543,21 for a European region and -76,543.21 for English (US); the same date renders as 05-04-21 or 04/05/21.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "format",
+      "evaluate",
+      "standard-format-9",
+      "xml-format",
+      "locale",
+      "regional-settings",
+      "decimal-separator",
+      "data-exchange",
+      "integration"
+    ],
     "ai_usage": null,
-    "words": 395
+    "words": 395,
+    "identifiers": [
+      "DateTime",
+      "StrSubstNo",
+      "HttpContent",
+      "HttpRequestMessage",
+      "OutStream",
+      "XmlDocument"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "web-services",
+      "keywords": [
+        "format",
+        "evaluate",
+        "standard-format-9",
+        "xml-format",
+        "locale",
+        "regional-settings",
+        "decimal-separator",
+        "data-exchange",
+        "integration"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Format(Value) uses standard format 0, the display format, and follows the current user's regional settings. The same decimal renders as -76.543,21 for a European region and -76,543.21 for English (US); the same date renders as 05-04-21 or 04/05/21."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

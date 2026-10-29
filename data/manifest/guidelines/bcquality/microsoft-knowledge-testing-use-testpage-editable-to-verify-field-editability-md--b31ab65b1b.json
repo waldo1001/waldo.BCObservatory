@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/use-testpage-editable-to-verify-field-editability.md",
   "published_at": "2026-09-29T10:49:11.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:28:30.361Z",
+      "at": "2026-10-29T21:27:53.395Z",
       "blob": "f94c792f92da0f4a8abcc27f0cda1639cbb5b832",
       "words": 141,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:53.546Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/use-testpage-editable-to-verify-field-editability.md"
     }
   },
   "input_hash": "f94c792f92da0f4a8abcc27f0cda1639cbb5b832",
@@ -25,13 +29,49 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/use-testpage-editable-to-verify-field-editability.md",
-    "description": null,
+    "description": "Whether a field can actually be changed is a distinct state from whether it is shown or enabled — Editable() and Enabled() are separate TestField functions.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "testpage",
+      "editable",
+      "openedit",
+      "ui-state",
+      "field-verification"
+    ],
     "ai_usage": null,
-    "words": 141
+    "words": 141,
+    "identifiers": [
+      "TestField",
+      "TestPage"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "testpage",
+        "editable",
+        "openedit",
+        "ui-state",
+        "field-verification"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Whether a field can actually be changed is a distinct state from whether it is shown or enabled — Editable() and Enabled() are separate TestField functions."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

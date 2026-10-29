@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/do-not-change-primary-key.md",
   "published_at": "2026-09-29T10:48:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:29:04.598Z",
+      "at": "2026-10-29T21:27:54.176Z",
       "blob": "37cb3e3e02e817827fded74a7e58796864d00c49",
       "words": 298,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:54.354Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/do-not-change-primary-key.md"
     }
   },
   "input_hash": "37cb3e3e02e817827fded74a7e58796864d00c49",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/do-not-change-primary-key.md",
-    "description": null,
+    "description": "Once a table has shipped — to AppSource, or to any customer environment that has already upgraded onto it — its primary key, and any other key marked Clustered = true, is frozen.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "primary-key",
+      "clustered-key",
+      "table-design",
+      "appsource",
+      "breaking-change",
+      "schema-upgrade"
+    ],
     "ai_usage": null,
-    "words": 298
+    "words": 298,
+    "identifiers": [
+      "AS0009"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "primary-key",
+        "clustered-key",
+        "table-design",
+        "appsource",
+        "breaking-change",
+        "schema-upgrade"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Once a table has shipped — to AppSource, or to any customer environment that has already upgraded onto it — its primary key, and any other key marked Clustered = true, is frozen."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

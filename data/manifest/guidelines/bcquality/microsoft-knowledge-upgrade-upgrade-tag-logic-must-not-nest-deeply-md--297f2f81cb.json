@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/upgrade-tag-logic-must-not-nest-deeply.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:26:49.554Z",
+      "at": "2026-10-29T21:27:51.726Z",
       "blob": "d2384f8416d027c5dead1889fc803e4a3bf1df03",
       "words": 414,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:51.865Z",
+      "path": "content/guidelines/microsoft/knowledge/upgrade/upgrade-tag-logic-must-not-nest-deeply.md"
     }
   },
   "input_hash": "d2384f8416d027c5dead1889fc803e4a3bf1df03",
@@ -25,13 +29,46 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/upgrade/upgrade-tag-logic-must-not-nest-deeply.md",
-    "description": null,
+    "description": "Upgrade tag *checks* should stay flat: never nest one tag's existence check inside another tag's guarded body, and never let one tagged procedure quietly perform a second, functionally distinct migration — that turns two upgrade steps into one that can't be tracked, skipped, or fixed…",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "upgrade-tag",
+      "nesting",
+      "complexity",
+      "upgrade-per-company",
+      "upgrade-per-database"
+    ],
     "ai_usage": null,
-    "words": 414
+    "words": 414,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "upgrade",
+      "keywords": [
+        "upgrade-tag",
+        "nesting",
+        "complexity",
+        "upgrade-per-company",
+        "upgrade-per-database"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Upgrade tag *checks* should stay flat: never nest one tag's existence check inside another tag's guarded body, and never let one tagged procedure quietly perform a second, functionally distinct migration — that turns two upgrade steps into one that can't be tracked, skipped, or fixed…"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/api-page-key-fields-must-be-editable-on-insert.md",
   "published_at": "2026-09-29T10:48:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:30:12.766Z",
+      "at": "2026-10-29T21:27:59.773Z",
       "blob": "84887c19825815a34ca2464f6b134bb3eb4127cf",
       "words": 163,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:00.024Z",
+      "path": "content/guidelines/microsoft/knowledge/web-services/api-page-key-fields-must-be-editable-on-insert.md"
     }
   },
   "input_hash": "84887c19825815a34ca2464f6b134bb3eb4127cf",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/web-services/api-page-key-fields-must-be-editable-on-insert.md",
-    "description": null,
+    "description": "A field listed in ODataKeyFields cannot have Editable = false when the API page allows inserts and the field's value must be supplied by the caller. Marking it read-only removes the field from the OData write schema, so a POST that includes it is rejected as an unknown property.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "api-page",
+      "key-fields",
+      "editable",
+      "insert",
+      "odata"
+    ],
     "ai_usage": null,
-    "words": 163
+    "words": 163,
+    "identifiers": [
+      "ODataKeyFields",
+      "SystemId",
+      "BadRequest"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "web-services",
+      "keywords": [
+        "api-page",
+        "key-fields",
+        "editable",
+        "insert",
+        "odata"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A field listed in ODataKeyFields cannot have Editable = false when the API page allows inserts and the field's value must be supplied by the caller. Marking it read-only removes the field from the OData write schema, so a POST that includes it is rejected as an unknown property."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

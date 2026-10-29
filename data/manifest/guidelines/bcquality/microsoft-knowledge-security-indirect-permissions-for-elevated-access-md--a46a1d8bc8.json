@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/indirect-permissions-for-elevated-access.md",
   "published_at": "2026-09-29T10:49:55.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:28:30.340Z",
+      "at": "2026-10-29T21:27:53.174Z",
       "blob": "8e3d620c89b50c496a974b4e66a49bec2ff2759f",
       "words": 315,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:53.226Z",
+      "path": "content/guidelines/microsoft/knowledge/security/indirect-permissions-for-elevated-access.md"
     }
   },
   "input_hash": "8e3d620c89b50c496a974b4e66a49bec2ff2759f",
@@ -25,13 +29,44 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/indirect-permissions-for-elevated-access.md",
-    "description": null,
+    "description": "In a permissionset, uppercase letters (R, I, M, D) grant direct permissions: the assignee can read, insert, modify, or delete the table data through any UI or API surface.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "permissionset",
+      "indirect-permissions",
+      "lowercase",
+      "code-mediated"
+    ],
     "ai_usage": null,
-    "words": 315
+    "words": 315,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "permissionset",
+        "indirect-permissions",
+        "lowercase",
+        "code-mediated"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "In a permissionset, uppercase letters (R, I, M, D) grant direct permissions: the assignee can read, insert, modify, or delete the table data through any UI or API surface."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

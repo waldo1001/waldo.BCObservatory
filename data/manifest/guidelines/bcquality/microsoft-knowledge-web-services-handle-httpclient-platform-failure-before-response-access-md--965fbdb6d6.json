@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.md",
   "published_at": "2026-09-29T11:03:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:28:01.568Z",
+      "at": "2026-10-29T21:27:52.592Z",
       "blob": "e3dd227fb4111aecf97166cccd076a802bb1b6bb",
       "words": 193,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:52.754Z",
+      "path": "content/guidelines/microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.md"
     }
   },
   "input_hash": "e3dd227fb4111aecf97166cccd076a802bb1b6bb",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.md",
-    "description": null,
+    "description": "AL HttpClient methods can fail before a usable HTTP response exists because of an invalid request, DNS or network failure, certificate validation, timeout, a disabled extension setting, or the response-size limit.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "httpclient",
+      "transport-failure",
+      "boolean-return",
+      "httpresponsemessage",
+      "content",
+      "runtime-error"
+    ],
     "ai_usage": null,
-    "words": 193
+    "words": 193,
+    "identifiers": [
+      "HttpClient",
+      "HttpResponseMessage"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "web-services",
+      "keywords": [
+        "httpclient",
+        "transport-failure",
+        "boolean-return",
+        "httpresponsemessage",
+        "content",
+        "runtime-error"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "AL HttpClient methods can fail before a usable HTTP response exists because of an invalid request, DNS or network failure, certificate validation, timeout, a disabled extension setting, or the response-size limit."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

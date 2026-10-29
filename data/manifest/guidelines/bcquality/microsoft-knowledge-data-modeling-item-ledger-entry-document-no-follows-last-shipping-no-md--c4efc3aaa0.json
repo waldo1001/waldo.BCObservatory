@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/item-ledger-entry-document-no-follows-last-shipping-no.md",
   "published_at": "2026-09-29T10:49:11.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:28:30.347Z",
+      "at": "2026-10-29T21:27:53.247Z",
       "blob": "3b5d93998553637713ad0219570e1cf9cf3b3fd9",
       "words": 176,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:53.319Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/item-ledger-entry-document-no-follows-last-shipping-no.md"
     }
   },
   "input_hash": "3b5d93998553637713ad0219570e1cf9cf3b3fd9",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/item-ledger-entry-document-no-follows-last-shipping-no.md",
-    "description": null,
+    "description": "Posting a sales order with both Ship and Invoice in one call creates the Item Ledger Entry during the shipment leg of that combined post, so the entry's Document No. is stamped with the value assigned to the shipment — Sales Header.\"Last Shipping No.\"",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "item-ledger-entry",
+      "document-no",
+      "last-shipping-no",
+      "ship-and-invoice",
+      "posting",
+      "sales-order"
+    ],
     "ai_usage": null,
-    "words": 176
+    "words": 176,
+    "identifiers": [
+      "SetRange",
+      "FindSet"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "item-ledger-entry",
+        "document-no",
+        "last-shipping-no",
+        "ship-and-invoice",
+        "posting",
+        "sales-order"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Posting a sales order with both Ship and Invoice in one call creates the Item Ledger Entry during the shipment leg of that combined post, so the entry's Document No. is stamped with the value assigned to the shipment — Sales Header.\"Last Shipping No.\""
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

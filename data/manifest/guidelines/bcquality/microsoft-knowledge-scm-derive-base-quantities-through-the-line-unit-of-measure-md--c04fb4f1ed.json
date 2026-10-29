@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/scm/derive-base-quantities-through-the-line-unit-of-measure.md",
   "published_at": "2026-09-29T11:03:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:28:01.525Z",
+      "at": "2026-10-29T21:27:51.857Z",
       "blob": "3f3d3a0ffcf2f5c4f5c07fecee90d3a30f93f90b",
       "words": 419,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:51.946Z",
+      "path": "content/guidelines/microsoft/knowledge/scm/derive-base-quantities-through-the-line-unit-of-measure.md"
     }
   },
   "input_hash": "3f3d3a0ffcf2f5c4f5c07fecee90d3a30f93f90b",
@@ -25,13 +29,55 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/scm/derive-base-quantities-through-the-line-unit-of-measure.md",
-    "description": null,
+    "description": "Inventory, item ledger entries, reservations, item tracking, and warehouse quantities are measured in the item's base unit of measure. Document and journal lines hold Quantity in the line's \"Unit of Measure Code\", together with \"Qty.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "quantity-base",
+      "qty-per-unit-of-measure",
+      "unit-of-measure-code",
+      "unit-of-measure-management",
+      "calcbaseqty",
+      "getqtyperunitofmeasure",
+      "qty-rounding-precision",
+      "item-journal-line"
+    ],
     "ai_usage": null,
-    "words": 419
+    "words": 419,
+    "identifiers": [
+      "CalcBaseQty",
+      "CalcQtyFromBase"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "scm",
+      "keywords": [
+        "quantity-base",
+        "qty-per-unit-of-measure",
+        "unit-of-measure-code",
+        "unit-of-measure-management",
+        "calcbaseqty",
+        "getqtyperunitofmeasure",
+        "qty-rounding-precision",
+        "item-journal-line"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Inventory, item ledger entries, reservations, item tracking, and warehouse quantities are measured in the item's base unit of measure. Document and journal lines hold Quantity in the line's \"Unit of Measure Code\", together with \"Qty."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

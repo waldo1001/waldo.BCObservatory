@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/al-identifiers-english.md",
   "published_at": "2026-09-29T10:48:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:29:04.687Z",
+      "at": "2026-10-29T21:27:54.643Z",
       "blob": "5feda9f82bdc8798a5ac580815f1eb6b86ff34c6",
       "words": 232,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:54.687Z",
+      "path": "content/guidelines/microsoft/knowledge/style/al-identifiers-english.md"
     }
   },
   "input_hash": "5feda9f82bdc8798a5ac580815f1eb6b86ff34c6",
@@ -25,13 +29,46 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/al-identifiers-english.md",
-    "description": null,
+    "description": "All AL identifiers — variables, procedures, parameters, fields, object names, enum values, and label identifiers — must be written in English, regardless of the developer's native language.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "identifiers",
+      "naming",
+      "english",
+      "captions",
+      "translation"
+    ],
     "ai_usage": null,
-    "words": 232
+    "words": 232,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "identifiers",
+        "naming",
+        "english",
+        "captions",
+        "translation"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "All AL identifiers — variables, procedures, parameters, fields, object names, enum values, and label identifiers — must be written in English, regardless of the developer's native language."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/check-json-null-before-converting-values.md",
   "published_at": "2026-09-29T11:03:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:28:01.554Z",
+      "at": "2026-10-29T21:27:52.578Z",
       "blob": "b5a560e4e8727a3b926c3e9fd358d56cf261c4e9",
       "words": 330,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:52.864Z",
+      "path": "content/guidelines/microsoft/knowledge/web-services/check-json-null-before-converting-values.md"
     }
   },
   "input_hash": "b5a560e4e8727a3b926c3e9fd358d56cf261c4e9",
@@ -25,13 +29,66 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/web-services/check-json-null-before-converting-values.md",
-    "description": null,
+    "description": "An optional property in a JSON payload can be missing or present with the value null, and the two cases behave differently in AL. When the Boolean result is captured, JsonObject.Get returns false for a missing key but true for \"email\": null, because the key exists.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "jsonobject",
+      "jsontoken",
+      "jsonvalue",
+      "isnull",
+      "asvalue",
+      "astext",
+      "asdecimal",
+      "optional-property",
+      "json-null",
+      "payload-parsing"
+    ],
     "ai_usage": null,
-    "words": 330
+    "words": 330,
+    "identifiers": [
+      "JsonValue",
+      "AsText",
+      "AsCode",
+      "AsDecimal",
+      "AsInteger",
+      "AsDate",
+      "AsBoolean",
+      "SelectToken",
+      "IsNull"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "web-services",
+      "keywords": [
+        "jsonobject",
+        "jsontoken",
+        "jsonvalue",
+        "isnull",
+        "asvalue",
+        "astext",
+        "asdecimal",
+        "optional-property",
+        "json-null",
+        "payload-parsing"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An optional property in a JSON payload can be missing or present with the value null, and the two cases behave differently in AL. When the Boolean result is captured, JsonObject.Get returns false for a missing key but true for \"email\": null, because the key exists."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

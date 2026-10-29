@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/document-report-word-layout.md",
   "published_at": "2026-09-29T10:48:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:29:04.640Z",
+      "at": "2026-10-29T21:27:54.335Z",
       "blob": "06159aad9542796d6da4a5287037e92565bce2e9",
       "words": 233,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:54.393Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/document-report-word-layout.md"
     }
   },
   "input_hash": "06159aad9542796d6da4a5287037e92565bce2e9",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/document-report-word-layout.md",
-    "description": null,
+    "description": "For a document report — an invoice, statement, order confirmation, or any report meant to be printed, emailed, or exported as a single-record document — Microsoft's own guidance recommends a Word rendering layout over RDLC: \"RDL layouts can result in slower performance with document reports,…",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "report-layout",
+      "word-layout",
+      "rdlc",
+      "document-report",
+      "sandbox-app-domain",
+      "rendering"
+    ],
     "ai_usage": null,
-    "words": 233
+    "words": 233,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "report-layout",
+        "word-layout",
+        "rdlc",
+        "document-report",
+        "sandbox-app-domain",
+        "rendering"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "For a document report — an invoice, statement, order confirmation, or any report meant to be printed, emailed, or exported as a single-record document — Microsoft's own guidance recommends a Word rendering layout over RDLC: \"RDL layouts can result in slower performance with document reports,…"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

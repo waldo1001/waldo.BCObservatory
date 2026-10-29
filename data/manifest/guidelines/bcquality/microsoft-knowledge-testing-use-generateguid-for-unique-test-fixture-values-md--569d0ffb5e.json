@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/use-generateguid-for-unique-test-fixture-values.md",
   "published_at": "2026-09-29T10:49:11.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:28:30.354Z",
+      "at": "2026-10-29T21:27:53.343Z",
       "blob": "e06f738396d6a6cab84771b40ef78d43b143a523",
       "words": 519,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:53.510Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/use-generateguid-for-unique-test-fixture-values.md"
     }
   },
   "input_hash": "e06f738396d6a6cab84771b40ef78d43b143a523",
@@ -25,13 +29,58 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/use-generateguid-for-unique-test-fixture-values.md",
-    "description": null,
+    "description": "A fixture helper that assigns a hardcoded literal to a primary-key field, or to any field the test relies on as a unique lookup identifier, collides the moment two tests, or two runs of the same test, create that fixture without cleanup — and a literal longer than the field allows raises a…",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "generateguid",
+      "library-utility",
+      "test-fixtures",
+      "uniqueness",
+      "generaterandomcode",
+      "maxstrlen"
+    ],
     "ai_usage": null,
-    "words": 519
+    "words": 519,
+    "identifiers": [
+      "LibraryUtility",
+      "RecordRef",
+      "TableNo",
+      "CodeLength",
+      "GenerateRandomCodeWithLength",
+      "GenerateRandomCode20",
+      "GenerateRandomCode",
+      "GenerateGUID",
+      "GenerateRandomXMLText"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "generateguid",
+        "library-utility",
+        "test-fixtures",
+        "uniqueness",
+        "generaterandomcode",
+        "maxstrlen"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A fixture helper that assigns a hardcoded literal to a primary-key field, or to any field the test relies on as a unique lookup identifier, collides the moment two tests, or two runs of the same test, create that fixture without cleanup — and a literal longer than the field allows raises a…"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

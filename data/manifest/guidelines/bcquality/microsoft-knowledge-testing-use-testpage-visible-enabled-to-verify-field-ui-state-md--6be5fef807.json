@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/use-testpage-visible-enabled-to-verify-field-ui-state.md",
   "published_at": "2026-09-29T10:49:11.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:28:30.368Z",
+      "at": "2026-10-29T21:27:53.516Z",
       "blob": "ff6bd869dddf89305b76ed4e73be58510925fad2",
       "words": 154,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:53.587Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/use-testpage-visible-enabled-to-verify-field-ui-state.md"
     }
   },
   "input_hash": "ff6bd869dddf89305b76ed4e73be58510925fad2",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/use-testpage-visible-enabled-to-verify-field-ui-state.md",
-    "description": null,
+    "description": "A UI test codeunit does not need to inspect table or page properties indirectly to confirm a field is shown or enabled under given conditions.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "testpage",
+      "visible",
+      "enabled",
+      "ui-state",
+      "headless-test",
+      "field-verification"
+    ],
     "ai_usage": null,
-    "words": 154
+    "words": 154,
+    "identifiers": [
+      "TestPage"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "testpage",
+        "visible",
+        "enabled",
+        "ui-state",
+        "headless-test",
+        "field-verification"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A UI test codeunit does not need to inspect table or page properties indirectly to confirm a field is shown or enabled under given conditions."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

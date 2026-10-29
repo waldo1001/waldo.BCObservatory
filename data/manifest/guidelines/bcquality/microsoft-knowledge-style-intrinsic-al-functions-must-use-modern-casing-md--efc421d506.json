@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/intrinsic-al-functions-must-use-modern-casing.md",
   "published_at": "2026-09-29T10:48:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:30:12.740Z",
+      "at": "2026-10-29T21:27:55.042Z",
       "blob": "761650b3f9694213b23cd9e2a756e4f9791cf55e",
       "words": 217,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:55.101Z",
+      "path": "content/guidelines/microsoft/knowledge/style/intrinsic-al-functions-must-use-modern-casing.md"
     }
   },
   "input_hash": "761650b3f9694213b23cd9e2a756e4f9791cf55e",
@@ -25,13 +29,56 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/intrinsic-al-functions-must-use-modern-casing.md",
-    "description": null,
+    "description": "AL is case-insensitive, so MESSAGE(...), ERROR(...), CONFIRM(...), and STRSUBSTNO(...) compile and run identically to Message(...), Error(...), Confirm(...), and StrSubstNo(...).",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "casing",
+      "intrinsic-function",
+      "built-in-function",
+      "message",
+      "error",
+      "confirm",
+      "strsubstno",
+      "legacy",
+      "c-al",
+      "pascalcase"
+    ],
     "ai_usage": null,
-    "words": 217
+    "words": 217,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "casing",
+        "intrinsic-function",
+        "built-in-function",
+        "message",
+        "error",
+        "confirm",
+        "strsubstno",
+        "legacy",
+        "c-al",
+        "pascalcase"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "AL is case-insensitive, so MESSAGE(...), ERROR(...), CONFIRM(...), and STRSUBSTNO(...) compile and run identically to Message(...), Error(...), Confirm(...), and StrSubstNo(...)."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
