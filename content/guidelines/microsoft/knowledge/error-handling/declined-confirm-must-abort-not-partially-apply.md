@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-29T21:27:29.555Z"
+  at: "2026-10-29T22:09:06.344Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 54efeb288219457d8a8fb38e2849d4cd20af8d0f
@@ -104,7 +104,7 @@ Make the declined branch match what "no" means:
 - **Cancel the whole change** — raise an error before the side effect. The usual BCApps form inside `OnValidate` is the silent abort `if not Confirm(...) then Error('');` (for example `"Bank Account"`, field `"Disable Bank Rec. Optimization"`, and `"Interaction Template"`, field `"Language Code (Default)"`, which ends `if Confirm(...) then begin ... end else Error('');`). The field trigger documentation states that in case of an error "the user entry is not written to the database."
 - **Keep the old value but let the rest of the edit continue** — assign the field back in code. In the `"To-do"` table, field `"Team Code"`, declining the reassignment runs `"Team Code" := xRec."Team Code"`; on a page, `"Upload And Deploy Extension"` resets its sync-mode value to `Add` when the user declines `Force Sync`.
 
-Ask before the side effect runs, and before taking locks the prompt would hold open (see [`avoid-user-prompts-inside-transactions`](../performance/avoid-user-prompts-inside-transactions.md)). When the same validation can run without a UI, a required confirmation must not be silently skipped behind `GuiAllowed`; decide the non-interactive outcome explicitly (see [`job-queue-handlers-must-not-require-ui`](../performance/job-queue-handlers-must-not-require-ui.md)).
+Ask before the side effect runs, and before taking locks the prompt would hold open (see [`avoid-user-prompts-inside-transactions`](../performance/avoid-user-prompts-inside-transactions.md)). When the same validation can run without a UI, a required confirmation must not be silently skipped behind `GuiAllowed`; decide the non-interactive outcome explicitly (see [`job-queue-handlers-must-not-require-ui`](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/job-queue-handlers-must-not-require-ui.md)).
 
 See sample: [`declined-confirm-must-abort-not-partially-apply.good.al`](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/error-handling/declined-confirm-must-abort-not-partially-apply.good.al).
 
