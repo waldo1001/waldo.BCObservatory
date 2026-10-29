@@ -14,6 +14,12 @@ the owner applies `spec-approved` to that issue: branch `league/<issue>-<topic>`
 whose issue carries that label, or that has such a branch or PR, is the League's: do not build it by hand (take it over
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
+- **BCQuality rules as pages, D126** (`docs/specs/bcquality-rules.md`, M61, issue #58). Status: proposed
+  2026-10-29, nothing implemented. The 458 BCQuality items have sat at `fetched` since 2026-10-06 (no handler after
+  `fetched`, `pipeline/orchestrator/stages.ts:68`). Start with phase 1 task 2: the pillar's flow becomes
+  `discovered → fetched → published` with no quota (`pipeline/lib/manifest.ts:49`, `pipeline/lib/queue.ts:23`), then
+  the renderer. Until it lands, readers and agents see BCQuality only as its pull requests (`/changes/`, type `change`);
+  what a rule says is not in the Observatory.
 - **Spend cap without catch-ups, D125** (`docs/specs/spend-cap-catch-up.md`, M60, issue #56). Status: proposed
   2026-10-28, nothing implemented. Rated risky (orchestrator, config, schemas): a League build ends `plan-waiting`
   for the owner's plan approval. Start with phase 1 (caps to $15/$80 in `config/budget.json`), then phase 2 task 2
