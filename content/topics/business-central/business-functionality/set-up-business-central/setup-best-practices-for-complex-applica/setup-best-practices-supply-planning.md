@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:02.904Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-29T21:38:16.952Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -58,7 +58,8 @@ links:
     - topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/olofsimren-com/3779
   guidelines: []
   changes:
     - change/bcapps/10213
@@ -78,7 +79,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 5aae02ffbda02229208dd2eefe3bd75c71f026f6b5c82e4597a0789366c388f6
@@ -126,5 +127,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10364 Create released production orders from planning worksheet](../../../../../changes/bcapps/10364.md) (code change): "Create released production orders from planning worksheet"
 - [#12469 [main] carry out overwrites changed req wksh direct unit cost](../../../../../changes/bcapps/12469.md) (code change): "Preserve manually entered direct unit costs in requisition worksheets"
 - [#9449 [Extensibility Request] issue 30334: fix OnAfterCarryOutToReqWksh record order](../../../../../changes/bcapps/9449.md) (code change): "Restores the parameter order from before version 28.1"
+- [Approval Workflows in Planning Worksheet](../../../../../posts/olofsimren-com/3779.md) (community post): "approval workflow support to planning, requisition, and subcontracting worksheets at the batch level"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

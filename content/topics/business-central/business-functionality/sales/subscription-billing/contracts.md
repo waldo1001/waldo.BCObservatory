@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:37.954Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-29T21:38:16.952Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -206,7 +206,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12857 [master]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../../changes/bcapps/12857.md) (code change): "Prevents customer credit memo lines from affecting vendor contract billing totals"
 - [#12967 [29.x]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../../changes/bcapps/12967.md) (code change): "customer and vendor subscription contracts share the same contract number"
 - [#12998 [main] Discount is not taken into account on Renewal Offer using Sales Quote for Subscription Billing report layout.](../../../../../changes/bcapps/12998.md) (code change): "Subscription Billing renewal quote report now correctly applies discounts"
-- [#13240 [Main]-Test disabled after BCApps uptake: Contract Renewal Test.TestIfContractRenewalSelectionIsUpdateOnAfterValidateCalcBasePercentage fails](../../../../../changes/bcapps/13240.md) (code change): "Contract Renewal Selection page was fixed to restore proper functionality"
+- [#13240 [Main]-Test disabled after BCApps uptake: Contract Renewal Test.TestIfContractRenewalSelectionIsUpdateOnAfterValidateCalcBasePercentage fails](../../../../../changes/bcapps/13240.md) (code change): "Contract Renewal Selection page (8006) in Subscription Billing so the selection updates"
 - [What's New: Subscription Billing (2024 release wave 2)](../../../../../videos/jJxBswIy_Xw.md) (video): "contracts; billing proposals; pricing; automation; usage-based billing; contract management"
 
 ## Business Central pages and reports

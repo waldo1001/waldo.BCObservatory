@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/cosmetic-styles-need-no-textual-context.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.312Z",
+      "at": "2026-10-29T21:29:25.183Z",
       "blob": "02d2f1379686c15a6c5e2ce9560413fb8efad859",
       "words": 168,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:25.275Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/cosmetic-styles-need-no-textual-context.md"
     }
   },
   "input_hash": "02d2f1379686c15a6c5e2ce9560413fb8efad859",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/cosmetic-styles-need-no-textual-context.md",
-    "description": null,
+    "description": "A field's Style property controls text formatting. Some style values are purely cosmetic — they change visual appearance but do not convey semantic meaning. Cosmetic styles never require additional context and must not be reported as accessibility findings:",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "style",
+      "cosmetic",
+      "attention",
+      "strong",
+      "subordinate",
+      "accessibility"
+    ],
     "ai_usage": null,
-    "words": 168
+    "words": 168,
+    "identifiers": [
+      "StandardAccent",
+      "StrongAccent",
+      "AttentionAccent",
+      "StyleExpr"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "style",
+        "cosmetic",
+        "attention",
+        "strong",
+        "subordinate",
+        "accessibility"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A field's Style property controls text formatting. Some style values are purely cosmetic — they change visual appearance but do not convey semantic meaning. Cosmetic styles never require additional context and must not be reported as accessibility findings:"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

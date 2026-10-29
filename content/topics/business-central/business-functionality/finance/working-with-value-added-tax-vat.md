@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:01:48.839Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-29T21:38:16.952Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -384,7 +384,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12982 [29x][All-e]Since Business Central 28.4, we have observed changed behaviour when the VAT Prod](../../../../changes/bcapps/12982.md) (code change): "VAT Product Posting Group behavior was corrected in Sales Line handling"
 - [#13054 [FR] Delocalize delayed VAT and SEPA payment-slip integration](../../../../changes/bcapps/13054.md) (code change): "Delayed VAT recognition and percentage validation now run through"
 - [#13085 [Main]- Since Business Central 28.4, we have observed changed behaviour when the VAT Prod.](../../../../changes/bcapps/13085.md) (code change): "VAT Rate Change Conversion codeunit fixes a behavior change"
-- [#13216 Fix VAT adjustment register](../../../../changes/bcapps/13216.md) (code change): "Fix VAT adjustment register. VAT adjustment register calculation corrected"
+- [#13216 Fix VAT adjustment register](../../../../changes/bcapps/13216.md) (code change): "Fix VAT adjustment register. Fixes how the VAT adjustment register is handled"
 - [#9089 Merge-ES-Excluded-from-Calculation-to-W1](../../../../changes/bcapps/9089.md) (code change): "ES Excluded from Calculation functionality is merged into W1"
 - [#9260 Bug 637507: [master] [Report 743 VAT Reconciliation Report] Incorrect VAT Base and Amount when using Non-Deductible VAT](../../../../changes/bcapps/9260.md) (code change): "VAT Reconciliation Report now includes a configurable option to report either the total VAT amount"
 - [#9340 [main][Gen. Jnl.-Post Line]` Add var NextVATEntryNo to OnAfterGLFinishPosting in Code](../../../../changes/bcapps/9340.md) (code change): "OnAfterGLFinishPosting now exposes NextVATEntryNo as a var parameter"

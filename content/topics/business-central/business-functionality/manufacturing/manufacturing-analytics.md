@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:10.187Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-29T21:38:16.952Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -365,7 +365,6 @@ links:
   localizations: []
   videos:
     - video/6NuJOL8DEqA
-    - video/HvgGcTnYo9g
   posts: []
   guidelines: []
 learn_toc_path:
@@ -381,7 +380,7 @@ children:
 coverage:
   learn: 50
   code: 53
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -484,7 +483,6 @@ Start with "View Load on Work and Machine Centers" if you need to compare load w
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New: Manufacturing Analytics (Updated Power BI App) Electronic Documents(2025 release wave 1)](../../../../videos/6NuJOL8DEqA.md) (video): "manufacturing analytics; updated reports; work center load; expected capacity"
-- [Bartek Ingredients Inc.](../../../../videos/HvgGcTnYo9g.md) (video): "Production reporting and analytics; Workflow automation for order processing"
 
 ## Business Central pages and reports
 

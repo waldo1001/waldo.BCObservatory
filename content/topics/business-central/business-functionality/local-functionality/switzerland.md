@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/switzerland
 type: topic
 title: Switzerland
-summary: Switzerland local functionality in Business Central covers Swiss VAT statements, QR-bills, ESR and LSV+ payments, delivery reminders, Swiss general ledger functions, inventory picking lists and Swiss-specific document behavior. It answers how to set up and use these features in the Swiss version.
+summary: "Switzerland local functionality in Business Central: Swiss VAT statements and rates, QR-bills, ESR, LSV+ and SEPA payments, core finance, delivery reminders, inventory picking lists, and Swiss Post codes. It answers how to set up and use Swiss-specific features."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-28T11:01:13.171Z"
+  at: "2026-10-29T21:38:12.472Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-29T21:38:16.952Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 4fb57bc5b1aa82e8ea4d14e5d52ede04883060086f93dfb2cc47aba53e98e7af
+  input_hash: 92122cae256b1eb5cd9a42505f6bfde10357ed363a37a129add2a7d68bf975b0
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-adjust-exchange-rates
@@ -328,26 +328,26 @@ narrative: generated
 
 # Switzerland
 
-> Switzerland local functionality in Business Central covers Swiss VAT statements, QR-bills, ESR and LSV+ payments, delivery reminders, Swiss general ledger functions, inventory picking lists and Swiss-specific document behavior. It answers how to set up and use these features in the Swiss version.
+> Switzerland local functionality in Business Central: Swiss VAT statements and rates, QR-bills, ESR, LSV+ and SEPA payments, core finance, delivery reminders, inventory picking lists, and Swiss Post codes. It answers how to set up and use Swiss-specific features.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Switzerland · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section describes the features added or adapted for the Swiss version of Business Central. The landing page lists the main areas: VAT statements, electronic payments (QR-bills, LSV, ESR), delivery reminders, Swiss general ledger accounts, inventory management, and Swiss-specific purchase and sales documents.
+The Switzerland section describes what the Swiss version of Business Central adds beyond the base product. The landing page lists the main areas: VAT statements, electronic payments (QR-bills, LSV, ESR), delivery reminders, Swiss general ledger accounts, inventory management, and Swiss-specific purchase and sales documents.
 
-The subtopics split along those lines. Banking & Payments is the largest, with 12 pages on QR-bills, ESR slips, LSV+ direct debit, bank clearing numbers and the Vendor Payments List report. VAT covers statements and rate changes. Core finance covers ledger and VAT currency handling. Purchasing covers delivery reminders. Inventory and General cover picking lists, Swiss Post codes and document behavior.
+The subtopics split along those lines. VAT covers Swiss VAT statements, automatic VAT adjustment and changing VAT rates. Banking & Payments is the largest group, with 12 pages on QR-bills, ESR slips, LSV+ direct debit, SEPA credit transfers, bank clearing numbers and the Vendor Payments List report. Core finance covers ledger setup and VAT currency handling. Purchasing covers delivery reminders. Inventory covers the sales order picking list. General covers Swiss Post code import and document behavior.
 
-Start with the subtopic that matches your task. For payment setup go to Banking & Payments. For reporting to the tax authority go to VAT, then Core finance if foreign currencies are involved.
+For most users, start with VAT or Banking & Payments, since they hold the most Swiss-specific setup. Use General for Post Code table updates and document printing details.
 
 ## Key points
 
-- VAT: create and print Swiss VAT statements (current and older versions), with automatic VAT adjustment for payment discounts and foreign currencies, plus steps for changing VAT rates.
-- Banking & Payments: QR-bills, ESR payment slips, LSV+ direct debit collections, bank clearing numbers and the Vendor Payments List report; covers setup, issuing, export, import and posting.
+- VAT: create and print Swiss VAT statements (current and older versions), with automatic VAT adjustment for payment discounts and foreign currencies, and guidance on changing VAT rates.
+- Banking & Payments (12 pages): QR-bills, ESR payment slips, LSV+ direct debit collections, SEPA credit transfers, bank clearing numbers and the Vendor Payments List report.
 - Core finance: foreign currency balances on G/L accounts, VAT exchange rate adjustment, balance views in journals, and the G/L setup information report.
 - Purchasing: delivery reminders for late vendor deliveries, including reminder terms, levels, text, vendor codes, and creating, generating, testing and issuing reminders.
-- Inventory: print a sales order picking list; Swiss features for reporting, multi-shipment invoice tracking and location codes.
-- General: import Swiss Post codes into the Post Code table and Swiss behavior for posting descriptions, subtotals, invoice rounding with payment discounts, and shipment printing.
+- Inventory: printing a sales order picking list, plus Swiss features for reporting, multi-shipment invoice tracking and location codes.
+- General: import Swiss Post codes into the Post Code table, and Swiss behavior for posting descriptions, subtotals, invoice rounding with payment discounts, and shipment printing.
 
 ## Subtopics
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:41.883Z"
   flags: []
 generated:
-  at: "2026-10-28T08:42:58.321Z"
+  at: "2026-10-29T21:38:16.952Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -156,8 +156,7 @@ links:
     - video/7SSNcUMFtCw
     - video/lNASlydCidI
     - video/qP0id91bIlA
-  posts:
-    - post/jeremyvyska-com/1289
+  posts: []
   guidelines: []
 learn_toc_path:
   - Responsible AI
@@ -168,7 +167,7 @@ coverage:
   learn: 16
   code: 0
   video: 3
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: f2775e8972cfc70743070e264192dc1ce538505db6e68fedc8c2bce0d391ad5d
@@ -223,7 +222,6 @@ Start with the index page to find a feature, or the Copilot application card for
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Before I begin… Ethics Moment](../../posts/jeremyvyska-com/1289.md) (community post): "Ethics Moment. Summary withheld: an Opus review found that the machine-written summary"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../videos/7SSNcUMFtCw.md) (video): "content safety; data privacy; responsible ai"
 - [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../videos/lNASlydCidI.md) (video): "Responsible AI Principles and Guidelines; AI-generated Content Disclaimer on Output Screens"
 - [What's New: Designing Generative AI Experiences (2024 Release Wave 1)](../../videos/qP0id91bIlA.md) (video): "Building user trust in AI features; AI-generated content preview and discard; AI confidence level marking"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T12:48:04.649Z"
   flags: []
 generated:
-  at: "2026-10-26T08:46:07.995Z"
+  at: "2026-10-29T21:38:16.952Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -85,6 +85,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/11909
+    - change/bcapps/12539
 learn_toc_path:
   - Copilot and agent capabilities
   - Manage Copilot and agent capabilities
@@ -142,6 +143,7 @@ Start with the configuration page. Then read the data movement and Azure OpenAI 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11909 Block guest users from managing Expense Agent](../../../changes/bcapps/11909.md) (code change): "Guest and external administrator access is blocked from Expense Agent configuration changes"
+- [#12539 Add Expense Agent consumption V2 and trial support](../../../changes/bcapps/12539.md) (code change): "Trial status shown in billing overview and remaining free expenses in setup"
 - [Agents in Business Central – part 4 – troubleshooting](../../../posts/bertverbeek-nl/1263.md) (community post): "Use the Agent Consumption page to monitor credit usage"
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../../posts/demiliani-com/15935.md) (community post): "The Allow data movement toggle appears only when Business Central environment location differs from Copilot processing geography"
 - [BC Friday Tips #45 Hide Agents Icon](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0.md) (community post): "hide this icon by deactivating Agents in Copilot & agent capabilities"

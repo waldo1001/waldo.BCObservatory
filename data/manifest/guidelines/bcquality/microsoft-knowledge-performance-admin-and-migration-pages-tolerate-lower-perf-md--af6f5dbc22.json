@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/admin-and-migration-pages-tolerate-lower-perf.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.248Z",
+      "at": "2026-10-29T21:29:23.876Z",
       "blob": "3e40ef3f747576901cd7d939a0f141cea84d56b8",
       "words": 207,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:24.006Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/admin-and-migration-pages-tolerate-lower-perf.md"
     }
   },
   "input_hash": "3e40ef3f747576901cd7d939a0f141cea84d56b8",
@@ -25,13 +29,56 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/admin-and-migration-pages-tolerate-lower-perf.md",
-    "description": null,
+    "description": "Some pages run rarely and against small datasets, and the upstream guidance explicitly calls for treating them as lower severity.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "admin-page",
+      "migration",
+      "wizard",
+      "hybrid",
+      "permissions",
+      "lower-severity"
+    ],
     "ai_usage": null,
-    "words": 207
+    "words": 207,
+    "identifiers": [
+      "HybridBC14",
+      "HybridSL",
+      "HybridGP",
+      "PermissionSet",
+      "FindSet",
+      "SetLoadFields",
+      "ModifyAll"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "admin-page",
+        "migration",
+        "wizard",
+        "hybrid",
+        "permissions",
+        "lower-severity"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Some pages run rarely and against small datasets, and the upstream guidance explicitly calls for treating them as lower severity."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

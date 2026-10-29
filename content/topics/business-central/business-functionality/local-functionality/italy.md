@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/italy
 type: topic
 title: Italy
-summary: "Italy local functionality in Business Central: VAT, withholding tax, banking and payments, core finance, inventory, fixed assets and general setup for Italian regulatory requirements. It answers setup, reporting and compliance questions for Italian companies."
+summary: "Italy local functionality in Business Central: VAT, withholding tax, banking and payments, core finance, inventory, fixed assets, and general setup such as company information and Intrastat. It answers setup, reporting, and compliance questions for Italian companies."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-28T11:01:22.439Z"
+  at: "2026-10-29T21:38:16.951Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-29T21:38:16.952Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 612c5d69f85c9ef9caf4482cfc6f04b7babade109b81a847e11def7588d9fcaf
+  input_hash: 82c0e7cfe34c5ea31802814ae09062a5e03dfdad5103409f0436e5dbcd929586
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-close-a-fiscal-year
@@ -319,28 +319,28 @@ narrative: generated
 
 # Italy
 
-> Italy local functionality in Business Central: VAT, withholding tax, banking and payments, core finance, inventory, fixed assets and general setup for Italian regulatory requirements. It answers setup, reporting and compliance questions for Italian companies.
+> Italy local functionality in Business Central: VAT, withholding tax, banking and payments, core finance, inventory, fixed assets, and general setup such as company information and Intrastat. It answers setup, reporting, and compliance questions for Italian companies.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Italy · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section collects the Italy-specific features of Business Central. The landing page lists the main areas: Italian VAT, withholding tax, VAT statements, VAT transactions reports, electronic VAT reports and payment terms. It names 2027 release wave 1 and 2027 release wave 2 as the versions it covers.
+The Italy section collects the features that adapt Business Central to Italian regulatory requirements. The hub page gives the overall scope: Italian VAT, withholding tax, VAT statements, VAT transactions reports, electronic VAT reports, payment terms, banking, core finance, inventory, fixed assets and electronic invoicing. Its metadata lists 2027 release wave 1 and 2027 release wave 2 as versions.
 
-The subtopics split the work by function. VAT is the largest, with transactions reports, VAT statements, periodic settlement, G/L Books, VAT registers and Intrastat. Withholding tax, banking and payments, core finance, inventory and fixed assets each cover one area. General covers company information and Intrastat journal setup, and also the move from Italian subcontracting to the new Subcontracting app.
+The subtopics split the area by finance task. VAT covers transactions reports, VAT statements, periodic settlement, G/L Books, VAT registers and Intrastat reports. Withholding tax covers codes, rates, calculation on purchase invoices and reports. Banking and payments cover vendor payments, customer bills and payment terms. Core finance, inventory and fixed assets cover year-end closing, journals, fiscal inventory valuation and Italian depreciation methods.
 
-Start with General to set up company information with the Italian fiscal fields. Then go to the area you need. Use VAT for periodic reporting and submissions, and Banking and payments for bills and SEPA formats.
+General covers company information setup with the Italian fiscal fields, Intrastat journal templates and batches, and the deprecation of Italian subcontracting with migration to the new Subcontracting app.
 
 ## Key points
 
-- VAT covers VAT transactions reports (prepare, create, export, correct), VAT statements, periodic settlement, G/L Books, VAT registers and Intrastat reports.
-- Withholding tax pages cover setting up codes and vendor assignments, calculation on purchase invoices and vendor payments, and the printed reports.
-- Banking and payments cover vendor payments, customer bills, SEPA and Italian bill formats, bill posting groups, bank account setup, and installment and discount payment terms.
-- Core finance covers closing a fiscal year, entering debit and credit amounts in the General Journal, and reversing journal entries under Italy-specific checks.
-- Inventory covers fiscal inventory valuation setup, LIFO categories, and the Before Start Item Cost page for costs from before implementation.
-- Fixed assets cover anticipated, accelerated and reduced depreciation, compressed depreciation posting, multiple asset cards from one purchase invoice, and the Depreciation Book report.
-- General covers company information with Italian fiscal fields and Intrastat journal templates and batches.
-- Italian subcontracting is deprecated, and the General pages describe migration to the new Subcontracting app.
+- VAT (8 pages): prepare, create, export and correct VAT transactions reports; VAT statements and periodic settlement; print G/L Books and VAT registers; Intrastat reports.
+- Withholding tax: create codes and assign them to vendors, set rates with starting dates, calculate on purchase invoices, and generate entries automatically when vendor payments are processed.
+- Withholding tax reports show amounts payable to the Italian government.
+- Banking and payments: vendor payments, customer bills, SEPA and Italian bill formats, bill posting groups, and installment and discount payment terms.
+- Core finance: close a fiscal year, enter debit and credit amounts in the General Journal, and reverse journal entries under Italy-specific checks.
+- Inventory: set up fiscal inventory valuation (including LIFO categories) and enter pre-implementation item costs on the Before Start Item Cost page.
+- Fixed assets: anticipated, accelerated and reduced depreciation, compressed depreciation posting, multiple asset cards from one purchase invoice, and the Depreciation Book report.
+- General: company information with Italian fiscal fields, Intrastat journal templates and batches, and migration from deprecated Italian subcontracting to the new Subcontracting app.
 
 ## Subtopics
 

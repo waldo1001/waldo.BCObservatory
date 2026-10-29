@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/control-add-in-has-no-bc-color-tokens.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.307Z",
+      "at": "2026-10-29T21:29:25.084Z",
       "blob": "ac396e2da207d4ebc11875577984bf3bea0a4528",
       "words": 143,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:25.133Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/control-add-in-has-no-bc-color-tokens.md"
     }
   },
   "input_hash": "ac396e2da207d4ebc11875577984bf3bea0a4528",
@@ -25,13 +29,49 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/control-add-in-has-no-bc-color-tokens.md",
-    "description": null,
+    "description": "A JavaScript control add-in has no access to Business Central's color tokens or theming system. The BC client will not push theme variables, accent colors, or high-contrast palettes into the add-in's iframe.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "control-add-in",
+      "color-tokens",
+      "theming",
+      "high-contrast",
+      "forced-colors",
+      "accessibility"
+    ],
     "ai_usage": null,
-    "words": 143
+    "words": 143,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "control-add-in",
+        "color-tokens",
+        "theming",
+        "high-contrast",
+        "forced-colors",
+        "accessibility"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al",
+        "javascript"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A JavaScript control add-in has no access to Business Central's color tokens or theming system. The BC client will not push theme variables, accent colors, or high-contrast palettes into the add-in's iframe."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:29.056Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-29T21:38:16.952Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -53,6 +53,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11744
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -110,6 +112,12 @@ Start with the page that matches your task. To match or reverse the matching of 
 - [Create Financial Journals [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-create-financial-journals): Learn how to use the Journal Templates to create financial journals in the Belgian version of Business Central.
 - [Export to Accon [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-export-to-accon): Learn how to export the link to the Accon report. This link lets you create a file that can be imported into ACCON Plus for generating an annual income statement.
   - In the observatory: [Report 11313 "Link to Accon (BE)"](../../../../../objects/report/11313-be.md)
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#11744 Fixes #11605 - GetCurrencyCode Error](../../../../../changes/bcapps/11744.md) (code change): "GetCurrencyCode on the CODA Statement table no longer raises an error"
 
 ## Business Central pages and reports
 

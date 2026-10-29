@@ -1,38 +1,39 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/italy",
-  "input_hash": "612c5d69f85c9ef9caf4482cfc6f04b7babade109b81a847e11def7588d9fcaf",
-  "summary": "Italy local functionality in Business Central: VAT, withholding tax, banking and payments, core finance, inventory, fixed assets and general setup for Italian regulatory requirements. It answers setup, reporting and compliance questions for Italian companies.",
-  "overview": "This section collects the Italy-specific features of Business Central. The landing page lists the main areas: Italian VAT, withholding tax, VAT statements, VAT transactions reports, electronic VAT reports and payment terms. It names 2027 release wave 1 and 2027 release wave 2 as the versions it covers.\n\nThe subtopics split the work by function. VAT is the largest, with transactions reports, VAT statements, periodic settlement, G/L Books, VAT registers and Intrastat. Withholding tax, banking and payments, core finance, inventory and fixed assets each cover one area. General covers company information and Intrastat journal setup, and also the move from Italian subcontracting to the new Subcontracting app.\n\nStart with General to set up company information with the Italian fiscal fields. Then go to the area you need. Use VAT for periodic reporting and submissions, and Banking and payments for bills and SEPA formats.",
+  "input_hash": "82c0e7cfe34c5ea31802814ae09062a5e03dfdad5103409f0436e5dbcd929586",
+  "summary": "Italy local functionality in Business Central: VAT, withholding tax, banking and payments, core finance, inventory, fixed assets, and general setup such as company information and Intrastat. It answers setup, reporting, and compliance questions for Italian companies.",
+  "overview": "The Italy section collects the features that adapt Business Central to Italian regulatory requirements. The hub page gives the overall scope: Italian VAT, withholding tax, VAT statements, VAT transactions reports, electronic VAT reports, payment terms, banking, core finance, inventory, fixed assets and electronic invoicing. Its metadata lists 2027 release wave 1 and 2027 release wave 2 as versions.\n\nThe subtopics split the area by finance task. VAT covers transactions reports, VAT statements, periodic settlement, G/L Books, VAT registers and Intrastat reports. Withholding tax covers codes, rates, calculation on purchase invoices and reports. Banking and payments cover vendor payments, customer bills and payment terms. Core finance, inventory and fixed assets cover year-end closing, journals, fiscal inventory valuation and Italian depreciation methods.\n\nGeneral covers company information setup with the Italian fiscal fields, Intrastat journal templates and batches, and the deprecation of Italian subcontracting with migration to the new Subcontracting app.",
   "key_points": [
-    "VAT covers VAT transactions reports (prepare, create, export, correct), VAT statements, periodic settlement, G/L Books, VAT registers and Intrastat reports.",
-    "Withholding tax pages cover setting up codes and vendor assignments, calculation on purchase invoices and vendor payments, and the printed reports.",
-    "Banking and payments cover vendor payments, customer bills, SEPA and Italian bill formats, bill posting groups, bank account setup, and installment and discount payment terms.",
-    "Core finance covers closing a fiscal year, entering debit and credit amounts in the General Journal, and reversing journal entries under Italy-specific checks.",
-    "Inventory covers fiscal inventory valuation setup, LIFO categories, and the Before Start Item Cost page for costs from before implementation.",
-    "Fixed assets cover anticipated, accelerated and reduced depreciation, compressed depreciation posting, multiple asset cards from one purchase invoice, and the Depreciation Book report.",
-    "General covers company information with Italian fiscal fields and Intrastat journal templates and batches.",
-    "Italian subcontracting is deprecated, and the General pages describe migration to the new Subcontracting app."
+    "VAT (8 pages): prepare, create, export and correct VAT transactions reports; VAT statements and periodic settlement; print G/L Books and VAT registers; Intrastat reports.",
+    "Withholding tax: create codes and assign them to vendors, set rates with starting dates, calculate on purchase invoices, and generate entries automatically when vendor payments are processed.",
+    "Withholding tax reports show amounts payable to the Italian government.",
+    "Banking and payments: vendor payments, customer bills, SEPA and Italian bill formats, bill posting groups, and installment and discount payment terms.",
+    "Core finance: close a fiscal year, enter debit and credit amounts in the General Journal, and reverse journal entries under Italy-specific checks.",
+    "Inventory: set up fiscal inventory valuation (including LIFO categories) and enter pre-implementation item costs on the Before Start Item Cost page.",
+    "Fixed assets: anticipated, accelerated and reduced depreciation, compressed depreciation posting, multiple asset cards from one purchase invoice, and the Depreciation Book report.",
+    "General: company information with Italian fiscal fields, Intrastat journal templates and batches, and migration from deprecated Italian subcontracting to the new Subcontracting app."
   ],
   "members_used": 1,
   "subtopics_used": 7,
   "prompt_version": 1,
-  "at": "2026-10-28T10:59:16.922Z",
+  "at": "2026-10-29T21:37:43.863Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.014615
+    "cost_usd": 0.018748
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-28T11:01:22.439Z",
-    "verdict": "approve",
+    "at": "2026-10-29T21:38:16.951Z",
+    "verdict": "fix",
     "issues": [
-      "The advice to start with General and set up company information first is a reasonable reading order, but no source summary says it. It is phrased as guidance, so it is acceptable.",
-      "The landing page summary also mentions electronic invoicing, and the narrative leaves it out. That is fine because no subtopic covers it.",
-      "The versions listed (2027 release wave 1 and wave 2) come straight from the landing page's metadata. They are later than today's date (2026-10-28), so the source metadata may be worth checking, but the narrative reports them correctly."
+      "Overview recommends a reading order ('Start with General... Then move to VAT'). The sources don't support this sequence. I rewrote it as a neutral description of what General covers.",
+      "Overview leaves out electronic invoicing, which the hub page summary includes in its scope. I added it.",
+      "The hub page lists 2027 release wave 1 and 2027 release wave 2 as versions. The overview reports this accurately as page metadata, but both waves are later than today's date (2026-10-29). I kept the sentence, worded as metadata only, so it doesn't suggest those releases are out.",
+      "Summary and key points are supported by the subtopic summaries."
     ],
-    "input_hash": "612c5d69f85c9ef9caf4482cfc6f04b7babade109b81a847e11def7588d9fcaf",
-    "cost_usd": 0.033539200000000005
+    "input_hash": "82c0e7cfe34c5ea31802814ae09062a5e03dfdad5103409f0436e5dbcd929586",
+    "cost_usd": 0.055564
   }
 }

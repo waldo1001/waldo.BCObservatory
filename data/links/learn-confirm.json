@@ -2842,16 +2842,12 @@
     },
     "change/bcapps/10637": {
       "kind": "change",
-      "hash": "f4cf6344df3e900c8f33699f857fefbdc23bc0c384d1d56d607c3228a823737e",
-      "at": "2026-10-28T10:51:23.559Z",
+      "hash": "1650d9d42075ac49d63d5aa4ef04a1cf1adf9f32cd4862be295799f3d1c9845f",
+      "at": "2026-10-29T21:36:31.103Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-categories-rules",
-          "reason": "Documents expense category, rule, and policy setup for classification"
-        },
-        {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts",
-          "reason": "Documents expense receipt upload and AI-assisted data extraction processes"
+          "reason": "Documents expense categories setup, which this change consolidates into a single W1 app."
         }
       ]
     },
@@ -7350,16 +7346,12 @@
     },
     "change/bcapps/12539": {
       "kind": "change",
-      "hash": "ca0db804ca4a57d492dcb89032f0d8e3918a6b5468e0f80e870c2338cf572c42",
-      "at": "2026-10-28T10:51:46.308Z",
+      "hash": "be69ce43ef343499e2e6c41cbb2a5fc9174ef66ef4131c8d90134ce79e70ee45",
+      "at": "2026-10-29T21:36:31.103Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent",
-          "reason": "Documents Expense Agent automation and its complete expense lifecycle"
-        },
-        {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing",
-          "reason": "Covers consumption-based billing setup for Expense Agent capabilities"
+          "reason": "Documents consumption-based billing model for Expense Agent capabilities that this change implements."
         }
       ]
     },
@@ -8101,16 +8093,12 @@
     },
     "change/bcapps/13105": {
       "kind": "change",
-      "hash": "27957000e7f3f5ca5cfe2fdc724de5f573c35589c484df5b3c2b06f4ab1510b3",
-      "at": "2026-10-28T10:51:52.264Z",
+      "hash": "4539ba318b53abc6eb565ab976c725f0167732f806a02852489c11458bfd897d",
+      "at": "2026-10-29T21:36:31.103Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api-mcp",
-          "reason": "Documents Model Context Protocol server for Business Central Admin Center API for AI agent integration."
-        },
-        {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-mcp-server",
-          "reason": "Documents AL MCP Server exposing AL development tools via Model Context Protocol for AI agents."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-mcp-configuration-trace",
+          "reason": "Documents MCP configuration tracking and modification, relevant to warning about empty configurations."
         }
       ]
     },
@@ -8223,12 +8211,12 @@
     },
     "change/bcapps/13262": {
       "kind": "change",
-      "hash": "f5eafaf179e0052f6520027e0cce11ab17d26e4f93c1b031fa68388443b7aa4e",
-      "at": "2026-10-28T10:51:51.417Z",
+      "hash": "beed8c4500b898fa957590ea820137cc2e016a95c924409ae90c5cf515a021d4",
+      "at": "2026-10-29T21:36:31.103Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-38",
-          "reason": "Documents Trial Balance by Period report which this change refactors to use query-based approach."
+          "reason": "Documents Trial Balance by Period report that this change optimizes with query-based approach."
         }
       ]
     },
@@ -12190,12 +12178,12 @@
     },
     "change/bcapps/9859": {
       "kind": "change",
-      "hash": "76403f65ef834186d8321151055fa245300c331144f8896f37d9db3800dad80e",
-      "at": "2026-10-28T10:52:12.032Z",
+      "hash": "a1b010cc34761bcede256b6b24bb34d65123deac5c940a9cb40160c26de29617",
+      "at": "2026-10-29T21:36:31.103Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-setup",
-          "reason": "Documents expense management setup which is the primary feature of the Expense Agent app being moved."
+          "reason": "Documents comprehensive expense management setup relevant to moving the complete Expense Agent app."
         }
       ]
     },
@@ -21186,6 +21174,17 @@
         }
       ]
     },
+    "object/codeunit/6913": {
+      "kind": "object",
+      "hash": "6fe177e7a7aea04797f6ce81cb99b8017b3c489cfe46875133080f81b3e634b8",
+      "at": "2026-10-29T21:36:31.103Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page",
+          "reason": "Quota handling is part of Expense Agent setup and configuration process."
+        }
+      ]
+    },
     "object/codeunit/6914-at": {
       "kind": "object",
       "hash": "7a751cf23c3f6431bb8fa9dd06717b2d05edccb7c4722967a2383084200fa6db",
@@ -23123,6 +23122,12 @@
           "reason": "AL MCP Server enables AI agents to build, publish, and interact with AL development"
         }
       ]
+    },
+    "object/codeunit/8377": {
+      "kind": "object",
+      "hash": "b3aba84e2b9a0c9ce87a830fcdd0d0c5d7fdbb627f1f59e6e692299f1edcce06",
+      "at": "2026-10-29T21:36:31.103Z",
+      "picks": []
     },
     "object/codeunit/8390": {
       "kind": "object",
@@ -26617,6 +26622,12 @@
           "reason": "Documents Dataverse integration for synchronizing data between Business Central and Dataverse."
         }
       ]
+    },
+    "object/interface/expense-agent-quota": {
+      "kind": "object",
+      "hash": "13a07cc94dbe6e0ebfe96d158e77cae7a84275514dd550969755741bd67b7d99",
+      "at": "2026-10-29T21:36:31.103Z",
+      "picks": []
     },
     "object/interface/iedocmessagebuilder": {
       "kind": "object",
@@ -36481,6 +36492,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-111",
           "reason": "Query identifies top customers by sales transactions for Customer - Top 10 list report"
+        }
+      ]
+    },
+    "object/query/4408": {
+      "kind": "object",
+      "hash": "e5840a67a12c4148c4a892057d052773634cfc421e7e6af97e7989db278258b9",
+      "at": "2026-10-29T21:36:29.433Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-38",
+          "reason": "Query generates trial balance data organized by accounting periods for Excel reporting"
         }
       ]
     },

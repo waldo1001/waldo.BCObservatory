@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality
 type: topic
 title: Local functionality
-summary: Local functionality in Business Central covers country-specific features and regulatory compliance for more than 20 countries and regions, plus guidance on developing Validated Localization apps and submitting regulatory alerts. It answers setup, tax, banking, e-invoicing and reporting questions for a given country.
+summary: Local functionality in Business Central covers country-specific features for regulatory compliance across 20+ countries and regions, plus the localization strategy, the rules for building Validated Localization apps, and how to submit regulatory alerts. It answers questions on tax, banking, e-invoicing and reporting for a given country.
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-28T11:00:30.140Z"
+  at: "2026-10-29T21:38:13.765Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-29T21:38:16.952Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 3975039b48bdcd595606d3b280234c51554d2120db7af05bb03e1211173bb986
+  input_hash: eb42ad733824481e03fd19e8ccaa17b598b6ac0ad8f7d8eeb11469567f596def
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Absence-registration
@@ -874,28 +874,28 @@ narrative: generated
 
 # Local functionality
 
-> Local functionality in Business Central covers country-specific features and regulatory compliance for more than 20 countries and regions, plus guidance on developing Validated Localization apps and submitting regulatory alerts. It answers setup, tax, banking, e-invoicing and reporting questions for a given country.
+> Local functionality in Business Central covers country-specific features for regulatory compliance across 20+ countries and regions, plus the localization strategy, the rules for building Validated Localization apps, and how to submit regulatory alerts. It answers questions on tax, banking, e-invoicing and reporting for a given country.
 
 Path: [Business functionality](../business-functionality.md) > Local functionality · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section describes the country-specific features Business Central offers for regulatory compliance. It has one subtopic per country or region, from Australia to the United States. Each subtopic groups pages by area such as tax and VAT, banking and payments, e-invoicing, core finance and general features.
+This section describes how Business Central supports local legal and tax requirements. Three general pages explain the localization strategy, the requirements for developing Validated Localization apps, and how to submit regulatory alerts through Microsoft Dynamics Lifecycle Services.
 
-Three pages sit at the top level. The localization strategy page explains the approach across the 20+ supported countries and regions. The development page sets requirements for Validated Localization apps. The regulatory alerts page explains how to notify Microsoft, through Microsoft Dynamics Lifecycle Services, of legislation changes.
+Most of the content sits in country subtopics: Australia, Austria, Belgium, Canada, Czech Republic, Denmark, Finland, France, Germany, Iceland, India, Italy, Mexico, Netherlands, New Zealand, Norway, Russia, Spain, Sweden, Switzerland, United Kingdom and United States. Each one groups pages on typical areas such as tax and VAT, banking and payments, core finance, e-invoicing and general setup, although the mix differs by country.
 
-Start with the strategy page for context, then go to your country's subtopic. Larger localizations such as India (87 pages) and the Czech Republic (60 pages) have many pages, and the Czech Republic is split into further subtopics. Smaller ones such as Sweden (6 pages) are brief.
+Start with the strategy page for the overall approach. Then open the subtopic for your country. Use the alerts and validated-app pages if you need to report a legislation change or build a localization app.
 
 ## Key points
 
-- Covers 22 country and region subtopics, including Australia, India, Norway, Spain, Switzerland, the UK and the US.
-- Typical areas per country: VAT/GST and other tax, banking and payment files, e-invoicing, core finance, and general features.
-- E-invoicing formats named include Peppol PINT A-NZ (Australia, New Zealand), OIOUBL (Denmark), EHF (Norway), CFDI (Mexico), and UBL 2.1 and Factur-X (France).
-- Audit and reporting exports include SAF-T (Denmark, Norway), XAF (Netherlands), ELSTER (Germany) and SII (Spain).
+- The strategy page describes country-specific features and regulatory compliance for 20+ supported countries and regions.
+- Validated Localization apps must meet functional and technical standards covering regulatory compliance, national standards, language translation, demo data and functional documentation.
+- Regulatory alerts are submitted through Microsoft Dynamics Lifecycle Services, with an alert description, law enforcement date and filing deadline.
+- The largest country sections are India (87 pages), Czech Republic (60), Norway (42) and Spain (42).
+- India covers GST, TDS, TCS, the tax engine, gate entry and subcontracting; Czech Republic uses Core and Advanced Localization Pack extensions.
+- E-invoicing formats vary by country: Peppol PINT A-NZ (Australia, New Zealand), OIOUBL (Denmark), UBL 2.1 and Factur-X (France), CFDI (Mexico), EHF (Norway), VERI*FACTU (Spain).
 - Iceland's localization is based on the W1 Base App and is available from version 24.0.
-- The Czech Republic uses Core and Advanced Localization Pack extensions.
-- Validated Localization apps must meet functional and technical standards, including national standards, language translation, demo data and functional documentation.
-- Regulatory alerts are submitted through Lifecycle Services with a description, law enforcement date and filing deadline.
+- Tax reporting examples include BAS in Australia, ELSTER in Germany, Making Tax Digital in the UK, SAF-T in Denmark and Norway, and IRS 1099 forms in the US.
 
 ## Subtopics
 

@@ -31659,24 +31659,17 @@
     "video/-SGaVGOkiF0": {
       "kind": "video",
       "key": "video/-SGaVGOkiF0",
-      "hash": "ea4e7876df4885ed8a872efdcea1520cea344579c07baa18f471441e7a1e0c29",
+      "hash": "7f654a8304bc7ac2ff5f3afaf61dbea40826a9ceba51c403028019e18a26eba6",
       "video_id": "-SGaVGOkiF0",
       "title": "Introducing Payment Times Analysis in Business Central (2023 release wave 2)",
-      "at": "2026-10-25T12:31:39.963Z",
+      "at": "2026-10-29T21:34:03.474Z",
       "matches": [
         {
           "feature": 1,
           "name": "Aggregation by Company Size",
           "t": 153,
           "roadmap_id": "576802",
-          "quote": "groups payment data by company size categories"
-        },
-        {
-          "feature": 2,
-          "name": "Aggregation by Period",
-          "t": 343,
-          "roadmap_id": "576839",
-          "quote": "groups payment data by custom periods defined in a payment periods table"
+          "quote": "Analysis option that groups payment data by company size categories"
         },
         {
           "feature": 3,
@@ -31684,27 +31677,6 @@
           "t": 174,
           "roadmap_id": "576802",
           "quote": "average agreed payment period, average actual payment period, percentage paid on time"
-        },
-        {
-          "feature": 3,
-          "name": "Payment Analysis Statistics",
-          "t": 174,
-          "roadmap_id": "576839",
-          "quote": "average agreed payment period, average actual payment period, percentage paid on time"
-        },
-        {
-          "feature": 4,
-          "name": "Payment Analysis Drill-Down",
-          "t": 268,
-          "roadmap_id": "576802",
-          "quote": "drill down into payment analysis details to see specific invoice and payment entries"
-        },
-        {
-          "feature": 4,
-          "name": "Payment Analysis Drill-Down",
-          "t": 268,
-          "roadmap_id": "576839",
-          "quote": "drill down into payment analysis details to see specific invoice and payment entries"
         }
       ]
     },
@@ -31847,27 +31819,27 @@
     "video/06vgkq2EXmA": {
       "kind": "video",
       "key": "video/06vgkq2EXmA",
-      "hash": "c9ad6c66aab3d3853941aa08ed01b34c7af2b242e2f1a1147d4d5eeee77864b1",
+      "hash": "b8b5b9bac1fef6f0692c1ebabcd0966a871d431ef3fd2f3ed4d8a450c0ddbac0",
       "video_id": "06vgkq2EXmA",
       "title": "Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central",
-      "at": "2026-10-25T12:31:44.672Z",
+      "at": "2026-10-29T21:34:06.175Z",
       "matches": [
         {
           "feature": 0,
           "name": "Copilot Chat",
           "t": 10,
           "roadmap_id": "573362",
-          "quote": "An open chat interface in Business Central that allows users to look up documentation"
+          "quote": "open chat interface in Business Central that allows users to look up documentation"
         }
       ]
     },
     "video/07G7aC14Y_w": {
       "kind": "video",
       "key": "video/07G7aC14Y_w",
-      "hash": "804b55ce0987230eb7ad7eb2eca070c5dceeebedf70f45f1ca48faa2dee058c4",
+      "hash": "4e5a3adc0599031905c0641c3c46ba4bfe4aa83f2f6aaa60f861f4b851be9ab4",
       "video_id": "07G7aC14Y_w",
       "title": "What's new in E-Documents: Overview (2026 release wave 2)",
-      "at": "2026-10-25T12:31:44.724Z",
+      "at": "2026-10-29T21:34:04.282Z",
       "matches": [
         {
           "feature": 0,
@@ -31881,14 +31853,14 @@
           "name": "Purchase order EDI document type",
           "t": 59,
           "roadmap_id": "573305",
-          "quote": "Support for sending purchase orders from buyer to seller company automatically as e-documents in XML format"
+          "quote": "Support for sending purchase orders from buyer to seller company automatically as e-documents"
         },
         {
           "feature": 2,
           "name": "Sales order automatic creation from EDI",
           "t": 91,
           "roadmap_id": "573305",
-          "quote": "When a buyer sends a purchase order via EDI, a sales order is automatically created on the seller side"
+          "quote": "When a buyer sends a purchase order via EDI, a sales order is automatically created"
         },
         {
           "feature": 3,
@@ -31909,28 +31881,35 @@
           "name": "Bidirectional EDI document direction control",
           "t": 158,
           "roadmap_id": "573305",
-          "quote": "Ability to configure document directions as inbound only, outbound only, or both inbound and outbound for EDI exchanges"
+          "quote": "Ability to configure document directions as inbound only, outbound only, or both"
         },
         {
           "feature": 6,
           "name": "Electronic identifier support for EDI",
           "t": 189,
           "roadmap_id": "573305",
-          "quote": "Support for electronic identifiers such as JIN or VT registration numbers on both buyer and seller sides"
+          "quote": "Support for electronic identifiers such as JIN or VT registration numbers"
+        },
+        {
+          "feature": 7,
+          "name": "Item reference support for EDI matching",
+          "t": 201,
+          "roadmap_id": "573305",
+          "quote": "Support for item reference or JIN codes on items to ensure correct item matching"
         },
         {
           "feature": 8,
           "name": "EDI message logging and tracking",
           "t": 231,
           "roadmap_id": "573305",
-          "quote": "Log functionality for each EDI exchange showing which files were created and how the exchange progressed"
+          "quote": "Log functionality for each EDI exchange showing which files were created"
         },
         {
           "feature": 9,
           "name": "PPPLE format for EDI",
           "t": 143,
           "roadmap_id": "573305",
-          "quote": "Use of PPPLE (people) format as the underlying technology for EDI exchanges, leveraging existing e-documents infrastructure"
+          "quote": "Use of PPPLE (people) format as the underlying technology for EDI exchanges"
         },
         {
           "feature": 10,
@@ -31958,11 +31937,19 @@
     "video/0h8QBNmeORQ": {
       "kind": "video",
       "key": "video/0h8QBNmeORQ",
-      "hash": "dd6bdf5939a59f5f1cb0d32a3ec1b174d8d9bf156f9b84d908eef6915d87c3a0",
+      "hash": "f784169c7320103d94fdc97924bfd9bc8258ec0540277d69d51411e5ab2a6524",
       "video_id": "0h8QBNmeORQ",
       "title": "Microsoft Sizzle: Business Central Agents In Action",
-      "at": "2026-10-25T12:31:48.852Z",
-      "matches": []
+      "at": "2026-10-29T21:34:06.104Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Sales Order Agent",
+          "t": 25,
+          "roadmap_id": "578068",
+          "quote": "Sales Order Agent. Automates order processing by eliminating manual entry"
+        }
+      ]
     },
     "video/0qt0Zy9ZsRo": {
       "kind": "video",
@@ -31998,24 +31985,45 @@
     "video/0WAOtNaKjws": {
       "kind": "video",
       "key": "video/0WAOtNaKjws",
-      "hash": "72eda8a68c2b6eef35ef5d02c6daaed76e48067d9f9be3df75cd7ce512792828",
+      "hash": "fa8d0c4ce1a26286c1bf0fc950f38f998197c1a02f4035fa2460607e8cac1fcf",
       "video_id": "0WAOtNaKjws",
       "title": "What's New: Enhanced MCP Server (2026 release wave 1)",
-      "at": "2026-10-25T12:31:45.783Z",
+      "at": "2026-10-29T21:34:03.586Z",
       "matches": [
+        {
+          "feature": 2,
+          "name": "Support for Multiple MCP Hosts",
+          "t": 202,
+          "roadmap_id": "573312",
+          "quote": "Business Central MCP server now supports other MCP hosts beyond Microsoft Copilot Studio"
+        },
+        {
+          "feature": 5,
+          "name": "MCP Resources Support",
+          "t": 443,
+          "roadmap_id": "573312",
+          "quote": "Business Central MCP server now supports the MCP resources protocol feature"
+        },
         {
           "feature": 5,
           "name": "MCP Resources Support",
           "t": 443,
           "roadmap_id": "576789",
-          "quote": "MCP Resources Support. Business Central MCP server now supports the MCP resources protocol feature added months ago."
+          "quote": "Business Central MCP server now supports the MCP resources protocol feature"
+        },
+        {
+          "feature": 6,
+          "name": "Embedded Resources",
+          "t": 477,
+          "roadmap_id": "573312",
+          "quote": "MCP server returns large data sets as embedded file references"
         },
         {
           "feature": 6,
           "name": "Embedded Resources",
           "t": 477,
           "roadmap_id": "576789",
-          "quote": "Embedded Resources. MCP server returns large data sets as embedded file references instead of text content blocks."
+          "quote": "MCP server returns large data sets as embedded file references"
         }
       ]
     },
@@ -32031,42 +32039,35 @@
     "video/1ft4o9lQzsU": {
       "kind": "video",
       "key": "video/1ft4o9lQzsU",
-      "hash": "8c30473c2bea788a74e648eaeeb556d565027de6d02827e9142a429dd5465e6e",
+      "hash": "8ff5eef0872dcdc5c6630c3954225c871320dda217d886c41f10b8ccbf74e688",
       "video_id": "1ft4o9lQzsU",
       "title": "20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting",
-      "at": "2026-10-25T12:31:52.798Z",
+      "at": "2026-10-29T21:34:12.993Z",
       "matches": []
     },
     "video/1ht5nxubZ9c": {
       "kind": "video",
       "key": "video/1ht5nxubZ9c",
-      "hash": "c52678744f4276f31759ae0896d01176eda15bd917e205fa4994fdfd51f73478",
+      "hash": "3f81f0a60540c9d8dc5fbbb8bff57c5ba664ddba4c5f307f60d98d68fe1a059c",
       "video_id": "1ht5nxubZ9c",
       "title": "Sales Order Agent - Working with a Personal or Shared Folder (2026)",
-      "at": "2026-10-25T12:31:52.784Z",
+      "at": "2026-10-29T21:34:11.431Z",
       "matches": []
     },
     "video/1IIlArcHpOY": {
       "kind": "video",
       "key": "video/1IIlArcHpOY",
-      "hash": "49146c3270fd77bad3c18d4bb68ba1af955389a0e26180ee0f1036d513d5b9d3",
+      "hash": "7955976a70b6b0b844cb312f484fc37b64999ee51c2f3eb30062b46b18027a2f",
       "video_id": "1IIlArcHpOY",
       "title": "What's New: Working with Instructions for Agents in Business Central",
-      "at": "2026-10-25T12:31:45.965Z",
+      "at": "2026-10-29T21:34:04.323Z",
       "matches": [
         {
           "feature": 3,
           "name": "Agent Review Experience",
           "t": 650,
           "roadmap_id": "573366",
-          "quote": "users can review agent-filled fields with explanations for why"
-        },
-        {
-          "feature": 11,
-          "name": "User review tool",
-          "t": 1131,
-          "roadmap_id": "573366",
-          "quote": "Agent requests user review after successfully completing a task"
+          "quote": "review agent-filled fields with explanations for why the agent took"
         }
       ]
     },
@@ -32082,19 +32083,19 @@
     "video/1QuV_vkbNVU": {
       "kind": "video",
       "key": "video/1QuV_vkbNVU",
-      "hash": "3210e1e0f5f6ed1991658c86ed232b95944d02f6bd5caca2f5b7f0c76bf499e2",
+      "hash": "02fdfaddc09696fb507d8145a05107b7914330d376f0eb52d61b216d71f94378",
       "video_id": "1QuV_vkbNVU",
       "title": "Introducing Spreadsheets for Business Central",
-      "at": "2026-10-25T12:31:51.908Z",
+      "at": "2026-10-29T21:34:11.810Z",
       "matches": []
     },
     "video/1ugAYeEZLaU": {
       "kind": "video",
       "key": "video/1ugAYeEZLaU",
-      "hash": "6398ddb4bc311eedafdccd92ea0a88c1061abc3ba967c6855ce1ff35cec7db75",
+      "hash": "9b81449c53e98870faa50f7bbd5c06b30e3f080eed764c21425cf01f37cf0ec3",
       "video_id": "1ugAYeEZLaU",
       "title": "Working with Amount Fields",
-      "at": "2026-10-25T12:31:52.098Z",
+      "at": "2026-10-29T21:34:10.848Z",
       "matches": []
     },
     "video/1x3QyBX3swg": {
@@ -32140,19 +32141,55 @@
     "video/2_yYu3RgYwo": {
       "kind": "video",
       "key": "video/2_yYu3RgYwo",
-      "hash": "ed4b376b781b74d0d42b9b97c3e07119a10c97c56a19f1d82f146896466f3713",
+      "hash": "c7682ac430c8a52bd54e9c8c951d95e671f5af977f23e7c04d66656fb184b551",
       "video_id": "2_yYu3RgYwo",
       "title": "What's New: Default Sustainability Information (2025 release wave 1)",
-      "at": "2026-10-25T12:32:03.286Z",
-      "matches": []
+      "at": "2026-10-29T21:34:13.875Z",
+      "matches": [
+        {
+          "feature": 1,
+          "name": "Default sustainability values on item card",
+          "t": 106,
+          "roadmap_id": "573374",
+          "quote": "Default sustainability values on item card"
+        },
+        {
+          "feature": 2,
+          "name": "Default sustainability values on resource card",
+          "t": 106,
+          "roadmap_id": "573374",
+          "quote": "Default sustainability account and gas emissions values on resource cards"
+        },
+        {
+          "feature": 4,
+          "name": "Sustainability setup enablement",
+          "t": 24,
+          "roadmap_id": "573374",
+          "quote": "New sustainability setup option to enable or disable default sustainability values"
+        },
+        {
+          "feature": 6,
+          "name": "Calculate carbon equivalent action",
+          "t": 216,
+          "roadmap_id": "573374",
+          "quote": "Calculate carbon equivalent action"
+        },
+        {
+          "feature": 7,
+          "name": "Default sustainability values transfer to purchase documents",
+          "t": 296,
+          "roadmap_id": "573374",
+          "quote": "Default sustainability values transfer to purchase documents"
+        }
+      ]
     },
     "video/205F8ljmInU": {
       "kind": "video",
       "key": "video/205F8ljmInU",
-      "hash": "a08928ccc03d4b2a264a7268beeb5ec679abc6d0130df202961b1bf2b5cbad03",
+      "hash": "5a1510367a4c437ae1e0d3dd77b7fc4678e4d7e7925d4128e78673df1f0259fd",
       "video_id": "205F8ljmInU",
       "title": "What's New: The Danish Bookkeeping Act (2023 release wave 2)",
-      "at": "2026-10-25T12:31:56.107Z",
+      "at": "2026-10-29T21:34:10.125Z",
       "matches": []
     },
     "video/22duXC6j_No": {
@@ -32198,10 +32235,10 @@
     "video/2isrH3RcSK8": {
       "kind": "video",
       "key": "video/2isrH3RcSK8",
-      "hash": "c900d9b3335cfdeb222a7e66cfc8ec2d5d708fcd03fc9f0b4e92c9e323ac6716",
+      "hash": "e9a728f901914ba2a65e21503fe23a86a9e6dff19809a6a8131918781f04ec09",
       "video_id": "2isrH3RcSK8",
       "title": "Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening",
-      "at": "2026-10-25T12:32:07.978Z",
+      "at": "2026-10-29T21:34:16.986Z",
       "matches": [
         {
           "feature": 42,
@@ -32298,54 +32335,34 @@
     "video/2ujWYYecA2c": {
       "kind": "video",
       "key": "video/2ujWYYecA2c",
-      "hash": "7552a212ef83b81d28029bcd2a03b5112b33d60cadf14eb548f096df860c7a71",
+      "hash": "5289cabca5698dd2bf13b59174347abafe82b8013add301107b450ca656b61cc",
       "video_id": "2ujWYYecA2c",
       "title": "Getting Started With Agents: Set Up Sales Order Agent - New 'Try it out' experience (2026)",
-      "at": "2026-10-25T12:32:06.160Z",
-      "matches": []
+      "at": "2026-10-29T21:34:16.305Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Sales Order Agent",
+          "t": 0,
+          "roadmap_id": "578068",
+          "quote": "An agent in Business Central that monitors sales orders and sales inquiries"
+        }
+      ]
     },
     "video/2uXVammbab0": {
       "kind": "video",
       "key": "video/2uXVammbab0",
-      "hash": "d2a7813203fd11b5945ba96e38a92cfb42b9c80522c86b38c3054b5e48edf614",
+      "hash": "c0c48e07d7e980bb3f4e599ff803a7a54db8393cebf3e716593fa27d0fdfa0ff",
       "video_id": "2uXVammbab0",
       "title": "What's New: Chat with Copilot (2025 release wave 1)",
-      "at": "2026-10-25T12:32:06.925Z",
+      "at": "2026-10-29T21:34:17.943Z",
       "matches": [
         {
           "feature": 0,
           "name": "Chat with Copilot",
           "t": 4,
           "roadmap_id": "573362",
-          "quote": "Natural language chat interface to interact with business data"
-        },
-        {
-          "feature": 6,
-          "name": "Contextual page capabilities",
-          "t": 645,
-          "roadmap_id": "573362",
-          "quote": "Contextual page capabilities within the chat pane"
-        },
-        {
-          "feature": 7,
-          "name": "Suggest item substitutes",
-          "t": 645,
-          "roadmap_id": "573362",
-          "quote": "Suggest item substitutes from the contextual help menu"
-        },
-        {
-          "feature": 8,
-          "name": "Prompt guide",
-          "t": 706,
-          "roadmap_id": "573362",
-          "quote": "Prompt guide packed with example prompts for finding records"
-        },
-        {
-          "feature": 9,
-          "name": "Documentation search including local functionality",
-          "t": 731,
-          "roadmap_id": "573362",
-          "quote": "Documentation search including local functionality documentation"
+          "quote": "Chat with Copilot. Natural language chat interface"
         }
       ]
     },
@@ -32370,10 +32387,10 @@
     "video/3jr6gUuGem4": {
       "kind": "video",
       "key": "video/3jr6gUuGem4",
-      "hash": "620ff0a72eeb37a4b360620b0f551ee5e7995246ce47579119dd30eb1bb75ee1",
+      "hash": "ac82b2e36fcd0bf64dc4b5aad96e97542870ae8ec7026c554a7d8618c3c55b61",
       "video_id": "3jr6gUuGem4",
       "title": "Modern Action Bar",
-      "at": "2026-10-25T12:32:12.721Z",
+      "at": "2026-10-29T21:34:20.445Z",
       "matches": []
     },
     "video/3tmaVpPTQLw": {
@@ -32487,10 +32504,10 @@
     "video/3UcLmXqyl44": {
       "kind": "video",
       "key": "video/3UcLmXqyl44",
-      "hash": "d289bf6a3c259efab77a4122ba8d330e5525c9acdebea05c775b90195fb8eb98",
+      "hash": "a5420891abe3ceb943768cb306b2fbb1a6c4c701a494d4b8199b204090c24371",
       "video_id": "3UcLmXqyl44",
       "title": "What's New: Exporting and Importing Agent in Business Central",
-      "at": "2026-10-25T12:32:12.047Z",
+      "at": "2026-10-29T21:34:19.297Z",
       "matches": []
     },
     "video/3uVf6BEXt1w": {
@@ -32566,33 +32583,33 @@
     "video/4EnvGMwbuBY": {
       "kind": "video",
       "key": "video/4EnvGMwbuBY",
-      "hash": "5c28a23278fb883252e352afd97cb25f5b480e934379d69188e924174ffb802e",
+      "hash": "806d1ec5db068bee309d7a493d8f9023af37bfdabab86b0d93de27fccb567aa7",
       "video_id": "4EnvGMwbuBY",
       "title": "Comparing Subaccount Segments and Dimension Setup between Dynamics SL and Dynamics 365 Business",
-      "at": "2026-10-23T01:09:17.430Z",
+      "at": "2026-10-29T21:34:20.582Z",
       "matches": []
     },
     "video/4HE3BBCcV84": {
       "kind": "video",
       "key": "video/4HE3BBCcV84",
-      "hash": "ba543f8dc6e84a12dde400b469bf3bf6424c94ae65d2abd48e0fd86dceaab00e",
+      "hash": "bdfd6f5e03f0c15bece65840c9b842c324ef3aac64a9172fb95bc9edeb43f8cf",
       "video_id": "4HE3BBCcV84",
       "title": "MCP Server and API Queries (2026 release wave 1)",
-      "at": "2026-10-25T12:32:14.229Z",
+      "at": "2026-10-29T21:34:21.153Z",
       "matches": [
         {
           "feature": 0,
           "name": "API queries in MCP server",
           "t": 5,
           "roadmap_id": "573312",
-          "quote": "API queries in MCP server. Support for API queries in MCP server"
+          "quote": "Support for API queries in MCP server"
         },
         {
           "feature": 0,
           "name": "API queries in MCP server",
           "t": 5,
           "roadmap_id": "576789",
-          "quote": "API queries in MCP server. Support for API queries in MCP server"
+          "quote": "API queries in MCP server, which serve as the foundation"
         },
         {
           "feature": 2,
@@ -32606,7 +32623,7 @@
           "name": "MCP server configuration for object type query",
           "t": 97,
           "roadmap_id": "576789",
-          "quote": "MCP server configuration now supports selecting query as object type"
+          "quote": "MCP server configuration with access to all analytics API queries"
         }
       ]
     },

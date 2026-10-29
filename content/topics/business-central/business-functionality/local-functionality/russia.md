@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/russia
 type: topic
 title: Russia
-summary: Russia local functionality in Business Central covers Russia-specific finance, payables and receivables, fixed assets, VAT, tax accounts, human resources, bank management and the Bill of Lading report. It answers setup and posting questions for Russian statutory and tax requirements.
+summary: "Russia local functionality in Business Central: bank management, the Bill of Lading shipment document, and subtopics on core finance, payables and receivables, fixed assets, VAT, tax accounts and human resources. It answers setup and posting questions for Russia-specific processes."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-28T11:01:12.606Z"
+  at: "2026-10-29T21:38:13.039Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-29T21:38:16.952Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 6e2acff7b986db8f378bcd2be14bee27318bac350e1b2f3511a8e1ad9de98f39
+  input_hash: 509afe75c464e86402a97d40fab6d7e4f8fae58cb65a0b48b0f82c12a3d007d3
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Absence-registration
@@ -301,28 +301,28 @@ narrative: generated
 
 # Russia
 
-> Russia local functionality in Business Central covers Russia-specific finance, payables and receivables, fixed assets, VAT, tax accounts, human resources, bank management and the Bill of Lading report. It answers setup and posting questions for Russian statutory and tax requirements.
+> Russia local functionality in Business Central: bank management, the Bill of Lading shipment document, and subtopics on core finance, payables and receivables, fixed assets, VAT, tax accounts and human resources. It answers setup and posting questions for Russia-specific processes.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Russia · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Russia section collects the local functionality that adds Russian accounting, tax and HR processes to Business Central. The overview page lists the main areas: financial reports, general ledger correspondence, currency and exchange rates, VAT ledgers and settlement, VAT declaration with XML export, and tax registers and tax differences. It is tagged to 2022 release wave 1.
+This section collects the Russia-specific features of Business Central. The landing page lists the main areas: financial reports, general ledger correspondence, currency and exchange rates, VAT ledgers and settlement, VAT declaration with XML export, tax registers and tax differences. It is marked 2022 release wave 1.
 
-Two pages sit directly in the hub. Bank management in Russia covers bank directory structures, budget classification codes, bank account details, and printing and posting bank payment orders, cash orders and related documents. Bill of Lading [RU] explains how to set up the shipment receipt report through Sales & Receivables Setup and Report Selection - Sales, then print it from posted sales shipments.
+Two pages sit directly in the hub. Bank management in Russia covers bank directory structures, budget classification codes, bank account details, and printing and posting bank payment orders and cash orders through the payment journal. Bill of Lading [RU] explains how to set up and print the shipment receipt document from posted sales shipments.
 
-Subtopics split the rest by area: Core finance, Payables and receivables, Fixed assets, VAT, Tax accounts and Human resources. Start with the Russia local functionality overview to find the area you need, then open the matching subtopic for setup and posting steps.
+The subtopics cover the rest: Core finance (4 pages), Payables and receivables (8), Fixed assets (5), VAT (5), Tax accounts (2) and Human resources (7). Start with the Russia local functionality page for the overview, then go to the subtopic that matches your process.
 
 ## Key points
 
-- Core finance (4 pages): local currency setup, exchange rate import, general ledger correspondence and financial reports.
-- Payables and receivables (8 pages): agreements, customer and vendor prepayments, prepayment exchange differences, letters of attorney, customs declaration tracking and related reports.
-- Fixed assets (5 pages): depreciation, gratuitous receipt, release and write-off with fixed asset acts, sale, and posted entries by charge code.
-- VAT (5 pages): purchase and sales ledger upload to XML, VAT on customer prepayments, VAT reinstatement, manual VAT settlement and the vendor tax agent scheme.
-- Tax accounts (2 pages): personal income tax accrual, payment and reporting, plus KLADR address data upload for specific regions.
-- Human resources (7 pages): payroll, charges and deductions, absence registration, dismissal, staff list management and vacation planning.
-- Bank management: bank directory structures, budget classification codes, bank account details, payment orders, cash orders and the payment journal.
-- Bill of Lading: set the Bill of Lading Template Code in Sales & Receivables Setup and Report Selection - Sales, then print from Posted Sales Shipment; export to Excel is available.
+- Bank management: set up bank directory structures, budget classification codes and bank account details, and print and post bank payment orders and cash orders.
+- Bill of Lading: set the Bill of Lading Template Code in Sales & Receivables Setup and Report Selection - Sales, then print from Posted Sales Shipment pages, with Export to Excel.
+- Core finance: Russian currency setup and exchange rate import, general ledger correspondence, and financial reports.
+- Payables and receivables: agreements, customer and vendor prepayments, prepayment exchange differences, letters of attorney and customs declaration tracking.
+- Fixed assets: depreciation, gratuitous receipt, release and write-off with fixed asset acts, sale, and posted entries by charge code.
+- VAT: purchase and sales ledgers and declarations to XML, VAT on prepayments, VAT reinstatement, manual settlement and the vendor tax agent scheme.
+- Tax accounts: personal income tax accrual, payment and reporting, plus KLADR address data upload for regions.
+- Human resources: staff list via HR orders, payroll with salary documents, absences, charges and deductions, dismissal and vacation planning.
 
 ## Subtopics
 

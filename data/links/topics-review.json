@@ -1859,50 +1859,50 @@
     "topic/business-central/business-functionality/general-business-functionality/workflows/use-approval-workflows": {
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027@c4a16efa459237f8": {
         "verdict": "keep",
-        "reason": "Covers the new approval workflows for item journals and requisition/planning worksheets: approve, reject and delegate, plus locked records.",
-        "at": "2026-10-26T08:18:05.837Z",
+        "reason": "Covers new approval workflows for item journals and requisition/planning worksheets, including the approve, reject and delegate actions.",
+        "at": "2026-10-29T21:36:45.920Z",
         "v": 2
       },
-      "post/olofsimren-com/3779@8a49a205f635d7f1": {
+      "post/olofsimren-com/3779@47d13eee303a265c": {
         "verdict": "keep",
-        "reason": "Explains batch-level approval workflows for planning and requisition worksheets, including approval entries.",
-        "at": "2026-10-26T08:18:05.837Z",
+        "reason": "Explains how to set up and use batch-level approval workflows for planning and requisition worksheets.",
+        "at": "2026-10-29T21:36:45.920Z",
         "v": 2
       },
       "post/yzhums-com/68956@8994a4a05ac084f6": {
         "verdict": "drop",
-        "reason": "About the Accounts Payable role center; it mentions 'workflows' only in a general sense, not approval workflows.",
-        "at": "2026-10-26T08:18:05.837Z",
+        "reason": "About the Accounts Payable Role Center; it only uses the word 'workflows' loosely.",
+        "at": "2026-10-29T21:36:45.920Z",
         "v": 2
       },
       "post/yzhums-com/70683@dcc3c44081f5c84f": {
         "verdict": "keep",
-        "reason": "Shows how to set the confirmation message that appears when a user sends an approval request.",
-        "at": "2026-10-26T08:18:05.837Z",
+        "reason": "Covers one setting on approval workflow responses: the confirmation message shown after sending a request.",
+        "at": "2026-10-29T21:36:45.920Z",
         "v": 2
       },
       "post/yzhums-com/71039@1444f263509b6230": {
         "verdict": "keep",
-        "reason": "Describes the new standard approval workflows for journals and worksheets and how they behave.",
-        "at": "2026-10-26T08:18:05.837Z",
+        "reason": "Describes the new standard approval workflows for item journals and requisition worksheets.",
+        "at": "2026-10-29T21:36:45.920Z",
         "v": 2
       },
       "post/yzhums-com/72806@0376bd44b17b0cd6": {
         "verdict": "keep",
-        "reason": "Explains how to get the new approval workflow templates in upgraded environments so they can be used.",
-        "at": "2026-10-26T08:18:05.837Z",
+        "reason": "Explains how to make the new approval workflow templates available in upgraded environments.",
+        "at": "2026-10-29T21:36:45.920Z",
         "v": 2
       },
       "post/yzhums-com/75245@20295d7694f82b20": {
         "verdict": "drop",
-        "reason": "About the Payables Agent's trusted-sender settings, not Business Central approval workflows.",
-        "at": "2026-10-26T08:18:05.837Z",
+        "reason": "About trusted-sender settings in the Payables Agent, not approval workflows.",
+        "at": "2026-10-29T21:36:45.920Z",
         "v": 2
       },
       "video/qZALauRY_So@e82e2aeffeac5c48": {
         "verdict": "drop",
-        "reason": "About approvals inside the Expense Agent, a separate capability this section does not document.",
-        "at": "2026-10-26T08:18:05.837Z",
+        "reason": "About the Expense Agent's own team-based approval feature, not the Business Central approval workflows this section documents.",
+        "at": "2026-10-29T21:36:45.920Z",
         "v": 2
       }
     },
@@ -2185,154 +2185,154 @@
     "topic/business-central/business-functionality/manufacturing": {
       "video/GEuUFcgFZF0@d5a016d1740c2cf9": {
         "verdict": "keep",
-        "reason": "Covers production BOMs, versions, phantoms and production order creation, all core to manufacturing.",
-        "at": "2026-10-28T10:54:17.357Z",
+        "reason": "Covers production BOMs, versions, phantoms and production orders, which are core manufacturing setup.",
+        "at": "2026-10-29T21:36:42.988Z",
         "v": 2
       },
       "video/giNi8WtCX_s@fe26185ed2ab7fea": {
         "verdict": "keep",
-        "reason": "Covers new production BOM design features in manufacturing.",
-        "at": "2026-10-28T10:54:17.357Z",
+        "reason": "Covers new manufacturing features for production BOM design and versioning.",
+        "at": "2026-10-29T21:36:42.988Z",
         "v": 2
       },
       "video/oIoH3gxc0uk@1e1066951bf50db3": {
         "verdict": "keep",
-        "reason": "Explains flushing methods for production order consumption.",
-        "at": "2026-10-28T10:54:17.357Z",
+        "reason": "Explains flushing methods for material consumption on production orders, which is manufacturing execution.",
+        "at": "2026-10-29T21:36:42.988Z",
         "v": 2
       },
       "video/Pt8LrNv_Lgc@3065588a2728f3ff": {
         "verdict": "keep",
-        "reason": "Explains manufacturing routings, operations and lead times.",
-        "at": "2026-10-28T10:54:17.357Z",
+        "reason": "Covers manufacturing routings, operations, work centers and lead times.",
+        "at": "2026-10-29T21:36:42.988Z",
         "v": 2
       },
       "video/QdWPlIV3Avk@7622051582348f15": {
         "verdict": "keep",
-        "reason": "Covers the subcontracting process, which is a subtopic of this section.",
-        "at": "2026-10-28T10:54:17.357Z",
+        "reason": "About subcontracting in manufacturing, which is a listed subtopic of this section.",
+        "at": "2026-10-29T21:36:42.988Z",
         "v": 2
       },
       "video/SdQVQLNXVS0@4ffa0dbf27c6e6f4": {
         "verdict": "keep",
-        "reason": "Covers improvements to production order processing.",
-        "at": "2026-10-28T10:54:17.357Z",
+        "reason": "Covers new production order processing features in manufacturing.",
+        "at": "2026-10-29T21:36:42.988Z",
         "v": 2
       },
       "video/sqjb_gsXqM8@b1ef9ef0494bf80c": {
         "verdict": "keep",
-        "reason": "Broad overview, but it includes manufacturing items such as routing notifications, manufacturing journals and subcontracting.",
-        "at": "2026-10-28T10:54:17.357Z",
+        "reason": "Broad supply chain overview, but it includes manufacturing items: routing and BOM changes, manufacturing journals, WIP posting and subcontracting.",
+        "at": "2026-10-29T21:36:42.988Z",
         "v": 2
       },
       "video/tzX0qB9tiBs@45d3ec17a7ef538a": {
         "verdict": "keep",
-        "reason": "Covers reversing production order output and consumption.",
-        "at": "2026-10-28T10:54:17.357Z",
+        "reason": "Covers reversing production order output and consumption transactions, which is manufacturing functionality.",
+        "at": "2026-10-29T21:36:42.988Z",
         "v": 2
       },
       "video/vnaySMIKnp8@8c9b7fc9cf513e51": {
         "verdict": "keep",
-        "reason": "Covers putaway of production output and the pick plus flushing method, which are manufacturing-specific warehouse integrations.",
-        "at": "2026-10-28T10:54:17.357Z",
+        "reason": "Covers how manufacturing connects to the warehouse: put-away for production output and the pick-plus flushing method.",
+        "at": "2026-10-29T21:36:42.988Z",
         "v": 2
       },
       "video/xqFpiqmXjk0@4b1ddf9de66d89d1": {
         "verdict": "keep",
-        "reason": "Covers production order statuses, journals and components.",
-        "at": "2026-10-28T10:54:17.357Z",
+        "reason": "Covers production order statuses, components, routings and the production journal.",
+        "at": "2026-10-29T21:36:42.988Z",
         "v": 2
       },
       "post/olofsimren-com/3545@77b78d050705c847": {
         "verdict": "keep",
-        "reason": "Reopening finished production orders and reversing production entries are core manufacturing features.",
-        "at": "2026-10-28T10:54:22.344Z",
+        "reason": "Covers reopening finished production orders and reversing production entries, which are core manufacturing features.",
+        "at": "2026-10-29T21:36:48.649Z",
         "v": 2
       },
       "post/olofsimren-com/3696@fbf81ffd439e5771": {
         "verdict": "drop",
-        "reason": "The sibling Quality management section documents this native module more exactly.",
-        "at": "2026-10-28T10:54:22.344Z",
+        "reason": "About the Quality Management module, which the sibling Quality management section documents.",
+        "at": "2026-10-29T21:36:48.649Z",
         "v": 2
       },
-      "post/olofsimren-com/3928@6ac948d642091681": {
-        "verdict": "keep",
-        "reason": "Case study of engineer-to-order manufacturing on Business Central, extended with customizations; kept since it is borderline.",
-        "at": "2026-10-28T10:54:22.344Z",
+      "post/olofsimren-com/3928@389a1a7eeaf31df1": {
+        "verdict": "drop",
+        "reason": "Case study of a customer's NAV customizations and migration, not Business Central manufacturing features.",
+        "at": "2026-10-29T21:36:48.649Z",
         "v": 2
       },
       "post/yzhums-com/63708@ed9f15c34b598eb1": {
         "verdict": "keep",
-        "reason": "Covers usability improvements for production orders and manufacturing pages.",
-        "at": "2026-10-28T10:54:22.344Z",
+        "reason": "Covers manufacturing usability improvements: bulk production order status changes and printing.",
+        "at": "2026-10-29T21:36:48.649Z",
         "v": 2
       },
       "post/yzhums-com/65570@4962fa05a7c06465": {
         "verdict": "keep",
-        "reason": "Part of the series covers printing barcodes from production orders, a manufacturing capability.",
-        "at": "2026-10-28T10:54:22.344Z",
+        "reason": "Part of the series covers printing barcodes from production orders, a manufacturing feature.",
+        "at": "2026-10-29T21:36:48.649Z",
         "v": 2
       },
       "post/yzhums-com/71239@baa4637c20739138": {
         "verdict": "keep",
-        "reason": "Adds the Description 2 field to production BOM, routing and production order pages.",
-        "at": "2026-10-28T10:54:22.344Z",
+        "reason": "Covers the Description 2 field on manufacturing pages such as routing lines and production order components.",
+        "at": "2026-10-29T21:36:48.649Z",
         "v": 2
       },
       "post/yzhums-com/72006@35b5d17b79026dfe": {
         "verdict": "keep",
-        "reason": "Manufacturing changes to output journal tracking, WIP posting and BOM/routing notifications.",
-        "at": "2026-10-28T10:54:22.344Z",
+        "reason": "Covers manufacturing changes to output journal item tracking, WIP posting and BOM/routing notifications.",
+        "at": "2026-10-29T21:36:48.649Z",
         "v": 2
       },
       "post/yzhums-com/74091@fbfc95b1f88a1f72": {
         "verdict": "keep",
-        "reason": "Shows how to create production orders from sales orders.",
-        "at": "2026-10-28T10:54:22.344Z",
+        "reason": "Explains creating production orders from sales orders, a manufacturing process.",
+        "at": "2026-10-29T21:36:48.649Z",
         "v": 2
       },
       "post/yzhums-com/74172@68298266e334ae55": {
         "verdict": "keep",
-        "reason": "AL extension of the standard process that creates production orders from sales orders.",
-        "at": "2026-10-28T10:54:22.344Z",
+        "reason": "Shows AL code that extends production order creation from sales orders.",
+        "at": "2026-10-29T21:36:48.649Z",
         "v": 2
       },
       "video/6d6iajwQQ-c@c4d52d490b24e69f": {
         "verdict": "drop",
-        "reason": "Its subject is emissions tracking, which the Sustainability management section documents more exactly.",
-        "at": "2026-10-28T10:54:22.344Z",
+        "reason": "About sustainability emissions tracking, which the sibling Sustainability management section documents.",
+        "at": "2026-10-29T21:36:48.649Z",
         "v": 2
       },
       "video/DHODFt_jVO4@dac811e342c1b98b": {
         "verdict": "keep",
-        "reason": "Covers manufacturing costing: production BOMs and routings on SKUs, and standard cost calculation.",
-        "at": "2026-10-28T10:54:22.344Z",
+        "reason": "Covers manufacturing costing: production BOMs, routings on SKUs, standard cost calculation and subcontracting.",
+        "at": "2026-10-29T21:36:48.649Z",
         "v": 2
       }
     },
     "topic/business-central/business-functionality/manufacturing/manufacturing-analytics": {
       "post/gerardorenteria-blog/11616@1d6f9ac806446947": {
         "verdict": "drop",
-        "reason": "Release-wave overview whose manufacturing content is quality management and outsourcing, not manufacturing analytics or reports.",
-        "at": "2026-10-28T10:54:16.607Z",
+        "reason": "This release-wave overview covers manufacturing quality management and outsourcing, not manufacturing reports or the Power BI app.",
+        "at": "2026-10-29T21:36:41.114Z",
         "v": 2
       },
-      "post/olofsimren-com/3865@330cc6674ae36c8b": {
+      "post/olofsimren-com/3865@f008fe9eb81c022c": {
         "verdict": "drop",
-        "reason": "Case study on automation and configuration-driven customization, with nothing on production reports or the Power BI manufacturing app.",
-        "at": "2026-10-28T10:54:16.607Z",
+        "reason": "This case study is about automating warehouse routing and business rules, not manufacturing analytics or reports.",
+        "at": "2026-10-29T21:36:41.114Z",
         "v": 2
       },
       "video/6NuJOL8DEqA@952d953f7c8d024d": {
         "verdict": "keep",
-        "reason": "Covers the updated Power BI manufacturing app, built-in production and work center reports, and the deprecated utilization reports this section documents.",
-        "at": "2026-10-28T10:54:16.607Z",
+        "reason": "It shows the updated Manufacturing Power BI app, the built-in production reports and the utilization reports being deprecated, which are this section's subtopics.",
+        "at": "2026-10-29T21:36:41.114Z",
         "v": 2
       },
       "video/HvgGcTnYo9g@24a3e9b4d8d7a50b": {
-        "verdict": "keep",
-        "reason": "Customer story that shows production reporting and analytics, which touches on this section's manufacturing reporting; kept because in doubt.",
-        "at": "2026-10-28T10:54:16.607Z",
+        "verdict": "drop",
+        "reason": "This customer story is about moving production orders from paper to Power Apps; 'reporting' is mentioned only in general terms, not the built-in reports or the Power BI app.",
+        "at": "2026-10-29T21:36:41.114Z",
         "v": 2
       }
     },
@@ -3112,20 +3112,20 @@
     "topic/business-central/business-functionality/set-up-business-central/set-up-approval-workflows-based-on-templ": {
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027@c4a16efa459237f8": {
         "verdict": "keep",
-        "reason": "It covers new approval workflows for item journals and requisition and planning worksheets, which are set up with the workflow framework this section documents.",
-        "at": "2026-10-28T10:54:12.565Z",
+        "reason": "Covers new approval workflows for item journals and worksheets, which are configured the way this section describes.",
+        "at": "2026-10-29T21:36:40.826Z",
         "v": 2
       },
-      "post/olofsimren-com/3779@82d6fed30084b090": {
+      "post/olofsimren-com/3779@47d13eee303a265c": {
         "verdict": "keep",
-        "reason": "It explains setting up batch-level approval workflows for planning worksheets on the Workflows page, which is part of setting up approval workflows.",
-        "at": "2026-10-28T10:54:12.565Z",
+        "reason": "Explains setting up worksheet batch approval on the Workflows page using the Requisition Worksheet batch approval template.",
+        "at": "2026-10-29T21:36:40.826Z",
         "v": 2
       },
       "post/yzhums-com/70683@dcc3c44081f5c84f": {
         "verdict": "keep",
-        "reason": "It explains a response setting (Show Confirmation Message) that you choose when configuring an approval workflow, which is part of setting up workflows.",
-        "at": "2026-10-28T10:54:12.565Z",
+        "reason": "Covers one option in an approval workflow's response settings, part of configuring approval workflows.",
+        "at": "2026-10-29T21:36:40.826Z",
         "v": 2
       }
     },
@@ -3226,34 +3226,34 @@
       }
     },
     "topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing": {
-      "post/olofsimren-com/3928@6ac948d642091681": {
+      "post/olofsimren-com/3928@389a1a7eeaf31df1": {
         "verdict": "drop",
-        "reason": "Case study on custom ETO extensions and integrations, not about configuring standard manufacturing setup.",
-        "at": "2026-10-28T10:54:23.713Z",
+        "reason": "This customer case study is about custom configurators, certificate automation and shipping integrations during a NAV migration, not about setting up manufacturing in Business Central.",
+        "at": "2026-10-29T21:36:44.010Z",
         "v": 2
       },
       "post/yzhums-com/67657@bc868cf3dda4c0db": {
         "verdict": "keep",
-        "reason": "Covers a new field on the Manufacturing Setup page, directly part of setting up manufacturing.",
-        "at": "2026-10-28T10:54:23.713Z",
+        "reason": "It covers a new field on the Manufacturing Setup page, which this section documents directly.",
+        "at": "2026-10-29T21:36:44.010Z",
         "v": 2
       },
       "post/yzhums-com/71239@baa4637c20739138": {
         "verdict": "keep",
-        "reason": "Exposes Description 2 on routing and production BOM lines, which are manufacturing master data configured during setup.",
-        "at": "2026-10-28T10:54:23.713Z",
+        "reason": "It adds the Description 2 field to manufacturing setup pages such as Routing Lines and Production BOM Lines, which is loosely related but useful enough to keep.",
+        "at": "2026-10-29T21:36:44.010Z",
         "v": 2
       },
       "post/yzhums-com/74091@fbfc95b1f88a1f72": {
         "verdict": "drop",
-        "reason": "Creating production orders from sales orders is an operational planning task, not manufacturing setup.",
-        "at": "2026-10-28T10:54:23.713Z",
+        "reason": "Creating production orders from sales orders is production planning and execution, not manufacturing setup.",
+        "at": "2026-10-29T21:36:44.010Z",
         "v": 2
       },
       "video/zt9_HEmPKNg@0df3f526f7f92060": {
         "verdict": "keep",
-        "reason": "Demonstrates setting up work centers, machine centers, shop calendars and shifts, core manufacturing setup.",
-        "at": "2026-10-28T10:54:23.713Z",
+        "reason": "Setting up work centers, machine centers, shop calendars and work shifts is core manufacturing setup.",
+        "at": "2026-10-29T21:36:44.010Z",
         "v": 2
       }
     },
@@ -4947,45 +4947,51 @@
     },
     "topic/business-central/responsible-ai": {
       "post/jeremyvyska-com/1289@dcc2272b7c006269": {
-        "verdict": "keep",
-        "reason": "Discusses AI ethics, data consent and regulation, which overlaps the responsible AI concerns this section documents; kept on the doubt rule.",
-        "at": "2026-10-28T08:42:33.049Z",
+        "verdict": "drop",
+        "reason": "General essay on AI ethics (consent, environmental impact, creative workers), not about Business Central's documented responsible AI approach.",
+        "at": "2026-10-29T21:37:03.069Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8331@18306746658fa300": {
+        "verdict": "drop",
+        "reason": "Benchmarks AI coding agents for AL development, which is a development topic, not responsible AI.",
+        "at": "2026-10-29T21:37:03.069Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/05/28/the-lump-of-labour-fallacy-fallacy/@7733ab2e82ec5c11": {
         "verdict": "drop",
-        "reason": "About AI's effect on jobs and the lump of labour fallacy, which this section does not document.",
-        "at": "2026-10-28T08:42:33.049Z",
+        "reason": "Economic essay on automation and jobs, not about Business Central responsible AI.",
+        "at": "2026-10-29T21:37:03.069Z",
         "v": 2
       },
       "video/7SSNcUMFtCw@0a389bab8e080e1f": {
         "verdict": "keep",
-        "reason": "Covers content safety blocking, data residency for AI calls and safety system prompts, all responsible AI controls.",
-        "at": "2026-10-28T08:42:33.049Z",
+        "reason": "Covers content safety, data privacy and data residency controls for AI calls in Business Central, which are responsible AI topics.",
+        "at": "2026-10-29T21:37:03.069Z",
         "v": 2
       },
       "video/bCIcq1zESKk@0927c46482877797": {
         "verdict": "drop",
-        "reason": "Demo of the item substitution Copilot feature, which belongs in Copilot and agent capabilities; responsible AI is only mentioned in passing.",
-        "at": "2026-10-28T08:42:33.049Z",
+        "reason": "Demonstrates the Item Substitution Copilot feature; responsible AI appears only as a tag, and the Copilot capabilities section fits better.",
+        "at": "2026-10-29T21:37:03.069Z",
         "v": 2
       },
       "video/lNASlydCidI@22cc3fc62993bd91": {
         "verdict": "keep",
-        "reason": "Includes responsible AI principles and guidelines, AI-generated content disclaimers and prompt safety mechanisms.",
-        "at": "2026-10-28T08:42:33.049Z",
+        "reason": "Explicitly covers Responsible AI principles and guidelines, AI-generated content disclaimers, user feedback and safety mechanisms.",
+        "at": "2026-10-29T21:37:03.069Z",
         "v": 2
       },
       "video/qP0id91bIlA@2955d3db6f4e0f12": {
         "verdict": "keep",
-        "reason": "Discusses human-in-the-loop design, user trust, risk management and confidence marking for AI outputs, all responsible AI practices.",
-        "at": "2026-10-28T08:42:33.049Z",
+        "reason": "Discusses human-in-the-loop design, user trust, confidence marking and preview/discard of AI output as responsible AI practice.",
+        "at": "2026-10-29T21:37:03.069Z",
         "v": 2
       },
       "video/YIeE63Kn8sI@a6dede46bd184156": {
         "verdict": "drop",
-        "reason": "General AI business strategy and governance consulting, not Business Central's responsible AI documentation.",
-        "at": "2026-10-28T08:42:33.049Z",
+        "reason": "General AI strategy and governance podcast with no Business Central responsible AI content.",
+        "at": "2026-10-29T21:37:03.069Z",
         "v": 2
       }
     },

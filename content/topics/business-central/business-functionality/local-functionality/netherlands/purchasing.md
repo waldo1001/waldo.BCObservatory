@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:04:08.659Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-29T21:38:16.952Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,6 +44,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12867
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -91,5 +93,11 @@ Start with the page on checking amounts, which explains the validation itself (m
   - In the observatory: [Page 460 "Purchases & Payables Setup"](../../../../../objects/page/460.md)
 - [Edit Dutch Purchase Invoice and Credit Memo Document Amounts](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos): Enter expected purchase invoice and credit memo totals in the Dutch version of Business Central to check the document and VAT amounts before posting.
   - In the observatory: [Page 460 "Purchases & Payables Setup"](../../../../../objects/page/460.md), [Page 9308 "Purchase Invoices"](../../../../../objects/page/9308.md), [Page 9309 "Purchase Credit Memos"](../../../../../objects/page/9309.md)
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#12867 [29.X]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](../../../../../changes/bcapps/12867.md) (code change): "Fixed an issue in the Dutch (NL) version on 29.x where editing the Description on purchase invoice"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

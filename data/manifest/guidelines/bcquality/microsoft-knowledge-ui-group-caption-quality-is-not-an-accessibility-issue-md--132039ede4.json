@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/group-caption-quality-is-not-an-accessibility-issue.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.317Z",
+      "at": "2026-10-29T21:29:25.280Z",
       "blob": "7c546b8b9287b03a5f9acc80aff117c05252a648",
       "words": 124,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:25.321Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/group-caption-quality-is-not-an-accessibility-issue.md"
     }
   },
   "input_hash": "7c546b8b9287b03a5f9acc80aff117c05252a648",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/group-caption-quality-is-not-an-accessibility-issue.md",
-    "description": null,
+    "description": "Group captions affect page organization, but missing, generic, or duplicate group captions are not accessibility violations per the BC accessibility rules. Do not flag groups for missing, generic, or duplicate captions during an accessibility review.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "group",
+      "caption",
+      "missing",
+      "duplicate",
+      "generic",
+      "accessibility",
+      "false-positive"
+    ],
     "ai_usage": null,
-    "words": 124
+    "words": 124,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "group",
+        "caption",
+        "missing",
+        "duplicate",
+        "generic",
+        "accessibility",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Group captions affect page organization, but missing, generic, or duplicate group captions are not accessibility violations per the BC accessibility rules. Do not flag groups for missing, generic, or duplicate captions during an accessibility review."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

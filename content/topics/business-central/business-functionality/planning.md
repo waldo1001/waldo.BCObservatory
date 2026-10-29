@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:38.666Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-29T21:38:16.952Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -126,7 +126,6 @@ links:
   videos: []
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
-    - post/olofsimren-com/3779
     - post/thedynamicsexplorer-com/7097
     - post/yzhums-com/71039
   guidelines: []
@@ -148,7 +147,7 @@ coverage:
   learn: 9
   code: 26
   video: 0
-  blog: 4
+  blog: 3
   guideline: 0
 bc_forms:
   - 291
@@ -241,7 +240,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12464 [Master]-Order Planning Calculate Plan Stops on Blocked Item and Does Not Process Remaining Valid Demand.](../../../changes/bcapps/12464.md) (code change): "Order Planning feature now correctly processes remaining valid demand"
 - [#9538 [main]- Requests to Approve: Open Record shows wrong Requisition Worksheet batch after viewing a different batch](../../../changes/bcapps/9538.md) (code change): "Requisition Worksheet batch after viewing a different batch"
 - [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) (community post): "drop shipment lines are now visible and included in order planning calculations"
-- [Approval Workflows in Planning Worksheet](../../../posts/olofsimren-com/3779.md) (community post): "Approval Workflows in Planning Worksheet. Business Central version 28"
 - [Dynamics 365 Business Central – How to use the “Recurring Requisition Worksheet” for Recurring Purchase Orders](../../../posts/thedynamicsexplorer-com/7097.md) (community post): "Recurring Requisition Worksheet automates repeated purchases of the same items by preserving worksheet lines"
 - [Business Central 2026 release wave 1 (BC28): Include approvals for requisition worksheets and item journals in your workflows (New standard workflows)](../../../posts/yzhums-com/71039.md) (community post): "Requisition and planning worksheets can be sent for batch-level approval"
 

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/group-show-caption-false-outside-grid-is-not-a-violation.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.322Z",
+      "at": "2026-10-29T21:29:25.605Z",
       "blob": "fba4bfda8230c9d8970b7b5c5ee58160a0525566",
       "words": 117,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:25.666Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/group-show-caption-false-outside-grid-is-not-a-violation.md"
     }
   },
   "input_hash": "fba4bfda8230c9d8970b7b5c5ee58160a0525566",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/group-show-caption-false-outside-grid-is-not-a-violation.md",
-    "description": null,
+    "description": "In a standard Card or Document page, a group with ShowCaption = false is a layout choice, not an accessibility violation.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "group",
+      "show-caption",
+      "card",
+      "document",
+      "layout",
+      "accessibility",
+      "false-positive"
+    ],
     "ai_usage": null,
-    "words": 117
+    "words": 117,
+    "identifiers": [
+      "ShowCaption"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "group",
+        "show-caption",
+        "card",
+        "document",
+        "layout",
+        "accessibility",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "In a standard Card or Document page, a group with ShowCaption = false is a layout choice, not an accessibility violation."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

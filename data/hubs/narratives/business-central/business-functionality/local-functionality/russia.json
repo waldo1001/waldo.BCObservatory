@@ -1,37 +1,38 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/russia",
-  "input_hash": "6e2acff7b986db8f378bcd2be14bee27318bac350e1b2f3511a8e1ad9de98f39",
-  "summary": "Russia local functionality in Business Central covers Russia-specific finance, payables and receivables, fixed assets, VAT, tax accounts, human resources, bank management and the Bill of Lading report. It answers setup and posting questions for Russian statutory and tax requirements.",
-  "overview": "The Russia section collects the local functionality that adds Russian accounting, tax and HR processes to Business Central. The overview page lists the main areas: financial reports, general ledger correspondence, currency and exchange rates, VAT ledgers and settlement, VAT declaration with XML export, and tax registers and tax differences. It is tagged to 2022 release wave 1.\n\nTwo pages sit directly in the hub. Bank management in Russia covers bank directory structures, budget classification codes, bank account details, and printing and posting bank payment orders, cash orders and related documents. Bill of Lading [RU] explains how to set up the shipment receipt report through Sales & Receivables Setup and Report Selection - Sales, then print it from posted sales shipments.\n\nSubtopics split the rest by area: Core finance, Payables and receivables, Fixed assets, VAT, Tax accounts and Human resources. Start with the Russia local functionality overview to find the area you need, then open the matching subtopic for setup and posting steps.",
+  "input_hash": "509afe75c464e86402a97d40fab6d7e4f8fae58cb65a0b48b0f82c12a3d007d3",
+  "summary": "Russia local functionality in Business Central: bank management, the Bill of Lading shipment document, and subtopics on core finance, payables and receivables, fixed assets, VAT, tax accounts and human resources. It answers setup and posting questions for Russia-specific processes.",
+  "overview": "This section collects the Russia-specific features of Business Central. The landing page lists the main areas: financial reports, general ledger correspondence, currency and exchange rates, VAT ledgers and settlement, VAT declaration with XML export, tax registers and tax differences. It is marked 2022 release wave 1.\n\nTwo pages sit directly in the hub. Bank management in Russia covers bank directory structures, budget classification codes, bank account details, and printing and posting bank payment orders and cash orders through the payment journal. Bill of Lading [RU] explains how to set up and print the shipment receipt document from posted sales shipments.\n\nThe subtopics cover the rest: Core finance (4 pages), Payables and receivables (8), Fixed assets (5), VAT (5), Tax accounts (2) and Human resources (7). Start with the Russia local functionality page for the overview, then go to the subtopic that matches your process.",
   "key_points": [
-    "Core finance (4 pages): local currency setup, exchange rate import, general ledger correspondence and financial reports.",
-    "Payables and receivables (8 pages): agreements, customer and vendor prepayments, prepayment exchange differences, letters of attorney, customs declaration tracking and related reports.",
-    "Fixed assets (5 pages): depreciation, gratuitous receipt, release and write-off with fixed asset acts, sale, and posted entries by charge code.",
-    "VAT (5 pages): purchase and sales ledger upload to XML, VAT on customer prepayments, VAT reinstatement, manual VAT settlement and the vendor tax agent scheme.",
-    "Tax accounts (2 pages): personal income tax accrual, payment and reporting, plus KLADR address data upload for specific regions.",
-    "Human resources (7 pages): payroll, charges and deductions, absence registration, dismissal, staff list management and vacation planning.",
-    "Bank management: bank directory structures, budget classification codes, bank account details, payment orders, cash orders and the payment journal.",
-    "Bill of Lading: set the Bill of Lading Template Code in Sales & Receivables Setup and Report Selection - Sales, then print from Posted Sales Shipment; export to Excel is available."
+    "Bank management: set up bank directory structures, budget classification codes and bank account details, and print and post bank payment orders and cash orders.",
+    "Bill of Lading: set the Bill of Lading Template Code in Sales & Receivables Setup and Report Selection - Sales, then print from Posted Sales Shipment pages, with Export to Excel.",
+    "Core finance: Russian currency setup and exchange rate import, general ledger correspondence, and financial reports.",
+    "Payables and receivables: agreements, customer and vendor prepayments, prepayment exchange differences, letters of attorney and customs declaration tracking.",
+    "Fixed assets: depreciation, gratuitous receipt, release and write-off with fixed asset acts, sale, and posted entries by charge code.",
+    "VAT: purchase and sales ledgers and declarations to XML, VAT on prepayments, VAT reinstatement, manual settlement and the vendor tax agent scheme.",
+    "Tax accounts: personal income tax accrual, payment and reporting, plus KLADR address data upload for regions.",
+    "Human resources: staff list via HR orders, payroll with salary documents, absences, charges and deductions, dismissal and vacation planning."
   ],
   "members_used": 3,
   "subtopics_used": 6,
   "prompt_version": 1,
-  "at": "2026-10-28T10:59:03.109Z",
+  "at": "2026-10-29T21:37:43.063Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.016011
+    "cost_usd": 0.018634
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-28T11:01:12.606Z",
+    "at": "2026-10-29T21:38:13.039Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the Bill of Lading key point says the Bill of Lading Template Code is set in both Sales & Receivables Setup and Report Selection - Sales. The source lists the template code as a feature and says setup goes through those two pages, but it doesn't say which page holds the field. This is a small inference.",
-      "Minor: the overview says the hub is tagged to 2022 release wave 1. That tag comes only from the Russia local functionality overview page, not the whole hub. The overview does say this, so it isn't misleading."
+      "Overview says the landing page 'is marked 2022 release wave 1'. That matches the page's versions field, but it is only a tag and does not by itself show when the features became available.",
+      "The Bill of Lading key point links the Bill of Lading Template Code to Sales & Receivables Setup. The inputs list the field and the setup page separately, so this is a small inference, but a reasonable one.",
+      "The payables and receivables key point leaves out the vendor and customer reports named in that subtopic's summary. Acceptable for a short list."
     ],
-    "input_hash": "6e2acff7b986db8f378bcd2be14bee27318bac350e1b2f3511a8e1ad9de98f39",
-    "cost_usd": 0.0364472
+    "input_hash": "509afe75c464e86402a97d40fab6d7e4f8fae58cb65a0b48b0f82c12a3d007d3",
+    "cost_usd": 0.046848
   }
 }

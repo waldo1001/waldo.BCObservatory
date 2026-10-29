@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/xmldoc-for-public-library-procedures.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.297Z",
+      "at": "2026-10-29T21:29:24.979Z",
       "blob": "bffa5e8143a7486de15d35b6fbbc4bc88abf162e",
       "words": 222,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:25.026Z",
+      "path": "content/guidelines/microsoft/knowledge/style/xmldoc-for-public-library-procedures.md"
     }
   },
   "input_hash": "bffa5e8143a7486de15d35b6fbbc4bc88abf162e",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/xmldoc-for-public-library-procedures.md",
-    "description": null,
+    "description": "XML documentation comments (/// <summary>…</summary>, /// <param>…</param>, /// <returns>…</returns>) are expected on procedures that form the public surface of a library — codeunits intended to be called from outside the current app: System App modules, AppSource library codeunits, Access =…",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "xmldoc",
+      "summary",
+      "param",
+      "returns",
+      "public-procedure",
+      "documentation"
+    ],
     "ai_usage": null,
-    "words": 222
+    "words": 222,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "xmldoc",
+        "summary",
+        "param",
+        "returns",
+        "public-procedure",
+        "documentation"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "XML documentation comments (/// <summary>…</summary>, /// <param>…</param>, /// <returns>…</returns>) are expected on procedures that form the public surface of a library — codeunits intended to be called from outside the current app: System App modules, AppSource library codeunits, Access =…"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:00:59.767Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-29T21:38:16.952Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -646,7 +646,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12723 [Master]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](../../../changes/bcapps/12723.md) (code change): "changing the Description on a purchase invoice line no longer resets its Quantity"
 - [#12809 Bugs/bug 654102 main]purch order vendor change automatically applied to next order](../../../changes/bcapps/12809.md) (code change): "vendor change on one order is no longer automatically applied to the next order"
 - [#12816 [29.x]- Project Planning Lines are created in reverse order when purchase line descriptions are copied](../../../changes/bcapps/12816.md) (code change): "Project planning lines now maintain the original purchase line sequence when Copy Line"
-- [#12867 [29.X]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](../../../changes/bcapps/12867.md) (code change): "modifying the description field on purchase invoice and credit memo lines"
+- [#12867 [29.X]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](../../../changes/bcapps/12867.md) (code change): "editing the Description on purchase invoice or credit memo subform lines reset the Quantity to 1"
 - [#12931 [29.x][Repair Item] Purchase Order vendor change is automatically applied to the next order after navigation](../../../changes/bcapps/12931.md) (code change): "Purchase Order vendor change is automatically applied to the next order"
 - [#13075 [MAIN] [IN] Add extensibility events to support deferred TDS calculation on purchase documents](../../../changes/bcapps/13075.md) (code change): "deferred TDS calculation on purchase documents"
 - [#9044 [Master] Contact email is no validated during creation purchase documents_New](../../../changes/bcapps/9044.md) (code change): "Contact email validation is restored during purchase document creation"

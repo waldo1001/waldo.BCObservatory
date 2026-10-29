@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/data-classification-is-table-field-property.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.253Z",
+      "at": "2026-10-29T21:29:24.075Z",
       "blob": "acfc0e787383c0f528532b7b779e6eebc504666e",
       "words": 179,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:24.390Z",
+      "path": "content/guidelines/microsoft/knowledge/privacy/data-classification-is-table-field-property.md"
     }
   },
   "input_hash": "acfc0e787383c0f528532b7b779e6eebc504666e",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/privacy/data-classification-is-table-field-property.md",
-    "description": null,
+    "description": "DataClassification is defined on table fields. Pages — including Card, List, API, and ListPart — do not own a classification; they simply expose fields whose classification is inherited from the underlying table.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "data-classification",
+      "page-field",
+      "table-field",
+      "api-page",
+      "card-page",
+      "list-page"
+    ],
     "ai_usage": null,
-    "words": 179
+    "words": 179,
+    "identifiers": [
+      "DataClassification",
+      "ListPart"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "privacy",
+      "keywords": [
+        "data-classification",
+        "page-field",
+        "table-field",
+        "api-page",
+        "card-page",
+        "list-page"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "DataClassification is defined on table fields. Pages — including Card, List, API, and ListPart — do not own a classification; they simply expose fields whose classification is inherited from the underlying table."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

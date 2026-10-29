@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T13:43:32.762Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-29T21:38:16.952Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -197,7 +197,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11740 Bug 636971: [Expense Agent] EA Scheduler Task table grows unbounded with no cleanup or UI visibility](../../../changes/bcapps/11740.md) (code change): "The Expense Agent now calls an existing cleanup function"
 - [#11997 Clarify Expense Agent Entra app permission checks](../../../changes/bcapps/11997.md) (code change): "Permission checks for the Expense Agent Entra app have been reordered"
 - [#12514 Revert Expense API test re-enablement and consolidated fixes](../../../changes/bcapps/12514.md) (code change): "Fully reverts the earlier commit that re-enabled Expense API tests"
-- [#12539 Add Expense Agent consumption V2 and trial support](../../../changes/bcapps/12539.md) (code change): "Add Expense Agent consumption V2 and trial support"
+- [#12539 Add Expense Agent consumption V2 and trial support](../../../changes/bcapps/12539.md) (code change): "Expense Agent adds a V2 consumption API and a 50-expense feature trial"
 - [#12599 [Master] - Slice 629913: [Expense Agent][VENDOR] Enforced background itemization required for approvals](../../../changes/bcapps/12599.md) (code change): "Expense Agent now requires itemization when an enabled Expense Policy"
 - [#12763 [Master] - Bug 654021: [Expense Agent] [Professional] Online: Creating Production - Setup Data Only Company with Delegated Admin access: "'IndirectInsert' permission on TableData 6913 'Expense Pmt Method" - 2610091420000495](../../../changes/bcapps/12763.md) (code change): "Expense Agent delegated admin partner entitlements are updated to grant"
 - [#12810 ExpenseAgent-CAUS-default-VAT-setup-fails](../../../changes/bcapps/12810.md) (code change): "Fixes the Expense Agent default VAT setup failing"

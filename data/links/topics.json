@@ -7052,14 +7052,14 @@
     "change/bcapps/11744": {
       "kind": "change",
       "key": "change/bcapps/11744",
-      "hash": "2049bd257ce0bad2d3c8f3134fae32b1a84242494c942df3f5cd2af07129d40f",
+      "hash": "91074ca167f0da6dc4370a63af047e0ba699f26a81e2eef24315353f1839e377",
       "title": "#11744 Fixes #11605 - GetCurrencyCode Error",
       "source": "bcapps-prs",
-      "at": "2026-10-28T10:50:15.237Z",
+      "at": "2026-10-29T21:35:38.716Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/local-functionality/belgium/vat",
-          "quote": "GetCurrencyCode no longer raises an error if bank account lookup fails"
+          "topic": "topic/business-central/business-functionality/local-functionality/belgium/core-finance",
+          "quote": "GetCurrencyCode on the CODA Statement table no longer raises an error"
         }
       ]
     },
@@ -9194,14 +9194,14 @@
     "change/bcapps/12518": {
       "kind": "change",
       "key": "change/bcapps/12518",
-      "hash": "a0916741fd9460eff8ac710d01c0e84657e032cf0137d7eeee77d955901b5714",
+      "hash": "383596bc3581162959e9eed34b71c232f36354272d9b48037518e38ff400574f",
       "title": "#12518 [29.X]Page cannot open because of FlowField 'Last Run By User'- #12304",
       "source": "bcapps-prs",
-      "at": "2026-10-28T10:50:15.237Z",
+      "at": "2026-10-29T21:35:38.716Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/financial-analytics/built-in-finance-reports",
-          "quote": "Fixed a page opening error caused by an invalid FlowField definition in the Financial Report table"
+          "quote": "Fixes a page that failed to open because of the 'Last Run By User' FlowField"
         }
       ]
     },
@@ -9254,18 +9254,22 @@
     "change/bcapps/12539": {
       "kind": "change",
       "key": "change/bcapps/12539",
-      "hash": "85f5b783fff9dfce2ea419f4b96903a36e82d91dd66076756b2872f86b2d7874",
+      "hash": "8a7adb0ade92b7b2a14dcaa37a1eaa5e76f3a1883bb90281023dd17cca2a4fbc",
       "title": "#12539 Add Expense Agent consumption V2 and trial support",
       "source": "bcapps-prs",
-      "at": "2026-10-28T10:50:13.468Z",
+      "at": "2026-10-29T21:35:39.393Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "Add Expense Agent consumption V2 and trial support"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Expense Agent adds a V2 consumption API and a 50-expense feature trial"
         },
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
-          "quote": "Expense Agent now supports consumption V2 API, a 50-expense trial quota"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
+          "quote": "Trial status shown in billing overview and remaining free expenses in setup"
+        },
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Expense Agent adds a V2 consumption API and a 50-expense feature trial"
         }
       ]
     },
@@ -9891,14 +9895,18 @@
     "change/bcapps/12867": {
       "kind": "change",
       "key": "change/bcapps/12867",
-      "hash": "322aeb781c9162e2f408aac2d4ba565b6eab7c169740a75f1fb28c51705f85a0",
+      "hash": "48c388f42136360cb457913b3b3449ef17e3da2bd78db3e557d2a5fd2498abdf",
       "title": "#12867 [29.X]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines",
       "source": "bcapps-prs",
-      "at": "2026-10-28T10:50:14.572Z",
+      "at": "2026-10-29T21:35:39.345Z",
       "matches": [
         {
+          "topic": "topic/business-central/business-functionality/local-functionality/netherlands/purchasing",
+          "quote": "Fixed an issue in the Dutch (NL) version on 29.x where editing the Description on purchase invoice"
+        },
+        {
           "topic": "topic/business-central/business-functionality/purchasing",
-          "quote": "modifying the description field on purchase invoice and credit memo lines"
+          "quote": "editing the Description on purchase invoice or credit memo subform lines reset the Quantity to 1"
         }
       ]
     },
@@ -10116,14 +10124,18 @@
     "change/bcapps/13052": {
       "kind": "change",
       "key": "change/bcapps/13052",
-      "hash": "13b3c11afbd062076cece4378e050c26f4e31f321f9699ffd737174675dfa498",
+      "hash": "9adc16d06d2fcd3988e9c24d8150f616c549b1dd8abc3cbd8e1f4c1c8b25c618",
       "title": "#13052 [Shopify] Upgrade tax matching to GPT-5.6 Ceres",
       "source": "bcapps-prs",
-      "at": "2026-10-28T10:50:06.752Z",
+      "at": "2026-10-29T21:35:39.864Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/shopify-tax-matching-preview",
           "quote": "Shopify tax matching agent upgrades from GPT-4.1 to GPT-5.6 Ceres"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/online-store-with-shopify",
+          "quote": "Shopify tax matching now calls GetGPT56CeresLatest()"
         }
       ]
     },
@@ -10294,42 +10306,46 @@
     "change/bcapps/13216": {
       "kind": "change",
       "key": "change/bcapps/13216",
-      "hash": "e97b8d9340ab10633b33f66356e79fa7ad950e2e774d2d8983576d1050454fb9",
+      "hash": "a7bd285e20260b326753f44d519959782cd359ec7a5a4749fc5cfa1a1780243c",
       "title": "#13216 Fix VAT adjustment register",
       "source": "bcapps-prs",
-      "at": "2026-10-28T10:50:12.525Z",
+      "at": "2026-10-29T21:35:38.716Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
-          "quote": "Fix VAT adjustment register. VAT adjustment register calculation corrected"
+          "quote": "Fix VAT adjustment register. Fixes how the VAT adjustment register is handled"
         }
       ]
     },
     "change/bcapps/13224": {
       "kind": "change",
       "key": "change/bcapps/13224",
-      "hash": "2e8cd3d2719803ea2de000fb7070661e24493bc55cc1455215fd7c693de4cd1d",
+      "hash": "20bd86316cf64de3a874622cb91c416c648b17c6dcfc3ab2a3d130e9ef17a302",
       "title": "#13224 [29.X]-\"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify\" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.",
       "source": "bcapps-prs",
-      "at": "2026-10-28T10:50:12.525Z",
+      "at": "2026-10-29T21:35:38.716Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
-          "quote": "Fixed permission error preventing modification of G/L Register records"
+          "quote": "Running Update Registers from the G/L Registers page no longer fails with a G/L Entry Modify permission error"
         }
       ]
     },
     "change/bcapps/13240": {
       "kind": "change",
       "key": "change/bcapps/13240",
-      "hash": "ad4c723441ba0e779c33d183ae602d1725aeb13040c44aee8bf1ed59875a9a46",
+      "hash": "59dada377708152fdbcba303c077c277ca556a595db3bd7664e297fd561a52ac",
       "title": "#13240 [Main]-Test disabled after BCApps uptake: Contract Renewal Test.TestIfContractRenewalSelectionIsUpdateOnAfterValidateCalcBasePercentage fails",
       "source": "bcapps-prs",
-      "at": "2026-10-28T10:50:13.653Z",
+      "at": "2026-10-29T21:35:44.327Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/sales/subscription-billing/contracts",
-          "quote": "Contract Renewal Selection page was fixed to restore proper functionality"
+          "quote": "Contract Renewal Selection page (8006) in Subscription Billing so the selection updates"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/sales/subscription-billing",
+          "quote": "Subscription Billing app, Finance team"
         }
       ]
     },
@@ -10350,14 +10366,14 @@
     "change/bcapps/13262": {
       "kind": "change",
       "key": "change/bcapps/13262",
-      "hash": "7ae124bc076b566ce4e5e66c6a4478e1738a5963f0ab3056e8faef260190ca2c",
+      "hash": "3b8543813b4b8019eb82ffc7afe97162872b971d958c79addbafa70b0000afff",
       "title": "#13262 [Financial Reports] Trial Balance by Period (Excel) should use a query-based approach rather than loop and CalcFields",
       "source": "bcapps-prs",
-      "at": "2026-10-28T10:50:12.525Z",
+      "at": "2026-10-29T21:35:38.716Z",
       "matches": [
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-datasets",
-          "quote": "Trial Balance by Period (Excel) report now uses a query-based approach"
+          "topic": "topic/business-central/business-functionality/finance/financial-analytics/built-in-finance-reports",
+          "quote": "Trial Balance by Period (Excel) now gets amounts from a new query"
         }
       ]
     },
@@ -20722,10 +20738,10 @@
     "post/demiliani-com/17552": {
       "kind": "post",
       "key": "post/demiliani-com/17552",
-      "hash": "ee66fe2f5d13bf205c67014ac6dd5e1e483639f563519c9ec7dac9f3d7ff1379",
+      "hash": "b36e7d019e4ec65dc4d5df04acb6829df8135a6c6e9dada2655061d277bc0ea8",
       "title": "Dynamics 365 Business Central: matching Production database configuration for Sandboxes.",
       "source": "demiliani-com",
-      "at": "2026-10-28T10:50:07.158Z",
+      "at": "2026-10-29T21:35:39.289Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/development-environment/work-in-sandboxes",
@@ -20733,11 +20749,11 @@
         },
         {
           "topic": "topic/dev-itpro/administration/admin-center",
-          "quote": "available via Admin Center API and supports all paid license types"
+          "quote": "In the Admin Center, a sandbox can temporarily get the database configuration"
         },
         {
           "topic": "topic/dev-itpro/performance",
-          "quote": "enabling realistic testing and performance validation without deploying to production"
+          "quote": "It helps with performance testing, Performance Toolkit and Cloud Migration"
         }
       ]
     },
@@ -24795,22 +24811,22 @@
     "post/olofsimren-com/3779": {
       "kind": "post",
       "key": "post/olofsimren-com/3779",
-      "hash": "82d6fed30084b090fc288879a66a252a3100f7a7b1e4b9aaa8ad7a22b4bc6c42",
+      "hash": "47d13eee303a265c07f5c1fa7f47c00d2633fe91d7be4c57bf29ed47b636e079",
       "title": "Approval Workflows in Planning Worksheet",
       "source": "olofsimren-com",
-      "at": "2026-10-28T10:50:08.650Z",
+      "at": "2026-10-29T21:35:41.172Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-approval-workflows-based-on-templ",
-          "quote": "Approval workflows now lock planning worksheet batches and prevent line modifications"
+          "quote": "Setup happens on the Workflows page using the Requisition Worksheet batch approval template"
         },
         {
           "topic": "topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning",
-          "quote": "approval workflow support to planning, requisition, and subcontracting worksheets"
+          "quote": "approval workflow support to planning, requisition, and subcontracting worksheets at the batch level"
         },
         {
-          "topic": "topic/business-central/business-functionality/planning",
-          "quote": "Approval Workflows in Planning Worksheet. Business Central version 28"
+          "topic": "topic/business-central/business-functionality/general-business-functionality/workflows/use-approval-workflows",
+          "quote": "Approval Workflows in Planning Worksheet. Business Central version 28 adds approval workflow support"
         }
       ]
     },
@@ -24840,22 +24856,18 @@
     "post/olofsimren-com/3865": {
       "kind": "post",
       "key": "post/olofsimren-com/3865",
-      "hash": "330cc6674ae36c8bc0ae13c27213e2ac80f0e13a49eaf8d0a9221cc8b6fd875b",
+      "hash": "f008fe9eb81c022ce219d474e0d51411e632194f9fb446a87da99d176748b6b4",
       "title": "Business Central Case Study: How World Emblem Automated High-Volume Manufacturing Processes",
       "source": "olofsimren-com",
-      "at": "2026-10-28T10:50:15.592Z",
+      "at": "2026-10-29T21:35:45.729Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica",
-          "quote": "Automated warehouse routing and order decisions that previously required manual tribal knowledge"
-        },
-        {
-          "topic": "topic/business-central/development-and-administration/customize-business-central",
-          "quote": "Built configuration tables for business rules instead of hard-coded customizations"
-        },
-        {
           "topic": "topic/business-central/business-functionality/manufacturing/manufacturing-analytics",
-          "quote": "high-volume embroidered garment manufacturer, used Business Central automation"
+          "quote": "Used Business Central automation and configuration-driven customizations to scale operations"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-external-systems-using",
+          "quote": "Migrated freight calculation logic from external systems into Business Central"
         }
       ],
       "second": {
@@ -24897,18 +24909,22 @@
     "post/olofsimren-com/3928": {
       "kind": "post",
       "key": "post/olofsimren-com/3928",
-      "hash": "6ac948d6420916816c3a910a72924940cb38480cce87e98a6035a48729241f57",
+      "hash": "389a1a7eeaf31df166cafbc7d80162a7d850c9029d40de74448aeb7a310dfe18",
       "title": "Business Central Case Study: Engineer-to-Order Manufacturing at Zook",
       "source": "olofsimren-com",
-      "at": "2026-10-28T10:50:08.650Z",
+      "at": "2026-10-29T21:35:41.172Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/manufacturing",
-          "quote": "engineer-to-order manufacturing with custom extensions. The case study shows"
+          "quote": "Engineer-to-Order Manufacturing at Zook. Case study of ZOOK, a maker of rupture disks built to order"
         },
         {
           "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing",
-          "quote": "Custom product configurator determines production methods, inspection rules, and documentation"
+          "quote": "ZOOK is now moving to Business Central and reviewing which customizations to keep or replace with standard features"
+        },
+        {
+          "topic": "topic/dev-itpro/integration",
+          "quote": "A NAV to UPS WorldShip Canada interface cut shipment handling from 12 to 20 minutes to about two seconds"
         }
       ]
     },
@@ -29184,20 +29200,33 @@
     "post/thinkaboutit-be/8331": {
       "kind": "post",
       "key": "post/thinkaboutit-be/8331",
-      "hash": "2cdea9405d14b152cd9bf74d370d98166eb693c7805a8a0f366d7b701a1ac41f",
+      "hash": "18306746658fa30076f4d917c1cc7617af9524894ae2df4778e185845e534256",
       "title": "Business Central 29: What’s New in BC-Bench?",
       "source": "thinkaboutit-be",
-      "at": "2026-10-28T10:50:07.106Z",
+      "at": "2026-10-29T21:35:46.648Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "AL MCP (Model Context Protocol) improves bug-fixing performance"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "AL MCP (Model Context Protocol) improves bug-fixing performance by nearly 10% when integrated with AI agents"
         },
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "evaluating AI coding agents on Business Central AL development tasks"
+          "topic": "topic/business-central/responsible-ai",
+          "quote": "BC-Bench helps measure whether AI models and tools actually improve AL development performance"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-29T21:35:30.622Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+            "reason": "About benchmarking AL coding agents; its AL MCP is a developer tool covered by the sibling developer-tools section."
+          },
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+            "reason": "BC-Bench measures AI coding assistants on AL development tasks, not agents built with AL."
+          }
+        ]
+      }
     },
     "post/tine-staric-net/https://tine.staric.net/blog/2025/copilot-fancy-autocomplete-vol2/": {
       "kind": "post",

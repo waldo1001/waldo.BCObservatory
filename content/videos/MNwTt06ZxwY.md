@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:44.510Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-10-29T21:35:06.885Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -79,8 +79,7 @@ links:
   objects:
     - object/codeunit/4321
     - object/page/4316
-  features:
-    - feature/578068
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -170,12 +169,10 @@ cautions:
     t: 1673
 features:
   - name: Agent creation and configuration
-    status: preview
+    status: unclear
     t: 111
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "578068"
+    status_source: video
   - name: Manage user access for agents
     status: unclear
     t: 180
@@ -452,7 +449,7 @@ The second half covers shipping. Agents created with instructions in the client 
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Agent creation and configuration | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)), demoed | [1:51](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=111s) |  |
+| Agent creation and configuration | status not stated, demoed | [1:51](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=111s) |  |
 | Manage user access for agents | status not stated, demoed | [3:00](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=180s) |  |
 | Profiles and permissions configuration | status not stated, demoed | [4:02](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=242s) |  |
 | Agent instructions configuration | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=312s) |  |
@@ -493,8 +490,6 @@ The second half covers shipping. Agents created with instructions in the client 
 | Run turn and wait method | status not stated, demoed | [42:59](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=2579s) |  |
 | Data-driven agent test framework | status not stated, demoed | [44:01](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=2641s) |  |
 | Agent debugging with break on next | status not stated | [44:59](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=2699s) |  |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

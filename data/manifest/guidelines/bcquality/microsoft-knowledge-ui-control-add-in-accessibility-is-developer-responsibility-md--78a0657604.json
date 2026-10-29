@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/control-add-in-accessibility-is-developer-responsibility.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.302Z",
+      "at": "2026-10-29T21:29:25.015Z",
       "blob": "cc7405442618d8b21ad6f3f125faaf1ca19a86ce",
       "words": 156,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:25.062Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/control-add-in-accessibility-is-developer-responsibility.md"
     }
   },
   "input_hash": "cc7405442618d8b21ad6f3f125faaf1ca19a86ce",
@@ -25,13 +29,47 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/control-add-in-accessibility-is-developer-responsibility.md",
-    "description": null,
+    "description": "When a developer builds a JavaScript control add-in, they bypass the Business Central framework's built-in accessibility support and take full responsibility for the accessibility of the rendered HTML, JavaScript, and CSS.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "control-add-in",
+      "javascript",
+      "accessibility",
+      "framework",
+      "wcag"
+    ],
     "ai_usage": null,
-    "words": 156
+    "words": 156,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "control-add-in",
+        "javascript",
+        "accessibility",
+        "framework",
+        "wcag"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al",
+        "javascript"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "When a developer builds a JavaScript control add-in, they bypass the Business Central framework's built-in accessibility support and take full responsibility for the accessibility of the rendered HTML, JavaScript, and CSS."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

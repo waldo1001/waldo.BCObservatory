@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-29T21:38:16.952Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -212,6 +212,7 @@ links:
     - post/aardvarklabs-blog/2663
     - post/aardvarklabs-blog/2965
     - post/thinkaboutit-be/8204
+    - post/thinkaboutit-be/8331
   guidelines: []
   changes:
     - change/al-go/2413
@@ -230,7 +231,7 @@ coverage:
   learn: 24
   code: 0
   video: 2
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: aeabb0e354c64dab6f26c0a75a3b42f75aacb52e074d17031f180db246dc234e
@@ -293,6 +294,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Azure OpenAI in Business Central AL: Managed vs Unmanaged](../../../posts/aardvarklabs-blog/2663.md) (community post): "Azure OpenAI in Business Central AL: Managed vs Unmanaged"
 - [Step-by-Step Guide to AI Campaigns in Business Central](../../../posts/aardvarklabs-blog/2965.md) (community post): "Leverages Business Central's managed AI resource with Bing Grounded Search"
 - [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "Developers can now build Copilot extensions using Microsoft-managed Azure OpenAI"
+- [Business Central 29: What’s New in BC-Bench?](../../../posts/thinkaboutit-be/8331.md) (community post): "AL MCP (Model Context Protocol) improves bug-fixing performance by nearly 10% when integrated with AI agents"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../../videos/7SSNcUMFtCw.md) (video): "Bring your own Azure OpenAI subscription; System prompts for AI safety"
 - [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../videos/lNASlydCidI.md) (video): "Generative AI Developer Toolkit; Prompt Dialogue Page Type; Sparkle Image Property"
 

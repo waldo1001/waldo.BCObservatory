@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/migration-destination-classification.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.265Z",
+      "at": "2026-10-29T21:29:24.015Z",
       "blob": "afb8e8dd7b8f3abaff08fc738ed6ad82a30bc840",
       "words": 190,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:24.329Z",
+      "path": "content/guidelines/microsoft/knowledge/privacy/migration-destination-classification.md"
     }
   },
   "input_hash": "afb8e8dd7b8f3abaff08fc738ed6ad82a30bc840",
@@ -25,13 +29,59 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/privacy/migration-destination-classification.md",
-    "description": null,
+    "description": "Migration codeunits such as HybridSL, HybridGP, and HybridBC exist to copy sensitive data — TINs, Federal IDs, social security numbers, financial records — from a source system into Business Central.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "data-migration",
+      "hybridsl",
+      "hybridgp",
+      "hybridbc",
+      "destination-classification",
+      "ssn",
+      "tin"
+    ],
     "ai_usage": null,
-    "words": 190
+    "words": 190,
+    "identifiers": [
+      "HybridSL",
+      "HybridGP",
+      "HybridBC",
+      "DataClassification",
+      "EndUserIdentifiableInformation",
+      "CustomerContent",
+      "SystemMetadata",
+      "ToBeClassified"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "privacy",
+      "keywords": [
+        "data-migration",
+        "hybridsl",
+        "hybridgp",
+        "hybridbc",
+        "destination-classification",
+        "ssn",
+        "tin"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Migration codeunits such as HybridSL, HybridGP, and HybridBC exist to copy sensitive data — TINs, Federal IDs, social security numbers, financial records — from a source system into Business Central."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

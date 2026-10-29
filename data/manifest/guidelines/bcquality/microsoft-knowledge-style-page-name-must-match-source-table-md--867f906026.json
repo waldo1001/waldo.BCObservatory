@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/page-name-must-match-source-table.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.291Z",
+      "at": "2026-10-29T21:29:24.950Z",
       "blob": "b8706cbb8e4b7aa01daac3fdaa0672855885ddbc",
       "words": 234,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:25.008Z",
+      "path": "content/guidelines/microsoft/knowledge/style/page-name-must-match-source-table.md"
     }
   },
   "input_hash": "b8706cbb8e4b7aa01daac3fdaa0672855885ddbc",
@@ -25,13 +29,46 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/page-name-must-match-source-table.md",
-    "description": null,
+    "description": "A page (or filtered page View) whose name references one entity but whose SourceTable is a different entity misleads every consumer of the object's metadata.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "page-name",
+      "source-table",
+      "misleading",
+      "naming"
+    ],
     "ai_usage": null,
-    "words": 234
+    "words": 234,
+    "identifiers": [
+      "SourceTable"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "page-name",
+        "source-table",
+        "misleading",
+        "naming"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A page (or filtered page View) whose name references one entity but whose SourceTable is a different entity misleads every consumer of the object's metadata."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

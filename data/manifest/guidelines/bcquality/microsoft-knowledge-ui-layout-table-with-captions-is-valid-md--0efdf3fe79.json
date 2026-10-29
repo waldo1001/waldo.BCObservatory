@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/layout-table-with-captions-is-valid.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.328Z",
+      "at": "2026-10-29T21:29:25.619Z",
       "blob": "53caaec5ac6c659830ce4a9c85f0185f4c802cbe",
       "words": 132,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:25.676Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/layout-table-with-captions-is-valid.md"
     }
   },
   "input_hash": "53caaec5ac6c659830ce4a9c85f0185f4c802cbe",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/layout-table-with-captions-is-valid.md",
-    "description": null,
+    "description": "A grid or fixed layout that does not meet all three data-table conditions renders as a layout table. A layout table where editable fields keep their visible captions is not an accessibility violation. Each field is labeled by its own caption — this is a valid, accessible pattern.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "grid",
+      "fixed",
+      "layout-table",
+      "show-caption",
+      "false-positive",
+      "accessibility"
+    ],
     "ai_usage": null,
-    "words": 132
+    "words": 132,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "grid",
+        "fixed",
+        "layout-table",
+        "show-caption",
+        "false-positive",
+        "accessibility"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A grid or fixed layout that does not meet all three data-table conditions renders as a layout table. A layout table where editable fields keep their visible captions is not an accessibility violation. Each field is labeled by its own caption — this is a valid, accessible pattern."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

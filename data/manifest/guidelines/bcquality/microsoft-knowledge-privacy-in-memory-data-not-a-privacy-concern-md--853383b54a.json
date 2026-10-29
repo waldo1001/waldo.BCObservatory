@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/in-memory-data-not-a-privacy-concern.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.259Z",
+      "at": "2026-10-29T21:29:24.024Z",
       "blob": "38fb6f263d58c8ece29e29d9dd583f8251bea891",
       "words": 168,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:24.112Z",
+      "path": "content/guidelines/microsoft/knowledge/privacy/in-memory-data-not-a-privacy-concern.md"
     }
   },
   "input_hash": "38fb6f263d58c8ece29e29d9dd583f8251bea891",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/privacy/in-memory-data-not-a-privacy-concern.md",
-    "description": null,
+    "description": "AL runs in a managed server environment.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "in-memory",
+      "dictionary",
+      "list",
+      "temporary-table",
+      "variable",
+      "memory-dump"
+    ],
     "ai_usage": null,
-    "words": 168
+    "words": 168,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "privacy",
+      "keywords": [
+        "in-memory",
+        "dictionary",
+        "list",
+        "temporary-table",
+        "variable",
+        "memory-dump"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "AL runs in a managed server environment."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:23.519Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-29T21:38:16.952Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -505,6 +505,7 @@ links:
     - change/bcapps/12435
     - change/bcapps/12518
     - change/bcapps/13160
+    - change/bcapps/13262
     - change/bcapps/9129
     - change/bcapps/9142
     - change/bcapps/9894
@@ -754,8 +755,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12304 [Master]-Page cannot open because of FlowField 'Last Run By User'](../../../../../changes/bcapps/12304.md) (code change): "a financial reports page could not open because of the FlowField"
 - [#12337 [MAIN]-Bug 642602: Address AL1430 and remove exception from ruleset](../../../../../changes/bcapps/12337.md) (code change): "IN GST Stock Register for Job Work report by removing redundant sorting"
 - [#12435 [Financial Reports] Faster row/column definition entry and custom schedule email subject](../../../../../changes/bcapps/12435.md) (code change): "Row and column definition lines default type fields from previous line"
-- [#12518 [29.X]Page cannot open because of FlowField 'Last Run By User'- #12304](../../../../../changes/bcapps/12518.md) (code change): "Fixed a page opening error caused by an invalid FlowField definition in the Financial Report table"
+- [#12518 [29.X]Page cannot open because of FlowField 'Last Run By User'- #12304](../../../../../changes/bcapps/12518.md) (code change): "Fixes a page that failed to open because of the 'Last Run By User' FlowField"
 - [#13160 [Main][all-e]Changing Negative Amount Format to Parentheses modifies displayed decimal precision despite unchanged rounding settings in the Financial Reports](../../../../../changes/bcapps/13160.md) (code change): "Negative amount formatting was using a hardcoded two-decimal pattern instead of the configured precision"
+- [#13262 [Financial Reports] Trial Balance by Period (Excel) should use a query-based approach rather than loop and CalcFields](../../../../../changes/bcapps/13262.md) (code change): "Trial Balance by Period (Excel) now gets amounts from a new query"
 - [#9129 [Master]-Bug 641503 Financial Reporting - Duplicate Rows in Financial Report Excel Export After Adding GL Budget Dimension](../../../../../changes/bcapps/9129.md) (code change): "financial report Excel exports. Fixes issue that occurred after adding GL budget dimensions"
 - [#9142 [638695] Add Financial Report tables to always-logged list](../../../../../changes/bcapps/9142.md) (code change): "Financial Report tables are now added to the always-logged list"
 - [#9894 Suppress zero-value rows in Trial Balance by Period](../../../../../changes/bcapps/9894.md) (code change): "Trial Balance by Period Excel report now suppresses rows with zero values"
