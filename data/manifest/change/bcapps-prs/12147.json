@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12147",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bugs/add corp card basics",
+  "url": "https://github.com/microsoft/BCApps/pull/12147",
+  "published_at": "2026-10-28T13:25:54Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-29T00:16:37.959Z"
+    }
+  },
+  "input_hash": "87fefc100ab943d517261db19ad39e2b405ed40e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12147,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "87fefc100ab943d517261db19ad39e2b405ed40e",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bugs add corp card basics"
+  }
+}

@@ -845,6 +845,15 @@
       "title_key": "fix duplicate xml audit file fr test codeunit id"
     }
   ],
+  "13211": [
+    {
+      "number": 13245,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-28T13:01:09Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13245",
+      "title_key": "copy time sheet skips deleted work types and absences reasons"
+    }
+  ],
   "13216": [
     {
       "number": 13265,
@@ -852,6 +861,24 @@
       "merged_at": "2026-10-27T10:19:02Z",
       "url": "https://github.com/microsoft/BCApps/pull/13265",
       "title_key": "fix vat adjustment register 13216"
+    }
+  ],
+  "13262": [
+    {
+      "number": 13316,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-28T15:25:06Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13316",
+      "title_key": "financial reports trial balance by period excel should use a query based approach rather than loop and calcfields"
+    }
+  ],
+  "13330": [
+    {
+      "number": 13332,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-28T14:10:16Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13332",
+      "title_key": "bug 656922 29 x recurring frequency missing from edit in excel"
     }
   ],
   "unmatched": [
@@ -1960,6 +1987,13 @@
       "merged_at": "2026-10-28T07:53:40Z",
       "url": "https://github.com/microsoft/BCApps/pull/13161",
       "title_key": "add copilot feature trial interface"
+    },
+    {
+      "number": 13257,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-28T15:49:35Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13257",
+      "title_key": "feature 623913 eet 2 0 backported from main"
     }
   ]
 }

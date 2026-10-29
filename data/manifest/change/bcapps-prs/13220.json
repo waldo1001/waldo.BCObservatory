@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13220",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix average cost adjustment overflow on same-period transfers",
+  "url": "https://github.com/microsoft/BCApps/pull/13220",
+  "published_at": "2026-10-28T09:54:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-29T00:16:37.959Z"
+    }
+  },
+  "input_hash": "6eb637bcd5e5ab9d157460bbfd9a11914ab30273:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13220,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6eb637bcd5e5ab9d157460bbfd9a11914ab30273",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fix average cost adjustment overflow on same period transfers"
+  }
+}

@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:42:34.480Z"
+  at: "2026-10-29T00:18:22.904Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: aa19bbd6efcba74ddbee71b188b01dc4619233944bef62ae57cea9307788e300
+  input_hash: 7655a28f620d72859a3b7defe0d3e50795d3030aed4667e1da1f6fc8cbe72daf
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Apps/W1/HybridBC14/app/src/Migration/BC14Migrator.Interface.al
@@ -43,7 +43,7 @@ links:
     - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-custom-migration
       title: Custom migration from any SQL source
       label: possibly related
-      why: Guides custom migrations from SQL sources using BC14 reimplementation tool.
+      why: Documents custom migration setup from SQL sources to Business Central online.
       by: model
 object_type: interface
 object_id: null
@@ -155,7 +155,7 @@ HybridBC14 · Microsoft.DataMigration.BC14Reimplementation · BC29-30 · [source
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
-- [Custom migration from any SQL source](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-custom-migration) — possibly related: Guides custom migrations from SQL sources using BC14 reimplementation tool. (model-linked)
+- [Custom migration from any SQL source](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-custom-migration) — possibly related: Documents custom migration setup from SQL sources to Business Central online. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

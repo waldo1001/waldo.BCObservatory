@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:00:22.187Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-29T00:22:43.725Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -236,6 +236,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/bank-review-posted-reconciliations
+    title: bank review posted reconciliations
+    date: "2026-10-28"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-how-block-vendors
     title: Block vendors
     date: "2024-12-16"
@@ -288,13 +295,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-20
     title: Calculate and Post Tax Settlement (report)
     date: "2025-06-25"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/finance-withholding-tax
-    title: Calculate withholding tax for vendors
-    date: "2026-09-01"
     commit: null
     t: null
     quote: null
@@ -890,7 +890,7 @@ children:
   - topic/business-central/business-functionality/finance/set-up-and-use-e-documents
   - topic/business-central/business-functionality/finance/multi-site-and-international-organizatio
 coverage:
-  learn: 256
+  learn: 257
   code: 524
   video: 5
   blog: 1
@@ -1429,7 +1429,7 @@ bc_forms:
   - 2000020
   - 2000021
   - 2000022
-member_hash: e00a78a6ae989fa33c91e80446f1a8ee7441794523762b5a6ec8d2471cea7d98
+member_hash: 72e7b7ba21c23a55c47b773273e9ff29c941cabc02251323901f96314d3b65a4
 narrative: generated
 ---
 
@@ -1468,7 +1468,7 @@ The own pages also cover tax topics: calculating withholding tax for vendors, se
 - [Manage receivables](finance/manage-receivables.md) (19 pages)
 - [Manage payables](finance/manage-payables.md) (25 pages)
 - [Invoicing prepayments](finance/invoicing-prepayments.md) (4 pages)
-- [Reconcile bank accounts](finance/reconcile-bank-accounts.md) (6 pages)
+- [Reconcile bank accounts](finance/reconcile-bank-accounts.md) (7 pages)
 - [Accounting for costs](finance/accounting-for-costs.md) (9 pages)
 - [Manage inventory costs](finance/manage-inventory-costs.md) (14 pages)
 - [Manage cash flow](finance/manage-cash-flow.md) (3 pages)

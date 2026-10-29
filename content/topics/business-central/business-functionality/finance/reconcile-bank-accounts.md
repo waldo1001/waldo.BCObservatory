@@ -12,12 +12,19 @@ review:
   at: "2026-10-24T00:55:44.293Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-29T00:22:43.725Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
   input_hash: 8916d0cbcc5640c64ffef6fd5d41d7cde8ee92128a9af36e3b18dda41f0d7110
 evidence:
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/bank-review-posted-reconciliations
+    title: bank review posted reconciliations
+    date: "2026-10-28"
+    commit: null
+    t: null
+    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/bank-create-bank-deposits
     title: Create bank deposits
@@ -35,7 +42,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately
     title: Reconcile bank accounts
-    date: "2026-04-07"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
@@ -62,6 +69,7 @@ evidence:
     quote: null
 links:
   learn:
+    - https://learn.microsoft.com/dynamics365/business-central/bank-review-posted-reconciliations
     - https://learn.microsoft.com/dynamics365/business-central/bank-create-bank-deposits
     - https://learn.microsoft.com/dynamics365/business-central/bank-manage-bank-accounts
     - https://learn.microsoft.com/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately
@@ -98,7 +106,7 @@ toc_file: business-central/TOC.md
 parent: topic/business-central/business-functionality/finance
 children: []
 coverage:
-  learn: 6
+  learn: 7
   code: 10
   video: 0
   blog: 0
@@ -122,7 +130,7 @@ bc_forms:
   - 10147
   - 10148
   - 36646
-member_hash: 31fee08bdf4b262850c5c9c8cf469c7ad6450e0b10bc04c69b03a3ddfc821fb5
+member_hash: 7b2d91029f26d165b74445d585f8e222d14c6248f1a88588662fd7ea5ca03d96
 narrative: generated
 ---
 
@@ -153,6 +161,7 @@ Start with "Reconcile bank accounts" for the core matching process, or "Manage b
 
 ## Learn pages
 
+- [bank review posted reconciliations](https://learn.microsoft.com/dynamics365/business-central/bank-review-posted-reconciliations)
 - [Create bank deposits](https://learn.microsoft.com/dynamics365/business-central/bank-create-bank-deposits): You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.
   - In the observatory: [Page 101 "General Journal Templates"](../../../../objects/page/101.md), [Page 116 "G/L Registers"](../../../../objects/page/116.md), [Page 1692 "Bank Deposits"](../../../../objects/page/1692.md), [Page 232 "Apply Customer Entries"](../../../../objects/page/232.md), [Page 459 "Sales & Receivables Setup"](../../../../objects/page/459.md), [Page 543 "Default Dimension Priorities"](../../../../objects/page/543.md)
 - [Manage bank accounts](https://learn.microsoft.com/dynamics365/business-central/bank-manage-bank-accounts): You must regularly reconcile bank ledger entries with the related bank transactions in your bank accounts.

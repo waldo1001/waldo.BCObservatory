@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13164",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Inventory and Sustainability Power BI reports missing from Role Explorer despite being searchable",
+  "url": "https://github.com/microsoft/BCApps/pull/13164",
+  "published_at": "2026-10-28T15:42:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-29T00:16:37.959Z"
+    }
+  },
+  "input_hash": "3f3f5a32274c96cdf35477d9df9f14e5748459f1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13164,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3f3f5a32274c96cdf35477d9df9f14e5748459f1",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "inventory and sustainability power bi reports missing from role explorer despite being searchable"
+  }
+}

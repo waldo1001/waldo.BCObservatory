@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:42:34.480Z"
+  at: "2026-10-29T00:18:22.904Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 60ee3c3d7fbb2ae421d6971fe3ce52c07526742db24f2091787107600dcd9d67
+  input_hash: 1db901647a4fd80ec529e030f7a4320060964db43c5f9658dadd3e14db84e37c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocResponseProvider.Interface.al
@@ -45,7 +45,7 @@ links:
     - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments
       title: Extending the e-documents functionality
       label: possibly related
-      why: Interface for extending e-documents functionality with custom response providers for service integration.
+      why: E-document extension framework documents response provider interfaces for service integration.
       by: model
 object_type: interface
 object_id: null
@@ -103,7 +103,7 @@ EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
-- [Extending the e-documents functionality](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) — possibly related: Interface for extending e-documents functionality with custom response providers for service integration. (model-linked)
+- [Extending the e-documents functionality](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) — possibly related: E-document extension framework documents response provider interfaces for service integration. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

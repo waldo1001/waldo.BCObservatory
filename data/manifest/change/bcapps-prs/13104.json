@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13104",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "update tests and enable them",
+  "url": "https://github.com/microsoft/BCApps/pull/13104",
+  "published_at": "2026-10-28T09:46:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-29T00:16:37.959Z"
+    }
+  },
+  "input_hash": "7fa0ac42d1f57cbd86d20f065c1a07eef6c441c5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13104,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7fa0ac42d1f57cbd86d20f065c1a07eef6c441c5",
+    "author": "6CRIPT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "update tests and enable them"
+  }
+}

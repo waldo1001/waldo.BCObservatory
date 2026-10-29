@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/13261",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Backport 29.x] [Extensibility Request] [SCM] 2026-10-26",
+  "url": "https://github.com/microsoft/BCApps/pull/13261",
+  "published_at": "2026-10-28T08:55:26Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-29T00:16:37.959Z"
+    }
+  },
+  "input_hash": "6c26a47b664dedcb53851221f772ddef13b6c6bf:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13261,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "6c26a47b664dedcb53851221f772ddef13b6c6bf",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Approved",
+      "Team: SCM",
+      "ext-backporting",
+      "request-for-external"
+    ],
+    "community_contribution": false,
+    "title_key": "backport 29 x extensibility request scm 2026 10 26"
+  }
+}

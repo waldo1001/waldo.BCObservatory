@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13330",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 656921: [master] Recurring Frequency missing from Edit in Excel",
+  "url": "https://github.com/microsoft/BCApps/pull/13330",
+  "published_at": "2026-10-28T16:58:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-29T00:16:37.959Z"
+    }
+  },
+  "input_hash": "555b301fb06c784526b7477e1af16980e7e1ab99:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13330,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "555b301fb06c784526b7477e1af16980e7e1ab99",
+    "author": "AleksanderGladkov",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 656921 master recurring frequency missing from edit in excel"
+  }
+}

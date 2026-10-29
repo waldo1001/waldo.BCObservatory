@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:42:34.480Z"
+  at: "2026-10-29T00:18:22.904Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c81f2b0c251486e81cfc2c51ba9b6671084851f0f33d89dc93d93a2af33789e3
+  input_hash: 0485d01d9d5242017c7644b2fde76267cff7e987a87520b36be0bd2e3829df17
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Apps/W1/PayablesAgent/app/Navigation/PAPurchaseCreditMemo.PageCust.al
@@ -41,17 +41,6 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12894
-  related:
-    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_purchasecreditmemoline_delete
-      title: Delete purchaseCreditMemoLines
-      label: possibly related
-      why: Customization supports purchase credit memo line management via API in Payables Agent.
-      by: model
-    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_purchasecreditmemo_delete
-      title: Delete purchaseCreditMemos
-      label: possibly related
-      why: Customization supports purchase credit memo management via API in Payables Agent.
-      by: model
 object_type: pagecustomization
 object_id: null
 name: PA Purchase Credit Memo
@@ -98,13 +87,6 @@ PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at 4c1c1638
 
 - Present in: BC29-30
 - Changed (declaration) in: none
-
-## Possibly related
-
-No source states these links: they share an object, a model read them, or a person found the same subject.
-
-- [Delete purchaseCreditMemoLines](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_purchasecreditmemoline_delete) — possibly related: Customization supports purchase credit memo line management via API in Payables Agent. (model-linked)
-- [Delete purchaseCreditMemos](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_purchasecreditmemo_delete) — possibly related: Customization supports purchase credit memo management via API in Payables Agent. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

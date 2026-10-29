@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:42:34.480Z"
+  at: "2026-10-29T00:18:22.904Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 67e3d05e3bd919aa1f2502ce60a4c5324cb62bd369df80e32eb6fabc5b6a1d41
+  input_hash: 8efdfa9cecbaabc328ec4ed5359db2e008cef03b8a95c69fd81736651b134b26
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ExpenseAgent/app/src/Consumption/ExpenseAgentQuota.Interface.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12539
 object_type: interface
 object_id: null
 name: Expense Agent Quota
@@ -96,6 +98,10 @@ ExpenseAgent · Microsoft.ExpenseAgent · BC30 · [source at d2abc1d2](https://g
 ## Implemented by
 
 - [Codeunit 6913 "Expense Agent Quota Impl."](../codeunit/6913.md)
+
+## Recent changes
+
+- 2026-10-26 [#12539 Add Expense Agent consumption V2 and trial support](../../changes/bcapps/12539.md) (main, BC30, feature, added)
 
 ## Across versions
 

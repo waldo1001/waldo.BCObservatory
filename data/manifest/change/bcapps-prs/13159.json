@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13159",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29x] Bug 652332 Issuing multiple Reminders or Finance Charge Memos with Print, produces a PDF only for the last one",
+  "url": "https://github.com/microsoft/BCApps/pull/13159",
+  "published_at": "2026-10-28T10:31:06Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-29T00:16:37.959Z"
+    }
+  },
+  "input_hash": "274c387bbae4dac60f9acabdabe06595faed8c07:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13159,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "274c387bbae4dac60f9acabdabe06595faed8c07",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "29x bug 652332 issuing multiple reminders or finance charge memos with print produces a pdf only for the last one"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12696",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix Norwegian SAF-T 1.30 debit and credit totals",
+  "url": "https://github.com/microsoft/BCApps/pull/12696",
+  "published_at": "2026-10-28T15:49:11Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-29T00:16:37.959Z"
+    }
+  },
+  "input_hash": "255dc83bf8127be56f279800e0b36e04e87dfccd:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12696,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "255dc83bf8127be56f279800e0b36e04e87dfccd",
+    "author": "AleksanderGladkov",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix norwegian saf t 1 30 debit and credit totals"
+  }
+}

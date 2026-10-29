@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/12557",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Implement first-party app authentication for Microsoft Fabric Export",
+  "url": "https://github.com/microsoft/BCApps/pull/12557",
+  "published_at": "2026-10-28T10:19:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-29T00:16:37.959Z"
+    }
+  },
+  "input_hash": "90a3a39be4a51c82ca01ab262607af0ac559ecfe:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12557,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "90a3a39be4a51c82ca01ab262607af0ac559ecfe",
+    "author": "Bertverbeek4PS",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": true,
+    "title_key": "implement first party app authentication for microsoft fabric export"
+  }
+}

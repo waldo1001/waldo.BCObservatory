@@ -1,0 +1,46 @@
+{
+  "id": "change/bcapps-prs/13326",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Fabric] Clean up test events, app naming, authentication and telemetry",
+  "url": "https://github.com/microsoft/BCApps/pull/13326",
+  "published_at": "2026-10-28T20:37:22Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-29T00:16:37.959Z"
+    },
+    "fetched": {
+      "at": "2026-10-29T00:17:07.949Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "321baa25b461810550f995367da6affb2fe53876:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13326,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "321baa25b461810550f995367da6affb2fe53876",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "fabric clean up test events app naming authentication and telemetry"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d9c8eadba39d8d396908359c19b6855560aa1ce738f4bf385bc2b243e6430120"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13259",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Protect from runtime error if Item Availability looses date filter",
+  "url": "https://github.com/microsoft/BCApps/pull/13259",
+  "published_at": "2026-10-28T14:40:03Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-29T00:16:37.959Z"
+    }
+  },
+  "input_hash": "6b536fa9c21a1803cae850335da046c9cc284258:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13259,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6b536fa9c21a1803cae850335da046c9cc284258",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "protect from runtime error if item availability looses date filter"
+  }
+}

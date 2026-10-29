@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:42:34.480Z"
+  at: "2026-10-29T00:18:22.904Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 605e069b415ecb55351a06e79362e6999a81b75a3e6a5a28693af78f16c2a3ae
+  input_hash: 16fd4f995017c7a21966653bb3b4f5addeb1945324c9da1e507d7089bbb27077
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLTaxInfoProvider.Interface.al
@@ -41,6 +41,12 @@ links:
   guidelines: []
   changes:
     - change/bcapps/11023
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-nz-einvoice
+      title: Electronic Invoicing in New Zealand
+      label: possibly related
+      why: PEPPOL tax info provider interface supports e-invoicing and tax configuration for formats.
+      by: model
 object_type: interface
 object_id: null
 name: PEPPOL Tax Info Provider
@@ -105,6 +111,12 @@ PEPPOL · Microsoft.Peppol · BC29-30 · [source at 4c1c1638](https://github.com
 
 - Present in: BC29-30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Electronic Invoicing in New Zealand](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-nz-einvoice) — possibly related: PEPPOL tax info provider interface supports e-invoicing and tax configuration for formats. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

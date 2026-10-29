@@ -11,7 +11,7 @@ review:
   at: "2026-10-28T11:00:21.935Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-29T00:22:43.725Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -1930,7 +1930,7 @@ children:
   - topic/business-central/business-functionality/set-up-business-central
   - topic/business-central/business-functionality/design-details
 coverage:
-  learn: 1717
+  learn: 1718
   code: 1573
   video: 0
   blog: 0
@@ -3823,7 +3823,7 @@ bc_forms:
   - 99001561
   - 990000785
   - 990003804
-member_hash: 72cde1a2481be92def1336f515a80008babffd7c7175eee36705f181676dcb3b
+member_hash: 6df7c9aa43481470ff53c4a727793218bc583617b2713801422d6429a981c616
 narrative: generated
 ---
 
@@ -3855,7 +3855,7 @@ Start with the overview page to place a process, then go to the matching subtopi
 ## Subtopics
 
 - [General business functionality](business-functionality/general-business-functionality.md) (52 pages)
-- [Finance](business-functionality/finance.md) (256 pages)
+- [Finance](business-functionality/finance.md) (257 pages)
 - [Sales](business-functionality/sales.md) (133 pages)
 - [Purchasing](business-functionality/purchasing.md) (62 pages)
 - [Inventory](business-functionality/inventory.md) (75 pages)

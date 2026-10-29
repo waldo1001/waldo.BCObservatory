@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:42:34.480Z"
+  at: "2026-10-29T00:18:22.904Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a40a1edbcdd41559d47c0926fb78a295f8f87986d06a9b829e02bdce1e5e89b1
+  input_hash: 2cdf25f82b1cdc14da53beb844959614a23f5d167d9300d24790665524658fb8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Apps/W1/EDocument/app/src/Integration/Interfaces/IMessageSender.Interface.al
@@ -45,7 +45,7 @@ links:
     - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments
       title: Extending the e-documents functionality
       label: possibly related
-      why: Interface for extending e-documents with custom message senders for service communication.
+      why: Extending e-documents functionality documents message sender interface for API communication.
       by: model
 object_type: interface
 object_id: null
@@ -103,7 +103,7 @@ EDocument · Microsoft.eServices.EDocument.Integration.Interfaces · BC29-30 · 
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
-- [Extending the e-documents functionality](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) — possibly related: Interface for extending e-documents with custom message senders for service communication. (model-linked)
+- [Extending the e-documents functionality](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) — possibly related: Extending e-documents functionality documents message sender interface for API communication. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

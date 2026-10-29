@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:42:34.480Z"
+  at: "2026-10-29T00:18:22.904Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ae14403e83e6ee94a54d3d4fcce9e0cb9b7745e24194a2dc37804bc9a8ba33ab
+  input_hash: db18ba76cfbc2d6c4109dc44542d530fee35960433a6b1722cb2a86b1e82a285
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IStructuredFormatReader.Interface.al
@@ -45,7 +45,7 @@ links:
     - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments
       title: Extending the e-documents functionality
       label: possibly related
-      why: Documents interfaces for extending e-documents functionality including processing.
+      why: E-documents extension framework includes structured format reader interface for document parsing.
       by: model
 object_type: interface
 object_id: null
@@ -104,7 +104,7 @@ EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
-- [Extending the e-documents functionality](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) — possibly related: Documents interfaces for extending e-documents functionality including processing. (model-linked)
+- [Extending the e-documents functionality](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) — possibly related: E-documents extension framework includes structured format reader interface for document parsing. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

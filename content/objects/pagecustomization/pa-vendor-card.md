@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:42:34.480Z"
+  at: "2026-10-29T00:18:22.904Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: e3b1a7b6712bf4c4f38050332b31bb850c22de17cb8e78631fcf47355644a969
+  input_hash: 7c758b325a4faacd8e932fa2621b0861b6e00ac164b8d6555585367844f65913
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAVendorCard.PageCust.al
@@ -42,10 +42,10 @@ links:
   changes:
     - change/bcapps/9904
   related:
-    - to: https://learn.microsoft.com/dynamics365/business-central/payables-agent
-      title: Payables Agent Overview in Business Central
+    - to: https://learn.microsoft.com/dynamics365/business-central/payables-agent-setup
+      title: Set Up Payables Agent in Business Central
       label: possibly related
-      why: Documents how Payables Agent identifies and matches vendor information from invoices
+      why: Payables Agent customization on vendor card for setting up and configuring the agent.
       by: model
 object_type: pagecustomization
 object_id: null
@@ -98,7 +98,7 @@ PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at 4c1c1638
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
-- [Payables Agent Overview in Business Central](https://learn.microsoft.com/dynamics365/business-central/payables-agent) — possibly related: Documents how Payables Agent identifies and matches vendor information from invoices (model-linked)
+- [Set Up Payables Agent in Business Central](https://learn.microsoft.com/dynamics365/business-central/payables-agent-setup) — possibly related: Payables Agent customization on vendor card for setting up and configuring the agent. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 
