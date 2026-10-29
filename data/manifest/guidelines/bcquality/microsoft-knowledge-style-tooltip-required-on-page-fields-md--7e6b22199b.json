@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/tooltip-required-on-page-fields.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.794Z",
+      "at": "2026-10-29T21:28:59.823Z",
       "blob": "34f74c572dc91e1cd6a2e7b1e0996d25a20eaefb",
       "words": 485,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:59.876Z",
+      "path": "content/guidelines/microsoft/knowledge/style/tooltip-required-on-page-fields.md"
     }
   },
   "input_hash": "34f74c572dc91e1cd6a2e7b1e0996d25a20eaefb",
@@ -25,13 +29,54 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/tooltip-required-on-page-fields.md",
-    "description": null,
+    "description": "User-facing page fields need tooltip text, but it does not have to be declared on each page control. Starting with BC24 (2024 release wave 1), runtime 13.0 supports ToolTip on table fields, and bound page fields inherit it unless they override it.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "tooltip",
+      "page-field",
+      "source-field",
+      "inheritance",
+      "aa0218",
+      "codecop",
+      "accessibility",
+      "specifies"
+    ],
     "ai_usage": null,
-    "words": 485
+    "words": 485,
+    "identifiers": [
+      "ToolTip"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "tooltip",
+        "page-field",
+        "source-field",
+        "inheritance",
+        "aa0218",
+        "codecop",
+        "accessibility",
+        "specifies"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "User-facing page fields need tooltip text, but it does not have to be declared on each page control. Starting with BC24 (2024 release wave 1), runtime 13.0 supports ToolTip on table fields, and bound page fields inherit it unless they override it."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

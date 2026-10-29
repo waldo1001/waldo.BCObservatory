@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/telemetry/telemetry-event-id-stable-unique.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.832Z",
+      "at": "2026-10-29T21:29:00.698Z",
       "blob": "4850db5063f607c63cdda60297a11ab9f5fa5646",
       "words": 272,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:00.761Z",
+      "path": "content/guidelines/microsoft/knowledge/telemetry/telemetry-event-id-stable-unique.md"
     }
   },
   "input_hash": "4850db5063f607c63cdda60297a11ab9f5fa5646",
@@ -25,13 +29,46 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/telemetry/telemetry-event-id-stable-unique.md",
-    "description": null,
+    "description": "The first parameter of Session.LogMessage is the event ID. Telemetry consumers — Application Insights queries, KQL dashboards, alert rules, support runbooks — pivot on this ID to filter and aggregate events. The contract works only when the ID is:",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "telemetry",
+      "logmessage",
+      "event-id",
+      "sessionlogmessage",
+      "observability"
+    ],
     "ai_usage": null,
-    "words": 272
+    "words": 272,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "telemetry",
+      "keywords": [
+        "telemetry",
+        "logmessage",
+        "event-id",
+        "sessionlogmessage",
+        "observability"
+      ],
+      "bc_version": [
+        "17.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The first parameter of Session.LogMessage is the event ID. Telemetry consumers — Application Insights queries, KQL dashboards, alert rules, support runbooks — pivot on this ID to filter and aggregate events. The contract works only when the ID is:"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

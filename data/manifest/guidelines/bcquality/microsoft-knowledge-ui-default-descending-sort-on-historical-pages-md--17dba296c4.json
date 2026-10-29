@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/default-descending-sort-on-historical-pages.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.875Z",
+      "at": "2026-10-29T21:29:01.469Z",
       "blob": "a3607c3694733fd84319af6d659959cf54a3d1bf",
       "words": 140,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:01.560Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/default-descending-sort-on-historical-pages.md"
     }
   },
   "input_hash": "a3607c3694733fd84319af6d659959cf54a3d1bf",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/default-descending-sort-on-historical-pages.md",
-    "description": null,
+    "description": "Historical list pages should default to showing the newest records first. On pages such as log entries, ledger entries, archives, and other history lists, an oldest-first default order does not align with the primary use of the page, which is typically to review recent activity.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "historical-table",
+      "list-page",
+      "descending-sort",
+      "log-entry",
+      "ledger-entry",
+      "archive"
+    ],
     "ai_usage": null,
-    "words": 140
+    "words": 140,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "historical-table",
+        "list-page",
+        "descending-sort",
+        "log-entry",
+        "ledger-entry",
+        "archive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Historical list pages should default to showing the newest records first. On pages such as log entries, ledger entries, archives, and other history lists, an oldest-first default order does not align with the primary use of the page, which is typically to review recent activity."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

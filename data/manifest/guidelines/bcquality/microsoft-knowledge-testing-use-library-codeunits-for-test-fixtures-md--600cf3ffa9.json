@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/use-library-codeunits-for-test-fixtures.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.854Z",
+      "at": "2026-10-29T21:29:01.220Z",
       "blob": "9c8f092ce6c440eecac47bb039baf91f715d9776",
       "words": 329,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:01.368Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/use-library-codeunits-for-test-fixtures.md"
     }
   },
   "input_hash": "9c8f092ce6c440eecac47bb039baf91f715d9776",
@@ -25,13 +29,57 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/use-library-codeunits-for-test-fixtures.md",
-    "description": null,
+    "description": "BC ships a layer of test Library codeunits — LibrarySales, LibraryPurchase, LibraryERM, LibraryInventory, LibraryRandom and many more — whose job is to create valid records.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "library-codeunits",
+      "fixtures",
+      "test-data",
+      "number-series",
+      "prerequisite"
+    ],
     "ai_usage": null,
-    "words": 329
+    "words": 329,
+    "identifiers": [
+      "LibrarySales",
+      "LibraryPurchase",
+      "LibraryERM",
+      "LibraryInventory",
+      "LibraryRandom",
+      "CreateCustomer",
+      "CreateItem",
+      "TableRelation",
+      "CreateSalesLine",
+      "RandDec"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "library-codeunits",
+        "fixtures",
+        "test-data",
+        "number-series",
+        "prerequisite"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "BC ships a layer of test Library codeunits — LibrarySales, LibraryPurchase, LibraryERM, LibraryInventory, LibraryRandom and many more — whose job is to create valid records."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

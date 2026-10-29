@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/telemetry/match-verbosity-to-signal-severity.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.820Z",
+      "at": "2026-10-29T21:29:00.492Z",
       "blob": "cec444ac6b7f437bcca4ad98568d82dddd52a2b6",
       "words": 163,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:00.555Z",
+      "path": "content/guidelines/microsoft/knowledge/telemetry/match-verbosity-to-signal-severity.md"
     }
   },
   "input_hash": "cec444ac6b7f437bcca4ad98568d82dddd52a2b6",
@@ -25,13 +29,55 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/telemetry/match-verbosity-to-signal-severity.md",
-    "description": null,
+    "description": "Verbosity becomes the Application Insights severityLevel and participates in on-premises diagnostic trace filtering. Critical represents abnormal termination, Error a severe error, Warning a warning, Normal a non-error event, and Verbose detailed tracing.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "verbosity",
+      "severitylevel",
+      "critical",
+      "error",
+      "warning",
+      "normal",
+      "verbose",
+      "logmessage"
+    ],
     "ai_usage": null,
-    "words": 163
+    "words": 163,
+    "identifiers": [
+      "severityLevel",
+      "TryFunction"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "telemetry",
+      "keywords": [
+        "verbosity",
+        "severitylevel",
+        "critical",
+        "error",
+        "warning",
+        "normal",
+        "verbose",
+        "logmessage"
+      ],
+      "bc_version": [
+        "17.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Verbosity becomes the Application Insights severityLevel and participates in on-premises diagnostic trace filtering. Critical represents abnormal termination, Error a severe error, Warning a warning, Normal a non-error event, and Verbose detailed tracing."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

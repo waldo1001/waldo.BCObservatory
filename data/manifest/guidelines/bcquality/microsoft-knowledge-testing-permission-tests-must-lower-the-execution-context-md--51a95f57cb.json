@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/permission-tests-must-lower-the-execution-context.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.838Z",
+      "at": "2026-10-29T21:29:00.692Z",
       "blob": "1722578ed0eb4aa4bcd887b7b8cea45a252ee484",
       "words": 391,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:00.750Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/permission-tests-must-lower-the-execution-context.md"
     }
   },
   "input_hash": "1722578ed0eb4aa4bcd887b7b8cea45a252ee484",
@@ -25,13 +29,54 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/permission-tests-must-lower-the-execution-context.md",
-    "description": null,
+    "description": "TestPermissions describes how a test runner should establish the permission context; the enum value does not itself assign the business permission set being tested. Restrictive is the default and starts from D365 Full Access, requiring the test to lower permissions.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "testpermissions",
+      "restrictive",
+      "disabled",
+      "permissions-mock",
+      "lower-permissions",
+      "super",
+      "permission-test",
+      "false-positive"
+    ],
     "ai_usage": null,
-    "words": 391
+    "words": 391,
+    "identifiers": [
+      "TestPermissions"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "testpermissions",
+        "restrictive",
+        "disabled",
+        "permissions-mock",
+        "lower-permissions",
+        "super",
+        "permission-test",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "TestPermissions describes how a test runner should establish the permission context; the enum value does not itself assign the business permission set being tested. Restrictive is the default and starts from D365 Full Access, requiring the test to lower permissions."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/telemetry/register-one-telemetry-logger-per-publisher.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.826Z",
+      "at": "2026-10-29T21:29:00.610Z",
       "blob": "d282dc42911eb1ca0e5786cff34bca510e3daecf",
       "words": 168,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:00.685Z",
+      "path": "content/guidelines/microsoft/knowledge/telemetry/register-one-telemetry-logger-per-publisher.md"
     }
   },
   "input_hash": "d282dc42911eb1ca0e5786cff34bca510e3daecf",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/telemetry/register-one-telemetry-logger-per-publisher.md",
-    "description": null,
+    "description": "The Telemetry and Feature Telemetry codeunits reach an extension publisher's telemetry through an implementation of the \"Telemetry Logger\" interface registered with \"Telemetry Loggers\".OnRegisterTelemetryLogger. The platform requires exactly one registration per app publisher.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "telemetry-logger",
+      "interface",
+      "register",
+      "publisher",
+      "featuretelemetry",
+      "onregistertelemetrylogger"
+    ],
     "ai_usage": null,
-    "words": 168
+    "words": 168,
+    "identifiers": [
+      "LogMessage",
+      "FeatureTelemetry"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "telemetry",
+      "keywords": [
+        "telemetry-logger",
+        "interface",
+        "register",
+        "publisher",
+        "featuretelemetry",
+        "onregistertelemetrylogger"
+      ],
+      "bc_version": [
+        "18.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The Telemetry and Feature Telemetry codeunits reach an extension publisher's telemetry through an implementation of the \"Telemetry Logger\" interface registered with \"Telemetry Loggers\".OnRegisterTelemetryLogger. The platform requires exactly one registration per app publisher."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

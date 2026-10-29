@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/label-locked-for-non-translatable.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.773Z",
+      "at": "2026-10-29T21:28:59.281Z",
       "blob": "888d22bf5fa3693eb640006c9198fccecf7ab749",
       "words": 188,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:59.326Z",
+      "path": "content/guidelines/microsoft/knowledge/style/label-locked-for-non-translatable.md"
     }
   },
   "input_hash": "888d22bf5fa3693eb640006c9198fccecf7ab749",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/label-locked-for-non-translatable.md",
-    "description": null,
+    "description": "A Label is by default surfaced to translators and rewritten per locale. That is wrong for strings that are not natural language: HTTP verbs (GET, PUT), URL fragments, JSON/XML snippets, content-type strings, GUIDs, application keys, and field tokens used by integrations.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "label",
+      "locked",
+      "translation",
+      "token",
+      "url",
+      "json",
+      "xml"
+    ],
     "ai_usage": null,
-    "words": 188
+    "words": 188,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "label",
+        "locked",
+        "translation",
+        "token",
+        "url",
+        "json",
+        "xml"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A Label is by default surfaced to translators and rewritten per locale. That is wrong for strings that are not natural language: HTTP verbs (GET, PUT), URL fragments, JSON/XML snippets, content-type strings, GUIDs, application keys, and field tokens used by integrations."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

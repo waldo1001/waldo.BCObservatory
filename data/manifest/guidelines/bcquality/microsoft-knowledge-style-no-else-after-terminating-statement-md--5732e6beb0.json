@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/no-else-after-terminating-statement.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.784Z",
+      "at": "2026-10-29T21:28:59.512Z",
       "blob": "3604dd3de76fa341eadb9ada7b6307fa488d57df",
       "words": 190,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:59.558Z",
+      "path": "content/guidelines/microsoft/knowledge/style/no-else-after-terminating-statement.md"
     }
   },
   "input_hash": "3604dd3de76fa341eadb9ada7b6307fa488d57df",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/no-else-after-terminating-statement.md",
-    "description": null,
+    "description": "When the then branch of an if ends in a terminating statement — exit, break, skip, quit, or error — the else branch becomes the natural fall-through.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "else",
+      "exit",
+      "break",
+      "skip",
+      "quit",
+      "error",
+      "terminating",
+      "control-flow"
+    ],
     "ai_usage": null,
-    "words": 190
+    "words": 190,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "else",
+        "exit",
+        "break",
+        "skip",
+        "quit",
+        "error",
+        "terminating",
+        "control-flow"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "When the then branch of an if ends in a terminating statement — exit, break, skip, quit, or error — the else branch becomes the natural fall-through."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

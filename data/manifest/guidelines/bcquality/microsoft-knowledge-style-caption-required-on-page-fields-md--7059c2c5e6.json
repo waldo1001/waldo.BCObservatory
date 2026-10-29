@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/caption-required-on-page-fields.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.744Z",
+      "at": "2026-10-29T21:28:58.782Z",
       "blob": "6381c4c4350d5d36bc973dc15ac1c161778ba3f6",
       "words": 379,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:58.840Z",
+      "path": "content/guidelines/microsoft/knowledge/style/caption-required-on-page-fields.md"
     }
   },
   "input_hash": "6381c4c4350d5d36bc973dc15ac1c161778ba3f6",
@@ -25,13 +29,57 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/caption-required-on-page-fields.md",
-    "description": null,
+    "description": "A page field bound to a table field inherits the source field's Caption unless the page overrides it. An inherited caption is valid, user-facing, and translatable; omitting a page-level Caption does not mean the control displays an internal identifier or loses translations.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "caption",
+      "page-field",
+      "source-field",
+      "inheritance",
+      "aa0225",
+      "aa0226",
+      "codecop",
+      "captionclass",
+      "false-positive"
+    ],
     "ai_usage": null,
-    "words": 379
+    "words": 379,
+    "identifiers": [
+      "CaptionClass",
+      "ToolTip"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "caption",
+        "page-field",
+        "source-field",
+        "inheritance",
+        "aa0225",
+        "aa0226",
+        "codecop",
+        "captionclass",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A page field bound to a table field inherits the source field's Caption unless the page overrides it. An inherited caption is valid, user-facing, and translatable; omitting a page-level Caption does not mean the control displays an internal identifier or loses translations."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

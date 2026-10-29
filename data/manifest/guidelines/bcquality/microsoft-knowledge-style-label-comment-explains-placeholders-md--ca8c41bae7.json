@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/label-comment-explains-placeholders.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.768Z",
+      "at": "2026-10-29T21:28:59.161Z",
       "blob": "63be79e370cf59208c203c531c70aba9a84f95ad",
       "words": 216,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:59.220Z",
+      "path": "content/guidelines/microsoft/knowledge/style/label-comment-explains-placeholders.md"
     }
   },
   "input_hash": "63be79e370cf59208c203c531c70aba9a84f95ad",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/label-comment-explains-placeholders.md",
-    "description": null,
+    "description": "Label and TextConst strings that contain placeholders (%1, %2, …) need a Comment parameter that names what each placeholder is. Translators do not see the call site, so without the Comment they cannot disambiguate 'Customer %1 not found in %2.'",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "label",
+      "comment",
+      "placeholder",
+      "strsubstno",
+      "translation",
+      "aa0470"
+    ],
     "ai_usage": null,
-    "words": 216
+    "words": 216,
+    "identifiers": [
+      "TextConst"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "label",
+        "comment",
+        "placeholder",
+        "strsubstno",
+        "translation",
+        "aa0470"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Label and TextConst strings that contain placeholders (%1, %2, …) need a Comment parameter that names what each placeholder is. Translators do not see the call site, so without the Comment they cannot disambiguate 'Customer %1 not found in %2.'"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

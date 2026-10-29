@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/api-page-delayedinsert-true.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.721Z",
+      "at": "2026-10-29T21:28:58.593Z",
       "blob": "abe3fd623584109665258fb7491768a24dcec465",
       "words": 208,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:58.674Z",
+      "path": "content/guidelines/microsoft/knowledge/style/api-page-delayedinsert-true.md"
     }
   },
   "input_hash": "abe3fd623584109665258fb7491768a24dcec465",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/api-page-delayedinsert-true.md",
-    "description": null,
+    "description": "On a normal page, DelayedInsert = false is the default: the record is inserted into the table as soon as the user enters the first field, and subsequent fields are written via Modify triggers.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "api-page",
+      "delayedinsert",
+      "insert-trigger",
+      "validation"
+    ],
     "ai_usage": null,
-    "words": 208
+    "words": 208,
+    "identifiers": [
+      "OnInsert",
+      "OnValidate",
+      "DelayedInsert"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "api-page",
+        "delayedinsert",
+        "insert-trigger",
+        "validation"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "On a normal page, DelayedInsert = false is the default: the record is inserted into the table as soon as the user enters the first field, and subsequent fields are written via Modify triggers."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/fieldcaption-not-fieldname-in-user-messages.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.762Z",
+      "at": "2026-10-29T21:28:59.182Z",
       "blob": "6a71f4c8705ba60f7ad5e885c6c04a063b881f73",
       "words": 184,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:59.273Z",
+      "path": "content/guidelines/microsoft/knowledge/style/fieldcaption-not-fieldname-in-user-messages.md"
     }
   },
   "input_hash": "6a71f4c8705ba60f7ad5e885c6c04a063b881f73",
@@ -25,13 +29,55 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/fieldcaption-not-fieldname-in-user-messages.md",
-    "description": null,
+    "description": "FieldName and TableName return the developer-facing identifier of a field or table — a fixed English string used in metadata and in code. FieldCaption and TableCaption return the translated, user-facing label declared by the field's or table's Caption property.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "fieldcaption",
+      "fieldname",
+      "tablecaption",
+      "tablename",
+      "translation",
+      "message",
+      "error"
+    ],
     "ai_usage": null,
-    "words": 184
+    "words": 184,
+    "identifiers": [
+      "FieldName",
+      "TableName",
+      "FieldCaption",
+      "TableCaption"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "fieldcaption",
+        "fieldname",
+        "tablecaption",
+        "tablename",
+        "translation",
+        "message",
+        "error"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "FieldName and TableName return the developer-facing identifier of a field or table — a fixed English string used in metadata and in code. FieldCaption and TableCaption return the translated, user-facing label declared by the field's or table's Caption property."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

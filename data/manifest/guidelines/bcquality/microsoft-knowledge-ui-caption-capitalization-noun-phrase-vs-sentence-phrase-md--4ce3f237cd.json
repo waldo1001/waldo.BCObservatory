@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/caption-capitalization-noun-phrase-vs-sentence-phrase.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.859Z",
+      "at": "2026-10-29T21:29:01.378Z",
       "blob": "648a1389b2125ebe9bcf10c1d5172db3ac27595e",
       "words": 238,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:01.451Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/caption-capitalization-noun-phrase-vs-sentence-phrase.md"
     }
   },
   "input_hash": "648a1389b2125ebe9bcf10c1d5172db3ac27595e",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/caption-capitalization-noun-phrase-vs-sentence-phrase.md",
-    "description": null,
+    "description": "Business Central caption capitalization depends on whether the caption reads as a noun phrase or a sentence/verb phrase.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "caption",
+      "capitalization",
+      "sentence-case",
+      "title-case",
+      "action",
+      "noun-phrase",
+      "false-positive"
+    ],
     "ai_usage": null,
-    "words": 238
+    "words": 238,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "caption",
+        "capitalization",
+        "sentence-case",
+        "title-case",
+        "action",
+        "noun-phrase",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Business Central caption capitalization depends on whether the caption reads as a noun phrase or a sentence/verb phrase."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/testisolation-belongs-on-the-test-runner.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.843Z",
+      "at": "2026-10-29T21:29:00.781Z",
       "blob": "f296d51eed2f85295147c03cbd6048b8660d96c3",
       "words": 164,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:00.861Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/testisolation-belongs-on-the-test-runner.md"
     }
   },
   "input_hash": "f296d51eed2f85295147c03cbd6048b8660d96c3",
@@ -25,13 +29,54 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/testisolation-belongs-on-the-test-runner.md",
-    "description": null,
+    "description": "TestIsolation is a property of a Subtype = TestRunner codeunit, not of the test codeunit being executed. Its default is Disabled. Codeunit rolls back database changes after each test codeunit and Function after each test method, including changes that the code under test explicitly committed.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "testisolation",
+      "testrunner",
+      "autocommit",
+      "commit",
+      "rollback",
+      "test-order",
+      "database-state"
+    ],
     "ai_usage": null,
-    "words": 164
+    "words": 164,
+    "identifiers": [
+      "TestIsolation",
+      "AutoCommit",
+      "TransactionModel"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "testisolation",
+        "testrunner",
+        "autocommit",
+        "commit",
+        "rollback",
+        "test-order",
+        "database-state"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "TestIsolation is a property of a Subtype = TestRunner codeunit, not of the test codeunit being executed. Its default is Disabled. Codeunit rolls back database changes after each test codeunit and Function after each test method, including changes that the code under test explicitly committed."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

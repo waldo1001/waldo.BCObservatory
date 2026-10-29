@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/api-page-version-format.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.736Z",
+      "at": "2026-10-29T21:28:58.511Z",
       "blob": "3bb3a03419f85112bef3d5f05ab65037c8cf42a6",
       "words": 162,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:58.574Z",
+      "path": "content/guidelines/microsoft/knowledge/style/api-page-version-format.md"
     }
   },
   "input_hash": "3bb3a03419f85112bef3d5f05ab65037c8cf42a6",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/api-page-version-format.md",
-    "description": null,
+    "description": "The APIVersion property on an API page is part of the public URL path: /api/<publisher>/<group>/<version>/<entitySetName>. The platform accepts only two value shapes for it: a vMAJOR.MINOR string such as 'v1.0', 'v2.0', or 'v2.1', or the literal string 'beta' for pre-release endpoints.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "api-page",
+      "apiversion",
+      "version",
+      "format",
+      "beta"
+    ],
     "ai_usage": null,
-    "words": 162
+    "words": 162,
+    "identifiers": [
+      "APIVersion"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "api-page",
+        "apiversion",
+        "version",
+        "format",
+        "beta"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The APIVersion property on an API page is part of the public URL path: /api/<publisher>/<group>/<version>/<entitySetName>. The platform accepts only two value shapes for it: a vMAJOR.MINOR string such as 'v1.0', 'v2.0', or 'v2.1', or the literal string 'beta' for pre-release endpoints."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

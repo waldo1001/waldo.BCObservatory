@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/named-invocations-not-object-ids.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.778Z",
+      "at": "2026-10-29T21:28:59.419Z",
       "blob": "be30a5ff9c267a6dd0194dce3946227d7ec43d23",
       "words": 192,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:59.466Z",
+      "path": "content/guidelines/microsoft/knowledge/style/named-invocations-not-object-ids.md"
     }
   },
   "input_hash": "be30a5ff9c267a6dd0194dce3946227d7ec43d23",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/named-invocations-not-object-ids.md",
-    "description": null,
+    "description": "Page.RunModal, Report.Run, Codeunit.Run, and the Page::, Report::, Codeunit::, Table::, XmlPort:: selectors accept either a numeric ID or a named alias. The named form — Page::\"Posted Sales Shipment Lines\", Report::\"Sales - Invoice\" — is the one to use.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "page",
+      "report",
+      "codeunit",
+      "runmodal",
+      "run",
+      "object-id",
+      "named-invocation"
+    ],
     "ai_usage": null,
-    "words": 192
+    "words": 192,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "page",
+        "report",
+        "codeunit",
+        "runmodal",
+        "run",
+        "object-id",
+        "named-invocation"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Page.RunModal, Report.Run, Codeunit.Run, and the Page::, Report::, Codeunit::, Table::, XmlPort:: selectors accept either a numeric ID or a named alias. The named form — Page::\"Posted Sales Shipment Lines\", Report::\"Sales - Invoice\" — is the one to use."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

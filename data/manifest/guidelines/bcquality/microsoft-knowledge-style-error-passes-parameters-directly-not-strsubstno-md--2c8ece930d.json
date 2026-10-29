@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/error-passes-parameters-directly-not-strsubstno.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.757Z",
+      "at": "2026-10-29T21:28:59.090Z",
       "blob": "0276192953ff2dd967e6761eb48d1499abd9c58e",
       "words": 209,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:59.154Z",
+      "path": "content/guidelines/microsoft/knowledge/style/error-passes-parameters-directly-not-strsubstno.md"
     }
   },
   "input_hash": "0276192953ff2dd967e6761eb48d1499abd9c58e",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/error-passes-parameters-directly-not-strsubstno.md",
-    "description": null,
+    "description": "Error() accepts a format string and a variable number of arguments — Error(SomeLabelErr, Arg1, Arg2). The platform performs the substitution itself, which is the path the translation pipeline understands.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "error",
+      "strsubstno",
+      "label",
+      "parameters",
+      "concatenation",
+      "aa0231"
+    ],
     "ai_usage": null,
-    "words": 209
+    "words": 209,
+    "identifiers": [
+      "StrSubstNo",
+      "StrMenu"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "error",
+        "strsubstno",
+        "label",
+        "parameters",
+        "concatenation",
+        "aa0231"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Error() accepts a format string and a variable number of arguments — Error(SomeLabelErr, Arg1, Arg2). The platform performs the substitution itself, which is the path the translation pipeline understands."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

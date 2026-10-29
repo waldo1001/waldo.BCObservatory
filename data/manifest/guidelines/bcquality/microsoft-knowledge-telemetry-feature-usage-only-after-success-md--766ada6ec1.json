@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/telemetry/feature-usage-only-after-success.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.809Z",
+      "at": "2026-10-29T21:29:00.128Z",
       "blob": "cc642d94cf4bd3da32f05ceec03431603f9c497b",
       "words": 145,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:00.200Z",
+      "path": "content/guidelines/microsoft/knowledge/telemetry/feature-usage-only-after-success.md"
     }
   },
   "input_hash": "cc642d94cf4bd3da32f05ceec03431603f9c497b",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/telemetry/feature-usage-only-after-success.md",
-    "description": null,
+    "description": "FeatureTelemetry.LogUsage means that a user successfully used the feature. An attempt belongs in the uptake funnel, while a failed operation belongs in LogError.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "featuretelemetry",
+      "logusage",
+      "logerror",
+      "success",
+      "tryfunction",
+      "feature-usage"
+    ],
     "ai_usage": null,
-    "words": 145
+    "words": 145,
+    "identifiers": [
+      "LogError",
+      "LogUsage",
+      "TryFunction"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "telemetry",
+      "keywords": [
+        "featuretelemetry",
+        "logusage",
+        "logerror",
+        "success",
+        "tryfunction",
+        "feature-usage"
+      ],
+      "bc_version": [
+        "18.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "FeatureTelemetry.LogUsage means that a user successfully used the feature. An attempt belongs in the uptake funnel, while a failed operation belongs in LogError."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/ui-handlers-in-tests.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.849Z",
+      "at": "2026-10-29T21:29:01.443Z",
       "blob": "9ca1ce1f94e0b7028d99e03b19c3db0f00df124e",
       "words": 395,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:01.550Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/ui-handlers-in-tests.md"
     }
   },
   "input_hash": "9ca1ce1f94e0b7028d99e03b19c3db0f00df124e",
@@ -25,13 +29,62 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/ui-handlers-in-tests.md",
-    "description": null,
+    "description": "A test runs headless, so every UI call on the executed path must be intercepted by a matching handler named in [HandlerFunctions(...)].",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "handler",
+      "handlerfunctions",
+      "confirm",
+      "message",
+      "notification",
+      "optional-handler",
+      "enqueue",
+      "capture",
+      "runmodal",
+      "unhandled-ui"
+    ],
     "ai_usage": null,
-    "words": 395
+    "words": 395,
+    "identifiers": [
+      "SendNotificationHandler",
+      "RecallNotificationHandler",
+      "HandlerIsOptional",
+      "RunModal",
+      "AssertEmpty"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "handler",
+        "handlerfunctions",
+        "confirm",
+        "message",
+        "notification",
+        "optional-handler",
+        "enqueue",
+        "capture",
+        "runmodal",
+        "unhandled-ui"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A test runs headless, so every UI call on the executed path must be intercepted by a matching handler named in [HandlerFunctions(...)]."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

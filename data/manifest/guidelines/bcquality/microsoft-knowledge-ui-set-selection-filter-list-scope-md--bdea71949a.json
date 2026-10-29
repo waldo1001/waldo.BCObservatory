@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/set-selection-filter-list-scope.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.906Z",
+      "at": "2026-10-29T21:29:06.592Z",
       "blob": "8d0fc4501e14eef6de6e7f8005cdaae8a86a5163",
       "words": 304,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:06.782Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/set-selection-filter-list-scope.md"
     }
   },
   "input_hash": "8d0fc4501e14eef6de6e7f8005cdaae8a86a5163",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/set-selection-filter-list-scope.md",
-    "description": null,
+    "description": "CurrPage.SetSelectionFilter(Rec) behaves differently depending on whether the user explicitly multi-selected rows. When no rows are marked — the cursor is simply positioned on a row — the method writes a primary key filter for that single row and leaves MarkedOnly as false.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "set-selection-filter",
+      "marked-only",
+      "list-page",
+      "bulk-action",
+      "batch-action",
+      "selection-scope",
+      "copy-rec"
+    ],
     "ai_usage": null,
-    "words": 304
+    "words": 304,
+    "identifiers": [
+      "SetSelectionFilter",
+      "MarkedOnly"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "set-selection-filter",
+        "marked-only",
+        "list-page",
+        "bulk-action",
+        "batch-action",
+        "selection-scope",
+        "copy-rec"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "CurrPage.SetSelectionFilter(Rec) behaves differently depending on whether the user explicitly multi-selected rows. When no rows are marked — the cursor is simply positioned on a row — the method writes a primary key filter for that single row and leaves MarkedOnly as false."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/telemetry/feature-uptake-transitions-in-order.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.804Z",
+      "at": "2026-10-29T21:28:59.942Z",
       "blob": "ae632f922a5788f5eec3e610400cc6a56b2d54c8",
       "words": 156,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:00.095Z",
+      "path": "content/guidelines/microsoft/knowledge/telemetry/feature-uptake-transitions-in-order.md"
     }
   },
   "input_hash": "ae632f922a5788f5eec3e610400cc6a56b2d54c8",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/telemetry/feature-uptake-transitions-in-order.md",
-    "description": null,
+    "description": "FeatureTelemetry.LogUptake accepts Discovered, Set up, Used, and Undiscovered, but the platform records the forward transition only as Discovered to Set up to Used. If the first call for a feature is Set up or Used, no uptake telemetry is emitted. Undiscovered is the explicit reset from any state.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "featuretelemetry",
+      "loguptake",
+      "discovered",
+      "set-up",
+      "used",
+      "uptake-status",
+      "lifecycle"
+    ],
     "ai_usage": null,
-    "words": 156
+    "words": 156,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "telemetry",
+      "keywords": [
+        "featuretelemetry",
+        "loguptake",
+        "discovered",
+        "set-up",
+        "used",
+        "uptake-status",
+        "lifecycle"
+      ],
+      "bc_version": [
+        "18.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "FeatureTelemetry.LogUptake accepts Discovered, Set up, Used, and Undiscovered, but the platform records the forward transition only as Discovered to Set up to Used. If the first call for a feature is Set up or Used, no uptake telemetry is emitted. Undiscovered is the explicit reset from any state."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

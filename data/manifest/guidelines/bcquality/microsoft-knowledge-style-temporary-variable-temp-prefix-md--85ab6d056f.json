@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/temporary-variable-temp-prefix.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.789Z",
+      "at": "2026-10-29T21:28:59.743Z",
       "blob": "2df9636903a1a2c7be3d5bb875cc744f3969380e",
       "words": 193,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:59.812Z",
+      "path": "content/guidelines/microsoft/knowledge/style/temporary-variable-temp-prefix.md"
     }
   },
   "input_hash": "2df9636903a1a2c7be3d5bb875cc744f3969380e",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/temporary-variable-temp-prefix.md",
-    "description": null,
+    "description": "A Record variable declared with the temporary modifier behaves nothing like a normal record variable: it never touches the database, holds rows only for the lifetime of the variable, and is not visible to filters or queries on the underlying table.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "temporary",
+      "temp",
+      "prefix",
+      "record-variable",
+      "naming"
+    ],
     "ai_usage": null,
-    "words": 193
+    "words": 193,
+    "identifiers": [
+      "TempJobWIPBuffer",
+      "TempSalesLine",
+      "TempIntegerBuffer"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "temporary",
+        "temp",
+        "prefix",
+        "record-variable",
+        "naming"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A Record variable declared with the temporary modifier behaves nothing like a normal record variable: it never touches the database, holds rows only for the lifetime of the variable, and is not visible to filters or queries on the underlying table."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

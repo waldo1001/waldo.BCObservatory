@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/group-labeled-first-child-exception.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.885Z",
+      "at": "2026-10-29T21:29:06.688Z",
       "blob": "1acdb3656818c410748679fe3f8aa92cd4b264f0",
       "words": 163,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:06.828Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/group-labeled-first-child-exception.md"
     }
   },
   "input_hash": "1acdb3656818c410748679fe3f8aa92cd4b264f0",
@@ -25,13 +29,49 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/group-labeled-first-child-exception.md",
-    "description": null,
+    "description": "ShowCaption = false is acceptable on an editable field only when all of the following conditions are met:",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "show-caption",
+      "group",
+      "first-child",
+      "multiline",
+      "accessibility"
+    ],
     "ai_usage": null,
-    "words": 163
+    "words": 163,
+    "identifiers": [
+      "ShowCaption",
+      "InstructionalText"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "show-caption",
+        "group",
+        "first-child",
+        "multiline",
+        "accessibility"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "ShowCaption = false is acceptable on an editable field only when all of the following conditions are met:"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

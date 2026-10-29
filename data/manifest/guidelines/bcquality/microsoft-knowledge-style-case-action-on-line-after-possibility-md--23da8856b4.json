@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/case-action-on-line-after-possibility.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.751Z",
+      "at": "2026-10-29T21:28:58.890Z",
       "blob": "73dd1322e8a62678ede2fc9566625ead2ea54a65",
       "words": 169,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:58.937Z",
+      "path": "content/guidelines/microsoft/knowledge/style/case-action-on-line-after-possibility.md"
     }
   },
   "input_hash": "73dd1322e8a62678ede2fc9566625ead2ea54a65",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/case-action-on-line-after-possibility.md",
-    "description": null,
+    "description": "In an AL case statement, the action for each label is written on the line that follows the label, not on the same line. 'A': Letter2 := '10'; on a single line is the discouraged form; the convention is 'A': on one line and Letter2 := '10'; on the next, indented one level deeper.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "case",
+      "statement",
+      "formatting",
+      "possibility",
+      "action",
+      "line-break"
+    ],
     "ai_usage": null,
-    "words": 169
+    "words": 169,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "case",
+        "statement",
+        "formatting",
+        "possibility",
+        "action",
+        "line-break"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "In an AL case statement, the action for each label is written on the line that follows the label, not on the same line. 'A': Letter2 := '10'; on a single line is the discouraged form; the convention is 'A': on one line and Letter2 := '10'; on the next, indented one level deeper."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
