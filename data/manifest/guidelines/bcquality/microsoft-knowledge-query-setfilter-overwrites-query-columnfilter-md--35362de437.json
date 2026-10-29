@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/query/setfilter-overwrites-query-columnfilter.md",
   "published_at": "2026-09-15T10:51:15.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:32:55.385Z",
+      "at": "2026-10-29T21:28:08.960Z",
       "blob": "9f9dd7ad9ec54c6299aad0b068df2df7ce1f9bd9",
       "words": 138,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:09.131Z",
+      "path": "content/guidelines/microsoft/knowledge/query/setfilter-overwrites-query-columnfilter.md"
     }
   },
   "input_hash": "9f9dd7ad9ec54c6299aad0b068df2df7ce1f9bd9",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/query/setfilter-overwrites-query-columnfilter.md",
-    "description": null,
+    "description": "ColumnFilter on a Query column or filter row defines a dynamic filter. A runtime SetFilter or SetRange on that same column or filter row replaces the ColumnFilter; it does not combine the two conditions.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "query",
+      "columnfilter",
+      "setfilter",
+      "setrange",
+      "filter-precedence",
+      "runtime-filter"
+    ],
     "ai_usage": null,
-    "words": 138
+    "words": 138,
+    "identifiers": [
+      "ColumnFilter",
+      "SetFilter",
+      "SetRange",
+      "DataItemTableFilter"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "query",
+      "keywords": [
+        "query",
+        "columnfilter",
+        "setfilter",
+        "setrange",
+        "filter-precedence",
+        "runtime-filter"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "ColumnFilter on a Query column or filter row defines a dynamic filter. A runtime SetFilter or SetRange on that same column or filter row replaces the ColumnFilter; it does not combine the two conditions."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

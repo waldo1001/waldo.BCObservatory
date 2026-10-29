@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/store-scheduled-task-id-to-avoid-duplicate-tasks.md",
   "published_at": "2026-09-15T07:32:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:34:13.952Z",
+      "at": "2026-10-29T21:28:10.808Z",
       "blob": "1e64c32a6b1104e9c9cd3c8cb0cccdb00e6daa35",
       "words": 168,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:10.885Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/store-scheduled-task-id-to-avoid-duplicate-tasks.md"
     }
   },
   "input_hash": "1e64c32a6b1104e9c9cd3c8cb0cccdb00e6daa35",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/store-scheduled-task-id-to-avoid-duplicate-tasks.md",
-    "description": null,
+    "description": "Every call to TaskScheduler.CreateTask creates a new scheduled task and returns its unique GUID. Repeating setup or lifecycle code without retaining that GUID can create multiple tasks for the same logical work, consuming scheduler capacity and running the work more than once.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "task-scheduler",
+      "scheduled-task",
+      "taskexists",
+      "duplicate-task",
+      "createtask",
+      "guid"
+    ],
     "ai_usage": null,
-    "words": 168
+    "words": 168,
+    "identifiers": [
+      "CreateTask",
+      "TaskExists"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "task-scheduler",
+        "scheduled-task",
+        "taskexists",
+        "duplicate-task",
+        "createtask",
+        "guid"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Every call to TaskScheduler.CreateTask creates a new scheduled task and returns its unique GUID. Repeating setup or lifecycle code without retaining that GUID can create multiple tasks for the same logical work, consuming scheduler capacity and running the work more than once."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

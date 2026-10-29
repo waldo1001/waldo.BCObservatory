@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/reporting/clear-report-variable-before-independent-runmodal.md",
   "published_at": "2026-09-15T08:38:32.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:33:35.068Z",
+      "at": "2026-10-29T21:28:09.156Z",
       "blob": "b82c1fbfdab1ab5f42359871ad883873721f246a",
       "words": 138,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:09.250Z",
+      "path": "content/guidelines/microsoft/knowledge/reporting/clear-report-variable-before-independent-runmodal.md"
     }
   },
   "input_hash": "b82c1fbfdab1ab5f42359871ad883873721f246a",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/reporting/clear-report-variable-before-independent-runmodal.md",
-    "description": null,
+    "description": "Report.Run() automatically clears the report variable after execution, but Report.RunModal() does not. Reconfiguring and running the same variable for an independent operation can therefore retain filters and other instance state from the previous run.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "report",
+      "runmodal",
+      "clear",
+      "settableview",
+      "instance",
+      "state",
+      "filters"
+    ],
     "ai_usage": null,
-    "words": 138
+    "words": 138,
+    "identifiers": [
+      "SetTableView"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "reporting",
+      "keywords": [
+        "report",
+        "runmodal",
+        "clear",
+        "settableview",
+        "instance",
+        "state",
+        "filters"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Report.Run() automatically clears the report variable after execution, but Report.RunModal() does not. Reconfiguring and running the same variable for an independent operation can therefore retain filters and other instance state from the previous run."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

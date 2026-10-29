@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-telemetry-review.md",
   "published_at": "2026-09-11T10:35:31.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:35:35.745Z",
+      "at": "2026-10-29T21:28:11.758Z",
       "blob": "1c2046dbfbd5484dca60cba3bf38312dc6a6714b",
       "words": 1352,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:16.621Z",
+      "path": "content/guidelines/microsoft/skills/review/al-telemetry-review.md"
     }
   },
   "input_hash": "1c2046dbfbd5484dca60cba3bf38312dc6a6714b",
@@ -31,7 +35,39 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1352
+    "words": 1352,
+    "identifiers": [
+      "FeatureTelemetry",
+      "TelemetryScope",
+      "ExtensionPublisher",
+      "DataClassification",
+      "CustomDimensions",
+      "OnRegisterTelemetryLogger",
+      "LogUsage",
+      "LogError",
+      "LogUptake",
+      "XX0000"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": null,
+      "keywords": [],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "skill",
+      "summary": "Performs an AL telemetry review against guidance from BCQuality."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

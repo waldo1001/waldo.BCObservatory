@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/appsource/use-invariant-date-literals.md",
   "published_at": "2026-09-14T10:42:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:34:46.229Z",
+      "at": "2026-10-29T21:28:11.615Z",
       "blob": "c38476c78be5a6424492413fa4f213cb82fe9151",
       "words": 103,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:11.683Z",
+      "path": "content/guidelines/community/knowledge/appsource/use-invariant-date-literals.md"
     }
   },
   "input_hash": "c38476c78be5a6424492413fa4f213cb82fe9151",
@@ -25,13 +29,49 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/appsource/use-invariant-date-literals.md",
-    "description": null,
+    "description": "Write fixed dates in AL with the invariant yyyymmddD syntax. A locale-dependent text value parsed with Evaluate can change meaning or fail under another user's regional settings, which makes the Marketplace extension unreliable across markets.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "date-literal",
+      "invariant-date",
+      "dateformula",
+      "localization",
+      "appsourcecop"
+    ],
     "ai_usage": null,
-    "words": 103
+    "words": 103,
+    "identifiers": [
+      "yyyymmddD",
+      "CalcDate"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "appsource",
+      "keywords": [
+        "date-literal",
+        "invariant-date",
+        "dateformula",
+        "localization",
+        "appsourcecop"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Write fixed dates in AL with the invariant yyyymmddD syntax. A locale-dependent text value parsed with Evaluate can change meaning or fail under another user's regional settings, which makes the Marketplace extension unreliable across markets."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

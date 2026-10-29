@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/job-queue-external-effects-must-be-idempotent.md",
   "published_at": "2026-09-15T07:32:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:34:13.921Z",
+      "at": "2026-10-29T21:28:10.064Z",
       "blob": "66bb11b466be32143c152fe12d83cb73d8b3c620",
       "words": 296,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:10.161Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/job-queue-external-effects-must-be-idempotent.md"
     }
   },
   "input_hash": "66bb11b466be32143c152fe12d83cb73d8b3c620",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/job-queue-external-effects-must-be-idempotent.md",
-    "description": null,
+    "description": "A job queue handler can successfully create something in an external system and then fail while updating Business Central. Business Central rolls back its database changes, but it cannot roll back the external request.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "job-queue",
+      "idempotency",
+      "retry",
+      "outbox",
+      "httpclient",
+      "external-effect"
+    ],
     "ai_usage": null,
-    "words": 296
+    "words": 296,
+    "identifiers": [
+      "SystemId",
+      "idempotencyKey"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "job-queue",
+        "idempotency",
+        "retry",
+        "outbox",
+        "httpclient",
+        "external-effect"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A job queue handler can successfully create something in an external system and then fail while updating Business Central. Business Central rolls back its database changes, but it cannot roll back the external request."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

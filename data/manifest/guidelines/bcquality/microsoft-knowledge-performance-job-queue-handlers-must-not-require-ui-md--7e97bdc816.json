@@ -20,7 +20,7 @@
     }
   },
   "input_hash": "598727039d5b0f2b4b00f6db1bf2105ee1fb1e9d",
-  "attempts": 0,
+  "attempts": 1,
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
@@ -33,7 +33,7 @@
     "ai_usage": null,
     "words": 182
   },
-  "last_error": null,
-  "retry_after": null,
+  "last_error": "git cat-file -p 598727039d5b0f2b4b00f6db1bf2105ee1fb1e9d failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch 598727039d5b0f2b4b00f6db1bf2105ee1fb1e9d from promisor ",
+  "retry_after": "2026-10-29T23:28:10.486Z",
   "output_hash": "598727039d5b0f2b4b00f6db1bf2105ee1fb1e9d"
 }

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/job-queue-category-code-serializes-conflicting-jobs.md",
   "published_at": "2026-09-15T07:32:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:34:13.914Z",
+      "at": "2026-10-29T21:28:10.122Z",
       "blob": "190fb5e82401e2f1add66606060ae1e6738e1dc7",
       "words": 206,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:10.215Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/job-queue-category-code-serializes-conflicting-jobs.md"
     }
   },
   "input_hash": "190fb5e82401e2f1add66606060ae1e6738e1dc7",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/job-queue-category-code-serializes-conflicting-jobs.md",
-    "description": null,
+    "description": "Different job queue entries can run at the same time. When two jobs update the same exclusive resource, concurrent execution can cause lock contention, deadlocks, or conflicting results.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "job-queue",
+      "category-code",
+      "concurrency",
+      "waiting",
+      "serialization",
+      "locking"
+    ],
     "ai_usage": null,
-    "words": 206
+    "words": 206,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "job-queue",
+        "category-code",
+        "concurrency",
+        "waiting",
+        "serialization",
+        "locking"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Different job queue entries can run at the same time. When two jobs update the same exclusive resource, concurrent execution can cause lock contention, deadlocks, or conflicting results."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

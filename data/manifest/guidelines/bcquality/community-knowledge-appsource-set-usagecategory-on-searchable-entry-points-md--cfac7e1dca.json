@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/appsource/set-usagecategory-on-searchable-entry-points.md",
   "published_at": "2026-09-14T10:42:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:34:46.223Z",
+      "at": "2026-10-29T21:28:11.494Z",
       "blob": "924123663334a9ea5eb900765df0076e46ac7344",
       "words": 137,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:11.608Z",
+      "path": "content/guidelines/community/knowledge/appsource/set-usagecategory-on-searchable-entry-points.md"
     }
   },
   "input_hash": "924123663334a9ea5eb900765df0076e46ac7344",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/appsource/set-usagecategory-on-searchable-entry-points.md",
-    "description": null,
+    "description": "Pages and reports that users are expected to open directly must set UsageCategory. Without it, the object is absent from Tell Me and users cannot bookmark it from the web client.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "usagecategory",
+      "tell-me",
+      "search",
+      "page",
+      "report",
+      "discoverability"
+    ],
     "ai_usage": null,
-    "words": 137
+    "words": 137,
+    "identifiers": [
+      "UsageCategory",
+      "ReportsAndAnalysis",
+      "ApplicationArea"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "appsource",
+      "keywords": [
+        "usagecategory",
+        "tell-me",
+        "search",
+        "page",
+        "report",
+        "discoverability"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Pages and reports that users are expected to open directly must set UsageCategory. Without it, the object is absent from Tell Me and users cannot bookmark it from the web client."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

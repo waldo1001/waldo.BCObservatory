@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/job-queue-on-hold-does-not-stop-running-work.md",
   "published_at": "2026-09-15T07:32:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:34:13.945Z",
+      "at": "2026-10-29T21:28:10.752Z",
       "blob": "b0411a843383209617cb6355eaf1ff5d0e9c9f59",
       "words": 191,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:10.799Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/job-queue-on-hold-does-not-stop-running-work.md"
     }
   },
   "input_hash": "b0411a843383209617cb6355eaf1ff5d0e9c9f59",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/job-queue-on-hold-does-not-stop-running-work.md",
-    "description": null,
+    "description": "The On Hold status prevents a job queue entry from starting again, but it does not cancel a run that is already in process. A long-running handler continues until it completes, fails, reaches a cancellation point implemented by the application, or its session is stopped externally.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "job-queue",
+      "on-hold",
+      "cancellation",
+      "in-process",
+      "long-running",
+      "stop-request"
+    ],
     "ai_usage": null,
-    "words": 191
+    "words": 191,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "job-queue",
+        "on-hold",
+        "cancellation",
+        "in-process",
+        "long-running",
+        "stop-request"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The On Hold status prevents a job queue entry from starting again, but it does not cancel a run that is already in process. A long-running handler continues until it completes, fails, reaches a cancellation point implemented by the application, or its session is stopped externally."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

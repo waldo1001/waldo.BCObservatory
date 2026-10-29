@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/reporting/reportextension-report-triggers-run-after-base-triggers.md",
   "published_at": "2026-09-15T08:38:32.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:33:35.109Z",
+      "at": "2026-10-29T21:28:09.911Z",
       "blob": "414752a17d4752c43cddf8c8f63e64800017a1f4",
       "words": 151,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:10.102Z",
+      "path": "content/guidelines/microsoft/knowledge/reporting/reportextension-report-triggers-run-after-base-triggers.md"
     }
   },
   "input_hash": "414752a17d4752c43cddf8c8f63e64800017a1f4",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/reporting/reportextension-report-triggers-run-after-base-triggers.md",
-    "description": null,
+    "description": "OnPreReport and OnPostReport on a ReportExtension run after the corresponding triggers on the base report. An extension OnPreReport cannot prepare state that the base OnPreReport must consume, and an extension OnPostReport cannot affect finalization that the base OnPostReport has already completed.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "reportextension",
+      "report",
+      "trigger-order",
+      "onprereport",
+      "onpostreport",
+      "base-report",
+      "integration-event"
+    ],
     "ai_usage": null,
-    "words": 151
+    "words": 151,
+    "identifiers": [
+      "OnPreReport",
+      "OnPostReport"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "reporting",
+      "keywords": [
+        "reportextension",
+        "report",
+        "trigger-order",
+        "onprereport",
+        "onpostreport",
+        "base-report",
+        "integration-event"
+      ],
+      "bc_version": [
+        "18.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "OnPreReport and OnPostReport on a ReportExtension run after the corresponding triggers on the base report. An extension OnPreReport cannot prepare state that the base OnPreReport must consume, and an extension OnPostReport cannot affect finalization that the base OnPostReport has already completed."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

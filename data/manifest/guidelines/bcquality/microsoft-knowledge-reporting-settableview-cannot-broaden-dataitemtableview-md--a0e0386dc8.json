@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/reporting/settableview-cannot-broaden-dataitemtableview.md",
   "published_at": "2026-09-15T08:38:32.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:33:35.115Z",
+      "at": "2026-10-29T21:28:09.928Z",
       "blob": "2dfc69129b1b5254b1c6bc11706ffb1dfce54f90",
       "words": 141,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:10.054Z",
+      "path": "content/guidelines/microsoft/knowledge/reporting/settableview-cannot-broaden-dataitemtableview.md"
     }
   },
   "input_hash": "2dfc69129b1b5254b1c6bc11706ffb1dfce54f90",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/reporting/settableview-cannot-broaden-dataitemtableview.md",
-    "description": null,
+    "description": "Report.SetTableView() applies the supplied record view by narrowing the view already defined by the report dataitem's DataItemTableView. It cannot remove or broaden a static dataitem filter.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "report",
+      "settableview",
+      "dataitemtableview",
+      "filter",
+      "view",
+      "narrowing"
+    ],
     "ai_usage": null,
-    "words": 141
+    "words": 141,
+    "identifiers": [
+      "DataItemTableView",
+      "SetTableView"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "reporting",
+      "keywords": [
+        "report",
+        "settableview",
+        "dataitemtableview",
+        "filter",
+        "view",
+        "narrowing"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Report.SetTableView() applies the supplied record view by narrowing the view already defined by the report dataitem's DataItemTableView. It cannot remove or broaden a static dataitem filter."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

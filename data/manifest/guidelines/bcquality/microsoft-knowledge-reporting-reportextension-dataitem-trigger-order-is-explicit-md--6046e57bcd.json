@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/reporting/reportextension-dataitem-trigger-order-is-explicit.md",
   "published_at": "2026-09-15T08:38:32.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:33:35.103Z",
+      "at": "2026-10-29T21:28:09.836Z",
       "blob": "c149748c385c5596d673704f16fa247fd4049035",
       "words": 176,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:10.015Z",
+      "path": "content/guidelines/microsoft/knowledge/reporting/reportextension-dataitem-trigger-order-is-explicit.md"
     }
   },
   "input_hash": "c149748c385c5596d673704f16fa247fd4049035",
@@ -25,13 +29,57 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/reporting/reportextension-dataitem-trigger-order-is-explicit.md",
-    "description": null,
+    "description": "ReportExtension dataitem triggers run at defined points around the corresponding base-report trigger. OnBeforePreDataItem and OnBeforeAfterGetRecord run before the base trigger; OnAfterPreDataItem and OnAfterAfterGetRecord run after it.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "reportextension",
+      "report",
+      "dataitem",
+      "trigger-order",
+      "onbeforepredataitem",
+      "onafterpredataitem",
+      "onbeforeaftergetrecord",
+      "onafteraftergetrecord"
+    ],
     "ai_usage": null,
-    "words": 176
+    "words": 176,
+    "identifiers": [
+      "OnBeforePreDataItem",
+      "OnBeforeAfterGetRecord",
+      "OnAfterPreDataItem",
+      "OnAfterAfterGetRecord"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "reporting",
+      "keywords": [
+        "reportextension",
+        "report",
+        "dataitem",
+        "trigger-order",
+        "onbeforepredataitem",
+        "onafterpredataitem",
+        "onbeforeaftergetrecord",
+        "onafteraftergetrecord"
+      ],
+      "bc_version": [
+        "19.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "ReportExtension dataitem triggers run at defined points around the corresponding base-report trigger. OnBeforePreDataItem and OnBeforeAfterGetRecord run before the base trigger; OnAfterPreDataItem and OnAfterAfterGetRecord run after it."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

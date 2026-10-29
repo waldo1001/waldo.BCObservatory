@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.md",
   "published_at": "2026-09-15T08:38:32.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:33:35.076Z",
+      "at": "2026-10-29T21:28:09.146Z",
       "blob": "ec22ea4862a29aac27f34aacaa8c2bfd8652a812",
       "words": 161,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:09.260Z",
+      "path": "content/guidelines/microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.md"
     }
   },
   "input_hash": "ec22ea4862a29aac27f34aacaa8c2bfd8652a812",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.md",
-    "description": null,
+    "description": "CurrReport.Break() inside a report dataitem trigger does more than leave an AL loop. It terminates the current trigger and omits the current record from the dataset. The report runtime still invokes the remaining triggers for that record.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "report",
+      "currreport",
+      "break",
+      "loop",
+      "trigger",
+      "control-flow"
+    ],
     "ai_usage": null,
-    "words": 161
+    "words": 161,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "reporting",
+      "keywords": [
+        "report",
+        "currreport",
+        "break",
+        "loop",
+        "trigger",
+        "control-flow"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "CurrReport.Break() inside a report dataitem trigger does more than leave an AL loop. It terminates the current trigger and omits the current record from the dataset. The report runtime still invokes the remaining triggers for that record."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/agents/agent-setup-source-table-is-temporary.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:35:35.770Z",
+      "at": "2026-10-29T21:28:16.388Z",
       "blob": "539bc0f91c5caa2f16b276640beb90ad2d35f4ca",
       "words": 138,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:16.727Z",
+      "path": "content/guidelines/community/knowledge/agents/agent-setup-source-table-is-temporary.md"
     }
   },
   "input_hash": "539bc0f91c5caa2f16b276640beb90ad2d35f4ca",
@@ -25,13 +29,49 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/agents/agent-setup-source-table-is-temporary.md",
-    "description": null,
+    "description": "ConfigurationDialog setup is a draft: the user can Cancel without writing. That only works if SourceTableTemporary = true and custom fields stay in memory until Update. Writing the real table in OnValidate or OnOpenPage commits a partial agent when the dialog errors or is cancelled.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "sourcetabletemporary",
+      "configurationdialog",
+      "savechanges",
+      "cancel",
+      "draft"
+    ],
     "ai_usage": null,
-    "words": 138
+    "words": 138,
+    "identifiers": [
+      "SaveChanges",
+      "ConfigurationDialog"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "agents",
+      "keywords": [
+        "sourcetabletemporary",
+        "configurationdialog",
+        "savechanges",
+        "cancel",
+        "draft"
+      ],
+      "bc_version": [
+        "27.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "ConfigurationDialog setup is a draft: the user can Cancel without writing. That only works if SourceTableTemporary = true and custom fields stay in memory until Update. Writing the real table in OnValidate or OnOpenPage commits a partial agent when the dialog errors or is cancelled."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

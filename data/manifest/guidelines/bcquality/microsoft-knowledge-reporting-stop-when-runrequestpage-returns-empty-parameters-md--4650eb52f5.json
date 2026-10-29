@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/reporting/stop-when-runrequestpage-returns-empty-parameters.md",
   "published_at": "2026-09-15T08:38:32.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:34:13.898Z",
+      "at": "2026-10-29T21:28:10.021Z",
       "blob": "0cc0e71afeb2127f0b26daf29f2fb998fe6abada",
       "words": 105,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:10.199Z",
+      "path": "content/guidelines/microsoft/knowledge/reporting/stop-when-runrequestpage-returns-empty-parameters.md"
     }
   },
   "input_hash": "0cc0e71afeb2127f0b26daf29f2fb998fe6abada",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/reporting/stop-when-runrequestpage-returns-empty-parameters.md",
-    "description": null,
+    "description": "Report.RunRequestPage() returns an empty string when the user chooses Cancel. Passing that value to Report.Execute, Report.Print, or Report.SaveAs ignores the cancellation and can run the report with default parameters instead.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "report",
+      "runrequestpage",
+      "cancel",
+      "parameters",
+      "saveas",
+      "execute",
+      "print"
+    ],
     "ai_usage": null,
-    "words": 105
+    "words": 105,
+    "identifiers": [
+      "SaveAs"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "reporting",
+      "keywords": [
+        "report",
+        "runrequestpage",
+        "cancel",
+        "parameters",
+        "saveas",
+        "execute",
+        "print"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Report.RunRequestPage() returns an empty string when the user chooses Cancel. Passing that value to Report.Execute, Report.Print, or Report.SaveAs ignores the cancellation and can run the report with default parameters instead."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/httpclient-inside-write-transaction-holds-locks.md",
   "published_at": "2026-09-14T10:44:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:34:46.177Z",
+      "at": "2026-10-29T21:28:10.829Z",
       "blob": "88d0ff79347e94a221797c181f31aff37aa1a115",
       "words": 292,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:10.898Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/httpclient-inside-write-transaction-holds-locks.md"
     }
   },
   "input_hash": "88d0ff79347e94a221797c181f31aff37aa1a115",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/httpclient-inside-write-transaction-holds-locks.md",
-    "description": null,
+    "description": "The first database write opens an AL write transaction that the runtime holds until the execution completes or Commit() runs — see understand-implicit-transaction-boundary.md. HttpClient blocks the session until the remote call returns.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "httpclient",
+      "write-transaction",
+      "lock",
+      "commit",
+      "outbound-http",
+      "session-block"
+    ],
     "ai_usage": null,
-    "words": 292
+    "words": 292,
+    "identifiers": [
+      "HttpClient"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "httpclient",
+        "write-transaction",
+        "lock",
+        "commit",
+        "outbound-http",
+        "session-block"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The first database write opens an AL write transaction that the runtime holds until the execution completes or Commit() runs — see understand-implicit-transaction-boundary.md. HttpClient blocks the session until the remote call returns."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

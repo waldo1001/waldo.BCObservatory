@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/appsource/keep-web-service-paths-free-of-ui-calls.md",
   "published_at": "2026-09-14T10:42:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:34:46.209Z",
+      "at": "2026-10-29T21:28:11.364Z",
       "blob": "45b06b2564a710f38568e0c0f6cc3353a2977ba4",
       "words": 171,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:11.435Z",
+      "path": "content/guidelines/community/knowledge/appsource/keep-web-service-paths-free-of-ui-calls.md"
     }
   },
   "input_hash": "45b06b2564a710f38568e0c0f6cc3353a2977ba4",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/appsource/keep-web-service-paths-free-of-ui-calls.md",
-    "description": null,
+    "description": "Pages and codeunits exposed as web services run without an interactive client. Calls that require a UI callback, including Confirm, StrMenu, and modal pages, can terminate the service request instead of completing the operation.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "web-service",
+      "serviceenabled",
+      "guiallowed",
+      "message",
+      "confirm",
+      "strmenu"
+    ],
     "ai_usage": null,
-    "words": 171
+    "words": 171,
+    "identifiers": [
+      "StrMenu",
+      "GuiAllowed"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "appsource",
+      "keywords": [
+        "web-service",
+        "serviceenabled",
+        "guiallowed",
+        "message",
+        "confirm",
+        "strmenu"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Pages and codeunits exposed as web services run without an interactive client. Calls that require a UI callback, including Confirm, StrMenu, and modal pages, can terminate the service request instead of completing the operation."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

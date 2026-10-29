@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/appsource/place-page-extension-actions-with-addfirst-or-addlast.md",
   "published_at": "2026-09-14T10:42:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:34:46.215Z",
+      "at": "2026-10-29T21:28:11.442Z",
       "blob": "4967645ec34e1181741a4c364266ad1905e9faf7",
       "words": 127,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:11.486Z",
+      "path": "content/guidelines/community/knowledge/appsource/place-page-extension-actions-with-addfirst-or-addlast.md"
     }
   },
   "input_hash": "4967645ec34e1181741a4c364266ad1905e9faf7",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/appsource/place-page-extension-actions-with-addfirst-or-addlast.md",
-    "description": null,
+    "description": "Place new page-extension actions at the beginning or end of an existing action group with addfirst or addlast.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "pageextension",
+      "actions",
+      "addfirst",
+      "addlast",
+      "addbefore",
+      "addafter"
+    ],
     "ai_usage": null,
-    "words": 127
+    "words": 127,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "appsource",
+      "keywords": [
+        "pageextension",
+        "actions",
+        "addfirst",
+        "addlast",
+        "addbefore",
+        "addafter"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Place new page-extension actions at the beginning or end of an existing action group with addfirst or addlast."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

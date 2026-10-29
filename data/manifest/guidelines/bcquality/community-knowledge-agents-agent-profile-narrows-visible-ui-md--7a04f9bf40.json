@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/agents/agent-profile-narrows-visible-ui.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:35:35.758Z",
+      "at": "2026-10-29T21:28:16.401Z",
       "blob": "914a7778d2971a660ef18208ef945d9fb23dea52",
       "words": 143,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:16.647Z",
+      "path": "content/guidelines/community/knowledge/agents/agent-profile-narrows-visible-ui.md"
     }
   },
   "input_hash": "914a7778d2971a660ef18208ef945d9fb23dea52",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/agents/agent-profile-narrows-visible-ui.md",
-    "description": null,
+    "description": "The agent only sees what its profile shows. Extra actions, views, and Role Center tiles become extra tools and extra tokens. Accuracy and cost both get worse as the UI widens. A human Order Processor profile is usually far too broad.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "profile",
+      "page-customization",
+      "hidden-actions",
+      "tooltip",
+      "role-center"
+    ],
     "ai_usage": null,
-    "words": 143
+    "words": 143,
+    "identifiers": [
+      "GetDefaultProfile"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "agents",
+      "keywords": [
+        "profile",
+        "page-customization",
+        "hidden-actions",
+        "tooltip",
+        "role-center"
+      ],
+      "bc_version": [
+        "27.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The agent only sees what its profile shows. Extra actions, views, and Role Center tiles become extra tools and extra tokens. Accuracy and cost both get worse as the UI widens. A human Order Processor profile is usually far too broad."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/appsource/do-not-hard-code-time-zone-offsets.md",
   "published_at": "2026-09-14T10:42:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:34:46.202Z",
+      "at": "2026-10-29T21:28:11.125Z",
       "blob": "935b4d56ae791b7b973f08d88675ed60e0d6a946",
       "words": 146,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:11.191Z",
+      "path": "content/guidelines/community/knowledge/appsource/do-not-hard-code-time-zone-offsets.md"
     }
   },
   "input_hash": "935b4d56ae791b7b973f08d88675ed60e0d6a946",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/appsource/do-not-hard-code-time-zone-offsets.md",
-    "description": null,
+    "description": "Marketplace extensions run for users and services in many time zones. Adding a fixed offset to a DateTime assumes one locale, ignores daylight-saving transitions, and changes an absolute timestamp into an incorrect value for other regions.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "datetime",
+      "time-zone",
+      "utc",
+      "currentdatetime",
+      "locale",
+      "regional-settings"
+    ],
     "ai_usage": null,
-    "words": 146
+    "words": 146,
+    "identifiers": [
+      "DateTime",
+      "CurrentDateTime"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "appsource",
+      "keywords": [
+        "datetime",
+        "time-zone",
+        "utc",
+        "currentdatetime",
+        "locale",
+        "regional-settings"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Marketplace extensions run for users and services in many time zones. Adding a fixed offset to a DateTime assumes one locale, ignores daylight-saving transitions, and changes an absolute timestamp into an incorrect value for other regions."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

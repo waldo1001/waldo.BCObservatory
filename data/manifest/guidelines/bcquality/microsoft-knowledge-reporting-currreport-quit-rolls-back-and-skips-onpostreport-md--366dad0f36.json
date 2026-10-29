@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/reporting/currreport-quit-rolls-back-and-skips-onpostreport.md",
   "published_at": "2026-09-15T08:38:32.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:33:35.083Z",
+      "at": "2026-10-29T21:28:09.139Z",
       "blob": "287f625692e2bc697ffa12ab6d9e49997e814b55",
       "words": 133,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:09.228Z",
+      "path": "content/guidelines/microsoft/knowledge/reporting/currreport-quit-rolls-back-and-skips-onpostreport.md"
     }
   },
   "input_hash": "287f625692e2bc697ffa12ab6d9e49997e814b55",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/reporting/currreport-quit-rolls-back-and-skips-onpostreport.md",
-    "description": null,
+    "description": "CurrReport.Quit() aborts the report without committing database changes made during its execution. It also prevents OnPostReport from running. It is therefore not a normal early-return mechanism for a processing report that expects earlier writes or finalization in OnPostReport to survive.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "report",
+      "currreport",
+      "quit",
+      "rollback",
+      "onpostreport",
+      "transaction",
+      "control-flow"
+    ],
     "ai_usage": null,
-    "words": 133
+    "words": 133,
+    "identifiers": [
+      "OnPostReport"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "reporting",
+      "keywords": [
+        "report",
+        "currreport",
+        "quit",
+        "rollback",
+        "onpostreport",
+        "transaction",
+        "control-flow"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "CurrReport.Quit() aborts the report without committing database changes made during its execution. It also prevents OnPostReport from running. It is therefore not a normal early-return mechanism for a processing report that expects earlier writes or finalization in OnPostReport to survive."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/reporting/report-output-in-a-loop-needs-one-client-download.md",
   "published_at": "2026-09-15T08:38:32.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:33:35.097Z",
+      "at": "2026-10-29T21:28:09.203Z",
       "blob": "8aede8b6bb50dfc4d68ae09972d7dec425a97511",
       "words": 158,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:09.284Z",
+      "path": "content/guidelines/microsoft/knowledge/reporting/report-output-in-a-loop-needs-one-client-download.md"
     }
   },
   "input_hash": "8aede8b6bb50dfc4d68ae09972d7dec425a97511",
@@ -25,13 +29,54 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/reporting/report-output-in-a-loop-needs-one-client-download.md",
-    "description": null,
+    "description": "The Business Central Web client can deliver only one file per request. When AL generates or downloads a report file repeatedly in the same request, only the last file is delivered to the browser. Earlier report output is silently unavailable to the user even though every iteration ran.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "report",
+      "run",
+      "saveas",
+      "downloadfromstream",
+      "web-client",
+      "loop",
+      "zip",
+      "data-compression"
+    ],
     "ai_usage": null,
-    "words": 158
+    "words": 158,
+    "identifiers": [
+      "DownloadFromStream"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "reporting",
+      "keywords": [
+        "report",
+        "run",
+        "saveas",
+        "downloadfromstream",
+        "web-client",
+        "loop",
+        "zip",
+        "data-compression"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The Business Central Web client can deliver only one file per request. When AL generates or downloads a report file repeatedly in the same request, only the last file is delivered to the browser. Earlier report output is silently unavailable to the user even though every iteration ran."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
