@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/scm/carry-out-requisition-actions-through-the-standard-workflow.md",
   "published_at": "2026-09-21T08:16:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:31:56.725Z",
+      "at": "2026-10-29T21:28:01.578Z",
       "blob": "88f68bdf32c033a5391c396872f88e828054700d",
       "words": 363,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:01.671Z",
+      "path": "content/guidelines/microsoft/knowledge/scm/carry-out-requisition-actions-through-the-standard-workflow.md"
     }
   },
   "input_hash": "88f68bdf32c033a5391c396872f88e828054700d",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/scm/carry-out-requisition-actions-through-the-standard-workflow.md",
-    "description": null,
+    "description": "A requisition/planning line is a pending change to a supply/demand network, not just a template for a purchase line.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "requisition-line",
+      "action-message",
+      "accept-action-message",
+      "req-wksh-make-order",
+      "carryoutbatchaction",
+      "demand-order-no",
+      "planning-flexibility"
+    ],
     "ai_usage": null,
-    "words": 363
+    "words": 363,
+    "identifiers": [
+      "CarryOutBatchAction"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "scm",
+      "keywords": [
+        "requisition-line",
+        "action-message",
+        "accept-action-message",
+        "req-wksh-make-order",
+        "carryoutbatchaction",
+        "demand-order-no",
+        "planning-flexibility"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A requisition/planning line is a pending change to a supply/demand network, not just a template for a purchase line."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

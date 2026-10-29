@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/validate-unauthenticated-response-before-use.md",
   "published_at": "2026-09-15T11:48:59.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:32:55.370Z",
+      "at": "2026-10-29T21:28:08.270Z",
       "blob": "ca09d5680f093e3cdfc0d028d8f508aa2dd98540",
       "words": 472,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:08.524Z",
+      "path": "content/guidelines/microsoft/knowledge/security/validate-unauthenticated-response-before-use.md"
     }
   },
   "input_hash": "ca09d5680f093e3cdfc0d028d8f508aa2dd98540",
@@ -25,13 +29,61 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/validate-unauthenticated-response-before-use.md",
-    "description": null,
+    "description": "When AL calls an external endpoint that does not authenticate *itself* to the client, the response is fully attacker-influenceable — cleartext MITM, a spoofed or compromised host, DNS/redirect games, or simply a misbehaving public service.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "unauthenticated",
+      "ssrf",
+      "httpclient",
+      "soap",
+      "response-validation",
+      "integrity",
+      "size-limit",
+      "disablehttpscheck",
+      "temp-blob",
+      "vies"
+    ],
     "ai_usage": null,
-    "words": 472
+    "words": 472,
+    "identifiers": [
+      "countryCode",
+      "vatNumber",
+      "SecretText",
+      "DisableHttpsCheck"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "unauthenticated",
+        "ssrf",
+        "httpclient",
+        "soap",
+        "response-validation",
+        "integrity",
+        "size-limit",
+        "disablehttpscheck",
+        "temp-blob",
+        "vies"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "When AL calls an external endpoint that does not authenticate *itself* to the client, the response is fully attacker-influenceable — cleartext MITM, a spoofed or compromised host, DNS/redirect games, or simply a misbehaving public service."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

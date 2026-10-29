@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/finance/do-not-edit-shared-dimension-sets.md",
   "published_at": "2026-09-21T08:20:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:31:27.869Z",
+      "at": "2026-10-29T21:28:00.544Z",
       "blob": "97b29f233a1da621b404356dc0d30c43e299120d",
       "words": 271,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:00.651Z",
+      "path": "content/guidelines/microsoft/knowledge/finance/do-not-edit-shared-dimension-sets.md"
     }
   },
   "input_hash": "97b29f233a1da621b404356dc0d30c43e299120d",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/finance/do-not-edit-shared-dimension-sets.md",
-    "description": null,
+    "description": "The same Dimension Set ID can be referenced by an unposted journal line and by many already-posted entries. Editing or deleting the persisted set's dimension/value rows therefore changes the meaning of unrelated transactions, including posting history.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "dimension-set-entry",
+      "dimension-value-id",
+      "getdimensionset",
+      "getdimensionsetid",
+      "posted-dimensions",
+      "temporary"
+    ],
     "ai_usage": null,
-    "words": 271
+    "words": 271,
+    "identifiers": [
+      "GetDimensionSetID",
+      "IsTemporary"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "finance",
+      "keywords": [
+        "dimension-set-entry",
+        "dimension-value-id",
+        "getdimensionset",
+        "getdimensionsetid",
+        "posted-dimensions",
+        "temporary"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The same Dimension Set ID can be referenced by an unposted journal line and by many already-posted entries. Editing or deleting the persisted set's dimension/value rows therefore changes the meaning of unrelated transactions, including posting history."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

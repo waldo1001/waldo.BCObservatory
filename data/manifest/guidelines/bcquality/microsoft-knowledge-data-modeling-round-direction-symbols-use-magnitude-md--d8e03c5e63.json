@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/round-direction-symbols-use-magnitude.md",
   "published_at": "2026-09-21T08:15:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:32:30.848Z",
+      "at": "2026-10-29T21:28:02.900Z",
       "blob": "260905dbc76545a1e32a72aac893f69de3fd9046",
       "words": 135,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:02.982Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/round-direction-symbols-use-magnitude.md"
     }
   },
   "input_hash": "260905dbc76545a1e32a72aac893f69de3fd9046",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/round-direction-symbols-use-magnitude.md",
-    "description": null,
+    "description": "AL's Round(Number, Precision, Direction) uses '>' to round away from zero and '<' to round toward zero. For a negative value this reverses mathematical ordering: Round(-1234.56789, 0.001, '<') returns -1234.567, while direction '>' returns -1234.568.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "round",
+      "rounding",
+      "direction",
+      "precision",
+      "negative-decimal",
+      "amount"
+    ],
     "ai_usage": null,
-    "words": 135
+    "words": 135,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "round",
+        "rounding",
+        "direction",
+        "precision",
+        "negative-decimal",
+        "amount"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "AL's Round(Number, Precision, Direction) uses '>' to round away from zero and '<' to round toward zero. For a negative value this reverses mathematical ordering: Round(-1234.56789, 0.001, '<') returns -1234.567, while direction '>' returns -1234.568."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

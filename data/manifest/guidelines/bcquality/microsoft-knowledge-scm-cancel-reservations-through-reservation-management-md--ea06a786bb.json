@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/scm/cancel-reservations-through-reservation-management.md",
   "published_at": "2026-09-21T08:16:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:31:56.717Z",
+      "at": "2026-10-29T21:28:01.497Z",
       "blob": "1df3b125bb5653c894a7c6c9a0e9d7b563591477",
       "words": 247,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:01.571Z",
+      "path": "content/guidelines/microsoft/knowledge/scm/cancel-reservations-through-reservation-management.md"
     }
   },
   "input_hash": "1df3b125bb5653c894a7c6c9a0e9d7b563591477",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/scm/cancel-reservations-through-reservation-management.md",
-    "description": null,
+    "description": "Persistent \"Reservation Entry\" rows are not disposable allocation markers. Reservation and Tracking links use an entry-number pair with opposite Positive values, while Surplus and Prospect entries can legitimately be unpaired.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "reservation-entry",
+      "cancelreservation",
+      "reservation-engine-mgt",
+      "reservation-status",
+      "order-tracking",
+      "disallow-cancellation"
+    ],
     "ai_usage": null,
-    "words": 247
+    "words": 247,
+    "identifiers": [
+      "DeleteAll"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "scm",
+      "keywords": [
+        "reservation-entry",
+        "cancelreservation",
+        "reservation-engine-mgt",
+        "reservation-status",
+        "order-tracking",
+        "disallow-cancellation"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Persistent \"Reservation Entry\" rows are not disposable allocation markers. Reservation and Tracking links use an entry-number pair with opposite Positive values, while Surplus and Prospect entries can legitimately be unpaired."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

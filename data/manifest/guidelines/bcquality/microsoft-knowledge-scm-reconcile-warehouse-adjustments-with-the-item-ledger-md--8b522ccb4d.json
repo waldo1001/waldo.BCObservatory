@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/scm/reconcile-warehouse-adjustments-with-the-item-ledger.md",
   "published_at": "2026-09-21T08:16:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:32:30.808Z",
+      "at": "2026-10-29T21:28:02.479Z",
       "blob": "06230e7559baf7853e34fa10f90c4401ca4ce06d",
       "words": 301,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:02.526Z",
+      "path": "content/guidelines/microsoft/knowledge/scm/reconcile-warehouse-adjustments-with-the-item-ledger.md"
     }
   },
   "input_hash": "06230e7559baf7853e34fa10f90c4401ca4ce06d",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/scm/reconcile-warehouse-adjustments-with-the-item-ledger.md",
-    "description": null,
+    "description": "At a Directed Put-away and Pick location, registering an ordinary warehouse quantity or physical-inventory adjustment and synchronizing it to inventory are distinct steps. The warehouse registration balances quantity through the adjustment bin.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "warehouse-adjustment",
+      "calculate-whse-adjustment",
+      "adjustment-bin-code",
+      "directed-put-away-and-pick",
+      "item-journal-line",
+      "warehouse-entry"
+    ],
     "ai_usage": null,
-    "words": 301
+    "words": 301,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "scm",
+      "keywords": [
+        "warehouse-adjustment",
+        "calculate-whse-adjustment",
+        "adjustment-bin-code",
+        "directed-put-away-and-pick",
+        "item-journal-line",
+        "warehouse-entry"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "At a Directed Put-away and Pick location, registering an ordinary warehouse quantity or physical-inventory adjustment and synchronizing it to inventory are distinct steps. The warehouse registration balances quantity through the adjustment bin."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

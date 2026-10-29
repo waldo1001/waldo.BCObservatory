@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/dropdown-fieldgroup-respects-lookup-page-visibility.md",
   "published_at": "2026-09-21T08:15:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:32:30.862Z",
+      "at": "2026-10-29T21:28:03.202Z",
       "blob": "afa2c34d0fc4caac566e1c15b8145e0beb1b7e47",
       "words": 146,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:03.260Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/dropdown-fieldgroup-respects-lookup-page-visibility.md"
     }
   },
   "input_hash": "afa2c34d0fc4caac566e1c15b8145e0beb1b7e47",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/dropdown-fieldgroup-respects-lookup-page-visibility.md",
-    "description": null,
+    "description": "A tableextension can append a field to the DropDown field group with addlast, but the client still omits that field when its control on the underlying lookup page has Visible = false. Changing only the table field group therefore compiles while producing no visible UI change.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "fieldgroup",
+      "dropdown",
+      "addlast",
+      "lookup-page",
+      "visible",
+      "tableextension",
+      "pageextension"
+    ],
     "ai_usage": null,
-    "words": 146
+    "words": 146,
+    "identifiers": [
+      "DropDown"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "fieldgroup",
+        "dropdown",
+        "addlast",
+        "lookup-page",
+        "visible",
+        "tableextension",
+        "pageextension"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A tableextension can append a field to the DropDown field group with addlast, but the client still omits that field when its control on the underlying lookup page has Visible = false. Changing only the table field group therefore compiles while producing no visible UI change."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

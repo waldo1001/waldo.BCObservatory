@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-interfaces-review.md",
   "published_at": "2026-09-21T08:15:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:32:55.362Z",
+      "at": "2026-10-29T21:28:08.274Z",
       "blob": "1c38be764e5429143aabf96505368f82c4c461bb",
       "words": 1386,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:08.470Z",
+      "path": "content/guidelines/microsoft/skills/review/al-interfaces-review.md"
     }
   },
   "input_hash": "1c38be764e5429143aabf96505368f82c4c461bb",
@@ -31,7 +35,31 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1386
+    "words": 1386,
+    "identifiers": [
+      "DefaultImplementation",
+      "UnknownValueImplementation"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": null,
+      "keywords": [],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "skill",
+      "summary": "Reviews AL source changes against interface and enum-with-implementation guidance from BCQuality."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

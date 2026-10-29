@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/scm/post-transfers-through-shipment-and-receipt-codeunits.md",
   "published_at": "2026-09-21T08:16:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:31:56.753Z",
+      "at": "2026-10-29T21:28:02.201Z",
       "blob": "b541dbab91352ab4fae86af0e2539608ce38dfb1",
       "words": 290,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:02.248Z",
+      "path": "content/guidelines/microsoft/knowledge/scm/post-transfers-through-shipment-and-receipt-codeunits.md"
     }
   },
   "input_hash": "b541dbab91352ab4fae86af0e2539608ce38dfb1",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/scm/post-transfers-through-shipment-and-receipt-codeunits.md",
-    "description": null,
+    "description": "A two-step transfer order preserves a continuous quantity, reservation, and cost/application lineage from the source through in-transit to the destination. Its shipment and receipt workflows also own posted documents and derived lines for partial receipt.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "transfer-header",
+      "transfer-line",
+      "transferorder-post-shipment",
+      "transferorder-post-receipt",
+      "in-transit-code",
+      "last-shipment-no",
+      "item-application-entry"
+    ],
     "ai_usage": null,
-    "words": 290
+    "words": 290,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "scm",
+      "keywords": [
+        "transfer-header",
+        "transfer-line",
+        "transferorder-post-shipment",
+        "transferorder-post-receipt",
+        "in-transit-code",
+        "last-shipment-no",
+        "item-application-entry"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A two-step transfer order preserves a continuous quantity, reservation, and cost/application lineage from the source through in-transit to the destination. Its shipment and receipt workflows also own posted documents and derived lines for partial receipt."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

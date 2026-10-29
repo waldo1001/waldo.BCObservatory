@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/scm/post-item-ledger-changes-through-item-journals.md",
   "published_at": "2026-09-21T08:16:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:31:56.740Z",
+      "at": "2026-10-29T21:28:02.162Z",
       "blob": "0df6dac25adcb22d2fd40468a8d0f6ec1624aac8",
       "words": 355,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:02.221Z",
+      "path": "content/guidelines/microsoft/knowledge/scm/post-item-ledger-changes-through-item-journals.md"
     }
   },
   "input_hash": "0df6dac25adcb22d2fd40468a8d0f6ec1624aac8",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/scm/post-item-ledger-changes-through-item-journals.md",
-    "description": null,
+    "description": "An item ledger entry is not an independently insertable stock balance.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "item-ledger-entry",
+      "value-entry",
+      "item-journal-line",
+      "item-jnl-post-line",
+      "runwithcheck",
+      "inventory-posting"
+    ],
     "ai_usage": null,
-    "words": 355
+    "words": 355,
+    "identifiers": [
+      "IsHandled"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "scm",
+      "keywords": [
+        "item-ledger-entry",
+        "value-entry",
+        "item-journal-line",
+        "item-jnl-post-line",
+        "runwithcheck",
+        "inventory-posting"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An item ledger entry is not an independently insertable stock balance."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

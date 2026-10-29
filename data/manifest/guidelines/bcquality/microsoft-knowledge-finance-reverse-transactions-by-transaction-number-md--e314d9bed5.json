@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/finance/reverse-transactions-by-transaction-number.md",
   "published_at": "2026-09-21T08:20:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:31:27.904Z",
+      "at": "2026-10-29T21:28:01.394Z",
       "blob": "296d9023460c765242cf828a5c0d08c9f94a0e67",
       "words": 263,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:01.488Z",
+      "path": "content/guidelines/microsoft/knowledge/finance/reverse-transactions-by-transaction-number.md"
     }
   },
   "input_hash": "296d9023460c765242cf828a5c0d08c9f94a0e67",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/finance/reverse-transactions-by-transaction-number.md",
-    "description": null,
+    "description": "Reversal Entry.ReverseTransaction expects a transaction number, while ReverseRegister expects a G/L register number. Neither parameter means a ledger Entry No..",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "reversetransaction",
+      "reverseregister",
+      "transaction-no",
+      "entry-no",
+      "reversal-entry",
+      "g-l-register"
+    ],
     "ai_usage": null,
-    "words": 263
+    "words": 263,
+    "identifiers": [
+      "ReverseRegister",
+      "UnApplyCustLedgEntry",
+      "ReverseTransaction"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "finance",
+      "keywords": [
+        "reversetransaction",
+        "reverseregister",
+        "transaction-no",
+        "entry-no",
+        "reversal-entry",
+        "g-l-register"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Reversal Entry.ReverseTransaction expects a transaction number, while ReverseRegister expects a G/L register number. Neither parameter means a ledger Entry No.."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

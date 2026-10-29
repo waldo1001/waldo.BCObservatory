@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/finance/do-not-modify-or-delete-posted-ledger-entries.md",
   "published_at": "2026-09-21T08:20:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:31:27.876Z",
+      "at": "2026-10-29T21:28:00.718Z",
       "blob": "33a8029c66ed62716c140197d5e338dd127dd3b9",
       "words": 340,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:00.785Z",
+      "path": "content/guidelines/microsoft/knowledge/finance/do-not-modify-or-delete-posted-ledger-entries.md"
     }
   },
   "input_hash": "33a8029c66ed62716c140197d5e338dd127dd3b9",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/finance/do-not-modify-or-delete-posted-ledger-entries.md",
-    "description": null,
+    "description": "Changing a posted entry's original amount, account, posting date, or tax amounts in place does not correct the related ledger, register, or source document. Deleting one erroneous row has the same problem.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "g-l-entry",
+      "ledger-entry",
+      "reversal",
+      "audit-trail",
+      "correction",
+      "financial-content",
+      "entry-edit"
+    ],
     "ai_usage": null,
-    "words": 340
+    "words": 340,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "finance",
+      "keywords": [
+        "g-l-entry",
+        "ledger-entry",
+        "reversal",
+        "audit-trail",
+        "correction",
+        "financial-content",
+        "entry-edit"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Changing a posted entry's original amount, account, posting date, or tax amounts in place does not correct the related ledger, register, or source document. Deleting one erroneous row has the same problem."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

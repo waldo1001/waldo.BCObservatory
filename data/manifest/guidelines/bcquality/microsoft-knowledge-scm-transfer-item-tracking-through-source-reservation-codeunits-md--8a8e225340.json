@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/scm/transfer-item-tracking-through-source-reservation-codeunits.md",
   "published_at": "2026-09-21T08:16:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:32:30.817Z",
+      "at": "2026-10-29T21:28:02.326Z",
       "blob": "8bc42ccdcc5af437f8aed143d422b0669bde867c",
       "words": 318,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:02.374Z",
+      "path": "content/guidelines/microsoft/knowledge/scm/transfer-item-tracking-through-source-reservation-codeunits.md"
     }
   },
   "input_hash": "8bc42ccdcc5af437f8aed143d422b0669bde867c",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/scm/transfer-item-tracking-through-source-reservation-codeunits.md",
-    "description": null,
+    "description": "Moving lot/serial tracking between document lines is a source-ownership operation, not a copy of visible tracking fields. Partial movement must retain the old source's remainder, destination units of measure, quantities to handle/invoice, status, sign, and any reservation counterpart.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "reservation-entry",
+      "tracking-specification",
+      "sales-line-reserve",
+      "transfersalelinetosalesline",
+      "transferreserventry",
+      "copyitemtracking",
+      "quantity-base"
+    ],
     "ai_usage": null,
-    "words": 318
+    "words": 318,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "scm",
+      "keywords": [
+        "reservation-entry",
+        "tracking-specification",
+        "sales-line-reserve",
+        "transfersalelinetosalesline",
+        "transferreserventry",
+        "copyitemtracking",
+        "quantity-base"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Moving lot/serial tracking between document lines is a source-ownership operation, not a copy of visible tracking fields. Partial movement must retain the old source's remainder, destination units of measure, quantities to handle/invoice, status, sign, and any reservation counterpart."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

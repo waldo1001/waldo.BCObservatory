@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/interfaces/guard-interface-casts-with-is.md",
   "published_at": "2026-09-21T08:15:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:32:30.856Z",
+      "at": "2026-10-29T21:28:02.990Z",
       "blob": "ad9c38e2f8c8746438243912949ddbaf917a189b",
       "words": 139,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:03.039Z",
+      "path": "content/guidelines/microsoft/knowledge/interfaces/guard-interface-casts-with-is.md"
     }
   },
   "input_hash": "ad9c38e2f8c8746438243912949ddbaf917a189b",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/interfaces/guard-interface-casts-with-is.md",
-    "description": null,
+    "description": "From runtime 15.0, AL can type-test an interface or Variant with is and cast it to another interface with as. The test is non-throwing, but as raises a runtime error when the underlying codeunit does not implement the target interface.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "interface",
+      "is-operator",
+      "as-operator",
+      "type-test",
+      "cast",
+      "variant",
+      "runtime-error"
+    ],
     "ai_usage": null,
-    "words": 139
+    "words": 139,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "interfaces",
+      "keywords": [
+        "interface",
+        "is-operator",
+        "as-operator",
+        "type-test",
+        "cast",
+        "variant",
+        "runtime-error"
+      ],
+      "bc_version": [
+        "25.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "From runtime 15.0, AL can type-test an interface or Variant with is and cast it to another interface with as. The test is non-throwing, but as raises a runtime error when the underlying codeunit does not implement the target interface."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/scm/change-item-applications-through-posting-routines.md",
   "published_at": "2026-09-21T08:16:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:31:56.732Z",
+      "at": "2026-10-29T21:28:01.989Z",
       "blob": "5b5443e56b47ace35bf8284689777723e358fcfe",
       "words": 288,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:02.085Z",
+      "path": "content/guidelines/microsoft/knowledge/scm/change-item-applications-through-posting-routines.md"
     }
   },
   "input_hash": "5b5443e56b47ace35bf8284689777723e358fcfe",
@@ -25,13 +29,56 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/scm/change-item-applications-through-posting-routines.md",
-    "description": null,
+    "description": "An \"Item Application Entry\" connects quantity application to cost flow; changing its inbound entry number is not merely fixing a foreign key. Unapplication/reapplication also affects ledger remaining quantities, open states, valuation, and entries needing cost adjustment.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "item-application-entry",
+      "inbound-item-entry-no",
+      "unapply",
+      "reapply",
+      "redoapplications",
+      "costadjust",
+      "application-worksheet"
+    ],
     "ai_usage": null,
-    "words": 288
+    "words": 288,
+    "identifiers": [
+      "UnApply",
+      "ReApply",
+      "RedoApplications",
+      "CostAdjust",
+      "ClearApplicationLog"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "scm",
+      "keywords": [
+        "item-application-entry",
+        "inbound-item-entry-no",
+        "unapply",
+        "reapply",
+        "redoapplications",
+        "costadjust",
+        "application-worksheet"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An \"Item Application Entry\" connects quantity application to cost flow; changing its inbound entry number is not merely fixing a foreign key. Unapplication/reapplication also affects ledger remaining quantities, open states, valuation, and entries needing cost adjustment."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

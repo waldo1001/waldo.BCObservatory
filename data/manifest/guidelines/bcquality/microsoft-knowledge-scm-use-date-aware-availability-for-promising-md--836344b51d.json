@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/scm/use-date-aware-availability-for-promising.md",
   "published_at": "2026-09-21T08:16:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:32:30.826Z",
+      "at": "2026-10-29T21:28:02.713Z",
       "blob": "a182a94cc30939e5649b88e7e40d25f7a6acd7d4",
       "words": 290,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:02.762Z",
+      "path": "content/guidelines/microsoft/knowledge/scm/use-date-aware-availability-for-promising.md"
     }
   },
   "input_hash": "a182a94cc30939e5649b88e7e40d25f7a6acd7d4",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/scm/use-date-aware-availability-for-promising.md",
-    "description": null,
+    "description": "Item.Inventory is an on-hand quantity, not an available-to-promise answer. Promising additional demand must account for the requested date, location and variant, reservations, scheduled receipts, existing requirements, and demand within the configured lookahead.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "available-to-promise",
+      "calcqtyavailabletopromise",
+      "inventory",
+      "shipment-date",
+      "gross-requirement",
+      "scheduled-receipt",
+      "location-filter",
+      "variant-filter"
+    ],
     "ai_usage": null,
-    "words": 290
+    "words": 290,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "scm",
+      "keywords": [
+        "available-to-promise",
+        "calcqtyavailabletopromise",
+        "inventory",
+        "shipment-date",
+        "gross-requirement",
+        "scheduled-receipt",
+        "location-filter",
+        "variant-filter"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Item.Inventory is an on-hand quantity, not an available-to-promise answer. Promising additional demand must account for the requested date, location and variant, reservations, scheduled receipts, existing requirements, and demand within the configured lookahead."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

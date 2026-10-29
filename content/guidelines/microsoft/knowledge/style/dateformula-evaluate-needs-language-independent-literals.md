@@ -1,0 +1,116 @@
+---
+id: guideline/microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals
+type: guideline
+title: Parse DateFormula constants with language-independent input
+summary: "A DateFormula stores a formula in a language-independent representation, but Evaluate must first interpret its text input. Declaring the destination as DateFormula does not make an English literal such as 1W independent of the session language: French uses S for weeks."
+tier: official
+language: en
+tags:
+  - dateformula
+  - evaluate
+  - calcdate
+  - date-expression
+  - language-independent
+  - multilanguage
+  - global-language
+system: development
+review:
+  state: derived
+  by: null
+  at: null
+  flags: []
+generated:
+  at: "2026-10-29T21:28:02.911Z"
+  pipeline: 0.2.0
+  prompts: {}
+  input_hash: 91fcfe51e74b83322ee9eefe7597ff9634863af6
+evidence:
+  - kind: guideline
+    url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.md
+    title: "microsoft/BCQuality: Parse DateFormula constants with language-independent input"
+    date: "2026-09-21"
+    commit: a4593a1b1585a0fa663efbf39ff02c60f846d851
+    t: null
+    quote: null
+links:
+  learn:
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/file/file-write-dateformula-method
+  objects: []
+  features: []
+  topics: []
+  localizations: []
+  videos: []
+  posts: []
+  guidelines: []
+  changes:
+    - change/bcquality/193
+    - change/bcquality/57
+repo_path: microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.md
+layer: microsoft
+kind: rule
+domain: style
+bc_version:
+  - all
+technologies:
+  - al
+countries:
+  - w1
+application_area:
+  - all
+examples: 2
+identifiers:
+  - DateFormula
+  - CalcDate
+---
+
+# Parse DateFormula constants with language-independent input
+
+> A DateFormula stores a formula in a language-independent representation, but Evaluate must first interpret its text input. Declaring the destination as DateFormula does not make an English literal such as 1W independent of the session language: French uses S for weeks.
+
+[Rule on GitHub](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.md) · microsoft layer · style · BC all · tier official · derived
+
+## Description
+
+A `DateFormula` stores a formula in a language-independent representation, but `Evaluate` must first interpret its text input. Declaring the destination as `DateFormula` does not make an English literal such as `1W` independent of the session language: French uses `S` for weeks. Passing the resulting typed variable to `CalcDate` satisfies that call's CodeCop AA0462 argument requirement, but cannot repair a parsing failure that already happened in `Evaluate`.
+
+## Best Practice
+
+For an application-defined formula in a normal two-argument `Evaluate` call, use the generic units inside angle brackets, such as `<1W>`. Apply this at the text-to-`DateFormula` boundary, including a visible constant passed through a helper. A label's `Locked = true` prevents translation of its text; it does not make unbracketed English units language independent.
+
+Preserve genuinely localized input: text entered by the user, or already formatted for the same session language, should be parsed in that language. Do not blindly wrap that text in angle brackets. Already invariant `<...>` literals, explicit import-format conversions, a typed formula passed to `CalcDate`, and `Format(Interval) = ''` checks are not findings without an unsafe constant at the parsing boundary.
+
+See sample: [`dateformula-evaluate-needs-language-independent-literals.good.al`](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.good.al).
+
+## Anti Pattern
+
+A hard-coded, language-fixed formula such as `1W` flows into a normal two-argument `Evaluate` whose destination is known to be `DateFormula`, and the application expects that default to work across session languages. Require the destination type and constant provenance; an arbitrary `Evaluate` call or dynamic text parameter is not enough. The resulting code can compile and work in English while failing when the same default is first needed in another language.
+
+Do not report direct `CalcDate` text arguments under this article: CodeCop AA0462 already owns the requirement for a typed formula or angle-bracketed text there. Its typed-argument check does not establish that an earlier `Evaluate` parsed language-independent input.
+
+See sample: [`dateformula-evaluate-needs-language-independent-literals.bad.al`](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.bad.al).
+
+## References
+
+[DateFormula data type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/dateformula/dateformula-data-type) and [CalcDate language behavior](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/system/system-calcdate-dateformula-date-method).
+
+[CodeCop AA0462](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/analyzers/codecop-aa0462) defines the separate direct-`CalcDate` check. In a CodeCop compilation probe against BC28.5 symbols, the direct text control produced AA0462; `Evaluate(Interval, '1W')` followed by typed `CalcDate` did not.
+
+[BaseApp retention scheduling](https://github.com/microsoft/BCApps/blob/8f7a04cb0db8aa96cb97e055c45c61aead49e280/src/Layers/W1/BaseApp/System/RetentionPolicy/RetentionPolicyScheduler.Codeunit.al#L73-L97) initializes a typed formula with an invariant literal.
+
+## Examples
+
+- [Good: dateformula-evaluate-needs-language-independent-literals.good.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.good.al)
+- [Bad: dateformula-evaluate-needs-language-independent-literals.bad.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.bad.al)
+
+## Names
+
+- [File.Write(DateFormula) Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/file/file-write-dateformula-method) (names DateFormula)
+
+## Changed by
+
+- [#193 Clarify locale-safe DateFormula Evaluate inputs](../../../../changes/bcquality/193.md), 2026-09-21
+- [#57 Add source-verified Finance knowledge and review domain](../../../../changes/bcquality/57.md), 2026-09-21
+
+---
+
+From microsoft/BCQuality at a4593a1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

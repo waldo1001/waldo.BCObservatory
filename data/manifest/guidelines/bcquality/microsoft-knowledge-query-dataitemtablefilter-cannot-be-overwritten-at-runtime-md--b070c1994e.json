@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/query/dataitemtablefilter-cannot-be-overwritten-at-runtime.md",
   "published_at": "2026-09-15T10:51:15.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:32:55.377Z",
+      "at": "2026-10-29T21:28:08.266Z",
       "blob": "6a96db1c7c5020f36f2f189400343067d7147ecb",
       "words": 149,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:08.401Z",
+      "path": "content/guidelines/microsoft/knowledge/query/dataitemtablefilter-cannot-be-overwritten-at-runtime.md"
     }
   },
   "input_hash": "6a96db1c7c5020f36f2f189400343067d7147ecb",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/query/dataitemtablefilter-cannot-be-overwritten-at-runtime.md",
-    "description": null,
+    "description": "DataItemTableFilter defines a static filter on a Query dataitem. A runtime SetFilter or SetRange on the same source field does not replace that filter.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "query",
+      "dataitemtablefilter",
+      "setfilter",
+      "setrange",
+      "static-filter",
+      "filter-precedence"
+    ],
     "ai_usage": null,
-    "words": 149
+    "words": 149,
+    "identifiers": [
+      "DataItemTableFilter",
+      "SetFilter",
+      "SetRange"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "query",
+      "keywords": [
+        "query",
+        "dataitemtablefilter",
+        "setfilter",
+        "setrange",
+        "static-filter",
+        "filter-precedence"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "DataItemTableFilter defines a static filter on a Query dataitem. A runtime SetFilter or SetRange on the same source field does not replace that filter."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

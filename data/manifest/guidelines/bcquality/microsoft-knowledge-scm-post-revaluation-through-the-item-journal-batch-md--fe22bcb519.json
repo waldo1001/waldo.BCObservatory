@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/scm/post-revaluation-through-the-item-journal-batch.md",
   "published_at": "2026-09-21T08:16:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:31:56.746Z",
+      "at": "2026-10-29T21:28:02.180Z",
       "blob": "9730c2dc79e929fc51da607a3e13c3bbae8d59dd",
       "words": 286,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:02.230Z",
+      "path": "content/guidelines/microsoft/knowledge/scm/post-revaluation-through-the-item-journal-batch.md"
     }
   },
   "input_hash": "9730c2dc79e929fc51da607a3e13c3bbae8d59dd",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/scm/post-revaluation-through-the-item-journal-batch.md",
-    "description": null,
+    "description": "A calculated revaluation line with nonblank \"Inventory Value Per\" represents an aggregate, not a finalized posting against one item ledger entry. Codeunit \"Item Jnl.-Post Batch\" distributes that value over eligible entries, handles rounding, and coordinates Item/SKU standard-cost updates.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "revaluation",
+      "inventory-value-per",
+      "partial-revaluation",
+      "item-jnl-post-batch",
+      "item-journal-line",
+      "runwithcheck",
+      "standard-cost"
+    ],
     "ai_usage": null,
-    "words": 286
+    "words": 286,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "scm",
+      "keywords": [
+        "revaluation",
+        "inventory-value-per",
+        "partial-revaluation",
+        "item-jnl-post-batch",
+        "item-journal-line",
+        "runwithcheck",
+        "standard-cost"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A calculated revaluation line with nonblank \"Inventory Value Per\" represents an aggregate, not a finalized posting against one item ledger entry. Codeunit \"Item Jnl.-Post Batch\" distributes that value over eligible entries, handles rounding, and coordinates Item/SKU standard-cost updates."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

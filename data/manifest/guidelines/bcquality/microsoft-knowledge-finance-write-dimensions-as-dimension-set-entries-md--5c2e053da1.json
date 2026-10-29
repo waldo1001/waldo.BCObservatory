@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/finance/write-dimensions-as-dimension-set-entries.md",
   "published_at": "2026-09-21T08:20:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:31:56.701Z",
+      "at": "2026-10-29T21:28:01.407Z",
       "blob": "0764f20103d6c354bee47de880ee9cd76886173a",
       "words": 264,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:01.548Z",
+      "path": "content/guidelines/microsoft/knowledge/finance/write-dimensions-as-dimension-set-entries.md"
     }
   },
   "input_hash": "0764f20103d6c354bee47de880ee9cd76886173a",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/finance/write-dimensions-as-dimension-set-entries.md",
-    "description": null,
+    "description": "When a journal line or posting document inherits dimensions, its Dimension Set ID identifies the complete combination of Dimension Set Entry rows. Global and shortcut dimensions expose selected dimensions, not the complete set; the eight shortcut dimensions are not a limit on set membership.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "dimension-set-id",
+      "shortcut-dimension",
+      "global-dimension",
+      "journal-line",
+      "posting",
+      "copy-dimensions"
+    ],
     "ai_usage": null,
-    "words": 264
+    "words": 264,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "finance",
+      "keywords": [
+        "dimension-set-id",
+        "shortcut-dimension",
+        "global-dimension",
+        "journal-line",
+        "posting",
+        "copy-dimensions"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "When a journal line or posting document inherits dimensions, its Dimension Set ID identifies the complete combination of Dimension Set Entry rows. Global and shortcut dimensions expose selected dimensions, not the complete set; the eight shortcut dimensions are not a limit on set membership."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

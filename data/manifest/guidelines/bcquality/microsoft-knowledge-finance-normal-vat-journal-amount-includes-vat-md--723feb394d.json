@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/finance/normal-vat-journal-amount-includes-vat.md",
   "published_at": "2026-09-21T08:20:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:31:27.883Z",
+      "at": "2026-10-29T21:28:00.799Z",
       "blob": "6dda9efcf69ee07e905a1790c522a36085ab300f",
       "words": 325,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:00.894Z",
+      "path": "content/guidelines/microsoft/knowledge/finance/normal-vat-journal-amount-includes-vat.md"
     }
   },
   "input_hash": "6dda9efcf69ee07e905a1790c522a36085ab300f",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/finance/normal-vat-journal-amount-includes-vat.md",
-    "description": null,
+    "description": "For a general-journal line using Automatic VAT Entry and Normal VAT, Amount includes VAT. The posting engine extracts tax from that total; it does not add tax to a VAT-exclusive expense imported into Amount. An LCY invoice with net 100 and VAT 25 therefore needs a journal total of 125, not 100.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "normal-vat",
+      "automatic-vat-entry",
+      "gross-amount",
+      "net-amount",
+      "vat-posting-setup",
+      "gen-journal-line",
+      "purchase"
+    ],
     "ai_usage": null,
-    "words": 325
+    "words": 325,
+    "identifiers": [
+      "NetAmount"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "finance",
+      "keywords": [
+        "normal-vat",
+        "automatic-vat-entry",
+        "gross-amount",
+        "net-amount",
+        "vat-posting-setup",
+        "gen-journal-line",
+        "purchase"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "For a general-journal line using Automatic VAT Entry and Normal VAT, Amount includes VAT. The posting engine extracts tax from that total; it does not add tax to a VAT-exclusive expense imported into Amount. An LCY invoice with net 100 and VAT 25 therefore needs a journal total of 125, not 100."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-finance-review.md",
   "published_at": "2026-09-21T08:20:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:31:56.709Z",
+      "at": "2026-10-29T21:28:01.437Z",
       "blob": "06090b126004c5e976c76a800b6ae8acec0119a3",
       "words": 928,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:01.539Z",
+      "path": "content/guidelines/microsoft/skills/review/al-finance-review.md"
     }
   },
   "input_hash": "06090b126004c5e976c76a800b6ae8acec0119a3",
@@ -31,7 +35,32 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 928
+    "words": 928,
+    "identifiers": [
+      "ApplicationArea",
+      "DimensionManagement",
+      "ReverseRegister"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": null,
+      "keywords": [],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "skill",
+      "summary": "Reviews financial journal posting, ledger corrections, applications, VAT handling, and posting-linked dimensions against BCQuality Finance guidance."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

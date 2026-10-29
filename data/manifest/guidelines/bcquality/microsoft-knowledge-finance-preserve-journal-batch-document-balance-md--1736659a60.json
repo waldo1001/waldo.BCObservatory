@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/finance/preserve-journal-batch-document-balance.md",
   "published_at": "2026-09-21T08:20:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:31:27.897Z",
+      "at": "2026-10-29T21:28:01.294Z",
       "blob": "b3079ac22c7bc149de84c61005d417b0734e4cdf",
       "words": 253,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:01.354Z",
+      "path": "content/guidelines/microsoft/knowledge/finance/preserve-journal-batch-document-balance.md"
     }
   },
   "input_hash": "b3079ac22c7bc149de84c61005d417b0734e4cdf",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/finance/preserve-journal-batch-document-balance.md",
-    "description": null,
+    "description": "A balanced G/L total does not prove that a general-journal batch satisfies its template's document-balancing policy. \"Gen. Jnl.-Post Batch\" checks balances at posting-date boundaries and, when the journal template's Force Doc. Balance is enabled, document-type/document-number boundaries.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "force-doc-balance",
+      "gen-journal-template",
+      "gen-jnl-post-batch",
+      "runwithcheck",
+      "document-no",
+      "posting-date",
+      "balancing"
+    ],
     "ai_usage": null,
-    "words": 253
+    "words": 253,
+    "identifiers": [
+      "RunWithCheck"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "finance",
+      "keywords": [
+        "force-doc-balance",
+        "gen-journal-template",
+        "gen-jnl-post-batch",
+        "runwithcheck",
+        "document-no",
+        "posting-date",
+        "balancing"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A balanced G/L total does not prove that a general-journal batch satisfies its template's document-balancing policy. \"Gen. Jnl.-Post Batch\" checks balances at posting-date boundaries and, when the journal template's Force Doc. Balance is enabled, document-type/document-number boundaries."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.md",
   "published_at": "2026-09-21T08:16:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:32:30.833Z",
+      "at": "2026-10-29T21:28:02.863Z",
       "blob": "91fcfe51e74b83322ee9eefe7597ff9634863af6",
       "words": 348,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:02.937Z",
+      "path": "content/guidelines/microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.md"
     }
   },
   "input_hash": "91fcfe51e74b83322ee9eefe7597ff9634863af6",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.md",
-    "description": null,
+    "description": "A DateFormula stores a formula in a language-independent representation, but Evaluate must first interpret its text input. Declaring the destination as DateFormula does not make an English literal such as 1W independent of the session language: French uses S for weeks.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "dateformula",
+      "evaluate",
+      "calcdate",
+      "date-expression",
+      "language-independent",
+      "multilanguage",
+      "global-language"
+    ],
     "ai_usage": null,
-    "words": 348
+    "words": 348,
+    "identifiers": [
+      "DateFormula",
+      "CalcDate"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "dateformula",
+        "evaluate",
+        "calcdate",
+        "date-expression",
+        "language-independent",
+        "multilanguage",
+        "global-language"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A DateFormula stores a formula in a language-independent representation, but Evaluate must first interpret its text input. Declaring the destination as DateFormula does not make an English literal such as 1W independent of the session language: French uses S for weeks."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
