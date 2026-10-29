@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/copilot/save-promptdialog-proposals-only-when-the-user-keeps-them.md",
   "published_at": "2026-10-20T08:48:36.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-21T00:19:55.996Z"
     },
     "fetched": {
-      "at": "2026-10-21T00:20:34.699Z",
+      "at": "2026-10-29T21:27:18.897Z",
       "blob": "46e93a1007dfea2ed35ab702c5cdb3d97fedbc69",
       "words": 229,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:19.046Z",
+      "path": "content/guidelines/community/knowledge/copilot/save-promptdialog-proposals-only-when-the-user-keeps-them.md"
     }
   },
   "input_hash": "46e93a1007dfea2ed35ab702c5cdb3d97fedbc69",
@@ -25,11 +29,21 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/copilot/save-promptdialog-proposals-only-when-the-user-keeps-them.md",
-    "description": null,
+    "description": "A PromptDialog page shows AI-generated content as a proposal. The user reviews it and then chooses Keep it (systemaction(OK)) or Discard (systemaction(Cancel)), and may regenerate it several times before deciding.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "promptdialog",
+      "prompt-dialog",
+      "generate",
+      "keep-it",
+      "discard",
+      "onqueryclosepage",
+      "closeaction",
+      "temporary-proposal",
+      "responsible-ai"
+    ],
     "ai_usage": null,
     "words": 229,
     "identifiers": [
@@ -39,7 +53,36 @@
       "RunModal",
       "CloseAction"
     ],
-    "identifiers_rule": 2
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "copilot",
+      "keywords": [
+        "promptdialog",
+        "prompt-dialog",
+        "generate",
+        "keep-it",
+        "discard",
+        "onqueryclosepage",
+        "closeaction",
+        "temporary-proposal",
+        "responsible-ai"
+      ],
+      "bc_version": [
+        "23.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A PromptDialog page shows AI-generated content as a proposal. The user reviews it and then chooses Keep it (systemaction(OK)) or Discard (systemaction(Cancel)), and may regenerate it several times before deciding."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

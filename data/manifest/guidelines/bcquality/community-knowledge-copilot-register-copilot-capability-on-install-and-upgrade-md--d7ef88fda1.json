@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/copilot/register-copilot-capability-on-install-and-upgrade.md",
   "published_at": "2026-10-20T08:48:36.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-21T00:19:55.996Z"
     },
     "fetched": {
-      "at": "2026-10-21T00:20:34.665Z",
+      "at": "2026-10-29T21:27:18.410Z",
       "blob": "20e28cc296081fe9f6c52d60a59650865e3fa3f6",
       "words": 317,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:18.854Z",
+      "path": "content/guidelines/community/knowledge/copilot/register-copilot-capability-on-install-and-upgrade.md"
     }
   },
   "input_hash": "20e28cc296081fe9f6c52d60a59650865e3fa3f6",
@@ -25,11 +29,19 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/copilot/register-copilot-capability-on-install-and-upgrade.md",
-    "description": null,
+    "description": "Every extension that calls the AI module must register its Copilot Capability enum value with codeunit Copilot Capability; using a capability that the calling extension has not registered raises an error.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "copilot-capability",
+      "registercapability",
+      "iscapabilityregistered",
+      "install-codeunit",
+      "upgrade-codeunit",
+      "onupgradeperdatabase",
+      "enumextension"
+    ],
     "ai_usage": null,
     "words": 317,
     "identifiers": [
@@ -39,7 +51,34 @@
       "SetCopilotCapability",
       "RegisterCapability"
     ],
-    "identifiers_rule": 2
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "copilot",
+      "keywords": [
+        "copilot-capability",
+        "registercapability",
+        "iscapabilityregistered",
+        "install-codeunit",
+        "upgrade-codeunit",
+        "onupgradeperdatabase",
+        "enumextension"
+      ],
+      "bc_version": [
+        "23.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Every extension that calls the AI module must register its Copilot Capability enum value with codeunit Copilot Capability; using a capability that the calling extension has not registered raises an error."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

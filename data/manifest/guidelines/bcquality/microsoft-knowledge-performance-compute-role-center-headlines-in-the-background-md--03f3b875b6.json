@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/compute-role-center-headlines-in-the-background.md",
   "published_at": "2026-10-19T10:48:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-20T00:20:54.594Z"
     },
     "fetched": {
-      "at": "2026-10-20T00:21:34.723Z",
+      "at": "2026-10-29T21:27:25.601Z",
       "blob": "5cd94d3664252f1061390e4044592b12f83b3a24",
       "words": 671,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:25.901Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/compute-role-center-headlines-in-the-background.md"
     }
   },
   "input_hash": "5cd94d3664252f1061390e4044592b12f83b3a24",
@@ -25,11 +29,20 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/compute-role-center-headlines-in-the-background.md",
-    "description": null,
+    "description": "Code in a headline part's OnOpenPage, or in a subscriber to an event raised from it, runs every time the Role Center opens. When that code loops over documents or ledger entries, every Role Center open pays for work that grows with transaction volume.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "headline",
+      "headline-rc",
+      "headlinepart",
+      "oncomputeheadlines",
+      "onisanyextensionheadlinevisible",
+      "onsetvisibility",
+      "rc-headlines-executor",
+      "page-background-task"
+    ],
     "ai_usage": null,
     "words": 671,
     "identifiers": [
@@ -49,7 +62,35 @@
       "OnSetVisibility",
       "FindVendorLedgerEntryWithMaxAmountInLastQuater"
     ],
-    "identifiers_rule": 2
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "headline",
+        "headline-rc",
+        "headlinepart",
+        "oncomputeheadlines",
+        "onisanyextensionheadlinevisible",
+        "onsetvisibility",
+        "rc-headlines-executor",
+        "page-background-task"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Code in a headline part's OnOpenPage, or in a subscriber to an event raised from it, runs every time the Role Center opens. When that code loops over documents or ledger entries, every Role Center open pays for work that grows with transaction volume."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

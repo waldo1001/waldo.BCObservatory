@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-events-review.md",
   "published_at": "2026-10-20T09:41:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-21T00:20:34.289Z",
+      "at": "2026-10-29T21:27:16.631Z",
       "blob": "972e322f15680ba686fcf0175066c2e6a26544b3",
       "words": 1874,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:18.398Z",
+      "path": "content/guidelines/microsoft/skills/review/al-events-review.md"
     }
   },
   "input_hash": "972e322f15680ba686fcf0175066c2e6a26544b3",
@@ -60,7 +64,26 @@
       "SalesHdr",
       "DocNo"
     ],
-    "identifiers_rule": 2
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": null,
+      "keywords": [],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "skill",
+      "summary": "Reviews AL source changes against events-and-subscribers guidance from BCQuality."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

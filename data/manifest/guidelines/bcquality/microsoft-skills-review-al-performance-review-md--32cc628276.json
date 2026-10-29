@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-performance-review.md",
   "published_at": "2026-10-20T15:59:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-21T00:20:33.955Z",
+      "at": "2026-10-29T21:27:06.773Z",
       "blob": "d360a7f5e3ad082af82df6112c6bd7dffce9b896",
       "words": 2587,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:15.935Z",
+      "path": "content/guidelines/microsoft/skills/review/al-performance-review.md"
     }
   },
   "input_hash": "d360a7f5e3ad082af82df6112c6bd7dffce9b896",
@@ -72,7 +76,26 @@
       "OptionCaption",
       "DataClassification"
     ],
-    "identifiers_rule": 2
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": null,
+      "keywords": [],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "skill",
+      "summary": "Reviews AL source changes against performance guidance from BCQuality."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

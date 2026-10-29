@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/query/query-dataitems-default-to-left-outer-join.md",
   "published_at": "2026-10-20T08:08:06.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-20T08:10:49.229Z"
     },
     "fetched": {
-      "at": "2026-10-20T08:11:25.793Z",
+      "at": "2026-10-29T21:27:19.388Z",
       "blob": "a0d1a5da1c01f9aedc58d1f6f8f365717c5edf35",
       "words": 368,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:19.496Z",
+      "path": "content/guidelines/microsoft/knowledge/query/query-dataitems-default-to-left-outer-join.md"
     }
   },
   "input_hash": "a0d1a5da1c01f9aedc58d1f6f8f365717c5edf35",
@@ -25,11 +29,19 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/query/query-dataitems-default-to-left-outer-join.md",
-    "description": null,
+    "description": "When a lower dataitem in a query sets DataItemLink but omits SqlJoinType, the join is LeftOuterJoin.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "sqljointype",
+      "left-outer-join",
+      "inner-join",
+      "dataitemlink",
+      "query-dataitem",
+      "null-columns",
+      "join"
+    ],
     "ai_usage": null,
     "words": 368,
     "identifiers": [
@@ -38,7 +50,34 @@
       "LeftOuterJoin",
       "InnerJoin"
     ],
-    "identifiers_rule": 2
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "query",
+      "keywords": [
+        "sqljointype",
+        "left-outer-join",
+        "inner-join",
+        "dataitemlink",
+        "query-dataitem",
+        "null-columns",
+        "join"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "When a lower dataitem in a query sets DataItemLink but omits SqlJoinType, the join is LeftOuterJoin."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

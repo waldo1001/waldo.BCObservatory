@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/justify-low-selectivity-fields-in-key-columns.md",
   "published_at": "2026-10-20T08:53:24.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-21T00:19:55.996Z"
     },
     "fetched": {
-      "at": "2026-10-21T00:20:34.439Z",
+      "at": "2026-10-29T21:27:18.047Z",
       "blob": "6e2f3387fcc52dfe09f81ce99fad5072635e7778",
       "words": 444,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:18.658Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/justify-low-selectivity-fields-in-key-columns.md"
     }
   },
   "input_hash": "6e2f3387fcc52dfe09f81ce99fad5072635e7778",
@@ -25,11 +29,21 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/justify-low-selectivity-fields-in-key-columns.md",
-    "description": null,
+    "description": "A Boolean, small Option/Enum, or status field (Processed, Blocked, Status) in a key is a cost that needs a reason. It widens every index row, and every write that changes the field also maintains the index.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "boolean",
+      "key",
+      "modifyall",
+      "selectivity",
+      "low-cardinality",
+      "leading-column",
+      "status-field",
+      "write-amplification",
+      "includedfields"
+    ],
     "ai_usage": null,
     "words": 444,
     "identifiers": [
@@ -38,7 +52,36 @@
       "CalcSums",
       "ModifyAll"
     ],
-    "identifiers_rule": 2
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "boolean",
+        "key",
+        "modifyall",
+        "selectivity",
+        "low-cardinality",
+        "leading-column",
+        "status-field",
+        "write-amplification",
+        "includedfields"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A Boolean, small Option/Enum, or status field (Processed, Blocked, Status) in a key is a cost that needs a reason. It widens every index row, and every write that changes the field also maintains the index."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

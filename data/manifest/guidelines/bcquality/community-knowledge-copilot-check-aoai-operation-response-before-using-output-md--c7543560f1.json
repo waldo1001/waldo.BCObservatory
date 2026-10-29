@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/copilot/check-aoai-operation-response-before-using-output.md",
   "published_at": "2026-10-20T08:48:36.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-21T00:19:55.996Z"
     },
     "fetched": {
-      "at": "2026-10-21T00:20:34.578Z",
+      "at": "2026-10-29T21:27:18.056Z",
       "blob": "c092333831e832c9e84ab4bccf85e1d3960cbb22",
       "words": 386,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:18.520Z",
+      "path": "content/guidelines/community/knowledge/copilot/check-aoai-operation-response-before-using-output.md"
     }
   },
   "input_hash": "c092333831e832c9e84ab4bccf85e1d3960cbb22",
@@ -25,11 +29,20 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/copilot/check-aoai-operation-response-before-using-output.md",
-    "description": null,
+    "description": "GenerateChatCompletion, GenerateTextCompletion, and GenerateEmbeddings in codeunit Azure OpenAI report the outcome of the service call in the AOAI Operation Response passed by var; a failed completion does not stop the AL code.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "aoai-operation-response",
+      "issuccess",
+      "generatechatcompletion",
+      "getlastmessage",
+      "geterror",
+      "getstatuscode",
+      "azure-openai",
+      "ai-error-handling"
+    ],
     "ai_usage": null,
     "words": 386,
     "identifiers": [
@@ -41,7 +54,35 @@
       "IsSuccess",
       "GetLastMessage"
     ],
-    "identifiers_rule": 2
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "copilot",
+      "keywords": [
+        "aoai-operation-response",
+        "issuccess",
+        "generatechatcompletion",
+        "getlastmessage",
+        "geterror",
+        "getstatuscode",
+        "azure-openai",
+        "ai-error-handling"
+      ],
+      "bc_version": [
+        "23.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "GenerateChatCompletion, GenerateTextCompletion, and GenerateEmbeddings in codeunit Azure OpenAI report the outcome of the service call in the AOAI Operation Response passed by var; a failed completion does not stop the AL code."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

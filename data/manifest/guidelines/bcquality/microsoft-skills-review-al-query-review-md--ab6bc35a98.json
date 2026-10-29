@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-query-review.md",
   "published_at": "2026-10-20T08:08:06.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-20T08:12:37.361Z",
+      "at": "2026-10-29T21:27:19.573Z",
       "blob": "018cadc3f3e1176b74391da2a1632fb31a3f2859",
       "words": 653,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:26.086Z",
+      "path": "content/guidelines/microsoft/skills/review/al-query-review.md"
     }
   },
   "input_hash": "018cadc3f3e1176b74391da2a1632fb31a3f2859",
@@ -43,7 +47,26 @@
       "DataItemTableFilter",
       "ColumnFilter"
     ],
-    "identifiers_rule": 2
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": null,
+      "keywords": [],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "skill",
+      "summary": "Reviews AL Query objects and Query instance usage against BCQuality guidance."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

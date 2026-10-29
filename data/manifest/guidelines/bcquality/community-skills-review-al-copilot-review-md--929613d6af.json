@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/skills/review/al-copilot-review.md",
   "published_at": "2026-10-20T08:48:36.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-21T00:19:55.996Z"
     },
     "fetched": {
-      "at": "2026-10-21T00:20:34.763Z",
+      "at": "2026-10-29T21:27:18.693Z",
       "blob": "d527b05f30156b8e3e138e82fbd66759a3197714",
       "words": 704,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:19.260Z",
+      "path": "content/guidelines/community/skills/review/al-copilot-review.md"
     }
   },
   "input_hash": "d527b05f30156b8e3e138e82fbd66759a3197714",
@@ -54,7 +58,26 @@
       "OnUpgradePerDatabase",
       "HttpClient"
     ],
-    "identifiers_rule": 2
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": null,
+      "keywords": [],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "skill",
+      "summary": "Reviews AL source changes that build Copilot features on the System.AI module against Copilot guidance from BCQuality."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

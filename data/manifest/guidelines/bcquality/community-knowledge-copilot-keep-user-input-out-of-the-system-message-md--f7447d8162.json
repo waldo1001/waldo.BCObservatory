@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/copilot/keep-user-input-out-of-the-system-message.md",
   "published_at": "2026-10-20T08:48:36.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-21T00:19:55.996Z"
     },
     "fetched": {
-      "at": "2026-10-21T00:20:34.642Z",
+      "at": "2026-10-29T21:27:18.670Z",
       "blob": "db357090dd47ca22ff23a74b22dd78281d60afe3",
       "words": 304,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:19.322Z",
+      "path": "content/guidelines/community/knowledge/copilot/keep-user-input-out-of-the-system-message.md"
     }
   },
   "input_hash": "db357090dd47ca22ff23a74b22dd78281d60afe3",
@@ -25,11 +29,20 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/copilot/keep-user-input-out-of-the-system-message.md",
-    "description": null,
+    "description": "AOAI Chat Messages separates roles: the system message (SetPrimarySystemMessage, AddSystemMessage) holds the metaprompt that defines the model's task, output format, and guard rails; user messages (AddUserMessage) carry what the user typed and the business data to work on.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "prompt-injection",
+      "metaprompt",
+      "system-message",
+      "setprimarysystemmessage",
+      "addsystemmessage",
+      "addusermessage",
+      "aoai-chat-messages",
+      "user-input"
+    ],
     "ai_usage": null,
     "words": 304,
     "identifiers": [
@@ -39,7 +52,35 @@
       "StrSubstNo",
       "TextBuilder"
     ],
-    "identifiers_rule": 2
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "copilot",
+      "keywords": [
+        "prompt-injection",
+        "metaprompt",
+        "system-message",
+        "setprimarysystemmessage",
+        "addsystemmessage",
+        "addusermessage",
+        "aoai-chat-messages",
+        "user-input"
+      ],
+      "bc_version": [
+        "23.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "AOAI Chat Messages separates roles: the system message (SetPrimarySystemMessage, AddSystemMessage) holds the metaprompt that defines the model's task, output format, and guard rails; user messages (AddUserMessage) carry what the user typed and the business data to work on."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

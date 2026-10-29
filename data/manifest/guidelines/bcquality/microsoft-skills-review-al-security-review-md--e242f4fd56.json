@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-security-review.md",
   "published_at": "2026-10-20T09:41:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-21T00:20:34.341Z",
+      "at": "2026-10-29T21:27:16.076Z",
       "blob": "98d8bee922c5dd76839dbeb75cafa731a6461854",
       "words": 1516,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:17.569Z",
+      "path": "content/guidelines/microsoft/skills/review/al-security-review.md"
     }
   },
   "input_hash": "98d8bee922c5dd76839dbeb75cafa731a6461854",
@@ -59,7 +63,26 @@
       "OptionCaption",
       "DataClassification"
     ],
-    "identifiers_rule": 2
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": null,
+      "keywords": [],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "skill",
+      "summary": "Reviews AL source changes against security guidance from BCQuality."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

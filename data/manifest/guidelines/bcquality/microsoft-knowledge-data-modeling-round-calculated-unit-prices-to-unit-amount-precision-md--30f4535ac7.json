@@ -13,7 +13,7 @@
       "at": "2026-10-20T00:20:54.594Z"
     },
     "fetched": {
-      "at": "2026-10-20T00:21:18.400Z",
+      "at": "2026-10-29T21:27:25.631Z",
       "blob": "ca52f518d7f9b9922486ef85f408a457e5843ac2",
       "words": 791,
       "forms": 0
@@ -25,11 +25,22 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/round-calculated-unit-prices-to-unit-amount-precision.md",
-    "description": null,
+    "description": "Business Central rounds a unit price only where its own code computes one, above all in the standard price calculation. Price Calculation Buffer Mgt.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "unit-price",
+      "direct-unit-cost",
+      "rounding",
+      "unit-amount-rounding-precision",
+      "currency",
+      "price-calculation",
+      "ishandled",
+      "onupdateunitpriceonbeforefindprice",
+      "line-amount",
+      "e-invoicing"
+    ],
     "ai_usage": null,
     "words": 791,
     "identifiers": [
@@ -50,7 +61,37 @@
       "UpdateDirectUnitCostByField",
       "InitRoundingPrecision"
     ],
-    "identifiers_rule": 2
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "unit-price",
+        "direct-unit-cost",
+        "rounding",
+        "unit-amount-rounding-precision",
+        "currency",
+        "price-calculation",
+        "ishandled",
+        "onupdateunitpriceonbeforefindprice",
+        "line-amount",
+        "e-invoicing"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Business Central rounds a unit price only where its own code computes one, above all in the standard price calculation. Price Calculation Buffer Mgt."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

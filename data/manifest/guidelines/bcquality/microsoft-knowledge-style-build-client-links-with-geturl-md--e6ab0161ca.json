@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/build-client-links-with-geturl.md",
   "published_at": "2026-10-19T10:48:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-20T00:20:54.594Z"
     },
     "fetched": {
-      "at": "2026-10-20T00:21:38.790Z",
+      "at": "2026-10-29T21:27:25.591Z",
       "blob": "ce20a3d553b5cecac8d5a6aa4ca87b5836e7883a",
       "words": 577,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:25.984Z",
+      "path": "content/guidelines/microsoft/knowledge/style/build-client-links-with-geturl.md"
     }
   },
   "input_hash": "ce20a3d553b5cecac8d5a6aa4ca87b5836e7883a",
@@ -25,11 +29,20 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/build-client-links-with-geturl.md",
-    "description": null,
+    "description": "This applies only to links that open a page, report, or record in the environment the code runs in. It does not apply to:",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "geturl",
+      "deep-link",
+      "client-url",
+      "web-client-url",
+      "businesscentral-dynamics-com",
+      "company-parameter",
+      "clienttype-web",
+      "multitenant-url"
+    ],
     "ai_usage": null,
     "words": 577,
     "identifiers": [
@@ -41,7 +54,35 @@
       "CreateSettingsLink",
       "SetURL"
     ],
-    "identifiers_rule": 2
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "geturl",
+        "deep-link",
+        "client-url",
+        "web-client-url",
+        "businesscentral-dynamics-com",
+        "company-parameter",
+        "clienttype-web",
+        "multitenant-url"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "This applies only to links that open a page, report, or record in the environment the code runs in. It does not apply to:"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
