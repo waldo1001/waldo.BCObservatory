@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/codeunit-run-requires-prior-commit-inside-transaction.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.380Z",
+      "at": "2026-10-29T21:28:36.425Z",
       "blob": "936ae5b0baaeced7404f4b4757f81b6698035b34",
       "words": 340,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:41.342Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/codeunit-run-requires-prior-commit-inside-transaction.md"
     }
   },
   "input_hash": "936ae5b0baaeced7404f4b4757f81b6698035b34",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/codeunit-run-requires-prior-commit-inside-transaction.md",
-    "description": null,
+    "description": "Codeunit.Run cannot nest inside an open write transaction. Per the platform reference, \"If you're already in a transaction you must commit first before calling Codeunit.Run.\" The platform enforces this at runtime: the first call dies with an error, not at compile time.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "codeunit-run",
+      "commit",
+      "write-transaction",
+      "nesting",
+      "loop",
+      "runtime-error"
+    ],
     "ai_usage": null,
-    "words": 340
+    "words": 340,
+    "identifiers": [
+      "CommitBehavior"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "codeunit-run",
+        "commit",
+        "write-transaction",
+        "nesting",
+        "loop",
+        "runtime-error"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Codeunit.Run cannot nest inside an open write transaction. Per the platform reference, \"If you're already in a transaction you must commit first before calling Codeunit.Run.\" The platform enforces this at runtime: the first call dies with an error, not at compile time."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

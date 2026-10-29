@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/interfaces/prefer-interface-over-case-branching.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.292Z",
+      "at": "2026-10-29T21:28:34.244Z",
       "blob": "b96b5e8966e7d239c613bd84bd0f4cf23f402307",
       "words": 339,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:34.293Z",
+      "path": "content/guidelines/microsoft/knowledge/interfaces/prefer-interface-over-case-branching.md"
     }
   },
   "input_hash": "b96b5e8966e7d239c613bd84bd0f4cf23f402307",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/interfaces/prefer-interface-over-case-branching.md",
-    "description": null,
+    "description": "When behaviour varies by a discrete \"type\" — a shipping method, a posting strategy, a payment provider — the obvious first draft is a case over an enum with one branch per variant. That branch logic gets copied to every call site, and every new variant means editing all of them.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "interface",
+      "enum-implements-interface",
+      "polymorphism",
+      "implementation-property",
+      "case-statement",
+      "variant-behavior",
+      "dispatch"
+    ],
     "ai_usage": null,
-    "words": 339
+    "words": 339,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "interfaces",
+      "keywords": [
+        "interface",
+        "enum-implements-interface",
+        "polymorphism",
+        "implementation-property",
+        "case-statement",
+        "variant-behavior",
+        "dispatch"
+      ],
+      "bc_version": [
+        "16.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "When behaviour varies by a discrete \"type\" — a shipping method, a posting strategy, a payment provider — the obvious first draft is a case over an enum with one branch per variant. That branch logic gets copied to every call site, and every new variant means editing all of them."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

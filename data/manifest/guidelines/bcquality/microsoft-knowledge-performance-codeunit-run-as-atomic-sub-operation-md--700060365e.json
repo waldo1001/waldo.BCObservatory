@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/codeunit-run-as-atomic-sub-operation.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.375Z",
+      "at": "2026-10-29T21:28:35.970Z",
       "blob": "8abdd20166696fefef954bdd7c9d9ff67dce709a",
       "words": 283,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:36.036Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/codeunit-run-as-atomic-sub-operation.md"
     }
   },
   "input_hash": "8abdd20166696fefef954bdd7c9d9ff67dce709a",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/codeunit-run-as-atomic-sub-operation.md",
-    "description": null,
+    "description": "Codeunit.Run(ID) is the AL-idiomatic way to run a unit of work as an atomic sub-operation with its own transactional boundary. When the return value is captured — if Codeunit.Run(MyCodeunit) then ...",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "codeunit-run",
+      "atomic",
+      "rollback",
+      "transaction",
+      "sub-transaction",
+      "try-pattern",
+      "implicit-commit"
+    ],
     "ai_usage": null,
-    "words": 283
+    "words": 283,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "codeunit-run",
+        "atomic",
+        "rollback",
+        "transaction",
+        "sub-transaction",
+        "try-pattern",
+        "implicit-commit"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Codeunit.Run(ID) is the AL-idiomatic way to run a unit of work as an atomic sub-operation with its own transactional boundary. When the return value is captured — if Codeunit.Run(MyCodeunit) then ..."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

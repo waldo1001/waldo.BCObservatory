@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/interfaces/handle-unknown-enum-ordinals-with-unknownvalueimplementation.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.286Z",
+      "at": "2026-10-29T21:28:34.249Z",
       "blob": "de508109bbea17f4ab6a82e9a2b5727b968e73a7",
       "words": 168,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:34.327Z",
+      "path": "content/guidelines/microsoft/knowledge/interfaces/handle-unknown-enum-ordinals-with-unknownvalueimplementation.md"
     }
   },
   "input_hash": "de508109bbea17f4ab6a82e9a2b5727b968e73a7",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/interfaces/handle-unknown-enum-ordinals-with-unknownvalueimplementation.md",
-    "description": null,
+    "description": "An enum ordinal can remain in persisted data after the enum extension that declared it is uninstalled. The ordinal is then unknown: it matches no currently declared enum value. DefaultImplementation does not cover this case; it covers declared values that have no explicit interface implementation.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "unknownvalueimplementation",
+      "unknown-enum-value",
+      "persisted-ordinal",
+      "enum-extension",
+      "extension-uninstall",
+      "interface-fallback"
+    ],
     "ai_usage": null,
-    "words": 168
+    "words": 168,
+    "identifiers": [
+      "DefaultImplementation",
+      "UnknownValueImplementation"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "interfaces",
+      "keywords": [
+        "unknownvalueimplementation",
+        "unknown-enum-value",
+        "persisted-ordinal",
+        "enum-extension",
+        "extension-uninstall",
+        "interface-fallback"
+      ],
+      "bc_version": [
+        "18.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An enum ordinal can remain in persisted data after the enum extension that declared it is uninstalled. The ordinal is then unknown: it matches no currently declared enum value. DefaultImplementation does not cover this case; it covers declared values that have no explicit interface implementation."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/do-not-remove-sourcetabletemporary-from-api-page.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.401Z",
+      "at": "2026-10-29T21:28:41.080Z",
       "blob": "ef4b137ae826f8e4f1b6d3b98b8bc217d5c5f943",
       "words": 243,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:41.227Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/do-not-remove-sourcetabletemporary-from-api-page.md"
     }
   },
   "input_hash": "ef4b137ae826f8e4f1b6d3b98b8bc217d5c5f943",
@@ -25,13 +29,46 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/do-not-remove-sourcetabletemporary-from-api-page.md",
-    "description": null,
+    "description": "SourceTableTemporary = true on a page makes the page's record buffer in-memory only — reads and writes do not touch SQL. The same applies to TableType = Temporary on a record. Removing either turns operations that were memory accesses into database round-trips.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "sourcetabletemporary",
+      "api-page",
+      "temporary",
+      "persistent",
+      "in-memory"
+    ],
     "ai_usage": null,
-    "words": 243
+    "words": 243,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "sourcetabletemporary",
+        "api-page",
+        "temporary",
+        "persistent",
+        "in-memory"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "SourceTableTemporary = true on a page makes the page's record buffer in-memory only — reads and writes do not touch SQL. The same applies to TableType = Temporary on a record. Removing either turns operations that were memory accesses into database round-trips."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

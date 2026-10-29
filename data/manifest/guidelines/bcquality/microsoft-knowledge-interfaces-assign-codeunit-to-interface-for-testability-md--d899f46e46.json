@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/interfaces/assign-codeunit-to-interface-for-testability.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.277Z",
+      "at": "2026-10-29T21:28:33.616Z",
       "blob": "8d3e7cea61d21d73d08a9fe6893abe7b75b7b843",
       "words": 281,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:33.766Z",
+      "path": "content/guidelines/microsoft/knowledge/interfaces/assign-codeunit-to-interface-for-testability.md"
     }
   },
   "input_hash": "8d3e7cea61d21d73d08a9fe6893abe7b75b7b843",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/interfaces/assign-codeunit-to-interface-for-testability.md",
-    "description": null,
+    "description": "An interface variable can hold any codeunit that implements the interface, assigned directly — no enum is required.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "interface",
+      "dependency-injection",
+      "testability",
+      "test-double",
+      "codeunit",
+      "polymorphism",
+      "mocking"
+    ],
     "ai_usage": null,
-    "words": 281
+    "words": 281,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "interfaces",
+      "keywords": [
+        "interface",
+        "dependency-injection",
+        "testability",
+        "test-double",
+        "codeunit",
+        "polymorphism",
+        "mocking"
+      ],
+      "bc_version": [
+        "16.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An interface variable can hold any codeunit that implements the interface, assigned directly — no enum is required."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

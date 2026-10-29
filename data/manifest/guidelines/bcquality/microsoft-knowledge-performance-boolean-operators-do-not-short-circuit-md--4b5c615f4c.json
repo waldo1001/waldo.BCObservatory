@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/boolean-operators-do-not-short-circuit.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.353Z",
+      "at": "2026-10-29T21:28:35.693Z",
       "blob": "9c840a78c65c14b66058f2a890a0f286580604ea",
       "words": 664,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:35.751Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/boolean-operators-do-not-short-circuit.md"
     }
   },
   "input_hash": "9c840a78c65c14b66058f2a890a0f286580604ea",
@@ -25,13 +29,56 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/boolean-operators-do-not-short-circuit.md",
-    "description": null,
+    "description": "AL gives no short-circuit (lazy) evaluation guarantee for and, or, and xor: every operand of a boolean expression is evaluated, even when the leftmost operand already determines the result.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "short-circuit",
+      "lazy-evaluation",
+      "boolean-operators",
+      "nested-if",
+      "guard",
+      "and-operator",
+      "or-operator",
+      "xor-operator",
+      "early-exit"
+    ],
     "ai_usage": null,
-    "words": 664
+    "words": 664,
+    "identifiers": [
+      "IsEmpty"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "short-circuit",
+        "lazy-evaluation",
+        "boolean-operators",
+        "nested-if",
+        "guard",
+        "and-operator",
+        "or-operator",
+        "xor-operator",
+        "early-exit"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "AL gives no short-circuit (lazy) evaluation guarantee for and, or, and xor: every operand of a boolean expression is evaluated, even when the leftmost operand already determines the result."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

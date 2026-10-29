@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.328Z",
+      "at": "2026-10-29T21:28:34.994Z",
       "blob": "5790a6c8ff967a8354fcfd418cf941db402ddada",
       "words": 144,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:35.133Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.md"
     }
   },
   "input_hash": "5790a6c8ff967a8354fcfd418cf941db402ddada",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/avoid-currpage-update-in-onaftergetrecord.md",
-    "description": null,
+    "description": "OnAfterGetRecord on a list already runs once per visible row on scroll and refresh. CurrPage.Update asks the page to reload, which fires those triggers again. The result is a refresh loop or a stutter on every row paint.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "currpage-update",
+      "onaftergetrecord",
+      "list-page",
+      "scroll",
+      "refresh"
+    ],
     "ai_usage": null,
-    "words": 144
+    "words": 144,
+    "identifiers": [
+      "OnAfterGetRecord",
+      "OnAction",
+      "OnAfterGetCurrRecord"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "currpage-update",
+        "onaftergetrecord",
+        "list-page",
+        "scroll",
+        "refresh"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "OnAfterGetRecord on a list already runs once per visible row on scroll and refresh. CurrPage.Update asks the page to reload, which fires those triggers again. The result is a refresh loop or a stutter on every row paint."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

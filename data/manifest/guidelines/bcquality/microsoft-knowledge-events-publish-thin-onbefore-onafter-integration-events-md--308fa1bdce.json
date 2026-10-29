@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/publish-thin-onbefore-onafter-integration-events.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.256Z",
+      "at": "2026-10-29T21:28:33.402Z",
       "blob": "526f1362ea1d6aa4a93a5c230629b813ca4195ac",
       "words": 292,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:33.509Z",
+      "path": "content/guidelines/microsoft/knowledge/events/publish-thin-onbefore-onafter-integration-events.md"
     }
   },
   "input_hash": "526f1362ea1d6aa4a93a5c230629b813ca4195ac",
@@ -25,13 +29,55 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/events/publish-thin-onbefore-onafter-integration-events.md",
-    "description": null,
+    "description": "A key operation — a posting, release, or validation routine — becomes a hard wall for partners when it ships no integration events: the only way to change it is to overwrite or duplicate the base code.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "integration-event",
+      "onbefore",
+      "onafter",
+      "extension-point",
+      "thin-publisher",
+      "publisher-body",
+      "extensibility"
+    ],
     "ai_usage": null,
-    "words": 292
+    "words": 292,
+    "identifiers": [
+      "OnBeforeX",
+      "OnAfterX",
+      "OnBefore",
+      "OnAfter"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "events",
+      "keywords": [
+        "integration-event",
+        "onbefore",
+        "onafter",
+        "extension-point",
+        "thin-publisher",
+        "publisher-body",
+        "extensibility"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A key operation — a posting, release, or validation routine — becomes a hard wall for partners when it ships no integration events: the only way to change it is to overwrite or duplicate the base code."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

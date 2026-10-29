@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/avoid-growing-globals-in-singleinstance-subscribers.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.333Z",
+      "at": "2026-10-29T21:28:35.148Z",
       "blob": "82a3bb775c2e6cdea5a80838753e4a663cecd375",
       "words": 201,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:35.228Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/avoid-growing-globals-in-singleinstance-subscribers.md"
     }
   },
   "input_hash": "82a3bb775c2e6cdea5a80838753e4a663cecd375",
@@ -25,13 +29,46 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/avoid-growing-globals-in-singleinstance-subscribers.md",
-    "description": null,
+    "description": "A codeunit with SingleInstance = true is allocated once per session and lives until the session ends. Global variables on it are never collected between event fires.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "singleinstance",
+      "subscriber",
+      "event",
+      "memory",
+      "session"
+    ],
     "ai_usage": null,
-    "words": 201
+    "words": 201,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "singleinstance",
+        "subscriber",
+        "event",
+        "memory",
+        "session"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A codeunit with SingleInstance = true is allocated once per session and lives until the session ends. Global variables on it are never collected between event fires."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

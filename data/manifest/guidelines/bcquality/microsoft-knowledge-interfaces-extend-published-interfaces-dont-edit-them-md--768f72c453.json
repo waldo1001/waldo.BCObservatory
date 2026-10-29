@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/interfaces/extend-published-interfaces-dont-edit-them.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.282Z",
+      "at": "2026-10-29T21:28:33.635Z",
       "blob": "4f04d67d3586d161a735fef7dfc6a355b4e1abcb",
       "words": 155,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:33.794Z",
+      "path": "content/guidelines/microsoft/knowledge/interfaces/extend-published-interfaces-dont-edit-them.md"
     }
   },
   "input_hash": "4f04d67d3586d161a735fef7dfc6a355b4e1abcb",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/interfaces/extend-published-interfaces-dont-edit-them.md",
-    "description": null,
+    "description": "Adding a method to a shipped interface changes the contract every implementing codeunit must satisfy. Implementers can live in dependent extensions, so the addition breaks code the interface publisher cannot update; AppSourceCop reports AS0066.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "published-interface",
+      "interface-method",
+      "breaking-change",
+      "interface-extends",
+      "versioned-interface",
+      "appsourcecop",
+      "as0066"
+    ],
     "ai_usage": null,
-    "words": 155
+    "words": 155,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "interfaces",
+      "keywords": [
+        "published-interface",
+        "interface-method",
+        "breaking-change",
+        "interface-extends",
+        "versioned-interface",
+        "appsourcecop",
+        "as0066"
+      ],
+      "bc_version": [
+        "16.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Adding a method to a shipped interface changes the contract every implementing codeunit must satisfy. Implementers can live in dependent extensions, so the addition breaks code the interface publisher cannot update; AppSourceCop reports AS0066."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

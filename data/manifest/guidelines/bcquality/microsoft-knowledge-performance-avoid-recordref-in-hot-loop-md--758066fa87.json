@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/avoid-recordref-in-hot-loop.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.338Z",
+      "at": "2026-10-29T21:28:35.141Z",
       "blob": "6aae1771a73d932d0d8f0a070cd6617a003b373f",
       "words": 200,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:35.219Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/avoid-recordref-in-hot-loop.md"
     }
   },
   "input_hash": "6aae1771a73d932d0d8f0a070cd6617a003b373f",
@@ -25,13 +29,49 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/avoid-recordref-in-hot-loop.md",
-    "description": null,
+    "description": "RecordRef and FieldRef are slower than direct typed record access — the platform resolves the table and field at runtime instead of at compile time.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "recordref",
+      "fieldref",
+      "hot-loop",
+      "typed-record",
+      "metadata"
+    ],
     "ai_usage": null,
-    "words": 200
+    "words": 200,
+    "identifiers": [
+      "RecordRef",
+      "FieldRef"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "recordref",
+        "fieldref",
+        "hot-loop",
+        "typed-record",
+        "metadata"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "RecordRef and FieldRef are slower than direct typed record access — the platform resolves the table and field at runtime instead of at compile time."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

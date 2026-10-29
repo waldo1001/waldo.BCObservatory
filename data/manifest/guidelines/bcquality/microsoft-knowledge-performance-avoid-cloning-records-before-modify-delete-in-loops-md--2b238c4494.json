@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/avoid-cloning-records-before-modify-delete-in-loops.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.318Z",
+      "at": "2026-10-29T21:28:34.970Z",
       "blob": "20f27eea7269a74e7b410429a178eb833f349e0a",
       "words": 182,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:35.061Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/avoid-cloning-records-before-modify-delete-in-loops.md"
     }
   },
   "input_hash": "20f27eea7269a74e7b410429a178eb833f349e0a",
@@ -25,13 +29,55 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/avoid-cloning-records-before-modify-delete-in-loops.md",
-    "description": null,
+    "description": "Microsoft's AL database-method performance guidance states that cloning an iterated record before Modify or Delete restarts the SQL SELECT and issues an extra SQL statement for every row.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "clone",
+      "clone-before-write",
+      "copy",
+      "gettable",
+      "by-value",
+      "copied-record",
+      "writing-helper"
+    ],
     "ai_usage": null,
-    "words": 182
+    "words": 182,
+    "identifiers": [
+      "RecordRef",
+      "GetTable",
+      "ModifyAll",
+      "DeleteAll"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "clone",
+        "clone-before-write",
+        "copy",
+        "gettable",
+        "by-value",
+        "copied-record",
+        "writing-helper"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Microsoft's AL database-method performance guidance states that cloning an iterated record before Modify or Delete restarts the SQL SELECT and issues an extra SQL statement for every row."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

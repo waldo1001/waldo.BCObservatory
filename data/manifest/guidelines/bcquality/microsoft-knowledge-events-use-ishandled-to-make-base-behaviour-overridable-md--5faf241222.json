@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/use-ishandled-to-make-base-behaviour-overridable.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.271Z",
+      "at": "2026-10-29T21:28:33.458Z",
       "blob": "6a6d6ab35ce09762562f166c34a0234c95357b72",
       "words": 307,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:33.544Z",
+      "path": "content/guidelines/microsoft/knowledge/events/use-ishandled-to-make-base-behaviour-overridable.md"
     }
   },
   "input_hash": "6a6d6ab35ce09762562f166c34a0234c95357b72",
@@ -25,13 +29,54 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/events/use-ishandled-to-make-base-behaviour-overridable.md",
-    "description": null,
+    "description": "AL has no method overriding, so a procedure that runs its body unconditionally cannot be replaced by an extension without editing base code.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "ishandled",
+      "overridable",
+      "onbefore",
+      "integration-event",
+      "extensibility",
+      "event-override",
+      "subscriber-hook"
+    ],
     "ai_usage": null,
-    "words": 307
+    "words": 307,
+    "identifiers": [
+      "IsHandled",
+      "OnBefore",
+      "OnAfter"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "events",
+      "keywords": [
+        "ishandled",
+        "overridable",
+        "onbefore",
+        "integration-event",
+        "extensibility",
+        "event-override",
+        "subscriber-hook"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "AL has no method overriding, so a procedure that runs its body unconditionally cannot be replaced by an extension without editing base code."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

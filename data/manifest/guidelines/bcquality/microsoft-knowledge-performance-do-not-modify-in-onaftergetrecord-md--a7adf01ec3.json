@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/do-not-modify-in-onaftergetrecord.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.396Z",
+      "at": "2026-10-29T21:28:41.074Z",
       "blob": "a30ada9747d7e9b53fd4e99142f1c9072b49a83f",
       "words": 182,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:41.303Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/do-not-modify-in-onaftergetrecord.md"
     }
   },
   "input_hash": "a30ada9747d7e9b53fd4e99142f1c9072b49a83f",
@@ -25,13 +29,55 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/do-not-modify-in-onaftergetrecord.md",
-    "description": null,
+    "description": "A list page's OnAfterGetRecord fires once per visible row, every time the user scrolls, sorts, or refreshes. A Modify inside that trigger means a database write per row displayed. Per the upstream guidance, \"Modify() here means a DB write on every scroll.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "page-trigger",
+      "onaftergetrecord",
+      "modify",
+      "display",
+      "scroll",
+      "db-write"
+    ],
     "ai_usage": null,
-    "words": 182
+    "words": 182,
+    "identifiers": [
+      "OnAfterGetRecord",
+      "OnAfterGetCurrRecord",
+      "OnOpenPage",
+      "OnInit",
+      "OnAction",
+      "OnQueryClosePage"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "page-trigger",
+        "onaftergetrecord",
+        "modify",
+        "display",
+        "scroll",
+        "db-write"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A list page's OnAfterGetRecord fires once per visible row, every time the user scrolls, sorts, or refreshes. A Modify inside that trigger means a database write per row displayed. Per the upstream guidance, \"Modify() here means a DB write on every scroll."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/avoid-commit-inside-loops.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.323Z",
+      "at": "2026-10-29T21:28:35.001Z",
       "blob": "011fd398b83303627248d0d99add0cc661412507",
       "words": 389,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:35.093Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/avoid-commit-inside-loops.md"
     }
   },
   "input_hash": "011fd398b83303627248d0d99add0cc661412507",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/avoid-commit-inside-loops.md",
-    "description": null,
+    "description": "Commit ends the current write transaction. Calling it inside a per-row loop usually produces one transaction per iteration and loses the ability to roll back the whole operation atomically; it also interferes with batching.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "commit",
+      "commit-in-loop",
+      "per-row-commit",
+      "checkpoint",
+      "bounded-checkpoint",
+      "watermark",
+      "topnumberofrows"
+    ],
     "ai_usage": null,
-    "words": 389
+    "words": 389,
+    "identifiers": [
+      "FindSet",
+      "TopNumberOfRows"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "commit",
+        "commit-in-loop",
+        "per-row-commit",
+        "checkpoint",
+        "bounded-checkpoint",
+        "watermark",
+        "topnumberofrows"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Commit ends the current write transaction. Calling it inside a per-row loop usually produces one transaction per iteration and loses the ability to roll back the whole operation atomically; it also interferes with batching."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

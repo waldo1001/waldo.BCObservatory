@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/case-true-of-for-long-condition-chains.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.359Z",
+      "at": "2026-10-29T21:28:35.757Z",
       "blob": "1ec3863ec26b51cfd5bfa23cd1de7f9552a55d2c",
       "words": 607,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:35.837Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/case-true-of-for-long-condition-chains.md"
     }
   },
   "input_hash": "1ec3863ec26b51cfd5bfa23cd1de7f9552a55d2c",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/case-true-of-for-long-condition-chains.md",
-    "description": null,
+    "description": "Because AL gives no short-circuit guarantee for and and or, a chain of conditions that must be evaluated in order has to be sequenced with nested if statements — and past three conditions the nesting itself becomes the problem: the body drifts right, the order of evaluation is carried by…",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "case-statement",
+      "case-true-of",
+      "nested-if",
+      "condition-chain",
+      "guard",
+      "lazy-evaluation",
+      "nesting-depth"
+    ],
     "ai_usage": null,
-    "words": 607
+    "words": 607,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "case-statement",
+        "case-true-of",
+        "nested-if",
+        "condition-chain",
+        "guard",
+        "lazy-evaluation",
+        "nesting-depth"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Because AL gives no short-circuit guarantee for and and or, a chain of conditions that must be evaluated in order has to be sequenced with nested if statements — and past three conditions the nesting itself becomes the problem: the body drifts right, the order of evaluation is carried by…"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

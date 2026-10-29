@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/interfaces/set-defaultimplementation-on-enum.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.298Z",
+      "at": "2026-10-29T21:28:34.275Z",
       "blob": "a5c3bb6a5ecf8218960550b1a059b516045a1a02",
       "words": 230,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:34.347Z",
+      "path": "content/guidelines/microsoft/knowledge/interfaces/set-defaultimplementation-on-enum.md"
     }
   },
   "input_hash": "a5c3bb6a5ecf8218960550b1a059b516045a1a02",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/interfaces/set-defaultimplementation-on-enum.md",
-    "description": null,
+    "description": "An enum that implements an interface maps each declared value to a codeunit through the Implementation property. A declared value, including one supplied by an enum extension, can omit that mapping.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "interface",
+      "defaultimplementation",
+      "enum-implements-interface",
+      "fallback",
+      "extensible-enum",
+      "implementation-property"
+    ],
     "ai_usage": null,
-    "words": 230
+    "words": 230,
+    "identifiers": [
+      "DefaultImplementation"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "interfaces",
+      "keywords": [
+        "interface",
+        "defaultimplementation",
+        "enum-implements-interface",
+        "fallback",
+        "extensible-enum",
+        "implementation-property"
+      ],
+      "bc_version": [
+        "16.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An enum that implements an interface maps each declared value to a codeunit through the Implementation property. A declared value, including one supplied by an enum extension, can omit that mapping."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

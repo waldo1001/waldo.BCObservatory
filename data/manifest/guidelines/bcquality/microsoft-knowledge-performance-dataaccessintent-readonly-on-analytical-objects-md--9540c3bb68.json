@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.385Z",
+      "at": "2026-10-29T21:28:41.104Z",
       "blob": "943242d8653804454d7b59c2552c702afb8c0a6b",
       "words": 206,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:41.364Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.md"
     }
   },
   "input_hash": "943242d8653804454d7b59c2552c702afb8c0a6b",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.md",
-    "description": null,
+    "description": "DataAccessIntent was introduced at runtime 5.0 (BC 16) and has no effect in earlier versions. Reports, API pages (PageType = API with Editable = false), and queries that only read can run against a read replica when DataAccessIntent = ReadOnly.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "dataaccessintent",
+      "read-only",
+      "read-scale-out",
+      "report",
+      "api-page",
+      "query"
+    ],
     "ai_usage": null,
-    "words": 206
+    "words": 206,
+    "identifiers": [
+      "DataAccessIntent"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "dataaccessintent",
+        "read-only",
+        "read-scale-out",
+        "report",
+        "api-page",
+        "query"
+      ],
+      "bc_version": [
+        "16.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "DataAccessIntent was introduced at runtime 5.0 (BC 16) and has no effect in earlier versions. Reports, API pages (PageType = API with Editable = false), and queries that only read can run against a read replica when DataAccessIntent = ReadOnly."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

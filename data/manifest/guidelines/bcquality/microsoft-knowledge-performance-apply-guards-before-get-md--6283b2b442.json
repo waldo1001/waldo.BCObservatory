@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/apply-guards-before-get.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.313Z",
+      "at": "2026-10-29T21:28:34.428Z",
       "blob": "8d4a87667497285a5db6a495287445e45734df9d",
       "words": 182,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:34.537Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/apply-guards-before-get.md"
     }
   },
   "input_hash": "8d4a87667497285a5db6a495287445e45734df9d",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/apply-guards-before-get.md",
-    "description": null,
+    "description": "A Get (or any other database call) executed before a guard that may exit the procedure does a round-trip the procedure never uses. Per the upstream guidance, \"Flag Get() calls that execute before a guard condition that may exit early — the DB lookup is wasted.\"",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "get",
+      "guard",
+      "early-exit",
+      "conditional",
+      "lookup",
+      "wasted-query"
+    ],
     "ai_usage": null,
-    "words": 182
+    "words": 182,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "get",
+        "guard",
+        "early-exit",
+        "conditional",
+        "lookup",
+        "wasted-query"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A Get (or any other database call) executed before a guard that may exit the procedure does a round-trip the procedure never uses. Per the upstream guidance, \"Flag Get() calls that execute before a guard condition that may exit early — the DB lookup is wasted.\""
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

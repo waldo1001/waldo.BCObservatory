@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/treat-local-and-internal-events-as-subscriber-contracts.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.266Z",
+      "at": "2026-10-29T21:28:33.450Z",
       "blob": "004819b3daf2220dd8b323e6ba4e8740e35895c7",
       "words": 219,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:33.565Z",
+      "path": "content/guidelines/microsoft/knowledge/events/treat-local-and-internal-events-as-subscriber-contracts.md"
     }
   },
   "input_hash": "004819b3daf2220dd8b323e6ba4e8740e35895c7",
@@ -25,13 +29,58 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/events/treat-local-and-internal-events-as-subscriber-contracts.md",
-    "description": null,
+    "description": "The local and internal access modifiers on Business and Integration event publishers restrict who can raise the procedure; they do not prevent dependent extensions from subscribing.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "local-event",
+      "internal-event",
+      "event-subscriber",
+      "compatibility",
+      "access-modifier",
+      "integration-event",
+      "business-event",
+      "parameter-name",
+      "var-parameter",
+      "appsourcecop"
+    ],
     "ai_usage": null,
-    "words": 219
+    "words": 219,
+    "identifiers": [
+      "internalsVisibleTo"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "events",
+      "keywords": [
+        "local-event",
+        "internal-event",
+        "event-subscriber",
+        "compatibility",
+        "access-modifier",
+        "integration-event",
+        "business-event",
+        "parameter-name",
+        "var-parameter",
+        "appsourcecop"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The local and internal access modifiers on Business and Integration event publishers restrict who can raise the procedure; they do not prevent dependent extensions from subscribing."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
