@@ -471,7 +471,7 @@ blogs; all videos newest-first.
 | **M57 jeremyvyska.com blog source** | `jeremyvyska-com` in `sources.yaml`, derived mode, feed plus WordPress API (`docs/specs/jeremyvyska-com-blog-source.md`, D122, shipped 2026-10-26) | small | first ingest of 13 posts |
 | **M58 Observatory before web search** | plugin PreToolUse reminder on WebSearch/WebFetch, deferred-tools line in the instructions, bcobs-lookup "use first", four-case eval (`docs/specs/bc-question-routing.md`, D123, shipped 2026-10-27) | small | eval: about $12 in all |
 | **M59 Install and adoption** | Node requirement from engines everywhere, Copilot troubleshooting, plugin-first README, /mcp harness tabs with one-click VS Code and Cursor links, VS Code agent plugin (if verified), "Ask your agent" on object, feature and change pages, header pill (`docs/specs/install-and-adoption.md`, D124, shipped 2026-10-27) | medium | none (no LLM) |
-| **M60 Spend cap without catch-ups** | override spend kept out of the cap window, executor runs deterministic stages past the cap, caps $15/$80 (`docs/specs/spend-cap-catch-up.md`, D125, proposed) | small | none: fewer blocked nights |
+| **M60 Spend cap without catch-ups** | override spend kept out of the cap window, executor runs deterministic stages past the cap, caps $15/$80 (`docs/specs/spend-cap-catch-up.md`, D125, shipped 2026-10-29) | small | none: fewer blocked nights |
 | **v0.2+** | evidence chips + review-badge UI, 30-vNext, older versions as diffs back to 23/15, Jarvis budget handshake (shared intent file), static embeddings (model2vec potion-8M), MAYBE blogs | ongoing | per-version gating |
 
 ## 6. Verification
