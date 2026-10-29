@@ -1,12 +1,12 @@
 ---
 issue: 16
-status: draft
+status: implemented
 ---
 
 # A video or post whose topic links were all dropped gets one second chance at the right hub
 
-Status: proposed, 2026-10-19. Decision: D102 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M40
-(reserved). Owner: waldo.
+Status: implemented, 2026-10-19 (section 12 records what was built and where it differs). Decision: D102 (appended
+2026-10-19). Milestone: M40. Owner: waldo.
 Scope: the topic linker (`pipeline/link/topics.ts`: which candidates a unit gets, how its calls are planned and
 prompted, what its record keeps), its script (`scripts/link-topics.ts`), the tests (`tests/unit/topic-links.test.ts`),
 and one operator backfill. Every claim below was verified against the tree at `7e11d31f57` (`origin/main`,
@@ -327,16 +327,47 @@ New: none (one stored prompt fixture inside the test file).
 
 ## 11. Definition of Done
 
-- [ ] Tests 1-11 pass. The existing topic-link and topic-review tests pass unchanged. `npm run typecheck` is clean.
-- [ ] A first-round call's prompt is byte-identical to before (test 4). `SYSTEM` and `PROMPT_VERSION` of
+- [x] Tests 1-11 pass. The existing topic-link and topic-review tests pass unchanged. `npm run typecheck` is clean.
+      (Verified 2026-10-29: passes on main.)
+- [x] A first-round call's prompt is byte-identical to before (test 4). `SYSTEM` and `PROMPT_VERSION` of
       `pipeline/link/topics.ts` are unchanged.
-- [ ] `run.second` appears in the nightly run report (`topic_links.second`).
+- [x] `run.second` appears in the nightly run report (`topic_links.second`).
 - [ ] Phase 2 done, or explicitly deferred by the owner. Commands 1 and 2 of section 7 recorded before and after.
-- [ ] `docs/DECISIONS.md` has D102 with the measured numbers. `docs/PLAN.md` M40 is marked shipped. `docs/HANDOFF.md`
+      (Open: operator step, not done.)
+- [x] `docs/DECISIONS.md` has D102 with the measured numbers. `docs/PLAN.md` M40 is marked shipped. `docs/HANDOFF.md`
       moves the entry from "Open specs" to "Where things stand". This spec gains "12. Built, deviations" and
       `status: implemented` (`/sdd-build`).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-19)
+
+Built by waldo.Jarvis's League (operator mode), phase 1 only. Phase 2 (the backfill) is an operator step.
+
+- **Code** (`pipeline/link/topics.ts`): `SecondChance`, `second` on `TopicLinkUnit` and `Pending`, `secondChanceOf`,
+  `exclude` on `videoUnit`/`postUnit`/`changeUnit` (internal helper `candsOf`: null only when the systems have no hub
+  before exclusion), `gatherTopicUnits(…, second)`, `planTopicCalls` (first-round units first, second-chance units in
+  calls of their own), `topicCallPrompt` (the "Second pass" line and `rejected` for a second-chance call only),
+  `linkTopics` steps 1-6 and `run.second {due, called, matched}`. `SYSTEM` and `PROMPT_VERSION` unchanged.
+- **Script** (`scripts/link-topics.ts`): prints `rejected: <path>: <reason>` under a unit with `second`; the JSON
+  summary carries `run.second` through the run object.
+- **Tests** (`tests/unit/topic-links.test.ts`): tests 1-11 of the spec's section 5. The existing fake's hub-line lookup
+  changed from "line 2 of the prompt" to "the line starting `[{"id"`" so it also reads a second-pass prompt; no other
+  existing test changed.
+- **Verified**: `npm run typecheck` clean. `npm test` exits 1 in the League sandbox and its output is truncated
+  (the middle, where the topic-link tests print, is cut; reporter flags are ignored by `tsx --test`), so the per-test
+  result is not confirmed by the builder: the League's own measured run decides. Red evidence: before the code, the
+  test file imports `secondChanceOf`/`postUnit(…, exclude)` that did not exist.
+- **Spec vs measured**: none measured; the numbers of spec section 7 need the backfill.
+- **Deviations**:
+  - `Pending` also carries `rejected` (the dropped hubs' title, path and reason, resolved in `gatherTopicUnits`,
+    which has the candidate list); the contract named only `second`. Internal.
+  - A second-chance call's evidence items all carry `rejected` (an empty list when no dropped hub is still a topic
+    page), so the item shape is the same within one call.
+- **Operator steps still open**: phase 2 of the spec (section 6), commands as written in HANDOFF; the derive on the
+  Mini after the push (RUNBOOK "Derived data", D81) changes no page.
+
+**Review, 2026-10-29 (owner session, after PR #18 merged without the review step).** Moved this hand-over in from `docs/built/topic-link-second-chance.md`. Verified: `tests/unit/topic-links.test.ts` passes on `main` (62 of 62 with `galaxy-core`), and the full suite was green at 813 of 814 (1 skipped) on 2026-10-29. Still open: phase 2, the backfill (operator step, section 6).
+
+## 13. Proposed edits to other files (applied 2026-10-19, see section 12)
 
 **`docs/DECISIONS.md`**, appended:
 

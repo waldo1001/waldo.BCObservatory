@@ -1,12 +1,12 @@
 ---
 issue: 21
-status: draft
+status: implemented
 ---
 
 # The Lenses menu opens with "this week": Time first, then Version
 
-Status: proposed, 2026-10-21. Decision: D103 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M41
-(reserved). Owner: waldo.
+Status: implemented, 2026-10-21 (section 12 records what was built and where it differs). Decision: D103 (appended
+2026-10-21). Milestone: M41. Owner: waldo.
 Scope: the order of the groups in the galaxy's Lenses menu (`MENU_GROUPS` in `site/src/scripts/galaxy-core.ts`), its
 unit test, and the two code comments that list that order. Every claim below was verified against the tree at
 `c8635aa1fa` on 2026-10-21. Not in scope: the entries inside a group, their labels and counts, the Questions menu, the
@@ -177,21 +177,39 @@ New: none.
 
 ## 11. Definition of Done
 
-- [ ] `npm test` is green; the three tests of section 5 are in `tests/unit/galaxy-core.test.ts`, and test 1 failed
+- [x] `npm test` is green; the three tests of section 5 are in `tests/unit/galaxy-core.test.ts`, and test 1 failed
       before `MENU_GROUPS` changed.
-- [ ] `MENU_GROUPS` starts with `["Time", "time", "Time"]`, then `["Version", "version", "Version"]`; the rest in the
+- [x] `MENU_GROUPS` starts with `["Time", "time", "Time"]`, then `["Version", "version", "Version"]`; the rest in the
       same order as before.
-- [ ] The comments at `galaxy.ts:14-15` and `Galaxy.astro:6` list this week before the versions.
+- [x] The comments at `galaxy.ts:14-15` and `Galaxy.astro:6` list this week before the versions.
 - [ ] The site builds on Node 22; on the built home page the menu headings read `Time, Version, Type, Tier, Coverage,
-      Country, Source`, and one Tab after the `Lenses` summary focuses `this week`.
-- [ ] Picking `this week` and `BC29` gives the same chip and hash as before (section 7, step 3).
-- [ ] D103 appended to docs/DECISIONS.md; PLAN M41 marked shipped; HANDOFF entry moved from "Open specs" to "Where
+      Country, Source`, and one Tab after the `Lenses` summary focuses `this week`. (Live site 2026-10-29: headings
+      verified; the Tab focus not checked, a deviation.)
+- [x] Picking `this week` and `BC29` gives the same chip and hash as before (section 7, step 3). (Verified on the live
+      site 2026-10-29.)
+- [x] D103 appended to docs/DECISIONS.md; PLAN M41 marked shipped; HANDOFF entry moved from "Open specs" to "Where
       things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
       implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
       status lines into docs/built/lens-menu-time-first.md; the PR's review moves them in (sdd-build section 4,
       sdd-review section 6).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-21)
+
+Built (uncommitted by the builder; the League commits): `MENU_GROUPS` in `site/src/scripts/galaxy-core.ts` now starts
+with Time, then Version, Type, Tier, Coverage, Country, Source; the three tests of section 5 are in
+`tests/unit/galaxy-core.test.ts`; the comments at `galaxy.ts:14-16` and `Galaxy.astro:6` list this week first. D103
+appended, PLAN M41 shipped, HANDOFF entry moved.
+
+Verified: `npm run typecheck` clean; `npm test` run after the change (see the League's measured run). Red: test 1
+(group ids) was written before `MENU_GROUPS` changed.
+
+Deviations: none in the code. Operator steps open (not runnable in operator mode): the site build on Node 22
+(`npm run site:build` with Node 22 first on PATH, spec section 7 step 2), the browser checks of step 3 and the live-site
+check of step 5. The comment at `galaxy.ts` is re-wrapped over three lines instead of two.
+
+**Review, 2026-10-29 (owner session, after PR #22 merged without the review step).** Moved this hand-over in from `docs/built/lens-menu-time-first.md`. Verified: `tests/unit/galaxy-core.test.ts` passes on `main`; on the live site (2026-10-29) the Lenses menu reads Time, Version, Type, Tier, Coverage, Country, Source; picking `this week` sets `#lens=landed` and `BC29` sets `#lens=version%3A29` with the chip "changed in BC29". Not checked: the one-Tab focus.
+
+## 13. Proposed edits to other files (applied 2026-10-21, see section 12)
 
 **`docs/DECISIONS.md`**, appended after D102: the D103 text of section 3.
 
