@@ -23,7 +23,7 @@ import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import {
-  decideGuard, readPlanUsage, readSpendHistory, scaleQuotas, spendAllowance,
+  daySpend, decideGuard, readPlanUsage, readSpendHistory, scaleQuotas, spendAllowance,
   type GuardDecision, type PlanUsage, type PlanUsageUnavailable, type SpendAllowance,
 } from "../lib/budget.js";
 import { budget, loadConfig, loadSources, type SourceDef } from "../lib/config.js";
@@ -145,7 +145,7 @@ export interface RunReport {
   pipeline: string; runner: Record<string, string>; guard: GuardReport;
   ingest: { sources: unknown[]; totals: Record<string, number> };
   plan: { quotas: Record<string, number>; work: number; executed: number; skips?: number; quota_use?: unknown; note?: string };
-  llm: ReturnType<typeof llmStats> & { day_cost_usd?: number };
+  llm: ReturnType<typeof llmStats> & { day_cost_usd?: number; day_capped_usd?: number };
   /** Own metering (D17): caps, spend before this run, and what this run was allowed to spend. */
   spend?: SpendAllowance & { exhausted: boolean; override?: boolean };
   execution?: ExecutionReport;
@@ -211,6 +211,7 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
   if (opts.capOverride) log.warn(`spend caps overridden for this run: night $${caps.night_usd}, week $${caps.week_usd}`);
   setSpendLimit(spend.allowance_usd);
   log.info(`spend: $${spend.allowance_usd} allowed (${spend.binding} cap binds)`, { today: spend.today_usd, week_before: spend.week_before_usd });
+  log.info(`spend window: $${spend.week_before_usd} counted, $${spend.week_before_uncapped_usd ?? 0} from override runs not counted`);
   if (opts.commit && (await recoverPartialRun(opts.repoDir, () => leakGate(opts, deps.sources)))) log.warn("committed leftovers of a killed run");
 
   const guard: GuardReport = opts.guard
@@ -603,7 +604,9 @@ async function finish(report: RunReport, opts: NightlyOptions, sources: SourceDe
     }
   }
   report.finished_at = new Date().toISOString();
-  report.llm = { ...llmStats(), day_cost_usd: round6((report.spend?.today_usd ?? 0) + llmStats().cost_usd) };
+  // D125: the day total keeps every dollar; day_capped_usd is what counts against the caps (an override run adds none)
+  const carried = { today_usd: report.spend?.today_usd ?? 0, today_total_usd: report.spend?.today_total_usd ?? report.spend?.today_usd ?? 0, week_before_usd: 0, week_before_uncapped_usd: 0 };
+  report.llm = { ...llmStats(), ...daySpend(carried, llmStats().cost_usd, !!report.spend?.override) };
   if (report.spend) report.spend.exhausted ||= report.spend.allowance_usd - report.llm.cost_usd <= 0;
   validateOrThrow("run-report", report, `run report ${report.date}`);
   writeJson(resolve(opts.dataDir, "manifest", "_runs", `${report.date}.json`), report);

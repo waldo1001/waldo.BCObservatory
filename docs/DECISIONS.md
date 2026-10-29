@@ -1364,3 +1364,19 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   the tar grew by 20,480 bytes (the new chunks). Rejected: hosting (D105), a Node check in a hook (the hook itself
   needs Node), a "get the plugin" footer in MCP answers (tokens on every call, aimed at people who already have it),
   patch numbers in the docs (`npx` only warns). Spec `docs/specs/install-and-adoption.md`, issue #55.
+- **D125 Owner-approved spend stays out of the cap window; the cap stops the LLM, not the pipeline (2026-10-29,
+  M60).** A run with a cap override (catch-up mode D41, `--unlimited`, `--night-cap`, `--week-cap`) records its spend
+  as uncapped: the run report's `llm.day_capped_usd` excludes it and `llm.day_cost_usd` keeps every dollar. The night
+  and week caps sum only capped spend (`cappedSpend`; a legacy override report without `day_capped_usd` counts as 0).
+  When the allowance runs out, the executor leaves items whose stage needs the LLM untouched (`execution.llm_held`)
+  and keeps running the rest; such a run ends `done`, not `spend-cap`. `LlmInfraError` still aborts. Caps raised to
+  $15 a night and $80 a week. Why: catch-ups on 7–8 and 24–26 Oct ($233 and $115) blocked ten nightlies, and with them
+  even the free caption fetches. Normal weeks cost $26–40. Measured by replaying 22–27 Oct: the old window counted
+  $121.67 and left $0 under the old caps; the new one counts $49.80, which under the old caps would leave $0.20 and
+  under the new caps leaves the full $15. Because a capped run now ends `done`, the post-execute LLM passes run on
+  capped nights too and each stops itself on the allowance (the weekly change narrative rethrew it and was fixed in
+  the build's review). Consequence: an override run's spend is unbounded by design, so the owner bounds it when
+  starting the run. Rejected: a week cap
+  near $260 (guards nothing), resetting the window after a catch-up (state outside the run reports), a per-handler
+  `llm: true` flag (every handler could get it wrong; `LlmBudgetExhausted` is thrown before any spend), counting
+  `--week-cap` raises. Spec `docs/specs/spend-cap-catch-up.md`, issue #56.

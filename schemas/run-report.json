@@ -62,7 +62,8 @@
         "calls": { "type": "integer" }, "cache_hits": { "type": "integer" }, "failures": { "type": "integer" },
         "by_model": { "type": "object" },
         "cost_usd": { "type": "number", "description": "API-equivalent dollars spent by this run (claude -p total_cost_usd)" },
-        "day_cost_usd": { "type": "number", "description": "this run plus earlier runs on the same date; the weekly cap sums this" },
+        "day_cost_usd": { "type": "number", "description": "this run plus earlier runs on the same date, every dollar (reporting)" },
+        "day_capped_usd": { "type": "number", "description": "D125: the part of day_cost_usd that counts against the caps; a run with a cap override adds none; the night and week caps sum this" },
         "tokens_by_model": {
           "type": "object",
           "additionalProperties": {
@@ -80,7 +81,9 @@
       "required": ["night_cap_usd", "week_cap_usd", "today_usd", "week_before_usd", "allowance_usd", "binding", "exhausted"],
       "properties": {
         "night_cap_usd": { "type": "number" }, "week_cap_usd": { "type": "number" },
-        "today_usd": { "type": "number" }, "week_before_usd": { "type": "number" },
+        "today_usd": { "type": "number", "description": "D125: capped spend earlier on this run date" }, "week_before_usd": { "type": "number", "description": "D125: capped spend on the six dates before" },
+        "today_total_usd": { "type": "number", "description": "all spend earlier on this run date, override runs included" },
+        "week_before_uncapped_usd": { "type": "number", "description": "override-run spend on the six dates before, not counted against the caps" },
         "allowance_usd": { "type": "number" }, "binding": { "enum": ["night", "week"] }, "exhausted": { "type": "boolean" }, "override": { "type": "boolean", "description": "caps were replaced for this run with --night-cap/--week-cap" }
       }
     },
@@ -91,7 +94,7 @@
         "stop_reason": { "enum": ["done", "hard-stop", "llm-calls-max", "spend-cap", "guard-skip", "aborted", "memory"] },
         "deadline": { "type": "string", "format": "date-time" },
         "items_touched": { "type": "integer" }, "advanced": { "type": "integer" }, "skipped": { "type": "integer" },
-        "failed_attempts": { "type": "integer" }, "failed_final": { "type": "integer" }, "no_handler": { "type": "integer" }, "held": { "type": "integer" }, "parked": { "type": "integer" }, "parked_left": { "type": "integer" },
+        "failed_attempts": { "type": "integer" }, "failed_final": { "type": "integer" }, "no_handler": { "type": "integer" }, "held": { "type": "integer" }, "llm_held": { "type": "integer", "description": "D125: items whose LLM stage waited because the spend allowance ran out" }, "llm_exhausted_at_calls": { "type": "integer" }, "parked": { "type": "integer" }, "parked_left": { "type": "integer" },
         "stages_run": { "type": "object", "additionalProperties": { "type": "integer" } },
         "quota_charged": { "type": "object", "additionalProperties": { "type": "integer" } },
         "regards": { "type": "array", "items": { "type": "object", "required": ["at_calls", "decision", "status"] } },

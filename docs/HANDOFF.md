@@ -20,11 +20,6 @@ one in either mode.
   `discovered → fetched → published` with no quota (`pipeline/lib/manifest.ts:49`, `pipeline/lib/queue.ts:23`), then
   the renderer. Until it lands, readers and agents see BCQuality only as its pull requests (`/changes/`, type `change`);
   what a rule says is not in the Observatory.
-- **Spend cap without catch-ups, D125** (`docs/specs/spend-cap-catch-up.md`, M60, issue #56). Status: proposed
-  2026-10-28, nothing implemented. Rated risky (orchestrator, config, schemas): a League build ends `plan-waiting`
-  for the owner's plan approval. Start with phase 1 (caps to $15/$80 in `config/budget.json`), then phase 2 task 2
-  (budget tests). Until it lands, every catch-up or cap-override run blocks the nightlies of the following six days at
-  the $50 week cap, and the blocked runs skip even the free caption fetches: new videos stay `discovered` (27 Oct onwards).
 - **Layered answers, D106** (`docs/specs/layered-answers.md`, M44, issue #26). Status: built 2026-10-23 on stacked
   branches `build/layered-answers` and `-p1` to `-p6`, one PR per phase (#27 docs, #28 cross-links, #29 key facts, #30
   cautions, then hotfix lists, brief and search, never-less); merge in order. Not done until the first nightly ran:
@@ -46,6 +41,21 @@ edges and 1,350 unresolved, because a manual control run shared the BC30 checkou
 questions in its section 12).
 
 ## Where things stand
+
+**Shipped 2026-10-29 (pipeline and config; takes effect on the next nightly on the Mini):**
+- **Catch-up runs no longer block the nightlies, and free stages run past the spend cap (D125, M60, issue #56).**
+  Caps are $15 a night and $80 a week (`config/budget.json`). Spend of a run with a cap override (catch-up mode,
+  `--unlimited`, `--night-cap`, `--week-cap`) is kept out of the window: the run report's `llm.day_capped_usd` is what
+  counts, `llm.day_cost_usd` stays the full day total, and `spend.week_before_uncapped_usd` shows what was left out.
+  When the allowance runs out, the executor no longer stops: an item whose stage needs the LLM waits untouched
+  (`execution.llm_held`, `llm_exhausted_at_calls`) and fetch and caption stages go on; such a run ends `done`, and the
+  post-execute LLM passes each stop on the allowance without ending the run. Once deployed, the 25, 26 and 28 Oct
+  override reports count as $0, so the 10-30 run's window counts $43.12 (24 Oct only) and gets the full $15. Built by
+  the League (PR #57, quarantined) and finished by hand; spec section 12 has the deviations. Operator steps (spec section 7):
+  the next nightly on the Mini (01:00 Europe/Brussels, or `gh workflow run nightly.yml --ref main`) logs `spend window:`
+  and its report `data/manifest/_runs/<date>.json` has `llm.day_capped_usd` and `spend.week_before_uncapped_usd`; the
+  first night that runs out of allowance shows `execution.llm_held > 0`, `stop_reason: "done"` and videos moving past
+  `fetched` in that run.
 
 **Shipped 2026-10-27 (site and docs only, no version bump; live after the next Pages run):**
 - **Easier plugin installs, and the site invites readers to use it from an agent (D124, M59, issue #55).** Every

@@ -5,7 +5,7 @@ import { mkdtempSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import {
-  decideGuard, PLAN_USAGE_URL, readPlanUsage, readSpendHistory, scaleQuotas, spendAllowance, type PlanUsage,
+  cappedSpend, daySpend, decideGuard, PLAN_USAGE_URL, readPlanUsage, readSpendHistory, scaleQuotas, spendAllowance, type PlanUsage,
 } from "../../pipeline/lib/budget.js";
 
 const TOKEN = "sentinel-token-value-7f3a";
@@ -113,8 +113,51 @@ test("spend history: today and the six dates before it; day_cost_usd wins over c
   put("2026-10-01", { cost_usd: 4, day_cost_usd: 4 });    // sixth day back: inside the window
   put("2026-09-30", { cost_usd: 100 });                   // seventh day back: outside
   writeFileSync(join(dir, "2026-10-05.json"), "{not json");
-  assert.deepEqual(readSpendHistory(dir, "2026-10-07"), { today_usd: 3, week_before_usd: 6 });
-  assert.deepEqual(readSpendHistory(join(dir, "missing"), "2026-10-07"), { today_usd: 0, week_before_usd: 0 });
+  assert.deepEqual(readSpendHistory(dir, "2026-10-07"), { today_usd: 3, today_total_usd: 3, week_before_usd: 6, week_before_uncapped_usd: 0 });
+  assert.deepEqual(readSpendHistory(join(dir, "missing"), "2026-10-07"), { today_usd: 0, today_total_usd: 0, week_before_usd: 0, week_before_uncapped_usd: 0 });
+});
+
+test("D125 test 1: cappedSpend prefers day_capped_usd, counts a legacy override day as 0, else the day total", () => {
+  assert.equal(cappedSpend({ llm: { day_capped_usd: 2, day_cost_usd: 9 } }), 2);
+  assert.equal(cappedSpend({ llm: { day_cost_usd: 9 }, spend: { override: true } }), 0);
+  assert.equal(cappedSpend({ llm: { day_cost_usd: 9 } }), 9);
+  assert.equal(cappedSpend({ llm: { cost_usd: 4 } }), 4);
+  assert.equal(cappedSpend(null), 0);
+  assert.equal(cappedSpend("junk"), 0);
+  assert.equal(cappedSpend({ llm: { day_capped_usd: "x" } }), 0);
+});
+
+test("D125 test 2: the history counts only capped spend in the window; the rest is reported apart", () => {
+  const dir = mkdtempSync(join(tmpdir(), "bcobs-runs-"));
+  const put = (d: string, report: object) => writeFileSync(join(dir, `${d}.json`), JSON.stringify({ date: d, ...report }));
+  put("2026-10-07", { llm: { day_cost_usd: 9, day_capped_usd: 2 } });
+  put("2026-10-06", { llm: { day_cost_usd: 30 }, spend: { override: true } });
+  put("2026-10-05", { llm: { day_cost_usd: 5 } });
+  put("2026-10-04", { llm: { day_cost_usd: 12, day_capped_usd: 1 } });
+  const h = readSpendHistory(dir, "2026-10-07");
+  assert.deepEqual([h.today_usd, h.today_total_usd, h.week_before_usd, h.week_before_uncapped_usd], [2, 9, 6, 41]);
+});
+
+test("D125 test 3: replay of 22-27 Oct: the window is $49.80 counted, allowance 15 under 15/80, 0.20 under the old caps", () => {
+  const dir = mkdtempSync(join(tmpdir(), "bcobs-runs-"));
+  const put = (d: string, report: object) => writeFileSync(join(dir, `${d}.json`), JSON.stringify({ date: d, ...report }));
+  put("2026-10-22", { llm: { day_cost_usd: 3.235482 } });
+  put("2026-10-23", { llm: { day_cost_usd: 3.442062 } });
+  put("2026-10-24", { llm: { day_cost_usd: 43.121836 } });
+  put("2026-10-25", { llm: { day_cost_usd: 36.604146 }, spend: { override: true } });
+  put("2026-10-26", { llm: { day_cost_usd: 35.270381 }, spend: { override: true } });
+  put("2026-10-27", { llm: { day_cost_usd: 0 } });
+  const h = readSpendHistory(dir, "2026-10-28");
+  assert.ok(Math.abs(h.week_before_usd - 49.79938) < 1e-6, String(h.week_before_usd));
+  assert.ok(Math.abs(h.week_before_uncapped_usd - 71.874527) < 1e-6, String(h.week_before_uncapped_usd));
+  assert.equal(spendAllowance({ night_usd: 15, week_usd: 80 }, h).allowance_usd, 15);
+  assert.ok(Math.abs(spendAllowance({ night_usd: 10, week_usd: 50 }, h).allowance_usd - 0.20062) < 1e-6);
+});
+
+test("D125 test 4: daySpend carries the day total and the capped total; an override run adds nothing to the capped one", () => {
+  const h = { today_usd: 1, today_total_usd: 1, week_before_usd: 0, week_before_uncapped_usd: 0 };
+  assert.deepEqual(daySpend(h, 5, true), { day_cost_usd: 6, day_capped_usd: 1 });
+  assert.deepEqual(daySpend(h, 5, false), { day_cost_usd: 6, day_capped_usd: 6 });
 });
 
 test("spend allowance: the tighter cap binds and never goes negative; the shipped caps are sane", () => {

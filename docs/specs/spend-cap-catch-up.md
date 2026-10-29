@@ -1,12 +1,12 @@
 ---
 issue: 56
-status: draft
+status: implemented
 ---
 
 # Catch-up runs stop blocking the nightlies, and free stages run past the spend cap
 
-Status: proposed, 2026-10-28. Decision: D125 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone:
-M60 (reserved). Owner: waldo.
+Status: implemented, 2026-10-29 (section 12 records what was built and where it differs). Decision: D125 (appended
+2026-10-29). Milestone: M60. Owner: waldo.
 Scope: `config/budget.json` `spend_caps`, the spend window in `pipeline/lib/budget.ts`, the run report's `llm` and
 `spend` blocks (`pipeline/orchestrator/nightly.ts`, `schemas/run-report.json`), and how the stage executor
 (`pipeline/orchestrator/execute.ts`) reacts to `LlmBudgetExhausted`. Every claim below was verified against the tree
@@ -277,23 +277,99 @@ Docs at ship time: `docs/DECISIONS.md`, `docs/PLAN.md`, `docs/HANDOFF.md`, this 
 
 ## 11. Definition of Done
 
-- [ ] `spend_caps` are 15/80 and the `$comment` names D125.
-- [ ] Tests 1 to 11 exist, were red before their phase, and pass. `npm test` and `npm run typecheck` are green.
-- [ ] Test 3 (the real-history replay) gives allowance 15 under 15/80.
-- [ ] `git diff --stat origin/main -- content data` is empty.
-- [ ] A run with an override writes `day_capped_usd` without its own cost, and a run without one writes it with
+Ticked 2026-10-29, review of PR #57 (the League build, taken over by hand).
+
+- [x] `spend_caps` are 15/80 and the `$comment` names D125.
+- [x] Tests 1 to 11 exist, were red before their phase, and pass. `npm test` and `npm run typecheck` are green.
+      (Red was seen as `tsc` errors on the missing names, not as runtime failures; section 12.)
+- [x] Test 3 (the real-history replay) gives allowance 15 under 15/80.
+- [x] `git diff --stat origin/main -- content data` is empty.
+- [x] A run with an override writes `day_capped_usd` without its own cost, and a run without one writes it with
       its cost.
-- [ ] On `LlmBudgetExhausted`, the executor leaves the item untouched, keeps running non-LLM stages, and reports
+- [x] On `LlmBudgetExhausted`, the executor leaves the item untouched, keeps running non-LLM stages, and reports
       `llm_held`. `LlmInfraError` still aborts.
-- [ ] The `execute.ts` header and the `budget.ts` comment block (lines 130–133) describe the new behaviour.
-- [ ] The HANDOFF "Where things stand" bullet lists the section 7 operator steps.
-- [ ] D125 appended to docs/DECISIONS.md; PLAN M60 marked shipped; HANDOFF entry moved from "Open specs" to "Where
+- [x] The `execute.ts` header and the `budget.ts` comment block (lines 130–133) describe the new behaviour.
+- [x] The HANDOFF "Where things stand" bullet lists the section 7 operator steps.
+- [x] D125 appended to docs/DECISIONS.md; PLAN M60 marked shipped; HANDOFF entry moved from "Open specs" to "Where
       things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
       implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
       status lines into docs/built/spend-cap-catch-up.md; the PR's review moves them in (sdd-build section 4,
       sdd-review section 6).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-29)
+
+Built by waldo.Jarvis's League on `league/56-catch-up-runs-stop-blocking-the-nightlie` (PR #57, checkpoint commits
+`start` to `review`). The League's review blocked twice and quarantined the PR; the owner took the branch over and a
+manual session finished it (review of PR #57).
+
+**Built** (three phases in spec order):
+- Phase 1: `config/budget.json` `spend_caps` 15/80, and the `$comment` sentence naming D125.
+- Phase 2: `pipeline/lib/budget.ts` has `cappedSpend`, `daySpend` and a `readSpendHistory` that also returns
+  `today_total_usd` and `week_before_uncapped_usd`; the metering comment block says override runs are not counted.
+  `pipeline/orchestrator/nightly.ts` writes `daySpend(...)` into the report's `llm` block, logs `spend window:`, and
+  carries both totals through the budget-skipped heartbeat. `schemas/run-report.json` has the optional
+  `llm.day_capped_usd`, `spend.today_total_usd` and `spend.week_before_uncapped_usd`.
+- Phase 3: `pipeline/orchestrator/execute.ts` no longer stops on `LlmBudgetExhausted`: the item is held untouched
+  (`llm_held`), `llm_exhausted_at_calls` is recorded and one log line is written. `LlmInfraError` still aborts. The
+  header bullet is rewritten. `schemas/run-report.json` has the optional `execution.llm_held` and
+  `execution.llm_exhausted_at_calls`.
+- Tests 1 to 11 in `tests/unit/budget.test.ts`, `tests/unit/nightly.test.ts` and `tests/unit/execute.test.ts`.
+- Review of PR #57: `pipeline/summarize/changes-week.ts` stops the weekly change narrative on `LlmBudgetExhausted`
+  instead of rethrowing it, with a test in `tests/unit/changes-phases.test.ts` (red first: the test failed with the
+  uncaught `LlmBudgetExhausted`). See the first deviation.
+
+**Verified** (review of PR #57, node 24.22.1, after the rebase onto `origin/main`):
+- `npm run typecheck`: exit 0. `npm test`: 792 tests, 791 pass, 0 fail, 1 skipped. The League's hand-over said
+  `npm test` exited 1 in its environment with the output cut; here it is green on the League's head as well (790 pass,
+  0 fail, 1 skipped), so that exit 1 came from the League's environment, not from this build.
+- `git diff --stat origin/main -- content data`: empty.
+- Every post-execute LLM pass `nightly.ts` runs after the executor was checked for how it meets
+  `LlmBudgetExhausted` (section 1 says they "already stop on their own"): all stop the pass except
+  `narrateChangeWeeks`, fixed here.
+- The window, replayed by `readSpendHistory` over the committed run reports of 22 to 29 Oct on `origin/main`: the
+  10-29 run's window counted $46.56 (the run was capped at the old caps before this ships); the 10-30 run's counts
+  $43.12 (only 24 Oct) with $96.76 from override runs left out, allowance $15; the 10-31 run's counts $0.
+
+**Spec versus measured:**
+
+| Item | Spec | Test |
+|---|---|---|
+| `week_before_usd` for 28 Oct | 49.79938 | 49.79938 (±1e-6) |
+| `week_before_uncapped_usd` | 71.874527 | 71.874527 (±1e-6) |
+| allowance under 15/80 | 15 | 15 |
+| allowance under 10/50 | 0.200620 | 0.200620 (±1e-6) |
+
+**Intended change, not a deviation:** the existing test `"spend cap stops cleanly without failing the item; infra
+errors abort"` is renamed `"spend cap holds LLM stages without failing the item; deterministic stages go on; infra
+errors abort"` and asserts the new behaviour (test 11).
+
+**Deviations:**
+- **A capped night now runs every post-execute LLM pass, and one of them crashed on the allowance (fixed in the
+  review).** Before D125 a capped run ended `spend-cap`, and `nightly.ts` gives the post-execute passes quota only when
+  the executor ended `done` (or `memory`). A capped run now ends `done`, so those passes run with no allowance left.
+  All of them stop on `LlmBudgetExhausted` except `narrateChangeWeeks` (`pipeline/summarize/changes-week.ts`), which
+  rethrew it outside any `try` in `nightly.ts`: the first capped night with a new week of changes would have ended the
+  run before its report and commit. Cause: section 1 of this spec, which said the passes already stop on their own;
+  the build took that on trust. The review made it stop the pass; `LlmInfraError` still throws as before.
+- `SpendAllowance` declares `today_total_usd` and `week_before_uncapped_usd` optional, and `spendAllowance` requires
+  only `today_usd` and `week_before_usd`, so existing callers and tests that pass two fields still compile. Behaviour
+  is as in the spec.
+- `nightly.ts` does not keep the `readSpendHistory` result in a variable. At the end of the run it rebuilds the totals
+  from `report.spend` (which spreads the history) and calls `daySpend` with `report.spend.override`. Same result; the
+  heartbeat carry-over needs no extra code.
+- `settle` uses `r.llm_exhausted_at_calls === undefined` as its once-only flag instead of a separate `llmOff`.
+- Process: the plan (`docs/plans/spend-cap-catch-up.md`) is rated risky, which should have ended `plan-waiting` for
+  the owner's approval (section 1); the League built it without a recorded plan approval. The owner's takeover of the
+  branch stands in for that approval.
+
+**Operator steps still open** (section 7, after merge, on the Mini):
+- The next nightly (01:00 Europe/Brussels, or `gh workflow run nightly.yml --ref main`) logs `spend window:`; its
+  report `data/manifest/_runs/<date>.json` has `llm.day_capped_usd` and `spend.week_before_uncapped_usd`.
+- The first night that runs out of allowance shows `execution.llm_held > 0`, `stop_reason: "done"`, video items
+  moving from `discovered` past `fetched` in that run, and a run report written (the post-execute passes stopped on
+  the allowance without ending the run).
+
+## 13. Proposed edits to other files (applied 2026-10-29, see section 12)
 
 **`docs/DECISIONS.md`**, appended: the D125 text from section 3, ending
 "Spec `docs/specs/spend-cap-catch-up.md`, issue #56."
