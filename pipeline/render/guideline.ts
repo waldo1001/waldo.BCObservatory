@@ -169,9 +169,18 @@ function learnRows(dataDir: string): Map<string, string> {
 }
 
 interface PageContext { learn: Map<string, string>; changes: Map<string, RuleChange[]> }
+/**
+ * The rule paths a page may link as pages: those whose page exists, and the page being written. A rule in the tree whose
+ * blob did not read has no page, so a link to it goes to GitHub (the first run left 7 such, and one link broke
+ * validate:content); the after-the-loop re-render turns links to pages written later in a run into page links.
+ */
+export function rulesWithPages(rulePaths: Set<string>, contentDir: string, self: string): Set<string> {
+  return new Set([...rulePaths].filter((p) => p === self || exists(guidelinePagePath(contentDir, p))));
+}
+
 function writePage(item: ManifestItem, text: string, st: RunState, pc: PageContext, dataDir: string, contentDir: string, now: Date): boolean {
   const repoPath = String(item.meta?.path ?? item.id.split("/").slice(2).join("/"));
-  const joins = guidelineJoins({ repoPath, body: text, tree: st.tree, index: loadObjectIndex(dataDir), learnUrls: [...pc.learn.keys()], changesByPath: pc.changes, rulePaths: st.rulePaths });
+  const joins = guidelineJoins({ repoPath, body: text, tree: st.tree, index: loadObjectIndex(dataDir), learnUrls: [...pc.learn.keys()], changesByPath: pc.changes, rulePaths: rulesWithPages(st.rulePaths, contentDir, repoPath) });
   const page = renderGuidelinePage({ repoPath, text, blob: item.input_hash ?? "", commit: st.commit, publishedAt: item.published_at ?? null, copyright: st.copyright, learnTitles: pc.learn }, joins, now);
   const path = guidelinePagePath(contentDir, repoPath);
   if (exists(path) && stable(readText(path)) === stable(page)) return false;

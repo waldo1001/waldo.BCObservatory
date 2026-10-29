@@ -90,3 +90,19 @@ test("page path and id follow the repo path", () => {
   assert.equal(guidelinePagePath("/c", "community/knowledge/agents/x.md"), "/c/guidelines/community/knowledge/agents/x.md");
   assert.equal(guidelinePageId("community/knowledge/agents/x.md"), "guideline/community/knowledge/agents/x");
 });
+
+// D126 fix: the first run left 7 rules without a page (their blobs did not read); a link to one of them stayed a page
+// link and failed validate:content. Only a rule whose page exists (or the page being written) keeps a page link.
+test("rulesWithPages: a rule link stays a page link only when that page exists", async () => {
+  const { mkdtempSync, mkdirSync, writeFileSync } = await import("node:fs");
+  const { tmpdir } = await import("node:os");
+  const { join, dirname } = await import("node:path");
+  const { rulesWithPages } = await import("../../pipeline/render/guideline.js");
+  const content = mkdtempSync(join(tmpdir(), "bcobs-gl-pages-"));
+  const has = "microsoft/knowledge/style/foo.md", missing = "microsoft/knowledge/performance/job-queue-handlers-must-not-require-ui.md", self = "microsoft/knowledge/error-handling/x.md";
+  mkdirSync(dirname(join(content, "guidelines", has)), { recursive: true });
+  writeFileSync(join(content, "guidelines", has), "---\n---\n");
+  const set = rulesWithPages(new Set([has, missing, self]), content, self);
+  assert.deepEqual([...set].sort(), [self, has].sort());
+  assert.equal(rewriteRuleLinks("[q](../performance/job-queue-handlers-must-not-require-ui.md)", self, set, BLOB), `[q](${BLOB}${missing})`);
+});
