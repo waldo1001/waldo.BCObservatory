@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/link-api-parts-on-systemid-and-set-multiplicity.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.086Z",
+      "at": "2026-10-29T21:29:15.902Z",
       "blob": "2f92c0c1477461f23d03520a8f68c3c55ffc3a20",
       "words": 263,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:16.122Z",
+      "path": "content/guidelines/microsoft/knowledge/web-services/link-api-parts-on-systemid-and-set-multiplicity.md"
     }
   },
   "input_hash": "2f92c0c1477461f23d03520a8f68c3c55ffc3a20",
@@ -25,13 +29,54 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/web-services/link-api-parts-on-systemid-and-set-multiplicity.md",
-    "description": null,
+    "description": "Multiplicity is available from runtime 6.3 (Business Central 17.3) and defaults an API page part to a 1:N collection. The multiplicity-specific guidance therefore does not apply to BC 17.0 through 17.2.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "api-page",
+      "page-part",
+      "subpagelink",
+      "systemid",
+      "multiplicity",
+      "deep-insert",
+      "navigation-property"
+    ],
     "ai_usage": null,
-    "words": 263
+    "words": 263,
+    "identifiers": [
+      "SystemId",
+      "ZeroOrOne",
+      "TableRelation"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "web-services",
+      "keywords": [
+        "api-page",
+        "page-part",
+        "subpagelink",
+        "systemid",
+        "multiplicity",
+        "deep-insert",
+        "navigation-property"
+      ],
+      "bc_version": [
+        "17.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Multiplicity is available from runtime 6.3 (Business Central 17.3) and defaults an API page part to a 1:N collection. The multiplicity-specific guidance therefore does not apply to BC 17.0 through 17.2."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

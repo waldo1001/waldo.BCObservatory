@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/page-effective-filter-may-live-outside-the-diff.md",
   "published_at": "2026-07-17T12:17:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.182Z",
+      "at": "2026-10-29T21:29:18.029Z",
       "blob": "50eb014a29349a29a434d2d8f550c0e3337a41c6",
       "words": 175,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:18.123Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/page-effective-filter-may-live-outside-the-diff.md"
     }
   },
   "input_hash": "50eb014a29349a29a434d2d8f550c0e3337a41c6",
@@ -25,13 +29,55 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/page-effective-filter-may-live-outside-the-diff.md",
-    "description": null,
+    "description": "The effective filter on a drill-down, lookup, or list result set is frequently defined outside any single changed hunk — on the table via a SourceTableView property or a TableRelation, or through SetRange/SetFilter calls in unchanged code that runs before the result is shown.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "filter",
+      "drilldown",
+      "lookup",
+      "sourcetableview",
+      "tablerelation",
+      "setrange",
+      "false-positive"
+    ],
     "ai_usage": null,
-    "words": 175
+    "words": 175,
+    "identifiers": [
+      "SourceTableView",
+      "TableRelation",
+      "SetRange",
+      "SetFilter"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "filter",
+        "drilldown",
+        "lookup",
+        "sourcetableview",
+        "tablerelation",
+        "setrange",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The effective filter on a drill-down, lookup, or list result set is frequently defined outside any single changed hunk — on the table via a SourceTableView property or a TableRelation, or through SetRange/SetFilter calls in unchanged code that runs before the result is shown."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

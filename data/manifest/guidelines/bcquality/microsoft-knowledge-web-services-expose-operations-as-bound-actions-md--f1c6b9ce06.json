@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/expose-operations-as-bound-actions.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.075Z",
+      "at": "2026-10-29T21:29:15.787Z",
       "blob": "18908a7f452e0b380d15d1c0256a98fbe1aa25e9",
       "words": 279,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:15.868Z",
+      "path": "content/guidelines/microsoft/knowledge/web-services/expose-operations-as-bound-actions.md"
     }
   },
   "input_hash": "18908a7f452e0b380d15d1c0256a98fbe1aa25e9",
@@ -25,13 +29,54 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/web-services/expose-operations-as-bound-actions.md",
-    "description": null,
+    "description": "An API consumer that needs to *do* something to a record — post it, ship it, release it — should call an explicit operation, not mutate a field and hope a side effect fires.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "api-page",
+      "serviceenabled",
+      "bound-action",
+      "webserviceactioncontext",
+      "setactionresponse",
+      "side-effect",
+      "patch"
+    ],
     "ai_usage": null,
-    "words": 279
+    "words": 279,
+    "identifiers": [
+      "SetActionResponse",
+      "OnValidate",
+      "WebServiceActionContext"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "web-services",
+      "keywords": [
+        "api-page",
+        "serviceenabled",
+        "bound-action",
+        "webserviceactioncontext",
+        "setactionresponse",
+        "side-effect",
+        "patch"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An API consumer that needs to *do* something to a record — post it, ship it, release it — should call an explicit operation, not mutate a field and hope a side effect fires."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

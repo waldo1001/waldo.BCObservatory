@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/error-vs-message-telemetry-logging.md",
   "published_at": "2026-07-14T09:25:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.237Z",
+      "at": "2026-10-29T21:29:23.166Z",
       "blob": "2654dff5c92eeefbfddb3ca5675a32d960c5f109",
       "words": 140,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:23.385Z",
+      "path": "content/guidelines/microsoft/knowledge/privacy/error-vs-message-telemetry-logging.md"
     }
   },
   "input_hash": "2654dff5c92eeefbfddb3ca5675a32d960c5f109",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/privacy/error-vs-message-telemetry-logging.md",
-    "description": null,
+    "description": "When Error displays a dialog, Business Central emits the RT0030 Error method trace telemetry signal. Message, Confirm, and Notification do not emit that Error method trace signal.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "error",
+      "message",
+      "confirm",
+      "notification",
+      "telemetry",
+      "logging",
+      "ui-dialog"
+    ],
     "ai_usage": null,
-    "words": 140
+    "words": 140,
+    "identifiers": [
+      "TextConst"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "privacy",
+      "keywords": [
+        "error",
+        "message",
+        "confirm",
+        "notification",
+        "telemetry",
+        "logging",
+        "ui-dialog"
+      ],
+      "bc_version": [
+        "20.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "When Error displays a dialog, Business Central emits the RT0030 Error method trace telemetry signal. Message, Confirm, and Notification do not emit that Error method trace signal."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

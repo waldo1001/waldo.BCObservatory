@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/singleton-setup-tables-need-no-access-optimization.md",
   "published_at": "2026-07-14T09:26:29.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.226Z",
+      "at": "2026-10-29T21:29:23.192Z",
       "blob": "796c9181927069ae84eb055f7fc3c259a59a9513",
       "words": 124,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:23.414Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/singleton-setup-tables-need-no-access-optimization.md"
     }
   },
   "input_hash": "796c9181927069ae84eb055f7fc3c259a59a9513",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/singleton-setup-tables-need-no-access-optimization.md",
-    "description": null,
+    "description": "An access-pattern exemption is valid only for a table whose schema and write paths enforce at most one row for the relevant scope.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "singleton",
+      "setup-table",
+      "sales-receivables-setup",
+      "general-ledger-setup",
+      "setloadfields",
+      "bounded"
+    ],
     "ai_usage": null,
-    "words": 124
+    "words": 124,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "singleton",
+        "setup-table",
+        "sales-receivables-setup",
+        "general-ledger-setup",
+        "setloadfields",
+        "bounded"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An access-pattern exemption is valid only for a table whose schema and write paths enforce at most one row for the relevant scope."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

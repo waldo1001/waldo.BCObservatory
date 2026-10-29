@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/expose-systemid-as-the-api-key.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.081Z",
+      "at": "2026-10-29T21:29:15.892Z",
       "blob": "f34e9a4c7da240a8de92662ca98590d1d4d30fa0",
       "words": 279,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:16.060Z",
+      "path": "content/guidelines/microsoft/knowledge/web-services/expose-systemid-as-the-api-key.md"
     }
   },
   "input_hash": "f34e9a4c7da240a8de92662ca98590d1d4d30fa0",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/web-services/expose-systemid-as-the-api-key.md",
-    "description": null,
+    "description": "Every BC table carries a SystemId — an immutable GUID assigned at insert and never reused. API consumers must address a record through a key that does not change, otherwise a previously stored URL or @odata.id reference breaks the moment a user renames the underlying business key.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "api-page",
+      "odatakeyfields",
+      "systemid",
+      "stable-key",
+      "guid",
+      "business-key",
+      "editable-false"
+    ],
     "ai_usage": null,
-    "words": 279
+    "words": 279,
+    "identifiers": [
+      "SystemId",
+      "ODataKeyFields"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "web-services",
+      "keywords": [
+        "api-page",
+        "odatakeyfields",
+        "systemid",
+        "stable-key",
+        "guid",
+        "business-key",
+        "editable-false"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Every BC table carries a SystemId — an immutable GUID assigned at insert and never reused. API consumers must address a record through a key that does not change, otherwise a previously stored URL or @odata.id reference breaks the moment a user renames the underlying business key."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/bound-page-field-inherits-source-field-tooltip.md",
   "published_at": "2026-09-07T13:13:35.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.108Z",
+      "at": "2026-10-29T21:29:16.614Z",
       "blob": "00dc9b8f733fa254cac2f68a9562b98ae1631699",
       "words": 321,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:16.674Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/bound-page-field-inherits-source-field-tooltip.md"
     }
   },
   "input_hash": "00dc9b8f733fa254cac2f68a9562b98ae1631699",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/bound-page-field-inherits-source-field-tooltip.md",
-    "description": null,
+    "description": "Starting with BC24 (2024 release wave 1), runtime 13.0 supports ToolTip on table fields. A page field bound to a table field inherits the source field's ToolTip when the page control declares none of its own.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "tooltip",
+      "page-field",
+      "source-field",
+      "inheritance",
+      "aa0218",
+      "false-positive"
+    ],
     "ai_usage": null,
-    "words": 321
+    "words": 321,
+    "identifiers": [
+      "ToolTip"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "tooltip",
+        "page-field",
+        "source-field",
+        "inheritance",
+        "aa0218",
+        "false-positive"
+      ],
+      "bc_version": [
+        "24.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Starting with BC24 (2024 release wave 1), runtime 13.0 supports ToolTip on table fields. A page field bound to a table field inherits the source field's ToolTip when the page control declares none of its own."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/labels-declared-at-object-scope.md",
   "published_at": "2026-08-18T09:17:14.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.131Z",
+      "at": "2026-10-29T21:29:16.920Z",
       "blob": "91d75d7fd40d388dd5f79d8a0a5bc0e9f7dd888e",
       "words": 137,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:16.992Z",
+      "path": "content/guidelines/microsoft/knowledge/style/labels-declared-at-object-scope.md"
     }
   },
   "input_hash": "91d75d7fd40d388dd5f79d8a0a5bc0e9f7dd888e",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/labels-declared-at-object-scope.md",
-    "description": null,
+    "description": "The AL language supports Label variables at both object and procedure scope. Microsoft documents the Label data type without imposing an object-scope requirement, and the translation pipeline generates an XLF file containing all labels used by the extension.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "label",
+      "scope",
+      "procedure",
+      "translation",
+      "localization",
+      "xliff",
+      "false-positive"
+    ],
     "ai_usage": null,
-    "words": 137
+    "words": 137,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "label",
+        "scope",
+        "procedure",
+        "translation",
+        "localization",
+        "xliff",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The AL language supports Label variables at both object and procedure scope. Microsoft documents the Label data type without imposing an object-scope requirement, and the translation pipeline generates an XLF file containing all labels used by the extension."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

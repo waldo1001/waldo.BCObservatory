@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/unreleased-schema-change-needs-no-upgrade-path.md",
   "published_at": "2026-07-17T12:17:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.187Z",
+      "at": "2026-10-29T21:29:18.129Z",
       "blob": "248943fe9a981500b125229b0925ef5f6325438c",
       "words": 207,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:18.172Z",
+      "path": "content/guidelines/microsoft/knowledge/upgrade/unreleased-schema-change-needs-no-upgrade-path.md"
     }
   },
   "input_hash": "248943fe9a981500b125229b0925ef5f6325438c",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/upgrade/unreleased-schema-change-needs-no-upgrade-path.md",
-    "description": null,
+    "description": "Upgrade and migration findings protect data and schema that have already shipped to customers.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "released-baseline",
+      "unreleased",
+      "schema",
+      "migration",
+      "obsolete",
+      "data-loss",
+      "false-positive"
+    ],
     "ai_usage": null,
-    "words": 207
+    "words": 207,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "upgrade",
+      "keywords": [
+        "released-baseline",
+        "unreleased",
+        "schema",
+        "migration",
+        "obsolete",
+        "data-loss",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Upgrade and migration findings protect data and schema that have already shipped to customers."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/use-textbuilder-for-string-concatenation-in-loops.md",
   "published_at": "2026-07-14T09:26:29.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.232Z",
+      "at": "2026-10-29T21:29:23.180Z",
       "blob": "abd6acb9e26b7acf367781ca10e4eb2a4d5dbdef",
       "words": 116,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:23.366Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/use-textbuilder-for-string-concatenation-in-loops.md"
     }
   },
   "input_hash": "abd6acb9e26b7acf367781ca10e4eb2a4d5dbdef",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/use-textbuilder-for-string-concatenation-in-loops.md",
-    "description": null,
+    "description": "AL TextBuilder is a reference type intended for modifying text without creating a new Text value for each change. Microsoft documents it as the performance-oriented AL primitive for concatenating many strings, including loop-built output.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "textbuilder",
+      "string-concatenation",
+      "loop",
+      "append",
+      "immutable-text"
+    ],
     "ai_usage": null,
-    "words": 116
+    "words": 116,
+    "identifiers": [
+      "TextBuilder",
+      "AppendLine",
+      "ToText"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "textbuilder",
+        "string-concatenation",
+        "loop",
+        "append",
+        "immutable-text"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "AL TextBuilder is a reference type intended for modifying text without creating a new Text value for each change. Microsoft documents it as the performance-oriented AL primitive for concatenating many strings, including loop-built output."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

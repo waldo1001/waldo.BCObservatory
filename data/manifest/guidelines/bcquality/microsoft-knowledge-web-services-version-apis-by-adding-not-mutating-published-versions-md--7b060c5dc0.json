@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/version-apis-by-adding-not-mutating-published-versions.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.097Z",
+      "at": "2026-10-29T21:29:16.082Z",
       "blob": "1e8417b7ae950ddcad4991ed51debddef2f5d8d8",
       "words": 211,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:16.151Z",
+      "path": "content/guidelines/microsoft/knowledge/web-services/version-apis-by-adding-not-mutating-published-versions.md"
     }
   },
   "input_hash": "1e8417b7ae950ddcad4991ed51debddef2f5d8d8",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/web-services/version-apis-by-adding-not-mutating-published-versions.md",
-    "description": null,
+    "description": "Once an API version is published, external clients depend on its exact shape — entity names, fields, keys, and behavior — as a stable contract. APIVersion can list several versions on one API page, but every listed route is generated from that same page object and therefore exposes the same shape.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "api-page",
+      "apiversion",
+      "versioning",
+      "published-contract",
+      "breaking-change",
+      "backward-compatibility"
+    ],
     "ai_usage": null,
-    "words": 211
+    "words": 211,
+    "identifiers": [
+      "APIVersion"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "web-services",
+      "keywords": [
+        "api-page",
+        "apiversion",
+        "versioning",
+        "published-contract",
+        "breaking-change",
+        "backward-compatibility"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Once an API version is published, external clients depend on its exact shape — entity names, fields, keys, and behavior — as a stable contract. APIVersion can list several versions on one API page, but every listed route is generated from that same page object and therefore exposes the same shape."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

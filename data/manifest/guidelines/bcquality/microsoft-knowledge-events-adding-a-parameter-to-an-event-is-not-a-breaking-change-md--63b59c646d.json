@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/adding-a-parameter-to-an-event-is-not-a-breaking-change.md",
   "published_at": "2026-08-04T08:41:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.142Z",
+      "at": "2026-10-29T21:29:17.257Z",
       "blob": "330f9bf24531015c7593c2e9cd67c06f3894bd04",
       "words": 199,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:17.324Z",
+      "path": "content/guidelines/microsoft/knowledge/events/adding-a-parameter-to-an-event-is-not-a-breaking-change.md"
     }
   },
   "input_hash": "330f9bf24531015c7593c2e9cd67c06f3894bd04",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/events/adding-a-parameter-to-an-event-is-not-a-breaking-change.md",
-    "description": null,
+    "description": "Adding a parameter to an existing event publisher does not break existing subscribers. AL binds a subscriber to a publisher by the event name, and the subscriber's parameter list only has to be a subset of the publisher's, matched by name and type.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "event-parameters",
+      "signature",
+      "subscriber-binding",
+      "backward-compatibility",
+      "integration-event",
+      "breaking-change",
+      "false-positive"
+    ],
     "ai_usage": null,
-    "words": 199
+    "words": 199,
+    "identifiers": [
+      "IntegrationEvent",
+      "BusinessEvent"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "events",
+      "keywords": [
+        "event-parameters",
+        "signature",
+        "subscriber-binding",
+        "backward-compatibility",
+        "integration-event",
+        "breaking-change",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Adding a parameter to an existing event publisher does not break existing subscribers. AL binds a subscriber to a publisher by the event name, and the subscriber's parameter list only has to be a subset of the publisher's, matched by name and type."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

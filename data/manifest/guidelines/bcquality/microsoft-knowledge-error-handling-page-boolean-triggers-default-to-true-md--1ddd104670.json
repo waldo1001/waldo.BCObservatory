@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/error-handling/page-boolean-triggers-default-to-true.md",
   "published_at": "2026-07-17T12:17:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.171Z",
+      "at": "2026-10-29T21:29:17.620Z",
       "blob": "f637fae97c537556229ad43fbaffde75647a39f4",
       "words": 195,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:17.709Z",
+      "path": "content/guidelines/microsoft/knowledge/error-handling/page-boolean-triggers-default-to-true.md"
     }
   },
   "input_hash": "f637fae97c537556229ad43fbaffde75647a39f4",
@@ -25,13 +29,55 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/error-handling/page-boolean-triggers-default-to-true.md",
-    "description": null,
+    "description": "The Boolean page record triggers OnInsertRecord, OnModifyRecord, OnDeleteRecord, and OnQueryClosePage return true by default. When the trigger body omits an explicit return value, the platform treats the result as true and the operation proceeds.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "oninsertrecord",
+      "onmodifyrecord",
+      "ondeleterecord",
+      "onquerypage",
+      "boolean-trigger",
+      "exit",
+      "false-positive"
+    ],
     "ai_usage": null,
-    "words": 195
+    "words": 195,
+    "identifiers": [
+      "OnInsertRecord",
+      "OnModifyRecord",
+      "OnDeleteRecord",
+      "OnQueryClosePage"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "error-handling",
+      "keywords": [
+        "oninsertrecord",
+        "onmodifyrecord",
+        "ondeleterecord",
+        "onquerypage",
+        "boolean-trigger",
+        "exit",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The Boolean page record triggers OnInsertRecord, OnModifyRecord, OnDeleteRecord, and OnQueryClosePage return true by default. When the trigger body omits an explicit return value, the platform treats the result as true and the operation proceeds."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

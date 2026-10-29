@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/page-background-tasks.md",
   "published_at": "2026-07-15T08:55:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.193Z",
+      "at": "2026-10-29T21:29:18.232Z",
       "blob": "c4cccb8dca03a0389e5ccbdc31637e28ed1187fd",
       "words": 314,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:18.351Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/page-background-tasks.md"
     }
   },
   "input_hash": "c4cccb8dca03a0389e5ccbdc31637e28ed1187fd",
@@ -25,13 +29,60 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/page-background-tasks.md",
-    "description": null,
+    "description": "Pages that compute statistics, aggregates, or external lookups inline block the page from rendering until the calculation finishes, producing a visible freeze on FactBoxes, cue tiles, and calculated fields.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "enqueuebackgroundtask",
+      "async-calculation",
+      "child-session",
+      "factbox",
+      "cue-tile",
+      "onaftergetcurrrecord",
+      "responsive-page",
+      "read-only"
+    ],
     "ai_usage": null,
-    "words": 314
+    "words": 314,
+    "identifiers": [
+      "OnPageBackgroundTaskCompleted",
+      "OnAfterGetCurrRecord",
+      "OnPageBackgroundTaskError",
+      "RunPageBackgroundTask",
+      "OnAfterGetRecord",
+      "EnqueueBackgroundTask",
+      "OnOpenPage"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "enqueuebackgroundtask",
+        "async-calculation",
+        "child-session",
+        "factbox",
+        "cue-tile",
+        "onaftergetcurrrecord",
+        "responsive-page",
+        "read-only"
+      ],
+      "bc_version": [
+        "15.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Pages that compute statistics, aggregates, or external lookups inline block the page from rendering until the calculation finishes, producing a visible freeze on FactBoxes, cue tiles, and calculated fields."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/promoted-action-groups.md",
   "published_at": "2026-07-14T12:20:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.215Z",
+      "at": "2026-10-29T21:29:18.748Z",
       "blob": "e2e8883fc49d773f667daaadde9c48346fa7e658",
       "words": 349,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:18.801Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/promoted-action-groups.md"
     }
   },
   "input_hash": "e2e8883fc49d773f667daaadde9c48346fa7e658",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/promoted-action-groups.md",
-    "description": null,
+    "description": "Business Central ships a fixed vocabulary of promoted action groups, and users build muscle memory around where each kind of action lives.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "action-groups",
+      "area-promoted",
+      "actionref",
+      "showas",
+      "split-button",
+      "group-caption",
+      "navigate-group",
+      "entity-group"
+    ],
     "ai_usage": null,
-    "words": 349
+    "words": 349,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "action-groups",
+        "area-promoted",
+        "actionref",
+        "showas",
+        "split-button",
+        "group-caption",
+        "navigate-group",
+        "entity-group"
+      ],
+      "bc_version": [
+        "21.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Business Central ships a fixed vocabulary of promoted action groups, and users build muscle memory around where each kind of action lives."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

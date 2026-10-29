@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/set-required-api-page-properties.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.091Z",
+      "at": "2026-10-29T21:29:16.130Z",
       "blob": "24edc5d1eb300b265eb359bb079ac4e18d5eb414",
       "words": 189,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:16.248Z",
+      "path": "content/guidelines/microsoft/knowledge/web-services/set-required-api-page-properties.md"
     }
   },
   "input_hash": "24edc5d1eb300b265eb359bb079ac4e18d5eb414",
@@ -25,13 +29,59 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/web-services/set-required-api-page-properties.md",
-    "description": null,
+    "description": "An API page needs APIPublisher, APIGroup, EntityName, EntitySetName, and a backing SourceTable to define its routed entity. APIVersion is different: it is optional at the language level and defaults to beta.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "api-page",
+      "pagetype-api",
+      "apipublisher",
+      "apigroup",
+      "apiversion",
+      "entityname",
+      "entitysetname",
+      "sourcetable"
+    ],
     "ai_usage": null,
-    "words": 189
+    "words": 189,
+    "identifiers": [
+      "APIPublisher",
+      "APIGroup",
+      "EntityName",
+      "EntitySetName",
+      "SourceTable",
+      "APIVersion"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "web-services",
+      "keywords": [
+        "api-page",
+        "pagetype-api",
+        "apipublisher",
+        "apigroup",
+        "apiversion",
+        "entityname",
+        "entitysetname",
+        "sourcetable"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An API page needs APIPublisher, APIGroup, EntityName, EntitySetName, and a backing SourceTable to define its routed entity. APIVersion is different: it is optional at the language level and defaults to beta."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

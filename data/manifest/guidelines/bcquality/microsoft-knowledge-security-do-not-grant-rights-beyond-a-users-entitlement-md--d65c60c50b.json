@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/do-not-grant-rights-beyond-a-users-entitlement.md",
   "published_at": "2026-07-14T09:23:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.243Z",
+      "at": "2026-10-29T21:29:23.154Z",
       "blob": "bc9a4e84135df593ad9deaa7c94e617439cae805",
       "words": 213,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:23.394Z",
+      "path": "content/guidelines/microsoft/knowledge/security/do-not-grant-rights-beyond-a-users-entitlement.md"
     }
   },
   "input_hash": "bc9a4e84135df593ad9deaa7c94e617439cae805",
@@ -25,13 +29,46 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/do-not-grant-rights-beyond-a-users-entitlement.md",
-    "description": null,
+    "description": "Entitlements are license-level caps on what a user can access, derived automatically from the BC license tier. Permission sets are application-level grants administered on top of the entitlement.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "entitlement",
+      "permissionset",
+      "license",
+      "clipping",
+      "sandbox-drift"
+    ],
     "ai_usage": null,
-    "words": 213
+    "words": 213,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "entitlement",
+        "permissionset",
+        "license",
+        "clipping",
+        "sandbox-drift"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Entitlements are license-level caps on what a user can access, derived automatically from the BC license tier. Permission sets are application-level grants administered on top of the entitlement."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/appsource/keep-copilot-help-url-to-two-path-levels.md",
   "published_at": "2026-07-14T12:20:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.198Z",
+      "at": "2026-10-29T21:29:18.362Z",
       "blob": "9ceaa3b39b007aa14f3934448593236ddcc75676",
       "words": 197,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:18.408Z",
+      "path": "content/guidelines/microsoft/knowledge/appsource/keep-copilot-help-url-to-two-path-levels.md"
     }
   },
   "input_hash": "9ceaa3b39b007aa14f3934448593236ddcc75676",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/appsource/keep-copilot-help-url-to-two-path-levels.md",
-    "description": null,
+    "description": "The help URL declared in app.json is what Copilot uses to ground answers about your app. That URL may be at most two path levels deep (for example https://contoso.com/docs/myapp).",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "app-json",
+      "help-url",
+      "copilot",
+      "grounding",
+      "documentation",
+      "url-depth",
+      "contexturl"
+    ],
     "ai_usage": null,
-    "words": 197
+    "words": 197,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "appsource",
+      "keywords": [
+        "app-json",
+        "help-url",
+        "copilot",
+        "grounding",
+        "documentation",
+        "url-depth",
+        "contexturl"
+      ],
+      "bc_version": [
+        "27.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The help URL declared in app.json is what Copilot uses to ground answers about your app. That URL may be at most two path levels deep (for example https://contoso.com/docs/myapp)."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

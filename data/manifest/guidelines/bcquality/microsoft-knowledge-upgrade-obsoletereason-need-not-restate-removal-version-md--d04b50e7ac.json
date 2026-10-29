@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/obsoletereason-need-not-restate-removal-version.md",
   "published_at": "2026-07-21T07:45:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.159Z",
+      "at": "2026-10-29T21:29:17.543Z",
       "blob": "91659218838e2889b266b5f11c4e02f700f37d5b",
       "words": 218,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:17.613Z",
+      "path": "content/guidelines/microsoft/knowledge/upgrade/obsoletereason-need-not-restate-removal-version.md"
     }
   },
   "input_hash": "91659218838e2889b266b5f11c4e02f700f37d5b",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/upgrade/obsoletereason-need-not-restate-removal-version.md",
-    "description": null,
+    "description": "An obsoleted object, field, key, enum, or enum value carries both ObsoleteReason and ObsoleteTag, and the two properties have different jobs. ObsoleteReason is free text that explains why the element is obsolete and what replaces it.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "obsolete-reason",
+      "obsolete-tag",
+      "deprecation",
+      "version",
+      "metadata",
+      "false-positive"
+    ],
     "ai_usage": null,
-    "words": 218
+    "words": 218,
+    "identifiers": [
+      "ObsoleteReason",
+      "ObsoleteTag"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "upgrade",
+      "keywords": [
+        "obsolete-reason",
+        "obsolete-tag",
+        "deprecation",
+        "version",
+        "metadata",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An obsoleted object, field, key, enum, or enum value carries both ObsoleteReason and ObsoleteTag, and the two properties have different jobs. ObsoleteReason is free text that explains why the element is obsolete and what replaces it."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

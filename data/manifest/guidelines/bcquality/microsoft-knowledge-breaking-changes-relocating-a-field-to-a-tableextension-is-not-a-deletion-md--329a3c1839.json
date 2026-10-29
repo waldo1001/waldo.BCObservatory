@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/breaking-changes/relocating-a-field-to-a-tableextension-is-not-a-deletion.md",
   "published_at": "2026-08-04T08:41:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.136Z",
+      "at": "2026-10-29T21:29:16.914Z",
       "blob": "d37bfe83b88f0a5b4b43b9b5f43d1345ae0cd041",
       "words": 243,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:16.981Z",
+      "path": "content/guidelines/microsoft/knowledge/breaking-changes/relocating-a-field-to-a-tableextension-is-not-a-deletion.md"
     }
   },
   "input_hash": "d37bfe83b88f0a5b4b43b9b5f43d1345ae0cd041",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/breaking-changes/relocating-a-field-to-a-tableextension-is-not-a-deletion.md",
-    "description": null,
+    "description": "Moving a field out of a base-table definition (or a base-app layer modification of one) into a tableextension that extends the same table, within the same app and keeping the same field ID and name, is a relocation — not a deletion or a rename.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "table-field",
+      "tableextension",
+      "relocation",
+      "field-id",
+      "obsoletestate",
+      "breaking-change",
+      "false-positive"
+    ],
     "ai_usage": null,
-    "words": 243
+    "words": 243,
+    "identifiers": [
+      "ObsoleteReason",
+      "ObsoleteTag"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "breaking-changes",
+      "keywords": [
+        "table-field",
+        "tableextension",
+        "relocation",
+        "field-id",
+        "obsoletestate",
+        "breaking-change",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Moving a field out of a base-table definition (or a base-app layer modification of one) into a tableextension that extends the same table, within the same app and keeping the same field ID and name, is a relocation — not a deletion or a rename."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

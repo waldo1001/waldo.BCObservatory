@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/onaftergetcurrrecord-is-not-per-row.md",
   "published_at": "2026-07-21T07:45:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.153Z",
+      "at": "2026-10-29T21:29:17.448Z",
       "blob": "928ad027176a2128b3f5a6f20039613569ff6a49",
       "words": 218,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:17.522Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/onaftergetcurrrecord-is-not-per-row.md"
     }
   },
   "input_hash": "928ad027176a2128b3f5a6f20039613569ff6a49",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/onaftergetcurrrecord-is-not-per-row.md",
-    "description": null,
+    "description": "OnAfterGetCurrRecord fires only when the current/active record changes — typically once when the page opens and once each time the user selects a different row — not once for every row rendered in a list.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "onaftergetcurrrecord",
+      "onaftergetrecord",
+      "calcfields",
+      "n-plus-one",
+      "page-lifecycle",
+      "false-positive"
+    ],
     "ai_usage": null,
-    "words": 218
+    "words": 218,
+    "identifiers": [
+      "OnAfterGetCurrRecord",
+      "CalcFields",
+      "OnAfterGetRecord"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "onaftergetcurrrecord",
+        "onaftergetrecord",
+        "calcfields",
+        "n-plus-one",
+        "page-lifecycle",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "OnAfterGetCurrRecord fires only when the current/active record changes — typically once when the page opens and once each time the user selects a different row — not once for every row rendered in a list."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

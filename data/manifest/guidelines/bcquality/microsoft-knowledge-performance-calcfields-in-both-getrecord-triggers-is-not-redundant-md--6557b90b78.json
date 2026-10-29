@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/calcfields-in-both-getrecord-triggers-is-not-redundant.md",
   "published_at": "2026-07-17T12:17:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.177Z",
+      "at": "2026-10-29T21:29:17.938Z",
       "blob": "79c3b52e41e7af0df8c0688d10b049397d83557e",
       "words": 167,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:18.017Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/calcfields-in-both-getrecord-triggers-is-not-redundant.md"
     }
   },
   "input_hash": "79c3b52e41e7af0df8c0688d10b049397d83557e",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/calcfields-in-both-getrecord-triggers-is-not-redundant.md",
-    "description": null,
+    "description": "OnAfterGetRecord fires once per row as the page loads records into the view; OnAfterGetCurrRecord fires when a record becomes the active/current record.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "calcfields",
+      "onaftergetrecord",
+      "onaftergetcurrrecord",
+      "page-lifecycle",
+      "flowfield",
+      "false-positive"
+    ],
     "ai_usage": null,
-    "words": 167
+    "words": 167,
+    "identifiers": [
+      "OnAfterGetRecord",
+      "OnAfterGetCurrRecord",
+      "CalcFields"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "calcfields",
+        "onaftergetrecord",
+        "onaftergetcurrrecord",
+        "page-lifecycle",
+        "flowfield",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "OnAfterGetRecord fires once per row as the page loads records into the view; OnAfterGetCurrRecord fires when a record becomes the active/current record."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
