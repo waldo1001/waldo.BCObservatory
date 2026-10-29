@@ -1380,3 +1380,25 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   near $260 (guards nothing), resetting the window after a catch-up (state outside the run reports), a per-handler
   `llm: true` flag (every handler could get it wrong; `LlmBudgetExhausted` is thrown before any spend), counting
   `--week-cap` raises. Spec `docs/specs/spend-cap-catch-up.md`, issue #56.
+- **D126 BCQuality rules are pages, built without a model (2026-10-29, M61).** microsoft/BCQuality's knowledge base
+  (`microsoft/` and `community/`, 458 files on 2026-10-29) was ingested since M1 and never left `fetched`. Each rule and
+  review skill is now a page, `content/guidelines/<repo path>.md`, type `guideline`, tier official, review `derived`: the
+  rule's own text reproduced under its MIT licence with the copyright line and `content/guidelines/LICENSE-BCQuality.txt`,
+  its frontmatter facets and the identifiers it names, its `.good.al`/`.bad.al` files as GitHub links (no code copied),
+  the objects it names (typed references certain, unique multi-word code spans possibly related) and the Learn pages it
+  names (coded ids and unique method names), and the BCQuality pull requests whose files include it (exact path, both
+  directions: the change pages carry the rules in `links.guidelines`). The pillar's flow is `discovered → fetched →
+  published` with no quota; the LLM quota `guidelines` is removed, and an item read before the rule metadata existed is
+  read once more (`BCQ_META_RULE`, in `nextStage`). Search records of type `guideline` (site tab and MCP layer "Quality
+  rules", after Code) score at `GUIDELINE_FACTOR` 0.3: a rule's tags and summary repeat the identifiers it names, and on
+  shared words four events rules outranked the Learn article on event types (0.4 to 0.8 measured, still losing that
+  golden row). `bc_get_object` lists up to 10 rules naming the object from the search records; object pages do not
+  (D88: no bytes on object pages). The section is a home card and an About row after Code changes, not a nav entry (D90
+  keeps its eleven). Measured on the 2026-10-29 tree: 458 pages, 2.77 MB of markdown (the rule text alone is 1.35 MB),
+  439 rules joined to at least one pull request (828 rows), 85 BCQuality change pages joined (the other 9 that touch a
+  rule path name only rules since removed upstream), 104 rules with a Learn row (184 rows), 20 rules naming an object by
+  type (35 rows) and 178 possibly related objects, 384 with examples; `validate:content` clean over 30,105 pages.
+  The `custom/` layer stays out: upstream it holds only a template, and its content belongs in forks. MCP 0.13.0.
+  Rejected: search rows only (no page to read or link), an LLM summary per rule, topic hubs listing rules (an LLM pass,
+  later), inlining the examples (bytes), rules on object pages (D88), bare single-word code spans (noise: `local`,
+  `Status`), a nav entry (101 characters, over D90's one line at 900 px). Spec `docs/specs/bcquality-rules.md`, issue #58.

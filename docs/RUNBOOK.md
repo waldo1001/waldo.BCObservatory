@@ -35,7 +35,8 @@ infra/mini/80-verify.sh           # end-to-end self-check
 `npm run guard -- --dry-run` prints the decision as JSON: `go`, `skip` (a window at or above 60 % for 5 hours or
 70 % for 7 days) or `reduced` (usage unreadable). Without `--dry-run` it exits 0 / 3 / 4. Headroom is the number of
 percentage points left before the nearer limit; `config/budget.json` maps it to a quota factor (`headroom_scale`).
-Only LLM quotas scale; captions and code jobs do not. The token is `BCOBS_USAGE_OAUTH_TOKEN` (scope `user:profile`);
+Only LLM quotas scale; captions and code jobs do not. The `guidelines` pillar (BCQuality rules) is deterministic since
+D126 and has no quota: its items go `fetched` to `published` in the same run. The token is `BCOBS_USAGE_OAUTH_TOKEN` (scope `user:profile`);
 a `claude setup-token` token returns `unavailable:scope`.
 
 ## Source stage previews (D60)

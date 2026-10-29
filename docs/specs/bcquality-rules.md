@@ -1,12 +1,12 @@
 ---
 issue: 58
-status: draft
+status: implemented
 ---
 
 # BCQuality rules as pages: the knowledge base, not just its pull requests
 
-Status: proposed, 2026-10-29. Decision: D126 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M61
-(reserved). Owner: waldo.
+Status: implemented, 2026-10-29 (section 12 records what was built and where it differs). Decision: D126 (appended
+2026-10-29). Milestone: M61. Owner: waldo.
 Scope: the `guidelines` pillar for the `bcquality` source (flow, published stage, renderer, schema, index page), the
 search record and shard, the BCQuality change pages' `links.guidelines`, the leak gate, the site section, the MCP
 (`bc_search` type, layer, `bc_get_object` rows) and its release. Every claim below was verified against the tree at
@@ -451,29 +451,112 @@ Changed: `pipeline/lib/manifest.ts`, `pipeline/lib/queue.ts`, `pipeline/lib/budg
 
 ## 11. Definition of Done
 
-- [ ] All tests of section 5 exist, failed first, and pass; the full suite and typecheck are green.
-- [ ] `guidelines` flow is `discovered → fetched → published`; `quotaFor("guidelines", any stage)` is null; no
+- [x] All tests of section 5 exist, failed first, and pass; the full suite and typecheck are green.
+- [x] `guidelines` flow is `discovered → fetched → published`; `quotaFor("guidelines", any stage)` is null; no
       `guidelines` key in `config/budget.json` or `LLM_QUOTAS`.
 - [ ] After one run: 458 BCQuality items `published`, 458 pages under `content/guidelines/` (the count may differ if
       upstream changed; it equals the manifest's non-removed `bcquality` items), `LICENSE-BCQuality.txt` and
-      `llms.txt` present, `validate:content` clean, `check:leak` clean.
-- [ ] Every page has `review.state: derived`, no model text, the MIT footer with the commit, and validates against
+      `llms.txt` present, `validate:content` clean, `check:leak` clean. (Open: operator step 1 of section 12; a local
+      probe of all 458 items passed `validate:content`, the Mini run and its `check:leak` have not happened.)
+- [x] Every page has `review.state: derived`, no model text, the MIT footer with the commit, and validates against
       `schemas/frontmatter.guideline.json`.
-- [ ] BCQuality change pages that touch a rule file carry it in `links.guidelines` (94 on the 2026-10-29 data, or
+- [x] BCQuality change pages that touch a rule file carry it in `links.guidelines` (94 on the 2026-10-29 data, or
       the current equivalent), and the rule page lists them under "Changed by".
-- [ ] No object page changed in the run's diff because of this work (D88).
+- [x] No object page changed in the run's diff because of this work (D88).
 - [ ] Search returns `guideline` records; the two golden cases pass; `/guidelines/` and a rule page render on the
-      deployed site; the Pages tar grew by less than 10 MB.
+      deployed site; the Pages tar grew by less than 10 MB. (Built and measured locally: 9.64 MB, both golden rows hold
+      on the probe's pages; open: the deployed site and un-pending the rows, operator steps 1 and 2.)
 - [ ] MCP 0.13.0 published through `publish-mcp`; `bc_search` shows "Quality rules", `bc_get_object` lists naming
-      rules, `bc_cat` reads a rule.
-- [ ] `CONTENT-NOTICE.md` BCQuality row updated.
-- [ ] D126 appended to docs/DECISIONS.md; PLAN M61 marked shipped; HANDOFF entry moved from "Open specs" to "Where
+      rules, `bc_cat` reads a rule. (The three behaviours pass in `tests/unit/mcp.test.ts` over stdio; open: the publish,
+      operator step 3.)
+- [x] `CONTENT-NOTICE.md` BCQuality row updated.
+- [x] D126 appended to docs/DECISIONS.md; PLAN M61 marked shipped; HANDOFF entry moved from "Open specs" to "Where
       things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
       implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
       status lines into docs/built/bcquality-rules.md; the PR's review moves them in (sdd-build section 4,
       sdd-review section 6).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-29)
+
+Built by a manual `/sdd-build` session on branch `claude/build-bcquality-rules-833518` from `origin/main` at
+`c323735b1c`, rebased onto `08604c1abc` (D125), in three commits: phase 1 `761dc2393c` (flow, quota, parse, joins,
+renderer, schema, change pages, leak gate), phase 2 `e62ae26e73` (search record, scorer factor, site section, MCP
+0.13.0), then the ship-time edits.
+
+**Verified.**
+- Red first: phase 1's `guideline-parse`, `guideline-render`, `guideline-joins` and the queue test failed on missing
+  modules and the missing `BCQ_META_RULE` export; phase 2's search-index, sections, about, MCP and search-core tests
+  failed on the missing record fields, section, layer and `GUIDELINE_FACTOR`. The change-page join test was written
+  after `render/change.ts` (not red first).
+- `npm run typecheck` clean; `npm test` 803 tests, 802 passed, 0 failed, 1 skipped (as on main), and after the
+  rebase onto D125 814 tests, 813 passed, 0 failed; `validate:content`
+  (29,647 pages without the rule pages), `validate:sources` and `lint:workflows` clean.
+- A local probe rendered all 458 items from a full clone of microsoft/BCQuality at `a4593a1` into this tree's
+  `content/` (fetched and published handlers, `rerenderChangePages`, `rerenderGuidelinePages`, `renderGuidelineIndex`),
+  then: `validateContent` 0 errors over 30,105 pages; the only other files it changed were 85 BCQuality change pages
+  (`links.guidelines` and their unjoined lines), no object page (D88). With those pages present, the site and MCP golden
+  runners pass every row and both new D126 rows hold. The probe's output was discarded before each commit.
+- `npm run site:build` (Node 24, `--max-old-space-size=8192`) with the probe's pages: 30,156 pages; `/guidelines/`
+  groups the rules by domain, a rule page and a review skill render with every site link resolving (objects, changes,
+  the licence), the change page links its rule, the home page shows the Quality rules card. `scripts/site-size.ts`:
+  726.2 MiB with the pages against a baseline build of the same code without them, `guidelines` 9.40 MB of tar in
+  919 files.
+
+| measure | spec | measured |
+|---|---|---|
+| pages | 458 | 458 (435 rules, 23 skills) |
+| markdown | about 1.2 MB | 2.77 MB (rule text alone 1.35 MB; frontmatter 0.74 MB) |
+| change pages joined | 94 | 85: the other 9 name only rule paths since removed upstream |
+| rules with a pull request | 439 | 439 (828 rows, at most 17 on one rule) |
+| rules with a Learn row | 104, 190 rows | 104, 184 rows (at most 10) |
+| typed object references | 75 upstream | 35 resolved rows on 20 rules |
+| possibly related objects | - | 178 rows |
+| rules with examples | 384 | 384 |
+| Pages tar growth | under 10 MB | 9.64 MB (9,635,840 bytes; guidelines section 9.40 MB): inside the bound, with little room |
+
+**Deviations.**
+- Re-fetch rule (4.2): the spec put it in `planQueue`, but `advance()` accepts only `nextStage(item)`, so a planned
+  `fetched` on a `fetched` item would throw. The rule lives in `nextStage` (which `planQueue` calls): a `guidelines`
+  item at `fetched` or `published` with `meta.bcq_rule` below `BCQ_META_RULE` is due for `fetched`. Every `guidelines`
+  item's fetched stage writes `bcq_rule`, so no item loops.
+- `rerenderGuidelinePages` returns a `Promise<number>` (it reads the blobs with one `cat-file --batch`) and runs in its
+  own `guidelines` phase after the hotfix calls; the run report gains `guidelines: {rerendered, pages}`
+  (`schemas/run-report.json`).
+- Guideline rows never enter `data/links/crosslinks.json`: the page builds its own rows, as the hotfix pages do, so no
+  object page can get one (D88) and `buildCrossLinks` is unchanged.
+- The search record's field is `objects_named`, not `objects`: `PageRecord.objects` is already the change pages' count
+  of objects touched (D91). The frontmatter gains `identifiers` (the rule's D94/D95 identifiers), because the record is
+  built from frontmatter alone and its tags are keywords plus identifiers.
+- Scorer: section 4.5 said no weight change. With the pages present, four events rules outranked the Learn page
+  `devenv-event-types` on two golden rows ("IntegrationEvent vs BusinessEvent", 4.5 to 7.0 against 2.13). Owner's
+  choice: `GUIDELINE_FACTOR = 0.3` in `packages/search/src/score.ts` (0.4 to 0.8 measured and still failing that row;
+  dropping the identifiers from the tags lost the SetLoadFields row and did not fix the events one).
+- Nav: the owner chose a home card and an About row after Code changes instead of nav group 2; with "Quality rules"
+  the nav would be 101 characters, over D90's 90-character cap for one line at 900 px. The site search has a "Quality
+  rules" group and tab (optional, like Enum values).
+- Golden rows: the second row is `"agent setup user security id"` with a new `type` field on golden rows (the site
+  runner keeps hits of that type, the MCP runner passes it as `bc_search` `type`); `guideline:` is no query prefix. The
+  first row uses a new `top5` check. Both rows are `pending` until the first nightly commits `content/guidelines`
+  (they hold on the probe's pages).
+- The spec's Learn fixture "already in tests/fixtures" does not exist; the parse test uses an inline Learn page like
+  `git-page.test.ts`. The skill fixture is the real file's frontmatter, H1, intro and two sections.
+- The site also serves `guidelines/LICENSE-BCQuality.txt` (the pages link it), and rewrites that link to the section
+  root, since a relative link from a directory URL would miss it by one level.
+- `package-lock.json`: the workspace's version line edited to 0.13.0, as the release commits of 0.12.x did, instead of
+  running `npm install`.
+- Not done here (operator steps): the first run on the Mini, `check:leak` on the Mini, the deployed site check, the
+  `publish-mcp` dispatch, and un-pending the two golden rows.
+
+**Operator steps.**
+1. Push, then dispatch the pillar so the pages land (RUNBOOK dispatch form):
+   `gh workflow run nightly -f pillars=guidelines`. On the pushed tree: 458 `published` in
+   `data/manifest/guidelines/bcquality`, 458 pages under `content/guidelines`, `check:leak` clean in the run.
+2. Then remove `pending` from the two D126 rows of `tests/fixtures/search-golden.json` (the site runner prints
+   "HOLDS now, remove pending").
+3. After the Pages deploy shows `/guidelines/`: `gh workflow run publish-mcp.yml --ref main` (D40) for MCP 0.13.0.
+4. Close issue #58.
+
+## 13. Proposed edits to other files (applied 2026-10-29, see section 12)
 
 - `docs/DECISIONS.md`: append the D126 text of section 3, with the ship date and any deviations.
 - `docs/PLAN.md` section 5 (applied by the spec session as "proposed"; the builder marks it shipped):

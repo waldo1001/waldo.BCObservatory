@@ -28,7 +28,8 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
    `sources/` (footprints), `digests/` (weekly, with the deprecation radar), `changes/<repo>/<n>` (merged pull
    requests of Microsoft's Business Central repositories, BCApps ones joined to the object pages they changed, D61),
    `releases/al-<version>` (the AL Language extension's changelog, one page per version, D85), `hotfixes/<update>` (Microsoft
-   Support hotfix lists, one page per update, each entry anchored by its ID, D106). Lookups: `data/index/pages-*.json` +
+   Support hotfix lists, one page per update, each entry anchored by its ID, D106), `guidelines/<repo path>` (BCQuality
+   rules and review skills, one page per file, the rule's own text under MIT, D126). Lookups: `data/index/pages-*.json` +
    `index-manifest.json` (every page's metadata), `data/index/docs-objects.json` (Learn page <-> object by exact id),
    `data/code/drift.json`, `data/graph/` (the galaxy; `landed.json` also lists the week's code changes, D80). The MCP server (`packages/mcp`, `npx bc-observatory`) serves
    exactly these as bc_ tools (D108): bc_search, bc_brief, bc_ls, bc_cat, bc_get_object, bc_diff_object, bc_localization, bc_whats_new, bc_blog_footprint, bc_feedback, plus bc_status for health; brief

@@ -14,12 +14,6 @@ the owner applies `spec-approved` to that issue: branch `league/<issue>-<topic>`
 whose issue carries that label, or that has such a branch or PR, is the League's: do not build it by hand (take it over
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
-- **BCQuality rules as pages, D126** (`docs/specs/bcquality-rules.md`, M61, issue #58). Status: proposed
-  2026-10-29, nothing implemented. The 458 BCQuality items have sat at `fetched` since 2026-10-06 (no handler after
-  `fetched`, `pipeline/orchestrator/stages.ts:68`). Start with phase 1 task 2: the pillar's flow becomes
-  `discovered → fetched → published` with no quota (`pipeline/lib/manifest.ts:49`, `pipeline/lib/queue.ts:23`), then
-  the renderer. Until it lands, readers and agents see BCQuality only as its pull requests (`/changes/`, type `change`);
-  what a rule says is not in the Observatory.
 - **Layered answers, D106** (`docs/specs/layered-answers.md`, M44, issue #26). Status: built 2026-10-23 on stacked
   branches `build/layered-answers` and `-p1` to `-p6`, one PR per phase (#27 docs, #28 cross-links, #29 key facts, #30
   cautions, then hotfix lists, brief and search, never-less); merge in order. Not done until the first nightly ran:
@@ -41,6 +35,21 @@ edges and 1,350 unresolved, because a manual control run shared the BC30 checkou
 questions in its section 12).
 
 ## Where things stand
+
+**Built 2026-10-29 (MCP 0.13.0; needs a pillar run, then its publish):**
+- **BCQuality rules as pages (D126, M61, issue #58).** Every rule and review skill of microsoft/BCQuality
+  (`microsoft/`, `community/`: 458 files) becomes a page, `content/guidelines/<repo path>.md`, rendered without a model:
+  the rule's own text under MIT with the copyright line and `LICENSE-BCQuality.txt`, its examples as GitHub links, the
+  objects and Learn pages it names and the pull requests that changed it; BCQuality change pages link their rules
+  (`links.guidelines`). The `guidelines` pillar is `discovered → fetched → published` with no quota. Search type
+  `guideline` (scored at 0.3 so a rule does not outrank the Learn article on shared words), a Quality rules home card
+  and search tab (no nav entry, D90), an MCP "Quality rules" layer and the rules naming an object at the end of
+  `bc_get_object`. Built and measured locally (458 pages, 85 change pages joined, Pages tar +9.64 MB); nothing reaches
+  readers until a run writes the pages. Operator steps, in order: (1) `gh workflow run nightly -f pillars=guidelines`
+  (RUNBOOK dispatch form), then check 458 `published` and `check:leak` clean in the run; (2) remove `pending` from the
+  two D126 rows of `tests/fixtures/search-golden.json`; (3) after the Pages deploy shows `/guidelines/`,
+  `gh workflow run publish-mcp.yml --ref main` (D40) for MCP 0.13.0; (4) close issue #58. Spec section 12 lists the
+  deviations (scorer factor, no nav entry, `objects_named`, the re-fetch rule in `nextStage`).
 
 **Shipped 2026-10-29 (pipeline and config; takes effect on the next nightly on the Mini):**
 - **Catch-up runs no longer block the nightlies, and free stages run past the spend cap (D125, M60, issue #56).**
