@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html",
+  "input_hash": "ab46043123a93a552faa05b253d16523b28084b08606a043fd1e224279b41912",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-29T22:03:33.992Z",
+  "issues": [
+    "The summary and a key point say Premium licenses include 1,000 Copilot Credits per user per month. The post only names Sales, Customer Service, Finance and Supply Chain Management Premium. It does not name Business Central Premium, so agents could read the claim wrongly as a Business Central entitlement.",
+    "Rewrote the summary and key points to name the specific Premium licenses and to add the agent prerequisites. Quotes, features and systems are supported."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037582,
+    "posts_in_call": 4
+  }
+}

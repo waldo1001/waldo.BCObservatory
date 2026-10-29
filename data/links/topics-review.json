@@ -3348,20 +3348,20 @@
     "topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica": {
       "post/miljan-rs/639@91966edefac2357b": {
         "verdict": "drop",
-        "reason": "Covers the Contoso demo data tool for company creation, not supply planning setup best practices.",
-        "at": "2026-10-28T10:54:21.895Z",
+        "reason": "It's about creating demo data with the Contoso tool, not about best practices for setting up supply planning.",
+        "at": "2026-10-29T22:02:49.392Z",
         "v": 2
       },
-      "post/olofsimren-com/3865@330cc6674ae36c8b": {
+      "post/wingate365-com/https://blog.wingate365.com/2026/04/mission-implementation-post-go-live.html@c2cee63ecf25136e": {
         "verdict": "drop",
-        "reason": "A customer case study on custom automation, not setup best practices for supply planning.",
-        "at": "2026-10-28T10:54:21.895Z",
+        "reason": "It's about stabilising an ERP project after go-live, which this section doesn't document.",
+        "at": "2026-10-29T22:02:49.392Z",
         "v": 2
       },
       "video/cc6rEVDhlzs@5913c29ec7aa62c2": {
         "verdict": "drop",
-        "reason": "About customer templates versus SL classes, which this supply-planning best-practices section does not document.",
-        "at": "2026-10-28T10:54:21.895Z",
+        "reason": "Customer templates compared with Dynamics SL classes aren't supply planning setup; that belongs in the customer or template setup docs.",
+        "at": "2026-10-29T22:02:49.392Z",
         "v": 2
       }
     },
@@ -3674,110 +3674,62 @@
     "topic/business-central/copilot-and-agent-capabilities": {
       "post/aardvarklabs-blog/3315@0edf025d892d5b2f": {
         "verdict": "keep",
-        "reason": "Covers troubleshooting agents: their task logs, permissions, profiles and Copilot credit use, all of which fall under managing agent capabilities.",
-        "at": "2026-10-26T08:18:45.314Z",
+        "reason": "Troubleshooting agent tasks, permissions, profiles and Copilot credit consumption relates to managing agent capabilities.",
+        "at": "2026-10-29T22:03:05.490Z",
         "v": 2
       },
       "post/demiliani-com/11739@32e1caa7db380894": {
         "verdict": "keep",
-        "reason": "Explains what the Sales Order Agent does and how agent features are billed, both of which this section documents.",
-        "at": "2026-10-26T08:18:45.314Z",
+        "reason": "Discusses the Sales Order Agent and its billing, both covered by this section.",
+        "at": "2026-10-29T22:03:05.490Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-tech-days-2026/@a06895f00c29036d": {
         "verdict": "drop",
-        "reason": "A conference recap about how the community feels about AI agents; it doesn't explain any documented capability.",
-        "at": "2026-10-26T08:18:45.314Z",
+        "reason": "Conference reflection on AI agent sentiment; documents no specific capability in this section.",
+        "at": "2026-10-29T22:03:05.490Z",
         "v": 2
       },
       "post/thinkaboutit-be/7284@b770c836c51cb9d0": {
         "verdict": "keep",
-        "reason": "A release roundup, but it reports that the Payables Agent and Sales Order Agent are now generally available, and both are subtopics here.",
-        "at": "2026-10-26T08:18:45.314Z",
+        "reason": "Reports general availability of the Payables Agent and Sales Order Agent, which this section documents.",
+        "at": "2026-10-29T22:03:05.490Z",
         "v": 2
       },
       "post/thinkaboutit-be/7797@ffc5fc0ed33817e8": {
         "verdict": "drop",
-        "reason": "A catalog of launch sessions across many areas; it only names the Payables Agent without explaining it.",
-        "at": "2026-10-26T08:18:45.314Z",
+        "reason": "Announcement of a training session list; mentions agents only as one of many session topics.",
+        "at": "2026-10-29T22:03:05.490Z",
+        "v": 2
+      },
+      "post/wingate365-com/https://blog.wingate365.com/2025/12/bc-community-2025-wrapped-blogs-videos.html@327d523848eb8fe0": {
+        "verdict": "drop",
+        "reason": "Community blogging statistics; only shares the words AI and Copilot.",
+        "at": "2026-10-29T22:03:05.490Z",
         "v": 2
       },
       "post/yzhums-com/69476@404823025dc06f63": {
         "verdict": "keep",
-        "reason": "Walks through nearly all the Copilot features listed as subtopics of this section.",
-        "at": "2026-10-26T08:18:45.314Z",
+        "reason": "Overview of the Copilot features and agents this section lists.",
+        "at": "2026-10-29T22:03:05.490Z",
         "v": 2
       },
       "post/yzhums-com/69681@2f966b47e983d58d": {
         "verdict": "drop",
-        "reason": "A year-end index of blog posts with no content of its own on Copilot or agents.",
-        "at": "2026-10-26T08:18:45.314Z",
+        "reason": "Year-end blog index with no substantive content on these capabilities.",
+        "at": "2026-10-29T22:03:05.490Z",
         "v": 2
       },
       "video/0h8QBNmeORQ@d237eee5574f2b5e": {
         "verdict": "keep",
-        "reason": "Shows the Sales Order Agent and Payables Agent in action.",
-        "at": "2026-10-26T08:18:45.314Z",
+        "reason": "Demonstrates the Sales Order Agent and Payables Agent in action.",
+        "at": "2026-10-29T22:03:05.490Z",
         "v": 2
       },
       "video/1IIlArcHpOY@fa48c4fa0d4802da": {
         "verdict": "keep",
-        "reason": "Shows how to set up and run Business Central agents through instructions, review tools and task monitoring.",
-        "at": "2026-10-26T08:18:45.314Z",
-        "v": 2
-      },
-      "video/2uXVammbab0@fa3481568c91f678": {
-        "verdict": "keep",
-        "reason": "Demonstrates Chat with Copilot, analysis tabs, item substitutions and Copilot permissions documented in this section.",
-        "at": "2026-10-26T08:18:46.806Z",
-        "v": 2
-      },
-      "video/58yOwN3GY2Q@3f00b8503691c0f8": {
-        "verdict": "keep",
-        "reason": "Covers marketing text suggestions, bank reconciliation assist and analysis views, all Copilot capabilities here.",
-        "at": "2026-10-26T08:18:46.806Z",
-        "v": 2
-      },
-      "video/eDi32pS8eMo@7eaf3e57779c66aa": {
-        "verdict": "drop",
-        "reason": "About a third-party spreadsheet reporting app with AI agents, not a documented Business Central Copilot capability.",
-        "at": "2026-10-26T08:18:46.806Z",
-        "v": 2
-      },
-      "video/H5EuObmeF4o@12b92711090ce702": {
-        "verdict": "keep",
-        "reason": "Substantially covers Sales Order Agent, Payables Agent, Autofill, Summarize and Analysis assist enhancements.",
-        "at": "2026-10-26T08:18:46.806Z",
-        "v": 2
-      },
-      "video/JBGuaqk5nXk@ac7484d03508a957": {
-        "verdict": "drop",
-        "reason": "Copilot for Sustainability emissions is not among this section's documented capabilities; belongs to sustainability docs.",
-        "at": "2026-10-26T08:18:46.806Z",
-        "v": 2
-      },
-      "video/K0i5rvqPC_o@1953128c28677979": {
-        "verdict": "keep",
-        "reason": "Explains troubleshooting Business Central agents such as the Sales Order Agent, part of agent capabilities.",
-        "at": "2026-10-26T08:18:46.806Z",
-        "v": 2
-      },
-      "video/PeI-Jv4KVn8@d7787afd64d454ce": {
-        "verdict": "drop",
-        "reason": "Partner-built maintenance intake Copilot is not a capability documented in this section.",
-        "at": "2026-10-26T08:18:46.806Z",
-        "v": 2
-      },
-      "video/xJ8gYzvWnTI@557e7f0b0553d470": {
-        "verdict": "keep",
-        "reason": "Covers the agent task pane, Sales Order Agent and Payables Agent and managing agent tasks.",
-        "at": "2026-10-26T08:18:46.806Z",
-        "v": 2
-      },
-      "video/ygtO_oUPil4@cd46371bde298ea4": {
-        "verdict": "drop",
-        "reason": "Partner-built complaint management Copilot is not a capability documented in this section.",
-        "at": "2026-10-26T08:18:46.806Z",
+        "reason": "Covers agent instructions, review experience and task monitoring, which relate to working with Business Central agents.",
+        "at": "2026-10-29T22:03:05.490Z",
         "v": 2
       }
     },
@@ -4332,100 +4284,112 @@
       }
     },
     "topic/business-central/copilot-and-agent-capabilities/sales-order-agent": {
+      "video/7QJeTXzZaEk@3606b3ecbcc1c3b5": {
+        "verdict": "keep",
+        "reason": "A hands-on walkthrough of setting up the Sales Order Agent, including its email account and contact creation.",
+        "at": "2026-10-29T22:02:52.903Z",
+        "v": 2
+      },
       "video/I7i25zBfyEQ@5a83545c719b496d": {
         "verdict": "keep",
-        "reason": "Directly demonstrates Sales Order Agent setup, email integration and quote creation.",
-        "at": "2026-10-26T08:19:58.663Z",
+        "reason": "Covers how to set up and configure the Sales Order Agent, how it creates quotes and how its work is approved.",
+        "at": "2026-10-29T22:02:52.903Z",
         "v": 2
       },
       "video/j6gadQyB4gM@a447a0a6d93ac10a": {
         "verdict": "keep",
-        "reason": "Covers a configuration setting (custom email signatures) of the Sales Order Agent.",
-        "at": "2026-10-26T08:19:58.663Z",
+        "reason": "Covers one setting of the Sales Order Agent: custom email signatures.",
+        "at": "2026-10-29T22:02:52.903Z",
         "v": 2
       },
       "video/kwGEoxN46hk@a3a7c80d9c7e7223": {
         "verdict": "keep",
-        "reason": "Shows configuring and running multiple Sales Order Agent instances.",
-        "at": "2026-10-26T08:19:58.663Z",
+        "reason": "Shows how to set up several Sales Order Agents at once, including folder, review and contact-matching settings.",
+        "at": "2026-10-29T22:02:52.903Z",
         "v": 2
       },
       "video/MKuOgMWXJ_8@c36e072796ffcd3b": {
         "verdict": "drop",
-        "reason": "About a separate Sales Validation sample agent, not the Sales Order Agent.",
-        "at": "2026-10-26T08:19:58.663Z",
+        "reason": "Its subject is a different sample agent (the Sales Validation Agent), not the Sales Order Agent this section documents.",
+        "at": "2026-10-29T22:02:52.903Z",
         "v": 2
       },
       "video/Qmd6_5vYKDg@720332d74a6a74a4": {
         "verdict": "keep",
-        "reason": "Demonstrates the Sales Order Agent's item search and matching capabilities.",
-        "at": "2026-10-26T08:19:58.663Z",
+        "reason": "Shows how the Sales Order Agent recognises and finds items in customer emails.",
+        "at": "2026-10-29T22:02:52.903Z",
         "v": 2
       },
       "video/qP0id91bIlA@2955d3db6f4e0f12": {
         "verdict": "drop",
-        "reason": "General generative AI UX design guidance; its sales example is sales line suggestions, a sibling section.",
-        "at": "2026-10-26T08:19:58.663Z",
+        "reason": "About design principles for generative AI prompt dialogues in general; the sibling Copilot sections cover the features it shows, and it never mentions the Sales Order Agent.",
+        "at": "2026-10-29T22:02:52.903Z",
         "v": 2
       },
       "video/UIL8ej7mSKQ@04f9acd0b9e4c4a9": {
         "verdict": "keep",
-        "reason": "Release wave video covering new Sales Order Agent capabilities like automatic email processing and multiple shipping addresses.",
-        "at": "2026-10-26T08:19:58.663Z",
+        "reason": "A release-wave overview that demonstrates several new Sales Order Agent features.",
+        "at": "2026-10-29T22:02:52.903Z",
         "v": 2
       },
       "video/XhO4oFmoh1M@d8636d677abfca91": {
         "verdict": "keep",
-        "reason": "Introductory walkthrough of the Sales Order Agent's configuration, permissions and processing.",
-        "at": "2026-10-26T08:19:58.663Z",
+        "reason": "An introduction to the Sales Order Agent that covers its setup, permissions, task pane and quote processing.",
+        "at": "2026-10-29T22:02:52.903Z",
         "v": 2
       },
       "post/demiliani-com/11739@32e1caa7db380894": {
         "verdict": "keep",
-        "reason": "Explains what the Sales Order Agent does and how it is billed, which this section covers.",
-        "at": "2026-10-26T08:19:59.009Z",
+        "reason": "Explains how the Sales Order Agent processes emails and what it costs to run.",
+        "at": "2026-10-29T22:02:58.249Z",
+        "v": 2
+      },
+      "post/wingate365-com/https://blog.wingate365.com/2025/05/lets-setup-sales-order-agent-in.html@02b70376775b0735": {
+        "verdict": "keep",
+        "reason": "Shows how to set up and use the Sales Order Agent.",
+        "at": "2026-10-29T22:02:58.249Z",
+        "v": 2
+      },
+      "post/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html@112ff37dedeab19f": {
+        "verdict": "drop",
+        "reason": "Mainly about the Dynamics 365 licensing guide and Copilot Credits in general; the agent only gets a brief mention.",
+        "at": "2026-10-29T22:02:58.249Z",
         "v": 2
       },
       "post/yzhums-com/69256@68b78c02cfd0b7ea": {
         "verdict": "keep",
-        "reason": "Gives the Sales Order Agent's cost per action in credits, which bears on using the agent; kept because in doubt.",
-        "at": "2026-10-26T08:19:59.009Z",
+        "reason": "Gives the specific credit cost per Sales Order Agent action, which matters to anyone running the agent.",
+        "at": "2026-10-29T22:02:58.249Z",
         "v": 2
       },
       "post/yzhums-com/69476@404823025dc06f63": {
         "verdict": "drop",
-        "reason": "Overview of every Copilot feature that only briefly mentions sales order automation; the parent overview section fits it better.",
-        "at": "2026-10-26T08:19:59.009Z",
+        "reason": "An overview of every Copilot capability, which fits the parent section better than this one.",
+        "at": "2026-10-29T22:02:58.249Z",
         "v": 2
       },
       "video/_JkZCp64jNw@2217bab592982dae": {
         "verdict": "keep",
-        "reason": "Launch event that demonstrates several Sales Order Agent features: item availability, email insights, auto-create customer and PDF preview.",
-        "at": "2026-10-26T08:19:59.009Z",
+        "reason": "Demonstrates several Sales Order Agent features, including item availability, email insights, customer auto-creation and the PDF preview.",
+        "at": "2026-10-29T22:02:58.249Z",
         "v": 2
       },
       "video/1ht5nxubZ9c@1248c21a0cb21e8b": {
         "verdict": "keep",
-        "reason": "Shows how to set up the Sales Order Agent's mailbox and folders.",
-        "at": "2026-10-26T08:19:59.009Z",
+        "reason": "Covers configuring the agent's mailbox folder, personal or shared, which is a setting this section documents.",
+        "at": "2026-10-29T22:02:58.249Z",
         "v": 2
       },
       "video/2ujWYYecA2c@fca76e02397551a5": {
         "verdict": "keep",
-        "reason": "Walks through setting up and testing the Sales Order Agent.",
-        "at": "2026-10-26T08:19:59.009Z",
+        "reason": "Walks through setting up and testing the Sales Order Agent with the 'Try it out' experience.",
+        "at": "2026-10-29T22:02:58.249Z",
         "v": 2
       },
       "video/4nFViDASGhg@4be27f32b04abb35": {
         "verdict": "keep",
-        "reason": "Covers new Sales Order Agent features and settings.",
-        "at": "2026-10-26T08:19:59.009Z",
-        "v": 2
-      },
-      "video/7QJeTXzZaEk@3606b3ecbcc1c3b5": {
-        "verdict": "keep",
-        "reason": "Demonstrates a test drive of the Sales Order Agent with email integration.",
-        "at": "2026-10-26T08:19:59.009Z",
+        "reason": "Covers new Sales Order Agent features such as attachment analysis, custom instructions and capable-to-promise.",
+        "at": "2026-10-29T22:02:58.249Z",
         "v": 2
       }
     },
@@ -10384,128 +10348,116 @@
     "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c": {
       "post/aardvarklabs-blog/1609@e19ddf28b0a4650a": {
         "verdict": "keep",
-        "reason": "Shows how to build a Copilot capability in AL with Azure OpenAI: registering the capability, storing secrets, writing prompts and setting chat completion parameters.",
-        "at": "2026-10-26T10:54:32.512Z",
+        "reason": "Walks through building a Copilot capability in AL with Azure OpenAI, including how to register the capability and write prompts, which is exactly what this section documents.",
+        "at": "2026-10-29T22:02:56.392Z",
         "v": 2
       },
       "post/aardvarklabs-blog/1891@4b250d20fdf70c35": {
         "verdict": "keep",
-        "reason": "Builds an AI-assisted feature inside Business Central with AL calls to Azure OpenAI, which is what the developer tools for Copilot cover.",
-        "at": "2026-10-26T10:54:32.512Z",
+        "reason": "Shows how to build an AI-assisted process in AL that calls Azure OpenAI, which uses the Copilot developer tools.",
+        "at": "2026-10-29T22:02:56.392Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2663@7b4c6df359dde05f": {
         "verdict": "keep",
-        "reason": "Compares SetAuthorization with SetManagedResourceAuthorization, two ways the Copilot developer toolkit connects AL code to Azure OpenAI.",
-        "at": "2026-10-26T10:54:32.512Z",
+        "reason": "Compares SetAuthorization with SetManagedResourceAuthorization, two ways to authenticate when building Copilot features in AL.",
+        "at": "2026-10-29T22:02:56.392Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2965@d2bf757344173418": {
         "verdict": "keep",
-        "reason": "Builds a Copilot feature in AL that uses the Business Central managed AI resource with grounded search.",
-        "at": "2026-10-26T10:54:32.512Z",
+        "reason": "Builds AI features in AL on the Microsoft-managed Azure OpenAI resource with grounded search, which falls under the Copilot developer tools.",
+        "at": "2026-10-29T22:02:56.392Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3564@e823a16dc5428d34": {
         "verdict": "drop",
-        "reason": "About skills for GitHub Copilot in VS Code that help write AL code, not about building Copilot features into Business Central.",
-        "at": "2026-10-26T10:54:32.512Z",
+        "reason": "Covers VS Code skills for coding AL with GitHub Copilot's help, not building Copilot features into Business Central.",
+        "at": "2026-10-29T22:02:56.392Z",
         "v": 2
       },
       "post/gerardorenteria-blog/11354@96266a6dd9a4e882": {
         "verdict": "drop",
-        "reason": "About the Microsoft Learn Docs MCP server for GitHub Copilot while coding, not about Business Central Copilot developer tools.",
-        "at": "2026-10-26T10:54:32.512Z",
+        "reason": "Covers the Microsoft Learn Docs MCP server for IDE assistants, which is a development aid and not part of building Copilot features in Business Central.",
+        "at": "2026-10-29T22:02:56.392Z",
         "v": 2
       },
       "post/gerardorenteria-blog/13993@8ca8589c6cc08b08": {
         "verdict": "drop",
-        "reason": "About VS Code agent skills that check extension health, which is AI-assisted development tooling and not covered here.",
-        "at": "2026-10-26T10:54:32.512Z",
-        "v": 2
-      },
-      "post/jeremyvyska-com/1437@bad99f9197660009": {
-        "verdict": "drop",
-        "reason": "About tuning GitHub Copilot with domain knowledge for AL coding, not about building Copilot capabilities in Business Central.",
-        "at": "2026-10-26T10:54:32.512Z",
-        "v": 2
-      },
-      "post/jeremyvyska-com/1732@226690b03a4f0d46": {
-        "verdict": "drop",
-        "reason": "About using Claude agents to generate AL code at scale; the AI is the coding tool, not a Copilot feature in the product.",
-        "at": "2026-10-26T10:54:32.512Z",
-        "v": 2
-      },
-      "post/jeremyvyska-com/1756@9d0c810950064c85": {
-        "verdict": "drop",
-        "reason": "Announces training on agentic development workflows; it does not cover the Business Central Copilot developer toolkit.",
-        "at": "2026-10-26T10:54:32.512Z",
-        "v": 2
-      },
-      "post/jeremyvyska-com/1770@d6874e2d9529fdb6": {
-        "verdict": "drop",
-        "reason": "Announces classes on GitHub Copilot, Claude Code and BCQuality for AL development, which this section doesn't document.",
-        "at": "2026-10-26T10:54:32.512Z",
+        "reason": "Covers VS Code agent skills that check extension health, not building Copilot features into Business Central.",
+        "at": "2026-10-29T22:02:56.392Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875@b94f6d6fdd1fc4fe": {
         "verdict": "drop",
-        "reason": "About using GitHub Copilot to write AL code, not about building Copilot features with the AL developer tools for Copilot.",
-        "at": "2026-10-26T10:54:33.356Z",
+        "reason": "Covers 'vibe coding' (writing AL with GitHub Copilot's help), not building Copilot features in Business Central.",
+        "at": "2026-10-29T22:02:56.392Z",
         "v": 2
       },
       "post/thinkaboutit-be/8204@f01e08039a637ec9": {
         "verdict": "keep",
-        "reason": "Covers Microsoft-managed Azure OpenAI resources for building Copilot extensions, which is part of the Copilot developer tooling.",
-        "at": "2026-10-26T10:54:33.356Z",
+        "reason": "Announces general availability of Microsoft-managed Azure OpenAI resources for Copilot extensions, a capability for developers building Copilot features.",
+        "at": "2026-10-29T22:02:56.392Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8331@18306746658fa300": {
+        "verdict": "drop",
+        "reason": "Covers benchmarking AI coding agents on AL development tasks, not building Copilot features in Business Central.",
+        "at": "2026-10-29T22:02:56.392Z",
         "v": 2
       },
       "post/tine-staric-net/https://tine.staric.net/blog/2026/copilot-harness-default/@1d9dc9fbb36ac87e": {
         "verdict": "drop",
-        "reason": "About the GitHub Copilot setup in VS Code, not about developing Copilot capabilities in Business Central.",
-        "at": "2026-10-26T10:54:33.356Z",
+        "reason": "About GitHub Copilot's default setup in VS Code, not about building Copilot features in Business Central.",
+        "at": "2026-10-29T22:02:57.648Z",
+        "v": 2
+      },
+      "post/wingate365-com/https://blog.wingate365.com/2026/10/directions-emea-2026-paris-the-consultant-zone-and-two-panels.html@60425d254f1950b8": {
+        "verdict": "drop",
+        "reason": "Conference announcement about panels on AI prompts and consultant roles; it doesn't cover the Copilot developer tools.",
+        "at": "2026-10-29T22:02:57.648Z",
         "v": 2
       },
       "post/yzhums-com/67990@bef190f7e71656b7": {
         "verdict": "drop",
-        "reason": "GitHub Copilot agent tools for automating AL builds are development tooling, not the Copilot extensibility this section documents.",
-        "at": "2026-10-26T10:54:33.356Z",
+        "reason": "About GitHub Copilot agent tools that automate AL builds and publishing, not about building Copilot capabilities with the developer toolkit.",
+        "at": "2026-10-29T22:02:57.648Z",
         "v": 2
       },
       "video/7SSNcUMFtCw@0a389bab8e080e1f": {
         "verdict": "keep",
-        "reason": "Covers AI resources, the Azure OpenAI codeunit, authorization and safety for developers building Copilot features.",
-        "at": "2026-10-26T10:54:33.356Z",
+        "reason": "Covers AI Resources, Azure OpenAI authorization, the deployments codeunit and system prompts, which are part of the AL developer tools for Copilot.",
+        "at": "2026-10-29T22:02:57.648Z",
         "v": 2
       },
       "video/9zQZHfXK-PQ@7e65b7781b453b60": {
         "verdict": "drop",
-        "reason": "About using GitHub Copilot to automate documentation, not about building Copilot into Business Central.",
-        "at": "2026-10-26T10:54:33.356Z",
+        "reason": "About using GitHub Copilot to automate documentation; nothing about building Copilot features in apps.",
+        "at": "2026-10-29T22:02:57.648Z",
         "v": 2
       },
       "video/jWJc_D67Vfw@54f5ff97b64f3786": {
         "verdict": "drop",
-        "reason": "A general reflection on learning AI tools, not about the Business Central Copilot developer toolkit.",
-        "at": "2026-10-26T10:54:33.356Z",
+        "reason": "General talk on learning AI tools like ChatGPT and Claude, not Business Central Copilot development.",
+        "at": "2026-10-29T22:02:57.648Z",
         "v": 2
       },
       "video/lNASlydCidI@22cc3fc62993bd91": {
         "verdict": "keep",
-        "reason": "Walks through the generative AI developer toolkit: prompt dialog page, capability registration and the Azure OpenAI module.",
-        "at": "2026-10-26T10:54:33.356Z",
+        "reason": "Demonstrates the generative AI developer toolkit: the prompt dialog page type, the AI module, capability registration and Azure OpenAI calls.",
+        "at": "2026-10-29T22:02:57.648Z",
         "v": 2
       },
       "video/nbGw2g3KMXI@c6dea39b6e68bacc": {
         "verdict": "drop",
-        "reason": "About building AL agents, which the sibling section on designing and coding agents covers more exactly.",
-        "at": "2026-10-26T10:54:33.356Z",
+        "reason": "About building agents, which the sibling section 'Designing and coding agents (preview)' documents more exactly.",
+        "at": "2026-10-29T22:02:57.648Z",
         "v": 2
       },
       "video/tpAh4q3h8T8@8c73a10fc99e408b": {
         "verdict": "drop",
-        "reason": "Keynote mentions GitHub Copilot for coding and other tooling, not building Copilot capabilities.",
-        "at": "2026-10-26T10:54:33.356Z",
+        "reason": "Keynote on consultant productivity and GitHub Copilot in VS Code, not the Copilot developer toolkit.",
+        "at": "2026-10-29T22:02:57.648Z",
         "v": 2
       }
     },
@@ -11071,76 +11023,88 @@
       }
     },
     "topic/dev-itpro/integration/integrating-with-microsoft-dataverse": {
+      "post/wingate365-com/https://blog.wingate365.com/2025/05/business-central-power-pages-true.html@30e5c2035d9c8e21": {
+        "verdict": "keep",
+        "reason": "Covers Power Pages access to Business Central through Dataverse virtual tables, which is data virtualization.",
+        "at": "2026-10-29T22:02:57.844Z",
+        "v": 2
+      },
+      "post/wingate365-com/https://blog.wingate365.com/2025/08/dynamicsminds-2025-portoroz-slovenia.html@873da92a3c121534": {
+        "verdict": "drop",
+        "reason": "Conference recap focused on Business Central to Finance & Operations integration and page scripting; it mentions Dataverse only in passing.",
+        "at": "2026-10-29T22:02:57.844Z",
+        "v": 2
+      },
       "post/yzhums-com/63801@354ddfa36933341d": {
         "verdict": "drop",
-        "reason": "General REST API web services series; the sibling Web services section documents this more exactly.",
-        "at": "2026-10-28T10:54:18.840Z",
+        "reason": "Covers REST API web services, which the sibling Web services section documents.",
+        "at": "2026-10-29T22:02:57.844Z",
         "v": 2
       },
       "post/yzhums-com/63916@9c361de43f227a20": {
         "verdict": "keep",
-        "reason": "Overview of methods to integrate Business Central with Dataverse, including connector sync and virtual tables.",
-        "at": "2026-10-28T10:54:18.840Z",
+        "reason": "Overview of the ways to integrate Business Central with Dataverse, including connector sync and table mappings.",
+        "at": "2026-10-29T22:02:57.844Z",
         "v": 2
       },
       "post/yzhums-com/64775@8b57d989aaa742bb": {
         "verdict": "keep",
-        "reason": "Shows how to sync data with Dataverse by calling its APIs directly, an integration approach this section covers.",
-        "at": "2026-10-28T10:54:18.840Z",
+        "reason": "Demonstrates syncing data between Business Central and Dataverse through direct API calls.",
+        "at": "2026-10-29T22:02:57.844Z",
         "v": 2
       },
       "post/yzhums-com/71914@cb28a31eb9b30e49": {
         "verdict": "keep",
-        "reason": "Covers mapping new Dataverse fields in integration table mappings, which is part of data synchronization.",
-        "at": "2026-10-28T10:54:18.840Z",
+        "reason": "Covers mapping new Dataverse fields in Integration Table Mappings for synchronization.",
+        "at": "2026-10-29T22:02:57.844Z",
         "v": 2
       },
       "post/yzhums-com/76918@ef908c38a621d631": {
         "verdict": "keep",
-        "reason": "Covers the AL Table Proxy Generator tool, which creates integration tables for Dataverse sync.",
-        "at": "2026-10-28T10:54:18.840Z",
+        "reason": "The AL Table Proxy Generator creates the proxy tables used for Dataverse integration.",
+        "at": "2026-10-29T22:02:57.844Z",
         "v": 2
       },
       "post/yzhums-com/76990@37fae2c50185ce12": {
         "verdict": "keep",
-        "reason": "Troubleshoots an error that occurs when setting up the Dataverse integration.",
-        "at": "2026-10-28T10:54:18.840Z",
+        "reason": "Troubleshoots an error that occurs while setting up the Dataverse integration.",
+        "at": "2026-10-29T22:02:57.844Z",
         "v": 2
       },
       "video/-q8Gm7u7R2A@0d67791b5b3025d7": {
         "verdict": "keep",
-        "reason": "What's-new video on Dataverse integration covering data sync, virtual tables and mappings.",
-        "at": "2026-10-28T10:54:18.840Z",
+        "reason": "Covers Dataverse integration features: data sync, virtual tables and table mappings.",
+        "at": "2026-10-29T22:02:57.844Z",
         "v": 2
       },
       "video/auoHUd24Gfw@705914daca46158a": {
         "verdict": "keep",
-        "reason": "Demonstrates Business Central virtual tables in Dataverse, including multi-company settings, which falls under data virtualization.",
-        "at": "2026-10-28T10:54:18.840Z",
+        "reason": "Covers virtual table features such as multi-company settings and mapping plugins, used by Power Pages.",
+        "at": "2026-10-29T22:02:57.844Z",
         "v": 2
       },
       "video/fIOnGEARkKs@d5412edaf24800f8": {
         "verdict": "keep",
-        "reason": "Covers multi-company sync, field mappings and coupling in the Dataverse integration.",
-        "at": "2026-10-28T10:54:18.840Z",
+        "reason": "Covers multi-company and multi-currency Dataverse synchronization features.",
+        "at": "2026-10-29T22:02:57.844Z",
         "v": 2
       },
       "video/ItuCEHpaI1E@d6cb41bcfa204311": {
         "verdict": "keep",
         "reason": "Covers auto-applying configuration templates during Dataverse synchronization.",
-        "at": "2026-10-28T10:54:18.840Z",
+        "at": "2026-10-29T22:02:57.844Z",
         "v": 2
       },
       "video/qPInVj03wkY@1f8feded10ed5ae0": {
         "verdict": "drop",
-        "reason": "The subject is sustainability CSRD reporting; the Dataverse connection only supports that feature.",
-        "at": "2026-10-28T10:54:18.840Z",
+        "reason": "Its subject is sustainability CSRD reporting; Dataverse sync is only the mechanism used.",
+        "at": "2026-10-29T22:02:57.844Z",
         "v": 2
       },
       "video/YTA8c2XyTX4@404d00afda0b17c6": {
         "verdict": "keep",
-        "reason": "Covers virtual tables, data change events and synchronization in the Dataverse integration.",
-        "at": "2026-10-28T10:54:18.840Z",
+        "reason": "Covers virtual tables reaching general availability, data change events and Dataverse data synchronization.",
+        "at": "2026-10-29T22:02:57.844Z",
         "v": 2
       }
     },

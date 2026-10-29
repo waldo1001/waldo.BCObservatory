@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:56:08.282Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-10-29T22:01:08.388Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -281,10 +281,12 @@ features:
     roadmap_ids:
       - "577820"
   - name: Conditional code pattern for development and production
-    status: unclear
+    status: preview
     t: 601
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: Data residency control for AI calls
     status: preview
     t: 670
@@ -324,12 +326,10 @@ features:
     verified: false
     status_source: video
   - name: AI Resources model availability
-    status: preview
+    status: unclear
     t: 1111
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "577820"
+    status_source: video
   - name: Embeddings support
     status: announced
     t: 1136
@@ -432,14 +432,14 @@ It then covers how developers use them. The set managed resource authorization f
 | Content safety with blocking policy | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [5:14](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=314s) |  |
 | Set managed resource authorization function | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)), demoed | [8:09](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=489s) |  |
 | Bring your own Azure OpenAI subscription | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)), demoed | [1:23](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=83s) |  |
-| Conditional code pattern for development and production | status not stated, demoed | [10:01](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=601s) |  |
+| Conditional code pattern for development and production | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)), demoed | [10:01](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=601s) |  |
 | Data residency control for AI calls | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [11:10](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=670s) |  |
 | System prompts for AI safety | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [11:42](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=702s) |  |
 | Model deprecation notifications via telemetry | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [12:29](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=749s) |  |
 | Azure OpenAI Deployments code unit | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [9:18](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=558s) |  |
 | Data source capabilities in AI Resources | status not stated | [13:32](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=812s) |  |
 | Non-OpenAI models support | status not stated | [14:00](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=840s) |  |
-| AI Resources model availability | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [18:31](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=1111s) |  |
+| AI Resources model availability | status not stated | [18:31](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=1111s) |  |
 | Embeddings support | announced | [18:56](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=1136s) | "we do not support uh embeddings although we have plans in probably next release uh in a you know half a year to a" ([18:56](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=1136s)) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

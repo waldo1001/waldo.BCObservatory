@@ -2,7 +2,7 @@
 id: post/wingate365-com/https-blog-wingate365-com-2025-08-dynamicsminds-2025-portoroz-slovenia-html--fc223b1359
 type: post
 title: DynamicsMinds 2025 - PortoroÅ¾, Slovenia
-summary: "Conference coverage of two presentations at DynamicsMinds 2025 in Slovenia: integration techniques from Business Central to Finance & Operations, and page scripting tool capabilities for acceptance testing in the BC web client."
+summary: The author's write-up of the two talks he co-presented at DynamicsMinds 2025 in Portoroz, Slovenia. The first was an introductory talk on BC to PP integration techniques, from lo-code through Virtual Tables and BC Data Sync to calling the API in code. The second covered using the Business Central page scripting tool to record and replay UI actions for acceptance testing.
 tier: community
 language: en
 tags:
@@ -14,16 +14,16 @@ tags:
   - finance & operations
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-29T22:03:25.622Z"
   flags: []
 generated:
-  at: "2026-10-29T21:55:26.564Z"
+  at: "2026-10-29T21:55:00.611Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: ca8cb9465da4c33b7925d6f1bd41704dfc3959da8a0aea27c18d42acc7302ba0
+  input_hash: 17415aa3f0014ad51966cf3c53d17b9f2329a6e262e2ae08b1baf9d92f06a746
 evidence:
   - kind: blog
     url: https://blog.wingate365.com/2025/08/dynamicsminds-2025-portoroz-slovenia.html
@@ -53,23 +53,32 @@ quotes: []
 code_objects_mentioned: []
 systems:
   - integration
-  - finance
   - platform
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Wingate365
+  favicon: https://blog.wingate365.com/favicon.svg
+  probed_at: "2026-10-29T21:59:58.301Z"
 ---
 
 # DynamicsMinds 2025 - PortoroÅ¾, Slovenia
 
-[Read the post](https://blog.wingate365.com/2025/08/dynamicsminds-2025-portoroz-slovenia.html) · Wingate365 (Andy Wingate) · 2025-08-31 · 441 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://blog.wingate365.com/2025/08/dynamicsminds-2025-portoroz-slovenia.html) · Wingate365 (Andy Wingate) · 2025-08-31 · 441 words · tier community · reviewed (checked by Opus)
 
-> Conference coverage of two presentations at DynamicsMinds 2025 in Slovenia: integration techniques from Business Central to Finance & Operations, and page scripting tool capabilities for acceptance testing in the BC web client.
+> The author's write-up of the two talks he co-presented at DynamicsMinds 2025 in Portoroz, Slovenia. The first was an introductory talk on BC to PP integration techniques, from lo-code through Virtual Tables and BC Data Sync to calling the API in code. The second covered using the Business Central page scripting tool to record and replay UI actions for acceptance testing.
 
 ## Key points
 
-- DynamicsMinds 2025 was held in Portoroż, Slovenia with over 1,000 attendees and 200+ sessions
-- The 4 Pillars of BC to PP Integration session covered lo-code approaches, Virtual Tables, BC Data Sync, and API calling
-- Page Scripting Tool enables recording UI interactions like opening pages, selecting actions, and filling fields, then replaying them with real-time status feedback
-- The community atmosphere emphasized warm hospitality and camaraderie among participants
+- DynamicsMinds 2025 in Portoroz had over 1,000 attendees, 200+ sessions and close to 200 speakers
+- The BC to PP integration talk compared lo-code, Virtual Tables, BC Data Sync and API calls in code, with reasoning for when to use each
+- The page scripting tool records UI interactions such as opening pages, choosing actions and filling fields, then replays them with real-time success or failure feedback
+- Audience discussion led to the idea of using AI to generate page script YAML files for a future talk
 
 ## Context
 

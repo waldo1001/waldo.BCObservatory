@@ -2,7 +2,7 @@
 id: post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97
 type: post
 title: Ask AI about Dynamics Licensing
-summary: "The December 2025 Dynamics 365 Licensing Guide introduces Copilot Credits as a consumption-based currency for AI agents, with Business Central gaining two new prebuilt agents: Sales Order Agent for automating customer email-based order capture, and Payables Agent for invoice processing and approval routing. Premium license holders receive 1,000 Copilot Credits per user per month, and the core Business Central licensing structure remains unchanged."
+summary: Compares the December 2025 Dynamics 365 Licensing Guide with the July 2025 version. Business Central gets two prebuilt agents, Sales Order Agent and Payables Agent, which need a Business Central license plus Copilot Credits, a consumption currency pooled per tenant. Sales, Customer Service, Finance and Supply Chain Management Premium include 1,000 credits per user per month, and Business Central license types are unchanged.
 tier: community
 language: en
 tags:
@@ -15,16 +15,16 @@ tags:
   - december 2025 update
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-29T22:03:33.992Z"
   flags: []
 generated:
-  at: "2026-10-29T21:55:24.593Z"
+  at: "2026-10-29T21:55:00.611Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: a03d64e8087d2607077dd607c5e724c504bd391618724e23f4a4db396cf4dbd8
+  input_hash: 131a1c87582b84e2b879ab2b8f302231d32f1e30be016714c19b47238b793aca
 evidence:
   - kind: blog
     url: https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html
@@ -76,21 +76,31 @@ systems:
   - finance
 versions_mentioned:
   - December 2025
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Wingate365
+  favicon: https://blog.wingate365.com/favicon.svg
+  probed_at: "2026-10-29T21:59:53.590Z"
 ---
 
 # Ask AI about Dynamics Licensing
 
-[Read the post](https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html) · Wingate365 (Andy Wingate) · 2025-12-14 · 1102 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html) · Wingate365 (Andy Wingate) · 2025-12-14 · 1102 words · tier community · reviewed (checked by Opus)
 
-> The December 2025 Dynamics 365 Licensing Guide introduces Copilot Credits as a consumption-based currency for AI agents, with Business Central gaining two new prebuilt agents: Sales Order Agent for automating customer email-based order capture, and Payables Agent for invoice processing and approval routing. Premium license holders receive 1,000 Copilot Credits per user per month, and the core Business Central licensing structure remains unchanged.
+> Compares the December 2025 Dynamics 365 Licensing Guide with the July 2025 version. Business Central gets two prebuilt agents, Sales Order Agent and Payables Agent, which need a Business Central license plus Copilot Credits, a consumption currency pooled per tenant. Sales, Customer Service, Finance and Supply Chain Management Premium include 1,000 credits per user per month, and Business Central license types are unchanged.
 
 ## Key points
 
-- Two new AI agents for Business Central automate sales order processing from emails and accounts payable invoice handling with real-time item availability checks and approval routing
-- Copilot Credits serve as a consumption-based currency pooled at tenant level, with Premium licenses including 1,000 credits per user monthly
-- Core Business Central licensing (Essentials, Premium, Team Members, Device) stays the same; agents enhance existing platform without replacing current structure
-- Additional Copilot Credits can be purchased through pay-as-you-go meters, credit pack subscriptions, or pre-purchase plans
-- Administrator roles in Entra (Power Platform Admin or Dynamics 365 Admin) no longer require licenses for application configuration
+- Sales Order Agent reads customer emails to capture orders, asks follow-up questions, checks item availability and can send quotes; Payables Agent captures, matches and routes vendor invoices for approval
+- Using these agents requires an active Business Central license plus Copilot Credits
+- Credits are pooled per tenant and included at 1,000 per user per month only for the named Sales, Customer Service, Finance and Supply Chain Management Premium licenses; more can be bought via pay-as-you-go, credit packs or a pre-purchase plan
+- Business Central Essentials, Premium, Team Members and Device licenses stay as before
+- Users holding Power Platform Administrator or Dynamics 365 Administrator roles in Entra need no license to configure and administer apps
 
 ## Quotes
 

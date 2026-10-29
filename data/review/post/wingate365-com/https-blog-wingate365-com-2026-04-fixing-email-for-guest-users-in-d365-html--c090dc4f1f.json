@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/wingate365-com/https://blog.wingate365.com/2026/04/fixing-email-for-guest-users-in-d365.html",
+  "input_hash": "85199d318567e62486e00a52f13079027f0628dc747bcc7dcdadc104e4670697",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-29T22:03:30.374Z",
+  "issues": [
+    "Key point on token refresh overstated a fixed 60 minute refresh; the post says tokens expire after roughly an hour and are then silently renewed via the refresh token.",
+    "Attachments and multi-tenancy are Phase 3 plans, not current capabilities; key points now make that clear while features are kept as discussed roadmap items.",
+    "Objects, versions, quotes and summary are supported by the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036429,
+    "posts_in_call": 4
+  }
+}

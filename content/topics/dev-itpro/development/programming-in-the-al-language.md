@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:00:22.681Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-29T22:03:43.939Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -367,6 +367,7 @@ links:
     - post/nataliekarolak-com/1855
     - post/nataliekarolak-com/3653
     - post/nataliekarolak-com/4184
+    - post/wingate365-com/https-blog-wingate365-com-2025-12-bc-community-2025-wrapped-blogs-videos-html--2d9bff194b
     - post/yzhums-com/65768
     - post/yzhums-com/70325
   guidelines: []
@@ -400,7 +401,7 @@ coverage:
   learn: 340
   code: 36
   video: 3
-  blog: 6
+  blog: 7
   guideline: 0
 bc_forms:
   - 16
@@ -502,6 +503,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Snippet: StrMenu from Enum list](../../../posts/nataliekarolak-com/1855.md) (community post): "AL code snippet that uses StrMenu to let users select from a filtered"
 - [Docs: What’s new in BC 27 for developers](../../../posts/nataliekarolak-com/3653.md) (community post): "New AL methods for GUID creation, truncate operations, text manipulation"
 - [Using Substring to replace CopyStr](../../../posts/nataliekarolak-com/4184.md) (community post): "Using Substring to replace CopyStr for improved code readability"
+- [BC Community 2025 Wrapped - Blogs, Videos, etc](../../../posts/wingate365-com/https-blog-wingate365-com-2025-12-bc-community-2025-wrapped-blogs-videos-html--2d9bff194b.md) (community post): "AL development dominated discussions with 996 mentions, while AI and Copilot surged"
 - [Dynamics 365 Business Central: A simple Date Formula testing tool](../../../posts/yzhums-com/65768.md) (community post): "Date Formula testing tool for Dynamics 365 Business Central helps developers"
 - [Dynamics 365 Business Central: How to split a string on a fixed character (delimiter or separator) via AL](../../../posts/yzhums-com/70325.md) (community post): "String splitting in AL using the Text.Split method to parse delimited data"
 - [... but can it play DOOM? (In Business Central)](../../../videos/a8W1x0xwkv4.md) (video): "AL development; user control host; typescript; webgl rendering; javascript interop"

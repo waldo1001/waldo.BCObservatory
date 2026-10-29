@@ -7,7 +7,7 @@
   "url": "https://blog.wingate365.com/2025/10/south-coast-summit-2025-ai-driven-page.html",
   "published_at": "2025-10-18T21:12:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-29T21:55:00.611Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-29T21:55:26.019Z",
       "path": "vault:posts/wingate365-com/https-blog-wingate365-com-2025-10-south-coast-summit-2025-ai-driven-page-html--8f5384bed0.md",
       "words": 1066
+    },
+    "extracted": {
+      "at": "2026-10-29T21:55:34.473Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.006513
+    },
+    "summarized": {
+      "at": "2026-10-29T21:55:34.474Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-29T21:55:34.475Z"
+    },
+    "published": {
+      "at": "2026-10-29T21:55:34.484Z",
+      "path": "content/posts/wingate365-com/https-blog-wingate365-com-2025-10-south-coast-summit-2025-ai-driven-page-html--8f5384bed0.md"
     }
   },
   "input_hash": null,
@@ -23,5 +41,10 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "04a8435cef1ee0a5f6e4e9b1132bb014e46b57884ae99a9e593c96018a15c8bc"
+  "output_hash": "411e73bf757b5de87f2c8d4ebbe29168cbcf863fd3bf420a0fdf93a40a6980a4",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-29T22:03:33.992Z"
+  }
 }

@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/wingate365-com/https://blog.wingate365.com/2025/11/delivering-bc-in-age-of-ai-which-soft.html",
+  "input_hash": "d817ccbfa9a30be72d96ecf03ec6ce891606314f5fc6ff477193dfec18223b84",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-29T22:03:33.992Z",
+  "issues": [
+    "The post is a placeholder: one teaser sentence plus a link to session slides, with no real content.",
+    "The key points claim a discussion of competencies that the post does not contain. The systems (development, administration) and the features are not supported by the text.",
+    "There is not enough content to write a grounded summary and key points."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037582,
+    "posts_in_call": 4
+  }
+}

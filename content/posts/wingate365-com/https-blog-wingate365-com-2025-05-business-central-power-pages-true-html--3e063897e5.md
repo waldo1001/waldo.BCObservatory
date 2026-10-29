@@ -2,7 +2,7 @@
 id: post/wingate365-com/https-blog-wingate365-com-2025-05-business-central-power-pages-true-html--3e063897e5
 type: post
 title: Business Central + Power Pages = TRUE - ColorCloud 2025
-summary: Business Central can be connected to external audiences through Power Pages using Virtual Tables in Dataverse, enabling new integration opportunities. The post covers basic use cases, setup requirements, licensing considerations, and practical implementations including external login management synchronized between Business Central contacts and Dataverse.
+summary: The author's recap of a joint ColorCloud 2025 session exploring how Power Pages can let external users interact with Business Central through Dataverse Virtual Tables. It covered use cases, getting started, easy wins, hard parts, licensing and when to walk away. The post also mentions another speaker's solution for managing external logins from BC Contacts synced with Dataverse using Power Automate.
 tier: community
 language: en
 tags:
@@ -15,16 +15,16 @@ tags:
   - integration
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-29T22:03:25.622Z"
   flags: []
 generated:
-  at: "2026-10-29T21:55:31.785Z"
+  at: "2026-10-29T21:55:00.611Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: c32259bc674dc04220853ca18be6952abfef090c2427f2b20f1a3942463faddd
+  input_hash: e52171348b209b2e87455ab071a85e249258afd62e75376cf4062350a9b736fe
 evidence:
   - kind: blog
     url: https://blog.wingate365.com/2025/05/business-central-power-pages-true.html
@@ -66,21 +66,30 @@ systems:
   - crm
   - administration
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Wingate365
+  favicon: https://blog.wingate365.com/favicon.svg
+  probed_at: "2026-10-29T22:00:00.619Z"
 ---
 
 # Business Central + Power Pages = TRUE - ColorCloud 2025
 
-[Read the post](https://blog.wingate365.com/2025/05/business-central-power-pages-true.html) · Wingate365 (Andy Wingate) · 2025-05-03 · 322 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://blog.wingate365.com/2025/05/business-central-power-pages-true.html) · Wingate365 (Andy Wingate) · 2025-05-03 · 322 words · tier community · reviewed (checked by Opus)
 
-> Business Central can be connected to external audiences through Power Pages using Virtual Tables in Dataverse, enabling new integration opportunities. The post covers basic use cases, setup requirements, licensing considerations, and practical implementations including external login management synchronized between Business Central contacts and Dataverse.
+> The author's recap of a joint ColorCloud 2025 session exploring how Power Pages can let external users interact with Business Central through Dataverse Virtual Tables. It covered use cases, getting started, easy wins, hard parts, licensing and when to walk away. The post also mentions another speaker's solution for managing external logins from BC Contacts synced with Dataverse using Power Automate.
 
 ## Key points
 
-- Virtual Tables in Dataverse enable Power Pages to interact with Business Central data
-- External users can access Business Central functionality through Power Pages interfaces
-- Setup involves Power Platform admin center and Power Platform CLI tools
-- Integration patterns include syncing contacts and managing external logins via Power Automate
-- Use cases range from easy wins to complex implementations requiring careful licensing evaluation
+- Virtual Tables in Dataverse, supported in Power Pages, let external audiences interact with Business Central data
+- The session was explorative, working through use cases, getting started, easy wins, difficulties and licensing
+- The author worked in the Power Platform admin center and used the pac Power Platform CLI
+- Another speaker managed external logins from BC Contacts synced to Dataverse, issuing invites through Power Automate and logging them in BC
 
 ## Quotes
 

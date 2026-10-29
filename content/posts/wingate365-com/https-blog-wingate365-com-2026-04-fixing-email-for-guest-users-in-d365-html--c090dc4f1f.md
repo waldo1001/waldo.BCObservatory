@@ -15,16 +15,16 @@ tags:
   - identity
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-29T22:03:30.374Z"
   flags: []
 generated:
-  at: "2026-10-29T21:55:17.756Z"
+  at: "2026-10-29T21:55:00.611Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 0c0a5b194f126317e7be12b2e2fa4a72df85d256b52406ae23c2fb4bb7881f74
+  input_hash: 1dc6a2e6e46ead36f1fe8c917124069e9ddfe899c76b3ac31970b4f1197cdbf0
 evidence:
   - kind: blog
     url: https://blog.wingate365.com/2026/04/fixing-email-for-guest-users-in-d365.html
@@ -77,21 +77,43 @@ systems:
   - administration
 versions_mentioned:
   - 2026 wave 1
+cautions:
+  - kind: gotcha
+    quote: the built-in email connectors don't work properly for guest users
+    objects: []
+    events: []
+    versions:
+      - 2026 wave 1
+  - kind: preview-disclaimer
+    quote: the current release is a working proof of concept - Phase 1 and 2 are complete
+    objects: []
+    events: []
+    versions: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Wingate365
+  favicon: https://blog.wingate365.com/favicon.svg
+  probed_at: "2026-10-29T21:59:48.898Z"
 ---
 
 # Fixing Email for Guest Users in D365 Business Central
 
-[Read the post](https://blog.wingate365.com/2026/04/fixing-email-for-guest-users-in-d365.html) · Wingate365 (Andy Wingate) · 2026-04-26 · 957 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://blog.wingate365.com/2026/04/fixing-email-for-guest-users-in-d365.html) · Wingate365 (Andy Wingate) · 2026-04-26 · 957 words · tier community · reviewed (checked by Opus)
 
 > Guest users in Dynamics 365 Business Central cannot use the built-in email connectors for sending email. This post describes a Current User Email API extension that uses Microsoft Graph to enable guest users to send email as themselves via delegated authentication, requiring one-time admin setup and per-user consent.
 
 ## Key points
 
-- Built-in email connectors (Current User and M365/Shared Mailbox) fail for Entra B2B guest users due to cross-tenant identity limitations
-- The solution uses Microsoft Graph API with OAuth 2.0 Authorization Code plus PKCE flow to enable per-user email sending
-- Admin registers an Entra app once with Mail.Send permission, users consent once through a popup, then email sends automatically
-- Access tokens are stored per-user in IsolatedStorage with automatic silent refresh every 60 minutes
-- The extension is open source on GitHub and available as a per-tenant extension for BC SaaS
+- Built-in Current User and M365/Shared Mailbox connectors fail for Entra B2B guest users, leaving only SMTP
+- The extension sends mail via Microsoft Graph using the OAuth 2.0 Authorization Code plus PKCE delegated flow, so mail comes from the user's real address
+- Admin registers one Entra app with Mail.Send once; each user consents once on the Connect Current User Email API page
+- Tokens are kept per user in IsolatedStorage and silently renewed when they expire after about an hour
+- Open source PTE for BC SaaS; Phase 3 plans security hardening, Rest Client adoption, multi-tenant setup and attachment support
 
 ## Quotes
 
@@ -104,6 +126,11 @@ As named in the post. A name that matches one object page by exact type and name
 
 - other "Connect Current User Email API page"
 - other "Email Setup Card"
+
+## Heads up
+
+- gotcha: "the built-in email connectors don't work properly for guest users" (about version 2026 wave 1)
+- preview-disclaimer: "the current release is a working proof of concept - Phase 1 and 2 are complete"
 
 ## Context
 

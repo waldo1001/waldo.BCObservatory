@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:43:07.495Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-10-29T22:01:08.388Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -159,6 +159,7 @@ links:
   objects: []
   features:
     - feature/573254
+    - feature/573265
   topics: []
   localizations: []
   videos: []
@@ -202,42 +203,53 @@ cautions:
     t: 381
 features:
   - name: Receipt scanning with auto capture
-    status: preview
+    status: ga
     t: 51
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573265"
   - name: Bulk receipt upload
-    status: preview
+    status: ga
     t: 66
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573265"
   - name: Gallery share functionality for receipts
-    status: preview
+    status: ga
     t: 104
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573265"
   - name: Mileage expense creation on mobile
     status: preview
     t: 133
     verified: true
-    status_source: roadmap
+    status_source: video
     roadmap_ids:
       - "573254"
+      - "573265"
   - name: Offline mode for receipt handling
     status: preview
     t: 233
     verified: true
     status_source: video
   - name: Expense submission on mobile
-    status: preview
+    status: ga
     t: 270
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573265"
   - name: Expense approval on mobile
-    status: preview
+    status: ga
     t: 298
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573265"
   - name: Expense categorization and agent processing
     status: preview
     t: 204
@@ -314,13 +326,13 @@ It then shows offline mode, where receipts and expenses are added without a conn
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Receipt scanning with auto capture | preview, demoed | [0:51](https://www.youtube.com/watch?v=4TE8uwIi91k&t=51s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Bulk receipt upload | preview, demoed | [1:06](https://www.youtube.com/watch?v=4TE8uwIi91k&t=66s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Gallery share functionality for receipts | preview, demoed | [1:44](https://www.youtube.com/watch?v=4TE8uwIi91k&t=104s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Mileage expense creation on mobile | preview (roadmap [Add date ranges and vehicle types in your mileage calculation](../features/573254.md)), demoed | [2:13](https://www.youtube.com/watch?v=4TE8uwIi91k&t=133s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Receipt scanning with auto capture | generally available (roadmap [Expense Agent mobile app](../features/573265.md)), demoed | [0:51](https://www.youtube.com/watch?v=4TE8uwIi91k&t=51s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Bulk receipt upload | generally available (roadmap [Expense Agent mobile app](../features/573265.md)), demoed | [1:06](https://www.youtube.com/watch?v=4TE8uwIi91k&t=66s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Gallery share functionality for receipts | generally available (roadmap [Expense Agent mobile app](../features/573265.md)), demoed | [1:44](https://www.youtube.com/watch?v=4TE8uwIi91k&t=104s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Mileage expense creation on mobile | preview (roadmap [Add date ranges and vehicle types in your mileage calculation](../features/573254.md), [Expense Agent mobile app](../features/573265.md)), demoed | [2:13](https://www.youtube.com/watch?v=4TE8uwIi91k&t=133s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 | Offline mode for receipt handling | preview, demoed | [3:53](https://www.youtube.com/watch?v=4TE8uwIi91k&t=233s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Expense submission on mobile | preview, demoed | [4:30](https://www.youtube.com/watch?v=4TE8uwIi91k&t=270s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Expense approval on mobile | preview, demoed | [4:58](https://www.youtube.com/watch?v=4TE8uwIi91k&t=298s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Expense submission on mobile | generally available (roadmap [Expense Agent mobile app](../features/573265.md)), demoed | [4:30](https://www.youtube.com/watch?v=4TE8uwIi91k&t=270s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Expense approval on mobile | generally available (roadmap [Expense Agent mobile app](../features/573265.md)), demoed | [4:58](https://www.youtube.com/watch?v=4TE8uwIi91k&t=298s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 | Expense categorization and agent processing | preview, demoed | [3:24](https://www.youtube.com/watch?v=4TE8uwIi91k&t=204s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

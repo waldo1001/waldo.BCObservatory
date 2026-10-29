@@ -1,0 +1,30 @@
+{
+  "item_id": "blog/wingate365-com/https://blog.wingate365.com/2026/04/fixing-email-for-guest-users-in-d365.html",
+  "page_id": "post/wingate365-com/https-blog-wingate365-com-2026-04-fixing-email-for-guest-users-in-d365-html--c090dc4f1f",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "the built-in email connectors don't work properly for guest users",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2026 wave 1"
+      ]
+    },
+    {
+      "kind": "preview-disclaimer",
+      "quote": "the current release is a working proof of concept - Phase 1 and 2 are complete",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004195,
+    "posts_in_call": 4
+  }
+}

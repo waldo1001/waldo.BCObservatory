@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:51.814Z"
   flags: []
 generated:
-  at: "2026-10-26T10:55:37.280Z"
+  at: "2026-10-29T22:03:43.939Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -96,6 +96,7 @@ links:
     - post/gerardorenteria-blog/12682
     - post/katson-com/4678
     - post/katson-com/5026
+    - post/wingate365-com/https-blog-wingate365-com-2026-02-ai-context-is-king-bc-mcp-for-mcs-html--94f99e5d2a
     - post/yzhums-com/68873
     - post/yzhums-com/76419
   guidelines: []
@@ -109,7 +110,7 @@ coverage:
   learn: 6
   code: 3
   video: 12
-  blog: 8
+  blog: 9
   guideline: 0
 bc_forms:
   - 8350
@@ -163,6 +164,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [🤖 AboutText: Teaching AI to Understand Your APIs ✨](../../../posts/gerardorenteria-blog/12682.md) (community post): "AboutText property, added to APIV2 pages when APIs are exposed through the Model Context Protocol"
 - [Connect Any Agent to Business Central](../../../posts/katson-com/4678.md) (community post): "connect external AI agents to Business Central using the Model Context Protocol"
 - [How to Connect Business Central MCP to Claude Desktop](../../../posts/katson-com/5026.md) (community post): "enabling third-party AI agents to access BC data"
+- [AI context is king - BC MCP for MCS Agents - London D365PPUG - Feb 2026](../../../posts/wingate365-com/https-blog-wingate365-com-2026-02-ai-context-is-king-bc-mcp-for-mcs-html--94f99e5d2a.md) (community post): "Business Central now has a built-in MCP server that lets AI tools understand and access"
 - [Business Central 2025 wave 2 (BC27.1): Connect AI agents to Business Central through MCP server (Dynamics 365 Business Central MCP)](../../../posts/yzhums-com/68873.md) (community post): "Business Central MCP server, which lets AI agents discover and call Business Central APIs"
 - [Business Central 2026 release wave 2 (BC29): Run data queries with MCP Server (no APIs required)](../../../posts/yzhums-com/76419.md) (community post): "Data Query Tools for the MCP Server, enabling AI agents"
 - [What's New: Enhanced MCP Server (2026 release wave 1)](../../../videos/0WAOtNaKjws.md) (video): "MCP Server configuration validation import export connection string telemetry auditing"

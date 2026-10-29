@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:13.086Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-29T22:03:43.939Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -55,6 +55,7 @@ links:
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-24-30-2026--fa7b3b0afa
     - post/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620
     - post/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b
+    - post/wingate365-com/https-blog-wingate365-com-2025-10-south-coast-summit-2025-ai-driven-page-html--8f5384bed0
   guidelines: []
   changes:
     - change/bcquality/132
@@ -74,7 +75,7 @@ coverage:
   learn: 3
   code: 0
   video: 1
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 75d4b13edabb094c6bfaa4d84768e2b4ed6400d134dd3b0ffd88e878640ecc56
@@ -124,6 +125,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Weekly Review: Business Central AL Development – May 24–30, 2026](../../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-24-30-2026--fa7b3b0afa.md) (community post): "AL unit tests can run independently of the base app by structuring logic as a sub-extension"
 - [Your Tests All Pass. I Have Bad News.](../../../../../posts/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620.md) (community post): "mutation testing shows whether a test would notice that line breaking"
 - [AL Runner: Run AL Unit Tests Without a BC Service Tier](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b.md) (community post): "Test execution runs in seconds compared to 15-30 minute container-based pipelines"
+- [South Coast Summit 2025 - AI-Driven Page Scripting: Practical Use Cases for Dynamics 365](../../../../../posts/wingate365-com/https-blog-wingate365-com-2025-10-south-coast-summit-2025-ai-driven-page-html--8f5384bed0.md) (community post): "Security considerations include using Azure OpenAI in your own tenant for sensitive data"
 - [20260601 - From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL](../../../../../videos/Q-oazDEucLE.md) (video): "Test-driven development with AI agents"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

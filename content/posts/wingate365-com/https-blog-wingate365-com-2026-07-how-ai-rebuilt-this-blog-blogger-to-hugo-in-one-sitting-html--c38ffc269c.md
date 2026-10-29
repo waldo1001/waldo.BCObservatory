@@ -2,7 +2,7 @@
 id: post/wingate365-com/https-blog-wingate365-com-2026-07-how-ai-rebuilt-this-blog-blogger-to-hugo-in-one-sitting-html--c38ffc269c
 type: post
 title: "How AI Rebuilt This Blog: Blogger to Hugo in One Sitting"
-summary: A 21-year-old Blogger site with 192 posts was migrated to Hugo and GitHub Pages using an AI agent for the entire lifecycle, including stack selection, theme building, content classification, and bug fixing while preserving all legacy URLs and SEO equity.
+summary: "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post."
 tier: community
 language: en
 tags:
@@ -14,16 +14,16 @@ tags:
   - static site generation
   - url preservation
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: flagged
+  by: opus
+  at: "2026-10-29T22:03:28.163Z"
   flags: []
 generated:
-  at: "2026-10-29T21:55:16.219Z"
+  at: "2026-10-29T21:55:00.611Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: b1b3f0c1c122761abc7c40f7ec64a0caff1a77ed8bf516d1df507c055c4a50f1
+  input_hash: 21f5f6ca036c7b016ede1dc6aeb14124f01479c74a9ee4947096453d8d4ca4a9
 evidence:
   - kind: blog
     url: https://blog.wingate365.com/2026/07/how-ai-rebuilt-this-blog-blogger-to-hugo-in-one-sitting.html
@@ -71,21 +71,23 @@ quotes:
 code_objects_mentioned: []
 systems: []
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Wingate365
+  favicon: https://blog.wingate365.com/favicon.svg
+  probed_at: "2026-10-29T21:59:45.431Z"
 ---
 
 # How AI Rebuilt This Blog: Blogger to Hugo in One Sitting
 
-[Read the post](https://blog.wingate365.com/2026/07/how-ai-rebuilt-this-blog-blogger-to-hugo-in-one-sitting.html) · Wingate365 (Andy Wingate) · 2026-07-18 · 929 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://blog.wingate365.com/2026/07/how-ai-rebuilt-this-blog-blogger-to-hugo-in-one-sitting.html) · Wingate365 (Andy Wingate) · 2026-07-18 · 929 words · tier community · **flagged** (a review found a problem)
 
-> A 21-year-old Blogger site with 192 posts was migrated to Hugo and GitHub Pages using an AI agent for the entire lifecycle, including stack selection, theme building, content classification, and bug fixing while preserving all legacy URLs and SEO equity.
-
-## Key points
-
-- AI handled research, planning, and execution across the full project lifecycle rather than just coding tasks
-- Hugo was chosen for fast builds and ability to reproduce Blogger's exact URL structure without redirects
-- 192 posts were classified into keep (117), exclude (53), or review (22 ambiguous cases) based on relevance to Business Central and tech content
-- The agent fixed its own bugs by checking output rather than assuming success
-- Human judgment remained essential for content classification edge cases and brand design decisions
+> Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.
 
 ## Quotes
 

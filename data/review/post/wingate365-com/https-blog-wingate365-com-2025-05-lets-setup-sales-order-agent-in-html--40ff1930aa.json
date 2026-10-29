@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/wingate365-com/https://blog.wingate365.com/2025/05/lets-setup-sales-order-agent-in.html",
+  "input_hash": "7b1aa2c6cc161842f95499c1c24f4abaf535cc69a74cc107fc2221164df16d62",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-29T22:03:25.622Z",
+  "issues": [
+    "The post is a session abstract and a reflection. It does not actually show the configuration steps, so the summary overstates it.",
+    "The key point about reducing manual intervention is not stated in the post.",
+    "The quote is accurate."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026491,
+    "posts_in_call": 3
+  }
+}

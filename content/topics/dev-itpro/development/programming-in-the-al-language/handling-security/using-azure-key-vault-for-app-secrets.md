@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:15.866Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-29T22:03:43.939Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,6 +68,7 @@ links:
   videos: []
   posts:
     - post/aardvarklabs-blog/2640
+    - post/wingate365-com/https-blog-wingate365-com-2026-06-graph-api-email-account-types-for-d365-html--562e57de51
   guidelines: []
   changes:
     - change/bcapps/8999
@@ -83,7 +84,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: ded668fce5698d554014a03cb0248739e1b8cce7882db2d6f6f80adf71b920e1
@@ -154,5 +155,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#8999 Migrate Recommended Apps & Connectivity Apps to Official Marketplace Catalog API](../../../../../changes/bcapps/8999.md) (code change): "Integrated Azure Key Vault for secure API key management"
 - [Securing Sensitive Data in Business Central AL using SecretText](../../../../../posts/aardvarklabs-blog/2640.md) (community post): "SecretText can be retrieved from Isolated Storage or Azure Vault"
+- [Graph API Email account types for D365 BC](../../../../../posts/wingate365-com/https-blog-wingate365-com-2026-06-graph-api-email-account-types-for-d365-html--562e57de51.md) (community post): "Admin configures one App Registration per home domain in Business Central, with automatic user matching"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

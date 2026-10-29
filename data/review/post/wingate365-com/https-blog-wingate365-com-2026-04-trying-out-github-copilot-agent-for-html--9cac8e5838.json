@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/wingate365-com/https://blog.wingate365.com/2026/04/trying-out-github-copilot-agent-for.html",
+  "input_hash": "a859a6531ddff90c8e79419b3e2678da4f93ff6ed5f4b80dbf236331bcbfba7b",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-29T22:03:30.374Z",
+  "issues": [
+    "Summary, key points and quote match the post; the four tables are named in the suggested prompt.",
+    "Administration system tag is a loose fit but tolerable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036429,
+    "posts_in_call": 4
+  }
+}

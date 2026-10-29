@@ -2,7 +2,7 @@
 id: post/wingate365-com/https-blog-wingate365-com-2025-05-lets-setup-sales-order-agent-in-html--40ff1930aa
 type: post
 title: Letâ€™s setup the Sales Order Agent in Business Central - Experts Live UK User Group
-summary: The post demonstrates how to set up and use the new Copilot-powered Sales Order Agent introduced in Dynamics 365 Business Central 2025 release wave 1, showing practical configuration steps and real-world order processing capabilities.
+summary: The author's recap of an Experts Live UK session that demoed setting up the Copilot-powered Sales Order Agent from Business Central 2025 release wave 1, including live order processing. The post gives the session abstract and a lesson about live demos, but no detailed setup steps.
 tier: community
 language: en
 tags:
@@ -13,16 +13,16 @@ tags:
   - sales orders
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-29T22:03:25.622Z"
   flags: []
 generated:
-  at: "2026-10-29T21:55:25.733Z"
+  at: "2026-10-29T21:55:00.611Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: c3026c06fb0a3d82736a36d7df968d43bb46d3af26da1d617e3c60499f49892b
+  input_hash: f0116288643c0df00763a823dcfa659a362fbc47f7975c337be08c951b880922
 evidence:
   - kind: blog
     url: https://blog.wingate365.com/2025/05/lets-setup-sales-order-agent-in.html
@@ -64,20 +64,29 @@ systems:
   - copilot
 versions_mentioned:
   - 2025 release wave 1
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Wingate365
+  favicon: https://blog.wingate365.com/favicon.svg
+  probed_at: "2026-10-29T21:59:59.463Z"
 ---
 
 # Letâ€™s setup the Sales Order Agent in Business Central - Experts Live UK User Group
 
-[Read the post](https://blog.wingate365.com/2025/05/lets-setup-sales-order-agent-in.html) · Wingate365 (Andy Wingate) · 2025-05-03 · 209 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://blog.wingate365.com/2025/05/lets-setup-sales-order-agent-in.html) · Wingate365 (Andy Wingate) · 2025-05-03 · 209 words · tier community · reviewed (checked by Opus)
 
-> The post demonstrates how to set up and use the new Copilot-powered Sales Order Agent introduced in Dynamics 365 Business Central 2025 release wave 1, showing practical configuration steps and real-world order processing capabilities.
+> The author's recap of an Experts Live UK session that demoed setting up the Copilot-powered Sales Order Agent from Business Central 2025 release wave 1, including live order processing. The post gives the session abstract and a lesson about live demos, but no detailed setup steps.
 
 ## Key points
 
-- Sales Order Agent is a Copilot-powered tool for automated sales order processing
-- Setup involves configuration steps that attendees learned during the session
-- The agent can process orders automatically, reducing manual intervention
-- Part of Dynamics 365 Business Central 2025 release wave 1 feature set
+- The Sales Order Agent is a new Copilot-powered feature in Business Central 2025 release wave 1
+- The session showed the agent setup steps and tried live processing of orders
+- The author's lesson was that more prep time helps because live demos often go wrong
 
 ## Quotes
 

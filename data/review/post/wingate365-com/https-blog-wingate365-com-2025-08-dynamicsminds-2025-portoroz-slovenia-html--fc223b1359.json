@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/wingate365-com/https://blog.wingate365.com/2025/08/dynamicsminds-2025-portoroz-slovenia.html",
+  "input_hash": "650458355efccd4bba1ce7220ccf9b854ac562194f420be61de549d30b9156d7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-29T22:03:25.622Z",
+  "issues": [
+    "The summary calls the first talk an integration from BC to Finance & Operations. The post calls it BC to PP integration, and F&O only comes up in the description of the conference's breadth.",
+    "The finance system is not supported by the post, so it is dropped.",
+    "The AI-generated page script YAML idea was missing, so it is added to the key points."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026491,
+    "posts_in_call": 3
+  }
+}

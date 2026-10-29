@@ -5,13 +5,12 @@
   "source": "wingate365-com",
   "published_at": "2025-05-03T10:23:00.000Z",
   "words": 322,
-  "summary": "Business Central can be connected to external audiences through Power Pages using Virtual Tables in Dataverse, enabling new integration opportunities. The post covers basic use cases, setup requirements, licensing considerations, and practical implementations including external login management synchronized between Business Central contacts and Dataverse.",
+  "summary": "The author's recap of a joint ColorCloud 2025 session exploring how Power Pages can let external users interact with Business Central through Dataverse Virtual Tables. It covered use cases, getting started, easy wins, hard parts, licensing and when to walk away. The post also mentions another speaker's solution for managing external logins from BC Contacts synced with Dataverse using Power Automate.",
   "key_points": [
-    "Virtual Tables in Dataverse enable Power Pages to interact with Business Central data",
-    "External users can access Business Central functionality through Power Pages interfaces",
-    "Setup involves Power Platform admin center and Power Platform CLI tools",
-    "Integration patterns include syncing contacts and managing external logins via Power Automate",
-    "Use cases range from easy wins to complex implementations requiring careful licensing evaluation"
+    "Virtual Tables in Dataverse, supported in Power Pages, let external audiences interact with Business Central data",
+    "The session was explorative, working through use cases, getting started, easy wins, difficulties and licensing",
+    "The author worked in the Power Platform admin center and used the pac Power Platform CLI",
+    "Another speaker managed external logins from BC Contacts synced to Dataverse, issuing invites through Power Automate and logging them in BC"
   ],
   "systems": [
     "integration",

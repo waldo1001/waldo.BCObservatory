@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:04.999Z"
   flags: []
 generated:
-  at: "2026-10-25T16:50:34.247Z"
+  at: "2026-10-29T22:03:43.939Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -147,6 +147,7 @@ links:
   posts:
     - post/miljan-rs/639
     - post/thinkaboutit-be/7443
+    - post/wingate365-com/https-blog-wingate365-com-2026-04-mission-implementation-post-go-live-html--48e2b84ac2
   guidelines: []
 learn_toc_path:
   - Administration
@@ -158,7 +159,7 @@ coverage:
   learn: 13
   code: 13
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 1340
@@ -277,6 +278,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Understanding the Contoso Demo Data Tool in Business Central](../../../posts/miljan-rs/639.md) (community post): "creating demo-ready companies in Business Central, starting with 2024 Wave 2 Update 3"
 - [How Do I: Create a Business Central Trial From Scratch](../../../posts/thinkaboutit-be/7443.md) (community post): "Creating a Business Central trial requires starting with a clean Microsoft 365 trial"
+- [Mission Implementation - post go-live stabilisation](../../../posts/wingate365-com/https-blog-wingate365-com-2026-04-mission-implementation-post-go-live-html--48e2b84ac2.md) (community post): "moving from go-live into stable operations, including ownership definition, hypercare structuring"
 - [Getting Started with Business Central (2025)](../../../videos/lRiED3AUfps.md) (video): "getting started; sample company; data migration; setup guide; company creation"
 
 ## Business Central pages and reports

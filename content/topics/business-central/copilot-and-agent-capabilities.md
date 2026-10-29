@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:51.277Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-29T22:03:43.939Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -363,9 +363,13 @@ links:
     - video/1IIlArcHpOY
     - video/2uXVammbab0
     - video/58yOwN3GY2Q
+    - video/eDi32pS8eMo
     - video/H5EuObmeF4o
+    - video/JBGuaqk5nXk
     - video/K0i5rvqPC_o
+    - video/PeI-Jv4KVn8
     - video/xJ8gYzvWnTI
+    - video/ygtO_oUPil4
   posts:
     - post/aardvarklabs-blog/3315
     - post/demiliani-com/11739
@@ -397,7 +401,7 @@ children:
 coverage:
   learn: 54
   code: 35
-  video: 7
+  video: 11
   blog: 4
   guideline: 0
 bc_forms:
@@ -503,9 +507,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New: Working with Instructions for Agents in Business Central](../../videos/1IIlArcHpOY.md) (video): "What's New: Working with Instructions for Agents in Business Central"
 - [What's New: Chat with Copilot (2025 release wave 1)](../../videos/2uXVammbab0.md) (video): "Chat with Copilot; Chat interface; natural language queries; analysis tabs; permissions; contextual assistance"
 - [Microsoft Copilot in Business Central](../../videos/58yOwN3GY2Q.md) (video): "Microsoft Copilot in Business Central. Topics: copilot"
+- [Use a reporting skill to create complex Spreadsheets in Business Central (Advanced Spreadsheets)](../../videos/eDi32pS8eMo.md) (video): "Use a reporting skill to create complex Spreadsheets in Business Central"
 - [Everything Coming to Business Central 2025 Wave 2 (You Need to Know This)](../../videos/H5EuObmeF4o.md) (video): "Everything Coming to Business Central 2025 Wave 2"
+- [What's New: Copilot for Sustainability (2025 release wave 1)](../../videos/JBGuaqk5nXk.md) (video): "Copilot for Sustainability; emissions calculation; carbon accounting"
 - [What's New: Troubleshooting Business Central Agents](../../videos/K0i5rvqPC_o.md) (video): "Agent task logging and view log entries"
+- [Copilot Managing Maintenance Intake by Zig](../../videos/PeI-Jv4KVn8.md) (video): "Copilot-powered maintenance intake; Image-based maintenance issue analysis"
 - [What's New: Business Central User Experience and Productivity (2026 release wave 1)](../../videos/xJ8gYzvWnTI.md) (video): "Dedicated agent task pane"
+- [Copilot Managing Complaints by Trimit](../../videos/ygtO_oUPil4.md) (video): "Copilot Complaint Management"
 
 ## Business Central pages and reports
 

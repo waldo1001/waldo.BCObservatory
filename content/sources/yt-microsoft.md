@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-25T12:26:48.227Z"
+  at: "2026-10-29T21:55:00.611Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6f775077f929a5a7f3f430cd8df22fd82bdee00960c29af4b01d5168b70a3ce9
@@ -36,6 +36,7 @@ links:
     - feature/573259
     - feature/573260
     - feature/573262
+    - feature/573265
     - feature/573304
     - feature/573305
     - feature/573306
@@ -786,6 +787,7 @@ Items per quarter, oldest first:
 - [Build extensible and data-driven AL test suites](../features/573333.md): Development, generally available, GA 2026-10, 2 videos
 - [Calculate withholding tax automatically in expense reports](../features/573304.md): Expense Agent, in preview, GA 2027-04, 2 videos
 - [Carry subcontracting instructions into purchase orders](../features/573345.md): Supply Chain Management, generally available, GA 2026-10, 2 videos
+- [Control sales document creation for Shopify orders and returns](../features/573340.md): Ecommerce, generally available, GA 2026-10, 2 videos
 - [Create expense reports per trip automatically](../features/573257.md): Expense Agent, announced, GA 2026-11, 2 videos
 - [Developers can define indexes that span fields from a base table and its table extensions](../features/573315.md): Development, generally available, GA 2026-10, 2 videos
 - [Enable electronic invoicing in France](../features/576832.md): Country and regional, generally available, GA 2026-08, 2 videos
@@ -807,7 +809,6 @@ Items per quarter, oldest first:
 - [Calculate taxes for plastic and sugar](../features/576844.md): Financial Management, generally available, GA 2026-07, 1 video
 - [Check records for uncommitted changes](../features/573360.md): Development, generally available, GA 2026-10, 1 video
 - [Comply with Australian Payment Times Reporting bill](../features/576802.md): Country and regional, generally available, GA 2026-06, 1 video
-- [Control sales document creation for Shopify orders and returns](../features/573340.md): Ecommerce, generally available, GA 2026-10, 1 video
 - [Data mirroring to Microsoft Fabric](../features/574126.md): announced, GA 2027-04, 1 video
 - [Design document report themes with the updated Word add-in](../features/573330.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Design document reports with the updated Word add-in](../features/573328.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
@@ -815,6 +816,7 @@ Items per quarter, oldest first:
 - [Discover objects in connected Business Central environments](../features/573339.md): Development, generally available, GA 2026-10, 1 video
 - [Evolve AL interfaces with default implementations](../features/573352.md): Development, generally available, GA 2026-10, 1 video
 - [Exchange EDI documents](../features/573305.md): E-Documents, in preview, GA 2027-04, 1 video
+- [Expense Agent mobile app](../features/573265.md): generally available, GA 2026-10, 1 video
 - [Faster data loading with improved data model for table extensions](../features/573332.md): Service and platform, generally available, GA 2026-10, 1 video
 - [Financial report changes are now always logged](../features/573325.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Let agents allocate free AL object IDs](../features/573346.md): Development, generally available, GA 2026-10, 1 video

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:29.120Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-29T22:03:43.939Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,6 +73,7 @@ links:
     - video/XhO4oFmoh1M
   posts:
     - post/demiliani-com/11739
+    - post/wingate365-com/https-blog-wingate365-com-2025-05-lets-setup-sales-order-agent-in-html--40ff1930aa
     - post/yzhums-com/69256
   guidelines: []
   changes:
@@ -87,7 +88,7 @@ coverage:
   learn: 4
   code: 2
   video: 11
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 4400
@@ -134,6 +135,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "Sales Order Agent, Shopify, Sustainability, Withholding Tax and Excel Reports apps are modified"
 - [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../../posts/demiliani-com/11739.md) (community post): "The Sales Order Agent in 2025 Wave 1 reads customer emails, clarifies missing details"
+- [Letâ€™s setup the Sales Order Agent in Business Central - Experts Live UK User Group](../../../posts/wingate365-com/https-blog-wingate365-com-2025-05-lets-setup-sales-order-agent-in-html--40ff1930aa.md) (community post): "setup the Sales Order Agent in Business Central - Experts Live UK User Group"
 - [Dynamics 365 Business Central: Black Friday 1K AI Power-Up campaign (Free copilot credits)](../../../posts/yzhums-com/69256.md) (community post): "Sales Order Agent actions cost 5 credits, Payables Agent invoice processing costs 50 credits"
 - [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../../../videos/_JkZCp64jNw.md) (video): "Sales Order Agent; Sales Order Agent Item Availability Feature; Sales Order Agent Email Insights"
 - [Sales Order Agent - Working with a Personal or Shared Folder (2026)](../../../videos/1ht5nxubZ9c.md) (video): "Sales Order Agent; outlook folder configuration; email account setup"

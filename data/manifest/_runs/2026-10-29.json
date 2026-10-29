@@ -1,7 +1,7 @@
 {
   "date": "2026-10-29",
-  "started_at": "2026-10-29T21:26:59.577Z",
-  "finished_at": "2026-10-29T21:40:36.676Z",
+  "started_at": "2026-10-29T21:55:00.611Z",
+  "finished_at": "2026-10-29T22:06:03.372Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -22,42 +22,28 @@
   "ingest": {
     "sources": [
       {
-        "id": "bcquality",
-        "kind": "guidelines-git",
+        "id": "wingate365-com",
+        "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 0,
+          "new": 16,
           "changed": 0,
           "updated": 0,
-          "unchanged": 458,
+          "unchanged": 0,
           "removed": 0
         },
-        "note": "458 pages at a4593a1b1585",
-        "duration_ms": 1633
-      },
-      {
-        "id": "alguidelines",
-        "kind": "guidelines-git",
-        "ok": true,
-        "counts": {
-          "new": 0,
-          "changed": 0,
-          "updated": 0,
-          "unchanged": 232,
-          "removed": 0
-        },
-        "note": "232 pages at 53923c5010f2",
-        "duration_ms": 890
+        "note": "16 posts via feed",
+        "duration_ms": 526
       }
     ],
     "totals": {
-      "sources": 2,
+      "sources": 1,
       "failed": 0,
       "deferred": 0,
-      "new": 0,
+      "new": 16,
       "changed": 0,
       "updated": 0,
-      "unchanged": 690,
+      "unchanged": 0,
       "removed": 0
     }
   },
@@ -87,107 +73,88 @@
       "post_reviews": 7,
       "change_reviews": 7
     },
-    "work": 458,
-    "executed": 458,
+    "work": 16,
+    "executed": 16,
     "skips": 0,
     "quota_use": {
-      "unlimited": {
-        "selected": 458,
-        "available": 458,
-        "limit": null
+      "posts": {
+        "selected": 16,
+        "available": 16,
+        "limit": 20
       }
     },
     "note": "stopped: done"
   },
   "llm": {
-    "calls": 56,
-    "cache_hits": 2,
+    "calls": 66,
+    "cache_hits": 0,
     "failures": 0,
     "by_model": {
-      "claude-haiku-4-5-20251001": 31,
-      "claude-opus-5-5": 20,
-      "claude-sonnet-5-5": 5
+      "claude-haiku-4-5-20251001": 45,
+      "claude-opus-5-5": 21
     },
-    "cost_usd": 1.9352604000000004,
+    "cost_usd": 2.1353697,
     "tokens_by_model": {
       "claude-haiku-4-5-20251001": {
-        "calls": 31,
-        "input": 16920,
-        "output": 16241,
-        "cache_read": 0,
-        "cache_creation": 200643,
-        "cost_usd": 0.49941100000000005
+        "calls": 45,
+        "input": 54835,
+        "output": 22909,
+        "cache_read": 8915,
+        "cache_creation": 214182,
+        "cost_usd": 0.5986354999999999
       },
       "claude-opus-5-5": {
-        "calls": 20,
-        "input": 40,
-        "output": 26025,
-        "cache_read": 997,
-        "cache_creation": 101552,
-        "cost_usd": 1.3332754
-      },
-      "claude-sonnet-5-5": {
-        "calls": 5,
-        "input": 10,
-        "output": 4650,
-        "cache_read": 1630,
-        "cache_creation": 13932,
-        "cost_usd": 0.102574
+        "calls": 21,
+        "input": 42,
+        "output": 29234,
+        "cache_read": 2711,
+        "cache_creation": 118918,
+        "cost_usd": 1.5367342
       }
     },
-    "day_cost_usd": 1.93526,
-    "day_capped_usd": 1.93526
+    "day_cost_usd": 4.07063,
+    "day_capped_usd": 4.07063
   },
   "spend": {
-    "today_usd": 0,
-    "today_total_usd": 0,
+    "today_usd": 1.93526,
+    "today_total_usd": 1.93526,
     "week_before_usd": 46.563898,
     "week_before_uncapped_usd": 96.757916,
     "night_cap_usd": 15,
     "week_cap_usd": 80,
-    "allowance_usd": 15,
+    "allowance_usd": 13.06474,
     "binding": "night",
     "exhausted": false
   },
-  "items_changed": 0,
+  "items_changed": 16,
   "errors": [
-    "guidelines/bcquality/microsoft/knowledge/performance/query-results-bypass-primary-key-cache.md fetched: git cat-file -p 52f590cd94936fc851f0ea98213be2dcdf7aba47 failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database.\nThis is probably due to repo corruption.\nIf you are attempting to repair this repo corruptio",
-    "guidelines/bcquality/microsoft/knowledge/performance/job-queue-handlers-must-not-require-ui.md fetched: git cat-file -p 598727039d5b0f2b4b00f6db1bf2105ee1fb1e9d failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database.\nThis is probably due to repo corruption.\nIf you are attempting to repair this repo corruptio",
-    "guidelines/bcquality/microsoft/knowledge/performance/job-queue-handlers-must-propagate-failures.md fetched: git cat-file -p 361fc7d4f523b786e32e5cf6d58a713ca2393093 failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database.\nThis is probably due to repo corruption.\nIf you are attempting to repair this repo corruptio",
-    "guidelines/bcquality/microsoft/knowledge/error-handling/fielderror-vs-testfield.md fetched: git cat-file -p 845a0db582a22e9d21ee7a6bf036732ee978ea62 failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database.\nThis is probably due to repo corruption.\nIf you are attempting to repair this repo corruptio",
-    "guidelines/bcquality/microsoft/knowledge/performance/maintainsqlindex-false-breaks-flowfield-sift.md fetched: git cat-file -p 8898e4417be6c210f05e87976483dfb5139cc948 failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database.\nThis is probably due to repo corruption.\nIf you are attempting to repair this repo corruptio",
-    "guidelines/bcquality/microsoft/knowledge/style/file-name-object-type-pattern.md fetched: git cat-file -p dd8e0f1a8f07630f8dd7768547178b04eec7ba5e failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database.\nThis is probably due to repo corruption.\nIf you are attempting to repair this repo corruptio",
-    "guidelines/bcquality/microsoft/knowledge/style/object-name-30-char-limit.md fetched: git cat-file -p f0e96eef5056845841bd31bb7dd1f16314d2eedb failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database.\nThis is probably due to repo corruption.\nIf you are attempting to repair this repo corruptio",
     "content: guidelines/microsoft/knowledge/error-handling/declined-confirm-must-abort-not-partially-apply.md: broken link ../performance/job-queue-handlers-must-not-require-ui.md"
   ],
   "captions_retried": 0,
-  "checkpoints": 15,
+  "checkpoints": 1,
   "execution": {
     "stop_reason": "done",
-    "deadline": "2026-10-30T03:01:00.000Z",
-    "items_touched": 458,
+    "deadline": "2026-10-30T03:30:00.000Z",
+    "items_touched": 16,
     "stages_run": {
-      "guidelines:fetched": 451,
-      "guidelines:published": 451
+      "blog:fetched": 16,
+      "blog:extracted": 15,
+      "blog:summarized": 15,
+      "blog:linked": 15,
+      "blog:published": 15
     },
-    "advanced": 902,
-    "skipped": 0,
-    "failed_attempts": 7,
+    "advanced": 75,
+    "skipped": 1,
+    "failed_attempts": 0,
     "failed_final": 0,
     "no_handler": 0,
     "held": 0,
-    "parked": 0,
-    "quota_charged": {},
+    "parked": 13,
+    "quota_charged": {
+      "posts": 16
+    },
     "regards": [],
-    "errors": [
-      "guidelines/bcquality/microsoft/knowledge/performance/query-results-bypass-primary-key-cache.md fetched: git cat-file -p 52f590cd94936fc851f0ea98213be2dcdf7aba47 failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database.\nThis is probably due to repo corruption.\nIf you are attempting to repair this repo corruptio",
-      "guidelines/bcquality/microsoft/knowledge/performance/job-queue-handlers-must-not-require-ui.md fetched: git cat-file -p 598727039d5b0f2b4b00f6db1bf2105ee1fb1e9d failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database.\nThis is probably due to repo corruption.\nIf you are attempting to repair this repo corruptio",
-      "guidelines/bcquality/microsoft/knowledge/performance/job-queue-handlers-must-propagate-failures.md fetched: git cat-file -p 361fc7d4f523b786e32e5cf6d58a713ca2393093 failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database.\nThis is probably due to repo corruption.\nIf you are attempting to repair this repo corruptio",
-      "guidelines/bcquality/microsoft/knowledge/error-handling/fielderror-vs-testfield.md fetched: git cat-file -p 845a0db582a22e9d21ee7a6bf036732ee978ea62 failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database.\nThis is probably due to repo corruption.\nIf you are attempting to repair this repo corruptio",
-      "guidelines/bcquality/microsoft/knowledge/performance/maintainsqlindex-false-breaks-flowfield-sift.md fetched: git cat-file -p 8898e4417be6c210f05e87976483dfb5139cc948 failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database.\nThis is probably due to repo corruption.\nIf you are attempting to repair this repo corruptio",
-      "guidelines/bcquality/microsoft/knowledge/style/file-name-object-type-pattern.md fetched: git cat-file -p dd8e0f1a8f07630f8dd7768547178b04eec7ba5e failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database.\nThis is probably due to repo corruption.\nIf you are attempting to repair this repo corruptio",
-      "guidelines/bcquality/microsoft/knowledge/style/object-name-30-char-limit.md fetched: git cat-file -p f0e96eef5056845841bd31bb7dd1f16314d2eedb failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database.\nThis is probably due to repo corruption.\nIf you are attempting to repair this repo corruptio"
-    ],
+    "errors": [],
     "parked_left": 0
   },
   "code": {
@@ -214,13 +181,13 @@
       "stopped": "done"
     },
     "crosslinks": {
-      "pages": 5324,
-      "rows": 9646,
+      "pages": 5327,
+      "rows": 9658,
       "certain": 2651,
       "by": {
-        "code": 5447,
+        "code": 5460,
         "override": 33,
-        "model": 4166
+        "model": 4165
       },
       "learn_pages": 1777,
       "written": true,
@@ -235,24 +202,24 @@
     },
     "pages": {
       "objects": 25719,
-      "written": 0,
+      "written": 2,
       "removed": 0,
       "localizations": 22,
       "own_objects": 9213
     },
     "related": {
       "pages": 10655,
-      "rows": 37332,
+      "rows": 37340,
       "by_rank": {
         "1": 982,
         "2": 67,
         "3": 20218,
         "4": 1915,
-        "5": 6946,
+        "5": 6954,
         "6": 7068,
         "7": 136
       },
-      "written": false
+      "written": true
     },
     "apps": {
       "apps": 97,
@@ -286,97 +253,97 @@
     "held": 0,
     "pages": 1266,
     "relinked": 0,
-    "rerendered": 84,
+    "rerendered": 5,
     "api_calls": 0,
     "narrated": 0
   },
   "previews": {
-    "probed": 2,
-    "refreshed": 2,
+    "probed": 15,
+    "refreshed": 0,
     "failed": 0,
-    "rerendered": 2,
+    "rerendered": 17,
     "flipped": [],
     "channels": 0
   },
   "roadmap_links": {
     "units": 3983,
-    "stale": 1482,
+    "stale": 1463,
     "calls": 20,
-    "matched": 35,
-    "rejected": 2,
-    "related": 82,
+    "matched": 33,
+    "rejected": 1,
+    "related": 32,
     "failed": 0,
-    "cost_usd": 0.38411300000000004,
+    "cost_usd": 0.337279,
     "rejections": [
-      "video/1ht5nxubZ9c f1 -> 578065: quote not verbatim: \"folder settings, and processing rules\"",
-      "video/1ht5nxubZ9c f4 -> 578065: quote not verbatim: \"Each instance operates independently with its own mailbox, folder settings\""
+      "video/7QJeTXzZaEk f1 -> 578068: quote not verbatim: \"Sales Order Agent simplifies order creation by transforming\""
     ],
     "stopped": "quota",
-    "classified": 1,
+    "classified": 0,
     "unclassified": 0,
     "pages": 733,
     "review": {
       "candidates": 10,
       "reviewed": 10,
-      "kept": 63,
-      "dropped": 200,
+      "kept": 53,
+      "dropped": 101,
       "failed": 0,
-      "cost_usd": 0.7111554,
+      "cost_usd": 0.6060262,
       "stopped": "done"
     }
   },
   "topic_links": {
-    "units": 2956,
+    "units": 2969,
     "stale": 14,
-    "calls": 9,
-    "matched": 27,
-    "rejected": 0,
+    "calls": 6,
+    "matched": 18,
+    "rejected": 7,
     "failed": 0,
-    "cost_usd": 0.09018100000000001,
-    "rejections": [],
+    "cost_usd": 0.114873,
+    "rejections": [
+      "post/wingate365-com/https://blog.wingate365.com/2025/10/south-coast-summit-2025-ai-driven-page.html -> t492: not a candidate of this item",
+      "post/wingate365-com/https://blog.wingate365.com/2025/11/delivering-bc-in-age-of-ai-which-soft.html -> t293: not a candidate of this item",
+      "post/wingate365-com/https://blog.wingate365.com/2025/12/bc-community-2025-wrapped-blogs-videos.html -> topic/business-central/analytics-business-intelligence-and-repo/develop-reports: quote not verbatim: \"reporting as dominant topics demonstrating how AI-assisted tools can efficiently\"",
+      "post/wingate365-com/https://blog.wingate365.com/2025/05/business-central-power-pages-true.html -> t511: not a candidate of this item",
+      "post/wingate365-com/https://blog.wingate365.com/2025/08/dynamicsminds-2025-portoroz-slovenia.html -> t392: not a candidate of this item",
+      "post/wingate365-com/https://blog.wingate365.com/2026/04/fixing-email-for-guest-users-in-d365.html -> t418: not a candidate of this item",
+      "post/wingate365-com/https://blog.wingate365.com/2026/04/fixing-email-for-guest-users-in-d365.html -> t435: not a candidate of this item"
+    ],
     "second": {
       "due": 1,
       "called": 1,
-      "matched": 2
+      "matched": 0
     },
     "stopped": "done"
   },
   "cautions": {
-    "due": 0,
-    "posts": 0,
-    "calls": 0,
-    "cautions": 0,
+    "due": 15,
+    "posts": 15,
+    "calls": 4,
+    "cautions": 7,
     "failed": 0,
-    "cost_usd": 0,
+    "cost_usd": 0.0528447,
     "stopped": "done"
   },
   "learn_confirm": {
     "units": 4118,
-    "stale": 9,
-    "called": 9,
-    "calls": 2,
-    "picks": 7,
-    "rejected": 6,
+    "stale": 0,
+    "called": 0,
+    "calls": 0,
+    "picks": 0,
+    "rejected": 0,
     "failed": 0,
-    "cost_usd": 0.025116999999999997,
-    "rejections": [
-      "change/bcapps/10637 -> L23: not a candidate of this item",
-      "change/bcapps/12539 -> L27: not a candidate of this item",
-      "change/bcapps/9859 -> L27: not a candidate of this item",
-      "object/codeunit/6913 -> L8: not a candidate of this item",
-      "object/codeunit/8377 -> L12: not a candidate of this item",
-      "object/interface/expense-agent-quota -> L8: not a candidate of this item"
-    ],
+    "cost_usd": 0,
+    "rejections": [],
     "stopped": "done"
   },
   "topic_reviews": {
-    "candidates": 14,
+    "candidates": 23,
     "calls": 7,
     "reviewed": 7,
-    "kept": 33,
-    "dropped": 16,
+    "kept": 38,
+    "dropped": 26,
     "failed": 0,
-    "cost_usd": 0.3579,
+    "cost_usd": 0.44860000000000005,
     "stopped": "quota"
   },
   "reviews": {
@@ -388,15 +355,15 @@
       "cost_usd": 0
     },
     "post": {
-      "reviewed": 0,
-      "fixed": 0,
-      "rejected": 0,
-      "calls": 0,
-      "cost_usd": 0,
-      "candidates": 0,
+      "reviewed": 15,
+      "fixed": 8,
+      "rejected": 3,
+      "calls": 4,
+      "cost_usd": 0.150328,
+      "candidates": 15,
       "failed": 0,
       "reset": 0,
-      "rerendered": 0,
+      "rerendered": 15,
       "stopped": "done"
     },
     "change": {
@@ -429,23 +396,31 @@
   "hubs": {
     "topics": 606,
     "narrated": 557,
-    "refreshed": 5,
+    "refreshed": 0,
     "failed": 0,
     "backlog": 0,
     "stopped": "done",
-    "reviewed": 5,
-    "review_fixed": 1,
+    "reviewed": 0,
+    "review_fixed": 0,
     "review_rejected": 0,
     "review_backlog": 0
   },
+  "learn_identifiers": {
+    "items": 0,
+    "filled": 0,
+    "prefetched": 0,
+    "missing": 0,
+    "ms": 853,
+    "rule": 2
+  },
   "content": {
-    "pages": 30098,
+    "pages": 30114,
     "errors": 1
   },
   "leak": {
     "vault": "scanned",
-    "raw_docs": 1182,
-    "files_scanned": 33248,
+    "raw_docs": 1197,
+    "files_scanned": 33341,
     "findings": 0,
     "blocked": false
   }

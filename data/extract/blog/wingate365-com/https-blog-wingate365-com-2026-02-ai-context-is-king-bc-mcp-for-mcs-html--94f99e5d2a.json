@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/wingate365-com/https://blog.wingate365.com/2026/02/ai-context-is-king-bc-mcp-for-mcs.html",
+  "url": "https://blog.wingate365.com/2026/02/ai-context-is-king-bc-mcp-for-mcs.html",
+  "title": "AI context is king - BC MCP for MCS Agents - London D365PPUG - Feb 2026",
+  "source": "wingate365-com",
+  "published_at": "2026-02-18T19:31:00.000Z",
+  "words": 193,
+  "summary": "Business Central now has a built-in MCP (Model Context Protocol) server that lets AI tools understand and access your business data directly. This solves the problem of generic AI lacking context about customers, orders, and inventory without requiring custom development.",
+  "key_points": [
+    "MCP is the standard protocol for connecting AI tools to external systems and Microsoft built it directly into Business Central",
+    "Generic AI cannot help with business-specific questions unless it has access to your actual business context and data",
+    "The MCP server is available today with no custom development or third-party tooling required",
+    "Custom MCP tools can be built on top of Business Central's MCP capabilities for extended functionality"
+  ],
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "ai",
+    "mcp",
+    "model context protocol",
+    "business context",
+    "agents",
+    "integration"
+  ],
+  "objects": [],
+  "features": [
+    "MCP server",
+    "AI context integration",
+    "business data access for AI",
+    "custom MCP tools"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Generic AI doesn't know your business. Ask it about your customers, your open orders, your stock levels - it can't help.",
+      "why_it_matters": "This identifies the core problem that MCP solves: AI tools need context to provide useful business guidance"
+    },
+    {
+      "text": "Microsoft have built an MCP server directly into Business Central. No custom development, no third-party tooling - it's there today.",
+      "why_it_matters": "This highlights the immediate availability and ease of implementation of Business Central's MCP capabilities"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004487,
+    "posts_in_call": 1
+  }
+}

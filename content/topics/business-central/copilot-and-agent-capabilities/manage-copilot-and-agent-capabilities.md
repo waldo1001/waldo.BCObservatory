@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T12:48:04.649Z"
   flags: []
 generated:
-  at: "2026-10-29T21:38:16.952Z"
+  at: "2026-10-29T22:03:43.939Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,6 +75,7 @@ links:
     - post/bertverbeek-nl/1263
     - post/demiliani-com/15935
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0
+    - post/wingate365-com/https-blog-wingate365-com-2025-05-lets-setup-sales-order-agent-in-html--40ff1930aa
     - post/yzhums-com/67462
     - post/yzhums-com/68482
     - post/yzhums-com/68484
@@ -96,7 +97,7 @@ coverage:
   learn: 5
   code: 3
   video: 2
-  blog: 10
+  blog: 11
   guideline: 0
 bc_forms:
   - 7771
@@ -147,6 +148,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Agents in Business Central – part 4 – troubleshooting](../../../posts/bertverbeek-nl/1263.md) (community post): "Use the Agent Consumption page to monitor credit usage"
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../../posts/demiliani-com/15935.md) (community post): "The Allow data movement toggle appears only when Business Central environment location differs from Copilot processing geography"
 - [BC Friday Tips #45 Hide Agents Icon](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0.md) (community post): "hide this icon by deactivating Agents in Copilot & agent capabilities"
+- [Letâ€™s setup the Sales Order Agent in Business Central - Experts Live UK User Group](../../../posts/wingate365-com/https-blog-wingate365-com-2025-05-lets-setup-sales-order-agent-in-html--40ff1930aa.md) (community post): "demonstrates how to set up and use the new Copilot-powered Sales Order Agent"
 - [Business Central 2025 wave 2 (BC27): Understand how each Copilot and agent capability is billed (Billing Type)](../../../posts/yzhums-com/67462.md) (community post): "Billing Type column on the Copilot and Agent Capabilities page to clarify which AI capabilities are billed"
 - [Dynamics 365 Business Central: How to hide the Sales Order Agent and Payables Agent icons in the upper right corner](../../../posts/yzhums-com/68482.md) (community post): "Deactivate agents through the Copilot & agent capabilities page"
 - [Dynamics 365 Business Central: Regarding the cost of the Copilot/Agent features (Manage consumption-based billing for agent capabilities)](../../../posts/yzhums-com/68484.md) (community post): "new agent capabilities like Sales Order Agent and Payables Agent use consumption-based billing"

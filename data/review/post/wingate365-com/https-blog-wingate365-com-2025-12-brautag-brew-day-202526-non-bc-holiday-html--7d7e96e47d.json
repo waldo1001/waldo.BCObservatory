@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/wingate365-com/https://blog.wingate365.com/2025/12/brautag-brew-day-202526-non-bc-holiday.html",
+  "input_hash": "da443e9f72b7cd44e7b17f4abb0a4fd7ae4dccaa535f71bb39b287566f1e999a",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-29T22:03:30.374Z",
+  "issues": [
+    "Post is explicitly a non Business Central holiday post about home brewing; it does not belong in a BC knowledge base even though the summary is accurate."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036429,
+    "posts_in_call": 4
+  }
+}

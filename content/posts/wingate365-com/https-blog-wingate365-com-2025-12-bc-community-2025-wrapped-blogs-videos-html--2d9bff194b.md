@@ -16,16 +16,16 @@ tags:
   - knowledge sharing
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-29T22:03:33.992Z"
   flags: []
 generated:
-  at: "2026-10-29T21:55:31.768Z"
+  at: "2026-10-29T21:55:00.611Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 1d3518004d1930386e7fb5d5be3b0abc6e4c9c29ef4bd58d52aabd0bd39fcbc4
+  input_hash: 503b5996ecc16332a08083d9be6121e73535eeb8273b69db971aaf2bd4c34c96
 evidence:
   - kind: blog
     url: https://blog.wingate365.com/2025/12/bc-community-2025-wrapped-blogs-videos.html
@@ -85,11 +85,21 @@ systems:
   - copilot
   - reporting
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Wingate365
+  favicon: https://blog.wingate365.com/favicon.svg
+  probed_at: "2026-10-29T21:59:54.816Z"
 ---
 
 # BC Community 2025 Wrapped - Blogs, Videos, etc
 
-[Read the post](https://blog.wingate365.com/2025/12/bc-community-2025-wrapped-blogs-videos.html) · Wingate365 (Andy Wingate) · 2025-12-07 · 834 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://blog.wingate365.com/2025/12/bc-community-2025-wrapped-blogs-videos.html) · Wingate365 (Andy Wingate) · 2025-12-07 · 834 words · tier community · reviewed (checked by Opus)
 
 > A year-long analysis of Business Central community blogging activity from December 2024 through November 2025 reveals 1,476 posts from 81 sources, with AL development, AI/Copilot integration, and reporting as dominant topics. The analysis demonstrates how AI-assisted tools can efficiently process large datasets to uncover community trends and engagement patterns.
 
@@ -108,6 +118,6 @@ versions_mentioned: []
 
 ## Context
 
-- Features: AL application language development, AI and Copilot integration, Power BI reporting, Power Automate integration, API ecosystem, Community knowledge sharing
+- Features: AL application language development, AI and Copilot integration, Power BI reporting, Power Automate integration, API ecosystem
 
 Source: Wingate365, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

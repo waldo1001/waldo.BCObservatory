@@ -1,0 +1,42 @@
+{
+  "item_id": "blog/wingate365-com/https://blog.wingate365.com/2025/10/south-coast-summit-2025-ai-driven-page.html",
+  "page_id": "post/wingate365-com/https-blog-wingate365-com-2025-10-south-coast-summit-2025-ai-driven-page-html--8f5384bed0",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "If you're using SaaS environments, your test-runner account needs MFA disabled or you'll have a bad time",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Make sure your user's default company is set correctly before batch runs",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Test your base script with the actual test-runner account - things like \"show more\" actions can break scripts if permissions aren't quite right",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "If you're working with sensitive data, use Azure OpenAI models deployed in your own tenant",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003587,
+    "posts_in_call": 4
+  }
+}

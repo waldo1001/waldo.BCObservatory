@@ -15,16 +15,16 @@ tags:
   - authentication
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-29T22:03:28.163Z"
   flags: []
 generated:
-  at: "2026-10-29T21:55:16.287Z"
+  at: "2026-10-29T21:55:00.611Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 1940447c5df9ba9d08bd11cca6fa1749df93bee57880ddc268419cb151e0403b
+  input_hash: 1909ca77edd285319415ffd19d402d6d7669ed8ab58ff6981a4d1f96494ae49b
 evidence:
   - kind: blog
     url: https://blog.wingate365.com/2026/06/graph-api-email-account-types-for-d365.html
@@ -60,11 +60,27 @@ systems:
   - administration
   - development
 versions_mentioned: []
+cautions:
+  - kind: gotcha
+    quote: AI-assisted development is genuinely fast for AL extension work, but it absolutely requires someone who understands the platform to review what's being generated.
+    objects: []
+    events: []
+    versions: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Wingate365
+  favicon: https://blog.wingate365.com/favicon.svg
+  probed_at: "2026-10-29T21:59:46.596Z"
 ---
 
 # Graph API Email account types for D365 BC
 
-[Read the post](https://blog.wingate365.com/2026/06/graph-api-email-account-types-for-d365.html) · Wingate365 (Andy Wingate) · 2026-06-07 · 717 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://blog.wingate365.com/2026/06/graph-api-email-account-types-for-d365.html) · Wingate365 (Andy Wingate) · 2026-06-07 · 717 words · tier community · reviewed (checked by Opus)
 
 > An open source extension enables Business Central guest users to send email from their home domain addresses using Microsoft Graph API and Client Credentials authentication. The solution supports multi-tenant environments where users from different Entra tenancies need automatic email routing without per-user configuration.
 
@@ -82,6 +98,10 @@ As named in the post. A name that matches one object page by exact type and name
 - other "Current User (Microsoft Graph)"
 - other "App Registrations page"
 - other "Email Accounts page"
+
+## Heads up
+
+- gotcha: "AI-assisted development is genuinely fast for AL extension work, but it absolutely requires someone who understands the platform to review what's being generated."
 
 ## Context
 

@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:44:40.311Z"
   flags: []
 generated:
-  at: "2026-10-26T06:21:45.768Z"
+  at: "2026-10-29T22:01:08.388Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -109,6 +109,11 @@ links:
       by: code
     - to: post/aardvarklabs-blog/3348
       title: Step-by-Step Guide to Secure Business Central Agent Implementations in AL
+      label: possibly related
+      why: both name Table 23 "Vendor"
+      by: code
+    - to: post/wingate365-com/https-blog-wingate365-com-2026-04-trying-out-github-copilot-agent-for-html--9cac8e5838
+      title: Trying out GitHub Copilot Agent for a Functional Task?
       label: possibly related
       why: both name Table 23 "Vendor"
       by: code
@@ -324,6 +329,7 @@ No source states these links: they share an object, a model read them, or a pers
 - [Dynamics 365 Business Central: How to set the minimum and maximum numeric values ​​for a field](../posts/yzhums-com/68658.md) — possibly related: both name Table 23 "Vendor"
 - [Importing XML into Business Central with AL](../posts/aardvarklabs-blog/2866.md) — possibly related: both name Table 23 "Vendor"
 - [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../posts/aardvarklabs-blog/3348.md) — possibly related: both name Table 23 "Vendor"
+- [Trying out GitHub Copilot Agent for a Functional Task?](../posts/wingate365-com/https-blog-wingate365-com-2026-04-trying-out-github-copilot-agent-for-html--9cac8e5838.md) — possibly related: both name Table 23 "Vendor"
 - [Understanding Business Central’s Format Address Codeunit](../posts/aardvarklabs-blog/3928.md) — possibly related: both name Table 23 "Vendor"
 - [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../videos/fIOnGEARkKs.md) — possibly related: both name Table 23 "Vendor"
 - [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../videos/YTA8c2XyTX4.md) — possibly related: both name Table 23 "Vendor"

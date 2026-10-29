@@ -2,7 +2,7 @@
 id: post/wingate365-com/https-blog-wingate365-com-2026-04-mission-implementation-post-go-live-html--48e2b84ac2
 type: post
 title: Mission Implementation - post go-live stabilisation
-summary: Post go-live stabilization is a critical phase where many ERP projects struggle after successful delivery. The post covers strategies for moving from go-live into stable operations, including ownership definition, hypercare structuring, user adoption, and governance maintenance.
+summary: Short promotion of a Mission Implementation video episode in which MVP Andrew Wingate discusses post go-live stabilisation for ERP projects. It covers why long-term success often slips after delivery and practical strategies around ownership, hypercare, user adoption and governance to reach stable business as usual.
 tier: community
 language: en
 tags:
@@ -13,18 +13,17 @@ tags:
   - hypercare
   - governance
   - change management
-system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-29T22:03:28.163Z"
   flags: []
 generated:
-  at: "2026-10-29T21:55:14.792Z"
+  at: "2026-10-29T21:55:00.611Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: ec511ca3afd8a61d920f5358d493fd0dc281a3a60dfe07ab2341708681cb8f43
+  input_hash: f3b89806e8db80638c7526e1c3f496a1b7649a8989b5d054873de58e3f5bbe06
 evidence:
   - kind: blog
     url: https://blog.wingate365.com/2026/04/mission-implementation-post-go-live.html
@@ -52,17 +51,25 @@ full_text: false
 words: 140
 quotes: []
 code_objects_mentioned: []
-systems:
-  - administration
-  - platform
+systems: []
 versions_mentioned: []
+preview:
+  embeddable: true
+  frame_url: null
+  image: null
+  image_alt: null
+  image_w: null
+  image_h: null
+  site_name: Wingate365
+  favicon: https://blog.wingate365.com/favicon.svg
+  probed_at: "2026-10-29T21:59:47.747Z"
 ---
 
 # Mission Implementation - post go-live stabilisation
 
-[Read the post](https://blog.wingate365.com/2026/04/mission-implementation-post-go-live.html) · Wingate365 (Andy Wingate) · 2026-04-29 · 140 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://blog.wingate365.com/2026/04/mission-implementation-post-go-live.html) · Wingate365 (Andy Wingate) · 2026-04-29 · 140 words · tier community · reviewed (checked by Opus)
 
-> Post go-live stabilization is a critical phase where many ERP projects struggle after successful delivery. The post covers strategies for moving from go-live into stable operations, including ownership definition, hypercare structuring, user adoption, and governance maintenance.
+> Short promotion of a Mission Implementation video episode in which MVP Andrew Wingate discusses post go-live stabilisation for ERP projects. It covers why long-term success often slips after delivery and practical strategies around ownership, hypercare, user adoption and governance to reach stable business as usual.
 
 ## Key points
 
@@ -70,9 +77,5 @@ versions_mentioned: []
 - Post-go-live success requires clear ownership and structured hypercare support
 - User adoption and system confidence often decline after go-live without proper focus
 - Long-term governance and sustainable business-as-usual processes are essential for project success
-
-## Context
-
-- Features: post go-live stabilization, hypercare structuring, user adoption, ownership definition, governance maintenance
 
 Source: Wingate365, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

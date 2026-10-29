@@ -5,16 +5,15 @@
   "source": "wingate365-com",
   "published_at": "2025-08-31T17:52:00.000Z",
   "words": 441,
-  "summary": "Conference coverage of two presentations at DynamicsMinds 2025 in Slovenia: integration techniques from Business Central to Finance & Operations, and page scripting tool capabilities for acceptance testing in the BC web client.",
+  "summary": "The author's write-up of the two talks he co-presented at DynamicsMinds 2025 in Portoroz, Slovenia. The first was an introductory talk on BC to PP integration techniques, from lo-code through Virtual Tables and BC Data Sync to calling the API in code. The second covered using the Business Central page scripting tool to record and replay UI actions for acceptance testing.",
   "key_points": [
-    "DynamicsMinds 2025 was held in Portoroż, Slovenia with over 1,000 attendees and 200+ sessions",
-    "The 4 Pillars of BC to PP Integration session covered lo-code approaches, Virtual Tables, BC Data Sync, and API calling",
-    "Page Scripting Tool enables recording UI interactions like opening pages, selecting actions, and filling fields, then replaying them with real-time status feedback",
-    "The community atmosphere emphasized warm hospitality and camaraderie among participants"
+    "DynamicsMinds 2025 in Portoroz had over 1,000 attendees, 200+ sessions and close to 200 speakers",
+    "The BC to PP integration talk compared lo-code, Virtual Tables, BC Data Sync and API calls in code, with reasoning for when to use each",
+    "The page scripting tool records UI interactions such as opening pages, choosing actions and filling fields, then replays them with real-time success or failure feedback",
+    "Audience discussion led to the idea of using AI to generate page script YAML files for a future talk"
   ],
   "systems": [
     "integration",
-    "finance",
     "platform"
   ],
   "topics": [

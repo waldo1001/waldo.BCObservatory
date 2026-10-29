@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/wingate365-com/https://blog.wingate365.com/2026/07/how-ai-rebuilt-this-blog-blogger-to-hugo-in-one-sitting.html",
+  "input_hash": "e394883ba6263e577b4cb62b2767f47c9e38bda87a2cff0675f04cafce6f53c8",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-29T22:03:28.163Z",
+  "issues": [
+    "The post covers moving a personal blog from Blogger to Hugo with an AI agent; Business Central appears only incidentally as a content category and as the source of a colour palette.",
+    "Not about Business Central, so the page cannot be made useful by edits.",
+    "Minor: a key point says keep where the post says include."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026648,
+    "posts_in_call": 4
+  }
+}

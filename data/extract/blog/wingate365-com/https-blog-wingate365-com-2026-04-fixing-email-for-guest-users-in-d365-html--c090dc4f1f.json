@@ -7,11 +7,11 @@
   "words": 957,
   "summary": "Guest users in Dynamics 365 Business Central cannot use the built-in email connectors for sending email. This post describes a Current User Email API extension that uses Microsoft Graph to enable guest users to send email as themselves via delegated authentication, requiring one-time admin setup and per-user consent.",
   "key_points": [
-    "Built-in email connectors (Current User and M365/Shared Mailbox) fail for Entra B2B guest users due to cross-tenant identity limitations",
-    "The solution uses Microsoft Graph API with OAuth 2.0 Authorization Code plus PKCE flow to enable per-user email sending",
-    "Admin registers an Entra app once with Mail.Send permission, users consent once through a popup, then email sends automatically",
-    "Access tokens are stored per-user in IsolatedStorage with automatic silent refresh every 60 minutes",
-    "The extension is open source on GitHub and available as a per-tenant extension for BC SaaS"
+    "Built-in Current User and M365/Shared Mailbox connectors fail for Entra B2B guest users, leaving only SMTP",
+    "The extension sends mail via Microsoft Graph using the OAuth 2.0 Authorization Code plus PKCE delegated flow, so mail comes from the user's real address",
+    "Admin registers one Entra app with Mail.Send once; each user consents once on the Connect Current User Email API page",
+    "Tokens are kept per user in IsolatedStorage and silently renewed when they expire after about an hour",
+    "Open source PTE for BC SaaS; Phase 3 plans security hardening, Rest Client adoption, multi-tenant setup and attachment support"
   ],
   "systems": [
     "integration",
