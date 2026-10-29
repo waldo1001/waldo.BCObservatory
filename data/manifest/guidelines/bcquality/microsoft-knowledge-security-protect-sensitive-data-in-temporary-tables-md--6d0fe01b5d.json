@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/protect-sensitive-data-in-temporary-tables.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.665Z",
+      "at": "2026-10-29T21:28:52.576Z",
       "blob": "5f501564e2f3ab551429b81708c32e0851e86509",
       "words": 217,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:52.670Z",
+      "path": "content/guidelines/microsoft/knowledge/security/protect-sensitive-data-in-temporary-tables.md"
     }
   },
   "input_hash": "5f501564e2f3ab551429b81708c32e0851e86509",
@@ -25,13 +29,44 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/protect-sensitive-data-in-temporary-tables.md",
-    "description": null,
+    "description": "A temporary record copies data out of the source table into session memory.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "temporary-table",
+      "data-protection",
+      "permission",
+      "cleanup"
+    ],
     "ai_usage": null,
-    "words": 217
+    "words": 217,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "temporary-table",
+        "data-protection",
+        "permission",
+        "cleanup"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A temporary record copies data out of the source table into session memory."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

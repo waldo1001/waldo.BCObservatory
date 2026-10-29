@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/query/set-query-filters-before-open.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.581Z",
+      "at": "2026-10-29T21:28:50.329Z",
       "blob": "bb82e9d731dd362d665e12e4fc003a600e8c2e7f",
       "words": 148,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:50.434Z",
+      "path": "content/guidelines/microsoft/knowledge/query/set-query-filters-before-open.md"
     }
   },
   "input_hash": "bb82e9d731dd362d665e12e4fc003a600e8c2e7f",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/query/set-query-filters-before-open.md",
-    "description": null,
+    "description": "Query.SetFilter and Query.SetRange automatically close an open query dataset. A call placed after Open() therefore does not refine the rows already being read; it ends that dataset.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "query",
+      "setfilter",
+      "setrange",
+      "open",
+      "read",
+      "dataset",
+      "filter-order"
+    ],
     "ai_usage": null,
-    "words": 148
+    "words": 148,
+    "identifiers": [
+      "SetFilter",
+      "SetRange"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "query",
+      "keywords": [
+        "query",
+        "setfilter",
+        "setrange",
+        "open",
+        "read",
+        "dataset",
+        "filter-order"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Query.SetFilter and Query.SetRange automatically close an open query dataset. A call placed after Open() therefore does not refine the rows already being read; it ends that dataset."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

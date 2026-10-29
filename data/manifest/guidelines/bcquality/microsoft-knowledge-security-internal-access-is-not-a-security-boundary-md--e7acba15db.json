@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/internal-access-is-not-a-security-boundary.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.627Z",
+      "at": "2026-10-29T21:28:51.705Z",
       "blob": "8f57e225681e30f8988dee02cd036d0b0967726a",
       "words": 153,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:51.786Z",
+      "path": "content/guidelines/microsoft/knowledge/security/internal-access-is-not-a-security-boundary.md"
     }
   },
   "input_hash": "8f57e225681e30f8988dee02cd036d0b0967726a",
@@ -25,13 +29,54 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/internal-access-is-not-a-security-boundary.md",
-    "description": null,
+    "description": "Access = Internal controls compile-time symbol visibility. It does not prevent runtime access through mechanisms such as RecordRef, TransferFields, or Codeunit.Run, and internalsVisibleTo deliberately grants compile-time access to named companion apps.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "access",
+      "internal",
+      "internalsvisibleto",
+      "recordref",
+      "codeunit-run",
+      "security-boundary",
+      "authorization"
+    ],
     "ai_usage": null,
-    "words": 153
+    "words": 153,
+    "identifiers": [
+      "RecordRef",
+      "TransferFields",
+      "internalsVisibleTo"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "access",
+        "internal",
+        "internalsvisibleto",
+        "recordref",
+        "codeunit-run",
+        "security-boundary",
+        "authorization"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Access = Internal controls compile-time symbol visibility. It does not prevent runtime access through mechanisms such as RecordRef, TransferFields, or Codeunit.Run, and internalsVisibleTo deliberately grants compile-time access to named companion apps."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

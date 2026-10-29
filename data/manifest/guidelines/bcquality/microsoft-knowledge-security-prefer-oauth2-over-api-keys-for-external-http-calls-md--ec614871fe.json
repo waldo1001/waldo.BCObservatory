@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/prefer-oauth2-over-api-keys-for-external-http-calls.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.660Z",
+      "at": "2026-10-29T21:28:52.474Z",
       "blob": "cf0db17e4c261361909a959c86d1c75b03a228be",
       "words": 211,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:52.560Z",
+      "path": "content/guidelines/microsoft/knowledge/security/prefer-oauth2-over-api-keys-for-external-http-calls.md"
     }
   },
   "input_hash": "cf0db17e4c261361909a959c86d1c75b03a228be",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/prefer-oauth2-over-api-keys-for-external-http-calls.md",
-    "description": null,
+    "description": "External HTTP integrations from AL can authenticate using OAuth 2.0 (client-credentials for service-to-service, authorization-code for user-delegated), API keys, basic authentication, or credentials in URLs.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "oauth2",
+      "api-key",
+      "authentication",
+      "httpclient",
+      "token-refresh"
+    ],
     "ai_usage": null,
-    "words": 211
+    "words": 211,
+    "identifiers": [
+      "OAuth2",
+      "AcquireTokenWithClientCredentials",
+      "AcquireAuthorizationCodeTokenFromCache",
+      "SecretText"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "oauth2",
+        "api-key",
+        "authentication",
+        "httpclient",
+        "token-refresh"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "External HTTP integrations from AL can authenticate using OAuth 2.0 (client-credentials for service-to-service, authorization-code for user-delegated), API keys, basic authentication, or credentials in URLs."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

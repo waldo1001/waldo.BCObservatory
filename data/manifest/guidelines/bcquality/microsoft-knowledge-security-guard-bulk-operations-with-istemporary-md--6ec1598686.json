@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/guard-bulk-operations-with-istemporary.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.606Z",
+      "at": "2026-10-29T21:28:51.114Z",
       "blob": "3919f6b8e283e22bf94042e8345d897ddc9a9c63",
       "words": 196,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:51.218Z",
+      "path": "content/guidelines/microsoft/knowledge/security/guard-bulk-operations-with-istemporary.md"
     }
   },
   "input_hash": "3919f6b8e283e22bf94042e8345d897ddc9a9c63",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/guard-bulk-operations-with-istemporary.md",
-    "description": null,
+    "description": "An AL helper that accepts a var Rec: Record X parameter and performs a bulk operation (DeleteAll, ModifyAll, or an unfiltered loop that mutates every record) cannot tell from the signature alone whether the caller passed a temporary buffer or the real table.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "istemporary",
+      "deleteall",
+      "modifyall",
+      "safeguard",
+      "precondition"
+    ],
     "ai_usage": null,
-    "words": 196
+    "words": 196,
+    "identifiers": [
+      "DeleteAll",
+      "ModifyAll",
+      "IsTemporary"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "istemporary",
+        "deleteall",
+        "modifyall",
+        "safeguard",
+        "precondition"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An AL helper that accepts a var Rec: Record X parameter and performs a bulk operation (DeleteAll, ModifyAll, or an unfiltered loop that mutates every record) cannot tell from the signature alone whether the caller passed a temporary buffer or the real table."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

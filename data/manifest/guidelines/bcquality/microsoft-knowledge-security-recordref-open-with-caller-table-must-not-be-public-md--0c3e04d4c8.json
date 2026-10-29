@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/recordref-open-with-caller-table-must-not-be-public.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.670Z",
+      "at": "2026-10-29T21:28:52.570Z",
       "blob": "7e8fb59f5ca7bb6772de43622d9d0417ec58cb9d",
       "words": 240,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:52.661Z",
+      "path": "content/guidelines/microsoft/knowledge/security/recordref-open-with-caller-table-must-not-be-public.md"
     }
   },
   "input_hash": "7e8fb59f5ca7bb6772de43622d9d0417ec58cb9d",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/recordref-open-with-caller-table-must-not-be-public.md",
-    "description": null,
+    "description": "When a codeunit holds permission to system tables — directly, via a permission set granted at install, or via [InherentPermissions] — and exposes a public procedure that accepts a table number (or a RecordId, from which the table number is derived) and calls RecordRef.Open on it, the procedure…",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "recordref",
+      "open",
+      "public",
+      "system-table",
+      "scope-onprem",
+      "confused-deputy",
+      "saas"
+    ],
     "ai_usage": null,
-    "words": 240
+    "words": 240,
+    "identifiers": [
+      "RecordId"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "recordref",
+        "open",
+        "public",
+        "system-table",
+        "scope-onprem",
+        "confused-deputy",
+        "saas"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "When a codeunit holds permission to system tables — directly, via a permission set granted at install, or via [InherentPermissions] — and exposes a public procedure that accepts a table number (or a RecordId, from which the table number is derived) and calls RecordRef.Open on it, the procedure…"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/inherent-permissions-minimal-grant.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.612Z",
+      "at": "2026-10-29T21:28:51.089Z",
       "blob": "1a091940bfc4ac6db5c73c4947919956dd875133",
       "words": 190,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:51.175Z",
+      "path": "content/guidelines/microsoft/knowledge/security/inherent-permissions-minimal-grant.md"
     }
   },
   "input_hash": "1a091940bfc4ac6db5c73c4947919956dd875133",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/inherent-permissions-minimal-grant.md",
-    "description": null,
+    "description": "[InherentPermissions(PermissionObjectType::..., ...)] and [InherentEntitlements(Entitlement::...)] are method-level attributes that let a procedure perform an operation on the listed object even when the caller's permission set does not allow it.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "inherentpermissions",
+      "inherententitlements",
+      "attribute",
+      "least-privilege",
+      "procedure"
+    ],
     "ai_usage": null,
-    "words": 190
+    "words": 190,
+    "identifiers": [
+      "GetCustomerName"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "inherentpermissions",
+        "inherententitlements",
+        "attribute",
+        "least-privilege",
+        "procedure"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "[InherentPermissions(PermissionObjectType::..., ...)] and [InherentEntitlements(Entitlement::...)] are method-level attributes that let a procedure perform an operation on the listed object even when the caller's permission set does not allow it."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/al-has-no-built-in-htmlencode.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.586Z",
+      "at": "2026-10-29T21:28:50.913Z",
       "blob": "649c384e20bde4f50fadf0d58ddd5caa8076ee06",
       "words": 223,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:50.959Z",
+      "path": "content/guidelines/microsoft/knowledge/security/al-has-no-built-in-htmlencode.md"
     }
   },
   "input_hash": "649c384e20bde4f50fadf0d58ddd5caa8076ee06",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/al-has-no-built-in-htmlencode.md",
-    "description": null,
+    "description": "AL does not ship a built-in HtmlEncode (or equivalent) function.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "html",
+      "xss",
+      "encoding",
+      "htmlencode",
+      "injection",
+      "email"
+    ],
     "ai_usage": null,
-    "words": 223
+    "words": 223,
+    "identifiers": [
+      "HtmlEncode"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "html",
+        "xss",
+        "encoding",
+        "htmlencode",
+        "injection",
+        "email"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "AL does not ship a built-in HtmlEncode (or equivalent) function."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

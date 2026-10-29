@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/getlasterrortext-storage-is-privacy-not-security.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.601Z",
+      "at": "2026-10-29T21:28:51.068Z",
       "blob": "9a07747ee43c10986506920e50621f908cfe6371",
       "words": 277,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:51.143Z",
+      "path": "content/guidelines/microsoft/knowledge/security/getlasterrortext-storage-is-privacy-not-security.md"
     }
   },
   "input_hash": "9a07747ee43c10986506920e50621f908cfe6371",
@@ -25,13 +29,46 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/getlasterrortext-storage-is-privacy-not-security.md",
-    "description": null,
+    "description": "It is tempting to flag any code that calls GetLastErrorText() and writes the result into a table field (or displays it to end users) as a security issue, on the assumption that the error text might leak credentials or system internals.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "getlasterrortext",
+      "error-text",
+      "classification",
+      "privacy",
+      "review-scope"
+    ],
     "ai_usage": null,
-    "words": 277
+    "words": 277,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "getlasterrortext",
+        "error-text",
+        "classification",
+        "privacy",
+        "review-scope"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "It is tempting to flag any code that calls GetLastErrorText() and writes the result into a table field (or displays it to end users) as a security issue, on the assumption that the error text might leak credentials or system internals."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

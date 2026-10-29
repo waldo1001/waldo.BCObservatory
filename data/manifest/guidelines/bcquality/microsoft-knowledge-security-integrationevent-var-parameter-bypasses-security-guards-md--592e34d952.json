@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/integrationevent-var-parameter-bypasses-security-guards.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.622Z",
+      "at": "2026-10-29T21:28:51.711Z",
       "blob": "1edcb196cea420cbd1525e387affd28b859c0085",
       "words": 240,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:51.877Z",
+      "path": "content/guidelines/microsoft/knowledge/security/integrationevent-var-parameter-bypasses-security-guards.md"
     }
   },
   "input_hash": "1edcb196cea420cbd1525e387affd28b859c0085",
@@ -25,13 +29,55 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/integrationevent-var-parameter-bypasses-security-guards.md",
-    "description": null,
+    "description": "A var parameter on an [IntegrationEvent] is a mutable hook: any subscriber can overwrite the value and the publisher will see the new value when control returns.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "integrationevent",
+      "var",
+      "guard",
+      "ishandled",
+      "bypass",
+      "security-check"
+    ],
     "ai_usage": null,
-    "words": 240
+    "words": 240,
+    "identifiers": [
+      "IntegrationEvent",
+      "HasAccess",
+      "IsAllowed",
+      "SkipValidation",
+      "BypassCheck",
+      "IsAuthorized"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "integrationevent",
+        "var",
+        "guard",
+        "ishandled",
+        "bypass",
+        "security-check"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A var parameter on an [IntegrationEvent] is a mutable hook: any subscriber can overwrite the value and the publisher will see the new value when control returns."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

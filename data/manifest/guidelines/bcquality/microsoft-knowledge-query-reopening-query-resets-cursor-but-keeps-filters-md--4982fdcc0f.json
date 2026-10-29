@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/query/reopening-query-resets-cursor-but-keeps-filters.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.576Z",
+      "at": "2026-10-29T21:28:50.300Z",
       "blob": "0d7ca470aa1079f4a5a66d7ae327ee229af56a1f",
       "words": 166,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:50.357Z",
+      "path": "content/guidelines/microsoft/knowledge/query/reopening-query-resets-cursor-but-keeps-filters.md"
     }
   },
   "input_hash": "0d7ca470aa1079f4a5a66d7ae327ee229af56a1f",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/query/reopening-query-resets-cursor-but-keeps-filters.md",
-    "description": null,
+    "description": "Calling Open() on an already open query first closes the current dataset and opens it again. The next Read() starts at the first row; it does not continue from the previous cursor. Reopening also retains filters previously applied to the query variable.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "query",
+      "open",
+      "close",
+      "clear",
+      "cursor",
+      "filters",
+      "reuse"
+    ],
     "ai_usage": null,
-    "words": 166
+    "words": 166,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "query",
+      "keywords": [
+        "query",
+        "open",
+        "close",
+        "clear",
+        "cursor",
+        "filters",
+        "reuse"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Calling Open() on an already open query first closes the current dataset and opens it again. The next Read() starts at the first row; it does not continue from the previous cursor. Reopening also retains filters previously applied to the query variable."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

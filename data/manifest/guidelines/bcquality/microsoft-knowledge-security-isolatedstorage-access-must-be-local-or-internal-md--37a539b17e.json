@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/isolatedstorage-access-must-be-local-or-internal.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.632Z",
+      "at": "2026-10-29T21:28:51.794Z",
       "blob": "062c2026613aeb36a34aad27b513c0bee4c65584",
       "words": 200,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:51.942Z",
+      "path": "content/guidelines/microsoft/knowledge/security/isolatedstorage-access-must-be-local-or-internal.md"
     }
   },
   "input_hash": "062c2026613aeb36a34aad27b513c0bee4c65584",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/isolatedstorage-access-must-be-local-or-internal.md",
-    "description": null,
+    "description": "IsolatedStorage partitions its data by extension: values written by one extension are unreadable to another. That guarantee assumes the owning extension does not voluntarily expose its storage through a public API.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "isolatedstorage",
+      "local",
+      "internal",
+      "public",
+      "getter",
+      "setter",
+      "encapsulation"
+    ],
     "ai_usage": null,
-    "words": 200
+    "words": 200,
+    "identifiers": [
+      "IsolatedStorage"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "isolatedstorage",
+        "local",
+        "internal",
+        "public",
+        "getter",
+        "setter",
+        "encapsulation"
+      ],
+      "bc_version": [
+        "24.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "IsolatedStorage partitions its data by extension: values written by one extension are unreadable to another. That guarantee assumes the owning extension does not voluntarily expose its storage through a public API."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

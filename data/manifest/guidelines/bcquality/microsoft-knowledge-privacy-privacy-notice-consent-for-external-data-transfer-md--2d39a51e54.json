@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/privacy-notice-consent-for-external-data-transfer.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.556Z",
+      "at": "2026-10-29T21:28:50.066Z",
       "blob": "8c3898d2359bc7666886d521d1cdf3c1ee34e368",
       "words": 147,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:50.294Z",
+      "path": "content/guidelines/microsoft/knowledge/privacy/privacy-notice-consent-for-external-data-transfer.md"
     }
   },
   "input_hash": "8c3898d2359bc7666886d521d1cdf3c1ee34e368",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/privacy/privacy-notice-consent-for-external-data-transfer.md",
-    "description": null,
+    "description": "Business Central's Codeunit \"Privacy Notice\" creates notices and records per-integration approval. A custom integration needs its own stable notice ID; it must not borrow the Exchange or another built-in service's consent.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "privacy-notice",
+      "consent",
+      "http-client",
+      "outgoing-request",
+      "external-service",
+      "confirmprivacynoticeapproval"
+    ],
     "ai_usage": null,
-    "words": 147
+    "words": 147,
+    "identifiers": [
+      "ConfirmPrivacyNoticeApproval",
+      "GetPrivacyNoticeApprovalState",
+      "CreatePrivacyNotice",
+      "OnRegisterPrivacyNotices"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "privacy",
+      "keywords": [
+        "privacy-notice",
+        "consent",
+        "http-client",
+        "outgoing-request",
+        "external-service",
+        "confirmprivacynoticeapproval"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Business Central's Codeunit \"Privacy Notice\" creates notices and records per-integration approval. A custom integration needs its own stable notice ID; it must not borrow the Exchange or another built-in service's consent."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

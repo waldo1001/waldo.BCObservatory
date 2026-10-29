@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/session-logmessage-requires-dataclassification.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.566Z",
+      "at": "2026-10-29T21:28:50.306Z",
       "blob": "2febcaee35980acc23a37ef3d6ab3f0698d305ec",
       "words": 163,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:50.401Z",
+      "path": "content/guidelines/microsoft/knowledge/privacy/session-logmessage-requires-dataclassification.md"
     }
   },
   "input_hash": "2febcaee35980acc23a37ef3d6ab3f0698d305ec",
@@ -25,13 +29,49 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/privacy/session-logmessage-requires-dataclassification.md",
-    "description": null,
+    "description": "Session.LogMessage writes a record to the telemetry pipeline. The platform requires the call to carry an explicit DataClassification argument so that the entry can be routed and retained correctly downstream — telemetry consumers, GDPR exports, and Application Insights dashboards all rely on it.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "session-logmessage",
+      "telemetry",
+      "data-classification",
+      "verbosity",
+      "telemetry-scope"
+    ],
     "ai_usage": null,
-    "words": 163
+    "words": 163,
+    "identifiers": [
+      "DataClassification",
+      "TelemetryScope"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "privacy",
+      "keywords": [
+        "session-logmessage",
+        "telemetry",
+        "data-classification",
+        "verbosity",
+        "telemetry-scope"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Session.LogMessage writes a record to the telemetry pipeline. The platform requires the call to carry an explicit DataClassification argument so that the entry can be routed and retained correctly downstream — telemetry consumers, GDPR exports, and Application Insights dashboards all rely on it."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

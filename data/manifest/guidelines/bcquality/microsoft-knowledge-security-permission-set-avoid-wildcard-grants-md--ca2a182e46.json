@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/permission-set-avoid-wildcard-grants.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.654Z",
+      "at": "2026-10-29T21:28:52.430Z",
       "blob": "200fe0156eecaff578e58531fb4620e304628b56",
       "words": 192,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:52.483Z",
+      "path": "content/guidelines/microsoft/knowledge/security/permission-set-avoid-wildcard-grants.md"
     }
   },
   "input_hash": "200fe0156eecaff578e58531fb4620e304628b56",
@@ -25,13 +29,46 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/permission-set-avoid-wildcard-grants.md",
-    "description": null,
+    "description": "A permissionset object can grant access object-by-object or with the * wildcard.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "permissionset",
+      "wildcard",
+      "rimd",
+      "tabledata",
+      "least-privilege"
+    ],
     "ai_usage": null,
-    "words": 192
+    "words": 192,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "permissionset",
+        "wildcard",
+        "rimd",
+        "tabledata",
+        "least-privilege"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A permissionset object can grant access object-by-object or with the * wildcard."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/validatetablerelation-false-on-user-input.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.702Z",
+      "at": "2026-10-29T21:28:57.561Z",
       "blob": "6a3a4f4a1561ba24c122229231cec7b6955ac9f7",
       "words": 148,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:57.727Z",
+      "path": "content/guidelines/microsoft/knowledge/security/validatetablerelation-false-on-user-input.md"
     }
   },
   "input_hash": "6a3a4f4a1561ba24c122229231cec7b6955ac9f7",
@@ -25,13 +29,49 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/validatetablerelation-false-on-user-input.md",
-    "description": null,
+    "description": "ValidateTableRelation = false intentionally lets a user keep free-form input even when it does not match TableRelation. This is supported for scenarios such as accepting a new vendor name and handling it in OnValidate.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "validatetablerelation",
+      "tablerelation",
+      "field",
+      "validation",
+      "input"
+    ],
     "ai_usage": null,
-    "words": 148
+    "words": 148,
+    "identifiers": [
+      "TableRelation",
+      "OnValidate"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "validatetablerelation",
+        "tablerelation",
+        "field",
+        "validation",
+        "input"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "ValidateTableRelation = false intentionally lets a user keep free-form input even when it does not match TableRelation. This is supported for scenarios such as accepting a new vendor name and handling it in OnValidate."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

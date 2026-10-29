@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/register-integration-in-privacy-notice-registrations.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.561Z",
+      "at": "2026-10-29T21:28:50.061Z",
       "blob": "a9f12ff8403896b2d805a6d7ba805acbee3b2db8",
       "words": 144,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:50.228Z",
+      "path": "content/guidelines/microsoft/knowledge/privacy/register-integration-in-privacy-notice-registrations.md"
     }
   },
   "input_hash": "a9f12ff8403896b2d805a6d7ba805acbee3b2db8",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/privacy/register-integration-in-privacy-notice-registrations.md",
-    "description": null,
+    "description": "The current extension point is Codeunit \"Privacy Notice\". Extensions can subscribe to its OnRegisterPrivacyNotices event and add a dedicated notice ID, integration name, and link to the temporary Privacy Notice record.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "privacy-notice",
+      "integration",
+      "register",
+      "onregisterprivacynotices",
+      "notice-id"
+    ],
     "ai_usage": null,
-    "words": 144
+    "words": 144,
+    "identifiers": [
+      "OnRegisterPrivacyNotices",
+      "CreatePrivacyNotice",
+      "CreatePrivacyNoticeForIntegration"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "privacy",
+      "keywords": [
+        "privacy-notice",
+        "integration",
+        "register",
+        "onregisterprivacynotices",
+        "notice-id"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The current extension point is Codeunit \"Privacy Notice\". Extensions can subscribe to its OnRegisterPrivacyNotices event and add a dedicated notice ID, integration name, and link to the temporary Privacy Notice record."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/validate-user-configurable-urls.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.698Z",
+      "at": "2026-10-29T21:28:57.566Z",
       "blob": "8f79b0474b02b7d9e4908fe0539768d5e7eda530",
       "words": 265,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:57.932Z",
+      "path": "content/guidelines/microsoft/knowledge/security/validate-user-configurable-urls.md"
     }
   },
   "input_hash": "8f79b0474b02b7d9e4908fe0539768d5e7eda530",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/validate-user-configurable-urls.md",
-    "description": null,
+    "description": "A URL stored in a table field is user-configurable: anyone with write access to the row can change it.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "ssrf",
+      "uri",
+      "url-validation",
+      "areurishavesamehost",
+      "isvaliduripattern",
+      "httpclient"
+    ],
     "ai_usage": null,
-    "words": 265
+    "words": 265,
+    "identifiers": [
+      "HttpClient",
+      "OnValidate"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "ssrf",
+        "uri",
+        "url-validation",
+        "areurishavesamehost",
+        "isvaliduripattern",
+        "httpclient"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A URL stored in a table field is user-configurable: anyone with write access to the row can change it."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

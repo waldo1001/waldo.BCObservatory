@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/commitbehavior-attribute-scopes-explicit-commits.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.591Z",
+      "at": "2026-10-29T21:28:50.939Z",
       "blob": "e0e2e3b89038d4c44cc184ac6de990d7f43cffba",
       "words": 417,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:51.002Z",
+      "path": "content/guidelines/microsoft/knowledge/security/commitbehavior-attribute-scopes-explicit-commits.md"
     }
   },
   "input_hash": "e0e2e3b89038d4c44cc184ac6de990d7f43cffba",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/commitbehavior-attribute-scopes-explicit-commits.md",
-    "description": null,
+    "description": "[CommitBehavior(CommitBehavior::Ignore)] and [CommitBehavior(CommitBehavior::Error)] are method-level attributes that restrict what an explicit Commit() does inside the annotated method's scope: Ignore silently discards the call; Error raises a runtime error.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "commit-behavior",
+      "attribute",
+      "integration-event",
+      "subscriber",
+      "commit",
+      "atomic"
+    ],
     "ai_usage": null,
-    "words": 417
+    "words": 417,
+    "identifiers": [
+      "IntegrationEvent"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "commit-behavior",
+        "attribute",
+        "integration-event",
+        "subscriber",
+        "commit",
+        "atomic"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "[CommitBehavior(CommitBehavior::Ignore)] and [CommitBehavior(CommitBehavior::Error)] are method-level attributes that restrict what an explicit Commit() does inside the annotated method's scope: Ignore silently discards the call; Error raises a runtime error."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
