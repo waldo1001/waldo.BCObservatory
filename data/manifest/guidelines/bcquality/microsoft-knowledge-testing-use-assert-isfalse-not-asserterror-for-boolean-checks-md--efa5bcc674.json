@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/use-assert-isfalse-not-asserterror-for-boolean-checks.md",
   "published_at": "2026-09-29T15:13:06.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:22:19.149Z",
+      "at": "2026-10-29T21:27:45.271Z",
       "blob": "182a62b5553a3c254e711443c73d1861b7b43858",
       "words": 297,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:45.328Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/use-assert-isfalse-not-asserterror-for-boolean-checks.md"
     }
   },
   "input_hash": "182a62b5553a3c254e711443c73d1861b7b43858",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/use-assert-isfalse-not-asserterror-for-boolean-checks.md",
-    "description": null,
+    "description": "asserterror exists to assert that a statement raises a runtime error; it is not a general-purpose way to invert a boolean check.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "assert",
+      "isfalse",
+      "istrue",
+      "asserterror",
+      "boolean-check",
+      "negative-test"
+    ],
     "ai_usage": null,
-    "words": 297
+    "words": 297,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "assert",
+        "isfalse",
+        "istrue",
+        "asserterror",
+        "boolean-check",
+        "negative-test"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "asserterror exists to assert that a statement raises a runtime error; it is not a general-purpose way to invert a boolean check."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

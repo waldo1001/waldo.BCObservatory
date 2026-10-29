@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/error-handling/log-writes-must-survive-rollback.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:24:18.845Z",
+      "at": "2026-10-29T21:27:45.979Z",
       "blob": "eae17004a4ba98ce3ab2568a2981dde8c29c4aca",
       "words": 320,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:46.067Z",
+      "path": "content/guidelines/microsoft/knowledge/error-handling/log-writes-must-survive-rollback.md"
     }
   },
   "input_hash": "eae17004a4ba98ce3ab2568a2981dde8c29c4aca",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/error-handling/log-writes-must-survive-rollback.md",
-    "description": null,
+    "description": "Inserting a log record inside the same transaction as the operation it logs looks correct until the operation errors: the transaction rolls back and takes the log entry with it. The result is a log that faithfully records every success and silently loses exactly the failures it exists to capture.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "logging",
+      "rollback",
+      "session",
+      "transaction",
+      "isolated-session",
+      "telemetry"
+    ],
     "ai_usage": null,
-    "words": 320
+    "words": 320,
+    "identifiers": [
+      "TableNo",
+      "StartSession",
+      "OnRun"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "error-handling",
+      "keywords": [
+        "logging",
+        "rollback",
+        "session",
+        "transaction",
+        "isolated-session",
+        "telemetry"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Inserting a log record inside the same transaction as the operation it logs looks correct until the operation errors: the transaction rolls back and takes the log entry with it. The result is a log that faithfully records every success and silently loses exactly the failures it exists to capture."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

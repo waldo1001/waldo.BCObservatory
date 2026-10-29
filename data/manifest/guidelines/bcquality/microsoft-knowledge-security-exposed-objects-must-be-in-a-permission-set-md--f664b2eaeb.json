@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/exposed-objects-must-be-in-a-permission-set.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:24:33.962Z",
+      "at": "2026-10-29T21:27:45.973Z",
       "blob": "fd933d737744199901426a89dddf4d411573699c",
       "words": 436,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:46.025Z",
+      "path": "content/guidelines/microsoft/knowledge/security/exposed-objects-must-be-in-a-permission-set.md"
     }
   },
   "input_hash": "fd933d737744199901426a89dddf4d411573699c",
@@ -25,13 +29,46 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/security/exposed-objects-must-be-in-a-permission-set.md",
-    "description": null,
+    "description": "An object that is reachable from outside the app's own UI is only usable if it is also granted execute access through a permission set. Three distinct mechanisms make an object reachable this way, each with its own permission target:",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "permission-set",
+      "api-page",
+      "web-service",
+      "exposure",
+      "access-control"
+    ],
     "ai_usage": null,
-    "words": 436
+    "words": 436,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "permission-set",
+        "api-page",
+        "web-service",
+        "exposure",
+        "access-control"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An object that is reachable from outside the app's own UI is only usable if it is also granted execute access through a permission set. Three distinct mechanisms make an object reachable this way, each with its own permission target:"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

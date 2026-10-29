@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/ui-test-codeunit-naming.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:26:18.332Z",
+      "at": "2026-10-29T21:27:46.680Z",
       "blob": "0790f37f38a035e72dbe2096e1432727b632c8ff",
       "words": 258,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:51.698Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/ui-test-codeunit-naming.md"
     }
   },
   "input_hash": "0790f37f38a035e72dbe2096e1432727b632c8ff",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/ui-test-codeunit-naming.md",
-    "description": null,
+    "description": "A test codeunit that drives pages through TestPage — opening pages, reading FactBox parts, triggering field OnValidate through the page — is testing a different layer than a codeunit that calls business-logic procedures directly.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "ui-test",
+      "testpage",
+      "naming",
+      "suffix",
+      "codeunit",
+      "page-testing",
+      "team-convention"
+    ],
     "ai_usage": null,
-    "words": 258
+    "words": 258,
+    "identifiers": [
+      "TestPage",
+      "OnValidate"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "ui-test",
+        "testpage",
+        "naming",
+        "suffix",
+        "codeunit",
+        "page-testing",
+        "team-convention"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A test codeunit that drives pages through TestPage — opening pages, reading FactBox parts, triggering field OnValidate through the page — is testing a different layer than a codeunit that calls business-logic procedures directly."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

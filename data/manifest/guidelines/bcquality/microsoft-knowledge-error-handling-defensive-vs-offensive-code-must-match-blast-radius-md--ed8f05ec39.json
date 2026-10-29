@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/error-handling/defensive-vs-offensive-code-must-match-blast-radius.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:24:01.211Z",
+      "at": "2026-10-29T21:27:45.904Z",
       "blob": "91a8aff82256c208565dadf21642b76ec4348fd3",
       "words": 386,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:45.967Z",
+      "path": "content/guidelines/microsoft/knowledge/error-handling/defensive-vs-offensive-code-must-match-blast-radius.md"
     }
   },
   "input_hash": "91a8aff82256c208565dadf21642b76ec4348fd3",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/error-handling/defensive-vs-offensive-code-must-match-blast-radius.md",
-    "description": null,
+    "description": "Whether code should guard gracefully (defensive) or fail loudly (offensive/fail-fast) is not a matter of habit or a blanket house style — it depends on what happens downstream if the guarded condition is silently defaulted or skipped.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "defensive-programming",
+      "offensive-programming",
+      "fail-fast",
+      "blast-radius",
+      "guarded-lookup"
+    ],
     "ai_usage": null,
-    "words": 386
+    "words": 386,
+    "identifiers": [
+      "TestField"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "error-handling",
+      "keywords": [
+        "defensive-programming",
+        "offensive-programming",
+        "fail-fast",
+        "blast-radius",
+        "guarded-lookup"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Whether code should guard gracefully (defensive) or fail loudly (offensive/fail-fast) is not a matter of habit or a blanket house style — it depends on what happens downstream if the guarded condition is silently defaulted or skipped."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

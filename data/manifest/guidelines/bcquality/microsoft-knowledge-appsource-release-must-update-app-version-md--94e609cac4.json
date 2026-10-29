@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/appsource/release-must-update-app-version.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:22:33.034Z",
+      "at": "2026-10-29T21:27:45.266Z",
       "blob": "fb8f483621ec2c3fa50f587adc482f0b15f9ee5a",
       "words": 255,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:45.316Z",
+      "path": "content/guidelines/microsoft/knowledge/appsource/release-must-update-app-version.md"
     }
   },
   "input_hash": "fb8f483621ec2c3fa50f587adc482f0b15f9ee5a",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/appsource/release-must-update-app-version.md",
-    "description": null,
+    "description": "At every release — a branch merged to main, a tagged release build, or an AppSource submission — the app's version is consciously updated, not left to the pipeline alone.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "version",
+      "release",
+      "app-json",
+      "semver",
+      "al-go",
+      "appsource"
+    ],
     "ai_usage": null,
-    "words": 255
+    "words": 255,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "appsource",
+      "keywords": [
+        "version",
+        "release",
+        "app-json",
+        "semver",
+        "al-go",
+        "appsource"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "At every release — a branch merged to main, a tagged release build, or an AppSource submission — the app's version is consciously updated, not left to the pipeline alone."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

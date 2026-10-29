@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/source-organized-by-feature-not-object-type.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:24:47.264Z",
+      "at": "2026-10-29T21:27:45.992Z",
       "blob": "c6980939f93d705696add17bfa38347aa3a2b9bc",
       "words": 284,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:46.082Z",
+      "path": "content/guidelines/microsoft/knowledge/style/source-organized-by-feature-not-object-type.md"
     }
   },
   "input_hash": "c6980939f93d705696add17bfa38347aa3a2b9bc",
@@ -25,13 +29,44 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/source-organized-by-feature-not-object-type.md",
-    "description": null,
+    "description": "Folder structure inside an AL app has no effect on compilation or runtime behavior — this is a repository-organization convention, not a platform requirement, and different projects reasonably choose differently.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "folder-structure",
+      "feature-organization",
+      "source-layout",
+      "maintainability"
+    ],
     "ai_usage": null,
-    "words": 284
+    "words": 284,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "folder-structure",
+        "feature-organization",
+        "source-layout",
+        "maintainability"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Folder structure inside an AL app has no effect on compilation or runtime behavior — this is a repository-organization convention, not a platform requirement, and different projects reasonably choose differently."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

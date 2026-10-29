@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/avoid-user-prompts-inside-transactions.md",
   "published_at": "2026-09-29T15:13:35.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:21:06.375Z",
+      "at": "2026-10-29T21:27:44.489Z",
       "blob": "f871c9879512edb1159a4a363352476565013486",
       "words": 175,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:44.593Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/avoid-user-prompts-inside-transactions.md"
     }
   },
   "input_hash": "f871c9879512edb1159a4a363352476565013486",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/avoid-user-prompts-inside-transactions.md",
-    "description": null,
+    "description": "A Confirm, StrMenu, or other user prompt issued from inside a write transaction stalls the transaction — and therefore every lock it holds — until the user responds.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "confirm",
+      "strmenu",
+      "dialog",
+      "transaction",
+      "lock",
+      "user-interaction"
+    ],
     "ai_usage": null,
-    "words": 175
+    "words": 175,
+    "identifiers": [
+      "StrMenu"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "confirm",
+        "strmenu",
+        "dialog",
+        "transaction",
+        "lock",
+        "user-interaction"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A Confirm, StrMenu, or other user prompt issued from inside a write transaction stalls the transaction — and therefore every lock it holds — until the user responds."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

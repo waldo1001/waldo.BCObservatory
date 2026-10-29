@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/pictures-must-use-media-not-blob.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:23:37.019Z",
+      "at": "2026-10-29T21:27:45.374Z",
       "blob": "1767a0df83e1db1ab771775b227a3edc04f1edba",
       "words": 283,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:45.442Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/pictures-must-use-media-not-blob.md"
     }
   },
   "input_hash": "1767a0df83e1db1ab771775b227a3edc04f1edba",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/pictures-must-use-media-not-blob.md",
-    "description": null,
+    "description": "BLOB is still a valid AL field type for arbitrary binary data, but it is not the right choice for storing pictures or images. The current recommendation is the Media field type for a single image, or MediaSet when a record needs several independent images (e.g.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "blob",
+      "media",
+      "mediaset",
+      "picture-field",
+      "image-field",
+      "table-design"
+    ],
     "ai_usage": null,
-    "words": 283
+    "words": 283,
+    "identifiers": [
+      "MediaSet"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "blob",
+        "media",
+        "mediaset",
+        "picture-field",
+        "image-field",
+        "table-design"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "BLOB is still a valid AL field type for arbitrary binary data, but it is not the right choice for storing pictures or images. The current recommendation is the Media field type for a single image, or MediaSet when a record needs several independent images (e.g."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

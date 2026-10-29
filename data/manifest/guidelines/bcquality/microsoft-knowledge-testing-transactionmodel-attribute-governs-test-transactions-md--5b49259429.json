@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/transactionmodel-attribute-governs-test-transactions.md",
   "published_at": "2026-09-29T15:13:06.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:22:09.386Z",
+      "at": "2026-10-29T21:27:45.164Z",
       "blob": "0f4f3bd229150f926cb16ea1aa8f06762f57a838",
       "words": 567,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:45.260Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/transactionmodel-attribute-governs-test-transactions.md"
     }
   },
   "input_hash": "0f4f3bd229150f926cb16ea1aa8f06762f57a838",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/transactionmodel-attribute-governs-test-transactions.md",
-    "description": null,
+    "description": "[TransactionModel(...)] declares how a test method interacts with the database's write transaction. The attribute applies only to methods inside a codeunit with SubType = Test and takes one of three values: AutoRollback, AutoCommit, or None.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "transactionmodel",
+      "attribute",
+      "test",
+      "autorollback",
+      "autocommit",
+      "testisolation"
+    ],
     "ai_usage": null,
-    "words": 567
+    "words": 567,
+    "identifiers": [
+      "AutoRollback",
+      "AutoCommit",
+      "TransactionModel",
+      "TestIsolation"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "transactionmodel",
+        "attribute",
+        "test",
+        "autorollback",
+        "autocommit",
+        "testisolation"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "[TransactionModel(...)] declares how a test method interacts with the database's write transaction. The attribute applies only to methods inside a codeunit with SubType = Test and takes one of three values: AutoRollback, AutoCommit, or None."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

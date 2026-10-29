@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/code-must-not-change-workdate.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:23:23.560Z",
+      "at": "2026-10-29T21:27:45.287Z",
       "blob": "3e2ea0efa729d4d9e5104c87f534cb0d571101c8",
       "words": 381,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:45.354Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/code-must-not-change-workdate.md"
     }
   },
   "input_hash": "3e2ea0efa729d4d9e5104c87f534cb0d571101c8",
@@ -25,13 +29,46 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/code-must-not-change-workdate.md",
-    "description": null,
+    "description": "The work date is a per-user session setting the user controls from the client (the date shown in the top-right corner, used to default posting dates and date filters).",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "workdate",
+      "session-setting",
+      "user-control",
+      "side-effect"
+    ],
     "ai_usage": null,
-    "words": 381
+    "words": 381,
+    "identifiers": [
+      "WorkDate"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "workdate",
+        "session-setting",
+        "user-control",
+        "side-effect"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The work date is a per-user session setting the user controls from the client (the date shown in the top-right corner, used to default posting dates and date filters)."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

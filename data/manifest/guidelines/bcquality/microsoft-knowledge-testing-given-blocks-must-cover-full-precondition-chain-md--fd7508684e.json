@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/given-blocks-must-cover-full-precondition-chain.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:25:57.106Z",
+      "at": "2026-10-29T21:27:46.221Z",
       "blob": "b34adfebc400d00fd629d3bfb55e2d1ef34c74e2",
       "words": 280,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:46.268Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/given-blocks-must-cover-full-precondition-chain.md"
     }
   },
   "input_hash": "b34adfebc400d00fd629d3bfb55e2d1ef34c74e2",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/given-blocks-must-cover-full-precondition-chain.md",
-    "description": null,
+    "description": "A [GIVEN] block is only correct if it sets up every precondition the code under test actually reads, not just the record the scenario is \"about.\" For most master-data tests, creating the primary record is enough.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "given",
+      "test-setup",
+      "posting",
+      "report",
+      "request-page",
+      "precondition",
+      "completeness"
+    ],
     "ai_usage": null,
-    "words": 280
+    "words": 280,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "given",
+        "test-setup",
+        "posting",
+        "report",
+        "request-page",
+        "precondition",
+        "completeness"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A [GIVEN] block is only correct if it sets up every precondition the code under test actually reads, not just the record the scenario is \"about.\" For most master-data tests, creating the primary record is enough."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/al-methods-limited-during-write-transactions.md",
   "published_at": "2026-09-29T15:13:35.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:20:57.265Z",
+      "at": "2026-10-29T21:27:44.482Z",
       "blob": "2bbedb354c63ab2e83923737f4ad1841caad8b8a",
       "words": 963,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:44.668Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/al-methods-limited-during-write-transactions.md"
     }
   },
   "input_hash": "2bbedb354c63ab2e83923737f4ad1841caad8b8a",
@@ -25,13 +29,63 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/al-methods-limited-during-write-transactions.md",
-    "description": null,
+    "description": "Once AL code has written to the database in the current transaction — an Insert, Modify, or Delete with no Commit since — the platform restricts four methods until that transaction is committed. The exact conditions, as enforced:",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "limited-during-write-transactions",
+      "write-transaction",
+      "runmodal",
+      "report-run",
+      "page-runmodal",
+      "report-runmodal",
+      "xmlport-run",
+      "codeunit-run",
+      "commit",
+      "requestpage"
+    ],
     "ai_usage": null,
-    "words": 963
+    "words": 963,
+    "identifiers": [
+      "RequestWindow",
+      "RunModal",
+      "RequestForm",
+      "UseRequestPage",
+      "StrMenu",
+      "OnAction"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "limited-during-write-transactions",
+        "write-transaction",
+        "runmodal",
+        "report-run",
+        "page-runmodal",
+        "report-runmodal",
+        "xmlport-run",
+        "codeunit-run",
+        "commit",
+        "requestpage"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Once AL code has written to the database in the current transaction — an Insert, Modify, or Delete with no Commit since — the platform restricts four methods until that transaction is committed. The exact conditions, as enforced:"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

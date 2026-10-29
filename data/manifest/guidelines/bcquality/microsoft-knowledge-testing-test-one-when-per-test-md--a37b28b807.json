@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/test-one-when-per-test.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:26:04.198Z",
+      "at": "2026-10-29T21:27:46.582Z",
       "blob": "69c3b37f4355d6bf681d3738cf8713e283645883",
       "words": 415,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:46.631Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/test-one-when-per-test.md"
     }
   },
   "input_hash": "69c3b37f4355d6bf681d3738cf8713e283645883",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/test-one-when-per-test.md",
-    "description": null,
+    "description": "This is a testing-design practice, not a BC platform requirement — no AL API enforces it, and it should not gate a change the way a platform-contradicted claim would. Each test procedure should contain exactly one [WHEN] block: one action that triggers the behaviour under test.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "when",
+      "single-action",
+      "bdd",
+      "atdd",
+      "given-when-then",
+      "flow-test",
+      "regression-test"
+    ],
     "ai_usage": null,
-    "words": 415
+    "words": 415,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "when",
+        "single-action",
+        "bdd",
+        "atdd",
+        "given-when-then",
+        "flow-test",
+        "regression-test"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "This is a testing-design practice, not a BC platform requirement — no AL API enforces it, and it should not gate a change the way a platform-contradicted claim would. Each test procedure should contain exactly one [WHEN] block: one action that triggers the behaviour under test."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

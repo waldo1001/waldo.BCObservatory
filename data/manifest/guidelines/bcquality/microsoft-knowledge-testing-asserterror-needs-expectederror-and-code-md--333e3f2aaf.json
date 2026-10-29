@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/asserterror-needs-expectederror-and-code.md",
   "published_at": "2026-09-29T15:13:06.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:21:19.038Z",
+      "at": "2026-10-29T21:27:44.477Z",
       "blob": "9ebf3f84900cdfffe979be05b36714d28a4ee3b1",
       "words": 362,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:44.557Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/asserterror-needs-expectederror-and-code.md"
     }
   },
   "input_hash": "9ebf3f84900cdfffe979be05b36714d28a4ee3b1",
@@ -25,13 +29,49 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/asserterror-needs-expectederror-and-code.md",
-    "description": null,
+    "description": "asserterror passes when the guarded statement raises any error at all.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "asserterror",
+      "expectederror",
+      "expectederrorcode",
+      "negative-test",
+      "error-code"
+    ],
     "ai_usage": null,
-    "words": 362
+    "words": 362,
+    "identifiers": [
+      "TestField",
+      "ExpectedError"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "asserterror",
+        "expectederror",
+        "expectederrorcode",
+        "negative-test",
+        "error-code"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "asserterror passes when the guarded statement raises any error at all."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-appsource-review.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:27:21.179Z",
+      "at": "2026-10-29T21:27:46.911Z",
       "blob": "c12815f5892d917fb16c08ae4b014790da88abd5",
       "words": 1572,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:51.847Z",
+      "path": "content/guidelines/microsoft/skills/review/al-appsource-review.md"
     }
   },
   "input_hash": "c12815f5892d917fb16c08ae4b014790da88abd5",
@@ -31,7 +35,38 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1572
+    "words": 1572,
+    "identifiers": [
+      "DateTime",
+      "CurrentDateTime",
+      "UsageCategory",
+      "PageType",
+      "ServiceEnabled",
+      "GuiAllowed",
+      "StrMenu",
+      "RunModal",
+      "ContextSensitiveHelpPage"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": null,
+      "keywords": [],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "skill",
+      "summary": "Performs an AL AppSource review against source and app metadata guidance from BCQuality."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/table-relation-test-exclude-known-invalid-relations-via-event.md",
   "published_at": "2026-09-29T15:13:06.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:21:50.955Z",
+      "at": "2026-10-29T21:27:44.767Z",
       "blob": "3f7d77806ff413a2d3912cd044bdb3b78929e272",
       "words": 444,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:44.814Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/table-relation-test-exclude-known-invalid-relations-via-event.md"
     }
   },
   "input_hash": "3f7d77806ff413a2d3912cd044bdb3b78929e272",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/table-relation-test-exclude-known-invalid-relations-via-event.md",
-    "description": null,
+    "description": "Codeunit 134926 \"Table Relation Test\" (shipped in BCApps' test app — only consumers that depend on the BC test libraries can subscribe to it) reads Table Relations Metadata tenant-wide across every installed app, not just the current one, and validates each field's type and length against what its…",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "table-relation-test",
+      "tablerelationsmetadata",
+      "onafterremovetablerelation",
+      "field-length",
+      "field-type"
+    ],
     "ai_usage": null,
-    "words": 444
+    "words": 444,
+    "identifiers": [
+      "OnAfterRemoveTableRelation"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "table-relation-test",
+        "tablerelationsmetadata",
+        "onafterremovetablerelation",
+        "field-length",
+        "field-type"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Codeunit 134926 \"Table Relation Test\" (shipped in BCApps' test app — only consumers that depend on the BC test libraries can subscribe to it) reads Table Relations Metadata tenant-wide across every installed app, not just the current one, and validates each field's type and length against what its…"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

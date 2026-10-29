@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/page-design-must-match-bc-page-type-conventions.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:26:34.770Z",
+      "at": "2026-10-29T21:27:46.672Z",
       "blob": "18f71787a9f370b8f11a8b3972ec403b7e599809",
       "words": 626,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:46.904Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/page-design-must-match-bc-page-type-conventions.md"
     }
   },
   "input_hash": "18f71787a9f370b8f11a8b3972ec403b7e599809",
@@ -25,13 +29,76 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/page-design-must-match-bc-page-type-conventions.md",
-    "description": null,
+    "description": "Business Central's page types — RoleCenter, Card, List, CardPart, ListPart, Worksheet, Document, ListPlus, plus system dialog/special types such as NavigatePage, ConfirmationDialog, StandardDialog, HeadlinePart, and API (a selected list of conventional types this article covers design conventions…",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "pages",
+      "page-design",
+      "naming-conventions",
+      "page-type",
+      "card-page",
+      "list-page",
+      "factbox",
+      "worksheet-page",
+      "document-page",
+      "rolecenter",
+      "cardpageid",
+      "autosplitkey"
+    ],
     "ai_usage": null,
-    "words": 626
+    "words": 626,
+    "identifiers": [
+      "NavigatePage",
+      "ConfirmationDialog",
+      "StandardDialog",
+      "HeadlinePart",
+      "PageType",
+      "PromptDialog",
+      "ConfigurationDialog",
+      "UserControlHost",
+      "XmlPort",
+      "CardPageID",
+      "SubPageLink",
+      "AutoSplitKey",
+      "FactBox",
+      "SubPage",
+      "UsageCategory"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "pages",
+        "page-design",
+        "naming-conventions",
+        "page-type",
+        "card-page",
+        "list-page",
+        "factbox",
+        "worksheet-page",
+        "document-page",
+        "rolecenter",
+        "cardpageid",
+        "autosplitkey"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Business Central's page types — RoleCenter, Card, List, CardPart, ListPart, Worksheet, Document, ListPlus, plus system dialog/special types such as NavigatePage, ConfirmationDialog, StandardDialog, HeadlinePart, and API (a selected list of conventional types this article covers design conventions…"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

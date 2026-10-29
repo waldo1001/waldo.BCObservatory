@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/bcpt-scenarios-must-be-app-specific.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:25:09.758Z",
+      "at": "2026-10-29T21:27:46.074Z",
       "blob": "51ebdddd66a6fb99a1bacfe94c358ced9ef74f7e",
       "words": 300,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:46.156Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/bcpt-scenarios-must-be-app-specific.md"
     }
   },
   "input_hash": "51ebdddd66a6fb99a1bacfe94c358ced9ef74f7e",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/bcpt-scenarios-must-be-app-specific.md",
-    "description": null,
+    "description": "A PerformanceTest app that ships with only the generic Microsoft BCPT samples (creating sales orders, purchase orders, posting item journals) measures Business Central's own baseline performance, not the extension it was built to test. Those samples are starting points, not coverage.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "bcpt",
+      "performance-test",
+      "scenarios",
+      "app-specific",
+      "regression"
+    ],
     "ai_usage": null,
-    "words": 300
+    "words": 300,
+    "identifiers": [
+      "OnRun",
+      "StartScenario",
+      "EndScenario"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "bcpt",
+        "performance-test",
+        "scenarios",
+        "app-specific",
+        "regression"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A PerformanceTest app that ships with only the generic Microsoft BCPT samples (creating sales orders, purchase orders, posting item journals) measures Business Central's own baseline performance, not the extension it was built to test. Those samples are starting points, not coverage."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

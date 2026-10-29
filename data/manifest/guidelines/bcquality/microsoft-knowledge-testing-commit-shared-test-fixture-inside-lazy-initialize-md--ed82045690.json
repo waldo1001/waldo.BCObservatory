@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/commit-shared-test-fixture-inside-lazy-initialize.md",
   "published_at": "2026-09-29T15:13:06.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:21:35.459Z",
+      "at": "2026-10-29T21:27:44.565Z",
       "blob": "7ec16dff274bd04bcad5c467d8dc5039190f8bce",
       "words": 762,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:44.762Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/commit-shared-test-fixture-inside-lazy-initialize.md"
     }
   },
   "input_hash": "7ec16dff274bd04bcad5c467d8dc5039190f8bce",
@@ -25,13 +29,61 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/commit-shared-test-fixture-inside-lazy-initialize.md",
-    "description": null,
+    "description": "A test method with no [TransactionModel(...)] attribute defaults to AutoCommit (see transactionmodel-attribute-governs-test-transactions.md): a method that completes without error commits automatically at its own boundary, with no explicit Commit() needed.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "initialize",
+      "isinitialized",
+      "shared-fixture",
+      "commit",
+      "autocommit",
+      "asserterror",
+      "testisolation",
+      "lazy-initialization"
+    ],
     "ai_usage": null,
-    "words": 762
+    "words": 762,
+    "identifiers": [
+      "AutoCommit",
+      "IsInitialized",
+      "AutoRollback",
+      "TransactionModel",
+      "TestIsolation",
+      "TestRunner",
+      "CLITestRunner",
+      "SnapTestRunner"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "initialize",
+        "isinitialized",
+        "shared-fixture",
+        "commit",
+        "autocommit",
+        "asserterror",
+        "testisolation",
+        "lazy-initialization"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A test method with no [TransactionModel(...)] attribute defaults to AutoCommit (see transactionmodel-attribute-governs-test-transactions.md): a method that completes without error commits automatically at its own boundary, with no explicit Commit() needed."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
