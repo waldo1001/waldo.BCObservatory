@@ -396,6 +396,12 @@ sources:
     url: https://jeremyvyska.com
     author: { name: Jeremy Vyska, mvp: true }
     fetch: { feed: https://jeremyvyska.com/feed/, rest: https://jeremyvyska.com/wp-json/wp/v2/posts }
+  - id: wingate365-com
+    kind: blog
+    name: Wingate365
+    url: https://blog.wingate365.com
+    author: { name: Andy Wingate }
+    fetch: { feed: https://blog.wingate365.com/index.xml }
   # ---------------------------------------------------------------- discovery (suggestions only, never content)
   - id: wingate-combined
     kind: discovery
