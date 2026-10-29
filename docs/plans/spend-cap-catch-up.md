@@ -1,6 +1,6 @@
 # Plan: spend-cap-catch-up (issue #56, D125, M60)
 
-Spec: `docs/specs/spend-cap-catch-up.md`. Status: waiting for owner approval.
+Spec: `docs/specs/spend-cap-catch-up.md`. Status: approved by the owner; built 2026-10-29.
 
 Blast radius: **risky**. It touches `pipeline/orchestrator/` (`nightly.ts`, `execute.ts`), `config/budget.json` and
 `schemas/run-report.json`. Under operator mode a risky plan stops here, so no code has been edited.
