@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/load-only-primary-key-fields-for-reference-work.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.435Z",
+      "at": "2026-10-29T21:28:42.215Z",
       "blob": "4e88b83a7ccf901dcf055b4b2fe3571a4b6f99ba",
       "words": 203,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:42.395Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/load-only-primary-key-fields-for-reference-work.md"
     }
   },
   "input_hash": "4e88b83a7ccf901dcf055b4b2fe3571a4b6f99ba",
@@ -25,13 +29,49 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/load-only-primary-key-fields-for-reference-work.md",
-    "description": null,
+    "description": "Work that uses a record only for its identity — passing it to another procedure that will re-fetch what it needs, queueing a key for later processing, running existence checks, or building a reference collection — does not need non-key payload fields.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "setloadfields",
+      "primary-key",
+      "reference",
+      "existence-check",
+      "memory"
+    ],
     "ai_usage": null,
-    "words": 203
+    "words": 203,
+    "identifiers": [
+      "SetLoadFields",
+      "FindSet"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "setloadfields",
+        "primary-key",
+        "reference",
+        "existence-check",
+        "memory"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Work that uses a record only for its identity — passing it to another procedure that will re-fetch what it needs, queueing a key for later processing, running existence checks, or building a reference collection — does not need non-key payload fields."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

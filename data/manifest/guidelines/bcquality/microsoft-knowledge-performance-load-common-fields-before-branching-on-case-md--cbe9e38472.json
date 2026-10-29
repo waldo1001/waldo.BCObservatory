@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/load-common-fields-before-branching-on-case.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.431Z",
+      "at": "2026-10-29T21:28:42.083Z",
       "blob": "6a48663dfb035022d7cf0cfe55587640d6369d21",
       "words": 167,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:42.356Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/load-common-fields-before-branching-on-case.md"
     }
   },
   "input_hash": "6a48663dfb035022d7cf0cfe55587640d6369d21",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/load-common-fields-before-branching-on-case.md",
-    "description": null,
+    "description": "When a known input determines which fields a subsequent record read will use, a single SetLoadFields containing every branch's fields loads unnecessary columns.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "setloadfields",
+      "case",
+      "conditional",
+      "branch",
+      "field-loading"
+    ],
     "ai_usage": null,
-    "words": 167
+    "words": 167,
+    "identifiers": [
+      "SetLoadFields",
+      "FindFirst",
+      "FindSet",
+      "AddLoadFields"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "setloadfields",
+        "case",
+        "conditional",
+        "branch",
+        "field-loading"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "When a known input determines which fields a subsequent record read will use, a single SetLoadFields containing every branch's fields loads unnecessary columns."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

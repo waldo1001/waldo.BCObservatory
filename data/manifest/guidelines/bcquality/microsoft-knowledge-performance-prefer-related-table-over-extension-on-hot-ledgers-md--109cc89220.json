@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.475Z",
+      "at": "2026-10-29T21:28:43.491Z",
       "blob": "9097b5a5d13a95f4fab4c90019e681ca454a7f3d",
       "words": 251,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:43.539Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.md"
     }
   },
   "input_hash": "9097b5a5d13a95f4fab4c90019e681ca454a7f3d",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.md",
-    "description": null,
+    "description": "Since v23, all extensions on the same base table share at most one companion-table join, and the platform automatically excludes that join on List, ListPart, and OData pages when partial records are in effect and no extension field is loaded.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "tableextension",
+      "companion-table",
+      "gl-entry",
+      "related-table",
+      "flowfield",
+      "hot-table"
+    ],
     "ai_usage": null,
-    "words": 251
+    "words": 251,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "tableextension",
+        "companion-table",
+        "gl-entry",
+        "related-table",
+        "flowfield",
+        "hot-table"
+      ],
+      "bc_version": [
+        "23.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Since v23, all extensions on the same base table share at most one companion-table join, and the platform automatically excludes that join on List, ListPart, and OData pages when partial records are in effect and no extension field is loaded."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

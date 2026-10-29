@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/errorinfo-telemetry-classification-and-errortype.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.525Z",
+      "at": "2026-10-29T21:28:44.590Z",
       "blob": "d83131f0a0b2cac13cfb2dbf3f80c46a9202741d",
       "words": 190,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:44.672Z",
+      "path": "content/guidelines/microsoft/knowledge/privacy/errorinfo-telemetry-classification-and-errortype.md"
     }
   },
   "input_hash": "d83131f0a0b2cac13cfb2dbf3f80c46a9202741d",
@@ -25,13 +29,55 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/privacy/errorinfo-telemetry-classification-and-errortype.md",
-    "description": null,
+    "description": "Runtime 3.0 (BC 14) provides ErrorInfo.Message, DataClassification, and ErrorType. Message is sent to telemetry; with ErrorType::Client it is also the primary client message, while ErrorType::Internal replaces it in the client with a generic message but still sends the specified text to telemetry.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "errorinfo",
+      "errorinfo-message",
+      "errorinfo-dataclassification",
+      "errorinfo-errortype",
+      "errorinfo-detailedmessage",
+      "copy-details",
+      "telemetry"
+    ],
     "ai_usage": null,
-    "words": 190
+    "words": 190,
+    "identifiers": [
+      "DataClassification",
+      "ErrorType",
+      "DetailedMessage",
+      "SystemMetadata"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "privacy",
+      "keywords": [
+        "errorinfo",
+        "errorinfo-message",
+        "errorinfo-dataclassification",
+        "errorinfo-errortype",
+        "errorinfo-detailedmessage",
+        "copy-details",
+        "telemetry"
+      ],
+      "bc_version": [
+        "14.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Runtime 3.0 (BC 14) provides ErrorInfo.Message, DataClassification, and ErrorType. Message is sent to telemetry; with ErrorType::Client it is also the primary client message, while ErrorType::Internal replaces it in the client with a generic message but still sends the specified text to telemetry."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

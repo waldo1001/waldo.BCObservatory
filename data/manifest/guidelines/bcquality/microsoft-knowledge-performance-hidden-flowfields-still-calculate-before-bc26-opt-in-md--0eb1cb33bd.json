@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/hidden-flowfields-still-calculate-before-bc26-opt-in.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.426Z",
+      "at": "2026-10-29T21:28:42.140Z",
       "blob": "7db17d34bb4f46f94ea7b84691c85cb8b26d4192",
       "words": 206,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:42.226Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/hidden-flowfields-still-calculate-before-bc26-opt-in.md"
     }
   },
   "input_hash": "7db17d34bb4f46f94ea7b84691c85cb8b26d4192",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/hidden-flowfields-still-calculate-before-bc26-opt-in.md",
-    "description": null,
+    "description": "By default, a FlowField used directly as a page control's source is calculated when the page loads even when Visible = false or its visibility expression evaluates to false. The hidden control can therefore issue an aggregate query that no user sees.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "flowfield",
+      "visible",
+      "page-control",
+      "calculate-only-visible-flowfields",
+      "feature-management",
+      "hidden-field"
+    ],
     "ai_usage": null,
-    "words": 206
+    "words": 206,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "flowfield",
+        "visible",
+        "page-control",
+        "calculate-only-visible-flowfields",
+        "feature-management",
+        "hidden-field"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "By default, a FlowField used directly as a page control's source is calculated when the page loads even when Visible = false or its visibility expression evaluates to false. The hidden control can therefore issue an aggregate query that no user sees."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

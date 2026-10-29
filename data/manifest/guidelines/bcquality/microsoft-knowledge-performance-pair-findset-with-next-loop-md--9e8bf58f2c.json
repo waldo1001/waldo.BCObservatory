@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/pair-findset-with-next-loop.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.455Z",
+      "at": "2026-10-29T21:28:42.990Z",
       "blob": "12d3bd4cb5956a21f75ff16a8d0c74c3854ac16d",
       "words": 192,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:43.159Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/pair-findset-with-next-loop.md"
     }
   },
   "input_hash": "12d3bd4cb5956a21f75ff16a8d0c74c3854ac16d",
@@ -25,13 +29,56 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/pair-findset-with-next-loop.md",
-    "description": null,
+    "description": "Two CodeCop rules carve out the loop pattern. AA0181 says FindSet()/Find() \"must be used with Next() method\" — these are the multi-row APIs that the runtime sets up for forward iteration.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "findset",
+      "findfirst",
+      "findlast",
+      "get",
+      "next",
+      "repeat-until",
+      "aa0181",
+      "aa0233"
+    ],
     "ai_usage": null,
-    "words": 192
+    "words": 192,
+    "identifiers": [
+      "FindSet",
+      "FindFirst",
+      "FindLast"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "findset",
+        "findfirst",
+        "findlast",
+        "get",
+        "next",
+        "repeat-until",
+        "aa0181",
+        "aa0233"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Two CodeCop rules carve out the loop pattern. AA0181 says FindSet()/Find() \"must be used with Next() method\" — these are the multi-row APIs that the runtime sets up for forward iteration."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

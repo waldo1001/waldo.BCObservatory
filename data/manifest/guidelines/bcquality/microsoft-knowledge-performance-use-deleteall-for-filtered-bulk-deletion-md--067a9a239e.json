@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/use-deleteall-for-filtered-bulk-deletion.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.496Z",
+      "at": "2026-10-29T21:28:43.808Z",
       "blob": "8c847b46aa4e3b70de11df585739caf8a4ff5b93",
       "words": 194,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:43.924Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/use-deleteall-for-filtered-bulk-deletion.md"
     }
   },
   "input_hash": "8c847b46aa4e3b70de11df585739caf8a4ff5b93",
@@ -25,13 +29,60 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/use-deleteall-for-filtered-bulk-deletion.md",
-    "description": null,
+    "description": "DeleteAll(false) is eligible for a set-based SQL delete with the record variable's filters applied, but it is not guaranteed to stay one statement.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "deleteall",
+      "bulk-delete",
+      "sql",
+      "ondelete",
+      "trigger-bypass",
+      "security-filtering",
+      "media",
+      "companion-fields"
+    ],
     "ai_usage": null,
-    "words": 194
+    "words": 194,
+    "identifiers": [
+      "DeleteAll",
+      "MediaSet",
+      "RunTrigger",
+      "OnDelete",
+      "OnBeforeDelete",
+      "OnAfterDelete",
+      "FindSet"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "deleteall",
+        "bulk-delete",
+        "sql",
+        "ondelete",
+        "trigger-bypass",
+        "security-filtering",
+        "media",
+        "companion-fields"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "DeleteAll(false) is eligible for a set-based SQL delete with the record variable's filters applied, but it is not guaranteed to stay one statement."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

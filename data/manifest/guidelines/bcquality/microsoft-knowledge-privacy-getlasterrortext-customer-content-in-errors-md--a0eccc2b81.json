@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/getlasterrortext-customer-content-in-errors.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.545Z",
+      "at": "2026-10-29T21:28:49.301Z",
       "blob": "fd541a11e45d4bcc53919a182b1c09c03cee2fb6",
       "words": 160,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:49.661Z",
+      "path": "content/guidelines/microsoft/knowledge/privacy/getlasterrortext-customer-content-in-errors.md"
     }
   },
   "input_hash": "fd541a11e45d4bcc53919a182b1c09c03cee2fb6",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/privacy/getlasterrortext-customer-content-in-errors.md",
-    "description": null,
+    "description": "Parameterless GetLastErrorText() can contain customer content such as field values, record keys, and file names. The Boolean overload names its parameter ExcludeCustomerContent; passing true requests scrubbed text and is not the customer-content scenario covered here.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "getlasterrortext",
+      "error",
+      "strsubstno",
+      "telemetry",
+      "customer-data",
+      "attachment"
+    ],
     "ai_usage": null,
-    "words": 160
+    "words": 160,
+    "identifiers": [
+      "ExcludeCustomerContent",
+      "TextConst"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "privacy",
+      "keywords": [
+        "getlasterrortext",
+        "error",
+        "strsubstno",
+        "telemetry",
+        "customer-data",
+        "attachment"
+      ],
+      "bc_version": [
+        "20.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Parameterless GetLastErrorText() can contain customer content such as field values, record keys, and file names. The Boolean overload names its parameter ExcludeCustomerContent; passing true requests scrubbed text and is not the customer-content scenario covered here."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

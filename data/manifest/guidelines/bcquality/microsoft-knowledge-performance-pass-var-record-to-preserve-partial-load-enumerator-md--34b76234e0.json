@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.465Z",
+      "at": "2026-10-29T21:28:42.997Z",
       "blob": "726ec410b4d08e24a25c6f595702017145f7a75f",
       "words": 194,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:43.113Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.md"
     }
   },
   "input_hash": "726ec410b4d08e24a25c6f595702017145f7a75f",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/pass-var-record-to-preserve-partial-load-enumerator.md",
-    "description": null,
+    "description": "A FindSet/Next loop builds an enumerator from the fields selected for load. Accessing an unloaded field triggers a JIT load. When the record is passed by value, the copy does not share that enumerator: the JIT loads the copy and leaves the enumerator unchanged, so every later Next() JIT-loads again.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "setloadfields",
+      "jit-load",
+      "enumerator",
+      "var-parameter",
+      "pass-by-value",
+      "next"
+    ],
     "ai_usage": null,
-    "words": 194
+    "words": 194,
+    "identifiers": [
+      "FindSet",
+      "AddLoadFields",
+      "SetLoadFields"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "setloadfields",
+        "jit-load",
+        "enumerator",
+        "var-parameter",
+        "pass-by-value",
+        "next"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A FindSet/Next loop builds an enumerator from the fields selected for load. Accessing an unloaded field triggers a JIT load. When the record is passed by value, the copy does not share that enumerator: the JIT loads the copy and leaves the enumerator unchanged, so every later Next() JIT-loads again."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/featuretelemetry-logerror-implicit-errortext.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.535Z",
+      "at": "2026-10-29T21:28:49.313Z",
       "blob": "64a9b12f0c80cb889bf35acc75279ea742d982eb",
       "words": 121,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:49.569Z",
+      "path": "content/guidelines/microsoft/knowledge/privacy/featuretelemetry-logerror-implicit-errortext.md"
     }
   },
   "input_hash": "64a9b12f0c80cb889bf35acc75279ea742d982eb",
@@ -25,13 +29,58 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/privacy/featuretelemetry-logerror-implicit-errortext.md",
-    "description": null,
+    "description": "FeatureTelemetry.LogError emits its ErrorText as the telemetry message and adds it as alErrorText. The overloads with ErrorCallStack also add alErrorCallStack.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "featuretelemetry",
+      "logerror",
+      "errortext",
+      "errorcallstack",
+      "alerrortext",
+      "alerrorcallstack",
+      "customdimensions"
+    ],
     "ai_usage": null,
-    "words": 121
+    "words": 121,
+    "identifiers": [
+      "ErrorText",
+      "alErrorText",
+      "ErrorCallStack",
+      "alErrorCallStack",
+      "CustomDimensions",
+      "SystemMetadata",
+      "LogError"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "privacy",
+      "keywords": [
+        "featuretelemetry",
+        "logerror",
+        "errortext",
+        "errorcallstack",
+        "alerrortext",
+        "alerrorcallstack",
+        "customdimensions"
+      ],
+      "bc_version": [
+        "18.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "FeatureTelemetry.LogError emits its ErrorText as the telemetry message and adds it as alErrorText. The overloads with ErrorCallStack also add alErrorCallStack."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

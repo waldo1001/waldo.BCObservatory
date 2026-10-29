@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/featuretelemetry-customdimensions-no-pii.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.530Z",
+      "at": "2026-10-29T21:28:44.596Z",
       "blob": "f34804b6b607ff33346395a390b7f5f2232b5c27",
       "words": 183,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:49.477Z",
+      "path": "content/guidelines/microsoft/knowledge/privacy/featuretelemetry-customdimensions-no-pii.md"
     }
   },
   "input_hash": "f34804b6b607ff33346395a390b7f5f2232b5c27",
@@ -25,13 +29,58 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/privacy/featuretelemetry-customdimensions-no-pii.md",
-    "description": null,
+    "description": "Codeunit \"Feature Telemetry\" is the second telemetry surface in AL. Its methods — LogUsage(), LogUptake() and LogError() — each accept a CustomDimensions dictionary parameter whose contents are sent to telemetry as-is.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "feature-telemetry",
+      "customdimensions",
+      "logusage",
+      "loguptake",
+      "logerror",
+      "pii",
+      "euii",
+      "eupi"
+    ],
     "ai_usage": null,
-    "words": 183
+    "words": 183,
+    "identifiers": [
+      "FeatureTelemetry",
+      "CustomDimensions",
+      "CustomerContent",
+      "LogUptake",
+      "LogUsage"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "privacy",
+      "keywords": [
+        "feature-telemetry",
+        "customdimensions",
+        "logusage",
+        "loguptake",
+        "logerror",
+        "pii",
+        "euii",
+        "eupi"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Codeunit \"Feature Telemetry\" is the second telemetry surface in AL. Its methods — LogUsage(), LogUptake() and LogError() — each accept a CustomDimensions dictionary parameter whose contents are sent to telemetry as-is."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

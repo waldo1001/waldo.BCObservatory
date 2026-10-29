@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/reset-clears-partial-record-selection.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.480Z",
+      "at": "2026-10-29T21:28:43.574Z",
       "blob": "d53aecb057087e952622506e02cd7ea8a9442ee2",
       "words": 153,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:43.645Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/reset-clears-partial-record-selection.md"
     }
   },
   "input_hash": "d53aecb057087e952622506e02cd7ea8a9442ee2",
@@ -25,13 +29,49 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/reset-clears-partial-record-selection.md",
-    "description": null,
+    "description": "SetLoadFields(...) sticks to the record variable until something clears it. Reset() \"changes fields select for loading back to all\", and SetLoadFields() with no arguments does the same. A later FindSet or Get then materializes every normal field.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "reset",
+      "setloadfields",
+      "partial-record",
+      "load-selection",
+      "findset"
+    ],
     "ai_usage": null,
-    "words": 153
+    "words": 153,
+    "identifiers": [
+      "FindSet",
+      "SetLoadFields"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "reset",
+        "setloadfields",
+        "partial-record",
+        "load-selection",
+        "findset"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "SetLoadFields(...) sticks to the record variable until something clears it. Reset() \"changes fields select for loading back to all\", and SetLoadFields() with no arguments does the same. A later FindSet or Get then materializes every normal field."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

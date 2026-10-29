@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/use-tryfunction-for-error-catching-not-rollback.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.506Z",
+      "at": "2026-10-29T21:28:44.144Z",
       "blob": "41f751fbf8f60d93deba38789141c835827c5c6f",
       "words": 334,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:44.223Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/use-tryfunction-for-error-catching-not-rollback.md"
     }
   },
   "input_hash": "41f751fbf8f60d93deba38789141c835827c5c6f",
@@ -25,13 +29,57 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/use-tryfunction-for-error-catching-not-rollback.md",
-    "description": null,
+    "description": "[TryFunction] lets a caller catch an error, but database changes made before that error are not rolled back. The attribute catches; it does not unwind transaction state.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "try-function",
+      "try-method",
+      "error-handling",
+      "rollback",
+      "atomic",
+      "exception",
+      "get-last-error",
+      "session-buffer"
+    ],
     "ai_usage": null,
-    "words": 334
+    "words": 334,
+    "identifiers": [
+      "DisableWriteInsideTryFunctions",
+      "GetLastErrorText",
+      "GetLastErrorCallStack",
+      "ClearLastError"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "try-function",
+        "try-method",
+        "error-handling",
+        "rollback",
+        "atomic",
+        "exception",
+        "get-last-error",
+        "session-buffer"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "[TryFunction] lets a caller catch an error, but database changes made before that error are not rolled back. The attribute catches; it does not unwind transaction state."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

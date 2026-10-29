@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/flowfield-flowfilter-classification-systemmetadata.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.540Z",
+      "at": "2026-10-29T21:28:49.307Z",
       "blob": "659b775c6e210184ac874c269a9cfac92306591f",
       "words": 205,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:49.631Z",
+      "path": "content/guidelines/microsoft/knowledge/privacy/flowfield-flowfilter-classification-systemmetadata.md"
     }
   },
   "input_hash": "659b775c6e210184ac874c269a9cfac92306591f",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/privacy/flowfield-flowfilter-classification-systemmetadata.md",
-    "description": null,
+    "description": "FlowField and FlowFilter are not stored fields — a FlowField is computed from a CalcFormula at read time and a FlowFilter is a transient filter scoped to the record variable.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "flowfield",
+      "flowfilter",
+      "data-classification",
+      "systemmetadata",
+      "calculated"
+    ],
     "ai_usage": null,
-    "words": 205
+    "words": 205,
+    "identifiers": [
+      "SystemMetadata",
+      "FlowField",
+      "FlowFilter",
+      "DataClassification",
+      "CustomerContent"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "privacy",
+      "keywords": [
+        "flowfield",
+        "flowfilter",
+        "data-classification",
+        "systemmetadata",
+        "calculated"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "FlowField and FlowFilter are not stored fields — a FlowField is computed from a CalcFormula at read time and a FlowFilter is a transient filter scoped to the record variable."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

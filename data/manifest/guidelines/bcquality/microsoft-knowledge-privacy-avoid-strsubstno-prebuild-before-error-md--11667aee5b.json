@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/avoid-strsubstno-prebuild-before-error.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.515Z",
+      "at": "2026-10-29T21:28:44.374Z",
       "blob": "f4a25f3a9fbcba6154c053f0c0c311816cb5fbd6",
       "words": 175,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:44.449Z",
+      "path": "content/guidelines/microsoft/knowledge/privacy/avoid-strsubstno-prebuild-before-error.md"
     }
   },
   "input_hash": "f4a25f3a9fbcba6154c053f0c0c311816cb5fbd6",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/privacy/avoid-strsubstno-prebuild-before-error.md",
-    "description": null,
+    "description": "Error method trace telemetry includes the AL error string only when the first Error argument is a Label or TextConst. Wrapping a label in StrSubstNo, or concatenating labels or text, produces a dynamic Text first argument.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "strsubstno",
+      "error",
+      "telemetry",
+      "pii",
+      "prebuild",
+      "text-variable"
+    ],
     "ai_usage": null,
-    "words": 175
+    "words": 175,
+    "identifiers": [
+      "TextConst",
+      "StrSubstNo"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "privacy",
+      "keywords": [
+        "strsubstno",
+        "error",
+        "telemetry",
+        "pii",
+        "prebuild",
+        "text-variable"
+      ],
+      "bc_version": [
+        "20.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Error method trace telemetry includes the AL error string only when the first Error argument is a Label or TextConst. Wrapping a label in StrSubstNo, or concatenating labels or text, produces a dynamic Text first argument."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

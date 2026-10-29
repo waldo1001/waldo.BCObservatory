@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/no-pii-in-telemetry-message-string.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.550Z",
+      "at": "2026-10-29T21:28:49.296Z",
       "blob": "8192c841ef1918be8de4f529ea9aeef0ecbea169",
       "words": 302,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:49.735Z",
+      "path": "content/guidelines/microsoft/knowledge/privacy/no-pii-in-telemetry-message-string.md"
     }
   },
   "input_hash": "8192c841ef1918be8de4f529ea9aeef0ecbea169",
@@ -25,13 +29,57 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/privacy/no-pii-in-telemetry-message-string.md",
-    "description": null,
+    "description": "Session.LogMessage's message argument is a plain Text. Unlike Error(), the platform does not inspect this string field-by-field — whatever is in the text is what telemetry receives.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "telemetry",
+      "session-logmessage",
+      "strsubstno",
+      "pii",
+      "customer-data",
+      "employee-code",
+      "filename"
+    ],
     "ai_usage": null,
-    "words": 302
+    "words": 302,
+    "identifiers": [
+      "StrSubstNo",
+      "DataClassification",
+      "EndUserPseudonymousIdentifiers",
+      "CustomerContent",
+      "FileName",
+      "EmployeeCode"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "privacy",
+      "keywords": [
+        "telemetry",
+        "session-logmessage",
+        "strsubstno",
+        "pii",
+        "customer-data",
+        "employee-code",
+        "filename"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Session.LogMessage's message argument is a plain Text. Unlike Error(), the platform does not inspect this string field-by-field — whatever is in the text is what telemetry receives."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

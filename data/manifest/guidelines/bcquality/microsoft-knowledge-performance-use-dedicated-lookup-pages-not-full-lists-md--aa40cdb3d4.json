@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.491Z",
+      "at": "2026-10-29T21:28:43.694Z",
       "blob": "6a9793f8477fea718cef3eb71163a86f7e70572e",
       "words": 158,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:43.802Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.md"
     }
   },
   "input_hash": "6a9793f8477fea718cef3eb71163a86f7e70572e",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/use-dedicated-lookup-pages-not-full-lists.md",
-    "description": null,
+    "description": "A TableRelation lookup opens the table's LookupPageId. If that is the full list page, the lookup runs that page's triggers, FactBoxes, and calculated fields even though the dropdown never shows them. The base application added dedicated Customer, Vendor, and Item lookup pages for this reason.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "lookuppageid",
+      "lookup-page",
+      "list-page",
+      "factbox",
+      "table-relation",
+      "dropdown"
+    ],
     "ai_usage": null,
-    "words": 158
+    "words": 158,
+    "identifiers": [
+      "TableRelation",
+      "LookupPageId",
+      "OnAfterGetRecord",
+      "DrillDownPageId"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "lookuppageid",
+        "lookup-page",
+        "list-page",
+        "factbox",
+        "table-relation",
+        "dropdown"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A TableRelation lookup opens the table's LookupPageId. If that is the full list page, the lookup runs that page's triggers, FactBoxes, and calculated fields even though the dropdown never shows them. The base application added dedicated Customer, Vendor, and Item lookup pages for this reason."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

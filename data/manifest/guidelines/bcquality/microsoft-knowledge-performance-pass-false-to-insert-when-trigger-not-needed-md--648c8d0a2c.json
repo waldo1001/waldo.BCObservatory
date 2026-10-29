@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/pass-false-to-insert-when-trigger-not-needed.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.461Z",
+      "at": "2026-10-29T21:28:42.983Z",
       "blob": "4fc83c4ed02e46c2eeb781fe71996aa5c8a2cd0c",
       "words": 222,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:43.071Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/pass-false-to-insert-when-trigger-not-needed.md"
     }
   },
   "input_hash": "4fc83c4ed02e46c2eeb781fe71996aa5c8a2cd0c",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/pass-false-to-insert-when-trigger-not-needed.md",
-    "description": null,
+    "description": "Insert(true), Modify(true), and Delete(true) run the table's OnInsert/OnModify/OnDelete trigger; the (false) form skips it.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "insert",
+      "modify",
+      "delete",
+      "trigger",
+      "run-trigger",
+      "write-parameters"
+    ],
     "ai_usage": null,
-    "words": 222
+    "words": 222,
+    "identifiers": [
+      "OnInsert",
+      "OnModify",
+      "OnDelete"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "insert",
+        "modify",
+        "delete",
+        "trigger",
+        "run-trigger",
+        "write-parameters"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Insert(true), Modify(true), and Delete(true) run the table's OnInsert/OnModify/OnDelete trigger; the (false) form skips it."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
