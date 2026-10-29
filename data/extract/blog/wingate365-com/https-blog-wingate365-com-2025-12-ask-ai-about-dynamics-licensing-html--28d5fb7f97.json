@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html",
+  "url": "https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html",
+  "title": "Ask AI about Dynamics Licensing",
+  "source": "wingate365-com",
+  "published_at": "2025-12-14T09:53:00.000Z",
+  "words": 1102,
+  "summary": "The December 2025 Dynamics 365 Licensing Guide introduces Copilot Credits as a consumption-based currency for AI agents, with Business Central gaining two new prebuilt agents: Sales Order Agent for automating customer email-based order capture, and Payables Agent for invoice processing and approval routing. Premium license holders receive 1,000 Copilot Credits per user per month, and the core Business Central licensing structure remains unchanged.",
+  "key_points": [
+    "Two new AI agents for Business Central automate sales order processing from emails and accounts payable invoice handling with real-time item availability checks and approval routing",
+    "Copilot Credits serve as a consumption-based currency pooled at tenant level, with Premium licenses including 1,000 credits per user monthly",
+    "Core Business Central licensing (Essentials, Premium, Team Members, Device) stays the same; agents enhance existing platform without replacing current structure",
+    "Additional Copilot Credits can be purchased through pay-as-you-go meters, credit pack subscriptions, or pre-purchase plans",
+    "Administrator roles in Entra (Power Platform Admin or Dynamics 365 Admin) no longer require licenses for application configuration"
+  ],
+  "systems": [
+    "copilot",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "licensing",
+    "ai agents",
+    "copilot credits",
+    "sales order automation",
+    "accounts payable",
+    "business central",
+    "december 2025 update"
+  ],
+  "objects": [],
+  "features": [
+    "Sales Order Agent",
+    "Payables Agent",
+    "Copilot Credits",
+    "Dynamics 365 Agents",
+    "Email-based order capture",
+    "Invoice matching and routing",
+    "Real-time item availability checks",
+    "Outstanding payables tracking dashboards"
+  ],
+  "versions": [
+    "December 2025"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "These agents are enhancements to the existing platform, not replacements.",
+      "why_it_matters": "Clarifies that Business Central's core licensing structure remains stable while new AI capabilities are added"
+    },
+    {
+      "text": "Credits are pooled at the tenant level",
+      "why_it_matters": "Important for understanding how organizations should manage Copilot Credits across multiple Dynamics 365 workloads to prevent cross-department depletion"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007245,
+    "posts_in_call": 1
+  }
+}

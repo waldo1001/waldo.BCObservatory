@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/wingate365-com/https://blog.wingate365.com/2026/04/fixing-email-for-guest-users-in-d365.html",
+  "url": "https://blog.wingate365.com/2026/04/fixing-email-for-guest-users-in-d365.html",
+  "title": "Fixing Email for Guest Users in D365 Business Central",
+  "source": "wingate365-com",
+  "published_at": "2026-04-26T20:41:00.000Z",
+  "words": 957,
+  "summary": "Guest users in Dynamics 365 Business Central cannot use the built-in email connectors for sending email. This post describes a Current User Email API extension that uses Microsoft Graph to enable guest users to send email as themselves via delegated authentication, requiring one-time admin setup and per-user consent.",
+  "key_points": [
+    "Built-in email connectors (Current User and M365/Shared Mailbox) fail for Entra B2B guest users due to cross-tenant identity limitations",
+    "The solution uses Microsoft Graph API with OAuth 2.0 Authorization Code plus PKCE flow to enable per-user email sending",
+    "Admin registers an Entra app once with Mail.Send permission, users consent once through a popup, then email sends automatically",
+    "Access tokens are stored per-user in IsolatedStorage with automatic silent refresh every 60 minutes",
+    "The extension is open source on GitHub and available as a per-tenant extension for BC SaaS"
+  ],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "guest users",
+    "email connectors",
+    "microsoft graph",
+    "oauth",
+    "entra b2b",
+    "guest access",
+    "identity"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Connect Current User Email API page"
+    },
+    {
+      "type": "other",
+      "name": "Email Setup Card"
+    }
+  ],
+  "features": [
+    "Current User Email API",
+    "Microsoft Graph email sending",
+    "OAuth 2.0 delegated authentication",
+    "Silent token refresh",
+    "Per-user token storage",
+    "Email attachments support",
+    "Multi-tenancy support"
+  ],
+  "versions": [
+    "2026 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Being able to send as yourself is an important capability",
+      "why_it_matters": "Highlights why the solution matters for identity clarity in modern connected systems"
+    },
+    {
+      "text": "The connector resolves the correct Graph token for whoever is sending at that moment",
+      "why_it_matters": "Explains the core technical approach that enables per-user email sending regardless of guest status"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006525,
+    "posts_in_call": 1
+  }
+}

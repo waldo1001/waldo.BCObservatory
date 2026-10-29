@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/wingate365-com/https://blog.wingate365.com/2026/06/graph-api-email-account-types-for-d365.html",
+  "url": "https://blog.wingate365.com/2026/06/graph-api-email-account-types-for-d365.html",
+  "title": "Graph API Email account types for D365 BC",
+  "source": "wingate365-com",
+  "published_at": "2026-06-07T10:13:30.000Z",
+  "words": 717,
+  "summary": "An open source extension enables Business Central guest users to send email from their home domain addresses using Microsoft Graph API and Client Credentials authentication. The solution supports multi-tenant environments where users from different Entra tenancies need automatic email routing without per-user configuration.",
+  "key_points": [
+    "Switched from OAuth delegated flow requiring user consent to Client Credentials app-only authentication eliminating per-user setup",
+    "Admin configures one App Registration per home domain in Business Central, with automatic user matching at send time",
+    "Supports both user mailboxes and shared mailboxes with full token security hardening using SecretText and encrypted storage",
+    "Ideal for multi-tenant organizations where internal users and B2B guests need transparent email delivery from their respective domains"
+  ],
+  "systems": [
+    "integration",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "email",
+    "guest users",
+    "graph api",
+    "oauth",
+    "multi-tenancy",
+    "app registration",
+    "authentication"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Current User (Microsoft Graph)"
+    },
+    {
+      "type": "other",
+      "name": "App Registrations page"
+    },
+    {
+      "type": "other",
+      "name": "Email Accounts page"
+    }
+  ],
+  "features": [
+    "Client Credentials OAuth authentication",
+    "Multi-tenancy support",
+    "User and shared mailbox support",
+    "CC, BCC and attachments",
+    "Token security hardening",
+    "Automatic domain matching",
+    "Graph API sendMail integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00616,
+    "posts_in_call": 1
+  }
+}

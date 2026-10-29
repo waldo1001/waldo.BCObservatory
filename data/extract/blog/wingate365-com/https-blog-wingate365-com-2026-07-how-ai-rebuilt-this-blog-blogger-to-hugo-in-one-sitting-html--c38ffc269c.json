@@ -1,0 +1,57 @@
+{
+  "item_id": "blog/wingate365-com/https://blog.wingate365.com/2026/07/how-ai-rebuilt-this-blog-blogger-to-hugo-in-one-sitting.html",
+  "url": "https://blog.wingate365.com/2026/07/how-ai-rebuilt-this-blog-blogger-to-hugo-in-one-sitting.html",
+  "title": "How AI Rebuilt This Blog: Blogger to Hugo in One Sitting",
+  "source": "wingate365-com",
+  "published_at": "2026-07-18T09:00:00.000Z",
+  "words": 929,
+  "summary": "A 21-year-old Blogger site with 192 posts was migrated to Hugo and GitHub Pages using an AI agent for the entire lifecycle, including stack selection, theme building, content classification, and bug fixing while preserving all legacy URLs and SEO equity.",
+  "key_points": [
+    "AI handled research, planning, and execution across the full project lifecycle rather than just coding tasks",
+    "Hugo was chosen for fast builds and ability to reproduce Blogger's exact URL structure without redirects",
+    "192 posts were classified into keep (117), exclude (53), or review (22 ambiguous cases) based on relevance to Business Central and tech content",
+    "The agent fixed its own bugs by checking output rather than assuming success",
+    "Human judgment remained essential for content classification edge cases and brand design decisions"
+  ],
+  "systems": [],
+  "topics": [
+    "blog migration",
+    "hugo",
+    "github pages",
+    "ai agents",
+    "content classification",
+    "static site generation",
+    "url preservation"
+  ],
+  "objects": [],
+  "features": [
+    "Git-native content management",
+    "Markdown support",
+    "custom theme design",
+    "automated migration script",
+    "content classification",
+    "brand style system",
+    "client-side search index",
+    "LinkedIn comment integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Say a preference once, and a good agent keeps enforcing it long after you have forgotten you said it - across 117 posts and counting.",
+      "why_it_matters": "Shows how agents can internalize design preferences and apply them consistently across large numbers of artifacts without repeated instruction"
+    },
+    {
+      "text": "the 22 review posts are proof that judgment calls still need a person",
+      "why_it_matters": "Clarifies that AI agents excel at classification and execution but humans remain essential for ambiguous edge cases and final decisions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005803,
+    "posts_in_call": 1
+  }
+}

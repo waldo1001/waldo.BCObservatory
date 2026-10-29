@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/wingate365-com/https://blog.wingate365.com/2026/04/trying-out-github-copilot-agent-for.html",
+  "url": "https://blog.wingate365.com/2026/04/trying-out-github-copilot-agent-for.html",
+  "title": "Trying out GitHub Copilot Agent for a Functional Task?",
+  "source": "wingate365-com",
+  "published_at": "2026-04-19T14:35:00.000Z",
+  "words": 1301,
+  "summary": "GitHub Copilot Agent can validate large numbers of CSV schema files against Business Central master data requirements. This post explains when to use web-based or local agents, how to prompt them effectively, and emphasizes that human domain knowledge remains essential for interpreting results and catching issues.",
+  "key_points": [
+    "Use web-based GitHub Copilot agent for read-and-report tasks; use local VS Code agent for iterative code generation and multi-file validation",
+    "Clear prompts defining expected output upfront yield better results than vague requests",
+    "Draft pull requests keep humans in control and enable review before changes merge",
+    "AI handles methodical legwork like checking 91 CSV files, but BC functional knowledge remains the consultant's responsibility",
+    "Staying engaged during agent execution allows human nudges to uncover gaps the initial prompt missed"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "github copilot",
+    "agents",
+    "csv validation",
+    "master data",
+    "data import",
+    "automation",
+    "workflow"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "G/L Account"
+    }
+  ],
+  "features": [
+    "GitHub Copilot web agent",
+    "GitHub Copilot VS Code agent",
+    "CSV schema validation",
+    "data type checking",
+    "field mapping analysis",
+    "configuration packages",
+    "draft pull requests"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Draft PRs keep you in control. Review them properly - your domain knowledge is what makes the output trustworthy.",
+      "why_it_matters": "Emphasizes the importance of human oversight in maintaining data quality and preventing errors"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00702,
+    "posts_in_call": 1
+  }
+}
