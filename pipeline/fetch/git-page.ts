@@ -12,7 +12,7 @@ import { existsSync } from "node:fs";
 import { resolve } from "node:path";
 import matter from "gray-matter";
 import { git } from "../lib/git.js";
-import type { Manifest, ManifestItem, Pillar } from "../lib/manifest.js";
+import { BCQ_META_RULE, type Manifest, type ManifestItem, type Pillar } from "../lib/manifest.js";
 import type { StageHandler } from "../orchestrator/execute.js";
 
 const BATCH = 1000;
@@ -116,15 +116,66 @@ export function pageIdentifiers(body: string): string[] {
   return out;
 }
 
+/** D126: a BCQuality rule's or review skill's own frontmatter, and the summary the page and the search record show. */
+export interface BcqMeta {
+  /** frontmatter `domain`; null on skills */
+  domain: string | null;
+  /** frontmatter `keywords`, at most 20 */
+  keywords: string[];
+  /** `bc-version`, e.g. ["all"] or [">=24"] */
+  bc_version: string[];
+  technologies: string[]; countries: string[]; application_area: string[];
+  /** "skill" when the path has /skills/ or frontmatter `kind` is set */
+  kind: "rule" | "skill";
+  /** a rule: the first paragraph under `## Description`, plain, cut at a sentence end within SUMMARY_MAX; a skill: `description` */
+  summary: string | null;
+}
 export interface PageMeta {
   title: string | null; description: string | null; ms_date: string | null; ms_topic: string | null;
   search_form: SearchForm[]; keywords: string[]; ai_usage: string | null; words: number; h2: number; identifiers: string[];
+  bcq?: BcqMeta;
 }
-export function parsePage(text: string): PageMeta {
+export { BCQ_META_RULE } from "../lib/manifest.js";
+
+/** BCQuality summaries are cut at the last sentence end at or before this many characters (D126). */
+export const SUMMARY_MAX = 300;
+const list = (v: unknown, max = 20) => (Array.isArray(v) ? v : v == null || v === "" ? [] : [v]).map((x) => String(x).trim()).filter(Boolean).slice(0, max);
+/** Markdown links reduced to their text, code spans to their content, whitespace collapsed. */
+export const plainMarkdown = (s: string) => s.replace(/!?\[([^\]]*)\]\([^)]*\)/g, "$1").replace(/`+([^`]*)`+/g, "$1").replace(/\*\*([^*]*)\*\*/g, "$1").replace(/\s+/g, " ").trim();
+/** The text up to its last sentence end (. ! ? and any closing quote or bracket) at or before `max`; a word cut with an ellipsis when there is none. */
+export function cutAtSentence(s: string, max = SUMMARY_MAX): string {
+  if (s.length <= max) return s;
+  let end = -1;
+  for (const m of s.matchAll(/[.!?]["'”’)\]]*(?=\s|$)/g)) if (m.index! + m[0].length <= max) end = m.index! + m[0].length;
+  if (end > 0) return s.slice(0, end);
+  const cut = s.slice(0, max - 1);
+  return `${cut.slice(0, cut.lastIndexOf(" ") > 0 ? cut.lastIndexOf(" ") : cut.length)}…`;
+}
+function descriptionSummary(body: string): string | null {
+  const text = body.replace(/^[ \t]*(```|~~~)[\s\S]*?^[ \t]*\1/gm, " ");
+  const sec = text.split(/^##\s+Description\s*$/m)[1];
+  if (sec === undefined) return null;
+  const para = sec.split(/^#{1,6}\s/m)[0].split(/\n\s*\n/).map((p) => p.trim()).find(Boolean);
+  return para ? cutAtSentence(plainMarkdown(para)) || null : null;
+}
+function bcqMeta(fm: Record<string, any>, body: string, path?: string): BcqMeta | undefined {
+  if (!("bc-version" in fm) && !("domain" in fm)) return undefined;
+  const kind = (path ?? "").includes("/skills/") || fm.kind != null ? "skill" : "rule";
+  const str = (v: unknown) => (typeof v === "string" && v.trim() ? v.trim() : null);
+  return {
+    domain: kind === "skill" ? null : str(fm.domain), keywords: list(fm.keywords), bc_version: list(fm["bc-version"]),
+    technologies: list(fm.technologies), countries: list(fm.countries), application_area: list(fm["application-area"]), kind,
+    summary: kind === "skill" ? str(fm.description) : descriptionSummary(body),
+  };
+}
+
+/** A git page's metadata; `path` (the repo path) tells a BCQuality review skill from a rule (D126). */
+export function parsePage(text: string, path?: string): PageMeta {
   let fm: Record<string, any> = {}, body = text;
   try { const m = matter(text); fm = m.data; body = m.content; } catch { /* malformed frontmatter: body only */ }
   const h1 = body.match(/^#\s+(.+)$/m)?.[1]?.trim() ?? null;
   const str = (v: unknown) => (typeof v === "string" && v.trim() ? v.trim() : null);
+  const bcq = bcqMeta(fm, body, path);
   return {
     title: str(fm.title) ?? h1, description: str(fm.description), ms_date: parseMsDate(fm["ms.date"]), ms_topic: str(fm["ms.topic"]),
     search_form: parseSearchForm(fm["ms.search.form"]),
@@ -133,6 +184,7 @@ export function parsePage(text: string): PageMeta {
     words: body.replace(/```[\s\S]*?```/g, " ").split(/\s+/).filter((w) => /\w/.test(w)).length,
     h2: (body.match(/^##\s/gm) ?? []).length,
     identifiers: pageIdentifiers(body),
+    ...(bcq ? { bcq } : {}),
   };
 }
 
@@ -143,13 +195,13 @@ export function gitPageFetched(): StageHandler {
     const blob = item.input_hash;
     if (!blob) throw new Error("no blob id (input_hash) on item");
     const text = await git(["cat-file", "-p", blob], mirrorFor(ctx.mirrorsDir, item));
-    const m = parsePage(text);
+    const m = parsePage(text, typeof item.meta?.path === "string" ? item.meta.path : undefined);
+    const meta: Record<string, unknown> = { description: m.description, ms_date: m.ms_date, ms_topic: m.ms_topic, search_form: m.search_form, keywords: m.keywords, ai_usage: m.ai_usage, words: m.words, identifiers: m.identifiers, identifiers_rule: IDENTIFIERS_RULE };
+    // D126: a BCQuality rule's facets; its summary is the description (the leak gate's official text), its keywords the keywords
+    if (item.pillar === "guidelines") Object.assign(meta, { ...(m.bcq ? { bcq: m.bcq, description: m.bcq.summary, keywords: m.bcq.keywords } : {}), bcq_rule: BCQ_META_RULE });
     return {
       output_hash: blob,
-      patch: {
-        ...(m.title ? { title: m.title } : {}),
-        meta: { description: m.description, ms_date: m.ms_date, ms_topic: m.ms_topic, search_form: m.search_form, keywords: m.keywords, ai_usage: m.ai_usage, words: m.words, identifiers: m.identifiers, identifiers_rule: IDENTIFIERS_RULE },
-      },
+      patch: { ...(m.title ? { title: m.title } : {}), meta },
       data: { blob, words: m.words, forms: m.search_form.length },
     };
   };

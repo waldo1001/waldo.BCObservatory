@@ -106,7 +106,7 @@ export function decideGuard(usage: PlanUsage | PlanUsageUnavailable, cfg: Pick<B
 }
 
 /** Quotas that cost LLM calls scale with the guard; deterministic work (captions, code jobs) does not. */
-export const LLM_QUOTAS = new Set(["video_extract", "docs", "posts", "changes", "guidelines", "hub_refresh", "roadmap_links", "topic_links", "learn_confirm", "learn_facts", "cautions", "coverage_reviews", "topic_reviews", "opus_reviews", "llm_calls_max", "change_narrative",
+export const LLM_QUOTAS = new Set(["video_extract", "docs", "posts", "changes", "hub_refresh", "roadmap_links", "topic_links", "learn_confirm", "learn_facts", "cautions", "coverage_reviews", "topic_reviews", "opus_reviews", "llm_calls_max", "change_narrative",
   // D77 review coverage: Opus reviews of every video, post batch and change batch
   "video_reviews", "post_reviews", "change_reviews"]);
 

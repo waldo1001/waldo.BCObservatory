@@ -77,6 +77,7 @@ import { refreshLearnFacts, type LearnFactsRun } from "../extract/learn-facts.js
 import { refreshCautions, type CautionsRun } from "../extract/cautions.js";
 import { refreshCautionLinks, type CautionLinksRun } from "../link/cautions.js";
 import { renderHotfixIndex, rerenderHotfixPages } from "../render/hotfix.js";
+import { renderGuidelineIndex, rerenderGuidelinePages } from "../render/guideline.js";
 import { refreshLocalizationNarratives, type LocalizationRun } from "../summarize/localization.js";
 import { reviewCoverage, type CoverageReviewRun } from "../review/coverage.js";
 import { buildTopicHubs, mirrorReader } from "../link/toc.js";
@@ -179,6 +180,8 @@ export interface RunReport {
   reviews?: ReviewsReport;
   /** D94/D95: Learn items whose `meta.identifiers` are missing or written under an older rule (`meta.identifiers_rule`), filled from their fetched blob (no LLM, no quota). */
   learn_identifiers?: IdentifierBackfill;
+  /** D126: BCQuality rule pages re-rendered from their blobs after the change pages, and the rule pages llms.txt lists. */
+  guidelines?: { rerendered: number; pages: number };
 }
 
 /** Calendar date of the run in the budget window's timezone (the nightly starts after local midnight). */
@@ -482,6 +485,13 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
       // D106: hotfix pages follow the change pages' work items, written earlier tonight
       rerenderHotfixPages(manifest, opts.dataDir, contentDirOf(opts), now);
       renderHotfixIndex(contentDirOf(opts), opts.dataDir);
+    });
+    // D126: rule pages follow tonight's BCQuality change pages; the change pages pick the rule pages up in change-pages
+    report.guidelines = await phase("guidelines", async () => {
+      try {
+        const rerendered = await rerenderGuidelinePages(manifest, opts.dataDir, contentDirOf(opts), mirrorsDir, now);
+        return { rerendered, pages: renderGuidelineIndex(contentDirOf(opts), manifest) };
+      } catch (e) { errors.push(`guidelines: ${(e as Error).message.slice(0, 200)}`); return undefined; }
     });
     // D106: Learn key facts for the scoped pages (config/learn-facts.json) before the hubs render them
     report.learn_facts = await optionalPhase("learn-facts", async () => {

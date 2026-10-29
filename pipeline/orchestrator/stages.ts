@@ -29,6 +29,7 @@ import { docsExtractedHandler, passThrough } from "../extract/docs.js";
 import { featurePublished } from "../render/feature.js";
 import { releasePublished } from "../render/release.js";
 import { hotfixPublished } from "../render/hotfix.js";
+import { guidelinePublished } from "../render/guideline.js";
 import { linkedHandler, publishedHandler } from "../render/video.js";
 import { reviewedHandler } from "../review/video.js";
 import { summarizedHandler } from "../summarize/video.js";
@@ -65,7 +66,8 @@ export const STAGE_HANDLERS: StageHandlers = {
     linked: passThrough({ via: "topic hubs" }),
     published: passThrough({ page: false }),
   },
-  guidelines: { fetched: gitPageFetched() },
+  // D126: BCQuality rules are pages from the blob, no model
+  guidelines: { fetched: gitPageFetched(), published: guidelinePublished() },
   video: {
     fetched: fetchedHandler(),
     captioned: captionedHandler(),

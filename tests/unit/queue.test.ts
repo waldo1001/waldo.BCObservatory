@@ -2,6 +2,8 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import type { ManifestItem, Pillar } from "../../pipeline/lib/manifest.js";
 import { horizonFor, planQueue, quotaFor } from "../../pipeline/lib/queue.js";
+import { BCQ_META_RULE, FLOWS, advance, nextStage } from "../../pipeline/lib/manifest.js";
+import { LLM_QUOTAS } from "../../pipeline/lib/budget.js";
 
 const now = new Date("2026-10-07T01:00:00Z");
 let n = 0;
@@ -56,7 +58,7 @@ test("newest first within a pillar, quota caps, round-robin across pillars", () 
 });
 
 test("reading git pages from the mirror is quota-free; video captions are not", () => {
-  const plan = planQueue([item("docs", "2026-01-01T00:00:00Z"), item("guidelines", "2026-01-01T00:00:00Z")], { docs: 0, guidelines: 0 }, noSources, now);
+  const plan = planQueue([item("docs", "2026-01-01T00:00:00Z"), item("guidelines", "2026-01-01T00:00:00Z")], { docs: 0 }, noSources, now);
   assert.deepEqual(plan.work.map((w) => [w.stage, w.quota]), [["fetched", null], ["fetched", null]]);
   assert.equal(quotaFor("video", "fetched"), "captions");
 });
@@ -86,4 +88,22 @@ test("opted-in full-text sources (waldo.be) come first in their pillar, then new
   const fresh = item("blog", "2026-10-01T00:00:00Z", { source: "other" });
   const plan = planQueue([fresh, old], { posts: 10 }, new Map([["waldo-be", { full_text: true, backfill: { months: 18 } }], ["other", { full_text: false, backfill: { months: 18 } }]]), now);
   assert.deepEqual(plan.work.map((w) => w.id), [old.id, fresh.id]);
+});
+
+// D126: BCQuality rules are pages built without a model: discovered -> fetched -> published, no quota
+test("guidelines: fetched plans published without quota; an item without the rule metadata is read again", async () => {
+  const done = item("guidelines", "2026-09-01T00:00:00Z", { source: "bcquality", state: "fetched", meta: { bcq_rule: BCQ_META_RULE } });
+  const old = item("guidelines", "2026-09-02T00:00:00Z", { source: "bcquality", state: "fetched", meta: {} });
+  const published = item("guidelines", "2026-09-03T00:00:00Z", { source: "bcquality", state: "published", stages: { discovered: { at: "x" }, fetched: { at: "x" }, published: { at: "x" } }, meta: { bcq_rule: BCQ_META_RULE - 1 } });
+  const plan = planQueue([done, old, published], {}, noSources, now);
+  assert.deepEqual(plan.work.map((w) => [w.id, w.stage, w.quota]).sort(), [[done.id, "published", null], [old.id, "fetched", null], [published.id, "fetched", null]].sort());
+  for (const s of FLOWS.guidelines) assert.equal(quotaFor("guidelines", s), null, s);
+  assert.deepEqual(FLOWS.guidelines, ["discovered", "fetched", "published"]);
+  // advancing the re-read item does not throw: the stage it gets is the one nextStage names
+  assert.equal(nextStage(advance(old, "fetched", {}, now)), "fetched", "still no bcq_rule in meta: read again");
+  assert.equal(nextStage({ ...advance(old, "fetched", {}, now), meta: { bcq_rule: BCQ_META_RULE } }), "published");
+  const { readFileSync } = await import("node:fs");
+  const budget = JSON.parse(readFileSync(new URL("../../config/budget.json", import.meta.url), "utf8"));
+  assert.equal(budget.quotas.guidelines, undefined);
+  assert.ok(!LLM_QUOTAS.has("guidelines"));
 });

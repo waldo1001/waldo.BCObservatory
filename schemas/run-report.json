@@ -219,6 +219,11 @@
       "type": "object", "additionalProperties": false, "required": ["items", "filled", "prefetched", "missing", "ms"],
       "properties": { "items": { "type": "integer" }, "filled": { "type": "integer" }, "prefetched": { "type": "integer" }, "missing": { "type": "integer" }, "ms": { "type": "integer" }, "rule": { "type": "integer", "description": "identifier rule version of this run (2 since D95)" } }
     },
+    "guidelines": {
+      "description": "D126: BCQuality rule pages re-rendered from their blobs after the change pages (rerendered = files written), and the rule pages content/guidelines/llms.txt lists",
+      "type": "object", "additionalProperties": false, "required": ["rerendered", "pages"],
+      "properties": { "rerendered": { "type": "integer" }, "pages": { "type": "integer" } }
+    },
     "items_changed": { "type": "integer" },
     "errors": { "type": "array", "items": { "type": "string" } }
   },

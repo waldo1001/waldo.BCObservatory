@@ -46,7 +46,8 @@ export interface ManifestItem {
 export const FLOWS: Record<Pillar, Stage[]> = {
   video: ["discovered", "fetched", "captioned", "extracted", "summarized", "linked", "reviewed", "published"],
   docs: ["discovered", "fetched", "extracted", "summarized", "linked", "reviewed", "published"],
-  guidelines: ["discovered", "fetched", "extracted", "summarized", "linked", "reviewed", "published"],
+  // BCQuality rules (D126): deterministic, the page comes from the blob; no model, no quota
+  guidelines: ["discovered", "fetched", "published"],
   blog: ["discovered", "fetched", "extracted", "summarized", "linked", "reviewed", "published"],
   code: ["discovered", "fetched", "extracted", "linked", "published"],
   roadmap: ["discovered", "fetched", "linked", "published"],
@@ -58,6 +59,11 @@ export const FLOWS: Record<Pillar, Stage[]> = {
   hotfix: ["discovered", "fetched", "published"],
 };
 export const REMOVED_UPSTREAM = "removed-upstream";
+/**
+ * D126: the version of the BCQuality metadata the fetched stage writes (`meta.bcq`, `meta.bcq_rule`). A guidelines item
+ * fetched or published under a lower one (or none) is read from its blob once more; raise this when the parse changes.
+ */
+export const BCQ_META_RULE = 1;
 const TERMINAL = new Set<State>(["published", "failed", "skipped"]);
 
 export function itemId(pillar: Pillar, source: string, key: string): string {
@@ -78,6 +84,8 @@ export function fileKey(key: string): string {
 
 export function nextStage(item: ManifestItem): Stage | null {
   if (item.state === "stale") return "fetched";
+  // D126: a guidelines item read before its rule metadata existed (or under an older rule) is read again, once
+  if (item.pillar === "guidelines" && (item.state === "fetched" || item.state === "published") && Number(item.meta?.bcq_rule ?? 0) < BCQ_META_RULE) return "fetched";
   if (TERMINAL.has(item.state)) return null;
   const flow = FLOWS[item.pillar];
   const next = flow[flow.indexOf(item.state as Stage) + 1];

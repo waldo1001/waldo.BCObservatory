@@ -3,7 +3,7 @@
  * page titles and h1 nouns, the home cards, About's counts, the root llms.txt and every section llms.txt read it.
  * No imports, so the site uses it at build time too (like systems.ts).
  */
-export type SectionId = "topics" | "objects" | "apps" | "localizations" | "features" | "changes" | "releases" | "hotfixes"
+export type SectionId = "topics" | "objects" | "apps" | "localizations" | "features" | "changes" | "releases" | "hotfixes" | "guidelines"
   | "videos" | "posts" | "digests" | "sources" | "mcp" | "about" | "instruments";
 
 export interface Section {
@@ -34,6 +34,8 @@ export const SECTIONS: readonly Section[] = [
     blurb: "Business Central on the Microsoft 365 roadmap, with the videos and Learn pages that cover each feature." },
   { id: "changes", path: "changes/", name: "Code changes", noun: ["code change", "code changes"], group: 2,
     blurb: "Merged pull requests of Microsoft's repositories, joined to the objects they changed." },
+  { id: "guidelines", path: "guidelines/", name: "Quality rules", noun: ["BCQuality rule", "BCQuality rules"],
+    blurb: "Microsoft's BCQuality knowledge base for AL: each rule with its good and bad examples, the objects it names and the pull requests that changed it." },
   { id: "videos", path: "videos/", name: "Videos", noun: ["video", "videos"], group: 2,
     blurb: "Sessions as timestamped evidence: chapters, key points, quotes that deep-link to the second." },
   { id: "posts", path: "posts/", name: "Posts", noun: ["community post", "community posts"], group: 2,

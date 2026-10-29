@@ -214,12 +214,15 @@ const OFFICIAL_ONLY = [/^data\/code\//, /^content\/objects\//, /^data\/releases\
   /^data\/extract\/learn-facts\//, /^data\/index\/learn-facts-[0-9a-f]{12}\.json$/,
   // D106: Microsoft Support update pages: the snapshots, the pages and the test fixtures hold Microsoft's wording only
   /^data\/hotfixes\//, /^content\/hotfixes\//, /^tests\/fixtures\/support-update/,
+  // D126: BCQuality rule pages: the renderer reads the BCQuality blob and tree, the object index, the Learn manifest and the
+  // change pages' frontmatter, never a post; the fixtures are verbatim BCQuality files
+  /^content\/guidelines\//, /^tests\/fixtures\/bcquality\//,
   // D85: the field docs and symbols indexes are Microsoft's code text only (tooltips, captions, docs from the snapshots);
   // a post quoting standard tooltips tripped them on 2026-10-25 (nataliekarolak-com/3494)
   /^data\/index\/field-docs\.json$/, /^data\/index\/symbols-(fields|events|procs|values)(-\d+)?-[0-9a-f]{12}\.json$/];
 export const officialOnlyOutput = (rel: string) => OFFICIAL_ONLY.some((re) => re.test(rel));
 
-/** Official text the repo holds: the newest roadmap snapshot and Learn's own page descriptions (manifest meta). */
+/** Official text the repo holds: the newest roadmap snapshot, Learn's own page descriptions and BCQuality's rule summaries (manifest meta). */
 export function readOfficialText(dataDir: string): string[] {
   const out: string[] = [];
   const snaps = resolve(dataDir, "roadmap", "snapshots");
@@ -229,7 +232,8 @@ export function readOfficialText(dataDir: string): string[] {
       for (const e of JSON.parse(readFileSync(join(snaps, latest), "utf8")).items ?? []) out.push(`${e.title ?? ""} ${e.description ?? ""}`);
     } catch { /* a half-written snapshot is not official text */ }
   }
-  for (const p of listFiles(resolve(dataDir, "manifest", "docs"), ".json")) {
+  // D126: a BCQuality rule's title with its summary (meta.description), so the search shard's summary is official too
+  for (const p of [...listFiles(resolve(dataDir, "manifest", "docs"), ".json"), ...listFiles(resolve(dataDir, "manifest", "guidelines", "bcquality"), ".json")]) {
     try {
       const j = JSON.parse(readFileSync(p, "utf8"));
       // D120: Learn's title with its description, so a run from the title into the description is official too

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/frontmatter.guideline.json",
+  "title": "Frontmatter of a BCQuality rule or review skill page (content/guidelines/<repo path>.md, D126)",
+  "allOf": [{ "$ref": "frontmatter.base.json" }],
+  "type": "object",
+  "required": ["repo_path", "layer", "kind", "domain", "bc_version", "technologies", "countries", "application_area", "examples"],
+  "properties": {
+    "type": { "const": "guideline" },
+    "tier": { "const": "official" },
+    "review": { "type": "object", "properties": { "state": { "const": "derived" } } },
+    "links": {
+      "type": "object",
+      "properties": {
+        "objects": { "type": "array", "maxItems": 24 },
+        "learn": { "type": "array", "maxItems": 12 },
+        "changes": { "type": "array", "maxItems": 30 }
+      }
+    },
+    "repo_path": { "type": "string", "pattern": "^(microsoft|community)/.+\\.md$", "description": "the file's path in microsoft/BCQuality" },
+    "layer": { "enum": ["microsoft", "community"] },
+    "kind": { "enum": ["rule", "skill"] },
+    "domain": { "type": ["string", "null"], "description": "the rule's knowledge domain; null on review skills" },
+    "bc_version": { "type": "array", "items": { "type": "string" } },
+    "technologies": { "type": "array", "items": { "type": "string" } },
+    "countries": { "type": "array", "items": { "type": "string" } },
+    "application_area": { "type": "array", "items": { "type": "string" } },
+    "examples": { "type": "integer", "minimum": 0, "description": "the .good.al and .bad.al files beside the rule, linked on GitHub" }
+  }
+}

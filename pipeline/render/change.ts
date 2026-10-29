@@ -25,6 +25,7 @@ import { reviewOf, reviewWords } from "../lib/review.js";
 import { llmsTitle } from "../lib/sections.js";
 import { objectTitle } from "../lib/object-title.js";
 import { applyCrossLinks, crossLinkSection, crossLinksFor, type CrossLink } from "../link/crosslinks.js";
+import { BCQUALITY_REPO, guidelinesByPath } from "../link/guidelines.js";
 
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 const plural = (n: number, w: string) => `${n} ${w}${n === 1 ? "" : "s"}`;
@@ -43,8 +44,11 @@ export function backportsFor(rec: Pick<ChangeRecord, "number" | "title">, all: R
     .sort((a, b) => a.merged_at.localeCompare(b.merged_at) || a.number - b.number);
 }
 
-export function renderChangePage(item: ManifestItem, rec: ChangeRecord, x: ChangeExtraction, backports: Backport[], contentDir: string, now: Date, xlinks: CrossLink[] = []): string {
+export function renderChangePage(item: ManifestItem, rec: ChangeRecord, x: ChangeExtraction, backports: Backport[], contentDir: string, now: Date, xlinks: CrossLink[] = [], guidelines: Map<string, string> = new Map()): string {
   const pk = changePageKey(item);
+  // D126: a BCQuality file that has a rule page (content/guidelines/<path>.md), by exact path
+  const ruleOf = (path: string) => (rec.repo.toLowerCase() === BCQUALITY_REPO.toLowerCase() ? guidelines.get(path) ?? null : null);
+  const rules = [...new Set(rec.join.unjoined.map((u) => ruleOf(u.path)).filter((g): g is string => !!g))];
   const hasPage = (p: string) => exists(resolve(contentDir, "objects", `${p}.md`));
   // one line per object, however many of its files changed (a table and its country copies)
   const objects = [...new Map(rec.join.objects.map((o) => [o.page, o])).values()];
@@ -61,7 +65,7 @@ export function renderChangePage(item: ManifestItem, rec: ChangeRecord, x: Chang
     review: { ...reviewOf(true, item.review), flags: item.flags ?? [] },
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: { "extract-change": x.prompt_version }, input_hash: rec.merge_commit_sha ?? null },
     evidence: [{ kind: "code", url: rec.url, title: `${rec.repo}#${rec.number}: ${rec.title}`, date: day, commit: rec.merge_commit_sha, t: null, quote: x.quote }],
-    links: applyCrossLinks({ learn: [] as string[], objects: linked.map((o) => `object/${o.page}`), features: [], topics: [], localizations: [], videos: [] as string[], posts: [] as string[], guidelines: [], changes: [] as string[] }, xlinks),
+    links: applyCrossLinks({ learn: [] as string[], objects: linked.map((o) => `object/${o.page}`), features: [], topics: [], localizations: [], videos: [] as string[], posts: [] as string[], guidelines: rules, changes: [] as string[] }, xlinks),
     number: rec.number, repo: rec.repo, source_id: rec.source, url: rec.url, kind: "pr", base_branch: rec.base, major: rec.major, merged_at: rec.merged_at,
     author: rec.author, author_type: rec.author_type, community_contribution: rec.community_contribution, labels: rec.labels,
     change_class: rec.change_class, change_kind: x.change_kind, behavior_change: x.behavior_change, breaking: x.breaking,
@@ -85,7 +89,7 @@ export function renderChangePage(item: ManifestItem, rec: ChangeRecord, x: Chang
     lines.push("## AL objects touched", "");
     for (const o of objects) lines.push(`- ${hasPage(o.page) ? `[${cell(objectTitle(o))}](../../objects/${o.page}.md)` : cell(objectTitle(o))}${o.app ? `, ${o.app}` : ""}${o.cc !== "w1" ? ` (${o.cc.toUpperCase()} layer)` : ""}: ${o.status}`);
     // an added file waits for tonight's snapshot; a modified one is in an app the snapshot does not cover
-    for (const u of rec.join.unjoined) lines.push(`- \`${cell(u.path)}\`: ${u.status}${u.reason === "not-in-snapshot" ? `, not in the BC${rec.join.major ?? "?"} snapshot${u.status === "added" ? " yet" : ""}` : ""}`);
+    for (const u of rec.join.unjoined) lines.push(`- ${ruleOf(u.path) ? `[\`${cell(u.path)}\`](../../guidelines/${encodeURI(u.path)})` : `\`${cell(u.path)}\``}: ${u.status}${u.reason === "not-in-snapshot" ? `, not in the BC${rec.join.major ?? "?"} snapshot${u.status === "added" ? " yet" : ""}` : ""}`);
     lines.push("");
   }
   if (x.obsoletions.length) lines.push("## Obsoletions", "", ...x.obsoletions.map((o) => `- ${cell(o.object)}${o.member ? `: ${cell(o.member)}` : ""}${o.replacement ? `, replaced by ${cell(o.replacement)}` : ""}`), "");
@@ -104,12 +108,13 @@ export function renderChangePage(item: ManifestItem, rec: ChangeRecord, x: Chang
 }
 
 /** Write a change's page from its record and extraction; true when the file changed. */
-export function writeChangePage(item: ManifestItem, ctx: Pick<StageContext, "dataDir" | "contentDir" | "now">): { written: boolean; path: string } | null {
+export function writeChangePage(item: ManifestItem, ctx: Pick<StageContext, "dataDir" | "contentDir" | "now">, guidelines?: Map<string, string>): { written: boolean; path: string } | null {
   const rec = readChangeRecord(ctx.dataDir, item);
   const x = readChangeExtraction(ctx.dataDir, item);
   if (!rec || !x || rec.change_class !== "code") return null;
   const bps = backportsFor(rec, readJsonOr<Record<string, Backport[]>>(backportsPath(ctx.dataDir, rec.repo), {}));
-  const page = renderChangePage(item, rec, x, bps, ctx.contentDir, ctx.now(), crossLinksFor(ctx.dataDir, `change/${changePageKey(item)}`));
+  const rules = guidelines ?? (rec.repo.toLowerCase() === BCQUALITY_REPO.toLowerCase() ? guidelinesByPath(ctx.contentDir) : new Map<string, string>());
+  const page = renderChangePage(item, rec, x, bps, ctx.contentDir, ctx.now(), crossLinksFor(ctx.dataDir, `change/${changePageKey(item)}`), rules);
   const path = changePagePath(ctx.contentDir, changePageKey(item));
   const written = !exists(path) || stable(readText(path)) !== stable(page);
   if (written) writeText(path, page);
@@ -153,7 +158,8 @@ export function relinkChanges(manifest: Pick<Manifest, "list">, dataDir: string)
 /** Re-render every published change page: titles, backports and joins move after the page was first written. */
 export function rerenderChangePages(manifest: Pick<Manifest, "list">, ctx: Pick<StageContext, "dataDir" | "contentDir" | "now">): number {
   let n = 0;
-  for (const item of manifest.list("change")) if (item.state === "published" && writeChangePage(item, ctx)?.written) n++;
+  const guidelines = guidelinesByPath(ctx.contentDir);
+  for (const item of manifest.list("change")) if (item.state === "published" && writeChangePage(item, ctx, guidelines)?.written) n++;
   return n;
 }
 
