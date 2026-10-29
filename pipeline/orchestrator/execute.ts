@@ -5,8 +5,10 @@
  *   quota is charged once per item. A stage without a handler leaves the item where it is (no fake progress).
  * - Every completed stage is saved immediately, so a killed run resumes from the manifest.
  * - Item errors never abort: fail() sets attempts and retry_after (2^attempts h), `failed` after max attempts.
- * - Run-level stops, checked before every stage: hard clock stop, llm_calls_max, the spend allowance (D17,
- *   LlmBudgetExhausted leaves the item untouched), and a re-guard every N LLM calls that stops on `skip`.
+ * - Run-level stops, checked before every stage: hard clock stop, llm_calls_max, and a re-guard every N LLM calls
+ *   that stops on `skip`. The spend allowance (D17) is not a run-level stop (D125): LlmBudgetExhausted is thrown by
+ *   llm.ts before any spend, so that item's stage waits untouched (`llm_held`) and the run goes on with the stages
+ *   that need no LLM call (fetch, captions).
  * - LlmInfraError (auth, API-key auth, usage limit) aborts the run; the next night resumes.
  * - `concurrency` workers share the plan (quota charging is synchronous, so it cannot race). An item in a batch in
  *   flight is claimed and handed back for its next stages when the batch returns. Run-level checks happen before each
@@ -83,6 +85,10 @@ export interface ExecutionReport {
   no_handler: number;
   /** Items left untouched by StageHold (no attempt counted). */
   held: number;
+  /** D125: items whose LLM stage waited for the next night because the spend allowance was used up (untouched). */
+  llm_held?: number;
+  /** D125: LLM calls made when the allowance first ran out. */
+  llm_exhausted_at_calls?: number;
   /** Times an item was set aside because its lane (e.g. youtube) was busy; it ran later in the same run. */
   parked: number;
   /** Items still parked when the run ended (a lane that never freed up shows here). */
@@ -202,7 +208,16 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
   const settle = (item: ManifestItem, stage: Stage, out: StageResult | Error): ManifestItem | null => {
     const key = `${item.pillar}:${stage}`;
     if (out instanceof Error) {
-      if (out instanceof LlmBudgetExhausted) { stop = "spend-cap"; log.info(out.message); return null; }
+      if (out instanceof LlmBudgetExhausted) {
+        // D125: thrown before any spend, so the item simply waits; deterministic stages of other items go on
+        if (r.llm_exhausted_at_calls === undefined) {
+          r.llm_exhausted_at_calls = callCount();
+          log.info(`LLM allowance used up at ${r.llm_exhausted_at_calls} calls: LLM stages wait, deterministic stages go on`);
+        }
+        ended.add(item.id);
+        r.llm_held = (r.llm_held ?? 0) + 1;
+        return null;
+      }
       if (out instanceof LlmInfraError) { stop = "aborted"; r.errors.push(`${item.id} ${stage}: ${out.message}`); return null; }
       ended.add(item.id);
       if (out instanceof StageHold) {
