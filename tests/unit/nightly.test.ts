@@ -225,6 +225,34 @@ test("spend: --night-cap/--week-cap replace the caps for one run and the report 
   assert.ok(validate("run-report", report(dir)).ok);
 });
 
+test("D125 test 5: an earlier same-date report carries both the day total and the capped total, through runs, overrides and heartbeats", async () => {
+  const dir = repo();
+  const runs = join(dir, "data/manifest/_runs");
+  mkdirSync(runs, { recursive: true });
+  writeFileSync(join(runs, "2026-10-07.json"), JSON.stringify({ date: "2026-10-07", llm: { day_cost_usd: 9, day_capped_usd: 2 } }));
+  const deps = { http, sources: [source], handlers: NOOP, flatPlaylist: async () => [] };
+  const plain = await runNightly(opts(dir), { ...deps, readUsage: usage(5, 10) });
+  assert.deepEqual([plain.spend?.today_usd, plain.llm.day_cost_usd, plain.llm.day_capped_usd], [2, 9, 2]);
+  assert.ok(validate("run-report", report(dir)).ok);
+  const over = await runNightly(opts(dir, { capOverride: { week_usd: 500 } }), { ...deps, readUsage: usage(5, 10) });
+  assert.deepEqual([over.spend?.today_usd, over.llm.day_cost_usd, over.llm.day_capped_usd], [2, 9, 2]);
+  assert.ok(validate("run-report", report(dir)).ok);
+  const skipped = await runNightly(opts(dir), { ...deps, readUsage: usage(61, 10) });
+  assert.deepEqual([skipped.llm.day_cost_usd, skipped.llm.day_capped_usd], [9, 2]);
+  assert.ok(validate("run-report", report(dir)).ok);
+});
+
+test("D125 test 6: an override run's day of spend two days back no longer uses up the week allowance", async () => {
+  const dir = repo();
+  const runs = join(dir, "data/manifest/_runs");
+  mkdirSync(runs, { recursive: true });
+  writeFileSync(join(runs, "2026-10-05.json"), JSON.stringify({ date: "2026-10-05", llm: { day_cost_usd: budget().spend_caps.week_usd }, spend: { override: true } }));
+  const r = await runNightly(opts(dir), { http, sources: [source], handlers: NOOP, flatPlaylist: async () => [], readUsage: usage(5, 10) });
+  assert.ok((r.spend?.allowance_usd ?? 0) > 0);
+  assert.equal(r.spend?.week_before_usd, 0);
+  assert.equal(r.spend?.week_before_uncapped_usd, budget().spend_caps.week_usd);
+});
+
 // D81: the derive stage re-renders derived data on committed content: no guard, no ingest, no LLM, no run report
 test("--stages derive: renders the graph and indexes, never ingests or reads usage, writes no run report", async () => {
   const dir = repo();
