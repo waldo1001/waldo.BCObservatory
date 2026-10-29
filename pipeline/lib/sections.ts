@@ -57,7 +57,7 @@ export const SECTIONS: readonly Section[] = [
 
 const BY_ID = new Map(SECTIONS.map((s) => [s.id as string, s]));
 /** The home cards and About's rows: the content sections in reading order. */
-const CONTENT_ORDER: SectionId[] = ["topics", "objects", "apps", "localizations", "features", "changes", "releases", "videos", "posts", "digests", "sources"];
+const CONTENT_ORDER: SectionId[] = ["topics", "objects", "apps", "localizations", "features", "changes", "guidelines", "releases", "videos", "posts", "digests", "sources"];
 
 export function section(id: string): Section {
   const s = BY_ID.get(id);

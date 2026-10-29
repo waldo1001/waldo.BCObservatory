@@ -1,0 +1,27 @@
+---
+import { getCollection } from "astro:content";
+import List from "../../layouts/List.astro";
+import { countLabel, section } from "../../../../pipeline/lib/sections";
+const base = import.meta.env.BASE_URL;
+// D126: by domain, the domain with the most rules first, review skills last, as content/guidelines/llms.txt groups them
+const all = (await getCollection("guidelines")).sort((a, b) => String(a.data.title).localeCompare(String(b.data.title)));
+const byDomain = new Map<string, typeof all>();
+for (const g of all) if (g.data.kind !== "skill") byDomain.set(String(g.data.domain ?? "other"), [...(byDomain.get(String(g.data.domain ?? "other")) ?? []), g]);
+const skills = all.filter((g) => g.data.kind === "skill");
+const groups = [...[...byDomain].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0])), ...(skills.length ? [["Review skills", skills] as [string, typeof all]] : [])];
+const firstSentence = (s: string) => s.match(/^.*?[.!?](?=\s|$)/)?.[0] ?? s;
+---
+<List section="guidelines" title={`${section("guidelines").name} · BC Observatory`} description="Microsoft's BCQuality knowledge base for AL, one page per rule.">
+  <p class="eyebrow">{section("guidelines").name}</p>
+  <h1>{countLabel("guidelines", all.length)}</h1>
+  <p class="lede">{section("guidelines").blurb} From microsoft/BCQuality under its MIT licence; the rule text is Microsoft's own. Agents: <a href={`${base}guidelines/llms.txt`}>llms.txt</a>.</p>
+  {groups.map(([domain, rules]) => (
+    <section>
+      <h2>{domain} <span class="meta">{rules.length}</span></h2>
+      <table>
+        <thead><tr><th scope="col">Rule</th><th scope="col">Layer</th><th scope="col">In short</th></tr></thead>
+        <tbody>{rules.map((g) => <tr><td><a href={`${base}guidelines/${g.id}/`}>{g.data.title}</a></td><td class="mono-meta">{g.data.layer}</td><td>{firstSentence(String(g.data.summary ?? ""))}</td></tr>)}</tbody>
+      </table>
+    </section>
+  ))}
+</List>

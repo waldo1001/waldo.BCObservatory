@@ -223,3 +223,21 @@ test("media records carry what the list rows print: a change's branch, major, ob
   // the scorer's major is an object's present_in: a change never matches bc30 through it
   assert.equal(pageToRecord(c).major, undefined);
 });
+
+// D126: a BCQuality rule page: its layer as source, rule or skill as status, the domain as the path label, the objects it names
+test("a guideline page is a hubs record with its layer, kind, domain label and the objects it names", () => {
+  const fm = {
+    id: "guideline/microsoft/knowledge/performance/x", type: "guideline", title: "Admin pages tolerate lower discipline", summary: "Some pages run rarely.", tier: "official",
+    tags: ["admin-page", "migration"], identifiers: ["SetLoadFields", "FindSet"], system: "development", layer: "microsoft", kind: "rule", domain: "performance",
+    links: { objects: ["object/codeunit/80"], related: [{ to: "object/table/32", title: "t", label: "possibly related", why: "w", by: "code" }, { to: "https://learn.microsoft.com/x", title: "l", label: "names", why: "w", by: "code" }] },
+  };
+  const r = pageRecord("guidelines/microsoft/knowledge/performance/x", fm);
+  assert.deepEqual([r.type, r.source, r.status, r.path_label], ["guideline", "microsoft", "rule", "BCQuality › performance"]);
+  assert.deepEqual(r.objects_named, ["object/codeunit/80", "object/table/32"]);
+  assert.deepEqual(r.tags, ["admin-page", "migration", "SetLoadFields", "FindSet"], "keywords, then the identifiers the rule names");
+  assert.equal(kindOfType("guideline"), "hubs");
+  const skill = pageRecord("guidelines/microsoft/skills/review/y", { ...fm, kind: "skill", domain: null, links: {} });
+  assert.deepEqual([skill.status, skill.path_label, skill.objects_named], ["skill", "BCQuality › review skills", undefined]);
+  // the record survives the trip into the shared scorer's record
+  assert.deepEqual(pageToRecord(r).page?.objects_named, ["object/codeunit/80", "object/table/32"]);
+});

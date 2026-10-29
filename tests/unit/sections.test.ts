@@ -21,7 +21,7 @@ test("the nav: eleven names in three groups, short enough for one line at 900 px
 
 test("content sections in home and About order, each with a one-sentence blurb", () => {
   assert.deepEqual(contentSections().map((s) => s.id),
-    ["topics", "objects", "apps", "localizations", "features", "changes", "releases", "videos", "posts", "digests", "sources"]);
+    ["topics", "objects", "apps", "localizations", "features", "changes", "guidelines", "releases", "videos", "posts", "digests", "sources"]);
   for (const s of contentSections()) {
     assert.ok(s.blurb && s.blurb.endsWith("."), `${s.id} blurb ends with a full stop`);
     assert.ok(!s.blurb!.includes("—"), `${s.id} blurb has no em-dash`);
@@ -54,11 +54,24 @@ test("ids and paths are unique, unknown ids throw, the eight instruments in stri
 
 test("search groups and tabs that stand for a section say its name", () => {
   const pairs: [string, string][] = [["roadmap", "features"], ["video", "videos"], ["post", "posts"], ["object", "objects"],
-    ["change", "changes"], ["localization", "localizations"], ["source", "sources"], ["digest", "digests"]];
+    ["change", "changes"], ["guideline", "guidelines"], ["localization", "localizations"], ["source", "sources"], ["digest", "digests"]];
   const page = readFileSync(new URL("../../site/src/pages/search/index.astro", import.meta.url), "utf8");
   for (const [group, id] of pairs) {
     const name = section(id).name;
     assert.equal(GROUPS.find((g) => g.id === group)?.label, name, `search group ${group}`);
     assert.ok(page.includes(`["${group}", "${name}"]`), `search tab ${group} says ${name}`);
   }
+});
+
+// D126: Quality rules is a content section after Code changes (home card, About row), not a nav entry: the D90 header keeps its eleven
+test("guidelines: a content section after changes, out of the nav, with its noun and llms.txt title", () => {
+  const g = section("guidelines");
+  assert.equal(g.name, "Quality rules");
+  assert.equal(g.path, "guidelines/");
+  assert.equal(g.group, undefined);
+  assert.ok(!navSections().some((s) => s.id === "guidelines"));
+  const order = contentSections().map((s) => s.id);
+  assert.equal(order.indexOf("guidelines"), order.indexOf("changes") + 1);
+  assert.equal(countLabel("guidelines", 458), "458 BCQuality rules");
+  assert.equal(llmsTitle("guidelines"), "# BC Observatory: Quality rules");
 });

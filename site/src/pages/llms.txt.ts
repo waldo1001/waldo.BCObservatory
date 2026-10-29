@@ -11,6 +11,7 @@ const SAYS: Partial<Record<SectionId, (n: number, site: string) => string>> = {
   localizations: (n) => `${n} country layers and what they change in W1`,
   features: (n) => `${n} Business Central features from the Microsoft 365 roadmap (status, wave, dates)`,
   changes: (n) => `${n} merged pull requests of microsoft/BCApps that touch AL source, joined to the AL object pages they changed (D61)`,
+  guidelines: (n) => `${n} BCQuality rules and review skills (microsoft/BCQuality, MIT): each rule's own text, its good and bad examples, the objects it names and the pull requests that changed it (D126)`,
   releases: (n) => `${n} AL Language extension versions from the marketplace changelog (dates, entries, issues)`,
   videos: (n) => `${n} Business Central videos as timestamped evidence (summary, chapters, features with verified status quotes)`,
   posts: (n) => `${n} Business Central blog posts as derived evidence (summary, key points, short quotes, link to the original)`,

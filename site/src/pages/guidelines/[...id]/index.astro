@@ -1,0 +1,27 @@
+---
+import { getCollection } from "astro:content";
+import Page from "../../../layouts/Page.astro";
+import { siteLinks, wrapTables } from "../../../lib/links";
+import { trimBody } from "../../../lib/page";
+export async function getStaticPaths() {
+  return (await getCollection("guidelines")).map((entry) => ({ params: { id: entry.id }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const fm = entry.data;
+// the licence sits once at the section root; a relative link from a directory URL would miss it by a level
+const html = trimBody(siteLinks(entry.rendered?.html ?? "", base, `guidelines/${entry.id}`))
+  .replace(/href="(?:\.\.\/)+LICENSE-BCQuality\.txt"/g, `href="${base}guidelines/LICENSE-BCQuality.txt"`);
+const count = (k: string) => (Array.isArray(fm.links?.[k]) ? fm.links[k].length : 0);
+const stats = [
+  { n: String(fm.layer), label: "layer" },
+  { n: fm.kind === "skill" ? "review skill" : String(fm.domain ?? ""), label: fm.kind === "skill" ? "kind" : "domain" },
+  { n: fm.examples ?? 0, label: fm.examples === 1 ? "example" : "examples" },
+  { n: count("changes"), label: count("changes") === 1 ? "pull request" : "pull requests" },
+];
+---
+<Page fm={fm} kind={fm.kind === "skill" ? "BCQuality review skill" : `BCQuality rule · ${fm.domain}`} path={`guidelines/${entry.id}`} section="guidelines"
+  stats={stats}
+  context={{ label: "microsoft/BCQuality", href: fm.evidence?.[0]?.url }}>
+  <div class="prose" set:html={wrapTables(html)} />
+</Page>

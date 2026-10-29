@@ -53,7 +53,8 @@ so. If its tools fail, run bc_status and tell me it is down; do not skip it sile
 `bc_brief(query | path)` (D106) answers in five layers, each line with its tier and source: How it works (Learn articles
 with their key facts), In the code, Changed lately (code changes, AL releases, Microsoft hotfix lists), Heads up
 (warnings scoped to the object and version they apply to) and Gaps (every "possibly related" link, a change described by
-its title only); differing status statements stand side by side, never reconciled. `bc_search` groups its hits by layer, and
+its title only); differing status statements stand side by side, never reconciled. `bc_search` groups its hits by layer
+(Learn, Code, Quality rules for the BCQuality rules of type `guideline` (D126), Changes, Community and videos), and
 a Learn article whose title the query covers leads ("copy environment cleanup" finds "Copy an environment").
 
 The server downloads the site's search index (cached by hash in `~/.cache/bc-observatory/`, refreshed daily) and reads pages as

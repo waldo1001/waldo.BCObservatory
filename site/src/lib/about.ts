@@ -7,7 +7,7 @@ import { contentSections } from "../../../pipeline/lib/sections.js";
 export interface Persona { who: string; ask: string; answer: string; links: { label: string; href: string }[] }
 export interface AboutCounts {
   topics: number; objects: number; apps: number; localizations: number; features: number;
-  videos: number; posts: number; changes: number; digests: number; sources: number; releases: number;
+  videos: number; posts: number; changes: number; digests: number; sources: number; releases: number; guidelines: number;
 }
 export interface AboutRun { date: string; status: string; items_changed: number }
 export type AboutSection = "who" | "why" | "how" | "forWho";
@@ -55,7 +55,7 @@ export function fillCounts(md: string, counts: AboutCounts): string {
 }
 
 export function totalPages(c: AboutCounts): number {
-  return c.topics + c.objects + c.apps + c.localizations + c.features + c.videos + c.posts + c.changes + c.digests + c.sources + c.releases;
+  return c.topics + c.objects + c.apps + c.localizations + c.features + c.videos + c.posts + c.changes + c.digests + c.sources + c.releases + c.guidelines;
 }
 
 const HEADINGS: [AboutSection, string][] = [["who", "Who"], ["why", "Why"], ["how", "How"], ["forWho", "For who"]];

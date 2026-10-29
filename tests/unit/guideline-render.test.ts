@@ -34,6 +34,7 @@ test("a rule page: schema-valid derived frontmatter, the rule's sections in orde
   assert.equal(fm.review.state, "derived");
   assert.deepEqual(fm.links.changes, ["change/bcquality/249"]);
   assert.deepEqual(fm.links.objects, ["object/codeunit/80"]);
+  assert.ok(fm.identifiers.includes("SetLoadFields") && fm.identifiers.includes("FindSet"), "the identifiers the rule names, for the search record's tags");
   assert.equal(fm.evidence[0].kind, "guideline");
   assert.equal(fm.evidence[0].url, `${BLOB}${RULE_PATH}`);
   assert.equal(fm.evidence[0].date, "2026-09-09");

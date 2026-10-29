@@ -31,7 +31,7 @@ test("the golden queries on the MCP server, keyword and default mode (D86 5, tes
     for (const row of goldenRows()) {
       if (row.pending) continue;
       for (const mode of ["keyword", "hybrid"]) {
-        const text = await call("bc_search", { query: row.q, limit: 50, mode });
+        const text = await call("bc_search", { query: row.q, limit: 50, mode, ...(row.type ? { type: row.type } : {}) });
         // "bc30 sales": the first hit's page says it is present in that major
         let first: string | undefined;
         if (row.major) { const id = /path=(\S+)/.exec(text)?.[1]; first = id ? await call("bc_cat", { path: id }) : undefined; }

@@ -105,7 +105,7 @@ export function renderGuidelinePage(i: GuidelineInput, joins: GuidelineJoins, no
     },
     repo_path: i.repoPath, layer, kind: bcq.kind, domain: bcq.domain,
     bc_version: bcq.bc_version, technologies: bcq.technologies, countries: bcq.countries, application_area: bcq.application_area,
-    examples: joins.examples.length,
+    examples: joins.examples.length, identifiers: meta.identifiers,
   };
   validateOrThrow("frontmatter.guideline", fm, `guideline page ${i.repoPath}`);
 

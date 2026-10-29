@@ -25,6 +25,7 @@
     "technologies": { "type": "array", "items": { "type": "string" } },
     "countries": { "type": "array", "items": { "type": "string" } },
     "application_area": { "type": "array", "items": { "type": "string" } },
-    "examples": { "type": "integer", "minimum": 0, "description": "the .good.al and .bad.al files beside the rule, linked on GitHub" }
+    "examples": { "type": "integer", "minimum": 0, "description": "the .good.al and .bad.al files beside the rule, linked on GitHub" },
+    "identifiers": { "type": "array", "maxItems": 40, "items": { "type": "string" }, "description": "the identifiers the rule names in code spans (D94/D95 rule, fences excluded): the search record's tags" }
   }
 }

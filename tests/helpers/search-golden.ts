@@ -18,10 +18,12 @@ import { renderSearchIndex } from "../../pipeline/render/search.js";
  */
 export interface GoldenRow {
   q: string; expect?: string; where: string | string[]; covers: string; pending?: string;
+  /** D126: a page type filter, as bc_search's `type` (the site runner keeps hits of that type only) */
+  type?: string;
   not_above?: string[]; major?: string; kind?: string; name?: string; within?: { id: string; n: number }; no_symbol_in_top?: number; hint?: string; hint_path?: string;
 }
 /** One result as both runners see it. */
-export interface GoldenHit { id: string; symbol: boolean; object: boolean; name?: string; kind?: string; majorOk?: boolean }
+export interface GoldenHit { id: string; symbol: boolean; object: boolean; name?: string; kind?: string; majorOk?: boolean; type?: string }
 
 export const goldenRows = (): GoldenRow[] => JSON.parse(readFileSync(join(ROOT, "tests/fixtures/search-golden.json"), "utf8")).rows;
 
@@ -54,6 +56,7 @@ export function checkRow(row: GoldenRow, hits: GoldenHit[], hints: { text: strin
   const show = (n = 5) => hits.slice(0, n).map((h) => h.id).join(", ");
   for (const w of wheres) {
     if (w === "top" && row.expect && hits[0]?.id !== row.expect) return `top is ${hits[0]?.id ?? "nothing"}, want ${row.expect} (${show()})`;
+    if (w === "top5" && row.expect && !hits.slice(0, 5).some((h) => h.id === row.expect)) return `${row.expect} not in the top 5 (${show(5)})`;
     if (w === "top3" && row.expect && !hits.slice(0, 3).some((h) => h.id === row.expect)) return `${row.expect} not in the top 3 (${show(3)})`;
     if (w === "first-object") {
       const i = at((h) => h.object);

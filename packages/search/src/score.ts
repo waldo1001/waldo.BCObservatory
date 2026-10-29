@@ -345,6 +345,13 @@ function nameMatch(eq: string[], ms: Matcher[], plural: boolean): { eq: number; 
 const NARRATIVE: Record<string, number> = { reviewed: 2, unreviewed: 0, none: -2, derived: -2 };
 /** Tie-break among objects, last before the title: a table is asked for more often than a page, ... */
 export const TYPE_PRIOR: Record<string, number> = { table: 0.3, page: 0.2, codeunit: 0.2, report: 0.1 };
+/**
+ * D126: a BCQuality rule's score is multiplied by this. A rule's tags are its keywords and every identifier it names, and
+ * its summary repeats them, so on shared words it outscored the Learn article that documents them ("IntegrationEvent vs
+ * BusinessEvent": four events rules at 4.5 to 7.0 above devenv-event-types at 2.13). Measured on the 458 rule pages of
+ * 2026-10-29: 0.4 to 0.8 still lose that golden row, 0.3 keeps every row, and a query only a rule matches still finds it first.
+ */
+export const GUIDELINE_FACTOR = 0.3;
 const LAYER = [1, 0.5, 0];
 /** Words that say the reader is after an AL object or a member of one: no demotion then. */
 const OBJECT_WORDS = /\b(field|fields|event|events|procedure|procedures|proc|member|members)\b/i;
@@ -423,6 +430,7 @@ export function scoreRecord(index: Index, r: SearchRecord, q: ParsedQuery): { s:
   if (q.types.length && objectish) s += 3;
   s = symbol ? s + 2 * r.importance + (owned ? LAYER[r.layer] + prior : 0) : lift(s);
   if (objectish && !lifted) { s *= 0.6; why.push("demoted"); }
+  if (r.type === "guideline") s *= GUIDELINE_FACTOR;
   return { s, why };
 }
 function countryPoints(q: ParsedQuery, r: SearchRecord, country: string | null): number {

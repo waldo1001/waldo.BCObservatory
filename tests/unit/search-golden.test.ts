@@ -35,7 +35,7 @@ test("the golden queries on the site scorer, with timings (D86 5, test 2)", asyn
     const t = performance.now();
     const hits = search(index, q);
     times.push(performance.now() - t);
-    const list: GoldenHit[] = hits.map((h) => ({ id: h.r.id, symbol: h.r.kind !== "page", object: h.r.kind === "page" && h.r.type === "object", name: h.r.name, kind: h.r.kind, majorOk: row.major ? hasMajor(h.r, row.major) : undefined }));
+    const list: GoldenHit[] = hits.filter((h) => !row.type || h.r.type === row.type).map((h) => ({ id: h.r.id, symbol: h.r.kind !== "page", object: h.r.kind === "page" && h.r.type === "object", name: h.r.name, kind: h.r.kind, majorOk: row.major ? hasMajor(h.r, row.major) : undefined }));
     const err = checkRow(row, list, hints(index, q, hits));
     // a pending row is not asserted (its data is not committed yet); it says whether it holds, so the flip is visible
     if (row.pending) { console.log(`pending (${row.pending}): ${row.q}: ${err ? `does not hold yet (${err})` : "HOLDS now, remove pending"}`); continue; }

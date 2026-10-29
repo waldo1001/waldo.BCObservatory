@@ -41,7 +41,7 @@ import { DEFAULT_BUDGET, anchorView, budgetOf, pageView, type ViewArgs } from ".
 import { brief } from "./brief.js";
 import { createTelemetry, type Client, type ToolCall } from "./telemetry.js";
 
-const VERSION = "0.12.1";
+const VERSION = "0.13.0";
 const SITE = (process.env.BC_OBSERVATORY_SITE ?? "https://waldo1001.github.io/waldo.BCObservatory/").replace(/\/?$/, "/");
 const LOCAL = process.env.BC_OBSERVATORY_LOCAL ? resolve(process.env.BC_OBSERVATORY_LOCAL) : null;
 /** D110: the Application Insights connection string, set by esbuild define in publish-mcp; tsx runs have none. */
@@ -347,13 +347,13 @@ export async function toolSearch(a: SearchArgs): Promise<string> {
   return `${shown.length} results, ${how}${note}${how === "keyword + meaning" ? ` (exact band: ${exactBand})` : ""} (read one with bc_cat(path)${learnNote}):\n${body}${hintText}`;
 }
 
-/** D106: the search result's layer, the brief's order (Learn, code, changes, community and videos, other). */
-const LAYERS = ["Learn", "Code", "Code members", "Changes", "Community and videos", "Other"] as const;
+/** D106: the search result's layer, the brief's order (Learn, code, changes, community and videos, other); D126: BCQuality rules after the code. */
+const LAYERS = ["Learn", "Code", "Code members", "Quality rules", "Changes", "Community and videos", "Other"] as const;
 export function layerOf(r: SearchRecord): (typeof LAYERS)[number] {
   // fields, events, procedures and values: their own group, after the objects (a generic word keeps them low, D95)
   if (r.kind !== "page") return "Code members";
   const t = r.type;
-  return t === "learn" ? "Learn" : t === "object" ? "Code" : t === "change" || t === "release" || t === "hotfix" ? "Changes" : t === "video" || t === "post" ? "Community and videos" : "Other";
+  return t === "learn" ? "Learn" : t === "object" ? "Code" : t === "guideline" ? "Quality rules" : t === "change" || t === "release" || t === "hotfix" ? "Changes" : t === "video" || t === "post" ? "Community and videos" : "Other";
 }
 /**
  * Hits grouped by layer: groups in the order of their best hit, the lines inside unchanged. A Learn title the query
@@ -542,11 +542,20 @@ export async function toolGetObject(a: { type: string; idOrName: string; country
         const line = replacedInLine(layers);
         if (line) also += `${also ? "\n" : "\n\n"}${line}`;
       }
-      return `${note}${pageView(await pageMarkdown(pick[0].id), pick[0].id, a, BUDGET, SITE)}${a.section ? "" : also}`;
+      return `${note}${pageView(await pageMarkdown(pick[0].id), pick[0].id, a, BUDGET, SITE)}${a.section ? "" : also}${a.section ? "" : rulesNaming(pick[0].id)}`;
     }
     if (pick.length > 1) return `${pick.length} ${type} objects match "${a.idOrName}"; read one with bc_cat(path):\n${pick.map((r) => `- ${r.title} path=${r.id}`).join("\n")}`;
   }
   return `No ${type} "${a.idOrName}" in W1, Microsoft's first-party apps or the country layers (BC ${SNAPSHOT_MAJORS.join(", ")}). Never invent object ids; bc_search("${want}") lists near names.\n${NO_MATCH}`;
+}
+
+/** D126: the BCQuality rules that name an object (their search records' objects_named), at most 10 by title; nothing when none does. */
+export const MAX_RULES_PER_OBJECT = 10;
+export function rulesNaming(objectPath: string): string {
+  const pageId = objectPath.replace(/^objects\//, "object/");
+  const rules = index!.records.filter((r) => r.kind === "page" && r.type === "guideline" && r.page?.objects_named?.includes(pageId))
+    .sort((a, b) => a.title.localeCompare(b.title)).slice(0, MAX_RULES_PER_OBJECT);
+  return rules.length ? `\n\nBCQuality rules naming this object:\n${rules.map((r) => `- ${r.title} · ${r.id}`).join("\n")}` : "";
 }
 
 export async function toolDiffObject(a: { type: string; id: string; from: string; to: string }): Promise<string> {
@@ -682,7 +691,7 @@ export const INSTRUCTIONS = [
 export function createServer(): McpServer {
   const server = new McpServer({ name: "bc-observatory", version: VERSION }, { instructions: INSTRUCTIONS });
   clientOf = () => server.server.getClientVersion() ?? {};
-  server.registerTool("bc_search", { title: "Business Central search", description: "Business Central search across the BC Observatory: features and release wave news (e.g. Fabric mirroring), AL objects (tables, pages, codeunits, reports, enums), fields, events, procedures, Learn articles, roadmap features, blog posts, videos and code changes. Use FIRST for any Business Central question; bc_cat reads a hit. Takes names ('Sales Header'), references ('t36', 'cu 80'), bare ids ('36') and symbol prefixes ('event: OnAfterPost', 'proc: CopyToTempLines'); a symbol hit's path ends in its anchor (#event-<Name>, #field-<id>, #proc-<Name>, #value-<n>). Learn hits carry a url, not a path. Hybrid (exact first, then by meaning); hits say [keyword], [meaning] or [both]. sort 'date': newest first. Filters: type (topic, learn, app, feature, object, localization, video, post, change, source, digest, release, hotfix), tier (official, community), system (finance, sales, ... or 'g/l'), country ('BE'), app, object_type, kind (page, field, event, proc, value). Returns hits grouped by layer.",
+  server.registerTool("bc_search", { title: "Business Central search", description: "Business Central search across the BC Observatory: features and release wave news (e.g. Fabric mirroring), AL objects (tables, pages, codeunits, reports, enums), fields, events, procedures, Learn articles, roadmap features, blog posts, videos, code changes and BCQuality rules. Use FIRST for any Business Central question; bc_cat reads a hit. Takes names ('Sales Header'), references and ids ('t36', 'cu 80', '36'), symbol prefixes ('event: OnAfterPost', 'proc: CopyToTempLines'); a symbol hit's path ends in its anchor (#event-<Name>, #field-<id>, #proc-<Name>, #value-<n>). Learn hits carry a url, no path. Hybrid (exact, then meaning); hits say [keyword], [meaning] or [both]. sort 'date': newest first. Filters: type (topic, learn, app, feature, object, localization, video, post, change, source, digest, release, hotfix, guideline), tier (official, community), system (finance, sales, ... or 'g/l'), country ('BE'), app, object_type, kind (page, field, event, proc, value). Grouped by layer.",
     inputSchema: { query: z.string(), type: z.string().optional(), tier: z.string().optional(), system: z.string().optional(), country: z.string().optional(), app: z.string().optional(), object_type: z.string().optional(), kind: z.enum(["page", "field", "event", "proc", "value"]).optional(), limit: z.number().int().min(1).max(50).optional(), mode: z.enum(["hybrid", "keyword", "semantic"]).optional(), sort: z.enum(["match", "date"]).optional() } },
   answer("bc_search", toolSearch));
   server.registerTool("bc_brief", { title: "Business Central answer in layers", description: "Business Central answer in layers for one question (query) or page (path): Learn with key facts, the AL code, what changed lately, scoped warnings, and the gaps no source fills; each line with its tier and source. Use for 'how does X work in BC' when one call should give the whole picture. Not for a list of hits (bc_search).",

@@ -742,3 +742,29 @@ test("D124 test 7: the twin has one heading per tab, every tab's code, the Node 
   }
   assert.ok(md.includes(NODE_REQUIREMENT) && md.includes(CHECK_ASK));
 });
+
+// D126: BCQuality rules in the MCP: their own layer after Code, a type filter, and bc_get_object lists the rules naming an object
+test("guidelines: a Quality rules layer after Code, type guideline, and the rules that name an object", async () => {
+  const root = fixture();
+  const page = (fm: Record<string, unknown>, body: string) => `---\n${Object.entries(fm).map(([k, v]) => `${k}: ${JSON.stringify(v)}`).join("\n")}\n---\n\n${body}\n`;
+  const g = (p: string, title: string, objects: string[]) => writeText(join(root, "content", `guidelines/${p}.md`), page({ id: `guideline/${p}`, type: "guideline", title, summary: `${title}: the rule.`, tier: "official",
+    tags: ["posting"], layer: "microsoft", kind: "rule", domain: "performance", links: { objects } }, `# ${title}`));
+  g("microsoft/knowledge/performance/sales-post-loads-fewer-fields", "Sales-Post loads fewer fields with SetLoadFields", ["object/codeunit/80"]);
+  g("microsoft/knowledge/performance/admin-pages-tolerate-lower-perf", "Admin pages tolerate lower performance discipline", ["object/codeunit/80"]);
+  renderSearchIndex(join(root, "content"), join(root, "data"));
+  const { client, call } = await connect({ BC_OBSERVATORY_LOCAL: root });
+  try {
+    const hits = await call("bc_search", { query: "sales-post", mode: "keyword" });
+    assert.match(hits, /^## Code\n[\s\S]*^## Quality rules\n- Sales-Post loads fewer fields/m, "the rule prints under Quality rules, after Code");
+    const only = await call("bc_search", { query: "admin pages", type: "guideline", mode: "keyword" });
+    assert.match(only, /guidelines\/microsoft\/knowledge\/performance\/admin-pages-tolerate-lower-perf/);
+    assert.doesNotMatch(only, /objects\//);
+    const cu = await call("bc_get_object", { type: "codeunit", idOrName: "80" });
+    assert.match(cu, /BCQuality rules naming this object:\n- Admin pages tolerate lower performance discipline · guidelines\/microsoft\/knowledge\/performance\/admin-pages-tolerate-lower-perf\n- Sales-Post loads fewer fields with SetLoadFields · guidelines\/microsoft\/knowledge\/performance\/sales-post-loads-fewer-fields$/);
+    assert.doesNotMatch(await call("bc_get_object", { type: "table", idOrName: "18" }), /BCQuality rules naming/);
+    assert.match(await call("bc_cat", { path: "guidelines/microsoft/knowledge/performance/admin-pages-tolerate-lower-perf" }), /# Admin pages tolerate lower performance discipline/);
+    assert.match(await call("bc_ls", { path: "guidelines/microsoft/knowledge/performance" }), /admin-pages-tolerate-lower-perf/);
+  } finally {
+    await client.close();
+  }
+});

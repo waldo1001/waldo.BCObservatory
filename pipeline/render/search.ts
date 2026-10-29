@@ -44,6 +44,8 @@ export interface PageRecord {
   branch?: string; major?: string; objects?: number; breaking?: boolean; community?: boolean;
   /** D91, video pages: the review state the videos list prints as a badge, and the author's poster opt-out. */
   review?: string; embed?: boolean;
+  /** D126, BCQuality rule pages: the object pages the rule names (links.objects) and its possibly related objects, for bc_get_object. */
+  objects_named?: string[];
 }
 export type ShardKind = "hubs" | "media" | "objects";
 export interface IndexManifest {
@@ -153,6 +155,15 @@ export function pageRecord(path: string, fm: Record<string, any>): PageRecord {
   if (fm.type === "release") { r.status = fm.prerelease ? "prerelease" : "released"; if (fm.wave) r.path_label = `${fm.wave}${fm.major ? ` (BC${fm.major})` : ""}`; }
   // a hotfix list (D106): every entry's ID is a tag, so a search for "648146" finds its update; labelled with the major
   if (fm.type === "hotfix") { r.tags = [...(Array.isArray(fm.entry_ids) ? fm.entry_ids.map(String) : []), "hotfix"]; r.path_label = `BC${fm.major} update`; }
+  // a BCQuality rule (D126): its layer as the source, rule or skill as the status, the domain as where it sits; its keywords
+  // and the identifiers it names as tags; the objects it names (certain and possibly related) for the objects that list it
+  if (fm.type === "guideline") {
+    Object.assign(r, { source: String(fm.layer ?? ""), status: String(fm.kind ?? "rule"), path_label: fm.kind === "skill" ? "BCQuality › review skills" : `BCQuality › ${fm.domain ?? "other"}` });
+    const tags = [...(Array.isArray(fm.tags) ? fm.tags : []), ...(Array.isArray(fm.identifiers) ? fm.identifiers : [])].map(String);
+    if (tags.length) r.tags = [...new Set(tags)].slice(0, 16);
+    const named = [...(fm.links?.objects ?? []), ...(fm.links?.related ?? []).filter((x: any) => x?.label === "possibly related" && String(x.to).startsWith("object/")).map((x: any) => x.to)].map(String);
+    if (named.length) r.objects_named = [...new Set(named)];
+  }
   // a change page (D61): its repository source, and its kind as the status (feature, fix, breaking, ...)
   // D91: and what the changes list prints: branch, major, objects touched, the breaking and community flags
   if (fm.type === "change") Object.assign(r, { source: fm.source_id, status: fm.change_kind,

@@ -27,6 +27,8 @@ export interface PageRecord {
   branch?: string; major?: string; objects?: number; breaking?: boolean; community?: boolean;
   /** D91, video pages: the review state the videos list prints as a badge, and the author's poster opt-out. */
   review?: string; embed?: boolean;
+  /** D126, BCQuality rule pages: the object pages (`object/<type>/<id>`) the rule names, certain and possibly related. */
+  objects_named?: string[];
 }
 
 export interface Term {

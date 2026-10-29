@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import {
-  ABBR, INDEX_PAGE_IDS, byDate, type Hit, SYSTEM_ALIASES, anchorOf, editDistance, hasMajor, hints, hrefOf, indexTokens, isCodedId, learnRecords, pageToRecord, parseQuery, prepare, scoreRecord, search,
+  ABBR, GUIDELINE_FACTOR, INDEX_PAGE_IDS, byDate, type Hit, SYSTEM_ALIASES, anchorOf, editDistance, hasMajor, hints, hrefOf, indexTokens, isCodedId, learnRecords, pageToRecord, parseQuery, prepare, scoreRecord, search,
   stem, symbolLine, symbolToRecord, synonymsOf, systemOf, tokenize, type LearnShard, type PageRecord,
 } from "@bc-observatory/search";
 
@@ -638,4 +638,20 @@ test("hints 1-5: unknown abbreviation, missing id, typo, question, a country wit
   assert.equal(qh[0].text, "For how-to, start with the hub: Sales.", "a how-to question (D95 phase D)");
   assert.match(h("table 18 BE")[0].text, /^BE has no table 18 of its own; the W1 table applies\.$/);
   assert.deepEqual(h("customer"), []);
+});
+
+// D126: a BCQuality rule names many identifiers in its tags and summary; on shared words it ranks below the Learn
+// article, hub or object that documents them (GUIDELINE_FACTOR), and still leads a query only it matches
+test("guideline records rank at GUIDELINE_FACTOR of their score: below an equal Learn page, first when only they match", () => {
+  const pages: PageRecord[] = [
+    { path: "https://learn.microsoft.com/x/devenv-event-types", type: "learn", title: "Event types", summary: "IntegrationEvent and BusinessEvent publishers.", tier: "official", tags: ["IntegrationEvent"] },
+    { path: "guidelines/microsoft/knowledge/events/x", type: "guideline", title: "Isolated events", summary: "IntegrationEvent and BusinessEvent publishers.", tier: "official", tags: ["IntegrationEvent"] },
+    { path: "guidelines/community/knowledge/agents/y", type: "guideline", title: "Agent setup tables are keyed by User Security ID", summary: "Each agent instance is a user.", tier: "official", tags: ["user-security-id"] },
+  ];
+  const ix = prepare(pages.map(pageToRecord));
+  assert.equal(GUIDELINE_FACTOR, 0.3);
+  assert.deepEqual(search(ix, p("IntegrationEvent BusinessEvent")).map((h) => h.r.id), ["https://learn.microsoft.com/x/devenv-event-types", "guidelines/microsoft/knowledge/events/x"]);
+  const learnS = scoreRecord(ix, ix.records[0], p("IntegrationEvent BusinessEvent")).s, ruleS = scoreRecord(ix, ix.records[1], p("IntegrationEvent BusinessEvent")).s;
+  assert.ok(Math.abs(ruleS - learnS * GUIDELINE_FACTOR) < 0.5, `${ruleS} vs ${learnS}`);
+  assert.equal(search(ix, p("agent setup user security id"))[0].r.id, "guidelines/community/knowledge/agents/y");
 });

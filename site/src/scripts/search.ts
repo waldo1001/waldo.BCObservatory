@@ -44,6 +44,8 @@ export const GROUPS: GroupDef[] = [
   { id: "proc", label: "Procedures", types: [], cap: 10, one: "procedure", many: "procedures" },
   { id: "value", label: "Enum values", types: [], cap: 10, one: "enum value", many: "enum values" },
   { id: "change", label: "Code changes", types: ["change"], cap: 10, one: "code change", many: "code changes", dated: true },
+  // D126: the BCQuality rules, after the code changes that edit them
+  { id: "guideline", label: "Quality rules", types: ["guideline"], cap: 10, one: "BCQuality rule", many: "BCQuality rules" },
   { id: "localization", label: "Localizations", types: ["localization"], cap: 10, one: "localization", many: "localizations" },
   { id: "source", label: "Sources", types: ["source"], cap: 10, one: "source", many: "sources" },
   { id: "digest", label: "Weekly digests", types: ["digest"], cap: 10, one: "digest", many: "digests", dated: true },
