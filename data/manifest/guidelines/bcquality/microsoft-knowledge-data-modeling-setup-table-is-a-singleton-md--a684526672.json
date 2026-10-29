@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/setup-table-is-a-singleton.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.101Z",
+      "at": "2026-10-29T21:28:24.579Z",
       "blob": "0a7ac8bf2814c9f5f0472fb20117d7a1dd039d71",
       "words": 214,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:24.826Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/setup-table-is-a-singleton.md"
     }
   },
   "input_hash": "0a7ac8bf2814c9f5f0472fb20117d7a1dd039d71",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/setup-table-is-a-singleton.md",
-    "description": null,
+    "description": "An application-area setup table (Sales & Receivables Setup, Inventory Setup, and any custom * Setup) holds exactly one record per company. Its primary key is a single Code[10] field named Primary Key, and the row's value is left blank. Nothing else identifies the row — there is only ever one.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "setup-table",
+      "insertallowed",
+      "deleteallowed",
+      "getrecordonce",
+      "primary-key",
+      "card-page"
+    ],
     "ai_usage": null,
-    "words": 214
+    "words": 214,
+    "identifiers": [
+      "OnOpenPage",
+      "GetRecordOnce",
+      "AutoIncrement"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "setup-table",
+        "insertallowed",
+        "deleteallowed",
+        "getrecordonce",
+        "primary-key",
+        "card-page"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An application-area setup table (Sales & Receivables Setup, Inventory Setup, and any custom * Setup) holds exactly one record per company. Its primary key is a single Code[10] field named Primary Key, and the row's value is left blank. Nothing else identifies the row — there is only ever one."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

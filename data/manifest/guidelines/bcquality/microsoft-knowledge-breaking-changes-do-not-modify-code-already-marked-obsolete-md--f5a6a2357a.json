@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/breaking-changes/do-not-modify-code-already-marked-obsolete.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.061Z",
+      "at": "2026-10-29T21:28:19.638Z",
       "blob": "4609ae330cfe8aa0f668518109bf9ab965ade966",
       "words": 254,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:19.803Z",
+      "path": "content/guidelines/microsoft/knowledge/breaking-changes/do-not-modify-code-already-marked-obsolete.md"
     }
   },
   "input_hash": "4609ae330cfe8aa0f668518109bf9ab965ade966",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/breaking-changes/do-not-modify-code-already-marked-obsolete.md",
-    "description": null,
+    "description": "A member carrying [Obsolete], or wrapped in a #if not CLEANxx conditional-compilation block, is already scheduled for deletion — the CLEANxx symbol is flipped on in a future release to strip that code out.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "obsolete",
+      "clean-flag",
+      "conditional-compilation",
+      "deprecation",
+      "replacement",
+      "do-not-extend"
+    ],
     "ai_usage": null,
-    "words": 254
+    "words": 254,
+    "identifiers": [
+      "CLEANxx",
+      "GetUnitPrice",
+      "GetPrice"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "breaking-changes",
+      "keywords": [
+        "obsolete",
+        "clean-flag",
+        "conditional-compilation",
+        "deprecation",
+        "replacement",
+        "do-not-extend"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A member carrying [Obsolete], or wrapped in a #if not CLEANxx conditional-compilation block, is already scheduled for deletion — the CLEANxx symbol is flipped on in a future release to strip that code out."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

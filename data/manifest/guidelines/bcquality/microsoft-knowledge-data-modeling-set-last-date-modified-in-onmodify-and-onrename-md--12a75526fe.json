@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/set-last-date-modified-in-onmodify-and-onrename.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.095Z",
+      "at": "2026-10-29T21:28:24.587Z",
       "blob": "f8b2a0d49be524f99222af8a0fea427265229f04",
       "words": 179,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:24.784Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/set-last-date-modified-in-onmodify-and-onrename.md"
     }
   },
   "input_hash": "f8b2a0d49be524f99222af8a0fea427265229f04",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/set-last-date-modified-in-onmodify-and-onrename.md",
-    "description": null,
+    "description": "Master tables carry a non-editable Last Date Modified field of type Date. It records when the record last changed and is refreshed by table triggers, not by the user. The refresh must happen in both OnModify and OnRename.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "last-date-modified",
+      "onmodify",
+      "onrename",
+      "audit-field",
+      "non-editable",
+      "stale-value"
+    ],
     "ai_usage": null,
-    "words": 179
+    "words": 179,
+    "identifiers": [
+      "OnModify",
+      "OnRename",
+      "WorkDate"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "last-date-modified",
+        "onmodify",
+        "onrename",
+        "audit-field",
+        "non-editable",
+        "stale-value"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Master tables carry a non-editable Last Date Modified field of type Date. It records when the record last changed and is refreshed by table triggers, not by the user. The refresh must happen in both OnModify and OnRename."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

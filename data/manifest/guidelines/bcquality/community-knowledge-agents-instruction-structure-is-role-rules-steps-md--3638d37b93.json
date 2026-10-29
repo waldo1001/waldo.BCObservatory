@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/agents/instruction-structure-is-role-rules-steps.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:36:41.486Z",
+      "at": "2026-10-29T21:28:18.086Z",
       "blob": "4a928fde84fa04e9c115789ddabd5cbcba6886fa",
       "words": 139,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:18.157Z",
+      "path": "content/guidelines/community/knowledge/agents/instruction-structure-is-role-rules-steps.md"
     }
   },
   "input_hash": "4a928fde84fa04e9c115789ddabd5cbcba6886fa",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/agents/instruction-structure-is-role-rules-steps.md",
-    "description": null,
+    "description": "The runtime treats instructions as the agent's standing prompt. A one-line goal produces inconsistent navigation. Microsoft's instruction framework is three layers: responsibilities (what the agent owns), guidelines (rules for every task), and instructions (ordered steps per task, with substeps).",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "instructions",
+      "responsibilities",
+      "guidelines",
+      "steps",
+      "setinstructions"
+    ],
     "ai_usage": null,
-    "words": 139
+    "words": 139,
+    "identifiers": [
+      "SetInstructions"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "agents",
+      "keywords": [
+        "instructions",
+        "responsibilities",
+        "guidelines",
+        "steps",
+        "setinstructions"
+      ],
+      "bc_version": [
+        "27.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The runtime treats instructions as the agent's standing prompt. A one-line goal produces inconsistent navigation. Microsoft's instruction framework is three layers: responsibilities (what the agent owns), guidelines (rules for every task), and instructions (ordered steps per task, with substeps)."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

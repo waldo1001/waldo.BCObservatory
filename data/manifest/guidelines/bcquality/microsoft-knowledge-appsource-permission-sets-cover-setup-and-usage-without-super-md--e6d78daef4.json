@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/appsource/permission-sets-cover-setup-and-usage-without-super.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:07.474Z",
+      "at": "2026-10-29T21:28:18.881Z",
       "blob": "1b81fb4682ae670af2c51bde89ffcfeefc7c1d60",
       "words": 182,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:18.957Z",
+      "path": "content/guidelines/microsoft/knowledge/appsource/permission-sets-cover-setup-and-usage-without-super.md"
     }
   },
   "input_hash": "1b81fb4682ae670af2c51bde89ffcfeefc7c1d60",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/appsource/permission-sets-cover-setup-and-usage-without-super.md",
-    "description": null,
+    "description": "An AppSource app must provide permission sets that let assigned users complete the app's setup and normal usage without SUPER. The requirement is about complete effective grants, not about naming the permission set after the app.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "permission-set",
+      "super",
+      "appsource",
+      "setup",
+      "usage",
+      "tabledata",
+      "execute",
+      "submission"
+    ],
     "ai_usage": null,
-    "words": 182
+    "words": 182,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "appsource",
+      "keywords": [
+        "permission-set",
+        "super",
+        "appsource",
+        "setup",
+        "usage",
+        "tabledata",
+        "execute",
+        "submission"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An AppSource app must provide permission sets that let assigned users complete the app's setup and normal usage without SUPER. The requirement is about complete effective grants, not about naming the permission set after the app."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/breaking-changes/obsolete-table-fields-instead-of-deleting-them.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.068Z",
+      "at": "2026-10-29T21:28:19.603Z",
       "blob": "bf62facff62aea5fe9aa3e32cb8f35c35811c212",
       "words": 271,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:19.674Z",
+      "path": "content/guidelines/microsoft/knowledge/breaking-changes/obsolete-table-fields-instead-of-deleting-them.md"
     }
   },
   "input_hash": "bf62facff62aea5fe9aa3e32cb8f35c35811c212",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/breaking-changes/obsolete-table-fields-instead-of-deleting-them.md",
-    "description": null,
+    "description": "A shipped table field carries both a source-level contract and persisted data. Renaming a field while retaining its ID is prohibited by AppSourceCop AS0005 and can break dependent extensions, but it is not inherently a drop-and-readd operation and should not be described as automatic data loss.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "table-field",
+      "obsoletestate",
+      "obsoletereason",
+      "obsoletetag",
+      "pending",
+      "removed",
+      "data-loss"
+    ],
     "ai_usage": null,
-    "words": 271
+    "words": 271,
+    "identifiers": [
+      "ObsoleteReason",
+      "ObsoleteTag"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "breaking-changes",
+      "keywords": [
+        "table-field",
+        "obsoletestate",
+        "obsoletereason",
+        "obsoletetag",
+        "pending",
+        "removed",
+        "data-loss"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A shipped table field carries both a source-level contract and persisted data. Renaming a field while retaining its ID is prohibited by AppSourceCop AS0005 and can break dependent extensions, but it is not inherently a drop-and-readd operation and should not be described as automatic data loss."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

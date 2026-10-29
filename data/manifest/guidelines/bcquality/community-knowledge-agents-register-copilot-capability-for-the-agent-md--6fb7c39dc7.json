@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/agents/register-copilot-capability-for-the-agent.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:36:41.507Z",
+      "at": "2026-10-29T21:28:18.223Z",
       "blob": "59171cccdc8f25d829abb93d339abc9dc04307ee",
       "words": 157,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:18.321Z",
+      "path": "content/guidelines/community/knowledge/agents/register-copilot-capability-for-the-agent.md"
     }
   },
   "input_hash": "59171cccdc8f25d829abb93d339abc9dc04307ee",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/agents/register-copilot-capability-for-the-agent.md",
-    "description": null,
+    "description": "Each agent type needs a Copilot Capability enum value that the factory links as the feature switch and billing surface. The capability is invisible on Copilot and agent capabilities until an install codeunit calls RegisterCapability when it is not already registered.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "copilot-capability",
+      "registercapability",
+      "install",
+      "feature-switch",
+      "enumextension"
+    ],
     "ai_usage": null,
-    "words": 157
+    "words": 157,
+    "identifiers": [
+      "RegisterCapability",
+      "OnInstallAppPerDatabase",
+      "IAgentFactory"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "agents",
+      "keywords": [
+        "copilot-capability",
+        "registercapability",
+        "install",
+        "feature-switch",
+        "enumextension"
+      ],
+      "bc_version": [
+        "27.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Each agent type needs a Copilot Capability enum value that the factory links as the feature switch and billing surface. The capability is invisible on Copilot and agent capabilities until an install codeunit calls RegisterCapability when it is not already registered."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

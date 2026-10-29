@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/agents/show-can-create-agent-does-not-block-code-create.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:07.437Z",
+      "at": "2026-10-29T21:28:18.272Z",
       "blob": "7a935e1c309e4713b3451da55e06cbd17874c42e",
       "words": 128,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:18.347Z",
+      "path": "content/guidelines/community/knowledge/agents/show-can-create-agent-does-not-block-code-create.md"
     }
   },
   "input_hash": "7a935e1c309e4713b3451da55e06cbd17874c42e",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/agents/show-can-create-agent-does-not-block-code-create.md",
-    "description": null,
+    "description": "IAgentFactory.ShowCanCreateAgent controls whether the type appears in the in-client create UI. Returning false does not stop Agent.Create from AL. From 28.1, non-admins can discover extension agents unless this method (and agent configuration rights) restrict them.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "showcancreateagent",
+      "agent-discovery",
+      "agent-create",
+      "administrator",
+      "agent-configuration-rights"
+    ],
     "ai_usage": null,
-    "words": 128
+    "words": 128,
+    "identifiers": [
+      "ShowCanCreateAgent"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "agents",
+      "keywords": [
+        "showcancreateagent",
+        "agent-discovery",
+        "agent-create",
+        "administrator",
+        "agent-configuration-rights"
+      ],
+      "bc_version": [
+        "28.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "IAgentFactory.ShowCanCreateAgent controls whether the type appears in the in-client create UI. Returning false does not stop Agent.Create from AL. From 28.1, non-admins can discover extension agents unless this method (and agent configuration rights) restrict them."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

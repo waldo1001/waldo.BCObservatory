@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/agents/get-default-access-controls-least-privilege.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:36:41.472Z",
+      "at": "2026-10-29T21:28:17.411Z",
       "blob": "c82f71af95ff7a37fc71487f34e12e17a3135288",
       "words": 180,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:17.477Z",
+      "path": "content/guidelines/community/knowledge/agents/get-default-access-controls-least-privilege.md"
     }
   },
   "input_hash": "c82f71af95ff7a37fc71487f34e12e17a3135288",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/agents/get-default-access-controls-least-privilege.md",
-    "description": null,
+    "description": "IAgentFactory.GetDefaultAccessControls fills a temporary Access Control Buffer used when an instance is created. Permission sets that exist only as user-created sets in a sandbox are missing in the next environment. Granting D365 BUS FULL ACCESS or SUPER gives the agent a user-sized blast radius.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "getdefaultaccesscontrols",
+      "access-control-buffer",
+      "permissionset",
+      "least-privilege",
+      "iagentfactory"
+    ],
     "ai_usage": null,
-    "words": 180
+    "words": 180,
+    "identifiers": [
+      "GetDefaultAccessControls"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "agents",
+      "keywords": [
+        "getdefaultaccesscontrols",
+        "access-control-buffer",
+        "permissionset",
+        "least-privilege",
+        "iagentfactory"
+      ],
+      "bc_version": [
+        "27.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "IAgentFactory.GetDefaultAccessControls fills a temporary Access Control Buffer used when an instance is created. Permission sets that exist only as user-created sets in a sandbox are missing in the next environment. Granting D365 BUS FULL ACCESS or SUPER gives the agent a user-sized blast radius."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

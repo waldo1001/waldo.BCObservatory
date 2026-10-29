@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/agents/do-not-create-agents-in-install-upgrade-or-background.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:36:41.465Z",
+      "at": "2026-10-29T21:28:17.404Z",
       "blob": "2018de4523d60ea5f74bb86bc415f87ded8d3ebd",
       "words": 142,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:17.510Z",
+      "path": "content/guidelines/community/knowledge/agents/do-not-create-agents-in-install-upgrade-or-background.md"
     }
   },
   "input_hash": "2018de4523d60ea5f74bb86bc415f87ded8d3ebd",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/agents/do-not-create-agents-in-install-upgrade-or-background.md",
-    "description": null,
+    "description": "Agent.Create requires an interactive user session. The platform blocks creation from install codeunits, upgrade codeunits, and background sessions (job queue, scheduled tasks). Packaging an agent in an app does not mean spinning up instances at install.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "agent-create",
+      "install",
+      "upgrade",
+      "job-queue",
+      "interactive-session",
+      "background"
+    ],
     "ai_usage": null,
-    "words": 142
+    "words": 142,
+    "identifiers": [
+      "OnInstallAppPerCompany",
+      "OnUpgradePerCompany"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "agents",
+      "keywords": [
+        "agent-create",
+        "install",
+        "upgrade",
+        "job-queue",
+        "interactive-session",
+        "background"
+      ],
+      "bc_version": [
+        "27.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Agent.Create requires an interactive user session. The platform blocks creation from install codeunits, upgrade codeunits, and background sessions (job queue, scheduled tasks). Packaging an agent in an app does not mean spinning up instances at install."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

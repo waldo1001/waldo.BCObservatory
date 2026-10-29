@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/agents/reapply-resource-instructions-on-upgrade.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:36:41.500Z",
+      "at": "2026-10-29T21:28:18.121Z",
       "blob": "db95258ff720a92cea48b1883b7ba7dcbeceaf6b",
       "words": 122,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:18.217Z",
+      "path": "content/guidelines/community/knowledge/agents/reapply-resource-instructions-on-upgrade.md"
     }
   },
   "input_hash": "db95258ff720a92cea48b1883b7ba7dcbeceaf6b",
@@ -25,13 +29,49 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/agents/reapply-resource-instructions-on-upgrade.md",
-    "description": null,
+    "description": "Static instructions stored as an app resource are copied onto an instance only when you call SetInstructions. Shipping a new Instructions.txt in version 2.0 does not update agents created under 1.0. Models change the resource and assume running instances pick it up.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "upgrade",
+      "setinstructions",
+      "navapp-getresourceastext",
+      "existing-instances",
+      "upgrade-tag"
+    ],
     "ai_usage": null,
-    "words": 122
+    "words": 122,
+    "identifiers": [
+      "SetInstructions",
+      "resourceFolders"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "agents",
+      "keywords": [
+        "upgrade",
+        "setinstructions",
+        "navapp-getresourceastext",
+        "existing-instances",
+        "upgrade-tag"
+      ],
+      "bc_version": [
+        "27.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Static instructions stored as an app resource are copied onto an instance only when you call SetInstructions. Shipping a new Instructions.txt in version 2.0 does not update agents created under 1.0. Models change the resource and assume running instances pick it up."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

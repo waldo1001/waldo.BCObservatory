@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/breaking-changes/choose-access-modifiers-deliberately.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:07.480Z",
+      "at": "2026-10-29T21:28:18.962Z",
       "blob": "678663128e380e5f0d8c05a164d286d76dea8ece",
       "words": 272,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:19.040Z",
+      "path": "content/guidelines/microsoft/knowledge/breaking-changes/choose-access-modifiers-deliberately.md"
     }
   },
   "input_hash": "678663128e380e5f0d8c05a164d286d76dea8ece",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/breaking-changes/choose-access-modifiers-deliberately.md",
-    "description": null,
+    "description": "Access is a decision about what you are willing to support forever. The moment a procedure or object is reachable from another extension — no local, or a removed [Scope('OnPrem')] — it becomes a contract: callers bind to it, and changing or removing it later is a breaking change.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "access-modifier",
+      "internal",
+      "local",
+      "public",
+      "protected",
+      "scope",
+      "encapsulation"
+    ],
     "ai_usage": null,
-    "words": 272
+    "words": 272,
+    "identifiers": [
+      "ValidateOrder",
+      "PostOrder"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "breaking-changes",
+      "keywords": [
+        "access-modifier",
+        "internal",
+        "local",
+        "public",
+        "protected",
+        "scope",
+        "encapsulation"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Access is a decision about what you are willing to support forever. The moment a procedure or object is reachable from another extension — no local, or a removed [Scope('OnPrem')] — it becomes a contract: callers bind to it, and changing or removing it later is a breaking change."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

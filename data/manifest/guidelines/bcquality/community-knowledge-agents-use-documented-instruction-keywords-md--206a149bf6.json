@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/agents/use-documented-instruction-keywords.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:07.452Z",
+      "at": "2026-10-29T21:28:18.843Z",
       "blob": "a65f240965f2643dd0f0fd2800cbbcd844e3630c",
       "words": 160,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:18.899Z",
+      "path": "content/guidelines/community/knowledge/agents/use-documented-instruction-keywords.md"
     }
   },
   "input_hash": "a65f240965f2643dd0f0fd2800cbbcd844e3630c",
@@ -25,13 +29,46 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/agents/use-documented-instruction-keywords.md",
-    "description": null,
+    "description": "The agent runtime looks for specific phrases: ask for assistance, request a review, reply, write an email, memorize, Set field, use lookup, Invoke action. Ordinary English such as get a human to look or remember this is weaker.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "instruction-keywords",
+      "request-a-review",
+      "memorize",
+      "write-an-email",
+      "invoke-action"
+    ],
     "ai_usage": null,
-    "words": 160
+    "words": 160,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "agents",
+      "keywords": [
+        "instruction-keywords",
+        "request-a-review",
+        "memorize",
+        "write-an-email",
+        "invoke-action"
+      ],
+      "bc_version": [
+        "27.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The agent runtime looks for specific phrases: ask for assistance, request a review, reply, write an email, memorize, Set field, use lookup, Invoke action. Ordinary English such as get a human to look or remember this is weaker."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

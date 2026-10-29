@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/master-table-no-from-number-series-in-oninsert.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.082Z",
+      "at": "2026-10-29T21:28:19.809Z",
       "blob": "69476ff66ff1b3a3e92036a6792e72d63a809d28",
       "words": 236,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:19.902Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/master-table-no-from-number-series-in-oninsert.md"
     }
   },
   "input_hash": "69476ff66ff1b3a3e92036a6792e72d63a809d28",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/master-table-no-from-number-series-in-oninsert.md",
-    "description": null,
+    "description": "In Business Central, a master table (Customer, Vendor, Item, and any custom equivalent) uses a single primary-key field named No. of type Code[20]. It is populated from a number series — configured on the feature's application-area setup table — inside the table's OnInsert trigger, but only when No.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "no-series",
+      "primary-key",
+      "code20",
+      "oninsert",
+      "autoincrement",
+      "number-assignment"
+    ],
     "ai_usage": null,
-    "words": 236
+    "words": 236,
+    "identifiers": [
+      "OnInsert",
+      "AutoIncrement",
+      "SystemId",
+      "TestField"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "no-series",
+        "primary-key",
+        "code20",
+        "oninsert",
+        "autoincrement",
+        "number-assignment"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "In Business Central, a master table (Customer, Vendor, Item, and any custom equivalent) uses a single primary-key field named No. of type Code[20]. It is populated from a number series — configured on the feature's application-area setup table — inside the table's OnInsert trigger, but only when No."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

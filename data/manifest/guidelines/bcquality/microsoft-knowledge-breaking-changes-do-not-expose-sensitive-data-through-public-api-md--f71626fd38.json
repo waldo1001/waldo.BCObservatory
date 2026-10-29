@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/breaking-changes/do-not-expose-sensitive-data-through-public-api.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.054Z",
+      "at": "2026-10-29T21:28:19.558Z",
       "blob": "cb3f77207d0c3a0065c4c37ce1360e9a16e02c49",
       "words": 281,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:19.624Z",
+      "path": "content/guidelines/microsoft/knowledge/breaking-changes/do-not-expose-sensitive-data-through-public-api.md"
     }
   },
   "input_hash": "cb3f77207d0c3a0065c4c37ce1360e9a16e02c49",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/breaking-changes/do-not-expose-sensitive-data-through-public-api.md",
-    "description": null,
+    "description": "Every member you make publicly reachable becomes a contract you must keep — and when that member returns a secret, the contract leaks the secret.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "sensitive-data",
+      "secrettext",
+      "token",
+      "credential",
+      "public-api",
+      "access-boundary"
+    ],
     "ai_usage": null,
-    "words": 281
+    "words": 281,
+    "identifiers": [
+      "SecretText"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "breaking-changes",
+      "keywords": [
+        "sensitive-data",
+        "secrettext",
+        "token",
+        "credential",
+        "public-api",
+        "access-boundary"
+      ],
+      "bc_version": [
+        "23.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Every member you make publicly reachable becomes a contract you must keep — and when that member returns a secret, the contract leaks the secret."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

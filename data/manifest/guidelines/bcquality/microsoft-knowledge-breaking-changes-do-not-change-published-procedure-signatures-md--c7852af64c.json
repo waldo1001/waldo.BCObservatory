@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/breaking-changes/do-not-change-published-procedure-signatures.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.046Z",
+      "at": "2026-10-29T21:28:19.532Z",
       "blob": "5fa0ae5599de51419be36e269de200e0c752fc12",
       "words": 457,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:19.596Z",
+      "path": "content/guidelines/microsoft/knowledge/breaking-changes/do-not-change-published-procedure-signatures.md"
     }
   },
   "input_hash": "5fa0ae5599de51419be36e269de200e0c752fc12",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/breaking-changes/do-not-change-published-procedure-signatures.md",
-    "description": null,
+    "description": "A procedure that is reachable from outside its object — any procedure not marked local (and, for on-prem-scoped code, anything a dependent app can still bind to) — is a contract. Once another extension compiles against it, changing its shape breaks that extension at build time.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "signature",
+      "public-procedure",
+      "parameter",
+      "return-value",
+      "overload",
+      "contract",
+      "integration-event"
+    ],
     "ai_usage": null,
-    "words": 457
+    "words": 457,
+    "identifiers": [
+      "CalculateDiscount"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "breaking-changes",
+      "keywords": [
+        "signature",
+        "public-procedure",
+        "parameter",
+        "return-value",
+        "overload",
+        "contract",
+        "integration-event"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A procedure that is reachable from outside its object — any procedure not marked local (and, for on-prem-scoped code, anything a dependent app can still bind to) — is a contract. Once another extension compiles against it, changing its shape breaks that extension at build time."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/agents/skip-incoming-review-only-for-trusted-input.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:07.444Z",
+      "at": "2026-10-29T21:28:18.808Z",
       "blob": "ad9140881561fde2d7200eb4d1ccc670a5175130",
       "words": 119,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:18.861Z",
+      "path": "content/guidelines/community/knowledge/agents/skip-incoming-review-only-for-trusted-input.md"
     }
   },
   "input_hash": "ad9140881561fde2d7200eb4d1ccc670a5175130",
@@ -25,13 +29,46 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "community/knowledge/agents/skip-incoming-review-only-for-trusted-input.md",
-    "description": null,
+    "description": "Incoming task messages default to requiring user approval before the agent runs. From 28.1, Agent Task Message Builder.SetRequiresReview(false) starts the agent immediately. That is safe only for inputs you already validated in AL (your page action, your posting subscriber).",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "setrequiresreview",
+      "agent-task-message-builder",
+      "approval",
+      "trusted-input",
+      "skip-review"
+    ],
     "ai_usage": null,
-    "words": 119
+    "words": 119,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "agents",
+      "keywords": [
+        "setrequiresreview",
+        "agent-task-message-builder",
+        "approval",
+        "trusted-input",
+        "skip-review"
+      ],
+      "bc_version": [
+        "28.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Incoming task messages default to requiring user approval before the agent runs. From 28.1, Agent Task Message Builder.SetRequiresReview(false) starts the agent immediately. That is safe only for inputs you already validated in AL (your page action, your posting subscriber)."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

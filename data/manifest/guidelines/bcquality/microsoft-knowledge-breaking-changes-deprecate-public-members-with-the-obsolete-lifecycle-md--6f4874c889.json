@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/breaking-changes/deprecate-public-members-with-the-obsolete-lifecycle.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.038Z",
+      "at": "2026-10-29T21:28:18.977Z",
       "blob": "f7d05d5908cd46af4200f784ef6fe767c74e98c6",
       "words": 265,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:28:19.083Z",
+      "path": "content/guidelines/microsoft/knowledge/breaking-changes/deprecate-public-members-with-the-obsolete-lifecycle.md"
     }
   },
   "input_hash": "f7d05d5908cd46af4200f784ef6fe767c74e98c6",
@@ -25,13 +29,54 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/breaking-changes/deprecate-public-members-with-the-obsolete-lifecycle.md",
-    "description": null,
+    "description": "Deleting or renaming a published procedure (or object) in a single release is a hard break: dependent extensions that reference it stop compiling the moment they pick up the new version, with no warning window to migrate. AL provides staged deprecation so consumers get advance notice.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "obsolete",
+      "deprecation",
+      "obsoletestate",
+      "obsoletetag",
+      "pending",
+      "removed",
+      "public-procedure"
+    ],
     "ai_usage": null,
-    "words": 265
+    "words": 265,
+    "identifiers": [
+      "ObsoleteState",
+      "CalcNet",
+      "CalculateNetAmount"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "breaking-changes",
+      "keywords": [
+        "obsolete",
+        "deprecation",
+        "obsoletestate",
+        "obsoletetag",
+        "pending",
+        "removed",
+        "public-procedure"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Deleting or renaming a published procedure (or object) in a single release is a hard break: dependent extensions that reference it stop compiling the moment they pick up the new version, with no warning window to migrate. AL provides staged deprecation so consumers get advance notice."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
