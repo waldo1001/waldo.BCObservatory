@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/master-data-must-be-inserted-with-trigger.md",
   "published_at": "2026-10-05T12:46:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:05:54.411Z",
+      "at": "2026-10-29T21:27:29.324Z",
       "blob": "2e2c3a107af0bf46ad1f3d6f6651d668f151d665",
       "words": 464,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:29.550Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/master-data-must-be-inserted-with-trigger.md"
     }
   },
   "input_hash": "2e2c3a107af0bf46ad1f3d6f6651d668f151d665",
@@ -25,13 +29,67 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/master-data-must-be-inserted-with-trigger.md",
-    "description": null,
+    "description": "Record.Insert() does not run OnInsert: RunTrigger defaults to false. On a standard master table that trigger initializes the record. Unless an OnBeforeInsert subscriber sets IsHandled, Customer.OnInsert assigns No. and No. Series from Sales & Receivables Setup when No.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "insert",
+      "runtrigger",
+      "oninsert",
+      "master-data",
+      "no-series",
+      "customer",
+      "item",
+      "import"
+    ],
     "ai_usage": null,
-    "words": 464
+    "words": 464,
+    "identifiers": [
+      "OnInsert",
+      "RunTrigger",
+      "OnBeforeInsert",
+      "IsHandled",
+      "UpdateReferencedIds",
+      "CustomerDataMigrationFacade",
+      "ItemDataMigrationFacade",
+      "GLAccDataMigrationFacade",
+      "CopyItem",
+      "ExportItemData",
+      "SetDefaultSalesperson",
+      "UpdateDefaultDim",
+      "CreateNewItem",
+      "InitTargetItem"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "insert",
+        "runtrigger",
+        "oninsert",
+        "master-data",
+        "no-series",
+        "customer",
+        "item",
+        "import"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Record.Insert() does not run OnInsert: RunTrigger defaults to false. On a standard master table that trigger initializes the record. Unless an OnBeforeInsert subscriber sets IsHandled, Customer.OnInsert assigns No. and No. Series from Sales & Receivables Setup when No."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

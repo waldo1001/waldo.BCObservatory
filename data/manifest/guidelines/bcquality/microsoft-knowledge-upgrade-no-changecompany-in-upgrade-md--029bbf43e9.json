@@ -13,7 +13,7 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:10:02.832Z",
+      "at": "2026-10-29T21:27:35.149Z",
       "blob": "3295bbad423d6607b7b2fe9cbe147793a267f2cd",
       "words": 610,
       "forms": 0
@@ -25,13 +25,63 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/upgrade/no-changecompany-in-upgrade.md",
-    "description": null,
+    "description": "The platform upgrades each company in its own context: OnUpgradePerCompany (like the other PerCompany upgrade and install triggers) runs once per company, in a separate system session opened for that company, while PerDatabase triggers run in a session that opens no company.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "changecompany",
+      "cross-company",
+      "onupgradepercompany",
+      "onupgradeperdatabase",
+      "feature-data-update",
+      "taskscheduler",
+      "multi-company",
+      "company-context"
+    ],
     "ai_usage": null,
-    "words": 610
+    "words": 610,
+    "identifiers": [
+      "OnUpgradePerCompany",
+      "PerCompany",
+      "PerDatabase",
+      "ChangeCompany",
+      "UpdateData",
+      "AfterUpdate",
+      "IsDataUpdateRequired",
+      "ReviewData",
+      "OnUpgradePerDatabase",
+      "RecordRef"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "upgrade",
+      "keywords": [
+        "changecompany",
+        "cross-company",
+        "onupgradepercompany",
+        "onupgradeperdatabase",
+        "feature-data-update",
+        "taskscheduler",
+        "multi-company",
+        "company-context"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The platform upgrades each company in its own context: OnUpgradePerCompany (like the other PerCompany upgrade and install triggers) runs once per company, in a separate system session opened for that company, while PerDatabase triggers run in a session that opens no company."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

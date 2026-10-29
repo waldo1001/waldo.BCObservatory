@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/register-owned-log-tables-for-retention-policies.md",
   "published_at": "2026-10-05T13:02:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:59:04.048Z",
+      "at": "2026-10-29T21:27:28.002Z",
       "blob": "1e3bc924bdf6a9659e655b28c27c9cd3d7a10471",
       "words": 539,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:28.606Z",
+      "path": "content/guidelines/microsoft/knowledge/privacy/register-owned-log-tables-for-retention-policies.md"
     }
   },
   "input_hash": "1e3bc924bdf6a9659e655b28c27c9cd3d7a10471",
@@ -25,13 +29,68 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/privacy/register-owned-log-tables-for-retention-policies.md",
-    "description": null,
+    "description": "The retention policy engine only ever deletes from tables that appear in its allowed-tables list, and an extension may register only tables it owns — it cannot add a base application table or a table from another extension. Registration is a call to Codeunit \"Reten. Pol.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "retention-policy",
+      "allowed-tables",
+      "addallowedtable",
+      "reten-pol-allowed-tables",
+      "onrefreshallowedtables",
+      "append-only-table",
+      "log-table-growth",
+      "deleteall",
+      "mandatory-minimum-retention",
+      "install-upgrade-codeunit"
+    ],
     "ai_usage": null,
-    "words": 539
+    "words": 539,
+    "identifiers": [
+      "SystemCreatedAt",
+      "OnInstallAppPerCompany",
+      "OnUpgradePerCompany",
+      "IsAllowedTable",
+      "ForceUpdate",
+      "MandatoryMinRetenDays",
+      "AddTableFilterToJsonArray",
+      "AddAllowedTable",
+      "JsonArray",
+      "DeleteAll",
+      "OnRefreshAllowedTables"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "privacy",
+      "keywords": [
+        "retention-policy",
+        "allowed-tables",
+        "addallowedtable",
+        "reten-pol-allowed-tables",
+        "onrefreshallowedtables",
+        "append-only-table",
+        "log-table-growth",
+        "deleteall",
+        "mandatory-minimum-retention",
+        "install-upgrade-codeunit"
+      ],
+      "bc_version": [
+        "22.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The retention policy engine only ever deletes from tables that appear in its allowed-tables list, and an extension may register only tables it owns — it cannot add a base application table or a table from another extension. Registration is a call to Codeunit \"Reten. Pol."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

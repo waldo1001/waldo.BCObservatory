@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-privacy-review.md",
   "published_at": "2026-10-05T13:02:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:02:18.538Z",
+      "at": "2026-10-29T21:27:28.468Z",
       "blob": "502425217053100e08ed054795ecf4c6bf9aa4b3",
       "words": 1663,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:28.991Z",
+      "path": "content/guidelines/microsoft/skills/review/al-privacy-review.md"
     }
   },
   "input_hash": "502425217053100e08ed054795ecf4c6bf9aa4b3",
@@ -31,7 +35,63 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1663
+    "words": 1663,
+    "identifiers": [
+      "DataClassification",
+      "FeatureTelemetry",
+      "IsolatedStorage",
+      "ErrorInfo",
+      "StrSubstNo",
+      "GetLastErrorText",
+      "GetLastErrorCallStack",
+      "LogUptake",
+      "LogError",
+      "SetEncrypted",
+      "CustomerContent",
+      "EndUserIdentifiableInformation",
+      "EndUserPseudonymousIdentifiers",
+      "SystemMetadata",
+      "ToBeClassified",
+      "PrivacyNotice",
+      "TelemetryScope",
+      "CustomDimensions",
+      "LogUsage",
+      "ErrorText",
+      "ErrorCallStack",
+      "alErrorText",
+      "alErrorCallStack",
+      "HybridSL",
+      "HybridGP",
+      "HybridBC",
+      "AddAllowedTable",
+      "DeleteAll",
+      "OnRefreshAllowedTables",
+      "AutoIncrement",
+      "AboutText",
+      "InstructionalText",
+      "ToolTip",
+      "OptionCaption"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": null,
+      "keywords": [],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "skill",
+      "summary": "Reviews AL source changes against privacy and data-classification guidance from BCQuality."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

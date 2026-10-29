@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/use-get-instead-of-findfirst-on-full-primary-key.md",
   "published_at": "2026-10-02T11:07:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:09:36.202Z",
+      "at": "2026-10-29T21:27:29.936Z",
       "blob": "154e01d5b22dcc4b7ae1dc8655cfcc50bd00bcc3",
       "words": 266,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:30.011Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/use-get-instead-of-findfirst-on-full-primary-key.md"
     }
   },
   "input_hash": "154e01d5b22dcc4b7ae1dc8655cfcc50bd00bcc3",
@@ -25,13 +29,53 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/use-get-instead-of-findfirst-on-full-primary-key.md",
-    "description": null,
+    "description": "Get(...) retrieves a record by primary key, but ignores normal record filters. Replacing a FindFirst() filtered only by the full primary key with Get expresses the lookup directly.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "get",
+      "findfirst",
+      "primary-key",
+      "setrange",
+      "lookup",
+      "filters",
+      "blocked"
+    ],
     "ai_usage": null,
-    "words": 266
+    "words": 266,
+    "identifiers": [
+      "FindFirst",
+      "SetRange"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "get",
+        "findfirst",
+        "primary-key",
+        "setrange",
+        "lookup",
+        "filters",
+        "blocked"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Get(...) retrieves a record by primary key, but ignores normal record filters. Replacing a FindFirst() filtered only by the full primary key with Get expresses the lookup directly."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/delete-master-data-with-trigger.md",
   "published_at": "2026-10-05T12:46:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:05:19.554Z",
+      "at": "2026-10-29T21:27:29.142Z",
       "blob": "6e3467ce8ca686329335ff986d8493872f7b314c",
       "words": 528,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:29.311Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/delete-master-data-with-trigger.md"
     }
   },
   "input_hash": "6e3467ce8ca686329335ff986d8493872f7b314c",
@@ -25,13 +29,64 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/delete-master-data-with-trigger.md",
-    "description": null,
+    "description": "Record.Delete() and Record.DeleteAll() do not run OnDelete unless RunTrigger is true; the default is false. On a master or reference table, OnDelete is where Business Central decides whether the delete is safe and removes what the record owns.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "delete",
+      "deleteall",
+      "runtrigger",
+      "ondelete",
+      "master-data",
+      "currency",
+      "cleanup",
+      "data-migration"
+    ],
     "ai_usage": null,
-    "words": 528
+    "words": 528,
+    "identifiers": [
+      "OnDelete",
+      "RunTrigger",
+      "MoveEntries",
+      "OnBeforeDelete",
+      "OnAfterDelete",
+      "CatalogItemManagement",
+      "JobArchiveManagement",
+      "MoveGLEntries",
+      "MoveCustEntries",
+      "OnRun",
+      "DeleteGLAccounts"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "delete",
+        "deleteall",
+        "runtrigger",
+        "ondelete",
+        "master-data",
+        "currency",
+        "cleanup",
+        "data-migration"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Record.Delete() and Record.DeleteAll() do not run OnDelete unless RunTrigger is true; the default is false. On a master or reference table, OnDelete is where Business Central decides whether the delete is safe and removes what the record owns."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

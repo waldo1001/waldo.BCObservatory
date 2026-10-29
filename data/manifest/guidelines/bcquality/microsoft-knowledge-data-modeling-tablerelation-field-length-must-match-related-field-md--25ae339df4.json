@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/tablerelation-field-length-must-match-related-field.md",
   "published_at": "2026-10-06T11:30:37.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:51:58.554Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:56:43.549Z",
+      "at": "2026-10-29T21:27:27.399Z",
       "blob": "654c05225447a4c018febf9c0ad4a3eb4270ef13",
       "words": 846,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:27.849Z",
+      "path": "content/guidelines/microsoft/knowledge/data-modeling/tablerelation-field-length-must-match-related-field.md"
     }
   },
   "input_hash": "654c05225447a4c018febf9c0ad4a3eb4270ef13",
@@ -25,13 +29,55 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/data-modeling/tablerelation-field-length-must-match-related-field.md",
-    "description": null,
+    "description": "TableRelation points a field at another table, or at a specific field of it with Table.Field. The relation is also used to validate entries and to drive the lookup.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "tablerelation",
+      "field-length",
+      "code",
+      "text",
+      "conditional-relation",
+      "lookup"
+    ],
     "ai_usage": null,
-    "words": 846
+    "words": 846,
+    "identifiers": [
+      "TableRelation",
+      "AL0685",
+      "CalcFormula",
+      "ValidateTableRelation",
+      "TestTableRelation",
+      "TransferFields"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "data-modeling",
+      "keywords": [
+        "tablerelation",
+        "field-length",
+        "code",
+        "text",
+        "conditional-relation",
+        "lookup"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "TableRelation points a field at another table, or at a specific field of it with Table.Field. The relation is also used to validate entries and to drive the lookup."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

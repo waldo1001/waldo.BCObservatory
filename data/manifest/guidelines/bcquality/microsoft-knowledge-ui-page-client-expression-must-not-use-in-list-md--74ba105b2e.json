@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/page-client-expression-must-not-use-in-list.md",
   "published_at": "2026-10-02T07:53:14.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:11:18.446Z",
+      "at": "2026-10-29T21:27:35.116Z",
       "blob": "60941cb5c2d0c7a8464bee22685571e77f6f1177",
       "words": 690,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:35.368Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/page-client-expression-must-not-use-in-list.md"
     }
   },
   "input_hash": "60941cb5c2d0c7a8464bee22685571e77f6f1177",
@@ -25,13 +29,63 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/page-client-expression-must-not-use-in-list.md",
-    "description": null,
+    "description": "Enabled, Visible, Editable, and StyleExpr on page controls (the list is not exhaustive; HideValue is rejected the same way) can be bound to a client expression instead of a literal.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "client-expression",
+      "in-list",
+      "inlistexpression",
+      "al0573",
+      "al0322",
+      "enabled",
+      "visible",
+      "editable",
+      "dynamic-enable"
+    ],
     "ai_usage": null,
-    "words": 690
+    "words": 690,
+    "identifiers": [
+      "StyleExpr",
+      "HideValue",
+      "OnAfterGetCurrRecord",
+      "OnValidate",
+      "OnAfterGetRecord",
+      "OnInit",
+      "OnOpenPage",
+      "IsExportEnabled"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "client-expression",
+        "in-list",
+        "inlistexpression",
+        "al0573",
+        "al0322",
+        "enabled",
+        "visible",
+        "editable",
+        "dynamic-enable"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Enabled, Visible, Editable, and StyleExpr on page controls (the list is not exhaustive; HideValue is rejected the same way) can be bound to a client expression instead of a literal."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

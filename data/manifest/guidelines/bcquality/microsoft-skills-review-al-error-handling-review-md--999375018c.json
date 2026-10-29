@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-error-handling-review.md",
   "published_at": "2026-10-05T12:46:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:07:56.804Z",
+      "at": "2026-10-29T21:27:29.618Z",
       "blob": "2af0cf423273143040ff892fe38f667e4c27e58d",
       "words": 1733,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:29.929Z",
+      "path": "content/guidelines/microsoft/skills/review/al-error-handling-review.md"
     }
   },
   "input_hash": "2af0cf423273143040ff892fe38f667e4c27e58d",
@@ -31,7 +35,52 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1733
+    "words": 1733,
+    "identifiers": [
+      "OnValidate",
+      "OnInsert",
+      "OnModify",
+      "ErrorInfo",
+      "FieldError",
+      "TestField",
+      "DetailedMessage",
+      "AddAction",
+      "AddNavigationAction",
+      "RecordId",
+      "PageNo",
+      "ErrorBehavior",
+      "HasCollectedErrors",
+      "GetCollectedErrors",
+      "ClearCollectedErrors",
+      "ErrorType",
+      "TryFunction",
+      "GetLastErrorText",
+      "xRec",
+      "HttpClient",
+      "HttpResponseMessage",
+      "GetLastErrorCode",
+      "OnRun"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": null,
+      "keywords": [],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "skill",
+      "summary": "Reviews AL source changes against error-handling guidance from BCQuality."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

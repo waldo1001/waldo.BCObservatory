@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-ui-review.md",
   "published_at": "2026-10-06T11:30:59.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:56:04.687Z",
+      "at": "2026-10-29T21:27:26.928Z",
       "blob": "bd53a2cf9e2cb364c0131f0d860203693200b082",
       "words": 1805,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:27.388Z",
+      "path": "content/guidelines/microsoft/skills/review/al-ui-review.md"
     }
   },
   "input_hash": "bd53a2cf9e2cb364c0131f0d860203693200b082",
@@ -31,7 +35,70 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1805
+    "words": 1805,
+    "identifiers": [
+      "CardPageID",
+      "SubPageLink",
+      "AutoSplitKey",
+      "UsageCategory",
+      "PageType",
+      "ToolTip",
+      "AboutTitle",
+      "AboutText",
+      "OptionCaption",
+      "ShowCaption",
+      "InstructionalText",
+      "GridLayout",
+      "StyleExpr",
+      "PromotedCategory",
+      "PromotedOnly",
+      "PromotedIsBig",
+      "ShowAs",
+      "SplitButton",
+      "DropDown",
+      "UpdatePropagation",
+      "EnqueueBackgroundTask",
+      "OnAfterGetCurrRecord",
+      "OnAfterGetRecord",
+      "OnPageBackgroundTaskCompleted",
+      "OnPageBackgroundTaskError",
+      "RunPageBackgroundTask",
+      "innerHTML",
+      "createElement",
+      "XMLHttpRequest",
+      "xhrFields",
+      "withCredentials",
+      "InvokeExtensibilityMethod",
+      "skipIfBusy",
+      "successCallback",
+      "errorCallback",
+      "setInterval",
+      "ClientServicesMaxUploadSize",
+      "AccessByPermission",
+      "ReadPermission",
+      "WritePermission"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": null,
+      "keywords": [],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al",
+        "javascript"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "skill",
+      "summary": "Reviews AL page and control add-in UI files, and AL code that sends or recalls notifications, against UI text, caption, tooltip, notification, and accessibility guidance from BCQuality."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/list-page-document-routing-uses-page-management.md",
   "published_at": "2026-10-06T11:30:59.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:51:58.554Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:53:07.926Z",
+      "at": "2026-10-29T21:27:26.941Z",
       "blob": "3e16a2ccde03c4d2c606e807f0dedc5e5acb7eb4",
       "words": 539,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:27.607Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/list-page-document-routing-uses-page-management.md"
     }
   },
   "input_hash": "3e16a2ccde03c4d2c606e807f0dedc5e5acb7eb4",
@@ -25,13 +29,73 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/list-page-document-routing-uses-page-management.md",
-    "description": null,
+    "description": "Some tables back several document pages, chosen by a type field. Sales Header rows open as Sales Quote, Sales Order, Sales Invoice, Sales Credit Memo, Blanket Sales Order, or Sales Return Order, depending on Document Type. A list over such a table cannot use one CardPageID.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "page-management",
+      "pagerun",
+      "show-document",
+      "document-type",
+      "cardpageid",
+      "list-page",
+      "page-run",
+      "getconditionalcardpageid",
+      "onconditionalcardpageidnotfound"
+    ],
     "ai_usage": null,
-    "words": 539
+    "words": 539,
+    "identifiers": [
+      "CardPageID",
+      "GetPageID",
+      "GetConditionalCardPageID",
+      "GetConditionalListPageID",
+      "OnBeforeGetConditionalCardPageID",
+      "OnAfterGetPageID",
+      "OnPageRunAtFieldOnBeforeRunPage",
+      "PageRunModal",
+      "PageRunList",
+      "PageRun",
+      "GuiAllowed",
+      "OnConditionalCardPageIDNotFound",
+      "IsHandled",
+      "ShowSalesDoc",
+      "ShowPurchDoc",
+      "PageRunAtField",
+      "GetSalesHeaderPageID",
+      "ShowDocument"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "page-management",
+        "pagerun",
+        "show-document",
+        "document-type",
+        "cardpageid",
+        "list-page",
+        "page-run",
+        "getconditionalcardpageid",
+        "onconditionalcardpageidnotfound"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Some tables back several document pages, chosen by a type field. Sales Header rows open as Sales Quote, Sales Order, Sales Invoice, Sales Credit Memo, Blanket Sales Order, or Sales Return Order, depending on Document Type. A list over such a table cannot use one CardPageID."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

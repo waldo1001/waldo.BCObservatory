@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-testing-review.md",
   "published_at": "2026-10-06T11:30:37.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:58:18.026Z",
+      "at": "2026-10-29T21:27:27.994Z",
       "blob": "7e05c7004bcdddf4deaf907153bd18231955aa20",
       "words": 2450,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:28.455Z",
+      "path": "content/guidelines/microsoft/skills/review/al-testing-review.md"
     }
   },
   "input_hash": "7e05c7004bcdddf4deaf907153bd18231955aa20",
@@ -31,7 +35,69 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 2450
+    "words": 2450,
+    "identifiers": [
+      "RecordRef",
+      "TestIsolation",
+      "ExpectedError",
+      "ExpectedErrorCode",
+      "TestPermissions",
+      "NonRestrictive",
+      "TransactionModel",
+      "AutoRollback",
+      "AutoCommit",
+      "HandlerFunctions",
+      "ConfirmHandler",
+      "MessageHandler",
+      "StrMenuHandler",
+      "ModalPageHandler",
+      "SendNotificationHandler",
+      "RecallNotificationHandler",
+      "AssertEmpty",
+      "IsInitialized",
+      "OnTestInitialize",
+      "LibrarySetupStorage",
+      "LibraryVariableStorage",
+      "LibrarySales",
+      "LibraryPurchase",
+      "LibraryERM",
+      "LibraryInventory",
+      "LibraryRandom",
+      "LibraryUtility",
+      "GenerateGUID",
+      "GenerateRandomCode",
+      "IsEmpty",
+      "TestPage",
+      "OpenNew",
+      "OpenView",
+      "OpenEdit",
+      "ExpectedTestFieldError",
+      "IsFalse",
+      "OnAfterRemoveTableRelation",
+      "RemoveTableRelation",
+      "CopyStr",
+      "GenerateRandomCodeWithLength"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": null,
+      "keywords": [],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "skill",
+      "summary": "Performs an AL testing review against guidance from BCQuality."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

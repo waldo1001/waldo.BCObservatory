@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/changecompany-runs-triggers-in-the-calling-company.md",
   "published_at": "2026-10-02T09:35:11.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:09:50.012Z",
+      "at": "2026-10-29T21:27:30.018Z",
       "blob": "783fe81b5ca8180ba105263956a7bfa50cd64cc8",
       "words": 733,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:30.202Z",
+      "path": "content/guidelines/microsoft/knowledge/events/changecompany-runs-triggers-in-the-calling-company.md"
     }
   },
   "input_hash": "783fe81b5ca8180ba105263956a7bfa50cd64cc8",
@@ -25,13 +29,60 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/events/changecompany-runs-triggers-in-the-calling-company.md",
-    "description": null,
+    "description": "ChangeCompany redirects the data access of one record variable to another company's table. Execution context does not move with it: Microsoft Learn states that triggers still run in the current company, not in the company passed to ChangeCompany.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "changecompany",
+      "cross-company",
+      "runtrigger",
+      "trigger-event",
+      "subscriber",
+      "onafterinsertevent",
+      "insert",
+      "startsession",
+      "multi-company"
+    ],
     "ai_usage": null,
-    "words": 733
+    "words": 733,
+    "identifiers": [
+      "ChangeCompany",
+      "OnBeforeInsertEvent",
+      "OnAfterInsertEvent",
+      "RunTrigger",
+      "StartSession"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "events",
+      "keywords": [
+        "changecompany",
+        "cross-company",
+        "runtrigger",
+        "trigger-event",
+        "subscriber",
+        "onafterinsertevent",
+        "insert",
+        "startsession",
+        "multi-company"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "ChangeCompany redirects the data access of one record variable to another company's table. Execution context does not move with it: Microsoft Learn states that triggers still run in the current company, not in the company passed to ChangeCompany."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

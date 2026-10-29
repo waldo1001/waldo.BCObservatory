@@ -13,7 +13,7 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:10:16.809Z",
+      "at": "2026-10-29T21:27:35.133Z",
       "blob": "f2c8b1d6a2dacf576ae8f1467d921fd420cf5020",
       "words": 1549,
       "forms": 0
@@ -31,7 +31,67 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1549
+    "words": 1549,
+    "identifiers": [
+      "OnCheckPreconditionsPerCompany",
+      "PerDatabase",
+      "OnUpgradePerCompany",
+      "OnValidateUpgradePerCompany",
+      "OnInstallAppPerCompany",
+      "OnGetPerCompanyUpgradeTags",
+      "OnGetPerDatabaseUpgradeTags",
+      "UpdateData",
+      "AfterUpdate",
+      "HasUpgradeTag",
+      "SetUpgradeTag",
+      "OnCheckPreconditions",
+      "OnUpgrade",
+      "OnValidateUpgrade",
+      "OnInstallApp",
+      "DataTransfer",
+      "CopyFields",
+      "InitValue",
+      "ObsoleteState",
+      "ObsoleteReason",
+      "ObsoleteTag",
+      "ModuleInfo",
+      "AppVersion",
+      "DataVersion",
+      "ExecutionContext",
+      "ChangeCompany",
+      "PrimaryKey",
+      "HybridSL",
+      "HybridGP",
+      "HybridBC",
+      "HybridBaseDeployment",
+      "ModifyAll",
+      "DeleteAll",
+      "IsDataUpdateRequired",
+      "ReviewData",
+      "ToolTip",
+      "OptionCaption",
+      "DataClassification"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": null,
+      "keywords": [],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "skill",
+      "summary": "Reviews AL source changes against upgrade-code and migration guidance from BCQuality."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

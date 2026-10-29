@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-style-review.md",
   "published_at": "2026-10-19T10:48:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-20T00:22:39.348Z",
+      "at": "2026-10-29T21:27:26.456Z",
       "blob": "61125d5742ea59e29de340af398720d7fa66adfe",
       "words": 2046,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:26.916Z",
+      "path": "content/guidelines/microsoft/skills/review/al-style-review.md"
     }
   },
   "input_hash": "61125d5742ea59e29de340af398720d7fa66adfe",
@@ -60,7 +64,26 @@
       "DeleteAll",
       "ToolTip"
     ],
-    "identifiers_rule": 2
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": null,
+      "keywords": [],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "skill",
+      "summary": "Reviews AL source changes against naming, labelling, localization, and code-convention guidance from BCQuality."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

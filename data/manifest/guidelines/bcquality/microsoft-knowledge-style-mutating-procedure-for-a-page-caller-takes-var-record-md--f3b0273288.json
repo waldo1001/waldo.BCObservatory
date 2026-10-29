@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/mutating-procedure-for-a-page-caller-takes-var-record.md",
   "published_at": "2026-10-05T12:42:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:08:40.407Z",
+      "at": "2026-10-29T21:27:29.941Z",
       "blob": "29844ca244c7acb29d9b5232e2cde464429f0d12",
       "words": 664,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:30.138Z",
+      "path": "content/guidelines/microsoft/knowledge/style/mutating-procedure-for-a-page-caller-takes-var-record.md"
     }
   },
   "input_hash": "29844ca244c7acb29d9b5232e2cde464429f0d12",
@@ -25,13 +29,66 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/mutating-procedure-for-a-page-caller-takes-var-record.md",
-    "description": null,
+    "description": "AL passes parameters by value unless they are declared var, and a by-value Record parameter is a copy: changes the procedure makes \"affect only the copy, not the variable itself\" (Working with AL methods). Suppose a page/pageextension trigger hands a codeunit only a key (Rec.\"No.\")",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "var-record",
+      "by-reference",
+      "pass-by-value",
+      "record-parameter",
+      "page-action",
+      "re-fetch",
+      "stale-buffer",
+      "codeunit",
+      "modify"
+    ],
     "ai_usage": null,
-    "words": 664
+    "words": 664,
+    "identifiers": [
+      "TestField",
+      "OnAfterGetRecord",
+      "OnFindRecord",
+      "LockTable",
+      "ReadIsolation",
+      "SetRecFilter",
+      "RecordId",
+      "SystemId",
+      "RecordRef",
+      "FindSet",
+      "SetSelectionFilter"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "var-record",
+        "by-reference",
+        "pass-by-value",
+        "record-parameter",
+        "page-action",
+        "re-fetch",
+        "stale-buffer",
+        "codeunit",
+        "modify"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "AL passes parameters by value unless they are declared var, and a by-value Record parameter is a copy: changes the procedure makes \"affect only the copy, not the variable itself\" (Working with AL methods). Suppose a page/pageextension trigger hands a codeunit only a key (Rec.\"No.\")"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

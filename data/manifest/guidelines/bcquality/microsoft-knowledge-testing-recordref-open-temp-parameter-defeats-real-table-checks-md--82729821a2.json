@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/recordref-open-temp-parameter-defeats-real-table-checks.md",
   "published_at": "2026-10-06T11:30:37.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:51:58.554Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:57:07.057Z",
+      "at": "2026-10-29T21:27:27.394Z",
       "blob": "70d7c747758a6ffe3739a7f05e0574fd14b362a4",
       "words": 450,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:27.987Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/recordref-open-temp-parameter-defeats-real-table-checks.md"
     }
   },
   "input_hash": "70d7c747758a6ffe3739a7f05e0574fd14b362a4",
@@ -25,13 +29,61 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/testing/recordref-open-temp-parameter-defeats-real-table-checks.md",
-    "description": null,
+    "description": "RecordRef.Open(No: Integer [, Temp: Boolean] [, CompanyName: Text]) always takes a real table number. When Temp is true, though, the RecordRef refers to a temporary instance of that table. That instance starts empty and never contains the persisted rows.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "recordref",
+      "open",
+      "temporary",
+      "isempty",
+      "existence-check",
+      "uniqueness"
+    ],
     "ai_usage": null,
-    "words": 450
+    "words": 450,
+    "identifiers": [
+      "RecordRef",
+      "IsEmpty",
+      "LibraryUtility",
+      "GenerateRandomCode",
+      "SetView",
+      "GetFilter",
+      "SystemIdNo",
+      "FindFirst",
+      "FindLast",
+      "FindSet",
+      "GenerateRandomCodeWithLength",
+      "SplitLocalTableFilter"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "recordref",
+        "open",
+        "temporary",
+        "isempty",
+        "existence-check",
+        "uniqueness"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "RecordRef.Open(No: Integer [, Temp: Boolean] [, CompanyName: Text]) always takes a real table number. When Temp is true, though, the RecordRef refers to a temporary instance of that table. That instance starts empty and never contains the persisted rows."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

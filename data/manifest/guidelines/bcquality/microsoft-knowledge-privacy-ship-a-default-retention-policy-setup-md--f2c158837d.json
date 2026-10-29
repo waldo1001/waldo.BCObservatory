@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/ship-a-default-retention-policy-setup.md",
   "published_at": "2026-10-05T13:02:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:01:37.583Z",
+      "at": "2026-10-29T21:27:28.474Z",
       "blob": "b450b6f2a872829a137b717b8e47aff3f3920670",
       "words": 439,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:27:28.629Z",
+      "path": "content/guidelines/microsoft/knowledge/privacy/ship-a-default-retention-policy-setup.md"
     }
   },
   "input_hash": "b450b6f2a872829a137b717b8e47aff3f3920670",
@@ -25,13 +29,56 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/privacy/ship-a-default-retention-policy-setup.md",
-    "description": null,
+    "description": "AddAllowedTable only makes a table selectable on the Retention Policies page. Nothing is deleted until a Retention Policy Setup record exists for that table, names a Retention Period, and is enabled.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "retention-policy",
+      "retention-policy-setup",
+      "addallowedtable",
+      "findorcreateretentionperiod",
+      "retention-period",
+      "default-policy",
+      "unbounded-table-growth",
+      "opt-in-deletion",
+      "upgrade-tag"
+    ],
     "ai_usage": null,
-    "words": 439
+    "words": 439,
+    "identifiers": [
+      "AddAllowedTable"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "privacy",
+      "keywords": [
+        "retention-policy",
+        "retention-policy-setup",
+        "addallowedtable",
+        "findorcreateretentionperiod",
+        "retention-period",
+        "default-policy",
+        "unbounded-table-growth",
+        "opt-in-deletion",
+        "upgrade-tag"
+      ],
+      "bc_version": [
+        "22.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "AddAllowedTable only makes a table selectable on the Retention Policies page. Nothing is deleted until a Retention Policy Setup record exists for that table, names a Retention Period, and is enabled."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
