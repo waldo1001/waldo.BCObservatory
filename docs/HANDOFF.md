@@ -42,8 +42,9 @@ questions in its section 12).
   `--unlimited`, `--night-cap`, `--week-cap`) is kept out of the window: the run report's `llm.day_capped_usd` is what
   counts, `llm.day_cost_usd` stays the full day total, and `spend.week_before_uncapped_usd` shows what was left out.
   When the allowance runs out, the executor no longer stops: an item whose stage needs the LLM waits untouched
-  (`execution.llm_held`, `llm_exhausted_at_calls`) and fetch and caption stages go on; such a run ends `done`. The 10-29
-  and 10-30 nightlies are still inside the old window and stay blocked; from 10-31 the window counts $71.87 less.
+  (`execution.llm_held`, `llm_exhausted_at_calls`) and fetch and caption stages go on; such a run ends `done`. Once
+  deployed, the 25, 26 and 28 Oct override reports count as $0, so the window for the 10-30 run is about $46.56 and
+  it gets the full $15 allowance; the cap change alone (phase 1) would only unblock from 10-31 ($71.87 left out).
   The spec's own edits wait in `docs/built/spend-cap-catch-up.md` for the PR review. Operator steps (spec section 7):
   the next nightly on the Mini (01:00 Europe/Brussels, or `gh workflow run nightly.yml --ref main`) logs `spend window:`
   and its report `data/manifest/_runs/<date>.json` has `llm.day_capped_usd` and `spend.week_before_uncapped_usd`; the

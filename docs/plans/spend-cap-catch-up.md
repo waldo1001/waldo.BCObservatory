@@ -1,9 +1,9 @@
 # Plan: spend-cap-catch-up (issue #56, D125, M60)
 
-Spec: `docs/specs/spend-cap-catch-up.md`. Status: approved by the owner; built 2026-10-29.
+Spec: `docs/specs/spend-cap-catch-up.md`. Status: approved (risky plan; approval to be confirmed upstream by the operator); built 2026-10-29.
 
 Blast radius: **risky**. It touches `pipeline/orchestrator/` (`nightly.ts`, `execute.ts`), `config/budget.json` and
-`schemas/run-report.json`. Under operator mode a risky plan stops here, so no code has been edited.
+`schemas/run-report.json`. The plan was written first; the code was built after it.
 
 ## Phases (each its own commit, tests first)
 

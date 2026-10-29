@@ -144,6 +144,7 @@ test("D125 test 10: an item waiting for the youtube lane still runs after an LLM
   at(m, "VID3", "captioned");
   const yt: StageHandler = { lane: "youtube", run: async () => { await new Promise((res) => setTimeout(res, 10)); return {}; } };
   const r = await run(m, allVideo({ fetched: yt, extracted: exhausted }), { concurrency: 3 });
+  assert.ok(r.parked >= 1, "an item really waited behind the youtube lane");
   assert.equal(r.parked_left, 0);
   for (const k of ["VID2", "VID1"]) assert.deepEqual([get(m, k).state, get(m, k).attempts], ["captioned", 0]);
   assert.equal(r.stop_reason, "done");
