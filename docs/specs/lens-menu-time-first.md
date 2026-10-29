@@ -182,9 +182,9 @@ New: none.
 - [x] `MENU_GROUPS` starts with `["Time", "time", "Time"]`, then `["Version", "version", "Version"]`; the rest in the
       same order as before.
 - [x] The comments at `galaxy.ts:14-15` and `Galaxy.astro:6` list this week before the versions.
-- [ ] The site builds on Node 22; on the built home page the menu headings read `Time, Version, Type, Tier, Coverage,
+- [x] The site builds on Node 22; on the built home page the menu headings read `Time, Version, Type, Tier, Coverage,
       Country, Source`, and one Tab after the `Lenses` summary focuses `this week`. (Live site 2026-10-29: headings
-      verified; the Tab focus not checked, a deviation.)
+      verified; the first focusable element after the summary is the `this week` button.)
 - [x] Picking `this week` and `BC29` gives the same chip and hash as before (section 7, step 3). (Verified on the live
       site 2026-10-29.)
 - [x] D103 appended to docs/DECISIONS.md; PLAN M41 marked shipped; HANDOFF entry moved from "Open specs" to "Where
@@ -207,7 +207,8 @@ Deviations: none in the code. Operator steps open (not runnable in operator mode
 (`npm run site:build` with Node 22 first on PATH, spec section 7 step 2), the browser checks of step 3 and the live-site
 check of step 5. The comment at `galaxy.ts` is re-wrapped over three lines instead of two.
 
-**Review, 2026-10-29 (owner session, after PR #22 merged without the review step).** Moved this hand-over in from `docs/built/lens-menu-time-first.md`. Verified: `tests/unit/galaxy-core.test.ts` passes on `main`; on the live site (2026-10-29) the Lenses menu reads Time, Version, Type, Tier, Coverage, Country, Source; picking `this week` sets `#lens=landed` and `BC29` sets `#lens=version%3A29` with the chip "changed in BC29". Not checked: the one-Tab focus.
+**Review, 2026-10-29 (owner session, after PR #22 merged without the review step).** Moved this hand-over in from `docs/built/lens-menu-time-first.md`. Verified: `tests/unit/galaxy-core.test.ts` passes on `main`; on the live site (2026-10-29) the Lenses menu reads Time, Version, Type, Tier, Coverage, Country, Source; picking `this week` sets `#lens=landed` and `BC29` sets `#lens=version%3A29` with the chip "changed in BC29"; the first focusable element after the `Lenses` summary is the `this week`
+button.
 
 ## 13. Proposed edits to other files (applied 2026-10-21, see section 12)
 
