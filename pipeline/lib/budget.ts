@@ -132,15 +132,23 @@ function redact(text: string, token: string): string {
 // Own metering (D17). The usage guard sees the whole plan but has no durable token yet; metering works today
 // from each `claude -p` envelope (total_cost_usd, API-equivalent dollars) but sees only our own calls.
 // Caps are soft by at most the calls in flight (each is bounded by models.json max_budget_usd_per_call).
+// D125: spend of a run with a cap override (catch-up mode, --unlimited, --night-cap, --week-cap) is owner-approved
+// and is not counted against the night or week cap of later runs; it is still reported, as uncapped.
 
 export interface SpendCaps { night_usd: number; week_usd: number }
 export interface SpendHistory {
-  /** Spent earlier on the same run date (a manual re-run overwrites that report, so its spend carries over). */
+  /** Capped spend earlier on the same run date (a manual re-run overwrites that report, so its spend carries over). */
   today_usd: number;
-  /** Spent on the six run dates before today: with today, a rolling seven-day window. */
+  /** All spend earlier on the same run date, override runs included (reporting only). */
+  today_total_usd: number;
+  /** Capped spend on the six run dates before today: with today, a rolling seven-day window. */
   week_before_usd: number;
+  /** Override-run spend on those six dates, which the window does not count (reporting only). */
+  week_before_uncapped_usd: number;
 }
-export interface SpendAllowance extends SpendHistory {
+export interface SpendAllowance extends Pick<SpendHistory, "today_usd" | "week_before_usd"> {
+  today_total_usd?: number;
+  week_before_uncapped_usd?: number;
   night_cap_usd: number;
   week_cap_usd: number;
   /** Dollars this run may still spend; 0 means no LLM call may start. */
@@ -154,19 +162,33 @@ export function reportSpend(report: any): number {
   return typeof v === "number" && Number.isFinite(v) ? v : 0;
 }
 
-/** Sum spend from the committed run reports (data/manifest/_runs/<date>.json). Unreadable reports count as 0. */
-export function readSpendHistory(runsDir: string, date: string, days = 7): SpendHistory {
-  const read = (d: string) => {
-    const p = join(runsDir, `${d}.json`);
-    if (!existsSync(p)) return 0;
-    try { return reportSpend(JSON.parse(readFileSync(p, "utf8"))); } catch { return 0; }
-  };
-  let week = 0;
-  for (let i = 1; i < days; i++) week += read(shiftDate(date, -i));
-  return { today_usd: read(date), week_before_usd: week };
+/** Spend on one run date that counts against the caps (D125). */
+export function cappedSpend(report: any): number {
+  const c = report?.llm?.day_capped_usd;
+  if (typeof c === "number" && Number.isFinite(c)) return c;
+  if (report?.spend?.override === true) return 0; // legacy override report: the whole day was owner-approved
+  return reportSpend(report);
 }
 
-export function spendAllowance(caps: SpendCaps, h: SpendHistory): SpendAllowance {
+/** The day totals a run writes into its report's llm block (D125). */
+export function daySpend(h: SpendHistory, runCostUsd: number, override: boolean): { day_cost_usd: number; day_capped_usd: number } {
+  return { day_cost_usd: round(h.today_total_usd + runCostUsd), day_capped_usd: round(h.today_usd + (override ? 0 : runCostUsd)) };
+}
+
+/** Sum spend from the committed run reports (data/manifest/_runs/<date>.json). Unreadable reports count as 0. */
+export function readSpendHistory(runsDir: string, date: string, days = 7): SpendHistory {
+  const read = (d: string): { total: number; capped: number } => {
+    const p = join(runsDir, `${d}.json`);
+    if (!existsSync(p)) return { total: 0, capped: 0 };
+    try { const r = JSON.parse(readFileSync(p, "utf8")); return { total: reportSpend(r), capped: cappedSpend(r) }; } catch { return { total: 0, capped: 0 }; }
+  };
+  let capped = 0, total = 0;
+  for (let i = 1; i < days; i++) { const s = read(shiftDate(date, -i)); capped += s.capped; total += s.total; }
+  const today = read(date);
+  return { today_usd: today.capped, today_total_usd: today.total, week_before_usd: capped, week_before_uncapped_usd: round(total - capped) };
+}
+
+export function spendAllowance(caps: SpendCaps, h: Pick<SpendHistory, "today_usd" | "week_before_usd"> & Partial<SpendHistory>): SpendAllowance {
   const night = caps.night_usd - h.today_usd;
   const week = caps.week_usd - h.week_before_usd - h.today_usd;
   return {
