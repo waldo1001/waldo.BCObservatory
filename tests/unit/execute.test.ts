@@ -85,16 +85,68 @@ test("item errors back off and the run goes on; the fifth failure is final", asy
   assert.deepEqual([get(m, "VID2").state, r2.failed_final], ["failed", 1]);
 });
 
-test("spend cap stops cleanly without failing the item; infra errors abort", async () => {
+test("spend cap holds LLM stages without failing the item; deterministic stages go on; infra errors abort", async () => {
   const m = setup();
   const r = await run(m, allVideo({ extracted: async () => { throw new LlmBudgetExhausted(10, 10); } }));
-  assert.equal(r.stop_reason, "spend-cap");
+  assert.equal(r.stop_reason, "done", "D125: the allowance ending is not a run-level stop");
   assert.deepEqual([get(m, "VID2").state, get(m, "VID2").attempts], ["captioned", 0]);
-  assert.equal(get(m, "VID1").state, "discovered", "no new item starts after the cap");
+  assert.deepEqual([get(m, "VID1").state, get(m, "VID1").attempts], ["captioned", 0], "D125: its deterministic stages still ran");
+  assert.equal(r.llm_held, 2);
   const a = await run(m, allVideo({ extracted: async () => { throw new LlmInfraError("not logged in"); } }));
   assert.equal(a.stop_reason, "aborted");
   assert.equal(get(m, "VID2").attempts, 0);
   assert.equal(a.errors.length, 1);
+});
+
+/** Puts an item at `state`, with every stage up to it recorded, as after earlier nights. */
+function at(m: Manifest, key: string, state: "fetched" | "captioned") {
+  const done = state === "fetched" ? ["fetched"] : ["fetched", "captioned"];
+  const stages = Object.fromEntries(done.map((s) => [s, { at: "2026-10-06T00:00:00Z" }]));
+  m.save({ ...get(m, key), state, stages: { ...get(m, key).stages, ...stages } });
+}
+const exhausted = async (): Promise<never> => { throw new LlmBudgetExhausted(10, 10); };
+
+test("D125 test 7: LLM items wait untouched, deterministic items on the same night still advance", async () => {
+  const m = setup(3);
+  at(m, "VID3", "captioned"); // A: next stage needs the LLM
+  at(m, "VID1", "fetched");   // C: one deterministic stage, then the LLM
+  // B (VID2) has two deterministic stages and nothing after them
+  const h = allVideo({ extracted: { accepts: (it) => !it.id.endsWith("VID2"), run: exhausted } });
+  const r = await run(m, h);
+  assert.deepEqual([get(m, "VID3").state, get(m, "VID3").attempts], ["captioned", 0]);
+  assert.deepEqual([get(m, "VID2").state, get(m, "VID2").attempts], ["captioned", 0]);
+  assert.ok(get(m, "VID2").stages.fetched && get(m, "VID2").stages.captioned);
+  assert.deepEqual([get(m, "VID1").state, get(m, "VID1").attempts], ["captioned", 0]);
+  assert.deepEqual([r.stop_reason, r.llm_held, r.failed_attempts], ["done", 2, 0]);
+  assert.ok(r.llm_exhausted_at_calls !== undefined);
+});
+
+test("D125 test 8: a batch whose items all hit the allowance leaves them untouched and the next non-LLM item runs", async () => {
+  const m = setup(3);
+  at(m, "VID3", "captioned"); at(m, "VID2", "captioned");
+  const batch = { size: 8, run: async (items: ManifestItem[]) => new Map<string, Error>(items.map((i) => [i.id, new LlmBudgetExhausted(10, 10)])) };
+  const h = allVideo({ extracted: { accepts: (it) => !it.id.endsWith("VID1"), batch } });
+  const r = await run(m, h);
+  for (const k of ["VID3", "VID2"]) assert.deepEqual([get(m, k).state, get(m, k).attempts], ["captioned", 0]);
+  assert.equal(get(m, "VID1").state, "captioned", "the non-LLM item ran its stages after the batch");
+  assert.deepEqual([r.stop_reason, r.llm_held, r.failed_attempts], ["done", 2, 0]);
+});
+
+test("D125 test 9: an LlmInfraError still aborts the run", async () => {
+  const m = setup(2);
+  const r = await run(m, allVideo({ extracted: async () => { throw new LlmInfraError("not logged in"); } }));
+  assert.equal(r.stop_reason, "aborted");
+  assert.equal(r.errors.length, 1);
+});
+
+test("D125 test 10: an item waiting for the youtube lane still runs after an LLM item hit the allowance", async () => {
+  const m = setup(3);
+  at(m, "VID3", "captioned");
+  const yt: StageHandler = { lane: "youtube", run: async () => { await new Promise((res) => setTimeout(res, 10)); return {}; } };
+  const r = await run(m, allVideo({ fetched: yt, extracted: exhausted }), { concurrency: 3 });
+  assert.equal(r.parked_left, 0);
+  for (const k of ["VID2", "VID1"]) assert.deepEqual([get(m, k).state, get(m, k).attempts], ["captioned", 0]);
+  assert.equal(r.stop_reason, "done");
 });
 
 test("hard stop and llm_calls_max start no work", async () => {
