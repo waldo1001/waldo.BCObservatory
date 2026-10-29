@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/guard-database-reads.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.995Z",
+      "at": "2026-10-29T21:29:09.135Z",
       "blob": "09a99e339582e52d20cab1413c99c426e24bef43",
       "words": 154,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:09.265Z",
+      "path": "content/guidelines/microsoft/knowledge/upgrade/guard-database-reads.md"
     }
   },
   "input_hash": "09a99e339582e52d20cab1413c99c426e24bef43",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/upgrade/guard-database-reads.md",
-    "description": null,
+    "description": "Inside an upgrade codeunit (or any procedure transitively invoked from OnUpgradePerCompany / OnUpgradePerDatabase), an unguarded Record.Get, Record.FindSet, or Record.FindLast raises a runtime error when the row or set is missing.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "get",
+      "findset",
+      "findlast",
+      "guard",
+      "if-then",
+      "runtime-error"
+    ],
     "ai_usage": null,
-    "words": 154
+    "words": 154,
+    "identifiers": [
+      "OnUpgradePerCompany",
+      "OnUpgradePerDatabase"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "upgrade",
+      "keywords": [
+        "get",
+        "findset",
+        "findlast",
+        "guard",
+        "if-then",
+        "runtime-error"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Inside an upgrade codeunit (or any procedure transitively invoked from OnUpgradePerCompany / OnUpgradePerDatabase), an unguarded Record.Get, Record.FindSet, or Record.FindLast raises a runtime error when the row or set is missing."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

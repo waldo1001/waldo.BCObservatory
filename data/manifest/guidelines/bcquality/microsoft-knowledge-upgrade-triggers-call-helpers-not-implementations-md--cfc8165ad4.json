@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/triggers-call-helpers-not-implementations.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.043Z",
+      "at": "2026-10-29T21:29:10.482Z",
       "blob": "078e10903cba4552a165d49dfaaa598a22a1c938",
       "words": 170,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:10.566Z",
+      "path": "content/guidelines/microsoft/knowledge/upgrade/triggers-call-helpers-not-implementations.md"
     }
   },
   "input_hash": "078e10903cba4552a165d49dfaaa598a22a1c938",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/upgrade/triggers-call-helpers-not-implementations.md",
-    "description": null,
+    "description": "The OnUpgradePerCompany and OnUpgradePerDatabase triggers on an upgrade codeunit are dispatch points, not implementation slots. They should contain only calls to named local procedures — one call per feature being upgraded.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "on-upgrade-per-company",
+      "on-upgrade-per-database",
+      "trigger-body",
+      "helper-procedure",
+      "structure"
+    ],
     "ai_usage": null,
-    "words": 170
+    "words": 170,
+    "identifiers": [
+      "OnUpgradePerCompany",
+      "OnUpgradePerDatabase",
+      "ModifyAll"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "upgrade",
+      "keywords": [
+        "on-upgrade-per-company",
+        "on-upgrade-per-database",
+        "trigger-body",
+        "helper-procedure",
+        "structure"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The OnUpgradePerCompany and OnUpgradePerDatabase triggers on an upgrade codeunit are dispatch points, not implementation slots. They should contain only calls to named local procedures — one call per feature being upgraded."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

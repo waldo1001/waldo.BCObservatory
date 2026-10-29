@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/do-not-block-upgrade-on-data-errors.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.979Z",
+      "at": "2026-10-29T21:29:08.997Z",
       "blob": "868b61e07f621d78f554ee603b398823c85dd9ad",
       "words": 183,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:09.094Z",
+      "path": "content/guidelines/microsoft/knowledge/upgrade/do-not-block-upgrade-on-data-errors.md"
     }
   },
   "input_hash": "868b61e07f621d78f554ee603b398823c85dd9ad",
@@ -25,13 +29,46 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/upgrade/do-not-block-upgrade-on-data-errors.md",
-    "description": null,
+    "description": "When upgrade code encounters unexpected data — a record it expected to find, a relationship it assumed to be intact — the response is to log telemetry and continue, not to raise an error.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "error-handling",
+      "telemetry",
+      "session-logmessage",
+      "blocking",
+      "graceful"
+    ],
     "ai_usage": null,
-    "words": 183
+    "words": 183,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "upgrade",
+      "keywords": [
+        "error-handling",
+        "telemetry",
+        "session-logmessage",
+        "blocking",
+        "graceful"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "When upgrade code encounters unexpected data — a record it expected to find, a relationship it assumed to be intact — the response is to log telemetry and continue, not to raise an error."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

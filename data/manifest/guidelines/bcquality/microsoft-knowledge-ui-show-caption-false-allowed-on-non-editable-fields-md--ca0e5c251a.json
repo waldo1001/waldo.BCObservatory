@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/show-caption-false-allowed-on-non-editable-fields.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.911Z",
+      "at": "2026-10-29T21:29:07.362Z",
       "blob": "2b830bc3559ae0b26699c93907cb66b35e52de63",
       "words": 138,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:07.424Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/show-caption-false-allowed-on-non-editable-fields.md"
     }
   },
   "input_hash": "2b830bc3559ae0b26699c93907cb66b35e52de63",
@@ -25,13 +29,44 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/show-caption-false-allowed-on-non-editable-fields.md",
-    "description": null,
+    "description": "When a field is explicitly non-editable (Editable = false), it serves as content rather than as a form field. In that case, ShowCaption = false is acceptable: there is no input control whose label could be lost.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "show-caption",
+      "non-editable",
+      "content",
+      "accessibility"
+    ],
     "ai_usage": null,
-    "words": 138
+    "words": 138,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "show-caption",
+        "non-editable",
+        "content",
+        "accessibility"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "When a field is explicitly non-editable (Editable = false), it serves as content rather than as a form field. In that case, ShowCaption = false is acceptable: there is no input control whose label could be lost."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/showmandatory-on-code-required-page-fields.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.931Z",
+      "at": "2026-10-29T21:29:07.578Z",
       "blob": "eeffc0781d58a641a6c76b5d399699533d814f81",
       "words": 494,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:07.730Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/showmandatory-on-code-required-page-fields.md"
     }
   },
   "input_hash": "eeffc0781d58a641a6c76b5d399699533d814f81",
@@ -25,13 +29,58 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/showmandatory-on-code-required-page-fields.md",
-    "description": null,
+    "description": "ShowMandatory draws the red asterisk on a page field and, per the platform documentation, enforces no validation.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "showmandatory",
+      "notblank",
+      "mandatory-field",
+      "red-asterisk",
+      "delayedinsert",
+      "testfield",
+      "page-field"
+    ],
     "ai_usage": null,
-    "words": 494
+    "words": 494,
+    "identifiers": [
+      "ShowMandatory",
+      "TestField",
+      "OnInsert",
+      "OnModify",
+      "NotBlank",
+      "OnInsertRecord",
+      "OnValidate"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "showmandatory",
+        "notblank",
+        "mandatory-field",
+        "red-asterisk",
+        "delayedinsert",
+        "testfield",
+        "page-field"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "ShowMandatory draws the red asterisk on a page field and, per the platform documentation, enforces no validation."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

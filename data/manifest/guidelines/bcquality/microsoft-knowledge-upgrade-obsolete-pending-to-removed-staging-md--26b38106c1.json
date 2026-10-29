@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/obsolete-pending-to-removed-staging.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.021Z",
+      "at": "2026-10-29T21:29:09.941Z",
       "blob": "64a54f264cbf7ce17aa94ebeb36e457fce20f381",
       "words": 239,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:10.003Z",
+      "path": "content/guidelines/microsoft/knowledge/upgrade/obsolete-pending-to-removed-staging.md"
     }
   },
   "input_hash": "64a54f264cbf7ce17aa94ebeb36e457fce20f381",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/upgrade/obsolete-pending-to-removed-staging.md",
-    "description": null,
+    "description": "ObsoleteState has a deliberate two-step lifecycle. Pending keeps the element compilable and present — callers still find it but receive a deprecation warning.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "obsolete-state",
+      "pending",
+      "removed",
+      "lifecycle",
+      "clean-flag",
+      "upgrade-code-timing"
+    ],
     "ai_usage": null,
-    "words": 239
+    "words": 239,
+    "identifiers": [
+      "ObsoleteState"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "upgrade",
+      "keywords": [
+        "obsolete-state",
+        "pending",
+        "removed",
+        "lifecycle",
+        "clean-flag",
+        "upgrade-code-timing"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "ObsoleteState has a deliberate two-step lifecycle. Pending keeps the element compilable and present — callers still find it but receive a deprecation warning."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

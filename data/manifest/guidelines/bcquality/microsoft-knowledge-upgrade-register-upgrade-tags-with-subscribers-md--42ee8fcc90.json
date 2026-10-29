@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/register-upgrade-tags-with-subscribers.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.032Z",
+      "at": "2026-10-29T21:29:09.949Z",
       "blob": "0bba7c275daa5df09ce4d52da32db0ef1b674b63",
       "words": 235,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:10.088Z",
+      "path": "content/guidelines/microsoft/knowledge/upgrade/register-upgrade-tags-with-subscribers.md"
     }
   },
   "input_hash": "0bba7c275daa5df09ce4d52da32db0ef1b674b63",
@@ -25,13 +29,54 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/upgrade/register-upgrade-tags-with-subscribers.md",
-    "description": null,
+    "description": "SetUpgradeTag(Tag) directly records a completed per-company upgrade step; HasUpgradeTag(Tag) can then guard that step on later upgrades.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "upgrade-tag",
+      "event-subscriber",
+      "on-get-per-company-upgrade-tags",
+      "on-get-per-database-upgrade-tags",
+      "registration"
+    ],
     "ai_usage": null,
-    "words": 235
+    "words": 235,
+    "identifiers": [
+      "OnGetPerCompanyUpgradeTags",
+      "SetUpgradeTag",
+      "SetAllUpgradeTags",
+      "HasDatabaseUpgradeTag",
+      "SetDatabaseUpgradeTag",
+      "HasUpgradeTag",
+      "OnInstallAppPerCompany"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "upgrade",
+      "keywords": [
+        "upgrade-tag",
+        "event-subscriber",
+        "on-get-per-company-upgrade-tags",
+        "on-get-per-database-upgrade-tags",
+        "registration"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "SetUpgradeTag(Tag) directly records a completed per-company upgrade step; HasUpgradeTag(Tag) can then guard that step on later upgrades."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

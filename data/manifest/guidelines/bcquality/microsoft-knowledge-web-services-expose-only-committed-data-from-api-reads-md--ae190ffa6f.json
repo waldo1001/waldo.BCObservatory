@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/expose-only-committed-data-from-api-reads.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.069Z",
+      "at": "2026-10-29T21:29:15.111Z",
       "blob": "4337b41655b76755c526edd7e737b42dc47a7d3a",
       "words": 284,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:15.278Z",
+      "path": "content/guidelines/microsoft/knowledge/web-services/expose-only-committed-data-from-api-reads.md"
     }
   },
   "input_hash": "4337b41655b76755c526edd7e737b42dc47a7d3a",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/web-services/expose-only-committed-data-from-api-reads.md",
-    "description": null,
+    "description": "This is about the data-consistency contract of an API endpoint: what a consumer receives when it reads. By default an API read can return in-flight rows that a concurrent, still-open transaction has written but not yet committed.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "api-page",
+      "readisolation",
+      "isolationlevel",
+      "readcommitted",
+      "onopenpage",
+      "dirty-read",
+      "committed-data"
+    ],
     "ai_usage": null,
-    "words": 284
+    "words": 284,
+    "identifiers": [
+      "OnOpenPage"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "web-services",
+      "keywords": [
+        "api-page",
+        "readisolation",
+        "isolationlevel",
+        "readcommitted",
+        "onopenpage",
+        "dirty-read",
+        "committed-data"
+      ],
+      "bc_version": [
+        "22.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "This is about the data-consistency contract of an API endpoint: what a consumer receives when it reads. By default an API read can return in-flight rows that a concurrent, still-open transaction has written but not yet committed."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

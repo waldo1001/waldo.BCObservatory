@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/show-caption-in-promptdialog-prompt-area.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.916Z",
+      "at": "2026-10-29T21:29:07.385Z",
       "blob": "b1702056919b9afccdb58c0234f6605ee3e9d3e6",
       "words": 107,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:07.539Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/show-caption-in-promptdialog-prompt-area.md"
     }
   },
   "input_hash": "b1702056919b9afccdb58c0234f6605ee3e9d3e6",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/show-caption-in-promptdialog-prompt-area.md",
-    "description": null,
+    "description": "On PageType = PromptDialog pages, input fields inside area(Prompt) are labeled by the dialog's heading — the page Caption. Setting ShowCaption = false on such an input field is the standard pattern and should not be flagged, provided the page has a Caption.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "show-caption",
+      "promptdialog",
+      "copilot",
+      "prompt",
+      "accessibility"
+    ],
     "ai_usage": null,
-    "words": 107
+    "words": 107,
+    "identifiers": [
+      "ShowCaption"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "show-caption",
+        "promptdialog",
+        "copilot",
+        "prompt",
+        "accessibility"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "On PageType = PromptDialog pages, input fields inside area(Prompt) are labeled by the dialog's heading — the page Caption. Setting ShowCaption = false on such an input field is the standard pattern and should not be flagged, provided the page has a Caption."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

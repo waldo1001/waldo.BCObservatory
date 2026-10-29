@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/enum-values-additive-at-end.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.984Z",
+      "at": "2026-10-29T21:29:08.992Z",
       "blob": "332efa6b91d5116a01f184e8540e9e907ee647a0",
       "words": 213,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:09.083Z",
+      "path": "content/guidelines/microsoft/knowledge/upgrade/enum-values-additive-at-end.md"
     }
   },
   "input_hash": "332efa6b91d5116a01f184e8540e9e907ee647a0",
@@ -25,13 +29,52 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/upgrade/enum-values-additive-at-end.md",
-    "description": null,
+    "description": "An AL enum is a fixed list of ordinal-named values. Persisted rows reference enum members by ordinal, not by name. The only enum mutation that preserves the meaning of every existing row is appending a new value at the end — every previously valid ordinal still maps to the same member.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "enum",
+      "ordinal",
+      "additive",
+      "append",
+      "backward-compatible",
+      "breaking-change"
+    ],
     "ai_usage": null,
-    "words": 213
+    "words": 213,
+    "identifiers": [
+      "ObsoleteReason",
+      "ObsoleteTag",
+      "NewMiddleValue"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "upgrade",
+      "keywords": [
+        "enum",
+        "ordinal",
+        "additive",
+        "append",
+        "backward-compatible",
+        "breaking-change"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An AL enum is a fixed list of ordinal-named values. Persisted rows reference enum members by ordinal, not by name. The only enum mutation that preserves the meaning of every existing row is appending a new value at the end — every previously valid ordinal still maps to the same member."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

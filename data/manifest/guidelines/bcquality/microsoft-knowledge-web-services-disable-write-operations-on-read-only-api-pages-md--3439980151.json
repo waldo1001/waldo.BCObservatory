@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/disable-write-operations-on-read-only-api-pages.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.064Z",
+      "at": "2026-10-29T21:29:15.115Z",
       "blob": "8f6a73c88a7a8660e1e33425127abfdf84f5f85b",
       "words": 256,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:15.369Z",
+      "path": "content/guidelines/microsoft/knowledge/web-services/disable-write-operations-on-read-only-api-pages.md"
     }
   },
   "input_hash": "8f6a73c88a7a8660e1e33425127abfdf84f5f85b",
@@ -25,13 +29,54 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/web-services/disable-write-operations-on-read-only-api-pages.md",
-    "description": null,
+    "description": "An API meant purely for reading — a reporting or lookup endpoint — is not read-only just because nobody intends to write to it.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "api-page",
+      "insertallowed",
+      "modifyallowed",
+      "deleteallowed",
+      "editable",
+      "read-only",
+      "reporting-api"
+    ],
     "ai_usage": null,
-    "words": 256
+    "words": 256,
+    "identifiers": [
+      "InsertAllowed",
+      "ModifyAllowed",
+      "DeleteAllowed"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "web-services",
+      "keywords": [
+        "api-page",
+        "insertallowed",
+        "modifyallowed",
+        "deleteallowed",
+        "editable",
+        "read-only",
+        "reporting-api"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An API meant purely for reading — a reporting or lookup endpoint — is not read-only just because nobody intends to write to it."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

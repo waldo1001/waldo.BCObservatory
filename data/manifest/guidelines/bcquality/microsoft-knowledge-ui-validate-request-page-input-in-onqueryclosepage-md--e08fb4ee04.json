@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/validate-request-page-input-in-onqueryclosepage.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.951Z",
+      "at": "2026-10-29T21:29:08.218Z",
       "blob": "d7968278fd786d407f3f5467050a8e211ebb7624",
       "words": 443,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:08.350Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/validate-request-page-input-in-onqueryclosepage.md"
     }
   },
   "input_hash": "d7968278fd786d407f3f5467050a8e211ebb7624",
@@ -25,13 +29,57 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/validate-request-page-input-in-onqueryclosepage.md",
-    "description": null,
+    "description": "OnPreReport runs after the request page has closed and before the data items are processed. A validation error raised there aborts the run with the request page already gone: everything the user typed is lost, and the only way forward is to open the report again and retype it.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "request-page",
+      "onqueryclosepage",
+      "onprereport",
+      "closeaction",
+      "mandatory-input",
+      "report-validation",
+      "job-queue"
+    ],
     "ai_usage": null,
-    "words": 443
+    "words": 443,
+    "identifiers": [
+      "OnPreReport",
+      "OnQueryClosePage",
+      "OnPreDataItem",
+      "ShowMandatory",
+      "TestField",
+      "CloseAction"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "request-page",
+        "onqueryclosepage",
+        "onprereport",
+        "closeaction",
+        "mandatory-input",
+        "report-validation",
+        "job-queue"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "OnPreReport runs after the request page has closed and before the data items are processed. A validation error raised there aborts the run with the request page already gone: everything the user typed is lost, and the only way forward is to open the report again and retype it."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

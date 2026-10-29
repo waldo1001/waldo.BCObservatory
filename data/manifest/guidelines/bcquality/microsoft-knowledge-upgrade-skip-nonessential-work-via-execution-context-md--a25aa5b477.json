@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/skip-nonessential-work-via-execution-context.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.037Z",
+      "at": "2026-10-29T21:29:10.383Z",
       "blob": "c4558b76314576ebc19a636cebcd7ca9740da081",
       "words": 194,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:10.451Z",
+      "path": "content/guidelines/microsoft/knowledge/upgrade/skip-nonessential-work-via-execution-context.md"
     }
   },
   "input_hash": "c4558b76314576ebc19a636cebcd7ca9740da081",
@@ -25,13 +29,46 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/upgrade/skip-nonessential-work-via-execution-context.md",
-    "description": null,
+    "description": "Runtime procedures (table triggers, install routines, helpers called from many places) sometimes fire during the upgrade window because the upgrade itself touches the data they react to.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "get-execution-context",
+      "execution-context-upgrade",
+      "skip",
+      "report-selection",
+      "runtime-trigger"
+    ],
     "ai_usage": null,
-    "words": 194
+    "words": 194,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "upgrade",
+      "keywords": [
+        "get-execution-context",
+        "execution-context-upgrade",
+        "skip",
+        "report-selection",
+        "runtime-trigger"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Runtime procedures (table triggers, install routines, helpers called from many places) sometimes fire during the upgrade window because the upgrade itself touches the data they react to."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

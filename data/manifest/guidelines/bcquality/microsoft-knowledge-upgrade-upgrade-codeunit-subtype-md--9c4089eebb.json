@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/upgrade-codeunit-subtype.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.048Z",
+      "at": "2026-10-29T21:29:15.138Z",
       "blob": "8bf558dc8f0d3e92d54670aa1652ccd7a8894280",
       "words": 188,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:15.446Z",
+      "path": "content/guidelines/microsoft/knowledge/upgrade/upgrade-codeunit-subtype.md"
     }
   },
   "input_hash": "8bf558dc8f0d3e92d54670aa1652ccd7a8894280",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/upgrade/upgrade-codeunit-subtype.md",
-    "description": null,
+    "description": "A codeunit only participates in the upgrade pipeline when it sets Subtype = Upgrade. The platform then permits and dispatches the OnUpgradePerCompany and OnUpgradePerDatabase triggers on that codeunit during upgrade.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "upgrade-codeunit",
+      "subtype",
+      "on-upgrade-per-company",
+      "on-upgrade-per-database",
+      "trigger"
+    ],
     "ai_usage": null,
-    "words": 188
+    "words": 188,
+    "identifiers": [
+      "OnUpgradePerCompany",
+      "OnUpgradePerDatabase",
+      "RunUpgrade"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "upgrade",
+      "keywords": [
+        "upgrade-codeunit",
+        "subtype",
+        "on-upgrade-per-company",
+        "on-upgrade-per-database",
+        "trigger"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A codeunit only participates in the upgrade pipeline when it sets Subtype = Upgrade. The platform then permits and dispatches the OnUpgradePerCompany and OnUpgradePerDatabase triggers on that codeunit during upgrade."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

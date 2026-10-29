@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/breaking-changes-only-on-tables-without-data.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.957Z",
+      "at": "2026-10-29T21:29:08.373Z",
       "blob": "5efc751f78eb90c6b715550a6ca65d3ab406cab2",
       "words": 236,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:08.502Z",
+      "path": "content/guidelines/microsoft/knowledge/upgrade/breaking-changes-only-on-tables-without-data.md"
     }
   },
   "input_hash": "5efc751f78eb90c6b715550a6ca65d3ab406cab2",
@@ -25,13 +29,49 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/upgrade/breaking-changes-only-on-tables-without-data.md",
-    "description": null,
+    "description": "Primary-key changes and field-type changes (for example widening Integer to BigInteger) rewrite the on-disk layout of every row in the table. On a new feature table that ships in the same change as the modification, no rows exist and the change is free.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "primary-key",
+      "field-type",
+      "breaking-change",
+      "integer-to-biginteger",
+      "existing-data"
+    ],
     "ai_usage": null,
-    "words": 236
+    "words": 236,
+    "identifiers": [
+      "BigInteger",
+      "DataTransfer"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "upgrade",
+      "keywords": [
+        "primary-key",
+        "field-type",
+        "breaking-change",
+        "integer-to-biginteger",
+        "existing-data"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Primary-key changes and field-type changes (for example widening Integer to BigInteger) rewrite the on-disk layout of every row in the table. On a new feature table that ships in the same change as the modification, no rows exist and the change is free."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

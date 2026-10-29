@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/standalone-content-in-layout-table.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.936Z",
+      "at": "2026-10-29T21:29:07.562Z",
       "blob": "63f8d580d2840fedb169f3fc08f0c979d2f29bfb",
       "words": 135,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:07.739Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/standalone-content-in-layout-table.md"
     }
   },
   "input_hash": "63f8d580d2840fedb169f3fc08f0c979d2f29bfb",
@@ -25,13 +29,48 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/standalone-content-in-layout-table.md",
-    "description": null,
+    "description": "A non-editable field with ShowCaption = false is acceptable inside a layout-table grid only when the field is standalone content — it displays a value that is meaningful on its own (for example a status message or a description) and is not intended to label or be labeled by another field in the…",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "grid",
+      "fixed",
+      "layout-table",
+      "standalone-content",
+      "show-caption",
+      "accessibility"
+    ],
     "ai_usage": null,
-    "words": 135
+    "words": 135,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "grid",
+        "fixed",
+        "layout-table",
+        "standalone-content",
+        "show-caption",
+        "accessibility"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A non-editable field with ShowCaption = false is acceptable inside a layout-table grid only when the field is standalone content — it displays a value that is meaningful on its own (for example a status message or a description) and is not intended to label or be labeled by another field in the…"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

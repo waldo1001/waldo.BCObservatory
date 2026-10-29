@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/first-install-dataversion-zero-check.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.989Z",
+      "at": "2026-10-29T21:29:09.106Z",
       "blob": "5cbdec8c4f890de44c906c742309f2f4babedf2d",
       "words": 158,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:09.237Z",
+      "path": "content/guidelines/microsoft/knowledge/upgrade/first-install-dataversion-zero-check.md"
     }
   },
   "input_hash": "5cbdec8c4f890de44c906c742309f2f4babedf2d",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/upgrade/first-install-dataversion-zero-check.md",
-    "description": null,
+    "description": "On the first install of an extension on a tenant the platform records a zero data version: AppInfo.DataVersion() returns Version.Create('0.0.0.0'). During reinstall, DataVersion() identifies the previously installed data version.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "dataversion",
+      "first-install",
+      "on-install-app-per-company",
+      "moduleinfo",
+      "zero-version"
+    ],
     "ai_usage": null,
-    "words": 158
+    "words": 158,
+    "identifiers": [
+      "OnInstallAppPerCompany",
+      "ModuleInfo",
+      "DataVersion"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "upgrade",
+      "keywords": [
+        "dataversion",
+        "first-install",
+        "on-install-app-per-company",
+        "moduleinfo",
+        "zero-version"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "On the first install of an extension on a tenant the platform records a zero data version: AppInfo.DataVersion() returns Version.Create('0.0.0.0'). During reinstall, DataVersion() identifies the previously installed data version."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

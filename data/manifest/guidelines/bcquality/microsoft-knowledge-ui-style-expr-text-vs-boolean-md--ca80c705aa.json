@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/style-expr-text-vs-boolean.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:45.941Z",
+      "at": "2026-10-29T21:29:08.180Z",
       "blob": "720423bbb8a81b941b78f501102876afa1425a9d",
       "words": 176,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:08.269Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/style-expr-text-vs-boolean.md"
     }
   },
   "input_hash": "720423bbb8a81b941b78f501102876afa1425a9d",
@@ -25,13 +29,50 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/ui/style-expr-text-vs-boolean.md",
-    "description": null,
+    "description": "StyleExpr on a page field serves two distinct purposes depending on its type:",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "style-expr",
+      "style",
+      "boolean",
+      "text-variable",
+      "accessibility"
+    ],
     "ai_usage": null,
-    "words": 176
+    "words": 176,
+    "identifiers": [
+      "StyleExpr",
+      "OnAfterGetRecord",
+      "OnAfterGetCurrRecord"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "style-expr",
+        "style",
+        "boolean",
+        "text-variable",
+        "accessibility"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "StyleExpr on a page field serves two distinct purposes depending on its type:"
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

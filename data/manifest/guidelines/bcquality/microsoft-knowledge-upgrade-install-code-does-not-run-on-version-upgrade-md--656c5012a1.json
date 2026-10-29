@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/install-code-does-not-run-on-version-upgrade.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.005Z",
+      "at": "2026-10-29T21:29:09.702Z",
       "blob": "52c39891c1161bd6960e9b9b23c76505dd30def1",
       "words": 119,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:09.786Z",
+      "path": "content/guidelines/microsoft/knowledge/upgrade/install-code-does-not-run-on-version-upgrade.md"
     }
   },
   "input_hash": "52c39891c1161bd6960e9b9b23c76505dd30def1",
@@ -25,13 +29,51 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/upgrade/install-code-does-not-run-on-version-upgrade.md",
-    "description": null,
+    "description": "An install codeunit runs when an extension is installed for the first time or an uninstalled version is installed again. Installing a higher extension version through the data-upgrade operation does not invoke OnInstallAppPerCompany or OnInstallAppPerDatabase.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "install-codeunit",
+      "subtype-install",
+      "on-install-app",
+      "version-upgrade",
+      "upgrade-codeunit"
+    ],
     "ai_usage": null,
-    "words": 119
+    "words": 119,
+    "identifiers": [
+      "OnInstallAppPerCompany",
+      "OnInstallAppPerDatabase",
+      "OnUpgradePerCompany",
+      "OnUpgradePerDatabase"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "upgrade",
+      "keywords": [
+        "install-codeunit",
+        "subtype-install",
+        "on-install-app",
+        "version-upgrade",
+        "upgrade-codeunit"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An install codeunit runs when an extension is installed for the first time or an uninstalled version is installed again. Installing a higher extension version through the data-upgrade operation does not invoke OnInstallAppPerCompany or OnInstallAppPerDatabase."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,

@@ -7,16 +7,20 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/minimize-onvalidate-upgrade-triggers.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.011Z",
+      "at": "2026-10-29T21:29:09.793Z",
       "blob": "3095655d3ddc8f20fd9b48de587641fc1bf23f3c",
       "words": 112,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-29T21:29:09.863Z",
+      "path": "content/guidelines/microsoft/knowledge/upgrade/minimize-onvalidate-upgrade-triggers.md"
     }
   },
   "input_hash": "3095655d3ddc8f20fd9b48de587641fc1bf23f3c",
@@ -25,13 +29,49 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/upgrade/minimize-onvalidate-upgrade-triggers.md",
-    "description": null,
+    "description": "Triggers such as OnValidateUpgradePerCompany run on every upgrade pass. A full-table scan or cross-table validation therefore adds cost to every upgrade of every tenant. Validation is a read-only lifecycle check, so it cannot make itself one-time by writing an upgrade tag.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "on-validate-upgrade-per-company",
+      "performance-impact",
+      "bounded-query",
+      "justification",
+      "read-only-check"
+    ],
     "ai_usage": null,
-    "words": 112
+    "words": 112,
+    "identifiers": [
+      "OnValidateUpgradePerCompany",
+      "IsEmpty"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "upgrade",
+      "keywords": [
+        "on-validate-upgrade-per-company",
+        "performance-impact",
+        "bounded-query",
+        "justification",
+        "read-only-check"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Triggers such as OnValidateUpgradePerCompany run on every upgrade pass. A full-table scan or cross-table validation therefore adds cost to every upgrade of every tenant. Validation is a read-only lifecycle check, so it cannot make itself one-time by writing an upgrade tag."
+    },
+    "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
