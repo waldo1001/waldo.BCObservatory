@@ -6,13 +6,11 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "The Qlty. Edit Large Text page is now accessible to extensions for customization and reuse in Quality Management workflows.",
+  "summary": "Backport to BC29 of an extensibility request: a large text modal helper on page 20441 Qlty. Edit Large Text in Quality Management is exposed so extensions can use it.",
   "key_points": [
-    "Page 20441 'Qlty. Edit Large Text' exposure for extensibility",
-    "Backport to BC29 releases",
-    "Enables external developers to extend large text modal functionality",
-    "Quality Management utilities enhancement",
-    "Part of extensibility request fulfillment"
+    "One-line change on page 20441 Qlty. Edit Large Text",
+    "Exposes the large text modal helper to extensions",
+    "Backport of PR 11046 to releases/29.x for issue 10889"
   ],
   "change_kind": "feature",
   "behavior_change": false,

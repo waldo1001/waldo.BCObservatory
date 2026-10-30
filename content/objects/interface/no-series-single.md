@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:42:34.480Z"
+  at: "2026-10-30T01:00:43.748Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 94c58ee6acd5c7f17f2bcd0c489d62604b07ed405e777f009430185d1e9e4f67
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Business%20Foundation/App/NoSeries/src/Single/NoSeriesSingle.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Business%20Foundation/App/NoSeries/src/Single/NoSeriesSingle.Interface.al
     title: src/Business Foundation/App/NoSeries/src/Single/NoSeriesSingle.Interface.al (releases/29.x)
     date: null
-    commit: 4c1c1638beb6d5da8540cc1f61889b80c7b3356f
+    commit: 7aa49e808916c060dbee97d9ff324a2cfda8d422
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Interface "No. Series - Single" in Business Foundation (Microsoft.Foundation.NoSeries). 4 public procedures. Introduced in BC24, still in BC30.
 
-Business Foundation · Microsoft.Foundation.NoSeries · BC24-30 · [source at 4c1c1638](https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Business%20Foundation/App/NoSeries/src/Single/NoSeriesSingle.Interface.al) · facts from BC29
+Business Foundation · Microsoft.Foundation.NoSeries · BC24-30 · [source at 7aa49e80](https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Business%20Foundation/App/NoSeries/src/Single/NoSeriesSingle.Interface.al) · facts from BC29
 
 ## Procedures
 

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:42:34.480Z"
+  at: "2026-10-30T01:00:43.748Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2cb4beea9cdddbcb72617253e964413b155cb2d9c158f12e7e21dfaf18c1463f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/System%20Application/App/ControlAddIns/src/SatisfactionSurveyAsync.ControlAddIn.al
+    url: https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/System%20Application/App/ControlAddIns/src/SatisfactionSurveyAsync.ControlAddIn.al
     title: src/System Application/App/ControlAddIns/src/SatisfactionSurveyAsync.ControlAddIn.al (releases/29.x)
     date: null
-    commit: 4c1c1638beb6d5da8540cc1f61889b80c7b3356f
+    commit: 7aa49e808916c060dbee97d9ff324a2cfda8d422
     t: null
     quote: null
 links:
@@ -86,7 +86,7 @@ relations:
 
 > Control add-in "SatisfactionSurveyAsync" in System Application (System.Feedback). 1 public procedures. Present since at least BC23, still in BC30, changed in BC24, BC28. Obsolete (Pending since 28.0).
 
-System Application · System.Feedback · BC23-30 · [source at 4c1c1638](https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/System%20Application/App/ControlAddIns/src/SatisfactionSurveyAsync.ControlAddIn.al) · facts from BC29
+System Application · System.Feedback · BC23-30 · [source at 7aa49e80](https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/System%20Application/App/ControlAddIns/src/SatisfactionSurveyAsync.ControlAddIn.al) · facts from BC29
 
 ## Properties
 

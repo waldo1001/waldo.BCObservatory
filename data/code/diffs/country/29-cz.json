@@ -1,4 +1,4 @@
-{"inputs":[7,["4c1c1638beb6d5da8540cc1f61889b80c7b3356f","4c1c1638beb6d5da8540cc1f61889b80c7b3356f","4",[],9474,1777]],"schema":"al-diff@1","kind":"country","from":{"version":"29","country":"w1","commit":"4c1c1638beb6d5da8540cc1f61889b80c7b3356f"},"to":{"version":"29","country":"cz","commit":"4c1c1638beb6d5da8540cc1f61889b80c7b3356f"},"summary":{"objects":1777,"by_change":{"added":{"codeunit":401,"enum":71,"enumextension":35,"interface":4,"page":177,"pageextension":434,"permissionset":27,"permissionsetextension":80,"profile":2,"query":1,"report":133,"reportextension":17,"table":105,"tableextension":275,"xmlport":7},"replaced":{"codeunit":1,"table":7}},"fields_added":6,"events_added":0,"procedures_added":0,"objects_obsoleted":0},"objects":[
+{"inputs":[7,["7aa49e808916c060dbee97d9ff324a2cfda8d422","7aa49e808916c060dbee97d9ff324a2cfda8d422","4",[],9474,1781]],"schema":"al-diff@1","kind":"country","from":{"version":"29","country":"w1","commit":"7aa49e808916c060dbee97d9ff324a2cfda8d422"},"to":{"version":"29","country":"cz","commit":"7aa49e808916c060dbee97d9ff324a2cfda8d422"},"summary":{"objects":1781,"by_change":{"added":{"codeunit":401,"enum":73,"enumextension":35,"interface":4,"page":178,"pageextension":434,"permissionset":27,"permissionsetextension":80,"profile":2,"query":1,"report":133,"reportextension":17,"table":106,"tableextension":275,"xmlport":7},"replaced":{"codeunit":1,"table":7}},"fields_added":6,"events_added":0,"procedures_added":0,"objects_obsoleted":0},"objects":[
 {"key":"codeunit/11700","name":"Acc. Schedule Management CZL","change":"added","ns":"Microsoft.Finance.FinancialReports"},
 {"key":"codeunit/11701","name":"Format Document Mgt. CZL","change":"added","ns":"Microsoft.Utilities"},
 {"key":"codeunit/11702","name":"User Handler CZA","change":"added","ns":"Microsoft.Manufacturing.Capacity"},
@@ -425,6 +425,7 @@
 {"key":"enum/11734","name":"Cash Document Partner Type CZP","change":"added","ns":"Microsoft.Finance.CashDesk"},
 {"key":"enum/11735","name":"Cash Document Action CZP","change":"added","ns":"Microsoft.Finance.CashDesk"},
 {"key":"enum/11736","name":"Cash Document FA Post.Type CZP","change":"added","ns":"Microsoft.Finance.CashDesk"},
+{"key":"enum/11737","name":"Cash Document Amount Type CZP","change":"added","ns":"Microsoft.Finance.CashDesk"},
 {"key":"enum/11740","name":"EET Cash Register Type CZL","change":"added","ns":"Microsoft.Finance"},
 {"key":"enum/11741","name":"EET Status CZL","change":"added","ns":"Microsoft.Finance"},
 {"key":"enum/11742","name":"EET Applied Document Type CZL","change":"added","ns":"Microsoft.Finance"},
@@ -433,6 +434,7 @@
 {"key":"enum/11745","name":"Reg. Log Account Type CZL","change":"added","ns":"Microsoft.Finance.Registration"},
 {"key":"enum/11746","name":"Reg. Log Detailed Field Status CZL","change":"added","ns":"Microsoft.Finance.Registration"},
 {"key":"enum/11747","name":"Reg. Log Detail Status CZL","change":"added","ns":"Microsoft.Finance.Registration"},
+{"key":"enum/11748","name":"EET Message Log Level CZL","change":"added","ns":"Microsoft.Finance"},
 {"key":"enum/11770","name":"VAT Statement XML Format CZL","change":"added","ns":"Microsoft.Finance.VAT.Reporting"},
 {"key":"enum/11771","name":"VAT Stmt. Declaration Type CZL","change":"added","ns":"Microsoft.Finance.VAT.Reporting"},
 {"key":"enum/11780","name":"Default VAT Date CZL","change":"added","ns":"Microsoft.Finance.VAT.Setup"},
@@ -517,6 +519,7 @@
 {"key":"page/11703","name":"Inc./Dec. Qty. per Loc. CZL","change":"added","ns":"System.Security.User"},
 {"key":"page/11704","name":"VAT Stmt. Form. Drill-Down CZL","change":"added","ns":"Microsoft.Finance.VAT.Reporting"},
 {"key":"page/11705","name":"EPO Service Setup CZL","change":"added","ns":"Microsoft.Finance.VAT.Reporting"},
+{"key":"page/11706","name":"EET Activities CZL","change":"added","ns":"Microsoft.Finance"},
 {"key":"page/11729","name":"Excel Templates CZL","change":"added","ns":"System.IO"},
 {"key":"page/11738","name":"Company Official Picture CZL","change":"added","ns":"Microsoft.Foundation.Company"},
 {"key":"page/11752","name":"Get Vend. Bank Acc. Code CZL","change":"added","ns":"Microsoft.Purchases.Vendor"},
@@ -1397,6 +1400,7 @@
 {"key":"table/11722","name":"VAT Report Entry Link CZL","change":"added","ns":"Microsoft.Finance.VAT.Reporting"},
 {"key":"table/11723","name":"VAT LCY Corr. Document CZL","change":"added","ns":"Microsoft.Finance.VAT.Calculation"},
 {"key":"table/11724","name":"EPO Service Setup CZL","change":"added","ns":"Microsoft.Finance.VAT.Reporting"},
+{"key":"table/11725","name":"EET Cue CZL","change":"added","ns":"Microsoft.Finance"},
 {"key":"table/11726","name":"Registration Log Detail CZL","change":"added","ns":"Microsoft.Finance.Registration"},
 {"key":"table/11727","name":"VAT LCY Correction Buffer CZL","change":"added","ns":"Microsoft.Finance.VAT.Calculation"},
 {"key":"table/11728","name":"Subst. Cust. Posting Group CZL","change":"added","ns":"Microsoft.Sales.Customer"},

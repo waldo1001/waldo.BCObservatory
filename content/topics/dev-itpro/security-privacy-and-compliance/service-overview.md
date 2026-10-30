@@ -2,21 +2,21 @@
 id: topic/dev-itpro/security-privacy-and-compliance/service-overview
 type: topic
 title: Service overview
-summary: "Service overview covers how Business Central online is built and run: Azure-based multitenant architecture, availability and backup, service operations and incident handling, and scalability. It answers questions about reliability, recovery, updates, and capacity."
+summary: "Service overview covers how Business Central online is built and run: multitenant cloud architecture, availability, backup and disaster recovery, service operations and incident handling, and scalability. It answers questions about reliability, resilience, SLAs, and capacity limits of the online service."
 tier: official
 language: en
 system: service
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:21:35.347Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f0cd2bffd3e70bf4aa9f71ff8b07540602ee25c335bdac1765caa5d8c24a23fb
+  input_hash: d64405b4047f26ee1dbcf05a56cd36f1b53910d7ee3b0063965198d8fc418d1a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/service-operations
@@ -71,26 +71,28 @@ narrative: generated
 
 # Service overview
 
-> Service overview covers how Business Central online is built and run: Azure-based multitenant architecture, availability and backup, service operations and incident handling, and scalability. It answers questions about reliability, recovery, updates, and capacity.
+> Service overview covers how Business Central online is built and run: multitenant cloud architecture, availability, backup and disaster recovery, service operations and incident handling, and scalability. It answers questions about reliability, resilience, SLAs, and capacity limits of the online service.
 
-Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Service overview · tier official · system service · narrative reviewed (checked by Opus)
+Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Service overview · tier official · system service · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section describes the Business Central online service from an infrastructure and operations point of view. It has three pages: a general service overview, a page on service operations, and a page on scalability.
+This section describes the Business Central online service from three angles. The service overview page explains the multitenant cloud architecture on Azure SQL Database, global availability, security and compliance, backup and restore options, and service update schedules.
 
-Start with the service overview for the architecture (Azure microservices, multitenant, Azure SQL Database), global availability, geo-redundant high availability, backup and restore, twice-yearly updates, and compliance certifications. Then read service operations to see how reliability is kept up through monitoring, live site incident handling, service level indicators and objectives, deployment rings, and post-mortems. Finish with scalability for autoscaling, load balancing, and observed throughput figures.
+The service operations page covers how reliability is maintained: quality gates, service monitoring, the live site incident process with automated resolution, BCDR processes, and learning from post-mortems and telemetry. The scalability page covers elasticity, autoscaling, and load balancing, with figures on weekly workload.
+
+Start with the service overview for the general picture, then read service operations for reliability practices and service scalability for capacity and throughput questions.
 
 ## Key points
 
-- Business Central online runs on Azure microservices with a multitenant architecture and Azure SQL Database.
-- The service targets 99.99% availability using geo-redundancy.
-- Backups are kept for 28 days, are geo-redundant, and support automatic restore.
-- Service updates are released twice yearly.
-- Service operations rely on quality gates, service monitoring, a live site incident process with automated resolution, and BCDR processes.
-- Reliability is tracked with service level indicators and objectives, and deployment rings are used for rollout.
-- Post-mortems and telemetry analysis drive continuous improvement.
-- Scalability uses autoscaling and load balancing, with over 2B API calls and 1B UI interactions weekly, 99.81% of executions on adequately resourced nodes, and no fixed limits on users or database size; web service rate limiting applies.
+- Business Central online is a multitenant cloud ERP service built on Azure SQL Database.
+- Resilience options include backup and restore, geo-redundant backups, and availability zones.
+- The overview covers global availability, Copilot availability, service level agreements, and service update schedules.
+- Service operations rely on quality gates, service monitoring, deployment rings, and service level indicators and objectives.
+- Live site incidents follow a defined process with automated resolution, and post-mortems and telemetry drive continuous improvement.
+- Autoscaling and load balancing provide resource elasticity, with no fixed limits on users or database size.
+- The service handles over 2B API calls and 1B UI interactions weekly, with 99.81% of executions on adequately resourced nodes.
+- Web service rate limiting is part of the scalability discussion.
 
 ## Learn pages
 

@@ -2,20 +2,20 @@
 id: topic/dev-itpro/what-s-new-and-planned
 type: topic
 title: What's new and planned
-summary: "What's new and planned in Business Central: release notes for 2026 release wave 1 (updates 28.0 preview to 28.5), 2026 release wave 2 (update 29.0), and an archive of earlier minor updates from 15.2 to 27.5. Use it to find what changed or is coming in a given version."
+summary: What's new and planned in Business Central covers release notes for 2026 release wave 1 (updates 28.0 to 28.5) and 2026 release wave 2 (update 29.0), plus an overview of the release cycle. It also links to notes for earlier updates from 15.2 to 27.5. Use it to find what changed in a given update.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:00:39.648Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f8de14f593e1f6183a2fcd04ef3cf2d5399b266bcf50101f6983aa8cab0f73fb
+  input_hash: d475676bcb194f45a6cb54ab813ac848887bee4f2decca270f22513b813dcd0d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-15-2
@@ -334,28 +334,28 @@ narrative: generated
 
 # What's new and planned
 
-> What's new and planned in Business Central: release notes for 2026 release wave 1 (updates 28.0 preview to 28.5), 2026 release wave 2 (update 29.0), and an archive of earlier minor updates from 15.2 to 27.5. Use it to find what changed or is coming in a given version.
+> What's new and planned in Business Central covers release notes for 2026 release wave 1 (updates 28.0 to 28.5) and 2026 release wave 2 (update 29.0), plus an overview of the release cycle. It also links to notes for earlier updates from 15.2 to 27.5. Use it to find what changed in a given update.
 
-Path: What's new and planned · tier official · system none · narrative reviewed (checked by Opus)
+Path: What's new and planned · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section tracks changes to Business Central by release wave and by monthly minor update. The main overview page lists new, changed and planned capabilities across versions 28.2 to 29.0 and the 2026 release waves 1 and 2.
+This section tracks what is new, changed and planned in Business Central. The top page explains the six-month release wave cycle, monthly minor updates, regulatory updates, update management and the AI at Work roadmap. It lists versions 28.2 to 29.0 and is the place to start.
 
-Current-generation pages are one per update: the 28.0 preview, then 28.1 to 28.5 for 2026 release wave 1, and 29.0 for 2026 release wave 2. They cover hotfixes, new features, localization and upgrade notes. Many of the items concern Copilot and agents (Expense Agent, Payables Agent, Sales Order Agent), e-documents and regional tax or invoicing rules.
+Each update has its own page. For 2026 release wave 1 there is a 28.0 preview page, then 28.1 through 28.5 with hotfixes, features and upgrade notes. Update 29.0 starts 2026 release wave 2. A subtopic holds 66 older release notes, from 15.2 (2019 release wave 2) through 27.5 (2025 release wave 2).
 
-Older notes sit in the subtopic "Updates for earlier major versions", with 66 pages from 15.2 (2019 release wave 2) through 27.5 (2025 release wave 2). Start with the overview page to find the version you need, then open that update's page. Use the archive for older versions.
+Pick the page for the version you run or plan to move to. Use the overview page to see the version sequence, and the subtopic for earlier versions.
 
 ## Key points
 
-- 28.0 preview (2026 release wave 1) covers an enhanced MCP server for agentic experiences, Payables Agent email discovery, and a task pane to manage tasks from all agents.
-- 28.1 adds Expense Agent (preview), an expense management module, Dynamics GP migration validation, and e-invoicing for Germany.
-- 28.2 adds Sales Order Agent multilingual support, Australian payment reporting compliance, quality management word layouts, and new APIs for approval workflows and permissions analysis.
-- 28.3 brings Expense Agent project assignment, Payables Agent trial mode, multiple Sales Order Agents, France e-invoicing, and E-Document payments.
-- 28.4 adds Known Senders in Payables Agent, E-Document payment support, Peppol purchase draft preview, and Copilot data movement across geographies; it covers online and on-premises upgrade paths.
-- 28.5 includes hotfixes, AI resources for Copilot extensions, and embedded Verifactu mode for Spain.
-- 29.0 (2026 release wave 2) covers MCP Server data queries, AL index control, Page Scripting, document report themes, Shopify management and sustainability tracking.
-- The archive subtopic holds 66 pages for updates 15.2 to 27.5, including 26.0 and 27.0 preview pages, with hotfixes, deprecations and upgrade notes.
+- Update 28.0 preview: enhanced MCP server for agentic experiences, Payables Agent email discovery, a task pane for tasks from all agents, and regional features including Czechia and Germany.
+- Update 28.1: Expense Agent (preview), expense management, Dynamics GP migration validation, e-invoicing for Germany, excise tax calculation and permission auditing.
+- Update 28.2: Sales Order Agent multilingual support, Australian payment reporting compliance, quality management word layouts, and new APIs for approval workflows and permissions analysis.
+- Update 28.3: Expense Agent project assignment, Payables Agent trial mode, multiple Sales Order Agents, France e-invoicing and E-Document payments.
+- Update 28.4: Known Senders in Payables Agent, Peppol purchase draft preview, Field Service integration improvements, and Copilot data movement across geographies. It covers online and on-premises upgrade paths.
+- Update 28.5: AI resources for Copilot extensions and embedded Verifactu mode for Spain, plus hotfixes.
+- Update 29.0 (2026 release wave 2): MCP Server data queries, AL index control, Page Scripting, document report themes, Shopify, sustainability and supply chain items.
+- Earlier release notes (15.2 to 27.5, 66 pages) cover hotfixes, features, localization, telemetry, deprecations and upgrade notes, including 26.0 and 27.0 preview pages.
 
 ## Subtopics
 

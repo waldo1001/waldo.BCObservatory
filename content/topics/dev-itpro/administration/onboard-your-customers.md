@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:42.368Z"
   flags: []
 generated:
-  at: "2026-10-29T22:03:43.939Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,6 @@ links:
   posts:
     - post/gerardorenteria-blog/11769
     - post/olofsimren-com/3763
-    - post/wingate365-com/https-blog-wingate365-com-2026-04-mission-implementation-post-go-live-html--48e2b84ac2
   guidelines: []
 learn_toc_path:
   - Administration
@@ -110,7 +109,7 @@ coverage:
   learn: 8
   code: 2
   video: 3
-  blog: 3
+  blog: 2
   guideline: 0
 bc_forms:
   - 4750
@@ -213,7 +212,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [🏆🎯 Accelerate your BC Go-Live with Gamification](../../../posts/gerardorenteria-blog/11769.md) (community post): "accelerates user adoption during go-live by letting teams compete"
 - [ERP JumpStart: A Better Way to Get Started with Business Central](../../../posts/olofsimren-com/3763.md) (community post): "ERP JumpStart is a guided self-service implementation product"
-- [Mission Implementation - post go-live stabilisation](../../../posts/wingate365-com/https-blog-wingate365-com-2026-04-mission-implementation-post-go-live-html--48e2b84ac2.md) (community post): "Post go-live stabilization is a critical phase where many ERP projects struggle"
 - [Why Onboarding Experiences are Important](../../../videos/3uVf6BEXt1w.md) (video): "Customer self-service onboarding; Template-based setup approach; Partner-knowledge apps"
 - [What's New: Creating Customer Centric Onboarding Experiences (2023 release wave 2)](../../../videos/NwMLT-k6J6Q.md) (video): "onboarding; customer journey; personalization; trial experience; questionnaire"
 - [Overview of Customer and Partner Onboarding Journeys](../../../videos/XNfgf7tCeaw.md) (video): "customer onboarding; partner-led experience; trial setup; prospect profiling"

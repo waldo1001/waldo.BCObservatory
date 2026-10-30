@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-29T21:26:59.577Z"
+  at: "2026-10-30T00:17:01.742Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: efac43569ff2ebea3592edcd4be549e5e64a65c2b00a0455580eec71f4ba783d
@@ -33,6 +33,7 @@ links:
     - feature/573333
     - feature/573338
     - feature/573362
+    - feature/578068
   topics: []
   localizations: []
   videos:
@@ -127,6 +128,8 @@ footprint:
       weight: 1
     - id: feature/573338
       weight: 1
+    - id: feature/578068
+      weight: 1
 first_item: "2026-10-01"
 last_item: "2026-10-01"
 ---
@@ -165,6 +168,7 @@ Items per quarter, oldest first:
 - [Enable Microsoft Copilot chat experience](../features/573362.md): Copilot and agents, generally available, GA 2026-10, 2 videos
 - [AI-Driven Approvals](../features/573255.md): Expense Agent, in preview, GA 2026-12, 1 video
 - [Build extensible and data-driven AL test suites](../features/573333.md): Development, generally available, GA 2026-10, 1 video
+- [Envision and design AI agents in Business Central](../features/578068.md): Copilot and agents, in preview, GA 2026-10, 1 video
 - [Use AL language intelligence from AI agents and other editors](../features/573338.md): Development, generally available, GA 2026-10, 1 video
 
 ## Most recent

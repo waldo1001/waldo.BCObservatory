@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:42:34.480Z"
+  at: "2026-10-30T01:00:43.748Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: db7a5ca1a2d0ba4871def0cb37bf208e460c470ae8e04b26d204a609953b90b8
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Apps/W1/Shopify/app/src/Companies/Interfaces/ShpfyIFindCompanyMapping.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Apps/W1/Shopify/app/src/Companies/Interfaces/ShpfyIFindCompanyMapping.Interface.al
     title: src/Apps/W1/Shopify/app/src/Companies/Interfaces/ShpfyIFindCompanyMapping.Interface.al (releases/29.x)
     date: null
-    commit: 4c1c1638beb6d5da8540cc1f61889b80c7b3356f
+    commit: 7aa49e808916c060dbee97d9ff324a2cfda8d422
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Shpfy IFind Company Mapping" in Shopify (Microsoft.Integration.Shopify). 1 public procedures. Introduced in BC29, still in BC30.
 
-Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at 4c1c1638](https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Apps/W1/Shopify/app/src/Companies/Interfaces/ShpfyIFindCompanyMapping.Interface.al) · facts from BC29
+Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at 7aa49e80](https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Apps/W1/Shopify/app/src/Companies/Interfaces/ShpfyIFindCompanyMapping.Interface.al) · facts from BC29
 
 ## Procedures
 

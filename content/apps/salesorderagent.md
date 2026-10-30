@@ -2,7 +2,7 @@
 id: app/salesorderagent
 type: app
 title: SalesOrderAgent
-summary: "SalesOrderAgent (Microsoft.Agent): 104 objects in BC29-30 (48 codeunits, 15 page customizations, 14 pages, 10 tables, 4 page extensions, ...); documented by 4 Learn hubs."
+summary: "SalesOrderAgent (Microsoft.Agent): 106 objects in BC29-30 (48 codeunits, 15 page customizations, 14 pages, 11 tables, 5 page extensions, ...); documented by 4 Learn hubs."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:46:30.808Z"
+  at: "2026-10-30T01:04:48.899Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: bcf6e1113e7f7a0e641c457156de97e97eff346b0d768f288cb5f48443b37dbf
+  input_hash: 41c499f5f62789312254cabb28566b4471ce3816fa7cbf8424a7ac788cfac7c7
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/SalesOrderAgent/app
@@ -36,6 +36,7 @@ links:
     - object/table/4587
     - object/table/4588
     - object/table/4589
+    - object/table/4590
     - object/table/4592
     - object/table/4593
     - object/table/4594
@@ -59,6 +60,7 @@ links:
     - object/pageextension/4409
     - object/pageextension/4410
     - object/pageextension/4411
+    - object/pageextension/4413
     - object/report/4414
     - object/codeunit/4002
     - object/codeunit/4302
@@ -150,13 +152,13 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 104
+  objects: 106
   by_type:
     codeunit: 48
     pagecustomization: 15
     page: 14
-    table: 10
-    pageextension: 4
+    table: 11
+    pageextension: 5
     enum: 4
     permissionset: 3
     enumextension: 2
@@ -171,7 +173,7 @@ counts:
 
 # SalesOrderAgent
 
-> SalesOrderAgent (Microsoft.Agent): 104 objects in BC29-30 (48 codeunits, 15 page customizations, 14 pages, 10 tables, 4 page extensions, ...); documented by 4 Learn hubs.
+> SalesOrderAgent (Microsoft.Agent): 106 objects in BC29-30 (48 codeunits, 15 page customizations, 14 pages, 11 tables, 5 page extensions, ...); documented by 4 Learn hubs.
 
 First-party app · folder `src/Apps/W1/SalesOrderAgent/app` · namespace `Microsoft.Agent` · BC29-30 · system copilot · facts from the code pillar and the joins, nothing machine-written
 
@@ -186,9 +188,9 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-104 objects, by type.
+106 objects, by type.
 
-### Tables (10)
+### Tables (11)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -198,6 +200,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 4587 | [SOA Billing Task Setup](../objects/table/4587.md) |  |
 | 4588 | [SOA Task Contact Override](../objects/table/4588.md) |  |
 | 4589 | [SOA Reply Attempt](../objects/table/4589.md) |  |
+| 4590 | [SOA Attachment Transfer](../objects/table/4590.md) |  |
 | 4592 | [SOA KPI Entry](../objects/table/4592.md) |  |
 | 4593 | [SOA KPI](../objects/table/4593.md) | Sales Order Agent |
 | 4594 | [SOA Task](../objects/table/4594.md) |  |
@@ -228,7 +231,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 4412 | [SOA Contact Lookup](../objects/page/4412.md) | Select contact |
 | 4585 | [SOA Billing Overview](../objects/page/4585.md) | Sales Order Agent - Billing Overview |
 
-### Page extensions (4)
+### Page extensions (5)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -236,6 +239,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 4409 | [Sales Quote Sub. Ext](../objects/pageextension/4409.md) |  |
 | 4410 | [Sales Order Ext](../objects/pageextension/4410.md) |  |
 | 4411 | [SOA Contact List Ext](../objects/pageextension/4411.md) |  |
+| 4413 | [SOA Contact Card Ext](../objects/pageextension/4413.md) |  |
 
 ### Reports (1)
 

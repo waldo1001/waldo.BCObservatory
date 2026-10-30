@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:05.521Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/13211
 learn_toc_path:
   - Business functionality
   - Warehouse management
@@ -114,5 +116,11 @@ The pick pages cover component flushing and over-picking. The put-away page cove
   - In the observatory: [Page 5510 "Production Journal"](../../../../../objects/page/5510.md), [Page 5703 "Location Card"](../../../../../objects/page/5703.md), [Page 7377 "Inventory Pick"](../../../../../objects/page/7377.md), [Page 7382 "Inventory Movement"](../../../../../objects/page/7382.md), [Page 900 "Assembly Order"](../../../../../objects/page/900.md), [Page 99000823 "Output Journal"](../../../../../objects/page/99000823.md)
 - [Put away production output](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-put-away-production-output): This article describes how to put away your production output.
   - In the observatory: [Page 7375 "Inventory Put-away"](../../../../../objects/page/7375.md), [Page 99000831 "Released Production Order"](../../../../../objects/page/99000831.md)
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#13211 Copy time sheet skips deleted work types and absence reasons](../../../../../changes/bcapps/13211.md) (code change): "Time sheet copying now handles deleted work types and absence reasons gracefully"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

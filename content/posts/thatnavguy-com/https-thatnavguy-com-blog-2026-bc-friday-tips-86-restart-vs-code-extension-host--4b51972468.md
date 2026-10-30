@@ -12,16 +12,16 @@ tags:
   - developer workflow
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T01:09:39.249Z"
   flags: []
 generated:
-  at: "2026-10-30T00:18:02.321Z"
+  at: "2026-10-30T00:17:01.742Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: e732185d7760e10bb4a3f1c91a8f7756bfbda8923a074755b48ea94fd54dd723
+  input_hash: 349dec2a8295709cb52f4a74acb41f7073eb2b5edbd3d1aa1d7686751813485e
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-86-restart-vs-code-extension-host/
@@ -73,18 +73,18 @@ versions_mentioned: []
 preview:
   embeddable: true
   frame_url: null
-  image: null
+  image: https://thatnavguy.com/_astro/Restart%20Extension.CiLDHZ1w_UC8bI.webp
   image_alt: null
   image_w: null
   image_h: null
   site_name: null
-  favicon: null
-  probed_at: "2026-10-17T01:09:09.538Z"
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-30T01:05:52.163Z"
 ---
 
 # BC Friday Tips #86 Restart the VS Code Extension Host
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-86-restart-vs-code-extension-host/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-10-30 · 119 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-86-restart-vs-code-extension-host/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-10-30 · 119 words · tier community · reviewed (checked by Opus)
 
 > Restarting the VS Code AL extension host via Command Palette can resolve build failures without reloading the entire window, reducing developer interruptions when the AL extension appears stuck.
 

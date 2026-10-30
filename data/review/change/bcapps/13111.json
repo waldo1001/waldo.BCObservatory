@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13111",
+  "input_hash": "be09428114395e9accc8af085f60fbe0273ba1fddc5048f20182a4119a318a73",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-30T01:10:03.115Z",
+  "issues": [
+    "The change is one line, and the title says a large text modal helper is exposed. It does not make the whole page newly accessible.",
+    "Several key points are filler and repeat each other."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023235,
+    "changes_in_call": 6
+  }
+}

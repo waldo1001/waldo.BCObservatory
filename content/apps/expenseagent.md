@@ -2,7 +2,7 @@
 id: app/expenseagent
 type: app
 title: ExpenseAgent
-summary: "ExpenseAgent (Microsoft.ExpenseAgent): 388 objects in BC29-30 (152 pages, 69 codeunits, 56 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos."
+summary: "ExpenseAgent (Microsoft.ExpenseAgent): 388 objects in BC29-30 (152 pages, 69 codeunits, 56 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos, 1 post."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:46:30.808Z"
+  at: "2026-10-30T01:04:48.899Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 274b129d14ee288284f73a0cc8a5644b44c250cb7624a20d4a40c4358fa23ea5
+  input_hash: 5a0442773a27bb4356fe7869e4cabb197f8fa111ef4e49c6acbd60cf4fc0e075
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ExpenseAgent/app
@@ -246,7 +246,8 @@ links:
     - video/egE6UdOfar0
     - video/pjML7lXSsd0
     - video/qZALauRY_So
-  posts: []
+  posts:
+    - post/thinkaboutit-be/8348
   guidelines: []
 app: ExpenseAgent
 namespace_root: Microsoft.ExpenseAgent
@@ -272,12 +273,12 @@ counts:
     profile: 1
   hubs: 6
   videos: 6
-  posts: 0
+  posts: 1
 ---
 
 # ExpenseAgent
 
-> ExpenseAgent (Microsoft.ExpenseAgent): 388 objects in BC29-30 (152 pages, 69 codeunits, 56 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos.
+> ExpenseAgent (Microsoft.ExpenseAgent): 388 objects in BC29-30 (152 pages, 69 codeunits, 56 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos, 1 post.
 
 First-party app · folder `src/Apps/W1/ExpenseAgent/app` · namespace `Microsoft.ExpenseAgent` · BC29-30 · system copilot · facts from the code pillar and the joins, nothing machine-written
 
@@ -758,6 +759,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 Videos and posts that name this app's objects by exact type and name.
 
+- [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../posts/thinkaboutit-be/8348.md) (community post, 2026-10-28): names Page 6997 "Expense Reports"
 - [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../videos/cVfZoDwKYpI.md) (video, 2026-10-01): names Page 6910 "Expense Report"
 - [What's new in Expense Agent: Project Handling (2026 release wave 2)](../videos/GwrMf1umTFg.md) (video, 2026-10-01): names Page 6996 "Expense Agent Setup"
 - [Expense Agent: Mileage Allowances (2026 release wave 1)](../videos/Fz8NLByllRc.md) (video, 2026-08-07): names Page 6996 "Expense Agent Setup"

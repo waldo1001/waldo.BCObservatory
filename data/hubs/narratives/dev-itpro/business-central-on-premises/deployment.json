@@ -1,34 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/business-central-on-premises/deployment",
-  "input_hash": "eef07a58d706fea6e9938355d1861e4bd27796cdca89ad6b94526a78d081cce6",
-  "summary": "Deployment of Business Central on-premises: planning, component topology, installing with Setup, service account provisioning, certificates, multitenant databases, and support lifecycle. It answers questions about how to plan, install and secure an on-premises environment, and points to subtopics for web server, database, mobile app, topologies and updates.",
-  "overview": "This section covers deploying Business Central on-premises. It starts with planning (network topology, single-tenant or multitenant, authentication method, service account, connection security) and the component and system topology: web server, server, SQL database, plus development tools and additional components.\n\nThe installation pages cover running Setup (download media, check prerequisites, use the wizard, choose components and ports, save a configuration file, use command-line options) and provisioning the server service account with the needed SQL Server roles. Further pages cover X.509 certificates for securing connections, managing application and tenant databases in a multitenant deployment, the software lifecycle policy, and an FAQ on the discontinued Windows client.\n\nStart with Plan for Deployment, then pick a layout in Deployment topologies and follow Install Business Central Using Setup. Use the subtopics for system requirements, web server on IIS, database, mobile app and the lists of on-premises updates.",
+  "input_hash": "d8c3492e48b055d2c992f787a81de955efa9652971f948e06a74ca12a8c3f1b2",
+  "summary": "Deployment of Business Central on-premises: planning, component topology, installing with Setup, service accounts, certificates, multitenant databases, and lifecycle policy. It answers how to plan, install and secure an on-premises environment, and points to subtopics for web server, database, mobile app, topologies and updates.",
+  "overview": "This section covers everything needed to get a Business Central on-premises environment running. It starts with planning (network topology, single-tenant versus multitenant, authentication, service account, connection security) and a description of the three core components: web server, server and SQL database, plus development tools and extra components.\n\nThe own pages then cover the main tasks: installing with Setup (wizard, configuration files, command-line options), provisioning the server service account with the needed SQL Server roles, using X.509 certificates for secure connections over WAN, and managing application and tenant databases in a multitenant deployment. Other pages cover the software lifecycle policy and the Windows client FAQ.\n\nSubtopics go deeper: system requirements, deployment topologies (demo to three-computer), the IIS web server, databases, the mobile app, and update lists per version. A good path is Plan for Deployment, then Component and System Topology, then Install Business Central Using Setup.",
   "key_points": [
     "Plan for Deployment covers network topology, single-tenant vs multitenant, user authentication, service account and SSL decisions.",
-    "Three core components: web server, server and SQL database; development tools include the AL environment and PowerShell modules.",
-    "Setup install page covers the wizard, configuration files, port configuration, prerequisite installation and command-line options, for versions 24 to 27.",
-    "The server service account is a domain user (or Network Service) needing SQL roles such as dbcreator, db_datareader and db_datawriter; SPN registration is mentioned.",
+    "Component topology: web server, server and SQL database, plus AL development environment, PowerShell modules and web services.",
+    "Setup install page covers media download, prerequisite checks, wizard, port configuration, saved configuration files and command-line options; versions listed include v24 to v27.",
+    "The server service account needs SQL Server roles such as dbcreator, db_datareader and db_datawriter; SPN registration and Network Service are also discussed.",
     "Multitenant setup: create an application database, configure the server for multitenancy, mount tenant databases, synchronize and publish extensions.",
-    "X.509 certificates with chain trust (or peer trust) secure server-to-client connections over WAN and SSL for web services.",
-    "Software lifecycle policy explains Modern and Fixed Lifecycle frameworks, update schedule, mainstream and extended support.",
-    "The Windows client was discontinued starting 2019 release wave 2; web, mobile and desktop app clients replace it."
+    "X.509 certificates with chain trust secure server-client connections over WAN, including SSL for web services.",
+    "The Windows client was discontinued from 2019 release wave 2; alternatives are the web client, Windows 10 app, mobile apps, Excel and Outlook add-in.",
+    "Lifecycle policy page explains Modern and Fixed Lifecycle Policy, mainstream and extended support."
   ],
   "members_used": 8,
   "subtopics_used": 5,
   "prompt_version": 1,
-  "at": "2026-10-07T05:20:04.083Z",
+  "at": "2026-10-30T01:11:23.120Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.018679
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T05:20:48.575Z",
-    "verdict": "approve",
-    "issues": [],
-    "input_hash": "eef07a58d706fea6e9938355d1861e4bd27796cdca89ad6b94526a78d081cce6",
-    "cost_usd": 0.042863200000000004
+    "cost_usd": 0.018781
   }
 }

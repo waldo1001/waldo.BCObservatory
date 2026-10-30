@@ -2,7 +2,7 @@
 id: source/thinkaboutit-be
 type: source
 title: think about IT - Steven Renders
-summary: "think about IT - Steven Renders (Steven Renders): 65 posts in the knowledge base, 2025-07-31 to 2026-10-28, mostly about development, copilot, reporting."
+summary: "think about IT - Steven Renders (Steven Renders): 67 posts in the knowledge base, 2025-07-31 to 2026-10-29, mostly about development, copilot, reporting."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T08:47:18.430Z"
+  at: "2026-10-30T00:17:01.742Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4a2f733fea708ea753586fead3b58bdff2a67b71a1bb7b29d19bc5d31e0250f9
+  input_hash: c4e242e70e963383aa681ff4f530a9ae71ef498e0e90a5ab833a06d046be97e7
 evidence:
   - kind: blog
     url: https://thinkaboutit.be
@@ -98,6 +98,8 @@ links:
     - post/thinkaboutit-be/8291
     - post/thinkaboutit-be/8313
     - post/thinkaboutit-be/8331
+    - post/thinkaboutit-be/8348
+    - post/thinkaboutit-be/8359
   guidelines: []
 source_id: thinkaboutit-be
 kind: blog
@@ -105,20 +107,20 @@ url: https://thinkaboutit.be
 author: Steven Renders
 mvp: false
 full_text: false
-item_count: 65
+item_count: 67
 footprint:
   systems:
     - id: development
-      weight: 50
+      weight: 51
     - id: copilot
-      weight: 45
+      weight: 49
     - id: reporting
       weight: 43
     - id: platform
-      weight: 21
-    - id: administration
-      weight: 19
+      weight: 22
     - id: integration
+      weight: 20
+    - id: administration
       weight: 19
   topics:
     - id: al development
@@ -168,12 +170,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-07-31"
-last_item: "2026-10-28"
+last_item: "2026-10-29"
 ---
 
 # think about IT - Steven Renders
 
-> think about IT - Steven Renders (Steven Renders): 65 posts in the knowledge base, 2025-07-31 to 2026-10-28, mostly about development, copilot, reporting.
+> think about IT - Steven Renders (Steven Renders): 67 posts in the knowledge base, 2025-07-31 to 2026-10-29, mostly about development, copilot, reporting.
 
 [https://thinkaboutit.be](https://thinkaboutit.be) · blog · tier community
 
@@ -181,12 +183,12 @@ last_item: "2026-10-28"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (50) | al development (15) | page Customer Ledger Entries (2) |
-| copilot (45) | power bi (11) | codeunit Rest Api Helper (1) |
+| development (51) | al development (15) | page Customer Ledger Entries (2) |
+| copilot (49) | power bi (11) | codeunit Rest Api Helper (1) |
 | reporting (43) | code generation (8) | codeunit Sales Posting Helper (1) |
-| platform (21) | reporting (8) | codeunit Sales Posting Helper Test (1) |
-| administration (19) | release wave 2 (7) | codeunit Semantic Data Search (1) |
-| integration (19) | analytics (6) | other Power BI Monitor (1) |
+| platform (22) | reporting (8) | codeunit Sales Posting Helper Test (1) |
+| integration (20) | release wave 2 (7) | codeunit Semantic Data Search (1) |
+| administration (19) | analytics (6) | other Power BI Monitor (1) |
 |  | copilot (6) | page Copilot & agent capabilities (1) |
 |  | github copilot (6) | page Data Administration (1) |
 |  | agents (5) | page Data Administration Guide (1) |
@@ -203,10 +205,12 @@ Items per quarter, oldest first:
 - 2026-Q1: ************* 13
 - 2026-Q2: ************ 12
 - 2026-Q3: ************* 13
-- 2026-Q4: ******* 7
+- 2026-Q4: ********* 9
 
 ## Most recent
 
+- [Directions EMEA 2026, Day 2: Cowork, Agentic Development and Fabric](../posts/thinkaboutit-be/8359.md) (2026-10-29)
+- [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../posts/thinkaboutit-be/8348.md) (2026-10-28)
 - [Business Central 29: What’s New in BC-Bench?](../posts/thinkaboutit-be/8331.md) (2026-10-28)
 - [Business Central 29: Manage Per-Tenant Extensions from the Admin Center](../posts/thinkaboutit-be/8313.md) (2026-10-27)
 - [Business Central 29: What’s New in the Word Add-in?](../posts/thinkaboutit-be/8291.md) (2026-10-26)
@@ -225,7 +229,5 @@ Items per quarter, oldest first:
 - [Quick Tip: It’s Time to Move to the Word Add-in Data Picker](../posts/thinkaboutit-be/8096.md) (2026-09-01)
 - [Quick Tip: Reading the Capacity Page in the Business Central Admin Center](../posts/thinkaboutit-be/8077.md) (2026-08-13)
 - [Quick Tip: What’s in Business Central Update 28.4](../posts/thinkaboutit-be/8062.md) (2026-08-10)
-- [Quick Tip: Runtime Version and Business Central Version Are Not the Same Thing](../posts/thinkaboutit-be/8037.md) (2026-07-24)
-- [Quick Tip: What’s in Business Central Update 28.3](../posts/thinkaboutit-be/8022.md) (2026-07-13)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

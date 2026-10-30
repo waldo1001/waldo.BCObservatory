@@ -6,12 +6,12 @@
   "systems_joined": [
     "crm"
   ],
-  "summary": "The Contact Sync page now uses localized table captions consistently in filter operations, replacing hardcoded English table names with the localized ContactTxt constant to ensure the contact filter loads correctly in non-English languages.",
+  "summary": "The Contact Sync page now uses the localized ContactTxt table caption in FilterPageBuilder.AddTable, SetView and GetView instead of a hardcoded English table name, so the contact filter can load correctly in other languages.",
   "key_points": [
-    "Replaced three hardcoded English 'Contact' table name references with the localized ContactTxt constant",
-    "Applied the change to FilterPageBuilder.AddTable, SetView, and GetView methods",
-    "Ensures consistent localization with existing field calls on the same page",
-    "Prevents contact filter from failing to load in non-English language versions"
+    "Three hardcoded English table name literals were replaced with the localized ContactTxt caption",
+    "Affects the FilterPageBuilder.AddTable, SetView and GetView calls on page 7100 Contact Sync",
+    "Matches the caption already used by the existing filter field calls",
+    "Port of an existing NAV fix with no schema or permission changes"
   ],
   "change_kind": "fix",
   "behavior_change": true,

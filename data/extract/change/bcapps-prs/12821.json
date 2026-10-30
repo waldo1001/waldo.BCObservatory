@@ -14,7 +14,7 @@
     "Excludes output messages and ignored attachments from copying",
     "Uses SaveAttachmentFromStream with LockTable to ensure thread-safe, transactional copying"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

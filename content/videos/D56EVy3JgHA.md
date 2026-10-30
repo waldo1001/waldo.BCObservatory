@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:00:05.382Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-30T01:07:09.406Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -141,6 +141,11 @@ links:
   related:
     - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
       title: Create Purchase Orders from Drop Shipments
+      label: possibly related
+      why: both name Page 50 "Purchase Order"
+      by: code
+    - to: post/thinkaboutit-be/8348
+      title: "Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions"
       label: possibly related
       why: both name Page 50 "Purchase Order"
       by: code
@@ -350,6 +355,7 @@ Not found in BC28-30: page "matching page".
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 50 "Purchase Order"
+- [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../posts/thinkaboutit-be/8348.md) — possibly related: both name Page 50 "Purchase Order"
 - [Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order](../posts/thedynamicsexplorer-com/9815.md) — possibly related: both name Page 50 "Purchase Order"
 - [Use the E-Document Format for E-Reporting \[FR\]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/electronic-reporting-france) — possibly related: names Page 6122 "E-Documents"
 - [What's new in SCM: Subcontracting (2026 release wave 2)](../videos/QdWPlIV3Avk.md) — possibly related: both name Page 50 "Purchase Order"

@@ -2,7 +2,7 @@
 id: app/microsoftfabricmirroring
 type: app
 title: MicrosoftFabricMirroring
-summary: "MicrosoftFabricMirroring (Microsoft.FabricExport): 37 objects in BC30 (18 pages, 12 codeunits, 3 tables, 3 permission sets, 1 enum); documented by 1 Learn hub."
+summary: "MicrosoftFabricMirroring (Microsoft.FabricExport): 38 objects in BC29-30 (18 pages, 13 codeunits, 3 tables, 3 permission sets, 1 enum); documented by 1 Learn hub."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:46:30.808Z"
+  at: "2026-10-30T01:04:48.899Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a16399ece722bb17f8fd410c73b2aeb9cd6e8001f19793c4a5c00f2001db3327
+  input_hash: 984576a26338366134688cbe139d69ff593b24754bf8647de32a4482338f14d4
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/MicrosoftFabricMirroring/app
@@ -51,6 +51,7 @@ links:
     - object/page/48517
     - object/page/48518
     - object/page/48519
+    - object/codeunit/48500
     - object/codeunit/48520
     - object/codeunit/48521
     - object/codeunit/48522
@@ -77,12 +78,13 @@ links:
 app: MicrosoftFabricMirroring
 namespace_root: Microsoft.FabricExport
 present_in:
+  - "29"
   - "30"
 counts:
-  objects: 37
+  objects: 38
   by_type:
     page: 18
-    codeunit: 12
+    codeunit: 13
     table: 3
     permissionset: 3
     enum: 1
@@ -93,9 +95,9 @@ counts:
 
 # MicrosoftFabricMirroring
 
-> MicrosoftFabricMirroring (Microsoft.FabricExport): 37 objects in BC30 (18 pages, 12 codeunits, 3 tables, 3 permission sets, 1 enum); documented by 1 Learn hub.
+> MicrosoftFabricMirroring (Microsoft.FabricExport): 38 objects in BC29-30 (18 pages, 13 codeunits, 3 tables, 3 permission sets, 1 enum); documented by 1 Learn hub.
 
-First-party app · folder `src/Apps/W1/MicrosoftFabricMirroring/app` · namespace `Microsoft.FabricExport` · BC30 · system development · facts from the code pillar and the joins, nothing machine-written
+First-party app · folder `src/Apps/W1/MicrosoftFabricMirroring/app` · namespace `Microsoft.FabricExport` · BC29-30 · system development · facts from the code pillar and the joins, nothing machine-written
 
 ## What Learn documents it
 
@@ -105,7 +107,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-37 objects, by type.
+38 objects, by type.
 
 ### Tables (3)
 
@@ -128,7 +130,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 48508 | [Fabric Platform Companies](../objects/page/48508.md) | Fabric Company Configuration |
 | 48509 | [Fabric Platform Export Details](../objects/page/48509.md) | Fabric Synchronization Details |
 | 48510 | [Fabric Platform Export Summary](../objects/page/48510.md) | Fabric Synchronization Overview |
-| 48511 | [Fabric Platform Setup](../objects/page/48511.md) | Microsoft Fabric Mirroring Setup |
+| 48511 | [Fabric Platform Setup](../objects/page/48511.md) | Microsoft Fabric Mirroring Setup (Preview) |
 | 48512 | [Fabric Platform Tables](../objects/page/48512.md) | Fabric Table Configuration |
 | 48513 | [Fabric Config Package Card](../objects/page/48513.md) | Fabric Config Package |
 | 48514 | [Fabric Config Package Subform](../objects/page/48514.md) | Fabric Config Package Lines |
@@ -136,12 +138,13 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 48516 | [Fabric Platform Name Lookup](../objects/page/48516.md) | Select |
 | 48517 | [Fabric Companies FactBox](../objects/page/48517.md) | Companies to Synchronize |
 | 48518 | [Fabric Tables FactBox](../objects/page/48518.md) | Tables to Synchronize |
-| 48519 | [Fabric Platform Setup Wizard](../objects/page/48519.md) | Set Up Microsoft Fabric Mirroring |
+| 48519 | [Fabric Platform Setup Wizard](../objects/page/48519.md) | Set Up Microsoft Fabric Mirroring (Preview) |
 
-### Codeunits (12)
+### Codeunits (13)
 
 | Id | Name | Caption |
 |---|---|---|
+| 48500 | [Fabric Env. Cleanup Subs.](../objects/codeunit/48500.md) |  |
 | 48520 | [Fabric Platform Mgt](../objects/codeunit/48520.md) |  |
 | 48521 | [Fabric Config Package Mgt](../objects/codeunit/48521.md) |  |
 | 48522 | [Fabric Install](../objects/codeunit/48522.md) |  |

@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/yzhums-com/73637",
+  "page_id": "post/yzhums-com/73637",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "after hiding the views, the user couldn't find the 'Show' action to bring them back",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "be aware that the views you added will be permanently deleted",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003837,
+    "posts_in_call": 1
+  }
+}

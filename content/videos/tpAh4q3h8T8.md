@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:14:07.737Z"
   flags: []
 generated:
-  at: "2026-10-26T06:21:45.768Z"
+  at: "2026-10-30T01:07:09.406Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -159,10 +159,10 @@ links:
       label: possibly related
       why: both name Page 30 "Item Card"
       by: code
-    - to: post/thedynamicsexplorer-com/37371
-      title: Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card
+    - to: post/thinkaboutit-be/8348
+      title: "Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions"
       label: possibly related
-      why: both name Page 30 "Item Card"
+      why: both name Page 42 "Sales Order"
       by: code
 video_id: tpAh4q3h8T8
 channel: yt-microsoft
@@ -377,6 +377,6 @@ No source states these links: they share an object, a model read them, or a pers
 - [Business Central Under the Hood episode 14: Building Agents in Business Central](../videos/Vq9Nk6_uxmQ.md) — possibly related: both name Page 42 "Sales Order"
 - [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 42 "Sales Order"
 - [Define Item Attributes for Item Variants](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md) — possibly related: both name Page 30 "Item Card"
-- [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../posts/thedynamicsexplorer-com/37371.md) — possibly related: both name Page 30 "Item Card"
+- [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../posts/thinkaboutit-be/8348.md) — possibly related: both name Page 42 "Sales Order"
 
 Presenters (as heard): Dimitri, Ida, Kenny, Mike Morton, Andre.

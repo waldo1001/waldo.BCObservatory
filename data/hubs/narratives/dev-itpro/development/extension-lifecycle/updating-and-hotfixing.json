@@ -1,38 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/development/extension-lifecycle/updating-and-hotfixing",
-  "input_hash": "db30a5467d10bdd0c0b96b7709bd8d200f8cfbf79a6a1637904dd8b95c2af203",
-  "summary": "Updating and hotfixing covers how Business Central apps and extensions are updated, upgraded and hotfixed through their lifecycle. It answers questions about submitting new versions to Marketplace, version numbering, hotfix validation, breaking changes, and writing upgrade code.",
-  "overview": "This section describes what happens to an app or extension after its first release: how it behaves through Business Central service updates, how partners ship app updates and bug fixes, and how breaking changes are handled. The lifecycle page explains partner responsibilities for maintenance and Microsoft's compatibility testing process.\n\nTwo FAQ pages cover the practical side of updating: version numbering, Partner Center submission, the validation process, update cadence, automatic and forced updates, and library app dependencies. A separate page covers hotfixing Marketplace apps, including validation requirements and breaking change detection when you submit a version that is not the latest.\n\nFor the technical side, the Upgrading Extensions page explains how to write upgrade code with triggers, control its execution with version data or upgrade tags, and run data migration. Start with the lifecycle page for the concepts, then use the FAQs for submission questions and the upgrade page when writing code.",
+  "input_hash": "0e522baeb511689e77619cb9aeacdd27323fb574f2bdb2e98e489e8bb0be7d3c",
+  "summary": "Updating and hotfixing covers how Business Central apps and extensions are updated, hotfixed and upgraded over their lifecycle. It answers questions about Marketplace app updates, version numbering, validation, hotfix rules, upgrade code and partner responsibilities.",
+  "overview": "This section explains what happens to apps and extensions after the first release. It covers how they behave through Business Central service updates, app updates, bug fixes and breaking changes, and what partners must do to maintain them. Microsoft's compatibility testing process is also described.\n\nTwo FAQ pages cover the practical side of submitting updates to the Marketplace: version numbering, Partner Center submission, validation, update cadence, force update, per-tenant extensions and code signing. A separate page covers hotfixing Marketplace apps, including validation of submissions that do not target the latest version and breaking change detection.\n\nFor the technical side, the Upgrading Extensions page describes writing upgrade code with triggers and controlling when it runs. Start with Lifecycle of Apps and Extensions for the overall picture. Then use the FAQs for submission questions, the hotfix page for patching older versions, and Upgrading Extensions when writing upgrade code.",
   "key_points": [
-    "The lifecycle page covers service updates, app updates, bug fixes, critical bugs, breaking changes and extension data retention.",
-    "Partners are responsible for maintaining their apps; the lifecycle page also explains Microsoft's compatibility testing process.",
-    "The FAQs cover app version numbering, Partner Center submission, the validation process, update cadence and library app dependencies.",
-    "Force updates during major releases, automatic app updates, upgrade codeunits, code signing and technical validation are covered in the FAQs.",
-    "Hotfixing a Marketplace app means submitting a non-latest version, which brings validation release ranges and breaking change detection.",
-    "The hotfix page covers AppSourceCop validation, public API restrictions and obsolete pending items.",
-    "Upgrade code uses the OnCheckPreconditions, OnUpgrade and OnValidate triggers.",
-    "Upgrade execution can be controlled by version data or upgrade tags, and the upgrade page also covers running data migration."
+    "Lifecycle of Apps and Extensions explains behavior through service updates, app updates, bug fixes, critical bugs and breaking changes, plus extension data retention.",
+    "The FAQ pages cover app version numbering, Partner Center submission, the validation process, update cadence and automatic app updates.",
+    "The FAQs also cover force update, per-tenant extensions, code signing, upgrade testing and library app dependencies.",
+    "Hotfixing a Marketplace app covers validation for non-latest version submissions, with examples of validation release ranges and restrictions.",
+    "Hotfix validation includes breaking change detection with AppSourceCop, obsolete pending handling and public API restrictions.",
+    "Upgrading Extensions describes upgrade triggers (OnCheckPreconditions, OnUpgrade, OnValidate) and data upgrade or migration.",
+    "Upgrade code execution can be controlled with version data or upgrade tags (2021 release wave 1).",
+    "The FAQs include best practices for avoiding submission delays."
   ],
   "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-17T01:13:12.346Z",
+  "at": "2026-10-30T01:11:01.556Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.012901
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-24T00:55:56.635Z",
-    "verdict": "fix",
-    "issues": [
-      "The key point saying 'the upgrade page lists 2021 release wave 1' doesn't help agents and could be misread as a minimum version or release date; the summaries never say what the tag means. I removed it.",
-      "The hotfix point claimed 'restrictions on public APIs and obsolete pending items'. The page summary only lists these as features, so I softened it to say the page covers them.",
-      "Minor: the lifecycle FAQ also covers upgrade codeunits, code signing, technical validation and Extension Management. I added these to the key points."
-    ],
-    "input_hash": "db30a5467d10bdd0c0b96b7709bd8d200f8cfbf79a6a1637904dd8b95c2af203",
-    "cost_usd": 0.0483632
+    "cost_usd": 0.01637
   }
 }

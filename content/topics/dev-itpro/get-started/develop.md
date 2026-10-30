@@ -2,20 +2,20 @@
 id: topic/dev-itpro/get-started/develop
 type: topic
 title: Develop
-summary: "Develop covers how partners build, publish, and maintain Business Central apps and extensions: getting started, customizing tenants, localization, marketplace submission and discontinuation, app lifecycle, and Microsoft versus partner responsibilities. It answers questions on publishing steps, update obligations, and app architecture."
+summary: The Develop section covers building, publishing, customizing and maintaining Business Central apps and extensions. It answers questions about becoming a publisher, marketplace submission and validation, embed apps, localization, app lifecycle, and the split of responsibilities between Microsoft and partners.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:01:12.216Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 648c078be91cb4ca9eeac00fba114507394cead608b1c4e2003c38fd135d8105
+  input_hash: 5247b8270c5644577fc5e25892d436598f39eb4f5ad59ecb43b39057c4c75533
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/appsource
@@ -55,7 +55,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/app-components
     title: Components and capabilities
-    date: "2023-12-28"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -146,7 +146,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-maintain
     title: Maintain Marketplace apps and per-tenant extensions
-    date: "2025-03-31"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -313,28 +313,28 @@ narrative: generated
 
 # Develop
 
-> Develop covers how partners build, publish, and maintain Business Central apps and extensions: getting started, customizing tenants, localization, marketplace submission and discontinuation, app lifecycle, and Microsoft versus partner responsibilities. It answers questions on publishing steps, update obligations, and app architecture.
+> The Develop section covers building, publishing, customizing and maintaining Business Central apps and extensions. It answers questions about becoming a publisher, marketplace submission and validation, embed apps, localization, app lifecycle, and the split of responsibilities between Microsoft and partners.
 
-Path: [Get started](../get-started.md) > Develop · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Get started](../get-started.md) > Develop · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Develop section is for partners and developers who want to extend Business Central. It starts with the business case (the SMB opportunity, Connect and Add-on app types) and the component model, which shows what Microsoft provides and what partners must build. From there it splits into customizing a tenant with the Designer or AL extensions, building localization apps, and building apps for the Microsoft marketplace.
+Develop is for partners and developers who build on Business Central. It covers the business case for app publishers (Connect and Add-on apps on the Microsoft Marketplace), the app components and capabilities available, and two ways to tailor the product: Designer or AL extensions in Visual Studio Code, tested on sandbox environments before production.
 
-Publishing pages walk through becoming a partner, registering as a publisher, getting a unique object range, and submitting through Partner Center with technical and marketing validation. Two subtopics go deeper: Marketplace validation (checklists, listing content, landing pages, videos) and Embed apps (partner-branded solutions with their own qualification and deployment rules).
+For publishing, the pages follow the path from partner registration to the marketplace and beyond. They cover registering as a publisher, getting a unique object range, adding an app to the Marketplace with technical and marketing validation, and later discontinuing it. Two subtopics go deeper: Marketplace validation (checklists, listing content, landing pages, videos) and Embed apps (partner-branded solutions, qualification, LCS deployment, App Management API).
 
-After release, the lifecycle, maintenance, and responsibilities pages explain service updates, preview, update and grace periods, and how to discontinue an app. A good order is: Get started building apps, Components and capabilities, then Add your App to Marketplace and the validation subtopic.
+After release, the lifecycle and maintenance pages explain how apps behave through service updates, bug fixes and breaking changes. They also cover what partners must do to stay compatible with each major release, and what Microsoft is responsible for in the online service. Start with "Get started building apps", then move to "Add your App to Marketplace".
 
 ## Key points
 
-- Getting started: become a partner, register as a publisher, get a unique object range, build the solution, and submit through Partner Center.
-- Customization options: in-client Designer for UI changes, or AL extensions in Visual Studio Code, tested in sandbox or Docker before production.
-- Marketplace submission requires both technical and marketing validation; embed apps have special handling.
-- Localization apps address local regulations, national standards, and market needs, using features like RapidStart data packages, translations, and setup guides.
-- Partners must keep apps updated for major and minor releases, using preview testing, update periods, and grace periods; incompatible apps can be removed automatically.
-- Microsoft handles infrastructure, capacity, high availability, disaster recovery, platform security, and the base application; partners maintain their own apps.
-- Discontinuing a marketplace app involves stopping distribution, updating the listing, notifying customers, and uninstallation.
-- Embed apps subtopic covers partner qualification, application family name in URLs, LCS deployment, customer access management, and the App Management API.
+- Getting started: become a partner, register as a publisher in Partner Center, get a unique object range, build the solution, then submit it.
+- Adding an app to the Marketplace requires marketing and technical validation, and embed apps get special handling.
+- Customization options are the in-client Designer for UI changes and AL extensions (page and table extensions, business logic) in Visual Studio Code, tested in sandbox or Docker first.
+- Localization apps address local regulations, national standards and market needs, using tools such as RapidStart data packages, translations and setup guides.
+- Partners must keep Marketplace apps and per-tenant extensions compatible with each major release, using preview environments, prerelease bits, AppSourceCop rules and automated extension validation.
+- Microsoft handles infrastructure, storage, high availability, disaster recovery, platform security, diagnostics and patching, while partners maintain their own apps.
+- Discontinuing a Marketplace app involves a Contact Me listing, stopping distribution, customer notification and app uninstallation.
+- Subtopics: Marketplace validation (15 pages) and Embed apps (10 pages).
 
 ## Subtopics
 

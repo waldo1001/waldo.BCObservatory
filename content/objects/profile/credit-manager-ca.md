@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:42:34.480Z"
+  at: "2026-10-30T01:00:43.748Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: bb651dccebf4da413e61ac661b0b0c017578c6628027a1dd2868c508d311f98a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Layers/NA/BaseApp/Profiles/CreditManager.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Layers/NA/BaseApp/Profiles/CreditManager.Profile.al
     title: src/Layers/NA/BaseApp/Profiles/CreditManager.Profile.al (releases/29.x)
     date: null
-    commit: 4c1c1638beb6d5da8540cc1f61889b80c7b3356f
+    commit: 7aa49e808916c060dbee97d9ff324a2cfda8d422
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Profile "CREDIT MANAGER" (CA) in the CA country layer. Introduced in BC29, still in BC30.
 
-CA country layer · captioned "Credit and Collections Manager" · BC29-30 · [source at 4c1c1638](https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Layers/NA/BaseApp/Profiles/CreditManager.Profile.al) · facts from BC29
+CA country layer · captioned "Credit and Collections Manager" · BC29-30 · [source at 7aa49e80](https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Layers/NA/BaseApp/Profiles/CreditManager.Profile.al) · facts from BC29
 
 An object of the [CA localization](../../localizations/ca.md), not part of W1.
 

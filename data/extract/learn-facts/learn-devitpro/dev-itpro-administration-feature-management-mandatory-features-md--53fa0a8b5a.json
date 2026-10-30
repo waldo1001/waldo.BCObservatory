@@ -2,33 +2,37 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/feature-management-mandatory-features.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management-mandatory-features",
   "title": "Optional Features Now Mandatory",
-  "blob": "6eb7ebb8192dc24c158dbaa1806c7944f3eaf640",
+  "blob": "6177c79d1c84daab5cb9f92f9f14d1794f1a47e8",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
+      "kind": "fact",
+      "text": "Features become mandatory starting from specific release versions when they transition from optional to automatically enabled."
+    },
+    {
       "kind": "status",
-      "text": "Generally available from 2026 release wave 2, version 29"
+      "text": "Generally available as of 2026 release wave 2 (version 29) for features listed as mandatory."
+    },
+    {
+      "kind": "step",
+      "text": "Check the Feature Management page to see the mandatory version in the Automatically enabled from field before a feature becomes non-disableable."
     },
     {
       "kind": "fact",
-      "text": "Optional features become mandatory after a period shown in the Feature Management page's 'Automatically enabled from' field"
-    },
-    {
-      "kind": "fact",
-      "text": "Mandatory features are removed from Feature Management and cannot be disabled once they become mandatory"
+      "text": "When a feature becomes mandatory, it no longer appears in Feature Management and cannot be disabled."
     },
     {
       "kind": "limit",
-      "text": "Advanced Tell Me moved from mandatory in version 29 to version 30; semantic similarity search moved from version 29 to version 30"
+      "text": "Six features are mandatory in version 29 and can no longer be controlled in Feature Management."
     },
     {
       "kind": "fact",
-      "text": "New features can be added disabled by default or enabled by default depending on the release"
+      "text": "Advanced Tell Me and semantic similarity search were delayed from version 29 to version 30 as mandatory."
     },
     {
-      "kind": "limit",
-      "text": "Multiple posting features moved from mandatory in version 29 to mandatory in version 30 or 31"
+      "kind": "prerequisite",
+      "text": "Some mandatory features apply to specific country localizations such as Italy VAT settlements and US 1099 forms."
     }
   ],
   "dropped": 0,
@@ -36,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008532,
-      "pages_in_call": 5
+      "cost_usd": 0.01325,
+      "pages_in_call": 2
     }
   ]
 }

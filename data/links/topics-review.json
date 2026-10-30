@@ -3672,64 +3672,118 @@
       }
     },
     "topic/business-central/copilot-and-agent-capabilities": {
+      "video/2uXVammbab0@fa3481568c91f678": {
+        "verdict": "keep",
+        "reason": "Covers Chat with Copilot, the Copilot and Agent Capabilities page, permissions and suggested item substitutes, all documented in this section.",
+        "at": "2026-10-30T01:09:02.993Z",
+        "v": 2
+      },
+      "video/58yOwN3GY2Q@3f00b8503691c0f8": {
+        "verdict": "keep",
+        "reason": "Overview of Copilot in Business Central, including marketing text suggestions, bank reconciliation and analysis assist.",
+        "at": "2026-10-30T01:09:02.993Z",
+        "v": 2
+      },
+      "video/eDi32pS8eMo@7eaf3e57779c66aa": {
+        "verdict": "drop",
+        "reason": "About a third-party Advanced Spreadsheets reporting app, which none of the section's Copilot or agent features cover.",
+        "at": "2026-10-30T01:09:02.993Z",
+        "v": 2
+      },
+      "video/H5EuObmeF4o@12b92711090ce702": {
+        "verdict": "keep",
+        "reason": "Covers sales order agent, payables agent, autofill, summarize and analysis assist enhancements documented here.",
+        "at": "2026-10-30T01:09:02.993Z",
+        "v": 2
+      },
+      "video/JBGuaqk5nXk@ac7484d03508a957": {
+        "verdict": "drop",
+        "reason": "Copilot for Sustainability emissions calculation isn't one of the capabilities this section documents.",
+        "at": "2026-10-30T01:09:02.993Z",
+        "v": 2
+      },
+      "video/K0i5rvqPC_o@1953128c28677979": {
+        "verdict": "keep",
+        "reason": "Explains how to troubleshoot Business Central agents (task logs, details) using the Sales Order Agent, which this section documents.",
+        "at": "2026-10-30T01:09:02.993Z",
+        "v": 2
+      },
+      "video/PeI-Jv4KVn8@d7787afd64d454ce": {
+        "verdict": "drop",
+        "reason": "A partner's Copilot feature for maintenance intake, which this section doesn't document.",
+        "at": "2026-10-30T01:09:02.993Z",
+        "v": 2
+      },
+      "video/xJ8gYzvWnTI@557e7f0b0553d470": {
+        "verdict": "keep",
+        "reason": "Covers the agent task pane, Sales Order Agent and Payables Agent, and managing agent tasks.",
+        "at": "2026-10-30T01:09:02.993Z",
+        "v": 2
+      },
+      "video/ygtO_oUPil4@cd46371bde298ea4": {
+        "verdict": "drop",
+        "reason": "A partner's Copilot feature for complaint management, which this section doesn't document.",
+        "at": "2026-10-30T01:09:02.993Z",
+        "v": 2
+      },
       "post/aardvarklabs-blog/3315@0edf025d892d5b2f": {
         "verdict": "keep",
-        "reason": "Troubleshooting agent tasks, permissions, profiles and Copilot credit consumption relates to managing agent capabilities.",
-        "at": "2026-10-29T22:03:05.490Z",
+        "reason": "Covers troubleshooting, permissions, profiles and Copilot credit monitoring for Business Central agents, which falls under managing agent capabilities.",
+        "at": "2026-10-30T01:09:05.630Z",
         "v": 2
       },
       "post/demiliani-com/11739@32e1caa7db380894": {
         "verdict": "keep",
-        "reason": "Discusses the Sales Order Agent and its billing, both covered by this section.",
-        "at": "2026-10-29T22:03:05.490Z",
+        "reason": "Explains how the Sales Order Agent works and how agent capabilities are billed.",
+        "at": "2026-10-30T01:09:05.630Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-tech-days-2026/@a06895f00c29036d": {
         "verdict": "drop",
-        "reason": "Conference reflection on AI agent sentiment; documents no specific capability in this section.",
-        "at": "2026-10-29T22:03:05.490Z",
+        "reason": "Conference reflection on community sentiment that documents no specific Copilot or agent capability.",
+        "at": "2026-10-30T01:09:05.630Z",
         "v": 2
       },
       "post/thinkaboutit-be/7284@b770c836c51cb9d0": {
-        "verdict": "keep",
-        "reason": "Reports general availability of the Payables Agent and Sales Order Agent, which this section documents.",
-        "at": "2026-10-29T22:03:05.490Z",
+        "verdict": "drop",
+        "reason": "General release-update roundup where the agents are only one bullet among many unrelated features.",
+        "at": "2026-10-30T01:09:05.630Z",
         "v": 2
       },
       "post/thinkaboutit-be/7797@ffc5fc0ed33817e8": {
         "verdict": "drop",
-        "reason": "Announcement of a training session list; mentions agents only as one of many session topics.",
-        "at": "2026-10-29T22:03:05.490Z",
+        "reason": "Index of launch training sessions across many areas, not an explanation of any Copilot feature.",
+        "at": "2026-10-30T01:09:05.630Z",
         "v": 2
       },
       "post/wingate365-com/https://blog.wingate365.com/2025/12/bc-community-2025-wrapped-blogs-videos.html@327d523848eb8fe0": {
         "verdict": "drop",
-        "reason": "Community blogging statistics; only shares the words AI and Copilot.",
-        "at": "2026-10-29T22:03:05.490Z",
+        "reason": "Community blogging statistics; it only counts AI/Copilot posts.",
+        "at": "2026-10-30T01:09:05.630Z",
         "v": 2
       },
       "post/yzhums-com/69476@404823025dc06f63": {
         "verdict": "keep",
-        "reason": "Overview of the Copilot features and agents this section lists.",
-        "at": "2026-10-29T22:03:05.490Z",
+        "reason": "Walks through most of the Copilot and agent capabilities documented in this section.",
+        "at": "2026-10-30T01:09:05.630Z",
         "v": 2
       },
       "post/yzhums-com/69681@2f966b47e983d58d": {
         "verdict": "drop",
-        "reason": "Year-end blog index with no substantive content on these capabilities.",
-        "at": "2026-10-29T22:03:05.490Z",
+        "reason": "Yearly blog index with no substantive content on any capability.",
+        "at": "2026-10-30T01:09:05.630Z",
         "v": 2
       },
       "video/0h8QBNmeORQ@d237eee5574f2b5e": {
         "verdict": "keep",
         "reason": "Demonstrates the Sales Order Agent and Payables Agent in action.",
-        "at": "2026-10-29T22:03:05.490Z",
+        "at": "2026-10-30T01:09:05.630Z",
         "v": 2
       },
       "video/1IIlArcHpOY@fa48c4fa0d4802da": {
         "verdict": "keep",
-        "reason": "Covers agent instructions, review experience and task monitoring, which relate to working with Business Central agents.",
-        "at": "2026-10-29T22:03:05.490Z",
+        "reason": "Shows working with agent instructions, task execution monitoring and the review experience for Business Central agents.",
+        "at": "2026-10-30T01:09:05.630Z",
         "v": 2
       }
     },
@@ -4286,110 +4340,110 @@
     "topic/business-central/copilot-and-agent-capabilities/sales-order-agent": {
       "video/7QJeTXzZaEk@3606b3ecbcc1c3b5": {
         "verdict": "keep",
-        "reason": "A hands-on walkthrough of setting up the Sales Order Agent, including its email account and contact creation.",
-        "at": "2026-10-29T22:02:52.903Z",
+        "reason": "Test drive of the Sales Order Agent including email account setup and contact creation.",
+        "at": "2026-10-30T01:09:02.116Z",
         "v": 2
       },
       "video/I7i25zBfyEQ@5a83545c719b496d": {
         "verdict": "keep",
-        "reason": "Covers how to set up and configure the Sales Order Agent, how it creates quotes and how its work is approved.",
-        "at": "2026-10-29T22:02:52.903Z",
+        "reason": "Demonstrates Sales Order Agent setup, quote creation and approval workflow.",
+        "at": "2026-10-30T01:09:02.116Z",
         "v": 2
       },
       "video/j6gadQyB4gM@a447a0a6d93ac10a": {
         "verdict": "keep",
-        "reason": "Covers one setting of the Sales Order Agent: custom email signatures.",
-        "at": "2026-10-29T22:02:52.903Z",
+        "reason": "Covers a configuration setting (custom email signatures) of the Sales Order Agent.",
+        "at": "2026-10-30T01:09:02.116Z",
         "v": 2
       },
       "video/kwGEoxN46hk@a3a7c80d9c7e7223": {
         "verdict": "keep",
-        "reason": "Shows how to set up several Sales Order Agents at once, including folder, review and contact-matching settings.",
-        "at": "2026-10-29T22:02:52.903Z",
+        "reason": "Shows configuring multiple Sales Order Agents, folders, review settings and contact matching.",
+        "at": "2026-10-30T01:09:02.116Z",
         "v": 2
       },
       "video/MKuOgMWXJ_8@c36e072796ffcd3b": {
         "verdict": "drop",
-        "reason": "Its subject is a different sample agent (the Sales Validation Agent), not the Sales Order Agent this section documents.",
-        "at": "2026-10-29T22:02:52.903Z",
+        "reason": "About a different sample agent (Sales Validation Agent), not the Sales Order Agent.",
+        "at": "2026-10-30T01:09:02.116Z",
         "v": 2
       },
       "video/Qmd6_5vYKDg@720332d74a6a74a4": {
         "verdict": "keep",
-        "reason": "Shows how the Sales Order Agent recognises and finds items in customer emails.",
-        "at": "2026-10-29T22:02:52.903Z",
+        "reason": "Explains how the Sales Order Agent searches and matches items from emails.",
+        "at": "2026-10-30T01:09:02.116Z",
         "v": 2
       },
       "video/qP0id91bIlA@2955d3db6f4e0f12": {
         "verdict": "drop",
-        "reason": "About design principles for generative AI prompt dialogues in general; the sibling Copilot sections cover the features it shows, and it never mentions the Sales Order Agent.",
-        "at": "2026-10-29T22:02:52.903Z",
+        "reason": "General generative AI design talk on sales line suggestions and other Copilot features documented in sibling sections.",
+        "at": "2026-10-30T01:09:02.116Z",
         "v": 2
       },
       "video/UIL8ej7mSKQ@04f9acd0b9e4c4a9": {
         "verdict": "keep",
-        "reason": "A release-wave overview that demonstrates several new Sales Order Agent features.",
-        "at": "2026-10-29T22:02:52.903Z",
+        "reason": "Release wave video presenting several new Sales Order Agent capabilities.",
+        "at": "2026-10-30T01:09:02.116Z",
         "v": 2
       },
       "video/XhO4oFmoh1M@d8636d677abfca91": {
         "verdict": "keep",
-        "reason": "An introduction to the Sales Order Agent that covers its setup, permissions, task pane and quote processing.",
-        "at": "2026-10-29T22:02:52.903Z",
+        "reason": "Introduction to the Sales Order Agent covering configuration, permissions, email processing and quotes.",
+        "at": "2026-10-30T01:09:02.116Z",
         "v": 2
       },
       "post/demiliani-com/11739@32e1caa7db380894": {
         "verdict": "keep",
-        "reason": "Explains how the Sales Order Agent processes emails and what it costs to run.",
-        "at": "2026-10-29T22:02:58.249Z",
+        "reason": "Explains what the Sales Order Agent does and what running it costs.",
+        "at": "2026-10-30T01:09:06.019Z",
         "v": 2
       },
-      "post/wingate365-com/https://blog.wingate365.com/2025/05/lets-setup-sales-order-agent-in.html@02b70376775b0735": {
+      "post/wingate365-com/https://blog.wingate365.com/2025/05/lets-setup-sales-order-agent-in.html@72a16d998aff4c27": {
         "verdict": "keep",
-        "reason": "Shows how to set up and use the Sales Order Agent.",
-        "at": "2026-10-29T22:02:58.249Z",
+        "reason": "Session recap that demos setting up the Sales Order Agent.",
+        "at": "2026-10-30T01:09:06.019Z",
         "v": 2
       },
-      "post/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html@112ff37dedeab19f": {
-        "verdict": "drop",
-        "reason": "Mainly about the Dynamics 365 licensing guide and Copilot Credits in general; the agent only gets a brief mention.",
-        "at": "2026-10-29T22:02:58.249Z",
+      "post/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html@71a9c33d7457db47": {
+        "verdict": "keep",
+        "reason": "Covers the license and Copilot Credit requirements for using the Sales Order Agent and describes what it does.",
+        "at": "2026-10-30T01:09:06.019Z",
         "v": 2
       },
       "post/yzhums-com/69256@68b78c02cfd0b7ea": {
         "verdict": "keep",
-        "reason": "Gives the specific credit cost per Sales Order Agent action, which matters to anyone running the agent.",
-        "at": "2026-10-29T22:02:58.249Z",
+        "reason": "Gives the credit cost per Sales Order Agent action and a way to try the agent; a close call, kept when in doubt.",
+        "at": "2026-10-30T01:09:06.019Z",
         "v": 2
       },
       "post/yzhums-com/69476@404823025dc06f63": {
         "verdict": "drop",
-        "reason": "An overview of every Copilot capability, which fits the parent section better than this one.",
-        "at": "2026-10-29T22:02:58.249Z",
+        "reason": "Overview of every Copilot feature that mentions sales order automation only in passing; it fits the parent section.",
+        "at": "2026-10-30T01:09:06.019Z",
         "v": 2
       },
       "video/_JkZCp64jNw@2217bab592982dae": {
         "verdict": "keep",
-        "reason": "Demonstrates several Sales Order Agent features, including item availability, email insights, customer auto-creation and the PDF preview.",
-        "at": "2026-10-29T22:02:58.249Z",
+        "reason": "Launch event that demos several Sales Order Agent features, including item availability, email insights and PDF preview.",
+        "at": "2026-10-30T01:09:06.019Z",
         "v": 2
       },
       "video/1ht5nxubZ9c@1248c21a0cb21e8b": {
         "verdict": "keep",
-        "reason": "Covers configuring the agent's mailbox folder, personal or shared, which is a setting this section documents.",
-        "at": "2026-10-29T22:02:58.249Z",
+        "reason": "Shows how to configure the Sales Order Agent's mailbox folder, personal or shared.",
+        "at": "2026-10-30T01:09:06.019Z",
         "v": 2
       },
       "video/2ujWYYecA2c@fca76e02397551a5": {
         "verdict": "keep",
-        "reason": "Walks through setting up and testing the Sales Order Agent with the 'Try it out' experience.",
-        "at": "2026-10-29T22:02:58.249Z",
+        "reason": "Walks through setting up and testing the Sales Order Agent.",
+        "at": "2026-10-30T01:09:06.019Z",
         "v": 2
       },
       "video/4nFViDASGhg@4be27f32b04abb35": {
         "verdict": "keep",
-        "reason": "Covers new Sales Order Agent features such as attachment analysis, custom instructions and capable-to-promise.",
-        "at": "2026-10-29T22:02:58.249Z",
+        "reason": "Shows the new Sales Order Agent features and settings in 2025 release wave 2.",
+        "at": "2026-10-30T01:09:06.019Z",
         "v": 2
       }
     },
@@ -6882,74 +6936,86 @@
     "topic/dev-itpro/development/extension-lifecycle/testing": {
       "post/demiliani-com/12482@b6104cb1d6840996": {
         "verdict": "drop",
-        "reason": "About updating sandbox environments to preview versions, which is environment administration rather than the AL testing this section documents.",
-        "at": "2026-10-25T17:51:08.190Z",
+        "reason": "About updating sandbox environments to preview versions, which is environment administration, not testing extensions.",
+        "at": "2026-10-30T01:09:10.516Z",
         "v": 2
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/07/al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing/@cc8830a1e4f346cb": {
         "verdict": "keep",
-        "reason": "A VS Code tool that shows how test handler functions are used in AL test codeunits.",
-        "at": "2026-10-25T17:51:08.190Z",
+        "reason": "A VS Code tool that analyses test handler functions (MessageHandler, ConfirmHandler, PageHandler) in test codeunits.",
+        "at": "2026-10-30T01:09:10.516Z",
         "v": 2
       },
       "post/gerardorenteria-blog/11565@a1adbb44bfa791e6": {
         "verdict": "keep",
-        "reason": "The changelog includes testing features this section covers, such as HTTP mocking with TestHttpRequestPolicy, TestType and test isolation.",
-        "at": "2026-10-25T17:51:08.190Z",
+        "reason": "The changelog includes testing features this section documents: TestHttpRequestPolicy mocking, the TestType property and test isolation.",
+        "at": "2026-10-30T01:09:10.516Z",
         "v": 2
       },
       "post/jpearson-blog/1590@e5d3f6540015d0a1": {
         "verdict": "keep",
-        "reason": "Covers running AL tests in the VS Code test explorer with AL Test Runner and the AL Language extension.",
-        "at": "2026-10-25T17:51:08.190Z",
+        "reason": "Covers running AL tests through the test explorer and AL Test Runner.",
+        "at": "2026-10-30T01:09:10.516Z",
         "v": 2
       },
       "post/sshadows-dk/https://sshadows.dk/blog/your-tests-all-pass/@f03044501f502b0e": {
         "verdict": "keep",
-        "reason": "A mutation testing tool that measures how good AL test suites are.",
-        "at": "2026-10-25T17:51:08.190Z",
+        "reason": "A mutation testing tool that measures the quality of AL test suites.",
+        "at": "2026-10-30T01:09:10.516Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/@14154f02a4527d5d": {
         "verdict": "keep",
-        "reason": "AL Runner is a tool for running AL tests, and the recap covers its test-execution fixes and safeguards.",
-        "at": "2026-10-25T17:51:08.190Z",
+        "reason": "Mainly covers AL Runner improvements for running AL tests, including test paging and safeguards against tests silently disappearing.",
+        "at": "2026-10-30T01:09:10.516Z",
+        "v": 2
+      },
+      "post/wingate365-com/https://blog.wingate365.com/2025/10/south-coast-summit-2025-ai-driven-page.html@0d806c4d729387e2": {
+        "verdict": "keep",
+        "reason": "Covers creating and scaling page scripting test automation.",
+        "at": "2026-10-30T01:09:10.516Z",
+        "v": 2
+      },
+      "post/yzhums-com/77021@47b7ed9708eb003b": {
+        "verdict": "keep",
+        "reason": "Covers new Page Scripting capabilities for repeatable user acceptance tests.",
+        "at": "2026-10-30T01:09:10.516Z",
         "v": 2
       },
       "video/9CW5mydS9Vs@ac90087b90c2ab2e": {
         "verdict": "keep",
-        "reason": "Microsoft session on AL tests, test libraries, runners, test isolation and test types.",
-        "at": "2026-10-25T17:51:08.190Z",
+        "reason": "Covers test libraries, test isolation, test type, runners and test permissions for BC apps.",
+        "at": "2026-10-30T01:09:10.516Z",
         "v": 2
       },
       "video/eUkx_VCcyoU@7b21270aaf33f5fa": {
         "verdict": "keep",
-        "reason": "Part of the video covers the HTTP client handler used for testing.",
-        "at": "2026-10-25T17:51:08.190Z",
+        "reason": "Includes the HTTP Client Handler for testing, a testing feature this section documents.",
+        "at": "2026-10-30T01:09:10.516Z",
         "v": 2
       },
       "video/hNom9ZZuca0@a0273f33cef1d527": {
         "verdict": "keep",
-        "reason": "Covers new AL testing framework features: data-driven tests and test handlers.",
-        "at": "2026-10-25T17:51:08.190Z",
+        "reason": "Covers data-driven testing and test handlers in the AL testing framework.",
+        "at": "2026-10-30T01:09:10.516Z",
         "v": 2
       },
       "video/JI9OpaBx0nk@a7e451a7d6fd0a0c": {
         "verdict": "keep",
-        "reason": "Shows how to mock outbound HTTP calls in AL tests with handlers and test HTTP request policies.",
-        "at": "2026-10-25T17:51:08.190Z",
+        "reason": "Covers mocking outbound HTTP calls in AL tests with the test HTTP request policy.",
+        "at": "2026-10-30T01:09:10.516Z",
         "v": 2
       },
       "video/qlFEdXPjX6A@c0acd9d9c46340fd": {
         "verdict": "keep",
-        "reason": "Part of the video covers the AI Test Type and the Required Test Isolation property.",
-        "at": "2026-10-25T17:51:08.190Z",
+        "reason": "Includes the AI Test Type and the Required Test Isolation property, both testing features.",
+        "at": "2026-10-30T01:09:10.516Z",
         "v": 2
       },
       "video/xr8C3c6WhOI@e9e8ed3d1b5f4c07": {
         "verdict": "keep",
-        "reason": "Covers automating extension tests in AL-Go, including page scripting tests and deploying test apps.",
-        "at": "2026-10-25T17:51:08.190Z",
+        "reason": "Covers running page scripting tests and deploying test apps in AL-Go workflows.",
+        "at": "2026-10-30T01:09:10.516Z",
         "v": 2
       }
     },
@@ -9890,148 +9956,154 @@
       }
     },
     "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview": {
-      "video/3UcLmXqyl44@9ea4c0524241f20f": {
-        "verdict": "keep",
-        "reason": "Exporting and importing agent definitions is part of designing and distributing agents.",
-        "at": "2026-10-26T10:54:51.507Z",
-        "v": 2
-      },
-      "video/9zQZHfXK-PQ@7e65b7781b453b60": {
-        "verdict": "drop",
-        "reason": "It's about GitHub Copilot coding agents producing documentation, not about designing Business Central agents.",
-        "at": "2026-10-26T10:54:51.507Z",
-        "v": 2
-      },
-      "video/aNRzlbxVPWE@723693d67525e5df": {
-        "verdict": "keep",
-        "reason": "Writing agent evals in AL is part of coding agents in AL.",
-        "at": "2026-10-26T10:54:51.507Z",
-        "v": 2
-      },
-      "video/jWqjDTbqjeE@d3cbde4e3c06d5d7": {
-        "verdict": "keep",
-        "reason": "It directly introduces envisioning, designing and coding Business Central agents.",
-        "at": "2026-10-26T10:54:51.507Z",
-        "v": 2
-      },
-      "video/moPzf04Mwlc@10cfe2480ef1c60c": {
-        "verdict": "keep",
-        "reason": "It shows creating and configuring agents with instructions and permissions in the agent designer.",
-        "at": "2026-10-26T10:54:51.507Z",
-        "v": 2
-      },
-      "video/nbGw2g3KMXI@c6dea39b6e68bacc": {
-        "verdict": "keep",
-        "reason": "It covers building custom agents in AL, including the task builder and agent creation codeunits.",
-        "at": "2026-10-26T10:54:51.507Z",
-        "v": 2
-      },
-      "video/nPF84Ufkn4k@012dca0e9f432a5e": {
-        "verdict": "keep",
-        "reason": "It explains the agent runtime and Agent SDK that coded agents run on.",
-        "at": "2026-10-26T10:54:51.507Z",
-        "v": 2
-      },
-      "video/Vq9Nk6_uxmQ@a2d0675f3631ef6c": {
-        "verdict": "keep",
-        "reason": "It covers building custom agents: instructions, profiles, permissions and the Agent SDK.",
-        "at": "2026-10-26T10:54:51.507Z",
-        "v": 2
-      },
-      "video/WFAZLsUTk20@1f56f4fab9b3f33d": {
-        "verdict": "keep",
-        "reason": "Instruction history is a feature of the agent design tooling.",
-        "at": "2026-10-26T10:54:51.507Z",
-        "v": 2
-      },
-      "video/WjF_sESaIPo@357cfb9dc00807a3": {
-        "verdict": "drop",
-        "reason": "It's a customer story about a manifest-processing solution and doesn't explain how agents are designed or coded.",
-        "at": "2026-10-26T10:54:51.507Z",
-        "v": 2
-      },
-      "video/xqwJTCPD9tA@f87d41bca591a38c": {
-        "verdict": "drop",
-        "reason": "Its subject is integration design patterns; AI agents are only the tool used to build them.",
-        "at": "2026-10-26T10:54:51.507Z",
-        "v": 2
-      },
-      "video/zei-IszvYNU@8eb722c8c56e1306": {
-        "verdict": "drop",
-        "reason": "MCP server API configuration is documented in the sibling Model Context Protocol section.",
-        "at": "2026-10-26T10:54:51.507Z",
-        "v": 2
-      },
       "post/aardvarklabs-blog/1891@4b250d20fdf70c35": {
         "verdict": "drop",
-        "reason": "An AI-assisted feature built with Copilot development tools, not the agent framework; the Copilot developer-tools sibling fits better.",
-        "at": "2026-10-26T10:54:52.842Z",
+        "reason": "It builds an AI feature that calls a model to extract keywords, which fits the Copilot developer tools section, not the agent framework.",
+        "at": "2026-10-30T01:09:07.459Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3348@8ff3d67fd29ae409": {
         "verdict": "keep",
-        "reason": "Secures AL-coded agents with profiles, page customizations and permission sets, which is part of building agents.",
-        "at": "2026-10-26T10:54:52.842Z",
+        "reason": "It shows AL code that restricts Business Central agents with profiles, page customizations and permission sets, which is part of coding an agent.",
+        "at": "2026-10-30T01:09:07.459Z",
         "v": 2
       },
       "post/bertverbeek-nl/1183@836d745bea423af5": {
         "verdict": "drop",
-        "reason": "About connecting outside agents through the MCP server, which the MCP sibling section documents.",
-        "at": "2026-10-26T10:54:52.842Z",
+        "reason": "It is about connecting outside agents to the Business Central MCP server, which the sibling MCP section documents.",
+        "at": "2026-10-30T01:09:07.459Z",
         "v": 2
       },
       "post/bertverbeek-nl/1219@87302a808e16dbc5": {
         "verdict": "keep",
-        "reason": "Explains custom agent architecture and the Agent Task Builder and message codeunits used in AL.",
-        "at": "2026-10-26T10:54:52.842Z",
+        "reason": "It explains the custom agent architecture and how to create and manage agent tasks and messages in AL.",
+        "at": "2026-10-30T01:09:07.459Z",
         "v": 2
       },
       "post/bertverbeek-nl/1237@d781f507e6dbc735": {
         "verdict": "keep",
-        "reason": "Covers writing agent instructions, which is central to designing agents.",
-        "at": "2026-10-26T10:54:52.842Z",
+        "reason": "It covers how to write agent instructions, memory and page-specific instructions when designing Business Central agents.",
+        "at": "2026-10-30T01:09:07.459Z",
         "v": 2
       },
       "post/bertverbeek-nl/1290@c0cc261a9428932c": {
         "verdict": "keep",
-        "reason": "Compares agents built in Business Central (AL, AppSource deployment) with Copilot Studio agents.",
-        "at": "2026-10-26T10:54:52.842Z",
-        "v": 2
-      },
-      "post/jeremyvyska-com/1763@f4339e6f5fa6600c": {
-        "verdict": "drop",
-        "reason": "About AI-assisted speaker coaching, unrelated to Business Central agents.",
-        "at": "2026-10-26T10:54:52.842Z",
+        "reason": "It compares agents built in Business Central with AL against Copilot Studio agents, covering deployment and capabilities.",
+        "at": "2026-10-30T01:09:07.459Z",
         "v": 2
       },
       "post/kauffmann-nl/8436@0c5efab89397496f": {
         "verdict": "keep",
-        "reason": "Covers the Agent Design Experience and converting a design into an AL agent project.",
-        "at": "2026-10-26T10:54:52.842Z",
+        "reason": "It covers the Agent Design Experience and turning a designed agent into AL code with the Agent template.",
+        "at": "2026-10-30T01:09:07.459Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8348@19e2fb72d538ae7b": {
+        "verdict": "drop",
+        "reason": "Edit with Copilot is an end-user feature for changing data in natural language, not designing or coding agents.",
+        "at": "2026-10-30T01:09:07.459Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8359@db8d195b01005a25": {
+        "verdict": "drop",
+        "reason": "Its development content is about AI coding assistants for writing AL and about Cowork orchestration, not building Business Central agents in AL.",
+        "at": "2026-10-30T01:09:07.459Z",
         "v": 2
       },
       "post/yzhums-com/70502@de72ba277dfa36dd": {
         "verdict": "keep",
-        "reason": "Demonstrates the agent designer in BC27.4 for creating custom agents.",
-        "at": "2026-10-26T10:54:52.842Z",
+        "reason": "It walks through the agent designer wizard, instructions and task playground for creating custom agents.",
+        "at": "2026-10-30T01:09:07.459Z",
         "v": 2
       },
       "post/yzhums-com/71363@d28a8c053c24b815": {
         "verdict": "keep",
-        "reason": "Covers the AL Agent project template for starting agent development.",
-        "at": "2026-10-26T10:54:52.842Z",
+        "reason": "It covers the AL Agent project template for starting agent development.",
+        "at": "2026-10-30T01:09:07.459Z",
         "v": 2
       },
       "post/yzhums-com/71603@bd1401b024142e11": {
         "verdict": "drop",
-        "reason": "A broad release-plan overview whose 'coding agents' means AI tools that help developers write code, not agents built in AL.",
-        "at": "2026-10-26T10:54:52.842Z",
+        "reason": "It is a general release plan overview, and its 'coding agents' means AI tools that help developers write AL.",
+        "at": "2026-10-30T01:09:07.459Z",
         "v": 2
       },
       "post/yzhums-com/76419@b75bbbf068944086": {
         "verdict": "drop",
-        "reason": "Covers MCP server data query tools, which belong to the MCP sibling section.",
-        "at": "2026-10-26T10:54:52.842Z",
+        "reason": "MCP Server data query tools belong to the sibling MCP section.",
+        "at": "2026-10-30T01:09:07.459Z",
+        "v": 2
+      },
+      "video/3UcLmXqyl44@9ea4c0524241f20f": {
+        "verdict": "keep",
+        "reason": "Exporting and importing agent definitions is part of designing and moving agents.",
+        "at": "2026-10-30T01:09:16.144Z",
+        "v": 2
+      },
+      "video/9zQZHfXK-PQ@7e65b7781b453b60": {
+        "verdict": "drop",
+        "reason": "Covers GitHub Copilot coding agents for documentation, not building Business Central agents.",
+        "at": "2026-10-30T01:09:16.144Z",
+        "v": 2
+      },
+      "video/aNRzlbxVPWE@723693d67525e5df": {
+        "verdict": "keep",
+        "reason": "Shows how to write evals in AL for agents, which supports coding agents.",
+        "at": "2026-10-30T01:09:16.144Z",
+        "v": 2
+      },
+      "video/jWqjDTbqjeE@d3cbde4e3c06d5d7": {
+        "verdict": "keep",
+        "reason": "Directly introduces how to envision, design and code Business Central agents.",
+        "at": "2026-10-30T01:09:16.144Z",
+        "v": 2
+      },
+      "video/moPzf04Mwlc@10cfe2480ef1c60c": {
+        "verdict": "keep",
+        "reason": "Demonstrates creating and configuring custom agents with the creation wizard, instructions and permissions.",
+        "at": "2026-10-30T01:09:16.144Z",
+        "v": 2
+      },
+      "video/nbGw2g3KMXI@c6dea39b6e68bacc": {
+        "verdict": "keep",
+        "reason": "Covers building agents in AL, including the task builder, factory and creation codeunits.",
+        "at": "2026-10-30T01:09:16.144Z",
+        "v": 2
+      },
+      "video/nPF84Ufkn4k@012dca0e9f432a5e": {
+        "verdict": "keep",
+        "reason": "Explains how the agent runtime and SDK run the agents that developers design.",
+        "at": "2026-10-30T01:09:16.144Z",
+        "v": 2
+      },
+      "video/Vq9Nk6_uxmQ@a2d0675f3631ef6c": {
+        "verdict": "keep",
+        "reason": "Covers building custom agents with instructions, profiles, permissions and the Agent SDK.",
+        "at": "2026-10-30T01:09:16.144Z",
+        "v": 2
+      },
+      "video/WFAZLsUTk20@1f56f4fab9b3f33d": {
+        "verdict": "keep",
+        "reason": "Instruction history is a feature of designing agent instructions.",
+        "at": "2026-10-30T01:09:16.144Z",
+        "v": 2
+      },
+      "video/WjF_sESaIPo@357cfb9dc00807a3": {
+        "verdict": "drop",
+        "reason": "Customer story about one agent solution; it doesn't cover how to design or code agents.",
+        "at": "2026-10-30T01:09:16.144Z",
+        "v": 2
+      },
+      "video/xqwJTCPD9tA@f87d41bca591a38c": {
+        "verdict": "drop",
+        "reason": "About integration design patterns built with AI coding agents, not Business Central agents.",
+        "at": "2026-10-30T01:09:16.144Z",
+        "v": 2
+      },
+      "video/zei-IszvYNU@8eb722c8c56e1306": {
+        "verdict": "drop",
+        "reason": "About MCP server API configuration, which the sibling MCP section covers.",
+        "at": "2026-10-30T01:09:16.144Z",
         "v": 2
       }
     },

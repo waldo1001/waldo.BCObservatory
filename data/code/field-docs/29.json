@@ -3,21 +3,21 @@
     7,
     [
       1,
-      "4c1c1638beb6d5da8540cc1f61889b80c7b3356f",
+      "7aa49e808916c060dbee97d9ff324a2cfda8d422",
       "4",
-      "4c1c1638beb6d5da8540cc1f61889b80c7b3356f",
+      "7aa49e808916c060dbee97d9ff324a2cfda8d422",
       "4"
     ]
   ],
   "schema": "bcobs-field-docs@1",
   "major": "29",
   "stats": {
-    "tooltips": 18820,
-    "bound": 12761,
+    "tooltips": 18838,
+    "bound": 12779,
     "unparsed": 2990,
     "unmatched": 3069,
-    "tables": 1081,
-    "fields": 8961
+    "tables": 1083,
+    "fields": 8971
   },
   "tables": {
     "table/4": {
@@ -46708,6 +46708,60 @@
         "tooltip": "Specifies the last record that was processed before the error occurred.",
         "page": "page/47020",
         "control": "LastRecordUnderProcessing"
+      }
+    },
+    "table/48500": {
+      "Fabric Schema Type": {
+        "tooltip": "Specifies whether the table is exported as data or logging.",
+        "page": "page/48514",
+        "control": "Fabric Schema Type"
+      },
+      "Per Company": {
+        "tooltip": "Specifies whether the table is exported per company.",
+        "page": "page/48514",
+        "control": "Per Company"
+      },
+      "Table ID": {
+        "tooltip": "Specifies the ID of the table included in this configuration package.",
+        "page": "page/48514",
+        "control": "Table ID"
+      },
+      "Table Name": {
+        "tooltip": "Specifies the name of the table.",
+        "page": "page/48514",
+        "control": "Table Name"
+      }
+    },
+    "table/48501": {
+      "Activated By": {
+        "tooltip": "Specifies who activated this package.",
+        "page": "page/48513",
+        "control": "Activated By"
+      },
+      "Activated On": {
+        "tooltip": "Specifies when this package was last activated.",
+        "page": "page/48513",
+        "control": "Activated On"
+      },
+      "Active": {
+        "tooltip": "Specifies whether this configuration package is currently active.",
+        "page": "page/48513",
+        "control": "Active"
+      },
+      "Code": {
+        "tooltip": "Specifies the unique code for the configuration package.",
+        "page": "page/48513",
+        "control": "Code"
+      },
+      "Description": {
+        "tooltip": "Specifies a description of the configuration package.",
+        "page": "page/48513",
+        "control": "Description"
+      },
+      "Version": {
+        "tooltip": "Specifies the version of the configuration package.",
+        "page": "page/48513",
+        "control": "Version"
       }
     },
     "table/130400": {

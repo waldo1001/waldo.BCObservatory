@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/77021",
+  "input_hash": "11c8f1437e504aa273e40fbe42cd6c99deffc40b82337b707b31e83f21943c8c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-30T01:09:39.249Z",
+  "issues": [
+    "The reporting system is not supported; the post is about page scripting for recording, replay and acceptance testing.",
+    "Summary, key points and the quote match the post."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036633,
+    "posts_in_call": 4
+  }
+}

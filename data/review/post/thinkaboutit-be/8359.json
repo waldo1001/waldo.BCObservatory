@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thinkaboutit-be/8359",
+  "input_hash": "fe4c933438da476c31ffce9161554db155160930e6477d8bd86ef6b90150ae8c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-30T01:09:39.249Z",
+  "issues": [
+    "BCQuality and BC-Bench are a repository and an evaluation effort, not AL objects; removed from objects.",
+    "Summary, key points, quotes and timeline targets are supported by the post."
+  ],
+  "applied": [
+    "dropped 2 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036633,
+    "posts_in_call": 4
+  }
+}

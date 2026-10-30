@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:48:13.593Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-30T01:07:09.406Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -123,13 +123,18 @@ links:
   posts: []
   guidelines: []
   related:
-    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report
-      title: Create and Submit Expense Reports
+    - to: post/thinkaboutit-be/8348
+      title: "Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions"
       label: possibly related
-      why: names Page 6997 "Expense Reports"
+      why: both name Page 6997 "Expense Reports"
       by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-overview
       title: Expense Management Overview in Business Central
+      label: possibly related
+      why: names Page 6997 "Expense Reports"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts
+      title: Upload Receipts and Create Mileage Expenses
       label: possibly related
       why: names Page 6997 "Expense Reports"
       by: code
@@ -389,7 +394,8 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
-- [Create and Submit Expense Reports](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report) — possibly related: names Page 6997 "Expense Reports"
+- [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../posts/thinkaboutit-be/8348.md) — possibly related: both name Page 6997 "Expense Reports"
 - [Expense Management Overview in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-overview) — possibly related: names Page 6997 "Expense Reports"
+- [Upload Receipts and Create Mileage Expenses](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts) — possibly related: names Page 6997 "Expense Reports"
 
 Presenters (as heard): Alexander Totovic, Monica Ahuja.

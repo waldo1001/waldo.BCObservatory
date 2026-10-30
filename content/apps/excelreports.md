@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:46:30.808Z"
+  at: "2026-10-30T01:04:48.899Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: de86cc15c5074540e98d18412da6cd2e8d53da5a8a456d5d832ec2a24a1e76a9
+  input_hash: 967e7f10fc0a6d0686489a41493f93f7b3f6570ccfe1b8fd1d6b7a3f34ef7b83
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ExcelReports/app

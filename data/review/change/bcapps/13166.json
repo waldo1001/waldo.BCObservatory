@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/13166",
+  "input_hash": "679a71a31dc9c200f5014d5389e9ccf566835d9f9f81bf8af469731311fb5df3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-30T01:10:03.332Z",
+  "issues": [
+    "The description is only a work item link. The phrase 'when not applicable to the transfer type' is speculation and is not supported."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019135,
+    "changes_in_call": 6
+  }
+}

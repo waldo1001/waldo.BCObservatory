@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:08.742Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,6 +69,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/10992
     - change/bcapps/11342
 learn_toc_path:
   - Integration
@@ -125,6 +126,7 @@ Start with Publish a Web Service to get an endpoint running. Then read the UI in
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10992 [Extensibility Request] issue 30420: add service post and send events](../../../../changes/bcapps/10992.md) (code change): "extension points that allow integrations to support additional service"
 - [#11342 [29.x][ALL-E] Document Type is Quote in Document Attachment table (1173) after posting a Sales Invoice with attachmentsIntial Commit](../../../../changes/bcapps/11342.md) (code change): "Document attachments transferred after posting a sales invoice"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/finance
 type: topic
 title: Finance
-summary: Finance in Business Central covers general ledger and accounting, period closing, dimensions, currencies, receivables, payables, bank reconciliation, VAT, cost and inventory costing, cash flow, financial analytics, E-Documents, consolidation and withholding and excise tax. It answers setup and how-to questions for accountants and finance teams.
+summary: Finance in Business Central covers general ledger and chart of accounts, period closing, dimensions, currencies, receivables, payables, bank reconciliation, VAT, withholding and excise tax, cost accounting, inventory costs, cash flow, analytics, E-Documents and multi-company setups. It answers setup, posting, reporting and compliance questions for accounting work.
 tier: official
 language: en
 system: finance
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:00:22.187Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-29T00:22:43.725Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9d17323c5c715859a7e2ad0416e149f98c2a4a5d079b18e13055eec25306ac79
+  input_hash: 7651e2049f34f24f41a7aae67a260e0a67243cedce7d385d455aed95fdd620f2
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-about-calculating-standard-cost
@@ -236,13 +236,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/bank-review-posted-reconciliations
-    title: bank review posted reconciliations
-    date: "2026-10-28"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-how-block-vendors
     title: Block vendors
     date: "2024-12-16"
@@ -295,6 +288,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-20
     title: Calculate and Post Tax Settlement (report)
     date: "2025-06-25"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/finance-withholding-tax
+    title: Calculate withholding tax for vendors
+    date: "2026-09-01"
     commit: null
     t: null
     quote: null
@@ -394,6 +394,7 @@ links:
     - object/page/371
     - object/page/377
     - object/page/378
+    - object/page/383
     - object/page/389
     - object/page/391
     - object/page/395
@@ -891,7 +892,7 @@ children:
   - topic/business-central/business-functionality/finance/multi-site-and-international-organizatio
 coverage:
   learn: 257
-  code: 524
+  code: 525
   video: 5
   blog: 1
   guideline: 0
@@ -1019,6 +1020,7 @@ bc_forms:
   - 371
   - 377
   - 378
+  - 383
   - 389
   - 391
   - 395
@@ -1257,6 +1259,7 @@ bc_forms:
   - 1393
   - 1394
   - 1404
+  - 1407
   - 1660
   - 1661
   - 1690
@@ -1435,28 +1438,28 @@ narrative: generated
 
 # Finance
 
-> Finance in Business Central covers general ledger and accounting, period closing, dimensions, currencies, receivables, payables, bank reconciliation, VAT, cost and inventory costing, cash flow, financial analytics, E-Documents, consolidation and withholding and excise tax. It answers setup and how-to questions for accountants and finance teams.
+> Finance in Business Central covers general ledger and chart of accounts, period closing, dimensions, currencies, receivables, payables, bank reconciliation, VAT, withholding and excise tax, cost accounting, inventory costs, cash flow, analytics, E-Documents and multi-company setups. It answers setup, posting, reporting and compliance questions for accounting work.
 
-Path: [Business functionality](../business-functionality.md) > Finance · tier official · system finance · narrative reviewed (checked by Opus)
+Path: [Business functionality](../business-functionality.md) > Finance · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Finance section groups everything an accountant needs in Business Central. Its own pages give the entry points: an overview of financial management, a guide to accounting and bookkeeping (chart of accounts, posting groups, payment terms and methods, payment tolerance), and a page on the Accountant role center, including inviting external accountants and using the Company Hub across companies.
+Finance is the broadest functional area in Business Central. It starts with an overview of financial management and an accounting and bookkeeping guide covering the chart of accounts, posting groups, payment terms, payment methods and payment tolerance. The Accountant Role Center page explains how accountants reach financial pages and reports, invite external accountants and work across companies with the Company Hub.
 
-The subtopics split the work by task. Core ledger work sits under the chart of accounts and general ledger, dimensions, currencies, and closing years and periods. Transaction flows are covered under receivables, payables, prepayments and bank reconciliation. Costing is covered by cost accounting and inventory costs. Reporting and compliance are covered by financial analytics, cash flow, VAT, E-Documents, and multi-site consolidation and intercompany.
+Subtopics split the work by task. Core ledger work sits in the chart of accounts and G/L, dimensions, currencies and closing years and periods. The order-to-cash and procure-to-pay sides are covered by receivables, payables, prepayments and bank reconciliation. Tax and compliance topics include VAT and E-Documents. Cost accounting, inventory costs and cash flow cover cost and liquidity views. Financial analytics and multi-site organizations handle reporting and consolidation.
 
-The own pages also cover tax topics: calculating withholding tax for vendors, setting up and posting employee withholding tax, viewing withholding tax entries, and registering excise tax. Start with the financial management overview and the accounting and bookkeeping page, then go to the subtopic that matches your task.
+The pages in this section itself cover withholding tax for vendors and employees, a page for viewing withholding tax entries, and excise tax registration. For a new setup, read the financial management overview and the accounting and bookkeeping page first, then go to the subtopic matching the task.
 
 ## Key points
 
-- The Accountant Role Center gives access to financial pages and reports. External accountants can be invited, and the Company Hub helps manage work across multiple companies.
-- Accounting and bookkeeping setup covers the chart of accounts, posting groups, payment methods, payment terms and payment tolerance.
-- Withholding tax for vendors is calculated on purchase invoices and orders from vendor, item and G/L account setup. It applies when minimum thresholds are met.
-- Employee withholding tax is set up with posting groups, a Gross or Net calculation base, threshold options and period-based accumulation. The Withholding Tax Entries page shows vendor and employee entries with party type.
-- Excise tax registration for goods such as fuel, alcohol and tobacco tracks tax amounts without creating G/L entries.
-- Period-end work is covered by Closing years and periods, which includes the Close Income Statement batch job and the year-end closing entry.
-- Financial analytics is the largest subtopic (129 pages). It covers the Power BI finance app, Financial Reporting, Data Analysis and consolidation.
-- Other subtopics cover VAT, E-Documents (including Peppol), cost accounting, inventory costing, cash flow forecasting, prepayments, bank reconciliation, receivables and payables.
+- Accountant Role Center gives access to financial pages and reports, lets you invite external accountants, and supports multiple companies through the Company Hub.
+- Accounting and bookkeeping basics include the chart of accounts, posting groups, payment terms, payment methods and payment tolerance.
+- Vendor withholding tax is calculated on purchase invoices and orders from vendor, item and G/L account setup, using a withholding tax liable toggle, a business posting group and a minimum threshold.
+- Employee withholding tax is set up with posting groups, a Gross or Net calculation base, thresholds accumulated by period, tax component grouping and expense category settings.
+- The Withholding Tax Entries page shows base amount, tax amount, posting groups and party type for vendor and employee transactions.
+- Excise tax registration for goods like fuel, alcohol and tobacco tracks tax amounts without creating general ledger entries, and supports multiple tax types and an excise journal.
+- Subtopics cover period and year-end closing, dimensions, currencies, VAT, bank reconciliation, prepayments, cost accounting, inventory costs and cash flow.
+- Financial analytics (129 pages) is the largest subtopic and covers the Power BI finance app, Financial Reporting, Data Analysis and consolidation.
 
 ## Subtopics
 
@@ -1615,6 +1618,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 371 "Bank Account List"](../../../objects/page/371.md) · captioned "Bank Accounts" · on [Table 270 "Bank Account"](../../../objects/table/270.md) · via [Manage receivables](finance/manage-receivables.md)
 - [Page 377 "Bank Account Balance"](../../../objects/page/377.md) · on [Table 270 "Bank Account"](../../../objects/table/270.md) · via [Reconcile bank accounts](finance/reconcile-bank-accounts.md)
 - [Page 378 "Bank Account Balance Lines"](../../../objects/page/378.md) · captioned "Lines" · on [Table 929 "Bank Account Balance Buffer"](../../../objects/table/929.md) · via [Reconcile bank accounts](finance/reconcile-bank-accounts.md)
+- [Page 383 "Bank Account Statement"](../../../objects/page/383.md) · on [Table 275 "Bank Account Statement"](../../../objects/table/275.md) · via [Reconcile bank accounts](finance/reconcile-bank-accounts.md)
 - [Page 389 "Bank Account Statement List"](../../../objects/page/389.md) · on [Table 275 "Bank Account Statement"](../../../objects/table/275.md) · via [Manage receivables](finance/manage-receivables.md)
 - [Page 391 "Extended Text List"](../../../objects/page/391.md) · on [Table 279 "Extended Text Header"](../../../objects/table/279.md) · via [Working with Value Added Tax (VAT)](finance/working-with-value-added-tax-vat.md)
 - [Page 395 "General Posting Setup Card"](../../../objects/page/395.md) · on [Table 252 "General Posting Setup"](../../../objects/table/252.md) · via [Financial analytics](finance/financial-analytics.md)
@@ -2036,6 +2040,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Report 5610 "Fixed Asset - G/L Analysis"](../../../objects/report/5610.md) · captioned "Fixed Asset G/L Analysis" · via [Financial analytics](finance/financial-analytics.md)
 - [Report 5611 "FA Posting Group - Net Change"](../../../objects/report/5611.md) · via [Financial analytics](finance/financial-analytics.md)
 
-Learn also names 40 objects with no object page: page/311, page/325, page/326, page/327, page/328, page/1826, page/5261, page/8451, page/10015, page/10016, page/10101, page/10140, page/10141, page/10143, page/10144, page/10146, page/10147, page/10148, page/10810, page/10811, page/11300, page/11400, page/11402, page/11403, page/11405, page/12202, page/12409, page/12410, page/12411, page/31077, page/36601, page/36646, page/2000000, page/2000001, page/2000003, page/2000020, page/2000021, page/2000022, report/10007, report/10008.
+Learn also names 41 objects with no object page: page/311, page/325, page/326, page/327, page/328, page/1407, page/1826, page/5261, page/8451, page/10015, page/10016, page/10101, page/10140, page/10141, page/10143, page/10144, page/10146, page/10147, page/10148, page/10810, page/10811, page/11300, page/11400, page/11402, page/11403, page/11405, page/12202, page/12409, page/12410, page/12411, page/31077, page/36601, page/36646, page/2000000, page/2000001, page/2000003, page/2000020, page/2000021, page/2000022, report/10007, report/10008.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

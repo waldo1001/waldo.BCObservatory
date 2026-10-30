@@ -4786,6 +4786,24 @@
         }
       ]
     },
+    "change/bcapps/10992": {
+      "kind": "change",
+      "key": "change/bcapps/10992",
+      "hash": "d5131b9844821ae10bd0a2edd70c35c30db835c0d9ec3a4e8f81e910588f7036",
+      "title": "#10992 [Extensibility Request] issue 30420: add service post and send events",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:41.665Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/service-management/deliver-service",
+          "quote": "Service-Post and Send codeunit now includes extension points"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/web-services/publishing-pages-and-codeunits-as-odata",
+          "quote": "extension points that allow integrations to support additional service"
+        }
+      ]
+    },
     "change/bcapps/11001": {
       "kind": "change",
       "key": "change/bcapps/11001",
@@ -8275,6 +8293,24 @@
         }
       ]
     },
+    "change/bcapps/12147": {
+      "kind": "change",
+      "key": "change/bcapps/12147",
+      "hash": "4ace89f690c241963a9c35af744553abe9eb7d8c03d9c03582edca451ce6b10e",
+      "title": "#12147 Bugs/add corp card basics",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:42.737Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Corporate card functionality is added to the Expense Agent"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
+          "quote": "Implements corporate card transaction import and processing with data exchange providers"
+        }
+      ]
+    },
     "change/bcapps/12148": {
       "kind": "change",
       "key": "change/bcapps/12148",
@@ -9373,6 +9409,20 @@
         }
       ]
     },
+    "change/bcapps/12557": {
+      "kind": "change",
+      "key": "change/bcapps/12557",
+      "hash": "fe8444abf34cd2b0bdc8ebb807d7ef54ee7c73c5ebf9f31951706f9f52bb39cd",
+      "title": "#12557 Implement first-party app authentication for Microsoft Fabric Export",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:40.309Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets",
+          "quote": "Microsoft Fabric Export now uses first-party app authentication instead of user-based credentials"
+        }
+      ]
+    },
     "change/bcapps/12558": {
       "kind": "change",
       "key": "change/bcapps/12558",
@@ -9620,6 +9670,20 @@
         }
       ]
     },
+    "change/bcapps/12691": {
+      "kind": "change",
+      "key": "change/bcapps/12691",
+      "hash": "45ea15f8c648a9f13110aba18a7870771dab78a37491cc2037d08f3a98ac5df5",
+      "title": "#12691 Support customer registration number as e-document party identifier for DE",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:43.691Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/web-services",
+          "quote": "customer registration number as buyer identifier on outgoing e-invoices"
+        }
+      ]
+    },
     "change/bcapps/12694": {
       "kind": "change",
       "key": "change/bcapps/12694",
@@ -9631,6 +9695,20 @@
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
           "quote": "API tests can now issue local HTTP requests by declaring explicit test HTTP request policies"
+        }
+      ]
+    },
+    "change/bcapps/12696": {
+      "kind": "change",
+      "key": "change/bcapps/12696",
+      "hash": "402b47bdf3ddb30659509696f07e80dac6f6648587e3d30482fbf23ecba248ab",
+      "title": "#12696 Fix Norwegian SAF-T 1.30 debit and credit totals",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:44.080Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
+          "quote": "debit and credit totals from actual G/L entry amounts"
         }
       ]
     },
@@ -9830,6 +9908,20 @@
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
           "quote": "Sales Order Agent now uses company display name instead of internal company identifier"
+        }
+      ]
+    },
+    "change/bcapps/12821": {
+      "kind": "change",
+      "key": "change/bcapps/12821",
+      "hash": "fbaa341605683cb00e2bde7538b051fc722a58ce58b0899b27a600a0714a27e1",
+      "title": "#12821 [SOA] Copy manual task attachments to sales quotes",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:42.737Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Adds internal table 4590 SOA Attachment Transfer to track"
         }
       ]
     },
@@ -10098,6 +10190,24 @@
         }
       ]
     },
+    "change/bcapps/12996": {
+      "kind": "change",
+      "key": "change/bcapps/12996",
+      "hash": "b23b4a220899d86741ae15982ad95ce8b5a03c6f9f6cf5f081919bcfe2a60588",
+      "title": "#12996 [Master] - Bug 651041: [Sustainability][Value Chain] Item Reclassification Journal forces a non-zero Total CO2e and adds it to the item's footprint under Average carbon tracking",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:46.618Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/sustainability-management/sustainability-value-chain",
+          "quote": "Item Reclassification Journals can now post with zero Total CO2e under Average carbon tracking"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/sustainability-management",
+          "quote": "Transfer Sustainability Value Entries correctly record zero CO2e amounts for reclassification moves"
+        }
+      ]
+    },
     "change/bcapps/12998": {
       "kind": "change",
       "key": "change/bcapps/12998",
@@ -10244,6 +10354,38 @@
         }
       ]
     },
+    "change/bcapps/13111": {
+      "kind": "change",
+      "key": "change/bcapps/13111",
+      "hash": "873e7b433ea3601d5d023941df8e2efc36f282d92f60ad2d856748eed5b650b3",
+      "title": "#13111 [Backport 29.x] #11046: [Extensibility Request] issue 10889: expose large text modal helper",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:48.692Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/quality-management",
+          "quote": "The Qlty. Edit Large Text page is now accessible to extensions"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/quality-management/set-up-quality-management",
+          "quote": "Enables external developers to extend large text modal functionality"
+        }
+      ]
+    },
+    "change/bcapps/13159": {
+      "kind": "change",
+      "key": "change/bcapps/13159",
+      "hash": "0b9787d579b32e8b1d1163ddb5a4ed03aa9e2b531489e14c2729c1d696881d8a",
+      "title": "#13159 [29x] Bug 652332 Issuing multiple Reminders or Finance Charge Memos with Print, produces a PDF only for the last one",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:40.821Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-receivables",
+          "quote": "printing of multiple Reminders or Finance Charge Memos"
+        }
+      ]
+    },
     "change/bcapps/13160": {
       "kind": "change",
       "key": "change/bcapps/13160",
@@ -10269,6 +10411,24 @@
         {
           "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
           "quote": "Update Registers from G/L Registers page for old entries with G/L Register No."
+        }
+      ]
+    },
+    "change/bcapps/13166": {
+      "kind": "change",
+      "key": "change/bcapps/13166",
+      "hash": "6bc425cde3e9e3d622b914ce638b99ee60267c2031e25289d7756ffed1b5a038",
+      "title": "#13166 [Master]-WIP transfer warehouse shipment incorrectly requires Bin Code",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:47.637Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
+          "quote": "WIP transfer warehouse shipment posting no longer incorrectly requires a bin code"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/warehouse-management/outbound-warehouse-processes",
+          "quote": "warehouse shipment posting codeunit adjusted to work correctly with transfers"
         }
       ]
     },
@@ -10303,6 +10463,24 @@
         }
       ]
     },
+    "change/bcapps/13211": {
+      "kind": "change",
+      "key": "change/bcapps/13211",
+      "hash": "a7c593be0145cc2f1c17847cf45007e6fb6e66d55d287daaf9ed27cc71a25991",
+      "title": "#13211 Copy time sheet skips deleted work types and absence reasons",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:48.612Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/project-management",
+          "quote": "Copy time sheet skips deleted work types and absence reasons"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/warehouse-management/internal-warehouse-processes/production-assembly-and-job-activities",
+          "quote": "Time sheet copying now handles deleted work types and absence reasons gracefully"
+        }
+      ]
+    },
     "change/bcapps/13216": {
       "kind": "change",
       "key": "change/bcapps/13216",
@@ -10314,6 +10492,24 @@
         {
           "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
           "quote": "Fix VAT adjustment register. Fixes how the VAT adjustment register is handled"
+        }
+      ]
+    },
+    "change/bcapps/13220": {
+      "kind": "change",
+      "key": "change/bcapps/13220",
+      "hash": "209b2a458ec146b0d55511d9b3b987df8f813243ec864acda5f68a9f7e18727d",
+      "title": "#13220 Fix average cost adjustment overflow on same-period transfers",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:48.692Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-inventory-costing",
+          "quote": "Same-period transfers no longer cause average cost adjustments to overflow"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-inventory-costing/design-details-posting-date-on-adjustmen",
+          "quote": "Prevents cost amplification from repeated transfer repricings when cumulative item quantity is zero"
         }
       ]
     },
@@ -10363,6 +10559,38 @@
         }
       ]
     },
+    "change/bcapps/13256": {
+      "kind": "change",
+      "key": "change/bcapps/13256",
+      "hash": "4a2f07e8dc477253b4f777409e9e06e472472336cff8b0a2b0933c6cc80d1a75",
+      "title": "#13256 [SOA] Expose Email 2 on Contact Card",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:40.821Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
+          "quote": "Sales Order Agent app now exposes an Email 2 field"
+        }
+      ]
+    },
+    "change/bcapps/13261": {
+      "kind": "change",
+      "key": "change/bcapps/13261",
+      "hash": "7a14e15c6336650a0ba13955b3c3c9ea7a646f80a98b9352ecedeef30044a822",
+      "title": "#13261 [Backport 29.x] [Extensibility Request] [SCM] 2026-10-26",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:48.692Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/quality-management",
+          "quote": "Quality Management and Subcontracting code is backported to BC 29 with extensibility improvements"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
+          "quote": "Improves Subcontracting requisition line extension points"
+        }
+      ]
+    },
     "change/bcapps/13262": {
       "kind": "change",
       "key": "change/bcapps/13262",
@@ -10391,6 +10619,24 @@
         }
       ]
     },
+    "change/bcapps/13293": {
+      "kind": "change",
+      "key": "change/bcapps/13293",
+      "hash": "9e496e1f9f8c363c8591263bc068797645469ae60712ebf321250ef10ba68a09",
+      "title": "#13293 [29.X]-WIP transfer warehouse shipment incorrectly requires Bin Code",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:47.637Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
+          "quote": "WIP transfer warehouse shipment no longer requires a Bin Code when posting"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/warehouse-management/outbound-warehouse-processes",
+          "quote": "Updated warehouse shipment posting logic to handle subcontracting scenarios correctly"
+        }
+      ]
+    },
     "change/bcapps/13307": {
       "kind": "change",
       "key": "change/bcapps/13307",
@@ -10398,6 +10644,15 @@
       "title": "#13307 [SOA] Clear stale pricing notifications on item availability refresh",
       "source": "bcapps-prs",
       "at": "2026-10-28T10:50:13.468Z",
+      "matches": []
+    },
+    "change/bcapps/13326": {
+      "kind": "change",
+      "key": "change/bcapps/13326",
+      "hash": "1a553ed43c8d15aec6dc88ad563ebe970afc9dec82676e950b3ee4a56fab6f43",
+      "title": "#13326 [Fabric] Clean up test events, app naming, authentication and telemetry",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:40.309Z",
       "matches": []
     },
     "change/bcapps/13333": {
@@ -10411,6 +10666,62 @@
         {
           "topic": "topic/dev-itpro/development/extension-lifecycle/translation",
           "quote": "Configuration package import methods in codeunit 8614"
+        }
+      ]
+    },
+    "change/bcapps/13334": {
+      "kind": "change",
+      "key": "change/bcapps/13334",
+      "hash": "042804857982256dbcd2ab03f93ba5802044c320caedd2300225ffa2845564bd",
+      "title": "#13334 [Main] Fix #656831: Use location state for ISD purchase credit memo posting",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:44.080Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/working-with-dimensions",
+          "quote": "location state for ISD purchase credit memo posting"
+        }
+      ]
+    },
+    "change/bcapps/13342": {
+      "kind": "change",
+      "key": "change/bcapps/13342",
+      "hash": "57aba8748ae7dcf9df72c75cc9a44ae0640cde61b481064e65d628e2dec51308",
+      "title": "#13342 [Main] Incorrect Buyer/Seller Registration No. Written to Detailed GST Ledger Entry When Posting Purchase Invoice Without Order Address",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:44.080Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
+          "quote": "Detailed GST Ledger Entry When Posting Purchase Invoice"
+        }
+      ]
+    },
+    "change/bcapps/13413": {
+      "kind": "change",
+      "key": "change/bcapps/13413",
+      "hash": "595d96607108f49103b6cfdba34f7bc7df00c1f9ddf9d483e8b21b5fd19db643",
+      "title": "#13413 Fix localized contact filter control name in Contact Sync",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:48.570Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/relationship-management/manage-contacts",
+          "quote": "contact filter loads correctly in non-English languages"
+        }
+      ]
+    },
+    "change/bcapps/13435": {
+      "kind": "change",
+      "key": "change/bcapps/13435",
+      "hash": "b3215e19ad0f0b1fe6c24e9029cc308a96e9892b7a6454526dd8deec0af12274",
+      "title": "#13435 Adding Work Type read permissions",
+      "source": "bcapps-prs",
+      "at": "2026-10-30T01:07:40.178Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions",
+          "quote": "Added missing Work Type read permissions to Time Sheets"
         }
       ]
     },
@@ -27524,6 +27835,15 @@
         ]
       }
     },
+    "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-86-restart-vs-code-extension-host/": {
+      "kind": "post",
+      "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-86-restart-vs-code-extension-host/",
+      "hash": "25b854ddf1f61533e623c7989a591a683fb0cdd1fee8c29fb0328f983044ffd9",
+      "title": "BC Friday Tips #86 Restart the VS Code Extension Host",
+      "source": "thatnavguy-com",
+      "at": "2026-10-30T01:07:40.309Z",
+      "matches": []
+    },
     "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/": {
       "kind": "post",
       "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/",
@@ -29232,6 +29552,50 @@
         ]
       }
     },
+    "post/thinkaboutit-be/8348": {
+      "kind": "post",
+      "key": "post/thinkaboutit-be/8348",
+      "hash": "19e2fb72d538ae7ba9b241b135f577660a5fdca63fdb34dbdbc169f0d2074300",
+      "title": "Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions",
+      "source": "thinkaboutit-be",
+      "at": "2026-10-30T01:07:42.737Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
+          "quote": "Edit with Copilot moves Business Central Copilot from answering questions"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "creating, updating, and deleting records through natural language"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central",
+          "quote": "Copilot can interact with custom AL extensions including pages, fields, and actions"
+        }
+      ]
+    },
+    "post/thinkaboutit-be/8359": {
+      "kind": "post",
+      "key": "post/thinkaboutit-be/8359",
+      "hash": "db8d195b01005a2573a7d2427a375d683fdd0d18b48395370efc02770469ce40",
+      "title": "Directions EMEA 2026, Day 2: Cowork, Agentic Development and Fabric",
+      "source": "thinkaboutit-be",
+      "at": "2026-10-30T01:07:42.737Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "agentic AL development with BCQuality for Business Central-specific knowledge"
+        },
+        {
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
+          "quote": "Native Business Central-Fabric mirroring replicates ERP data"
+        },
+        {
+          "topic": "topic/dev-itpro/performance",
+          "quote": "Platform improvements include table-extension storage optimization, AL-based index management"
+        }
+      ]
+    },
     "post/tine-staric-net/https://tine.staric.net/blog/2025/copilot-fancy-autocomplete-vol2/": {
       "kind": "post",
       "key": "post/tine-staric-net/https://tine.staric.net/blog/2025/copilot-fancy-autocomplete-vol2/",
@@ -30281,48 +30645,65 @@
     "post/wingate365-com/https://blog.wingate365.com/2025/05/business-central-power-pages-true.html": {
       "kind": "post",
       "key": "post/wingate365-com/https://blog.wingate365.com/2025/05/business-central-power-pages-true.html",
-      "hash": "30e5c2035d9c8e2103cb6d6ffb56cad0cb3f934fc179640e4329b8c25254cb50",
+      "hash": "f6d85d8882c3eedc6e3ed8876049fb26ade26e9be015d15751a35bb26bb1ea5d",
       "title": "Business Central + Power Pages = TRUE - ColorCloud 2025",
       "source": "wingate365-com",
-      "at": "2026-10-29T22:01:41.440Z",
+      "at": "2026-10-30T01:07:43.691Z",
       "matches": [
         {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps",
+          "quote": "Power Pages can let external users interact with Business Central through Dataverse Virtual Tables"
+        },
+        {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "Business Central can be connected to external audiences through Power Pages using Virtual Tables"
+          "quote": "Virtual Tables in Dataverse, supported in Power Pages, let external audiences interact with Business Central data"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
+          "quote": "managing external logins from BC Contacts synced to Dataverse, issuing invites through Power Automate"
         }
       ]
     },
     "post/wingate365-com/https://blog.wingate365.com/2025/05/lets-setup-sales-order-agent-in.html": {
       "kind": "post",
       "key": "post/wingate365-com/https://blog.wingate365.com/2025/05/lets-setup-sales-order-agent-in.html",
-      "hash": "02b70376775b07350666ef50939bd4c2d7c3892ec73343221f66e8a09452f50a",
+      "hash": "72a16d998aff4c27d4acd094ca1ceed7bb717a0ce4bce5496f9b538d63b8f91b",
       "title": "Letâ€™s setup the Sales Order Agent in Business Central - Experts Live UK User Group",
       "source": "wingate365-com",
-      "at": "2026-10-29T22:01:39.862Z",
+      "at": "2026-10-30T01:07:40.821Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
-          "quote": "setup the Sales Order Agent in Business Central - Experts Live UK User Group"
-        },
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
-          "quote": "demonstrates how to set up and use the new Copilot-powered Sales Order Agent"
+          "quote": "setup the Sales Order Agent in Business Central"
         }
       ]
     },
     "post/wingate365-com/https://blog.wingate365.com/2025/08/dynamicsminds-2025-portoroz-slovenia.html": {
       "kind": "post",
       "key": "post/wingate365-com/https://blog.wingate365.com/2025/08/dynamicsminds-2025-portoroz-slovenia.html",
-      "hash": "873da92a3c1215342d9e869f09e719c5c503f8b50a06709c141002c404904b2d",
+      "hash": "9fcc75596c9b8f7569c77e0d758e24c92a74ca23fe39486b4b5c1235949771e0",
       "title": "DynamicsMinds 2025 - PortoroÅ¾, Slovenia",
       "source": "wingate365-com",
-      "at": "2026-10-29T22:01:41.440Z",
+      "at": "2026-10-30T01:07:49.790Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "integration techniques from Business Central to Finance & Operations"
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor",
+          "quote": "BC to PP integration techniques, from lo-code through Virtual Tables and BC Data Sync"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps",
+          "quote": "Virtual Tables and BC Data Sync to calling the API in code"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-30T01:07:32.525Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
+            "reason": "Conference recap focused on Business Central to Finance & Operations integration and page scripting; it mentions Dataverse only in passing."
+          }
+        ]
+      }
     },
     "post/wingate365-com/https://blog.wingate365.com/2025/10/south-coast-summit-2025-ai-driven-page.html": {
       "kind": "post",
@@ -30345,27 +30726,36 @@
     "post/wingate365-com/https://blog.wingate365.com/2025/11/delivering-bc-in-age-of-ai-which-soft.html": {
       "kind": "post",
       "key": "post/wingate365-com/https://blog.wingate365.com/2025/11/delivering-bc-in-age-of-ai-which-soft.html",
-      "hash": "a6c90d08380bb01734dbd125be9676939568e66e484e7b0ee5adb5f2d2f910a1",
+      "hash": "bc7f06deb3bbedc51e500fb2d05121342ae172ad587ddf5313993bface781c8a",
       "title": "Delivering BC in the Age of AI - Which Soft Skills Still Matter?",
       "source": "wingate365-com",
-      "at": "2026-10-29T22:01:39.922Z",
-      "matches": []
+      "at": "2026-10-30T01:07:40.309Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/development-and-administration",
+          "quote": "Delivering BC in the Age of AI - Which Soft Skills Still Matter"
+        }
+      ]
     },
     "post/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html": {
       "kind": "post",
       "key": "post/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html",
-      "hash": "112ff37dedeab19f5974a025031a8172d71313b05432c76119523d87e4be26ba",
+      "hash": "71a9c33d7457db47e8d720515640b4f8b7f25af044d6cb7f39d5a0ac72ef749e",
       "title": "Ask AI about Dynamics Licensing",
       "source": "wingate365-com",
-      "at": "2026-10-29T22:01:40.175Z",
+      "at": "2026-10-30T01:07:42.737Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
-          "quote": "Sales Order Agent for automating customer email-based order capture"
+          "quote": "Sales Order Agent reads customer emails to capture orders, asks follow-up questions"
         },
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "Payables Agent for invoice processing and approval routing"
+          "quote": "Payables Agent captures, matches and routes vendor invoices for approval"
+        },
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
+          "quote": "Using these agents requires an active Business Central license plus Copilot Credits"
         }
       ]
     },
@@ -30404,31 +30794,18 @@
     "post/wingate365-com/https://blog.wingate365.com/2026/04/fixing-email-for-guest-users-in-d365.html": {
       "kind": "post",
       "key": "post/wingate365-com/https://blog.wingate365.com/2026/04/fixing-email-for-guest-users-in-d365.html",
-      "hash": "b989d8d0589c385a328008b193a9b0dbbcf21316e5d4099f23ed08d3fb94566a",
+      "hash": "fecdccb86cf6a9fe90815dfa6b817be3505f24ecaf6d9935b79f61a7bb2732e8",
       "title": "Fixing Email for Guest Users in D365 Business Central",
       "source": "wingate365-com",
-      "at": "2026-10-29T22:01:41.440Z",
-      "matches": []
-    },
-    "post/wingate365-com/https://blog.wingate365.com/2026/04/mission-implementation-post-go-live.html": {
-      "kind": "post",
-      "key": "post/wingate365-com/https://blog.wingate365.com/2026/04/mission-implementation-post-go-live.html",
-      "hash": "c2cee63ecf25136ed04df62f84aa92932e191d7df339a785a95d63df5d87fcab",
-      "title": "Mission Implementation - post go-live stabilisation",
-      "source": "wingate365-com",
-      "at": "2026-10-29T22:01:39.859Z",
+      "at": "2026-10-30T01:07:43.691Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/onboard-your-customers",
-          "quote": "Post go-live stabilization is a critical phase where many ERP projects struggle"
+          "topic": "topic/dev-itpro/integration/integrating-with-azure-services",
+          "quote": "extension that uses Microsoft Graph to enable guest users to send email as themselves"
         },
         {
-          "topic": "topic/dev-itpro/administration/prepare-business-central",
-          "quote": "moving from go-live into stable operations, including ownership definition, hypercare structuring"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica",
-          "quote": "Long-term governance and sustainable business-as-usual processes are essential"
+          "topic": "topic/dev-itpro/integration/web-services/apis",
+          "quote": "sends mail via Microsoft Graph using the OAuth 2.0 Authorization Code plus PKCE delegated flow"
         }
       ]
     },
@@ -30467,16 +30844,25 @@
     "post/wingate365-com/https://blog.wingate365.com/2026/10/directions-emea-2026-paris-the-consultant-zone-and-two-panels.html": {
       "kind": "post",
       "key": "post/wingate365-com/https://blog.wingate365.com/2026/10/directions-emea-2026-paris-the-consultant-zone-and-two-panels.html",
-      "hash": "60425d254f1950b80720c242a90d742389963d3972bcab5e8c4d62b69dfde5a2",
+      "hash": "b05d0c2fabe456254f8a1401155107811d9c8f6542d38968f9790aceb35b92a0",
       "title": "Directions EMEA 2026 - Paris, the Consultant Zone, and Two Panels",
       "source": "wingate365-com",
-      "at": "2026-10-29T22:01:40.175Z",
+      "at": "2026-10-30T01:07:52.160Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
           "quote": "practical AI prompts used in actual Business Central work"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-30T01:07:32.525Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+            "reason": "Conference announcement about panels on AI prompts and consultant roles; it doesn't cover the Copilot developer tools."
+          }
+        ]
+      }
     },
     "post/yzhums-com/16503": {
       "kind": "post",
@@ -35423,6 +35809,20 @@
       "at": "2026-10-26T06:22:44.633Z",
       "matches": []
     },
+    "post/yzhums-com/73637": {
+      "kind": "post",
+      "key": "post/yzhums-com/73637",
+      "hash": "e32118ad8b76978a62b6f2ce38df315fe0ae444c56acf1b394c139323921eba9",
+      "title": "Dynamics 365 Business Central: Hide and show list views",
+      "source": "yzhums-com",
+      "at": "2026-10-30T01:07:40.178Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-user-settings",
+          "quote": "Users can save, hide, and show filtered views"
+        }
+      ]
+    },
     "post/yzhums-com/73895": {
       "kind": "post",
       "key": "post/yzhums-com/73895",
@@ -36984,6 +37384,20 @@
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
           "quote": "integrating Business Central with Dataverse, users may encounter an error"
+        }
+      ]
+    },
+    "post/yzhums-com/77021": {
+      "kind": "post",
+      "key": "post/yzhums-com/77021",
+      "hash": "47b7ed9708eb003bd922dc9940cc097ae8a25c7030477ded5055d0b412dfd159",
+      "title": "Business Central 2026 release wave 2 (BC29): Page Scripting enters General Availability with two new capabilities",
+      "source": "yzhums-com",
+      "at": "2026-10-30T01:07:40.309Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "enables creation of repeatable user acceptance tests by recording and replaying user actions"
         }
       ]
     },

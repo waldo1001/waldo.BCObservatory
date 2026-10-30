@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.950Z"
   flags: []
 generated:
-  at: "2026-10-29T22:03:43.939Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -272,7 +272,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11896 [Master Data Management] Cross-env over-cap blob clears the subsidiary blob](../../../changes/bcapps/11896.md) (code change): "cross-environment Master Data Management sync, a source blob"
 - [#9127 Add Dataverse Cloud endpoints override for sovereign clouds](../../../changes/bcapps/9127.md) (code change): "A new interface and enum enable partners to override Dataverse endpoints for sovereign cloud environments"
 - [#9322 [FS Integration] SVCITEM-CUSTASSET mapping ignores "Convert to Customer Asset" flag — every Service Item synced to FS unconditionally](../../../changes/bcapps/9322.md) (code change): "Field Service Integration now respects the Dataverse Product setting Convert to Customer Asset"
-- [Business Central + Power Pages = TRUE - ColorCloud 2025](../../../posts/wingate365-com/https-blog-wingate365-com-2025-05-business-central-power-pages-true-html--3e063897e5.md) (community post): "Business Central can be connected to external audiences through Power Pages using Virtual Tables"
+- [Business Central + Power Pages = TRUE - ColorCloud 2025](../../../posts/wingate365-com/https-blog-wingate365-com-2025-05-business-central-power-pages-true-html--3e063897e5.md) (community post): "Virtual Tables in Dataverse, supported in Power Pages, let external audiences interact with Business Central data"
 - [Dynamics 365 Business Central Blog Series: Integrate with Microsoft Dataverse](../../../posts/yzhums-com/63916.md) (community post): "three methods to integrate Business Central with Microsoft Dataverse: using the standard Dataverse connector"
 - [Dynamics 365 Business Central: Integrate with Microsoft Dataverse via APIs (Not using the standard Dataverse connector)](../../../posts/yzhums-com/64775.md) (community post): "integrate Dynamics 365 Business Central with Microsoft Dataverse using direct REST APIs instead of the standard connector"
 - [Business Central 2026 release wave 1 (BC28): Map new Dataverse fields (New and custom Dataverse tables are readily available for mapping from the lookup on Integration Table column)](../../../posts/yzhums-com/71914.md) (community post): "Map new Dataverse fields directly without writing code"

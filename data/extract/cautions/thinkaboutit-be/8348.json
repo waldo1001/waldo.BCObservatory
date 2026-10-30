@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/thinkaboutit-be/8348",
+  "page_id": "post/thinkaboutit-be/8348",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Copilot operates within the permissions of the signed-in user.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Users must review the extracted information before submitting expense reports.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004037,
+    "posts_in_call": 4
+  }
+}

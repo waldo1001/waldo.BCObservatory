@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:15.866Z"
   flags: []
 generated:
-  at: "2026-10-29T22:03:43.939Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -71,6 +71,7 @@ links:
     - post/wingate365-com/https-blog-wingate365-com-2026-06-graph-api-email-account-types-for-d365-html--562e57de51
   guidelines: []
   changes:
+    - change/bcapps/12557
     - change/bcapps/8999
 learn_toc_path:
   - Development
@@ -153,6 +154,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12557 Implement first-party app authentication for Microsoft Fabric Export](../../../../../changes/bcapps/12557.md) (code change): "Microsoft Fabric Export now uses first-party app authentication instead of user-based credentials"
 - [#8999 Migrate Recommended Apps & Connectivity Apps to Official Marketplace Catalog API](../../../../../changes/bcapps/8999.md) (code change): "Integrated Azure Key Vault for secure API key management"
 - [Securing Sensitive Data in Business Central AL using SecretText](../../../../../posts/aardvarklabs-blog/2640.md) (community post): "SecretText can be retrieved from Isolated Storage or Azure Vault"
 - [Graph API Email account types for D365 BC](../../../../../posts/wingate365-com/https-blog-wingate365-com-2026-06-graph-api-email-account-types-for-d365-html--562e57de51.md) (community post): "Admin configures one App Registration per home domain in Business Central, with automatic user matching"

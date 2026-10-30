@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:24.212Z"
   flags: []
 generated:
-  at: "2026-10-25T12:53:09.600Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,6 +106,9 @@ links:
     - change/bcapps/12669
     - change/bcapps/12783
     - change/bcapps/12986
+    - change/bcapps/13166
+    - change/bcapps/13261
+    - change/bcapps/13293
     - change/bcapps/8747
     - change/bcapps/8750
     - change/bcapps/8752
@@ -223,6 +226,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12669 [Main]Subcontracting Order Date does not account for lead time before the routing operation starts](../../../../changes/bcapps/12669.md) (code change): "Subcontracting order dates now correctly calculate backward from the routing operation start date"
 - [#12783 [29.x] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](../../../../changes/bcapps/12783.md) (code change): "Subcontractor price for Time-based operations ignored the routing line's operation time factor"
 - [#12986 Fix Work Center field persistence when auto-save is disabled](../../../../changes/bcapps/12986.md) (code change): "Validating Subcontractor No. on the Work Center Card now saves pending changes"
+- [#13166 [Master]-WIP transfer warehouse shipment incorrectly requires Bin Code](../../../../changes/bcapps/13166.md) (code change): "WIP transfer warehouse shipment posting no longer incorrectly requires a bin code"
+- [#13261 [Backport 29.x] [Extensibility Request] [SCM] 2026-10-26](../../../../changes/bcapps/13261.md) (code change): "Improves Subcontracting requisition line extension points"
+- [#13293 [29.X]-WIP transfer warehouse shipment incorrectly requires Bin Code](../../../../changes/bcapps/13293.md) (code change): "WIP transfer warehouse shipment no longer requires a Bin Code when posting"
 - [#8747 [Subcontracting] Disable "WIP Item Transfer" for Machine Center](../../../../changes/bcapps/8747.md) (code change): "Transfer WIP Item field on routing lines is now restricted"
 - [#8750 [Bug Fix] #638688: Suppress availability warning for Transfer WIP Item lines](../../../../changes/bcapps/8750.md) (code change): "WIP items are intermediate goods managed by subcontracting"
 - [#8752 [Bug Fix] #638531: Disable Open TO from PO actions on non-subcontracting lines](../../../../changes/bcapps/8752.md) (code change): "Open TO from PO actions on subcontracting purchase order lines"

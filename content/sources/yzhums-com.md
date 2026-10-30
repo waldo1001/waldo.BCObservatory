@@ -2,7 +2,7 @@
 id: source/yzhums-com
 type: source
 title: Dynamics 365 Lab - Yun Zhu
-summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 388 posts in the knowledge base, 2025-04-28 to 2026-10-28, mostly about development, administration, platform."
+summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 390 posts in the knowledge base, 2025-04-28 to 2026-10-29, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T08:47:18.430Z"
+  at: "2026-10-30T00:17:01.742Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d52cf9782b704228a49560ba57b608be335e5f1d5eadb483bc99694eb41c4a29
+  input_hash: 2ed277be9cdfbdd3b9c4420279f7b8a2cc2c7025385c5ada6873818013553a6f
 evidence:
   - kind: blog
     url: https://yzhums.com
@@ -315,6 +315,7 @@ links:
     - post/yzhums-com/73030
     - post/yzhums-com/73513
     - post/yzhums-com/73564
+    - post/yzhums-com/73637
     - post/yzhums-com/73865
     - post/yzhums-com/73485
     - post/yzhums-com/73623
@@ -421,6 +422,7 @@ links:
     - post/yzhums-com/76547
     - post/yzhums-com/76918
     - post/yzhums-com/76990
+    - post/yzhums-com/77021
   guidelines: []
 source_id: yzhums-com
 kind: blog
@@ -428,15 +430,15 @@ url: https://yzhums.com
 author: Yun Zhu
 mvp: true
 full_text: false
-item_count: 388
+item_count: 390
 footprint:
   systems:
     - id: development
-      weight: 283
+      weight: 285
     - id: administration
       weight: 201
     - id: platform
-      weight: 192
+      weight: 195
     - id: sales
       weight: 89
     - id: reporting
@@ -491,12 +493,12 @@ footprint:
       weight: 5
   features: []
 first_item: "2025-04-28"
-last_item: "2026-10-28"
+last_item: "2026-10-29"
 ---
 
 # Dynamics 365 Lab - Yun Zhu
 
-> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 388 posts in the knowledge base, 2025-04-28 to 2026-10-28, mostly about development, administration, platform.
+> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 390 posts in the knowledge base, 2025-04-28 to 2026-10-29, mostly about development, administration, platform.
 
 [https://yzhums.com](https://yzhums.com) · blog · tier community
 
@@ -504,9 +506,9 @@ last_item: "2026-10-28"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (283) | al development (66) | table Customer (14) |
+| development (285) | al development (66) | table Customer (14) |
 | administration (201) | bc28 (27) | table Sales Header (12) |
-| platform (192) | bc27 (23) | page Customer Card (10) |
+| platform (195) | bc27 (23) | page Customer Card (10) |
 | sales (89) | customization (23) | page Item Card (9) |
 | reporting (73) | bc29 (20) | page Item List (9) |
 | integration (70) | release wave 2 (18) | page Customer List (7) |
@@ -525,12 +527,13 @@ Items per quarter, oldest first:
 - 2025-Q3: **************************************** 68
 - 2025-Q4: **************************************** 58
 - 2026-Q1: **************************************** 68
-- 2026-Q2: **************************************** 53
+- 2026-Q2: **************************************** 54
 - 2026-Q3: **************************************** 71
-- 2026-Q4: ******************** 20
+- 2026-Q4: ********************* 21
 
 ## Most recent
 
+- [Business Central 2026 release wave 2 (BC29): Page Scripting enters General Availability with two new capabilities](../posts/yzhums-com/77021.md) (2026-10-29)
 - [Dynamics 365 Business Central: An error occurred when communicating with Dataverse (User does not have required privileges to access the org when it is in Admin Only mode)](../posts/yzhums-com/76990.md) (2026-10-28)
 - [Dynamics 365 Business Central: The AL Table Proxy Generator is distributed in the Microsoft.Dynamics.BusinessCentral.Development.Tools.Altpgen NuGet package (altpgen.exe missing from AL Language extension)](../posts/yzhums-com/76918.md) (2026-10-26)
 - [Business Central 2026 release wave 2 (BC29): Evolve AL interfaces with default implementations (Default interface method implementations)](../posts/yzhums-com/76547.md) (2026-10-26)
@@ -550,6 +553,5 @@ Items per quarter, oldest first:
 - [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (October, 2026)](../posts/yzhums-com/76495.md) (2026-10-05)
 - [Business Central 2026 release wave 2 (BC29): Run data queries with MCP Server (no APIs required)](../posts/yzhums-com/76419.md) (2026-10-02)
 - [General Availability: Dynamics 365 Business Central 2026 release wave 2 (BC29)](../posts/yzhums-com/76443.md) (2026-10-02)
-- [Business Central 2026 release wave 2 (BC29): Migrate table fields from Integer to BigInteger (Support for BigInteger field migration)](../posts/yzhums-com/76388.md) (2026-10-01)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

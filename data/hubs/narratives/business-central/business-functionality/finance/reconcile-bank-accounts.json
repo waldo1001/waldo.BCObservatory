@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/finance/reconcile-bank-accounts",
-  "input_hash": "8916d0cbcc5640c64ffef6fd5d41d7cde8ee92128a9af36e3b18dda41f0d7110",
-  "summary": "Bank account reconciliation in Business Central: matching bank statement lines to ledger entries, applying payments to open invoices, using Copilot for matching, registering bank deposits, and transferring funds between bank accounts. It answers how-to questions on these tasks.",
-  "overview": "This section covers keeping cash records accurate. Reconciliation matches internal bank account entries with the bank statement, so you can find missing payments and errors. Matching can be automatic or manual, and statements can come from bank feeds or imports.\n\nSeveral pages cover related tasks. One explains payment reconciliation, where the Payment Reconciliation Journal applies payments to open invoices automatically. Another covers the Copilot preview for matching and G/L account suggestions. Two further pages cover registering cash deposits as one document and transferring funds between bank accounts through the General Journals page.\n\nStart with \"Reconcile bank accounts\" for the core matching process, or \"Manage bank accounts\" for the overall concepts. Then go to the task-specific pages for payment application, Copilot, deposits, or transfers.",
+  "input_hash": "247f864481a91c649ec835867759bfb75a0c6db40f33e8ede155c1769ff58bc2",
+  "summary": "Bank account reconciliation in Business Central: setting up bank accounts, importing statements, matching entries automatically or manually, applying payments, using Copilot assist, reviewing posted reconciliations, registering bank deposits, and transferring funds between accounts.",
+  "overview": "This section covers the daily and period-end work of keeping bank records in line with the ledger. The core pages explain how to set up bank accounts, import bank statements, and match statement lines to ledger entries by automatic and manual matching. Reconciling helps find missing payments and bookkeeping errors, and posting updates account balances.\n\nA related page covers the Payment Reconciliation Journal, which applies payments to open invoices automatically and relies on bank feed setup and payment matching rules. Copilot reconciliation assist (preview) adds AI-based matching and G/L account suggestions on top of the auto-match operation.\n\nOther pages cover tasks around reconciliation: registering cash deposits as a single bank deposit document, transferring funds between bank accounts through the General Journals page (including different currencies), and reviewing posted reconciliations through Bank Account Statement pages and reports. Start with \"Reconcile bank accounts\" or \"Manage bank accounts\", then go to the task-specific pages.",
   "key_points": [
-    "Reconciliation matches bank statement transactions to bank account ledger entries using automatic and manual matching, and tracks outstanding transactions.",
-    "Statements can be brought in through bank feeds or statement import. The bank feed setup is covered in the payment application guide.",
-    "The Payment Reconciliation Journal automatically applies payments to open invoices using payment matching rules.",
-    "Copilot bank reconciliation assist (preview, 2025 release wave 1 and wave 2) improves matching with AI and suggests G/L accounts for unmatched transactions. It supplements the auto-match operation.",
-    "Copilot options include a 'Post if fully applied' option and a review-and-save step for match proposals.",
-    "The Bank Deposits page (2022 release wave 1) registers deposits from sales, customer payments, or vendor refunds as one document, posted as a lump sum or as individual lines.",
-    "Bank deposit setup involves number series, general journal templates, dimension handling, and applying multiple checks.",
-    "Transfers between bank accounts are made in General Journals, in the same or different currencies, with exchange rate adjustments."
+    "Reconciliation matches bank statement entries with ledger entries using automatic and manual matching, with match details and a test report.",
+    "Bank statements can be imported, and bank feeds can be set up, to feed reconciliation and payment application.",
+    "The Payment Reconciliation Journal applies payments to open invoices automatically using payment matching rules.",
+    "Copilot reconciliation assist (preview, 2025 release waves 1 and 2) improves transaction matching and suggests G/L accounts for unmatched transactions.",
+    "Copilot has a 'Post if fully applied' option, and match proposals can be reviewed and saved.",
+    "Bank deposits (2022 release wave 1) register cash deposits as one document, posted as a lump sum or by individual line, with number series, journal templates, and dimension handling.",
+    "Transfers between bank accounts are done on the General Journals page, with same or different currency codes and exchange rate adjustments.",
+    "Posted reconciliations can be reviewed in Bank Account Statement pages, with analysis mode, filtering, grouping, and printing or saving, for period-end reviews and audits."
   ],
-  "members_used": 6,
+  "members_used": 7,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-17T01:12:56.553Z",
+  "at": "2026-10-30T01:11:02.001Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.013771
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-24T00:55:44.293Z",
-    "verdict": "approve",
-    "issues": [
-      "The release waves (2022 release wave 1 for Bank Deposits; 2025 release wave 1 and wave 2 for Copilot) come from the pages' version tags. The narrative presents them as release information, which goes slightly beyond the tags but is acceptable.",
-      "The overview sends readers to 'Manage bank accounts' for overall concepts. That page's summary is mostly about reconciliation, so this framing is a bit loose but not wrong."
-    ],
-    "input_hash": "8916d0cbcc5640c64ffef6fd5d41d7cde8ee92128a9af36e3b18dda41f0d7110",
-    "cost_usd": 0.0328512
+    "cost_usd": 0.018244
   }
 }

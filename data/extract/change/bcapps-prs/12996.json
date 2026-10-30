@@ -6,7 +6,7 @@
   "systems_joined": [
     "sustainability"
   ],
-  "summary": "Item Reclassification Journals can now post with zero Total CO2e under Average carbon tracking by exempting them from non-zero CO2e validation, while preserving checks for other item journals.",
+  "summary": "Item Reclassification Journals are now exempt from the sustainability check that requires a non-zero CO2e value, so a stock move can post with zero Total CO2e and no longer adds emissions to the item's footprint. Other item journals keep the existing validation.",
   "key_points": [
     "Reclassification journals are exempted from the non-zero CO2e validation that applies to other item journals",
     "The reclassification source indicator is passed to sustainability posting validation to enable differential handling",

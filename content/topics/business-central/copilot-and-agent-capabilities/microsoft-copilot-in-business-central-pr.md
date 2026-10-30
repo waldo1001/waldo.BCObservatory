@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:12.958Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,6 +66,7 @@ links:
     - video/YX9UfUF0EsA
   posts:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442
+    - post/thinkaboutit-be/8348
     - post/yzhums-com/65781
     - post/yzhums-com/67542
     - post/yzhums-com/67675
@@ -84,7 +85,7 @@ coverage:
   learn: 4
   code: 0
   video: 6
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: 2062629c7a6a6ebd37a1793d9251eb5c396f63abc802c925e789a385ca6b189a
@@ -130,6 +131,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11204 Chat v2 privacy notice behavior changed to not auto agree for Eval companies](../../../changes/bcapps/11204.md) (code change): "Copilot chat privacy notice now requires explicit agreement for evaluation companies"
 - [#9206 Added new privacy policy for BizChat depending on Microsoft Copilot 365 with EEA environments behavior changes](../../../changes/bcapps/9206.md) (code change): "New privacy policy for Microsoft Copilot in Chat V2 with EEA-specific behavior changes"
 - [Microsoft Copilot in Business Central: What the New Unified Chat Experience Means](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442.md) (community post): "unified Copilot-style chat that reasons over Business Central data"
+- [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../../../posts/thinkaboutit-be/8348.md) (community post): "Edit with Copilot moves Business Central Copilot from answering questions"
 - [Business Central 2025 wave 1 (BC26.3): Chat with Copilot to learn how to use installed add-on apps](../../../posts/yzhums-com/65781.md) (community post): "Copilot can now answer questions about ISV add-on apps installed in Business Central"
 - [Business Central 2025 wave 2 (BC27): Use enhanced chat with Copilot (Supports 20 more languages)](../../../posts/yzhums-com/67542.md) (community post): "Business Central 2025 wave 2 enhances Copilot chat with support for 20 additional languages"
 - [Business Central 2025 wave 2 (BC27): Adjust width of Copilot, help, and page scripting panes](../../../posts/yzhums-com/67675.md) (community post): "users to resize side panes for Copilot, help, and page scripting"

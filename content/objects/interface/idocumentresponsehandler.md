@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:42:34.480Z"
+  at: "2026-10-30T01:00:43.748Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 4e4d77dd8a2656bdb2d0c7b97ed2521a0f366c86db77eeff3d8dc1b0613a1284
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Apps/W1/EDocument/app/src/Integration/Interfaces/IDocumentResponseHandler.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Apps/W1/EDocument/app/src/Integration/Interfaces/IDocumentResponseHandler.Interface.al
     title: src/Apps/W1/EDocument/app/src/Integration/Interfaces/IDocumentResponseHandler.Interface.al (releases/29.x)
     date: null
-    commit: 4c1c1638beb6d5da8540cc1f61889b80c7b3356f
+    commit: 7aa49e808916c060dbee97d9ff324a2cfda8d422
     t: null
     quote: null
 links:
@@ -77,7 +77,7 @@ relations:
 
 > Interface "IDocumentResponseHandler" in EDocument (Microsoft.eServices.EDocument.Integration.Interfaces). 1 public procedures. Introduced in BC29, still in BC30.
 
-EDocument · Microsoft.eServices.EDocument.Integration.Interfaces · BC29-30 · [source at 4c1c1638](https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Apps/W1/EDocument/app/src/Integration/Interfaces/IDocumentResponseHandler.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument.Integration.Interfaces · BC29-30 · [source at 7aa49e80](https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Apps/W1/EDocument/app/src/Integration/Interfaces/IDocumentResponseHandler.Interface.al) · facts from BC29
 
 ## Procedures
 

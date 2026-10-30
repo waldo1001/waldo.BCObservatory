@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:30.284Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -1183,11 +1183,11 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 48508 "Fabric Platform Companies"](../../objects/page/48508.md) · captioned "Fabric Company Configuration" · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
 - [Page 48509 "Fabric Platform Export Details"](../../objects/page/48509.md) · captioned "Fabric Synchronization Details" · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
 - [Page 48510 "Fabric Platform Export Summary"](../../objects/page/48510.md) · captioned "Fabric Synchronization Overview" · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
-- [Page 48511 "Fabric Platform Setup"](../../objects/page/48511.md) · captioned "Microsoft Fabric Mirroring Setup" · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
+- [Page 48511 "Fabric Platform Setup"](../../objects/page/48511.md) · captioned "Microsoft Fabric Mirroring Setup (Preview)" · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
 - [Page 48512 "Fabric Platform Tables"](../../objects/page/48512.md) · captioned "Fabric Table Configuration" · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
 - [Page 48513 "Fabric Config Package Card"](../../objects/page/48513.md) · captioned "Fabric Config Package" · on [Table 48501 "Fabric Config Package"](../../objects/table/48501.md) · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
 - [Page 48515 "Fabric Config Packages"](../../objects/page/48515.md) · captioned "Fabric Configuration Packages" · on [Table 48501 "Fabric Config Package"](../../objects/table/48501.md) · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
-- [Page 48519 "Fabric Platform Setup Wizard"](../../objects/page/48519.md) · captioned "Set Up Microsoft Fabric Mirroring" · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
+- [Page 48519 "Fabric Platform Setup Wizard"](../../objects/page/48519.md) · captioned "Set Up Microsoft Fabric Mirroring (Preview)" · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
 - [Page 99000802 "Capacity Units of Measure"](../../objects/page/99000802.md) · on [Table 99000780 "Capacity Unit of Measure"](../../objects/table/99000780.md) · via [Built-in reports](analytics-business-intelligence-and-repo/built-in-reports.md)
 - [Page 99000820 "Prod. Order Capacity Need"](../../objects/page/99000820.md) · on [Table 5410 "Prod. Order Capacity Need"](../../objects/table/5410.md) · via [Built-in reports](analytics-business-intelligence-and-repo/built-in-reports.md)
 - [Page 99000887 "Work Center Load"](../../objects/page/99000887.md) · on [Table 99000754 "Work Center"](../../objects/table/99000754.md) · via [Built-in reports](analytics-business-intelligence-and-repo/built-in-reports.md)

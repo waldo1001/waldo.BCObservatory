@@ -2,20 +2,20 @@
 id: topic/dev-itpro/get-started/learn
 type: topic
 title: Learn
-summary: "The Learn section of Business Central gathers orientation material: an overview of supported business functionality, design details for complex features, CRONUS walkthroughs, Contoso Coffee demo data, and partner resources. It answers what Business Central can do, how some features work internally, and where partners find learning and community support."
+summary: "The Learn section of Business Central's Get started area collects orientation material: a business functionality overview, process walkthroughs, design details, demo data, and partner resources. It answers questions about what Business Central does, how to practice tasks, and where partners find releases, Copilot and community information."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:23:31.898Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: ce0282fe0d99bcbf2b47256193e1f14d99e37fa25f157d498d2b2265b2c4496f
+  input_hash: 2a623fc8ff69b06579057e4781ec6f9e93ff3be4ab92bd18febaece4f5194906
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/design-details-application-design
@@ -126,26 +126,26 @@ narrative: generated
 
 # Learn
 
-> The Learn section of Business Central gathers orientation material: an overview of supported business functionality, design details for complex features, CRONUS walkthroughs, Contoso Coffee demo data, and partner resources. It answers what Business Central can do, how some features work internally, and where partners find learning and community support.
+> The Learn section of Business Central's Get started area collects orientation material: a business functionality overview, process walkthroughs, design details, demo data, and partner resources. It answers questions about what Business Central does, how to practice tasks, and where partners find releases, Copilot and community information.
 
-Path: [Get started](../get-started.md) > Learn · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Get started](../get-started.md) > Learn · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Learn is the starting area for people new to Business Central or looking for background material. It combines a functional overview, hands-on practice scenarios, demo data, technical design notes, and partner-specific resources.
+Learn is a set of entry pages for people who are new to Business Central or who work with it as partners. The functionality overview lists the supported business areas, such as finance, sales, purchasing, inventory, projects, fixed assets, manufacturing, warehouse and service management.
 
-Start with the business functionality overview to see which processes are supported: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management. Then practice with the business process walkthroughs, which use the CRONUS demonstration company. The Contoso Coffee demo data page offers a fictitious company for exploring manufacturing, warehousing, and service modules.
+For hands-on practice, the Business Process Walkthroughs give step-by-step scenarios in the CRONUS demonstration company. The Contoso Coffee Demo Data page describes fictitious company data for learning manufacturing, warehousing and service capabilities. The Application design details index points to technical articles on complex features like costing, dimensions, supply planning, warehouse availability and item tracking.
 
-For deeper technical questions, the application design details index points to articles on inventory costing, dimension set entries, supply planning, warehouse availability, item tracking, and VAT handling. Partners have two more pages: resources covering readiness, releases, Copilot and agents, integrations, and migrations, plus Viva Engage communities for discussion with Microsoft experts.
+Partners have two pages: Resources for partners, which gathers links on releases, roadmaps, training, development, Copilot and agents, and onboarding, and a Viva Engage page for community discussion. Start with the functionality overview, then move to walkthroughs or design details depending on your goal.
 
 ## Key points
 
-- Business functionality overview lists supported areas: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse, service.
-- Business process walkthroughs are step-by-step scenarios in the CRONUS demo company, such as sales campaigns, prepayments, approval workflows, project management, warehouse picking, and data export.
-- Contoso Coffee demo data is fictitious company data for learning manufacturing, warehousing, service, and common modules, with setup and configuration guidance.
-- Application design details index covers inventory costing, dimension set entries, supply planning, warehouse availability, item tracking, and VAT handling.
-- Partner resources cover readiness programs, latest releases (2026 release wave 2, update 29.0), Copilot, Sales Order, Payables and Expense agents, Power Platform and Shopify integration, migrations, and marketplace apps.
-- Viva Engage groups let partners discuss technical topics, give product feedback, and follow announcements and best practices.
+- The functionality overview covers finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.
+- Business Process Walkthroughs use the CRONUS demonstration company for scenarios like sales campaigns, prepayments, approval workflows, project management, warehouse picking and data export.
+- Contoso Coffee Demo Data is fictitious data for learning manufacturing, warehousing and service modules, with demo data setup and configuration.
+- Application design details index articles on inventory costing, dimension set entries, supply planning, warehouse availability, item tracking and VAT handling.
+- Resources for partners links to release information (2026 release wave 2, update 29.0), the AI at Work roadmap, and Copilot and agents such as Sales Order, Payables and Expense Agent.
+- Viva Engage communities let partners talk with Microsoft experts, give product feedback, and see announcements and best practices.
 
 ## Learn pages
 

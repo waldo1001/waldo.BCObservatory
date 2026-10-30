@@ -2,12 +2,12 @@
   "inputs": [
     7,
     [
-      "4c1c1638beb6d5da8540cc1f61889b80c7b3356f",
+      "7aa49e808916c060dbee97d9ff324a2cfda8d422",
       "4",
       9474,
-      "4c1c1638beb6d5da8540cc1f61889b80c7b3356f",
+      "7aa49e808916c060dbee97d9ff324a2cfda8d422",
       "4",
-      6905
+      6946
     ]
   ],
   "schema": "al-relations@1",
@@ -11714,8 +11714,38 @@
       "k": "source_table"
     },
     {
+      "s": "page/48504",
+      "t": "table/48501",
+      "k": "source_table"
+    },
+    {
       "s": "page/4851",
       "t": "table/4851",
+      "k": "source_table"
+    },
+    {
+      "s": "page/48513",
+      "t": "table/48501",
+      "k": "source_table"
+    },
+    {
+      "s": "page/48514",
+      "t": "table/48500",
+      "k": "source_table"
+    },
+    {
+      "s": "page/48515",
+      "t": "page/48513",
+      "k": "card_page"
+    },
+    {
+      "s": "page/48515",
+      "t": "table/48501",
+      "k": "source_table"
+    },
+    {
+      "s": "page/48516",
+      "t": "table/823",
       "k": "source_table"
     },
     {
@@ -25481,6 +25511,11 @@
     {
       "s": "pageextension/4412",
       "t": "page/9006",
+      "k": "extends"
+    },
+    {
+      "s": "pageextension/4413",
+      "t": "page/5050",
       "k": "extends"
     },
     {
@@ -58822,6 +58857,18 @@
       "cond": true
     },
     {
+      "s": "table/4590",
+      "t": "table/1173",
+      "k": "table_relation",
+      "via": "Document Attachment ID"
+    },
+    {
+      "s": "table/4590",
+      "t": "table/36",
+      "k": "table_relation",
+      "via": "Sales Header ID"
+    },
+    {
       "s": "table/4592",
       "t": "table/18",
       "k": "calc_formula",
@@ -60017,6 +60064,12 @@
       "t": "table/4851",
       "k": "calc_formula",
       "via": "Balance"
+    },
+    {
+      "s": "table/48500",
+      "t": "table/48501",
+      "k": "table_relation",
+      "via": "Package Code"
     },
     {
       "s": "table/4851",
@@ -128702,6 +128755,11 @@
             "app": "System Application"
           },
           {
+            "s": "codeunit/48529",
+            "proc": "RegisterPrivacyNotice",
+            "app": "MicrosoftFabricMirroring"
+          },
+          {
             "s": "codeunit/6951",
             "proc": "CreatePrivacyNoticeRegistrations",
             "app": "ExpenseAgent"
@@ -130515,6 +130573,11 @@
         "kind": "integration",
         "obsolete": null,
         "subs": [
+          {
+            "s": "codeunit/48500",
+            "proc": "OnClearDatabaseConfig",
+            "app": "MicrosoftFabricMirroring"
+          },
           {
             "s": "codeunit/6153",
             "proc": "HandleOnClearCompanyConfig",
@@ -149011,6 +149074,40 @@
         "subs": []
       }
     },
+    "codeunit/48520": {
+      "OnBeforeDisableExport": {
+        "kind": "internal",
+        "obsolete": null,
+        "subs": []
+      },
+      "OnBeforeEnableExport": {
+        "kind": "internal",
+        "obsolete": null,
+        "subs": []
+      },
+      "OnBeforeStartExport": {
+        "kind": "internal",
+        "obsolete": null,
+        "subs": []
+      },
+      "OnBeforeStopExport": {
+        "kind": "internal",
+        "obsolete": null,
+        "subs": []
+      },
+      "OnBeforeTestConnection": {
+        "kind": "internal",
+        "obsolete": null,
+        "subs": []
+      }
+    },
+    "codeunit/48525": {
+      "OnBeforeGetHttpClientHandler": {
+        "kind": "internal",
+        "obsolete": null,
+        "subs": []
+      }
+    },
     "codeunit/487": {
       "OnAfterProcessPrint": {
         "kind": "integration",
@@ -159550,6 +159647,17 @@
         "kind": "integration",
         "obsolete": null,
         "subs": []
+      },
+      "OnCodeOnBeforeTestBinCode": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": [
+          {
+            "s": "codeunit/20563",
+            "proc": "HandleWipTransferOnCodeOnBeforeTestBinCode",
+            "app": "Subcontracting"
+          }
+        ]
       },
       "OnCreatePostedShptLineOnBeforePostedWhseShptLineInsert": {
         "kind": "integration",
@@ -192314,6 +192422,11 @@
         "subs": []
       },
       "OnBeforeOnRun": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
+      "OnBeforePromptForRemainingReservations": {
         "kind": "integration",
         "obsolete": null,
         "subs": []
@@ -283457,7 +283570,7 @@
     }
   },
   "dead_events": {
-    "count": 22498
+    "count": 22499
   },
   "unresolved": [
     {
@@ -284088,6 +284201,42 @@
       "s": "codeunit/47012",
       "k": "subscribes",
       "raw": "Table \"Company\" OnAfterDeleteEvent",
+      "reason": "unknown"
+    },
+    {
+      "s": "codeunit/48535",
+      "k": "subscribes",
+      "raw": "Table \"Tenant Fabric Tables\" OnBeforeInsertEvent",
+      "reason": "unknown"
+    },
+    {
+      "s": "codeunit/48535",
+      "k": "subscribes",
+      "raw": "Table \"Tenant Fabric Tables\" OnBeforeModifyEvent",
+      "reason": "unknown"
+    },
+    {
+      "s": "codeunit/48535",
+      "k": "subscribes",
+      "raw": "Table \"Tenant Fabric Tables\" OnBeforeRenameEvent",
+      "reason": "unknown"
+    },
+    {
+      "s": "codeunit/48536",
+      "k": "subscribes",
+      "raw": "Table \"Tenant Fabric Table Fields\" OnBeforeInsertEvent",
+      "reason": "unknown"
+    },
+    {
+      "s": "codeunit/48536",
+      "k": "subscribes",
+      "raw": "Table \"Tenant Fabric Table Fields\" OnBeforeModifyEvent",
+      "reason": "unknown"
+    },
+    {
+      "s": "codeunit/48536",
+      "k": "subscribes",
+      "raw": "Table \"Tenant Fabric Table Fields\" OnBeforeRenameEvent",
       "reason": "unknown"
     },
     {
@@ -285210,6 +285359,84 @@
       "s": "page/4585",
       "k": "source_table",
       "raw": "User AI Consumption Data",
+      "reason": "unknown"
+    },
+    {
+      "s": "page/48502",
+      "k": "source_table",
+      "raw": "Tenant Fabric Tables",
+      "reason": "unknown"
+    },
+    {
+      "s": "page/48503",
+      "k": "source_table",
+      "raw": "Tenant Fabric Companies",
+      "reason": "unknown"
+    },
+    {
+      "s": "page/48505",
+      "k": "source_table",
+      "raw": "Tenant Fabric Export Summary",
+      "reason": "unknown"
+    },
+    {
+      "s": "page/48506",
+      "k": "source_table",
+      "raw": "Tenant Fabric Export Details",
+      "reason": "unknown"
+    },
+    {
+      "s": "page/48507",
+      "k": "source_table",
+      "raw": "Tenant Fabric Setup",
+      "reason": "unknown"
+    },
+    {
+      "s": "page/48508",
+      "k": "source_table",
+      "raw": "Tenant Fabric Companies",
+      "reason": "unknown"
+    },
+    {
+      "s": "page/48509",
+      "k": "source_table",
+      "raw": "Tenant Fabric Export Details",
+      "reason": "unknown"
+    },
+    {
+      "s": "page/48510",
+      "k": "source_table",
+      "raw": "Tenant Fabric Export Summary",
+      "reason": "unknown"
+    },
+    {
+      "s": "page/48511",
+      "k": "source_table",
+      "raw": "Tenant Fabric Setup",
+      "reason": "unknown"
+    },
+    {
+      "s": "page/48512",
+      "k": "source_table",
+      "raw": "Tenant Fabric Tables",
+      "reason": "unknown"
+    },
+    {
+      "s": "page/48517",
+      "k": "source_table",
+      "raw": "Tenant Fabric Companies",
+      "reason": "unknown"
+    },
+    {
+      "s": "page/48518",
+      "k": "source_table",
+      "raw": "Tenant Fabric Tables",
+      "reason": "unknown"
+    },
+    {
+      "s": "page/48519",
+      "k": "source_table",
+      "raw": "Tenant Fabric Setup",
       "reason": "unknown"
     },
     {
@@ -288729,6 +288956,18 @@
       "reason": "unknown"
     },
     {
+      "s": "table/4590",
+      "k": "table_relation",
+      "raw": "\"Agent Task Message Attachment\".SystemId",
+      "reason": "unknown"
+    },
+    {
+      "s": "table/4590",
+      "k": "table_relation",
+      "raw": "\"Agent Task\".ID",
+      "reason": "unknown"
+    },
+    {
       "s": "table/46",
       "k": "table_relation",
       "raw": "User.\"User Name\"",
@@ -288810,6 +289049,12 @@
       "s": "table/4813",
       "k": "calc_formula",
       "raw": "lookup(Field.\"Field Caption\" where(TableNo = const(4812), \"No.\" = field(\"Field No.\")))",
+      "reason": "unknown"
+    },
+    {
+      "s": "table/48500",
+      "k": "table_relation",
+      "raw": "AllObjWithCaption.\"Object ID\" where(\"Object Type\" = const(Table))",
       "reason": "unknown"
     },
     {
@@ -293537,19 +293782,19 @@
   ],
   "stats": {
     "runs_on": 737,
-    "unresolved_unknown": 1470,
-    "extends": 1829,
-    "source_table": 3611,
-    "card_page": 317,
+    "unresolved_unknown": 1492,
+    "extends": 1830,
+    "source_table": 3616,
+    "card_page": 318,
     "lookup_page": 820,
-    "table_relation": 10180,
+    "table_relation": 10183,
     "calc_formula": 2535,
     "drilldown_page": 517,
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
-    "subscribes": 5172,
-    "edges": 20546,
-    "published_events": 26302,
-    "dead_events": 22498
+    "subscribes": 5175,
+    "edges": 20556,
+    "published_events": 26310,
+    "dead_events": 22499
   }
 }

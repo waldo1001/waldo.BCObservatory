@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:19.424Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -390,6 +390,7 @@ links:
   changes:
     - change/bcapps/10361
     - change/bcapps/10500
+    - change/bcapps/13211
     - change/bcapps/9083
     - change/bcapps/9280
     - change/bcapps/9315
@@ -522,6 +523,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10361 [main] Line Discount Amount Rounding Discrepancy When Transferring Project Planning Lines to Sales Invoice](../../../changes/bcapps/10361.md) (code change): "Line Discount Amount is now correctly preserved when transferring project planning lines"
 - [#10500 [Bug Fix] #190: Additional-Currency Total Cost incorrect on Project Ledger Entries](../../../changes/bcapps/10500.md) (code change): "Project ledger entries now correctly record additional-currency total cost"
+- [#13211 Copy time sheet skips deleted work types and absence reasons](../../../changes/bcapps/13211.md) (code change): "Copy time sheet skips deleted work types and absence reasons"
 - [#9083 Bug 639857: Project journal ignores task-level Bill-to Customer for pricing](../../../changes/bcapps/9083.md) (code change): "Project journal pricing now respects task-level bill-to customer settings"
 - [#9280 Project Task Billing Method reverts to original value in project card without validation or error](../../../changes/bcapps/9280.md) (code change): "Project Task Billing Method field now persists correctly when changed from One Customer to Multiple Customers"
 - [#9315 [Projects] Add Assigned Resources to projects and project tasks](../../../changes/bcapps/9315.md) (code change): "Projects now support assigning resources at the project level or to specific posting-type tasks"

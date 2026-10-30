@@ -77,12 +77,12 @@
     },
     "change/bcapps/10017": {
       "kind": "change",
-      "hash": "dcfbfb5277e16d400420ed3666d430bb30c2a6facf1b0d54076fc6c1418d2938",
-      "at": "2026-10-24T00:25:41.701Z",
+      "hash": "20f2202077e64349622315ecebc09ec8b0c8a5ec47da0d9c75e4712da4e24cf4",
+      "at": "2026-10-30T01:08:46.610Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report",
-          "reason": "Covers creating and managing expense reports including moving expenses between reports"
+          "reason": "Documents how to create and manage expense reports, including moving lines between reports."
         }
       ]
     },
@@ -823,12 +823,12 @@
     },
     "change/bcapps/10167": {
       "kind": "change",
-      "hash": "0c0205f90069842fa5e0961f3cdb8ac31bce3c5e43ef31d619907f57cf43dd5b",
-      "at": "2026-10-28T10:51:14.218Z",
+      "hash": "dde2780ef14d84b3cb6b852718e2cdb74d98e5fbd4690fc8c9e401a40531dcbd",
+      "at": "2026-10-30T01:08:46.610Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/across-prices-and-discounts",
-          "reason": "Documents price list setup and management for setting up prices and discounts."
+          "reason": "Documents setting up prices and discounts, including price list management processes."
         }
       ]
     },
@@ -910,12 +910,12 @@
     },
     "change/bcapps/10179": {
       "kind": "change",
-      "hash": "14fdc837ebedcacffa49e42b48c29d8d05021acdb647d0257498ba3922de73c3",
-      "at": "2026-10-24T00:25:47.029Z",
+      "hash": "a8677dbb1349274603d00d56bcb94f8544c5b167821c53817a1decfd6e63d203",
+      "at": "2026-10-30T01:08:46.610Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/bi-analyze-data-dimension-perspective",
-          "reason": "Financial reporting with dimension filters and perspectives for report recalculation"
+          "url": "https://learn.microsoft.com/dynamics365/business-central/bi-how-work-account-schedule",
+          "reason": "Documents building financial reports with account categories and dimension filtering capabilities."
         }
       ]
     },
@@ -1110,16 +1110,12 @@
     },
     "change/bcapps/10225": {
       "kind": "change",
-      "hash": "8aea8018d3325e1871acc33273644671828a70d5c8515e7a209cfdf1cc2d9eb2",
-      "at": "2026-10-28T10:51:15.164Z",
+      "hash": "94760edc594608c57dfdb965fcd8a4f0b7ab3bcdff850d5740c1328ab822d7db",
+      "at": "2026-10-30T01:08:46.610Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-run-mps-and-mrp",
-          "reason": "Explains running planning and MRP to calculate replenishment orders based on demand."
-        },
-        {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-balancing-demand-and-supply",
-          "reason": "Design details on how planning system balances supply and demand in order tracking."
+          "reason": "Documents running planning and MRP to calculate replenishment orders from demand."
         }
       ]
     },
@@ -1266,12 +1262,12 @@
     },
     "change/bcapps/10255": {
       "kind": "change",
-      "hash": "b5bffdb694abddc227c574badf9a9dd3a3f575c0ddbb570d99a7860bce86d67c",
-      "at": "2026-10-24T00:25:54.839Z",
+      "hash": "873abf7545c9f0784d41e62607fd4cc2ea3eb39fcd7e22b7cf185996de4e0809",
+      "at": "2026-10-30T01:08:46.610Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/faqs-expense-agent",
-          "reason": "Expense Agent documents the automated expense management system and activity tracking this foundation enables."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview",
+          "reason": "Documents Expense Agent overview including receipt scanning, categorization, and report creation."
         }
       ]
     },
@@ -1576,12 +1572,12 @@
     },
     "change/bcapps/10341": {
       "kind": "change",
-      "hash": "adfe51eba80880eb5a21e52ef6ddad0262767081947afd1d2d85695cfc9b2444",
-      "at": "2026-10-24T00:25:54.626Z",
+      "hash": "b424835a8e57ae4f6af9a37d9fa7b5b21bcf51329585323c4b07d7ae150af40a",
+      "at": "2026-10-30T01:08:46.610Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent",
-          "reason": "Documents Expense Agent overview and automated expense lifecycle processing."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page",
+          "reason": "Documents Expense Agent setup including configuration and workflow management in Business Central."
         }
       ]
     },
@@ -1783,12 +1779,12 @@
     },
     "change/bcapps/10382": {
       "kind": "change",
-      "hash": "b528e1dadcd8bcf46f3a35686f5b63b15de0adfa7b1d2d3591d32781236ef5fc",
-      "at": "2026-10-24T00:26:02.978Z",
+      "hash": "74d68167500ed9bbb58c2edf60d21b13591d0f2fb1d10df5046b33b52e826be3",
+      "at": "2026-10-30T01:08:46.610Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page",
-          "reason": "Documents Expense Agent setup and approval workflows that manage administrative access and recall history."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-expense-reports",
+          "reason": "Documents creating and submitting expense reports including approval workflow and history."
         }
       ]
     },
@@ -2057,12 +2053,12 @@
     },
     "change/bcapps/10451": {
       "kind": "change",
-      "hash": "089adc83f5706560a9b4dd66c480c54791e784d8a8e0414b3ddc0797dbd790c1",
-      "at": "2026-10-28T10:51:21.161Z",
+      "hash": "e621cc7bf93af6e4b650788fc065f302acb261a3264074dd947415d74c8727b3",
+      "at": "2026-10-30T01:08:46.610Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent",
-          "reason": "Documents Expense Agent lifecycle including expense report creation and posting."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-expense-reports",
+          "reason": "Documents expense report creation and submission processes relevant to posted report management."
         }
       ]
     },
@@ -2123,12 +2119,12 @@
     },
     "change/bcapps/10477": {
       "kind": "change",
-      "hash": "d2d62102513dd63181ba9e65e9f718927413292be8e56f248264fd9c18a1f9b7",
-      "at": "2026-10-24T00:26:02.883Z",
+      "hash": "40be5a5191fc3c5e2fac668730aec5034459eb55978901f93615e758b1eedb2a",
+      "at": "2026-10-30T01:08:48.363Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actionable-errors",
-          "reason": "Explains how ErrorInfo objects provide actionable error messages for user resolution"
+          "reason": "ErrorInfo objects with Fix-it and Show-it actions for unblocking users with recommended solutions."
         }
       ]
     },
@@ -2319,12 +2315,12 @@
     },
     "change/bcapps/10514": {
       "kind": "change",
-      "hash": "8c1e031611904d09b573cd29a5e54681d92303e36dbf68d67d9429448bc32f45",
-      "at": "2026-10-24T00:26:13.469Z",
+      "hash": "7041f3d5b58054c60b526c9f7d4e2576995d76eaa1331e04ba13e9a7da2a373b",
+      "at": "2026-10-30T01:08:48.363Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-view-test-reports-posting",
-          "reason": "Documents test reports for validating documents before posting, relevant to ruleset hardening in posting workflows."
+          "reason": "Test reports identify errors and missing information in purchase documents before posting."
         }
       ]
     },
@@ -2426,12 +2422,16 @@
     },
     "change/bcapps/10528": {
       "kind": "change",
-      "hash": "f8e02963b241a56ce656a6690874de8ddd8aa1f272e0244d271181b783be482c",
-      "at": "2026-10-28T10:51:22.930Z",
+      "hash": "d0002bc0fdc7132f12e5fa85d3a86ee4d45a272017cd614777c4761ba2efda88",
+      "at": "2026-10-30T01:08:48.363Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-combine-receipts",
-          "reason": "Documents receipt-on-invoice functionality and combining receipts on invoices per purchase order line."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/match-purchase-invoice-drafts-to-orders",
+          "reason": "Match purchase invoice drafts to orders and manage receipt-to-invoice tracking per order line."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-track-document-lines",
+          "reason": "Track order lines to related documents including receipts linked to purchase orders."
         }
       ]
     },
@@ -2773,12 +2773,16 @@
     },
     "change/bcapps/10614": {
       "kind": "change",
-      "hash": "3059c39b6b07c8266c2a77176284b74c44d60dd902c2c815fa8c49e8a023cdd3",
-      "at": "2026-10-24T00:26:10.084Z",
+      "hash": "27d843a24b1e119226f40cbfcf457ffb339ed44a695180c9a5a4ae8b68af8049",
+      "at": "2026-10-30T01:08:48.363Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent",
-          "reason": "Documents Expense Agent activity history and expense lifecycle automation"
+          "reason": "Expense Agent automates expense lifecycle including categorization and report preparation."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-a-factbox-to-page",
+          "reason": "FactBoxes display activity history and related information in page's right pane."
         }
       ]
     },
@@ -3024,12 +3028,12 @@
     },
     "change/bcapps/10748": {
       "kind": "change",
-      "hash": "9ce80afc7a1fdbca6d47ac2e4ed883916928b66e0cbb9beceadffdf4383901db",
-      "at": "2026-10-24T00:26:14.882Z",
+      "hash": "20efa2b9af93228d99217213dcbe8463f62f114cfb0324418ba917288bff2311",
+      "at": "2026-10-30T01:08:48.363Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-item-availability",
-          "reason": "Item availability helps check item stock levels during sales order agent operations."
+          "reason": "Item availability helps Sales Order Agent check stock levels during sales order creation."
         }
       ]
     },
@@ -3179,12 +3183,16 @@
     },
     "change/bcapps/10828": {
       "kind": "change",
-      "hash": "5bd4b31c1139f646987cc2e8781272c39e9f43d7391481454972cef3acd28459",
-      "at": "2026-10-24T00:26:15.749Z",
+      "hash": "9663b481230c0d2228fa21c1819467f86171e6e716fad26e1aea4ab91a6fde9d",
+      "at": "2026-10-30T01:08:48.363Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally",
-          "reason": "External attachment storage and FactBox interaction performance optimization"
+          "reason": "External file storage for document attachments reduces database capacity and improves performance."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-a-factbox-to-page",
+          "reason": "FactBox refresh performance optimization for attachment checking and display."
         }
       ]
     },
@@ -3348,16 +3356,12 @@
     },
     "change/bcapps/10890": {
       "kind": "change",
-      "hash": "4e74c1e0711163e76601763f35ef3ead2c9c469cb5215148c3a2ef2f5035731b",
-      "at": "2026-10-24T00:26:21.360Z",
+      "hash": "b6838cf8ad742cb57ae80f7ff459ef9afd9d69aeaf02c12f654188a2bc37fd7e",
+      "at": "2026-10-30T01:08:48.363Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-approve-reports",
-          "reason": "Documents Expense Agent approval workflows and manager approval processes."
-        },
-        {
           "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page",
-          "reason": "Documents Expense Agent setup including approval workflow configuration."
+          "reason": "Expense Agent setup and configuration for approval workflows and policy compliance."
         }
       ]
     },
@@ -3670,6 +3674,21 @@
         }
       ]
     },
+    "change/bcapps/10992": {
+      "kind": "change",
+      "hash": "6155bb5b83c2acc758e836d43f0faca6beacce9a8971af75cdac27583c5fc03f",
+      "at": "2026-10-30T01:08:48.363Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-post-service-orders",
+          "reason": "Service post and send events for posting service orders and sending documents."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-send-documents-email",
+          "reason": "Send documents and emails directly from Business Central with customizable templates."
+        }
+      ]
+    },
     "change/bcapps/11001": {
       "kind": "change",
       "hash": "c748d30ba58afb8f500818c4ee5aaf12bd9ae70ec72061f556d5f098b9dea068",
@@ -3694,27 +3713,31 @@
     },
     "change/bcapps/11004": {
       "kind": "change",
-      "hash": "f88f0eceb35400fedeb8b0be290eba9b8ef9abc561250588e665864ca9e4c900",
-      "at": "2026-10-24T00:26:22.361Z",
+      "hash": "2fb4035ba668346e2214b57fe2cccba580fd8e04345380491b344208c11493ae",
+      "at": "2026-10-30T01:08:47.889Z",
       "picks": [
         {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-record-reimburse-employee-expenses",
+          "reason": "Documents how employee expenses are recorded and reimbursed with currency handling."
+        },
+        {
           "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-post-reports",
-          "reason": "Documents expense report posting with reimbursement and currency handling."
+          "reason": "Documents posting expense reports to general ledger, including reimbursement processing."
         }
       ]
     },
     "change/bcapps/11007": {
       "kind": "change",
-      "hash": "bdd2bf93fa5ca52f455c5d28731ab8cbd60d2e23680679166917ebe5c30f44de",
-      "at": "2026-10-24T00:26:24.494Z",
+      "hash": "e839fe936072b85e063713d7a7b4e7c55965cf5b9edfed0d0526b3a61bc4ed5a",
+      "at": "2026-10-30T01:08:47.889Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent",
-          "reason": "Expense Agent overview documents the complete expense lifecycle that Travel Request API extends"
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-travel-requisitions",
+          "reason": "Documents travel requests and their linking to expense reports for the full lifecycle."
         },
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-travel-requisitions",
-          "reason": "Travel request management is directly documented including organizational review and approval workflows"
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-expense-reports",
+          "reason": "Documents Expense Agent's complete expense report creation and approval workflow."
         }
       ]
     },
@@ -4589,16 +4612,16 @@
     },
     "change/bcapps/11333": {
       "kind": "change",
-      "hash": "648a62efd333a9c1e707303443e52273a76ea364261327eff6e30da48c8d9cea",
-      "at": "2026-10-24T00:26:34.726Z",
+      "hash": "64073048b053c5b049edcd4e9a1d4bec4052c6ac15f36ebc33640615e867af33",
+      "at": "2026-10-30T01:08:47.889Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-travel-requisitions",
-          "reason": "Covers travel request recording and linking to expense reports, matching the API alignment scope."
+          "reason": "Documents travel requests and employee traveler alignment in expense management."
         },
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-overview",
-          "reason": "Documents complete expense lifecycle management including travel requests and approval workflows."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent",
+          "reason": "Documents Expense Agent's complete automation of expense lifecycle including travel integration."
         }
       ]
     },
@@ -4745,16 +4768,16 @@
     },
     "change/bcapps/11381": {
       "kind": "change",
-      "hash": "8750c0104f7238f6d05c108742f33d04a2410ce2569d6206ff9da6ce2508bbf2",
-      "at": "2026-10-24T00:26:35.888Z",
+      "hash": "a906b28d270e8a040b88fefb1bf1159a1ccfb00e14b0732fbccf05490bdbfcd2",
+      "at": "2026-10-30T01:08:47.889Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-per-diem-mileage",
-          "reason": "Documents per diem allowance setup that the change validates with country existence checks."
+          "reason": "Documents per diem and location-based configuration for expense allowances."
         },
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-categories-rules",
-          "reason": "Documents expense categories and rules configuration affected by the country validation enhancement."
+          "reason": "Documents setup of expense categories, rules, and policies configuration."
         }
       ]
     },
@@ -4867,12 +4890,16 @@
     },
     "change/bcapps/11431": {
       "kind": "change",
-      "hash": "6c5dcb82fb86f1f6f34e30d5d58f726115795a761c6f6aacadc3d3e9c4ff6a14",
-      "at": "2026-10-28T10:51:35.420Z",
+      "hash": "51a42a6e21093eb3b5cdd51867968584b4d90f56ee24222ec3fdc8483d882970",
+      "at": "2026-10-30T01:08:47.889Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance",
-          "reason": "Documents policy compliance and rule violations in Expense Agent, matching the move to rule violation validation."
+          "reason": "Documents policy and rules compliance checking in expense evaluation."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report",
+          "reason": "Documents expense report creation and submission with rule violation review."
         }
       ]
     },
@@ -5099,12 +5126,12 @@
     },
     "change/bcapps/11562": {
       "kind": "change",
-      "hash": "1af164fdbd18750e11a6a595b55ede2b15fcd74c995435415df4984877928d4f",
-      "at": "2026-10-28T10:51:36.287Z",
+      "hash": "9045ee781b300087aab6658a8c569f16024f2a00984f1190bf97451c16344abf",
+      "at": "2026-10-30T01:08:47.889Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-configuration-package-trace",
-          "reason": "Documents configuration package import operations where Sales Line Discount decimal validation occurs."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/apply-company-configuration-packages",
+          "reason": "Documents configuration package application for data import into Business Central."
         }
       ]
     },
@@ -5257,12 +5284,16 @@
     },
     "change/bcapps/11628": {
       "kind": "change",
-      "hash": "c526931b43bdcaca9f45d08fab46da27207a9bf7efbc86e754b3c2aa21a076ac",
-      "at": "2026-10-24T00:26:42.369Z",
+      "hash": "a2bbfe8c874870063ae556d4b3da095423cad19908f90bb86a1a9f53f6b61e59",
+      "at": "2026-10-30T01:08:47.889Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page",
-          "reason": "Expense Agent policy evaluation history directly documents expense submission policy tracking"
+          "reason": "Documents Expense Agent setup including policy compliance configuration and evaluation."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance",
+          "reason": "Documents policy compliance checking and evaluation history in Expense Agent."
         }
       ]
     },
@@ -5360,12 +5391,12 @@
     },
     "change/bcapps/11654": {
       "kind": "change",
-      "hash": "2280abc8ab5688a90285e963a7e4bab905337016c19dfba093d083fe4e1eab75",
-      "at": "2026-10-24T00:26:42.517Z",
+      "hash": "181102533603059fe1dba063f3ac8dc63146403af4103d3890de9e031b6b7616",
+      "at": "2026-10-30T01:08:47.889Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-travel-requisitions",
-          "reason": "Documents Travel Requests which link to expense reports for tracking employee travel and spending."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-expense-reports",
+          "reason": "Documents Expense Agent's complete workflow and approval process functionality."
         }
       ]
     },
@@ -5393,12 +5424,12 @@
     },
     "change/bcapps/11664": {
       "kind": "change",
-      "hash": "d907cd3cfdda1d0bec1f2faae619af1430ddd5f850e2060ec5168a9becf0097f",
-      "at": "2026-10-24T00:26:42.517Z",
+      "hash": "181861288d4d20c9807fd2019e54bd0082ce8547a7718258c629a8c621518435",
+      "at": "2026-10-30T01:08:47.013Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-create-workflows",
-          "reason": "Documents approval workflow creation with events and conditions for automating business processes."
+          "reason": "Describes how workflows connect approval tasks and document triggers that workflows respond to."
         }
       ]
     },
@@ -5481,12 +5512,12 @@
     },
     "change/bcapps/11705": {
       "kind": "change",
-      "hash": "6c09549b9392de63571cbafb5a1479e9d5cdd59505e49c3434d56b8885d30ee0",
-      "at": "2026-10-24T00:26:42.951Z",
+      "hash": "9ced0e9c49479bce46d6d6f844f8708c99173d107e943dc6278b81df78c81f45",
+      "at": "2026-10-30T01:08:47.013Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-categories-rules",
-          "reason": "Documents expense categories, rules, and policies setup including category management."
+          "reason": "Documents expense categories and their setup including itemized categories and subcategories."
         }
       ]
     },
@@ -5503,12 +5534,16 @@
     },
     "change/bcapps/11712": {
       "kind": "change",
-      "hash": "33808729c0790803381a1713a7d673a1a7b3d8557eedec3beccc4c281a875bdb",
-      "at": "2026-10-24T00:26:45.154Z",
+      "hash": "dd9d477375748243aa940a2c36fd68e8ffef565c3866134dfaa3353ae7066479",
+      "at": "2026-10-30T01:08:47.013Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-users-teams",
-          "reason": "Documents how to set up and create Expense Users linked to employees in the system."
+          "reason": "Covers expense user setup and syncing employees to the expense management system."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-setup",
+          "reason": "Documents expense management configuration including approval workflows setup."
         }
       ]
     },
@@ -5700,12 +5735,12 @@
     },
     "change/bcapps/11813": {
       "kind": "change",
-      "hash": "20f48699ef24a209f33d9ae4bc284ebb992580b383fcf0cdee2e3aa904e531d3",
-      "at": "2026-10-28T10:51:38.323Z",
+      "hash": "db317dc7f4a34a2429e3c911e343b16740adf6c497bd646781935aad6421a641",
+      "at": "2026-10-30T01:08:47.013Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page",
-          "reason": "Documents Expense Agent setup wizard configuration including default approver settings"
+          "reason": "Describes Expense Agent setup configuration including approval workflow and approver settings."
         }
       ]
     },
@@ -5815,25 +5850,20 @@
     },
     "change/bcapps/11870": {
       "kind": "change",
-      "hash": "00f8dba29e2070b567da649f035184c4f566ec19f6a296dbff97c9b7e734286f",
-      "at": "2026-10-24T00:26:47.980Z",
+      "hash": "df9176bc69101c10b5f38817848102505de0769563e61eac7830b0ee8b74f6f8",
+      "at": "2026-10-30T01:08:47.013Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object",
-          "reason": "Export to Excel uses XML management for data export operations."
+          "reason": "XMLport objects handle export and import of data in XML format for external systems."
         }
       ]
     },
     "change/bcapps/11889": {
       "kind": "change",
-      "hash": "93a63fc9ccb5f82a3e0051ea23ecd8368daec11f0b47f98294e9b8c2203ed163",
-      "at": "2026-10-24T00:26:47.980Z",
-      "picks": [
-        {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-setup-page",
-          "reason": "Expense Agent configuration with distance UOM setup uses agent configuration pages."
-        }
-      ]
+      "hash": "16673bdca8110b963d09bb02990dc12f8a20fac2cadfe679447358a5f322413b",
+      "at": "2026-10-30T01:08:47.013Z",
+      "picks": []
     },
     "change/bcapps/11890": {
       "kind": "change",
@@ -5929,14 +5959,9 @@
     },
     "change/bcapps/11909": {
       "kind": "change",
-      "hash": "092d5cc4b677b2a2a0e2e10718dc5135413ecb01422cb7a1ed89c0a65cd1d7cf",
-      "at": "2026-10-24T00:26:48.922Z",
-      "picks": [
-        {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent",
-          "reason": "Documents Expense Agent email processing and management that guest user blocking affects."
-        }
-      ]
+      "hash": "633539861a49937f76bc813df612352912ae719727be596d2eb0a934c6e6d5ca",
+      "at": "2026-10-30T01:08:47.013Z",
+      "picks": []
     },
     "change/bcapps/11920": {
       "kind": "change",
@@ -6012,16 +6037,16 @@
     },
     "change/bcapps/11955": {
       "kind": "change",
-      "hash": "e42552806d98c4770e64d1ec0e74753ccb77f73a77b52fa3f675400f8266425a",
-      "at": "2026-10-25T12:50:37.676Z",
+      "hash": "401175cdfff786f9bda8c18089add213753079391e28322dc7a1439560631f60",
+      "at": "2026-10-30T01:08:47.013Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-approval-users",
-          "reason": "Setting up approval users with amount limits and substitute approvers for workflows"
+          "reason": "Documents approval user setup with substitute approvers and delegated approval management."
         },
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview",
-          "reason": "Expense Agent handles expense management with approval workflows and policy compliance"
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-permissions",
+          "reason": "Covers agent permissions and access controls for configuring data and page access."
         }
       ]
     },
@@ -6163,12 +6188,12 @@
     },
     "change/bcapps/11997": {
       "kind": "change",
-      "hash": "e54cfb9f674be3bd42dfa39538850a573a4932c0b3b1f068eb9ad42c48570620",
-      "at": "2026-10-24T00:26:52.037Z",
+      "hash": "2735b519060236c370308374c0f58c0cb43351c023f1471414610f22451da82b",
+      "at": "2026-10-30T01:08:47.009Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page",
-          "reason": "Documents Expense Agent setup including configuration and security aspects of the expense management system."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview",
+          "reason": "Documents Expense Agent overview and how it handles the complete expense lifecycle."
         }
       ]
     },
@@ -6229,16 +6254,16 @@
     },
     "change/bcapps/12053": {
       "kind": "change",
-      "hash": "294a436603d3bd28007a8b69aa5ff797475e9969eab7c7951161ae08680b87a0",
-      "at": "2026-10-24T00:26:54.957Z",
+      "hash": "1501e619f6d54cd84eacdd12c6ef2e7d6d4e285f4ada199e28b9b3d9097eb4c9",
+      "at": "2026-10-30T01:08:47.009Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-key-influences",
-          "reason": "Documents CO2e Key Influences Power BI report for sustainability emissions tracking."
+          "reason": "Documents CO2e Key Influences Power BI report for sustainability managers."
         },
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-journey-to-net-zero-carbon",
-          "reason": "Documents Journey to Net Zero Carbon Power BI report for emissions monitoring."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-sustainability-overview",
+          "reason": "Documents Sustainability Overview Power BI report with emissions metrics."
         }
       ]
     },
@@ -6359,9 +6384,14 @@
     },
     "change/bcapps/12078": {
       "kind": "change",
-      "hash": "372701decf6e1e095d612cde6668bf0595dd06bbe52e5e9227289447360e2e18",
-      "at": "2026-10-24T00:26:55.124Z",
-      "picks": []
+      "hash": "ed3259fb014d5ad706c23bdb947dd32faf6d007d62aac59a516bea013b9590a4",
+      "at": "2026-10-30T01:08:47.009Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object",
+          "reason": "Documents XMLport objects that export data in XML format."
+        }
+      ]
     },
     "change/bcapps/12080": {
       "kind": "change",
@@ -6565,6 +6595,21 @@
         }
       ]
     },
+    "change/bcapps/12147": {
+      "kind": "change",
+      "hash": "259a2bd39d970b19edc24e83ba06a33aa3723f2c14de26915268bc0d0b5b2d75",
+      "at": "2026-10-30T01:08:47.009Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-edit-expenses",
+          "reason": "Documents how to review and edit expense details in Expense Agent."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-post-reports",
+          "reason": "Documents posting approved expense reports to the general ledger."
+        }
+      ]
+    },
     "change/bcapps/12148": {
       "kind": "change",
       "hash": "7a7fb75f76997dd510647e39734f8abcc3b120aadd39e45a3c8f3923d2befe19",
@@ -6648,9 +6693,14 @@
     },
     "change/bcapps/12188": {
       "kind": "change",
-      "hash": "d1871c17b09fe25840c49620a7a414ff0549243b15da2077f591ad9bd3a4bcc8",
-      "at": "2026-10-28T10:51:43.058Z",
-      "picks": []
+      "hash": "66bd29b2d5cfa6d0b81e3c4e6fa8ab3afc1ac7bf6328839da9058a112a4fea88",
+      "at": "2026-10-30T01:08:47.009Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1006",
+          "reason": "Documents Project Planning Lines report showing planning details by task."
+        }
+      ]
     },
     "change/bcapps/12189": {
       "kind": "change",
@@ -6965,12 +7015,12 @@
     },
     "change/bcapps/12322": {
       "kind": "change",
-      "hash": "d44b0c999a8ba78d31063706248a29f7230b65a582cb12382eea83f1692556fd",
-      "at": "2026-10-28T10:51:43.238Z",
+      "hash": "c55e56c148dc9636127db6a83f59fb7e32b92385903d152a938306af3588391d",
+      "at": "2026-10-30T01:08:47.009Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-object",
-          "reason": "Documents permission set objects that control visibility and usability of bin code features."
+          "reason": "Documents Permission set objects for access control."
         }
       ]
     },
@@ -7427,6 +7477,17 @@
         }
       ]
     },
+    "change/bcapps/12557": {
+      "kind": "change",
+      "hash": "7ebbf820586021d031bdceefedc463d668312de0b26a71a81b32a41161a39d86",
+      "at": "2026-10-30T01:08:47.009Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_app_management",
+          "reason": "Documents Business Central Admin Center API for managing apps and extensions."
+        }
+      ]
+    },
     "change/bcapps/12558": {
       "kind": "change",
       "hash": "05df0dd9f0a1f5c774946d894e5b80df2e4c6c1223155a0349096e72c82f77a0",
@@ -7645,6 +7706,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-general-journal-post-line-overview",
           "reason": "Documents manufacturing journal posting and reverse operations, applicable to capacity ledger entry reversal"
+        }
+      ]
+    },
+    "change/bcapps/12691": {
+      "kind": "change",
+      "hash": "8ebfc22db79afe5f7d8bb2674c60fa8d2412ddc7df86f4884083a26e08ef4d2b",
+      "at": "2026-10-30T01:08:47.009Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/germany-einvoicing",
+          "reason": "Documents electronic invoicing in Germany with XRechnung and PEPPOL formats."
         }
       ]
     },

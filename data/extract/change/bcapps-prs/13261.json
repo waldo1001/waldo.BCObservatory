@@ -7,16 +7,15 @@
     "inventory",
     "manufacturing"
   ],
-  "summary": "Quality Management and Subcontracting code is backported to BC 29 with extensibility improvements that make codeunits and table extensions more customizable for external developers.",
+  "summary": "Backports three extensibility requests to releases/29.x (BC29). The changes touch Quality Management's result condition and filter helper codeunits and the Subcontracting requisition line table extension. The description does not say which extension points were added.",
   "key_points": [
-    "Backports extensibility requests from main branch to BC 29 release",
-    "Enhances Quality Management condition handling and filter helpers for external extension",
-    "Improves Subcontracting requisition line extension points",
-    "Targets three related extensibility issues across quality and purchasing domains",
-    "Changes appear to add or adjust public members for easier customization"
+    "Backport of extensibility requests to releases/29.x",
+    "Covers issues 10883, 10953 and 11035 from main PRs 11111, 11112 and 11165",
+    "Modifies Qlty. Result Condition Mgmt. and Qlty. Filter Helpers in Quality Management",
+    "Small change to the Subc. RequisitionLine table extension in Subcontracting"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

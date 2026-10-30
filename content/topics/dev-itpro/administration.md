@@ -2,21 +2,21 @@
 id: topic/dev-itpro/administration
 type: topic
 title: Administration
-summary: Administration of Business Central online covers how tenant administrators and delegated partners run environments, users, licensing, updates, telemetry, support and migration. It answers how-to, limit and process questions across the service lifecycle, from onboarding to monitoring and cloud migration.
+summary: Administration of Business Central online covers how internal administrators and delegated partners manage tenants and environments, licensing and permissions, setup, onboarding, telemetry, support, admin APIs and migration. It answers how-to, limit and process questions across the service lifecycle.
 tier: official
 language: en
 system: administration
 review:
   state: reviewed
   by: opus
-  at: "2026-10-20T08:48:51.537Z"
+  at: "2026-10-30T01:11:58.024Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 3d51757be1ed1f3f57bddcd50f9f6be9ea8d1422fd98e2b252e7bbdea156f692
+  input_hash: e6f5215d899fd65d7e7587d40573e2691f5d3bf78e8eaa7283a3162bfc3ccf74
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_activate_create
@@ -393,28 +393,28 @@ narrative: generated
 
 # Administration
 
-> Administration of Business Central online covers how tenant administrators and delegated partners run environments, users, licensing, updates, telemetry, support and migration. It answers how-to, limit and process questions across the service lifecycle, from onboarding to monitoring and cloud migration.
+> Administration of Business Central online covers how internal administrators and delegated partners manage tenants and environments, licensing and permissions, setup, onboarding, telemetry, support, admin APIs and migration. It answers how-to, limit and process questions across the service lifecycle.
 
 Path: Administration · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section starts with a page on administering Business Central online tenants, either as an internal administrator or as a delegated partner. It covers user management, licensing, environment updates, telemetry and partner relationships, and the subtopics go deeper on each.
+The area starts with one landing page on administering Business Central online tenants. It covers user management, permission assignment, licensing, environment updates, telemetry and partner relationships, for internal admins and for partners with delegated administration.
 
-Start with "Understand Business Central online" for tenants, environments, companies, update cycles and limits. Then use the Admin center pages for day-to-day environment tasks, and "Entitlements and permissions" for licensing and access. "Prepare Business Central" and "Onboard your customers" cover getting an environment and new users ready.
+The subtopics split the work by task. "Understand Business Central online" explains tenants, environments, companies, update cycles and limits. "Admin center" covers day-to-day environment management and has its own Admin Center API. "Entitlements and permissions" explains licensing and permission sets. "Prepare Business Central" and "Onboard your customers" cover getting an environment and new users ready.
 
-For operations, "Monitor and analyze telemetry" covers Application Insights, and "Manage technical support" covers diagnostics and escalation. The Automation API and Cloud Migration API subtopics are API references. "Migrate to Business Central online" guides moves from on-premises Business Central, NAV, GP, SL or other SQL sources.
+For operations, "Monitor and analyze telemetry" and "Manage technical support" cover diagnostics and escalation. The Automation API and Cloud Migration API subtopics are for programmatic work. "Migrate to Business Central online" covers moving from on-premises Business Central, NAV, GP, SL or other SQL sources. New readers should begin with "Understand Business Central online", then move to the Admin center.
 
 ## Key points
 
-- The Admin center lets tenant admins create, copy, rename, restore, delete, transfer and export online environments, and control updates, apps, access, capacity, telemetry, notifications and billing.
-- The Admin Center API is covered as a subtopic of the Admin center.
-- Entitlements, permissions and permission sets differ; special sets include SUPER, D365 BASIC and SYSTEM APP.
-- Online fundamentals include tenants, environments, companies, environment types, update cycles, version numbers, operation limits and country and language availability.
-- Preparation tasks include initial setup, configuration packages, Feature Management, Excel and Outlook add-ins, app deployment and upgrades, and app key vaults.
-- Onboarding topics include trials, the SignupContext parameter, the Welcome banner, checklists, teaching tips, tours and recommended apps.
-- Telemetry goes to Azure Application Insights and is analyzed with KQL and Power BI, with alerts, cost control and event ID lookup.
-- Migration sources are on-premises Business Central, Dynamics NAV, GP, SL or any SQL source, with pages on route choice, phases, custom migrations and troubleshooting.
+- The landing page covers user management, permissions, licensing, environment updates, telemetry and delegated partner administration.
+- Understand Business Central online explains tenants, environments, companies, environment types, update cycles, version numbers, operation limits, and country and language availability.
+- The Admin center covers creating, copying, renaming, restoring, deleting, transferring and exporting environments, plus updates, apps, access, capacity, telemetry, notifications and billing.
+- Entitlements and permissions explains how entitlements, permissions and permission sets differ, and what SUPER, D365 BASIC and SYSTEM APP provide.
+- Prepare Business Central covers configuration packages, feature management, Excel and Outlook add-ins, per-tenant extension and Marketplace app deployment, and app key vaults.
+- Telemetry goes to Azure Application Insights and can be analyzed with KQL and Power BI, with alerts, cost control and an event ID reference.
+- Technical support pages cover troubleshooting tools, escalating to Microsoft, and reporting performance problems and production outages.
+- Migration paths cover on-premises Business Central, Dynamics NAV, GP, SL and any SQL source, with custom migrations, FAQs and troubleshooting.
 
 ## Subtopics
 

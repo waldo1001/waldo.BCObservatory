@@ -2,20 +2,20 @@
 id: topic/business-central/security-privacy-and-compliance
 type: topic
 title: Security, privacy, and compliance
-summary: "Security, privacy, and compliance in Business Central: personal security best practices for users, plus a Compliance subtopic on accounting standards, country and ISO certifications, service architecture, availability, and trial features that connect to other Microsoft services."
+summary: Security, privacy, and compliance in Business Central covers personal security practices for users and the compliance subtopic on regulatory, certification and SLA requirements. It answers questions about MFA, passwords, phishing, device protection, audit trails, ISO standards, country certifications, and backup and availability.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:22:17.518Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f6108787bfbabec402d396f63317373d7eb368cc0a0080ffbdd5e34d93bb7a04
+  input_hash: 0517494cec8615e97bdde94a8375958f3f43db38b178655b94c8e6da38856b52
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/compliance/compliance-application-compliance
@@ -96,28 +96,24 @@ narrative: generated
 
 # Security, privacy, and compliance
 
-> Security, privacy, and compliance in Business Central: personal security best practices for users, plus a Compliance subtopic on accounting standards, country and ISO certifications, service architecture, availability, and trial features that connect to other Microsoft services.
+> Security, privacy, and compliance in Business Central covers personal security practices for users and the compliance subtopic on regulatory, certification and SLA requirements. It answers questions about MFA, passwords, phishing, device protection, audit trails, ISO standards, country certifications, and backup and availability.
 
-Path: Security, privacy, and compliance · tier official · system none · narrative reviewed (checked by Opus)
+Path: Security, privacy, and compliance · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers two sides of trust in Business Central. One side is what individual users can do to protect their accounts and devices. The other is how the application and the online service meet regulatory, certification, and SLA requirements.
+This section has two parts. One page gives personal security best practices for Business Central users. The Compliance subtopic (6 pages) explains how the application and the online service meet regulatory, certification and SLA requirements.
 
-The own page on personal security best practices is aimed at users. It covers phishing awareness, enabling MFA, password management, and device protection. The Compliance subtopic (6 pages) covers accounting standards support, country certifications, ISO and industry certifications, service architecture and availability, and trial features that connect to other Microsoft services.
-
-Start with the personal security page for practical user guidance. Go to Compliance when the question is about certifications, regulatory fit, or service-level commitments.
+Start with the personal security page if the question is about how an individual user should protect their account and device. Go to Compliance for questions about accounting standards, audit trails, country certifications, ISO standards, backup and availability, or which trial features connect to other Microsoft services.
 
 ## Key points
 
-- Personal security guidance covers phishing awareness, MFA enablement, and two-factor authentication.
-- Users are advised to use a password manager and manage passwords carefully.
-- Device protection includes device encryption and a backup strategy.
-- Compliance subtopic has 6 pages on how Business Central meets regulatory and SLA requirements.
-- Compliance answers questions on accounting standards support and country certifications.
-- Compliance covers ISO and industry certifications.
-- Compliance explains service architecture and availability.
-- Compliance notes trial features that connect to other Microsoft services.
+- Personal security guidance covers phishing awareness, MFA enablement, password management and device protection.
+- The personal security page mentions two-factor authentication, password manager use, device encryption and a backup strategy.
+- Compliance covers regulatory, certification and SLA requirements for both the application and the online service.
+- Compliance answers questions on accounting standards, audit trails and ISO standards.
+- Compliance also covers country certifications, backup and availability.
+- Compliance notes which trial features connect to other Microsoft services.
 
 ## Subtopics
 

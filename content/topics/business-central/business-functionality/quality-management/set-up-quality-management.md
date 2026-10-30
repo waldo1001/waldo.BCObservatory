@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:07.373Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,6 +76,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12322
+    - change/bcapps/13111
 learn_toc_path:
   - Business functionality
   - Quality management
@@ -138,6 +139,7 @@ Then connect these pieces to business activity. Generation rules decide when ins
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12322 [QM] Destination bin code is now visible and usable for the user](../../../../changes/bcapps/12322.md) (code change): "destination bin code is now visible and usable for the user"
+- [#13111 [Backport 29.x] #11046: [Extensibility Request] issue 10889: expose large text modal helper](../../../../changes/bcapps/13111.md) (code change): "Enables external developers to extend large text modal functionality"
 - [Introducing: Quality Management (2026 release wave 1)](../../../../videos/m8-7-JKq4dc.md) (video): "Quality Management Extension; Automatic Quality Test Triggering; Scheduled Quality Inspections"
 
 ## Business Central pages and reports

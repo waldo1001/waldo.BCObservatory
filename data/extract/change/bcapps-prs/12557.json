@@ -6,13 +6,13 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Microsoft Fabric Export now uses first-party app authentication instead of user-based credentials, improving security and removing the need for user intervention in credential setup.",
+  "summary": "Adds first-party app authentication to the Microsoft Fabric Mirroring export. The credential management, admin client, platform management, setup page and setup wizard are updated, a new environment cleanup subscriber codeunit is added, and tests are extended.",
   "key_points": [
-    "Replaces user-based credential management with first-party app authentication",
-    "Adds environment cleanup subscription to handle credential removal",
-    "Updates setup wizard and admin pages to work with the new authentication model",
-    "Expands test coverage for platform credential and authentication scenarios",
-    "Maintains backward compatibility while improving security posture"
+    "Adds first-party app authentication for the Fabric export",
+    "Updates the credential management and admin client codeunits",
+    "Reworks the Fabric Platform Setup page and setup wizard",
+    "Adds a new environment cleanup subscriber codeunit",
+    "Extends platform tests and the test subscriber"
   ],
   "change_kind": "feature",
   "behavior_change": true,

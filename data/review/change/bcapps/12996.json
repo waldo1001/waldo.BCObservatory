@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/12996",
+  "input_hash": "9229e585f62797287086e0df28e4b23b128eae493276605f9af0269be839443f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-30T01:10:03.332Z",
+  "issues": [
+    "The summary limits the exemption to Average carbon tracking. The description says the exemption covers reclassification journals in general; Average tracking is only the scenario in the bug and the test."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019135,
+    "changes_in_call": 6
+  }
+}

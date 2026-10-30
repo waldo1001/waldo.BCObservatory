@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:42:34.480Z"
+  at: "2026-10-30T01:00:43.748Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 57edd09e22304f2a6b780597f447afcbd2508375f64e945d488587aa558172d2
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Layers/W1/BaseApp/Finance/RoleCenters/ArAdministrator.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Layers/W1/BaseApp/Finance/RoleCenters/ArAdministrator.Profile.al
     title: src/Layers/W1/BaseApp/Finance/RoleCenters/ArAdministrator.Profile.al (releases/29.x)
     date: null
-    commit: 4c1c1638beb6d5da8540cc1f61889b80c7b3356f
+    commit: 7aa49e808916c060dbee97d9ff324a2cfda8d422
     t: null
     quote: null
 links:
@@ -83,7 +83,7 @@ relations:
 
 > Profile "AR ADMINISTRATOR" in Base Application (Microsoft.Finance.RoleCenters). Present since at least BC23, still in BC30, changed in BC24.
 
-Base Application · Microsoft.Finance.RoleCenters · captioned "Accounts Receivable Administrator" · BC23-30 · [source at 4c1c1638](https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Layers/W1/BaseApp/Finance/RoleCenters/ArAdministrator.Profile.al) · facts from BC29
+Base Application · Microsoft.Finance.RoleCenters · captioned "Accounts Receivable Administrator" · BC23-30 · [source at 7aa49e80](https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Layers/W1/BaseApp/Finance/RoleCenters/ArAdministrator.Profile.al) · facts from BC29
 
 ## Properties
 

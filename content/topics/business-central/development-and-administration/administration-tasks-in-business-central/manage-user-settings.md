@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:28.766Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,7 +46,8 @@ links:
   localizations: []
   videos:
     - video/OszitKuf8t0
-  posts: []
+  posts:
+    - post/yzhums-com/73637
   guidelines: []
   changes:
     - change/bcapps/11184
@@ -62,7 +63,7 @@ coverage:
   learn: 2
   code: 3
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 9171
@@ -108,6 +109,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11184 [29.x][All-e][FTE][SaaS] Cannot Rename User Due to Financial Report Audit Log Permissions](../../../../changes/bcapps/11184.md) (code change): "User Management now updates Financial Report Audit Log entries when a user is renamed"
 - [#9946 Fix Retrieve Users overwriting existing users' custom Role Center (AB#641534)](../../../../changes/bcapps/9946.md) (code change): "Fixed a regression where Retrieve Users silently overwrote all existing users' custom Role Centers"
+- [Dynamics 365 Business Central: Hide and show list views](../../../../posts/yzhums-com/73637.md) (community post): "Users can save, hide, and show filtered views"
 - [What's Cooking in Business Central: Limiting the Available Product Languages](../../../../videos/OszitKuf8t0.md) (video): "Limiting the Available Product Languages; language settings; administration; user settings; product languages"
 
 ## Business Central pages and reports

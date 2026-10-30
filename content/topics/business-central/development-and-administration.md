@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:00:37.471Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -480,7 +480,8 @@ links:
     - topic/business-central/development-and-administration/migrate-to-business-central-online
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/wingate365-com/https-blog-wingate365-com-2025-11-delivering-bc-in-age-of-ai-which-soft-html--09f0a2a7ba
   guidelines: []
   changes:
     - change/bcapps/9281
@@ -498,7 +499,7 @@ coverage:
   learn: 77
   code: 165
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 1
@@ -789,6 +790,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#9281 Add read isolation support to Isolated Storage Management](../../changes/bcapps/9281.md) (code change): "Isolated Storage Management codeunit now provides Get method overloads"
 - [#9291 Add [NonDebuggable] to Cryptography Management encrypt/decrypt procedures](../../changes/bcapps/9291.md) (code change): "Cryptography Management system application now marks all encryption and decryption procedures"
+- [Delivering BC in the Age of AI - Which Soft Skills Still Matter?](../../posts/wingate365-com/https-blog-wingate365-com-2025-11-delivering-bc-in-age-of-ai-which-soft-html--09f0a2a7ba.md) (community post): "Delivering BC in the Age of AI - Which Soft Skills Still Matter"
 
 ## Business Central pages and reports
 

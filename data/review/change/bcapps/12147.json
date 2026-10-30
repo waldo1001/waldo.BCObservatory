@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/12147",
+  "input_hash": "c16306c72c0deac82136fb98bd9bf1575416f8faf0dcd733851c23a3be6acf61",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-30T01:10:03.115Z",
+  "issues": [
+    "The description is empty, but the file list supports the page: import, matching, MCC, dedup, settlement, statement and approval codeunits, table extensions on bank and journal tables, and dashboard and exception pages.",
+    "The title says Bugs, but the content is new feature work, so feature is the right kind."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023235,
+    "changes_in_call": 6
+  }
+}

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:42:34.480Z"
+  at: "2026-10-30T01:00:43.748Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f66c58953cc3c75d0aac003aa8d4feab9453a2aa3d0e94057c250eed7cd5a9a3
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Layers/W1/BaseApp/Finance/Consolidation/ImportConsolidationData.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Layers/W1/BaseApp/Finance/Consolidation/ImportConsolidationData.Interface.al
     title: src/Layers/W1/BaseApp/Finance/Consolidation/ImportConsolidationData.Interface.al (releases/29.x)
     date: null
-    commit: 4c1c1638beb6d5da8540cc1f61889b80c7b3356f
+    commit: 7aa49e808916c060dbee97d9ff324a2cfda8d422
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Interface "Import Consolidation Data" in Base Application (Microsoft.Finance.Consolidation). 1 public procedures. Introduced in BC24, still in BC30.
 
-Base Application · Microsoft.Finance.Consolidation · BC24-30 · [source at 4c1c1638](https://github.com/microsoft/BCApps/blob/4c1c1638beb6d5da8540cc1f61889b80c7b3356f/src/Layers/W1/BaseApp/Finance/Consolidation/ImportConsolidationData.Interface.al) · facts from BC29
+Base Application · Microsoft.Finance.Consolidation · BC24-30 · [source at 7aa49e80](https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Layers/W1/BaseApp/Finance/Consolidation/ImportConsolidationData.Interface.al) · facts from BC29
 
 ## Properties
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:27.485Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -184,7 +184,8 @@ links:
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/wingate365-com/https-blog-wingate365-com-2025-08-dynamicsminds-2025-portoroz-slovenia-html--fc223b1359
   guidelines: []
   changes:
     - change/al-go/2346
@@ -202,7 +203,7 @@ coverage:
   learn: 21
   code: 5
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 6316
@@ -255,6 +256,7 @@ Start with the overview page, then go to the subtopic for the product you need. 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#2346 Pin all actions that are not currently pinned](../../../changes/al-go/2346.md) (code change): "Unpinned action references are pinned in Power Platform action.yaml files"
+- [DynamicsMinds 2025 - PortoroÅ¾, Slovenia](../../../posts/wingate365-com/https-blog-wingate365-com-2025-08-dynamicsminds-2025-portoroz-slovenia-html--fc223b1359.md) (community post): "BC to PP integration techniques, from lo-code through Virtual Tables and BC Data Sync"
 
 ## Business Central pages and reports
 

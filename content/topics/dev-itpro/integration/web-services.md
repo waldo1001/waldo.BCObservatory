@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:13:54.202Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -330,6 +330,7 @@ links:
     - change/bcapps/12133
     - change/bcapps/12324
     - change/bcapps/12326
+    - change/bcapps/12691
     - change/bcapps/9914
     - change/bcquality/100
 learn_toc_path:
@@ -408,6 +409,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12133 Block file scheme in Web Request Helper](../../../changes/bcapps/12133.md) (code change): "Web Request Helper now rejects file:// URLs before creating HTTP requests"
 - [#12324 Obsolete Http Web Request Mgt. usage in public API (webhooks, OData)](../../../changes/bcapps/12324.md) (code change): "Http Web Request Mgt usage is removed from webhook and OData"
 - [#12326 Migrate Doc. Exchange and OCR service callers off Http Web Request Mgt.](../../../changes/bcapps/12326.md) (code change): "Document Exchange and OCR service codeunits migrate from DotNet"
+- [#12691 Support customer registration number as e-document party identifier for DE](../../../changes/bcapps/12691.md) (code change): "customer registration number as buyer identifier on outgoing e-invoices"
 - [#9914 [APIV2] Return unapplied lines from the Vendor Payments API](../../../changes/bcapps/9914.md) (code change): "The Vendor Payments API now returns all payment lines in a batch, including unapplied payments"
 - [#100 Add P0 integration and control add-in runtime guidance](../../../changes/bcquality/100.md) (code change): "Guidance and AL samples for linking API parts on SystemId and setting Multiplicity."
 - [Business Central’s New API Overview: A Modern Replacement for Web Services](../../../posts/aardvarklabs-blog/4082.md) (community post): "replacing the legacy Web Services page. SOAP endpoints are deprecated"

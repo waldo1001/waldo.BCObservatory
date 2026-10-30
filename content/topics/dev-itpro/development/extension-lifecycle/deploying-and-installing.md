@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/extension-lifecycle/deploying-and-installing
 type: topic
 title: Deploying and installing
-summary: Deploying and installing covers how to publish, synchronize, install, upgrade, unpublish and uninstall Business Central extensions, write install code, and maintain Marketplace apps and per-tenant extensions. It answers questions on extension lifecycle tasks and Marketplace offer submission.
+summary: Deploying and installing covers how to publish, synchronize, install, upgrade, unpublish and uninstall Business Central extensions, plus writing install code and maintaining Marketplace apps and per-tenant extensions. It answers lifecycle and Marketplace offer submission questions.
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:23:12.444Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 2997f5ee8c546b4d06b554e1fea7768f1a9f21c7f4bfb5193858c815bbfc264b
+  input_hash: 10a64106af2dd85b9199412498116b2c5f36d68af9e5040d90398249c555b1ff
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-offer
@@ -35,7 +35,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-maintain
     title: Maintain Marketplace apps and per-tenant extensions
-    date: "2025-03-31"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -107,27 +107,27 @@ narrative: generated
 
 # Deploying and installing
 
-> Deploying and installing covers how to publish, synchronize, install, upgrade, unpublish and uninstall Business Central extensions, write install code, and maintain Marketplace apps and per-tenant extensions. It answers questions on extension lifecycle tasks and Marketplace offer submission.
+> Deploying and installing covers how to publish, synchronize, install, upgrade, unpublish and uninstall Business Central extensions, plus writing install code and maintaining Marketplace apps and per-tenant extensions. It answers lifecycle and Marketplace offer submission questions.
 
-Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Deploying and installing · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Deploying and installing · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the operational lifecycle of an extension after it is built. It explains how to publish a package to a server, sync it with the tenant database, and install it, and how to write install codeunits that run on install or reinstall.
+This section covers the operational lifecycle of an extension after it is built. It explains how to publish an extension package to a server, synchronize it with the tenant database and install it, and how to write install code that runs on first install or reinstall.
 
-Further pages cover removal and updates. One explains the three levels of removing an extension: uninstall, unpublish and clean-mode schema removal. Others cover manually upgrading Marketplace apps in production and the partner duties for keeping apps compatible with major and minor releases.
+Later lifecycle steps have their own pages: upgrading Marketplace apps manually in production, removing extensions at three different levels (uninstall, unpublish, schema removal), and keeping apps and per-tenant extensions compatible with Business Central release cycles. A FAQ covers managing and submitting Marketplace offers through Partner Center.
 
-A FAQ addresses managing and submitting Marketplace offers through Partner Center. Start with Publishing and Installing an Extension for the basic flow, then move to install code, upgrades and maintenance as needed.
+Start with Publishing and Installing an Extension for the basic flow, then Writing extensions installation code if you need setup logic. Use the maintenance and upgrade pages for production operations, and the FAQ for offer submission and validation questions.
 
 ## Key points
 
-- Publishing and installing uses the publish-navapp, sync-navapp and install-navapp cmdlets, or the extension management page.
-- Install code uses codeunits with OnInstallAppPerCompany and OnInstallAppPerDatabase triggers, with handling for fresh installs and reinstalls.
-- Uninstall disables an extension on tenants, unpublish removes it from the server instance, and clean-mode synchronization deletes the database schema.
-- Marketplace apps in production can be upgraded manually to the latest version from the Extension Management page or the Admin Center.
-- Partners must keep apps updated with major and minor releases, including preview period testing and update and grace periods.
-- Enforced update periods and incompatibility notifications apply, and apps can be removed automatically if not updated.
-- The Marketplace offer FAQ covers the Partner Center submission process, Go Live, review and publish, and technical validation.
+- Publishing and installing uses the publish-navapp, sync-navapp and install-navapp cmdlets, or the Extension Management page.
+- Install code is written in install codeunits with OnInstallAppPerCompany and OnInstallAppPerDatabase triggers, and can detect fresh installs versus reinstalls.
+- Removal has three levels: uninstall disables the extension on tenants, unpublish removes it from the server instance, and clean-mode synchronization deletes the database schema.
+- Marketplace apps in production can be upgraded manually through the Extension Management page or the Admin Center.
+- Partners must keep Marketplace apps and per-tenant extensions compatible with major releases, with defined update, grace and enforced update periods.
+- Maintenance support includes preview environments, prerelease bits, AppSourceCop analyzer rules and automated extension validation.
+- The offer FAQ covers the Partner Center submission process, Go Live, Review and publish, validation queuing and technical validation.
 
 ## Learn pages
 

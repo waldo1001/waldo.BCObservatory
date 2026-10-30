@@ -2,20 +2,20 @@
 id: topic/dev-itpro/get-started
 type: topic
 title: Get started
-summary: The Get started section of Business Central is the entry point for newcomers and partners. It covers orientation material, partner guidance on developing, selling and publishing apps, frequently asked questions, and help and support. Use it to find where to begin and which subtopic answers a given question.
+summary: Get started for Business Central is the entry section for partners and newcomers. It covers orientation (Learn), building and publishing apps (Develop), reselling and onboarding (Sell), short FAQ answers, and help and support. Use it to find where to begin on a topic.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:00:48.058Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: fdeb3add5a4347c64fcd1ae049585b8c287d4fb87b9efd8b5364a36ed7e4ac95
+  input_hash: 67d793902ca007cc44a5d6c73946ea6694c5a8c5ed94991bf2b3f877f1925841
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/appsource
@@ -83,7 +83,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/app-components
     title: Components and capabilities
-    date: "2023-12-28"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -279,7 +279,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-maintain
     title: Maintain Marketplace apps and per-tenant extensions
-    date: "2025-03-31"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -381,27 +381,28 @@ narrative: generated
 
 # Get started
 
-> The Get started section of Business Central is the entry point for newcomers and partners. It covers orientation material, partner guidance on developing, selling and publishing apps, frequently asked questions, and help and support. Use it to find where to begin and which subtopic answers a given question.
+> Get started for Business Central is the entry section for partners and newcomers. It covers orientation (Learn), building and publishing apps (Develop), reselling and onboarding (Sell), short FAQ answers, and help and support. Use it to find where to begin on a topic.
 
-Path: Get started · tier official · system none · narrative reviewed (checked by Opus)
+Path: Get started · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Get started has no pages of its own. It groups five subtopics: Learn, Develop, Sell, Frequently asked questions, and Help and support.
+The Get started area has no pages of its own. It groups five subtopics: Learn, Develop, Sell, Frequently asked questions, and Help and support.
 
-Learn is the orientation area. It gives an overview of supported business functionality, design details for complex features, CRONUS walkthroughs, Contoso Coffee demo data, and partner resources. Develop and Sell are aimed at partners. Develop covers building, publishing and maintaining apps and extensions. Sell covers reselling Business Central Online, selling apps through Marketplace, and onboarding customers.
+Learn is the starting point for orientation: a business functionality overview, process walkthroughs, design details, demo data, and partner resources such as releases, Copilot and community information. Develop is the largest subtopic (36 pages) and covers building, publishing, customizing and maintaining apps and extensions, including publisher setup, marketplace submission and validation, embed apps, localization and app lifecycle.
 
-Start with Learn to see what the product can do. Partners should then move to Develop or Sell. Use the Frequently asked questions for short practical answers. The summaries give no details for Help and support beyond its 10 pages.
+Sell addresses the partner business side: reselling Business Central Online, selling apps through Marketplace, onboarding customers and configuration packages. The FAQ gives short practical answers on AL development, testing, submission, migration and the discontinued Windows client. Help and support (10 pages) has no summary available here.
 
 ## Key points
 
-- Learn (6 pages): overview of business functionality, design details for complex features, CRONUS walkthroughs, Contoso Coffee demo data, and partner resources.
-- Develop (36 pages): getting started, customizing tenants, localization, marketplace submission and discontinuation, app lifecycle, and Microsoft versus partner responsibilities.
-- Develop also answers questions on publishing steps, update obligations, and app architecture.
-- Sell (5 pages): reseller enrollment, licensing, app plans and entitlements, onboarding tools, and configuration packages.
-- Frequently asked questions (9 pages): building, testing, submitting and updating Marketplace apps, library and dependency apps, and AL development.
-- The FAQ also covers migrating to Business Central online and the Windows client discontinuation.
-- Help and support (10 pages): no summary was provided, so its content is not described here.
+- Learn (6 pages) gives a functionality overview, process walkthroughs, design details, demo data and partner resources.
+- Develop (36 pages) covers becoming a publisher, marketplace submission and validation, embed apps, localization and app lifecycle.
+- Develop also explains the split of responsibilities between Microsoft and partners.
+- Sell (5 pages) covers reseller enrollment, licensing, app plans and entitlements, and onboarding tools.
+- Sell includes configuration packages for customizing the product.
+- The FAQ (9 pages) covers AL development, app testing, Marketplace updates, library apps, marketing validation and migration to Business Central Online.
+- The FAQ also addresses the discontinued Windows client.
+- Help and support has 10 pages; its content is not summarized in the input.
 
 ## Subtopics
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:03.316Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,6 +73,7 @@ links:
   posts:
     - post/aardvarklabs-blog/3631
     - post/aardvarklabs-blog/3704
+    - post/wingate365-com/https-blog-wingate365-com-2025-05-business-central-power-pages-true-html--3e063897e5
     - post/yzhums-com/61951
     - post/yzhums-com/65857
   guidelines: []
@@ -89,7 +90,7 @@ coverage:
   learn: 5
   code: 0
   video: 4
-  blog: 4
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: d83985e3f53052e05e48c65c878b806990be809f7b8b581f42a7ef7809a3e59f
@@ -133,6 +134,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10010 Add Report Inbox API pages for automated report retrieval](../../../../changes/bcapps/10010.md) (code change): "allowing Power Platform and OData clients to discover and download"
 - [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Use Power Automate to retrieve SFTP files and post them to Business Central via the API"
 - [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "Power Automate listens for the business event, retrieves the file and metadata from the staging table"
+- [Business Central + Power Pages = TRUE - ColorCloud 2025](../../../../posts/wingate365-com/https-blog-wingate365-com-2025-05-business-central-power-pages-true-html--3e063897e5.md) (community post): "managing external logins from BC Contacts synced to Dataverse, issuing invites through Power Automate"
 - [Dynamics 365 Business Central: How to disable/hide Power Automate action group for all users](../../../../posts/yzhums-com/61951.md) (community post): "Disable the Power Automate action group for all Business Central users"
 - [Dynamics 365 Business Central: How to deprecate external business events (ExternalBusinessEvent)](../../../../posts/yzhums-com/65857.md) (community post): "Business events allow Business Central to notify external systems and trigger reactions in Power Automate"
 - [What's New: Business Central Integration with Power Platform (2023 release wave 2)](../../../../videos/EVntnDFE1R4.md) (video): "power automate; power apps; dataverse; virtual tables; business events"

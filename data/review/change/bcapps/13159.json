@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/13159",
+  "input_hash": "6c17f3f685c75f6ac6214744005beb6b52443795f2e5a2d94fb4af3dbe711adb",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-30T01:10:03.115Z",
+  "issues": [
+    "'All localization layers' goes too far. Only the W1, NO and BE layers changed, and in BE only Issue Reminders changed."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023235,
+    "changes_in_call": 6
+  }
+}

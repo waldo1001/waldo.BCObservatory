@@ -2,20 +2,20 @@
 id: topic/business-central/security-privacy-and-compliance/compliance
 type: topic
 title: Compliance
-summary: Compliance in Business Central covers how the application and the online service meet regulatory, certification, and SLA requirements. It answers questions about accounting standards support, country certifications, ISO and industry certifications, service architecture and availability, and trial features that connect to other Microsoft services.
+summary: Compliance in Business Central covers how the application and the online service meet regulatory, certification and SLA requirements. It answers questions about accounting standards, audit trails, country certifications, ISO standards, backup and availability, and which trial features connect to other Microsoft services.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:23:11.701Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 50c8e4b3a558510ba1377c56b4f2b0aa2f91d7fae40dff9dd69771445cfda80b
+  input_hash: b0fbdb3ea367186f6fcca73cb82d3a33e83116fbbb789cc9b96410883f1f42d1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/compliance/compliance-application-compliance
@@ -94,28 +94,27 @@ narrative: generated
 
 # Compliance
 
-> Compliance in Business Central covers how the application and the online service meet regulatory, certification, and SLA requirements. It answers questions about accounting standards support, country certifications, ISO and industry certifications, service architecture and availability, and trial features that connect to other Microsoft services.
+> Compliance in Business Central covers how the application and the online service meet regulatory, certification and SLA requirements. It answers questions about accounting standards, audit trails, country certifications, ISO standards, backup and availability, and which trial features connect to other Microsoft services.
 
-Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Compliance · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Compliance · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section explains compliance from three angles: the application, the cloud service, and certifications. Application Compliance describes how financial reporting, audit trails, and role-based security help with requirements such as data privacy, SOX, IAS/IFRS, and Basel II. Service Compliance and SLA and the Service overview for Business Central online describe the Azure-based service, its certifications, availability, and backups.
+This section groups the pages that describe compliance at three levels: the application, the cloud service, and country-specific certification. Application Compliance explains how financial reporting, audit trails and role-based security support standards such as SOX, IAS/IFRS and Basel II, and data privacy requirements.
 
-Certifications of the service covers country-specific certifications and accreditations, including tax audit compliance. A separate page covers trial features that automatically connect to other Microsoft services, and what data sharing that involves.
+Service Compliance and SLA, together with the Service overview for Business Central online, cover the cloud side: ISO and industry certifications, service level agreement terms, Azure infrastructure, multitenant architecture, backup and disaster recovery, and update schedules. Certifications of the service covers country certifications, including tax audit compliance.
 
-Start with Compliance Overview, which indexes the topics. Then go to the page that matches your question: application controls, service reliability and SLA, local certifications, or data sharing in trials.
+Start with Compliance Overview, which indexes the topics. Read the trial features page before enabling trials, because some features connect to services such as Teams, OneDrive, Power Automate, Azure OpenAI for Copilot and Bing, and it explains the data-sharing implications.
 
 ## Key points
 
-- Application Compliance links regulatory needs (data privacy, SOX, IAS/IFRS, Basel II) to chart of accounts, foreign currency handling, segment reporting, reconciliation, audit trails, and role-based security.
-- Certifications of the service covers country-specific certifications, tax audit certification, and local compliance requirements, and mentions ISO 27001.
-- Service Compliance and SLA covers ISO and industry-specific certifications, service level agreement terms, and Azure infrastructure security.
-- The online service is a multitenant architecture on Azure microservices using Azure SQL Database.
-- The service overview cites 99.99% availability, geo-redundant backups, 28-day backups, and automatic restore.
-- The service overview says the service is updated twice yearly.
-- Trial features can connect automatically to Teams, OneDrive, Power Automate, Azure OpenAI for Copilot, Bing autofill, and the Microsoft Learn Platform.
-- You can manage these trial connections, and you should understand the data-sharing implications before use.
+- Compliance Overview is the index page for application compliance, service compliance, certifications and data privacy.
+- Application Compliance links regulatory needs (SOX, IAS/IFRS, Basel II) to chart of accounts, foreign currency handling, segment reporting, reconciliation, audit trails and role-based security.
+- Certifications of the service lists country-specific certifications and accreditations, including tax audit compliance and accounting software standards.
+- Service Compliance and SLA covers ISO and industry certifications, SLA terms and Azure infrastructure security.
+- Service overview for Business Central online covers Azure SQL Database, geo-redundant backups, backup and restore, availability zones, Copilot availability and update schedules.
+- Trial features can connect automatically to Teams, OneDrive, Power Automate, Azure OpenAI for Copilot, Bing and the Microsoft Learn Platform.
+- Manage these trial connections and review the data-sharing implications before using them.
 
 ## Learn pages
 

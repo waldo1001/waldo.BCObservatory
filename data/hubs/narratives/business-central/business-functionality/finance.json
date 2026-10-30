@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/finance",
-  "input_hash": "9d17323c5c715859a7e2ad0416e149f98c2a4a5d079b18e13055eec25306ac79",
-  "summary": "Finance in Business Central covers general ledger and accounting, period closing, dimensions, currencies, receivables, payables, bank reconciliation, VAT, cost and inventory costing, cash flow, financial analytics, E-Documents, consolidation and withholding and excise tax. It answers setup and how-to questions for accountants and finance teams.",
-  "overview": "The Finance section groups everything an accountant needs in Business Central. Its own pages give the entry points: an overview of financial management, a guide to accounting and bookkeeping (chart of accounts, posting groups, payment terms and methods, payment tolerance), and a page on the Accountant role center, including inviting external accountants and using the Company Hub across companies.\n\nThe subtopics split the work by task. Core ledger work sits under the chart of accounts and general ledger, dimensions, currencies, and closing years and periods. Transaction flows are covered under receivables, payables, prepayments and bank reconciliation. Costing is covered by cost accounting and inventory costs. Reporting and compliance are covered by financial analytics, cash flow, VAT, E-Documents, and multi-site consolidation and intercompany.\n\nThe own pages also cover tax topics: calculating withholding tax for vendors, setting up and posting employee withholding tax, viewing withholding tax entries, and registering excise tax. Start with the financial management overview and the accounting and bookkeeping page, then go to the subtopic that matches your task.",
+  "input_hash": "7651e2049f34f24f41a7aae67a260e0a67243cedce7d385d455aed95fdd620f2",
+  "summary": "Finance in Business Central covers general ledger and chart of accounts, period closing, dimensions, currencies, receivables, payables, bank reconciliation, VAT, withholding and excise tax, cost accounting, inventory costs, cash flow, analytics, E-Documents and multi-company setups. It answers setup, posting, reporting and compliance questions for accounting work.",
+  "overview": "Finance is the broadest functional area in Business Central. It starts with an overview of financial management and an accounting and bookkeeping guide covering the chart of accounts, posting groups, payment terms, payment methods and payment tolerance. The Accountant Role Center page explains how accountants reach financial pages and reports, invite external accountants and work across companies with the Company Hub.\n\nSubtopics split the work by task. Core ledger work sits in the chart of accounts and G/L, dimensions, currencies and closing years and periods. The order-to-cash and procure-to-pay sides are covered by receivables, payables, prepayments and bank reconciliation. Tax and compliance topics include VAT and E-Documents. Cost accounting, inventory costs and cash flow cover cost and liquidity views. Financial analytics and multi-site organizations handle reporting and consolidation.\n\nThe pages in this section itself cover withholding tax for vendors and employees, a page for viewing withholding tax entries, and excise tax registration. For a new setup, read the financial management overview and the accounting and bookkeeping page first, then go to the subtopic matching the task.",
   "key_points": [
-    "The Accountant Role Center gives access to financial pages and reports. External accountants can be invited, and the Company Hub helps manage work across multiple companies.",
-    "Accounting and bookkeeping setup covers the chart of accounts, posting groups, payment methods, payment terms and payment tolerance.",
-    "Withholding tax for vendors is calculated on purchase invoices and orders from vendor, item and G/L account setup. It applies when minimum thresholds are met.",
-    "Employee withholding tax is set up with posting groups, a Gross or Net calculation base, threshold options and period-based accumulation. The Withholding Tax Entries page shows vendor and employee entries with party type.",
-    "Excise tax registration for goods such as fuel, alcohol and tobacco tracks tax amounts without creating G/L entries.",
-    "Period-end work is covered by Closing years and periods, which includes the Close Income Statement batch job and the year-end closing entry.",
-    "Financial analytics is the largest subtopic (129 pages). It covers the Power BI finance app, Financial Reporting, Data Analysis and consolidation.",
-    "Other subtopics cover VAT, E-Documents (including Peppol), cost accounting, inventory costing, cash flow forecasting, prepayments, bank reconciliation, receivables and payables."
+    "Accountant Role Center gives access to financial pages and reports, lets you invite external accountants, and supports multiple companies through the Company Hub.",
+    "Accounting and bookkeeping basics include the chart of accounts, posting groups, payment terms, payment methods and payment tolerance.",
+    "Vendor withholding tax is calculated on purchase invoices and orders from vendor, item and G/L account setup, using a withholding tax liable toggle, a business posting group and a minimum threshold.",
+    "Employee withholding tax is set up with posting groups, a Gross or Net calculation base, thresholds accumulated by period, tax component grouping and expense category settings.",
+    "The Withholding Tax Entries page shows base amount, tax amount, posting groups and party type for vendor and employee transactions.",
+    "Excise tax registration for goods like fuel, alcohol and tobacco tracks tax amounts without creating general ledger entries, and supports multiple tax types and an excise journal.",
+    "Subtopics cover period and year-end closing, dimensions, currencies, VAT, bank reconciliation, prepayments, cost accounting, inventory costs and cash flow.",
+    "Financial analytics (129 pages) is the largest subtopic and covers the Power BI finance app, Financial Reporting, Data Analysis and consolidation."
   ],
   "members_used": 7,
   "subtopics_used": 15,
   "prompt_version": 1,
-  "at": "2026-10-28T10:59:41.954Z",
+  "at": "2026-10-30T01:11:28.183Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.023643
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-28T11:00:22.187Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the overview says the section 'groups everything an accountant needs', which goes a bit beyond the sources. Harmless framing.",
-      "Minor: the summary's topic list leaves out prepayments, even though the overview and key points cover it."
-    ],
-    "input_hash": "9d17323c5c715859a7e2ad0416e149f98c2a4a5d079b18e13055eec25306ac79",
-    "cost_usd": 0.052177799999999996
+    "cost_usd": 0.023863
   }
 }

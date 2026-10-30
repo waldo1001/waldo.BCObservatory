@@ -2,21 +2,21 @@
 id: topic/dev-itpro/administration/prepare-business-central
 type: topic
 title: Prepare Business Central
-summary: "Prepare Business Central covers the tasks administrators and partners do to get an environment ready: initial setup, configuration packages, Feature Management, Excel and Outlook add-ins, app deployment and upgrades, and app key vaults. It answers how-to questions on setup, deployment and upgrade."
+summary: "Prepare Business Central covers initial setup tasks for administrators and partners: configuration packages, feature management, Excel and Outlook add-ins, per-tenant extension and Marketplace app deployment and upgrades, app key vaults, and recommended apps. It answers how-to questions about getting an environment ready."
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:55:04.999Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-29T22:03:43.939Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: e8220acf32c32545b601f2490167fe9717fe66b950d874d4280a6e660395258b
+  input_hash: dcba3619629fe5ed72de5e80962264073872a4170ae54a0f783d9e61663a2b50
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/apply-company-configuration-packages
@@ -35,7 +35,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management
     title: Enabling Upcoming Features Ahead of Time
-    date: "2026-10-13"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -56,7 +56,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management-mandatory-features
     title: Optional Features Now Mandatory
-    date: "2026-10-02"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -147,7 +147,6 @@ links:
   posts:
     - post/miljan-rs/639
     - post/thinkaboutit-be/7443
-    - post/wingate365-com/https-blog-wingate365-com-2026-04-mission-implementation-post-go-live-html--48e2b84ac2
   guidelines: []
 learn_toc_path:
   - Administration
@@ -159,7 +158,7 @@ coverage:
   learn: 13
   code: 13
   video: 1
-  blog: 3
+  blog: 2
   guideline: 0
 bc_forms:
   - 1340
@@ -181,24 +180,28 @@ narrative: generated
 
 # Prepare Business Central
 
-> Prepare Business Central covers the tasks administrators and partners do to get an environment ready: initial setup, configuration packages, Feature Management, Excel and Outlook add-ins, app deployment and upgrades, and app key vaults. It answers how-to questions on setup, deployment and upgrade.
+> Prepare Business Central covers initial setup tasks for administrators and partners: configuration packages, feature management, Excel and Outlook add-ins, per-tenant extension and Marketplace app deployment and upgrades, app key vaults, and recommended apps. It answers how-to questions about getting an environment ready.
 
-Path: [Administration](../administration.md) > Prepare Business Central · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Administration](../administration.md) > Prepare Business Central · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is for partners and administrators who prepare Business Central for a new customer or keep an existing environment current. It starts with an overview of setup tasks (company information, number series, email, printers, report selection, base calendars, data migration) and continues into specific preparation areas.
+This section gathers the tasks needed to get a Business Central environment ready for use. It starts with an overview of setup tasks (company information, number series, email, printers, report selection, data migration). It continues with the tools partners use to set up customers: configuration packages and questionnaires, created as reusable templates and then applied to import data.
+
+Other pages cover features and apps. Feature Management lets administrators turn on upcoming features early, and a separate page lists optional features that became mandatory in versions 22 to 29. Further pages describe deploying per-tenant extensions, upgrading Marketplace apps, resolving conflicts when upgrading per-tenant extensions, setting up app key vaults, and curating recommended apps.
+
+The Excel and Outlook pages cover deploying the add-ins, plus preparing the network for the Excel add-in. Start with the setup overview, then go to the page that matches your task.
 
 ## Key points
 
-- Start with 'Overview of tasks to set up Business Central' for company configuration, general functionality, business processes, integrations, apps and data migration.
-- Configuration packages: one page covers setting up reusable packages, templates, worksheets and questionnaires; another covers applying them to import data from Excel, map tables and fields, create journals and post opening balances.
-- Feature Management lets administrators enable optional features early in sandbox and production; access is controlled by the FEATURE MGT. - ADMIN permission set, and some features cannot be reversed.
-- 'Optional Features Now Mandatory' lists features that become mandatory across 2023 to 2026 release waves, so you can plan upgrades.
-- Add-ins: Excel add-in (individual, centralized or manual install, plus network endpoint preparation) and Outlook add-ins Contact Insights and Document Links.
-- Per-tenant extensions are deployed as .app files through the Admin Center or Extension Management page, with app uniqueness and version requirements; conflicts with other extensions are resolved by uninstalling, removing conflicting elements and reinstalling.
-- Marketplace apps in production are upgraded manually from Extension Management or the Admin Center.
-- App key vaults let Marketplace apps read secrets from Azure Key Vaults; the Recommended Apps extension lets partners curate app lists per customer.
+- The setup overview covers company information, base calendars, number series, email setup, printer management, report selection and data migration.
+- Configuration packages and questionnaires are set up as reusable templates and applied to import data from Excel, create journals and post opening balances.
+- Per-tenant extension .app files are uploaded and installation scheduled through the Admin Center or the Extension Management page; app uniqueness and version management are required.
+- Feature Management enables upcoming features early on sandbox and production; some features are irreversible or have dependencies, and optional features eventually become mandatory.
+- A reference page lists optional features that became mandatory in versions 22 to 29.
+- The Excel add-in can be acquired individually, deployed centrally through Microsoft 365, or installed manually; network endpoints must be configured.
+- Outlook add-ins (Contact Insights and Document Links) can be deployed centrally, automatically or per user.
+- App key vaults let Marketplace apps read secrets from Azure Key Vaults, using the ISV key vault Reader application and granted permissions.
 
 ## Learn pages
 
@@ -211,14 +214,14 @@ This section is for partners and administrators who prepare Business Central for
   - In the observatory: [Page 8611 "Config. Question Area"](../../../objects/page/8611.md), [Page 8626 "Config. Package Records"](../../../objects/page/8626.md)
 - [Deploying a tenant customization](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deploy-tenant-customization): Overview of how you deploy an .app package with a tenant customization to Dynamics 365 Business Central.
 - [Enabling Upcoming Features Ahead of Time](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management): Learn how to enable select features ahead of time as the administrator of Business Central online or on-premises.
-  - Status: Generally available. Features listed in Feature Management are ready and follow standard support lifecycle for their service update.
-  - Step: Sign in and navigate to the Feature Management page, or use link businesscentral.dynamics.com/?page=2610.
-  - Step: If the page isn't editable, choose the Edit List action.
-  - Step: For the feature you want to enable, choose All users in the Enabled for field.
-  - Permissions: Assign the FEATURE MGT. - ADMIN permission set to give users permission to enable upcoming features. Introduced in version 18.1.
-  - Optional features typically become mandatory in a later major update. Check the Automatically enabled from field for the expected date.
-  - Irreversible features permanently affect system state and can't be turned off after enabling. A warning dialog appears before enabling on production.
-  - Features apply to all users in the environment. Business Central doesn't allow enabling a feature for a single user or group.
+  - Optional features can be enabled ahead of time on sandbox and production environments before becoming mandatory.
+  - Status: Generally available features are ready for use and follow standard support lifecycle rules.
+  - Step: Navigate to Feature Management page, choose Edit List if needed, then set Enabled for field to All users.
+  - Step: Use Try it out link to test a feature in a new browser session without enabling it for all users.
+  - Permissions: Assign FEATURE MGT. - ADMIN permission set to allow users to enable optional features.
+  - Some features require other features to be enabled first and show prerequisites indented in the list.
+  - Limit: Optional features cannot be enabled for single users; enabled features apply to all users in the environment.
+  - Irreversible features permanently affect Business Central capabilities and cannot be disabled after enabling.
   - In the observatory: [Page 2610 "Feature Management"](../../../objects/page/2610.md)
 - [Get the Outlook add-ins for the business inbox](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/outlook-addins): Learn about the technical aspects of the Outlook add-ins so that users can use Outlook as their business inbox and manage Business Central data in Outlook.
   - Contact Insight add-in provides information from Business Central about contacts in Outlook emails and calendar appointments.
@@ -229,12 +232,14 @@ This section is for partners and administrators who prepare Business Central for
 - [Getting the Business Central add-in for Excel](https://learn.microsoft.com/dynamics365/business-central/admin-deploy-excel-addin): Learn how to get users the Business Central Add-in for Excel.
   - In the observatory: [Page 21 "Customer Card"](../../../objects/page/21.md), [Page 22 "Customer List"](../../../objects/page/22.md), [Page 301 "Ship-to Address List"](../../../objects/page/301.md), [Page 42 "Sales Order"](../../../objects/page/42.md), [Page 810 "Web Services"](../../../objects/page/810.md)
 - [Optional Features Now Mandatory](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management-mandatory-features): Learn about the features that were optional but are now mandatory.
-  - Status: Generally available from 2026 release wave 2, version 29
-  - Optional features become mandatory after a period shown in the Feature Management page's 'Automatically enabled from' field
-  - Mandatory features are removed from Feature Management and cannot be disabled once they become mandatory
-  - Limit: Advanced Tell Me moved from mandatory in version 29 to version 30; semantic similarity search moved from version 29 to version 30
-  - New features can be added disabled by default or enabled by default depending on the release
-  - Limit: Multiple posting features moved from mandatory in version 29 to mandatory in version 30 or 31
+  - Features become mandatory starting from specific release versions when they transition from optional to automatically enabled.
+  - Status: Generally available as of 2026 release wave 2 (version 29) for features listed as mandatory.
+  - Step: Check the Feature Management page to see the mandatory version in the Automatically enabled from field before a feature becomes non-disableable.
+  - When a feature becomes mandatory, it no longer appears in Feature Management and cannot be disabled.
+  - Limit: Six features are mandatory in version 29 and can no longer be controlled in Feature Management.
+  - Advanced Tell Me and semantic similarity search were delayed from version 29 to version 30 as mandatory.
+  - Prerequisite: Some mandatory features apply to specific country localizations such as Italy VAT settlements and US 1099 forms.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../objects/page/118.md), [Page 1518 "My Notifications"](../../../objects/page/1518.md), [Page 2610 "Feature Management"](../../../objects/page/2610.md)
 - [Overview of tasks to set up Business Central](https://learn.microsoft.com/dynamics365/business-central/setup): Read an overview of the tasks necessary to set up, initialize, and configure Business Central to suit your needs.
 - [Preparing your network for the Excel Add-In](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins): This article includes information that helps administrators configure advanced device and network settings for the Excel add-in for Business Central.
   - Excel add-in requires network access to four Microsoft services for functioning and synchronizing data with Business Central.
@@ -278,7 +283,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Understanding the Contoso Demo Data Tool in Business Central](../../../posts/miljan-rs/639.md) (community post): "creating demo-ready companies in Business Central, starting with 2024 Wave 2 Update 3"
 - [How Do I: Create a Business Central Trial From Scratch](../../../posts/thinkaboutit-be/7443.md) (community post): "Creating a Business Central trial requires starting with a clean Microsoft 365 trial"
-- [Mission Implementation - post go-live stabilisation](../../../posts/wingate365-com/https-blog-wingate365-com-2026-04-mission-implementation-post-go-live-html--48e2b84ac2.md) (community post): "moving from go-live into stable operations, including ownership definition, hypercare structuring"
 - [Getting Started with Business Central (2025)](../../../videos/lRiED3AUfps.md) (video): "getting started; sample company; data migration; setup guide; company creation"
 
 ## Business Central pages and reports

@@ -1,37 +1,24 @@
 {
   "hub_id": "topic/dev-itpro/business-central-on-premises",
-  "input_hash": "d03cf855f117d7c9b943d901fe32ae1891fcba32090a782ea498a6661412fe17",
-  "summary": "Business Central on-premises covers deploying, administering and upgrading an on-premises installation, plus migrating legacy help content to the Business Central format. It answers questions about planning and installing, configuring and connecting environments, and choosing upgrade paths.",
-  "overview": "This section groups everything needed to run Business Central on your own infrastructure. It is split into three subtopics: Deployment, Administration and Upgrade, plus one standalone page on migrating legacy help.\n\nStart with Deployment to plan the topology, install with Setup, provision service accounts, set up certificates and multitenant databases, and check the support lifecycle. Then use Administration for day-to-day setup: Administration Shell and Administration Center, database authentication, encryption, session timeout, Entra ID registration, Key Vaults, Excel and Outlook add-ins, and Dynamics 365 Sales preparation.\n\nWhen moving to a newer release, use Upgrade. It lists supported upgrade paths, per-release guides from v14 through v29, known issues, and conversion and table migration articles. The help migration page is separate: it explains reusing existing web content, converting PDFs or documents to Markdown, and deploying to websites that work with Business Central help configuration.",
+  "input_hash": "74e4478021fa08d85d758a239618cd82f93731ebece7a32b8272c2f1e726c77c",
+  "summary": "Business Central on-premises covers planning and installing a deployment, administering it, and upgrading it between versions. It answers how to set up and secure an environment, configure administration tools and connections, choose an upgrade path, and migrate legacy help content.",
+  "overview": "This section groups the work of running Business Central on your own infrastructure into three areas. Deployment covers planning, component topology, installing with Setup, service accounts, certificates, multitenant databases and lifecycle policy, and points on to web server, database, mobile app, topology and update topics.\n\nAdministration covers the tools and tasks used once an environment exists: Administration Shell and Administration Center, database authentication, encryption, session timeout, Entra ID registration, Key Vaults, Excel and Outlook add-ins, and Dynamics 365 Sales preparation. Upgrade covers supported paths, per-release guides from v14 through v29, known issues, and conversion and migration articles.\n\nThe section's own page explains how to migrate legacy help to the Business Central format. Start with Deployment for a new install, Administration for configuration and connections, and Upgrade when moving from an existing version.",
   "key_points": [
-    "Deployment (63 pages) covers planning, component topology, installing with Setup, service account provisioning, certificates, multitenant databases and support lifecycle.",
-    "Deployment also points to deeper material on web server, database, mobile app, topologies and updates.",
-    "Administration (38 pages) covers Administration Shell and Administration Center, database authentication, encryption and session timeout.",
-    "Administration also covers Entra ID registration, Key Vaults, Excel and Outlook add-ins, and Dynamics 365 Sales preparation.",
-    "Upgrade (113 pages) has per-release guides from v14 through v29, supported upgrade paths and known issues.",
-    "Upgrade includes conversion and table migration articles; check the path to your target version first.",
-    "Legacy help can be migrated by reusing existing web content or converting PDFs or documents to Markdown, then deploying to a website integrated with help configuration; tooltip support is included."
+    "Deployment (63 pages) covers planning, topology, installing with Setup, service accounts, certificates and multitenant databases.",
+    "Deployment also covers lifecycle policy and links to web server, database, mobile app and update subtopics.",
+    "Administration (38 pages) covers Administration Shell, Administration Center, database authentication, encryption and session timeout.",
+    "Administration includes Entra ID registration, Key Vaults, Excel and Outlook add-ins, and Dynamics 365 Sales preparation.",
+    "Upgrade (113 pages) has per-release guides from v14 through v29 plus known issues.",
+    "Upgrade pages help choose a route from a source version, what to check first, and how to run an upgrade or install an update.",
+    "Legacy help migration: reuse existing web content, convert PDFs or documents to Markdown, and deploy to a site that fits Business Central help configuration; tooltips are supported."
   ],
   "members_used": 1,
   "subtopics_used": 3,
   "prompt_version": 1,
-  "at": "2026-10-19T01:11:55.916Z",
+  "at": "2026-10-30T01:11:45.388Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011751000000000001
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-20T08:48:51.538Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the key point 'check the path to your target version first' reads a little more into the Upgrade summary than it says. The summary only says the subtopic answers 'which route reaches a target version, what to check first', so the advice is a reasonable reading.",
-      "Minor: the overview's suggested order (Deployment, then Administration, then Upgrade) is the writer's own reading guidance. The sources don't state it, but it is harmless and fits what each subtopic covers.",
-      "Minor: 'tooltip support is included' rests only on the feature tag of the help migration page, so the narrative shouldn't expand on it."
-    ],
-    "input_hash": "d03cf855f117d7c9b943d901fe32ae1891fcba32090a782ea498a6661412fe17",
-    "cost_usd": null
+    "cost_usd": 0.011401
   }
 }

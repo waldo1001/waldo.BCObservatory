@@ -1,38 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/get-started/frequently-asked-questions",
-  "input_hash": "d544d2b246dde75d620c30c02063671353704c79d0ab6de9416dd8b4831818ca",
-  "summary": "Frequently asked questions for Business Central cover building, testing, submitting and updating Marketplace apps, library and dependency apps, AL development, migrating to Business Central online, and the Windows client discontinuation. Use it for short practical answers on these topics.",
-  "overview": "This section is a set of standalone FAQ pages with no subtopics. Most of them serve partners who publish apps on the Microsoft Marketplace: AL development, testing, submitting and managing an offer, marketing validation, updating apps, app lifecycle, and library and dependency apps.\n\nTwo pages address other audiences. The migration FAQ answers questions about moving to Business Central online, such as system requirements, data limits, SQL connection strings, the self-hosted integration runtime, permissions and data replication. The Windows client FAQ explains the move from the legacy Windows client to the web client, mobile apps and the Windows 10 desktop app, starting with 2019 release wave 2.\n\nFor app publishing, a sensible order is: the AL development FAQ, the testing FAQ, the marketing validation FAQ, the offer submission FAQ, then the update and lifecycle FAQs. Read the library and dependency FAQ if your app shares code with other apps.",
+  "input_hash": "46b45d6414a4f90e66f3c34523f3578361ac376d7d2018f2a6803404833733fb",
+  "summary": "Frequently asked questions for Business Central cover AL development, app testing, submission, updating and lifecycle on the Marketplace, library apps, marketing validation, migration to Business Central Online, and the discontinued Windows client. Use it for short practical answers on these topics.",
+  "overview": "This section is a set of FAQ pages with no subtopics. Most pages target partners who build and publish apps: developing in AL, testing an app, submitting and managing an offer in Partner Center, updating an app, and the lifecycle of apps and extensions. Two further pages cover library and dependency apps and marketing validation rules for Marketplace listings.\n\nTwo pages address other audiences. The migration FAQ answers questions about moving to Business Central Online, such as system requirements, data limits, SQL connection strings, the self-hosted integration runtime and permissions. The Windows client FAQ explains that the Windows client was discontinued starting with 2019 release wave 2 and points to modern client alternatives.\n\nStart with the FAQ that matches your task. App developers can begin with the AL development FAQ, then move to testing, offer submission and updating. Pick the migration or Windows client page if you are an on-premises customer or administrator planning a move.",
   "key_points": [
-    "The AL development FAQ covers the AL Extension for Visual Studio Code, debugging and snapshot debugging, symbol downloading, app identity, per-tenant extensions and Marketplace submission validation.",
-    "The testing FAQ describes complete coverage testing, with automated and manual tests, country-specific testing, upgrade testing and Docker testing.",
-    "The marketing validation FAQ lists what a listing must state: supported editions, countries/regions and languages. It also covers help and support pages, product naming and marketplace badge usage.",
-    "The offer submission FAQ covers the Partner Center process: the Go Live button, Review and publish, validation queuing and technical validation.",
-    "The update and lifecycle FAQs cover app version numbering, update cadence, automatic updates, force updates during major releases, upgrade codeunits and code signing.",
-    "Library apps hold shared code for several Marketplace apps and are installed automatically as dependencies. They are also subject to validation and version control.",
-    "The migration FAQ covers the self-hosted integration runtime, Azure Data Factory, SQL connection strings, the intelligent cloud permission set, extension data migration and data compression.",
-    "The Windows client was discontinued starting with 2019 release wave 2 in October 2019. Users move to the web client, mobile apps or the Windows 10 desktop app, with Excel integration and an Outlook add-in."
+    "The AL development FAQ covers setup, debugging and snapshot debugging, symbol downloading, app identity, per-tenant extensions and Marketplace submission validation.",
+    "The testing FAQ covers complete coverage testing, automated and manual testing, country-specific testing, upgrade testing and Docker testing.",
+    "The offer submission FAQ covers the Partner Center process, the Go Live button, Review and publish, and how validation is queued.",
+    "The updating and lifecycle FAQs cover app version numbering, validation, update cadence, automatic app updates, force update and avoiding submission delays.",
+    "Library apps hold shared code for several Marketplace apps and are installed automatically as dependencies; they go through technical validation.",
+    "The marketing validation FAQ requires statements on supported editions, countries/regions and languages, plus help and support pages, product naming and correct marketplace badge use.",
+    "The migration FAQ covers system requirements, data limits, SQL connection strings, the self-hosted integration runtime, the intelligent cloud permission set, extension data migration and data compression.",
+    "The Windows client was discontinued starting with 2019 release wave 2; alternatives include the web client, Windows 10 desktop app, mobile apps, Open/Edit in Excel and the Outlook add-in."
   ],
   "members_used": 9,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-18T00:56:32.428Z",
+  "at": "2026-10-30T01:11:19.371Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.017005
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-24T00:55:24.420Z",
-    "verdict": "approve",
-    "issues": [
-      "The suggested reading order for app publishing is the writer's advice, not something the source pages state. It is reasonable and phrased as a suggestion.",
-      "The testing key point says 'complete coverage testing, with automated and manual tests', which links features the source only lists separately. It also leaves out the online-only testing and version testing named in the page summary. Minor.",
-      "The Windows client key point adds Excel integration and the Outlook add-in after the list of new clients. The source lists both as features, so it is acceptable, though the link is loose."
-    ],
-    "input_hash": "d544d2b246dde75d620c30c02063671353704c79d0ab6de9416dd8b4831818ca",
-    "cost_usd": 0.045879199999999995
+    "cost_usd": 0.016619000000000002
   }
 }

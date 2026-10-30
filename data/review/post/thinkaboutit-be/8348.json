@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/thinkaboutit-be/8348",
+  "input_hash": "2562061d0497c7ddef22a0b0d9c2d680bfcf190aebfe505a2d43bc4d59d73262",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-30T01:09:39.249Z",
+  "issues": [
+    "Objects listed as pages are not named as AL pages; the post only mentions a sales order and purchase order as demo records and expense reports as an agent output.",
+    "Summary covered only Edit with Copilot while the post also discusses Business Skills, the Expense Agent and AL design implications; rewritten to reflect the broader recap.",
+    "Key points and quotes are supported."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 3 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036633,
+    "posts_in_call": 4
+  }
+}

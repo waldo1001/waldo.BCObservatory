@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:07.777Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -123,6 +123,8 @@ links:
   changes:
     - change/bcapps/12322
     - change/bcapps/13056
+    - change/bcapps/13111
+    - change/bcapps/13261
 learn_toc_path:
   - Business functionality
   - Quality management
@@ -194,6 +196,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#12322 [QM] Destination bin code is now visible and usable for the user](../../../changes/bcapps/12322.md) (code change): "destination bin code is now visible and usable for the user"
 - [#13056 [QM] Tracking specification quantity now is used properly](../../../changes/bcapps/13056.md) (code change): "Quality Management now uses the tracking specification quantity properly in its receiving integration"
+- [#13111 [Backport 29.x] #11046: [Extensibility Request] issue 10889: expose large text modal helper](../../../changes/bcapps/13111.md) (code change): "The Qlty. Edit Large Text page is now accessible to extensions"
+- [#13261 [Backport 29.x] [Extensibility Request] [SCM] 2026-10-26](../../../changes/bcapps/13261.md) (code change): "Quality Management and Subcontracting code is backported to BC 29 with extensibility improvements"
 - [Quality Management in Business Central Version 28](../../../posts/olofsimren-com/3696.md) (community post): "Business Central version 28 adds a native Quality Management module for inspecting goods"
 
 ## Business Central pages and reports

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:15.277Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,6 +52,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/13220
 learn_toc_path:
   - Business functionality
   - Design details
@@ -103,5 +105,11 @@ Start with the value entries page for the rule. Go to the error page if the job 
   - In the observatory: [Report 795 "Adjust Cost - Item Entries"](../../../../../objects/report/795.md)
 - [Posting date on value entries](https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-adjustment-value-entry-posting-date): Learn how the Adjust Cost - Item Entries batch job identifies and assigns a posting date to the value entries that the batch job is about to create.
   - In the observatory: [Report 795 "Adjust Cost - Item Entries"](../../../../../objects/report/795.md)
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#13220 Fix average cost adjustment overflow on same-period transfers](../../../../../changes/bcapps/13220.md) (code change): "Prevents cost amplification from repeated transfer repricings when cumulative item quantity is zero"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

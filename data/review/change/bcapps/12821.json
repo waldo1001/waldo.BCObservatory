@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/12821",
+  "input_hash": "9d15be834c4a788fc7f5b19a74a7c04515f6484d4cb7f4444f1bc1fb7334b2e9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-30T01:10:02.802Z",
+  "issues": [
+    "Description calls this a fix for attachments from manual and Try it out tasks being silently skipped; change_kind should be fix."
+  ],
+  "applied": [
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022087,
+    "changes_in_call": 6
+  }
+}

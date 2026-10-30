@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:49:03.453Z"
   flags: []
 generated:
-  at: "2026-10-26T06:21:45.768Z"
+  at: "2026-10-30T01:07:09.406Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -124,6 +124,11 @@ links:
       label: possibly related
       why: both name Page 42 "Sales Order"
       by: code
+    - to: post/thinkaboutit-be/8348
+      title: "Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions"
+      label: possibly related
+      why: both name Page 50 "Purchase Order"
+      by: code
     - to: post/thedynamicsexplorer-com/9815
       title: Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order
       label: possibly related
@@ -141,11 +146,6 @@ links:
       by: code
     - to: post/yzhums-com/65320
       title: "Dynamics 365 Business Central: About the size of the value displayed on the card/document page (textbox too small to read?)"
-      label: possibly related
-      why: both name Page 42 "Sales Order"
-      by: code
-    - to: post/yzhums-com/70137
-      title: "Dynamics 365 Business Central: Adding comments to Factbox/Report (Displaying Comments in a FactBox/Report)"
       label: possibly related
       why: both name Page 42 "Sales Order"
       by: code
@@ -329,8 +329,8 @@ No source states these links: they share an object, a model read them, or a pers
 - [Business Central Under the Hood episode 14: Building Agents in Business Central](../videos/Vq9Nk6_uxmQ.md) — possibly related: both name Page 42 "Sales Order"
 - [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 99000852 "Planning Worksheet"
 - [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../videos/tpAh4q3h8T8.md) — possibly related: both name Page 42 "Sales Order"
+- [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../posts/thinkaboutit-be/8348.md) — possibly related: both name Page 50 "Purchase Order"
 - [Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order](../posts/thedynamicsexplorer-com/9815.md) — possibly related: both name Page 51 "Purchase Invoice"
 - [Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”](../posts/thedynamicsexplorer-com/36954.md) — possibly related: both name Page 51 "Purchase Invoice"
 - [Dynamics 365 Business Central Blog Series: Item Attributes](../posts/yzhums-com/74523.md) — possibly related: both name Page 42 "Sales Order"
 - [Dynamics 365 Business Central: About the size of the value displayed on the card/document page (textbox too small to read?)](../posts/yzhums-com/65320.md) — possibly related: both name Page 42 "Sales Order"
-- [Dynamics 365 Business Central: Adding comments to Factbox/Report (Displaying Comments in a FactBox/Report)](../posts/yzhums-com/70137.md) — possibly related: both name Page 42 "Sales Order"

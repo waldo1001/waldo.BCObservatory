@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:57.247Z"
   flags: []
 generated:
-  at: "2026-10-26T08:46:07.995Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,8 @@ links:
   videos:
     - video/auoHUd24Gfw
   posts:
+    - post/wingate365-com/https-blog-wingate365-com-2025-05-business-central-power-pages-true-html--3e063897e5
+    - post/wingate365-com/https-blog-wingate365-com-2025-08-dynamicsminds-2025-portoroz-slovenia-html--fc223b1359
     - post/yzhums-com/67024
   guidelines: []
 learn_toc_path:
@@ -73,7 +75,7 @@ coverage:
   learn: 4
   code: 0
   video: 1
-  blog: 1
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 1e8a92be635f0e32edf1e5b1dca470a5a06c0027dde0320e46df27410561c37c
@@ -115,6 +117,8 @@ For delivery, the application lifecycle management page explains how to keep AL 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Business Central + Power Pages = TRUE - ColorCloud 2025](../../../../posts/wingate365-com/https-blog-wingate365-com-2025-05-business-central-power-pages-true-html--3e063897e5.md) (community post): "Power Pages can let external users interact with Business Central through Dataverse Virtual Tables"
+- [DynamicsMinds 2025 - PortoroÅ¾, Slovenia](../../../../posts/wingate365-com/https-blog-wingate365-com-2025-08-dynamicsminds-2025-portoroz-slovenia-html--fc223b1359.md) (community post): "Virtual Tables and BC Data Sync to calling the API in code"
 - [Regarding the recent problem I encountered when opening Power Apps with Zscaler](../../../../posts/yzhums-com/67024.md) (community post): "opening Power Apps with Zscaler"
 - [What's New: Using Power Pages with Business Central (2024 release wave 1)](../../../../videos/auoHUd24Gfw.md) (video): "Custom Dataverse mapping plugin for company targeting; Portal ID retrieval from Power Pages URL"
 

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13413",
+  "input_hash": "b9debc8d28a81204aadfff3152f549fc0173714edabb951fb2f2d895fdf8e8af",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-30T01:10:03.332Z",
+  "issues": [
+    "The key points state that the hardcoded literal was 'Contact'. The description only says it was a hardcoded English table name.",
+    "ContactTxt is a localized caption label, not a constant."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019135,
+    "changes_in_call": 6
+  }
+}

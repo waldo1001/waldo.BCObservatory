@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12696",
+  "input_hash": "b16de16d62f77e2d3840652749929f394d0cd999ee5df282804ada69c3117f30",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-30T01:10:03.115Z",
+  "issues": [
+    "Summary and key points match the description: totals are now built from the sign of G/L Amount through a new query, totals repeat in split files, and SAF-T 1.20 is unchanged."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023235,
+    "changes_in_call": 6
+  }
+}

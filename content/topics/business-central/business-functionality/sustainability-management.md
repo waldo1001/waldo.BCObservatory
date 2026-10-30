@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:47.377Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -384,6 +384,7 @@ links:
     - change/bcapps/10541
     - change/bcapps/10613
     - change/bcapps/12466
+    - change/bcapps/12996
     - change/bcapps/9478
     - change/bcapps/9613
 learn_toc_path:
@@ -521,6 +522,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10541 [Master] - Slice 641375: [Sustainability] Collect Amount from G/L Entries: track collected entries to prevent double counting](../../../changes/bcapps/10541.md) (code change): "Collect function excludes previously collected entries based on the relation table"
 - [#10613 [Master] - Slice 640775: [Sustainability] Reverse Sustainability part when reverse in GL Entries](../../../changes/bcapps/10613.md) (code change): "Reversing a G/L transaction now also reverses the sustainability ledger"
 - [#12466 Hide Navigate and Reverse Transaction on sustainability posting preview](../../../changes/bcapps/12466.md) (code change): "Hide Navigate and Reverse Transaction on sustainability posting preview"
+- [#12996 [Master] - Bug 651041: [Sustainability][Value Chain] Item Reclassification Journal forces a non-zero Total CO2e and adds it to the item's footprint under Average carbon tracking](../../../changes/bcapps/12996.md) (code change): "Transfer Sustainability Value Entries correctly record zero CO2e amounts for reclassification moves"
 - [#9478 feat(Sustainability): Add Reverse Transaction for Sustainability Ledger Entries](../../../changes/bcapps/9478.md) (code change): "Users can now reverse posted Sustainability Ledger Entries manually from the page"
 - [#9613 [Master] - Sustainability: Specific Carbon Tracking, Item Charge emissions & setup fixes (Bugs 641051, 641486, 641487, 641049, 641222, 641055, 641289, 641224, 641309)](../../../changes/bcapps/9613.md) (code change): "Sustainability module fixes for carbon tracking with item charges"
 - [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../../../videos/_JkZCp64jNw.md) (video): "Sustainability Module Expansion; Copilot Suggest Emissions"

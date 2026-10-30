@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/get-started",
-  "input_hash": "fdeb3add5a4347c64fcd1ae049585b8c287d4fb87b9efd8b5364a36ed7e4ac95",
-  "summary": "The Get started section of Business Central is the entry point for newcomers and partners. It covers orientation material, partner guidance on developing, selling and publishing apps, frequently asked questions, and help and support. Use it to find where to begin and which subtopic answers a given question.",
-  "overview": "Get started has no pages of its own. It groups five subtopics: Learn, Develop, Sell, Frequently asked questions, and Help and support.\n\nLearn is the orientation area. It gives an overview of supported business functionality, design details for complex features, CRONUS walkthroughs, Contoso Coffee demo data, and partner resources. Develop and Sell are aimed at partners. Develop covers building, publishing and maintaining apps and extensions. Sell covers reselling Business Central Online, selling apps through Marketplace, and onboarding customers.\n\nStart with Learn to see what the product can do. Partners should then move to Develop or Sell. Use the Frequently asked questions for short practical answers. The summaries give no details for Help and support beyond its 10 pages.",
+  "input_hash": "67d793902ca007cc44a5d6c73946ea6694c5a8c5ed94991bf2b3f877f1925841",
+  "summary": "Get started for Business Central is the entry section for partners and newcomers. It covers orientation (Learn), building and publishing apps (Develop), reselling and onboarding (Sell), short FAQ answers, and help and support. Use it to find where to begin on a topic.",
+  "overview": "The Get started area has no pages of its own. It groups five subtopics: Learn, Develop, Sell, Frequently asked questions, and Help and support.\n\nLearn is the starting point for orientation: a business functionality overview, process walkthroughs, design details, demo data, and partner resources such as releases, Copilot and community information. Develop is the largest subtopic (36 pages) and covers building, publishing, customizing and maintaining apps and extensions, including publisher setup, marketplace submission and validation, embed apps, localization and app lifecycle.\n\nSell addresses the partner business side: reselling Business Central Online, selling apps through Marketplace, onboarding customers and configuration packages. The FAQ gives short practical answers on AL development, testing, submission, migration and the discontinued Windows client. Help and support (10 pages) has no summary available here.",
   "key_points": [
-    "Learn (6 pages): overview of business functionality, design details for complex features, CRONUS walkthroughs, Contoso Coffee demo data, and partner resources.",
-    "Develop (36 pages): getting started, customizing tenants, localization, marketplace submission and discontinuation, app lifecycle, and Microsoft versus partner responsibilities.",
-    "Develop also answers questions on publishing steps, update obligations, and app architecture.",
-    "Sell (5 pages): reseller enrollment, licensing, app plans and entitlements, onboarding tools, and configuration packages.",
-    "Frequently asked questions (9 pages): building, testing, submitting and updating Marketplace apps, library and dependency apps, and AL development.",
-    "The FAQ also covers migrating to Business Central online and the Windows client discontinuation.",
-    "Help and support (10 pages): no summary was provided, so its content is not described here."
+    "Learn (6 pages) gives a functionality overview, process walkthroughs, design details, demo data and partner resources.",
+    "Develop (36 pages) covers becoming a publisher, marketplace submission and validation, embed apps, localization and app lifecycle.",
+    "Develop also explains the split of responsibilities between Microsoft and partners.",
+    "Sell (5 pages) covers reseller enrollment, licensing, app plans and entitlements, and onboarding tools.",
+    "Sell includes configuration packages for customizing the product.",
+    "The FAQ (9 pages) covers AL development, app testing, Marketplace updates, library apps, marketing validation and migration to Business Central Online.",
+    "The FAQ also addresses the discontinued Windows client.",
+    "Help and support has 10 pages; its content is not summarized in the input."
   ],
   "members_used": 0,
   "subtopics_used": 4,
   "prompt_version": 1,
-  "at": "2026-10-28T11:00:09.933Z",
+  "at": "2026-10-30T01:11:37.068Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.010929
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-28T11:00:48.058Z",
-    "verdict": "approve",
-    "issues": [
-      "Overview omits 'customize the product' from the Sell description; minor omission, not an error.",
-      "The reading-order advice (start with Learn, then Develop or Sell) is the writer's own suggestion; it is reasonable and fits the summaries.",
-      "Two lines describe the writer's inputs rather than the product: 'The summaries give no details for Help and support' (overview) and 'no summary was provided' (key point). Consider neutral wording such as 'Help and support has 10 pages', or fill these in once a summary exists."
-    ],
-    "input_hash": "fdeb3add5a4347c64fcd1ae049585b8c287d4fb87b9efd8b5364a36ed7e4ac95",
-    "cost_usd": 0.0328072
+    "cost_usd": 0.010877
   }
 }

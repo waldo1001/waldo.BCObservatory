@@ -2,21 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-1-v28
 type: topic
 title: Business Central 2026 release wave 1 (v28)
-summary: Upgrading Business Central on-premises to 2026 release wave 1 (version 28). It covers upgrade paths, pre-upgrade considerations for v26 and later, and the steps to upgrade from versions 25, 26, or 27 and install a version 28 update. It answers questions about how to get to v28 and what to check first.
+summary: Upgrading Business Central on-premises to 2026 release wave 1 (version 28). It answers questions about supported upgrade paths, pre-upgrade considerations, and the steps to upgrade or install a version 28 update, including database conversion, extension publishing, sync and data upgrade.
 tier: official
 language: en
 system: platform
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:26:37.084Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-30T01:11:59.976Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: bf6c1405cceca9e623fa0c30022d9784592645b494718b54125a44665283747f
+  input_hash: e513c9737ba8f56f3ef28a76f5112913bc0bce8b73cd68a12d5c220d2c6a17f8
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-considerations-v26
@@ -85,26 +85,24 @@ narrative: generated
 
 # Business Central 2026 release wave 1 (v28)
 
-> Upgrading Business Central on-premises to 2026 release wave 1 (version 28). It covers upgrade paths, pre-upgrade considerations for v26 and later, and the steps to upgrade from versions 25, 26, or 27 and install a version 28 update. It answers questions about how to get to v28 and what to check first.
+> Upgrading Business Central on-premises to 2026 release wave 1 (version 28). It answers questions about supported upgrade paths, pre-upgrade considerations, and the steps to upgrade or install a version 28 update, including database conversion, extension publishing, sync and data upgrade.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Business Central 2026 release wave 1 (v28) · tier official · system platform · narrative reviewed (checked by Opus)
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Business Central 2026 release wave 1 (v28) · tier official · system platform · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is for administrators of on-premises Business Central who are moving to 2026 release wave 1 (version 28). It has four pages: an upgrade overview, a pre-upgrade considerations page, a step-by-step upgrade guide, and an update installation guide.
-
-Start with the overview page, which explains the required upgrade paths, intermediate versions and the review of deprecated features. Then read the considerations page, which covers deprecated or redesigned functionality, schema changes, extension performance impact and deployment changes. After that, follow the upgrade page for unmodified applications from versions 25, 26 or 27. Use the install update page for platform-only or application updates within version 28.
+This section covers moving an on-premises Business Central environment to version 28 (2026 release wave 1). It has four pages: one on upgrade paths and refactoring guidance, one on considerations before upgrading, one with the step-by-step upgrade procedure, and one on installing a version 28 update.
 
 ## Key points
 
-- The upgrade page covers unmodified applications moving from version 25, 26 or 27 to version 28.
+- Start with the page on upgrading to 2026 release wave 1: it has the compatibility matrix, deprecated features review, and intermediate version requirements (versions 14 and 15 are mentioned).
+- The upgrade page covers unmodified applications moving from version 25, 26, or 27 to version 28.
 - Upgrade steps include application database conversion, extension publishing and installation, tenant synchronization, and data upgrade execution.
-- The upgrade page also covers permission sets migration and encryption key management.
-- The overview page says earlier versions may need specific upgrade paths with intermediate versions, and deprecated features should be reviewed first.
-- The considerations page covers v26-v29 and recommends moving to AL-based permissions.
-- It notes schema changes in the Subscription Billing extension from v25 to v26 and later, which involve force sync for schema migration.
-- It also notes that installed extensions can affect upgrade performance, and describes v23 deployment changes (port 7085, SPN delegation).
-- The install update page covers platform-only and application upgrades, database conversion, extension publishing and synchronization, for single-tenant and multitenant deployments.
+- The upgrade also covers permission sets migration and encryption key management.
+- The install-an-update page covers platform-only and application updates, for both single-tenant and multitenant deployments.
+- The considerations page (versions 26-29) covers deprecated or redesigned functionality, deleted objects (v24 and earlier), and performance impact of installed extensions.
+- Subscription Billing extension schema changes between v25 and v26+ may need force sync for schema migration.
+- Microsoft recommends moving to AL-based permissions; v23 deployment changes include port 7085 and SPN delegation.
 
 ## Learn pages
 
