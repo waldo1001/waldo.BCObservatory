@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { chmodSync, mkdtempSync, readFileSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { createTelemetry, envelope, parseConnection, telemetryEnabled, type ToolCall } from "../../packages/mcp/src/telemetry.js";
+import { createTelemetry, envelope, parseConnection, resourceEnvelope, telemetryEnabled, type ToolCall } from "../../packages/mcp/src/telemetry.js";
 
 const root = new URL("../../", import.meta.url);
 const read = (p: string) => readFileSync(new URL(p, root), "utf8");
@@ -181,7 +181,7 @@ test("D110 test 9: telemetry.ts reads nothing about the machine and never sends 
 test("D110 test 10: the stderr notice when on, null when off", () => {
   const r = recorder();
   assert.equal(on(r.fetchImpl).notice(SITE),
-    "bc-observatory: counts tool calls (tool name, outcome, duration, client name, a random install id from ~/.cache/bc-observatory/install-id, and the country and city of your IP address; never your questions or anything else about this machine) in Azure Application Insights, West Europe, kept 90 days. Turn off: BC_OBSERVATORY_TELEMETRY=0 or DO_NOT_TRACK=1. https://waldo1001.github.io/waldo.BCObservatory/mcp/#privacy");
+    "bc-observatory: counts tool calls (tool name, outcome, duration, client name, a random install id from ~/.cache/bc-observatory/install-id, and the country and city of your IP address) and which Observatory pages answers point to (without any id or location); never your questions or anything else about this machine. In Azure Application Insights, West Europe, kept 90 days. Turn off: BC_OBSERVATORY_TELEMETRY=0 or DO_NOT_TRACK=1. https://waldo1001.github.io/waldo.BCObservatory/mcp/#privacy");
   assert.equal(createTelemetry({ env: {}, connection: undefined, version: "0.11.0", getClient: () => ({}) }).notice(SITE), null);
 });
 
@@ -201,4 +201,117 @@ test("D110 test 13: the privacy notice is in the READMEs and on the MCP page, an
   assert.match(read("plugin/README.md"), /BC_OBSERVATORY_TELEMETRY=0/);
   assert.match(read("plugin/README.md"), /install id/);
   for (const f of ["packages/mcp/README.md", "site/src/pages/mcp/index.astro"]) assert.match(read(f), /install-id/, f);
+});
+
+// ------------------------------------------------------------------------------------------- D127 resource counts
+
+type Env = { tags: Record<string, string>; time: string; data: { baseData: { name: string; properties: Record<string, string>; measurements: Record<string, number> } } };
+const bodies = (r: ReturnType<typeof recorder>) => r.calls.flatMap((c) => c.body as Env[]);
+
+test("D127 test 1: the resource envelope has no session, user, client or location, and its time is on the hour", () => {
+  const e = resourceEnvelope({ tool: "bc_get_object", resource: "objects/table/36", rank: 1 }, { iKey: IKEY, version: "0.14.0", now: new Date("2026-10-30T14:37:12.345Z") });
+  assert.deepEqual(e, {
+    name: "Microsoft.ApplicationInsights.Event",
+    time: "2026-10-30T14:00:00.000Z",
+    iKey: IKEY,
+    tags: {
+      "ai.cloud.role": "bc-observatory-mcp",
+      "ai.cloud.roleInstance": "obs",
+      "ai.location.ip": "0.0.0.0",
+      "ai.application.ver": "0.14.0",
+      "ai.internal.sdkVersion": "bc-observatory-mcp:0.14.0",
+    },
+    data: { baseType: "EventData", baseData: { ver: 2, name: "Obs.Resource",
+      properties: { tool: "bc_get_object", resource: "objects/table/36", mcpVersion: "0.14.0" },
+      measurements: { rank: 1 } } },
+  });
+  const t = (e as Env).tags, props = (e as Env).data.baseData.properties;
+  for (const k of ["ai.session.id", "ai.user.id"]) assert.equal(k in t, false, k);
+  for (const k of ["client", "clientVersion"]) assert.equal(k in props, false, k);
+});
+
+test("D127 test 2: only an ok answer sends its resources", () => {
+  const r = recorder();
+  const t = on(r.fetchImpl);
+  for (const o of ["nomatch", "notfound", "error"] as const) t.resources("bc_search", o, ["objects/table/36"]);
+  assert.equal(r.calls.length, 0);
+  t.resources("bc_search", "ok", ["objects/table/36"]);
+  assert.equal(r.calls.length, 1);
+  assert.equal(bodies(r)[0].data.baseData.name, "Obs.Resource");
+  t.resources("bc_search", "ok", []);
+  assert.equal(r.calls.length, 1, "no resources, no request");
+});
+
+test("D127 test 3: at most three resources, ranked, deduplicated, in one POST", () => {
+  const r = recorder();
+  on(r.fetchImpl).resources("bc_search", "ok", ["other", "objects/table/36", "other", "objects/table/37", "objects/table/38", "objects/table/39"]);
+  assert.equal(r.calls.length, 1);
+  assert.deepEqual(bodies(r).map((e) => [e.data.baseData.properties.resource, e.data.baseData.measurements.rank]),
+    [["other", 1], ["objects/table/36", 2], ["objects/table/37", 3]]);
+});
+
+test("D127 test 4: resources share the 1,000-event budget with tool calls", () => {
+  const r = recorder();
+  const t = on(r.fetchImpl);
+  for (let i = 0; i < 999; i++) t.track({ tool: "bc_ls", outcome: "ok", ms: 1 });
+  t.resources("bc_search", "ok", ["objects/table/36", "objects/table/37", "objects/table/38"]);
+  assert.equal(bodies(r).filter((e) => e.data.baseData.name === "Obs.Resource").length, 1);
+  t.resources("bc_search", "ok", ["objects/table/36"]);
+  t.track({ tool: "bc_ls", outcome: "ok", ms: 1 });
+  assert.equal(bodies(r).length, 1000);
+});
+
+test("D127 test 5: every off switch stops the resource events too", () => {
+  const envs: NodeJS.ProcessEnv[] = [{ BC_OBSERVATORY_TELEMETRY: "0" }, { DO_NOT_TRACK: "1" }, { CI: "true" }, { BC_OBSERVATORY_LOCAL: "/x" }];
+  for (const env of envs) {
+    const r = recorder();
+    createTelemetry({ env, connection: CS, version: "0.14.0", getClient: () => ({}), fetchImpl: r.fetchImpl }).resources("bc_cat", "ok", ["objects/table/36"]);
+    assert.equal(r.calls.length, 0, JSON.stringify(env));
+  }
+  const r = recorder();
+  createTelemetry({ env: {}, connection: undefined, version: "0.14.0", getClient: () => ({}), fetchImpl: r.fetchImpl }).resources("bc_cat", "ok", ["objects/table/36"]);
+  assert.equal(r.calls.length, 0, "no connection string");
+});
+
+test("D127 test 6: the notice names the page counts in all five places", async () => {
+  assert.match(on(recorder().fetchImpl).notice(SITE)!, /which Observatory pages answers point to \(without any id or location\)/);
+  const { mcpMarkdown } = await import("../../site/src/lib/mcp.js");
+  const md = mcpMarkdown({ server: "9.9.9", plugin: "8.8.8" }, "https://github.com/o/r", "https://example.test/x/");
+  for (const [f, text] of [["site/src/lib/mcp.ts", md], ...["packages/mcp/README.md", "plugin/README.md", "site/src/pages/mcp/index.astro"].map((f) => [f, read(f)])]) {
+    assert.match(text, /not\s+who\s+looked\s+it\s+up/, f);
+    assert.doesNotMatch(text, /never sends your questions, paths, object ids/, f);
+  }
+});
+
+test("D127 test 7: resourceOf keeps a catalogue id and turns everything else into other", async () => {
+  const { resourceOf } = await import("../../packages/mcp/src/server.js");
+  const ids = new Set(["objects/table/36", "objects/codeunit/80#event-OnAfterPostSalesDoc", "https://learn.microsoft.com/x"]);
+  const cases: [string, string][] = [
+    ["objects/table/36", "objects/table/36"],
+    ["/objects/table/36.md", "objects/table/36"],
+    ["objects/table/36/", "objects/table/36"],
+    ["objects/codeunit/80#event-OnAfterPostSalesDoc", "objects/codeunit/80#event-OnAfterPostSalesDoc"],
+    ["objects/table/36#field-999", "objects/table/36"],
+    ["https://learn.microsoft.com/x", "https://learn.microsoft.com/x"],
+    ["customers/acme-nv", "other"],
+    ["jan@acme.be", "other"],
+    ["Sales Header for ACME NV", "other"],
+    ["", "other"],
+  ];
+  for (const [path, want] of cases) assert.equal(resourceOf(path, ids), want, path);
+});
+
+test("D127 test 8a: answer passes a tool's resources through the gate with its outcome, and never what was typed", async () => {
+  const { answer, pointTo, NO_MATCH } = await import("../../packages/mcp/src/server.js");
+  const seen: [string, string, string[]][] = [];
+  const resources = (tool: string, outcome: string, paths: string[]) => { seen.push([tool, outcome, paths]); };
+  const none = () => {};
+  await answer("bc_cat", () => { pointTo("Sales Header for ACME NV"); return "x"; }, false, none, resources)({});
+  assert.deepEqual(seen.at(-1), ["bc_cat", "ok", ["other"]]);
+  await answer("bc_search", () => { pointTo("objects/table/36"); return `nothing\n${NO_MATCH}`; }, false, none, resources)({});
+  assert.deepEqual(seen.at(-1)?.slice(0, 2), ["bc_search", "nomatch"]);
+  await answer("bc_cat", () => { pointTo("objects/table/36"); throw new Error("HTTP 500 for x"); }, false, none, resources)({});
+  assert.deepEqual(seen.at(-1)?.slice(0, 2), ["bc_cat", "error"], "a throwing tool's outcome is error: telemetry.resources sends nothing for it (test 2)");
+  await answer("bc_ls", () => "dirs", false, none, resources)({});
+  assert.deepEqual(seen.at(-1), ["bc_ls", "ok", []], "a tool that points nowhere sends an empty list");
 });

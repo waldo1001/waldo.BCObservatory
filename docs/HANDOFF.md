@@ -14,10 +14,6 @@ the owner applies `spec-approved` to that issue: branch `league/<issue>-<topic>`
 whose issue carries that label, or that has such a branch or PR, is the League's: do not build it by hand (take it over
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
-- **MCP resource counts, D127** (`docs/specs/mcp-resource-counts.md`, M62, issue #60). Status: proposed 2026-10-30,
-  nothing implemented. Start with section 5 (tests 1-9 in `tests/unit/mcp-telemetry.test.ts`), then task 2
-  (`resourceEnvelope` in `packages/mcp/src/telemetry.ts`). Until it lands, `Obs.ToolCall` counts tools only and nobody
-  can tell which pages people look up; the website has no telemetry and stays that way.
 - **Layered answers, D106** (`docs/specs/layered-answers.md`, M44, issue #26). Status: built 2026-10-23 on stacked
   branches `build/layered-answers` and `-p1` to `-p6`, one PR per phase (#27 docs, #28 cross-links, #29 key facts, #30
   cautions, then hotfix lists, brief and search, never-less); merge in order. Not done until the first nightly ran:
@@ -39,6 +35,13 @@ edges and 1,350 unresolved, because a manual control run shared the BC30 checkou
 questions in its section 12).
 
 ## Where things stand
+
+**Built 2026-10-30 (MCP 0.14.0, plugin 0.10.0; needs its publish):**
+- **MCP resource counts (D127, M62, issue #60).** The MCP sends one unlinked `Obs.Resource` event per page an answer
+  points to (index id or `other`; no session, user, client or location; time on the hour). Nothing changes for readers
+  or agents until MCP 0.14.0 is published; the notice changed in both READMEs and on the MCP page, which the next site
+  deploy carries. Operator steps: publish with `gh workflow run publish-mcp.yml --ref main` (D40), then the
+  after-publish check in `docs/RUNBOOK.md` ("Since 0.14.0 (D127)"); the ranking queries are in the RUNBOOK's KQL block.
 
 **Built 2026-10-29 (MCP 0.13.0; needs a pillar run, then its publish):**
 - **BCQuality rules as pages (D126, M61, issue #58).** Every rule and review skill of microsoft/BCQuality

@@ -1403,3 +1403,19 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   Rejected: search rows only (no page to read or link), an LLM summary per rule, topic hubs listing rules (an LLM pass,
   later), inlining the examples (bytes), rules on object pages (D88), bare single-word code spans (noise: `local`,
   `Status`), a nav entry (101 characters, over D90's one line at 900 px). Spec `docs/specs/bcquality-rules.md`, issue #58.
+- **D127 The MCP counts which pages its answers point to, unlinked (2026-10-30, M62).** At the owner's request
+  ("which resources are most searched for, without breaking any laws"). Beside `Obs.ToolCall`, the server sends one
+  `Obs.Resource` event per page an `ok` answer points to, at most three per call, in one POST: `bc_search` its top three
+  shown hits (rank order), `bc_cat`, `bc_get_object`, `bc_localization` and `bc_diff_object` the page they read,
+  `bc_brief` the page it was given or the first hit of its first search. Properties: `tool`, `resource` (an index
+  record id, or `other` when the path is not one: `resourceOf` in `packages/mcp/src/server.ts`), `mcpVersion`;
+  measurement `rank`. No `ai.session.id`, no `ai.user.id`, no client name, `ai.location.ip` `0.0.0.0`, and the event
+  time rounded down to the UTC hour, so a resource event cannot be joined to the user's `Obs.ToolCall` or placed on a
+  map. Tools name their pages with `pointTo()`, collected per call through `AsyncLocalStorage` in `answer()`; they still
+  return strings. Same off switches and the same 1,000-event budget per process. The notice names it in all five
+  places; KQL (top resources, by kind, found vs read) in `docs/RUNBOOK.md`. Verified end to end against a local catcher
+  and the live index: a search for "sales header ACME NV jan@acme.be" sent three catalogue ids and no query text.
+  The website stays tracker-free. Rejected: query text, raw or filtered to the index vocabulary (customer names and
+  e-mails reach agents); paths on `Obs.ToolCall` (a pseudonymous reading profile); exact timestamps (joinable); a
+  nightly usage feed (a read credential on the Mini); website counting (ePrivacy Art. 5(3), owner declined). Spec
+  `docs/specs/mcp-resource-counts.md`, issue #60. MCP 0.14.0, plugin 0.10.0.

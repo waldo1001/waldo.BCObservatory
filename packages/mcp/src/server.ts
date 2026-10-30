@@ -23,6 +23,7 @@
  * BC_OBSERVATORY_EMBEDDINGS=0 turns it off; BC_OBSERVATORY_MODEL_DIR uses a model on disk (offline, tests). Without a
  * model, search is keyword-only.
  */
+import { AsyncLocalStorage } from "node:async_hooks";
 import { createHash, randomUUID } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, realpathSync, statSync, writeFileSync } from "node:fs";
 import { homedir } from "node:os";
@@ -39,9 +40,9 @@ import { dot, embed, parseModel, type StaticModel } from "./embed.js";
 import { countryBlock, memberAnswer, parseAnchor, replacedInLine, type DiffObject } from "./country.js";
 import { DEFAULT_BUDGET, anchorView, budgetOf, pageView, type ViewArgs } from "./sections.js";
 import { brief } from "./brief.js";
-import { createTelemetry, type Client, type ToolCall } from "./telemetry.js";
+import { createTelemetry, type Client, type Outcome, type ToolCall } from "./telemetry.js";
 
-const VERSION = "0.13.0";
+const VERSION = "0.14.0";
 const SITE = (process.env.BC_OBSERVATORY_SITE ?? "https://waldo1001.github.io/waldo.BCObservatory/").replace(/\/?$/, "/");
 const LOCAL = process.env.BC_OBSERVATORY_LOCAL ? resolve(process.env.BC_OBSERVATORY_LOCAL) : null;
 /** D110: the Application Insights connection string, set by esbuild define in publish-mcp; tsx runs have none. */
@@ -107,6 +108,8 @@ async function pageMarkdown(path: string): Promise<string> {
 
 let pages: PageRecord[] = [];
 let index: Index | null = null;
+/** D127: every record id of the loaded index (pages, Learn articles, symbol rows): the only resources that are sent. */
+let catalogue: ReadonlySet<string> = new Set();
 let loadedAt = 0;
 /** D108: the data date every answer ends with: the site's last deploy, else the newest nightly item up to today. */
 let dataDate: string | null = null, newestItem: string | null = null;
@@ -167,6 +170,7 @@ async function loadIndex(): Promise<void> {
     }
   }
   index = idx;
+  catalogue = new Set(idx.records.map((r) => r.id));
   loadedAt = Date.now();
   countryDiffs.clear();
 }
@@ -343,6 +347,7 @@ export async function toolSearch(a: SearchArgs): Promise<string> {
   // D106: grouped by layer; a Learn article in the exact band (its title is covered by the query) leads
   const learnFirst = hits.some((h) => h.band === "exact" && h.r.type === "learn" && shown.includes(h.r));
   const body = groupLines(shown, (r) => hitLine(r, tag(uid(r))), learnFirst);
+  pointTo(...shown.slice(0, 3).map((r) => r.id));
   if (mode === "hybrid" && !keyword.length && semantic.length) return `No keyword match for "${a.query}"; ${shown.length} pages by meaning only (read one with bc_cat(path)${learnNote}):\n${body}${hintText}`;
   return `${shown.length} results, ${how}${note}${how === "keyword + meaning" ? ` (exact band: ${exactBand})` : ""} (read one with bc_cat(path)${learnNote}):\n${body}${hintText}`;
 }
@@ -442,8 +447,15 @@ export async function learnByMeaning(query: string, limit = 5): Promise<PageReco
 export async function toolBrief(a: { query?: string; path?: string }): Promise<string> {
   await loadIndex();
   const byPath = new Map(pages.map((p) => [p.path, p]));
+  // D127: the page asked for, else the first hit of the first search the brief runs
+  let pointed = false;
+  if (a.path) pointTo(a.path);
   const out = await brief(a, {
-    hits: (query) => rank(index!, parseQuery(query, { countries: countriesOf(index!) }), {}).slice(0, 60).map((h) => h.r),
+    hits: (query) => {
+      const found = rank(index!, parseQuery(query, { countries: countriesOf(index!) }), {}).slice(0, 60).map((h) => h.r);
+      if (!a.path && !pointed && found[0]) { pointed = true; pointTo(found[0].id); }
+      return found;
+    },
     record: (path) => byPath.get(path),
     page: async (path) => { try { return await pageMarkdown(path); } catch { return null; } },
     learnFacts: loadLearnFacts,
@@ -475,6 +487,7 @@ export async function toolCat(a: { path: string } & ViewArgs): Promise<string> {
   const [base, anchor] = a.path.split(/(?=#)/);
   const clean = `${base.replace(/^\/+|\/+$/g, "").replace(/\.md$/, "")}${anchor ?? ""}`;
   const path = clean.replace(/#.*$/, ""), md = await pageMarkdown(path);
+  pointTo(clean);
   // a member the page lacks may be one a country layer adds to this W1 object (D95): answer from the layer's diff
   if (anchor && anchorView(md, path, anchor, SITE) === null) {
     const added = await layerMember(path, anchor);
@@ -542,6 +555,7 @@ export async function toolGetObject(a: { type: string; idOrName: string; country
         const line = replacedInLine(layers);
         if (line) also += `${also ? "\n" : "\n\n"}${line}`;
       }
+      pointTo(pick[0].id);
       return `${note}${pageView(await pageMarkdown(pick[0].id), pick[0].id, a, BUDGET, SITE)}${a.section ? "" : also}${a.section ? "" : rulesNaming(pick[0].id)}`;
     }
     if (pick.length > 1) return `${pick.length} ${type} objects match "${a.idOrName}"; read one with bc_cat(path):\n${pick.map((r) => `- ${r.title} path=${r.id}`).join("\n")}`;
@@ -564,6 +578,7 @@ export async function toolDiffObject(a: { type: string; id: string; from: string
   try { diff = JSON.parse(await dataFile(`code/diffs/version/${a.from}__${a.to}.json`)); } catch {
     return `No version diff ${a.from} -> ${a.to}. Diffs exist between consecutive majors from BC${DIFF_RANGE[0]} to BC${DIFF_RANGE[1]} (${DIFF_RANGE[0]} -> ${Number(DIFF_RANGE[0]) + 1}, ..., ${Number(DIFF_RANGE[1]) - 1} -> ${DIFF_RANGE[1]}); a changed member lists only what differs, as [from, to].\n${NO_MATCH}`;
   }
+  pointTo(`objects/${key}`);
   const o = (diff.objects as any[]).find((x) => x.key === key);
   if (!o) return `${key} did not change between BC${a.from} and BC${a.to} (or is not a W1 object).`;
   return `${key} "${o.name}" BC${a.from} -> BC${a.to}: ${o.change}\n${JSON.stringify(o, null, 1)}`;
@@ -571,7 +586,9 @@ export async function toolDiffObject(a: { type: string; id: string; from: string
 
 export async function toolLocalization(a: { country: string } & ViewArgs): Promise<string> {
   const p = `localizations/${a.country.toLowerCase()}`;
-  return pageView(await pageMarkdown(p), p, a, BUDGET, SITE);
+  const md = await pageMarkdown(p);
+  pointTo(p);
+  return pageView(md, p, a, BUDGET, SITE);
 }
 
 /** Dated pages on or after `since`, newest first; nothing dated after today unless asked (a feature's date is its GA month). */
@@ -637,6 +654,19 @@ async function lastDeployed(): Promise<string | null> {
 }
 
 const errorText = (e: unknown) => String((e as Error)?.message ?? e).slice(0, 200);
+/** D127: the pages the running tool call points to; answer() collects them per call. */
+const pointing = new AsyncLocalStorage<string[]>();
+/** D127: a tool names the pages its answer points to; outside answer() (tests, the brief check) it is a no-op. */
+export function pointTo(...paths: string[]): void { pointing.getStore()?.push(...paths); }
+/** D127: a path that is in the loaded index, else "other". Nothing a user typed leaves the machine. */
+export function resourceOf(path: string, ids: ReadonlySet<string>): string {
+  const [base, anchor = ""] = path.split(/(?=#)/);
+  const clean = base.replace(/^\/+|\/+$/g, "").replace(/\.md$/, "");
+  if (clean && ids.has(`${clean}${anchor}`)) return `${clean}${anchor}`;
+  if (clean && ids.has(clean)) return clean;
+  return "other";
+}
+
 /** The data date line every data answer ends with (D108); empty when the index cannot load. */
 export async function stamp(): Promise<string> {
   try { await loadIndex(); } catch { return ""; }
@@ -647,13 +677,18 @@ const missingPage = (m: string) => /^no page at (.+)$/.exec(m)?.[1] ?? (/^HTTP 4
 /**
  * D108: a tool's answer with its data date; a page that is not there says so; anything else that throws is "unreachable".
  * D110: each call is counted once by tool name and outcome (ok, nomatch, notfound, error); the arguments are never sent.
+ * D127: the pages the tool pointed to (pointTo) go out after the gate (resourceOf), on ok only.
  */
-export function answer<A>(tool: string, fn: (a: A) => Promise<string> | string, stamped = true, track: (c: ToolCall) => void = telemetry.track) {
+export function answer<A>(tool: string, fn: (a: A) => Promise<string> | string, stamped = true, track: (c: ToolCall) => void = telemetry.track,
+  resources: (tool: string, outcome: Outcome, paths: string[]) => void = telemetry.resources) {
   return async (a: A) => {
-    const t0 = performance.now();
-    const count = (outcome: ToolCall["outcome"]) => track({ tool, outcome, ms: performance.now() - t0 });
+    const t0 = performance.now(), sink: string[] = [];
+    const count = (outcome: Outcome) => {
+      track({ tool, outcome, ms: performance.now() - t0 });
+      try { resources(tool, outcome, sink.map((p) => resourceOf(p, catalogue))); } catch { /* telemetry never reaches the caller */ }
+    };
     try {
-      const t = await fn(a);
+      const t = await pointing.run(sink, () => fn(a));
       const s = stamped ? await stamp() : "";
       count(t.includes(NO_MATCH) ? "nomatch" : "ok");
       return text(s ? `${t}\n\n${s}` : t);

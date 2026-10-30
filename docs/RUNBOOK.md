@@ -174,6 +174,10 @@ The published MCP sends one `Obs.ToolCall` event per tool call to the Observator
   (D111) expect `user_Id` a UUID, `client_City` and `client_CountryOrRegion` filled, `client_IP` `0.0.0.0`, or `::` for a client on IPv6 (both masked by the
   resource), `cloud_RoleInstance` `obs`. A real address in `client_IP` means IP masking was switched off on the resource:
   turn it back on, the notice promises the address is not stored. 0.11.0 sends no user id and no location.
+  Since 0.14.0 (D127): `customEvents | where name == "Obs.Resource" | take 5` shows `user_Id` and `session_Id` empty,
+  `client_City` and `client_CountryOrRegion` empty and every timestamp on the hour. A filled city means the
+  `ai.location.ip` tag did not stick: switch counting off for everyone (below) and fix it. These events carry no
+  `client`, so the `release-check` filter does not apply: a release check reads a missing page (nothing is sent).
 
 ```kusto
 // calls and sessions per day
@@ -195,6 +199,20 @@ customEvents | where timestamp > ago(90d) and name == "Obs.ToolCall" and isnotem
 // by country and city
 customEvents | where timestamp > ago(30d) and name == "Obs.ToolCall" and isnotempty(user_Id)
 | summarize users = dcount(user_Id), calls = count() by client_CountryOrRegion, client_City | order by users desc
+// top 25 resources this week (D127, 0.14.0 and later; unlinked, so no users or places here)
+customEvents | where timestamp > ago(7d) and name == "Obs.Resource"
+| extend resource = tostring(customDimensions.resource) | where resource != "other"
+| summarize hits = count() by resource | top 25 by hits
+// by kind of page
+customEvents | where timestamp > ago(30d) and name == "Obs.Resource"
+| extend resource = tostring(customDimensions.resource)
+| extend kind = case(resource startswith "https://learn.", "learn", resource == "other", "other", tostring(split(resource, "/")[0]))
+| summarize hits = count() by kind | order by hits desc
+// found vs read: shown as a search hit, and read with bc_cat, bc_get_object, bc_localization or bc_brief
+customEvents | where timestamp > ago(30d) and name == "Obs.Resource"
+| extend resource = tostring(customDimensions.resource), tool = tostring(customDimensions.tool)
+| summarize found = countif(tool == "bc_search"), read = countif(tool in ("bc_cat", "bc_get_object", "bc_localization", "bc_brief")) by resource
+| where resource != "other" | top 25 by read
 ```
 
 ## Recovery

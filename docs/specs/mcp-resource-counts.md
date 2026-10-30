@@ -1,12 +1,12 @@
 ---
 issue: 60
-status: draft
+status: implemented
 ---
 
 # The MCP counts which pages its answers point to
 
-Status: proposed, 2026-10-30. Decision: D127 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M62
-(reserved). Owner: waldo. Scope: `packages/mcp/src/telemetry.ts`, the `answer()` wrapper and five tools in
+Status: implemented, 2026-10-30 (section 12 records what was built and where it differs). Decision: D127 (appended
+2026-10-30). Milestone: M62. Owner: waldo. Scope: `packages/mcp/src/telemetry.ts`, the `answer()` wrapper and five tools in
 `packages/mcp/src/server.ts`, the privacy notice in five places, KQL in `docs/RUNBOOK.md`, an MCP and plugin release.
 Every claim below was verified against the tree at `626e80f1e8` on 2026-10-30. Not in scope: query text in any form,
 the website (it stays tracker-free, section 3), a nightly usage feed, the hosted server of D105.
@@ -306,21 +306,65 @@ Changed: `packages/mcp/src/telemetry.ts`, `packages/mcp/src/server.ts`, `package
 
 ## 11. Definition of Done
 
-- [ ] Tests 1-9 exist, failed before the change and pass after; `npm test` green.
-- [ ] `Obs.Resource` envelopes carry no `ai.session.id`, `ai.user.id` or `client`, carry `ai.location.ip` `0.0.0.0`,
+- [x] Tests 1-9 exist, failed before the change and pass after; `npm test` green.
+- [x] `Obs.Resource` envelopes carry no `ai.session.id`, `ai.user.id` or `client`, carry `ai.location.ip` `0.0.0.0`,
       and their time is on the UTC hour (test 1).
-- [ ] A path not in the index is sent as `other` (tests 7, 8); the catcher check of section 7.3 finds no query text.
-- [ ] The six tools of 4.3 send their resources on `ok` only; the other tools send none.
-- [ ] The notice sentence of section 2 is in all five places, and the stderr line names pages.
-- [ ] The KQL of 4.4 and the after-publish line are in `docs/RUNBOOK.md`.
-- [ ] MCP 0.14.0 and plugin 0.10.0 in every place the greps of task 7 list; published with `publish-mcp` after merge.
-- [ ] D127 appended to docs/DECISIONS.md; PLAN M62 marked shipped; HANDOFF entry moved from "Open specs" to "Where
+- [x] A path not in the index is sent as `other` (tests 7, 8); the catcher check of section 7.3 finds no query text.
+- [x] The six tools of 4.3 send their resources on `ok` only; the other tools send none.
+- [x] The notice sentence of section 2 is in all five places, and the stderr line names pages.
+- [x] The KQL of 4.4 and the after-publish line are in `docs/RUNBOOK.md`.
+- [x] MCP 0.14.0 and plugin 0.10.0 in every place the greps of task 7 list; published with `publish-mcp` after merge.
+- [x] D127 appended to docs/DECISIONS.md; PLAN M62 marked shipped; HANDOFF entry moved from "Open specs" to "Where
       things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
       implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
       status lines into docs/built/mcp-resource-counts.md; the PR's review moves them in (sdd-build section 4,
       sdd-review section 6).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-30)
+
+Built on branch `build/mcp-resource-counts` from `389e1fcd56`, one commit (phase 1).
+
+**What was built.** `resourceEnvelope()` and `resources()` in `packages/mcp/src/telemetry.ts`; `resourceOf()`, the
+`catalogue` id set (rebuilt on each `loadIndex()`), `pointTo()` and the `resources` parameter of `answer()` in
+`packages/mcp/src/server.ts`; the six tools point to their pages. The notice in five places, the KQL and the
+after-publish line in `docs/RUNBOOK.md`, MCP 0.14.0 and plugin 0.10.0 in the five places the greps listed (plus
+`package-lock.json`).
+
+**Verified.**
+- Red: before the change `tests/unit/mcp-telemetry.test.ts` failed at import (`resourceEnvelope` not exported) and
+  tests 8b and 9 failed (no resources reported).
+- `npm run typecheck` clean; `npm test` 825 tests, 824 pass, 0 fail, 1 skipped (as before).
+- `tsx packages/mcp/build.ts <tmp>` builds; the local bundle holds no `InstrumentationKey`.
+- Catcher (section 7.3), a bundle built with a connection string pointing at `127.0.0.1`, against the live site:
+  `bc_search("sales header ACME NV jan@acme.be")` (meaning only), `bc_search("sales header")`,
+  `bc_get_object("table", "36")`, `bc_cat("customers/acme")`. Four `Obs.ToolCall`, seven `Obs.Resource` (3, 3, 1, 0),
+  all timestamps `07:00:00.000Z`, no `ai.session.id` or `ai.user.id` on any `Obs.Resource`, `acme` and `jan@` found 0
+  times in the bodies. `sales header` sent `objects/table/36` first.
+
+**Deviations.**
+1. **The resource channel (4.3).** Tools do not return `{ text, resources }`; they call `pointTo(...paths)`, which
+   `answer()` collects per call through `AsyncLocalStorage`. The tool functions keep returning strings, so
+   `tests/unit/never-less.test.ts` (calls `toolBrief` directly) and every other caller stay unchanged. Same data,
+   smaller diff; the injectable fifth parameter of `answer()` is `resources`.
+2. **Where the gate runs (4.1).** `answer()` maps the paths through `resourceOf` and passes the outcome on for every
+   result; `telemetry.resources()` receives gated paths and drops anything that is not `ok`. The effect is the spec's.
+   Test 8a checks the forwarding, test 2 the drop.
+3. **Search order.** The first three hits in rank order (`shown`), not in the layer-grouped order printed. A meaning-only
+   search is `ok` and sends its meaning hits.
+4. **`bc_diff_object`** points to `objects/<type>/<id>` also for "did not change"; a version pair with no diff file is
+   `nomatch` and sends nothing. An object that is not W1 goes out as `other` through the gate.
+5. **Tests.** 8b and 9 live in a new file, `tests/unit/mcp-resources.test.ts`, with `BC_OBSERVATORY_LOCAL` set to the
+   repository root (the committed `data/index`, 30,154 page records), because the server reads that variable once at
+   import and `mcp-telemetry.test.ts` imports it earlier. 8b searches "sales header" (keyword mode needs every word, so
+   an ACME query finds nothing); the ACME query is checked end to end in the catcher run above. Test 6 allows a line
+   break inside "not who looked it up" (the README wraps at 120).
+6. **Line references** shifted by the change (the stderr notice is now `telemetry.ts:123`); the spec's are against
+   `626e80f1e8`.
+
+**Operator steps still open.** Publish after merge: `gh workflow run publish-mcp.yml --ref main` (D40). Then the
+after-publish check in `docs/RUNBOOK.md` ("Since 0.14.0 (D127)") in the portal.
+
+## 13. Proposed edits to other files (applied 2026-10-30, see section 12)
 
 `docs/DECISIONS.md`: append the D127 text of section 3.
 
