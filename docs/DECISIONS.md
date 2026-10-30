@@ -1150,8 +1150,9 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   their pass; the nightly gives them theirs within its quota. The owner's case, `post/waldo-be/318423`, is now kept on
   *Monitor and analyze telemetry*. The derive the spec named (run 39578403945) changed nothing: topic pages render only
   in the full nightly's `hubs` phase, and the graph reads them, so readers see the kept links after the 2026-10-22
-  nightly. Tilted-view counts (command 2) before: 289 posts, 412 videos; after: to be measured after that nightly.
-  Spec: docs/specs/topic-link-second-chance.md (built, deviations: docs/built/topic-link-second-chance.md).
+  nightly. Tilted-view counts (command 2) before: 289 posts, 412 videos; on 2026-10-30: 664 posts, 446 videos (with the
+  posts ingested since; unit states then: posts kept 648, final 123, none 292, open 19; videos kept 427, final 46,
+  none 152; nothing due). Spec: docs/specs/topic-link-second-chance.md (section 12).
 - **D103 The Lenses menu lists Time first (2026-10-21, M41).** The galaxy's Lenses menu (D92) put its groups in the
   order Version, Time, Type, Tier, Coverage, Country, Source. With seven majors (BC24 to BC30) the Version group takes
   two rows of chips, so "this week", the lens that changes every night and the one the header's "N new this week" link

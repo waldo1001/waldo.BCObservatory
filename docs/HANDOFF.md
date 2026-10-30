@@ -201,9 +201,8 @@ questions in its section 12).
   The backfill (the spec's phase 2) ran on 2026-10-21 (`1d86ac3e72`, about $21): every due unit had its second pass,
   the review queue is empty, and 92 of 390 second-pass units gained a kept link; the numbers are in D102. Readers see
   the kept links after the 2026-10-22 nightly re-renders the topic pages (its `hubs` phase; a derive does not render
-  them). Still open: spec section 7 command 2 after that nightly (before: 289 posts, 412 videos), written into D102;
-  the 124 units newly due (the spec's risk 6) get their pass from the nightly. The spec's own edits wait in
-  `docs/built/topic-link-second-chance.md` for the review.
+  them). Closed out 2026-10-30: section 7 command 2 reads 664 posts and 446 videos in some tilted view (before: 289
+  and 412), no unit is due any more, and the spec's own edits are in its section 12 (status implemented).
 
 **Shipped 2026-10-19, live after its Pages build (site only, no derive):**
 - **Search newest first, D101** (`docs/specs/search-newest-first.md`, M39, issue #15). Built by waldo.Jarvis's League.

@@ -332,8 +332,8 @@ New: none (one stored prompt fixture inside the test file).
 - [x] A first-round call's prompt is byte-identical to before (test 4). `SYSTEM` and `PROMPT_VERSION` of
       `pipeline/link/topics.ts` are unchanged.
 - [x] `run.second` appears in the nightly run report (`topic_links.second`).
-- [ ] Phase 2 done, or explicitly deferred by the owner. Commands 1 and 2 of section 7 recorded before and after.
-      (Open: operator step, not done.)
+- [x] Phase 2 done, or explicitly deferred by the owner. Commands 1 and 2 of section 7 recorded before and after.
+      (Done 2026-10-21, `1d86ac3e72`; numbers in D102. Command 2 measured 2026-10-30.)
 - [x] `docs/DECISIONS.md` has D102 with the measured numbers. `docs/PLAN.md` M40 is marked shipped. `docs/HANDOFF.md`
       moves the entry from "Open specs" to "Where things stand". This spec gains "12. Built, deviations" and
       `status: implemented` (`/sdd-build`).
@@ -365,7 +365,9 @@ Built by waldo.Jarvis's League (operator mode), phase 1 only. Phase 2 (the backf
 - **Operator steps still open**: phase 2 of the spec (section 6), commands as written in HANDOFF; the derive on the
   Mini after the push (RUNBOOK "Derived data", D81) changes no page.
 
-**Review, 2026-10-29 (owner session, after PR #18 merged without the review step).** Moved this hand-over in from `docs/built/topic-link-second-chance.md`. Verified: `tests/unit/topic-links.test.ts` passes on `main` (62 of 62 with `galaxy-core`), and the full suite was green at 813 of 814 (1 skipped) on 2026-10-29. Still open: phase 2, the backfill (operator step, section 6).
+**Review, 2026-10-29 (owner session, after PR #18 merged without the review step).** Moved this hand-over in from `docs/built/topic-link-second-chance.md`. Verified: `tests/unit/topic-links.test.ts` passes on `main` (62 of 62 with `galaxy-core`), and the full suite was green at 813 of 814 (1 skipped) on 2026-10-29. Phase 2, the backfill, ran on 2026-10-21 (`1d86ac3e72`, about $21; the hand-over above predates it). Section 7
+command 2 on 2026-10-30: 664 posts and 446 videos in some tilted view (before: 289 and 412); nothing due. D102 has
+the numbers.
 
 ## 13. Proposed edits to other files (applied 2026-10-19, see section 12)
 
