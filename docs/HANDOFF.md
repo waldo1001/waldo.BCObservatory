@@ -23,11 +23,11 @@ one in either mode.
 - **Learn by meaning in brief, D107** (`docs/specs/learn-meaning-brief.md`, M45, issue #34). Status: built 2026-10-23 on
   `build/layered-answers-p7`, stacked on #33; unreachable Learn URLs of the never-less check 11 -> 8 of 16. Shipped in MCP
   0.10.0 (D108). The rest is an owner decision (spec section 8).
-- **Observatory in Claude chat and Desktop, D105** (`docs/specs/mcp-in-claude-chat.md`, M43, issue #24). Status:
-  proposed 2026-10-22, nothing implemented; the owner wants it specced, not built yet, and phase 2 waits for a host
-  choice (spec section 4, host criteria). Start with phase 1 task 1 (the tests). Until it lands, claude.ai users who add
-  the plugin get the skills only; bc-code-atlas and microsoft-learn need Add on the plugin's Connectors tab, and
-  nothing says so.
+- **Observatory in Claude Desktop without Node, D105** (`docs/specs/mcp-in-claude-chat.md`, M43, issue #24). Status:
+  proposed 2026-10-22, revised 2026-10-30 to one phase (the .mcpb extension and the skills' missing-server rule);
+  nothing implemented. The hosted server is parked in the spec's section 8, no trigger. Start with task 1 (the tests).
+  Until it lands, Claude Desktop users install Node and edit claude_desktop_config.json by hand (INSTALL.md part B), and
+  a skill with no bc-observatory tool answers from memory without saying how to get the server.
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
