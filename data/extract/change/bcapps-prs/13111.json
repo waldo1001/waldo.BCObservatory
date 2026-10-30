@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13111",
+  "number": 13111,
+  "title": "[Backport 29.x] #11046: [Extensibility Request] issue 10889: expose large text modal helper",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The Qlty. Edit Large Text page is now accessible to extensions for customization and reuse in Quality Management workflows.",
+  "key_points": [
+    "Page 20441 'Qlty. Edit Large Text' exposure for extensibility",
+    "Backport to BC29 releases",
+    "Enables external developers to extend large text modal functionality",
+    "Quality Management utilities enhancement",
+    "Part of extensibility request fulfillment"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003018,
+    "changes_in_call": 1
+  }
+}

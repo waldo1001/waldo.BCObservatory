@@ -6,14 +6,22 @@
   "title": "Config. Packages with Native AL XML Data Types",
   "url": "https://github.com/microsoft/BCApps/pull/9045",
   "published_at": "2026-10-26T17:46:17Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-27T00:21:39.999Z"
+    },
+    "fetched": {
+      "at": "2026-10-30T00:22:52.665Z",
+      "change_class": "code",
+      "files": 23,
+      "al": 8,
+      "objects": 8,
+      "unjoined": 0
     }
   },
   "input_hash": "b16a373e49546f969276b550987e4d735d996ee1:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 9045,
@@ -31,6 +39,7 @@
     "community_contribution": true,
     "title_key": "config packages with native al xml data types"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-28T10:54:02.885Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4e56b179242294810f3ed649aa4c8bf0de469ab6aceae4aef7bef5e280e05fc5"
 }

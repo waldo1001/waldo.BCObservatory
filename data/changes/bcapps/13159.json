@@ -1,0 +1,139 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13159,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13159",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-10-28T10:31:06Z",
+  "merge_commit_sha": "274c387bbae4dac60f9acabdabe06595faed8c07",
+  "author": "MSNehaNawal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29x] Bug 652332 Issuing multiple Reminders or Finance Charge Memos with Print, produces a PDF only for the last one",
+  "body_hash": "6d4451736f79472f7c694e4c4a111b3c1c337e60bfac4db7335478b2f84af8bc",
+  "fixes_issues": [],
+  "work_items": [
+    656374
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Reminder/IssueReminders.Report.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/FinanceCharge/IssueFinanceChargeMemos.Report.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Reminder/IssueReminders.Report.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/Tests/ERM-Finance/ERMCreateFinanceChargeMemo.Codeunit.al",
+      "status": "modified",
+      "additions": 94,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/FinanceCharge/IssueFinanceChargeMemos.Report.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Reminder/IssueReminders.Report.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ERMCreateFinanceChargeMemo.Codeunit.al",
+      "status": "modified",
+      "additions": 94,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ERMInvoiceandReminder.Codeunit.al",
+      "status": "modified",
+      "additions": 108,
+      "deletions": 2,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 396,
+    "deletions": 42,
+    "al": 5
+  },
+  "join": {
+    "major": "29",
+    "commit": "7aa49e808916c060dbee97d9ff324a2cfda8d422",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/FinanceCharge/IssueFinanceChargeMemos.Report.al",
+        "status": "modified",
+        "key": "report/193",
+        "type": "report",
+        "id": 193,
+        "name": "Issue Finance Charge Memos",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/193"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Reminder/IssueReminders.Report.al",
+        "status": "modified",
+        "key": "report/190",
+        "type": "report",
+        "id": 190,
+        "name": "Issue Reminders",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/190"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Reminder/IssueReminders.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/FinanceCharge/IssueFinanceChargeMemos.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Reminder/IssueReminders.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

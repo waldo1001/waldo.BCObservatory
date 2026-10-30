@@ -1,0 +1,1476 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12610,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12610",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-27T14:24:42Z",
+  "merge_commit_sha": "7af239e3a8b9b4946c287cf964cf44d86a8ac4ae",
+  "author": "anordmann",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Build: scripts & configs",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "[Report Filename Manager] New app for configurable report output file names - Slice 651696 [vendor work]",
+  "body_hash": "b2ae18e8b124868cdeb7b0f28b9a963daaeff0dc569e9d3a16555237dccc01fa",
+  "fixes_issues": [],
+  "work_items": [
+    651696
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "build/groups.json",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects.json",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps AT/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps AU/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps BE/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps CA/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps CH/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps CZ/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps DE/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps DK/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps ES/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps FI/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps FR/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps GB/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps IN/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps IS/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps IT/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps MX/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps NL/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps NO/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps NZ/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps RU/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps SE/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps US/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps W1/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/ExtensionLogo.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/app.json",
+      "status": "added",
+      "additions": 40,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameCompanyPlh.Codeunit.al",
+      "status": "added",
+      "additions": 60,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameContext.Codeunit.al",
+      "status": "added",
+      "additions": 671,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameCreatedPlh.Codeunit.al",
+      "status": "added",
+      "additions": 53,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameDocKindPlh.Codeunit.al",
+      "status": "added",
+      "additions": 281,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameExcelSub.Codeunit.al",
+      "status": "added",
+      "additions": 58,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameFinRepSub.Codeunit.al",
+      "status": "added",
+      "additions": 382,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameGuidedExp.Codeunit.al",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameInboxMgt.Codeunit.al",
+      "status": "added",
+      "additions": 125,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameInboxSub.Codeunit.al",
+      "status": "added",
+      "additions": 110,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameMgt.Codeunit.al",
+      "status": "added",
+      "additions": 2012,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenamePeriodPlh.Codeunit.al",
+      "status": "added",
+      "additions": 100,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenamePlhMgt.Codeunit.al",
+      "status": "added",
+      "additions": 819,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenamePreviewMgt.Codeunit.al",
+      "status": "added",
+      "additions": 929,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameReportPlh.Codeunit.al",
+      "status": "added",
+      "additions": 81,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameSubscribers.Codeunit.al",
+      "status": "added",
+      "additions": 936,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameTotalPlh.Codeunit.al",
+      "status": "added",
+      "additions": 154,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameUserPlh.Codeunit.al",
+      "status": "added",
+      "additions": 51,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/enum/ReportFilenameCriterion.Enum.al",
+      "status": "added",
+      "additions": 44,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/enum/ReportFilenameDateFormat.Enum.al",
+      "status": "added",
+      "additions": 36,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/enum/ReportFilenameOutputRoute.Enum.al",
+      "status": "added",
+      "additions": 71,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/enum/ReportFilenamePlaceholder.Enum.al",
+      "status": "added",
+      "additions": 53,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/enum/ReportFilenamePlhSource.Enum.al",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/enum/ReportFilenameRefusal.Enum.al",
+      "status": "added",
+      "additions": 36,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/enum/ReportFilenameRunScope.Enum.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/interface/ReportFilenamePlaceholder.Interface.al",
+      "status": "added",
+      "additions": 51,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenameFieldLookup.Page.al",
+      "status": "added",
+      "additions": 39,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenamePatternCard.Page.al",
+      "status": "added",
+      "additions": 312,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenamePatterns.Page.al",
+      "status": "added",
+      "additions": 355,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenamePlaceholders.Page.al",
+      "status": "added",
+      "additions": 108,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenamePreview.Page.al",
+      "status": "added",
+      "additions": 114,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenameRecordLookup.Page.al",
+      "status": "added",
+      "additions": 84,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenameReportLookup.Page.al",
+      "status": "added",
+      "additions": 62,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenameRoutes.Page.al",
+      "status": "added",
+      "additions": 66,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenameSetup.Page.al",
+      "status": "added",
+      "additions": 90,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenameTableLookup.Page.al",
+      "status": "added",
+      "additions": 54,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenameTest.Page.al",
+      "status": "added",
+      "additions": 414,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/pageextension/ReportFilenameFinRepOv.PageExt.al",
+      "status": "added",
+      "additions": 36,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/pageextension/ReportFilenameInboxPart.PageExt.al",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/pageextension/ReportFilenameReportInbox.PageExt.al",
+      "status": "added",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/permissionset/ReportFilenameMgr.PermissionSet.al",
+      "status": "added",
+      "additions": 93,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/reportextension/ReportFilenameAccSchedule.ReportExt.al",
+      "status": "added",
+      "additions": 57,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/reportextension/ReportFilenameExpExcel.ReportExt.al",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/table/ReportFilenamePattern.Table.al",
+      "status": "added",
+      "additions": 886,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/table/ReportFilenamePlhBuffer.Table.al",
+      "status": "added",
+      "additions": 87,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/table/ReportFilenameRecordBuffer.Table.al",
+      "status": "added",
+      "additions": 54,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/table/ReportFilenameRouteBuffer.Table.al",
+      "status": "added",
+      "additions": 140,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/table/ReportFilenameSetup.Table.al",
+      "status": "added",
+      "additions": 65,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/table/ReportFilenameTableBuffer.Table.al",
+      "status": "added",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/App/src/tableextension/ReportFilenameReportInbox.TableExt.al",
+      "status": "added",
+      "additions": 25,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/ReportFilenameManager.code-workspace",
+      "status": "added",
+      "additions": 11,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/ExtensionLogo.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/app.json",
+      "status": "added",
+      "additions": 52,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameBatchMeasure.Codeunit.al",
+      "status": "added",
+      "additions": 538,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameBatchMeasureStep.Codeunit.al",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameCardTests.Codeunit.al",
+      "status": "added",
+      "additions": 2419,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameDiskCapture.Codeunit.al",
+      "status": "added",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameEmailCapture.Codeunit.al",
+      "status": "added",
+      "additions": 72,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameEndToEndTests.Codeunit.al",
+      "status": "added",
+      "additions": 316,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameFailingAttach.Codeunit.al",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameFilterTests.Codeunit.al",
+      "status": "added",
+      "additions": 802,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameListTests.Codeunit.al",
+      "status": "added",
+      "additions": 422,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameNamingCapture.Codeunit.al",
+      "status": "added",
+      "additions": 53,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenamePartnerName.Codeunit.al",
+      "status": "added",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenamePermissionTests.Codeunit.al",
+      "status": "added",
+      "additions": 235,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofAttachPdf.Codeunit.al",
+      "status": "added",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofAttachment.Codeunit.al",
+      "status": "added",
+      "additions": 294,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofDemoSetup.Codeunit.al",
+      "status": "added",
+      "additions": 615,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofDocument.Table.al",
+      "status": "added",
+      "additions": 52,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofElecDoc.Codeunit.al",
+      "status": "added",
+      "additions": 403,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofExport.Codeunit.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofFinSchedule.Codeunit.al",
+      "status": "added",
+      "additions": 326,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofGate.Codeunit.al",
+      "status": "added",
+      "additions": 79,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofGuard.Codeunit.al",
+      "status": "added",
+      "additions": 93,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofIssueRmdr.Codeunit.al",
+      "status": "added",
+      "additions": 90,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofKindSource.Codeunit.al",
+      "status": "added",
+      "additions": 43,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofLog.Table.al",
+      "status": "added",
+      "additions": 78,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofLogMgt.Codeunit.al",
+      "status": "added",
+      "additions": 120,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofMaximal.Codeunit.al",
+      "status": "added",
+      "additions": 608,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofNameRoutes.Codeunit.al",
+      "status": "added",
+      "additions": 104,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofPicker.Codeunit.al",
+      "status": "added",
+      "additions": 399,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofReminders.Codeunit.al",
+      "status": "added",
+      "additions": 188,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofReport.Report.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofRun.Codeunit.al",
+      "status": "added",
+      "additions": 2279,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofSaveToDisk.Codeunit.al",
+      "status": "added",
+      "additions": 336,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofScheduled.Codeunit.al",
+      "status": "added",
+      "additions": 217,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofSeedRmdr.Codeunit.al",
+      "status": "added",
+      "additions": 94,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofSendDisk.Codeunit.al",
+      "status": "added",
+      "additions": 33,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofSendDiskMany.Codeunit.al",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofSendDiskVend.Codeunit.al",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofSendService.Codeunit.al",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofShowInbox.Codeunit.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofSupport.Codeunit.al",
+      "status": "added",
+      "additions": 249,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofTests.Codeunit.al",
+      "status": "added",
+      "additions": 540,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameProofZipEntry.Codeunit.al",
+      "status": "added",
+      "additions": 356,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameReminderTests.Codeunit.al",
+      "status": "added",
+      "additions": 327,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameReviewSupport.Codeunit.al",
+      "status": "added",
+      "additions": 91,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameReviewTests.Codeunit.al",
+      "status": "added",
+      "additions": 1207,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/FilenameTestData.Codeunit.al",
+      "status": "added",
+      "additions": 645,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/RepFilenameTest.PermissionSet.al",
+      "status": "added",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ReportFilenameManager/Test/src/ReportFilenameProof.Codeunit.al",
+      "status": "added",
+      "additions": 800,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 127,
+    "additions": 26530,
+    "deletions": 0,
+    "al": 49
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameCompanyPlh.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8131",
+        "type": "codeunit",
+        "id": 8131,
+        "name": "Report Filename Company Plh.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8131"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameContext.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8127",
+        "type": "codeunit",
+        "id": 8127,
+        "name": "Report Filename Context",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8127"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameCreatedPlh.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8132",
+        "type": "codeunit",
+        "id": 8132,
+        "name": "Report Filename Created Plh.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8132"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameDocKindPlh.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8139",
+        "type": "codeunit",
+        "id": 8139,
+        "name": "Report Filename Doc. Kind Plh.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8139"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameExcelSub.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8142",
+        "type": "codeunit",
+        "id": 8142,
+        "name": "Report Filename Excel Sub.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8142"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameFinRepSub.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8138",
+        "type": "codeunit",
+        "id": 8138,
+        "name": "Report Filename Fin. Rep. Sub.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8138"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameGuidedExp.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8140",
+        "type": "codeunit",
+        "id": 8140,
+        "name": "Report Filename Guided Exp.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8140"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameInboxMgt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8136",
+        "type": "codeunit",
+        "id": 8136,
+        "name": "Report Filename Inbox Mgt.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8136"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameInboxSub.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8137",
+        "type": "codeunit",
+        "id": 8137,
+        "name": "Report Filename Inbox Sub.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8137"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameMgt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8125",
+        "type": "codeunit",
+        "id": 8125,
+        "name": "Report Filename Mgt.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8125"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenamePeriodPlh.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8141",
+        "type": "codeunit",
+        "id": 8141,
+        "name": "Report Filename Period Plh.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8141"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenamePlhMgt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8129",
+        "type": "codeunit",
+        "id": 8129,
+        "name": "Report Filename Plh. Mgt.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8129"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenamePreviewMgt.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8128",
+        "type": "codeunit",
+        "id": 8128,
+        "name": "Report Filename Preview Mgt.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8128"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameReportPlh.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8134",
+        "type": "codeunit",
+        "id": 8134,
+        "name": "Report Filename Report Plh.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8134"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameSubscribers.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8126",
+        "type": "codeunit",
+        "id": 8126,
+        "name": "Report Filename Subscribers",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8126"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameTotalPlh.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8135",
+        "type": "codeunit",
+        "id": 8135,
+        "name": "Report Filename Total Plh.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8135"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/codeunit/ReportFilenameUserPlh.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8133",
+        "type": "codeunit",
+        "id": 8133,
+        "name": "Report Filename User Plh.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "codeunit/8133"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/enum/ReportFilenameCriterion.Enum.al",
+        "status": "added",
+        "key": "enum/8130",
+        "type": "enum",
+        "id": 8130,
+        "name": "Report Filename Criterion",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "enum/8130"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/enum/ReportFilenameDateFormat.Enum.al",
+        "status": "added",
+        "key": "enum/8126",
+        "type": "enum",
+        "id": 8126,
+        "name": "Report Filename Date Format",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "enum/8126"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/enum/ReportFilenameOutputRoute.Enum.al",
+        "status": "added",
+        "key": "enum/8125",
+        "type": "enum",
+        "id": 8125,
+        "name": "Report Filename Output Route",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "enum/8125"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/enum/ReportFilenamePlaceholder.Enum.al",
+        "status": "added",
+        "key": "enum/8128",
+        "type": "enum",
+        "id": 8128,
+        "name": "Report Filename Placeholder",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "enum/8128"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/enum/ReportFilenamePlhSource.Enum.al",
+        "status": "added",
+        "key": "enum/8127",
+        "type": "enum",
+        "id": 8127,
+        "name": "Report Filename Plh. Source",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "enum/8127"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/enum/ReportFilenameRefusal.Enum.al",
+        "status": "added",
+        "key": "enum/8131",
+        "type": "enum",
+        "id": 8131,
+        "name": "Report Filename Refusal",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "enum/8131"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/enum/ReportFilenameRunScope.Enum.al",
+        "status": "added",
+        "key": "enum/8129",
+        "type": "enum",
+        "id": 8129,
+        "name": "Report Filename Run Scope",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "enum/8129"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/interface/ReportFilenamePlaceholder.Interface.al",
+        "status": "added",
+        "key": "interface/report filename placeholder",
+        "type": "interface",
+        "id": null,
+        "name": "Report Filename Placeholder",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "interface/report-filename-placeholder"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenameFieldLookup.Page.al",
+        "status": "added",
+        "key": "page/8131",
+        "type": "page",
+        "id": 8131,
+        "name": "Report Filename Field Lookup",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "page/8131"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenamePatternCard.Page.al",
+        "status": "added",
+        "key": "page/8126",
+        "type": "page",
+        "id": 8126,
+        "name": "Report Filename Pattern Card",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "page/8126"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenamePatterns.Page.al",
+        "status": "added",
+        "key": "page/8125",
+        "type": "page",
+        "id": 8125,
+        "name": "Report Filename Patterns",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "page/8125"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenamePlaceholders.Page.al",
+        "status": "added",
+        "key": "page/8128",
+        "type": "page",
+        "id": 8128,
+        "name": "Report Filename Placeholders",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "page/8128"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenamePreview.Page.al",
+        "status": "added",
+        "key": "page/8127",
+        "type": "page",
+        "id": 8127,
+        "name": "Report Filename Preview",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "page/8127"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenameRecordLookup.Page.al",
+        "status": "added",
+        "key": "page/8133",
+        "type": "page",
+        "id": 8133,
+        "name": "Report Filename Record Lookup",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "page/8133"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenameReportLookup.Page.al",
+        "status": "added",
+        "key": "page/8129",
+        "type": "page",
+        "id": 8129,
+        "name": "Report Filename Report Lookup",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "page/8129"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenameRoutes.Page.al",
+        "status": "added",
+        "key": "page/8135",
+        "type": "page",
+        "id": 8135,
+        "name": "Report Filename Routes",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "page/8135"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenameSetup.Page.al",
+        "status": "added",
+        "key": "page/8134",
+        "type": "page",
+        "id": 8134,
+        "name": "Report Filename Setup",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "page/8134"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenameTableLookup.Page.al",
+        "status": "added",
+        "key": "page/8130",
+        "type": "page",
+        "id": 8130,
+        "name": "Report Filename Table Lookup",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "page/8130"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/page/ReportFilenameTest.Page.al",
+        "status": "added",
+        "key": "page/8132",
+        "type": "page",
+        "id": 8132,
+        "name": "Report Filename Test",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "page/8132"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/pageextension/ReportFilenameFinRepOv.PageExt.al",
+        "status": "added",
+        "key": "pageextension/8127",
+        "type": "pageextension",
+        "id": 8127,
+        "name": "Report Filename Fin. Rep. Ov.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "pageextension/8127"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/pageextension/ReportFilenameInboxPart.PageExt.al",
+        "status": "added",
+        "key": "pageextension/8126",
+        "type": "pageextension",
+        "id": 8126,
+        "name": "Report Filename Inbox Part",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "pageextension/8126"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/pageextension/ReportFilenameReportInbox.PageExt.al",
+        "status": "added",
+        "key": "pageextension/8125",
+        "type": "pageextension",
+        "id": 8125,
+        "name": "Report Filename Report Inbox",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "pageextension/8125"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/permissionset/ReportFilenameMgr.PermissionSet.al",
+        "status": "added",
+        "key": "permissionset/8125",
+        "type": "permissionset",
+        "id": 8125,
+        "name": "Report Filename Mgr.",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "permissionset/8125"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/reportextension/ReportFilenameAccSchedule.ReportExt.al",
+        "status": "added",
+        "key": "reportextension/8125",
+        "type": "reportextension",
+        "id": 8125,
+        "name": "Report Filename Acc. Schedule",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "reportextension/8125"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/reportextension/ReportFilenameExpExcel.ReportExt.al",
+        "status": "added",
+        "key": "reportextension/8126",
+        "type": "reportextension",
+        "id": 8126,
+        "name": "Report Filename Exp. Excel",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "reportextension/8126"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/table/ReportFilenamePattern.Table.al",
+        "status": "added",
+        "key": "table/8125",
+        "type": "table",
+        "id": 8125,
+        "name": "Report Filename Pattern",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "table/8125"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/table/ReportFilenamePlhBuffer.Table.al",
+        "status": "added",
+        "key": "table/8128",
+        "type": "table",
+        "id": 8128,
+        "name": "Report Filename Plh. Buffer",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "table/8128"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/table/ReportFilenameRecordBuffer.Table.al",
+        "status": "added",
+        "key": "table/8129",
+        "type": "table",
+        "id": 8129,
+        "name": "Report Filename Record Buffer",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "table/8129"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/table/ReportFilenameRouteBuffer.Table.al",
+        "status": "added",
+        "key": "table/8131",
+        "type": "table",
+        "id": 8131,
+        "name": "Report Filename Route Buffer",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "table/8131"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/table/ReportFilenameSetup.Table.al",
+        "status": "added",
+        "key": "table/8130",
+        "type": "table",
+        "id": 8130,
+        "name": "Report Filename Setup",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "table/8130"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/table/ReportFilenameTableBuffer.Table.al",
+        "status": "added",
+        "key": "table/8127",
+        "type": "table",
+        "id": 8127,
+        "name": "Report Filename Table Buffer",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "table/8127"
+      },
+      {
+        "path": "src/Apps/W1/ReportFilenameManager/App/src/tableextension/ReportFilenameReportInbox.TableExt.al",
+        "status": "added",
+        "key": "tableextension/8125",
+        "type": "tableextension",
+        "id": 8125,
+        "name": "Report Filename Report Inbox",
+        "app": "ReportFilenameManager",
+        "cc": "w1",
+        "page": "tableextension/8125"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "ReportFilenameManager"
+  ]
+}

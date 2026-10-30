@@ -6,10 +6,35 @@
   "title": "Bugs/add corp card basics",
   "url": "https://github.com/microsoft/BCApps/pull/12147",
   "published_at": "2026-10-28T13:25:54Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-29T00:16:37.959Z"
+    },
+    "fetched": {
+      "at": "2026-10-30T00:22:40.782Z",
+      "change_class": "code",
+      "files": 128,
+      "al": 94,
+      "objects": 17,
+      "unjoined": 77
+    },
+    "extracted": {
+      "at": "2026-10-30T00:22:46.395Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.011511
+    },
+    "linked": {
+      "at": "2026-10-30T00:22:46.718Z",
+      "objects": 17,
+      "unjoined": 77,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-30T00:22:46.750Z",
+      "path": "content/changes/bcapps/12147.md"
     }
   },
   "input_hash": "87fefc100ab943d517261db19ad39e2b405ed40e:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bugs add corp card basics"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b9c13b4e82c29077bf9e4b3aeca66ddf384de3467aad625b166969b025ea8b95"
 }

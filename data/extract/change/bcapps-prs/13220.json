@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13220",
+  "number": 13220,
+  "title": "Fix average cost adjustment overflow on same-period transfers",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Same-period transfers no longer cause average cost adjustments to overflow when item quantities are zero or negative. The fix skips transfer recalculation when cumulative item ledger quantities are nonpositive, preserving transfer costs and normal forwarding.",
+  "key_points": [
+    "Prevents cost amplification from repeated transfer repricings when cumulative item quantity is zero or negative",
+    "Skips transfer average-cost recalculation in Item-wide average costing when pre-exclusion quantity is nonpositive",
+    "Reuses existing quantity summation through local parameters to avoid additional queries",
+    "Includes regression tests for negative-balance, zero-balance, and positive-balance transfer scenarios",
+    "Applied to W1, APAC, and RU layers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": "Prevent same-period transfers from repeatedly amplifying costs until average-cost adjustment overflows when the item's cumulative quantity is zero or negative.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004289,
+    "changes_in_call": 1
+  }
+}

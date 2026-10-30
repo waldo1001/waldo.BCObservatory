@@ -6,10 +6,35 @@
   "title": "[Backport 29.x] [Extensibility Request] [SCM] 2026-10-26",
   "url": "https://github.com/microsoft/BCApps/pull/13261",
   "published_at": "2026-10-28T08:55:26Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-29T00:16:37.959Z"
+    },
+    "fetched": {
+      "at": "2026-10-30T00:22:45.882Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-30T00:22:51.268Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003416
+    },
+    "linked": {
+      "at": "2026-10-30T00:22:51.551Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "7aa49e808916c060dbee97d9ff324a2cfda8d422"
+    },
+    "published": {
+      "at": "2026-10-30T00:22:51.559Z",
+      "path": "content/changes/bcapps/13261.md"
     }
   },
   "input_hash": "6c26a47b664dedcb53851221f772ddef13b6c6bf:c1",
@@ -32,5 +57,8 @@
     ],
     "community_contribution": false,
     "title_key": "backport 29 x extensibility request scm 2026 10 26"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8d3efd279ca0d55176739d7ccb9a7a05538103f90307537aab744b4bdc46efca"
 }

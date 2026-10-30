@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12147",
+  "number": 12147,
+  "title": "Bugs/add corp card basics",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Corporate card functionality is added to the Expense Agent, enabling import, matching, and settlement of corporate card transactions with various processing and management features.",
+  "key_points": [
+    "Implements corporate card transaction import and processing with data exchange providers",
+    "Adds merchant categorization and deduplication logic for transaction matching",
+    "Creates settlement and statement management capabilities with approval workflows",
+    "Extends bank account records and general journal lines with corporate card tracking fields",
+    "Provides dashboard and UI pages for monitoring cards, exceptions, and settlement statuses"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011511,
+    "changes_in_call": 1
+  }
+}

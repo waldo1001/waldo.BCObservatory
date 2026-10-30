@@ -1,0 +1,270 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2343,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2343",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-27T14:17:26Z",
+  "merge_commit_sha": "adb81ccf121dfbf1de8fe4ae2da7e7474528bed9",
+  "author": "spetersenms",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "RunTests action",
+  "body_hash": "6f054e4f653ca6162bedb1c3b2a3d1e46ae01b33ea5b4016717bf9ed58f83b4e",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/.Modules/AlToolHelper.psm1",
+      "status": "added",
+      "additions": 189,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/.Modules/ReadSettings.psm1",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/.Modules/settings.schema.json",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/AnalyzeTests/TestResultAnalyzer.ps1",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/RunPipeline/README.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/RunPipeline/RunPipeline.ps1",
+      "status": "modified",
+      "additions": 114,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/RunTests/AlToolTestRunner.psm1",
+      "status": "added",
+      "additions": 785,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/RunTests/README.md",
+      "status": "added",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/RunTests/RunTests.ps1",
+      "status": "added",
+      "additions": 104,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/RunTests/RunTests.psm1",
+      "status": "added",
+      "additions": 404,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Actions/RunTests/action.yaml",
+      "status": "added",
+      "additions": 35,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Scenarios/settings.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Templates/AppSource App/.github/workflows/_BuildALGoProject.yaml",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Templates/Per Tenant Extension/.github/workflows/_BuildALGoProject.yaml",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "Tests/AL-Go-Helper.Test.ps1",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "Tests/AlToolHelper.Test.ps1",
+      "status": "added",
+      "additions": 377,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/AlToolTestRunner.Test.ps1",
+      "status": "added",
+      "additions": 1380,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/AnalyzeTests.Test.ps1",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/ReadSettings.Test.ps1",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/RunPipeline.Action.Test.ps1",
+      "status": "modified",
+      "additions": 244,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/RunTests.Action.Test.ps1",
+      "status": "added",
+      "additions": 275,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "Tests/RunTests.Test.ps1",
+      "status": "added",
+      "additions": 1126,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "e2eTests/scenarios/SeparateTestAction/runtest.ps1",
+      "status": "added",
+      "additions": 203,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 24,
+    "additions": 5397,
+    "deletions": 3,
+    "al": 13
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/.Modules/AlToolHelper.psm1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/.Modules/ReadSettings.psm1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/.Modules/settings.schema.json",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/AnalyzeTests/TestResultAnalyzer.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/RunPipeline/README.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/RunPipeline/RunPipeline.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/RunTests/AlToolTestRunner.psm1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/RunTests/README.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/RunTests/RunTests.ps1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/RunTests/RunTests.psm1",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Actions/RunTests/action.yaml",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Templates/AppSource App/.github/workflows/_BuildALGoProject.yaml",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "Templates/Per Tenant Extension/.github/workflows/_BuildALGoProject.yaml",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -6,10 +6,35 @@
   "title": "Implement first-party app authentication for Microsoft Fabric Export",
   "url": "https://github.com/microsoft/BCApps/pull/12557",
   "published_at": "2026-10-28T10:19:01Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-29T00:16:37.959Z"
+    },
+    "fetched": {
+      "at": "2026-10-30T00:22:42.413Z",
+      "change_class": "code",
+      "files": 14,
+      "al": 10,
+      "objects": 9,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-30T00:22:48.131Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004226
+    },
+    "linked": {
+      "at": "2026-10-30T00:22:48.394Z",
+      "objects": 9,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-30T00:22:48.401Z",
+      "path": "content/changes/bcapps/12557.md"
     }
   },
   "input_hash": "90a3a39be4a51c82ca01ab262607af0ac559ecfe:c1",
@@ -32,5 +57,8 @@
     ],
     "community_contribution": true,
     "title_key": "implement first party app authentication for microsoft fabric export"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3d938d7ef1d51a891748fec62488586fd9793b13301afe87a3b1c7a5e75c0e9f"
 }

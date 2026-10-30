@@ -6,10 +6,35 @@
   "title": "Fix average cost adjustment overflow on same-period transfers",
   "url": "https://github.com/microsoft/BCApps/pull/13220",
   "published_at": "2026-10-28T09:54:08Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-29T00:16:37.959Z"
+    },
+    "fetched": {
+      "at": "2026-10-30T00:22:42.380Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-30T00:22:47.423Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004289
+    },
+    "linked": {
+      "at": "2026-10-30T00:22:47.693Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-30T00:22:47.700Z",
+      "path": "content/changes/bcapps/13220.md"
     }
   },
   "input_hash": "6eb637bcd5e5ab9d157460bbfd9a11914ab30273:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix average cost adjustment overflow on same period transfers"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f0f4e870ad2d1a5f08c0f2879ba2718c0bb0545ca73af7c85c7a6c224202528b"
 }

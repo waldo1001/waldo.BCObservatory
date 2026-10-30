@@ -6,14 +6,22 @@
   "title": "[Report Filename Manager] New app for configurable report output file names - Slice 651696 [vendor work]",
   "url": "https://github.com/microsoft/BCApps/pull/12610",
   "published_at": "2026-10-27T14:24:42Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-28T00:16:46.912Z"
+    },
+    "fetched": {
+      "at": "2026-10-30T00:22:48.822Z",
+      "change_class": "code",
+      "files": 127,
+      "al": 49,
+      "objects": 49,
+      "unjoined": 0
     }
   },
   "input_hash": "7af239e3a8b9b4946c287cf964cf44d86a8ac4ae:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12610,
@@ -32,6 +40,7 @@
     "community_contribution": false,
     "title_key": "report filename manager new app for configurable report output file names slice 651696 vendor work"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-28T10:49:53.099Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "808ccabb7d6363e9672ddf7f63af0a9d7846e51cf7c055fc557784d96204eb11"
 }

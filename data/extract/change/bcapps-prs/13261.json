@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/13261",
+  "number": 13261,
+  "title": "[Backport 29.x] [Extensibility Request] [SCM] 2026-10-26",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory",
+    "manufacturing"
+  ],
+  "summary": "Quality Management and Subcontracting code is backported to BC 29 with extensibility improvements that make codeunits and table extensions more customizable for external developers.",
+  "key_points": [
+    "Backports extensibility requests from main branch to BC 29 release",
+    "Enhances Quality Management condition handling and filter helpers for external extension",
+    "Improves Subcontracting requisition line extension points",
+    "Targets three related extensibility issues across quality and purchasing domains",
+    "Changes appear to add or adjust public members for easier customization"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003416,
+    "changes_in_call": 1
+  }
+}

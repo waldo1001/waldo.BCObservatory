@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12557",
+  "number": 12557,
+  "title": "Implement first-party app authentication for Microsoft Fabric Export",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Microsoft Fabric Export now uses first-party app authentication instead of user-based credentials, improving security and removing the need for user intervention in credential setup.",
+  "key_points": [
+    "Replaces user-based credential management with first-party app authentication",
+    "Adds environment cleanup subscription to handle credential removal",
+    "Updates setup wizard and admin pages to work with the new authentication model",
+    "Expands test coverage for platform credential and authentication scenarios",
+    "Maintains backward compatibility while improving security posture"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004226,
+    "changes_in_call": 1
+  }
+}
