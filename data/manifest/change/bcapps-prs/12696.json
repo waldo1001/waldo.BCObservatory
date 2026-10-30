@@ -6,10 +6,35 @@
   "title": "Fix Norwegian SAF-T 1.30 debit and credit totals",
   "url": "https://github.com/microsoft/BCApps/pull/12696",
   "published_at": "2026-10-28T15:49:11Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-29T00:16:37.959Z"
+    },
+    "fetched": {
+      "at": "2026-10-30T00:21:32.252Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-30T00:21:52.715Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004024
+    },
+    "linked": {
+      "at": "2026-10-30T00:21:52.982Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-30T00:21:52.990Z",
+      "path": "content/changes/bcapps/12696.md"
     }
   },
   "input_hash": "255dc83bf8127be56f279800e0b36e04e87dfccd:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix norwegian saf t 1 30 debit and credit totals"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "12a5c835ca8ca7474f6885435f59f945fcef7758a0785a5814ade01da7dcb9ce"
 }

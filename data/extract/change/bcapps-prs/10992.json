@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10992",
+  "number": 10992,
+  "title": "[Extensibility Request] issue 30420: add service post and send events",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "service"
+  ],
+  "summary": "Service-Post and Send codeunit now includes extension points that allow integrations to support additional service document types and coordinate posting and sending behavior through new events.",
+  "key_points": [
+    "Added pre-confirmation event to let extensions support additional document types",
+    "Added pre-post event to allow extensions to substitute posting logic",
+    "Extensions can now determine whether sending should proceed based on posting results",
+    "Eliminates need for copying the codeunit or using limited standard Service-Post routine",
+    "Enables safe coordination between posting and sending phases"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "service"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003425,
+    "changes_in_call": 1
+  }
+}

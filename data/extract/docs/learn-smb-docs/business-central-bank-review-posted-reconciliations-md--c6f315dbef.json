@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bank-review-posted-reconciliations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bank-review-posted-reconciliations",
+  "title": "Review and analyze posted bank reconciliations",
+  "blob": "3336914906218ec144a8143a11db5def486c4110",
+  "summary": "Review and analyze posted bank reconciliations to verify balances, investigate matched transactions, and support period-end reviews and audits using Bank Account Statement pages and reports.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "bank reconciliation",
+    "bank statements",
+    "posted reconciliations",
+    "balance verification",
+    "audit support",
+    "analysis mode"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Account Statement List"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Statement"
+    },
+    {
+      "type": "report",
+      "name": "Bank Account Statement"
+    },
+    {
+      "type": "page",
+      "name": "Bank Acc. Reconciliation"
+    },
+    {
+      "type": "page",
+      "name": "Bank Rec. Worksheet"
+    }
+  ],
+  "features": [
+    "review completed reconciliations",
+    "verify balances",
+    "investigate matched transactions",
+    "analysis mode",
+    "print or save reconciliations",
+    "filter and group statements",
+    "undo posted reconciliations"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004776,
+      "pages_in_call": 1
+    }
+  ]
+}

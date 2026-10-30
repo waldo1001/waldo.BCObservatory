@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12696",
+  "number": 12696,
+  "title": "Fix Norwegian SAF-T 1.30 debit and credit totals",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Norwegian SAF-T 1.30 export now correctly calculates debit and credit totals from actual G/L entry amounts instead of stored columns, ensuring totals match exported line amounts even with reversals or negative entries.",
+  "key_points": [
+    "Debit and credit totals in SAF-T 1.30 now calculated from G/L Amount using SQL aggregation instead of stored debit/credit columns",
+    "Fixes discrepancies when exports contain reversals or negative entries",
+    "Complete selection totals are repeated in every split file for consistency",
+    "SAF-T 1.20 behavior remains unchanged",
+    "Extensive test coverage added for reversals, negative entries, multiple journals, and split scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Calculate debit and credit totals from positive and negative G/L Amount using SQL aggregation and the exporter's journal filters.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004024,
+    "changes_in_call": 1
+  }
+}

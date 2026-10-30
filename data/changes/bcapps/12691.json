@@ -1,0 +1,173 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12691,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12691",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-29T09:52:14Z",
+  "merge_commit_sha": "82e25f5ca8ed8ed87baab7d0360021cccf60e7c4",
+  "author": "Explorer986",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Support customer registration number as e-document party identifier for DE",
+  "body_hash": "98abc98cbff8c079fca72f010d362ef718c5a26b75a3c9cb7c2c00ef18dc1bf4",
+  "fixes_issues": [],
+  "work_items": [
+    652557
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ExportZUGFeRDDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/PEPPOLBISXMLDocumentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/XRechnungXMLDocumentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/ZUGFeRDXMLDocumentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/PEPPOLDE/app/src/PEPPOL30DEPartyInfo.Codeunit.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/PEPPOLDE/app/src/PEPPOL30DESalesValidation.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocCustomerCard.PageExt.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocumentCustomer.TableExt.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 206,
+    "deletions": 11,
+    "al": 6
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13916",
+        "type": "codeunit",
+        "id": 13916,
+        "name": "Export XRechnung Document",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/13916-de"
+      },
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/ZUGFeRD/ExportZUGFeRDDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13917",
+        "type": "codeunit",
+        "id": 13917,
+        "name": "Export ZUGFeRD Document",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/13917-de"
+      },
+      {
+        "path": "src/Apps/DE/PEPPOLDE/app/src/PEPPOL30DEPartyInfo.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/37403",
+        "type": "codeunit",
+        "id": 37403,
+        "name": "PEPPOL30 DE Party Info",
+        "app": "PEPPOLDE",
+        "cc": "de",
+        "page": "codeunit/37403-de"
+      },
+      {
+        "path": "src/Apps/DE/PEPPOLDE/app/src/PEPPOL30DESalesValidation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/37400",
+        "type": "codeunit",
+        "id": 37400,
+        "name": "PEPPOL30 DE Sales Validation",
+        "app": "PEPPOLDE",
+        "cc": "de",
+        "page": "codeunit/37400-de"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocCustomerCard.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/6163",
+        "type": "pageextension",
+        "id": 6163,
+        "name": "E-Doc. Customer Card",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "pageextension/6163"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocumentCustomer.TableExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument",
+    "EDocumentDE",
+    "PEPPOLDE"
+  ]
+}

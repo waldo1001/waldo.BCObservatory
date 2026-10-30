@@ -6,10 +6,35 @@
   "title": "[Extensibility Request] issue 30420: add service post and send events",
   "url": "https://github.com/microsoft/BCApps/pull/10992",
   "published_at": "2026-10-28T13:25:54Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-29T00:16:37.959Z"
+    },
+    "fetched": {
+      "at": "2026-10-30T00:22:28.945Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-30T00:22:33.718Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003425
+    },
+    "linked": {
+      "at": "2026-10-30T00:22:33.935Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-30T00:22:39.751Z",
+      "path": "content/changes/bcapps/10992.md"
     }
   },
   "input_hash": "c1a5a855f67b1f5e15347c2b0be3f6e7585e4c88:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 30420 add service post and send events"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bb52fcb4029370d8e4f6ee57484e1cfcc77d823e2b6c4631112d887de4e4ef3d"
 }

@@ -1,0 +1,108 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12696,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12696",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-28T15:49:11Z",
+  "merge_commit_sha": "255dc83bf8127be56f279800e0b36e04e87dfccd",
+  "author": "AleksanderGladkov",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Fix Norwegian SAF-T 1.30 debit and credit totals",
+  "body_hash": "1ef93412218a642f459cdaa04996f599f8950a971d6351fb53a56b4743e1c4f5",
+  "fixes_issues": [],
+  "work_items": [
+    653928
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/app/src/Export Engine/GenerateSAFT13File.Codeunit.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/app/src/Export Engine/SAFTExportMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/app/src/Export Engine/SAFTGLEntryTotal.Query.al",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/test/src/SAFTXMLTests.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/test/src/SAFTXMLTests13.Codeunit.al",
+      "status": "modified",
+      "additions": 170,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 248,
+    "deletions": 8,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/NO/NorwegianSAFT/app/src/Export Engine/GenerateSAFT13File.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10692",
+        "type": "codeunit",
+        "id": 10692,
+        "name": "Generate SAF-T 1.3 File",
+        "app": "NorwegianSAFT",
+        "cc": "no",
+        "page": "codeunit/10692-no"
+      },
+      {
+        "path": "src/Apps/NO/NorwegianSAFT/app/src/Export Engine/SAFTExportMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10675",
+        "type": "codeunit",
+        "id": 10675,
+        "name": "SAF-T Export Mgt.",
+        "app": "NorwegianSAFT",
+        "cc": "no",
+        "page": "codeunit/10675-no"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/NO/NorwegianSAFT/app/src/Export Engine/SAFTGLEntryTotal.Query.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "NorwegianSAFT"
+  ]
+}

@@ -6,10 +6,35 @@
   "title": "Support customer registration number as e-document party identifier for DE",
   "url": "https://github.com/microsoft/BCApps/pull/12691",
   "published_at": "2026-10-29T09:52:14Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-30T00:17:01.742Z"
+    },
+    "fetched": {
+      "at": "2026-10-30T00:19:28.109Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 6,
+      "objects": 5,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-30T00:19:45.129Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004011
+    },
+    "linked": {
+      "at": "2026-10-30T00:19:45.423Z",
+      "objects": 5,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-30T00:19:45.432Z",
+      "path": "content/changes/bcapps/12691.md"
     }
   },
   "input_hash": "82e25f5ca8ed8ed87baab7d0360021cccf60e7c4:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "support customer registration number as e document party identifier for de"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "78242b0eec3bffb41115660879d2f9907873fd58bd519021738a2f94c40e3474"
 }

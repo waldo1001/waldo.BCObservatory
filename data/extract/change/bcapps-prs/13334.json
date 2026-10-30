@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13334",
+  "number": 13334,
+  "title": "[Main] Fix #656831: Use location state for ISD purchase credit memo posting",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Interstate ISD purchase credit memo posting now correctly uses the location's state instead of the vendor's state when retrieving GST posting setup and G/L accounts.",
+  "key_points": [
+    "Fixed GST posting setup lookup to filter by location state rather than vendor state",
+    "Updated detailed GST ledger G/L account lookup to use location state code",
+    "Resolves posting failures when vendor state differs from purchase line location state",
+    "Incremented use case version from 2 to 3 and updated GST configuration registry"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Updated both lookups to use Location.State Code, filtered by Purchase Line.Location Code.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003426,
+    "changes_in_call": 1
+  }
+}

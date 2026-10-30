@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13256",
+  "number": 13256,
+  "title": "[SOA] Expose Email 2 on Contact Card",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "The Sales Order Agent app now exposes an \"Email 2\" field on the Contact Card, allowing users to view and edit the alternate email address that the agent stores for senders.",
+  "key_points": [
+    "Adds a Contact Card page extension in the Sales Order Agent app",
+    "Makes the existing Contact \"E-Mail 2\" field editable for users",
+    "Allows users to inspect, correct, or clear the alternate email address",
+    "No changes to BaseApp, sender matching, or the primary email field",
+    "Purely a UI addition with no schema or permission changes"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003695,
+    "changes_in_call": 1
+  }
+}

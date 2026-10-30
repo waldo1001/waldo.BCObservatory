@@ -6,10 +6,35 @@
   "title": "[SOA] Copy manual task attachments to sales quotes",
   "url": "https://github.com/microsoft/BCApps/pull/12821",
   "published_at": "2026-10-28T16:58:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-29T00:16:37.959Z"
+    },
+    "fetched": {
+      "at": "2026-10-30T00:20:24.725Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 4,
+      "objects": 3,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-30T00:20:30.720Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004466
+    },
+    "linked": {
+      "at": "2026-10-30T00:20:31.018Z",
+      "objects": 3,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-30T00:20:31.023Z",
+      "path": "content/changes/bcapps/12821.md"
     }
   },
   "input_hash": "ae65a66c1b212454551b1f63f7aa2bafbdbe8408:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa copy manual task attachments to sales quotes"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b915c5bda2a5c797ad4b3fe7e15c6ba0397963cc7d5a9a0db7c203496ad56a6d"
 }

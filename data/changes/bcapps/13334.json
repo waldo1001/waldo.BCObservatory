@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13334,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13334",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-29T09:25:10Z",
+  "merge_commit_sha": "ec7a0d1364b7e14265075290b1dfc06267707a5f",
+  "author": "v-ajaztabrez",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main] Fix #656831: Use location state for ISD purchase credit memo posting",
+  "body_hash": "89019d401a2b7e4450d1ae71513c91dcb8763035165bb83adb6fabe58089aee3",
+  "fixes_issues": [],
+  "work_items": [
+    656831
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INGST/app/.resources/GSTUseCases/2a733d02-2125-4ea9-97e3-2068e5708a94.json",
+      "status": "modified",
+      "additions": 1458,
+      "deletions": 1482,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTBase/src/TaxEngineSetup/GSTTaxConfiguration.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 1459,
+    "deletions": 1483,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/IN/INGST/app/GSTBase/src/TaxEngineSetup/GSTTaxConfiguration.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/18017",
+        "type": "codeunit",
+        "id": 18017,
+        "name": "GST Tax Configuration",
+        "app": "INGST",
+        "cc": "in",
+        "page": "codeunit/18017-in"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "INGST"
+  ]
+}

@@ -6,10 +6,35 @@
   "title": "[Main] Incorrect Buyer/Seller Registration No. Written to Detailed GST Ledger Entry When Posting Purchase Invoice Without Order Address",
   "url": "https://github.com/microsoft/BCApps/pull/13342",
   "published_at": "2026-10-29T09:23:01Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-30T00:17:01.742Z"
+    },
+    "fetched": {
+      "at": "2026-10-30T00:19:59.520Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-30T00:20:08.500Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00334
+    },
+    "linked": {
+      "at": "2026-10-30T00:20:08.715Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-30T00:20:08.721Z",
+      "path": "content/changes/bcapps/13342.md"
     }
   },
   "input_hash": "792135fef9fcb93f272c1cf6312549553a3b37fc:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "incorrect buyer seller registration no written to detailed gst ledger entry when posting purchase invoice without order address"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "677e39e57347715bddbd604d4013281af81098274481e339363b0127dbf98cec"
 }

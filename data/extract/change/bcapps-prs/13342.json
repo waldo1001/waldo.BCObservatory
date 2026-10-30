@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13342",
+  "number": 13342,
+  "title": "[Main] Incorrect Buyer/Seller Registration No. Written to Detailed GST Ledger Entry When Posting Purchase Invoice Without Order Address",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed incorrect registration numbers appearing in GST ledger entries when purchase invoices are posted without order addresses by resetting cached values between postings.",
+  "key_points": [
+    "Detailed GST Ledger Entries showed previous invoice's registration number when subsequent invoice had no Order Address",
+    "Root cause was single-instance codeunit retaining values between postings in the same session",
+    "Solution resets cached Pay-to Vendor No., Buyer/Seller Registration No., and State Code before each document posting",
+    "Affects Indian GST purchase posting workflow"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "quote": "Reset cached Pay-to Vendor No., Buyer/Seller Registration No., and State Code before initializing each purchase document's posting values.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00334,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,18 @@
   "title": "[Backport 29.x] #11046: [Extensibility Request] issue 10889: expose large text modal helper",
   "url": "https://github.com/microsoft/BCApps/pull/13111",
   "published_at": "2026-10-28T12:58:44Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-29T00:16:37.959Z"
+    },
+    "fetched": {
+      "at": "2026-10-30T00:22:39.758Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "006edbc5619db7b8d765b6bc88280d96c6dd8e22:c1",
@@ -32,5 +40,8 @@
     ],
     "community_contribution": false,
     "title_key": "backport 29 x 11046 extensibility request issue 10889 expose large text modal helper"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1a7b6f2bd52f5c5380696ca575397720110fedbd63b7b1866aae849e2475c97a"
 }

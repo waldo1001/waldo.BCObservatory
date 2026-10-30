@@ -6,10 +6,35 @@
   "title": "[Main] Fix #656831: Use location state for ISD purchase credit memo posting",
   "url": "https://github.com/microsoft/BCApps/pull/13334",
   "published_at": "2026-10-29T09:25:10Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-30T00:17:01.742Z"
+    },
+    "fetched": {
+      "at": "2026-10-30T00:19:59.769Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-30T00:20:08.263Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003426
+    },
+    "linked": {
+      "at": "2026-10-30T00:20:08.484Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-30T00:20:08.490Z",
+      "path": "content/changes/bcapps/13334.md"
     }
   },
   "input_hash": "ec7a0d1364b7e14265075290b1dfc06267707a5f:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix 656831 use location state for isd purchase credit memo posting"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ebd5c1d48f930a39289449a5c9cc16f4ce2f005a10f77b2817d945d39d974b62"
 }

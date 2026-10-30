@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12821",
+  "number": 12821,
+  "title": "[SOA] Copy manual task attachments to sales quotes",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Sales Order Agent now copies manual task attachments to sales quotes by tracking transfers in a new internal table instead of relying on email rows.",
+  "key_points": [
+    "Adds internal table 4590 SOA Attachment Transfer to track which attachments have been copied from task messages to quotes",
+    "Copies attachments from task input messages (mailbox, manual, Try it out) not just from email rows",
+    "Prevents duplicate attachments by checking transfers and verifying destination attachments still exist",
+    "Excludes output messages and ignored attachments from copying",
+    "Uses SaveAttachmentFromStream with LockTable to ensure thread-safe, transactional copying"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004466,
+    "changes_in_call": 1
+  }
+}

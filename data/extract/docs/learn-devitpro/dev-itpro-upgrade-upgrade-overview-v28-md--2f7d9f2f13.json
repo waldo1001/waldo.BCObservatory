@@ -2,24 +2,27 @@
   "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-overview-v28.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v28",
   "title": "Upgrading to Dynamics 365 Business Central 2026 release wave 1",
-  "blob": "fdb60534a86010220ad4b0ab4948e6742fc39e69",
-  "summary": "Upgrading to Business Central version 28 (2026 release wave 1) requires following specific upgrade paths from earlier versions, with deprecated features reviewed before upgrade.",
+  "blob": "a7b9979dd70dc98df702760e31de6e72496c10d2",
+  "summary": "Upgrade paths and procedures for moving to Dynamics 365 Business Central version 28 (2026 release wave 1), including intermediate version requirements and refactoring guidance for customizations.",
   "systems": [
-    "administration",
     "development",
-    "platform"
+    "administration"
   ],
   "topics": [
     "upgrade",
     "version 28",
-    "compatibility",
-    "deprecated features"
+    "2026 release wave 1",
+    "upgrade paths",
+    "extensions",
+    "customizations"
   ],
   "objects": [],
   "features": [
-    "upgrade paths",
-    "intermediate versions",
-    "system application"
+    "upgrade compatibility matrix",
+    "deprecated features review",
+    "system application refactoring",
+    "online migration",
+    "intermediate version upgrades"
   ],
   "versions": [
     "2026 release wave 1",
@@ -33,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003061,
-      "pages_in_call": 8
+      "cost_usd": 0.003362,
+      "pages_in_call": 1
     }
   ]
 }
