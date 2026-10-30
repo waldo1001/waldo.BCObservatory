@@ -40,3 +40,24 @@ test("D110 test 12: the connection string is baked in only when AI_CONNECTION_ST
   assert.match(baked, /https:\/\/example\.test\//);
   for (const js of [plain, baked]) assert.doesNotMatch(js, /applicationinsights/);
 });
+
+test("D105: the second output is the Desktop extension's server, with the MCP SDK and zod inlined, and the manifest matches", () => {
+  const dir = mkdtempSync(join(tmpdir(), "bcobs-mcp-build-mcpb-"));
+  const out = join(dir, "server.js"), mcpb = join(dir, "mcpb", "server", "server.js");
+  execFileSync(process.execPath, ["--import", "tsx", join(ROOT, "packages/mcp/build.ts"), out, mcpb], { cwd: join(ROOT, "packages/mcp"), stdio: "pipe" });
+  const js = readFileSync(mcpb, "utf8");
+  assert.ok(js.startsWith("#!/usr/bin/env node\n"));
+  // import statements only: the SDK's own JSDoc quotes an import line
+  const imports = js.split("\n").filter((l) => /^import\b/.test(l));
+  assert.ok(imports.length > 0 && imports.every((l) => /from "node:[a-z_/]+";$/.test(l)), `only node: builtins stay imports: ${imports.filter((l) => !/"node:/.test(l)).join(" | ")}`);
+  assert.doesNotMatch(js, /\bimport\(["'](?!node:)/, "no dynamic import of a package");
+  assert.match(js, /function parseQuery\(/);
+  assert.match(readFileSync(out, "utf8"), /from "zod"/, "the npm bundle still imports its dependencies");
+  const manifest = JSON.parse(readFileSync(join(ROOT, "packages/mcp/mcpb/manifest.json"), "utf8"));
+  const pkg = JSON.parse(readFileSync(join(ROOT, "packages/mcp/package.json"), "utf8"));
+  assert.equal(manifest.version, pkg.version, "manifest.json and package.json agree");
+  assert.equal(manifest.name, "bc-observatory");
+  assert.equal(manifest.server.entry_point, "server/server.js");
+  assert.match(manifest.server.mcp_config.args[0], /server\/server\.js$/);
+  assert.match(readFileSync(join(ROOT, "packages/mcp/.gitignore"), "utf8"), /^mcpb-out\/$/m, "the build output is ignored, next to dist/");
+});

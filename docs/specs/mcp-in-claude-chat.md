@@ -1,14 +1,14 @@
 ---
 issue: 24
-status: draft
+status: implemented
 ---
 
 # The observatory in Claude Desktop without Node, and skills that say when the server is missing
 
-Status: proposed 2026-10-22, revised 2026-10-30 to phase 1 only. Decision: D105 (reserved, appended to
-`docs/DECISIONS.md` at ship time). Milestone: M43 (reserved). Owner: waldo. The owner's word on 2026-10-30: build the
+Status: implemented, 2026-10-30 (section 12 records what was built and where it differs). Decision: D105 (appended
+2026-10-30). Milestone: M43. Owner: waldo. The owner's word on 2026-10-30: build the
 desktop extension and the skills' missing-server rule; the hosted server (the former phase 2) is parked in section 8
-with no trigger, the owner decides when. This spec stays `draft` until the owner approves it.
+with no trigger, the owner decides when. The owner asked for the build on 2026-10-30 ("Build it here").
 Scope: a Claude Desktop extension (`.mcpb`) of today's stdio server, built and attached to a GitHub release by the
 existing publish workflow; a download button for it on `/mcp` and in `INSTALL.md`; one rule in each of the four skills
 for the case where no `bc-observatory` tool is available; the version bumps. Every claim about the tree was verified
@@ -367,24 +367,89 @@ Changed:
 
 ## 11. Definition of Done
 
-- [ ] `tests/unit/mcp*.test.ts` and `tests/unit/specs-frontmatter.test.ts` pass; `npm run typecheck` passes.
-- [ ] `/mcp` and `/mcp.md` carry the download button/link (`MCPB_URL`) on the "Claude Desktop and chat" tab; `#install`
+- [x] `tests/unit/mcp*.test.ts` and `tests/unit/specs-frontmatter.test.ts` pass; `npm run typecheck` passes.
+- [x] `/mcp` and `/mcp.md` carry the download button/link (`MCPB_URL`) on the "Claude Desktop and chat" tab; `#install`
   resolves on the built site.
-- [ ] `INSTALL.md` part B leads with the extension and keeps the config file; the "What works where" row, the Node
+- [x] `INSTALL.md` part B leads with the extension and keeps the config file; the "What works where" row, the Node
   bullet, "Something went wrong" and "Remove it" are updated as in section 2.
-- [ ] The four skills carry the missing-server paragraph verbatim.
-- [ ] `packages/mcp/mcpb/manifest.json` validates; `build.ts` writes the fully bundled `mcpb-out/server/server.js`.
+- [x] The four skills carry the missing-server paragraph verbatim.
+- [x] `packages/mcp/mcpb/manifest.json` validates; `build.ts` writes the fully bundled `mcpb-out/server/server.js`.
 - [ ] `publish-mcp.yml` has the `mcpb` job; after the owner's dispatch, release `mcp-v0.14.0` exists with
   `bc-observatory.mcpb` attached, `MCPB_URL` downloads it, and it installs and answers in Claude Desktop on macOS
   (operator).
-- [ ] Versions: MCP 0.14.0 and plugin 0.10.0 in every place of section 4.
-- [ ] D105 appended to docs/DECISIONS.md; PLAN M43 marked shipped; HANDOFF entry moved from "Open specs" to "Where
+- [x] Versions: MCP 0.14.0 and plugin 0.10.0 in every place of section 4.
+- [x] D105 appended to docs/DECISIONS.md; PLAN M43 marked shipped; HANDOFF entry moved from "Open specs" to "Where
   things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
   implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
   status lines into docs/built/mcp-in-claude-chat.md; the PR's review moves them in (sdd-build section 4, sdd-review
   section 6).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-30)
+
+Built on branch `build/mcp-in-claude-chat` from `origin/main` at `d7ac045356`, in one commit (`feat:` below). A
+manual session, at the owner's word "Build it here".
+
+**What was built.** `MCPB_URL` and the Desktop tab's note and second button (`site/src/lib/mcp.ts`); `INSTALL.md`
+part B with the extension first and the config file kept, plus the table row, the Node bullet, a "Something went wrong"
+row, an update note and "Remove it"; the `README.md` and `plugin/README.md` rows; the missing-server paragraph in all
+four skills, verbatim; `packages/mcp/build.ts` second output; `packages/mcp/mcpb/manifest.json`; the `mcpb` job in
+`publish-mcp.yml`; versions MCP 0.15.0 and plugin 0.11.0; tests in `tests/unit/mcp.test.ts` (one D105 test) and
+`tests/unit/mcp-build.test.ts` (one D105 test).
+
+**Red, then green.** Before the change `tests/unit/mcp.test.ts` failed to load ("does not provide an export named
+'MCPB_URL'") and the new `mcp-build.test.ts` test failed (2 pass, 1 fail). After: `npm run typecheck` clean; `npm test`
+827 tests, 826 pass, 0 fail; `npm run lint:workflows` "6 workflows OK"; `claude plugin validate ./plugin` "✔ Validation
+passed"; `npx -y @anthropic-ai/mcpb validate packages/mcp/mcpb/manifest.json` passes.
+
+**Verified beyond the tests.**
+- The fully bundled server run with `node` over stdio: `initialize` reports `bc-observatory` 0.15.0, `tools/list`
+  answers, `bc_get_object {type:"table", idOrName:"18"}` returns Table 18 "Customer" from the live index.
+- Packed the way the job does: `bc-observatory.mcpb` holds `manifest.json` (839 B) and `server/server.js` (1,481,856 B),
+  2 files, 1.4 MB unpacked.
+- `npm pack --dry-run --workspace=bc-observatory`: 4 files (LICENSE, README.md, dist/server.js 123.7 kB, package.json);
+  `mcpb-out/` stays out.
+- Site build on Node 24.22.1 with an 8 GB heap: 30,205 pages; `/mcp/index.html` has `id="install"` and the button
+  "Download the Desktop extension (.mcpb)" on `MCPB_URL`; `/mcp.md` has the link.
+- `git diff --stat origin/main -- content data`: empty.
+
+| | Spec | Built |
+|---|---|---|
+| MCP version | 0.14.0 | 0.15.0 |
+| Plugin version | 0.10.0 | 0.11.0 |
+| Extension size | "a few MB" | 1.4 MB unpacked |
+| `manifest_version` | what `mcpb init` writes | 0.2 (`@anthropic-ai/mcpb` 2.1.2) |
+
+**Deviations.**
+- **Versions.** D127 shipped MCP 0.14.0 and plugin 0.10.0 (`cf4db8e2fa`) between this spec's verification at
+  `389e1fcd56` and its push, and 0.14.0 is on npm. The build takes the next ones, 0.15.0 and 0.11.0, in the same places
+  section 4 lists (and the manifest). The fixture versions in `tests/unit/mcp-telemetry.test.ts` are inputs, not the
+  package version, and stay.
+- **`.gitignore`.** `mcpb-out/` went into `packages/mcp/.gitignore`, next to its `dist/`, not into the root
+  `.gitignore`; the test reads that file.
+- **README row.** The column the spec edits is "Needs Node", so "Desktop only (one download, no Node)" would read as
+  "needs Node". Built: install column adds "Claude Desktop: one download, the extension", Needs Node "no (the Desktop
+  extension brings its own; only the config-file way needs it)", You get "skills and connectors; the observatory's
+  search in Desktop only".
+- **The inlining test.** "No `from \"@modelcontextprotocol`" matched a JSDoc example inside the SDK
+  (`import { AjvJsonSchemaValidator } from '@modelcontextprotocol/sdk/validation/ajv'`), not an import. The test checks
+  that every top-level `import` line imports a `node:` builtin and that no `import("<package>")` remains.
+- **INSTALL.md.** The two ways are bold labels inside part B, not headings, and the extension's last step says "skip
+  to **Check that it works** below" as text: the anchor test (`mcp.test.ts`, the INSTALL.md test) does not know
+  GitHub's `-1` suffix for the guide's second "Check that it works". Added beyond the spec: an update note (the
+  extension stays at its version until the file is installed again; the config file fetches the newest at start).
+- **Manifest.** Adds `repository` (optional, valid). No `icon`, as section 4 says.
+- **Workflow version check** is shell (`node -p` twice and a compare), not the spec's `node -e`; same effect.
+
+**Not done here (operator steps).**
+- Publish: `gh workflow run publish-mcp.yml --ref main` (D40). It publishes `bc-observatory@0.15.0` and creates
+  release `mcp-v0.15.0` with the extension. Until then `MCPB_URL` answers 404 and the button on `/mcp` leads nowhere.
+- Desktop check on macOS (Definition of Done, the release item, still open): download `MCPB_URL`, double-click,
+  Install, ask "What is table 18 in Business Central? Use BC Observatory." (Customer), uninstall under Settings >
+  Extensions.
+- claude.ai check: **Customize > Plugins > Check for updates** shows 0.11.0; a chat asking for table 18 says the
+  observatory is missing and links the install page.
+
+## 13. Proposed edits to other files (applied 2026-10-30, see section 12)
 
 **`docs/DECISIONS.md`:** the D105 text of section 3, with the release tag and any manifest deviation.
 

@@ -44,3 +44,48 @@ jobs:
             exit 0
           fi
           npm publish --workspace=bc-observatory --access public
+
+  # D105: the Claude Desktop extension. Packs the fully bundled server (build.ts's second output) with
+  # packages/mcp/mcpb/manifest.json and attaches bc-observatory.mcpb to release mcp-v<version>, which
+  # releases/latest/download/bc-observatory.mcpb (MCPB_URL in site/src/lib/mcp.ts) serves. Runs after publish, also
+  # when that version was already on npm, so a re-run re-attaches the file. Only this job may write: the npm publish
+  # never runs with a write token.
+  mcpb:
+    needs: publish
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      LLM_CACHE_ONLY: "1"
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 22
+          check-latest: true
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: npm run build --workspace=bc-observatory
+        env:
+          AI_CONNECTION_STRING: ${{ secrets.AI_CONNECTION_STRING }}
+      - name: Pack the extension and attach it to release mcp-v<version>
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          version=$(node -p "require('./packages/mcp/package.json').version")
+          manifest=$(node -p "require('./packages/mcp/mcpb/manifest.json').version")
+          if [ "$manifest" != "$version" ]; then
+            echo "packages/mcp/mcpb/manifest.json says $manifest, package.json says $version"
+            exit 1
+          fi
+          rm -rf pack && mkdir -p pack/server
+          cp packages/mcp/mcpb/manifest.json pack/
+          cp packages/mcp/mcpb-out/server/server.js pack/server/
+          npx -y @anthropic-ai/mcpb validate pack/manifest.json
+          npx -y @anthropic-ai/mcpb pack pack bc-observatory.mcpb
+          if gh release view "mcp-v$version" >/dev/null 2>&1; then
+            gh release upload "mcp-v$version" bc-observatory.mcpb --clobber
+          else
+            gh release create "mcp-v$version" bc-observatory.mcpb --title "bc-observatory $version" \
+              --notes "MCP server bc-observatory $version. bc-observatory.mcpb is the Claude Desktop extension: download and double-click. Install guide: https://github.com/waldo1001/waldo.BCObservatory/blob/main/INSTALL.md#claude-desktop"
+          fi

@@ -19,7 +19,7 @@ and you need no extra account and no key.
 | | The observatory's own search | The four skills | AL source code (bc-code-atlas) | Microsoft Learn |
 |---|---|---|---|---|
 | Claude Code, Copilot CLI | yes | yes | yes | yes |
-| Claude Desktop | yes, with step B of its guide | yes | yes | yes |
+| Claude Desktop | yes, with step B of its guide (one download) | yes | yes | yes |
 | Claude in the browser and on your phone | **not yet** | yes | yes | yes |
 
 The observatory's search runs on your own computer, and the browser and phone versions of Claude cannot start
@@ -122,7 +122,8 @@ You can do B without A.
 
 - **The app:** Claude Desktop on a Mac or on Windows, signed in. If it is not the newest version, update it first:
   open the **Claude** menu and choose **Check for Updates…**.
-- **Node.js 22 or newer (the current LTS is fine):** part B needs it: the observatory's own search runs on it. To check:
+- **Node.js 22 or newer (the current LTS is fine):** only for the config-file way of part B; the extension does not
+  need it (Claude Desktop brings its own). To check:
   - Open a terminal (Mac: **Terminal**; Windows: **Command Prompt**), type `node --version` and press Enter.
   - A version of 22 or higher (for example `v22.23.4`): you have it.
   - "command not found", "not recognized", or a lower version: install it.
@@ -140,6 +141,27 @@ Follow [steps 1 to 7 for the browser](#steps). You can do them in the browser or
 same account.
 
 ### B. The observatory's own search
+
+Two ways. Use one of the two, not both: two entries give Claude Desktop two bc-observatory servers.
+
+**The extension (no Node, Mac and Windows)**
+
+1. Download the extension: [bc-observatory.mcpb](https://github.com/waldo1001/waldo.BCObservatory/releases/latest/download/bc-observatory.mcpb).
+
+   You should see: a file called `bc-observatory.mcpb` in your Downloads folder.
+
+2. Double-click the file. Or drag it into the Claude Desktop window, or open **Settings > Extensions > Advanced
+   settings > Install Extension** and pick the file.
+
+   You should see: a dialog from Claude Desktop that shows **BC Observatory**.
+
+3. Select **Install**.
+
+   You should see: **BC Observatory** under **Settings > Extensions**, switched on.
+
+Then skip to **Check that it works** below.
+
+**The config file (if you prefer it, or on Linux)**
 
 1. In Claude Desktop, open the **Claude** menu (on a Mac, in the menu bar at the top of the screen; on Windows, the
    menu in the Claude window) and choose **Settings…**.
@@ -207,6 +229,7 @@ What is table 18 in Business Central? Use BC Observatory.
 
 | What you see | What to do |
 |---|---|
+| Claude Desktop says the extension cannot be installed | Update Claude Desktop (**Claude** menu > **Check for Updates…**), then try again. Extensions need a recent version. |
 | **bc-observatory** is not in the **Connectors** list | Quit Claude Desktop completely (step 5) and start it again. If it is still missing, the file has a typo: open it again (steps 1 and 2) and compare it character by character with step 3. A missing comma or quote is the usual cause. |
 | **bc-observatory** is listed but shows an error | Check Node.js: `node --version` must show 22 or higher (see "Before you start"). Install it if needed, then quit and restart Claude Desktop. |
 | It still fails on Windows | Replace the two lines `"command": "npx",` and `"args": ["-y", "bc-observatory@latest"]` with `"command": "cmd",` and `"args": ["/c", "npx", "-y", "bc-observatory@latest"]`. Save, then quit and restart Claude Desktop. |
@@ -214,11 +237,14 @@ What is table 18 in Business Central? Use BC Observatory.
 | Claude answers but does not use BC Observatory | In the chat, select **+**, then **Connectors**, and check that **bc-observatory** is on. Ask again. |
 | You want to see what went wrong | The log is in `~/Library/Logs/Claude/mcp-server-bc-observatory.log` on a Mac, and in `%APPDATA%\Claude\logs\mcp-server-bc-observatory.log` on Windows. |
 
-Updates come by themselves: every time Claude Desktop starts, it fetches the newest BC Observatory.
+Updates: with the config file they come by themselves, because every time Claude Desktop starts it fetches the newest
+BC Observatory. The extension stays at the version you installed: download the file again and install it over the old
+one.
 
 ### Remove it
 
-1. For part B: open the file again (steps 1 and 2), delete the `bc-observatory` lines you added, save, and quit and
+1. For part B, the extension: **Settings > Extensions** > **BC Observatory** > **Uninstall**.
+   The config file: open the file again (steps 1 and 2), delete the `bc-observatory` lines you added, save, and quit and
    restart Claude Desktop.
 2. For part A: see [Remove it](#remove-it) under the browser guide.
 

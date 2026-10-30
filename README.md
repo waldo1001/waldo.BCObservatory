@@ -26,7 +26,7 @@ then restart the app you install into.
 | GitHub Copilot CLI | `copilot plugin install waldo1001/waldo.BCObservatory:plugin` | yes | the plugin: 3 servers, 4 skills |
 | VS Code (Copilot Chat) | one click on [the MCP page](https://waldo1001.github.io/waldo.BCObservatory/mcp/#install-vscode), or the `mcp.json` there | yes | the 3 servers |
 | Cursor, Windsurf, other MCP clients | [the MCP page](https://waldo1001.github.io/waldo.BCObservatory/mcp/#install-cursor) (one click for Cursor) | yes | the 3 servers |
-| Claude Desktop, claude.ai, phone | step by step for non-developers: [`INSTALL.md`](INSTALL.md) | Desktop only | skills and connectors |
+| Claude Desktop, claude.ai, phone | step by step for non-developers: [`INSTALL.md`](INSTALL.md); Claude Desktop: one download, the extension | no (the Desktop extension brings its own; only the config-file way needs it) | skills and connectors; the observatory's search in Desktop only |
 | Nothing to install | [`llms.txt`](https://waldo1001.github.io/waldo.BCObservatory/llms.txt), GitMCP and DeepWiki (badges above) | no | read-only |
 
 Then ask: *What is table 18 in Business Central? Use BC Observatory.* It should answer **Customer**. When it does not,

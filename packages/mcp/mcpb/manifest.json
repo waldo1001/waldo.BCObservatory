@@ -1,0 +1,33 @@
+{
+  "manifest_version": "0.2",
+  "name": "bc-observatory",
+  "display_name": "BC Observatory",
+  "version": "0.15.0",
+  "description": "Business Central facts with evidence for Claude: AL objects, localizations, Learn, roadmap, videos, posts.",
+  "author": {
+    "name": "waldo (Eric Wauters)",
+    "url": "https://github.com/waldo1001"
+  },
+  "homepage": "https://waldo1001.github.io/waldo.BCObservatory/mcp/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waldo1001/waldo.BCObservatory"
+  },
+  "license": "MIT",
+  "server": {
+    "type": "node",
+    "entry_point": "server/server.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/server/server.js"
+      ]
+    }
+  },
+  "compatibility": {
+    "platforms": ["darwin", "win32"],
+    "runtimes": {
+      "node": ">=22"
+    }
+  }
+}

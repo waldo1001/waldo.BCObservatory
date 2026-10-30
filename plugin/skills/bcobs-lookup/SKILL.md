@@ -5,6 +5,8 @@ description: Use FIRST for any Microsoft Dynamics 365 Business Central (BC) ques
 
 # Business Central lookup
 
+If no `bc-observatory` tool (`bc_search`, `bc_cat`, `bc_get_object`, ...) is available, even after ToolSearch, say so before answering, and give the install steps for the user's app from https://waldo1001.github.io/waldo.BCObservatory/mcp/#install (Claude in the browser or on your phone: the observatory's search is not available there yet; Claude Desktop: the extension; Claude Code: the plugin). Do not invent object ids, field numbers or versions while the server is missing.
+
 Use the `bc-observatory` MCP tools; never answer object ids, field numbers or versions from memory. If the `bc_*` tools are deferred, load them with ToolSearch first.
 
 For a web client link (`…?company=…&page=22&filter=…`): `bc_search("Web client URL", type: "learn", mode: "keyword")` finds Microsoft's article; read its url with `microsoft_docs_fetch`. Confirm each page id with `bc_search("page 22", kind: "page")`, not `bc_get_object`.

@@ -23,11 +23,6 @@ one in either mode.
 - **Learn by meaning in brief, D107** (`docs/specs/learn-meaning-brief.md`, M45, issue #34). Status: built 2026-10-23 on
   `build/layered-answers-p7`, stacked on #33; unreachable Learn URLs of the never-less check 11 -> 8 of 16. Shipped in MCP
   0.10.0 (D108). The rest is an owner decision (spec section 8).
-- **Observatory in Claude Desktop without Node, D105** (`docs/specs/mcp-in-claude-chat.md`, M43, issue #24). Status:
-  proposed 2026-10-22, revised 2026-10-30 to one phase (the .mcpb extension and the skills' missing-server rule);
-  nothing implemented. The hosted server is parked in the spec's section 8, no trigger. Start with task 1 (the tests).
-  Until it lands, Claude Desktop users install Node and edit claude_desktop_config.json by hand (INSTALL.md part B), and
-  a skill with no bc-observatory tool answers from memory without saying how to get the server.
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
@@ -35,6 +30,18 @@ edges and 1,350 unresolved, because a manual control run shared the BC30 checkou
 questions in its section 12).
 
 ## Where things stand
+
+**Built 2026-10-30 (MCP 0.15.0, plugin 0.11.0; needs its publish):**
+- **The observatory in Claude Desktop without Node (D105, M43, issue #24).** A Claude Desktop extension
+  `bc-observatory.mcpb` (the server with every dependency inlined, `packages/mcp/mcpb-out/`, packed with
+  `packages/mcp/mcpb/manifest.json`) is built and attached to release `mcp-v<version>` by a new `mcpb` job in
+  `publish-mcp.yml`; `/mcp` (the "Claude Desktop and chat" tab) and `INSTALL.md` part B lead with the download, the
+  config file stays for Linux and those who prefer it. The four skills say when no `bc-observatory` tool is available
+  and link `/mcp/#install`. The download link answers 404 until the first release exists. Operator steps: publish with
+  `gh workflow run publish-mcp.yml --ref main` (D40), which also creates release `mcp-v0.15.0`; then download the
+  `.mcpb` from the MCP page on macOS, double-click, Install, ask "What is table 18 in Business Central? Use BC
+  Observatory." (answer: Customer), and uninstall it under Settings > Extensions. The hosted server stays parked
+  (spec section 8).
 
 **Built 2026-10-30 (MCP 0.14.0, plugin 0.10.0; needs its publish):**
 - **MCP resource counts (D127, M62, issue #60).** The MCP sends one unlinked `Obs.Resource` event per page an answer

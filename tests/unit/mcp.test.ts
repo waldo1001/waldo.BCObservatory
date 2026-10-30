@@ -8,7 +8,7 @@ import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js"
 import { writeJson, writeText } from "../../pipeline/lib/fsx.js";
 import { ROOT } from "../../pipeline/lib/paths.js";
 import { renderSearchIndex } from "../../pipeline/render/search.js";
-import { ASKS, ATLAS_URL, CHECK_ASK, COPILOT_PLUGIN_CMD, LEARN_URL, NODE_REQUIREMENT, PLUGIN_CMD, PLUGIN_INSTALL_CMD, PLUGIN_SERVERS, SERVER_CMD, SKILLS, TOOLS, VSCODE_PLUGIN, installGuide, installSteps, installTabs, mcpMarkdown, nodeMajor } from "../../site/src/lib/mcp.js";
+import { ASKS, ATLAS_URL, CHECK_ASK, COPILOT_PLUGIN_CMD, LEARN_URL, MCPB_URL, NODE_REQUIREMENT, PLUGIN_CMD, PLUGIN_INSTALL_CMD, PLUGIN_SERVERS, SERVER_CMD, SKILLS, TOOLS, VSCODE_PLUGIN, installGuide, installSteps, installTabs, mcpMarkdown, nodeMajor } from "../../site/src/lib/mcp.js";
 import { toyModel } from "../helpers/toy-model.js";
 
 const root = new URL("../../", import.meta.url);
@@ -741,6 +741,26 @@ test("D124 test 7: the twin has one heading per tab, every tab's code, the Node 
     for (const b of t.buttons) assert.ok(md.includes(b.href), `${t.id}: ${b.label}`);
   }
   assert.ok(md.includes(NODE_REQUIREMENT) && md.includes(CHECK_ASK));
+});
+
+// D105: the Claude Desktop extension (.mcpb) and the skills' missing-server rule
+test("D105: the Desktop tab and INSTALL.md offer the extension, the skills say how to install, publish-mcp releases it", () => {
+  assert.ok(MCPB_URL.endsWith("/releases/latest/download/bc-observatory.mcpb"), MCPB_URL);
+  const desktop = installTabs("https://github.com/o/r", { vscodePlugin: VSCODE_PLUGIN }).find((t) => t.id === "claude-desktop")!;
+  assert.ok(desktop.buttons.some((b) => b.href === MCPB_URL), "the Desktop tab has the download button");
+  assert.ok(mcpMarkdown({ server: "1", plugin: "1" }, "https://github.com/o/r", "https://example.test/").includes(MCPB_URL), "the twin links the extension");
+  const guide = read("INSTALL.md");
+  assert.ok(guide.includes(MCPB_URL) && guide.includes("Settings > Extensions"), "INSTALL.md part B gives the extension");
+  for (const d of readdirSync(new URL("plugin/skills/", root))) {
+    const skill = read(`plugin/skills/${d}/SKILL.md`);
+    assert.ok(skill.includes("waldo1001.github.io/waldo.BCObservatory/mcp/#install") && skill.includes("Do not invent object ids"), `${d} has the missing-server rule`);
+  }
+  assert.ok(read("plugin/README.md").includes(".mcpb"), "plugin/README.md names the extension");
+  const wf = read(".github/workflows/publish-mcp.yml");
+  const job = wf.slice(wf.indexOf("\n  mcpb:"));
+  assert.ok(wf.includes("\n  mcpb:") && /needs: publish/.test(job) && /contents: write/.test(job), "a mcpb job after publish, with contents: write on it");
+  assert.ok(job.includes("bc-observatory.mcpb") && job.includes("gh release"), "the job packs and releases the extension");
+  assert.match(wf.slice(0, wf.indexOf("\njobs:")), /contents: read/, "the workflow's own permissions stay read");
 });
 
 // D126: BCQuality rules in the MCP: their own layer after Code, a type filter, and bc_get_object lists the rules naming an object

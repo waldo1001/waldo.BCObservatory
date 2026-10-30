@@ -5,6 +5,8 @@ description: Ground Microsoft Dynamics 365 Business Central answers in the three
 
 # Grounding Business Central answers: observatory, atlas and Learn
 
+If no `bc-observatory` tool (`bc_search`, `bc_cat`, `bc_get_object`, ...) is available, even after ToolSearch, say so before answering, and give the install steps for the user's app from https://waldo1001.github.io/waldo.BCObservatory/mcp/#install (Claude in the browser or on your phone: the observatory's search is not available there yet; Claude Desktop: the extension; Claude Code: the plugin). Do not invent object ids, field numbers or versions while the server is missing.
+
 Three servers are connected. They answer different questions; use the right one first. For a question that wants the whole picture, `bc_brief(query)` on the observatory gives the layers (Learn with key facts, code, changes, warnings, gaps) in one call; then go to the server each line points at.
 
 | Question | Server |

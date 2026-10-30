@@ -1419,3 +1419,20 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   e-mails reach agents); paths on `Obs.ToolCall` (a pseudonymous reading profile); exact timestamps (joinable); a
   nightly usage feed (a read credential on the Mini); website counting (ePrivacy Art. 5(3), owner declined). Spec
   `docs/specs/mcp-resource-counts.md`, issue #60. MCP 0.14.0, plugin 0.10.0.
+- **D105 The observatory in Claude Desktop without Node, and skills that say when the server is missing (2026-10-30,
+  M43).** (a) A Claude Desktop extension `bc-observatory.mcpb`: a second esbuild output of `packages/mcp/build.ts` with
+  nothing external (`packages/mcp/mcpb-out/server/server.js`, 1.4 MB, outside `dist/` so the npm tarball stays four
+  files), packed with `packages/mcp/mcpb/manifest.json` (manifest_version 0.2, `mcpb` CLI 2.1.2, macOS and Windows,
+  Node >=22) by a `mcpb` job in `publish-mcp.yml` (D40) that runs after `publish`, holds the workflow's only
+  `contents: write`, checks the manifest version against `package.json`, validates, packs and creates or `--clobber`s
+  release `mcp-v<version>`. `MCPB_URL` is `releases/latest/download/bc-observatory.mcpb`; `/mcp` and `INSTALL.md` part B
+  lead with it, and the config file stays (Linux, and the snippet the test ties to `plugin/.mcp.json`). The bundle was
+  run over stdio: `initialize` reports 0.15.0 and `bc_get_object` table 18 answers Customer. Queries stay on the user's
+  machine, as with `npx`. (b) Each of the four skills says, when no `bc-observatory` tool is available even after
+  ToolSearch, that the server is missing, links `/mcp/#install`, and gives no ids from memory: on claude.ai chat cannot
+  install a plugin or a connector, and Claude suggests only directory-listed connectors. (c) A hosted Streamable HTTP
+  server with `plugin/.mcp.json` on its URL, and a directory listing, are parked, not decided (spec section 8): the
+  owner declined them for now on 2026-10-30, with few users yet. Rejected: a second server name for the extension (the
+  skills name `bc-observatory`), the `.mcpb` on npm or Pages (a release is what bundles are for, and the URL needs no
+  version), a separate workflow (one build keeps code, `VERSION` and D110's telemetry string equal), dropping the config
+  file. Spec `docs/specs/mcp-in-claude-chat.md`, issue #24. MCP 0.15.0, plugin 0.11.0.

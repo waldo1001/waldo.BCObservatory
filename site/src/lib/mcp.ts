@@ -26,6 +26,8 @@ export const PLUGIN_CMD = "claude plugin marketplace add waldo1001/waldo.BCObser
 export const PLUGIN_INSTALL_CMD = "claude plugin install bc-observatory@bc-observatory";
 /** The step-by-step guide per Claude app, for readers who are not developers (INSTALL.md at the repository root). */
 export const installGuide = (repo: string) => `${repo}/blob/main/INSTALL.md`;
+/** D105: the Claude Desktop extension, attached by publish-mcp.yml to the latest `mcp-v<version>` release. */
+export const MCPB_URL = "https://github.com/waldo1001/waldo.BCObservatory/releases/latest/download/bc-observatory.mcpb";
 export const COPILOT_PLUGIN_CMD = "copilot plugin install waldo1001/waldo.BCObservatory:plugin";
 /** D124: the lowest Node major in an engines range ("^22.23.4 || ^24.22.1 || >=26.12.1" -> 22). */
 export function nodeMajor(engines: string): number {
@@ -124,7 +126,7 @@ export function installTabs(repo: string, opts: { vscodePlugin: boolean }): Inst
       ? { id: "vscode", label: "VS Code", node: true, steps: [vscodePlugin], buttons: [vscodeServer], more: [vscodeJson] }
       : { id: "vscode", label: "VS Code", node: true, note: "The button adds bc-observatory to VS Code; the mcp.json below adds all three servers.", steps: [vscodeJson], buttons: [vscodeServer] },
     { id: "cursor", label: "Cursor", node: true, steps: [cursorJson], buttons: [{ label: "Add to Cursor", href: cursorInstallLink("bc-observatory", LOCAL_SERVER) }] },
-    { id: "claude-desktop", label: "Claude Desktop and chat", node: false, note: `Claude in the browser and on your phone need no Node: you add the plugin's skills and connectors in Claude itself. Claude Desktop adds the observatory's own search, which needs ${NODE_REQUIREMENT}. Step by step for both: INSTALL.md.`, steps: [], buttons: [{ label: "Open the install guide", href: installGuide(repo) }] },
+    { id: "claude-desktop", label: "Claude Desktop and chat", node: false, note: "Claude in the browser and on your phone need no Node: you add the plugin's skills and connectors in Claude itself. Claude Desktop adds the observatory's own search with the extension below: download it and double-click it, no Node needed (Claude Desktop brings its own). Step by step for both: INSTALL.md.", steps: [], buttons: [{ label: "Open the install guide", href: installGuide(repo) }, { label: "Download the Desktop extension (.mcpb)", href: MCPB_URL }] },
     { id: "other", label: "Other MCP clients", node: true, steps: [generic], buttons: [], more: [checkout] },
   ];
 }

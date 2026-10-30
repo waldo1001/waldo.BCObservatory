@@ -5,6 +5,8 @@ description: What is new in Microsoft Dynamics 365 Business Central - recent vid
 
 # What is new in Business Central
 
+If no `bc-observatory` tool (`bc_search`, `bc_cat`, `bc_get_object`, ...) is available, even after ToolSearch, say so before answering, and give the install steps for the user's app from https://waldo1001.github.io/waldo.BCObservatory/mcp/#install (Claude in the browser or on your phone: the observatory's search is not available there yet; Claude Desktop: the extension; Claude Code: the plugin). Do not invent object ids, field numbers or versions while the server is missing.
+
 1. `bc_whats_new(since: "YYYY-MM-DD")` lists videos, posts, roadmap features and code changes dated on or after that day and up to today; `type: "feature"` for the roadmap only, `include_future: true` for features scheduled after today (a feature's date is its GA month).
 2. For what was published lately about a topic, `bc_search("<words>", type: "post" or "video", sort: "date")` lists the matches newest first; `bc_whats_new` is for everything since a day.
 3. For a roadmap feature, `bc_cat("features/<id>")` gives status (ga, preview, announced), wave, dates and the videos and Learn pages that cover it.
