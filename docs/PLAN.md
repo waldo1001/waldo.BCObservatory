@@ -473,6 +473,7 @@ blogs; all videos newest-first.
 | **M59 Install and adoption** | Node requirement from engines everywhere, Copilot troubleshooting, plugin-first README, /mcp harness tabs with one-click VS Code and Cursor links, VS Code agent plugin (if verified), "Ask your agent" on object, feature and change pages, header pill (`docs/specs/install-and-adoption.md`, D124, shipped 2026-10-27) | medium | none (no LLM) |
 | **M60 Spend cap without catch-ups** | override spend kept out of the cap window, executor runs deterministic stages past the cap, caps $15/$80 (`docs/specs/spend-cap-catch-up.md`, D125, shipped 2026-10-29) | small | none: fewer blocked nights |
 | **M61 BCQuality rules as pages** | 458 BCQuality rules and review skills as deterministic pages with their examples, object and Learn joins and the pull requests that changed them; search type `guideline`, a Quality rules section, MCP 0.13.0 (`docs/specs/bcquality-rules.md`, D126, shipped 2026-10-29) | one to two days | none: no model, the guidelines quota is removed |
+| **M62 Resource counts** | one unlinked `Obs.Resource` event per page an MCP answer points to, `other` for paths not in the index, notice in five places, KQL in the RUNBOOK, MCP 0.14.0 (`docs/specs/mcp-resource-counts.md`, D127, proposed) | half a day | none: no model |
 | **v0.2+** | evidence chips + review-badge UI, 30-vNext, older versions as diffs back to 23/15, Jarvis budget handshake (shared intent file), static embeddings (model2vec potion-8M), MAYBE blogs | ongoing | per-version gating |
 
 ## 6. Verification
