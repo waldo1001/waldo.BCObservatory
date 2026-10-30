@@ -402,6 +402,12 @@ sources:
     url: https://blog.wingate365.com
     author: { name: Andy Wingate }
     fetch: { feed: https://blog.wingate365.com/index.xml }
+  - id: bccaptain-com-au
+    kind: blog
+    name: BC Captain
+    url: https://bccaptain.com.au
+    author: { name: Tom Kapitan }
+    fetch: { feed: https://bccaptain.com.au/feed/index.xml }
   # ---------------------------------------------------------------- discovery (suggestions only, never content)
   - id: wingate-combined
     kind: discovery
