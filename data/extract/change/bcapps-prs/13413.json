@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13413",
+  "number": 13413,
+  "title": "Fix localized contact filter control name in Contact Sync",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "crm"
+  ],
+  "summary": "The Contact Sync page now uses localized table captions consistently in filter operations, replacing hardcoded English table names with the localized ContactTxt constant to ensure the contact filter loads correctly in non-English languages.",
+  "key_points": [
+    "Replaced three hardcoded English 'Contact' table name references with the localized ContactTxt constant",
+    "Applied the change to FilterPageBuilder.AddTable, SetView, and GetView methods",
+    "Ensures consistent localization with existing field calls on the same page",
+    "Prevents contact filter from failing to load in non-English language versions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "crm",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.0036,
+    "changes_in_call": 1
+  }
+}

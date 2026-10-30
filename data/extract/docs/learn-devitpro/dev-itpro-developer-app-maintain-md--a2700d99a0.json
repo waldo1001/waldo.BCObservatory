@@ -2,29 +2,29 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/app-maintain.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-maintain",
   "title": "Maintain Marketplace apps and per-tenant extensions",
-  "blob": "3a0adbd4c4b784c3eb47486f6beb43a87c0f3ba8",
-  "summary": "Maintain Marketplace apps and per-tenant extensions describes partner responsibilities to keep apps updated with Business Central's major and minor releases, including preview testing, handling update periods, grace periods, and enforcement procedures to prevent service disruptions.",
+  "blob": "4bd3e4b8b3da7535700a8c4662c2441c85072273",
+  "summary": "Marketplace apps and per-tenant extensions must be kept up-to-date with Business Central release cycles. Partners have responsibilities to maintain code compatibility to prevent service disruptions, with specific update, grace, and enforced update periods outlined for major releases.",
   "systems": [
+    "integration",
     "development",
     "administration"
   ],
   "topics": [
-    "app maintenance",
-    "update lifecycle",
+    "apps and extensions",
     "marketplace",
+    "updates and releases",
     "compatibility",
-    "pte"
+    "publisher responsibilities"
   ],
   "objects": [],
   "features": [
-    "Preview period testing",
-    "Update period scheduling",
-    "Grace period procedures",
-    "Enforced update period",
-    "Incompatibility notifications",
-    "Automatic app removal",
-    "AppSourceCop analyzer",
-    "AL Go for GitHub"
+    "preview environments",
+    "prerelease bits access",
+    "AppSourceCop analyzer rules",
+    "automated extension validation",
+    "update scheduling",
+    "compatibility testing",
+    "notification recipients"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004736,
-      "pages_in_call": 8
+      "cost_usd": 0.005329,
+      "pages_in_call": 1
     }
   ]
 }

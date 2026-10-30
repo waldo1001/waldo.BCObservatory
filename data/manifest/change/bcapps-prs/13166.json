@@ -6,10 +6,35 @@
   "title": "[Master]-WIP transfer warehouse shipment incorrectly requires Bin Code",
   "url": "https://github.com/microsoft/BCApps/pull/13166",
   "published_at": "2026-10-29T13:32:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-30T00:17:01.742Z"
+    },
+    "fetched": {
+      "at": "2026-10-30T00:19:05.400Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-30T00:19:12.125Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003284
+    },
+    "linked": {
+      "at": "2026-10-30T00:19:12.403Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-30T00:19:12.416Z",
+      "path": "content/changes/bcapps/13166.md"
     }
   },
   "input_hash": "e1764b153b9c56fbfcc877b58364cdffc55ec9b5:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master wip transfer warehouse shipment incorrectly requires bin code"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5606fedbf2f9dbf84e46c2bb217788944b63a13e01514d7cdd256eb0ed033405"
 }

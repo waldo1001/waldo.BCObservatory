@@ -2,17 +2,18 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-report-layout-declaration.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-layout-declaration",
   "title": "Define Report Layouts in AL for Business Central",
-  "blob": "c0910f712ec1d2f672f9d79fab1a317d02947318",
-  "summary": "Report layouts in AL are declared using the rendering section with multiple named layouts (RDLC, Word, Excel, or Custom types), or legacy layout properties. Word layouts support composite rendering with separate header, footer, and theme parts.",
+  "blob": "c57f0a1066d26b38b6f7eea5fee59e1b6c0a2023",
+  "summary": "Define report layouts in AL using the rendering section to specify multiple named layouts (RDLC, Word, Excel, or Custom) with optional header/footer and theme parts for composite Word documents.",
   "systems": [
-    "reporting",
-    "development"
+    "development",
+    "reporting"
   ],
   "topics": [
     "report layouts",
-    "rendering section",
-    "word layouts",
+    "al development",
     "rdlc",
+    "word layouts",
+    "rendering section",
     "composite layouts"
   ],
   "objects": [
@@ -27,20 +28,16 @@
   ],
   "features": [
     "rendering section",
-    "layout declaration",
     "multiple named layouts",
-    "Word layout subtypes (Default, Body, HeaderFooter, Theme)",
-    "RDLC layouts",
-    "Excel layouts",
-    "Custom layouts",
+    "Word layout subtypes",
+    "portable layout file paths",
     "DefaultRenderingLayout property",
     "DefaultHeaderFooterPart property",
     "DefaultThemePart property",
-    "MIME type support for custom layouts",
-    "portable layout file paths"
+    "composite Word layouts"
   ],
   "versions": [
-    "2024 release wave 1",
+    "2022 release wave 1",
     "runtime 18.0"
   ],
   "parts": 1,
@@ -49,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.012738,
-      "pages_in_call": 3
+      "cost_usd": 0.009907,
+      "pages_in_call": 1
     }
   ]
 }

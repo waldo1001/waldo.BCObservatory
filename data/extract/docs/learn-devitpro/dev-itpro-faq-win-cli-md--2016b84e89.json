@@ -2,27 +2,30 @@
   "item_id": "docs/learn-devitpro/dev-itpro/faq-win-cli.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/faq-win-cli",
   "title": "FAQ about Windows Client and Business Central",
-  "blob": "31731c1c2f901fbc6faba977d393cebe8db74a15",
-  "summary": "Windows client deprecation FAQ explains the transition from legacy Windows client to modern clients (web, mobile, desktop app) starting with 2019 release wave 2 in October 2019.",
+  "blob": "f39567df08c26b40633b60c54eb72d01d966466b",
+  "summary": "FAQ explaining the discontinuation of the Windows client for Business Central starting with 2019 release wave 2, with details on modern client alternatives and migration guidance for on-premises users.",
   "systems": [
+    "administration",
     "platform",
-    "administration"
+    "development"
   ],
   "topics": [
     "windows client",
     "modern clients",
     "deprecation",
+    "on-premises",
+    "web client",
     "migration",
     "desktop app"
   ],
   "objects": [],
   "features": [
-    "windows client discontinuation",
-    "web client",
-    "mobile apps",
-    "windows 10 desktop app",
-    "excel integration",
-    "outlook add-in"
+    "Web client",
+    "Windows 10 desktop app",
+    "Mobile apps",
+    "Open in Excel feature",
+    "Edit in Excel feature",
+    "Outlook add-in"
   ],
   "versions": [
     "2019 release wave 2"
@@ -33,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005417,
-      "pages_in_call": 8
+      "cost_usd": 0.004748,
+      "pages_in_call": 1
     }
   ]
 }

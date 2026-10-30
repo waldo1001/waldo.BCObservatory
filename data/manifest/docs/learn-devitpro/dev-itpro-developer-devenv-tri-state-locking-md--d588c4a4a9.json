@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-tri-state-locking",
   "published_at": "2026-10-29T09:40:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.511Z",
-      "blob": "b6891c3ade6c31e29e84a2d94ec5ff5a445cb202",
-      "words": 400,
+      "at": "2026-10-30T00:19:01.041Z",
+      "blob": "ca12a39c79391dbaf04c31791979634cca5737bf",
+      "words": 390,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T16:14:49.066Z",
+      "at": "2026-10-30T00:19:13.627Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0
+      "objects": 0,
+      "cost_usd": 0.003686
     },
     "summarized": {
-      "at": "2026-10-06T16:14:49.083Z",
+      "at": "2026-10-30T00:19:13.629Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T16:14:49.084Z",
+      "at": "2026-10-30T00:19:13.630Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T16:14:49.085Z",
+      "at": "2026-10-30T00:19:13.631Z",
       "page": false
     }
   },
@@ -50,7 +50,7 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 400,
+    "words": 390,
     "identifiers": [
       "EnableTriStateLocking"
     ],
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9d8371a27f33d83da94fc6c0fef7aa5ae42834a26bdfcddb84c7a44f60194d65"
+  "output_hash": "fb96f4e00100252bafc0a5b19e1493c4bab154d594ef2a7d5828b6534d30256c"
 }

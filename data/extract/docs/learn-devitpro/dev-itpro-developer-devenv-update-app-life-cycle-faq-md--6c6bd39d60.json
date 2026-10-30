@@ -2,28 +2,38 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-update-app-life-cycle-faq.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-update-app-life-cycle-faq",
   "title": "Lifecycle of apps and extensions FAQ",
-  "blob": "33360ce002d49cddb34599e2e7bf3e535abc7678",
-  "summary": "Lifecycle of apps and extensions FAQ addresses the process for submitting updated versions to Marketplace, app version management, force updates during major releases, and recommendations for update frequency and quality assurance.",
+  "blob": "109e85bafdd4da483465c73d40f4080a2236a8d5",
+  "summary": "Answers FAQs about submitting and updating Marketplace apps for Business Central, including validation processes, version updates, and best practices for avoiding submission delays.",
   "systems": [
     "development",
     "integration"
   ],
   "topics": [
-    "marketplace",
     "app lifecycle",
-    "extensions",
-    "versioning",
+    "marketplace submission",
+    "app updates",
     "validation",
-    "updates"
+    "partner center",
+    "extension management"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Extension Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "upgrade codeunit"
+    }
+  ],
   "features": [
-    "App version updates",
-    "Force updates",
-    "Extension Management",
-    "Upgrade codeunits",
-    "Code signing",
-    "Technical validation"
+    "app version updates",
+    "marketplace validation",
+    "force update",
+    "per-tenant extensions",
+    "code signing",
+    "upgrade testing",
+    "AppSourceCop analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007392,
-      "pages_in_call": 8
+      "cost_usd": 0.004308,
+      "pages_in_call": 1
     }
   ]
 }

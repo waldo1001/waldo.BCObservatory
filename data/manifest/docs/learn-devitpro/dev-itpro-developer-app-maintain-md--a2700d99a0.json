@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-maintain",
   "published_at": "2026-10-29T09:40:53.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:48:37.590Z",
+      "at": "2026-10-30T00:18:58.874Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004736
+      "cost_usd": 0.005329
     },
     "summarized": {
-      "at": "2026-10-06T18:48:37.629Z",
+      "at": "2026-10-30T00:18:58.875Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:48:37.630Z",
+      "at": "2026-10-30T00:18:58.876Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:48:37.631Z",
+      "at": "2026-10-30T00:18:58.877Z",
       "page": false
     }
   },
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4bd3e4b8b3da7535700a8c4662c2441c85072273"
+  "output_hash": "5b03f6a3581adf1364b747fb3f6258952cf69e854c011ac74638414d76f6e566"
 }

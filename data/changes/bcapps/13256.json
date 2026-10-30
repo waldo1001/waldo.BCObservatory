@@ -1,0 +1,54 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13256,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13256",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-29T10:13:01Z",
+  "merge_commit_sha": "9f22860e237f76ca532fad26a6124f1ba2cbfaee",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[SOA] Expose Email 2 on Contact Card",
+  "body_hash": "c8b8a6c01424fc09ac74a017064f6dec565f55c3cb0111915be424ca1618885a",
+  "fixes_issues": [],
+  "work_items": [
+    651657
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/PageExtention/SOAContactCardExt.PageExt.al",
+      "status": "added",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 23,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/PageExtention/SOAContactCardExt.PageExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -6,7 +6,7 @@
   "title": "[Master] - Bug 651041: [Sustainability][Value Chain] Item Reclassification Journal forces a non-zero Total CO2e and adds it to the item's footprint under Average carbon tracking",
   "url": "https://github.com/microsoft/BCApps/pull/12996",
   "published_at": "2026-10-29T13:41:35Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-30T00:17:01.742Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-30T00:19:01.741Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004058
+    },
+    "linked": {
+      "at": "2026-10-30T00:19:01.961Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-30T00:19:01.969Z",
+      "path": "content/changes/bcapps/12996.md"
     }
   },
   "input_hash": "661f564fdd959ec600827b50e08b13cfdbb07de6:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "408b86dfab6df5fc90b1f05827d89b799f1f7ac0760d16ac2ee7dfe22b978ca3"
+  "output_hash": "f4d8358b1cc1445a1eaf362d1e961c59ca538c08f557fe80b67a4af8d75e7f97"
 }

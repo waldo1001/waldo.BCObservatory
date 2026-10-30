@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13166",
+  "number": 13166,
+  "title": "[Master]-WIP transfer warehouse shipment incorrectly requires Bin Code",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing",
+    "warehouse"
+  ],
+  "summary": "WIP transfer warehouse shipment posting no longer incorrectly requires a bin code when not applicable to the transfer type.",
+  "key_points": [
+    "Fixes incorrect bin code requirement for WIP transfer warehouse shipments",
+    "Subcontracting shipment extension handles specific logic for WIP transfers",
+    "Base warehouse shipment posting codeunit adjusted to work correctly with transfers",
+    "New test coverage added for WIP transfer posting scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003284,
+    "changes_in_call": 1
+  }
+}

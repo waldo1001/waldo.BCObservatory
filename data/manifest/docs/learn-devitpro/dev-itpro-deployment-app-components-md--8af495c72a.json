@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/app-components",
   "published_at": "2026-10-29T09:40:53.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:48:17.910Z",
+      "at": "2026-10-30T00:18:58.884Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004763
+      "cost_usd": 0.003368
     },
     "summarized": {
-      "at": "2026-10-06T18:48:17.979Z",
+      "at": "2026-10-30T00:18:58.886Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:48:17.980Z",
+      "at": "2026-10-30T00:18:58.887Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:48:17.981Z",
+      "at": "2026-10-30T00:18:58.888Z",
       "page": false
     }
   },
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "80f33946cddb16bae81177d5514aceb64f37d0b0"
+  "output_hash": "e42fe62e61544a78567bbdf3000ae213f3cfb193debf026447c9c9bdce270f69"
 }

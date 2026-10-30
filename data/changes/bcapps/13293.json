@@ -1,0 +1,91 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13293,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13293",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-10-29T12:14:22Z",
+  "merge_commit_sha": "0b21c26511afc7e7eb564ab491222ca5552b2a5f",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.X]-WIP transfer warehouse shipment incorrectly requires Bin Code",
+  "body_hash": "8107b7fb2d732ee24fc1238aa8f7fdba29ac2d604dbc5ca983ea5d49255223a2",
+  "fixes_issues": [],
+  "work_items": [
+    648952
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcWhsePostShipmentExt.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcWIPTransferPostTest.Codeunit.al",
+      "status": "modified",
+      "additions": 84,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/Document/WhsePostShipment.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 109,
+    "deletions": 2,
+    "al": 2
+  },
+  "join": {
+    "major": "29",
+    "commit": "7aa49e808916c060dbee97d9ff324a2cfda8d422",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Warehouse/SubcWhsePostShipmentExt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20563",
+        "type": "codeunit",
+        "id": 20563,
+        "name": "Subc. WhsePostShipment Ext",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20563"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/Document/WhsePostShipment.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5763",
+        "type": "codeunit",
+        "id": 5763,
+        "name": "Whse.-Post Shipment",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5763"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing",
+    "warehouse"
+  ],
+  "apps": [
+    "Base Application",
+    "Subcontracting"
+  ]
+}

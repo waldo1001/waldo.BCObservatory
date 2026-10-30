@@ -6,10 +6,18 @@
   "title": "[SOA] Expose Email 2 on Contact Card",
   "url": "https://github.com/microsoft/BCApps/pull/13256",
   "published_at": "2026-10-29T10:13:01Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-30T00:17:01.742Z"
+    },
+    "fetched": {
+      "at": "2026-10-30T00:19:19.296Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
     }
   },
   "input_hash": "9f22860e237f76ca532fad26a6124f1ba2cbfaee:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa expose email 2 on contact card"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3e73cd7d0065e18ee6b1fdf0d489460116f59afc8a838cadf96558a6fea1a482"
 }

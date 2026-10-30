@@ -6,7 +6,7 @@
   "title": "Fix localized contact filter control name in Contact Sync",
   "url": "https://github.com/microsoft/BCApps/pull/13413",
   "published_at": "2026-10-29T13:58:04Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-30T00:17:01.742Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-30T00:18:58.141Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.0036
+    },
+    "linked": {
+      "at": "2026-10-30T00:18:58.357Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-30T00:18:58.365Z",
+      "path": "content/changes/bcapps/13413.md"
     }
   },
   "input_hash": "f3f8cd09617cf68b63b1ca210fc35d12c09ade5e:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "06d4a8596cbee91929de3561496d7286c00618ba17e58b0f5626209ffd2976e6"
+  "output_hash": "ebf4cb45d088e4efc0be98d3bfd51267882461e09ffc0f4392c9abc8364599da"
 }

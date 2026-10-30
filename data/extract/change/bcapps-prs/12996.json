@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12996",
+  "number": 12996,
+  "title": "[Master] - Bug 651041: [Sustainability][Value Chain] Item Reclassification Journal forces a non-zero Total CO2e and adds it to the item's footprint under Average carbon tracking",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sustainability"
+  ],
+  "summary": "Item Reclassification Journals can now post with zero Total CO2e under Average carbon tracking by exempting them from non-zero CO2e validation, while preserving checks for other item journals.",
+  "key_points": [
+    "Reclassification journals are exempted from the non-zero CO2e validation that applies to other item journals",
+    "The reclassification source indicator is passed to sustainability posting validation to enable differential handling",
+    "Other item journals maintain existing non-zero CO2e checks for non-renewable-energy subcategories",
+    "Transfer Sustainability Value Entries correctly record zero CO2e amounts for reclassification moves",
+    "Test coverage added for posting reclassification with zero Total CO2e"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sustainability",
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004058,
+    "changes_in_call": 1
+  }
+}
