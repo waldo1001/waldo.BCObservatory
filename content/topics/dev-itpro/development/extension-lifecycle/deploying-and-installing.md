@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T08:08:47.161Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,7 +109,7 @@ narrative: generated
 
 > Deploying and installing covers how to publish, synchronize, install, upgrade, unpublish and uninstall Business Central extensions, plus writing install code and maintaining Marketplace apps and per-tenant extensions. It answers lifecycle and Marketplace offer submission questions.
 
-Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Deploying and installing · tier official · system development · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Deploying and installing · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:09:05.749Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-10-30T08:03:27.657Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -217,7 +217,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/577820
   topics: []
   localizations: []
   videos: []
@@ -360,7 +361,9 @@ features:
     status: preview
     t: 1254
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: AI Credit Resource Governance
     status: unclear
     t: 1451
@@ -557,7 +560,7 @@ The second half covers keeping up with model versions using version-agnostic str
 | Tool Choice Specific Function Mode | status not stated | [16:55](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1015s) |  |
 | Model Version Management | status not stated, demoed | [18:16](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1096s) |  |
 | Version Agnostic Model Strings | status not stated, demoed | [18:36](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1116s) |  |
-| Managed and Shared AI Resources | preview | [20:54](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1254s) | "private preview will happen pretty soon after the business centrer launch event" ([26:13](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1573s)) |
+| Managed and Shared AI Resources | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [20:54](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1254s) | "private preview will happen pretty soon after the business centrer launch event" ([26:13](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1573s)) |
 | AI Credit Resource Governance | status not stated | [24:11](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1451s) |  |
 | Operational Limits for Fair Use | status not stated | [24:51](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1491s) |  |
 | AI Quota Entitlements | status not stated | [25:12](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1512s) |  |
@@ -570,6 +573,8 @@ The second half covers keeping up with model versions using version-agnostic str
 | GPT-3.5 Turbo model recommendation | status not stated | [31:30](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=1890s) |  |
 | AL toolkit open source on GitHub | status not stated | [33:47](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=2027s) |  |
 | Data privacy and AI model training | status not stated | [34:07](https://www.youtube.com/watch?v=ytYKvn2MiGs&t=2047s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

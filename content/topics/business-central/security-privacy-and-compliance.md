@@ -6,12 +6,12 @@ summary: Security, privacy, and compliance in Business Central covers personal s
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T08:08:42.971Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,7 @@ narrative: generated
 
 > Security, privacy, and compliance in Business Central covers personal security practices for users and the compliance subtopic on regulatory, certification and SLA requirements. It answers questions about MFA, passwords, phishing, device protection, audit trails, ISO standards, country certifications, and backup and availability.
 
-Path: Security, privacy, and compliance · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: Security, privacy, and compliance · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T08:08:39.360Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -182,7 +182,7 @@ narrative: generated
 
 > Prepare Business Central covers initial setup tasks for administrators and partners: configuration packages, feature management, Excel and Outlook add-ins, per-tenant extension and Marketplace app deployment and upgrades, app key vaults, and recommended apps. It answers how-to questions about getting an environment ready.
 
-Path: [Administration](../administration.md) > Prepare Business Central · tier official · system administration · narrative **unreviewed** (model text not yet checked)
+Path: [Administration](../administration.md) > Prepare Business Central · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

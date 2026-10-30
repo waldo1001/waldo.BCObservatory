@@ -2,17 +2,17 @@
 id: topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent
 type: topic
 title: Work with Expense Agent
-summary: "Work with Expense Agent covers day-to-day use of the AI-powered Expense Agent in Business Central: uploading receipts, creating mileage expenses, editing expenses, building and submitting reports, approving or sending back reports, and using the mobile app (preview). It answers how-to questions for employees and approvers."
+summary: "Work with Expense Agent covers day-to-day use of the AI-powered Expense Agent in Business Central, part of Expense management (preview): uploading receipts, creating mileage expenses, editing expenses, building and submitting reports, approving or sending back reports, and using the mobile app (preview). It answers how-to questions for employees and approvers."
 tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T08:08:53.967Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,9 +106,9 @@ narrative: generated
 
 # Work with Expense Agent
 
-> Work with Expense Agent covers day-to-day use of the AI-powered Expense Agent in Business Central: uploading receipts, creating mileage expenses, editing expenses, building and submitting reports, approving or sending back reports, and using the mobile app (preview). It answers how-to questions for employees and approvers.
+> Work with Expense Agent covers day-to-day use of the AI-powered Expense Agent in Business Central, part of Expense management (preview): uploading receipts, creating mileage expenses, editing expenses, building and submitting reports, approving or sending back reports, and using the mobile app (preview). It answers how-to questions for employees and approvers.
 
-Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Work with Expense Agent · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Work with Expense Agent · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 

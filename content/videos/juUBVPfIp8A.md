@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:49:50.869Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-10-30T08:03:27.657Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -149,7 +149,6 @@ links:
   objects: []
   features:
     - feature/577820
-    - feature/578068
   topics: []
   localizations: []
   videos: []
@@ -212,9 +211,7 @@ features:
     status: preview
     t: 44
     verified: true
-    status_source: roadmap
-    roadmap_ids:
-      - "578068"
+    status_source: video
   - name: BC AI Resources authentication simplified
     status: preview
     t: 168
@@ -357,7 +354,7 @@ The video walks through authentication changes for BC AI Resources, content filt
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | AI Development Toolkit renamed | status not stated | [0:06](https://www.youtube.com/watch?v=juUBVPfIp8A&t=6s) |  |
-| Agent development and design | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)) | [0:44](https://www.youtube.com/watch?v=juUBVPfIp8A&t=44s) | "The latter has actually been in public preview since the beginning of February." ([0:55](https://www.youtube.com/watch?v=juUBVPfIp8A&t=55s)) |
+| Agent development and design | preview | [0:44](https://www.youtube.com/watch?v=juUBVPfIp8A&t=44s) | "The latter has actually been in public preview since the beginning of February." ([0:55](https://www.youtube.com/watch?v=juUBVPfIp8A&t=55s)) |
 | BC AI Resources authentication simplified | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [2:48](https://www.youtube.com/watch?v=juUBVPfIp8A&t=168s) |  |
 | Content filtering policies | status not stated, demoed | [4:29](https://www.youtube.com/watch?v=juUBVPfIp8A&t=269s) |  |
 | Azure Open AI policy parameters codeunit | status not stated, demoed | [6:52](https://www.youtube.com/watch?v=juUBVPfIp8A&t=412s) |  |

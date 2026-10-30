@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T08:09:06.420Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,7 +69,7 @@ narrative: generated
 
 > Autofill with Copilot (preview) covers how Business Central fills blank editable fields on card and document pages with suggestions, and how the feature handles AI, web search and data safety. It answers questions about using and reviewing suggestions and about responsible AI details.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Autofill (preview) · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Autofill (preview) · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -84,7 +84,7 @@ Start with the first page to learn how to use Autofill. Read the FAQ if you need
 - Autofill fills blank editable fields on card and document pages with suggestions.
 - Suggestions can come from Business Central data, AI generation, or web search results.
 - Users must review and accept or reject each suggestion before saving.
-- Suggestion details are available so users can see where a value came from.
+- Users can view details for each suggestion as part of reviewing it.
 - Web search uses Bing Search and is optional.
 - The feature uses Azure OpenAI Service and operates under the user's permissions.
 - Content filtering and malicious site detection are part of the responsible AI safeguards.

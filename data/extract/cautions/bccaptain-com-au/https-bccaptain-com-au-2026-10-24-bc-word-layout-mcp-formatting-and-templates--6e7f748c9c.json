@@ -1,0 +1,41 @@
+{
+  "item_id": "blog/bccaptain-com-au/https://bccaptain.com.au/2026/10/24/bc-word-layout-mcp-formatting-and-templates/",
+  "page_id": "post/bccaptain-com-au/https-bccaptain-com-au-2026-10-24-bc-word-layout-mcp-formatting-and-templates--6e7f748c9c",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "A font installed on your laptop is not necessarily available in BC online.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2.0.0"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "A good local preview is not a promise of identical fonts or pagination in BC.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2.0.0"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "BC can refuse layouts that retain a link to an external Word template.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2.0.0"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004685,
+    "posts_in_call": 4
+  }
+}

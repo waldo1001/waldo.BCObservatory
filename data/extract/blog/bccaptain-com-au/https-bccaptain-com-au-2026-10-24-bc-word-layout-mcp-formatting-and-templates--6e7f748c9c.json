@@ -1,0 +1,79 @@
+{
+  "item_id": "blog/bccaptain-com-au/https://bccaptain.com.au/2026/10/24/bc-word-layout-mcp-formatting-and-templates/",
+  "url": "https://bccaptain.com.au/2026/10/24/bc-word-layout-mcp-formatting-and-templates/",
+  "title": "BC Word Layout MCP (Part 5): Format layouts and reuse a Word design",
+  "source": "bccaptain-com-au",
+  "published_at": "2026-10-24T12:00:00.000Z",
+  "words": 1192,
+  "summary": "Word layout formatting tools allow changing text and cell styles in Business Central reports while preserving data bindings and field connections. Version 2.0.0 adds font validation warnings and improved table formatting APIs, enabling designers to modify appearance or convert existing Word documents to BC layouts without rebuilding fields.",
+  "key_points": [
+    "set_text_format and set_cell_format tools change visual appearance while keeping field bindings intact",
+    "Font warnings alert users when layouts use fonts unavailable in BC online unless embedded",
+    "Designers can start from existing Word documents by mapping sample values to BC fields with agent guidance",
+    "Letterhead templates can be reused by providing templatePath and schemaSource to create_layout without replacing design content",
+    "API structure changed in v2.0.0 to use JSON arrays instead of comma-separated values and moved format properties into format object"
+  ],
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "word layouts",
+    "report formatting",
+    "mcp tools",
+    "template design",
+    "field bindings",
+    "font management",
+    "layout reuse"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "BcWordLayout.Mcp@2.0.0"
+    },
+    {
+      "type": "other",
+      "name": "al-word-layout-from-design"
+    },
+    {
+      "type": "other",
+      "name": "al-word-layout-composite"
+    }
+  ],
+  "features": [
+    "set_text_format tool",
+    "set_cell_format tool",
+    "create_layout with templates",
+    "font validation warnings",
+    "cell fill and border formatting",
+    "field binding preservation",
+    "design-to-layout conversion workflow",
+    "header/footer layout support"
+  ],
+  "versions": [
+    "2.0.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Formatting is selective. Asking for a blue date field should not reset its existing size or font.",
+      "why_it_matters": "Explains that format objects only override specified properties, preserving unmodified settings"
+    },
+    {
+      "text": "A font installed on your laptop is not necessarily available in BC online.",
+      "why_it_matters": "Critical reminder that local design preview does not guarantee font availability in production BC"
+    },
+    {
+      "text": "That confirmation matters more than the colour choices. A sample customer's PO number should not become BC's own document number.",
+      "why_it_matters": "Emphasizes that field mapping accuracy is more important than visual design when converting existing documents"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006648,
+    "posts_in_call": 1
+  }
+}

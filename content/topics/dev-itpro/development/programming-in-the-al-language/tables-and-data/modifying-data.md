@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:52.535Z"
   flags: []
 generated:
-  at: "2026-10-28T08:42:58.321Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,7 +105,6 @@ links:
     - post/duiliotacconi-com/1850
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a
     - post/yzhums-com/64898
-    - post/yzhums-com/66461
     - post/yzhums-com/67343
     - post/yzhums-com/76252
   guidelines: []
@@ -134,7 +133,7 @@ coverage:
   learn: 9
   code: 0
   video: 0
-  blog: 9
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: 1242a3f477119c1dd5c8b2c5e078f53fa12519072c5f7804aaef3189aae77595
@@ -201,7 +200,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Rec.Truncate in AL](../../../../../posts/duiliotacconi-com/1850.md) (community post): "Rec.Truncate is a new AL method based on SQL Server TRUNCATE"
 - [BC Friday Tips #68 Always Use Field Validation](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a.md) (community post): "Field validation in Business Central extensions ensures all business logic runs"
 - [Dynamics 365 Business Central: How to insert a record with a specified SystemId in AL](../../../../../posts/yzhums-com/64898.md) (community post): "insert a record with a specified SystemId in AL"
-- [Dynamics 365 Business Central: How to quickly strip not supported chars in File Name via AL](../../../../../posts/yzhums-com/66461.md) (community post): "using the StripNotsupportChrInFileName method to automatically clean file names"
 - [Business Central 2025 wave 2 (BC27): Truncating table data with new AL method (procedure Truncate)](../../../../../posts/yzhums-com/67343.md) (community post): "Rec.Truncate AL method for efficiently deleting large volumes"
 - [Business Central 2026 release wave 2 (BC29): Check records for uncommitted changes (Added the IsDirty property to the Record API)](../../../../../posts/yzhums-com/76252.md) (community post): "IsDirty property to check whether a record instance has uncommitted changes"
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:27.474Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -151,7 +151,6 @@ links:
     - post/olofsimren-com/3585
     - post/olofsimren-com/3605
     - post/olofsimren-com/3630
-    - post/thinkaboutit-be/8348
   guidelines: []
   changes:
     - change/al-go/2402
@@ -169,7 +168,7 @@ coverage:
   learn: 15
   code: 0
   video: 7
-  blog: 9
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: 2ff560236f34656dcd4015f51cfddab4d5ae4484d1dfe47d2ddcd8d76f8788c0
@@ -224,7 +223,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Copilot Inventory Queries](../../../../posts/olofsimren-com/3585.md) (community post): "Built with the Copilot capability tools Microsoft provides for AL"
 - [Copilot in Planning Worksheet](../../../../posts/olofsimren-com/3605.md) (community post): "A Copilot extension for Planning Worksheet in Business Central helps planners"
 - [Copilot in Planning Parameter Worksheet](../../../../posts/olofsimren-com/3630.md) (community post): "uses Copilot powered by Azure OpenAI to suggest inventory planning parameters"
-- [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../../../../posts/thinkaboutit-be/8348.md) (community post): "Copilot can interact with custom AL extensions including pages, fields, and actions"
 - [Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central](../../../../videos/06vgkq2EXmA.md) (video): "Prompt Engineering with Test-Driven Development; Azure AI Studio Integration"
 - [Business Central Under the Hood episode 1: Developing AI in Business Central](../../../../videos/jdevJbGgB-k.md) (video): "Business Central Under the Hood episode 1: Developing AI in Business Central"
 - [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../../videos/lNASlydCidI.md) (video): "Copilot for Business Central; System Actions for Generate; AI Module for Copilot Generation"

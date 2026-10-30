@@ -1,7 +1,7 @@
 {
   "hub_id": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
   "input_hash": "eeef479a0389d36d9aed3f9a8fe1571d3d67231966b95c074051d439a209a451",
-  "summary": "Work with Expense Agent covers day-to-day use of the AI-powered Expense Agent in Business Central: uploading receipts, creating mileage expenses, editing expenses, building and submitting reports, approving or sending back reports, and using the mobile app (preview). It answers how-to questions for employees and approvers.",
+  "summary": "Work with Expense Agent covers day-to-day use of the AI-powered Expense Agent in Business Central, part of Expense management (preview): uploading receipts, creating mileage expenses, editing expenses, building and submitting reports, approving or sending back reports, and using the mobile app (preview). It answers how-to questions for employees and approvers.",
   "overview": "Expense Agent is an AI-powered expense management app that scans receipts, tracks mileage, groups expenses into reports, checks them against company policy, and routes them through approval. This section has no subtopics. Its six pages follow the order of the expense process.\n\nStart with the overview page for the big picture. Then use the receipt and mileage page to get expenses in, the review and edit page to correct details and resolve AI-flagged issues, and the create and submit page to group expenses into reports and send them for approval. Approvers use the approve or send back page. The mobile app page (preview) covers the same tasks from a phone.",
   "key_points": [
     "Expense Agent handles receipt scanning, mileage tracking, expense reporting, and approval workflows with policy compliance checks.",
@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.01663
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-30T08:08:53.967Z",
+    "verdict": "fix",
+    "issues": [
+      "Only the mobile app is labeled preview, but the hub sits under 'Expense management (preview)' in the Learn TOC, so the whole area is in preview. Leaving that out suggests Expense Agent is generally available. The summary now says it is part of Expense management (preview).",
+      "Minor: the overview line 'This section has no subtopics' is accurate but adds little for an agent."
+    ],
+    "input_hash": "eeef479a0389d36d9aed3f9a8fe1571d3d67231966b95c074051d439a209a451",
+    "cost_usd": 0.044279200000000005
   }
 }

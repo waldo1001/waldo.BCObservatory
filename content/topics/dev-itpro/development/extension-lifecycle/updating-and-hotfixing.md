@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T08:08:51.761Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -101,7 +101,7 @@ narrative: generated
 
 > Updating and hotfixing covers how Business Central apps and extensions are updated, hotfixed and upgraded over their lifecycle. It answers questions about Marketplace app updates, version numbering, validation, hotfix rules, upgrade code and partner responsibilities.
 
-Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Updating and hotfixing · tier official · system development · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Updating and hotfixing · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -119,7 +119,7 @@ For the technical side, the Upgrading Extensions page describes writing upgrade 
 - Hotfixing a Marketplace app covers validation for non-latest version submissions, with examples of validation release ranges and restrictions.
 - Hotfix validation includes breaking change detection with AppSourceCop, obsolete pending handling and public API restrictions.
 - Upgrading Extensions describes upgrade triggers (OnCheckPreconditions, OnUpgrade, OnValidate) and data upgrade or migration.
-- Upgrade code execution can be controlled with version data or upgrade tags (2021 release wave 1).
+- Upgrade code execution can be controlled with version data or upgrade tags. The Upgrading Extensions page references 2021 release wave 1.
 - The FAQs include best practices for avoiding submission delays.
 
 ## Learn pages

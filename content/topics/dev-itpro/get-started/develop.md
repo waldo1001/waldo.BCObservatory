@@ -6,12 +6,12 @@ summary: The Develop section covers building, publishing, customizing and mainta
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T08:08:26.399Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -315,7 +315,7 @@ narrative: generated
 
 > The Develop section covers building, publishing, customizing and maintaining Business Central apps and extensions. It answers questions about becoming a publisher, marketplace submission and validation, embed apps, localization, app lifecycle, and the split of responsibilities between Microsoft and partners.
 
-Path: [Get started](../get-started.md) > Develop · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: [Get started](../get-started.md) > Develop · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/bccaptain-com-au/https://bccaptain.com.au/2026/10/18/bc-word-layout-mcp-body-repeaters/",
+  "url": "https://bccaptain.com.au/2026/10/18/bc-word-layout-mcp-body-repeaters/",
+  "title": "BC Word Layout MCP (Part 4): Customer statements and work-description lines",
+  "source": "bccaptain-com-au",
+  "published_at": "2026-10-18T12:00:00.000Z",
+  "words": 814,
+  "summary": "Word Layout MCP's body repeaters create flexible document structures beyond line tables, such as separate pages per customer in statements or paragraphs per work-description record. The post explains when to use repeaters versus tables and provides step-by-step instructions for implementing each pattern, with version 2.0.0 fixes for preview-to-print discrepancies.",
+  "key_points": [
+    "Body repeaters handle repeated content that is not table rows, such as customer statements starting on new pages or work descriptions as paragraphs.",
+    "The wrap_in_repeater tool applies repeating logic to existing body content and respects page break requirements.",
+    "Version 2.0.0 fixes nested work-description cases that could display correctly in preview but print empty in Business Central.",
+    "Test documents thoroughly in Business Central sandbox for multiple customers and varying record counts to verify values do not mix and page breaks occur correctly.",
+    "Body repeaters work only with body paragraphs and tables, not with headers, footers, or arbitrary cells."
+  ],
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "word layout",
+    "report design",
+    "document repeaters",
+    "customer statements",
+    "work descriptions",
+    "body content",
+    "page breaks"
+  ],
+  "objects": [],
+  "features": [
+    "body repeaters",
+    "wrap_in_repeater tool",
+    "page break control",
+    "nested repeaters",
+    "field binding validation",
+    "document preview and validation"
+  ],
+  "versions": [
+    "2.0.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A line table is not always the right answer. A customer statement might need a new page for each customer.",
+      "why_it_matters": "Establishes that body repeaters solve document layout problems where line tables are inadequate."
+    },
+    {
+      "text": "Start on a new page is not the same as fit on one page. A customer's statement can still continue over several pages.",
+      "why_it_matters": "Clarifies the practical distinction between page break boundaries and content overflow in document design."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006119,
+    "posts_in_call": 1
+  }
+}

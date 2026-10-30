@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:02.947Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -218,6 +218,11 @@ links:
     - post/aardvarklabs-blog/2196
     - post/aardvarklabs-blog/2271
     - post/aardvarklabs-blog/3544
+    - post/bccaptain-com-au/https-bccaptain-com-au-2026-08-04-bc-word-layout-mcp-introduction--cb610a83ff
+    - post/bccaptain-com-au/https-bccaptain-com-au-2026-08-06-bc-word-layout-mcp-first-layout--f9e5ef983f
+    - post/bccaptain-com-au/https-bccaptain-com-au-2026-08-24-bc-word-layout-mcp-totals-and-page-numbers--5f64af29b4
+    - post/bccaptain-com-au/https-bccaptain-com-au-2026-10-18-bc-word-layout-mcp-body-repeaters--dd2b775ce5
+    - post/bccaptain-com-au/https-bccaptain-com-au-2026-10-24-bc-word-layout-mcp-formatting-and-templates--6e7f748c9c
     - post/miljan-rs/698
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5
     - post/nataliekarolak-com/4179
@@ -255,7 +260,7 @@ coverage:
   learn: 22
   code: 5
   video: 5
-  blog: 27
+  blog: 32
   guideline: 0
 bc_forms:
   - 21
@@ -336,6 +341,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Easy Steps to Edit Word Reports in Business Central](../../../../../posts/aardvarklabs-blog/2196.md) (community post): "Edit Word report layouts in Business Central by exporting an existing report"
 - [Understanding RDLC Reports in Business Central](../../../../../posts/aardvarklabs-blog/2271.md) (community post): "new layouts are uploaded through Report Layouts with RDLC chosen as the format"
 - [New Features for Report Lifecycle Management in Business Central 28.1](../../../../../posts/aardvarklabs-blog/3544.md) (community post): "Report layouts now have status states: Draft, Pending Approval, Approved"
+- [BC Word Layout MCP (Part 1): Get started with AI-assisted Word layouts](../../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-08-04-bc-word-layout-mcp-introduction--cb610a83ff.md) (community post): "AI-assisted tool for developers to modify Word report layouts"
+- [BC Word Layout MCP (Part 2): Build your first sales quote layout](../../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-08-06-bc-word-layout-mcp-first-layout--f9e5ef983f.md) (community post): "custom Word layout for a Business Central sales quote report"
+- [BC Word Layout MCP (Part 3): Add totals and page numbers](../../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-08-24-bc-word-layout-mcp-totals-and-page-numbers--5f64af29b4.md) (community post): "Adding document totals and page numbers to Word layouts"
+- [BC Word Layout MCP (Part 4): Customer statements and work-description lines](../../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-10-18-bc-word-layout-mcp-body-repeaters--dd2b775ce5.md) (community post): "Word Layout MCP's body repeaters create flexible document structures"
+- [BC Word Layout MCP (Part 5): Format layouts and reuse a Word design](../../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-10-24-bc-word-layout-mcp-formatting-and-templates--6e7f748c9c.md) (community post): "Word layout formatting tools allow changing text and cell styles"
 - [Conditional Page Breaks in Word Layouts for Business Central Reports](../../../../../posts/miljan-rs/698.md) (community post): "Word layouts for Business Central Reports conditional page breaks Word layouts don't offer"
 - [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md) (community post): "Composite layouts split a document into a Body layout plus a reusable header/footer"
 - [Docs: What’s new in BC 29 for developers and admins](../../../../../posts/nataliekarolak-com/4179.md) (community post): "Composite Word layouts with header/footer and theme parts"

@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/bccaptain-com-au/https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/",
+  "url": "https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/",
+  "title": "BC Word Layout MCP (Part 2): Build your first sales quote layout",
+  "source": "bccaptain-com-au",
+  "published_at": "2026-08-06T12:00:00.000Z",
+  "words": 855,
+  "summary": "This walkthrough guides creating a custom Word layout for a Business Central sales quote report using BC Word Layout MCP v2.0.0, covering schema preparation, field mapping, layout design with repeating line tables, validation, and preview testing with both sample and real data.",
+  "key_points": [
+    "Export a Word layout from BC as the schema source so the agent knows which fields the report provides",
+    "Agree on the dataset field mapping before building, especially which amount field is meant",
+    "Have the agent create the heading, date and a repeating line table bound to the report's line data item",
+    "Run full validation and preview with sample rows, then with an XML data export from a real report run",
+    "Upload to a BC sandbox and print short and long quotes to confirm the result"
+  ],
+  "systems": [
+    "development",
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "word layouts",
+    "report design",
+    "mcp agent",
+    "document preview",
+    "data binding"
+  ],
+  "objects": [],
+  "features": [
+    "BC Word Layout MCP",
+    "schema export",
+    "repeating tables",
+    "field binding",
+    "layout validation",
+    "preview rendering",
+    "XML data export"
+  ],
+  "versions": [
+    "v2.0.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A report's Send to > XML export is different: it supplies values from a report run for previewing. It does not replace the layout's schema.",
+      "why_it_matters": "Clarifies the distinction between schema files and data exports, essential for proper testing workflow"
+    },
+    {
+      "text": "Confirm the mapping, especially the amounts. A unit price, a line amount, and an amount including VAT are not interchangeable.",
+      "why_it_matters": "Highlights critical attention to field accuracy before layout creation to avoid financial reporting errors"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005978,
+    "posts_in_call": 1
+  }
+}

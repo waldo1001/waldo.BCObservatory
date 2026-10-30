@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T22:50:43.520Z"
   flags: []
 generated:
-  at: "2026-10-07T22:50:43.557Z"
+  at: "2026-10-30T08:03:27.657Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -63,7 +63,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/578065
   topics: []
   localizations: []
   videos: []
@@ -91,10 +92,12 @@ chapters:
     title: Switching back to shared mailbox and folder support
 features:
   - name: Sales Order Agent folder selection
-    status: unclear
+    status: ga
     t: 27
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578065"
   - name: Sales Order Agent email conversion
     status: unclear
     t: 72
@@ -106,10 +109,12 @@ features:
     verified: false
     status_source: video
   - name: Sales Order Agent shared mailbox support
-    status: unclear
+    status: ga
     t: 96
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578065"
 objects_mentioned: []
 quotes:
   - t: 0
@@ -161,10 +166,12 @@ It also shows how to stop all pending tasks with one click, and notes that folde
 
 | Feature | Status | At |
 |---|---|---|
-| Sales Order Agent folder selection | status not stated, demoed | [0:27](https://www.youtube.com/watch?v=1ht5nxubZ9c&t=27s) |
+| Sales Order Agent folder selection | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)), demoed | [0:27](https://www.youtube.com/watch?v=1ht5nxubZ9c&t=27s) |
 | Sales Order Agent email conversion | status not stated, demoed | [1:12](https://www.youtube.com/watch?v=1ht5nxubZ9c&t=72s) |
 | Stop pending tasks in Sales Order Agent | status not stated, demoed | [1:12](https://www.youtube.com/watch?v=1ht5nxubZ9c&t=72s) |
-| Sales Order Agent shared mailbox support | status not stated | [1:36](https://www.youtube.com/watch?v=1ht5nxubZ9c&t=96s) |
+| Sales Order Agent shared mailbox support | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)) | [1:36](https://www.youtube.com/watch?v=1ht5nxubZ9c&t=96s) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

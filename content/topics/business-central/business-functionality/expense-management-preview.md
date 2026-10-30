@@ -6,12 +6,12 @@ summary: Expense management (preview) in Business Central covers how employee ex
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T08:08:31.110Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -324,7 +324,7 @@ narrative: generated
 
 > Expense management (preview) in Business Central covers how employee expenses are set up, created, reported, approved, posted and reimbursed, with or without the AI-powered Expense Agent. It answers setup, how-to, concept and troubleshooting questions.
 
-Path: [Business functionality](../business-functionality.md) > Expense management (preview) · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../business-functionality.md) > Expense management (preview) · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

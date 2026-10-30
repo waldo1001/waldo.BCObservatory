@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T08:08:38.208Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -119,7 +119,7 @@ links:
     - video/tj1vvsmAMVs
     - video/vyQnSxRGJDA
   posts:
-    - post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97
+    - post/thinkaboutit-be/8348
   guidelines: []
   changes:
     - change/bcapps/10631
@@ -157,7 +157,7 @@ narrative: generated
 
 > Expense Agent (preview) in Business Central is an AI agent that automates expenses. This section answers how to set it up, upload receipts, create mileage expenses, review and edit expenses, build and submit reports, approve or send back reports, and use the mobile app.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Expense Agent (preview) · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Expense Agent (preview) · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -207,7 +207,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12763 [Master] - Bug 654021: [Expense Agent] [Professional] Online: Creating Production - Setup Data Only Company with Delegated Admin access: "'IndirectInsert' permission on TableData 6913 'Expense Pmt Method" - 2610091420000495](../../../changes/bcapps/12763.md) (code change): "Expense Agent delegated admin partner entitlements are updated to grant"
 - [#12810 ExpenseAgent-CAUS-default-VAT-setup-fails](../../../changes/bcapps/12810.md) (code change): "Fixes the Expense Agent default VAT setup failing"
 - [#13058 Bug 656064: Expense Agent: Itemization table holds unrounded values, leading to rounding errors. Also missing currency code.](../../../changes/bcapps/13058.md) (code change): "Expense itemization records now store properly rounded currency amounts"
-- [Ask AI about Dynamics Licensing](../../../posts/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97.md) (community post): "Payables Agent captures, matches and routes vendor invoices for approval"
+- [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../../../posts/thinkaboutit-be/8348.md) (community post): "covers Business Skills, the Expense Agent and what AI interaction means"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../videos/4TE8uwIi91k.md) (video): "Expense agent; mobile app; receipt scanning; mileage tracking"
 - [Expense Agent: Web App Experience (2026 release wave 1)](../../../videos/ARKckFygbWQ.md) (video): "Expense agent; web app experience; receipt capture; receipt extraction; automatic categorization"
 - [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../../videos/cVfZoDwKYpI.md) (video): "Expense Agent; Receipt Extraction via AI; Approval Workflow"

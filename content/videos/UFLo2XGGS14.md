@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:45:10.550Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-10-30T08:03:27.657Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,7 +81,10 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573335
+    - feature/573338
+    - feature/573361
   topics: []
   localizations: []
   videos: []
@@ -121,15 +124,20 @@ cautions:
     t: 358
 features:
   - name: Agentic developer loop
-    status: unclear
+    status: ga
     t: 45
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573335"
+      - "573361"
   - name: Snapshot debugging MCP
-    status: unclear
+    status: ga
     t: 120
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573361"
   - name: AL tool as MCP proxy
     status: unclear
     t: 208
@@ -141,25 +149,33 @@ features:
     verified: false
     status_source: video
   - name: AI language server protocol
-    status: unclear
+    status: ga
     t: 616
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573338"
   - name: Sampling profiling MCP
-    status: unclear
+    status: ga
     t: 671
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573335"
   - name: Session-based profiling workflow
-    status: unclear
+    status: ga
     t: 671
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573335"
   - name: Telemetry-driven agent investigation
-    status: unclear
+    status: ga
     t: 263
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573335"
 objects_mentioned:
   - other Agentic developer loop
   - other ALSP
@@ -226,14 +242,16 @@ Demos cover capturing snapshots with call stacks and variables, profiling a sess
 
 | Feature | Status | At |
 |---|---|---|
-| Agentic developer loop | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=UFLo2XGGS14&t=45s) |
-| Snapshot debugging MCP | status not stated, demoed | [2:00](https://www.youtube.com/watch?v=UFLo2XGGS14&t=120s) |
+| Agentic developer loop | generally available (roadmap [Profile slow Business Central sessions with AI agents](../features/573335.md), [Debug recorded Business Central failures with an AI agent](../features/573361.md)), demoed | [0:45](https://www.youtube.com/watch?v=UFLo2XGGS14&t=45s) |
+| Snapshot debugging MCP | generally available (roadmap [Debug recorded Business Central failures with an AI agent](../features/573361.md)), demoed | [2:00](https://www.youtube.com/watch?v=UFLo2XGGS14&t=120s) |
 | AL tool as MCP proxy | status not stated, demoed | [3:28](https://www.youtube.com/watch?v=UFLo2XGGS14&t=208s) |
 | Visual Studio Code MCP integration | status not stated | [3:28](https://www.youtube.com/watch?v=UFLo2XGGS14&t=208s) |
-| AI language server protocol | status not stated, demoed | [10:16](https://www.youtube.com/watch?v=UFLo2XGGS14&t=616s) |
-| Sampling profiling MCP | status not stated, demoed | [11:11](https://www.youtube.com/watch?v=UFLo2XGGS14&t=671s) |
-| Session-based profiling workflow | status not stated, demoed | [11:11](https://www.youtube.com/watch?v=UFLo2XGGS14&t=671s) |
-| Telemetry-driven agent investigation | status not stated, demoed | [4:23](https://www.youtube.com/watch?v=UFLo2XGGS14&t=263s) |
+| AI language server protocol | generally available (roadmap [Use AL language intelligence from AI agents and other editors](../features/573338.md)), demoed | [10:16](https://www.youtube.com/watch?v=UFLo2XGGS14&t=616s) |
+| Sampling profiling MCP | generally available (roadmap [Profile slow Business Central sessions with AI agents](../features/573335.md)), demoed | [11:11](https://www.youtube.com/watch?v=UFLo2XGGS14&t=671s) |
+| Session-based profiling workflow | generally available (roadmap [Profile slow Business Central sessions with AI agents](../features/573335.md)), demoed | [11:11](https://www.youtube.com/watch?v=UFLo2XGGS14&t=671s) |
+| Telemetry-driven agent investigation | generally available (roadmap [Profile slow Business Central sessions with AI agents](../features/573335.md)), demoed | [4:23](https://www.youtube.com/watch?v=UFLo2XGGS14&t=263s) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

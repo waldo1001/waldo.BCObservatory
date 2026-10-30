@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:45:27.294Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-10-30T08:03:27.657Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -153,12 +153,10 @@ features:
     roadmap_ids:
       - "573362"
   - name: Permission Enforcement
-    status: ga
+    status: unclear
     t: 576
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573362"
+    status_source: video
   - name: Copilot and Agent Capabilities Control
     status: unclear
     t: 623
@@ -182,10 +180,12 @@ features:
     roadmap_ids:
       - "573362"
   - name: Rich Output Formatting
-    status: unclear
+    status: ga
     t: 498
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Progress Messages
     status: ga
     t: 122
@@ -199,10 +199,12 @@ features:
     verified: false
     status_source: video
   - name: UI Context Awareness
-    status: unclear
+    status: ga
     t: 351
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: User Feedback Loop
     status: unclear
     t: 888
@@ -277,15 +279,15 @@ The second half explains how Copilot works: intent detection from conversation h
 | Intent Detection | status not stated | [6:26](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=386s) |
 | Multi-source Data Integration | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [7:09](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=429s) |
 | Citations and Verification | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [13:18](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=798s) |
-| Permission Enforcement | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)) | [9:36](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=576s) |
+| Permission Enforcement | status not stated | [9:36](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=576s) |
 | Copilot and Agent Capabilities Control | status not stated | [10:23](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=623s) |
 | MCP Server Technology | status not stated | [11:17](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=677s) |
 | Extension Guidelines for Copilot | status not stated | [12:36](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=756s) |
 | Conversational Context and Suggestions | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [8:40](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=520s) |
-| Rich Output Formatting | status not stated, demoed | [8:18](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=498s) |
+| Rich Output Formatting | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [8:18](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=498s) |
 | Progress Messages | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [2:02](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=122s) |
 | Vague Query Resolution | status not stated, demoed | [3:37](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=217s) |
-| UI Context Awareness | status not stated, demoed | [5:51](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=351s) |
+| UI Context Awareness | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [5:51](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=351s) |
 | User Feedback Loop | status not stated | [14:48](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=888s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

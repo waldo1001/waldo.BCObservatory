@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.022493
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-30T08:08:33.690Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview calls a subtopic 'Microsoft Copilot chat'; the subtopic is 'Microsoft Copilot in Business Central (preview)', a read-only experience answering natural-language questions about company data. Wording is loose and omits the preview status.",
+      "Preview list in key points could also mention analysis assist, bank account reconciliation assist and Microsoft Copilot in Business Central, which source summaries describe as preview; not wrong since the list says 'including'.",
+      "Business Central AI page is tagged 2025 release wave 2; not mentioned, which is acceptable."
+    ],
+    "input_hash": "24d6a04a73d316d470938668f33d9f31ddf427241318aa2b7b97eca6cd7c2b22",
+    "cost_usd": 0.0653032
   }
 }

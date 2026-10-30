@@ -7,7 +7,7 @@
     "Autofill fills blank editable fields on card and document pages with suggestions.",
     "Suggestions can come from Business Central data, AI generation, or web search results.",
     "Users must review and accept or reject each suggestion before saving.",
-    "Suggestion details are available so users can see where a value came from.",
+    "Users can view details for each suggestion as part of reviewing it.",
     "Web search uses Bing Search and is optional.",
     "The feature uses Azure OpenAI Service and operates under the user's permissions.",
     "Content filtering and malicious site detection are part of the responsible AI safeguards.",
@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.009517
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-30T08:09:06.420Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 4 says suggestion details let users 'see where a value came from'. The source only lists 'Suggestion details' as a feature and does not say what the details contain, so the point is reworded to stay within what the source supports.",
+      "Everything else is supported: preview status (from the page titles), the three suggestion sources, the review-and-accept workflow, Azure OpenAI Service, optional Bing Search, user permissions, content filtering, malicious site detection and version 26.4."
+    ],
+    "input_hash": "b3870fdc1b208a8fbd00e2ad58404b5e42ef599f89e09b4e14977a3ae75aa821",
+    "cost_usd": 0.027779200000000004
   }
 }

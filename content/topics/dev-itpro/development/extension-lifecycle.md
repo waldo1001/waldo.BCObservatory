@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T08:08:27.409Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -334,7 +334,7 @@ narrative: generated
 
 > Extension lifecycle in Business Central covers the phases of an extension from development to deprovisioning, extension types and scopes (global, per-tenant, DEV), and moving apps between scopes. It points to subtopics on migration, translation, testing, deployment, updating, hotfixing and deprecating code.
 
-Path: [Development](../development.md) > Extension lifecycle · tier official · system development · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../development.md) > Extension lifecycle · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:15.779Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,7 +77,6 @@ links:
     - post/jpearson-blog/1485
     - post/jpearson-blog/1535
     - post/jpearson-blog/1601
-    - post/wingate365-com/https-blog-wingate365-com-2026-04-fixing-email-for-guest-users-in-d365-html--c090dc4f1f
   guidelines: []
   changes:
     - change/bcapps/8318
@@ -91,7 +90,7 @@ coverage:
   learn: 5
   code: 0
   video: 1
-  blog: 10
+  blog: 9
   guideline: 0
 bc_forms: []
 member_hash: 5f81750627e96a1b61a6b2522a5843d9ff2fca65b2e2e1fb45389ef056851762
@@ -164,7 +163,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Calling Business Central APIs Without a Client Secret](../../../posts/jpearson-blog/1485.md) (community post): "Managed identities assigned to Azure resources can obtain access tokens without needing client secrets"
 - [Calling Business Central Directly from a Managed Identity](../../../posts/jpearson-blog/1535.md) (community post): "Azure resources to call Business Central APIs securely without creating or storing client secrets"
 - [Integration with Azure Static Web Apps from Business Central](../../../posts/jpearson-blog/1601.md) (community post): "Integration with Azure Static Web Apps from Business Central using the WebPageViewer control add-in"
-- [Fixing Email for Guest Users in D365 Business Central](../../../posts/wingate365-com/https-blog-wingate365-com-2026-04-fixing-email-for-guest-users-in-d365-html--c090dc4f1f.md) (community post): "extension that uses Microsoft Graph to enable guest users to send email as themselves"
 - [Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)](../../../videos/2vUCR16b85o.md) (video): "external file storage; azure blob storage; storage accounts"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

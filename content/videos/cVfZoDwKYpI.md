@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:16:41.310Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-30T08:03:27.657Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -87,6 +87,7 @@ links:
     - object/page/6910
   features:
     - feature/573255
+    - feature/573265
   topics: []
   localizations: []
   videos: []
@@ -259,10 +260,12 @@ features:
     verified: false
     status_source: video
   - name: Mobile Expense Submission
-    status: unclear
+    status: ga
     t: 623
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573265"
   - name: Web App for Expense Entry
     status: unclear
     t: 604
@@ -634,7 +637,7 @@ It then explains how the team built it. The team worked AI-first, with 99 percen
 | Per Diem Allowance Detection | status not stated, demoed | [7:21](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=441s) |  |
 | Multi-Language Receipt Processing | status not stated, demoed | [6:05](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=365s) |  |
 | Currency Conversion | status not stated, demoed | [9:08](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=548s) |  |
-| Mobile Expense Submission | status not stated, demoed | [10:23](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=623s) |  |
+| Mobile Expense Submission | generally available (roadmap [Expense Agent mobile app](../features/573265.md)), demoed | [10:23](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=623s) |  |
 | Web App for Expense Entry | status not stated, demoed | [10:04](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=604s) |  |
 | Approval Workflow | status not stated, demoed | [14:04](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=844s) |  |
 | Policy and Rules Engine | status not stated | [13:02](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=782s) |  |

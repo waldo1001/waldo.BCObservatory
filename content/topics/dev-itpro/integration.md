@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:26.619Z"
   flags: []
 generated:
-  at: "2026-10-29T21:38:16.952Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -373,8 +373,7 @@ links:
   videos:
     - video/gAzmWJg9Z5g
     - video/xqwJTCPD9tA
-  posts:
-    - post/olofsimren-com/3928
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/10143
@@ -409,7 +408,7 @@ coverage:
   learn: 374
   code: 54
   video: 2
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 1
@@ -536,7 +535,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9796 Show a message when an e-document file cannot be viewed or no data could be extracted](../../changes/bcapps/9796.md) (code change): "E-document import handling now displays user-friendly messages when a PDF file cannot be displayed"
 - [#9860 [Bug]: [DE] XRechnung/ZUGFeRD - Item Charge lines exported without a valid unit of measure code (BR-CL-23 / BR-23 on BT-130)](../../changes/bcapps/9860.md) (code change): "XRechnung and ZUGFeRD exporters emit allowance/charge structures and adjust totals and tax"
 - [#9872 Add missing telemetry event IDs to E-Document Session.LogMessage calls](../../changes/bcapps/9872.md) (code change): "Added missing telemetry event IDs to E-Document and Avalara connector apps"
-- [Business Central Case Study: Engineer-to-Order Manufacturing at Zook](../../posts/olofsimren-com/3928.md) (community post): "A NAV to UPS WorldShip Canada interface cut shipment handling from 12 to 20 minutes to about two seconds"
 - [What's New: Key Updates in Learning Content (docs) for Systems Architects and Integration Developers](../../videos/gAzmWJg9Z5g.md) (video): "integration overview; microsoft 365 apps; power platform; dataverse; azure services; web services"
 - [Designing Modern Integrations in Business Central](../../videos/xqwJTCPD9tA.md) (video): "modern integrations; ai agents; integration messages; spec-driven development"
 

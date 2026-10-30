@@ -20,5 +20,16 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.011401
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-30T08:08:15.545Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the overview's reading-order advice (Deployment for new installs, Administration for configuration, Upgrade for existing versions) is inferred from the subtopic scopes. It is reasonable and not contradicted."
+    ],
+    "input_hash": "74e4478021fa08d85d758a239618cd82f93731ebece7a32b8272c2f1e726c77c",
+    "cost_usd": 0.0338
   }
 }

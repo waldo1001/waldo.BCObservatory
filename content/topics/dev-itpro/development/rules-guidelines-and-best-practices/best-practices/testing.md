@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:13.086Z"
   flags: []
 generated:
-  at: "2026-10-29T22:03:43.939Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -58,6 +58,7 @@ links:
     - post/wingate365-com/https-blog-wingate365-com-2025-10-south-coast-summit-2025-ai-driven-page-html--8f5384bed0
   guidelines: []
   changes:
+    - change/bcapps/13326
     - change/bcquality/132
     - change/bcquality/158
     - change/bcquality/159
@@ -117,6 +118,7 @@ Start with "Building an Advanced Sample Extension" to get the sample in place, t
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13326 [Fabric] Clean up test events, app naming, authentication and telemetry](../../../../../changes/bcapps/13326.md) (code change): "Five test-only IsHandled events in Fabric Platform Mgt are now internal"
 - [#132 Refine self-improvement review guidance](../../../../../changes/bcquality/132.md) (code change): "UI handler tests allowed to use semantic capture/reset/assert patterns"
 - [#158 3 AL/BC patterns from CURABIS's internal automated-testing training material](../../../../../changes/bcquality/158.md) (code change): "Use TestPage field .Visible()/.Enabled() to verify UI rendering state"
 - [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../../changes/bcquality/159.md) (code change): "Table Relation Test hook was checked against BCApps source"

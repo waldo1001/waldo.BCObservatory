@@ -1,0 +1,37 @@
+{
+  "item_id": "blog/bccaptain-com-au/https://bccaptain.com.au/2026/08/24/bc-word-layout-mcp-totals-and-page-numbers/",
+  "page_id": "post/bccaptain-com-au/https-bccaptain-com-au-2026-08-24-bc-word-layout-mcp-totals-and-page-numbers--5f64af29b4",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "The layout prints the amount supplied by the report. It does not calculate discounts, tax, or rounding.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "Older Word compatibility settings can cause repeating sections to be lost when someone saves the layout in Word.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2.0.0"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "A number inserted into the default footer can be correct and still be invisible on a one-page printout.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004685,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/bccaptain-com-au/https://bccaptain.com.au/2026/08/04/bc-word-layout-mcp-introduction/",
+  "input_hash": "0110d5243ca58ae44cfa04a4bf1e85189512699113fec7f836181dd792142892",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-30T08:07:46.172Z",
+  "issues": [
+    "One key point gets the v2.0.0 additions wrong. The post names the from-design skill (turning a finished Word design into a bound layout) and the composite skill as the new ones. The skill for designing a new document was not described as new.",
+    "The summary, the other key points, the features, the versions and the quotes all match the post. Both quotes appear word for word."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037546,
+    "posts_in_call": 2
+  }
+}

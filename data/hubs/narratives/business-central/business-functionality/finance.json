@@ -2,7 +2,7 @@
   "hub_id": "topic/business-central/business-functionality/finance",
   "input_hash": "7651e2049f34f24f41a7aae67a260e0a67243cedce7d385d455aed95fdd620f2",
   "summary": "Finance in Business Central covers general ledger and chart of accounts, period closing, dimensions, currencies, receivables, payables, bank reconciliation, VAT, withholding and excise tax, cost accounting, inventory costs, cash flow, analytics, E-Documents and multi-company setups. It answers setup, posting, reporting and compliance questions for accounting work.",
-  "overview": "Finance is the broadest functional area in Business Central. It starts with an overview of financial management and an accounting and bookkeeping guide covering the chart of accounts, posting groups, payment terms, payment methods and payment tolerance. The Accountant Role Center page explains how accountants reach financial pages and reports, invite external accountants and work across companies with the Company Hub.\n\nSubtopics split the work by task. Core ledger work sits in the chart of accounts and G/L, dimensions, currencies and closing years and periods. The order-to-cash and procure-to-pay sides are covered by receivables, payables, prepayments and bank reconciliation. Tax and compliance topics include VAT and E-Documents. Cost accounting, inventory costs and cash flow cover cost and liquidity views. Financial analytics and multi-site organizations handle reporting and consolidation.\n\nThe pages in this section itself cover withholding tax for vendors and employees, a page for viewing withholding tax entries, and excise tax registration. For a new setup, read the financial management overview and the accounting and bookkeeping page first, then go to the subtopic matching the task.",
+  "overview": "The Finance section starts with an overview of financial management and an accounting and bookkeeping guide covering the chart of accounts, posting groups, payment terms, payment methods and payment tolerance. The Accountant Role Center page explains how accountants reach financial pages and reports, invite external accountants and work across companies with the Company Hub.\n\nSubtopics split the work by task. Core ledger work sits in the chart of accounts and G/L, dimensions, currencies and closing years and periods. The order-to-cash and procure-to-pay sides are covered by receivables, payables, prepayments and bank reconciliation. Tax and compliance topics include VAT and E-Documents. Cost accounting, inventory costs and cash flow cover cost and liquidity views. Financial analytics and multi-site organizations handle reporting and consolidation.\n\nThe pages in this section itself cover withholding tax for vendors and employees, a page for viewing withholding tax entries, and excise tax registration. For a new setup, read the financial management overview and the accounting and bookkeeping page first, then go to the subtopic matching the task.",
   "key_points": [
     "Accountant Role Center gives access to financial pages and reports, lets you invite external accountants, and supports multiple companies through the Company Hub.",
     "Accounting and bookkeeping basics include the chart of accounts, posting groups, payment terms, payment methods and payment tolerance.",
@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.023863
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-30T08:08:18.093Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview opens with 'Finance is the broadest functional area in Business Central', which the source summaries do not support (they give no comparison with other areas). I removed it.",
+      "Minor: the overview says receivables, payables, prepayments and bank reconciliation cover both order-to-cash and procure-to-pay. The sources only use the term order-to-cash, for receivables. The grouping is a reasonable reading, so I left it in.",
+      "Everything else checks out: the withholding tax, excise tax, Accountant Role Center and accounting and bookkeeping details, and the 129-page count that makes Financial analytics the largest subtopic."
+    ],
+    "input_hash": "7651e2049f34f24f41a7aae67a260e0a67243cedce7d385d455aed95fdd620f2",
+    "cost_usd": 0.06562
   }
 }

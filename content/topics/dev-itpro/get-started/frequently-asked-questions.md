@@ -6,12 +6,12 @@ summary: Frequently asked questions for Business Central cover AL development, a
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T08:08:39.319Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -120,7 +120,7 @@ narrative: generated
 
 > Frequently asked questions for Business Central cover AL development, app testing, submission, updating and lifecycle on the Marketplace, library apps, marketing validation, migration to Business Central Online, and the discontinued Windows client. Use it for short practical answers on these topics.
 
-Path: [Get started](../get-started.md) > Frequently asked questions · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: [Get started](../get-started.md) > Frequently asked questions · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

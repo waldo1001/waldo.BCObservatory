@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:12.483Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -195,8 +195,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11511 [29.x]Bug 647991 Assembly-to-Order Item Incorrectly Blocks Shipment of Unrelated Sales Order Line](../../../../changes/bcapps/11511.md) (code change): "posting an inventory pick for a non-ATO sales line could fail when an unrelated ATO line"
 - [#11669 Fix reserved-lot re-picking after warehouse reclassification](../../../../changes/bcapps/11669.md) (code change): "A sales line can now re-pick its reserved lot after"
 - [#12842 [main] Bug 653921 Warehouse pick fails with "Nothing to handle" when an earlier unshipped pick uses a non-default shipment bin](../../../../changes/bcapps/12842.md) (code change): "Warehouse pick validation now correctly recognizes picked quantities in non-default shipment bins"
-- [#13166 [Master]-WIP transfer warehouse shipment incorrectly requires Bin Code](../../../../changes/bcapps/13166.md) (code change): "warehouse shipment posting codeunit adjusted to work correctly with transfers"
-- [#13293 [29.X]-WIP transfer warehouse shipment incorrectly requires Bin Code](../../../../changes/bcapps/13293.md) (code change): "Updated warehouse shipment posting logic to handle subcontracting scenarios correctly"
+- [#13166 [Master]-WIP transfer warehouse shipment incorrectly requires Bin Code](../../../../changes/bcapps/13166.md) (code change): "posting a warehouse shipment for a WIP transfer"
+- [#13293 [29.X]-WIP transfer warehouse shipment incorrectly requires Bin Code](../../../../changes/bcapps/13293.md) (code change): "posting a warehouse shipment for a WIP transfer"
 - [#9297 [Main]- Error The Bin Content does not exist.Not able to post an Inventory Pick for Assemble to Order](../../../../changes/bcapps/9297.md) (code change): "Fixed a bug preventing posting of inventory picks for assemble-to-order items"
 - [#9333 [Main]-Bin content Block Movement does not prevent outbound posting for negative adjustments and sales orders](../../../../changes/bcapps/9333.md) (code change): "Bin content blocks are now checked during sales order posting to restrict movements"
 - [#9451 [Extensibility Request] issue 30292: add temporary Warehouse Activity Line parameter to OnBeforeCreateWhseActivHeader](../../../../changes/bcapps/9451.md) (code change): "allowing subscribers to inspect pick lines before a warehouse activity header is created"

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:44:40.362Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-30T08:03:27.657Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -96,7 +96,6 @@ links:
   objects: []
   features:
     - feature/573304
-    - feature/573308
   topics: []
   localizations: []
   videos: []
@@ -190,7 +189,7 @@ features:
     verified: false
     status_source: roadmap
     roadmap_ids:
-      - "573308"
+      - "573304"
   - name: Expense Category Withholding Tax Configuration
     status: preview
     t: 646
@@ -281,7 +280,7 @@ The demo creates a mileage expense and shows the withholding tax entries in prev
 | Configurable Withholding Tax Thresholds | preview (roadmap [Calculate withholding tax automatically in expense reports](../features/573304.md)), demoed | [3:32](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=212s) |
 | Withholding Tax Entries in Preview Posting | preview (roadmap [Calculate withholding tax automatically in expense reports](../features/573304.md)), demoed | [5:52](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=352s) |
 | Withholding Tax Calculation Timing (Invoice vs Payment) | preview (roadmap [Calculate withholding tax automatically in expense reports](../features/573304.md)), demoed | [7:22](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=442s) |
-| Employee Card Withholding Tax Fields | preview (roadmap [Use withholding taxes (WHT) with employee transactions](../features/573308.md)), demoed | [10:11](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=611s) |
+| Employee Card Withholding Tax Fields | preview (roadmap [Calculate withholding tax automatically in expense reports](../features/573304.md)), demoed | [10:11](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=611s) |
 | Expense Category Withholding Tax Configuration | preview (roadmap [Calculate withholding tax automatically in expense reports](../features/573304.md)), demoed | [10:46](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=646s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

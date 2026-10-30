@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:48:09.176Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-30T08:03:27.657Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -157,6 +157,7 @@ links:
     - object/page/6996
   features:
     - feature/573255
+    - feature/573256
   topics: []
   localizations: []
   videos: []
@@ -245,10 +246,12 @@ features:
     roadmap_ids:
       - "573255"
   - name: Credit card provider integration
-    status: unclear
+    status: announced
     t: 221
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573256"
   - name: Expense management rules
     status: unclear
     t: 304
@@ -504,7 +507,7 @@ The demo covers the non-agent path: setup of expense users, categories, subcateg
 | Expense agent with AI-driven categorization | status not stated | [0:44](https://www.youtube.com/watch?v=pjML7lXSsd0&t=44s) |
 | Expense collection and itemization | status not stated, demoed | [1:38](https://www.youtube.com/watch?v=pjML7lXSsd0&t=98s) |
 | Expense approval workflow | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [3:54](https://www.youtube.com/watch?v=pjML7lXSsd0&t=234s) |
-| Credit card provider integration | status not stated | [3:41](https://www.youtube.com/watch?v=pjML7lXSsd0&t=221s) |
+| Credit card provider integration | announced (roadmap [Create expenses from credit card feeds](../features/573256.md)) | [3:41](https://www.youtube.com/watch?v=pjML7lXSsd0&t=221s) |
 | Expense management rules | status not stated, demoed | [5:04](https://www.youtube.com/watch?v=pjML7lXSsd0&t=304s) |
 | Per diem configuration by location | status not stated, demoed | [5:41](https://www.youtube.com/watch?v=pjML7lXSsd0&t=341s) |
 | Expense payment methods | status not stated, demoed | [7:59](https://www.youtube.com/watch?v=pjML7lXSsd0&t=479s) |

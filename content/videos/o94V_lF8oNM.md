@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:44:51.120Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-30T08:03:27.657Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -166,20 +166,26 @@ features:
     verified: false
     status_source: video
   - name: Policy version tracking
-    status: unclear
+    status: preview
     t: 375
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573255"
   - name: Policy override with audit trail
-    status: unclear
+    status: preview
     t: 487
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573255"
   - name: Intelligent policy check optimization
-    status: unclear
+    status: preview
     t: 522
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573255"
 objects_mentioned: []
 quotes:
   - t: 35
@@ -249,9 +255,9 @@ It also shows how submitters can run a policy check before submitting, how chang
 | Policy validation with free text rules | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [0:49](https://www.youtube.com/watch?v=o94V_lF8oNM&t=49s) |
 | Policy check with AI button | status not stated, demoed | [5:00](https://www.youtube.com/watch?v=o94V_lF8oNM&t=300s) |
 | Enhanced receipt itemization | status not stated | [5:49](https://www.youtube.com/watch?v=o94V_lF8oNM&t=349s) |
-| Policy version tracking | status not stated, demoed | [6:15](https://www.youtube.com/watch?v=o94V_lF8oNM&t=375s) |
-| Policy override with audit trail | status not stated | [8:07](https://www.youtube.com/watch?v=o94V_lF8oNM&t=487s) |
-| Intelligent policy check optimization | status not stated, demoed | [8:42](https://www.youtube.com/watch?v=o94V_lF8oNM&t=522s) |
+| Policy version tracking | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [6:15](https://www.youtube.com/watch?v=o94V_lF8oNM&t=375s) |
+| Policy override with audit trail | preview (roadmap [AI-Driven Approvals](../features/573255.md)) | [8:07](https://www.youtube.com/watch?v=o94V_lF8oNM&t=487s) |
+| Intelligent policy check optimization | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [8:42](https://www.youtube.com/watch?v=o94V_lF8oNM&t=522s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

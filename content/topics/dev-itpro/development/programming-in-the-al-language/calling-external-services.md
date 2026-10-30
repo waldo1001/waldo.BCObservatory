@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-29T22:03:43.939Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -96,7 +96,6 @@ links:
     - post/demiliani-com/13640
     - post/demiliani-com/14203
     - post/kauffmann-nl/8332
-    - post/wingate365-com/https-blog-wingate365-com-2026-06-graph-api-email-account-types-for-d365-html--562e57de51
     - post/yzhums-com/56046
     - post/yzhums-com/63735
     - post/yzhums-com/64775
@@ -110,6 +109,7 @@ links:
     - change/bcapps/11993
     - change/bcapps/12140
     - change/bcapps/12194
+    - change/bcapps/12557
     - change/bcapps/12755
     - change/bcapps/5833
     - change/bcapps/8499
@@ -126,7 +126,7 @@ coverage:
   learn: 8
   code: 0
   video: 1
-  blog: 12
+  blog: 11
   guideline: 0
 bc_forms: []
 member_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -174,6 +174,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11993 Enable HTTP requests before Expense Agent setup](../../../../changes/bcapps/11993.md) (code change): "The setup wizard enables HTTP client requests for the Expense Agent extension"
 - [#12140 [Email - SMTP Connector] Fix OAuth Base64URL token parsing](../../../../changes/bcapps/12140.md) (code change): "OAuth2 SMTP authentication now correctly decodes Base64URL tokens"
 - [#12194 Harden web request helpers: opt-in default credentials](../../../../changes/bcapps/12194.md) (code change): "Http Web Request Mgt. and SOAP Web Service Request Mgt. now disable default credentials"
+- [#12557 Implement first-party app authentication for Microsoft Fabric Export](../../../../changes/bcapps/12557.md) (code change): "first-party app authentication to the Microsoft Fabric Mirroring export"
 - [#12755 Flow Service Management: use native HttpClient instead of Web Request Helper](../../../../changes/bcapps/12755.md) (code change): "Flow Service Management.GetEnvironments now calls the endpoint through native AL HttpClient"
 - [#5833 Add Microsoft Graph API Support to SharePoint Connector](../../../../changes/bcapps/5833.md) (code change): "SharePoint Connector now supports Microsoft Graph API as an alternative to REST API"
 - [#8499 Adding `IsVerifiedDomain` to the `AzureADTenant` module](../../../../changes/bcapps/8499.md) (code change): "checks whether a domain is among the tenant's verified domains"
@@ -184,7 +185,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: using SFTP from AL (the native way)](../../../../posts/demiliani-com/13640.md) (community post): "native SFTP Client codeunit for connecting to SFTP servers from AL code"
 - [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../../posts/demiliani-com/14203.md) (community post): "Job queue entries that call external APIs"
 - [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "OAuth library for Business Central's Rest Client module has been released on GitHub"
-- [Graph API Email account types for D365 BC](../../../../posts/wingate365-com/https-blog-wingate365-com-2026-06-graph-api-email-account-types-for-d365-html--562e57de51.md) (community post): "enables Business Central guest users to send email from their home domain addresses using Microsoft Graph API"
 - [Dynamics 365 Business Central: Generate barcode through external services/APIs (Telepen, Swiss QR Code, QR codes with colors, images or text……)](../../../../posts/yzhums-com/56046.md) (community post): "external APIs like QuickChart can generate QR codes and other barcode types through HTTP requests in AL code"
 - [Dynamics 365 Business Central Blog Series: Integrate Business Central with SharePoint](../../../../posts/yzhums-com/63735.md) (community post): "uploading SharePoint files through AL and Graph API, saving reports to SharePoint"
 - [Dynamics 365 Business Central: Integrate with Microsoft Dataverse via APIs (Not using the standard Dataverse connector)](../../../../posts/yzhums-com/64775.md) (community post): "authenticating with OAuth 2.0 and implementing GET, POST, PATCH, and DELETE operations to synchronize data"

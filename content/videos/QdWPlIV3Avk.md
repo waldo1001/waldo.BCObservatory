@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:43:48.340Z"
   flags: []
 generated:
-  at: "2026-10-30T01:07:09.406Z"
+  at: "2026-10-30T08:03:27.657Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -201,11 +201,6 @@ links:
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
-    - to: post/thinkaboutit-be/8348
-      title: "Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions"
-      label: possibly related
-      why: both name Page 50 "Purchase Order"
-      by: code
     - to: post/thedynamicsexplorer-com/9815
       title: Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order
       label: possibly related
@@ -218,6 +213,11 @@ links:
       by: code
     - to: post/thedynamicsexplorer-com/10326
       title: Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge
+      label: possibly related
+      why: both name Table 32 "Item Ledger Entry"
+      by: code
+    - to: post/duiliotacconi-com/1457
+      title: "Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade"
       label: possibly related
       why: both name Table 32 "Item Ledger Entry"
       by: code
@@ -585,7 +585,7 @@ No source states these links: they share an object, a model read them, or a pers
 - [Business Central 29.0: Major Change to Table Extensions & SQL.](../videos/qABlX4AL3GM.md) — possibly related: both name Table 32 "Item Ledger Entry"
 - [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 50 "Purchase Order"
 - [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../videos/Fk6kWTe3f2Y.md) — possibly related: both name Table 32 "Item Ledger Entry"
-- [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../posts/thinkaboutit-be/8348.md) — possibly related: both name Page 50 "Purchase Order"
 - [Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order](../posts/thedynamicsexplorer-com/9815.md) — possibly related: both name Page 51 "Purchase Invoice"
 - [Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”](../posts/thedynamicsexplorer-com/36954.md) — possibly related: both name Page 51 "Purchase Invoice"
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../posts/thedynamicsexplorer-com/10326.md) — possibly related: both name Table 32 "Item Ledger Entry"
+- [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) — possibly related: both name Table 32 "Item Ledger Entry"

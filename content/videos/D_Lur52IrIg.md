@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:43:35.087Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-10-30T08:03:27.657Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -222,6 +222,7 @@ links:
     - feature/573352
     - feature/573359
     - feature/573360
+    - feature/573361
   topics: []
   localizations: []
   videos: []
@@ -392,10 +393,12 @@ features:
     roadmap_ids:
       - "573335"
   - name: Launch snapshot MCP proxy
-    status: unclear
+    status: ga
     t: 1964
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573361"
   - name: Isolated storage explicit read isolation level
     status: unclear
     t: 1072
@@ -549,7 +552,7 @@ It then covers language and compiler changes: default implementations on interfa
 | Static call graph analysis | generally available (roadmap [Audit AL app accessibility and debugging boundaries](../features/573336.md)), demoed | [25:47](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1547s) |
 | Agent-assisted production investigation | generally available (roadmap [Profile slow Business Central sessions with AI agents](../features/573335.md)) | [30:27](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1827s) |
 | Launch profiling MCP proxy | generally available (roadmap [Profile slow Business Central sessions with AI agents](../features/573335.md)), demoed | [31:15](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1875s) |
-| Launch snapshot MCP proxy | status not stated, demoed | [32:44](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1964s) |
+| Launch snapshot MCP proxy | generally available (roadmap [Debug recorded Business Central failures with an AI agent](../features/573361.md)), demoed | [32:44](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1964s) |
 | Isolated storage explicit read isolation level | status not stated | [17:52](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1072s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

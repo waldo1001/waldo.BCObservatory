@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:15.642Z"
   flags: []
 generated:
-  at: "2026-10-26T08:46:07.995Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -127,6 +127,7 @@ links:
     - change/bcapps/11380
     - change/bcapps/11580
     - change/bcapps/11664
+    - change/bcapps/13326
     - change/bcapps/8771
     - change/bcapps/9067
     - change/bcapps/9077
@@ -212,6 +213,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11380 Honor explicit 0% discounts in Sales and Purchase price lists](../../../../changes/bcapps/11380.md) (code change): "Honor explicit 0% discounts in Sales and Purchase price lists preserving subscriber vetoes"
 - [#11580 [Extensibility Request] issue 29654: customize document rejection response](../../../../changes/bcapps/11580.md) (code change): "Enables extensions to define custom rejection states. Preserves default open document behavior"
 - [#11664 Add OnBefore event for approval insertion checks](../../../../changes/bcapps/11664.md) (code change): "An integration event is added to the Approvals Mgmt. codeunit that allows extensions to skip journal insertion approval checks"
+- [#13326 [Fabric] Clean up test events, app naming, authentication and telemetry](../../../../changes/bcapps/13326.md) (code change): "Five test-only IsHandled events in Fabric Platform"
 - [#8771 Add OnBeforeFilterRemovedSourceRecords integration event in Email Impl](../../../../changes/bcapps/8771.md) (code change): "Adds an OnBeforeFilterRemovedSourceRecords integration event with an IsHandled guard"
 - [#9067 Production Definition Wizard - Implementation](../../../../changes/bcapps/9067.md) (code change): "Event publishers expanded with new parameters and integration points like OnBeforeGetProdOrderNeeds"
 - [#9077 [Quality Management] Bug 620326: Reset IsChangingStatus on handled Reopen/Finish early-exit](../../../../changes/bcapps/9077.md) (code change): "Quality Management's Reopen/Finish procedures now properly reset the IsChangingStatus flag"

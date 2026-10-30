@@ -9412,14 +9412,22 @@
     "change/bcapps/12557": {
       "kind": "change",
       "key": "change/bcapps/12557",
-      "hash": "fe8444abf34cd2b0bdc8ebb807d7ef54ee7c73c5ebf9f31951706f9f52bb39cd",
+      "hash": "6a6931c2d1a80a48f824c0bcf867d39c003302e15b21dba23ff6159d6a8db10e",
       "title": "#12557 Implement first-party app authentication for Microsoft Fabric Export",
       "source": "bcapps-prs",
-      "at": "2026-10-30T01:07:40.309Z",
+      "at": "2026-10-30T08:04:02.048Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets",
-          "quote": "Microsoft Fabric Export now uses first-party app authentication instead of user-based credentials"
+          "quote": "Implement first-party app authentication for Microsoft Fabric Export"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
+          "quote": "first-party app authentication to the Microsoft Fabric Mirroring export"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "tests are extended"
         }
       ]
     },
@@ -10193,18 +10201,14 @@
     "change/bcapps/12996": {
       "kind": "change",
       "key": "change/bcapps/12996",
-      "hash": "b23b4a220899d86741ae15982ad95ce8b5a03c6f9f6cf5f081919bcfe2a60588",
+      "hash": "e88d219967bf09a77481cc582821f8151a53d34d2d0630c6e1176fe2132e399a",
       "title": "#12996 [Master] - Bug 651041: [Sustainability][Value Chain] Item Reclassification Journal forces a non-zero Total CO2e and adds it to the item's footprint under Average carbon tracking",
       "source": "bcapps-prs",
-      "at": "2026-10-30T01:07:46.618Z",
+      "at": "2026-10-30T08:04:01.295Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/sustainability-management/sustainability-value-chain",
-          "quote": "Item Reclassification Journals can now post with zero Total CO2e under Average carbon tracking"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/sustainability-management",
-          "quote": "Transfer Sustainability Value Entries correctly record zero CO2e amounts for reclassification moves"
+          "quote": "Item Reclassification Journal forces a non-zero Total CO2e and adds it to the item's footprint"
         }
       ]
     },
@@ -10357,32 +10361,28 @@
     "change/bcapps/13111": {
       "kind": "change",
       "key": "change/bcapps/13111",
-      "hash": "873e7b433ea3601d5d023941df8e2efc36f282d92f60ad2d856748eed5b650b3",
+      "hash": "36c8b63e59dc2d4ef5e1fbee37bb4aa681b1f8f6d91db581c3d238c67371c0e0",
       "title": "#13111 [Backport 29.x] #11046: [Extensibility Request] issue 10889: expose large text modal helper",
       "source": "bcapps-prs",
-      "at": "2026-10-30T01:07:48.692Z",
+      "at": "2026-10-30T08:04:05.993Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/quality-management",
-          "quote": "The Qlty. Edit Large Text page is now accessible to extensions"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/quality-management/set-up-quality-management",
-          "quote": "Enables external developers to extend large text modal functionality"
+          "quote": "large text modal helper on page 20441 Qlty. Edit Large Text in Quality Management"
         }
       ]
     },
     "change/bcapps/13159": {
       "kind": "change",
       "key": "change/bcapps/13159",
-      "hash": "0b9787d579b32e8b1d1163ddb5a4ed03aa9e2b531489e14c2729c1d696881d8a",
+      "hash": "4f02913ba14a3367f951d4cc1a8a1a0bd4e109171d5db1170e3e508fd107d5ee",
       "title": "#13159 [29x] Bug 652332 Issuing multiple Reminders or Finance Charge Memos with Print, produces a PDF only for the last one",
       "source": "bcapps-prs",
-      "at": "2026-10-30T01:07:40.821Z",
+      "at": "2026-10-30T08:04:06.741Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/manage-receivables",
-          "quote": "printing of multiple Reminders or Finance Charge Memos"
+          "quote": "printing of multiple Reminders or Finance Charge Memos so all selected documents"
         }
       ]
     },
@@ -10417,18 +10417,18 @@
     "change/bcapps/13166": {
       "kind": "change",
       "key": "change/bcapps/13166",
-      "hash": "6bc425cde3e9e3d622b914ce638b99ee60267c2031e25289d7756ffed1b5a038",
+      "hash": "9f4204873842764b0efedfe9d3c7cab032c016878da8368c8ade95aedb333c57",
       "title": "#13166 [Master]-WIP transfer warehouse shipment incorrectly requires Bin Code",
       "source": "bcapps-prs",
-      "at": "2026-10-30T01:07:47.637Z",
+      "at": "2026-10-30T08:04:07.614Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
-          "quote": "WIP transfer warehouse shipment posting no longer incorrectly requires a bin code"
+          "quote": "WIP transfer warehouse shipment in Subcontracting no longer incorrectly requires"
         },
         {
           "topic": "topic/business-central/business-functionality/warehouse-management/outbound-warehouse-processes",
-          "quote": "warehouse shipment posting codeunit adjusted to work correctly with transfers"
+          "quote": "posting a warehouse shipment for a WIP transfer"
         }
       ]
     },
@@ -10576,18 +10576,18 @@
     "change/bcapps/13261": {
       "kind": "change",
       "key": "change/bcapps/13261",
-      "hash": "7a14e15c6336650a0ba13955b3c3c9ea7a646f80a98b9352ecedeef30044a822",
+      "hash": "6c65e6a26e31c36ca7fa6e38b6882c6f1fcaa2b9419e131424457f9b82396af7",
       "title": "#13261 [Backport 29.x] [Extensibility Request] [SCM] 2026-10-26",
       "source": "bcapps-prs",
-      "at": "2026-10-30T01:07:48.692Z",
+      "at": "2026-10-30T08:04:05.993Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/quality-management",
-          "quote": "Quality Management and Subcontracting code is backported to BC 29 with extensibility improvements"
+          "quote": "Modifies Qlty. Result Condition Mgmt. and Qlty. Filter Helpers in Quality Management"
         },
         {
           "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
-          "quote": "Improves Subcontracting requisition line extension points"
+          "quote": "Small change to the Subc. RequisitionLine table extension in Subcontracting"
         }
       ]
     },
@@ -10622,18 +10622,18 @@
     "change/bcapps/13293": {
       "kind": "change",
       "key": "change/bcapps/13293",
-      "hash": "9e496e1f9f8c363c8591263bc068797645469ae60712ebf321250ef10ba68a09",
+      "hash": "31928a54e6d43ba96fb4e981a8054d3696a6196055aaaf80af59904232cf2b7a",
       "title": "#13293 [29.X]-WIP transfer warehouse shipment incorrectly requires Bin Code",
       "source": "bcapps-prs",
-      "at": "2026-10-30T01:07:47.637Z",
+      "at": "2026-10-30T08:04:07.614Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
-          "quote": "WIP transfer warehouse shipment no longer requires a Bin Code when posting"
+          "quote": "WIP transfer in Subcontracting no longer incorrectly requires a Bin Code"
         },
         {
           "topic": "topic/business-central/business-functionality/warehouse-management/outbound-warehouse-processes",
-          "quote": "Updated warehouse shipment posting logic to handle subcontracting scenarios correctly"
+          "quote": "posting a warehouse shipment for a WIP transfer"
         }
       ]
     },
@@ -10649,11 +10649,24 @@
     "change/bcapps/13326": {
       "kind": "change",
       "key": "change/bcapps/13326",
-      "hash": "1a553ed43c8d15aec6dc88ad563ebe970afc9dec82676e950b3ee4a56fab6f43",
+      "hash": "e15492bfdea8d2c39da8036c23757b1448a3debd474597d91e6a96afa1760c1d",
       "title": "#13326 [Fabric] Clean up test events, app naming, authentication and telemetry",
       "source": "bcapps-prs",
-      "at": "2026-10-30T01:07:40.309Z",
-      "matches": []
+      "at": "2026-10-30T08:04:02.048Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extensibility/using-events",
+          "quote": "Five test-only IsHandled events in Fabric Platform"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets",
+          "quote": "removed the unused Key Vault first-party client-ID lookup"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing",
+          "quote": "Five test-only IsHandled events in Fabric Platform Mgt are now internal"
+        }
+      ]
     },
     "change/bcapps/13333": {
       "kind": "change",
@@ -10700,14 +10713,14 @@
     "change/bcapps/13413": {
       "kind": "change",
       "key": "change/bcapps/13413",
-      "hash": "595d96607108f49103b6cfdba34f7bc7df00c1f9ddf9d483e8b21b5fd19db643",
+      "hash": "a156ca7a98e97025b2e31666c7e5caa8265cef98638b1d65df947151a657bad7",
       "title": "#13413 Fix localized contact filter control name in Contact Sync",
       "source": "bcapps-prs",
-      "at": "2026-10-30T01:07:48.570Z",
+      "at": "2026-10-30T08:04:07.142Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/relationship-management/manage-contacts",
-          "quote": "contact filter loads correctly in non-English languages"
+          "quote": "The Contact Sync page now uses the localized ContactTxt table caption"
         }
       ]
     },
@@ -19098,6 +19111,98 @@
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-apis",
           "quote": "AL-defined APIs are the future direction Microsoft is moving toward"
+        }
+      ]
+    },
+    "post/bccaptain-com-au/https://bccaptain.com.au/2026/04/27/im-back-and-its-going-to-be-a-busy-few-months/": {
+      "kind": "post",
+      "key": "post/bccaptain-com-au/https://bccaptain.com.au/2026/04/27/im-back-and-its-going-to-be-a-busy-few-months/",
+      "hash": "4b3c8ef5e6a381510e16e6e6c76378c779ce4540200a7fd820f93cf7e6ef3014",
+      "title": "I’m back – and it’s going to be a busy few months!",
+      "source": "bccaptain-com-au",
+      "at": "2026-10-30T08:04:00.814Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "agent automation, AI in development workflows"
+        }
+      ]
+    },
+    "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/04/bc-word-layout-mcp-introduction/": {
+      "kind": "post",
+      "key": "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/04/bc-word-layout-mcp-introduction/",
+      "hash": "81546424aaf73ea5bd3d7acec878b41414155ccc2786a53ef083f8201636576a",
+      "title": "BC Word Layout MCP (Part 1): Get started with AI-assisted Word layouts",
+      "source": "bccaptain-com-au",
+      "at": "2026-10-30T08:04:00.814Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
+          "quote": "AI-assisted tool for developers to modify Word report layouts"
+        }
+      ]
+    },
+    "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/": {
+      "kind": "post",
+      "key": "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/",
+      "hash": "92dccaa426ab736e9bf74d019b8b7362db8a2b795b14aa84ba1e7a20bfe46b18",
+      "title": "BC Word Layout MCP (Part 2): Build your first sales quote layout",
+      "source": "bccaptain-com-au",
+      "at": "2026-10-30T08:04:00.814Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
+          "quote": "custom Word layout for a Business Central sales quote report"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/sales",
+          "quote": "sales quote layout using BC Word Layout MCP"
+        }
+      ]
+    },
+    "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/24/bc-word-layout-mcp-totals-and-page-numbers/": {
+      "kind": "post",
+      "key": "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/24/bc-word-layout-mcp-totals-and-page-numbers/",
+      "hash": "6f4d9028e0b3cc2ce59056213f1466ed1a536aec2460777a0d26c833289bd42a",
+      "title": "BC Word Layout MCP (Part 3): Add totals and page numbers",
+      "source": "bccaptain-com-au",
+      "at": "2026-10-30T08:04:00.814Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
+          "quote": "Adding document totals and page numbers to Word layouts"
+        }
+      ]
+    },
+    "post/bccaptain-com-au/https://bccaptain.com.au/2026/10/18/bc-word-layout-mcp-body-repeaters/": {
+      "kind": "post",
+      "key": "post/bccaptain-com-au/https://bccaptain.com.au/2026/10/18/bc-word-layout-mcp-body-repeaters/",
+      "hash": "b44487ced9fe0191de66ac4c7936341fe55316df0b7f420e4fdc9d8428cf4bc1",
+      "title": "BC Word Layout MCP (Part 4): Customer statements and work-description lines",
+      "source": "bccaptain-com-au",
+      "at": "2026-10-30T08:04:00.814Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
+          "quote": "Word Layout MCP's body repeaters create flexible document structures"
+        }
+      ]
+    },
+    "post/bccaptain-com-au/https://bccaptain.com.au/2026/10/24/bc-word-layout-mcp-formatting-and-templates/": {
+      "kind": "post",
+      "key": "post/bccaptain-com-au/https://bccaptain.com.au/2026/10/24/bc-word-layout-mcp-formatting-and-templates/",
+      "hash": "4ed477daee6b09a361ee99138e4d82d4581aaa1bd1ce0b46e177b30a4701a0e7",
+      "title": "BC Word Layout MCP (Part 5): Format layouts and reuse a Word design",
+      "source": "bccaptain-com-au",
+      "at": "2026-10-30T08:04:01.694Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
+          "quote": "Word layout formatting tools allow changing text and cell styles"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/formatting-report-data",
+          "quote": "set_text_format and set_cell_format tools change visual appearance"
         }
       ]
     },
@@ -29555,22 +29660,22 @@
     "post/thinkaboutit-be/8348": {
       "kind": "post",
       "key": "post/thinkaboutit-be/8348",
-      "hash": "19e2fb72d538ae7ba9b241b135f577660a5fdca63fdb34dbdbc169f0d2074300",
+      "hash": "26fe815ea66cfaf1791cb645d71d049f582a66142955a017b88ff46e844e187d",
       "title": "Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions",
       "source": "thinkaboutit-be",
-      "at": "2026-10-30T01:07:42.737Z",
+      "at": "2026-10-30T08:04:00.642Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "Edit with Copilot moves Business Central Copilot from answering questions"
+          "quote": "Edit with Copilot, which lets users create, update and delete Business Central records and run actions"
         },
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "creating, updating, and deleting records through natural language"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "covers Business Skills, the Expense Agent and what AI interaction means"
         },
         {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central",
-          "quote": "Copilot can interact with custom AL extensions including pages, fields, and actions"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
+          "quote": "what AI interaction means for AL page design"
         }
       ]
     },
@@ -35812,16 +35917,11 @@
     "post/yzhums-com/73637": {
       "kind": "post",
       "key": "post/yzhums-com/73637",
-      "hash": "e32118ad8b76978a62b6f2ce38df315fe0ae444c56acf1b394c139323921eba9",
+      "hash": "c19dd63c0635db9f8eee5c1a110d8d77f519e7a49ce262e3b9d5bd1907e40ef6",
       "title": "Dynamics 365 Business Central: Hide and show list views",
       "source": "yzhums-com",
-      "at": "2026-10-30T01:07:40.178Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-user-settings",
-          "quote": "Users can save, hide, and show filtered views"
-        }
-      ]
+      "at": "2026-10-30T08:04:00.195Z",
+      "matches": []
     },
     "post/yzhums-com/73895": {
       "kind": "post",
@@ -37390,16 +37490,11 @@
     "post/yzhums-com/77021": {
       "kind": "post",
       "key": "post/yzhums-com/77021",
-      "hash": "47b7ed9708eb003bd922dc9940cc097ae8a25c7030477ded5055d0b412dfd159",
+      "hash": "bde6ba3da37f56f2624ebdca6092f2a35cebec0695aebefc6a53db3f8e9a27de",
       "title": "Business Central 2026 release wave 2 (BC29): Page Scripting enters General Availability with two new capabilities",
       "source": "yzhums-com",
-      "at": "2026-10-30T01:07:40.309Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
-          "quote": "enables creation of repeatable user acceptance tests by recording and replaying user actions"
-        }
-      ]
+      "at": "2026-10-30T08:04:00.814Z",
+      "matches": []
     },
     "video/_1LhwG2ZgFw": {
       "kind": "video",

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:44.510Z"
   flags: []
 generated:
-  at: "2026-10-30T01:07:09.406Z"
+  at: "2026-10-30T08:03:27.657Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,7 +80,7 @@ links:
     - object/codeunit/4321
     - object/page/4316
   features:
-    - feature/578068
+    - feature/573352
   topics: []
   localizations: []
   videos: []
@@ -170,12 +170,10 @@ cautions:
     t: 1673
 features:
   - name: Agent creation and configuration
-    status: preview
+    status: unclear
     t: 111
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "578068"
+    status_source: video
   - name: Manage user access for agents
     status: unclear
     t: 180
@@ -267,10 +265,12 @@ features:
     verified: false
     status_source: video
   - name: Optional interface methods
-    status: announced
+    status: ga
     t: 1430
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573352"
   - name: Complex agent scenarios with user intervention
     status: unclear
     t: 1473
@@ -452,7 +452,7 @@ The second half covers shipping. Agents created with instructions in the client 
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Agent creation and configuration | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)), demoed | [1:51](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=111s) |  |
+| Agent creation and configuration | status not stated, demoed | [1:51](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=111s) |  |
 | Manage user access for agents | status not stated, demoed | [3:00](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=180s) |  |
 | Profiles and permissions configuration | status not stated, demoed | [4:02](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=242s) |  |
 | Agent instructions configuration | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=312s) |  |
@@ -471,7 +471,7 @@ The second half covers shipping. Agents created with instructions in the client 
 | Agent factory interface | status not stated | [20:17](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1217s) |  |
 | Agent metadata interface for runtime configuration | status not stated | [22:32](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1352s) |  |
 | Take agent task execution interface | status not stated | [23:18](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1398s) |  |
-| Optional interface methods | announced | [23:50](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1430s) | "This is a feature that's coming up. Actually, Quintin here worked on it, and he's a he's ready to release it almost" ([23:50](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1430s)) |
+| Optional interface methods | generally available (roadmap [Evolve AL interfaces with default implementations](../features/573352.md)) | [23:50](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1430s) | "This is a feature that's coming up. Actually, Quintin here worked on it, and he's a he's ready to release it almost" ([23:50](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1430s)) |
 | Complex agent scenarios with user intervention | status not stated | [24:33](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1473s) |  |
 | AI evaluation tools for agents | status not stated, demoed | [26:54](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1614s) |  |
 | Copilot credit consumption visibility in tests | status not stated, demoed | [27:29](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1649s) |  |

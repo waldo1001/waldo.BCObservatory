@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/bccaptain-com-au/https://bccaptain.com.au/2026/08/24/bc-word-layout-mcp-totals-and-page-numbers/",
+  "url": "https://bccaptain.com.au/2026/08/24/bc-word-layout-mcp-totals-and-page-numbers/",
+  "title": "BC Word Layout MCP (Part 3): Add totals and page numbers",
+  "source": "bccaptain-com-au",
+  "published_at": "2026-08-24T12:00:00.000Z",
+  "words": 796,
+  "summary": "Adding document totals and page numbers to Word layouts in Business Central using BC Word Layout MCP requires distinguishing between document totals (once after all lines) and group subtotals (once per group). The post explains how to insert non-repeating total rows with proper formatting and real Word page numbers that update automatically.",
+  "key_points": [
+    "Clarify whether a total requirement means a document total, group subtotal, or line amount, as the distinction affects layout structure and implementation",
+    "Insert totals as final table rows using insert_table_row with proper cell spanning and formatting, binding to dataset amounts rather than calculating in the layout",
+    "Add page numbers with insert_page_number as real Word fields, not static text, and verify they appear correctly on all pages including first-page-only footers",
+    "Test behavior on representative documents (one-page and multi-page) to confirm totals appear once and page numbers follow printed pages"
+  ],
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "word layouts",
+    "totals",
+    "page numbers",
+    "report design",
+    "mcp tool"
+  ],
+  "objects": [],
+  "features": [
+    "insert_table_row",
+    "insert_subtotal_row",
+    "set_cell_format",
+    "insert_page_number",
+    "repeating sections",
+    "document totals",
+    "page numbering",
+    "field binding"
+  ],
+  "versions": [
+    "v1.1.0",
+    "v2.0.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The layout prints the amount supplied by the report. It does not calculate discounts, tax, or rounding.",
+      "why_it_matters": "Clarifies that totals should come from the dataset, not computed in the layout, ensuring correctness and maintainability"
+    },
+    {
+      "text": "A number inserted into the default footer can be correct and still be invisible on a one-page printout.",
+      "why_it_matters": "Warns that testing must validate actual print behavior, not just visual design in Word, due to footer variations"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006157,
+    "posts_in_call": 1
+  }
+}

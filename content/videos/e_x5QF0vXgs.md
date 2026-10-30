@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:46:54.021Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-10-30T08:03:27.657Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -157,7 +157,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573265
   topics: []
   localizations: []
   videos: []
@@ -202,55 +203,73 @@ cautions:
     t: 336
 features:
   - name: Expense Agent mobile app
-    status: preview
+    status: ga
     t: 0
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573265"
   - name: Receipt capture with native OS detection
-    status: preview
+    status: ga
     t: 153
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573265"
   - name: Social feed view for expenses
-    status: preview
+    status: ga
     t: 65
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573265"
   - name: AI extraction of expense details
-    status: preview
+    status: ga
     t: 97
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573265"
   - name: Inline expense modification
-    status: preview
+    status: ga
     t: 139
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573265"
   - name: Itemization tab for line items
-    status: preview
+    status: ga
     t: 110
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573265"
   - name: Receipt sharing from OS photo library
-    status: preview
+    status: ga
     t: 201
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573265"
   - name: Offline expense capture
-    status: preview
+    status: ga
     t: 236
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573265"
   - name: No Business Central license required
     status: preview
     t: 25
     verified: true
     status_source: video
   - name: iOS and Android support
-    status: announced
+    status: ga
     t: 52
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573265"
 objects_mentioned: []
 quotes:
   - t: 11
@@ -318,16 +337,18 @@ The mobile app lists expenses in a social-media-style feed, one expense per entr
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Expense Agent mobile app | preview, demoed | [0:00](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=0s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
-| Receipt capture with native OS detection | preview, demoed | [2:33](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=153s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
-| Social feed view for expenses | preview, demoed | [1:05](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=65s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
-| AI extraction of expense details | preview, demoed | [1:37](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=97s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
-| Inline expense modification | preview, demoed | [2:19](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=139s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
-| Itemization tab for line items | preview, demoed | [1:50](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=110s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
-| Receipt sharing from OS photo library | preview, demoed | [3:21](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=201s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
-| Offline expense capture | preview, demoed | [3:56](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=236s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
+| Expense Agent mobile app | generally available (roadmap [Expense Agent mobile app](../features/573265.md)), demoed | [0:00](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=0s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
+| Receipt capture with native OS detection | generally available (roadmap [Expense Agent mobile app](../features/573265.md)), demoed | [2:33](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=153s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
+| Social feed view for expenses | generally available (roadmap [Expense Agent mobile app](../features/573265.md)), demoed | [1:05](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=65s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
+| AI extraction of expense details | generally available (roadmap [Expense Agent mobile app](../features/573265.md)), demoed | [1:37](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=97s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
+| Inline expense modification | generally available (roadmap [Expense Agent mobile app](../features/573265.md)), demoed | [2:19](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=139s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
+| Itemization tab for line items | generally available (roadmap [Expense Agent mobile app](../features/573265.md)), demoed | [1:50](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=110s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
+| Receipt sharing from OS photo library | generally available (roadmap [Expense Agent mobile app](../features/573265.md)), demoed | [3:21](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=201s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
+| Offline expense capture | generally available (roadmap [Expense Agent mobile app](../features/573265.md)), demoed | [3:56](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=236s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
 | No Business Central license required | preview | [0:25](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=25s) | "you can expect this new preview mode very soon as Claudio explained" ([5:36](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=336s)) |
-| iOS and Android support | announced, demoed | [0:52](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=52s) | "but of course, we also do support iOS and we are planning to release it to you very soon" ([5:25](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=325s)) |
+| iOS and Android support | generally available (roadmap [Expense Agent mobile app](../features/573265.md)), demoed | [0:52](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=52s) | "but of course, we also do support iOS and we are planning to release it to you very soon" ([5:25](https://www.youtube.com/watch?v=e_x5QF0vXgs&t=325s)) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

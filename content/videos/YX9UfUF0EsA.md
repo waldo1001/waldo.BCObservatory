@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:12.529Z"
   flags: []
 generated:
-  at: "2026-10-26T06:21:45.768Z"
+  at: "2026-10-30T08:03:27.657Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -276,12 +276,10 @@ features:
     verified: false
     status_source: video
   - name: Page and record context in Copilot chat
-    status: ga
+    status: unclear
     t: 1069
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573362"
+    status_source: video
   - name: Message attachments in M365 Copilot
     status: unclear
     t: 1118
@@ -303,10 +301,12 @@ features:
     verified: false
     status_source: video
   - name: M365 Copilot replaces Copilot chat in BC
-    status: unclear
+    status: ga
     t: 908
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Cross-product capability within M365 Copilot
     status: unclear
     t: 816
@@ -485,12 +485,12 @@ The session also covers the tools and agentic loop behind multi-step queries, pe
 | LLM-powered bank reconciliation | status not stated | [3:02](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=182s) |  |
 | LLM-powered auto-fill | status not stated | [3:17](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=197s) |  |
 | Sales order agent | status not stated | [4:24](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=264s) |  |
-| Page and record context in Copilot chat | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [17:49](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1069s) |  |
+| Page and record context in Copilot chat | status not stated, demoed | [17:49](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1069s) |  |
 | Message attachments in M365 Copilot | status not stated, demoed | [18:38](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1118s) |  |
 | Agentic loop for multi-step queries | status not stated, demoed | [19:06](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1146s) |  |
 | Business Central tools suite for Copilot | status not stated | [19:19](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1159s) |  |
 | Rich content delivery in Copilot responses | status not stated, demoed | [19:52](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1192s) |  |
-| M365 Copilot replaces Copilot chat in BC | status not stated, demoed | [15:08](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=908s) |  |
+| M365 Copilot replaces Copilot chat in BC | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [15:08](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=908s) |  |
 | Cross-product capability within M365 Copilot | status not stated, demoed | [13:36](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=816s) |  |
 | Copilot license requirement for M365 Copilot in BC | status not stated | [27:43](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1663s) |  |
 | Limited BC-only access investigation | status not stated | [28:11](https://www.youtube.com/watch?v=YX9UfUF0EsA&t=1691s) |  |

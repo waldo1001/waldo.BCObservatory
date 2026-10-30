@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:14:05.943Z"
   flags: []
 generated:
-  at: "2026-10-30T01:07:09.406Z"
+  at: "2026-10-30T08:03:27.657Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -90,7 +90,6 @@ links:
   objects: []
   features:
     - feature/576802
-    - feature/576839
   topics: []
   localizations: []
   videos: []
@@ -124,24 +123,20 @@ chapters:
     title: Summary and Resources
 features:
   - name: Payment Times Analysis
-    status: ga
+    status: unclear
     t: 47
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "576802"
+    status_source: video
   - name: Aggregation by Company Size
     status: unclear
     t: 153
     verified: false
     status_source: video
   - name: Aggregation by Period
-    status: ga
+    status: unclear
     t: 343
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "576839"
+    status_source: video
   - name: Payment Analysis Statistics
     status: ga
     t: 174
@@ -230,9 +225,9 @@ The demo covers two aggregation options: by company size, as required in Sweden,
 
 | Feature | Status | At |
 |---|---|---|
-| Payment Times Analysis | generally available (roadmap [Comply with Australian Payment Times Reporting bill](../features/576802.md)), demoed | [0:47](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=47s) |
+| Payment Times Analysis | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=47s) |
 | Aggregation by Company Size | status not stated, demoed | [2:33](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=153s) |
-| Aggregation by Period | generally available (roadmap [Use Payment Practices in the UK localization](../features/576839.md)), demoed | [5:43](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=343s) |
+| Aggregation by Period | status not stated, demoed | [5:43](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=343s) |
 | Payment Analysis Statistics | generally available (roadmap [Comply with Australian Payment Times Reporting bill](../features/576802.md)), demoed | [2:54](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=174s) |
 | Payment Analysis Drill-Down | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=268s) |
 | Historical Payment Data Storage | status not stated, demoed | [4:48](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=288s) |

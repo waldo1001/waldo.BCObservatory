@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/bccaptain-com-au/https://bccaptain.com.au/2026/10/18/bc-word-layout-mcp-body-repeaters/",
+  "page_id": "post/bccaptain-com-au/https-bccaptain-com-au-2026-10-18-bc-word-layout-mcp-body-repeaters--dd2b775ce5",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "v2.0.0 includes the fix for descriptions that looked correct in the mock preview but did not print in BC.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2.0.0"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004685,
+    "posts_in_call": 4
+  }
+}

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T08:08:22.163Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -354,13 +354,13 @@ narrative: generated
 
 > Upgrade for Business Central on-premises covers supported upgrade paths, per-release upgrade guides from v14 through v29, known issues, and related conversion and migration articles. It answers which route to take from a source version, what to check first, and how to run the upgrade or install an update.
 
-Path: [Business Central on-premises](../business-central-on-premises.md) > Upgrade · tier official · system platform · narrative **unreviewed** (model text not yet checked)
+Path: [Business Central on-premises](../business-central-on-premises.md) > Upgrade · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 
 This section is the entry point for upgrading Business Central on-premises. The top-level pages give an overview of upgrading to Business Central online or on-premises, a matrix of supported upgrade paths (direct and indirect), and a list of known issues for installation, upgrade and operations.
 
-Each release has its own subtopic: v29 (2026 wave 2), v28, v27, v26 and v25. These cover pre-upgrade considerations, the upgrade steps, and how to install an update for that version. Older releases from spring 2019 (v14) through 2024 wave 1 (v24) are grouped under Earlier versions. Related articles cover converting version 14 C/AL code to AL with Txt2Al and moving tables and fields between extensions with migration.json.
+Each recent release has its own subtopic: v29 (2026 wave 2), v28, v27, v26 and v25. The v26 to v29 guides cover pre-upgrade considerations, the upgrade steps, and how to install an update for that version. The v25 guide covers upgrade paths, installing a version 25 update, report and permission changes, and application and data upgrade steps. Older releases from spring 2019 (v14) through 2024 wave 1 (v24) are grouped under Earlier versions. Related articles cover converting version 14 C/AL code to AL with Txt2Al and moving tables and fields between extensions with migration.json.
 
 Start with the supported upgrade paths page to find your route from the source version. Then open the guide for the target release, and check the known issues page before you begin.
 
@@ -370,7 +370,7 @@ Start with the supported upgrade paths page to find your route from the source v
 - Direct upgrade from v14 to the latest release is not supported from v26 onwards. v14 must be routed through v25.
 - The v29 guide covers upgrading from version 25, 26, 27 or 28 and installing a v29 update.
 - The v28 guide covers database conversion, extension publishing, sync and data upgrade.
-- Guides for v25 to v29 each include pre-upgrade considerations and steps for installing an update.
+- Guides for v26 to v29 include pre-upgrade considerations and steps for installing an update. The v25 guide covers installing an update, report and permission changes, and application and data upgrade steps.
 - Earlier versions cover v14 to v24, including technical upgrade, C/AL to AL conversion, moving tables between extensions and installing updates.
 - Related articles explain Txt2Al for converting version 14 C/AL code, migration.json for table ownership moves, and the India Data Migration Toolkit.
 - Known issues cover PowerShell module failures, evaluation company creation, web server installation, extension sync errors, NavUserPassword authentication and permission sets, across versions 23 to 28.

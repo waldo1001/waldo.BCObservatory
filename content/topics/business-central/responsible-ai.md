@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T08:08:32.465Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -178,7 +178,7 @@ narrative: generated
 
 > Responsible AI in Business Central covers FAQs and application cards for Copilot features and AI agents. It answers questions about what each feature does, its limitations, safety controls, permissions, human review, and how to give feedback.
 
-Path: Responsible AI · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
+Path: Responsible AI · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 

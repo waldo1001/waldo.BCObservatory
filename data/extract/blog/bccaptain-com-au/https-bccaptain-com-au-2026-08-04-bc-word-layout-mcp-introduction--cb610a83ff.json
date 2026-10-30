@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/bccaptain-com-au/https://bccaptain.com.au/2026/08/04/bc-word-layout-mcp-introduction/",
+  "url": "https://bccaptain.com.au/2026/08/04/bc-word-layout-mcp-introduction/",
+  "title": "BC Word Layout MCP (Part 1): Get started with AI-assisted Word layouts",
+  "source": "bccaptain-com-au",
+  "published_at": "2026-08-04T12:00:00.000Z",
+  "words": 810,
+  "summary": "BC Word Layout MCP is an AI-assisted tool for developers and functional consultants to modify Word report layouts in Business Central. It provides inspection, editing, validation, and preview capabilities without requiring knowledge of Word's internal document structure, and works with exported layouts using local file permissions.",
+  "key_points": [
+    "The agent inspects a layout with get_layout_info and list_dataset_fields, then edits, validates and produces a local preview",
+    "The user must confirm which dataset field matches the business requirement, since the agent only finds the fields that are available",
+    "Missing data has to be added to the report or report extension by an AL developer, after which refresh_xml_part updates the working layout",
+    "v2.0.0 adds two skills: one turns a finished Word design into a bound layout, and one handles separate body, header/footer and theme layouts",
+    "Validation and preview do not prove the right values print, so test the layout in a sandbox before replacing a production layout"
+  ],
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "word layouts",
+    "report design",
+    "ai-assisted editing",
+    "mcp",
+    "agent tools",
+    "layout validation"
+  ],
+  "objects": [],
+  "features": [
+    "Word layout inspection",
+    "Layout editing",
+    "Field binding validation",
+    "Document preview generation",
+    "Dataset field listing",
+    "XML part refresh",
+    "Companion design skills"
+  ],
+  "versions": [
+    "v2.0.0",
+    "v1.0.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The layout can only print what the report dataset provides.",
+      "why_it_matters": "Explains why missing fields require AL developer involvement rather than layout-only solutions"
+    },
+    {
+      "text": "Use this short loop: inspect, edit, validate, preview, then test in BC.",
+      "why_it_matters": "Provides the recommended workflow for layout changes before production deployment"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005695,
+    "posts_in_call": 1
+  }
+}

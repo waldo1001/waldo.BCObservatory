@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:02:52.438Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -153,7 +153,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10151 Fix vendor contact relation read permission](../../../../changes/bcapps/10151.md) (code change): "Vendor changes made through indirect permissions no longer fail when the contact update check reads Contact Business Relation"
 - [#10303 [Master]-Modifying a linked contact's common field clears the SIREN field on the associated customer record in the French version.](../../../../changes/bcapps/10303.md) (code change): "The French version now correctly preserves the SIREN field on a customer record when modifying a linked contact"
 - [#10778 [Backport 29.x] Harden Contact Sync delta URL and ownership checks (#9966)](../../../../changes/bcapps/10778.md) (code change): "Contact Sync now validates delta URLs against an approved Microsoft Graph prefix"
-- [#13413 Fix localized contact filter control name in Contact Sync](../../../../changes/bcapps/13413.md) (code change): "contact filter loads correctly in non-English languages"
+- [#13413 Fix localized contact filter control name in Contact Sync](../../../../changes/bcapps/13413.md) (code change): "The Contact Sync page now uses the localized ContactTxt table caption"
 - [#9966 Harden Contact Sync delta URL and ownership checks](../../../../changes/bcapps/9966.md) (code change): "Contact Sync now validates delta URLs against the approved Microsoft Graph endpoint"
 - [Dynamics 365 Business Central: Merge duplicate records (customers, vendors, or contacts)](../../../../posts/yzhums-com/67058.md) (community post): "Merge duplicate records (customers, vendors, or contacts)"
 - [Dynamics 365 Business Central: Search for duplicate contacts (automatic and manual)](../../../../posts/yzhums-com/67162.md) (community post): "Search for duplicate contacts (automatic and manual)"

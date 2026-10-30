@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.016619000000000002
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-30T08:08:39.319Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the key point that library apps 'go through technical validation' rests only on the feature labels ('library app validation', 'technical validation'), not on the page summary text.",
+      "Minor: 'correct marketplace badge use' slightly interprets the feature label 'marketplace badge usage'.",
+      "Minor: the overview links the Windows client page to on-premises users planning a move. The source supports this ('migration guidance for on-premises users'), but the page is mainly about the discontinuation."
+    ],
+    "input_hash": "46b45d6414a4f90e66f3c34523f3578361ac376d7d2018f2a6803404833733fb",
+    "cost_usd": 0.038299200000000005
   }
 }

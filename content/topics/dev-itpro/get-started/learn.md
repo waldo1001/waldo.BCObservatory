@@ -6,12 +6,12 @@ summary: "The Learn section of Business Central's Get started area collects orie
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T08:08:55.543Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -128,7 +128,7 @@ narrative: generated
 
 > The Learn section of Business Central's Get started area collects orientation material: a business functionality overview, process walkthroughs, design details, demo data, and partner resources. It answers questions about what Business Central does, how to practice tasks, and where partners find releases, Copilot and community information.
 
-Path: [Get started](../get-started.md) > Learn · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: [Get started](../get-started.md) > Learn · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

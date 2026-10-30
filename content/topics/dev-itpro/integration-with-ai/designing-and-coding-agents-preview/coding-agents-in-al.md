@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -102,8 +102,6 @@ links:
     - post/demiliani-com/13814
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
-    - post/wingate365-com/https-blog-wingate365-com-2026-04-trying-out-github-copilot-agent-for-html--9cac8e5838
-    - post/wingate365-com/https-blog-wingate365-com-2026-10-directions-emea-2026-paris-the-consultant-zone-and-two-panels-html--9438fa651d
   guidelines: []
   changes:
     - change/bcapps/10007
@@ -202,7 +200,7 @@ coverage:
   learn: 8
   code: 0
   video: 4
-  blog: 9
+  blog: 7
   guideline: 0
 bc_forms: []
 member_hash: 69eac98ac3509b30b15900079714f9d3546b4ea11aac6d5b7228ce8677ee298c
@@ -347,8 +345,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: new model choice in Agent definition.](../../../../posts/demiliani-com/13814.md) (community post): "AL methods allowing administrators to select between available models"
 - [Weekly Review: Business Central AL Development – May 31–June 6, 2026](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165.md) (community post): "AL APIs (SetModelId, GetModelId, etc.) for code-defined agents"
 - [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (community post): "Partners need to develop AI competency through the AI Development Toolkit and Agent Building Sandbox"
-- [Trying out GitHub Copilot Agent for a Functional Task?](../../../../posts/wingate365-com/https-blog-wingate365-com-2026-04-trying-out-github-copilot-agent-for-html--9cac8e5838.md) (community post): "GitHub Copilot Agent can validate large numbers of CSV schema files against Business Central master data"
-- [Directions EMEA 2026 - Paris, the Consultant Zone, and Two Panels](../../../../posts/wingate365-com/https-blog-wingate365-com-2026-10-directions-emea-2026-paris-the-consultant-zone-and-two-panels-html--9438fa651d.md) (community post): "practical AI prompts used in actual Business Central work"
 - [What's New: Coding Business Central Agents with AI Development Toolkit](../../../../videos/EwN3xb2q7vE.md) (video): "Coding Business Central Agents with AI Development Toolkit; Agent Type Definition; Agent Factory Interface"
 - [Introducing: Envision, Design and Code Business Central Agents](../../../../videos/jWqjDTbqjeE.md) (video): "Introducing: Envision, Design and Code Business Central Agents"
 - [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Building and shipping agents in Business Central; agent configuration; permissions"

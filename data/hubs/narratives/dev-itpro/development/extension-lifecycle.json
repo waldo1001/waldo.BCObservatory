@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.015815
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-30T08:08:27.409Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 2 ends with '(2023 release wave 2)', which comes from the page's version tag. It could be read as the date the feature was introduced, which the summaries don't say. Leaving it out or phrasing it as 'documented for 2023 release wave 2' would be safer.",
+      "No key point covers the Updating and hotfixing subtopic (Marketplace app updates, version numbering, hotfix rules, upgrade code). It is only mentioned in the overview."
+    ],
+    "input_hash": "1e7d97343955a339fa0c59f5e6641cd086177de599a949242aff5ecbb5e76c49",
+    "cost_usd": 0.034071199999999996
   }
 }

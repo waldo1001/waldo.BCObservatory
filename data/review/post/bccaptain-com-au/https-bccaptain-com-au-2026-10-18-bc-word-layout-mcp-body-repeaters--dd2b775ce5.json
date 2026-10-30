@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/bccaptain-com-au/https://bccaptain.com.au/2026/10/18/bc-word-layout-mcp-body-repeaters/",
+  "input_hash": "e757bc2ec049bde0423f29f25daa86db68cdacca0f648510806c20e0f2222268",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-30T08:07:45.919Z",
+  "issues": [
+    "The summary and key points match the post's advice on repeaters, the 2.0.0 fix and testing.",
+    "Quote 2 drops the post's inner quotation marks, but the wording is otherwise exact.",
+    "Features are supported, including the nested repeater case."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032144,
+    "posts_in_call": 4
+  }
+}

@@ -2,7 +2,7 @@
   "hub_id": "topic/business-central/business-functionality/finance/reconcile-bank-accounts",
   "input_hash": "247f864481a91c649ec835867759bfb75a0c6db40f33e8ede155c1769ff58bc2",
   "summary": "Bank account reconciliation in Business Central: setting up bank accounts, importing statements, matching entries automatically or manually, applying payments, using Copilot assist, reviewing posted reconciliations, registering bank deposits, and transferring funds between accounts.",
-  "overview": "This section covers the daily and period-end work of keeping bank records in line with the ledger. The core pages explain how to set up bank accounts, import bank statements, and match statement lines to ledger entries by automatic and manual matching. Reconciling helps find missing payments and bookkeeping errors, and posting updates account balances.\n\nA related page covers the Payment Reconciliation Journal, which applies payments to open invoices automatically and relies on bank feed setup and payment matching rules. Copilot reconciliation assist (preview) adds AI-based matching and G/L account suggestions on top of the auto-match operation.\n\nOther pages cover tasks around reconciliation: registering cash deposits as a single bank deposit document, transferring funds between bank accounts through the General Journals page (including different currencies), and reviewing posted reconciliations through Bank Account Statement pages and reports. Start with \"Reconcile bank accounts\" or \"Manage bank accounts\", then go to the task-specific pages.",
+  "overview": "This section covers the regular and period-end work of keeping bank records in line with the ledger. The core pages explain how to set up bank accounts, import bank statements, and match statement lines to ledger entries with automatic and manual matching. Reconciling helps find missing payments and bookkeeping errors, and posting updates account balances.\n\nA related page covers the Payment Reconciliation Journal, which applies payments to open invoices automatically. That page also covers bank feed setup and payment matching rules. Copilot reconciliation assist (preview) adds AI-based matching and G/L account suggestions on top of the auto-match operation.\n\nOther pages cover tasks around reconciliation: registering cash deposits as a single bank deposit document, transferring funds between bank accounts on the General Journals page (including between different currencies), and reviewing posted reconciliations on Bank Account Statement pages and reports. Start with \"Reconcile bank accounts\" or \"Manage bank accounts\", then go to the task-specific pages.",
   "key_points": [
     "Reconciliation matches bank statement entries with ledger entries using automatic and manual matching, with match details and a test report.",
     "Bank statements can be imported, and bank feeds can be set up, to feed reconciliation and payment application.",
@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.018244
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-30T08:08:43.615Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says the section covers 'daily' work. The sources only mention regular reconciliations and period-end reviews, so 'daily' was replaced with 'regular'.",
+      "Overview says the Payment Reconciliation Journal 'relies on' bank feed setup. The sources only list bank feed setup and payment matching rules as topics on that page, so the wording was softened to say the page also covers them.",
+      "Everything else checks out against the page summaries, including the preview label for Copilot, the 2025 release waves 1 and 2, and 2022 release wave 1 for bank deposits."
+    ],
+    "input_hash": "247f864481a91c649ec835867759bfb75a0c6db40f33e8ede155c1769ff58bc2",
+    "cost_usd": 0.040871199999999996
   }
 }

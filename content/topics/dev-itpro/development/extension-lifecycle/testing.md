@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:42.420Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -103,7 +103,6 @@ links:
     - post/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620
     - post/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-14--fcd92522cc
     - post/wingate365-com/https-blog-wingate365-com-2025-10-south-coast-summit-2025-ai-driven-page-html--8f5384bed0
-    - post/yzhums-com/77021
   guidelines: []
   changes:
     - change/al-go/2342
@@ -115,6 +114,7 @@ links:
     - change/bcapps/11747
     - change/bcapps/12325
     - change/bcapps/12463
+    - change/bcapps/12557
     - change/bcapps/7938
     - change/bcapps/8924
     - change/bcapps/9293
@@ -130,7 +130,7 @@ coverage:
   learn: 8
   code: 0
   video: 6
-  blog: 7
+  blog: 6
   guideline: 0
 bc_forms:
   - 149000
@@ -195,6 +195,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11747 [master][Subscription Billing] Sales-Explode BOM fails for foreign-currency customers](../../../../changes/bcapps/11747.md) (code change): "Fixed a Sales Line does not exist error when exploding an Assembly BOM. Added test coverage"
 - [#12325 [Expense tests] Re-enable reviewed APIs and consolidate Expense fixes](../../../../changes/bcapps/12325.md) (code change): "Clean test codeunit execution is turned on"
 - [#12463 Fix Email upgrade writing during no-transaction upgrade test](../../../../changes/bcapps/12463.md) (code change): "Email Installer no longer re-registers email tables based on allowed-table"
+- [#12557 Implement first-party app authentication for Microsoft Fabric Export](../../../../changes/bcapps/12557.md) (code change): "tests are extended"
 - [#7938 Bugs/632378 make quality inspection gen rule warning actionable](../../../../changes/bcapps/7938.md) (code change): "Makes the warning about quality inspection generation rules actionable"
 - [#8924 [QM] Fixed overflow runtime error](../../../../changes/bcapps/8924.md) (code change): "Adds a regression test in the miscellaneous QM tests codeunit"
 - [#9293 [Bug][SubscriptionBilling] Process Usage Data Billing uses lines marked Processing Status = Error (currency mismatch)](../../../../changes/bcapps/9293.md) (code change): "Six new tests added covering the corrected behavior"
@@ -205,7 +206,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Your Tests All Pass. I Have Bad News.](../../../../posts/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620.md) (community post): "Mutation testing is a technique that validates test quality by intentionally breaking code"
 - [Weekly Recap: August 7-14](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-14--fcd92522cc.md) (community post): "AL Runner shipped 85 PRs fixing emulation-to-real-BC divergences in rename propagation"
 - [South Coast Summit 2025 - AI-Driven Page Scripting: Practical Use Cases for Dynamics 365](../../../../posts/wingate365-com/https-blog-wingate365-com-2025-10-south-coast-summit-2025-ai-driven-page-html--8f5384bed0.md) (community post): "AI-Driven Page Scripting: Practical Use Cases for creating and scaling page scripting test automation"
-- [Business Central 2026 release wave 2 (BC29): Page Scripting enters General Availability with two new capabilities](../../../../posts/yzhums-com/77021.md) (community post): "enables creation of repeatable user acceptance tests by recording and replaying user actions"
 - [Microsoft presents: Tests, dependencies, runners and evals for BC applications](../../../../videos/9CW5mydS9Vs.md) (video): "Tests dependencies runners and evals for BC applications"
 - [What's New: AL Language (2025 release wave 1)](../../../../videos/eUkx_VCcyoU.md) (video): "testing; http client; call stack; HTTP Client Handler for Testing"
 - [What's new: Testability Enhancements (2026 release wave 2)](../../../../videos/hNom9ZZuca0.md) (video): "Data-driven Testing in AL"

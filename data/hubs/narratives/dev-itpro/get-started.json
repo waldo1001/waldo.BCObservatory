@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.010877
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-30T08:08:16.322Z",
+    "verdict": "approve",
+    "issues": [
+      "Calling the section the entry point for 'partners and newcomers' is a slight inference, but a reasonable one given the subtopic content.",
+      "The Sell key point links configuration packages to customizing the product. The Sell summary lists both but doesn't connect them directly. Acceptable.",
+      "The Help and support key point says content 'is not summarized in the input', which describes how the narrative was written. 'Content details are not available' would read better for agents."
+    ],
+    "input_hash": "67d793902ca007cc44a5d6c73946ea6694c5a8c5ed94991bf2b3f877f1925841",
+    "cost_usd": 0.035964
   }
 }

@@ -10,7 +10,7 @@
     "Hotfixing a Marketplace app covers validation for non-latest version submissions, with examples of validation release ranges and restrictions.",
     "Hotfix validation includes breaking change detection with AppSourceCop, obsolete pending handling and public API restrictions.",
     "Upgrading Extensions describes upgrade triggers (OnCheckPreconditions, OnUpgrade, OnValidate) and data upgrade or migration.",
-    "Upgrade code execution can be controlled with version data or upgrade tags (2021 release wave 1).",
+    "Upgrade code execution can be controlled with version data or upgrade tags. The Upgrading Extensions page references 2021 release wave 1.",
     "The FAQs include best practices for avoiding submission delays."
   ],
   "members_used": 5,
@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.01637
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-30T08:08:51.761Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 7 ties '2021 release wave 1' to upgrade tags. The source only lists that version for the Upgrading Extensions page as a whole. It does not say which feature the version belongs to, so I reworded the point so it doesn't imply upgrade tags were introduced in that release.",
+      "Small point: the source names the trigger OnValidate, so the narrative uses that name. Kept as written."
+    ],
+    "input_hash": "0e522baeb511689e77619cb9aeacdd27323fb574f2bdb2e98e489e8bb0be7d3c",
+    "cost_usd": 0.0398992
   }
 }

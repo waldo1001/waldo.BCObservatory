@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T08:08:18.093Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -1440,11 +1440,11 @@ narrative: generated
 
 > Finance in Business Central covers general ledger and chart of accounts, period closing, dimensions, currencies, receivables, payables, bank reconciliation, VAT, withholding and excise tax, cost accounting, inventory costs, cash flow, analytics, E-Documents and multi-company setups. It answers setup, posting, reporting and compliance questions for accounting work.
 
-Path: [Business functionality](../business-functionality.md) > Finance · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../business-functionality.md) > Finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Finance is the broadest functional area in Business Central. It starts with an overview of financial management and an accounting and bookkeeping guide covering the chart of accounts, posting groups, payment terms, payment methods and payment tolerance. The Accountant Role Center page explains how accountants reach financial pages and reports, invite external accountants and work across companies with the Company Hub.
+The Finance section starts with an overview of financial management and an accounting and bookkeeping guide covering the chart of accounts, posting groups, payment terms, payment methods and payment tolerance. The Accountant Role Center page explains how accountants reach financial pages and reports, invite external accountants and work across companies with the Company Hub.
 
 Subtopics split the work by task. Core ledger work sits in the chart of accounts and G/L, dimensions, currencies and closing years and periods. The order-to-cash and procure-to-pay sides are covered by receivables, payables, prepayments and bank reconciliation. Tax and compliance topics include VAT and E-Documents. Cost accounting, inventory costs and cash flow cover cost and liquidity views. Financial analytics and multi-site organizations handle reporting and consolidation.
 

@@ -6,12 +6,12 @@ summary: Compliance in Business Central covers how the application and the onlin
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T08:08:55.734Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -96,7 +96,7 @@ narrative: generated
 
 > Compliance in Business Central covers how the application and the online service meet regulatory, certification and SLA requirements. It answers questions about accounting standards, audit trails, country certifications, ISO standards, backup and availability, and which trial features connect to other Microsoft services.
 
-Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Compliance · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Compliance · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

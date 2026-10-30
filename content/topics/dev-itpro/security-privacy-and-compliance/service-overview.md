@@ -7,12 +7,12 @@ tier: official
 language: en
 system: service
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-30T08:08:57.721Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,7 +73,7 @@ narrative: generated
 
 > Service overview covers how Business Central online is built and run: multitenant cloud architecture, availability, backup and disaster recovery, service operations and incident handling, and scalability. It answers questions about reliability, resilience, SLAs, and capacity limits of the online service.
 
-Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Service overview · tier official · system service · narrative **unreviewed** (model text not yet checked)
+Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Service overview · tier official · system service · narrative reviewed (checked by Opus)
 
 ## Overview
 

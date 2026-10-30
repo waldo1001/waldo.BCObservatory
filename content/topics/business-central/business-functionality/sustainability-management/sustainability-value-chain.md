@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T14:23:56.689Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-30T08:09:06.421Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -298,7 +298,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11125 [29.x]-[Sustainability][Value Chain] ESG layouts: request-page option to print emissions by Item Tracking for Specific Carbon Tracking Method](../../../../changes/bcapps/11125.md) (code change): "ESG report layouts now support printing emissions by item tracking details"
 - [#11217 [Master] - Slice 641591: EUDR Certificate Capture for Items](../../../../changes/bcapps/11217.md) (code change): "EUDR certificate information can now be captured and tracked across items"
 - [#11359 [Master] - Bug 648886: [Sustainability][Value Chain] Transfer Order uses average emissions instead of Specific carbon tracking (lot/serial)](../../../../changes/bcapps/11359.md) (code change): "Transfer Order uses average emissions instead of Specific carbon tracking"
-- [#12996 [Master] - Bug 651041: [Sustainability][Value Chain] Item Reclassification Journal forces a non-zero Total CO2e and adds it to the item's footprint under Average carbon tracking](../../../../changes/bcapps/12996.md) (code change): "Item Reclassification Journals can now post with zero Total CO2e under Average carbon tracking"
+- [#12996 [Master] - Bug 651041: [Sustainability][Value Chain] Item Reclassification Journal forces a non-zero Total CO2e and adds it to the item's footprint under Average carbon tracking](../../../../changes/bcapps/12996.md) (code change): "Item Reclassification Journal forces a non-zero Total CO2e and adds it to the item's footprint"
 - [#9039 Adding all Power BI reports to Business Manager's Role Center](../../../../changes/bcapps/9039.md) (code change): "Sustainability module integrated with Power BI reports"
 - [#9613 [Master] - Sustainability: Specific Carbon Tracking, Item Charge emissions & setup fixes (Bugs 641051, 641486, 641487, 641049, 641222, 641055, 641289, 641224, 641309)](../../../../changes/bcapps/9613.md) (code change): "value chain posting, and setup validations"
 - [What's New: Value Chain Automation with Production Orders (2025 release wave 1)](../../../../videos/6d6iajwQQ-c.md) (video): "value chain tracking; sustainability value entries; production orders; emissions"
