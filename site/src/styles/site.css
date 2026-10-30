@@ -278,6 +278,7 @@ td code { font-size: 12.5px; }
 .week-card.is-running { border-style: dashed; }
 .week-card.is-running > :not(.week-card-name) { opacity: .75; }
 .source-card-systems { display: flex; flex-wrap: wrap; gap: 4px 10px; }
+.mvp-tag { margin-left: 8px; vertical-align: 1px; }
 /* C2 and C5: filter blocks of pills with counts; a long facet folds into a closed details */
 .facets { margin: 12px 0 8px; }
 .facets .pills { margin: 4px 0; }
