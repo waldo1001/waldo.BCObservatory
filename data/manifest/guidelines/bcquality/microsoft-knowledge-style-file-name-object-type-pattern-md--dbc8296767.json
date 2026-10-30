@@ -7,33 +7,75 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/file-name-object-type-pattern.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.281Z",
+      "at": "2026-10-30T00:18:33.134Z",
       "blob": "dd8e0f1a8f07630f8dd7768547178b04eec7ba5e",
       "words": 172,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-30T00:18:37.692Z",
+      "path": "content/guidelines/microsoft/knowledge/style/file-name-object-type-pattern.md"
     }
   },
   "input_hash": "dd8e0f1a8f07630f8dd7768547178b04eec7ba5e",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/file-name-object-type-pattern.md",
-    "description": null,
+    "description": "Each AL source file holds a single object, and the file name is expected to be of the form <ObjectName>.<ObjectType>.al — CustomerCard.Page.al, PostSalesInvoice.Codeunit.al, NoSeriesTests.Codeunit.al, SalesHeader.TableExt.al.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "file-name",
+      "object-type",
+      "suffix",
+      "naming-convention"
+    ],
     "ai_usage": null,
-    "words": 172
+    "words": 172,
+    "identifiers": [
+      "TableExt",
+      "XmlPort",
+      "EnumExt",
+      "PermissionSet",
+      "PageExt",
+      "ReportExt"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "file-name",
+        "object-type",
+        "suffix",
+        "naming-convention"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Each AL source file holds a single object, and the file name is expected to be of the form <ObjectName>.<ObjectType>.al — CustomerCard.Page.al, PostSalesInvoice.Codeunit.al, NoSeriesTests.Codeunit.al, SalesHeader.TableExt.al."
+    },
+    "bcq_rule": 1
   },
-  "last_error": "git cat-file -p dd8e0f1a8f07630f8dd7768547178b04eec7ba5e failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch dd8e0f1a8f07630f8dd7768547178b04eec7ba5e from promisor ",
-  "retry_after": "2026-10-29T23:29:24.583Z",
+  "last_error": null,
+  "retry_after": null,
   "output_hash": "dd8e0f1a8f07630f8dd7768547178b04eec7ba5e"
 }

@@ -2,28 +2,31 @@
   "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-agent-expense-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-expense-reports",
   "title": "Create and Submit Expense Reports in Expense Agent",
-  "blob": "25ec5ada8a60303815fdf95d8c0f9461e3d1e827",
-  "summary": "Create and submit expense reports in Expense Agent by grouping related expenses, editing report names, adding receipts, moving expenses between reports, optionally checking policies before submission, and submitting for approval.",
+  "blob": "8bb12a553642768f69aaddb40af38fe3fa919217",
+  "summary": "Expense Agent allows users to create, organize, and submit expense reports by grouping related expenses together. The page covers how to create reports, add or move expenses, check policies before submission, submit for approval, and view history.",
   "systems": [
     "copilot",
+    "finance",
     "integration"
   ],
   "topics": [
-    "expense management",
     "expense reports",
-    "approval workflow",
+    "submission workflow",
     "policy compliance",
-    "ai-assisted review"
+    "expense management",
+    "approval process",
+    "draft organization"
   ],
   "objects": [],
   "features": [
-    "automatic report creation",
-    "expense grouping",
-    "report naming",
-    "add receipts to reports",
-    "move expenses",
-    "pre-submission policy checking",
-    "report submission"
+    "Automatic expense report creation",
+    "Expense grouping by period",
+    "Report renaming",
+    "Add receipts to reports",
+    "Move expenses between reports",
+    "AI-assisted policy evaluation",
+    "Pre-submission policy checking",
+    "Activity timeline history"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007348,
-      "pages_in_call": 5
+      "cost_usd": 0.003941,
+      "pages_in_call": 1
     }
   ]
 }

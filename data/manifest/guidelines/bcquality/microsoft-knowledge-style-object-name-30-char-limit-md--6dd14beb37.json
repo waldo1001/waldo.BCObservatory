@@ -7,33 +7,76 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/object-name-30-char-limit.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:37:46.286Z",
+      "at": "2026-10-30T00:18:40.349Z",
       "blob": "f0e96eef5056845841bd31bb7dd1f16314d2eedb",
       "words": 202,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-30T00:18:44.847Z",
+      "path": "content/guidelines/microsoft/knowledge/style/object-name-30-char-limit.md"
     }
   },
   "input_hash": "f0e96eef5056845841bd31bb7dd1f16314d2eedb",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/style/object-name-30-char-limit.md",
-    "description": null,
+    "description": "Business Central object names — for tables, pages, codeunits, reports, queries, XML ports, enums, and permission sets — are limited to 30 characters in total.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "object-name",
+      "length",
+      "prefix",
+      "affix",
+      "30-characters",
+      "appsource"
+    ],
     "ai_usage": null,
-    "words": 202
+    "words": 202,
+    "identifiers": [
+      "CustLE",
+      "SIPoster",
+      "SalesInv"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "object-name",
+        "length",
+        "prefix",
+        "affix",
+        "30-characters",
+        "appsource"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Business Central object names — for tables, pages, codeunits, reports, queries, XML ports, enums, and permission sets — are limited to 30 characters in total."
+    },
+    "bcq_rule": 1
   },
-  "last_error": "git cat-file -p f0e96eef5056845841bd31bb7dd1f16314d2eedb failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch f0e96eef5056845841bd31bb7dd1f16314d2eedb from promisor ",
-  "retry_after": "2026-10-29T23:29:24.688Z",
+  "last_error": null,
+  "retry_after": null,
   "output_hash": "f0e96eef5056845841bd31bb7dd1f16314d2eedb"
 }

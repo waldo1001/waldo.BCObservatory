@@ -13,7 +13,7 @@
     }
   },
   "input_hash": "fb8544e7fcc622a2ce8e7c26ccb7454c0c918461:c1",
-  "attempts": 0,
+  "attempts": 1,
   "flags": [],
   "meta": {
     "number": 12083,
@@ -28,5 +28,7 @@
     ],
     "community_contribution": false,
     "title_key": "fix bug 652112 public preview if a field such as email is updated programmatically on the customer record the change is not automatically transferred to the associated contact"
-  }
+  },
+  "last_error": "The operation was aborted due to timeout",
+  "retry_after": "2026-10-30T02:18:41.543Z"
 }

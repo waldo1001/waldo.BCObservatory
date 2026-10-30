@@ -2,32 +2,41 @@
   "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-agent-upload-receipts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts",
   "title": "Upload Receipts and Create Mileage Expenses",
-  "blob": "1bc60749e249617d2150907d9306a4d0f0b83673",
-  "summary": "Upload receipts to Expense Agent via web app, email, or mobile app; the agent extracts merchant, amount, date, and category using AI, then assigns expenses to draft reports. Create mileage expenses by specifying trip start and end points, with automatic distance calculation and currency conversion.",
+  "blob": "ef283e353cd864b832fd87592b1cd0561032d75f",
+  "summary": "Expense Agent uses AI to scan receipt images and extract merchant name, amount, date, and category, then automatically adds expenses to draft reports. Users can also create mileage expenses by entering trip details, and upload receipts via web app, mobile app, or email.",
   "systems": [
     "copilot",
-    "integration",
-    "administration"
+    "finance",
+    "integration"
   ],
   "topics": [
-    "receipt upload",
-    "expense extraction",
+    "expense management",
+    "receipt scanning",
+    "ai extraction",
     "mileage expenses",
-    "ai processing",
-    "currency conversion",
     "vat reclaim",
-    "draft reports"
+    "mobile app",
+    "email submission"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Mileage Rate Setup"
+    },
+    {
+      "type": "page",
+      "name": "Expense reports"
+    }
+  ],
   "features": [
-    "Receipt upload via web app and email",
-    "AI-powered data extraction",
+    "Receipt upload and AI scanning",
     "Automatic currency conversion",
     "Mileage expense creation",
+    "Email receipt submission",
     "VAT reclaim identification",
-    "Mobile app support",
-    "Draft report assignment",
-    "Real-time processing status"
+    "Real-time processing status",
+    "Mobile app offline support",
+    "Route selection and validation"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +45,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009249,
-      "pages_in_call": 3
+      "cost_usd": 0.005609,
+      "pages_in_call": 1
     }
   ]
 }

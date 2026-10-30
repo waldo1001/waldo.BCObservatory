@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management-mandatory-features",
   "published_at": "2026-10-29T09:40:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.547Z",
-      "blob": "6eb7ebb8192dc24c158dbaa1806c7944f3eaf640",
-      "words": 3385,
+      "at": "2026-10-30T00:18:22.903Z",
+      "blob": "6177c79d1c84daab5cb9f92f9f14d1794f1a47e8",
+      "words": 3395,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:16:13.634Z",
+      "at": "2026-10-30T00:18:41.534Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.018752
+      "objects": 5,
+      "cost_usd": 0.025275
     },
     "summarized": {
-      "at": "2026-10-06T13:16:13.638Z",
+      "at": "2026-10-30T00:18:41.535Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:16:13.638Z",
+      "at": "2026-10-30T00:18:41.536Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:16:13.639Z",
+      "at": "2026-10-30T00:18:41.537Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/feature-management-mandatory-features.md",
     "description": "Learn about the features that were optional but are now mandatory.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-10-23",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 3385,
+    "words": 3395,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fdf56075d92662622fa863d340e5691f9667e441842f4fed0b2492270bfb5fc6"
+  "output_hash": "d4b17bb24021ac48142a535e2826f5504bcfbc380187c5caba29a72993dc45a3"
 }

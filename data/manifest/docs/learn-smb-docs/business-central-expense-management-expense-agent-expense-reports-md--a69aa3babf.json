@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-expense-reports",
   "published_at": "2026-10-29T10:53:02.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.306Z",
-      "blob": "25ec5ada8a60303815fdf95d8c0f9461e3d1e827",
-      "words": 619,
+      "at": "2026-10-30T00:18:13.199Z",
+      "blob": "8bb12a553642768f69aaddb40af38fe3fa919217",
+      "words": 703,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T12:53:07.917Z",
+      "at": "2026-10-30T00:18:26.196Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.007348
+      "cost_usd": 0.003941
     },
     "summarized": {
-      "at": "2026-10-06T12:53:07.919Z",
+      "at": "2026-10-30T00:18:26.196Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T12:53:07.919Z",
+      "at": "2026-10-30T00:18:26.197Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T12:53:07.920Z",
+      "at": "2026-10-30T00:18:26.198Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/expense-management/expense-agent-expense-reports.md",
     "description": "Learn how to create expense reports, add expenses, move expenses between reports, and submit reports for approval in Expense Agent.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-10-07",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 619,
+    "words": 703,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5c92c2482d389abdc8cf3582ec6af55a344fa05d96f07e4598484a4549cf3d39"
+  "output_hash": "28770f751284bd23741e4624f2d856d0d9e77d95fc41037ead761122ea17b1bc"
 }

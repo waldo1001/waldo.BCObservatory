@@ -6,7 +6,7 @@
   "title": "[Fabric] Remove preview from the mirroring app name",
   "url": "https://github.com/microsoft/BCApps/pull/13419",
   "published_at": "2026-10-29T14:34:26Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-30T00:17:01.742Z"
@@ -30,5 +30,8 @@
     ],
     "community_contribution": false,
     "title_key": "fabric remove preview from the mirroring app name"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-30T00:18:43.331Z",
+  "retry_after": null
 }

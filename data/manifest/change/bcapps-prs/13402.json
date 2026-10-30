@@ -6,7 +6,7 @@
   "title": "[Main]-Fixed Asset Analysis (Excel) report shows Disposal date 1/1/1900 when the asset is not sold. ",
   "url": "https://github.com/microsoft/BCApps/pull/13402",
   "published_at": "2026-10-29T14:35:25Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-30T00:17:01.742Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "fixed asset analysis excel report shows disposal date 1 1 1900 when the asset is not sold"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-30T00:18:29.948Z",
+  "retry_after": null
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management",
   "published_at": "2026-10-29T09:40:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-14T00:20:46.169Z",
-      "blob": "59b48a92999ae118600b87ad7f077a5d4c4f8129",
-      "words": 1969,
+      "at": "2026-10-30T00:18:33.141Z",
+      "blob": "c10cefc0bb1c0832e5e9fa9e318dbce60412f2f2",
+      "words": 1967,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-15T00:20:54.015Z",
+      "at": "2026-10-30T00:18:45.968Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.007363
+      "objects": 2,
+      "cost_usd": 0.010536
     },
     "summarized": {
-      "at": "2026-10-15T00:20:54.021Z",
+      "at": "2026-10-30T00:18:45.969Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-15T00:20:54.022Z",
+      "at": "2026-10-30T00:18:45.969Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-15T00:20:54.023Z",
+      "at": "2026-10-30T00:18:45.970Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/feature-management.md",
     "description": "Learn how to enable select features ahead of time as the administrator of Business Central online or on-premises.",
-    "ms_date": "2026-10-13",
+    "ms_date": "2026-10-23",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -61,11 +61,11 @@
       "what's new"
     ],
     "ai_usage": null,
-    "words": 1969,
+    "words": 1967,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b1e2a1c0a09c2c5816297730c6c96dfd114ea5d3412efcdcbf24798a2c5ac1c4"
+  "output_hash": "4d2f89f18f1891df9521b5968937aec470343bf6daac40526ffe8cb9ec4f522b"
 }

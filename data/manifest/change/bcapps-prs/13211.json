@@ -6,10 +6,35 @@
   "title": "Copy time sheet skips deleted work types and absence reasons",
   "url": "https://github.com/microsoft/BCApps/pull/13211",
   "published_at": "2026-10-29T16:56:45Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-30T00:17:01.742Z"
+    },
+    "fetched": {
+      "at": "2026-10-30T00:18:16.991Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-30T00:18:26.226Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004562
+    },
+    "linked": {
+      "at": "2026-10-30T00:18:26.446Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-30T00:18:26.454Z",
+      "path": "content/changes/bcapps/13211.md"
     }
   },
   "input_hash": "0a4207a440f51942856f0771988b287e632bf78e:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "copy time sheet skips deleted work types and absence reasons"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c4fc8ad94224762e529d1008c72d95095c5bb0f092db14ead1fd6a7e7a0b1cb4"
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts",
   "published_at": "2026-10-29T11:32:00.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.331Z",
-      "blob": "1bc60749e249617d2150907d9306a4d0f0b83673",
-      "words": 1388,
+      "at": "2026-10-30T00:18:06.000Z",
+      "blob": "ef283e353cd864b832fd87592b1cd0561032d75f",
+      "words": 1392,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T12:53:07.918Z",
+      "at": "2026-10-30T00:18:18.175Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.009249
+      "objects": 2,
+      "cost_usd": 0.005609
     },
     "summarized": {
-      "at": "2026-10-06T12:57:31.722Z",
+      "at": "2026-10-30T00:18:18.177Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T12:57:31.723Z",
+      "at": "2026-10-30T00:18:18.178Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T12:57:31.723Z",
+      "at": "2026-10-30T00:18:18.179Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/expense-management/expense-agent-upload-receipts.md",
     "description": "Upload receipts to Expense Agent for AI extraction or create mileage expenses with route-based distance calculation in the web app.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-10-07",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 1388,
+    "words": 1392,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4a191684aa5db4d35caa169434f2994e826ecae7b65662107922230a0192e490"
+  "output_hash": "b452ce400fc112d407d4fa551119edae740a6f673005e3d8eccb4364eb9f1faf"
 }

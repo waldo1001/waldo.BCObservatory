@@ -6,7 +6,7 @@
   "title": "[ES][Verifactu] Support for Digital Seal Certificate",
   "url": "https://github.com/microsoft/BCApps/pull/13360",
   "published_at": "2026-10-29T18:41:57Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-30T00:17:01.742Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "es verifactu support for digital seal certificate"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-30T00:18:06.015Z",
+  "retry_after": null
 }

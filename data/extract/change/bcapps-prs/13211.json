@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13211",
+  "number": 13211,
+  "title": "Copy time sheet skips deleted work types and absence reasons",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "projects",
+    "administration"
+  ],
+  "summary": "Time sheet copying now handles deleted work types and absence reasons gracefully by leaving them blank instead of failing, with a notification alerting users to review affected lines before submission.",
+  "key_points": [
+    "Copy time sheet operations no longer error when work types or absence reasons have been deleted",
+    "Deleted references are left blank on copied lines, requiring users to select valid ones before submitting absence lines",
+    "Time Sheet Details FactBox hides description when the work type or absence reason no longer exists instead of raising an error",
+    "Users receive a single notification after copying showing how many lines have blank work types or absence reasons requiring review",
+    "All other line data (type, description, chargeable status, time details, comments) copies normally"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects"
+  ],
+  "quote": "a work type or cause of absence that no longer exists is left blank",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004562,
+    "changes_in_call": 1
+  }
+}
