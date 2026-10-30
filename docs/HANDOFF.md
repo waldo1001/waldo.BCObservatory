@@ -31,19 +31,18 @@ questions in its section 12).
 
 ## Where things stand
 
-**Built 2026-10-30 (MCP 0.15.0, plugin 0.11.0; needs its publish):**
+**Shipped 2026-10-30 (MCP 0.15.0 published, release mcp-v0.15.0; plugin 0.11.0):**
 - **The observatory in Claude Desktop without Node (D105, M43, issue #24).** A Claude Desktop extension
   `bc-observatory.mcpb` (the server with every dependency inlined, `packages/mcp/mcpb-out/`, packed with
   `packages/mcp/mcpb/manifest.json`) is built and attached to release `mcp-v<version>` by a new `mcpb` job in
   `publish-mcp.yml`; `/mcp` (the "Claude Desktop and chat" tab) and `INSTALL.md` part B lead with the download, the
   config file stays for Linux and those who prefer it. The four skills say when no `bc-observatory` tool is available
-  and link `/mcp/#install`. The download link answers 404 until the first release exists. Operator steps: publish with
-  `gh workflow run publish-mcp.yml --ref main` (D40), which also creates release `mcp-v0.15.0`; then download the
-  `.mcpb` from the MCP page on macOS, double-click, Install, ask "What is table 18 in Business Central? Use BC
-  Observatory." (answer: Customer), and uninstall it under Settings > Extensions. The hosted server stays parked
-  (spec section 8).
+  and link `/mcp/#install`. Published (run 41026606918, both jobs green) and checked by the owner in Claude Desktop on
+  macOS: the extension runs on Desktop's built-in Node and answers in a Desktop chat, not in a cloud task (INSTALL.md
+  says so). Still open: the claude.ai check that a skill without the server says so and links the install page. The
+  hosted server stays parked (spec section 8).
 
-**Built 2026-10-30 (MCP 0.14.0, plugin 0.10.0; needs its publish):**
+**Built 2026-10-30 (MCP 0.14.0, plugin 0.10.0; published, and in 0.15.0):**
 - **MCP resource counts (D127, M62, issue #60).** The MCP sends one unlinked `Obs.Resource` event per page an answer
   points to (index id or `other`; no session, user, client or location; time on the hour). Nothing changes for readers
   or agents until MCP 0.14.0 is published; the notice changed in both READMEs and on the MCP page, which the next site

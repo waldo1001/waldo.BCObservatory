@@ -374,7 +374,7 @@ Changed:
   bullet, "Something went wrong" and "Remove it" are updated as in section 2.
 - [x] The four skills carry the missing-server paragraph verbatim.
 - [x] `packages/mcp/mcpb/manifest.json` validates; `build.ts` writes the fully bundled `mcpb-out/server/server.js`.
-- [ ] `publish-mcp.yml` has the `mcpb` job; after the owner's dispatch, release `mcp-v0.14.0` exists with
+- [x] `publish-mcp.yml` has the `mcpb` job; after the owner's dispatch, release `mcp-v0.14.0` exists with
   `bc-observatory.mcpb` attached, `MCPB_URL` downloads it, and it installs and answers in Claude Desktop on macOS
   (operator).
 - [x] Versions: MCP 0.14.0 and plugin 0.10.0 in every place of section 4.
@@ -440,12 +440,17 @@ passed"; `npx -y @anthropic-ai/mcpb validate packages/mcp/mcpb/manifest.json` pa
 - **Manifest.** Adds `repository` (optional, valid). No `icon`, as section 4 says.
 - **Workflow version check** is shell (`node -p` twice and a compare), not the spec's `node -e`; same effect.
 
-**Not done here (operator steps).**
-- Publish: `gh workflow run publish-mcp.yml --ref main` (D40). It publishes `bc-observatory@0.15.0` and creates
-  release `mcp-v0.15.0` with the extension. Until then `MCPB_URL` answers 404 and the button on `/mcp` leads nowhere.
-- Desktop check on macOS (Definition of Done, the release item, still open): download `MCPB_URL`, double-click,
-  Install, ask "What is table 18 in Business Central? Use BC Observatory." (Customer), uninstall under Settings >
-  Extensions.
+**Operator steps, done 2026-10-30.**
+- Publish: the owner ran `gh workflow run publish-mcp.yml --ref main` (D40), run 41026606918: `publish` and `mcpb`
+  both succeeded on the first run. `bc-observatory@0.15.0` is on npm; release `mcp-v0.15.0` holds
+  `bc-observatory.mcpb`; `MCPB_URL` answers 200 and the downloaded file's manifest says 0.15.0.
+- Desktop check on macOS, by the owner: installed from the `/mcp` button with the old `claude_desktop_config.json`
+  entry removed first; the server log reads "Using built-in Node.js" and "Server started and connected successfully";
+  "What is table 18" answers in a Desktop chat. Found on the way, fixed in `INSTALL.md` afterwards: the extension does
+  not answer in a Desktop task that runs in the cloud (only in chats and in tasks linked to this computer), and its log
+  is `mcp-server-BC Observatory.log` (the display name), not `mcp-server-bc-observatory.log`.
+
+**Still open.**
 - claude.ai check: **Customize > Plugins > Check for updates** shows 0.11.0; a chat asking for table 18 says the
   observatory is missing and links the install page.
 

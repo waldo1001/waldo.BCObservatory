@@ -142,7 +142,9 @@ same account.
 
 ### B. The observatory's own search
 
-Two ways. Use one of the two, not both: two entries give Claude Desktop two bc-observatory servers.
+Two ways. Use one of the two, not both: two entries give Claude Desktop two bc-observatory servers. Either way the
+observatory runs on your Mac, so it answers in Desktop chats and in tasks linked to this computer, not in tasks that
+run in the cloud.
 
 **The extension (no Node, Mac and Windows)**
 
@@ -235,7 +237,8 @@ What is table 18 in Business Central? Use BC Observatory.
 | It still fails on Windows | Replace the two lines `"command": "npx",` and `"args": ["-y", "bc-observatory@latest"]` with `"command": "cmd",` and `"args": ["/c", "npx", "-y", "bc-observatory@latest"]`. Save, then quit and restart Claude Desktop. |
 | "Could not download" in the first answer | The observatory needs to reach `waldo1001.github.io`, `registry.npmjs.org` and `huggingface.co`. On a company network, ask IT to allow all three. |
 | Claude answers but does not use BC Observatory | In the chat, select **+**, then **Connectors**, and check that **bc-observatory** is on. Ask again. |
-| You want to see what went wrong | The log is in `~/Library/Logs/Claude/mcp-server-bc-observatory.log` on a Mac, and in `%APPDATA%\Claude\logs\mcp-server-bc-observatory.log` on Windows. |
+| Claude says it cannot reach BC Observatory, "this session runs in the cloud" | You asked in a task that runs in the cloud. Ask in a Desktop chat instead, or link the task to this computer. |
+| You want to see what went wrong | The log is in `~/Library/Logs/Claude/` on a Mac and in `%APPDATA%\Claude\logs\` on Windows: `mcp-server-BC Observatory.log` for the extension, `mcp-server-bc-observatory.log` for the config file. |
 
 Updates: with the config file they come by themselves, because every time Claude Desktop starts it fetches the newest
 BC Observatory. The extension stays at the version you installed: download the file again and install it over the old
