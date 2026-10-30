@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Use the Expense Agent Mobile App (preview)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-mobile-app",
-  "published_at": "2026-10-05T08:46:22.000Z",
+  "published_at": "2026-10-29T11:32:00.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,48 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.311Z",
-      "blob": "94283511e2907d0ba5ba8cf1b24c4b958f6daee0",
-      "words": 1980,
+      "at": "2026-10-30T00:17:42.391Z",
+      "blob": "e6db447d099d44c4fb808d715297e86e8834174f",
+      "words": 2142,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T12:53:07.917Z",
+      "at": "2026-10-30T00:17:49.859Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.007348
+      "objects": 2,
+      "cost_usd": 0.01144
     },
     "summarized": {
-      "at": "2026-10-06T12:53:40.738Z",
+      "at": "2026-10-30T00:17:49.860Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T12:53:40.738Z",
+      "at": "2026-10-30T00:17:49.861Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T12:53:40.738Z",
+      "at": "2026-10-30T00:17:49.862Z",
       "page": false
     }
   },
-  "input_hash": "94283511e2907d0ba5ba8cf1b24c4b958f6daee0",
+  "input_hash": "e6db447d099d44c4fb808d715297e86e8834174f",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/expense-management/expense-agent-mobile-app.md",
     "description": "Capture receipts on the go with the Business Central Expenses mobile app for iOS and Android, featuring document scanning and offline support.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-10-07",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 1980,
+    "words": 2142,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "035c3ee24d5e8f23df22d70f4dc65f856bc61e1ff7d8e966109f17d186519c2b"
+  "output_hash": "0f9d40c8f120e3bd01fcede21a10db8b5e1a8a7a131d4c8410cadf4d8d8ac1f2"
 }

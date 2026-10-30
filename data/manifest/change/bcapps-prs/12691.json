@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/12691",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Support customer registration number as e-document party identifier for DE",
+  "url": "https://github.com/microsoft/BCApps/pull/12691",
+  "published_at": "2026-10-29T09:52:14Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-30T00:17:01.742Z"
+    }
+  },
+  "input_hash": "82e25f5ca8ed8ed87baab7d0360021cccf60e7c4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12691,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "82e25f5ca8ed8ed87baab7d0360021cccf60e7c4",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "support customer registration number as e document party identifier for de"
+  }
+}

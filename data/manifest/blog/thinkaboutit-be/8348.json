@@ -7,7 +7,7 @@
   "url": "https://thinkaboutit.be/2026/10/directions-emea-2026-day-1-copilot-moves-from-answers-to-actions/",
   "published_at": "2026-10-28T09:32:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-29T00:16:37.959Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-29T00:17:08.090Z",
       "path": "vault:posts/thinkaboutit-be/8348.md",
       "words": 1993
+    },
+    "extracted": {
+      "at": "2026-10-30T00:17:55.495Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005238
+    },
+    "summarized": {
+      "at": "2026-10-30T00:18:02.331Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-30T00:18:02.332Z"
+    },
+    "published": {
+      "at": "2026-10-30T00:18:02.345Z",
+      "path": "content/posts/thinkaboutit-be/8348.md"
     }
   },
   "input_hash": "2026-10-28T09:33:42.000Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "afe854a05cb3583dac507b67b3d4ec15f0d047bcf0c42fd9a99293e65bce951c"
+  "output_hash": "aa8f4e8d926c862d1c7f4b504d705554846a208848a9ee8053c738cce302be27"
 }

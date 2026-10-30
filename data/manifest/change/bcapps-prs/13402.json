@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13402",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Fixed Asset Analysis (Excel) report shows Disposal date 1/1/1900 when the asset is not sold. ",
+  "url": "https://github.com/microsoft/BCApps/pull/13402",
+  "published_at": "2026-10-29T14:35:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-30T00:17:01.742Z"
+    }
+  },
+  "input_hash": "f4008283bca28b3a56e9c18a32c8f73dd24490f6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13402,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f4008283bca28b3a56e9c18a32c8f73dd24490f6",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fixed asset analysis excel report shows disposal date 1 1 1900 when the asset is not sold"
+  }
+}

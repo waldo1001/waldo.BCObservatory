@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12083",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix-Bug 652112 Public Preview: If a field such as \"Email\" is updated programmatically on the customer record, the change is not automatically transferred to the associated contact.",
+  "url": "https://github.com/microsoft/BCApps/pull/12083",
+  "published_at": "2026-10-29T15:03:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-30T00:17:01.742Z"
+    }
+  },
+  "input_hash": "fb8544e7fcc622a2ce8e7c26ccb7454c0c918461:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12083,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "fb8544e7fcc622a2ce8e7c26ccb7454c0c918461",
+    "author": "v-praghav",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix bug 652112 public preview if a field such as email is updated programmatically on the customer record the change is not automatically transferred to the associated contact"
+  }
+}

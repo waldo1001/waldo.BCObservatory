@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/13435",
+  "number": 13435,
+  "title": "Adding Work Type read permissions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "Work Type read permissions were added to the Time Sheets Edit permission set to align with recent changes to the Time Sheets feature.",
+  "key_points": [
+    "Added missing Work Type read permissions to Time Sheets - Edit permissionset",
+    "Aligns with changes made in related PRs to Time Sheets functionality",
+    "Ensures proper access control for users editing time sheets"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects"
+  ],
+  "quote": "Adding missing permissions to https://github.com/microsoft/BCApps/pull/13245 based on changed https://github.com/microsoft/BCApps/pull/13211",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003463,
+    "changes_in_call": 2
+  }
+}

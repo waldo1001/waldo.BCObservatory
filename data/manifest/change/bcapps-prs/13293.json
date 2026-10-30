@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13293",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]-WIP transfer warehouse shipment incorrectly requires Bin Code",
+  "url": "https://github.com/microsoft/BCApps/pull/13293",
+  "published_at": "2026-10-29T12:14:22Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-30T00:17:01.742Z"
+    }
+  },
+  "input_hash": "0b21c26511afc7e7eb564ab491222ca5552b2a5f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13293,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "0b21c26511afc7e7eb564ab491222ca5552b2a5f",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "wip transfer warehouse shipment incorrectly requires bin code"
+  }
+}

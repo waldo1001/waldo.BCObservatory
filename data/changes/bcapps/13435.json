@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13435,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13435",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-10-29T20:26:30Z",
+  "merge_commit_sha": "7aa49e808916c060dbee97d9ff324a2cfda8d422",
+  "author": "VolodySyn",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Adding Work Type read permissions",
+  "body_hash": "994caa3f5ab632b12d1548b2760cacb94801f289509b896f68d36cd7f5f53e53",
+  "fixes_issues": [],
+  "work_items": [
+    656564
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Resources/Time Sheets/TimeSheetsEdit.PermissionSet.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 3,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "4c1c1638beb6d5da8540cc1f61889b80c7b3356f",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Permissions/OnPrem/Resources/Time Sheets/TimeSheetsEdit.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/4450",
+        "type": "permissionset",
+        "id": 4450,
+        "name": "Time Sheets - Edit",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "permissionset/4450"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "administration"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

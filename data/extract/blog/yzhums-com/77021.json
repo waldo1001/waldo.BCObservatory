@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/yzhums-com/77021",
+  "url": "https://yzhums.com/77021/",
+  "title": "Business Central 2026 release wave 2 (BC29): Page Scripting enters General Availability with two new capabilities",
+  "source": "yzhums-com",
+  "published_at": "2026-10-29T01:58:54.000Z",
+  "words": 371,
+  "summary": "Page Scripting tool in Business Central 2026 wave 2 (BC29) reaches general availability with support for selecting multiple rows in grids and validating dialog text. The tool allows recording and replaying user actions in the web client to create repeatable user acceptance tests without writing code.",
+  "key_points": [
+    "Page Scripting moves from preview to general availability with full localization and accessibility improvements",
+    "New capabilities include multi-row selection in grids and text validation in message and error dialogs",
+    "Enables creation of repeatable user acceptance tests by recording and replaying user actions without AL code",
+    "Captures bulk workflows and validates expected messages, making recordings into meaningful process checks"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "reporting"
+  ],
+  "topics": [
+    "page scripting",
+    "user acceptance testing",
+    "automation",
+    "web client",
+    "general availability",
+    "business central 2026"
+  ],
+  "objects": [],
+  "features": [
+    "Page scripting tool",
+    "Multi-row selection in grids",
+    "Dialog text validation",
+    "Action recording and replay",
+    "User acceptance testing"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Customers, consultants, and testers can create repeatable user acceptance tests for real business processes without writing AL code.",
+      "why_it_matters": "This demonstrates the practical business value of eliminating the need for code-based testing, making acceptance testing accessible to non-developers"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005033,
+    "posts_in_call": 1
+  }
+}

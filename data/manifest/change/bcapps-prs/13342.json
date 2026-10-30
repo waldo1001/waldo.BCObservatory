@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13342",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] Incorrect Buyer/Seller Registration No. Written to Detailed GST Ledger Entry When Posting Purchase Invoice Without Order Address",
+  "url": "https://github.com/microsoft/BCApps/pull/13342",
+  "published_at": "2026-10-29T09:23:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-30T00:17:01.742Z"
+    }
+  },
+  "input_hash": "792135fef9fcb93f272c1cf6312549553a3b37fc:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13342,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "792135fef9fcb93f272c1cf6312549553a3b37fc",
+    "author": "v-ajaztabrez",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "incorrect buyer seller registration no written to detailed gst ledger entry when posting purchase invoice without order address"
+  }
+}

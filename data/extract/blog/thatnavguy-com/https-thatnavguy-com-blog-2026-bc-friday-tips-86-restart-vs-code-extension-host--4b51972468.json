@@ -1,0 +1,49 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-86-restart-vs-code-extension-host/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-86-restart-vs-code-extension-host/",
+  "title": "BC Friday Tips #86 Restart the VS Code Extension Host",
+  "source": "thatnavguy-com",
+  "published_at": "2026-10-30T00:00:00.000Z",
+  "words": 119,
+  "summary": "Restarting the VS Code AL extension host via Command Palette can resolve build failures without reloading the entire window, reducing developer interruptions when the AL extension appears stuck.",
+  "key_points": [
+    "Run 'Developer: Restart Extension Host' from Command Palette (Ctrl+Shift+P) when AL builds fail",
+    "Restarts only the extension process, not the whole VS Code window",
+    "Resolves errors like 'The package could not be created' without full window reload",
+    "Reduces development workflow interruptions"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "al extension",
+    "vs code",
+    "build errors",
+    "developer workflow"
+  ],
+  "objects": [],
+  "features": [
+    "AL extension",
+    "VS Code integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Try running Developer: Restart Extension Host from the Command Palette (Ctrl+Shift+P).",
+      "why_it_matters": "Provides the exact command to resolve extension issues without window reload"
+    },
+    {
+      "text": "This restarts the process that runs VS Code extensions, including the AL extension, while keeping the window open.",
+      "why_it_matters": "Explains why this approach is faster than reloading the entire VS Code window"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005238,
+    "posts_in_call": 4
+  }
+}

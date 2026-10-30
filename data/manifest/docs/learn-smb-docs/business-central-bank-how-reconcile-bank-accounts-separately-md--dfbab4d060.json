@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately",
   "published_at": "2026-10-28T13:48:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:42:47.920Z",
+      "at": "2026-10-30T00:17:41.536Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.005962
+      "objects": 7,
+      "cost_usd": 0.008776
     },
     "summarized": {
-      "at": "2026-10-06T18:43:00.947Z",
+      "at": "2026-10-30T00:17:41.542Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:43:00.948Z",
+      "at": "2026-10-30T00:17:41.543Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:43:00.949Z",
+      "at": "2026-10-30T00:17:41.544Z",
       "page": false
     }
   },
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "203b9e8083a1845f256b9f03a4e1224e28baf73f"
+  "output_hash": "58abbd986ff8a1610d38c5d48fc1a1b71f65e1dbb00ee7ded9976851fc772e3e"
 }

@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13435",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Adding Work Type read permissions",
+  "url": "https://github.com/microsoft/BCApps/pull/13435",
+  "published_at": "2026-10-29T20:26:30Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-30T00:17:01.742Z"
+    },
+    "fetched": {
+      "at": "2026-10-30T00:17:34.120Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-30T00:17:41.725Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003463
+    },
+    "linked": {
+      "at": "2026-10-30T00:17:41.925Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "4c1c1638beb6d5da8540cc1f61889b80c7b3356f"
+    },
+    "published": {
+      "at": "2026-10-30T00:17:42.044Z",
+      "path": "content/changes/bcapps/13435.md"
+    }
+  },
+  "input_hash": "7aa49e808916c060dbee97d9ff324a2cfda8d422:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13435,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "7aa49e808916c060dbee97d9ff324a2cfda8d422",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "adding work type read permissions"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6e05d6c3ffd2725687ea7d176b036ab9eec47417c685b041f85d2653c73bbc8d"
+}

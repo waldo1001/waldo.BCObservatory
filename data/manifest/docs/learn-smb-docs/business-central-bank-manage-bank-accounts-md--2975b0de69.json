@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-manage-bank-accounts",
   "published_at": "2026-10-28T13:48:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:32:23.279Z",
+      "at": "2026-10-30T00:17:41.538Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.002831
+      "objects": 3,
+      "cost_usd": 0.008776
     },
     "summarized": {
-      "at": "2026-10-06T19:32:23.361Z",
+      "at": "2026-10-30T00:17:41.545Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:23.363Z",
+      "at": "2026-10-30T00:17:41.546Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:23.365Z",
+      "at": "2026-10-30T00:17:41.547Z",
       "page": false
     }
   },
@@ -79,5 +79,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cdd4794bcfbc056dbe93064dcf64f24a22557942"
+  "output_hash": "b0c20ddeb47c92f5c37ce5dd07d4230f4374c24baecc2677f6d5f8edd1e88605"
 }

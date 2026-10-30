@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/yzhums-com/73637",
+  "url": "https://yzhums.com/73637/",
+  "title": "Dynamics 365 Business Central: Hide and show list views",
+  "source": "yzhums-com",
+  "published_at": "2026-05-28T01:58:59.000Z",
+  "words": 392,
+  "summary": "Users can save, hide, and show filtered views on Business Central list pages to control which views appear in the filter pane, with hidden views recoverable through Personalization mode.",
+  "key_points": [
+    "Save filtered lists as views by entering a name in the filter pane; views persist across devices and browsers",
+    "Hide views using the arrowhead menu to temporarily remove them from the filter pane without permanent deletion",
+    "Preset views cannot be removed, only hidden",
+    "Unhide hidden views through Personalization mode by selecting 'Show'",
+    "Resetting views via 'Clear personalization' permanently deletes user-created views"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "list views",
+    "filters",
+    "personalization",
+    "user experience"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "list pages"
+    }
+  ],
+  "features": [
+    "View management",
+    "Filtering",
+    "Personalization",
+    "View persistence"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The solution is actually very straightforward. We just need to make it visible again through the Personalization mode.",
+      "why_it_matters": "Explains how to recover hidden views when the Show action appears unavailable in the normal interface"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005238,
+    "posts_in_call": 4
+  }
+}

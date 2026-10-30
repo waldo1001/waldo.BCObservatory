@@ -719,6 +719,15 @@
       "title_key": "fix saas state leak in permissions test populatepermissionbuffer tests"
     }
   ],
+  "12439": [
+    {
+      "number": 13355,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-29T14:50:47Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13355",
+      "title_key": "style bom and routing statuses consistently"
+    }
+  ],
   "12445": [
     {
       "number": 13006,
@@ -735,6 +744,15 @@
       "merged_at": "2026-10-22T11:15:54Z",
       "url": "https://github.com/microsoft/BCApps/pull/13009",
       "title_key": "fix contoso serial number series descriptions"
+    }
+  ],
+  "12449": [
+    {
+      "number": 13357,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-29T14:50:23Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13357",
+      "title_key": "restore subcontracting defaults on reinstall"
     }
   ],
   "12472": [
@@ -773,6 +791,15 @@
       "title_key": "bug 649862 29 x restore subcontracting get receipt lines"
     }
   ],
+  "12672": [
+    {
+      "number": 13356,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-29T14:51:46Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13356",
+      "title_key": "fix tracked direct transfer inventory put away posting"
+    }
+  ],
   "12696": [
     {
       "number": 12899,
@@ -780,6 +807,15 @@
       "merged_at": "2026-10-21T08:29:17Z",
       "url": "https://github.com/microsoft/BCApps/pull/12899",
       "title_key": "bug 653927 29 x saf t no totaldebit and totalcredit differ from exported amounts after reversals"
+    }
+  ],
+  "12698": [
+    {
+      "number": 13353,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-29T13:22:03Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13353",
+      "title_key": "optimize quality management inventory and trigger checks"
     }
   ],
   "12813": [
@@ -1994,6 +2030,55 @@
       "merged_at": "2026-10-28T15:49:35Z",
       "url": "https://github.com/microsoft/BCApps/pull/13257",
       "title_key": "feature 623913 eet 2 0 backported from main"
+    },
+    {
+      "number": 13343,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-29T07:46:59Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13343",
+      "title_key": "incorrect buyer seller registration no written to detailed gst ledger entry when posting purchase invoice without order address"
+    },
+    {
+      "number": 13335,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-29T07:47:18Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13335",
+      "title_key": "fix 656830 use location state for isd purchase credit memo posting"
+    },
+    {
+      "number": 12977,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-29T11:09:15Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12977",
+      "title_key": "closing the bc browser tab during quote to order reservation leaves a partial sales order and the source quote"
+    },
+    {
+      "number": 13234,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-29T11:09:21Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13234",
+      "title_key": "service order created from service contract does not populate header dimensions until dimensions action is opened"
+    },
+    {
+      "number": 13412,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-29T12:17:34Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13412",
+      "title_key": "fix localized contact filter control name in contact sync"
+    },
+    {
+      "number": 13422,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-29T13:31:00Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13422",
+      "title_key": "backport ten sales order agent fixes from main september october 2026"
+    },
+    {
+      "number": 12693,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-29T13:50:10Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12693",
+      "title_key": "fabric backport business central mirroring to fabric"
     }
   ]
 }

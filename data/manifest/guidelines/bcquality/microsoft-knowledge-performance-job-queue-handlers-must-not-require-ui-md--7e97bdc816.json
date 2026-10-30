@@ -7,33 +7,74 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/job-queue-handlers-must-not-require-ui.md",
   "published_at": "2026-09-15T07:32:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:34:13.930Z",
+      "at": "2026-10-30T00:17:42.339Z",
       "blob": "598727039d5b0f2b4b00f6db1bf2105ee1fb1e9d",
       "words": 182,
       "forms": 0
+    },
+    "published": {
+      "at": "2026-10-30T00:17:42.443Z",
+      "path": "content/guidelines/microsoft/knowledge/performance/job-queue-handlers-must-not-require-ui.md"
     }
   },
   "input_hash": "598727039d5b0f2b4b00f6db1bf2105ee1fb1e9d",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/performance/job-queue-handlers-must-not-require-ui.md",
-    "description": null,
+    "description": "A job queue handler runs in a background session with no client UI. Calls that require a client callback, such as Confirm, Page.RunModal, Report.RunModal, upload, or download, can stop the job with a non-retriable callback error.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
-    "keywords": [],
+    "keywords": [
+      "job-queue",
+      "background-session",
+      "guiallowed",
+      "confirm",
+      "runmodal",
+      "client-callback"
+    ],
     "ai_usage": null,
-    "words": 182
+    "words": 182,
+    "identifiers": [
+      "GuiAllowed"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "performance",
+      "keywords": [
+        "job-queue",
+        "background-session",
+        "guiallowed",
+        "confirm",
+        "runmodal",
+        "client-callback"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A job queue handler runs in a background session with no client UI. Calls that require a client callback, such as Confirm, Page.RunModal, Report.RunModal, upload, or download, can stop the job with a non-retriable callback error."
+    },
+    "bcq_rule": 1
   },
-  "last_error": "git cat-file -p 598727039d5b0f2b4b00f6db1bf2105ee1fb1e9d failed: fatal: You are attempting to fetch a4593a1b1585a0fa663efbf39ff02c60f846d851, which is in the commit graph file but not in the object database. This is probably due to repo corruption. If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object. fatal: could not fetch 598727039d5b0f2b4b00f6db1bf2105ee1fb1e9d from promisor ",
-  "retry_after": "2026-10-29T23:28:10.486Z",
+  "last_error": null,
+  "retry_after": null,
   "output_hash": "598727039d5b0f2b4b00f6db1bf2105ee1fb1e9d"
 }

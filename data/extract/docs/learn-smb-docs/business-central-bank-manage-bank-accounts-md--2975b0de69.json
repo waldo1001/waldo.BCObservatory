@@ -2,18 +2,17 @@
   "item_id": "docs/learn-smb-docs/business-central/bank-manage-bank-accounts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-manage-bank-accounts",
   "title": "Manage bank accounts",
-  "blob": "d34e620549a628194409f5a0115d4a4f3cf1012c",
-  "summary": "Bank account reconciliation in Business Central matches internal bank account entries with bank statements to ensure cash records are accurate and to identify missing payments and errors.",
+  "blob": "cdd4794bcfbc056dbe93064dcf64f24a22557942",
+  "summary": "Bank account management involves setting up bank accounts and performing regular reconciliations using automatic and manual matching on dedicated pages. It ensures cash records accuracy and helps identify missing payments and bookkeeping errors.",
   "systems": [
-    "finance",
-    "administration"
+    "finance"
   ],
   "topics": [
-    "bank reconciliation",
-    "bank accounts",
-    "payment reconciliation",
+    "bank account management",
+    "reconciliation",
     "cash management",
-    "bank statements"
+    "payment processing",
+    "ledger entries"
   ],
   "objects": [
     {
@@ -27,19 +26,15 @@
     {
       "type": "page",
       "name": "Bank Rec. Worksheet"
-    },
-    {
-      "type": "page",
-      "name": "General Ledger Setup"
     }
   ],
   "features": [
     "bank reconciliation",
-    "bank statement import",
     "automatic matching",
-    "bank account ledger entries",
-    "payment reconciliation",
-    "check processing"
+    "bank statement import",
+    "payment processing",
+    "bank account setup",
+    "statement history analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -48,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002831,
-      "pages_in_call": 8
+      "cost_usd": 0.008776,
+      "pages_in_call": 3
     }
   ]
 }

@@ -1,0 +1,58 @@
+{
+  "item_id": "change/bcapps-prs/13326",
+  "number": 13326,
+  "title": "[Fabric] Clean up test events, app naming, authentication and telemetry",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Fabric mirroring app was refactored to make test events internal, renamed for clarity, and updated to use standard audit logging instead of custom telemetry events.",
+  "key_points": [
+    "Five test-only events in Fabric Platform Mgt made internal with test app retaining access",
+    "App renamed to 'Business Central Mirroring to Fabric (preview)' for better clarity",
+    "Replaced pseudo-audit telemetry with System.Telemetry's Audit Log.LogAuditMessage",
+    "Removed unused Key Vault client-ID lookup and related code after dependency integration",
+    "Diagnostic event IDs maintained at direct LogMessage calls for proper event tracking"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": true,
+  "obsoletions": [
+    {
+      "object": "Fabric Platform Mgt",
+      "member": "OnBeforeEnableExport",
+      "replacement": null
+    },
+    {
+      "object": "Fabric Platform Mgt",
+      "member": "OnBeforeStartExport",
+      "replacement": null
+    },
+    {
+      "object": "Fabric Platform Mgt",
+      "member": "OnBeforeStopExport",
+      "replacement": null
+    },
+    {
+      "object": "Fabric Platform Mgt",
+      "member": "OnBeforeDisableExport",
+      "replacement": null
+    },
+    {
+      "object": "Fabric Platform Mgt",
+      "member": "OnBeforeTestConnection",
+      "replacement": null
+    }
+  ],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003463,
+    "changes_in_call": 2
+  }
+}

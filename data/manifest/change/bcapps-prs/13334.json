@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13334",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] Fix #656831: Use location state for ISD purchase credit memo posting",
+  "url": "https://github.com/microsoft/BCApps/pull/13334",
+  "published_at": "2026-10-29T09:25:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-30T00:17:01.742Z"
+    }
+  },
+  "input_hash": "ec7a0d1364b7e14265075290b1dfc06267707a5f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13334,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ec7a0d1364b7e14265075290b1dfc06267707a5f",
+    "author": "v-ajaztabrez",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix 656831 use location state for isd purchase credit memo posting"
+  }
+}

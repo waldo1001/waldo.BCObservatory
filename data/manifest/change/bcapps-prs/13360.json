@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13360",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[ES][Verifactu] Support for Digital Seal Certificate",
+  "url": "https://github.com/microsoft/BCApps/pull/13360",
+  "published_at": "2026-10-29T18:41:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-30T00:17:01.742Z"
+    }
+  },
+  "input_hash": "da202d8bf71a86fed6f7ac868b4748eb8d14b256:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13360,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "da202d8bf71a86fed6f7ac868b4748eb8d14b256",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "es verifactu support for digital seal certificate"
+  }
+}

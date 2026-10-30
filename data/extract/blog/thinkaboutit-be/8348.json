@@ -1,0 +1,76 @@
+{
+  "item_id": "blog/thinkaboutit-be/8348",
+  "url": "https://thinkaboutit.be/2026/10/directions-emea-2026-day-1-copilot-moves-from-answers-to-actions/",
+  "title": "Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-10-28T09:32:30.000Z",
+  "words": 1993,
+  "summary": "Edit with Copilot moves Business Central Copilot from answering questions to performing actual business work like creating, updating, and deleting records through natural language, with early-access preview starting October 2026 and broader public preview in April 2027.",
+  "key_points": [
+    "Edit with Copilot enables users to modify business data using natural language, not just retrieve information",
+    "Demonstrated capabilities include creating records, updating fields, deleting records, executing actions, and multistep tasks across pages",
+    "Copilot can interact with custom AL extensions including pages, fields, and actions without separate AI integration",
+    "Early-access requires Business Central 30.0.56564.0+, partner sandbox, US/UK/Germany, English only; public preview April 2027",
+    "Business Skills guide AI processes through natural-language instructions while AL enforces mandatory business rules"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "sales"
+  ],
+  "topics": [
+    "edit with copilot",
+    "ai agents",
+    "business skills",
+    "natural language",
+    "expense agent",
+    "page design",
+    "master data management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Order"
+    },
+    {
+      "type": "page",
+      "name": "Expense Reports"
+    }
+  ],
+  "features": [
+    "Edit with Copilot",
+    "Business Skills",
+    "Expense Agent",
+    "Natural language interaction",
+    "Master Data Management",
+    "Fabric integration",
+    "Agent-first UI"
+  ],
+  "versions": [
+    "29.0",
+    "30.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Microsoft is moving from Copilot answering questions to Copilot performing actual work in Business Central.",
+      "why_it_matters": "Signals a fundamental shift from Copilot as information tool to Copilot as action executor"
+    },
+    {
+      "text": "AI can decide which steps to take. Business Central must still determine which operations are allowed.",
+      "why_it_matters": "Establishes the architectural principle that AI handles procedures while AL enforces rules and permissions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005238,
+    "posts_in_call": 4
+  }
+}

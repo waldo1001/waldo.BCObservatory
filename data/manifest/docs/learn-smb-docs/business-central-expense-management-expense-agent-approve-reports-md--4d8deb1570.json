@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Approve or Send Back Expense Reports",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-approve-reports",
-  "published_at": "2026-10-05T08:46:22.000Z",
+  "published_at": "2026-10-29T11:32:00.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,48 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.281Z",
-      "blob": "aa66446205594d20a69374ece8871e3c9ce38584",
-      "words": 431,
+      "at": "2026-10-30T00:17:32.700Z",
+      "blob": "1078ee01a7f44a3b271a90d6dc002d9a1fb5a326",
+      "words": 508,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T12:39:35.680Z",
+      "at": "2026-10-30T00:17:41.042Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.009184
+      "cost_usd": 0.003513
     },
     "summarized": {
-      "at": "2026-10-06T12:39:35.686Z",
+      "at": "2026-10-30T00:17:41.044Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T12:39:35.687Z",
+      "at": "2026-10-30T00:17:41.046Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T12:39:35.687Z",
+      "at": "2026-10-30T00:17:41.047Z",
       "page": false
     }
   },
-  "input_hash": "aa66446205594d20a69374ece8871e3c9ce38584",
+  "input_hash": "1078ee01a7f44a3b271a90d6dc002d9a1fb5a326",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/expense-management/expense-agent-approve-reports.md",
     "description": "Learn how to review submitted expense reports and policy results, then approve them or send them back with comments in Expense Agent.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-10-07",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 431,
+    "words": 508,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7e4d6cea4723dd0017fcbc43d3b1b6708784c58f91358c643f491a0aaf72566b"
+  "output_hash": "a9394a61ba11bce393edc0dfc0d8ea282a9dd0cc7aff6c211d8fd9448db95240"
 }
