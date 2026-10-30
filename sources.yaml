@@ -406,7 +406,7 @@ sources:
     kind: blog
     name: BC Captain
     url: https://bccaptain.com.au
-    author: { name: Tom Kapitan }
+    author: { name: Tom Kapitan, mvp: true }
     fetch: { feed: https://bccaptain.com.au/feed/index.xml }
   # ---------------------------------------------------------------- discovery (suggestions only, never content)
   - id: wingate-combined
