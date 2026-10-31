@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12796",
+  "number": 12796,
+  "title": "[29.X]-Subscription Billing: Recurring Billing (Document Per = Contract Partner) Overwrites Contract Currency with Customer Currency Without Amount Conversion.653480 initial commit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Subscription Billing recurring billing now preserves contract currency instead of overwriting it with customer currency when creating billing documents per contract partner.",
+  "key_points": [
+    "Fixes currency handling during recurring billing document generation with Document Per = Contract Partner",
+    "Contract currency is maintained without unwanted override by customer currency",
+    "Amount conversion logic is preserved correctly",
+    "Test case added to verify billing document creation with proper currency handling"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004528,
+    "changes_in_call": 6
+  }
+}

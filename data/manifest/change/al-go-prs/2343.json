@@ -6,7 +6,7 @@
   "title": "RunTests action",
   "url": "https://github.com/microsoft/AL-Go/pull/2343",
   "published_at": "2026-10-27T14:17:26Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-28T00:16:46.912Z"
@@ -18,6 +18,23 @@
       "al": 13,
       "objects": 0,
       "unjoined": 13
+    },
+    "extracted": {
+      "at": "2026-10-31T00:17:35.074Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004528
+    },
+    "linked": {
+      "at": "2026-10-31T00:17:35.362Z",
+      "objects": 0,
+      "unjoined": 13,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-31T00:17:54.112Z",
+      "path": "content/changes/al-go/2343.md"
     }
   },
   "input_hash": "adb81ccf121dfbf1de8fe4ae2da7e7474528bed9:c1",
@@ -37,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d95675475e5d507406a60e220ea42f3dcde6ea7a8f6360c8b657aa1715295be1"
+  "output_hash": "8082baa73a3783b4ef74c912fc3931e6445b5e6933ba404c1421c2b08ae9116d"
 }

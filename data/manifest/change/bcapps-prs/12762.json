@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12762",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side",
+  "url": "https://github.com/microsoft/BCApps/pull/12762",
+  "published_at": "2026-10-30T10:50:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-31T00:15:35.028Z"
+    }
+  },
+  "input_hash": "6e19b01b8cd1c412fefb4137277654bf77b41a94:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12762,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "6e19b01b8cd1c412fefb4137277654bf77b41a94",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "dispute status code is not retained in some scenarios within the vendor purchase side but works well in customer sales side"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/13294",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x]-Exporting vendor remittance gets stuck when a payment jour nal is sorted by Document No.",
+  "url": "https://github.com/microsoft/BCApps/pull/13294",
+  "published_at": "2026-10-30T10:47:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-31T00:15:35.028Z"
+    }
+  },
+  "input_hash": "df75d6069a075c6c0963ec0bd30d19f4607e64cc:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13294,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "df75d6069a075c6c0963ec0bd30d19f4607e64cc",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "exporting vendor remittance gets stuck when a payment jour nal is sorted by document no"
+  }
+}

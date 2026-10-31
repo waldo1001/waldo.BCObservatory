@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13403",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 657097: [master] Suggest Lines fails with a duplicate ECSL VAT Report Line Relation record in GB environment",
+  "url": "https://github.com/microsoft/BCApps/pull/13403",
+  "published_at": "2026-10-30T10:06:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-31T00:15:35.028Z"
+    }
+  },
+  "input_hash": "1046392a78e916ce202cd550c87b49368890ac50:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13403,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1046392a78e916ce202cd550c87b49368890ac50",
+    "author": "AleksanderGladkov",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 657097 master suggest lines fails with a duplicate ecsl vat report line relation record in gb environment"
+  }
+}

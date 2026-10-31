@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Keep object names within the 30-character platform limit",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/object-name-30-char-limit.md",
-  "published_at": "2026-05-21T07:53:09.000Z",
+  "published_at": "2026-10-30T14:00:50.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,17 +13,17 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-30T00:18:40.349Z",
-      "blob": "f0e96eef5056845841bd31bb7dd1f16314d2eedb",
-      "words": 202,
+      "at": "2026-10-31T00:17:11.049Z",
+      "blob": "03f9e7176b2a0e0ec9f61e998a1ad11a5de3269a",
+      "words": 297,
       "forms": 0
     },
     "published": {
-      "at": "2026-10-30T00:18:44.847Z",
+      "at": "2026-10-31T00:17:11.115Z",
       "path": "content/guidelines/microsoft/knowledge/style/object-name-30-char-limit.md"
     }
   },
-  "input_hash": "f0e96eef5056845841bd31bb7dd1f16314d2eedb",
+  "input_hash": "03f9e7176b2a0e0ec9f61e998a1ad11a5de3269a",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -39,10 +39,14 @@
       "prefix",
       "affix",
       "30-characters",
+      "20-characters",
+      "permission-set",
+      "assignable",
+      "al0305",
       "appsource"
     ],
     "ai_usage": null,
-    "words": 202,
+    "words": 297,
     "identifiers": [
       "CustLE",
       "SIPoster",
@@ -57,6 +61,10 @@
         "prefix",
         "affix",
         "30-characters",
+        "20-characters",
+        "permission-set",
+        "assignable",
+        "al0305",
         "appsource"
       ],
       "bc_version": [
@@ -78,5 +86,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f0e96eef5056845841bd31bb7dd1f16314d2eedb"
+  "output_hash": "03f9e7176b2a0e0ec9f61e998a1ad11a5de3269a"
 }

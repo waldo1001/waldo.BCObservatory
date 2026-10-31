@@ -1,0 +1,54 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13431,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13431",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-30T17:04:11Z",
+  "merge_commit_sha": "245108fe5ab38b894ac57b9b7dbdeb00a23a786d",
+  "author": "VolodySyn",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Extend sales document edit permissions with subscrition billing edit",
+  "body_hash": "f8165bb7fcc595e41098250fef78a3823f53ccdd0618e4691704fcf8c597509a",
+  "fixes_issues": [],
+  "work_items": [
+    651406
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Permission Sets/SubBillingD365SDocEdit.PermissionSetExt.al",
+      "status": "added",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 8,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Permission Sets/SubBillingD365SDocEdit.PermissionSetExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

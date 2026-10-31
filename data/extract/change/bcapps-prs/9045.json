@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9045",
+  "number": 9045,
+  "title": "Config. Packages with Native AL XML Data Types",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Codeunit Config. Excel Exchange is refactored to use native AL XML Data Types instead of legacy XML handling, enabling cloud-ready development for the RapidStart feature.",
+  "key_points": [
+    "Complete refactoring of Config. Excel Exchange codeunit to use native XML Data Types",
+    "Improves cloud readiness for partner app development",
+    "Functional behavior remains unchanged with expanded test coverage",
+    "Updates supporting XML DOM Management and related configuration modules",
+    "Tests added to validate new methods match previous implementation"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00338,
+    "changes_in_call": 2
+  }
+}

@@ -6,7 +6,7 @@
   "title": "update tests and enable them",
   "url": "https://github.com/microsoft/BCApps/pull/13104",
   "published_at": "2026-10-28T09:46:31Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-29T00:16:37.959Z"
@@ -18,6 +18,23 @@
       "al": 2,
       "objects": 2,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-31T00:17:35.058Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.004528
+    },
+    "linked": {
+      "at": "2026-10-31T00:17:35.361Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-31T00:17:35.521Z",
+      "path": "content/changes/bcapps/13104.md"
     }
   },
   "input_hash": "7fa0ac42d1f57cbd86d20f065c1a07eef6c441c5:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f165972121cef9a5b1d23dbf20bbf787d60bcf462c8e4078b81553257a2b8245"
+  "output_hash": "9c1847c84d0105304e8ee18b8e692215d2adb0ca55165af01097b814b2cc286a"
 }

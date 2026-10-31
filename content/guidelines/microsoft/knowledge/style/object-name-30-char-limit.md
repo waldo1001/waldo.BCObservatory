@@ -11,6 +11,10 @@ tags:
   - prefix
   - affix
   - 30-characters
+  - 20-characters
+  - permission-set
+  - assignable
+  - al0305
   - appsource
 system: development
 review:
@@ -19,16 +23,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-30T00:18:44.802Z"
+  at: "2026-10-31T00:17:11.084Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f0e96eef5056845841bd31bb7dd1f16314d2eedb
+  input_hash: 03f9e7176b2a0e0ec9f61e998a1ad11a5de3269a
 evidence:
   - kind: guideline
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/object-name-30-char-limit.md
     title: "microsoft/BCQuality: Keep object names within the 30-character platform limit"
-    date: "2026-05-21"
-    commit: a4593a1b1585a0fa663efbf39ff02c60f846d851
+    date: "2026-10-30"
+    commit: a56b272c6b950c2a423bbeda190585cd53beca2a
     t: null
     quote: null
 links:
@@ -74,15 +78,20 @@ identifiers:
 
 ## Description
 
-Business Central object names — for tables, pages, codeunits, reports, queries, XML ports, enums, and permission sets — are limited to 30 characters in total. AppSource and per-tenant extensions also have to carry a mandatory prefix or affix (typically 3–4 characters), which leaves roughly 26 characters for the descriptive part of the name. Names hitting the 30-character ceiling are routinely rejected at publish time, and over-aggressive abbreviation to fit (`CustLE`, `SIPoster`, `SalesInv`) makes the object name opaque to reviewers and to anyone reading dependency lists. The right move is to plan name length around the budget — descriptive base + prefix — not to discover the limit during AppSource validation.
+Business Central object names — for tables, pages, codeunits, reports, queries, XML ports, enums, and permission sets — are limited to 30 characters in total. Permission sets have a stricter exception: a permission set with `Assignable = true` is limited to 20 characters; the 30-character limit applies only when `Assignable = false`. Exceeding either limit is compiler error AL0305, so the name fails at build time, not only during publish or AppSource validation. AppSource and per-tenant extensions also have to carry a mandatory prefix or affix (typically 3–4 characters), which leaves roughly 26 characters for the descriptive part of most object names, and roughly 16 for an assignable permission set. Over-aggressive abbreviation to fit (`CustLE`, `SIPoster`, `SalesInv`) makes the object name opaque to reviewers and to anyone reading dependency lists. The right move is to plan name length around the budget — descriptive base + prefix — not to discover the limit from the compiler or during AppSource validation.
 
 ## Best Practice
 
-Choose a clear, descriptive name in the 20–26-character range and reserve the remaining characters for the mandatory app prefix. `"Customer Ledger Entry"`, `"Sales Invoice Posting"`, `"Sales Invoice"` are descriptive and well under the budget. When you genuinely need to abbreviate, prefer abbreviations that are already established in BC (`Cust.`, `Vend.`, `Gen. Jnl.`, `WHSE`) over ad-hoc shortenings.
+Choose a clear, descriptive name in the 20–26-character range and reserve the remaining characters for the mandatory app prefix. `"Customer Ledger Entry"`, `"Sales Invoice Posting"`, `"Sales Invoice"` are descriptive and well under the budget. For an assignable permission set, the complete name including prefix or affix must fit in 20 characters, so the 20–26-character range does not apply. When you genuinely need to abbreviate, prefer abbreviations that are already established in BC (`Cust.`, `Vend.`, `Gen. Jnl.`, `WHSE`) over ad-hoc shortenings.
 
 ## Anti Pattern
 
-Names like `"CustLE"` or `"SIPoster"` that abbreviate beyond comprehensibility, or names like `"Customer Ledger Entry Posting Helper Codeunit"` that breach 30 characters and force a rename during publish.
+Names like `"CustLE"` or `"SIPoster"` that abbreviate beyond comprehensibility, names like `"Customer Ledger Entry Posting Helper Codeunit"` that breach 30 characters and force a rename, or an assignable permission set named within 21–30 characters, which looks compliant with the general limit but fails with AL0305.
+
+## See also
+
+- [Compiler Error AL0305](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/diagnostics/diagnostic-al305)
+- [Assignable property](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-assignable-property)
 
 ## Names
 
@@ -90,4 +99,4 @@ Names like `"CustLE"` or `"SIPoster"` that abbreviate beyond comprehensibility, 
 
 ---
 
-From microsoft/BCQuality at a4593a1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at a56b272, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

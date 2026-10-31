@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13171",
+  "number": 13171,
+  "title": "[Fixed Assets] Prevent change of FA Posting group after acquisition and FA journal cancellation line with empty Document No.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "fixed-assets"
+  ],
+  "summary": "Two Fixed Assets bugs are fixed: FA Posting Group field is now protected after acquisition posting, and FA journal cancellation creates a valid document number when the batch is not empty.",
+  "key_points": [
+    "FA Posting Group validation now blocks changes after acquisition cost is posted, preventing G/L account mismatch",
+    "New CheckFAPostingGroupChangeAfterAcquisition validation prevents unguarded posting group modification",
+    "Cancel FA Ledger Entries now uses the last batch line's document number when creating cancellation entries in non-empty batches",
+    "Fixes applied across W1 and localized versions (DACH, FR, GB, RU)",
+    "Comprehensive test cases added to verify both correction scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "fixed-assets"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004528,
+    "changes_in_call": 6
+  }
+}

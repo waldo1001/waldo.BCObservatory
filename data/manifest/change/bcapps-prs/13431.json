@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13431",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Extend sales document edit permissions with subscrition billing edit",
+  "url": "https://github.com/microsoft/BCApps/pull/13431",
+  "published_at": "2026-10-30T17:04:11Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-31T00:15:35.028Z"
+    },
+    "fetched": {
+      "at": "2026-10-31T00:17:11.771Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-31T00:17:22.789Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00338
+    },
+    "linked": {
+      "at": "2026-10-31T00:17:22.975Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-31T00:17:22.978Z",
+      "path": "content/changes/bcapps/13431.md"
+    }
+  },
+  "input_hash": "245108fe5ab38b894ac57b9b7dbdeb00a23a786d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13431,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "245108fe5ab38b894ac57b9b7dbdeb00a23a786d",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "extend sales document edit permissions with subscrition billing edit"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7acbea344670534351710017aeb72ff8cd31db604fa16c1606438dcbd8889dad"
+}

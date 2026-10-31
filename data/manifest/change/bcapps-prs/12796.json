@@ -6,7 +6,7 @@
   "title": "[29.X]-Subscription Billing: Recurring Billing (Document Per = Contract Partner) Overwrites Contract Currency with Customer Currency Without Amount Conversion.653480 initial commit",
   "url": "https://github.com/microsoft/BCApps/pull/12796",
   "published_at": "2026-10-27T08:32:56Z",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-28T00:16:46.912Z"
@@ -18,6 +18,13 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-31T00:17:35.109Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004528
     }
   },
   "input_hash": "ec15d65a471323ed7d0ce4b486e2a02da3bf18ba:c1",
@@ -40,5 +47,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b0f85b61ae3170b5269e47079dadd90428d6e6872ec9071d5b18d5c112051aa3"
+  "output_hash": "5f3e4b7192e184d1b9ceaa538bbcf0ee6d704247cf59065cd5e36b5f513b6b36"
 }

@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/13241",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": " [Main]ERM Purchase Payables.UnreliazedGainLossEntrieAreClearWhenUsingMultiplePostingGroups fails (G/L account not balanced)",
+  "url": "https://github.com/microsoft/BCApps/pull/13241",
+  "published_at": "2026-10-30T16:24:39Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-31T00:15:35.028Z"
+    }
+  },
+  "input_hash": "eb5faca9b7737b6d0a0b2942508cd2bd656c7cec:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13241,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "eb5faca9b7737b6d0a0b2942508cd2bd656c7cec",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "main erm purchase payables unreliazedgainlossentrieareclearwhenusingmultiplepostinggroups fails g l account not balanced"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-31T00:17:11.816Z",
+  "retry_after": null
+}

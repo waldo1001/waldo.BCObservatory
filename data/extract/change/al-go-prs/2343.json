@@ -1,0 +1,31 @@
+{
+  "item_id": "change/al-go-prs/2343",
+  "number": 2343,
+  "title": "RunTests action",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "AL-Go introduces a new RunTests action that separates test execution from the build pipeline using AlTool, enabling better container lifecycle management and focused test operations.",
+  "key_points": [
+    "Preview feature with useSeparateTestAction setting (defaults to false) to move tests from RunPipeline to new RunTests action",
+    "RunPipeline builds and publishes apps, then RunTests executes them using al runtests command",
+    "Supports test type filtering for UnitTest, IntegrationTest, and Uncategorized categories",
+    "Only normal tests are moved; BCPT, page scripting, and multi-country tests remain in pipeline",
+    "Maintains BCH for container management and metadata operations while AlTool handles actual test execution"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004528,
+    "changes_in_call": 6
+  }
+}

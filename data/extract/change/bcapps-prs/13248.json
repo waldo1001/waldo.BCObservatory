@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13248",
+  "number": 13248,
+  "title": "[29.X]Non-Deductible Reverse-Charge VAT Correction Is Posted to Purchase VAT Account Instead of Payment Discount Account.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Non-deductible reverse-charge VAT correction is fixed to post to the payment discount account instead of the purchase VAT account across multiple localization layers.",
+  "key_points": [
+    "Correction addresses VAT posting logic in General Journal posting for non-deductible reverse-charge scenarios",
+    "Fix applied consistently to W1 base and all localized versions: APAC, BE, CH, ES, FI, FR, IT, NA, NO, RU",
+    "Test case updated to validate corrected posting behavior",
+    "Ensures financial statement accuracy for VAT handling"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004528,
+    "changes_in_call": 6
+  }
+}

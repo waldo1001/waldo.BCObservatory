@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/12292",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix #10964: Use VAT registration number fallback in FatturaPA file name",
+  "url": "https://github.com/microsoft/BCApps/pull/12292",
+  "published_at": "2026-10-30T13:14:57Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-31T00:15:35.028Z"
+    },
+    "fetched": {
+      "at": "2026-10-31T00:17:24.555Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-31T00:17:29.122Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004256
+    },
+    "linked": {
+      "at": "2026-10-31T00:17:29.214Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-31T00:17:29.227Z",
+      "path": "content/changes/bcapps/12292.md"
+    }
+  },
+  "input_hash": "44e42fa4f8604fa92f1368c0b56f71bb33972164:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12292,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "44e42fa4f8604fa92f1368c0b56f71bb33972164",
+    "author": "marcus905",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "fix 10964 use vat registration number fallback in fatturapa file name"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "54d9a2e964f8861fb6eadc0dd0d9009d0982cff2557f8387692f61709adf2ed3"
+}

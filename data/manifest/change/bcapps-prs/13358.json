@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13358",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] bug 656582 Add Maintenance Code field on purchase order subpage and purchase invoice subpage",
+  "url": "https://github.com/microsoft/BCApps/pull/13358",
+  "published_at": "2026-10-30T08:36:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-31T00:15:35.028Z"
+    }
+  },
+  "input_hash": "beca4a8f9a51bff190703a2a67996b8485a0f3a3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13358,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "beca4a8f9a51bff190703a2a67996b8485a0f3a3",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 656582 add maintenance code field on purchase order subpage and purchase invoice subpage"
+  }
+}

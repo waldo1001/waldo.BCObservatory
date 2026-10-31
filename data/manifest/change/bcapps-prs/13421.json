@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13421",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 657104: [main] Remove failing German recurring frequency test",
+  "url": "https://github.com/microsoft/BCApps/pull/13421",
+  "published_at": "2026-10-30T09:52:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-31T00:15:35.028Z"
+    }
+  },
+  "input_hash": "98f9cbd14a30ac0e3acfd97bca9166e8c25aa9e3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13421,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "98f9cbd14a30ac0e3acfd97bca9166e8c25aa9e3",
+    "author": "AleksanderGladkov",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 657104 main remove failing german recurring frequency test"
+  }
+}

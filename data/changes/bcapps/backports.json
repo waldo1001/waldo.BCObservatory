@@ -80,6 +80,15 @@
       "title_key": "let the agent update invoice due dates"
     }
   ],
+  "10156": [
+    {
+      "number": 12289,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-30T21:52:43Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12289",
+      "title_key": "bug subscriptionbilling assign subscription lines dialog does not identify the sales line it was opened for"
+    }
+  ],
   "10210": [
     {
       "number": 12287,
@@ -908,6 +917,15 @@
       "title_key": "financial reports trial balance by period excel should use a query based approach rather than loop and calcfields"
     }
   ],
+  "13303": [
+    {
+      "number": 13436,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-30T07:56:43Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13436",
+      "title_key": "bank acc reconciliation with copilot implement ability to switch llm with a simple configuration change"
+    }
+  ],
   "13330": [
     {
       "number": 13332,
@@ -915,6 +933,15 @@
       "merged_at": "2026-10-28T14:10:16Z",
       "url": "https://github.com/microsoft/BCApps/pull/13332",
       "title_key": "bug 656922 29 x recurring frequency missing from edit in excel"
+    }
+  ],
+  "13403": [
+    {
+      "number": 13404,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-30T08:30:16Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13404",
+      "title_key": "bug 657096 29 x suggest lines fails with a duplicate ecsl vat report line relation record in gb environment"
     }
   ],
   "unmatched": [
@@ -2079,6 +2106,20 @@
       "merged_at": "2026-10-29T13:50:10Z",
       "url": "https://github.com/microsoft/BCApps/pull/12693",
       "title_key": "fabric backport business central mirroring to fabric"
+    },
+    {
+      "number": 12921,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-30T08:17:54Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12921",
+      "title_key": "bug 654675 expense agent exchange rate date limitation"
+    },
+    {
+      "number": 13350,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-30T08:36:17Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13350",
+      "title_key": "source currency code and source currency amount not getting updated on contract deferral release g l entries"
     }
   ]
 }

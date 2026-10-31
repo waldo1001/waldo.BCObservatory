@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/251",
+  "number": 251,
+  "title": "Clarify 20-character limit for assignable permission set names",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Documentation clarifies that assignable permission sets must not exceed 20 characters in name, a stricter limit than the general 30-character object naming rule, with compiler error AL0305 enforcing this at build time.",
+  "key_points": [
+    "Assignable permission sets have a 20-character name limit, not the general 30-character limit",
+    "Non-assignable permission sets still follow the 30-character limit",
+    "The 20-character limit is a build-time compiler error (AL0305), not just a publish-time finding",
+    "Includes best practice showing full names with prefix/affix must fit 20 characters",
+    "Anti-pattern added showing 21-30-character assignable permission set names"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003558,
+    "changes_in_call": 1
+  }
+}

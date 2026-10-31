@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13431",
+  "number": 13431,
+  "title": "Extend sales document edit permissions with subscrition billing edit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "A permission set extension enables the Sales Order Agent to add items with subscription billing to sales documents by granting necessary Subscription Billing table access to users who can edit sales documents.",
+  "key_points": [
+    "Creates new permission set extension Sub. Billing D365 S. Doc Edit that extends D365 SALES DOC, EDIT",
+    "Grants access to Subscription Billing tables needed for items with Service Commitment Option = Sales with Subscription",
+    "Fixes Sales Order Agent failing to add subscription items due to permission errors on Item Subscription Package and Billing Line tables",
+    "Follows existing pattern of permission set extensions for other D365 roles in the same folder",
+    "No schema or data changes, applies only when Subscription Billing app is installed"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00338,
+    "changes_in_call": 2
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "change/bcquality-prs/251",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Clarify 20-character limit for assignable permission set names",
+  "url": "https://github.com/microsoft/BCQuality/pull/251",
+  "published_at": "2026-10-30T14:00:50Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-31T00:15:35.028Z"
+    },
+    "fetched": {
+      "at": "2026-10-31T00:17:23.501Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-31T00:17:28.618Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003558
+    },
+    "linked": {
+      "at": "2026-10-31T00:17:28.619Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-31T00:17:29.111Z",
+      "path": "content/changes/bcquality/251.md"
+    }
+  },
+  "input_hash": "7072b494b3e3f18a56bf63718aae03d5b4cf90d9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 251,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "7072b494b3e3f18a56bf63718aae03d5b4cf90d9",
+    "author": "iti-maciej-filipowicz",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "clarify 20 character limit for assignable permission set names"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f4495eccc65a35a89854119d5f0106dc1613857d979e39dcc9f993313b9d9812"
+}

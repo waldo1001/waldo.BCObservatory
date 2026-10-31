@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/222",
+  "number": 222,
+  "title": "Add cited knowledge consultation skill for Business Central",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "A new knowledge consultation skill allows AL development agents to request guidance on Business Central solutions directly from BCQuality articles with explicit citations and applicability conditions, without requiring source code or code review.",
+  "key_points": [
+    "Introduces al-knowledge skill entry point for agents to ask development questions and receive cited guidance",
+    "Skill reads relevant BCQuality articles and returns knowledge-response JSON with answer, outcome, references and suppression details",
+    "Implements knowledge-query input and knowledge-response output contracts following BCQuality Entry, READ and DO patterns",
+    "Adds response schema validation and discovery metadata for applicable articles using READ's applicability and precedence rules",
+    "Separates knowledge guidance from code review verdicts; no-knowledge and failed responses contain no citations"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004864,
+    "changes_in_call": 1
+  }
+}

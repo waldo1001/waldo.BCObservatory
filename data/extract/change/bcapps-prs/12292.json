@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12292",
+  "number": 12292,
+  "title": "Fix #10964: Use VAT registration number fallback in FatturaPA file name",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "FatturaPA file names now use VAT Registration Number as a fallback when Fiscal Code is blank, matching the transmitter identifier already used in the XML document.",
+  "key_points": [
+    "Fiscal Code is checked first; if empty, VAT Registration No. is used for the transmitter identifier",
+    "File naming now aligns with the XML's IdTrasmittente/IdCodice field behavior",
+    "Helper method centralized to avoid duplicated fallback logic in GetFileName()",
+    "Existing files generated with Fiscal Code remain unchanged",
+    "Added unit tests for the fallback scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004256,
+    "changes_in_call": 1
+  }
+}

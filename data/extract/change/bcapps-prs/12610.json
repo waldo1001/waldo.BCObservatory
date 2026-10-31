@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12610",
+  "number": 12610,
+  "title": "[Report Filename Manager] New app for configurable report output file names - Slice 651696 [vendor work]",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "A new Report Filename Manager app enables administrators to configure dynamic file names for report output across all distribution routes using customizable patterns and placeholders.",
+  "key_points": [
+    "New W1 app with 26 codeunits managing report file naming patterns and context",
+    "Supports multiple output routes: print, preview, save, download, email, PDF attachment, and scheduled reports",
+    "Extensible placeholder system with implementation-specific handlers for document types and metadata fields",
+    "Uses platform and Base Application events; includes temporary stand-ins for four missing events",
+    "Configuration applies consistently across all companies since it uses compiled metadata only"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004528,
+    "changes_in_call": 6
+  }
+}

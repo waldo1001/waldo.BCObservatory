@@ -1,0 +1,100 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12292,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12292",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-30T13:14:57Z",
+  "merge_commit_sha": "44e42fa4f8604fa92f1368c0b56f71bb33972164",
+  "author": "marcus905",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "Fix #10964: Use VAT registration number fallback in FatturaPA file name",
+  "body_hash": "0c4ddc116bfc515b5342db5da4a8446ca668f0931406ab725a44699b9dad2395",
+  "fixes_issues": [
+    10964
+  ],
+  "work_items": [
+    653568
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Local/EServices/EDocument/ExportFatturaPADocument.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Local/EServices/EDocument/FatturaDocHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/Local/FatturaPAUnitTests.Codeunit.al",
+      "status": "renamed",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-test",
+      "previous_filename": "src/Layers/IT/Tests/Local/fatturapaunittests.codeunit.al"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 41,
+    "deletions": 5,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Local/EServices/EDocument/ExportFatturaPADocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12179",
+        "type": "codeunit",
+        "id": 12179,
+        "name": "Export FatturaPA Document",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/12179-it"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Local/EServices/EDocument/FatturaDocHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/12184",
+        "type": "codeunit",
+        "id": 12184,
+        "name": "Fattura Doc. Helper",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/12184-it"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Base Application"
+  ],
+  "issues": [
+    {
+      "number": 10964,
+      "title": "[Bug]: FatturaPA filename does not fall back to VAT Registration No. when Fiscal Code is empty",
+      "state": "closed"
+    }
+  ]
+}

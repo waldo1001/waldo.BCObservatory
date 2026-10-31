@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/aardvarklabs-blog/4177",
+  "url": "https://aardvarklabs.blog/2026/10/30/building-the-al-exploration-tool-i-always-wanted/",
+  "title": "Building the AL Exploration Tool I Always Wanted",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-10-30T12:00:00.000Z",
+  "words": 1039,
+  "summary": "A developer shares how they built a VS Code extension for exploring AL codebases visually, using GitHub Copilot to overcome the barrier to entry. The tool provides dependency diagrams, relationship maps, where-used analysis, and documentation generation to help developers understand complex Business Central solutions faster.",
+  "key_points": [
+    "Visual dependency diagrams and object relationship maps help developers understand AL codebase structure at a glance",
+    "Where-used analysis identifies references and impacts throughout a project for refactoring and troubleshooting",
+    "GitHub Copilot reduced the time needed to learn the VS Code extension framework and made building the tool practical",
+    "The extension is released free to the community following the tradition of sharing knowledge in the Business Central developer community"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al exploration",
+    "code analysis",
+    "vs code extension",
+    "visual diagrams",
+    "developer tools",
+    "dependency mapping",
+    "documentation"
+  ],
+  "objects": [],
+  "features": [
+    "Visual dependency diagrams",
+    "Relationship mapping",
+    "Where used analysis",
+    "Documentation generation",
+    "Galaxy View",
+    "Table and field relationship visualization",
+    "Conditional relationship tracking"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Copilot dramatically reduced the amount of time spent staring at documentation trying to figure out where to begin.",
+      "why_it_matters": "Shows how AI tools lower barriers to entry for developers wanting to build extensions they previously avoided due to complexity"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005699,
+    "posts_in_call": 1
+  }
+}

@@ -6,7 +6,7 @@
   "title": "Config. Packages with Native AL XML Data Types",
   "url": "https://github.com/microsoft/BCApps/pull/9045",
   "published_at": "2026-10-26T17:46:17Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-27T00:21:39.999Z"
@@ -18,6 +18,23 @@
       "al": 8,
       "objects": 8,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-31T00:17:22.789Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.00338
+    },
+    "linked": {
+      "at": "2026-10-31T00:17:23.101Z",
+      "objects": 8,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-31T00:17:23.145Z",
+      "path": "content/changes/bcapps/9045.md"
     }
   },
   "input_hash": "b16a373e49546f969276b550987e4d735d996ee1:c1",
@@ -41,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4e56b179242294810f3ed649aa4c8bf0de469ab6aceae4aef7bef5e280e05fc5"
+  "output_hash": "cc36e8a6b299c0e4cb1f29cb121341873a75487309d6166de56041e1a37d03fc"
 }

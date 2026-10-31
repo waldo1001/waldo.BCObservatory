@@ -1,0 +1,58 @@
+{
+  "id": "change/bcquality-prs/222",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Add cited knowledge consultation skill for Business Central",
+  "url": "https://github.com/microsoft/BCQuality/pull/222",
+  "published_at": "2026-10-30T14:28:36Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-31T00:15:35.028Z"
+    },
+    "fetched": {
+      "at": "2026-10-31T00:17:12.854Z",
+      "change_class": "code",
+      "files": 26,
+      "al": 6,
+      "objects": 0,
+      "unjoined": 6
+    },
+    "extracted": {
+      "at": "2026-10-31T00:17:20.311Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004864
+    },
+    "linked": {
+      "at": "2026-10-31T00:17:20.312Z",
+      "objects": 0,
+      "unjoined": 6,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-31T00:17:22.131Z",
+      "path": "content/changes/bcquality/222.md"
+    }
+  },
+  "input_hash": "a56b272c6b950c2a423bbeda190585cd53beca2a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 222,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "a56b272c6b950c2a423bbeda190585cd53beca2a",
+    "author": "javiarmesto",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "add cited knowledge consultation skill for business central"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d58ac61a6b72b184af1d9cfcb001f6bbb7ae88ba10f4be9afe4a8baadf781ebf"
+}

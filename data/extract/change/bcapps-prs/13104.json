@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13104",
+  "number": 13104,
+  "title": "update tests and enable them",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Quality Management tests are enabled and test cases for result condition management are expanded to cover additional scenarios.",
+  "key_points": [
+    "Tests are moved from disabled status to active execution",
+    "Result condition validation test code is significantly improved",
+    "Quality inspection result configuration is adjusted",
+    "Test coverage for condition management is enhanced"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004528,
+    "changes_in_call": 6
+  }
+}

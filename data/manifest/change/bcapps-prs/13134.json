@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13134",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Bug 656172 Payment Slips Summarized by Due Date are not aggregating correlative in the French version.",
+  "url": "https://github.com/microsoft/BCApps/pull/13134",
+  "published_at": "2026-10-30T10:58:32Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-31T00:15:35.028Z"
+    }
+  },
+  "input_hash": "9289c9be75f8e1805c0c7849add2a68d6acc923b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13134,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9289c9be75f8e1805c0c7849add2a68d6acc923b",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 656172 payment slips summarized by due date are not aggregating correlative in the french version"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/13364",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Test disabled after BCApps v30 uptake: RED Test Unit for Purch Doc (3 methods) fail (Purchase Header Released not Open on confirm-No deferral batch)",
+  "url": "https://github.com/microsoft/BCApps/pull/13364",
+  "published_at": "2026-10-30T12:52:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-31T00:15:35.028Z"
+    }
+  },
+  "input_hash": "78af6419701941d4040842cf4b34ceaeb6cb128f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13364,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "78af6419701941d4040842cf4b34ceaeb6cb128f",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "test disabled after bcapps v30 uptake red test unit for purch doc 3 methods fail purchase header released not open on confirm no deferral batch"
+  }
+}
