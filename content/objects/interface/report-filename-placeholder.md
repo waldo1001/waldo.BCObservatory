@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:42:34.480Z"
+  at: "2026-10-31T00:48:20.076Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7f34b5f03e5cbc8dee1c6e3807656695ef9b92742285d812087de968ca9ce460
+  input_hash: a0c793f8b4de6e31efd9972a925e3b576a2e299a1248790029113df14f865dba
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ReportFilenameManager/app/src/interface/ReportFilenamePlaceholder.Interface.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12610
 object_type: interface
 object_id: null
 name: Report Filename Placeholder
@@ -86,6 +88,10 @@ ReportFilenameManager · Microsoft.Foundation.Reporting.FileNaming · BC30 · [s
 - `SpeaksForARunOfManyRecords(): Boolean`: Whether the value is one value for a run covering many records (company, user, date) rather than per document (a document total). Used for the picker and the card's examples; at run time TryResolve itself must decline a multi-record run when this is false. Adding a method without a default body here...
 - `ExampleWithoutDocument(): Text`: The shape of the value, shown in the picker's Example column when it cannot be resolved without a document. Never a real record's value.
 - `TryResolve(var Pattern: Record "Report Filename Pattern"; ReportId: Integer; var DocumentRecRef: RecordRef; LanguageCode: Code[10]; var PlaceholderValue: Text): Boolean`: Resolves the value for one document.
+
+## Recent changes
+
+- 2026-10-27 [#12610 [Report Filename Manager] New app for configurable report output file names - Slice 651696 [vendor work]](../../changes/bcapps/12610.md) (main, BC30, feature, added)
 
 ## Across versions
 

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-30T01:00:43.748Z"
+  at: "2026-10-31T00:48:20.076Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d671ad9ccd79eb268f8321b1fb72c498266107189fa017911738a7cca9a47e63
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/System%20Application/App/Secrets/src/SecretProviderv2.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/System%20Application/App/Secrets/src/SecretProviderv2.Interface.al
     title: src/System Application/App/Secrets/src/SecretProviderv2.Interface.al (releases/29.x)
     date: null
-    commit: 7aa49e808916c060dbee97d9ff324a2cfda8d422
+    commit: 8e740e5061595dd231c4a2d9d453c86c84ec76ae
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Interface "Secret Provider v2" in System Application (System.Security). 2 public procedures. Introduced in BC24, still in BC30.
 
-System Application · System.Security · BC24-30 · [source at 7aa49e80](https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/System%20Application/App/Secrets/src/SecretProviderv2.Interface.al) · facts from BC29
+System Application · System.Security · BC24-30 · [source at 8e740e50](https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/System%20Application/App/Secrets/src/SecretProviderv2.Interface.al) · facts from BC29
 
 ## Procedures
 

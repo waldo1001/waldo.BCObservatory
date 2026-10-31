@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/9045",
+  "input_hash": "c521a89df70dc7be424d9432830e4637beeff08b92f094184dde657a944c4f5c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-31T01:04:07.475Z",
+  "issues": [
+    "The summary names Config. Excel Exchange, but that file changed by only one line. Most of the refactoring (+1296 lines) is in codeunit 8614 Config. XML Exchange. The description seems to have the codeunit name wrong.",
+    "The key point 'Functional behavior remains unchanged' is not stated anywhere. The description only says RapidStart would break if anything is wrong.",
+    "Changes to Config. Setup, Config. Import Table in Backgr and XML DOM Management are supported by the file list. refactor and breaking false are fine. The page lists no obsoletions."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.033566,
+    "changes_in_call": 2
+  }
+}

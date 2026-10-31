@@ -2,7 +2,7 @@
 id: source/bcquality-prs
 type: source
 title: microsoft/BCQuality pull requests
-summary: "microsoft/BCQuality pull requests: 102 code changes in the knowledge base, 2026-07-09 to 2026-10-20, mostly about development, platform, copilot."
+summary: "microsoft/BCQuality pull requests: 104 code changes in the knowledge base, 2026-07-09 to 2026-10-30, mostly about development, platform, copilot."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-22T00:20:01.868Z"
+  at: "2026-10-31T00:15:35.028Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 25f21664cd7e0d52a136b26decacad38ec6de8c31abbb69ddd17ec015f7b9fe4
+  input_hash: ce3c4aecb891a7e1a1ff17d1efe99587d58a0158615034868c5c66f7243b22b3
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
@@ -137,21 +137,23 @@ links:
     - change/bcquality/228
     - change/bcquality/246
     - change/bcquality/249
+    - change/bcquality/251
+    - change/bcquality/222
 source_id: bcquality-prs
 kind: github-pr
 url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 102
+item_count: 104
 footprint:
   systems:
     - id: development
-      weight: 184
+      weight: 188
     - id: platform
       weight: 26
     - id: copilot
-      weight: 16
+      weight: 17
     - id: administration
       weight: 8
     - id: reporting
@@ -160,11 +162,11 @@ footprint:
       weight: 4
   topics:
     - id: main
-      weight: 102
+      weight: 104
     - id: feature
-      weight: 62
+      weight: 63
     - id: fix
-      weight: 23
+      weight: 24
     - id: other
       weight: 12
     - id: refactor
@@ -172,12 +174,12 @@ footprint:
   objects: []
   features: []
 first_item: "2026-07-09"
-last_item: "2026-10-20"
+last_item: "2026-10-30"
 ---
 
 # microsoft/BCQuality pull requests
 
-> microsoft/BCQuality pull requests: 102 code changes in the knowledge base, 2026-07-09 to 2026-10-20, mostly about development, platform, copilot.
+> microsoft/BCQuality pull requests: 104 code changes in the knowledge base, 2026-07-09 to 2026-10-30, mostly about development, platform, copilot.
 
 [https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -185,9 +187,9 @@ last_item: "2026-10-20"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (184) | main (102) |  |
-| platform (26) | feature (62) |  |
-| copilot (16) | fix (23) |  |
+| development (188) | main (104) |  |
+| platform (26) | feature (63) |  |
+| copilot (17) | fix (24) |  |
 | administration (8) | other (12) |  |
 | reporting (5) | refactor (5) |  |
 | integration (4) |  |  |
@@ -197,10 +199,12 @@ last_item: "2026-10-20"
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 77
-- 2026-Q4: ************************* 25
+- 2026-Q4: *************************** 27
 
 ## Most recent
 
+- [#222 Add cited knowledge consultation skill for Business Central](../changes/bcquality/222.md) (2026-10-30)
+- [#251 Clarify 20-character limit for assignable permission set names](../changes/bcquality/251.md) (2026-10-30)
 - [#249 Route guard-dependent and/or conditions to the short-circuit article](../changes/bcquality/249.md) (2026-10-20)
 - [#246 Expose plan guidance as a preview plugin skill](../changes/bcquality/246.md) (2026-10-20)
 - [#228 Knowledge: isolated events, FilterGroup scope, BLOB CalcFields and stream text encoding](../changes/bcquality/228.md) (2026-10-20)
@@ -219,7 +223,5 @@ Items per quarter, oldest first:
 - [#218 Harden findings-report producer constraints](../changes/bcquality/218.md) (2026-10-05)
 - [#213 knowledge(events): database trigger setup flags may only be set to true](../changes/bcquality/213.md) (2026-10-05)
 - [#215 knowledge(performance): grouped query (Count + ColumnFilter = HAVING) for distinct values and duplicates](../changes/bcquality/215.md) (2026-10-05)
-- [#209 3 AL/BC patterns: Insert/Delete trigger defaults on master data and declined Confirm in OnValidate](../changes/bcquality/209.md) (2026-10-05)
-- [#216 knowledge(style): a new procedure that changes the page's current record should take it as var Record](../changes/bcquality/216.md) (2026-10-05)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

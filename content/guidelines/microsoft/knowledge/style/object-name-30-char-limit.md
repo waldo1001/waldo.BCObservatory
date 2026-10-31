@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-31T00:17:11.084Z"
+  at: "2026-10-31T00:15:35.028Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 03f9e7176b2a0e0ec9f61e998a1ad11a5de3269a
@@ -44,7 +44,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/251
   related:
     - to: object/enum/815
       title: enum 815 "Sales Invoice Posting"
@@ -96,6 +97,10 @@ Names like `"CustLE"` or `"SIPoster"` that abbreviate beyond comprehensibility, 
 ## Names
 
 - [enum 815 "Sales Invoice Posting"](../../../../objects/enum/815.md) (possibly related: a code span names it)
+
+## Changed by
+
+- [#251 Clarify 20-character limit for assignable permission set names](../../../../changes/bcquality/251.md), 2026-10-30
 
 ---
 

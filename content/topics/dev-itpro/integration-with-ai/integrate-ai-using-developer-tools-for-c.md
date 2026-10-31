@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-10-29T22:03:43.939Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -211,6 +211,7 @@ links:
     - post/aardvarklabs-blog/1891
     - post/aardvarklabs-blog/2663
     - post/aardvarklabs-blog/2965
+    - post/bccaptain-com-au/https-bccaptain-com-au-2026-04-27-im-back-and-its-going-to-be-a-busy-few-months--f03ed9d8b6
     - post/thinkaboutit-be/8204
   guidelines: []
   changes:
@@ -230,7 +231,7 @@ coverage:
   learn: 24
   code: 0
   video: 2
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: aeabb0e354c64dab6f26c0a75a3b42f75aacb52e074d17031f180db246dc234e
@@ -292,6 +293,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Implementing a Multi-Step Process for AI Recommendations in Business Central](../../../posts/aardvarklabs-blog/1891.md) (community post): "This post demonstrates how to build a multi-step AI-assisted process in Business Central"
 - [Azure OpenAI in Business Central AL: Managed vs Unmanaged](../../../posts/aardvarklabs-blog/2663.md) (community post): "Azure OpenAI in Business Central AL: Managed vs Unmanaged"
 - [Step-by-Step Guide to AI Campaigns in Business Central](../../../posts/aardvarklabs-blog/2965.md) (community post): "Leverages Business Central's managed AI resource with Bing Grounded Search"
+- [I’m back – and it’s going to be a busy few months!](../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-04-27-im-back-and-its-going-to-be-a-busy-few-months--f03ed9d8b6.md) (community post): "AI tools in AL development workflows brings together leading community developers"
 - [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "Developers can now build Copilot extensions using Microsoft-managed Azure OpenAI"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../../videos/7SSNcUMFtCw.md) (video): "Bring your own Azure OpenAI subscription; System prompts for AI safety"
 - [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../videos/lNASlydCidI.md) (video): "Generative AI Developer Toolkit; Prompt Dialogue Page Type; Sparkle Image Property"

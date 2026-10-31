@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/13104",
+  "input_hash": "caded0229e80fe4e3867971873f4c163613c4b3e80d467c0264658db7d17b5b8",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-31T01:04:15.105Z",
+  "issues": [
+    "Key points say the result condition test code was significantly improved. The large change (+58 -68) is in the app codeunit Qlty. Result Condition Mgmt., not in test code.",
+    "The page leaves out that application code changed in the Qlty. Inspection Result table and the result condition codeunit.",
+    "The description is only a work item link, so the scope of the behaviour change cannot be confirmed."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029807,
+    "changes_in_call": 6
+  }
+}

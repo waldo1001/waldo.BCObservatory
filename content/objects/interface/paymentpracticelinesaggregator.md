@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-30T01:00:43.748Z"
+  at: "2026-10-31T00:48:20.076Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c5cd704029314f1aaff6d63cfe924c4e61b3a23a879640f91e1b34e96bed9136
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Apps/W1/PaymentPractices/app/src/Core/Interfaces/PaymentPracticeLinesAggregator.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/Apps/W1/PaymentPractices/app/src/Core/Interfaces/PaymentPracticeLinesAggregator.Interface.al
     title: src/Apps/W1/PaymentPractices/app/src/Core/Interfaces/PaymentPracticeLinesAggregator.Interface.al (releases/29.x)
     date: null
-    commit: 7aa49e808916c060dbee97d9ff324a2cfda8d422
+    commit: 8e740e5061595dd231c4a2d9d453c86c84ec76ae
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "PaymentPracticeLinesAggregator" in PaymentPractices (Microsoft.Finance.Analysis). 3 public procedures. Introduced in BC29, still in BC30.
 
-PaymentPractices · Microsoft.Finance.Analysis · BC29-30 · [source at 7aa49e80](https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Apps/W1/PaymentPractices/app/src/Core/Interfaces/PaymentPracticeLinesAggregator.Interface.al) · facts from BC29
+PaymentPractices · Microsoft.Finance.Analysis · BC29-30 · [source at 8e740e50](https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/Apps/W1/PaymentPractices/app/src/Core/Interfaces/PaymentPracticeLinesAggregator.Interface.al) · facts from BC29
 
 ## Procedures
 

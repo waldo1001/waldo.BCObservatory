@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-30T01:00:43.748Z"
+  at: "2026-10-31T00:48:20.076Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9a1013e993f0bf9363a120e6dcd9dbedbd8ea4c78e2153b5d688ab7c7f96f026
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralPremiumEmbedded.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralPremiumEmbedded.Entitlement.al
     title: src/System Application/App/Entitlements/Dynamics365BusinessCentralPremiumEmbedded.Entitlement.al (releases/29.x)
     date: null
-    commit: 7aa49e808916c060dbee97d9ff324a2cfda8d422
+    commit: 8e740e5061595dd231c4a2d9d453c86c84ec76ae
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Entitlement "Dynamics 365 Business Central Premium - Embedded" in System Application (System.Security.AccessControl). Present since at least BC23, still in BC30.
 
-System Application · System.Security.AccessControl · BC23-30 · [source at 7aa49e80](https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralPremiumEmbedded.Entitlement.al) · facts from BC29
+System Application · System.Security.AccessControl · BC23-30 · [source at 8e740e50](https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralPremiumEmbedded.Entitlement.al) · facts from BC29
 
 ## Across versions
 

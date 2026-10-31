@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:00:37.736Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -472,9 +472,15 @@ links:
     - topic/business-central/business-functionality/sales/subscription-billing
   localizations: []
   videos:
+    - video/cuez5kIanKo
     - video/fatcqVFrTXI
     - video/fdP1HKBEDjA
+    - video/gy_6QnFpiEw
+    - video/p-pwG6f5srY
     - video/PIWxU93eCT4
+    - video/StIVhsnOHWY
+    - video/VjYMhjjc3uw
+    - video/YSDfDjrMUb0
   posts:
     - post/duiliotacconi-com/1667
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97
@@ -485,6 +491,7 @@ links:
     - post/yzhums-com/63644
     - post/yzhums-com/64277
     - post/yzhums-com/64609
+    - post/yzhums-com/65326
     - post/yzhums-com/66212
     - post/yzhums-com/68428
     - post/yzhums-com/69356
@@ -550,8 +557,8 @@ children:
 coverage:
   learn: 133
   code: 139
-  video: 3
-  blog: 19
+  video: 9
+  blog: 20
   guideline: 0
 bc_forms:
   - 7
@@ -834,6 +841,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: How to show a warning about low inventory on a sales document (Prohibit users from adding sales lines with low inventory)](../../../posts/yzhums-com/63644.md) (community post): "show a warning about low inventory on a sales document when sales document quantities exceed inventory levels"
 - [Business Central 2025 wave 1 (BC26): Edit price lists in Excel (New sales pricing experience)](../../../posts/yzhums-com/64277.md) (community post): "edit sales price lists directly in Excel using the Edit in Excel action"
 - [Dynamics 365 Business Central: “Hide Company Bank Account” setup in General Ledger Setup (Update Company Bank Account on posted documents)](../../../posts/yzhums-com/64609.md) (community post): "hides the Company Bank Account Code field from the Posted Sales Inv. - Update page"
+- [Dynamics 365 Business Central: How to bulk import marketing text to items – Customization](../../../posts/yzhums-com/65326.md) (community post): "bulk import marketing text for items in Business Central using a custom XMLPORT and CSV file"
 - [Dynamics 365 Business Central: Use a default quantity of 1 for all types on documents – Customization](../../../posts/yzhums-com/66212.md) (community post): "apply default quantity of 1 to other document line types"
 - [Dynamics 365 Business Central: Check posting date before posting (preview posting) in the sales and purchase documents – Customization](../../../posts/yzhums-com/68428.md) (community post): "checks whether the posting date on a sales or purchase document is in the current month"
 - [Dynamics 365 Business Central: How to automatically archive sales orders via AL (For example, Archive on Order Release)](../../../posts/yzhums-com/69356.md) (community post): "automatically archive sales orders when they are released using AL code"
@@ -844,9 +852,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 1 (BC28): Filter receipt and shipment lines to quickly find documents you want to invoice (New filters on the Get Receipt Lines, Get Shipment Lines, and Get Service Shipment Lines pages)](../../../posts/yzhums-com/71648.md) (community post): "Get Shipment Lines, and Get Service Shipment Lines pages to help users"
 - [Dynamics 365 Business Central: Searches for duplicate external document numbers in sales documents and posted documents (Standard function/procedure)](../../../posts/yzhums-com/74940.md) (community post): "searches for duplicate external document numbers in sales documents and posted documents"
 - [Dynamics 365 Business Central: How to add a Signature Pad to the Sales Order page (Capture and Save Customer Signatures)](../../../posts/yzhums-com/75073.md) (community post): "Adding a signature pad to the Sales Order page in Business Central"
+- [What's New in Shopify Connector: Activate Sales Channels (2025 release wave 1)](../../../videos/cuez5kIanKo.md) (video): "Product Export to Shopify; Sales Channel Verification"
 - [Comparing Entering Receivables Transactions in Dynamics SL to Dynamics 365 Business Central](../../../videos/fatcqVFrTXI.md) (video): "Sales invoice entry in Business Central"
 - [Comparing entering Receivables Transactions in Dynamics GP to Dynamics 365 Business Central (2024)](../../../videos/fdP1HKBEDjA.md) (video): "Sales invoices document in Business Central"
+- [What's New in Shopify Connector: Prices for Markets (2025 release wave 2)](../../../videos/gy_6QnFpiEw.md) (video): "multi-currency; price catalogs; b2b catalogs; point of sale"
+- [What's New: Shopify Connector (2024 release wave 2)](../../../videos/p-pwG6f5srY.md) (video): "Return processing; Posted Sales Invoice Synchronization; Multi-Payment Reconciliation"
 - [What's Cooking in Business Central: Edit Sales Price Lists in Excel](../../../videos/PIWxU93eCT4.md) (video): "sales price lists; excel integration; edit prices"
+- [What's New in Shopify Connector: Troubleshoot Synchronization (2025 release wave 2)](../../../videos/StIVhsnOHWY.md) (video): "Order import; error handling; refunds; Sync orders from Shopify"
+- [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 2)](../../../videos/VjYMhjjc3uw.md) (video): "Shopify Orders Import; Order Synchronization with Location Mapping"
+- [What's new in Shopify Connector: Overview (2026 release wave 2)](../../../videos/YSDfDjrMUb0.md) (video): "Order management; order numbering; returns processing; sales documents"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:34.022Z"
   flags: []
 generated:
-  at: "2026-10-26T10:55:37.280Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -172,6 +172,7 @@ links:
     - change/bcquality/175
     - change/bcquality/183
     - change/bcquality/196
+    - change/bcquality/251
     - change/bcquality/98
 learn_toc_path:
   - Development
@@ -251,6 +252,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#175 9 AL/BC patterns: document distribution, price calculation & barcode extensibility](../../../../changes/bcquality/175.md) (code change): "Nine new AL/BC patterns document best practices for document distribution"
 - [#183 Add reporting review guidance and evaluation fixtures](../../../../changes/bcquality/183.md) (code change): "Included bad and good AL code samples for each rule to guide developers"
 - [#196 Strengthen review contracts and add AL reliability guidance](../../../../changes/bcquality/196.md) (code change): "Strengthen review contracts and add AL reliability guidance. Adds seven AL reliability rules"
+- [#251 Clarify 20-character limit for assignable permission set names](../../../../changes/bcquality/251.md) (code change): "Includes best practice showing full names with prefix/affix must fit 20 characters"
 - [#98 Add P0 event and interface compatibility knowledge](../../../../changes/bcquality/98.md) (code change): "Guidance added for event and interface compatibility patterns, covering enum unknown value handling"
 - [When “Errors” Don’t Stop the Process: A Hidden Risk in Business Central](../../../../posts/miljan-rs/966.md) (community post): "Safe usage pattern: validate first with error collection"
 - [Get the new BCQuality plugin for VS Code!](../../../../posts/nataliekarolak-com/4271.md) (community post): "helps AI agents and AL developers generate better code for Business Central"

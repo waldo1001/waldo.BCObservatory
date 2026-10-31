@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13415",
+  "input_hash": "73b3f566d403be67a1b9cea6dc152a326449f315bdd31add5af48cd4f2de0be1",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-31T01:04:09.038Z",
+  "issues": [
+    "The description has no details, so specific claims such as 'exchange rate handling' and 'correcting the VAT calculation logic' are not supported.",
+    "The tests were added to the Non-Deductible VAT Journal test codeunit. Calling the coverage 'comprehensive' is not supported."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018161,
+    "changes_in_call": 6
+  }
+}

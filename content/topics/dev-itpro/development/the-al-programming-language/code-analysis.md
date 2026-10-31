@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T08:42:58.321Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -85,6 +85,7 @@ links:
     - video/Q-oazDEucLE
     - video/tMqCSibSRug
   posts:
+    - post/aardvarklabs-blog/4177
     - post/gerardorenteria-blog/11565
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3697577773817687094--e070102696
     - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f
@@ -133,7 +134,7 @@ coverage:
   learn: 7
   code: 0
   video: 3
-  blog: 6
+  blog: 7
   guideline: 0
 bc_forms: []
 member_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -189,6 +190,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#180 Normalize recoverable leaf finding ranges](../../../../changes/bcquality/180.md) (code change): "Normalize recoverable leaf finding ranges. Review findings whose primary line"
 - [#204 Validate composed reviews against the expected leaf worklist](../../../../changes/bcquality/204.md) (code change): "Validate composed reviews against the expected leaf worklist. The findings-report validator"
 - [#54 Emit human-readable domain label on review findings](../../../../changes/bcquality/54.md) (code change): "BCQuality review leaves now set an optional human-readable domain label on every finding"
+- [Building the AL Exploration Tool I Always Wanted](../../../../posts/aardvarklabs-blog/4177.md) (community post): "A developer shares how they built a VS Code extension for exploring AL codebases visually"
 - [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../../../../posts/gerardorenteria-blog/11565.md) (community post): "Analyzer rule additions validate field classifications (AS0138, AS0139, PTE0026)"
 - [How to Migrate Business Central Table Fields from Integer to BigInteger.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3697577773817687094--e070102696.md) (community post): "The compiler warns when a BigInteger field is narrowed to Integer"
 - [Introducing ALCops — LinterCop's Next Chapter](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f.md) (community post): "ALCops is a complete replacement for LinterCop that splits code analysis into six domain-specific analyzers"

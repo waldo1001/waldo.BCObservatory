@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:07.373Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,6 +76,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12322
+    - change/bcapps/13104
 learn_toc_path:
   - Business functionality
   - Quality management
@@ -138,6 +139,7 @@ Then connect these pieces to business activity. Generation rules decide when ins
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12322 [QM] Destination bin code is now visible and usable for the user](../../../../changes/bcapps/12322.md) (code change): "destination bin code is now visible and usable for the user"
+- [#13104 update tests and enable them](../../../../changes/bcapps/13104.md) (code change): "Quality inspection result configuration is adjusted. Test coverage for condition management is enhanced"
 - [Introducing: Quality Management (2026 release wave 1)](../../../../videos/m8-7-JKq4dc.md) (video): "Quality Management Extension; Automatic Quality Test Triggering; Scheduled Quality Inspections"
 
 ## Business Central pages and reports

@@ -6,12 +6,12 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Fixed incorrect posting of reverse charge VAT with 100% non-deductible VAT in foreign currency transactions by correcting the VAT calculation logic.",
+  "summary": "Fixes incorrect posting of reverse charge VAT with 100% non-deductible VAT in foreign currency transactions. The fix is in the Non-Ded. VAT Impl. codeunit, and tests were added.",
   "key_points": [
-    "Corrected reverse charge VAT calculation for transactions with 100% non-deductible VAT",
-    "Fixed foreign currency exchange rate handling in non-deductible VAT posting",
-    "Added comprehensive test coverage for the reverse charge VAT scenario",
-    "Bug fix in the Non-Deductible VAT implementation codeunit"
+    "Fixes posting of reverse charge VAT with 100% non-deductible VAT when the transaction is in a foreign currency",
+    "Change made in codeunit 6201 Non-Ded. VAT Impl.",
+    "Tests added to the Non-Deductible VAT Journal test codeunit",
+    "Backported to the 29.x release branch"
   ],
   "change_kind": "fix",
   "behavior_change": true,

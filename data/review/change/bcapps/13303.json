@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/13303",
+  "input_hash": "c53e825f803dfa82d7f61239b47946ef1b64bd18622c6819c5f279c0600c29d2",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-31T01:04:09.038Z",
+  "issues": [
+    "The content matches the description. The Key Vault switch also allows GPT41Preview, which the first key point leaves out, but nothing it says is wrong.",
+    "The quote is lightly paraphrased from 'This PR makes the model switchable', which is acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018161,
+    "changes_in_call": 6
+  }
+}

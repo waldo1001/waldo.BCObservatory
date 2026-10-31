@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:05.533Z"
   flags: []
 generated:
-  at: "2026-10-26T08:46:07.995Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -153,7 +153,6 @@ links:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-add-in-error-the-service-required-to--ef06d9023d
     - post/yzhums-com/63735
     - post/yzhums-com/69433
-    - post/yzhums-com/69818
     - post/yzhums-com/72611
   guidelines: []
   changes:
@@ -173,7 +172,7 @@ coverage:
   learn: 16
   code: 5
   video: 0
-  blog: 5
+  blog: 4
   guideline: 0
 bc_forms:
   - 1480
@@ -230,7 +229,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [D365 Business Central: How to fix Edit in Excel Add-In Error - The service required to use this feature is turn off. Check your privacy settings.](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-add-in-error-the-service-required-to--ef06d9023d.md) (community post): "Edit in Excel allows direct editing of Business Central records in Excel"
 - [Dynamics 365 Business Central Blog Series: Integrate Business Central with SharePoint](../../../posts/yzhums-com/63735.md) (community post): "Integrate Business Central with SharePoint. This is an index of a blog series on connecting Business Central with SharePoint."
 - [Dynamics 365 Business Central: How to use Open in Excel in the browser/web (Excel Online)](../../../posts/yzhums-com/69433.md) (community post): "Open in Excel displays the same rows and columns visible on the Business Central page"
-- [Business Central 2026 release wave 1 (BC28): Storing Document Attachments outside the database (No customization) – See benefits of external storage support for document attachments](../../../posts/yzhums-com/69818.md) (community post): "Storing Document Attachments outside the database in SharePoint, Azure, or SFTP"
 - [Business Central 2026 release wave 1 (BC28): Copy contacts from BC to Microsoft 365 (Outlook & Teams)](../../../posts/yzhums-com/72611.md) (community post): "Synchronize with Outlook action on the Contacts list enables copying contacts to Outlook"
 
 ## Business Central pages and reports

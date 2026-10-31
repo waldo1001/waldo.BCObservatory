@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcquality-prs/222",
+  "input_hash": "0415fe5f52d359471991f4fda0ee5987fadd5bfa0a6c29568a3cdca492fde986",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-31T01:04:14.203Z",
+  "issues": [
+    "The PR adds a new skill and new Entry routing for knowledge-query requests, which is new behaviour for consumers, so behavior_change should be true.",
+    "The summary and key points are supported by the description."
+  ],
+  "applied": [
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023705,
+    "changes_in_call": 6
+  }
+}

@@ -6,13 +6,13 @@
   "systems_joined": [
     "purchasing"
   ],
-  "summary": "The Maintenance Code field has been added to purchase order and purchase invoice subpages across all localization layers to improve tracking of maintenance-related purchase documents.",
+  "summary": "Adds the Maintenance Code field to the Purchase Order Subform and Purch. Invoice Subform line pages. The invoice subform changed in W1, APAC, BE, ES, FR, IT, NA, NL and RU; the order subform changed in W1, APAC, ES, FR, IT, NA and RU.",
   "key_points": [
-    "Maintenance Code field added to Purchase Order Subform page",
-    "Maintenance Code field added to Purchase Invoice Subform page",
-    "Changes applied consistently across all regional localization layers (W1, APAC, BE, ES, FR, IT, NA, NL, RU)",
-    "Allows users to associate purchase documents with maintenance codes",
-    "Fixes bug 656582"
+    "Maintenance Code field added to the Purchase Order Subform page (page 54)",
+    "Maintenance Code field added to the Purch. Invoice Subform page (page 55)",
+    "Order subform updated in the W1, APAC, ES, FR, IT, NA and RU layers",
+    "Invoice subform updated in the W1, APAC, BE, ES, FR, IT, NA, NL and RU layers",
+    "Tracked as bug 656582"
   ],
   "change_kind": "feature",
   "behavior_change": true,

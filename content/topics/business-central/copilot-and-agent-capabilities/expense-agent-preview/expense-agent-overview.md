@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:05.364Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,6 +73,7 @@ links:
     - change/bcapps/12472
     - change/bcapps/12539
     - change/bcapps/12821
+    - change/bcapps/12882
     - change/bcapps/12894
     - change/bcapps/9910
 learn_toc_path:
@@ -137,6 +138,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12472 Expense Agent Default VAT Setup fails in localized companies](../../../../changes/bcapps/12472.md) (code change): "Fixes VAT setup initialization for Expense Agent in localized environments"
 - [#12539 Add Expense Agent consumption V2 and trial support](../../../../changes/bcapps/12539.md) (code change): "Expense Agent adds a V2 consumption API and a 50-expense feature trial"
 - [#12821 [SOA] Copy manual task attachments to sales quotes](../../../../changes/bcapps/12821.md) (code change): "Adds internal table 4590 SOA Attachment Transfer to track"
+- [#12882 [Master] - Bug 651169: [Expense Agent] Exchange rate date limitation](../../../../changes/bcapps/12882.md) (code change): "Exchange rate date handling corrected for Expense Agent transactions"
 - [#12894 [PayablesAgent] Add support for credit memos, recognised from the PDF and applied to the original invoice](../../../../changes/bcapps/12894.md) (code change): "Payables Agent now recognizes vendor credit notes in PDFs"
 - [#9910 [SOA] Move attachment processing to direct model reading](../../../../changes/bcapps/9910.md) (code change): "Sales Order Agent now processes PDF and image attachments directly with GPT-4.1 mini"
 - [Expense Agent: Feedback (2026 release wave 1)](../../../../videos/6rm45dSB6xg.md) (video): "Expense Agent; Feedback; user experience; issue reporting"

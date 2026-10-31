@@ -6,12 +6,12 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "Quality Management tests are enabled and test cases for result condition management are expanded to cover additional scenarios.",
+  "summary": "Disabled Quality Management result condition tests are re-enabled and updated. The application logic in Qlty. Result Condition Mgmt. and the Qlty. Inspection Result table is also revised.",
   "key_points": [
-    "Tests are moved from disabled status to active execution",
-    "Result condition validation test code is significantly improved",
-    "Quality inspection result configuration is adjusted",
-    "Test coverage for condition management is enhanced"
+    "Entries removed from the Quality Management disabled tests list, so those tests run again",
+    "Result condition test codeunit updated",
+    "App codeunit Qlty. Result Condition Mgmt. reworked",
+    "Qlty. Inspection Result table adjusted"
   ],
   "change_kind": "fix",
   "behavior_change": false,

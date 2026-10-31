@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-30T01:00:43.748Z"
+  at: "2026-10-31T00:48:20.076Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 91993d25d70f2ec002a458901a7564e074b64427c7b1ccfea27633080d9a3ef9
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Layers/W1/BaseApp/Finance/VAT/Registration/AltCustVATRegConsist.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/Layers/W1/BaseApp/Finance/VAT/Registration/AltCustVATRegConsist.Interface.al
     title: src/Layers/W1/BaseApp/Finance/VAT/Registration/AltCustVATRegConsist.Interface.al (releases/29.x)
     date: null
-    commit: 7aa49e808916c060dbee97d9ff324a2cfda8d422
+    commit: 8e740e5061595dd231c4a2d9d453c86c84ec76ae
     t: null
     quote: null
 links:
@@ -80,7 +80,7 @@ relations:
 
 > Interface "Alt. Cust. VAT Reg. Consist." in Base Application (Microsoft.Finance.VAT.Registration). 2 public procedures. Introduced in BC25, still in BC30.
 
-Base Application · Microsoft.Finance.VAT.Registration · BC25-30 · [source at 7aa49e80](https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Layers/W1/BaseApp/Finance/VAT/Registration/AltCustVATRegConsist.Interface.al) · facts from BC29
+Base Application · Microsoft.Finance.VAT.Registration · BC25-30 · [source at 8e740e50](https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/Layers/W1/BaseApp/Finance/VAT/Registration/AltCustVATRegConsist.Interface.al) · facts from BC29
 
 ## Properties
 

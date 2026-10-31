@@ -2,7 +2,7 @@
 id: source/bccaptain-com-au
 type: source
 title: BC Captain
-summary: "BC Captain (Tom Kapitan): 6 posts in the knowledge base, 2026-04-27 to 2026-10-24, mostly about development, reporting, administration."
+summary: "BC Captain (Tom Kapitan, MVP): 6 posts in the knowledge base, 2026-04-27 to 2026-10-24, mostly about development, reporting, administration."
 tier: community
 language: en
 tags:
@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-30T07:47:07.587Z"
+  at: "2026-10-31T00:15:35.028Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 31e40a89386102818da79a5a25258482b2923152e5dc6e4ac151870cd3d65b3e
@@ -44,7 +44,7 @@ source_id: bccaptain-com-au
 kind: blog
 url: https://bccaptain.com.au
 author: Tom Kapitan
-mvp: false
+mvp: true
 full_text: false
 item_count: 6
 footprint:
@@ -94,7 +94,7 @@ last_item: "2026-10-24"
 
 # BC Captain
 
-> BC Captain (Tom Kapitan): 6 posts in the knowledge base, 2026-04-27 to 2026-10-24, mostly about development, reporting, administration.
+> BC Captain (Tom Kapitan, MVP): 6 posts in the knowledge base, 2026-04-27 to 2026-10-24, mostly about development, reporting, administration.
 
 [https://bccaptain.com.au](https://bccaptain.com.au) · blog · tier community
 

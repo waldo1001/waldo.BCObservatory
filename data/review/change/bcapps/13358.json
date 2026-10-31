@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13358",
+  "input_hash": "b944a8440e26227c5739d36601d3c8b70458e9a24e4cd6618b5c89fcf5021cf2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-31T01:04:09.038Z",
+  "issues": [
+    "The claim of 'all localization layers' is not supported. The order subform changed only in W1, APAC, ES, FR, IT, NA and RU, while the invoice subform also changed in BE and NL.",
+    "The stated purpose, improving tracking of maintenance-related documents, is speculation; the PR only adds the field to the subpages."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018161,
+    "changes_in_call": 6
+  }
+}

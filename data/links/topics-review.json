@@ -2781,200 +2781,134 @@
     "topic/business-central/business-functionality/sales": {
       "post/aardvarklabs-blog/2603@37d1648ae4d574a5": {
         "verdict": "drop",
-        "reason": "The post teaches how to parse delimited files into staging tables with AL; sales orders are only the example.",
-        "at": "2026-10-30T08:06:07.727Z",
+        "reason": "Subject is AL parsing of header/detail import files; sales orders are just the example.",
+        "at": "2026-10-31T01:03:12.997Z",
         "v": 2
       },
-      "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/@92dccaa426ab736e": {
+      "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/@99482879dddcf915": {
         "verdict": "drop",
-        "reason": "The post is about building Word report layouts with an MCP tool; the sales quote is only the example.",
-        "at": "2026-10-30T08:06:07.727Z",
+        "reason": "Subject is Word report layout design with an MCP agent; the sales quote is only the demo report.",
+        "at": "2026-10-31T01:03:12.997Z",
         "v": 2
       },
       "post/duiliotacconi-com/1667@446c0b74fa2f32e9": {
         "verdict": "keep",
-        "reason": "It explains a change to the order in which sales posting processes document lines.",
-        "at": "2026-10-30T08:06:07.727Z",
+        "reason": "Explains a change in how sales document posting processes lines, which relates to sales posting.",
+        "at": "2026-10-31T01:03:12.997Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3905080819923012785@52156de09484cd22": {
         "verdict": "keep",
-        "reason": "It covers emailing posted sales shipments and return receipts, which is part of sales document handling.",
-        "at": "2026-10-30T08:06:07.727Z",
+        "reason": "Covers emailing and attaching posted sales shipments and return receipts, a sales document feature.",
+        "at": "2026-10-31T01:03:12.997Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/@3fac2d74cc67c469": {
         "verdict": "keep",
-        "reason": "It explains which fields carry over when copying sales documents from posted or archived orders.",
-        "at": "2026-10-30T08:06:07.727Z",
+        "reason": "Discusses copying sales documents and which fields carry over to posted/archived sales documents.",
+        "at": "2026-10-31T01:03:12.997Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/@0309219f187e1607": {
         "verdict": "keep",
-        "reason": "It shows how custom fields interact with the sales Copy Document feature.",
-        "at": "2026-10-30T08:06:07.727Z",
+        "reason": "Covers how the sales Copy Document function handles custom fields, extending documented sales functionality.",
+        "at": "2026-10-31T01:03:12.997Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-84-item-missing-from-sales-line-lookup/@a6b9f52e5b49d7a0": {
         "verdict": "keep",
-        "reason": "It troubleshoots items missing from the sales line lookup because of the Sales Blocked setting.",
-        "at": "2026-10-30T08:06:07.727Z",
+        "reason": "Explains how the Sales Blocked setting affects item selection on sales lines.",
+        "at": "2026-10-31T01:03:12.997Z",
         "v": 2
       },
       "post/thedynamicsexplorer-com/10326@0d51c1a7b7e06f52": {
         "verdict": "keep",
-        "reason": "It shows how to post a sales credit memo with an item charge, a sales process.",
-        "at": "2026-10-30T08:06:07.727Z",
+        "reason": "Demonstrates posting sales credit memos using item charges, a sales process.",
+        "at": "2026-10-31T01:03:12.997Z",
         "v": 2
       },
       "post/yzhums-com/63644@bd6456dccce2f10b": {
         "verdict": "keep",
-        "reason": "It covers the stockout warning on sales documents and how to extend it to block sales lines.",
-        "at": "2026-10-30T08:06:07.727Z",
+        "reason": "Covers the Stockout Warning in Sales & Receivables Setup on sales documents.",
+        "at": "2026-10-31T01:03:12.997Z",
         "v": 2
       },
       "post/yzhums-com/64277@596d600886ad9237": {
         "verdict": "keep",
-        "reason": "It covers editing sales price lists in Excel, which is part of sales pricing.",
-        "at": "2026-10-30T08:06:07.727Z",
+        "reason": "Covers editing sales price lists, part of sales pricing.",
+        "at": "2026-10-31T01:03:12.997Z",
         "v": 2
       },
       "post/yzhums-com/64609@8e88925380585b0d": {
         "verdict": "keep",
-        "reason": "It covers a setting that controls which fields can be updated on posted sales invoices.",
-        "at": "2026-10-30T08:06:07.727Z",
+        "reason": "Covers updating fields on posted sales invoices, a sales document capability.",
+        "at": "2026-10-31T01:03:12.997Z",
         "v": 2
       },
       "post/yzhums-com/65326@48449cb68de280af": {
-        "verdict": "drop",
-        "reason": "Bulk importing item marketing text is about managing item data, which is Inventory's subject, not sales processes.",
-        "at": "2026-10-30T08:06:10.413Z",
+        "verdict": "keep",
+        "reason": "Marketing text on items is sales-facing customer content, and this post extends it with a bulk import; kept because the case was uncertain.",
+        "at": "2026-10-31T01:03:22.475Z",
         "v": 2
       },
       "post/yzhums-com/66212@382f4116ce153e4c": {
         "verdict": "keep",
-        "reason": "Customizes the default quantity on sales document lines, which extends sales document entry.",
-        "at": "2026-10-30T08:06:10.413Z",
+        "reason": "It customizes default quantities on sales document lines, which this section documents.",
+        "at": "2026-10-31T01:03:22.475Z",
         "v": 2
       },
       "post/yzhums-com/68428@c44da8ee6d1716d6": {
         "verdict": "keep",
-        "reason": "Adds a posting-date check when posting sales documents, which extends a sales posting process.",
-        "at": "2026-10-30T08:06:10.413Z",
+        "reason": "It adds a posting-date check when posting sales documents, which extends the sales posting this section documents.",
+        "at": "2026-10-31T01:03:22.475Z",
         "v": 2
       },
       "post/yzhums-com/69356@c565a140cb20a251": {
         "verdict": "keep",
-        "reason": "Automates archiving of sales orders, and archiving sales documents is part of Sales.",
-        "at": "2026-10-30T08:06:10.413Z",
+        "reason": "Archiving sales orders is part of the sales document handling this section documents.",
+        "at": "2026-10-31T01:03:22.475Z",
         "v": 2
       },
       "post/yzhums-com/70137@7549225fc5208ecc": {
         "verdict": "keep",
-        "reason": "Shows how to display sales order comments in a FactBox and in reports, which extends sales documents.",
-        "at": "2026-10-30T08:06:10.413Z",
+        "reason": "It shows sales order comments in a FactBox and in reports, which extends sales documents.",
+        "at": "2026-10-31T01:03:22.475Z",
         "v": 2
       },
       "post/yzhums-com/71137@3215568ca222ff1b": {
         "verdict": "keep",
-        "reason": "New feature for sending posted sales shipments and return receipts by email.",
-        "at": "2026-10-30T08:06:10.413Z",
+        "reason": "It covers sending posted sales shipments and return receipts by email, a sales document feature.",
+        "at": "2026-10-31T01:03:22.475Z",
         "v": 2
       },
       "post/yzhums-com/71304@d5f72bf352306d07": {
         "verdict": "keep",
-        "reason": "Drop shipments from sales orders are documented in Sales, and this covers the new Create Purchase Orders support for them.",
-        "at": "2026-10-30T08:06:10.413Z",
+        "reason": "Drop shipments from sales orders are documented under Sales.",
+        "at": "2026-10-31T01:03:22.475Z",
         "v": 2
       },
       "post/yzhums-com/71489@30bede6bfb81030a": {
         "verdict": "keep",
-        "reason": "Covers undoing a posted sales shipment for a drop shipment, which is a sales process.",
-        "at": "2026-10-30T08:06:10.413Z",
+        "reason": "It covers undoing a posted sales shipment from a drop shipment, which is a sales process.",
+        "at": "2026-10-31T01:03:22.475Z",
         "v": 2
       },
       "post/yzhums-com/71648@56f0ac64fad920dc": {
         "verdict": "keep",
-        "reason": "New filters on the Get Shipment Lines page used when combining sales shipments into one invoice.",
-        "at": "2026-10-30T08:06:10.413Z",
+        "reason": "New filters on Get Shipment Lines support combining shipments into one sales invoice, which this section covers.",
+        "at": "2026-10-31T01:03:22.475Z",
         "v": 2
       },
       "post/yzhums-com/74091@fbfc95b1f88a1f72": {
         "verdict": "drop",
-        "reason": "Creating production orders from sales orders is documented more exactly in Manufacturing/Planning.",
-        "at": "2026-10-30T08:06:10.413Z",
+        "reason": "Creating production orders from sales orders is documented more exactly in the Manufacturing section.",
+        "at": "2026-10-31T01:03:22.475Z",
         "v": 2
       },
       "post/yzhums-com/74172@68298266e334ae55": {
         "verdict": "drop",
-        "reason": "Passing custom fields into production orders is a Manufacturing customization topic.",
-        "at": "2026-10-30T08:06:10.413Z",
-        "v": 2
-      },
-      "post/yzhums-com/74940@0a04d2158fa0cf45": {
-        "verdict": "keep",
-        "reason": "Covers the standard check for duplicate external document numbers on sales documents and posted sales invoices and credit memos.",
-        "at": "2026-10-30T08:06:10.708Z",
-        "v": 2
-      },
-      "post/yzhums-com/75073@8cf1463c91b41f54": {
-        "verdict": "keep",
-        "reason": "Adds a customer-signature feature to the Sales Order page, which extends sales documents.",
-        "at": "2026-10-30T08:06:10.708Z",
-        "v": 2
-      },
-      "video/cuez5kIanKo@8ee506cf666df583": {
-        "verdict": "drop",
-        "reason": "Shopify sales-channel activation belongs to the sibling 'Online store with Shopify' section.",
-        "at": "2026-10-30T08:06:10.708Z",
-        "v": 2
-      },
-      "video/fatcqVFrTXI@5b8350204a49289f": {
-        "verdict": "keep",
-        "reason": "Demonstrates entering and previewing sales invoices and credit memos in Business Central.",
-        "at": "2026-10-30T08:06:10.708Z",
-        "v": 2
-      },
-      "video/fdP1HKBEDjA@6af3635966f0e3d7": {
-        "verdict": "keep",
-        "reason": "Shows sales invoice documents and sales journals for receivables in Business Central.",
-        "at": "2026-10-30T08:06:10.708Z",
-        "v": 2
-      },
-      "video/gy_6QnFpiEw@23f7bb92a20daa9f": {
-        "verdict": "drop",
-        "reason": "Shopify market pricing belongs to the sibling 'Online store with Shopify' section.",
-        "at": "2026-10-30T08:06:10.708Z",
-        "v": 2
-      },
-      "video/p-pwG6f5srY@991c1fbc644af86b": {
-        "verdict": "drop",
-        "reason": "Shopify Connector feature overview belongs to the sibling 'Online store with Shopify' section.",
-        "at": "2026-10-30T08:06:10.708Z",
-        "v": 2
-      },
-      "video/PIWxU93eCT4@dd35816b55e7e608": {
-        "verdict": "keep",
-        "reason": "Shows editing sales price lists in Excel, a sales pricing feature.",
-        "at": "2026-10-30T08:06:10.708Z",
-        "v": 2
-      },
-      "video/StIVhsnOHWY@b465ac15d678ab4c": {
-        "verdict": "drop",
-        "reason": "Shopify synchronization troubleshooting belongs to the sibling 'Online store with Shopify' section.",
-        "at": "2026-10-30T08:06:10.708Z",
-        "v": 2
-      },
-      "video/VjYMhjjc3uw@d6d70dad1495c9be": {
-        "verdict": "drop",
-        "reason": "Shopify B2B company mapping belongs to the sibling 'Online store with Shopify' section.",
-        "at": "2026-10-30T08:06:10.708Z",
-        "v": 2
-      },
-      "video/YSDfDjrMUb0@8fff98e8f9c7fd43": {
-        "verdict": "drop",
-        "reason": "Shopify Connector release overview belongs to the sibling 'Online store with Shopify' section.",
-        "at": "2026-10-30T08:06:10.708Z",
+        "reason": "Carrying fields from sales orders to production orders belongs to Manufacturing's production order creation, not to Sales.",
+        "at": "2026-10-31T01:03:22.475Z",
         "v": 2
       }
     },
@@ -4649,26 +4583,38 @@
     "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central": {
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-31-block-users-using-security-group/@583aac5818e5ee31": {
         "verdict": "keep",
-        "reason": "Restricting environment sign-in with security groups is part of managing access to Business Central.",
-        "at": "2026-10-26T08:20:02.772Z",
+        "reason": "Restricting who can sign in to an environment with Entra security groups is managing access to Business Central.",
+        "at": "2026-10-31T01:03:09.610Z",
         "v": 2
       },
       "post/thedynamicsexplorer-com/9364@6333813a71854372": {
         "verdict": "keep",
-        "reason": "Covers free admin licences and their user/permission management rights, matching the licensing and permissions subtopics.",
-        "at": "2026-10-26T08:20:02.772Z",
+        "reason": "The free Internal Administrator and Dynamics 365 Administrator licences relate to access through Microsoft 365 licences and to granting permissions.",
+        "at": "2026-10-31T01:03:09.610Z",
+        "v": 2
+      },
+      "post/wingate365-com/https://blog.wingate365.com/2026/04/fixing-email-for-guest-users-in-d365.html@637267c99898a38b": {
+        "verdict": "drop",
+        "reason": "Its subject is getting email connectors to work for guest users, not managing their access to Business Central.",
+        "at": "2026-10-31T01:03:09.610Z",
+        "v": 2
+      },
+      "post/wingate365-com/https://blog.wingate365.com/2026/06/graph-api-email-account-types-for-d365.html@2da8f68c24ec79aa": {
+        "verdict": "drop",
+        "reason": "It is about sending email through Graph API app registrations, which this section does not document.",
+        "at": "2026-10-31T01:03:09.610Z",
         "v": 2
       },
       "post/yzhums-com/63097@ade939cc8e212c13": {
-        "verdict": "drop",
-        "reason": "Changing a password is Microsoft 365 account housekeeping, not the licence-based access or permissions this section documents.",
-        "at": "2026-10-26T08:20:02.772Z",
+        "verdict": "keep",
+        "reason": "It covers the work or school accounts needed to sign in to Business Central online and how administrators reset passwords, which is part of user access.",
+        "at": "2026-10-31T01:03:09.610Z",
         "v": 2
       },
       "video/YTA8c2XyTX4@404d00afda0b17c6": {
         "verdict": "drop",
-        "reason": "A Dataverse integration release overview whose subject is virtual tables and events, not managing user access to Business Central.",
-        "at": "2026-10-26T08:20:02.772Z",
+        "reason": "It is mainly about Dataverse and Power Pages integration features; the Entra app users and permissions are side details of that integration.",
+        "at": "2026-10-31T01:03:09.610Z",
         "v": 2
       }
     },
@@ -7574,224 +7520,224 @@
     "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts": {
       "post/aardvarklabs-blog/1824@a2915d8ef8687e99": {
         "verdict": "keep",
-        "reason": "Shows how to build an Excel layout for a report and upload a customized version as the default.",
-        "at": "2026-10-30T08:05:38.876Z",
+        "reason": "Shows how to build an Excel report layout and upload a customized version as the default.",
+        "at": "2026-10-31T01:03:09.275Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2107@7e7622566e2b12cf": {
         "verdict": "keep",
-        "reason": "Covers the DefaultLayout and WordLayout properties and designing Word layouts, both report layout topics.",
-        "at": "2026-10-30T08:05:38.876Z",
+        "reason": "Covers Word report layouts, the WordLayout property and custom layouts, all documented under report layouts.",
+        "at": "2026-10-31T01:03:09.275Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2196@7e25b617b4b406aa": {
         "verdict": "keep",
-        "reason": "Explains how to export, edit and upload Word report layouts through the Report Layouts page.",
-        "at": "2026-10-30T08:05:38.876Z",
+        "reason": "Shows how to export, edit and re-upload Word report layouts.",
+        "at": "2026-10-31T01:03:09.275Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2271@de7854386541a124": {
         "verdict": "keep",
-        "reason": "Covers how RDLC layouts work, how to edit them, and how to choose between RDLC, Word and Excel layouts.",
-        "at": "2026-10-30T08:05:38.876Z",
+        "reason": "Covers editing RDLC layouts and when to choose RDLC over Excel or Word layouts.",
+        "at": "2026-10-31T01:03:09.275Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3544@a54ef864e981de53": {
         "verdict": "keep",
-        "reason": "Covers the new status lifecycle for report layouts on the Report Layouts page.",
-        "at": "2026-10-30T08:05:38.876Z",
+        "reason": "Covers the new status lifecycle for layouts on the Report Layouts page.",
+        "at": "2026-10-31T01:03:09.275Z",
         "v": 2
       },
-      "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/04/bc-word-layout-mcp-introduction/@81546424aaf73ea5": {
+      "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/04/bc-word-layout-mcp-introduction/@16eedde4210d9025": {
         "verdict": "keep",
         "reason": "Introduces a tool that inspects, edits and validates Word report layouts.",
-        "at": "2026-10-30T08:05:38.876Z",
+        "at": "2026-10-31T01:03:09.275Z",
         "v": 2
       },
-      "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/@92dccaa426ab736e": {
+      "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/@99482879dddcf915": {
         "verdict": "keep",
-        "reason": "Walks through building a custom Word layout, including how fields are bound to report data items.",
-        "at": "2026-10-30T08:05:38.876Z",
+        "reason": "Walks through building a custom Word layout bound to report dataset fields.",
+        "at": "2026-10-31T01:03:09.275Z",
         "v": 2
       },
       "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/24/bc-word-layout-mcp-totals-and-page-numbers/@6f4d9028e0b3cc2c": {
         "verdict": "keep",
         "reason": "Shows how to add totals and page numbers to Word report layouts.",
-        "at": "2026-10-30T08:05:38.876Z",
+        "at": "2026-10-31T01:03:09.275Z",
         "v": 2
       },
       "post/bccaptain-com-au/https://bccaptain.com.au/2026/10/18/bc-word-layout-mcp-body-repeaters/@b44487ced9fe0191": {
         "verdict": "keep",
-        "reason": "Explains repeating sections (repeaters) and page breaks in Word report layouts.",
-        "at": "2026-10-30T08:05:38.876Z",
+        "reason": "Explains repeating content and page breaks in the body of Word report layouts.",
+        "at": "2026-10-31T01:03:09.275Z",
         "v": 2
       },
       "post/bccaptain-com-au/https://bccaptain.com.au/2026/10/24/bc-word-layout-mcp-formatting-and-templates/@4ed477daee6b09a3": {
         "verdict": "keep",
-        "reason": "Covers formatting Word layouts and reusing existing Word designs as layouts.",
-        "at": "2026-10-30T08:05:38.876Z",
+        "reason": "Covers formatting Word layouts and reusing a Word design without breaking field bindings.",
+        "at": "2026-10-31T01:03:09.275Z",
         "v": 2
       },
       "post/miljan-rs/698@bec4356f9f787950": {
         "verdict": "keep",
-        "reason": "Discusses page breaks in Word layouts and how they compare with RDLC layouts.",
-        "at": "2026-10-30T08:05:38.876Z",
+        "reason": "Discusses page-break behavior in Word layouts and compares it with RDLC.",
+        "at": "2026-10-31T01:03:09.275Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619@9e099687770af155": {
         "verdict": "keep",
-        "reason": "Covers composite layouts and the Subtype, HeaderFooterPart and ThemePart AL properties for report layouts.",
-        "at": "2026-10-30T08:05:38.876Z",
+        "reason": "Covers composite Word layouts and the AL Subtype, HeaderFooterPart and ThemePart properties.",
+        "at": "2026-10-31T01:03:09.275Z",
         "v": 2
       },
       "post/nataliekarolak-com/4179@41859792343e7bbe": {
         "verdict": "keep",
-        "reason": "A general release-notes post, but it includes composite Word layouts and Word Add-in support, which are report layout features.",
-        "at": "2026-10-30T08:05:38.876Z",
+        "reason": "A release roundup, but part of it covers composite Word layouts and the Word add-in for report layouts.",
+        "at": "2026-10-31T01:03:09.275Z",
         "v": 2
       },
       "post/yzhums-com/75007@6782251d64f09f96": {
         "verdict": "keep",
-        "reason": "Covers exporting Word, RDLC and Excel layout files to see report fonts, which is a layout formatting topic.",
-        "at": "2026-10-30T08:05:40.287Z",
+        "reason": "Explains exporting report layout files (Word/RDLC/Excel) to inspect fonts used in layouts.",
+        "at": "2026-10-31T01:03:10.669Z",
         "v": 2
       },
       "post/yzhums-com/76367@c5ed89eec67d6a80": {
         "verdict": "keep",
-        "reason": "Describes a dataitem that is now built into Word layouts, which is directly about developing report layouts.",
-        "at": "2026-10-30T08:05:40.287Z",
+        "reason": "Covers the Company Information dataitem available in Word report layouts.",
+        "at": "2026-10-31T01:03:10.669Z",
         "v": 2
       },
       "post/yzhums-com/76655@7f3cc79e662dcc94": {
         "verdict": "keep",
-        "reason": "Covers conditional visibility controls for Word layouts in the Word add-in.",
-        "at": "2026-10-30T08:05:40.287Z",
+        "reason": "Covers conditional visibility controls for designing Word layouts.",
+        "at": "2026-10-31T01:03:10.669Z",
         "v": 2
       },
       "post/yzhums-com/76696@99133c573b27fc60": {
         "verdict": "keep",
-        "reason": "Covers new Word add-in design components for building report layouts.",
-        "at": "2026-10-30T08:05:40.287Z",
+        "reason": "Covers new Word add-in design components for building Word report layouts.",
+        "at": "2026-10-31T01:03:10.669Z",
         "v": 2
       },
       "post/yzhums-com/76756@8880c276306723b1": {
         "verdict": "keep",
-        "reason": "Covers Word layout themes, headers and footers, and the Body layout subtype.",
-        "at": "2026-10-30T08:05:40.287Z",
+        "reason": "Covers themes, headers and footers and Body subtype for Word layouts.",
+        "at": "2026-10-31T01:03:10.669Z",
         "v": 2
       },
       "post/yzhums-com/76763@364a862f2a91ff4e": {
         "verdict": "keep",
-        "reason": "Explains the four layout types and copying layouts on the Report Layouts page; borderline user content, kept when in doubt.",
-        "at": "2026-10-30T08:05:40.287Z",
+        "reason": "Discusses layout types and copying existing report layouts.",
+        "at": "2026-10-31T01:03:10.669Z",
         "v": 2
       },
       "video/1ft4o9lQzsU@a3a9e063fe006870": {
         "verdict": "keep",
-        "reason": "Detailed coverage of Excel report layouts, which this section documents.",
-        "at": "2026-10-30T08:05:40.287Z",
+        "reason": "In-depth session on Excel report layouts and their design.",
+        "at": "2026-10-31T01:03:10.669Z",
         "v": 2
       },
       "video/2u5_F9Ztt7U@92cfcb99a68767fc": {
         "verdict": "keep",
-        "reason": "Part of the video covers Word add-in enhancements and lifecycle control for report layouts.",
-        "at": "2026-10-30T08:05:40.287Z",
+        "reason": "Includes Word add-in enhancements and layout lifecycle control for report layouts.",
+        "at": "2026-10-31T01:03:10.669Z",
         "v": 2
       },
       "video/9ZmmQEpPyB4@63379933c2959f13": {
         "verdict": "keep",
         "reason": "Demonstrates themeable Word report layouts and watermarks.",
-        "at": "2026-10-30T08:05:40.287Z",
+        "at": "2026-10-31T01:03:10.669Z",
         "v": 2
       },
       "video/V8CSor5qBRE@e2804b6f1dc77109": {
         "verdict": "keep",
-        "reason": "Covers Word layout controls and the Word add-in for developers.",
-        "at": "2026-10-30T08:05:40.287Z",
+        "reason": "Covers Word layout engine features and layout controls for developers.",
+        "at": "2026-10-31T01:03:10.669Z",
         "v": 2
       },
       "video/W003w36Isto@26d209fa164e7040": {
         "verdict": "keep",
-        "reason": "Covers developer features for report layouts: validation, obsoleting, and Excel and Word layout properties.",
-        "at": "2026-10-30T08:05:40.287Z",
+        "reason": "Covers developer features for Word/Excel report layouts, validation and obsoleting.",
+        "at": "2026-10-31T01:03:10.669Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-67-reset-page-number-in-rdlc/@8999d843a3c1fbe8": {
         "verdict": "keep",
-        "reason": "Covers a page-numbering property used when designing RDLC layouts.",
-        "at": "2026-10-30T08:05:42.169Z",
+        "reason": "Covers the ResetPageNumber property for page numbering in RDLC layout design, which is part of report layouts.",
+        "at": "2026-10-31T01:03:12.511Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-76-barcode-fonts-in-rdl/@294934c7c4417e96": {
         "verdict": "keep",
-        "reason": "Shows how to make barcodes in RDL layouts by setting the font.",
-        "at": "2026-10-30T08:05:42.169Z",
+        "reason": "Shows how to render barcode fonts by setting FontFamily in RDL layouts.",
+        "at": "2026-10-31T01:03:12.511Z",
         "v": 2
       },
       "post/thedynamicsexplorer-com/9051@471c2be7ed7387ba": {
         "verdict": "keep",
-        "reason": "Walks through importing, exporting and editing Word layouts on the Report Layouts page.",
-        "at": "2026-10-30T08:05:42.169Z",
+        "reason": "Walks through building Word layouts with the Report Layouts page and the XML data from the report.",
+        "at": "2026-10-31T01:03:12.511Z",
         "v": 2
       },
       "post/thinkaboutit-be/7181@719b2559a0395732": {
         "verdict": "keep",
-        "reason": "Explains how to choose between Word, RDLC and Excel layouts and how layouts relate to datasets.",
-        "at": "2026-10-30T08:05:42.169Z",
+        "reason": "Explains how to choose between Word, RDLC and Excel layouts and how layouts relate to the dataset.",
+        "at": "2026-10-31T01:03:12.511Z",
         "v": 2
       },
       "post/thinkaboutit-be/7266@0e18471063e5538b": {
         "verdict": "keep",
-        "reason": "Fixes a hyperlink error in RDLC layouts, including for layouts added through report extensions.",
-        "at": "2026-10-30T08:05:42.169Z",
+        "reason": "Explains the EnableHyperlinks requirement and a workaround for hyperlinks in RDLC layouts.",
+        "at": "2026-10-31T01:03:12.511Z",
         "v": 2
       },
       "post/thinkaboutit-be/7750@935c301db7e184b7": {
         "verdict": "keep",
-        "reason": "Shows how to design Word report layouts with the Word add-in.",
-        "at": "2026-10-30T08:05:42.169Z",
+        "reason": "Covers using the Word add-in to design Word report layouts.",
+        "at": "2026-10-31T01:03:12.511Z",
         "v": 2
       },
       "post/thinkaboutit-be/8096@af9a75e67b746936": {
         "verdict": "keep",
-        "reason": "Covers how fields are mapped into Word layouts: the XML Mapping pane versus the add-in data picker.",
-        "at": "2026-10-30T08:05:42.169Z",
+        "reason": "Advises using the Word add-in data picker instead of the XML Mapping pane when adding fields to Word layouts.",
+        "at": "2026-10-31T01:03:12.511Z",
         "v": 2
       },
       "post/thinkaboutit-be/8272@a03bc83cda30588c": {
         "verdict": "keep",
-        "reason": "Explains how report layouts are managed and which ones users can select, which is a layout topic.",
-        "at": "2026-10-30T08:05:42.169Z",
+        "reason": "Covers layout status lifecycle management for layouts from Microsoft and extensions.",
+        "at": "2026-10-31T01:03:12.511Z",
         "v": 2
       },
       "post/thinkaboutit-be/8291@1316b1e71d5faae1": {
         "verdict": "keep",
-        "reason": "Describes new Word add-in features for building Word report layouts.",
-        "at": "2026-10-30T08:05:42.169Z",
+        "reason": "Describes new Word add-in features for building Word layouts.",
+        "at": "2026-10-31T01:03:12.511Z",
         "v": 2
       },
       "post/yzhums-com/67838@978efbe248a7a3c4": {
         "verdict": "keep",
-        "reason": "Covers the metadata fields in Excel layout templates.",
-        "at": "2026-10-30T08:05:42.169Z",
+        "reason": "Covers new metadata fields in Excel layout templates.",
+        "at": "2026-10-31T01:03:12.511Z",
         "v": 2
       },
       "post/yzhums-com/67892@ce42afd8813c3135": {
         "verdict": "keep",
-        "reason": "Shows the Word add-in data picker for adding fields to Word layouts.",
-        "at": "2026-10-30T08:05:42.169Z",
+        "reason": "Shows how to add data fields to Word layouts with the new Word add-in data picker.",
+        "at": "2026-10-31T01:03:12.511Z",
         "v": 2
       },
       "post/yzhums-com/72933@4d23ab5425b8403d": {
         "verdict": "keep",
-        "reason": "Explains layout statuses that control which report layouts users can pick.",
-        "at": "2026-10-30T08:05:42.169Z",
+        "reason": "Covers controlling the report layout lifecycle with layout statuses.",
+        "at": "2026-10-31T01:03:12.511Z",
         "v": 2
       },
       "post/yzhums-com/74638@3dc144b717cccc50": {
         "verdict": "keep",
-        "reason": "Explains declaring layout files in the AL rendering section, which is central to developing report layouts.",
-        "at": "2026-10-30T08:05:42.169Z",
+        "reason": "Explains how to declare layouts in the AL rendering section and publish them with report extensions.",
+        "at": "2026-10-31T01:03:12.511Z",
         "v": 2
       }
     },
@@ -10948,38 +10894,50 @@
     "topic/dev-itpro/integration/integrating-business-central-with-office": {
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-add-in-error-the-service-required-to-use-this-feature-is-turn-off-check-your-privacy-settings/@3a9986d68d1a0c6b": {
         "verdict": "keep",
-        "reason": "Fixing an error in the Edit in Excel add-in is part of the Excel integration this section documents.",
-        "at": "2026-10-26T08:44:42.243Z",
+        "reason": "Troubleshoots the Edit in Excel add-in, part of the Excel integration this section documents.",
+        "at": "2026-10-31T01:03:13.581Z",
+        "v": 2
+      },
+      "post/wingate365-com/https://blog.wingate365.com/2026/04/fixing-email-for-guest-users-in-d365.html@637267c99898a38b": {
+        "verdict": "drop",
+        "reason": "About email connectors for guest users through Graph, which this section's Office app integrations don't cover.",
+        "at": "2026-10-31T01:03:13.581Z",
+        "v": 2
+      },
+      "post/wingate365-com/https://blog.wingate365.com/2026/06/graph-api-email-account-types-for-d365.html@2da8f68c24ec79aa": {
+        "verdict": "drop",
+        "reason": "About email account setup for multiple tenants, not the Excel, OneDrive, Teams or Word integrations.",
+        "at": "2026-10-31T01:03:13.581Z",
         "v": 2
       },
       "post/yzhums-com/63735@80a0b7d071de1243": {
         "verdict": "keep",
-        "reason": "A series on connecting Business Central with SharePoint, which is part of Microsoft 365, fits this section.",
-        "at": "2026-10-26T08:44:42.243Z",
+        "reason": "SharePoint and Microsoft 365 file integration is close to the section's OneDrive and Microsoft 365 coverage.",
+        "at": "2026-10-31T01:03:13.581Z",
         "v": 2
       },
       "post/yzhums-com/69433@373b66da3535df5d": {
         "verdict": "keep",
-        "reason": "It covers Open in Excel opening in Excel for the web through OneDrive, both subtopics of this section.",
-        "at": "2026-10-26T08:44:42.243Z",
+        "reason": "Covers Open in Excel together with OneDrive, both subtopics of this section.",
+        "at": "2026-10-31T01:03:13.581Z",
         "v": 2
       },
       "post/yzhums-com/69818@9b2fd52aaf5845d9": {
-        "verdict": "keep",
-        "reason": "Keeping attachments in SharePoint is part of Microsoft 365 file integration, so it is relevant when in doubt.",
-        "at": "2026-10-26T08:44:42.243Z",
+        "verdict": "drop",
+        "reason": "Its subject is where attachments are stored (SharePoint, Azure, SFTP), not Office app integration.",
+        "at": "2026-10-31T01:03:13.581Z",
         "v": 2
       },
       "post/yzhums-com/72611@ea36ac37516505c5": {
         "verdict": "keep",
-        "reason": "Copying contacts to Outlook and Teams is part of the Office and Microsoft 365 integration this section documents.",
-        "at": "2026-10-26T08:44:42.243Z",
+        "reason": "Covers contact sync with Outlook and Teams through the Office add-ins, which falls under Office and Microsoft 365 integration.",
+        "at": "2026-10-31T01:03:13.581Z",
         "v": 2
       },
       "video/QK-Qsh_6YL4@8ba69d9b3b8baddb": {
         "verdict": "drop",
-        "reason": "Its subject is Copilot filling in time sheets, not integration with Office apps or Microsoft 365, which is only the data source.",
-        "at": "2026-10-26T08:44:42.243Z",
+        "reason": "About Copilot filling in time sheets; Microsoft Graph is only where the data comes from.",
+        "at": "2026-10-31T01:03:13.581Z",
         "v": 2
       }
     },

@@ -6,13 +6,12 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Codeunit Config. Excel Exchange is refactored to use native AL XML Data Types instead of legacy XML handling, enabling cloud-ready development for the RapidStart feature.",
+  "summary": "RapidStart configuration package XML handling, mainly in codeunit Config. XML Exchange, now uses the native AL XML data types. The goal is to support cloud-ready development for partners. Related objects such as Config. Setup, Config. Import Table in Backgr and XML DOM Management were updated to match.",
   "key_points": [
-    "Complete refactoring of Config. Excel Exchange codeunit to use native XML Data Types",
-    "Improves cloud readiness for partner app development",
-    "Functional behavior remains unchanged with expanded test coverage",
-    "Updates supporting XML DOM Management and related configuration modules",
-    "Tests added to validate new methods match previous implementation"
+    "Config. XML Exchange reworked to use the native AL XML data types",
+    "Aims to make RapidStart configuration packages usable for cloud-ready partner development",
+    "Config. Setup, Config. Import Table in Backgr, Automation - Import RSPackage and XML DOM Management updated to match",
+    "RapidStart tests extended across many localization layers"
   ],
   "change_kind": "refactor",
   "behavior_change": false,

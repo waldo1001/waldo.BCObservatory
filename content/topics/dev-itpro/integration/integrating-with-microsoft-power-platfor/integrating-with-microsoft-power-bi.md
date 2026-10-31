@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:50.663Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -97,6 +97,8 @@ links:
     - post/thinkaboutit-be/7995
     - post/waldo-be/318707
   guidelines: []
+  changes:
+    - change/bcapps/13164
 learn_toc_path:
   - Integration
   - Integrating with Microsoft Power Platform
@@ -157,10 +159,11 @@ Further pages cover embedding reports, scorecards and dashboards with the Power 
 - [Introduction to Business Central and Power BI](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi): Get an overview of using Power BI to get insights from your Business Central data.
 - [Power BI Dataset Load Performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-pbi-performance): Learn about how to tune the performance of Power BI dataset load time based on Business Central web services and APIs
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13164 Inventory and Sustainability Power BI reports missing from Role Explorer despite being searchable](../../../../changes/bcapps/13164.md) (code change): "Sustainability and Inventory Valuation Power BI reports now appear in Role Explorer"
 - [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query APIs can be directly connected to Power BI using the Dynamics 365 Business Central connector"
 - [Quick Tip: Troubleshooting Business Central Power BI Reports: My 5-Minute Checklist](../../../../posts/thinkaboutit-be/7995.md) (community post): "Troubleshooting Business Central Power BI Reports: My 5-Minute Checklist"
 - [Business Central data in Fabric: the way it should be](../../../../posts/waldo-be/318707.md) (community post): "native data mirroring to Microsoft Fabric, allowing users to replicate their tables"

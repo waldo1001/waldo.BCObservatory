@@ -6,13 +6,13 @@
   "systems_joined": [],
   "summary": "A permission set extension enables the Sales Order Agent to add items with subscription billing to sales documents by granting necessary Subscription Billing table access to users who can edit sales documents.",
   "key_points": [
-    "Creates new permission set extension Sub. Billing D365 S. Doc Edit that extends D365 SALES DOC, EDIT",
-    "Grants access to Subscription Billing tables needed for items with Service Commitment Option = Sales with Subscription",
-    "Fixes Sales Order Agent failing to add subscription items due to permission errors on Item Subscription Package and Billing Line tables",
-    "Follows existing pattern of permission set extensions for other D365 roles in the same folder",
-    "No schema or data changes, applies only when Subscription Billing app is installed"
+    "Adds permission set extension Sub. Billing D365 S. Doc Edit (ID 8002), which extends D365 SALES DOC, EDIT",
+    "The extension includes Sub. Billing User, so sales document editors also get Subscription Billing table permissions, including indirect insert, modify and delete",
+    "Fixes the Sales Order Agent permission errors on Item Subscription Package and Billing Line when it adds items sold with a subscription",
+    "Follows the existing extensions for D365 BASIC, D365 TEAM MEMBER and D365 SETUP",
+    "No schema or data changes; takes effect only when Subscription Billing is installed"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

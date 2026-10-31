@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12610",
+  "input_hash": "5700a0ef93f6fda3a11c039071f51113b8adc5661019a3834c2d6fd86de5342d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-31T01:04:15.105Z",
+  "issues": [
+    "The app has 17 codeunits, not 26.",
+    "The description says setup behaves the same in an empty company because it reads compiled metadata. It does not say configuration applies across all companies.",
+    "Stand-ins for four asks (4 to 7) are supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029807,
+    "changes_in_call": 6
+  }
+}

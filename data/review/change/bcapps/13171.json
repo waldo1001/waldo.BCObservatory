@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/13171",
+  "input_hash": "306ea569db9693207a03642256c49c11ab28c3e6d74e325c15afee38f6ad895f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-31T01:04:15.105Z",
+  "issues": [
+    "The summary and key points match the description of both fixes and the localized layers.",
+    "The new validation error changes behaviour but does not break compilation."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029807,
+    "changes_in_call": 6
+  }
+}

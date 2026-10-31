@@ -2,10 +2,10 @@
   "inputs": [
     7,
     [
-      "7aa49e808916c060dbee97d9ff324a2cfda8d422",
+      "8e740e5061595dd231c4a2d9d453c86c84ec76ae",
       "4",
       9474,
-      "7aa49e808916c060dbee97d9ff324a2cfda8d422",
+      "8e740e5061595dd231c4a2d9d453c86c84ec76ae",
       "4",
       6946
     ]
@@ -119388,6 +119388,11 @@
         "obsolete": null,
         "subs": []
       },
+      "OnBeforeUpdatePurchaseInvoiceHeader": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
       "OnBeforeVendLedgEntryModify": {
         "kind": "integration",
         "obsolete": null,
@@ -171777,7 +171782,13 @@
       "OnBeforeOnRun": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/8069",
+            "proc": "ClearExplodedSalesLineOnBeforeOnRun",
+            "app": "Subscription Billing"
+          }
+        ]
       },
       "OnBeforeToSalesLineModify": {
         "kind": "integration",
@@ -171787,7 +171798,13 @@
       "OnExplodeBOMCompLinesOnAfterAssignType": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/8069",
+            "proc": "SetExplodedSalesLineOnExplodeBOMCompLinesOnAfterAssignType",
+            "app": "Subscription Billing"
+          }
+        ]
       },
       "OnExplodeBOMCompLinesOnAfterFromBOMCompSetFilters": {
         "kind": "integration",
@@ -191001,6 +191018,11 @@
         "subs": []
       },
       "OnAfterCreateSalesSubscriptionLineFromSubscriptionPackageLine": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
+      "OnAfterGetAssignSubscriptionLinesCaption": {
         "kind": "integration",
         "obsolete": null,
         "subs": []
@@ -293792,9 +293814,9 @@
     "drilldown_page": 517,
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
-    "subscribes": 5175,
+    "subscribes": 5177,
     "edges": 20556,
-    "published_events": 26310,
+    "published_events": 26312,
     "dead_events": 22499
   }
 }

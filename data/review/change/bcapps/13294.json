@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13294",
+  "input_hash": "aa2569ebb2a3cc1bf01b6fd10aa2c2603787a47a5dea08eee04eafb5daef6597",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-31T01:04:09.038Z",
+  "issues": [
+    "Summary and key points match the description: SetCurrentKey on the primary key in RunWithRecord, an infinite loop caused by Document No. updates, and a regression test added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018161,
+    "changes_in_call": 6
+  }
+}

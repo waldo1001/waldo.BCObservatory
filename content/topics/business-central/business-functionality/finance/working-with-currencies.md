@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:31.746Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,6 +67,7 @@ links:
     - change/bcapps/12201
     - change/bcapps/12507
     - change/bcapps/13272
+    - change/bcapps/13458
     - change/bcapps/9254
     - change/bcapps/9349
     - change/bcapps/9686
@@ -142,6 +143,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12201 [29.X]- Incorrect project ledger costs when non-deductible VAT is posted to a foreign-currency project](../../../../changes/bcapps/12201.md) (code change): "non-deductible VAT is posted to a foreign-currency project"
 - [#12507 [DK Nemhandel][Currency] Remove unsafe fixed response-size caps on scaling/customer-configured feeds](../../../../changes/bcapps/12507.md) (code change): "currency exchange rate downloads where legitimate responses grow"
 - [#13272 Keep historical FX balances when unapplying payments](../../../../changes/bcapps/13272.md) (code change): "Keep historical FX balances when unapplying payments. The exchange rate revaluation"
+- [#13458 [Master]-Applying entries across posting groups (Allow Multiple Posting Groups) posts the G/L entries that move the amount between receivables accounts with ACY = 0](../../../../changes/bcapps/13458.md) (code change): "ensuring entries with zero amounts in additional currency are properly handled"
 - [#9254 [Master] Exchange Rate Adjustment filter not working](../../../../changes/bcapps/9254.md) (code change): "Exchange Rate Adjustment filter not working. Codeunit 699"
 - [#9349 [master]-[ES][Cartera Bills] Applying a foreign-currency payment to a bill that leads to gain-loss entry cannot be reversed](../../../../changes/bcapps/9349.md) (code change): "Reversal of foreign-currency payments with gain-loss entries now works correctly"
 - [#9686 [Master] Incorrect Payables Account Selected for Unrealized Gain/Loss in Multi-Posting Group FCY Applications.](../../../../changes/bcapps/9686.md) (code change): "Foreign currency unrealized gain/loss posting now selects the correct payables account"

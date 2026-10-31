@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:07.777Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -123,6 +123,7 @@ links:
   changes:
     - change/bcapps/12322
     - change/bcapps/13056
+    - change/bcapps/13104
     - change/bcapps/13111
     - change/bcapps/13261
 learn_toc_path:
@@ -196,6 +197,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#12322 [QM] Destination bin code is now visible and usable for the user](../../../changes/bcapps/12322.md) (code change): "destination bin code is now visible and usable for the user"
 - [#13056 [QM] Tracking specification quantity now is used properly](../../../changes/bcapps/13056.md) (code change): "Quality Management now uses the tracking specification quantity properly in its receiving integration"
+- [#13104 update tests and enable them](../../../changes/bcapps/13104.md) (code change): "Quality Management tests are enabled and test cases for result condition management"
 - [#13111 [Backport 29.x] #11046: [Extensibility Request] issue 10889: expose large text modal helper](../../../changes/bcapps/13111.md) (code change): "large text modal helper on page 20441 Qlty. Edit Large Text in Quality Management"
 - [#13261 [Backport 29.x] [Extensibility Request] [SCM] 2026-10-26](../../../changes/bcapps/13261.md) (code change): "Modifies Qlty. Result Condition Mgmt. and Qlty. Filter Helpers in Quality Management"
 - [Quality Management in Business Central Version 28](../../../posts/olofsimren-com/3696.md) (community post): "Business Central version 28 adds a native Quality Management module for inspecting goods"

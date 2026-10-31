@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12882",
+  "input_hash": "90003724c9b7c8aaa289ef820227017cf5171ad4b1a538541b7d7cb26171a8dc",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-31T01:04:09.038Z",
+  "issues": [
+    "The description is vague and each table changes by only a few lines, but the summary and key points stay within what the description says."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018161,
+    "changes_in_call": 6
+  }
+}

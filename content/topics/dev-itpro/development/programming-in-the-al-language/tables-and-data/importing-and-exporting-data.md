@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:22.537Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -82,6 +82,7 @@ links:
     - post/aardvarklabs-blog/2866
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-82-excel-buffer-character-limit--e27af9f4a3
+    - post/wingate365-com/https-blog-wingate365-com-2026-04-trying-out-github-copilot-agent-for-html--9cac8e5838
     - post/yzhums-com/63762
     - post/yzhums-com/65326
     - post/yzhums-com/65426
@@ -105,7 +106,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 11
+  blog: 12
   guideline: 0
 bc_forms: []
 member_hash: 0701107680ab6374a75be6625747535fbf73f4ee24b8643401abc0d15b654ac8
@@ -162,6 +163,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Importing XML into Business Central with AL](../../../../../posts/aardvarklabs-blog/2866.md) (community post): "demonstrates how to parse cXML (commerce eXtensible Markup Language) files in Business Central using AL code"
 - [How to Export CSV Files from Business Central Using CSV Buffer (Developer Guide)](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c.md) (community post): "how to export data from Business Central to CSV format"
 - [BC Friday Tips #82 Excel Buffer Character Limit](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-82-excel-buffer-character-limit--e27af9f4a3.md) (community post): "Excel Buffer in Business Central has a 250-character limit on field values."
+- [Trying out GitHub Copilot Agent for a Functional Task?](../../../../../posts/wingate365-com/https-blog-wingate365-com-2026-04-trying-out-github-copilot-agent-for-html--9cac8e5838.md) (community post): "GitHub Copilot Agent can validate large numbers of CSV schema files"
 - [Dynamics 365 Business Central Blog Series: Import and Export data](../../../../../posts/yzhums-com/63762.md) (community post): "Comprehensive methods for importing and exporting data in Dynamics 365 Business Central"
 - [Dynamics 365 Business Central: How to bulk import marketing text to items – Customization](../../../../../posts/yzhums-com/65326.md) (community post): "Custom AL code using XMLPORT with CSV format allows bulk import while handling large text values"
 - [Dynamics 365 Business Central: How to bulk import big/large text (length exceeds 250 and 2048) from external files via AL](../../../../../posts/yzhums-com/65426.md) (community post): "bulk import text longer than 250 or 2048 characters from external files into Business Central using XMLPort"

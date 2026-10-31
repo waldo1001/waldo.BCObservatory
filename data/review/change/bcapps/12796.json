@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/12796",
+  "input_hash": "99a43c6adab214f531e1487d6a75ac343a92aced04ff90b19ca0b98fbc7cb205",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-31T01:04:07.475Z",
+  "issues": [
+    "The title only says that recurring billing with Document Per = Contract Partner overwrote the contract currency with the customer currency without converting amounts. The description has no detail on how this was fixed, so the claim that the contract currency is now kept is a guess.",
+    "The key point 'Amount conversion logic is preserved correctly' is not supported by anything given.",
+    "change_kind fix, behavior_change true and breaking false are fine. The page lists no obsoletions."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.033566,
+    "changes_in_call": 2
+  }
+}

@@ -6,7 +6,7 @@
   "systems_joined": [
     "reporting"
   ],
-  "summary": "Sustainability and Inventory Valuation Power BI reports now appear in Role Explorer by moving them from the Reporting area to the Sections area on their respective role centers.",
+  "summary": "Sustainability and Inventory Valuation Power BI reports now appear in Role Explorer. The Sustainability Manager role center's Power BI Reports group moved from Reporting to Sections. The four Inventory Valuation reports were added to the Warehouse Manager role center's Power BI Reports group.",
   "key_points": [
     "Sustainability Manager role center Power BI Reports group moved from addlast(Reporting) to addfirst(Sections) to appear in Role Explorer",
     "Four Inventory Valuation reports added to the Warehouse Manager role center Power BI Reports group under Sections",
@@ -14,7 +14,7 @@
     "Change aligns Sustainability with other Power BI role center extensions that use Sections",
     "No business logic changes; navigation structure only"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

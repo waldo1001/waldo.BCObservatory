@@ -8,10 +8,10 @@
   ],
   "summary": "Non-deductible reverse-charge VAT correction is fixed to post to the payment discount account instead of the purchase VAT account across multiple localization layers.",
   "key_points": [
-    "Correction addresses VAT posting logic in General Journal posting for non-deductible reverse-charge scenarios",
-    "Fix applied consistently to W1 base and all localized versions: APAC, BE, CH, ES, FI, FR, IT, NA, NO, RU",
-    "Test case updated to validate corrected posting behavior",
-    "Ensures financial statement accuracy for VAT handling"
+    "Gen. Jnl.-Post Line now posts the non-deductible reverse-charge VAT correction to the payment discount account instead of the purchase VAT account",
+    "Same change applied to the W1 layer and to the APAC, BE, CH, ES, FI, FR, IT, NA, NO and RU layers",
+    "Non-deductible VAT payment discount test updated",
+    "Backport to the 29.x release branch"
   ],
   "change_kind": "fix",
   "behavior_change": true,

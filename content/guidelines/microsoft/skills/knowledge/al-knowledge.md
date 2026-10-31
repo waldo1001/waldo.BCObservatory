@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-31T00:17:10.650Z"
+  at: "2026-10-31T00:15:35.028Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 4f32c727b64431543135d023668b250719831aae
@@ -35,7 +35,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/222
 repo_path: microsoft/skills/knowledge/al-knowledge.md
 layer: microsoft
 kind: skill
@@ -120,6 +121,10 @@ DO's knowledge-response rules. `question` preserves the caller's question.
 `completed` requires an answer to the actual question and at least one fully
 read, checked supporting reference. `partial`
 requires a reason and only cites articles actually read; `failed` cites none.
+
+## Changed by
+
+- [#222 Add cited knowledge consultation skill for Business Central](../../../../changes/bcquality/222.md), 2026-10-30
 
 ---
 

@@ -6,12 +6,12 @@
   "systems_joined": [
     "sales"
   ],
-  "summary": "Subscription Billing recurring billing now preserves contract currency instead of overwriting it with customer currency when creating billing documents per contract partner.",
+  "summary": "Fixes recurring billing in Subscription Billing with Document Per = Contract Partner. Billing documents replaced the contract currency with the customer's currency without converting the amounts. The change is in codeunit Create Billing Documents.",
   "key_points": [
-    "Fixes currency handling during recurring billing document generation with Document Per = Contract Partner",
-    "Contract currency is maintained without unwanted override by customer currency",
-    "Amount conversion logic is preserved correctly",
-    "Test case added to verify billing document creation with proper currency handling"
+    "Fixes billing document creation when Document Per is set to Contract Partner",
+    "Before the fix, the contract currency was replaced by the customer currency and the amounts were not converted",
+    "Small change in codeunit 8060 Create Billing Documents",
+    "Adds a test in Recurring Billing Docs Test for this scenario"
   ],
   "change_kind": "fix",
   "behavior_change": true,

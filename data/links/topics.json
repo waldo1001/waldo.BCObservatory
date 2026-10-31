@@ -240,6 +240,20 @@
         }
       ]
     },
+    "change/al-go/2343": {
+      "kind": "change",
+      "key": "change/al-go/2343",
+      "hash": "e1387ebe3c2fb4cb1780f25f86481f03e4a5584a2257d4df564214a1cbc48159",
+      "title": "#2343 RunTests action",
+      "source": "al-go-prs",
+      "at": "2026-10-31T01:01:31.696Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "AL-Go introduces a new RunTests action that separates test execution from the build pipeline"
+        }
+      ]
+    },
     "change/al-go/2346": {
       "kind": "change",
       "key": "change/al-go/2346",
@@ -8708,6 +8722,15 @@
         }
       ]
     },
+    "change/bcapps/12292": {
+      "kind": "change",
+      "key": "change/bcapps/12292",
+      "hash": "bef20069fb15e3b709f1e524bfc0c2e94c0d4f3a26ffb06c0029ecefd682607c",
+      "title": "#12292 Fix #10964: Use VAT registration number fallback in FatturaPA file name",
+      "source": "bcapps-prs",
+      "at": "2026-10-31T01:01:31.400Z",
+      "matches": []
+    },
     "change/bcapps/12293": {
       "kind": "change",
       "key": "change/bcapps/12293",
@@ -9581,6 +9604,15 @@
       "at": "2026-10-17T01:11:07.692Z",
       "matches": []
     },
+    "change/bcapps/12610": {
+      "kind": "change",
+      "key": "change/bcapps/12610",
+      "hash": "b29546556a79f9c2a43a44ac1223c5b2c99d42dc89a897f259fd53648c0de40f",
+      "title": "#12610 [Report Filename Manager] New app for configurable report output file names - Slice 651696 [vendor work]",
+      "source": "bcapps-prs",
+      "at": "2026-10-31T01:01:31.103Z",
+      "matches": []
+    },
     "change/bcapps/12614": {
       "kind": "change",
       "key": "change/bcapps/12614",
@@ -9835,6 +9867,20 @@
         }
       ]
     },
+    "change/bcapps/12796": {
+      "kind": "change",
+      "key": "change/bcapps/12796",
+      "hash": "5aed9cac025acc37e4ce682e3522aa54ff4cff0606ea6b288fcbffe06351cae4",
+      "title": "#12796 [29.X]-Subscription Billing: Recurring Billing (Document Per = Contract Partner) Overwrites Contract Currency with Customer Currency Without Amount Conversion.653480 initial commit",
+      "source": "bcapps-prs",
+      "at": "2026-10-31T01:01:29.758Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/sales/subscription-billing",
+          "quote": "Subscription Billing recurring billing now preserves contract currency instead"
+        }
+      ]
+    },
     "change/bcapps/12806": {
       "kind": "change",
       "key": "change/bcapps/12806",
@@ -10025,6 +10071,28 @@
         {
           "topic": "topic/business-central/business-functionality/finance/manage-inventory-costs",
           "quote": "rounding precision issue in the Adjust Cost process that was creating unexpected variance"
+        }
+      ]
+    },
+    "change/bcapps/12882": {
+      "kind": "change",
+      "key": "change/bcapps/12882",
+      "hash": "c844866b43f1c6583e181ea1eefbabdd12054d69d9d9a09f335237a353d88db1",
+      "title": "#12882 [Master] - Bug 651169: [Expense Agent] Exchange rate date limitation",
+      "source": "bcapps-prs",
+      "at": "2026-10-31T01:01:30.363Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Exchange rate date handling corrected for Expense Agent transactions"
+        },
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Expense Agent now correctly handles exchange rate dates for transactions"
+        },
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
+          "quote": "Users receive clear error messages when exchange rates unavailable"
         }
       ]
     },
@@ -10335,6 +10403,24 @@
         }
       ]
     },
+    "change/bcapps/13104": {
+      "kind": "change",
+      "key": "change/bcapps/13104",
+      "hash": "ab19fb90cba52bfe6e84a7336c26c7eda9290aca55efdfe9d4cee7f11a0ea6e8",
+      "title": "#13104 update tests and enable them",
+      "source": "bcapps-prs",
+      "at": "2026-10-31T01:01:33.928Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/quality-management",
+          "quote": "Quality Management tests are enabled and test cases for result condition management"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/quality-management/set-up-quality-management",
+          "quote": "Quality inspection result configuration is adjusted. Test coverage for condition management is enhanced"
+        }
+      ]
+    },
     "change/bcapps/13105": {
       "kind": "change",
       "key": "change/bcapps/13105",
@@ -10372,6 +10458,20 @@
         }
       ]
     },
+    "change/bcapps/13134": {
+      "kind": "change",
+      "key": "change/bcapps/13134",
+      "hash": "c3e60f4c20848ca0c2ac83daf0cf80aeca8b06626e9e954cf7761d766d935d81",
+      "title": "#13134 [main] Bug 656172 Payment Slips Summarized by Due Date are not aggregating correlative in the French version.",
+      "source": "bcapps-prs",
+      "at": "2026-10-31T01:01:34.865Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-payables/apply-payments-automatically-and-reconci",
+          "quote": "Payment slips Summarized by Due Date are not aggregating"
+        }
+      ]
+    },
     "change/bcapps/13159": {
       "kind": "change",
       "key": "change/bcapps/13159",
@@ -10397,6 +10497,28 @@
         {
           "topic": "topic/business-central/business-functionality/finance/financial-analytics/built-in-finance-reports",
           "quote": "Negative amount formatting was using a hardcoded two-decimal pattern instead of the configured precision"
+        }
+      ]
+    },
+    "change/bcapps/13164": {
+      "kind": "change",
+      "key": "change/bcapps/13164",
+      "hash": "c17ce25771c9825d1ce7d80fe86d131df7d6054dae1f2e06a46be5f63a767953",
+      "title": "#13164 Inventory and Sustainability Power BI reports missing from Role Explorer despite being searchable",
+      "source": "bcapps-prs",
+      "at": "2026-10-31T01:01:36.571Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-discoverability",
+          "quote": "Reports were previously searchable but invisible in Role Explorer because"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi",
+          "quote": "Sustainability and Inventory Valuation Power BI reports now appear in Role Explorer"
+        },
+        {
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-apps-for-business-central",
+          "quote": "Sustainability Manager role center Power BI Reports group moved from addlast"
         }
       ]
     },
@@ -10429,6 +10551,20 @@
         {
           "topic": "topic/business-central/business-functionality/warehouse-management/outbound-warehouse-processes",
           "quote": "posting a warehouse shipment for a WIP transfer"
+        }
+      ]
+    },
+    "change/bcapps/13171": {
+      "kind": "change",
+      "key": "change/bcapps/13171",
+      "hash": "fe34512eb2e1940fc76693a65c99bae6bcf832fccac68b70d2d14ca885614c76",
+      "title": "#13171 [Fixed Assets] Prevent change of FA Posting group after acquisition and FA journal cancellation line with empty Document No.",
+      "source": "bcapps-prs",
+      "at": "2026-10-31T01:01:37.236Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/fixed-assets",
+          "quote": "FA Posting Group field is now protected after acquisition posting"
         }
       ]
     },
@@ -10545,6 +10681,20 @@
         }
       ]
     },
+    "change/bcapps/13248": {
+      "kind": "change",
+      "key": "change/bcapps/13248",
+      "hash": "3abce08b53e0ab705e881dc0ad68c31ae69753fc678101f52943fb580ef3704b",
+      "title": "#13248 [29.X]Non-Deductible Reverse-Charge VAT Correction Is Posted to Purchase VAT Account Instead of Payment Discount Account.",
+      "source": "bcapps-prs",
+      "at": "2026-10-31T01:01:34.865Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
+          "quote": "Non-Deductible Reverse-Charge VAT Correction Is Posted to Purchase VAT Account"
+        }
+      ]
+    },
     "change/bcapps/13255": {
       "kind": "change",
       "key": "change/bcapps/13255",
@@ -10637,6 +10787,34 @@
         }
       ]
     },
+    "change/bcapps/13294": {
+      "kind": "change",
+      "key": "change/bcapps/13294",
+      "hash": "a783ba7a5d13e8f79a5a2221bc86b8ef710032955f09b8cb9e7e4d99c62ed182",
+      "title": "#13294 [29.x]-Exporting vendor remittance gets stuck when a payment jour nal is sorted by Document No.",
+      "source": "bcapps-prs",
+      "at": "2026-10-31T01:01:34.865Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-payables/apply-payments-automatically-and-reconci",
+          "quote": "Exporting vendor remittance gets stuck when a payment journal is sorted"
+        }
+      ]
+    },
+    "change/bcapps/13303": {
+      "kind": "change",
+      "key": "change/bcapps/13303",
+      "hash": "4f62dbeebcdb4036967fc239020576dc6c9ec9260e3b5f33e47b3de5bef41778",
+      "title": "#13303 [Bank. Acc. Reconciliation with Copilot] Implement ability to switch LLM with a simple configuration change",
+      "source": "bcapps-prs",
+      "at": "2026-10-31T01:01:34.865Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/bank-account-reconciliation-assist",
+          "quote": "Bank Account Reconciliation with Copilot now supports switching between different LLM models"
+        }
+      ]
+    },
     "change/bcapps/13307": {
       "kind": "change",
       "key": "change/bcapps/13307",
@@ -10710,6 +10888,34 @@
         }
       ]
     },
+    "change/bcapps/13358": {
+      "kind": "change",
+      "key": "change/bcapps/13358",
+      "hash": "3f6d90792ab24db666ed0203140348c39a3385ab46c10a2fceb29a07b1072cb4",
+      "title": "#13358 [main] bug 656582 Add Maintenance Code field on purchase order subpage and purchase invoice subpage",
+      "source": "bcapps-prs",
+      "at": "2026-10-31T01:01:36.744Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/purchasing",
+          "quote": "Maintenance Code field has been added to purchase order and purchase invoice subpages"
+        }
+      ]
+    },
+    "change/bcapps/13403": {
+      "kind": "change",
+      "key": "change/bcapps/13403",
+      "hash": "0fe43ebfc64369333cbead43b89e185cd12de12e7a491d36f6e721e39e1cbe86",
+      "title": "#13403 Bug 657097: [master] Suggest Lines fails with a duplicate ECSL VAT Report Line Relation record in GB environment",
+      "source": "bcapps-prs",
+      "at": "2026-10-31T01:01:34.865Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
+          "quote": "EC Sales List Suggest Lines in GB environment to process each VAT entry"
+        }
+      ]
+    },
     "change/bcapps/13413": {
       "kind": "change",
       "key": "change/bcapps/13413",
@@ -10724,6 +10930,38 @@
         }
       ]
     },
+    "change/bcapps/13415": {
+      "kind": "change",
+      "key": "change/bcapps/13415",
+      "hash": "756b651ca14f960adce58f62288035c5a43dcdbf8fafaadc29d421ec5deb4ca7",
+      "title": "#13415 [29.X]-Reverse Charge VAT with 100% Non-Deductible VAT Posts Incorrectly in Foreign Currency Transactions",
+      "source": "bcapps-prs",
+      "at": "2026-10-31T01:01:34.865Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
+          "quote": "Reverse Charge VAT with 100% Non-Deductible VAT Posts Incorrectly"
+        }
+      ]
+    },
+    "change/bcapps/13431": {
+      "kind": "change",
+      "key": "change/bcapps/13431",
+      "hash": "d320f8aaf8a55c421f78d85c2dce128f25ed06e0d438a731c0a9657c1a8ba58e",
+      "title": "#13431 Extend sales document edit permissions with subscrition billing edit",
+      "source": "bcapps-prs",
+      "at": "2026-10-31T01:01:29.758Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
+          "quote": "Sales Order Agent to add items with subscription billing to sales"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/sales/subscription-billing",
+          "quote": "enables the Sales Order Agent to add items with subscription billing"
+        }
+      ]
+    },
     "change/bcapps/13435": {
       "kind": "change",
       "key": "change/bcapps/13435",
@@ -10735,6 +10973,24 @@
         {
           "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions",
           "quote": "Added missing Work Type read permissions to Time Sheets"
+        }
+      ]
+    },
+    "change/bcapps/13458": {
+      "kind": "change",
+      "key": "change/bcapps/13458",
+      "hash": "b2fc1b8d8fa7ff0c7c2047c06e06b1d11020463d19ab480fd11f10461abcedf1",
+      "title": "#13458 [Master]-Applying entries across posting groups (Allow Multiple Posting Groups) posts the G/L entries that move the amount between receivables accounts with ACY = 0",
+      "source": "bcapps-prs",
+      "at": "2026-10-31T01:01:35.946Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
+          "quote": "General ledger entries with ACY=0 are now correctly posted during multiple posting group applications"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/working-with-currencies",
+          "quote": "ensuring entries with zero amounts in additional currency are properly handled"
         }
       ]
     },
@@ -11395,6 +11651,20 @@
         {
           "topic": "topic/business-central/business-functionality/purchasing",
           "quote": "Contact email validation is restored during purchase document creation"
+        }
+      ]
+    },
+    "change/bcapps/9045": {
+      "kind": "change",
+      "key": "change/bcapps/9045",
+      "hash": "1a0dfc129fdb80e2132e2ac0ced69954581a3760f4b7df5d1d241523a78aaf3b",
+      "title": "#9045 Config. Packages with Native AL XML Data Types",
+      "source": "bcapps-prs",
+      "at": "2026-10-31T01:01:31.696Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/data-types",
+          "quote": "Codeunit Config. Excel Exchange is refactored to use native AL XML Data Types"
         }
       ]
     },
@@ -17322,6 +17592,24 @@
       "at": "2026-10-07T13:33:46.985Z",
       "matches": []
     },
+    "change/bcquality/222": {
+      "kind": "change",
+      "key": "change/bcquality/222",
+      "hash": "d5c568de649e520829a0a39a067adfe401e82b0379581ec694318b846e56a3b8",
+      "title": "#222 Add cited knowledge consultation skill for Business Central",
+      "source": "bcquality-prs",
+      "at": "2026-10-31T01:01:31.696Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "A new knowledge consultation skill allows AL development agents to request guidance on Business Central solutions"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai",
+          "quote": "allows AL development agents to request guidance on Business Central solutions directly from BCQuality articles"
+        }
+      ]
+    },
     "change/bcquality/223": {
       "kind": "change",
       "key": "change/bcquality/223",
@@ -17500,6 +17788,24 @@
         {
           "topic": "topic/dev-itpro/development/the-al-programming-language/variables-types-and-operators",
           "quote": "Route guard-dependent and/or conditions to the short-circuit article."
+        }
+      ]
+    },
+    "change/bcquality/251": {
+      "kind": "change",
+      "key": "change/bcquality/251",
+      "hash": "3b38fb7fb2195dacf3735ec87a8fe61202969a4610c988975b15e6aa74265992",
+      "title": "#251 Clarify 20-character limit for assignable permission set names",
+      "source": "bcquality-prs",
+      "at": "2026-10-31T01:01:30.170Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
+          "quote": "Assignable permission sets have a 20-character name limit, not the general 30-character limit"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices",
+          "quote": "Includes best practice showing full names with prefix/affix must fit 20 characters"
         }
       ]
     },
@@ -19114,49 +19420,72 @@
         }
       ]
     },
+    "post/aardvarklabs-blog/4177": {
+      "kind": "post",
+      "key": "post/aardvarklabs-blog/4177",
+      "hash": "27fe2cb2767b29081e43f329b9d5395df7cdb7f41c0299b4ea1de500196661c9",
+      "title": "Building the AL Exploration Tool I Always Wanted",
+      "source": "aardvarklabs-blog",
+      "at": "2026-10-31T01:01:31.696Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+          "quote": "A developer shares how they built a VS Code extension for exploring AL codebases visually"
+        }
+      ]
+    },
     "post/bccaptain-com-au/https://bccaptain.com.au/2026/04/27/im-back-and-its-going-to-be-a-busy-few-months/": {
       "kind": "post",
       "key": "post/bccaptain-com-au/https://bccaptain.com.au/2026/04/27/im-back-and-its-going-to-be-a-busy-few-months/",
-      "hash": "4b3c8ef5e6a381510e16e6e6c76378c779ce4540200a7fd820f93cf7e6ef3014",
+      "hash": "a9ce8798f84d8ffc9841c2d264534ddc453347dfae09b9079ad589948a39dbd7",
       "title": "I’m back – and it’s going to be a busy few months!",
       "source": "bccaptain-com-au",
-      "at": "2026-10-30T08:04:00.814Z",
+      "at": "2026-10-31T01:01:41.765Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "agent automation, AI in development workflows"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "AI tools in AL development workflows brings together leading community developers"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-31T01:01:09.675Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+            "reason": "Personal conference announcement that only mentions agent topics in passing."
+          }
+        ]
+      }
     },
     "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/04/bc-word-layout-mcp-introduction/": {
       "kind": "post",
       "key": "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/04/bc-word-layout-mcp-introduction/",
-      "hash": "81546424aaf73ea5bd3d7acec878b41414155ccc2786a53ef083f8201636576a",
+      "hash": "16eedde4210d9025b3483305b64c9bc2b2456fbf7b5ce50f4e1f0350d7a768a8",
       "title": "BC Word Layout MCP (Part 1): Get started with AI-assisted Word layouts",
       "source": "bccaptain-com-au",
-      "at": "2026-10-30T08:04:00.814Z",
+      "at": "2026-10-31T01:01:31.696Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
-          "quote": "AI-assisted tool for developers to modify Word report layouts"
+          "quote": "BC Word Layout MCP is an AI-assisted tool for developers and functional consultants to modify Word report layouts"
         }
       ]
     },
     "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/": {
       "kind": "post",
       "key": "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/",
-      "hash": "92dccaa426ab736e9bf74d019b8b7362db8a2b795b14aa84ba1e7a20bfe46b18",
+      "hash": "99482879dddcf915afb4276020632080e3b4748fed0a91d4c135bd6aa254e2dd",
       "title": "BC Word Layout MCP (Part 2): Build your first sales quote layout",
       "source": "bccaptain-com-au",
-      "at": "2026-10-30T08:04:00.814Z",
+      "at": "2026-10-31T01:01:31.696Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
-          "quote": "custom Word layout for a Business Central sales quote report"
+          "quote": "guides creating a custom Word layout for a Business Central sales quote report using BC Word Layout MCP"
         },
         {
           "topic": "topic/business-central/business-functionality/sales",
-          "quote": "sales quote layout using BC Word Layout MCP"
+          "quote": "custom Word layout for a Business Central sales quote report"
         }
       ]
     },
@@ -25329,24 +25658,28 @@
     "post/olofsimren-com/3928": {
       "kind": "post",
       "key": "post/olofsimren-com/3928",
-      "hash": "389a1a7eeaf31df166cafbc7d80162a7d850c9029d40de74448aeb7a310dfe18",
+      "hash": "0adb98ce84c99c8bae8ad54300a56f28e2e426565bf8cd255b9374677605fcd6",
       "title": "Business Central Case Study: Engineer-to-Order Manufacturing at Zook",
       "source": "olofsimren-com",
-      "at": "2026-10-29T21:35:41.172Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/business-functionality/manufacturing",
-          "quote": "Engineer-to-Order Manufacturing at Zook. Case study of ZOOK, a maker of rupture disks built to order"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing",
-          "quote": "ZOOK is now moving to Business Central and reviewing which customizations to keep or replace with standard features"
-        },
-        {
-          "topic": "topic/dev-itpro/integration",
-          "quote": "A NAV to UPS WorldShip Canada interface cut shipment handling from 12 to 20 minutes to about two seconds"
-        }
-      ]
+      "at": "2026-10-31T01:01:40.635Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-31T01:01:09.675Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/business-functionality/manufacturing",
+            "reason": "Case study of a customer's NAV customizations and migration, not Business Central manufacturing features."
+          },
+          {
+            "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing",
+            "reason": "This customer case study is about custom configurators, certificate automation and shipping integrations during a NAV migration, not about setting up manufacturing in Business Central."
+          },
+          {
+            "topic": "topic/dev-itpro/integration",
+            "reason": "A manufacturing customization case study whose one custom UPS interface doesn't explain any integration capability this section documents."
+          }
+        ]
+      }
     },
     "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1316829649948552218": {
       "kind": "post",
@@ -30831,16 +31164,20 @@
     "post/wingate365-com/https://blog.wingate365.com/2025/11/delivering-bc-in-age-of-ai-which-soft.html": {
       "kind": "post",
       "key": "post/wingate365-com/https://blog.wingate365.com/2025/11/delivering-bc-in-age-of-ai-which-soft.html",
-      "hash": "bc7f06deb3bbedc51e500fb2d05121342ae172ad587ddf5313993bface781c8a",
+      "hash": "8dfe054b27a0ada646da446d46feccedebb1674d427b83cab9e5eee0e8b83c4d",
       "title": "Delivering BC in the Age of AI - Which Soft Skills Still Matter?",
       "source": "wingate365-com",
-      "at": "2026-10-30T01:07:40.309Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/development-and-administration",
-          "quote": "Delivering BC in the Age of AI - Which Soft Skills Still Matter"
-        }
-      ]
+      "at": "2026-10-31T01:01:41.765Z",
+      "matches": [],
+      "second": {
+        "at": "2026-10-31T01:01:09.675Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/development-and-administration",
+            "reason": "Its subject is soft skills and professional development for consultants, which this section does not document."
+          }
+        ]
+      }
     },
     "post/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html": {
       "kind": "post",
@@ -30867,20 +31204,29 @@
     "post/wingate365-com/https://blog.wingate365.com/2025/12/bc-community-2025-wrapped-blogs-videos.html": {
       "kind": "post",
       "key": "post/wingate365-com/https://blog.wingate365.com/2025/12/bc-community-2025-wrapped-blogs-videos.html",
-      "hash": "327d523848eb8fe0b4580dcbbdc8d069e38a07b63413e8daa0a53a5ca939e55a",
+      "hash": "43286960f794b74abb2a26785542905f72cc4d5bbe950967b7b0303cd0adc288",
       "title": "BC Community 2025 Wrapped - Blogs, Videos, etc",
       "source": "wingate365-com",
-      "at": "2026-10-29T22:01:39.922Z",
+      "at": "2026-10-31T01:01:41.765Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+          "topic": "topic/dev-itpro/development",
           "quote": "AL development dominated discussions with 996 mentions, while AI and Copilot surged"
-        },
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities",
-          "quote": "AI and Copilot surged with 228 combined posts, signaling major shifts in BC development priorities"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-31T01:01:09.675Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+            "reason": "Community blogging statistics roundup with no AL programming content."
+          },
+          {
+            "topic": "topic/business-central/copilot-and-agent-capabilities",
+            "reason": "Community blogging statistics; it only counts AI/Copilot posts."
+          }
+        ]
+      }
     },
     "post/wingate365-com/https://blog.wingate365.com/2026/02/ai-context-is-king-bc-mcp-for-mcs.html": {
       "kind": "post",
@@ -30899,52 +31245,91 @@
     "post/wingate365-com/https://blog.wingate365.com/2026/04/fixing-email-for-guest-users-in-d365.html": {
       "kind": "post",
       "key": "post/wingate365-com/https://blog.wingate365.com/2026/04/fixing-email-for-guest-users-in-d365.html",
-      "hash": "fecdccb86cf6a9fe90815dfa6b817be3505f24ecaf6d9935b79f61a7bb2732e8",
+      "hash": "637267c99898a38bcdfb50d00eeef602f2cc583a89971d8212e66401d444d1b8",
       "title": "Fixing Email for Guest Users in D365 Business Central",
       "source": "wingate365-com",
-      "at": "2026-10-30T01:07:43.691Z",
+      "at": "2026-10-31T01:01:41.522Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-azure-services",
-          "quote": "extension that uses Microsoft Graph to enable guest users to send email as themselves"
+          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office",
+          "quote": "uses Microsoft Graph to enable guest users to send email"
         },
         {
-          "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "sends mail via Microsoft Graph using the OAuth 2.0 Authorization Code plus PKCE delegated flow"
+          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central",
+          "quote": "guest users cannot use the built-in email connectors"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-31T01:01:09.675Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration/integrating-with-azure-services",
+            "reason": "About email through Microsoft Graph for guest users, which fits the Microsoft 365 sibling section rather than Azure services."
+          },
+          {
+            "topic": "topic/dev-itpro/integration/web-services/apis",
+            "reason": "About sending email through Microsoft Graph for guest users, not Business Central APIs."
+          }
+        ]
+      }
     },
     "post/wingate365-com/https://blog.wingate365.com/2026/04/trying-out-github-copilot-agent-for.html": {
       "kind": "post",
       "key": "post/wingate365-com/https://blog.wingate365.com/2026/04/trying-out-github-copilot-agent-for.html",
-      "hash": "7af6b3b695f4bab2ef4ddb9e62375ce20389c8ae7acc49719f3e222fdb7a884a",
+      "hash": "9f6b3402fad55cc6553d18aa853f5d563efd5d70eebdb1a1c2f963f808eb7b1e",
       "title": "Trying out GitHub Copilot Agent for a Functional Task?",
       "source": "wingate365-com",
-      "at": "2026-10-29T22:01:41.440Z",
+      "at": "2026-10-31T01:01:41.522Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "GitHub Copilot Agent can validate large numbers of CSV schema files against Business Central master data"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data",
+          "quote": "GitHub Copilot Agent can validate large numbers of CSV schema files"
+        },
+        {
+          "topic": "topic/dev-itpro/development/development-environment/other-tools",
+          "quote": "Use web-based GitHub Copilot agent for read-and-report tasks"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-31T01:01:09.675Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+            "reason": "Uses a GitHub Copilot agent to validate CSV data, which has nothing to do with building agents in AL."
+          }
+        ]
+      }
     },
     "post/wingate365-com/https://blog.wingate365.com/2026/06/graph-api-email-account-types-for-d365.html": {
       "kind": "post",
       "key": "post/wingate365-com/https://blog.wingate365.com/2026/06/graph-api-email-account-types-for-d365.html",
-      "hash": "dcd034ae34acdb128806ae522c0e7b6c1ebe6a71cf5e8484c4077b9daf6c6ae6",
+      "hash": "2da8f68c24ec79aa5ddd8429201d16c17f195cd35327c999b62c731dcaaaf99b",
       "title": "Graph API Email account types for D365 BC",
       "source": "wingate365-com",
-      "at": "2026-10-29T22:01:41.440Z",
+      "at": "2026-10-31T01:01:41.522Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
-          "quote": "enables Business Central guest users to send email from their home domain addresses using Microsoft Graph API"
+          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office",
+          "quote": "Business Central guest users to send email from their home domain addresses"
         },
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets",
-          "quote": "Admin configures one App Registration per home domain in Business Central, with automatic user matching"
+          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central",
+          "quote": "supports multi-tenant environments where users from different Entra tenancies"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-10-31T01:01:09.675Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
+            "reason": "Its subject is email account setup for guest users, not documented in this section."
+          },
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets",
+            "reason": "Its subject is a Graph API email extension; its mention of SecretText and encrypted token storage doesn't involve Azure Key Vault."
+          }
+        ]
+      }
     },
     "post/wingate365-com/https://blog.wingate365.com/2026/10/directions-emea-2026-paris-the-consultant-zone-and-two-panels.html": {
       "kind": "post",

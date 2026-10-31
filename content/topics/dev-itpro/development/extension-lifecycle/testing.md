@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:42.420Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,6 +106,7 @@ links:
   guidelines: []
   changes:
     - change/al-go/2342
+    - change/al-go/2343
     - change/bcapps/10055
     - change/bcapps/10065
     - change/bcapps/11637
@@ -187,6 +188,7 @@ For app-level questions, the FAQ covers what testing is expected, including vers
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#2342 Fix incremental builds poisoning buildMode-specific artifacts (#2337)](../../../../changes/al-go/2342.md) (code change): "Fixed incremental builds in AL-Go that were corrupting buildMode-specific artifacts"
+- [#2343 RunTests action](../../../../changes/al-go/2343.md) (code change): "AL-Go introduces a new RunTests action that separates test execution from the build pipeline"
 - [#10055 Fix: migrating a document attachment deletes shared Tenant Media](../../../../changes/bcapps/10055.md) (code change): "Introduces three new unit tests verifying shared media protection"
 - [#10065 [Quality Management] Quality Inspection User assignment fixes](../../../../changes/bcapps/10065.md) (code change): "Tests for user assignment added to the misc test codeunit"
 - [#11637 [Master]- Create Documents on Recurring Billing ignores the Partner filter and fails when a vendor billing proposal exists](../../../../changes/bcapps/11637.md) (code change): "Create Documents on Recurring Billing now respects the Partner filter. New tests added"

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13431",
+  "input_hash": "25be4ea13fb639d35624f6d40184864ac7e978f8319fa8e9677430b6b9faad2f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-31T01:04:14.203Z",
+  "issues": [
+    "The PR fixes a permission error that a work item tracks, so change_kind should be fix rather than feature.",
+    "The rest of the page matches the description. It could also mention that the extension (ID 8002) includes Sub. Billing User, which grants indirect insert, modify and delete rights."
+  ],
+  "applied": [
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023705,
+    "changes_in_call": 6
+  }
+}

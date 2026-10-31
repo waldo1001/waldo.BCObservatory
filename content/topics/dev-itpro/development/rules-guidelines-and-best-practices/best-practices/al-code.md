@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,6 +77,7 @@ links:
     - change/bcquality/198
     - change/bcquality/225
     - change/bcquality/228
+    - change/bcquality/251
     - change/bcquality/65
     - change/bcquality/95
 learn_toc_path:
@@ -146,6 +147,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#198 Add BC performance knowledge from OptimAL learnings](../../../../../changes/bcquality/198.md) (code change): "Each new article has paired good and bad AL examples"
 - [#225 Performance and style knowledge: compute Role Center headlines in the background; build client links with GetUrl](../../../../../changes/bcquality/225.md) (code change): "links into the running environment's client should come from GetUrl"
 - [#228 Knowledge: isolated events, FilterGroup scope, BLOB CalcFields and stream text encoding](../../../../../changes/bcquality/228.md) (code change): "paired good and bad code examples"
+- [#251 Clarify 20-character limit for assignable permission set names](../../../../../changes/bcquality/251.md) (code change): "Assignable permission sets have a 20-character name limit, not the general 30-character limit"
 - [#65 Add data-modeling and appsource knowledge articles (MICROSOFT layer)](../../../../../changes/bcquality/65.md) (code change): "Seven remedial BCQuality knowledge articles added to the MICROSOFT layer covering data-modeling patterns, AppSource conventions, and styling best practices"
 - [#95 style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope](../../../../../changes/bcquality/95.md) (code change): "al-style-review skill recalibrates analyzer-redundant rules to info severity and clarifies domain boundaries"
 - [How to write good tooltips as a BC developer](../../../../../posts/nataliekarolak-com/3494.md) (community post): "following patterns like starting with Specifies"

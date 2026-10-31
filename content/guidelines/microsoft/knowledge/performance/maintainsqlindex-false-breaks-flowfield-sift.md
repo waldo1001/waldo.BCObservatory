@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-30T00:18:19.766Z"
+  at: "2026-10-31T00:15:35.028Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8898e4417be6c210f05e87976483dfb5139cc948
@@ -29,7 +29,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/maintainsqlindex-false-breaks-flowfield-sift.md
     title: "microsoft/BCQuality: MaintainSQLIndex = false on a key disables SIFT for FlowFields that depend on it"
     date: "2026-09-09"
-    commit: a4593a1b1585a0fa663efbf39ff02c60f846d851
+    commit: a56b272c6b950c2a423bbeda190585cd53beca2a
     t: null
     quote: null
 links:
@@ -99,4 +99,4 @@ A FlowField whose `CalcFormula`'s `WHERE` columns line up with a key that has `M
 
 ---
 
-From microsoft/BCQuality at a4593a1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at a56b272, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

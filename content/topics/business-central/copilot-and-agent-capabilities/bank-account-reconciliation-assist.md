@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:16.844Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,6 +48,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10090
+    - change/bcapps/13303
 learn_toc_path:
   - Copilot and agent capabilities
   - Bank account reconciliation assist
@@ -101,6 +102,7 @@ Both pages mark the feature as preview. The reconcile page mentions 2025 release
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10090 [Bank Acc. Reconciliation with Copilot] Read the functional part of the prompt from .resources and safety clause from Key Vault](../../../changes/bcapps/10090.md) (code change): "Bank account reconciliation with Copilot now loads the functional part of AI prompts"
+- [#13303 [Bank. Acc. Reconciliation with Copilot] Implement ability to switch LLM with a simple configuration change](../../../changes/bcapps/13303.md) (code change): "Bank Account Reconciliation with Copilot now supports switching between different LLM models"
 - [Simplify Bank Reconciliation with Copilot in Dynamics 365 Business Central (2024)](../../../videos/4Te11l2BxmQ.md) (video): "bank reconciliation; copilot; transaction matching; gl account suggestions"
 - [Introducing: Bank Account Reconciliation Assistance with Copilot (2023 release wave 2)](../../../videos/jhfwx1K0I7Y.md) (video): "Bank Account Reconciliation Assistance with Copilot; Reconcile with Copilot Action"
 

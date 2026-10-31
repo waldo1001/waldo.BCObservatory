@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13164",
+  "input_hash": "c5469160ccbeb193cda49cb5f307a4bc68039b6404135812b3f6f11d3e05e9e3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-31T01:04:15.105Z",
+  "issues": [
+    "The summary says both report sets were moved from Reporting to Sections. Only the Sustainability group was moved. The Inventory Valuation reports were added to the Warehouse Manager role center's existing Sections group.",
+    "The title and description describe a bug where reports were missing from Role Explorer, so fix fits better than feature."
+  ],
+  "applied": [
+    "summary rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029807,
+    "changes_in_call": 6
+  }
+}

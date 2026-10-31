@@ -6,12 +6,12 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Fixed aggregation of payment slips in the French payment management reports when credit memos and invoices are not consecutive, by correcting the lookup logic in the summarization process to group records by customer, currency, and due date instead of using the full primary key.",
+  "summary": "The French Suggest Cust. Payments and Suggest Vend. Payments reports now aggregate non-consecutive invoices and credit memos correctly into summarized payment slips. The buffer lookup now matches on customer and currency, plus due date when summarizing by due date, instead of the full primary key.",
   "key_points": [
-    "Payment slip summarization now groups by customer, currency, and due date instead of the full primary key that included generated fields",
-    "Replaced full-key Find() calls with explicit grouping logic using a separate temporary record variable",
-    "Previously retained values from processed groups in generated fields no longer interfere with new groupings",
-    "Amount and Amount (LCY) are correctly accumulated for each group while preserving existing line and document numbers"
+    "Summarized payment lines now group by customer and currency, adding due date when summarizing by due date",
+    "The old Find() matched the full primary key, which included leftover Payment Line No. and Applies-to ID values from the previous group",
+    "When a matching group is found, Amount and Amount (LCY) are added and the group's line number, document number and application ID are kept",
+    "Applies to both the customer and vendor suggest payments reports, with new tests"
   ],
   "change_kind": "fix",
   "behavior_change": true,

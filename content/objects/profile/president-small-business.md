@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-30T01:00:43.748Z"
+  at: "2026-10-31T00:48:20.076Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 4a7e3001d9cf826d60c04fd5c7ca26b7d814527fa77532fdbfb0ca328bb58d5c
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Layers/W1/BaseApp/RoleCenters/PresidentSmallBusiness.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/Layers/W1/BaseApp/RoleCenters/PresidentSmallBusiness.Profile.al
     title: src/Layers/W1/BaseApp/RoleCenters/PresidentSmallBusiness.Profile.al (releases/29.x)
     date: null
-    commit: 7aa49e808916c060dbee97d9ff324a2cfda8d422
+    commit: 8e740e5061595dd231c4a2d9d453c86c84ec76ae
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "PRESIDENT - SMALL BUSINESS" in Base Application (Microsoft.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.RoleCenters · captioned "President - Small Business" · BC23-30 · [source at 7aa49e80](https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/Layers/W1/BaseApp/RoleCenters/PresidentSmallBusiness.Profile.al) · facts from BC29
+Base Application · Microsoft.RoleCenters · captioned "President - Small Business" · BC23-30 · [source at 8e740e50](https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/Layers/W1/BaseApp/RoleCenters/PresidentSmallBusiness.Profile.al) · facts from BC29
 
 ## Properties
 

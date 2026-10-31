@@ -1,21 +1,22 @@
 {
   "week": "2026-W44",
-  "input_hash": "741ea23a447cd16497692bc67615d95411226b5157828a43e69f91f3f4b37b85",
-  "text": "The breaking change this week is #13326, which makes five test-only IsHandled events in Fabric Platform Mgt internal, renames the Fabric mirroring app, drops the unused Key Vault client-ID lookup and moves telemetry to real audit logs; #12557 adds first-party app authentication to the same export. Posting and finance fixes changed behaviour: #13220 stops average cost overflow on same-period transfers, #13272 keeps historical FX balances when unapplying backdated payments, #13216 and #12474 correct VAT handling in Gen. Jnl.-Post Line, and #12696 fixes Norwegian SAF-T 1.30 debit and credit totals. India GST received #13342, #13334 and #12979. Fixes for WIP transfer shipments (#13166, #13293) remove a wrongly required Bin Code, and Subscription Billing got #13240, #12998, #12519 and #12430. Time sheet copying now tolerates deleted work types (#13211), with read permissions added in #13435. Agent work includes Expense Agent corporate cards (#12147) and consumption V2 with a trial (#12539), plus Sales Order Agent changes in #13256, #12821 and #13307. Other fixes include #13159 for multi-document reminder PDFs and #13255 for the stuck vendor remittance export. Extensibility arrived through #10992, #13111 and #13261, and #13262 and #11222 improve performance.",
-  "changes": 41,
+  "input_hash": "b49120f8e6173422894bc6a99203dde5dc13b70094aafcb9288e71f299c72f09",
+  "text": "The one breaking change this week is #13326, which makes five test-only IsHandled events in Fabric Platform Mgt internal, renames the Fabric mirroring app, removes the unused Key Vault client-ID lookup and moves telemetry to real audit logs; #12557 adds first-party authentication to the same app. Posting fixes dominate the rest: #13458 corrects ACY on entries moved between receivables accounts, #13415 fixes reverse charge VAT with 100% non-deductible VAT in foreign currency, #13248 and #12474 send the non-deductible reverse-charge correction to the payment discount account, and #13216 fixes the VAT adjustment register. Localization fixes cover GST in #13342, #13334 and #12979, FatturaPA file names in #12292, French payment slips in #13134 and Norwegian SAF-T totals in #12696. Subscription Billing gets #12796, #12519 and #12998, while #12996 lets Item Reclassification Journals post with zero CO2e. Hangs and failures are fixed in vendor remittance export (#13294, #13255) and in the WIP transfer shipment Bin Code check (#13293, #13166). Agent work includes Expense Agent corporate cards (#12147) and consumption V2 with a trial (#12539), plus Sales Order Agent changes such as #12821. #13303 lets Bank Reconciliation with Copilot switch models by configuration. Extensibility additions are #10992, #13111 and #13261, and #13262 speeds up the Trial Balance by Period Excel report with a query.",
+  "changes": 61,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.047438,
-  "at": "2026-10-30T00:17:01.742Z",
+  "cost_usd": 0.06690399999999999,
+  "at": "2026-10-31T00:15:35.028Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-30T01:10:26.853Z",
+    "at": "2026-10-31T01:04:42.088Z",
     "verdict": "approve",
     "issues": [
-      "Minor omission: some behaviour-changing pull requests aren't mentioned, notably #12691 (German e-invoice registration number as buyer ID), #13105 (MCP empty configuration warning), #13052 (Shopify tax matching model upgrade) and #12996 (Sustainability reclassification CO2e). This doesn't make anything in the text wrong."
+      "\"Posting fixes dominate the rest\" is a judgement. Some notable fixes are left out, such as the average cost adjustment overflow (#13220) and the Reminder and Finance Charge Memo printing fix (#13159).",
+      "#13261 is listed with the extensibility additions, which is correct. Its summary does not say which extension points were added, and the paragraph does not claim any."
     ],
-    "input_hash": "741ea23a447cd16497692bc67615d95411226b5157828a43e69f91f3f4b37b85",
-    "cost_usd": 0.12148,
+    "input_hash": "b49120f8e6173422894bc6a99203dde5dc13b70094aafcb9288e71f299c72f09",
+    "cost_usd": 0.163896,
     "applied": [],
     "rejected_edits": []
   }

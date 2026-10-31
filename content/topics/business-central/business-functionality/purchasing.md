@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:00:59.767Z"
   flags: []
 generated:
-  at: "2026-10-29T21:38:16.952Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -450,6 +450,7 @@ links:
     - change/bcapps/12867
     - change/bcapps/12931
     - change/bcapps/13075
+    - change/bcapps/13358
     - change/bcapps/9044
     - change/bcapps/9084
     - change/bcapps/9145
@@ -649,6 +650,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12867 [29.X]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](../../../changes/bcapps/12867.md) (code change): "editing the Description on purchase invoice or credit memo subform lines reset the Quantity to 1"
 - [#12931 [29.x][Repair Item] Purchase Order vendor change is automatically applied to the next order after navigation](../../../changes/bcapps/12931.md) (code change): "Purchase Order vendor change is automatically applied to the next order"
 - [#13075 [MAIN] [IN] Add extensibility events to support deferred TDS calculation on purchase documents](../../../changes/bcapps/13075.md) (code change): "deferred TDS calculation on purchase documents"
+- [#13358 [main] bug 656582 Add Maintenance Code field on purchase order subpage and purchase invoice subpage](../../../changes/bcapps/13358.md) (code change): "Maintenance Code field has been added to purchase order and purchase invoice subpages"
 - [#9044 [Master] Contact email is no validated during creation purchase documents_New](../../../changes/bcapps/9044.md) (code change): "Contact email validation is restored during purchase document creation"
 - [#9084 Bug 640321: Blanket Purch. Order to Order drops extended text for later items](../../../changes/bcapps/9084.md) (code change): "Fixes a bug where extended text lines are dropped when converting blanket purchase orders"
 - [#9145 [E-Document] Show PDF preview factbox on purchase invoice pages](../../../changes/bcapps/9145.md) (code change): "PDF preview factbox is added to purchase invoice pages to display"

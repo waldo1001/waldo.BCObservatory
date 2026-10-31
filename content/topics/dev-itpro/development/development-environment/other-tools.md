@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:14.151Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,6 +57,7 @@ links:
     - post/stefanmaron-com/https-stefanmaron-com-posts-bcdb-read-business-central-backups-without-sql-server--d242a45ab1
     - post/vjeko-com/https-vjeko-com-2025-12-15-ninja-v3-is-live-where-we-are-and-what-comes-next--072b649d73
     - post/vjeko-com/https-vjeko-com-2026-03-05-al-object-id-ninja-an-apology-a-decision-and-a-month-on-the-house--7ede474103
+    - post/wingate365-com/https-blog-wingate365-com-2026-04-trying-out-github-copilot-agent-for-html--9cac8e5838
   guidelines: []
 learn_toc_path:
   - Development
@@ -69,7 +70,7 @@ coverage:
   learn: 3
   code: 0
   video: 2
-  blog: 4
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 65eebd9af81fd595dc18bdf793e4c9ef9821938e8715db9823a8cfbad8615fa7
@@ -115,6 +116,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Introducing bcdb: Read a Business Central Backup Without SQL Server](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-bcdb-read-business-central-backups-without-sql-server--d242a45ab1.md) (community post): "Reads .bak and .bacpac files directly by parsing pages and the system catalog"
 - [Ninja v3 Is Live — Where We Are and What Comes Next](../../../../posts/vjeko-com/https-vjeko-com-2025-12-15-ninja-v3-is-live-where-we-are-and-what-comes-next--072b649d73.md) (community post): "AL Object ID Ninja v3 backend and VS Code extension are now in production"
 - [AL Object ID Ninja: An Apology, a Decision, and a Month on the House](../../../../posts/vjeko-com/https-vjeko-com-2026-03-05-al-object-id-ninja-an-apology-a-decision-and-a-month-on-the-house--7ede474103.md) (community post): "AL Object ID Ninja was free for four years but became unsustainable"
+- [Trying out GitHub Copilot Agent for a Functional Task?](../../../../posts/wingate365-com/https-blog-wingate365-com-2026-04-trying-out-github-copilot-agent-for-html--9cac8e5838.md) (community post): "Use web-based GitHub Copilot agent for read-and-report tasks"
 - [What's New in AL: Easy Access to Source Code with Open In VS Code and GitHub Projects (2024)](../../../../videos/8t3WaWh7K9Y.md) (video): "AL-Go for GitHub automatic population of source control details"
 - [AL-Go for Github April Office Hour](../../../../videos/LDRziYUdlAg.md) (video): "AL-Go for Github April Office Hour"
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:02.947Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -341,8 +341,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Easy Steps to Edit Word Reports in Business Central](../../../../../posts/aardvarklabs-blog/2196.md) (community post): "Edit Word report layouts in Business Central by exporting an existing report"
 - [Understanding RDLC Reports in Business Central](../../../../../posts/aardvarklabs-blog/2271.md) (community post): "new layouts are uploaded through Report Layouts with RDLC chosen as the format"
 - [New Features for Report Lifecycle Management in Business Central 28.1](../../../../../posts/aardvarklabs-blog/3544.md) (community post): "Report layouts now have status states: Draft, Pending Approval, Approved"
-- [BC Word Layout MCP (Part 1): Get started with AI-assisted Word layouts](../../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-08-04-bc-word-layout-mcp-introduction--cb610a83ff.md) (community post): "AI-assisted tool for developers to modify Word report layouts"
-- [BC Word Layout MCP (Part 2): Build your first sales quote layout](../../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-08-06-bc-word-layout-mcp-first-layout--f9e5ef983f.md) (community post): "custom Word layout for a Business Central sales quote report"
+- [BC Word Layout MCP (Part 1): Get started with AI-assisted Word layouts](../../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-08-04-bc-word-layout-mcp-introduction--cb610a83ff.md) (community post): "BC Word Layout MCP is an AI-assisted tool for developers and functional consultants to modify Word report layouts"
+- [BC Word Layout MCP (Part 2): Build your first sales quote layout](../../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-08-06-bc-word-layout-mcp-first-layout--f9e5ef983f.md) (community post): "guides creating a custom Word layout for a Business Central sales quote report using BC Word Layout MCP"
 - [BC Word Layout MCP (Part 3): Add totals and page numbers](../../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-08-24-bc-word-layout-mcp-totals-and-page-numbers--5f64af29b4.md) (community post): "Adding document totals and page numbers to Word layouts"
 - [BC Word Layout MCP (Part 4): Customer statements and work-description lines](../../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-10-18-bc-word-layout-mcp-body-repeaters--dd2b775ce5.md) (community post): "Word Layout MCP's body repeaters create flexible document structures"
 - [BC Word Layout MCP (Part 5): Format layouts and reuse a Word design](../../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-10-24-bc-word-layout-mcp-formatting-and-templates--6e7f748c9c.md) (community post): "Word layout formatting tools allow changing text and cell styles"

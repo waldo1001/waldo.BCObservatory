@@ -12,7 +12,7 @@ review:
   at: "2026-10-30T01:11:55.742Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -401,6 +401,7 @@ links:
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-07-weekly-review-business-central-al-development-june-28-july-4-2026--3ba0f69570
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-62-vs-code-al-themes--b6e93a2c5d
     - post/thatnavguy-com/https-thatnavguy-com-projects-al-pocket-tools--9c3084464c
+    - post/wingate365-com/https-blog-wingate365-com-2025-12-bc-community-2025-wrapped-blogs-videos-html--2d9bff194b
   guidelines: []
   changes:
     - change/bcapps/10545
@@ -435,7 +436,7 @@ coverage:
   learn: 523
   code: 77
   video: 2
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms:
   - 16
@@ -594,6 +595,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Weekly Review: Business Central AL Development – June 28–July 4, 2026](../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-weekly-review-business-central-al-development-june-28-july-4-2026--3ba0f69570.md) (community post): "This weekly review curates Business Central AL development posts"
 - [BC Friday Tips #62 VS Code AL Themes](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-62-vs-code-al-themes--b6e93a2c5d.md) (community post): "The AL Language extension in VS Code includes built-in themes called Business Central Light and Business Central Dark"
 - [AL Pocket Tools](../../posts/thatnavguy-com/https-thatnavguy-com-projects-al-pocket-tools--9c3084464c.md) (community post): "provides utilities for Dynamics 365 Business Central developers"
+- [BC Community 2025 Wrapped - Blogs, Videos, etc](../../posts/wingate365-com/https-blog-wingate365-com-2025-12-bc-community-2025-wrapped-blogs-videos-html--2d9bff194b.md) (community post): "AL development dominated discussions with 996 mentions, while AI and Copilot surged"
 - [What's New: Key Updates in our Learning Content (documentation) For Developers (2024 release wave 1)](../../videos/mnxOSl1Y9PI.md) (video): "Key Updates in our Learning Content documentation For Developers 2024 release wave 1"
 - [What's new in BC-Bench (2026 release wave 2)](../../videos/npkC4wyucyY.md) (video): "benchmarking; ai coding agents; bug fixing; code review; test generation"
 

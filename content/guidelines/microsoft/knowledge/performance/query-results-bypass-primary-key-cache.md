@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-30T00:17:41.070Z"
+  at: "2026-10-31T00:15:35.028Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 52f590cd94936fc851f0ea98213be2dcdf7aba47
@@ -28,7 +28,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/query-results-bypass-primary-key-cache.md
     title: "microsoft/BCQuality: Query results bypass the primary-key cache"
     date: "2026-09-29"
-    commit: a4593a1b1585a0fa663efbf39ff02c60f846d851
+    commit: a56b272c6b950c2a423bbeda190585cd53beca2a
     t: null
     quote: null
 links:
@@ -98,4 +98,4 @@ See sample: [`query-results-bypass-primary-key-cache.bad.al`](https://github.com
 
 ---
 
-From microsoft/BCQuality at a4593a1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at a56b272, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

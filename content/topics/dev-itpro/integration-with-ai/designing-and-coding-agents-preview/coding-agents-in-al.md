@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -188,6 +188,7 @@ links:
     - change/bcquality/174
     - change/bcquality/176
     - change/bcquality/182
+    - change/bcquality/222
     - change/bcquality/246
 learn_toc_path:
   - Integration with AI
@@ -337,6 +338,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#174 Make BCQuality documentation easier for partners to get started](../../../../changes/bcquality/174.md) (code change): "Community Agents review extended with folder-path support"
 - [#176 Complete partner contribution and knowledge consumption guides](../../../../changes/bcquality/176.md) (code change): "consuming skills in custom agents, with clarifications on metadata, integration"
 - [#182 Add machine-readable review orchestration contract](../../../../changes/bcquality/182.md) (code change): "Enables BC-ALAgents to consume a stable, mechanically-owned orchestration contract"
+- [#222 Add cited knowledge consultation skill for Business Central](../../../../changes/bcquality/222.md) (code change): "A new knowledge consultation skill allows AL development agents to request guidance on Business Central solutions"
 - [#246 Expose plan guidance as a preview plugin skill](../../../../changes/bcquality/246.md) (code change): "exposes plan guidance as a preview plugin skill alongside code review"
 - [Step-by-Step Guide: Create Agents in AL Code](../../../../posts/aardvarklabs-blog/3097.md) (community post): "Building agents in Business Central AL involves creating setup tables, pages, codeunits"
 - [Agents in Business Central – part 1 – the architecture](../../../../posts/bertverbeek-nl/1219.md) (community post): "Custom agents need the Custom Agent capability enabled"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:31.665Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,6 +98,8 @@ links:
     - post/thinkaboutit-be/7943
     - post/yzhums-com/68178
   guidelines: []
+  changes:
+    - change/bcapps/13164
 learn_toc_path:
   - Analytics, business intelligence, and reporting
   - KPIs, dashboards, and financial reports
@@ -155,10 +157,11 @@ After setup, the functional-area page describes what each app reports. The back 
 - [Power BI apps/reports for functional areas](https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-by-functional-area): Get an overview of the landing pages for the Power BI apps available in functional areas in Business Central.
 - [Use back links to explore aggregated data in visuals](https://learn.microsoft.com/dynamics365/business-central/powerbi-back-links): When you're analyzing a visual in Power BI, back links let you go to the data behind the graphic.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13164 Inventory and Sustainability Power BI reports missing from Role Explorer despite being searchable](../../../../changes/bcapps/13164.md) (code change): "Sustainability Manager role center Power BI Reports group moved from addlast"
 - [Quick Tip: How Can You Download the Standard Business Central Power BI Reports?](../../../../posts/thinkaboutit-be/7943.md) (community post): "Standard Power BI reports for Business Central are available through official Microsoft Power BI template apps"
 - [Business Central 2025 wave 2 (BC27): Access open-sourced Power BI apps](../../../../posts/yzhums-com/68178.md) (community post): "open-sources Power BI apps for sales, purchasing, and projects"
 - [What's New: Enhanced Subscription Billing Analytics (2026 release wave 1)](../../../../videos/cnIJZ2Ozcxs.md) (video): "Unified Power BI Subscription Billing UI"

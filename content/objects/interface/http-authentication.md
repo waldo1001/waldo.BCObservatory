@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-30T01:00:43.748Z"
+  at: "2026-10-31T00:48:20.076Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0b4f9825ce464e8dbed9cef860739586e70fbbeef347765a6a3222c3c14b9da7
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/System%20Application/App/Rest%20Client/src/Authentication/HttpAuthentication.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/System%20Application/App/Rest%20Client/src/Authentication/HttpAuthentication.Interface.al
     title: src/System Application/App/Rest Client/src/Authentication/HttpAuthentication.Interface.al (releases/29.x)
     date: null
-    commit: 7aa49e808916c060dbee97d9ff324a2cfda8d422
+    commit: 8e740e5061595dd231c4a2d9d453c86c84ec76ae
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Http Authentication" in System Application (System.RestClient). 2 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.RestClient · BC23-30 · [source at 7aa49e80](https://github.com/microsoft/BCApps/blob/7aa49e808916c060dbee97d9ff324a2cfda8d422/src/System%20Application/App/Rest%20Client/src/Authentication/HttpAuthentication.Interface.al) · facts from BC29
+System Application · System.RestClient · BC23-30 · [source at 8e740e50](https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/System%20Application/App/Rest%20Client/src/Authentication/HttpAuthentication.Interface.al) · facts from BC29
 
 ## Procedures
 

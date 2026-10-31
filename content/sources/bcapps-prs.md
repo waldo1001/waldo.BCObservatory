@@ -2,7 +2,7 @@
 id: source/bcapps-prs
 type: source
 title: microsoft/BCApps pull requests
-summary: "microsoft/BCApps pull requests: 1150 code changes in the knowledge base, 2026-07-07 to 2026-10-29, mostly about development, finance, integration."
+summary: "microsoft/BCApps pull requests: 1167 code changes in the knowledge base, 2026-07-07 to 2026-10-30, mostly about development, finance, integration."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-30T00:17:01.742Z"
+  at: "2026-10-31T00:15:35.028Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 874bca567c46f088a9f88fbd01244e9ebdfd382154658eb021f66a36fcc15ca1
+  input_hash: fbb0593cc165f5174a537ef90e8cec3e8cbf3dba2dc5f4595e7d88170de8c679
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
@@ -1152,13 +1152,18 @@ links:
     - change/bcapps/13216
     - change/bcapps/13224
     - change/bcapps/11744
+    - change/bcapps/9045
     - change/bcapps/13255
     - change/bcapps/12979
     - change/bcapps/12539
+    - change/bcapps/12796
+    - change/bcapps/13171
     - change/bcapps/12867
     - change/bcapps/12430
     - change/bcapps/13105
     - change/bcapps/13052
+    - change/bcapps/13248
+    - change/bcapps/12610
     - change/bcapps/13262
     - change/bcapps/13307
     - change/bcapps/13272
@@ -1166,12 +1171,14 @@ links:
     - change/bcapps/13160
     - change/bcapps/13240
     - change/bcapps/13261
+    - change/bcapps/13104
     - change/bcapps/13220
     - change/bcapps/12557
     - change/bcapps/13159
     - change/bcapps/13111
     - change/bcapps/10992
     - change/bcapps/12147
+    - change/bcapps/13164
     - change/bcapps/12696
     - change/bcapps/12821
     - change/bcapps/13326
@@ -1185,53 +1192,63 @@ links:
     - change/bcapps/13413
     - change/bcapps/13211
     - change/bcapps/13435
+    - change/bcapps/13415
+    - change/bcapps/13358
+    - change/bcapps/12882
+    - change/bcapps/13303
+    - change/bcapps/13403
+    - change/bcapps/13294
+    - change/bcapps/13134
+    - change/bcapps/12292
+    - change/bcapps/13458
+    - change/bcapps/13431
 source_id: bcapps-prs
 kind: github-pr
 url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 1150
+item_count: 1167
 footprint:
   systems:
     - id: development
-      weight: 616
+      weight: 618
     - id: finance
-      weight: 457
+      weight: 471
     - id: integration
-      weight: 374
+      weight: 377
     - id: sales
-      weight: 200
+      weight: 204
     - id: inventory
-      weight: 199
+      weight: 201
     - id: manufacturing
       weight: 182
   topics:
     - id: bc30
-      weight: 1069
+      weight: 1082
     - id: main
-      weight: 1069
+      weight: 1082
     - id: fix
-      weight: 701
+      weight: 714
     - id: feature
-      weight: 332
+      weight: 335
     - id: bc29
-      weight: 81
+      weight: 85
     - id: releases/29.x
-      weight: 81
+      weight: 85
     - id: refactor
-      weight: 50
+      weight: 51
     - id: performance
       weight: 34
     - id: codeunit gen. jnl.-post line
-      weight: 23
+      weight: 25
     - id: other
       weight: 18
   objects:
     - id: codeunit Gen. Jnl.-Post Line
-      weight: 28
+      weight: 30
     - id: table Expense Report Header
-      weight: 17
+      weight: 18
     - id: page Expense Agent Setup Wizard
       weight: 16
     - id: permissionset Expense Management - Objects
@@ -1240,26 +1257,26 @@ footprint:
       weight: 14
     - id: table Sales Line
       weight: 14
+    - id: codeunit Create Billing Documents
+      weight: 13
     - id: codeunit Item Jnl.-Post Line
       weight: 13
     - id: page Expense Agent Setup
       weight: 13
     - id: permissionset Expense Agent - Objects
       weight: 13
-    - id: codeunit Create Billing Documents
-      weight: 12
+    - id: table Expense Report Line
+      weight: 13
     - id: codeunit Expense Report Approval Mgmt
-      weight: 12
-    - id: table Expense Agent Setup
       weight: 12
   features: []
 first_item: "2026-07-07"
-last_item: "2026-10-29"
+last_item: "2026-10-30"
 ---
 
 # microsoft/BCApps pull requests
 
-> microsoft/BCApps pull requests: 1150 code changes in the knowledge base, 2026-07-07 to 2026-10-29, mostly about development, finance, integration.
+> microsoft/BCApps pull requests: 1167 code changes in the knowledge base, 2026-07-07 to 2026-10-30, mostly about development, finance, integration.
 
 [https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -1267,28 +1284,38 @@ last_item: "2026-10-29"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (616) | bc30 (1069) | codeunit Gen. Jnl.-Post Line (28) |
-| finance (457) | main (1069) | table Expense Report Header (17) |
-| integration (374) | fix (701) | page Expense Agent Setup Wizard (16) |
-| sales (200) | feature (332) | permissionset Expense Management - Objects (14) |
-| inventory (199) | bc29 (81) | table Purchase Line (14) |
-| manufacturing (182) | releases/29.x (81) | table Sales Line (14) |
-|  | refactor (50) | codeunit Item Jnl.-Post Line (13) |
-|  | performance (34) | page Expense Agent Setup (13) |
-|  | codeunit gen. jnl.-post line (23) | permissionset Expense Agent - Objects (13) |
-|  | other (18) | codeunit Create Billing Documents (12) |
+| development (618) | bc30 (1082) | codeunit Gen. Jnl.-Post Line (30) |
+| finance (471) | main (1082) | table Expense Report Header (18) |
+| integration (377) | fix (714) | page Expense Agent Setup Wizard (16) |
+| sales (204) | feature (335) | permissionset Expense Management - Objects (14) |
+| inventory (201) | bc29 (85) | table Purchase Line (14) |
+| manufacturing (182) | releases/29.x (85) | table Sales Line (14) |
+|  | refactor (51) | codeunit Create Billing Documents (13) |
+|  | performance (34) | codeunit Item Jnl.-Post Line (13) |
+|  | codeunit gen. jnl.-post line (25) | page Expense Agent Setup (13) |
+|  | other (18) | permissionset Expense Agent - Objects (13) |
+|  |  | table Expense Report Line (13) |
 |  |  | codeunit Expense Report Approval Mgmt (12) |
-|  |  | table Expense Agent Setup (12) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 882
-- 2026-Q4: **************************************** 268
+- 2026-Q4: **************************************** 285
 
 ## Most recent
 
+- [#13431 Extend sales document edit permissions with subscrition billing edit](../changes/bcapps/13431.md) (2026-10-30)
+- [#13458 [Master]-Applying entries across posting groups (Allow Multiple Posting Groups) posts the G/L entries that move the amount between receivables accounts with ACY = 0](../changes/bcapps/13458.md) (2026-10-30)
+- [#12292 Fix #10964: Use VAT registration number fallback in FatturaPA file name](../changes/bcapps/12292.md) (2026-10-30)
+- [#13134 [main] Bug 656172 Payment Slips Summarized by Due Date are not aggregating correlative in the French version.](../changes/bcapps/13134.md) (2026-10-30)
+- [#13294 [29.x]-Exporting vendor remittance gets stuck when a payment jour nal is sorted by Document No.](../changes/bcapps/13294.md) (2026-10-30)
+- [#13403 Bug 657097: [master] Suggest Lines fails with a duplicate ECSL VAT Report Line Relation record in GB environment](../changes/bcapps/13403.md) (2026-10-30)
+- [#13303 [Bank. Acc. Reconciliation with Copilot] Implement ability to switch LLM with a simple configuration change](../changes/bcapps/13303.md) (2026-10-30)
+- [#12882 [Master] - Bug 651169: [Expense Agent] Exchange rate date limitation](../changes/bcapps/12882.md) (2026-10-30)
+- [#13358 [main] bug 656582 Add Maintenance Code field on purchase order subpage and purchase invoice subpage](../changes/bcapps/13358.md) (2026-10-30)
+- [#13415 [29.X]-Reverse Charge VAT with 100% Non-Deductible VAT Posts Incorrectly in Foreign Currency Transactions](../changes/bcapps/13415.md) (2026-10-30)
 - [#13435 Adding Work Type read permissions](../changes/bcapps/13435.md) (2026-10-29)
 - [#13211 Copy time sheet skips deleted work types and absence reasons](../changes/bcapps/13211.md) (2026-10-29)
 - [#13413 Fix localized contact filter control name in Contact Sync](../changes/bcapps/13413.md) (2026-10-29)
@@ -1299,15 +1326,5 @@ Items per quarter, oldest first:
 - [#12691 Support customer registration number as e-document party identifier for DE](../changes/bcapps/12691.md) (2026-10-29)
 - [#13334 [Main] Fix #656831: Use location state for ISD purchase credit memo posting](../changes/bcapps/13334.md) (2026-10-29)
 - [#13342 [Main] Incorrect Buyer/Seller Registration No. Written to Detailed GST Ledger Entry When Posting Purchase Invoice Without Order Address](../changes/bcapps/13342.md) (2026-10-29)
-- [#13326 [Fabric] Clean up test events, app naming, authentication and telemetry](../changes/bcapps/13326.md) (2026-10-28)
-- [#12821 [SOA] Copy manual task attachments to sales quotes](../changes/bcapps/12821.md) (2026-10-28)
-- [#12696 Fix Norwegian SAF-T 1.30 debit and credit totals](../changes/bcapps/12696.md) (2026-10-28)
-- [#12147 Bugs/add corp card basics](../changes/bcapps/12147.md) (2026-10-28)
-- [#10992 [Extensibility Request] issue 30420: add service post and send events](../changes/bcapps/10992.md) (2026-10-28)
-- [#13111 [Backport 29.x] #11046: [Extensibility Request] issue 10889: expose large text modal helper](../changes/bcapps/13111.md) (2026-10-28)
-- [#13159 [29x] Bug 652332 Issuing multiple Reminders or Finance Charge Memos with Print, produces a PDF only for the last one](../changes/bcapps/13159.md) (2026-10-28)
-- [#12557 Implement first-party app authentication for Microsoft Fabric Export](../changes/bcapps/12557.md) (2026-10-28)
-- [#13220 Fix average cost adjustment overflow on same-period transfers](../changes/bcapps/13220.md) (2026-10-28)
-- [#13261 [Backport 29.x] [Extensibility Request] [SCM] 2026-10-26](../changes/bcapps/13261.md) (2026-10-28)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

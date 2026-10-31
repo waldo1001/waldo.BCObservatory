@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:29.120Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -80,6 +80,7 @@ links:
   changes:
     - change/bcapps/10631
     - change/bcapps/13256
+    - change/bcapps/13431
 learn_toc_path:
   - Copilot and agent capabilities
   - Sales Order Agent
@@ -137,6 +138,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "Sales Order Agent, Shopify, Sustainability, Withholding Tax and Excel Reports apps are modified"
 - [#13256 [SOA] Expose Email 2 on Contact Card](../../../changes/bcapps/13256.md) (code change): "Sales Order Agent app now exposes an Email 2 field"
+- [#13431 Extend sales document edit permissions with subscrition billing edit](../../../changes/bcapps/13431.md) (code change): "Sales Order Agent to add items with subscription billing to sales"
 - [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../../posts/demiliani-com/11739.md) (community post): "The Sales Order Agent in 2025 Wave 1 reads customer emails, clarifies missing details"
 - [Letâ€™s setup the Sales Order Agent in Business Central - Experts Live UK User Group](../../../posts/wingate365-com/https-blog-wingate365-com-2025-05-lets-setup-sales-order-agent-in-html--40ff1930aa.md) (community post): "setup the Sales Order Agent in Business Central"
 - [Ask AI about Dynamics Licensing](../../../posts/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97.md) (community post): "Sales Order Agent reads customer emails to capture orders, asks follow-up questions"

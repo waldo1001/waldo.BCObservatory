@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.968Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -45,6 +45,8 @@ links:
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-54-report-explorer--38c2959604
   guidelines: []
+  changes:
+    - change/bcapps/13164
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -93,10 +95,11 @@ Start with "Add pages and reports to Tell me" if you need a report to show up in
 - [Add pages and reports to Tell me](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-menusuite-functionality): Description of how you use AL to add pages and reports so that they're discoverable through search in the client.
 - [Report discoverability](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-discoverability): Introducing how to make Business Central reports discoverable by users.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13164 Inventory and Sustainability Power BI reports missing from Role Explorer despite being searchable](../../../../../changes/bcapps/13164.md) (code change): "Reports were previously searchable but invisible in Role Explorer because"
 - [BC Friday Tips #54 Report Explorer](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-54-report-explorer--38c2959604.md) (community post): "Report Explorer is a discovery tool in Business Central that helps users browse"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

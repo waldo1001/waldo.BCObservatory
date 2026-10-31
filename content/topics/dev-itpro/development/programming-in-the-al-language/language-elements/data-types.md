@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-10-31T01:06:04.529Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d4267e15f9f94d7855fa46b178b2b257bd0a228598657f0f87aa90b3a2357688
@@ -365,6 +365,8 @@ links:
     - post/yzhums-com/74473
     - post/yzhums-com/75853
   guidelines: []
+  changes:
+    - change/bcapps/9045
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -439,10 +441,11 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 - [XmlNodeList data type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmlnodelist/xmlnodelist-data-type): Represents a collection of XML nodes.
 - [XmlText data type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmltext/xmltext-data-type): Represents the text content of an element or attribute.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#9045 Config. Packages with Native AL XML Data Types](../../../../../changes/bcapps/9045.md) (code change): "Codeunit Config. Excel Exchange is refactored to use native AL XML Data Types"
 - [How to Work with JSON in Business Central’s AL Code](../../../../../posts/aardvarklabs-blog/1826.md) (community post): "understanding JSON structures using JsonObject, JsonArray, and JsonToken types"
 - [Leveraging RecordRef and FieldRef for Dynamic Coding](../../../../../posts/aardvarklabs-blog/3118.md) (community post): "use weakly typed RecordRef and FieldRef objects in Business Central AL"
 - [Overcoming Integer Limits in Business Central with BigInteger](../../../../../posts/aardvarklabs-blog/3267.md) (community post): "BigInteger is a signed 64-bit type supporting 9.2 quintillion values"
