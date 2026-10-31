@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13403",
+  "number": 13403,
+  "title": "Bug 657097: [master] Suggest Lines fails with a duplicate ECSL VAT Report Line Relation record in GB environment",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed EC Sales List Suggest Lines in GB environment to process each VAT entry only once, preventing duplicate VAT Report Line Relation records and incorrect report totals.",
+  "key_points": [
+    "VAT entries appearing in multiple query rows were being processed repeatedly",
+    "Duplicate ECSL VAT Report Line Relation records are now prevented",
+    "Report totals and VAT-entry relations are generated correctly",
+    "Fix includes regression tests covering group rounding and rejected/accepted prior reports"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Process each VAT entry once so report totals and VAT-entry relations are not duplicated.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003261,
+    "changes_in_call": 1
+  }
+}

@@ -6,14 +6,39 @@
   "title": "Inventory and Sustainability Power BI reports missing from Role Explorer despite being searchable",
   "url": "https://github.com/microsoft/BCApps/pull/13164",
   "published_at": "2026-10-28T15:42:10Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-29T00:16:37.959Z"
+    },
+    "fetched": {
+      "at": "2026-10-31T00:21:23.275Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-31T00:21:35.044Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004267
+    },
+    "linked": {
+      "at": "2026-10-31T00:21:35.159Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-31T00:21:35.205Z",
+      "path": "content/changes/bcapps/13164.md"
     }
   },
   "input_hash": "3f3f5a32274c96cdf35477d9df9f14e5748459f1:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13164,
@@ -30,6 +55,7 @@
     "community_contribution": false,
     "title_key": "inventory and sustainability power bi reports missing from role explorer despite being searchable"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-10-30T02:21:25.072Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "90c6c5cf9f935ee01b0a034745bb741684e00219f0eec86a73882e7af1f5bd38"
 }

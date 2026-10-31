@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13403,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13403",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-30T10:06:35Z",
+  "merge_commit_sha": "1046392a78e916ce202cd550c87b49368890ac50",
+  "author": "AleksanderGladkov",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Bug 657097: [master] Suggest Lines fails with a duplicate ECSL VAT Report Line Relation record in GB environment",
+  "body_hash": "752d580c6d5dc06998dc9d7ee7fd07edfd197d7b6c92662f49959e13d9582293",
+  "fixes_issues": [],
+  "work_items": [
+    657097
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/GB/GovTalk/test/src/MockServiceTests/ECSLXMLGenTest.Codeunit.al",
+      "status": "modified",
+      "additions": 260,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/VAT/Reporting/ECSalesListSuggestLines.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 266,
+    "deletions": 3,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/VAT/Reporting/ECSalesListSuggestLines.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/140",
+        "type": "codeunit",
+        "id": 140,
+        "name": "EC Sales List Suggest Lines",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "codeunit/140"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

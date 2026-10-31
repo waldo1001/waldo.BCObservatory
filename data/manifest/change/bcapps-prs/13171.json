@@ -6,7 +6,7 @@
   "title": "[Fixed Assets] Prevent change of FA Posting group after acquisition and FA journal cancellation line with empty Document No.",
   "url": "https://github.com/microsoft/BCApps/pull/13171",
   "published_at": "2026-10-27T09:30:16Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-28T00:16:46.912Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.004528
+    },
+    "linked": {
+      "at": "2026-10-31T00:17:54.629Z",
+      "objects": 6,
+      "unjoined": 2,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-31T00:17:54.640Z",
+      "path": "content/changes/bcapps/13171.md"
     }
   },
   "input_hash": "4c394b1f12db3ef7dec0a16896a2f839f7fa6185:c1",
@@ -46,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e98fa2707a5a1da8da758182e5ca42a5beaee50b4b42d6934cb02df8af1a62ed"
+  "output_hash": "d0ca5e56eb4b87e6dc96c5f8efe1785595d02bcb5c2cd9d5c2c60c93c6e4fef8"
 }

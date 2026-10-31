@@ -6,10 +6,35 @@
   "title": "[Bank. Acc. Reconciliation with Copilot] Implement ability to switch LLM with a simple configuration change",
   "url": "https://github.com/microsoft/BCApps/pull/13303",
   "published_at": "2026-10-30T09:30:49Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-31T00:15:35.028Z"
+    },
+    "fetched": {
+      "at": "2026-10-31T00:19:28.308Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-31T00:19:36.845Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004552
+    },
+    "linked": {
+      "at": "2026-10-31T00:19:37.098Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-31T00:19:37.100Z",
+      "path": "content/changes/bcapps/13303.md"
     }
   },
   "input_hash": "a98059a42a71fb72e54b669adb2e2a53906191ca:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bank acc reconciliation with copilot implement ability to switch llm with a simple configuration change"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c8313d1a5474e7c12697a30b0d7c76c9badbeef13276ca2fd54e000bd47f6b5a"
 }

@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13303,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13303",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-30T09:30:49Z",
+  "merge_commit_sha": "a98059a42a71fb72e54b669adb2e2a53906191ca",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Bank. Acc. Reconciliation with Copilot] Implement ability to switch LLM with a simple configuration change",
+  "body_hash": "3019218cdca35066fee626660e40ba9a6804845c5d4b785821a2dd1389d06781",
+  "fixes_issues": [],
+  "work_items": [
+    656867
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/BankAccRecWithAI/app/src/BankAccRecTransToAcc.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 23,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/BankAccRecWithAI/app/src/BankRecAIMatchingImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 96,
+      "deletions": 48,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/BankAccRecWithAI/test/src/UnitTests/BankRecWithAITests.Codeunit.al",
+      "status": "modified",
+      "additions": 69,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 181,
+    "deletions": 71,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/BankAccRecWithAI/app/src/BankAccRecTransToAcc.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7251",
+        "type": "codeunit",
+        "id": 7251,
+        "name": "Bank Acc. Rec. Trans. to Acc.",
+        "app": "BankAccRecWithAI",
+        "cc": "w1",
+        "page": "codeunit/7251"
+      },
+      {
+        "path": "src/Apps/W1/BankAccRecWithAI/app/src/BankRecAIMatchingImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7250",
+        "type": "codeunit",
+        "id": 7250,
+        "name": "Bank Rec. AI Matching Impl.",
+        "app": "BankAccRecWithAI",
+        "cc": "w1",
+        "page": "codeunit/7250"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "BankAccRecWithAI"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13303",
+  "number": 13303,
+  "title": "[Bank. Acc. Reconciliation with Copilot] Implement ability to switch LLM with a simple configuration change",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Bank Account Reconciliation with Copilot now supports switching between different LLM models through Key Vault configuration without code changes, and improves parser robustness to handle variations in model output formatting.",
+  "key_points": [
+    "New GetChatCompletionsDeployment() method reads Key Vault secret to select between GPT-5.6 Ceres or GPT-4.1 models",
+    "Deployment name added as custom dimension to telemetry events for audit and incident tracking",
+    "Parser logic strengthened to handle formatting variations like spacing differences and bracketed text across both statement matching and transfer-to-G/L-account features",
+    "Default behavior unchanged when Key Vault secret is missing or blank",
+    "Both matching and G/L account proposal parsers now share common helper methods for consistent handling"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Makes the model switchable through Key Vault, so we can move to GPT-5.6 Ceres once it passes DSB review without shipping code.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004552,
+    "changes_in_call": 1
+  }
+}

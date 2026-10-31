@@ -6,10 +6,35 @@
   "title": "[Master] - Bug 651169: [Expense Agent] Exchange rate date limitation",
   "url": "https://github.com/microsoft/BCApps/pull/12882",
   "published_at": "2026-10-30T09:26:57Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-31T00:15:35.028Z"
+    },
+    "fetched": {
+      "at": "2026-10-31T00:19:32.370Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-31T00:19:40.277Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003355
+    },
+    "linked": {
+      "at": "2026-10-31T00:19:40.460Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-31T00:19:40.463Z",
+      "path": "content/changes/bcapps/12882.md"
     }
   },
   "input_hash": "05a731b73c9e3c0734614565c62b213e1ab3a6f4:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 651169 expense agent exchange rate date limitation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "25fc7176f561f870c2fc2acc1eb8e66b17c7879bb9d712ba3e8868e5ef0b43ee"
 }

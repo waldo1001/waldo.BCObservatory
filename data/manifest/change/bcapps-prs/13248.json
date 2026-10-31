@@ -6,7 +6,7 @@
   "title": "[29.X]Non-Deductible Reverse-Charge VAT Correction Is Posted to Purchase VAT Account Instead of Payment Discount Account.",
   "url": "https://github.com/microsoft/BCApps/pull/13248",
   "published_at": "2026-10-27T13:55:57Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-28T00:16:46.912Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.004528
+    },
+    "linked": {
+      "at": "2026-10-31T00:17:54.628Z",
+      "objects": 11,
+      "unjoined": 0,
+      "commit": "7aa49e808916c060dbee97d9ff324a2cfda8d422"
+    },
+    "published": {
+      "at": "2026-10-31T00:17:54.640Z",
+      "path": "content/changes/bcapps/13248.md"
     }
   },
   "input_hash": "dd0e57e43b6182bfe5e47d9b3d43548a77516027:c1",
@@ -46,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7d05d5f753ab66f2098f49c35e9f3883a8cc39b20682eecf48b5041e3d9be7fc"
+  "output_hash": "3983704840c0167e6af987b68dadf3d7bb5542c040650ea27c5b2c12979ee3f9"
 }

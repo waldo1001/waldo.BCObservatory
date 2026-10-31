@@ -6,7 +6,7 @@
   "title": "Bug 657104: [main] Remove failing German recurring frequency test",
   "url": "https://github.com/microsoft/BCApps/pull/13421",
   "published_at": "2026-10-30T09:52:29Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-31T00:15:35.028Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 657104 main remove failing german recurring frequency test"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-31T00:19:16.163Z",
+  "retry_after": null
 }

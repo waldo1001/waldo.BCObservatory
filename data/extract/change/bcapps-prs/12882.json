@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12882",
+  "number": 12882,
+  "title": "[Master] - Bug 651169: [Expense Agent] Exchange rate date limitation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Expense Agent now correctly handles exchange rate dates for transactions, validating rates against the relevant transaction date and providing appropriate error messages when rates are unavailable.",
+  "key_points": [
+    "Exchange rate date handling corrected for Expense Agent transactions",
+    "Validation improved to check rates based on transaction date",
+    "Users receive clear error messages when exchange rates unavailable",
+    "Changes applied to Expense, Expense Report Header, and Expense Report Line tables",
+    "Test coverage added for the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Addresses the exchange rate date limitation in Expense Agent to ensure that exchange rates are handled correctly based on the relevant transaction date.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003355,
+    "changes_in_call": 1
+  }
+}

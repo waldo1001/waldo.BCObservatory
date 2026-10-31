@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13341,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13341",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-30T10:08:11Z",
+  "merge_commit_sha": "49044f1a569c55ea2c03bcdfe8fe67a95643c6ac",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-Fix and re-enable VAT partial-shipment test",
+  "body_hash": "a73d8db462e20d9af7b45d20617070ba4127d437572e89f18812ef0add04f082",
+  "fixes_issues": [],
+  "work_items": [
+    656027
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 37,
+    "deletions": 7,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

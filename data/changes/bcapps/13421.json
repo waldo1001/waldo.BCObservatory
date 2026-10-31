@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13421,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13421",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-30T09:52:29Z",
+  "merge_commit_sha": "98f9cbd14a30ac0e3acfd97bca9166e8c25aa9e3",
+  "author": "AleksanderGladkov",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Bug 657104: [main] Remove failing German recurring frequency test",
+  "body_hash": "c7d7225f1d8512e6b7dc3be1bbed5922af7f6cae3dec6aa95a8b2d44087588dd",
+  "fixes_issues": [],
+  "work_items": [
+    657104
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 6,
+    "additions": 0,
+    "deletions": 336,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

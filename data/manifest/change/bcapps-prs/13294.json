@@ -6,10 +6,35 @@
   "title": "[29.x]-Exporting vendor remittance gets stuck when a payment jour nal is sorted by Document No.",
   "url": "https://github.com/microsoft/BCApps/pull/13294",
   "published_at": "2026-10-30T10:47:27Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-31T00:15:35.028Z"
+    },
+    "fetched": {
+      "at": "2026-10-31T00:18:31.449Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-31T00:18:40.624Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003898
+    },
+    "linked": {
+      "at": "2026-10-31T00:18:40.737Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "7aa49e808916c060dbee97d9ff324a2cfda8d422"
+    },
+    "published": {
+      "at": "2026-10-31T00:18:40.742Z",
+      "path": "content/changes/bcapps/13294.md"
     }
   },
   "input_hash": "df75d6069a075c6c0963ec0bd30d19f4607e64cc:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "exporting vendor remittance gets stuck when a payment jour nal is sorted by document no"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "851ccbf76c686b96cfd6e566d9ecbffa88ae2e94fd5d1b2f2ffd98e8adf9870f"
 }

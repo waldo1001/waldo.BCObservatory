@@ -1,0 +1,88 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13134,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13134",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-30T10:58:32Z",
+  "merge_commit_sha": "9289c9be75f8e1805c0c7849add2a68d6acc923b",
+  "author": "MSNehaNawal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] Bug 656172 Payment Slips Summarized by Due Date are not aggregating correlative in the French version.",
+  "body_hash": "709e16ac1b0d65b132266bffe93903a26638a4a248f4e9d438055683e10f1e0a",
+  "fixes_issues": [],
+  "work_items": [
+    656172
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Reports/SuggestCustPayments.Report.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Reports/SuggestVendPayments.Report.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/test/src/RegularTests/ERMPaymentManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 136,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 174,
+    "deletions": 2,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Reports/SuggestCustPayments.Report.al",
+        "status": "modified",
+        "key": "report/10849",
+        "type": "report",
+        "id": 10849,
+        "name": "Suggest Cust. Payments",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "report/10849-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Reports/SuggestVendPayments.Report.al",
+        "status": "modified",
+        "key": "report/10850",
+        "type": "report",
+        "id": 10850,
+        "name": "Suggest Vend. Payments",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "report/10850-fr"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "PaymentManagementFR"
+  ]
+}

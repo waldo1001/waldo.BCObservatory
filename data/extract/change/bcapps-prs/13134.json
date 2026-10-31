@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13134",
+  "number": 13134,
+  "title": "[main] Bug 656172 Payment Slips Summarized by Due Date are not aggregating correlative in the French version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed aggregation of payment slips in the French payment management reports when credit memos and invoices are not consecutive, by correcting the lookup logic in the summarization process to group records by customer, currency, and due date instead of using the full primary key.",
+  "key_points": [
+    "Payment slip summarization now groups by customer, currency, and due date instead of the full primary key that included generated fields",
+    "Replaced full-key Find() calls with explicit grouping logic using a separate temporary record variable",
+    "Previously retained values from processed groups in generated fields no longer interfere with new groupings",
+    "Amount and Amount (LCY) are correctly accumulated for each group while preserving existing line and document numbers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Payment Slips Summarized by Due Date are not aggregating Credit Memos and Invoices correctly if they are not correlative in the French version.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003815,
+    "changes_in_call": 1
+  }
+}

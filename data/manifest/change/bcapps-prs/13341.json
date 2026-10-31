@@ -6,7 +6,7 @@
   "title": "[Master]-Fix and re-enable VAT partial-shipment test",
   "url": "https://github.com/microsoft/BCApps/pull/13341",
   "published_at": "2026-10-30T10:08:11Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-31T00:15:35.028Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "master fix and re enable vat partial shipment test"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-31T00:18:56.930Z",
+  "retry_after": null
 }

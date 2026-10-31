@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/13164",
+  "number": 13164,
+  "title": "Inventory and Sustainability Power BI reports missing from Role Explorer despite being searchable",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "reporting"
+  ],
+  "summary": "Sustainability and Inventory Valuation Power BI reports now appear in Role Explorer by moving them from the Reporting area to the Sections area on their respective role centers.",
+  "key_points": [
+    "Sustainability Manager role center Power BI Reports group moved from addlast(Reporting) to addfirst(Sections) to appear in Role Explorer",
+    "Four Inventory Valuation reports added to the Warehouse Manager role center Power BI Reports group under Sections",
+    "Reports were previously searchable but invisible in Role Explorer because they were only in the Reporting action area",
+    "Change aligns Sustainability with other Power BI role center extensions that use Sections",
+    "No business logic changes; navigation structure only"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "sustainability",
+    "warehouse"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004267,
+    "changes_in_call": 1
+  }
+}

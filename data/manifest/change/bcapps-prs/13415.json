@@ -6,10 +6,35 @@
   "title": "[29.X]-Reverse Charge VAT with 100% Non-Deductible VAT Posts Incorrectly in Foreign Currency Transactions",
   "url": "https://github.com/microsoft/BCApps/pull/13415",
   "published_at": "2026-10-30T08:35:52Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-31T00:15:35.028Z"
+    },
+    "fetched": {
+      "at": "2026-10-31T00:19:56.712Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-31T00:20:04.817Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00323
+    },
+    "linked": {
+      "at": "2026-10-31T00:20:05.055Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "8e740e5061595dd231c4a2d9d453c86c84ec76ae"
+    },
+    "published": {
+      "at": "2026-10-31T00:20:05.071Z",
+      "path": "content/changes/bcapps/13415.md"
     }
   },
   "input_hash": "74d312e366bdde734fbe0ceb795660eef22be374:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "reverse charge vat with 100 non deductible vat posts incorrectly in foreign currency transactions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b43043ef442a43a3a32ccf86326d9ce461c6090b39e539751872407ed0e9a48c"
 }

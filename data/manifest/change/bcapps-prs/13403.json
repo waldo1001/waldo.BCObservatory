@@ -6,10 +6,35 @@
   "title": "Bug 657097: [master] Suggest Lines fails with a duplicate ECSL VAT Report Line Relation record in GB environment",
   "url": "https://github.com/microsoft/BCApps/pull/13403",
   "published_at": "2026-10-30T10:06:35Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-31T00:15:35.028Z"
+    },
+    "fetched": {
+      "at": "2026-10-31T00:19:10.582Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-31T00:19:16.030Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003261
+    },
+    "linked": {
+      "at": "2026-10-31T00:19:16.123Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-10-31T00:19:16.148Z",
+      "path": "content/changes/bcapps/13403.md"
     }
   },
   "input_hash": "1046392a78e916ce202cd550c87b49368890ac50:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 657097 master suggest lines fails with a duplicate ecsl vat report line relation record in gb environment"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5fbfc946d144506ed02ae78ec329f931ee5477fd1d78d646c28c358e24064a57"
 }

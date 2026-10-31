@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13415",
+  "number": 13415,
+  "title": "[29.X]-Reverse Charge VAT with 100% Non-Deductible VAT Posts Incorrectly in Foreign Currency Transactions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed incorrect posting of reverse charge VAT with 100% non-deductible VAT in foreign currency transactions by correcting the VAT calculation logic.",
+  "key_points": [
+    "Corrected reverse charge VAT calculation for transactions with 100% non-deductible VAT",
+    "Fixed foreign currency exchange rate handling in non-deductible VAT posting",
+    "Added comprehensive test coverage for the reverse charge VAT scenario",
+    "Bug fix in the Non-Deductible VAT implementation codeunit"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00323,
+    "changes_in_call": 1
+  }
+}

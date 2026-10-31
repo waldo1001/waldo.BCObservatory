@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13364,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13364",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-30T12:52:50Z",
+  "merge_commit_sha": "78af6419701941d4040842cf4b34ceaeb6cb128f",
+  "author": "DhavalMore88",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Main]-Test disabled after BCApps v30 uptake: RED Test Unit for Purch Doc (3 methods) fail (Purchase Header Released not Open on confirm-No deferral batch)",
+  "body_hash": "19f4103acc8f1db060c9a1cd78422479ae77f22e54a73813218720a66fb46a75",
+  "fixes_issues": [],
+  "work_items": [
+    650251
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 19,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}
