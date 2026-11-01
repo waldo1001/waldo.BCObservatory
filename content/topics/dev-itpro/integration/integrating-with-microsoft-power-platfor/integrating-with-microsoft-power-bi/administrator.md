@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:48.203Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-01T00:45:11.847Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -45,6 +45,8 @@ links:
   posts:
     - post/yzhums-com/72067
   guidelines: []
+  changes:
+    - change/bcapps/13164
 learn_toc_path:
   - Integration
   - Integrating with Microsoft Power Platform
@@ -95,10 +97,11 @@ The architecture page explains how reports are created and viewed in Power BI De
   - In the observatory: [Page 810 "Web Services"](../../../../../objects/page/810.md)
 - [Power BI integration component and architecture overview for Business Central\| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-overview): Learn about the different aspects of Power BI integration with Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13164 Inventory and Sustainability Power BI reports missing from Role Explorer despite being searchable](../../../../../changes/bcapps/13164.md) (code change): "Sustainability and Inventory Valuation Power BI reports now appear in Role Explorer"
 - [Business Central 2026 release wave 1 (BC28.2): Power BI Report Deployments (Centralized Management of Power BI Apps)](../../../../../posts/yzhums-com/72067.md) (community post): "Power BI Report Deployments page, enabling centralized management and batch deployment"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

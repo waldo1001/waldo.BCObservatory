@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/13203",
+  "input_hash": "8e68d5cef5a789d90c770bc64c8fbbe7d35cc9d1f87630d8159b4e1b30148010",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-01T00:43:59.054Z",
+  "issues": [
+    "The summary says the bug was double postings. The description says something else: posting ignored the ACY amount and recalculated it from LCY at the closing-date rate, which left an ACY difference.",
+    "The key points are supported. The new codeunit is manually bound and subscribes to the existing OnGLCalcAddCurrencyPostingNone event.",
+    "The fix kind and the behaviour change and breaking flags fit what was given. No obsoletions are listed."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.039812,
+    "changes_in_call": 1
+  }
+}

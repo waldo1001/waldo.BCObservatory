@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:45:29.292Z"
   flags: []
 generated:
-  at: "2026-10-30T08:03:27.657Z"
+  at: "2026-11-01T00:41:18.124Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -251,21 +251,21 @@ features:
     verified: true
     status_source: video
   - name: Interim Approvers and Delegate Approvals
-    status: announced
+    status: preview
     t: 421
     verified: true
     status_source: roadmap
     roadmap_ids:
       - "573260"
   - name: Travel Requests
-    status: announced
+    status: preview
     t: 459
     verified: true
     status_source: roadmap
     roadmap_ids:
       - "573257"
   - name: Automatic Travel Expense Assignment
-    status: announced
+    status: preview
     t: 513
     verified: false
     status_source: roadmap
@@ -396,9 +396,9 @@ The main functional areas are mileage handling, credit card feeds, AI-driven tra
 | AI-Driven Travel Expense Policy Compliance | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [5:00](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=300s) |  |
 | Policy Flagging for Non-Compliant Expenses | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [6:18](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=378s) |  |
 | Enhanced Approval History and Audit Trail | announced | [7:01](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=421s) | "it will come gradually from October to December, but all these features will be in next 2 months." ([7:39](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s)) |
-| Interim Approvers and Delegate Approvals | announced (roadmap [Add an interim approver when you submit an expense report](../features/573260.md)) | [7:01](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=421s) | "it will come gradually from October to December, but all these features will be in next 2 months." ([7:39](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s)) |
-| Travel Requests | announced (roadmap [Create expense reports per trip automatically](../features/573257.md)) | [7:39](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s) | "it will come gradually from October to December, but all these features will be in next 2 months." ([7:39](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s)) |
-| Automatic Travel Expense Assignment | announced (roadmap [Create expense reports per trip automatically](../features/573257.md)) | [8:33](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=513s) |  |
+| Interim Approvers and Delegate Approvals | preview (roadmap [Add an interim approver when you submit an expense report](../features/573260.md)) | [7:01](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=421s) | "it will come gradually from October to December, but all these features will be in next 2 months." ([7:39](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s)) |
+| Travel Requests | preview (roadmap [Create expense reports per trip automatically](../features/573257.md)) | [7:39](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s) | "it will come gradually from October to December, but all these features will be in next 2 months." ([7:39](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s)) |
+| Automatic Travel Expense Assignment | preview (roadmap [Create expense reports per trip automatically](../features/573257.md)) | [8:33](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=513s) |  |
 | New Mobile App with Offline Support | generally available (roadmap [Expense Agent mobile app](../features/573265.md)), demoed | [8:57](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=537s) | "this is available right now in a preview. So, only for testing, but this is this is available." ([8:57](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=537s)) |
 | VAT Reclaim in Expense Reports | preview (roadmap [Calculate and report VAT based on expense reports](../features/573262.md)) | [9:58](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=598s) |  |
 | VAT Specification per Expense Line | preview (roadmap [Calculate and report VAT based on expense reports](../features/573262.md)) | [11:23](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=683s) |  |

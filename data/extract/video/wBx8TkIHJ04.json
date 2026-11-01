@@ -1,0 +1,175 @@
+{
+  "video_id": "wBx8TkIHJ04",
+  "item_id": "video/yt-microsoft/wBx8TkIHJ04",
+  "title": "Introducing: Copilot Chat in Business Central (2026)",
+  "duration_s": 64,
+  "systems": [
+    "copilot",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "copilot chat",
+    "business data queries",
+    "multi-turn conversation",
+    "permissions",
+    "data security",
+    "sales orders"
+  ],
+  "chapters": [
+    {
+      "title": "Introducing Copilot Chat in Business Central",
+      "t_start": 0,
+      "t_end": 10.5
+    },
+    {
+      "title": "Copilot Chat Interface and Basic Usage",
+      "t_start": 10.5,
+      "t_end": 21.3
+    },
+    {
+      "title": "Querying Business Data and Multi-Turn Conversations",
+      "t_start": 21.3,
+      "t_end": 34
+    },
+    {
+      "title": "Security and Permissions Model",
+      "t_start": 34,
+      "t_end": 47.4
+    },
+    {
+      "title": "Closing",
+      "t_start": 47.4,
+      "t_end": 64
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot Chat",
+      "description": "A new Microsoft Copilot chat experience integrated into Business Central that allows users to ask questions about their own business data and internet knowledge. Users can select the Copilot button and type questions, view responses side by side with data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0,
+      "t_end": 47.4,
+      "is_demoed": true,
+      "caveats": [
+        "Only sees data the user is allowed to see based on their permissions",
+        "Limited to user's company and context"
+      ],
+      "tags": [
+        "copilot",
+        "chat",
+        "ai",
+        "business data",
+        "query"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-Turn Conversations",
+      "description": "Copilot can maintain context across multiple questions in a single conversation, allowing users to ask follow-up questions without restarting or providing context again.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 34,
+      "t_end": 47.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "conversation",
+        "context",
+        "follow-up"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Business Data Search Across Customizations",
+      "description": "Copilot searches all Business Central data including customizations, allowing users to query against both standard and custom fields and objects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 21.3,
+      "t_end": 34,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "search",
+        "customizations",
+        "business data"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Permission-Based Data Filtering",
+      "description": "Copilot respects user permissions and company context, showing only data that the user is allowed to see within their assigned company.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 47.4,
+      "t_end": 59,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "security",
+        "permissions",
+        "data filtering"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0,
+      "text": "The new Microsoft Copilot is now ready in Business Central, and you can ask all kinds of questions about your own business data",
+      "why_it_matters": "Establishes that Copilot Chat is now generally available in Business Central with access to business data.",
+      "check": "exact"
+    },
+    {
+      "t": 10.5,
+      "text": "It's the same powerful Microsoft Copilot chat experience you may have seen elsewhere across Microsoft products",
+      "why_it_matters": "Indicates that this is the same Copilot experience users may already be familiar with from other Microsoft products.",
+      "check": "exact"
+    },
+    {
+      "t": 21.3,
+      "text": "Copilot searches all your Business Central data, including your customizations",
+      "why_it_matters": "Shows that Copilot can access custom fields and objects, not just standard data.",
+      "check": "exact"
+    },
+    {
+      "t": 34,
+      "text": "Copilot continues the conversation, so you can follow along without starting over",
+      "why_it_matters": "Demonstrates that multi-turn conversations are supported with context persistence.",
+      "check": "exact"
+    },
+    {
+      "t": 47.4,
+      "text": "Copilot works within your own permissions, your company, and your context. It only sees what you are allowed to see",
+      "why_it_matters": "Clarifies the security model and that data access is governed by user permissions.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010904
+    }
+  ]
+}

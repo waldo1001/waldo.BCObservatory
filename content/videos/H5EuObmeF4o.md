@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:41.011Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-11-01T00:41:18.124Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -78,6 +78,8 @@ links:
   learn: []
   objects: []
   features:
+    - feature/573380
+    - feature/573384
     - feature/577820
   topics: []
   localizations: []
@@ -170,10 +172,12 @@ features:
     verified: false
     status_source: video
   - name: Match purchase invoices to orders with payables agent
-    status: unclear
+    status: ga
     t: 575
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573380"
   - name: Payables agent confidence level prioritization
     status: unclear
     t: 610
@@ -247,10 +251,12 @@ features:
     verified: false
     status_source: video
   - name: Enhanced page scripting tool
-    status: unclear
+    status: ga
     t: 1130
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573384"
   - name: Truncate table data using new methods
     status: unclear
     t: 1173
@@ -413,7 +419,7 @@ The rest covers 20-language chat support, localization items, AL and page script
 | Autofill with Copilot field suggestions | status not stated, demoed | [8:18](https://www.youtube.com/watch?v=H5EuObmeF4o&t=498s) |  |
 | Payables agent contextual invoice drafts | status not stated | [9:02](https://www.youtube.com/watch?v=H5EuObmeF4o&t=542s) |  |
 | Agent task instructions enhancement | status not stated | [9:13](https://www.youtube.com/watch?v=H5EuObmeF4o&t=553s) |  |
-| Match purchase invoices to orders with payables agent | status not stated | [9:35](https://www.youtube.com/watch?v=H5EuObmeF4o&t=575s) |  |
+| Match purchase invoices to orders with payables agent | generally available (roadmap [Improve purchase order matching in Payables Agent](../features/573380.md)) | [9:35](https://www.youtube.com/watch?v=H5EuObmeF4o&t=575s) |  |
 | Payables agent confidence level prioritization | status not stated | [10:10](https://www.youtube.com/watch?v=H5EuObmeF4o&t=610s) |  |
 | Copilot emissions suggestions in sustainability | status not stated | [10:27](https://www.youtube.com/watch?v=H5EuObmeF4o&t=627s) |  |
 | Summarize with Copilot enhancements | status not stated | [11:00](https://www.youtube.com/watch?v=H5EuObmeF4o&t=660s) |  |
@@ -428,7 +434,7 @@ The rest covers 20-language chat support, localization items, AL and page script
 | Cancel build and publish from Visual Studio | status not stated | [16:57](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1017s) |  |
 | Extend copilot auto field using AL | status not stated | [17:43](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1063s) |  |
 | Hide copilot summaries | status not stated, demoed | [18:00](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1080s) |  |
-| Enhanced page scripting tool | status not stated | [18:50](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1130s) |  |
+| Enhanced page scripting tool | generally available (roadmap [Page Scripting enters General Availability](../features/573384.md)) | [18:50](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1130s) |  |
 | Truncate table data using new methods | status not stated | [19:33](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1173s) |  |
 | View SQL core per information in performance profiles | status not stated | [20:27](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1227s) |  |
 | Create multiple fixed asset cards | status not stated | [21:08](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1268s) |  |

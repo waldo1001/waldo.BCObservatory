@@ -6,14 +6,39 @@
   "title": "Bug 656921: [master] Recurring Frequency missing from Edit in Excel",
   "url": "https://github.com/microsoft/BCApps/pull/13330",
   "published_at": "2026-10-28T16:58:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-29T00:16:37.959Z"
+    },
+    "fetched": {
+      "at": "2026-11-01T00:19:22.822Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 5,
+      "objects": 2,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-11-01T00:19:29.297Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003815
+    },
+    "linked": {
+      "at": "2026-11-01T00:19:29.421Z",
+      "objects": 2,
+      "unjoined": 3,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-01T00:19:29.426Z",
+      "path": "content/changes/bcapps/13330.md"
     }
   },
   "input_hash": "555b301fb06c784526b7477e1af16980e7e1ab99:c1",
-  "attempts": 2,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13330,
@@ -29,6 +54,12 @@
     "community_contribution": false,
     "title_key": "bug 656921 master recurring frequency missing from edit in excel"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-31T04:21:35.209Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c26285e8c71d855aba76968f46a1a923b70d5e52994e7917ed65dffb4de5cc96",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-01T00:44:15.702Z"
+  }
 }

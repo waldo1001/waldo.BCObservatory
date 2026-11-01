@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9839",
+  "input_hash": "ef1029cc3b2366c5d453165aca0e1650261704d80532f8f4473a32e1d5f94c5c",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-01T00:44:15.702Z",
+  "issues": [
+    "The page matches the description. It leaves out the new EET Activities page and EET Cue table, and that XML signature verification is still not enabled, but nothing it says is wrong.",
+    "The work item number in the title (623913) differs from the linked one (624913)."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030087,
+    "changes_in_call": 6
+  }
+}

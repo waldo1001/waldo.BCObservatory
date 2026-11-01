@@ -1,22 +1,23 @@
 {
   "week": "2026-W44",
-  "input_hash": "b49120f8e6173422894bc6a99203dde5dc13b70094aafcb9288e71f299c72f09",
-  "text": "The one breaking change this week is #13326, which makes five test-only IsHandled events in Fabric Platform Mgt internal, renames the Fabric mirroring app, removes the unused Key Vault client-ID lookup and moves telemetry to real audit logs; #12557 adds first-party authentication to the same app. Posting fixes dominate the rest: #13458 corrects ACY on entries moved between receivables accounts, #13415 fixes reverse charge VAT with 100% non-deductible VAT in foreign currency, #13248 and #12474 send the non-deductible reverse-charge correction to the payment discount account, and #13216 fixes the VAT adjustment register. Localization fixes cover GST in #13342, #13334 and #12979, FatturaPA file names in #12292, French payment slips in #13134 and Norwegian SAF-T totals in #12696. Subscription Billing gets #12796, #12519 and #12998, while #12996 lets Item Reclassification Journals post with zero CO2e. Hangs and failures are fixed in vendor remittance export (#13294, #13255) and in the WIP transfer shipment Bin Code check (#13293, #13166). Agent work includes Expense Agent corporate cards (#12147) and consumption V2 with a trial (#12539), plus Sales Order Agent changes such as #12821. #13303 lets Bank Reconciliation with Copilot switch models by configuration. Extensibility additions are #10992, #13111 and #13261, and #13262 speeds up the Trial Balance by Period Excel report with a query.",
-  "changes": 61,
+  "input_hash": "504c581f4ff5fc999e59641246ce6294a2e0b19b13e671253ae95f73148fd8be",
+  "text": "The one breaking change this week is #13326, which makes five test-only IsHandled events in Fabric Platform Mgt internal, renames the Fabric mirroring app, and drops the unused Key Vault client-ID lookup; #12557 adds first-party app authentication to the same export. Posting and tax fixes dominate the rest. #13458 and #13203 correct additional-currency amounts, #13415, #13310, #13248 and #12474 fix non-deductible and reverse-charge VAT, and #13272 and #12430 address FX and source currency handling. India GST gets #13342, #13334 and #12979. Other fixes cover vendor remittance export hanging when sorted by Document No. (#13255, #13294), French payment slips (#13134), FatturaPA file names (#12292) and Norwegian SAF-T totals (#12696). Subscription Billing received #12796, #12519, #12998 and #13240, and the WIP transfer Bin Code fix landed as #13166 and #13293. Sales Order Agent and Expense Agent changes include #12821, #13256, #12147 and #12539. Copilot bank reconciliation can now switch LLM by configuration (#13303), and Shopify tax matching moves to a newer model (#13052). New items include the Report Filename Manager app (#12610), EET 2.0 for Czechia (#9839) and German e-invoice buyer identifiers (#12691). Extensibility and performance work includes #10992, #13111, #13261, #13262 and #11222.",
+  "changes": 68,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.06690399999999999,
-  "at": "2026-10-31T00:15:35.028Z",
+  "cost_usd": 0.073322,
+  "at": "2026-11-01T00:17:21.384Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-31T01:04:42.088Z",
+    "at": "2026-11-01T00:44:37.728Z",
     "verdict": "approve",
     "issues": [
-      "\"Posting fixes dominate the rest\" is a judgement. Some notable fixes are left out, such as the average cost adjustment overflow (#13220) and the Reminder and Finance Charge Memo printing fix (#13159).",
-      "#13261 is listed with the extensibility additions, which is correct. Its summary does not say which extension points were added, and the paragraph does not claim any."
+      "Minor omission: #13326 also replaces the pseudo-audit telemetry events with real audit logs (Audit Log.LogAuditMessage). The paragraph leaves this out, but nothing it says is wrong.",
+      "Several pull requests are listed by number with no description: the Subscription Billing group, the Sales Order Agent and Expense Agent group, and the extensibility and performance group. This is accurate but less useful to a reader. For example, #12147 adds corporate card support to the Expense Agent and #12539 adds a V2 consumption API and a trial.",
+      "Notable fixes are left out: #13403 (duplicate records from EC Sales List Suggest Lines), #13220 (average cost adjustment overflow), #13159 (multi-document reminder PDF) and #12083 (customer-to-contact sync). This is acceptable for a summary."
     ],
-    "input_hash": "b49120f8e6173422894bc6a99203dde5dc13b70094aafcb9288e71f299c72f09",
-    "cost_usd": 0.163896,
+    "input_hash": "504c581f4ff5fc999e59641246ce6294a2e0b19b13e671253ae95f73148fd8be",
+    "cost_usd": 0.17187200000000002,
     "applied": [],
     "rejected_edits": []
   }

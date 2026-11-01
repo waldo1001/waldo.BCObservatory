@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:17.555Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-01T00:45:11.847Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,6 +73,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/13104
 learn_toc_path:
   - Business functionality
   - Set up Business Central
@@ -130,6 +132,12 @@ Start with the setup and configuration page, then configure results and template
 - [Quality management workflows](https://learn.microsoft.com/dynamics365/business-central/qms-quality-workflows): Learn how to automate quality management processes using workflows.
   - In the observatory: [Page 6505 "Lot No. Information Card"](../../../../objects/page/6505.md)
 - [Set up quality inspection generation rules](https://learn.microsoft.com/dynamics365/business-central/qms-test-generation-rules): Learn how to configure inspection generation rules to automate quality inspections based on business transactions.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#13104 update tests and enable them](../../../../changes/bcapps/13104.md) (code change): "Application logic in Qlty. Result Condition Mgmt. reworked"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:02.947Z"
   flags: []
 generated:
-  at: "2026-10-31T01:06:04.529Z"
+  at: "2026-11-01T00:45:11.847Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -245,6 +245,7 @@ links:
     - post/yzhums-com/76696
     - post/yzhums-com/76756
     - post/yzhums-com/76763
+    - post/yzhums-com/77038
   guidelines: []
   changes:
     - change/bcquality/230
@@ -260,7 +261,7 @@ coverage:
   learn: 22
   code: 5
   video: 5
-  blog: 32
+  blog: 33
   guideline: 0
 bc_forms:
   - 21
@@ -368,6 +369,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 2 (BC29): Design document reports with the updated Word add-in (New design components)](../../../../../posts/yzhums-com/76696.md) (community post): "introduces new design components in the Word add-in for document reporting, allowing developers to create report layouts faster"
 - [Business Central 2026 release wave 2 (BC29): Design themes, headers, and footers for document reports with the updated Word add-in](../../../../../posts/yzhums-com/76756.md) (community post): "Five predefined header layouts and five footer layouts can be inserted with one click"
 - [Dynamics 365 Business Central: How to quickly copy a report layout (Create a copy of the selected layout)](../../../../../posts/yzhums-com/76763.md) (community post): "Report layouts determine which fields, arrangement, and styling appear in reports"
+- [Business Central 2026 release wave 2 (BC29): Custom Report Layouts are now deprecated and have been removed](../../../../../posts/yzhums-com/77038.md) (community post): "Users should migrate existing custom layouts to the new user-defined Report Layouts feature"
 - [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../../videos/1ft4o9lQzsU.md) (video): "Excel report layouts; Power Query integration for refreshable reports"
 - [What's New: Server and Database (2026 release wave 1)](../../../../../videos/2u5_F9Ztt7U.md) (video): "Word Add-in for Document Reports Enhancement; Layout Lifecycle Control for Report Layouts"
 - [Let It Snow: How To Use Themable Layouts in Business Central (2024)](../../../../../videos/9ZmmQEpPyB4.md) (video): "Themeable layouts; Abts font in Office; Word layout watermark support"

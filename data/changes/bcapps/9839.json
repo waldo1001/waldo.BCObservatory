@@ -1,0 +1,947 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9839,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9839",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-28T18:02:14Z",
+  "merge_commit_sha": "cb5e2d6291d7794db550d84f1441cbf8c09f6fc7",
+  "author": "DavidHolusa",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] feature 623913 - EET 2.0",
+  "body_hash": "e7fa9e66df05567a290c52695a77767d7631cd7c2309b3599fc3df69da79bb2b",
+  "fixes_issues": [],
+  "work_items": [
+    624913
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Codeunits/EETManagementHandlerCZZ.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Codeunits/EETCashDeskCZP.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Codeunits/EETManagementCZP.Codeunit.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 108,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Enums/CashDocumentAmountTypeCZP.Enum.al",
+      "status": "added",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Pages/CashDeskEventsCZP.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Pages/CashDeskEventsSetupCZP.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Pages/CashDeskRoleCenterCZP.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Pages/CashDocumentSubformCZP.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Pages/PostedCashDocumentLinesCZP.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Pages/PostedCashDocumentSubfCZP.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Reports/PostedRcptCashDocument.rdl",
+      "status": "modified",
+      "additions": 45,
+      "deletions": 145,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Reports/PostedRcptCashDocumentCZP.Report.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Reports/PostedRcptCashDocumentEmail.docx",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Reports/ReceiptCashDocumentEmail.docx",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Tables/CashDeskEventCZP.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Tables/CashDocumentLineCZP.Table.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 39,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Tables/PostedCashDocumentLineCZP.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/ContosoCoffeeDemoDatasetCZ/app/DemoData/ContosoCZLocalization.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/ContosoCoffeeDemoDatasetCZ/app/DemoData/Foundation/1. Setup Data/CreateCueSetupCZ.Codeunit.al",
+      "status": "added",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/DataClassEvalHandlerCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/EETControlCodesMgtCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/EETManagementCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/EETSendEntriesToServCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/EETServiceManagementCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 247,
+      "deletions": 95,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/EETStatusManagementCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/EETTextSignProviderCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/GuidedExperienceHandlerCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/SOAPWSRequestManagementCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/UpgradeApplicationCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 56,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/UpgradeTagDefinitionsCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Enums/EETMessageLogLevelCZL.Enum.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/AccountantCZRoleCenterCZL.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETActivitiesCZL.Page.al",
+      "status": "added",
+      "additions": 95,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETBusinessPremisesCZL.Page.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETCashRegistersCZL.Page.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 16,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETEntriesCZL.Page.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 46,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETEntryCardCZL.Page.al",
+      "status": "modified",
+      "additions": 60,
+      "deletions": 79,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETEntryPreviewCardCZL.Page.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 68,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETEntryStatusLogCZL.Page.al",
+      "status": "modified",
+      "additions": 73,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETEntryStatusLogPrevCZL.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETServiceSetupCZL.Page.al",
+      "status": "modified",
+      "additions": 51,
+      "deletions": 25,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETSimpleRegistrationCZL.Page.al",
+      "status": "modified",
+      "additions": 80,
+      "deletions": 93,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Permissions/CZCorePackEditCZL.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Permissions/CZCorePackObjectsCZL.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Permissions/CZCorePackReadCZL.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Reports/EETConfirmation.rdl",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 229,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Reports/EETConfirmationCZL.Report.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Tables/EETBusinessPremisesCZL.Table.al",
+      "status": "modified",
+      "additions": 68,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Tables/EETCashRegisterCZL.Table.al",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Tables/EETCueCZL.Table.al",
+      "status": "added",
+      "additions": 123,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Tables/EETEntryCZL.Table.al",
+      "status": "modified",
+      "additions": 188,
+      "deletions": 86,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Tables/EETEntryStatusLogCZL.Table.al",
+      "status": "modified",
+      "additions": 110,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Tables/EETServiceSetupCZL.Table.al",
+      "status": "modified",
+      "additions": 84,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/test/Src/EETUTCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 5,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/test/Src/LibraryEETCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/DemoTool/CreateEETBusinPremisesCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 56,
+    "additions": 1827,
+    "deletions": 1161,
+    "al": 49
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Codeunits/EETManagementHandlerCZZ.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31090",
+        "type": "codeunit",
+        "id": 31090,
+        "name": "EET Management Handler CZZ",
+        "app": "AdvancePaymentsLocalization",
+        "cc": "cz",
+        "page": "codeunit/31090-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Codeunits/EETCashDeskCZP.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31114",
+        "type": "codeunit",
+        "id": 31114,
+        "name": "EET Cash Desk CZP",
+        "app": "CashDeskLocalization",
+        "cc": "cz",
+        "page": "codeunit/31114-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Codeunits/EETManagementCZP.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31083",
+        "type": "codeunit",
+        "id": 31083,
+        "name": "EET Management CZP",
+        "app": "CashDeskLocalization",
+        "cc": "cz",
+        "page": "codeunit/31083-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Pages/CashDeskEventsCZP.Page.al",
+        "status": "modified",
+        "key": "page/31157",
+        "type": "page",
+        "id": 31157,
+        "name": "Cash Desk Events CZP",
+        "app": "CashDeskLocalization",
+        "cc": "cz",
+        "page": "page/31157-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Pages/CashDeskEventsSetupCZP.Page.al",
+        "status": "modified",
+        "key": "page/31158",
+        "type": "page",
+        "id": 31158,
+        "name": "Cash Desk Events Setup CZP",
+        "app": "CashDeskLocalization",
+        "cc": "cz",
+        "page": "page/31158-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Pages/CashDeskRoleCenterCZP.Page.al",
+        "status": "modified",
+        "key": "page/31155",
+        "type": "page",
+        "id": 31155,
+        "name": "Cash Desk Role Center CZP",
+        "app": "CashDeskLocalization",
+        "cc": "cz",
+        "page": "page/31155-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Pages/CashDocumentSubformCZP.Page.al",
+        "status": "modified",
+        "key": "page/31161",
+        "type": "page",
+        "id": 31161,
+        "name": "Cash Document Subform CZP",
+        "app": "CashDeskLocalization",
+        "cc": "cz",
+        "page": "page/31161-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Pages/PostedCashDocumentLinesCZP.Page.al",
+        "status": "modified",
+        "key": "page/31211",
+        "type": "page",
+        "id": 31211,
+        "name": "Posted Cash Document Lines CZP",
+        "app": "CashDeskLocalization",
+        "cc": "cz",
+        "page": "page/31211-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Pages/PostedCashDocumentSubfCZP.Page.al",
+        "status": "modified",
+        "key": "page/31166",
+        "type": "page",
+        "id": 31166,
+        "name": "Posted Cash Document Subf. CZP",
+        "app": "CashDeskLocalization",
+        "cc": "cz",
+        "page": "page/31166-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Reports/PostedRcptCashDocumentCZP.Report.al",
+        "status": "modified",
+        "key": "report/11736",
+        "type": "report",
+        "id": 11736,
+        "name": "Posted Rcpt. Cash Document CZP",
+        "app": "CashDeskLocalization",
+        "cc": "cz",
+        "page": "report/11736-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Tables/CashDeskEventCZP.Table.al",
+        "status": "modified",
+        "key": "table/11746",
+        "type": "table",
+        "id": 11746,
+        "name": "Cash Desk Event CZP",
+        "app": "CashDeskLocalization",
+        "cc": "cz",
+        "page": "table/11746-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Tables/CashDocumentLineCZP.Table.al",
+        "status": "modified",
+        "key": "table/11733",
+        "type": "table",
+        "id": 11733,
+        "name": "Cash Document Line CZP",
+        "app": "CashDeskLocalization",
+        "cc": "cz",
+        "page": "table/11733-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Tables/PostedCashDocumentLineCZP.Table.al",
+        "status": "modified",
+        "key": "table/11738",
+        "type": "table",
+        "id": 11738,
+        "name": "Posted Cash Document Line CZP",
+        "app": "CashDeskLocalization",
+        "cc": "cz",
+        "page": "table/11738-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/DataClassEvalHandlerCZL.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11710",
+        "type": "codeunit",
+        "id": 11710,
+        "name": "Data Class. Eval. Handler CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/11710-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/EETControlCodesMgtCZL.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31099",
+        "type": "codeunit",
+        "id": 31099,
+        "name": "EET Control Codes Mgt. CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31099-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/EETManagementCZL.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31118",
+        "type": "codeunit",
+        "id": 31118,
+        "name": "EET Management CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31118-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/EETSendEntriesToServCZL.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31119",
+        "type": "codeunit",
+        "id": 31119,
+        "name": "EET Send Entries To Serv. CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31119-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/EETServiceManagementCZL.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31116",
+        "type": "codeunit",
+        "id": 31116,
+        "name": "EET Service Management CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31116-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/EETStatusManagementCZL.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31098",
+        "type": "codeunit",
+        "id": 31098,
+        "name": "EET Status Management CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31098-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/EETTextSignProviderCZL.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31081",
+        "type": "codeunit",
+        "id": 31081,
+        "name": "EET Text Sign. Provider CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31081-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/GuidedExperienceHandlerCZL.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11747",
+        "type": "codeunit",
+        "id": 11747,
+        "name": "Guided Experience Handler CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/11747-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/SOAPWSRequestManagementCZL.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31031",
+        "type": "codeunit",
+        "id": 31031,
+        "name": "SOAP WS Request Management CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31031-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/UpgradeApplicationCZL.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31017",
+        "type": "codeunit",
+        "id": 31017,
+        "name": "Upgrade Application CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31017-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/UpgradeTagDefinitionsCZL.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31016",
+        "type": "codeunit",
+        "id": 31016,
+        "name": "Upgrade Tag Definitions CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31016-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/AccountantCZRoleCenterCZL.Page.al",
+        "status": "modified",
+        "key": "page/31210",
+        "type": "page",
+        "id": 31210,
+        "name": "Accountant CZ Role Center CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "page/31210-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETBusinessPremisesCZL.Page.al",
+        "status": "modified",
+        "key": "page/31143",
+        "type": "page",
+        "id": 31143,
+        "name": "EET Business Premises CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "page/31143-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETCashRegistersCZL.Page.al",
+        "status": "modified",
+        "key": "page/31144",
+        "type": "page",
+        "id": 31144,
+        "name": "EET Cash Registers CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "page/31144-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETEntriesCZL.Page.al",
+        "status": "modified",
+        "key": "page/31145",
+        "type": "page",
+        "id": 31145,
+        "name": "EET Entries CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "page/31145-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETEntryCardCZL.Page.al",
+        "status": "modified",
+        "key": "page/31146",
+        "type": "page",
+        "id": 31146,
+        "name": "EET Entry Card CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "page/31146-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETEntryPreviewCardCZL.Page.al",
+        "status": "modified",
+        "key": "page/31147",
+        "type": "page",
+        "id": 31147,
+        "name": "EET Entry Preview Card CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "page/31147-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETEntryStatusLogCZL.Page.al",
+        "status": "modified",
+        "key": "page/31148",
+        "type": "page",
+        "id": 31148,
+        "name": "EET Entry Status Log CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "page/31148-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETEntryStatusLogPrevCZL.Page.al",
+        "status": "modified",
+        "key": "page/31149",
+        "type": "page",
+        "id": 31149,
+        "name": "EET Entry Status Log Prev. CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "page/31149-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETServiceSetupCZL.Page.al",
+        "status": "modified",
+        "key": "page/31142",
+        "type": "page",
+        "id": 31142,
+        "name": "EET Service Setup CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "page/31142-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETSimpleRegistrationCZL.Page.al",
+        "status": "modified",
+        "key": "page/31137",
+        "type": "page",
+        "id": 31137,
+        "name": "EET Simple Registration CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "page/31137-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Permissions/CZCorePackEditCZL.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/11731",
+        "type": "permissionset",
+        "id": 11731,
+        "name": "CZ Core Pack - Edit CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "permissionset/11731-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Permissions/CZCorePackObjectsCZL.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/11732",
+        "type": "permissionset",
+        "id": 11732,
+        "name": "CZ Core Pack - Objects CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "permissionset/11732-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Permissions/CZCorePackReadCZL.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/11730",
+        "type": "permissionset",
+        "id": 11730,
+        "name": "CZ Core Pack - Read CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "permissionset/11730-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Reports/EETConfirmationCZL.Report.al",
+        "status": "modified",
+        "key": "report/31121",
+        "type": "report",
+        "id": 31121,
+        "name": "EET Confirmation CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "report/31121-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Tables/EETBusinessPremisesCZL.Table.al",
+        "status": "modified",
+        "key": "table/31126",
+        "type": "table",
+        "id": 31126,
+        "name": "EET Business Premises CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "table/31126-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Tables/EETCashRegisterCZL.Table.al",
+        "status": "modified",
+        "key": "table/31127",
+        "type": "table",
+        "id": 31127,
+        "name": "EET Cash Register CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "table/31127-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Tables/EETEntryCZL.Table.al",
+        "status": "modified",
+        "key": "table/31128",
+        "type": "table",
+        "id": 31128,
+        "name": "EET Entry CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "table/31128-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Tables/EETEntryStatusLogCZL.Table.al",
+        "status": "modified",
+        "key": "table/31129",
+        "type": "table",
+        "id": 31129,
+        "name": "EET Entry Status Log CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "table/31129-cz"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Tables/EETServiceSetupCZL.Table.al",
+        "status": "modified",
+        "key": "table/31125",
+        "type": "table",
+        "id": 31125,
+        "name": "EET Service Setup CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "table/31125-cz"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/CashDeskLocalization/app/Src/Enums/CashDocumentAmountTypeCZP.Enum.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/ContosoCoffeeDemoDatasetCZ/app/DemoData/ContosoCZLocalization.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/ContosoCoffeeDemoDatasetCZ/app/DemoData/Foundation/1. Setup Data/CreateCueSetupCZ.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Enums/EETMessageLogLevelCZL.Enum.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Pages/EETActivitiesCZL.Page.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Tables/EETCueCZL.Table.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance",
+    "development",
+    "platform",
+    "administration",
+    "integration"
+  ],
+  "apps": [
+    "AdvancePaymentsLocalization",
+    "CashDeskLocalization",
+    "CoreLocalizationPack"
+  ]
+}

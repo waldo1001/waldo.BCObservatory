@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:20.637Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-11-01T00:45:11.847Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -113,6 +113,7 @@ links:
     - change/bcapps/10571
     - change/bcapps/10874
     - change/bcapps/13334
+    - change/bcapps/13458
 learn_toc_path:
   - Business functionality
   - Finance
@@ -221,6 +222,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10571 [Master]-User is unable to filter the Deferral Summary-GL Report Not Filtering Totals by Global Dimensions.](../../../../changes/bcapps/10571.md) (code change): "Deferral Summary - G/L report now correctly filters and displays totals"
 - [#10874 [29.x]User is unable to filter the Deferral Summary-GL Report Not Filtering Totals by Global Dimensions.](../../../../changes/bcapps/10874.md) (code change): "Deferral Summary - G/L report now applies global dimension filters to its totals"
 - [#13334 [Main] Fix #656831: Use location state for ISD purchase credit memo posting](../../../../changes/bcapps/13334.md) (code change): "location state for ISD purchase credit memo posting"
+- [#13458 [Master]-Applying entries across posting groups (Allow Multiple Posting Groups) posts the G/L entries that move the amount between receivables accounts with ACY = 0](../../../../changes/bcapps/13458.md) (code change): "When entries are applied across different posting groups Allow Multiple Posting Groups"
 - [Understanding Dimension Set Id in AL for Business Central](../../../../posts/aardvarklabs-blog/3120.md) (community post): "Dimension Set ID deduplicates dimension combinations to reduce data storage"
 - [Dynamics GP to Business Central – How to Control your General Ledger Code and Dimension Combinations using Allowed Values Filter](../../../../posts/thedynamicsexplorer-com/9227.md) (community post): "Allowed Values Filter on the GL Account card restricts which dimension values can be posted"
 - [Dynamics 365 Business Central Blog Series: Work with dimensions](../../../../posts/yzhums-com/69639.md) (community post): "use dimensions in financial reporting, and leverage dimension features across inventory, journals"

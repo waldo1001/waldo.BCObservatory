@@ -6,14 +6,39 @@
   "title": "[main] feature 623913 - EET 2.0",
   "url": "https://github.com/microsoft/BCApps/pull/9839",
   "published_at": "2026-10-28T18:02:14Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-29T00:16:37.959Z"
+    },
+    "fetched": {
+      "at": "2026-11-01T00:18:57.582Z",
+      "change_class": "code",
+      "files": 56,
+      "al": 49,
+      "objects": 43,
+      "unjoined": 6
+    },
+    "extracted": {
+      "at": "2026-11-01T00:19:04.238Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.014193
+    },
+    "linked": {
+      "at": "2026-11-01T00:19:04.423Z",
+      "objects": 43,
+      "unjoined": 6,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-01T00:19:04.435Z",
+      "path": "content/changes/bcapps/9839.md"
     }
   },
   "input_hash": "cb5e2d6291d7794db550d84f1441cbf8c09f6fc7:c1",
-  "attempts": 2,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 9839,
@@ -29,6 +54,12 @@
     "community_contribution": false,
     "title_key": "feature 623913 eet 2 0"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-10-31T04:21:00.133Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6dee72f795ac350f3e6113d6b688cc09412d26779ee25ba60db7cbcfde9c44f0",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-01T00:44:15.702Z"
+  }
 }

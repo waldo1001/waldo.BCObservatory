@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:44:59.549Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-11-01T00:41:18.124Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -142,7 +142,7 @@ features:
     verified: false
     status_source: video
   - name: Automatic Expense Report Creation from Web/Phone App
-    status: announced
+    status: preview
     t: 416
     verified: false
     status_source: roadmap
@@ -224,7 +224,7 @@ The demo covers creating a basic request, adding line items by category with a c
 | Travel Request Line Items | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=141s) |
 | Expense Ledger Entries Link | status not stated, demoed | [4:32](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=272s) |
 | Foreign Currency Budgeting | status not stated, demoed | [5:30](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=330s) |
-| Automatic Expense Report Creation from Web/Phone App | announced (roadmap [Create expense reports per trip automatically](../features/573257.md)) | [6:56](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=416s) |
+| Automatic Expense Report Creation from Web/Phone App | preview (roadmap [Create expense reports per trip automatically](../features/573257.md)) | [6:56](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=416s) |
 | Employee Ledger Entry for Reimbursement | status not stated, demoed | [4:04](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=244s) |
 | Travel Request with Multiple Travelers | status not stated | [6:44](https://www.youtube.com/watch?v=s3d9vW6tuT8&t=404s) |
 

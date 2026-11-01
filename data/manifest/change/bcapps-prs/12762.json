@@ -6,14 +6,39 @@
   "title": "[29.X]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side",
   "url": "https://github.com/microsoft/BCApps/pull/12762",
   "published_at": "2026-10-30T10:50:25Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-31T00:15:35.028Z"
+    },
+    "fetched": {
+      "at": "2026-11-01T00:18:56.302Z",
+      "change_class": "code",
+      "files": 27,
+      "al": 19,
+      "objects": 6,
+      "unjoined": 13
+    },
+    "extracted": {
+      "at": "2026-11-01T00:19:03.423Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004314
+    },
+    "linked": {
+      "at": "2026-11-01T00:19:03.548Z",
+      "objects": 6,
+      "unjoined": 13,
+      "commit": "8e740e5061595dd231c4a2d9d453c86c84ec76ae"
+    },
+    "published": {
+      "at": "2026-11-01T00:19:03.553Z",
+      "path": "content/changes/bcapps/12762.md"
     }
   },
   "input_hash": "6e19b01b8cd1c412fefb4137277654bf77b41a94:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12762,
@@ -29,6 +54,12 @@
     "community_contribution": false,
     "title_key": "dispute status code is not retained in some scenarios within the vendor purchase side but works well in customer sales side"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-31T02:18:37.171Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fce93cb2dfe986a238d8207a16934f7291a30f836dbbbd2413877a6463b2c7fc",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-01T00:44:15.702Z"
+  }
 }

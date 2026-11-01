@@ -243,14 +243,18 @@
     "change/al-go/2343": {
       "kind": "change",
       "key": "change/al-go/2343",
-      "hash": "e1387ebe3c2fb4cb1780f25f86481f03e4a5584a2257d4df564214a1cbc48159",
+      "hash": "1123187c94a785330beb7bdfcbe1045aa8e29b5a08ad52459d6b9b9429a4629d",
       "title": "#2343 RunTests action",
       "source": "al-go-prs",
-      "at": "2026-10-31T01:01:31.696Z",
+      "at": "2026-11-01T00:41:49.680Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
-          "quote": "AL-Go introduces a new RunTests action that separates test execution from the build pipeline"
+          "quote": "new RunTests action that runs tests with AlTool"
+        },
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "RunTests action that runs tests with AlTool (al runtests)"
         }
       ]
     },
@@ -8055,6 +8059,20 @@
         }
       ]
     },
+    "change/bcapps/12083": {
+      "kind": "change",
+      "key": "change/bcapps/12083",
+      "hash": "f05735bc46ade73b93fe3b0101780888f6babdea1cbeb248655d066c6b0e6e69",
+      "title": "#12083 Fix-Bug 652112 Public Preview: If a field such as \"Email\" is updated programmatically on the customer record, the change is not automatically transferred to the associated contact.",
+      "source": "bcapps-prs",
+      "at": "2026-11-01T00:41:49.817Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance",
+          "quote": "customer, vendor, and bank account records now properly synchronize changes"
+        }
+      ]
+    },
     "change/bcapps/12097": {
       "kind": "change",
       "key": "change/bcapps/12097",
@@ -9607,10 +9625,10 @@
     "change/bcapps/12610": {
       "kind": "change",
       "key": "change/bcapps/12610",
-      "hash": "b29546556a79f9c2a43a44ac1223c5b2c99d42dc89a897f259fd53648c0de40f",
+      "hash": "9140b0719e17fb2dd092ce8fb77b8d6663cf8fbddf1d560247be2a142f267adb",
       "title": "#12610 [Report Filename Manager] New app for configurable report output file names - Slice 651696 [vendor work]",
       "source": "bcapps-prs",
-      "at": "2026-10-31T01:01:31.103Z",
+      "at": "2026-11-01T00:41:49.995Z",
       "matches": []
     },
     "change/bcapps/12614": {
@@ -9808,6 +9826,24 @@
         }
       ]
     },
+    "change/bcapps/12762": {
+      "kind": "change",
+      "key": "change/bcapps/12762",
+      "hash": "21e4d343ded2d1df749ed8a4b681019363d9822d98603e75128537b7f107cec4",
+      "title": "#12762 [29.X]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side",
+      "source": "bcapps-prs",
+      "at": "2026-11-01T00:41:49.817Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-payables",
+          "quote": "Dispute status is now retained when editing vendor ledger entries"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-payables/make-payments",
+          "quote": "editing vendor ledger entries and purchase invoices, matching the behavior"
+        }
+      ]
+    },
     "change/bcapps/12763": {
       "kind": "change",
       "key": "change/bcapps/12763",
@@ -9870,14 +9906,14 @@
     "change/bcapps/12796": {
       "kind": "change",
       "key": "change/bcapps/12796",
-      "hash": "5aed9cac025acc37e4ce682e3522aa54ff4cff0606ea6b288fcbffe06351cae4",
+      "hash": "3a192fb2fa99630f6383b3109b13659a172567a6a4f23ff4859401079e9b1c9d",
       "title": "#12796 [29.X]-Subscription Billing: Recurring Billing (Document Per = Contract Partner) Overwrites Contract Currency with Customer Currency Without Amount Conversion.653480 initial commit",
       "source": "bcapps-prs",
-      "at": "2026-10-31T01:01:29.758Z",
+      "at": "2026-11-01T00:41:48.921Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/sales/subscription-billing",
-          "quote": "Subscription Billing recurring billing now preserves contract currency instead"
+          "quote": "Fixes recurring billing in Subscription Billing with Document Per"
         }
       ]
     },
@@ -10406,18 +10442,22 @@
     "change/bcapps/13104": {
       "kind": "change",
       "key": "change/bcapps/13104",
-      "hash": "ab19fb90cba52bfe6e84a7336c26c7eda9290aca55efdfe9d4cee7f11a0ea6e8",
+      "hash": "f78e6a4d6f1b7f6a96d64618b0e193a88421374be66b9866cdf32e2ed4a6dfdc",
       "title": "#13104 update tests and enable them",
       "source": "bcapps-prs",
-      "at": "2026-10-31T01:01:33.928Z",
+      "at": "2026-11-01T00:41:53.112Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/quality-management",
-          "quote": "Quality Management tests are enabled and test cases for result condition management"
+          "quote": "Disabled Quality Management result condition tests are re-enabled"
         },
         {
           "topic": "topic/business-central/business-functionality/quality-management/set-up-quality-management",
-          "quote": "Quality inspection result configuration is adjusted. Test coverage for condition management is enhanced"
+          "quote": "Quality Result Condition Mgmt. and the Qlty. Inspection Result table is also revised"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-quality-management",
+          "quote": "Application logic in Qlty. Result Condition Mgmt. reworked"
         }
       ]
     },
@@ -10461,14 +10501,14 @@
     "change/bcapps/13134": {
       "kind": "change",
       "key": "change/bcapps/13134",
-      "hash": "c3e60f4c20848ca0c2ac83daf0cf80aeca8b06626e9e954cf7761d766d935d81",
+      "hash": "bdaa2d74685d5e90249c8e72f5a1a1564a637bfd616d937bf4c7352490aaf205",
       "title": "#13134 [main] Bug 656172 Payment Slips Summarized by Due Date are not aggregating correlative in the French version.",
       "source": "bcapps-prs",
-      "at": "2026-10-31T01:01:34.865Z",
+      "at": "2026-11-01T00:41:56.108Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/manage-payables/apply-payments-automatically-and-reconci",
-          "quote": "Payment slips Summarized by Due Date are not aggregating"
+          "quote": "Suggest Cust. Payments and Suggest Vend. Payments reports now aggregate"
         }
       ]
     },
@@ -10503,22 +10543,14 @@
     "change/bcapps/13164": {
       "kind": "change",
       "key": "change/bcapps/13164",
-      "hash": "c17ce25771c9825d1ce7d80fe86d131df7d6054dae1f2e06a46be5f63a767953",
+      "hash": "7cdaf140fd611689268700655a09adff6d01f9896a8a45f843fca97d9961d8ae",
       "title": "#13164 Inventory and Sustainability Power BI reports missing from Role Explorer despite being searchable",
       "source": "bcapps-prs",
-      "at": "2026-10-31T01:01:36.571Z",
+      "at": "2026-11-01T00:41:47.851Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-discoverability",
-          "quote": "Reports were previously searchable but invisible in Role Explorer because"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi",
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi/administrator",
           "quote": "Sustainability and Inventory Valuation Power BI reports now appear in Role Explorer"
-        },
-        {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-apps-for-business-central",
-          "quote": "Sustainability Manager role center Power BI Reports group moved from addlast"
         }
       ]
     },
@@ -10596,6 +10628,20 @@
         {
           "topic": "topic/business-central/business-functionality/service-management/deliver-service",
           "quote": "Service orders are generated. Test coverage was expanded to verify the dimension population behavior"
+        }
+      ]
+    },
+    "change/bcapps/13203": {
+      "kind": "change",
+      "key": "change/bcapps/13203",
+      "hash": "307fe532c205de0faf2a0ab0f4827cfe3c213d425594152b52d368c050e0ee19",
+      "title": "#13203 [main] Bug 656535 Additional Reporting Currency Difference After Closing Income Statement - related to 625803",
+      "source": "bcapps-prs",
+      "at": "2026-11-01T00:41:56.108Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/closing-years-and-periods",
+          "quote": "Close Income Statement process now correctly handles additional reporting currency"
         }
       ]
     },
@@ -10684,14 +10730,14 @@
     "change/bcapps/13248": {
       "kind": "change",
       "key": "change/bcapps/13248",
-      "hash": "3abce08b53e0ab705e881dc0ad68c31ae69753fc678101f52943fb580ef3704b",
+      "hash": "f0d6e687c186dafede69abe618822fb21a1741de0bd88b42f23d4fea21f7a8b1",
       "title": "#13248 [29.X]Non-Deductible Reverse-Charge VAT Correction Is Posted to Purchase VAT Account Instead of Payment Discount Account.",
       "source": "bcapps-prs",
-      "at": "2026-10-31T01:01:34.865Z",
+      "at": "2026-11-01T00:41:56.108Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
-          "quote": "Non-Deductible Reverse-Charge VAT Correction Is Posted to Purchase VAT Account"
+          "quote": "Non-deductible reverse-charge VAT correction is fixed to post to"
         }
       ]
     },
@@ -10722,6 +10768,15 @@
           "quote": "Sales Order Agent app now exposes an Email 2 field"
         }
       ]
+    },
+    "change/bcapps/13259": {
+      "kind": "change",
+      "key": "change/bcapps/13259",
+      "hash": "af52b23f0e37857b7d0f0020f2a0a54aab552ab836fbb97850833ac8248f1b74",
+      "title": "#13259 Protect from runtime error if Item Availability looses date filter",
+      "source": "bcapps-prs",
+      "at": "2026-11-01T00:41:48.590Z",
+      "matches": []
     },
     "change/bcapps/13261": {
       "kind": "change",
@@ -10824,6 +10879,20 @@
       "at": "2026-10-28T10:50:13.468Z",
       "matches": []
     },
+    "change/bcapps/13310": {
+      "kind": "change",
+      "key": "change/bcapps/13310",
+      "hash": "0f2d4bed6bd4a5b2eeeb73f10938d31f20837689618243e2643f730c68e21d93",
+      "title": "#13310 [Master]-Reverse Charge VAT with 100% Non-Deductible VAT Posts Incorrectly in Foreign Currency Transactions.",
+      "source": "bcapps-prs",
+      "at": "2026-11-01T00:41:56.108Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
+          "quote": "reverse charge VAT with 100% non-deductible VAT in foreign currency"
+        }
+      ]
+    },
     "change/bcapps/13326": {
       "kind": "change",
       "key": "change/bcapps/13326",
@@ -10843,6 +10912,20 @@
         {
           "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing",
           "quote": "Five test-only IsHandled events in Fabric Platform Mgt are now internal"
+        }
+      ]
+    },
+    "change/bcapps/13330": {
+      "kind": "change",
+      "key": "change/bcapps/13330",
+      "hash": "3196b34f2bf81d7040eecc7f30223c55f68bda0f8271349ddd2b1da953740765",
+      "title": "#13330 Bug 656921: [master] Recurring Frequency missing from Edit in Excel",
+      "source": "bcapps-prs",
+      "at": "2026-11-01T00:41:56.108Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
+          "quote": "Recurring Frequency field is now editable in Edit in Excel"
         }
       ]
     },
@@ -10891,14 +10974,18 @@
     "change/bcapps/13358": {
       "kind": "change",
       "key": "change/bcapps/13358",
-      "hash": "3f6d90792ab24db666ed0203140348c39a3385ab46c10a2fceb29a07b1072cb4",
+      "hash": "60632f8cc916616482ce0ee7bb8b563fd40f7f99ef8026ff84472c494046a8a8",
       "title": "#13358 [main] bug 656582 Add Maintenance Code field on purchase order subpage and purchase invoice subpage",
       "source": "bcapps-prs",
-      "at": "2026-10-31T01:01:36.744Z",
+      "at": "2026-11-01T00:41:49.817Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/purchasing",
-          "quote": "Maintenance Code field has been added to purchase order and purchase invoice subpages"
+          "quote": "Maintenance Code field added to the Purchase Order Subform"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-payables/make-payments",
+          "quote": "Maintenance Code field added to the Purch. Invoice Subform page"
         }
       ]
     },
@@ -10933,31 +11020,27 @@
     "change/bcapps/13415": {
       "kind": "change",
       "key": "change/bcapps/13415",
-      "hash": "756b651ca14f960adce58f62288035c5a43dcdbf8fafaadc29d421ec5deb4ca7",
+      "hash": "f6e30aa5470b17ed4411036c749d23da343f6d1bd7ff473977da7bcac85a4c2e",
       "title": "#13415 [29.X]-Reverse Charge VAT with 100% Non-Deductible VAT Posts Incorrectly in Foreign Currency Transactions",
       "source": "bcapps-prs",
-      "at": "2026-10-31T01:01:34.865Z",
+      "at": "2026-11-01T00:41:56.108Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
-          "quote": "Reverse Charge VAT with 100% Non-Deductible VAT Posts Incorrectly"
+          "quote": "Reverse Charge VAT with 100% non-deductible VAT in foreign currency"
         }
       ]
     },
     "change/bcapps/13431": {
       "kind": "change",
       "key": "change/bcapps/13431",
-      "hash": "d320f8aaf8a55c421f78d85c2dce128f25ed06e0d438a731c0a9657c1a8ba58e",
+      "hash": "209e5dea141ed62444788623551adb0252d87c3bc54e661e0f9f79829a60ac55",
       "title": "#13431 Extend sales document edit permissions with subscrition billing edit",
       "source": "bcapps-prs",
-      "at": "2026-10-31T01:01:29.758Z",
+      "at": "2026-11-01T00:41:48.921Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
-          "quote": "Sales Order Agent to add items with subscription billing to sales"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/sales/subscription-billing",
           "quote": "enables the Sales Order Agent to add items with subscription billing"
         }
       ]
@@ -10979,18 +11062,22 @@
     "change/bcapps/13458": {
       "kind": "change",
       "key": "change/bcapps/13458",
-      "hash": "b2fc1b8d8fa7ff0c7c2047c06e06b1d11020463d19ab480fd11f10461abcedf1",
+      "hash": "b603c04c36615c571e7fc2f289afa2d2cacadcfd66f149f9268b717fc2cc5d19",
       "title": "#13458 [Master]-Applying entries across posting groups (Allow Multiple Posting Groups) posts the G/L entries that move the amount between receivables accounts with ACY = 0",
       "source": "bcapps-prs",
-      "at": "2026-10-31T01:01:35.946Z",
+      "at": "2026-11-01T00:41:53.499Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
-          "quote": "General ledger entries with ACY=0 are now correctly posted during multiple posting group applications"
+          "topic": "topic/business-central/business-functionality/finance/manage-receivables/apply-payments-automatically-and-reconci",
+          "quote": "G/L entries that move the amount between receivables accounts were posted with an additional-currency amount"
         },
         {
           "topic": "topic/business-central/business-functionality/finance/working-with-currencies",
-          "quote": "ensuring entries with zero amounts in additional currency are properly handled"
+          "quote": "posting logic now handles ACY for these entries when applying across posting groups"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/working-with-dimensions",
+          "quote": "When entries are applied across different posting groups Allow Multiple Posting Groups"
         }
       ]
     },
@@ -11657,14 +11744,14 @@
     "change/bcapps/9045": {
       "kind": "change",
       "key": "change/bcapps/9045",
-      "hash": "1a0dfc129fdb80e2132e2ac0ced69954581a3760f4b7df5d1d241523a78aaf3b",
+      "hash": "0208906a73fb24c415c2d34ba25a2c386e5036284f337c29e4939b2572efc35c",
       "title": "#9045 Config. Packages with Native AL XML Data Types",
       "source": "bcapps-prs",
-      "at": "2026-10-31T01:01:31.696Z",
+      "at": "2026-11-01T00:41:49.680Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/data-types",
-          "quote": "Codeunit Config. Excel Exchange is refactored to use native AL XML Data Types"
+          "quote": "uses the native AL XML data types"
         }
       ]
     },
@@ -15731,6 +15818,20 @@
         }
       ]
     },
+    "change/bcapps/9839": {
+      "kind": "change",
+      "key": "change/bcapps/9839",
+      "hash": "54fc2e4b3f32939f1c0b4ac4e456b9825d7bcdefbc525fe1a00b6efee6a504aa",
+      "title": "#9839 [main] feature 623913 - EET 2.0",
+      "source": "bcapps-prs",
+      "at": "2026-11-01T00:41:53.499Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/czech-republic/core-finance",
+          "quote": "Implements EET 2.0 message format and security model for Czech electronic sales registration"
+        }
+      ]
+    },
     "change/bcapps/9841": {
       "kind": "change",
       "key": "change/bcapps/9841",
@@ -19423,14 +19524,14 @@
     "post/aardvarklabs-blog/4177": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/4177",
-      "hash": "27fe2cb2767b29081e43f329b9d5395df7cdb7f41c0299b4ea1de500196661c9",
+      "hash": "cfb115c69324873fa90eea481733a7fa3409be42ced418b4afae65f9d3533477",
       "title": "Building the AL Exploration Tool I Always Wanted",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-31T01:01:31.696Z",
+      "at": "2026-11-01T00:41:49.680Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
-          "quote": "A developer shares how they built a VS Code extension for exploring AL codebases visually"
+          "quote": "code analysis; vs code extension; visual diagrams; developer tools"
         }
       ]
     },
@@ -37881,6 +37982,28 @@
       "at": "2026-10-30T08:04:00.814Z",
       "matches": []
     },
+    "post/yzhums-com/77038": {
+      "kind": "post",
+      "key": "post/yzhums-com/77038",
+      "hash": "97016bfa412212670d25056d13e2e6e391b69467a6c91e21a870ee491c535afa",
+      "title": "Business Central 2026 release wave 2 (BC29): Custom Report Layouts are now deprecated and have been removed",
+      "source": "yzhums-com",
+      "at": "2026-11-01T00:41:47.851Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-2-v29",
+          "quote": "Custom Report Layouts are now deprecated and have been removed"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/deprecating-code",
+          "quote": "Organizations must migrate all custom layouts to the new Report Layouts feature"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
+          "quote": "Users should migrate existing custom layouts to the new user-defined Report Layouts feature"
+        }
+      ]
+    },
     "video/_1LhwG2ZgFw": {
       "kind": "video",
       "key": "video/_1LhwG2ZgFw",
@@ -47740,6 +47863,20 @@
       "source": "yt-microsoft",
       "at": "2026-10-07T23:42:00.304Z",
       "matches": []
+    },
+    "video/wBx8TkIHJ04": {
+      "kind": "video",
+      "key": "video/wBx8TkIHJ04",
+      "hash": "bffa45f751797417e88ac94bd98fe623e03b54450131979bbd306e4a1dcadff5",
+      "title": "Introducing: Copilot Chat in Business Central (2026)",
+      "source": "yt-microsoft",
+      "at": "2026-11-01T00:41:48.590Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
+          "quote": "Copilot chat; business data queries; multi-turn conversation; permissions; data security"
+        }
+      ]
     },
     "video/Wc8WlLZUCJc": {
       "kind": "video",

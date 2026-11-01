@@ -6,7 +6,7 @@
   "title": "[E-Document Connector][Sharepoint] Downloading file fails either with response 404 or response 401",
   "url": "https://github.com/microsoft/BCApps/pull/13221",
   "published_at": "2026-10-30T12:54:02Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-31T00:15:35.028Z"
@@ -32,5 +32,7 @@
     "title_key": "e document connector sharepoint downloading file fails either with response 404 or response 401"
   },
   "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-31T02:17:59.625Z"
+  "retry_after": null,
+  "skip": "non-code",
+  "skipped_at": "2026-11-01T00:18:56.098Z"
 }

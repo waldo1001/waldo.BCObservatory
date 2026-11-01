@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13310,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13310",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-28T15:29:04Z",
+  "merge_commit_sha": "ad8937c52b890365c37e5f391ee95d42991b206f",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-Reverse Charge VAT with 100% Non-Deductible VAT Posts Incorrectly in Foreign Currency Transactions.",
+  "body_hash": "2519de87a3dc714fd52f0db32d83031b8c6c4bfafcec0a083e8b7f530e4a7e76",
+  "fixes_issues": [],
+  "work_items": [
+    657158
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Calculation/NonDedVATImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/NonDeductibleVATJournal.Codeunit.al",
+      "status": "modified",
+      "additions": 166,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 190,
+    "deletions": 6,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/VAT/Calculation/NonDedVATImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6201",
+        "type": "codeunit",
+        "id": 6201,
+        "name": "Non-Ded. VAT Impl.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6201"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/13330",
+  "input_hash": "254f415514b466fbf1b2e82374c9161b5996ec3bba8b0ee7296b77ddb17183ff",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-01T00:44:15.702Z",
+  "issues": [
+    "The page change is only in the W1, APAC, ES, IT and RU layers. CH and CZ got test changes only, so the key point listing all layers was wrong."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030087,
+    "changes_in_call": 6
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:54.616Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-01T00:45:11.847Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -87,6 +87,7 @@ links:
     - change/bcapps/10376
     - change/bcapps/10412
     - change/bcapps/10819
+    - change/bcapps/13458
     - change/bcapps/8953
     - change/bcapps/9673
 learn_toc_path:
@@ -160,6 +161,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10376 [Main] Fix unbalanced G/L when a Credit Memo is applied to a rejected/redraw…](../../../../../changes/bcapps/10376.md) (code change): "Credit memos applied to rejected bills now post the Rejected Bills Account"
 - [#10412 Fixes in Excel reports for Aged Accounts.](../../../../../changes/bcapps/10412.md) (code change): "Aged Accounts Excel reports now properly handle customers and vendors"
 - [#10819 [Pmt. Recon. Journal] Re-fire OnAfterGetLedgEntryInfo on proposal fast path](../../../../../changes/bcapps/10819.md) (code change): "OnAfterGetLedgEntryInfo event is re-fired during payment proposal creation"
+- [#13458 [Master]-Applying entries across posting groups (Allow Multiple Posting Groups) posts the G/L entries that move the amount between receivables accounts with ACY = 0](../../../../../changes/bcapps/13458.md) (code change): "G/L entries that move the amount between receivables accounts were posted with an additional-currency amount"
 - [#8953 [Master]-Aged account receivable EXCEL and Aged account payable EXCEL ignores "Period Count" specified by user.](../../../../../changes/bcapps/8953.md) (code change): "Aged Accounts Receivable and Payable Excel reports now correctly respect the Period Count parameter"
 - [#9673 Bug 643235: Payment Reconciliation Journal does not round imported bank fee amounts](../../../../../changes/bcapps/9673.md) (code change): "Payment reconciliation journal posting now rounds imported bank fee amounts"
 - [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../../../../../posts/thedynamicsexplorer-com/10232.md) (community post): "Cash receipts and reconciling them simultaneously when importing bank statements"

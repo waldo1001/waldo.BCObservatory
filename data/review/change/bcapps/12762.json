@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12762",
+  "input_hash": "052bd6da7cf6017c7a616391c23f282a5528e521ed262acb73afd847f4fa3f6a",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-01T00:44:15.702Z",
+  "issues": [
+    "The description is only a work item link. The summary rests on the title and the changed files (Vend. Entry-Edit, Purch. Inv. Header - Edit, Vendor Ledger Entries, tests), and they support it."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030087,
+    "changes_in_call": 6
+  }
+}

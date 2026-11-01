@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T22:43:27.853Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-01T00:41:18.124Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -167,7 +167,7 @@ features:
     verified: false
     status_source: video
   - name: Interim approvers
-    status: announced
+    status: preview
     t: 405
     verified: false
     status_source: roadmap
@@ -264,7 +264,7 @@ The second half covers features described as coming in the November release (29.
 | AI-driven approval policies | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [0:53](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=53s) |  |
 | Enhanced approval history and audit trail | status not stated, demoed | [3:24](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=204s) |  |
 | Employee manual compliance checks | status not stated | [2:47](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=167s) |  |
-| Interim approvers | announced (roadmap [Add an interim approver when you submit an expense report](../features/573260.md)) | [6:45](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=405s) |  |
+| Interim approvers | preview (roadmap [Add an interim approver when you submit an expense report](../features/573260.md)) | [6:45](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=405s) |  |
 | Better approval messaging | announced | [7:48](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=468s) | "some other approvals again uh coming from uh November 29.1. Better messaging during approval process." ([7:48](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=468s)) |
 | Approval limits | announced | [8:12](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=492s) | "from uh November uh minor, you will be able to set up approver with a uh with a maximum approval amount, for example, $2,000" ([8:22](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=502s)) |
 | Ad hoc alternate approvers | status not stated | [9:03](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=543s) |  |

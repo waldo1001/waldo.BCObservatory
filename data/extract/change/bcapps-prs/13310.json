@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/13310",
+  "number": 13310,
+  "title": "[Master]-Reverse Charge VAT with 100% Non-Deductible VAT Posts Incorrectly in Foreign Currency Transactions.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed incorrect posting of 100% non-deductible VAT with reverse charge in foreign currency transactions where rounding was applied despite the VAT posting condition not being met.",
+  "key_points": [
+    "Corrected VAT posting logic for reverse charge transactions with 100% non-deductible VAT",
+    "Fixed rounding behavior in foreign currency scenarios",
+    "Added comprehensive test coverage for non-deductible VAT journal scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "for reverse charge vat the condition of vat posting in the transaction is not executed but the rounding is done.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003125,
+    "changes_in_call": 1
+  }
+}

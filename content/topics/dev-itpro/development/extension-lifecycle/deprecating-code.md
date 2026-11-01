@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:15.797Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-11-01T00:45:11.847Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -53,6 +53,7 @@ links:
   posts:
     - post/waldo-be/317951
     - post/yzhums-com/65999
+    - post/yzhums-com/77038
   guidelines: []
   changes:
     - change/bcapps/10341
@@ -70,7 +71,7 @@ coverage:
   learn: 3
   code: 0
   video: 0
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 9083582aa30905f2ff5abe6e301e6444474a2b6a405b4ba6c11f646d27f97ed1
@@ -115,5 +116,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9635 Obsolete MLLM Payables Agent rollout scaffold](../../../../changes/bcapps/9635.md) (code change): "Obsoleted the Use MLLM Processing field and PA MLLM Setup page as the feature is fully rolled out"
 - [Obsoleted and “no longer invoked” events in v26 Business Central](../../../../posts/waldo-be/317951.md) (community post): "apps to compile across versions but potentially failing at runtime"
 - [Dynamics 365 Business Central: Remove obsolete permissions from all permission sets](../../../../posts/yzhums-com/65999.md) (community post): "When objects are marked as ObsoleteState = Removed during version updates, associated permissions must be cleaned up"
+- [Business Central 2026 release wave 2 (BC29): Custom Report Layouts are now deprecated and have been removed](../../../../posts/yzhums-com/77038.md) (community post): "Organizations must migrate all custom layouts to the new Report Layouts feature"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

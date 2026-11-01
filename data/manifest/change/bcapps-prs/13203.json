@@ -6,14 +6,39 @@
   "title": "[main] Bug 656535 Additional Reporting Currency Difference After Closing Income Statement - related to 625803",
   "url": "https://github.com/microsoft/BCApps/pull/13203",
   "published_at": "2026-10-28T13:26:33Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-29T00:16:37.959Z"
+    },
+    "fetched": {
+      "at": "2026-11-01T00:19:37.082Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 5,
+      "objects": 3,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-11-01T00:19:43.075Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004033
+    },
+    "linked": {
+      "at": "2026-11-01T00:19:43.204Z",
+      "objects": 3,
+      "unjoined": 2,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-01T00:19:43.223Z",
+      "path": "content/changes/bcapps/13203.md"
     }
   },
   "input_hash": "b4538e6a4c227b12e7814fd83787b2e2f745e356:c1",
-  "attempts": 2,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13203,
@@ -29,6 +54,12 @@
     "community_contribution": false,
     "title_key": "bug 656535 additional reporting currency difference after closing income statement related to 625803"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-31T04:22:45.095Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1ffa0149294191a81c1557c2316488f8fa6639212792c53b746785d393be9c60",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-01T00:43:59.054Z"
+  }
 }

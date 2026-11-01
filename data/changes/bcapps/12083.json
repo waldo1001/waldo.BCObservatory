@@ -1,0 +1,721 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12083,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12083",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-29T15:03:10Z",
+  "merge_commit_sha": "fb8544e7fcc622a2ce8e7c26ccb7454c0c918461",
+  "author": "v-praghav",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Fix-Bug 652112 Public Preview: If a field such as \"Email\" is updated programmatically on the customer record, the change is not automatically transferred to the associated contact.",
+  "body_hash": "8187fba1562d22f9dbad7c334ee9b4a72793f98d2785db59d2966a26d813f555",
+  "fixes_issues": [],
+  "work_items": [
+    652112
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/test/src/SAFTTestHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 24,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 30,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 25,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 27,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 24,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/Misc/UTCustomerTable.Codeunit.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/SINGLESERVER/UTContactTable.Codeunit.al",
+      "status": "modified",
+      "additions": 57,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 24,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 24,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Misc/UTCustomerTable.Codeunit.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 24,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 24,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 24,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 24,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 24,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 24,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 24,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 24,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 35,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Vendor/Vendor.Table.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 23,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Customer/Customer.Table.al",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 73,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/UTCustomerTable.Codeunit.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SINGLESERVER/UTContactTable.Codeunit.al",
+      "status": "modified",
+      "additions": 57,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/ERMVATSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 16,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 42,
+    "additions": 1370,
+    "deletions": 916,
+    "al": 35
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+        "status": "modified",
+        "key": "table/270",
+        "type": "table",
+        "id": 270,
+        "name": "Bank Account",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/270"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+        "status": "modified",
+        "key": "table/270",
+        "type": "table",
+        "id": 270,
+        "name": "Bank Account",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/270"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+        "status": "modified",
+        "key": "table/270",
+        "type": "table",
+        "id": 270,
+        "name": "Bank Account",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/270"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+        "status": "modified",
+        "key": "table/270",
+        "type": "table",
+        "id": 270,
+        "name": "Bank Account",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/270"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+        "status": "modified",
+        "key": "table/270",
+        "type": "table",
+        "id": 270,
+        "name": "Bank Account",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/270"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+        "status": "modified",
+        "key": "table/270",
+        "type": "table",
+        "id": 270,
+        "name": "Bank Account",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/270"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+        "status": "modified",
+        "key": "table/270",
+        "type": "table",
+        "id": 270,
+        "name": "Bank Account",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/270"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+        "status": "modified",
+        "key": "table/270",
+        "type": "table",
+        "id": 270,
+        "name": "Bank Account",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/270"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/18"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+        "status": "modified",
+        "key": "table/270",
+        "type": "table",
+        "id": 270,
+        "name": "Bank Account",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/270"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Vendor/Vendor.Table.al",
+        "status": "modified",
+        "key": "table/23",
+        "type": "table",
+        "id": 23,
+        "name": "Vendor",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/23"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Customer/Customer.Table.al",
+        "status": "modified",
+        "key": "table/18",
+        "type": "table",
+        "id": 18,
+        "name": "Customer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/18"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/FI/BaseApp/Bank/BankAccount/BankAccount.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "purchasing",
+    "sales",
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13259",
+  "input_hash": "a3df191d044b0b111c32cc1719dad9bb1ee4ad662e92e7f80805d224d22d38f3",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-01T00:44:15.702Z",
+  "issues": [
+    "The page matches the description: a guard on the Date Filter before GetRangeMax on the SOA Multi Items Availability page."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030087,
+    "changes_in_call": 6
+  }
+}

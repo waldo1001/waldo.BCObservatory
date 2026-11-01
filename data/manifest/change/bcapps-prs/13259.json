@@ -6,14 +6,39 @@
   "title": "Protect from runtime error if Item Availability looses date filter",
   "url": "https://github.com/microsoft/BCApps/pull/13259",
   "published_at": "2026-10-28T14:40:03Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-29T00:16:37.959Z"
+    },
+    "fetched": {
+      "at": "2026-11-01T00:19:17.364Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-01T00:19:22.580Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003446
+    },
+    "linked": {
+      "at": "2026-11-01T00:19:22.685Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-01T00:19:22.689Z",
+      "path": "content/changes/bcapps/13259.md"
     }
   },
   "input_hash": "6b536fa9c21a1803cae850335da046c9cc284258:c1",
-  "attempts": 2,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13259,
@@ -30,6 +55,12 @@
     "community_contribution": false,
     "title_key": "protect from runtime error if item availability looses date filter"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-10-31T04:22:08.275Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "df80e019478427866be1a0776a7dd202a833fe27781a55850c5ade9d71708090",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-01T00:44:15.702Z"
+  }
 }

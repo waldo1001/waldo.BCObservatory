@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:09.736Z"
   flags: []
 generated:
-  at: "2026-10-28T08:42:58.321Z"
+  at: "2026-11-01T00:45:11.847Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,6 +49,7 @@ links:
   changes:
     - change/al-go/2304
     - change/al-go/2327
+    - change/al-go/2343
     - change/al-go/2367
     - change/al-go/2382
     - change/al-go/2407
@@ -106,6 +107,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#2304 Support framework-dependent (flat) AL Language extension layout](../../../../changes/al-go/2304.md) (code change): "Get-ALTool probes nested bin/win32 or bin/linux paths first"
 - [#2327 Add doNotPerformUpgrade setting and enhance upgrade warning messages](../../../../changes/al-go/2327.md) (code change): "AL-Go pipeline now supports skipping the upgrade phase"
+- [#2343 RunTests action](../../../../changes/al-go/2343.md) (code change): "RunTests action that runs tests with AlTool (al runtests)"
 - [#2367 Enhance NuGet feed selection to support pre-release packages](../../../../changes/al-go/2367.md) (code change): "AL-Go now supports pre-release NuGet packages by adding"
 - [#2382 Fix dependency artifact pattern for branch names with glob-special characters](../../../../changes/al-go/2382.md) (code change): "Fixed a bug where dependency artifact downloads failed silently"
 - [#2407 Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency](../../../../changes/al-go/2407.md) (code change): "AL-Go for GitHub now supports GitHub Enterprise Cloud with dynamic host resolution"

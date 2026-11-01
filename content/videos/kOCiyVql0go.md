@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:44:21.436Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-01T00:41:18.124Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -207,49 +207,49 @@ cautions:
     t: 333
 features:
   - name: Business Central Fabric mirroring
-    status: announced
+    status: preview
     t: 7
     verified: true
     status_source: roadmap
     roadmap_ids:
       - "574126"
   - name: Microsoft Fabric integration app
-    status: announced
+    status: preview
     t: 132
     verified: true
     status_source: roadmap
     roadmap_ids:
       - "574126"
   - name: Mirror database in OneLake
-    status: announced
+    status: preview
     t: 265
     verified: true
     status_source: roadmap
     roadmap_ids:
       - "574126"
   - name: Multi-company Power BI apps
-    status: announced
+    status: preview
     t: 315
     verified: true
     status_source: roadmap
     roadmap_ids:
       - "574126"
   - name: Synchronization overview and details logs
-    status: announced
+    status: preview
     t: 427
     verified: true
     status_source: roadmap
     roadmap_ids:
       - "574126"
   - name: Fabric integration APIs
-    status: announced
+    status: preview
     t: 499
     verified: true
     status_source: roadmap
     roadmap_ids:
       - "574126"
   - name: Fabric integration permission sets
-    status: announced
+    status: preview
     t: 539
     verified: true
     status_source: roadmap
@@ -317,13 +317,13 @@ It also covers Power BI apps converted to run on the Fabric backend, with single
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Business Central Fabric mirroring | announced (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [0:07](https://www.youtube.com/watch?v=kOCiyVql0go&t=7s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
-| Microsoft Fabric integration app | announced (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [2:12](https://www.youtube.com/watch?v=kOCiyVql0go&t=132s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
-| Mirror database in OneLake | announced (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [4:25](https://www.youtube.com/watch?v=kOCiyVql0go&t=265s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
-| Multi-company Power BI apps | announced (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [5:15](https://www.youtube.com/watch?v=kOCiyVql0go&t=315s) | "In two versions, they will be available uh soon either as code samples or on AppSource" ([5:33](https://www.youtube.com/watch?v=kOCiyVql0go&t=333s)) |
-| Synchronization overview and details logs | announced (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [7:07](https://www.youtube.com/watch?v=kOCiyVql0go&t=427s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
-| Fabric integration APIs | announced (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [8:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=499s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
-| Fabric integration permission sets | announced (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)) | [8:59](https://www.youtube.com/watch?v=kOCiyVql0go&t=539s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
+| Business Central Fabric mirroring | preview (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [0:07](https://www.youtube.com/watch?v=kOCiyVql0go&t=7s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
+| Microsoft Fabric integration app | preview (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [2:12](https://www.youtube.com/watch?v=kOCiyVql0go&t=132s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
+| Mirror database in OneLake | preview (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [4:25](https://www.youtube.com/watch?v=kOCiyVql0go&t=265s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
+| Multi-company Power BI apps | preview (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [5:15](https://www.youtube.com/watch?v=kOCiyVql0go&t=315s) | "In two versions, they will be available uh soon either as code samples or on AppSource" ([5:33](https://www.youtube.com/watch?v=kOCiyVql0go&t=333s)) |
+| Synchronization overview and details logs | preview (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [7:07](https://www.youtube.com/watch?v=kOCiyVql0go&t=427s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
+| Fabric integration APIs | preview (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [8:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=499s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
+| Fabric integration permission sets | preview (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)) | [8:59](https://www.youtube.com/watch?v=kOCiyVql0go&t=539s) | "this is coming in public preview in version 29.x, likely 9 29.1" ([0:19](https://www.youtube.com/watch?v=kOCiyVql0go&t=19s)) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

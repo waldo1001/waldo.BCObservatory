@@ -2,7 +2,7 @@
 id: source/yt-microsoft
 type: source
 title: Microsoft Dynamics 365 Business Central (YouTube)
-summary: "Microsoft Dynamics 365 Business Central (YouTube): 524 videos in the knowledge base, 2023-10-23 to 2026-10-08, mostly about copilot, finance, development."
+summary: "Microsoft Dynamics 365 Business Central (YouTube): 525 videos in the knowledge base, 2023-10-23 to 2026-10-29, mostly about copilot, finance, development."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-30T07:47:07.587Z"
+  at: "2026-11-01T00:17:21.384Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 6f775077f929a5a7f3f430cd8df22fd82bdee00960c29af4b01d5168b70a3ce9
+  input_hash: 9ac4704aaf3fd4174ba3aeb9c81a81de415d1e0dea116ac158f5ed930120fb0f
 evidence:
   - kind: video
     url: https://www.youtube.com/@MicrosoftDynamics365BC
@@ -639,6 +639,7 @@ links:
     - video/qs1cg-GoDeQ
     - video/2N2NhNH7dsk
     - video/q3xnjJD32kk
+    - video/wBx8TkIHJ04
   posts: []
   guidelines: []
 source_id: yt-microsoft
@@ -647,11 +648,11 @@ url: https://www.youtube.com/@MicrosoftDynamics365BC
 author: null
 mvp: false
 full_text: true
-item_count: 524
+item_count: 525
 footprint:
   systems:
     - id: copilot
-      weight: 92
+      weight: 93
     - id: finance
       weight: 68
     - id: development
@@ -668,7 +669,7 @@ footprint:
     - id: telemetry
       weight: 28
     - id: permissions
-      weight: 24
+      weight: 25
     - id: e-documents
       weight: 22
     - id: al-go
@@ -721,21 +722,21 @@ footprint:
       weight: 3
     - id: feature/573362
       weight: 3
+    - id: feature/578065
+      weight: 3
     - id: feature/573256
       weight: 2
     - id: feature/573257
       weight: 2
     - id: feature/573259
       weight: 2
-    - id: feature/573260
-      weight: 2
 first_item: "2023-10-23"
-last_item: "2026-10-08"
+last_item: "2026-10-29"
 ---
 
 # Microsoft Dynamics 365 Business Central (YouTube)
 
-> Microsoft Dynamics 365 Business Central (YouTube): 524 videos in the knowledge base, 2023-10-23 to 2026-10-08, mostly about copilot, finance, development.
+> Microsoft Dynamics 365 Business Central (YouTube): 525 videos in the knowledge base, 2023-10-23 to 2026-10-29, mostly about copilot, finance, development.
 
 [https://www.youtube.com/@MicrosoftDynamics365BC](https://www.youtube.com/@MicrosoftDynamics365BC) · channel · tier official · full text opted in
 
@@ -743,9 +744,9 @@ last_item: "2026-10-08"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| copilot (92) | copilot (30) | table Customer (6) |
+| copilot (93) | copilot (30) | table Customer (6) |
 | finance (68) | telemetry (28) | other app.json (5) |
-| development (62) | permissions (24) | page customer card (5) |
+| development (62) | permissions (25) | page customer card (5) |
 | reporting (51) | e-documents (22) | page general ledger setup (5) |
 | integration (48) | al-go (20) | page General Ledger Setup (5) |
 | platform (37) | expense agent (19) | page Sales Orders (5) |
@@ -772,7 +773,7 @@ Items per quarter, oldest first:
 - 2026-Q1: **************** 16
 - 2026-Q2: **************************************** 53
 - 2026-Q3: ******************** 20
-- 2026-Q4: *************************************** 39
+- 2026-Q4: **************************************** 40
 
 ## Roadmap features it demonstrates
 
@@ -782,22 +783,23 @@ Items per quarter, oldest first:
 - [Control the lifecycle of all report layouts](../features/573320.md): Reporting and data analysis, generally available, GA 2026-10, 3 videos
 - [Enable Microsoft Copilot chat experience](../features/573362.md): Copilot and agents, generally available, GA 2026-10, 3 videos
 - [Expense Agent mobile app](../features/573265.md): generally available, GA 2026-10, 3 videos
+- [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md): Copilot and agents, generally available, GA 2026-07, 3 videos
 - [Actions on reports and pages can now inherit tooltips](../features/573313.md): Development, generally available, GA 2026-10, 2 videos
-- [Add an interim approver when you submit an expense report](../features/573260.md): Expense Agent, announced, GA 2026-11, 2 videos
+- [Add an interim approver when you submit an expense report](../features/573260.md): Expense Agent, in preview, GA 2026-11, 2 videos
 - [Audit AL app accessibility and debugging boundaries](../features/573336.md): Development, generally available, GA 2026-10, 2 videos
 - [Automate report outputs](../features/573318.md): Reporting and data analysis, generally available, GA 2026-10, 2 videos
 - [Build extensible and data-driven AL test suites](../features/573333.md): Development, generally available, GA 2026-10, 2 videos
 - [Calculate withholding tax automatically in expense reports](../features/573304.md): Expense Agent, in preview, GA 2027-04, 2 videos
 - [Carry subcontracting instructions into purchase orders](../features/573345.md): Supply Chain Management, generally available, GA 2026-10, 2 videos
-- [Create expense reports per trip automatically](../features/573257.md): Expense Agent, announced, GA 2026-11, 2 videos
+- [Create expense reports per trip automatically](../features/573257.md): Expense Agent, in preview, GA 2026-11, 2 videos
 - [Create expenses from credit card feeds](../features/573256.md): Expense Agent, announced, GA 2026-12, 2 videos
 - [Debug recorded Business Central failures with an AI agent](../features/573361.md): Development, generally available, GA 2026-10, 2 videos
 - [Developers can define indexes that span fields from a base table and its table extensions](../features/573315.md): Development, generally available, GA 2026-10, 2 videos
 - [Enable electronic invoicing in France](../features/576832.md): Country and regional, generally available, GA 2026-08, 2 videos
+- [Envision and design AI agents in Business Central](../features/578068.md): Copilot and agents, in preview, GA 2026-10, 2 videos
 - [Profile slow Business Central sessions with AI agents](../features/573335.md): Development, generally available, GA 2026-10, 2 videos
 - [Review content generated by agents directly on pages](../features/573366.md): Copilot and agents, generally available, GA 2026-10, 2 videos
 - [Run data queries with MCP Server](../features/573312.md): Copilot and agents, generally available, GA 2026-10, 2 videos
-- [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md): Copilot and agents, generally available, GA 2026-07, 2 videos
 - [Unlock more Business Central data with MCP server enhancements](../features/576789.md): Copilot and agents, generally available, GA 2026-06, 2 videos
 - [Use AL language intelligence from AI agents and other editors](../features/573338.md): Development, generally available, GA 2026-10, 2 videos
 - [Use assigned projects only in the web app](../features/573259.md): Expense Agent, in preview, GA 2026-12, 2 videos
@@ -816,12 +818,11 @@ Items per quarter, oldest first:
 - [Check records for uncommitted changes](../features/573360.md): Development, generally available, GA 2026-10, 1 video
 - [Comply with Australian Payment Times Reporting bill](../features/576802.md): Country and regional, generally available, GA 2026-06, 1 video
 - [Control sales document creation for Shopify orders and returns](../features/573340.md): Ecommerce, generally available, GA 2026-10, 1 video
-- [Data mirroring to Microsoft Fabric](../features/574126.md): announced, GA 2027-04, 1 video
+- [Data mirroring to Microsoft Fabric](../features/574126.md): in preview, GA 2027-04, 1 video
 - [Design document report themes with the updated Word add-in](../features/573330.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Design document reports with the updated Word add-in](../features/573328.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Design header/footer layouts for document reports with the updated Word add-in](../features/573331.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Discover objects in connected Business Central environments](../features/573339.md): Development, generally available, GA 2026-10, 1 video
-- [Envision and design AI agents in Business Central](../features/578068.md): Copilot and agents, in preview, GA 2026-10, 1 video
 - [Evolve AL interfaces with default implementations](../features/573352.md): Development, generally available, GA 2026-10, 1 video
 - [Exchange EDI documents](../features/573305.md): E-Documents, in preview, GA 2027-04, 1 video
 - [Faster data loading with improved data model for table extensions](../features/573332.md): Service and platform, generally available, GA 2026-10, 1 video
@@ -862,6 +863,7 @@ Items per quarter, oldest first:
 
 ## Most recent
 
+- [Introducing: Copilot Chat in Business Central (2026)](../videos/wBx8TkIHJ04.md) (2026-10-29)
 - [What's new: MCP Server (2026 release wave 2)](../videos/q3xnjJD32kk.md) (2026-10-08)
 - [What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)](../videos/2N2NhNH7dsk.md) (2026-10-01)
 - [What's new: MCP Server (2026 release wave 2)](../videos/qs1cg-GoDeQ.md) (2026-10-01)
@@ -881,6 +883,5 @@ Items per quarter, oldest first:
 - [What's new in Expense Agent: Overview (2026 release wave 2)](../videos/tj1vvsmAMVs.md) (2026-10-01)
 - [What's new in Sustainability (2026 release wave 2)](../videos/t_UXxbvgnHY.md) (2026-10-01)
 - [What's new in Expense Agent: Use Travel Request (2026 release wave 2)](../videos/s3d9vW6tuT8.md) (2026-10-01)
-- [What's new: Enhanced Financial Reporting (2026 release wave 2)](../videos/qj0VHB2Pmvc.md) (2026-10-01)
 
 Source: videos of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

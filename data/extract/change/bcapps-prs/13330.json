@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13330",
+  "number": 13330,
+  "title": "Bug 656921: [master] Recurring Frequency missing from Edit in Excel",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The Recurring Frequency field is now editable in Edit in Excel for recurring general journals by restoring a direct column binding while maintaining localized display in the user interface.",
+  "key_points": [
+    "Recurring Frequency was missing from Edit in Excel because the localized display uses a text variable that cannot bind to the field",
+    "One editable Recurring Frequency column is restored for Edit in Excel",
+    "Localized display and Open in Excel values stay the same, with no duplicate columns",
+    "Recurring General Journal page changed in W1, APAC, ES, IT and RU; tests updated in more layers",
+    "Validation showed OData updates were saved in the journal"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Restore one editable Recurring Frequency column in Edit in Excel while preserving localized display",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003815,
+    "changes_in_call": 1
+  }
+}

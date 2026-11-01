@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13203",
+  "number": 13203,
+  "title": "[main] Bug 656535 Additional Reporting Currency Difference After Closing Income Statement - related to 625803",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Close Income Statement now passes the closed additional reporting currency (ACY) amount through a new manually bound codeunit, not through Source Currency Amount. Before this, posting recalculated ACY from LCY at the closing-date rate, which left an ACY difference after closing.",
+  "key_points": [
+    "Before the fix, the ACY amount was put in Source Currency Amount and ignored because the source currency code no longer matched the ACY",
+    "A new manually bound codeunit subscribes to OnGLCalcAddCurrencyPostingNone and supplies the ACY amount",
+    "Source Currency Amount now holds only real source currency values, and the 625803 behaviour stays the same",
+    "The retained-earnings balance line also passes its ACY total through the handler",
+    "New tests were added in the W1, BE, CZ, DE, ES and IT layers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "The ACY amount is supplied on its own.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004033,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "change/bcapps-prs/9839",
+  "number": 9839,
+  "title": "[main] feature 623913 - EET 2.0",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "development",
+    "platform",
+    "administration",
+    "integration"
+  ],
+  "summary": "Implements EET 2.0 message format and security model for Czech electronic sales registration with new taxpayer identity and authorization fields, corrected production endpoint, response security verification, and updated UI documentation.",
+  "key_points": [
+    "Adds Taxpayer ID and Authorizing Taxpayer ID fields for own sale, direct and indirect representation, and authorization scenarios",
+    "Introduces Unit ID field to replace the old Identification field in EET messages",
+    "Verifies response certificate validity and subject against specification requirements",
+    "Updates production endpoint and adds SOAPAction header for EET 2.0 compliance",
+    "Reorganizes UI with new field groups for Taxpayer and Authorization on EET Service Setup and Entry Card"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "quote": "Adds the implementation of the new EET 2.0 (Czech electronic registration of sales) message format and security model.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.014193,
+    "changes_in_call": 1
+  }
+}

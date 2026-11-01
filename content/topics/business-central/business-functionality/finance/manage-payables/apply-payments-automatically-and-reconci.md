@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:48.170Z"
   flags: []
 generated:
-  at: "2026-10-31T01:06:04.529Z"
+  at: "2026-11-01T00:45:11.847Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -151,7 +151,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10425 [master] Remittance Advice Report (ID 10083) prints Amount Due = 0 when using Suggest Vendor Payments with Summarize Per Vendor](../../../../../changes/bcapps/10425.md) (code change): "Remittance Advice Report correctly displays the Amount Due field"
 - [#10498 [Pmt. Recon. Journal] Optimize opening of the Payment Application screen](../../../../../changes/bcapps/10498.md) (code change): "Payment application screen opening is optimized by adding a date filter"
-- [#13134 [main] Bug 656172 Payment Slips Summarized by Due Date are not aggregating correlative in the French version.](../../../../../changes/bcapps/13134.md) (code change): "Payment slips Summarized by Due Date are not aggregating"
+- [#13134 [main] Bug 656172 Payment Slips Summarized by Due Date are not aggregating correlative in the French version.](../../../../../changes/bcapps/13134.md) (code change): "Suggest Cust. Payments and Suggest Vend. Payments reports now aggregate"
 - [#13255 [Main]-Exporting vendor remittance gets stuck when a payment jour nal is sorted by Document No.](../../../../../changes/bcapps/13255.md) (code change): "Fixed vendor remittance export hanging when a payment journal is sorted"
 - [#13294 [29.x]-Exporting vendor remittance gets stuck when a payment jour nal is sorted by Document No.](../../../../../changes/bcapps/13294.md) (code change): "Exporting vendor remittance gets stuck when a payment journal is sorted"
 - [#9051 [639592][ALAppExtensions #30277][Event Request] Codeunit 426 "Payment Tolerance Management" OnPmtTolGenJnlOnAfterCheckConditions](../../../../../changes/bcapps/9051.md) (code change): "Codeunit 426 Payment Tolerance Management exposes event allowing subscribers to modify general journal lines"

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12083",
+  "input_hash": "e6e16fa9bb6a7b75411e0209dc4e81b46a619e9c7a93cb952b70d3bf265adfb8",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-01T00:44:15.702Z",
+  "issues": [
+    "The description covers only the customer fix. The vendor and bank account tables changed too, but nothing says they got the same contact sync fix, so the summary claimed more than is supported.",
+    "The tests that were added cover the customer and contact tables."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030087,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13259",
+  "number": 13259,
+  "title": "Protect from runtime error if Item Availability looses date filter",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The Sales Order Agent's multi-item availability page now guards against runtime errors when the date filter is missing by checking that the filter exists before comparing shipment dates.",
+  "key_points": [
+    "Prevents runtime error when Date Filter is absent from the SOA Multi Items Availability page",
+    "Checks that Date Filter is nonempty before calling GetRangeMax",
+    "Preserves existing behavior when the date filter is present",
+    "No changes to schema, permissions, or upgrade logic",
+    "Low-risk defensive programming change"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003446,
+    "changes_in_call": 1
+  }
+}

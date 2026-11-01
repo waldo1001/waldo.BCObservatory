@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12762",
+  "number": 12762,
+  "title": "[29.X]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Dispute status is now retained when editing vendor ledger entries and purchase invoices, matching the behavior that already works correctly on the sales side.",
+  "key_points": [
+    "Dispute status preservation logic added to vendor entry editing workflows",
+    "Changes applied across multiple localization layers (W1, NA, APAC, CH, ES, IT, NL, NO, RU)",
+    "Both vendor ledger entry page and purchase invoice header edit codeunits updated",
+    "Test coverage added for dispute status retention during document edits",
+    "Fixes behavior inconsistency between vendor and customer ledger entry editing"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004314,
+    "changes_in_call": 1
+  }
+}

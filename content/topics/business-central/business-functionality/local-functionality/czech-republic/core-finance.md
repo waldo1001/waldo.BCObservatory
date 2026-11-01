@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:55.264Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-11-01T00:45:11.847Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -144,6 +144,7 @@ links:
     - change/bcapps/12134
     - change/bcapps/12142
     - change/bcapps/13107
+    - change/bcapps/9839
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -215,5 +216,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12134 [main] bug 652313 - Add Approvals Management integration to compensation, payment order and cash document processing](../../../../../changes/bcapps/12134.md) (code change): "Approvals Management integration was added to compensation, payment order, and cash document processing in Czech"
 - [#12142 [main] bug 652254 - Statutory Reporting Setup - new field for Official Name](../../../../../changes/bcapps/12142.md) (code change): "Czech statutory reporting now supports official company names up to 255 characters"
 - [#13107 CZ Registration No. verification must do integrity and schema check of the response](../../../../../changes/bcapps/13107.md) (code change): "CZ Registration No. verification must do integrity and schema check"
+- [#9839 [main] feature 623913 - EET 2.0](../../../../../changes/bcapps/9839.md) (code change): "Implements EET 2.0 message format and security model for Czech electronic sales registration"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

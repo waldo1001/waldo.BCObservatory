@@ -1,0 +1,42 @@
+{
+  "item_id": "blog/yzhums-com/77038",
+  "page_id": "post/yzhums-com/77038",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "Microsoft has completely removed this page in Business Central 2026 release wave 2 (BC29), and it is no longer accessible.",
+      "objects": [
+        {
+          "type": "page",
+          "name": "Custom Report Layouts"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "Please ensure that all Custom Report Layouts are fully migrated to Report Layouts before upgrading to Business Central 2026 release wave 2 (BC29).",
+      "objects": [
+        {
+          "type": "page",
+          "name": "Report Layouts"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004116,
+    "posts_in_call": 1
+  }
+}

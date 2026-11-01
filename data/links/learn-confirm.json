@@ -6399,6 +6399,17 @@
       "at": "2026-10-24T00:26:55.124Z",
       "picks": []
     },
+    "change/bcapps/12083": {
+      "kind": "change",
+      "hash": "0e199cbb4dedef79f1e47854cd29088364031f29794931b007629e7bceda3f2a",
+      "at": "2026-11-01T00:42:45.430Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records",
+          "reason": "Documents merging duplicate customer and contact records, relating to customer data synchronization."
+        }
+      ]
+    },
     "change/bcapps/12097": {
       "kind": "change",
       "hash": "4cd9ee1a5672cdcaa1d52c59117701db7377aeaa660f39db46f1fad30e752fc2",
@@ -7805,6 +7816,17 @@
         }
       ]
     },
+    "change/bcapps/12762": {
+      "kind": "change",
+      "hash": "de8e910c05f4c9b31fe5ff554aa42f0e26983f5675568e7bc2c9e6f8f7802599",
+      "at": "2026-11-01T00:42:45.430Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-handling-payment-disputes",
+          "reason": "Documents handling vendor payment disputes and managing vendor ledger entries on hold."
+        }
+      ]
+    },
     "change/bcapps/12763": {
       "kind": "change",
       "hash": "3038a26170a04141a66b6d775caddd746d76f91eb56750290a1ec0d3b88c5adf",
@@ -8395,6 +8417,17 @@
         }
       ]
     },
+    "change/bcapps/13203": {
+      "kind": "change",
+      "hash": "bef0455778aa3985abdb06185e29fdf0e9c53f2bd347cfb2d959819fc9ebd552",
+      "at": "2026-11-01T00:42:45.430Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/year-close-income-statement",
+          "reason": "Documents closing income statement accounts and posting year-end entries to balance sheet."
+        }
+      ]
+    },
     "change/bcapps/13211": {
       "kind": "change",
       "hash": "43e582d82c338fabe657ecf5f9c666a7b2493ad23991ae5496ca704aacb557e0",
@@ -8473,6 +8506,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-send-remittance-advice",
           "reason": "Documents the Send Remittance Advice extension for vendor remittance payment processing."
+        }
+      ]
+    },
+    "change/bcapps/13259": {
+      "kind": "change",
+      "hash": "450b01ec4064986bb170eaccd2b4e6f4a2058d66c846d21bb6552e30f0d1d425",
+      "at": "2026-11-01T00:42:45.430Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-availability-overview",
+          "reason": "Documents item availability overview by period, location, and related filtering requirements."
         }
       ]
     },
@@ -8557,6 +8601,17 @@
         }
       ]
     },
+    "change/bcapps/13310": {
+      "kind": "change",
+      "hash": "98b5bcdcd00ea92d47fc3d9953705c35e0ccb1bb6242cc666db3322a05769f7b",
+      "at": "2026-11-01T00:42:45.430Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-non-deductible-vat",
+          "reason": "Documents non-deductible VAT handling in purchase invoices with foreign currency considerations."
+        }
+      ]
+    },
     "change/bcapps/13326": {
       "kind": "change",
       "hash": "34e2b78ca2e622c2c040c64dba537d0d228d8af69a6594b606316e27bbb32cb8",
@@ -8569,6 +8624,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/automation-apis-using-s2s-authentication",
           "reason": "Covers service-to-service authentication using OAuth 2.0 client credentials for unattended integrations."
+        }
+      ]
+    },
+    "change/bcapps/13330": {
+      "kind": "change",
+      "hash": "4f575e4d6127e2deb0f53010bce3085b3eaddbe5e881de9a5a29e9350643d73f",
+      "at": "2026-11-01T00:42:45.430Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-use-allocation-keys-general-journals",
+          "reason": "Documents recurring general journals with allocation keys for splitting entries across accounts."
         }
       ]
     },
@@ -12588,6 +12654,17 @@
         }
       ]
     },
+    "change/bcapps/9839": {
+      "kind": "change",
+      "hash": "3bd920bf6770f272832715bd8ad969775adbfd3f8ecda7413a42ef97069ea5ed",
+      "at": "2026-11-01T00:42:45.430Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/eet",
+          "reason": "Documents EET registration of sales feature for Czech tax authorities compliance."
+        }
+      ]
+    },
     "change/bcapps/9841": {
       "kind": "change",
       "hash": "d05b0360e4af8f47b2a556140d48be49de206fd6eacdf3da194695fd7ee73fbc",
@@ -14000,12 +14077,12 @@
     },
     "object/codeunit/113": {
       "kind": "object",
-      "hash": "c30941fd516efecc12e36b5c297e942b99d2f240f0b9347ba56435322d15cc62",
-      "at": "2026-10-28T10:52:20.016Z",
+      "hash": "cb22444d6f6571aec8b34af8a0afe42ba35d09c62a8c9088215f964d5af22fd5",
+      "at": "2026-11-01T00:42:45.430Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos",
-          "reason": "Edits vendor ledger entries; relevant to purchase document amount modifications."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document",
+          "reason": "Documents editing posted purchase documents including vendor ledger entry modifications."
         }
       ]
     },
@@ -14098,6 +14175,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-internal-warehouse-flows",
           "reason": "Documents warehouse flows for production, assembly, and projects including document management complexities."
+        }
+      ]
+    },
+    "object/codeunit/11747-cz": {
+      "kind": "object",
+      "hash": "0da43d9cbf4819a64ea91afd0eaec68d73005ad6f4a796c7b085464e01703e74",
+      "at": "2026-11-01T00:42:45.119Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-onboard-users-to-your-app",
+          "reason": "Guided Experience Handler implements onboarding setup experiences for Czech localization."
         }
       ]
     },
@@ -17453,6 +17541,23 @@
         }
       ]
     },
+    "object/codeunit/31081-cz": {
+      "kind": "object",
+      "hash": "73a329b2aedf6e0bcc3479759bbd7a138d4d118a6538cbc8165fecc9237b8555",
+      "at": "2026-11-01T00:42:45.119Z",
+      "picks": []
+    },
+    "object/codeunit/31083-cz": {
+      "kind": "object",
+      "hash": "31b2bfbe624d989b9a3153cdddbb4d13d9fbd4782457049ad7e6772fdbbd79cd",
+      "at": "2026-11-01T00:42:45.119Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/cash-desk-management",
+          "reason": "EET Management in Cash Desk namespace handles cash desk operations for Czech compliance."
+        }
+      ]
+    },
     "object/codeunit/3109": {
       "kind": "object",
       "hash": "08336e11e723a5bc35c25d417c3b400008632bd3006474db1d9af6a8ba348b48",
@@ -17461,6 +17566,34 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-ocr-pdf-images-files",
           "reason": "Documents PDF processing for document conversion and invoice recognition."
+        }
+      ]
+    },
+    "object/codeunit/31090-cz": {
+      "kind": "object",
+      "hash": "a6e3abd40ae6d1120e112976e6071a84380042c7ec302d80757d9863a0e221b5",
+      "at": "2026-11-01T00:42:45.119Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/advances",
+          "reason": "EET Management Handler in Advance Payments namespace processes advance payment EET registration."
+        }
+      ]
+    },
+    "object/codeunit/31098-cz": {
+      "kind": "object",
+      "hash": "39d61ebe9c827c589e1f275c7c33834e9ea1ad0d319290995ef05b4fa2c77613",
+      "at": "2026-11-01T00:42:45.119Z",
+      "picks": []
+    },
+    "object/codeunit/31099-cz": {
+      "kind": "object",
+      "hash": "ba72f1fca9c47a6fda8befb59b9a0fc3eadb38e6342b51347a7795d5d0d6c67a",
+      "at": "2026-11-01T00:42:45.119Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/eet",
+          "reason": "EET Control Codes Management generates and manages control codes for Czech sales registration."
         }
       ]
     },
@@ -17485,6 +17618,35 @@
           "reason": "Documents PDF document handling for OCR and electronic invoice conversion."
         }
       ]
+    },
+    "object/codeunit/31114-cz": {
+      "kind": "object",
+      "hash": "c92a812648cc636adb0a6dfc3bb5af2c628a5e9f5763e2975e24313e2f79f823",
+      "at": "2026-11-01T00:42:45.119Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/cash-desk-management",
+          "reason": "EET Cash Desk management handles EET integration with Czech cash desk operations."
+        }
+      ]
+    },
+    "object/codeunit/31116-cz": {
+      "kind": "object",
+      "hash": "3428e1d75d4a5e053bbdf74da8ce47955b3cda43dc73113c36e6dc0a5dd39669",
+      "at": "2026-11-01T00:42:45.119Z",
+      "picks": []
+    },
+    "object/codeunit/31118-cz": {
+      "kind": "object",
+      "hash": "04f30bdc8a9c085c8ab0948a07e7a6f1ecf57f432429c408eb48324921ea2c00",
+      "at": "2026-11-01T00:42:48.080Z",
+      "picks": []
+    },
+    "object/codeunit/31119-cz": {
+      "kind": "object",
+      "hash": "ae37e43b10cda1758510f53fb7bbc1ce40aa55d0c2162e3209a2b6118c24f17b",
+      "at": "2026-11-01T00:42:48.080Z",
+      "picks": []
     },
     "object/codeunit/31144-cz": {
       "kind": "object",
@@ -23450,16 +23612,16 @@
     },
     "object/codeunit/8069": {
       "kind": "object",
-      "hash": "6b22a4292058c3fe7ece09c0497b031e669e2d1e45c457582f12cbc2b97ae2dd",
-      "at": "2026-10-24T00:30:10.238Z",
+      "hash": "708d9b5e42fa96fd8f52d3dae67bae2d720c5e3b539784e13edc35630529b71e",
+      "at": "2026-11-01T00:42:48.080Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/items",
-          "reason": "Documents how subscription lines are created from sales subscription line assignments."
+          "reason": "Documents subscription lines for items and automatic creation in sales documents."
         },
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/service-commitments",
-          "reason": "Documents creating subscription lines from subscription package lines for billing."
+          "reason": "Documents subscription packages and lines structure with billing configuration."
         }
       ]
     },
@@ -26885,6 +27047,63 @@
         }
       ]
     },
+    "object/enum/8125": {
+      "kind": "object",
+      "hash": "81afed294501b3d969b218161d3325ff3b7ff61cb8c8765c2dc69bbe5f6c1de1",
+      "at": "2026-11-01T00:42:48.080Z",
+      "picks": []
+    },
+    "object/enum/8126": {
+      "kind": "object",
+      "hash": "01a9e52d31364a2c942ec7b3f6433a6219daa2cf676977b81f61f855b8104362",
+      "at": "2026-11-01T00:42:48.080Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-format-property",
+          "reason": "Documents the Format method for setting date display formats used in filenames."
+        }
+      ]
+    },
+    "object/enum/8127": {
+      "kind": "object",
+      "hash": "4456a3af62d42d35c748de3cbce0b87d104b0bfc06e69f58ab250b21a0e09145",
+      "at": "2026-11-01T00:42:48.080Z",
+      "picks": []
+    },
+    "object/enum/8128": {
+      "kind": "object",
+      "hash": "e361ba987b8ff47707df8fe87ca2c0e3657407bba7a439e02ad5d1f78cdf0e15",
+      "at": "2026-11-01T00:42:48.080Z",
+      "picks": []
+    },
+    "object/enum/8129": {
+      "kind": "object",
+      "hash": "12dd05cc5352e7aa26cebf502045b862fa4c772703fc381adc77d0e3104f3e0c",
+      "at": "2026-11-01T00:42:48.080Z",
+      "picks": []
+    },
+    "object/enum/8130": {
+      "kind": "object",
+      "hash": "5d558d7acf1fdfe3d82ea1acf4e178ea343943253e6adf3363f2195fb3d2a1be",
+      "at": "2026-11-01T00:42:45.378Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-namespaces-overview",
+          "reason": "Enum in Microsoft.Foundation.Reporting.FileNaming namespace; namespaces organize AL code logically."
+        }
+      ]
+    },
+    "object/enum/8131": {
+      "kind": "object",
+      "hash": "7948b7637e00674d6ace943b91d31366596c4ad2da142dff6e3dc9bcc324a130",
+      "at": "2026-11-01T00:42:45.378Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-namespaces-overview",
+          "reason": "Enum in Microsoft.Foundation.Reporting.FileNaming namespace; namespaces organize AL code logically."
+        }
+      ]
+    },
     "object/enum/8350": {
       "kind": "object",
       "hash": "df0038fc357b75f62ecb2fa5e61052e64c32f4d334a3885cba74e7109177cb86",
@@ -27563,6 +27782,17 @@
       "hash": "1a863938e750993e258529a8c046f2285f8f6f88444113055bc37a1d76a7ac0c",
       "at": "2026-10-24T00:30:52.034Z",
       "picks": []
+    },
+    "object/interface/report-filename-placeholder": {
+      "kind": "object",
+      "hash": "3b12189d6dac229f28c5165f9ba6997bbaa876a83a0e0b996315a5bda8f529a3",
+      "at": "2026-11-01T00:42:45.378Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-namespaces-overview",
+          "reason": "Interface in Microsoft.Foundation.Reporting.FileNaming namespace; namespaces organize AL code logically."
+        }
+      ]
     },
     "object/page/10144-ca": {
       "kind": "object",
@@ -28556,6 +28786,107 @@
         }
       ]
     },
+    "object/page/31137-cz": {
+      "kind": "object",
+      "hash": "e1ceabacaffa3ee99d291d84797f132ce298f80f75c240123783044c51653944",
+      "at": "2026-11-01T00:42:45.378Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/eet",
+          "reason": "EET Simple Registration page documents Czech feature for registering sales with tax authorities."
+        }
+      ]
+    },
+    "object/page/31142-cz": {
+      "kind": "object",
+      "hash": "c6658c5ef0d2756582d8a7acb8086cf4fb856d85f747804d2770ed607cc537fe",
+      "at": "2026-11-01T00:42:45.378Z",
+      "picks": []
+    },
+    "object/page/31143-cz": {
+      "kind": "object",
+      "hash": "285ab38748eef5980ebcdcdf2b1b297bad3719efcbd7624a83908db367688bc3",
+      "at": "2026-11-01T00:42:45.378Z",
+      "picks": []
+    },
+    "object/page/31144-cz": {
+      "kind": "object",
+      "hash": "22f6cb6449ad44a1a44ffff158d125d254cb9a5c5d8ec40c17d786e6d52d3900",
+      "at": "2026-11-01T00:42:45.378Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/eet",
+          "reason": "EET Cash Registers page manages cash registers for Czech Registration of Sales (EET) transactions."
+        }
+      ]
+    },
+    "object/page/31145-cz": {
+      "kind": "object",
+      "hash": "3072f169b80aa57e6329a60131b10e54e8e223bda6bba11929c0f4fc317dde25",
+      "at": "2026-11-01T00:42:45.378Z",
+      "picks": []
+    },
+    "object/page/31146-cz": {
+      "kind": "object",
+      "hash": "a8ce21a44633e33b25d84516c664a6ab5bc2ef21750e1ae28723db7709b51eed",
+      "at": "2026-11-01T00:42:44.707Z",
+      "picks": []
+    },
+    "object/page/31147-cz": {
+      "kind": "object",
+      "hash": "43a728f3bc3f2e9a6062179dbb25d391ae0bf7a93ed6eefcf1c52c952a7c3f1a",
+      "at": "2026-11-01T00:42:44.707Z",
+      "picks": []
+    },
+    "object/page/31148-cz": {
+      "kind": "object",
+      "hash": "2a5c6a5139de1a0a6b65205764bea6fe4602f2016724198d1d6fa529039a3d9c",
+      "at": "2026-11-01T00:42:44.707Z",
+      "picks": []
+    },
+    "object/page/31149-cz": {
+      "kind": "object",
+      "hash": "89772f2c531d9beff19a72748d7850c7f0ca9695a74e9b4bfbd822ceff973465",
+      "at": "2026-11-01T00:42:44.707Z",
+      "picks": []
+    },
+    "object/page/31155-cz": {
+      "kind": "object",
+      "hash": "61b6b67fa429130aef70af5aeb123c35090566b195adb65b4ed0e6f1dd11c199",
+      "at": "2026-11-01T00:42:44.707Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/cash-desk-management",
+          "reason": "Cash Desk Role Center is the main interface for cash desk management in Czech Business Central"
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-menus-to-navigation-pane",
+          "reason": "Role Center uses navigation menus and actions to organize cash desk functionality"
+        }
+      ]
+    },
+    "object/page/31157-cz": {
+      "kind": "object",
+      "hash": "716da54df942ab873961d90c80c5002b581c57ca1d17911fddabb92f7f638b10",
+      "at": "2026-11-01T00:42:44.707Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/cash-desk-management",
+          "reason": "Cash Desk Events are part of cash desk management for Czech Business Central"
+        }
+      ]
+    },
+    "object/page/31158-cz": {
+      "kind": "object",
+      "hash": "3641b03d0147f866c5784689bca537fde35cb85bae70ef29ce4698b4858565f4",
+      "at": "2026-11-01T00:42:44.707Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/cash-desk-management",
+          "reason": "Cash Desk Events Setup configures cash desk management features in Czech Business Central"
+        }
+      ]
+    },
     "object/page/31160-cz": {
       "kind": "object",
       "hash": "ce3e0dd60df4ea30d0d05fa608708a3fa12f369896df65914ab936ac9681d68f",
@@ -28564,6 +28895,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/cash-desk-management",
           "reason": "Documents cash desk management for physical money receipts and withdrawals in Czech operations."
+        }
+      ]
+    },
+    "object/page/31161-cz": {
+      "kind": "object",
+      "hash": "5886bd94499daf9967a1710c693bead2f11111e1b4385e867e1e2aebad9c0850",
+      "at": "2026-11-01T00:42:44.707Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/cash-desk-management",
+          "reason": "Cash Document Subform is part of cash desk management for handling cash transactions"
         }
       ]
     },

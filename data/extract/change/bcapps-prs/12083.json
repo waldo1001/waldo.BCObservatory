@@ -1,0 +1,36 @@
+{
+  "item_id": "change/bcapps-prs/12083",
+  "number": 12083,
+  "title": "Fix-Bug 652112 Public Preview: If a field such as \"Email\" is updated programmatically on the customer record, the change is not automatically transferred to the associated contact.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "sales",
+    "finance"
+  ],
+  "summary": "Changing a customer field such as Email programmatically with Modify(true) now updates the linked contact. The contact update check compares against the stored customer record instead of xRec. The Vendor and Bank Account tables were also changed in all country layers.",
+  "key_points": [
+    "Programmatic customer changes such as Email now reach the linked contact",
+    "Cause: the contact update check compared against xRec, which did not always hold the stored values",
+    "Fix: read the stored record before modifying and compare against it",
+    "Customer, Vendor and Bank Account tables changed across the country layers",
+    "Customer and contact table tests added or updated"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "crm",
+    "sales",
+    "purchasing"
+  ],
+  "quote": "Programmatic customer updates, such as changing the email with Modify(true), were not synchronized to the associated contact.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005292,
+    "changes_in_call": 1
+  }
+}

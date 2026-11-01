@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13221,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13221",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-30T12:54:02Z",
+  "merge_commit_sha": "afba911b86afdf805c9da9d86f16b3141bf170fd",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[E-Document Connector][Sharepoint] Downloading file fails either with response 404 or response 401",
+  "body_hash": "1830e94622ea0bf102237341a8f52eb80fd7c2e69a6b7cd50425aff6ff01994d",
+  "fixes_issues": [],
+  "work_items": [
+    656577,
+    656599
+  ],
+  "change_class": "non-code",
+  "files": [],
+  "totals": {
+    "files": 4,
+    "additions": 140,
+    "deletions": 42,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

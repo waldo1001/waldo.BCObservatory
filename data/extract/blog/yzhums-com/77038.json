@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/yzhums-com/77038",
+  "url": "https://yzhums.com/77038/",
+  "title": "Business Central 2026 release wave 2 (BC29): Custom Report Layouts are now deprecated and have been removed",
+  "source": "yzhums-com",
+  "published_at": "2026-10-30T00:39:19.000Z",
+  "words": 381,
+  "summary": "Custom Report Layouts have been removed in Business Central 2026 wave 2 (BC29). Organizations must migrate all custom layouts to the new Report Layouts feature before upgrading, as the legacy Custom Report Layouts page is no longer accessible.",
+  "key_points": [
+    "Custom Report Layouts page has been completely removed in BC29 and is no longer accessible",
+    "This legacy feature from Dynamics NAV was already obsolete but retained through BC28.5",
+    "Users should migrate existing custom layouts (Word and RDLC types) to the new user-defined Report Layouts feature",
+    "Migration to Report Layouts must be completed before upgrading to BC29"
+  ],
+  "systems": [
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "deprecation",
+    "report layouts",
+    "migration",
+    "upgrade",
+    "business central 2026"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "9660 Report Layouts"
+    }
+  ],
+  "features": [
+    "Custom Report Layouts deprecation",
+    "Report Layouts administration",
+    "User-defined layouts",
+    "Layout migration"
+  ],
+  "versions": [
+    "BC29",
+    "2026 wave 2",
+    "BC28.5",
+    "BC20",
+    "2022 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Microsoft has completely removed this page in Business Central 2026 release wave 2 (BC29), and it is no longer accessible.",
+      "why_it_matters": "Signals a breaking change requiring immediate action from users still using the legacy Custom Report Layouts feature"
+    },
+    {
+      "text": "Please ensure that all Custom Report Layouts are fully migrated to Report Layouts before upgrading to Business Central 2026 release wave 2 (BC29).",
+      "why_it_matters": "Direct guidance on the upgrade prerequisite to avoid broken functionality"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005317,
+    "posts_in_call": 1
+  }
+}

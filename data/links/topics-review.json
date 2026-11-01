@@ -2779,136 +2779,202 @@
       }
     },
     "topic/business-central/business-functionality/sales": {
-      "post/aardvarklabs-blog/2603@37d1648ae4d574a5": {
-        "verdict": "drop",
-        "reason": "Subject is AL parsing of header/detail import files; sales orders are just the example.",
-        "at": "2026-10-31T01:03:12.997Z",
-        "v": 2
-      },
-      "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/@99482879dddcf915": {
-        "verdict": "drop",
-        "reason": "Subject is Word report layout design with an MCP agent; the sales quote is only the demo report.",
-        "at": "2026-10-31T01:03:12.997Z",
-        "v": 2
-      },
-      "post/duiliotacconi-com/1667@446c0b74fa2f32e9": {
-        "verdict": "keep",
-        "reason": "Explains a change in how sales document posting processes lines, which relates to sales posting.",
-        "at": "2026-10-31T01:03:12.997Z",
-        "v": 2
-      },
-      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3905080819923012785@52156de09484cd22": {
-        "verdict": "keep",
-        "reason": "Covers emailing and attaching posted sales shipments and return receipts, a sales document feature.",
-        "at": "2026-10-31T01:03:12.997Z",
-        "v": 2
-      },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/@3fac2d74cc67c469": {
-        "verdict": "keep",
-        "reason": "Discusses copying sales documents and which fields carry over to posted/archived sales documents.",
-        "at": "2026-10-31T01:03:12.997Z",
-        "v": 2
-      },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/@0309219f187e1607": {
-        "verdict": "keep",
-        "reason": "Covers how the sales Copy Document function handles custom fields, extending documented sales functionality.",
-        "at": "2026-10-31T01:03:12.997Z",
-        "v": 2
-      },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-84-item-missing-from-sales-line-lookup/@a6b9f52e5b49d7a0": {
-        "verdict": "keep",
-        "reason": "Explains how the Sales Blocked setting affects item selection on sales lines.",
-        "at": "2026-10-31T01:03:12.997Z",
-        "v": 2
-      },
-      "post/thedynamicsexplorer-com/10326@0d51c1a7b7e06f52": {
-        "verdict": "keep",
-        "reason": "Demonstrates posting sales credit memos using item charges, a sales process.",
-        "at": "2026-10-31T01:03:12.997Z",
-        "v": 2
-      },
-      "post/yzhums-com/63644@bd6456dccce2f10b": {
-        "verdict": "keep",
-        "reason": "Covers the Stockout Warning in Sales & Receivables Setup on sales documents.",
-        "at": "2026-10-31T01:03:12.997Z",
-        "v": 2
-      },
-      "post/yzhums-com/64277@596d600886ad9237": {
-        "verdict": "keep",
-        "reason": "Covers editing sales price lists, part of sales pricing.",
-        "at": "2026-10-31T01:03:12.997Z",
-        "v": 2
-      },
-      "post/yzhums-com/64609@8e88925380585b0d": {
-        "verdict": "keep",
-        "reason": "Covers updating fields on posted sales invoices, a sales document capability.",
-        "at": "2026-10-31T01:03:12.997Z",
-        "v": 2
-      },
       "post/yzhums-com/65326@48449cb68de280af": {
-        "verdict": "keep",
-        "reason": "Marketing text on items is sales-facing customer content, and this post extends it with a bulk import; kept because the case was uncertain.",
-        "at": "2026-10-31T01:03:22.475Z",
+        "verdict": "drop",
+        "reason": "Marketing text is item master data, so it belongs under Inventory, not sales processes.",
+        "at": "2026-11-01T00:43:02.243Z",
         "v": 2
       },
       "post/yzhums-com/66212@382f4116ce153e4c": {
         "verdict": "keep",
-        "reason": "It customizes default quantities on sales document lines, which this section documents.",
-        "at": "2026-10-31T01:03:22.475Z",
+        "reason": "It changes how the default quantity works on sales document lines, which this section documents.",
+        "at": "2026-11-01T00:43:02.243Z",
         "v": 2
       },
       "post/yzhums-com/68428@c44da8ee6d1716d6": {
         "verdict": "keep",
-        "reason": "It adds a posting-date check when posting sales documents, which extends the sales posting this section documents.",
-        "at": "2026-10-31T01:03:22.475Z",
+        "reason": "It adds a posting-date check when posting sales documents, which extends sales posting.",
+        "at": "2026-11-01T00:43:02.243Z",
         "v": 2
       },
       "post/yzhums-com/69356@c565a140cb20a251": {
         "verdict": "keep",
-        "reason": "Archiving sales orders is part of the sales document handling this section documents.",
-        "at": "2026-10-31T01:03:22.475Z",
+        "reason": "It automates archiving of sales orders, and archiving sales documents is covered in the Sales section.",
+        "at": "2026-11-01T00:43:02.243Z",
         "v": 2
       },
       "post/yzhums-com/70137@7549225fc5208ecc": {
         "verdict": "keep",
-        "reason": "It shows sales order comments in a FactBox and in reports, which extends sales documents.",
-        "at": "2026-10-31T01:03:22.475Z",
+        "reason": "It shows comments on sales orders in a FactBox and in printed reports, and sales document comments are part of this section.",
+        "at": "2026-11-01T00:43:02.243Z",
         "v": 2
       },
       "post/yzhums-com/71137@3215568ca222ff1b": {
         "verdict": "keep",
-        "reason": "It covers sending posted sales shipments and return receipts by email, a sales document feature.",
-        "at": "2026-10-31T01:03:22.475Z",
+        "reason": "It covers emailing posted sales shipments and return receipts, which are sales documents.",
+        "at": "2026-11-01T00:43:02.243Z",
         "v": 2
       },
       "post/yzhums-com/71304@d5f72bf352306d07": {
         "verdict": "keep",
-        "reason": "Drop shipments from sales orders are documented under Sales.",
-        "at": "2026-10-31T01:03:22.475Z",
+        "reason": "Drop shipments from sales orders are documented in the Sales section.",
+        "at": "2026-11-01T00:43:02.243Z",
         "v": 2
       },
       "post/yzhums-com/71489@30bede6bfb81030a": {
         "verdict": "keep",
-        "reason": "It covers undoing a posted sales shipment from a drop shipment, which is a sales process.",
-        "at": "2026-10-31T01:03:22.475Z",
+        "reason": "It covers undoing a posted sales shipment for a drop shipment, which is sales functionality.",
+        "at": "2026-11-01T00:43:02.243Z",
         "v": 2
       },
       "post/yzhums-com/71648@56f0ac64fad920dc": {
         "verdict": "keep",
-        "reason": "New filters on Get Shipment Lines support combining shipments into one sales invoice, which this section covers.",
-        "at": "2026-10-31T01:03:22.475Z",
+        "reason": "New filters on Get Shipment Lines help with combining sales shipments into one invoice, which is a sales invoicing process.",
+        "at": "2026-11-01T00:43:02.243Z",
         "v": 2
       },
       "post/yzhums-com/74091@fbfc95b1f88a1f72": {
         "verdict": "drop",
         "reason": "Creating production orders from sales orders is documented more exactly in the Manufacturing section.",
-        "at": "2026-10-31T01:03:22.475Z",
+        "at": "2026-11-01T00:43:02.243Z",
         "v": 2
       },
       "post/yzhums-com/74172@68298266e334ae55": {
         "verdict": "drop",
-        "reason": "Carrying fields from sales orders to production orders belongs to Manufacturing's production order creation, not to Sales.",
-        "at": "2026-10-31T01:03:22.475Z",
+        "reason": "Passing custom fields from sales orders to production orders is about the Manufacturing flow, which a sibling section documents more exactly.",
+        "at": "2026-11-01T00:43:02.243Z",
+        "v": 2
+      },
+      "post/aardvarklabs-blog/2603@37d1648ae4d574a5": {
+        "verdict": "drop",
+        "reason": "Subject is AL file parsing and staging-table import; sales orders are only the example data.",
+        "at": "2026-11-01T00:43:02.750Z",
+        "v": 2
+      },
+      "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/@99482879dddcf915": {
+        "verdict": "drop",
+        "reason": "Subject is Word report layout design with an MCP agent; the sales quote is only the example report.",
+        "at": "2026-11-01T00:43:02.750Z",
+        "v": 2
+      },
+      "post/duiliotacconi-com/1667@446c0b74fa2f32e9": {
+        "verdict": "keep",
+        "reason": "Discusses a change in how sales document posting processes lines, which is part of the sales posting behavior.",
+        "at": "2026-11-01T00:43:02.750Z",
+        "v": 2
+      },
+      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3905080819923012785@52156de09484cd22": {
+        "verdict": "keep",
+        "reason": "Covers emailing and attaching documents to posted sales shipments and return receipts, which are sales documents.",
+        "at": "2026-11-01T00:43:02.750Z",
+        "v": 2
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/@3fac2d74cc67c469": {
+        "verdict": "keep",
+        "reason": "Explains which fields carry over when copying sales documents, a sales document workflow.",
+        "at": "2026-11-01T00:43:02.750Z",
+        "v": 2
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/@0309219f187e1607": {
+        "verdict": "keep",
+        "reason": "Covers how the sales Copy Document feature handles custom fields, extending a sales capability.",
+        "at": "2026-11-01T00:43:02.750Z",
+        "v": 2
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-84-item-missing-from-sales-line-lookup/@a6b9f52e5b49d7a0": {
+        "verdict": "keep",
+        "reason": "Troubleshoots item selection on sales lines via the Sales Blocked setting.",
+        "at": "2026-11-01T00:43:02.750Z",
+        "v": 2
+      },
+      "post/thedynamicsexplorer-com/10326@0d51c1a7b7e06f52": {
+        "verdict": "keep",
+        "reason": "Explains how to post sales credit memos using item charges, a sales returns/credit process.",
+        "at": "2026-11-01T00:43:02.750Z",
+        "v": 2
+      },
+      "post/yzhums-com/63644@bd6456dccce2f10b": {
+        "verdict": "keep",
+        "reason": "Covers the Stockout Warning on sales documents in Sales & Receivables Setup and how to extend it.",
+        "at": "2026-11-01T00:43:02.750Z",
+        "v": 2
+      },
+      "post/yzhums-com/64277@596d600886ad9237": {
+        "verdict": "keep",
+        "reason": "Covers editing sales price lists in Excel under the new sales pricing experience.",
+        "at": "2026-11-01T00:43:02.750Z",
+        "v": 2
+      },
+      "post/yzhums-com/64609@8e88925380585b0d": {
+        "verdict": "keep",
+        "reason": "Covers a setting affecting the update page for posted sales invoices, part of correcting sales documents.",
+        "at": "2026-11-01T00:43:02.750Z",
+        "v": 2
+      },
+      "post/yzhums-com/74940@0a04d2158fa0cf45": {
+        "verdict": "keep",
+        "reason": "Covers validating duplicate external document numbers on sales documents and posted sales invoices.",
+        "at": "2026-11-01T00:43:04.676Z",
+        "v": 2
+      },
+      "post/yzhums-com/75073@8cf1463c91b41f54": {
+        "verdict": "keep",
+        "reason": "Extends the sales order page with customer signature capture, which ties directly to sales documents.",
+        "at": "2026-11-01T00:43:04.676Z",
+        "v": 2
+      },
+      "video/cuez5kIanKo@8ee506cf666df583": {
+        "verdict": "drop",
+        "reason": "Shopify sales channels belong to the sibling Online store with Shopify section.",
+        "at": "2026-11-01T00:43:04.676Z",
+        "v": 2
+      },
+      "video/fatcqVFrTXI@5b8350204a49289f": {
+        "verdict": "keep",
+        "reason": "Shows entering sales invoices and credit memos in Business Central.",
+        "at": "2026-11-01T00:43:04.676Z",
+        "v": 2
+      },
+      "video/fdP1HKBEDjA@6af3635966f0e3d7": {
+        "verdict": "keep",
+        "reason": "Shows sales invoices, credit memos and sales journals in Business Central.",
+        "at": "2026-11-01T00:43:04.676Z",
+        "v": 2
+      },
+      "video/gy_6QnFpiEw@23f7bb92a20daa9f": {
+        "verdict": "drop",
+        "reason": "Shopify market pricing belongs to the sibling Shopify section.",
+        "at": "2026-11-01T00:43:04.676Z",
+        "v": 2
+      },
+      "video/p-pwG6f5srY@991c1fbc644af86b": {
+        "verdict": "drop",
+        "reason": "Shopify Connector release features belong to the sibling Shopify section.",
+        "at": "2026-11-01T00:43:04.676Z",
+        "v": 2
+      },
+      "video/PIWxU93eCT4@dd35816b55e7e608": {
+        "verdict": "keep",
+        "reason": "Sales price list editing is part of sales pricing, which this section documents.",
+        "at": "2026-11-01T00:43:04.676Z",
+        "v": 2
+      },
+      "video/StIVhsnOHWY@b465ac15d678ab4c": {
+        "verdict": "drop",
+        "reason": "Shopify sync troubleshooting belongs to the sibling Shopify section.",
+        "at": "2026-11-01T00:43:04.676Z",
+        "v": 2
+      },
+      "video/VjYMhjjc3uw@d6d70dad1495c9be": {
+        "verdict": "drop",
+        "reason": "Shopify B2B companies and order import belong to the sibling Shopify section.",
+        "at": "2026-11-01T00:43:04.676Z",
+        "v": 2
+      },
+      "video/YSDfDjrMUb0@8fff98e8f9c7fd43": {
+        "verdict": "drop",
+        "reason": "Shopify Connector overview belongs to the sibling Shopify section.",
+        "at": "2026-11-01T00:43:04.676Z",
         "v": 2
       }
     },
@@ -4108,86 +4174,92 @@
     "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr": {
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1848764778201254677@415376c0de163a17": {
         "verdict": "keep",
-        "reason": "Covers the unified Copilot chat that this section documents, including how admins turn it on.",
-        "at": "2026-10-30T08:06:18.243Z",
+        "reason": "Describes the unified Microsoft Copilot chat in Business Central, how licensing works and how admins turn it on, which is this section's subject.",
+        "at": "2026-11-01T00:43:07.068Z",
         "v": 2
       },
       "post/thinkaboutit-be/8348@26fe815ea66cfaf1": {
-        "verdict": "keep",
-        "reason": "Edit with Copilot builds on the chat so users can act on records in natural language; a reader would find it relevant.",
-        "at": "2026-10-30T08:06:18.243Z",
+        "verdict": "drop",
+        "reason": "About Edit with Copilot, a separate early-access feature for changing records, not the chat this section documents.",
+        "at": "2026-11-01T00:43:07.068Z",
         "v": 2
       },
       "post/vondervoort-be/84@a07399802f0cdd86": {
         "verdict": "drop",
-        "reason": "About building AI agents and using Copilot as an AL coding aid, not the Copilot chat in Business Central.",
-        "at": "2026-10-30T08:06:18.243Z",
+        "reason": "About building AI agents and using Copilot as an AL coding partner, neither of which this section documents.",
+        "at": "2026-11-01T00:43:07.068Z",
         "v": 2
       },
       "post/yzhums-com/65781@3a09f7555bd6e69e": {
         "verdict": "keep",
-        "reason": "Shows Copilot chat answering questions about installed add-on apps, which is a capability of the chat.",
-        "at": "2026-10-30T08:06:18.243Z",
+        "reason": "Covers Copilot chat answering questions about installed add-on apps, which is part of the in-product chat.",
+        "at": "2026-11-01T00:43:07.068Z",
         "v": 2
       },
       "post/yzhums-com/67542@037426b4ac75c0b5": {
         "verdict": "keep",
-        "reason": "Covers Copilot chat features: finding data in natural language, task guidance and field explanations.",
-        "at": "2026-10-30T08:06:18.243Z",
+        "reason": "Covers Copilot chat improvements: more languages, finding data in plain language and field explanations.",
+        "at": "2026-11-01T00:43:07.068Z",
         "v": 2
       },
       "post/yzhums-com/67675@7aff63ea4e4b18fc": {
-        "verdict": "drop",
-        "reason": "About resizing side panes in general (help, page scripting), not the Copilot chat itself.",
-        "at": "2026-10-30T08:06:18.243Z",
+        "verdict": "keep",
+        "reason": "Covers resizing the Copilot pane, a small usability detail of the chat experience.",
+        "at": "2026-11-01T00:43:07.068Z",
         "v": 2
       },
       "post/yzhums-com/75811@33d6b3d3a1d7f63a": {
         "verdict": "keep",
-        "reason": "Describes the new unified Microsoft Copilot chat in Business Central that this section documents.",
-        "at": "2026-10-30T08:06:18.243Z",
+        "reason": "Explains the unified Copilot chat in BC29: what it can do, where to open it and who gets access.",
+        "at": "2026-11-01T00:43:07.068Z",
         "v": 2
       },
       "video/06vgkq2EXmA@10d08f4131a1a71d": {
         "verdict": "keep",
-        "reason": "Explains how Copilot Chat in Business Central was built and how it finds and grounds data.",
-        "at": "2026-10-30T08:06:18.243Z",
+        "reason": "Explains how Copilot Chat in Business Central was designed and secured.",
+        "at": "2026-11-01T00:43:07.068Z",
         "v": 2
       },
       "video/bHXEbtsx0JY@0045902d77a690f7": {
         "verdict": "drop",
-        "reason": "Sustainability emissions calculation is a separate Copilot feature that this section doesn't document.",
-        "at": "2026-10-30T08:06:18.243Z",
+        "reason": "Sustainability emissions calculation is a different Copilot capability, not the chat.",
+        "at": "2026-11-01T00:43:07.068Z",
         "v": 2
       },
       "video/mhfjycxWTyY@aecb139f18912edd": {
         "verdict": "keep",
-        "reason": "Video on the new Microsoft Copilot chat experience, its licensing and how admins enable it.",
-        "at": "2026-10-30T08:06:18.243Z",
+        "reason": "Video on the new Microsoft Copilot chat experience, including licensing and admin enablement.",
+        "at": "2026-11-01T00:43:07.068Z",
         "v": 2
       },
       "video/TSLXzbeyE7Y@ad3089654d553ccf": {
         "verdict": "keep",
-        "reason": "Demonstrates using the new Microsoft Copilot Chat in Business Central.",
-        "at": "2026-10-30T08:06:18.243Z",
+        "reason": "Demonstrates using the new Microsoft Copilot Chat in Business Central for tasks like sales analysis and setup help.",
+        "at": "2026-11-01T00:43:07.068Z",
         "v": 2
       },
       "video/V7NgFOIcGgM@8da8f67cd74aeda0": {
         "verdict": "keep",
-        "reason": "Explains how the new Copilot Chat works: the agentic loop, citations and permissions.",
-        "at": "2026-10-30T08:06:18.243Z",
+        "reason": "Explains how the new Copilot Chat works, covering grounding, permissions and the Copilot & Agent Capabilities control.",
+        "at": "2026-11-01T00:43:07.068Z",
+        "v": 2
+      },
+      "video/wBx8TkIHJ04@bffa45f751797417": {
+        "verdict": "keep",
+        "reason": "Introduces Copilot Chat for searching business data, with multi-turn conversations and permission-based filtering.",
+        "at": "2026-11-01T00:43:07.068Z",
         "v": 2
       },
       "video/WL3m2dffwU8@7bc155c05c0aba7e": {
         "verdict": "keep",
-        "reason": "Introduces the unified Microsoft Copilot Chat in Business Central.",
-        "at": "2026-10-30T08:06:18.243Z",
+        "reason": "Introduces the unified Microsoft Copilot Chat in Business Central and its Work IQ integration.",
+        "at": "2026-11-01T00:43:07.068Z",
         "v": 2
       },
       "video/YX9UfUF0EsA@310f38fe8afda0a2": {
         "verdict": "keep",
-        "reason": "Session introducing M365 Copilot Chat in Business Central: data access, licensing and admin control.",
-        "at": "2026-10-30T08:06:18.243Z",
+        "reason": "Detailed presentation of M365 Copilot Chat in Business Central, covering access, permissions and licensing.",
+        "at": "2026-11-01T00:43:07.068Z",
         "v": 2
       }
     },
@@ -6108,38 +6180,44 @@
     "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-2-v29": {
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/october-2026-cumulative-updates-for-dynamics-365-business-central/@2ed787663cdc95fc": {
         "verdict": "keep",
-        "reason": "Covers the v29 release alongside on-premises cumulative updates and upgrade readiness planning.",
-        "at": "2026-10-26T08:45:11.490Z",
+        "reason": "Covers the v29 release and on-premises update versions, with advice on checking upgrade readiness and customization compatibility.",
+        "at": "2026-11-01T00:43:03.571Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-3088305037286723104@37d3954d9a52f8f4": {
         "verdict": "drop",
-        "reason": "About online preview sandbox deletion and GA environment creation, not on-premises upgrade to v29.",
-        "at": "2026-10-26T08:45:11.490Z",
+        "reason": "About online general availability and deletion of preview sandboxes, not upgrading an on-premises installation to v29.",
+        "at": "2026-11-01T00:43:03.571Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3697577773817687094@3568b599018657cc": {
         "verdict": "keep",
-        "reason": "Describes a v29-specific schema change handled during upgrades (Integer to BigInteger with schema sync).",
-        "at": "2026-10-26T08:45:11.490Z",
+        "reason": "Describes a v29 change that converts Integer fields to BigInteger during upgrade via schema sync, which matters when upgrading to v29.",
+        "at": "2026-11-01T00:43:03.571Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4709432878034654173@41f7d07e3dae215a": {
         "verdict": "keep",
-        "reason": "Lists v29 on-premises prerequisites (.NET 10, Windows Server, SQL compatibility levels) relevant to upgrading to v29.",
-        "at": "2026-10-26T08:45:11.490Z",
+        "reason": "Covers v29 on-premises prerequisites (.NET 10, SQL compatibility levels, Windows Server), which are relevant to a v29 on-premises upgrade.",
+        "at": "2026-11-01T00:43:03.571Z",
         "v": 2
       },
       "post/yzhums-com/76495@b3251c34b8e5259d": {
         "verdict": "keep",
-        "reason": "Gives v29 on-premises build numbers and lifecycle dates useful for planning the v29 upgrade.",
-        "at": "2026-10-26T08:45:11.490Z",
+        "reason": "Gives v29 on-premises build numbers and support lifecycle dates relevant to upgrade planning.",
+        "at": "2026-11-01T00:43:03.571Z",
+        "v": 2
+      },
+      "post/yzhums-com/77038@97016bfa41221267": {
+        "verdict": "keep",
+        "reason": "Says custom layouts must be migrated before upgrading to BC29, a direct upgrade consideration.",
+        "at": "2026-11-01T00:43:03.571Z",
         "v": 2
       },
       "video/Sh3ySQSTw-o@7e91f23c0d0b729a": {
         "verdict": "keep",
-        "reason": "Covers v29 platform changes (.NET 10 runtime, table extension data model) that affect upgrading to v29.",
-        "at": "2026-10-26T08:45:11.490Z",
+        "reason": "Covers v29 server and database changes such as the .NET 10 runtime and the new table-extension data model, which likely affect an on-premises upgrade.",
+        "at": "2026-11-01T00:43:03.571Z",
         "v": 2
       }
     },
@@ -6174,44 +6252,44 @@
     "topic/dev-itpro/development": {
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/@47a92fdf99c0025c": {
         "verdict": "keep",
-        "reason": "Curates AL development topics such as page background tasks and page extensions, which fall under AL programming and extensibility.",
-        "at": "2026-10-26T06:37:43.555Z",
+        "reason": "It rounds up AL development posts that cover page background tasks, page extensions and AI-assisted development practice.",
+        "at": "2026-11-01T00:43:01.120Z",
         "v": 2
       },
       "post/gerardorenteria-blog/13675@23274fa78ce59328": {
         "verdict": "drop",
-        "reason": "Describes what a financial-report notes solution does for users, not how to develop AL extensions; its subject is the example, not the lesson.",
-        "at": "2026-10-26T06:37:43.555Z",
+        "reason": "It describes what a financial-report notes extension does for finance users, not how to develop extensions; AL is only the build vehicle.",
+        "at": "2026-11-01T00:43:01.120Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-62-vs-code-al-themes/@515eb7601df9149e": {
         "verdict": "keep",
-        "reason": "Covers the built-in themes in the AL Language extension for VS Code, part of the development environment.",
-        "at": "2026-10-26T06:37:43.555Z",
+        "reason": "The AL Language extension's VS Code themes are part of the development environment.",
+        "at": "2026-11-01T00:43:01.120Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/projects/al-pocket-tools/@935273519c46afe5": {
         "verdict": "keep",
-        "reason": "A VS Code extension that streamlines AL development work such as launch.json, versions and code navigation.",
-        "at": "2026-10-26T06:37:43.555Z",
+        "reason": "It's a VS Code tooling extension that automates AL development workflow tasks.",
+        "at": "2026-11-01T00:43:01.120Z",
         "v": 2
       },
-      "post/yzhums-com/74592@dda5d96cdd872ead": {
+      "post/wingate365-com/https://blog.wingate365.com/2025/12/bc-community-2025-wrapped-blogs-videos.html@43286960f794b74a": {
         "verdict": "drop",
-        "reason": "About community blogging and knowledge sharing; covers nothing this section documents.",
-        "at": "2026-10-26T06:37:43.555Z",
+        "reason": "It analyses community blogging statistics and doesn't explain anything the Development section documents.",
+        "at": "2026-11-01T00:43:01.120Z",
         "v": 2
       },
       "video/mnxOSl1Y9PI@089d509598986664": {
         "verdict": "keep",
-        "reason": "Overview of updates to the developer documentation, including extensibility, reporting, troubleshooting and AL topics.",
-        "at": "2026-10-26T06:37:43.555Z",
+        "reason": "It directly covers updates to the developer documentation: extensibility, troubleshooting, data analytics and AL.",
+        "at": "2026-11-01T00:43:01.120Z",
         "v": 2
       },
       "video/npkC4wyucyY@1750839e8a18765c": {
         "verdict": "keep",
-        "reason": "Benchmarks AI coding agents on Business Central AL development tasks and uses tools like the AL MCP server and an AL review agent.",
-        "at": "2026-10-26T06:37:43.555Z",
+        "reason": "It covers AI agents for AL coding, the AL MCP server and AL code-review tooling, which relate to the development environment and practices.",
+        "at": "2026-11-01T00:43:01.120Z",
         "v": 2
       }
     },
@@ -6335,50 +6413,56 @@
     "topic/dev-itpro/development/development-environment/other-tools": {
       "post/demiliani-com/13541@b2b49b1974057c7f": {
         "verdict": "drop",
-        "reason": "Covers installing AppSource apps into tenants with an admin MCP server, which is tenant administration rather than development-environment tooling.",
-        "at": "2026-10-25T17:51:25.152Z",
+        "reason": "An admin tool for installing Marketplace apps on tenants is about tenant administration, not developer tooling.",
+        "at": "2026-11-01T00:43:17.326Z",
         "v": 2
       },
       "post/sshadows-dk/https://sshadows.dk/blog/business-central-on-linux/@eafb180164dd5a4e": {
         "verdict": "keep",
-        "reason": "Experimental container/build infrastructure for running BC for development builds relates to the development-environment tooling covered here.",
-        "at": "2026-10-25T17:51:25.152Z",
+        "reason": "An experiment running Business Central containers and builds on Linux is about development and build infrastructure tooling.",
+        "at": "2026-11-01T00:43:17.326Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/bcdb-read-business-central-backups-without-sql-server/@9a9c88cf46904607": {
         "verdict": "keep",
-        "reason": "bcdb is a developer tool for reading BC databases for testing and data use, which fits the other development tools.",
-        "at": "2026-10-25T17:51:25.152Z",
+        "reason": "A developer tool that reads Business Central backups for testing and data extraction fits the other-tools scope.",
+        "at": "2026-11-01T00:43:17.326Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-49-page-scripting-and-ai/@08f0cb482efe0c1c": {
         "verdict": "drop",
-        "reason": "Page Scripting for recording/replaying tests is documented under the sibling Testing section, not this one.",
-        "at": "2026-10-25T17:51:25.152Z",
+        "reason": "Page Scripting for testing and documentation belongs with the Testing sibling section, not other dev tools.",
+        "at": "2026-11-01T00:43:17.326Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2025/12/15/ninja-v3-is-live-where-we-are-and-what-comes-next/@6e00f13ca065660e": {
         "verdict": "keep",
-        "reason": "AL Object ID Ninja is a VS Code development tool for AL, so it fits other development tools.",
-        "at": "2026-10-25T17:51:25.152Z",
+        "reason": "AL Object ID Ninja is a VS Code development tool for AL, and this post covers its v3 release.",
+        "at": "2026-11-01T00:43:17.326Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/03/05/al-object-id-ninja-an-apology-a-decision-and-a-month-on-the-house/@f8a1acd57700bb9a": {
         "verdict": "keep",
-        "reason": "Discusses changes to how the AL Object ID Ninja development tool is offered and supported, which affects developers using it.",
-        "at": "2026-10-25T17:51:25.152Z",
+        "reason": "It covers changes to how the AL Object ID Ninja dev tool is supported and self-hosted, which affects developers using it.",
+        "at": "2026-11-01T00:43:17.326Z",
+        "v": 2
+      },
+      "post/wingate365-com/https://blog.wingate365.com/2026/04/trying-out-github-copilot-agent-for.html@9f6b3402fad55cc6": {
+        "verdict": "drop",
+        "reason": "It uses a Copilot agent to validate CSV master data, a functional task rather than Business Central dev tooling.",
+        "at": "2026-11-01T00:43:17.326Z",
         "v": 2
       },
       "video/8t3WaWh7K9Y@394c2c33d671a56a": {
         "verdict": "keep",
-        "reason": "Shows the Open in VS Code and source control details tooling that links the environment to source code in VS Code.",
-        "at": "2026-10-25T17:51:25.152Z",
+        "reason": "It shows Open in VS Code and AL-Go source-control integration, which are developer tooling features.",
+        "at": "2026-11-01T00:43:17.326Z",
         "v": 2
       },
       "video/LDRziYUdlAg@2fdc5b2c91655d52": {
         "verdict": "keep",
-        "reason": "Covers AL-Go, BcContainerHelper and local dev tooling, all development tools for the BC environment.",
-        "at": "2026-10-25T17:51:25.152Z",
+        "reason": "These AL-Go for GitHub office hours cover AL-Go, BcContainerHelper and local dev tooling.",
+        "at": "2026-11-01T00:43:17.326Z",
         "v": 2
       }
     },

@@ -6,14 +6,39 @@
   "title": "Fix-Bug 652112 Public Preview: If a field such as \"Email\" is updated programmatically on the customer record, the change is not automatically transferred to the associated contact.",
   "url": "https://github.com/microsoft/BCApps/pull/12083",
   "published_at": "2026-10-29T15:03:10Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-30T00:17:01.742Z"
+    },
+    "fetched": {
+      "at": "2026-11-01T00:18:57.307Z",
+      "change_class": "code",
+      "files": 42,
+      "al": 35,
+      "objects": 34,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-01T00:19:03.191Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.005292
+    },
+    "linked": {
+      "at": "2026-11-01T00:19:03.334Z",
+      "objects": 34,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-01T00:19:03.411Z",
+      "path": "content/changes/bcapps/12083.md"
     }
   },
   "input_hash": "fb8544e7fcc622a2ce8e7c26ccb7454c0c918461:c1",
-  "attempts": 2,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12083,
@@ -29,6 +54,12 @@
     "community_contribution": false,
     "title_key": "fix bug 652112 public preview if a field such as email is updated programmatically on the customer record the change is not automatically transferred to the associated contact"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-10-31T04:20:38.288Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9af3380718e6e7084643735deae75d36a498c529690412ac05866d0654abb5e2",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-01T00:44:15.702Z"
+  }
 }

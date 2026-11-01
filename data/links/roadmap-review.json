@@ -1139,33 +1139,33 @@
     "573306": {
       "docs/learn-smb-docs/business-central/finance-register-excise-tax.md@fb73fa6e528ec923": {
         "verdict": "keep",
-        "reason": "Register excise tax page lists multiple tax type assignment, matching assigning several excise duties to an item.",
-        "at": "2026-10-30T08:02:01.539Z"
+        "reason": "Borderline keep: the page's own feature list names 'Multiple tax type assignment', which matches assigning more than one excise duty, though it doesn't say this happens per item.",
+        "at": "2026-11-01T00:40:48.538Z"
       },
       "docs/learn-smb-docs/business-central/finance-set-up-excise-tax.md@d5fdfab1ecbcd9ef": {
         "verdict": "drop",
-        "reason": "Describes general excise tax setup and item assignment, not multiple duties per item.",
-        "at": "2026-10-30T08:02:01.539Z"
+        "reason": "This is general excise tax setup (tax types, basis, rates, assigning taxes to items) and says nothing about several duties on one item.",
+        "at": "2026-11-01T00:40:48.538Z"
       },
-      "video/Cj_n5x3gN_Y#4@9eab359c4fce8037": {
+      "video/Cj_n5x3gN_Y#4@c1c26a6ed77f06cc": {
         "verdict": "drop",
-        "reason": "Covers fixed excise duty rates with effective dates, a different capability.",
-        "at": "2026-10-30T08:02:01.539Z"
+        "reason": "It covers fixed duty rates with effective-from dates on items and fixed assets, which is a different capability from multiple duties per item.",
+        "at": "2026-11-01T00:40:48.538Z"
       },
       "video/kD8kX14VVZE#5@3445b36db872beb4": {
         "verdict": "drop",
-        "reason": "About the sustainability CBAM/EPR tax framework, only shares the topic.",
-        "at": "2026-10-30T08:02:01.539Z"
+        "reason": "It describes the sustainability tax framework for CBAM and EPR, so it only shares the excise tax topic.",
+        "at": "2026-11-01T00:40:48.538Z"
       },
       "video/lcpk-gPfGQU#6@2da3814d4b926994": {
         "verdict": "drop",
-        "reason": "Describes the earlier item-based excise configuration framework, not multiple duties per item.",
-        "at": "2026-10-30T08:02:01.539Z"
+        "reason": "It is the older 2025 wave 2 framework, where taxes are set up on the item card; it doesn't cover multiple duties per item.",
+        "at": "2026-11-01T00:40:48.538Z"
       },
       "video/N_J1HB_fUCM#0@db462b141338d931": {
         "verdict": "keep",
-        "reason": "Directly announces adding multiple excise taxes to a single item via a new excise taxes page.",
-        "at": "2026-10-30T08:02:01.539Z"
+        "reason": "It directly announces adding multiple excise taxes to a single item through a new excise taxes page.",
+        "at": "2026-11-01T00:40:48.538Z"
       }
     },
     "573307": {
@@ -1265,203 +1265,208 @@
     "573312": {
       "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-configuration-trace.md@b6d86fa30c97c4d4": {
         "verdict": "drop",
-        "reason": "MCP configuration telemetry, not custom data queries.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Configuration telemetry is general MCP topic, not custom data queries.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-server-trace.md@76b2ef9f35f9c38b": {
         "verdict": "drop",
-        "reason": "Tool call telemetry is general monitoring, not the query feature.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Tool call telemetry does not describe the data query tools.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-mcp-server.md@594338000aff45d5": {
         "verdict": "drop",
-        "reason": "AL developer MCP server is a different product.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "AL development MCP server is a different product.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-22-1.md@e4e00f23ab2d0f9c": {
         "verdict": "drop",
         "reason": "Unrelated 2023 update.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/4HE3BBCcV84#0@e14a25e2a17a52c1": {
         "verdict": "drop",
-        "reason": "Exposing existing API queries is an earlier, different capability.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Exposing existing API queries is a different capability than custom data queries without APIs.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/4HE3BBCcV84#2@e14a25e2a17a52c1": {
         "verdict": "drop",
-        "reason": "Selecting existing API queries as object type differs from defining custom queries.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Selecting existing analytics API queries in configuration is a different capability.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/AMVAiPTfSrU#1@d594f5705e966159": {
         "verdict": "drop",
-        "reason": "General MCP server mention.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "General MCP server overview.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/C5cmG3sNjUg#0@dc724b8ce76af8c3": {
         "verdict": "drop",
-        "reason": "Describes API exposure, not custom queries without APIs.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Describes API exposure, not custom queries.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/C5cmG3sNjUg#3@dc724b8ce76af8c3": {
         "verdict": "drop",
-        "reason": "Dynamic tool search over API pages, a different capability.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Dynamic tool search is a different capability.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
-      "video/EpDIrJE0HzA#1@d36556463a26942f": {
+      "video/EpDIrJE0HzA#1@21321fae0c1fa1d7": {
         "verdict": "drop",
-        "reason": "General MCP description.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "General MCP explanation.",
+        "at": "2026-11-01T00:41:00.329Z"
+      },
+      "video/EpDIrJE0HzA#2@21321fae0c1fa1d7": {
+        "verdict": "drop",
+        "reason": "MCP configurations page is a different capability.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/GeT5E_f9A9Q#0@be56261481e721e3": {
         "verdict": "drop",
-        "reason": "MCP configurations in general.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Configurations for API exposure, not data queries.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/GeT5E_f9A9Q#1@be56261481e721e3": {
         "verdict": "drop",
-        "reason": "Dynamic tool mode is a different feature.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Dynamic tool mode is a different capability.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/GeT5E_f9A9Q#3@be56261481e721e3": {
         "verdict": "drop",
-        "reason": "Bound actions on API pages, different capability.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Bound actions are a different capability.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/GK6hM-nBYZk#1@389cdb7bd9e37f0c": {
         "verdict": "drop",
         "reason": "General MCP server mention.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/IDYhxt-8ImI#22@7ab728d0a7abc892": {
         "verdict": "drop",
         "reason": "General MCP explanation.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/iViHfCgL2L8#0@b4735c7cd0586a45": {
         "verdict": "drop",
         "reason": "General MCP server introduction.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/iViHfCgL2L8#2@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "Default read-only configuration, different capability.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Default read-only configuration is a different capability.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/iViHfCgL2L8#3@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "Write scenarios configuration, different capability.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Write scenario configurations are a different capability.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/LerAo-GGl8U#0@bad4154ca6e36eb9": {
         "verdict": "drop",
         "reason": "Admin MCP server is a different product.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/mBU2Iu0urw8#18@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "AL developer MCP server, unrelated.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "AL development MCP server is different.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/mBU2Iu0urw8#34@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "AL development tooling, unrelated.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "AL development MCP tooling is different.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/mBU2Iu0urw8#8@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "AL development MCP servers, unrelated.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "AL development MCP servers are different.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/q3xnjJD32kk#4@8159e1ae25b35be5": {
         "verdict": "keep",
-        "reason": "Announces agents building and running queries via MCP tools without APIs.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Directly describes agents constructing and running queries via MCP tools without APIs.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/qs1cg-GoDeQ#0@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Find tables tool is part of the data query toolset for defining queries.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Find tables tool is part of the data query tool set.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/qs1cg-GoDeQ#1@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Table relations tool supports defining join queries in this feature.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Table relations tool supports writing join queries in the data query feature.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/qs1cg-GoDeQ#2@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Table schema tool supports defining custom queries in this feature.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Table schema tool is part of the data query tool set.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/qs1cg-GoDeQ#3@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Data query tool directly runs AL queries without APIs.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Data query tool runs AL queries directly without APIs.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/qs1cg-GoDeQ#4@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Describes constructing and compiling AL queries for ad hoc analysis.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Describes agents constructing and compiling AL queries for ad hoc analysis.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/rm-FstU_I80#0@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "General MCP server description.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "General MCP server overview.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/rm-FstU_I80#10@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Static configuration mode, different capability.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Static configuration for writes is different.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/rm-FstU_I80#11@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Default read-only access, different capability.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Default read-only access is different.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/rm-FstU_I80#14@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Search/describe/invoke core tools, not query tools.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Search/describe/invoke tools are a different capability.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/rm-FstU_I80#15@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Natural language data retrieval via APIs, too general.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Natural language data retrieval via existing APIs, not custom query tools.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/rm-FstU_I80#19@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Validate here concerns API related entities, not query validation.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Validate here refers to API related entity exposure, not query validation.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/rm-FstU_I80#2@0f4bbcf3b92a052f": {
         "verdict": "drop",
         "reason": "General MCP tools component.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/rm-FstU_I80#22@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Exposing existing queries via configuration, not custom-defined queries.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Exposing existing queries via configuration differs from defining custom queries.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/rm-FstU_I80#23@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Page/API selection, different capability.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Page and API selection is different.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/rm-FstU_I80#6@0f4bbcf3b92a052f": {
         "verdict": "drop",
         "reason": "General MCP description.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/rm-FstU_I80#9@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Dynamic tool configuration, different capability.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Dynamic tool configuration is different.",
+        "at": "2026-11-01T00:41:00.329Z"
       },
       "video/x0XF0lBvgEE#2@b58c3bf367517517": {
         "verdict": "keep",
-        "reason": "Names and announces the Run data queries with MCP Server feature.",
-        "at": "2026-10-30T08:01:02.191Z"
+        "reason": "Announces the Run Data Queries with MCP Server feature.",
+        "at": "2026-11-01T00:41:00.329Z"
       }
     },
     "573313": {
@@ -2819,349 +2824,339 @@
       }
     },
     "573341": {
-      "video/B-pxLlb-UN0#11@3ca5381606489b52": {
+      "video/B-pxLlb-UN0#11@8bba2b4ec9abd436": {
         "verdict": "drop",
-        "reason": "This covers the earlier upgrade to the January 2026 API, not the July 2026 uptake.",
-        "at": "2026-10-30T08:03:04.463Z"
-      },
-      "video/B-pxLlb-UN0#6@3ca5381606489b52": {
-        "verdict": "drop",
-        "reason": "Removing the tax code field is a different change from an earlier release.",
-        "at": "2026-10-30T08:03:04.463Z"
+        "reason": "Describes the earlier upgrade to API 2026-01, not the July 2026 API uptake this feature adds.",
+        "at": "2026-11-01T00:40:57.720Z"
       },
       "video/lClKXB8xXIE#1@4e7a21afb4ccda5e": {
         "verdict": "drop",
-        "reason": "Request IDs in log entries are an older troubleshooting feature from 2023.",
-        "at": "2026-10-30T08:03:04.463Z"
+        "reason": "Request IDs in log entries are an older 2023 troubleshooting capability, not part of this feature.",
+        "at": "2026-11-01T00:40:57.720Z"
       },
       "video/lClKXB8xXIE#10@4e7a21afb4ccda5e": {
         "verdict": "drop",
-        "reason": "This is a general 2023 explanation of Shopify's versioning policy, not this release's API uptake.",
-        "at": "2026-10-30T08:03:04.463Z"
+        "reason": "Explains Shopify's general quarterly versioning policy in a 2023 video, not this release's API update.",
+        "at": "2026-11-01T00:40:57.720Z"
       },
       "video/lClKXB8xXIE#2@4e7a21afb4ccda5e": {
         "verdict": "drop",
-        "reason": "The user error section in log responses is an older 2023 capability.",
-        "at": "2026-10-30T08:03:04.463Z"
+        "reason": "User error section in log responses is an older 2023 capability.",
+        "at": "2026-11-01T00:40:57.720Z"
       },
       "video/lClKXB8xXIE#4@4e7a21afb4ccda5e": {
         "verdict": "drop",
-        "reason": "Log retention policies are an older, different capability.",
-        "at": "2026-10-30T08:03:04.463Z"
+        "reason": "Log retention policies are an older capability not mentioned in this feature.",
+        "at": "2026-11-01T00:40:57.720Z"
       },
       "video/lClKXB8xXIE#6@4e7a21afb4ccda5e": {
         "verdict": "drop",
-        "reason": "User errors in product queries are an older 2023 capability.",
-        "at": "2026-10-30T08:03:04.463Z"
+        "reason": "User errors in product queries are an older 2023 change, not the skipping of invalid unit-of-measure combinations.",
+        "at": "2026-11-01T00:40:57.720Z"
       },
       "video/p-pwG6f5srY#4@fa5e45737e3ae6af": {
         "verdict": "drop",
-        "reason": "The 2024-07 API update is an older version uptake.",
-        "at": "2026-10-30T08:03:04.463Z"
+        "reason": "Covers the earlier upgrade to API 2024-07, an older capability.",
+        "at": "2026-11-01T00:40:57.720Z"
       },
       "video/StIVhsnOHWY#1@18f1d38e63ae8872": {
         "verdict": "drop",
-        "reason": "Logging mode options date from 2025 and are not this feature's new behavior.",
-        "at": "2026-10-30T08:03:04.463Z"
+        "reason": "Logging mode options came in 2025 wave 2 and are not the new With errors view or cues.",
+        "at": "2026-11-01T00:40:57.720Z"
       },
       "video/StIVhsnOHWY#14@18f1d38e63ae8872": {
         "verdict": "drop",
-        "reason": "The has-error field on orders to import is an older 2025 capability.",
-        "at": "2026-10-30T08:03:04.463Z"
+        "reason": "Has error field on orders to import is an older capability.",
+        "at": "2026-11-01T00:40:57.720Z"
       },
       "video/StIVhsnOHWY#15@18f1d38e63ae8872": {
         "verdict": "drop",
-        "reason": "Inspecting received order data is an older, different capability.",
-        "at": "2026-10-30T08:03:04.463Z"
+        "reason": "Inspecting received order data is an older troubleshooting capability.",
+        "at": "2026-11-01T00:40:57.720Z"
       },
       "video/StIVhsnOHWY#2@18f1d38e63ae8872": {
         "verdict": "drop",
-        "reason": "Skip notifications for customer validation are an older 2025 capability, not the new unit-of-measure skipping or cues.",
-        "at": "2026-10-30T08:03:04.463Z"
+        "reason": "Customer validation skip notices are an older capability, not the item unit-of-measure skipping.",
+        "at": "2026-11-01T00:40:57.720Z"
       },
       "video/StIVhsnOHWY#3@18f1d38e63ae8872": {
         "verdict": "drop",
-        "reason": "Detailed log entries for synchronization are an older 2025 capability.",
-        "at": "2026-10-30T08:03:04.463Z"
+        "reason": "General log entry details from 2025 wave 2 don't cover this feature's additions.",
+        "at": "2026-11-01T00:40:57.720Z"
       },
       "video/StIVhsnOHWY#9@18f1d38e63ae8872": {
         "verdict": "drop",
-        "reason": "Error columns in the product list are an older 2025 capability.",
-        "at": "2026-10-30T08:03:04.463Z"
+        "reason": "Error columns in the product list are an older capability, not part of this feature.",
+        "at": "2026-11-01T00:40:57.720Z"
       }
     },
     "573342": {
       "docs/learn-smb-docs/business-central/shopify/synchronize-customers.md@bbac73fbedfbbd61": {
         "verdict": "drop",
         "reason": "General Learn page on customer/company sync without describing this feature's new changes.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "docs/learn-smb-docs/business-central/shopify/synchronize-prices.md@5c00c6153b5cf36f": {
         "verdict": "drop",
         "reason": "General price sync Learn page, not the duplicate catalog price prevention or plan changes.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/3tmaVpPTQLw#10@26cdd93126fd3bd6": {
         "verdict": "drop",
         "reason": "Older 2024 default contact permissions setting, not part of this feature.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/3tmaVpPTQLw#11@26cdd93126fd3bd6": {
         "verdict": "drop",
         "reason": "Older 2024 automatic catalog creation capability.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/3tmaVpPTQLw#12@26cdd93126fd3bd6": {
         "verdict": "drop",
         "reason": "Older 2024 B2B catalog management capability.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/3tmaVpPTQLw#14@26cdd93126fd3bd6": {
         "verdict": "drop",
         "reason": "Older 2024 company-specific catalog capability.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/3tmaVpPTQLw#15@26cdd93126fd3bd6": {
         "verdict": "drop",
         "reason": "Introduces the Get Catalogs action in 2024; this feature only updates its tooltip.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/3tmaVpPTQLw#16@26cdd93126fd3bd6": {
         "verdict": "drop",
         "reason": "Older 2024 catalog price sync capability.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/3tmaVpPTQLw#18@26cdd93126fd3bd6": {
         "verdict": "drop",
         "reason": "Older 2024 B2B order handling.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/3tmaVpPTQLw#7@26cdd93126fd3bd6": {
         "verdict": "drop",
         "reason": "General 2024 B2B integration overview.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/3tmaVpPTQLw#9@26cdd93126fd3bd6": {
         "verdict": "drop",
         "reason": "Older 2024 company export settings.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
-      "video/AR2FiD64wbw#2@da5092ad8dfbc475": {
+      "video/AR2FiD64wbw#2@a0b7bbb3f2e5dade": {
         "verdict": "drop",
         "reason": "Older 2024 company catalog pricing sync.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/BwBR8JwwQa4#0@d6e0116c58a49c44": {
         "verdict": "drop",
         "reason": "Older 2025 wave 1 company location import.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/BwBR8JwwQa4#1@d6e0116c58a49c44": {
         "verdict": "drop",
         "reason": "Older 2025 wave 1 tax ID entity mapping.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/BwBR8JwwQa4#2@d6e0116c58a49c44": {
         "verdict": "drop",
         "reason": "Older customer export with tax ID capability.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/BwBR8JwwQa4#3@d6e0116c58a49c44": {
         "verdict": "drop",
         "reason": "Payment terms mapping is not part of this feature.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/BwBR8JwwQa4#4@d6e0116c58a49c44": {
         "verdict": "drop",
         "reason": "Older automatic catalog creation with customer pricing.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/BwBR8JwwQa4#5@d6e0116c58a49c44": {
         "verdict": "drop",
         "reason": "Older 2025 wave 1 shop card tax ID export setting, not the new tax registration mapping.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/gy_6QnFpiEw#0@cb57ed66a7b05277": {
         "verdict": "drop",
         "reason": "Older 2025 wave 2 market catalog import capability.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/gy_6QnFpiEw#1@cb57ed66a7b05277": {
         "verdict": "drop",
         "reason": "Older market price sync capability.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/gy_6QnFpiEw#2@cb57ed66a7b05277": {
         "verdict": "drop",
         "reason": "Multi-currency market support is a different capability.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/gy_6QnFpiEw#3@cb57ed66a7b05277": {
         "verdict": "drop",
         "reason": "POS market definition is a different capability.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/gy_6QnFpiEw#4@cb57ed66a7b05277": {
         "verdict": "drop",
         "reason": "Older B2B Plus market company location capability.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/gy_6QnFpiEw#5@cb57ed66a7b05277": {
         "verdict": "drop",
         "reason": "Older catalog page rename with currency code, not this feature's terminology changes.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/p-pwG6f5srY#3@fa5e45737e3ae6af": {
         "verdict": "drop",
         "reason": "Older 2024 customer-specific catalog pricing.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/VjYMhjjc3uw#0@68c5267e5a54f1e0": {
         "verdict": "drop",
         "reason": "Older company multi-location import capability.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/VjYMhjjc3uw#2@68c5267e5a54f1e0": {
         "verdict": "drop",
         "reason": "Older Shopify Companies list introduction, not role center navigation.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/VjYMhjjc3uw#3@68c5267e5a54f1e0": {
         "verdict": "drop",
         "reason": "Older Shopify Locations list capability.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/VjYMhjjc3uw#4@68c5267e5a54f1e0": {
         "verdict": "drop",
         "reason": "Older location-to-customer mapping capability.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/VjYMhjjc3uw#5@68c5267e5a54f1e0": {
         "verdict": "drop",
         "reason": "Older order sync location mapping capability.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/YSDfDjrMUb0#5@1d4d067169f0a11f": {
         "verdict": "keep",
         "reason": "Shows company synchronization available for all Shopify plans, as this feature adds.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/YSDfDjrMUb0#6@1d4d067169f0a11f": {
         "verdict": "keep",
         "reason": "Shows market catalogs that prevent duplicate price synchronization, as this feature describes.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       },
       "video/YSDfDjrMUb0#7@1d4d067169f0a11f": {
         "verdict": "keep",
         "reason": "Shows company tax registration IDs being imported and used for company mapping.",
-        "at": "2026-10-31T01:00:32.546Z"
+        "at": "2026-11-01T00:40:48.543Z"
       }
     },
     "573343": {
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-22-2.md@31ac973f029315a6": {
         "verdict": "drop",
-        "reason": "Update 22.2 returns synchronization is an older, general returns capability, not exchange handling.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Generic 2023 returns synchronization mention, not the exchange handling capability.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "docs/learn-smb-docs/business-central/shopify/synchronize-orders.md@ad50a3dbcfa31249": {
         "verdict": "drop",
-        "reason": "General order sync page listing returns/refunds processing without describing exchange lines.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "General order sync Learn page summary with no description of exchange lines or Move Negative Lines.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "video/3tmaVpPTQLw#19@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Cancel order action is a different capability.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Order cancellation is a different capability.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "video/3tmaVpPTQLw#20@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Order status sync back to Shopify is a different capability.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Order status sync back to Shopify is unrelated to exchanges and refunds processing.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "video/3tmaVpPTQLw#21@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "2024 wave 1 order editing with refunds is an older capability, not the exchange/negative-line handling.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Describes the older 2024 order-edit-with-refunds capability, not return exchanges.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "video/3tmaVpPTQLw#22@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Filtering zero-value refunds is an older 2024 wave 1 behavior.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Older 2024 credit memo filtering of zero-value refunds, a different capability.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "video/3tmaVpPTQLw#23@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Error detection for received edits is an older 2024 wave 1 capability.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Older 2024 edit detection behavior, not exchange processing.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "video/3tmaVpPTQLw#24@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Synchronize order action is an older, different capability.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Older 2024 resync action, not this feature.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "video/3tmaVpPTQLw#25@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Unlink processed documents is an older, different capability.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Unlink processed documents action is a different, older capability.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "video/3tmaVpPTQLw#26@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Automatic credit memo for edit refunds is an older 2024 wave 1 capability, not exchange handling.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Older 2024 credit memo creation for edit refunds, not exchange lines handling.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "video/3tmaVpPTQLw#27@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Edit and refund handling for paid orders is an older 2024 wave 1 capability.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Older 2024 edit and refund handling for paid orders.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "video/3tmaVpPTQLw#28@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Edits for unpaid orders is an older, different capability.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Edits for unpaid orders is a different, older capability.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "video/3tmaVpPTQLw#29@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Conflict notifications for edits are an older, different capability.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Conflict warnings from 2024 are a different capability.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
-      "video/B-pxLlb-UN0#10@3ca5381606489b52": {
+      "video/B-pxLlb-UN0#10@8bba2b4ec9abd436": {
         "verdict": "drop",
-        "reason": "API field change for return info is too general to show exchange processing.",
-        "at": "2026-10-31T01:00:28.210Z"
-      },
-      "video/B-pxLlb-UN0#9@3ca5381606489b52": {
-        "verdict": "drop",
-        "reason": "Fulfillment limitations are a different capability.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "API field change for return information is too general to tie to exchange processing.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "video/p-pwG6f5srY#7@fa5e45737e3ae6af": {
         "verdict": "drop",
-        "reason": "Return location priority setting is a different, older capability.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Return location priority setting is a different capability.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "video/p-pwG6f5srY#8@fa5e45737e3ae6af": {
         "verdict": "drop",
-        "reason": "Item charge mapping for shipping is unrelated.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Shipping charge item charge mapping is unrelated.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "video/StIVhsnOHWY#21@18f1d38e63ae8872": {
         "verdict": "drop",
-        "reason": "Fulfillment information display is a different capability.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Fulfillment information display is unrelated to exchanges and refunds.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "video/StIVhsnOHWY#22@18f1d38e63ae8872": {
         "verdict": "drop",
-        "reason": "Syncing fulfillment changes is a different capability.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Fulfillment sync action is unrelated to exchange processing.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "video/YSDfDjrMUb0#11@1d4d067169f0a11f": {
         "verdict": "keep",
-        "reason": "Describes support for Shopify exchanges and returns resulting in multiple lines on sales documents.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Shows support for Shopify exchanges and returns producing multiple lines on sales documents.",
+        "at": "2026-11-01T00:41:03.435Z"
       },
       "video/YSDfDjrMUb0#12@1d4d067169f0a11f": {
         "verdict": "keep",
-        "reason": "Describes processing refunds as return orders with positive and negative quantity lines for exchanges.",
-        "at": "2026-10-31T01:00:28.210Z"
+        "reason": "Shows processing refunds as return orders with positive and negative quantity lines, part of this feature.",
+        "at": "2026-11-01T00:41:03.435Z"
       }
     },
     "573344": {
@@ -3314,313 +3309,313 @@
     "573350": {
       "docs/learn-smb-docs/business-central/qms-manual-test-creation.md@89cc65096ed8d34f": {
         "verdict": "drop",
-        "reason": "General Learn page on inspections; assignment to users is existing capability, not the new self-assign prompt.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "General Learn page on working with inspections; does not describe the new assignment prompt or automatic quantity calculation.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "docs/learn-smb-docs/business-central/qms-overview.md@164e3353c106b1f3": {
         "verdict": "drop",
         "reason": "General Quality Management overview.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "docs/learn-smb-docs/business-central/qms-production-output-testing.md@7bb3dfee2e02eb7b": {
         "verdict": "drop",
-        "reason": "Demo of automatic sampled inspection creation, a different capability.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Demo of automatic sampled inspection creation, not this feature's improvements.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "docs/learn-smb-docs/business-central/qms-purchase-receipt-testing-warehouse.md@4d4b6693dd1536e5": {
         "verdict": "drop",
-        "reason": "Demo of automatic inspection from warehouse receipt and reinspection, not this feature.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Demo of warehouse receipt inspection and reinspection, a different capability.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "docs/learn-smb-docs/business-central/qms-quality-workflows.md@f606ca23b9875c7b": {
         "verdict": "drop",
-        "reason": "General workflows page; doesn't describe destination bin selection or new disposition controls.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "General workflow page; does not describe destination bin selection or other new improvements.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "docs/learn-smb-docs/business-central/qms-test-generation-rules.md@c80b83700fa13e8f": {
         "verdict": "drop",
-        "reason": "Generation rules setup, a different capability.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Generation rules are a different capability.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
-      "video/H5EuObmeF4o#36@8dd998b26c06c6f7": {
+      "video/H5EuObmeF4o#36@56c1d175230d9e97": {
         "verdict": "drop",
         "reason": "General introduction of the extension.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#0@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "General introduction of the extension.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#1@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Automatic triggering, a different capability.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Automatic triggering is a different capability.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#10@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Attachments, a different capability.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Attachments are a different capability.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#11@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Automatic transfer order on failure is existing disposition, not destination bin selection.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Existing transfer order behavior, not destination bin selection.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#12@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Item tracking preservation, not this feature.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Item tracking preservation is a different capability.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#13@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Sample size configuration is existing capability, not auto passed/failed quantity.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Sample size configuration is existing functionality.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#14@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Existing sales blocking; no mention of error details linking to the inspection.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Existing sales blocking, not the new error details or link to the responsible inspection.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#15@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Reinspection, a different capability.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Reinspection is a different capability.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#16@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Certificate of analysis report, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Certificate of analysis report is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#17@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Non-conformance report, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Non-conformance report is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#18@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Role center, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Role center is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#19@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Setup data, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Setup data is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#20@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Result configuration, older capability.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Result configuration is existing functionality.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#21@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Result visibility settings, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Result visibility is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#22@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Existing blocking configuration; not the new error guidance.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Existing blocking setup, not the improved error guidance.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#23@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Test parameter definition, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Test parameters are unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#24@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Allowable values, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Allowable values are unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#25@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Default test values, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Default test values are unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#26@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Result conditions, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Pass/fail conditions are existing functionality.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#27@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Evaluation sequence, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Evaluation sequence is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#28@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Boolean test type, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Boolean test type is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#29@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Option test type, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Option test type is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#3@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Manual triggering, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Manual triggering is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#30@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Table lookup, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Table lookup is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#31@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Lookup filtering, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Lookup filtering is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#32@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Lookup limits, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Lookup limits are unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#33@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Lookup values table, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Lookup values table is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#34@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Lookup values, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Lookup values are unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#35@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Test types, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Test types are unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#36@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Templates, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Templates are unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#37@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Sampling configuration, older capability.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Sampling configuration is existing functionality.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#38@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Generation rules, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Generation rules are unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#39@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Automatic creation, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Automatic creation is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#40@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Existing blocking; no error guidance to the responsible inspection.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Existing blocking behavior, not the new error details.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#41@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Setup page, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Setup page is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#42@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Existing disposition actions; no destination bin selection.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Existing disposition actions, not the new destination bin selection.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#43@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Item tracking change, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Item tracking change is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#44@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Existing quantity selection in wave 1; not the new destination/bin controls.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Quantity options shown in the wave 1 introduction are existing functionality, not the new movement controls.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#45@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Sample quantity field, not automatic passed/failed calculation.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Sample quantity field is existing functionality.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#46@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Workflow events, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Workflow events are unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#47@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Workflow conditions, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Workflow conditions are unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#48@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Tracking number blocking workflow, older capability.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Tracking blocking workflow is existing functionality.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#49@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Inspection action workflows, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Workflow actions are unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#5@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "General non-compliant handling.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Too general.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#50@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Existing movement responses; no destination bin selection.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Existing movement responses, with no destination bin selection described.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#51@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "API integration, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "API integration is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#52@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Built-in workflows generally, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Built-in workflows in general are unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#6@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Inspection on purchase receipt, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Purchase receipt inspection is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#7@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Test execution, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Test execution in general is unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#8@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Test descriptions, unrelated.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Test descriptions are unrelated.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/m8-7-JKq4dc#9@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Result determination, not passed/failed quantity calculation.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Result determination is existing functionality, not quantity calculation.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/sqjb_gsXqM8#0@3e0f3805f4fc321c": {
         "verdict": "drop",
         "reason": "General extension announcement.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/WACQbAEVOJg#11@e2490580dfb182a3": {
         "verdict": "keep",
-        "reason": "Explains role-based permissions for assigning inspections and modifying quantities, matching consistent assignment and permission enforcement.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Describes the inspection role permissions and assignment controls that the consistent rules and permissions part of this feature covers.",
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/WACQbAEVOJg#12@e2490580dfb182a3": {
         "verdict": "keep",
         "reason": "Shows the prompt to assign a modified inspection to the current user.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "at": "2026-11-01T00:41:18.112Z"
       },
       "video/WACQbAEVOJg#13@e2490580dfb182a3": {
         "verdict": "keep",
-        "reason": "Shows automatic passed/failed quantity update from sample size when finishing an inspection.",
-        "at": "2026-10-30T08:03:27.650Z"
+        "reason": "Shows passed/failed quantity being updated automatically from sample size when the inspection is finished.",
+        "at": "2026-11-01T00:41:18.112Z"
       }
     },
     "573351": {
@@ -4360,110 +4355,105 @@
     "573374": {
       "docs/learn-smb-docs/business-central/finance-sustainability-journal.md@5dfe7dfe2f181447": {
         "verdict": "drop",
-        "reason": "General journal page that lists formulas and purchase document emissions separately, without describing formulas on purchase documents.",
-        "at": "2026-10-31T01:00:24.410Z"
+        "reason": "It lists formula-based calculation and purchase document emissions as separate journal features and never says formulas work on purchase documents.",
+        "at": "2026-11-01T00:40:51.726Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-purchase.md@b274b53cf9eb2e3b": {
         "verdict": "drop",
-        "reason": "Covers value chain and entering emissions in purchase documents, not formula-based calculation.",
-        "at": "2026-10-31T01:00:24.410Z"
+        "reason": "It covers the older Use Emissions In Purchase Documents setup and value chain tracking, with no mention of formulas.",
+        "at": "2026-11-01T00:40:51.726Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-setup.md@97eb108e95c84ff1": {
         "verdict": "drop",
-        "reason": "Covers value chain setup and carbon tracking methods, not purchase document formulas.",
-        "at": "2026-10-31T01:00:24.410Z"
+        "reason": "It covers value chain setup, carbon tracking methods and emission fees, which are a different capability.",
+        "at": "2026-11-01T00:40:51.726Z"
       },
       "video/_ynMUzh956w#9@a1bd9a308dd35fa3": {
         "verdict": "drop",
-        "reason": "Emission factors used in journal calculations, an older journal-only capability.",
-        "at": "2026-10-31T01:00:24.410Z"
+        "reason": "It describes emission factors used in sustainability journal calculations, an older journal capability with no link to purchase documents.",
+        "at": "2026-11-01T00:40:51.726Z"
       },
       "video/2_yYu3RgYwo#7@a347f27c06570525": {
         "verdict": "drop",
-        "reason": "Default sustainability values transferring to purchase documents is a different capability.",
-        "at": "2026-10-31T01:00:24.410Z"
+        "reason": "It describes default sustainability values transferring to purchase lines, which is a different feature.",
+        "at": "2026-11-01T00:40:51.726Z"
       },
       "video/6d6iajwQQ-c#1@f99f2d7960a566c9": {
         "verdict": "drop",
-        "reason": "Value chain tracking for production is unrelated to purchase document formulas.",
-        "at": "2026-10-31T01:00:24.410Z"
+        "reason": "It describes value chain tracking through production documents, which is a different capability.",
+        "at": "2026-11-01T00:40:51.726Z"
       },
       "video/6d6iajwQQ-c#4@f99f2d7960a566c9": {
         "verdict": "drop",
-        "reason": "Production order carbon equivalent is a different capability.",
-        "at": "2026-10-31T01:00:24.410Z"
+        "reason": "It describes carbon equivalent tracking on production orders, which is unrelated to purchase document formulas.",
+        "at": "2026-11-01T00:40:51.726Z"
       },
       "video/6d6iajwQQ-c#6@f99f2d7960a566c9": {
         "verdict": "drop",
-        "reason": "Production BOM carbon field is a different capability.",
-        "at": "2026-10-31T01:00:24.410Z"
+        "reason": "It describes the carbon equivalent field on production BOMs, which is a different capability.",
+        "at": "2026-11-01T00:40:51.726Z"
       },
-      "video/JoGW2xlIq0I#3@e1bd498e1f777c24": {
+      "video/JBGuaqk5nXk#0@d3011fa28115c8f7": {
         "verdict": "drop",
-        "reason": "Collecting emissions for assembly orders is a different capability.",
-        "at": "2026-10-31T01:00:24.410Z"
+        "reason": "It describes a Copilot CO2 calculation action in journals, not formulas on purchase documents.",
+        "at": "2026-11-01T00:40:51.726Z"
+      },
+      "video/JBGuaqk5nXk#6@d3011fa28115c8f7": {
+        "verdict": "drop",
+        "reason": "It describes Copilot explaining its calculations, which is a different feature.",
+        "at": "2026-11-01T00:40:51.726Z"
+      },
+      "video/JoGW2xlIq0I#3@95b48d89d0d03acc": {
+        "verdict": "drop",
+        "reason": "It describes collecting emissions from posted purchase invoices for assembly orders, not formula calculation.",
+        "at": "2026-11-01T00:40:51.726Z"
       },
       "video/lcy36b9GS38#1@437cd523065442b8": {
         "verdict": "drop",
-        "reason": "General scope three value chain overview, not formulas in purchase documents.",
-        "at": "2026-10-31T01:00:24.410Z"
+        "reason": "It is a general overview of scope 3 value chain automation that doesn't mention formulas.",
+        "at": "2026-11-01T00:40:51.726Z"
       },
       "video/NYG4pOtW-Xw#11@806aa2eb71d3b568": {
         "verdict": "drop",
-        "reason": "Entering emissions by hand on purchase invoices is the older capability, not formulas.",
-        "at": "2026-10-31T01:00:24.410Z"
+        "reason": "It describes entering emissions by hand on purchase invoices, the older capability this feature builds on.",
+        "at": "2026-11-01T00:40:51.726Z"
       },
       "video/NYG4pOtW-Xw#2@806aa2eb71d3b568": {
         "verdict": "drop",
-        "reason": "Entering emissions directly in purchase documents is the older capability, without formulas.",
-        "at": "2026-10-31T01:00:24.410Z"
+        "reason": "It describes the older ability to enter emissions directly on purchase documents, not formulas.",
+        "at": "2026-11-01T00:40:51.726Z"
       },
       "video/t_UXxbvgnHY#0@13bd58c8ea9ff88a": {
         "verdict": "keep",
-        "reason": "Announces sustainability formulas in purchase orders and invoices that work the same way as in journals.",
-        "at": "2026-10-31T01:00:24.410Z"
+        "reason": "It directly announces sustainability formulas on purchase orders and invoices, calculated the same way as in journals.",
+        "at": "2026-11-01T00:40:51.726Z"
       },
       "video/uan4dV9eVCA#4@1c46376c931ac53e": {
         "verdict": "drop",
-        "reason": "Describes emission formulas in general (journals), not their use on purchase documents.",
-        "at": "2026-10-31T01:00:24.410Z"
+        "reason": "It describes emission formulas in general without saying they work on purchase documents, so it's too general to tie to this feature.",
+        "at": "2026-11-01T00:40:51.726Z"
       }
     },
     "573375": {
       "docs/learn-smb-docs/business-central/service-service-posting.md@7631b50c8712916d": {
         "verdict": "keep",
-        "reason": "The service posting page lists sustainability value chain tracking as part of posting service documents, which is part of this feature.",
-        "at": "2026-10-24T00:05:40.298Z"
+        "reason": "The service posting page lists sustainability value chain tracking as part of posting service shipments, invoices and consumption, which is part of this feature.",
+        "at": "2026-11-01T00:40:46.054Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-service.md@0bea0ee058844289": {
         "verdict": "keep",
-        "reason": "It directly documents CO2e tracking for items and resources on service documents and the posted sustainability value entries.",
-        "at": "2026-10-24T00:05:40.298Z"
+        "reason": "It documents CO2e tracking for items and resources on service documents and the value entries created at posting, which is exactly this feature.",
+        "at": "2026-11-01T00:40:46.054Z"
       },
-      "video/JoGW2xlIq0I#4@e1bd498e1f777c24": {
+      "video/JoGW2xlIq0I#4@95b48d89d0d03acc": {
         "verdict": "drop",
-        "reason": "It covers emission calculation on assembly orders, a different capability.",
-        "at": "2026-10-24T00:05:40.298Z"
+        "reason": "It covers emissions calculation on assembly orders, a different capability from Service Management.",
+        "at": "2026-11-01T00:40:46.054Z"
       },
-      "video/JoGW2xlIq0I#7@e1bd498e1f777c24": {
+      "video/JoGW2xlIq0I#7@95b48d89d0d03acc": {
         "verdict": "drop",
-        "reason": "It covers assembly order emissions on sales invoices, not service documents.",
-        "at": "2026-10-24T00:05:40.298Z"
-      },
-      "video/Sc8eGyMkBTA#2@7408208618e59344": {
-        "verdict": "drop",
-        "reason": "The resource sustainability FastTab is presented as part of the Projects value chain feature, not Service Management.",
-        "at": "2026-10-24T00:05:40.298Z"
-      },
-      "video/Sc8eGyMkBTA#3@7408208618e59344": {
-        "verdict": "drop",
-        "reason": "Project statistics emissions is a different capability.",
-        "at": "2026-10-24T00:05:40.298Z"
-      },
-      "video/t_UXxbvgnHY#2@37cc778157ebce6e": {
-        "verdict": "keep",
-        "reason": "It announces that value chain emissions tracking is now available in service management.",
-        "at": "2026-10-24T00:05:40.298Z"
+        "reason": "It covers assembly emissions showing on sales invoices, not on service documents.",
+        "at": "2026-11-01T00:40:46.054Z"
       }
     },
     "573376": {
@@ -5011,128 +5001,138 @@
     "576789": {
       "docs/learn-devitpro/dev-itpro/ai/configure-mcp-server.md@2b7e63587e430db7": {
         "verdict": "keep",
-        "reason": "Learn page documents MCP configurations over API pages and queries, including Data Query Tools.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "reason": "Documents configuring MCP access to API pages and queries, including Data Query Tools.",
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/2u5_F9Ztt7U#1@e9a246217da99451": {
         "verdict": "drop",
         "reason": "File support via MCP resources is a different capability.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/4HE3BBCcV84#2@e14a25e2a17a52c1": {
         "verdict": "keep",
         "reason": "Shows MCP configuration supporting query object type with analytics API queries.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/AMVAiPTfSrU#1@d594f5705e966159": {
         "verdict": "drop",
-        "reason": "General mention of the MCP server for partner agents.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "reason": "General mention of the MCP server without this enhancement.",
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/C5cmG3sNjUg#0@dc724b8ce76af8c3": {
         "verdict": "drop",
-        "reason": "Describes the original MCP server's built-in APIs from an earlier series, not this enhancement.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "reason": "Describes the original MCP server's API exposure from the earlier series, not this update.",
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/C5cmG3sNjUg#6@dc724b8ce76af8c3": {
         "verdict": "drop",
-        "reason": "Discover additional objects setting is an older, separate capability.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "reason": "Discover additional objects setting is an older, different capability.",
+        "at": "2026-11-01T00:40:56.588Z"
+      },
+      "video/EpDIrJE0HzA#1@21321fae0c1fa1d7": {
+        "verdict": "drop",
+        "reason": "General MCP protocol introduction.",
+        "at": "2026-11-01T00:40:56.588Z"
+      },
+      "video/EpDIrJE0HzA#2@21321fae0c1fa1d7": {
+        "verdict": "drop",
+        "reason": "Original MCP Configurations page, not the API/query expansion.",
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/GeT5E_f9A9Q#0@be56261481e721e3": {
         "verdict": "drop",
-        "reason": "Named MCP configurations is an earlier capability.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "reason": "Original configuration capability, not all-API or query support.",
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/GeT5E_f9A9Q#1@be56261481e721e3": {
         "verdict": "drop",
-        "reason": "Dynamic tool mode is a different capability.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "reason": "Dynamic tool mode is a different, older feature.",
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/GeT5E_f9A9Q#2@be56261481e721e3": {
         "verdict": "drop",
-        "reason": "Discover additional objects toggle is a different, older setting.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "reason": "Discover additional objects toggle is an older feature.",
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/GeT5E_f9A9Q#3@be56261481e721e3": {
         "verdict": "drop",
-        "reason": "Bound actions are not part of this feature's API/query expansion.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "reason": "Bound actions are a different capability.",
+        "at": "2026-11-01T00:40:56.588Z"
       },
-      "video/H5EuObmeF4o#1@8dd998b26c06c6f7": {
+      "video/H5EuObmeF4o#1@56c1d175230d9e97": {
         "verdict": "drop",
-        "reason": "General 2025 wave 2 MCP server introduction.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "reason": "General 2025 wave 2 MCP server announcement.",
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/IDYhxt-8ImI#22@7ab728d0a7abc892": {
         "verdict": "drop",
-        "reason": "General explanation of MCP.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "reason": "Generic explanation of MCP.",
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/IDYhxt-8ImI#23@7ab728d0a7abc892": {
         "verdict": "drop",
-        "reason": "General Copilot Studio agents using MCP.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "reason": "General Copilot Studio agent usage of MCP.",
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/iViHfCgL2L8#0@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "Introduction of the MCP server in general.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "reason": "Introduction of the original MCP server.",
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/K8nFVw5M-Po#15@4e70e6c78bacc14e": {
         "verdict": "drop",
         "reason": "Documentation MCP server is a different product.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/K8nFVw5M-Po#17@4e70e6c78bacc14e": {
         "verdict": "drop",
         "reason": "Custom MCP servers for vibe coding are unrelated.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/LerAo-GGl8U#0@bad4154ca6e36eb9": {
         "verdict": "drop",
         "reason": "Admin MCP server is a different capability.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/q3xnjJD32kk#4@8159e1ae25b35be5": {
         "verdict": "drop",
-        "reason": "Constructing queries without APIs is a different, later capability.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "reason": "Running queries without APIs is a different, later capability.",
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/rm-FstU_I80#0@0f4bbcf3b92a052f": {
         "verdict": "drop",
         "reason": "General MCP server description.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/rm-FstU_I80#20@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Connection string reuse is a different capability.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "reason": "Connection string reuse is a different feature.",
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/rm-FstU_I80#27@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Custom APIs for custom fields is not about Microsoft APIs or queries.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "reason": "Custom APIs for custom fields is not this enhancement.",
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/rm-FstU_I80#6@0f4bbcf3b92a052f": {
         "verdict": "drop",
         "reason": "General MCP server description.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/UIL8ej7mSKQ#6@ac155d6baa339527": {
         "verdict": "drop",
         "reason": "General 2025 wave 2 MCP server announcement.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/zei-IszvYNU#0@244b151f1ad40262": {
         "verdict": "keep",
-        "reason": "Directly announces all Microsoft published APIs available in the MCP server.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "reason": "Announces all Microsoft published APIs available in the MCP server.",
+        "at": "2026-11-01T00:40:56.588Z"
       },
       "video/zei-IszvYNU#2@244b151f1ad40262": {
         "verdict": "keep",
-        "reason": "Shows API groups for the newly exposed Microsoft APIs, including analytics, enabling bulk configuration.",
-        "at": "2026-10-30T08:01:21.878Z"
+        "reason": "Shows new API groups enabling configuration of the broader Microsoft API set.",
+        "at": "2026-11-01T00:40:56.588Z"
       }
     },
     "576792": {
@@ -5414,43 +5414,43 @@
     "576844": {
       "docs/learn-smb-docs/business-central/finance-set-up-excise-tax.md@d5fdfab1ecbcd9ef": {
         "verdict": "keep",
-        "reason": "This version 29 Learn page documents setting up excise tax types with weight and quantity bases and assigning them to items and fixed assets, which are the feature's setup steps.",
-        "at": "2026-10-30T08:01:51.686Z"
+        "reason": "The version 29 setup page documents excise tax types, the tax basis (weight, volume, quantity) and assigning them to items and fixed assets, which are the feature's new fields.",
+        "at": "2026-11-01T00:40:51.550Z"
       },
-      "video/Cj_n5x3gN_Y#0@9eab359c4fce8037": {
+      "video/Cj_n5x3gN_Y#0@c1c26a6ed77f06cc": {
         "verdict": "keep",
-        "reason": "This 2026 wave 1 video announces the excise tax framework and explicitly names plastic tax and sugar tax.",
-        "at": "2026-10-30T08:01:51.686Z"
+        "reason": "The 2026 wave 1 video introduces the excise tax calculation framework and names plastic tax and sugar tax explicitly.",
+        "at": "2026-11-01T00:40:51.550Z"
       },
-      "video/Cj_n5x3gN_Y#1@9eab359c4fce8037": {
+      "video/Cj_n5x3gN_Y#1@c1c26a6ed77f06cc": {
         "verdict": "keep",
-        "reason": "This segment shows the excise journal with configurable excise tax types that users select and set up, which is where plastic and sugar tax is calculated.",
-        "at": "2026-10-30T08:01:51.686Z"
+        "reason": "It shows the excise journal letting users pick configurable excise tax types and set how they are calculated, which is part of this feature's journal calculation.",
+        "at": "2026-11-01T00:40:51.550Z"
       },
-      "video/Cj_n5x3gN_Y#2@9eab359c4fce8037": {
+      "video/Cj_n5x3gN_Y#2@c1c26a6ed77f06cc": {
         "verdict": "keep",
-        "reason": "This segment shows the tax bases used by the feature, including weight, quantity and sugar content.",
-        "at": "2026-10-30T08:01:51.686Z"
+        "reason": "It shows the tax base models, including weight and sugar content, that the plastic and sugar calculations use.",
+        "at": "2026-11-01T00:40:51.550Z"
       },
-      "video/Cj_n5x3gN_Y#5@9eab359c4fce8037": {
+      "video/Cj_n5x3gN_Y#5@c1c26a6ed77f06cc": {
         "verdict": "keep",
-        "reason": "This segment shows the excise quantity field on items, which matches the feature's new Qty. for Excise Tax field.",
-        "at": "2026-10-30T08:01:51.686Z"
+        "reason": "It demonstrates the excise quantity field on item master data (Qty. for Excise Tax).",
+        "at": "2026-11-01T00:40:51.550Z"
       },
-      "video/Cj_n5x3gN_Y#6@9eab359c4fce8037": {
+      "video/Cj_n5x3gN_Y#6@c1c26a6ed77f06cc": {
         "verdict": "keep",
-        "reason": "This segment shows how the excise journal finds relevant entries and applies tax bases and rates, which is the calculation the feature describes.",
-        "at": "2026-10-30T08:01:51.686Z"
+        "reason": "It shows the excise journal finding relevant entries and applying tax bases and rates, which is the feature's calculation step.",
+        "at": "2026-11-01T00:40:51.550Z"
       },
       "video/lcpk-gPfGQU#0@2da3814d4b926994": {
         "verdict": "drop",
-        "reason": "This covers the older 2025 wave 2 framework foundation, not the plastic and sugar calculations.",
-        "at": "2026-10-30T08:01:51.686Z"
+        "reason": "It describes the earlier 2025 wave 2 framework, not the plastic and sugar calculation.",
+        "at": "2026-11-01T00:40:51.550Z"
       },
       "video/lcpk-gPfGQU#1@2da3814d4b926994": {
         "verdict": "drop",
-        "reason": "This describes the general excise journal from 2025 wave 2, not the new plastic and sugar capability.",
-        "at": "2026-10-30T08:01:51.686Z"
+        "reason": "It describes the general excise journal from 2025 wave 2, an older capability than this feature.",
+        "at": "2026-11-01T00:40:51.550Z"
       }
     },
     "576864": {

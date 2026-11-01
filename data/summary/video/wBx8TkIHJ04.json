@@ -1,0 +1,26 @@
+{
+  "video_id": "wBx8TkIHJ04",
+  "item_id": "video/yt-microsoft/wBx8TkIHJ04",
+  "summary": "Copilot Chat in Business Central: a short demo of asking questions about business data, including customizations, in follow-up conversations, with answers limited to the user's permissions, company and context.",
+  "overview": "This one-minute video introduces the Microsoft Copilot chat experience in Business Central. Users select the Copilot button, type questions about their own business data, and see responses beside the data. The demo includes a sales orders scenario.\n\nThe video shows Copilot keeping context across several questions, so follow-ups do not need to be restarted. It states that Copilot searches all Business Central data, including customizations, and only sees what the user is allowed to see in their company and context.",
+  "key_points": [
+    "Open Copilot Chat by selecting the Copilot button in Business Central and typing a question.",
+    "Questions can cover the user's own business data and internet knowledge; responses appear side by side with the data.",
+    "Multi-turn conversations keep context, so follow-up questions do not need the context repeated.",
+    "Copilot searches all Business Central data, including customizations, as stated in the video.",
+    "Copilot works within the user's permissions, company and context, and only sees what the user is allowed to see."
+  ],
+  "audience": [
+    "end user",
+    "administrator",
+    "functional consultant",
+    "decision maker"
+  ],
+  "extraction_hash": "4c7ec9117e04a0e7dec53ff268348d6513b118f5bd6d1f69b809a6c241fa8fa0",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013928
+  }
+}
