@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-31T00:48:20.076Z"
+  at: "2026-11-02T00:39:24.580Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a0c793f8b4de6e31efd9972a925e3b576a2e299a1248790029113df14f865dba
+  input_hash: 2e8c7934753fc06680ce1b3caa9a95e161194b3229117753e396b5e9a558c33b
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ReportFilenameManager/app/src/interface/ReportFilenamePlaceholder.Interface.al
@@ -41,6 +41,12 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12610
+  related:
+    - to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-namespaces-overview
+      title: Namespaces in AL
+      label: possibly related
+      why: Interface in Microsoft.Foundation.Reporting.FileNaming namespace; namespaces organize AL code logically.
+      by: model
 object_type: interface
 object_id: null
 name: Report Filename Placeholder
@@ -97,6 +103,12 @@ ReportFilenameManager · Microsoft.Foundation.Reporting.FileNaming · BC30 · [s
 
 - Present in: BC30
 - Changed (declaration) in: none
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Namespaces in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-namespaces-overview) — possibly related: Interface in Microsoft.Foundation.Reporting.FileNaming namespace; namespaces organize AL code logically. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

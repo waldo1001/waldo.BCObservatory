@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:29.520Z"
   flags: []
 generated:
-  at: "2026-11-01T00:45:11.847Z"
+  at: "2026-11-02T00:57:11.355Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -357,7 +357,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12696 Fix Norwegian SAF-T 1.30 debit and credit totals](../../../../changes/bcapps/12696.md) (code change): "debit and credit totals from actual G/L entry amounts"
 - [#13165 [Master]-"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.](../../../../changes/bcapps/13165.md) (code change): "Update Registers from G/L Registers page for old entries with G/L Register No."
 - [#13224 [29.X]-"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.](../../../../changes/bcapps/13224.md) (code change): "Running Update Registers from the G/L Registers page no longer fails with a G/L Entry Modify permission error"
-- [#13330 Bug 656921: [master] Recurring Frequency missing from Edit in Excel](../../../../changes/bcapps/13330.md) (code change): "Recurring Frequency field is now editable in Edit in Excel"
+- [#13330 Bug 656921: [master] Recurring Frequency missing from Edit in Excel](../../../../changes/bcapps/13330.md) (code change): "Recurring Frequency field is now editable in Edit in Excel for recurring general journals"
 - [#13342 [Main] Incorrect Buyer/Seller Registration No. Written to Detailed GST Ledger Entry When Posting Purchase Invoice Without Order Address](../../../../changes/bcapps/13342.md) (code change): "Detailed GST Ledger Entry When Posting Purchase Invoice"
 - [#9071 Merged from [28.x]The transaction cannot be completed because it will cause inconsistencies in the G/L Entry table"](../../../../changes/bcapps/9071.md) (code change): "inconsistencies in the G/L Entry table in codeunit Gen. Jnl.-Post Line"
 - [#9339 [master][Gen. Jnl.-Post Line]` Add var NextEntryNo, var NextVATEntryNo, and var NextTransactionNo to OnAfterInitGLRegister in StartPosting](../../../../changes/bcapps/9339.md) (code change): "OnAfterInitGLRegister in StartPosting gains var NextEntryNo, NextVATEntryNo"

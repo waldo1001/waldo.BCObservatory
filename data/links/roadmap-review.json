@@ -797,469 +797,479 @@
     "573305": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-extend-edocuments.md@ed55cc710b998bc0": {
         "verdict": "drop",
-        "reason": "General page on extending the e-documents framework; it doesn't mention EDI or order exchange.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Generic page on extending e-documents, with nothing about EDI or order exchange.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-26-1.md@82207a1d66819d19": {
         "verdict": "drop",
-        "reason": "Update 26.1 e-document changes that are not EDI features.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "The 26.1 update notes list older e-document features, not EDI order or remittance exchange.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "docs/learn-smb-docs/business-central/across-about-the-data-exchange-framework.md@a818cdb2c3b6bcc5": {
         "verdict": "drop",
-        "reason": "General Data Exchange Framework overview with no EDI order exchange.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "General page on the Data Exchange Framework, not EDI in E-Documents.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "docs/learn-smb-docs/business-central/across-exchange-data.md@d63490a5f5796a8f": {
         "verdict": "drop",
-        "reason": "General data exchange page, too broad to show this feature.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "General data exchange topic, too broad to show this feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "docs/learn-smb-docs/business-central/across-how-to-set-up-electronic-document-sending-and-receiving.md@f84769e285191305": {
         "verdict": "drop",
-        "reason": "Older PEPPOL invoice setup page, not EDI order exchange.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older PEPPOL invoice sending setup, not EDI exchange.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "docs/learn-smb-docs/business-central/across-set-up-data-exchange.md@d9bfa7f712139ee9": {
         "verdict": "drop",
-        "reason": "Generic data exchange setup, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "General data exchange setup, not EDI.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "docs/learn-smb-docs/business-central/finance-how-setup-edocuments.md@879854cf809a9b8a": {
         "verdict": "drop",
-        "reason": "General e-documents setup page that doesn't describe EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "General e-documents setup page with no EDI capability described.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-au-einvoice.md@f590beb2eda7216c": {
         "verdict": "drop",
-        "reason": "Australian e-invoicing localization, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers Australian e-invoicing localization, a different capability.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-set-up-oioubl.md@234b9d5547d9deac": {
         "verdict": "drop",
-        "reason": "Danish OIOUBL invoicing setup, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers Danish OIOUBL invoicing setup, a different capability.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/ui-extensions-oioubl.md@8d9dc96f8a8add0e": {
         "verdict": "drop",
-        "reason": "Danish OIOUBL invoicing, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers the OIOUBL extension, a different capability.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "docs/learn-smb-docs/business-central/purchasing-how-to-receive-and-convert-electronic-documents.md@38272cbac777d949": {
         "verdict": "drop",
-        "reason": "Older receiving of PEPPOL/OCR invoices, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older receiving of PEPPOL and OCR invoices, not EDI.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/07G7aC14Y_w#0@3a770c7d6f88e62b": {
         "verdict": "keep",
-        "reason": "Announces EDI exchange of orders and order confirmations on the e-documents framework.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Announces EDI order exchange built on the e-documents framework.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/07G7aC14Y_w#1@3a770c7d6f88e62b": {
         "verdict": "keep",
-        "reason": "Shows sending purchase orders as EDI e-documents, which is part of order exchange.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Shows sending purchase orders through EDI, part of order exchange.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/07G7aC14Y_w#12@3a770c7d6f88e62b": {
         "verdict": "keep",
-        "reason": "Shows navigation links between EDI purchase orders and the sales orders they create.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Shows linking EDI purchase orders to the sales orders created from them.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/07G7aC14Y_w#2@3a770c7d6f88e62b": {
         "verdict": "keep",
-        "reason": "Shows a sales order created automatically from a received EDI purchase order.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Shows a sales order being created automatically from an EDI purchase order.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/07G7aC14Y_w#3@3a770c7d6f88e62b": {
         "verdict": "keep",
-        "reason": "Shows the order response message, which is part of EDI order exchange.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Shows order response messaging, part of order exchange.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/07G7aC14Y_w#4@3a770c7d6f88e62b": {
         "verdict": "keep",
-        "reason": "Shows sending a remittance advice, a document type named in the feature.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Shows sending remittance advices, which the feature names directly.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/07G7aC14Y_w#5@3a770c7d6f88e62b": {
         "verdict": "keep",
-        "reason": "Shows the inbound/outbound direction setting for EDI documents.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Shows the inbound/outbound direction setting for EDI exchanges.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/07G7aC14Y_w#6@3a770c7d6f88e62b": {
         "verdict": "keep",
-        "reason": "Shows electronic identifier matching for EDI exchange.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Shows electronic identifier matching used in EDI exchanges.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/07G7aC14Y_w#7@3a770c7d6f88e62b": {
         "verdict": "keep",
-        "reason": "Shows item reference matching for EDI exchange.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Shows item reference matching used in EDI exchanges.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/07G7aC14Y_w#8@3a770c7d6f88e62b": {
         "verdict": "keep",
-        "reason": "Shows the log of each EDI exchange.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Shows logging for each EDI exchange.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/07G7aC14Y_w#9@3a770c7d6f88e62b": {
         "verdict": "keep",
-        "reason": "Shows Peppol (transcribed as 'PPPLE') as the format behind EDI exchanges.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Shows the Peppol-based format behind EDI exchanges.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/axQegcPweNY#7@5167867b4e37fa16": {
         "verdict": "drop",
-        "reason": "Draft page for invoices, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers the draft page service version, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/gVjrKPHlrgM#2@f1a18167e1930d22": {
         "verdict": "drop",
-        "reason": "ZUGFeRD format, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers the ZUGFeRD format, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/gVjrKPHlrgM#3@f1a18167e1930d22": {
         "verdict": "drop",
-        "reason": "ZUGFeRD inbound processing, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers inbound ZUGFeRD processing, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/hba7KVWrIwY#0@1be43fdbfcd5c553": {
         "verdict": "drop",
-        "reason": "Older connector additions, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older connector additions.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/hba7KVWrIwY#5@1be43fdbfcd5c553": {
         "verdict": "drop",
-        "reason": "Older Peppol invoice format, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older Peppol invoicing format availability.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/hba7KVWrIwY#6@1be43fdbfcd5c553": {
         "verdict": "drop",
-        "reason": "Australia/New Zealand Peppol localization, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers the Australia and New Zealand localization, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/hba7KVWrIwY#7@1be43fdbfcd5c553": {
         "verdict": "drop",
-        "reason": "Avalara integration, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers the Avalara integration, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/hL4PUhjyhNY#1@713e53bb628a3ec7": {
         "verdict": "drop",
-        "reason": "Older global Peppol format availability, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older global Peppol format availability.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/hL4PUhjyhNY#2@713e53bb628a3ec7": {
         "verdict": "drop",
-        "reason": "German localization formats, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers the German localization, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/hL4PUhjyhNY#5@713e53bb628a3ec7": {
         "verdict": "drop",
-        "reason": "Spanish invoice format, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers the Spanish format, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/hL4PUhjyhNY#7@713e53bb628a3ec7": {
         "verdict": "drop",
-        "reason": "Australia/New Zealand formats, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers Australia and New Zealand formats, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/kAFdLxb2ghc#1@c15eb172ba9e7b94": {
         "verdict": "drop",
-        "reason": "Older access point integration app, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older access point integration.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/kAFdLxb2ghc#10@c15eb172ba9e7b94": {
         "verdict": "drop",
-        "reason": "Older workflow automation, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older workflow automation.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/kAFdLxb2ghc#14@c15eb172ba9e7b94": {
         "verdict": "drop",
-        "reason": "Older sales invoice export, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older sales invoice export.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/kAFdLxb2ghc#16@c15eb172ba9e7b94": {
         "verdict": "drop",
-        "reason": "General framework extensibility, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers general framework extensibility from an older release.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/kAFdLxb2ghc#2@c15eb172ba9e7b94": {
         "verdict": "drop",
-        "reason": "Older data exchange definition mapping, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers an older data exchange definition feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/kAFdLxb2ghc#22@c15eb172ba9e7b94": {
         "verdict": "drop",
-        "reason": "Older background job processing, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older background job processing.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/kAFdLxb2ghc#23@c15eb172ba9e7b94": {
         "verdict": "drop",
-        "reason": "Older audit trail, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers an older audit trail feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/kAFdLxb2ghc#8@c15eb172ba9e7b94": {
         "verdict": "drop",
-        "reason": "Original framework introduction, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers the original framework introduction, not EDI.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/kAFdLxb2ghc#9@c15eb172ba9e7b94": {
         "verdict": "drop",
-        "reason": "Older Peppol invoice service, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers an older Peppol service.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
-      "video/QGIr_XPp8lk#0@5f58ba128a27c151": {
+      "video/QGIr_XPp8lk#0@f776511831b59694": {
         "verdict": "drop",
-        "reason": "Developer sender interface, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers a developer interface, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
-      "video/QGIr_XPp8lk#1@5f58ba128a27c151": {
+      "video/QGIr_XPp8lk#1@f776511831b59694": {
         "verdict": "drop",
-        "reason": "Developer response handler interface, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers a developer interface, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
-      "video/QGIr_XPp8lk#2@5f58ba128a27c151": {
+      "video/QGIr_XPp8lk#2@f776511831b59694": {
         "verdict": "drop",
-        "reason": "Developer receiver interface, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers a developer interface, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
-      "video/QGIr_XPp8lk#3@5f58ba128a27c151": {
+      "video/QGIr_XPp8lk#3@f776511831b59694": {
         "verdict": "drop",
-        "reason": "Developer marker interface, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers a developer interface, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
-      "video/QGIr_XPp8lk#4@5f58ba128a27c151": {
+      "video/QGIr_XPp8lk#4@f776511831b59694": {
         "verdict": "drop",
-        "reason": "Developer action interface, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers a developer interface, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
-      "video/QGIr_XPp8lk#5@5f58ba128a27c151": {
+      "video/QGIr_XPp8lk#5@f776511831b59694": {
         "verdict": "drop",
-        "reason": "Error handling improvements, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers error handling improvements, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
-      "video/QGIr_XPp8lk#6@5f58ba128a27c151": {
+      "video/QGIr_XPp8lk#6@f776511831b59694": {
         "verdict": "drop",
-        "reason": "Developer send context, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers a developer interface parameter, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
-      "video/QGIr_XPp8lk#7@5f58ba128a27c151": {
+      "video/QGIr_XPp8lk#7@f776511831b59694": {
         "verdict": "drop",
-        "reason": "Developer receive context, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers a developer receive context, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
-      "video/QGIr_XPp8lk#8@5f58ba128a27c151": {
+      "video/QGIr_XPp8lk#8@f776511831b59694": {
         "verdict": "drop",
-        "reason": "Avalara connector update, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers an Avalara connector update, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
+      },
+      "video/S5Xw-b8YF-c#0@f576fcdffb85dbe4": {
+        "verdict": "drop",
+        "reason": "Covers the e-document APIs, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
+      },
+      "video/S5Xw-b8YF-c#2@f576fcdffb85dbe4": {
+        "verdict": "drop",
+        "reason": "Covers an API capability, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/tCmDKBszA1w#0@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Original core app introduction, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers the original core app, not EDI.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/tCmDKBszA1w#1@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Original e-invoicing introduction, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older e-invoicing.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/tCmDKBszA1w#10@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older workflow, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers an older workflow feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/tCmDKBszA1w#11@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older document sending profile, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers an older document sending profile feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/tCmDKBszA1w#12@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older status tracking, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older status tracking.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/tCmDKBszA1w#13@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older manual actions, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older manual actions.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/tCmDKBszA1w#14@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older receiving through background jobs, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older background receiving.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/tCmDKBszA1w#15@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older purchase invoice import, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older purchase invoice import.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/tCmDKBszA1w#18@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older sales e-invoices, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older sales e-invoicing.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/tCmDKBszA1w#19@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older credit memo handling, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older credit memo handling.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/tCmDKBszA1w#24@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Access point provider options, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older access point options.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/tCmDKBszA1w#5@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older messaging system between access points, not this EDI feature.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers an older messaging system concept.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/tCmDKBszA1w#9@8dbc5294a9aa7aa0": {
         "verdict": "drop",
-        "reason": "Older service setup, not EDI.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers older service setup.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/zy-Tg9bBtHc#2@49d3a462342ad5ac": {
         "verdict": "drop",
-        "reason": "Sales shipment e-documents, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers the e-shipments feature, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/zy-Tg9bBtHc#4@49d3a462342ad5ac": {
         "verdict": "drop",
-        "reason": "Creating e-documents after posting, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers retroactive e-document creation, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/zy-Tg9bBtHc#5@49d3a462342ad5ac": {
         "verdict": "drop",
-        "reason": "Email export workflow, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers the email workflow, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       },
       "video/zy-Tg9bBtHc#6@49d3a462342ad5ac": {
         "verdict": "drop",
-        "reason": "Post-and-send attachments, a different capability.",
-        "at": "2026-10-31T01:00:35.822Z"
+        "reason": "Covers post-and-send attachments, a different feature.",
+        "at": "2026-11-02T00:53:47.034Z"
       }
     },
     "573306": {
       "docs/learn-smb-docs/business-central/finance-register-excise-tax.md@fb73fa6e528ec923": {
         "verdict": "keep",
-        "reason": "Borderline keep: the page's own feature list names 'Multiple tax type assignment', which matches assigning more than one excise duty, though it doesn't say this happens per item.",
-        "at": "2026-11-01T00:40:48.538Z"
+        "reason": "The page lists multiple tax type assignment as a feature, which matches assigning several excise duties to one item.",
+        "at": "2026-11-02T00:53:43.470Z"
       },
       "docs/learn-smb-docs/business-central/finance-set-up-excise-tax.md@d5fdfab1ecbcd9ef": {
         "verdict": "drop",
-        "reason": "This is general excise tax setup (tax types, basis, rates, assigning taxes to items) and says nothing about several duties on one item.",
-        "at": "2026-11-01T00:40:48.538Z"
+        "reason": "Covers general excise tax setup and assigning a tax to items, with nothing about multiple duties per item.",
+        "at": "2026-11-02T00:53:43.470Z"
       },
       "video/Cj_n5x3gN_Y#4@c1c26a6ed77f06cc": {
         "verdict": "drop",
-        "reason": "It covers fixed duty rates with effective-from dates on items and fixed assets, which is a different capability from multiple duties per item.",
-        "at": "2026-11-01T00:40:48.538Z"
+        "reason": "Covers configuring fixed duty rates, which is a different capability.",
+        "at": "2026-11-02T00:53:43.470Z"
       },
       "video/kD8kX14VVZE#5@3445b36db872beb4": {
         "verdict": "drop",
-        "reason": "It describes the sustainability tax framework for CBAM and EPR, so it only shares the excise tax topic.",
-        "at": "2026-11-01T00:40:48.538Z"
+        "reason": "Covers the sustainability tax framework for CBAM and EPR, not multiple duties per item.",
+        "at": "2026-11-02T00:53:43.470Z"
       },
       "video/lcpk-gPfGQU#6@2da3814d4b926994": {
         "verdict": "drop",
-        "reason": "It is the older 2025 wave 2 framework, where taxes are set up on the item card; it doesn't cover multiple duties per item.",
-        "at": "2026-11-01T00:40:48.538Z"
+        "reason": "Describes the older 2025 framework's item-based configuration, not multiple duties per item.",
+        "at": "2026-11-02T00:53:43.470Z"
       },
-      "video/N_J1HB_fUCM#0@db462b141338d931": {
+      "video/N_J1HB_fUCM#0@35122e58438517de": {
         "verdict": "keep",
-        "reason": "It directly announces adding multiple excise taxes to a single item through a new excise taxes page.",
-        "at": "2026-11-01T00:40:48.538Z"
+        "reason": "Directly announces adding multiple excise taxes to a single item through a new excise taxes page.",
+        "at": "2026-11-02T00:53:43.470Z"
       }
     },
     "573307": {
       "docs/learn-smb-docs/business-central/LocalFunctionality/India/Posting-No-series-setup.md@a6bc11cd8cb6b712": {
         "verdict": "drop",
-        "reason": "Covers Indian localization location-based conditional number series, not vendor-specific self-billing numbering.",
-        "at": "2026-10-30T08:02:42.606Z"
+        "reason": "This is about conditional, location-based number series in the Indian localization, not vendor-specific series for self-billing.",
+        "at": "2026-11-02T00:53:39.567Z"
       },
       "video/8VRtBLNAOiI#2@872c9d47249d92ad": {
         "verdict": "drop",
-        "reason": "Describes the earlier global self-billing number series in Purchases & Payables Setup, not the per-vendor enhancement.",
-        "at": "2026-10-30T08:02:42.606Z"
+        "reason": "It covers the earlier single self-billing number series in Purchases & Payables Setup, not the new per-vendor assignment.",
+        "at": "2026-11-02T00:53:39.567Z"
       },
-      "video/N_J1HB_fUCM#5@db462b141338d931": {
+      "video/N_J1HB_fUCM#5@35122e58438517de": {
         "verdict": "keep",
-        "reason": "Directly announces selecting a specific number series per self-billing vendor with fallback to setup.",
-        "at": "2026-10-30T08:02:42.606Z"
+        "reason": "It shows choosing a number series for each self-billing vendor, falling back to the setup default when none is chosen.",
+        "at": "2026-11-02T00:53:39.567Z"
       }
     },
     "573308": {
       "docs/learn-smb-docs/business-central/finance-set-up-withholding-tax.md@aca981288b8c1107": {
         "verdict": "keep",
-        "reason": "The setup page covers withholding tax calculation for employees and lists employee withholding tax as a feature.",
-        "at": "2026-10-30T08:01:32.840Z"
+        "reason": "The setup page says withholding tax can be calculated and posted for employees, and it lists employee withholding tax as a feature.",
+        "at": "2026-11-02T00:53:47.251Z"
       },
       "docs/learn-smb-docs/business-central/finance-withholding-tax-employees.md@bf4b8c1ca7e9e9c1": {
         "verdict": "keep",
-        "reason": "It documents setting up and posting withholding tax on employee transactions, which is exactly this feature.",
-        "at": "2026-10-30T08:01:32.840Z"
+        "reason": "This page directly documents setting up and posting withholding tax on employee transactions.",
+        "at": "2026-11-02T00:53:47.251Z"
       },
       "docs/learn-smb-docs/business-central/finance-withholding-tax.md@af57cfb2208454fb": {
         "verdict": "drop",
-        "reason": "It covers vendor withholding tax on purchase documents, not employee transactions.",
-        "at": "2026-10-30T08:01:32.840Z"
+        "reason": "It covers only vendor purchase withholding tax, which is the older vendor capability.",
+        "at": "2026-11-02T00:53:47.251Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/set-up-withholding-tax.md@b86146a9def32dae": {
         "verdict": "drop",
-        "reason": "It covers Italian vendor withholding tax, not employee transactions.",
-        "at": "2026-10-30T08:01:32.840Z"
+        "reason": "It covers Italian vendor withholding tax only and says nothing about employees.",
+        "at": "2026-11-02T00:53:47.251Z"
       },
       "video/d4mYltz4Zwg#0@d1a200620cb7487d": {
         "verdict": "drop",
-        "reason": "It introduces vendor withholding tax in the purchase process, not the employee extension.",
-        "at": "2026-10-30T08:01:32.840Z"
+        "reason": "It introduces vendor withholding tax in the purchase process, not employee transactions.",
+        "at": "2026-11-02T00:53:47.251Z"
       },
       "video/d4mYltz4Zwg#1@d1a200620cb7487d": {
         "verdict": "drop",
-        "reason": "It shows the general posting group setup with a vendor focus and nothing specific to employees.",
-        "at": "2026-10-30T08:01:32.840Z"
+        "reason": "It describes the general posting group setup in the context of vendors and does not mention employees.",
+        "at": "2026-11-02T00:53:47.251Z"
       },
       "video/d4mYltz4Zwg#2@d1a200620cb7487d": {
         "verdict": "drop",
-        "reason": "It shows how to turn on withholding tax for vendors only.",
-        "at": "2026-10-30T08:01:32.840Z"
+        "reason": "It shows how to turn on withholding tax for vendors, not employees.",
+        "at": "2026-11-02T00:53:47.251Z"
       },
       "video/d4mYltz4Zwg#3@d1a200620cb7487d": {
         "verdict": "drop",
-        "reason": "It shows item-level posting group setup, which has nothing to do with employees.",
-        "at": "2026-10-30T08:01:32.840Z"
+        "reason": "It is about item-level posting groups, which are not part of the employee feature.",
+        "at": "2026-11-02T00:53:47.251Z"
       },
       "video/d4mYltz4Zwg#4@d1a200620cb7487d": {
         "verdict": "drop",
-        "reason": "It explains general threshold rules for vendors, not employee transactions.",
-        "at": "2026-10-30T08:01:32.840Z"
+        "reason": "It explains general threshold rules applied to vendors, with no mention of employees.",
+        "at": "2026-11-02T00:53:47.251Z"
       },
       "video/d4mYltz4Zwg#5@d1a200620cb7487d": {
         "verdict": "drop",
-        "reason": "It explains general invoice-versus-payment timing, not employee withholding tax.",
-        "at": "2026-10-30T08:01:32.840Z"
+        "reason": "It covers when withholding tax is recorded (on invoice or on payment) in general, not for employee transactions.",
+        "at": "2026-11-02T00:53:47.251Z"
       },
       "video/d4mYltz4Zwg#6@d1a200620cb7487d": {
         "verdict": "drop",
-        "reason": "It describes a general override of the base amount on invoices, not employee transactions.",
-        "at": "2026-10-30T08:01:32.840Z"
+        "reason": "It shows the base amount override on vendor invoices, which is not specific to employees.",
+        "at": "2026-11-02T00:53:47.251Z"
       },
       "video/d4mYltz4Zwg#7@d1a200620cb7487d": {
         "verdict": "drop",
-        "reason": "It shows a general posting preview, not employee withholding tax.",
-        "at": "2026-10-30T08:01:32.840Z"
+        "reason": "It shows the general posting preview, not the employee capability.",
+        "at": "2026-11-02T00:53:47.251Z"
       },
       "video/d4mYltz4Zwg#8@d1a200620cb7487d": {
         "verdict": "drop",
-        "reason": "It describes general withholding tax entry tracking, not the employee capability.",
-        "at": "2026-10-30T08:01:32.840Z"
+        "reason": "It describes general withholding tax entries, not employee transactions.",
+        "at": "2026-11-02T00:53:47.251Z"
       },
       "video/d4mYltz4Zwg#9@d1a200620cb7487d": {
         "verdict": "drop",
-        "reason": "It describes a general setup prerequisite that is not specific to employees.",
-        "at": "2026-10-30T08:01:32.840Z"
+        "reason": "It covers the general requirement to enable withholding tax in General Ledger Setup, which is too broad to tie to employees.",
+        "at": "2026-11-02T00:53:47.251Z"
       },
-      "video/N_J1HB_fUCM#8@db462b141338d931": {
+      "video/N_J1HB_fUCM#8@35122e58438517de": {
         "verdict": "keep",
-        "reason": "It announces withholding tax for employees, with gross/net calculation and thresholds.",
-        "at": "2026-10-30T08:01:32.840Z"
+        "reason": "It announces withholding tax for employees, including gross or net calculation and thresholds.",
+        "at": "2026-11-02T00:53:47.251Z"
       }
     },
     "573312": {
@@ -2802,25 +2812,25 @@
       }
     },
     "573340": {
-      "video/5OZ0g5IgC8Q#6@1bdea1e3638a88c7": {
-        "verdict": "keep",
-        "reason": "It announces the new setting that uses the Shopify order number as the Business Central sales document number.",
-        "at": "2026-10-29T22:00:53.024Z"
-      },
-      "video/StIVhsnOHWY#16@18f1d38e63ae8872": {
+      "video/StIVhsnOHWY#12@13a821aa5b7fa90a": {
         "verdict": "drop",
-        "reason": "The Shopify order fact box is a different capability, not document number control, contact review or return handling.",
-        "at": "2026-10-29T22:00:53.024Z"
+        "reason": "Shows the table for selectively importing orders, a different capability from controlling how sales documents are created.",
+        "at": "2026-11-02T00:53:32.252Z"
+      },
+      "video/StIVhsnOHWY#13@13a821aa5b7fa90a": {
+        "verdict": "drop",
+        "reason": "The selective 'Import selected order' action is a different capability, not document numbering, contacts or return document type.",
+        "at": "2026-11-02T00:53:32.252Z"
       },
       "video/YSDfDjrMUb0#10@1d4d067169f0a11f": {
         "verdict": "keep",
-        "reason": "It shows that sell-to, bill-to and ship-to contact numbers are filled in from Shopify orders and can be changed, which is part of this feature.",
-        "at": "2026-10-29T22:00:53.024Z"
+        "reason": "Shows sell-to, bill-to and ship-to contact numbers filled in from Shopify orders and changeable, which matches the contact review part of the feature.",
+        "at": "2026-11-02T00:53:32.252Z"
       },
       "video/YSDfDjrMUb0#9@1d4d067169f0a11f": {
         "verdict": "keep",
-        "reason": "It mentions the new Use Shopify Order No. setting for putting the Shopify order number on sales documents, which is part of this feature.",
-        "at": "2026-10-29T22:00:53.024Z"
+        "reason": "Shows the new 'Use Shopify Order No.' setting for Shopify order numbers in sales documents.",
+        "at": "2026-11-02T00:53:32.252Z"
       }
     },
     "573341": {
@@ -3175,62 +3185,57 @@
       "docs/learn-smb-docs/business-central/LocalFunctionality/India/Subcontracting-Reports.md@5803d2b5f758736c": {
         "verdict": "drop",
         "reason": "India localization subcontracting reports are unrelated to carrying comments and attachments into purchase orders.",
-        "at": "2026-10-28T10:49:21.607Z"
+        "at": "2026-11-02T00:53:33.886Z"
       },
       "docs/learn-smb-docs/business-central/subcontract-components.md@b497e74429ebe4ce": {
         "verdict": "drop",
         "reason": "Covers component supply and transfers, not subcontracting instructions.",
-        "at": "2026-10-28T10:49:21.607Z"
-      },
-      "docs/learn-smb-docs/business-central/subcontract-item-charges.md@f050c3f1db18a592": {
-        "verdict": "drop",
-        "reason": "Covers item charges on subcontracting receipts, a different capability.",
-        "at": "2026-10-28T10:49:21.607Z"
+        "at": "2026-11-02T00:53:33.886Z"
       },
       "docs/learn-smb-docs/business-central/subcontract-order.md@ed9f455a20c25d94": {
         "verdict": "keep",
-        "reason": "Documents creating subcontracting purchase orders from routings with support for comments and attachments.",
-        "at": "2026-10-28T10:49:21.607Z"
-      },
-      "docs/learn-smb-docs/business-central/subcontract-prices.md@9b2112b2ebac5d6b": {
-        "verdict": "drop",
-        "reason": "Covers subcontractor pricing, not instructions on purchase orders.",
-        "at": "2026-10-28T10:49:21.607Z"
+        "reason": "Documents creating subcontracting purchase orders with support for comments and attachments.",
+        "at": "2026-11-02T00:53:33.886Z"
       },
       "docs/learn-smb-docs/business-central/subcontract-setup.md@c6d9fa428840d1f1": {
         "verdict": "keep",
-        "reason": "Setup page explicitly covers operation/routing comments and routing attachments used by this feature.",
-        "at": "2026-10-28T10:49:21.607Z"
+        "reason": "Documents setup of operation comments and routing attachments used by this feature.",
+        "at": "2026-11-02T00:53:33.886Z"
       },
       "video/QdWPlIV3Avk#10@7dc576bf80c600c9": {
         "verdict": "keep",
-        "reason": "Shows attachments flowing from routing to purchase lines, controlled by toggles for production and purchase.",
-        "at": "2026-10-28T10:49:21.607Z"
+        "reason": "Shows routing attachments flowing to purchase lines, with toggles for production and purchase.",
+        "at": "2026-11-02T00:53:33.886Z"
       },
       "video/QdWPlIV3Avk#12@7dc576bf80c600c9": {
         "verdict": "keep",
-        "reason": "Shows subcontracting comments on routing lines inherited from standard tasks and copied to the purchase order.",
-        "at": "2026-10-28T10:49:21.607Z"
+        "reason": "Shows the routing subcontracting comment being inherited from standard tasks and copied to the purchase order.",
+        "at": "2026-11-02T00:53:33.886Z"
       },
       "video/QdWPlIV3Avk#6@7dc576bf80c600c9": {
         "verdict": "keep",
-        "reason": "Shows purchase orders with instruction comment lines populated automatically from the production order and routing.",
-        "at": "2026-10-28T10:49:21.607Z"
+        "reason": "Shows instruction comment lines filled in automatically on the subcontracting purchase order.",
+        "at": "2026-11-02T00:53:33.886Z"
       },
       "video/QdWPlIV3Avk#9@7dc576bf80c600c9": {
         "verdict": "keep",
-        "reason": "Shows comment lines with subcontractor instructions on subcontracting purchase orders.",
-        "at": "2026-10-28T10:49:21.607Z"
+        "reason": "Shows comment lines with subcontractor instructions on the purchase order.",
+        "at": "2026-11-02T00:53:33.886Z"
+      },
+      "video/SdQVQLNXVS0#4@22da145d9964d251": {
+        "verdict": "drop",
+        "reason": "Older 2025 release wave 1 production order attachments capability, not flowing to purchase orders.",
+        "at": "2026-11-02T00:53:33.886Z"
       },
       "video/sqjb_gsXqM8#14@3e0f3805f4fc321c": {
         "verdict": "drop",
-        "reason": "General subcontracting overview from an earlier wave with no mention of comments or attachments flowing to purchase orders.",
-        "at": "2026-10-28T10:49:21.607Z"
+        "reason": "General subcontracting overview that doesn't mention comments or attachments flowing to purchase orders.",
+        "at": "2026-11-02T00:53:33.886Z"
       },
-      "video/WACQbAEVOJg#0@e2490580dfb182a3": {
+      "video/WACQbAEVOJg#0@d1c052c6d0a19784": {
         "verdict": "keep",
         "reason": "Directly announces subcontracting comments and attachments from routing operations on purchase lines.",
-        "at": "2026-10-28T10:49:21.607Z"
+        "at": "2026-11-02T00:53:33.886Z"
       }
     },
     "573346": {
@@ -3309,313 +3314,313 @@
     "573350": {
       "docs/learn-smb-docs/business-central/qms-manual-test-creation.md@89cc65096ed8d34f": {
         "verdict": "drop",
-        "reason": "General Learn page on working with inspections; does not describe the new assignment prompt or automatic quantity calculation.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "General Learn page on working with inspections; ownership assignment is mentioned generally, not the new assign-to-myself notification.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "docs/learn-smb-docs/business-central/qms-overview.md@164e3353c106b1f3": {
         "verdict": "drop",
-        "reason": "General Quality Management overview.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "General Quality Management overview without the specific improvements.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "docs/learn-smb-docs/business-central/qms-production-output-testing.md@7bb3dfee2e02eb7b": {
         "verdict": "drop",
-        "reason": "Demo of automatic sampled inspection creation, not this feature's improvements.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Demo of automatic sampled inspection creation, a different capability.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "docs/learn-smb-docs/business-central/qms-purchase-receipt-testing-warehouse.md@4d4b6693dd1536e5": {
         "verdict": "drop",
-        "reason": "Demo of warehouse receipt inspection and reinspection, a different capability.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Demo of automatic inspection from warehouse receipt and reinspection, not these improvements.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "docs/learn-smb-docs/business-central/qms-quality-workflows.md@f606ca23b9875c7b": {
         "verdict": "drop",
-        "reason": "General workflow page; does not describe destination bin selection or other new improvements.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "General workflows page; doesn't describe destination bin selection or the new movement controls.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "docs/learn-smb-docs/business-central/qms-test-generation-rules.md@c80b83700fa13e8f": {
         "verdict": "drop",
         "reason": "Generation rules are a different capability.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/H5EuObmeF4o#36@56c1d175230d9e97": {
         "verdict": "drop",
-        "reason": "General introduction of the extension.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "General announcement of the extension.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#0@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "General introduction of the extension.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#1@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Automatic triggering is a different capability.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#10@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Attachments are a different capability.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#11@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Existing transfer order behavior, not destination bin selection.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Automatic transfer order on failure is an older capability, not destination bin selection.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#12@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Item tracking preservation is a different capability.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#13@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Sample size configuration is existing functionality.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Sample size configuration is an older capability, not automatic passed/failed quantities.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#14@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Existing sales blocking, not the new error details or link to the responsible inspection.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Describes sales blocking itself, not the improved error that opens the responsible inspection.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#15@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Reinspection is a different capability.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#16@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Certificate of analysis report is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#17@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Non-conformance report is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#18@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Role center is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#19@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Setup data is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#20@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Result configuration is existing functionality.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Result configuration is a different capability.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#21@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Result visibility is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Result visibility settings are unrelated.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#22@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Existing blocking setup, not the improved error guidance.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Blocking configuration is an older capability, not the error guidance.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#23@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Test parameters are unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#24@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Allowable values are unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#25@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Default test values are unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Default test values are a different capability.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#26@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Pass/fail conditions are existing functionality.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Pass/fail conditions are a different capability.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#27@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Evaluation sequence is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#28@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Boolean test type is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#29@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Option test type is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#3@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Manual triggering is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#30@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Table lookup is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#31@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Lookup filtering is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#32@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Lookup limits are unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#33@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Lookup values table is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#34@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Lookup values are unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#35@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Test types are unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#36@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Templates are unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#37@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Sampling configuration is existing functionality.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Sampling configuration is an older capability.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#38@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Generation rules are unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#39@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Automatic creation is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#40@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Existing blocking behavior, not the new error details.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Blocking itself is older; no mention of error details or opening the inspection.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#41@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Setup page is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#42@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Existing disposition actions, not the new destination bin selection.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Existing inspection actions; no destination bin selection described.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#43@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Item tracking change is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#44@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Quantity options shown in the wave 1 introduction are existing functionality, not the new movement controls.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Wave 1 quantity selection for adjustments is an older capability, not the new destination bin controls.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#45@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Sample quantity field is existing functionality.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Sample quantity field is older and not the auto-calculation.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#46@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Workflow events are unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#47@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Workflow conditions are unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#48@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Tracking blocking workflow is existing functionality.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Tracking number blocking workflow is a different capability.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#49@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Workflow actions are unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#5@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Too general.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "General non-compliant handling mention.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#50@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Existing movement responses, with no destination bin selection described.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Existing movement responses; no destination bin selection.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#51@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "API integration is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#52@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Built-in workflows in general are unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#6@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Purchase receipt inspection is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#7@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Test execution in general is unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Test execution is unrelated.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#8@97387fe5e7cdd68a": {
         "verdict": "drop",
         "reason": "Test descriptions are unrelated.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/m8-7-JKq4dc#9@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Result determination is existing functionality, not quantity calculation.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Result determination is a different, older behavior.",
+        "at": "2026-11-02T00:53:48.313Z"
+      },
+      "video/SdQVQLNXVS0#8@22da145d9964d251": {
+        "verdict": "drop",
+        "reason": "Manufacturing journal item tracking is unrelated.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
       "video/sqjb_gsXqM8#0@3e0f3805f4fc321c": {
         "verdict": "drop",
         "reason": "General extension announcement.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "at": "2026-11-02T00:53:48.313Z"
       },
-      "video/WACQbAEVOJg#11@e2490580dfb182a3": {
+      "video/WACQbAEVOJg#12@d1c052c6d0a19784": {
         "verdict": "keep",
-        "reason": "Describes the inspection role permissions and assignment controls that the consistent rules and permissions part of this feature covers.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Shows the recommendation to assign an inspection to the current user when it is modified.",
+        "at": "2026-11-02T00:53:48.313Z"
       },
-      "video/WACQbAEVOJg#12@e2490580dfb182a3": {
+      "video/WACQbAEVOJg#13@d1c052c6d0a19784": {
         "verdict": "keep",
-        "reason": "Shows the prompt to assign a modified inspection to the current user.",
-        "at": "2026-11-01T00:41:18.112Z"
-      },
-      "video/WACQbAEVOJg#13@e2490580dfb182a3": {
-        "verdict": "keep",
-        "reason": "Shows passed/failed quantity being updated automatically from sample size when the inspection is finished.",
-        "at": "2026-11-01T00:41:18.112Z"
+        "reason": "Shows passed/failed quantities updated automatically from sample size when an inspection is finished.",
+        "at": "2026-11-02T00:53:48.313Z"
       }
     },
     "573351": {
@@ -3724,103 +3729,108 @@
     "573355": {
       "docs/learn-smb-docs/business-central/design-details-warehouse-management.md@a27ecfbe04886e75": {
         "verdict": "drop",
-        "reason": "General warehouse management overview with no subcontracting inventory activities.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "This is a general warehouse management overview with nothing on subcontracting inventory activities.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "docs/learn-smb-docs/business-central/subcontract-components.md@b497e74429ebe4ce": {
         "verdict": "drop",
-        "reason": "Covers subcontracting component supply, not inventory put-aways or picks.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It covers how subcontracting components are supplied and transferred, not inventory put-aways or picks.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "docs/learn-smb-docs/business-central/subcontract-order.md@ed9f455a20c25d94": {
         "verdict": "keep",
-        "reason": "Subcontracting order page explicitly lists inventory put-away handling for subcontracting purchase orders.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "The subcontracting order documentation lists inventory put-away handling for subcontracting purchase orders.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "docs/learn-smb-docs/business-central/subcontract-wip-transfers.md@823621b939a2c3d8": {
         "verdict": "drop",
-        "reason": "Describes WIP transfers generally without mentioning inventory picks or put-aways.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It describes WIP transfers in general and doesn't mention inventory picks or put-aways for them.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "docs/learn-smb-docs/business-central/warehouse-how-to-pick-for-production.md@53d077804c93aa45": {
         "verdict": "drop",
-        "reason": "Inventory picks for production consumption, not subcontracting.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It covers older basic-warehouse picking for production, not subcontracting.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "docs/learn-smb-docs/business-central/warehouse-how-to-put-away-production-output.md@c85af641d274fdd0": {
         "verdict": "drop",
-        "reason": "Put-away of production output, an older capability not specific to subcontracting.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It covers putting away regular production output, an older capability that isn't about subcontracting.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "video/pEXl-POet_4#0@f97c37a38a6a87d5": {
         "verdict": "drop",
-        "reason": "Directed put-away and pick for projects, unrelated feature.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It covers directed put-away and pick for projects, a different feature.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "video/QdWPlIV3Avk#19@7dc576bf80c600c9": {
         "verdict": "drop",
-        "reason": "Describes warehouse receipts for subcontracting, a different capability.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It covers warehouse receipts for subcontracting, a different receiving method from inventory put-aways.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "video/QdWPlIV3Avk#20@7dc576bf80c600c9": {
         "verdict": "keep",
-        "reason": "Directly demonstrates creating inventory put-aways from subcontracting orders at basic warehouse locations.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It shows creating inventory put-aways directly from subcontracting orders at basic warehouse locations.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "video/QdWPlIV3Avk#22@7dc576bf80c600c9": {
         "verdict": "keep",
-        "reason": "Shows inventory put-away as a supported receiving method for subcontracting.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It names inventory put-away as one of the ways to receive subcontracted items.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "video/QdWPlIV3Avk#3@7dc576bf80c600c9": {
         "verdict": "drop",
-        "reason": "General warehouse integration statement too broad to identify inventory put-aways/picks.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It's a general introduction to warehouse integration and doesn't name inventory put-aways or picks.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "video/sqjb_gsXqM8#14@3e0f3805f4fc321c": {
         "verdict": "drop",
-        "reason": "Earlier subcontracting capabilities without inventory put-aways or picks.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It's an earlier subcontracting release focused on warehouse receipts and transfer orders, not inventory activities.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "video/sVlPlmok5U8#1@25e0cff40950cb50": {
         "verdict": "drop",
-        "reason": "Inventory put-aways for project items, not subcontracting.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It covers inventory put-aways for project items, not subcontracting.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "video/sVlPlmok5U8#2@25e0cff40950cb50": {
         "verdict": "drop",
-        "reason": "Warehouse receipts for project items, unrelated.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It covers warehouse receipts for project items, a different feature.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "video/vnaySMIKnp8#0@23384c5664f83403": {
         "verdict": "drop",
-        "reason": "Warehouse put-away for production output, different feature.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It covers warehouse put-away for production output, a different feature.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "video/vnaySMIKnp8#1@23384c5664f83403": {
         "verdict": "drop",
-        "reason": "Automatic put-away generation for production output, different feature.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It covers automatic put-away creation for production output, not subcontracting.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "video/vnaySMIKnp8#2@23384c5664f83403": {
         "verdict": "drop",
-        "reason": "Put-away worksheet for production orders, different feature.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It covers creating production put-aways from the put-away worksheet, a different feature.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "video/vnaySMIKnp8#4@23384c5664f83403": {
         "verdict": "drop",
-        "reason": "Warehouse over-pick for production, unrelated.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It covers the warehouse over-pick setting, a different feature.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
       "video/vnaySMIKnp8#5@23384c5664f83403": {
         "verdict": "drop",
-        "reason": "Returning over-picked items, unrelated.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It covers returning over-picked items, a different feature.",
+        "at": "2026-11-02T00:53:46.708Z"
       },
-      "video/WACQbAEVOJg#1@e2490580dfb182a3": {
+      "video/WACQbAEVOJg#1@d1c052c6d0a19784": {
         "verdict": "keep",
-        "reason": "Announces inventory put-aways for subcontracted operations including last and non-last operations.",
-        "at": "2026-10-25T12:47:19.751Z"
+        "reason": "It announces inventory put-aways for subcontracted operations, for both last and non-last operations.",
+        "at": "2026-11-02T00:53:46.708Z"
+      },
+      "video/WACQbAEVOJg#9@d1c052c6d0a19784": {
+        "verdict": "drop",
+        "reason": "It covers inventory activities for regular partial transfers, not WIP transfer orders or subcontracting.",
+        "at": "2026-11-02T00:53:46.708Z"
       }
     },
     "573356": {
@@ -3845,33 +3855,38 @@
     "573358": {
       "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/set-up-new-capacity.md@198a1d64719b94d6": {
         "verdict": "drop",
-        "reason": "This is a general walkthrough for setting up capacity and calendars; it doesn't cover the new calendar actions on the card or the Calendar Entries Available Until field.",
-        "at": "2026-10-25T12:48:20.175Z"
+        "reason": "General capacity setup walkthrough; it doesn't describe the new calendar actions or the availability field.",
+        "at": "2026-11-02T00:53:33.679Z"
       },
-      "docs/learn-smb-docs/business-central/production-how-to-set-up-work-and-machine-centers.md@a99a22fa0065f7be": {
+      "video/SdQVQLNXVS0#1@22da145d9964d251": {
         "verdict": "drop",
-        "reason": "This is a general Learn page on setting up work and machine centers and doesn't describe this feature's improvements.",
-        "at": "2026-10-25T12:48:20.175Z"
+        "reason": "Bulk status change for production orders is a different capability.",
+        "at": "2026-11-02T00:53:33.679Z"
+      },
+      "video/SdQVQLNXVS0#3@22da145d9964d251": {
+        "verdict": "drop",
+        "reason": "Rescheduling without changing the due date is a different capability.",
+        "at": "2026-11-02T00:53:33.679Z"
+      },
+      "video/SdQVQLNXVS0#7@22da145d9964d251": {
+        "verdict": "drop",
+        "reason": "Earlier routing overview and link code update feature, not Routing Link Code added to the planning routing and component pages.",
+        "at": "2026-11-02T00:53:33.679Z"
       },
       "video/sqjb_gsXqM8#10@3e0f3805f4fc321c": {
         "verdict": "drop",
-        "reason": "The Description 2 field on BOMs and routings is a different capability that isn't part of this feature.",
-        "at": "2026-10-25T12:48:20.175Z"
+        "reason": "Description 2 field on BOMs and routings isn't part of this feature.",
+        "at": "2026-11-02T00:53:33.679Z"
       },
       "video/sqjb_gsXqM8#13@3e0f3805f4fc321c": {
         "verdict": "drop",
-        "reason": "WIP account posting by location is a different capability.",
-        "at": "2026-10-25T12:48:20.175Z"
+        "reason": "WIP account posting change is unrelated to this feature.",
+        "at": "2026-11-02T00:53:33.679Z"
       },
-      "video/WACQbAEVOJg#3@e2490580dfb182a3": {
-        "verdict": "drop",
-        "reason": "Showing routing fields automatically for parallel routings isn't among this feature's listed improvements.",
-        "at": "2026-10-25T12:48:20.175Z"
-      },
-      "video/WACQbAEVOJg#4@e2490580dfb182a3": {
+      "video/WACQbAEVOJg#4@d1c052c6d0a19784": {
         "verdict": "keep",
-        "reason": "It shows the Calendar Entries Available Until field with its warning style and running Calculate Machine Center Calendar directly from the card.",
-        "at": "2026-10-25T12:48:20.175Z"
+        "reason": "Shows the Calendar Entries Available Until field with its warning style and running Calculate Machine Center Calendar from the card.",
+        "at": "2026-11-02T00:53:33.679Z"
       }
     },
     "573359": {
@@ -4355,83 +4370,93 @@
     "573374": {
       "docs/learn-smb-docs/business-central/finance-sustainability-journal.md@5dfe7dfe2f181447": {
         "verdict": "drop",
-        "reason": "It lists formula-based calculation and purchase document emissions as separate journal features and never says formulas work on purchase documents.",
-        "at": "2026-11-01T00:40:51.726Z"
+        "reason": "It lists journal formulas and purchase document emissions as separate features and doesn't say formulas work on purchase documents.",
+        "at": "2026-11-02T00:53:37.343Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-purchase.md@b274b53cf9eb2e3b": {
         "verdict": "drop",
-        "reason": "It covers the older Use Emissions In Purchase Documents setup and value chain tracking, with no mention of formulas.",
-        "at": "2026-11-01T00:40:51.726Z"
+        "reason": "It covers value chain tracking and the emissions-in-purchase-documents toggle, but not formula-based calculation.",
+        "at": "2026-11-02T00:53:37.343Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-setup.md@97eb108e95c84ff1": {
         "verdict": "drop",
-        "reason": "It covers value chain setup, carbon tracking methods and emission fees, which are a different capability.",
-        "at": "2026-11-01T00:40:51.726Z"
+        "reason": "It covers value chain setup and carbon tracking methods, which is a different capability.",
+        "at": "2026-11-02T00:53:37.343Z"
       },
       "video/_ynMUzh956w#9@a1bd9a308dd35fa3": {
         "verdict": "drop",
-        "reason": "It describes emission factors used in sustainability journal calculations, an older journal capability with no link to purchase documents.",
-        "at": "2026-11-01T00:40:51.726Z"
+        "reason": "It covers emission factors used in journal calculations, which is the older journal capability.",
+        "at": "2026-11-02T00:53:37.343Z"
       },
       "video/2_yYu3RgYwo#7@a347f27c06570525": {
         "verdict": "drop",
-        "reason": "It describes default sustainability values transferring to purchase lines, which is a different feature.",
-        "at": "2026-11-01T00:40:51.726Z"
+        "reason": "It covers default emission values flowing to purchase lines, not formulas.",
+        "at": "2026-11-02T00:53:37.343Z"
       },
       "video/6d6iajwQQ-c#1@f99f2d7960a566c9": {
         "verdict": "drop",
-        "reason": "It describes value chain tracking through production documents, which is a different capability.",
-        "at": "2026-11-01T00:40:51.726Z"
+        "reason": "It covers value chain tracking for production, which is unrelated to purchase-line formulas.",
+        "at": "2026-11-02T00:53:37.343Z"
       },
       "video/6d6iajwQQ-c#4@f99f2d7960a566c9": {
         "verdict": "drop",
-        "reason": "It describes carbon equivalent tracking on production orders, which is unrelated to purchase document formulas.",
-        "at": "2026-11-01T00:40:51.726Z"
+        "reason": "It covers carbon equivalent tracking on production orders, which is a different capability.",
+        "at": "2026-11-02T00:53:37.343Z"
       },
       "video/6d6iajwQQ-c#6@f99f2d7960a566c9": {
         "verdict": "drop",
-        "reason": "It describes the carbon equivalent field on production BOMs, which is a different capability.",
-        "at": "2026-11-01T00:40:51.726Z"
+        "reason": "It covers production BOM carbon equivalent fields, which is a different capability.",
+        "at": "2026-11-02T00:53:37.343Z"
       },
       "video/JBGuaqk5nXk#0@d3011fa28115c8f7": {
         "verdict": "drop",
-        "reason": "It describes a Copilot CO2 calculation action in journals, not formulas on purchase documents.",
-        "at": "2026-11-01T00:40:51.726Z"
+        "reason": "It covers a Copilot calculation in sustainability journals, not purchase document formulas.",
+        "at": "2026-11-02T00:53:37.343Z"
       },
       "video/JBGuaqk5nXk#6@d3011fa28115c8f7": {
         "verdict": "drop",
-        "reason": "It describes Copilot explaining its calculations, which is a different feature.",
-        "at": "2026-11-01T00:40:51.726Z"
+        "reason": "It covers Copilot explanations of its calculations, which is a different capability.",
+        "at": "2026-11-02T00:53:37.343Z"
       },
       "video/JoGW2xlIq0I#3@95b48d89d0d03acc": {
         "verdict": "drop",
-        "reason": "It describes collecting emissions from posted purchase invoices for assembly orders, not formula calculation.",
-        "at": "2026-11-01T00:40:51.726Z"
+        "reason": "It covers value chain collection for assembly orders, not formulas on purchase lines.",
+        "at": "2026-11-02T00:53:37.343Z"
       },
       "video/lcy36b9GS38#1@437cd523065442b8": {
         "verdict": "drop",
-        "reason": "It is a general overview of scope 3 value chain automation that doesn't mention formulas.",
-        "at": "2026-11-01T00:40:51.726Z"
+        "reason": "It is a general overview of scope 3 value chain automation.",
+        "at": "2026-11-02T00:53:37.343Z"
       },
-      "video/NYG4pOtW-Xw#11@806aa2eb71d3b568": {
+      "video/NYG4pOtW-Xw#11@8ef20b3a7c778cb9": {
         "verdict": "drop",
-        "reason": "It describes entering emissions by hand on purchase invoices, the older capability this feature builds on.",
-        "at": "2026-11-01T00:40:51.726Z"
+        "reason": "It covers manual emission entry on purchase invoices, which is the older capability.",
+        "at": "2026-11-02T00:53:37.343Z"
       },
-      "video/NYG4pOtW-Xw#2@806aa2eb71d3b568": {
+      "video/NYG4pOtW-Xw#2@8ef20b3a7c778cb9": {
         "verdict": "drop",
-        "reason": "It describes the older ability to enter emissions directly on purchase documents, not formulas.",
-        "at": "2026-11-01T00:40:51.726Z"
+        "reason": "It covers manual emission entry in purchase documents with no formulas.",
+        "at": "2026-11-02T00:53:37.343Z"
+      },
+      "video/Sc8eGyMkBTA#0@66065a06d447af10": {
+        "verdict": "drop",
+        "reason": "It covers value chain automation in projects, which is a different capability.",
+        "at": "2026-11-02T00:53:37.343Z"
+      },
+      "video/Sc8eGyMkBTA#5@66065a06d447af10": {
+        "verdict": "drop",
+        "reason": "It covers the value chain tracking setup field, not the formulas toggle.",
+        "at": "2026-11-02T00:53:37.343Z"
       },
       "video/t_UXxbvgnHY#0@13bd58c8ea9ff88a": {
         "verdict": "keep",
         "reason": "It directly announces sustainability formulas on purchase orders and invoices, calculated the same way as in journals.",
-        "at": "2026-11-01T00:40:51.726Z"
+        "at": "2026-11-02T00:53:37.343Z"
       },
       "video/uan4dV9eVCA#4@1c46376c931ac53e": {
         "verdict": "drop",
-        "reason": "It describes emission formulas in general without saying they work on purchase documents, so it's too general to tie to this feature.",
-        "at": "2026-11-01T00:40:51.726Z"
+        "reason": "It describes emission formulas in general, without tying them to purchase documents.",
+        "at": "2026-11-02T00:53:37.343Z"
       }
     },
     "573375": {

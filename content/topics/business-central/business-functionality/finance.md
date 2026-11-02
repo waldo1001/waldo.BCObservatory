@@ -12,7 +12,7 @@ review:
   at: "2026-10-30T08:08:18.093Z"
   flags: []
 generated:
-  at: "2026-11-01T00:45:11.847Z"
+  at: "2026-11-02T00:57:11.355Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -865,7 +865,6 @@ links:
     - change/bcapps/10049
     - change/bcapps/11138
     - change/bcapps/11150
-    - change/bcapps/12083
     - change/bcapps/9275
     - change/bcapps/9311
     - change/bcapps/9341
@@ -1500,7 +1499,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10049 Removed the ReplicateData=false property](../../../changes/bcapps/10049.md) (code change): "Removed ReplicateData=false from three Spend Request tables"
 - [#11138 [29.x][Bug Fix] Fix recurring journal background posting for IRS 1099 invoice lines (US)](../../../changes/bcapps/11138.md) (code change): "IRS 1099 subscribers no longer call Modify(true) on journal lines during validation"
 - [#11150 Deliverable 638799: Requisitions in Base App: Missed dataclassification on user field](../../../changes/bcapps/11150.md) (code change): "A missing data classification attribute was restored on a user field"
-- [#12083 Fix-Bug 652112 Public Preview: If a field such as "Email" is updated programmatically on the customer record, the change is not automatically transferred to the associated contact.](../../../changes/bcapps/12083.md) (code change): "customer, vendor, and bank account records now properly synchronize changes"
 - [#9275 [ALAppExtensions #30250] Matrix Management: reorder OnFormatRoundingFactor Signature](../../../changes/bcapps/9275.md) (code change): "Parameter order of OnAfterSetAmountDecimal event changed to put AmountDecimal first"
 - [#9311 Withholding Tax for Employee](../../../changes/bcapps/9311.md) (code change): "Withholding tax support for employee transactions has been added"
 - [#9341 [main][Change Request] Page 8901 - Add empty "layout" to the RoleCenter](../../../changes/bcapps/9341.md) (code change): "Empty layout section added to the Finance Manager Role Center"

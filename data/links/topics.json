@@ -8062,16 +8062,11 @@
     "change/bcapps/12083": {
       "kind": "change",
       "key": "change/bcapps/12083",
-      "hash": "f05735bc46ade73b93fe3b0101780888f6babdea1cbeb248655d066c6b0e6e69",
+      "hash": "e0a20086864a1708d3760e7cb558b58319dae98c87ed858c137d049388e77aff",
       "title": "#12083 Fix-Bug 652112 Public Preview: If a field such as \"Email\" is updated programmatically on the customer record, the change is not automatically transferred to the associated contact.",
       "source": "bcapps-prs",
-      "at": "2026-11-01T00:41:49.817Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/business-functionality/finance",
-          "quote": "customer, vendor, and bank account records now properly synchronize changes"
-        }
-      ]
+      "at": "2026-11-02T00:54:19.682Z",
+      "matches": []
     },
     "change/bcapps/12097": {
       "kind": "change",
@@ -10634,14 +10629,14 @@
     "change/bcapps/13203": {
       "kind": "change",
       "key": "change/bcapps/13203",
-      "hash": "307fe532c205de0faf2a0ab0f4827cfe3c213d425594152b52d368c050e0ee19",
+      "hash": "c148ec0947f4173a1d744fa6e473c3900f810fbe3c80558454a11710a1595f4a",
       "title": "#13203 [main] Bug 656535 Additional Reporting Currency Difference After Closing Income Statement - related to 625803",
       "source": "bcapps-prs",
-      "at": "2026-11-01T00:41:56.108Z",
+      "at": "2026-11-02T00:54:18.091Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/closing-years-and-periods",
-          "quote": "Close Income Statement process now correctly handles additional reporting currency"
+          "quote": "Close Income Statement now passes the closed additional reporting currency"
         }
       ]
     },
@@ -10918,14 +10913,14 @@
     "change/bcapps/13330": {
       "kind": "change",
       "key": "change/bcapps/13330",
-      "hash": "3196b34f2bf81d7040eecc7f30223c55f68bda0f8271349ddd2b1da953740765",
+      "hash": "b7c5be7346f5bb2bd56c98a4952e6c2a6cb096d422dbb3a59e83bc7679466011",
       "title": "#13330 Bug 656921: [master] Recurring Frequency missing from Edit in Excel",
       "source": "bcapps-prs",
-      "at": "2026-11-01T00:41:56.108Z",
+      "at": "2026-11-02T00:54:18.091Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
-          "quote": "Recurring Frequency field is now editable in Edit in Excel"
+          "quote": "Recurring Frequency field is now editable in Edit in Excel for recurring general journals"
         }
       ]
     },
@@ -37985,22 +37980,22 @@
     "post/yzhums-com/77038": {
       "kind": "post",
       "key": "post/yzhums-com/77038",
-      "hash": "97016bfa412212670d25056d13e2e6e391b69467a6c91e21a870ee491c535afa",
+      "hash": "be016f5dadc0fd798b3c617f7da95ae3051366b515a62723ea716bc201628188",
       "title": "Business Central 2026 release wave 2 (BC29): Custom Report Layouts are now deprecated and have been removed",
       "source": "yzhums-com",
-      "at": "2026-11-01T00:41:47.851Z",
+      "at": "2026-11-02T00:54:18.365Z",
       "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
+          "quote": "Custom Report Layouts have been removed in Business Central 2026 wave 2"
+        },
         {
           "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-2-v29",
           "quote": "Custom Report Layouts are now deprecated and have been removed"
         },
         {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/deprecating-code",
-          "quote": "Organizations must migrate all custom layouts to the new Report Layouts feature"
-        },
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
-          "quote": "Users should migrate existing custom layouts to the new user-defined Report Layouts feature"
+          "topic": "topic/business-central/get-started/get-productive-in-business-central/change-the-look-of-externally-facing-doc/use-obsolete-features",
+          "quote": "This legacy feature from Dynamics NAV was already obsolete but retained"
         }
       ]
     },

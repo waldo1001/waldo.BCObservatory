@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-10-31T01:06:04.529Z"
+  at: "2026-11-02T00:57:11.355Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -205,14 +205,20 @@ links:
   localizations: []
   videos:
     - video/7SSNcUMFtCw
+    - video/9zQZHfXK-PQ
+    - video/jWJc_D67Vfw
     - video/lNASlydCidI
+    - video/nbGw2g3KMXI
+    - video/tpAh4q3h8T8
   posts:
     - post/aardvarklabs-blog/1609
     - post/aardvarklabs-blog/1891
     - post/aardvarklabs-blog/2663
     - post/aardvarklabs-blog/2965
-    - post/bccaptain-com-au/https-bccaptain-com-au-2026-04-27-im-back-and-its-going-to-be-a-busy-few-months--f03ed9d8b6
     - post/thinkaboutit-be/8204
+    - post/thinkaboutit-be/8331
+    - post/tine-staric-net/https-tine-staric-net-blog-2026-copilot-harness-default--e1d89722b8
+    - post/yzhums-com/67990
   guidelines: []
   changes:
     - change/al-go/2413
@@ -230,8 +236,8 @@ children:
 coverage:
   learn: 24
   code: 0
-  video: 2
-  blog: 6
+  video: 6
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: aeabb0e354c64dab6f26c0a75a3b42f75aacb52e074d17031f180db246dc234e
@@ -293,9 +299,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Implementing a Multi-Step Process for AI Recommendations in Business Central](../../../posts/aardvarklabs-blog/1891.md) (community post): "This post demonstrates how to build a multi-step AI-assisted process in Business Central"
 - [Azure OpenAI in Business Central AL: Managed vs Unmanaged](../../../posts/aardvarklabs-blog/2663.md) (community post): "Azure OpenAI in Business Central AL: Managed vs Unmanaged"
 - [Step-by-Step Guide to AI Campaigns in Business Central](../../../posts/aardvarklabs-blog/2965.md) (community post): "Leverages Business Central's managed AI resource with Bing Grounded Search"
-- [I’m back – and it’s going to be a busy few months!](../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-04-27-im-back-and-its-going-to-be-a-busy-few-months--f03ed9d8b6.md) (community post): "AI tools in AL development workflows brings together leading community developers"
 - [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "Developers can now build Copilot extensions using Microsoft-managed Azure OpenAI"
+- [Business Central 29: What’s New in BC-Bench?](../../../posts/thinkaboutit-be/8331.md) (community post): "AL MCP (Model Context Protocol) improves bug-fixing performance by nearly 10% when integrated with AI agents"
+- [The Copilot harness is now VS Code's default](../../../posts/tine-staric-net/https-tine-staric-net-blog-2026-copilot-harness-default--e1d89722b8.md) (community post): "The Copilot harness is now VS Code's default"
+- [Dynamics 365 Business Central: GitHub Copilot Agent Tools now available in the AL Extension (New AL Tools Available for Agents)](../../../posts/yzhums-com/67990.md) (community post): "GitHub Copilot agent tools now available in the AL Extension"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../../videos/7SSNcUMFtCw.md) (video): "Bring your own Azure OpenAI subscription; System prompts for AI safety"
+- [From Code to Docs: Using GitHub Copilot to Automate Business Central Documentation](../../../videos/9zQZHfXK-PQ.md) (video): "AI agents with specification context and GitHub Copilot skills"
+- [20260518 - Learning AI the Way I Learned NAV](../../../videos/jWJc_D67Vfw.md) (video): "Learning AI the Way I Learned NAV"
 - [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../videos/lNASlydCidI.md) (video): "Generative AI Developer Toolkit; Prompt Dialogue Page Type; Sparkle Image Property"
+- [20260713 - From Zero to Agent Building agents in Business Central](../../../videos/nbGw2g3KMXI.md) (video): "Agent Factory Codeunit; Agent Capability Registration; Agent Creation"
+- [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../../../videos/tpAh4q3h8T8.md) (video): "GitHub Copilot integration"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

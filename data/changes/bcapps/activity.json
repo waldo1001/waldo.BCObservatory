@@ -2,7 +2,7 @@
   "open": [
     {
       "number": 12453,
-      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2788465",
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2790065",
       "url": "https://github.com/microsoft/BCApps/pull/12453",
       "base": "main",
       "major": "30",
@@ -14,7 +14,87 @@
       ],
       "draft": false,
       "created_at": "2026-10-06T23:37:44Z",
-      "updated_at": "2026-10-31T23:39:43Z",
+      "updated_at": "2026-11-01T23:39:55Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13361,
+      "title": "Base block for Payables Agent V2.0",
+      "url": "https://github.com/microsoft/BCApps/pull/13361",
+      "base": "main",
+      "major": "30",
+      "author": "mynjj",
+      "labels": [
+        "AL: Apps (W1)",
+        "Build: Automation",
+        "Build: scripts & configs",
+        "Team: Finance"
+      ],
+      "draft": true,
+      "created_at": "2026-10-28T10:29:30Z",
+      "updated_at": "2026-11-01T21:55:47Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13447,
+      "title": "[master]\"El título Importe pendiente resulta ambiguo entre varios campos de la tabla Mov. proveedor.\" error if you try to Create Payment for some Vendor Ledger Entries filtered by Remaining Amount <> 0 in the Spanish version.",
+      "url": "https://github.com/microsoft/BCApps/pull/13447",
+      "base": "main",
+      "major": "30",
+      "author": "neeleshsinghal",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-10-29T20:18:13Z",
+      "updated_at": "2026-11-01T21:26:24Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13337,
+      "title": "[master]Sales Quote for Subscription Billing (RDLC) Layout Fails with GlobalLocationNumber_Lbl Dataset Rendering Error.",
+      "url": "https://github.com/microsoft/BCApps/pull/13337",
+      "base": "main",
+      "major": "30",
+      "author": "neeleshsinghal",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-10-27T21:38:22Z",
+      "updated_at": "2026-11-01T21:25:27Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13336,
+      "title": "[master] Create Reminders fails with \"There is no Reminder Line within the filter\" when all overdue entries are On Hold (new communication texts)",
+      "url": "https://github.com/microsoft/BCApps/pull/13336",
+      "base": "main",
+      "major": "30",
+      "author": "neeleshsinghal",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-10-27T20:44:42Z",
+      "updated_at": "2026-11-01T21:24:32Z",
+      "community_contribution": false
+    },
+    {
+      "number": 9587,
+      "title": "Concurrent posting for General Ledger entries",
+      "url": "https://github.com/microsoft/BCApps/pull/9587",
+      "base": "main",
+      "major": "30",
+      "author": "Alexander-Ya",
+      "labels": [
+        "Build: scripts & configs",
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-07-18T15:36:48Z",
+      "updated_at": "2026-11-01T13:10:24Z",
       "community_contribution": false
     },
     {
@@ -30,7 +110,7 @@
       ],
       "draft": false,
       "created_at": "2026-09-06T16:38:18Z",
-      "updated_at": "2026-10-31T17:13:03Z",
+      "updated_at": "2026-11-01T13:03:29Z",
       "community_contribution": false
     },
     {
@@ -49,7 +129,101 @@
       ],
       "draft": true,
       "created_at": "2026-10-30T08:53:34Z",
-      "updated_at": "2026-10-31T16:22:45Z",
+      "updated_at": "2026-11-01T11:46:42Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13015,
+      "title": "Bug/648925 VAT charged in Sales Invoice with Cash Basis (Unrealized VAT) is not paid on Sales Credit Note applied to that Posted Sales Invoice if we use a similar Cash Basis VAT Prod Posting Group in the Mexican version - regression.",
+      "url": "https://github.com/microsoft/BCApps/pull/13015",
+      "base": "main",
+      "major": "30",
+      "author": "v-mjofre",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-10-19T21:09:28Z",
+      "updated_at": "2026-11-01T09:46:44Z",
+      "community_contribution": false
+    },
+    {
+      "number": 10801,
+      "title": "[Extensibility Request][Subscription Billing] Remove internal access from SetParameter procedures on page \"Extend Contract",
+      "url": "https://github.com/microsoft/BCApps/pull/10801",
+      "base": "main",
+      "major": "30",
+      "author": "caesarsit",
+      "labels": [
+        "ADO: Sync",
+        "AL: Apps (W1)",
+        "From Fork",
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-08-31T07:41:48Z",
+      "updated_at": "2026-11-01T00:48:14Z",
+      "community_contribution": true
+    },
+    {
+      "number": 12628,
+      "title": "Add Expense app approval navigation and interim controls",
+      "url": "https://github.com/microsoft/BCApps/pull/12628",
+      "base": "main",
+      "major": "30",
+      "author": "encimita",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: Finance"
+      ],
+      "draft": true,
+      "created_at": "2026-10-09T14:20:51Z",
+      "updated_at": "2026-11-01T00:45:52Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12634,
+      "title": "Migrate Questionnaire Management off XML DOM Management",
+      "url": "https://github.com/microsoft/BCApps/pull/12634",
+      "base": "main",
+      "major": "30",
+      "author": "darjoo",
+      "labels": [
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-10-09T21:32:06Z",
+      "updated_at": "2026-11-01T00:45:44Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13339,
+      "title": "[29.x]Changing Negative Amount Format to Parentheses modifies displayed decimal precision despite unchanged rounding settings in the Financial Reports",
+      "url": "https://github.com/microsoft/BCApps/pull/13339",
+      "base": "releases/29.x",
+      "major": "29",
+      "author": "sanjmaurya",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-10-28T03:06:22Z",
+      "updated_at": "2026-11-01T00:42:26Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13344,
+      "title": "[29.x]- Bug 647007 Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced' reverted back on original Purchase Order",
+      "url": "https://github.com/microsoft/BCApps/pull/13344",
+      "base": "releases/29.x",
+      "major": "29",
+      "author": "MSNehaNawal",
+      "labels": [
+        "Team: SCM"
+      ],
+      "draft": false,
+      "created_at": "2026-10-28T05:34:54Z",
+      "updated_at": "2026-11-01T00:42:19Z",
       "community_contribution": false
     },
     {
@@ -162,21 +336,6 @@
       "created_at": "2026-10-01T22:16:49Z",
       "updated_at": "2026-10-31T12:09:53Z",
       "community_contribution": true
-    },
-    {
-      "number": 13015,
-      "title": "Bug/648925 VAT charged in Sales Invoice with Cash Basis (Unrealized VAT) is not paid on Sales Credit Note applied to that Posted Sales Invoice if we use a similar Cash Basis VAT Prod Posting Group in the Mexican version - regression.",
-      "url": "https://github.com/microsoft/BCApps/pull/13015",
-      "base": "main",
-      "major": "30",
-      "author": "v-mjofre",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-10-19T21:09:28Z",
-      "updated_at": "2026-10-31T10:46:13Z",
-      "community_contribution": false
     },
     {
       "number": 13315,
@@ -591,22 +750,6 @@
       "draft": true,
       "created_at": "2026-10-30T22:18:43Z",
       "updated_at": "2026-10-30T22:49:17Z",
-      "community_contribution": false
-    },
-    {
-      "number": 9587,
-      "title": "Concurrent posting for General Ledger entries",
-      "url": "https://github.com/microsoft/BCApps/pull/9587",
-      "base": "main",
-      "major": "30",
-      "author": "Alexander-Ya",
-      "labels": [
-        "Build: scripts & configs",
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-07-18T15:36:48Z",
-      "updated_at": "2026-10-30T20:13:48Z",
       "community_contribution": false
     },
     {
@@ -1049,21 +1192,6 @@
       "community_contribution": false
     },
     {
-      "number": 13336,
-      "title": "[master] Create Reminders fails with \"There is no Reminder Line within the filter\" when all overdue entries are On Hold (new communication texts)",
-      "url": "https://github.com/microsoft/BCApps/pull/13336",
-      "base": "main",
-      "major": "30",
-      "author": "neeleshsinghal",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-10-27T20:44:42Z",
-      "updated_at": "2026-10-30T08:36:36Z",
-      "community_contribution": false
-    },
-    {
       "number": 12949,
       "title": "Move C5 migration, IS Core Tests and EU 3-Party Tests to Cloud",
       "url": "https://github.com/microsoft/BCApps/pull/12949",
@@ -1174,21 +1302,6 @@
       "community_contribution": true
     },
     {
-      "number": 13344,
-      "title": "[29.x]- Bug 647007 Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced' reverted back on original Purchase Order",
-      "url": "https://github.com/microsoft/BCApps/pull/13344",
-      "base": "releases/29.x",
-      "major": "29",
-      "author": "MSNehaNawal",
-      "labels": [
-        "Team: SCM"
-      ],
-      "draft": false,
-      "created_at": "2026-10-28T05:34:54Z",
-      "updated_at": "2026-10-30T06:49:28Z",
-      "community_contribution": false
-    },
-    {
       "number": 13417,
       "title": "[Master]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo.",
       "url": "https://github.com/microsoft/BCApps/pull/13417",
@@ -1201,21 +1314,6 @@
       "draft": false,
       "created_at": "2026-10-29T09:05:55Z",
       "updated_at": "2026-10-30T06:48:57Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13339,
-      "title": "[29.x]Changing Negative Amount Format to Parentheses modifies displayed decimal precision despite unchanged rounding settings in the Financial Reports",
-      "url": "https://github.com/microsoft/BCApps/pull/13339",
-      "base": "releases/29.x",
-      "major": "29",
-      "author": "sanjmaurya",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-10-28T03:06:22Z",
-      "updated_at": "2026-10-30T04:45:00Z",
       "community_contribution": false
     },
     {
@@ -1282,21 +1380,6 @@
       "draft": false,
       "created_at": "2026-10-16T04:23:33Z",
       "updated_at": "2026-10-30T03:39:40Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13447,
-      "title": "[master]\"El título Importe pendiente resulta ambiguo entre varios campos de la tabla Mov. proveedor.\" error if you try to Create Payment for some Vendor Ledger Entries filtered by Remaining Amount <> 0 in the Spanish version.",
-      "url": "https://github.com/microsoft/BCApps/pull/13447",
-      "base": "main",
-      "major": "30",
-      "author": "neeleshsinghal",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-10-29T20:18:13Z",
-      "updated_at": "2026-10-30T02:14:32Z",
       "community_contribution": false
     },
     {
@@ -1600,89 +1683,6 @@
       "community_contribution": false
     },
     {
-      "number": 13012,
-      "title": "[Subcontracting] Assign worksheet suggestions to existing purchase orders",
-      "url": "https://github.com/microsoft/BCApps/pull/13012",
-      "base": "main",
-      "major": "30",
-      "author": "stevengrossGOB",
-      "labels": [
-        "AL: Apps (W1)",
-        "From Fork",
-        "Team: SCM"
-      ],
-      "draft": false,
-      "created_at": "2026-10-19T14:52:33Z",
-      "updated_at": "2026-10-29T13:30:10Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13427,
-      "title": "[Quality Management] Confirm before finishing on Create Re-inspection",
-      "url": "https://github.com/microsoft/BCApps/pull/13427",
-      "base": "main",
-      "major": "30",
-      "author": "alexei-dobriansky",
-      "labels": [
-        "AL: Apps (W1)",
-        "Team: SCM"
-      ],
-      "draft": false,
-      "created_at": "2026-10-29T12:43:32Z",
-      "updated_at": "2026-10-29T13:19:40Z",
-      "community_contribution": false
-    },
-    {
-      "number": 12156,
-      "title": "Fix #11391: [IT] Derive FatturaPA recipient routing for PEC and foreign customers",
-      "url": "https://github.com/microsoft/BCApps/pull/12156",
-      "base": "main",
-      "major": "30",
-      "author": "marcus905",
-      "labels": [
-        "From Fork",
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-09-30T15:46:50Z",
-      "updated_at": "2026-10-29T13:14:23Z",
-      "community_contribution": true
-    },
-    {
-      "number": 11026,
-      "title": "Service Line CalcVATAmountLines: count VAT Difference once and clear filters before OnAfterCalcVATAmountLines",
-      "url": "https://github.com/microsoft/BCApps/pull/11026",
-      "base": "main",
-      "major": "30",
-      "author": "Franco111000",
-      "labels": [
-        "From Fork",
-        "Ownership: Manual",
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-09-03T18:21:28Z",
-      "updated_at": "2026-10-29T13:12:13Z",
-      "community_contribution": true
-    },
-    {
-      "number": 12096,
-      "title": "Fix #11398: [IT] Print payment schedule on standard sales invoice",
-      "url": "https://github.com/microsoft/BCApps/pull/12096",
-      "base": "main",
-      "major": "30",
-      "author": "marcus905",
-      "labels": [
-        "From Fork",
-        "Ownership: Manual",
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-09-30T00:00:09Z",
-      "updated_at": "2026-10-29T13:09:17Z",
-      "community_contribution": true
-    },
-    {
       "number": 13225,
       "title": "Fix Bug 656636 CompAuxNum and CompAuxLib columns should be informed for Payment Discount lines on Unapplied Entries in the French Audit File",
       "url": "https://github.com/microsoft/BCApps/pull/13225",
@@ -1749,6 +1749,17 @@
   ],
   "issues": [
     {
+      "number": 13485,
+      "title": "[Bug]: Put-away of production output skips every floating bin after a Fixed Bin Content in the output bin",
+      "url": "https://github.com/microsoft/BCApps/issues/13485",
+      "labels": [
+        "Team: SCM"
+      ],
+      "author": "FBakkensen",
+      "created_at": "2026-11-01T05:34:04Z",
+      "comments": 1
+    },
+    {
       "number": 13454,
       "title": "[W1][Codeunit][80][SalesPost] OnBefore ProcessPosting event for Subcontracting app",
       "url": "https://github.com/microsoft/BCApps/issues/13454",
@@ -1769,17 +1780,6 @@
       ],
       "author": "pri-kise",
       "created_at": "2026-10-29T16:13:52Z",
-      "comments": 1
-    },
-    {
-      "number": 13425,
-      "title": "[Bug]: Shopify Connector: Wrong amount is used to create sales line from refund shipping line when shop currency and presentment currency is not the same",
-      "url": "https://github.com/microsoft/BCApps/issues/13425",
-      "labels": [
-        "Team: SCM"
-      ],
-      "author": "frankmortensen",
-      "created_at": "2026-10-29T11:55:23Z",
       "comments": 1
     }
   ],

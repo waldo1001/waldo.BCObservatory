@@ -6180,44 +6180,44 @@
     "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-2-v29": {
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/october-2026-cumulative-updates-for-dynamics-365-business-central/@2ed787663cdc95fc": {
         "verdict": "keep",
-        "reason": "Covers the v29 release and on-premises update versions, with advice on checking upgrade readiness and customization compatibility.",
-        "at": "2026-11-01T00:43:03.571Z",
+        "reason": "Covers October 2026 cumulative updates including v29 release and on-premises update versions.",
+        "at": "2026-11-02T00:56:04.906Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-3088305037286723104@37d3954d9a52f8f4": {
         "verdict": "drop",
-        "reason": "About online general availability and deletion of preview sandboxes, not upgrading an on-premises installation to v29.",
-        "at": "2026-11-01T00:43:03.571Z",
+        "reason": "About online GA and preview sandbox deletion, not on-premises v29 upgrade/updates.",
+        "at": "2026-11-02T00:56:04.906Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3697577773817687094@3568b599018657cc": {
-        "verdict": "keep",
-        "reason": "Describes a v29 change that converts Integer fields to BigInteger during upgrade via schema sync, which matters when upgrading to v29.",
-        "at": "2026-11-01T00:43:03.571Z",
+        "verdict": "drop",
+        "reason": "An AL development feature (Integer to BigInteger field migration), not the v29 upgrade/update content.",
+        "at": "2026-11-02T00:56:04.906Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4709432878034654173@41f7d07e3dae215a": {
         "verdict": "keep",
-        "reason": "Covers v29 on-premises prerequisites (.NET 10, SQL compatibility levels, Windows Server), which are relevant to a v29 on-premises upgrade.",
-        "at": "2026-11-01T00:43:03.571Z",
+        "reason": "Guides deploying BC v29 on-premises, closely related to the on-premises v29 page.",
+        "at": "2026-11-02T00:56:04.906Z",
         "v": 2
       },
       "post/yzhums-com/76495@b3251c34b8e5259d": {
         "verdict": "keep",
-        "reason": "Gives v29 on-premises build numbers and support lifecycle dates relevant to upgrade planning.",
-        "at": "2026-11-01T00:43:03.571Z",
+        "reason": "Lists v29 on-premises cumulative update builds and lifecycle dates, matching this section.",
+        "at": "2026-11-02T00:56:04.906Z",
         "v": 2
       },
-      "post/yzhums-com/77038@97016bfa41221267": {
+      "post/yzhums-com/77038@be016f5dadc0fd79": {
         "verdict": "keep",
-        "reason": "Says custom layouts must be migrated before upgrading to BC29, a direct upgrade consideration.",
-        "at": "2026-11-01T00:43:03.571Z",
+        "reason": "Describes a removal that must be handled before upgrading to v29.",
+        "at": "2026-11-02T00:56:04.906Z",
         "v": 2
       },
       "video/Sh3ySQSTw-o@7e91f23c0d0b729a": {
-        "verdict": "keep",
-        "reason": "Covers v29 server and database changes such as the .NET 10 runtime and the new table-extension data model, which likely affect an on-premises upgrade.",
-        "at": "2026-11-01T00:43:03.571Z",
+        "verdict": "drop",
+        "reason": "A what's-new feature overview, not about upgrading or released v29 updates.",
+        "at": "2026-11-02T00:56:04.906Z",
         "v": 2
       }
     },
@@ -7604,224 +7604,230 @@
     "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts": {
       "post/aardvarklabs-blog/1824@a2915d8ef8687e99": {
         "verdict": "keep",
-        "reason": "Shows how to build an Excel report layout and upload a customized version as the default.",
-        "at": "2026-10-31T01:03:09.275Z",
+        "reason": "It builds an Excel report layout and uploads it as the default layout.",
+        "at": "2026-11-02T00:55:57.420Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2107@7e7622566e2b12cf": {
         "verdict": "keep",
-        "reason": "Covers Word report layouts, the WordLayout property and custom layouts, all documented under report layouts.",
-        "at": "2026-10-31T01:03:09.275Z",
+        "reason": "It covers Word layout development: the WordLayout property, XML mapping and setting the default layout.",
+        "at": "2026-11-02T00:55:57.420Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2196@7e25b617b4b406aa": {
         "verdict": "keep",
-        "reason": "Shows how to export, edit and re-upload Word report layouts.",
-        "at": "2026-10-31T01:03:09.275Z",
+        "reason": "It shows how to export, edit and upload Word report layouts.",
+        "at": "2026-11-02T00:55:57.420Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2271@de7854386541a124": {
         "verdict": "keep",
-        "reason": "Covers editing RDLC layouts and when to choose RDLC over Excel or Word layouts.",
-        "at": "2026-10-31T01:03:09.275Z",
+        "reason": "It explains RDLC layouts, editing them and choosing between layout types.",
+        "at": "2026-11-02T00:55:57.420Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3544@a54ef864e981de53": {
         "verdict": "keep",
-        "reason": "Covers the new status lifecycle for layouts on the Report Layouts page.",
-        "at": "2026-10-31T01:03:09.275Z",
+        "reason": "It covers layout status lifecycle management on the Report Layouts page.",
+        "at": "2026-11-02T00:55:57.420Z",
         "v": 2
       },
       "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/04/bc-word-layout-mcp-introduction/@16eedde4210d9025": {
         "verdict": "keep",
-        "reason": "Introduces a tool that inspects, edits and validates Word report layouts.",
-        "at": "2026-10-31T01:03:09.275Z",
+        "reason": "It introduces an AI tool for editing Word report layouts, which works with what the section documents.",
+        "at": "2026-11-02T00:55:57.420Z",
         "v": 2
       },
       "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/@99482879dddcf915": {
         "verdict": "keep",
-        "reason": "Walks through building a custom Word layout bound to report dataset fields.",
-        "at": "2026-10-31T01:03:09.275Z",
+        "reason": "It builds a custom Word layout bound to a report dataset with this tool.",
+        "at": "2026-11-02T00:55:57.420Z",
         "v": 2
       },
       "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/24/bc-word-layout-mcp-totals-and-page-numbers/@6f4d9028e0b3cc2c": {
         "verdict": "keep",
-        "reason": "Shows how to add totals and page numbers to Word report layouts.",
-        "at": "2026-10-31T01:03:09.275Z",
+        "reason": "It adds totals and page numbers to Word report layouts.",
+        "at": "2026-11-02T00:55:57.420Z",
         "v": 2
       },
       "post/bccaptain-com-au/https://bccaptain.com.au/2026/10/18/bc-word-layout-mcp-body-repeaters/@b44487ced9fe0191": {
         "verdict": "keep",
-        "reason": "Explains repeating content and page breaks in the body of Word report layouts.",
-        "at": "2026-10-31T01:03:09.275Z",
+        "reason": "It shows repeating structures in Word report layouts.",
+        "at": "2026-11-02T00:55:57.420Z",
         "v": 2
       },
       "post/bccaptain-com-au/https://bccaptain.com.au/2026/10/24/bc-word-layout-mcp-formatting-and-templates/@4ed477daee6b09a3": {
         "verdict": "keep",
-        "reason": "Covers formatting Word layouts and reusing a Word design without breaking field bindings.",
-        "at": "2026-10-31T01:03:09.275Z",
+        "reason": "It formats Word report layouts while keeping their data bindings.",
+        "at": "2026-11-02T00:55:57.420Z",
         "v": 2
       },
       "post/miljan-rs/698@bec4356f9f787950": {
         "verdict": "keep",
-        "reason": "Discusses page-break behavior in Word layouts and compares it with RDLC.",
-        "at": "2026-10-31T01:03:09.275Z",
+        "reason": "It discusses page break behaviour in Word report layouts compared with RDLC.",
+        "at": "2026-11-02T00:55:57.420Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619@9e099687770af155": {
         "verdict": "keep",
-        "reason": "Covers composite Word layouts and the AL Subtype, HeaderFooterPart and ThemePart properties.",
-        "at": "2026-10-31T01:03:09.275Z",
+        "reason": "It walks through composite Word layouts, including their AL properties, from start to finish.",
+        "at": "2026-11-02T00:55:57.420Z",
         "v": 2
       },
       "post/nataliekarolak-com/4179@41859792343e7bbe": {
         "verdict": "keep",
-        "reason": "A release roundup, but part of it covers composite Word layouts and the Word add-in for report layouts.",
-        "at": "2026-10-31T01:03:09.275Z",
+        "reason": "This release overview is mostly about other topics, but part of it covers composite Word layouts and the Word add-in, so a reader of this section may still want it.",
+        "at": "2026-11-02T00:55:57.420Z",
         "v": 2
       },
       "post/yzhums-com/75007@6782251d64f09f96": {
         "verdict": "keep",
-        "reason": "Explains exporting report layout files (Word/RDLC/Excel) to inspect fonts used in layouts.",
-        "at": "2026-10-31T01:03:10.669Z",
+        "reason": "Explains exporting Word/RDLC/Excel layout files and the fonts available to layouts, both part of report layouts.",
+        "at": "2026-11-02T00:55:58.739Z",
         "v": 2
       },
       "post/yzhums-com/76367@c5ed89eec67d6a80": {
         "verdict": "keep",
-        "reason": "Covers the Company Information dataitem available in Word report layouts.",
-        "at": "2026-10-31T01:03:10.669Z",
+        "reason": "Covers the Company Information dataitem now built into Word layouts, which is part of how layouts are developed.",
+        "at": "2026-11-02T00:55:58.739Z",
         "v": 2
       },
       "post/yzhums-com/76655@7f3cc79e662dcc94": {
         "verdict": "keep",
-        "reason": "Covers conditional visibility controls for designing Word layouts.",
-        "at": "2026-10-31T01:03:10.669Z",
+        "reason": "Covers the conditional visibility controls for Word layouts in the Word add-in.",
+        "at": "2026-11-02T00:55:58.739Z",
         "v": 2
       },
       "post/yzhums-com/76696@99133c573b27fc60": {
         "verdict": "keep",
-        "reason": "Covers new Word add-in design components for building Word report layouts.",
-        "at": "2026-10-31T01:03:10.669Z",
+        "reason": "Covers the Word add-in's new design components for building Word report layouts.",
+        "at": "2026-11-02T00:55:58.739Z",
         "v": 2
       },
       "post/yzhums-com/76756@8880c276306723b1": {
         "verdict": "keep",
-        "reason": "Covers themes, headers and footers and Body subtype for Word layouts.",
-        "at": "2026-10-31T01:03:10.669Z",
+        "reason": "Covers themes, headers, footers and the Body layout subtype for Word report layouts.",
+        "at": "2026-11-02T00:55:58.739Z",
         "v": 2
       },
       "post/yzhums-com/76763@364a862f2a91ff4e": {
         "verdict": "keep",
-        "reason": "Discusses layout types and copying existing report layouts.",
-        "at": "2026-10-31T01:03:10.669Z",
+        "reason": "Covers the layout types and copying a layout on the Report Layouts page, which relates to managing layouts.",
+        "at": "2026-11-02T00:55:58.739Z",
+        "v": 2
+      },
+      "post/yzhums-com/77038@be016f5dadc0fd79": {
+        "verdict": "keep",
+        "reason": "Covers removing legacy Custom Report Layouts and moving them to Report Layouts.",
+        "at": "2026-11-02T00:55:58.739Z",
         "v": 2
       },
       "video/1ft4o9lQzsU@a3a9e063fe006870": {
         "verdict": "keep",
-        "reason": "In-depth session on Excel report layouts and their design.",
-        "at": "2026-10-31T01:03:10.669Z",
+        "reason": "Covers Excel report layouts in depth, one of the layout types this section documents.",
+        "at": "2026-11-02T00:55:58.739Z",
         "v": 2
       },
       "video/2u5_F9Ztt7U@92cfcb99a68767fc": {
         "verdict": "keep",
-        "reason": "Includes Word add-in enhancements and layout lifecycle control for report layouts.",
-        "at": "2026-10-31T01:03:10.669Z",
+        "reason": "Includes the Word add-in improvements and layout lifecycle control for report layouts.",
+        "at": "2026-11-02T00:55:58.739Z",
         "v": 2
       },
       "video/9ZmmQEpPyB4@63379933c2959f13": {
         "verdict": "keep",
-        "reason": "Demonstrates themeable Word report layouts and watermarks.",
-        "at": "2026-10-31T01:03:10.669Z",
+        "reason": "Shows themeable Word report layouts and watermarks.",
+        "at": "2026-11-02T00:55:58.739Z",
         "v": 2
       },
       "video/V8CSor5qBRE@e2804b6f1dc77109": {
         "verdict": "keep",
-        "reason": "Covers Word layout engine features and layout controls for developers.",
-        "at": "2026-10-31T01:03:10.669Z",
+        "reason": "Covers Word layout controls, conditional visibility and themeable reports for developers.",
+        "at": "2026-11-02T00:55:58.739Z",
         "v": 2
       },
       "video/W003w36Isto@26d209fa164e7040": {
         "verdict": "keep",
-        "reason": "Covers developer features for Word/Excel report layouts, validation and obsoleting.",
-        "at": "2026-10-31T01:03:10.669Z",
+        "reason": "Covers developer features for report layouts: Excel layout properties, validation and marking layouts obsolete.",
+        "at": "2026-11-02T00:55:58.739Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-67-reset-page-number-in-rdlc/@8999d843a3c1fbe8": {
         "verdict": "keep",
-        "reason": "Covers the ResetPageNumber property for page numbering in RDLC layout design, which is part of report layouts.",
-        "at": "2026-10-31T01:03:12.511Z",
+        "reason": "Covers an RDLC layout design property (ResetPageNumber), part of designing report layouts.",
+        "at": "2026-11-02T00:56:01.953Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-76-barcode-fonts-in-rdl/@294934c7c4417e96": {
         "verdict": "keep",
-        "reason": "Shows how to render barcode fonts by setting FontFamily in RDL layouts.",
-        "at": "2026-10-31T01:03:12.511Z",
+        "reason": "Covers barcode fonts set inside RDL layout files, a layout design technique.",
+        "at": "2026-11-02T00:56:01.953Z",
         "v": 2
       },
       "post/thedynamicsexplorer-com/9051@471c2be7ed7387ba": {
         "verdict": "keep",
-        "reason": "Walks through building Word layouts with the Report Layouts page and the XML data from the report.",
-        "at": "2026-10-31T01:03:12.511Z",
+        "reason": "Shows how to build Word layouts by converting templates and mapping fields from the report's XML data.",
+        "at": "2026-11-02T00:56:01.953Z",
         "v": 2
       },
       "post/thinkaboutit-be/7181@719b2559a0395732": {
         "verdict": "keep",
-        "reason": "Explains how to choose between Word, RDLC and Excel layouts and how layouts relate to the dataset.",
-        "at": "2026-10-31T01:03:12.511Z",
+        "reason": "Discusses choosing between Word, RDLC and Excel layout types and how layouts relate to datasets.",
+        "at": "2026-11-02T00:56:01.953Z",
         "v": 2
       },
       "post/thinkaboutit-be/7266@0e18471063e5538b": {
         "verdict": "keep",
-        "reason": "Explains the EnableHyperlinks requirement and a workaround for hyperlinks in RDLC layouts.",
-        "at": "2026-10-31T01:03:12.511Z",
+        "reason": "Explains a hyperlink requirement in RDLC layouts and how it interacts with report extension layouts.",
+        "at": "2026-11-02T00:56:01.953Z",
         "v": 2
       },
       "post/thinkaboutit-be/7750@935c301db7e184b7": {
         "verdict": "keep",
-        "reason": "Covers using the Word add-in to design Word report layouts.",
-        "at": "2026-10-31T01:03:12.511Z",
+        "reason": "Covers the Word add-in for designing Word report layouts.",
+        "at": "2026-11-02T00:56:01.953Z",
         "v": 2
       },
       "post/thinkaboutit-be/8096@af9a75e67b746936": {
         "verdict": "keep",
-        "reason": "Advises using the Word add-in data picker instead of the XML Mapping pane when adding fields to Word layouts.",
-        "at": "2026-10-31T01:03:12.511Z",
+        "reason": "Advises using the Word add-in data picker instead of the XML Mapping pane when building Word layouts.",
+        "at": "2026-11-02T00:56:01.953Z",
         "v": 2
       },
       "post/thinkaboutit-be/8272@a03bc83cda30588c": {
         "verdict": "keep",
-        "reason": "Covers layout status lifecycle management for layouts from Microsoft and extensions.",
-        "at": "2026-10-31T01:03:12.511Z",
+        "reason": "Covers layout status for layouts from Microsoft and extensions; it is about managing layouts, so kept despite partly admin-facing content.",
+        "at": "2026-11-02T00:56:01.953Z",
         "v": 2
       },
       "post/thinkaboutit-be/8291@1316b1e71d5faae1": {
         "verdict": "keep",
-        "reason": "Describes new Word add-in features for building Word layouts.",
-        "at": "2026-10-31T01:03:12.511Z",
+        "reason": "Covers new Word add-in features for building Word report layouts.",
+        "at": "2026-11-02T00:56:01.953Z",
         "v": 2
       },
       "post/yzhums-com/67838@978efbe248a7a3c4": {
         "verdict": "keep",
         "reason": "Covers new metadata fields in Excel layout templates.",
-        "at": "2026-10-31T01:03:12.511Z",
+        "at": "2026-11-02T00:56:01.953Z",
         "v": 2
       },
       "post/yzhums-com/67892@ce42afd8813c3135": {
         "verdict": "keep",
-        "reason": "Shows how to add data fields to Word layouts with the new Word add-in data picker.",
-        "at": "2026-10-31T01:03:12.511Z",
+        "reason": "Covers the Word add-in data picker for adding dataset fields to Word layouts.",
+        "at": "2026-11-02T00:56:01.953Z",
         "v": 2
       },
       "post/yzhums-com/72933@4d23ab5425b8403d": {
         "verdict": "keep",
-        "reason": "Covers controlling the report layout lifecycle with layout statuses.",
-        "at": "2026-10-31T01:03:12.511Z",
+        "reason": "Covers layout status lifecycle (Draft, Pending Approval, Approved, Retired); it is about managing layouts, so kept under the keep-when-in-doubt rule.",
+        "at": "2026-11-02T00:56:01.953Z",
         "v": 2
       },
       "post/yzhums-com/74638@3dc144b717cccc50": {
         "verdict": "keep",
-        "reason": "Explains how to declare layouts in the AL rendering section and publish them with report extensions.",
-        "at": "2026-10-31T01:03:12.511Z",
+        "reason": "Covers declaring layout files in the rendering section of AL objects, which the layouts section documents.",
+        "at": "2026-11-02T00:56:01.953Z",
         "v": 2
       }
     },
@@ -9066,80 +9072,80 @@
     "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data": {
       "post/aardvarklabs-blog/1826@4a9c30dc06ccffd2": {
         "verdict": "keep",
-        "reason": "Shows parsing incoming JSON and exporting records as JSON in AL, a core import/export technique.",
-        "at": "2026-10-26T08:19:04.548Z",
+        "reason": "Shows how to parse incoming JSON and export records as JSON files in AL, which is data import and export.",
+        "at": "2026-11-02T00:55:57.884Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2204@d24ed6cb95838c90": {
         "verdict": "keep",
-        "reason": "Demonstrates importing CSV data in AL via UploadIntoStream and a staging table.",
-        "at": "2026-10-26T08:19:04.548Z",
+        "reason": "Shows how to import CSV files in AL using UploadIntoStream and a staging table.",
+        "at": "2026-11-02T00:55:57.884Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2603@37d1648ae4d574a5": {
         "verdict": "keep",
-        "reason": "Covers AL parsing and import of delimited header/detail files.",
-        "at": "2026-10-26T08:19:04.548Z",
+        "reason": "Shows how to import delimited files with header and detail records in AL.",
+        "at": "2026-11-02T00:55:57.884Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2838@103145b803b01f6b": {
         "verdict": "keep",
-        "reason": "Shows importing multi-sheet Excel files in AL using Excel Buffer.",
-        "at": "2026-10-26T08:19:04.548Z",
+        "reason": "Shows how to import multi-tab Excel files in AL using the Excel buffer.",
+        "at": "2026-11-02T00:55:57.884Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2866@12f927a984dd084a": {
         "verdict": "keep",
-        "reason": "Demonstrates importing XML data in AL and mentions XMLports as the alternative.",
-        "at": "2026-10-26T08:19:04.548Z",
+        "reason": "Shows how to import XML files with the built-in AL XML types and mentions XMLports.",
+        "at": "2026-11-02T00:55:57.884Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4218333995173748236@5796bb541d8ca1cf": {
         "verdict": "keep",
-        "reason": "Developer guide to exporting data to CSV with CSV Buffer in AL.",
-        "at": "2026-10-26T08:19:04.548Z",
+        "reason": "Shows how to export data to CSV in AL using the CSV Buffer table.",
+        "at": "2026-11-02T00:55:57.884Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-82-excel-buffer-character-limit/@4595d09b714a6398": {
         "verdict": "keep",
-        "reason": "Explains a limitation of Excel Buffer that affects data export from AL.",
-        "at": "2026-10-26T08:19:04.548Z",
+        "reason": "Covers the Excel Buffer's 250-character limit, which affects Excel exports from AL.",
+        "at": "2026-11-02T00:55:57.884Z",
+        "v": 2
+      },
+      "post/wingate365-com/https://blog.wingate365.com/2026/04/trying-out-github-copilot-agent-for.html@9f6b3402fad55cc6": {
+        "verdict": "drop",
+        "reason": "Its subject is using the GitHub Copilot agent for validation work; checking CSV files is only the example.",
+        "at": "2026-11-02T00:55:57.884Z",
         "v": 2
       },
       "post/yzhums-com/63762@f4c58a1683466b01": {
         "verdict": "keep",
-        "reason": "Index series on import/export methods including XMLports, Excel Buffer and CSV handling.",
-        "at": "2026-10-26T08:19:04.548Z",
-        "v": 2
-      },
-      "post/yzhums-com/64265@112aedd33fbce728": {
-        "verdict": "drop",
-        "reason": "About restricting Configuration Package imports, an admin setup feature rather than AL import/export programming.",
-        "at": "2026-10-26T08:19:04.548Z",
+        "reason": "Series index on importing and exporting data with XMLports, buffers and CSV files.",
+        "at": "2026-11-02T00:55:57.884Z",
         "v": 2
       },
       "post/yzhums-com/65326@48449cb68de280af": {
         "verdict": "keep",
-        "reason": "Uses a custom XMLport with CSV format to bulk import data in AL.",
-        "at": "2026-10-26T08:19:04.548Z",
+        "reason": "Shows a bulk CSV import using a custom XMLport in AL.",
+        "at": "2026-11-02T00:55:57.884Z",
         "v": 2
       },
       "post/yzhums-com/65426@246702e1710da9cc": {
         "verdict": "keep",
-        "reason": "Shows importing long text from external files with XMLports, compared with the buffer tables.",
-        "at": "2026-10-26T08:19:04.548Z",
+        "reason": "Shows how to import long text with XMLports and streams into Blob fields.",
+        "at": "2026-11-02T00:55:57.884Z",
         "v": 2
       },
       "post/yzhums-com/68672@56989280ff749657": {
         "verdict": "keep",
-        "reason": "Index of CSV import/export articles, including importing via AL.",
-        "at": "2026-10-26T08:19:04.548Z",
+        "reason": "Index of articles on importing and exporting CSV data, including through AL.",
+        "at": "2026-11-02T00:55:57.884Z",
         "v": 2
       },
       "video/Ug_uM59DRRE@646917f6e1d49b29": {
         "verdict": "drop",
-        "reason": "About generating demo data with the Contoso framework, not importing or exporting data in AL.",
-        "at": "2026-10-26T08:19:04.548Z",
+        "reason": "About the Contoso demo data framework; configuration packages come up only in passing.",
+        "at": "2026-11-02T00:55:57.884Z",
         "v": 2
       }
     },
@@ -9754,76 +9760,82 @@
       }
     },
     "topic/dev-itpro/development/the-al-programming-language/code-analysis": {
+      "post/aardvarklabs-blog/4177@cfb115c69324873f": {
+        "verdict": "drop",
+        "reason": "A tool for visually exploring codebases and their dependencies, not about code analyzers or rulesets.",
+        "at": "2026-11-02T00:56:07.013Z",
+        "v": 2
+      },
       "post/gerardorenteria-blog/11565@a1adbb44bfa791e6": {
         "verdict": "keep",
-        "reason": "Changelog includes new analyzer rules (AppSourceCop, CodeCop, PTECop), which the code analysis section documents.",
-        "at": "2026-10-28T08:42:46.136Z",
+        "reason": "The changelog includes new analyzer rules (AS0138, AA0471 - AA0475), which this section documents.",
+        "at": "2026-11-02T00:56:07.013Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3697577773817687094@3568b599018657cc": {
-        "verdict": "keep",
-        "reason": "Discusses AppSourceCop rule AS0141 and compiler warnings tied to the field type change, though the main topic is the migration.",
-        "at": "2026-10-28T08:42:46.136Z",
+        "verdict": "drop",
+        "reason": "Mainly about migrating a field's data type; the AS0141 rule is only mentioned in passing.",
+        "at": "2026-11-02T00:56:07.013Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-6265805346314332006@bc99b4bc1bda9f5b": {
         "verdict": "drop",
-        "reason": "Main subject is table field and SQL column limits; the compiler warning is only mentioned in passing.",
-        "at": "2026-10-28T08:42:46.136Z",
+        "reason": "Mainly about practical table field limits and storage, not code analysis.",
+        "at": "2026-11-02T00:56:07.013Z",
         "v": 2
       },
       "post/sshadows-dk/https://sshadows.dk/blog/centralgauge-benchmark-update/@fb2fb20b114fdb48": {
         "verdict": "drop",
-        "reason": "Benchmark of AI models on AL code generation, not about code analysis.",
-        "at": "2026-10-28T08:42:46.136Z",
+        "reason": "Benchmarks LLM code generation, which has nothing to do with AL code analyzers.",
+        "at": "2026-11-02T00:56:07.013Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/@7c539af3ddd905ec": {
         "verdict": "keep",
-        "reason": "ALCops is a third-party analyzer suite that extends AL code analysis.",
-        "at": "2026-10-28T08:42:46.136Z",
+        "reason": "ALCops is a set of community code analyzers that extends AL code analysis.",
+        "at": "2026-11-02T00:56:07.013Z",
         "v": 2
       },
       "post/vondervoort-be/130@80f191b9b56f9b87": {
         "verdict": "keep",
-        "reason": "Covers ALCops, a community code analyzer collection for AL.",
-        "at": "2026-10-28T08:42:46.136Z",
+        "reason": "Introduces the ALCops analyzer collection, which extends AL code analysis.",
+        "at": "2026-11-02T00:56:07.013Z",
         "v": 2
       },
       "post/vondervoort-be/147@99d92e66e963843b": {
         "verdict": "keep",
-        "reason": "Covers ALCops analyzers and how they are organised for AL code analysis.",
-        "at": "2026-10-28T08:42:46.136Z",
+        "reason": "Covers the ALCops analyzers and how to use them for AL code analysis.",
+        "at": "2026-11-02T00:56:07.013Z",
         "v": 2
       },
       "post/yzhums-com/76053@21019b4447d73338": {
         "verdict": "keep",
-        "reason": "About two new compiler warning diagnostics that developers see during analysis (assumes this section covers compiler warnings).",
-        "at": "2026-10-28T08:42:46.136Z",
+        "reason": "Covers new compiler diagnostic warnings AL0914/AL0915 for AL code; kept because unsure whether compiler diagnostics belong in this section.",
+        "at": "2026-11-02T00:56:07.013Z",
         "v": 2
       },
       "video/JI5KlMxrtoA@725f5f44ac0d5e00": {
         "verdict": "keep",
-        "reason": "Code quality review using the default analyzers configuration and community analyzers.",
-        "at": "2026-10-28T08:42:46.136Z",
+        "reason": "Static-analysis review using default analyzers and ALCops, i.e. code analysis in practice.",
+        "at": "2026-11-02T00:56:07.013Z",
         "v": 2
       },
       "video/Q-oazDEucLE@54d66d11fb923d23": {
         "verdict": "keep",
-        "reason": "Covers static analysis linters and the warnings-as-errors option with ruleset files, practices that build on code analysis.",
-        "at": "2026-10-28T08:42:46.136Z",
+        "reason": "Covers static-analysis linters and treating warnings as errors with ruleset files.",
+        "at": "2026-11-02T00:56:07.013Z",
         "v": 2
       },
       "video/tMqCSibSRug@bea35e2233934e97": {
         "verdict": "keep",
-        "reason": "Video on ALCops analyzers, rule severity settings and code fixes for AL code analysis.",
-        "at": "2026-10-28T08:42:46.136Z",
+        "reason": "A video on ALCops analyzers, rule severity and code fixes for AL code analysis.",
+        "at": "2026-11-02T00:56:07.013Z",
         "v": 2
       },
       "video/urLsKPqOSbc@affd8c83d223efd0": {
         "verdict": "drop",
-        "reason": "About call-graph extraction and visualisation tooling, not the analyzers this section documents.",
-        "at": "2026-10-28T08:42:46.136Z",
+        "reason": "Call-graph extraction and visualization tooling, not the analyzers or rulesets this section documents.",
+        "at": "2026-11-02T00:56:07.013Z",
         "v": 2
       }
     },
@@ -10530,116 +10542,62 @@
     "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c": {
       "post/aardvarklabs-blog/1609@e19ddf28b0a4650a": {
         "verdict": "keep",
-        "reason": "Walks through building a Copilot capability in AL with Azure OpenAI, including how to register the capability and write prompts, which is exactly what this section documents.",
-        "at": "2026-10-29T22:02:56.392Z",
+        "reason": "Walks through building a Copilot capability in AL with Azure OpenAI, including registering the capability and writing the prompts, which is what this section documents.",
+        "at": "2026-11-02T00:56:09.113Z",
         "v": 2
       },
       "post/aardvarklabs-blog/1891@4b250d20fdf70c35": {
         "verdict": "keep",
-        "reason": "Shows how to build an AI-assisted process in AL that calls Azure OpenAI, which uses the Copilot developer tools.",
-        "at": "2026-10-29T22:02:56.392Z",
+        "reason": "Builds an AI-assisted feature in AL that calls Azure OpenAI, using the developer tools for Copilot.",
+        "at": "2026-11-02T00:56:09.113Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2663@7b4c6df359dde05f": {
         "verdict": "keep",
-        "reason": "Compares SetAuthorization with SetManagedResourceAuthorization, two ways to authenticate when building Copilot features in AL.",
-        "at": "2026-10-29T22:02:56.392Z",
+        "reason": "Compares the two Azure OpenAI authorization methods in the AL module used to build Copilot extensions (SetAuthorization and SetManagedResourceAuthorization).",
+        "at": "2026-11-02T00:56:09.113Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2965@d2bf757344173418": {
         "verdict": "keep",
-        "reason": "Builds AI features in AL on the Microsoft-managed Azure OpenAI resource with grounded search, which falls under the Copilot developer tools.",
-        "at": "2026-10-29T22:02:56.392Z",
+        "reason": "Builds AI features in AL on Business Central's managed Azure OpenAI resource, using the Copilot developer tooling.",
+        "at": "2026-11-02T00:56:09.113Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3564@e823a16dc5428d34": {
         "verdict": "drop",
-        "reason": "Covers VS Code skills for coding AL with GitHub Copilot's help, not building Copilot features into Business Central.",
-        "at": "2026-10-29T22:02:56.392Z",
+        "reason": "About GitHub Copilot skills in VS Code that help write AL code, not about building Copilot features in Business Central.",
+        "at": "2026-11-02T00:56:09.113Z",
+        "v": 2
+      },
+      "post/bccaptain-com-au/https://bccaptain.com.au/2026/04/27/im-back-and-its-going-to-be-a-busy-few-months/@a9ce8798f84d8ffc": {
+        "verdict": "drop",
+        "reason": "A conference and comeback announcement with no content on the Copilot developer tools.",
+        "at": "2026-11-02T00:56:09.113Z",
         "v": 2
       },
       "post/gerardorenteria-blog/11354@96266a6dd9a4e882": {
         "verdict": "drop",
-        "reason": "Covers the Microsoft Learn Docs MCP server for IDE assistants, which is a development aid and not part of building Copilot features in Business Central.",
-        "at": "2026-10-29T22:02:56.392Z",
+        "reason": "About connecting the Microsoft Learn Docs MCP server to GitHub Copilot in the IDE, not about extending Copilot in Business Central.",
+        "at": "2026-11-02T00:56:09.113Z",
         "v": 2
       },
       "post/gerardorenteria-blog/13993@8ca8589c6cc08b08": {
         "verdict": "drop",
-        "reason": "Covers VS Code agent skills that check extension health, not building Copilot features into Business Central.",
-        "at": "2026-10-29T22:02:56.392Z",
+        "reason": "About VS Code agent skills that check extension health, not about building Copilot features in Business Central.",
+        "at": "2026-11-02T00:56:09.113Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875@b94f6d6fdd1fc4fe": {
         "verdict": "drop",
-        "reason": "Covers 'vibe coding' (writing AL with GitHub Copilot's help), not building Copilot features in Business Central.",
-        "at": "2026-10-29T22:02:56.392Z",
+        "reason": "About writing AL code with help from GitHub Copilot (vibe coding), not about the Copilot extensibility tools in Business Central.",
+        "at": "2026-11-02T00:56:09.113Z",
         "v": 2
       },
       "post/thinkaboutit-be/8204@f01e08039a637ec9": {
         "verdict": "keep",
-        "reason": "Announces general availability of Microsoft-managed Azure OpenAI resources for Copilot extensions, a capability for developers building Copilot features.",
-        "at": "2026-10-29T22:02:56.392Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/8331@18306746658fa300": {
-        "verdict": "drop",
-        "reason": "Covers benchmarking AI coding agents on AL development tasks, not building Copilot features in Business Central.",
-        "at": "2026-10-29T22:02:56.392Z",
-        "v": 2
-      },
-      "post/tine-staric-net/https://tine.staric.net/blog/2026/copilot-harness-default/@1d9dc9fbb36ac87e": {
-        "verdict": "drop",
-        "reason": "About GitHub Copilot's default setup in VS Code, not about building Copilot features in Business Central.",
-        "at": "2026-10-29T22:02:57.648Z",
-        "v": 2
-      },
-      "post/wingate365-com/https://blog.wingate365.com/2026/10/directions-emea-2026-paris-the-consultant-zone-and-two-panels.html@60425d254f1950b8": {
-        "verdict": "drop",
-        "reason": "Conference announcement about panels on AI prompts and consultant roles; it doesn't cover the Copilot developer tools.",
-        "at": "2026-10-29T22:02:57.648Z",
-        "v": 2
-      },
-      "post/yzhums-com/67990@bef190f7e71656b7": {
-        "verdict": "drop",
-        "reason": "About GitHub Copilot agent tools that automate AL builds and publishing, not about building Copilot capabilities with the developer toolkit.",
-        "at": "2026-10-29T22:02:57.648Z",
-        "v": 2
-      },
-      "video/7SSNcUMFtCw@0a389bab8e080e1f": {
-        "verdict": "keep",
-        "reason": "Covers AI Resources, Azure OpenAI authorization, the deployments codeunit and system prompts, which are part of the AL developer tools for Copilot.",
-        "at": "2026-10-29T22:02:57.648Z",
-        "v": 2
-      },
-      "video/9zQZHfXK-PQ@7e65b7781b453b60": {
-        "verdict": "drop",
-        "reason": "About using GitHub Copilot to automate documentation; nothing about building Copilot features in apps.",
-        "at": "2026-10-29T22:02:57.648Z",
-        "v": 2
-      },
-      "video/jWJc_D67Vfw@54f5ff97b64f3786": {
-        "verdict": "drop",
-        "reason": "General talk on learning AI tools like ChatGPT and Claude, not Business Central Copilot development.",
-        "at": "2026-10-29T22:02:57.648Z",
-        "v": 2
-      },
-      "video/lNASlydCidI@22cc3fc62993bd91": {
-        "verdict": "keep",
-        "reason": "Demonstrates the generative AI developer toolkit: the prompt dialog page type, the AI module, capability registration and Azure OpenAI calls.",
-        "at": "2026-10-29T22:02:57.648Z",
-        "v": 2
-      },
-      "video/nbGw2g3KMXI@c6dea39b6e68bacc": {
-        "verdict": "drop",
-        "reason": "About building agents, which the sibling section 'Designing and coding agents (preview)' documents more exactly.",
-        "at": "2026-10-29T22:02:57.648Z",
-        "v": 2
-      },
-      "video/tpAh4q3h8T8@8c73a10fc99e408b": {
-        "verdict": "drop",
-        "reason": "Keynote on consultant productivity and GitHub Copilot in VS Code, not the Copilot developer toolkit.",
-        "at": "2026-10-29T22:02:57.648Z",
+        "reason": "Announces that Microsoft-managed Azure OpenAI resources for Copilot extensions are now generally available, which directly concerns this section.",
+        "at": "2026-11-02T00:56:09.113Z",
         "v": 2
       }
     },
