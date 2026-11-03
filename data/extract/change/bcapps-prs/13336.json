@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13336",
+  "number": 13336,
+  "title": "[master] Create Reminders fails with \"There is no Reminder Line within the filter\" when all overdue entries are On Hold (new communication texts)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Fixed an issue where creating reminders failed with a filter error when all overdue entries were marked as on hold, and added test coverage for this scenario.",
+  "key_points": [
+    "Reminders creation now handles cases where all overdue entries have on hold status",
+    "Filter validation was adjusted in the reminder creation logic",
+    "New test case added to verify the fix works correctly",
+    "Both localized (NO) and base (W1) versions of the reminder code were updated"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Create Reminders fails with \"There is no Reminder Line within the filter\" when all overdue entries are On Hold",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003266,
+    "changes_in_call": 1
+  }
+}

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-change-a-module",
   "published_at": "2026-11-02T12:12:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-28T08:48:32.925Z",
-      "blob": "45b165f37726c77b0f9b7f675921253a50832720",
-      "words": 660,
+      "at": "2026-11-03T00:20:19.238Z",
+      "blob": "f0644dc83aee5bc46cd11710658298ea1d3833f7",
+      "words": 777,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-28T08:48:45.291Z",
+      "at": "2026-11-03T00:20:34.341Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.011134
+      "cost_usd": 0.011491
     },
     "summarized": {
-      "at": "2026-10-28T08:48:45.292Z",
+      "at": "2026-11-03T00:20:34.343Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-28T08:48:45.293Z",
+      "at": "2026-11-03T00:20:34.357Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-28T08:48:45.295Z",
+      "at": "2026-11-03T00:20:34.358Z",
       "page": false
     }
   },
@@ -44,21 +44,21 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-change-a-module.md",
-    "description": "Learn how to change a System Application module in Business Central, preserve existing behavior, add public APIs and tests, and submit a contribution.",
-    "ms_date": "2026-10-16",
+    "description": "Learn how to update an existing Business Central System Application module, preserve its public API, add tests, and contribute your changes to BCApps.",
+    "ms_date": "2026-10-26",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 660,
+    "words": 777,
     "identifiers": [
-      "YourDockerContainerName",
+      "Base64Convert",
       "MSDos",
-      "Base64Convert"
+      "Base64ConvertImpl"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e73eb1f5ec3ff98edbfdd6c80c9556f2a67418e7a79f5ed0f43028fbeb80e583"
+  "output_hash": "97c509b1b073551b2963d3924b45dec312a7ca6aed0610990f676b7403ba05b0"
 }

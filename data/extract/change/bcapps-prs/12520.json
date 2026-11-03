@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/12520",
+  "number": 12520,
+  "title": "[29.X]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Reverse Production Entry now correctly handles production output posted using non-base units of measure.",
+  "key_points": [
+    "Fixed issue where reversing production entries failed with non-base units of measure",
+    "Updated undo production posting management logic to handle unit of measure conversions",
+    "Added test coverage for production entry reversal with non-base units"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002973,
+    "changes_in_call": 1
+  }
+}

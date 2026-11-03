@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-use-ishandled-pattern",
   "published_at": "2026-11-02T15:24:25.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.335Z",
-      "blob": "9f1e9946ef47972a5ac6a68d297d1153bedeaf8f",
-      "words": 1379,
+      "at": "2026-11-03T00:19:33.587Z",
+      "blob": "9c0dc897dfbed297c03b90858e5ac2d97ecae237",
+      "words": 1413,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:04:45.167Z",
+      "at": "2026-11-03T00:19:48.839Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005965
+      "cost_usd": 0.012343
     },
     "summarized": {
-      "at": "2026-10-06T19:04:45.188Z",
+      "at": "2026-11-03T00:19:48.841Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:45.189Z",
+      "at": "2026-11-03T00:19:48.842Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:45.191Z",
+      "at": "2026-11-03T00:19:48.842Z",
       "page": false
     }
   },
@@ -45,12 +45,12 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-use-ishandled-pattern.md",
     "description": "This article describes how, and when, to use the popular IsHandled pattern for events.",
-    "ms_date": "2025-08-14",
+    "ms_date": "2026-10-29",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1379,
+    "words": 1413,
     "identifiers": [
       "IsHandled"
     ],
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f35c4853929a41c1bebfda127802a11be51201adff285b70b55d464ae2793cae"
+  "output_hash": "e9bd3d6ab0a33f8d93e703b633060e8e3d2bc2ce493617855f7dec7f8b58f376"
 }

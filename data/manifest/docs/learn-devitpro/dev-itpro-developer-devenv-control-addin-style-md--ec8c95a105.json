@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Control Add-in Styling for Business Central",
+  "title": "Control Add-in Style Guide for Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-style",
   "published_at": "2026-11-02T12:12:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-28T08:49:25.199Z",
-      "blob": "a3529c5aafa75a89b9d94aa7fca57049369fed4a",
-      "words": 1309,
+      "at": "2026-11-03T00:20:32.238Z",
+      "blob": "e431c9191dceb79702285867668bc61e5c4b2bc1",
+      "words": 1642,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-28T08:49:38.486Z",
+      "at": "2026-11-03T00:20:47.378Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.005012
+      "objects": 1,
+      "cost_usd": 0.011079
     },
     "summarized": {
-      "at": "2026-10-28T08:49:38.488Z",
+      "at": "2026-11-03T00:20:47.379Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-28T08:49:38.489Z",
+      "at": "2026-11-03T00:20:47.379Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-28T08:49:38.490Z",
+      "at": "2026-11-03T00:20:47.380Z",
       "page": false
     }
   },
@@ -44,13 +44,13 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-control-addin-style.md",
-    "description": "Style control add-ins for Business Central with selected colors, fonts, and CSS examples, and learn how to check readability and keyboard interaction.",
-    "ms_date": "2026-10-21",
+    "description": "Style control add-ins for Dynamics 365 Business Central with CSS. Choose colors and fonts, and build readable controls with keyboard access.",
+    "ms_date": "2026-10-29",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1309,
+    "words": 1642,
     "identifiers": [
       "EB6965"
     ],
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7db940a16e0c2b2fd975e1ace66fe48b5a7f3ba38c9f56f7f8f3fbde213af02e"
+  "output_hash": "2af9f9c3e9a5e3c2ad9f56b1658eb038fd479bb4306748f02543e279f54797fd"
 }

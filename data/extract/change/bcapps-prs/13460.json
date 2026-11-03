@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13460",
+  "number": 13460,
+  "title": "[Master] Fix Expense Agent account filters with special characters",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Expense Agent now properly handles G/L account lookups when account names or descriptions contain special characters like apostrophes or parentheses by quoting and escaping filter expressions.",
+  "key_points": [
+    "Fixed account search filter to quote and escape embedded apostrophes",
+    "Prevents localized descriptions with parentheses or apostrophes from being misinterpreted as filter operators",
+    "Preserves case-insensitive matching and wildcard behavior",
+    "Applies to both G/L account-name lookup and account-subcategory fallback paths",
+    "Added regression tests for parentheses and apostrophes in both lookup scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003844,
+    "changes_in_call": 1
+  }
+}

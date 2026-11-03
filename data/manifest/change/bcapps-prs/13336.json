@@ -6,10 +6,35 @@
   "title": "[master] Create Reminders fails with \"There is no Reminder Line within the filter\" when all overdue entries are On Hold (new communication texts)",
   "url": "https://github.com/microsoft/BCApps/pull/13336",
   "published_at": "2026-11-02T06:13:35Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-03T00:16:51.180Z"
+    },
+    "fetched": {
+      "at": "2026-11-03T00:20:34.804Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-03T00:20:43.060Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003266
+    },
+    "linked": {
+      "at": "2026-11-03T00:20:43.163Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-03T00:20:43.184Z",
+      "path": "content/changes/bcapps/13336.md"
     }
   },
   "input_hash": "378602779b5c304b39198fda18f2703a498ba978:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master create reminders fails with there is no reminder line within the filter when all overdue entries are on hold new communication texts"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8fef96ba33a5fd38eeecacdbd322060dd9af3ab7de9546f502535e5697677b51"
 }

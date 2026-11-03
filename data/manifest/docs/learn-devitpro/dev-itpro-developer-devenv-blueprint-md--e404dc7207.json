@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Module Architecture",
+  "title": "Module Architecture in the System Application",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-blueprint",
   "published_at": "2026-11-02T12:12:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.526Z",
-      "blob": "9d9e0f057876c8b8e7aac60d534bc216f5fc61c2",
-      "words": 1005,
+      "at": "2026-11-03T00:19:55.466Z",
+      "blob": "a8a8baf087eacf7e03a11affce0b624c27909acb",
+      "words": 995,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:10.886Z",
+      "at": "2026-11-03T00:20:17.351Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003275
+      "objects": 1,
+      "cost_usd": 0.008814
     },
     "summarized": {
-      "at": "2026-10-06T19:23:10.897Z",
+      "at": "2026-11-03T00:20:17.352Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:10.899Z",
+      "at": "2026-11-03T00:20:17.352Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:10.901Z",
+      "at": "2026-11-03T00:20:17.353Z",
       "page": false
     }
   },
@@ -44,19 +44,22 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-blueprint.md",
-    "description": "Learn about the internal components of modules in the System Application.",
-    "ms_date": "2025-06-16",
-    "ms_topic": "article",
+    "description": "Design System Application modules with clear public APIs, internal implementations, separate tests, and XML documentation that fit BCApps conventions.",
+    "ms_date": "2026-10-29",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1005,
+    "words": 995,
     "identifiers": [
-      "OnPrem"
+      "OnPrem",
+      "internalsVisibleTo",
+      "SingleInstance",
+      "inputText"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e834c44b6d804cba93ac072448d517cd1437451f75df6ebc75eac8c72ebec002"
+  "output_hash": "bb222d3035111ecc11f4a35ed7261c685e14dad788c5377582f8d0652bc4bd30"
 }

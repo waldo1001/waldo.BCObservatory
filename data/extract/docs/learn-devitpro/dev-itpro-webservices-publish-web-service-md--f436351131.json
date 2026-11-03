@@ -1,29 +1,40 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/webservices/publish-web-service.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/publish-web-service",
-  "title": "Publish a Web Service",
-  "blob": "5d3506e08417da3832c8199f77f4b840e3c75fb4",
-  "summary": "Publish a Web Service explains how to create and publish API, OData, and SOAP web services in Business Central, including setup procedures, URL formats, and configuration options for exposed objects.",
+  "title": "Publish a Web Service in Business Central",
+  "blob": "af3fe63750c7aa20b8bf120a06c21c60959d7bd6",
+  "summary": "Publish a page, query, or codeunit as a web service on the Web Services page to make it accessible through OData V4 or SOAP endpoints for integrations. Use API pages and queries for new integrations instead of standard web service publication.",
   "systems": [
     "integration",
-    "administration"
+    "development",
+    "platform"
   ],
   "topics": [
     "web services",
-    "odata",
-    "soap",
-    "api",
     "publishing",
-    "configuration"
+    "odata v4",
+    "soap",
+    "apis",
+    "authentication"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Web Services"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    }
+  ],
   "features": [
-    "API publishing",
-    "OData publishing",
-    "SOAP publishing",
-    "Web Services page",
-    "eTag calculations",
-    "SystemId field"
+    "OData V4 endpoint",
+    "SOAP endpoint",
+    "unbound actions",
+    "eTag field exclusions",
+    "API pages",
+    "API queries",
+    "OAuth authentication"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002944,
-      "pages_in_call": 8
+      "cost_usd": 0.004925,
+      "pages_in_call": 1
     }
   ]
 }

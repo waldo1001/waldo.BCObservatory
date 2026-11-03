@@ -1,26 +1,28 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-business-central-manage-selfservice-signups.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-business-central-manage-selfservice-signups",
-  "title": "Enable and disable Business Central self-service signups",
-  "blob": "c1a4ee56f70a8e117bf1ecd95b550999df7749c7",
-  "summary": "Managing self-service signups for Business Central using Microsoft Entra ID PowerShell cmdlets to enable or disable ad-hoc subscriptions for organization users.",
+  "title": "Manage Business Central Self-Service Signups",
+  "blob": "f1cb44efc7281c0742238fd5a761278f8126e569",
+  "summary": "Control whether users in your Microsoft Entra tenant can sign up for Business Central without administrator approval using Microsoft Graph PowerShell to manage email-based self-service subscriptions.",
   "systems": [
-    "administration",
-    "platform"
+    "administration"
   ],
   "topics": [
-    "self-service signup",
-    "microsoft entra",
+    "self-service signups",
+    "entra tenant",
     "powershell",
-    "subscriptions",
-    "administration"
+    "authorization policy",
+    "email-based subscriptions",
+    "tenant administration"
   ],
   "objects": [],
   "features": [
-    "disable self-service signups",
-    "enable self-service signups",
-    "verify signup status",
-    "Microsoft Entra ID integration"
+    "Block self-service signups",
+    "Allow self-service signups",
+    "Check signup status",
+    "Microsoft Entra integration",
+    "Privileged Role Administrator requirement",
+    "Policy.ReadWrite.Authorization permission"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004778,
-      "pages_in_call": 8
+      "cost_usd": 0.003794,
+      "pages_in_call": 1
     }
   ]
 }

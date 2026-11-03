@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-users-permissions",
   "published_at": "2026-11-02T12:12:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.718Z",
-      "blob": "580140854b6b06494455974c61e0088ddbf54dda",
-      "words": 2523,
+      "at": "2026-11-03T00:20:58.133Z",
+      "blob": "a68e7c09b8bd759251c3b2360aa749de9188c062",
+      "words": 2608,
       "forms": 19
     },
     "extracted": {
-      "at": "2026-10-06T16:15:27.470Z",
+      "at": "2026-11-03T00:21:10.162Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.006152
+      "objects": 4,
+      "cost_usd": 0.01468
     },
     "summarized": {
-      "at": "2026-10-06T16:15:27.495Z",
+      "at": "2026-11-03T00:21:24.382Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T16:15:27.496Z",
+      "at": "2026-11-03T00:21:24.383Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T16:15:27.496Z",
+      "at": "2026-11-03T00:21:24.384Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-how-users-permissions.md",
     "description": "Describes how to add users to Business Central online or on-premises based on licenses.",
-    "ms_date": "2026-07-16",
+    "ms_date": "2026-11-02",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -150,11 +150,11 @@
       "security"
     ],
     "ai_usage": null,
-    "words": 2523,
+    "words": 2608,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "058da6425943350eed40553449fd28f8f2d53112a99bc853f50bad9ecb732f72"
+  "output_hash": "3ce70f8170fe2642919244205c4e9db1c4a3071e951bab1223ef651e608fb294"
 }

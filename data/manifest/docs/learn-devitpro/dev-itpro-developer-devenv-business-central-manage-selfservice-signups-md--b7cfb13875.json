@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Enable and disable Business Central self-service signups",
+  "title": "Manage Business Central Self-Service Signups",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-business-central-manage-selfservice-signups",
   "published_at": "2026-11-02T12:12:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.034Z",
-      "blob": "c1a4ee56f70a8e117bf1ecd95b550999df7749c7",
-      "words": 304,
+      "at": "2026-11-03T00:20:11.404Z",
+      "blob": "f1cb44efc7281c0742238fd5a761278f8126e569",
+      "words": 392,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:03:26.171Z",
+      "at": "2026-11-03T00:20:24.546Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004778
+      "cost_usd": 0.003794
     },
     "summarized": {
-      "at": "2026-10-06T19:03:26.189Z",
+      "at": "2026-11-03T00:20:24.551Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:03:26.189Z",
+      "at": "2026-11-03T00:20:24.551Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:03:26.190Z",
+      "at": "2026-11-03T00:20:24.552Z",
       "page": false
     }
   },
@@ -44,17 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-business-central-manage-selfservice-signups.md",
-    "description": "Learn how to prevent Microsoft Entra tenant users from self-service sign ups",
-    "ms_date": "2024-11-11",
+    "description": "Learn how to allow or block Business Central self-service signups and check the setting for your Microsoft Entra tenant with Microsoft Graph PowerShell.",
+    "ms_date": "2026-10-29",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 304,
-    "identifiers": [],
+    "words": 392,
+    "identifiers": [
+      "AllowSelfServicePurchase",
+      "allowedToSignUpEmailBasedSubscriptions"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2a6216e62d4c81e2a45b0d3a1fb61a16cbbe79b84b077ce052f3a89c9726e35f"
+  "output_hash": "448112bc085dcf09755719b78766dbbaceb90e6f7c609027a375c4d0925f8f94"
 }

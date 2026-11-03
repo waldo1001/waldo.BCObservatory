@@ -6,10 +6,35 @@
   "title": "knowledge(performance): add trigger-only fields to API pages with AddLoadFields",
   "url": "https://github.com/microsoft/BCQuality/pull/253",
   "published_at": "2026-11-02T11:46:32Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-03T00:16:51.180Z"
+    },
+    "fetched": {
+      "at": "2026-11-03T00:19:48.854Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 0,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-11-03T00:20:01.690Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.008485
+    },
+    "linked": {
+      "at": "2026-11-03T00:20:01.690Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-03T00:20:05.808Z",
+      "path": "content/changes/bcquality/253.md"
     }
   },
   "input_hash": "933d4e311275b9effa2b96a170bee7ab8746fe94:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "knowledge performance add trigger only fields to api pages with addloadfields"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2a122ac665e348fcd1aabbff18d5603833709c0da336bbbe68d9cb59f1fc1305"
 }

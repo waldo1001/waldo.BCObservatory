@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Async Processing Overview for Business Central",
+  "title": "Asynchronous Processing in AL for Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview",
   "published_at": "2026-11-02T12:12:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-28T00:17:15.589Z",
-      "blob": "00891d0a905b3243fab05fbd97af7c7cb661fbc6",
-      "words": 110,
+      "at": "2026-11-03T00:19:53.291Z",
+      "blob": "79aa1d722423207b54015f8bb8bf2ce939e37a4e",
+      "words": 284,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-28T08:48:04.390Z",
+      "at": "2026-11-03T00:20:14.059Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00409
+      "cost_usd": 0.006852
     },
     "summarized": {
-      "at": "2026-10-28T08:48:04.397Z",
+      "at": "2026-11-03T00:20:14.078Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-28T08:48:04.398Z",
+      "at": "2026-11-03T00:20:14.079Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-28T08:48:04.399Z",
+      "at": "2026-11-03T00:20:14.079Z",
       "page": false
     }
   },
@@ -44,17 +44,30 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-async-overview.md",
-    "description": "Compare asynchronous processing options in AL, including page background tasks, background sessions, scheduled tasks, and job queues in Business Central.",
-    "ms_date": "2026-10-15",
+    "description": "Compare asynchronous processing options in Business Central. Choose page background tasks, background sessions, scheduled tasks, or job queues for your AL code.",
+    "ms_date": "2026-10-23",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 110,
-    "identifiers": [],
+    "words": 284,
+    "identifiers": [
+      "ChildSessionsMaxConcurrency",
+      "ChildSessionsMaxQueueLength",
+      "PageBackgroundTaskDefaultTimeout",
+      "PageBackgroundTaskMaxTimeout",
+      "BackgroundSessionsMaxConcurrent",
+      "BackgroundSessionsMaxQueued",
+      "BackgroundSessionsDefaultWaitTimeout",
+      "BackgroundSessionsDefaultTimeout",
+      "TaskSchedulerMaximumConcurrentRunningTasks",
+      "DefaultTaskSchedulerSessionTimeout",
+      "MaxTaskSchedulerSessionTimeout",
+      "EnableTaskScheduler"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cfe9a9119c66f2ded997e6aa6482063a4d2c38636a10f67c71ec02c4afbb938d"
+  "output_hash": "03fbf7aec19ec0053de0cb732387fbd6077e257e685c7e163e140c7a34af3754"
 }

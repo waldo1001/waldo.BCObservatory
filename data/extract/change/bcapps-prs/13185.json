@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13185",
+  "number": 13185,
+  "title": "[Master] - Bug 656372: [Expense Agent] Fix itemization rounding and missing currency code.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The Expense Agent now correctly handles itemization rounding calculations and includes the currency code in API responses and line items.",
+  "key_points": [
+    "Fixed rounding logic for expense itemization amounts",
+    "Added currency code to API pages and line item tables",
+    "Enhanced expense rule validation with new test coverage",
+    "Updated auto-population logic to handle currency information",
+    "Improved calculation accuracy in expense report processing"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004799,
+    "changes_in_call": 1
+  }
+}

@@ -1,31 +1,35 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-control-addin-style.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-style",
-  "title": "Control Add-in Styling for Business Central",
-  "blob": "a3529c5aafa75a89b9d94aa7fca57049369fed4a",
-  "summary": "Design and style control add-ins using Business Central's color palette, font families, and CSS to ensure they integrate well with the client interface and remain accessible to all users.",
+  "title": "Control Add-in Style Guide for Business Central",
+  "blob": "e431c9191dceb79702285867668bc61e5c4b2bc1",
+  "summary": "Control add-in styling guide providing CSS color palettes, font families, and text sizes to make add-ins consistent with Business Central's appearance. Use this when building control add-ins that display charts, maps, or third-party content.",
   "systems": [
-    "development"
+    "development",
+    "platform"
   ],
   "topics": [
     "control add-ins",
-    "styling",
+    "css styling",
     "colors",
-    "fonts",
-    "css",
-    "user interface",
+    "typography",
+    "web design",
     "accessibility"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Control add-in object"
+    }
+  ],
   "features": [
-    "color palette",
-    "font families",
-    "CSS styling",
-    "contrast testing",
-    "keyboard interaction",
-    "accessibility",
-    "platform support",
-    "data visualizations"
+    "CSS color palettes",
+    "Font families and sizes",
+    "Status colors",
+    "Chart colors",
+    "Contrast guidance",
+    "Keyboard focus indicators",
+    "Accessible form controls"
   ],
   "versions": [],
   "parts": 1,
@@ -34,7 +38,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005012,
+      "cost_usd": 0.011079,
       "pages_in_call": 1
     }
   ]

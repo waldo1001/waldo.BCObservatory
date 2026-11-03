@@ -6,10 +6,35 @@
   "title": "[Master] - Bug 656372: [Expense Agent] Fix itemization rounding and missing currency code.",
   "url": "https://github.com/microsoft/BCApps/pull/13185",
   "published_at": "2026-11-02T11:20:57Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-03T00:16:51.180Z"
+    },
+    "fetched": {
+      "at": "2026-11-03T00:20:41.206Z",
+      "change_class": "code",
+      "files": 15,
+      "al": 10,
+      "objects": 10,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-03T00:20:53.190Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004799
+    },
+    "linked": {
+      "at": "2026-11-03T00:20:53.335Z",
+      "objects": 10,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-03T00:20:53.447Z",
+      "path": "content/changes/bcapps/13185.md"
     }
   },
   "input_hash": "940c996740ac1da00640eea703fa5828c99cbc0e:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 656372 expense agent fix itemization rounding and missing currency code"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b0cc8d7d6d7333df9a407dff9faf36858e81d1806318b0bd1057e7410f38f6b1"
 }

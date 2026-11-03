@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/253",
+  "number": 253,
+  "title": "knowledge(performance): add trigger-only fields to API pages with AddLoadFields",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "New knowledge article documents how to use AddLoadFields on API pages to prevent JIT loading failures when accessing unbound fields in OnAfterGetRecord.",
+  "key_points": [
+    "Explains a common API pattern where unbound fields trigger implicit Get calls on first access",
+    "Shows how to use Rec.AddLoadFields in OnOpenPage to prevent 'Inconsistent read' and JIT loading errors",
+    "Distinguishes between AddLoadFields (correct) and SetLoadFields (incorrect, breaks layout-based loading)",
+    "Provides bad and good code examples for the pattern",
+    "References evidence from Microsoft Learn and BCApps ExpenseAgent API pages"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.008485,
+    "changes_in_call": 1
+  }
+}

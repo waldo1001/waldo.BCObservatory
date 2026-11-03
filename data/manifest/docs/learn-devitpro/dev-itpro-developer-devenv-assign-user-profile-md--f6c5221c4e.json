@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Assign a user to a profile",
+  "title": "Assign a User Profile in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-assign-user-profile",
   "published_at": "2026-11-02T12:12:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.712Z",
-      "blob": "1772fc2263cc2fa4118884216f37512f5295b093",
-      "words": 216,
+      "at": "2026-11-03T00:19:35.404Z",
+      "blob": "7899b8ecda528387e0e6425e6375d3cfa73fbe20",
+      "words": 339,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:35:25.347Z",
+      "at": "2026-11-03T00:19:48.812Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003305
+      "objects": 2,
+      "cost_usd": 0.003256
     },
     "summarized": {
-      "at": "2026-10-06T19:35:25.359Z",
+      "at": "2026-11-03T00:19:48.813Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:35:25.360Z",
+      "at": "2026-11-03T00:19:48.814Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:35:25.361Z",
+      "at": "2026-11-03T00:19:48.814Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-assign-user-profile.md",
-    "description": "Use the User Personalization page to assign a user to a profile, and then fill in the User ID, Profile ID, Language ID, and Company fields.",
-    "ms_date": "2025-01-07",
+    "description": "Assign a profile to a Business Central user to set their Role Center and role-specific customizations. Configure language, region, and other preferences.",
+    "ms_date": "2026-10-29",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 216,
+    "words": 339,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ec47cf6696a91a2349f0e7d9098b51fca22320144df70e7abcc303e7125b902a"
+  "output_hash": "4b743f03505e981ada8dc705cf9f901e8b549f314290e03ba840d0ef0eb9bc78"
 }

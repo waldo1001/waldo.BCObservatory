@@ -2,29 +2,36 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-bound-action.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-bound-action",
   "title": "Creating and Interacting with an OData V4 Bound Action",
-  "blob": "b6947e665bd7aca611a7fd93813acb3ca931eb0a",
-  "summary": "OData V4 bound actions expose procedures as web service actions using the ServiceEnabled attribute and WebServiceActionContext to set operation results and entity keys.",
+  "blob": "52bfd02021d765beab79081f6328606bc0f626a2",
+  "summary": "OData V4 bound actions let you run AL procedures for specific records through web services. This guide demonstrates creating a custom page that copies unposted sales invoices and exposes the copy operation as a bound action callable via HTTP POST.",
   "systems": [
-    "integration"
+    "integration",
+    "sales",
+    "development"
   ],
   "topics": [
     "odata",
     "web services",
     "bound actions",
-    "api"
+    "rest api",
+    "al development"
   ],
   "objects": [
     {
       "type": "page",
       "name": "SalesInvoiceCopy"
+    },
+    {
+      "type": "codeunit",
+      "name": "Copy Document Mgt."
     }
   ],
   "features": [
     "ServiceEnabled attribute",
     "WebServiceActionContext",
-    "WebServiceActionResultCode",
-    "OData V4",
-    "bound actions"
+    "ODataKeyFields property",
+    "Web service publishing",
+    "OAuth authentication"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003305,
-      "pages_in_call": 8
+      "cost_usd": 0.005281,
+      "pages_in_call": 1
     }
   ]
 }

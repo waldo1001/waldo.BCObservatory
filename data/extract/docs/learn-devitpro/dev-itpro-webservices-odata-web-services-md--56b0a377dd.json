@@ -2,28 +2,34 @@
   "item_id": "docs/learn-devitpro/dev-itpro/webservices/OData-Web-Services.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/OData-Web-Services",
   "title": "OData Web Services",
-  "blob": "7cf405e0035d81ec3acf90fb3d51c63a5d22b29b",
-  "summary": "OData Web Services provide a protocol for querying and updating Business Central tabular data via HTTP and JSON, supporting integration with Excel PowerQuery, Power BI, and SharePoint.",
+  "blob": "291bddbc9f02dedbdd722babed9c1fd01f6ba82e",
+  "summary": "OData Web Services enable querying and updating tabular data in Business Central using the Open Data Protocol, which provides an HTTP-based interface for data integration across applications and services.",
   "systems": [
-    "integration"
+    "integration",
+    "development",
+    "platform"
   ],
   "topics": [
     "odata",
     "web services",
-    "rest",
     "data integration",
-    "interoperability"
+    "rest api",
+    "json",
+    "filtering",
+    "paging"
   ],
   "objects": [],
   "features": [
-    "OData V4",
+    "OData protocol support",
+    "data querying",
+    "data modification",
     "filter expressions",
-    "flowfilters",
+    "FlowFilters",
     "server-driven paging",
     "containments and associations",
-    "data modification",
-    "EDMX metadata",
-    "JSON documents"
+    "service metadata export",
+    "JSON document support",
+    "AtomPub document support"
   ],
   "versions": [],
   "parts": 1,
@@ -31,9 +37,9 @@
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": true,
-      "cost_usd": null,
-      "pages_in_call": 7
+      "cached": false,
+      "cost_usd": 0.003927,
+      "pages_in_call": 1
     }
   ]
 }

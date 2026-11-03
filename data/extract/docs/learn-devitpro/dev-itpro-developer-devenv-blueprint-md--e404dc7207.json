@@ -1,34 +1,37 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-blueprint.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-blueprint",
-  "title": "Module Architecture",
-  "blob": "9d9e0f057876c8b8e7aac60d534bc216f5fc61c2",
-  "summary": "Module architecture defines design principles for separating modules into independent projects with public facades, managing dependencies across functional layers, and ensuring consistency through internal implementation patterns.",
+  "title": "Module Architecture in the System Application",
+  "blob": "a8a8baf087eacf7e03a11affce0b624c27909acb",
+  "summary": "Module architecture design recommendations for contributing to the System Application in BCApps, covering API design, packaging, dependencies, object accessibility, and testing practices.",
   "systems": [
     "development",
-    "platform",
-    "administration"
+    "platform"
   ],
   "topics": [
     "module architecture",
-    "packaging",
-    "layering",
-    "dependencies",
+    "system application",
+    "public api",
+    "access modifiers",
     "facade codeunits",
     "extensibility",
-    "testing",
-    "documentation"
+    "testing"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "facade codeunit"
+    }
+  ],
   "features": [
-    "module dependencies",
-    "object accessibility",
-    "facade codeunits",
-    "business logic implementation",
-    "extensibility controls",
-    "access modifiers",
-    "documentation standards",
-    "testing requirements"
+    "Access property for table fields",
+    "Internal access modifier",
+    "Public facade design",
+    "SingleInstance property",
+    "Extensible property",
+    "internalsVisibleTo configuration",
+    "XML documentation comments",
+    "Project setup guidelines"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003275,
-      "pages_in_call": 8
+      "cost_usd": 0.008814,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-bound-action",
   "published_at": "2026-11-02T12:12:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.721Z",
-      "blob": "b6947e665bd7aca611a7fd93813acb3ca931eb0a",
-      "words": 258,
+      "at": "2026-11-03T00:20:41.054Z",
+      "blob": "52bfd02021d765beab79081f6328606bc0f626a2",
+      "words": 814,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:35:25.350Z",
+      "at": "2026-11-03T00:20:55.154Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003305
+      "objects": 2,
+      "cost_usd": 0.005281
     },
     "summarized": {
-      "at": "2026-10-06T19:35:25.366Z",
+      "at": "2026-11-03T00:20:55.155Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:35:25.367Z",
+      "at": "2026-11-03T00:20:55.156Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:35:25.368Z",
+      "at": "2026-11-03T00:20:55.156Z",
       "page": false
     }
   },
@@ -44,21 +44,23 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-bound-action.md",
-    "description": "Document how to create and interact with an OData V4 Bound Action in AL.",
-    "ms_date": "2021-04-01",
+    "description": "Create an OData V4 bound action in AL, publish its page, and call it with an authenticated POST request to copy an existing sales invoice in Business Central.",
+    "ms_date": "2026-10-29",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 258,
+    "words": 814,
     "identifiers": [
-      "SalesInvoiceCopy",
       "WebServiceActionContext",
-      "WebServiceActionResultCode"
+      "SystemId",
+      "SalesInvoiceCopy",
+      "ActionContext",
+      "ODataKeyFields"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "60f019870c1d871b027740d36ddf0837c0850167c9ffb2bacf36ac370e9f8430"
+  "output_hash": "602c72dc91ebaa91f09fe4fa9382fae8832b9eb561b1c3fdb16b5d08a87e1429"
 }

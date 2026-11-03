@@ -2,40 +2,41 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-change-a-module.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-change-a-module",
   "title": "Change a System Application Module in Business Central",
-  "blob": "45b165f37726c77b0f9b7f675921253a50832720",
-  "summary": "Change a System Application module by updating implementation, exposing public functions, documenting them, and adding tests following module architecture guidelines and contribution requirements.",
+  "blob": "f0644dc83aee5bc46cd11710658298ea1d3833f7",
+  "summary": "Change a System Application module in BCApps by updating its implementation, exposing functionality through the public API, and adding tests, following module architecture guidelines and contribution workflows.",
   "systems": [
     "development"
   ],
   "topics": [
     "system application",
     "module development",
+    "bcapps",
+    "contribution",
     "al development",
-    "bcapps contribution",
-    "module architecture"
+    "public api",
+    "testing"
   ],
   "objects": [
     {
       "type": "codeunit",
-      "name": "Base64ConvertImpl"
+      "name": "Base64 Convert Impl."
     },
     {
       "type": "codeunit",
-      "name": "Base64Convert"
+      "name": "Base64 Convert"
     },
     {
       "type": "codeunit",
-      "name": "Base64ConvertTest"
+      "name": "Base64 Convert Test"
     }
   ],
   "features": [
-    "module implementation",
-    "public function exposure",
-    "function documentation",
-    "module testing",
-    "code preservation",
-    "visual studio code setup",
-    "git workflow"
+    "Module architecture",
+    "Public API exposure",
+    "Test integration",
+    "Visual Studio Code setup",
+    "Git workflow",
+    "Pull request process"
   ],
   "versions": [],
   "parts": 1,
@@ -44,7 +45,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.011134,
+      "cost_usd": 0.011491,
       "pages_in_call": 1
     }
   ]

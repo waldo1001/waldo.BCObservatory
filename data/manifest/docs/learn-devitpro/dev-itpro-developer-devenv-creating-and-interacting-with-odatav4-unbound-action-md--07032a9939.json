@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Creating and interacting with an OData V4 unbound action",
+  "title": "OData V4 Unbound Actions in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action",
   "published_at": "2026-11-02T12:12:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.383Z",
-      "blob": "70c6fe7b343cd4618a1d315980b98178f94de808",
-      "words": 246,
+      "at": "2026-11-03T00:20:47.352Z",
+      "blob": "f80f569c714b768fdc9034e8bf55da08987aed65",
+      "words": 907,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:33:28.335Z",
+      "at": "2026-11-03T00:21:01.295Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.011392
+      "cost_usd": 0.005452
     },
     "summarized": {
-      "at": "2026-10-06T19:33:28.378Z",
+      "at": "2026-11-03T00:21:01.296Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:33:28.379Z",
+      "at": "2026-11-03T00:21:01.297Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:33:28.381Z",
+      "at": "2026-11-03T00:21:01.297Z",
       "page": false
     }
   },
@@ -44,17 +44,23 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action.md",
-    "description": "Describing how to create and interact with an OData V4 Unbound Action in AL.",
-    "ms_date": "2024-07-23",
-    "ms_topic": "concept-article",
+    "description": "Create an OData V4 unbound action in AL, publish a codeunit as a web service, and send authenticated JSON requests to call its procedures in Business Central.",
+    "ms_date": "2026-10-29",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 246,
-    "identifiers": [],
+    "words": 907,
+    "identifiers": [
+      "delayMilliseconds",
+      "GetLengthOfStringWithConfirmation",
+      "inputJson",
+      "MyOperations",
+      "MiscOperations"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "837f950c45486a026a1d0b5277715b43dfd6cf3d8ee7f77b893769e4c3681e38"
+  "output_hash": "9440b5d2a1953b15cc048e33da54864659d9a438ee3bf69d029576dc1c8d3646"
 }

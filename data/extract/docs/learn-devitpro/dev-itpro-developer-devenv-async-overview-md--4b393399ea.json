@@ -1,29 +1,33 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-async-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview",
-  "title": "Async Processing Overview for Business Central",
-  "blob": "00891d0a905b3243fab05fbd97af7c7cb661fbc6",
-  "summary": "Asynchronous processing overview documents operational limits and configuration options for async tasks, job queues, page background tasks, and scheduled tasks in Business Central online and on-premises.",
+  "title": "Asynchronous Processing in AL for Business Central",
+  "blob": "79aa1d722423207b54015f8bb8bf2ce939e37a4e",
+  "summary": "Asynchronous processing in AL for Business Central includes page background tasks, Session.StartSession, task scheduler, and job queue mechanisms. Each has operational limits for concurrency and timeouts that differ between online and on-premises environments.",
   "systems": [
     "development",
-    "platform"
+    "platform",
+    "administration"
   ],
   "topics": [
     "asynchronous processing",
-    "job queue",
     "page background tasks",
     "task scheduler",
+    "job queue",
     "operational limits",
+    "concurrency",
     "performance"
   ],
   "objects": [],
   "features": [
-    "asynchronous operations",
-    "child session concurrency",
-    "background session concurrency",
-    "page background task timeouts",
-    "scheduled task concurrency",
-    "queue limits"
+    "page background task",
+    "Session.StartSession",
+    "task scheduler",
+    "job queue",
+    "ChildSessionsMaxConcurrency",
+    "BackgroundSessionsMaxConcurrent",
+    "TaskSchedulerMaximumConcurrentRunningTasks",
+    "PageBackgroundTaskDefaultTimeout"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00409,
-      "pages_in_call": 3
+      "cost_usd": 0.006852,
+      "pages_in_call": 1
     }
   ]
 }

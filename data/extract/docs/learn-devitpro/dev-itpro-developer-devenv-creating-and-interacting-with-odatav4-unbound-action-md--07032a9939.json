@@ -1,19 +1,22 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action",
-  "title": "Creating and interacting with an OData V4 unbound action",
-  "blob": "70c6fe7b343cd4618a1d315980b98178f94de808",
-  "summary": "Guide for creating OData V4 unbound actions in Business Central, enabling reusable operations callable via OData requests without binding to a specific entity.",
+  "title": "OData V4 Unbound Actions in Business Central",
+  "blob": "f80f569c714b768fdc9034e8bf55da08987aed65",
+  "summary": "OData V4 unbound actions allow calling AL codeunit procedures without addressing a specific record by publishing a codeunit as a web service and sending procedure parameters as JSON via HTTP POST requests.",
   "systems": [
     "integration",
-    "development"
+    "development",
+    "platform"
   ],
   "topics": [
-    "odata",
+    "odata v4",
     "web services",
-    "unbound actions",
-    "soap migration",
-    "rest api"
+    "codeunit actions",
+    "rest api",
+    "http requests",
+    "json parameters",
+    "oauth authentication"
   ],
   "objects": [
     {
@@ -22,11 +25,14 @@
     }
   ],
   "features": [
-    "unbound actions",
-    "OData V4",
-    "web service registration",
-    "procedure exposure",
-    "JSON parameter handling"
+    "OData V4 unbound actions",
+    "Web service publishing",
+    "Codeunit procedures as operations",
+    "JSON parameter passing",
+    "OAuth authentication",
+    "HTTP POST requests",
+    "Service name and procedure name URLs",
+    "Return value handling"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.011392,
-      "pages_in_call": 6
+      "cost_usd": 0.005452,
+      "pages_in_call": 1
     }
   ]
 }

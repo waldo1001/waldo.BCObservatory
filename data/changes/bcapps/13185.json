@@ -1,0 +1,262 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13185,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13185",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-02T11:20:57Z",
+  "merge_commit_sha": "940c996740ac1da00640eea703fa5828c99cbc0e",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "ExpenseManagement",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - Bug 656372: [Expense Agent] Fix itemization rounding and missing currency code.",
+  "body_hash": "3cad64b3db8d37d444521fe9c9c7a12166ad29b40afd32a45a46f880c7027dce",
+  "fixes_issues": [],
+  "work_items": [
+    656372
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseItemizationsAPI.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseReportLineItemAPI.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/PostedExpRepLineItemAPI.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReport.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReportLineItems.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/PostedExpRepLineItems.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLineItem.Table.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpRepLineItem.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseAutoPopulation.Codeunit.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseRuleValidation.Codeunit.al",
+      "status": "modified",
+      "additions": 48,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseReportTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseRuleTest.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseRuleViolationTest.Codeunit.al",
+      "status": "modified",
+      "additions": 299,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseTest.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 7,
+      "class": "al-test"
+    },
+    {
+      "path": "src/DisabledTests/Expense_Agent_Tests/Expense_Agent_Tests.DisabledTest.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 15,
+    "additions": 492,
+    "deletions": 32,
+    "al": 10
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseItemizationsAPI.Page.al",
+        "status": "modified",
+        "key": "page/6935",
+        "type": "page",
+        "id": 6935,
+        "name": "Expense Itemizations API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6935"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/ExpenseReportLineItemAPI.Page.al",
+        "status": "modified",
+        "key": "page/6905",
+        "type": "page",
+        "id": 6905,
+        "name": "Expense Report Line Item API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6905"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/APIs/PostedExpRepLineItemAPI.Page.al",
+        "status": "modified",
+        "key": "page/6906",
+        "type": "page",
+        "id": 6906,
+        "name": "Posted Exp. Rep. Line Item API",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6906"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6910",
+        "type": "codeunit",
+        "id": 6910,
+        "name": "Expense Report",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6910"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReportLineItems.Page.al",
+        "status": "modified",
+        "key": "page/6931",
+        "type": "page",
+        "id": 6931,
+        "name": "Expense Report Line Items",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6931"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/PostedExpRepLineItems.Page.al",
+        "status": "modified",
+        "key": "page/6943",
+        "type": "page",
+        "id": 6943,
+        "name": "Posted Exp. Rep. Line Items",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6943"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLineItem.Table.al",
+        "status": "modified",
+        "key": "table/6911",
+        "type": "table",
+        "id": 6911,
+        "name": "Expense Report Line Item",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6911"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpRepLineItem.Table.al",
+        "status": "modified",
+        "key": "table/6919",
+        "type": "table",
+        "id": 6919,
+        "name": "Posted Exp. Rep. Line Item",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6919"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseAutoPopulation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6912",
+        "type": "codeunit",
+        "id": 6912,
+        "name": "Expense Auto Population",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6912"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseRuleValidation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6902",
+        "type": "codeunit",
+        "id": 6902,
+        "name": "Expense Rule Validation",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6902"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

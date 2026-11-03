@@ -2,8 +2,8 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/types-of-events-for-extensibility.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/types-of-events-for-extensibility",
   "title": "Types of events for extensibility",
-  "blob": "5bbe9f791c73c0b29e863d2a903af8afd6757a1a",
-  "summary": "Types of events for extensibility in Business Central AL development, including business events, OnBefore/OnAfter events, verify events, isolated events, switch events, skip events, and handled events, with quality rankings and usage guidance.",
+  "blob": "3e03181427bf4f88a3d6c9c81fb63b63b9320eee",
+  "summary": "Types of events for extensibility in AL describes different event patterns including business events, OnBefore/OnAfter events, verify events, isolated events, switch events, skip events, handled events, and discovery events, with guidance on their quality and use cases.",
   "systems": [
     "development",
     "platform"
@@ -12,9 +12,10 @@
     "events",
     "extensibility",
     "al development",
-    "integration events",
-    "event quality",
-    "customization"
+    "application design",
+    "business logic",
+    "event subscribers",
+    "integration patterns"
   ],
   "objects": [
     {
@@ -79,14 +80,14 @@
     }
   ],
   "features": [
-    "Business events",
+    "business events",
     "OnBefore/OnAfter events",
-    "Verify events",
-    "Isolated events",
-    "Switch events",
-    "Skip events",
-    "Handled events",
-    "Discovery events"
+    "verify events",
+    "isolated events",
+    "switch events (manually bound events)",
+    "skip events",
+    "handled events",
+    "discovery events"
   ],
   "versions": [],
   "parts": 1,
@@ -95,8 +96,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006497,
-      "pages_in_call": 8
+      "cost_usd": 0.018929,
+      "pages_in_call": 1
     }
   ]
 }
