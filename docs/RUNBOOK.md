@@ -215,6 +215,12 @@ customEvents | where timestamp > ago(30d) and name == "Obs.Resource"
 | where resource != "other" | top 25 by read
 ```
 
+**Dashboard.** `infra/telemetry/dashboard-bc-observatory.json` is the Azure Data Explorer dashboard over these events
+(dataexplorer.azure.com > Dashboards > New dashboard > Import from file). The base query `Obs` filters on the
+dashboard's Time range parameter (default 30 days), so every tile follows it. The data source holds `<subscription-id>`
+in place of the real one (the repository is public): after import, set it in Data sources > BCObs. Export it again
+after a change in the portal, put the placeholder back and commit it here.
+
 ## Recovery
 
 - Nightly aborted mid-run: the next run validates and commits the partial tree first ("recover partial run").

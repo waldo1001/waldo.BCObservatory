@@ -1,0 +1,316 @@
+{
+  "$schema": "https://dataexplorer.azure.com/static/d/schema/87/dashboard.json",
+  "id": "d0535f53-3e1c-4d30-8f06-0d128c7af9c6",
+  "title": "BC Observatory",
+  "schema_version": 87,
+  "changeDetection": {
+    "kind": "liveUpdates",
+    "minRefreshRate": "30s",
+    "fallbackRefreshRate": "1m"
+  },
+  "tiles": [
+    {
+      "id": "c01a82ca-12ee-469d-934c-c5684b8df3aa",
+      "title": "Untitled",
+      "visualType": "timeseries",
+      "pageId": "f5050845-19b8-488f-a5e9-0fafbf4ee245",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 11,
+        "height": 13
+      },
+      "queryRef": {
+        "kind": "query",
+        "queryId": "52452014-8f5b-47db-951a-964e3193a4b4"
+      },
+      "visualOptions": {
+        "timeSeries__timeDataSource": null,
+        "timeSeries__allowPanAndZoom": false,
+        "timeSeries__initialZoom": null,
+        "timeSeries__measuredEntities": [],
+        "timeSeries__measuredData": null,
+        "seriesColors": {}
+      }
+    },
+    {
+      "id": "1e2b5305-fc59-4675-bc0b-e338ec6b4517",
+      "title": "Untitled",
+      "visualType": "table",
+      "pageId": "f5050845-19b8-488f-a5e9-0fafbf4ee245",
+      "layout": {
+        "x": 11,
+        "y": 0,
+        "width": 13,
+        "height": 9
+      },
+      "queryRef": {
+        "kind": "query",
+        "queryId": "7e493afc-a90a-49ad-9d35-f7b9cfe1d1ba"
+      },
+      "visualOptions": {
+        "table__enableRenderLinks": true,
+        "colorRulesDisabled": true,
+        "crossFilterDisabled": false,
+        "drillthroughDisabled": false,
+        "crossFilter": [],
+        "drillthrough": [],
+        "table__renderLinks": [],
+        "colorRules": []
+      }
+    },
+    {
+      "id": "589bb36f-10a8-43c7-b372-e2b89cb56692",
+      "title": "Untitled",
+      "visualType": "table",
+      "pageId": "f5050845-19b8-488f-a5e9-0fafbf4ee245",
+      "layout": {
+        "x": 0,
+        "y": 13,
+        "width": 11,
+        "height": 8
+      },
+      "queryRef": {
+        "kind": "query",
+        "queryId": "ca0c67d8-7342-47e7-bee0-22a29651b511"
+      },
+      "visualOptions": {
+        "table__enableRenderLinks": true,
+        "colorRulesDisabled": true,
+        "crossFilterDisabled": false,
+        "drillthroughDisabled": false,
+        "crossFilter": [],
+        "drillthrough": [],
+        "table__renderLinks": [],
+        "colorRules": []
+      }
+    },
+    {
+      "id": "79ad0611-60cc-4c51-bcbb-c3541a1658ed",
+      "title": "Untitled",
+      "visualType": "table",
+      "pageId": "f5050845-19b8-488f-a5e9-0fafbf4ee245",
+      "layout": {
+        "x": 11,
+        "y": 9,
+        "width": 13,
+        "height": 4
+      },
+      "queryRef": {
+        "kind": "query",
+        "queryId": "dbeb5ad0-3b49-4e1c-b80f-cf2be7020ea9"
+      },
+      "visualOptions": {
+        "table__enableRenderLinks": true,
+        "colorRulesDisabled": true,
+        "crossFilterDisabled": false,
+        "drillthroughDisabled": false,
+        "crossFilter": [],
+        "drillthrough": [],
+        "table__renderLinks": [],
+        "colorRules": []
+      }
+    },
+    {
+      "id": "12af8add-f2d2-4fd3-8b55-705946b925e2",
+      "title": "Untitled",
+      "visualType": "table",
+      "pageId": "f5050845-19b8-488f-a5e9-0fafbf4ee245",
+      "layout": {
+        "x": 11,
+        "y": 13,
+        "width": 13,
+        "height": 8
+      },
+      "queryRef": {
+        "kind": "query",
+        "queryId": "f98073f3-d346-4d6f-8746-11896fede117"
+      },
+      "visualOptions": {
+        "table__enableRenderLinks": true,
+        "colorRulesDisabled": true,
+        "crossFilterDisabled": false,
+        "drillthroughDisabled": false,
+        "crossFilter": [],
+        "drillthrough": [],
+        "table__renderLinks": [],
+        "colorRules": []
+      }
+    },
+    {
+      "id": "a6e4d2c8-1b3f-4e7a-9c5d-2f8b0e6a4d13",
+      "title": "Unique users per day",
+      "visualType": "column",
+      "pageId": "f5050845-19b8-488f-a5e9-0fafbf4ee245",
+      "layout": {
+        "x": 0,
+        "y": 21,
+        "width": 24,
+        "height": 8
+      },
+      "queryRef": {
+        "kind": "query",
+        "queryId": "3b1f6c2e-8d4a-4f0e-9a51-7c2d5e8b9f10"
+      },
+      "visualOptions": {
+        "multipleYAxes": {
+          "base": {
+            "id": "-1",
+            "label": "",
+            "columns": [],
+            "yAxisMaximumValue": null,
+            "yAxisMinimumValue": null,
+            "yAxisScale": "linear",
+            "horizontalLines": []
+          },
+          "additional": [],
+          "showMultiplePanels": false
+        },
+        "hideLegend": true,
+        "xColumnTitle": "",
+        "xColumn": "day",
+        "yColumns": [
+          "users"
+        ],
+        "seriesColumns": null,
+        "xAxisScale": "linear",
+        "verticalLine": "",
+        "crossFilterDisabled": false,
+        "drillthroughDisabled": false,
+        "crossFilter": [],
+        "drillthrough": [],
+        "selectedDataOnLoad": {
+          "all": true,
+          "limit": 10
+        },
+        "dataPointsTooltip": {
+          "all": false,
+          "limit": 1
+        },
+        "yLayoutColumnTitle": "",
+        "seriesColors": {}
+      }
+    }
+  ],
+  "baseQueries": [
+    {
+      "id": "77dbc093-0287-4c51-b4d1-55c6858b2061",
+      "queryId": "7c3e3f4b-9fc3-4eec-86f0-94f68bd9d9cc",
+      "variableName": "Obs"
+    }
+  ],
+  "parameters": [
+    {
+      "kind": "duration",
+      "id": "9083b63f-9c18-443d-9330-b1e53615bb69",
+      "displayName": "Time range",
+      "description": "",
+      "beginVariableName": "_startTime",
+      "endVariableName": "_endTime",
+      "defaultValue": {
+        "kind": "dynamic",
+        "count": 30,
+        "unit": "days"
+      },
+      "showOnPages": {
+        "kind": "all"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "id": "8fa2fd37-f97e-4b86-a8ac-e30393a52693",
+      "kind": "manual-kusto",
+      "name": "BCObs",
+      "clusterUri": "https://ade.applicationinsights.io/subscriptions/<subscription-id>/resourceGroups/BCObservatory",
+      "database": "BCObservatory"
+    }
+  ],
+  "pages": [
+    {
+      "name": "Page 1",
+      "id": "f5050845-19b8-488f-a5e9-0fafbf4ee245"
+    }
+  ],
+  "queries": [
+    {
+      "dataSource": {
+        "kind": "inline",
+        "dataSourceId": "8fa2fd37-f97e-4b86-a8ac-e30393a52693"
+      },
+      "text": "// 1. Daily trend: calls, sessions, unique installs\nObs\n| summarize calls = count(), sessions = dcount(session_Id), users = dcountif(user_Id, isnotempty(user_Id))\n  by bin(timestamp, 1d)\n| order by timestamp asc\n| render timechart",
+      "id": "52452014-8f5b-47db-951a-964e3193a4b4",
+      "usedVariables": [
+        "Obs"
+      ]
+    },
+    {
+      "dataSource": {
+        "kind": "inline",
+        "dataSourceId": "8fa2fd37-f97e-4b86-a8ac-e30393a52693"
+      },
+      "text": "// 2. Per tool: volume, reach, quality, speed\nObs\n| summarize calls = count(), users = dcount(user_Id),\n            nomatchPct = round(100.0 * countif(outcome == \"nomatch\") / count(), 1),\n            notfoundPct = round(100.0 * countif(outcome == \"notfound\") / count(), 1),\n            errorPct = round(100.0 * countif(outcome == \"error\") / count(), 1),\n            p50ms = percentile(ms, 50), p95ms = percentile(ms, 95)\n  by tool\n| order by calls desc",
+      "id": "7e493afc-a90a-49ad-9d35-f7b9cfe1d1ba",
+      "usedVariables": [
+        "Obs"
+      ]
+    },
+    {
+      "dataSource": {
+        "kind": "inline",
+        "dataSourceId": "8fa2fd37-f97e-4b86-a8ac-e30393a52693"
+      },
+      "text": "// 3. Which MCP clients (Claude Code, VS Code, Cursor, ...)\nObs\n| summarize sessions = dcount(session_Id), users = dcount(user_Id), calls = count() by client\n| order by users desc",
+      "id": "ca0c67d8-7342-47e7-bee0-22a29651b511",
+      "usedVariables": [
+        "Obs"
+      ]
+    },
+    {
+      "dataSource": {
+        "kind": "inline",
+        "dataSourceId": "8fa2fd37-f97e-4b86-a8ac-e30393a52693"
+      },
+      "text": "// 7. New vs returning installs per week\nObs\n| where isnotempty(user_Id)\n| summarize firstSeen = min(timestamp), weeks = make_set(startofweek(timestamp)) by user_Id\n| mv-expand week = weeks to typeof(datetime)\n| summarize new = countif(startofweek(firstSeen) == week), returning = countif(startofweek(firstSeen) < week) by week\n| order by week asc",
+      "id": "dbeb5ad0-3b49-4e1c-b80f-cf2be7020ea9",
+      "usedVariables": [
+        "Obs"
+      ]
+    },
+    {
+      "dataSource": {
+        "kind": "inline",
+        "dataSourceId": "8fa2fd37-f97e-4b86-a8ac-e30393a52693"
+      },
+      "text": "// 6. Session depth: one-shot pokes vs real use\nObs\n| summarize calls = count() by session_Id\n| summarize sessions = count() by depth = case(calls == 1, \"1\", calls <= 3, \"2-3\", calls <= 10, \"4-10\", \"11+\")\n| order by depth asc",
+      "id": "f98073f3-d346-4d6f-8746-11896fede117",
+      "usedVariables": [
+        "Obs"
+      ]
+    },
+    {
+      "id": "7c3e3f4b-9fc3-4eec-86f0-94f68bd9d9cc",
+      "dataSource": {
+        "kind": "inline",
+        "dataSourceId": "8fa2fd37-f97e-4b86-a8ac-e30393a52693"
+      },
+      "text": "// 0. Base: put this on top of every query below\nlet obs = customEvents\n| where timestamp between (_startTime .. _endTime) and name == \"Obs.ToolCall\"\n| extend tool = tostring(customDimensions.tool), outcome = tostring(customDimensions.outcome),\n         client = tostring(customDimensions.client), clientVersion = tostring(customDimensions.clientVersion),\n         mcpVersion = tostring(customDimensions.mcpVersion), ms = todouble(customMeasurements.ms)\n| where client != \"release-check\";\nobs",
+      "usedVariables": [
+        "_startTime",
+        "_endTime"
+      ]
+    },
+    {
+      "dataSource": {
+        "kind": "inline",
+        "dataSourceId": "8fa2fd37-f97e-4b86-a8ac-e30393a52693"
+      },
+      "text": "// 8. Unique users per day (D111, MCP 0.12.0 and later send user_Id)\nObs\n| where isnotempty(user_Id)\n| summarize users = dcount(user_Id) by day = bin(timestamp, 1d)\n| order by day asc",
+      "id": "3b1f6c2e-8d4a-4f0e-9a51-7c2d5e8b9f10",
+      "usedVariables": [
+        "Obs"
+      ]
+    }
+  ],
+  "embeddedApps": []
+}
