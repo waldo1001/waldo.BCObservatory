@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:21.103Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,6 +76,7 @@ links:
     - change/bcquality/205
     - change/bcquality/215
     - change/bcquality/225
+    - change/bcquality/253
     - change/bcquality/94
     - change/bcquality/97
 learn_toc_path:
@@ -139,6 +140,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#205 Preserve business filters when recommending Record.Get](../../../../../changes/bcquality/205.md) (code change): "Preserve business filters when recommending Record.Get. The performance guidance for replacing"
 - [#215 knowledge(performance): grouped query (Count + ColumnFilter = HAVING) for distinct values and duplicates](../../../../../changes/bcquality/215.md) (code change): "use query objects with grouped methods and column filters to detect duplicate values"
 - [#225 Performance and style knowledge: compute Role Center headlines in the background; build client links with GetUrl](../../../../../changes/bcquality/225.md) (code change): "compute Role Center headlines in the background"
+- [#253 knowledge(performance): add trigger-only fields to API pages with AddLoadFields](../../../../../changes/bcquality/253.md) (code change): "AddLoadFields on API pages to prevent JIT loading failures when accessing unbound fields"
 - [#94 Correct performance knowledge guidance](../../../../../changes/bcquality/94.md) (code change): "Several performance knowledge articles and their samples were corrected for partial records, transactions"
 - [#97 Add per-row AL performance guidance](../../../../../changes/bcquality/97.md) (code change): "New performance guidance documents how to use SetAutoCalcFields for per-row FlowFields"
 - [Dynamics 365 Business Central: finally we’ll have TRUNCATE table in SaaS.](../../../../../posts/demiliani-com/12267.md) (community post): "efficient bulk deletion of table rows in SaaS environments"

@@ -2,14 +2,14 @@
 id: object/interface/expense-agent-quota
 type: object
 title: Interface "Expense Agent Quota"
-summary: Interface "Expense Agent Quota" in ExpenseAgent (Microsoft.ExpenseAgent). 7 public procedures. Introduced in BC30.
+summary: Interface "Expense Agent Quota" in ExpenseAgent (Microsoft.ExpenseAgent). 7 public procedures. Introduced in BC29, still in BC30.
 tier: official
 language: en
 tags:
   - interface
   - expenseagent
 versions:
-  introduced: "30"
+  introduced: "29"
   last_changed: null
   deprecated: null
 review:
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-29T00:18:22.904Z"
+  at: "2026-11-03T00:49:14.469Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8efdfa9cecbaabc328ec4ed5359db2e008cef03b8a95c69fd81736651b134b26
+  input_hash: d155255dbc460fc12de1418917ffdb6b185d7a8612a203820d78b67364cf53d6
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ExpenseAgent/app/src/Consumption/ExpenseAgentQuota.Interface.al
-    title: src/Apps/W1/ExpenseAgent/app/src/Consumption/ExpenseAgentQuota.Interface.al (main)
+    url: https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Apps/W1/ExpenseAgent/app/src/Consumption/ExpenseAgentQuota.Interface.al
+    title: src/Apps/W1/ExpenseAgent/app/src/Consumption/ExpenseAgentQuota.Interface.al (releases/29.x)
     date: null
-    commit: d2abc1d2ceae394331716c8183ef60e1534c2ce0
+    commit: d992339dbf106bf2412e17518329e128634f2951
     t: null
     quote: null
 links:
@@ -47,12 +47,13 @@ name: Expense Agent Quota
 namespace: Microsoft.ExpenseAgent
 app: ExpenseAgent
 extends: null
-first_version: "30"
+first_version: "29"
 last_version: "30"
 present_in:
+  - "29"
   - "30"
 changed_in: []
-source_major: "30"
+source_major: "29"
 obsolete: null
 countries: []
 ms_search_form_ids: []
@@ -75,9 +76,9 @@ relations:
 
 # Interface "Expense Agent Quota"
 
-> Interface "Expense Agent Quota" in ExpenseAgent (Microsoft.ExpenseAgent). 7 public procedures. Introduced in BC30.
+> Interface "Expense Agent Quota" in ExpenseAgent (Microsoft.ExpenseAgent). 7 public procedures. Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC30 · [source at d2abc1d2](https://github.com/microsoft/BCApps/blob/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ExpenseAgent/app/src/Consumption/ExpenseAgentQuota.Interface.al) · facts from BC30
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at d992339d](https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Apps/W1/ExpenseAgent/app/src/Consumption/ExpenseAgentQuota.Interface.al) · facts from BC29
 
 ## Properties
 
@@ -105,11 +106,11 @@ ExpenseAgent · Microsoft.ExpenseAgent · BC30 · [source at d2abc1d2](https://g
 
 ## Across versions
 
-- Present in: BC30
+- Present in: BC29-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 
 ## Ask your agent
 
-Procedure bodies are not stored here (D10). The call sections above are our own, per object, from the BC30 call graph. For a procedure body or the calls of one procedure, ask bc-code-atlas (external, by Stefan Maron, MIT; default corpus w1-28), which the bc-observatory plugin connects: `bcatlas_resolve_node(object_type: "interface", object_name: "Expense Agent Quota")`, then `bcatlas_get_procedure_body` or `bcatlas_get_neighbors` on the returned id.
+Procedure bodies are not stored here (D10). The call sections above are our own, per object, from the BC29 call graph. For a procedure body or the calls of one procedure, ask bc-code-atlas (external, by Stefan Maron, MIT; default corpus w1-28), which the bc-observatory plugin connects: `bcatlas_resolve_node(object_type: "interface", object_name: "Expense Agent Quota")`, then `bcatlas_get_procedure_body` or `bcatlas_get_neighbors` on the returned id.

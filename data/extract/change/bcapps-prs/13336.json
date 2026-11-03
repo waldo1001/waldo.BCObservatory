@@ -8,10 +8,9 @@
   ],
   "summary": "Fixed an issue where creating reminders failed with a filter error when all overdue entries were marked as on hold, and added test coverage for this scenario.",
   "key_points": [
-    "Reminders creation now handles cases where all overdue entries have on hold status",
-    "Filter validation was adjusted in the reminder creation logic",
-    "New test case added to verify the fix works correctly",
-    "Both localized (NO) and base (W1) versions of the reminder code were updated"
+    "Create Reminders no longer fails with 'There is no Reminder Line within the filter' when all overdue entries are On Hold",
+    "Reminder-Make codeunit 392 changed in both the W1 and NO layers",
+    "Test coverage for the scenario was added to ERMInvoiceandReminder"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-31T00:48:20.076Z"
+  at: "2026-11-03T00:49:14.469Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a23773f806a044c98d565a07ec1f2d26bb46fccee1f205b3a0d5b8b870ba43f6
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/Apps/W1/Subscription%20Billing/app/Profiles/SubscriptionBilling.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Apps/W1/Subscription%20Billing/app/Profiles/SubscriptionBilling.Profile.al
     title: src/Apps/W1/Subscription Billing/app/Profiles/SubscriptionBilling.Profile.al (releases/29.x)
     date: null
-    commit: 8e740e5061595dd231c4a2d9d453c86c84ec76ae
+    commit: d992339dbf106bf2412e17518329e128634f2951
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Profile "Subscription Billing" in Subscription Billing (Microsoft.SubscriptionBilling). Introduced in BC29, still in BC30.
 
-Subscription Billing · Microsoft.SubscriptionBilling · BC29-30 · [source at 8e740e50](https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/Apps/W1/Subscription%20Billing/app/Profiles/SubscriptionBilling.Profile.al) · facts from BC29
+Subscription Billing · Microsoft.SubscriptionBilling · BC29-30 · [source at d992339d](https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Apps/W1/Subscription%20Billing/app/Profiles/SubscriptionBilling.Profile.al) · facts from BC29
 
 ## Properties
 

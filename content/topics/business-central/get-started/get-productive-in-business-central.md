@@ -2,20 +2,20 @@
 id: topic/business-central/get-started/get-productive-in-business-central
 type: topic
 title: Get productive in Business Central
-summary: "Everyday use of Business Central: navigation and search (Tell Me, Role Explorer), data entry, dates, filtering, notifications, user settings, personalization, reports, document layouts, sharing, Microsoft 365 apps, accessibility, performance and Copilot. It answers how-to questions for end users."
+summary: "Everyday use of Business Central for end users: finding pages and data (Tell Me, Role Explorer, search), entering data, personalizing the UI, reports and document layouts, sharing, notifications, settings, performance and accessibility. It answers how-to questions about working productively in the client."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:20:55.378Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f686fa344edc847bde8cef2d0262b03ba343efaeb9b98a4d71db69b29546338f
+  input_hash: bddf5ef07f51551e14ed2e3879b8af59cd6c323fd924a70e5be6ed0fb42eac4c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
@@ -117,8 +117,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-mandatory-fields
-    title: Fields Required to Complete Processes
-    date: "2021-04-01"
+    title: Fields required to complete processes
+    date: "2026-10-15"
     commit: null
     t: null
     quote: null
@@ -434,28 +434,28 @@ narrative: generated
 
 # Get productive in Business Central
 
-> Everyday use of Business Central: navigation and search (Tell Me, Role Explorer), data entry, dates, filtering, notifications, user settings, personalization, reports, document layouts, sharing, Microsoft 365 apps, accessibility, performance and Copilot. It answers how-to questions for end users.
+> Everyday use of Business Central for end users: finding pages and data (Tell Me, Role Explorer, search), entering data, personalizing the UI, reports and document layouts, sharing, notifications, settings, performance and accessibility. It answers how-to questions about working productively in the client.
 
-Path: [Get started](../get-started.md) > Get productive in Business Central · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Get started](../get-started.md) > Get productive in Business Central · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section helps users work efficiently in Business Central. Its own pages cover finding things (Tell Me, Role Explorer, searching company data), entering data and dates, sorting and filtering lists, attachments and notes, notifications, error messages, switching company or environment, and changing basic user settings such as role, language, work date and time zone. It also has pages on performance, camera and location troubleshooting, Copilot, and on-premises intelligent insights.
+This section covers the daily user experience in Business Central. Its own pages explain how to find things (Tell Me, Role Explorer, Search for Specific Data, sorting, searching and filtering), how to enter data (Quick Entry, date and time formats, required-field markers), and how to handle attachments, notes, notifications, warnings and error messages. Other pages cover user settings, switching company or environment, multilanguage and localization, performance tips, the Performance Profiler, camera and location troubleshooting, and Copilot (preview).
 
-Subtopics go deeper: personalizing pages, running and printing reports, changing the look of external documents with layouts, sharing data, using Microsoft 365 apps with Business Central data, and accessibility, shortcuts and touch gestures.
+Subtopics go deeper on related tasks: Microsoft 365 apps (OneDrive, Outlook, Teams, Word, Excel), personalization, running and printing reports, changing the look of external documents through layouts, sharing business data, and accessibility with keyboard shortcuts and touch gestures.
 
-Start with Working with Business Central and Finding Pages with Tell Me for general orientation. Then go to the subtopic that matches the task, for example personalization for list layouts or the layouts subtopic for sales document appearance.
+A good starting point is Working with Business Central for general interaction patterns, then Change basic settings for the current user and Finding Pages and Information with Tell Me. Move to the subtopics when you need a specific task such as personalizing a page or changing a sales document layout.
 
 ## Key points
 
-- Tell Me finds actions, pages, reports, data and help; with Advanced Tell Me enabled it uses AI semantic search. Role Explorer shows pages and reports per role.
-- Sort, search and filter lists, reports and XMLports using modern or legacy search, filter operators and tokens such as %me and %user.
-- My Settings sets role, company, work date, region, language, time zone and notifications; companies and environments can be switched via the company switcher, app launcher, My Settings or Company Hub. Language, document language and address formats are also covered.
-- Mandatory fields show a red asterisk and block steps such as posting until filled in.
-- Attachments, links and notes are managed in the FactBox Attachments tab, including line-level attachments.
-- Notifications can be dismissed and configured with filter conditions; error messages are actionable and can be shared via Teams or email.
-- Performance Profiler records snapshots and call trees to find bottlenecks; a separate page gives end-user performance tips.
-- Copilot in Business Central (preview) answers questions with read-only access to company data, starting in version 29.
+- Tell Me finds actions, pages, reports, data and help; the Advanced tab uses AI-powered semantic search when Advanced Tell Me is enabled.
+- Role Explorer shows the pages and reports for a business role and has a semantic search preview.
+- My Settings sets role, company, work date, region, language, time zone and notifications; the company switcher, app launcher and Company Hub change company or environment.
+- Data entry aids include Quick Entry, copy and paste, keyboard navigation, line item filtering, and date formulas and period filters.
+- A red asterisk marks fields expected for a process, but it does not enforce validation or block posting.
+- Filters support operators (>, <, =, <>, |, .., &, *, ?) and tokens such as %me and %user; modern search matches words and legacy search matches exactly.
+- Attachments, links and notes are managed in the Attachments tab of the FactBox pane; error messages can be shared by Teams or email.
+- Performance Profiler records snapshots and call trees to find bottlenecks; Copilot (preview) gives read-only answers about company data from version 29; cloud insights are not available on-premises without migration.
 
 ## Subtopics
 
@@ -472,7 +472,8 @@ Start with Working with Business Central and Finding Pages with Tell Me for gene
 - [Change basic settings for the current user](https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings): Learn how to change some basic settings in Business Central, for example, your role and Role Center, company, work date, and time zones.
 - [Enter data in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-enter-data): Many general features help you enter data easier, faster, and more precisely. The basic principles and advanced features are described here.
 - [Entering dates and times in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-enter-date-ranges): Learn how to enter dates and times including various productivity tips such as shorthand, expressions, and ranges.
-- [Fields Required to Complete Processes](https://learn.microsoft.com/dynamics365/business-central/ui-mandatory-fields): Learn about fields marked with a red asterisk, which indicates that they're required and must be filled in to complete a process.
+- [Fields required to complete processes](https://learn.microsoft.com/dynamics365/business-central/ui-mandatory-fields): Learn about fields marked with a red asterisk, which indicates that they're required and must be filled in to complete a process.
+  - In the observatory: [Page 21 "Customer Card"](../../../objects/page/21.md), [Page 30 "Item Card"](../../../objects/page/30.md)
 - [Finding Pages and Information with Tell Me](https://learn.microsoft.com/dynamics365/business-central/ui-search): This article describes how to use search to find actions, pages, reports, documentation, and data, and other apps and consulting services.
 - [Finding Pages and Reports with the Role Explorer](https://learn.microsoft.com/dynamics365/business-central/ui-role-explorer): You can get an overview of all the business features that are available for your role, and for other roles, with the Role Explorer.
 - [Frequently Asked Questions about Tell Me](https://learn.microsoft.com/dynamics365/business-central/ui-search-faq): This article provides answers to questions that our partners and customers often ask about the Tell Me feature.

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13469",
+  "input_hash": "a4b8124d04824d8d12882517ea008b21c68eeaae97da81bbe4ae70a92fc40a9e",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-03T00:58:53.877Z",
+  "issues": [
+    "Everything on the page matches the description: the notification now shows only for Rec.Type::Input, and the change is UI-only."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018549,
+    "changes_in_call": 6
+  }
+}

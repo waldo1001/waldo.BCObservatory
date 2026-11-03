@@ -2,21 +2,21 @@
 id: topic/business-central/development-and-administration/administration-tasks-in-business-central
 type: topic
 title: Administration tasks in Business Central
-summary: Administration tasks in Business Central cover user access, user settings, data control, company creation, web services, job queues, indexes, printers, languages and trial handling. It answers how-to questions for administrators setting up and maintaining an environment.
+summary: Administration tasks in Business Central cover access control, user settings, data control, and day-to-day environment setup such as companies, web services, job queues, printers, languages, indexes and trial extensions. It answers how-to questions for administrators configuring and maintaining an environment.
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:01:16.922Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: cdd28abc28dbde8f8f75f868e517715c89836a6334509e3293e4c7e726b6423d
+  input_hash: 9c48d643ab2ec128305e620fb0a17d0a5baf808b855bdd950b98d09c35ce77ec
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-faq
@@ -91,7 +91,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-users-permissions
     title: Create users according to licenses
-    date: "2026-07-16"
+    date: "2026-11-02"
     commit: null
     t: null
     quote: null
@@ -174,8 +174,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-checklist
-    title: Onboard Users with Checklists
-    date: "2021-04-01"
+    title: Onboarding Checklists for Business Central Users
+    date: "2026-10-14"
     commit: null
     t: null
     quote: null
@@ -296,15 +296,13 @@ links:
     - object/page/1369
     - object/page/1565
     - object/page/1752
-    - object/page/1801
     - object/page/1803
     - object/page/1978
-    - object/page/1990
     - object/page/1992
     - object/page/1993
     - object/page/1994
     - object/page/1995
-    - object/page/1997
+    - object/page/1996
     - object/page/2610
     - object/page/2650
     - object/page/2750
@@ -399,7 +397,7 @@ children:
   - topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data
 coverage:
   learn: 34
-  code: 93
+  code: 91
   video: 0
   blog: 6
   guideline: 0
@@ -425,15 +423,13 @@ bc_forms:
   - 1369
   - 1565
   - 1752
-  - 1801
   - 1803
   - 1978
-  - 1990
   - 1992
   - 1993
   - 1994
   - 1995
-  - 1997
+  - 1996
   - 2610
   - 2650
   - 2750
@@ -507,28 +503,28 @@ narrative: generated
 
 # Administration tasks in Business Central
 
-> Administration tasks in Business Central cover user access, user settings, data control, company creation, web services, job queues, indexes, printers, languages and trial handling. It answers how-to questions for administrators setting up and maintaining an environment.
+> Administration tasks in Business Central cover access control, user settings, data control, and day-to-day environment setup such as companies, web services, job queues, printers, languages, indexes and trial extensions. It answers how-to questions for administrators configuring and maintaining an environment.
 
-Path: [Development and administration](../development-and-administration.md) > Administration tasks in Business Central · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Development and administration](../development-and-administration.md) > Administration tasks in Business Central · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects the routine and occasional work administrators do in Business Central. The overview page, "Administrative tasks in Business Central", lists core tasks such as user creation and permissions, data encryption, job scheduling, document management and integration with Dynamics 365 Sales and Dataverse. It is a good first stop.
+This section collects the tasks an administrator performs to set up and run a Business Central environment. Three subtopics go deeper: managing access (licensing, user accounts, permission sets, security groups), managing user settings and profiles, and controlling data (auditing, classification, retention, encryption, archiving, personal data requests).
 
-Three subtopics go deeper. "Manage access to Business Central" covers licensing, user accounts, permissions and security groups. "Manage user settings" covers company, role, language, region and time zone settings, plus profiles and role-based page layouts. "Control your data" covers auditing, data classification, retention, encryption, archiving and personal data requests.
+The section's own pages are task-focused. They cover creating companies with an assisted setup guide, onboarding checklists, allowed languages, text search language for multilingual environments, and default printers. Integration and technical pages cover exposing objects as OData or SOAP web services, API templates, and scheduling jobs in the job queue. Maintenance pages cover database index usage, table information, page inspection, early feature activation, and trial extension.
 
-Standalone pages handle specific jobs: creating companies with an assisted setup guide, scheduling jobs, exposing objects as web services, configuring API templates, managing database indexes, viewing table information, inspecting pages, setting default printers, allowed and search languages, onboarding checklists, early feature activation and trial extension.
+Start with "Administrative tasks in Business Central" for an overview of the core tasks. Then go to the subtopic or task page that matches your need. For performance questions, use the index usage and table information pages together.
 
 ## Key points
 
-- New companies are created with an assisted setup guide; you can copy a company, use evaluation templates with sample data, or start blank.
-- The Job Queue Entries page schedules reports and codeunits one-time or recurring, tracks status, and can notify on failures.
-- Objects can be published as OData V4 or SOAP web services (page cites version 16.3).
-- API Templates set default property values for records created through the API, assigned on the API Setup page by condition.
-- Index management works per company: view usage statistics, turn off nonessential indexes to help write performance; unique indexes and primary keys cannot be disabled.
-- The Table Information page shows record counts, data and index sizes, and compression types for troubleshooting.
-- Trials start at 30 days and can be extended once by 30 days; partners can extend again, and a subscription is required after 90 days total.
-- Feature Management lets administrators enable upcoming features early to test before mandatory activation.
+- Subtopics cover access (licensing, permission sets, security groups), user settings and profiles, and data control (auditing, masking, retention, encryption, archiving).
+- New companies are created with an assisted setup guide: copy a company, use an evaluation template with sample data, or start blank.
+- Objects can be published as OData V4 or SOAP web services; API templates set default property values for records created through the API.
+- The Job Queue Entries page schedules reports and codeunits one-time or recurring, with status tracking and failure notifications.
+- Database index usage can be managed per company: view usage and size, turn nonessential indexes off to improve write performance; unique indexes and primary keys are protected.
+- The Table Information page shows record counts, data and index sizes, and compression types for performance troubleshooting.
+- Trials last 30 days and can be extended once by another 30 days by the user; partners can extend again, and a subscription is needed after 90 days total.
+- Feature Management lets administrators enable upcoming features early; page inspection helps troubleshoot page design and data sources (2023 release wave 2).
 
 ## Subtopics
 
@@ -548,7 +544,7 @@ Standalone pages handle specific jobs: creating companies with an assisted setup
 - [Extend your trial version of Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-extend-trial): If you need more time to decide whether to subscribe to Dynamics 365 Business Central, you can extend your trial version once. Learn about your options.
 - [Inspecting pages in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-inspect-page): Use page inspection feature to view page design and data source details. Ideal for troubleshooting and understanding data in Business Central.
 - [Manage database index usage](https://learn.microsoft.com/dynamics365/business-central/manage-indexes): Learn how to manage database indexes in Business Central to optimize performance, reduce storage costs, and improve write operations with enhanced tools.
-- [Onboard Users with Checklists](https://learn.microsoft.com/dynamics365/business-central/admin-checklist): Learn how to set up checklists that help users get started in Business Central.
+- [Onboarding Checklists for Business Central Users](https://learn.microsoft.com/dynamics365/business-central/admin-checklist): Configure onboarding checklists in Business Central by selecting tasks, assigning roles or users, and setting completion requirements and task order.
 - [Privacy Notices Status in Business Central](https://learn.microsoft.com/dynamics365/business-central/privacy-notices-status): An overview of the Privacy Notices Status page in Business Central
 - [Sandbox environments](https://learn.microsoft.com/dynamics365/business-central/admin-sandbox-environments): Learn about how a dedicated environment can help you safely explore, learn, demo, develop, troubleshoot, and test Business Central.
 - [Schedule jobs to run automatically](https://learn.microsoft.com/dynamics365/business-central/admin-job-queues-schedule-tasks): Learn how to use job queue entries to run reports and codeunits.
@@ -582,14 +578,12 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 674 "Job Queue Log Entries"](../../../objects/page/674.md) · on [Table 474 "Job Queue Log Entry"](../../../objects/table/474.md)
 - [Page 810 "Web Services"](../../../objects/page/810.md) · on [Table 9900 "Web Service Aggregate"](../../../objects/table/9900.md)
 - [Page 1565 "Privacy Notices"](../../../objects/page/1565.md) · captioned "Privacy Notices Status"
-- [Page 1801 "Assisted Setup"](../../../objects/page/1801.md) · on [Table 1990 "Guided Experience Item"](../../../objects/table/1990.md)
 - [Page 1803 "Assisted Company Setup Wizard"](../../../objects/page/1803.md) · captioned "Company Setup" · on [Table 8627 "Config. Setup"](../../../objects/table/8627.md)
-- [Page 1990 "Checklist Banner"](../../../objects/page/1990.md) · on [Table 1995 "Checklist Item Buffer"](../../../objects/table/1995.md)
 - [Page 1992 "Checklist Administration"](../../../objects/page/1992.md) · on [Table 1995 "Checklist Item Buffer"](../../../objects/table/1995.md)
 - [Page 1993 "Checklist"](../../../objects/page/1993.md) · captioned "Checklist Administration" · on [Table 1995 "Checklist Item Buffer"](../../../objects/table/1995.md)
 - [Page 1994 "Checklist Item Roles"](../../../objects/page/1994.md) · on [Table 1992 "Checklist Item Role"](../../../objects/table/1992.md)
 - [Page 1995 "Checklist Item Users"](../../../objects/page/1995.md) · captioned "Checklist Users" · on [Table 1993 "Checklist Item User"](../../../objects/table/1993.md)
-- [Page 1997 "Checklist Resurfacing"](../../../objects/page/1997.md) · captioned "Show the checklist"
+- [Page 1996 "Guided Experience Item List"](../../../objects/page/1996.md) · on [Table 1990 "Guided Experience Item"](../../../objects/table/1990.md)
 - [Page 2610 "Feature Management"](../../../objects/page/2610.md)
 - [Page 2650 "Email Printer Settings"](../../../objects/page/2650.md) · on [Table 2650 "Email Printer Settings"](../../../objects/table/2650.md)
 - [Page 2750 "Universal Printer Settings"](../../../objects/page/2750.md) · on [Table 2751 "Universal Printer Settings"](../../../objects/table/2751.md)

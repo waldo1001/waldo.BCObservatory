@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-31T00:48:20.076Z"
+  at: "2026-11-03T00:49:14.469Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: cc8f231d92820f2cf7820e46bf10a7808a8e9aa4abb97cab662f15cc5be48b92
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedHelpdeskagentPartner.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedHelpdeskagentPartner.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedHelpdeskagentPartner.Entitlement.al (releases/29.x)
     date: null
-    commit: 8e740e5061595dd231c4a2d9d453c86c84ec76ae
+    commit: d992339dbf106bf2412e17518329e128634f2951
     t: null
     quote: null
 links:
@@ -83,7 +83,7 @@ relations:
 
 > Entitlement "EA - Delegated Helpdesk agent - Partner" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 8e740e50](https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedHelpdeskagentPartner.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at d992339d](https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedHelpdeskagentPartner.Entitlement.al) · facts from BC29
 
 ## Recent changes
 

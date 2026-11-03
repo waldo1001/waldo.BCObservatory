@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:45:28.210Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-03T00:54:42.695Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -79,7 +79,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573251
   topics: []
   localizations: []
   videos: []
@@ -118,25 +119,31 @@ cautions:
     t: 236
 features:
   - name: EUDR item marking on item card
-    status: unclear
+    status: announced
     t: 59
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573251"
   - name: Lot number certificate information capture
-    status: unclear
+    status: announced
     t: 99
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573251"
   - name: EUTR flag on purchase lines
     status: unclear
     t: 140
     verified: false
     status_source: video
   - name: Certification information on sales invoices
-    status: unclear
+    status: announced
     t: 171
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573251"
 objects_mentioned: []
 quotes:
   - t: 17
@@ -195,14 +202,14 @@ It walks through the item card sustainability tab, the lot number information ca
 
 ## Features
 
-Every feature below: status not stated.
+| Feature | Status | At |
+|---|---|---|
+| EUDR item marking on item card | announced (roadmap [Add EUDR certification information](../features/573251.md)) | [0:59](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=59s) |
+| Lot number certificate information capture | announced (roadmap [Add EUDR certification information](../features/573251.md)) | [1:39](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=99s) |
+| EUTR flag on purchase lines | status not stated | [2:20](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=140s) |
+| Certification information on sales invoices | announced (roadmap [Add EUDR certification information](../features/573251.md)) | [2:51](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=171s) |
 
-| Feature | At |
-|---|---|
-| EUDR item marking on item card | [0:59](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=59s) |
-| Lot number certificate information capture | [1:39](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=99s) |
-| EUTR flag on purchase lines | [2:20](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=140s) |
-| Certification information on sales invoices | [2:51](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=171s) |
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

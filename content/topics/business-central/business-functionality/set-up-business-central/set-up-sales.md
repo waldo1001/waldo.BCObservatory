@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-sales
 type: topic
 title: Set up sales
-summary: Sales setup in Business Central covers customers, pricing and discounts, salespeople, shipping, document sending, payment services, posting policies and subscription billing. It answers how to configure these before managing sales processes.
+summary: "Sales setup in Business Central: customers, pricing and discounts, salespeople, document sending, payment services, shipping, posting policies and subscription billing. It answers questions on configuring sales processes before use."
 tier: official
 language: en
 system: sales
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:01:42.101Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 86f04f9795fdddd4d1c30683e2653c81a27a2a9c3ceec32ffe2c777bfa9ed97d
+  input_hash: ef5622337dee6108a0715536479de572900ecb82a3bd6f64c925b5726c4a4e1e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-setup-invoice-posting-policy
@@ -132,7 +132,7 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-how-setup-salespeople
-    title: Set Up Salespeople and Purchasers
+    title: Set up salespeople and purchasers
     date: "2026-10-22"
     commit: null
     t: null
@@ -325,26 +325,28 @@ narrative: generated
 
 # Set up sales
 
-> Sales setup in Business Central covers customers, pricing and discounts, salespeople, shipping, document sending, payment services, posting policies and subscription billing. It answers how to configure these before managing sales processes.
+> Sales setup in Business Central: customers, pricing and discounts, salespeople, document sending, payment services, shipping, posting policies and subscription billing. It answers questions on configuring sales processes before use.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up sales · tier official · system sales · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up sales · tier official · system sales · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects the setup tasks that prepare Business Central for sales. An overview page lists the tasks: registering customers, payment service extensions, sales pricing and discounts, salesperson setup, document sending profiles and VAT verification. Other pages cover each task in detail.
-Customer-related pages cover creating Customer Cards and templates, credit limits, customer price groups and customer discount groups. Pricing pages describe price lists, line and invoice discounts and best price calculation, including the new pricing experience from 2020 release wave 2. Delivery and communication pages cover shipping agents, shipment methods, document sending profiles, emailing documents and payment service links (PayPal, WorldPay).
-Smaller policy pages cover invoice posting policies, stockout warnings and updating document dates with posting dates. The subtopic on subscription billing covers contract defaults, contract types, subscription packages, importing contracts, job queue automation and permission sets. Start with the overview page, then follow the task you need.
+This section covers the configuration tasks to complete before managing sales. It starts with an overview page listing the tasks: customer registration, payment service extensions, sales pricing and discounts, salesperson setup, document sending profiles and VAT verification.
+
+The pages fall into groups. Customer and pricing setup covers customer cards and templates, customer price groups, customer discount groups, special prices and discounts, and the general prices and discounts page, which covers the new and legacy pricing experiences. Document handling covers sending documents and emails, document sending profiles, and payment services such as PayPal and WorldPay. Logistics and control cover shipping agents, shipment methods, invoice posting policies, stockout warnings, salespeople and purchasers, and document date updates. A subtopic covers setup for subscription billing.
+
+Start with the overview page, then register customers and set up pricing. Move on to document sending and payment services once the basics are in place.
 
 ## Key points
 
-- Customer Cards can be created from templates, with credit limit control, overdue balance warnings, dimension templates and salesperson assignment by ship-to address.
-- Salespeople and purchasers are set up on the Salespeople/Purchasers page to track performance, calculate commissions and assign them to contacts, tasks and opportunities.
-- Special prices and discounts use Sales Price Lists, Sales Line Discounts, Invoice Discounts and best price calculation; the pages document both the current pricing experience and the new one introduced in 2020 release wave 2, and mention Edit in Excel.
-- Customer Price Groups and Customer Discount Groups apply prices or line discounts to groups of customers instead of one by one; discount groups combine with Item Discount Groups.
-- Document sending profiles set preferred ways to send sales documents, as a default or per customer, and work with the post and send action.
-- Documents can be emailed with PDF attachments and email templates; payment services such as PayPal and WorldPay add payment links so customers can pay from emailed documents.
-- Invoice posting policies can prohibit, allow or require posting of invoices together with shipments or receipts, for sales and purchase.
-- Shipping agents with services and tracking info enable package tracking and order promising dates; shipment methods can represent Incoterms, and a stockout warning flags sales order quantities that exceed available inventory.
+- The overview page lists the setup tasks: customer registration, payment services, pricing and discounts, salespeople, document sending profiles, VAT verification.
+- Customer cards support templates, credit limits, overdue balance warnings, dimension templates and salesperson assignment by ship-to address.
+- Pricing pages cover price lists, line and invoice discounts, best price calculation, customer price groups and customer discount groups. The new sales pricing experience came with 2020 release wave 2.
+- Payment services such as PayPal Payments Standard and WorldPay Payments Standard add payment links to emailed sales documents (2023 release wave 2).
+- Document sending profiles can be set as the default or assigned per customer. Documents can be sent by email with PDF attachments and templates.
+- Invoice posting policies can prohibit, allow or require posting invoices together with shipments or receipts.
+- Shipping agents, shipping services and shipment methods (including Incoterms) support package tracking and order promising dates.
+- Salespeople and purchasers have codes and commission percentages. A stockout warning can be turned on for sales order quantities above available inventory.
 
 ## Subtopics
 
@@ -372,8 +374,8 @@ Smaller policy pages cover invoice posting policies, stockout warnings and updat
 - [Set Up Preferred Methods of Sending Sales Documents \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/sales-how-setup-document-send-profiles): Describes how to set up each customer's preferred method of sending sales documents, for example, email, PDF, electronic document, and so on.
   - In the observatory: [Page 21 "Customer Card"](../../../../objects/page/21.md), [Page 359 "Document Sending Profiles"](../../../../objects/page/359.md)
 - [Set up prices and discounts](https://learn.microsoft.com/dynamics365/business-central/across-prices-and-discounts): Describes how to define standard and special price and discount agreements for sales and purchases.
-- [Set Up Salespeople and Purchasers](https://learn.microsoft.com/dynamics365/business-central/sales-how-setup-salespeople): Set up salesperson and purchaser codes in Business Central to assign contacts and campaigns, track performance, and record commission information.
-  - In the observatory: [Page 5116 "Salesperson/Purchaser Card"](../../../../objects/page/5116.md)
+- [Set up salespeople and purchasers](https://learn.microsoft.com/dynamics365/business-central/sales-how-setup-salespeople): Set up salesperson and purchaser codes in Business Central to assign contacts and campaigns, track performance, and record commission information.
+  - In the observatory: [Page 5116 "Salesperson/Purchaser Card"](../../../../objects/page/5116.md), [Report 115 "Salesperson - Commission"](../../../../objects/report/115.md)
 - [Set Up Shipment Methods](https://learn.microsoft.com/dynamics365/business-central/sales-how-set-up-shipment-methods): You can set up a code for each of your offered shipment methods, and enter information about them.
 - [Updating document dates with posting dates](https://learn.microsoft.com/dynamics365/business-central/across-link-doc-dates-to-posting-dates): Learn how to make sure that document dates on sales and purchase documents match their posting dates.
 

@@ -1,0 +1,25 @@
+{
+  "week": "2026-W45",
+  "input_hash": "ede1890be7971f1b5c5782c1accaf8f1ff472a1da58623e5c9de650f9b16de0e",
+  "text": "Every pull request this week except one knowledge article changes behaviour, and none is breaking. Sales Order Agent got two changes: #13495 moves its auxiliary model calls from GPT-4.1 to GPT-5.6 Ceres and lets its instructions accept the page's default availability period when no delivery date was requested, keeping those system dates out of Requested Delivery Date. #13469 stops the duplicate-contact notification from appearing on outgoing email review pages. Expense Agent got three changes. #13460 quotes and escapes G/L account filters so apostrophes and parentheses no longer break lookups. #13185 fixes itemization rounding and a missing currency code on line items. #13182 adds a View rules link below Enforce management rules in the setup wizard. Several core fixes also landed. #13417 stops posting a return order linked through Applies-to Doc. No. on a credit memo from wrongly updating original sales order line quantities. #13336 fixes Create Reminders failing when every overdue entry is on hold. #12520 makes Reverse Production Entry work when output was posted in a non-base unit of measure. For Switzerland, #13273 puts Address 1 and Address 2 together in the StrtNm node of the SEPA XML when Address 2 holds the building number for QR-Bills. In BCQuality, #253 adds a performance article on AddLoadFields for API pages.",
+  "changes": 10,
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.018255999999999998,
+  "at": "2026-11-03T00:16:51.180Z",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-03T00:59:30.066Z",
+    "verdict": "fix",
+    "issues": [
+      "The paragraph says Expense Agent got four changes, but the week has only three Expense Agent pull requests (#13460, #13185, #13182).",
+      "The paragraph says Sales Order Agent changed most, but it had two pull requests (#13495, #13469) and Expense Agent had three. Replaced with a neutral count."
+    ],
+    "input_hash": "ede1890be7971f1b5c5782c1accaf8f1ff472a1da58623e5c9de650f9b16de0e",
+    "cost_usd": 0.087528,
+    "applied": [
+      "text"
+    ],
+    "rejected_edits": []
+  }
+}

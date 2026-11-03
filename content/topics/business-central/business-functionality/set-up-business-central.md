@@ -11,7 +11,7 @@ review:
   at: "2026-10-28T11:00:24.465Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,6 +49,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/finance-automate-reminders
     title: Automate reminders in collections
     date: "2026-04-07"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/bank-setup-banking
+    title: Banking Setup in Business Central
+    date: "2026-10-14"
     commit: null
     t: null
     quote: null
@@ -117,8 +124,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-bin-contents
-    title: Create Bin Contents
-    date: "2021-04-01"
+    title: Create bin contents
+    date: "2026-10-15"
     commit: null
     t: null
     quote: null
@@ -182,6 +189,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/sales-how-enable-payment-service-extensions
     title: Enable customer payments with payment services
     date: "2026-03-11"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/finance-setup-finance-charges
+    title: Finance Charge Terms Setup in Business Central
+    date: "2026-10-14"
     commit: null
     t: null
     quote: null
@@ -280,20 +294,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/sales-how-to-set-up-shipping-agents
     title: How to Set Up Shipping Agents
     date: "2021-06-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/inventory-how-to-set-up-stockkeeping-units
-    title: How to set up stockkeeping units
-    date: "2026-06-05"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/service-how-setup-work-service-hours
-    title: How to set up work hours and service hours
-    date: "2025-10-03"
     commit: null
     t: null
     quote: null
@@ -404,6 +404,7 @@ links:
     - object/page/431
     - object/page/432
     - object/page/436
+    - object/page/445
     - object/page/456
     - object/page/457
     - object/page/458
@@ -416,6 +417,7 @@ links:
     - object/page/471
     - object/page/472
     - object/page/473
+    - object/page/477
     - object/page/478
     - object/page/483
     - object/page/488
@@ -746,7 +748,7 @@ children:
   - topic/business-central/business-functionality/set-up-business-central/import-data
 coverage:
   learn: 165
-  code: 390
+  code: 392
   video: 0
   blog: 0
   guideline: 0
@@ -852,6 +854,7 @@ bc_forms:
   - 431
   - 432
   - 436
+  - 445
   - 456
   - 457
   - 458
@@ -864,6 +867,7 @@ bc_forms:
   - 471
   - 472
   - 473
+  - 477
   - 478
   - 483
   - 488
@@ -1334,12 +1338,14 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 431 "Reminder Terms"](../../../objects/page/431.md) · on [Table 292 "Reminder Terms"](../../../objects/table/292.md) · via [Set up finance](set-up-business-central/set-up-finance.md)
 - [Page 432 "Reminder Levels"](../../../objects/page/432.md) · on [Table 293 "Reminder Level"](../../../objects/table/293.md) · via [Set up finance](set-up-business-central/set-up-finance.md)
 - [Page 436 "Reminder List"](../../../objects/page/436.md) · captioned "Reminders" · on [Table 295 "Reminder Header"](../../../objects/table/295.md) · via [Set up finance](set-up-business-central/set-up-finance.md)
+- [Page 445 "Finance Charge Text"](../../../objects/page/445.md) · on [Table 301 "Finance Charge Text"](../../../objects/table/301.md) · via [Set up finance](set-up-business-central/set-up-finance.md)
 - [Page 462 "Resources Setup"](../../../objects/page/462.md) · on [Table 314 "Resources Setup"](../../../objects/table/314.md) · via [Set up project management](set-up-business-central/set-up-project-management.md)
 - [Page 463 "Jobs Setup"](../../../objects/page/463.md) · captioned "Projects Setup" · on [Table 315 "Jobs Setup"](../../../objects/table/315.md) · via [Set up project management](set-up-business-central/set-up-project-management.md)
 - [Page 470 "VAT Business Posting Groups"](../../../objects/page/470.md) · on [Table 323 "VAT Business Posting Group"](../../../objects/table/323.md) · via [Set up finance](set-up-business-central/set-up-finance.md)
 - [Page 471 "VAT Product Posting Groups"](../../../objects/page/471.md) · on [Table 324 "VAT Product Posting Group"](../../../objects/table/324.md) · via [Set up finance](set-up-business-central/set-up-finance.md)
 - [Page 472 "VAT Posting Setup"](../../../objects/page/472.md) · on [Table 325 "VAT Posting Setup"](../../../objects/table/325.md) · via [Set up finance](set-up-business-central/set-up-finance.md)
 - [Page 473 "VAT Posting Setup Card"](../../../objects/page/473.md) · on [Table 325 "VAT Posting Setup"](../../../objects/table/325.md) · via [Set up finance](set-up-business-central/set-up-finance.md)
+- [Page 477 "Currencies for Fin. Chrg Terms"](../../../objects/page/477.md) · on [Table 328 "Currency for Fin. Charge Terms"](../../../objects/table/328.md) · via [Set up finance](set-up-business-central/set-up-finance.md)
 - [Page 478 "Currencies for Reminder Level"](../../../objects/page/478.md) · on [Table 329 "Currency for Reminder Level"](../../../objects/table/329.md) · via [Set up finance](set-up-business-central/set-up-finance.md)
 - [Page 483 "Currency Exchange Rates"](../../../objects/page/483.md) · on [Table 330 "Currency Exchange Rate"](../../../objects/table/330.md) · via [Set up finance](set-up-business-central/set-up-finance.md)
 - [Page 489 "Column Layout"](../../../objects/page/489.md) · captioned "(Financial Report) Column Definitions" · on [Table 334 "Column Layout"](../../../objects/table/334.md) · via [Set up finance](set-up-business-central/set-up-finance.md)

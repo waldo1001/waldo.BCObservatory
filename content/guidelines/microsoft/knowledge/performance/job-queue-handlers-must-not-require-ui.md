@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-31T00:15:35.028Z"
+  at: "2026-11-03T00:16:51.180Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 598727039d5b0f2b4b00f6db1bf2105ee1fb1e9d
@@ -28,7 +28,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/job-queue-handlers-must-not-require-ui.md
     title: "microsoft/BCQuality: Job queue handlers must not require user interaction"
     date: "2026-09-15"
-    commit: a56b272c6b950c2a423bbeda190585cd53beca2a
+    commit: 933d4e311275b9effa2b96a170bee7ab8746fe94
     t: null
     quote: null
 links:
@@ -101,4 +101,4 @@ See sample: [`job-queue-handlers-must-not-require-ui.bad.al`](https://github.com
 
 ---
 
-From microsoft/BCQuality at a56b272, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 933d4e3, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

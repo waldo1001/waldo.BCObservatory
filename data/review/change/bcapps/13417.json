@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/13417",
+  "input_hash": "3476987df28e06a03418df34bba28000af369343f7685bd59a38171e4b20a0b7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-03T00:58:53.877Z",
+  "issues": [
+    "The summary says it 'corrected sales order line quantities', which suggests existing data is repaired. The change stops the wrong update from happening when posting.",
+    "The scenario in the title is a return order linked to a posted sales invoice through Applies-to Doc. No. on a credit memo. The summary's wording 'applies-to credit memos' does not describe this clearly."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018549,
+    "changes_in_call": 6
+  }
+}

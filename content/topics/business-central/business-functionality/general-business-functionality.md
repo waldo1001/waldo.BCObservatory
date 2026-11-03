@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:15:07.205Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -215,8 +215,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-post-documents-journals
-    title: Posting Documents and Journals
-    date: "2021-06-24"
+    title: Posting documents and journals
+    date: "2026-10-15"
     commit: null
     t: null
     quote: null
@@ -670,7 +670,7 @@ This area collects cross-area features that are not tied to one module. Own page
   - In the observatory: [Page 982 "Payment Registration Setup"](../../../objects/page/982.md)
 - [Post multiple documents at the same time](https://learn.microsoft.com/dynamics365/business-central/ui-batch-posting): Learn how to select multiple nonposted documents in a list for immediate or scheduled batch posting in Business Central.
   - In the observatory: [Page 459 "Sales & Receivables Setup"](../../../objects/page/459.md), [Page 56 "Purchase Orders"](../../../objects/page/56.md), [Page 672 "Job Queue Entries"](../../../objects/page/672.md), [Page 709 "Error Message Register"](../../../objects/page/709.md), [Report 296 "Batch Post Sales Orders"](../../../objects/report/296.md), [Report 297 "Batch Post Sales Invoices"](../../../objects/report/297.md)
-- [Posting Documents and Journals](https://learn.microsoft.com/dynamics365/business-central/ui-post-documents-journals): This topic outlines posting actions and the ways you can post documents and journals in the various company ledgers.
+- [Posting documents and journals](https://learn.microsoft.com/dynamics365/business-central/ui-post-documents-journals): This topic outlines posting actions and the ways you can post documents and journals in the various company ledgers.
 - [Preview Entries Before You Post a Document or Journal](https://learn.microsoft.com/dynamics365/business-central/ui-how-preview-post-results): You can make sure that entries for documents and journals are accurate before you post them to the general ledger.
   - In the observatory: [Page 122 "G/L Entries Preview"](../../../objects/page/122.md), [Page 9308 "Purchase Invoices"](../../../objects/page/9308.md)
 - [Schedule jobs to run automatically](https://learn.microsoft.com/dynamics365/business-central/admin-job-queues-schedule-tasks): Learn how to use job queue entries to run reports and codeunits.

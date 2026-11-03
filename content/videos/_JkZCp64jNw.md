@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:57:33.406Z"
   flags: []
 generated:
-  at: "2026-10-26T06:21:45.768Z"
+  at: "2026-11-03T00:54:42.695Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -246,7 +246,10 @@ links:
   learn: []
   objects:
     - object/page/21
-  features: []
+  features:
+    - feature/573328
+    - feature/573380
+    - feature/576815
   topics: []
   localizations: []
   videos: []
@@ -378,10 +381,12 @@ features:
     verified: true
     status_source: video
   - name: Payables Agent
-    status: preview
+    status: ga
     t: 745
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573380"
   - name: E-Document Connector
     status: unclear
     t: 898
@@ -518,10 +523,12 @@ features:
     verified: false
     status_source: video
   - name: Unified Extensions Management in Admin Center
-    status: unclear
+    status: ga
     t: 2050
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576815"
   - name: Tenant Discovery Endpoint
     status: unclear
     t: 2107
@@ -533,10 +540,12 @@ features:
     verified: false
     status_source: video
   - name: Word-Based Report Customization Add-on
-    status: unclear
+    status: ga
     t: 2251
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573328"
   - name: Iterative Inventory Cost Adjustments
     status: unclear
     t: 2343
@@ -795,7 +804,7 @@ It then goes through application features (Copilot autofill and summarize, susta
 | Sales Order Agent Auto-Create Customer | status not stated | [10:36](https://www.youtube.com/watch?v=_JkZCp64jNw&t=636s) |  |
 | Sales Order Agent PDF Preview | status not stated | [10:52](https://www.youtube.com/watch?v=_JkZCp64jNw&t=652s) |  |
 | Agent Billing Capability | preview | [11:04](https://www.youtube.com/watch?v=_JkZCp64jNw&t=664s) | "this is something new which is entering into the world of business central is a is a agent billing capability while in private preview" ([11:04](https://www.youtube.com/watch?v=_JkZCp64jNw&t=664s)) |
-| Payables Agent | preview, demoed | [12:25](https://www.youtube.com/watch?v=_JkZCp64jNw&t=745s) | "So that's uh coming in business central right now. If we talk about coming uh in business central it's in private preview" ([14:58](https://www.youtube.com/watch?v=_JkZCp64jNw&t=898s)) |
+| Payables Agent | generally available (roadmap [Improve purchase order matching in Payables Agent](../features/573380.md)), demoed | [12:25](https://www.youtube.com/watch?v=_JkZCp64jNw&t=745s) | "So that's uh coming in business central right now. If we talk about coming uh in business central it's in private preview" ([14:58](https://www.youtube.com/watch?v=_JkZCp64jNw&t=898s)) |
 | E-Document Connector | status not stated | [14:58](https://www.youtube.com/watch?v=_JkZCp64jNw&t=898s) |  |
 | Purchase Document Draft Page | status not stated | [15:18](https://www.youtube.com/watch?v=_JkZCp64jNw&t=918s) |  |
 | Payables Agent Public Preview | announced | [15:34](https://www.youtube.com/watch?v=_JkZCp64jNw&t=934s) | "Later this year, you're going to see a public preview of that agent being able to process these invoices" ([15:34](https://www.youtube.com/watch?v=_JkZCp64jNw&t=934s)) |
@@ -823,10 +832,10 @@ It then goes through application features (Copilot autofill and summarize, susta
 | Business Central URL | status not stated | [4:42](https://www.youtube.com/watch?v=_JkZCp64jNw&t=282s) |  |
 | Flexible Update Management | status not stated, demoed | [32:39](https://www.youtube.com/watch?v=_JkZCp64jNw&t=1959s) |  |
 | Create New Environments from Any Available Version | status not stated, demoed | [33:22](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2002s) |  |
-| Unified Extensions Management in Admin Center | status not stated, demoed | [34:10](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2050s) |  |
+| Unified Extensions Management in Admin Center | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [34:10](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2050s) |  |
 | Tenant Discovery Endpoint | status not stated, demoed | [35:07](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2107s) |  |
 | Customer-Managed Encryption Keys | status not stated | [36:55](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2215s) |  |
-| Word-Based Report Customization Add-on | status not stated, demoed | [37:31](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2251s) |  |
+| Word-Based Report Customization Add-on | generally available (roadmap [Design document reports with the updated Word add-in](../features/573328.md)), demoed | [37:31](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2251s) |  |
 | Iterative Inventory Cost Adjustments | status not stated | [39:03](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2343s) |  |
 | Cost Adjustment Self-Diagnostics and Insights | status not stated | [40:23](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2423s) |  |
 | Moving Fields and Tables Between Extensions | status not stated | [40:53](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2453s) |  |
@@ -844,6 +853,8 @@ It then goes through application features (Copilot autofill and summarize, susta
 | Service Startup and Scaling Improvements | status not stated | [49:27](https://www.youtube.com/watch?v=_JkZCp64jNw&t=2967s) |  |
 | AL-Go for GitHub Build Optimization | status not stated | [50:46](https://www.youtube.com/watch?v=_JkZCp64jNw&t=3046s) |  |
 | Page Scripting Tests in AL-Go | status not stated | [51:10](https://www.youtube.com/watch?v=_JkZCp64jNw&t=3070s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

@@ -2,20 +2,20 @@
 id: topic/dev-itpro/security-privacy-and-compliance/security
 type: topic
 title: Security
-summary: Security for Business Central covers online security practices (MFA, encryption, conditional access, audit), persona-based guidance, record-level security filters, network restriction with service tags, and a security FAQ. Subtopics cover application security (users, licenses, permission sets) and on-premises hardening.
+summary: Security in Business Central covers authentication (MFA, Conditional Access), data protection, network access control, record-level security filters, and guidance by persona for online deployments. It has subtopics for application security and on-premises security. It answers how to secure, restrict and audit access to Business Central.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:54:36.582Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 3851abc7a06af159df173afae34a318bd97b189211ab3ba7996d100ebd7aeb75
+  input_hash: c415884757dbf056b691c5e406a647d71e92a2be8e0ca65ae13dfbd79af5b912
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection
@@ -27,7 +27,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-users-permissions
     title: Create users according to licenses
-    date: "2026-07-16"
+    date: "2026-11-02"
     commit: null
     t: null
     quote: null
@@ -203,28 +203,28 @@ narrative: generated
 
 # Security
 
-> Security for Business Central covers online security practices (MFA, encryption, conditional access, audit), persona-based guidance, record-level security filters, network restriction with service tags, and a security FAQ. Subtopics cover application security (users, licenses, permission sets) and on-premises hardening.
+> Security in Business Central covers authentication (MFA, Conditional Access), data protection, network access control, record-level security filters, and guidance by persona for online deployments. It has subtopics for application security and on-premises security. It answers how to secure, restrict and audit access to Business Central.
 
-Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Security · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Security · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section explains how to secure Business Central. The page "Security in Business Central" is the main entry point for online deployments. It covers authentication, access control, data protection and compliance, including MFA, Microsoft Entra ID Conditional Access, encryption at rest (TDE), customer-managed encryption keys, Customer Lockbox and approval workflows.
+This section explains how to secure Business Central, mainly for online deployments. The core page, Security in Business Central, gives best practices for authentication, access control, data protection and compliance, including MFA, Conditional Access, encryption at rest (TDE), customer-managed keys, Customer Lockbox, and approval workflows. The Security FAQ answers common questions on data isolation, penetration testing, cipher support and incident management.
 
-Other pages go deeper on single topics. The MFA page describes verification by phone call, text message, mobile notification or one-time password. "Using Security Filters" explains record-level access limits through permission sets and the SecurityFiltering property. "Use Azure security service tags" shows how to control network traffic with the Dynamics365BusinessCentral service tag. The FAQ answers questions on data isolation, penetration testing, cipher support and incident management.
+Other pages go deeper on specific tasks. The MFA page covers Microsoft Entra ID verification methods. The service tags page shows how to restrict network traffic with the Dynamics365BusinessCentral tag. The security filters page describes record-level limits through permission sets and SecurityFiltering modes. The persona guide gives recommendations for partners, administrators, developers and auditors, and the business user tips cover separation of duties, out-of-band verification and shared devices.
 
-Guidance is also organized by audience. The persona guide targets partners, administrators, developers and auditors. The business user tips cover separation of duties, approval workflows, out-of-band verification, and kiosk and shared device practices. The Application security subtopic covers the layered security model, users, licenses and permission sets. The On-premises subtopic covers server, database and network hardening.
+Start with Security in Business Central for the overview, then use the persona guide to find the topics for your role. Two subtopics extend the section: Application security (layered model, users and licenses, AL permission sets) and On-premises (server hardening, SSL/HTTPS, certificates, database encryption, SQL Server permissions).
 
 ## Key points
 
-- Start with "Security in Business Central" for online best practices: MFA, Conditional Access, TDE, customer-managed keys, Customer Lockbox, approval workflows.
-- MFA through Microsoft Entra ID supports phone call, text message, mobile app notification and one-time password, with conditional access policies.
-- Security filters limit table data at record level, created via permission sets, with SecurityFiltering modes for filtered, validated, ignored or disallowed access.
-- The Dynamics365BusinessCentral Azure service tag restricts network access to and from Business Central through firewall and network security group rules.
-- The persona guide covers Privileged Identity Management, GDAP group-based access, Federated Identity Credentials, certificate-based authentication, Azure Key Vault and Conditional Access.
-- Business user tips: separation of duties, approval workflows, out-of-band verification, kiosk sign-out and private browsing.
-- The FAQ covers data isolation, penetration testing, RSA-CBC cipher support and security incident management.
-- Application security subtopic: layered model, users by license, AL permission sets (read, insert, modify, delete, execute). On-premises subtopic: SSL/HTTPS, X.509 certificates, TDE, BitLocker, SQL Server permissions.
+- MFA uses Microsoft Entra ID with phone call, text message, mobile app notification and one-time password, and supports conditional access policies.
+- Security in Business Central covers MFA, Conditional Access, TDE encryption at rest, customer-managed encryption keys, Customer Lockbox, and approval workflows.
+- The Dynamics365BusinessCentral Azure service tag controls firewall and network security group rules for traffic to Business Central environments.
+- Security filters limit table data at record level through permission sets, with SecurityFiltering modes: filtered, validated, ignored or disallowed.
+- The persona guide covers Privileged Identity Management, GDAP, Federated Identity Credentials, certificate-based authentication, and Azure Key Vault.
+- Business user tips cover separation of duties, approval workflows, out-of-band verification, kiosk sign-out and private browsing.
+- The Security FAQ addresses data isolation, penetration testing, RSA-CBC cipher support and security incident management.
+- Subtopics: Application security (3 pages) for permissions and licenses, and On-premises (6 pages) for server, SSL, certificates, database encryption and SQL permissions.
 
 ## Subtopics
 

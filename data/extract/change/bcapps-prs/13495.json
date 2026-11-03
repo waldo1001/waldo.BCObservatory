@@ -6,13 +6,13 @@
   "systems_joined": [
     "copilot"
   ],
-  "summary": "Sales Order Agent upgrades auxiliary model calls from GPT-4.1 to GPT-5.6 Ceres and refines item-search date-filter handling to better use system-generated availability dates when no customer delivery date applies.",
+  "summary": "Sales Order Agent now uses GPT-5.6 Ceres instead of GPT-4.1 for its auxiliary model calls. Its instructions now accept the page's default availability period when no applicable delivery date was requested, and keep those system-generated dates out of the quote's Requested Delivery Date.",
   "key_points": [
-    "Migrate message and attachment relevance checks, email-template validation, and signature insertion to use GPT-5.6 Ceres instead of GPT-4.1",
-    "Simplify item-search date-filter logic to accept page default availability period when no delivery date is requested or dates are in the past",
-    "Prevent system-generated availability dates from appearing in customer-requested delivery dates",
-    "Clear date filters once and accept resulting defaults instead of repeatedly rechecking",
-    "Model results may differ with GPT-5.6 Ceres requiring evaluation and validation of various date scenarios"
+    "Message and attachment relevance checks, email-template validation and signature insertion now call GetGPT56CeresLatest() instead of GetGPT41Latest()",
+    "The agent instructions prompt now accepts the page's default availability period when no delivery date is requested or all requested dates are in the past",
+    "A previous item's requested-date filter is cleared once, and the resulting default is accepted without rechecking",
+    "System-generated availability dates stay out of the quote's Requested Delivery Date; explicit, non-past customer dates are still used as filters",
+    "Results may differ with the new model and need evaluation; the environment must support the GPT-5.6 Ceres deployment"
   ],
   "change_kind": "feature",
   "behavior_change": true,

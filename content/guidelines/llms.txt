@@ -3,13 +3,14 @@
 > Microsoft's BCQuality knowledge base for AL (microsoft/BCQuality, MIT): each rule and review skill as a page with its own text,
 > its good and bad examples, the objects and Learn pages it names and the pull requests that changed it. Frontmatter: schemas/frontmatter.guideline.json.
 
-459 rules and review skills, by domain.
+460 rules and review skills, by domain.
 
 ## performance
 
 - [A FlowField needs a source-table key that covers its CalcFormula](microsoft/knowledge/performance/flowfield-source-key-needs-sumindexfields.md): A FlowField is computed by SQL on demand. (microsoft)
 - [A page or lookup's effective filter may be defined outside the changed hunk](microsoft/knowledge/performance/page-effective-filter-may-live-outside-the-diff.md): The effective filter on a drill-down, lookup, or list result set is frequently defined outside any single changed hunk — on the table via a SourceTableView property or a TableRelation, or through SetRange/SetFilter calls in unchanged code that runs before the result is shown. (microsoft)
 - [A primary-key Get() in a per-row helper is not an N+1 to cache manually](microsoft/knowledge/performance/primary-key-get-in-loop-is-transaction-cached.md): The Business Central server caches primary-key reads within a transaction. (microsoft)
+- [Add trigger-only fields to API pages with AddLoadFields in OnOpenPage](microsoft/knowledge/performance/addloadfields-for-trigger-only-fields-on-api-pages.md): API and OData pages load only the fields bound to page controls, so a field read only in trigger code triggers JIT loads. (microsoft)
 - [Add trigger-only report fields in OnPreDataItem](microsoft/knowledge/performance/addloadfields-in-report-onpredataitem.md): Report dataitem field selection is calculated at compile time and once per dataitem type during execution. (microsoft)
 - [Admin and migration pages tolerate lower performance discipline](microsoft/knowledge/performance/admin-and-migration-pages-tolerate-lower-perf.md): Some pages run rarely and against small datasets, and the upstream guidance explicitly calls for treating them as lower severity. (microsoft)
 - [Aggregate source rows before persisting completed results](microsoft/knowledge/performance/aggregate-before-persisting-intermediate-results.md): A batch may repeatedly calculate the same group total while inserting and updating persistent working rows, even though only one completed result per group is needed. (microsoft)

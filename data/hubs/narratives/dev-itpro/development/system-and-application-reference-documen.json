@@ -1,34 +1,24 @@
 {
   "hub_id": "topic/dev-itpro/development/system-and-application-reference-documen",
-  "input_hash": "94eca4ac53658c06558aaf00c06945325ececf43507e55c46ced4886b7f63f87",
-  "summary": "System and application reference documentation describes how the Business Central application is organized into modular layers, and how contributors build on the System Application. It answers questions about the System Application and Business Foundation layers and about creating or changing modules.",
-  "overview": "The Business Central application is being refactored into smaller modular layers to improve code organization and maintainability. Two layers are named: the System Application, which holds ERP agnostic functionality, and Business Foundation, which holds ERP related functionality.\n\nThe section has one overview page that explains this layer structure, and one subtopic, Creating new modules, with six pages for contributors to the System Application. That subtopic covers environment setup, module architecture, building new modules, changing existing ones, and writing .NET wrapper modules.\n\nStart with the overview page to understand where functionality sits, then move to Creating new modules if you plan to contribute or need the design rules.",
+  "input_hash": "6b7d5e6e482a5ff28386b57aa661ee839a7079cd345b32c47554cbfc32051f11",
+  "summary": "System and application reference documentation describes how the Business Central application is split into modular layers, mainly System Application (ERP agnostic) and Business Foundation (ERP related). It answers questions about the layered architecture and how to create or contribute System Application modules in the BCApps repository.",
+  "overview": "This section explains how the Business Central application is organized. The application is being refactored into smaller modular layers to improve code organization and maintainability. The System Application layer holds ERP agnostic functionality, and the Business Foundation layer holds ERP related functionality.\n\nThe overview page gives the architectural picture and is the place to start. The Creating new modules subtopic (6 pages) builds on it with practical guidance for developers who want to add or change System Application modules in the BCApps repository.\n\nThat subtopic covers environment setup, module architecture, facade and implementation codeunits, .NET wrapper modules, tests, and the pull request workflow.",
   "key_points": [
-    "The application is being split into smaller modular layers for better code organization and maintainability.",
-    "System Application layer: ERP agnostic functionality.",
-    "Business Foundation layer: ERP related functionality.",
-    "Creating new modules has 6 pages aimed at System Application contributors.",
-    "Contributor topics: environment setup, module architecture, building new modules, changing existing modules.",
-    "The contributor guidance also covers writing .NET wrapper modules and design rules."
+    "The application is being refactored into smaller modular layers for better code organization and maintainability.",
+    "System Application contains ERP agnostic functionality.",
+    "Business Foundation contains ERP related functionality.",
+    "Start with the Overview of the application page for the layer concepts.",
+    "Creating new modules explains how to create, change, and contribute System Application modules in the BCApps repository.",
+    "Module guidance includes facade and implementation codeunits and .NET wrapper modules.",
+    "The contribution guidance covers environment setup, tests, and the pull request workflow."
   ],
   "members_used": 1,
   "subtopics_used": 1,
   "prompt_version": 1,
-  "at": "2026-10-28T10:59:33.502Z",
+  "at": "2026-11-03T01:01:50.189Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.007783
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-28T11:02:41.014Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the source says the layers 'include' System Application and Business Foundation. The wording 'Two layers are named' is accurate, but it should not be read as meaning these are the only layers."
-    ],
-    "input_hash": "94eca4ac53658c06558aaf00c06945325ececf43507e55c46ced4886b7f63f87",
-    "cost_usd": 0.0162992
+    "cost_usd": 0.008242999999999999
   }
 }

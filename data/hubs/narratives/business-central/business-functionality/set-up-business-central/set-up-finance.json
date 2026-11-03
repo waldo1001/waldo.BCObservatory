@@ -1,38 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/set-up-business-central/set-up-finance",
-  "input_hash": "9e29abe43ea33690912330551040bdf435b06c08973ea2bee97bca83168dfb64",
-  "summary": "Set up finance covers the core accounting configuration in Business Central: chart of accounts, posting groups, currencies, payment terms and methods, VAT and other taxes, reminders and finance charges, fiscal periods, and financial reports. It answers how-to setup questions for each area.",
-  "overview": "This section is a set of setup articles for the finance side of Business Central. It has no subtopics, so every page sits at one level. \"Set up financial processes\" is the entry page: it holds a table of finance setup tasks and links to the related articles.\n\nThe other pages group into several areas. Core structure: chart of accounts, posting groups, accounting periods and fiscal years, audit trail codes, allocation keys, and financial reports built from row and column definitions. Currencies: additional reporting currency, exchange rate updates, applying entries in different currencies, and invoice rounding. Receivables and payables: payment terms, payment methods, payment tolerance, cash customers, reminders, finance charge terms, multiple interest rates, and automated reminders. Taxes and compliance: VAT, unrealized VAT, withholding tax, excise tax, Intrastat, and VAT registration number validation. Cash flow analysis is covered on its own page.\n\nStart with \"Set up financial processes\" to find the task you need. Several other pages refer to G/L accounts or posting groups, such as VAT posting groups, the invoice rounding account, and currency rounding accounts, so the chart of accounts and posting group pages are a useful place to begin.",
+  "input_hash": "77531b563836659def20fdb21b1928cf0203022fb1f1dc319fba20d6d2cf7e74",
+  "summary": "Set up finance covers the core accounting configuration in Business Central: chart of accounts, posting groups, currencies, payment terms and methods, VAT and other taxes, collections (reminders, finance charges), fiscal periods, and financial reports. It answers how-to-configure questions for each of these areas.",
+  "overview": "This section is a set of setup articles for the finance side of Business Central. It has no subtopics. The page \"Set up financial processes\" is the entry point: it lists finance setup tasks in a table and links to the related articles.\n\nThe other pages group into several areas. Core ledger setup includes the chart of accounts, posting groups, accounting periods and fiscal years, audit trail codes, allocation keys in general journals, and invoice rounding. Currency pages cover additional reporting currency, exchange rate updates, and applying entries in different currencies. Customer and vendor terms cover payment terms, payment methods, payment tolerances, and cash customers.\n\nTax and compliance pages cover VAT, unrealized VAT, withholding tax, excise tax, Intrastat, and VAT registration number validation. Collections pages cover reminder terms and levels, finance charge terms, multiple interest rates, and automated reminders. Reporting pages cover financial reports built from account categories and cash flow analysis. Start with the overview page, then set up the chart of accounts and posting groups before the other areas.",
   "key_points": [
-    "Start with 'Set up financial processes', a table of finance setup tasks with links to related articles.",
-    "Posting groups (general, specific, tax, alternative, multiple) map entities to G/L accounts; the chart of accounts page covers account types, totaling, deletion controls, and indentation.",
-    "Financial reports use row definitions, column definitions, G/L account categories, dimensions, and G/L budgets.",
-    "Currency topics: additional reporting currency, exchange rate updates (manual or automatic via a rate service), applying entries across currencies, and invoice rounding.",
-    "Collections setup: payment terms, payment methods, payment tolerance, reminder terms and levels, finance charge terms, multiple interest rates, and automated reminders through job queue entries.",
-    "Tax setup: VAT (version 23.1 noted), unrealized VAT, withholding tax, excise tax (version 29 noted), and Intrastat (2022 release wave 2 noted).",
-    "VAT registration numbers can be validated through the EU VAT Reg. No. Validation Service, which uses VIES.",
-    "Accounting periods and fiscal years control period closing and posting date limits; cash flow analysis sets up charts and forecasts."
+    "Start with 'Set up financial processes', which tabulates finance setup tasks and links to related articles.",
+    "Chart of accounts and posting groups (general, specific, tax, alternative, multiple) map entities to G/L accounts.",
+    "Currency topics: additional reporting currency (ACY), exchange rate updates (manual or via a rate service), and applying entries across currencies.",
+    "Payment setup includes payment terms (date formulas, discounts), payment methods, payment tolerance and payment discount tolerance, and invoice rounding.",
+    "Tax setup covers VAT (version 23.1 noted), unrealized VAT, withholding tax, excise tax (version 29 noted), and Intrastat (2022 release wave 2 noted).",
+    "VAT registration numbers can be validated with the EU VAT Reg. No. Validation Service, which uses VIES.",
+    "Collections: reminder terms and levels, finance charge terms, multiple interest rates, and job-queue-based automated reminders.",
+    "Financial reports use row and column definitions with G/L account categories (2025 release wave 1); cash flow analysis and accounting periods and fiscal years are also covered."
   ],
   "members_used": 26,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-28T10:59:09.064Z",
+  "at": "2026-11-03T01:01:40.150Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.027903
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-28T11:01:39.433Z",
-    "verdict": "fix",
-    "issues": [
-      "Overview's last paragraph says tax, currency, and collection pages 'depend on' the chart of accounts and posting groups. No page summary says this. Rewrote it so it cites only links the summaries support (VAT posting groups, invoice rounding account, currency rounding accounts).",
-      "Key point 2 says the chart of accounts and posting groups both map entities to G/L accounts; the source says only posting groups do that. Split it so the chart of accounts is described by what its page covers.",
-      "Minor: the 'version noted' wording for VAT, excise tax, and Intrastat is supported but tells an agent little. The financial reports page's 2025 release wave 1 note is left out. Not wrong, so left unchanged."
-    ],
-    "input_hash": "9e29abe43ea33690912330551040bdf435b06c08973ea2bee97bca83168dfb64",
-    "cost_usd": 0.0935272
+    "cost_usd": 0.027915
   }
 }

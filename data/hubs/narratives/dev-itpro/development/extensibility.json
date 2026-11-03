@@ -1,38 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/development/extensibility",
-  "input_hash": "76dc86c94c10142537d09cbd51d314ddd26d70472d7a211c635ef6014d1c4e1d",
-  "summary": "Extensibility in Business Central AL development: how extensions change application behavior without modifying base code, using extension objects, events, client add-ins, and Power BI embedding. It also covers requesting changes from Microsoft and contributing to System Application modules.",
-  "overview": "Extensibility is the starting point for AL developers who want to add to or change Business Central. The overview page lists the main ways to do it: code flow through events, table fields, page layout, reports, permission sets, enumerations, and application areas. It also mentions contributing to open-source System Application modules.\n\nThe subtopics go deeper on each approach. \"Extending AL objects\" and the Extension objects overview explain table, page, report, enum and permission set extensions. \"Using events\" covers publishing, raising and subscribing to events, and \"Extending the base application\" has further material (15 pages). \"Extensibility requests\" explains how to ask Microsoft for changes, including new events and the IsHandled pattern, through the BCApps repository. \"Get started with modules\" covers the setup needed to build or change System Application modules.\n\nTwo specialized areas sit alongside these: \"Developing client add-ins\" (performance and styling best practices) and \"Embedding Power BI\" (embedding reports, scorecards and dashboards in pages). Start with the Extensibility overview, then the extension objects overview, then events.",
+  "input_hash": "c8f43bddbe4896aac5319c031a0ad98094a5842ee45695b1763ea69106d5906e",
+  "summary": "Extensibility in Business Central AL development: how extensions add to or change existing objects without modifying base code. It answers questions on extension objects, events, extensibility requests, base application extension, client add-ins, Power BI embedding, and getting started with System Application modules.",
+  "overview": "Extensibility is the section for AL developers who want to change or add to Business Central behavior without editing base code. The overview page lists what can be extended: tables, pages, reports, code flows, enumerations, application areas, and the security model. It includes examples such as item charges, pricing, data archiving, and document sharing.\nThe pages fit together by technique. Extension objects (table, page, report, enum and permission set extensions) add fields, actions, layout and values. Events let you change behavior in code flows. The base application subtopic covers extending specific areas. Client add-ins and Power BI embedding cover UI-level additions. When an extension point is missing, the extensibility requests pages explain how to ask for it or contribute it through the BCApps repository.\nStart with the Extensibility overview, then the Extension objects overview, then Using events. If you plan to work on System Application modules, read Get started with modules for the requirements: AL development, Git, environment setup, and creating or modifying modules.",
   "key_points": [
-    "Extension objects (table, page, report, enum, permission set extensions) add fields, actions and layout to existing objects without changing base code.",
-    "Events let you extend code flow; the section covers event types, publishing, raising, subscribing and isolated events.",
-    "Event Recorder helps discover events, and external business events can be deprecated.",
-    "Extensibility requests go through the BCApps repository, with guidelines for new events and the IsHandled pattern; you can also contribute a change directly.",
-    "Get started with modules covers AL, Git and environment setup for building or modifying System Application modules.",
-    "Client add-in guidance covers performance (AL trigger calls, payload size, throttling) and styling (color palette, fonts, CSS, accessibility).",
-    "Power BI embedding covers the integration overview and the embed framework, its pages and context handling.",
-    "The overview also mentions application areas and permission set creation as part of extending the product."
+    "Extensibility overview: extend tables, pages, reports, code flows, enumerations, application areas, and the security model.",
+    "Extension objects: table, page, report, enum, and permission set extensions add fields, actions, layout, and values to existing objects; the extensible property applies.",
+    "Using events: event types, publishing, raising and subscribing, isolated events, discovering events with Event Recorder, and deprecating external business events.",
+    "Extensibility requests: ask for or contribute missing events, public APIs, and enums through the BCApps repository, including IsHandled events.",
+    "Get started with modules: requirements and steps (AL development, Git, environment setup) for creating or modifying System Application modules, with contribution guidelines.",
+    "Client add-ins: performance practices for AL triggers and payloads, and CSS styling of colors, fonts, and text sizes to match Business Central.",
+    "Embedding Power BI: integration overview and the embed framework for reports, scorecards, and dashboards, including pages and context handling.",
+    "Extending the base application is the largest subtopic, with 15 pages."
   ],
   "members_used": 3,
   "subtopics_used": 5,
   "prompt_version": 1,
-  "at": "2026-10-28T10:59:34.188Z",
+  "at": "2026-11-03T01:01:51.723Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.013789
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-28T11:01:06.028Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: 'Extending the base application' has no source summary, so the overview can only call it 'further material'. Placing it in the same sentence as 'Using events' may suggest it is about events, which the sources neither support nor contradict.",
-      "Minor: the Using events subtopic also covers UI notifications and a workflow events walkthrough. The narrative leaves these out, but that is not an error.",
-      "Minor: the recommended reading order (overview, then extension objects, then events) is editorial advice, not something the sources state. It is reasonable guidance."
-    ],
-    "input_hash": "76dc86c94c10142537d09cbd51d314ddd26d70472d7a211c635ef6014d1c4e1d",
-    "cost_usd": 0.0351992
+    "cost_usd": 0.014139
   }
 }

@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/the-al-programming-language
 type: topic
 title: The AL programming language
-summary: "The AL programming language section covers language fundamentals for Business Central extensions: statements, methods, types, labels, access modifiers, error handling, and XML comments. Subtopics cover variables and operators, object types, preprocessor directives, and code analysis. It answers questions about syntax, object behavior, and AL coding conventions."
+summary: "The AL programming language section covers AL syntax and language fundamentals for Business Central extensions: statements, methods, error handling, labels, access modifiers, and XML comments. It also covers subtopics on variables and operators, object types, preprocessor directives, and code analysis. Use it for questions on how to write and structure AL code."
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:53:46.170Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: b443517c53d8414351824fdcb519c63388627cb225a4a42910df200b4c6ff1cc
+  input_hash: a470739d964fbf23fbda16714f03f510d1b60179cd200e788e2cb4ff8f45764f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-complextypes
@@ -348,27 +348,27 @@ narrative: generated
 
 # The AL programming language
 
-> The AL programming language section covers language fundamentals for Business Central extensions: statements, methods, types, labels, access modifiers, error handling, and XML comments. Subtopics cover variables and operators, object types, preprocessor directives, and code analysis. It answers questions about syntax, object behavior, and AL coding conventions.
+> The AL programming language section covers AL syntax and language fundamentals for Business Central extensions: statements, methods, error handling, labels, access modifiers, and XML comments. It also covers subtopics on variables and operators, object types, preprocessor directives, and code analysis. Use it for questions on how to write and structure AL code.
 
-Path: [Development](../development.md) > The AL programming language · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../development.md) > The AL programming language · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section documents AL, the language used to build Business Central extensions. The top-level pages cover the core language: simple statements (assignment, method, AssertError), control statements (if, case, loops), methods and their parameters and return values, complex return types, labels, access modifiers, error handling, and XML comments for documentation.
+This section is the reference for writing code in AL. The core pages describe language fundamentals (Programming in AL), simple and control statements, methods and their parameters and return values, and complex return types such as records and HttpClient. An overview page lists the objects, properties, triggers, attributes and methods available for building extensions.
 
-The subtopics go deeper. Variables, types, and operators covers declarations, type conversion, and operator behavior. Objects describes each AL object type, such as tables, pages, codeunits, reports, queries, and enums, and how to extend them. Preprocessor directives covers conditional compilation, regions, and pragmas. Code analysis is a further subtopic of 7 pages.
+Further pages cover practical topics: error handling (error dialogs, try methods, error collection, telemetry and the ErrorInfo data type), labels for translatable text, access modifiers (internal, local, protected, public) for designing APIs, and XML comments for IntelliSense and ALDoc documentation. A FAQ answers common setup, debugging, symbol, marketplace and app identity questions.
 
-Start with "Programming in AL" for the fundamentals, then move to statements and methods. Use the objects subtopic when you need properties or extension rules for a specific object type. The FAQ for developing in AL helps with setup, debugging, symbols, and app identity questions.
+Subtopics go deeper on variables, types and operators, the AL object types, preprocessor directives, and code analysis. Start with Programming in AL for the fundamentals, then move to statements and methods, and use the Objects subtopic when you need details on a specific object type.
 
 ## Key points
 
-- Control statements include if-then-else, case, for, foreach, while, and repeat-until, plus break and continue.
-- Simple statements are assignment, method, and AssertError statements, including compound assignment operators.
-- Access modifiers are internal, local, protected, and public, enforced at compile time; internalsVisibleTo opens internals to other apps.
-- Error handling covers error dialogs, try methods, error collection, telemetry, and the ErrorInfo data type.
-- Labels are translatable string constants with Comment, Locked, and MaxLength parameters, used for captions, tooltips, and messages.
-- Procedures can return records and built-in types such as HttpClient and HttpResponseMessage, including named return values.
-- XML comments using triple slashes enable IntelliSense and ALDoc-generated documentation.
+- Programming in AL covers variable declarations, protected variables, trigger types, code reuse and security patterns.
+- Control statements include if-then-else, case, for, foreach, while, repeat-until, plus break and continue.
+- Simple statements are assignment, method and AssertError statements, including compound assignment operators.
+- Error handling covers error dialogs, try methods, error collection, telemetry and the ErrorInfo data type.
+- Access modifiers (internal, local, protected, public) control visibility at compile time; the internalsVisibleTo setting is described.
+- Labels provide translatable string constants, with Comment, Locked and MaxLength parameters, used in captions, tooltips and messages.
+- XML comments (triple slash) enable IntelliSense and autogenerated help with ALDoc.
 - Subtopics: Variables, types, and operators (8 pages), Objects (16 pages), Preprocessor directives (3 pages), Code analysis (7 pages).
 
 ## Subtopics

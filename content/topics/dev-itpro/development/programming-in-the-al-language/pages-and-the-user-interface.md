@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface
 type: topic
 title: Pages and the user interface
-summary: Pages and the user interface in AL for Business Central covers designing pages, role centers, actions, views, profiles, deep links and mobile app development. It answers questions about building, laying out, extending, styling, inspecting and tailoring the client UI for user roles.
+summary: "Pages and the user interface in AL for Business Central: designing pages, role centers, actions, views, profiles, deep links and mobile app development. It answers how to build, lay out, extend, tailor, inspect and link to the UI for different user roles and clients."
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:00:43.708Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 114f53fe544ac1d1f2b89da1b5c2d39d676b99f96814375834c3bfaf83d39a87
+  input_hash: ee908bd60c1ce64e0bd6c4196e6da0d20219c040924d715b69aa22efdca6549b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-action-bar-improvements
@@ -118,8 +118,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-style
-    title: Control Add-in Styling for Business Central
-    date: "2026-10-21"
+    title: Control Add-in Style Guide for Business Central
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null
@@ -366,28 +366,28 @@ narrative: generated
 
 # Pages and the user interface
 
-> Pages and the user interface in AL for Business Central covers designing pages, role centers, actions, views, profiles, deep links and mobile app development. It answers questions about building, laying out, extending, styling, inspecting and tailoring the client UI for user roles.
+> Pages and the user interface in AL for Business Central: designing pages, role centers, actions, views, profiles, deep links and mobile app development. It answers how to build, lay out, extend, tailor, inspect and link to the UI for different user roles and clients.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Pages and the user interface · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Pages and the user interface · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is about everything a user sees and interacts with in the Business Central client. It starts with general pages on designing the user interface, which cover page types, role centers, actions, views, queries and profiles, and on customizing the interface for user roles through a layered approach: Role Centers, page extensions, profiles, page customizations and personalization.
+This section covers how the Business Central user interface is built in AL. "Designing the User Interface" is the entry point and introduces page types, role centers, actions, views, queries and profiles, with support for multiple clients. "Customize the user interface for user roles" explains the layered approach: Role Centers, page extensions, profiles, page customizations and personalization.
 
-The subtopics go into each building block. Pages is the largest and covers page objects, extensions, page types and user assistance. Role centers, Actions, Views and Profiles cover the home page, command placement, alternative list layouts and role definitions. Creating deep links and Developing for the Business Central mobile app cover opening specific content and building for tablet and phone.
+The subtopics go into each building block. Pages covers page objects, extensions, page types and user assistance. Actions covers adding, organizing and promoting actions. Role centers, Views and Profiles handle role-tailored home pages, alternative list layouts and user roles. Deep links and the mobile app subtopic cover how to open content by URL and how to build for tablet and phone.
 
-Two own pages cover practical tooling. Page Inspection in the web client shows page structure, data sources, extensions, filters and source table fields without reading code. The control add-in styling page covers the color palette, fonts, CSS and accessibility. For a first read, begin with Designing the User Interface, then move to Pages and Role centers.
+Two standalone pages help with quality and debugging. The Control Add-in Style Guide gives CSS colors, fonts and sizes so add-ins match Business Central. Inspecting pages describes Page Inspection in the web client, which shows page structure, data sources, extensions and filters without reading code. Start with Designing the User Interface, then go to Pages.
 
 ## Key points
 
-- Customizing the UI for roles is layered: Role Centers, page extensions, profiles, page customizations and personalization.
-- Pages subtopic covers page objects and extensions, card, list, part, NavigatePage, PromptDialog and ConfigurationDialog types, plus tooltips, Tell me and teaching tips.
-- Role centers cover navigation menus, cues, headlines and a user onboarding checklist.
-- Actions cover actionref syntax, action areas, promoted groups, the modern action bar with split buttons and prompt actions that launch Copilot.
-- Views define alternative filtering, sorting and layout for list pages, and legacy Role Center views can be migrated to modern list views.
-- Profiles define user roles using profile objects, profile extensions and page customization objects.
-- Deep links open specific content in the web client or mobile app using URL parameters such as company, page, report, table, mode, profile, filter and bookmark, and the ms-businesscentral URI scheme.
-- Page Inspection in the web client shows page structure, data sources, extensions, filters and table fields for debugging.
+- Designing the User Interface introduces page types, role centers, actions, views, queries and profiles (version 23 noted).
+- Role-based customization is layered: Role Centers, page extensions, profiles, page customizations and personalization.
+- Pages subtopic (33 pages) covers card, list, parts, NavigatePage, PromptDialog and ConfigurationDialog types, plus tooltips, Tell me and teaching tips.
+- Actions subtopic covers actionref syntax, action areas, the modern action bar with split buttons, and prompt actions that launch Copilot.
+- Views define alternative filtering, sorting and layout for list pages; legacy Role Center views can be migrated to modern list views.
+- Profiles control which pages and reports a user sees, using profile, profile extension and page customization objects.
+- Deep links use URL parameters such as company, page, report, table, mode, profile, filter and bookmark, and the ms-businesscentral URI scheme.
+- Page Inspection (2023 release wave 2) in the web client shows page structure, source table fields, extensions and filters.
 
 ## Subtopics
 
@@ -401,7 +401,7 @@ Two own pages cover practical tooling. Page Inspection in the web client shows p
 
 ## More Learn pages
 
-- [Control Add-in Styling for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-style): Style control add-ins for Business Central with selected colors, fonts, and CSS examples, and learn how to check readability and keyboard interaction.
+- [Control Add-in Style Guide for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-style): Style control add-ins for Dynamics 365 Business Central with CSS. Choose colors and fonts, and build readable controls with keyboard access.
 - [Customize the user interface for user roles](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-role-customization): Description of how to customize the User Interface in Business Central by using user roles.
 - [Designing the User Interface](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-user-interfaces): Provides an overview of the components available when designing a user interface in Business Central
 - [Inspecting pages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages): Learn about the structure of a page and its' underlying data.

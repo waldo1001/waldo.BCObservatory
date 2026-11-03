@@ -1,36 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/development/system-and-application-reference-documen/creating-new-modules",
-  "input_hash": "014733d1329091582de0a653a930eb3b33bb6c551782d34537813cc85d2c6f35",
-  "summary": "Creating new modules covers how to contribute to the Business Central System Application: setting up the environment, understanding module architecture, building new modules, changing existing ones, and writing .NET wrapper modules. It answers how-to and design-rule questions for contributors.",
-  "overview": "This section is for developers who want to add or change modules in the System Application, working in the BCApps repository. It explains the design rules for modules and walks through the practical steps of contributing.\n\nStart with \"Get started with modules\" for the requirements (AL development, Git, environment setup), then \"Set up an environment for developing a module\" for GitHub, Docker, BcContainerHelper and Visual Studio Code. Read \"Module Architecture\" before writing code, since it defines facades, dependencies, access modifiers and extensibility controls.\n\nThen pick the task page: \"Create a new module in the System Application\" for a new module with facade and implementation codeunits plus tests, \"Change a System Application Module\" for edits to existing modules, or \"Create a .NET Wrapper Module\" for exposing .NET functionality in AL, with the Regex module as the example.",
+  "input_hash": "e9ac02ee63658772856b4f1860b3690dc15fe5e0a27ccd03b38648669753f192",
+  "summary": "Creating new modules covers how to create, change, and contribute System Application modules in the BCApps repository. It answers questions on environment setup, module architecture, facade and implementation codeunits, .NET wrapper modules, tests, and the pull request workflow.",
+  "overview": "This section is for developers who want to add or modify a module in the Business Central System Application through the BCApps repository. It walks through the full path: requirements, local environment, module design, implementation, tests, and contribution.\n\nStart with \"Get started with modules\" for requirements (AL development, Git) and an entry point to creating or modifying modules. Then follow \"Set up an environment for developing a module\", which uses GitHub, Docker, BcContainerHelper, and Visual Studio Code. \"Module Architecture in the System Application\" gives the design rules for API design, packaging, dependencies, object accessibility, and testing.\n\nFor the actual work, use \"Create a new module in the System Application\" for a new module (app.json, facade and implementation codeunits, tests, pull request) or \"Change a System Application module\" for existing ones. \"Create a .NET Wrapper Module\" covers exposing .NET functionality in AL, with the Regex module as the example.",
   "key_points": [
-    "Work happens in the BCApps repository with a Git workflow, Docker container, BcContainerHelper and Visual Studio Code.",
-    "Module architecture separates modules into independent projects with public facades and managed dependencies across functional layers.",
-    "Access modifiers and object accessibility keep implementation internal and control extensibility.",
-    "A new module needs a facade codeunit, an implementation codeunit and unit tests.",
-    "Changing a module involves updating the implementation, exposing and documenting public functions, and adding tests.",
-    "A .NET wrapper module uses codeunits and temporary tables, with facade and argument-table patterns and constructor handling.",
-    "The Regex module is the worked example for .NET wrappers."
+    "Modules are developed and contributed in the BCApps repository using Git and pull requests.",
+    "Development environment uses GitHub, Docker, BcContainerHelper, and Visual Studio Code.",
+    "A new module needs a module structure with an app.json file, a public facade codeunit, and an implementation codeunit.",
+    "Tests are added alongside the module; the new-module guide follows a test-driven approach.",
+    "Architecture guidance covers the Internal access modifier, Access property for table fields, SingleInstance, Extensible, and internalsVisibleTo configuration.",
+    "Changing an existing module means updating the implementation, exposing functionality through the public API, and adding tests.",
+    ".NET wrapper modules use codeunits and temporary tables, with facade, argument-table, and constructor handling patterns.",
+    "The new-module guide references version 17.0.0.0."
   ],
   "members_used": 6,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-28T10:58:45.342Z",
+  "at": "2026-11-03T01:01:25.607Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011782999999999998
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-28T11:02:57.469Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the 'code preservation' feature of the Change a System Application Module page is not mentioned. It is optional detail, so no change is needed.",
-      "Minor: 'keep implementation internal' is a fair reading of 'internal implementation patterns' plus access modifiers and object accessibility, but it is an interpretation of the summaries rather than a quote."
-    ],
-    "input_hash": "014733d1329091582de0a653a930eb3b33bb6c551782d34537813cc85d2c6f35",
-    "cost_usd": 0.0289072
+    "cost_usd": 0.012945
   }
 }

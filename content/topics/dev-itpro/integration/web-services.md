@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration/web-services
 type: topic
 title: Web services
-summary: "Web services in Business Central: OData, SOAP and API endpoints, how to publish and secure them, and how to monitor, tune and troubleshoot them. It answers questions on endpoint setup, authentication, telemetry, performance patterns, error diagnosis and refactoring legacy integration records."
+summary: "Web services in Business Central: consuming and publishing OData, SOAP and API endpoints, securing them, and troubleshooting, tuning and monitoring them with telemetry. It answers questions on endpoint setup, authentication, errors, performance and the legacy integration records refactoring."
 tier: official
 language: en
 system: integration
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T02:13:54.202Z"
+  at: "2026-11-03T01:02:12.823Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 6e0bfab613d3d64fbdb92ece89d70420cfc38337f638902b5739c02ad0febcb9
+  input_hash: 728a8c3a4061bc84762c12f21c12db9cae2a02e558407ac4c6fa31eb8e5d420e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/
@@ -189,14 +189,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-bound-action
     title: Creating and Interacting with an OData V4 Bound Action
-    date: "2021-04-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action
-    title: Creating and interacting with an OData V4 unbound action
-    date: "2024-07-23"
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null
@@ -298,6 +291,13 @@ evidence:
     commit: null
     t: null
     quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-analytics/resources/dynamics_dynamicdimension
+    title: dynamicDimension resource type
+    date: "2026-06-08"
+    commit: null
+    t: null
+    quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-services
@@ -358,28 +358,28 @@ narrative: generated
 
 # Web services
 
-> Web services in Business Central: OData, SOAP and API endpoints, how to publish and secure them, and how to monitor, tune and troubleshoot them. It answers questions on endpoint setup, authentication, telemetry, performance patterns, error diagnosis and refactoring legacy integration records.
+> Web services in Business Central: consuming and publishing OData, SOAP and API endpoints, securing them, and troubleshooting, tuning and monitoring them with telemetry. It answers questions on endpoint setup, authentication, errors, performance and the legacy integration records refactoring.
 
 Path: [Integration](../integration.md) > Web services · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Web services in Business Central expose data and logic to external clients through OData, SOAP and APIs. The section is organized into subtopics for publishing pages, queries and codeunits as endpoints, for OData and SOAP usage, for the large API reference set, and for security (authentication, certificates, cipher suites, Azure service tags).
+This section covers how external applications talk to Business Central through OData, SOAP and API endpoints. Subtopics split the work: publishing pages, queries and codeunits as endpoints, consuming OData and SOAP, a large set of API reference pages, and security (authentication, certificates, cipher suites, Azure service tags).
 
-The hub's own pages cover operations across all three protocols. They cover troubleshooting errors (HTTP status codes, OData error codes, telemetry, debugging), performance guidance (patterns, anti-patterns, API client and Power BI performance), and web service telemetry that logs SOAP, OData and API requests to partner telemetry. A refactoring guide explains replacing legacy integration records with system fields, and a page covers the Microsoft APIs Terms of Use.
+The section's own pages cover operations. Troubleshooting helps decide whether an error comes from the client, network or server, using HTTP status codes, OData error codes, telemetry and debugging. The performance page lists patterns and anti-patterns for endpoints and consumers, including Power BI. The telemetry page describes the logging of all SOAP, OData and API requests to partner telemetry.
 
-To start, read the publishing subtopic to expose an endpoint, then the security subtopic to choose authentication. Use the telemetry, performance and troubleshooting pages once consumers are running.
+Start with the publishing subtopic to expose an endpoint, then the OData, SOAP or API pages for the consuming side, and the security pages before going live. Use troubleshooting, performance and telemetry once calls are running. The Integration Management Refactoring Guidance page matters for extension developers still using legacy integration records.
 
 ## Key points
 
-- Subtopics cover security, APIs (261 pages), OData (14), publishing pages and codeunits as endpoints (5), and SOAP (4).
-- Security covers basic, OAuth and service-to-service authentication, certificates, supported cipher suites for outgoing HTTPS calls, and network restriction with Azure service tags.
-- OData pages cover querying, filtering, modifying, batching, metadata, paging, limits, FlowFilters, unbound actions and error codes.
-- Publishing covers OData V4 bound actions and troubleshooting publish errors; the SOAP feature key was removed in version 30.0.
-- Web service telemetry logs all SOAP, OData and API requests, including HTTP status codes, access key authentication and publish failures.
-- Troubleshooting guidance helps decide whether errors come from the client, network or server endpoint, using status codes, telemetry, OData error codes and debugging.
+- Pages, queries and codeunits can be published as OData V4 or SOAP endpoints; the SOAP feature key was removed in version 30.0.
+- OData pages cover JSON and AtomPub, the metadata document, filtering, modifying records, V4 unbound actions, transactional batches, and known limits.
+- SOAP pages cover converting bookmark keys to record IDs, static proxies, finding company names with SystemService, and optional fields.
+- Security options include basic, OAuth and service-to-service authentication, certificates, supported cipher suites for outgoing HTTPS, and Azure service tags for network restriction.
+- Troubleshooting uses HTTP status codes, OData error codes, web service telemetry, debugging, and environment comparison.
 - Performance guidance covers anti-patterns, performance patterns, API client and Power BI performance, and throughput handling.
-- Integration Management Refactoring Guidance explains replacing legacy integration records with system fields such as SystemId and SystemRowVersion before their removal in 2023 release wave 1.
+- Web service telemetry logs all SOAP, OData and API requests, plus access key authentication and publish failures.
+- Integration Management Refactoring Guidance explains replacing legacy integration records with system fields such as SystemId and SystemRowVersion, ahead of their removal in 2023 release wave 1.
 
 ## Subtopics
 

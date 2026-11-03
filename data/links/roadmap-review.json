@@ -1,6 +1,23 @@
 {
   "prompt_version": 1,
   "verdicts": {
+    "573251": {
+      "video/WZUQ9X26MLo#0@32d558a2c88c6ea7": {
+        "verdict": "keep",
+        "reason": "Shows the EUDR Relevant flag on the Item Card, which is part of this feature.",
+        "at": "2026-11-03T00:54:17.039Z"
+      },
+      "video/WZUQ9X26MLo#1@32d558a2c88c6ea7": {
+        "verdict": "keep",
+        "reason": "Shows EUDR certificate fields being recorded on Lot No. Information, which is the main capability.",
+        "at": "2026-11-03T00:54:17.039Z"
+      },
+      "video/WZUQ9X26MLo#3@32d558a2c88c6ea7": {
+        "verdict": "keep",
+        "reason": "Shows certificate details printed on the sales invoice layout, which matches the new EUDR Sales Invoice.",
+        "at": "2026-11-03T00:54:17.039Z"
+      }
+    },
     "573253": {
       "docs/learn-devitpro/dev-itpro/compliance/apptest-countries-and-translations.md@466349fd62ad3085": {
         "verdict": "drop",
@@ -1198,78 +1215,78 @@
     "573308": {
       "docs/learn-smb-docs/business-central/finance-set-up-withholding-tax.md@aca981288b8c1107": {
         "verdict": "keep",
-        "reason": "The setup page says withholding tax can be calculated and posted for employees, and it lists employee withholding tax as a feature.",
-        "at": "2026-11-02T00:53:47.251Z"
+        "reason": "The setup page explicitly covers withholding tax for employees and lists employee withholding tax as a feature.",
+        "at": "2026-11-03T00:54:21.920Z"
       },
       "docs/learn-smb-docs/business-central/finance-withholding-tax-employees.md@bf4b8c1ca7e9e9c1": {
         "verdict": "keep",
-        "reason": "This page directly documents setting up and posting withholding tax on employee transactions.",
-        "at": "2026-11-02T00:53:47.251Z"
+        "reason": "It documents setting up and posting withholding tax on employee transactions in journals.",
+        "at": "2026-11-03T00:54:21.920Z"
       },
       "docs/learn-smb-docs/business-central/finance-withholding-tax.md@af57cfb2208454fb": {
         "verdict": "drop",
-        "reason": "It covers only vendor purchase withholding tax, which is the older vendor capability.",
-        "at": "2026-11-02T00:53:47.251Z"
+        "reason": "It covers only vendor withholding tax on purchase documents, not employee transactions.",
+        "at": "2026-11-03T00:54:21.920Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/set-up-withholding-tax.md@b86146a9def32dae": {
         "verdict": "drop",
-        "reason": "It covers Italian vendor withholding tax only and says nothing about employees.",
-        "at": "2026-11-02T00:53:47.251Z"
+        "reason": "It covers the Italian vendor withholding tax setup, which is a different capability.",
+        "at": "2026-11-03T00:54:21.920Z"
       },
-      "video/d4mYltz4Zwg#0@d1a200620cb7487d": {
+      "video/d4mYltz4Zwg#0@97f4d81c533bda67": {
         "verdict": "drop",
         "reason": "It introduces vendor withholding tax in the purchase process, not employee transactions.",
-        "at": "2026-11-02T00:53:47.251Z"
+        "at": "2026-11-03T00:54:21.920Z"
       },
-      "video/d4mYltz4Zwg#1@d1a200620cb7487d": {
+      "video/d4mYltz4Zwg#1@97f4d81c533bda67": {
         "verdict": "drop",
-        "reason": "It describes the general posting group setup in the context of vendors and does not mention employees.",
-        "at": "2026-11-02T00:53:47.251Z"
+        "reason": "It describes general posting group configuration for vendors and does not mention employees.",
+        "at": "2026-11-03T00:54:21.920Z"
       },
-      "video/d4mYltz4Zwg#2@d1a200620cb7487d": {
+      "video/d4mYltz4Zwg#2@97f4d81c533bda67": {
         "verdict": "drop",
-        "reason": "It shows how to turn on withholding tax for vendors, not employees.",
-        "at": "2026-11-02T00:53:47.251Z"
+        "reason": "It covers enabling withholding tax on vendors only.",
+        "at": "2026-11-03T00:54:21.920Z"
       },
-      "video/d4mYltz4Zwg#3@d1a200620cb7487d": {
+      "video/d4mYltz4Zwg#3@97f4d81c533bda67": {
         "verdict": "drop",
-        "reason": "It is about item-level posting groups, which are not part of the employee feature.",
-        "at": "2026-11-02T00:53:47.251Z"
+        "reason": "It covers item-level product posting groups, not employee transactions.",
+        "at": "2026-11-03T00:54:21.920Z"
       },
-      "video/d4mYltz4Zwg#4@d1a200620cb7487d": {
+      "video/d4mYltz4Zwg#4@97f4d81c533bda67": {
         "verdict": "drop",
-        "reason": "It explains general threshold rules applied to vendors, with no mention of employees.",
-        "at": "2026-11-02T00:53:47.251Z"
+        "reason": "It describes threshold rules applied to vendors, with nothing specific to employees.",
+        "at": "2026-11-03T00:54:21.920Z"
       },
-      "video/d4mYltz4Zwg#5@d1a200620cb7487d": {
+      "video/d4mYltz4Zwg#5@97f4d81c533bda67": {
         "verdict": "drop",
-        "reason": "It covers when withholding tax is recorded (on invoice or on payment) in general, not for employee transactions.",
-        "at": "2026-11-02T00:53:47.251Z"
+        "reason": "It covers general invoice vs. payment timing and does not mention employees.",
+        "at": "2026-11-03T00:54:21.920Z"
       },
-      "video/d4mYltz4Zwg#6@d1a200620cb7487d": {
+      "video/d4mYltz4Zwg#6@97f4d81c533bda67": {
         "verdict": "drop",
-        "reason": "It shows the base amount override on vendor invoices, which is not specific to employees.",
-        "at": "2026-11-02T00:53:47.251Z"
+        "reason": "It covers a base override on invoices, which is not specific to employee transactions.",
+        "at": "2026-11-03T00:54:21.920Z"
       },
-      "video/d4mYltz4Zwg#7@d1a200620cb7487d": {
+      "video/d4mYltz4Zwg#7@97f4d81c533bda67": {
         "verdict": "drop",
-        "reason": "It shows the general posting preview, not the employee capability.",
-        "at": "2026-11-02T00:53:47.251Z"
+        "reason": "It covers general posting preview and does not mention employees.",
+        "at": "2026-11-03T00:54:21.920Z"
       },
-      "video/d4mYltz4Zwg#8@d1a200620cb7487d": {
+      "video/d4mYltz4Zwg#8@97f4d81c533bda67": {
         "verdict": "drop",
-        "reason": "It describes general withholding tax entries, not employee transactions.",
-        "at": "2026-11-02T00:53:47.251Z"
+        "reason": "It covers general withholding tax entries and does not mention employees.",
+        "at": "2026-11-03T00:54:21.920Z"
       },
-      "video/d4mYltz4Zwg#9@d1a200620cb7487d": {
+      "video/d4mYltz4Zwg#9@97f4d81c533bda67": {
         "verdict": "drop",
-        "reason": "It covers the general requirement to enable withholding tax in General Ledger Setup, which is too broad to tie to employees.",
-        "at": "2026-11-02T00:53:47.251Z"
+        "reason": "It covers a general setup prerequisite, which is too general to tie to the employee feature.",
+        "at": "2026-11-03T00:54:21.920Z"
       },
       "video/N_J1HB_fUCM#8@35122e58438517de": {
         "verdict": "keep",
-        "reason": "It announces withholding tax for employees, including gross or net calculation and thresholds.",
-        "at": "2026-11-02T00:53:47.251Z"
+        "reason": "It announces withholding tax for employees, with gross/net calculation and thresholds.",
+        "at": "2026-11-03T00:54:21.920Z"
       }
     },
     "573312": {
@@ -1558,58 +1575,58 @@
     "573316": {
       "docs/learn-devitpro/dev-itpro/administration/telemetry-table-index-trace.md@54936eef294927c8": {
         "verdict": "drop",
-        "reason": "About telemetry for index lifecycle events, not about admins turning SIFT indexes on or off in the client.",
-        "at": "2026-10-30T08:02:13.739Z"
+        "reason": "Telemetry about index lifecycle events and the MaintainSIFTIndex property, not an in-app SIFT on/off toggle.",
+        "at": "2026-11-03T00:54:27.297Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-ncci-performance.md@cb5709cbdc2abf72": {
         "verdict": "drop",
-        "reason": "Performance guidance for NCCIs that mentions disabling SIFT in general, not the new admin toggle in the client.",
-        "at": "2026-10-30T08:02:13.739Z"
+        "reason": "General NCCI performance guidance mentioning SIFT disabling, not the new in-app admin capability.",
+        "at": "2026-11-03T00:54:27.297Z"
       },
       "video/1x3QyBX3swg#1@518e4c307a745050": {
         "verdict": "drop",
-        "reason": "Covers enabling and disabling ordinary indexes in general, an earlier capability with no SIFT-specific content.",
-        "at": "2026-10-30T08:02:13.739Z"
+        "reason": "Covers enabling/disabling indexes generally from the earlier index management capability, not SIFT indexes.",
+        "at": "2026-11-03T00:54:27.297Z"
       },
       "video/1x3QyBX3swg#2@518e4c307a745050": {
         "verdict": "drop",
-        "reason": "Per-company management of ordinary indexes, not specific to SIFT.",
-        "at": "2026-10-30T08:02:13.739Z"
+        "reason": "Per-company index management in AL/runtime generally, not specific to turning SIFT indexes on/off.",
+        "at": "2026-11-03T00:54:27.297Z"
       },
       "video/2u5_F9Ztt7U#4@e9a246217da99451": {
         "verdict": "drop",
-        "reason": "Index usage insights and auto-tuning are a different capability.",
-        "at": "2026-10-30T08:02:13.739Z"
+        "reason": "Index usage insights and removal of unused indexes is a different capability.",
+        "at": "2026-11-03T00:54:27.297Z"
       },
-      "video/bVPFIhkvZEA#0@ef8943a79d90acd8": {
+      "video/bVPFIhkvZEA#0@bb20dfaf8ebc4a0d": {
         "verdict": "keep",
-        "reason": "Directly announces turning SIFT indexes on or off from the Business Central client.",
-        "at": "2026-10-30T08:02:13.739Z"
+        "reason": "Directly announces that admins can turn SIFT indexes on or off from the Business Central client.",
+        "at": "2026-11-03T00:54:27.297Z"
       },
-      "video/bVPFIhkvZEA#1@ef8943a79d90acd8": {
+      "video/bVPFIhkvZEA#1@bb20dfaf8ebc4a0d": {
         "verdict": "keep",
-        "reason": "Shows the Index Management page where admins view and toggle indexes, as part of the SIFT feature demo.",
-        "at": "2026-10-30T08:02:13.739Z"
+        "reason": "Shows the Index Management page used in the SIFT on/off feature, including enabled status.",
+        "at": "2026-11-03T00:54:27.297Z"
       },
-      "video/bVPFIhkvZEA#2@ef8943a79d90acd8": {
+      "video/bVPFIhkvZEA#2@bb20dfaf8ebc4a0d": {
         "verdict": "keep",
-        "reason": "Shows the new index type classification that tells SIFT indexes apart so they can be managed.",
-        "at": "2026-10-30T08:02:13.739Z"
+        "reason": "Shows the index experience distinguishing SIFT indexes, part of the SIFT toggle feature.",
+        "at": "2026-11-03T00:54:27.297Z"
       },
-      "video/bVPFIhkvZEA#3@ef8943a79d90acd8": {
+      "video/bVPFIhkvZEA#3@bb20dfaf8ebc4a0d": {
         "verdict": "keep",
-        "reason": "Shows company-level enable/disable control as part of the SIFT on/off feature walkthrough.",
-        "at": "2026-10-30T08:02:13.739Z"
+        "reason": "Demonstrates company-level enable/disable within the SIFT on/off feature video.",
+        "at": "2026-11-03T00:54:27.297Z"
       },
-      "video/bVPFIhkvZEA#5@ef8943a79d90acd8": {
+      "video/bVPFIhkvZEA#5@bb20dfaf8ebc4a0d": {
         "verdict": "keep",
-        "reason": "Explains how disabling or enabling a SIFT behaves: disabling is immediate and enabling waits for overnight maintenance.",
-        "at": "2026-10-30T08:02:13.739Z"
+        "reason": "Explains the behavior of disabling a SIFT immediately and deferring enabling.",
+        "at": "2026-11-03T00:54:27.297Z"
       },
       "video/IAacWsvav1E#2@e205272272bfcf86": {
         "verdict": "drop",
-        "reason": "Describes the earlier 2026 release wave 1 runtime toggle for ordinary indexes, not SIFT indexes.",
-        "at": "2026-10-30T08:02:13.739Z"
+        "reason": "Describes the earlier 2026 wave 1 general index toggle, which the SIFT feature extends, not SIFT toggling itself.",
+        "at": "2026-11-03T00:54:27.297Z"
       }
     },
     "573317": {
@@ -2902,271 +2919,261 @@
     },
     "573342": {
       "docs/learn-smb-docs/business-central/shopify/synchronize-customers.md@bbac73fbedfbbd61": {
-        "verdict": "drop",
-        "reason": "General Learn page on customer/company sync without describing this feature's new changes.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "verdict": "keep",
+        "reason": "Documents company import from Shopify and company-to-customer mapping, which is the feature's company synchronization capability.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "docs/learn-smb-docs/business-central/shopify/synchronize-prices.md@5c00c6153b5cf36f": {
-        "verdict": "drop",
-        "reason": "General price sync Learn page, not the duplicate catalog price prevention or plan changes.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "verdict": "keep",
+        "reason": "Documents B2B catalog and market-specific price synchronization covered by this feature.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/3tmaVpPTQLw#10@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Older 2024 default contact permissions setting, not part of this feature.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Default contact permissions are an older 2024 setting not part of this feature.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/3tmaVpPTQLw#11@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Older 2024 automatic catalog creation capability.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Describes the original 2024 automatic catalog creation, not the terminology or pricing improvements added here.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/3tmaVpPTQLw#12@26cdd93126fd3bd6": {
         "verdict": "drop",
         "reason": "Older 2024 B2B catalog management capability.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/3tmaVpPTQLw#14@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Older 2024 company-specific catalog capability.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2024 description of company-specific catalogs in Shopify admin.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/3tmaVpPTQLw#15@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Introduces the Get Catalogs action in 2024; this feature only updates its tooltip.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Introduces the original Get Catalogs action in 2024, not the new tooltip guidance.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/3tmaVpPTQLw#16@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Older 2024 catalog price sync capability.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2024 catalog price sync, without the duplicate-sync prevention this feature adds.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/3tmaVpPTQLw#18@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Older 2024 B2B order handling.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2024 B2B order assignment capability.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/3tmaVpPTQLw#7@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "General 2024 B2B integration overview.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Too general an overview of the older B2B integration.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/3tmaVpPTQLw#9@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Older 2024 company export settings.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2024 company export settings, not this feature's improvements.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/AR2FiD64wbw#2@a0b7bbb3f2e5dade": {
         "verdict": "drop",
-        "reason": "Older 2024 company catalog pricing sync.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2024 wave 2 company catalog pricing capability.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/BwBR8JwwQa4#0@d6e0116c58a49c44": {
         "verdict": "drop",
-        "reason": "Older 2025 wave 1 company location import.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2025 wave 1 company location import capability.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/BwBR8JwwQa4#1@d6e0116c58a49c44": {
         "verdict": "drop",
-        "reason": "Older 2025 wave 1 tax ID entity mapping.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2025 wave 1 tax ID entity mapping, not the new registration-field mapping.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/BwBR8JwwQa4#2@d6e0116c58a49c44": {
         "verdict": "drop",
-        "reason": "Older customer export with tax ID capability.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2025 wave 1 customer export of tax and company IDs.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/BwBR8JwwQa4#3@d6e0116c58a49c44": {
         "verdict": "drop",
         "reason": "Payment terms mapping is not part of this feature.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/BwBR8JwwQa4#4@d6e0116c58a49c44": {
         "verdict": "drop",
-        "reason": "Older automatic catalog creation with customer pricing.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2025 wave 1 automatic catalog creation with customer pricing.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/BwBR8JwwQa4#5@d6e0116c58a49c44": {
         "verdict": "drop",
-        "reason": "Older 2025 wave 1 shop card tax ID export setting, not the new tax registration mapping.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2025 wave 1 shop card tax ID field, which predates this feature's tax mapping improvements.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/gy_6QnFpiEw#0@cb57ed66a7b05277": {
         "verdict": "drop",
         "reason": "Older 2025 wave 2 market catalog import capability.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/gy_6QnFpiEw#1@cb57ed66a7b05277": {
         "verdict": "drop",
-        "reason": "Older market price sync capability.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2025 wave 2 market price sync capability.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/gy_6QnFpiEw#2@cb57ed66a7b05277": {
         "verdict": "drop",
-        "reason": "Multi-currency market support is a different capability.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Multi-currency market support is not part of this feature.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/gy_6QnFpiEw#3@cb57ed66a7b05277": {
         "verdict": "drop",
-        "reason": "POS market definition is a different capability.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "POS market definition is not part of this feature.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/gy_6QnFpiEw#4@cb57ed66a7b05277": {
         "verdict": "drop",
-        "reason": "Older B2B Plus market company location capability.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2025 wave 2 company-location market definition.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/gy_6QnFpiEw#5@cb57ed66a7b05277": {
         "verdict": "drop",
-        "reason": "Older catalog page rename with currency code, not this feature's terminology changes.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2025 wave 2 page rename and currency field, not the new caption and tooltip changes.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/p-pwG6f5srY#3@fa5e45737e3ae6af": {
         "verdict": "drop",
-        "reason": "Older 2024 customer-specific catalog pricing.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2024 wave 2 customer-specific catalog pricing.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/VjYMhjjc3uw#0@68c5267e5a54f1e0": {
         "verdict": "drop",
-        "reason": "Older company multi-location import capability.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2025 wave 2 multi-location company import.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/VjYMhjjc3uw#2@68c5267e5a54f1e0": {
         "verdict": "drop",
-        "reason": "Older Shopify Companies list introduction, not role center navigation.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Introduces the Companies list in 2025, not the new role center navigation entry.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/VjYMhjjc3uw#3@68c5267e5a54f1e0": {
         "verdict": "drop",
-        "reason": "Older Shopify Locations list capability.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2025 wave 2 locations list capability.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/VjYMhjjc3uw#4@68c5267e5a54f1e0": {
         "verdict": "drop",
-        "reason": "Older location-to-customer mapping capability.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2025 wave 2 location-to-customer mapping.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
       "video/VjYMhjjc3uw#5@68c5267e5a54f1e0": {
         "verdict": "drop",
-        "reason": "Older order sync location mapping capability.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Older 2025 wave 2 order location mapping capability.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
-      "video/YSDfDjrMUb0#5@1d4d067169f0a11f": {
+      "video/YSDfDjrMUb0#5@383757c6496e1047": {
         "verdict": "keep",
-        "reason": "Shows company synchronization available for all Shopify plans, as this feature adds.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Shows company synchronization now available by default on all Shopify plans, which is the core of this feature.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
-      "video/YSDfDjrMUb0#6@1d4d067169f0a11f": {
+      "video/YSDfDjrMUb0#6@383757c6496e1047": {
         "verdict": "keep",
-        "reason": "Shows market catalogs that prevent duplicate price synchronization, as this feature describes.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Shows market-based catalogs and prevention of duplicate price synchronization, both described in the feature.",
+        "at": "2026-11-03T00:54:40.679Z"
       },
-      "video/YSDfDjrMUb0#7@1d4d067169f0a11f": {
+      "video/YSDfDjrMUb0#7@383757c6496e1047": {
         "verdict": "keep",
-        "reason": "Shows company tax registration IDs being imported and used for company mapping.",
-        "at": "2026-11-01T00:40:48.543Z"
+        "reason": "Shows company tax registration IDs imported and used for mapping, part of the tax identifier improvements.",
+        "at": "2026-11-03T00:54:40.679Z"
       }
     },
     "573343": {
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-22-2.md@31ac973f029315a6": {
         "verdict": "drop",
-        "reason": "Generic 2023 returns synchronization mention, not the exchange handling capability.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "This covers Shopify returns sync from update 22.2, an older capability that doesn't mention exchange handling.",
+        "at": "2026-11-03T00:54:33.634Z"
       },
       "docs/learn-smb-docs/business-central/shopify/synchronize-orders.md@ad50a3dbcfa31249": {
         "verdict": "drop",
-        "reason": "General order sync Learn page summary with no description of exchange lines or Move Negative Lines.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "This is a general order sync page that only lists returns and refunds processing as a topic.",
+        "at": "2026-11-03T00:54:33.634Z"
       },
       "video/3tmaVpPTQLw#19@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Order cancellation is a different capability.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "Cancelling an order is a different capability.",
+        "at": "2026-11-03T00:54:33.634Z"
       },
       "video/3tmaVpPTQLw#20@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Order status sync back to Shopify is unrelated to exchanges and refunds processing.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "Syncing order status back to Shopify is a different capability.",
+        "at": "2026-11-03T00:54:33.634Z"
       },
       "video/3tmaVpPTQLw#21@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Describes the older 2024 order-edit-with-refunds capability, not return exchanges.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "This is the older order-edit handling from 2024 release wave 1, not the new exchange processing.",
+        "at": "2026-11-03T00:54:33.634Z"
       },
       "video/3tmaVpPTQLw#22@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Older 2024 credit memo filtering of zero-value refunds, a different capability.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "Filtering out zero-value refunds is an older 2024 capability, not exchange handling.",
+        "at": "2026-11-03T00:54:33.634Z"
       },
       "video/3tmaVpPTQLw#23@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Older 2024 edit detection behavior, not exchange processing.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "Detecting edits to processed orders is an older 2024 capability.",
+        "at": "2026-11-03T00:54:33.634Z"
       },
       "video/3tmaVpPTQLw#24@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Older 2024 resync action, not this feature.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "The Synchronize Order from Shopify action is an older 2024 capability.",
+        "at": "2026-11-03T00:54:33.634Z"
       },
       "video/3tmaVpPTQLw#25@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Unlink processed documents action is a different, older capability.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "Unlinking processed documents is an older 2024 capability.",
+        "at": "2026-11-03T00:54:33.634Z"
       },
       "video/3tmaVpPTQLw#26@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Older 2024 credit memo creation for edit refunds, not exchange lines handling.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "Automatic credit memo creation for edit refunds is from 2024 and doesn't cover exchange items.",
+        "at": "2026-11-03T00:54:33.634Z"
       },
       "video/3tmaVpPTQLw#27@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Older 2024 edit and refund handling for paid orders.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "Edit and refund handling for paid orders is from 2024 and predates this exchange feature.",
+        "at": "2026-11-03T00:54:33.634Z"
       },
       "video/3tmaVpPTQLw#28@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Edits for unpaid orders is a different, older capability.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "Edit support for unpaid orders is an older 2024 capability.",
+        "at": "2026-11-03T00:54:33.634Z"
       },
       "video/3tmaVpPTQLw#29@26cdd93126fd3bd6": {
         "verdict": "drop",
-        "reason": "Conflict warnings from 2024 are a different capability.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "Conflict notifications for edited documents are an older 2024 capability.",
+        "at": "2026-11-03T00:54:33.634Z"
       },
       "video/B-pxLlb-UN0#10@8bba2b4ec9abd436": {
         "verdict": "drop",
-        "reason": "API field change for return information is too general to tie to exchange processing.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "This is about a Shopify API field change for return info, not exchange processing.",
+        "at": "2026-11-03T00:54:33.634Z"
       },
       "video/p-pwG6f5srY#7@fa5e45737e3ae6af": {
         "verdict": "drop",
-        "reason": "Return location priority setting is a different capability.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "The return location priority setting is a different capability.",
+        "at": "2026-11-03T00:54:33.634Z"
       },
       "video/p-pwG6f5srY#8@fa5e45737e3ae6af": {
         "verdict": "drop",
-        "reason": "Shipping charge item charge mapping is unrelated.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "Item charge mapping for shipping charges is unrelated to this feature.",
+        "at": "2026-11-03T00:54:33.634Z"
       },
-      "video/StIVhsnOHWY#21@18f1d38e63ae8872": {
-        "verdict": "drop",
-        "reason": "Fulfillment information display is unrelated to exchanges and refunds.",
-        "at": "2026-11-01T00:41:03.435Z"
-      },
-      "video/StIVhsnOHWY#22@18f1d38e63ae8872": {
-        "verdict": "drop",
-        "reason": "Fulfillment sync action is unrelated to exchange processing.",
-        "at": "2026-11-01T00:41:03.435Z"
-      },
-      "video/YSDfDjrMUb0#11@1d4d067169f0a11f": {
+      "video/YSDfDjrMUb0#11@383757c6496e1047": {
         "verdict": "keep",
-        "reason": "Shows support for Shopify exchanges and returns producing multiple lines on sales documents.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "It shows support for Shopify exchanges and returns that produce multiple lines on Business Central sales documents.",
+        "at": "2026-11-03T00:54:33.634Z"
       },
-      "video/YSDfDjrMUb0#12@1d4d067169f0a11f": {
+      "video/YSDfDjrMUb0#12@383757c6496e1047": {
         "verdict": "keep",
-        "reason": "Shows processing refunds as return orders with positive and negative quantity lines, part of this feature.",
-        "at": "2026-11-01T00:41:03.435Z"
+        "reason": "It shows refunds processed as return orders with positive and negative quantity lines, as the feature describes.",
+        "at": "2026-11-03T00:54:33.634Z"
       }
     },
     "573344": {
@@ -3268,23 +3275,18 @@
     "573347": {
       "docs/learn-smb-docs/business-central/inventory-how-transfer-between-locations.md@dabf2e0d1fd3a6da": {
         "verdict": "drop",
-        "reason": "General transfer Learn page that only lists direct transfer posting methods, which already existed company-wide, and doesn't describe per-route posting or warehouse-enabled direct transfers.",
-        "at": "2026-10-25T12:48:39.907Z"
+        "reason": "A general transfer overview page that only names direct transfer posting methods, a setting that already existed, with nothing on the per-route setting or warehouse-enabled sources.",
+        "at": "2026-11-03T00:54:34.564Z"
       },
-      "video/WACQbAEVOJg#5@e2490580dfb182a3": {
+      "video/WACQbAEVOJg#5@d1c052c6d0a19784": {
         "verdict": "keep",
-        "reason": "The 2026 wave 2 video shows the choice between Direct Transfer and Shipment and Receipt posting methods, part of this feature.",
-        "at": "2026-10-25T12:48:39.907Z"
+        "reason": "The 2026 wave 2 video shows choosing between the Direct Transfer and Shipment and Receipt posting modes, including partial shipping, which is part of this feature.",
+        "at": "2026-11-03T00:54:34.564Z"
       },
-      "video/WACQbAEVOJg#6@e2490580dfb182a3": {
-        "verdict": "keep",
-        "reason": "Shows partial shipping in Shipment and Receipt mode for direct transfers, a behavior this feature describes.",
-        "at": "2026-10-25T12:48:39.907Z"
-      },
-      "video/X3xygXmgRqU#8@668b13d650fa7ae1": {
+      "video/X3xygXmgRqU#8@64890436443397d2": {
         "verdict": "drop",
-        "reason": "Describes the older direct transfer checkbox, not the new per-route posting methods or warehouse support.",
-        "at": "2026-10-25T12:48:39.907Z"
+        "reason": "Describes the older basic direct transfer checkbox, not posting methods or warehouse handling.",
+        "at": "2026-11-03T00:54:34.564Z"
       }
     },
     "573348": {
@@ -4296,15 +4298,15 @@
       }
     },
     "573367": {
-      "video/_JkZCp64jNw#25@09f1b2ce9a59445d": {
+      "video/_JkZCp64jNw#25@82c883e9340b4ac6": {
         "verdict": "drop",
-        "reason": "This is about viewing PDF attachments, an earlier capability, not the image preview viewer this feature adds.",
-        "at": "2026-10-30T08:02:35.381Z"
+        "reason": "Describes the earlier PDF attachment viewing capability, not previewing image files.",
+        "at": "2026-11-03T00:54:38.200Z"
       },
-      "video/_JkZCp64jNw#4@09f1b2ce9a59445d": {
+      "video/_JkZCp64jNw#4@82c883e9340b4ac6": {
         "verdict": "drop",
-        "reason": "This is about PDF preview for the Sales Order Agent, an earlier capability that doesn't cover image previews.",
-        "at": "2026-10-30T08:02:35.381Z"
+        "reason": "Covers PDF preview for the Sales Order Agent, an older, different capability from image preview.",
+        "at": "2026-11-03T00:54:38.200Z"
       }
     },
     "573368": {
@@ -4689,168 +4691,173 @@
     "573384": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-page-scripting.md@638c3b095ba19407": {
         "verdict": "keep",
-        "reason": "Learn page documents the page scripting tool including multiple row selection, a capability added in this release.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Learn page documents the page scripting tool including multiple row selection, a new GA capability.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
-      "video/_JkZCp64jNw#54@09f1b2ce9a59445d": {
+      "video/_JkZCp64jNw#54@82c883e9340b4ac6": {
         "verdict": "drop",
-        "reason": "Covers AL-Go page scripting tests in 2025 wave 1, not the GA changes.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "About AL-Go page scripting test import, not the GA release or its new capabilities.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/2isrH3RcSK8#42@85a066b96248a071": {
         "verdict": "drop",
-        "reason": "Describes the older pipeline support from 2024 wave 2.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Describes the older 2024 wave 2 pipeline support, not the GA features.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/5GoAzII20L0#0@e1109c76925e5cfa": {
         "verdict": "drop",
-        "reason": "Generic tool description in a 2024 wave 2 pipeline video, an older release.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Generic tool intro in a 2024 wave 2 pipelines video, not about GA.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/Aqi8Uq2bQyI#0@765c59dd96dbd988": {
         "verdict": "keep",
-        "reason": "Segment of the 2026 wave 2 Page Scripting video that introduces the tool moving to GA.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Intro of the 2026 wave 2 page scripting what's-new video that presents this GA release.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#0@172284f842a28068": {
         "verdict": "drop",
-        "reason": "Preview-era introduction from 2024 wave 1, not the GA release.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Describes the 2024 preview of the tool, not the GA release.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#1@172284f842a28068": {
         "verdict": "drop",
-        "reason": "Field validation steps were a preview capability, not the new dialog text validation.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Preview-era validation of field values, not dialog-text validation.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#10@172284f842a28068": {
         "verdict": "drop",
-        "reason": "Older preview UI capability, not part of the GA additions.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Preview-era UI capability unrelated to the GA additions.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#11@172284f842a28068": {
         "verdict": "drop",
-        "reason": "Power FX expressions are an older preview capability.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Preview-era Power FX support, not part of this GA feature.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#12@172284f842a28068": {
         "verdict": "drop",
-        "reason": "Wait steps are an older preview capability.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Preview-era wait steps, an older capability.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#13@172284f842a28068": {
         "verdict": "drop",
-        "reason": "Script parameters are an older preview capability.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Preview-era script parameters, an older capability.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#14@172284f842a28068": {
         "verdict": "drop",
-        "reason": "Include scripts are an older preview capability.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Preview-era include command, an older capability.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#15@172284f842a28068": {
         "verdict": "drop",
-        "reason": "Filter-based selection of a single row is not the new multi-row selection.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Filter-based single list selection, not multi-row selection.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#16@172284f842a28068": {
         "verdict": "drop",
-        "reason": "Pipeline execution is an older capability.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Pipeline execution is a different capability.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#17@172284f842a28068": {
         "verdict": "drop",
-        "reason": "Describes preview limitations, not GA capabilities.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Preview limitations, not the GA capabilities.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#18@172284f842a28068": {
         "verdict": "drop",
-        "reason": "Describes preview limitations around dialogs, not the new dialog text validation.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Preview limitations about control identification, not dialog-text validation.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#2@172284f842a28068": {
         "verdict": "drop",
         "reason": "YAML persistence is an older preview capability.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#3@172284f842a28068": {
         "verdict": "drop",
-        "reason": "Playback controls are an older preview capability.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Preview-era playback controls, an older capability.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#5@172284f842a28068": {
         "verdict": "drop",
-        "reason": "Link sharing is an older preview capability.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Preview-era link sharing, an older capability.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#6@172284f842a28068": {
         "verdict": "drop",
-        "reason": "Clipboard is an older preview capability.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Preview-era clipboard, an older capability.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#7@172284f842a28068": {
         "verdict": "drop",
-        "reason": "Session info pasting is an older preview capability.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Preview-era session info pasting, an older capability.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#8@172284f842a28068": {
         "verdict": "drop",
-        "reason": "Conditional branches are an older preview capability.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Preview-era conditional steps, an older capability.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/B8cWQGwajwQ#9@172284f842a28068": {
         "verdict": "drop",
-        "reason": "Optional pages are an older preview capability.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Preview-era optional pages, an older capability.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
-      "video/H5EuObmeF4o#21@8dd998b26c06c6f7": {
+      "video/c91E6IykUnk#5@5c8b19f6639f30df": {
         "verdict": "drop",
-        "reason": "2025 wave 2 enhancements, a different release.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Podcast about Playwright screenshot generation, a different use.",
+        "at": "2026-11-03T00:54:35.249Z"
+      },
+      "video/H5EuObmeF4o#21@56c1d175230d9e97": {
+        "verdict": "drop",
+        "reason": "2025 wave 2 enhancements, not the GA release features.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/kCTYPb5t5XQ#2@91fbb3a0623a70e3": {
         "verdict": "drop",
-        "reason": "AL-Go test visualizer is a different feature.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "AL-Go test visualizer, a different capability.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/KnyS6ZKI_2c#0@78d3bcda824e542f": {
         "verdict": "drop",
-        "reason": "Step editing is a 2025 wave 2 enhancement, not the GA additions.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "2025 wave 2 step modification, not the GA additions.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/KnyS6ZKI_2c#1@78d3bcda824e542f": {
         "verdict": "drop",
-        "reason": "Parameters UI is a 2025 wave 2 enhancement.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "2025 wave 2 parameters UI, not the GA additions.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/KnyS6ZKI_2c#2@78d3bcda824e542f": {
         "verdict": "drop",
-        "reason": "Test suites UI is a 2025 wave 2 enhancement.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "2025 wave 2 test suites UI, not the GA additions.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/KnyS6ZKI_2c#3@78d3bcda824e542f": {
         "verdict": "drop",
-        "reason": "Include script step is a 2025 wave 2 enhancement.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "2025 wave 2 include script step, not the GA additions.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/KnyS6ZKI_2c#4@78d3bcda824e542f": {
         "verdict": "drop",
-        "reason": "For-each row iteration is a different 2025 wave 2 capability, not multi-row selection.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "For-each row iteration differs from multi-row selection.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/KnyS6ZKI_2c#5@78d3bcda824e542f": {
         "verdict": "drop",
-        "reason": "Expression conditions are a 2025 wave 2 enhancement.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "2025 wave 2 expression conditions, not the GA additions.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/KnyS6ZKI_2c#6@78d3bcda824e542f": {
         "verdict": "drop",
-        "reason": "Server-side replay is a different 2025 wave 2 capability.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Server-side headless replay is a different capability.",
+        "at": "2026-11-03T00:54:35.249Z"
       },
       "video/tzeO0mc8RJo#25@065597581ae2ee24": {
         "verdict": "drop",
-        "reason": "Introduces the tool in 2024 wave 1 preview, not the GA release.",
-        "at": "2026-10-31T01:00:24.425Z"
+        "reason": "Introduces the 2024 preview tool, not the GA release.",
+        "at": "2026-11-03T00:54:35.249Z"
       }
     },
     "574126": {
@@ -5713,153 +5720,183 @@
     "578065": {
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-26-4.md@f1bee3b256af7bc7": {
         "verdict": "drop",
-        "reason": "Describes 26.4 multi-address and item alternatives, different capabilities.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Covers multi-address and item alternatives from 26.4, which are different capabilities.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-26-5.md@4c3e67577586b86a": {
         "verdict": "drop",
         "reason": "Hotfix release with no feature changes; only names the agent.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "docs/learn-smb-docs/business-central/sales-order-agent-item-availability.md@f0ac0beea4bf8923": {
         "verdict": "drop",
-        "reason": "Item availability page is a different capability.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Item availability is a different capability.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "docs/learn-smb-docs/business-central/sales-order-agent-process.md@3c09b02bcfb9a770": {
         "verdict": "drop",
-        "reason": "General description of Sales Order Agent processing, not this feature.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "General description of the Sales Order Agent; no mention of this release's changes.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "docs/learn-smb-docs/business-central/sales-order-agent-setup.md@a8e31ee3a0a5cb4e": {
         "verdict": "drop",
-        "reason": "General setup page with no mention of multiple instances or new options.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "General setup page with no mention of multiple instances or the other new options.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "docs/learn-smb-docs/business-central/sales-order-agent.md@4ce08d422b3f9979": {
         "verdict": "drop",
-        "reason": "General overview of the agent, too general.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "General overview of the agent, too broad for this feature.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
-      "video/_JkZCp64jNw#1@09f1b2ce9a59445d": {
+      "video/_JkZCp64jNw#1@82c883e9340b4ac6": {
         "verdict": "drop",
-        "reason": "Item availability feature from 2025 wave 1, different capability.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Item availability from the 2025 launch, a different capability.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/1ht5nxubZ9c#0@f88acad7995a487c": {
         "verdict": "keep",
-        "reason": "2026 video shows configuring the folder the agent monitors, part of the per-instance folder settings.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "2026 video showing the folder settings for the monitored mailbox, part of this feature's folder configuration.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/1ht5nxubZ9c#3@f88acad7995a487c": {
         "verdict": "keep",
-        "reason": "Shows folder selection for personal or shared mailboxes, matching the feature's mailbox and folder setup.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Shows folder selection for shared mailboxes, matching the feature's personal or shared mailbox monitoring.",
+        "at": "2026-11-03T00:54:42.675Z"
+      },
+      "video/9cOdjHU15rE#1@5cacc59df80f2dd8": {
+        "verdict": "drop",
+        "reason": "Generic mention of the sales agent.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/EwN3xb2q7vE#5@a0291f7fcb074d2a": {
         "verdict": "drop",
-        "reason": "Generic agent instance concept in the development toolkit, not Sales Order Agent multi-instance.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Agent instances in general for developers, not multiple Sales Order Agent instances.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/I7i25zBfyEQ#2@7db449f644ea1a2f": {
         "verdict": "drop",
-        "reason": "2025 quote creation demo, an older capability.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Quote creation from 2025 is an older capability.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/I7i25zBfyEQ#3@7db449f644ea1a2f": {
         "verdict": "drop",
         "reason": "2025 single-agent setup, an older capability.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/I7i25zBfyEQ#4@7db449f644ea1a2f": {
         "verdict": "drop",
-        "reason": "General Outlook integration from 2025, an older capability.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Outlook integration from 2025 is an older capability.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/j6gadQyB4gM#0@486e3ec62416ec0d": {
         "verdict": "drop",
-        "reason": "Custom email signatures are an older, separate feature.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Custom email signatures are an earlier feature, not the signatures for each agent.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/j6gadQyB4gM#1@486e3ec62416ec0d": {
         "verdict": "drop",
-        "reason": "Signature validation belongs to the older signature feature.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Signature content validation is a different, earlier capability.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/kwGEoxN46hk#0@78d207d4c407c15f": {
         "verdict": "keep",
-        "reason": "Demonstrates running multiple Sales Order Agents in parallel.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Directly shows running multiple Sales Order Agents in parallel.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/kwGEoxN46hk#1@78d207d4c407c15f": {
         "verdict": "keep",
-        "reason": "Shows configuring a dedicated folder for each agent instance.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Shows each agent instance monitoring its own folder.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/kwGEoxN46hk#2@78d207d4c407c15f": {
         "verdict": "keep",
-        "reason": "Shows configuring processing rules for an agent instance in the multiple-agents demo.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Feature demo showing the processing rules configured for each agent instance.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/kwGEoxN46hk#3@78d207d4c407c15f": {
         "verdict": "keep",
-        "reason": "Shows setting the signature for an agent instance in the multiple-agents demo.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Feature demo showing a signature set for each agent instance.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/kwGEoxN46hk#4@78d207d4c407c15f": {
         "verdict": "keep",
-        "reason": "Demonstrates the three new options for handling unknown senders.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Shows the three new options for handling unknown senders.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/kwGEoxN46hk#5@78d207d4c407c15f": {
         "verdict": "keep",
-        "reason": "Shows per-agent statistics and switching between multiple agents.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Shows statistics for each agent and switching between multiple agents.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/nbGw2g3KMXI#0@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "General description of the Sales Order Agent.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Generic description of the agent.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/Qmd6_5vYKDg#0@bd16365810479920": {
         "verdict": "drop",
-        "reason": "2025 general item matching overview, an older capability.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Generic 2025 description of the agent.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/Qmd6_5vYKDg#1@bd16365810479920": {
         "verdict": "drop",
-        "reason": "2025 multi-parameter item search, older than the new layered matching.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "2025 multi-parameter item search, an older capability than the new matching layers.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/Qmd6_5vYKDg#2@bd16365810479920": {
         "verdict": "drop",
-        "reason": "2025 attribute search, older than the new semantic ranking.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "2025 attribute search predates the new AI-ranked attribute matching.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/Qmd6_5vYKDg#3@bd16365810479920": {
         "verdict": "drop",
-        "reason": "2025 variant matching, an older capability.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "2025 variant matching is an older capability.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/Qmd6_5vYKDg#4@bd16365810479920": {
         "verdict": "drop",
-        "reason": "2025 identifier search, an older capability.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "2025 identifier search is an older capability.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/Qmd6_5vYKDg#5@bd16365810479920": {
         "verdict": "drop",
-        "reason": "2025 item reference search, an older capability.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "2025 item reference search is an older capability.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/Qmd6_5vYKDg#6@bd16365810479920": {
         "verdict": "drop",
-        "reason": "2025 extended text and translation search, an older capability.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "Extended text and translation search from 2025 is an older capability.",
+        "at": "2026-11-03T00:54:42.675Z"
       },
       "video/Qmd6_5vYKDg#7@bd16365810479920": {
         "verdict": "drop",
-        "reason": "2025 natural language item recognition, an older capability.",
-        "at": "2026-10-30T08:01:10.017Z"
+        "reason": "2025 natural language item recognition is an older capability.",
+        "at": "2026-11-03T00:54:42.675Z"
+      },
+      "video/XhO4oFmoh1M#0@3d7ec63ef426adeb": {
+        "verdict": "drop",
+        "reason": "General introduction of the agent.",
+        "at": "2026-11-03T00:54:42.675Z"
+      },
+      "video/XhO4oFmoh1M#1@3d7ec63ef426adeb": {
+        "verdict": "drop",
+        "reason": "2025 single-agent activation dialog is an older capability.",
+        "at": "2026-11-03T00:54:42.675Z"
+      },
+      "video/XhO4oFmoh1M#10@3d7ec63ef426adeb": {
+        "verdict": "drop",
+        "reason": "2025 email relevance filtering predates the new relevance model and attachment check.",
+        "at": "2026-11-03T00:54:42.675Z"
+      },
+      "video/XhO4oFmoh1M#4@3d7ec63ef426adeb": {
+        "verdict": "drop",
+        "reason": "2025 multi-table item search is an older capability.",
+        "at": "2026-11-03T00:54:42.675Z"
+      },
+      "video/XhO4oFmoh1M#6@3d7ec63ef426adeb": {
+        "verdict": "drop",
+        "reason": "2025 KPI dashboard predates tracking metrics for each agent instance.",
+        "at": "2026-11-03T00:54:42.675Z"
       }
     },
     "578068": {

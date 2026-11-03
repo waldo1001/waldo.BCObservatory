@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-31T00:48:20.076Z"
+  at: "2026-11-03T00:49:14.469Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 77a719349e0a1763ebabef791028af2dab2b70e47626aaf9d1003320f36cd73e
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/System%20Application/App/Email/src/Connector/DefaultEmailRateLimit.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/System%20Application/App/Email/src/Connector/DefaultEmailRateLimit.Interface.al
     title: src/System Application/App/Email/src/Connector/DefaultEmailRateLimit.Interface.al (releases/29.x)
     date: null
-    commit: 8e740e5061595dd231c4a2d9d453c86c84ec76ae
+    commit: d992339dbf106bf2412e17518329e128634f2951
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Default Email Rate Limit" in System Application (System.Email). 1 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Email · BC23-30 · [source at 8e740e50](https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/System%20Application/App/Email/src/Connector/DefaultEmailRateLimit.Interface.al) · facts from BC29
+System Application · System.Email · BC23-30 · [source at d992339d](https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/System%20Application/App/Email/src/Connector/DefaultEmailRateLimit.Interface.al) · facts from BC29
 
 ## Procedures
 

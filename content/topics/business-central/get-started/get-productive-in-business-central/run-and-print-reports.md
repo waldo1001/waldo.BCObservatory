@@ -2,20 +2,20 @@
 id: topic/business-central/get-started/get-productive-in-business-central/run-and-print-reports
 type: topic
 title: Run and print reports
-summary: Running, previewing, printing and scheduling reports, and running batch jobs and XMLports, in Business Central. It answers questions about saving report output to PDF, Word or Excel, saved settings for reports and batch jobs, default printers, and test reports before posting sales or purchase documents.
+summary: Running, previewing, printing and scheduling reports and batch jobs in Business Central. It answers questions about report filters, layouts, saving to PDF, Word or Excel, saved settings, default printers, and test reports before posting sales or purchase documents.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:24:43.476Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f79b44e3786b93106f1e5c6518cce08ba8150d0f8b5c941656dd64928bfbc0bc
+  input_hash: 4a45fea29efa5faf3df64221781fe43d62cec34bbe7afb58a4483ae8ab11f793
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-saving-reusing-settings
@@ -47,8 +47,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-view-test-reports-posting
-    title: View a Test Report Before Posting a Sales or Purchase Document
-    date: "2021-04-01"
+    title: View a test report before you post a sales or purchase document
+    date: "2026-10-15"
     commit: null
     t: null
     quote: null
@@ -105,27 +105,27 @@ narrative: generated
 
 # Run and print reports
 
-> Running, previewing, printing and scheduling reports, and running batch jobs and XMLports, in Business Central. It answers questions about saving report output to PDF, Word or Excel, saved settings for reports and batch jobs, default printers, and test reports before posting sales or purchase documents.
+> Running, previewing, printing and scheduling reports and batch jobs in Business Central. It answers questions about report filters, layouts, saving to PDF, Word or Excel, saved settings, default printers, and test reports before posting sales or purchase documents.
 
-Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Run and print reports · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Run and print reports · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the everyday work of getting information out of Business Central and processing data in bulk. The main page explains how to run a report, set filters, preview it, print it, schedule it, save it to a file, pick a layout, and change language and format settings.
+This section covers the everyday tasks around getting information out of Business Central and processing data in bulk. The main page explains how to run a report, set filters, preview it, print it, save it to a file, pick a layout, change language and format settings, and schedule it.
 
-Related pages build on that. Saved settings let you keep and share report and batch job options so you do not re-enter filters each time. The default printer page explains how to set a printer for all print jobs or for specific reports. A separate page covers running batch jobs and XMLports, such as exchange rate adjustment and calculation tasks. The test report page shows how to check a sales or purchase document before posting.
+Related pages build on that. One explains how to create, modify and share saved settings for reports and batch jobs, so default options and filters are not re-entered each time. Another covers batch jobs and XMLports, which process data in batches, for example exchange rate adjustment, periodic accounting activities and calculation tasks such as finance charges and unit prices.
 
-Start with "Run and print reports in Business Central" for the basics. Then use the saved settings and default printer pages to cut repeated setup, and the batch job and test report pages for the matching tasks.
+Two pages cover printing and validation. The default printer page explains how to set a printer for all print jobs or for specific reports, at user or global level, including cloud printers and PDF output. The test report page shows how to check a sales or purchase document for errors or missing information before posting. Start with "Run and print reports in Business Central", then go to the others as needed.
 
 ## Key points
 
 - Reports can be run, previewed, printed, scheduled, or saved as PDF, Word or Excel files.
-- Report options include filters, layout selection, and language and format settings.
+- Filters, layouts, and language and format settings can be chosen when running a report.
 - Saved settings for reports and batch jobs can be created, modified and shared with other users.
-- Default printers can be set for all print jobs or for specific reports, at user or global level.
+- Batch jobs process data in batches, such as exchange rate adjustment, periodic accounting, finance charge and unit price calculations.
+- A default printer can be set for all print jobs or for specific reports, at user or global level.
 - Printer options include cloud printers, Universal Print, email printers and PDF output.
-- Batch jobs process data in batches, for example adjusting exchange rates, periodic accounting activities, calculating finance charges and calculating unit prices.
-- The Test Report action on a sales or purchase document finds errors or missing information that would block posting.
+- The Test Report action on sales and purchase documents finds errors and warnings before posting, which helps prevent posting failures.
 
 ## Learn pages
 
@@ -136,7 +136,7 @@ Start with "Run and print reports in Business Central" for the basics. Then use 
 - [Run Batch Jobs and XMLports](https://learn.microsoft.com/dynamics365/business-central/ui-how-run-batch-jobs): You run batch jobs to process data and update information, for example, to do periodic accounting activities, or to do calculations.
 - [Specify a Default Printer](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Learn about the different ways to set up printers to be used by default for print jobs.
   - In the observatory: [Page 2616 "Printer Management"](../../../../objects/page/2616.md), [Page 64 "Printer Selections"](../../../../objects/page/64.md)
-- [View a Test Report Before Posting a Sales or Purchase Document](https://learn.microsoft.com/dynamics365/business-central/ui-how-view-test-reports-posting): Before you post a document, for example, an order or a credit memo, you can test and review it to check for errors that might block posting.
+- [View a test report before you post a sales or purchase document](https://learn.microsoft.com/dynamics365/business-central/ui-how-view-test-reports-posting): Before you post a document, for example, an order or a credit memo, you can test and review it to check for errors that might block posting.
 
 ## Business Central pages and reports
 

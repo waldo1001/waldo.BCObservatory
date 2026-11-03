@@ -11,7 +11,7 @@ review:
   at: "2026-10-30T08:08:28.790Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -55,7 +55,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-users-permissions
     title: Create users according to licenses
-    date: "2026-07-16"
+    date: "2026-11-02"
     commit: null
     t: null
     quote: null

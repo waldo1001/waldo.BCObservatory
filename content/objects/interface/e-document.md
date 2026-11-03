@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-31T00:48:20.076Z"
+  at: "2026-11-03T00:49:14.469Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 06d1ef2bd239dead50949e458b9e6b9e0dd4e240d1b3958819a5dd6acff9dbb5
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/Apps/W1/EDocument/app/src/Document/Interfaces/EDocument.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Apps/W1/EDocument/app/src/Document/Interfaces/EDocument.Interface.al
     title: src/Apps/W1/EDocument/app/src/Document/Interfaces/EDocument.Interface.al (releases/29.x)
     date: null
-    commit: 8e740e5061595dd231c4a2d9d453c86c84ec76ae
+    commit: d992339dbf106bf2412e17518329e128634f2951
     t: null
     quote: null
 links:
@@ -77,7 +77,7 @@ relations:
 
 > Interface "E-Document" in EDocument (Microsoft.eServices.EDocument). 5 public procedures. Introduced in BC29, still in BC30.
 
-EDocument · Microsoft.eServices.EDocument · BC29-30 · [source at 8e740e50](https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/Apps/W1/EDocument/app/src/Document/Interfaces/EDocument.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument · BC29-30 · [source at d992339d](https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Apps/W1/EDocument/app/src/Document/Interfaces/EDocument.Interface.al) · facts from BC29
 
 ## Procedures
 

@@ -11,7 +11,7 @@ review:
   at: "2026-10-28T11:00:34.922Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -215,8 +215,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-mandatory-fields
-    title: Fields Required to Complete Processes
-    date: "2021-04-01"
+    title: Fields required to complete processes
+    date: "2026-10-15"
     commit: null
     t: null
     quote: null

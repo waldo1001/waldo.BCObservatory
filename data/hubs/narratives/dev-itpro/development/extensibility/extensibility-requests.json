@@ -1,38 +1,24 @@
 {
   "hub_id": "topic/dev-itpro/development/extensibility/extensibility-requests",
-  "input_hash": "4dc55d4b4b2289a4fb59e2230cd390e31720aec45b6edae846712dd5a89995b7",
-  "summary": "Extensibility requests in Business Central: how to ask Microsoft for changes to the AL codebase through the BCApps repository, how to design and justify new events (including IsHandled events), and how to contribute a change directly. It answers questions about request guidelines, event types, and the IsHandled pattern.",
-  "overview": "This section is for AL developers who need a change in Business Central's base code, such as a new event or other code improvement. It explains two routes: submit an extensibility request to the BCApps repository, or contribute the change yourself to the BCApps and BusinessCentralApps repositories.\n\nThe pages build on each other. \"Create an extensibility request\" gives the submission guidelines and event design guidance. \"Types of events for extensibility\" describes the event kinds and ranks them by quality, so you can pick the right one. \"Using the IsHandled pattern\" explains why that pattern is widely used but has drawbacks and what to use instead. \"Minimum requirements for new IsHandled events\" lists the information and checklist you need if you still request one.\n\nStart with \"Create an extensibility request\" and \"Types of events for extensibility\". Read \"Contribute a change yourself\" if you would rather make the change than wait for one.",
+  "input_hash": "92d504f6cc0de8dc5df7c3f3878aa483f59384066532d634eae21ebe9a3e5d96",
+  "summary": "Extensibility requests in Business Central cover how to ask for or contribute missing extensibility points through the BCApps repository. They answer questions about creating requests for events, public APIs and enums, event types, and when and how to use or request IsHandled events.",
+  "overview": "This section is for developers who find that Business Central lacks an extensibility point they need, such as an event, a public API, or an enum change. It explains two routes: submitting an extensibility request in the BCApps repository, or implementing the change yourself and contributing it.\n\nThe pages fit together in a practical order. Start with \"Contribute a change yourself\" for the overall picture, then \"Create an extensibility request\" for how to file a request. \"Types of events for extensibility\" describes the event patterns (business, OnBefore/OnAfter, verify, isolated, switch, skip, handled, discovery) and their quality, which helps you pick the right kind of event to ask for.\n\nThree pages deal with the IsHandled pattern. \"Using the IsHandled pattern\" explains its drawbacks and recommends it only when better alternatives are not available. \"Minimum requirements for new IsHandled events\" lists what a request must include, such as the publisher signature, multi-extension interaction, performance, data sensitivity, and alternatives considered.",
   "key_points": [
-    "Extensibility requests are submitted to Microsoft's BCApps repository to ask for code changes, new events, or other improvements to the AL codebase.",
-    "You can instead contribute changes directly to the BCApps and BusinessCentralApps repositories.",
-    "Event types covered: business events, OnBefore/OnAfter, verify, isolated, switch, skip, and handled events, with quality rankings and usage guidance.",
-    "The IsHandled pattern allows overriding code but has drawbacks: only a single subscriber, poor readability, and fragile solutions.",
-    "Recommended alternatives to IsHandled: proper extensibility, regular events, the OnSkip pattern, or reimplementing the functionality.",
-    "New IsHandled event requests need minimum information, a submission checklist, and an example structure.",
-    "Requests for IsHandled events should address alternative evaluation, performance considerations, and a data sensitivity review.",
-    "Request guidelines also touch on integration events, event design, manual binding, and temporary tables."
+    "Two routes: submit an extensibility request or implement the change yourself via the BCApps open-source repository.",
+    "Requests can cover new integration events, public APIs, external access, and enum changes.",
+    "Event types described: business, OnBefore/OnAfter, verify, isolated, switch (manually bound), skip, handled, and discovery events.",
+    "The IsHandled pattern has drawbacks and should be limited to cases where better alternatives are not available.",
+    "Prefer proper extension points and regular events over IsHandled where possible.",
+    "IsHandled requests need a minimum set of information, including the event publisher signature.",
+    "IsHandled requests must address how multiple extensions interact, performance, data sensitivity, and alternatives evaluated."
   ],
   "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:08:36.660Z",
+  "at": "2026-11-03T01:01:25.208Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.012768999999999999
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:24:53.709Z",
-    "verdict": "approve",
-    "issues": [
-      "The overview says the IsHandled page explains \"why that pattern is widely used\". The source only says the pattern is widely used, not why. It's a small overstatement; \"explains that the pattern is widely used\" would be more accurate.",
-      "The OnSkip pattern is listed as a recommended alternative to IsHandled. It appears only in the page's feature list, not in its summary's list of alternatives. That still supports it, but the support is thin.",
-      "The key point about IsHandled requests addressing alternative evaluation, performance considerations and data sensitivity review comes from feature tags. The pairing is reasonable but not stated outright."
-    ],
-    "input_hash": "4dc55d4b4b2289a4fb59e2230cd390e31720aec45b6edae846712dd5a89995b7",
-    "cost_usd": 0.0317112
+    "cost_usd": 0.012244999999999999
   }
 }

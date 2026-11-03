@@ -12,12 +12,19 @@ review:
   at: "2026-10-07T05:21:21.306Z"
   flags: []
 generated:
-  at: "2026-10-28T08:42:58.321Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
   input_hash: 1d33aa1ee9f407c0cb981e7f27195c1e8d6eb356cb2e15113b76235575d0d896
 evidence:
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-ai-development-toolkit
+    title: Transparency Note Business Central AI development toolkit (preview)
+    date: "2026-10-02"
+    commit: null
+    t: null
+    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-dev-tools-for-copilot
     title: Transparency Note Developer Tools for Copilot in Business Central
@@ -41,6 +48,7 @@ evidence:
     quote: null
 links:
   learn:
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-ai-development-toolkit
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-dev-tools-for-copilot
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ml-transparency-note
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-semantic-metadata-search
@@ -59,13 +67,13 @@ toc_file: dev-itpro/TOC.md
 parent: null
 children: []
 coverage:
-  learn: 3
+  learn: 4
   code: 0
   video: 2
   blog: 0
   guideline: 0
 bc_forms: []
-member_hash: 88cdf0656fd99d4e1396a8de5a1204ced1bee609ac5f9f7802ff622102fce563
+member_hash: f00a53dec064a6cf7d94c56f8e42b2ead38b97d66a09f079b7acc323527b9ceb
 narrative: generated
 ---
 
@@ -95,6 +103,7 @@ The pages are independent, so start with the one that matches your scenario. Par
 
 ## Learn pages
 
+- [Transparency Note Business Central AI development toolkit (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-ai-development-toolkit): Learn how the Business Central AI development toolkit empowers partners to prototype AI-powered agents, automate workflows, and enhance productivity responsibly.
 - [Transparency Note Developer Tools for Copilot in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-dev-tools-for-copilot): Developer tools for Copilot in Business Central help you build safer, adaptable AI features. Learn how to use the toolkit and boost productivity.
 - [Transparency Note Machine Learning APIs for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ml-transparency-note): Understand how our AI technology works with regards to Machine Learning APIs, the choices system owners can make that influence system performance and behavior, and the importance of thinking about the whole system, including the technology, the people, and the environment
 - [Transparency Note Semantic Metadata Search in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-semantic-metadata-search): Semantic Metadata Search helps you build safer, adaptable AI features. Learn how to use the toolkit and boost productivity.

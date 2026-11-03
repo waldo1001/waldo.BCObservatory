@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13273",
+  "input_hash": "4a938409c84a9ec382c9fbe530e8be4a18e3d22ab4fe3d22dbad4c482ce38e92",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-03T00:58:53.877Z",
+  "issues": [
+    "The key point 'Affects Payment Export Data table structure' is not supported. The change is code in the table, and nothing shows a schema change.",
+    "The page frames this as exports for QR-Bills. It is the Swiss SEPA credit transfer XML export, and the condition is that Address 2 is used as the building number, which relates to QR-Bills."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018549,
+    "changes_in_call": 6
+  }
+}

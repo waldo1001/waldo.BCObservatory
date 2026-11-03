@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:34.799Z"
   flags: []
 generated:
-  at: "2026-10-29T21:38:16.952Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -458,6 +458,7 @@ links:
     - change/bcapps/11665
     - change/bcapps/12059
     - change/bcapps/12068
+    - change/bcapps/12520
     - change/bcapps/12552
     - change/bcapps/12584
     - change/bcapps/12783
@@ -662,6 +663,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11665 Bug 649580: [Subcontracting] Transfer Shipment report is missing subcontractor and manufacturing references](../../../changes/bcapps/11665.md) (code change): "Subcontracting app now adds a report extension and selectable layout"
 - [#12059 [Master]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure.](../../../changes/bcapps/12059.md) (code change): "Reversing a production entry no longer fails when the production output"
 - [#12068 Bug 651757: [Repair Item] [Manufacturing] Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away](../../../changes/bcapps/12068.md) (code change): "Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away"
+- [#12520 [29.X]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure](../../../changes/bcapps/12520.md) (code change): "Reverse Production Entry now correctly handles production output posted using non-base units"
 - [#12552 [29.x]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/12552.md) (code change): "sales order with a linked released production order caused repeated production order status warnings"
 - [#12584 Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts](../../../changes/bcapps/12584.md) (code change): "Posted, uninvoiced subcontracting receipts can again be pulled into a separate purchase invoice"
 - [#12783 [29.x] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](../../../changes/bcapps/12783.md) (code change): "multiplies the subcontractor price by the operation time factor and rounds to the unit-amount precision"

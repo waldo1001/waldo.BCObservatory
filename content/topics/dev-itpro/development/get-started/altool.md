@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:09.736Z"
   flags: []
 generated:
-  at: "2026-11-01T00:45:11.847Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,6 +44,7 @@ links:
   videos:
     - video/urLsKPqOSbc
   posts:
+    - post/aardvarklabs-blog/4177
     - post/nataliekarolak-com/3995
   guidelines: []
   changes:
@@ -64,7 +65,7 @@ coverage:
   learn: 2
   code: 0
   video: 1
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 280951ab58ff0d16566c5b5922b1480da263f6efcf002cab84ac99778cd40934
@@ -111,6 +112,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2367 Enhance NuGet feed selection to support pre-release packages](../../../../changes/al-go/2367.md) (code change): "AL-Go now supports pre-release NuGet packages by adding"
 - [#2382 Fix dependency artifact pattern for branch names with glob-special characters](../../../../changes/al-go/2382.md) (code change): "Fixed a bug where dependency artifact downloads failed silently"
 - [#2407 Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency](../../../../changes/al-go/2407.md) (code change): "AL-Go for GitHub now supports GitHub Enterprise Cloud with dynamic host resolution"
+- [Building the AL Exploration Tool I Always Wanted](../../../../posts/aardvarklabs-blog/4177.md) (community post): "dependency diagrams, relationship maps, where-used analysis, and documentation generation"
 - [Docs: What’s new in BC 28 for developers](../../../../posts/nataliekarolak-com/3995.md) (community post): "MCP tooling grows, including an Admin Center API MCP server usable from VS Code"
 - [Exploring Rabbit Holes with AL Tool Graphs](../../../../videos/urLsKPqOSbc.md) (video): "AL Tool Graphs; AL tools; call graphs; code analysis"
 

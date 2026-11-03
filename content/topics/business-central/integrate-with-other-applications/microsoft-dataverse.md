@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:02:06.001Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -27,8 +27,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-cds-company-concept
-    title: Data ownership models for synchronization
-    date: "2026-10-22"
+    title: Dataverse data ownership models for synchronization
+    date: "2026-10-14"
     commit: null
     t: null
     quote: null
@@ -164,7 +164,7 @@ The data ownership page helps choose between team and person ownership and the b
 
 - [Connect to Microsoft Dataverse](https://learn.microsoft.com/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection): Set up a connection between Business Central and Dataverse. Businesses typically create the connection to integrate data with another Dynamics 365 app.
   - In the observatory: [Page 36954 "Customers"](../../../objects/page/36954.md), [Page 483 "Currency Exchange Rates"](../../../objects/page/483.md), [Page 5 "Currencies"](../../../objects/page/5.md)
-- [Data ownership models for synchronization](https://learn.microsoft.com/dynamics365/business-central/admin-cds-company-concept): Companies are both a legal and business constructs, and they are used to secure and visualize business data.
+- [Dataverse data ownership models for synchronization](https://learn.microsoft.com/dynamics365/business-central/admin-cds-company-concept): Choose a data ownership model for Business Central and Dataverse synchronization, and learn how companies, business units, and teams control access.
 - [Integrate with Microsoft Dataverse via data sync](https://learn.microsoft.com/dynamics365/business-central/admin-common-data-service): Introduction to how to integrate and use Microsoft Dataverse and its components to connect to other Dynamics 365 applications.
 - [Integrating with Microsoft Dataverse](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/dataverse-integration-overview): Learn how to integrate Business Central with Microsoft Dataverse
 - [Manual Synchronization of Table Mappings \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/admin-manual-synchronization-of-table-mappings): The synchronization copies data between Microsoft Dataverse tables and Business Central to keep both systems up-to-date.

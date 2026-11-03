@@ -2,26 +2,26 @@
 id: topic/dev-itpro/integration/web-services/publishing-pages-and-codeunits-as-odata
 type: topic
 title: Publishing pages and codeunits as OData/SOAP web service endpoints
-summary: Publishing pages, queries, and codeunits as OData and SOAP web service endpoints in Business Central. It answers questions on publishing steps, OData V4 bound actions, UI handling in web services, troubleshooting errors, and the SOAP feature key removed in version 30.0.
+summary: Publishing Business Central pages, queries, and codeunits as OData V4 or SOAP web service endpoints. It answers questions on publishing, bound actions, UI handling in web service calls, troubleshooting errors, and the SOAP feature key removed in version 30.0.
 tier: official
 language: en
 system: service
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:25:08.742Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: a7a158b82bf57de0eb0641b530e17d473a087a93415125d0ff8bb09f109fab14
+  input_hash: 0badbba87a156ada005af1f0423b840f2bd2d7c6a5d371a5866d15ecda9329c3
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-bound-action
     title: Creating and Interacting with an OData V4 Bound Action
-    date: "2021-04-01"
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null
@@ -41,8 +41,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/publish-web-service
-    title: Publish a Web Service
-    date: "2025-03-13"
+    title: Publish a Web Service in Business Central
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null
@@ -91,35 +91,37 @@ narrative: generated
 
 # Publishing pages and codeunits as OData/SOAP web service endpoints
 
-> Publishing pages, queries, and codeunits as OData and SOAP web service endpoints in Business Central. It answers questions on publishing steps, OData V4 bound actions, UI handling in web services, troubleshooting errors, and the SOAP feature key removed in version 30.0.
+> Publishing Business Central pages, queries, and codeunits as OData V4 or SOAP web service endpoints. It answers questions on publishing, bound actions, UI handling in web service calls, troubleshooting errors, and the SOAP feature key removed in version 30.0.
 
-Path: [Integration](../../integration.md) > [Web services](../web-services.md) > Publishing pages and codeunits as OData/SOAP web service endpoints · tier official · system service · narrative reviewed (checked by Opus)
+Path: [Integration](../../integration.md) > [Web services](../web-services.md) > Publishing pages and codeunits as OData/SOAP web service endpoints · tier official · system service · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section explains how to expose Business Central objects as web services. The core page, Publish a Web Service, covers creating and publishing API, OData, and SOAP endpoints from the Web Services page, including URL formats and configuration options for exposed objects.
+This section explains how to expose pages, queries, and codeunits as web service endpoints, using OData V4 or SOAP. The main page describes publishing on the Web Services page and notes that API pages and API queries should be used for new integrations instead of standard web service publication.
 
-The other pages cover specific topics. One shows how to create OData V4 bound actions with the ServiceEnabled attribute and WebServiceActionContext. One explains how to handle dialogs and exceptions in web service calls with GUIALLOWED. One covers troubleshooting errors. One describes the feature key that controls SOAP publishing of Microsoft UI pages, which was deprecated and removed in version 30.0.
+Other pages cover specific tasks. One walks through creating an OData V4 bound action that copies unposted sales invoices and is called with HTTP POST. Another explains how to use GUIALLOWED to suppress dialogs and handle exceptions when code runs through a web service. A troubleshooting page explains that errors can come from the client, network, or server, and advises against relying on Microsoft page APIs in favor of stable built-in APIs.
 
-Start with Publish a Web Service to get an endpoint running. Then read the UI interaction page when code may show dialogs, and the troubleshooting page when calls fail. If you rely on SOAP over Microsoft pages, read the feature key page for migration guidance.
+Start with the publishing page to understand the endpoints. Then read the UI handling and bound action pages if you write AL code for them. Check the feature key page if you still use SOAP on Microsoft UI pages, since it was deprecated and removed in version 30.0.
 
 ## Key points
 
-- Publish a Web Service covers API, OData, and SOAP publishing through the Web Services page, with URL formats and options such as eTag calculations and the SystemId field.
-- OData V4 bound actions expose procedures as web service actions using the ServiceEnabled attribute.
-- WebServiceActionContext and WebServiceActionResultCode set the operation result and entity keys in a bound action.
-- GUIALLOWED lets code suppress dialogs and user interaction when it runs through a web service.
-- Errors can originate from the client, network, or server, so troubleshooting has to consider all three.
-- Avoid Microsoft page APIs for web services and use the stable built-in APIs instead.
-- The Disable SOAP web services on Microsoft UI pages feature key was deprecated and removed in version 30.0.
-- The feature key page points to REST APIs or OData V4 as alternatives to SOAP on Microsoft pages and also covers per-tenant extension support.
+- Pages, queries, and codeunits are published on the Web Services page and become OData V4 or SOAP endpoints.
+- For new integrations, use API pages and API queries instead of standard web service publication.
+- OData V4 bound actions run AL procedures on specific records and are called via HTTP POST.
+- Bound actions use the ServiceEnabled attribute, WebServiceActionContext, and the ODataKeyFields property on the page.
+- Use GUIALLOWED to suppress dialogs and user interaction when code runs through a web service.
+- The Disable SOAP web services on Microsoft UI pages feature key was deprecated and removed in version 30.0; migrate to REST APIs or OData.
+- Web service errors can originate from the client, network, or server, so troubleshoot each layer.
+- Avoid exposing Microsoft pages as APIs; prefer stable built-in APIs.
 
 ## Learn pages
 
-- [Creating and Interacting with an OData V4 Bound Action](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-bound-action): Document how to create and interact with an OData V4 Bound Action in AL.
+- [Creating and Interacting with an OData V4 Bound Action](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-bound-action): Create an OData V4 bound action in AL, publish its page, and call it with an authenticated POST request to copy an existing sales invoice in Business Central.
+  - In the observatory: [Codeunit 6620 "Copy Document Mgt."](../../../../objects/codeunit/6620.md)
 - [Disable SOAP web services on Microsoft UI pages feature key](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-disable-soap-microsoft-pages-feature-key): Learn about the Disable SOAP web services on Microsoft UI pages feature key.
 - [Handling UI interaction when working with web services](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/handling-ui-interaction-when-working-with-web-Services): Describes how UI methods can make web service calls fail.
-- [Publish a Web Service](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/publish-web-service): Explains how to publish page, query, and codeunits as web services.
+- [Publish a Web Service in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/publish-web-service): Publish OData V4 and SOAP web services in Business Central. Choose supported objects, set permissions, verify service URLs, and unpublish services.
+  - In the observatory: [Page 21 "Customer Card"](../../../../objects/page/21.md), [Page 810 "Web Services"](../../../../objects/page/810.md)
 - [Troubleshooting errors in OData/SOAP web services on pages, queries, and codeunits.](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-troubleshooting-soap-odata-ui-pages): Learn about how to troubleshoot Business Central web service errors on OData/SOAP endpoints on pages, queries, and codeunits.
 
 ## Videos, posts and code changes

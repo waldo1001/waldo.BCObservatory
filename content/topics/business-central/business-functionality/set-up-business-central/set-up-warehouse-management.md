@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-warehouse-management
 type: topic
 title: Set up warehouse management
-summary: "Warehouse management setup in Business Central: bins, bin types, bin contents, put-away templates, warehouse employees, directed put-away and pick, FEFO picking, breaking bulk, and converting or restructuring locations. It answers how to configure locations and warehouse structures."
+summary: "Warehouse management setup in Business Central: locations with bins, bin types, bin contents, put-away templates, warehouse employees, directed put-away and pick, FEFO picking, breaking bulk, and converting or restructuring warehouses. It answers how-to-configure questions for basic and advanced warehouse setups."
 tier: official
 language: en
 system: warehouse
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:18:16.682Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 4167a69f347db151803578c1379d56909fd8130c0125bb6f3a51726c1bd086d3
+  input_hash: 0a041f8e3a1e561228afb68668bce378bfa99f32b307a70501778b88562b9dc4
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-assign-default-bins-to-items
@@ -48,8 +48,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-bin-contents
-    title: Create Bin Contents
-    date: "2021-04-01"
+    title: Create bin contents
+    date: "2026-10-15"
     commit: null
     t: null
     quote: null
@@ -257,28 +257,28 @@ narrative: generated
 
 # Set up warehouse management
 
-> Warehouse management setup in Business Central: bins, bin types, bin contents, put-away templates, warehouse employees, directed put-away and pick, FEFO picking, breaking bulk, and converting or restructuring locations. It answers how to configure locations and warehouse structures.
+> Warehouse management setup in Business Central: locations with bins, bin types, bin contents, put-away templates, warehouse employees, directed put-away and pick, FEFO picking, breaking bulk, and converting or restructuring warehouses. It answers how-to-configure questions for basic and advanced warehouse setups.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up warehouse management · tier official · system warehouse · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up warehouse management · tier official · system warehouse · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section explains how to set up a warehouse in Business Central, from basic bin-based locations to advanced directed put-away and pick. Pages cover creating bins and bin contents, assigning default bins, defining bin types and put-away templates, and assigning users as warehouse employees.
+This section covers configuring warehouses, from basic setups to advanced directed put-away and pick. For basic setups, you turn on Bin Mandatory on a location, define default bins for receipts, shipments and adjustments, then create bins and bin contents. A separate page covers basic warehouses with operations areas for production and assembly.
 
-The pages fit together by complexity. Basic setups use Bin Mandatory on a location, default bins, and inventory documents for operations areas such as production and assembly. Advanced setups add zones, bin types, warehouse class codes, put-away templates, and automatic breaking bulk. Further pages cover enabling FEFO picking, converting existing locations to warehouse locations, and restructuring a warehouse by moving items between bins.
+For advanced setups, you also define bin types (RECEIVE, SHIP, PUT AWAY, PICK, PUTPICK, QC), put-away templates, zones, warehouse class codes and item dimensions, and assign warehouse employees to locations. Extra pages cover breaking bulk, FEFO picking, default bins on items, converting existing locations to warehouse locations, and restructuring a warehouse.
 
-Start with "Manage warehouse activities" for the overview and "Configure warehouse processes" for the setup sequence. Then follow "How to Set Up Locations to Use Bins" for basic needs, or "Set Up Directed Put-away and Pick" for advanced needs.
+Start with "Manage warehouse activities" for the overview and "Configure warehouse processes" for the setup sequence. Then use "How to Set Up Locations to Use Bins" and "Create bins" for the basics, or "Set Up Directed Put-away and Pick" for the advanced path.
 
 ## Key points
 
-- Turn on Bin Mandatory on a location and define default bins for receipts, shipments, and warehouse adjustments to start using bins.
-- Create bins one at a time from the location card, or in bulk with the Bin Creation Worksheet and Calculate Bins using rack, section, and level templates.
-- Bin contents can be created manually or with a worksheet, with fixed or default bin assignment and minimum and maximum quantities.
-- Six bin types exist for directed put-away and pick: RECEIVE, SHIP, PUT AWAY, PICK, PUTPICK, and QC.
-- Put-away templates use fixed bins, bin rankings, and floating bins, and can be set at item level or as warehouse defaults.
-- Warehouse employees are users assigned to locations, with a default location and access to several locations.
-- Converting an existing location uses the Create Warehouse Location batch job and requires clearing negative inventory first.
-- FEFO picking needs item tracking codes with warehouse tracking and expiration dates, plus Bin Mandatory on the location.
+- Enable bins on a location with Bin Mandatory, and set default bins for receipts, shipments and Adjustment Bin Code.
+- Bins can be created one by one from the location card, or in bulk with the Bin Creation Worksheet and its Calculate Bins function using rack, section and level templates.
+- Bin contents can be created manually or with the bin content creation worksheet, with fixed bins, default bins, and minimum and maximum quantities.
+- Six bin types exist for directed put-away and pick: RECEIVE, SHIP, PUT AWAY, PICK, PUTPICK and QC.
+- Put-away templates use criteria such as fixed bins, bin rankings and floating bins, and can be set per item or as a warehouse default.
+- FEFO picking uses Pick According to FEFO with item tracking codes and warehouse tracking, and needs Bin Mandatory.
+- Converting an existing location to a warehouse location uses the Create Warehouse Location batch job and requires clearing negative inventory first.
+- Restructuring uses the Item Reclassification Journal for basic setups, and the Warehouse Reclassification Journal and Movement Worksheets for directed put-away and pick.
 
 ## Learn pages
 
@@ -286,8 +286,8 @@ Start with "Manage warehouse activities" for the overview and "Configure warehou
 - [Breaking Bulk with Directed Put-away and Pick](https://learn.microsoft.com/dynamics365/business-central/warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick): Learn how to enable automatic breaking bulk with directed put-away and pick, as well as breakbulking in picks, put-aways, movements, and more.
 - [Configure warehouse processes](https://learn.microsoft.com/dynamics365/business-central/warehouse-setup-warehouse): A company's distribution strategy is reflected in the configuration of its warehouse processes, for example the warehouse locations.
 - [Convert Existing Locations to Warehouse Locations](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-convert-existing-locations-to-warehouse-locations): You can enable an existing inventory location to use zones and bins and to operate as a warehouse location.
-- [Create Bin Contents](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-bin-contents): After you have set up your bins, you can specify the items that you want to store in them, and set up rules that control how often bins are refilled.
-  - In the observatory: [Page 36957 "Locations"](../../../../objects/page/36957.md), [Page 7371 "Bin Content Creation Worksheet"](../../../../objects/page/7371.md)
+- [Create bin contents](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-bin-contents): After you have set up your bins, you can specify the items that you want to store in them, and set up rules that control how often bins are refilled.
+  - In the observatory: [Page 36957 "Locations"](../../../../objects/page/36957.md), [Page 7304 "Bin Content"](../../../../objects/page/7304.md), [Page 7371 "Bin Content Creation Worksheet"](../../../../objects/page/7371.md)
 - [Create bins](https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-create-individual-bins): Generate groups of similar bins in the bin creation worksheet, create bins individually on the location card, or automatically on the Bin Creation Worksheet.
   - In the observatory: [Page 36957 "Locations"](../../../../objects/page/36957.md), [Page 7302 "Bins"](../../../../objects/page/7302.md)
 - [How to enable picking by FEFO](https://learn.microsoft.com/dynamics365/business-central/warehouse-picking-by-fefo): First-Expired-First-Out (FEFO) is a sorting method that ensures that items with the earliest expiration dates are picked first.

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-31T00:48:20.076Z"
+  at: "2026-11-03T00:49:14.469Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c1278f11b8ea4cb40141a5f8c683048681b7724b21f97641d2a60b6d55bf2706
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IProcessStructuredData.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IProcessStructuredData.Interface.al
     title: src/Apps/W1/EDocument/app/src/Processing/Interfaces/IProcessStructuredData.Interface.al (releases/29.x)
     date: null
-    commit: 8e740e5061595dd231c4a2d9d453c86c84ec76ae
+    commit: d992339dbf106bf2412e17518329e128634f2951
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "IProcessStructuredData" in EDocument (Microsoft.eServices.EDocument.Processing.Interfaces). 4 public procedures. Introduced in BC29, still in BC30.
 
-EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at 8e740e50](https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IProcessStructuredData.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at d992339d](https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IProcessStructuredData.Interface.al) · facts from BC29
 
 ## Procedures
 

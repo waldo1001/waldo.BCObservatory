@@ -2,26 +2,26 @@
 id: topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions
 type: topic
 title: Grant user permissions
-summary: "Granting user permissions in Business Central: creating users according to license type, assigning permission sets, license assignment, security groups, user groups and delegated admin, plus defining granular permission sets with read, insert, modify, delete and execute access, indirect permissions, security filters for record-level security, and permission import/export."
+summary: Granting user permissions in Business Central covers creating users according to licenses and defining granular permission sets. It answers questions about adding users from Microsoft 365, assigning permissions by license type, using security groups, and setting object-level and record-level access.
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:22:30.673Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f71bf49f1b97704defef02d11b8bc1974c8fce04cd2940c5068d12e2134ce184
+  input_hash: dc85ca42c4f787d46e6372c001b861b725340ccd7b6094cdf70ae194c170590d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-users-permissions
     title: Create users according to licenses
-    date: "2026-07-16"
+    date: "2026-11-02"
     commit: null
     t: null
     quote: null
@@ -127,26 +127,27 @@ narrative: generated
 
 # Grant user permissions
 
-> Granting user permissions in Business Central: creating users according to license type, assigning permission sets, license assignment, security groups, user groups and delegated admin, plus defining granular permission sets with read, insert, modify, delete and execute access, indirect permissions, security filters for record-level security, and permission import/export.
+> Granting user permissions in Business Central covers creating users according to licenses and defining granular permission sets. It answers questions about adding users from Microsoft 365, assigning permissions by license type, using security groups, and setting object-level and record-level access.
 
-Path: [Development and administration](../../../development-and-administration.md) > [Administration tasks in Business Central](../../administration-tasks-in-business-central.md) > [Manage access to Business Central](../manage-access-to-business-central.md) > Grant user permissions · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Development and administration](../../../development-and-administration.md) > [Administration tasks in Business Central](../../administration-tasks-in-business-central.md) > [Manage access to Business Central](../manage-access-to-business-central.md) > Grant user permissions · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how administrators give users access in Business Central. It has two pages: one for creating users and tying them to licenses, and one for building granular permission sets.
+This section explains how to give people access to Business Central. It has two pages: one on creating and managing users, and one on defining detailed permissions.
 
-"Create users according to licenses" explains creating users, assigning permission sets, managing licenses, and configuring permissions based on license types, for Business Central online and on-premises. It also covers security groups, user groups and delegated admin.
+Start with "Create users according to licenses". It covers creating user accounts, assigning permission sets, and configuring licenses for online and on-premises deployments. It also covers importing users from Microsoft 365, managing access through security groups, delegated admin users, and user status.
 
-"Define granular permissions" describes creating permission sets with read, insert, modify, delete and execute access levels for database objects. It also covers indirect permissions, security filters and record-level access control, and importing and exporting permissions.
+Then use "Define granular permissions" when the standard permission sets are not enough. It describes building permission sets with read, insert, modify, delete, and execute access on database objects. It also covers indirect permissions, security filters for record-level access, and importing and exporting permissions.
 
 ## Key points
 
-- Administrators create users and assign permission sets, with permissions configured according to license type.
-- The user creation page covers Business Central online and on-premises.
-- License assignment, security groups, user groups and delegated admin are covered in the user creation page.
-- Custom permission sets can set read, insert, modify, delete and execute access on database objects.
-- Indirect permissions are part of defining granular permission sets.
-- Security filters provide record-level access control.
+- Users can be added from Microsoft 365 and given permission sets based on their license type.
+- Access can be managed through security groups.
+- Both online and on-premises deployments are covered for user and license setup.
+- Delegated admin users and user status management are part of user management.
+- Permission sets define read, insert, modify, delete, and execute access to database objects.
+- Indirect permissions are supported in permission sets.
+- Security filters allow record-level access control.
 - Permissions can be imported and exported.
 
 ## Learn pages

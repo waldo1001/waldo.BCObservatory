@@ -6,13 +6,13 @@
   "systems_joined": [
     "copilot"
   ],
-  "summary": "The Expense Agent now correctly handles itemization rounding calculations and includes the currency code in API responses and line items.",
+  "summary": "Fixes rounding of Expense Agent itemization amounts and a missing currency code on expense report line items. The change touches the itemization and line item API pages, the line item tables and pages, and the expense rule validation and auto-population codeunits.",
   "key_points": [
-    "Fixed rounding logic for expense itemization amounts",
-    "Added currency code to API pages and line item tables",
-    "Enhanced expense rule validation with new test coverage",
-    "Updated auto-population logic to handle currency information",
-    "Improved calculation accuracy in expense report processing"
+    "Fixes rounding of expense itemization amounts",
+    "Fixes a missing currency code on line items and their API pages",
+    "Updates the Expense Report Line Item and Posted Exp. Rep. Line Item tables and pages",
+    "Changes expense rule validation and auto-population codeunits",
+    "Adds rule violation tests and re-enables previously disabled Expense Agent tests"
   ],
   "change_kind": "fix",
   "behavior_change": true,

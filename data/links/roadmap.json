@@ -31521,52 +31521,59 @@
     "video/_JkZCp64jNw": {
       "kind": "video",
       "key": "video/_JkZCp64jNw",
-      "hash": "09f1b2ce9a59445d539c55fd6866e0100f9f964215cac0a349fec8b333932cb6",
+      "hash": "82c883e9340b4ac6b6b37195f87345d54aa1c995bf80ff675aeab1efcf5b907e",
       "video_id": "_JkZCp64jNw",
       "title": "Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening",
-      "at": "2026-10-30T07:55:02.142Z",
+      "at": "2026-11-03T00:54:05.161Z",
       "matches": [
-        {
-          "feature": 0,
-          "name": "Sales Order Agent",
-          "t": 443,
-          "roadmap_id": "578068",
-          "quote": "An AI-powered agent that reads emails, understands customer requests"
-        },
         {
           "feature": 1,
           "name": "Sales Order Agent Item Availability Feature",
           "t": 555,
           "roadmap_id": "578065",
-          "quote": "item availability based on location, requested delivery date, and quantity"
+          "quote": "item availability based on location, requested delivery date"
         },
         {
           "feature": 4,
           "name": "Sales Order Agent PDF Preview",
           "t": 652,
           "roadmap_id": "573367",
-          "quote": "Ability to preview PDFs within Business Central"
+          "quote": "preview PDFs within Business Central"
+        },
+        {
+          "feature": 6,
+          "name": "Payables Agent",
+          "t": 745,
+          "roadmap_id": "573380",
+          "quote": "agent that reads incoming invoices using Azure intelligence"
         },
         {
           "feature": 25,
           "name": "PDF Viewing of Attachments",
           "t": 1677,
           "roadmap_id": "573367",
-          "quote": "Users can now view PDF attachments directly in the Business Central client"
+          "quote": "view PDF attachments directly in the Business Central client"
         },
         {
           "feature": 34,
           "name": "Unified Extensions Management in Admin Center",
           "t": 2050,
           "roadmap_id": "576815",
-          "quote": "All extensions - global extensions, per-tenant extensions are now available in a single view"
+          "quote": "extensions - global extensions, per-tenant extensions - available in single view"
+        },
+        {
+          "feature": 37,
+          "name": "Word-Based Report Customization Add-on",
+          "t": 2251,
+          "roadmap_id": "573328",
+          "quote": "report customization using Microsoft Word for layout design"
         },
         {
           "feature": 54,
           "name": "Page Scripting Tests in AL-Go",
           "t": 3070,
           "roadmap_id": "573384",
-          "quote": "Developers can use page scripting tests and import automated tests"
+          "quote": "page scripting tests and import automated tests"
         }
       ]
     },
@@ -31606,24 +31613,38 @@
     "video/_ynMUzh956w": {
       "kind": "video",
       "key": "video/_ynMUzh956w",
-      "hash": "a1bd9a308dd35fa3e33b1a7ecfd1edeee59e14d7c6b251295bb8005da5abdd6b",
+      "hash": "2e9b1f36e27e688471742d38adb5aba5dde1c7e5ae1cd6807851687d8bc67329",
       "video_id": "_ynMUzh956w",
       "title": "Introducing: Sustainability in Business Central (2024 release wave 1)",
-      "at": "2026-10-30T07:55:06.410Z",
+      "at": "2026-11-03T00:54:03.383Z",
       "matches": [
+        {
+          "feature": 2,
+          "name": "Emissions calculation formulas",
+          "t": 722,
+          "roadmap_id": "573374",
+          "quote": "Built-in calculation methods and formulas to compute emissions amounts"
+        },
+        {
+          "feature": 3,
+          "name": "Sustainability ledger entries",
+          "t": 739,
+          "roadmap_id": "573376",
+          "quote": "Posted sustainability ledger entries that store all recorded emissions"
+        },
         {
           "feature": 5,
           "name": "Sustainability APIs",
           "t": 768,
           "roadmap_id": "576874",
-          "quote": "Sustainability APIs. API endpoints enabling external systems and solutions to connect"
+          "quote": "API endpoints enabling external systems and solutions to connect"
         },
         {
           "feature": 9,
           "name": "Emission factor configuration in subcategories",
           "t": 1001,
           "roadmap_id": "573374",
-          "quote": "emission factors in sustainability subcategories that are used in calculations"
+          "quote": "Ability to define emission factors in sustainability subcategories"
         }
       ]
     },
@@ -33792,27 +33813,19 @@
     "video/axQegcPweNY": {
       "kind": "video",
       "key": "video/axQegcPweNY",
-      "hash": "5167867b4e37fa165706e9ab8b9d2ec0858f98dae087edd416380d714bf65aa7",
+      "hash": "3b326fa7a348e590c7674b0362b033858a88c420107610870787208d995c0a9a",
       "video_id": "axQegcPweNY",
       "title": "What's New: Draft Page for Electronic Invoices (2025 release wave 2)",
-      "at": "2026-10-25T12:37:04.582Z",
-      "matches": [
-        {
-          "feature": 7,
-          "name": "E-document service version 2",
-          "t": 210,
-          "roadmap_id": "573305",
-          "quote": "New version of e-document service configuration that supports the draft page workflow"
-        }
-      ]
+      "at": "2026-11-03T00:54:02.008Z",
+      "matches": []
     },
     "video/ayXdXFyFEjY": {
       "kind": "video",
       "key": "video/ayXdXFyFEjY",
-      "hash": "9a0b7eb22ee5a22e9ad391464ef0fa3e29f3c8ab126f403db8a983f01f61c5ae",
+      "hash": "ead107c2fdb08bc1b2b224e87674b51cfc467e4601c54c3b1916cb4faa961739",
       "video_id": "ayXdXFyFEjY",
       "title": "Drive Sales with AI-Generated Product Descriptions in Business Central (2024 release wave 1)",
-      "at": "2026-10-30T07:55:06.916Z",
+      "at": "2026-11-03T00:54:03.294Z",
       "matches": []
     },
     "video/b-ixzwDS41c": {
@@ -34031,19 +34044,19 @@
     "video/bCIcq1zESKk": {
       "kind": "video",
       "key": "video/bCIcq1zESKk",
-      "hash": "25e0ba623dafd833b5bde339de77938ba688f9ab651a576e1b95f12e938e3b87",
+      "hash": "4015739bf04ff4b7acac563f02f076d2e344967cce65940eeb8aefad45a98754",
       "video_id": "bCIcq1zESKk",
       "title": "What's New: Item Substitution with Copilot (2024 release wave 2)",
-      "at": "2026-10-30T07:55:13.788Z",
+      "at": "2026-11-03T00:54:05.769Z",
       "matches": []
     },
     "video/bHXEbtsx0JY": {
       "kind": "video",
       "key": "video/bHXEbtsx0JY",
-      "hash": "97260b86b13b033d04b4f9ccee1dd1e94f284438c19777fd8109db6a78cc763d",
+      "hash": "106548469b0e71e44c0513b45b2966434796e4c88c95093f6705b9bd27c5fab9",
       "video_id": "bHXEbtsx0JY",
       "title": "What's New: Sustainability Copilot (2025 release wave 2)",
-      "at": "2026-10-30T07:55:13.580Z",
+      "at": "2026-11-03T00:54:08.631Z",
       "matches": []
     },
     "video/BlkW7VC52c0": {
@@ -34058,10 +34071,10 @@
     "video/bnqxycPzbeI": {
       "kind": "video",
       "key": "video/bnqxycPzbeI",
-      "hash": "0b97a15f5468947d81ada044bb99c365ef3b1d19569c65c0c73e904bb8f4e2d3",
+      "hash": "75fa3d3e5c4bdbe200752fe9b3b0ccf2ce8c39f2edab7202ad125e3ee4f25440",
       "video_id": "bnqxycPzbeI",
       "title": "What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)",
-      "at": "2026-10-25T12:37:08.416Z",
+      "at": "2026-11-03T00:54:07.933Z",
       "matches": []
     },
     "video/BofJJPqgrTI": {
@@ -34103,17 +34116,17 @@
     "video/bVPFIhkvZEA": {
       "kind": "video",
       "key": "video/bVPFIhkvZEA",
-      "hash": "ef8943a79d90acd89df9dffd930b9236b7e62e20df628d0bcf1f5c5634446ef2",
+      "hash": "bb20dfaf8ebc4a0d457e08bc4b581dcb9d625fb17e69a2176dc17f0800011357",
       "video_id": "bVPFIhkvZEA",
       "title": "Business Central: Turn SIFT Indexes on or Off",
-      "at": "2026-10-30T07:55:13.940Z",
+      "at": "2026-11-03T00:54:06.534Z",
       "matches": [
         {
           "feature": 0,
           "name": "Turn SIFT indexes on or off from Business Central client",
           "t": 11,
           "roadmap_id": "573316",
-          "quote": "Turn SIFT indexes on or off from Business Central client"
+          "quote": "Administrators can now manage SIFT indexes directly from the Business Central application"
         },
         {
           "feature": 1,
@@ -34127,7 +34140,7 @@
           "name": "Index type classification",
           "t": 639,
           "roadmap_id": "573316",
-          "quote": "The index management experience now shows the type of index"
+          "quote": "shows the type of index - either a secondary key in SQL Server or a SIFT"
         },
         {
           "feature": 3,
@@ -34141,7 +34154,7 @@
           "name": "Immediate index disable with deferred enable",
           "t": 1008,
           "roadmap_id": "573316",
-          "quote": "Disabling a SIFT or index happens immediately, but enabling"
+          "quote": "Disabling a SIFT or index happens immediately, but enabling an index is deferred"
         }
       ]
     },
@@ -34279,11 +34292,19 @@
     "video/c91E6IykUnk": {
       "kind": "video",
       "key": "video/c91E6IykUnk",
-      "hash": "6f9919abef7e3cf4259b52a7cd54a495223498aea517045b5b0a45748c35eb2e",
+      "hash": "5c8b19f6639f30dfef82740236c9f81d431337587afd9b443c52e0dc4bb1d187",
       "video_id": "c91E6IykUnk",
       "title": "Episode 519: The Last Frontier: Can AI Finally Conquer BC Report Layouts?",
-      "at": "2026-10-30T07:55:14.625Z",
-      "matches": []
+      "at": "2026-11-03T00:54:10.993Z",
+      "matches": [
+        {
+          "feature": 5,
+          "name": "Automated screenshot generation with Playwright",
+          "t": 1454,
+          "roadmap_id": "573384",
+          "quote": "Using Playwright and page scripting to automatically generate screenshots"
+        }
+      ]
     },
     "video/cc6rEVDhlzs": {
       "kind": "video",
@@ -34672,17 +34693,17 @@
     "video/d4mYltz4Zwg": {
       "kind": "video",
       "key": "video/d4mYltz4Zwg",
-      "hash": "d1a200620cb7487dc305fcce6f9307515f1158800214f829a6f6d2dfbcd640ab",
+      "hash": "97f4d81c533bda673f0bec928c68e3573ca8477855fedb501165f15881f159e6",
       "video_id": "d4mYltz4Zwg",
       "title": "Introducing: Withholding Taxes (2026 release wave 1)",
-      "at": "2026-10-30T07:55:20.144Z",
+      "at": "2026-11-03T00:54:10.835Z",
       "matches": [
         {
           "feature": 0,
           "name": "Withholding Tax for Vendors and Purchase Process",
           "t": 20,
           "roadmap_id": "573308",
-          "quote": "apply withholding taxes to vendors during the purchase process"
+          "quote": "New capability to apply withholding taxes to vendors during the purchase process"
         },
         {
           "feature": 1,
@@ -34710,7 +34731,7 @@
           "name": "Withholding Tax Threshold and Calculation Rules",
           "t": 195,
           "roadmap_id": "573308",
-          "quote": "Support for multiple calculation rule types including less than, greater than thresholds"
+          "quote": "Support for multiple calculation rule types including less than, less than or equal"
         },
         {
           "feature": 5,
@@ -35017,10 +35038,10 @@
     "video/e5Dr3jzCLM8": {
       "kind": "video",
       "key": "video/e5Dr3jzCLM8",
-      "hash": "2df32d81be84a362ee8ecd389ec151fecafee29a637738d5829378eec09d2262",
+      "hash": "762dda6ae2d5dca669f91c5c264fe19dcc5c12ca0a9efa1daa2811e321f88c51",
       "video_id": "e5Dr3jzCLM8",
       "title": "Introducing: Shopify and Dynamics 365 Business Central (2023)",
-      "at": "2026-10-30T07:55:28.498Z",
+      "at": "2026-11-03T00:54:11.653Z",
       "matches": []
     },
     "video/eA7CENx7se0": {
@@ -35367,10 +35388,10 @@
     "video/fJGY6d-2lO8": {
       "kind": "video",
       "key": "video/fJGY6d-2lO8",
-      "hash": "3ad89cd96cf0a3c28f0ae1d3394c19da18f572d2a5229274cbf65f6df59f9213",
+      "hash": "3960cb3a71257bdc33f725b9d4d7ae318737f869bf41af150176ae86ed49289b",
       "video_id": "fJGY6d-2lO8",
       "title": "What's New: Enhanced Sales Analytics (2026 release wave 1)",
-      "at": "2026-10-25T12:37:38.967Z",
+      "at": "2026-11-03T00:54:12.521Z",
       "matches": [
         {
           "feature": 3,
@@ -35553,10 +35574,10 @@
     "video/gBB0elWQWM8": {
       "kind": "video",
       "key": "video/gBB0elWQWM8",
-      "hash": "3133220d482d83ccf3aea587af1f8fe5d930d6f6d4eddbe584cc91529fa24cdd",
+      "hash": "35d1659973e02e60491336de5d5dd0e67e33e222e1cfca89444d6a1dfbdfa1fe",
       "video_id": "gBB0elWQWM8",
       "title": "Warn Salespeople That a Product Will Soon be Out of Stock",
-      "at": "2026-10-25T12:37:52.137Z",
+      "at": "2026-11-03T00:54:12.486Z",
       "matches": []
     },
     "video/GbMjcJurkFE": {
@@ -42490,10 +42511,10 @@
     "video/WvG4EOHQuiw": {
       "kind": "video",
       "key": "video/WvG4EOHQuiw",
-      "hash": "91aed65c6afbad2a6c4689304b8fa53a20376fb69aa261985454f095aafa7751",
+      "hash": "385f91caa102ba4aeae23d15205074ecb5642b9f3e6a22fab1eb95c99972218a",
       "video_id": "WvG4EOHQuiw",
       "title": "What's New: Field Service Integration to Service Management (2024 release wave 2)",
-      "at": "2026-10-25T12:36:29.441Z",
+      "at": "2026-11-03T00:53:55.962Z",
       "matches": []
     },
     "video/WYd8Qn3wVQQ": {
@@ -42508,11 +42529,33 @@
     "video/WZUQ9X26MLo": {
       "kind": "video",
       "key": "video/WZUQ9X26MLo",
-      "hash": "e48c814c7d5c7066e2cd22a47b12af94a699de0673a9fb6ea48d5a3eafaf8d6b",
+      "hash": "32d558a2c88c6ea71d15d10d13b2e2a79e446ff18bc73892f8c37e37c13f2867",
       "video_id": "WZUQ9X26MLo",
       "title": "What's new in Sustainability: EUDR Certificate Capture (2026 release wave 2)",
-      "at": "2026-10-25T12:36:21.164Z",
-      "matches": []
+      "at": "2026-11-03T00:53:55.371Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "EUDR item marking on item card",
+          "t": 59,
+          "roadmap_id": "573251",
+          "quote": "mark items as EUDR relevant and assign commodity classification"
+        },
+        {
+          "feature": 1,
+          "name": "Lot number certificate information capture",
+          "t": 99,
+          "roadmap_id": "573251",
+          "quote": "Certificate details captured on the lot number information card"
+        },
+        {
+          "feature": 3,
+          "name": "Certification information on sales invoices",
+          "t": 171,
+          "roadmap_id": "573251",
+          "quote": "display certification details on sales invoice layout"
+        }
+      ]
     },
     "video/x0XF0lBvgEE": {
       "kind": "video",
@@ -42541,17 +42584,17 @@
     "video/X3xygXmgRqU": {
       "kind": "video",
       "key": "video/X3xygXmgRqU",
-      "hash": "668b13d650fa7ae14225bcbb5972ddc2213ffeac42239178adf7c5a45003382f",
+      "hash": "64890436443397d2a476b7cb29b6767b2fca78e290b7acde3ebec6a34584825d",
       "video_id": "X3xygXmgRqU",
       "title": "How to Set Up Locations in Business Central (2025)",
-      "at": "2026-10-25T12:36:26.988Z",
+      "at": "2026-11-03T00:53:57.347Z",
       "matches": [
         {
           "feature": 8,
           "name": "Direct Transfer",
           "t": 98,
           "roadmap_id": "573347",
-          "quote": "Transfer orders can use a direct transfer checkbox to move items"
+          "quote": "move items between locations all at once without using an intransit location"
         }
       ]
     },
@@ -42636,83 +42679,90 @@
     "video/XhO4oFmoh1M": {
       "kind": "video",
       "key": "video/XhO4oFmoh1M",
-      "hash": "1c2f254a880e0caf12958db700d141896a5080268f107e9fee17713cc9fd96b8",
+      "hash": "3d7ec63ef426adeb0066b6469ae539004d1ed58e17ddda97ecd3b952864a637f",
       "video_id": "XhO4oFmoh1M",
       "title": "Introducing: Sales Order Agent (2025 release wave 1)",
-      "at": "2026-10-30T07:54:52.287Z",
+      "at": "2026-11-03T00:53:58.590Z",
       "matches": [
         {
           "feature": 0,
           "name": "Sales Order Agent",
           "t": 6,
           "roadmap_id": "578068",
+          "quote": "Sales Order Agent. An AI agent that automates the process"
+        },
+        {
+          "feature": 0,
+          "name": "Sales Order Agent",
+          "t": 6,
+          "roadmap_id": "578065",
           "quote": "Sales Order Agent. An AI agent that automates the process of managing sales team operations"
         },
         {
           "feature": 1,
           "name": "Sales Order Agent Configuration",
           "t": 148,
-          "roadmap_id": "578068",
-          "quote": "An activation dialog that allows administrators to configure the sales order agent with minimal setup"
+          "roadmap_id": "578065",
+          "quote": "Sales Order Agent Configuration. An activation dialog that allows administrators to configure"
         },
         {
           "feature": 2,
           "name": "Agent Task Pane",
           "t": 326,
           "roadmap_id": "573363",
-          "quote": "A view accessible from the Copilot pane where users can see tasks coming in from the monitored mailbox"
+          "quote": "Agent Task Pane. A view accessible from the Copilot pane where users can see tasks coming in"
+        },
+        {
+          "feature": 4,
+          "name": "Item Search Across Multiple Tables",
+          "t": 550,
+          "roadmap_id": "578065",
+          "quote": "Item Search Across Multiple Tables. The agent searches inventory across multiple data sources"
         },
         {
           "feature": 5,
           "name": "Automatic Sales Quote Creation",
           "t": 751,
           "roadmap_id": "578068",
-          "quote": "The agent automatically creates sales quotes based on customer email requests, populating quote details"
+          "quote": "Automatic Sales Quote Creation. The agent automatically creates sales quotes based on customer email requests"
+        },
+        {
+          "feature": 6,
+          "name": "Agent KPIs Dashboard",
+          "t": 306,
+          "roadmap_id": "578065",
+          "quote": "Agent KPIs Dashboard. A dashboard showing key performance indicators for the sales order agent"
         },
         {
           "feature": 8,
           "name": "Sales Order Agent Email Processing",
           "t": 791,
           "roadmap_id": "578068",
-          "quote": "The agent automatically reads inbound emails, scans for items, checks availability, and pre-creates sales quotes"
+          "quote": "Sales Order Agent Email Processing. The agent automatically reads inbound emails, scans for items"
         },
         {
           "feature": 9,
           "name": "Sales Order Agent Natural Language Conversation",
           "t": 913,
           "roadmap_id": "578068",
-          "quote": "The agent converses with customers in natural language through email, responding to inventory questions"
+          "quote": "Sales Order Agent Natural Language Conversation. The agent converses with customers in natural language through email"
         },
         {
           "feature": 10,
           "name": "Agent Email Safety and Relevance Filtering",
           "t": 994,
-          "roadmap_id": "578068",
-          "quote": "The agent filters inbound emails and tags those that are not relevant to sales"
-        },
-        {
-          "feature": 11,
-          "name": "Agent Permission Sets",
-          "t": 1309,
-          "roadmap_id": "573370",
-          "quote": "Administrators control agent authorization scope through permission sets that outline the exact permissions"
-        },
-        {
-          "feature": 12,
-          "name": "Agent Profile Configuration",
-          "t": 1389,
-          "roadmap_id": "573372",
-          "quote": "Administrators can assign profiles to agents to control their interaction surface, exposing or hiding controls"
+          "roadmap_id": "578065",
+          "quote": "Agent Email Safety and Relevance Filtering. The agent filters inbound emails and tags those"
         }
       ]
     },
     "video/XJ0JHHQ7GzA": {
       "kind": "video",
       "key": "video/XJ0JHHQ7GzA",
-      "hash": "ff3f92ab1f9e34c945b36e35cc44c0074ebb101994b266d0b1553b272bbd15d5",
+      "hash": "02e9ebeaa2c01028eb6cfdc94c62b8c251e3ceeca6e5d7e8005a2defa011e581",
       "video_id": "XJ0JHHQ7GzA",
       "title": "Comparing Posting Accounts and posting groups between Dynamics SL and Dynamics 365 Business Cent",
-      "at": "2026-10-30T07:54:46.597Z",
+      "at": "2026-11-03T00:53:57.961Z",
       "matches": []
     },
     "video/xJ8gYzvWnTI": {
@@ -42892,10 +42942,10 @@
     "video/XYr0xwgpomA": {
       "kind": "video",
       "key": "video/XYr0xwgpomA",
-      "hash": "63c4acfda95be2e8be6c5ca1abf80cf2d4f2703ddb30d4c366277f518e062a8b",
+      "hash": "c5d4e6a637f5e3e9d382c49428985afa4970a51e03b949fad4b2ac58e93cbd22",
       "video_id": "XYr0xwgpomA",
       "title": "What's New in Sustainability: Sustainability Journals Approval (2025 release wave 2)",
-      "at": "2026-10-30T07:54:47.554Z",
+      "at": "2026-11-03T00:53:57.590Z",
       "matches": []
     },
     "video/y_8xralhVMM": {
@@ -43085,87 +43135,73 @@
     "video/YSDfDjrMUb0": {
       "kind": "video",
       "key": "video/YSDfDjrMUb0",
-      "hash": "1d4d067169f0a11f7260c72f638df3d3f353219236f304b6545d9cce18410673",
+      "hash": "383757c6496e1047a3bb17e84e1bf4df88471acd2fd5087ce8f12054a7f1dc14",
       "video_id": "YSDfDjrMUb0",
       "title": "What's new in Shopify Connector: Overview (2026 release wave 2)",
-      "at": "2026-10-25T12:36:38.342Z",
+      "at": "2026-11-03T00:54:02.203Z",
       "matches": [
         {
           "feature": 0,
           "name": "Tariff code synchronization",
           "t": 66,
           "roadmap_id": "573344",
-          "quote": "Import and export tariff codes (harmonized system codes) from items in Business Central to Shopify products"
+          "quote": "Tariff code synchronization. Import and export tariff codes"
         },
         {
           "feature": 5,
           "name": "B2B company synchronization",
           "t": 399,
           "roadmap_id": "573342",
-          "quote": "Company synchronization now visible by default for all Shopify plans"
+          "quote": "B2B company synchronization. Company synchronization now visible by default"
         },
         {
           "feature": 5,
           "name": "B2B company synchronization",
           "t": 399,
           "roadmap_id": "576836",
-          "quote": "Company synchronization now visible by default for all Shopify plans"
+          "quote": "B2B company synchronization. Company synchronization now visible by default"
         },
         {
           "feature": 6,
           "name": "Market-based catalogs",
           "t": 467,
           "roadmap_id": "573342",
-          "quote": "Use Shopify markets (by region, B2B, or POS) linked to Business Central catalogs"
+          "quote": "Market-based catalogs. Use Shopify markets linked to Business Central catalogs"
         },
         {
           "feature": 7,
           "name": "Company location tax registration import",
           "t": 751,
           "roadmap_id": "573342",
-          "quote": "Tax registration IDs for company locations are imported from Shopify"
+          "quote": "Company location tax registration import. Tax registration IDs for company locations"
         },
         {
           "feature": 9,
           "name": "Shopify order number in sales documents",
           "t": 880,
           "roadmap_id": "573340",
-          "quote": "Ability to populate Shopify order number as a separate field in sales documents"
-        },
-        {
-          "feature": 10,
-          "name": "Contact numbers on sales orders",
-          "t": 948,
-          "roadmap_id": "573340",
-          "quote": "Ability to populate sell-to, bill-to, and ship-to contact numbers on sales orders"
+          "quote": "Shopify order number in sales documents. Ability to populate Shopify order number"
         },
         {
           "feature": 11,
           "name": "Multi-line order handling and returns",
           "t": 1028,
           "roadmap_id": "573343",
-          "quote": "Support for Shopify orders with exchanges and returns that result in multiple lines"
+          "quote": "Multi-line order handling and returns. Support for Shopify orders with exchanges and returns"
         },
         {
           "feature": 12,
           "name": "Return order processing from Shopify refunds",
           "t": 1091,
           "roadmap_id": "573343",
-          "quote": "Process Shopify refunds as Business Central return orders instead of credit memos"
-        },
-        {
-          "feature": 14,
-          "name": "Tax details on Shopify refunds and orders",
-          "t": 1218,
-          "roadmap_id": "574128",
-          "quote": "Display of tax fact box and tax lines on Shopify refunds and related orders"
+          "quote": "Return order processing from Shopify refunds. Process Shopify refunds as Business Central return orders"
         },
         {
           "feature": 15,
           "name": "Tax area code and tax liable mapping override",
           "t": 1278,
           "roadmap_id": "574128",
-          "quote": "New fields on Shopify order details (tax area code and tax liable) that can be manually overridden"
+          "quote": "Tax area code and tax liable mapping override. New fields on Shopify order details"
         }
       ]
     },

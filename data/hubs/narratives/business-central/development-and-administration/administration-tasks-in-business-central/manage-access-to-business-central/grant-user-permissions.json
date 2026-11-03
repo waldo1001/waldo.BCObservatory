@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions",
-  "input_hash": "f71bf49f1b97704defef02d11b8bc1974c8fce04cd2940c5068d12e2134ce184",
-  "summary": "Granting user permissions in Business Central: creating users according to license type, assigning permission sets, license assignment, security groups, user groups and delegated admin, plus defining granular permission sets with read, insert, modify, delete and execute access, indirect permissions, security filters for record-level security, and permission import/export.",
-  "overview": "This section covers how administrators give users access in Business Central. It has two pages: one for creating users and tying them to licenses, and one for building granular permission sets.\n\n\"Create users according to licenses\" explains creating users, assigning permission sets, managing licenses, and configuring permissions based on license types, for Business Central online and on-premises. It also covers security groups, user groups and delegated admin.\n\n\"Define granular permissions\" describes creating permission sets with read, insert, modify, delete and execute access levels for database objects. It also covers indirect permissions, security filters and record-level access control, and importing and exporting permissions.",
+  "input_hash": "dc85ca42c4f787d46e6372c001b861b725340ccd7b6094cdf70ae194c170590d",
+  "summary": "Granting user permissions in Business Central covers creating users according to licenses and defining granular permission sets. It answers questions about adding users from Microsoft 365, assigning permissions by license type, using security groups, and setting object-level and record-level access.",
+  "overview": "This section explains how to give people access to Business Central. It has two pages: one on creating and managing users, and one on defining detailed permissions.\n\nStart with \"Create users according to licenses\". It covers creating user accounts, assigning permission sets, and configuring licenses for online and on-premises deployments. It also covers importing users from Microsoft 365, managing access through security groups, delegated admin users, and user status.\n\nThen use \"Define granular permissions\" when the standard permission sets are not enough. It describes building permission sets with read, insert, modify, delete, and execute access on database objects. It also covers indirect permissions, security filters for record-level access, and importing and exporting permissions.",
   "key_points": [
-    "Administrators create users and assign permission sets, with permissions configured according to license type.",
-    "The user creation page covers Business Central online and on-premises.",
-    "License assignment, security groups, user groups and delegated admin are covered in the user creation page.",
-    "Custom permission sets can set read, insert, modify, delete and execute access on database objects.",
-    "Indirect permissions are part of defining granular permission sets.",
-    "Security filters provide record-level access control.",
+    "Users can be added from Microsoft 365 and given permission sets based on their license type.",
+    "Access can be managed through security groups.",
+    "Both online and on-premises deployments are covered for user and license setup.",
+    "Delegated admin users and user status management are part of user management.",
+    "Permission sets define read, insert, modify, delete, and execute access to database objects.",
+    "Indirect permissions are supported in permission sets.",
+    "Security filters allow record-level access control.",
     "Permissions can be imported and exported."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:03:37.722Z",
+  "at": "2026-11-03T01:01:10.798Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.008263
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T05:22:30.673Z",
-    "verdict": "fix",
-    "issues": [
-      "Key point defines indirect permissions (reaching objects through other permitted objects); the source only lists 'Indirect permissions' as a feature with no explanation.",
-      "Online and on-premises scope is stated for the whole section (overview and a key point), but only the 'Create users according to licenses' page states it.",
-      "'Two pages that work in sequence' and 'when the standard permission sets are not enough' are framing not supported by the sources; softened."
-    ],
-    "input_hash": "f71bf49f1b97704defef02d11b8bc1974c8fce04cd2940c5068d12e2134ce184",
-    "cost_usd": 0.0366592
+    "cost_usd": 0.011581999999999999
   }
 }

@@ -2,26 +2,26 @@
 id: topic/dev-itpro/development/system-and-application-reference-documen
 type: topic
 title: System and application reference documentation
-summary: System and application reference documentation describes how the Business Central application is organized into modular layers, and how contributors build on the System Application. It answers questions about the System Application and Business Foundation layers and about creating or changing modules.
+summary: System and application reference documentation describes how the Business Central application is split into modular layers, mainly System Application (ERP agnostic) and Business Foundation (ERP related). It answers questions about the layered architecture and how to create or contribute System Application modules in the BCApps repository.
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:02:41.014Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 94eca4ac53658c06558aaf00c06945325ececf43507e55c46ced4886b7f63f87
+  input_hash: 6b7d5e6e482a5ff28386b57aa661ee839a7079cd345b32c47554cbfc32051f11
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-change-a-module
     title: Change a System Application Module in Business Central
-    date: "2026-10-16"
+    date: "2026-10-26"
     commit: null
     t: null
     quote: null
@@ -35,21 +35,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-new-module
     title: Create a new module in the System Application
-    date: "2023-11-23"
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-getting-started
     title: Get started with modules
-    date: "2024-03-01"
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-blueprint
-    title: Module Architecture
-    date: "2025-06-16"
+    title: Module Architecture in the System Application
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null
@@ -106,26 +106,27 @@ narrative: generated
 
 # System and application reference documentation
 
-> System and application reference documentation describes how the Business Central application is organized into modular layers, and how contributors build on the System Application. It answers questions about the System Application and Business Foundation layers and about creating or changing modules.
+> System and application reference documentation describes how the Business Central application is split into modular layers, mainly System Application (ERP agnostic) and Business Foundation (ERP related). It answers questions about the layered architecture and how to create or contribute System Application modules in the BCApps repository.
 
-Path: [Development](../development.md) > System and application reference documentation · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../development.md) > System and application reference documentation · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Business Central application is being refactored into smaller modular layers to improve code organization and maintainability. Two layers are named: the System Application, which holds ERP agnostic functionality, and Business Foundation, which holds ERP related functionality.
+This section explains how the Business Central application is organized. The application is being refactored into smaller modular layers to improve code organization and maintainability. The System Application layer holds ERP agnostic functionality, and the Business Foundation layer holds ERP related functionality.
 
-The section has one overview page that explains this layer structure, and one subtopic, Creating new modules, with six pages for contributors to the System Application. That subtopic covers environment setup, module architecture, building new modules, changing existing ones, and writing .NET wrapper modules.
+The overview page gives the architectural picture and is the place to start. The Creating new modules subtopic (6 pages) builds on it with practical guidance for developers who want to add or change System Application modules in the BCApps repository.
 
-Start with the overview page to understand where functionality sits, then move to Creating new modules if you plan to contribute or need the design rules.
+That subtopic covers environment setup, module architecture, facade and implementation codeunits, .NET wrapper modules, tests, and the pull request workflow.
 
 ## Key points
 
-- The application is being split into smaller modular layers for better code organization and maintainability.
-- System Application layer: ERP agnostic functionality.
-- Business Foundation layer: ERP related functionality.
-- Creating new modules has 6 pages aimed at System Application contributors.
-- Contributor topics: environment setup, module architecture, building new modules, changing existing modules.
-- The contributor guidance also covers writing .NET wrapper modules and design rules.
+- The application is being refactored into smaller modular layers for better code organization and maintainability.
+- System Application contains ERP agnostic functionality.
+- Business Foundation contains ERP related functionality.
+- Start with the Overview of the application page for the layer concepts.
+- Creating new modules explains how to create, change, and contribute System Application modules in the BCApps repository.
+- Module guidance includes facade and implementation codeunits and .NET wrapper modules.
+- The contribution guidance covers environment setup, tests, and the pull request workflow.
 
 ## Subtopics
 

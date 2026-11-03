@@ -6,7 +6,7 @@
   "systems_joined": [
     "sales"
   ],
-  "summary": "Corrected sales order line quantities that were incorrectly updated when posting return orders linked to posted sales invoices via applies-to credit memos.",
+  "summary": "Posting a return order that is linked to a posted sales invoice through Applies-to Doc. No. on a credit memo no longer updates the original sales order line quantities incorrectly. The fix is in Correct Posted Sales Invoice for the W1, APAC and ES layers, with new tests.",
   "key_points": [
     "Fixes issue where return order posting incorrectly adjusted sales order line quantities",
     "Involves credit memo applies-to document links to posted invoices",

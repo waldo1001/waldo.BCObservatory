@@ -12,7 +12,7 @@ review:
   at: "2026-10-30T08:08:38.208Z"
   flags: []
 generated:
-  at: "2026-10-31T01:06:04.529Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -133,6 +133,8 @@ links:
     - change/bcapps/12810
     - change/bcapps/12882
     - change/bcapps/13058
+    - change/bcapps/13185
+    - change/bcapps/13460
 learn_toc_path:
   - Copilot and agent capabilities
   - Expense Agent (preview)
@@ -209,6 +211,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12810 ExpenseAgent-CAUS-default-VAT-setup-fails](../../../changes/bcapps/12810.md) (code change): "Fixes the Expense Agent default VAT setup failing"
 - [#12882 [Master] - Bug 651169: [Expense Agent] Exchange rate date limitation](../../../changes/bcapps/12882.md) (code change): "Expense Agent now correctly handles exchange rate dates for transactions"
 - [#13058 Bug 656064: Expense Agent: Itemization table holds unrounded values, leading to rounding errors. Also missing currency code.](../../../changes/bcapps/13058.md) (code change): "Expense itemization records now store properly rounded currency amounts"
+- [#13185 [Master] - Bug 656372: [Expense Agent] Fix itemization rounding and missing currency code.](../../../changes/bcapps/13185.md) (code change): "Expense Agent now correctly handles itemization rounding calculations"
+- [#13460 [Master] Fix Expense Agent account filters with special characters](../../../changes/bcapps/13460.md) (code change): "Expense Agent now properly handles G/L account lookups when account names"
 - [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../../../posts/thinkaboutit-be/8348.md) (community post): "covers Business Skills, the Expense Agent and what AI interaction means"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../videos/4TE8uwIi91k.md) (video): "Expense agent; mobile app; receipt scanning; mileage tracking"
 - [Expense Agent: Web App Experience (2026 release wave 1)](../../../videos/ARKckFygbWQ.md) (video): "Expense agent; web app experience; receipt capture; receipt extraction; automatic categorization"

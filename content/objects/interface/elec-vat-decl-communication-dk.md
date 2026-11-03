@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-31T00:48:20.076Z"
+  at: "2026-11-03T00:49:14.469Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0eef44a54df75fbfc7f24ae5273519e789abf94abb984f490b776eb1f6869f4b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/Apps/DK/ElectronicVATDeclarationDK/app/src/Engine/Communication/ElecVATDeclCommunication.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Apps/DK/ElectronicVATDeclarationDK/app/src/Engine/Communication/ElecVATDeclCommunication.Interface.al
     title: src/Apps/DK/ElectronicVATDeclarationDK/app/src/Engine/Communication/ElecVATDeclCommunication.Interface.al (releases/29.x)
     date: null
-    commit: 8e740e5061595dd231c4a2d9d453c86c84ec76ae
+    commit: d992339dbf106bf2412e17518329e128634f2951
     t: null
     quote: null
 links:
@@ -74,7 +74,7 @@ relations:
 
 > Interface "Elec. VAT Decl. Communication" (DK) in the DK country layer (Microsoft.Finance.VAT.Reporting). 1 public procedures. Introduced in BC29, still in BC30.
 
-DK country layer · Microsoft.Finance.VAT.Reporting · BC29-30 · [source at 8e740e50](https://github.com/microsoft/BCApps/blob/8e740e5061595dd231c4a2d9d453c86c84ec76ae/src/Apps/DK/ElectronicVATDeclarationDK/app/src/Engine/Communication/ElecVATDeclCommunication.Interface.al) · facts from BC29
+DK country layer · Microsoft.Finance.VAT.Reporting · BC29-30 · [source at d992339d](https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Apps/DK/ElectronicVATDeclarationDK/app/src/Engine/Communication/ElecVATDeclCommunication.Interface.al) · facts from BC29
 
 An object of the [DK localization](../../localizations/dk.md), not part of W1.
 

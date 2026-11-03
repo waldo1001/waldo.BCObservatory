@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/finance/financial-analytics/financial-reporting
 type: topic
 title: Financial reporting
-summary: Financial reporting in Business Central covers building, running, auditing and troubleshooting financial reports based on row and column definitions, account categories, dimensions and budgets. It answers questions about designing reports, Excel and PDF output, telemetry, KPI web services and balancing reports to the general ledger.
+summary: "Financial reporting in Business Central: designing, running and auditing financial reports built from row and column definitions, account categories, dimensions and statistical accounts. It answers questions on building reports, Excel and PDF output, KPI web services, troubleshooting balances, and telemetry."
 tier: official
 language: en
 system: reporting
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:17:20.300Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: a7eacfc7e3c7f5ad853becdf4f99ba0733a931b3ecbdded0c44015bcba05e100
+  input_hash: 9884c3bde113f22df71fd6df5832ebcc934d4d3ff0deb41b14fb7f8ceabb9b70
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/bi-how-analyze-data-dimension
@@ -91,7 +91,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-integrate-financial-reports-with-excel
     title: Integrate financial reports with Excel
-    date: "2026-03-08"
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -292,24 +292,28 @@ narrative: generated
 
 # Financial reporting
 
-> Financial reporting in Business Central covers building, running, auditing and troubleshooting financial reports based on row and column definitions, account categories, dimensions and budgets. It answers questions about designing reports, Excel and PDF output, telemetry, KPI web services and balancing reports to the general ledger.
+> Financial reporting in Business Central: designing, running and auditing financial reports built from row and column definitions, account categories, dimensions and statistical accounts. It answers questions on building reports, Excel and PDF output, KPI web services, troubleshooting balances, and telemetry.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Financial reporting · tier official · system reporting · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Financial reporting · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Financial reporting lets you build reports from the general ledger using row definitions, column definitions and G/L account categories. You can start from out-of-box reports, copy existing ones, or design your own. Dimensions, analysis views, G/L budgets and statistical accounts extend what a report can show.\n\nA suggested reading order: start with \"Primary capabilities of financial reporting\", then read about account categories and report selection. Next, use the row and column definition pages and the design and build guides. Walkthroughs cover Trial Balance, Balance Sheet, Income Statement and cash flow forecast reports. After that, the pages on viewing, Excel integration, scheduling and KPI web services cover output and distribution.\n\nOther pages cover operations. Auditing uses the change log, telemetry, permission sets and notifications. One telemetry page covers lifecycle events for row, column and report definitions and includes KQL samples. The other covers usage when reports are run on-screen or from the request page. The troubleshooting page and the FAQ explain how to balance reports to the general ledger and test report designs.
+Financial reporting lets you build reports on general ledger data, budgets, cash flow and statistical accounts. A report combines row definitions (calculations, subtotals, account categories, formatting) with column definitions (net change, balance, budget comparison, period formulas). Dimensions and analysis views let you slice the data by customer, region, product and similar characteristics.
+
+Start with "Primary capabilities of financial reporting" for the overview, then "Organize report data using account categories" and "Build financial reports using financial data and account categories" for setup. "Design your own financial reports" and "Create custom financial reports" walk through the row and column definitions, including Trial Balance, Balance Sheet, Income Statement and cash flow forecast examples.
+
+Further pages cover output and operations: viewing, printing, scheduling and emailing reports, Excel layouts, and KPI web services for Power BI. For control and support, see the auditing page, the two telemetry pages (lifecycle and usage), the FAQ and the troubleshooting page.
 
 ## Key points
 
-- Reports are built from row definitions (formulas, subtotals, account categories, cash flow accounts, cost types) and column definitions (net change, balance, budget comparison, period formulas, percentages).
+- Reports are built from row definitions and column definitions. Rows hold formulas, totaling and formatting. Columns hold net change, balance, budget comparison and period formulas.
 - Column definitions support up to 15 columns in PDF exports.
-- Account categories and subcategories map G/L accounts to produce balance sheet and income statement reports; report selection can be changed in General Ledger Setup.
-- Dimension perspectives and analysis views allow analysis by some or all values of a dimension, with PDF and Excel output.
-- Reports can be viewed on-screen with drill-through, exported to PDF or Excel, printed, and scheduled with email delivery.
-- Excel integration includes templates, layouts, a default layout and data updates.
-- Auditing combines the change log, telemetry, permission sets and change notifications; the auditing page is tagged 2026 release wave 2.
-- Lifecycle telemetry tracks creating, modifying, copying, exporting, importing and deleting definitions, with KQL samples; usage telemetry tracks report runs on-screen or from the request page.
+- G/L account categories and subcategories map accounts for balance sheet and income statement reporting. Report selection in General Ledger Setup can change the default report definitions.
+- Dimension perspectives and analysis views allow analysis by some or all dimension values, with custom totaling.
+- Reports can be viewed on screen with drill-through, exported to PDF or Excel, printed, scheduled and emailed. Excel templates can be uploaded as layouts and set as default.
+- Statistical accounts track non-transactional metrics such as headcount or square footage and can be included in reports.
+- Auditing uses the change log, telemetry, permission sets and notifications on definition changes. KQL samples cover lifecycle and usage telemetry.
+- Troubleshooting covers balancing reports to the G/L and trial balance, adding validation figures, and choosing net change or balance at date.
 
 ## Learn pages
 
@@ -337,6 +341,7 @@ Financial reporting lets you build reports from the general ledger using row def
   - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md)
 - [Financial Reporting FAQ](https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-faq): FAQ for the Financial Reporting feature in Business Central.
 - [Integrate financial reports with Excel](https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-integrate-financial-reports-with-excel): Describes how to use financial reporting together with Excel.
+  - In the observatory: [Page 108 "Financial Reports"](../../../../../objects/page/108.md)
 - [Make cash flow forecasts using financial reports](https://learn.microsoft.com/dynamics365/business-central/walkthrough-making-cash-flow-forecasts-by-using-account-schedules): This walkthrough describes how you can use financial reports to make cash flow forecasts in Business Central.
 - [Organize report data using account categories](https://learn.microsoft.com/dynamics365/business-central/bi-account-categories): Learn how to categorize general ledger accounts for reporting purposes.
   - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 17 "G/L Account Card"](../../../../../objects/page/17.md)

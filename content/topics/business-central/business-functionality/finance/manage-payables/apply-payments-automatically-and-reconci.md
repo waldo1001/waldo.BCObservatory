@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:48.170Z"
   flags: []
 generated:
-  at: "2026-11-01T00:45:11.847Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,6 +79,7 @@ links:
     - change/bcapps/10498
     - change/bcapps/13134
     - change/bcapps/13255
+    - change/bcapps/13273
     - change/bcapps/13294
     - change/bcapps/9051
     - change/bcapps/9356
@@ -153,6 +154,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10498 [Pmt. Recon. Journal] Optimize opening of the Payment Application screen](../../../../../changes/bcapps/10498.md) (code change): "Payment application screen opening is optimized by adding a date filter"
 - [#13134 [main] Bug 656172 Payment Slips Summarized by Due Date are not aggregating correlative in the French version.](../../../../../changes/bcapps/13134.md) (code change): "Suggest Cust. Payments and Suggest Vend. Payments reports now aggregate"
 - [#13255 [Main]-Exporting vendor remittance gets stuck when a payment jour nal is sorted by Document No.](../../../../../changes/bcapps/13255.md) (code change): "Fixed vendor remittance export hanging when a payment journal is sorted"
+- [#13273 [Master]-CH] SEPA XML Files should append the Address 1 + '' + Address 2 fields under <PstlAdr><StrtNm> node if we use "Address 2" as Building Number for QR-Bills](../../../../../changes/bcapps/13273.md) (code change): "SEPA XML export functionality updated for Swiss payments"
 - [#13294 [29.x]-Exporting vendor remittance gets stuck when a payment jour nal is sorted by Document No.](../../../../../changes/bcapps/13294.md) (code change): "Exporting vendor remittance gets stuck when a payment journal is sorted"
 - [#9051 [639592][ALAppExtensions #30277][Event Request] Codeunit 426 "Payment Tolerance Management" OnPmtTolGenJnlOnAfterCheckConditions](../../../../../changes/bcapps/9051.md) (code change): "Codeunit 426 Payment Tolerance Management exposes event allowing subscribers to modify general journal lines"
 - [#9356 [Main]-Payment XML file generated from EB Payment Journal upon selecting "FCY Symbol" includes currency text](../../../../../changes/bcapps/9356.md) (code change): "Payment XML files exported from EB Payment Journal now correctly exclude currency text"

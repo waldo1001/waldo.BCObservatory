@@ -4016,124 +4016,130 @@
       }
     },
     "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities": {
-      "post/bertverbeek-nl/1252@5813f9b3342cfb72": {
-        "verdict": "drop",
-        "reason": "Covers designing agent role centers and permission sets in AL, which is agent development and security, not managing capabilities on this page.",
-        "at": "2026-10-30T08:06:12.727Z",
-        "v": 2
-      },
-      "post/bertverbeek-nl/1263@cfa8e9550880d3e9": {
-        "verdict": "keep",
-        "reason": "Includes monitoring agent credit usage on the Agent Consumption page, which relates to managing consumption-billed agent capabilities.",
-        "at": "2026-10-30T08:06:12.727Z",
-        "v": 2
-      },
-      "post/demiliani-com/13755@098bf8cd3b3dce3b": {
-        "verdict": "drop",
-        "reason": "About choosing the model for custom agents on the Agents page and deploying them to production, not about managing capabilities on this page.",
-        "at": "2026-10-30T08:06:12.727Z",
-        "v": 2
-      },
-      "post/demiliani-com/15935@5a118331e80716b7": {
-        "verdict": "keep",
-        "reason": "Explains the Allow data movement toggle and AI processing geography, which this section documents.",
-        "at": "2026-10-30T08:06:12.727Z",
-        "v": 2
-      },
-      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1848764778201254677@415376c0de163a17": {
-        "verdict": "drop",
-        "reason": "Its subject is the new Copilot chat, which the sibling section on Microsoft Copilot in Business Central documents more exactly; the enablement step is only a brief mention.",
-        "at": "2026-10-30T08:06:12.727Z",
-        "v": 2
-      },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-45-hide-agents-icon/@df75d9ac8c8bbd76": {
-        "verdict": "keep",
-        "reason": "Shows how to deactivate Agents on the Copilot & agent capabilities page.",
-        "at": "2026-10-30T08:06:12.727Z",
-        "v": 2
-      },
-      "post/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html@71a9c33d7457db47": {
-        "verdict": "keep",
-        "reason": "Covers the Copilot Credits requirement for agents, which relates to consumption billing of agent capabilities.",
-        "at": "2026-10-30T08:06:12.727Z",
-        "v": 2
-      },
-      "post/yzhums-com/67462@f8013648de2accef": {
-        "verdict": "keep",
-        "reason": "Describes the Billing Type column on the Copilot and Agent Capabilities page.",
-        "at": "2026-10-30T08:06:12.727Z",
-        "v": 2
-      },
-      "post/yzhums-com/68482@6c8f64782f49f44e": {
-        "verdict": "keep",
-        "reason": "Shows how to deactivate individual agent capabilities on the Copilot & agent capabilities page.",
-        "at": "2026-10-30T08:06:12.727Z",
-        "v": 2
-      },
-      "post/yzhums-com/68484@d9048cb0d00c21e9": {
-        "verdict": "keep",
-        "reason": "Discusses consumption-based billing for agent capabilities, which this section's management of capabilities covers.",
-        "at": "2026-10-30T08:06:12.727Z",
-        "v": 2
-      },
       "post/yzhums-com/70502@de72ba277dfa36dd": {
         "verdict": "keep",
-        "reason": "Custom agent setup (profiles, permissions, instructions) and how it uses Copilot credits are agent capability management, and no sibling covers custom agents.",
-        "at": "2026-10-30T08:06:15.209Z",
+        "reason": "It covers setting up custom agents' profiles and permissions and how they use Copilot credits, which are agent-management topics that no sibling section documents.",
+        "at": "2026-11-03T00:57:43.656Z",
         "v": 2
       },
       "post/yzhums-com/72431@03eddc7258b25021": {
         "verdict": "keep",
-        "reason": "Tracking Copilot credit use for agents is part of managing Copilot and agent capabilities.",
-        "at": "2026-10-30T08:06:15.209Z",
+        "reason": "Tracking how many Copilot credits agents use is part of managing Copilot and agent capabilities and their billing.",
+        "at": "2026-11-03T00:57:43.656Z",
         "v": 2
       },
       "post/yzhums-com/72479@282671e86681235b": {
-        "verdict": "keep",
-        "reason": "A task pane for all agents is general agent management that no single-agent sibling covers.",
-        "at": "2026-10-30T08:06:15.209Z",
+        "verdict": "drop",
+        "reason": "The agent task pane is about working through tasks agents create, not about managing or turning on Copilot and agent capabilities.",
+        "at": "2026-11-03T00:57:43.656Z",
         "v": 2
       },
       "post/yzhums-com/74431@e096096e3119df5e": {
         "verdict": "keep",
-        "reason": "Choosing the AI model for each agent is part of managing agent capabilities.",
-        "at": "2026-10-30T08:06:15.209Z",
+        "reason": "Choosing which AI model each agent uses on the Agents page is an admin setting for agents.",
+        "at": "2026-11-03T00:57:43.656Z",
         "v": 2
       },
       "post/yzhums-com/74703@27daa63fb946655c": {
         "verdict": "keep",
-        "reason": "Covers the Allow data movement toggle on the Copilot & agent capabilities page.",
-        "at": "2026-10-30T08:06:15.209Z",
+        "reason": "It explains the Allow data movement toggle on the Copilot & agent capabilities page, which this section documents directly.",
+        "at": "2026-11-03T00:57:43.656Z",
         "v": 2
       },
       "post/yzhums-com/76396@82efd373b718cf8b": {
         "verdict": "keep",
-        "reason": "Turning off Copilot feedback is a tenant-wide admin setting for Copilot.",
-        "at": "2026-10-30T08:06:15.209Z",
+        "reason": "Turning off Copilot feedback for the whole tenant is an admin setting for Copilot.",
+        "at": "2026-11-03T00:57:43.656Z",
         "v": 2
       },
       "video/DRUr4byy8xQ@56a5e75a3a1c80fd": {
         "verdict": "keep",
-        "reason": "Agent permissions, profiles and user management are general agent access control, not specific to one agent.",
-        "at": "2026-10-30T08:06:15.209Z",
+        "reason": "Controlling agents' permissions, profiles and users is part of managing agent capabilities.",
+        "at": "2026-11-03T00:57:43.656Z",
         "v": 2
       },
       "video/MKuOgMWXJ_8@c36e072796ffcd3b": {
         "verdict": "keep",
-        "reason": "Setting up a sample agent, with its permissions, task tracking and credit use, shows how agent capabilities are managed.",
-        "at": "2026-10-30T08:06:15.209Z",
+        "reason": "It shows agent setup, reduced permission sets and credit-usage tracking, which are management topics covered here.",
+        "at": "2026-11-03T00:57:43.656Z",
         "v": 2
       },
       "video/QK-Qsh_6YL4@8ba69d9b3b8baddb": {
         "verdict": "drop",
-        "reason": "A third-party Copilot time sheet feature, not about managing Copilot or agent capabilities.",
-        "at": "2026-10-30T08:06:15.209Z",
+        "reason": "It's a partner's time-sheet Copilot feature, which this section doesn't document.",
+        "at": "2026-11-03T00:57:43.656Z",
         "v": 2
       },
       "video/UQmuMPRlHek@fcc85d97923a4b32": {
         "verdict": "keep",
-        "reason": "Covers admin setup on the Copilot and AI capabilities page, deactivating features and controlling data movement.",
-        "at": "2026-10-30T08:06:15.209Z",
+        "reason": "Its admin tips cover the Copilot and AI capabilities page, turning features off, data movement and permissions.",
+        "at": "2026-11-03T00:57:43.656Z",
+        "v": 2
+      },
+      "post/bertverbeek-nl/1252@5813f9b3342cfb72": {
+        "verdict": "drop",
+        "reason": "About designing and securing custom agents through role centers and permission sets, not about managing capabilities on the Copilot & agent capabilities page.",
+        "at": "2026-11-03T00:57:45.257Z",
+        "v": 2
+      },
+      "post/bertverbeek-nl/1263@cfa8e9550880d3e9": {
+        "verdict": "keep",
+        "reason": "Covers the Agent Consumption page for monitoring credit usage, which is part of managing consumption billing for agents.",
+        "at": "2026-11-03T00:57:45.257Z",
+        "v": 2
+      },
+      "post/demiliani-com/13755@098bf8cd3b3dce3b": {
+        "verdict": "drop",
+        "reason": "About deploying custom agents and choosing their model on the Agents page, which this section does not document.",
+        "at": "2026-11-03T00:57:45.257Z",
+        "v": 2
+      },
+      "post/demiliani-com/15935@5a118331e80716b7": {
+        "verdict": "keep",
+        "reason": "Explains the Allow data movement toggle and the geography consent rules that this section documents.",
+        "at": "2026-11-03T00:57:45.257Z",
+        "v": 2
+      },
+      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1848764778201254677@415376c0de163a17": {
+        "verdict": "drop",
+        "reason": "About the new Copilot chat, which the sibling Microsoft Copilot in Business Central section documents more exactly.",
+        "at": "2026-11-03T00:57:45.257Z",
+        "v": 2
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-45-hide-agents-icon/@df75d9ac8c8bbd76": {
+        "verdict": "keep",
+        "reason": "Shows deactivating Agents on the Copilot & agent capabilities page.",
+        "at": "2026-11-03T00:57:45.257Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8342@0029b05785b67f48": {
+        "verdict": "drop",
+        "reason": "About the Copilot chat feature, which the sibling Microsoft Copilot in Business Central section covers; this section gets only a passing mention.",
+        "at": "2026-11-03T00:57:45.257Z",
+        "v": 2
+      },
+      "post/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html@71a9c33d7457db47": {
+        "verdict": "keep",
+        "reason": "Explains the Copilot Credits needed to run the agents, which ties to the consumption billing this section covers.",
+        "at": "2026-11-03T00:57:45.257Z",
+        "v": 2
+      },
+      "post/yzhums-com/67462@f8013648de2accef": {
+        "verdict": "keep",
+        "reason": "Covers the Billing Type column on the Copilot and Agent Capabilities page.",
+        "at": "2026-11-03T00:57:45.257Z",
+        "v": 2
+      },
+      "post/yzhums-com/68482@6c8f64782f49f44e": {
+        "verdict": "keep",
+        "reason": "Shows deactivating individual agent capabilities on the Copilot & agent capabilities page.",
+        "at": "2026-11-03T00:57:45.257Z",
+        "v": 2
+      },
+      "post/yzhums-com/68484@d9048cb0d00c21e9": {
+        "verdict": "keep",
+        "reason": "Discusses consumption-based billing for agent capabilities, which matches the section's billing content.",
+        "at": "2026-11-03T00:57:45.257Z",
         "v": 2
       }
     },
@@ -4172,94 +4178,100 @@
       }
     },
     "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr": {
-      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1848764778201254677@415376c0de163a17": {
-        "verdict": "keep",
-        "reason": "Describes the unified Microsoft Copilot chat in Business Central, how licensing works and how admins turn it on, which is this section's subject.",
-        "at": "2026-11-01T00:43:07.068Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/8348@26fe815ea66cfaf1": {
-        "verdict": "drop",
-        "reason": "About Edit with Copilot, a separate early-access feature for changing records, not the chat this section documents.",
-        "at": "2026-11-01T00:43:07.068Z",
-        "v": 2
-      },
-      "post/vondervoort-be/84@a07399802f0cdd86": {
-        "verdict": "drop",
-        "reason": "About building AI agents and using Copilot as an AL coding partner, neither of which this section documents.",
-        "at": "2026-11-01T00:43:07.068Z",
-        "v": 2
-      },
-      "post/yzhums-com/65781@3a09f7555bd6e69e": {
-        "verdict": "keep",
-        "reason": "Covers Copilot chat answering questions about installed add-on apps, which is part of the in-product chat.",
-        "at": "2026-11-01T00:43:07.068Z",
-        "v": 2
-      },
-      "post/yzhums-com/67542@037426b4ac75c0b5": {
-        "verdict": "keep",
-        "reason": "Covers Copilot chat improvements: more languages, finding data in plain language and field explanations.",
-        "at": "2026-11-01T00:43:07.068Z",
-        "v": 2
-      },
-      "post/yzhums-com/67675@7aff63ea4e4b18fc": {
-        "verdict": "keep",
-        "reason": "Covers resizing the Copilot pane, a small usability detail of the chat experience.",
-        "at": "2026-11-01T00:43:07.068Z",
-        "v": 2
-      },
-      "post/yzhums-com/75811@33d6b3d3a1d7f63a": {
-        "verdict": "keep",
-        "reason": "Explains the unified Copilot chat in BC29: what it can do, where to open it and who gets access.",
-        "at": "2026-11-01T00:43:07.068Z",
-        "v": 2
-      },
       "video/06vgkq2EXmA@10d08f4131a1a71d": {
         "verdict": "keep",
-        "reason": "Explains how Copilot Chat in Business Central was designed and secured.",
-        "at": "2026-11-01T00:43:07.068Z",
+        "reason": "Explains how Copilot Chat in Business Central was designed and secured, which is closely tied to the chat experience this section documents.",
+        "at": "2026-11-03T00:57:40.933Z",
         "v": 2
       },
       "video/bHXEbtsx0JY@0045902d77a690f7": {
         "verdict": "drop",
-        "reason": "Sustainability emissions calculation is a different Copilot capability, not the chat.",
-        "at": "2026-11-01T00:43:07.068Z",
+        "reason": "Covers Copilot-assisted emissions calculation in the sustainability journal, which this section doesn't document.",
+        "at": "2026-11-03T00:57:40.933Z",
         "v": 2
       },
       "video/mhfjycxWTyY@aecb139f18912edd": {
         "verdict": "keep",
-        "reason": "Video on the new Microsoft Copilot chat experience, including licensing and admin enablement.",
-        "at": "2026-11-01T00:43:07.068Z",
+        "reason": "Covers the new unified Microsoft Copilot Chat experience in Business Central, including how admins enable it and how it uses Business Central data.",
+        "at": "2026-11-03T00:57:40.933Z",
         "v": 2
       },
       "video/TSLXzbeyE7Y@ad3089654d553ccf": {
         "verdict": "keep",
-        "reason": "Demonstrates using the new Microsoft Copilot Chat in Business Central for tasks like sales analysis and setup help.",
-        "at": "2026-11-01T00:43:07.068Z",
+        "reason": "Demonstrates using the new Microsoft Copilot Chat in Business Central for sales analysis and setup help.",
+        "at": "2026-11-03T00:57:40.933Z",
         "v": 2
       },
       "video/V7NgFOIcGgM@8da8f67cd74aeda0": {
         "verdict": "keep",
-        "reason": "Explains how the new Copilot Chat works, covering grounding, permissions and the Copilot & Agent Capabilities control.",
-        "at": "2026-11-01T00:43:07.068Z",
+        "reason": "Explains how the new Microsoft Copilot Chat in Business Central works, including permissions, citations and capability controls.",
+        "at": "2026-11-03T00:57:40.933Z",
         "v": 2
       },
       "video/wBx8TkIHJ04@bffa45f751797417": {
         "verdict": "keep",
-        "reason": "Introduces Copilot Chat for searching business data, with multi-turn conversations and permission-based filtering.",
-        "at": "2026-11-01T00:43:07.068Z",
+        "reason": "Introduces Copilot Chat in Business Central, including business data queries and permission-based data filtering.",
+        "at": "2026-11-03T00:57:40.933Z",
         "v": 2
       },
       "video/WL3m2dffwU8@7bc155c05c0aba7e": {
         "verdict": "keep",
-        "reason": "Introduces the unified Microsoft Copilot Chat in Business Central and its Work IQ integration.",
-        "at": "2026-11-01T00:43:07.068Z",
+        "reason": "Introduces the unified Microsoft Copilot Chat in Business Central, including answering questions about Business Central data.",
+        "at": "2026-11-03T00:57:40.933Z",
         "v": 2
       },
       "video/YX9UfUF0EsA@310f38fe8afda0a2": {
         "verdict": "keep",
-        "reason": "Detailed presentation of M365 Copilot Chat in Business Central, covering access, permissions and licensing.",
-        "at": "2026-11-01T00:43:07.068Z",
+        "reason": "Covers Microsoft 365 Copilot Chat in Business Central, including data access, licensing and admin configuration.",
+        "at": "2026-11-03T00:57:40.933Z",
+        "v": 2
+      },
+      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1848764778201254677@415376c0de163a17": {
+        "verdict": "keep",
+        "reason": "Covers the unified Microsoft Copilot chat in Business Central and how to enable it, which is this section's subject.",
+        "at": "2026-11-03T00:57:43.041Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8342@0029b05785b67f48": {
+        "verdict": "keep",
+        "reason": "Explains how the new Microsoft Copilot chat in BC29 works, including permissions and citations.",
+        "at": "2026-11-03T00:57:43.041Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8348@26fe815ea66cfaf1": {
+        "verdict": "keep",
+        "reason": "Edit with Copilot extends the in-product Copilot from answering questions to acting on records; a reader of this section would likely want it.",
+        "at": "2026-11-03T00:57:43.041Z",
+        "v": 2
+      },
+      "post/vondervoort-be/84@a07399802f0cdd86": {
+        "verdict": "drop",
+        "reason": "About building AI agents and AI pair programming in AL, not the Copilot chat in Business Central.",
+        "at": "2026-11-03T00:57:43.041Z",
+        "v": 2
+      },
+      "post/yzhums-com/65781@3a09f7555bd6e69e": {
+        "verdict": "keep",
+        "reason": "Covers Copilot chat answering questions about installed add-on apps, a chat capability that fits this section.",
+        "at": "2026-11-03T00:57:43.041Z",
+        "v": 2
+      },
+      "post/yzhums-com/67542@037426b4ac75c0b5": {
+        "verdict": "keep",
+        "reason": "Covers Copilot chat improvements: more languages, finding data and task help.",
+        "at": "2026-11-03T00:57:43.041Z",
+        "v": 2
+      },
+      "post/yzhums-com/67675@7aff63ea4e4b18fc": {
+        "verdict": "drop",
+        "reason": "About resizing side panes in general, which is user-interface layout rather than Copilot chat functionality.",
+        "at": "2026-11-03T00:57:43.041Z",
+        "v": 2
+      },
+      "post/yzhums-com/75811@33d6b3d3a1d7f63a": {
+        "verdict": "keep",
+        "reason": "Describes enabling the unified Copilot chat in BC29, which is this section's subject.",
+        "at": "2026-11-03T00:57:43.041Z",
         "v": 2
       }
     },
@@ -6250,46 +6262,52 @@
       }
     },
     "topic/dev-itpro/development": {
+      "post/aardvarklabs-blog/4177@afd250dfae2d6a81": {
+        "verdict": "keep",
+        "reason": "A VS Code tool for exploring and analysing AL codebases fits the development environment and tooling for AL.",
+        "at": "2026-11-03T00:57:54.910Z",
+        "v": 2
+      },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/@47a92fdf99c0025c": {
         "verdict": "keep",
-        "reason": "It rounds up AL development posts that cover page background tasks, page extensions and AI-assisted development practice.",
-        "at": "2026-11-01T00:43:01.120Z",
+        "reason": "Roundup of AL development topics such as page background tasks and page extensions, which this section's extensibility and AL programming content covers.",
+        "at": "2026-11-03T00:57:54.910Z",
         "v": 2
       },
       "post/gerardorenteria-blog/13675@23274fa78ce59328": {
-        "verdict": "drop",
-        "reason": "It describes what a financial-report notes extension does for finance users, not how to develop extensions; AL is only the build vehicle.",
-        "at": "2026-11-01T00:43:01.120Z",
+        "verdict": "keep",
+        "reason": "Shows an AL extension that adds fields and changes reports, which fits the extensibility and reporting subtopics of development.",
+        "at": "2026-11-03T00:57:54.910Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-62-vs-code-al-themes/@515eb7601df9149e": {
         "verdict": "keep",
-        "reason": "The AL Language extension's VS Code themes are part of the development environment.",
-        "at": "2026-11-01T00:43:01.120Z",
+        "reason": "Covers the built-in themes in the AL Language extension, part of the development environment.",
+        "at": "2026-11-03T00:57:54.910Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/projects/al-pocket-tools/@935273519c46afe5": {
         "verdict": "keep",
-        "reason": "It's a VS Code tooling extension that automates AL development workflow tasks.",
-        "at": "2026-11-01T00:43:01.120Z",
+        "reason": "A VS Code extension that streamlines AL development work such as managing app files and launch.json.",
+        "at": "2026-11-03T00:57:54.910Z",
         "v": 2
       },
       "post/wingate365-com/https://blog.wingate365.com/2025/12/bc-community-2025-wrapped-blogs-videos.html@43286960f794b74a": {
         "verdict": "drop",
-        "reason": "It analyses community blogging statistics and doesn't explain anything the Development section documents.",
-        "at": "2026-11-01T00:43:01.120Z",
+        "reason": "Its subject is statistics on community blogging, not any development capability this section documents.",
+        "at": "2026-11-03T00:57:54.910Z",
         "v": 2
       },
       "video/mnxOSl1Y9PI@089d509598986664": {
         "verdict": "keep",
-        "reason": "It directly covers updates to the developer documentation: extensibility, troubleshooting, data analytics and AL.",
-        "at": "2026-11-01T00:43:01.120Z",
+        "reason": "Directly covers updates to the developer documentation that makes up this section.",
+        "at": "2026-11-03T00:57:54.910Z",
         "v": 2
       },
       "video/npkC4wyucyY@1750839e8a18765c": {
         "verdict": "keep",
-        "reason": "It covers AI agents for AL coding, the AL MCP server and AL code-review tooling, which relate to the development environment and practices.",
-        "at": "2026-11-01T00:43:01.120Z",
+        "reason": "Benchmarks AI coding agents on AL development tasks such as bug fixing and code review, so it measures AL development work.",
+        "at": "2026-11-03T00:57:54.910Z",
         "v": 2
       }
     },
@@ -10542,62 +10560,116 @@
     "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c": {
       "post/aardvarklabs-blog/1609@e19ddf28b0a4650a": {
         "verdict": "keep",
-        "reason": "Walks through building a Copilot capability in AL with Azure OpenAI, including registering the capability and writing the prompts, which is what this section documents.",
-        "at": "2026-11-02T00:56:09.113Z",
+        "reason": "Builds a Copilot capability in AL with Azure OpenAI, capability registration and prompts, which is exactly what this section documents.",
+        "at": "2026-11-03T00:57:40.660Z",
         "v": 2
       },
       "post/aardvarklabs-blog/1891@4b250d20fdf70c35": {
         "verdict": "keep",
-        "reason": "Builds an AI-assisted feature in AL that calls Azure OpenAI, using the developer tools for Copilot.",
-        "at": "2026-11-02T00:56:09.113Z",
+        "reason": "Shows an AL extension calling Azure OpenAI as one step of a multi-step recommendation process, which uses the Copilot developer tools.",
+        "at": "2026-11-03T00:57:40.660Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2663@7b4c6df359dde05f": {
         "verdict": "keep",
-        "reason": "Compares the two Azure OpenAI authorization methods in the AL module used to build Copilot extensions (SetAuthorization and SetManagedResourceAuthorization).",
-        "at": "2026-11-02T00:56:09.113Z",
+        "reason": "Compares the SetAuthorization and SetManagedResourceAuthorization calls of the AL Azure OpenAI module used in Copilot development.",
+        "at": "2026-11-03T00:57:40.660Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2965@d2bf757344173418": {
         "verdict": "keep",
-        "reason": "Builds AI features in AL on Business Central's managed Azure OpenAI resource, using the Copilot developer tooling.",
-        "at": "2026-11-02T00:56:09.113Z",
+        "reason": "Builds AL Copilot features on the managed Azure OpenAI resource with grounded search, so it falls under this section.",
+        "at": "2026-11-03T00:57:40.660Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3564@e823a16dc5428d34": {
         "verdict": "drop",
-        "reason": "About GitHub Copilot skills in VS Code that help write AL code, not about building Copilot features in Business Central.",
-        "at": "2026-11-02T00:56:09.113Z",
+        "reason": "About VS Code skills for AI-assisted AL coding, not about building Copilot features with the Business Central developer tools.",
+        "at": "2026-11-03T00:57:40.660Z",
         "v": 2
       },
       "post/bccaptain-com-au/https://bccaptain.com.au/2026/04/27/im-back-and-its-going-to-be-a-busy-few-months/@a9ce8798f84d8ffc": {
         "verdict": "drop",
-        "reason": "A conference and comeback announcement with no content on the Copilot developer tools.",
-        "at": "2026-11-02T00:56:09.113Z",
+        "reason": "A blog-return and conference announcement with no material on the Copilot developer tools.",
+        "at": "2026-11-03T00:57:40.660Z",
         "v": 2
       },
       "post/gerardorenteria-blog/11354@96266a6dd9a4e882": {
         "verdict": "drop",
         "reason": "About connecting the Microsoft Learn Docs MCP server to GitHub Copilot in the IDE, not about extending Copilot in Business Central.",
-        "at": "2026-11-02T00:56:09.113Z",
+        "at": "2026-11-03T00:57:40.660Z",
         "v": 2
       },
       "post/gerardorenteria-blog/13993@8ca8589c6cc08b08": {
         "verdict": "drop",
-        "reason": "About VS Code agent skills that check extension health, not about building Copilot features in Business Central.",
-        "at": "2026-11-02T00:56:09.113Z",
+        "reason": "About VS Code agent skills that check extension health, which is IDE tooling rather than the Copilot developer toolkit.",
+        "at": "2026-11-03T00:57:40.660Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875@b94f6d6fdd1fc4fe": {
         "verdict": "drop",
-        "reason": "About writing AL code with help from GitHub Copilot (vibe coding), not about the Copilot extensibility tools in Business Central.",
-        "at": "2026-11-02T00:56:09.113Z",
+        "reason": "About vibe coding with GitHub Copilot as a coding assistant, not about building Copilot features in Business Central.",
+        "at": "2026-11-03T00:57:40.660Z",
         "v": 2
       },
       "post/thinkaboutit-be/8204@f01e08039a637ec9": {
         "verdict": "keep",
-        "reason": "Announces that Microsoft-managed Azure OpenAI resources for Copilot extensions are now generally available, which directly concerns this section.",
-        "at": "2026-11-02T00:56:09.113Z",
+        "reason": "Covers Microsoft-managed Azure OpenAI resources for Copilot extensions becoming generally available, part of the developer tools for Copilot.",
+        "at": "2026-11-03T00:57:40.660Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8331@18306746658fa300": {
+        "verdict": "drop",
+        "reason": "Benchmarks AI coding agents on AL tasks, not the developer tools for building Copilot features in Business Central.",
+        "at": "2026-11-03T00:57:43.940Z",
+        "v": 2
+      },
+      "post/tine-staric-net/https://tine.staric.net/blog/2026/copilot-harness-default/@1d9dc9fbb36ac87e": {
+        "verdict": "drop",
+        "reason": "About the VS Code Copilot harness and personal setup, not Business Central Copilot development tools.",
+        "at": "2026-11-03T00:57:43.940Z",
+        "v": 2
+      },
+      "post/yzhums-com/67990@bef190f7e71656b7": {
+        "verdict": "drop",
+        "reason": "GitHub Copilot agent tools that automate AL development, not the toolkit for building Copilot capabilities.",
+        "at": "2026-11-03T00:57:43.940Z",
+        "v": 2
+      },
+      "video/7SSNcUMFtCw@0a389bab8e080e1f": {
+        "verdict": "keep",
+        "reason": "Covers AI developer resources such as bringing your own Azure OpenAI subscription, the deployments codeunit and authorization for Copilot features.",
+        "at": "2026-11-03T00:57:43.940Z",
+        "v": 2
+      },
+      "video/9zQZHfXK-PQ@7e65b7781b453b60": {
+        "verdict": "drop",
+        "reason": "Uses GitHub Copilot to automate documentation; the subject is spec-driven workflows, not the Copilot developer tools.",
+        "at": "2026-11-03T00:57:43.940Z",
+        "v": 2
+      },
+      "video/jWJc_D67Vfw@54f5ff97b64f3786": {
+        "verdict": "drop",
+        "reason": "General talk on learning and adopting AI, not about building Copilot features in AL.",
+        "at": "2026-11-03T00:57:43.940Z",
+        "v": 2
+      },
+      "video/lNASlydCidI@22cc3fc62993bd91": {
+        "verdict": "keep",
+        "reason": "Demonstrates the generative AI developer toolkit, the prompt dialog page type, the AI module and Copilot capability registration.",
+        "at": "2026-11-03T00:57:43.940Z",
+        "v": 2
+      },
+      "video/nbGw2g3KMXI@c6dea39b6e68bacc": {
+        "verdict": "drop",
+        "reason": "About building agents, which the sibling section on designing and coding agents covers more exactly.",
+        "at": "2026-11-03T00:57:43.940Z",
+        "v": 2
+      },
+      "video/tpAh4q3h8T8@8c73a10fc99e408b": {
+        "verdict": "drop",
+        "reason": "Keynote only mentions GitHub Copilot as a coding aid, not building Copilot features.",
+        "at": "2026-11-03T00:57:43.940Z",
         "v": 2
       }
     },

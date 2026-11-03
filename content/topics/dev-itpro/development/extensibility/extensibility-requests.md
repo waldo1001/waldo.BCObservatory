@@ -2,54 +2,54 @@
 id: topic/dev-itpro/development/extensibility/extensibility-requests
 type: topic
 title: Extensibility requests
-summary: "Extensibility requests in Business Central: how to ask Microsoft for changes to the AL codebase through the BCApps repository, how to design and justify new events (including IsHandled events), and how to contribute a change directly. It answers questions about request guidelines, event types, and the IsHandled pattern."
+summary: Extensibility requests in Business Central cover how to ask for or contribute missing extensibility points through the BCApps repository. They answer questions about creating requests for events, public APIs and enums, event types, and when and how to use or request IsHandled events.
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:24:53.709Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 4dc55d4b4b2289a4fb59e2230cd390e31720aec45b6edae846712dd5a89995b7
+  input_hash: 92d504f6cc0de8dc5df7c3f3878aa483f59384066532d634eae21ebe9a3e5d96
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-contribute-extensibility
     title: Contribute a change yourself
-    date: "2025-04-02"
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/create-extensibility-request
     title: Create an extensibility request
-    date: "2025-04-02"
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-use-ishandled-min-req
     title: Minimum requirements for new IsHandled events
-    date: "2025-08-29"
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/types-of-events-for-extensibility
     title: Types of events for extensibility
-    date: "2025-08-15"
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-use-ishandled-pattern
     title: Using the IsHandled pattern
-    date: "2025-08-14"
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null
@@ -91,28 +91,27 @@ narrative: generated
 
 # Extensibility requests
 
-> Extensibility requests in Business Central: how to ask Microsoft for changes to the AL codebase through the BCApps repository, how to design and justify new events (including IsHandled events), and how to contribute a change directly. It answers questions about request guidelines, event types, and the IsHandled pattern.
+> Extensibility requests in Business Central cover how to ask for or contribute missing extensibility points through the BCApps repository. They answer questions about creating requests for events, public APIs and enums, event types, and when and how to use or request IsHandled events.
 
-Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Extensibility requests · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Extensibility requests · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is for AL developers who need a change in Business Central's base code, such as a new event or other code improvement. It explains two routes: submit an extensibility request to the BCApps repository, or contribute the change yourself to the BCApps and BusinessCentralApps repositories.
+This section is for developers who find that Business Central lacks an extensibility point they need, such as an event, a public API, or an enum change. It explains two routes: submitting an extensibility request in the BCApps repository, or implementing the change yourself and contributing it.
 
-The pages build on each other. "Create an extensibility request" gives the submission guidelines and event design guidance. "Types of events for extensibility" describes the event kinds and ranks them by quality, so you can pick the right one. "Using the IsHandled pattern" explains why that pattern is widely used but has drawbacks and what to use instead. "Minimum requirements for new IsHandled events" lists the information and checklist you need if you still request one.
+The pages fit together in a practical order. Start with "Contribute a change yourself" for the overall picture, then "Create an extensibility request" for how to file a request. "Types of events for extensibility" describes the event patterns (business, OnBefore/OnAfter, verify, isolated, switch, skip, handled, discovery) and their quality, which helps you pick the right kind of event to ask for.
 
-Start with "Create an extensibility request" and "Types of events for extensibility". Read "Contribute a change yourself" if you would rather make the change than wait for one.
+Three pages deal with the IsHandled pattern. "Using the IsHandled pattern" explains its drawbacks and recommends it only when better alternatives are not available. "Minimum requirements for new IsHandled events" lists what a request must include, such as the publisher signature, multi-extension interaction, performance, data sensitivity, and alternatives considered.
 
 ## Key points
 
-- Extensibility requests are submitted to Microsoft's BCApps repository to ask for code changes, new events, or other improvements to the AL codebase.
-- You can instead contribute changes directly to the BCApps and BusinessCentralApps repositories.
-- Event types covered: business events, OnBefore/OnAfter, verify, isolated, switch, skip, and handled events, with quality rankings and usage guidance.
-- The IsHandled pattern allows overriding code but has drawbacks: only a single subscriber, poor readability, and fragile solutions.
-- Recommended alternatives to IsHandled: proper extensibility, regular events, the OnSkip pattern, or reimplementing the functionality.
-- New IsHandled event requests need minimum information, a submission checklist, and an example structure.
-- Requests for IsHandled events should address alternative evaluation, performance considerations, and a data sensitivity review.
-- Request guidelines also touch on integration events, event design, manual binding, and temporary tables.
+- Two routes: submit an extensibility request or implement the change yourself via the BCApps open-source repository.
+- Requests can cover new integration events, public APIs, external access, and enum changes.
+- Event types described: business, OnBefore/OnAfter, verify, isolated, switch (manually bound), skip, handled, and discovery events.
+- The IsHandled pattern has drawbacks and should be limited to cases where better alternatives are not available.
+- Prefer proper extension points and regular events over IsHandled where possible.
+- IsHandled requests need a minimum set of information, including the event publisher signature.
+- IsHandled requests must address how multiple extensions interact, performance, data sensitivity, and alternatives evaluated.
 
 ## Learn pages
 

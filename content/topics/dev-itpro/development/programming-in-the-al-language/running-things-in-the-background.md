@@ -2,26 +2,26 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/running-things-in-the-background
 type: topic
 title: Running things in the background
-summary: "Background processing in Business Central AL: async operations, job queue, page background tasks and the task scheduler. It answers questions about choosing a mechanism, its limits and concurrency, error handling, retries and scheduling codeunits or reports."
+summary: "Background processing in AL for Business Central: page background tasks, Session.StartSession, the task scheduler and the job queue. It answers questions about choosing a mechanism, scheduling codeunits and reports, handling errors and retries, and concurrency and timeout limits online and on-premises."
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:02:48.344Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: ad47cd71590b002fef0aab9596fc58968b77de85f8bfd1d05ed0ccbec1fe0598
+  input_hash: 6c412eb63c873da1d06e2fa67a0efa8fe7c372e910e87114e7731602fefa0b88
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview
-    title: Async Processing Overview for Business Central
-    date: "2026-10-15"
+    title: Asynchronous Processing in AL for Business Central
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -116,28 +116,28 @@ narrative: generated
 
 # Running things in the background
 
-> Background processing in Business Central AL: async operations, job queue, page background tasks and the task scheduler. It answers questions about choosing a mechanism, its limits and concurrency, error handling, retries and scheduling codeunits or reports.
+> Background processing in AL for Business Central: page background tasks, Session.StartSession, the task scheduler and the job queue. It answers questions about choosing a mechanism, scheduling codeunits and reports, handling errors and retries, and concurrency and timeout limits online and on-premises.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Running things in the background · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Running things in the background · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the ways AL code can run work outside the user's foreground session. The four own pages describe the main mechanisms: the job queue for end-user scheduled and recurring jobs, page background tasks for read-only computations that keep pages responsive, the task scheduler for running codeunits and reports at a set date and time, and an overview of async processing limits.
+This area covers the ways AL code can run work outside the user's foreground session. An overview page compares the mechanisms: page background tasks, Session.StartSession, the task scheduler and the job queue. It notes that each has limits for concurrency and timeouts, and that these differ between online and on-premises environments.
 
-Start with the Async Processing Overview to see operational limits and configuration for online and on-premises, including child and background session concurrency, page background task timeouts, scheduled task concurrency and queue limits. Then pick the page that fits the scenario: Job queue for recurring jobs that end users schedule, Task scheduler for scheduling codeunits and reports from code with retry and failure handling, Page Background Tasks for page performance.
+Each mechanism has its own page. Page Background Tasks covers read-only computations that keep a page responsive, with parent and child sessions, dictionary parameters, timeouts and error levels. The task scheduler page covers running codeunits and reports at a set date and time, with retry for transient errors and failure codeunits. The job queue page covers end-user scheduling of recurring background jobs through a dispatcher codeunit, with error handling and permissions. A subtopic holds the AL language reference pages for background processing.
 
-One subtopic, the AL language reference for background processing, holds 3 reference pages.
+Start with the asynchronous processing overview to pick a mechanism and check its limits. Then read the page for that mechanism.
 
 ## Key points
 
-- Async Processing Overview documents limits and configuration for async tasks, job queues, page background tasks and scheduled tasks, online and on-premises.
-- Job queue lets end users schedule background jobs with recurring options, using a dispatcher codeunit and an error handler.
-- The Job queue page also covers background sessions, parameter passing, error message management and permissions.
-- Page Background Tasks run read-only computations in a child session of the parent page session, without blocking the user.
-- Page background tasks take Dictionary parameters, support timeout configuration, error levels (Ignore, Warning, Error), re-enqueuing and conditional cancellation.
-- Task scheduler runs codeunits and reports at a set date and time in background sessions.
-- Task scheduler methods: CreateTask, SetTaskReady, TaskExists and CancelTask.
-- Task scheduler retries on retriable exceptions and can run a failure codeunit when a task fails.
+- The overview compares page background tasks, Session.StartSession, task scheduler and job queue.
+- Concurrency and timeout limits differ between online and on-premises; settings named include ChildSessionsMaxConcurrency and BackgroundSessionsMaxConcurrent.
+- Page background tasks run read-only computations and long processes without blocking the user.
+- Page background tasks use parent and child sessions, dictionary parameters for input, configurable timeouts, and error levels Ignore, Warning and Error.
+- Page background tasks can be re-enqueued or conditionally cancelled.
+- The task scheduler uses CreateTask, SetTaskReady, TaskExists and CancelTask to run codeunits and reports at a given date and time.
+- The task scheduler retries retriable exceptions and can run failure codeunits.
+- The job queue lets end users schedule recurring background jobs via a dispatcher and an error handler, with parameter passing and permissions.
 
 ## Subtopics
 
@@ -145,7 +145,7 @@ One subtopic, the AL language reference for background processing, holds 3 refer
 
 ## More Learn pages
 
-- [Async Processing Overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview): Compare asynchronous processing options in AL, including page background tasks, background sessions, scheduled tasks, and job queues in Business Central.
+- [Asynchronous Processing in AL for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview): Compare asynchronous processing options in Business Central. Choose page background tasks, background sessions, scheduled tasks, or job queues for your AL code.
 - [Job queue](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-job-queue): Learn about how the job queue works
   - In the observatory: [Codeunit 448 "Job Queue Dispatcher"](../../../../objects/codeunit/448.md), [Codeunit 450 "Job Queue Error Handler"](../../../../objects/codeunit/450.md), [Table 472 "Job Queue Entry"](../../../../objects/table/472.md)
 - [Page Background Tasks](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-background-tasks): Explains how to create page background tasks in Business Central.

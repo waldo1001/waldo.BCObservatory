@@ -2,21 +2,21 @@
 id: topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central
 type: topic
 title: Manage access to Business Central
-summary: "Managing access to Business Central: licensing, user accounts, environment access, permissions and security groups. It answers questions on who can use the system, how to grant permissions, how to use security groups, and how Microsoft 365 licenses give read-only access through Teams."
+summary: "Access control in Business Central: licensing, user accounts, environment access, permission sets, and security groups. It answers questions about who can use the system, how to grant permissions, and how Microsoft 365 license holders get read-only access through Teams."
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T13:37:27.484Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-31T01:06:04.529Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 43db5ecea86bc8cffd552a6a83843833997fdaa46ee9246fef867d91cfd083c0
+  input_hash: bd3dc44545b93f54da82d178aacb731633586a0e97ddf5c5bab2cc5efc135e12
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-faq
@@ -42,7 +42,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-users-permissions
     title: Create users according to licenses
-    date: "2026-07-16"
+    date: "2026-11-02"
     commit: null
     t: null
     quote: null
@@ -179,28 +179,28 @@ narrative: generated
 
 # Manage access to Business Central
 
-> Managing access to Business Central: licensing, user accounts, environment access, permissions and security groups. It answers questions on who can use the system, how to grant permissions, how to use security groups, and how Microsoft 365 licenses give read-only access through Teams.
+> Access control in Business Central: licensing, user accounts, environment access, permission sets, and security groups. It answers questions about who can use the system, how to grant permissions, and how Microsoft 365 license holders get read-only access through Teams.
 
-Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Manage access to Business Central · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Manage access to Business Central · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section describes a layered approach to controlling who can use Business Central. The layers are licenses (Dynamics 365 Business Central and Microsoft 365), user accounts, environment access, permissions, and security groups. Multi-Factor Authentication and Azure service tags are also named among the topics.
+This section explains the layered approach to controlling who can use Business Central. The layers are licenses (Dynamics 365 Business Central and Microsoft 365), user accounts, environment access, permission sets, and security groups. The main page, Manage Access to Business Central, introduces these layers and related items such as Multi-Factor Authentication and Azure service tags.
 
-The main page, Manage Access to Business Central, gives the overview and is the best place to start. From there, Control Access Using Security Groups explains how to apply permissions to all members of a group, with Microsoft Entra ID or Windows Active Directory, online or on-premises.
+Two subtopics go deeper. "Grant user permissions" covers creating users according to their licenses and defining permission sets at object and record level. "Access with Microsoft 365 licenses" covers read-only access to Business Central data through Microsoft Teams, including setup, authentication, provisioning, and licensing questions. A separate page covers using security groups to manage permissions for many users at once.
 
-Two subtopics go deeper. Grant user permissions covers creating users by license type, assigning permission sets, and defining granular permission sets with record-level security filters. Access with Microsoft 365 licenses covers read-only access to Business Central data through Microsoft Teams.
+Start with the Manage Access to Business Central page for the overview. Then go to Grant user permissions for adding users and assigning permissions, and to the security groups page when you manage access for groups of users.
 
 ## Key points
 
-- Access control has layers: licenses, user accounts, environment access, permissions, and security groups.
+- Access is layered: licenses, user accounts, environment access, permissions, and security groups.
 - Security groups apply permissions to all members and support Microsoft Entra ID and Windows Active Directory, online and on-premises.
-- Security groups can carry company-specific permissions and give access to multiple companies; group membership is managed in the groups.
-- The security groups page lists versions 25.11, 26.5 and 27.4.
-- Users are created according to license type and given permission sets, with license assignment, user groups and delegated admin also covered.
-- Granular permission sets define read, insert, modify, delete and execute access, plus indirect permissions and security filters for record-level security.
-- Permissions can be imported and exported.
-- Microsoft 365 license holders get read-only access to Business Central data through Teams; the subtopic covers setup, authentication, provisioning and licensing questions.
+- Security group topics include group creation, permission assignment, company-specific permissions, multi-company access, and membership management.
+- The security groups page lists versions 25.11, 26.5, and 27.4.
+- Grant user permissions covers adding users from Microsoft 365, assigning permissions by license type, and object-level and record-level access.
+- Microsoft 365 license holders get read-only access to Business Central data through Microsoft Teams.
+- The Microsoft 365 license pages cover setup, authentication, user provisioning, and common licensing and permission questions.
+- The overview page also mentions Multi-Factor Authentication and Azure service tags.
 
 ## Subtopics
 

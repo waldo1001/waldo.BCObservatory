@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language
 type: topic
 title: Programming in the AL language
-summary: "Programming in the AL language covers AL fundamentals for Business Central development: variables, triggers, language elements, tables, pages, reports, events, security, APIs, background processing, telemetry and error handling. It helps an agent find the right area for syntax, design and how-to questions."
+summary: "Programming in the AL language covers language fundamentals and the main areas of AL development for Business Central: syntax, tables, pages, reports, events, errors, security, background tasks, APIs, telemetry and external calls. It helps an agent find which subtopic answers a how-to, syntax or design question."
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-28T11:00:22.681Z"
+  at: "2026-11-03T01:02:12.282Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: b8bf06610e32808bd4f883189d8106bc4b0b27c9ecce85d8f313e97660be60fa
+  input_hash: 6c19ffc2a9180008e660f2e30a86fa1e432b8ed5a0bd1f6dc3681acf67a4ea04
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dotnet-controladdins
@@ -293,8 +293,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview
-    title: Async Processing Overview for Business Central
-    date: "2026-10-15"
+    title: Asynchronous Processing in AL for Business Central
+    date: "2026-10-23"
     commit: null
     t: null
     quote: null
@@ -446,28 +446,28 @@ narrative: generated
 
 # Programming in the AL language
 
-> Programming in the AL language covers AL fundamentals for Business Central development: variables, triggers, language elements, tables, pages, reports, events, security, APIs, background processing, telemetry and error handling. It helps an agent find the right area for syntax, design and how-to questions.
+> Programming in the AL language covers language fundamentals and the main areas of AL development for Business Central: syntax, tables, pages, reports, events, errors, security, background tasks, APIs, telemetry and external calls. It helps an agent find which subtopic answers a how-to, syntax or design question.
 
 Path: [Development](../development.md) > Programming in the AL language · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section is the entry point for writing AL code in Business Central. Its own page, "Programming in AL", explains the fundamentals: manipulating data, controlling application objects, creating business rules and writing code in triggers across tables, pages, reports and other objects. It also touches on variable declarations, protected variables, trigger types, code reuse and security patterns.
+The section starts with a page on AL fundamentals: variable declarations, protected variables, trigger types, code reuse and security patterns. It describes how AL is used to manipulate data, control application objects, create business rules and write code in triggers across tables, pages, reports and other objects.
 
-The subtopics go deeper by area. Core language material is in Program building blocks (operators, statements, access modifiers, XML comments), Language elements, Error handling and Formatting values. Object-focused material is in Tables and data, Pages and the user interface, and Developing reports. Extension and integration material covers Events, Developing APIs, Calling external services, Running things in the background, Handling security, and Instrumenting with telemetry.
+Subtopics then split by area. Program building blocks (operators, statements, access modifiers, XML comments) and Language elements cover the language itself. Tables and data, Pages and the user interface, and Developing reports cover the main object types. Events, Error handling, Formatting values and Handling security cover cross-cutting concerns.
 
-Smaller subtopics cover device capabilities (GPS, camera), printer extensions, and .NET interoperability, which is on-premises only. Start with the Programming in AL page, then move to Program building blocks or the object type you are working on.
+Other subtopics cover integration and runtime: background processing, APIs, calling external services, telemetry, device capabilities, printer extensions and on-premises .NET interoperability. Start with the Programming in AL page, then go to the subtopic that matches the object type or task.
 
 ## Key points
 
-- The Programming in AL page covers variable declarations, protected variables, trigger types, code reuse and security patterns.
-- Program building blocks covers operators, statements, system-defined variables, access modifiers and XML comments.
-- Error handling covers try methods, collectible errors, actionable errors with Fix-it and Show-it actions, and error telemetry.
+- Programming in AL covers variable declarations, protected variables, trigger types, code reuse and security patterns.
+- Program building blocks covers operators, operator precedence, statements, system-defined variables, access modifiers and XML comments.
+- Error handling covers try methods, collectible errors, actionable errors with Fix-it and Show-it actions, UX guidelines and error telemetry.
 - Tables and data covers records, queries, FlowFields, SIFT and NCCI indexing, number sequences, DataTransfer, and XMLport or Excel import and export.
-- Developing reports covers datasets, Word, Excel and RDL layouts, request pages, report extensions, obsoleting and performance.
-- Events covers publishing, raising and subscribing, isolated events, and discovering events with Event Recorder.
-- Handling security covers permission sets, entitlements, Azure Key Vault secrets, Isolated Storage and SecretText.
-- Using .NET applies to on-premises deployments only, including the move from .NET Framework to .NET Standard.
+- Developing reports covers datasets, Word, Excel and RDL layouts, request pages, report extensions, substitution and obsoleting.
+- Events covers publishing, raising and subscribing, isolated events, and the Event Recorder for discovering events.
+- Background processing covers page background tasks, Session.StartSession, the task scheduler and the job queue, with concurrency and timeout limits.
+- Security covers permission sets, entitlements, Azure Key Vault secrets, Isolated Storage and the SecretText type; .NET interop applies to on-premises only.
 
 ## Subtopics
 

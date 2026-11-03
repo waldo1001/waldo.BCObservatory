@@ -2,20 +2,20 @@
 id: topic/business-central/business-functionality/general-business-functionality/workflows
 type: topic
 title: Workflows
-summary: "Workflows in Business Central: automation and approvals using Power Automate flows and built-in approval workflow templates. It answers questions about flow types, workflow events and responses, and how to send, approve, reject, delegate and administer approval requests."
+summary: Workflows in Business Central cover automating business processes with built-in approval workflow templates and Power Automate flows. The section answers questions about what workflows are, which flow types exist, and how to run and maintain approval workflows.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:21:08.662Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 240a0bdc82832c307e5b4d4fbd78c7960a2ab73ca0802239dd3d60f6b7120206
+  input_hash: 83a5a97312843f76d564071e570385dd34648bde8aedad46f7063d76a55a77d1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-approval-workflows
@@ -69,7 +69,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-workflow
     title: Workflows in Dynamics 365 Business Central
-    date: "2025-10-22"
+    date: "2026-10-15"
     commit: null
     t: null
     quote: null
@@ -125,28 +125,26 @@ narrative: generated
 
 # Workflows
 
-> Workflows in Business Central: automation and approvals using Power Automate flows and built-in approval workflow templates. It answers questions about flow types, workflow events and responses, and how to send, approve, reject, delegate and administer approval requests.
+> Workflows in Business Central cover automating business processes with built-in approval workflow templates and Power Automate flows. The section answers questions about what workflows are, which flow types exist, and how to run and maintain approval workflows.
 
-Path: [Business functionality](../../business-functionality.md) > [General business functionality](../general-business-functionality.md) > Workflows · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [General business functionality](../general-business-functionality.md) > Workflows · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Workflows connect business-process tasks in Business Central through two routes: Power Automate flows and approval workflows built from built-in templates. Workflows involve workflow events and workflow responses. Power Automate flows can be triggered by events such as a record being created or changed.
+Workflows connect tasks done by different users and system tasks to automate a business process. Business Central supports two routes: built-in approval workflows, based on workflow templates, events, conditions and responses, and Power Automate flows that react to events such as record creation or changes.
 
-Start with the "Workflows in Dynamics 365 Business Central" page for the overall picture. Then read "Use Power Automate flows in Business Central" if you need event-triggered automation through the Power Automate connector. That page covers automated, approval, scheduled and instant flows.
-
-The "Use approval workflows" subtopic (6 pages) covers day-to-day approval work. Users send, approve, reject, delegate and cancel requests. Admins enable and delete workflows, restrict records, and review archived workflow step instances.
+The overview page, "Workflows in Dynamics 365 Business Central", is the place to start. It explains the building blocks and the two routes. The page on Power Automate flows describes the flow types and the Power Automate connector. The subtopic "Use approval workflows" is the practical part. It covers how users send, approve, reject, delegate and cancel approval requests, and how admins enable and delete workflows, restrict records and review archived workflow step instances.
 
 ## Key points
 
-- Two approaches: Power Automate flows and approval workflows based on built-in templates.
-- Workflows are built from workflow events and workflow responses.
-- Power Automate flows can be triggered by events such as record creation or changes, through the Power Automate connector.
-- Flow types named in the pages: automated, approval, scheduled and instant flows.
+- Workflows automate business processes by linking tasks performed by different users with system tasks.
+- Built-in approval workflows use workflow templates, events, conditions, responses and options.
+- Power Automate flows can be triggered by events like record creation or changes, using the Power Automate connector.
+- The Power Automate page lists automated, approval, scheduled and instant flows; the overview page names automated and instant flows.
 - Users can send, approve, reject, delegate and cancel approval requests.
-- Admins can enable and delete approval workflows and restrict the use of records.
+- Admins can enable and delete approval workflows and restrict records.
 - Archived workflow step instances can be reviewed.
-- The approval subtopic has 6 how-to pages.
+- Start with the workflows overview, then go to the approval workflow how-to pages or the Power Automate page.
 
 ## Subtopics
 

@@ -1,34 +1,24 @@
 {
   "hub_id": "topic/dev-itpro/development/extensibility/developing-client-add-ins",
-  "input_hash": "888eec5943c54f44ab9ec7bc8291ed72768ccef330e2f0dd83204b63b628c331",
-  "summary": "Developing client add-ins covers best practices for building control add-ins in Business Central. It answers questions about performance (AL trigger calls, payload size, throttling) and about styling (color palette, fonts, CSS, accessibility).",
-  "overview": "This section is for developers who build control add-ins for the Business Central client. It has two pages, and neither depends on the other. One covers how an add-in should behave at run time, and the other covers how it should look and respond to users.\n\nStart with the performance page if your add-in calls AL triggers often or sends a lot of data. Poor performance can cause reduced functionality warnings and request throttling. Then read the styling page to make the add-in match the client and stay usable for everyone, including keyboard users.",
+  "input_hash": "dcf32e7f8c35edc1a70f1a8a122cc5d7c2944a672afd36facc7db745805114d6",
+  "summary": "Developing client add-ins covers guidance for building control add-ins in Business Central. It answers questions about performance best practices for calling AL triggers and handling payloads, and about styling add-ins with CSS colors, fonts, and text sizes to match the Business Central look.",
+  "overview": "This section holds two guidance pages for developers who build control add-ins for Business Central. One covers how add-ins should behave at runtime, the other how they should look. There are no subtopics.\n\nStart with the performance best practices page if an add-in calls AL triggers or sends data between the client and AL. It explains that triggers should be invoked only after previous calls complete and that large payloads should be avoided. Poor performance can lead to reduced functionality warnings and request throttling.\n\nThen use the Control Add-in Style Guide when the add-in shows charts, maps, or third-party content and should look consistent with Business Central. It supplies CSS color palettes, font families, text sizes, status and chart colors, plus contrast and keyboard focus guidance.",
   "key_points": [
     "Invoke AL triggers only after previous calls have completed.",
     "Avoid excessive payloads between the add-in and AL.",
-    "Poor add-in performance can lead to reduced functionality warnings and request throttling.",
-    "The performance page covers callback handling, performance monitoring and error handling.",
-    "Style add-ins with the Business Central color palette, font families and CSS so they fit the client.",
-    "Test color contrast and keyboard interaction to keep add-ins accessible to all users."
+    "Poor add-in performance can trigger reduced functionality warnings and request throttling.",
+    "Performance guidance covers callback handling, payload optimization, monitoring, and error handling.",
+    "The style guide gives CSS color palettes, font families, and text sizes that match Business Central.",
+    "Status colors and chart colors are defined for add-ins that display charts, maps, or third-party content.",
+    "The style guide includes contrast guidance and keyboard focus indicators."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-28T10:58:44.530Z",
+  "at": "2026-11-03T01:01:23.740Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.007620999999999999
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-28T11:04:11.643Z",
-    "verdict": "approve",
-    "issues": [
-      "The overview says the two pages do not depend on each other. The summaries don't state this. It's a harmless inference, but nothing in the sources backs it."
-    ],
-    "input_hash": "888eec5943c54f44ab9ec7bc8291ed72768ccef330e2f0dd83204b63b628c331",
-    "cost_usd": 0.0174512
+    "cost_usd": 0.009075
   }
 }

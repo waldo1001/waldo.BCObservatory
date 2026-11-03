@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/the-al-programming-language/objects
 type: topic
 title: Objects
-summary: "AL object types in Business Central: codeunits, pages, page extensions, tables, table extensions, keys, enums, queries, reports, XMLports, control add-ins, profiles, entitlements and permission sets. It answers questions about what each object does, its key properties, and how to extend or customize it."
+summary: "AL object types in Business Central: codeunits, tables, table extensions, keys, pages and page extensions, page customizations, profiles, queries, reports, XMLports, enums, control add-ins, entitlements and permission sets. Use it for questions on what each object does, its key properties, and how to extend it."
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:18:06.484Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 307b330e95d977913a4905c62ffaa7ee32ac658ecdfaef771ed17d067786ab9c
+  input_hash: 5e3576406eaee14a6fbb75b9b6e4720ed763cab88e3c52779d064ec7f574c348
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object
@@ -176,28 +176,24 @@ narrative: generated
 
 # Objects
 
-> AL object types in Business Central: codeunits, pages, page extensions, tables, table extensions, keys, enums, queries, reports, XMLports, control add-ins, profiles, entitlements and permission sets. It answers questions about what each object does, its key properties, and how to extend or customize it.
+> AL object types in Business Central: codeunits, tables, table extensions, keys, pages and page extensions, page customizations, profiles, queries, reports, XMLports, enums, control add-ins, entitlements and permission sets. Use it for questions on what each object does, its key properties, and how to extend it.
 
-Path: [Development](../../development.md) > [The AL programming language](../the-al-programming-language.md) > Objects · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [The AL programming language](../the-al-programming-language.md) > Objects · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section describes the object types you write in AL. Each page covers one object type, its syntax and its main properties. The types fall into groups: data (table, table extension, table keys, extensible enums, query), logic (codeunit), user interface (page, page extension, page customization, profile, control add-in), output and exchange (report, XMLport), and security and licensing (permission set, permission set extension, entitlement).
-
-Extension-related pages show how to change existing objects without editing the base. Page extensions add or move controls and actions, page customizations apply limited layout changes to specific profiles, table extensions add fields, keys and triggers, and permission set extensions add permissions. Profiles tie a role center to optional page customizations.
-
-Start with the Table object and Page object pages for the basics. Then read the extension pages for the object you want to change, and the Codeunit page for business logic. Use the permission set and entitlement pages when you package or monetize an app.
+This section is the reference for the object types you declare in AL. Each page covers one object type: its purpose, main properties and triggers, and extensibility rules. Data objects include tables, table extensions, table keys, extensible enums, queries and XMLports. Logic and output objects include codeunits and reports.
 
 ## Key points
 
-- Codeunits hold reusable business logic and procedures, and can use an OnRun trigger.
-- Page extensions use keywords such as addfirst, addlast, addafter, addbefore, modify and the move keywords. Page customizations are more limited: they have no variables, procedures or triggers and apply to specified profiles.
-- Table objects cover fields, keys, triggers and the Extensible property. Table extensions add fields, keys and trigger code without changing the base table.
-- Table keys can be primary or secondary, unique or clustered, and can include extra fields with IncludedFields.
-- Extensible enums can be extended through enumextension objects and used as table fields, variables and parameters.
-- Reports support RDL, Word and Excel layouts plus request pages. XMLports import and export XML data. Queries join data from several tables through dataitems and columns.
-- Control add-ins show custom HTML, CSS and JavaScript content in iframes on pages, set with properties such as Scripts, StartupScript, StyleSheet and Images.
-- Permission sets can be composed with included and excluded sets, and permission set extensions add permissions on install. Entitlements define object access by license or Microsoft Entra role, to support Marketplace app transactability.
+- Codeunits hold reusable business logic as procedures and can use an OnRun trigger.
+- Tables define fields, keys and triggers. Table extensions add fields, keys and trigger code without changing the base table.
+- Table keys cover primary, secondary, unique and clustered keys, plus IncludedFields for query performance.
+- Extensible enums use the Extensible property and enumextension objects so other extensions can add values.
+- Page extensions use addfirst, addlast, addafter, addbefore, modify and move keywords. Page customizations are more limited, apply to specific profiles and allow no variables, procedures or triggers.
+- Profile objects set a role center and can reference page customizations.
+- Permission sets use Assignable, Permissions, IncludedPermissionSets and ExcludedPermissionSets. Permission set extensions add permissions to existing sets.
+- Entitlement objects define which objects customers can use based on licenses or Microsoft Entra roles, supporting Marketplace app transactability.
 
 ## Learn pages
 

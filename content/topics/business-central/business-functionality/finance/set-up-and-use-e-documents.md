@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:02:25.424Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -119,6 +119,7 @@ links:
     - change/bcapps/10029
     - change/bcapps/10799
     - change/bcapps/11483
+    - change/bcapps/13273
     - change/bcapps/9578
     - change/bcapps/9646
     - change/bcapps/9648
@@ -201,6 +202,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10029 [Main]-Import of e-documents with format ZUGfERD & XRECHNUNG fail with error message You cannot insert a purchase line without a purchase header in German localisation](../../../../changes/bcapps/10029.md) (code change): "Import of e-documents with format ZUGfERD & XRECHNUNG fail with error message"
 - [#10799 Remove OnPrem scope from Table 1226 "Payment Export Data".SetSwissExport](../../../../changes/bcapps/10799.md) (code change): "Payment Export Data table is now callable from Cloud extensions"
 - [#11483 [E-Documents Core] - Linkage & Traceability](../../../../changes/bcapps/11483.md) (code change): "E-Documents module now provides linkage and traceability"
+- [#13273 [Master]-CH] SEPA XML Files should append the Address 1 + '' + Address 2 fields under <PstlAdr><StrtNm> node if we use "Address 2" as Building Number for QR-Bills](../../../../changes/bcapps/13273.md) (code change): "Address 1 and Address 2 are concatenated in the <PstlAdr><StrtNm> node"
 - [#9578 [E-Documents Core] - Enabling remittance advice export via E-Documents (payment journal + posted payments)](../../../../changes/bcapps/9578.md) (code change): "E-Documents now supports exporting remittance advice from payment journals and posted vendor payments"
 - [#9646 [Bug]: [DE] XRechnung/ZUGFeRD — no posting-time error when SELLER CONTACT (BG-6) source data is incomplete, producing non-compliant e-invoices](../../../../changes/bcapps/9646.md) (code change): "E-Document posting now validates that seller contact information"
 - [#9648 [master]-[BE] [PEPPOL] There is a problem between the totals on the invoice printout and the XML PEPPOL with Payment discount](../../../../changes/bcapps/9648.md) (code change): "Fixed discrepancy between invoice printout and PEPPOL XML totals"

@@ -9291,6 +9291,20 @@
         }
       ]
     },
+    "change/bcapps/12520": {
+      "kind": "change",
+      "key": "change/bcapps/12520",
+      "hash": "71a8d7ece47c3b5a8dc1a869047287f40f705504f31294b440acd4eae08bc64c",
+      "title": "#12520 [29.X]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure",
+      "source": "bcapps-prs",
+      "at": "2026-11-03T00:55:22.307Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing",
+          "quote": "Reverse Production Entry now correctly handles production output posted using non-base units"
+        }
+      ]
+    },
     "change/bcapps/12532": {
       "kind": "change",
       "key": "change/bcapps/12532",
@@ -10604,6 +10618,20 @@
       "at": "2026-10-23T01:10:42.232Z",
       "matches": []
     },
+    "change/bcapps/13182": {
+      "kind": "change",
+      "key": "change/bcapps/13182",
+      "hash": "d29f6afec9b2855496239a2aaee22c79723d7553927aa3a11d7fdb8940da0652",
+      "title": "#13182 [Master] - Bug 656364: [Expense Agent] Add a View rules link below Enforce management rules",
+      "source": "bcapps-prs",
+      "at": "2026-11-03T00:55:23.132Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "View rules link was added below the Enforce management rules setting"
+        }
+      ]
+    },
     "change/bcapps/13183": {
       "kind": "change",
       "key": "change/bcapps/13183",
@@ -10623,6 +10651,20 @@
         {
           "topic": "topic/business-central/business-functionality/service-management/deliver-service",
           "quote": "Service orders are generated. Test coverage was expanded to verify the dimension population behavior"
+        }
+      ]
+    },
+    "change/bcapps/13185": {
+      "kind": "change",
+      "key": "change/bcapps/13185",
+      "hash": "14b450991ecb9d0e6df04fd14831b2247920a2bbcd1d4e22700998a5c349157b",
+      "title": "#13185 [Master] - Bug 656372: [Expense Agent] Fix itemization rounding and missing currency code.",
+      "source": "bcapps-prs",
+      "at": "2026-11-03T00:55:23.132Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Expense Agent now correctly handles itemization rounding calculations"
         }
       ]
     },
@@ -10819,6 +10861,28 @@
         }
       ]
     },
+    "change/bcapps/13273": {
+      "kind": "change",
+      "key": "change/bcapps/13273",
+      "hash": "93cd256fa01f48f31d5177fc11e0cb309be601d6c218daeab91c7eb007d96b6d",
+      "title": "#13273 [Master]-CH] SEPA XML Files should append the Address 1 + '' + Address 2 fields under <PstlAdr><StrtNm> node if we use \"Address 2\" as Building Number for QR-Bills",
+      "source": "bcapps-prs",
+      "at": "2026-11-03T00:55:23.286Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/switzerland/core-finance",
+          "quote": "SEPA XML exports for Swiss QR-Bills now combine Address 1 and Address 2"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-payables/apply-payments-automatically-and-reconci",
+          "quote": "SEPA XML export functionality updated for Swiss payments"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
+          "quote": "Address 1 and Address 2 are concatenated in the <PstlAdr><StrtNm> node"
+        }
+      ]
+    },
     "change/bcapps/13293": {
       "kind": "change",
       "key": "change/bcapps/13293",
@@ -10952,6 +11016,20 @@
         }
       ]
     },
+    "change/bcapps/13336": {
+      "kind": "change",
+      "key": "change/bcapps/13336",
+      "hash": "0d1bcb9802a416b028f198c3d0843e65304aa62e97c054b63fca264597f902e3",
+      "title": "#13336 [master] Create Reminders fails with \"There is no Reminder Line within the filter\" when all overdue entries are On Hold (new communication texts)",
+      "source": "bcapps-prs",
+      "at": "2026-11-03T00:55:22.126Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-receivables",
+          "quote": "Creating reminders failed with a filter error when all overdue entries"
+        }
+      ]
+    },
     "change/bcapps/13342": {
       "kind": "change",
       "key": "change/bcapps/13342",
@@ -11026,6 +11104,20 @@
         }
       ]
     },
+    "change/bcapps/13417": {
+      "kind": "change",
+      "key": "change/bcapps/13417",
+      "hash": "066b4210a7bd3978d9139455b969400a64b911b6e7cfdfe44bb615e3df48c54d",
+      "title": "#13417 [Master]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo.",
+      "source": "bcapps-prs",
+      "at": "2026-11-03T00:55:22.126Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/sales",
+          "quote": "sales order line quantities are incorrectly updated after posting a Return Order"
+        }
+      ]
+    },
     "change/bcapps/13431": {
       "kind": "change",
       "key": "change/bcapps/13431",
@@ -11075,6 +11167,38 @@
           "quote": "When entries are applied across different posting groups Allow Multiple Posting Groups"
         }
       ]
+    },
+    "change/bcapps/13460": {
+      "kind": "change",
+      "key": "change/bcapps/13460",
+      "hash": "4f2ba21e39ab325dda05c98d188f0bf210f1b19ddad0c41ec816134f69d6414e",
+      "title": "#13460 [Master] Fix Expense Agent account filters with special characters",
+      "source": "bcapps-prs",
+      "at": "2026-11-03T00:55:23.132Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Expense Agent now properly handles G/L account lookups when account names"
+        }
+      ]
+    },
+    "change/bcapps/13469": {
+      "kind": "change",
+      "key": "change/bcapps/13469",
+      "hash": "5c20400255340bf3665272d078558156f3d337740d7275010db5d0e9994cf5dc",
+      "title": "#13469 [SOA] Do not show duplicate-contact notification on outgoing email",
+      "source": "bcapps-prs",
+      "at": "2026-11-03T00:55:23.132Z",
+      "matches": []
+    },
+    "change/bcapps/13495": {
+      "kind": "change",
+      "key": "change/bcapps/13495",
+      "hash": "299eb506d7bd2da9cbc29511502e9bda80ba0bfe36835d7906dd46576d275d27",
+      "title": "#13495 Migrate SOA auxiliary calls to GPT-5.6 and refine date-filter handling",
+      "source": "bcapps-prs",
+      "at": "2026-11-03T00:55:23.132Z",
+      "matches": []
     },
     "change/bcapps/5833": {
       "kind": "change",
@@ -17905,6 +18029,24 @@
         }
       ]
     },
+    "change/bcquality/253": {
+      "kind": "change",
+      "key": "change/bcquality/253",
+      "hash": "d893cb3eb79e91c3705629b2560590a868cdbbbe64b2191b02722696eb4fe597",
+      "title": "#253 knowledge(performance): add trigger-only fields to API pages with AddLoadFields",
+      "source": "bcquality-prs",
+      "at": "2026-11-03T00:55:22.869Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/web-services/apis",
+          "quote": "how to use AddLoadFields on API pages to prevent JIT loading failures"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+          "quote": "AddLoadFields on API pages to prevent JIT loading failures when accessing unbound fields"
+        }
+      ]
+    },
     "change/bcquality/49": {
       "kind": "change",
       "key": "change/bcquality/49",
@@ -19519,16 +19661,29 @@
     "post/aardvarklabs-blog/4177": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/4177",
-      "hash": "cfb115c69324873fa90eea481733a7fa3409be42ced418b4afae65f9d3533477",
+      "hash": "afd250dfae2d6a81d9652c585cf418fb3f7656d1342717886e51d279547e1ef2",
       "title": "Building the AL Exploration Tool I Always Wanted",
       "source": "aardvarklabs-blog",
-      "at": "2026-11-01T00:41:49.680Z",
+      "at": "2026-11-03T00:55:23.445Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
-          "quote": "code analysis; vs code extension; visual diagrams; developer tools"
+          "topic": "topic/dev-itpro/development",
+          "quote": "A developer shares how they built a VS Code extension for exploring AL codebases visually"
+        },
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "dependency diagrams, relationship maps, where-used analysis, and documentation generation"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-11-03T00:55:00.007Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+            "reason": "A tool for visually exploring codebases and their dependencies, not about code analyzers or rulesets."
+          }
+        ]
+      }
     },
     "post/bccaptain-com-au/https://bccaptain.com.au/2026/04/27/im-back-and-its-going-to-be-a-busy-few-months/": {
       "kind": "post",
@@ -30085,6 +30240,28 @@
           }
         ]
       }
+    },
+    "post/thinkaboutit-be/8342": {
+      "kind": "post",
+      "key": "post/thinkaboutit-be/8342",
+      "hash": "0029b05785b67f480e25750a9b81cc0af8a8019db464b5aa80393adf045c60aa",
+      "title": "Business Central 29: Exploring the New Microsoft Copilot Chat",
+      "source": "thinkaboutit-be",
+      "at": "2026-11-03T00:55:23.132Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
+          "quote": "new unified Microsoft Copilot Chat that combines Business Central data"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+          "quote": "Business Central MCP server enables Copilot to access standard data"
+        },
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
+          "quote": "administrators can manage AI capabilities through the Copilot & Agent Capabilities page"
+        }
+      ]
     },
     "post/thinkaboutit-be/8348": {
       "kind": "post",

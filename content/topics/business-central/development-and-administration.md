@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:00:37.471Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -133,7 +133,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-users-permissions
     title: Create users according to licenses
-    date: "2026-07-16"
+    date: "2026-11-02"
     commit: null
     t: null
     quote: null
@@ -343,7 +343,6 @@ links:
     - object/page/1439
     - object/page/1565
     - object/page/1752
-    - object/page/1801
     - object/page/1803
     - object/page/1830
     - object/page/1850
@@ -360,12 +359,11 @@ links:
     - object/page/1950
     - object/page/1951
     - object/page/1978
-    - object/page/1990
     - object/page/1992
     - object/page/1993
     - object/page/1994
     - object/page/1995
-    - object/page/1997
+    - object/page/1996
     - object/page/2026
     - object/page/2027
     - object/page/2029
@@ -497,7 +495,7 @@ children:
   - topic/business-central/development-and-administration/migrate-to-business-central-online
 coverage:
   learn: 77
-  code: 165
+  code: 163
   video: 1
   blog: 0
   guideline: 0
@@ -555,7 +553,6 @@ bc_forms:
   - 1565
   - 1665
   - 1752
-  - 1801
   - 1803
   - 1830
   - 1850
@@ -601,12 +598,11 @@ bc_forms:
   - 1950
   - 1951
   - 1978
-  - 1990
   - 1992
   - 1993
   - 1994
   - 1995
-  - 1997
+  - 1996
   - 2026
   - 2027
   - 2029
@@ -835,7 +831,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 1439 "Headline Details"](../../objects/page/1439.md) · on [Table 1437 "Headline Details Per User"](../../objects/table/1437.md) · via [Customize Business Central](development-and-administration/customize-business-central.md)
 - [Page 1565 "Privacy Notices"](../../objects/page/1565.md) · captioned "Privacy Notices Status" · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
 - [Page 1752 "Data Classification Wizard"](../../objects/page/1752.md) · captioned "Data Classification Assisted Setup Guide" · on [Table 1180 "Data Privacy Entities"](../../objects/table/1180.md) · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
-- [Page 1801 "Assisted Setup"](../../objects/page/1801.md) · on [Table 1990 "Guided Experience Item"](../../objects/table/1990.md) · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
 - [Page 1803 "Assisted Company Setup Wizard"](../../objects/page/1803.md) · captioned "Company Setup" · on [Table 8627 "Config. Setup"](../../objects/table/8627.md) · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
 - [Page 1830 "MS - QBO Data Migration"](../../objects/page/1830.md) · captioned "QuickBooks Online Migration Setup" · via [Customize Business Central](development-and-administration/customize-business-central.md)
 - [Page 1850 "Sales Forecast"](../../objects/page/1850.md) · captioned "Forecast" · on [Table 27 "Item"](../../objects/table/27.md) · via [Customize Business Central](development-and-administration/customize-business-central.md)
@@ -852,12 +847,11 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 1950 "LP Machine Learning Setup"](../../objects/page/1950.md) · captioned "Late Payment Prediction Setup" · on [Table 1950 "LP Machine Learning Setup"](../../objects/table/1950.md) · via [Customize Business Central](development-and-administration/customize-business-central.md)
 - [Page 1951 "LP Prediction FactBox"](../../objects/page/1951.md) · on [Table 21 "Cust. Ledger Entry"](../../objects/table/21.md) · via [Customize Business Central](development-and-administration/customize-business-central.md)
 - [Page 1978 "MS 365 License Setup Wizard"](../../objects/page/1978.md) · captioned "Set up access with Microsoft 365 licenses" · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
-- [Page 1990 "Checklist Banner"](../../objects/page/1990.md) · on [Table 1995 "Checklist Item Buffer"](../../objects/table/1995.md) · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
 - [Page 1992 "Checklist Administration"](../../objects/page/1992.md) · on [Table 1995 "Checklist Item Buffer"](../../objects/table/1995.md) · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
 - [Page 1993 "Checklist"](../../objects/page/1993.md) · captioned "Checklist Administration" · on [Table 1995 "Checklist Item Buffer"](../../objects/table/1995.md) · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
 - [Page 1994 "Checklist Item Roles"](../../objects/page/1994.md) · on [Table 1992 "Checklist Item Role"](../../objects/table/1992.md) · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
 - [Page 1995 "Checklist Item Users"](../../objects/page/1995.md) · captioned "Checklist Users" · on [Table 1993 "Checklist Item User"](../../objects/table/1993.md) · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
-- [Page 1997 "Checklist Resurfacing"](../../objects/page/1997.md) · captioned "Show the checklist" · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
+- [Page 1996 "Guided Experience Item List"](../../objects/page/1996.md) · on [Table 1990 "Guided Experience Item"](../../objects/table/1990.md) · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
 - [Page 2026 "Image Analysis Tags"](../../objects/page/2026.md) · captioned "Image Analyzer Attributes" · on [Table 2028 "MS - Image Analyzer Tags"](../../objects/table/2028.md) · via [Customize Business Central](development-and-administration/customize-business-central.md)
 - [Page 2027 "Image Analysis Blacklist"](../../objects/page/2027.md) · captioned "Image Analyzer Blocked Attributes" · on [Table 2029 "MS - Img. Analyzer Blacklist"](../../objects/table/2029.md) · via [Customize Business Central](development-and-administration/customize-business-central.md)
 - [Page 2029 "Image Analyzer Wizard"](../../objects/page/2029.md) · captioned "Image Analyzer assisted setup guide" · via [Customize Business Central](development-and-administration/customize-business-central.md)

@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/development-and-administration/administration-tasks-in-business-central",
-  "input_hash": "cdd28abc28dbde8f8f75f868e517715c89836a6334509e3293e4c7e726b6423d",
-  "summary": "Administration tasks in Business Central cover user access, user settings, data control, company creation, web services, job queues, indexes, printers, languages and trial handling. It answers how-to questions for administrators setting up and maintaining an environment.",
-  "overview": "This section collects the routine and occasional work administrators do in Business Central. The overview page, \"Administrative tasks in Business Central\", lists core tasks such as user creation and permissions, data encryption, job scheduling, document management and integration with Dynamics 365 Sales and Dataverse. It is a good first stop.\n\nThree subtopics go deeper. \"Manage access to Business Central\" covers licensing, user accounts, permissions and security groups. \"Manage user settings\" covers company, role, language, region and time zone settings, plus profiles and role-based page layouts. \"Control your data\" covers auditing, data classification, retention, encryption, archiving and personal data requests.\n\nStandalone pages handle specific jobs: creating companies with an assisted setup guide, scheduling jobs, exposing objects as web services, configuring API templates, managing database indexes, viewing table information, inspecting pages, setting default printers, allowed and search languages, onboarding checklists, early feature activation and trial extension.",
+  "input_hash": "9c48d643ab2ec128305e620fb0a17d0a5baf808b855bdd950b98d09c35ce77ec",
+  "summary": "Administration tasks in Business Central cover access control, user settings, data control, and day-to-day environment setup such as companies, web services, job queues, printers, languages, indexes and trial extensions. It answers how-to questions for administrators configuring and maintaining an environment.",
+  "overview": "This section collects the tasks an administrator performs to set up and run a Business Central environment. Three subtopics go deeper: managing access (licensing, user accounts, permission sets, security groups), managing user settings and profiles, and controlling data (auditing, classification, retention, encryption, archiving, personal data requests).\n\nThe section's own pages are task-focused. They cover creating companies with an assisted setup guide, onboarding checklists, allowed languages, text search language for multilingual environments, and default printers. Integration and technical pages cover exposing objects as OData or SOAP web services, API templates, and scheduling jobs in the job queue. Maintenance pages cover database index usage, table information, page inspection, early feature activation, and trial extension.\n\nStart with \"Administrative tasks in Business Central\" for an overview of the core tasks. Then go to the subtopic or task page that matches your need. For performance questions, use the index usage and table information pages together.",
   "key_points": [
-    "New companies are created with an assisted setup guide; you can copy a company, use evaluation templates with sample data, or start blank.",
-    "The Job Queue Entries page schedules reports and codeunits one-time or recurring, tracks status, and can notify on failures.",
-    "Objects can be published as OData V4 or SOAP web services (page cites version 16.3).",
-    "API Templates set default property values for records created through the API, assigned on the API Setup page by condition.",
-    "Index management works per company: view usage statistics, turn off nonessential indexes to help write performance; unique indexes and primary keys cannot be disabled.",
-    "The Table Information page shows record counts, data and index sizes, and compression types for troubleshooting.",
-    "Trials start at 30 days and can be extended once by 30 days; partners can extend again, and a subscription is required after 90 days total.",
-    "Feature Management lets administrators enable upcoming features early to test before mandatory activation."
+    "Subtopics cover access (licensing, permission sets, security groups), user settings and profiles, and data control (auditing, masking, retention, encryption, archiving).",
+    "New companies are created with an assisted setup guide: copy a company, use an evaluation template with sample data, or start blank.",
+    "Objects can be published as OData V4 or SOAP web services; API templates set default property values for records created through the API.",
+    "The Job Queue Entries page schedules reports and codeunits one-time or recurring, with status tracking and failure notifications.",
+    "Database index usage can be managed per company: view usage and size, turn nonessential indexes off to improve write performance; unique indexes and primary keys are protected.",
+    "The Table Information page shows record counts, data and index sizes, and compression types for performance troubleshooting.",
+    "Trials last 30 days and can be extended once by another 30 days by the user; partners can extend again, and a subscription is needed after 90 days total.",
+    "Feature Management lets administrators enable upcoming features early; page inspection helps troubleshoot page design and data sources (2023 release wave 2)."
   ],
   "members_used": 14,
   "subtopics_used": 3,
   "prompt_version": 1,
-  "at": "2026-10-28T10:59:49.257Z",
+  "at": "2026-11-03T01:01:52.710Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.019193
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-28T11:01:16.922Z",
-    "verdict": "approve",
-    "issues": [
-      "Key point on web services includes '(page cites version 16.3)', which is supported but adds little value for agents.",
-      "Overview omits the Data Exchange Framework listed among the overview page's features; minor omission."
-    ],
-    "input_hash": "cdd28abc28dbde8f8f75f868e517715c89836a6334509e3293e4c7e726b6423d",
-    "cost_usd": 0.051147200000000004
+    "cost_usd": 0.019548999999999997
   }
 }

@@ -2,21 +2,28 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-banking
 type: topic
 title: Set up banking
-summary: "Banking setup in Business Central: bank account cards, bank feeds (Envestnet Yodlee), AMC Banking 365 Fundamentals, SEPA and other payment formats, and check layouts. It answers questions about configuring bank accounts, importing statements, exporting payments, and printing checks."
+summary: Banking setup in Business Central covers bank account cards, bank statement import, payment file export, bank feeds, the AMC Banking 365 Fundamentals extension and check layouts. It answers questions about connecting banks, reconciling payments and choosing formats such as SEPA.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:23:09.100Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 35f4e56358be991c759b99240ef9e2106dd6e848cd0a2905839a17753b70298e
+  input_hash: 98a10d1f24cc9cc652d3f1624df12ee06fd090bf4f21c6baa0be9afde13ccc07
 evidence:
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/bank-setup-banking
+    title: Banking Setup in Business Central
+    date: "2026-10-14"
+    commit: null
+    t: null
+    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/banks-formats-faq
     title: How to use banking and payment formats in Business Central
@@ -28,13 +35,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-accounts
     title: Set up bank accounts
     date: "2025-06-10"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/bank-setup-banking
-    title: Set Up Banking
-    date: "2021-04-01"
     commit: null
     t: null
     quote: null
@@ -61,9 +61,9 @@ evidence:
     quote: null
 links:
   learn:
+    - https://learn.microsoft.com/dynamics365/business-central/bank-setup-banking
     - https://learn.microsoft.com/dynamics365/business-central/banks-formats-faq
     - https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-accounts
-    - https://learn.microsoft.com/dynamics365/business-central/bank-setup-banking
     - https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-statement-service
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-define-check-layouts
     - https://learn.microsoft.com/dynamics365/business-central/ui-extensions-amc-banking
@@ -141,34 +141,34 @@ narrative: generated
 
 # Set up banking
 
-> Banking setup in Business Central: bank account cards, bank feeds (Envestnet Yodlee), AMC Banking 365 Fundamentals, SEPA and other payment formats, and check layouts. It answers questions about configuring bank accounts, importing statements, exporting payments, and printing checks.
+> Banking setup in Business Central covers bank account cards, bank statement import, payment file export, bank feeds, the AMC Banking 365 Fundamentals extension and check layouts. It answers questions about connecting banks, reconciling payments and choosing formats such as SEPA.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up banking · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up banking · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how to prepare Business Central for banking work. It starts with bank accounts, which track banking transactions, support local and foreign currencies, and enable payment and bank reconciliation, plus import and export of bank files.
+This section explains how to prepare Business Central for banking work. It starts with bank account cards, where you set currency and posting group, and moves on to the ways bank data gets in and out: statement file import, payment file export, and automated connections.
 
-Other pages cover electronic services. Yodlee bank feeds import statements automatically into the Payment Reconciliation Journal. The AMC Banking 365 Fundamentals extension converts bank data into formats required by many banks. A general page explains how payment formats are provided through partner apps and marketplace solutions, with built-in options in some countries or regions. A separate page covers check layouts and MICR fonts.
+Two connection options are described. Envestnet Yodlee Bank Feeds imports electronic statements automatically into the Payment Reconciliation Journal. The AMC Banking 365 Fundamentals extension converts bank data into formats required by over 600 banks, for payment export and statement import. A separate page explains how banking and payment formats are supported through partner apps and marketplace solutions, with built-in options in some countries/regions.
 
-Start with "Set Up Banking" and "Set up bank accounts" for the basics. Then pick the page for your method: Yodlee for online feeds, AMC for format conversion, or the check layout page for printed checks.
+Start with "Banking Setup in Business Central" for the overall picture and "Set up bank accounts" for the card itself. Then pick a connection method, and use "Specify the Layout of a Check" if you print checks.
 
 ## Key points
 
-- Bank accounts track transactions, support local and foreign currencies, and enable payment reconciliation and bank reconciliation.
-- Bank accounts support bank file import and export, direct debit, and SEPA credit transfer.
-- Payment formats come mainly from partner apps and marketplace solutions, with built-in options in select countries or regions.
-- Envestnet Yodlee bank feeds import statements automatically into the Payment Reconciliation Journal, with a two-hour import frequency, in supported regions.
-- Yodlee setup includes linking online bank accounts, creating bank accounts, and managing credentials.
-- AMC Banking 365 Fundamentals converts bank data for over 600 banks worldwide, exports payment journal data, and imports bank statements, with SWIFT and IBAN support.
-- Check layout setup lets you choose predefined North American check formats and stub configurations, and set MICR E-13B, MICR CMC-7, and security fonts.
+- Bank account cards support local and foreign currencies, payment reconciliation, bank reconciliation and bank file import/export.
+- Bank statement files can be imported in CSV and other formats; payment files can be exported, including SEPA credit transfers.
+- Envestnet Yodlee Bank Feeds imports statements automatically into the Payment Reconciliation Journal, with imports every two hours, in supported regions.
+- Yodlee setup involves linking online bank accounts, creating bank accounts and managing credentials.
+- AMC Banking 365 Fundamentals converts bank data for over 600 banks and supports SWIFT, IBAN and credit transfer messaging.
+- Banking and payment formats such as SEPA credit transfer and direct debit come from partner apps and marketplace solutions, with built-in options in select countries/regions.
+- Check layouts offer predefined North American formats with different stub configurations, plus MICR E-13B, MICR CMC-7 and security font support.
 
 ## Learn pages
 
+- [Banking Setup in Business Central](https://learn.microsoft.com/dynamics365/business-central/bank-setup-banking): Set up bank accounts in Business Central, choose statement import and payment export formats, and find banking apps that support your bank.
 - [How to use banking and payment formats in Business Central](https://learn.microsoft.com/dynamics365/business-central/banks-formats-faq): Learn how to find and use banking and payment formats that suit your needs and comply with your country and bank requirements in Business Central.
 - [Set up bank accounts](https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-accounts): Learn how bank accounts are used in Business Central, and how you can reconcile amounts with your bank.
   - In the observatory: [Page 1290 "Payment Reconciliation Journal"](../../../../objects/page/1290.md), [Page 35630 "Bank Accounts (RU)"](../../../../objects/page/35630-ru.md)
-- [Set Up Banking](https://learn.microsoft.com/dynamics365/business-central/bank-setup-banking): You use bank account cards to keep track of your bank accounts and set up bank feeds, such as Yodlee, to exchange data.
 - [Set Up Yodlee Bank Feeds](https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-statement-service): You can convert payment information to any data format that your bank requires and enable the export or import of bank files.
   - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../objects/page/35630-ru.md), [Page 370 "Bank Account Card"](../../../../objects/page/370.md)
 - [Specify the Layout of a Check](https://learn.microsoft.com/dynamics365/business-central/finance-how-define-check-layouts): You can design and print your checks in different formats to conform with standards set by your local authorities.

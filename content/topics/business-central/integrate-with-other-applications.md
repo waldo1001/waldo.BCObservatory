@@ -11,7 +11,7 @@ review:
   at: "2026-10-28T11:00:52.578Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,8 +89,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-cds-company-concept
-    title: Data ownership models for synchronization
-    date: "2026-10-22"
+    title: Dataverse data ownership models for synchronization
+    date: "2026-10-14"
     commit: null
     t: null
     quote: null

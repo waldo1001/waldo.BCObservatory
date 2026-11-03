@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T00:18:50.089Z"
+  at: "2026-11-03T00:16:51.180Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b346ec166052b29c8ad897541fad39498e84fd19
@@ -44,7 +44,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/253
   related:
     - to: object/page/6923
       title: page 6923 "Expense Rules API"
@@ -139,6 +140,10 @@ See sample: [`addloadfields-for-trigger-only-fields-on-api-pages.bad.al`](https:
 - [Record.CalcFields(Any \[, Any,...\]) Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-calcfields-method) (names CalcFields)
 - [page 6923 "Expense Rules API"](../../../../objects/page/6923.md) (possibly related: a code span names it)
 - [page 6927 "Expenses API"](../../../../objects/page/6927.md) (possibly related: a code span names it)
+
+## Changed by
+
+- [#253 knowledge(performance): add trigger-only fields to API pages with AddLoadFields](../../../../changes/bcquality/253.md), 2026-11-02
 
 ---
 

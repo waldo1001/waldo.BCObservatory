@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:46:16.312Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-03T00:54:42.695Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -145,6 +145,7 @@ links:
     - feature/573342
     - feature/573343
     - feature/573344
+    - feature/574128
     - feature/576836
   topics: []
   localizations: []
@@ -259,12 +260,10 @@ features:
     roadmap_ids:
       - "573340"
   - name: Contact numbers on sales orders
-    status: ga
+    status: unclear
     t: 948
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573340"
+    status_source: video
   - name: Multi-line order handling and returns
     status: ga
     t: 1028
@@ -290,10 +289,12 @@ features:
     verified: false
     status_source: video
   - name: Tax area code and tax liable mapping override
-    status: unclear
+    status: preview
     t: 1278
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "574128"
 objects_mentioned: []
 quotes:
   - t: 18
@@ -395,12 +396,12 @@ It then covers B2B company synchronization and catalogs (with a recommendation f
 | Company location tax registration import | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [12:31](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=751s) |
 | Shopify Connector localization extensions - Belgium and US | status not stated, demoed | [13:24](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=804s) |
 | Shopify order number in sales documents | generally available (roadmap [Control sales document creation for Shopify orders and returns](../features/573340.md)), demoed | [14:40](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=880s) |
-| Contact numbers on sales orders | generally available (roadmap [Control sales document creation for Shopify orders and returns](../features/573340.md)), demoed | [15:48](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=948s) |
+| Contact numbers on sales orders | status not stated, demoed | [15:48](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=948s) |
 | Multi-line order handling and returns | generally available (roadmap [Process Shopify order changes, exchanges, and refunds](../features/573343.md)), demoed | [17:08](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1028s) |
 | Return order processing from Shopify refunds | generally available (roadmap [Process Shopify order changes, exchanges, and refunds](../features/573343.md)), demoed | [18:11](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1091s) |
 | Move negative lines in return orders | status not stated, demoed | [18:58](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1138s) |
 | Tax details on Shopify refunds and orders | status not stated, demoed | [20:18](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1218s) |
-| Tax area code and tax liable mapping override | status not stated, demoed | [21:18](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1278s) |
+| Tax area code and tax liable mapping override | preview (roadmap [[US] Match Shopify tax lines to tax jurisdictions](../features/574128.md)), demoed | [21:18](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1278s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

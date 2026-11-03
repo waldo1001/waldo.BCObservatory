@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:09:58.664Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-03T00:54:42.695Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -145,7 +145,10 @@ links:
     - object/report/6212
     - object/report/6211
     - object/report/6210
-  features: []
+  features:
+    - feature/573374
+    - feature/573376
+    - feature/576874
   topics: []
   localizations: []
   videos: []
@@ -253,25 +256,31 @@ features:
     verified: false
     status_source: video
   - name: Emissions calculation formulas
-    status: unclear
+    status: ga
     t: 722
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573374"
   - name: Sustainability ledger entries
-    status: unclear
+    status: ga
     t: 739
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573376"
   - name: Standard sustainability reports
     status: unclear
     t: 752
     verified: false
     status_source: video
   - name: Sustainability APIs
-    status: announced
+    status: ga
     t: 768
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576874"
   - name: Sustainability demo data module
     status: unclear
     t: 814
@@ -288,10 +297,12 @@ features:
     verified: false
     status_source: video
   - name: Emission factor configuration in subcategories
-    status: unclear
+    status: ga
     t: 1001
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573374"
 objects_mentioned:
   - other sustainability journal
   - other chart of sustainability account
@@ -392,14 +403,16 @@ It then walks through the first-wave foundation: the sustainability setup page, 
 |---|---|---|---|
 | Sustainability journal | status not stated, demoed | [11:14](https://www.youtube.com/watch?v=_ynMUzh956w&t=674s) |  |
 | Chart of sustainability accounts | status not stated, demoed | [11:39](https://www.youtube.com/watch?v=_ynMUzh956w&t=699s) |  |
-| Emissions calculation formulas | status not stated | [12:02](https://www.youtube.com/watch?v=_ynMUzh956w&t=722s) |  |
-| Sustainability ledger entries | status not stated, demoed | [12:19](https://www.youtube.com/watch?v=_ynMUzh956w&t=739s) |  |
+| Emissions calculation formulas | generally available (roadmap [Use formulas to calculate emissions in purchase documents](../features/573374.md)) | [12:02](https://www.youtube.com/watch?v=_ynMUzh956w&t=722s) |  |
+| Sustainability ledger entries | generally available (roadmap [Reverse Sustainability Ledger entries transaction](../features/573376.md)), demoed | [12:19](https://www.youtube.com/watch?v=_ynMUzh956w&t=739s) |  |
 | Standard sustainability reports | status not stated, demoed | [12:32](https://www.youtube.com/watch?v=_ynMUzh956w&t=752s) |  |
-| Sustainability APIs | announced | [12:48](https://www.youtube.com/watch?v=_ynMUzh956w&t=768s) | "it will come probably in next one or two minors, we will enable all these entities through APIs" ([12:32](https://www.youtube.com/watch?v=_ynMUzh956w&t=752s)) |
+| Sustainability APIs | generally available (roadmap [Use new APIs in Sustainability for better integration](../features/576874.md)) | [12:48](https://www.youtube.com/watch?v=_ynMUzh956w&t=768s) | "it will come probably in next one or two minors, we will enable all these entities through APIs" ([12:32](https://www.youtube.com/watch?v=_ynMUzh956w&t=752s)) |
 | Sustainability demo data module | status not stated, demoed | [13:34](https://www.youtube.com/watch?v=_ynMUzh956w&t=814s) |  |
 | Carbon footprint, methane, and nitrogen dioxide tracking | status not stated | [9:12](https://www.youtube.com/watch?v=_ynMUzh956w&t=552s) |  |
 | Sustainability setup page | status not stated, demoed | [15:07](https://www.youtube.com/watch?v=_ynMUzh956w&t=907s) |  |
-| Emission factor configuration in subcategories | status not stated, demoed | [16:41](https://www.youtube.com/watch?v=_ynMUzh956w&t=1001s) |  |
+| Emission factor configuration in subcategories | generally available (roadmap [Use formulas to calculate emissions in purchase documents](../features/573374.md)), demoed | [16:41](https://www.youtube.com/watch?v=_ynMUzh956w&t=1001s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

@@ -2,25 +2,25 @@
 id: topic/dev-itpro/security-privacy-and-compliance/security/application-security
 type: topic
 title: Application security
-summary: Application security in Business Central covers the layered security model, creating users according to licenses, and object permissions set through AL permission sets. It answers questions on sign-in, authorization, encryption, auditing, user and license setup, and read/insert/modify/delete/execute permissions.
+summary: Application security in Business Central covers the layered security model, creating users according to licenses, and object permissions set with AL permission sets. It answers questions about authentication, authorization, user and license setup, and how read, insert, modify, delete and execute permissions work.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:21:24.931Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f19b4f5cbea97eef34ab524f71fd2cdd147b75cc8ec2838cdded4ffea3c2434e
+  input_hash: 85a3326c0b1147727eac204abe6b926a08bc1e75151db0f16639a1d121a31277
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-users-permissions
     title: Create users according to licenses
-    date: "2026-07-16"
+    date: "2026-11-02"
     commit: null
     t: null
     quote: null
@@ -105,27 +105,25 @@ narrative: generated
 
 # Application security
 
-> Application security in Business Central covers the layered security model, creating users according to licenses, and object permissions set through AL permission sets. It answers questions on sign-in, authorization, encryption, auditing, user and license setup, and read/insert/modify/delete/execute permissions.
+> Application security in Business Central covers the layered security model, creating users according to licenses, and object permissions set with AL permission sets. It answers questions about authentication, authorization, user and license setup, and how read, insert, modify, delete and execute permissions work.
 
-Path: [Security, privacy, and compliance](../../security-privacy-and-compliance.md) > [Security](../security.md) > Application security · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Security, privacy, and compliance](../../security-privacy-and-compliance.md) > [Security](../security.md) > Application security · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section explains how Business Central protects an installation and how administrators control who can do what. It applies to both online and on-premises deployments. The layered security model page gives the big picture: authentication, authorization, data encryption, auditing, and change logging.
+This section explains how access to Business Central is protected and controlled. It has three pages: one on the overall layered security model, one on creating users and licenses, and one on permissions on objects.
 
-The other two pages go into detail on access. "Create users according to licenses" covers creating users, assigning permission sets, managing licenses, and using security groups, user groups, and delegated admin. "Permissions on Objects" covers how read, insert, modify, delete, and execute permissions are given to tables, pages, reports, and other objects through AL permission sets.
-
-Start with the layered security model for context. Then use the user and license page for administration tasks, and the object permissions page when you build or review permission sets.
+Start with the layered security model page for the big picture: authentication (including multifactor authentication), authorization, data encryption, auditing, change logging and sensitive field monitoring, for online and on-premises deployments. Then use the user and license page to add users, for example by importing from Microsoft 365, assign permission sets by license type, and manage access with security groups. Finish with the permissions on objects page for the detail of how permission sets grant rights on tables, pages, reports and other objects.
 
 ## Key points
 
-- The layered security model covers authentication, authorization, data encryption, auditing, and change logging.
-- Sign-in protection includes multifactor authentication; monitoring includes sensitive field monitoring, change log, and audit trails.
-- Administrators create users, assign permission sets, and manage licenses, with permissions that depend on license type.
-- User creation guidance covers security groups, user groups, and delegated admin, for online and on-premises.
-- Object permissions are read, insert, modify, delete, and execute, applied to tables, pages, reports, and other objects.
+- The layered security model covers authentication, authorization, data encryption, auditing and change logging.
+- Multifactor authentication, the change log, sensitive field monitoring and audit trails are named protection features.
+- Users can be created and imported from Microsoft 365, with licenses assigned for online and on-premises deployments.
+- Permission sets are assigned based on license type, and user access can be managed through security groups.
+- The user page also covers delegated admin users and user status management.
+- Object permissions are read, insert, modify, delete and execute, set on tables, pages, reports and other objects through AL permission sets.
 - Permissions can be direct or indirect, and the page explains permission abbreviations and wildcard permissions.
-- Permission sets are defined in AL.
 
 ## Learn pages
 

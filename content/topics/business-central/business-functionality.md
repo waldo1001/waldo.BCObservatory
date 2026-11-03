@@ -11,7 +11,7 @@ review:
   at: "2026-10-31T01:06:04.528Z"
   flags: []
 generated:
-  at: "2026-10-31T01:06:04.529Z"
+  at: "2026-11-03T01:02:13.361Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -497,6 +497,7 @@ links:
     - object/page/440
     - object/page/442
     - object/page/443
+    - object/page/445
     - object/page/448
     - object/page/452
     - object/page/456
@@ -517,6 +518,7 @@ links:
     - object/page/473
     - object/page/474
     - object/page/475
+    - object/page/477
     - object/page/478
     - object/page/479
     - object/page/480
@@ -1932,7 +1934,7 @@ children:
   - topic/business-central/business-functionality/design-details
 coverage:
   learn: 1718
-  code: 1574
+  code: 1576
   video: 0
   blog: 0
   guideline: 0
@@ -2166,6 +2168,7 @@ bc_forms:
   - 440
   - 442
   - 443
+  - 445
   - 448
   - 452
   - 456
@@ -2186,6 +2189,7 @@ bc_forms:
   - 473
   - 474
   - 475
+  - 477
   - 478
   - 479
   - 480
@@ -4099,6 +4103,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 440 "Issued Reminder List"](../../objects/page/440.md) · captioned "Issued Reminders" · on [Table 297 "Issued Reminder Header"](../../objects/table/297.md) · via [Finance](business-functionality/finance.md)
 - [Page 442 "Reminder Comment Sheet"](../../objects/page/442.md) · captioned "Comment Sheet" · on [Table 299 "Reminder Comment Line"](../../objects/table/299.md) · via [Finance](business-functionality/finance.md)
 - [Page 443 "Reminder Comment List"](../../objects/page/443.md) · captioned "Comment List" · on [Table 299 "Reminder Comment Line"](../../objects/table/299.md) · via [Finance](business-functionality/finance.md)
+- [Page 445 "Finance Charge Text"](../../objects/page/445.md) · on [Table 301 "Finance Charge Text"](../../objects/table/301.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
 - [Page 448 "Finance Charge Memo List"](../../objects/page/448.md) · captioned "Finance Charge Memos" · on [Table 302 "Finance Charge Memo Header"](../../objects/table/302.md) · via [Finance](business-functionality/finance.md)
 - [Page 452 "Issued Fin. Charge Memo List"](../../objects/page/452.md) · captioned "Issued Finance Charge Memos" · on [Table 304 "Issued Fin. Charge Memo Header"](../../objects/table/304.md) · via [Finance](business-functionality/finance.md)
 - [Page 456 "No. Series"](../../objects/page/456.md) · on [Table 308 "No. Series"](../../objects/table/308.md) · via [Local functionality](business-functionality/local-functionality.md)
@@ -4119,6 +4124,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 473 "VAT Posting Setup Card"](../../objects/page/473.md) · on [Table 325 "VAT Posting Setup"](../../objects/table/325.md) · via [Finance](business-functionality/finance.md)
 - [Page 474 "VAT Statement Preview"](../../objects/page/474.md) · on [Table 257 "VAT Statement Name"](../../objects/table/257.md) · via [Finance](business-functionality/finance.md)
 - [Page 475 "VAT Statement Preview Line"](../../objects/page/475.md) · captioned "Lines" · on [Table 256 "VAT Statement Line"](../../objects/table/256.md) · via [Finance](business-functionality/finance.md)
+- [Page 477 "Currencies for Fin. Chrg Terms"](../../objects/page/477.md) · on [Table 328 "Currency for Fin. Charge Terms"](../../objects/table/328.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
 - [Page 478 "Currencies for Reminder Level"](../../objects/page/478.md) · on [Table 329 "Currency for Reminder Level"](../../objects/table/329.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
 - [Page 479 "Dimension Set Entries"](../../objects/page/479.md) · on [Table 480 "Dimension Set Entry"](../../objects/table/480.md) · via [Finance](business-functionality/finance.md)
 - [Page 480 "Edit Dimension Set Entries"](../../objects/page/480.md) · on [Table 480 "Dimension Set Entry"](../../objects/table/480.md) · via [Finance](business-functionality/finance.md)

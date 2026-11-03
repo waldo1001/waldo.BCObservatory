@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:55:51.543Z"
   flags: []
 generated:
-  at: "2026-11-01T00:41:18.124Z"
+  at: "2026-11-03T00:54:42.695Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -83,7 +83,6 @@ links:
   learn: []
   objects: []
   features:
-    - feature/578065
     - feature/578068
   topics: []
   localizations: []
@@ -133,12 +132,11 @@ features:
     verified: false
     status_source: video
   - name: BC Sales Agent
-    status: unclear
+    status: preview
     t: 291
     verified: false
-    status_source: video
+    status_source: roadmap
     roadmap_ids:
-      - "578065"
       - "578068"
   - name: Copilot Studio integration
     status: unclear
@@ -223,7 +221,7 @@ The talk shows the BC copilot generating item descriptions from copy already wri
 | Feature | Status | At |
 |---|---|---|
 | BC Copilot for item description generation | status not stated, demoed | [6:47](https://www.youtube.com/watch?v=9cOdjHU15rE&t=407s) |
-| BC Sales Agent | status not stated (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md), [Envision and design AI agents in Business Central](../features/578068.md)) | [4:51](https://www.youtube.com/watch?v=9cOdjHU15rE&t=291s) |
+| BC Sales Agent | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)) | [4:51](https://www.youtube.com/watch?v=9cOdjHU15rE&t=291s) |
 | Copilot Studio integration | status not stated | [14:00](https://www.youtube.com/watch?v=9cOdjHU15rE&t=840s) |
 | Adaptive UX based on AI interaction | status not stated | [12:21](https://www.youtube.com/watch?v=9cOdjHU15rE&t=741s) |
 | Multiple AI copilot features throughout BC | status not stated | [7:28](https://www.youtube.com/watch?v=9cOdjHU15rE&t=448s) |

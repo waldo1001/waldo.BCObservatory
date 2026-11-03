@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "New knowledge article documents how to use AddLoadFields on API pages to prevent JIT loading failures when accessing unbound fields in OnAfterGetRecord.",
   "key_points": [
-    "Explains a common API pattern where unbound fields trigger implicit Get calls on first access",
-    "Shows how to use Rec.AddLoadFields in OnOpenPage to prevent 'Inconsistent read' and JIT loading errors",
-    "Distinguishes between AddLoadFields (correct) and SetLoadFields (incorrect, breaks layout-based loading)",
-    "Provides bad and good code examples for the pattern",
-    "References evidence from Microsoft Learn and BCApps ExpenseAgent API pages"
+    "Explains that unbound Rec fields read in OnAfterGetRecord on API pages cause per-row JIT loads",
+    "Recommends Rec.AddLoadFields in OnOpenPage to avoid 'Inconsistent read' and JIT loading failures",
+    "Warns against Rec.SetLoadFields in OnOpenPage because it replaces the platform's layout-based field selection",
+    "Adds bad and good AL examples for the pattern",
+    "Registers the new article in the evaluation review fixtures"
   ],
   "change_kind": "feature",
   "behavior_change": false,
