@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13417",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo.",
+  "url": "https://github.com/microsoft/BCApps/pull/13417",
+  "published_at": "2026-11-02T11:50:05Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-03T00:16:51.180Z"
+    },
+    "fetched": {
+      "at": "2026-11-03T00:19:01.311Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-03T00:19:29.524Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003145
+    },
+    "linked": {
+      "at": "2026-11-03T00:19:29.711Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-03T00:19:29.716Z",
+      "path": "content/changes/bcapps/13417.md"
+    }
+  },
+  "input_hash": "6419857e939843e2e00da8e51f9d0b5729f3107b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13417,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6419857e939843e2e00da8e51f9d0b5729f3107b",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master sales order line quantities are incorrectly updated after posting a return order linked to a posted sales invoice via applies to doc no on a credit memo"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c67f8f733c86f548d5f7ece95d3572afb138c642f7c168b49773a8b78bd787ad"
+}

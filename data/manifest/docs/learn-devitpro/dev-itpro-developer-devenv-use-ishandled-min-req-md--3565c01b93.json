@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Minimum requirements for new IsHandled events",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-use-ishandled-min-req",
-  "published_at": "2025-09-01T09:11:00.000Z",
+  "published_at": "2026-11-02T15:24:25.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,51 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.466Z",
-      "blob": "d7e36a757c982a8e0a8d731c710bebc578fb4193",
-      "words": 461,
+      "at": "2026-11-03T00:18:59.388Z",
+      "blob": "43ee1536d1a39a4781b26979e3c376604d523890",
+      "words": 562,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:05:09.125Z",
+      "at": "2026-11-03T00:19:08.276Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.006348
+      "cost_usd": 0.003769
     },
     "summarized": {
-      "at": "2026-10-06T19:05:10.952Z",
+      "at": "2026-11-03T00:19:29.507Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:05:10.953Z",
+      "at": "2026-11-03T00:19:29.508Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:05:10.956Z",
+      "at": "2026-11-03T00:19:29.509Z",
       "page": false
     }
   },
-  "input_hash": "d7e36a757c982a8e0a8d731c710bebc578fb4193",
+  "input_hash": "43ee1536d1a39a4781b26979e3c376604d523890",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-use-ishandled-min-req.md",
     "description": "Provides the minimum information that must accompany a request for adding a new IsHandled event.",
-    "ms_date": "2025-08-29",
+    "ms_date": "2026-10-29",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 461,
-    "identifiers": [],
+    "words": 562,
+    "identifiers": [
+      "IsHandled",
+      "OnAfter"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0b8e9a54636e8dc35b488f068cb6358854357cd7a149df280e9d21ae78d88552"
+  "output_hash": "65cccbb3597244af2a5da22fca1236884a9ef871949f86148203f05ce05678b0"
 }

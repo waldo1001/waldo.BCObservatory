@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13495",
+  "number": 13495,
+  "title": "Migrate SOA auxiliary calls to GPT-5.6 and refine date-filter handling",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Sales Order Agent upgrades auxiliary model calls from GPT-4.1 to GPT-5.6 Ceres and refines item-search date-filter handling to better use system-generated availability dates when no customer delivery date applies.",
+  "key_points": [
+    "Migrate message and attachment relevance checks, email-template validation, and signature insertion to use GPT-5.6 Ceres instead of GPT-4.1",
+    "Simplify item-search date-filter logic to accept page default availability period when no delivery date is requested or dates are in the past",
+    "Prevent system-generated availability dates from appearing in customer-requested delivery dates",
+    "Clear date filters once and accept resulting defaults instead of repeatedly rechecking",
+    "Model results may differ with GPT-5.6 Ceres requiring evaluation and validation of various date scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004187,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13495,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13495",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-02T19:10:45Z",
+  "merge_commit_sha": "19ed5d01ff3b995d8606518a1015c7423f5db07a",
+  "author": "qasimikram",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Migrate SOA auxiliary calls to GPT-5.6 and refine date-filter handling",
+  "body_hash": "fce797c35d3b1c2b2d9aed0f99996f1d793a7ec527d031ee2aa8857a0005749b",
+  "fixes_issues": [],
+  "work_items": [
+    657318,
+    657321
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/.resources/Prompts/SalesOrderAgent-AgentInstructions.json",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAAnnotation.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/OutputMessage/SOAOutputMessageSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 16,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 7,
+    "deletions": 33,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAAnnotation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4399",
+        "type": "codeunit",
+        "id": 4399,
+        "name": "SOA Annotation",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4399"
+      },
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/OutputMessage/SOAOutputMessageSetup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4402",
+        "type": "codeunit",
+        "id": 4402,
+        "name": "SOA Output Message Setup",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4402"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "SalesOrderAgent"
+  ]
+}

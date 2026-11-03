@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13273",
+  "number": 13273,
+  "title": "[Master]-CH] SEPA XML Files should append the Address 1 + '' + Address 2 fields under <PstlAdr><StrtNm> node if we use \"Address 2\" as Building Number for QR-Bills",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "SEPA XML exports for Swiss QR-Bills now combine Address 1 and Address 2 fields in the street name node when Address 2 is used as a building number.",
+  "key_points": [
+    "SEPA XML export functionality updated for Swiss payments",
+    "Address 1 and Address 2 are concatenated in the <PstlAdr><StrtNm> node",
+    "Applies specifically to QR-Bill payment processing",
+    "Test coverage added for the new address concatenation behavior",
+    "Affects Payment Export Data table structure"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003429,
+    "changes_in_call": 1
+  }
+}

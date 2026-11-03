@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13469",
+  "number": 13469,
+  "title": "[SOA] Do not show duplicate-contact notification on outgoing email",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The Sales Order Agent no longer displays the duplicate-contact notification on outgoing email review pages, preventing users from making conflicting customer information changes after content generation.",
+  "key_points": [
+    "Duplicate-contact notification is now shown only on incoming messages where it matters for customer selection",
+    "Outgoing messages no longer show the notification, avoiding confusion when recipient and content are already finalized",
+    "Change adds a type check requiring Rec.Type::Input before displaying the notification",
+    "Contact and customer information remains consistent with the generated email body and quote",
+    "No schema, data, permission or API changes, only UI refinement"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "quote": "Shows the duplicate-contact notification only on incoming messages, where choosing the contact sets the customer the agent uses to process the request.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003954,
+    "changes_in_call": 1
+  }
+}

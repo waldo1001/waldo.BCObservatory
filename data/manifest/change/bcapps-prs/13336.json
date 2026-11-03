@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13336",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] Create Reminders fails with \"There is no Reminder Line within the filter\" when all overdue entries are On Hold (new communication texts)",
+  "url": "https://github.com/microsoft/BCApps/pull/13336",
+  "published_at": "2026-11-02T06:13:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-03T00:16:51.180Z"
+    }
+  },
+  "input_hash": "378602779b5c304b39198fda18f2703a498ba978:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13336,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "378602779b5c304b39198fda18f2703a498ba978",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master create reminders fails with there is no reminder line within the filter when all overdue entries are on hold new communication texts"
+  }
+}

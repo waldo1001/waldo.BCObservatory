@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13469",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SOA] Do not show duplicate-contact notification on outgoing email",
+  "url": "https://github.com/microsoft/BCApps/pull/13469",
+  "published_at": "2026-11-02T17:43:15Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-03T00:16:51.180Z"
+    },
+    "fetched": {
+      "at": "2026-11-03T00:18:52.058Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-03T00:18:56.822Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003954
+    },
+    "linked": {
+      "at": "2026-11-03T00:18:56.963Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-03T00:18:56.970Z",
+      "path": "content/changes/bcapps/13469.md"
+    }
+  },
+  "input_hash": "994d7ba1869447c14b5741c8e7fb6b5ea01853c3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13469,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "994d7ba1869447c14b5741c8e7fb6b5ea01853c3",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa do not show duplicate contact notification on outgoing email"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2936a989411e8de2b659ede65f523f024cf013f51780eab930c9ce45ab2b8ce4"
+}

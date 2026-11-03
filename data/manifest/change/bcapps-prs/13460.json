@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/13460",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] Fix Expense Agent account filters with special characters",
+  "url": "https://github.com/microsoft/BCApps/pull/13460",
+  "published_at": "2026-11-02T15:01:26Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-03T00:16:51.180Z"
+    },
+    "fetched": {
+      "at": "2026-11-03T00:18:57.922Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-03T00:19:29.851Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003844
+    },
+    "linked": {
+      "at": "2026-11-03T00:19:29.954Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-03T00:19:29.958Z",
+      "path": "content/changes/bcapps/13460.md"
+    }
+  },
+  "input_hash": "6969ad4f70a61c9099cfcaa4ef91c0bbaf338d2f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13460,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6969ad4f70a61c9099cfcaa4ef91c0bbaf338d2f",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master fix expense agent account filters with special characters"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8a97e6d8f8a852e76e0e29000a8aa4e3ab43d086fffc7173fb0f6bef60162856"
+}

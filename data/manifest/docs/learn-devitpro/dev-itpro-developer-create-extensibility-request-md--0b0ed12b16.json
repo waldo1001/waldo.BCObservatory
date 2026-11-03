@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Create an extensibility request",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/create-extensibility-request",
-  "published_at": "2026-09-01T13:36:07.000Z",
+  "published_at": "2026-11-02T15:24:25.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,51 +13,52 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:20.135Z",
-      "blob": "d3a5a71ac1718261a6c2b69e119215863d9d360d",
-      "words": 945,
+      "at": "2026-11-03T00:18:40.196Z",
+      "blob": "fb5b1f6d68197c13ae2ef51b0f4f9020e58e660c",
+      "words": 1391,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T14:21:58.832Z",
+      "at": "2026-11-03T00:18:53.927Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.007169
+      "cost_usd": 0.009053
     },
     "summarized": {
-      "at": "2026-10-06T14:21:58.839Z",
+      "at": "2026-11-03T00:18:53.928Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:21:58.839Z",
+      "at": "2026-11-03T00:18:53.928Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:21:58.839Z",
+      "at": "2026-11-03T00:18:53.929Z",
       "page": false
     }
   },
-  "input_hash": "d3a5a71ac1718261a6c2b69e119215863d9d360d",
+  "input_hash": "fb5b1f6d68197c13ae2ef51b0f4f9020e58e660c",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/create-extensibility-request.md",
     "description": "When you find something that you'd like Microsoft to extend, you can ask us to do just that. This article explains how.",
-    "ms_date": "2025-04-02",
+    "ms_date": "2026-10-29",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 945,
+    "words": 1391,
     "identifiers": [
-      "IsHandled",
-      "MultiObjects"
+      "OnPrem",
+      "MultiObjects",
+      "IsHandled"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1f3742fea9f19bccd3a7e03496aa10d88dd8ab7ba0a0fb542d5d2beddaa836be"
+  "output_hash": "163cbdb85178a005e8126ac8ee1396d2bca48f07191c9d1474851aff5f0d287f"
 }

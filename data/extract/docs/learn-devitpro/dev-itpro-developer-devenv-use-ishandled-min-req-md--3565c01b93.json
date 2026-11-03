@@ -2,24 +2,26 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-use-ishandled-min-req.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-use-ishandled-min-req",
   "title": "Minimum requirements for new IsHandled events",
-  "blob": "d7e36a757c982a8e0a8d731c710bebc578fb4193",
-  "summary": "Requirements and guidance for requesting new IsHandled events in Business Central, including minimum required information, submission checklist, and example structure.",
+  "blob": "43ee1536d1a39a4781b26979e3c376604d523890",
+  "summary": "Guidance on requesting new IsHandled events in Business Central, including minimum required information and submission quality criteria. Use this when designing extensibility patterns that require event handling with the IsHandled pattern.",
   "systems": [
     "development"
   ],
   "topics": [
-    "events",
-    "extensibility",
-    "ishandled pattern",
-    "event design"
+    "ishandled events",
+    "event extensibility",
+    "al development",
+    "event publisher",
+    "code submission"
   ],
   "objects": [],
   "features": [
     "IsHandled pattern",
-    "event publishers",
-    "alternative evaluation",
+    "event publisher signature",
+    "multi-extension interaction handling",
     "performance considerations",
-    "data sensitivity review"
+    "data sensitivity review",
+    "alternatives evaluation"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006348,
-      "pages_in_call": 8
+      "cost_usd": 0.003769,
+      "pages_in_call": 1
     }
   ]
 }

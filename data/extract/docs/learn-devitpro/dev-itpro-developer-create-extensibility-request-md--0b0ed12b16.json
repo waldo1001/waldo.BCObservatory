@@ -2,8 +2,8 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/create-extensibility-request.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/create-extensibility-request",
   "title": "Create an extensibility request",
-  "blob": "d3a5a71ac1718261a6c2b69e119215863d9d360d",
-  "summary": "Guidelines for submitting extensibility requests to Microsoft's BCApps repository to request code changes, new events, or other improvements to Business Central's AL codebase.",
+  "blob": "fb5b1f6d68197c13ae2ef51b0f4f9020e58e660c",
+  "summary": "Creating an extensibility request in the BCApps repository allows developers to request missing extensibility points such as new events, public APIs, or enum changes needed for extensions.",
   "systems": [
     "development",
     "platform"
@@ -11,18 +11,21 @@
   "topics": [
     "extensibility",
     "events",
+    "api",
+    "github",
     "bcapps",
-    "ishandled pattern",
-    "integration"
+    "extension requests"
   ],
   "objects": [],
   "features": [
-    "extensibility requests",
     "integration events",
+    "public APIs",
+    "event requests",
+    "external access requests",
+    "enum requests",
+    "extensibility enhancements",
     "IsHandled pattern",
-    "event design guidelines",
-    "manual binding",
-    "temporary tables"
+    "event parameters"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007169,
-      "pages_in_call": 8
+      "cost_usd": 0.009053,
+      "pages_in_call": 1
     }
   ]
 }

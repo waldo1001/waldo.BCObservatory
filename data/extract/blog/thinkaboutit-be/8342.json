@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/thinkaboutit-be/8342",
+  "url": "https://thinkaboutit.be/2026/11/business-central-29-exploring-the-new-microsoft-copilot-chat/",
+  "title": "Business Central 29: Exploring the New Microsoft Copilot Chat",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-11-02T10:35:01.000Z",
+  "words": 1171,
+  "summary": "Business Central 29 introduces a new unified Microsoft Copilot Chat that combines Business Central data, web information, and Microsoft 365 work context through an agentic loop architecture. It enables users to ask contextual questions about business records, analyze data, and receive verifiable answers with citations, while administrators control access and users can verify responses.",
+  "key_points": [
+    "Copilot now integrates Business Central data with web information and Microsoft 365 context in single conversations, moving beyond isolated question-answer interactions.",
+    "Behind the scenes, Copilot uses an agentic loop that iteratively selects tools and processes conversation context, page context, user context, and external information to construct grounded responses.",
+    "Business Central MCP server enables Copilot to access standard data, extension data, and custom tables without requiring developers to build dedicated APIs for every custom object.",
+    "Permissions are enforced within the signed-in user's access level, and administrators can manage AI capabilities through the Copilot & Agent Capabilities page.",
+    "Users can verify Copilot answers through record citations, progress messages, a Sources view, and feedback controls, but human judgment remains essential for business decisions."
+  ],
+  "systems": [
+    "copilot",
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "copilot chat",
+    "ai agents",
+    "data integration",
+    "context awareness",
+    "permissions",
+    "extensions",
+    "mcp server"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Copilot & Agent Capabilities"
+    }
+  ],
+  "features": [
+    "Microsoft Copilot Chat experience",
+    "Business Central data queries",
+    "Multiple data source integration",
+    "Microsoft 365 integration with Work IQ",
+    "Context-aware conversations",
+    "Verifiable citations",
+    "Agentic loop processing",
+    "Business Central MCP server access"
+  ],
+  "versions": [
+    "Business Central 29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Microsoft is using the same underlying technology that supports agentic integrations to give Copilot access to Business Central data, including custom extensions.",
+      "why_it_matters": "Explains the technical foundation (MCP) that enables Copilot to work with custom objects without dedicated APIs, which is significant for ISV and partner development strategies."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007645,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13495",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Migrate SOA auxiliary calls to GPT-5.6 and refine date-filter handling",
+  "url": "https://github.com/microsoft/BCApps/pull/13495",
+  "published_at": "2026-11-02T19:10:45Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-03T00:16:51.180Z"
+    },
+    "fetched": {
+      "at": "2026-11-03T00:18:51.399Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-03T00:18:56.120Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004187
+    },
+    "linked": {
+      "at": "2026-11-03T00:18:56.234Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-03T00:18:56.371Z",
+      "path": "content/changes/bcapps/13495.md"
+    }
+  },
+  "input_hash": "19ed5d01ff3b995d8606518a1015c7423f5db07a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13495,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "19ed5d01ff3b995d8606518a1015c7423f5db07a",
+    "author": "qasimikram",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "migrate soa auxiliary calls to gpt 5 6 and refine date filter handling"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c9c79e65e66e9e5cc21adc854578799dc75d686bd1f10f7ea4281f635ea8a09f"
+}

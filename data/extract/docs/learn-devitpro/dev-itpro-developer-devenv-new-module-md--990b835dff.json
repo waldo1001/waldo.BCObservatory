@@ -2,45 +2,57 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-new-module.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-new-module",
   "title": "Create a new module in the System Application",
-  "blob": "99d6e66fae12bb89a207a4d46a3ad6102f90ca0a",
-  "summary": "Creating a new module in the System Application by setting up development environment, building facade and implementation codeunits, adding tests, and following module architecture guidelines for contributions.",
+  "blob": "8935e5f8a446448d03b3b0e017926e4ae21ec3d4",
+  "summary": "Create a new module in the System Application by setting up development environment, creating module structure with app.json file, implementing codeunits, adding tests, and contributing via GitHub pull request.",
   "systems": [
     "development",
     "platform"
   ],
   "topics": [
-    "module creation",
+    "module development",
     "system application",
-    "module architecture",
-    "testing",
-    "al development"
+    "al development",
+    "github contribution",
+    "codeunit",
+    "testing"
   ],
   "objects": [
+    {
+      "type": "codeunit",
+      "name": "XmlWriter Impl"
+    },
     {
       "type": "codeunit",
       "name": "XmlWriter"
     },
     {
       "type": "codeunit",
-      "name": "XmlWriter Impl"
+      "name": "Xml Writer Test"
+    },
+    {
+      "type": "codeunit",
+      "name": "Library Assert"
     }
   ],
   "features": [
-    "module facade",
+    "module architecture",
+    "facade codeunit pattern",
     "implementation codeunit",
-    "unit tests",
-    "module testing",
-    "git workflow"
+    "test-driven development",
+    "DotNet integration",
+    "BCApps repository contribution"
   ],
-  "versions": [],
+  "versions": [
+    "17.0.0.0"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007635,
-      "pages_in_call": 7
+      "cost_usd": 0.010195,
+      "pages_in_call": 1
     }
   ]
 }

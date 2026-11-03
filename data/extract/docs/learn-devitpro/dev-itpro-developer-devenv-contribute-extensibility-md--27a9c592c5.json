@@ -2,8 +2,8 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-contribute-extensibility.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-contribute-extensibility",
   "title": "Contribute a change yourself",
-  "blob": "2b61a262b3a657d491e514645ee6577f114deb4e",
-  "summary": "Information about contributing changes directly to Business Central's BCApps and BusinessCentralApps repositories as an alternative to submitting extensibility requests.",
+  "blob": "c40162996e79a8c91be67da00a8546255e0b5cb1",
+  "summary": "How to contribute changes to Business Central by submitting extensibility requests or implementing changes through the BCApps open-source repository. Use this to understand how to improve Business Central's extensibility points and add missing functionality.",
   "systems": [
     "development",
     "platform"
@@ -12,15 +12,18 @@
     "extensibility",
     "contributions",
     "bcapps",
-    "base application",
-    "system application"
+    "events",
+    "interfaces",
+    "open-source",
+    "community"
   ],
   "objects": [],
   "features": [
-    "BCApps repository",
-    "BusinessCentralApps repository",
-    "community contributions",
-    "extension development"
+    "extensibility requests",
+    "event contributions",
+    "interface additions",
+    "base application extensions",
+    "community contributions"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007169,
-      "pages_in_call": 8
+      "cost_usd": 0.003323,
+      "pages_in_call": 1
     }
   ]
 }

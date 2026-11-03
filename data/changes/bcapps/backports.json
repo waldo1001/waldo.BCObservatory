@@ -773,6 +773,15 @@
       "title_key": "expense agent default vat setup fails in localized companies"
     }
   ],
+  "12539": [
+    {
+      "number": 13311,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-02T17:53:04Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13311",
+      "title_key": "add expense agent consumption v2 and trial support"
+    }
+  ],
   "12545": [
     {
       "number": 12547,
@@ -942,6 +951,15 @@
       "merged_at": "2026-10-30T08:30:16Z",
       "url": "https://github.com/microsoft/BCApps/pull/13404",
       "title_key": "bug 657096 29 x suggest lines fails with a duplicate ecsl vat report line relation record in gb environment"
+    }
+  ],
+  "13469": [
+    {
+      "number": 13471,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-02T15:15:59Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13471",
+      "title_key": "soa do not show duplicate contact notification on outgoing email"
     }
   ],
   "unmatched": [
@@ -2120,6 +2138,20 @@
       "merged_at": "2026-10-30T08:36:17Z",
       "url": "https://github.com/microsoft/BCApps/pull/13350",
       "title_key": "source currency code and source currency amount not getting updated on contract deferral release g l entries"
+    },
+    {
+      "number": 12318,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-02T09:07:07Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12318",
+      "title_key": "expense agent alternate approvers delegated substitutes november 26"
+    },
+    {
+      "number": 13163,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-02T10:25:55Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13163",
+      "title_key": "bug 656407 sustainability value chain item reclassification journal forces a non zero total co2e and adds it to the item s footprint under average carbon tracking"
     }
   ]
 }
