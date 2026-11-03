@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set Up Banking",
+  "title": "Banking Setup in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-setup-banking",
   "published_at": "2026-11-02T09:22:46.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.213Z",
-      "blob": "f2d2ce08fd42a6e3c4439fe24373060474bfdfe3",
-      "words": 162,
-      "forms": 1
+      "at": "2026-11-03T00:21:28.730Z",
+      "blob": "1cdb862ae5da4e1f1d0a7dc04e2226835a9ce2a7",
+      "words": 620,
+      "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:32:23.280Z",
+      "at": "2026-11-03T00:21:40.314Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002831
+      "objects": 3,
+      "cost_usd": 0.004596
     },
     "summarized": {
-      "at": "2026-10-06T19:32:23.367Z",
+      "at": "2026-11-03T00:21:40.321Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:23.367Z",
+      "at": "2026-11-03T00:21:40.322Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:23.368Z",
+      "at": "2026-11-03T00:21:40.323Z",
       "page": false
     }
   },
@@ -44,13 +44,28 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/bank-setup-banking.md",
-    "description": "You use bank account cards to keep track of your bank accounts and set up bank feeds, such as Yodlee, to exchange data.",
-    "ms_date": "2021-04-01",
-    "ms_topic": "concept-article",
+    "description": "Set up bank accounts in Business Central, choose statement import and payment export formats, and find banking apps that support your bank.",
+    "ms_date": "2026-10-14",
+    "ms_topic": "overview",
     "search_form": [
+      {
+        "raw": "370",
+        "id": 370,
+        "kind": null
+      },
+      {
+        "raw": "371",
+        "id": 371,
+        "kind": null
+      },
       {
         "raw": "1200",
         "id": 1200,
+        "kind": null
+      },
+      {
+        "raw": "20353",
+        "id": 20353,
         "kind": null
       }
     ],
@@ -62,12 +77,12 @@
       "AMC",
       "link"
     ],
-    "ai_usage": null,
-    "words": 162,
+    "ai_usage": "ai-assisted",
+    "words": 620,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bab563e580f405c6277fa037e15ef83be839d3d1053b58599f4df1d7dc49c9da"
+  "output_hash": "b35ef3f00b65f573755a87b5d05a81c7958dfe12b82bad127d329e248c2fd64d"
 }

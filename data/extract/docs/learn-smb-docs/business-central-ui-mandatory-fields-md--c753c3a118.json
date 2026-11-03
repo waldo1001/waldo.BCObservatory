@@ -1,22 +1,35 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-mandatory-fields.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-mandatory-fields",
-  "title": "Fields Required to Complete Processes",
-  "blob": "44e7e123e2e9e6dab3a73df1eaea89fbb6047b15",
-  "summary": "Mandatory fields are indicated by red asterisks and block process completion like posting transactions until required information is filled in.",
+  "title": "Fields required to complete processes",
+  "blob": "66ffbace7f145abeae7cfb032da27016bb1282e0",
+  "summary": "Mandatory fields are marked with red asterisks in Business Central to indicate data expected for certain processes, though the asterisk itself does not enforce validation or prevent posting actions.",
   "systems": [
-    "administration"
+    "administration",
+    "platform"
   ],
   "topics": [
     "mandatory fields",
     "data entry",
-    "field validation",
-    "posting requirements"
+    "user interface",
+    "validation",
+    "visual indicators"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    }
+  ],
   "features": [
     "red asterisk indicator",
-    "field requirement enforcement"
+    "mandatory field highlighting",
+    "process validation",
+    "data entry guidance"
   ],
   "versions": [],
   "parts": 1,
@@ -25,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002981,
-      "pages_in_call": 7
+      "cost_usd": 0.002999,
+      "pages_in_call": 1
     }
   ]
 }

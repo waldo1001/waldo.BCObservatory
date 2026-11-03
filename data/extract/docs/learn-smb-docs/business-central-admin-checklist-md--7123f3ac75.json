@@ -1,24 +1,41 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/admin-checklist.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-checklist",
-  "title": "Onboard Users with Checklists",
-  "blob": "9dbe21e38c140d974b3e36f166db1e317384b3b2",
-  "summary": "Instructions for administrators and partners to customize and manage user onboarding checklists in Business Central to help new users set up key information.",
+  "title": "Onboarding Checklists for Business Central Users",
+  "blob": "6926451336719cb28f9063c8e6b02f587e5bbc76",
+  "summary": "Onboarding checklists help administrators and partners guide Business Central users through setup and learning tasks, with customizable items assigned to roles or specific users. Checklist items include setup guides, learning links, videos, and tours that appear on user Role Centers.",
   "systems": [
     "administration"
   ],
   "topics": [
     "onboarding",
     "checklists",
-    "user setup",
-    "administration"
+    "user guidance",
+    "setup tasks",
+    "role assignment",
+    "user assignment"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Checklist Administration"
+    },
+    {
+      "type": "page",
+      "name": "Get started"
+    }
+  ],
   "features": [
-    "checklist administration",
     "checklist customization",
-    "setup guides",
-    "user onboarding"
+    "guided experience items",
+    "role-based assignments",
+    "user-specific assignments",
+    "completion requirements",
+    "order control",
+    "assisted setup",
+    "learning links",
+    "videos",
+    "tours"
   ],
   "versions": [],
   "parts": 1,
@@ -27,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006348,
-      "pages_in_call": 8
+      "cost_usd": 0.003825,
+      "pages_in_call": 1
     }
   ]
 }

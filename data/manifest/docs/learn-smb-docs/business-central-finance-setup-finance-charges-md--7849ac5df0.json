@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set Up Finance Charge Terms",
+  "title": "Finance Charge Terms Setup in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-finance-charges",
   "published_at": "2026-11-02T09:22:46.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.729Z",
-      "blob": "8a50454e4423f2f774c09396d36ecfe657b5aeff",
-      "words": 573,
-      "forms": 2
+      "at": "2026-11-03T00:21:31.102Z",
+      "blob": "0b5c3c99c10773db7710e234b4c004be77437793",
+      "words": 773,
+      "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T19:06:40.558Z",
+      "at": "2026-11-03T00:21:43.788Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.00475
+      "objects": 5,
+      "cost_usd": 0.004493
     },
     "summarized": {
-      "at": "2026-10-06T19:06:40.568Z",
+      "at": "2026-11-03T00:21:43.789Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:06:40.569Z",
+      "at": "2026-11-03T00:21:43.789Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:06:40.570Z",
+      "at": "2026-11-03T00:21:43.790Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-setup-finance-charges.md",
-    "description": "Learn how to set up Business Central so that you can inform customers of added charges by sending finance charge memos.",
-    "ms_date": "2021-04-01",
+    "description": "Set up finance charge terms in Business Central, assign them to customers, and configure interest, currency-specific fees, and memo text.",
+    "ms_date": "2026-10-14",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -57,6 +57,21 @@
         "raw": "494",
         "id": 494,
         "kind": null
+      },
+      {
+        "raw": "477",
+        "id": 477,
+        "kind": null
+      },
+      {
+        "raw": "445",
+        "id": 445,
+        "kind": null
+      },
+      {
+        "raw": "572",
+        "id": 572,
+        "kind": null
       }
     ],
     "keywords": [
@@ -66,12 +81,12 @@
       "fee",
       "charge"
     ],
-    "ai_usage": null,
-    "words": 573,
+    "ai_usage": "ai-assisted",
+    "words": 773,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c16085a0e2b4b3350a20e07cbceda091021e08bdaa27b784a2ba2df51332cc90"
+  "output_hash": "fc2be1038c323764ade757e349ce1ca20f96ca7e8695d96ae1bfc0a5db2309bb"
 }

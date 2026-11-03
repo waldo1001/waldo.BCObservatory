@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Posting Documents and Journals",
+  "title": "Posting documents and journals",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-post-documents-journals",
   "published_at": "2026-11-02T09:22:46.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:41.003Z",
-      "blob": "0bde3d9418d1b262f1ef8b9dc8c93fffbc7f3505",
+      "at": "2026-11-03T00:21:45.271Z",
+      "blob": "5838c54b2521f3ccf76f18a244e30285fc3250fa",
       "words": 156,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:43:16.895Z",
+      "at": "2026-11-03T00:21:56.390Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002277
+      "cost_usd": 0.003135
     },
     "summarized": {
-      "at": "2026-10-06T19:43:20.834Z",
+      "at": "2026-11-03T00:21:56.391Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:43:20.835Z",
+      "at": "2026-11-03T00:21:56.392Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:43:20.836Z",
+      "at": "2026-11-03T00:21:56.393Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-post-documents-journals.md",
     "description": "This topic outlines posting actions and the ways you can post documents and journals in the various company ledgers.",
-    "ms_date": "2021-06-24",
+    "ms_date": "2026-10-15",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "426cab9da9779910c610c68509967e373ab9be61622b8df2b50350a3c977003f"
+  "output_hash": "8a286c8e9cb8a217db37ad84443893c572d46b5292d3da1ad86f5f1ad75d0888"
 }

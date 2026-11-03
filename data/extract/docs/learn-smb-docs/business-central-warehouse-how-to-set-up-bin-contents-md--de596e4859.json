@@ -1,41 +1,43 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-set-up-bin-contents.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-bin-contents",
-  "title": "Create Bin Contents",
-  "blob": "828e1fa3c63c198f028e8281febc335fcd7d7a2b",
-  "summary": "Create and manage bin contents manually or using a worksheet to define which items are stored in each bin and set rules for minimum/maximum quantities and default bin assignment.",
+  "title": "Create bin contents",
+  "blob": "e0f61e3be71edb87ae01f9cca91f7c9fc9f63509",
+  "summary": "Create bin contents to set up items stored in specific warehouse bins and establish rules for filling bins using manual entry or automated worksheet methods.",
   "systems": [
     "warehouse",
     "inventory"
   ],
   "topics": [
-    "bin contents",
     "bin setup",
-    "inventory allocation",
-    "bin configuration"
+    "warehouse management",
+    "inventory storage",
+    "directed put-away",
+    "bin contents"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Locations"
-    },
-    {
-      "type": "page",
-      "name": "Bin Contents"
+      "name": "Bin Content"
     },
     {
       "type": "page",
       "name": "Bin Content Creation Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Locations"
     }
   ],
   "features": [
-    "bin contents setup",
-    "bin content worksheet",
-    "fixed bin assignment",
-    "default bin",
-    "maximum quantity",
-    "minimum quantity",
-    "bin replenishment"
+    "Manual bin content creation",
+    "Automated bin content creation worksheet",
+    "Fixed bin assignment",
+    "Default bin designation",
+    "Maximum quantity limits",
+    "Minimum quantity limits",
+    "Bin replenishment calculation",
+    "Directed put-away and pick"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004964,
-      "pages_in_call": 8
+      "cost_usd": 0.004181,
+      "pages_in_call": 1
     }
   ]
 }

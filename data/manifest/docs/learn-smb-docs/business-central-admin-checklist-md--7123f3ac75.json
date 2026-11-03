@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Onboard Users with Checklists",
+  "title": "Onboarding Checklists for Business Central Users",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-checklist",
   "published_at": "2026-11-02T09:22:46.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.502Z",
-      "blob": "9dbe21e38c140d974b3e36f166db1e317384b3b2",
-      "words": 152,
-      "forms": 7
+      "at": "2026-11-03T00:21:27.253Z",
+      "blob": "6926451336719cb28f9063c8e6b02f587e5bbc76",
+      "words": 593,
+      "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T19:05:10.847Z",
+      "at": "2026-11-03T00:21:36.794Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.006348
+      "objects": 2,
+      "cost_usd": 0.003825
     },
     "summarized": {
-      "at": "2026-10-06T19:05:10.969Z",
+      "at": "2026-11-03T00:21:36.795Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:05:10.971Z",
+      "at": "2026-11-03T00:21:36.801Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:05:10.972Z",
+      "at": "2026-11-03T00:21:36.802Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-checklist.md",
-    "description": "Learn how to set up checklists that help users get started in Business Central.",
-    "ms_date": "2021-04-01",
-    "ms_topic": "checklist",
+    "description": "Configure onboarding checklists in Business Central by selecting tasks, assigning roles or users, and setting completion requirements and task order.",
+    "ms_date": "2026-10-14",
+    "ms_topic": "how-to",
     "search_form": [
       {
         "raw": "1992",
@@ -69,18 +69,8 @@
         "kind": null
       },
       {
-        "raw": "1990",
-        "id": 1990,
-        "kind": null
-      },
-      {
-        "raw": "1997",
-        "id": 1997,
-        "kind": null
-      },
-      {
-        "raw": "1801",
-        "id": 1801,
+        "raw": "1996",
+        "id": 1996,
         "kind": null
       }
     ],
@@ -89,12 +79,12 @@
       "wizard",
       "checklist"
     ],
-    "ai_usage": null,
-    "words": 152,
+    "ai_usage": "ai-assisted",
+    "words": 593,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e7809eab1f27568aa107c44ae461aba9c343a3287ffea9a4f5dc57533a1476db"
+  "output_hash": "76dd25775b90c9b1001511d53b8696294204dac777cb5f5294123086b9e30ad3"
 }

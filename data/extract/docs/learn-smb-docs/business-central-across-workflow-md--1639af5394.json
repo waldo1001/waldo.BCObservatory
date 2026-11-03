@@ -2,17 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/across-workflow.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-workflow",
   "title": "Workflows in Dynamics 365 Business Central",
-  "blob": "414c430cda26a958a5c81990d7bc351bff285e5f",
-  "summary": "Workflows in Business Central enable automation and approvals through Power Automate flows and approval workflows based on built-in templates to connect business-process tasks.",
+  "blob": "982c46148c7f68cce5c4e536b88bc43ef2fb797f",
+  "summary": "Workflows in Dynamics 365 Business Central automate business processes by connecting tasks performed by different users and system tasks. The system supports Power Automate flows (automated and instant) and built-in approval workflow templates.",
   "systems": [
     "integration",
-    "administration"
+    "administration",
+    "platform"
   ],
   "topics": [
     "workflows",
+    "approval",
+    "power automate",
     "automation",
-    "approvals",
-    "power automate"
+    "business processes",
+    "system tasks"
   ],
   "objects": [
     {
@@ -21,12 +24,13 @@
     }
   ],
   "features": [
-    "Power Automate flows",
-    "automated flows",
-    "instant flows",
-    "approval workflows",
-    "workflow events",
-    "workflow responses"
+    "Power Automate automated flows",
+    "Power Automate instant flows",
+    "Approval workflows",
+    "Workflow templates",
+    "Workflow events and conditions",
+    "Workflow responses and options",
+    "Workflow notifications"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003628,
-      "pages_in_call": 5
+      "cost_usd": 0.004024,
+      "pages_in_call": 1
     }
   ]
 }

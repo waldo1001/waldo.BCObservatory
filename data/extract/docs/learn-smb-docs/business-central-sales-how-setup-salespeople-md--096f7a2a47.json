@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sales-how-setup-salespeople.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-setup-salespeople",
-  "title": "Set Up Salespeople and Purchasers",
-  "blob": "10c3a8e416f90872da3ab554c0910ff120709200",
-  "summary": "Set up salespeople and purchasers to track employee performance, assign them to contacts and opportunities, and calculate commissions using the Salespeople/Purchasers page.",
+  "title": "Set up salespeople and purchasers",
+  "blob": "508f41e0f42cc93d04eeb4a037bdbd18f02ad235",
+  "summary": "Set up salespeople and purchasers with codes, commission percentages, and assignments to customers, contacts, and sales documents to track sales activity and analyze commissions.",
   "systems": [
     "sales",
     "crm",
-    "administration"
+    "finance"
   ],
   "topics": [
-    "salespeople setup",
+    "salesperson setup",
     "commission tracking",
-    "contact assignment",
-    "sales opportunities"
+    "customer assignment",
+    "sales activity",
+    "purchaser codes"
   ],
   "objects": [
     {
@@ -26,15 +27,17 @@
     },
     {
       "type": "report",
-      "name": "Salesperson Commissions"
+      "name": "Salesperson - Commission"
     }
   ],
   "features": [
-    "salesperson code assignment",
-    "commission percentage tracking",
-    "contact relationship management",
-    "task assignment to salespeople",
-    "opportunity management"
+    "salesperson code",
+    "commission percentage",
+    "contact assignment",
+    "campaign assignment",
+    "opportunity tracking",
+    "ledger entry analysis",
+    "purchaser code"
   ],
   "versions": [],
   "parts": 1,
@@ -43,7 +46,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003596,
+      "cost_usd": 0.004164,
       "pages_in_call": 1
     }
   ]

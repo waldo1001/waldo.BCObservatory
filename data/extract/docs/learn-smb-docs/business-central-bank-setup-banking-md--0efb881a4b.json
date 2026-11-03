@@ -1,38 +1,58 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/bank-setup-banking.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-setup-banking",
-  "title": "Set Up Banking",
-  "blob": "f2d2ce08fd42a6e3c4439fe24373060474bfdfe3",
-  "summary": "Setting Up Banking in Business Central covers configuring bank account cards, electronic banking services for importing statements and exporting payments.",
+  "title": "Banking Setup in Business Central",
+  "blob": "1cdb862ae5da4e1f1d0a7dc04e2226835a9ce2a7",
+  "summary": "Banking Setup in Business Central covers creating bank account cards, configuring bank statement import formats, setting up payment exports, and choosing between banking apps and file formats for bank connections and reconciliation.",
   "systems": [
     "finance",
+    "integration",
     "administration"
   ],
   "topics": [
-    "banking",
     "bank accounts",
-    "payment processing",
-    "electronic banking",
-    "bank statements"
-  ],
-  "objects": [],
-  "features": [
-    "bank account cards",
-    "bank feeds",
-    "check printing",
-    "payment export",
     "bank statement import",
-    "electronic banking services"
+    "payment exports",
+    "bank reconciliation",
+    "banking apps",
+    "sepa payments",
+    "bank feeds"
   ],
-  "versions": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Banking Apps"
+    },
+    {
+      "type": "page",
+      "name": "Bank Export/Import Setup"
+    }
+  ],
+  "features": [
+    "Bank account setup with currency and posting group",
+    "Bank statement file import in CSV and other formats",
+    "Payment file export including SEPA credit transfers",
+    "Envestnet Yodlee Bank Feeds integration",
+    "AMC Banking 365 Fundamentals extension",
+    "Check setup and printing",
+    "Data exchange definitions for bank file mapping",
+    "Banking app marketplace for online Business Central"
+  ],
+  "versions": [
+    "2027 release wave 1, version 30"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002831,
-      "pages_in_call": 8
+      "cost_usd": 0.004596,
+      "pages_in_call": 1
     }
   ]
 }

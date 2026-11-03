@@ -1,45 +1,54 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-setup-finance-charges.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-finance-charges",
-  "title": "Set Up Finance Charge Terms",
-  "blob": "8a50454e4423f2f774c09396d36ecfe657b5aeff",
-  "summary": "Set Up Finance Charge Terms explains how to configure finance charge calculations for overdue customer amounts using average daily balance or balance due methods, including multi-currency support and memo text customization.",
+  "title": "Finance Charge Terms Setup in Business Central",
+  "blob": "0b5c3c99c10773db7710e234b4c004be77437793",
+  "summary": "Finance Charge Terms define how Business Central calculates interest and fees for late customer payments, with settings for interest calculation methods, grace periods, and posting options.",
   "systems": [
-    "sales",
-    "finance"
+    "finance",
+    "sales"
   ],
   "topics": [
     "finance charges",
-    "overdue payments",
     "interest calculation",
-    "customer management",
-    "collections"
+    "late payment fees",
+    "customer payments",
+    "receivables",
+    "posting groups"
   ],
   "objects": [
+    {
+      "type": "table",
+      "name": "Finance Charge Terms"
+    },
     {
       "type": "page",
       "name": "Finance Charge Terms"
     },
     {
-      "type": "table",
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Currencies for Fin. Chrg Terms"
+    },
+    {
+      "type": "page",
       "name": "Finance Charge Text"
-    },
-    {
-      "type": "page",
-      "name": "Currencies for Fin. Chrg. Terms"
-    },
-    {
-      "type": "page",
-      "name": "Customer"
     }
   ],
   "features": [
-    "average daily balance method",
-    "balance due method",
-    "additional fees",
-    "multi-currency support",
-    "finance charge memo text",
-    "text placeholders"
+    "Average Daily Balance calculation",
+    "Balance Due calculation",
+    "Interest Calculation Method",
+    "Grace Period",
+    "Minimum Amount",
+    "Additional Fee",
+    "Post Interest",
+    "Post Additional Fee",
+    "Finance Charge Text",
+    "Beginning and Ending Text placeholders"
   ],
   "versions": [],
   "parts": 1,
@@ -48,8 +57,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00475,
-      "pages_in_call": 8
+      "cost_usd": 0.004493,
+      "pages_in_call": 1
     }
   ]
 }

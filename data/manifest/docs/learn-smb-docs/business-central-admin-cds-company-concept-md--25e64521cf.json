@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Data ownership models for synchronization",
+  "title": "Dataverse data ownership models for synchronization",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-cds-company-concept",
   "published_at": "2026-11-02T09:22:46.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-27T00:22:09.336Z",
-      "blob": "ad63f5644639ff0d4f0437c89d8831ce691e7939",
-      "words": 952,
+      "at": "2026-11-03T00:21:25.768Z",
+      "blob": "eeca2104e4efe6310f4c43c91436381936539489",
+      "words": 921,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-28T08:48:04.392Z",
+      "at": "2026-11-03T00:21:36.776Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00409
+      "objects": 2,
+      "cost_usd": 0.004741
     },
     "summarized": {
-      "at": "2026-10-28T08:48:04.400Z",
+      "at": "2026-11-03T00:21:36.777Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-28T08:48:04.401Z",
+      "at": "2026-11-03T00:21:36.777Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-28T08:48:04.403Z",
+      "at": "2026-11-03T00:21:36.777Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-cds-company-concept.md",
-    "description": "Companies are both a legal and business constructs, and they are used to secure and visualize business data.",
-    "ms_date": "2026-10-22",
-    "ms_topic": "article",
+    "description": "Choose a data ownership model for Business Central and Dataverse synchronization, and learn how companies, business units, and teams control access.",
+    "ms_date": "2026-10-14",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "CDS",
@@ -54,12 +54,12 @@
       "integration",
       "sync"
     ],
-    "ai_usage": "ai-assisted",
-    "words": 952,
+    "ai_usage": null,
+    "words": 921,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d066ff404c2024a3c54fc57757aaa34fb611d88c4cbb230b731eb756634bd00c"
+  "output_hash": "73b5b06b820ad79ee8ad38a912cecda6f99ae873c7960a7db5618d1040ef76a9"
 }
