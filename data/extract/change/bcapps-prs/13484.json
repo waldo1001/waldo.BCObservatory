@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13484",
+  "number": 13484,
+  "title": "[29.X]-[BE] Intervat XML Report 11307 Does Not Include Non-Deductible VAT Amount Reflected in VAT Statement Preview",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The Intervat XML Report 11307 now correctly includes non-deductible VAT amounts reflected in the VAT Statement Preview for Belgium.",
+  "key_points": [
+    "Fixed a bug where non-deductible VAT amounts were missing from the Intervat XML Report 11307",
+    "The VAT Statement Line table was adjusted to reflect the correct amounts",
+    "Test coverage was added to verify the fix works correctly",
+    "Addresses a Belgium-specific VAT reporting requirement"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003039,
+    "changes_in_call": 1
+  }
+}

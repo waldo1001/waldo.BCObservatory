@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13547",
+  "number": 13547,
+  "title": "[29.X]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "The correct posted sales invoice functionality now properly handles return orders linked to posted sales invoices through applies-to document numbers on credit memos, fixing incorrect line quantity updates.",
+  "key_points": [
+    "Corrects quantity update logic when return orders reference posted sales invoices via applies-to field",
+    "Addresses issue where sales order line quantities were incorrectly modified after posting",
+    "Includes test coverage for the copy purchase and sales documents functionality",
+    "Changes applied across multiple localization layers (W1, ES, APAC)"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006227,
+    "changes_in_call": 1
+  }
+}

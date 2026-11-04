@@ -6,10 +6,35 @@
   "title": "[Master] - Bug 654115: [Expense Agent] Cannot submit report with a non-refundable Employee Paid line: 'nothing to refund' blocks release, report stuck in draft",
   "url": "https://github.com/microsoft/BCApps/pull/12985",
   "published_at": "2026-11-03T05:11:18Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-04T00:16:32.194Z"
+    },
+    "fetched": {
+      "at": "2026-11-04T00:21:15.386Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-04T00:21:23.553Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003482
+    },
+    "linked": {
+      "at": "2026-11-04T00:21:23.659Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-04T00:21:23.683Z",
+      "path": "content/changes/bcapps/12985.md"
     }
   },
   "input_hash": "592256e88b2ae0601ba87421fc1d164672e583fd:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 654115 expense agent cannot submit report with a non refundable employee paid line nothing to refund blocks release report stuck in draft"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "229e73ba2bfbb3964424fd5e0162a19243ae4fe4228046a4ff3543e44c08a3d6"
 }

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/13396",
+  "number": 13396,
+  "title": "[main] Purchase invoice fails with \"quantity larger than item ledger entry\" after partial invoicing of multiple receipts with non-base UoM and Qty. Rounding Precision = 1",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Fixes a posting issue where partial purchase invoices with non-base units of measure and quantity rounding could fail when multiple receipts were involved, by ensuring remaining receipt quantities are correctly applied for equal quantities.",
+  "key_points": [
+    "Changed quantity comparison from greater-than to greater-than-or-equal to properly handle remaining receipt base quantities",
+    "Fixes posting failures that occurred after partial invoicing of multiple receipts with specific rounding precision settings",
+    "Added regression test coverage across applicable localization layers to prevent recurrence"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": "Use a greater-than-or-equal comparison so posted receipt base quantities are used for equal quantities as well.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003838,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13184",
+  "number": 13184,
+  "title": " [29.x] - Bug 656485: [Expense Agent] Add a View rules link below Enforce management rules.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "A View rules link was added below the Enforce management rules setting in the Expense Agent Setup Wizard to help users quickly access configured management rules.",
+  "key_points": [
+    "New View rules link appears in Expense Agent Setup Wizard",
+    "Positioned below the Enforce management rules setting",
+    "Improves navigation to management rules configuration",
+    "Enhances discoverability of rules for users"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Adds a View rules link below Enforce management rules in Expense Agent.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003206,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13396,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13396",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-03T06:34:16Z",
+  "merge_commit_sha": "a26d527f1936342cdcaf51fa3e38751e1bd7b12c",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[main] Purchase invoice fails with \"quantity larger than item ledger entry\" after partial invoicing of multiple receipts with non-base UoM and Qty. Rounding Precision = 1",
+  "body_hash": "e11b2c0ae31c31d17e62ea06675c1f8ea563862d870d76fc700e84e796e695bf",
+  "fixes_issues": [],
+  "work_items": [
+    657027
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 100,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 15,
+    "additions": 520,
+    "deletions": 50,
+    "al": 10
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/90"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

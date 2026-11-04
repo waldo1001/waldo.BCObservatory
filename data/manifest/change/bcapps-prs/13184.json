@@ -6,10 +6,35 @@
   "title": " [29.x] - Bug 656485: [Expense Agent] Add a View rules link below Enforce management rules.",
   "url": "https://github.com/microsoft/BCApps/pull/13184",
   "published_at": "2026-11-03T05:55:48Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-04T00:16:32.194Z"
+    },
+    "fetched": {
+      "at": "2026-11-04T00:20:49.499Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-04T00:20:56.522Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003206
+    },
+    "linked": {
+      "at": "2026-11-04T00:20:56.626Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d992339dbf106bf2412e17518329e128634f2951"
+    },
+    "published": {
+      "at": "2026-11-04T00:20:56.631Z",
+      "path": "content/changes/bcapps/13184.md"
     }
   },
   "input_hash": "4e9a979a84bd2c78774fcca5f172f50433a39bd5:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "29 x bug 656485 expense agent add a view rules link below enforce management rules"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3e938fb615fc33778ac4a7058b0a9146b1bf8fc5eb2d0f4f1fd87368d6fc23cb"
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12985",
+  "number": 12985,
+  "title": "[Master] - Bug 654115: [Expense Agent] Cannot submit report with a non-refundable Employee Paid line: 'nothing to refund' blocks release, report stuck in draft",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Fixes an issue where expense reports with non-refundable employee paid lines couldn't be submitted due to a 'nothing to refund' error that blocked the release process.",
+  "key_points": [
+    "Users can now release and submit expense reports containing non-refundable employee paid lines",
+    "The validation that blocked submission for non-refundable lines has been corrected",
+    "Additional test cases ensure the fix handles various expense report scenarios",
+    "Changes in post management and release logic prevent the erroneous error message"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003482,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/227",
+  "number": 227,
+  "title": "Evaluation: keep sample comments for the two articles whose rule is about comments",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Added optional keepComments list to evaluation fixtures so articles about comments themselves retain full-line comments in samples during preparation, enabling proper rule evaluation for the two affected articles.",
+  "key_points": [
+    "New optional keepComments field in review-fixtures.json lets specific articles preserve full-line comments in samples",
+    "Addresses limitation where comment removal prevented evaluation of rules focused on commenting practices",
+    "Sample for test-feature-scenario-tags.bad.al was cleaned to remove comments that revealed expected outcome",
+    "Preparation still applies Good/Bad token neutralisation even with comments kept",
+    "Both affected articles (test-feature-scenario-tags and al-comments-must-not-restate) documented with keepComments entries"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003846,
+    "changes_in_call": 1
+  }
+}

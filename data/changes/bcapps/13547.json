@@ -1,0 +1,108 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13547,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13547",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-03T09:57:37Z",
+  "merge_commit_sha": "2ebeefd8406e307d26bc7fc35c873bcadc635a65",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.X]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo",
+  "body_hash": "512d34c35101a571a16d6ec3b1394e9d76a9af4e5fcece14a19df9b1cd3652f6",
+  "fixes_issues": [],
+  "work_items": [
+    657706
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/Tests/ERM-Purchase/ERMCopyPurchSalesDoc.Codeunit.al",
+      "status": "modified",
+      "additions": 92,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Purchase/ERMCopyPurchSalesDoc.Codeunit.al",
+      "status": "modified",
+      "additions": 92,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 202,
+    "deletions": 0,
+    "al": 3
+  },
+  "join": {
+    "major": "29",
+    "commit": "d992339dbf106bf2412e17518329e128634f2951",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1303",
+        "type": "codeunit",
+        "id": 1303,
+        "name": "Correct Posted Sales Invoice",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/1303"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1303",
+        "type": "codeunit",
+        "id": 1303,
+        "name": "Correct Posted Sales Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1303"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

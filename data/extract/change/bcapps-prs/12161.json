@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12161",
+  "number": 12161,
+  "title": "[MAIN]-FIX-Bug 652365",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Fixed production order refresh failing when a component base quantity is smaller than its rounding precision by preserving the unrounded value in this specific case.",
+  "key_points": [
+    "Refreshing production orders now handles components with base quantities smaller than rounding precision",
+    "Solution preserves unrounded values when premature rounding would reduce a nonzero quantity to zero",
+    "Standard rounding behavior is maintained in other scenarios",
+    "Test coverage added for the new behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Refreshing a production order fails when a valid component base quantity is smaller than its rounding precision.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003302,
+    "changes_in_call": 1
+  }
+}

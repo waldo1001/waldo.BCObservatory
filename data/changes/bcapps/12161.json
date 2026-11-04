@@ -1,0 +1,83 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12161,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12161",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-03T06:23:36Z",
+  "merge_commit_sha": "3f98a8558718eef2945554373dc1b7ebe5fcc0a5",
+  "author": "v-praghav",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[MAIN]-FIX-Bug 652365",
+  "body_hash": "6101a50fa23449aa35f4e1aa5688e864b4860e4758b97c5df9076ea849e54566",
+  "fixes_issues": [],
+  "work_items": [
+    652365
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderComponent.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderComponent.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMProductionOrdersII.Codeunit.al",
+      "status": "modified",
+      "additions": 97,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 115,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderComponent.Table.al",
+        "status": "modified",
+        "key": "table/5407",
+        "type": "table",
+        "id": 5407,
+        "name": "Prod. Order Component",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5407"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderComponent.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

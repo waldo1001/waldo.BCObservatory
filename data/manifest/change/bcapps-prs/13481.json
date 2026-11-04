@@ -6,10 +6,35 @@
   "title": "[Master]-[BE] Intervat XML Report 11307 Does Not Include Non-Deductible VAT Amount Reflected in VAT Statement Preview",
   "url": "https://github.com/microsoft/BCApps/pull/13481",
   "published_at": "2026-11-03T06:33:59Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-04T00:16:32.194Z"
+    },
+    "fetched": {
+      "at": "2026-11-04T00:20:33.418Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-04T00:20:43.086Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002998
+    },
+    "linked": {
+      "at": "2026-11-04T00:20:43.193Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-04T00:20:43.198Z",
+      "path": "content/changes/bcapps/13481.md"
     }
   },
   "input_hash": "f82d0b9e52d333d02a3cf771ea22c4f90e0a9c85:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master be intervat xml report 11307 does not include non deductible vat amount reflected in vat statement preview"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5a0b11a734d73473310642de2ebd055f5b31156871cda8bc2e1be4dd2fd18ed2"
 }

@@ -1,0 +1,114 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12985,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12985",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-03T05:11:18Z",
+  "merge_commit_sha": "592256e88b2ae0601ba87421fc1d164672e583fd",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - Bug 654115: [Expense Agent] Cannot submit report with a non-refundable Employee Paid line: 'nothing to refund' blocks release, report stuck in draft",
+  "body_hash": "7f00bfa6e49283b6849a1a7b847aa0907dbcaec5f3adbb412449fd0613752ffd",
+  "fixes_issues": [],
+  "work_items": [
+    654115
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpensePreviewPostMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ReleaseExpReportDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseReportPostingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 212,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseReportTest.Codeunit.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 6,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 261,
+    "deletions": 14,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpensePreviewPostMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6997",
+        "type": "codeunit",
+        "id": 6997,
+        "name": "Expense Preview Post Mgt.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6997"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6987",
+        "type": "codeunit",
+        "id": 6987,
+        "name": "Expense Report-Post",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6987"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ReleaseExpReportDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6984",
+        "type": "codeunit",
+        "id": 6984,
+        "name": "Release Exp. Report Document",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6984"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

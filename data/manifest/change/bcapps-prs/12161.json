@@ -6,10 +6,35 @@
   "title": "[MAIN]-FIX-Bug 652365",
   "url": "https://github.com/microsoft/BCApps/pull/12161",
   "published_at": "2026-11-03T06:23:36Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-04T00:16:32.194Z"
+    },
+    "fetched": {
+      "at": "2026-11-04T00:20:47.204Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 1,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-04T00:20:54.395Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003302
+    },
+    "linked": {
+      "at": "2026-11-04T00:20:54.518Z",
+      "objects": 1,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-04T00:20:54.535Z",
+      "path": "content/changes/bcapps/12161.md"
     }
   },
   "input_hash": "3f98a8558718eef2945554373dc1b7ebe5fcc0a5:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix bug 652365"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "95d06ea63f3f3c5f52c59d67cd6d6ac7f82a4965db3cb7627c4d6681af3bfa26"
 }

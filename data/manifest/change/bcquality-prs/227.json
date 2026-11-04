@@ -6,10 +6,35 @@
   "title": "Evaluation: keep sample comments for the two articles whose rule is about comments",
   "url": "https://github.com/microsoft/BCQuality/pull/227",
   "published_at": "2026-11-03T09:42:09Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-04T00:16:32.194Z"
+    },
+    "fetched": {
+      "at": "2026-11-04T00:19:51.989Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-04T00:20:00.920Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003846
+    },
+    "linked": {
+      "at": "2026-11-04T00:20:00.921Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-04T00:20:04.324Z",
+      "path": "content/changes/bcquality/227.md"
     }
   },
   "input_hash": "ce3ae03742d6652757bc7308cb068e06d19bc53e:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "evaluation keep sample comments for the two articles whose rule is about comments"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "013e0bbe083571d2a255f8e40cf8f4ed54393785168b35de2a22758b0c8a79a4"
 }

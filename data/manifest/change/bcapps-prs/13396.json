@@ -6,10 +6,35 @@
   "title": "[main] Purchase invoice fails with \"quantity larger than item ledger entry\" after partial invoicing of multiple receipts with non-base UoM and Qty. Rounding Precision = 1",
   "url": "https://github.com/microsoft/BCApps/pull/13396",
   "published_at": "2026-11-03T06:34:16Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-04T00:16:32.194Z"
+    },
+    "fetched": {
+      "at": "2026-11-04T00:20:27.204Z",
+      "change_class": "code",
+      "files": 15,
+      "al": 10,
+      "objects": 10,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-04T00:20:35.821Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003838
+    },
+    "linked": {
+      "at": "2026-11-04T00:20:35.927Z",
+      "objects": 10,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-04T00:20:35.937Z",
+      "path": "content/changes/bcapps/13396.md"
     }
   },
   "input_hash": "a26d527f1936342cdcaf51fa3e38751e1bd7b12c:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "purchase invoice fails with quantity larger than item ledger entry after partial invoicing of multiple receipts with non base uom and qty rounding precision 1"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ae7512f71e6a678378f8fad8b9717002d71244f15998515a338a04b6a295ff20"
 }
