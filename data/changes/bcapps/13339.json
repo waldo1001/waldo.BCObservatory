@@ -1,0 +1,123 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13339,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13339",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-03T12:21:31Z",
+  "merge_commit_sha": "d4fc6a6250a268baf5116145c455c22c9ecba767",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29.x]Changing Negative Amount Format to Parentheses modifies displayed decimal precision despite unchanged rounding settings in the Financial Reports",
+  "body_hash": "9c8ba9b3db7f17a90087c0dbf9b1aaf5435be54575bd06ada7cbe72a0e9e8994",
+  "fixes_issues": [],
+  "work_items": [
+    656976
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/Tests/ERM-Finance/ERMAccountSchedule.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/ERM-Finance/ERMAccountSchedule.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/ERM-Finance/ERMAccountSchedule.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 5,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/Tests/ERM-Finance/ERMAccountSchedule.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/SE/Tests/ERM-Finance/ERMAccountSchedule.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Analysis/MatrixManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/AccScheduleOverview.Page.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ERMAccountSchedule.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 47,
+    "deletions": 36,
+    "al": 2
+  },
+  "join": {
+    "major": "29",
+    "commit": "d992339dbf106bf2412e17518329e128634f2951",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Analysis/MatrixManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9200",
+        "type": "codeunit",
+        "id": 9200,
+        "name": "Matrix Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/9200"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/AccScheduleOverview.Page.al",
+        "status": "modified",
+        "key": "page/490",
+        "type": "page",
+        "id": 490,
+        "name": "Acc. Schedule Overview",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/490"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/al-go-prs/2432",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Fixing RunTests e2e scenario",
+  "url": "https://github.com/microsoft/AL-Go/pull/2432",
+  "published_at": "2026-11-03T14:20:13Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    }
+  },
+  "input_hash": "827187f5045047e373a0f462021f5d4f1fcf2bd8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2432,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "827187f5045047e373a0f462021f5d4f1fcf2bd8",
+    "author": "spetersenms",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "fixing runtests e2e scenario"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-04T00:19:02.411Z",
+  "retry_after": null
+}

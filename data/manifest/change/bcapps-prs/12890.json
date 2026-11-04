@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/12890",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[API tests] Simplify API test web service key handling",
+  "url": "https://github.com/microsoft/BCApps/pull/12890",
+  "published_at": "2026-11-03T13:22:38Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    }
+  },
+  "input_hash": "42a60a166684dddac40990a6f3f21ff6abc0f58b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12890,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "42a60a166684dddac40990a6f3f21ff6abc0f58b",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "api tests simplify api test web service key handling"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-04T00:19:08.441Z",
+  "retry_after": null
+}

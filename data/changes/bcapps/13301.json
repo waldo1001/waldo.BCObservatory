@@ -1,0 +1,77 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13301,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13301",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-03T12:17:04Z",
+  "merge_commit_sha": "660ab812d34871365e65f011aa788db8508c7e48",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29.X]-[CH] SEPA XML Files should append the Address 1 + '' + Address 2 fields under <PstlAdr><StrtNm> node if we use \"Address 2\" as Building Number for QR-Bills",
+  "body_hash": "8d393154af0d4f99a207fa1d42c31df2537154f1565bde1f175f8f58ac26c791",
+  "fixes_issues": [],
+  "work_items": [
+    656863
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CH/BaseApp/Bank/Payment/PaymentExportData.Table.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/Tests/Local/SwissSEPACT09Export.Codeunit.al",
+      "status": "modified",
+      "additions": 62,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CH/Tests/Local/SwissSEPACTExport.Codeunit.al",
+      "status": "modified",
+      "additions": 63,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 142,
+    "deletions": 5,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "d992339dbf106bf2412e17518329e128634f2951",
+    "objects": [
+      {
+        "path": "src/Layers/CH/BaseApp/Bank/Payment/PaymentExportData.Table.al",
+        "status": "modified",
+        "key": "table/1226",
+        "type": "table",
+        "id": 1226,
+        "name": "Payment Export Data",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/1226"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

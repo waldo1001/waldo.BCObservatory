@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/thinkaboutit-be/8379",
+  "url": "https://thinkaboutit.be/2026/11/business-central-29-match-production-database-configuration-in-sandbox-environments/",
+  "title": "Business Central 29: Match Production Database Configuration in Sandbox Environments",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-11-03T09:21:29.000Z",
+  "words": 280,
+  "summary": "Business Central 2026 release wave 2 introduces Match Production Configuration, an Admin Center action that temporarily adjusts a sandbox database to resemble production configuration for 72 hours. This helps partners and developers test extension performance and behavior more accurately by reducing the gap between sandbox and production environments.",
+  "key_points": [
+    "Sandbox databases can be configured to match production database settings in the Admin Center for 72-hour periods",
+    "Feature enables more accurate performance testing, extension development, and cloud migration validation",
+    "Limited to 3 activations per tenant per calendar month with automatic reversion after 72 hours",
+    "Requires environment restart and disconnects active users during activation",
+    "Automation available through Admin Center API for integrated testing workflows"
+  ],
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "sandbox environments",
+    "performance testing",
+    "database configuration",
+    "extension development",
+    "admin center",
+    "cloud migration"
+  ],
+  "objects": [],
+  "features": [
+    "Match Production Configuration",
+    "Admin Center action",
+    "Admin Center API",
+    "Performance Toolkit testing",
+    "Environment management"
+  ],
+  "versions": [
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Match Production Configuration, a new Admin Center action that temporarily adjusts a sandbox database's configuration to resemble that of a typical production database.",
+      "why_it_matters": "Clearly defines what the feature does and its purpose for creating production-like test environments"
+    },
+    {
+      "text": "The three-activations-per-month limit applies to the entire tenant, so it's worth planning your testing windows.",
+      "why_it_matters": "Highlights a critical resource constraint that affects testing strategy and planning"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005012,
+    "posts_in_call": 1
+  }
+}

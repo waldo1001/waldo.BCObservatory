@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13396",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Purchase invoice fails with \"quantity larger than item ledger entry\" after partial invoicing of multiple receipts with non-base UoM and Qty. Rounding Precision = 1",
+  "url": "https://github.com/microsoft/BCApps/pull/13396",
+  "published_at": "2026-11-03T06:34:16Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    }
+  },
+  "input_hash": "a26d527f1936342cdcaf51fa3e38751e1bd7b12c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13396,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a26d527f1936342cdcaf51fa3e38751e1bd7b12c",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "purchase invoice fails with quantity larger than item ledger entry after partial invoicing of multiple receipts with non base uom and qty rounding precision 1"
+  }
+}

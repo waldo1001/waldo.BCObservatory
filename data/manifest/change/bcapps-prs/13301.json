@@ -1,0 +1,43 @@
+{
+  "id": "change/bcapps-prs/13301",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]-[CH] SEPA XML Files should append the Address 1 + '' + Address 2 fields under <PstlAdr><StrtNm> node if we use \"Address 2\" as Building Number for QR-Bills",
+  "url": "https://github.com/microsoft/BCApps/pull/13301",
+  "published_at": "2026-11-03T12:17:04Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    },
+    "fetched": {
+      "at": "2026-11-04T00:19:11.625Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "660ab812d34871365e65f011aa788db8508c7e48:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13301,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "660ab812d34871365e65f011aa788db8508c7e48",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "ch sepa xml files should append the address 1 address 2 fields under pstladr strtnm node if we use address 2 as building number for qr bills"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "793d6fe57c894981a46beaadc6bacf31ee60468e3f251e19531d78070bdb77ce"
+}

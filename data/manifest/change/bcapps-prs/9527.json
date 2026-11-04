@@ -1,0 +1,63 @@
+{
+  "id": "change/bcapps-prs/9527",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "removed access internal  to edocument mailing",
+  "url": "https://github.com/microsoft/BCApps/pull/9527",
+  "published_at": "2026-11-03T15:16:05Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    },
+    "fetched": {
+      "at": "2026-11-04T00:18:48.681Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-04T00:18:59.848Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003124
+    },
+    "linked": {
+      "at": "2026-11-04T00:18:59.977Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-04T00:19:00.119Z",
+      "path": "content/changes/bcapps/9527.md"
+    }
+  },
+  "input_hash": "3d28b3e8bc82e720737577b295ddfd4246fdeb99:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9527,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3d28b3e8bc82e720737577b295ddfd4246fdeb99",
+    "author": "GOB-Wijaya",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "removed access internal to edocument mailing"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5490e12b8db1713145f84d504c50646d0bc97a5391bf9a6fe2a44f75930b69fb"
+}

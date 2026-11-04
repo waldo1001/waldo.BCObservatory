@@ -1,0 +1,63 @@
+{
+  "id": "change/bcapps-prs/9181",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Filter the source record before FindFirst in Prices Overview caption",
+  "url": "https://github.com/microsoft/BCApps/pull/9181",
+  "published_at": "2026-11-03T12:45:45Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    },
+    "fetched": {
+      "at": "2026-11-04T00:19:07.745Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 1,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-04T00:19:33.129Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003988
+    },
+    "linked": {
+      "at": "2026-11-04T00:19:33.287Z",
+      "objects": 1,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-04T00:19:33.292Z",
+      "path": "content/changes/bcapps/9181.md"
+    }
+  },
+  "input_hash": "953bc159cad65b9ed79a7910cc6ed2494a28affa:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9181,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "953bc159cad65b9ed79a7910cc6ed2494a28affa",
+    "author": "Franco111000",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM",
+      "needs-approval"
+    ],
+    "community_contribution": true,
+    "title_key": "filter the source record before findfirst in prices overview caption"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "151d8babd102d2d57bc8c81b8b91baf276c04bf94be9aedbdfbab423ba39bfef"
+}

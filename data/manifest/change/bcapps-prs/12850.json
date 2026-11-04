@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/12850",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Expense Agent Tests] Return the Expense Agent Entra application user as the E2E service identity",
+  "url": "https://github.com/microsoft/BCApps/pull/12850",
+  "published_at": "2026-11-03T14:41:48Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    }
+  },
+  "input_hash": "ae8da7fd86d1202798235c6b9e0ef8504f3568c6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12850,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ae8da7fd86d1202798235c6b9e0ef8504f3568c6",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense agent tests return the expense agent entra application user as the e2e service identity"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-04T00:19:02.111Z",
+  "retry_after": null
+}

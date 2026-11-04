@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13491,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13491",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-03T15:04:58Z",
+  "merge_commit_sha": "57de4953b81754e9e116381c858cabe6d0b10ad0",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.x][NAV] [ALL-E] Fix unhandled inventory confirmation and re-enable SCM partial-consumption lot-tracking testUpdate",
+  "body_hash": "e6f0804666a9fc0e77452b0166021843db0673897e0ae26bbebdd01cc82660d4",
+  "fixes_issues": [],
+  "work_items": [
+    656856
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 10,
+    "deletions": 1,
+    "al": 0
+  },
+  "join": {
+    "major": "29",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

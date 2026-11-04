@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/13506",
+  "number": 13506,
+  "title": "Upgrade Marketing Text, Sales Lines Suggestions, and Item Substitution to GPT-5.6",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "inventory",
+    "sales"
+  ],
+  "summary": "Upgrades the Azure OpenAI deployment for Marketing Text, Sales Lines Suggestions, and Item Substitution to use GPT-5.6 Ceres latest model.",
+  "key_points": [
+    "Marketing Text (Entity Text) now uses GPT-5.6 Ceres latest",
+    "Sales Lines Suggestions AI calls updated to GPT-5.6 Ceres latest",
+    "Item Substitution uses GPT-5.6 Ceres latest model",
+    "Deployment changes use GetGPT56CeresLatest() method",
+    "Minimal code changes affecting three core Copilot features"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": "Upgrade the default Azure OpenAI deployment to GPT-5.6 Ceres latest",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00353,
+    "changes_in_call": 1
+  }
+}

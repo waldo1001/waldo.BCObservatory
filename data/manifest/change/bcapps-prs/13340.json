@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13340",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-FA Posting Group is not updated in the Fixed Asset List after being changed on the Fixed Asset Card.",
+  "url": "https://github.com/microsoft/BCApps/pull/13340",
+  "published_at": "2026-11-03T13:47:37Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    },
+    "fetched": {
+      "at": "2026-11-04T00:19:03.459Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 6,
+      "objects": 2,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-11-04T00:19:07.380Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003151
+    },
+    "linked": {
+      "at": "2026-11-04T00:19:07.514Z",
+      "objects": 2,
+      "unjoined": 4,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-04T00:19:07.523Z",
+      "path": "content/changes/bcapps/13340.md"
+    }
+  },
+  "input_hash": "72f19d6463255e5489ee346bfd5cebdedf49eba5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13340,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "72f19d6463255e5489ee346bfd5cebdedf49eba5",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master fa posting group is not updated in the fixed asset list after being changed on the fixed asset card"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cb5a4f4a1ee1892978580686561af72af068c6b581743aba7fa549903a3e4926"
+}

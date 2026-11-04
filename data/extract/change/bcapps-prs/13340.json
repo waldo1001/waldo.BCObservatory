@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/13340",
+  "number": 13340,
+  "title": "[Master]-FA Posting Group is not updated in the Fixed Asset List after being changed on the Fixed Asset Card.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "fixed-assets"
+  ],
+  "summary": "The Fixed Asset Card page now properly updates the Fixed Asset List when the FA Posting Group field is changed on the card.",
+  "key_points": [
+    "FA Posting Group changes on the Fixed Asset Card now propagate to the Fixed Asset List",
+    "Fixes a synchronization issue where list views were not reflecting card updates",
+    "Changes applied across multiple localization layers (AT, FR, IT, NA, RU, W1)"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "fixed-assets"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003151,
+    "changes_in_call": 1
+  }
+}

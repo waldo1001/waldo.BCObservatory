@@ -1,0 +1,106 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13506,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13506",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-03T13:30:12Z",
+  "merge_commit_sha": "45cb9d01d8563ac026decfab8f2c296aac3a4e13",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "AL: System Application",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Upgrade Marketing Text, Sales Lines Suggestions, and Item Substitution to GPT-5.6",
+  "body_hash": "b6a07b8ece9ed354b6adde1ecbaa32bdb2e89e29917d7d95cc69a5db04fc60f9",
+  "fixes_issues": [],
+  "work_items": [
+    657608
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/SalesAzureOpenAITools/ItemSubstitutionSuggestion/ItemSubstSuggestionImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/SalesLinesSuggestionsImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Entity Text/src/EntityTextImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 4,
+    "deletions": 4,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/SalesAzureOpenAITools/ItemSubstitutionSuggestion/ItemSubstSuggestionImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7330",
+        "type": "codeunit",
+        "id": 7330,
+        "name": "Item Subst. Suggestion Impl.",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "codeunit/7330"
+      },
+      {
+        "path": "src/Apps/W1/SalesLinesSuggestions/app/SalesLinesSuggestionsImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7275",
+        "type": "codeunit",
+        "id": 7275,
+        "name": "Sales Lines Suggestions Impl.",
+        "app": "SalesLinesSuggestions",
+        "cc": "w1",
+        "page": "codeunit/7275"
+      },
+      {
+        "path": "src/System Application/App/Entity Text/src/EntityTextImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/2012",
+        "type": "codeunit",
+        "id": 2012,
+        "name": "Entity Text Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/2012"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development",
+    "inventory",
+    "sales"
+  ],
+  "apps": [
+    "CreateProductInformationWithCopilot",
+    "SalesLinesSuggestions",
+    "System Application"
+  ]
+}

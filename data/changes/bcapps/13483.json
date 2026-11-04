@@ -1,0 +1,130 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13483,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13483",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-03T12:17:29Z",
+  "merge_commit_sha": "95578af984bbcc0adb2e4ce6d78f2fe27ded4fa4",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29.X]-FA Posting Group is not updated in the Fixed Asset List after being changed on the Fixed Asset Card",
+  "body_hash": "8ac0ca63f2e96370e4dbafc3ea55c74ab3f3cedd22efebaa97e1c4f60b55503f",
+  "fixes_issues": [],
+  "work_items": [
+    657369
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/AT/BaseApp/FixedAssets/FixedAsset/FixedAssetCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FixedAssetCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FixedAssetCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/FixedAssets/FixedAsset/FixedAssetCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FixedAssetCard.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FixedAssetCard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 11,
+    "deletions": 1,
+    "al": 6
+  },
+  "join": {
+    "major": "29",
+    "commit": "d992339dbf106bf2412e17518329e128634f2951",
+    "objects": [
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FixedAssetCard.Page.al",
+        "status": "modified",
+        "key": "page/5600",
+        "type": "page",
+        "id": 5600,
+        "name": "Fixed Asset Card",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/5600"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FixedAssetCard.Page.al",
+        "status": "modified",
+        "key": "page/5600",
+        "type": "page",
+        "id": 5600,
+        "name": "Fixed Asset Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5600"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/AT/BaseApp/FixedAssets/FixedAsset/FixedAssetCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FixedAssetCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FixedAssetCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/FixedAssets/FixedAsset/FixedAssetCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "fixed-assets"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

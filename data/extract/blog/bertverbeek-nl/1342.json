@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/bertverbeek-nl/1342",
+  "url": "https://www.bertverbeek.nl/blog/2026/11/03/business-central-%e2%86%92-microsoft-fabric-is-a-mirror-but-what-if-you-want-to-know-what-actually-changed/",
+  "title": "Business Central to Microsoft Fabric is a mirror. But what if you want to know what actually changed?",
+  "source": "bertverbeek-nl",
+  "published_at": "2026-11-03T10:38:50.000Z",
+  "words": 195,
+  "summary": "Business Central data mirrored to Microsoft Fabric appears as static copies by default, but partners can enable delta change data feeds to track table modifications and version history in the mirroring database using Fabric notebooks and SQL queries.",
+  "key_points": [
+    "Business Central tables are replicated as mirrors in Fabric's mirroring database without change tracking by default",
+    "The delta change data feed feature must be explicitly enabled to capture data modifications",
+    "Shortcuts within Fabric lakehouses allow querying change history and tracking specific versions of tables",
+    "SQL commands reveal what changed, including insert, update, and delete operations with timestamps and versions"
+  ],
+  "systems": [
+    "integration",
+    "reporting"
+  ],
+  "topics": [
+    "fabric mirroring",
+    "change data capture",
+    "delta feeds",
+    "data replication",
+    "fabric analytics"
+  ],
+  "objects": [],
+  "features": [
+    "delta change data feed",
+    "mirroring database",
+    "Fabric notebooks",
+    "change history tracking"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "the table in Business Central is replicated inside the mirroring database in Fabric",
+      "why_it_matters": "Clarifies that Fabric mirroring creates copies of BC tables for analytics"
+    },
+    {
+      "text": "with this you can track all the data changes inside a table",
+      "why_it_matters": "Summarizes the end goal of using delta change data feeds for audit and analytics"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004557,
+    "posts_in_call": 1
+  }
+}

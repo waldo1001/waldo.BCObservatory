@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11596",
+  "number": 11596,
+  "title": "[Main]Customer Direct Debit Payment Slip – SEPA File Generation Fails and Credit Memo Is Processed Incorrectly When Invoice and Credit Memo Exist for the Same Customer in the French version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixes SEPA Direct Debit export and customer payment slip posting in the French version when invoices and credit memos exist for the same customer. Credit memos are now correctly netted against invoices instead of being posted separately as refunds.",
+  "key_points": [
+    "Corrected settlement amount calculation to properly subtract credit memos from invoices based on document type",
+    "Fixed SEPA export validation to handle invoice and credit memo combinations under the same collection",
+    "Ensured correct direct debit mandate and bank account retrieval for combined invoice and credit memo scenarios",
+    "Added test cases for SEPA Direct Debit functionality and payment management with credit memos"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Fixed SEPA customer payment slip processing for credit memo scenarios by correcting posting document type and amount handling.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003934,
+    "changes_in_call": 1
+  }
+}

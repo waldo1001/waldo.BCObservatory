@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13488",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]-Applying entries across posting groups (Allow Multiple Posting Groups) posts the G/L entries that move the amount between receivables accounts with ACY = 0",
+  "url": "https://github.com/microsoft/BCApps/pull/13488",
+  "published_at": "2026-11-03T13:27:11Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    },
+    "fetched": {
+      "at": "2026-11-04T00:19:04.981Z",
+      "change_class": "code",
+      "files": 19,
+      "al": 12,
+      "objects": 12,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-04T00:19:10.358Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004548
+    },
+    "linked": {
+      "at": "2026-11-04T00:19:10.474Z",
+      "objects": 12,
+      "unjoined": 0,
+      "commit": "d992339dbf106bf2412e17518329e128634f2951"
+    },
+    "published": {
+      "at": "2026-11-04T00:19:10.504Z",
+      "path": "content/changes/bcapps/13488.md"
+    }
+  },
+  "input_hash": "9db11ed317fbfd60af098597407eafbd05fd5752:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13488,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "9db11ed317fbfd60af098597407eafbd05fd5752",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "applying entries across posting groups allow multiple posting groups posts the g l entries that move the amount between receivables accounts with acy 0"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e085051aca02b96335313e6246592d763ecc20b918b560c488fdec99d1cc6e56"
+}

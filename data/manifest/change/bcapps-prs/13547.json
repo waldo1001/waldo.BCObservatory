@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13547",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo",
+  "url": "https://github.com/microsoft/BCApps/pull/13547",
+  "published_at": "2026-11-03T09:57:37Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    }
+  },
+  "input_hash": "2ebeefd8406e307d26bc7fc35c873bcadc635a65:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13547,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "2ebeefd8406e307d26bc7fc35c873bcadc635a65",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "sales order line quantities are incorrectly updated after posting a return order linked to a posted sales invoice via applies to doc no on a credit memo"
+  }
+}

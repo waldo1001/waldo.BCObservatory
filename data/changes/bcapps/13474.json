@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13474,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13474",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-03T13:26:31Z",
+  "merge_commit_sha": "4f9fcfe1a3980b7f701aebe89cc6ca50d5e9125e",
+  "author": "DhavalMore88",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[29.x]-Fixed Asset Analysis (Excel) report shows Disposal date 1/1/1900 when the asset is not sold.",
+  "body_hash": "62a4300f6c13b04ba6185251f48db2b2adca81ab324e482d5d0701b46f3f2dbd",
+  "fixes_issues": [],
+  "work_items": [
+    657092
+  ],
+  "change_class": "non-code",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 0,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "29",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

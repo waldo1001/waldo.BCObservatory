@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13481",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-[BE] Intervat XML Report 11307 Does Not Include Non-Deductible VAT Amount Reflected in VAT Statement Preview",
+  "url": "https://github.com/microsoft/BCApps/pull/13481",
+  "published_at": "2026-11-03T06:33:59Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    }
+  },
+  "input_hash": "f82d0b9e52d333d02a3cf771ea22c4f90e0a9c85:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13481,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f82d0b9e52d333d02a3cf771ea22c4f90e0a9c85",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master be intervat xml report 11307 does not include non deductible vat amount reflected in vat statement preview"
+  }
+}

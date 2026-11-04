@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/13337",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master]Sales Quote for Subscription Billing (RDLC) Layout Fails with GlobalLocationNumber_Lbl Dataset Rendering Error.",
+  "url": "https://github.com/microsoft/BCApps/pull/13337",
+  "published_at": "2026-11-03T13:57:12Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    }
+  },
+  "input_hash": "c767867d9ad29e809de841c232ab554c7f2445c2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13337,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c767867d9ad29e809de841c232ab554c7f2445c2",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master sales quote for subscription billing rdlc layout fails with globallocationnumber lbl dataset rendering error"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-04T00:19:02.958Z",
+  "retry_after": null
+}

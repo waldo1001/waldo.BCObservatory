@@ -1,0 +1,96 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13508,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13508",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-03T13:20:56Z",
+  "merge_commit_sha": "b3df6f3f62e8588633b4c5b627896d3f20417bc4",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[E-Document] Add AKV switch for PA LLM calls (29.x)",
+  "body_hash": "ad08af0176b8c44963adb9ffeda29538e3c24f121d540ac7ebe8b0f40c950a12",
+  "fixes_issues": [],
+  "work_items": [
+    657607
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/AI/EDocAIToolProcessor.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocumentMLLMHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/docs/CLAUDE.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/docs/business-logic.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "docs"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 40,
+    "deletions": 9,
+    "al": 2
+  },
+  "join": {
+    "major": "29",
+    "commit": "d992339dbf106bf2412e17518329e128634f2951",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/AI/EDocAIToolProcessor.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6195",
+        "type": "codeunit",
+        "id": 6195,
+        "name": "E-Doc. AI Tool Processor",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6195"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocumentMLLMHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6231",
+        "type": "codeunit",
+        "id": 6231,
+        "name": "E-Document MLLM Handler",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6231"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument"
+  ]
+}

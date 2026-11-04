@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9527",
+  "number": 9527,
+  "title": "removed access internal  to edocument mailing",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The access internal modifier was removed from the E-Document Emailing codeunit to adjust its visibility scope.",
+  "key_points": [
+    "Removed 'access internal' modifier from Codeunit 6188 'E-Document Emailing'",
+    "Changes the visibility/access level of the codeunit",
+    "Part of the EDocument app in the W1 version",
+    "Addresses visibility or access control issue"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Removed access internal in Codeunit \"E-Document Emailing\"",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003124,
+    "changes_in_call": 1
+  }
+}

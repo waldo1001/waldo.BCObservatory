@@ -1,0 +1,256 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13172,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13172",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-03T21:52:48Z",
+  "merge_commit_sha": "009d41251d84979fdd2a0f6c98c1916da9fb3194",
+  "author": "nikolakukrika",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "AL: System Application",
+    "AL: Tools",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Export structured AI eval run data",
+  "body_hash": "86d9b3b2aa5748fbf2aa63f364e2eccf032ff354d7b3dab70e590bf092c3b612",
+  "fixes_issues": [],
+  "work_items": [
+    624671
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/AgentDesignExperience/app/InstructionEditor/AgentTaskLogEntryInstr.Page.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Interaction/AgentTask.Codeunit.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Interaction/Internal/AgentMessageImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Interaction/Internal/AgentTaskImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 57,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Troubleshooting/AgentTaskLogEntry.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Troubleshooting/AgentTaskLogExport.md",
+      "status": "added",
+      "additions": 69,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/System Application/App/Agent/Troubleshooting/Internal/AgentJSONBuffer.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Troubleshooting/Internal/AgentTaskLogEntry.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/Agent/Troubleshooting/Internal/AgentTaskLogExport.Codeunit.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 17,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test/Agent/src/SDK/AgentTaskTest.codeunit.al",
+      "status": "modified",
+      "additions": 79,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test/Agent/src/Troubleshooting/AgentTaskLogPageTest.Codeunit.al",
+      "status": "modified",
+      "additions": 92,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Tools/AI Test Toolkit/Permissions/AITestToolkitObj.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Tools/AI Test Toolkit/README.md",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Tools/AI Test Toolkit/app.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Tools/AI Test Toolkit/src/AITCommandLineCard.Page.al",
+      "status": "modified",
+      "additions": 204,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Tools/AI Test Toolkit/src/Logs/AITLogEntry.Table.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 12,
+      "class": "other"
+    },
+    {
+      "path": "src/Tools/AI Test Toolkit/src/RunData/AITRunDataExport.Codeunit.al",
+      "status": "added",
+      "additions": 368,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 17,
+    "additions": 1009,
+    "deletions": 58,
+    "al": 8
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/AgentDesignExperience/app/InstructionEditor/AgentTaskLogEntryInstr.Page.al",
+        "status": "modified",
+        "key": "page/4362",
+        "type": "page",
+        "id": 4362,
+        "name": "Agent Task Log Entry Instr",
+        "app": "AgentDesignExperience",
+        "cc": "w1",
+        "page": "page/4362"
+      },
+      {
+        "path": "src/System Application/App/Agent/Interaction/AgentTask.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4303",
+        "type": "codeunit",
+        "id": 4303,
+        "name": "Agent Task",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/4303"
+      },
+      {
+        "path": "src/System Application/App/Agent/Interaction/Internal/AgentMessageImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4308",
+        "type": "codeunit",
+        "id": 4308,
+        "name": "Agent Message Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/4308"
+      },
+      {
+        "path": "src/System Application/App/Agent/Interaction/Internal/AgentTaskImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4300",
+        "type": "codeunit",
+        "id": 4300,
+        "name": "Agent Task Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/4300"
+      },
+      {
+        "path": "src/System Application/App/Agent/Troubleshooting/AgentTaskLogEntry.Page.al",
+        "status": "modified",
+        "key": "page/4312",
+        "type": "page",
+        "id": 4312,
+        "name": "Agent Task Log Entry",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/4312"
+      },
+      {
+        "path": "src/System Application/App/Agent/Troubleshooting/Internal/AgentJSONBuffer.Table.al",
+        "status": "modified",
+        "key": "table/4300",
+        "type": "table",
+        "id": 4300,
+        "name": "Agent JSON Buffer",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "table/4300"
+      },
+      {
+        "path": "src/System Application/App/Agent/Troubleshooting/Internal/AgentTaskLogEntry.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4314",
+        "type": "codeunit",
+        "id": 4314,
+        "name": "Agent Task Log Entry",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/4314"
+      },
+      {
+        "path": "src/System Application/App/Agent/Troubleshooting/Internal/AgentTaskLogExport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4313",
+        "type": "codeunit",
+        "id": 4313,
+        "name": "Agent Task Log Export",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/4313"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "AgentDesignExperience",
+    "System Application"
+  ]
+}

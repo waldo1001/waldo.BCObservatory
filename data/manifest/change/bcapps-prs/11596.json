@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/11596",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]Customer Direct Debit Payment Slip – SEPA File Generation Fails and Credit Memo Is Processed Incorrectly When Invoice and Credit Memo Exist for the Same Customer in the French version.",
+  "url": "https://github.com/microsoft/BCApps/pull/11596",
+  "published_at": "2026-11-03T15:04:23Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    },
+    "fetched": {
+      "at": "2026-11-04T00:19:01.578Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-04T00:19:06.104Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003934
+    },
+    "linked": {
+      "at": "2026-11-04T00:19:06.227Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-04T00:19:06.249Z",
+      "path": "content/changes/bcapps/11596.md"
+    }
+  },
+  "input_hash": "5aa872a288a38bcf1d1c6e5bfefaeeea470629c8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11596,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5aa872a288a38bcf1d1c6e5bfefaeeea470629c8",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "customer direct debit payment slip sepa file generation fails and credit memo is processed incorrectly when invoice and credit memo exist for the same customer in the french version"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4cc24cbcb26347950cd96fdd6f31f0beec2088000d90b9c31e99ad9af205363a"
+}

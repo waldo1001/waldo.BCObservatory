@@ -1,0 +1,63 @@
+{
+  "id": "change/bcapps-prs/13506",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Upgrade Marketing Text, Sales Lines Suggestions, and Item Substitution to GPT-5.6",
+  "url": "https://github.com/microsoft/BCApps/pull/13506",
+  "published_at": "2026-11-03T13:30:12Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    },
+    "fetched": {
+      "at": "2026-11-04T00:19:04.003Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-04T00:19:08.275Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00353
+    },
+    "linked": {
+      "at": "2026-11-04T00:19:08.387Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-04T00:19:08.429Z",
+      "path": "content/changes/bcapps/13506.md"
+    }
+  },
+  "input_hash": "45cb9d01d8563ac026decfab8f2c296aac3a4e13:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13506,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "45cb9d01d8563ac026decfab8f2c296aac3a4e13",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "upgrade marketing text sales lines suggestions and item substitution to gpt 5 6"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ee6d5b2578986d6fc95025543e19f4dcbcf958c148b774a892252b5a00551824"
+}

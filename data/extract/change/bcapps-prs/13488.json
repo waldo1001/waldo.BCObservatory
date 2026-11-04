@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13488",
+  "number": 13488,
+  "title": "[29.X]-Applying entries across posting groups (Allow Multiple Posting Groups) posts the G/L entries that move the amount between receivables accounts with ACY = 0",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The posting logic for applying entries across posting groups now correctly handles additional currency amounts, ensuring G/L entries that transfer amounts between receivables accounts maintain proper ACY values.",
+  "key_points": [
+    "Fixed handling of additional currency (ACY) calculations when posting across multiple posting groups",
+    "Updates to Gen. Jnl.-Post Line codeunit in multiple localization layers (W1, APAC, BE, CH, ES, FI, FR, IT, NA, NO, RU)",
+    "Corresponding Czech localization handler codeunit updated",
+    "Enhanced test coverage for multiple posting groups scenario across multiple regions",
+    "Ensures G/L entries moving amounts between receivables accounts use correct ACY values instead of zero"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004548,
+    "changes_in_call": 1
+  }
+}

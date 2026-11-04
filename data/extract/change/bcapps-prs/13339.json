@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13339",
+  "number": 13339,
+  "title": "[29.x]Changing Negative Amount Format to Parentheses modifies displayed decimal precision despite unchanged rounding settings in the Financial Reports",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Financial Reports now preserve the configured decimal precision when displaying negative amounts in parentheses format instead of forcing a fixed two-decimal pattern.",
+  "key_points": [
+    "Negative amount formatting no longer overrides the column's configured rounding settings",
+    "The fix formats amounts according to precision first, then applies parentheses for negative values",
+    "Decimal precision remains consistent whether showing negative amounts as minus signs or parentheses",
+    "Updates affected multiple localization test files to reflect corrected behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Format the amount using the configured precision first, then wrap negative values in parentheses.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003498,
+    "changes_in_call": 1
+  }
+}

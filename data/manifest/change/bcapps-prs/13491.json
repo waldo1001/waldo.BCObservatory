@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/13491",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x][NAV] [ALL-E] Fix unhandled inventory confirmation and re-enable SCM partial-consumption lot-tracking testUpdate",
+  "url": "https://github.com/microsoft/BCApps/pull/13491",
+  "published_at": "2026-11-03T15:04:58Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    }
+  },
+  "input_hash": "57de4953b81754e9e116381c858cabe6d0b10ad0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13491,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "57de4953b81754e9e116381c858cabe6d0b10ad0",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "nav all e fix unhandled inventory confirmation and re enable scm partial consumption lot tracking testupdate"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-04T00:19:01.235Z",
+  "retry_after": null
+}

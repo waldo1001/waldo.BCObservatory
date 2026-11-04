@@ -1,6 +1,71 @@
 {
   "open": [
     {
+      "number": 2435,
+      "title": "Fix CI/CD Build Link Retrieval and Create Release Workflow",
+      "url": "https://github.com/microsoft/AL-Go/pull/2435",
+      "base": "main",
+      "major": null,
+      "author": "frottke",
+      "labels": [],
+      "draft": true,
+      "created_at": "2026-11-03T13:36:42Z",
+      "updated_at": "2026-11-03T13:40:22Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2434,
+      "title": "Retry artifact and CI/CD lookup requests",
+      "url": "https://github.com/microsoft/AL-Go/pull/2434",
+      "base": "main",
+      "major": null,
+      "author": "aholstrup1",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-11-03T13:32:18Z",
+      "updated_at": "2026-11-03T13:35:04Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2433,
+      "title": "Fix workspace compilation with versioning strategy 3",
+      "url": "https://github.com/microsoft/AL-Go/pull/2433",
+      "base": "main",
+      "major": null,
+      "author": "aholstrup1",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-11-03T13:20:37Z",
+      "updated_at": "2026-11-03T13:22:16Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2431,
+      "title": "Document existing settings and disabled-test conventions",
+      "url": "https://github.com/microsoft/AL-Go/pull/2431",
+      "base": "main",
+      "major": null,
+      "author": "aholstrup1",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-11-03T11:59:41Z",
+      "updated_at": "2026-11-03T12:34:01Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2427,
+      "title": "Add opt-in setting to skip draft PR builds",
+      "url": "https://github.com/microsoft/AL-Go/pull/2427",
+      "base": "main",
+      "major": null,
+      "author": "aholstrup1",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-11-02T10:00:11Z",
+      "updated_at": "2026-11-03T11:56:55Z",
+      "community_contribution": false
+    },
+    {
       "number": 2425,
       "title": "Admin API for PTE publishing/installing for BC30 and later",
       "url": "https://github.com/microsoft/AL-Go/pull/2425",
@@ -24,19 +89,6 @@
       "draft": true,
       "created_at": "2026-11-02T12:38:32Z",
       "updated_at": "2026-11-02T12:38:32Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2427,
-      "title": "Add opt-in setting to skip draft PR builds",
-      "url": "https://github.com/microsoft/AL-Go/pull/2427",
-      "base": "main",
-      "major": null,
-      "author": "aholstrup1",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-11-02T10:00:11Z",
-      "updated_at": "2026-11-02T10:16:14Z",
       "community_contribution": false
     },
     {
@@ -251,7 +303,9 @@
       "number": 2419,
       "title": "[Bug]: CreateRelease fails with (500) in DetermineArtifactsForRelease: repo-wide artifacts listing times out, no retry",
       "url": "https://github.com/microsoft/AL-Go/issues/2419",
-      "labels": [],
+      "labels": [
+        "In Progress"
+      ],
       "author": "ivandjordjevic",
       "created_at": "2026-10-23T15:51:26Z",
       "comments": 0
@@ -272,6 +326,7 @@
       "title": "[Bug]: \"\"build ('-1') must be a non-negative value\" after enabling workspace compilation",
       "url": "https://github.com/microsoft/AL-Go/issues/2417",
       "labels": [
+        "In Progress",
         "bug"
       ],
       "author": "Mkublbock",
@@ -371,18 +426,6 @@
       "comments": 1
     },
     {
-      "number": 2244,
-      "title": "[Bug]: Error downloading aldoc because it is not included in the artifact",
-      "url": "https://github.com/microsoft/AL-Go/issues/2244",
-      "labels": [
-        "Workaround provided",
-        "bug"
-      ],
-      "author": "elweilando",
-      "created_at": "2026-05-10T19:23:09Z",
-      "comments": 3
-    },
-    {
       "number": 2228,
       "title": "[Bug]: Orverwritesettings fail with custom Al-Go Template",
       "url": "https://github.com/microsoft/AL-Go/issues/2228",
@@ -393,19 +436,6 @@
       "author": "PropmanProphecy",
       "created_at": "2026-04-29T16:35:07Z",
       "comments": 0
-    },
-    {
-      "number": 2218,
-      "title": "[Bug]: installApps secret placeholder works when embedded in URL, but not when secret contains the full URL",
-      "url": "https://github.com/microsoft/AL-Go/issues/2218",
-      "labels": [
-        "Need more info",
-        "bug",
-        "stale"
-      ],
-      "author": "youngdanger2",
-      "created_at": "2026-04-21T06:36:23Z",
-      "comments": 2
     },
     {
       "number": 2151,

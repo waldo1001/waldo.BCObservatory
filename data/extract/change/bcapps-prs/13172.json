@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/13172",
+  "number": 13172,
+  "title": "Export structured AI eval run data",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Export structured AI evaluation run data with authorized agent task troubleshooting details through new public AL methods on Agent Task, removing internal visibility grants and unused adapters.",
+  "key_points": [
+    "Expose public methods on Agent Task codeunit: GetTaskLogEntryDetails for complete task export and single log entries",
+    "Stream evaluation results.json and task detail files while preserving suite/version/dataset hierarchy with collision-safe dataset abbreviations",
+    "Remove AI Test Toolkit internalsVisibleTo grants and stream/BLOB adapter, making the export API publicly accessible",
+    "Improve multiline message and call stack handling with explicit first-line flag and MaxStrLen usage in tests",
+    "Remove unused Eng\\Core\\Tools\\ALTestRunner"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "quote": "Export structured AI Eval run data for analysis and automation, with optional authorized Agent Task troubleshooting details.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004696,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13484,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13484",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-03T12:20:42Z",
+  "merge_commit_sha": "18d54b76f8676b1a60e62fcc0de9cbd0c6de75f1",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29.X]-[BE] Intervat XML Report 11307 Does Not Include Non-Deductible VAT Amount Reflected in VAT Statement Preview",
+  "body_hash": "1fdbd3dab02834e75fdfa2dbe89c523047a2286c5e2c8546f8bf3521b35b2927",
+  "fixes_issues": [],
+  "work_items": [
+    657372
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/VAT/Reporting/VATStatementLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/Tests/Local/VATReportsBE.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 17,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "d992339dbf106bf2412e17518329e128634f2951",
+    "objects": [
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/VAT/Reporting/VATStatementLine.Table.al",
+        "status": "modified",
+        "key": "table/256",
+        "type": "table",
+        "id": 256,
+        "name": "VAT Statement Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/256"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

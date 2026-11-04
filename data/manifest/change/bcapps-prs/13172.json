@@ -1,0 +1,63 @@
+{
+  "id": "change/bcapps-prs/13172",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Export structured AI eval run data",
+  "url": "https://github.com/microsoft/BCApps/pull/13172",
+  "published_at": "2026-11-03T21:52:48Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    },
+    "fetched": {
+      "at": "2026-11-04T00:18:47.175Z",
+      "change_class": "code",
+      "files": 17,
+      "al": 8,
+      "objects": 8,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-04T00:19:01.257Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004696
+    },
+    "linked": {
+      "at": "2026-11-04T00:19:01.359Z",
+      "objects": 8,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-04T00:19:01.465Z",
+      "path": "content/changes/bcapps/13172.md"
+    }
+  },
+  "input_hash": "009d41251d84979fdd2a0f6c98c1916da9fb3194:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13172,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "009d41251d84979fdd2a0f6c98c1916da9fb3194",
+    "author": "nikolakukrika",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "AL: Tools",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "export structured ai eval run data"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "661a8f76721d59cc40bf3ef0a682d85d83f496254ebaf0e9ac68a1e2bef9e485"
+}

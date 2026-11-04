@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13339",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x]Changing Negative Amount Format to Parentheses modifies displayed decimal precision despite unchanged rounding settings in the Financial Reports",
+  "url": "https://github.com/microsoft/BCApps/pull/13339",
+  "published_at": "2026-11-03T12:21:31Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    },
+    "fetched": {
+      "at": "2026-11-04T00:19:09.506Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-04T00:19:32.934Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003498
+    },
+    "linked": {
+      "at": "2026-11-04T00:19:33.118Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d992339dbf106bf2412e17518329e128634f2951"
+    },
+    "published": {
+      "at": "2026-11-04T00:19:33.123Z",
+      "path": "content/changes/bcapps/13339.md"
+    }
+  },
+  "input_hash": "d4fc6a6250a268baf5116145c455c22c9ecba767:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13339,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "d4fc6a6250a268baf5116145c455c22c9ecba767",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "changing negative amount format to parentheses modifies displayed decimal precision despite unchanged rounding settings in the financial reports"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c08a37d4dee063edcb58e35fca01d0373bdfe5689e0c88bcb011cdde2ce98646"
+}

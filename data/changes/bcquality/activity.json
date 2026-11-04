@@ -1,16 +1,29 @@
 {
   "open": [
     {
-      "number": 181,
-      "title": "Clarify restart-safe batches and scripted UI handler tests",
-      "url": "https://github.com/microsoft/BCQuality/pull/181",
+      "number": 256,
+      "title": "Fixtures: make two samples comply with the sibling articles they trip",
+      "url": "https://github.com/microsoft/BCQuality/pull/256",
       "base": "main",
       "major": null,
-      "author": "gggdttt",
+      "author": "Nikolaj1407",
       "labels": [],
       "draft": false,
-      "created_at": "2026-09-14T07:30:02Z",
-      "updated_at": "2026-10-26T17:54:05Z",
+      "created_at": "2026-11-03T18:58:20Z",
+      "updated_at": "2026-11-03T18:58:24Z",
+      "community_contribution": false
+    },
+    {
+      "number": 255,
+      "title": "Correct CurrReport.Skip guidance and retire false fixture expectations",
+      "url": "https://github.com/microsoft/BCQuality/pull/255",
+      "base": "main",
+      "major": null,
+      "author": "JesperSchulz",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-11-03T15:23:34Z",
+      "updated_at": "2026-11-03T15:23:34Z",
       "community_contribution": false
     },
     {
@@ -23,20 +36,20 @@
       "labels": [],
       "draft": false,
       "created_at": "2026-10-16T15:52:48Z",
-      "updated_at": "2026-10-26T08:35:19Z",
+      "updated_at": "2026-11-03T13:27:50Z",
       "community_contribution": false
     },
     {
-      "number": 227,
-      "title": "Evaluation: keep sample comments for the two articles whose rule is about comments",
-      "url": "https://github.com/microsoft/BCQuality/pull/227",
+      "number": 181,
+      "title": "Clarify restart-safe batches and scripted UI handler tests",
+      "url": "https://github.com/microsoft/BCQuality/pull/181",
       "base": "main",
       "major": null,
-      "author": "Nikolaj1407",
+      "author": "gggdttt",
       "labels": [],
       "draft": false,
-      "created_at": "2026-10-13T08:33:42Z",
-      "updated_at": "2026-10-26T08:35:11Z",
+      "created_at": "2026-09-14T07:30:02Z",
+      "updated_at": "2026-10-26T17:54:05Z",
       "community_contribution": false
     },
     {
@@ -243,7 +256,7 @@
       "labels": [],
       "author": "fmoric",
       "created_at": "2026-10-02T19:48:56Z",
-      "comments": 0
+      "comments": 1
     },
     {
       "number": 201,
@@ -252,7 +265,7 @@
       "labels": [],
       "author": "Nikolaj1407",
       "created_at": "2026-09-26T20:50:43Z",
-      "comments": 1
+      "comments": 4
     },
     {
       "number": 200,
@@ -261,7 +274,7 @@
       "labels": [],
       "author": "Nikolaj1407",
       "created_at": "2026-09-26T20:50:42Z",
-      "comments": 1
+      "comments": 3
     },
     {
       "number": 165,
@@ -281,7 +294,7 @@
       ],
       "author": "onbuyuka",
       "created_at": "2026-09-08T14:17:26Z",
-      "comments": 0
+      "comments": 1
     },
     {
       "number": 107,
@@ -290,7 +303,7 @@
       "labels": [],
       "author": "RadekZebrowski",
       "created_at": "2026-07-14T12:30:38Z",
-      "comments": 0
+      "comments": 1
     },
     {
       "number": 106,
@@ -299,7 +312,7 @@
       "labels": [],
       "author": "RadekZebrowski",
       "created_at": "2026-07-14T12:19:17Z",
-      "comments": 0
+      "comments": 1
     },
     {
       "number": 104,
@@ -311,22 +324,13 @@
       "comments": 1
     },
     {
-      "number": 91,
-      "title": "This repo is missing important files",
-      "url": "https://github.com/microsoft/BCQuality/issues/91",
-      "labels": [],
-      "author": "microsoft-github-policy-service[bot]",
-      "created_at": "2026-07-13T08:35:09Z",
-      "comments": 0
-    },
-    {
       "number": 63,
       "title": "microsoft/knowledge/privacy/register-integration-in-privacy-notice-registrations.md seems to be outdated",
       "url": "https://github.com/microsoft/BCQuality/issues/63",
       "labels": [],
       "author": "sergeyol",
       "created_at": "2026-06-30T08:18:14Z",
-      "comments": 1
+      "comments": 2
     }
   ],
   "releases": []

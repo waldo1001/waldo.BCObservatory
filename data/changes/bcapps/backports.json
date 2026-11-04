@@ -917,6 +917,24 @@
       "title_key": "fix vat adjustment register 13216"
     }
   ],
+  "13220": [
+    {
+      "number": 13423,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-03T17:25:17Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13423",
+      "title_key": "fix average cost adjustment overflow on same period transfers"
+    }
+  ],
+  "13221": [
+    {
+      "number": 13464,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-03T16:39:15Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13464",
+      "title_key": "e document connector sharepoint downloading file fails either with response 404 or response 401"
+    }
+  ],
   "13262": [
     {
       "number": 13316,
@@ -2152,6 +2170,41 @@
       "merged_at": "2026-11-02T10:25:55Z",
       "url": "https://github.com/microsoft/BCApps/pull/13163",
       "title_key": "bug 656407 sustainability value chain item reclassification journal forces a non zero total co2e and adds it to the item s footprint under average carbon tracking"
+    },
+    {
+      "number": 12602,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-03T03:42:30Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12602",
+      "title_key": "slice 629913 expense agent vendor enforced background itemization required for approvals"
+    },
+    {
+      "number": 11723,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-03T04:58:36Z",
+      "url": "https://github.com/microsoft/BCApps/pull/11723",
+      "title_key": "incorrect additional currency base and additional currency amount calculation in vat gst entries when line discount is applied on sales invoice in the australian version"
+    },
+    {
+      "number": 13098,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-03T05:13:09Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13098",
+      "title_key": "bug 656121 expense agent cannot submit report with a non refundable employee paid line nothing to refund blocks release report stuck in draft"
+    },
+    {
+      "number": 12815,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-03T12:52:09Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12815",
+      "title_key": "user encounters a record is not open error when attaching a document to a posted sales shipment in dynamics 365 base application v28"
+    },
+    {
+      "number": 13523,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-03T13:28:17Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13523",
+      "title_key": "create reminders fails with there is no reminder line within the filter when all overdue entries are on hold new communication texts"
     }
   ]
 }

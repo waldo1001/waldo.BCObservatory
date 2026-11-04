@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13504",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Exposing-VAT-settings-on-category-card",
+  "url": "https://github.com/microsoft/BCApps/pull/13504",
+  "published_at": "2026-11-03T15:32:55Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-04T00:16:32.194Z"
+    },
+    "fetched": {
+      "at": "2026-11-04T00:18:47.352Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-04T00:19:00.130Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003093
+    },
+    "linked": {
+      "at": "2026-11-04T00:19:00.248Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-04T00:19:00.271Z",
+      "path": "content/changes/bcapps/13504.md"
+    }
+  },
+  "input_hash": "8387005b456fadc43af8aaa2da83f7f544dccede:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13504,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8387005b456fadc43af8aaa2da83f7f544dccede",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "exposing vat settings on category card"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a2a41af280cd43c18bffd9e725f649143fa54a34c896fe38145b6a9a9c82366c"
+}
