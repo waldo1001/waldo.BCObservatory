@@ -6,16 +6,15 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "The access internal modifier was removed from the E-Document Emailing codeunit to adjust its visibility scope.",
+  "summary": "The access internal property was removed from codeunit 6188 E-Document Emailing, so other extensions can now use it.",
   "key_points": [
-    "Removed 'access internal' modifier from Codeunit 6188 'E-Document Emailing'",
-    "Changes the visibility/access level of the codeunit",
-    "Part of the EDocument app in the W1 version",
-    "Addresses visibility or access control issue"
+    "Removed access internal from codeunit E-Document Emailing in the E-Document app",
+    "The codeunit is now accessible from other extensions",
+    "No logic changes, only one line removed"
   ],
   "change_kind": "fix",
   "behavior_change": false,
-  "breaking": true,
+  "breaking": false,
   "obsoletions": [],
   "systems": [
     "integration"

@@ -7,14 +7,14 @@
   "words": 195,
   "summary": "Business Central data mirrored to Microsoft Fabric appears as static copies by default, but partners can enable delta change data feeds to track table modifications and version history in the mirroring database using Fabric notebooks and SQL queries.",
   "key_points": [
-    "Business Central tables are replicated as mirrors in Fabric's mirroring database without change tracking by default",
-    "The delta change data feed feature must be explicitly enabled to capture data modifications",
-    "Shortcuts within Fabric lakehouses allow querying change history and tracking specific versions of tables",
-    "SQL commands reveal what changed, including insert, update, and delete operations with timestamps and versions"
+    "By default, Business Central tables are only mirrored into the Fabric mirroring database, and the connector does not expose changes",
+    "Enable the delta change data feed setting to capture changes to the mirrored tables",
+    "Create a shortcut to the mirroring database inside a lakehouse, then query it from a notebook",
+    "DESCRIBE HISTORY lists the table versions, and table_changes shows the change type, commit version and timestamp for each row",
+    "The example shows one customer's name being updated and another customer being newly inserted"
   ],
   "systems": [
-    "integration",
-    "reporting"
+    "integration"
   ],
   "topics": [
     "fabric mirroring",

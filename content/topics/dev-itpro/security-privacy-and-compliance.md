@@ -2,20 +2,20 @@
 id: topic/dev-itpro/security-privacy-and-compliance
 type: topic
 title: Security, privacy, and compliance
-summary: Security, privacy, and compliance in Business Central covers security practices, the online service architecture, auditing of data and admin events, and compliance and privacy resources. It answers questions about protecting data, reliability and resilience, tracking changes, certifications, and data residency.
+summary: Security, privacy, and compliance in Business Central covers how to secure and audit access, how the online service is built and run, and where to find privacy and compliance resources. It answers questions about authentication, data protection, auditing, reliability, data residency, and certifications.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-30T08:08:28.790Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-04T01:01:00.445Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: a91a4b4a97ae74b08913b58c090a4199fa3e7236efb96b9ebd64d6f97606a6ea
+  input_hash: 02cbae86e649dcb7a2d5cec7913f87b0f333be00eefac702e9b96dbf055dd181
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-log-changes
@@ -279,27 +279,26 @@ narrative: generated
 
 # Security, privacy, and compliance
 
-> Security, privacy, and compliance in Business Central covers security practices, the online service architecture, auditing of data and admin events, and compliance and privacy resources. It answers questions about protecting data, reliability and resilience, tracking changes, certifications, and data residency.
+> Security, privacy, and compliance in Business Central covers how to secure and audit access, how the online service is built and run, and where to find privacy and compliance resources. It answers questions about authentication, data protection, auditing, reliability, data residency, and certifications.
 
-Path: Security, privacy, and compliance · tier official · system none · narrative reviewed (checked by Opus)
+Path: Security, privacy, and compliance · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section groups the material on keeping Business Central data secure, private, and compliant. Two pages sit directly in it: Compliance Overview, an index of application compliance, service compliance, certifications, and regulatory topics, and Privacy FAQ, which links to resources on personal data, regional availability, and data residency.
+This section groups everything about protecting Business Central and demonstrating that it meets privacy and compliance needs. Two own pages act as entry points: Compliance Overview indexes application compliance, service compliance, certifications, and regulatory requirements, and the Privacy FAQ links to resources on privacy, personal data, international availability, and data residency.
 
-Three subtopics go deeper. Security covers online security practices (MFA, encryption, conditional access, audit), persona-based guidance, record-level security filters, network restriction with service tags, a security FAQ, and application security such as users, licenses, and permission sets, plus on-premises hardening. Service overview explains the multitenant cloud architecture, availability, backup and disaster recovery, service operations, and scalability. Auditing explains how to track data changes, audit security-related tables, and review events sent to Microsoft Purview.
+Three subtopics go deeper. Security covers authentication (MFA, Conditional Access), data protection, network access control, record-level security filters, and persona-based guidance for online deployments, with parts for application and on-premises security. Service overview explains the multitenant cloud architecture, availability, backup and disaster recovery, service operations, and scalability. Auditing covers tracking data changes, auditing security-related tables, and reviewing events sent to Microsoft Purview.
 
-Start with Compliance Overview or the Privacy FAQ for certification and data residency questions. Use Security for protecting access and data, Service overview for reliability and capacity questions, and Auditing for who changed what and when.
+Start with Compliance Overview or the Privacy FAQ for regulatory and data-location questions. Go to Security to restrict access, Service overview to assess reliability and capacity, and Auditing to find out who changed what and when.
 
 ## Key points
 
-- Compliance Overview indexes application compliance, service compliance, certifications, and regulatory requirements.
-- Privacy FAQ links to resources on personal data, trust center, regional availability, EU data boundary, and data residency.
-- Security covers MFA, encryption, conditional access, and audit for the online service.
-- Security also covers record-level security filters and network restriction with service tags.
-- Application security covers users, licenses, and permission sets; on-premises hardening is covered separately.
+- Compliance Overview indexes data privacy, service compliance, certifications, and compliance documentation.
+- Privacy FAQ links to resources on personal data, regional availability, the trust center, EU data boundary, and Azure Front Door.
+- Security covers MFA, Conditional Access, network access control, and record-level security filters.
+- Security has separate subtopics for application security and on-premises security, plus persona-based guidance for online deployments.
 - Service overview describes multitenant architecture, availability, backup and disaster recovery, incident handling, and scalability limits.
-- Auditing covers tracking data changes, auditing security-related tables, and reviewing administrative events sent to Microsoft Purview.
+- Auditing covers change tracking, auditing security-related tables, and administrative events sent to Microsoft Purview.
 
 ## Subtopics
 

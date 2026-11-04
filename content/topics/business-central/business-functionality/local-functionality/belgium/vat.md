@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:10.145Z"
   flags: []
 generated:
-  at: "2026-10-29T21:38:16.952Z"
+  at: "2026-11-04T01:01:00.445Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,6 +109,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/13481
+    - change/bcapps/13484
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -178,6 +181,13 @@ Start with Belgian VAT or Belgian Intrastat Reporting for the overview, then use
   - In the observatory: [Table 98 "General Ledger Setup"](../../../../../objects/table/98.md)
 - [Verify the Intrastat Report Before Export [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report): Learn how to verify the Belgian Intrastat report with the Checklist Report action before you export and submit your monthly declaration.
   - In the observatory: [Page 4811 "Intrastat Report List"](../../../../../objects/page/4811.md), [Page 4812 "Intrastat Report"](../../../../../objects/page/4812.md)
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#13481 [Master]-[BE] Intervat XML Report 11307 Does Not Include Non-Deductible VAT Amount Reflected in VAT Statement Preview](../../../../../changes/bcapps/13481.md) (code change): "Intervat XML report now correctly includes non-deductible VAT amounts"
+- [#13484 [29.X]-[BE] Intervat XML Report 11307 Does Not Include Non-Deductible VAT Amount Reflected in VAT Statement Preview](../../../../../changes/bcapps/13484.md) (code change): "Intervat XML Report 11307 now correctly includes non-deductible VAT amounts"
 
 ## Business Central pages and reports
 

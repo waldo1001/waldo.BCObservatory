@@ -6562,6 +6562,24 @@
         }
       ]
     },
+    "change/bcapps/11596": {
+      "kind": "change",
+      "key": "change/bcapps/11596",
+      "hash": "9533225ddcdc2eb3dc225f2996c0599474edd36b899e34e930ab8de0d3c6518e",
+      "title": "#11596 [Main]Customer Direct Debit Payment Slip – SEPA File Generation Fails and Credit Memo Is Processed Incorrectly When Invoice and Credit Memo Exist for the Same Customer in the French version.",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:14.273Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-payables/apply-payments-automatically-and-reconci",
+          "quote": "Fixes SEPA Direct Debit export and customer payment slip posting"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/france/core-finance",
+          "quote": "SEPA File Generation Fails in the French version"
+        }
+      ]
+    },
     "change/bcapps/11603": {
       "kind": "change",
       "key": "change/bcapps/11603",
@@ -8409,6 +8427,20 @@
         {
           "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-fixed-assets",
           "quote": "New depreciation book setup fields, posting accounts, and calculation logic added"
+        }
+      ]
+    },
+    "change/bcapps/12161": {
+      "kind": "change",
+      "key": "change/bcapps/12161",
+      "hash": "bbfd4517c32402f5abade46fbc80be65018c22904f17b22d82445efed2aa9117",
+      "title": "#12161 [MAIN]-FIX-Bug 652365",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:12.151Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing",
+          "quote": "production order refresh failing when a component base quantity is smaller than its rounding precision"
         }
       ]
     },
@@ -10293,6 +10325,20 @@
         }
       ]
     },
+    "change/bcapps/12985": {
+      "kind": "change",
+      "key": "change/bcapps/12985",
+      "hash": "9bdcf134e0d00f7294b10fe03e9c37a5b82afc0b1528697ad8d2f6748f3c186f",
+      "title": "#12985 [Master] - Bug 654115: [Expense Agent] Cannot submit report with a non-refundable Employee Paid line: 'nothing to refund' blocks release, report stuck in draft",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:12.939Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "expense reports with non-refundable employee paid lines couldn't be submitted"
+        }
+      ]
+    },
     "change/bcapps/12986": {
       "kind": "change",
       "key": "change/bcapps/12986",
@@ -10609,6 +10655,20 @@
         }
       ]
     },
+    "change/bcapps/13172": {
+      "kind": "change",
+      "key": "change/bcapps/13172",
+      "hash": "8bd3a4bd888ad4886fa2fed7091869f54f75e317b4f7f202e00708c0040d5aa4",
+      "title": "#13172 Export structured AI eval run data",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:12.939Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "Export structured AI evaluation run data with authorized agent task troubleshooting"
+        }
+      ]
+    },
     "change/bcapps/13174": {
       "kind": "change",
       "key": "change/bcapps/13174",
@@ -10654,17 +10714,31 @@
         }
       ]
     },
-    "change/bcapps/13185": {
+    "change/bcapps/13184": {
       "kind": "change",
-      "key": "change/bcapps/13185",
-      "hash": "14b450991ecb9d0e6df04fd14831b2247920a2bbcd1d4e22700998a5c349157b",
-      "title": "#13185 [Master] - Bug 656372: [Expense Agent] Fix itemization rounding and missing currency code.",
+      "key": "change/bcapps/13184",
+      "hash": "7ec1f4dacca51883257ecdf3c9cd10dbb3b941b264c53626ace58cfc3b96431c",
+      "title": "#13184  [29.x] - Bug 656485: [Expense Agent] Add a View rules link below Enforce management rules.",
       "source": "bcapps-prs",
-      "at": "2026-11-03T00:55:23.132Z",
+      "at": "2026-11-04T00:56:12.939Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "Expense Agent now correctly handles itemization rounding calculations"
+          "quote": "View rules link was added below the Enforce management rules setting"
+        }
+      ]
+    },
+    "change/bcapps/13185": {
+      "kind": "change",
+      "key": "change/bcapps/13185",
+      "hash": "36a306f17bb2319b385cede1801e711388336b276162953bb42fbe0dfcfec5bc",
+      "title": "#13185 [Master] - Bug 656372: [Expense Agent] Fix itemization rounding and missing currency code.",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:12.939Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Fixes rounding of Expense Agent itemization amounts and a missing currency code"
         }
       ]
     },
@@ -10864,22 +10938,14 @@
     "change/bcapps/13273": {
       "kind": "change",
       "key": "change/bcapps/13273",
-      "hash": "93cd256fa01f48f31d5177fc11e0cb309be601d6c218daeab91c7eb007d96b6d",
+      "hash": "c5404a3dcea4c506e9414066e9ee5c95c0125cac6ee1734b5d715cd2ea9203a8",
       "title": "#13273 [Master]-CH] SEPA XML Files should append the Address 1 + '' + Address 2 fields under <PstlAdr><StrtNm> node if we use \"Address 2\" as Building Number for QR-Bills",
       "source": "bcapps-prs",
-      "at": "2026-11-03T00:55:23.286Z",
+      "at": "2026-11-04T00:56:14.273Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/local-functionality/switzerland/core-finance",
-          "quote": "SEPA XML exports for Swiss QR-Bills now combine Address 1 and Address 2"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/finance/manage-payables/apply-payments-automatically-and-reconci",
-          "quote": "SEPA XML export functionality updated for Swiss payments"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
-          "quote": "Address 1 and Address 2 are concatenated in the <PstlAdr><StrtNm> node"
+          "quote": "Swiss SEPA credit transfer XML export, the <PstlAdr><StrtNm> node"
         }
       ]
     },
@@ -10912,6 +10978,20 @@
         {
           "topic": "topic/business-central/business-functionality/finance/manage-payables/apply-payments-automatically-and-reconci",
           "quote": "Exporting vendor remittance gets stuck when a payment journal is sorted"
+        }
+      ]
+    },
+    "change/bcapps/13301": {
+      "kind": "change",
+      "key": "change/bcapps/13301",
+      "hash": "b0b19ffa63ae429a74545f6c7e770adb45c286fb0119bfe0b71eedfaaac025f9",
+      "title": "#13301 [29.X]-[CH] SEPA XML Files should append the Address 1 + '' + Address 2 fields under <PstlAdr><StrtNm> node if we use \"Address 2\" as Building Number for QR-Bills",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:14.273Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/switzerland/core-finance",
+          "quote": "SEPA XML export for QR-Bills in Switzerland now concatenates"
         }
       ]
     },
@@ -11019,14 +11099,46 @@
     "change/bcapps/13336": {
       "kind": "change",
       "key": "change/bcapps/13336",
-      "hash": "0d1bcb9802a416b028f198c3d0843e65304aa62e97c054b63fca264597f902e3",
+      "hash": "2df91e7a1f5aea453cf64cb3dcf5129107317f55cebdcdf67791b51b64d2e274",
       "title": "#13336 [master] Create Reminders fails with \"There is no Reminder Line within the filter\" when all overdue entries are On Hold (new communication texts)",
       "source": "bcapps-prs",
-      "at": "2026-11-03T00:55:22.126Z",
+      "at": "2026-11-04T00:56:17.433Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/manage-receivables",
-          "quote": "Creating reminders failed with a filter error when all overdue entries"
+          "quote": "Create Reminders fails with \"There is no Reminder Line within the filter\" when all overdue entries are On Hold"
+        }
+      ]
+    },
+    "change/bcapps/13339": {
+      "kind": "change",
+      "key": "change/bcapps/13339",
+      "hash": "4beaa1573e9739226e8690cf1f90356b10ef528ed0980fded907b2d0fbd0f1fe",
+      "title": "#13339 [29.x]Changing Negative Amount Format to Parentheses modifies displayed decimal precision despite unchanged rounding settings in the Financial Reports",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:14.273Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/financial-analytics/built-in-finance-reports",
+          "quote": "Financial Reports now preserve the configured decimal precision"
+        }
+      ]
+    },
+    "change/bcapps/13340": {
+      "kind": "change",
+      "key": "change/bcapps/13340",
+      "hash": "f1873b804f5fedfc9f8bd934385c4d9a076c7fb82cc9ab02aac9c2d31c8fb84d",
+      "title": "#13340 [Master]-FA Posting Group is not updated in the Fixed Asset List after being changed on the Fixed Asset Card.",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:18.225Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-fixed-assets",
+          "quote": "FA Posting Group is not updated in the Fixed Asset List after being changed"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/fixed-assets",
+          "quote": "Fixed Asset Card page now properly updates the Fixed Asset List"
         }
       ]
     },
@@ -11059,6 +11171,24 @@
         {
           "topic": "topic/business-central/business-functionality/finance/manage-payables/make-payments",
           "quote": "Maintenance Code field added to the Purch. Invoice Subform page"
+        }
+      ]
+    },
+    "change/bcapps/13396": {
+      "kind": "change",
+      "key": "change/bcapps/13396",
+      "hash": "7aff1ffaeb35f38919a31073ee883a844469922ddf026ab5d1dab745a27f1ba6",
+      "title": "#13396 [main] Purchase invoice fails with \"quantity larger than item ledger entry\" after partial invoicing of multiple receipts with non-base UoM and Qty. Rounding Precision = 1",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:18.981Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/purchasing",
+          "quote": "Purchase invoice fails with quantity larger than item ledger entry after partial invoicing"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-payables",
+          "quote": "partial purchase invoices with non-base units of measure and quantity rounding"
         }
       ]
     },
@@ -11107,14 +11237,14 @@
     "change/bcapps/13417": {
       "kind": "change",
       "key": "change/bcapps/13417",
-      "hash": "066b4210a7bd3978d9139455b969400a64b911b6e7cfdfe44bb615e3df48c54d",
+      "hash": "35c66286c8f38208771c70ebca71ed6866bf8860b7ae72369c35dc7cde40cb89",
       "title": "#13417 [Master]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo.",
       "source": "bcapps-prs",
-      "at": "2026-11-03T00:55:22.126Z",
+      "at": "2026-11-04T00:56:17.433Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/sales",
-          "quote": "sales order line quantities are incorrectly updated after posting a Return Order"
+          "quote": "Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice"
         }
       ]
     },
@@ -11191,14 +11321,138 @@
       "at": "2026-11-03T00:55:23.132Z",
       "matches": []
     },
+    "change/bcapps/13481": {
+      "kind": "change",
+      "key": "change/bcapps/13481",
+      "hash": "7cf25e36ced0768528e84c10acccb51eb8fb1615c1435b31bba566813e1da1d6",
+      "title": "#13481 [Master]-[BE] Intervat XML Report 11307 Does Not Include Non-Deductible VAT Amount Reflected in VAT Statement Preview",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:14.273Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/belgium/vat",
+          "quote": "Intervat XML report now correctly includes non-deductible VAT amounts"
+        }
+      ]
+    },
+    "change/bcapps/13483": {
+      "kind": "change",
+      "key": "change/bcapps/13483",
+      "hash": "23dbdf751eca0de2af878f18a2235a99f121d4d2869ce272b563bfc3f53b8231",
+      "title": "#13483 [29.X]-FA Posting Group is not updated in the Fixed Asset List after being changed on the Fixed Asset Card",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:18.225Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-fixed-assets",
+          "quote": "FA Posting Group is not updated in the Fixed Asset List after being changed"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/fixed-assets",
+          "quote": "Fixed Asset posting group changes made on the Fixed Asset Card now refresh properly"
+        }
+      ]
+    },
+    "change/bcapps/13484": {
+      "kind": "change",
+      "key": "change/bcapps/13484",
+      "hash": "2df215b73a5b25aa4f882456425263fb4df16b527d9b56670599ecb3cf5d2724",
+      "title": "#13484 [29.X]-[BE] Intervat XML Report 11307 Does Not Include Non-Deductible VAT Amount Reflected in VAT Statement Preview",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:14.273Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/belgium/vat",
+          "quote": "Intervat XML Report 11307 now correctly includes non-deductible VAT amounts"
+        }
+      ]
+    },
+    "change/bcapps/13488": {
+      "kind": "change",
+      "key": "change/bcapps/13488",
+      "hash": "615807218065759dfd121de68da6f998b158dc974f7911877fafc4b6da21f6e7",
+      "title": "#13488 [29.X]-Applying entries across posting groups (Allow Multiple Posting Groups) posts the G/L entries that move the amount between receivables accounts with ACY = 0",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:12.486Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/working-with-currencies",
+          "quote": "Fixed handling of additional currency (ACY) calculations when posting across multiple"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
+          "quote": "G/L entries moving amounts between receivables accounts use correct ACY values"
+        }
+      ]
+    },
     "change/bcapps/13495": {
       "kind": "change",
       "key": "change/bcapps/13495",
-      "hash": "299eb506d7bd2da9cbc29511502e9bda80ba0bfe36835d7906dd46576d275d27",
+      "hash": "f4af64ac028d2a40cf5504743da8a17d5815e534963fd40fb01692c8e8f88483",
       "title": "#13495 Migrate SOA auxiliary calls to GPT-5.6 and refine date-filter handling",
       "source": "bcapps-prs",
-      "at": "2026-11-03T00:55:23.132Z",
+      "at": "2026-11-04T00:56:12.939Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "Sales Order Agent now uses GPT-5.6 Ceres instead of GPT-4.1 for auxiliary"
+        }
+      ]
+    },
+    "change/bcapps/13504": {
+      "kind": "change",
+      "key": "change/bcapps/13504",
+      "hash": "b6ee6b01dac3dad9858fe211562e8c5545e57788785b168736c444ed2d230475",
+      "title": "#13504 Exposing-VAT-settings-on-category-card",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:12.939Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "VAT settings are now exposed on the Expense Category Card page"
+        }
+      ]
+    },
+    "change/bcapps/13506": {
+      "kind": "change",
+      "key": "change/bcapps/13506",
+      "hash": "f1b081c0f1cfe4b9c9b1109c5896523cd9c095a1bc7274c02c05687b3e0dcbab",
+      "title": "#13506 Upgrade Marketing Text, Sales Lines Suggestions, and Item Substitution to GPT-5.6",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:20.716Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/sales-line-suggestion-preview",
+          "quote": "Sales Lines Suggestions AI calls updated to GPT-5.6 Ceres latest."
+        },
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/suggest-item-substitutions-preview",
+          "quote": "Item Substitution uses GPT-5.6 Ceres latest model."
+        }
+      ]
+    },
+    "change/bcapps/13508": {
+      "kind": "change",
+      "key": "change/bcapps/13508",
+      "hash": "2c072ea7e1980389ad2ff9e828bbfcbdd0db386959bc74ba07f62299660bdc4f",
+      "title": "#13508 [E-Document] Add AKV switch for PA LLM calls (29.x)",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:12.758Z",
       "matches": []
+    },
+    "change/bcapps/13547": {
+      "kind": "change",
+      "key": "change/bcapps/13547",
+      "hash": "4019e54d9f196e2ff3542220b7f857d7a819a6c583eaf48d0ac5e8ba61a6fda6",
+      "title": "#13547 [29.X]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:17.433Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/sales",
+          "quote": "Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice"
+        }
+      ]
     },
     "change/bcapps/5833": {
       "kind": "change",
@@ -12544,6 +12798,15 @@
           "quote": "Record links attached to physical inventory order and recording headers are now copied"
         }
       ]
+    },
+    "change/bcapps/9181": {
+      "kind": "change",
+      "key": "change/bcapps/9181",
+      "hash": "5ed2d1f23f54aaff95160072298adb40d9df18b09e6bab70b40cfb1d88ff8180",
+      "title": "#9181 Filter the source record before FindFirst in Prices Overview caption",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:20.716Z",
+      "matches": []
     },
     "change/bcapps/9182": {
       "kind": "change",
@@ -14291,6 +14554,15 @@
           "quote": "Shopify payment transactions can now be automatically posted as general journal lines"
         }
       ]
+    },
+    "change/bcapps/9527": {
+      "kind": "change",
+      "key": "change/bcapps/9527",
+      "hash": "16dd3117e54e98a00f12b7f23b3a9157036c37e1f0f7bc679fbb2315c1755f1e",
+      "title": "#9527 removed access internal  to edocument mailing",
+      "source": "bcapps-prs",
+      "at": "2026-11-04T00:56:12.758Z",
+      "matches": []
     },
     "change/bcapps/9528": {
       "kind": "change",
@@ -17880,6 +18152,20 @@
         }
       ]
     },
+    "change/bcquality/227": {
+      "kind": "change",
+      "key": "change/bcquality/227",
+      "hash": "9da7b8d0ba6adab6546a657417ccf3caa43b268479373e17fb70765f974c719d",
+      "title": "#227 Evaluation: keep sample comments for the two articles whose rule is about comments",
+      "source": "bcquality-prs",
+      "at": "2026-11-04T00:56:20.716Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
+          "quote": "articles about comments themselves retain full-line comments in samples"
+        }
+      ]
+    },
     "change/bcquality/228": {
       "kind": "change",
       "key": "change/bcquality/228",
@@ -18032,18 +18318,18 @@
     "change/bcquality/253": {
       "kind": "change",
       "key": "change/bcquality/253",
-      "hash": "d893cb3eb79e91c3705629b2560590a868cdbbbe64b2191b02722696eb4fe597",
+      "hash": "69ace13e726542d6810d9c69512f0a7585d1bc781fd4cb7f77ffbc65636c80ab",
       "title": "#253 knowledge(performance): add trigger-only fields to API pages with AddLoadFields",
       "source": "bcquality-prs",
-      "at": "2026-11-03T00:55:22.869Z",
+      "at": "2026-11-04T00:56:18.326Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "how to use AddLoadFields on API pages to prevent JIT loading failures"
+          "quote": "add trigger-only fields to API pages with AddLoadFields"
         },
         {
           "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
-          "quote": "AddLoadFields on API pages to prevent JIT loading failures when accessing unbound fields"
+          "quote": "prevent JIT loading failures when accessing unbound fields"
         }
       ]
     },
@@ -20044,6 +20330,24 @@
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi",
           "quote": "Native Fabric integration is built on Open Mirroring and syncs from the SQL change log"
+        }
+      ]
+    },
+    "post/bertverbeek-nl/1342": {
+      "kind": "post",
+      "key": "post/bertverbeek-nl/1342",
+      "hash": "56d98420342e8949f5cd3cd342cd214ee633487fd038909614b359b344239ba4",
+      "title": "Business Central to Microsoft Fabric is a mirror. But what if you want to know what actually changed?",
+      "source": "bertverbeek-nl",
+      "at": "2026-11-04T00:56:12.758Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
+          "quote": "Business Central data mirrored to Microsoft Fabric appears as static copies"
+        },
+        {
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to",
+          "quote": "partners can enable delta change data feeds to track table modifications"
         }
       ]
     },
@@ -30304,6 +30608,28 @@
         {
           "topic": "topic/dev-itpro/performance",
           "quote": "Platform improvements include table-extension storage optimization, AL-based index management"
+        }
+      ]
+    },
+    "post/thinkaboutit-be/8379": {
+      "kind": "post",
+      "key": "post/thinkaboutit-be/8379",
+      "hash": "3e0cb4be1dba17d5d6b977db77d6d5886e5efe7be30401c61c27e80a393dd864",
+      "title": "Business Central 29: Match Production Database Configuration in Sandbox Environments",
+      "source": "thinkaboutit-be",
+      "at": "2026-11-04T00:56:12.257Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/development-environment/work-in-sandboxes",
+          "quote": "Sandbox databases can be configured to match production database settings in the Admin Center for 72-hour periods"
+        },
+        {
+          "topic": "topic/dev-itpro/administration/admin-center",
+          "quote": "an Admin Center action that temporarily adjusts a sandbox database to resemble production configuration"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+          "quote": "Feature enables more accurate performance testing, extension development, and cloud migration validation"
         }
       ]
     },

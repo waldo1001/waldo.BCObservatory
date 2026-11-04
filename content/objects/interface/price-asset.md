@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T00:49:14.469Z"
+  at: "2026-11-04T00:50:30.258Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 4f2890be23b6b27ba3b630fdebfe1fbfeb8a451fc468fad8efac66c876ca34a8
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Layers/W1/BaseApp/Pricing/Asset/PriceAsset.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Layers/W1/BaseApp/Pricing/Asset/PriceAsset.Interface.al
     title: src/Layers/W1/BaseApp/Pricing/Asset/PriceAsset.Interface.al (releases/29.x)
     date: null
-    commit: d992339dbf106bf2412e17518329e128634f2951
+    commit: 11bf184798eda1d1104da1324cac5d944742dd2f
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Price Asset" in Base Application (Microsoft.Pricing.Asset). 11 public procedures. Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Pricing.Asset · BC23-30 · [source at d992339d](https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Layers/W1/BaseApp/Pricing/Asset/PriceAsset.Interface.al) · facts from BC29
+Base Application · Microsoft.Pricing.Asset · BC23-30 · [source at 11bf1847](https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Layers/W1/BaseApp/Pricing/Asset/PriceAsset.Interface.al) · facts from BC29
 
 ## Procedures
 

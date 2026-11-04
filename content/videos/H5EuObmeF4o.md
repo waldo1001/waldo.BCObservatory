@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:41.011Z"
   flags: []
 generated:
-  at: "2026-11-03T00:54:42.695Z"
+  at: "2026-11-04T00:55:39.192Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -78,7 +78,6 @@ links:
   learn: []
   objects: []
   features:
-    - feature/573380
     - feature/577820
   topics: []
   localizations: []
@@ -171,12 +170,10 @@ features:
     verified: false
     status_source: video
   - name: Match purchase invoices to orders with payables agent
-    status: ga
+    status: unclear
     t: 575
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573380"
+    status_source: video
   - name: Payables agent confidence level prioritization
     status: unclear
     t: 610
@@ -416,7 +413,7 @@ The rest covers 20-language chat support, localization items, AL and page script
 | Autofill with Copilot field suggestions | status not stated, demoed | [8:18](https://www.youtube.com/watch?v=H5EuObmeF4o&t=498s) |  |
 | Payables agent contextual invoice drafts | status not stated | [9:02](https://www.youtube.com/watch?v=H5EuObmeF4o&t=542s) |  |
 | Agent task instructions enhancement | status not stated | [9:13](https://www.youtube.com/watch?v=H5EuObmeF4o&t=553s) |  |
-| Match purchase invoices to orders with payables agent | generally available (roadmap [Improve purchase order matching in Payables Agent](../features/573380.md)) | [9:35](https://www.youtube.com/watch?v=H5EuObmeF4o&t=575s) |  |
+| Match purchase invoices to orders with payables agent | status not stated | [9:35](https://www.youtube.com/watch?v=H5EuObmeF4o&t=575s) |  |
 | Payables agent confidence level prioritization | status not stated | [10:10](https://www.youtube.com/watch?v=H5EuObmeF4o&t=610s) |  |
 | Copilot emissions suggestions in sustainability | status not stated | [10:27](https://www.youtube.com/watch?v=H5EuObmeF4o&t=627s) |  |
 | Summarize with Copilot enhancements | status not stated | [11:00](https://www.youtube.com/watch?v=H5EuObmeF4o&t=660s) |  |

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T00:49:14.469Z"
+  at: "2026-11-04T00:50:30.258Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 430c0642497f1b478c53cf32809582972055b445d6e0e2aa463b74d6b093d44a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Layers/W1/BaseApp/Manufacturing/RoleCenters/Manufacturing.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Layers/W1/BaseApp/Manufacturing/RoleCenters/Manufacturing.Profile.al
     title: src/Layers/W1/BaseApp/Manufacturing/RoleCenters/Manufacturing.Profile.al (releases/29.x)
     date: null
-    commit: d992339dbf106bf2412e17518329e128634f2951
+    commit: 11bf184798eda1d1104da1324cac5d944742dd2f
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "MANUFACTURING" in Base Application (Microsoft.Manufacturing.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Manufacturing.RoleCenters · captioned "Manufacturing" · BC23-30 · [source at d992339d](https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Layers/W1/BaseApp/Manufacturing/RoleCenters/Manufacturing.Profile.al) · facts from BC29
+Base Application · Microsoft.Manufacturing.RoleCenters · captioned "Manufacturing" · BC23-30 · [source at 11bf1847](https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Layers/W1/BaseApp/Manufacturing/RoleCenters/Manufacturing.Profile.al) · facts from BC29
 
 ## Properties
 

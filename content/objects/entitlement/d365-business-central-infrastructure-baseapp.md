@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T00:49:14.469Z"
+  at: "2026-11-04T00:50:30.258Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 113138341d36ae82df7aa38f7eb7122f44dcd5fa028d5fede8aacf63d8a255f4
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Layers/W1/BaseApp/Entitlements/D365BusinessCentralInfrastructureBaseApp.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Layers/W1/BaseApp/Entitlements/D365BusinessCentralInfrastructureBaseApp.Entitlement.al
     title: src/Layers/W1/BaseApp/Entitlements/D365BusinessCentralInfrastructureBaseApp.Entitlement.al (releases/29.x)
     date: null
-    commit: d992339dbf106bf2412e17518329e128634f2951
+    commit: 11bf184798eda1d1104da1324cac5d944742dd2f
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Entitlement "D365 Business Central Infrastructure BaseApp" in Base Application (System.Security.AccessControl). Present since at least BC23, still in BC30.
 
-Base Application · System.Security.AccessControl · BC23-30 · [source at d992339d](https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Layers/W1/BaseApp/Entitlements/D365BusinessCentralInfrastructureBaseApp.Entitlement.al) · facts from BC29
+Base Application · System.Security.AccessControl · BC23-30 · [source at 11bf1847](https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Layers/W1/BaseApp/Entitlements/D365BusinessCentralInfrastructureBaseApp.Entitlement.al) · facts from BC29
 
 ## Across versions
 

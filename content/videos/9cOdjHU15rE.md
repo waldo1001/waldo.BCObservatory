@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:55:51.543Z"
   flags: []
 generated:
-  at: "2026-11-03T00:54:42.695Z"
+  at: "2026-11-04T00:55:39.192Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -82,8 +82,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/578068
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -132,12 +131,10 @@ features:
     verified: false
     status_source: video
   - name: BC Sales Agent
-    status: preview
+    status: unclear
     t: 291
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "578068"
+    status_source: video
   - name: Copilot Studio integration
     status: unclear
     t: 840
@@ -221,12 +218,10 @@ The talk shows the BC copilot generating item descriptions from copy already wri
 | Feature | Status | At |
 |---|---|---|
 | BC Copilot for item description generation | status not stated, demoed | [6:47](https://www.youtube.com/watch?v=9cOdjHU15rE&t=407s) |
-| BC Sales Agent | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)) | [4:51](https://www.youtube.com/watch?v=9cOdjHU15rE&t=291s) |
+| BC Sales Agent | status not stated | [4:51](https://www.youtube.com/watch?v=9cOdjHU15rE&t=291s) |
 | Copilot Studio integration | status not stated | [14:00](https://www.youtube.com/watch?v=9cOdjHU15rE&t=840s) |
 | Adaptive UX based on AI interaction | status not stated | [12:21](https://www.youtube.com/watch?v=9cOdjHU15rE&t=741s) |
 | Multiple AI copilot features throughout BC | status not stated | [7:28](https://www.youtube.com/watch?v=9cOdjHU15rE&t=448s) |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

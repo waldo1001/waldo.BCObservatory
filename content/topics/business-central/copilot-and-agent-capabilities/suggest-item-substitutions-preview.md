@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:20.835Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-11-04T01:01:00.445Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,6 +48,8 @@ links:
     - video/bCIcq1zESKk
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/13506
 learn_toc_path:
   - Copilot and agent capabilities
   - Suggest item substitutions (preview)
@@ -95,10 +97,11 @@ There are two pages. "Suggest substitute items with Copilot" is the how-to: it c
 - [FAQ for suggest item substitutions with Copilot](https://learn.microsoft.com/dynamics365/business-central/faq-suggest-item-substitutions-with-copilot): This FAQ provides information about an AI feature in Business Central.
 - [Suggest substitute items with Copilot](https://learn.microsoft.com/dynamics365/business-central/suggest-item-substitutions-copilot): Assign substitute items faster with assistance from Copilot.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13506 Upgrade Marketing Text, Sales Lines Suggestions, and Item Substitution to GPT-5.6](../../../changes/bcapps/13506.md) (code change): "Item Substitution uses GPT-5.6 Ceres latest model."
 - [What's New: Item Substitution with Copilot (2024 release wave 2)](../../../videos/bCIcq1zESKk.md) (video): "Item substitution with Copilot; Suggest with Copilot action"
 
 ## Business Central pages and reports

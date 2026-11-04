@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:21.103Z"
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-04T01:01:00.445Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,7 @@ links:
     - post/stefanmaron-com/https-stefanmaron-com-posts-modify-deserves-the-same-rule-as-validate--71cb43acff
     - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1
+    - post/thinkaboutit-be/8379
     - post/waldo-be/317845
     - post/yzhums-com/61561
     - post/yzhums-com/67343
@@ -91,7 +92,7 @@ coverage:
   learn: 2
   code: 0
   video: 5
-  blog: 18
+  blog: 19
   guideline: 0
 bc_forms: []
 member_hash: 87e0401ecfb45548d0ce9048fe69d8ae348b7da98d89e7045ac6d9370b225de2
@@ -140,7 +141,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#205 Preserve business filters when recommending Record.Get](../../../../../changes/bcquality/205.md) (code change): "Preserve business filters when recommending Record.Get. The performance guidance for replacing"
 - [#215 knowledge(performance): grouped query (Count + ColumnFilter = HAVING) for distinct values and duplicates](../../../../../changes/bcquality/215.md) (code change): "use query objects with grouped methods and column filters to detect duplicate values"
 - [#225 Performance and style knowledge: compute Role Center headlines in the background; build client links with GetUrl](../../../../../changes/bcquality/225.md) (code change): "compute Role Center headlines in the background"
-- [#253 knowledge(performance): add trigger-only fields to API pages with AddLoadFields](../../../../../changes/bcquality/253.md) (code change): "AddLoadFields on API pages to prevent JIT loading failures when accessing unbound fields"
+- [#253 knowledge(performance): add trigger-only fields to API pages with AddLoadFields](../../../../../changes/bcquality/253.md) (code change): "prevent JIT loading failures when accessing unbound fields"
 - [#94 Correct performance knowledge guidance](../../../../../changes/bcquality/94.md) (code change): "Several performance knowledge articles and their samples were corrected for partial records, transactions"
 - [#97 Add per-row AL performance guidance](../../../../../changes/bcquality/97.md) (code change): "New performance guidance documents how to use SetAutoCalcFields for per-row FlowFields"
 - [Dynamics 365 Business Central: finally we’ll have TRUNCATE table in SaaS.](../../../../../posts/demiliani-com/12267.md) (community post): "efficient bulk deletion of table rows in SaaS environments"
@@ -155,6 +156,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [I Can Turn Off My Code. I Can't Turn Off Yours.](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-modify-deserves-the-same-rule-as-validate--71cb43acff.md) (community post): "developers set RunTrigger to false on Insert, Modify, or DeleteAll, they silently disable all subscribers"
 - [Planning Table Indexes for the Best Performance](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "Every added index increases insert or update time by 10-20%"
 - [BC Friday Tips #30 DataAccessIntent](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1.md) (community post): "The DataAccessIntent property can be set to ReadOnly on API pages and reports"
+- [Business Central 29: Match Production Database Configuration in Sandbox Environments](../../../../../posts/thinkaboutit-be/8379.md) (community post): "Feature enables more accurate performance testing, extension development, and cloud migration validation"
 - [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../../../posts/waldo-be/317845.md) (community post): "Performance tracking via start/stop markers on custom methods enables comparison"
 - [Dynamics 365 Business Central: How to calculate the total (sum) of a column in a table (Four ways)](../../../../../posts/yzhums-com/61561.md) (community post): "each approach has different use cases and performance characteristics"
 - [Business Central 2025 wave 2 (BC27): Truncating table data with new AL method (procedure Truncate)](../../../../../posts/yzhums-com/67343.md) (community post): "deletes all records in the current filter range far faster"

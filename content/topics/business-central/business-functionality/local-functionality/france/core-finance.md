@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:41.754Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-04T01:01:00.445Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -150,6 +150,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/11596
     - change/bcapps/11941
     - change/bcapps/9104
     - change/bcapps/9710
@@ -228,6 +229,7 @@ A third group covers the general ledger: applying and unapplying entries, printi
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11596 [Main]Customer Direct Debit Payment Slip – SEPA File Generation Fails and Credit Memo Is Processed Incorrectly When Invoice and Credit Memo Exist for the Same Customer in the French version.](../../../../../changes/bcapps/11596.md) (code change): "SEPA File Generation Fails in the French version"
 - [#11941 Bug 651577 CompAuxNum and CompAuxLib columns should be informed for Payment Discount lines on Unapplied Entries in the French Audit File.](../../../../../changes/bcapps/11941.md) (code change): "FEC audit file export now populates CompAuxNum and CompAuxLib columns for payment discount lines"
 - [#9104 Delocalize Export G/L Entries to XML into Audit File Export framework](../../../../../changes/bcapps/9104.md) (code change): "Export of G/L entries to XML is rebuilt on the shared Audit File Export framework"
 - [#9710 [Main] [all-e]CompAuxNum and CompAuxLib columns should be informed for Payment Discount lines in the French Audit File.Initial Commit](../../../../../changes/bcapps/9710.md) (code change): "The French Audit File export now populates CompAuxNum and CompAuxLib columns"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:03:07.647Z"
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-04T01:01:00.445Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -72,6 +72,7 @@ links:
     - change/bcapps/10041
     - change/bcapps/12754
     - change/bcapps/13273
+    - change/bcapps/13301
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -134,7 +135,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10041 [Master]-]G/L Account Sheet with Foreign Currency report (11564) includes LCY-originated entries after enabling G/L currency revaluation feature resulting in mixed-currency totals in the Swiss version. - Copy](../../../../../changes/bcapps/10041.md) (code change): "G/L Account Sheet with Foreign Currency report in Swiss version now correctly excludes local currency entries"
 - [#12754 [29.X]-Outgoing Payment Report Employee Payments Missing](../../../../../changes/bcapps/12754.md) (code change): "employee payments missing from the Swiss DTA Payment Journal report"
-- [#13273 [Master]-CH] SEPA XML Files should append the Address 1 + '' + Address 2 fields under <PstlAdr><StrtNm> node if we use "Address 2" as Building Number for QR-Bills](../../../../../changes/bcapps/13273.md) (code change): "SEPA XML exports for Swiss QR-Bills now combine Address 1 and Address 2"
+- [#13273 [Master]-CH] SEPA XML Files should append the Address 1 + '' + Address 2 fields under <PstlAdr><StrtNm> node if we use "Address 2" as Building Number for QR-Bills](../../../../../changes/bcapps/13273.md) (code change): "Swiss SEPA credit transfer XML export, the <PstlAdr><StrtNm> node"
+- [#13301 [29.X]-[CH] SEPA XML Files should append the Address 1 + '' + Address 2 fields under <PstlAdr><StrtNm> node if we use "Address 2" as Building Number for QR-Bills](../../../../../changes/bcapps/13301.md) (code change): "SEPA XML export for QR-Bills in Switzerland now concatenates"
 
 ## Business Central pages and reports
 

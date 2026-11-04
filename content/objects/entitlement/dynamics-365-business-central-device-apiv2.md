@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T00:49:14.469Z"
+  at: "2026-11-04T00:50:30.258Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e75767003b4222e0b61f0f6abf21af5b0173fd9b51b98a66c76a50866b27edab
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Apps/W1/APIV2/app/src/Entitlements/Dynamics365BusinessCentralDeviceAPIV2.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Apps/W1/APIV2/app/src/Entitlements/Dynamics365BusinessCentralDeviceAPIV2.Entitlement.al
     title: src/Apps/W1/APIV2/app/src/Entitlements/Dynamics365BusinessCentralDeviceAPIV2.Entitlement.al (releases/29.x)
     date: null
-    commit: d992339dbf106bf2412e17518329e128634f2951
+    commit: 11bf184798eda1d1104da1324cac5d944742dd2f
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Dynamics 365 Business Central Device APIV2" in APIV2 (Microsoft.API.V2). Introduced in BC29, still in BC30.
 
-APIV2 · Microsoft.API.V2 · BC29-30 · [source at d992339d](https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Apps/W1/APIV2/app/src/Entitlements/Dynamics365BusinessCentralDeviceAPIV2.Entitlement.al) · facts from BC29
+APIV2 · Microsoft.API.V2 · BC29-30 · [source at 11bf1847](https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Apps/W1/APIV2/app/src/Entitlements/Dynamics365BusinessCentralDeviceAPIV2.Entitlement.al) · facts from BC29
 
 ## Across versions
 

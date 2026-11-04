@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcquality-prs/227",
+  "input_hash": "1c3d114926d7b2a91fbf4ec83a7097ed2ccde121c68842d3bf81059ad6b9742a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-04T00:58:50.679Z",
+  "issues": [
+    "behavior_change should be true: sample preparation now keeps full-line comments for the two listed articles, and a bad sample was edited."
+  ],
+  "applied": [
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016877,
+    "changes_in_call": 6
+  }
+}

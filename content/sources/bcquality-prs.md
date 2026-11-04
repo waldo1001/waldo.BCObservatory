@@ -2,7 +2,7 @@
 id: source/bcquality-prs
 type: source
 title: microsoft/BCQuality pull requests
-summary: "microsoft/BCQuality pull requests: 105 code changes in the knowledge base, 2026-07-09 to 2026-11-02, mostly about development, platform, copilot."
+summary: "microsoft/BCQuality pull requests: 106 code changes in the knowledge base, 2026-07-09 to 2026-11-03, mostly about development, platform, copilot."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T00:16:51.180Z"
+  at: "2026-11-04T00:16:32.194Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a80923ca27f90a039ae483c871e3195e4d09142de59de032be2920403a46c24b
+  input_hash: 58f1f81ce3c0a3857df591ea199a8959afe7464a088281b473821d7f7e0efa21
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
@@ -140,17 +140,18 @@ links:
     - change/bcquality/251
     - change/bcquality/222
     - change/bcquality/253
+    - change/bcquality/227
 source_id: bcquality-prs
 kind: github-pr
 url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 105
+item_count: 106
 footprint:
   systems:
     - id: development
-      weight: 188
+      weight: 190
     - id: platform
       weight: 28
     - id: copilot
@@ -163,9 +164,9 @@ footprint:
       weight: 5
   topics:
     - id: main
-      weight: 105
+      weight: 106
     - id: feature
-      weight: 64
+      weight: 65
     - id: fix
       weight: 24
     - id: other
@@ -175,12 +176,12 @@ footprint:
   objects: []
   features: []
 first_item: "2026-07-09"
-last_item: "2026-11-02"
+last_item: "2026-11-03"
 ---
 
 # microsoft/BCQuality pull requests
 
-> microsoft/BCQuality pull requests: 105 code changes in the knowledge base, 2026-07-09 to 2026-11-02, mostly about development, platform, copilot.
+> microsoft/BCQuality pull requests: 106 code changes in the knowledge base, 2026-07-09 to 2026-11-03, mostly about development, platform, copilot.
 
 [https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -188,8 +189,8 @@ last_item: "2026-11-02"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (188) | main (105) |  |
-| platform (28) | feature (64) |  |
+| development (190) | main (106) |  |
+| platform (28) | feature (65) |  |
 | copilot (17) | fix (24) |  |
 | administration (8) | other (12) |  |
 | integration (5) | refactor (5) |  |
@@ -200,10 +201,11 @@ last_item: "2026-11-02"
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 77
-- 2026-Q4: **************************** 28
+- 2026-Q4: ***************************** 29
 
 ## Most recent
 
+- [#227 Evaluation: keep sample comments for the two articles whose rule is about comments](../changes/bcquality/227.md) (2026-11-03)
 - [#253 knowledge(performance): add trigger-only fields to API pages with AddLoadFields](../changes/bcquality/253.md) (2026-11-02)
 - [#222 Add cited knowledge consultation skill for Business Central](../changes/bcquality/222.md) (2026-10-30)
 - [#251 Clarify 20-character limit for assignable permission set names](../changes/bcquality/251.md) (2026-10-30)
@@ -223,6 +225,5 @@ Items per quarter, oldest first:
 - [#208 2 AL/BC patterns: TableRelation field length and RecordRef.Open Temp parameter](../changes/bcquality/208.md) (2026-10-06)
 - [#177 Add retention policy knowledge to the privacy domain](../changes/bcquality/177.md) (2026-10-05)
 - [#218 Harden findings-report producer constraints](../changes/bcquality/218.md) (2026-10-05)
-- [#213 knowledge(events): database trigger setup flags may only be set to true](../changes/bcquality/213.md) (2026-10-05)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

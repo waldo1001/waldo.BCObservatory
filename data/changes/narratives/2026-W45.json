@@ -1,22 +1,24 @@
 {
   "week": "2026-W45",
-  "input_hash": "ede1890be7971f1b5c5782c1accaf8f1ff472a1da58623e5c9de650f9b16de0e",
-  "text": "Every pull request this week except one knowledge article changes behaviour, and none is breaking. Sales Order Agent got two changes: #13495 moves its auxiliary model calls from GPT-4.1 to GPT-5.6 Ceres and lets its instructions accept the page's default availability period when no delivery date was requested, keeping those system dates out of Requested Delivery Date. #13469 stops the duplicate-contact notification from appearing on outgoing email review pages. Expense Agent got three changes. #13460 quotes and escapes G/L account filters so apostrophes and parentheses no longer break lookups. #13185 fixes itemization rounding and a missing currency code on line items. #13182 adds a View rules link below Enforce management rules in the setup wizard. Several core fixes also landed. #13417 stops posting a return order linked through Applies-to Doc. No. on a credit memo from wrongly updating original sales order line quantities. #13336 fixes Create Reminders failing when every overdue entry is on hold. #12520 makes Reverse Production Entry work when output was posted in a non-base unit of measure. For Switzerland, #13273 puts Address 1 and Address 2 together in the StrtNm node of the SEPA XML when Address 2 holds the building number for QR-Bills. In BCQuality, #253 adds a performance article on AddLoadFields for API pages.",
-  "changes": 10,
+  "input_hash": "2ae1d6aafee71a4b61370e83c7a6ac7fd3c1d6568e82de93c53bdef972034786",
+  "text": "The one breaking change is #13172 in BCApps: the AI Test Toolkit command-line page can export structured AI eval run data, and Agent Task replaces the record-based GetLogEntryDetails method with public GetTaskLogEntryDetails overloads, so callers must switch. #13506 moves Marketing Text, Sales Lines Suggestions and Item Substitution to GPT-5.6, and #13495 does the same for Sales Order Agent auxiliary calls and refines default availability dates. #13508 adds a Key Vault switch for E-Document LLM calls, and #13469 hides the Sales Order Agent duplicate-contact notification on outgoing email. Expense Agent adds View rules links in the setup wizard (#13182, #13184) and VAT settings on the category card (#13504), and fixes itemization rounding and currency code (#13185), non-refundable lines blocking release (#12985) and special characters in account filters (#13460). Posting fixes cover return orders linked to posted sales invoices (#13417, #13547), partial purchase invoicing with non-base units (#13396), ACY across posting groups (#13488), reverse production entry (#12520) and production order refresh (#12161). Localization fixes cover Belgian Intervat (#13481, #13484), Swiss SEPA addresses (#13273, #13301) and French direct debit (#11596). Other fixes touch Fixed Asset List refresh (#13340, #13483), reminders (#13336), financial report negative formats (#13339) and Prices Overview (#9181), and #9527 opens E-Document Emailing to other extensions. BCQuality adds an AddLoadFields article (#253) and keeps comments in evaluation samples (#227).",
+  "changes": 30,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.018255999999999998,
-  "at": "2026-11-03T00:16:51.180Z",
+  "cost_usd": 0.037552,
+  "at": "2026-11-04T00:16:32.194Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-03T00:59:30.066Z",
+    "at": "2026-11-04T00:59:44.066Z",
     "verdict": "fix",
     "issues": [
-      "The paragraph says Expense Agent got four changes, but the week has only three Expense Agent pull requests (#13460, #13185, #13182).",
-      "The paragraph says Sales Order Agent changed most, but it had two pull requests (#13495, #13469) and Expense Agent had three. Replaced with a neutral count."
+      "Every claim checks out: all 30 pull requests are cited correctly, and #13172 is correctly the only breaking change.",
+      "The paragraph was about 228 words, over the 220-word limit. I tightened the wording to bring it under.",
+      "The closing 'BCQuality adds #227 and #253' said nothing about what they do. I replaced it with a short description of each.",
+      "Small clarification: #13469 now says it is the Sales Order Agent's notification, and #9527 now says the change lets other extensions use E-Document Emailing."
     ],
-    "input_hash": "ede1890be7971f1b5c5782c1accaf8f1ff472a1da58623e5c9de650f9b16de0e",
-    "cost_usd": 0.087528,
+    "input_hash": "2ae1d6aafee71a4b61370e83c7a6ac7fd3c1d6568e82de93c53bdef972034786",
+    "cost_usd": 0.129092,
     "applied": [
       "text"
     ],

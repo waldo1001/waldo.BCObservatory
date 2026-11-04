@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/13483",
+  "input_hash": "ecb4d8f293a4a11c866c8a53fa8ee577569b8a845ebeb2e6b5904c1e013129aa",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-04T00:59:06.386Z",
+  "issues": [
+    "Key point 'Added refresh trigger' names a mechanism not stated in the PR; only small edits to the Fixed Asset Card page are known."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018371,
+    "changes_in_call": 6
+  }
+}

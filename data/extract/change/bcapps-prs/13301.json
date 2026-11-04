@@ -6,12 +6,11 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "SEPA XML export for QR-Bills in Switzerland now concatenates Address 1 and Address 2 fields in the street name node when Address 2 is used as a building number.",
+  "summary": "In the Swiss localization, SEPA XML payment exports now write Address 1 followed by Address 2 into the PstlAdr/StrtNm node when Address 2 is used as the building number for QR-Bills.",
   "key_points": [
-    "SEPA XML structure updated to append Address 2 as building number to Address 1 in street name field",
-    "Applies specifically to Swiss QR-Bill payment exports",
-    "Changes affect the Payment Export Data table",
-    "Added test coverage for new export behavior in Swiss SEPA tests"
+    "StrtNm in SEPA XML now combines Address 1 and Address 2 when Address 2 holds the building number for QR-Bills",
+    "Change is in the CH layer of the Payment Export Data table",
+    "Tests added to the Swiss SEPA credit transfer export test codeunits"
   ],
   "change_kind": "fix",
   "behavior_change": true,

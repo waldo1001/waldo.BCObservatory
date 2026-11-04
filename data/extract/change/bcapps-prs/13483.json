@@ -8,10 +8,9 @@
   ],
   "summary": "Fixed Asset posting group changes made on the Fixed Asset Card now refresh properly in the Fixed Asset List view.",
   "key_points": [
-    "FA posting group updates on the card are now reflected in the list",
-    "Added refresh trigger on the Fixed Asset Card page",
-    "Applied consistently across multiple localization layers (AT, FR, IT, NA, RU, W1)",
-    "Resolves synchronization issue between card and list views"
+    "FA Posting Group changes made on the Fixed Asset Card now show up in the Fixed Asset List",
+    "Small change to the Fixed Asset Card page",
+    "Applied across the AT, FR, IT, NA, RU, and W1 layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

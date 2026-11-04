@@ -31669,38 +31669,45 @@
     "video/-SGaVGOkiF0": {
       "kind": "video",
       "key": "video/-SGaVGOkiF0",
-      "hash": "0988210a652f753cdaa70181f9d2179d2fd99446f995827787bdcdb885545248",
+      "hash": "a0b7b2c8aa33c6cbec678cecdc354d0dce46152531efb8251acf7b40a2cfa561",
       "video_id": "-SGaVGOkiF0",
       "title": "Introducing Payment Times Analysis in Business Central (2023 release wave 2)",
-      "at": "2026-10-30T01:06:14.889Z",
+      "at": "2026-11-04T00:54:47.462Z",
       "matches": [
         {
           "feature": 0,
           "name": "Payment Times Analysis",
           "t": 47,
           "roadmap_id": "576802",
-          "quote": "analyzes payment behavior against vendors and customers, tracking whether payments occur on or after due dates"
+          "quote": "Payment Times Analysis. A new global feature that analyzes payment behavior"
         },
         {
           "feature": 1,
           "name": "Aggregation by Company Size",
           "t": 153,
           "roadmap_id": "576802",
-          "quote": "Analysis option that groups payment data by company size categories"
+          "quote": "Aggregation by Company Size. Analysis option that groups payment data"
         },
         {
           "feature": 2,
           "name": "Aggregation by Period",
           "t": 343,
-          "roadmap_id": "576839",
-          "quote": "groups payment data by custom periods defined in a payment periods table"
+          "roadmap_id": "576802",
+          "quote": "Aggregation by Period. Analysis option that groups payment data by custom periods"
         },
         {
           "feature": 3,
           "name": "Payment Analysis Statistics",
           "t": 174,
           "roadmap_id": "576802",
-          "quote": "average agreed payment period, average actual payment period, percentage paid on time"
+          "quote": "average agreed payment period, average actual payment period, percentage paid"
+        },
+        {
+          "feature": 4,
+          "name": "Payment Analysis Drill-Down",
+          "t": 268,
+          "roadmap_id": "576802",
+          "quote": "Payment Analysis Drill-Down. Ability to drill down into payment analysis details"
         }
       ]
     },
@@ -31860,111 +31867,111 @@
     "video/07G7aC14Y_w": {
       "kind": "video",
       "key": "video/07G7aC14Y_w",
-      "hash": "3a770c7d6f88e62be771d9210fbd30bd0d8482f4f21a0a2dce0b5f359f74a40a",
+      "hash": "c37d9a87eda09f6c8c2c2d7651281daf2e277bf6c6f681d13b3955839847cf76",
       "video_id": "07G7aC14Y_w",
       "title": "What's new in E-Documents: Overview (2026 release wave 2)",
-      "at": "2026-10-31T00:59:56.807Z",
+      "at": "2026-11-04T00:54:48.071Z",
       "matches": [
         {
           "feature": 0,
           "name": "EDI functionality in Business Central",
           "t": 6,
           "roadmap_id": "573305",
-          "quote": "exchange order information, order confirmations, and related documents between buyer and seller companies electronically using EDI"
+          "quote": "EDI functionality in Business Central. New capability to exchange order information"
         },
         {
           "feature": 1,
           "name": "Purchase order EDI document type",
           "t": 59,
           "roadmap_id": "573305",
-          "quote": "Support for sending purchase orders from buyer to seller company automatically as e-documents in XML format"
+          "quote": "Purchase order EDI document type. Support for sending purchase orders"
         },
         {
           "feature": 2,
           "name": "Sales order automatic creation from EDI",
           "t": 91,
           "roadmap_id": "573305",
-          "quote": "When a buyer sends a purchase order via EDI, a sales order is automatically created on the seller side"
+          "quote": "Sales order automatic creation from EDI. When a buyer sends a purchase order"
         },
         {
           "feature": 3,
           "name": "Order response messaging",
           "t": 91,
           "roadmap_id": "573305",
-          "quote": "Seller can send back an order response to the buyer, who will receive status updates"
+          "quote": "Order response messaging. Seller can send back an order response"
         },
         {
           "feature": 4,
           "name": "Remittance advice EDI document",
           "t": 104,
           "roadmap_id": "573305",
-          "quote": "buyer can send a remittance advice file to the seller, enabling payment reporting through the e-documents framework"
+          "quote": "Remittance advice EDI document. When posting a purchase invoice"
         },
         {
           "feature": 5,
           "name": "Bidirectional EDI document direction control",
           "t": 158,
           "roadmap_id": "573305",
-          "quote": "Ability to configure document directions as inbound only, outbound only, or both"
+          "quote": "Bidirectional EDI document direction control. Ability to configure document directions"
         },
         {
           "feature": 6,
           "name": "Electronic identifier support for EDI",
           "t": 189,
           "roadmap_id": "573305",
-          "quote": "Support for electronic identifiers such as JIN or VT registration numbers on both buyer and seller sides"
+          "quote": "Electronic identifier support for EDI. Support for electronic identifiers"
         },
         {
           "feature": 7,
           "name": "Item reference support for EDI matching",
           "t": 201,
           "roadmap_id": "573305",
-          "quote": "Support for item reference or JIN codes on items to ensure correct item matching"
+          "quote": "Item reference support for EDI matching. Support for item reference"
         },
         {
           "feature": 8,
           "name": "EDI message logging and tracking",
           "t": 231,
           "roadmap_id": "573305",
-          "quote": "Log functionality for each EDI exchange showing which files were created"
+          "quote": "EDI message logging and tracking. Log functionality for each EDI exchange"
         },
         {
           "feature": 9,
           "name": "PPPLE format for EDI",
           "t": 143,
           "roadmap_id": "573305",
-          "quote": "Use of PPPLE format for EDI exchanges, leveraging existing e-documents infrastructure"
-        },
-        {
-          "feature": 10,
-          "name": "French e-reporting formats",
-          "t": 535,
-          "roadmap_id": "576832",
-          "quote": "Three new e-document formats introduced for France to support French regulatory requirements"
-        },
-        {
-          "feature": 11,
-          "name": "French e-reporting lifecycle event tracking",
-          "t": 561,
-          "roadmap_id": "576832",
-          "quote": "Regulatory lifecycle events for French e-reporting are stored as messages and linked to original invoice e-documents"
+          "quote": "PPPLE format for EDI. Use of PPPLE (people) format"
         },
         {
           "feature": 12,
           "name": "EDI purchase order to sales order linkage",
           "t": 311,
           "roadmap_id": "573305",
-          "quote": "New linkage functionality that allows easy navigation between purchase orders, e-documents, and automatically created sales orders"
+          "quote": "EDI purchase order to sales order linkage. New linkage functionality"
+        },
+        {
+          "feature": 10,
+          "name": "French e-reporting formats",
+          "t": 535,
+          "roadmap_id": "576832",
+          "quote": "French e-reporting formats. Three new e-document formats introduced for France"
+        },
+        {
+          "feature": 11,
+          "name": "French e-reporting lifecycle event tracking",
+          "t": 561,
+          "roadmap_id": "576832",
+          "quote": "French e-reporting lifecycle event tracking. Regulatory lifecycle events for French"
         }
       ]
     },
     "video/0h8QBNmeORQ": {
       "kind": "video",
       "key": "video/0h8QBNmeORQ",
-      "hash": "28a7fc98a852d491bd2383bdd7323bdcc13fdbaf1c6b8377590e4091843f47af",
+      "hash": "0e3702bbd3dc35cd38665ed909d60dce446aa1ebca47cb92085f0343841d082b",
       "video_id": "0h8QBNmeORQ",
       "title": "Microsoft Sizzle: Business Central Agents In Action",
-      "at": "2026-10-30T01:06:13.251Z",
+      "at": "2026-11-04T00:54:46.184Z",
       "matches": []
     },
     "video/0qt0Zy9ZsRo": {
@@ -32052,24 +32059,24 @@
     "video/1IIlArcHpOY": {
       "kind": "video",
       "key": "video/1IIlArcHpOY",
-      "hash": "2a1d860367f224d9814d7c7734b19466cd4cff0b9d2215a82d41b6ab300d8490",
+      "hash": "4a63610d6fb17a586c6eabd594c0d7d8b4932c784a585291239d62bca96e6494",
       "video_id": "1IIlArcHpOY",
       "title": "What's New: Working with Instructions for Agents in Business Central",
-      "at": "2026-10-30T01:06:14.234Z",
+      "at": "2026-11-04T00:54:47.980Z",
       "matches": [
-        {
-          "feature": 0,
-          "name": "Agent Instructions Framework",
-          "t": 5,
-          "roadmap_id": "578068",
-          "quote": "A structured approach to writing agent instructions for Business Central using role-based prompting"
-        },
         {
           "feature": 3,
           "name": "Agent Review Experience",
           "t": 650,
           "roadmap_id": "573366",
-          "quote": "Agent-filled fields with explanations for why the agent took specific actions before submitting"
+          "quote": "Agent-filled fields with explanations for why the agent took specific actions"
+        },
+        {
+          "feature": 4,
+          "name": "Agent Task Execution with Real-time Monitoring",
+          "t": 546,
+          "roadmap_id": "573363",
+          "quote": "Agents execute tasks step-by-step with real-time monitoring capability"
         }
       ]
     },
@@ -32085,19 +32092,19 @@
     "video/1QuV_vkbNVU": {
       "kind": "video",
       "key": "video/1QuV_vkbNVU",
-      "hash": "b8f4e6090b3f326ef0af6c91e48c70831091e7db20292b0660444f5062786069",
+      "hash": "c3bc57d3a5c9f50e59f277546d11a40e526bdf5863c41bfabc8fcdddfc3ef5a8",
       "video_id": "1QuV_vkbNVU",
       "title": "Introducing Spreadsheets for Business Central",
-      "at": "2026-10-30T01:06:18.762Z",
+      "at": "2026-11-04T00:54:45.877Z",
       "matches": []
     },
     "video/1ugAYeEZLaU": {
       "kind": "video",
       "key": "video/1ugAYeEZLaU",
-      "hash": "2fbef04549091103840fe546d5df1779f36cf6d9efb1890b6798476bdcbddaea",
+      "hash": "7a31b086beed5f997359b0d6970219cfdce45ed6c13e4c7f43ed7e04248646f7",
       "video_id": "1ugAYeEZLaU",
       "title": "Working with Amount Fields",
-      "at": "2026-10-30T01:06:21.611Z",
+      "at": "2026-11-04T00:54:46.276Z",
       "matches": []
     },
     "video/1x3QyBX3swg": {
@@ -32143,10 +32150,10 @@
     "video/2_yYu3RgYwo": {
       "kind": "video",
       "key": "video/2_yYu3RgYwo",
-      "hash": "a347f27c06570525941a751cb2c1083201d2ca0396d332ac192ba25582ee86ae",
+      "hash": "8ed647a2a37e184f41fc7c3c5e1463a86d7bb1ca02ed1f86c146570d5d2e2856",
       "video_id": "2_yYu3RgYwo",
       "title": "What's New: Default Sustainability Information (2025 release wave 1)",
-      "at": "2026-10-31T00:59:53.649Z",
+      "at": "2026-11-04T00:54:52.247Z",
       "matches": [
         {
           "feature": 7,
@@ -32160,10 +32167,10 @@
     "video/205F8ljmInU": {
       "kind": "video",
       "key": "video/205F8ljmInU",
-      "hash": "a77a8551af73f33f02dd72a45e5fb5495c985e65737d94aa11574fe420ccb0ae",
+      "hash": "6749d9942baf0179b43768f3bb5f9dfed928e749e3a20b57ea979ef10fb33101",
       "video_id": "205F8ljmInU",
       "title": "What's New: The Danish Bookkeeping Act (2023 release wave 2)",
-      "at": "2026-10-31T00:59:55.519Z",
+      "at": "2026-11-04T00:54:53.314Z",
       "matches": []
     },
     "video/22duXC6j_No": {
@@ -32209,33 +32216,11 @@
     "video/2isrH3RcSK8": {
       "kind": "video",
       "key": "video/2isrH3RcSK8",
-      "hash": "85a066b96248a071150fd9b965450a3b5fd06126179aee4be314950ee5a1fa5c",
+      "hash": "4d5a507480675cd4dafced61904cdd43fda0d144c59a2b6fc106e722e511a230",
       "video_id": "2isrH3RcSK8",
       "title": "Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening",
-      "at": "2026-10-31T01:00:00.007Z",
-      "matches": [
-        {
-          "feature": 1,
-          "name": "Copilot Chat for data inquiries",
-          "t": 207,
-          "roadmap_id": "573362",
-          "quote": "Chat feature that helps users query data by generating analysis views"
-        },
-        {
-          "feature": 19,
-          "name": "Word reporting conditional formatting",
-          "t": 937,
-          "roadmap_id": "573329",
-          "quote": "Users can hide fields based on conditions and switch between different word layouts"
-        },
-        {
-          "feature": 42,
-          "name": "Page scripting in pipelines",
-          "t": 2176,
-          "roadmap_id": "573384",
-          "quote": "Page scripting tool now supports running recorded user interface tests in CI/CD pipelines"
-        }
-      ]
+      "at": "2026-11-04T00:54:58.014Z",
+      "matches": []
     },
     "video/2N2NhNH7dsk": {
       "kind": "video",
@@ -32613,10 +32598,10 @@
     "video/4EnvGMwbuBY": {
       "kind": "video",
       "key": "video/4EnvGMwbuBY",
-      "hash": "0491a2cd60627d690a86e0f314c5b891867a67823aba35374a9821b5742401df",
+      "hash": "71a242011e3b3157510fecd973f42d812bf23d4ba62265298b049c9a9c57cee5",
       "video_id": "4EnvGMwbuBY",
       "title": "Comparing Subaccount Segments and Dimension Setup between Dynamics SL and Dynamics 365 Business",
-      "at": "2026-10-30T01:06:29.262Z",
+      "at": "2026-11-04T00:54:53.530Z",
       "matches": []
     },
     "video/4HE3BBCcV84": {
@@ -32653,10 +32638,10 @@
     "video/4IumfDNN8GU": {
       "kind": "video",
       "key": "video/4IumfDNN8GU",
-      "hash": "0be55eda32266f8c8b846dce30052408dc085ce78589db1b6999be973c0851cc",
+      "hash": "4fb13044c73f4be588047a129931f9d3829eaf4e7850708912efca441254e8ec",
       "video_id": "4IumfDNN8GU",
       "title": "How to Use Posting Groups in Business Central (2025)",
-      "at": "2026-10-31T01:00:02.122Z",
+      "at": "2026-11-04T00:54:54.982Z",
       "matches": []
     },
     "video/4mD9R50V134": {
@@ -32695,19 +32680,19 @@
     "video/4Te11l2BxmQ": {
       "kind": "video",
       "key": "video/4Te11l2BxmQ",
-      "hash": "b65b896382151bc43312b99339a4a9d4f814c11b04b13ce0b86ae25e55afa6ee",
+      "hash": "0c7ac14b6fc639281aa73a76cf36d67d2b0abfb7433991149f191ad907bc7351",
       "video_id": "4Te11l2BxmQ",
       "title": "Simplify Bank Reconciliation with Copilot in Dynamics 365 Business Central (2024)",
-      "at": "2026-10-30T07:52:04.161Z",
+      "at": "2026-11-04T00:54:57.628Z",
       "matches": []
     },
     "video/4TE8uwIi91k": {
       "kind": "video",
       "key": "video/4TE8uwIi91k",
-      "hash": "e7b02b5de2a4bbd4bf753778ee2f4da3bfe2ee6f5a0e0e1db7f2d82558000ac5",
+      "hash": "bc0fc601f3bb2bba7653dc9a8626fdced405c48fc50eb00ba85aaa5b9558aced",
       "video_id": "4TE8uwIi91k",
       "title": "What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)",
-      "at": "2026-10-30T07:52:03.034Z",
+      "at": "2026-11-04T00:54:52.551Z",
       "matches": [
         {
           "feature": 0,
@@ -32721,14 +32706,14 @@
           "name": "Bulk receipt upload",
           "t": 66,
           "roadmap_id": "573265",
-          "quote": "upload multiple receipts at the same time from the mobile app"
+          "quote": "Ability to upload multiple receipts at the same time"
         },
         {
           "feature": 2,
           "name": "Gallery share functionality for receipts",
           "t": 104,
           "roadmap_id": "573265",
-          "quote": "Integration with operating system share functionality to send photos"
+          "quote": "Integration with operating system share functionality to send photos from gallery"
         },
         {
           "feature": 3,
@@ -32738,28 +32723,28 @@
           "quote": "Create mileage expenses directly from the phone with route selection, vehicle type"
         },
         {
+          "feature": 4,
+          "name": "Offline mode for receipt handling",
+          "t": 233,
+          "roadmap_id": "573265",
+          "quote": "Add receipts and expenses to the app while offline without immediate processing"
+        },
+        {
           "feature": 5,
           "name": "Expense submission on mobile",
           "t": 270,
           "roadmap_id": "573265",
           "quote": "Submit expense reports from the mobile app to approvers"
-        },
-        {
-          "feature": 6,
-          "name": "Expense approval on mobile",
-          "t": 298,
-          "roadmap_id": "573255",
-          "quote": "Review, check compliance issues, override flags, and approve expense reports"
         }
       ]
     },
     "video/54uIhzZq3Os": {
       "kind": "video",
       "key": "video/54uIhzZq3Os",
-      "hash": "bba75652122332c96fb17b636caf802a964be4153f3d9298b6bb96fd383dccf5",
+      "hash": "8866f527161311048ac3ce33311080efa536c592cd805e8900aeb03eedfa5754",
       "video_id": "54uIhzZq3Os",
       "title": "Expense Agent: Finance Controlling (2026 release wave 1)",
-      "at": "2026-10-30T07:52:03.145Z",
+      "at": "2026-11-04T00:54:57.329Z",
       "matches": []
     },
     "video/564XMP2IyLM": {
@@ -32774,19 +32759,19 @@
     "video/58yOwN3GY2Q": {
       "kind": "video",
       "key": "video/58yOwN3GY2Q",
-      "hash": "88289b4aa45f2ec42c432aeb8108dace050e1d6c353dfb25bfe7877d9b603a34",
+      "hash": "1851f94cc2d8236e5230e18366f8ae826f4d13c1add8724b84f04d01edf06ddd",
       "video_id": "58yOwN3GY2Q",
       "title": "Microsoft Copilot in Business Central",
-      "at": "2026-10-30T07:52:03.761Z",
+      "at": "2026-11-04T00:54:56.836Z",
       "matches": []
     },
     "video/5E6ikveL6N0": {
       "kind": "video",
       "key": "video/5E6ikveL6N0",
-      "hash": "99e3b5e4073081c2ccfe6d4aed91a859e3a3bca9be33452cffc054ac523a6df0",
+      "hash": "b9e7ecd3984a45b042e67e233a2f35fdf5a73d1e67b09e22635034e6eb70c278",
       "video_id": "5E6ikveL6N0",
       "title": "Comparing Posting Accounts and Posting Groups Between Dynamics GP and Dynamics Business Central",
-      "at": "2026-10-31T01:00:02.309Z",
+      "at": "2026-11-04T00:54:59.562Z",
       "matches": []
     },
     "video/5GD8S3XzQmA": {
@@ -32818,10 +32803,10 @@
     "video/5OZ0g5IgC8Q": {
       "kind": "video",
       "key": "video/5OZ0g5IgC8Q",
-      "hash": "a17f8fc24fff071deb56066973988dbeacb36f2ff0769dbde8056f19fa415622",
+      "hash": "b9b1eb81926195a83a02dee2a8e8d65fb9ac54c680487f19c0208e7fb339429b",
       "video_id": "5OZ0g5IgC8Q",
       "title": "What's new: Shopify Tax Matching (preview) (2026 release wave 2)",
-      "at": "2026-10-30T07:52:10.591Z",
+      "at": "2026-11-04T00:55:00.692Z",
       "matches": [
         {
           "feature": 0,
@@ -32835,21 +32820,28 @@
           "name": "Tax Area Code Auto-Population",
           "t": 197,
           "roadmap_id": "574128",
-          "quote": "AI automatically assigns tax area codes to Shopify orders based on tax jurisdictions"
+          "quote": "AI automatically assigns tax area codes to Shopify orders"
         },
         {
           "feature": 2,
           "name": "Tax Match Review and Approval Window",
           "t": 271,
           "roadmap_id": "574128",
-          "quote": "A dedicated window where users can review AI-assigned tax areas, tax jurisdictions"
+          "quote": "A dedicated window where users can review AI-assigned tax areas"
+        },
+        {
+          "feature": 3,
+          "name": "TaxMatch Automatic Installation",
+          "t": 379,
+          "roadmap_id": "574128",
+          "quote": "TaxMatch agent is automatically installed by default"
         },
         {
           "feature": 4,
           "name": "TaxMatch Configuration Settings",
           "t": 404,
           "roadmap_id": "574128",
-          "quote": "Configurable permissions and options including activation toggle, permission to create tax jurisdictions"
+          "quote": "Configurable permissions and options including activation toggle"
         },
         {
           "feature": 5,
@@ -32857,6 +32849,20 @@
           "t": 644,
           "roadmap_id": "574128",
           "quote": "System detects when tax rates differ between Shopify and Business Central"
+        },
+        {
+          "feature": 6,
+          "name": "Shopify Order Number as Sales Document Number",
+          "t": 573,
+          "roadmap_id": "573340",
+          "quote": "uses the Shopify order number as the sales order document number"
+        },
+        {
+          "feature": 7,
+          "name": "Automatic Refund Document Creation",
+          "t": 597,
+          "roadmap_id": "573343",
+          "quote": "automatically creates a sales return document in Business Central"
         }
       ]
     },
@@ -32881,27 +32887,27 @@
     "video/5RJ3yZ7m1UU": {
       "kind": "video",
       "key": "video/5RJ3yZ7m1UU",
-      "hash": "3fa3513f11cb269dc96b04311a8cb5d5ee137e69804eb43684b3cb57885bc56c",
+      "hash": "e69af59cc4d6f2127781bfd7944b9dcd8c53d08c3dc3027fad2580f9a63e0bbc",
       "video_id": "5RJ3yZ7m1UU",
       "title": "What's New: Financial Analytics (2024 release wave 2)",
-      "at": "2026-10-30T07:52:10.694Z",
+      "at": "2026-11-04T00:55:00.543Z",
       "matches": [
         {
           "feature": 1,
           "name": "Financial Reporting Templates",
           "t": 109,
-          "roadmap_id": "573323",
-          "quote": "Five row definitions for balance sheet and income statement, plus 12 predefined column definitions"
+          "roadmap_id": "573324",
+          "quote": "Five row definitions for balance sheet and income statement"
         }
       ]
     },
     "video/5xeATIUFiGg": {
       "kind": "video",
       "key": "video/5xeATIUFiGg",
-      "hash": "31222bb0c805c76bf4c3899e12ebcb2cf87ffce0b46b7cbeb3ceeaac6481d09e",
+      "hash": "0b0f5a90109a96c7e8e3954053c80278390b2f6940081c9f5151da95ff4522c0",
       "video_id": "5xeATIUFiGg",
       "title": "20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central",
-      "at": "2026-10-30T07:52:10.016Z",
+      "at": "2026-11-04T00:55:02.498Z",
       "matches": []
     },
     "video/5zXQ_aIT03s": {

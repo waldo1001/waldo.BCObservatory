@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:58:57.126Z"
   flags: []
 generated:
-  at: "2026-11-03T00:54:42.695Z"
+  at: "2026-11-04T00:55:39.192Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -138,9 +138,7 @@ links:
     - object/page/9807
     - object/page/41
     - object/page/42
-  features:
-    - feature/573363
-    - feature/578068
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -244,24 +242,20 @@ cautions:
     t: 489
 features:
   - name: Sales Order Agent
-    status: preview
+    status: unclear
     t: 6
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "578068"
+    status_source: video
   - name: Sales Order Agent Configuration
     status: unclear
     t: 148
     verified: false
     status_source: video
   - name: Agent Task Pane
-    status: ga
+    status: unclear
     t: 326
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573363"
+    status_source: video
   - name: Item Availability Page
     status: unclear
     t: 652
@@ -273,12 +267,10 @@ features:
     verified: false
     status_source: video
   - name: Automatic Sales Quote Creation
-    status: preview
+    status: unclear
     t: 751
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "578068"
+    status_source: video
   - name: Agent KPIs Dashboard
     status: unclear
     t: 306
@@ -290,19 +282,15 @@ features:
     verified: false
     status_source: video
   - name: Sales Order Agent Email Processing
-    status: preview
+    status: unclear
     t: 791
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "578068"
+    status_source: video
   - name: Sales Order Agent Natural Language Conversation
-    status: preview
+    status: unclear
     t: 913
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "578068"
+    status_source: video
   - name: Agent Email Safety and Relevance Filtering
     status: unclear
     t: 994
@@ -418,22 +406,20 @@ It also covers filtering of irrelevant or harmful emails, the KPI dashboard, and
 
 | Feature | Status | At |
 |---|---|---|
-| Sales Order Agent | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)), demoed | [0:06](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=6s) |
+| Sales Order Agent | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=6s) |
 | Sales Order Agent Configuration | status not stated, demoed | [2:28](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=148s) |
-| Agent Task Pane | generally available (roadmap [Manage tasks from all agents in dedicated task pane](../features/573363.md)), demoed | [5:26](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=326s) |
+| Agent Task Pane | status not stated, demoed | [5:26](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=326s) |
 | Item Availability Page | status not stated, demoed | [10:52](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=652s) |
 | Item Search Across Multiple Tables | status not stated, demoed | [9:10](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=550s) |
-| Automatic Sales Quote Creation | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)), demoed | [12:31](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=751s) |
+| Automatic Sales Quote Creation | status not stated, demoed | [12:31](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=751s) |
 | Agent KPIs Dashboard | status not stated, demoed | [5:06](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=306s) |
 | Contact Registration During Processing | status not stated, demoed | [7:48](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=468s) |
-| Sales Order Agent Email Processing | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)), demoed | [13:11](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=791s) |
-| Sales Order Agent Natural Language Conversation | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)), demoed | [15:13](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=913s) |
+| Sales Order Agent Email Processing | status not stated, demoed | [13:11](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=791s) |
+| Sales Order Agent Natural Language Conversation | status not stated, demoed | [15:13](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=913s) |
 | Agent Email Safety and Relevance Filtering | status not stated, demoed | [16:34](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=994s) |
 | Agent Permission Sets | status not stated, demoed | [21:49](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1309s) |
 | Agent Profile Configuration | status not stated, demoed | [23:09](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1389s) |
 | Agent UI Access Model | status not stated | [20:17](https://www.youtube.com/watch?v=XhO4oFmoh1M&t=1217s) |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

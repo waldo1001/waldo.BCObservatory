@@ -5235,6 +5235,17 @@
         }
       ]
     },
+    "change/bcapps/11596": {
+      "kind": "change",
+      "hash": "dd77fe28245979d29b40defd5ce0e5312301559332f2d2c67e4e671a2672695e",
+      "at": "2026-11-04T00:57:21.828Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-create-payment-slips",
+          "reason": "Covers creating payment slips and SEPA file generation for French localization, directly relevant to the SEPA Direct Debit Payment Slip bug…"
+        }
+      ]
+    },
     "change/bcapps/11603": {
       "kind": "change",
       "hash": "229139e5d0959fbd47119c2ca6a390866e1408b9f14462d6539d1d14159cc1f4",
@@ -6645,12 +6656,12 @@
     },
     "change/bcapps/12149": {
       "kind": "change",
-      "hash": "62a01beb4fbf7a9e561c6d8ce0cdc5bd10b9e0a8e88fa64df64015530a2a07cc",
-      "at": "2026-10-28T10:51:43.738Z",
+      "hash": "2076ca02441bf92ff9ff8c3d87b3270cbc403325c72ea2de5d355a4181f2bcca",
+      "at": "2026-11-04T00:57:21.828Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-finance-charges",
-          "reason": "Documents finance charge terms setup and finance charge memo issuance configuration"
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders",
+          "reason": "Covers printing test reports for delivery reminders in Austrian version, relevant to the issue with printing multiple reminders/finance…"
         }
       ]
     },
@@ -6673,6 +6684,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/accelerated-depreciation",
           "reason": "Covers accelerated depreciation calculation for fixed assets in French version"
+        }
+      ]
+    },
+    "change/bcapps/12161": {
+      "kind": "change",
+      "hash": "88c24c325f6c6b3537906925c6a1cd62513e40e0821f15c58719ade55aef93f4",
+      "at": "2026-11-04T00:57:21.828Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000788",
+          "reason": "Prod. Order - Shortage List report uses Prod. Order Component table, directly related to the bug fix in that table."
         }
       ]
     },
@@ -6765,12 +6787,12 @@
     },
     "change/bcapps/12198": {
       "kind": "change",
-      "hash": "8e1134000c44e171b1553dc8b5a6a7ab1e6138bcb1263761051dac43ef110752",
-      "at": "2026-10-24T00:26:58.724Z",
+      "hash": "16e674ece27bb1255f9d014182bf18c50334a0544a080247f238d4d5cfc90469",
+      "at": "2026-11-04T00:57:21.828Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/bank-create-bank-deposits",
-          "reason": "Explains bank deposits and cash posting processes on sales documents"
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-",
+          "reason": "Dutch domestic payment scenario covers LCY postings and cash posting workflow, relevant to source currency inconsistency bug fix."
         }
       ]
     },
@@ -6861,12 +6883,12 @@
     },
     "change/bcapps/12229": {
       "kind": "change",
-      "hash": "350c2dea803c34278f9b70d0c9724ad092b166baad9d5044105c6ac28cb469ac",
-      "at": "2026-10-24T00:27:01.368Z",
+      "hash": "eb6dd6ba825b10c0f539aeced6e07ea16e2cc3e23b5f9f1585d85d03e78ad3de",
+      "at": "2026-11-04T00:57:21.828Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/finance-edocuments-overview",
-          "reason": "Page extensibility change for Inbound E-Documents aligns with E-documents app management and extensibility."
+          "reason": "E-documents overview covers the Inbound E-Documents functionality and extensibility for electronic documents."
         }
       ]
     },
@@ -6927,12 +6949,12 @@
     },
     "change/bcapps/12262": {
       "kind": "change",
-      "hash": "ef4fd240562b2b25f5e9bb1042bd5a1ada44ca035633ea92e9338d75efa44094",
-      "at": "2026-10-28T10:51:43.238Z",
+      "hash": "4b7ee6d0650f2b02c59d0aac5b4079cc698898f54853ae031391c0aaf89034c0",
+      "at": "2026-11-04T00:57:21.828Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/bi-column-definitions",
-          "reason": "Documents financial report column definitions and data presentation features that improve financial reporting."
+          "reason": "Column definitions in Financial Reporting directly documents the financial reporting improvements and export functionality."
         }
       ]
     },
@@ -7005,9 +7027,14 @@
     },
     "change/bcapps/12307": {
       "kind": "change",
-      "hash": "e938a401c6329aa6f7a090e7c5fb5709517b9d322d5ff3530b978c00b65bdf5e",
-      "at": "2026-10-24T00:27:02.322Z",
-      "picks": []
+      "hash": "a25ccd26eb984d20e237e8516c79647979c0bf2402c2f5dfdc0d77a8ba5612d8",
+      "at": "2026-11-04T00:57:21.828Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app",
+          "reason": "Covers upgrade process using DataTransfer and base application migration, relevant to UpgradeDefaultDimensions backfill optimization."
+        }
+      ]
     },
     "change/bcapps/12308": {
       "kind": "change",
@@ -7085,12 +7112,12 @@
     },
     "change/bcapps/12326": {
       "kind": "change",
-      "hash": "f291aff8d54a01011b7703ff36ca6b1a558a51962e54e8248b24906590894a96",
-      "at": "2026-10-24T00:27:02.316Z",
+      "hash": "b7098ded50eef9b9807235b8cf8bf129369f54fa8da8dcf374bc56006b8b8834",
+      "at": "2026-11-04T00:57:21.828Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-httpclient",
-          "reason": "Documents HttpClient data type used to replace Http Web Request Mgt in service callers."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-outgoing-trace",
+          "reason": "Outgoing Web Service Request Trace covers HTTPClient migration and telemetry for external service calls like Doc. Exchange and OCR."
         }
       ]
     },
@@ -7347,12 +7374,16 @@
     },
     "change/bcapps/12474": {
       "kind": "change",
-      "hash": "ad0397aadc8810eb7c01dda2ae6a15b7dffac3071e7f252e2c31c00006709402",
-      "at": "2026-10-28T10:51:44.864Z",
+      "hash": "667ab6ab2351f312a2df588eb17c39f57ca91d559008789f1f8b6a6bbefbbf55",
+      "at": "2026-11-04T00:57:22.209Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-non-deductible-vat",
-          "reason": "Documents non-deductible VAT posting behavior and VAT amount handling."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-nondeductible-vat",
+          "reason": "Explains non-deductible VAT tax treatment and posting behavior for items and fixed assets."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge",
+          "reason": "Covers reverse charge setup and posting in Czech version with VAT Posting Setup requirements."
         }
       ]
     },
@@ -7407,6 +7438,21 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/posting-documents",
           "reason": "Documents posting documents from subscription billing contracts and billing proposals"
+        }
+      ]
+    },
+    "change/bcapps/12520": {
+      "kind": "change",
+      "hash": "17da23c0ab080861e6ba739bf619bdc522d7ecf67b568b47bcce1d1f9ed45347",
+      "at": "2026-11-04T00:57:22.209Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-undo-assembly-posting",
+          "reason": "Describes undoing assembly and production postings with corrective entries."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-use-the-manufacturing-batch-unit-of-measure",
+          "reason": "Explains manufacturing batch units of measure and component calculation during production."
         }
       ]
     },
@@ -7473,12 +7519,12 @@
     },
     "change/bcapps/12545": {
       "kind": "change",
-      "hash": "d36650b6b28272bbd3c487e0d768b0b6fb5c78b7bd5cd4cd60745e68c9842998",
-      "at": "2026-10-24T00:27:07.388Z",
+      "hash": "60ff734e4020139e102da1bf975c016bca6bea3a1182242ad3a66a2798fa2370",
+      "at": "2026-11-04T00:57:22.209Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro",
-          "reason": "Describes manufacturing demo data setup including general ledger mappings for Contoso Coffee."
+          "reason": "Contoso Coffee manufacturing demo data with sample products and production scenarios."
         }
       ]
     },
@@ -7490,12 +7536,12 @@
     },
     "change/bcapps/12552": {
       "kind": "change",
-      "hash": "22e20ee7c111e0306830855c54561300cb06fbeb0529f4b965332f1f165fff34",
-      "at": "2026-10-24T00:27:07.388Z",
+      "hash": "4c37493ca45b45eb654f0ee5ff489b3caf8e547dd6b5d765a525d8fbcf24bd5d",
+      "at": "2026-11-04T00:57:22.209Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-setup-units-of-measure",
-          "reason": "Explains unit of measure setup and validation for items in sales transactions."
+          "reason": "Documents setting up item units of measure and validation handling."
         }
       ]
     },
@@ -7686,12 +7732,16 @@
     },
     "change/bcapps/12617": {
       "kind": "change",
-      "hash": "2a1b7b8989d7bbf1912b8d49b4a6353e22078a989c967fe6aa549f5d955e52b4",
-      "at": "2026-10-24T00:27:11.657Z",
+      "hash": "6331e118aec002b31671845981f5fc7676ea547e66a9071877b6030c2dcf7142",
+      "at": "2026-11-04T00:57:22.209Z",
       "picks": [
         {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/bank-setup-banking",
+          "reason": "Covers banking setup including payment exports and file format configuration."
+        },
+        {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/authenticate-web-services-using-oauth",
-          "reason": "OAuth authentication for web services, relevant to OAuth 2.0 setup table in the changed objects"
+          "reason": "Explains OAuth authentication for Business Central web services."
         }
       ]
     },
@@ -7950,12 +8000,12 @@
     },
     "change/bcapps/12817": {
       "kind": "change",
-      "hash": "0161b7670b6a77bacfd03ef0036c418452e137451da33e3d88aec2480867af5b",
-      "at": "2026-10-24T00:27:09.476Z",
+      "hash": "28bdec951cac5b716dcbd8270d53fad523fe558fdc5fa137e9e9962d2d2ebb9b",
+      "at": "2026-11-04T00:57:22.209Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/admin-company-information",
-          "reason": "Company information overview covers company display name used in signatures."
+          "reason": "Describes setting up company information including display names for identification."
         }
       ]
     },
@@ -8166,6 +8216,21 @@
         }
       ]
     },
+    "change/bcapps/12985": {
+      "kind": "change",
+      "hash": "e3cdea64f46fb9d03ce341282f587e494778d5fcee3dc9b327ef2ba51179a73f",
+      "at": "2026-11-04T00:57:22.209Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report",
+          "reason": "Documents creating and submitting expense reports including validation and review."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-post-reports",
+          "reason": "Explains posting approved expense reports to general ledger and reimbursement processing."
+        }
+      ]
+    },
     "change/bcapps/12986": {
       "kind": "change",
       "hash": "fee049864634dafa279f26339b3b1bc0ffea674a402d4bbcdd16cf80dcdc191c",
@@ -8253,16 +8318,16 @@
     },
     "change/bcapps/13075": {
       "kind": "change",
-      "hash": "b6f808a9dd82ec228b0228eb741137b3c2cb7f8b70d213ebe3fd0f19da30d09a",
-      "at": "2026-10-28T10:51:52.264Z",
+      "hash": "383dd6aa99edc90a494fe8a2516b8ca53dc23867877454fcf9a136b7c2c1fce8",
+      "at": "2026-11-04T00:57:22.209Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/types-of-events-for-extensibility",
-          "reason": "Documents types of extensibility events including OnBefore/OnAfter events for AL development."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Transactions",
+          "reason": "Covers TDS calculation on purchase documents and transactions in India localization."
         },
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Transactions",
-          "reason": "Documents TDS calculation on purchase orders, invoices, and payment transactions in India."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/types-of-events-for-extensibility",
+          "reason": "Describes extensibility event types including OnBefore/OnAfter and business events."
         }
       ]
     },
@@ -8334,12 +8399,12 @@
     },
     "change/bcapps/13159": {
       "kind": "change",
-      "hash": "62a01beb4fbf7a9e561c6d8ce0cdc5bd10b9e0a8e88fa64df64015530a2a07cc",
-      "at": "2026-10-30T08:05:10.659Z",
+      "hash": "2076ca02441bf92ff9ff8c3d87b3270cbc403325c72ea2de5d355a4181f2bcca",
+      "at": "2026-11-04T00:57:21.494Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-finance-charges",
-          "reason": "Documents finance charge terms and memo issuance process affected by this printing bug fix."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-print-test-reports-for-delivery-reminders",
+          "reason": "Documents printing delivery reminders and finance charge memos, the feature this bug fix addresses."
         }
       ]
     },
@@ -8360,12 +8425,16 @@
     },
     "change/bcapps/13164": {
       "kind": "change",
-      "hash": "68e91f3128fc9a90553001960646800f545f268fc2e83faaed83afbc6a1eb365",
-      "at": "2026-10-31T01:02:55.196Z",
+      "hash": "a9868b05eb4149dc7df95f85976c381d16b25e2984fa00df8e437163cf75663c",
+      "at": "2026-11-04T00:57:21.494Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/ui-role-explorer",
-          "reason": "Documents Role Explorer for discovering pages and reports available to users."
+          "reason": "Documents Role Explorer displaying pages and reports available for business roles, addressing the missing reports issue."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-reports",
+          "reason": "Documents sustainability reports in the Role Explorer, relevant to the missing Sustainability Manager RC report."
         }
       ]
     },
@@ -8402,6 +8471,17 @@
         }
       ]
     },
+    "change/bcapps/13172": {
+      "kind": "change",
+      "hash": "285c2020a8b39490ede46873be244cb248158746d88a46a28af547e199ec12e2",
+      "at": "2026-11-04T00:57:21.494Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-iterate",
+          "reason": "Documents Agent Task Log for troubleshooting and managing agent decision-making and performance data."
+        }
+      ]
+    },
     "change/bcapps/13174": {
       "kind": "change",
       "hash": "f18b36af25c8c006f92c04999dc2f24f0daf57bd757a72fee169de7c607bf715",
@@ -8410,6 +8490,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-create-invoices",
           "reason": "Documents creating service credit memos, the feature this upgrade removal relates to."
+        }
+      ]
+    },
+    "change/bcapps/13182": {
+      "kind": "change",
+      "hash": "554277def9fbb2c8c09327d15ecd2c8b793a1d900587356597710f9f4b656dba",
+      "at": "2026-11-04T00:57:21.494Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page",
+          "reason": "Documents Expense Agent Setup Wizard configuration, including enforcement of management rules and policies."
         }
       ]
     },
@@ -8425,6 +8516,28 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions",
           "reason": "Documents automatic creation and assignment of default dimensions to master records, directly relevant to the dimension population issue."
+        }
+      ]
+    },
+    "change/bcapps/13184": {
+      "kind": "change",
+      "hash": "be68f7a2559410d95616d2e3968ac954aead8775abf78d9019f62c69f4e057fb",
+      "at": "2026-11-04T00:57:21.494Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page",
+          "reason": "Documents Expense Agent Setup Wizard configuration, including enforcement of management rules and policies."
+        }
+      ]
+    },
+    "change/bcapps/13185": {
+      "kind": "change",
+      "hash": "49d3e329fdc9b5888a33a774b941e971fd57b34c8cebe3843222a7a27200b871",
+      "at": "2026-11-04T00:57:21.494Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent",
+          "reason": "Documents Expense Agent's complete lifecycle including itemization and data processing from receipt to report creation."
         }
       ]
     },
@@ -8500,12 +8613,12 @@
     },
     "change/bcapps/13248": {
       "kind": "change",
-      "hash": "20df4be0164b7d67ff2f45cc62a3a25c542cafce41776e4cff99fa0d62666de8",
-      "at": "2026-10-31T01:02:54.880Z",
+      "hash": "8dcfc9f98ca12113ca4b9bc9383422e0d86e21855fcd20335deb3b4fd12e6f94",
+      "at": "2026-11-04T00:57:21.494Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-nondeductible-vat",
-          "reason": "Documents non-deductible VAT tax treatment and posting behavior including reverse charge scenarios."
+          "reason": "Documents non-deductible VAT tax treatment and posting, including reverse-charge VAT correction scenarios."
         }
       ]
     },
@@ -8564,6 +8677,17 @@
         }
       ]
     },
+    "change/bcapps/13273": {
+      "kind": "change",
+      "hash": "dac8c28c6026f436d9de4aaf2e709d600d93a7937dd042a17fef1252859bd30f",
+      "at": "2026-11-04T00:57:21.494Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit",
+          "reason": "Documents SEPA XML file generation for payment processing, including address field handling for Swiss payments."
+        }
+      ]
+    },
     "change/bcapps/13293": {
       "kind": "change",
       "hash": "180a4db7da40fe4b83490d4f11835114222fa39528bd17fa7ced0a0fa3b12e3f",
@@ -8587,6 +8711,17 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-send-remittance-advice",
           "reason": "Describes remittance advice export functionality for vendor payments, which the codeunit handles."
+        }
+      ]
+    },
+    "change/bcapps/13301": {
+      "kind": "change",
+      "hash": "fbafe22383491dac93b76affda694039aff1cc723080f3075cea90939f94a844",
+      "at": "2026-11-04T00:57:21.165Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills",
+          "reason": "Documents SEPA payment formats including XML file structure for vendor payments in Switzerland"
         }
       ]
     },
@@ -8675,6 +8810,39 @@
         }
       ]
     },
+    "change/bcapps/13336": {
+      "kind": "change",
+      "hash": "89e390b6ed4082429007500a946063fe10d1a73ae65fcca5e379bfd39ed5cabd",
+      "at": "2026-11-04T00:57:21.165Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-reminders",
+          "reason": "Documents reminder creation process and reminder line filtering for overdue customer entries"
+        }
+      ]
+    },
+    "change/bcapps/13339": {
+      "kind": "change",
+      "hash": "becd15b0ddc31e9317972f7c74a73a5fd006bce5523c8bdda02161153f3749e3",
+      "at": "2026-11-04T00:57:21.165Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/bi-design-financial-reports",
+          "reason": "Documents financial report design including negative amount formatting and decimal precision display"
+        }
+      ]
+    },
+    "change/bcapps/13340": {
+      "kind": "change",
+      "hash": "4288391677f3c2b19aa501b824b3898510de69698851e77895990ef8d67bb55e",
+      "at": "2026-11-04T00:57:21.165Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5611",
+          "reason": "Documents FA Posting Group usage in fixed asset ledger entries and posting group updates"
+        }
+      ]
+    },
     "change/bcapps/13342": {
       "kind": "change",
       "hash": "c17eef381857e06e39fd77b4d27a016364aeeeb29bc5ec3a1d4d396d86a978dd",
@@ -8698,6 +8866,21 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-record-purchases",
           "reason": "Describes purchase invoice and order creation and posting, the pages being modified."
+        }
+      ]
+    },
+    "change/bcapps/13396": {
+      "kind": "change",
+      "hash": "5d8fd2351c6847e9032ea35e6fddd2fa1ce3f56f9987f6ef2b1bc229f398b174",
+      "at": "2026-11-04T00:57:21.165Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-setup-units-of-measure",
+          "reason": "Documents units of measure setup including quantity rounding precision for purchase transactions"
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-record-purchases",
+          "reason": "Documents purchase invoice posting including handling multiple receipts and partial invoicing"
         }
       ]
     },
@@ -8734,6 +8917,17 @@
         }
       ]
     },
+    "change/bcapps/13417": {
+      "kind": "change",
+      "hash": "3e3386f660645cd3c14f0378059c6ad2d8641358ab3fd0fc46f88583c30b2bcb",
+      "at": "2026-11-04T00:57:21.165Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-correct-cancel-sales-invoice",
+          "reason": "Documents correcting posted sales invoices via credit memos and return order linking"
+        }
+      ]
+    },
     "change/bcapps/13435": {
       "kind": "change",
       "hash": "512330fd832fc9375133a619c7ea597a279c4c683bd265d37b3e2b54b05d645b",
@@ -8757,6 +8951,120 @@
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts",
           "reason": "Documents alternative posting groups for transactions across different posting group accounts."
+        }
+      ]
+    },
+    "change/bcapps/13460": {
+      "kind": "change",
+      "hash": "3812bad23a52aa494d5a97c9ccb8289b0def8b035f6dd40f456bb4172cb4b9d5",
+      "at": "2026-11-04T00:57:21.165Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-expense-reports",
+          "reason": "Documents Expense Agent account filtering for expense report creation and submission"
+        }
+      ]
+    },
+    "change/bcapps/13469": {
+      "kind": "change",
+      "hash": "50f95d6c7b30e2f9eb3d2d9f97fa5a03d6da857166e1bb6d636151d1fdf4c05e",
+      "at": "2026-11-04T00:57:21.165Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-set-up-email-logging",
+          "reason": "Documents email logging and contact interactions for outgoing email communications"
+        }
+      ]
+    },
+    "change/bcapps/13481": {
+      "kind": "change",
+      "hash": "ab91d9d09708306bddb8b986b2b0415a02f4e85cf4db91e1c624747c02115ce9",
+      "at": "2026-11-04T00:57:21.163Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat",
+          "reason": "Describes non-deductible VAT setup for Belgian Intervat XML report and VAT calculation."
+        }
+      ]
+    },
+    "change/bcapps/13483": {
+      "kind": "change",
+      "hash": "2b6d48aa9c128dca660e9e7c2e0346767cfb1f56c983f8b2aa70192e20254812",
+      "at": "2026-11-04T00:57:21.163Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5611",
+          "reason": "Documents FA posting groups and their representation in fixed asset reporting."
+        }
+      ]
+    },
+    "change/bcapps/13484": {
+      "kind": "change",
+      "hash": "ab91d9d09708306bddb8b986b2b0415a02f4e85cf4db91e1c624747c02115ce9",
+      "at": "2026-11-04T00:57:21.163Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat",
+          "reason": "Describes non-deductible VAT setup for Belgian Intervat XML report and VAT calculation."
+        }
+      ]
+    },
+    "change/bcapps/13488": {
+      "kind": "change",
+      "hash": "04de68ac53311458e7962295ea7ca021571cbdd97a734ee146698c5ba50fb7c9",
+      "at": "2026-11-04T00:57:21.163Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts",
+          "reason": "Covers posting to different GL accounts using alternative posting groups when applying entries."
+        }
+      ]
+    },
+    "change/bcapps/13495": {
+      "kind": "change",
+      "hash": "2f97feeb248cfa745c05a6915bd94067531a28b5b44a38525add927d9021a70b",
+      "at": "2026-11-04T00:57:21.163Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/gdpdu-filter-examples",
+          "reason": "Describes date-filter handling and filtering for G/L entries in data export and reporting."
+        }
+      ]
+    },
+    "change/bcapps/13504": {
+      "kind": "change",
+      "hash": "cc8616c6d166bb470aa64b9fe8860d2c5824f02140bc23424a298b0f55397601",
+      "at": "2026-11-04T00:57:21.163Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-setup",
+          "reason": "Documents VAT settings and configuration for expense category management."
+        }
+      ]
+    },
+    "change/bcapps/13506": {
+      "kind": "change",
+      "hash": "22c61fc682108feaa5e836a1e0bf4a82f0f4615b594fef549c62442bf412e3cc",
+      "at": "2026-11-04T00:57:21.163Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-marketing-text",
+          "reason": "Covers Copilot-powered marketing text suggestions and AI-generated product descriptions."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/sales-suggest-sales-lines-with-copilot",
+          "reason": "Documents sales line suggestions using AI for creating sales documents faster."
+        }
+      ]
+    },
+    "change/bcapps/13508": {
+      "kind": "change",
+      "hash": "5d4cc78191d01a4060ca678251e6daaf6d9eea5e07fedb47582104372aa265ac",
+      "at": "2026-11-04T00:57:21.163Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-mcp-server-trace",
+          "reason": "Covers AI tool and LLM call telemetry tracking for e-document processing."
         }
       ]
     },

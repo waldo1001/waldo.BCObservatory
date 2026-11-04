@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T00:49:14.469Z"
+  at: "2026-11-04T00:50:30.258Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 4cb00ed72bc04ac7f6f4e3d06bb1d46f8bea381e1ff6452cde6ebdfea6e94ce0
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICustomerMapping.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICustomerMapping.Interface.al
     title: src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICustomerMapping.Interface.al (releases/29.x)
     date: null
-    commit: d992339dbf106bf2412e17518329e128634f2951
+    commit: 11bf184798eda1d1104da1324cac5d944742dd2f
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Shpfy ICustomer Mapping" in Shopify (Microsoft.Integration.Shopify). 2 public procedures. Introduced in BC29, still in BC30.
 
-Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at d992339d](https://github.com/microsoft/BCApps/blob/d992339dbf106bf2412e17518329e128634f2951/src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICustomerMapping.Interface.al) · facts from BC29
+Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at 11bf1847](https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICustomerMapping.Interface.al) · facts from BC29
 
 ## Procedures
 

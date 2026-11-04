@@ -2,7 +2,7 @@
 id: source/bertverbeek-nl
 type: source
 title: Discover MS BC - Bert Verbeek
-summary: "Discover MS BC - Bert Verbeek (Bert Verbeek): 12 posts in the knowledge base, 2025-05-12 to 2026-09-30, mostly about copilot, integration, development."
+summary: "Discover MS BC - Bert Verbeek (Bert Verbeek): 13 posts in the knowledge base, 2025-05-12 to 2026-11-03, mostly about copilot, integration, development."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-04T00:16:32.194Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 998c5bc0e20f935dd640c53bc09b484157abea5f803b2addcf2f672f03b7ffc5
+  input_hash: 557eb95e84061c2d7c5a0682687a9dd7146650af54ce9b0e7a0c23d613b83471
 evidence:
   - kind: blog
     url: https://www.bertverbeek.nl
@@ -45,6 +45,7 @@ links:
     - post/bertverbeek-nl/1272
     - post/bertverbeek-nl/1290
     - post/bertverbeek-nl/1318
+    - post/bertverbeek-nl/1342
   guidelines: []
 source_id: bertverbeek-nl
 kind: blog
@@ -52,13 +53,13 @@ url: https://www.bertverbeek.nl
 author: Bert Verbeek
 mvp: false
 full_text: false
-item_count: 12
+item_count: 13
 footprint:
   systems:
     - id: copilot
       weight: 14
     - id: integration
-      weight: 11
+      weight: 13
     - id: development
       weight: 6
     - id: reporting
@@ -115,12 +116,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-05-12"
-last_item: "2026-09-30"
+last_item: "2026-11-03"
 ---
 
 # Discover MS BC - Bert Verbeek
 
-> Discover MS BC - Bert Verbeek (Bert Verbeek): 12 posts in the knowledge base, 2025-05-12 to 2026-09-30, mostly about copilot, integration, development.
+> Discover MS BC - Bert Verbeek (Bert Verbeek): 13 posts in the knowledge base, 2025-05-12 to 2026-11-03, mostly about copilot, integration, development.
 
 [https://www.bertverbeek.nl](https://www.bertverbeek.nl) · blog · tier community
 
@@ -129,7 +130,7 @@ last_item: "2026-09-30"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | copilot (14) | agents (5) | codeunit Agent (1) |
-| integration (11) | data export (4) | codeunit Agent Message (1) |
+| integration (13) | data export (4) | codeunit Agent Message (1) |
 | development (6) | fabric (2) | codeunit Agent Task (1) |
 | reporting (4) | open mirroring (2) | codeunit Agent Task Builder (1) |
 | finance (2) | agent design (1) | codeunit Agent Task Message Builder (1) |
@@ -150,9 +151,11 @@ Items per quarter, oldest first:
 - 2025-Q4: ** 2
 - 2026-Q1: ****** 6
 - 2026-Q3: * 1
+- 2026-Q4: * 1
 
 ## Most recent
 
+- [Business Central to Microsoft Fabric is a mirror. But what if you want to know what actually changed?](../posts/bertverbeek-nl/1342.md) (2026-11-03)
 - [Native connection with Fabric in Business Central](../posts/bertverbeek-nl/1318.md) (2026-09-30)
 - [Agents in Business Central – part 6 – The conclusion](../posts/bertverbeek-nl/1290.md) (2026-02-26)
 - [Agents in Business Central – part 5 – Creating agent from code](../posts/bertverbeek-nl/1272.md) (2026-02-23)

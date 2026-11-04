@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-10-31T01:06:04.529Z"
+  at: "2026-11-04T01:01:00.445Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,6 +76,7 @@ links:
     - change/bcquality/193
     - change/bcquality/198
     - change/bcquality/225
+    - change/bcquality/227
     - change/bcquality/228
     - change/bcquality/251
     - change/bcquality/65
@@ -146,6 +147,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#193 Clarify locale-safe DateFormula Evaluate inputs](../../../../../changes/bcquality/193.md) (code change): "Clarify locale-safe DateFormula Evaluate inputs. Adds a Microsoft Style article"
 - [#198 Add BC performance knowledge from OptimAL learnings](../../../../../changes/bcquality/198.md) (code change): "Each new article has paired good and bad AL examples"
 - [#225 Performance and style knowledge: compute Role Center headlines in the background; build client links with GetUrl](../../../../../changes/bcquality/225.md) (code change): "links into the running environment's client should come from GetUrl"
+- [#227 Evaluation: keep sample comments for the two articles whose rule is about comments](../../../../../changes/bcquality/227.md) (code change): "articles about comments themselves retain full-line comments in samples"
 - [#228 Knowledge: isolated events, FilterGroup scope, BLOB CalcFields and stream text encoding](../../../../../changes/bcquality/228.md) (code change): "paired good and bad code examples"
 - [#251 Clarify 20-character limit for assignable permission set names](../../../../../changes/bcquality/251.md) (code change): "Assignable permission sets have a 20-character name limit, not the general 30-character limit"
 - [#65 Add data-modeling and appsource knowledge articles (MICROSOFT layer)](../../../../../changes/bcquality/65.md) (code change): "Seven remedial BCQuality knowledge articles added to the MICROSOFT layer covering data-modeling patterns, AppSource conventions, and styling best practices"

@@ -8,10 +8,11 @@
   ],
   "summary": "The Prices Overview page now correctly displays captions by filtering records before lookup instead of performing an unfiltered search that returned unrelated first records.",
   "key_points": [
-    "Fixed caption generation in GetFilterDescription() to use SetFilter instead of unfiltered FindFirst()",
-    "Applied fix to Customer, Customer Price Group, and Campaign branches",
-    "Updated both W1 and APAC layer copies consistently",
-    "Added three regression tests covering each branch to verify correct record name appears in caption"
+    "GetFilterDescription() now applies SetFilter on the key field before FindFirst instead of just assigning the number",
+    "Fix covers the Customer, Customer Price Group, and Campaign branches",
+    "W1 page and its APAC layer copy were updated identically",
+    "Three regression tests check that the caption shows the selected record's name",
+    "Caption-only change with no schema, permission, or signature changes"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -193,38 +193,44 @@
     "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric": {
       "post/bertverbeek-nl/1318@5fbd2bb16b9536fc": {
         "verdict": "keep",
-        "reason": "Covers native Business Central integration with Fabric: setup, requirements and limits.",
-        "at": "2026-10-30T08:06:00.319Z",
+        "reason": "Covers native Business Central integration with Fabric via Open Mirroring, including setup and requirements.",
+        "at": "2026-11-04T00:57:33.849Z",
+        "v": 2
+      },
+      "post/bertverbeek-nl/1342@56d98420342e8949": {
+        "verdict": "keep",
+        "reason": "Shows how to track changes in Business Central data mirrored to Fabric using delta change data feeds.",
+        "at": "2026-11-04T00:57:33.849Z",
         "v": 2
       },
       "post/demiliani-com/15981@1e3ae1a50e02a848": {
         "verdict": "keep",
-        "reason": "Explains Business Central data mirroring to Fabric, including setup, latency and capacity requirements.",
-        "at": "2026-10-30T08:06:00.319Z",
+        "reason": "Explains the Business Central data mirroring to Fabric feature, its setup and capacity requirements.",
+        "at": "2026-11-04T00:57:33.849Z",
         "v": 2
       },
       "post/thinkaboutit-be/8229@be6eda255137e4a4": {
         "verdict": "keep",
-        "reason": "Describes how to set up and monitor Business Central data mirroring to Fabric OneLake.",
-        "at": "2026-10-30T08:06:00.319Z",
+        "reason": "Walks through Fabric mirroring setup, configuration packages and monitoring for Business Central analytics.",
+        "at": "2026-11-04T00:57:33.849Z",
         "v": 2
       },
       "post/thinkaboutit-be/8359@db8d195b01005a25": {
         "verdict": "keep",
-        "reason": "The recap has a substantive part on native Business Central-Fabric mirroring, so a reader of this section would find it useful.",
-        "at": "2026-10-30T08:06:00.319Z",
+        "reason": "Includes a part on native Business Central - Fabric mirroring and the data modeling it needs for analytics.",
+        "at": "2026-11-04T00:57:33.849Z",
         "v": 2
       },
       "post/waldo-be/318707@075857747db2e4d8": {
         "verdict": "keep",
-        "reason": "Discusses the native Fabric mirroring feature, its monitoring pages and its costs.",
-        "at": "2026-10-30T08:06:00.319Z",
+        "reason": "Describes native mirroring to Fabric, its monitoring pages, costs and the Fabric-based Power BI apps.",
+        "at": "2026-11-04T00:57:33.849Z",
         "v": 2
       },
       "video/kOCiyVql0go@49918665f6b1dd4c": {
         "verdict": "keep",
-        "reason": "Microsoft video demonstrating the Business Central integration with Fabric: mirroring, monitoring, APIs and permissions.",
-        "at": "2026-10-30T08:06:00.319Z",
+        "reason": "Microsoft video demonstrating the Business Central Fabric integration app, mirroring, monitoring and permissions.",
+        "at": "2026-11-04T00:57:33.849Z",
         "v": 2
       }
     },
@@ -5102,232 +5108,238 @@
       }
     },
     "topic/dev-itpro/administration/admin-center": {
-      "post/demiliani-com/14163@452b00377fe0a22e": {
+      "video/_6bYqpKzL8s@169d0e70353523c7": {
         "verdict": "keep",
-        "reason": "Covers PTE upload and scheduling on the Admin Center Manage Apps page, and the Admin Center API.",
-        "at": "2026-10-30T08:06:19.735Z",
-        "v": 2
-      },
-      "post/demiliani-com/17552@b36e7d019e4ec65d": {
-        "verdict": "keep",
-        "reason": "Covers an Admin Center environment operation that is also available through the Admin Center API.",
-        "at": "2026-10-30T08:06:19.735Z",
-        "v": 2
-      },
-      "post/duiliotacconi-com/1537@6c9973173596aa6c": {
-        "verdict": "keep",
-        "reason": "Explains how to choose the update window that is set in the Admin Center.",
-        "at": "2026-10-30T08:06:19.735Z",
-        "v": 2
-      },
-      "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786@f32ea2d662c4d762": {
-        "verdict": "keep",
-        "reason": "Walks through the Admin Center Manage Apps page in detail.",
-        "at": "2026-10-30T08:06:19.735Z",
-        "v": 2
-      },
-      "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643@bcd3363825c3e8ed": {
-        "verdict": "keep",
-        "reason": "A custom app that calls the Admin Center API to deploy extensions, so it builds on what the section documents.",
-        "at": "2026-10-30T08:06:19.735Z",
-        "v": 2
-      },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-33-restore-environment/@5c7a4cb93e13ddf3": {
-        "verdict": "keep",
-        "reason": "Shows how to restore an environment to an earlier point in time from the Admin Center.",
-        "at": "2026-10-30T08:06:19.735Z",
-        "v": 2
-      },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-85-schedule-pte-extension-updates/@7c75a9d4d16eb464": {
-        "verdict": "keep",
-        "reason": "Shows how to schedule PTE updates from the Admin Center within the update window.",
-        "at": "2026-10-30T08:06:19.735Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/7897@e488b95c95f5763c": {
-        "verdict": "keep",
-        "reason": "Covers managing and postponing updates and setting notification recipients in the Admin Center.",
-        "at": "2026-10-30T08:06:19.735Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/7930@a42b80b4bb13fc01": {
-        "verdict": "keep",
-        "reason": "Gives practical advice on Admin Center update scheduling and notification recipients.",
-        "at": "2026-10-30T08:06:19.735Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/8077@55c59a4f61feb101": {
-        "verdict": "keep",
-        "reason": "Explains the Capacity page in the Admin Center.",
-        "at": "2026-10-30T08:06:19.735Z",
-        "v": 2
-      },
-      "post/waldo-be/317739@5b3804a03ad435cc": {
-        "verdict": "keep",
-        "reason": "Covers the Sessions window in the Admin Center.",
-        "at": "2026-10-30T08:06:19.735Z",
-        "v": 2
-      },
-      "post/yzhums-com/63913@edf0712566cee338": {
-        "verdict": "keep",
-        "reason": "Part of the post covers the Admin Center Operations log for environment operations.",
-        "at": "2026-10-30T08:06:19.735Z",
-        "v": 2
-      },
-      "post/yzhums-com/67105@69c79ff2f4f0778f": {
-        "verdict": "keep",
-        "reason": "Shows how to get database usage through Admin Center API endpoints.",
-        "at": "2026-10-30T08:06:19.735Z",
+        "reason": "Shows how to schedule a sandbox's update to the preview version from the admin center, which this section documents.",
+        "at": "2026-11-04T00:57:37.072Z",
         "v": 2
       },
       "video/_nmA6xJXKiY@b3e5939f2b6ac790": {
         "verdict": "keep",
-        "reason": "Covers managing and uninstalling PTEs in the admin center and the related Admin Center API endpoints.",
-        "at": "2026-10-30T08:06:23.558Z",
+        "reason": "Covers seeing and uninstalling per-tenant extensions (PTEs) in the admin center and through the Admin Center API.",
+        "at": "2026-11-04T00:57:37.072Z",
         "v": 2
       },
       "video/-uAvdZAWWwI@abcb7c31cf8c6ffd": {
         "verdict": "keep",
         "reason": "Moving environments between Entra tenants is an admin center environment operation.",
-        "at": "2026-10-30T08:06:23.558Z",
+        "at": "2026-11-04T00:57:37.072Z",
         "v": 2
       },
       "video/22duXC6j_No@fb96cc4a325b963d": {
         "verdict": "keep",
-        "reason": "Shows installing, updating and uninstalling apps in the admin center.",
-        "at": "2026-10-30T08:06:23.558Z",
+        "reason": "Shows how to manage app installs, updates and uninstalls in the admin center.",
+        "at": "2026-11-04T00:57:37.072Z",
         "v": 2
       },
       "video/3Xus5tm2xKI@96eae7275bbc0997": {
         "verdict": "keep",
-        "reason": "Covers uploading, installing and scheduling PTEs from the admin center.",
-        "at": "2026-10-30T08:06:23.558Z",
+        "reason": "Covers uploading, installing and scheduling per-tenant extensions in the admin center.",
+        "at": "2026-11-04T00:57:37.072Z",
         "v": 2
       },
       "video/42adOzECiA0@b38314a3acd90199": {
         "verdict": "keep",
-        "reason": "Shows choosing a preview version and scheduling updates for a sandbox in the admin center.",
-        "at": "2026-10-30T08:06:23.558Z",
+        "reason": "Shows choosing a preview version and scheduling the upgrade in the admin center.",
+        "at": "2026-11-04T00:57:37.072Z",
         "v": 2
       },
       "video/HixajKEd-A4@1cf950d189cfbbcc": {
         "verdict": "keep",
-        "reason": "Covers an admin center sandbox feature and its Admin Center APIs.",
-        "at": "2026-10-30T08:06:23.558Z",
+        "reason": "Covers the admin center option and APIs for matching a sandbox to the production database configuration.",
+        "at": "2026-11-04T00:57:37.072Z",
         "v": 2
       },
       "video/KNy2KujjheU@32b14d24366edb0c": {
         "verdict": "keep",
-        "reason": "Covers database exports on the admin center operations page and an Admin Center API deprecation.",
-        "at": "2026-10-30T08:06:23.558Z",
+        "reason": "Covers database export in the admin center, the operations page and a change to the Admin Center API.",
+        "at": "2026-11-04T00:57:37.072Z",
         "v": 2
       },
       "video/LerAo-GGl8U@b236d99e6c042480": {
         "verdict": "keep",
-        "reason": "The admin MCP server automates admin center tasks through the Admin Center API.",
-        "at": "2026-10-30T08:06:23.558Z",
+        "reason": "The admin MCP server is a tool built on the Admin Center API to automate admin tasks.",
+        "at": "2026-11-04T00:57:37.072Z",
         "v": 2
       },
       "video/qYW5wo0fKgA@6f9dd36dc1dd07ca": {
         "verdict": "keep",
         "reason": "Covers creating early access preview sandbox environments in the admin center.",
-        "at": "2026-10-30T08:06:23.558Z",
+        "at": "2026-11-04T00:57:37.072Z",
         "v": 2
       },
       "video/TBBlYpwbAFk@9e8ea598aa1531d6": {
         "verdict": "keep",
-        "reason": "Shows the per-environment partner access setting on the admin center's environment details page.",
-        "at": "2026-10-30T08:06:23.558Z",
+        "reason": "The partner access setting is configured per environment on the admin center's environment details page.",
+        "at": "2026-11-04T00:57:37.072Z",
         "v": 2
       },
       "video/uv2NsSD5P7U@47ecd25d9553e2be": {
         "verdict": "keep",
-        "reason": "Covers update settings for environments and Admin Center API changes for update scheduling.",
-        "at": "2026-10-30T08:06:23.558Z",
+        "reason": "Covers update management settings and Admin Center API changes for scheduling updates.",
+        "at": "2026-11-04T00:57:37.072Z",
         "v": 2
       },
       "video/wPEZ3U5j4zw@1b499dd5af641978": {
         "verdict": "keep",
-        "reason": "Covers the admin center update settings panel and new API endpoints for managing updates.",
-        "at": "2026-10-30T08:06:23.558Z",
+        "reason": "Covers the admin center update settings, target version selection and the new API endpoints.",
+        "at": "2026-11-04T00:57:37.072Z",
+        "v": 2
+      },
+      "post/demiliani-com/14163@452b00377fe0a22e": {
+        "verdict": "keep",
+        "reason": "Covers uploading and scheduling PTE installs on the admin center Manage Apps page and the Admin Center API.",
+        "at": "2026-11-04T00:57:40.649Z",
+        "v": 2
+      },
+      "post/demiliani-com/17552@b36e7d019e4ec65d": {
+        "verdict": "keep",
+        "reason": "Covers a sandbox action in the admin center that is logged under Operations and also available through the Admin Center API.",
+        "at": "2026-11-04T00:57:40.649Z",
+        "v": 2
+      },
+      "post/duiliotacconi-com/1537@6c9973173596aa6c": {
+        "verdict": "keep",
+        "reason": "Explains how to choose the environment update window that is set in the admin center.",
+        "at": "2026-11-04T00:57:40.649Z",
+        "v": 2
+      },
+      "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786@f32ea2d662c4d762": {
+        "verdict": "keep",
+        "reason": "Walks through managing apps on the admin center Manage Apps page.",
+        "at": "2026-11-04T00:57:40.649Z",
+        "v": 2
+      },
+      "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643@bcd3363825c3e8ed": {
+        "verdict": "keep",
+        "reason": "A custom app that automates extension deployment by calling the Admin Center API.",
+        "at": "2026-11-04T00:57:40.649Z",
+        "v": 2
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-33-restore-environment/@5c7a4cb93e13ddf3": {
+        "verdict": "keep",
+        "reason": "Shows point-in-time environment restore from the admin center.",
+        "at": "2026-11-04T00:57:40.649Z",
+        "v": 2
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-85-schedule-pte-extension-updates/@7c75a9d4d16eb464": {
+        "verdict": "keep",
+        "reason": "Shows scheduling PTE updates in the update window from the admin center.",
+        "at": "2026-11-04T00:57:40.649Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/7897@e488b95c95f5763c": {
+        "verdict": "keep",
+        "reason": "Covers managing and postponing updates, update windows and notification recipients in the admin center.",
+        "at": "2026-11-04T00:57:40.649Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/7930@a42b80b4bb13fc01": {
+        "verdict": "keep",
+        "reason": "Discusses update scheduling and notification recipients configured in the admin center.",
+        "at": "2026-11-04T00:57:40.649Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8077@55c59a4f61feb101": {
+        "verdict": "keep",
+        "reason": "Explains the admin center Capacity page.",
+        "at": "2026-11-04T00:57:40.649Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8379@3e0cb4be1dba17d5": {
+        "verdict": "keep",
+        "reason": "Covers the Match Production Configuration action in the admin center and the Admin Center API.",
+        "at": "2026-11-04T00:57:40.649Z",
+        "v": 2
+      },
+      "post/waldo-be/317739@5b3804a03ad435cc": {
+        "verdict": "keep",
+        "reason": "Covers the Sessions window in the admin center.",
+        "at": "2026-11-04T00:57:40.649Z",
+        "v": 2
+      },
+      "post/yzhums-com/63913@edf0712566cee338": {
+        "verdict": "keep",
+        "reason": "Part of the post covers the admin center Operations log showing who performed environment operations.",
+        "at": "2026-11-04T00:57:40.649Z",
+        "v": 2
+      },
+      "post/yzhums-com/67105@69c79ff2f4f0778f": {
+        "verdict": "keep",
+        "reason": "Uses the Admin Center API to get database usage, which this section's subtopic documents.",
+        "at": "2026-11-04T00:57:43.640Z",
         "v": 2
       },
       "post/yzhums-com/68406@51287e08f8b6dfc1": {
         "verdict": "keep",
-        "reason": "Covers rescheduling the major update and the environment operation log in the admin center.",
-        "at": "2026-10-30T08:06:25.329Z",
+        "reason": "Covers scheduling and rescheduling the major update in the admin center and the environment operation log.",
+        "at": "2026-11-04T00:57:43.640Z",
         "v": 2
       },
       "post/yzhums-com/69075@a006267fd6c2d0f3": {
         "verdict": "keep",
         "reason": "Shows how to cancel a running environment update from the admin center.",
-        "at": "2026-10-30T08:06:25.329Z",
+        "at": "2026-11-04T00:57:43.640Z",
         "v": 2
       },
       "post/yzhums-com/69185@1dbd2e890aaa7d29": {
         "verdict": "keep",
-        "reason": "Covers the admin center App Management page and the app update cadence setting.",
-        "at": "2026-10-30T08:06:25.329Z",
+        "reason": "Covers the admin center's App Management page and its Latest Available Version field for AppSource apps.",
+        "at": "2026-11-04T00:57:43.640Z",
         "v": 2
       },
       "post/yzhums-com/69209@9d66997aba9f7b90": {
         "verdict": "keep",
         "reason": "Shows how to uninstall apps from the admin center's Manage Apps page.",
-        "at": "2026-10-30T08:06:25.329Z",
+        "at": "2026-11-04T00:57:43.640Z",
         "v": 2
       },
       "post/yzhums-com/69918@de8c3d8156b36251": {
         "verdict": "keep",
-        "reason": "Covers scheduling app updates and the update cadence, and notes that cancelling scheduled installs is coming to the admin center.",
-        "at": "2026-10-30T08:06:25.329Z",
+        "reason": "Covers scheduled app update installs and update cadence, and notes that BC29 adds a cancel option to the admin center.",
+        "at": "2026-11-04T00:57:43.640Z",
         "v": 2
       },
       "post/yzhums-com/72089@a733120d37caae99": {
         "verdict": "keep",
-        "reason": "Covers scheduling the BC28 update date through the admin center.",
-        "at": "2026-10-30T08:06:25.329Z",
+        "reason": "Explains how to schedule the BC28 update date through the admin center.",
+        "at": "2026-11-04T00:57:43.640Z",
         "v": 2
       },
       "post/yzhums-com/72784@0aa77342850b7b8e": {
         "verdict": "keep",
-        "reason": "Covers choosing the country/region when creating an environment in the admin center.",
-        "at": "2026-10-30T08:06:25.329Z",
+        "reason": "Covers the country/region selection when creating an environment in the admin center.",
+        "at": "2026-11-04T00:57:43.640Z",
         "v": 2
       },
       "post/yzhums-com/75111@6dacb10bfb6b97ba": {
         "verdict": "keep",
-        "reason": "Shows how to go from the Business Central admin center to the Power Platform admin center.",
-        "at": "2026-10-30T08:06:25.329Z",
+        "reason": "Shows how to go from the BC admin center to the Power Platform admin center through its support options.",
+        "at": "2026-11-04T00:57:43.640Z",
         "v": 2
       },
       "post/yzhums-com/75370@bfbe1ad5031a12e6": {
         "verdict": "keep",
-        "reason": "Covers database exports, the Operations page and the Admin Center API changes.",
-        "at": "2026-10-30T08:06:25.329Z",
+        "reason": "Covers database exports from the admin center, the Operations page and the move to the API's Operations endpoints.",
+        "at": "2026-11-04T00:57:43.640Z",
         "v": 2
       },
       "post/yzhums-com/76443@f113289c5090059b": {
         "verdict": "drop",
-        "reason": "A general availability announcement with no admin center content.",
-        "at": "2026-10-30T08:06:25.329Z",
+        "reason": "A release availability announcement with build and lifecycle details; it doesn't cover any admin center feature.",
+        "at": "2026-11-04T00:57:43.640Z",
         "v": 2
       },
       "post/yzhums-com/76631@99a30631fe308f9b": {
         "verdict": "keep",
-        "reason": "Covers scheduling the BC29 environment update through the admin center.",
-        "at": "2026-10-30T08:06:25.329Z",
+        "reason": "Explains how to schedule the BC29 environment update in the admin center.",
+        "at": "2026-11-04T00:57:43.640Z",
         "v": 2
       },
       "post/yzhums-com/76863@aa822ad18d30c433": {
-        "verdict": "keep",
-        "reason": "Covers creating preview sandbox environments from the admin center.",
-        "at": "2026-10-30T08:06:25.329Z",
-        "v": 2
-      },
-      "video/_6bYqpKzL8s@169d0e70353523c7": {
-        "verdict": "keep",
-        "reason": "Shows how to schedule a sandbox's update to the preview version from the admin center.",
-        "at": "2026-10-30T08:06:25.329Z",
+        "verdict": "drop",
+        "reason": "Mainly about the BC30 preview release; mentioning that sandboxes are created in the admin center is incidental.",
+        "at": "2026-11-04T00:57:43.640Z",
         "v": 2
       }
     },
@@ -6501,74 +6513,80 @@
     "topic/dev-itpro/development/development-environment/work-in-sandboxes": {
       "post/demiliani-com/12482@b6104cb1d6840996": {
         "verdict": "keep",
-        "reason": "Covers updating sandboxes to preview versions to test extensions with real data, which is part of working in sandboxes.",
-        "at": "2026-10-30T08:06:38.806Z",
+        "reason": "Covers updating sandboxes to preview versions so extensions can be tested, which is part of working in sandboxes.",
+        "at": "2026-11-04T00:57:44.469Z",
         "v": 2
       },
       "post/demiliani-com/12613@c483b6b4c2f3c069": {
         "verdict": "keep",
-        "reason": "Covers early access preview sandbox environments that partners use to test against the next release.",
-        "at": "2026-10-30T08:06:38.806Z",
+        "reason": "Covers early access preview sandboxes that partners use to test against the next release, along with how long they last and their limits.",
+        "at": "2026-11-04T00:57:44.469Z",
         "v": 2
       },
       "post/demiliani-com/17552@b36e7d019e4ec65d": {
         "verdict": "keep",
-        "reason": "Covers a sandbox capability (production-like database settings) used for realistic performance testing.",
-        "at": "2026-10-30T08:06:38.806Z",
+        "reason": "Covers a sandbox feature that copies the production database configuration for realistic testing of extension performance.",
+        "at": "2026-11-04T00:57:44.469Z",
         "v": 2
       },
       "post/gerardorenteria-blog/15213@fffc4f0168b68199": {
-        "verdict": "keep",
-        "reason": "An extension that automates cleanup and anonymization when production is copied to sandbox or test copies, which works with sandbox setup.",
-        "at": "2026-10-30T08:06:38.806Z",
+        "verdict": "drop",
+        "reason": "Its subject is anonymizing data when environments or companies are copied, which is an administration task rather than working in development sandboxes.",
+        "at": "2026-11-04T00:57:44.469Z",
         "v": 2
       },
       "post/kauffmann-nl/8459@bf6486ec5e1288dc": {
         "verdict": "drop",
-        "reason": "Mainly about installing the Agent Designer app; the sandbox is only where it happens.",
-        "at": "2026-10-30T08:06:38.806Z",
+        "reason": "Its subject is getting the Agent Designer app installed, not how to use sandboxes for development.",
+        "at": "2026-11-04T00:57:44.469Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5842643051210707156@fb0569a839ddca9c": {
         "verdict": "keep",
-        "reason": "Covers testing AL extensions in temporary preview sandboxes before general availability.",
-        "at": "2026-10-30T08:06:38.806Z",
+        "reason": "Covers testing extensions in temporary preview sandboxes by recompiling them against the new version's symbols.",
+        "at": "2026-11-04T00:57:44.469Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/bcdb-restore-write-a-cloud-export-into-a-container/@1cadd61fd4a256a0": {
         "verdict": "keep",
-        "reason": "A tool that loads cloud export data into Docker container sandboxes used for development.",
-        "at": "2026-10-30T08:06:38.806Z",
+        "reason": "A tool that loads cloud data into Docker container sandboxes, which this section documents as a development environment.",
+        "at": "2026-11-04T00:57:44.469Z",
         "v": 2
       },
       "post/thinkaboutit-be/8111@397f5eccd1f09338": {
         "verdict": "keep",
-        "reason": "Covers creating preview sandboxes and their limits for testing before an upgrade.",
-        "at": "2026-10-30T08:06:38.806Z",
+        "reason": "Covers creating version 29.0 preview sandboxes and their limits for testing.",
+        "at": "2026-11-04T00:57:44.469Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8379@3e0cb4be1dba17d5": {
+        "verdict": "keep",
+        "reason": "Covers matching a sandbox's database configuration to production for testing extension performance.",
+        "at": "2026-11-04T00:57:44.469Z",
         "v": 2
       },
       "post/yzhums-com/67592@bbdce4f5fcb253e9": {
         "verdict": "keep",
-        "reason": "Covers updating sandbox environments to preview versions to test extensions.",
-        "at": "2026-10-30T08:06:38.806Z",
+        "reason": "Covers updating sandboxes to preview versions to test with real data and installed extensions.",
+        "at": "2026-11-04T00:57:44.469Z",
         "v": 2
       },
       "post/yzhums-com/68438@36e283ec6098352f": {
         "verdict": "keep",
-        "reason": "Covers early access preview sandbox environments for partner testing.",
-        "at": "2026-10-30T08:06:38.806Z",
+        "reason": "Covers Early Access Preview sandbox environments for partners.",
+        "at": "2026-11-04T00:57:44.469Z",
         "v": 2
       },
       "post/yzhums-com/74594@eebfb3b066881121": {
         "verdict": "keep",
-        "reason": "Explains how sandboxes differ from production, including debugging and deploying extensions, which is core to this section.",
-        "at": "2026-10-30T08:06:38.806Z",
+        "reason": "Explains what sandboxes can do compared with production, including debugging and deploying extensions from Visual Studio Code.",
+        "at": "2026-11-04T00:57:44.469Z",
         "v": 2
       },
       "video/qYW5wo0fKgA@6f9dd36dc1dd07ca": {
         "verdict": "keep",
-        "reason": "Video shows how to create and use early access preview sandbox environments.",
-        "at": "2026-10-30T08:06:38.806Z",
+        "reason": "Video demonstrating how to create and use Early Access Preview sandbox environments.",
+        "at": "2026-11-04T00:57:44.469Z",
         "v": 2
       }
     },
@@ -7184,34 +7202,40 @@
       }
     },
     "topic/dev-itpro/development/get-started/altool": {
+      "post/aardvarklabs-blog/4177@afd250dfae2d6a81": {
+        "verdict": "drop",
+        "reason": "About a separate community VS Code extension for exploring AL code, not Microsoft's ALTool.",
+        "at": "2026-11-04T00:57:35.546Z",
+        "v": 2
+      },
       "post/nataliekarolak-com/3995@86d3d7fd9a3178df": {
         "verdict": "keep",
-        "reason": "The release-notes post covers a new standalone MCP server in ALTool, which is part of what this section documents.",
-        "at": "2026-10-28T08:42:25.674Z",
+        "reason": "Covers the new standalone MCP server in ALTool, which is a capability of the tool this section documents.",
+        "at": "2026-11-04T00:57:35.546Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/01/07/object-ids-now-assignable-by-vs-code-agents-lm-tool-integration/@f9cabfb8bbb1e894": {
         "verdict": "drop",
-        "reason": "About AL Object ID Ninja's ID assignment for agents, not ALTool.",
-        "at": "2026-10-28T08:42:25.674Z",
+        "reason": "About AL Object ID Ninja's integration with language-model agents, which has nothing to do with ALTool.",
+        "at": "2026-11-04T00:57:35.546Z",
         "v": 2
       },
       "post/vondervoort-be/130@80f191b9b56f9b87": {
         "verdict": "drop",
-        "reason": "About the ALCops code analyzer collection, which is not ALTool.",
-        "at": "2026-10-28T08:42:25.674Z",
+        "reason": "About the ALCops code analyzers, a separate community project unrelated to ALTool.",
+        "at": "2026-11-04T00:57:35.546Z",
         "v": 2
       },
       "post/waldo-be/318731@a281429d51145b83": {
         "verdict": "drop",
-        "reason": "About the BC Observatory knowledge map and its MCP server; ALTool isn't involved.",
-        "at": "2026-10-28T08:42:25.674Z",
+        "reason": "About the BC Observatory knowledge map and its MCP server, not ALTool.",
+        "at": "2026-11-04T00:57:35.546Z",
         "v": 2
       },
       "video/urLsKPqOSbc@affd8c83d223efd0": {
         "verdict": "keep",
-        "reason": "Demonstrates ALTool's graph extract/export commands directly.",
-        "at": "2026-10-28T08:42:25.674Z",
+        "reason": "Demonstrates ALTool's graph commands (generating, extracting and exporting call graphs), which belong to the tool this section documents.",
+        "at": "2026-11-04T00:57:35.546Z",
         "v": 2
       }
     },
@@ -9524,158 +9548,86 @@
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance": {
       "post/demiliani-com/12267@642524c944ede625": {
         "verdict": "keep",
-        "reason": "Rec.Truncate is a way to delete data efficiently in AL, which is a performance best practice for developers.",
-        "at": "2026-10-26T08:17:58.130Z",
+        "reason": "Rec.Truncate is a way to delete rows in bulk efficiently, which is an AL performance practice.",
+        "at": "2026-11-04T00:57:50.983Z",
         "v": 2
       },
       "post/demiliani-com/12836@59ea68b671fbe173": {
         "verdict": "keep",
-        "reason": "Sequential GUIDs reduce index fragmentation and come with insert and update benchmarks, so this is AL performance guidance.",
-        "at": "2026-10-26T08:17:58.130Z",
+        "reason": "Sequential GUIDs make GUID keys faster to write to the database, a developer performance practice.",
+        "at": "2026-11-04T00:57:50.983Z",
         "v": 2
       },
       "post/demiliani-com/14031@a830c37bb0a2c55c": {
         "verdict": "keep",
-        "reason": "It explains how ReadIsolation affects record caching and read performance in AL code.",
-        "at": "2026-10-26T08:17:58.130Z",
+        "reason": "ReadIsolation and how it interacts with record caching is a topic in AL performance guidance.",
+        "at": "2026-11-04T00:57:50.983Z",
         "v": 2
       },
       "post/demiliani-com/15968@e13c63565651d8a5": {
         "verdict": "keep",
-        "reason": "The ReadState isolation setting on queries changes how much they lock and how fast they run, which is part of performance best practice.",
-        "at": "2026-10-26T08:17:58.130Z",
+        "reason": "The query ReadState isolation setting trades locking against concurrency, which is a performance concern.",
+        "at": "2026-11-04T00:57:50.983Z",
         "v": 2
       },
       "post/duiliotacconi-com/1786@e25ea505a847995c": {
         "verdict": "keep",
-        "reason": "It recommends CreateSequentialGuid in AL code to improve key and index performance.",
-        "at": "2026-10-26T08:17:58.130Z",
+        "reason": "CreateSequentialGuid reduces index fragmentation, which is relevant performance guidance.",
+        "at": "2026-11-04T00:57:50.983Z",
         "v": 2
       },
       "post/duiliotacconi-com/1850@5319a3fbdedfa6f6": {
         "verdict": "keep",
-        "reason": "It benchmarks Truncate against DeleteAll and gives guidance on when Truncate is the faster choice.",
-        "at": "2026-10-26T08:17:58.130Z",
+        "reason": "Benchmarks Truncate against DeleteAll for bulk deletion, which is AL performance practice.",
+        "at": "2026-11-04T00:57:50.983Z",
         "v": 2
       },
       "post/duiliotacconi-com/2149@0b54d734b3647ccb": {
         "verdict": "keep",
-        "reason": "It shows that partial records (SetLoadFields) interact with server caching, which is relevant to AL performance practice.",
-        "at": "2026-10-26T08:17:58.130Z",
+        "reason": "Covers SetLoadFields, partial records and caching, which the performance guidance documents.",
+        "at": "2026-11-04T00:57:50.983Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951@a737a5c6bfd2e804": {
         "verdict": "keep",
-        "reason": "It covers designing keys on table extensions and the write cost of extra indexes, which are performance considerations.",
-        "at": "2026-10-26T08:17:58.130Z",
+        "reason": "Covers designing keys across table extension fields to solve performance problems.",
+        "at": "2026-11-04T00:57:50.983Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-run-al-tests-without-bc/@33fed09204573b9a": {
         "verdict": "drop",
-        "reason": "This is a unit-test tool; the 'Testing' section next to this one is the better fit.",
-        "at": "2026-10-26T08:17:58.130Z",
+        "reason": "About a tool for running unit tests; that subject belongs to the Testing section, not runtime performance.",
+        "at": "2026-11-04T00:57:50.983Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/@d73e37763c386afc": {
         "verdict": "keep",
-        "reason": "It covers background processing options that keep the user interface responsive, which is a performance design practice.",
-        "at": "2026-10-26T08:17:58.130Z",
+        "reason": "Covers page background tasks, StartSession and job queue for responsiveness, which performance guidance covers.",
+        "at": "2026-11-04T00:57:50.983Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/@73e98ae4e0ccea95": {
         "verdict": "keep",
-        "reason": "It discusses the performance trade-offs of RunTrigger and bulk Modify/DeleteAll operations in AL.",
-        "at": "2026-10-26T08:17:58.130Z",
+        "reason": "Discusses how RunTrigger affects the speed of Insert, Modify and DeleteAll bulk operations.",
+        "at": "2026-11-04T00:57:50.983Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/@aea1381f91018eec": {
         "verdict": "keep",
-        "reason": "It gives guidance on planning table indexes and SIFT views for better performance.",
-        "at": "2026-10-26T08:17:58.130Z",
+        "reason": "Covers planning table indexes, SIFT views and covering indexes for performance.",
+        "at": "2026-11-04T00:57:50.983Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/unittestswithoutbaseapp/@e9c7bf37964f4cb3": {
         "verdict": "drop",
-        "reason": "It is about structuring unit tests and CI pipelines, not about how AL code performs at runtime; it belongs under 'Testing'.",
-        "at": "2026-10-26T08:17:58.130Z",
+        "reason": "About structuring unit tests to speed up pipelines; that is a testing and CI subject, not AL runtime performance.",
+        "at": "2026-11-04T00:57:50.983Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/@14154f02a4527d5d": {
         "verdict": "drop",
-        "reason": "Its performance angle is compile-time benchmarking in CI/CD, not how AL code performs at runtime.",
-        "at": "2026-10-26T08:18:05.603Z",
-        "v": 2
-      },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-30-dataaccessintent/@56297fff7ca961d6": {
-        "verdict": "keep",
-        "reason": "DataAccessIntent ReadOnly, which sends reads to a database replica, is a documented AL performance practice.",
-        "at": "2026-10-26T08:18:05.603Z",
-        "v": 2
-      },
-      "post/waldo-be/317845@491d234240c181f4": {
-        "verdict": "keep",
-        "reason": "A telemetry app that tracks missing indexes and how long custom methods take works with AL performance practice.",
-        "at": "2026-10-26T08:18:05.603Z",
-        "v": 2
-      },
-      "post/yzhums-com/61561@533910f872bc5d81": {
-        "verdict": "keep",
-        "reason": "It compares loops, CalcSums, queries and FlowFields for totals, which is performance guidance the section covers.",
-        "at": "2026-10-26T08:18:05.603Z",
-        "v": 2
-      },
-      "post/yzhums-com/67343@7027216cf77fe532": {
-        "verdict": "keep",
-        "reason": "Truncate as a faster bulk-delete alternative to DeleteAll is an AL performance technique.",
-        "at": "2026-10-26T08:18:05.603Z",
-        "v": 2
-      },
-      "post/yzhums-com/67858@ed0f1e719cd33311": {
-        "verdict": "keep",
-        "reason": "Lock timeout control relates to the locking and concurrency guidance in AL performance best practices.",
-        "at": "2026-10-26T08:18:05.603Z",
-        "v": 2
-      },
-      "post/yzhums-com/68433@6e68daa71d4442ce": {
-        "verdict": "keep",
-        "reason": "Sequential GUIDs perform better as table keys, which is a performance best practice.",
-        "at": "2026-10-26T08:18:05.603Z",
-        "v": 2
-      },
-      "post/yzhums-com/75894@c50d0013e86efb5d": {
-        "verdict": "keep",
-        "reason": "It covers SIFT indexes that speed up FlowFields, a subject in AL performance guidance, though from the admin side.",
-        "at": "2026-10-26T08:18:05.603Z",
-        "v": 2
-      },
-      "video/-_TaZY2Clh0@be5f6f9a14f026ee": {
-        "verdict": "keep",
-        "reason": "It explains locking, deadlocks and concurrency patterns in depth, which fall under AL performance practice.",
-        "at": "2026-10-26T08:18:05.603Z",
-        "v": 2
-      },
-      "video/1xdpUmeun-s@c66bef90fa3dbacc": {
-        "verdict": "keep",
-        "reason": "It covers AL performance features such as SetLoadFields, read isolation and set-based operations.",
-        "at": "2026-10-26T08:18:05.603Z",
-        "v": 2
-      },
-      "video/JI5KlMxrtoA@725f5f44ac0d5e00": {
-        "verdict": "keep",
-        "reason": "Mostly a code-quality review, but it includes read isolation and performance-pattern analyzer warnings.",
-        "at": "2026-10-26T08:18:05.603Z",
-        "v": 2
-      },
-      "video/lpwDSdEJrIQ@f360533255881e9e": {
-        "verdict": "keep",
-        "reason": "It covers AL code performance directly: SetLoadFields, indexing, caching and FlowFields.",
-        "at": "2026-10-26T08:18:05.603Z",
-        "v": 2
-      },
-      "video/qABlX4AL3GM@01f215acc09ce160": {
-        "verdict": "keep",
-        "reason": "It covers table extension storage changes and SetLoadFields as they affect database performance.",
-        "at": "2026-10-26T08:18:05.603Z",
+        "reason": "A weekly recap about test tooling and compile benchmarks, not AL performance practices.",
+        "at": "2026-11-04T00:57:50.983Z",
         "v": 2
       }
     },

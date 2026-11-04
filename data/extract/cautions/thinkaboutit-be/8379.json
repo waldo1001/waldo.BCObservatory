@@ -1,0 +1,41 @@
+{
+  "item_id": "blog/thinkaboutit-be/8379",
+  "page_id": "post/thinkaboutit-be/8379",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Enabling it restarts the sandbox, disconnecting any active users.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2026 release wave 2"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "The production-like configuration remains active for 72 hours, after which the sandbox automatically returns to its normal configuration.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2026 release wave 2"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "The three-activations-per-month limit applies to the entire tenant, so it's worth planning your testing windows.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2026 release wave 2"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003999,
+    "posts_in_call": 2
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:34.968Z"
   flags: []
 generated:
-  at: "2026-11-01T00:45:11.847Z"
+  at: "2026-11-04T01:01:00.445Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -328,6 +328,7 @@ links:
     - change/bcapps/11095
     - change/bcapps/12532
     - change/bcapps/12762
+    - change/bcapps/13396
     - change/bcapps/9133
     - change/bcapps/9182
 learn_toc_path:
@@ -526,6 +527,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11095 [main] Bug 649204 Validation missing for Deferral Code field on Released Purchase documents.](../../../../changes/bcapps/11095.md) (code change): "Deferral Code field on released purchase line documents now validates"
 - [#12532 [Master]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](../../../../changes/bcapps/12532.md) (code change): "Dispute Status code is not retained in some scenarios within the Vendor"
 - [#12762 [29.X]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](../../../../changes/bcapps/12762.md) (code change): "Dispute status is now retained when editing vendor ledger entries"
+- [#13396 [main] Purchase invoice fails with "quantity larger than item ledger entry" after partial invoicing of multiple receipts with non-base UoM and Qty. Rounding Precision = 1](../../../../changes/bcapps/13396.md) (code change): "partial purchase invoices with non-base units of measure and quantity rounding"
 - [#9133 [Master]-Project consumption: partial invoicing of non-inventory items posts negative adjustment value entry to wrong Item Ledger Entry](../../../../changes/bcapps/9133.md) (code change): "Partial invoicing of non-inventory items consumed on a project"
 - [#9182 Align Pay-to Name 2 editability with the other pay-to address fields on purchase documents](../../../../changes/bcapps/9182.md) (code change): "Pay-to Name 2 editability aligned with other pay-to address fields"
 - [Dynamics 365 Business Central: introducing the Payables Agent.](../../../../posts/demiliani-com/12076.md) (community post): "Payables Agent automates AP workflows by retrieving vendor invoices from email and SharePoint"

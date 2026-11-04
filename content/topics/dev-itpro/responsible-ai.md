@@ -2,21 +2,21 @@
 id: topic/dev-itpro/responsible-ai
 type: topic
 title: Responsible AI
-summary: "Responsible AI in Business Central is a set of transparency notes for three AI areas: developer tools for Copilot, Machine Learning APIs, and Semantic Metadata Search. It answers questions about how each capability works, what it can and cannot do, intended uses, and responsible AI practices for partners."
+summary: Responsible AI in Business Central is a set of transparency notes for AI features and developer tools. They cover the AI development toolkit (preview), developer tools for Copilot, Machine Learning APIs and Semantic Metadata Search. They answer questions about capabilities, limitations, intended uses and responsible AI practices.
 tier: official
 language: en
 system: copilot
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:21:21.306Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-04T01:01:00.445Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 1d33aa1ee9f407c0cb981e7f27195c1e8d6eb356cb2e15113b76235575d0d896
+  input_hash: ff0b445a7a1d74a551d1c51fff35a3fd461dfe31200ed9b77e384a6aa6e04082
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-ai-development-toolkit
@@ -79,27 +79,27 @@ narrative: generated
 
 # Responsible AI
 
-> Responsible AI in Business Central is a set of transparency notes for three AI areas: developer tools for Copilot, Machine Learning APIs, and Semantic Metadata Search. It answers questions about how each capability works, what it can and cannot do, intended uses, and responsible AI practices for partners.
+> Responsible AI in Business Central is a set of transparency notes for AI features and developer tools. They cover the AI development toolkit (preview), developer tools for Copilot, Machine Learning APIs and Semantic Metadata Search. They answer questions about capabilities, limitations, intended uses and responsible AI practices.
 
-Path: Responsible AI · tier official · system copilot · narrative reviewed (checked by Opus)
+Path: Responsible AI · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section holds three transparency notes. Each one explains how an AI capability in Business Central works, what it is meant for, where its limits are, and which responsible AI practices apply.
+This section holds four transparency notes. Each one describes how an AI capability in Business Central works, what it is meant for, where its limits are, and what responsible AI practices apply. Two notes are aimed at partners who build AI features, one covers machine learning APIs, and one covers a search capability used by end users.
 
-The first note covers developer tools for Copilot. It describes how partners build and deploy generative AI features in extensions with Azure OpenAI Service APIs and in-app UI components. The second covers the Machine Learning APIs, including the Forecasting and Prediction models, for partners building ML features. The third covers Semantic Metadata Search, which matches user queries to application metadata by meaning instead of exact keywords.
+The AI development toolkit (preview) note covers a sandbox for prototyping and testing autonomous agents that use Azure OpenAI models. The developer tools for Copilot note covers the APIs and UI components used to add generative AI to extensions. The Machine Learning APIs note covers forecasting and prediction models. The Semantic Metadata Search note covers how queries are matched to application objects.
 
-The pages are independent, so start with the one that matches your scenario. Partners building generative AI extensions should read the developer tools note. Partners building forecasting or prediction features should read the Machine Learning APIs note. Anyone who wants to know how Tell me and the report explorer find results should read the Semantic Metadata Search note.
+Start with the note that matches the feature you build or use. Partners building generative AI features should read the Copilot developer tools note first, then the toolkit note if they work with agents.
 
 ## Key points
 
-- Developer tools note: partners build generative AI features in BC extensions using Azure OpenAI Service APIs and in-app UI components.
-- Developer tools include APIs for text completion and chat completion, embeddings, a prompt dialog UI, feature governance, a feedback loop, and an admin screen for managing AI features.
-- Machine Learning APIs note covers the Forecasting Model and Prediction Model, Azure Machine Learning resources, the Responsible AI Standard, and AI safety guardrails.
-- The ML note explains capabilities, limitations, and intended use cases for partners building ML features.
-- Semantic Metadata Search matches queries to metadata entities by semantic similarity, with synonym and abbreviation handling.
-- Semantic Metadata Search is integrated with Tell me and the report explorer.
-- Semantic Metadata Search is limited to application objects, not business data, and its results depend on the quality of the metadata.
+- The AI development toolkit (preview) is a sandbox for partners to prototype and test autonomous agents that automate workflows and reason over BC data with Azure OpenAI models.
+- The toolkit note covers agent instructions, configuration, task execution, access and permissions, change control and troubleshooting.
+- Developer tools for Copilot provide APIs for text completion and chat completion, plus embeddings, a prompt dialog UI, feature governance and a feedback loop.
+- Copilot developer tools include an admin screen for managing AI features.
+- The Machine Learning APIs note covers the Forecasting Model and Prediction Model, Azure Machine Learning resources, the Responsible AI Standard and AI safety guardrails.
+- Semantic Metadata Search matches queries to metadata entities by semantic similarity, handling synonyms and abbreviations, and integrates with tell me and report explorer.
+- Semantic Metadata Search is limited to application objects, not business data, and its results depend on metadata quality.
 
 ## Learn pages
 

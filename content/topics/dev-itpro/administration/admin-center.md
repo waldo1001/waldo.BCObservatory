@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:05.688Z"
   flags: []
 generated:
-  at: "2026-10-29T21:38:16.952Z"
+  at: "2026-11-04T01:01:00.445Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -284,6 +284,7 @@ links:
     - post/thinkaboutit-be/7897
     - post/thinkaboutit-be/7930
     - post/thinkaboutit-be/8077
+    - post/thinkaboutit-be/8379
     - post/waldo-be/317739
     - post/yzhums-com/63913
     - post/yzhums-com/67105
@@ -297,7 +298,6 @@ links:
     - post/yzhums-com/75111
     - post/yzhums-com/75370
     - post/yzhums-com/76631
-    - post/yzhums-com/76863
   guidelines: []
 learn_toc_path:
   - Administration
@@ -497,6 +497,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [How Do I: Manage and Postpone BC Updates in the Admin Center](../../../posts/thinkaboutit-be/7897.md) (community post): "Managing Business Central SaaS updates in the Admin Center allows you to schedule, delay, and respond to rollout pauses"
 - [Quick Tip: Almost Every BC Major Release Gets Paused. Are Your Environments Ready?](../../../posts/thinkaboutit-be/7930.md) (community post): "schedule production updates late in the window, configure notification recipients"
 - [Quick Tip: Reading the Capacity Page in the Business Central Admin Center](../../../posts/thinkaboutit-be/8077.md) (community post): "Two independent limits govern environment creation: environment count"
+- [Business Central 29: Match Production Database Configuration in Sandbox Environments](../../../posts/thinkaboutit-be/8379.md) (community post): "an Admin Center action that temporarily adjusts a sandbox database to resemble production configuration"
 - [Troubleshooting Series – Ep2 – Admin Center – Sessions](../../../posts/waldo-be/317739.md) (community post): "The Sessions window in the Business Central Admin Center allows partners and delegated admins"
 - [Dynamics 365 Business Central: How to easily check who created an environment, company and record and when](../../../posts/yzhums-com/63913.md) (community post): "The admin center Operations log shows who performed environment operations"
 - [Dynamics 365 Business Central: How to get database usage through API](../../../posts/yzhums-com/67105.md) (community post): "retrieve Business Central environment database usage through the Admin Center API"
@@ -510,7 +511,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: How to navigate directly from the BC admin center to the Power Platform admin center](../../../posts/yzhums-com/75111.md) (community post): "navigate directly from the Business Central admin center to the Power Platform admin center"
 - [Dynamics 365 Business Central: Database exports are now significantly faster and more reliable](../../../posts/yzhums-com/75370.md) (community post): "Business Central database exports much faster and more reliable"
 - [Major update of Dynamics 365 Business Central 2026 release wave 2 (BC29) is available for existing customers](../../../posts/yzhums-com/76631.md) (community post): "schedule their environment updates through the Business Central Admin Center"
-- [The Early Access Preview for Dynamics 365 Business Central 2027 release wave 1 (BC30) is available](../../../posts/yzhums-com/76863.md) (community post): "Sandboxes can be created in US, DE, or GB regions from the Business Central admin center"
 - [Upgrade Business Central Sandbox to Preview Version](../../../videos/_6bYqpKzL8s.md) (video): "Schedule preview version update from admin center"
 - [Introducing: PTEs in Admin Center (2025 release wave 1)](../../../videos/_nmA6xJXKiY.md) (video): "Uninstall Apps from Admin Center"
 - [Transfer Environments](../../../videos/-uAvdZAWWwI.md) (video): "Environment transfers between Entra tenants; Transfer scheduling; Pending transfer cancellation"

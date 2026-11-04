@@ -2,21 +2,21 @@
 id: topic/business-central/integrate-with-other-applications/microsoft-dataverse
 type: topic
 title: Microsoft Dataverse
-summary: Microsoft Dataverse integration for Business Central covers connecting to Dataverse, setting up user accounts, mapping and synchronizing tables and fields, ownership models, and troubleshooting sync errors. It answers setup, sync configuration, and error-resolution questions.
+summary: "Microsoft Dataverse integration for Business Central: connecting, user accounts, ownership models, table and field mappings, manual and scheduled synchronization, Power Automate change notifications, and troubleshooting sync errors. It answers setup, configuration and error questions about syncing with Dynamics 365 apps."
 tier: official
 language: en
 system: integration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:02:06.001Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-04T01:01:00.445Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: db4873981796292fcedd065b3bebe081954ad9b29f9b0b5c05135f5cc1127e57
+  input_hash: 21a5989d66e14fe45f4c5e99f3133dedf898a89c6e666819083febb447deccce
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection
@@ -137,28 +137,28 @@ narrative: generated
 
 # Microsoft Dataverse
 
-> Microsoft Dataverse integration for Business Central covers connecting to Dataverse, setting up user accounts, mapping and synchronizing tables and fields, ownership models, and troubleshooting sync errors. It answers setup, sync configuration, and error-resolution questions.
+> Microsoft Dataverse integration for Business Central: connecting, user accounts, ownership models, table and field mappings, manual and scheduled synchronization, Power Automate change notifications, and troubleshooting sync errors. It answers setup, configuration and error questions about syncing with Dynamics 365 apps.
 
-Path: [Integrate with other applications](../integrate-with-other-applications.md) > Microsoft Dataverse · tier official · system integration · narrative reviewed (checked by Opus)
+Path: [Integrate with other applications](../integrate-with-other-applications.md) > Microsoft Dataverse · tier official · system integration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section explains how to integrate Business Central with Microsoft Dataverse so data can flow to and from other Dynamics 365 applications such as Customer Engagement and custom apps built on Dataverse. Overview pages describe the options: data synchronization, virtual tables, data change events, webhooks, and business events.
+This section covers integrating Business Central with Microsoft Dataverse so data can be shared with other Dynamics 365 applications such as Customer Engagement and with custom apps built on Dataverse. The integration options include data synchronization, virtual tables, webhooks, data change events and business events.
 
-A typical path starts with the integration overview pages, then user account setup (administrator and integration users with the needed licenses and security roles), then the connection page covering authentication, ownership, and coupling. Next come table and field mapping, manual and scheduled synchronization through job queue entries, and the Power Automate flow for timely change notifications.
+Setup pages come first: configuring administrator and integration user accounts with the right licenses and security roles, then creating the connection (including authentication, coupling and multi-currency) and choosing a data ownership model (Team or Person). Next are the mapping pages, which explain integration table mappings, field mappings, transformation rules, coupling, filtering and conflict resolution.
 
-The data ownership page helps choose between team and person ownership and the business unit that owns synchronized records. The troubleshooting page covers permission problems, coupled record issues, timeouts, and administration mode when synchronization fails.
+Operational pages cover running synchronization manually (full, modified records, or per table mapping), scheduling it with job queue entries, and using a Power Automate flow to notify Business Central of Dataverse changes. A troubleshooting page helps diagnose errors. Start with "Integrating with Microsoft Dataverse" for the overview, then "Connect to Microsoft Dataverse".
 
 ## Key points
 
-- Integration options include bidirectional data sync, virtual tables, data change events, webhooks, and business events.
-- User setup needs an administrator and an integration user, with the System Administrator role and the Business Central Dataverse Integration role plus licenses.
-- The connection page covers certificate-based authentication, match-based coupling, the ownership model, and multi-currency support.
-- Ownership can follow a team model or a person model, with a default owning team, business unit selection, and security roles that affect data visibility.
-- Table mappings define integration tables, field mappings, transformation rules, coupling, and filtering, with conflict resolution.
-- Manual sync has three methods: full synchronization, all modified records, and individual table mappings, each controlling whether new records are created and coupled.
-- Scheduled sync uses job queue entries for customers, vendors, contacts, currencies, and salespeople, with configurable frequency and inactivity timeout.
-- A Power Automate flow template notifies Business Central when Dataverse records are added, modified, or deleted.
+- Integration options include data synchronization, virtual tables, webhooks, data change events and business events.
+- User setup needs an administrator with the System Administrator role and an integration user with the Business Central Dataverse Integration role, plus required licenses.
+- The connection supports certificate-based authentication, match-based coupling and multi-currency.
+- Ownership model is Team or Person; it works with security roles, the coupled Business Unit, and a default owning team.
+- Table mappings define integration tables, field mappings, transformation rules, coupling, filtering and conflict resolution.
+- Manual sync has three methods: full synchronization, all modified records, and individual table mappings, each controlling whether uncoupled records are created and coupled.
+- Scheduled sync uses job queue entries for customers, vendors, contacts, currencies and salespeople, with an inactivity timeout and configurable frequency.
+- A Power Automate flow template can notify Business Central when Dataverse records are added, modified or deleted.
 
 ## Learn pages
 

@@ -3,19 +3,19 @@
     7,
     [
       1,
-      "d992339dbf106bf2412e17518329e128634f2951",
+      "11bf184798eda1d1104da1324cac5d944742dd2f",
       "4",
-      "d992339dbf106bf2412e17518329e128634f2951",
+      "11bf184798eda1d1104da1324cac5d944742dd2f",
       "4"
     ]
   ],
   "schema": "bcobs-field-docs@1",
   "major": "29",
   "stats": {
-    "tooltips": 18845,
+    "tooltips": 18846,
     "bound": 12783,
     "unparsed": 2990,
-    "unmatched": 3072,
+    "unmatched": 3073,
     "tables": 1084,
     "fields": 8975
   },
@@ -29305,7 +29305,7 @@
         "control": "No."
       },
       "Non-Refundable Amount": {
-        "tooltip": "Specifies the reduction to the reimbursable amount. Available when Refundable is on and the category does not require itemization.",
+        "tooltip": "Specifies the reduction to the reimbursable amount. Available when Refundable is on and itemization is not required or is enforced by policy.",
         "page": "page/6988",
         "control": "Non-Refundable Amount"
       },

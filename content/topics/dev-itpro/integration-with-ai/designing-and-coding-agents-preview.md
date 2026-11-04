@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-04T01:01:00.445Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -228,6 +228,8 @@ links:
     - change/bcapps/11040
     - change/bcapps/12817
     - change/bcapps/12894
+    - change/bcapps/13172
+    - change/bcapps/13495
     - change/bcapps/8967
     - change/bcquality/137
     - change/bcquality/231
@@ -308,6 +310,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11040 [Agent Archiving] Payables and Expense agent implementation for IAgentArchiving](../../../changes/bcapps/11040.md) (code change): "Payables and Expense agents now implement the IAgentArchiving interface"
 - [#12817 [SOA] Use company display name in default email signature](../../../changes/bcapps/12817.md) (code change): "Sales Order Agent now uses company display name instead of internal company identifier"
 - [#12894 [PayablesAgent] Add support for credit memos, recognised from the PDF and applied to the original invoice](../../../changes/bcapps/12894.md) (code change): "creates purchase credit memos instead of invoices"
+- [#13172 Export structured AI eval run data](../../../changes/bcapps/13172.md) (code change): "Export structured AI evaluation run data with authorized agent task troubleshooting"
+- [#13495 Migrate SOA auxiliary calls to GPT-5.6 and refine date-filter handling](../../../changes/bcapps/13495.md) (code change): "Sales Order Agent now uses GPT-5.6 Ceres instead of GPT-4.1 for auxiliary"
 - [#8967 Ability to archive agents](../../../changes/bcapps/8967.md) (code change): "Agents can now be archived by admins from the Agent List and Card"
 - [#137 Add community guidance and review support for Business Central agents](../../../changes/bcquality/137.md) (code change): "Business Central agent developers gain 20 community-authored guidance rules"
 - [#231 al-agents-review: derive the target BC version from app.json](../../../changes/bcquality/231.md) (code change): "al-agents-review skill now derives the target Business Central version"

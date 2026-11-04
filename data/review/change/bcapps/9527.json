@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/9527",
+  "input_hash": "d7e2d0cfa3f3fbe55b7a61f74294d59009c46f686ec5bfdf3892f408614e4c24",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-04T00:58:53.366Z",
+  "issues": [
+    "Removing access internal widens the codeunit's visibility. It cannot break existing extensions, so breaking should be false.",
+    "The visibility key points are vague."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "breaking false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018719,
+    "changes_in_call": 6
+  }
+}

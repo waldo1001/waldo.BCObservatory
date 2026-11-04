@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/13172",
+  "input_hash": "981382780985fafd67556d87c8f090282f9c68acfe1521039933beade162a858",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-04T00:58:53.366Z",
+  "issues": [
+    "The description says the old record-based public GetLogEntryDetails method was removed. Extensions calling it would stop compiling, so breaking should be true.",
+    "Key point 3 says removing the internalsVisibleTo grants made the export API public. In fact the toolkit now uses the existing public Agent Task API, and the grants were removed because they were no longer needed."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "breaking true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018719,
+    "changes_in_call": 6
+  }
+}

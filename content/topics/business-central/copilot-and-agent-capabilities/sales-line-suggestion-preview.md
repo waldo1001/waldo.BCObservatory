@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:17.006Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-04T01:01:00.445Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,6 +46,8 @@ links:
     - video/cZCSi6khZFo
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/13506
 learn_toc_path:
   - Copilot and agent capabilities
   - Sales line suggestion (preview)
@@ -93,10 +95,11 @@ Start with the main page to understand what the feature does and how matching be
 - [Sales line suggestions with Copilot](https://learn.microsoft.com/dynamics365/business-central/sales-suggest-sales-lines-with-copilot): Learn how to suggest lines on sales orders with Copilot.
   - In the observatory: [Page 42 "Sales Order"](../../../objects/page/42.md), [Table 27 "Item"](../../../objects/table/27.md), [Table 5777 "Item Reference"](../../../objects/table/5777.md)
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13506 Upgrade Marketing Text, Sales Lines Suggestions, and Item Substitution to GPT-5.6](../../../changes/bcapps/13506.md) (code change): "Sales Lines Suggestions AI calls updated to GPT-5.6 Ceres latest."
 - [What's New: Sales Lines Suggestions with Copilot (2024 release wave 1)](../../../videos/_1LhwG2ZgFw.md) (video): "sales line suggestions; copilot; keyword extraction; context understanding"
 - [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../../../videos/cZCSi6khZFo.md) (video): "Sales Line Suggestion with Copilot; Item Search via Attributes and Catalog"
 

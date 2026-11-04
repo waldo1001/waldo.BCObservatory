@@ -2,7 +2,7 @@
 id: source/thinkaboutit-be
 type: source
 title: think about IT - Steven Renders
-summary: "think about IT - Steven Renders (Steven Renders): 68 posts in the knowledge base, 2025-07-31 to 2026-11-02, mostly about copilot, development, reporting."
+summary: "think about IT - Steven Renders (Steven Renders): 69 posts in the knowledge base, 2025-07-31 to 2026-11-03, mostly about development, copilot, reporting."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T00:16:51.180Z"
+  at: "2026-11-04T00:16:32.194Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 20677c918e109cdbdc9ee4e338da1159b5eb16c0437980c4ae2daa48af05e5cb
+  input_hash: d18b924b86c65cce3595e009fe22f5a49e4f0e9aba185b46655a096019b1fed1
 evidence:
   - kind: blog
     url: https://thinkaboutit.be
@@ -101,6 +101,7 @@ links:
     - post/thinkaboutit-be/8348
     - post/thinkaboutit-be/8359
     - post/thinkaboutit-be/8342
+    - post/thinkaboutit-be/8379
   guidelines: []
 source_id: thinkaboutit-be
 kind: blog
@@ -108,21 +109,21 @@ url: https://thinkaboutit.be
 author: Steven Renders
 mvp: false
 full_text: false
-item_count: 68
+item_count: 69
 footprint:
   systems:
-    - id: copilot
-      weight: 51
     - id: development
+      weight: 52
+    - id: copilot
       weight: 51
     - id: reporting
       weight: 43
     - id: platform
-      weight: 22
+      weight: 23
+    - id: administration
+      weight: 21
     - id: integration
       weight: 21
-    - id: administration
-      weight: 19
   topics:
     - id: al development
       weight: 15
@@ -140,9 +141,9 @@ footprint:
       weight: 6
     - id: github copilot
       weight: 6
-    - id: agents
+    - id: admin center
       weight: 5
-    - id: ai agents
+    - id: agents
       weight: 5
   objects:
     - id: page Customer Ledger Entries
@@ -171,12 +172,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-07-31"
-last_item: "2026-11-02"
+last_item: "2026-11-03"
 ---
 
 # think about IT - Steven Renders
 
-> think about IT - Steven Renders (Steven Renders): 68 posts in the knowledge base, 2025-07-31 to 2026-11-02, mostly about copilot, development, reporting.
+> think about IT - Steven Renders (Steven Renders): 69 posts in the knowledge base, 2025-07-31 to 2026-11-03, mostly about development, copilot, reporting.
 
 [https://thinkaboutit.be](https://thinkaboutit.be) · blog · tier community
 
@@ -184,16 +185,16 @@ last_item: "2026-11-02"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| copilot (51) | al development (15) | page Customer Ledger Entries (2) |
-| development (51) | power bi (11) | codeunit Rest Api Helper (1) |
+| development (52) | al development (15) | page Customer Ledger Entries (2) |
+| copilot (51) | power bi (11) | codeunit Rest Api Helper (1) |
 | reporting (43) | code generation (8) | codeunit Sales Posting Helper (1) |
-| platform (22) | reporting (8) | codeunit Sales Posting Helper Test (1) |
-| integration (21) | release wave 2 (7) | codeunit Semantic Data Search (1) |
-| administration (19) | analytics (6) | other Power BI Monitor (1) |
+| platform (23) | reporting (8) | codeunit Sales Posting Helper Test (1) |
+| administration (21) | release wave 2 (7) | codeunit Semantic Data Search (1) |
+| integration (21) | analytics (6) | other Power BI Monitor (1) |
 |  | copilot (6) | page Copilot & agent capabilities (1) |
 |  | github copilot (6) | page Copilot & Agent Capabilities (1) |
-|  | agents (5) | page Data Administration (1) |
-|  | ai agents (5) | page Data Administration Guide (1) |
+|  | admin center (5) | page Data Administration (1) |
+|  | agents (5) | page Data Administration Guide (1) |
 |  |  | page External File Accounts (1) |
 |  |  | page Item Ledger Entries (1) |
 
@@ -206,10 +207,11 @@ Items per quarter, oldest first:
 - 2026-Q1: ************* 13
 - 2026-Q2: ************ 12
 - 2026-Q3: ************* 13
-- 2026-Q4: ********** 10
+- 2026-Q4: *********** 11
 
 ## Most recent
 
+- [Business Central 29: Match Production Database Configuration in Sandbox Environments](../posts/thinkaboutit-be/8379.md) (2026-11-03)
 - [Business Central 29: Exploring the New Microsoft Copilot Chat](../posts/thinkaboutit-be/8342.md) (2026-11-02)
 - [Directions EMEA 2026, Day 2: Cowork, Agentic Development and Fabric](../posts/thinkaboutit-be/8359.md) (2026-10-29)
 - [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../posts/thinkaboutit-be/8348.md) (2026-10-28)
@@ -229,6 +231,5 @@ Items per quarter, oldest first:
 - [Quick Tip: What’s in Business Central 2026 Release Wave 2, Update 29.0 Preview](../posts/thinkaboutit-be/8120.md) (2026-09-07)
 - [Quick Tip: You Can Now Create a Business Central 29.0 (Preview) Sandbox](../posts/thinkaboutit-be/8111.md) (2026-09-07)
 - [Quick Tip: It’s Time to Move to the Word Add-in Data Picker](../posts/thinkaboutit-be/8096.md) (2026-09-01)
-- [Quick Tip: Reading the Capacity Page in the Business Central Admin Center](../posts/thinkaboutit-be/8077.md) (2026-08-13)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

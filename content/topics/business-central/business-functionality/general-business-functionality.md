@@ -2,20 +2,20 @@
 id: topic/business-central/business-functionality/general-business-functionality
 type: topic
 title: General business functionality
-summary: "General business functionality in Business Central: features shared across business areas, such as posting and batch posting, comments, extended text, archiving, email, tasks, job queues, general journals, and Excel export. Subtopics cover incoming documents, workflows and approvals, and electronic data exchange. It answers how-to and setup questions."
+summary: "General business functionality in Business Central covers cross-area features: posting and batch posting, comments, extended text, archiving, tasks, email, job queues, general journals, external file storage, and Excel export. It also groups incoming documents, workflows and electronic data exchange. It answers how-to and setup questions for these shared tools."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:15:07.205Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-04T01:01:00.445Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0ae13ea5ce12422226bc36c1a61b82656e5164f939add16ed1ab572443c9048f
+  input_hash: eb690155369b7e7bbdcaf51a51e59810b1c0d43c317ab21f11dbd20e73374b80
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-about-the-data-exchange-framework
@@ -626,24 +626,28 @@ narrative: generated
 
 # General business functionality
 
-> General business functionality in Business Central: features shared across business areas, such as posting and batch posting, comments, extended text, archiving, email, tasks, job queues, general journals, and Excel export. Subtopics cover incoming documents, workflows and approvals, and electronic data exchange. It answers how-to and setup questions.
+> General business functionality in Business Central covers cross-area features: posting and batch posting, comments, extended text, archiving, tasks, email, job queues, general journals, external file storage, and Excel export. It also groups incoming documents, workflows and electronic data exchange. It answers how-to and setup questions for these shared tools.
 
-Path: [Business functionality](../business-functionality.md) > General business functionality · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Business functionality](../business-functionality.md) > General business functionality · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This area collects cross-area features that are not tied to one module. Own pages cover everyday document handling: comments, extended text, the document Status field, archiving and restoring documents, editing posted documents, tracking order lines to related documents, finding related entries, sending documents by email, and online maps. Another group covers posting: the posting overview, preview before posting, batch posting, general journals, and scheduling jobs with job queues.
+This section collects features that are used across finance, sales, purchasing and service rather than in one business area. The own pages cover everyday document handling: posting and previewing, batch posting, status values, comments, extended text, archiving, editing posted documents, tracking order lines, sending documents by email, and finding related entries. They also cover general journals, job queue scheduling, user tasks, online maps, Excel export, Copilot-suggested values, digital vouchers and external file storage for attachments.
+
+Three subtopics go deeper. Incoming documents covers creating records from files or camera, OCR, and conversion to purchase invoices or journal lines. Workflows covers approval workflow templates and Power Automate flows. Exchange data electronically covers the Data Exchange Framework, PEPPOL, bank file import and export, SEPA, Yodlee bank feeds and currency rates.
+
+Start with "Using general functionality across business areas" for an overview, then go to the specific page for your task. For posting questions, read "Posting documents and journals" and then the preview and batch posting pages.
 
 ## Key points
 
-- Posting: preview entries before posting, post and send or email, and post many documents at once immediately or on a schedule through job queues set up in Sales & Receivables Setup.
-- Documents move through Open, Released, Pending Approval and Pending Prepayment statuses, which control editing and workflow stages.
-- Archive sales, purchase, project and service documents, restore them, and automate retention with retention policies.
+- Posting actions include Post, Preview Posting, Post and Send and Post and Email. Preview shows the G/L and other ledger entries before posting.
+- Batch posting can run immediately or on a schedule through job queues. Background posting is set up in Sales & Receivables Setup.
+- Job Queue Entries schedules reports and codeunits once or on a recurrence, with status tracking, failure notifications and inactivity timeouts.
+- Documents move through Open, Released, Pending Approval and Pending Prepayment statuses, which control editing.
+- Archived sales, purchase, project and service documents can be restored. Retention policies can manage them automatically.
 - External file storage can keep attachments in Azure Blob Storage, Azure File Share or SharePoint to reduce database use (Business Central 28.1).
-- Job Queue Entries schedule reports and codeunits one-time or recurring, with status tracking, error notifications and inactivity timeouts.
-- Extended text, comments, user tasks, and digital vouchers (mandatory attachments at posting) add information and control to records.
-- Subtopics: Incoming documents (OCR, conversion to purchase invoices), Workflows (approvals, Power Automate flows), and Exchange data electronically (PEPPOL, SEPA, bank feeds, currency rates).
-- Export any list or journal to Excel with Open in Excel; general journals post directly to G/L with recurring journals, allocations and standard journals.
+- Posted sales and purchase documents allow limited edits, such as package tracking numbers and payment references.
+- Extended text, comments, user tasks, digital vouchers and online maps add information or control to cards and documents.
 
 ## Subtopics
 

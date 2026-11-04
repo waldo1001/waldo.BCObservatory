@@ -1,84 +1,83 @@
 {
   "country": "NZ",
   "version": "29",
-  "input_hash": "9d3ca35a052d69037b45cde01ba830eddcf24ef96b81658da350b520d733ada2",
-  "summary": "New Zealand localization of Business Central 29. It adds GST (with prepayment and full-GST handling), withholding tax (WHT), BAS and IRD number fields, tax invoices and adjustment notes, EFT vendor payments, post-dated checks, cost-plus pricing and local reports. Use it for questions on NZ tax, banking and address functionality.",
-  "overview": "The NZ layer is built on a shared APAC code base. It extends W1 posting with GST and withholding tax. Fields such as WHT Business/Product Posting Group, ABN, IRD No., Adjustment, BAS Adjustment and ACY (additional reporting currency) amounts are added to master data, documents and ledger entries. VAT Entry gets the Adjustment, BAS and settlement fields. Codeunit 12 \"Gen. Jnl.-Post Line\" gains procedures for WHT, GST and ACY. Codeunit 80 \"Sales-Post\" and codeunit 90 \"Purch.-Post\" gain procedures for WHT, prepayment VAT and ACY. GST posting procedures are added to codeunits 815 and 816 (invoice posting) and 442 and 444 (prepayments). Own objects include WHTManagement (codeunit 28040), TaxInvoiceManagement (codeunit 28070), BAS Management (codeunit 11601) and the WHT, BAS and Posted Tax Invoice pages. Learn documents WHT setup, WHT settlement, WHT revenue types, vendors without IRD numbers, GST posting, GST on prepayments, GST settlement and IRD numbers with adjustment notes.\n\nBanking and payments are covered by EFT (EFT Management codeunit 11603, EFT Register, Create EFT File and Transfer EFT Register reports), post-dated checks and check installments. Reports include Deposit Slip, Bank Account Reconciliation, Bank Detail Cashflow Compare, Balance Sheet, Income Statement and AU/NZ Statement. Several objects come from the shared APAC code and are not described on the NZ Learn pages. Examples are the WHT PND reports (WHT PND 1 to 3, WHT Report - PND 53) and the E-Filing and WHT E-Filing reports.\n\nOther capabilities are address handling (postal code lookup, AMAS validation, DPID bar codes), cost-plus pricing on price lines, and Peppol PINT A-NZ e-invoicing through the E-Documents framework. The Learn pages in the input describe the e-invoicing setup, and the code summary does not show the objects behind it.",
+  "input_hash": "010846bda2f4eaca7899e8551ea81af657131fb0dd6d435cca7decb95e5905e8",
+  "summary": "New Zealand localization of Business Central 29. It covers GST posting with prepayments, withholding tax (WHT), IRD numbers, adjustment notes, tax invoices and credit memos, EFT vendor payments, post-dated checks, cost-plus pricing, NZ address handling and local financial reports. Use it to find out what NZ adds to W1 tables, posting codeunits and reports.",
+  "overview": "The NZ layer adds about 459 fields to W1 tables and 217 procedures. Many of its objects have Australian or APAC names, such as BAS, ABN, \"Enable GST (Australia)\", the APAC codeunits and the AU/NZ Statement report. Much of the logic sits in posting: Gen. Jnl.-Post Line, Purch.-Post, Sales-Post, the prepayment codeunits and the invoice posting codeunits. GST is handled through \"Enable GST (Australia)\" and related fields on General Ledger Setup, full GST on prepayments, and ACY (additional reporting currency) amounts on document lines. The country also adds BAS-named objects (codeunit 11601 \"BAS Management\", the BAS pages 11600-11614) and \"Calculate GST Settlement\" (report 11603), which Learn documents as GST settlement printing.\n\nWithholding tax is the largest feature of its own. It has new setup (WHT business and product posting groups, revenue types, posting setup), codeunit 28040 \"WHTManagement\", WHT entries, settlement reports, and WHT fields on vendors, customers, documents and ledger entries. Learn documents WHT setup, vendors without IRD numbers, settlement and viewing WHT entries. IRD numbers are stored on Company Information, Customer, Vendor and Contact. Adjustment notes use the Adjustment and \"Adjustment Applies-to\" fields.\n\nOther areas are tax invoice and credit memo pages and reports (codeunits 28070-28074), EFT payments (codeunit 11603, EFT Register), post-dated checks with check installments, cost-plus fields on price tables, postal code and DPID bar code support, and local balance sheet, income statement and bank reports. Learn also describes e-invoicing in Peppol PINT A-NZ format through the E-Documents framework.",
   "key_points": [
-    "Withholding tax: WHT posting groups, revenue types, posting setup, WHT Entry, settlement via report 28041 \"Calc. and Post WHT Settlement\", and certificates.",
-    "GST: GST enabled in General Ledger Setup, full GST and GST on prepayments, GST sales and purchase entries, and settlement through report 11603 \"Calculate GST Settlement\".",
-    "IRD No. and ABN fields on company, customer, vendor and contact records, plus adjustment notes using Adjustment Applies-to and reason codes.",
-    "Tax invoices and tax credit memos: separate posted tax document pages, number series, and print codeunits.",
-    "EFT vendor payments with Bank Account EFT fields, EFT Register, and reports to transfer the register and create the EFT file.",
-    "Post-dated checks, check installments, deposit slips and bank reconciliation reports.",
-    "Cost-plus pricing fields (Published Price, Cost, Cost-plus %) on price list lines, worksheet lines and sales prices.",
-    "Address support through counties, postal codes, AMAS validation and DPID bar codes; e-invoicing in Peppol PINT A-NZ format via E-Documents."
+    "GST posting with full GST on prepayments, ACY amount fields on lines, and a Calculate GST Settlement report (report 11603).",
+    "Withholding tax: WHT posting groups, revenue types, posting setup, WHT entries, settlement posting and WHT certificate reports.",
+    "IRD numbers on company, customer, vendor and contact records, plus adjustment notes using Adjustment Applies-to and reason codes.",
+    "Posted tax invoice and tax credit memo pages, reports and numbering for sales and purchases.",
+    "EFT vendor payments with an EFT register, bank EFT fields and Create EFT File and Transfer EFT Register reports.",
+    "Post-dated checks, check installments, deposit slip, bank reconciliation and bank cash flow comparison reports.",
+    "Cost-plus percentage pricing fields on Price List Line, Price Worksheet Line and Sales Price.",
+    "Address support: post code lookup, AMAS address validation and DPID bar code generation; e-invoicing in Peppol PINT A-NZ is documented on Learn."
   ],
   "areas": [
     {
       "area": "Finance",
-      "what": "Adds the core tax layer: WHT management and entries, GST entries and settlement, BAS setup and calculation, tax invoice management and post-dated checks. W1 posting codeunit 12 \"Gen. Jnl.-Post Line\" and tables such as Gen. Journal Line, VAT Entry and General Ledger Setup get many new fields, events and procedures for WHT, GST and ACY amounts.",
-      "why": "Learn describes WHT as reducing vendor payments by tax withheld, and describes GST posting setup, GST settlement and adjustment notes for correcting taxable supply information.",
+      "what": "Adds GST and WHT handling to general ledger posting. Gen. Jnl.-Post Line, Post Batch and Post Reverse gain WHT and GST procedures and events. VAT Entry, G/L Entry, Gen. Journal Line and General Ledger Setup gain BAS, adjustment, settlement and WHT fields. New own objects cover BAS, WHT and tax invoice management.",
+      "why": "Learn describes GST setup, GST settlement reports, VAT settlement exchange rate adjustment, and WHT calculation and settlement posting.",
       "objects": [
         "codeunit/12",
-        "codeunit/28040",
         "table/98",
         "table/254",
         "table/81",
+        "codeunit/28040",
         "codeunit/11601",
-        "codeunit/28070",
-        "report/11603"
+        "codeunit/13",
+        "codeunit/28070"
       ]
     },
     {
       "area": "Purchases",
-      "what": "Purchase documents and vendors get ABN, IRD No., WHT groups, adjustment fields, tax document flags and ACY amounts. Purch.-Post and prepayment posting add WHT and GST procedures. Vendor Registration Warning and tax invoice number series are added to setup.",
-      "why": "Learn covers vendors without IRD numbers for WHT and entering IRD numbers for tax compliance.",
+      "what": "Purchase documents and posting get WHT, GST, ABN and ACY amount fields. Setup holds tax invoice number series and WHT settings. Prepayment and invoice posting codeunits gain full GST and WHT procedures.",
+      "why": "Learn covers GST on prepayments, WHT for vendors, and vendors without IRD numbers.",
       "objects": [
         "table/38",
         "table/39",
         "codeunit/90",
         "codeunit/444",
+        "codeunit/816",
         "table/312",
         "table/23",
-        "table/25",
-        "codeunit/816"
+        "table/25"
       ]
     },
     {
       "area": "Sales",
-      "what": "Sales documents and customers get IRD No., WHT groups, adjustment fields, tax document type and ACY amounts. Sales-Post, prepayment posting and invoice posting add WHT and full-GST handling. The own report 17110 \"AU/NZ Statement\" is added.",
-      "why": "Learn explains GST on prepayments and adjustment notes (credit memos) for correcting GST amounts.",
+      "what": "Sales documents and posting get WHT, full GST, tax document and adjustment fields. Prepayment and invoice posting codeunits gain GST procedures, and the AU/NZ Statement report is added. Customers carry IRD and WHT fields.",
+      "why": "Learn documents GST on prepayments, adjustment notes and posted tax invoices and credit memos.",
       "objects": [
-        "table/36",
         "table/37",
+        "table/36",
         "codeunit/80",
         "codeunit/442",
+        "codeunit/815",
         "table/311",
         "table/18",
-        "table/21",
         "report/17110"
       ]
     },
     {
       "area": "Foundation",
-      "what": "Company Information gets ABN, IRD No., WHT Registration ID and tax period fields. New county and address objects support postal lookups, with AMAS and bar code support through Format Address. DateFilter-Calc gets period procedures.",
-      "why": "Learn describes postal code lookups, region validation and DPID bar code generation for postal efficiency.",
+      "what": "Company Information gets IRD number, WHT registration and tax period fields. Adds county and address tables, address validation and bar code support in Format Address, and date filter helpers.",
+      "why": "Learn describes postal code lookup, AMAS address validation and DPID bar codes, and entering the IRD number on Company Information.",
       "objects": [
         "table/79",
         "codeunit/365",
         "table/9",
-        "table/28004",
-        "page/28003",
         "codeunit/358",
-        "table/242",
-        "codeunit/28020"
+        "table/28004",
+        "codeunit/28020",
+        "page/28003"
       ]
     },
     {
       "area": "Bank",
-      "what": "Adds EFT payments (EFT Management, EFT Register, create and transfer reports) and EFT fields on Bank Account. Also adds deposit slip, bank reconciliation and cash flow comparison reports, aged back-dating reports and check ledger fields for WHT and post-dated checks.",
-      "why": "Learn documents EFT vendor payments, bank cash flow comparison, deposit slips and bank reconciliation printing.",
+      "what": "Adds EFT payment support with an EFT register, EFT management and file creation reports, and EFT fields on Bank Account. Also adds reports for bank reconciliation, deposit slips, cash flow comparison and back-dated aging. Check and bank ledger entries gain WHT and post-dated check fields.",
+      "why": "Learn covers EFT vendor payments, bank cash flow comparison, deposit slips and reconciliation printing.",
       "objects": [
         "codeunit/11603",
         "table/11609",
@@ -86,27 +85,27 @@
         "report/11608",
         "report/11607",
         "table/270",
-        "report/28023",
-        "report/28021"
+        "report/28021",
+        "report/28023"
       ]
     },
     {
       "area": "Inventory",
-      "what": "Adds WHT Product Posting Group to Item, Item Template and Item Charge, plus a vendor exchange rate field on Item Journal Line. ItemCostManagement gets cost-plus price update procedures and an event. Own reports Stock Card and Stock Movement are added.",
+      "what": "Adds WHT product posting group to Item, Item Template and Item Charge. Item cost management updates cost-plus prices. Adds Stock Card and Stock Movement reports.",
       "why": null,
       "objects": [
         "codeunit/5804",
         "table/27",
         "table/5800",
         "table/1382",
-        "table/83",
         "report/14311",
-        "report/28022"
+        "report/28022",
+        "table/83"
       ]
     },
     {
       "area": "Text",
-      "what": "Adds bar code management with checking and batch job reports, used with address bar code (DPID) functionality.",
+      "what": "Adds bar code management, plus bar code checking and batch job reports, used for postal bar codes.",
       "why": "Learn describes DPID bar code generation for postal efficiency.",
       "objects": [
         "codeunit/28001",
@@ -116,8 +115,8 @@
     },
     {
       "area": "Pricing",
-      "what": "Price List Line and Price Worksheet Line get Published Price, Cost, Cost-plus % and Discount Amount fields, with procedures that update unit price from the cost-plus percentage.",
-      "why": "Learn explains setting sales prices by cost-plus percentage.",
+      "what": "Price List Line and Price Worksheet Line gain published price, cost, cost-plus % and discount amount fields, with procedures that update the unit price from the cost-plus percentage.",
+      "why": "Learn covers setting sales prices by cost-plus percentage.",
       "objects": [
         "table/7001",
         "table/7022"
@@ -134,7 +133,7 @@
     },
     {
       "area": "Service",
-      "what": "Adds an APAC service document management codeunit and a Service Manager role center page extension.",
+      "what": "Adds an APAC service document management codeunit and a service manager role center extension.",
       "why": null,
       "objects": [
         "codeunit/11612",
@@ -151,8 +150,8 @@
     },
     {
       "area": "CRM",
-      "what": "Contact gets ABN, Registered, ABN Division Part No. and IRD No. fields.",
-      "why": "Learn covers entering IRD numbers for tax compliance.",
+      "what": "Contact gains ABN and IRD number fields.",
+      "why": "Learn covers IRD numbers for tax reporting.",
       "objects": [
         "table/5050"
       ]
@@ -167,7 +166,7 @@
     },
     {
       "area": "FixedAssets",
-      "what": "Fixed Asset gets a WHT Product Posting Group field.",
+      "what": "Fixed Asset gains a WHT product posting group field.",
       "why": null,
       "objects": [
         "table/5600"
@@ -175,7 +174,7 @@
     },
     {
       "area": "Integration",
-      "what": "Data Migration Facade Helper gets a procedure to create a county when needed.",
+      "what": "The data migration facade helper gains a procedure to create counties when needed.",
       "why": null,
       "objects": [
         "codeunit/1797"
@@ -183,7 +182,7 @@
     },
     {
       "area": "IO",
-      "what": "Incoming purchase document pre-mapping can find a vendor by ABN and adds an event after the header data is set.",
+      "what": "Incoming purchase document pre-mapping can find a vendor by ABN and adds an event after setting header data.",
       "why": null,
       "objects": [
         "codeunit/1217"
@@ -191,7 +190,7 @@
     },
     {
       "area": "Projects",
-      "what": "Resource gets a WHT Product Posting Group field.",
+      "what": "Resource gains a WHT product posting group field.",
       "why": null,
       "objects": [
         "table/156"
@@ -199,7 +198,7 @@
     },
     {
       "area": "Utilities",
-      "what": "Adds a CodeUnit Selection page.",
+      "what": "Adds a codeunit selection page.",
       "why": null,
       "objects": [
         "page/28001"
@@ -208,24 +207,24 @@
   ],
   "learn_pages_used": 26,
   "prompt_version": 2,
-  "at": "2026-10-28T10:33:59.519Z",
+  "at": "2026-11-04T00:47:39.785Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.19435799999999998
+    "cost_usd": 0.2465522
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-28T10:39:02.806Z",
+    "at": "2026-11-04T00:48:42.967Z",
     "verdict": "fix",
     "issues": [
-      "The overview calls the WHT PND reports 'Thai-style' and the e-filing reports 'Philippine-style'. The input never names those countries, so these labels come from outside knowledge. The reports are now described only by their names from the input (WHT PND 1 to 3, WHT Report - PND 53, E-Filing, WHT E-Filing).",
-      "The overview said codeunits 80 and 90 gain procedures for GST. Their added procedures in the input cover WHT, prepayment VAT and ACY, but no procedure is named for GST. GST posting procedures appear in codeunit 12 (InsertGSTReport), codeunits 815/816 and codeunits 442/444, so the sentence now says that.",
-      "Small point, left as it is: the overview groups VAT Entry with master data and documents as getting WHT, ABN and ACY fields. VAT Entry only gets the Adjustment, BAS and settlement fields. The wording is general enough to keep."
+      "The overview says the NZ layer 'shares much of its code with the Australian and APAC layers'. The input has no other country layers to compare against. What it does show is that many objects have Australian or APAC names (BAS, ABN, 'Enable GST (Australia)', the APAC codeunits, 'AU/NZ Statement'). I reworded the sentence to say only that.",
+      "The overview says 'Most of this sits in posting'. The input does not support 'most': most of the 459 fields are on tables, not in posting codeunits. I changed it to 'Much of the logic sits in posting'.",
+      "The other claims match the input: the object IDs, the counts of 459 fields and 217 procedures, the Learn topics, and the key points."
     ],
-    "input_hash": "9d3ca35a052d69037b45cde01ba830eddcf24ef96b81658da350b520d733ada2",
-    "cost_usd": 0.3606188,
+    "input_hash": "010846bda2f4eaca7899e8551ea81af657131fb0dd6d435cca7decb95e5905e8",
+    "cost_usd": 0.3479308,
     "applied": [
       "overview"
     ],

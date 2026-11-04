@@ -2,10 +2,10 @@
   "inputs": [
     7,
     [
-      "d992339dbf106bf2412e17518329e128634f2951",
+      "11bf184798eda1d1104da1324cac5d944742dd2f",
       "4",
       9474,
-      "d992339dbf106bf2412e17518329e128634f2951",
+      "11bf184798eda1d1104da1324cac5d944742dd2f",
       "4",
       6952
     ]
@@ -130786,7 +130786,13 @@
       "OnBeforeShowAllEntries": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/6997",
+            "proc": "OnBeforeShowAllEntries",
+            "app": "ExpenseAgent"
+          }
+        ]
       },
       "OnBeforeThrowError": {
         "kind": "integration",
@@ -283648,7 +283654,7 @@
     }
   },
   "dead_events": {
-    "count": 22499
+    "count": 22498
   },
   "unresolved": [
     {
@@ -293870,9 +293876,9 @@
     "drilldown_page": 518,
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
-    "subscribes": 5177,
+    "subscribes": 5178,
     "edges": 20566,
     "published_events": 26312,
-    "dead_events": 22499
+    "dead_events": 22498
   }
 }

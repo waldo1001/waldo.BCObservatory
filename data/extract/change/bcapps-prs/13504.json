@@ -8,11 +8,8 @@
   ],
   "summary": "VAT settings are now exposed on the Expense Category Card page in the Expense Agent app, with test coverage added for VAT posting scenarios.",
   "key_points": [
-    "VAT settings become visible and editable on the Expense Category Card UI",
-    "New test cases added to verify VAT posting behavior",
-    "Changes isolated to the Expense Agent app for W1",
-    "21 lines added to the page definition",
-    "63 lines added to test validation"
+    "VAT settings are exposed on the Expense Category Card page in the Expense Agent app",
+    "Tests are added to the Expense Posting VAT test codeunit"
   ],
   "change_kind": "feature",
   "behavior_change": true,

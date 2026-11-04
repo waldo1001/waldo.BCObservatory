@@ -6,17 +6,17 @@
   "systems_joined": [
     "copilot"
   ],
-  "summary": "Export structured AI evaluation run data with authorized agent task troubleshooting details through new public AL methods on Agent Task, removing internal visibility grants and unused adapters.",
+  "summary": "AI Eval run data can now be exported in a structured form from the AI Test Toolkit command-line page, with optional authorized Agent Task details. Agent Task gains public GetTaskLogEntryDetails overloads, and the old record-based GetLogEntryDetails public method is removed.",
   "key_points": [
-    "Expose public methods on Agent Task codeunit: GetTaskLogEntryDetails for complete task export and single log entries",
-    "Stream evaluation results.json and task detail files while preserving suite/version/dataset hierarchy with collision-safe dataset abbreviations",
-    "Remove AI Test Toolkit internalsVisibleTo grants and stream/BLOB adapter, making the export API publicly accessible",
-    "Improve multiline message and call stack handling with explicit first-line flag and MaxStrLen usage in tests",
-    "Remove unused Eng\\Core\\Tools\\ALTestRunner"
+    "The AI Eval command-line page streams results.json, the evaluation result files and then the Agent Task detail files, keeping the suite/version/dataset hierarchy",
+    "New public Agent Task methods: GetTaskLogEntryDetails(AgentTaskID) returns the full task export and GetTaskLogEntryDetails(AgentTaskID, StepNumber) returns a single log entry",
+    "The AI Test Toolkit now uses the public API, and its internalsVisibleTo grants and the unused stream/BLOB adapter are removed",
+    "The old record-based GetLogEntryDetails public method is removed",
+    "Multiline messages and call stacks are now read to the end of the stream, with separators only between lines"
   ],
   "change_kind": "feature",
   "behavior_change": true,
-  "breaking": false,
+  "breaking": true,
   "obsoletions": [],
   "systems": [
     "copilot",

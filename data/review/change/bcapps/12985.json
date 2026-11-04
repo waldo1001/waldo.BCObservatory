@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/12985",
+  "input_hash": "f6f2a97dd0b53da6828fd66f317901cf5cf4018cbbfe8a35b4b13a99ed46ed3f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-04T00:58:40.704Z",
+  "issues": [
+    "Summary matches the title and description; key points are supported by the changes to the release, post and preview codeunits and the added tests.",
+    "No obsoletions and not breaking."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019868,
+    "changes_in_call": 2
+  }
+}

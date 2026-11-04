@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:57:33.406Z"
   flags: []
 generated:
-  at: "2026-11-03T00:54:42.695Z"
+  at: "2026-11-04T00:55:39.192Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -248,7 +248,6 @@ links:
     - object/page/21
   features:
     - feature/573328
-    - feature/573380
     - feature/576815
   topics: []
   localizations: []
@@ -381,12 +380,10 @@ features:
     verified: true
     status_source: video
   - name: Payables Agent
-    status: ga
+    status: preview
     t: 745
     verified: true
-    status_source: roadmap
-    roadmap_ids:
-      - "573380"
+    status_source: video
   - name: E-Document Connector
     status: unclear
     t: 898
@@ -804,7 +801,7 @@ It then goes through application features (Copilot autofill and summarize, susta
 | Sales Order Agent Auto-Create Customer | status not stated | [10:36](https://www.youtube.com/watch?v=_JkZCp64jNw&t=636s) |  |
 | Sales Order Agent PDF Preview | status not stated | [10:52](https://www.youtube.com/watch?v=_JkZCp64jNw&t=652s) |  |
 | Agent Billing Capability | preview | [11:04](https://www.youtube.com/watch?v=_JkZCp64jNw&t=664s) | "this is something new which is entering into the world of business central is a is a agent billing capability while in private preview" ([11:04](https://www.youtube.com/watch?v=_JkZCp64jNw&t=664s)) |
-| Payables Agent | generally available (roadmap [Improve purchase order matching in Payables Agent](../features/573380.md)), demoed | [12:25](https://www.youtube.com/watch?v=_JkZCp64jNw&t=745s) | "So that's uh coming in business central right now. If we talk about coming uh in business central it's in private preview" ([14:58](https://www.youtube.com/watch?v=_JkZCp64jNw&t=898s)) |
+| Payables Agent | preview, demoed | [12:25](https://www.youtube.com/watch?v=_JkZCp64jNw&t=745s) | "So that's uh coming in business central right now. If we talk about coming uh in business central it's in private preview" ([14:58](https://www.youtube.com/watch?v=_JkZCp64jNw&t=898s)) |
 | E-Document Connector | status not stated | [14:58](https://www.youtube.com/watch?v=_JkZCp64jNw&t=898s) |  |
 | Purchase Document Draft Page | status not stated | [15:18](https://www.youtube.com/watch?v=_JkZCp64jNw&t=918s) |  |
 | Payables Agent Public Preview | announced | [15:34](https://www.youtube.com/watch?v=_JkZCp64jNw&t=934s) | "Later this year, you're going to see a public preview of that agent being able to process these invoices" ([15:34](https://www.youtube.com/watch?v=_JkZCp64jNw&t=934s)) |
