@@ -6,10 +6,35 @@
   "title": "Fix Cloud Migration recovery when Tenant Media is unavailable",
   "url": "https://github.com/microsoft/BCApps/pull/13438",
   "published_at": "2026-11-04T16:44:13Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:16:19.655Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-05T00:16:28.147Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004231
+    },
+    "linked": {
+      "at": "2026-11-05T00:16:28.251Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-05T00:16:28.255Z",
+      "path": "content/changes/bcapps/13438.md"
     }
   },
   "input_hash": "ae8dcabf5f8bb651d676b043ad9681f79958957a:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix cloud migration recovery when tenant media is unavailable"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d94daecf871033f0991ff3a546c65dd62f24b274e6390ef024addb3d055b59ae"
 }

@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/across-powerbi-apps-by-functional-area.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-by-functional-area",
   "title": "Power BI apps/reports for functional areas",
-  "blob": "e0fe3459c56137df23d5cbfde6cdbd4a4cd8f0a7",
-  "summary": "Power BI apps provide semantic models and KPIs for analytics by functional area including Finance, Sales, Purchasing, Inventory, Projects, Manufacturing, Subscription Billing, and Sustainability.",
+  "blob": "37b5809d88183f35dc46664c1053f70341719f79",
+  "summary": "Power BI apps and reports for Business Central functional areas including Finance, Sales, Purchasing, Inventory, Projects, Manufacturing, Sustainability, and Subscription Billing, with semantic models and KPIs for data analysis.",
   "systems": [
     "reporting",
     "finance",
@@ -12,21 +12,22 @@
   "topics": [
     "power bi",
     "analytics",
+    "reporting",
     "semantic models",
-    "kpi",
-    "reports",
+    "kpis",
+    "functional areas",
     "data models"
   ],
   "objects": [],
   "features": [
-    "Finance semantic model and KPIs",
-    "Sales semantic model and KPIs",
-    "Purchasing semantic model and KPIs",
-    "Inventory semantic model and KPIs",
-    "Projects semantic model and KPIs",
-    "Manufacturing semantic model and KPIs",
-    "Subscription Billing semantic model and KPIs",
-    "Sustainability semantic model and KPIs"
+    "Power BI Finance app",
+    "Power BI Sales app",
+    "Power BI Purchasing app",
+    "Power BI Inventory app",
+    "Power BI Inventory Valuation app",
+    "Power BI Projects app",
+    "Power BI Manufacturing app",
+    "Power BI Sustainability app"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006802,
-      "pages_in_call": 8
+      "cost_usd": 0.004315,
+      "pages_in_call": 1
     }
   ]
 }

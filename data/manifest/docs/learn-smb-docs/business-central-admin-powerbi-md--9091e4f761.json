@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-powerbi",
   "published_at": "2026-11-04T09:48:51.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:24.344Z",
-      "blob": "b90fc94b21f9e242ddfecc0b2df13711079670d7",
-      "words": 712,
+      "at": "2026-11-05T00:16:07.741Z",
+      "blob": "1d5d19d9130eff2fd1e5da285d3bc4e7fbc1d819",
+      "words": 716,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T17:55:52.942Z",
+      "at": "2026-11-05T00:16:24.207Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.006506
+      "cost_usd": 0.009706
     },
     "summarized": {
-      "at": "2026-10-06T17:55:55.065Z",
+      "at": "2026-11-05T00:16:24.208Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:55:55.066Z",
+      "at": "2026-11-05T00:16:24.209Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:55:55.067Z",
+      "at": "2026-11-05T00:16:24.210Z",
       "page": false
     }
   },
@@ -68,11 +68,11 @@
       "KPI"
     ],
     "ai_usage": null,
-    "words": 712,
+    "words": 716,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8576ab16516d8352ef5df0bff8ff5628f4a47367f8dea41bd96193365ee30a7d"
+  "output_hash": "58b04ed4fc101bb811ce038a2cc3284ab59885f833d66595c367e775493be241"
 }

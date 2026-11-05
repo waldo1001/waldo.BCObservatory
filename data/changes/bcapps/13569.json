@@ -1,0 +1,109 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13569,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13569",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-04T17:56:29Z",
+  "merge_commit_sha": "e40f98b30a1bd1041b4c045b2cd505b841c92902",
+  "author": "encimita",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "ExpenseManagement",
+    "Ownership: Manual"
+  ],
+  "community_contribution": false,
+  "title": "Update expense policy defaults, caption, and search terms",
+  "body_hash": "3ddbecfbdc976d8ec9306a233a095a25a66fa4b2586a515e93df13376121c387",
+  "fixes_issues": [],
+  "work_items": [
+    656440,
+    657768
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Capabilities/ExpenseCapability.Enum.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpensePolicies.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Tables/ExpenseAgentSetup.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/ExpenseAgentSetupAPITest.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 37,
+    "deletions": 3,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Capabilities/ExpenseCapability.Enum.al",
+        "status": "modified",
+        "key": "enum/6984",
+        "type": "enum",
+        "id": 6984,
+        "name": "Expense Capability",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6984"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Pages/ExpensePolicies.Page.al",
+        "status": "modified",
+        "key": "page/7127",
+        "type": "page",
+        "id": 7127,
+        "name": "Expense Policies",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/7127"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Tables/ExpenseAgentSetup.Table.al",
+        "status": "modified",
+        "key": "table/6930",
+        "type": "table",
+        "id": 6930,
+        "name": "Expense Agent Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6930"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

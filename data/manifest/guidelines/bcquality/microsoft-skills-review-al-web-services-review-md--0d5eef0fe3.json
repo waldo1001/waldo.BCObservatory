@@ -7,19 +7,19 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-web-services-review.md",
   "published_at": "2026-11-04T09:28:56.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-29T21:27:16.055Z",
-      "blob": "310c604d0a397aca92a24fe3c1144a16c5337812",
-      "words": 1854,
+      "at": "2026-11-05T00:16:30.457Z",
+      "blob": "152954686079231353dac65ece3bbd3ed578e2ed",
+      "words": 1887,
       "forms": 0
     },
     "published": {
-      "at": "2026-10-29T21:27:18.041Z",
+      "at": "2026-11-05T00:16:35.974Z",
       "path": "content/guidelines/microsoft/skills/review/al-web-services-review.md"
     }
   },
@@ -35,13 +35,15 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1854,
+    "words": 1887,
     "identifiers": [
       "APIPublisher",
       "APIGroup",
       "APIVersion",
       "EntityName",
       "EntitySetName",
+      "AboutText",
+      "EntitySetCaption",
       "ODataKeyFields",
       "SourceTable",
       "SourceTableTemporary",
@@ -74,9 +76,7 @@
       "SetActionResponse",
       "ReadIsolation",
       "IsolationLevel",
-      "ReadCommitted",
-      "HttpClient",
-      "HttpRequestMessage"
+      "ReadCommitted"
     ],
     "identifiers_rule": 2,
     "bcq": {
@@ -102,5 +102,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "310c604d0a397aca92a24fe3c1144a16c5337812"
+  "output_hash": "152954686079231353dac65ece3bbd3ed578e2ed"
 }

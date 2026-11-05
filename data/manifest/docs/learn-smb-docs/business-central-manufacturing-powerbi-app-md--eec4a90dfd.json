@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-app",
   "published_at": "2026-11-04T09:48:51.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.795Z",
-      "blob": "5faa7b7b1873777f2b88840bfdcc9c643e79cd4d",
-      "words": 515,
-      "forms": 20
+      "at": "2026-11-05T00:16:34.210Z",
+      "blob": "d5dcd1a10b73b9247ae836bc217a1291d262700a",
+      "words": 527,
+      "forms": 18
     },
     "extracted": {
-      "at": "2026-10-06T14:21:04.319Z",
+      "at": "2026-11-05T00:16:48.588Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00471
+      "cost_usd": 0.007748
     },
     "summarized": {
-      "at": "2026-10-06T14:21:04.326Z",
+      "at": "2026-11-05T00:16:54.873Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:21:04.327Z",
+      "at": "2026-11-05T00:16:54.874Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:21:04.327Z",
+      "at": "2026-11-05T00:16:54.875Z",
       "page": false
     }
   },
@@ -45,23 +45,13 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/manufacturing-powerbi-app.md",
     "description": "The Power BI Manufacturing app provides insights into your manufacturing activities.",
-    "ms_date": "2026-03-17",
+    "ms_date": "2026-11-03",
     "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37063_Primary",
         "id": 37063,
         "kind": "Primary"
-      },
-      {
-        "raw": "37040",
-        "id": 37040,
-        "kind": null
-      },
-      {
-        "raw": "37041",
-        "id": 37041,
-        "kind": null
       },
       {
         "raw": "37042",
@@ -153,11 +143,11 @@
       "reporting"
     ],
     "ai_usage": null,
-    "words": 515,
+    "words": 527,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "06933dfe3c68c71ab847cb92c2ff7f0e2f23fdd46ef90774a711e143329d87d8"
+  "output_hash": "27c8d7f394423a3f198704c60e7e9448dc09ee0d8996f6df33e88098d759cd49"
 }

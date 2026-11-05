@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13438",
+  "number": 13438,
+  "title": "Fix Cloud Migration recovery when Tenant Media is unavailable",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "Cloud migration recovery now handles Tenant Media read failures gracefully by using a shared try function that logs skipped checks and preserves saved counts, allowing replication to complete and retry instead of aborting.",
+  "key_points": [
+    "Shared read-only try function for media counts prevents replication webhook abort when table access fails",
+    "Unavailable counts are logged and skipped rather than causing failure",
+    "Previous media counts are preserved across retry attempts",
+    "Added regression tests for normal comparisons, unavailable counts, and retry scenarios",
+    "No schema or public API changes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "If the count is unavailable, log the skipped check, preserve the saved count, and allow completion handling and replication retries to continue.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004231,
+    "changes_in_call": 1
+  }
+}

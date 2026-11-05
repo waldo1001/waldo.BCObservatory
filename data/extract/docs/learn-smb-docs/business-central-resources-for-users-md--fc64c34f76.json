@@ -2,27 +2,33 @@
   "item_id": "docs/learn-smb-docs/business-central/resources-for-users.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/resources-for-users",
   "title": "Resources for users",
-  "blob": "3ab75e5edf906cc72e48b16acfb48465a4f480fa",
-  "summary": "Resources for Business Central users provides links and guidance to documentation, community forums, release plans, apps, mobile access, and support materials for using the application.",
+  "blob": "6470e9ae6cdf9749b4e6c2878bb8bcad169bedf1",
+  "summary": "Central hub for Business Central users providing curated links to releases, documentation, community resources, onboarding materials, reporting tools, Power Platform integrations, migration assets, telemetry, security guidance, and event information.",
   "systems": [
-    "platform"
+    "administration",
+    "reporting",
+    "integration"
   ],
   "topics": [
-    "user resources",
+    "resources",
     "documentation",
+    "release notes",
     "community",
-    "support"
+    "onboarding",
+    "compliance",
+    "telemetry",
+    "migration"
   ],
   "objects": [],
   "features": [
-    "Release plan links",
-    "Community access",
-    "Marketplace app discovery",
-    "Mobile app access",
-    "Reporting guides",
-    "Power Platform integration",
-    "Migration resources",
-    "Security documentation"
+    "Release updates",
+    "Marketplace apps",
+    "Mobile applications",
+    "Power BI integration",
+    "Power Automate integration",
+    "Power Apps integration",
+    "Data migration tools",
+    "Security and compliance"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007311,
-      "pages_in_call": 6
+      "cost_usd": 0.004644,
+      "pages_in_call": 1
     }
   ]
 }

@@ -6,10 +6,21 @@
   "title": "Adding invited guests from calendar as participants to your expense",
   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573609",
   "published_at": "2026-11-04T00:02:09.000Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:16:28.256Z",
+      "from": "snapshot"
+    },
+    "linked": {
+      "at": "2026-11-05T00:16:28.256Z"
+    },
+    "published": {
+      "at": "2026-11-05T00:16:28.279Z",
+      "path": "content/features/573609.md"
     }
   },
   "input_hash": "f17bab5365a388caecfa4e5f6f9af58ee3a90680cff6d161a95d49e3256e1a7b",
@@ -21,5 +32,8 @@
     "ga": "April CY2027",
     "preview": "January CY2027",
     "area": "Expense Agent"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f17bab5365a388caecfa4e5f6f9af58ee3a90680cff6d161a95d49e3256e1a7b"
 }

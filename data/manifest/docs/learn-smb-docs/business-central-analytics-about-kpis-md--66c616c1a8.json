@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
   "published_at": "2026-11-04T09:48:51.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.911Z",
-      "blob": "aab86063064bb049ca88ca37e042d25a1dc4cf47",
+      "at": "2026-11-05T00:16:19.508Z",
+      "blob": "8acb0af065fe6453fd971ca4506f43124688f5b1",
       "words": 1102,
-      "forms": 70
+      "forms": 67
     },
     "extracted": {
-      "at": "2026-10-06T19:40:01.106Z",
+      "at": "2026-11-05T00:16:32.303Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003231
+      "cost_usd": 0.004368
     },
     "summarized": {
-      "at": "2026-10-06T19:40:01.245Z",
+      "at": "2026-11-05T00:16:32.304Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:40:01.247Z",
+      "at": "2026-11-05T00:16:32.304Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:40:01.249Z",
+      "at": "2026-11-05T00:16:32.305Z",
       "page": false
     }
   },
@@ -166,11 +166,6 @@
       {
         "raw": "37007",
         "id": 37007,
-        "kind": null
-      },
-      {
-        "raw": "37008",
-        "id": 37008,
         "kind": null
       },
       {
@@ -329,16 +324,6 @@
         "kind": null
       },
       {
-        "raw": "37040",
-        "id": 37040,
-        "kind": null
-      },
-      {
-        "raw": "37041",
-        "id": 37041,
-        "kind": null
-      },
-      {
         "raw": "37042",
         "id": 37042,
         "kind": null
@@ -409,5 +394,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dba288a326a3e6247716737bfb62e98ec8456a118d34f0659c22f7f70472287b"
+  "output_hash": "02c88d24b1aa8cbb8908c0bff277949ca3e52575d61be90ee9aecac84c86cdf2"
 }

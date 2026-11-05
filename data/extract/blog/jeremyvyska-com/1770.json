@@ -4,37 +4,37 @@
   "title": "Fall 2026 Agentic Development Classes: Copilot Refresh, Claude Code, and BCQuality",
   "source": "jeremyvyska-com",
   "published_at": "2026-10-25T09:17:56.000Z",
-  "words": 903,
-  "summary": "Three standalone agentic development classes launching in November 2026 cover GitHub Copilot refresh for AL development, Claude Code for Business Central work, and BCQuality for consistent code standards. Classes are designed for developers already working with AI tools or exploring them for AL development.",
+  "words": 907,
+  "summary": "Three standalone agentic development classes for Business Central teams cover GitHub Copilot updates for AL development, Claude Code setup and workflow, and BCQuality integration for consistent code quality. Scheduled for November-December 2026 with live and recording options.",
   "key_points": [
-    "VS Code and GitHub Copilot class covers agent mode, custom agents, skills, and MCP servers for AL work",
-    "Claude Code class teaches setup and usage patterns specific to Business Central, including plan mode and artifacts",
-    "BCQuality class shows how to integrate quality standards into development workflows for both human and agentic developers",
-    "Three standalone classes run twice per week to accommodate different time zones, with live Q&A sessions"
+    "GitHub Copilot refresh covers agent mode, custom agents, agent skills, instructions files, MCP servers, and plugin packaging for AL development",
+    "Claude Code class teaches setup for BC repos, plan-build-verify loop with AL compiler, skills and subagents, and artifacts for shareable pages",
+    "BCQuality class explains the three-layer structure, integration with Copilot and Claude Code, custom knowledge files, and process integration",
+    "All classes run twice weekly in two time zones with 60-minute live sessions plus 30-minute unrecorded Q&A, with DRM-free recordings included"
   ],
   "systems": [
-    "copilot",
-    "development"
+    "development",
+    "copilot"
   ],
   "topics": [
     "agentic development",
-    "github copilot",
+    "copilot",
     "claude code",
     "al development",
     "code quality",
-    "mcp servers",
-    "bcquality"
+    "training",
+    "mcp servers"
   ],
   "objects": [],
   "features": [
-    "GitHub Copilot for AL development",
+    "GitHub Copilot agent mode",
+    "GitHub Copilot custom agents",
     "Claude Code",
-    "BCQuality knowledge system",
-    "Agent mode",
-    "Custom agents",
-    "Agent skills",
-    "MCP servers",
-    "Plugins"
+    "BCQuality knowledge layers",
+    "MCP server integration",
+    "Agent skills and subagents",
+    "Instructions and prompt files",
+    "Artifacts for sharing"
   ],
   "versions": [
     "Fall 2026"
@@ -42,16 +42,16 @@
   "language": "en",
   "quotes": [
     {
-      "text": "Instructions files, prompt files, and AGENTS.md: what goes where in a BC repo",
-      "why_it_matters": "Clarifies how to organize agentic development tools and configurations in a Business Central repository structure"
+      "text": "AGENTS.md: what goes where in a BC repo",
+      "why_it_matters": "Clarifies where to document agent configuration in Business Central repositories"
     },
     {
       "text": "Plan mode and the plan → build → verify loop, with the AL compiler and tests in the loop",
-      "why_it_matters": "Shows how Claude Code integrates with BC development workflows and testing processes"
+      "why_it_matters": "Describes the core Claude Code workflow for BC development with integrated validation"
     },
     {
-      "text": "Using BCQuality from both Copilot and Claude Code to review AL changes",
-      "why_it_matters": "Demonstrates that quality standards can be enforced consistently across different AI tools and development approaches"
+      "text": "BCQuality is the successor to alguidelines.dev, built for both human and agentic developers.",
+      "why_it_matters": "Establishes BCQuality as the evolution of guidance standards for both agent and human code review"
     }
   ],
   "trimmed_for_policy": 0,
@@ -59,7 +59,7 @@
   "llm": {
     "model": "claude-haiku-4-5-20251001",
     "cached": false,
-    "cost_usd": 0.005727,
+    "cost_usd": 0.006533,
     "posts_in_call": 1
   }
 }

@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13603,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13603",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-04T17:26:36Z",
+  "merge_commit_sha": "1c51b1f77ed32c7267d68456850d9d93296821d3",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29.X]-Sales Quote for Subscription Billing (RDLC) Layout Fails with GlobalLocationNumber_Lbl Dataset Rendering Error.",
+  "body_hash": "b133ebcb0d9c11f749ff9df957310dde22988a8f58dbebb972b007508f0f0295",
+  "fixes_issues": [],
+  "work_items": [
+    657783
+  ],
+  "change_class": "non-code",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 2,
+    "al": 0
+  },
+  "join": {
+    "major": "29",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

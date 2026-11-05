@@ -14,16 +14,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-29T21:27:26.283Z"
+  at: "2026-11-05T00:16:13.510Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: cd0a455205d34a53aed729e0372c2c550d26f728
+  input_hash: 6faaf7b0d768b2a5b8f2fd96cc026d92c7e1d1c9
 evidence:
   - kind: guideline
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-reporting-review.md
     title: "microsoft/BCQuality: AL reporting review"
-    date: "2026-10-20"
-    commit: a4593a1b1585a0fa663efbf39ff02c60f846d851
+    date: "2026-11-04"
+    commit: c203ebc862a6dc9a35fcb7a50110a96e0bae6f55
     t: null
     quote: null
 links:
@@ -102,9 +102,9 @@ Match relevant entries against changed `report` and `reportextension` objects, v
 Apply this targeted check even when token overlap would rank the article below the worklist cutoff:
 
 - The same Report variable has two logically independent `RunModal()` executions without `Clear` before the second configuration — `clear-report-variable-before-independent-runmodal`.
-- `CurrReport.Break()` is used inside an explicit loop while reachable statements after the loop are expected to finish the current trigger — `currreport-break-ends-the-current-trigger`.
+- `CurrReport.Break()` is used to leave only an explicit AL loop or is expected to skip only one record while continuing that dataitem — `currreport-break-ends-the-current-trigger`. Require a visible continuation expectation.
 - `CurrReport.Quit()` follows database writes or the report relies on `OnPostReport` finalization — `currreport-quit-rolls-back-and-skips-onpostreport`.
-- `CurrReport.Skip()` is followed by reachable code in the same trigger, or later record triggers contain work that is unsafe for skipped records — `currreport-skip-does-not-stop-trigger-code`.
+- A skipped row is assumed to suppress later base/reportextension triggers whose work is unsafe for that row — `currreport-skip-current-trigger-and-later-triggers`. Require a visible trigger relationship and unsafe skipped-record processing; apply the article's negative clarification to avoid confusing later triggers with statements after `Skip()` in the calling trigger.
 - A loop reachable from one Web client action calls `Report.Run`, `Report.RunModal`, or `DownloadFromStream` more than once instead of producing one archive download — `report-output-in-a-loop-needs-one-client-download`. Do not select this article when the context is non-Web or the loop is provably single-iteration.
 - A ReportExtension before-trigger establishes a filter or value that visible base-trigger code subsequently replaces — `reportextension-dataitem-trigger-order-is-explicit`. Do not select this article from a before-trigger alone.
 - A ReportExtension `OnPreReport` prepares state consumed by the base `OnPreReport`, or its `OnPostReport` prepares state already consumed by the base `OnPostReport` — `reportextension-report-triggers-run-after-base-triggers`. Require visible base behavior or equivalent established evidence.
@@ -146,4 +146,4 @@ Output conforms to the DO findings-report contract. Every finding this skill emi
 
 ---
 
-From microsoft/BCQuality at a4593a1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at c203ebc, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

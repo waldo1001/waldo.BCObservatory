@@ -6,10 +6,35 @@
   "title": "[Fabric] Separate workspace read and write scopes",
   "url": "https://github.com/microsoft/BCApps/pull/13476",
   "published_at": "2026-11-04T16:44:13Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:16:26.042Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-05T00:16:34.218Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004023
+    },
+    "linked": {
+      "at": "2026-11-05T00:16:34.324Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-05T00:16:34.328Z",
+      "path": "content/changes/bcapps/13476.md"
     }
   },
   "input_hash": "d4067bcc3ef9cc66ca4ad0d6c23e4924374a5764:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "fabric separate workspace read and write scopes"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "603301e1f99716829f91e5fb804ba7270fc5c53674d9629bf02036f7a5bb1947"
 }

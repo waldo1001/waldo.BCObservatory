@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13569",
+  "number": 13569,
+  "title": "Update expense policy defaults, caption, and search terms",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The Expense Policies page now labels the Description field as Name with updated search terms, and new Expense Agent setups enable policy evaluation by default while preserving existing company settings.",
+  "key_points": [
+    "Description field renamed to Name on the Expense Policies page UI",
+    "Added Policy and Policy Evaluation as search terms for the page",
+    "New setups default to enabling AI policy evaluation, existing setups unchanged",
+    "Submitter-run evaluation remains disabled by default",
+    "API and schema remain unchanged, no upgrade impact"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": "Enable policy evaluation by default for new Expense Agent setups while leaving submitter-run evaluation disabled.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004024,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13476",
+  "number": 13476,
+  "title": "[Fabric] Separate workspace read and write scopes",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Fabric mirroring now uses read-only workspace scopes for browsing operations and requests write permission only for workspace role assignments, with manual setup instructions as fallback.",
+  "key_points": [
+    "Workspace browsing and Open Mirroring database operations now use Workspace.Read.All for read-only access",
+    "Add to workspace feature exclusively requests Workspace.ReadWrite.All permission",
+    "If token acquisition for write permission fails, users see manual instructions to grant Contributor access in Fabric",
+    "Underlying authentication errors are preserved in error details",
+    "Custom-app default authentication flow remains unchanged"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004023,
+    "changes_in_call": 1
+  }
+}

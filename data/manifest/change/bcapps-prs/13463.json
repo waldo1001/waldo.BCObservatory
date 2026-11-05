@@ -6,10 +6,18 @@
   "title": "[29x] Add Maintenance Code field on purchase order subpage and purchase invoice subpage",
   "url": "https://github.com/microsoft/BCApps/pull/13463",
   "published_at": "2026-11-04T15:52:04Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:16:44.168Z",
+      "change_class": "code",
+      "files": 16,
+      "al": 16,
+      "objects": 2,
+      "unjoined": 14
     }
   },
   "input_hash": "6b72875f8182378bf738a72a4e3346ccb9304e78:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "29x add maintenance code field on purchase order subpage and purchase invoice subpage"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3c43f452da16db408f5d835e1212894bf0420353b91a693299dfed5dcfbc112d"
 }

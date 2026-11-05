@@ -3,14 +3,24 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "describe api pages for mcp with abouttext",
+  "title": "Describe API objects intended for Business Central MCP tools",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/describe-api-pages-for-mcp-with-abouttext.md",
   "published_at": "2026-11-04T09:28:56.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:16:17.836Z",
+      "blob": "d0b20c74aa9751cb71c1a938e2134d76368203f4",
+      "words": 353,
+      "forms": 0
+    },
+    "published": {
+      "at": "2026-11-05T00:16:22.867Z",
+      "path": "content/guidelines/microsoft/knowledge/web-services/describe-api-pages-for-mcp-with-abouttext.md"
     }
   },
   "input_hash": "d0b20c74aa9751cb71c1a938e2134d76368203f4",
@@ -18,6 +28,58 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/web-services/describe-api-pages-for-mcp-with-abouttext.md"
-  }
+    "path": "microsoft/knowledge/web-services/describe-api-pages-for-mcp-with-abouttext.md",
+    "description": "For API pages and API queries exposed through the Business Central online MCP server, the documented tool-description precedence is AboutText, then EntitySetCaption, then a camel-cased EntityName.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [
+      "api-page",
+      "api-query",
+      "abouttext",
+      "mcp",
+      "tool-description",
+      "entitysetcaption",
+      "metadata"
+    ],
+    "ai_usage": null,
+    "words": 353,
+    "identifiers": [
+      "AboutText",
+      "EntitySetCaption",
+      "EntityName",
+      "AboutTitle"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "web-services",
+      "keywords": [
+        "api-page",
+        "api-query",
+        "abouttext",
+        "mcp",
+        "tool-description",
+        "entitysetcaption",
+        "metadata"
+      ],
+      "bc_version": [
+        "28.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "For API pages and API queries exposed through the Business Central online MCP server, the documented tool-description precedence is AboutText, then EntitySetCaption, then a camel-cased EntityName."
+    },
+    "bcq_rule": 1
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d0b20c74aa9751cb71c1a938e2134d76368203f4"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-by-functional-area",
   "published_at": "2026-11-04T09:48:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T14:08:17.030Z",
+      "at": "2026-11-05T00:16:00.033Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.006802
+      "cost_usd": 0.004315
     },
     "summarized": {
-      "at": "2026-10-06T14:08:17.035Z",
+      "at": "2026-11-05T00:16:00.034Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:08:17.035Z",
+      "at": "2026-11-05T00:16:00.034Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:08:17.036Z",
+      "at": "2026-11-05T00:16:00.035Z",
       "page": false
     }
   },
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "37b5809d88183f35dc46664c1053f70341719f79"
+  "output_hash": "77d49699bddc6309c0b522c043b44853a39c2e74c95c0f82443d707b53dcb0cf"
 }
