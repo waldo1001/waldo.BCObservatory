@@ -22,7 +22,7 @@ then restart the app you install into.
 
 | You use | Install | Needs Node | You get |
 |---|---|---|---|
-| Claude Code | `claude plugin marketplace add waldo1001/waldo.BCObservatory` then `claude plugin install bc-observatory@bc-observatory` | yes | the plugin: 3 servers, 4 skills, the web-search reminder |
+| Claude Code | `claude plugin marketplace add https://waldo1001.github.io/waldo.BCObservatory/marketplace.json` then `claude plugin install bc-observatory@bc-observatory` | yes | the plugin: 3 servers, 4 skills, the web-search reminder |
 | GitHub Copilot CLI | `copilot plugin install waldo1001/waldo.BCObservatory:plugin` | yes | the plugin: 3 servers, 4 skills |
 | VS Code (Copilot Chat) | one click on [the MCP page](https://waldo1001.github.io/waldo.BCObservatory/mcp/#install-vscode), or the `mcp.json` there | yes | the 3 servers |
 | Cursor, Windsurf, other MCP clients | [the MCP page](https://waldo1001.github.io/waldo.BCObservatory/mcp/#install-cursor) (one click for Cursor) | yes | the 3 servers |
@@ -33,10 +33,14 @@ Then ask: *What is table 18 in Business Central? Use BC Observatory.* It should 
 INSTALL.md has a "Something went wrong" table per app.
 
 ```bash
-claude plugin marketplace add waldo1001/waldo.BCObservatory          # Claude Code plugin, step 1: the marketplace
-claude plugin install bc-observatory@bc-observatory                  # step 2: the plugin (MCP + bcobs-lookup, bcobs-whats-new, bcobs-localization, bcobs-grounding)
+claude plugin marketplace add https://waldo1001.github.io/waldo.BCObservatory/marketplace.json   # Claude Code plugin, step 1: the marketplace (a 1 KB file on the site)
+claude plugin install bc-observatory@bc-observatory                  # step 2: the plugin (fetches plugin/ alone, about 100 KB: MCP + bcobs-lookup, bcobs-whats-new, bcobs-localization, bcobs-grounding)
 copilot plugin install waldo1001/waldo.BCObservatory:plugin       # the same plugin in GitHub Copilot CLI
 ```
+
+Added the marketplace before 2026-11-05 with the repository path (`claude plugin marketplace add waldo1001/waldo.BCObservatory`)? That
+clones the whole repository, over 1 GB, and fails on slow machines; switch and clean up as
+[INSTALL.md](INSTALL.md#clean-up-the-old-marketplace) says.
 
 What the plugin installs (three MCP servers, four skills, what leaves your machine): [`plugin/README.md`](plugin/README.md).
 

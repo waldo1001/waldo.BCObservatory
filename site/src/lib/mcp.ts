@@ -21,7 +21,13 @@ export interface InstallTab {
 }
 
 export const SERVER_CMD = "claude mcp add bc-observatory -- npx -y bc-observatory@latest";
-export const PLUGIN_CMD = "claude plugin marketplace add waldo1001/waldo.BCObservatory";
+/** The marketplace Claude Code users add (D128): `site/public/marketplace.json`, a 1 KB file on this site whose one entry is a
+ * git-subdir source, so the install fetches only `plugin/` from the repository (about 100 KB). The repository's own
+ * `.claude-plugin/marketplace.json` stays for claude.ai, which clones the repository on its side. */
+export const MARKETPLACE_URL = "https://waldo1001.github.io/waldo.BCObservatory/marketplace.json";
+export const PLUGIN_CMD = `claude plugin marketplace add ${MARKETPLACE_URL}`;
+/** The repository path still works but clones the whole repository (over 1 GB) unless the checkout is limited to the plugin's folders. */
+export const PLUGIN_CMD_SPARSE = "claude plugin marketplace add waldo1001/waldo.BCObservatory --sparse .claude-plugin plugin";
 /** The second Claude Code command: the first only adds the marketplace (`claude plugin install <plugin>@<marketplace>`). */
 export const PLUGIN_INSTALL_CMD = "claude plugin install bc-observatory@bc-observatory";
 /** The step-by-step guide per Claude app, for readers who are not developers (INSTALL.md at the repository root). */
@@ -91,7 +97,7 @@ export const ASKS: Ask[] = [
 
 export function installSteps(repo: string): InstallStep[] {
   return [
-    { client: "Claude Code: the plugin (server, four skills, bc-code-atlas, Microsoft Learn MCP)", how: "Two commands: the first adds the marketplace, the second installs the plugin. The plugin registers the MCP server, the bc-code-atlas server and Microsoft's Learn MCP server and ships the four skills.", code: `${PLUGIN_CMD}\n${PLUGIN_INSTALL_CMD}`, lang: "bash" },
+    { client: "Claude Code: the plugin (server, four skills, bc-code-atlas, Microsoft Learn MCP)", how: "Two commands: the first adds the marketplace (a 1 KB file on this site), the second installs the plugin (it fetches only the plugin's folder from the repository, about 100 KB). The plugin registers the MCP server, the bc-code-atlas server and Microsoft's Learn MCP server and ships the four skills.", code: `${PLUGIN_CMD}\n${PLUGIN_INSTALL_CMD}`, lang: "bash" },
     { client: "GitHub Copilot CLI: the plugin (server, four skills, bc-code-atlas, Microsoft Learn MCP)", how: "The same plugin, installed from its folder in the repository. Copilot CLI reads the Claude Code manifest as it is. A plugin installed in Copilot CLI is not available in the VS Code Copilot Chat panel; use the VS Code step below for that.", code: COPILOT_PLUGIN_CMD, lang: "bash" },
     { client: "Claude Code: the server only", how: "No skills, no atlas: just the eleven tools.", code: SERVER_CMD, lang: "bash" },
     { client: "Claude Desktop, Cursor, Windsurf and other MCP clients", how: "Add the server to the client's MCP configuration (claude_desktop_config.json, .cursor/mcp.json, ...).", code: JSON.stringify({ mcpServers: { "bc-observatory": { command: "npx", args: ["-y", "bc-observatory@latest"] } } }, null, 2), lang: "json" },
@@ -140,7 +146,7 @@ export function mcpMarkdown(v: McpVersions, repo: string, site: string): string 
   const L = [
     "# MCP: Business Central for your agent", "",
     "The knowledge base this site is built from, as an MCP server your agent can query, and a Claude Code plugin around it. Every answer carries the page, its trust tier (official is Microsoft, community is everyone else) and its evidence. No API key, no account: the server downloads the site's search index once a day and reads pages as markdown.", "",
-    `Server: \`bc-observatory\` ${v.server} on npm (${NODE_REQUIREMENT}). Plugin: \`bc-observatory\` ${v.plugin} from the repository's marketplace.`, "",
+    `Server: \`bc-observatory\` ${v.server} on npm (${NODE_REQUIREMENT}). Plugin: \`bc-observatory\` ${v.plugin} from the marketplace this site serves (${MARKETPLACE_URL}).`, "",
     "## What to ask", "", ...ASKS.map((a) => `- "${a.ask}" (${a.via})`), "",
     "## The tools", "", ...TOOLS.map((t) => `- **${t.name}**: ${t.what} Example: \`${t.example}\`.`), "",
     "## The plugin (Claude Code, GitHub Copilot CLI)", "", ...SKILLS.map((s) => `- **${s.name}**: ${s.what}`), "",

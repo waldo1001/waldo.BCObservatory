@@ -275,10 +275,13 @@ one.
 1. Add the marketplace:
 
    ```bash
-   claude plugin marketplace add waldo1001/waldo.BCObservatory
+   claude plugin marketplace add https://waldo1001.github.io/waldo.BCObservatory/marketplace.json
    ```
 
-   You should see: that the marketplace **bc-observatory** was added.
+   You should see: that the marketplace **bc-observatory** was added, within seconds. The address is a 1 KB file on the
+   observatory's site; step 2 then fetches only the plugin's folder from GitHub (about 100 KB). Did you add the
+   marketplace before 2026-11-05, with `waldo1001/waldo.BCObservatory`? That form clones the whole repository (over
+   1 GB): do [Clean up the old marketplace](#clean-up-the-old-marketplace) first.
 
 2. Install the plugin:
 
@@ -312,6 +315,43 @@ claude -p "What is table 18 in Business Central? Use BC Observatory."
 | Step 2 says the plugin is not found | Step 1 did not run, or was mistyped. `claude plugin marketplace list` shows **bc-observatory** when step 1 worked. |
 | `bc-observatory` failed in `/mcp` | Node.js is missing or too old: Node.js 22 or newer (the current LTS is fine), see "Before you start", then restart Claude Code. An error from a `bc-first.mjs` hook before a web search means the same thing. On a company network, `npx` must reach `registry.npmjs.org`. |
 | You see an old version | Run `claude plugin marketplace update bc-observatory`, then restart Claude Code. |
+| Step 1 runs for minutes, or ends with `Git clone timed out after 120s` | You used the repository path (`waldo1001/waldo.BCObservatory`), which clones the whole repository. Use the address in step 1. If you must use the repository path, limit the checkout to the plugin: `claude plugin marketplace add waldo1001/waldo.BCObservatory --sparse .claude-plugin plugin`. |
+| Step 2 cannot fetch the plugin | Step 2 clones the plugin's folder from `github.com` over HTTPS with git. On a company network, git must reach `github.com`; `git ls-remote https://github.com/waldo1001/waldo.BCObservatory.git` shows whether it does. |
+
+### Clean up the old marketplace
+
+Until 2026-11-05 this guide said `claude plugin marketplace add waldo1001/waldo.BCObservatory`. That clones the whole repository (over
+1 GB), and on a slow connection, over a VPN or with a virus scanner on the folder, the clone stops at Claude Code's
+120-second limit. The marketplace then never registers, Claude Code tries again at every start, and each failed try
+leaves a folder `temp_git_<timestamp>..clone` behind in `~/.claude/plugins/marketplaces`: tens of gigabytes within a
+week. That Claude Code does not delete a failed clone is a Claude Code bug, reported to Anthropic separately. Switch once:
+
+1. Remove the old marketplace. This also uninstalls the plugin and deletes its clone:
+
+   ```bash
+   claude plugin marketplace remove bc-observatory
+   ```
+
+   If that says the marketplace does not exist, the add never finished: open `~/.claude/settings.json` (Windows:
+   `%USERPROFILE%\.claude\settings.json`) and delete the `bc-observatory` entry under `extraKnownMarketplaces`. Without
+   that, Claude Code keeps retrying the clone.
+
+2. Delete the leftover clones. Only the `temp_git_*` folders; leave everything else in that folder alone.
+
+   Windows (PowerShell):
+
+   ```powershell
+   Get-ChildItem "$env:USERPROFILE\.claude\plugins\marketplaces" -Directory -Filter 'temp_git_*' | Remove-Item -Recurse -Force
+   ```
+
+   Mac and Linux:
+
+   ```bash
+   rm -rf ~/.claude/plugins/marketplaces/temp_git_*
+   ```
+
+3. Do steps 1 and 2 of [Steps](#steps) above: add the marketplace by its address, install the plugin. Your
+   `enabledPlugins` setting keeps working: the plugin's name, `bc-observatory@bc-observatory`, did not change.
 
 ### Remove it
 

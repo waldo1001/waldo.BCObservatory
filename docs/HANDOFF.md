@@ -42,6 +42,15 @@ questions in its section 12).
   says so). Still open: the claude.ai check that a skill without the server says so and links the install page. The
   hosted server stays parked (spec section 8).
 
+**Built 2026-11-05 (no MCP or plugin change; needs push, then the Pages deploy):**
+- **Light marketplace (D128, M63).** Claude Code users add `https://waldo1001.github.io/waldo.BCObservatory/marketplace.json`
+  (1 KB; its entry fetches `plugin/` alone, about 100 KB) instead of the repository path, which cloned 1.1 GB, timed out
+  on slow machines and left `temp_git_*` folders behind at every retry. `.claude-plugin/marketplace.json` stays for
+  claude.ai. Operator steps: push, wait for the Pages deploy, then from a clean config dir
+  (`CLAUDE_CONFIG_DIR=$(mktemp -d)`) run `claude plugin marketplace add <the address>` and
+  `claude plugin install bc-observatory@bc-observatory`; then point the colleague who reported it to INSTALL.md
+  "Clean up the old marketplace".
+
 **Built 2026-10-30 (MCP 0.14.0, plugin 0.10.0; published, and in 0.15.0):**
 - **MCP resource counts (D127, M62, issue #60).** The MCP sends one unlinked `Obs.Resource` event per page an answer
   points to (index id or `other`; no session, user, client or location; time on the hour). Nothing changes for readers
