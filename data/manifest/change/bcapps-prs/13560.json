@@ -6,10 +6,35 @@
   "title": "[QM] Move Inventory: allow destination location for non-directed item",
   "url": "https://github.com/microsoft/BCApps/pull/13560",
   "published_at": "2026-11-04T13:04:47Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:18:56.966Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-05T00:19:16.482Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.006619
+    },
+    "linked": {
+      "at": "2026-11-05T00:19:16.586Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-05T00:19:16.590Z",
+      "path": "content/changes/bcapps/13560.md"
     }
   },
   "input_hash": "cb5edda004a8a319ddbe375c90a834b17bc00a27:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "qm move inventory allow destination location for non directed item"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b8797d834b5986fa76559a1ac9a64a503de034c2c6dbb84aa56777e6d97c7dd4"
 }

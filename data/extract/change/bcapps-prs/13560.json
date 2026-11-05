@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13560",
+  "number": 13560,
+  "title": "[QM] Move Inventory: allow destination location for non-directed item",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The Move Inventory report in Quality Management now allows users to specify a destination location when moving non-directed items, removing a previous restriction that prevented this operation.",
+  "key_points": [
+    "Users can now set a destination location for non-directed items in the Move Inventory process",
+    "The previous limitation that blocked destination location selection for certain item types is removed",
+    "New test cases validate the destination location functionality for non-directed items",
+    "The change maintains backward compatibility while expanding functionality"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006619,
+    "changes_in_call": 1
+  }
+}

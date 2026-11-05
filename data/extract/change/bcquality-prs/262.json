@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcquality-prs/262",
+  "number": 262,
+  "title": "Trim two articles to the 10-keyword limit",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Two knowledge articles were trimmed to comply with the 10-keyword limit by removing generic plural and design keywords while keeping specific type and property terms.",
+  "key_points": [
+    "Removed generic keywords like 'tables', 'pages', 'table-design', and 'page-design' from article frontmatter",
+    "Reduced keyword count from 12 to 10 for two articles on table and page design conventions",
+    "Resolved all frontmatter validator errors and warnings",
+    "Kept specific technical keywords related to types and properties"
+  ],
+  "change_kind": "other",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003306,
+    "changes_in_call": 1
+  }
+}

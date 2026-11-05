@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12624",
+  "number": 12624,
+  "title": "Align styling in Document Report Experience themes, HF designs and bodies",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Styling of Word report themes, header/footer designs and bodies is aligned so they work consistently together, with tighter table spacing, updated font sizes, and removal of unused styles.",
+  "key_points": [
+    "17 binary Word files updated: 3 themes (Calm, Default, Playful), 11 header/footer designs, and 3 report bodies",
+    "Table styles now use consistent spacing (120/60), tabular numbers, and themes no longer embed header/footer parts",
+    "Normal style in header/footer designs changed from 8pt to 12pt, while body text follows theme styles instead of hard-coding size",
+    "External header/footer designs no longer include runtime dates; InternalModern uses Word DATE field for current date",
+    "Report bodies gain 3 to 5 new HideTableRowIfEmpty controls to prevent empty table rows"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005587,
+    "changes_in_call": 1
+  }
+}

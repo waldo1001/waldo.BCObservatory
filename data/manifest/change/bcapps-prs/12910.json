@@ -6,10 +6,35 @@
   "title": "[Master] - Bug 652243: [Expense Agent] Validate approval user email",
   "url": "https://github.com/microsoft/BCApps/pull/12910",
   "published_at": "2026-11-04T07:57:48Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:22:08.949Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-05T00:22:12.669Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003109
+    },
+    "linked": {
+      "at": "2026-11-05T00:22:12.776Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-05T00:22:12.793Z",
+      "path": "content/changes/bcapps/12910.md"
     }
   },
   "input_hash": "a92f9bf4f6e1a0a4abe9bf735572d05dce288c11:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 652243 expense agent validate approval user email"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "579b5626f5be1d0322af467b15b51c3a08cd236a695361ff2e405e09e551cfef"
 }

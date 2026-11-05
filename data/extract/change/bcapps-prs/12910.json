@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12910",
+  "number": 12910,
+  "title": "[Master] - Bug 652243: [Expense Agent] Validate approval user email",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The Expense Agent now validates approval user emails correctly by checking Microsoft 365 authentication email instead of the previous validation method.",
+  "key_points": [
+    "Fixes approval user email validation in the Expense User table",
+    "Checks Microsoft 365 authentication email properly",
+    "Includes test coverage for interim approvals and approval workflows",
+    "Improves reliability of expense report approval routing"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Improves approval user validation by checking the Microsoft 365 authentication email correctly",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003109,
+    "changes_in_call": 1
+  }
+}

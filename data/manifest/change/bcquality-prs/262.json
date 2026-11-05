@@ -6,10 +6,35 @@
   "title": "Trim two articles to the 10-keyword limit",
   "url": "https://github.com/microsoft/BCQuality/pull/262",
   "published_at": "2026-11-04T11:06:57Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:20:04.755Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-11-05T00:20:36.313Z",
+      "prompt": "extract-change@1",
+      "kind": "other",
+      "behavior": false,
+      "cost_usd": 0.003306
+    },
+    "linked": {
+      "at": "2026-11-05T00:20:36.314Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-05T00:20:40.312Z",
+      "path": "content/changes/bcquality/262.md"
     }
   },
   "input_hash": "c203ebc862a6dc9a35fcb7a50110a96e0bae6f55:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "trim two articles to the 10 keyword limit"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3d0718b6b3056e5f8a3978c32a1a5b3c3e4204f7f08705828543e1f370629553"
 }

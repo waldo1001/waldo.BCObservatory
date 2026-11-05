@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12680,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12680",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-04T12:03:30Z",
+  "merge_commit_sha": "a30321a03afcd3a394256b4d5197fbceacd24daf",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[API tests] Set sales quote document and posting dates in API tests",
+  "body_hash": "4a85008a5eea5dc8219accad6c80c028a36ad2443001d3ba5fcebdf6b18b12f6",
+  "fixes_issues": [],
+  "work_items": [
+    646383,
+    653124,
+    653393
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 4,
+    "additions": 6,
+    "deletions": 10,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

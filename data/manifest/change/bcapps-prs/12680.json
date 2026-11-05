@@ -6,7 +6,7 @@
   "title": "[API tests] Set sales quote document and posting dates in API tests",
   "url": "https://github.com/microsoft/BCApps/pull/12680",
   "published_at": "2026-11-04T12:03:30Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "api tests set sales quote document and posting dates in api tests"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-05T00:19:33.101Z",
+  "retry_after": null
 }

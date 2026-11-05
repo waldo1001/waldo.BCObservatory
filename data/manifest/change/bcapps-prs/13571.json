@@ -6,7 +6,7 @@
   "title": "Fix flaky TestSetStatusToOnHoldIfInstanceInactiveFor in Job Queue Entry Tests",
   "url": "https://github.com/microsoft/BCApps/pull/13571",
   "published_at": "2026-11-04T10:45:29Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix flaky testsetstatustoonholdifinstanceinactivefor in job queue entry tests"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-05T00:20:47.819Z",
+  "retry_after": null
 }

@@ -6,10 +6,35 @@
   "title": "Align styling in Document Report Experience themes, HF designs and bodies",
   "url": "https://github.com/microsoft/BCApps/pull/12624",
   "published_at": "2026-11-04T11:42:21Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:19:41.790Z",
+      "change_class": "code",
+      "files": 18,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-05T00:19:51.915Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005587
+    },
+    "linked": {
+      "at": "2026-11-05T00:19:52.018Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-05T00:19:52.022Z",
+      "path": "content/changes/bcapps/12624.md"
     }
   },
   "input_hash": "4c7c28657c979e9389b04ab7de0baa14a66eedde:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "align styling in document report experience themes hf designs and bodies"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "03d54895746d6e0d48bebd72ade35b2c7719d98758b347f6a0e6a963629069a5"
 }

@@ -6,10 +6,35 @@
   "title": "knowledge(web-services): describe API objects intended for MCP tools",
   "url": "https://github.com/microsoft/BCQuality/pull/233",
   "published_at": "2026-11-04T09:28:57Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:22:08.059Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 4,
+      "objects": 0,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-11-05T00:22:13.134Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004321
+    },
+    "linked": {
+      "at": "2026-11-05T00:22:13.135Z",
+      "objects": 0,
+      "unjoined": 4,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-05T00:22:14.132Z",
+      "path": "content/changes/bcquality/233.md"
     }
   },
   "input_hash": "031f15fcf5d0ab636a53d6da2ab5dcb254f4ac76:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "knowledge web services describe api objects intended for mcp tools"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5be08562c8a8d3d19140856d5888e0c9a3f87c1160d3862a5857bd44774ed2b1"
 }

@@ -6,7 +6,7 @@
   "title": "Prepare BCQuality v1.10 release",
   "url": "https://github.com/microsoft/BCQuality/pull/257",
   "published_at": "2026-11-04T09:08:06Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
@@ -26,5 +26,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "prepare bcquality v1 10 release"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-05T00:22:08.965Z",
+  "retry_after": null
 }

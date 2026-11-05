@@ -1,0 +1,43 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12677,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12677",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-04T12:15:42Z",
+  "merge_commit_sha": "d637eeeb48551b3c80f69964b5a0a7228064aa88",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[API tests] Ensure VAT posting setup in API document fixtures",
+  "body_hash": "851aebb3772a59758349b7dfc3677232080820fa3b825d6bbb050eb290a74f31",
+  "fixes_issues": [],
+  "work_items": [
+    646383,
+    653121,
+    653393
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 10,
+    "additions": 39,
+    "deletions": 65,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

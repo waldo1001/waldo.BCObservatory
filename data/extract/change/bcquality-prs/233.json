@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/233",
+  "number": 233,
+  "title": "knowledge(web-services): describe API objects intended for MCP tools",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "BCQuality adds guidance for API objects intended for MCP tools to describe entities using AboutText, EntitySetCaption, or EntityName, with good and bad code samples and updated regression testing infrastructure.",
+  "key_points": [
+    "New web-services knowledge article documents the metadata description precedence for API pages and queries used by MCP server",
+    "Good and bad AL samples show proper AboutText usage for document-type filters and computed values",
+    "Evaluation framework enhanced with optional articleOverrides and cleanContexts for context-specific testing",
+    "Regression test harness corrected to properly exit with status 0 after assertions complete",
+    "Context applicability scoped to BC 28+ online environments with MCP support"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004321,
+    "changes_in_call": 1
+  }
+}

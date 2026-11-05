@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13560,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13560",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-04T13:04:47Z",
+  "merge_commit_sha": "cb5edda004a8a319ddbe375c90a834b17bc00a27",
+  "author": "6CRIPT",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[QM] Move Inventory: allow destination location for non-directed item",
+  "body_hash": "25e731b7eef31d08a55a74a0f0e8d337aa53d09f3389424347f6a1467d152817",
+  "fixes_issues": [],
+  "work_items": [
+    656893
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Dispositions/Move/QltyMoveInventory.Report.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/test/src/QltyTestsDispositions.Codeunit.al",
+      "status": "modified",
+      "additions": 242,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 280,
+    "deletions": 12,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Dispositions/Move/QltyMoveInventory.Report.al",
+        "status": "modified",
+        "key": "report/20404",
+        "type": "report",
+        "id": 20404,
+        "name": "Qlty. Move Inventory",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "report/20404"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Quality Management"
+  ]
+}
