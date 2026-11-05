@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -337,6 +337,7 @@ links:
     - change/bcapps/10247
     - change/bcapps/12339
     - change/bcapps/9038
+    - change/bcapps/9181
     - change/bcapps/9896
     - change/bcquality/214
 learn_toc_path:
@@ -414,6 +415,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10247 [SOA] Show Cc recipients on email messages](../../../../changes/bcapps/10247.md) (code change): "Sales Order Agent email cards now display Cc recipients in a read-only field"
 - [#12339 [Fabric] adding reset button for a table](../../../../changes/bcapps/12339.md) (code change): "Adds a reset action for an individual table on the Fabric Platform Tables page"
 - [#9038 [master][Bug]: Page 615 "IC Inbox Transactions".RunInboxTransactions](../../../../changes/bcapps/9038.md) (code change): "IsFoundationEnabled check replaced by IsBasicOnlyEnabled in RunInboxTransactions"
+- [#9181 Filter the source record before FindFirst in Prices Overview caption](../../../../changes/bcapps/9181.md) (code change): "Prices Overview page now correctly displays captions"
 - [#9896 Rename PBI embedded pages](../../../../changes/bcapps/9896.md) (code change): "Embedded Power BI report pages in the Power BI Reports"
 - [#214 UI knowledge: notification recall needs a known Id; open mixed-type documents through Page Management](../../../../changes/bcquality/214.md) (code change): "handle multi-document routing through Page Management instead of hard-coded mappings"
 - [Dynamics 365 Business Central: introducing the new MaskedType enum field-level property.](../../../../posts/demiliani-com/12498.md) (community post): "MaskType enum property for table fields supports None and Concealed"

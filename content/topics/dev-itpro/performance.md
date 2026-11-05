@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -98,6 +98,7 @@ links:
     - post/thinkaboutit-be/8359
     - post/waldo-be/317739
     - post/waldo-be/318212
+    - post/yzhums-com/77070
   guidelines: []
   changes:
     - change/al-go/2229
@@ -110,7 +111,7 @@ coverage:
   learn: 7
   code: 0
   video: 5
-  blog: 12
+  blog: 13
   guideline: 0
 bc_forms: []
 member_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -151,6 +152,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Directions EMEA 2026, Day 2: Cowork, Agentic Development and Fabric](../../posts/thinkaboutit-be/8359.md) (community post): "Platform improvements include table-extension storage optimization, AL-based index management"
 - [Troubleshooting Series – Ep2 – Admin Center – Sessions](../../posts/waldo-be/317739.md) (community post): "to improve system performance and resolve resource issues"
 - [Troubleshooting Series – Ep3 – Missing Indexes](../../posts/waldo-be/318212.md) (community post): "careful analysis using telemetry to track missing indexes over time"
+- [Business Central 2026 release wave 2 (BC29): Match Production Database Configuration](../../posts/yzhums-com/77070.md) (community post): "Enables more accurate performance testing using the Performance Toolkit"
 - [20260223 - If You Can’t Make It Fast, Make It Feel Fast](../../videos/D7GxnNiGQ14.md) (video): "If You Can't Make It Fast, Make It Feel Fast"
 - [What's New: Server and Database (2025 release wave 1)](../../videos/G0avZpiDFtI.md) (video): "Faster Copy Company; Database Missing Indexes Page Enhancements"
 - [Meet the OptimAL Performance Initiative](../../videos/LW2JNV01sJo.md) (video): "Meet the OptimAL Performance Initiative"

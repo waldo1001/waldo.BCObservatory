@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T00:50:30.258Z"
+  at: "2026-11-05T00:45:06.377Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 34c8cfea9c5c1e8892b94b2d2eb56983a19498a3c2acfef251563bdde6c46064
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Apps/W1/Shopify/app/src/Bulk%20Operations/Interfaces/ShpfyIBulkOperation.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/W1/Shopify/app/src/Bulk%20Operations/Interfaces/ShpfyIBulkOperation.Interface.al
     title: src/Apps/W1/Shopify/app/src/Bulk Operations/Interfaces/ShpfyIBulkOperation.Interface.al (releases/29.x)
     date: null
-    commit: 11bf184798eda1d1104da1324cac5d944742dd2f
+    commit: 1c51b1f77ed32c7267d68456850d9d93296821d3
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Shpfy IBulk Operation" in Shopify (Microsoft.Integration.Shopify). 6 public procedures. Introduced in BC29, still in BC30.
 
-Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at 11bf1847](https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Apps/W1/Shopify/app/src/Bulk%20Operations/Interfaces/ShpfyIBulkOperation.Interface.al) · facts from BC29
+Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at 1c51b1f7](https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/W1/Shopify/app/src/Bulk%20Operations/Interfaces/ShpfyIBulkOperation.Interface.al) · facts from BC29
 
 ## Properties
 

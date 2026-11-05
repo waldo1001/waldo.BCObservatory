@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T00:50:30.258Z"
+  at: "2026-11-05T00:45:06.377Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 03668e38942cf76345a7e6641943f3b5b5fba57b2d7cfc3638926f27350135ee
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Apps/W1/Quality%20Management/app/src/Dispositions/QltyDisposition.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/W1/Quality%20Management/app/src/Dispositions/QltyDisposition.Interface.al
     title: src/Apps/W1/Quality Management/app/src/Dispositions/QltyDisposition.Interface.al (releases/29.x)
     date: null
-    commit: 11bf184798eda1d1104da1324cac5d944742dd2f
+    commit: 1c51b1f77ed32c7267d68456850d9d93296821d3
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Qlty. Disposition" in Quality Management (Microsoft.QualityManagement.Dispositions). 1 public procedures. Introduced in BC29, still in BC30.
 
-Quality Management · Microsoft.QualityManagement.Dispositions · BC29-30 · [source at 11bf1847](https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Apps/W1/Quality%20Management/app/src/Dispositions/QltyDisposition.Interface.al) · facts from BC29
+Quality Management · Microsoft.QualityManagement.Dispositions · BC29-30 · [source at 1c51b1f7](https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/W1/Quality%20Management/app/src/Dispositions/QltyDisposition.Interface.al) · facts from BC29
 
 ## Procedures
 

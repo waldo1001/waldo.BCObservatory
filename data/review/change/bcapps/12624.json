@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/12624",
+  "input_hash": "fbbcbc89c98e1d590510a227a1f9f298590a1fd23c995092b8cfaacc5682a8d0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-05T00:53:33.585Z",
+  "issues": [
+    "The 120/60 spacing applies to BC Data Table only, not to all table styles.",
+    "The file list shows a +4 -4 change in CompositeLayout.ReportExt.al, even though the description says there are no AL changes."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023463,
+    "changes_in_call": 6
+  }
+}

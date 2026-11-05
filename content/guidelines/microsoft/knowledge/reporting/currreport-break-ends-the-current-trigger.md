@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:15:39.861Z"
+  at: "2026-11-05T00:14:20.359Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: cffcf6224d6ba5880635a220d1890cc6077da4ac
@@ -94,7 +94,7 @@ See sample: [`currreport-break-ends-the-current-trigger.bad.al`](https://github.
 - [Report.Break() remarks and example](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-break-method), [pinned source](https://github.com/MicrosoftDocs/dynamics365smb-devitpro/blob/ad47532b59fa9acf932bae61920683796cb9dcf3/dev-itpro/developer/methods-auto/report/reportinstance-break-method.md#L31-L60): current-trigger termination, dataset omission, remaining triggers, and the difference from an AL `break`.
 - [Documentation PR #5386](https://github.com/MicrosoftDocs/dynamics365smb-devitpro/pull/5386) deliberately added the remaining-trigger notes to both methods.
 - Existing [BC 28.4 Windows-container run](https://github.com/aldevtools/BusinessCentral.AL.Language.Tests/actions/runs/41034608607), artifact `nightly-windows-bc28.4-41034608607`: externally supplied third-party-suite results on the Microsoft runtime, not a BCQuality execution or Microsoft-owned test suite. Pinned [direct-call assertions](https://github.com/aldevtools/BusinessCentral.AL.Language.Tests/blob/b8092fd0cf7d132d69fad00a8294554d5629946d/tests/al-language/report/lt-report-requestpage/RptSkipBreakQuit.al#L242-L249) and [extension-trigger assertions](https://github.com/aldevtools/BusinessCentral.AL.Language.Tests/blob/b8092fd0cf7d132d69fad00a8294554d5629946d/tests/al-language/errors/lt-ms-refusals-129/P129ReportExtBreak.al#L175-L194) establish the named contexts, not every trigger path or dataset row.
-- Related [Skip clarification](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/reporting/currreport-skip-current-trigger-and-later-triggers.md); correction provenance: [PR #183 comment](https://github.com/microsoft/BCQuality/pull/183#issuecomment-6497847687) and [issue #200](https://github.com/microsoft/BCQuality/issues/200).
+- Related [Skip clarification](currreport-skip-current-trigger-and-later-triggers.md); correction provenance: [PR #183 comment](https://github.com/microsoft/BCQuality/pull/183#issuecomment-6497847687) and [issue #200](https://github.com/microsoft/BCQuality/issues/200).
 
 ## Examples
 

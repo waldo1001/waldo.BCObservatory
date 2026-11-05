@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/sales
 type: topic
 title: Sales
-summary: "Sales in Business Central covers the sales process: quotes, orders, invoices, posting, shipments, returns, corrections, prepayments, drop and special orders, customer setup, and campaigns. It has two subtopics, Sales analytics and Subscription billing. It answers how-to and setup questions for selling and billing."
+summary: "Sales in Business Central covers the full sales process: quotes, orders, invoices, posting, returns, drop and special orders, prepayments, delivery dates, and customer records. It also includes two subtopics, Sales analytics and Subscription billing. It answers how-to and setup questions."
 tier: official
 language: en
 system: sales
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:00:37.736Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: decf754cf563fab8ed287b4a18e9304b092aa1f8dff933ce48ef096df1544233
+  input_hash: 06bdc66bd2fda511691d4506e9781a474cdabe9b2e85e31ea24afa9dcc129a11
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget
@@ -425,7 +425,6 @@ links:
     - object/page/37005
     - object/page/37006
     - object/page/37007
-    - object/page/37008
     - object/page/37066
     - object/page/37100
     - object/page/37101
@@ -551,7 +550,7 @@ children:
   - topic/business-central/business-functionality/sales/subscription-billing
 coverage:
   learn: 133
-  code: 139
+  code: 138
   video: 3
   blog: 19
   guideline: 0
@@ -692,7 +691,6 @@ bc_forms:
   - 37005
   - 37006
   - 37007
-  - 37008
   - 37066
   - 37100
   - 37101
@@ -709,28 +707,24 @@ narrative: generated
 
 # Sales
 
-> Sales in Business Central covers the sales process: quotes, orders, invoices, posting, shipments, returns, corrections, prepayments, drop and special orders, customer setup, and campaigns. It has two subtopics, Sales analytics and Subscription billing. It answers how-to and setup questions for selling and billing.
+> Sales in Business Central covers the full sales process: quotes, orders, invoices, posting, returns, drop and special orders, prepayments, delivery dates, and customer records. It also includes two subtopics, Sales analytics and Subscription billing. It answers how-to and setup questions.
 
-Path: [Business functionality](../business-functionality.md) > Sales · tier official · system sales · narrative reviewed (checked by Opus)
+Path: [Business functionality](../business-functionality.md) > Sales · tier official · system sales · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Sales section groups task guides for the full sales cycle. Pages cover making quotes, creating sales orders and invoices, posting, shipping (partial shipments, combined shipments, picking lists, package tracking), and handling returns, credit memos, and corrections or cancellations of posted invoices.
-
-Other pages cover specific order types and dates: blanket orders, drop shipments, special orders, recurring sales lines, and prepayments. Delivery date calculation and order promising (ATP and CTP) explain how dates are set. Customer-side pages cover registering customers, merging duplicates, entering external document numbers, saving contacts to Outlook, and running a sales campaign.
-
-Start with "Overview of tasks to manage sales", which links to the detailed guides. Two subtopics go deeper: Sales analytics (Power BI reports, ad-hoc analysis, built-in reports) and Subscription billing (contracts, recurring billing proposals, usage-based billing).
+The Sales section describes how to sell products and manage the documents and customer data around a sale. Core tasks include registering customers on a Customer Card, making sales quotes, creating sales orders or invoices, and posting them. Related pages cover shipments, invoice corrections, returns and credit memos, and tracking packages.
 
 ## Key points
 
-- Start with 'Overview of tasks to manage sales' for links to the detailed task guides.
-- Sales documents include quotes (convertible to orders or invoices), orders, invoices, blanket orders, credit memos, and return orders.
-- Posting offers post, post and new, post and send, preview posting, and batch posting.
-- Posted unpaid invoices can be corrected (new invoice and credit memo) or canceled (reversing credit memo) using the Correct and Cancel actions.
-- The Shipping Advice field on the Customer Card controls partial shipments; shipments can also be combined on one invoice manually or by batch job.
-- Order promising uses Available to Promise and Capable to Promise; delivery dates depend on shipping time and outbound warehouse handling time.
-- Drop shipments let vendors ship directly to customers from sales orders; special orders link purchase and sales orders so specific catalog items reach customers through vendors.
-- Save Business Contacts to Outlook and Teams is listed for 2026 release wave 1, with optional two-way sync.
+- Start with 'Overview of tasks to manage sales', which links to the detailed task guides.
+- Document flow: sales quotes convert to orders or invoices; posting offers post, post and send, preview posting, and batch posting.
+- Fulfilment options: partial shipments (set by Shipping Advice on the Customer Card), drop shipments, special orders, blanket orders, and combining shipments on one invoice.
+- Corrections: Cancel creates a reversing credit memo for an unpaid posted invoice; Correct creates a new invoice and credit memo. Returns use credit memos or return orders.
+- Delivery dates: order promising uses Available to Promise and Capable to Promise, and delivery date calculation uses shipping time and warehouse handling time.
+- Customer and contact data: customer cards, templates and credit limits, merging duplicates (MERGE DUPLICATES permission set), and saving contacts to Outlook.
+- Recurring and prepaid sales use standard recurring sales lines, a batch job to create invoices, and prepayment percentages with prepayment invoices.
+- Sales analytics has 61 pages and Subscription billing has 47 pages, covering reports, Power BI and recurring billing.
 
 ## Subtopics
 
@@ -956,7 +950,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 37005 "Sales by Customer"](../../../objects/page/37005.md) · captioned "Sales by Customer (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
 - [Page 37006 "Sales by Salesperson"](../../../objects/page/37006.md) · captioned "Sales by Salesperson (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
 - [Page 37007 "Sales Actual vs. Budget Qty."](../../../objects/page/37007.md) · captioned "Sales Actual vs. Budget (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
-- [Page 37008 "Sales Actual vs. Budget Amt."](../../../objects/page/37008.md) · captioned "Sales Actual vs. Budget Amount" · via [Sales analytics](sales/sales-analytics.md)
 - [Page 37066 "Sales by Location"](../../../objects/page/37066.md) · captioned "Sales by Location (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
 - [Page 37100 "Sales Demographics"](../../../objects/page/37100.md) · captioned "Sales Demographics (Power BI)" · via [Sales analytics](sales/sales-analytics.md)
 - [Page 37101 "Sales Decomposition"](../../../objects/page/37101.md) · captioned "Sales Decomposition (Power BI)" · via [Sales analytics](sales/sales-analytics.md)

@@ -1,36 +1,25 @@
 {
   "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central",
-  "input_hash": "d1ec983ff77940a1aedbea1abf9bb4ed565e2f6a0de4838d0eb39230409c311c",
-  "summary": "Power BI and Business Central covers how Power BI works with Business Central: built-in Power BI apps, reports and dashboards, KPI metrics and scorecards, and Power BI semantic models in Excel. It answers questions about viewing, refreshing, embedding and analyzing Business Central data in Power BI.",
-  "overview": "This section describes how Business Central data is used in Power BI for dashboards, reports and KPI tracking. It starts with an introduction to the integration and the built-in Power BI apps, then goes into specific tasks.\n\nThe remaining pages cover working with Power BI reports inside Business Central (viewing, analyzing, sharing, and manual or scheduled refresh), tracking KPIs with Power BI metrics and scorecards, and using Power BI semantic models in Excel for ad-hoc reporting.\n\nStart with the introduction for the overall picture. Then go to the reports page for daily use, the metrics page for KPI scorecards and alerts, or the Excel page for pivot-table analysis across functions.",
+  "input_hash": "ee172b81c41506a9d2214f23dff0b4ff3c7db92fde771de299dc820afb37c6e7",
+  "summary": "Power BI and Business Central covers how to bring Business Central data into Power BI, embed reports in Business Central pages, track KPIs with metrics and scorecards, and analyze Power BI semantic models in Excel. It answers questions about setup, refresh, sharing, and reporting options.",
+  "overview": "This section explains how Power BI works with Business Central. It starts with an introduction to the integration: retrieving Business Central data for dashboards and reports, using Power BI apps, embedding reports in Business Central pages, and building custom reports in Power BI Desktop. Data is exposed through API pages and OData, and options such as dataflows, datamarts and the Power Query connector are mentioned.\n\nThe other pages cover specific tasks. One covers working with Power BI reports inside Business Central, including viewing, analyzing, managing, sharing, and manual or scheduled refresh. One covers Power BI metrics for tracking KPIs with scorecards, status rules and alerts. One covers using Power BI semantic models in Excel for ad-hoc reporting with Pivot Tables and Tables.\n\nStart with the introduction to see which approach fits your needs. Then go to the page for the task you have: working with reports in Business Central, KPI tracking, or Excel analysis.",
   "key_points": [
-    "The introduction covers built-in Power BI apps, Power BI Desktop integration, report embedding and managing the integration across roles.",
-    "Power BI reports in Business Central use Business Central data as a source and can be refreshed manually or on a schedule.",
-    "Reports, dashboards, scorecards and Power BI apps can be viewed, analyzed and shared from Business Central.",
-    "Power BI metrics track KPIs and objectives with scorecards, connected metrics, automated status rules and alerting.",
-    "Metric alerts can be sent to Teams, and scorecards can be embedded in Business Central (2023 release wave 2).",
-    "Power BI semantic models can be used in Excel to build Pivot Tables and Tables connected to Business Central Power BI apps.",
-    "The Excel approach supports ad-hoc cross-functional reporting and relies on model relationships and the Power Pivot add-in."
+    "Business Central data can be retrieved for Power BI through API pages and OData, with a Power Query connector, dataflows and datamarts also covered.",
+    "Power BI apps for Business Central and embedded Power BI reports let users see reports inside Business Central pages.",
+    "Power BI Desktop can be used to build custom reports on Business Central data.",
+    "Reports in Business Central can be refreshed manually or on a schedule, and can be shared.",
+    "Power BI metrics provide scorecards, connected metrics, automated status rules and alerting, including Teams alerts (2023 release wave 2).",
+    "Scorecards can be embedded in Business Central.",
+    "Power BI semantic models can be used in Excel to create Pivot Tables and Tables connected to Business Central Power BI apps.",
+    "Excel use involves the Power Pivot add-in and model relationships for ad-hoc cross-functional analysis."
   ],
   "members_used": 4,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:09:34.213Z",
+  "at": "2026-11-05T00:54:35.273Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011591
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:25:12.507Z",
-    "verdict": "approve",
-    "issues": [
-      "Key point 5 ties '2023 release wave 2' to Teams alerts and scorecard embedding. The source only says the metrics page references that release wave, not which feature it applies to. This is a small attribution stretch, not an invented version.",
-      "Key point 3 says dashboards, scorecards and apps can all be shared. The source lists 'Report sharing' only for reports, so this is a slight generalization."
-    ],
-    "input_hash": "d1ec983ff77940a1aedbea1abf9bb4ed565e2f6a0de4838d0eb39230409c311c",
-    "cost_usd": 0.0324512
+    "cost_usd": 0.012469000000000001
   }
 }

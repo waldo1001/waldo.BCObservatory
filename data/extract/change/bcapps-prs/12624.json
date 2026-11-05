@@ -8,11 +8,11 @@
   ],
   "summary": "Styling of Word report themes, header/footer designs and bodies is aligned so they work consistently together, with tighter table spacing, updated font sizes, and removal of unused styles.",
   "key_points": [
-    "17 binary Word files updated: 3 themes (Calm, Default, Playful), 11 header/footer designs, and 3 report bodies",
-    "Table styles now use consistent spacing (120/60), tabular numbers, and themes no longer embed header/footer parts",
-    "Normal style in header/footer designs changed from 8pt to 12pt, while body text follows theme styles instead of hard-coding size",
-    "External header/footer designs no longer include runtime dates; InternalModern uses Word DATE field for current date",
-    "Report bodies gain 3 to 5 new HideTableRowIfEmpty controls to prevent empty table rows"
+    "17 binary Word files updated: 3 themes (Calm, Default, Playful), 11 header/footer designs and 3 report bodies",
+    "Themes drop the embedded header/footer parts and unused styles; BC Data Table gets tighter spacing and all BC table styles use tabular numbers",
+    "Normal style in header/footer designs goes from 8 pt to 12 pt, and bodies no longer hard-code a font size",
+    "External header/footer designs no longer show a runtime date; InternalModern uses a Word DATE field",
+    "Bodies gain new HideTableRowIfEmpty controls that hide empty table rows"
   ],
   "change_kind": "feature",
   "behavior_change": true,

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12910",
+  "input_hash": "07c03f6804fec9db3b0a8d07b02668fa5fa4a980ac7b4966cbc41f3a7c6cc2b0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-05T00:53:18.860Z",
+  "issues": [
+    "The claim about improving the reliability of approval routing is speculation that the description does not support.",
+    "The summary says 'instead of the previous validation method', which the description does not state."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019131,
+    "changes_in_call": 3
+  }
+}

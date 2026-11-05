@@ -2,21 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to
 type: topic
 title: Analyze data in business intelligence tools
-summary: "Analyzing Business Central data in external BI tools: exporting data to Microsoft Fabric, Power BI, data warehouses and data lakes, using the v2.0 API, and AL performance guidance. It answers questions about getting data out of Business Central for reporting and analytics."
+summary: "Analyzing Business Central data in external BI tools: exporting data to Microsoft Fabric, Power BI, data warehouses and data lakes, using the v2.0 API, and AL performance guidance. It answers questions about getting data out of Business Central and mirroring it to OneLake."
 tier: official
 language: en
 system: reporting
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:55:18.569Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 98677fa2e5cbbe95b622eadb54561995c61c1ad459ab29d810522982f4536abd
+  input_hash: 8c96ea71c9f85436ea4f3982b281e687cafae7f1b064927a0f8967e0b5ce947c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-external-analysis
@@ -43,13 +43,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/fabric-faq
     title: FAQ About Mirroring Business Central Data to Microsoft Fabric
     date: "2026-10-08"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/about-intelligent-cloud
-    title: Intelligent insights and cloud migration (on-premises only)
-    date: "2024-03-15"
     commit: null
     t: null
     quote: null
@@ -85,10 +78,8 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/reports-external-analysis
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/
-    - https://learn.microsoft.com/dynamics365/business-central/about-intelligent-cloud
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer
   objects:
-    - object/page/4010
     - object/page/48508
     - object/page/48509
     - object/page/48510
@@ -103,8 +94,7 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric
   localizations: []
   videos: []
-  posts:
-    - post/bertverbeek-nl/1342
+  posts: []
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -114,13 +104,12 @@ parent: topic/business-central/analytics-business-intelligence-and-repo
 children:
   - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric
 coverage:
-  learn: 9
-  code: 9
+  learn: 8
+  code: 8
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
-  - 4010
   - 48508
   - 48509
   - 48510
@@ -129,33 +118,33 @@ bc_forms:
   - 48513
   - 48515
   - 48519
-member_hash: 95608ddb0e2b7f483c9c4f281fe1960fa9222a2f9c4629a876b1cb4b83b53aec
+member_hash: 4b9dc6eaf3993586de7d990fa1648e51dd93d2b0c3a9bbb4e94bd4b366aada7e
 narrative: generated
 ---
 
 # Analyze data in business intelligence tools
 
-> Analyzing Business Central data in external BI tools: exporting data to Microsoft Fabric, Power BI, data warehouses and data lakes, using the v2.0 API, and AL performance guidance. It answers questions about getting data out of Business Central for reporting and analytics.
+> Analyzing Business Central data in external BI tools: exporting data to Microsoft Fabric, Power BI, data warehouses and data lakes, using the v2.0 API, and AL performance guidance. It answers questions about getting data out of Business Central and mirroring it to OneLake.
 
-Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Analyze data in business intelligence tools · tier official · system reporting · narrative reviewed (checked by Opus)
+Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Analyze data in business intelligence tools · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section explains the ways to get Business Central data into external business intelligence tools. The main entry page covers the options: data mirroring to Microsoft Fabric, Power BI integration, and extracting data to data warehouses or data lakes through the Business Central API.
+This section covers how to move Business Central data into external tools for analysis. The entry page describes the main options: data mirroring to Microsoft Fabric, Power BI integration, data warehousing, data lake extraction, and the Business Central API.
 
-The Microsoft Fabric subtopic goes into detail on mirroring data from Business Central online to OneLake. It covers setup, choosing companies and tables, managing synchronization, and monitoring and troubleshooting runs. The API v2.0 page is the reference for building connect apps with REST APIs, and it includes the transition from v1.0 and code examples.
+The API (v2.0) page is the reference for building connect apps with REST APIs, including API pages, operations, code examples and the transition from v1.0. The Microsoft Fabric subtopic goes deeper on mirroring Business Central online data to OneLake: setup, choosing companies and tables, managing synchronization, and monitoring and troubleshooting runs.
 
-Two further pages cover related cases. One explains that on-premises Business Central has no cloud-based KPIs or Power BI insights unless you migrate to the cloud. The other gives performance guidance for AL developers, including pages, web services, reports, and data access. Start with the main overview page, then go to Fabric mirroring or the API reference, depending on your approach.
+The Performance Articles for AL Developers page is guidance for tuning applications, including pages, web services, reports, AL patterns and data access. Start with the entry page to pick an approach, then go to the Fabric pages for mirroring or the API reference for custom integrations.
 
 ## Key points
 
-- The main page lists the export options: Fabric data mirroring, Power BI, data warehousing, data lake extraction, and the Business Central API.
+- The entry page lists the export options: Microsoft Fabric mirroring, Power BI, data warehousing, data lake extraction, and the Business Central API.
 - Fabric mirroring replicates Business Central online data to OneLake for analytics.
-- The Fabric pages cover setup, company and table selection, synchronization management, monitoring, and troubleshooting.
-- API v2.0 is a REST API for building connect apps that integrate with third-party services, with notes on moving from v1.0.
-- On-premises Business Central does not have the cloud-based KPIs and Power BI insights of the online version. Migrating to the cloud is required for them.
-- AL performance articles cover page background tasks, Edit-in-Excel performance, query object optimization, partial records, table extension impact, and event subscription performance.
-- The performance articles reference 2021 release wave 2, 2023 release wave 1, and 2023 release wave 2.
+- The Fabric pages cover setup, choosing companies and tables, managing synchronization, and monitoring and troubleshooting.
+- API v2.0 supports connect apps using REST APIs to integrate with third-party services.
+- The API page covers API pages, operations, code examples and the transition from v1.0.
+- The performance page covers page background tasks, Edit-in-Excel performance, query object optimization, partial records, table extension impact analysis and event subscription performance.
+- The performance guidance references 2021 release wave 2, 2023 release wave 1 and 2023 release wave 2.
 
 ## Subtopics
 
@@ -165,20 +154,12 @@ Two further pages cover related cases. One explains that on-premises Business Ce
 
 - [Analyze Data in Business Intelligence Tools](https://learn.microsoft.com/dynamics365/business-central/reports-external-analysis): Provides an overview of how external Business Intelligence tools can interact with Business Central data.
 - [API (v2.0) for Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/): Reference content for the API (v2.0) endpoint for integration with Dynamics 365 Business Central.
-- [Intelligent insights and cloud migration (on-premises only)](https://learn.microsoft.com/dynamics365/business-central/about-intelligent-cloud): In Business Central online, you have access to other online services, and you can get intelligent insights that are based on Azure AI, for example. Read on if you're considering to migrate from on-premises to the cloud.
 - [Performance Articles for AL Developers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer): Learn how to write efficient AL code, pages, reports, and web services, and use tools like the AL Profiler to improve performance in Business Central.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Business Central to Microsoft Fabric is a mirror. But what if you want to know what actually changed?](../../../posts/bertverbeek-nl/1342.md) (community post): "partners can enable delta change data feeds to track table modifications"
 
 ## Business Central pages and reports
 
 The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
 
-- [Page 4010 "Intelligent Cloud"](../../../objects/page/4010.md)
 - [Page 48508 "Fabric Platform Companies"](../../../objects/page/48508.md) · captioned "Fabric Company Configuration" · via [Microsoft Fabric](analyze-data-in-business-intelligence-to/microsoft-fabric.md)
 - [Page 48509 "Fabric Platform Export Details"](../../../objects/page/48509.md) · captioned "Fabric Synchronization Details" · via [Microsoft Fabric](analyze-data-in-business-intelligence-to/microsoft-fabric.md)
 - [Page 48510 "Fabric Platform Export Summary"](../../../objects/page/48510.md) · captioned "Fabric Synchronization Overview" · via [Microsoft Fabric](analyze-data-in-business-intelligence-to/microsoft-fabric.md)

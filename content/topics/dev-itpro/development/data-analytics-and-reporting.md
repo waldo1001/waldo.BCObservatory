@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/data-analytics-and-reporting
 type: topic
 title: Data analytics and reporting
-summary: Data analytics and reporting in Business Central covers data analysis on lists and queries, queries as datasets and OData web services, Excel layout reports, and Power BI integration and embedding. It answers questions about choosing an analysis option and building or embedding reports.
+summary: Data analytics and reporting in Business Central covers data analysis mode on lists and queries, Power BI integration and embedding, Excel layout reports, and queries as a data source. It answers questions on analyzing, pivoting, and sharing data, and on building Excel-based reports.
 tier: official
 language: en
 system: reporting
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:22:29.221Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 53ff12af71c01ebea528fb00ccc3819d1d01095e55a791173cad2ae771d3f402
+  input_hash: 5132ac6d785ac56486cbac9ae89247dfcee74ebb32ad977c30493162f1bf7997
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/analysis-mode
@@ -162,28 +162,26 @@ narrative: generated
 
 # Data analytics and reporting
 
-> Data analytics and reporting in Business Central covers data analysis on lists and queries, queries as datasets and OData web services, Excel layout reports, and Power BI integration and embedding. It answers questions about choosing an analysis option and building or embedding reports.
+> Data analytics and reporting in Business Central covers data analysis mode on lists and queries, Power BI integration and embedding, Excel layout reports, and queries as a data source. It answers questions on analyzing, pivoting, and sharing data, and on building Excel-based reports.
 
-Path: [Development](../development.md) > Data analytics and reporting · tier official · system reporting · narrative reviewed (checked by Opus)
+Path: [Development](../development.md) > Data analytics and reporting · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This area describes the ways to analyze and share Business Central data. Options differ by role: Power BI reports, data analysis mode on list pages and queries, Excel with APIs (Power Query and PowerPivot), and report objects with Excel layouts.
+This section groups the ways to analyze and report on Business Central data. Options differ by role and need: data analysis mode on list pages and queries for interactive work, Power BI for dashboards and reports, Excel (Power Query, PowerPivot, APIs) for external analysis, and report objects with Excel layouts for formatted output.
 
-Start with "Analyzing, pivoting, and sharing data in Business Central" to compare the options. For interactive work without running a report, see the data analysis page, which covers columns, filters, row groups, pivot mode and date hierarchies. "Query Overview" explains queries that combine tables, aggregate data and can be exposed as OData web services.
-
-For Excel reporting, "Working with Excel layouts" covers creating, configuring and working with Excel layouts that use formulas, PivotTables, PivotCharts and multiple worksheets. "Creating an Excel layout report" covers the data contract, system worksheets, translations and named formulas. For Power BI, read the introduction first, then the page on embedding reports in Business Central pages.
+Start with "Analyzing, pivoting, and sharing data in Business Central" to compare the options. Then go to the detail pages: "Analyze list page and query data using data analysis" for in-client analysis, "Introduction to Business Central and Power BI" and "Embed Power BI reports in pages" for Power BI, and "Working with Excel layouts" and "Creating an Excel layout report" for Excel-based reports. "Query Overview" explains queries, which combine tables, aggregate data, and can be exposed as OData web services.
 
 ## Key points
 
-- Data analysis mode lets you analyze list page and query data interactively with a Columns pane, Analysis Filters pane, row groups, pivot mode and multiple analysis views, without running a report.
-- Analysis views can include fields from related tables and date hierarchies, and can be bookmarked to your Role Center.
-- Queries retrieve and combine records from one or more tables, can calculate and aggregate data, and can be exposed as OData web services. Types include normal and API queries.
-- Excel layout reports use an Excel layout data contract, with ExcelLayoutMultipleDataSheets, system worksheets, translation support, named formulas and drillthrough.
-- Excel layouts can include formulas, PivotTables, PivotCharts, multiple worksheets and a data sheet, using built-in Office features.
-- Power BI integration includes built-in Power BI apps, Power BI Desktop integration, KPI tracking and report embedding.
-- Power BI reports, scorecards and dashboards can be embedded in pages using the Power BI embed framework, with pages such as Power BI Embedded Report Part and Power BI Element Addin Host, and context set through SetCurrentListSelection and SetPageContext.
-- Version notes: the data analysis page references 2026 release wave 2. The Excel layout report page covers 2023 release wave 1 to 2025 release wave 1 and versions 23.3 to 26.0. The Power BI embedding page covers 2022 release wave 2 to 2025 release wave 1.
+- Data analysis mode lets users analyze list pages and queries with a Columns pane, Analysis Filters pane, row groups, pivot mode, and date hierarchies, without running reports.
+- Analysis views can be bookmarked to the Role Center, and fields from related tables can be added.
+- Queries combine records from one or more tables, support totals and grouping, and can be exposed as OData web services; normal and API queries exist.
+- Power BI integration covers Power BI apps, Power BI Desktop, dataflows and datamarts, the Power Query connector, and data exposed through API pages and OData.
+- Power BI reports, scorecards, and dashboards can be embedded in pages using the Power BI embed framework, with context set through SetCurrentListSelection and SetPageContext.
+- Excel layouts support formulas, PivotTables, PivotCharts, and multiple worksheets.
+- Creating an Excel layout report involves a data contract, ExcelLayoutMultipleDataSheets, system worksheets, translations, named formulas, and drillthrough.
+- The overview page compares options by role, including Excel Power Query and PowerPivot with APIs.
 
 ## Learn pages
 

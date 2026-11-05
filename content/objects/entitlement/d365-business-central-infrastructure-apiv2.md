@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T00:50:30.258Z"
+  at: "2026-11-05T00:45:06.377Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 13061ae597cc9ce1381fd2464754df70606bf007bec63d45d1216bb8c412beba
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Apps/W1/APIV2/app/src/Entitlements/D365BusinessCentralInfrastructureAPIV2.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/W1/APIV2/app/src/Entitlements/D365BusinessCentralInfrastructureAPIV2.Entitlement.al
     title: src/Apps/W1/APIV2/app/src/Entitlements/D365BusinessCentralInfrastructureAPIV2.Entitlement.al (releases/29.x)
     date: null
-    commit: 11bf184798eda1d1104da1324cac5d944742dd2f
+    commit: 1c51b1f77ed32c7267d68456850d9d93296821d3
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "D365 Business Central Infrastructure APIV2" in APIV2 (Microsoft.API.V2). Introduced in BC29, still in BC30.
 
-APIV2 · Microsoft.API.V2 · BC29-30 · [source at 11bf1847](https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Apps/W1/APIV2/app/src/Entitlements/D365BusinessCentralInfrastructureAPIV2.Entitlement.al) · facts from BC29
+APIV2 · Microsoft.API.V2 · BC29-30 · [source at 1c51b1f7](https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/W1/APIV2/app/src/Entitlements/D365BusinessCentralInfrastructureAPIV2.Entitlement.al) · facts from BC29
 
 ## Across versions
 

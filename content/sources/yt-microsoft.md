@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T00:16:32.194Z"
+  at: "2026-11-05T00:14:20.359Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9ac4704aaf3fd4174ba3aeb9c81a81de415d1e0dea116ac158f5ed930120fb0f
@@ -100,10 +100,12 @@ links:
     - feature/574128
     - feature/576776
     - feature/576789
+    - feature/576802
     - feature/576813
     - feature/576815
     - feature/576832
     - feature/576836
+    - feature/576839
     - feature/576841
     - feature/576844
     - feature/576864
@@ -714,13 +716,13 @@ footprint:
       weight: 5
     - id: feature/577820
       weight: 5
+    - id: feature/573362
+      weight: 4
     - id: feature/573254
       weight: 3
     - id: feature/573265
       weight: 3
     - id: feature/573320
-      weight: 3
-    - id: feature/573362
       weight: 3
     - id: feature/573256
       weight: 2
@@ -779,9 +781,9 @@ Items per quarter, oldest first:
 
 - [AI-Driven Approvals](../features/573255.md): Expense Agent, in preview, GA 2026-12, 5 videos
 - [Use AI resources for your Copilot extensions](../features/577820.md): Copilot and agents, in preview, GA 2027-04, 5 videos
+- [Enable Microsoft Copilot chat experience](../features/573362.md): Copilot and agents, generally available, GA 2026-10, 4 videos
 - [Add date ranges and vehicle types in your mileage calculation](../features/573254.md): Expense Agent, in preview, GA 2026-10, 3 videos
 - [Control the lifecycle of all report layouts](../features/573320.md): Reporting and data analysis, generally available, GA 2026-10, 3 videos
-- [Enable Microsoft Copilot chat experience](../features/573362.md): Copilot and agents, generally available, GA 2026-10, 3 videos
 - [Expense Agent mobile app](../features/573265.md): generally available, GA 2026-10, 3 videos
 - [Actions on reports and pages can now inherit tooltips](../features/573313.md): Development, generally available, GA 2026-10, 2 videos
 - [Add an interim approver when you submit an expense report](../features/573260.md): Expense Agent, in preview, GA 2026-11, 2 videos
@@ -824,6 +826,7 @@ Items per quarter, oldest first:
 - [Calculate multiple excise duties per item](../features/573306.md): Finance, in preview, GA 2027-01, 1 video
 - [Calculate taxes for plastic and sugar](../features/576844.md): Financial Management, generally available, GA 2026-07, 1 video
 - [Check records for uncommitted changes](../features/573360.md): Development, generally available, GA 2026-10, 1 video
+- [Comply with Australian Payment Times Reporting bill](../features/576802.md): Country and regional, generally available, GA 2026-06, 1 video
 - [Data mirroring to Microsoft Fabric](../features/574126.md): in preview, GA 2027-04, 1 video
 - [Design document report themes with the updated Word add-in](../features/573330.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Design header/footer layouts for document reports with the updated Word add-in](../features/573331.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
@@ -855,6 +858,7 @@ Items per quarter, oldest first:
 - [Use formulas to calculate emissions in purchase documents](../features/573374.md): Sustainability Management, generally available, GA 2026-10, 1 video
 - [Use new APIs for analyzing approval workflows for auditors and IT staff](../features/576864.md): Reporting and data analysis, generally available, GA 2026-06, 1 video
 - [Use new APIs for analyzing permissions for auditors and IT staff](../features/576841.md): Reporting and data analysis, generally available, GA 2026-06, 1 video
+- [Use Payment Practices in the UK localization](../features/576839.md): Country and regional, generally available, GA 2026-06, 1 video
 - [Use payments with the E-Document framework](../features/576813.md): Electronic documents, generally available, GA 2026-08, 1 video
 - [Use self-billed invoices](../features/576881.md): Financial Management, generally available, GA 2026-06, 1 video
 - [Use withholding taxes (WHT) with employee transactions](../features/573308.md): Finance, in preview, GA 2027-01, 1 video

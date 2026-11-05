@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/demiliani-com/17586",
+  "input_hash": "b26717cc9ef6e4c6982653ba0abce382a6f08fab354c6e5c05371a9426953060",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-05T00:52:45.570Z",
+  "issues": [
+    "First key point said all releases are moving to .NET 10; the post says supported releases, so the key points were reworded.",
+    "Summary, quote, features and systems are supported by the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030595,
+    "posts_in_call": 4
+  }
+}

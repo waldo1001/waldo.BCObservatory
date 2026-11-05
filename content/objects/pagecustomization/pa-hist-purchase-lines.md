@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T00:50:30.258Z"
+  at: "2026-11-05T00:45:06.377Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 17ac1de07e51e046c2bec25ebd2b6f898415f81403923343c12dd3e33b6bd5e7
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAHistPurchaseLines.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAHistPurchaseLines.PageCust.al
     title: src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAHistPurchaseLines.PageCust.al (releases/29.x)
     date: null
-    commit: 11bf184798eda1d1104da1324cac5d944742dd2f
+    commit: 1c51b1f77ed32c7267d68456850d9d93296821d3
     t: null
     quote: null
 links:
@@ -83,7 +83,7 @@ relations:
 
 > Page customization "PA Hist. Purchase Lines" in PayablesAgent (Microsoft.Agent.PayablesAgent). Introduced in BC29, still in BC30.
 
-PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at 11bf1847](https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAHistPurchaseLines.PageCust.al) · facts from BC29
+PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at 1c51b1f7](https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAHistPurchaseLines.PageCust.al) · facts from BC29
 
 ## Recent changes
 

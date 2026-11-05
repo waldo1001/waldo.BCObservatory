@@ -7,12 +7,12 @@
     "purchasing",
     "sales"
   ],
-  "summary": "Vendor and customer ledger entries now maintain consistent dispute status and on-hold synchronization across posted documents in all localization layers.",
+  "summary": "Fixes inconsistent syncing of On Hold and document dispute status on vendor ledger entries, with matching changes to customer ledger entries, across W1 and most localization layers.",
   "key_points": [
-    "Fixed inconsistent dispute status handling in vendor and customer ledger entries",
-    "Improved on-hold document synchronization for posted documents",
-    "Changes applied across all regional localization layers (W1, NA, GB, FR, ES, IT, NL, BE, FI, CH, APAC, IS, NO, RU)",
-    "Extended test coverage in EditPostedDocuments test codeunits to validate the fixes"
+    "Fixes inconsistent On Hold and document synchronization tied to dispute status on vendor ledger entries",
+    "Related changes to the Cust. Ledger Entry table",
+    "Table changes in W1 and the APAC, CH, ES, FI, FR, GB, IS, IT, NA, NL, NO and RU layers",
+    "Adds tests to the EditPostedDocuments test codeunits, including the BE layer"
   ],
   "change_kind": "fix",
   "behavior_change": true,

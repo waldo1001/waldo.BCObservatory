@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T00:16:32.194Z"
+  at: "2026-11-05T00:14:20.359Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b346ec166052b29c8ad897541fad39498e84fd19
@@ -30,7 +30,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/addloadfields-for-trigger-only-fields-on-api-pages.md
     title: "microsoft/BCQuality: Add trigger-only fields to API pages with AddLoadFields in OnOpenPage"
     date: "2026-11-02"
-    commit: ce3ae03742d6652757bc7308cb068e06d19bc53e
+    commit: c203ebc862a6dc9a35fcb7a50110a96e0bae6f55
     t: null
     quote: null
 links:
@@ -147,4 +147,4 @@ See sample: [`addloadfields-for-trigger-only-fields-on-api-pages.bad.al`](https:
 
 ---
 
-From microsoft/BCQuality at ce3ae03, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at c203ebc, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

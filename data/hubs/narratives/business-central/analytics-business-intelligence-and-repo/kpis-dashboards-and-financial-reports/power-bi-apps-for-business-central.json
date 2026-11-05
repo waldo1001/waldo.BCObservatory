@@ -1,38 +1,25 @@
 {
   "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-apps-for-business-central",
-  "input_hash": "3488a2e3ea4c48a88dc5ebea134592232ecc0a4c918a9756faf5a55dbab9cbf3",
-  "summary": "Power BI apps for Business Central: installing and configuring connector and template apps, choosing a calendar type (standard, fiscal, week-based), using the functional-area apps, back links, multi-language use, and an FAQ. It answers setup, calendar, licensing, refresh and troubleshooting questions.",
-  "overview": "Power BI apps for Business Central give ready-made semantic models and KPIs for functional areas: Finance, Sales, Purchasing, Inventory, Projects, Manufacturing, Subscription Billing, and Sustainability. Connector apps are preinstalled, and template apps come from Microsoft Marketplace.\n\nStart with the install page. It covers the assisted setup guide, which sets calendar configuration, UTC offset, date table range, and work days. Then pick one calendar page. Standard uses a Gregorian month structure. Fiscal uses a fiscal year with a first month and is configured on the Power BI Reports Setup page. Week-based sets the first day of week, a fiscal year anchor, a Nearest or Last rule, and a 445, 454 or 544 pattern.\n\nAfter setup, the functional-area page describes what each app reports. The back links page explains how to go from aggregated visuals to source documents in Business Central. The multi-language page covers testing languages with culture name URL parameters. The FAQ covers licensing, refresh, dimension data, job queue scheduling, and multi-company reporting.",
+  "input_hash": "7f420d164f32bad83aa2d9c29ed0d6b7a2c1589d8e753e3f690f51636cf2a595",
+  "summary": "Power BI apps for Business Central: how to install and set up connector and template apps, configure calendars (fiscal, standard, week-based), use the functional-area apps, drill back to Business Central, and handle language and FAQ topics. It answers setup, configuration, and troubleshooting questions.",
+  "overview": "This section covers the Power BI apps that report on Business Central data. Connector apps are preinstalled, and template apps come from Microsoft Marketplace. After installation, an assisted setup guide configures them, including calendar type, UTC offset, date table range, and work days.\n\nThree pages describe the calendar choices in the Power BI Reports Setup page: fiscal, standard (Gregorian), and week-based. Another page lists the apps for functional areas such as Finance, Sales, Purchasing, Inventory, Projects, Manufacturing, Sustainability, and Subscription Billing.\n\nStart with the install page, then pick a calendar type. Use the back links page to move from aggregated visuals to source documents in Business Central. The FAQ covers licensing, data refresh, dimension data, and multi-company reporting. The multi-language page explains testing other languages with a culture name in the URL.",
   "key_points": [
-    "Connector apps are preinstalled. Template apps are installed from Microsoft Marketplace and configured through an assisted setup guide.",
-    "The setup guide configures calendar type, UTC offset, date table range, and work days.",
+    "Connector apps are preinstalled; template apps are installed from Microsoft Marketplace and configured through an assisted setup guide (install page references version 27.0).",
+    "Setup covers calendar configuration, UTC offset, date table range, and work days.",
     "Standard calendar uses a Gregorian month structure with Calendar Year, Month, and Quarter fields and standard time intelligence measures.",
-    "Fiscal calendar setup on the Power BI Reports Setup page sets the fiscal calendar type and first month, enabling fiscal time intelligence.",
-    "Week-based calendar settings: First Day of Week, First Month of Fiscal Calendar, Weekly Type (Nearest or Last), and Quarter Week Type (445, 454, 544).",
-    "Functional-area apps provide semantic models and KPIs for Finance, Sales, Purchasing, Inventory, Projects, Manufacturing, Subscription Billing, and Sustainability.",
+    "Fiscal calendar is set up on the Power BI Reports Setup page, including the first month of the fiscal year.",
+    "Week-based calendar defines First Day of Week, first fiscal month, a boundary rule (Nearest or Last), and a period pattern (445, 454, or 544).",
+    "Functional-area apps include Finance, Sales, Purchasing, Inventory, Inventory Valuation, and Projects, plus Manufacturing, Sustainability, and Subscription Billing.",
     "Back links let users move from aggregated visuals to transactional documents in Business Central for validation and reconciliation.",
-    "The FAQ covers Power BI Pro licensing, semantic model refresh, dimension data updates, job queue scheduling, and multi-company reporting."
+    "The FAQ (versions 26.2 and 27.0) covers Power BI Pro licensing, semantic model refresh, dimension data updates, job queue scheduling, and multi-company reporting."
   ],
   "members_used": 8,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-24T00:52:44.303Z",
+  "at": "2026-11-05T00:54:35.822Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.016893000000000002
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-24T00:55:31.665Z",
-    "verdict": "fix",
-    "issues": [
-      "Overview says all three calendar types are set on the Power BI Reports Setup page. Only the fiscal calendar page summary names that page, so the claim now applies to the fiscal calendar only.",
-      "The version notes in parentheses, '(install page lists version 27.0)' and '(versions 26.2 and 27.0)', are page metadata. Attached to features, they read as version requirements the sources don't state. I removed them from the key points.",
-      "The functional-area page features list only six areas, but its summary also names Subscription Billing and Sustainability, so the list of eight areas is supported."
-    ],
-    "input_hash": "3488a2e3ea4c48a88dc5ebea134592232ecc0a4c918a9756faf5a55dbab9cbf3",
-    "cost_usd": 0.0572232
+    "cost_usd": 0.016301000000000003
   }
 }

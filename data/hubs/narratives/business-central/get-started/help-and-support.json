@@ -1,38 +1,25 @@
 {
   "hub_id": "topic/business-central/get-started/help-and-support",
-  "input_hash": "b6662393d5f38ed308ae7f4c143d56098af17f1dea3cb920f661553a8d50ab8b",
-  "summary": "Help and Support in Business Central covers where users find help (Chat with Copilot, the Help pane, the Help & Support page) and how administrators manage technical support. It answers questions about troubleshooting resources, telemetry, and contacting support.",
-  "overview": "This section has two pages and no subtopics. One is aimed at end users and the other at people who manage support.\n\n\"Resources for help and support\" lists the help options in the product: Chat with Copilot, the in-product Help pane, field tooltips, and the Help & Support page. The Help & Support page links to community forums, troubleshooting material, and technical support contact information. It also mentions Page Inspection and telemetry logging, and it lists 2020 release wave 2.\n\n\"Managing technical support\" is for those who run support processes. It covers troubleshooting, tenant administration, and escalation. It names tools such as telemetry analysis, Application Insights, event recording, page inspection, and sandbox environments.\n\nStart with \"Resources for help and support\" to see what users can reach on their own. Then use \"Managing technical support\" for admin troubleshooting and escalation.",
+  "input_hash": "4d6e76ccb65eaff07c7da33b3d98197c273fe4895645b004d6492bc600f26889",
+  "summary": "Help and Support in Business Central covers the help resources available to users and the tools and processes for managing technical support. It answers questions about where to find help, how to use Chat with Copilot and the Help pane, and how to troubleshoot and escalate issues.",
+  "overview": "This section has two pages. \"Resources for help and support\" is for end users and describes the ways to get help in the product: Chat with Copilot, the Help pane, the Help & Support page, in-product tips, community forums, documentation, and ways to contact technical support. It applies to 2020 release wave 2 (version 18) and later.\n\n\"Managing technical support\" is for administrators and support staff. It describes tools and processes for troubleshooting, tenant administration, and escalation, including telemetry analysis, sandbox environments, Application Insights, event recording, and page inspection.\n\nStart with the resources page to see what users can do on their own. Then use the managing technical support page when a problem needs deeper investigation or escalation.",
   "key_points": [
-    "In-product help options: Chat with Copilot, the Help pane, and field tooltips.",
-    "The Help & Support page links to community forums, troubleshooting resources, and technical support contact information.",
-    "Page Inspection helps with troubleshooting and appears on both pages.",
-    "Telemetry logging and telemetry analysis support diagnosis, including through Application Insights.",
+    "Chat with Copilot can answer help questions and explain fields.",
+    "The Help pane supports searching for help content within the product.",
+    "The Help & Support page includes a troubleshooting section and ways to contact technical support.",
+    "In-product tips, community forums, and documentation are further sources of help.",
+    "The resources page covers 2020 release wave 2 (version 18) and later.",
     "Managing technical support covers troubleshooting, tenant administration, and escalation procedures.",
-    "Event recording and sandbox environments are listed as tools for support work.",
-    "The resources page lists 2020 release wave 2."
+    "Support tools named include telemetry analysis, Application Insights, event recording, and page inspection.",
+    "Sandbox environments are listed among the tools for support work."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:13:12.070Z",
+  "at": "2026-11-05T00:54:50.272Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.009255
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T05:22:33.250Z",
-    "verdict": "approve",
-    "issues": [
-      "The key point linking telemetry analysis to Application Insights is a small inference. Both appear in the Managing technical support features, but the summaries don't connect them.",
-      "'Page Inspection helps with troubleshooting' goes slightly beyond the sources, which only list Page Inspection as a feature.",
-      "Calling the resources page 'aimed at end users' is a mild interpretation. Its summary describes general help resources.",
-      "The key point 'The resources page lists 2020 release wave 2' is supported but adds little value for agents. Without context it could also suggest the features date from that wave."
-    ],
-    "input_hash": "b6662393d5f38ed308ae7f4c143d56098af17f1dea3cb920f661553a8d50ab8b",
-    "cost_usd": 0.0321032
+    "cost_usd": 0.008947
   }
 }

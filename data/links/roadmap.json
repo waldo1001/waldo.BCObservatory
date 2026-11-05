@@ -31651,155 +31651,134 @@
     "video/-_TaZY2Clh0": {
       "kind": "video",
       "key": "video/-_TaZY2Clh0",
-      "hash": "41ad86f50195fca499483ce6c32a212ab595d8cb075f0d1a9514e36bc50f5f58",
+      "hash": "c48d6c93fc7da444ef462e0ac052ce83909e4ecda93809c55f9d88d8779fa540",
       "video_id": "-_TaZY2Clh0",
       "title": "Concurrency in Business Central: Parallel processes without deadlocks and timeouts",
-      "at": "2026-10-25T12:31:40.772Z",
+      "at": "2026-11-05T00:49:08.182Z",
       "matches": []
     },
     "video/-q8Gm7u7R2A": {
       "kind": "video",
       "key": "video/-q8Gm7u7R2A",
-      "hash": "29579ca3c9a50d37d1583533de9cb4226d5a8226cbcd9c28fe96e5b618132a9e",
+      "hash": "cd7c1d93b8bf7b31954a0111e0f6ea0a6c43795778315fbea2adf67c5c47f68a",
       "video_id": "-q8Gm7u7R2A",
       "title": "What's New: Business Central Integration with Dataverse (2024 release wave 1)",
-      "at": "2026-10-25T12:31:38.042Z",
+      "at": "2026-11-05T00:49:08.446Z",
       "matches": []
     },
     "video/-SGaVGOkiF0": {
       "kind": "video",
       "key": "video/-SGaVGOkiF0",
-      "hash": "a0b7b2c8aa33c6cbec678cecdc354d0dce46152531efb8251acf7b40a2cfa561",
+      "hash": "7a089f09e014189c741bf4a6c86ec1795820ad97acc392bc3cb39367671329bc",
       "video_id": "-SGaVGOkiF0",
       "title": "Introducing Payment Times Analysis in Business Central (2023 release wave 2)",
-      "at": "2026-11-04T00:54:47.462Z",
+      "at": "2026-11-05T00:49:09.636Z",
       "matches": [
         {
           "feature": 0,
           "name": "Payment Times Analysis",
           "t": 47,
           "roadmap_id": "576802",
-          "quote": "Payment Times Analysis. A new global feature that analyzes payment behavior"
+          "quote": "analyzes payment behavior against vendors and customers, tracking whether payments occur on or after due dates"
         },
         {
           "feature": 1,
           "name": "Aggregation by Company Size",
           "t": 153,
           "roadmap_id": "576802",
-          "quote": "Aggregation by Company Size. Analysis option that groups payment data"
-        },
-        {
-          "feature": 2,
-          "name": "Aggregation by Period",
-          "t": 343,
-          "roadmap_id": "576802",
-          "quote": "Aggregation by Period. Analysis option that groups payment data by custom periods"
+          "quote": "Analysis option that groups payment data by company size categories"
         },
         {
           "feature": 3,
           "name": "Payment Analysis Statistics",
           "t": 174,
           "roadmap_id": "576802",
-          "quote": "average agreed payment period, average actual payment period, percentage paid"
+          "quote": "average agreed payment period, average actual payment period, percentage paid on time"
         },
         {
-          "feature": 4,
-          "name": "Payment Analysis Drill-Down",
-          "t": 268,
-          "roadmap_id": "576802",
-          "quote": "Payment Analysis Drill-Down. Ability to drill down into payment analysis details"
+          "feature": 3,
+          "name": "Payment Analysis Statistics",
+          "t": 174,
+          "roadmap_id": "576839",
+          "quote": "average agreed payment period, average actual payment period, percentage paid on time"
         }
       ]
     },
     "video/-uAvdZAWWwI": {
       "kind": "video",
       "key": "video/-uAvdZAWWwI",
-      "hash": "51f54e321b6eaed0e27d3b43ba2088083de3f9c2e334114a116910899dff97eb",
+      "hash": "394d67f2fa1c409e320e1fe7da7b530ecc6d0f8e18314ed6cdad9966a2832c5a",
       "video_id": "-uAvdZAWWwI",
       "title": "Transfer Environments",
-      "at": "2026-10-23T23:44:19.494Z",
+      "at": "2026-11-05T00:49:08.837Z",
       "matches": []
     },
     "video/-vCiEloR61U": {
       "kind": "video",
       "key": "video/-vCiEloR61U",
-      "hash": "02dfcddc0fe2de77af02e74f39ba902568d68040d9be4af963ea870f987991bd",
+      "hash": "eddf8f79f870076d09fc4446ed83d14db669018a0104cb751b142b956ffcd59f",
       "video_id": "-vCiEloR61U",
       "title": "Business Central 29: New ModuleInfo Properties Explained",
-      "at": "2026-10-25T12:31:37.460Z",
+      "at": "2026-11-05T00:49:07.495Z",
       "matches": [
         {
           "feature": 0,
           "name": "ModuleInfo help property",
           "t": 153,
           "roadmap_id": "573354",
-          "quote": "ModuleInfo help property. New property added to ModuleInfo"
+          "quote": "help link of a specified application, allowing programmatic access"
         },
         {
           "feature": 1,
           "name": "ModuleInfo ULA property",
           "t": 164,
           "roadmap_id": "573354",
-          "quote": "ModuleInfo ULA property. New property that returns the application"
+          "quote": "end user license agreement link, accessible programmatically from AL code"
         },
         {
           "feature": 2,
           "name": "ModuleInfo privacy statement property",
           "t": 175,
           "roadmap_id": "573354",
-          "quote": "ModuleInfo privacy statement property. New property that returns"
+          "quote": "privacy statement link for a particular application, accessible programmatically"
         },
         {
           "feature": 3,
           "name": "ModuleInfo context sensitive help URL property",
           "t": 180,
           "roadmap_id": "573354",
-          "quote": "ModuleInfo context sensitive help URL property. New property"
+          "quote": "help URL in the user locale for a particular application, enabling localized help access"
         },
         {
           "feature": 4,
           "name": "ModuleInfo type enhancements",
           "t": 99,
           "roadmap_id": "573354",
-          "quote": "ModuleInfo type enhancements. ModuleInfo is an AL type"
-        },
-        {
-          "feature": 6,
-          "name": "NavApp.GetCurrentModuleInfo function",
-          "t": 308,
-          "roadmap_id": "573354",
-          "quote": "NavApp.GetCurrentModuleInfo function. AL function that retrieves"
-        },
-        {
-          "feature": 7,
-          "name": "NavApp.GetModuleInfo function",
-          "t": 294,
-          "roadmap_id": "573354",
-          "quote": "NavApp.GetModuleInfo function. AL function that retrieves ModuleInfo"
+          "quote": "ModuleInfo type that provides information about an application or extension, expanded in version 29 with four new properties"
         }
       ]
     },
     "video/-vdhfNMNZQk": {
       "kind": "video",
       "key": "video/-vdhfNMNZQk",
-      "hash": "946d36abcb7d83c2adac3e21674af91761dd556af0e848151dac8c74157522e8",
+      "hash": "fc91a0a1ed21f8f050d6b2a52c37a145b39cf7e8ff69572d9519bb87d0db72f9",
       "video_id": "-vdhfNMNZQk",
       "title": "Introducing: Composite Document Layouts (2026 release wave 2)",
-      "at": "2026-10-25T12:31:38.992Z",
+      "at": "2026-11-05T00:49:08.120Z",
       "matches": [
         {
           "feature": 0,
           "name": "Composite layouts for documents",
           "t": 6,
           "roadmap_id": "573326",
-          "quote": "Composite layouts for documents. Split report layouts into reusable components"
+          "quote": "Split report layouts into reusable components - body layout for structure, themes for branding"
         },
         {
           "feature": 0,
           "name": "Composite layouts for documents",
           "t": 6,
           "roadmap_id": "573327",
-          "quote": "Composite layouts for documents. Split report layouts into reusable components"
+          "quote": "themes for branding colors and fonts, and header-footer layouts for document headers"
         },
         {
           "feature": 2,
@@ -31813,7 +31792,7 @@
           "name": "Header-footer layout application",
           "t": 87,
           "roadmap_id": "573326",
-          "quote": "Apply header-footer layouts to body layouts at runtime. Can be set at global"
+          "quote": "Apply header-footer layouts to body layouts at runtime. Can be set at global, company"
         },
         {
           "feature": 4,
@@ -31841,19 +31820,19 @@
     "video/01GoAUnpBnw": {
       "kind": "video",
       "key": "video/01GoAUnpBnw",
-      "hash": "78b334f8ffffebfd06a23b1b1c11b4434e38859968c3b7fd801a5176ae0a2be9",
+      "hash": "8a4ca6baddc4999455dae7999ce262e0d5088e1fb3c33cca42de3ac98323bcd2",
       "video_id": "01GoAUnpBnw",
       "title": "What's New: Migrate Record Links and Notes (2025 release wave 2)",
-      "at": "2026-10-25T12:31:40.524Z",
+      "at": "2026-11-05T00:49:11.727Z",
       "matches": []
     },
     "video/06vgkq2EXmA": {
       "kind": "video",
       "key": "video/06vgkq2EXmA",
-      "hash": "e12b74ee5985f5c140059adb5d0c581c58038da55b516e4e06e9ee069686f28a",
+      "hash": "48c89efc86fc8d225475b34a641f3724159af75c2dfdc60c3606a9913f47d0a3",
       "video_id": "06vgkq2EXmA",
       "title": "Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central",
-      "at": "2026-10-30T01:06:13.390Z",
+      "at": "2026-11-05T00:49:14.843Z",
       "matches": [
         {
           "feature": 0,
@@ -31867,134 +31846,134 @@
     "video/07G7aC14Y_w": {
       "kind": "video",
       "key": "video/07G7aC14Y_w",
-      "hash": "c37d9a87eda09f6c8c2c2d7651281daf2e277bf6c6f681d13b3955839847cf76",
+      "hash": "b3b09bd64c04b06b368011b9358c947dc6994ae870b6530d6e8d2c8056417257",
       "video_id": "07G7aC14Y_w",
       "title": "What's new in E-Documents: Overview (2026 release wave 2)",
-      "at": "2026-11-04T00:54:48.071Z",
+      "at": "2026-11-05T00:49:14.878Z",
       "matches": [
         {
           "feature": 0,
           "name": "EDI functionality in Business Central",
           "t": 6,
           "roadmap_id": "573305",
-          "quote": "EDI functionality in Business Central. New capability to exchange order information"
+          "quote": "exchange order information, order confirmations, and related documents between buyer and seller companies electronically using EDI standards"
         },
         {
           "feature": 1,
           "name": "Purchase order EDI document type",
           "t": 59,
           "roadmap_id": "573305",
-          "quote": "Purchase order EDI document type. Support for sending purchase orders"
+          "quote": "sending purchase orders from buyer to seller company automatically as e-documents in XML format"
         },
         {
           "feature": 2,
           "name": "Sales order automatic creation from EDI",
           "t": 91,
           "roadmap_id": "573305",
-          "quote": "Sales order automatic creation from EDI. When a buyer sends a purchase order"
+          "quote": "sales order is automatically created on the seller side, which can then be accepted or rejected"
         },
         {
           "feature": 3,
           "name": "Order response messaging",
           "t": 91,
           "roadmap_id": "573305",
-          "quote": "Order response messaging. Seller can send back an order response"
+          "quote": "order response (accepted or rejected) to the buyer, who will receive status updates"
         },
         {
           "feature": 4,
           "name": "Remittance advice EDI document",
           "t": 104,
           "roadmap_id": "573305",
-          "quote": "Remittance advice EDI document. When posting a purchase invoice"
+          "quote": "remittance advice file to the seller, enabling payment reporting through the e-documents framework"
         },
         {
           "feature": 5,
           "name": "Bidirectional EDI document direction control",
           "t": 158,
           "roadmap_id": "573305",
-          "quote": "Bidirectional EDI document direction control. Ability to configure document directions"
+          "quote": "configure document directions as inbound only, outbound only, or both inbound and outbound"
         },
         {
           "feature": 6,
           "name": "Electronic identifier support for EDI",
           "t": 189,
           "roadmap_id": "573305",
-          "quote": "Electronic identifier support for EDI. Support for electronic identifiers"
+          "quote": "electronic identifiers such as JIN or VT registration numbers on both buyer and seller sides"
         },
         {
           "feature": 7,
           "name": "Item reference support for EDI matching",
           "t": 201,
           "roadmap_id": "573305",
-          "quote": "Item reference support for EDI matching. Support for item reference"
+          "quote": "item reference or JIN codes on items to ensure correct item matching between buyer and seller"
         },
         {
           "feature": 8,
           "name": "EDI message logging and tracking",
           "t": 231,
           "roadmap_id": "573305",
-          "quote": "EDI message logging and tracking. Log functionality for each EDI exchange"
-        },
-        {
-          "feature": 9,
-          "name": "PPPLE format for EDI",
-          "t": 143,
-          "roadmap_id": "573305",
-          "quote": "PPPLE format for EDI. Use of PPPLE (people) format"
-        },
-        {
-          "feature": 12,
-          "name": "EDI purchase order to sales order linkage",
-          "t": 311,
-          "roadmap_id": "573305",
-          "quote": "EDI purchase order to sales order linkage. New linkage functionality"
+          "quote": "Log functionality for each EDI exchange showing which files were created and how the exchange progressed"
         },
         {
           "feature": 10,
           "name": "French e-reporting formats",
           "t": 535,
           "roadmap_id": "576832",
-          "quote": "French e-reporting formats. Three new e-document formats introduced for France"
+          "quote": "Three new e-document formats introduced for France to support French regulatory requirements"
         },
         {
           "feature": 11,
           "name": "French e-reporting lifecycle event tracking",
           "t": 561,
           "roadmap_id": "576832",
-          "quote": "French e-reporting lifecycle event tracking. Regulatory lifecycle events for French"
+          "quote": "lifecycle events for French e-reporting are stored as messages and linked to original invoice e-documents"
+        },
+        {
+          "feature": 12,
+          "name": "EDI purchase order to sales order linkage",
+          "t": 311,
+          "roadmap_id": "573305",
+          "quote": "linkage functionality that allows easy navigation between purchase orders, e-documents, and automatically created sales orders"
         }
       ]
     },
     "video/0h8QBNmeORQ": {
       "kind": "video",
       "key": "video/0h8QBNmeORQ",
-      "hash": "0e3702bbd3dc35cd38665ed909d60dce446aa1ebca47cb92085f0343841d082b",
+      "hash": "a85aa41fe3c56ffafae0012d6417cf8b6bd3ce813d1a8af53a75b809ea1f59cd",
       "video_id": "0h8QBNmeORQ",
       "title": "Microsoft Sizzle: Business Central Agents In Action",
-      "at": "2026-11-04T00:54:46.184Z",
+      "at": "2026-11-05T00:49:13.962Z",
       "matches": []
     },
     "video/0qt0Zy9ZsRo": {
       "kind": "video",
       "key": "video/0qt0Zy9ZsRo",
-      "hash": "080f56a4287fc4cbf0701c4433de951e17b01b6f9a48109823a8a26aebcf7f51",
+      "hash": "7ff261a9571f8291d054be6baedc46f69f5bafe6ad8a94ecbdc78d84a8aab231",
       "video_id": "0qt0Zy9ZsRo",
       "title": "What's New: Analyze Performance Issues with Scheduled Profiles (2024 release wave 2)",
-      "at": "2026-10-25T12:31:44.824Z",
+      "at": "2026-11-05T00:49:13.970Z",
       "matches": [
         {
           "feature": 1,
           "name": "Scheduled Profiles",
           "t": 262,
           "roadmap_id": "573335",
-          "quote": "Automatic, non-interactive performance profile capture based on well-defined rules"
+          "quote": "Scheduled Profiles. Automatic, non-interactive performance profile capture based on well-defined rules"
         },
         {
           "feature": 2,
           "name": "Profile Schedule Configuration",
           "t": 363,
           "roadmap_id": "573335",
-          "quote": "Interface for defining rules for automatic profile capture including enable/disable toggle"
+          "quote": "Interface for defining rules for automatic profile capture including enable/disable toggle, start and end times"
+        },
+        {
+          "feature": 3,
+          "name": "Performance Profiles Page",
+          "t": 524,
+          "roadmap_id": "573335",
+          "quote": "Page that displays all captured performance profiles for viewing and analysis"
         },
         {
           "feature": 4,
@@ -32008,44 +31987,66 @@
     "video/0WAOtNaKjws": {
       "kind": "video",
       "key": "video/0WAOtNaKjws",
-      "hash": "d221f97f19ecd66554cbe58417a74017dd6656b9884765b5e6fc55be5f93867e",
+      "hash": "da9ac1c54f2885b1cef7c8681be843814ce7d64642986602ba19714a49fe347c",
       "video_id": "0WAOtNaKjws",
       "title": "What's New: Enhanced MCP Server (2026 release wave 1)",
-      "at": "2026-10-30T01:06:12.750Z",
-      "matches": []
+      "at": "2026-11-05T00:49:13.809Z",
+      "matches": [
+        {
+          "feature": 5,
+          "name": "MCP Resources Support",
+          "t": 443,
+          "roadmap_id": "576789",
+          "quote": "Business Central MCP server now supports the MCP resources protocol feature"
+        },
+        {
+          "feature": 6,
+          "name": "Embedded Resources",
+          "t": 477,
+          "roadmap_id": "576789",
+          "quote": "MCP server returns large data sets as embedded file references instead of text content"
+        }
+      ]
     },
     "video/198d9piIoE0": {
       "kind": "video",
       "key": "video/198d9piIoE0",
-      "hash": "82c62ca14afb00519b97d06a0526ab94402fc56e5053b65edfda549e1391f3c9",
+      "hash": "ebd531a743882294c373444baf634642889198fe83f287cd3ba8fd1a4229dc77",
       "video_id": "198d9piIoE0",
       "title": "What's New: Reservation Worksheet and Fulfillment Suggestions (2023 release wave 2)",
-      "at": "2026-10-31T00:59:55.041Z",
+      "at": "2026-11-05T00:49:16.183Z",
       "matches": []
     },
     "video/1ft4o9lQzsU": {
       "kind": "video",
       "key": "video/1ft4o9lQzsU",
-      "hash": "87c64d5aa97c386c68ee38b61fbe23ad47c353651b43a72d442fa3a1c0347e61",
+      "hash": "e2a1525843eb9f10ec0a4710082e6d2aa1df1dfce24a4cb4f0380df56851d213",
       "video_id": "1ft4o9lQzsU",
       "title": "20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting",
-      "at": "2026-10-31T00:59:54.452Z",
+      "at": "2026-11-05T00:49:22.322Z",
       "matches": []
     },
     "video/1ht5nxubZ9c": {
       "kind": "video",
       "key": "video/1ht5nxubZ9c",
-      "hash": "f88acad7995a487c2abb7a763883e7a5ec8b3c17af6a7e40acd62ab50e609e5c",
+      "hash": "6d3deaab7dc7c48ff85b84a5f0c84c7cc96f0f74b8f46a83363178b7dadd9aaf",
       "video_id": "1ht5nxubZ9c",
       "title": "Sales Order Agent - Working with a Personal or Shared Folder (2026)",
-      "at": "2026-10-30T01:06:19.935Z",
+      "at": "2026-11-05T00:49:18.347Z",
       "matches": [
         {
           "feature": 0,
           "name": "Sales Order Agent folder selection",
           "t": 27,
           "roadmap_id": "578065",
-          "quote": "monitor a specific folder in Outlook instead"
+          "quote": "Sales order agent can be configured to monitor a specific folder"
+        },
+        {
+          "feature": 1,
+          "name": "Sales Order Agent email conversion",
+          "t": 72,
+          "roadmap_id": "578065",
+          "quote": "sales order agent can automatically pick up emails from a monitored folder"
         },
         {
           "feature": 3,
@@ -32059,43 +32060,43 @@
     "video/1IIlArcHpOY": {
       "kind": "video",
       "key": "video/1IIlArcHpOY",
-      "hash": "4a63610d6fb17a586c6eabd594c0d7d8b4932c784a585291239d62bca96e6494",
+      "hash": "58baf09ab4e3866cfbc9897232263f1f4fc1d8f2721543032ec5b505659baab2",
       "video_id": "1IIlArcHpOY",
       "title": "What's New: Working with Instructions for Agents in Business Central",
-      "at": "2026-11-04T00:54:47.980Z",
+      "at": "2026-11-05T00:49:21.569Z",
       "matches": [
         {
           "feature": 3,
           "name": "Agent Review Experience",
           "t": 650,
           "roadmap_id": "573366",
-          "quote": "Agent-filled fields with explanations for why the agent took specific actions"
+          "quote": "users can review agent-filled fields with explanations for why the agent took specific actions"
         },
         {
-          "feature": 4,
-          "name": "Agent Task Execution with Real-time Monitoring",
-          "t": 546,
-          "roadmap_id": "573363",
-          "quote": "Agents execute tasks step-by-step with real-time monitoring capability"
+          "feature": 11,
+          "name": "User review tool",
+          "t": 1131,
+          "roadmap_id": "573366",
+          "quote": "Agent requests user review after successfully completing a task"
         }
       ]
     },
     "video/1OiiA7SgqBY": {
       "kind": "video",
       "key": "video/1OiiA7SgqBY",
-      "hash": "60b6995bb8b99a9840f7a5d83026cc01c1d43514fde35250318b9ab0d4a7f257",
+      "hash": "8a298cb4de243c75637bc63ce2a53919df5f0c1bfd91969c6f803d9aa248115c",
       "video_id": "1OiiA7SgqBY",
       "title": "#BCTalent Stories: SOCITAS",
-      "at": "2026-10-25T12:31:51.186Z",
+      "at": "2026-11-05T00:49:19.338Z",
       "matches": []
     },
     "video/1QuV_vkbNVU": {
       "kind": "video",
       "key": "video/1QuV_vkbNVU",
-      "hash": "c3bc57d3a5c9f50e59f277546d11a40e526bdf5863c41bfabc8fcdddfc3ef5a8",
+      "hash": "fd653c483eb047c68d037c4662c506c51192b744e1e6a9be81db1b71c64a60e2",
       "video_id": "1QuV_vkbNVU",
       "title": "Introducing Spreadsheets for Business Central",
-      "at": "2026-11-04T00:54:45.877Z",
+      "at": "2026-11-05T00:49:21.567Z",
       "matches": []
     },
     "video/1ugAYeEZLaU": {

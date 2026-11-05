@@ -2,21 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo
 type: topic
 title: Analytics, business intelligence, and reporting
-summary: "Analytics, business intelligence, and reporting in Business Central: KPIs, dashboards, financial reports, ad-hoc analysis, built-in reports, running reports, report development, and exporting data to external BI tools. It answers how-to, setup, and development questions about getting information out of Business Central."
+summary: "Analytics, business intelligence, and reporting in Business Central: KPIs, dashboards, financial reports, ad-hoc analysis, built-in reports, report development, and exporting data to external BI tools. It helps answer where to find, run, build, or analyze reports and data."
 tier: official
 language: en
 system: reporting
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:53:30.284Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 7fc4fbc52e7d071add0313fa36c2f53aef2bf1b81b66da04c85f7f0fb2e33c09
+  input_hash: ee2c5d29b0d84567840bf36d6f816ad4709593a9e1524902b7da4d4712331e2d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-reports
@@ -201,13 +201,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/about-intelligent-cloud
-    title: Intelligent insights and cloud migration (on-premises only)
-    date: "2024-03-15"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-powerbi
     title: Introduction to Business Central and Power BI
     date: "2026-06-17"
@@ -287,13 +280,20 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-by-functional-area
     title: Power BI apps/reports for functional areas
-    date: "2026-09-14"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/production-reports
     title: Production Reports and Analytics
+    date: "2026-09-18"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/project-reports
+    title: Project Reports
     date: "2026-09-18"
     commit: null
     t: null
@@ -363,7 +363,6 @@ links:
     - object/page/2752
     - object/page/2753
     - object/page/2754
-    - object/page/4010
     - object/page/5832
     - object/page/5870
     - object/page/5872
@@ -412,7 +411,6 @@ links:
     - object/page/37005
     - object/page/37006
     - object/page/37007
-    - object/page/37008
     - object/page/37009
     - object/page/37010
     - object/page/37011
@@ -444,8 +442,6 @@ links:
     - object/page/37037
     - object/page/37038
     - object/page/37039
-    - object/page/37040
-    - object/page/37041
     - object/page/37042
     - object/page/37043
     - object/page/37044
@@ -651,8 +647,8 @@ children:
   - topic/business-central/analytics-business-intelligence-and-repo/develop-reports
   - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to
 coverage:
-  learn: 70
-  code: 318
+  learn: 69
+  code: 314
   video: 4
   blog: 2
   guideline: 0
@@ -821,7 +817,6 @@ bc_forms:
   - 2752
   - 2753
   - 2754
-  - 4010
   - 4405
   - 5600
   - 5601
@@ -890,7 +885,6 @@ bc_forms:
   - 37005
   - 37006
   - 37007
-  - 37008
   - 37009
   - 37010
   - 37011
@@ -922,8 +916,6 @@ bc_forms:
   - 37037
   - 37038
   - 37039
-  - 37040
-  - 37041
   - 37042
   - 37043
   - 37044
@@ -967,34 +959,34 @@ bc_forms:
   - 99000892
   - 99000915
   - 99000916
-member_hash: 86f36e5876157aa0f34ea2a4be204c3883aa1c79eb5fd61484c65b8899919986
+member_hash: d934004494699bfaa0d28c6f9d782fb2332fa3108abf34cb146f7826a44487a8
 narrative: generated
 ---
 
 # Analytics, business intelligence, and reporting
 
-> Analytics, business intelligence, and reporting in Business Central: KPIs, dashboards, financial reports, ad-hoc analysis, built-in reports, running reports, report development, and exporting data to external BI tools. It answers how-to, setup, and development questions about getting information out of Business Central.
+> Analytics, business intelligence, and reporting in Business Central: KPIs, dashboards, financial reports, ad-hoc analysis, built-in reports, report development, and exporting data to external BI tools. It helps answer where to find, run, build, or analyze reports and data.
 
-Path: Analytics, business intelligence, and reporting · tier official · system reporting · narrative reviewed (checked by Opus)
+Path: Analytics, business intelligence, and reporting · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how Business Central data is analyzed and reported. The overview page introduces the built-in capabilities: financial reports, Key Performance Indicators, Power BI apps, data analysis on list pages, Open in Excel, and the Report Explorer. A separate page lists analytics content by functional area.
+This section covers how Business Central users get insight from their data. It starts with an overview page of built-in reporting, financial reports, KPIs, Power BI apps, data analysis on list pages, Open in Excel, and the Report Explorer. A page on analytics by functional area points to content for specific business domains.
 
-The subtopics split by audience. End users and finance staff can use KPIs, dashboards and financial reports, ad-hoc analysis on lists, and the pages on running and sharing reports. The built-in reports subtopic lists which standard reports exist per area, such as finance, sales, purchasing, fixed assets, project, assembly, manufacturing and service.
+The subtopics split by task and audience. End users can track goals with KPIs, dashboards and financial reports, analyze lists directly with filters, saved views, and data analysis mode, and run, schedule, print, and share reports in daily work. A built-in reports subtopic lists the reports available for finance, sales, purchasing, fixed assets, project, assembly, manufacturing, and service.
 
-Developers use the report development pages for layouts (Word, Excel, RDLC, external, composite) and AL datasets. For analytics outside Business Central, the BI tools subtopic covers export to Microsoft Fabric, Power BI, data warehouses and data lakes, and the v2.0 API. Start with the overview, then pick the subtopic that matches your role.
+Developers and administrators have two further paths: developing reports (layouts and datasets in AL) and analyzing data in external BI tools such as Fabric, Power BI, data warehouses, and data lakes. To start, read the overview, then pick the subtopic that matches your role.
 
 ## Key points
 
-- Financial reports are built from row and column definitions using G/L account categories.
-- KPIs are covered alongside financial reports, and Power BI apps show Business Central data in Power BI.
-- Ad-hoc analysis works directly on lists: sorting, searching, filtering, saved views, data analysis mode with pivot, and Open in Excel.
-- Reports can be run, previewed, printed, scheduled and shared, with saved settings, layouts, default printers and bookmarks.
-- Raw report datasets can be exported to Excel or XML.
-- The Report Explorer helps find built-in reports across finance, sales, purchasing, fixed assets, project, assembly, manufacturing and service.
-- Report development covers Word, Excel, RDLC, external and composite layouts, plus AL datasets and request pages.
-- External analytics options include export to Microsoft Fabric, data warehouses and data lakes, the v2.0 API, and AL performance guidance.
+- Financial reports are built from row and column definitions with G/L account categories, and KPIs track business goals.
+- Business Central connects to Power BI, and Power BI apps are part of the reporting options.
+- Ad-hoc analysis works directly on list pages: sorting, searching, filtering, saved list views, data analysis mode with pivot, and Open in Excel.
+- Report datasets can be exported to Excel or XML.
+- Daily report use includes running, previewing, printing, scheduling, sharing, saved settings, layouts, default printers, and bookmarks.
+- The Report Explorer is the way to reach built-in reports for finance, sales, purchasing, fixed assets, project, assembly, manufacturing, and service.
+- Report development supports Word, Excel, RDLC, external, and composite layouts, with datasets and request pages defined in AL.
+- For external BI, data can be exported to Microsoft Fabric, data warehouses, and data lakes, mirrored to OneLake, or read through the v2.0 API.
 
 ## Subtopics
 
@@ -1003,7 +995,7 @@ Developers use the report development pages for layouts (Word, Excel, RDLC, exte
 - [Use reports in daily work](analytics-business-intelligence-and-repo/use-reports-in-daily-work.md) (8 pages)
 - [Built-in reports](analytics-business-intelligence-and-repo/built-in-reports.md) (22 pages)
 - [Develop reports](analytics-business-intelligence-and-repo/develop-reports.md) (12 pages)
-- [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md) (9 pages)
+- [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md) (8 pages)
 
 ## More Learn pages
 
@@ -1049,7 +1041,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 37005 "Sales by Customer"](../../objects/page/37005.md) · captioned "Sales by Customer (Power BI)"
 - [Page 37006 "Sales by Salesperson"](../../objects/page/37006.md) · captioned "Sales by Salesperson (Power BI)"
 - [Page 37007 "Sales Actual vs. Budget Qty."](../../objects/page/37007.md) · captioned "Sales Actual vs. Budget (Power BI)"
-- [Page 37008 "Sales Actual vs. Budget Amt."](../../objects/page/37008.md) · captioned "Sales Actual vs. Budget Amount"
 - [Page 37009 "Purchases Overview"](../../objects/page/37009.md) · captioned "Purchases Overview (Power BI)"
 - [Page 37010 "Purchases Decomposition"](../../objects/page/37010.md) · captioned "Purchases Decomposition (Power BI)"
 - [Page 37011 "Daily Purchases"](../../objects/page/37011.md) · captioned "Daily Purchases (Power BI)"
@@ -1081,8 +1072,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 37037 "Project Performance to Budget"](../../objects/page/37037.md) · captioned "Project Performance to Budget (Power BI)"
 - [Page 37038 "Project Invoiced Sales by Type"](../../objects/page/37038.md) · captioned "Project Invoiced Sales by Type (Power BI)"
 - [Page 37039 "Project Invd. Sales by Cust."](../../objects/page/37039.md) · captioned "Project Invoiced Sales by Customer (Power BI)"
-- [Page 37040 "Current Utilization"](../../objects/page/37040.md)
-- [Page 37041 "Historical Utilization"](../../objects/page/37041.md)
 - [Page 37042 "PowerBI Work Center Load"](../../objects/page/37042.md) · captioned "Work Center Load (Power BI)"
 - [Page 37043 "Allocated Hours"](../../objects/page/37043.md) · captioned "Allocated Hours (Power BI)"
 - [Page 37044 "Expected Capacity Need"](../../objects/page/37044.md) · captioned "Expected Capacity Need (Power BI)"
@@ -1155,7 +1144,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 2752 "Add Universal Printers Wizard"](../../objects/page/2752.md) · captioned "Add Universal Print Printers" · via [Use reports in daily work](analytics-business-intelligence-and-repo/use-reports-in-daily-work.md)
 - [Page 2753 "Universal Print Shares List"](../../objects/page/2753.md) · captioned "Print Shares" · on [Table 2752 "Universal Print Share Buffer"](../../objects/table/2752.md) · via [Use reports in daily work](analytics-business-intelligence-and-repo/use-reports-in-daily-work.md)
 - [Page 2754 "Universal Printer Tray List"](../../objects/page/2754.md) · captioned "Universal Printer Trays" · on [Table 823 "Name/Value Buffer"](../../objects/table/823.md) · via [Use reports in daily work](analytics-business-intelligence-and-repo/use-reports-in-daily-work.md)
-- [Page 4010 "Intelligent Cloud"](../../objects/page/4010.md) · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
 - [Page 5832 "Capacity Ledger Entries"](../../objects/page/5832.md) · on [Table 5832 "Capacity Ledger Entry"](../../objects/table/5832.md) · via [Built-in reports](analytics-business-intelligence-and-repo/built-in-reports.md)
 - [Page 5870 "BOM Structure"](../../objects/page/5870.md) · on [Table 5870 "BOM Buffer"](../../objects/table/5870.md) · via [Built-in reports](analytics-business-intelligence-and-repo/built-in-reports.md)
 - [Page 5872 "BOM Cost Shares"](../../objects/page/5872.md) · on [Table 5870 "BOM Buffer"](../../objects/table/5870.md) · via [Built-in reports](analytics-business-intelligence-and-repo/built-in-reports.md)

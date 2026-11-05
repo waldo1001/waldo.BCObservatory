@@ -2,7 +2,7 @@
 id: source/demiliani-com
 type: source
 title: Stefano Demiliani
-summary: "Stefano Demiliani (MVP): 94 posts in the knowledge base, 2025-04-07 to 2026-10-26, mostly about development, platform, integration."
+summary: "Stefano Demiliani (MVP): 96 posts in the knowledge base, 2025-04-07 to 2026-11-04, mostly about development, platform, integration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T08:47:18.430Z"
+  at: "2026-11-05T00:14:20.359Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f7508d8469281c4c26afb85e9b8e9f555bce1e6a3b3c85d9867b77236f8ac1ad
+  input_hash: 5988dec72828f8a97d7c366d67d03962f015fede50ba831e81cd379295a01c80
 evidence:
   - kind: blog
     url: https://demiliani.com
@@ -127,6 +127,8 @@ links:
     - post/demiliani-com/17529
     - post/demiliani-com/17538
     - post/demiliani-com/17552
+    - post/demiliani-com/17568
+    - post/demiliani-com/17586
   guidelines: []
 source_id: demiliani-com
 kind: blog
@@ -134,17 +136,17 @@ url: https://demiliani.com
 author: Stefano Demiliani
 mvp: true
 full_text: false
-item_count: 94
+item_count: 96
 footprint:
   systems:
     - id: development
-      weight: 78
+      weight: 79
     - id: platform
-      weight: 73
+      weight: 75
     - id: integration
-      weight: 62
+      weight: 64
     - id: administration
-      weight: 47
+      weight: 48
     - id: copilot
       weight: 42
     - id: localization
@@ -155,7 +157,7 @@ footprint:
     - id: al development
       weight: 11
     - id: security
-      weight: 10
+      weight: 11
     - id: agents
       weight: 7
     - id: on-premises
@@ -166,9 +168,9 @@ footprint:
       weight: 6
     - id: governance
       weight: 6
-    - id: azure functions
-      weight: 5
-    - id: azure openai
+    - id: infrastructure
+      weight: 6
+    - id: ai agents
       weight: 5
   objects:
     - id: api Dynamics 365 Business Central connector
@@ -197,12 +199,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-04-07"
-last_item: "2026-10-26"
+last_item: "2026-11-04"
 ---
 
 # Stefano Demiliani
 
-> Stefano Demiliani (MVP): 94 posts in the knowledge base, 2025-04-07 to 2026-10-26, mostly about development, platform, integration.
+> Stefano Demiliani (MVP): 96 posts in the knowledge base, 2025-04-07 to 2026-11-04, mostly about development, platform, integration.
 
 [https://demiliani.com](https://demiliani.com) · blog · tier community
 
@@ -210,16 +212,16 @@ last_item: "2026-10-26"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (78) | performance (13) | api Dynamics 365 Business Central connector (1) |
-| platform (73) | al development (11) | codeunit Agent (1) |
-| integration (62) | security (10) | codeunit AOAI Chat Completion Params (1) |
-| administration (47) | agents (7) | codeunit AOAI Chat Messages (1) |
+| development (79) | performance (13) | api Dynamics 365 Business Central connector (1) |
+| platform (75) | al development (11) | codeunit Agent (1) |
+| integration (64) | security (11) | codeunit AOAI Chat Completion Params (1) |
+| administration (48) | agents (7) | codeunit AOAI Chat Messages (1) |
 | copilot (42) | on-premises (7) | codeunit AOAI Operation Response (1) |
 | localization (2) | automation (6) | codeunit AzureOpenAI (1) |
 |  | azure logic apps (6) | codeunit File Management (1) |
 |  | governance (6) | codeunit Memory Mapped File (1) |
-|  | azure functions (5) | codeunit Parallel Session Management (1) |
-|  | azure openai (5) | codeunit PDF Document (1) |
+|  | infrastructure (6) | codeunit Parallel Session Management (1) |
+|  | ai agents (5) | codeunit PDF Document (1) |
 |  |  | codeunit Queued Export Worker Bad (1) |
 |  |  | codeunit Queued Export Worker Good (1) |
 
@@ -233,10 +235,12 @@ Items per quarter, oldest first:
 - 2026-Q1: ************* 13
 - 2026-Q2: ************* 13
 - 2026-Q3: ***************** 17
-- 2026-Q4: ******* 7
+- 2026-Q4: ********* 9
 
 ## Most recent
 
+- [Dynamics 365 Business Central: service update to .NET 10 and upgrade window.](../posts/demiliani-com/17586.md) (2026-11-04)
+- [Giving an AI agent the keys to Business Central: practical security tips.](../posts/demiliani-com/17568.md) (2026-11-04)
 - [Dynamics 365 Business Central: matching Production database configuration for Sandboxes.](../posts/demiliani-com/17552.md) (2026-10-26)
 - [Dynamics 365 Business Central: introducing the new “Recent Record” virtual table](../posts/demiliani-com/17538.md) (2026-10-23)
 - [Copilots and agents for Dynamics 365 Business Central: our new book is out!](../posts/demiliani-com/17529.md) (2026-10-23)
@@ -255,7 +259,5 @@ Items per quarter, oldest first:
 - [New EU rules for software: what you need to know.](../posts/demiliani-com/14182.md) (2026-08-26)
 - [Dynamics 365 Business Central: important changes in PTE management.](../posts/demiliani-com/14163.md) (2026-08-19)
 - [AL Language extension and macOS: what’s next?](../posts/demiliani-com/14131.md) (2026-08-17)
-- [How can I move my Business Central-related Azure resources to a new Azure region?](../posts/demiliani-com/14064.md) (2026-08-10)
-- [The skill gap between using AI and architecting AI.](../posts/demiliani-com/14098.md) (2026-08-07)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

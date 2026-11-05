@@ -193,44 +193,44 @@
     "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric": {
       "post/bertverbeek-nl/1318@5fbd2bb16b9536fc": {
         "verdict": "keep",
-        "reason": "Covers native Business Central integration with Fabric via Open Mirroring, including setup and requirements.",
-        "at": "2026-11-04T00:57:33.849Z",
+        "reason": "Explains Business Central's native Fabric integration, how it syncs data and what it requires, which is the subject of this section.",
+        "at": "2026-11-05T00:52:03.870Z",
         "v": 2
       },
-      "post/bertverbeek-nl/1342@56d98420342e8949": {
+      "post/bertverbeek-nl/1342@21b7b25e74fbdb86": {
         "verdict": "keep",
-        "reason": "Shows how to track changes in Business Central data mirrored to Fabric using delta change data feeds.",
-        "at": "2026-11-04T00:57:33.849Z",
+        "reason": "Shows how to track changes in Business Central data mirrored to Fabric, which builds directly on the documented integration.",
+        "at": "2026-11-05T00:52:03.870Z",
         "v": 2
       },
       "post/demiliani-com/15981@1e3ae1a50e02a848": {
         "verdict": "keep",
-        "reason": "Explains the Business Central data mirroring to Fabric feature, its setup and capacity requirements.",
-        "at": "2026-11-04T00:57:33.849Z",
+        "reason": "Announces Business Central data mirroring to Fabric and covers its setup, capacity needs and limits.",
+        "at": "2026-11-05T00:52:03.870Z",
         "v": 2
       },
       "post/thinkaboutit-be/8229@be6eda255137e4a4": {
         "verdict": "keep",
-        "reason": "Walks through Fabric mirroring setup, configuration packages and monitoring for Business Central analytics.",
-        "at": "2026-11-04T00:57:33.849Z",
+        "reason": "Describes how to set up and monitor Business Central mirroring to Fabric.",
+        "at": "2026-11-05T00:52:03.870Z",
         "v": 2
       },
       "post/thinkaboutit-be/8359@db8d195b01005a25": {
         "verdict": "keep",
-        "reason": "Includes a part on native Business Central - Fabric mirroring and the data modeling it needs for analytics.",
-        "at": "2026-11-04T00:57:33.849Z",
+        "reason": "A conference recap that includes a substantive part on native Business Central-Fabric mirroring.",
+        "at": "2026-11-05T00:52:03.870Z",
         "v": 2
       },
       "post/waldo-be/318707@075857747db2e4d8": {
         "verdict": "keep",
-        "reason": "Describes native mirroring to Fabric, its monitoring pages, costs and the Fabric-based Power BI apps.",
-        "at": "2026-11-04T00:57:33.849Z",
+        "reason": "Covers native mirroring to Fabric: the setup, the monitoring pages and the costs.",
+        "at": "2026-11-05T00:52:03.870Z",
         "v": 2
       },
       "video/kOCiyVql0go@49918665f6b1dd4c": {
         "verdict": "keep",
-        "reason": "Microsoft video demonstrating the Business Central Fabric integration app, mirroring, monitoring and permissions.",
-        "at": "2026-11-04T00:57:33.849Z",
+        "reason": "Official video demonstrating Business Central's integration with Microsoft Fabric.",
+        "at": "2026-11-05T00:52:03.870Z",
         "v": 2
       }
     },
@@ -4725,68 +4725,74 @@
     "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions": {
       "post/demiliani-com/13563@1f254779ff0397b6": {
         "verdict": "drop",
-        "reason": "Subject is Copilot credit consumption for agents; the permission requirement is incidental.",
-        "at": "2026-10-26T08:20:11.194Z",
+        "reason": "Subject is Copilot credit billing for agents; permissions are only a side note.",
+        "at": "2026-11-05T00:52:10.138Z",
+        "v": 2
+      },
+      "post/demiliani-com/17568@db697811c661d347": {
+        "verdict": "drop",
+        "reason": "General AI agent security guidance rather than granting user permissions in Business Central.",
+        "at": "2026-11-05T00:52:10.138Z",
         "v": 2
       },
       "post/thedynamicsexplorer-com/37042@47166e5609dd093b": {
         "verdict": "keep",
-        "reason": "Explains default user permissions from licenses/security groups and adjusting them in License Configuration.",
-        "at": "2026-10-26T08:20:11.194Z",
+        "reason": "Explains default permissions from licence configuration and how to customize them, part of granting permissions.",
+        "at": "2026-11-05T00:52:10.138Z",
         "v": 2
       },
       "post/yzhums-com/22035@d19d5b5881b707b6": {
         "verdict": "keep",
-        "reason": "Explains the permission types (table data, table, page) users need, relevant to granting permissions.",
-        "at": "2026-10-26T08:20:11.194Z",
+        "reason": "Explains permission types (table data, table, page) needed by users, relevant to permission set content.",
+        "at": "2026-11-05T00:52:10.138Z",
         "v": 2
       },
       "post/yzhums-com/64474@3b0d1184ff8e1fd4": {
-        "verdict": "drop",
-        "reason": "AL detection of Microsoft 365 plan users belongs to the Microsoft 365 licenses sibling, not permission granting.",
-        "at": "2026-10-26T08:20:11.194Z",
+        "verdict": "keep",
+        "reason": "Shows how to detect license plan per user, related to user access, kept under doubt.",
+        "at": "2026-11-05T00:52:10.138Z",
         "v": 2
       },
       "post/yzhums-com/65999@d5ff6e0becea7ca8": {
         "verdict": "keep",
-        "reason": "Covers maintaining permission sets via the Remove Obsolete Permissions action on the Permission Sets page.",
-        "at": "2026-10-26T08:20:11.194Z",
+        "reason": "Covers the Remove Obsolete Permissions action on the Permission Sets page.",
+        "at": "2026-11-05T00:52:10.138Z",
         "v": 2
       },
       "post/yzhums-com/70836@a33ee3daaba19922": {
         "verdict": "drop",
-        "reason": "Setting up access with Microsoft 365 licenses is documented more exactly by the sibling section.",
-        "at": "2026-10-26T08:20:11.194Z",
+        "reason": "Covers Microsoft 365 license access setup, documented by the sibling section.",
+        "at": "2026-11-05T00:52:10.138Z",
         "v": 2
       },
       "post/yzhums-com/71200@2453aad7daeb9e53": {
         "verdict": "keep",
-        "reason": "New Permissions Overview page for auditing user and group permission set assignments.",
-        "at": "2026-10-26T08:20:11.194Z",
+        "reason": "Covers the Permissions Overview page for auditing user and group permissions.",
+        "at": "2026-11-05T00:52:10.138Z",
         "v": 2
       },
       "post/yzhums-com/72087@e5668e22e1d48fb2": {
         "verdict": "keep",
         "reason": "Demonstrates excluding permissions in permission sets to make Links and Notes read-only.",
-        "at": "2026-10-26T08:20:11.194Z",
+        "at": "2026-11-05T00:52:10.138Z",
         "v": 2
       },
       "post/yzhums-com/73365@eb1b5ff43d9ab723": {
         "verdict": "keep",
-        "reason": "Explains how company scoping in permission set assignment restricts user rights.",
-        "at": "2026-10-26T08:20:11.194Z",
+        "reason": "Explains company-scoped permission set assignment affecting SUPER users.",
+        "at": "2026-11-05T00:52:10.138Z",
         "v": 2
       },
       "video/asSSBl8Cj34@64c9c37acf9c9732": {
         "verdict": "keep",
-        "reason": "Shows importing permission sets with replace option, part of managing permission sets.",
-        "at": "2026-10-26T08:20:11.194Z",
+        "reason": "Demonstrates importing and replacing permission sets.",
+        "at": "2026-11-05T00:52:10.138Z",
         "v": 2
       },
       "video/YbuO1n_Lqj0@cf2ca9df9ccfa6a4": {
         "verdict": "keep",
-        "reason": "Covers Permission Overview page, user permission analysis and permission/security group APIs.",
-        "at": "2026-10-26T08:20:11.194Z",
+        "reason": "Shows Permission Overview page, users list and permission/security group APIs for managing user permissions.",
+        "at": "2026-11-05T00:52:10.138Z",
         "v": 2
       }
     },
@@ -5370,10 +5376,16 @@
       }
     },
     "topic/dev-itpro/administration/automation-api": {
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/introducing-bc-mission-control/@fbd7bf18bf8297db": {
+        "verdict": "keep",
+        "reason": "A tool that uses the Automation APIs to deploy and update extensions, so it works with what this section documents.",
+        "at": "2026-11-05T00:52:03.302Z",
+        "v": 2
+      },
       "video/efoFM5uiCxg@9916d7f7cd0a6d76": {
         "verdict": "drop",
-        "reason": "Job queue notifications and business events are not the admin Automation API endpoints this section documents.",
-        "at": "2026-10-25T17:55:39.669Z",
+        "reason": "Its subject is job queue notifications and business events, which the job queue documentation covers, not the Automation API.",
+        "at": "2026-11-05T00:52:03.302Z",
         "v": 2
       }
     },
@@ -5571,106 +5583,112 @@
       }
     },
     "topic/dev-itpro/administration/monitor-and-analyze-telemetry": {
+      "post/demiliani-com/13096@d983992cb248690a": {
+        "verdict": "keep",
+        "reason": "Discusses measuring client performance using Page View telemetry among other tools.",
+        "at": "2026-11-05T00:52:06.564Z",
+        "v": 2
+      },
+      "post/demiliani-com/13254@1e5abc180a70baaf": {
+        "verdict": "drop",
+        "reason": "About the Database Wait Statistics page, not telemetry monitoring or analysis.",
+        "at": "2026-11-05T00:52:06.564Z",
+        "v": 2
+      },
+      "post/demiliani-com/13369@6629bda418af7616": {
+        "verdict": "keep",
+        "reason": "Covers new deviceHardware fields in page view telemetry and KQL analysis of them.",
+        "at": "2026-11-05T00:52:06.564Z",
+        "v": 2
+      },
+      "post/demiliani-com/14064@9c5177013b891825": {
+        "verdict": "drop",
+        "reason": "About moving Azure resources to a new region; telemetry connection string is only a passing mention.",
+        "at": "2026-11-05T00:52:06.564Z",
+        "v": 2
+      },
+      "post/demiliani-com/17586@489ff81ca84716ed": {
+        "verdict": "drop",
+        "reason": "About the .NET 10 platform transition and maintenance windows, not telemetry.",
+        "at": "2026-11-05T00:52:06.564Z",
+        "v": 2
+      },
+      "post/duiliotacconi-com/1501@f61c9a1e01e3bd21": {
+        "verdict": "keep",
+        "reason": "Investigates client crashes with the RT0030 Error Dialog telemetry signal and dashboards.",
+        "at": "2026-11-05T00:52:06.564Z",
+        "v": 2
+      },
+      "post/duiliotacconi-com/1537@6c9973173596aa6c": {
+        "verdict": "keep",
+        "reason": "Uses KQL queries over telemetry (e.g., LC0159) to analyze hotfix deployment timing.",
+        "at": "2026-11-05T00:52:06.564Z",
+        "v": 2
+      },
+      "post/waldo-be/317845@491d234240c181f4": {
+        "verdict": "keep",
+        "reason": "Extension adding custom telemetry events and dashboards that extend built-in telemetry.",
+        "at": "2026-11-05T00:52:06.564Z",
+        "v": 2
+      },
+      "post/waldo-be/318423@8115c5a0b7062319": {
+        "verdict": "keep",
+        "reason": "Tool for exploring and analyzing Business Central telemetry with KQL.",
+        "at": "2026-11-05T00:52:06.564Z",
+        "v": 2
+      },
+      "post/waldo-be/318571@112fb57861415620": {
+        "verdict": "keep",
+        "reason": "Discusses using the BC Telemetry Buddy AI tool to analyze Business Central telemetry in Application Insights with KQL.",
+        "at": "2026-11-05T00:52:15.299Z",
+        "v": 2
+      },
       "post/yzhums-com/63913@edf0712566cee338": {
         "verdict": "keep",
-        "reason": "Covers field monitoring telemetry sent to Application Insights for reports and alerts, which is one of the telemetry areas this section documents.",
-        "at": "2026-10-26T08:20:15.595Z",
+        "reason": "Covers field monitoring telemetry sent to Application Insights as one way to audit changes, which is part of telemetry by area.",
+        "at": "2026-11-05T00:52:15.299Z",
         "v": 2
       },
       "video/7rIHz0zrgWU@0a2a4c7fce7506a6": {
         "verdict": "keep",
-        "reason": "Walks through new telemetry signals, Power BI analysis and KQL alerting, all of which are central to this section.",
-        "at": "2026-10-26T08:20:15.595Z",
+        "reason": "Walks through new telemetry signals, Power BI telemetry reports and KQL alerting for Business Central.",
+        "at": "2026-11-05T00:52:15.299Z",
         "v": 2
       },
       "video/BOY2442wHSc@8508cbb93942b3b1": {
         "verdict": "keep",
-        "reason": "Shows how to connect the Power BI telemetry apps so they can read Business Central telemetry for analysis.",
-        "at": "2026-10-26T08:20:15.595Z",
+        "reason": "Shows how to connect the Power BI telemetry apps to Business Central telemetry in Application Insights.",
+        "at": "2026-11-05T00:52:15.299Z",
         "v": 2
       },
       "video/F_pssS0FtUc@25880ebddffc054c": {
         "verdict": "keep",
-        "reason": "Covers using telemetry data and the usage analytics Power BI app to monitor usage and errors.",
-        "at": "2026-10-26T08:20:15.595Z",
+        "reason": "Demonstrates using Business Central telemetry and the usage analytics Power BI app to monitor go-lives.",
+        "at": "2026-11-05T00:52:15.299Z",
         "v": 2
       },
       "video/MYZOkoSmtZ0@c7672740d4fcd159": {
         "verdict": "keep",
         "reason": "Shows how to set up Application Insights to store Business Central telemetry.",
-        "at": "2026-10-26T08:20:15.595Z",
+        "at": "2026-11-05T00:52:15.299Z",
         "v": 2
       },
       "video/sZ7wMU1Uxio@6149b0c7f60346f6": {
         "verdict": "keep",
-        "reason": "Covers configuring the Power BI telemetry app used to analyze telemetry.",
-        "at": "2026-10-26T08:20:15.595Z",
+        "reason": "Shows how to configure dataset properties for the Power BI telemetry app that analyzes Business Central telemetry.",
+        "at": "2026-11-05T00:52:15.299Z",
         "v": 2
       },
       "video/uv2NsSD5P7U@47ecd25d9553e2be": {
         "verdict": "drop",
-        "reason": "Its subject is update management, which the Admin center section covers; telemetry signal changes are only a minor point.",
-        "at": "2026-10-26T08:20:15.595Z",
+        "reason": "Mainly about update management in the admin center, which a sibling section covers; telemetry is only a side note.",
+        "at": "2026-11-05T00:52:15.299Z",
         "v": 2
       },
       "video/VX_aPhcsIOc@2053b8d2a073f926": {
         "verdict": "keep",
-        "reason": "Covers controlling telemetry ingestion costs with daily caps, which is part of managing telemetry.",
-        "at": "2026-10-26T08:20:15.595Z",
-        "v": 2
-      },
-      "post/demiliani-com/13096@d983992cb248690a": {
-        "verdict": "keep",
-        "reason": "Uses Page View telemetry to measure client-side performance, a telemetry signal this section covers.",
-        "at": "2026-10-26T08:20:16.825Z",
-        "v": 2
-      },
-      "post/demiliani-com/13254@1e5abc180a70baaf": {
-        "verdict": "drop",
-        "reason": "About the Database Wait Statistics page in the client, not about telemetry.",
-        "at": "2026-10-26T08:20:16.825Z",
-        "v": 2
-      },
-      "post/demiliani-com/13369@6629bda418af7616": {
-        "verdict": "keep",
-        "reason": "Analyzes new network and hardware fields in page view telemetry with KQL.",
-        "at": "2026-10-26T08:20:16.825Z",
-        "v": 2
-      },
-      "post/demiliani-com/14064@9c5177013b891825": {
-        "verdict": "drop",
-        "reason": "About moving Azure resources to a new region; telemetry is only mentioned as a connection string to update.",
-        "at": "2026-10-26T08:20:16.825Z",
-        "v": 2
-      },
-      "post/duiliotacconi-com/1501@f61c9a1e01e3bd21": {
-        "verdict": "keep",
-        "reason": "Investigates client crashes using the Error Dialog telemetry signal RT0030.",
-        "at": "2026-10-26T08:20:16.825Z",
-        "v": 2
-      },
-      "post/duiliotacconi-com/1537@6c9973173596aa6c": {
-        "verdict": "keep",
-        "reason": "Uses telemetry signals and KQL queries to analyze when hotfixes are deployed.",
-        "at": "2026-10-26T08:20:16.825Z",
-        "v": 2
-      },
-      "post/waldo-be/317845@491d234240c181f4": {
-        "verdict": "keep",
-        "reason": "Third-party app that extends Business Central telemetry with custom events and dashboards.",
-        "at": "2026-10-26T08:20:16.825Z",
-        "v": 2
-      },
-      "post/waldo-be/318423@8115c5a0b7062319": {
-        "verdict": "keep",
-        "reason": "Tool for exploring and analyzing Business Central telemetry with KQL and AI.",
-        "at": "2026-10-26T08:20:16.825Z",
-        "v": 2
-      },
-      "post/waldo-be/318571@112fb57861415620": {
-        "verdict": "keep",
-        "reason": "Discusses how to analyze telemetry with AI and what good practice looks like.",
-        "at": "2026-10-26T08:20:16.825Z",
+        "reason": "Covers controlling Business Central telemetry ingestion costs with daily caps and usage views.",
+        "at": "2026-11-05T00:52:15.299Z",
         "v": 2
       }
     },
@@ -9548,86 +9566,164 @@
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance": {
       "post/demiliani-com/12267@642524c944ede625": {
         "verdict": "keep",
-        "reason": "Rec.Truncate is a way to delete rows in bulk efficiently, which is an AL performance practice.",
-        "at": "2026-11-04T00:57:50.983Z",
+        "reason": "Rec.Truncate is a way to bulk-delete rows efficiently, a performance practice for AL code.",
+        "at": "2026-11-05T00:52:08.390Z",
         "v": 2
       },
       "post/demiliani-com/12836@59ea68b671fbe173": {
         "verdict": "keep",
-        "reason": "Sequential GUIDs make GUID keys faster to write to the database, a developer performance practice.",
-        "at": "2026-11-04T00:57:50.983Z",
+        "reason": "Sequential GUIDs reduce index fragmentation and speed up database writes, a performance best practice.",
+        "at": "2026-11-05T00:52:08.390Z",
         "v": 2
       },
       "post/demiliani-com/14031@a830c37bb0a2c55c": {
         "verdict": "keep",
-        "reason": "ReadIsolation and how it interacts with record caching is a topic in AL performance guidance.",
-        "at": "2026-11-04T00:57:50.983Z",
+        "reason": "Explains how ReadIsolation affects record caching and read performance.",
+        "at": "2026-11-05T00:52:08.390Z",
         "v": 2
       },
       "post/demiliani-com/15968@e13c63565651d8a5": {
         "verdict": "keep",
-        "reason": "The query ReadState isolation setting trades locking against concurrency, which is a performance concern.",
-        "at": "2026-11-04T00:57:50.983Z",
+        "reason": "Covers the ReadState isolation levels for query objects and how they trade speed against locking.",
+        "at": "2026-11-05T00:52:08.390Z",
         "v": 2
       },
       "post/duiliotacconi-com/1786@e25ea505a847995c": {
         "verdict": "keep",
-        "reason": "CreateSequentialGuid reduces index fragmentation, which is relevant performance guidance.",
-        "at": "2026-11-04T00:57:50.983Z",
+        "reason": "CreateSequentialGuid is recommended for faster GUID-based keys.",
+        "at": "2026-11-05T00:52:08.390Z",
         "v": 2
       },
       "post/duiliotacconi-com/1850@5319a3fbdedfa6f6": {
         "verdict": "keep",
-        "reason": "Benchmarks Truncate against DeleteAll for bulk deletion, which is AL performance practice.",
-        "at": "2026-11-04T00:57:50.983Z",
+        "reason": "Benchmarks Truncate against DeleteAll and gives guidance on when each performs better.",
+        "at": "2026-11-05T00:52:08.390Z",
         "v": 2
       },
       "post/duiliotacconi-com/2149@0b54d734b3647ccb": {
         "verdict": "keep",
-        "reason": "Covers SetLoadFields, partial records and caching, which the performance guidance documents.",
-        "at": "2026-11-04T00:57:50.983Z",
+        "reason": "Shows how partial records (SetLoadFields) interact with server caching, a core performance topic.",
+        "at": "2026-11-05T00:52:08.390Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951@a737a5c6bfd2e804": {
         "verdict": "keep",
-        "reason": "Covers designing keys across table extension fields to solve performance problems.",
-        "at": "2026-11-04T00:57:50.983Z",
+        "reason": "Explains indexing across table extensions as a fix for performance problems, including write-cost considerations.",
+        "at": "2026-11-05T00:52:08.390Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-run-al-tests-without-bc/@33fed09204573b9a": {
         "verdict": "drop",
-        "reason": "About a tool for running unit tests; that subject belongs to the Testing section, not runtime performance.",
-        "at": "2026-11-04T00:57:50.983Z",
+        "reason": "A unit-testing tool whose speed claim is about test runs, which belongs to the Testing section, not application performance.",
+        "at": "2026-11-05T00:52:08.390Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/@d73e37763c386afc": {
         "verdict": "keep",
-        "reason": "Covers page background tasks, StartSession and job queue for responsiveness, which performance guidance covers.",
-        "at": "2026-11-04T00:57:50.983Z",
+        "reason": "Background processing options for keeping the user interface responsive are part of performance best practice.",
+        "at": "2026-11-05T00:52:08.390Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/@73e98ae4e0ccea95": {
         "verdict": "keep",
-        "reason": "Discusses how RunTrigger affects the speed of Insert, Modify and DeleteAll bulk operations.",
-        "at": "2026-11-04T00:57:50.983Z",
+        "reason": "Discusses the performance cost of running triggers and the bulk Modify/DeleteAll trade-offs.",
+        "at": "2026-11-05T00:52:08.390Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/@aea1381f91018eec": {
         "verdict": "keep",
-        "reason": "Covers planning table indexes, SIFT views and covering indexes for performance.",
-        "at": "2026-11-04T00:57:50.983Z",
+        "reason": "Planning table indexes and SIFT views for read versus write performance is central to this section.",
+        "at": "2026-11-05T00:52:08.390Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/unittestswithoutbaseapp/@e9c7bf37964f4cb3": {
         "verdict": "drop",
-        "reason": "About structuring unit tests to speed up pipelines; that is a testing and CI subject, not AL runtime performance.",
-        "at": "2026-11-04T00:57:50.983Z",
+        "reason": "About shortening test pipelines by structuring extensions, which is testing and CI rather than application performance.",
+        "at": "2026-11-05T00:52:08.390Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/@14154f02a4527d5d": {
         "verdict": "drop",
-        "reason": "A weekly recap about test tooling and compile benchmarks, not AL performance practices.",
-        "at": "2026-11-04T00:57:50.983Z",
+        "reason": "A weekly recap of tooling and compile benchmarks, not runtime performance practices.",
+        "at": "2026-11-05T00:52:08.390Z",
+        "v": 2
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-30-dataaccessintent/@56297fff7ca961d6": {
+        "verdict": "keep",
+        "reason": "DataAccessIntent ReadOnly to use the read replica is a performance practice for developers.",
+        "at": "2026-11-05T00:52:10.470Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8379@3e0cb4be1dba17d5": {
+        "verdict": "drop",
+        "reason": "Its subject is an Admin Center sandbox configuration action, which this developer best-practices section doesn't document.",
+        "at": "2026-11-05T00:52:10.470Z",
+        "v": 2
+      },
+      "post/waldo-be/317845@491d234240c181f4": {
+        "verdict": "keep",
+        "reason": "A telemetry extension that measures code performance and missing indexes, so it supports the performance practices.",
+        "at": "2026-11-05T00:52:10.470Z",
+        "v": 2
+      },
+      "post/yzhums-com/61561@533910f872bc5d81": {
+        "verdict": "keep",
+        "reason": "Compares CalcSums, queries and FlowFields for totals by performance, which matches the section's guidance on efficient data access.",
+        "at": "2026-11-05T00:52:10.470Z",
+        "v": 2
+      },
+      "post/yzhums-com/67343@7027216cf77fe532": {
+        "verdict": "keep",
+        "reason": "Truncate is a faster bulk-delete method with locking trade-offs, which is a performance practice.",
+        "at": "2026-11-05T00:52:10.470Z",
+        "v": 2
+      },
+      "post/yzhums-com/67858@ed0f1e719cd33311": {
+        "verdict": "keep",
+        "reason": "Controlling lock timeout duration relates to the section's locking and concurrency guidance.",
+        "at": "2026-11-05T00:52:10.470Z",
+        "v": 2
+      },
+      "post/yzhums-com/68433@6e68daa71d4442ce": {
+        "verdict": "keep",
+        "reason": "Sequential GUIDs perform better as table keys, which is a key/index performance practice.",
+        "at": "2026-11-05T00:52:10.470Z",
+        "v": 2
+      },
+      "post/yzhums-com/75894@c50d0013e86efb5d": {
+        "verdict": "keep",
+        "reason": "SIFT indexes for FlowField performance are part of the performance guidance.",
+        "at": "2026-11-05T00:52:10.470Z",
+        "v": 2
+      },
+      "video/-_TaZY2Clh0@be5f6f9a14f026ee": {
+        "verdict": "keep",
+        "reason": "Covers locking, isolation levels and deadlock-avoidance patterns that are central to performance practices.",
+        "at": "2026-11-05T00:52:10.470Z",
+        "v": 2
+      },
+      "video/1xdpUmeun-s@c66bef90fa3dbacc": {
+        "verdict": "keep",
+        "reason": "Covers AL runtime performance features such as SetLoadFields, read isolation and set-based operations.",
+        "at": "2026-11-05T00:52:10.470Z",
+        "v": 2
+      },
+      "video/JI5KlMxrtoA@725f5f44ac0d5e00": {
+        "verdict": "keep",
+        "reason": "A code-quality review that includes read isolation, locking and performance-related analyzer rules.",
+        "at": "2026-11-05T00:52:10.470Z",
+        "v": 2
+      },
+      "video/lpwDSdEJrIQ@f360533255881e9e": {
+        "verdict": "keep",
+        "reason": "Directly about making AL code fast with indexing, SetLoadFields, caching and FlowFields.",
+        "at": "2026-11-05T00:52:10.470Z",
+        "v": 2
+      },
+      "video/qABlX4AL3GM@01f215acc09ce160": {
+        "verdict": "keep",
+        "reason": "Table extension storage and partial loading affect database performance, which the section covers.",
+        "at": "2026-11-05T00:52:10.470Z",
         "v": 2
       }
     },

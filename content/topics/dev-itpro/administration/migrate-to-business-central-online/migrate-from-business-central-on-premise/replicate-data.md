@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:47.056Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -45,6 +45,8 @@ links:
     - video/01GoAUnpBnw
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/13438
 learn_toc_path:
   - Administration
   - Migrate to Business Central online
@@ -112,10 +114,11 @@ Then use Run and manage data replication for the hands-on steps. It uses the Clo
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13438 Fix Cloud Migration recovery when Tenant Media is unavailable](../../../../../changes/bcapps/13438.md) (code change): "Cloud migration recovery now handles Tenant Media read failures gracefully"
 - [What's New: Migrate Record Links and Notes (2025 release wave 2)](../../../../../videos/01GoAUnpBnw.md) (video): "Record links and notes migration; data replication; cloud migration management"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:07.777Z"
   flags: []
 generated:
-  at: "2026-11-01T00:45:11.847Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -126,6 +126,8 @@ links:
     - change/bcapps/13104
     - change/bcapps/13111
     - change/bcapps/13261
+    - change/bcapps/13325
+    - change/bcapps/13560
 learn_toc_path:
   - Business functionality
   - Quality management
@@ -200,6 +202,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13104 update tests and enable them](../../../changes/bcapps/13104.md) (code change): "Disabled Quality Management result condition tests are re-enabled"
 - [#13111 [Backport 29.x] #11046: [Extensibility Request] issue 10889: expose large text modal helper](../../../changes/bcapps/13111.md) (code change): "large text modal helper on page 20441 Qlty. Edit Large Text in Quality Management"
 - [#13261 [Backport 29.x] [Extensibility Request] [SCM] 2026-10-26](../../../changes/bcapps/13261.md) (code change): "Modifies Qlty. Result Condition Mgmt. and Qlty. Filter Helpers in Quality Management"
+- [#13325 [Quality Management] Certificate of analysis shows now full name instead of the ID.](../../../changes/bcapps/13325.md) (code change): "Quality Management reports now display full names instead of IDs"
+- [#13560 [QM] Move Inventory: allow destination location for non-directed item](../../../changes/bcapps/13560.md) (code change): "Move Inventory report in Quality Management now allows users to specify"
 - [Quality Management in Business Central Version 28](../../../posts/olofsimren-com/3696.md) (community post): "Business Central version 28 adds a native Quality Management module for inspecting goods"
 
 ## Business Central pages and reports

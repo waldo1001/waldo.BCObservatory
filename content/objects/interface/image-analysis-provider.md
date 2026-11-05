@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T00:50:30.258Z"
+  at: "2026-11-05T00:45:06.377Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 999a360241b05010d44d0d8c1351103a6b467a65508dcdc3e078b79abf37582a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Layers/W1/BaseApp/System/AI/ImageAnalysis/ImageAnalysisProvider.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Layers/W1/BaseApp/System/AI/ImageAnalysis/ImageAnalysisProvider.Interface.al
     title: src/Layers/W1/BaseApp/System/AI/ImageAnalysis/ImageAnalysisProvider.Interface.al (releases/29.x)
     date: null
-    commit: 11bf184798eda1d1104da1324cac5d944742dd2f
+    commit: 1c51b1f77ed32c7267d68456850d9d93296821d3
     t: null
     quote: null
 links:
@@ -84,7 +84,7 @@ relations:
 
 > Interface "Image Analysis Provider" in Base Application (System.AI). 5 public procedures. Present since at least BC23, still in BC30, changed in BC24, BC27.
 
-Base Application · System.AI · BC23-30 · [source at 11bf1847](https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Layers/W1/BaseApp/System/AI/ImageAnalysis/ImageAnalysisProvider.Interface.al) · facts from BC29
+Base Application · System.AI · BC23-30 · [source at 1c51b1f7](https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Layers/W1/BaseApp/System/AI/ImageAnalysis/ImageAnalysisProvider.Interface.al) · facts from BC29
 
 ## Properties
 

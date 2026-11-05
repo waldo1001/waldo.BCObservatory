@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c35b52418517b206e7222b77fe3ea5221ccd041467fb8a71a776097ef0e2a4e7
@@ -57,8 +57,11 @@ links:
     - topic/dev-itpro/administration/cloud-migration-api
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/77070
   guidelines: []
+  changes:
+    - change/bcapps/13438
 learn_toc_path:
   - Administration
   - Cloud Migration API
@@ -70,7 +73,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: c35b52418517b206e7222b77fe3ea5221ccd041467fb8a71a776097ef0e2a4e7
@@ -89,5 +92,12 @@ Path: [Administration](../../administration.md) > [Cloud Migration API](../cloud
 - [(cloudMigration API) Get setupCloudMigrations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloudmigrationapi/api/dynamics_setupcloudmigration_get): Gets a setup cloud migration object in Dynamics 365 Business Central.
 - [(cloudMigration API) setupCloudMigration resource type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloudmigrationapi/resources/dynamics_setupcloudmigration): A setup cloud migration object in Dynamics 365 Business Central.
 - [(cloudMigration API) Update setupCloudMigrations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloudmigrationapi/api/dynamics_setupcloudmigration_update): Updates a setup cloud migration object in Dynamics 365 Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#13438 Fix Cloud Migration recovery when Tenant Media is unavailable](../../../../changes/bcapps/13438.md) (code change): "Shared read-only try function for media counts prevents replication webhook abort"
+- [Business Central 2026 release wave 2 (BC29): Match Production Database Configuration](../../../../posts/yzhums-com/77070.md) (community post): "support cloud migration processes"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

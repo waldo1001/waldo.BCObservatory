@@ -12,7 +12,7 @@ review:
   at: "2026-10-30T08:08:47.161Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,6 +79,7 @@ links:
     - post/aardvarklabs-blog/3998
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-85-schedule-pte-extension-updates--b3aee1ab46
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-introducing-bc-mission-control--6418abfaea
     - post/thinkaboutit-be/8313
     - post/yzhums-com/74541
     - post/yzhums-com/76570
@@ -98,7 +99,7 @@ coverage:
   learn: 6
   code: 0
   video: 1
-  blog: 6
+  blog: 7
   guideline: 0
 bc_forms: []
 member_hash: 659e40a27cf83dd47d095cf06e5ddc91324a34d494c1df16216ce90809e92d5d
@@ -148,6 +149,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Mastering Business Central API for App Management](../../../../posts/aardvarklabs-blog/3998.md) (community post): "Install a .app through the pteInstall endpoint with a multipart form request carrying the file"
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "Installing a PTE means choosing a deployment schedule and a sync mode"
 - [BC Friday Tips #85 Schedule PTE Extension Updates from the Admin Centre](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-85-schedule-pte-extension-updates--b3aee1ab46.md) (community post): "Business Central automatically deploys extensions during the scheduled window"
+- [Introducing BC Mission Control](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-introducing-bc-mission-control--6418abfaea.md) (community post): "deploy extensions, compare app versions, check sessions"
 - [Business Central 29: Manage Per-Tenant Extensions from the Admin Center](../../../../posts/thinkaboutit-be/8313.md) (community post): "PTEs can now be deployed through the Admin Center with scheduling options"
 - [Dynamics 365 Business Central: Upload, install, and manage PTEs in the admin center (Remove ability to upload and install PTEs from Extension Management page)](../../../../posts/yzhums-com/74541.md) (community post): "admins can upload, install, schedule and uninstall per-tenant extensions in the Admin Center"
 - [Business Central 2026 release wave 2 (BC29): Retained DEV extensions (DEV extensions remain installed during environment update)](../../../../posts/yzhums-com/76570.md) (community post): "DEV extensions published from VS Code are no longer uninstalled"

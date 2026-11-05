@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:00:59.767Z"
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -452,6 +452,7 @@ links:
     - change/bcapps/13075
     - change/bcapps/13358
     - change/bcapps/13396
+    - change/bcapps/13463
     - change/bcapps/9044
     - change/bcapps/9084
     - change/bcapps/9145
@@ -653,6 +654,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13075 [MAIN] [IN] Add extensibility events to support deferred TDS calculation on purchase documents](../../../changes/bcapps/13075.md) (code change): "deferred TDS calculation on purchase documents"
 - [#13358 [main] bug 656582 Add Maintenance Code field on purchase order subpage and purchase invoice subpage](../../../changes/bcapps/13358.md) (code change): "Maintenance Code field added to the Purchase Order Subform"
 - [#13396 [main] Purchase invoice fails with "quantity larger than item ledger entry" after partial invoicing of multiple receipts with non-base UoM and Qty. Rounding Precision = 1](../../../changes/bcapps/13396.md) (code change): "Purchase invoice fails with quantity larger than item ledger entry after partial invoicing"
+- [#13463 [29x] Add Maintenance Code field on purchase order subpage and purchase invoice subpage](../../../changes/bcapps/13463.md) (code change): "Maintenance Code field is now visible on purchase order and purchase invoice"
 - [#9044 [Master] Contact email is no validated during creation purchase documents_New](../../../changes/bcapps/9044.md) (code change): "Contact email validation is restored during purchase document creation"
 - [#9084 Bug 640321: Blanket Purch. Order to Order drops extended text for later items](../../../changes/bcapps/9084.md) (code change): "Fixes a bug where extended text lines are dropped when converting blanket purchase orders"
 - [#9145 [E-Document] Show PDF preview factbox on purchase invoice pages](../../../changes/bcapps/9145.md) (code change): "PDF preview factbox is added to purchase invoice pages to display"

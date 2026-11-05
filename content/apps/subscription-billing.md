@@ -2,7 +2,7 @@
 id: app/subscription-billing
 type: app
 title: Subscription Billing
-summary: "Subscription Billing (Microsoft.SubscriptionBilling): 372 objects in BC29-30 (113 pages, 60 codeunits, 58 page extensions, 44 tables, 34 enums, ...); documented by 5 Learn hubs; 1 video."
+summary: "Subscription Billing (Microsoft.SubscriptionBilling): 373 objects in BC29-30 (113 pages, 60 codeunits, 58 page extensions, 44 tables, 34 enums, ...); documented by 5 Learn hubs; 1 video."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:46:30.808Z"
+  at: "2026-11-05T00:47:59.172Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: beb22a40eb64dd14b8fd4f1e35dc2f1787b2356f467dc7819a18a21514b091f7
+  input_hash: 797ce373b7bcdf36bcdf713a87aa4df341992afaaeb979241819070aff0327b3
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/Subscription%20Billing/app
@@ -248,7 +248,7 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 372
+  objects: 373
   by_type:
     page: 113
     codeunit: 60
@@ -259,7 +259,7 @@ counts:
     report: 9
     reportextension: 5
     permissionset: 5
-    permissionsetextension: 4
+    permissionsetextension: 5
     enumextension: 3
     query: 2
     interface: 2
@@ -271,7 +271,7 @@ counts:
 
 # Subscription Billing
 
-> Subscription Billing (Microsoft.SubscriptionBilling): 372 objects in BC29-30 (113 pages, 60 codeunits, 58 page extensions, 44 tables, 34 enums, ...); documented by 5 Learn hubs; 1 video.
+> Subscription Billing (Microsoft.SubscriptionBilling): 373 objects in BC29-30 (113 pages, 60 codeunits, 58 page extensions, 44 tables, 34 enums, ...); documented by 5 Learn hubs; 1 video.
 
 First-party app · folder `src/Apps/W1/Subscription Billing/app` · namespace `Microsoft.SubscriptionBilling` · BC29-30 · system sales · facts from the code pillar and the joins, nothing machine-written
 
@@ -287,7 +287,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-372 objects, by type.
+373 objects, by type.
 
 ### Tables (44)
 
@@ -716,11 +716,12 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 8053 | [Sub. Billing User](../objects/permissionset/8053.md) | Subscription Billing User |
 | 8054 | [Sub. Billing Basic](../objects/permissionset/8054.md) | Subscription Billing Basic |
 
-### Permission set extensions (4)
+### Permission set extensions (5)
 
 | Id | Name | Caption |
 |---|---|---|
 | 8001 | [Sub. Billing D365 Basic](../objects/permissionsetextension/8001.md) |  |
+| 8002 | [Sub. Billing D365 S. Doc Edit](../objects/permissionsetextension/8002.md) |  |
 | 8005 | [Sub. Bill. Power BI Reports](../objects/permissionsetextension/8005.md) |  |
 | 8051 | [Sub. Billing D365 Setup](../objects/permissionsetextension/8051.md) |  |
 | 8055 | [Sub. Billing D365 Team Member](../objects/permissionsetextension/8055.md) |  |

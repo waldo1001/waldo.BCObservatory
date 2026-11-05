@@ -1,0 +1,41 @@
+{
+  "item_id": "blog/yzhums-com/77070",
+  "page_id": "post/yzhums-com/77070",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "This is not yet documented in the Business Central 2026 release wave 2 (BC29) release plan.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "The environment will restart during the operation. We recommend performing this action when no users are active.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "After 72 hours, the environment will automatically be moved back to a sandbox environment database configuration.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC29"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003226,
+    "posts_in_call": 4
+  }
+}

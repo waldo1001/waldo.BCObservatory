@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/13569",
+  "input_hash": "38a14c2eac5bd233d49703a704ae403417a1fd3dc5702b6fc70889cf8bbee6fb",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-05T00:53:29.957Z",
+  "issues": [
+    "The summary and key points match the description: the caption becomes Name, search terms are added, the default changes only for new setups, and the API and schema stay the same.",
+    "Feature is a defensible kind even though the PR links a bug."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022109,
+    "changes_in_call": 6
+  }
+}

@@ -6,12 +6,11 @@
   "systems_joined": [
     "copilot"
   ],
-  "summary": "The Expense Agent now validates approval user emails correctly by checking Microsoft 365 authentication email instead of the previous validation method.",
+  "summary": "The Expense Agent now validates the approval user email on the Expense User table by checking the user's Microsoft 365 authentication email correctly. Tests cover the new validation.",
   "key_points": [
-    "Fixes approval user email validation in the Expense User table",
-    "Checks Microsoft 365 authentication email properly",
-    "Includes test coverage for interim approvals and approval workflows",
-    "Improves reliability of expense report approval routing"
+    "Approval user email validation in the Expense User table now checks the Microsoft 365 authentication email",
+    "Tests added in the expense and interim approval test codeunits",
+    "Workflow demo approval test adjusted"
   ],
   "change_kind": "fix",
   "behavior_change": true,

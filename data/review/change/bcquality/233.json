@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcquality-prs/233",
+  "input_hash": "cbacb3fd284d41169d3a4235ba7ae4fd2a888803624541c9f8be1be4940e6fe8",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-05T00:53:18.860Z",
+  "issues": [
+    "The summary and key points match the description: the AboutText, EntitySetCaption, EntityName precedence, the good and bad samples, articleOverrides and cleanContexts, the exit-status fix and the BC 28+ online scope. The flags are right for a knowledge and tooling change."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019131,
+    "changes_in_call": 3
+  }
+}

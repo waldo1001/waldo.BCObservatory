@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/13228",
+  "input_hash": "2af8628ae65631683263891221875a296d544ebc707a4e9bed4e2f974427d76e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-05T00:53:29.957Z",
+  "issues": [
+    "The layer list in the key points includes BE, but BE only has test changes. Its ledger entry tables were not modified.",
+    "'All localization layers' overstates the change: the customer ledger table changed in 12 layers and the vendor ledger table in 12 layers, with different sets.",
+    "The title says the problem is On Hold and document synchronization on vendor ledger entries tied to dispute status. The summary is vague about this."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022109,
+    "changes_in_call": 6
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:48.992Z"
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -401,7 +401,6 @@ links:
     - change/bcapps/12160
     - change/bcapps/13171
     - change/bcapps/13340
-    - change/bcapps/13483
     - change/bcapps/9662
     - change/bcapps/9687
 learn_toc_path:
@@ -536,7 +535,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12160 Deliverable 617319: Move French accelerated depreciation to W1 base application](../../../changes/bcapps/12160.md) (code change): "French accelerated depreciation functionality is now part of the standard W1 base application"
 - [#13171 [Fixed Assets] Prevent change of FA Posting group after acquisition and FA journal cancellation line with empty Document No.](../../../changes/bcapps/13171.md) (code change): "FA Posting Group field is now protected after acquisition posting"
 - [#13340 [Master]-FA Posting Group is not updated in the Fixed Asset List after being changed on the Fixed Asset Card.](../../../changes/bcapps/13340.md) (code change): "Fixed Asset Card page now properly updates the Fixed Asset List"
-- [#13483 [29.X]-FA Posting Group is not updated in the Fixed Asset List after being changed on the Fixed Asset Card](../../../changes/bcapps/13483.md) (code change): "Fixed Asset posting group changes made on the Fixed Asset Card now refresh properly"
 - [#9662 [Master]-Fixed Asset: Declining-Balance method - wrong calculation when running depreciation](../../../changes/bcapps/9662.md) (code change): "Fixed incorrect depreciation calculation when using the declining-balance method"
 - [#9687 [main] bug 642230 - Enhance FA General Report logic and add tests for Tax Deprec. Group and FA Posting Group handling](../../../changes/bcapps/9687.md) (code change): "Fixed a bug where the FA General Report procedures could clear the FA Posting Group"
 - [Business Central 2025 wave 2 (BC27): Automatically create multiple fixed asset cards](../../../posts/yzhums-com/68230.md) (community post): "automatic creation of multiple fixed asset cards when posting purchase invoices"

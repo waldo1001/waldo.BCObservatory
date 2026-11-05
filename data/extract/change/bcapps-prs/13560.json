@@ -6,12 +6,11 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "The Move Inventory report in Quality Management now allows users to specify a destination location when moving non-directed items, removing a previous restriction that prevented this operation.",
+  "summary": "The Quality Management Move Inventory report now allows a destination location to be set when moving a non-directed item. Tests were added for this case.",
   "key_points": [
-    "Users can now set a destination location for non-directed items in the Move Inventory process",
-    "The previous limitation that blocked destination location selection for certain item types is removed",
-    "New test cases validate the destination location functionality for non-directed items",
-    "The change maintains backward compatibility while expanding functionality"
+    "Move Inventory report accepts a destination location for non-directed items",
+    "Report logic in Qlty. Move Inventory reworked",
+    "New disposition tests cover the scenario"
   ],
   "change_kind": "feature",
   "behavior_change": true,

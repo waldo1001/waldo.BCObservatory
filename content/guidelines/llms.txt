@@ -3,7 +3,7 @@
 > Microsoft's BCQuality knowledge base for AL (microsoft/BCQuality, MIT): each rule and review skill as a page with its own text,
 > its good and bad examples, the objects and Learn pages it names and the pull requests that changed it. Frontmatter: schemas/frontmatter.guideline.json.
 
-460 rules and review skills, by domain.
+461 rules and review skills, by domain.
 
 ## performance
 
@@ -375,6 +375,7 @@
 - [Check for JSON null before converting a value](microsoft/knowledge/web-services/check-json-null-before-converting-values.md): An optional property in a JSON payload can be missing or present with the value null, and the two cases behave differently in AL. (microsoft)
 - [Check HTTP status before consuming the response body](microsoft/knowledge/web-services/check-http-status-before-consuming-response-body.md): A successful AL HttpClient call only confirms that the platform completed the HTTP exchange. (microsoft)
 - [Declare API routing properties and an explicit stable version](microsoft/knowledge/web-services/set-required-api-page-properties.md): An API page needs APIPublisher, APIGroup, EntityName, EntitySetName, and a backing SourceTable to define its routed entity. (microsoft)
+- [Describe API objects intended for Business Central MCP tools](microsoft/knowledge/web-services/describe-api-pages-for-mcp-with-abouttext.md): For API pages and API queries exposed through the Business Central online MCP server, the documented tool-description precedence is AboutText, then EntitySetCaption, then a camel-cased EntityName. (microsoft)
 - [Expose business operations as bound actions, not as writable status flags](microsoft/knowledge/web-services/expose-operations-as-bound-actions.md): An API consumer that needs to *do* something to a record — post it, ship it, release it — should call an explicit operation, not mutate a field and hope a side effect fires. (microsoft)
 - [Format exchanged values with standard format 9](microsoft/knowledge/web-services/format-exchanged-values-with-standard-format-9.md): Format(Value) uses standard format 0, the display format, and follows the current user's regional settings. (microsoft)
 - [Give API pages least-privilege write access](microsoft/knowledge/web-services/api-page-least-privilege-write-access.md): A general-purpose API page that exposes many fields should not be widened to allow writes on one additional field. (microsoft)
@@ -396,7 +397,7 @@
 - [Clear a Report variable before an independent RunModal execution](microsoft/knowledge/reporting/clear-report-variable-before-independent-runmodal.md): Report.Run() automatically clears the report variable after execution, but Report.RunModal() does not. (microsoft)
 - [CurrReport.Break ends the current trigger](microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.md): CurrReport.Break() inside a report dataitem trigger does more than leave an AL loop. (microsoft)
 - [CurrReport.Quit rolls back report changes and skips OnPostReport](microsoft/knowledge/reporting/currreport-quit-rolls-back-and-skips-onpostreport.md): CurrReport.Quit() aborts the report without committing database changes made during its execution. (microsoft)
-- [CurrReport.Skip omits the record but does not stop trigger code](microsoft/knowledge/reporting/currreport-skip-does-not-stop-trigger-code.md): CurrReport.Skip() omits the current record from the report dataset and continues processing with the next record. (microsoft)
+- [CurrReport.Skip: separate current-trigger exit from later triggers](microsoft/knowledge/reporting/currreport-skip-current-trigger-and-later-triggers.md): CurrReport.Skip() omits the current record from the report dataset. (microsoft)
 - [Declare report layouts in the rendering section, not with the legacy layout properties](microsoft/knowledge/reporting/declare-report-layouts-in-the-rendering-section.md): Since runtime 9.0 (BC20), reports declare layouts in a rendering section of named layout entries, each with Type, LayoutFile, Caption, and Summary, and choose the default by name with DefaultRenderingLayout. (microsoft)
 - [Do not rename or remove columns of a report dataset that has shipped](microsoft/knowledge/reporting/do-not-rename-or-remove-shipped-report-dataset-columns.md): A report's dataset column names are the contract that every layout binds to, including layouts that are not in your source code. (microsoft)
 - [Report output in a loop needs one client download](microsoft/knowledge/reporting/report-output-in-a-loop-needs-one-client-download.md): The Business Central Web client can deliver only one file per request. (microsoft)

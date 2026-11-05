@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/sales",
-  "input_hash": "decf754cf563fab8ed287b4a18e9304b092aa1f8dff933ce48ef096df1544233",
-  "summary": "Sales in Business Central covers the sales process: quotes, orders, invoices, posting, shipments, returns, corrections, prepayments, drop and special orders, customer setup, and campaigns. It has two subtopics, Sales analytics and Subscription billing. It answers how-to and setup questions for selling and billing.",
-  "overview": "The Sales section groups task guides for the full sales cycle. Pages cover making quotes, creating sales orders and invoices, posting, shipping (partial shipments, combined shipments, picking lists, package tracking), and handling returns, credit memos, and corrections or cancellations of posted invoices.\n\nOther pages cover specific order types and dates: blanket orders, drop shipments, special orders, recurring sales lines, and prepayments. Delivery date calculation and order promising (ATP and CTP) explain how dates are set. Customer-side pages cover registering customers, merging duplicates, entering external document numbers, saving contacts to Outlook, and running a sales campaign.\n\nStart with \"Overview of tasks to manage sales\", which links to the detailed guides. Two subtopics go deeper: Sales analytics (Power BI reports, ad-hoc analysis, built-in reports) and Subscription billing (contracts, recurring billing proposals, usage-based billing).",
+  "input_hash": "06bdc66bd2fda511691d4506e9781a474cdabe9b2e85e31ea24afa9dcc129a11",
+  "summary": "Sales in Business Central covers the full sales process: quotes, orders, invoices, posting, returns, drop and special orders, prepayments, delivery dates, and customer records. It also includes two subtopics, Sales analytics and Subscription billing. It answers how-to and setup questions.",
+  "overview": "The Sales section describes how to sell products and manage the documents and customer data around a sale. Core tasks include registering customers on a Customer Card, making sales quotes, creating sales orders or invoices, and posting them. Related pages cover shipments, invoice corrections, returns and credit memos, and tracking packages.",
   "key_points": [
-    "Start with 'Overview of tasks to manage sales' for links to the detailed task guides.",
-    "Sales documents include quotes (convertible to orders or invoices), orders, invoices, blanket orders, credit memos, and return orders.",
-    "Posting offers post, post and new, post and send, preview posting, and batch posting.",
-    "Posted unpaid invoices can be corrected (new invoice and credit memo) or canceled (reversing credit memo) using the Correct and Cancel actions.",
-    "The Shipping Advice field on the Customer Card controls partial shipments; shipments can also be combined on one invoice manually or by batch job.",
-    "Order promising uses Available to Promise and Capable to Promise; delivery dates depend on shipping time and outbound warehouse handling time.",
-    "Drop shipments let vendors ship directly to customers from sales orders; special orders link purchase and sales orders so specific catalog items reach customers through vendors.",
-    "Save Business Contacts to Outlook and Teams is listed for 2026 release wave 1, with optional two-way sync."
+    "Start with 'Overview of tasks to manage sales', which links to the detailed task guides.",
+    "Document flow: sales quotes convert to orders or invoices; posting offers post, post and send, preview posting, and batch posting.",
+    "Fulfilment options: partial shipments (set by Shipping Advice on the Customer Card), drop shipments, special orders, blanket orders, and combining shipments on one invoice.",
+    "Corrections: Cancel creates a reversing credit memo for an unpaid posted invoice; Correct creates a new invoice and credit memo. Returns use credit memos or return orders.",
+    "Delivery dates: order promising uses Available to Promise and Capable to Promise, and delivery date calculation uses shipping time and warehouse handling time.",
+    "Customer and contact data: customer cards, templates and credit limits, merging duplicates (MERGE DUPLICATES permission set), and saving contacts to Outlook.",
+    "Recurring and prepaid sales use standard recurring sales lines, a batch job to create invoices, and prepayment percentages with prepayment invoices.",
+    "Sales analytics has 61 pages and Subscription billing has 47 pages, covering reports, Power BI and recurring billing."
   ],
   "members_used": 24,
   "subtopics_used": 2,
   "prompt_version": 1,
-  "at": "2026-10-28T10:59:41.285Z",
+  "at": "2026-11-05T00:54:50.261Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.025879
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-28T11:00:37.736Z",
-    "verdict": "fix",
-    "issues": [
-      "Key point on drop shipments and special orders says vendors deliver to customers for both. The source supports direct vendor-to-customer delivery only for drop shipments. For special orders it says only that purchase and sales orders are linked so specific catalog items reach customers through vendors. I reworded the point to keep the two apart.",
-      "Small: the Outlook key point could also mention Teams, which the source page names. I added it. Calling the feature 'listed for 2026 release wave 1' is fine because it repeats the version tag without claiming a status."
-    ],
-    "input_hash": "decf754cf563fab8ed287b4a18e9304b092aa1f8dff933ce48ef096df1544233",
-    "cost_usd": 0.0671232
+    "cost_usd": 0.024016999999999997
   }
 }

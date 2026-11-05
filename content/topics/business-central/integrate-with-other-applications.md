@@ -2,7 +2,7 @@
 id: topic/business-central/integrate-with-other-applications
 type: topic
 title: Integrate with other applications
-summary: "Integration of Business Central with other applications: Microsoft 365, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, and Shopify. It answers questions about which integration fits a scenario, how to connect and set it up, and what data is synchronized."
+summary: "Integration of Business Central with other applications: Microsoft 365 apps, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, and Shopify. It answers questions about which integration to use, how to set it up, and what data is synchronized."
 tier: official
 language: en
 review:
@@ -11,11 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: b72b4dbbac2e5dc9969d37826c4dc6e11e5397abca4911a2f62bad1d4a29b160
+  input_hash: c8b68b3e95515d0c1c510e17c32e74cf26d6ceb71b1f6039b6cb00585744ce52
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/teams-access-with-m365-license
@@ -242,6 +242,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-by-functional-area
+    title: Power BI apps/reports for functional areas
+    date: "2026-11-03"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-overview
     title: Power BI integration component and architecture overview for Business Central| Microsoft Docs
     date: "2024-04-26"
@@ -287,13 +294,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/across-working-with-teams
     title: Sharing Business Central records in Microsoft Teams
     date: "2025-10-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-connector-overview
-    title: Shopify Connector overview
-    date: "2026-09-24"
     commit: null
     t: null
     quote: null
@@ -357,33 +357,33 @@ bc_forms:
   - 9660
   - 9666
   - 36951
-member_hash: ee5a9ec54103cd9a2e7a600bbc5c9304897a6d95edd18d3f2b00db1de51d27e8
+member_hash: a2a228eff80402e6f5dcaa2fcec8b8f037c71c787712bde31f04a806c202c27b
 narrative: generated
 ---
 
 # Integrate with other applications
 
-> Integration of Business Central with other applications: Microsoft 365, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, and Shopify. It answers questions about which integration fits a scenario, how to connect and set it up, and what data is synchronized.
+> Integration of Business Central with other applications: Microsoft 365 apps, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, and Shopify. It answers questions about which integration to use, how to set it up, and what data is synchronized.
 
 Path: Integrate with other applications · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the ways Business Central exchanges data and functionality with other systems. The integration overview page lists the scenarios: Office apps and Microsoft 365, Power Platform, Dataverse (data synchronization, virtual tables, webhooks), Dynamics 365 Sales and Field Service, and Shopify.
+This section covers how Business Central connects to other systems to extend its functionality and keep data in sync. The integration overview page lists the scenarios: Office apps and Microsoft 365, Power Platform, Dataverse (data synchronization, virtual tables, webhooks), Dynamics 365 Sales and Field Service, and Shopify.
 
-The subtopics split by product. Microsoft 365 covers Excel, OneDrive, Outlook, Teams and Word. Power Platform covers the Business Central connector, Power Apps, Power Automate, Power BI and Power Pages. The Dataverse subtopic covers connection, mappings, synchronization and troubleshooting, and Dynamics 365 Sales and Field Service build on it. Shopify has its own connector overview.
+Start with the integration overview to pick a scenario. Subtopics cover Microsoft 365 apps (Excel, OneDrive, Outlook, Teams, Word), Power Platform (connector, Power Apps, Power Automate, Power BI, Power Pages), Dataverse (connection, mappings, synchronization, error troubleshooting) and Field Service (work orders and project or service integration types).
 
-Start with the integration overview to pick a scenario. For Sales or Field Service, read the Dataverse pages first, then the product-specific page.
+Dynamics 365 Sales integration runs through Dataverse. It covers connection settings, security roles, unit group mapping, table synchronization and record coupling. The Shopify Connector is a separate page and syncs products, inventory, customers, orders and payouts with Shopify stores.
 
 ## Key points
 
-- The integration overview lists scenarios: Office apps and Microsoft 365, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, and Shopify.
-- Microsoft 365 integration covers Excel, OneDrive, Outlook, Teams and Word, including data exchange, file sharing, email and contacts, and report or document layouts.
-- Power Platform integration covers the Business Central connector, Power Apps, Power Automate, Power BI, and Power Pages on Dataverse virtual tables.
-- Dataverse pages cover connecting, user accounts, ownership models, table and field mappings, manual and scheduled sync, change notifications and sync error troubleshooting.
-- Dynamics 365 Sales integration runs through Dataverse and covers connection settings, security roles, unit group mapping, table synchronization, sales order processing and item availability.
-- Dynamics 365 Field Service integration syncs work orders with project journals, project tasks or service orders, and has Project-only and Project and Service integration types.
-- The Shopify Connector synchronizes products, inventory, customers, orders, fulfillments, transactions and payouts, and supports multiple stores.
+- The integration overview lists scenarios for Office apps, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, and Shopify.
+- Microsoft 365 integration covers Excel, OneDrive, Outlook, Teams and Word, including data exchange, file sharing, email, contacts and document layouts.
+- Power Platform integration includes the Business Central connector, Power Apps, Power Automate, Power BI and Power Pages on Dataverse virtual tables.
+- Dataverse integration covers connection, user accounts, ownership models, table and field mappings, manual and scheduled sync, change notifications and sync error troubleshooting.
+- Dynamics 365 Sales integration uses Dataverse for bidirectional sync, sales order processing, item availability, unit group mapping and record coupling.
+- Dynamics 365 Field Service integration syncs work orders with project journals, project tasks or service orders, in Project-only or Project and Service types.
+- The Shopify Connector syncs products, inventory, customers, companies, orders, fulfillments, transactions and payouts, and supports multiple stores.
 
 ## Subtopics
 

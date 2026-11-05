@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T00:16:32.194Z"
+  at: "2026-11-05T00:14:20.359Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 03f9e7176b2a0e0ec9f61e998a1ad11a5de3269a
@@ -32,7 +32,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/object-name-30-char-limit.md
     title: "microsoft/BCQuality: Keep object names within the 30-character platform limit"
     date: "2026-10-30"
-    commit: ce3ae03742d6652757bc7308cb068e06d19bc53e
+    commit: c203ebc862a6dc9a35fcb7a50110a96e0bae6f55
     t: null
     quote: null
 links:
@@ -104,4 +104,4 @@ Names like `"CustLE"` or `"SIPoster"` that abbreviate beyond comprehensibility, 
 
 ---
 
-From microsoft/BCQuality at ce3ae03, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at c203ebc, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

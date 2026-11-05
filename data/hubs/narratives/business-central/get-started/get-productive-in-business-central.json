@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/get-started/get-productive-in-business-central",
-  "input_hash": "bddf5ef07f51551e14ed2e3879b8af59cd6c323fd924a70e5be6ed0fb42eac4c",
-  "summary": "Everyday use of Business Central for end users: finding pages and data (Tell Me, Role Explorer, search), entering data, personalizing the UI, reports and document layouts, sharing, notifications, settings, performance and accessibility. It answers how-to questions about working productively in the client.",
-  "overview": "This section covers the daily user experience in Business Central. Its own pages explain how to find things (Tell Me, Role Explorer, Search for Specific Data, sorting, searching and filtering), how to enter data (Quick Entry, date and time formats, required-field markers), and how to handle attachments, notes, notifications, warnings and error messages. Other pages cover user settings, switching company or environment, multilanguage and localization, performance tips, the Performance Profiler, camera and location troubleshooting, and Copilot (preview).\n\nSubtopics go deeper on related tasks: Microsoft 365 apps (OneDrive, Outlook, Teams, Word, Excel), personalization, running and printing reports, changing the look of external documents through layouts, sharing business data, and accessibility with keyboard shortcuts and touch gestures.\n\nA good starting point is Working with Business Central for general interaction patterns, then Change basic settings for the current user and Finding Pages and Information with Tell Me. Move to the subtopics when you need a specific task such as personalizing a page or changing a sales document layout.",
+  "input_hash": "9eb923232021400cddedd7c123ac868afe3a9c7efd6a7ea2cd03dda3efaafb11",
+  "summary": "Everyday use of Business Central: entering data, finding pages and records (Tell Me, Role Explorer, search, filters), personalizing the workspace, running reports, sharing data, and adjusting settings. It answers how-to questions for end users, plus document layouts, accessibility and performance.",
+  "overview": "This section covers the daily skills of a Business Central user. Its own pages cover data entry, dates and times, required fields, attachments and notes, sorting, searching and filtering, and finding things with Tell Me, Role Explorer and data search. They also cover notifications, error messages, switching company or environment, language and region settings, and performance tips and the Performance Profiler.",
   "key_points": [
-    "Tell Me finds actions, pages, reports, data and help; the Advanced tab uses AI-powered semantic search when Advanced Tell Me is enabled.",
-    "Role Explorer shows the pages and reports for a business role and has a semantic search preview.",
-    "My Settings sets role, company, work date, region, language, time zone and notifications; the company switcher, app launcher and Company Hub change company or environment.",
-    "Data entry aids include Quick Entry, copy and paste, keyboard navigation, line item filtering, and date formulas and period filters.",
-    "A red asterisk marks fields expected for a process, but it does not enforce validation or block posting.",
-    "Filters support operators (>, <, =, <>, |, .., &, *, ?) and tokens such as %me and %user; modern search matches words and legacy search matches exactly.",
-    "Attachments, links and notes are managed in the Attachments tab of the FactBox pane; error messages can be shared by Teams or email.",
-    "Performance Profiler records snapshots and call trees to find bottlenecks; Copilot (preview) gives read-only answers about company data from version 29; cloud insights are not available on-premises without migration."
+    "Tell Me finds actions, pages, reports, data and help. Advanced Tell Me adds AI-powered semantic search. Role Explorer lists the pages and reports for a role.",
+    "Sort, search and filter pages describe filter operators (>, <, =, <>, |, .., &, *, ?) and tokens such as %me, %user and %mycustomers. Modern and legacy search are both covered.",
+    "My Settings sets role, company, work date, region, language, time zone and notifications. Users can switch company or environment with the company switcher, app launcher, My Settings or Company Hub.",
+    "Required fields show a red asterisk. The asterisk is guidance only and does not enforce validation or block posting.",
+    "Attachments, links and notes go on records through the Attachments tab in the FactBox pane. Notifications can be dismissed and filtered, and error messages can be shared by Teams or email.",
+    "Subtopics cover Microsoft 365 apps (OneDrive, Outlook, Teams, Word, Excel), personalization, running and printing reports, document layouts (Word, Excel, RDLC), sharing data, and accessibility and shortcuts.",
+    "Microsoft Copilot in Business Central (preview) answers questions about company data with read-only access, starting in version 29.",
+    "The Performance Profiler records snapshots with call trees and time spent. A separate page gives performance tips for business users, and another troubleshoots camera and location access."
   ],
-  "members_used": 20,
+  "members_used": 19,
   "subtopics_used": 6,
   "prompt_version": 1,
-  "at": "2026-11-03T01:01:59.944Z",
+  "at": "2026-11-05T00:55:04.928Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.026181000000000003
+    "cost_usd": 0.024080999999999998
   }
 }

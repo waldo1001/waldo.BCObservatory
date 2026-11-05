@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/manufacturing
 type: topic
 title: Manufacturing
-summary: Manufacturing in Business Central covers planning, running and costing production orders, from creation through posting consumption, output, scrap and capacity to finishing, reversing and cost adjustment. It answers how-to questions on production order handling, journals, corrections, subcontracting and analytics.
+summary: Manufacturing in Business Central covers production orders from creation to completion, posting consumption, output, scrap and capacity, reversing transactions, and finished order costing. Subtopics cover manufacturing analytics and subcontracting. It answers how-to and which-report questions.
 tier: official
 language: en
 system: manufacturing
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:14:34.799Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 4294d9f60e4fb4c88c3c1ca522d3666b40357b3fd2794f4691b777d050fde88b
+  input_hash: c1117b47abd2257705e5dd100a004a35c19f028abfd48861833ae3e75da27da2
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-about-finished-production-order-costs
@@ -103,13 +103,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-current-utilization
-    title: Current Utilization
-    date: "2024-11-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000756
     title: Detailed Calculation (report)
     date: "2024-10-23"
@@ -126,13 +119,6 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-finished-production-order-breakdown
     title: Finished Production Order Breakdown (Power BI report)
-    date: "2024-11-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-historical-utilization
-    title: Historical Utilization
     date: "2024-11-01"
     commit: null
     t: null
@@ -245,7 +231,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-app
     title: Power BI Manufacturing app
-    date: "2026-03-17"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
@@ -298,6 +284,20 @@ evidence:
     commit: null
     t: null
     quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-prod-order-routing-gantt
+    title: Prod.Order Routing Gantt
+    date: "2025-05-26"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000763
+    title: Production Order - List (report)
+    date: "2026-03-10"
+    commit: null
+    t: null
+    quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/finance-about-finished-production-order-costs
@@ -331,8 +331,6 @@ links:
     - object/page/9326
     - object/page/9327
     - object/page/36951
-    - object/page/37040
-    - object/page/37041
     - object/page/37042
     - object/page/37043
     - object/page/37044
@@ -478,8 +476,8 @@ children:
   - topic/business-central/business-functionality/manufacturing/manufacturing-analytics
   - topic/business-central/business-functionality/manufacturing/subcontracting
 coverage:
-  learn: 65
-  code: 110
+  learn: 63
+  code: 108
   video: 11
   blog: 7
   guideline: 0
@@ -507,8 +505,6 @@ bc_forms:
   - 9326
   - 9327
   - 36951
-  - 37040
-  - 37041
   - 37042
   - 37043
   - 37044
@@ -596,38 +592,38 @@ bc_forms:
   - 99001560
   - 99001561
   - 990000785
-member_hash: d64e773c3b68bf2ff0f0eed5f8b4461101630f6c2dbe238ef3f5dc72dbfc1714
+member_hash: d3e75df5d15c2367d95ddc5e80f6e3ee82ad17c3d04cc67a46033cf5fe5e47b2
 narrative: generated
 ---
 
 # Manufacturing
 
-> Manufacturing in Business Central covers planning, running and costing production orders, from creation through posting consumption, output, scrap and capacity to finishing, reversing and cost adjustment. It answers how-to questions on production order handling, journals, corrections, subcontracting and analytics.
+> Manufacturing in Business Central covers production orders from creation to completion, posting consumption, output, scrap and capacity, reversing transactions, and finished order costing. Subtopics cover manufacturing analytics and subcontracting. It answers how-to and which-report questions.
 
-Path: [Business functionality](../business-functionality.md) > Manufacturing · tier official · system manufacturing · narrative reviewed (checked by Opus)
+Path: [Business functionality](../business-functionality.md) > Manufacturing · tier official · system manufacturing · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Manufacturing in Business Central helps you plan, schedule, execute and analyze production. It uses production BOMs, routings, and work and machine centers to coordinate material consumption, operation time, output and costing. The manufacturing overview page is the best starting point.
+Manufacturing in Business Central plans, schedules, runs and analyzes production. It uses production BOMs, routings, work and machine centers, and production orders to coordinate material consumption, operations and finished goods. The overview page notes the Premium experience.
 
-The own pages follow the life of a production order. You create the order (item, family or sales order as source, with quantities and dates), then record consumption, output, scrap and run time. This can be done in the Production Journal for one order, or in batch journals for consumption and for output and run times. Capacity journals cover work center or machine center time outside production orders. When the order is done, finished production order costs are calculated and adjusted. Reversal pages cover mistakes.
+The own pages follow the life of a production order. You create the order, then record consumption, output, run times and scrap, either in batch journals or in the Production Journal for one released order. Capacity journals record work or machine center time outside production orders. Mistakes are handled by reversing transactions, and cost pages explain how finished orders are adjusted.
 
-Two subtopics go deeper. Subcontracting covers delegating operations to vendors. Manufacturing analytics covers the Power BI Manufacturing app, built-in reports and capacity load analysis.
+Start with the Manufacturing overview, then About production orders and Create production orders. Go to the subtopics for Subcontracting (vendor-performed operations) and Manufacturing analytics (reports, Power BI app, load views).
 
 ## Key points
 
-- Production orders are created with a header (source type item, family or sales order), production lines, quantities and due dates. Lines can be copied from existing orders, and orders can be refreshed when requirements change.
-- Consumption can be flushed automatically or posted manually. Batch post consumption can also calculate component usage.
-- The Production Journal registers consumption, output, scrap and operation time for a released order in one place.
-- Batch post output and run times records quantities, setup and run time, with scrap and stop codes.
-- Scrap can be posted manually in the output journal with scrap quantity and reason codes.
-- Capacity journals record work or machine center time outside production orders, such as maintenance.
-- A production order must have finished status before its costs can be adjusted.
-- Transactions can be reversed: consumption, output and subcontracting receipts can be undone, finished orders reopened, or finished without output with WIP write-off.
+- Production orders can use an item, family or sales order as source, with lines copied from existing orders and refreshed when requirements change.
+- Consumption can be flushed automatically or manually, and Batch post consumption can calculate component usage for production order lines.
+- Batch post production output and run times records output, setup and run time, scrap, stop codes and scrap codes for released orders.
+- The Production Journal combines consumption, output, scrap and operation time for a released production order, with a flushing method filter.
+- Capacity journals record work or machine center time outside production orders, such as maintenance, as capacity ledger entries.
+- Production order status must be Finished before cost adjustment reconciles materials, capacity, subcontracting and overhead with WIP and inventory.
+- Reversal covers consumption, output and subcontracting receipts, finishing without output, reopening finished orders and WIP write-off.
+- Subtopics: Manufacturing analytics (48 pages) and Subcontracting (5 pages).
 
 ## Subtopics
 
-- [Manufacturing analytics](manufacturing/manufacturing-analytics.md) (50 pages)
+- [Manufacturing analytics](manufacturing/manufacturing-analytics.md) (48 pages)
 - [Subcontracting](manufacturing/subcontracting.md) (5 pages)
 
 ## More Learn pages
@@ -642,7 +638,7 @@ Two subtopics go deeper. Subcontracting covers delegating operations to vendors.
 - [Create production orders](https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-production-orders): Learn how to manually create a firm planned production order that brings together items, quantities, dates, components, operations, and capacity.
   - In the observatory: [Page 9323 "Simulated Production Orders"](../../../objects/page/9323.md), [Page 9324 "Planned Production Orders"](../../../objects/page/9324.md), [Page 9326 "Released Production Orders"](../../../objects/page/9326.md)
 - [Manufacturing overview](https://learn.microsoft.com/dynamics365/business-central/production-manage-manufacturing): Explore manufacturing capabilities for planning, capacity, production, costing, quality management, subcontracting, and analytics.
-  - In the observatory: [Page 5510 "Production Journal"](../../../objects/page/5510.md)
+  - In the observatory: [Page 5510 "Production Journal"](../../../objects/page/5510.md), [Page 99000773 "Capacity Journal"](../../../objects/page/99000773.md)
 - [Post capacities](https://learn.microsoft.com/dynamics365/business-central/production-how-to-post-capacities): Learn how to record time used by work and machine centers for maintenance or other activities outside production orders.
   - In the observatory: [Page 99000754 "Work Center Card"](../../../objects/page/99000754.md), [Page 99000760 "Machine Center Card"](../../../objects/page/99000760.md)
 - [Post scrap manually](https://learn.microsoft.com/dynamics365/business-central/production-how-to-post-scrap): Learn how to record scrap quantities and reason codes by production operation without increasing finished output.
@@ -715,8 +711,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 9325 "Firm Planned Prod. Orders"](../../../objects/page/9325.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md)
 - [Page 9326 "Released Production Orders"](../../../objects/page/9326.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md)
 - [Page 9327 "Finished Production Orders"](../../../objects/page/9327.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md)
-- [Page 37040 "Current Utilization"](../../../objects/page/37040.md)
-- [Page 37041 "Historical Utilization"](../../../objects/page/37041.md)
 - [Page 37042 "PowerBI Work Center Load"](../../../objects/page/37042.md) · captioned "Work Center Load (Power BI)"
 - [Page 37043 "Allocated Hours"](../../../objects/page/37043.md) · captioned "Allocated Hours (Power BI)"
 - [Page 37044 "Expected Capacity Need"](../../../objects/page/37044.md) · captioned "Expected Capacity Need (Power BI)"

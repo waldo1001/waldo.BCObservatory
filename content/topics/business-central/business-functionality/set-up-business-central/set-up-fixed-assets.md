@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:03.141Z"
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -195,7 +195,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#12160 Deliverable 617319: Move French accelerated depreciation to W1 base application](../../../../changes/bcapps/12160.md) (code change): "New depreciation book setup fields, posting accounts, and calculation logic added"
 - [#13340 [Master]-FA Posting Group is not updated in the Fixed Asset List after being changed on the Fixed Asset Card.](../../../../changes/bcapps/13340.md) (code change): "FA Posting Group is not updated in the Fixed Asset List after being changed"
-- [#13483 [29.X]-FA Posting Group is not updated in the Fixed Asset List after being changed on the Fixed Asset Card](../../../../changes/bcapps/13483.md) (code change): "FA Posting Group is not updated in the Fixed Asset List after being changed"
+- [#13483 [29.X]-FA Posting Group is not updated in the Fixed Asset List after being changed on the Fixed Asset Card](../../../../changes/bcapps/13483.md) (code change): "FA Posting Group changes made on the Fixed Asset Card now show up in the Fixed Asset List"
 - [Business Central 2026 release wave 1 (BC28.1): Enable Investment Boost for fixed assets (Bonus Depreciation Method)](../../../../posts/yzhums-com/73564.md) (community post): "Administrators configure the bonus depreciation percentage and effective date in Fixed Asset Setup"
 - [What's New: Create Multiple Fixed Assets (2025 release wave 2)](../../../../videos/CkGTSItdTbs.md) (video): "Automatic asset numbering with number series"
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.961Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -139,6 +139,7 @@ links:
   videos:
     - video/-q8Gm7u7R2A
   posts:
+    - post/bertverbeek-nl/1342
     - post/yzhums-com/63916
     - post/yzhums-com/71914
   guidelines: []
@@ -156,7 +157,7 @@ coverage:
   learn: 15
   code: 1
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 7214
@@ -225,6 +226,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12261 Stop repeated rescheduling of Dataverse synch jobs on bulk changes](../../../../changes/bcapps/12261.md) (code change): "Dataverse synchronization job reschedule logic now checks both"
+- [Business Central to Microsoft Fabric is a mirror. But what if you want to know what actually changed?](../../../../posts/bertverbeek-nl/1342.md) (community post): "Business Central data mirrored to Microsoft Fabric appears as static copies"
 - [Dynamics 365 Business Central Blog Series: Integrate with Microsoft Dataverse](../../../../posts/yzhums-com/63916.md) (community post): "Standard Dataverse connector uses scheduled job queue entries and does not guarantee real-time data consistency"
 - [Business Central 2026 release wave 1 (BC28): Map new Dataverse fields (New and custom Dataverse tables are readily available for mapping from the lookup on Integration Table column)](../../../../posts/yzhums-com/71914.md) (community post): "New fields added to Dataverse can now be mapped through the Integration Table Mappings page"
 - [What's New: Business Central Integration with Dataverse (2024 release wave 1)](../../../../videos/-q8Gm7u7R2A.md) (video): "Data synchronization; field mappings; table mappings"

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T00:50:30.258Z"
+  at: "2026-11-05T00:45:06.377Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: aa11686d247569fb6fc498bfc63dedbcf3dbc1b9d27b8e7da623d98e46e11c98
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/System%20Application/App/SharePoint%20Authorization/src/SharePointAuthorization.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/System%20Application/App/SharePoint%20Authorization/src/SharePointAuthorization.Interface.al
     title: src/System Application/App/SharePoint Authorization/src/SharePointAuthorization.Interface.al (releases/29.x)
     date: null
-    commit: 11bf184798eda1d1104da1324cac5d944742dd2f
+    commit: 1c51b1f77ed32c7267d68456850d9d93296821d3
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "SharePoint Authorization" in System Application (System.Integration.Sharepoint). 1 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Integration.Sharepoint · BC23-30 · [source at 11bf1847](https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/System%20Application/App/SharePoint%20Authorization/src/SharePointAuthorization.Interface.al) · facts from BC29
+System Application · System.Integration.Sharepoint · BC23-30 · [source at 1c51b1f7](https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/System%20Application/App/SharePoint%20Authorization/src/SharePointAuthorization.Interface.al) · facts from BC29
 
 ## Procedures
 

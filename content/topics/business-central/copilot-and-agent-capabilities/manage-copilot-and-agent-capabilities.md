@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T12:48:04.649Z"
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,6 +90,7 @@ links:
     - change/bcapps/11909
     - change/bcapps/12539
     - change/bcapps/12882
+    - change/bcapps/13599
 learn_toc_path:
   - Copilot and agent capabilities
   - Manage Copilot and agent capabilities
@@ -149,6 +150,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11909 Block guest users from managing Expense Agent](../../../changes/bcapps/11909.md) (code change): "Guest and external administrator access is blocked from Expense Agent configuration changes"
 - [#12539 Add Expense Agent consumption V2 and trial support](../../../changes/bcapps/12539.md) (code change): "Trial status shown in billing overview and remaining free expenses in setup"
 - [#12882 [Master] - Bug 651169: [Expense Agent] Exchange rate date limitation](../../../changes/bcapps/12882.md) (code change): "Users receive clear error messages when exchange rates unavailable"
+- [#13599 [SOA] Setup can be saved while the agent remains inactive without warning](../../../changes/bcapps/13599.md) (code change): "Sales Order Agent setup page now shows a confirmation when saving an inactive agent"
 - [Agents in Business Central – part 4 – troubleshooting](../../../posts/bertverbeek-nl/1263.md) (community post): "Use the Agent Consumption page to monitor credit usage"
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../../posts/demiliani-com/15935.md) (community post): "The Allow data movement toggle appears only when Business Central environment location differs from Copilot processing geography"
 - [BC Friday Tips #45 Hide Agents Icon](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0.md) (community post): "hide this icon by deactivating Agents in Copilot & agent capabilities"

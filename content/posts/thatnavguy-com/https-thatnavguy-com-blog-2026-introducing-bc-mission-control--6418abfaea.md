@@ -14,16 +14,16 @@ tags:
   - automation
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-05T00:52:45.570Z"
   flags: []
 generated:
-  at: "2026-11-05T00:15:52.533Z"
+  at: "2026-11-05T00:14:20.359Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: a247fe224755fab11a48a874579f8103a81b786dae270a8a3899d6756203258a
+  input_hash: 96e5ae922fc2938dd594c23f24f0e2a7eea36d63417d6b823e76ebd9501f300b
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/introducing-bc-mission-control/
@@ -74,21 +74,27 @@ systems:
   - administration
   - integration
 versions_mentioned: []
+cautions:
+  - kind: warning
+    quote: Windows SmartScreen may show a warning because the EXE is not code-signed.
+    objects: []
+    events: []
+    versions: []
 preview:
   embeddable: true
   frame_url: null
-  image: null
+  image: https://thatnavguy.com/_astro/MissionControl.6gY2rRGB_Z6nkuy.webp
   image_alt: null
   image_w: null
   image_h: null
   site_name: null
-  favicon: null
-  probed_at: "2026-10-30T01:05:52.163Z"
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-11-05T00:48:32.497Z"
 ---
 
 # Introducing BC Mission Control
 
-[Read the post](https://thatnavguy.com/blog/2026/introducing-bc-mission-control/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-11-04 · 466 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://thatnavguy.com/blog/2026/introducing-bc-mission-control/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-11-04 · 466 words · tier community · reviewed (checked by Opus)
 
 > BC Mission Control is a web app for managing Business Central cloud environments and local Docker containers from one interface. It helps consultants and developers deploy extensions, compare app versions, check sessions, and handle everyday tasks without switching between multiple tools.
 
@@ -103,6 +109,10 @@ preview:
 
 - "The app uses Business Central's Admin Center and Automation APIs for its cloud management features." (Explains the technical foundation that enables cloud environment management capabilities)
 - "You do not need to install Node.js or download the source code." (Clarifies that BC Mission Control is a standalone executable requiring minimal setup prerequisites)
+
+## Heads up
+
+- warning: "Windows SmartScreen may show a warning because the EXE is not code-signed."
 
 ## Context
 

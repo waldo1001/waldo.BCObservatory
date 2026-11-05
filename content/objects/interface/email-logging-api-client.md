@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T00:50:30.258Z"
+  at: "2026-11-05T00:45:06.377Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eb4d595914cb0c1e63a8d5992ccf1ea0fe08598ac103cba7d4ee3a3c929bfd8e
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Apps/W1/EmailLogging/app/src/interfaces/EmailLoggingAPIClient.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/W1/EmailLogging/app/src/interfaces/EmailLoggingAPIClient.Interface.al
     title: src/Apps/W1/EmailLogging/app/src/interfaces/EmailLoggingAPIClient.Interface.al (releases/29.x)
     date: null
-    commit: 11bf184798eda1d1104da1324cac5d944742dd2f
+    commit: 1c51b1f77ed32c7267d68456850d9d93296821d3
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Email Logging API Client" in EmailLogging (Microsoft.CRM.EmailLoggin). 3 public procedures. Introduced in BC29, still in BC30.
 
-EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at 11bf1847](https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Apps/W1/EmailLogging/app/src/interfaces/EmailLoggingAPIClient.Interface.al) · facts from BC29
+EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at 1c51b1f7](https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/W1/EmailLogging/app/src/interfaces/EmailLoggingAPIClient.Interface.al) · facts from BC29
 
 ## Properties
 

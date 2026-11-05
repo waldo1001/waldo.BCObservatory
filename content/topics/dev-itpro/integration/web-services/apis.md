@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -359,6 +359,7 @@ links:
     - change/bcapps/12694
     - change/bcapps/9194
     - change/bcquality/149
+    - change/bcquality/233
     - change/bcquality/253
 learn_toc_path:
   - Integration
@@ -452,6 +453,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12694 Allow API tests to issue local HTTP requests](../../../../changes/bcapps/12694.md) (code change): "API tests can now issue local HTTP requests by declaring explicit test HTTP request policies"
 - [#9194 Add API Overview page (page 812)](../../../../changes/bcapps/9194.md) (code change): "A new admin page shows all available APIs"
 - [#149 knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption](../../../../changes/bcquality/149.md) (code change): "Schema 2.0 (BC 24 default) uses strongly typed enums with member names in metadata"
+- [#233 knowledge(web-services): describe API objects intended for MCP tools](../../../../changes/bcquality/233.md) (code change): "metadata description precedence for API pages and queries used by MCP server"
 - [#253 knowledge(performance): add trigger-only fields to API pages with AddLoadFields](../../../../changes/bcquality/253.md) (code change): "add trigger-only fields to API pages with AddLoadFields"
 - [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query objects configured as APIs in Business Central to expose data"
 - [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "create custom Page or Query APIs, or copy Microsoft pages to custom objects"

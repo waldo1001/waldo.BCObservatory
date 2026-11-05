@@ -7,11 +7,11 @@
   "words": 239,
   "summary": "Microsoft is transitioning Business Central online and on-premises environments from .NET 8 to .NET 10 before November 10, 2026. The migration happens at cluster level and may cause brief service interruptions outside scheduled maintenance windows, though this is normal and improves security.",
   "key_points": [
-    ".NET 10 migration is happening across all Business Central releases during a specific timeframe",
-    "For online environments, Microsoft manages the transition automatically at the cluster level, not per environment",
-    "Updates may occur outside your configured maintenance window because they apply to VMs serving multiple environments",
-    "Brief service interruptions can occur during this process, but indicate normal platform enhancement rather than malfunction",
-    "Organizations should verify their maintenance window configuration is set to an optimal time"
+    "Microsoft is moving supported Business Central releases, online and on-premises, from .NET 8 to .NET 10 before November 10, 2026",
+    "For online environments Microsoft handles the move itself, applying it as an urgent platform hotfix at the cluster (VM) level rather than per environment",
+    "Because a cluster hosts several environments, the update can land outside an environment's scheduled update window and cause a short outage plus a Message Center notice",
+    "A brief interruption during this process is expected and not a malfunction",
+    "Microsoft recommends setting the maintenance window to a time that limits impact on the organization"
   ],
   "systems": [
     "platform"

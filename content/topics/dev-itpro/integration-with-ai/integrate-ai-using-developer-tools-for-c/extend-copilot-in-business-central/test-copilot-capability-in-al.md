@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T15:20:37.921Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -78,6 +78,8 @@ links:
     - video/xB9kszf93hE
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/13172
 learn_toc_path:
   - Integration with AI
   - Integrate AI using developer tools for Copilot
@@ -132,10 +134,11 @@ Start with the overview, then read Evaluation and Datasets for the framework and
   - In the observatory: [Codeunit 4315 "Agent Task Builder"](../../../../../objects/codeunit/4315.md), [Codeunit 4316 "Agent Task Message Builder"](../../../../../objects/codeunit/4316.md)
 - [Write AI tests](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-ai-tests): Learn how to write AL tests for Copilot features using datasets, assertions, and external evaluation.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13172 Export structured AI eval run data](../../../../../changes/bcapps/13172.md) (code change): "AI Test Toolkit command-line page streams results.json evaluation result files"
 - [What's New: Testing Copilot in Business Central (2024 release wave 2)](../../../../../videos/eA7CENx7se0.md) (video): "Copilot Test Toolkit; Data-Driven Testing for Copilot; Accuracy Testing for Copilot"
 - [Getting Started With Agent Testing: Why Are Evaluations Important? (Part 1)](../../../../../videos/xB9kszf93hE.md) (video): "Programmatic evaluation with data-driven testing via YAML"
 

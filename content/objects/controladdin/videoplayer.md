@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T00:50:30.258Z"
+  at: "2026-11-05T00:45:06.377Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 16309ff8ce0008009ce71a796ccf150409f965c34bc766796b63372ad6d55ff6
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/System%20Application/App/ControlAddIns/src/VideoPlayer.ControlAddin.al
+    url: https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/System%20Application/App/ControlAddIns/src/VideoPlayer.ControlAddin.al
     title: src/System Application/App/ControlAddIns/src/VideoPlayer.ControlAddin.al (releases/29.x)
     date: null
-    commit: 11bf184798eda1d1104da1324cac5d944742dd2f
+    commit: 1c51b1f77ed32c7267d68456850d9d93296821d3
     t: null
     quote: null
 links:
@@ -80,7 +80,7 @@ relations:
 
 > Control add-in "VideoPlayer" in System Application (System.Media). 4 public procedures. Introduced in BC24, still in BC30.
 
-System Application · System.Media · BC24-30 · [source at 11bf1847](https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/System%20Application/App/ControlAddIns/src/VideoPlayer.ControlAddin.al) · facts from BC29
+System Application · System.Media · BC24-30 · [source at 1c51b1f7](https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/System%20Application/App/ControlAddIns/src/VideoPlayer.ControlAddin.al) · facts from BC29
 
 ## Procedures
 

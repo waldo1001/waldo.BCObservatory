@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:46:30.808Z"
+  at: "2026-11-05T00:47:59.172Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c68b48402daf3bc50d12859b94cb3d7f55604d15ce1c4b9a2fcba450f3be4f33
+  input_hash: f04739d9bcc8363b23e365754dbfb4f43aa3c5d9989180d42cc591800a347bb6
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/SAF-T/app
@@ -84,7 +84,9 @@ links:
     - object/permissionsetextension/5283
     - object/permissionsetextension/5284
     - object/permissionsetextension/5285
-  features: []
+  features:
+    - feature/573619
+    - feature/573620
   topics: []
   localizations: []
   videos: []
@@ -232,5 +234,12 @@ First-party app · folder `src/Apps/W1/SAF-T/app` · namespace `Microsoft.Financ
 | 5283 | [D365 TEAM MEMBER - SAF-T](../objects/permissionsetextension/5283.md) |  |
 | 5284 | [INTELLIGENT CLOUD - SAF-T](../objects/permissionsetextension/5284.md) |  |
 | 5285 | [LOCAL - SAF-T](../objects/permissionsetextension/5285.md) |  |
+
+## Roadmap
+
+Possibly related: these roadmap features have "SAF-T" in their title. A name match, the only one on this page; check the feature.
+
+- [Enable SAF-T audit file format](../features/573619.md) (preview, GA 2027-04)
+- [Enable SAF-T audit file format](../features/573620.md) (preview, GA 2027-04)
 
 Source: [src/Apps/W1/SAF-T/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/SAF-T/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

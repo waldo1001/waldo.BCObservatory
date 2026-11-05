@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-26T10:47:07.590Z"
+  at: "2026-11-05T00:14:20.359Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a4f3c261764ebd52e332b9b99e7a0f7bc49270dc007fa7b28f8e1d912721192a
@@ -57,9 +57,9 @@ item_count: 13
 footprint:
   systems:
     - id: development
-      weight: 20
+      weight: 21
     - id: copilot
-      weight: 8
+      weight: 7
     - id: integration
       weight: 5
     - id: platform
@@ -73,7 +73,7 @@ footprint:
       weight: 3
     - id: ai agents
       weight: 3
-    - id: github copilot
+    - id: copilot
       weight: 3
     - id: ai adoption
       weight: 2
@@ -83,7 +83,7 @@ footprint:
       weight: 2
     - id: code quality
       weight: 2
-    - id: copilot
+    - id: github copilot
       weight: 2
     - id: infrastructure
       weight: 2
@@ -103,15 +103,15 @@ last_item: "2026-10-25"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (20) | al development (5) |  |
-| copilot (8) | agentic development (3) |  |
+| development (21) | al development (5) |  |
+| copilot (7) | agentic development (3) |  |
 | integration (5) | ai agents (3) |  |
-| platform (4) | github copilot (3) |  |
+| platform (4) | copilot (3) |  |
 | warehouse (1) | ai adoption (2) |  |
 |  | ai assistance (2) |  |
 |  | best practices (2) |  |
 |  | code quality (2) |  |
-|  | copilot (2) |  |
+|  | github copilot (2) |  |
 |  | infrastructure (2) |  |
 
 ## Flight path

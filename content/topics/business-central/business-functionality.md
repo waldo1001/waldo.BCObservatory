@@ -2,20 +2,20 @@
 id: topic/business-central/business-functionality
 type: topic
 title: Business functionality
-summary: Business functionality in Business Central is the main section on business processes and features. It covers finance, sales, purchasing, inventory, projects, manufacturing, warehouse, service, sustainability, Shopify, local functionality, setup and design details. Use it to find which area answers a how-to, setup or how-it-works question.
+summary: "Business functionality in Business Central is the top-level section for business processes: finance, sales, purchasing, inventory, projects, fixed assets, manufacturing, warehouse, service, sustainability and more. It answers where a process is documented and routes setup and how-to questions to the right area."
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-05T00:55:36.086Z"
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d5196f305dc3b7999a9c4e4bb9bd72e598d3f4b83cbd91ef60ec3930470da215
+  input_hash: 5363f15663a26ae5d406d1b736d1361757341be7877e6434e2315ce026758280
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-abc-analysis
@@ -1420,7 +1420,6 @@ links:
     - object/page/37005
     - object/page/37006
     - object/page/37007
-    - object/page/37008
     - object/page/37009
     - object/page/37010
     - object/page/37011
@@ -1452,8 +1451,6 @@ links:
     - object/page/37037
     - object/page/37038
     - object/page/37039
-    - object/page/37040
-    - object/page/37041
     - object/page/37042
     - object/page/37043
     - object/page/37044
@@ -1933,8 +1930,8 @@ children:
   - topic/business-central/business-functionality/set-up-business-central
   - topic/business-central/business-functionality/design-details
 coverage:
-  learn: 1718
-  code: 1576
+  learn: 1716
+  code: 1573
   video: 0
   blog: 0
   guideline: 0
@@ -3538,7 +3535,6 @@ bc_forms:
   - 37005
   - 37006
   - 37007
-  - 37008
   - 37009
   - 37010
   - 37011
@@ -3570,8 +3566,6 @@ bc_forms:
   - 37037
   - 37038
   - 37039
-  - 37040
-  - 37041
   - 37042
   - 37043
   - 37044
@@ -3830,34 +3824,34 @@ bc_forms:
   - 99001561
   - 990000785
   - 990003804
-member_hash: 6df7c9aa43481470ff53c4a727793218bc583617b2713801422d6429a981c616
+member_hash: fa4a6fcc9f518aa24f854a3e45dc582ac5452ebb04a566b4ebf6b3e66ed0b2e0
 narrative: generated
 ---
 
 # Business functionality
 
-> Business functionality in Business Central is the main section on business processes and features. It covers finance, sales, purchasing, inventory, projects, manufacturing, warehouse, service, sustainability, Shopify, local functionality, setup and design details. Use it to find which area answers a how-to, setup or how-it-works question.
+> Business functionality in Business Central is the top-level section for business processes: finance, sales, purchasing, inventory, projects, fixed assets, manufacturing, warehouse, service, sustainability and more. It answers where a process is documented and routes setup and how-to questions to the right area.
 
 Path: Business functionality · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section starts with one overview page, "Business functionality supported by Business Central". It lists the processes the product supports: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management. The other pages sit in subtopics, one per area.
+This section starts with one overview page that lists what Business Central supports: finance and payments, sales and quotes, purchase management, inventory, project management, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management. The rest of the content sits in subtopics, one per business area.
 
-The subtopics fall into groups. Cross-area tools are in General business functionality. Core trade and finance work is in Finance, Sales, Purchasing and Inventory. Operations are in Project management, Fixed assets, Planning, Assembly management, Manufacturing, Warehouse management, Quality management and Service management. Smaller or newer areas include Relationship management, Human resources, Sustainability management, Online store with Shopify, Expense management (preview) and Company hub.
+Most subtopics cover day-to-day how-to and setup questions for one process. Finance (257 pages), Sales (133) and Inventory (75) are the large core areas. Supply chain and production areas are Planning, Assembly management, Manufacturing and Warehouse management. Project management, Fixed assets, Relationship management, Human resources and Service management cover their own processes. Specialized areas include Quality management, Sustainability management, the Shopify connector, Company hub and Expense management (preview).
 
-Three subtopics support the rest. Local functionality holds country-specific regulatory features. Set up Business Central covers initial configuration. Design details explains internal calculation and posting logic. To begin, read the overview page, then go to the area that matches your task. Use Set up Business Central for first configuration and Local functionality for country rules.
+Cross-cutting material is in General business functionality (posting, journals, email, workflows, incoming documents). Set up Business Central covers configuration. Design details explains internal logic such as costing and planning. Local functionality holds country-specific content. Start with the overview, then go to the subtopic for your process.
 
 ## Key points
 
-- The overview page lists supported areas: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service.
-- General business functionality covers shared tools such as posting, batch posting, job queues, email, general journals, incoming documents, workflows and Excel export.
-- Finance is the largest core area (257 pages). It covers general ledger, dimensions, currencies, receivables, payables, bank reconciliation, VAT, E-Documents and consolidation.
-- Sales, Purchasing and Inventory cover documents from quotes to posting, plus item tracking, reservations, transfers and counting. Sales also includes Subscription billing.
-- Manufacturing, Planning, Assembly and Warehouse management cover production orders, MPS/MRP runs, assembly orders and inbound/outbound warehouse processes.
-- Service management is for the Premium experience only. Expense management is marked preview and includes an AI-powered Expense Agent.
-- Local functionality (603 pages) covers country-specific tax, banking and e-invoicing for 20+ countries and regions, and the rules for Validated Localization apps.
-- Design details (50 pages) explains how supply planning, inventory costing, item tracking and dimension set entries work internally.
+- The single own page is an overview of supported business processes, and the subtopics hold the detail.
+- Finance is the largest functional area (257 pages): general ledger, dimensions, currencies, receivables, payables, bank reconciliation, VAT, consolidation and E-Documents.
+- Sales and Purchasing cover the document flow from quotes and orders to invoices, returns and posting. Sales includes the Sales analytics and Subscription billing subtopics.
+- Inventory, Planning, Assembly management, Manufacturing and Warehouse management cover item tracking, supply planning, production orders and warehouse processes.
+- Service management is Premium experience only.
+- Quality management is an extension for inspections. Sustainability management covers emissions tracking, scorecards and reporting. The Shopify connector syncs items, orders and payouts.
+- Expense management is a preview feature, with or without the AI-powered Expense Agent.
+- Local functionality (603 pages) covers 20+ countries and regions. Design details explains calculation logic and posting behavior. Set up Business Central covers configuration.
 
 ## Subtopics
 
@@ -3872,7 +3866,7 @@ Three subtopics support the rest. Local functionality holds country-specific reg
 - [Human resources](business-functionality/human-resources.md) (3 pages)
 - [Planning](business-functionality/planning.md) (9 pages)
 - [Assembly management](business-functionality/assembly-management.md) (20 pages)
-- [Manufacturing](business-functionality/manufacturing.md) (65 pages)
+- [Manufacturing](business-functionality/manufacturing.md) (63 pages)
 - [Warehouse management](business-functionality/warehouse-management.md) (26 pages)
 - [Quality management](business-functionality/quality-management.md) (11 pages)
 - [Service management](business-functionality/service-management.md) (56 pages)
@@ -5011,7 +5005,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 37005 "Sales by Customer"](../../objects/page/37005.md) · captioned "Sales by Customer (Power BI)" · via [Sales](business-functionality/sales.md)
 - [Page 37006 "Sales by Salesperson"](../../objects/page/37006.md) · captioned "Sales by Salesperson (Power BI)" · via [Sales](business-functionality/sales.md)
 - [Page 37007 "Sales Actual vs. Budget Qty."](../../objects/page/37007.md) · captioned "Sales Actual vs. Budget (Power BI)" · via [Sales](business-functionality/sales.md)
-- [Page 37008 "Sales Actual vs. Budget Amt."](../../objects/page/37008.md) · captioned "Sales Actual vs. Budget Amount" · via [Sales](business-functionality/sales.md)
 - [Page 37009 "Purchases Overview"](../../objects/page/37009.md) · captioned "Purchases Overview (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
 - [Page 37010 "Purchases Decomposition"](../../objects/page/37010.md) · captioned "Purchases Decomposition (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
 - [Page 37011 "Daily Purchases"](../../objects/page/37011.md) · captioned "Daily Purchases (Power BI)" · via [Purchasing](business-functionality/purchasing.md)
@@ -5043,8 +5036,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 37037 "Project Performance to Budget"](../../objects/page/37037.md) · captioned "Project Performance to Budget (Power BI)" · via [Project management](business-functionality/project-management.md)
 - [Page 37038 "Project Invoiced Sales by Type"](../../objects/page/37038.md) · captioned "Project Invoiced Sales by Type (Power BI)" · via [Project management](business-functionality/project-management.md)
 - [Page 37039 "Project Invd. Sales by Cust."](../../objects/page/37039.md) · captioned "Project Invoiced Sales by Customer (Power BI)" · via [Project management](business-functionality/project-management.md)
-- [Page 37040 "Current Utilization"](../../objects/page/37040.md) · via [Manufacturing](business-functionality/manufacturing.md)
-- [Page 37041 "Historical Utilization"](../../objects/page/37041.md) · via [Manufacturing](business-functionality/manufacturing.md)
 - [Page 37042 "PowerBI Work Center Load"](../../objects/page/37042.md) · captioned "Work Center Load (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
 - [Page 37043 "Allocated Hours"](../../objects/page/37043.md) · captioned "Allocated Hours (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)
 - [Page 37044 "Expected Capacity Need"](../../objects/page/37044.md) · captioned "Expected Capacity Need (Power BI)" · via [Manufacturing](business-functionality/manufacturing.md)

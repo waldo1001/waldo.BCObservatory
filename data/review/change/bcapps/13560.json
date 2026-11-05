@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/13560",
+  "input_hash": "f2f530b20dc244f112b9c8540dcbdb92e30d8580ca2443a7b98dcdcc1f9b7a8d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-05T00:53:33.585Z",
+  "issues": [
+    "The description has only a work item link. The claim about backward compatibility and the wording 'certain item types' are not supported."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023463,
+    "changes_in_call": 6
+  }
+}

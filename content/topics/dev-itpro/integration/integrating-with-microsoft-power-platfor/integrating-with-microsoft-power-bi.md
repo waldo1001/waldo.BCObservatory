@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi
 type: topic
 title: Integrating with Microsoft Power BI
-summary: "Power BI integration with Business Central: enabling it, building reports on Business Central data, embedding reports in pages, extracting data for ETL, and improving dataset load performance. It answers setup, report authoring, embedding and data-loading questions."
+summary: "Power BI integration with Business Central: how to expose and extract Business Central data, build reports in Power BI Desktop, embed reports in Business Central pages, and tune dataset load performance. It answers setup, report-building, embedding, extraction and performance questions."
 tier: official
 language: en
 system: reporting
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:21:50.663Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-01T00:45:11.847Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0dc61f8c427b71b1f30248ccf4cb3093afd4303157112e0ea16a0958ecd7c177
+  input_hash: f348502af655a481de6f2d6b08223c7286ca09f068d59672f262c7134bcfe937
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerbi
@@ -121,28 +121,28 @@ narrative: generated
 
 # Integrating with Microsoft Power BI
 
-> Power BI integration with Business Central: enabling it, building reports on Business Central data, embedding reports in pages, extracting data for ETL, and improving dataset load performance. It answers setup, report authoring, embedding and data-loading questions.
+> Power BI integration with Business Central: how to expose and extract Business Central data, build reports in Power BI Desktop, embed reports in Business Central pages, and tune dataset load performance. It answers setup, report-building, embedding, extraction and performance questions.
 
-Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Platform](../integrating-with-microsoft-power-platfor.md) > Integrating with Microsoft Power BI · tier official · system reporting · narrative reviewed (checked by Opus)
+Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Platform](../integrating-with-microsoft-power-platfor.md) > Integrating with Microsoft Power BI · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This area covers how Business Central works with Power BI. It includes the built-in Power BI apps, reports built in Power BI Desktop, and reports shown inside Business Central pages. The introduction page gives the overall picture and the roles involved.
+This section covers the ways Business Central and Power BI work together. Data is exposed through API pages and OData web services. Power BI can then use it through the Power Query connector, Power BI apps for Business Central, dataflows and datamarts, or Power BI Desktop. Reports can also be embedded in Business Central pages.
 
-The subtopics split the work by role. Administrators enable the integration (licensing, API pages, OData web services, online and on-premises setup) and learn how the components fit together. Report creators build reports with the connector, APIs and OData web services, and prepare them for Power BI FactBoxes on list pages.
+The pages fit together by role. The introduction gives the overall picture. The Administrator subtopic covers enabling the integration (licensing, API pages, OData web services, online and on-premises setup) and the architecture. The Report creator subtopic covers building reports with the connector, APIs and OData, and preparing reports for Power BI FactBoxes on list pages.
 
-Further pages cover embedding reports, scorecards and dashboards with the Power BI embed framework, extracting data with ETL patterns, and tuning dataset load performance. Start with the introduction, then go to the Administrator or Report creator subtopic that matches your role.
+Other pages cover embedding reports, scorecards and dashboards with the Power BI embed framework, extracting data (ETL, historical and delta loads), and improving dataset load performance. Start with the introduction. Administrators should then go to the Administrator pages, and report authors to the Report creator pages.
 
 ## Key points
 
-- The introduction page describes built-in Power BI apps, Power BI Desktop integration, report embedding and KPI tracking across roles.
-- Administrators enable the integration, covering licensing, API pages, OData web services, and online and on-premises setup.
-- Report creators build reports in Power BI Desktop using the connector, APIs and OData web services.
-- Reports can be prepared to appear in Power BI FactBoxes on list pages.
-- Embedding uses the Power BI embed framework with pages such as Power BI Embedded Report Part and Power BI Element Addin Host; context is set with SetCurrentListSelection and SetPageContext.
-- Data extraction covers ETL, historical and delta loads using API queries filtered on SystemModifiedAt, read scale-out, Azure Data Factory and Power BI dataflows.
-- Dataset load performance improves by loading only the data you need through APIs and web service endpoints.
-- Web service telemetry can monitor usage, performance and errors.
+- Business Central data reaches Power BI through API pages and OData web services, the Power Query connector, Power BI apps, dataflows and datamarts.
+- Administrator pages cover licensing, enabling API pages and OData web services, online and on-premises setup, and the integration architecture.
+- Report creators build reports in Power BI Desktop and can prepare them to show in Power BI FactBoxes on list pages.
+- Reports, scorecards and dashboards can be embedded in pages using the Power BI embed framework, such as the Power BI Embedded Report Part and Power BI Element Addin Host pages.
+- Embedding uses context keywords and the SetCurrentListSelection and SetPageContext methods.
+- Data extraction supports ETL with historical loads and delta loads. Delta loads use API queries filtered on SystemModifiedAt, with read scale-out and tools like Azure Data Factory and Power BI dataflows.
+- To improve dataset load performance, load only the data you need through APIs and web service endpoints.
+- Web service telemetry lets you monitor usage, performance and errors.
 
 ## Subtopics
 

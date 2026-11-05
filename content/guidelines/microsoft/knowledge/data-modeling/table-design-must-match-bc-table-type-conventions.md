@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:15:31.113Z"
+  at: "2026-11-05T00:14:20.359Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1521ded4f619336b536ce353917039cc9bc89b86
@@ -45,6 +45,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/262
     - change/bcquality/157
 repo_path: microsoft/knowledge/data-modeling/table-design-must-match-bc-table-type-conventions.md
 layer: microsoft
@@ -169,6 +170,7 @@ See sample: [`table-design-must-match-bc-table-type-conventions.bad.al`](https:/
 
 ## Changed by
 
+- [#262 Trim two articles to the 10-keyword limit](../../../../changes/bcquality/262.md), 2026-11-04
 - [#157 18 more AL/BC patterns: data-modeling, testing, style, security, error-handling, ui, upgrade, web-services, appsource](../../../../changes/bcquality/157.md), 2026-09-29
 
 ---

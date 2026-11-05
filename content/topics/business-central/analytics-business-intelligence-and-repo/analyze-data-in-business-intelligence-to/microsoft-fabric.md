@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:57.577Z"
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -189,7 +189,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12189 Removing the restriction of deploying Power BI reports only to evaluation companies](../../../../changes/bcapps/12189.md) (code change): "Power BI report deployment now works with regular companies"
 - [#12242 29.x: Removing the restriction of deploying Power BI reports only to evaluation companies](../../../../changes/bcapps/12242.md) (code change): "Power BI report deployment is no longer limited to evaluation companies"
 - [Native connection with Fabric in Business Central](../../../../posts/bertverbeek-nl/1318.md) (community post): "Business Central introduces native integration with Microsoft Fabric for data synchronization"
-- [Business Central to Microsoft Fabric is a mirror. But what if you want to know what actually changed?](../../../../posts/bertverbeek-nl/1342.md) (community post): "Business Central data mirrored to Microsoft Fabric appears as static copies"
+- [Business Central to Microsoft Fabric is a mirror. But what if you want to know what actually changed?](../../../../posts/bertverbeek-nl/1342.md) (community post): "delta change data feeds to track table modifications and version history"
 - [Dynamics 365 Business Central: data mirroring to Microsoft Fabric announced.](../../../../posts/demiliani-com/15981.md) (community post): "data mirroring for Dynamics 365 Business Central to Microsoft Fabric"
 - [Business Central Data Mirroring to Microsoft Fabric Is Coming](../../../../posts/thinkaboutit-be/8229.md) (community post): "Business Central 2026 release wave 2 introduces data mirroring to Microsoft Fabric"
 - [Directions EMEA 2026, Day 2: Cowork, Agentic Development and Fabric](../../../../posts/thinkaboutit-be/8359.md) (community post): "Native Business Central-Fabric mirroring replicates ERP data"

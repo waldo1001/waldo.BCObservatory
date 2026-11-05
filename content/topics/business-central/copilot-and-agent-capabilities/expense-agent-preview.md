@@ -12,7 +12,7 @@ review:
   at: "2026-10-30T08:08:38.208Z"
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -132,12 +132,14 @@ links:
     - change/bcapps/12763
     - change/bcapps/12810
     - change/bcapps/12882
+    - change/bcapps/12910
     - change/bcapps/12985
     - change/bcapps/13058
     - change/bcapps/13184
     - change/bcapps/13185
     - change/bcapps/13460
     - change/bcapps/13504
+    - change/bcapps/13569
 learn_toc_path:
   - Copilot and agent capabilities
   - Expense Agent (preview)
@@ -213,12 +215,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12763 [Master] - Bug 654021: [Expense Agent] [Professional] Online: Creating Production - Setup Data Only Company with Delegated Admin access: "'IndirectInsert' permission on TableData 6913 'Expense Pmt Method" - 2610091420000495](../../../changes/bcapps/12763.md) (code change): "Expense Agent delegated admin partner entitlements are updated to grant"
 - [#12810 ExpenseAgent-CAUS-default-VAT-setup-fails](../../../changes/bcapps/12810.md) (code change): "Fixes the Expense Agent default VAT setup failing"
 - [#12882 [Master] - Bug 651169: [Expense Agent] Exchange rate date limitation](../../../changes/bcapps/12882.md) (code change): "Expense Agent now correctly handles exchange rate dates for transactions"
+- [#12910 [Master] - Bug 652243: [Expense Agent] Validate approval user email](../../../changes/bcapps/12910.md) (code change): "Expense Agent now validates approval user emails correctly"
 - [#12985 [Master] - Bug 654115: [Expense Agent] Cannot submit report with a non-refundable Employee Paid line: 'nothing to refund' blocks release, report stuck in draft](../../../changes/bcapps/12985.md) (code change): "expense reports with non-refundable employee paid lines couldn't be submitted"
 - [#13058 Bug 656064: Expense Agent: Itemization table holds unrounded values, leading to rounding errors. Also missing currency code.](../../../changes/bcapps/13058.md) (code change): "Expense itemization records now store properly rounded currency amounts"
 - [#13184 [29.x] - Bug 656485: [Expense Agent] Add a View rules link below Enforce management rules.](../../../changes/bcapps/13184.md) (code change): "View rules link was added below the Enforce management rules setting"
 - [#13185 [Master] - Bug 656372: [Expense Agent] Fix itemization rounding and missing currency code.](../../../changes/bcapps/13185.md) (code change): "Fixes rounding of Expense Agent itemization amounts and a missing currency code"
 - [#13460 [Master] Fix Expense Agent account filters with special characters](../../../changes/bcapps/13460.md) (code change): "Expense Agent now properly handles G/L account lookups when account names"
 - [#13504 Exposing-VAT-settings-on-category-card](../../../changes/bcapps/13504.md) (code change): "VAT settings are now exposed on the Expense Category Card page"
+- [#13569 Update expense policy defaults, caption, and search terms](../../../changes/bcapps/13569.md) (code change): "Expense Agent setups enable policy evaluation by default"
 - [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../../../posts/thinkaboutit-be/8348.md) (community post): "covers Business Skills, the Expense Agent and what AI interaction means"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../videos/4TE8uwIi91k.md) (video): "Expense agent; mobile app; receipt scanning; mileage tracking"
 - [Expense Agent: Web App Experience (2026 release wave 1)](../../../videos/ARKckFygbWQ.md) (video): "Expense agent; web app experience; receipt capture; receipt extraction; automatic categorization"

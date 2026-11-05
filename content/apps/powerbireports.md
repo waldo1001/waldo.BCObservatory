@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:46:30.808Z"
+  at: "2026-11-05T00:47:59.172Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a97b0cc3b9c8125ef59bd96c0dc2e1356e2aa32b7106da6fddb49ac168f4c51d
+  input_hash: 3726ac6711a2421c6513c3a7d7134f2c96f2528c8a48229dc726e87a5d129245
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/PowerBIReports/app
@@ -242,9 +242,9 @@ links:
     - topic/business-central/business-functionality/purchasing/purchasing-analytics
     - topic/business-central/business-functionality/inventory/inventory-analytics
     - topic/business-central/business-functionality/finance/financial-analytics
+    - topic/business-central/business-functionality/project-management/project-management-analytics/power-bi-projects-app
     - topic/business-central/business-functionality/sales/sales-analytics
     - topic/business-central/business-functionality/manufacturing
-    - topic/business-central/business-functionality/project-management/project-management-analytics/power-bi-projects-app
     - topic/business-central/business-functionality/project-management
     - topic/business-central/business-functionality/project-management/project-management-analytics
     - topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-valuation-app
@@ -296,9 +296,9 @@ First-party app · folder `src/Apps/W1/PowerBIReports/app` · namespace `Microso
 
 The topic hubs whose Learn pages name this app's pages and reports (a table counts through the pages on it), by the number of the app's objects they document.
 
-- [Analytics, business intelligence, and reporting](../topics/business-central/analytics-business-intelligence-and-repo.md): 70 objects
-- [KPIs, dashboards, and financial reports](../topics/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports.md) (Analytics, business intelligence, and reporting): 70 objects
-- [Power BI Sales app](../topics/business-central/business-functionality/sales/sales-analytics/power-bi-sales-app.md) (Business functionality > Sales > Sales analytics): 24 objects
+- [Analytics, business intelligence, and reporting](../topics/business-central/analytics-business-intelligence-and-repo.md): 67 objects
+- [KPIs, dashboards, and financial reports](../topics/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports.md) (Analytics, business intelligence, and reporting): 67 objects
+- [Power BI Sales app](../topics/business-central/business-functionality/sales/sales-analytics/power-bi-sales-app.md) (Business functionality > Sales > Sales analytics): 23 objects
 - [Power BI manufacturing app](../topics/business-central/business-functionality/manufacturing/manufacturing-analytics/power-bi-manufacturing-app.md) (Business functionality > Manufacturing > Manufacturing analytics): 21 objects
 - [Power BI purchasing app](../topics/business-central/business-functionality/purchasing/purchasing-analytics/power-bi-purchasing-app.md) (Business functionality > Purchasing > Purchasing analytics): 21 objects
 - [Power BI finance app](../topics/business-central/business-functionality/finance/financial-analytics/power-bi-finance-app.md) (Business functionality > Finance > Financial analytics): 18 objects
@@ -306,9 +306,9 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 - [Purchasing analytics](../topics/business-central/business-functionality/purchasing/purchasing-analytics.md) (Business functionality > Purchasing): 15 objects
 - [Inventory analytics](../topics/business-central/business-functionality/inventory/inventory-analytics.md) (Business functionality > Inventory): 13 objects
 - [Financial analytics](../topics/business-central/business-functionality/finance/financial-analytics.md) (Business functionality > Finance): 12 objects
-- [Sales analytics](../topics/business-central/business-functionality/sales/sales-analytics.md) (Business functionality > Sales): 12 objects
-- [Manufacturing](../topics/business-central/business-functionality/manufacturing.md) (Business functionality): 11 objects
 - [Power BI projects app](../topics/business-central/business-functionality/project-management/project-management-analytics/power-bi-projects-app.md) (Business functionality > Project management > Project management analytics): 11 objects
+- [Sales analytics](../topics/business-central/business-functionality/sales/sales-analytics.md) (Business functionality > Sales): 11 objects
+- [Manufacturing](../topics/business-central/business-functionality/manufacturing.md) (Business functionality): 9 objects
 - [Project management](../topics/business-central/business-functionality/project-management.md) (Business functionality): 7 objects
 - [Project management analytics](../topics/business-central/business-functionality/project-management/project-management-analytics.md) (Business functionality > Project management): 7 objects
 - [Power BI inventory valuation app](../topics/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-valuation-app.md) (Business functionality > Inventory > Inventory analytics): 4 objects

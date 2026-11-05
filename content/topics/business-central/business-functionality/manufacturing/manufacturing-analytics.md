@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/manufacturing/manufacturing-analytics
 type: topic
 title: Manufacturing analytics
-summary: Manufacturing analytics in Business Central covers the Power BI Manufacturing app, built-in production reports, on-screen analysis of work center and machine center load, and obsolete reports that will be removed. It answers which report or KPI shows a given production figure, and how to compare load against capacity.
+summary: Manufacturing analytics in Business Central covers the Power BI manufacturing app, built-in production reports, on-screen load views for work and machine centers, and obsolete reports being removed. It helps answer which report or view shows a given manufacturing figure, such as capacity load, production order costs, variances, WIP, or scrap.
 tier: official
 language: en
 system: manufacturing
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:15:10.187Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-29T21:38:16.952Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 5a2695975eb420911ebddc4c2ff1dcb6c948415664cc544bd93ee05eded76910
+  input_hash: a9c8e85179c5b86913cdbfc454ea739c928c4c5bf804f3257317504fb7e1cdd4
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-allocated-hours
@@ -61,13 +61,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-current-utilization
-    title: Current Utilization
-    date: "2024-11-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000756
     title: Detailed Calculation (report)
     date: "2024-10-23"
@@ -84,13 +77,6 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-finished-production-order-breakdown
     title: Finished Production Order Breakdown (Power BI report)
-    date: "2024-11-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-historical-utilization
-    title: Historical Utilization
     date: "2024-11-01"
     commit: null
     t: null
@@ -168,7 +154,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-app
     title: Power BI Manufacturing app
-    date: "2026-03-17"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
@@ -298,14 +284,26 @@ evidence:
     commit: null
     t: null
     quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000787
+    title: Routing Sheet (report)
+    date: "2024-11-04"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000755
+    title: Single-Level Cost Shares (report)
+    date: "2024-11-01"
+    commit: null
+    t: null
+    quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/manufacturing-analytics-overview
     - https://learn.microsoft.com/dynamics365/business-central/production-how-to-view-the-load-on-work-centers
   objects:
     - object/page/36951
-    - object/page/37040
-    - object/page/37041
     - object/page/37042
     - object/page/37043
     - object/page/37044
@@ -378,8 +376,8 @@ children:
   - topic/business-central/business-functionality/manufacturing/manufacturing-analytics/built-in-production-reports
   - topic/business-central/business-functionality/manufacturing/manufacturing-analytics/obsolete-reports-will-be-removed
 coverage:
-  learn: 50
-  code: 53
+  learn: 48
+  code: 51
   video: 1
   blog: 0
   guideline: 0
@@ -388,8 +386,6 @@ bc_forms:
   - 5871
   - 5872
   - 36951
-  - 37040
-  - 37041
   - 37042
   - 37043
   - 37044
@@ -438,37 +434,37 @@ bc_forms:
   - 99000915
   - 99000916
   - 990000785
-member_hash: f780ddd21d677bb723267179c6edf666998905f7cc626f28f7330de98ae5b8fb
+member_hash: f2700afcca6e633b7cf3f71b60fa153e76ea29ceb176a0020958a8b373b63656
 narrative: generated
 ---
 
 # Manufacturing analytics
 
-> Manufacturing analytics in Business Central covers the Power BI Manufacturing app, built-in production reports, on-screen analysis of work center and machine center load, and obsolete reports that will be removed. It answers which report or KPI shows a given production figure, and how to compare load against capacity.
+> Manufacturing analytics in Business Central covers the Power BI manufacturing app, built-in production reports, on-screen load views for work and machine centers, and obsolete reports being removed. It helps answer which report or view shows a given manufacturing figure, such as capacity load, production order costs, variances, WIP, or scrap.
 
-Path: [Business functionality](../../business-functionality.md) > [Manufacturing](../manufacturing.md) > Manufacturing analytics · tier official · system manufacturing · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Manufacturing](../manufacturing.md) > Manufacturing analytics · tier official · system manufacturing · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Manufacturing analytics is the set of tools for monitoring production performance. It includes Power BI reports for KPIs, ad-hoc data analysis on lists, Open in Excel, built-in reports, work center load visualization and barcode printing.
+Manufacturing analytics groups the ways to monitor production performance. These are Power BI reports for KPIs, ad-hoc analysis on lists, opening data in Excel, built-in reports, work center load visualization, and barcode printing for item labels.
 
-The pages fit together in three groups. The Power BI Manufacturing app covers reports, the semantic model, and KPIs and measures such as capacity utilization, production order status and cost, WIP, scrap and variances. The built-in production reports cover BOM cost and structure, production order costs and status, capacity and routing, shortages, subcontracting and item labels. A third group lists obsolete reports that will be removed, so you can see what each one showed and plan a move away from it.
+The section has three subtopics. The Power BI manufacturing app pages describe the app, its semantic model, KPI and measure definitions, and each report. The built-in production reports pages cover BOM cost and structure, production order costs and status, capacity and routing, shortages, subcontracting, and item labels. A third subtopic lists obsolete reports that will be removed, such as cost reports and machine center and work center list and load reports.
 
-Start with "View Load on Work and Machine Centers" if you need to compare load with capacity and find bottlenecks. Use the Power BI app pages for KPI dashboards. Use the built-in reports pages to find the report for a specific figure.
+The own page "View Load on Work and Machine Centers" is a good starting point for capacity questions. It explains load versus capacity, viewing load by period as net change or balance at date, spotting bottlenecks and scheduling conflicts, and finite capacity scheduling. For KPI questions, go to the Power BI app. For a specific printed report, go to the built-in reports. Check the obsolete list before relying on an older report.
 
 ## Key points
 
-- Analytics options include the Power BI Manufacturing app, KPI monitoring, data analysis on lists, Open in Excel, built-in reports and barcode printing.
-- Load is work assigned to production resources from production orders. Capacity is what the resources can perform.
+- Load is the work assigned to resources from production orders. Capacity is what resources can perform. The load page shows how to compare the two.
 - Load can be viewed by period, as net change or as balance at date, with a work center task list.
-- The load page covers scheduling conflicts, capacity constrained resources and finite capacity scheduling for finding bottlenecks.
-- The Power BI Manufacturing app has 21 pages on reports, the semantic model, KPIs and measures, including utilization, WIP, scrap and variances.
-- Built-in production reports (16 pages) cover BOM cost and structure, production order costs and status, capacity and routing, shortages, subcontracting and item labels.
-- Obsolete reports (11 pages) include cost calculation, cost shares, BOM compare, and machine center and work center list and load reports. They will be removed.
+- The load page covers bottlenecks, scheduling conflicts, capacity constrained resources, and finite capacity scheduling.
+- The Power BI manufacturing app (19 pages) covers capacity load, production orders, variances, WIP, scrap, and routing schedules, plus its semantic model and KPI/measure definitions.
+- Built-in production reports (16 pages) cover BOM cost and structure, production order costs and status, capacity and routing, shortages, subcontracting, and item labels.
+- Obsolete reports (11 pages) will be removed. They include calculation, cost shares, and BOM compare cost reports, and machine center and work center list and load reports.
+- Other analysis options are data analysis on lists, Open in Excel, and barcode printing.
 
 ## Subtopics
 
-- [Power BI manufacturing app](manufacturing-analytics/power-bi-manufacturing-app.md) (21 pages)
+- [Power BI manufacturing app](manufacturing-analytics/power-bi-manufacturing-app.md) (19 pages)
 - [Built-in production reports](manufacturing-analytics/built-in-production-reports.md) (16 pages)
 - [Obsolete reports (will be removed)](manufacturing-analytics/obsolete-reports-will-be-removed.md) (11 pages)
 
@@ -497,8 +493,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 99000915 "Work Center Task List"](../../../../objects/page/99000915.md) · on [Table 5409 "Prod. Order Routing Line"](../../../../objects/table/5409.md)
 - [Page 99000916 "Machine Center Task List"](../../../../objects/page/99000916.md) · on [Table 5409 "Prod. Order Routing Line"](../../../../objects/table/5409.md)
 - [Page 36951 "PowerBI Reports Setup"](../../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../../objects/table/36951.md) · via [Power BI manufacturing app](manufacturing-analytics/power-bi-manufacturing-app.md)
-- [Page 37040 "Current Utilization"](../../../../objects/page/37040.md) · via [Power BI manufacturing app](manufacturing-analytics/power-bi-manufacturing-app.md)
-- [Page 37041 "Historical Utilization"](../../../../objects/page/37041.md) · via [Power BI manufacturing app](manufacturing-analytics/power-bi-manufacturing-app.md)
 - [Page 37042 "PowerBI Work Center Load"](../../../../objects/page/37042.md) · captioned "Work Center Load (Power BI)" · via [Power BI manufacturing app](manufacturing-analytics/power-bi-manufacturing-app.md)
 - [Page 37043 "Allocated Hours"](../../../../objects/page/37043.md) · captioned "Allocated Hours (Power BI)" · via [Power BI manufacturing app](manufacturing-analytics/power-bi-manufacturing-app.md)
 - [Page 37044 "Expected Capacity Need"](../../../../objects/page/37044.md) · captioned "Expected Capacity Need (Power BI)" · via [Power BI manufacturing app](manufacturing-analytics/power-bi-manufacturing-app.md)

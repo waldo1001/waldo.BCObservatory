@@ -1,36 +1,36 @@
 {
   "schema": "bcobs-index@1",
-  "pages": 30229,
+  "pages": 30270,
   "shards": [
     {
-      "file": "pages-hubs-76d62ba94636.json",
-      "count": 1413,
-      "sha256": "76d62ba946360411b16e6e3a8cff1f70755c23aacb763d47ff2037b98ccfbf03",
+      "file": "pages-hubs-7206b43f9c17.json",
+      "count": 1433,
+      "sha256": "7206b43f9c17fcee64f2619974cb407d65e2c0a4ad375bd7709045362be1ece8",
       "kind": "hubs"
     },
     {
-      "file": "pages-media-f136041cb05f.json",
-      "count": 3090,
-      "sha256": "f136041cb05fd2c03ca71216b2b7150f91586562eaa0e796b96e119aba92eed0",
+      "file": "pages-media-1daa9dfd9ead.json",
+      "count": 3109,
+      "sha256": "1daa9dfd9ead03a31a63d5c984860e2ecbbb092cd92e92cdd69985ab3e557763",
       "kind": "media"
     },
     {
-      "file": "pages-objects-1-2c031b5fb98a.json",
+      "file": "pages-objects-1-112e085f497e.json",
       "count": 14420,
-      "sha256": "2c031b5fb98a6b598c15e04b603f1cd41cd7b680dd80d3fd2c983d77e6e57bfb",
+      "sha256": "112e085f497ec3a0ae1c305604363005590e5f025725add52ab08e351eddfa8f",
       "kind": "objects"
     },
     {
-      "file": "pages-objects-2-603613ca301c.json",
-      "count": 11306,
-      "sha256": "603613ca301cdd23478d840fe8b4fccda81ca8b70f8b25c76c5a50779fa28c78",
+      "file": "pages-objects-2-10cda6593b6f.json",
+      "count": 11308,
+      "sha256": "10cda6593b6fbb729633c3515dd18865a73bd87537fa413bb4cc01139e279a3f",
       "kind": "objects"
     }
   ],
   "learn": {
-    "file": "learn-d272b614e37b.json",
-    "count": 8056,
-    "sha256": "d272b614e37b18de67d8f6cebf1740bb39f5e5e0c370f9bde47e445adf2d1773"
+    "file": "learn-21ecd7d4a467.json",
+    "count": 8053,
+    "sha256": "21ecd7d4a467db3c8740bc2ada199b8f62b27553bfe72cbcd4f9ef4718be97be"
   },
   "learn_facts": {
     "file": "learn-facts-20af0a004479.json",
@@ -39,14 +39,14 @@
   },
   "by_type": {
     "app": 97,
-    "change": 1343,
+    "change": 1358,
     "digest": 8,
-    "feature": 112,
-    "guideline": 460,
+    "feature": 131,
+    "guideline": 461,
     "hotfix": 3,
     "localization": 22,
-    "object": 25726,
-    "post": 1122,
+    "object": 25728,
+    "post": 1126,
     "release": 64,
     "source": 41,
     "topic": 606,

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:18.791Z"
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -62,6 +62,7 @@ links:
     - post/yzhums-com/67592
     - post/yzhums-com/68438
     - post/yzhums-com/74594
+    - post/yzhums-com/77070
   guidelines: []
 learn_toc_path:
   - Development
@@ -74,7 +75,7 @@ coverage:
   learn: 3
   code: 0
   video: 1
-  blog: 10
+  blog: 11
   guideline: 0
 bc_forms: []
 member_hash: 3e24d310bec806f54df5e21b2fc846769d8a24f8f718551344701ccf8111fec0
@@ -125,6 +126,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2025 wave 2 (BC27): Update sandbox environments to preview versions](../../../../posts/yzhums-com/67592.md) (community post): "Sandbox environments can now be updated to the public preview of the next major version"
 - [Business Central 2025 wave 2 (BC27): Get early access preview versions as a partner – Early Access Preview (Next Major) environment in Cloud/SaaS](../../../../posts/yzhums-com/68438.md) (community post): "Early Access Preview (EAP) environments for BC27 before general availability"
 - [Dynamics 365 Business Central Cloud: Production vs. Sandbox Environments – Key Differences](../../../../posts/yzhums-com/74594.md) (community post): "Sandbox environments support direct Visual Studio Code debugging and extension deployment"
+- [Business Central 2026 release wave 2 (BC29): Match Production Database Configuration](../../../../posts/yzhums-com/77070.md) (community post): "temporarily aligns a sandbox environment's database settings with production"
 - [What's Cooking in Business Central: Early Access Preview](../../../../videos/qYW5wo0fKgA.md) (video): "Early Access Preview Sandbox Environments"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

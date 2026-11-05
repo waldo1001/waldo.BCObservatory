@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:13.743Z"
   flags: []
 generated:
-  at: "2026-11-02T00:57:11.355Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -63,6 +63,8 @@ links:
   posts:
     - post/yzhums-com/77038
   guidelines: []
+  changes:
+    - change/bcapps/12624
 learn_toc_path:
   - Get started
   - Get productive in Business Central
@@ -118,10 +120,11 @@ Start with the page on creating and modifying custom layouts for the basic conce
 - [(Obsolete) Update Custom Report Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts): Learn how to update a custom report layout used on a report when there are design changes to the report's data set, for example.
   - In the observatory: [Page 9656 "Report Layout Update Log"](../../../../../objects/page/9656.md)
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12624 Align styling in Document Report Experience themes, HF designs and bodies](../../../../../changes/bcapps/12624.md) (code change): "Styling of Word report themes, header/footer designs and bodies"
 - [Business Central 2026 release wave 2 (BC29): Custom Report Layouts are now deprecated and have been removed](../../../../../posts/yzhums-com/77038.md) (community post): "This legacy feature from Dynamics NAV was already obsolete but retained"
 
 ## Business Central pages and reports

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcquality-prs/262",
+  "input_hash": "ef18eed2d438c0178b71c21091aed317d800c9d397b261b8b4031dee6429dc9d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-05T00:53:18.860Z",
+  "issues": [
+    "The page matches the description: two articles go from 12 to 10 keywords and the generic keywords are removed. It is a docs-only change with no effect on behaviour."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019131,
+    "changes_in_call": 3
+  }
+}

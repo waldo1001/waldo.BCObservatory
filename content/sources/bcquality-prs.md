@@ -2,7 +2,7 @@
 id: source/bcquality-prs
 type: source
 title: microsoft/BCQuality pull requests
-summary: "microsoft/BCQuality pull requests: 106 code changes in the knowledge base, 2026-07-09 to 2026-11-03, mostly about development, platform, copilot."
+summary: "microsoft/BCQuality pull requests: 108 code changes in the knowledge base, 2026-07-09 to 2026-11-04, mostly about development, platform, copilot."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T00:16:32.194Z"
+  at: "2026-11-05T00:14:20.359Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 58f1f81ce3c0a3857df591ea199a8959afe7464a088281b473821d7f7e0efa21
+  input_hash: a43b8c3d0830400815a8aabb30968d3be7d5995c072f48e5478f7c1c43938199
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
@@ -141,17 +141,19 @@ links:
     - change/bcquality/222
     - change/bcquality/253
     - change/bcquality/227
+    - change/bcquality/233
+    - change/bcquality/262
 source_id: bcquality-prs
 kind: github-pr
 url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 106
+item_count: 108
 footprint:
   systems:
     - id: development
-      weight: 190
+      weight: 193
     - id: platform
       weight: 28
     - id: copilot
@@ -159,29 +161,29 @@ footprint:
     - id: administration
       weight: 8
     - id: integration
-      weight: 5
+      weight: 7
     - id: reporting
       weight: 5
   topics:
     - id: main
-      weight: 106
+      weight: 108
     - id: feature
-      weight: 65
+      weight: 66
     - id: fix
       weight: 24
     - id: other
-      weight: 12
+      weight: 13
     - id: refactor
       weight: 5
   objects: []
   features: []
 first_item: "2026-07-09"
-last_item: "2026-11-03"
+last_item: "2026-11-04"
 ---
 
 # microsoft/BCQuality pull requests
 
-> microsoft/BCQuality pull requests: 106 code changes in the knowledge base, 2026-07-09 to 2026-11-03, mostly about development, platform, copilot.
+> microsoft/BCQuality pull requests: 108 code changes in the knowledge base, 2026-07-09 to 2026-11-04, mostly about development, platform, copilot.
 
 [https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -189,11 +191,11 @@ last_item: "2026-11-03"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (190) | main (106) |  |
-| platform (28) | feature (65) |  |
+| development (193) | main (108) |  |
+| platform (28) | feature (66) |  |
 | copilot (17) | fix (24) |  |
-| administration (8) | other (12) |  |
-| integration (5) | refactor (5) |  |
+| administration (8) | other (13) |  |
+| integration (7) | refactor (5) |  |
 | reporting (5) |  |  |
 
 ## Flight path
@@ -201,10 +203,12 @@ last_item: "2026-11-03"
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 77
-- 2026-Q4: ***************************** 29
+- 2026-Q4: ******************************* 31
 
 ## Most recent
 
+- [#262 Trim two articles to the 10-keyword limit](../changes/bcquality/262.md) (2026-11-04)
+- [#233 knowledge(web-services): describe API objects intended for MCP tools](../changes/bcquality/233.md) (2026-11-04)
 - [#227 Evaluation: keep sample comments for the two articles whose rule is about comments](../changes/bcquality/227.md) (2026-11-03)
 - [#253 knowledge(performance): add trigger-only fields to API pages with AddLoadFields](../changes/bcquality/253.md) (2026-11-02)
 - [#222 Add cited knowledge consultation skill for Business Central](../changes/bcquality/222.md) (2026-10-30)
@@ -223,7 +227,5 @@ Items per quarter, oldest first:
 - [#231 al-agents-review: derive the target BC version from app.json](../changes/bcquality/231.md) (2026-10-19)
 - [#214 UI knowledge: notification recall needs a known Id; open mixed-type documents through Page Management](../changes/bcquality/214.md) (2026-10-06)
 - [#208 2 AL/BC patterns: TableRelation field length and RecordRef.Open Temp parameter](../changes/bcquality/208.md) (2026-10-06)
-- [#177 Add retention policy knowledge to the privacy domain](../changes/bcquality/177.md) (2026-10-05)
-- [#218 Harden findings-report producer constraints](../changes/bcquality/218.md) (2026-10-05)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13325",
+  "input_hash": "58ebfd6ce2885c27f5b274b3bb8527cca461a31c0c710d245eeeaa3938942f27",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-05T00:53:33.585Z",
+  "issues": [
+    "Nothing given says the IDs were numeric; 'numeric identifiers' is unsupported.",
+    "The summary's wording ('names instead of IDs for certificates of analysis') is unclear. The source does not say whose name is shown, so the summary should not guess."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023463,
+    "changes_in_call": 6
+  }
+}

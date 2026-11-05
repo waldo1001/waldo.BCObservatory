@@ -1,36 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/sales/sales-analytics",
-  "input_hash": "4199bda535c583628adf254fa30c6f9a9dbcfbe6c853da8039b1092f754f8de7",
-  "summary": "Sales analytics in Business Central covers how sales managers and teams analyze sales performance: Power BI Sales app reports, ad-hoc analysis on list pages, configurable analysis reports, built-in sales reports and legacy reports marked for removal. It answers what each report shows and which approach fits a given analysis need.",
-  "overview": "Sales analytics brings together several ways to look at sales data in Business Central, such as gross profit, sales by period and customer acquisition. The landing page names the options: Power BI reports, ad-hoc analysis, financial reporting, dimension analysis and consolidation, plus the built-in reports.\n\nTwo pages in this section are hands-on. Ad-hoc analysis uses the Data Analysis feature on list pages, with analysis mode, pivot tables, row groups, column labels and filters, for quick fact-checking without running a predefined report. Create analysis reports combines line and column templates to build reports for sales, purchases and inventory, covering turnover, profit and periodic comparisons.\n\nThree subtopics go deeper. The Power BI Sales app describes its reports, semantic model and KPI definitions. Built-in sales reports covers receivables, orders, salespeople and printable sales documents. The legacy reports subtopic lists five reports that will be removed. Start with the section overview to choose a method, then go to the matching subtopic.",
+  "input_hash": "36a643606c621184fba99d962790419a1e1f08142e9375497d8380c2cda6d240",
+  "summary": "Sales analytics in Business Central covers the ways to analyze sales data: the Power BI Sales app, built-in sales reports, ad-hoc Data Analysis on list pages, analysis reports built from templates, and legacy reports slated for removal. It helps answer which tool fits a question and what each report shows.",
+  "overview": "Sales analytics gathers the options sales managers and operators have for monitoring KPIs and trends. The section's own pages introduce the overall approach, including Power BI, Financial Reporting, Open in Excel, Chart of Accounts and dimensions, and then describe two hands-on methods: ad-hoc analysis and analysis reports.\n\nAd-hoc analysis uses the Data Analysis feature on list pages. You switch to analysis mode and build pivot-style views with row groups, column labels, filters and custom tabs, without running a predefined report. Analysis reports are built by combining line and column templates with analysis type codes, for sales turnover, profit calculations and periodic comparisons. They also work for purchases and inventory.\n\nSubtopics cover the fixed reporting options. The Power BI Sales app describes its reports, star-schema semantic model and KPI measures. Built-in sales reports cover receivables, customer balances, orders, back orders, salespeople and printable sales documents. Legacy reports are marked for removal. Start with the Sales analytics page to choose a method, then move to the matching subtopic.",
   "key_points": [
-    "Analysis options named on the landing page: Power BI reports, ad-hoc analysis, financial reporting, dimension analysis, consolidation and built-in reports.",
-    "Ad-hoc analysis works from list pages through the Data Analysis feature, using analysis mode, pivot-style row groups and column labels, filters and custom tabs.",
-    "Analysis reports are built from line and column templates and analysis type codes, for sales, purchases and inventory.",
+    "Ad-hoc analysis works from list pages through Data Analysis, with analysis mode, pivot tables, row groups, column labels, filtering and custom tabs.",
+    "Analysis reports combine line and column templates and analysis type codes to analyze sales, purchases and inventory by KPIs.",
     "Analysis reports can show sales turnover, profit calculations, periodic comparisons and item ledger analysis.",
-    "The Power BI Sales app has reports for sales trends, customers, items, salespeople, locations, projects, budget, opportunities, quotes, returns and forecasting, with a documented semantic model and KPI definitions.",
-    "Built-in sales reports include customer balance and receivables, order and back-order reports, salesperson reports, and printable documents such as quotes, invoices, credit memos, shipments and return receipts.",
-    "Built-in reports also have variants for subscription billing, QR codes and sustainability data.",
-    "Legacy reports marked for removal: Customer - Sales list, Customer - Top 10 list, Customer List, Sales Reservation Avail. and Sales Statistics."
+    "The Power BI Sales app documentation covers its reports, star-schema semantic model and KPI measure definitions (24 pages).",
+    "Built-in sales reports include receivables, customer balance, order and back-order, salesperson reports and printable documents such as quotes, invoices, credit memos and shipments (29 pages).",
+    "Built-in report variants exist for subscription billing, QR codes and sustainability data.",
+    "Legacy reports marked for removal: Customer - Sales list, Customer - Top 10 list, Customer List, Sales Reservation Avail. and Sales Statistics.",
+    "Other analysis routes named in the overview are Financial Reporting, Open in Excel, Chart of Accounts and dimensions."
   ],
   "members_used": 3,
   "subtopics_used": 3,
   "prompt_version": 1,
-  "at": "2026-10-28T10:58:53.740Z",
+  "at": "2026-11-05T00:54:35.486Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.014849000000000001
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-28T11:00:47.808Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the key point on printable sales documents leaves out order confirmations, which the Built-in sales reports subtopic lists. It is a small gap, not an error."
-    ],
-    "input_hash": "4199bda535c583628adf254fa30c6f9a9dbcfbe6c853da8039b1092f754f8de7",
-    "cost_usd": 0.0353952
+    "cost_usd": 0.014605
   }
 }

@@ -9709,6 +9709,20 @@
         }
       ]
     },
+    "change/bcapps/12624": {
+      "kind": "change",
+      "key": "change/bcapps/12624",
+      "hash": "cb12e2d13477d75508bea27cd8bcf0cf8effb19ff30bc99b4fa509dc4108529b",
+      "title": "#12624 Align styling in Document Report Experience themes, HF designs and bodies",
+      "source": "bcapps-prs",
+      "at": "2026-11-05T00:50:26.888Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/get-started/get-productive-in-business-central/change-the-look-of-externally-facing-doc/use-obsolete-features",
+          "quote": "Styling of Word report themes, header/footer designs and bodies"
+        }
+      ]
+    },
     "change/bcapps/12626": {
       "kind": "change",
       "key": "change/bcapps/12626",
@@ -9750,6 +9764,15 @@
           "quote": "extension lifecycle actions like Uninstall, and prevents repeated marketplace installation prompts"
         }
       ]
+    },
+    "change/bcapps/12683": {
+      "kind": "change",
+      "key": "change/bcapps/12683",
+      "hash": "9940d44a91da83f2765f975acba85d603a86473c8fa19f5dae144473f10bba60",
+      "title": "#12683 [API tests] Return shipment PDF selection and pdfDocument test isolation",
+      "source": "bcapps-prs",
+      "at": "2026-11-05T00:50:26.702Z",
+      "matches": []
     },
     "change/bcapps/12690": {
       "kind": "change",
@@ -10202,6 +10225,20 @@
         {
           "topic": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/upgrade-data",
           "quote": "Direct transfer order upgrade now handles missing Inventory Setup"
+        }
+      ]
+    },
+    "change/bcapps/12910": {
+      "kind": "change",
+      "key": "change/bcapps/12910",
+      "hash": "7017c8f6c215d9823a80ea94d869edf3a5b2bafc1f2277da34be7679559a9a16",
+      "title": "#12910 [Master] - Bug 652243: [Expense Agent] Validate approval user email",
+      "source": "bcapps-prs",
+      "at": "2026-11-05T00:50:28.664Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Expense Agent now validates approval user emails correctly"
         }
       ]
     },
@@ -10658,14 +10695,18 @@
     "change/bcapps/13172": {
       "kind": "change",
       "key": "change/bcapps/13172",
-      "hash": "8bd3a4bd888ad4886fa2fed7091869f54f75e317b4f7f202e00708c0040d5aa4",
+      "hash": "1e521d6cb69623964f7d86b9b0e36c2424a8a3615d868262cd63576964e1780d",
       "title": "#13172 Export structured AI eval run data",
       "source": "bcapps-prs",
-      "at": "2026-11-04T00:56:12.939Z",
+      "at": "2026-11-05T00:50:28.664Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "Export structured AI evaluation run data with authorized agent task troubleshooting"
+          "quote": "AI Eval run data can now be exported in a structured form from the AI Test Toolkit"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central/test-copilot-capability-in-al",
+          "quote": "AI Test Toolkit command-line page streams results.json evaluation result files"
         }
       ]
     },
@@ -10817,6 +10858,24 @@
         {
           "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
           "quote": "Running Update Registers from the G/L Registers page no longer fails with a G/L Entry Modify permission error"
+        }
+      ]
+    },
+    "change/bcapps/13228": {
+      "kind": "change",
+      "key": "change/bcapps/13228",
+      "hash": "a78118025bc0f22c35925c2f9cc0d2c776dffb274f85e9fee467b32d80c0b08a",
+      "title": "#13228 [Master]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.",
+      "source": "bcapps-prs",
+      "at": "2026-11-05T00:50:25.353Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-payables",
+          "quote": "Vendor and customer ledger entries now maintain consistent dispute status"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-receivables",
+          "quote": "customer ledger entries now maintain consistent dispute status and on-hold"
         }
       ]
     },
@@ -10984,14 +11043,14 @@
     "change/bcapps/13301": {
       "kind": "change",
       "key": "change/bcapps/13301",
-      "hash": "b0b19ffa63ae429a74545f6c7e770adb45c286fb0119bfe0b71eedfaaac025f9",
+      "hash": "134ee0053137684c31803ed70b084eee267bb2538371e7294331c8f6e76901ea",
       "title": "#13301 [29.X]-[CH] SEPA XML Files should append the Address 1 + '' + Address 2 fields under <PstlAdr><StrtNm> node if we use \"Address 2\" as Building Number for QR-Bills",
       "source": "bcapps-prs",
-      "at": "2026-11-04T00:56:14.273Z",
+      "at": "2026-11-05T00:50:30.511Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/local-functionality/switzerland/core-finance",
-          "quote": "SEPA XML export for QR-Bills in Switzerland now concatenates"
+          "quote": "Swiss localization, SEPA XML payment exports now write Address 1"
         }
       ]
     },
@@ -11029,6 +11088,20 @@
         {
           "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
           "quote": "reverse charge VAT with 100% non-deductible VAT in foreign currency"
+        }
+      ]
+    },
+    "change/bcapps/13325": {
+      "kind": "change",
+      "key": "change/bcapps/13325",
+      "hash": "f5b7a95e8072927de4d016f571e3bcf0f55bfeab0b82be2ebcb4f0a95d034d26",
+      "title": "#13325 [Quality Management] Certificate of analysis shows now full name instead of the ID.",
+      "source": "bcapps-prs",
+      "at": "2026-11-05T00:50:31.910Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/quality-management",
+          "quote": "Quality Management reports now display full names instead of IDs"
         }
       ]
     },
@@ -11276,6 +11349,24 @@
         }
       ]
     },
+    "change/bcapps/13438": {
+      "kind": "change",
+      "key": "change/bcapps/13438",
+      "hash": "095ecdf35d2b426e27c10a8bdf510ee91ac8ec43c4a562273f27c31f71d2644f",
+      "title": "#13438 Fix Cloud Migration recovery when Tenant Media is unavailable",
+      "source": "bcapps-prs",
+      "at": "2026-11-05T00:50:27.123Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/replicate-data",
+          "quote": "Cloud migration recovery now handles Tenant Media read failures gracefully"
+        },
+        {
+          "topic": "topic/dev-itpro/administration/cloud-migration-api/setup-cloud-migration",
+          "quote": "Shared read-only try function for media counts prevents replication webhook abort"
+        }
+      ]
+    },
     "change/bcapps/13458": {
       "kind": "change",
       "key": "change/bcapps/13458",
@@ -11312,6 +11403,20 @@
         }
       ]
     },
+    "change/bcapps/13463": {
+      "kind": "change",
+      "key": "change/bcapps/13463",
+      "hash": "50287b8c2ff9ebe698ee6b5588e54a0880f0ee3dcb7e3a4b22ac89a68cf3f3bd",
+      "title": "#13463 [29x] Add Maintenance Code field on purchase order subpage and purchase invoice subpage",
+      "source": "bcapps-prs",
+      "at": "2026-11-05T00:50:25.353Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/purchasing",
+          "quote": "Maintenance Code field is now visible on purchase order and purchase invoice"
+        }
+      ]
+    },
     "change/bcapps/13469": {
       "kind": "change",
       "key": "change/bcapps/13469",
@@ -11319,6 +11424,29 @@
       "title": "#13469 [SOA] Do not show duplicate-contact notification on outgoing email",
       "source": "bcapps-prs",
       "at": "2026-11-03T00:55:23.132Z",
+      "matches": []
+    },
+    "change/bcapps/13472": {
+      "kind": "change",
+      "key": "change/bcapps/13472",
+      "hash": "2e9aa4e0831d535f7548eb272a5bba94b5871595ab6972772c92cf3da70dcd20",
+      "title": "#13472 [29x]  Payment Slips Summarized by Due Date are not aggregating correlative in the French version",
+      "source": "bcapps-prs",
+      "at": "2026-11-05T00:50:30.511Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/france/core-finance",
+          "quote": "Payment slip summarization by due date now correctly aggregates"
+        }
+      ]
+    },
+    "change/bcapps/13476": {
+      "kind": "change",
+      "key": "change/bcapps/13476",
+      "hash": "7fdc08831674c90e8ce0884b65733b1ce7795e3fae81c4e9e09fdd1d00865909",
+      "title": "#13476 [Fabric] Separate workspace read and write scopes",
+      "source": "bcapps-prs",
+      "at": "2026-11-05T00:50:28.309Z",
       "matches": []
     },
     "change/bcapps/13481": {
@@ -11338,18 +11466,14 @@
     "change/bcapps/13483": {
       "kind": "change",
       "key": "change/bcapps/13483",
-      "hash": "23dbdf751eca0de2af878f18a2235a99f121d4d2869ce272b563bfc3f53b8231",
+      "hash": "04fb92d6c3a380638ce9742044771d5eba225dd42e880009cc3a6c5acc57c11b",
       "title": "#13483 [29.X]-FA Posting Group is not updated in the Fixed Asset List after being changed on the Fixed Asset Card",
       "source": "bcapps-prs",
-      "at": "2026-11-04T00:56:18.225Z",
+      "at": "2026-11-05T00:50:31.416Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-fixed-assets",
-          "quote": "FA Posting Group is not updated in the Fixed Asset List after being changed"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/fixed-assets",
-          "quote": "Fixed Asset posting group changes made on the Fixed Asset Card now refresh properly"
+          "quote": "FA Posting Group changes made on the Fixed Asset Card now show up in the Fixed Asset List"
         }
       ]
     },
@@ -11402,10 +11526,10 @@
     "change/bcapps/13504": {
       "kind": "change",
       "key": "change/bcapps/13504",
-      "hash": "b6ee6b01dac3dad9858fe211562e8c5545e57788785b168736c444ed2d230475",
+      "hash": "946835ec9fdbc878e8eece0de758bd91e88f5f0a6a38fbfd5aab43ca6bf4347e",
       "title": "#13504 Exposing-VAT-settings-on-category-card",
       "source": "bcapps-prs",
-      "at": "2026-11-04T00:56:12.939Z",
+      "at": "2026-11-05T00:50:28.664Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
@@ -11451,6 +11575,62 @@
         {
           "topic": "topic/business-central/business-functionality/sales",
           "quote": "Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice"
+        }
+      ]
+    },
+    "change/bcapps/13560": {
+      "kind": "change",
+      "key": "change/bcapps/13560",
+      "hash": "46747c1a02be03fa49ad11661dd6a6e24a7935fde4b67339362e9dd66b11fe85",
+      "title": "#13560 [QM] Move Inventory: allow destination location for non-directed item",
+      "source": "bcapps-prs",
+      "at": "2026-11-05T00:50:31.910Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/quality-management",
+          "quote": "Move Inventory report in Quality Management now allows users to specify"
+        }
+      ]
+    },
+    "change/bcapps/13569": {
+      "kind": "change",
+      "key": "change/bcapps/13569",
+      "hash": "9bbb1fc09c67936c5cff66e20dc4903cc7d508b97d02a04406a359778d94031d",
+      "title": "#13569 Update expense policy defaults, caption, and search terms",
+      "source": "bcapps-prs",
+      "at": "2026-11-05T00:50:28.664Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Expense Agent setups enable policy evaluation by default"
+        }
+      ]
+    },
+    "change/bcapps/13599": {
+      "kind": "change",
+      "key": "change/bcapps/13599",
+      "hash": "6d6ef74ecc1aebf12b98e59b851b60ca2bbcf380092584453cbf24c47c243a9b",
+      "title": "#13599 [SOA] Setup can be saved while the agent remains inactive without warning",
+      "source": "bcapps-prs",
+      "at": "2026-11-05T00:50:28.664Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
+          "quote": "Sales Order Agent setup page now shows a confirmation when saving an inactive agent"
+        }
+      ]
+    },
+    "change/bcapps/13608": {
+      "kind": "change",
+      "key": "change/bcapps/13608",
+      "hash": "3095cda4c1fb65b4808546a8ed8628c95e6a6a2a874d58eefa41980e4a27b4e4",
+      "title": "#13608 [main] Unable to receive the material returned from subcontracting Vendor",
+      "source": "bcapps-prs",
+      "at": "2026-11-05T00:50:30.511Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/accounting-for-costs",
+          "quote": "Subcontracting material returns from vendors now correctly preserve"
         }
       ]
     },
@@ -12802,11 +12982,16 @@
     "change/bcapps/9181": {
       "kind": "change",
       "key": "change/bcapps/9181",
-      "hash": "5ed2d1f23f54aaff95160072298adb40d9df18b09e6bab70b40cfb1d88ff8180",
+      "hash": "75391df3ffe5b149a5c20d3360d29d2db7f4e8d63b79f878d1e3e9b86cdc1044",
       "title": "#9181 Filter the source record before FindFirst in Prices Overview caption",
       "source": "bcapps-prs",
-      "at": "2026-11-04T00:56:20.716Z",
-      "matches": []
+      "at": "2026-11-05T00:50:28.309Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
+          "quote": "Prices Overview page now correctly displays captions"
+        }
+      ]
     },
     "change/bcapps/9182": {
       "kind": "change",
@@ -14558,10 +14743,10 @@
     "change/bcapps/9527": {
       "kind": "change",
       "key": "change/bcapps/9527",
-      "hash": "16dd3117e54e98a00f12b7f23b3a9157036c37e1f0f7bc679fbb2315c1755f1e",
+      "hash": "c786285097634ed73d6ce438773b041216cd6fe4007763e3dc15424c4442f0b8",
       "title": "#9527 removed access internal  to edocument mailing",
       "source": "bcapps-prs",
-      "at": "2026-11-04T00:56:12.758Z",
+      "at": "2026-11-05T00:50:26.702Z",
       "matches": []
     },
     "change/bcapps/9528": {
@@ -18242,6 +18427,24 @@
         }
       ]
     },
+    "change/bcquality/233": {
+      "kind": "change",
+      "key": "change/bcquality/233",
+      "hash": "ee0022cb195a47fc122b33095ff200eb063e5ee8196757d809b8a5a594bb7af3",
+      "title": "#233 knowledge(web-services): describe API objects intended for MCP tools",
+      "source": "bcquality-prs",
+      "at": "2026-11-05T00:50:26.702Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "API objects intended for MCP tools to describe entities using AboutText"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/web-services/apis",
+          "quote": "metadata description precedence for API pages and queries used by MCP server"
+        }
+      ]
+    },
     "change/bcquality/237": {
       "kind": "change",
       "key": "change/bcquality/237",
@@ -18330,6 +18533,20 @@
         {
           "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
           "quote": "prevent JIT loading failures when accessing unbound fields"
+        }
+      ]
+    },
+    "change/bcquality/262": {
+      "kind": "change",
+      "key": "change/bcquality/262",
+      "hash": "9dee927d6ba3c4b5d8736b184b19c6510791467e0eae1a273dd91ceec7e32511",
+      "title": "#262 Trim two articles to the 10-keyword limit",
+      "source": "bcquality-prs",
+      "at": "2026-11-05T00:50:28.309Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/objects",
+          "quote": "Kept specific technical keywords related to types and properties"
         }
       ]
     },
@@ -20336,18 +20553,18 @@
     "post/bertverbeek-nl/1342": {
       "kind": "post",
       "key": "post/bertverbeek-nl/1342",
-      "hash": "56d98420342e8949f5cd3cd342cd214ee633487fd038909614b359b344239ba4",
+      "hash": "21b7b25e74fbdb866640e71e328283444d52347a94f8b0c404e4152b738805d3",
       "title": "Business Central to Microsoft Fabric is a mirror. But what if you want to know what actually changed?",
       "source": "bertverbeek-nl",
-      "at": "2026-11-04T00:56:12.758Z",
+      "at": "2026-11-05T00:50:26.702Z",
       "matches": [
         {
           "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
-          "quote": "Business Central data mirrored to Microsoft Fabric appears as static copies"
+          "quote": "delta change data feeds to track table modifications and version history"
         },
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to",
-          "quote": "partners can enable delta change data feeds to track table modifications"
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization",
+          "quote": "Business Central data mirrored to Microsoft Fabric appears as static copies"
         }
       ]
     },
@@ -22054,6 +22271,38 @@
         {
           "topic": "topic/dev-itpro/performance",
           "quote": "It helps with performance testing, Performance Toolkit and Cloud Migration"
+        }
+      ]
+    },
+    "post/demiliani-com/17568": {
+      "kind": "post",
+      "key": "post/demiliani-com/17568",
+      "hash": "db697811c661d3475d8c20a5e5dbf7bdfa585dfee27a3f6e41d507dd20a197c2",
+      "title": "Giving an AI agent the keys to Business Central: practical security tips.",
+      "source": "demiliani-com",
+      "at": "2026-11-05T00:50:26.702Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security",
+          "quote": "Securing AI agents that act on data in Business Central requires deliberate choices"
+        },
+        {
+          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions",
+          "quote": "AI agents need their own application identity with narrow permissions"
+        }
+      ]
+    },
+    "post/demiliani-com/17586": {
+      "kind": "post",
+      "key": "post/demiliani-com/17586",
+      "hash": "489ff81ca84716ed58600b842b0a44bd95119a63b481b411514262ecd69b0b34",
+      "title": "Dynamics 365 Business Central: service update to .NET 10 and upgrade window.",
+      "source": "demiliani-com",
+      "at": "2026-11-05T00:50:26.888Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/administration/monitor-and-analyze-telemetry",
+          "quote": "Microsoft is transitioning Business Central online and on-premises"
         }
       ]
     },
@@ -24650,11 +24899,16 @@
     "post/jeremyvyska-com/1770": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1770",
-      "hash": "ac1d867943997a307c43daf0a2a3df429ec276942c2206c0b015defc51f2a488",
+      "hash": "f141c9dcbb6997a390a85ad0f246bc45627931236461926ec9f447a69b07d86f",
       "title": "Fall 2026 Agentic Development Classes: Copilot Refresh, Claude Code, and BCQuality",
       "source": "jeremyvyska-com",
-      "at": "2026-10-28T08:41:36.599Z",
-      "matches": [],
+      "at": "2026-11-05T00:50:32.811Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+          "quote": "GitHub Copilot refresh covers agent mode, custom agents, agent skills, instructions files, MCP servers"
+        }
+      ],
       "second": {
         "at": "2026-10-28T08:41:25.356Z",
         "dropped": [
@@ -28891,6 +29145,28 @@
           }
         ]
       }
+    },
+    "post/thatnavguy-com/https://thatnavguy.com/blog/2026/introducing-bc-mission-control/": {
+      "kind": "post",
+      "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2026/introducing-bc-mission-control/",
+      "hash": "fbd7bf18bf8297db2b770ec3d4a98c44a32d1b6cc1ea0af5436590f4f76ffb0d",
+      "title": "Introducing BC Mission Control",
+      "source": "thatnavguy-com",
+      "at": "2026-11-05T00:50:28.309Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/administration/automation-api",
+          "quote": "Uses Business Central Admin Center and Automation APIs for cloud management"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing",
+          "quote": "deploy extensions, compare app versions, check sessions"
+        },
+        {
+          "topic": "topic/dev-itpro/development/development-environment",
+          "quote": "web app for managing Business Central cloud environments and local Docker"
+        }
+      ]
     },
     "post/thatnavguy-com/https://thatnavguy.com/projects/al-pocket-tools/": {
       "kind": "post",
@@ -38499,6 +38775,28 @@
         {
           "topic": "topic/business-central/get-started/get-productive-in-business-central/change-the-look-of-externally-facing-doc/use-obsolete-features",
           "quote": "This legacy feature from Dynamics NAV was already obsolete but retained"
+        }
+      ]
+    },
+    "post/yzhums-com/77070": {
+      "kind": "post",
+      "key": "post/yzhums-com/77070",
+      "hash": "e05570bb46fed0316daccc7e034f2f7905db74181ec7c84afe564e110d0f1074",
+      "title": "Business Central 2026 release wave 2 (BC29): Match Production Database Configuration",
+      "source": "yzhums-com",
+      "at": "2026-11-05T00:50:27.123Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/development-environment/work-in-sandboxes",
+          "quote": "temporarily aligns a sandbox environment's database settings with production"
+        },
+        {
+          "topic": "topic/dev-itpro/performance",
+          "quote": "Enables more accurate performance testing using the Performance Toolkit"
+        },
+        {
+          "topic": "topic/dev-itpro/administration/cloud-migration-api/setup-cloud-migration",
+          "quote": "support cloud migration processes"
         }
       ]
     },

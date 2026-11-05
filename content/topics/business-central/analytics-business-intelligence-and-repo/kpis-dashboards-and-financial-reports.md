@@ -2,21 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports
 type: topic
 title: KPIs, dashboards, and financial reports
-summary: "KPIs, dashboards, and financial reports in Business Central: building financial reports from row and column definitions with G/L account categories, understanding and using KPIs, and showing Business Central data in Power BI. It answers setup, reporting, and Power BI app questions."
+summary: "KPIs, dashboards, and financial reports in Business Central: how to use KPIs to track business goals, build financial reports from row and column definitions with G/L account categories, and connect to Power BI. It answers questions on report setup, KPI practice, and Power BI integration and apps."
 tier: official
 language: en
 system: reporting
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:54:47.307Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 2ecbd12bba27803e6246140166ce2f2eb502adb0e0c21592f30751adf2569121
+  input_hash: f7c0956d521808d9199c02af8bf94dfab35888f14afa039d7a777c8820a06969
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/bi-how-work-account-schedule
@@ -77,7 +77,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-by-functional-area
     title: Power BI apps/reports for functional areas
-    date: "2026-09-14"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
@@ -161,7 +161,6 @@ links:
     - object/page/37005
     - object/page/37006
     - object/page/37007
-    - object/page/37008
     - object/page/37009
     - object/page/37010
     - object/page/37011
@@ -193,8 +192,6 @@ links:
     - object/page/37037
     - object/page/37038
     - object/page/37039
-    - object/page/37040
-    - object/page/37041
     - object/page/37042
     - object/page/37043
     - object/page/37044
@@ -229,7 +226,7 @@ children:
   - topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-apps-for-business-central
 coverage:
   learn: 14
-  code: 87
+  code: 84
   video: 2
   blog: 0
   guideline: 0
@@ -275,7 +272,6 @@ bc_forms:
   - 37005
   - 37006
   - 37007
-  - 37008
   - 37009
   - 37010
   - 37011
@@ -307,8 +303,6 @@ bc_forms:
   - 37037
   - 37038
   - 37039
-  - 37040
-  - 37041
   - 37042
   - 37043
   - 37044
@@ -327,28 +321,28 @@ narrative: generated
 
 # KPIs, dashboards, and financial reports
 
-> KPIs, dashboards, and financial reports in Business Central: building financial reports from row and column definitions with G/L account categories, understanding and using KPIs, and showing Business Central data in Power BI. It answers setup, reporting, and Power BI app questions.
+> KPIs, dashboards, and financial reports in Business Central: how to use KPIs to track business goals, build financial reports from row and column definitions with G/L account categories, and connect to Power BI. It answers questions on report setup, KPI practice, and Power BI integration and apps.
 
-Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > KPIs, dashboards, and financial reports · tier official · system reporting · narrative reviewed (checked by Opus)
+Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > KPIs, dashboards, and financial reports · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how to measure and report business performance in Business Central. Two pages sit directly in it: one on building financial reports from financial data and account categories, and one on using key performance indicators to meet business goals.
+This section covers how to measure and report on business performance in Business Central. Two pages sit at the top level: one explains KPIs (types, best practices, dashboards, reports, targets, and monitoring), and the other explains how to build financial reports that analyze general ledger accounts and compare them against budgets.
 
-The financial reports page explains the prerequisites (chart of accounts structure, dimensions, and G/L budgets) and how to create a report from scratch or by copying an existing one, using row and column definitions. The KPI page explains what KPIs are, the types (quantitative, qualitative, leading, lagging), and best practices for monitoring them with Business Central tools.
+The financial report page relies on row definitions, column definitions, and G/L account categories. It lists prerequisites such as chart of accounts structure, dimensions, and G/L budgets, and describes creating a report from scratch or copying an existing one. It is marked for 2025 release wave 1.
 
-Two subtopics cover Power BI. "Power BI and Business Central" covers built-in apps, reports, dashboards, KPI metrics, scorecards, and semantic models in Excel. "Power BI apps for Business Central" covers installing and configuring connector and template apps, calendar choices, functional-area apps, and troubleshooting. Start with the KPI page for concepts, the financial reports page for G/L reporting, and the Power BI subtopics for external dashboards.
+Two subtopics cover Power BI. "Power BI and Business Central" explains getting data into Power BI, embedding reports in Business Central pages, KPI metrics and scorecards, and analyzing semantic models in Excel. "Power BI apps for Business Central" covers installing and configuring the connector and template apps. Start with the KPI page for concepts, then the financial report page for in-product reporting, then the Power BI subtopics for deeper analysis.
 
 ## Key points
 
-- Financial reports use row definitions and column definitions together with G/L account categories to analyze general ledger accounts and compare against budgets.
-- Prerequisites for financial reports include a structured chart of accounts, dimensions, and G/L budgets.
-- A financial report can be created from scratch or by copying an existing one.
-- The financial reports page is tagged to 2025 release wave 1.
-- KPIs can be quantitative or qualitative, and leading or lagging; the KPI page also gives best practices for implementing and monitoring them.
-- Power BI and Business Central covers built-in Power BI apps, reports and dashboards, KPI metrics and scorecards, and semantic models in Excel.
-- Power BI apps for Business Central covers installing connector and template apps and choosing a calendar type (standard, fiscal, week-based).
-- The Power BI apps subtopic also covers functional-area apps, back links, multi-language use, and an FAQ on licensing, refresh and troubleshooting.
+- The KPI page explains KPI types, best practices, and tools for tracking company health through dashboards, reports, and targets.
+- Financial reports use row definitions and column definitions with G/L account categories to analyze G/L accounts and compare with budgets.
+- Prerequisites for financial reports include chart of accounts structure, dimensions, and G/L budgets.
+- Financial reports can be created from scratch or by copying an existing one (2025 release wave 1).
+- Power BI content covers setup, refresh, sharing, embedding reports in Business Central pages, and metrics and scorecards.
+- Semantic models from Power BI can be analyzed in Excel.
+- Power BI apps include connector and template apps, with setup of fiscal, standard, and week-based calendars.
+- The apps section also covers functional-area apps, drilling back to Business Central, language, and FAQ topics.
 
 ## Subtopics
 
@@ -409,7 +403,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 37005 "Sales by Customer"](../../../objects/page/37005.md) · captioned "Sales by Customer (Power BI)"
 - [Page 37006 "Sales by Salesperson"](../../../objects/page/37006.md) · captioned "Sales by Salesperson (Power BI)"
 - [Page 37007 "Sales Actual vs. Budget Qty."](../../../objects/page/37007.md) · captioned "Sales Actual vs. Budget (Power BI)"
-- [Page 37008 "Sales Actual vs. Budget Amt."](../../../objects/page/37008.md) · captioned "Sales Actual vs. Budget Amount"
 - [Page 37009 "Purchases Overview"](../../../objects/page/37009.md) · captioned "Purchases Overview (Power BI)"
 - [Page 37010 "Purchases Decomposition"](../../../objects/page/37010.md) · captioned "Purchases Decomposition (Power BI)"
 - [Page 37011 "Daily Purchases"](../../../objects/page/37011.md) · captioned "Daily Purchases (Power BI)"
@@ -441,8 +434,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 37037 "Project Performance to Budget"](../../../objects/page/37037.md) · captioned "Project Performance to Budget (Power BI)"
 - [Page 37038 "Project Invoiced Sales by Type"](../../../objects/page/37038.md) · captioned "Project Invoiced Sales by Type (Power BI)"
 - [Page 37039 "Project Invd. Sales by Cust."](../../../objects/page/37039.md) · captioned "Project Invoiced Sales by Customer (Power BI)"
-- [Page 37040 "Current Utilization"](../../../objects/page/37040.md)
-- [Page 37041 "Historical Utilization"](../../../objects/page/37041.md)
 - [Page 37042 "PowerBI Work Center Load"](../../../objects/page/37042.md) · captioned "Work Center Load (Power BI)"
 - [Page 37043 "Allocated Hours"](../../../objects/page/37043.md) · captioned "Allocated Hours (Power BI)"
 - [Page 37044 "Expected Capacity Need"](../../../objects/page/37044.md) · captioned "Expected Capacity Need (Power BI)"

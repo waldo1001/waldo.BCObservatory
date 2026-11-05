@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1d6937bc7522f4fcd17782da067506160a0f9765f6b2c87c2ea479425c455483
@@ -324,7 +324,8 @@ links:
     - topic/dev-itpro/administration/automation-api/user-permission
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-introducing-bc-mission-control--6418abfaea
   guidelines: []
 learn_toc_path:
   - Administration
@@ -353,7 +354,7 @@ coverage:
   learn: 55
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 1d6937bc7522f4fcd17782da067506160a0f9765f6b2c87c2ea479425c455483
@@ -400,5 +401,11 @@ Path: [Administration](../administration.md) > Automation API Â· tier official Â
   - Features activated or deactivated through Microsoft.NAV.activate and Microsoft.NAV.deactivate bound actions on feature endpoint.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Introducing BC Mission Control](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-introducing-bc-mission-control--6418abfaea.md) (community post): "Uses Business Central Admin Center and Automation APIs for cloud management"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

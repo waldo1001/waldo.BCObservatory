@@ -3,21 +3,21 @@
     7,
     [
       1,
-      "11bf184798eda1d1104da1324cac5d944742dd2f",
+      "1c51b1f77ed32c7267d68456850d9d93296821d3",
       "4",
-      "11bf184798eda1d1104da1324cac5d944742dd2f",
+      "1c51b1f77ed32c7267d68456850d9d93296821d3",
       "4"
     ]
   ],
   "schema": "bcobs-field-docs@1",
   "major": "29",
   "stats": {
-    "tooltips": 18846,
-    "bound": 12783,
+    "tooltips": 18848,
+    "bound": 12785,
     "unparsed": 2990,
     "unmatched": 3073,
     "tables": 1084,
-    "fields": 8975
+    "fields": 8976
   },
   "tables": {
     "table/4": {
@@ -2538,6 +2538,11 @@
         "tooltip": "Specifies a code for the location where you want the items to be placed when they are received.",
         "page": "page/54",
         "control": "Location Code"
+      },
+      "Maintenance Code": {
+        "tooltip": "Specifies a maintenance code.",
+        "page": "page/54",
+        "control": "Maintenance Code"
       },
       "Matched Inv./Cr. Memo Lines": {
         "tooltip": "Specifies the number of purchase invoice lines to which this purchase order line is matched.",

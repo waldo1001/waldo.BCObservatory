@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T00:50:30.258Z"
+  at: "2026-11-05T00:45:06.377Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1c5fb649571c2d7d8fb9cf6119b30c63ceedae1daa3547fdfa87c1d8152afa3c
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Layers/W1/BaseApp/Entitlements/Dynamics365BusinessCentralExternalAccountantBaseApp.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Layers/W1/BaseApp/Entitlements/Dynamics365BusinessCentralExternalAccountantBaseApp.Entitlement.al
     title: src/Layers/W1/BaseApp/Entitlements/Dynamics365BusinessCentralExternalAccountantBaseApp.Entitlement.al (releases/29.x)
     date: null
-    commit: 11bf184798eda1d1104da1324cac5d944742dd2f
+    commit: 1c51b1f77ed32c7267d68456850d9d93296821d3
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Entitlement "Dynamics 365 Business Central External Accountant BaseApp" in Base Application (System.Security.AccessControl). Present since at least BC23, still in BC30.
 
-Base Application · System.Security.AccessControl · BC23-30 · [source at 11bf1847](https://github.com/microsoft/BCApps/blob/11bf184798eda1d1104da1324cac5d944742dd2f/src/Layers/W1/BaseApp/Entitlements/Dynamics365BusinessCentralExternalAccountantBaseApp.Entitlement.al) · facts from BC29
+Base Application · System.Security.AccessControl · BC23-30 · [source at 1c51b1f7](https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Layers/W1/BaseApp/Entitlements/Dynamics365BusinessCentralExternalAccountantBaseApp.Entitlement.al) · facts from BC29
 
 ## Across versions
 

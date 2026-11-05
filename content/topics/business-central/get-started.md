@@ -2,7 +2,7 @@
 id: topic/business-central/get-started
 type: topic
 title: Get started
-summary: "Getting started with Business Central: the business functionality it supports, trying and buying, quick starts, learning resources, everyday productivity in the client, troubleshooting and FAQs, and help and support. It answers questions about first steps, trials, setup, and where to find help."
+summary: The Get started section of Business Central covers trying and buying the product, first setup, learning resources, everyday use, troubleshooting and support. It answers questions about which business functions are supported, how to start a trial, how to set up a company, and where to find training and help.
 tier: official
 language: en
 review:
@@ -11,11 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f7df318844d7d8a38fdd799aee013c97fa3165b0317f5560b37e04618e40fce5
+  input_hash: 66f717abe29831a8c7caf468a6f955afb1c72fd38db0742ec6061513ff7b7a28
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
@@ -263,13 +263,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/about-intelligent-cloud
-    title: Intelligent insights and cloud migration (on-premises only)
-    date: "2024-03-15"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro
     title: Introduction to Contoso Coffee
     date: "2022-04-01"
@@ -294,6 +287,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/contoso-coffee-service-intro
     title: Introduction to Contoso Coffee service management
     date: "2026-07-16"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/keyboard-shortcuts-cheatsheet
+    title: Keyboard quick reference - PC only
+    date: "2025-08-04"
     commit: null
     t: null
     quote: null
@@ -325,7 +325,6 @@ links:
     - object/page/2753
     - object/page/2754
     - object/page/3563
-    - object/page/4010
     - object/page/4764
     - object/page/4765
     - object/page/5194
@@ -400,8 +399,8 @@ children:
   - topic/business-central/get-started/troubleshooting-and-faqs
   - topic/business-central/get-started/help-and-support
 coverage:
-  learn: 109
-  code: 73
+  learn: 108
+  code: 72
   video: 0
   blog: 0
   guideline: 0
@@ -430,7 +429,6 @@ bc_forms:
   - 2753
   - 2754
   - 3563
-  - 4010
   - 4764
   - 4765
   - 5194
@@ -479,34 +477,34 @@ bc_forms:
   - 30126
   - 30156
   - 30157
-member_hash: 416f0035ef897230fd6c09ba78caa4e41b718cb1856b4dfd56a2526975fd83f9
+member_hash: 127307913f372741243497b2c65084fdba0e819dc53852032240c122ed1e05e7
 narrative: generated
 ---
 
 # Get started
 
-> Getting started with Business Central: the business functionality it supports, trying and buying, quick starts, learning resources, everyday productivity in the client, troubleshooting and FAQs, and help and support. It answers questions about first steps, trials, setup, and where to find help.
+> The Get started section of Business Central covers trying and buying the product, first setup, learning resources, everyday use, troubleshooting and support. It answers questions about which business functions are supported, how to start a trial, how to set up a company, and where to find training and help.
 
 Path: Get started · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Get started section is the entry point for new Business Central users. Its own page gives an overview of supported business functionality: finance and payments, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse, and service management. Use it to see which business processes the product covers.
+Get started is the entry point for new Business Central users. Its own page gives an overview of supported business functionality: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.
 
-The subtopics follow a typical path. Try and Buy cover starting a free trial, extending it, first setup tasks, and converting to a subscription. Quick starts walk through first-time setup and basic daily tasks. Learn collects videos, resource links, and walkthroughs in the CRONUS demo company and Contoso Coffee scenarios.
+The subtopics follow a typical path. Try and Buy cover the free trial, sign-up, extending the trial, converting to a subscription and initial setup. Quick starts give beginner guides for company information, chart of accounts, bank accounts, sales, procurement, reports and business intelligence. Get productive covers daily use, such as search, filters, personalization, reports and settings.
 
-Once you are working in the product, Get productive covers finding pages and data, entering data, personalizing the UI, reports, and notifications. Troubleshooting and FAQs and Help and Support cover common questions and where to get assistance. New users should start with Try or Buy, then Quick starts.
+Learn offers videos, CRONUS walkthroughs and Contoso Coffee demo scenarios for practice. Troubleshooting and FAQs and Help and Support cover Tell Me, Copilot, system requirements, the Teams app, the Help pane and escalating issues. A new user can start with the functionality overview, then Try or Buy, then Quick starts.
 
 ## Key points
 
-- The overview page lists supported areas: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse, service management.
-- Try covers signing up for a trial, extending it, first setup tasks, converting to a subscription, and fixing self-service sign-up errors.
-- Buy covers the free trial paths by country and initial setup: assisted setup guides, company information, user creation, permissions, and role-specific home pages.
-- Quick starts cover company information, chart of accounts, bank accounts, sales, procurement, reports and documents, and business intelligence.
-- Learn offers a video library, user resource links, process walkthroughs in the CRONUS demo company, and Contoso Coffee demo scenarios.
-- Get productive covers Tell Me, Role Explorer, search, data entry, personalization, document layouts, sharing, notifications, performance, and accessibility.
-- Troubleshooting and FAQs covers Tell Me search, the Copilot experience, minimum system requirements, and the Business Central app for Microsoft Teams.
-- Help and Support covers Chat with Copilot, the Help pane, the Help & Support page, and how administrators manage telemetry and contact support.
+- The functionality overview lists finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.
+- Try covers signing up for a trial, extending it, first setup tasks, converting to a subscription and fixing self-service sign-up errors.
+- Buy covers trial paths by country, assisted setup guides, company information, user creation, permissions and role-specific home pages.
+- Quick starts are beginner guides for company info, chart of accounts, bank accounts, sales, procurement, reports and business intelligence.
+- Get productive (54 pages) covers Tell Me, Role Explorer, search, filters, personalization, reports, document layouts, accessibility and performance.
+- Learn (34 pages) includes a video library, business process walkthroughs in the CRONUS demo company and Contoso Coffee demo data scenarios.
+- Troubleshooting and FAQs covers Tell Me, the Copilot experience, minimum system requirements and the Business Central app for Microsoft Teams.
+- Help and Support covers Chat with Copilot, the Help pane, and how to troubleshoot and escalate issues.
 
 ## Subtopics
 
@@ -514,7 +512,7 @@ Once you are working in the product, Get productive covers finding pages and dat
 - [Try](get-started/try.md) (7 pages)
 - [Buy](get-started/buy.md) (2 pages)
 - [Quick starts](get-started/quick-starts.md) (7 pages)
-- [Get productive in Business Central](get-started/get-productive-in-business-central.md) (55 pages)
+- [Get productive in Business Central](get-started/get-productive-in-business-central.md) (54 pages)
 - [Troubleshooting and FAQs](get-started/troubleshooting-and-faqs.md) (4 pages)
 - [Help and Support](get-started/help-and-support.md) (2 pages)
 
@@ -565,7 +563,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 2753 "Universal Print Shares List"](../../objects/page/2753.md) · captioned "Print Shares" · on [Table 2752 "Universal Print Share Buffer"](../../objects/table/2752.md) · via [Get productive in Business Central](get-started/get-productive-in-business-central.md)
 - [Page 2754 "Universal Printer Tray List"](../../objects/page/2754.md) · captioned "Universal Printer Trays" · on [Table 823 "Name/Value Buffer"](../../objects/table/823.md) · via [Get productive in Business Central](get-started/get-productive-in-business-central.md)
 - [Page 3563 "Allowed Languages"](../../objects/page/3563.md) · on [Table 3563 "Allowed Language"](../../objects/table/3563.md) · via [Get productive in Business Central](get-started/get-productive-in-business-central.md)
-- [Page 4010 "Intelligent Cloud"](../../objects/page/4010.md) · via [Get productive in Business Central](get-started/get-productive-in-business-central.md)
 - [Page 4764 "Jobs Module Setup"](../../objects/page/4764.md) · captioned "Contoso Coffee Project Demo Data" · on [Table 4771 "Jobs Module Setup"](../../objects/table/4771.md) · via [Learn](get-started/learn.md)
 - [Page 4765 "Manufacturing Module Setup"](../../objects/page/4765.md) · on [Table 4766 "Manufacturing Module Setup"](../../objects/table/4766.md) · via [Learn](get-started/learn.md)
 - [Page 5194 "Contoso Demo Tool"](../../objects/page/5194.md) · on [Table 5161 "Contoso Demo Data Module"](../../objects/table/5161.md) · via [Learn](get-started/learn.md)

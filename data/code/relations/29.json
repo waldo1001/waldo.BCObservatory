@@ -2,12 +2,12 @@
   "inputs": [
     7,
     [
-      "11bf184798eda1d1104da1324cac5d944742dd2f",
+      "1c51b1f77ed32c7267d68456850d9d93296821d3",
       "4",
-      9474,
-      "11bf184798eda1d1104da1324cac5d944742dd2f",
+      9475,
+      "1c51b1f77ed32c7267d68456850d9d93296821d3",
       "4",
-      6952
+      6953
     ]
   ],
   "schema": "al-relations@1",
@@ -29851,6 +29851,11 @@
     {
       "s": "permissionsetextension/8001",
       "t": "permissionset/207",
+      "k": "extends"
+    },
+    {
+      "s": "permissionsetextension/8002",
+      "t": "permissionset/9783",
       "k": "extends"
     },
     {
@@ -121746,7 +121751,13 @@
       "OnGLCalcAddCurrencyPostingNone": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/117",
+            "proc": "UseClosedACYAmount",
+            "app": "Base Application"
+          }
+        ]
       },
       "OnHandleAddCurrResidualGLEntryOnBeforeInsertGLEntry": {
         "kind": "integration",
@@ -283654,7 +283665,7 @@
     }
   },
   "dead_events": {
-    "count": 22498
+    "count": 22497
   },
   "unresolved": [
     {
@@ -293867,7 +293878,7 @@
   "stats": {
     "runs_on": 737,
     "unresolved_unknown": 1492,
-    "extends": 1830,
+    "extends": 1831,
     "source_table": 3618,
     "card_page": 318,
     "lookup_page": 821,
@@ -293876,9 +293887,9 @@
     "drilldown_page": 518,
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
-    "subscribes": 5178,
-    "edges": 20566,
+    "subscribes": 5179,
+    "edges": 20567,
     "published_events": 26312,
-    "dead_events": 22498
+    "dead_events": 22497
   }
 }

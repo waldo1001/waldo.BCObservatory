@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:16:22.843Z"
+  at: "2026-11-05T00:14:20.359Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d0b20c74aa9751cb71c1a938e2134d76368203f4
@@ -41,7 +41,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/233
 repo_path: microsoft/knowledge/web-services/describe-api-pages-for-mcp-with-abouttext.md
 layer: microsoft
 kind: rule
@@ -99,6 +100,10 @@ See sample: [`describe-api-pages-for-mcp-with-abouttext.bad.al`](https://github.
 
 - [Good: describe-api-pages-for-mcp-with-abouttext.good.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/describe-api-pages-for-mcp-with-abouttext.good.al)
 - [Bad: describe-api-pages-for-mcp-with-abouttext.bad.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/describe-api-pages-for-mcp-with-abouttext.bad.al)
+
+## Changed by
+
+- [#233 knowledge(web-services): describe API objects intended for MCP tools](../../../../changes/bcquality/233.md), 2026-11-04
 
 ---
 

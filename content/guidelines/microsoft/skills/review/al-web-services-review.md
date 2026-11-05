@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:16:35.757Z"
+  at: "2026-11-05T00:14:20.359Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 152954686079231353dac65ece3bbd3ed578e2ed
@@ -40,6 +40,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/233
     - change/bcquality/228
     - change/bcquality/196
     - change/bcquality/157
@@ -275,6 +276,7 @@ The empty-corpus case — when no web-services knowledge survives filtering — 
 
 ## Changed by
 
+- [#233 knowledge(web-services): describe API objects intended for MCP tools](../../../../changes/bcquality/233.md), 2026-11-04
 - [#228 Knowledge: isolated events, FilterGroup scope, BLOB CalcFields and stream text encoding](../../../../changes/bcquality/228.md), 2026-10-20
 - [#196 Strengthen review contracts and add AL reliability guidance](../../../../changes/bcquality/196.md), 2026-09-29
 - [#157 18 more AL/BC patterns: data-modeling, testing, style, security, error-handling, ui, upgrade, web-services, appsource](../../../../changes/bcquality/157.md), 2026-09-29

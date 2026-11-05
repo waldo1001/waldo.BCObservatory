@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13472",
+  "input_hash": "f416f89abb85d4b5d96dd070e8cace300099ac424aa2ad12906bae4915f64d11",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-05T00:53:29.957Z",
+  "issues": [
+    "Accurate: the fix is in the French Suggest Cust. Payments and Suggest Vend. Payments reports, with tests added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022109,
+    "changes_in_call": 6
+  }
+}

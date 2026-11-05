@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12683",
+  "input_hash": "f67058a19da381124722fa9d2d420e273ce4c8ea5d054067d20155e24e0e4476",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-05T00:53:33.585Z",
+  "issues": [
+    "The summary says 'improving test data reuse', but the tests stop reusing existing documents and create their own.",
+    "RequiredTestIsolation = Disabled is set on all three test codeunits, including return shipments, not only on blanket orders and quotes."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023463,
+    "changes_in_call": 6
+  }
+}

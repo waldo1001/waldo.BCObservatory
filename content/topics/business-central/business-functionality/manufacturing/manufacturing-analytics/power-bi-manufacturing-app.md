@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/manufacturing/manufacturing-analytics/power-bi-manufacturing-app
 type: topic
 title: Power BI manufacturing app
-summary: The Power BI Manufacturing app section describes the app's reports, its semantic model and its KPIs and measures. It answers questions about capacity utilization, work center and machine center load, production order status and cost, WIP, scrap, and variances.
+summary: The Power BI manufacturing app section covers the app, its semantic model, the KPI and measure definitions, and each manufacturing report. It answers questions about capacity load, production orders, variances, WIP, scrap, and routing schedules.
 tier: official
 language: en
 system: manufacturing
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:17:13.898Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-11-05T00:55:36.087Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: bc5c14c65c680768f4d437cbb3d241eb8d0443995064dee703d5559b5498132b
+  input_hash: 699b440dc61773b0a87c4dc2db82ccab0424499fef7f920361eca1cc4b925d5a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-allocated-hours
@@ -47,13 +47,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-current-utilization
-    title: Current Utilization
-    date: "2024-11-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-expected-capacity-need
     title: Expected Capacity Need (Power BI report)
     date: "2024-11-01"
@@ -63,13 +56,6 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-finished-production-order-breakdown
     title: Finished Production Order Breakdown (Power BI report)
-    date: "2024-11-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-historical-utilization
-    title: Historical Utilization
     date: "2024-11-01"
     commit: null
     t: null
@@ -98,7 +84,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-app
     title: Power BI Manufacturing app
-    date: "2026-03-17"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
@@ -171,10 +157,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-average-production-times
     - https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-capacity-variance
     - https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-consumption-variance
-    - https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-current-utilization
     - https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-expected-capacity-need
     - https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-finished-production-order-breakdown
-    - https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-historical-utilization
     - https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-machine-center-load
     - https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-machine-center-statistics
     - https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-kpis
@@ -190,8 +174,6 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-work-center-statistics
   objects:
     - object/page/36951
-    - object/page/37040
-    - object/page/37041
     - object/page/37042
     - object/page/37043
     - object/page/37044
@@ -228,15 +210,13 @@ toc_file: business-central/TOC.md
 parent: topic/business-central/business-functionality/manufacturing/manufacturing-analytics
 children: []
 coverage:
-  learn: 21
-  code: 20
+  learn: 19
+  code: 18
   video: 2
   blog: 1
   guideline: 0
 bc_forms:
   - 36951
-  - 37040
-  - 37041
   - 37042
   - 37043
   - 37044
@@ -254,34 +234,34 @@ bc_forms:
   - 37098
   - 37099
   - 37107
-member_hash: 16d0d3f33dff504b1d84dc00e4819bca909f50f275a89942c250dc6a392f1d48
+member_hash: 81bb2341e36cb245fac03511307ee52eeef6b0ec1285b77b4d4d353c2b35a9ab
 narrative: generated
 ---
 
 # Power BI manufacturing app
 
-> The Power BI Manufacturing app section describes the app's reports, its semantic model and its KPIs and measures. It answers questions about capacity utilization, work center and machine center load, production order status and cost, WIP, scrap, and variances.
+> The Power BI manufacturing app section covers the app, its semantic model, the KPI and measure definitions, and each manufacturing report. It answers questions about capacity load, production orders, variances, WIP, scrap, and routing schedules.
 
-Path: [Business functionality](../../../business-functionality.md) > [Manufacturing](../../manufacturing.md) > [Manufacturing analytics](../manufacturing-analytics.md) > Power BI manufacturing app · tier official · system manufacturing · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Manufacturing](../../manufacturing.md) > [Manufacturing analytics](../manufacturing-analytics.md) > Power BI manufacturing app · tier official · system manufacturing · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Power BI Manufacturing app gives manufacturing managers, supervisors and business leaders analytics on manufacturing activity. Most pages each cover one report, such as utilization, load, production orders, WIP, scrap or variances. Together they help spot overloaded or underused resources, delays and cost overruns.
+The Power BI Manufacturing app gives leadership, managers, supervisors, and warehouse staff analytics on manufacturing data. The section has one page for the app itself, one for the semantic model, one listing the KPIs and measures, and a page for each report.
 
-Start with the Power BI Manufacturing app page for an overview of the included reports. Then use the report pages for the specific question. Capacity reports include Current Utilization, Historical Utilization, Allocated Hours, Work Center Load, Machine Center Load and Expected Capacity Need. Production order reports include Prod. Order List, Production Order Overview, Released Production Orders, Finished Production Order Breakdown, Production Order WIP, Average Production Times and the Routing Gantt. Production Scrap, Capacity Variance and Consumption Variance cover waste and cost differences.
+The reports fall into a few groups. Capacity and load: Allocated Hours, Work Center Load, Machine Center Load, Expected Capacity Need, Work Center Statistics, Machine Center Statistics. Production orders: Prod. Order List, Production Order Overview, Released Production Orders, Finished Production Order Breakdown, Production Order WIP, Prod.Order Routing Gantt. Variance, time, and waste: Capacity Variance, Consumption Variance, Average Production Times, Production Scrap.
 
-For building or checking measures, use the semantic model page, which describes the star schema of fact and dimension tables. The KPIs and measures page lists the measures for capacity, production order costs, work centers, scrap, machine center load and routing lines.
+Start with the Power BI Manufacturing app page for the overview of the reports. Use the semantic model page to see the star schema of fact and dimension tables. Use the KPIs and measures page to see how a number is defined.
 
 ## Key points
 
-- Capacity reports: Current Utilization (gauges, thresholds), Historical Utilization (downtime, busy periods, bottlenecks), Allocated Hours (over- and underutilized work centers) and Expected Capacity Need (by work center).
-- Load reports: Work Center Load and Machine Center Load show capacity, allocated time, availability after orders and load, so centers are not overloaded.
-- Statistics reports for work centers and machine centers combine Scrap % and Load KPI cards, an efficiency chart and a Statistics Details table.
-- Scrap and variance: Production Scrap analyzes scrap rates by work center, machine center and production order. Capacity Variance and Consumption Variance track expected versus actual cost each month.
-- Production order reports: Prod. Order List, Production Order Overview, Released Production Orders and Finished Production Order Breakdown cover status, expected versus finished quantities and cost variances. Average Production Times shows average production time per item to find delays.
-- Production Order WIP shows the Ending Balance Value trend, an Inventory Valuation table, and KPIs for Beginning Balance, Consumption, Output and Capacity value.
-- Prod. Order Routing Gantt shows a Gantt chart with routing line details, task durations, machine versus work center and non-working days.
-- The semantic model uses a star schema with fact tables for capacity, production and value entries, and dimensions for items, routing, work centers and machine centers. A separate page lists all KPIs and measures.
+- The app page lists reports such as Work Center Statistics, Work Center Load, Finished Production Order Breakdown, Average Production Times, Allocated Hours, and Released Production Orders.
+- The semantic model is a star schema. Fact tables cover capacity, production, and value entries. Dimension tables cover items, routing, work centers, and machine centers.
+- The KPIs and measures page documents measures for capacity, production order costs, work center efficiency, scrap, machine center load, and routing lines.
+- Work Center Load and Machine Center Load show capacity, allocated time, load, and availability after orders, to check that centers are not overloaded.
+- Capacity Variance and Consumption Variance track expected against actual costs monthly. Capacity Variance also helps identify cost overruns.
+- Production Order WIP shows Ending Balance Value over time and an inventory valuation table. It has KPIs for beginning balance, consumption, output, and capacity value.
+- Prod.Order Routing Gantt shows a Gantt chart with routing line details. It tells machine centers from work centers and highlights non-working days.
+- Production Scrap analyzes scrap rates by work center, machine center, and production order.
 
 ## Learn pages
 
@@ -291,14 +271,10 @@ For building or checking measures, use the semantic model page, which describes 
   - In the observatory: [Table 5405 "Production Order"](../../../../../objects/table/5405.md), [Table 5832 "Capacity Ledger Entry"](../../../../../objects/table/5832.md)
 - [Consumption Variance (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-consumption-variance): The Consumption Variance report highlights the variance between expected and actual consumption costs on a monthly basis.
   - In the observatory: [Table 32 "Item Ledger Entry"](../../../../../objects/table/32.md), [Table 5405 "Production Order"](../../../../../objects/table/5405.md)
-- [Current Utilization](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-current-utilization): The Current Utilization report provides insights into the manufacturing capacity use and helps with capacity planning.
-  - In the observatory: [Table 5832 "Capacity Ledger Entry"](../../../../../objects/table/5832.md), [Table 99000757 "Calendar Entry"](../../../../../objects/table/99000757.md)
 - [Expected Capacity Need (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-expected-capacity-need): The Expected Capacity Need report provides insights into the capacity you expect to require for each work center.
   - In the observatory: [Table 5405 "Production Order"](../../../../../objects/table/5405.md), [Table 5832 "Capacity Ledger Entry"](../../../../../objects/table/5832.md)
 - [Finished Production Order Breakdown (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-finished-production-order-breakdown): The Finished Production Order Breakdown report provides insights into the expected quantity versus the finished quantity of production orders.
   - In the observatory: [Table 27 "Item"](../../../../../objects/table/27.md), [Table 5405 "Production Order"](../../../../../objects/table/5405.md)
-- [Historical Utilization](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-historical-utilization): The Historical Utilization report provides insights into the historical utilization of manufacturing resources and machinery equipment over time.
-  - In the observatory: [Table 5832 "Capacity Ledger Entry"](../../../../../objects/table/5832.md), [Table 99000757 "Calendar Entry"](../../../../../objects/table/99000757.md)
 - [Machine Center Load](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-machine-center-load): The Machine Center Load report shows the load and the allocated capacity of each machine center.
 - [Machine Center Statistics](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-machine-center-statistics): The Machine Center Statistics report shows key performance indicators for each machine center.
 - [Manufacturing KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-kpis): Get an overview of all the KPIs and measures in the semantic model for the Manufacturing Power BI app.
@@ -333,8 +309,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
 
 - [Page 36951 "PowerBI Reports Setup"](../../../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../../../objects/table/36951.md)
-- [Page 37040 "Current Utilization"](../../../../../objects/page/37040.md)
-- [Page 37041 "Historical Utilization"](../../../../../objects/page/37041.md)
 - [Page 37042 "PowerBI Work Center Load"](../../../../../objects/page/37042.md) · captioned "Work Center Load (Power BI)"
 - [Page 37043 "Allocated Hours"](../../../../../objects/page/37043.md) · captioned "Allocated Hours (Power BI)"
 - [Page 37044 "Expected Capacity Need"](../../../../../objects/page/37044.md) · captioned "Expected Capacity Need (Power BI)"
