@@ -467,6 +467,15 @@
       "title_key": "fixes ab 650171 clarify expense agent scheduling permission error"
     }
   ],
+  "11507": [
+    {
+      "number": 12928,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-04T08:52:13Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12928",
+      "title_key": "bug 652517 29 x backport bcapps pr 11507 fix unix timestamp timezone conversion"
+    }
+  ],
   "11560": [
     {
       "number": 12902,
@@ -699,6 +708,15 @@
       "merged_at": "2026-10-20T08:39:43Z",
       "url": "https://github.com/microsoft/BCApps/pull/13010",
       "title_key": "bug fix 522 blank replenishment system for non item bom cost shares"
+    }
+  ],
+  "12272": [
+    {
+      "number": 13354,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-04T11:31:07Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13354",
+      "title_key": "honor field service auxiliary mapping filters"
     }
   ],
   "12294": [
@@ -971,6 +989,15 @@
       "title_key": "bug 657096 29 x suggest lines fails with a duplicate ecsl vat report line relation record in gb environment"
     }
   ],
+  "13431": [
+    {
+      "number": 13461,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-04T10:42:40Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13461",
+      "title_key": "extend sales document edit permissions with subscription billing edit"
+    }
+  ],
   "13469": [
     {
       "number": 13471,
@@ -978,6 +1005,15 @@
       "merged_at": "2026-11-02T15:15:59Z",
       "url": "https://github.com/microsoft/BCApps/pull/13471",
       "title_key": "soa do not show duplicate contact notification on outgoing email"
+    }
+  ],
+  "13599": [
+    {
+      "number": 13600,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-04T12:51:49Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13600",
+      "title_key": "soa setup can be saved while the agent remains inactive without warning"
     }
   ],
   "unmatched": [
@@ -2205,6 +2241,20 @@
       "merged_at": "2026-11-03T13:28:17Z",
       "url": "https://github.com/microsoft/BCApps/pull/13523",
       "title_key": "create reminders fails with there is no reminder line within the filter when all overdue entries are on hold new communication texts"
+    },
+    {
+      "number": 13592,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-04T13:04:32Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13592",
+      "title_key": "qm move inventory allow destination location for non direct"
+    },
+    {
+      "number": 13617,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-04T13:24:52Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13617",
+      "title_key": "unable to receive the material returned from subcontracting vendor"
     }
   ]
 }

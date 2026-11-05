@@ -1,0 +1,88 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/reporting/currreport-skip-current-trigger-and-later-triggers.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "CurrReport.Skip: separate current-trigger exit from later triggers",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/reporting/currreport-skip-current-trigger-and-later-triggers.md",
+  "published_at": "2026-11-04T09:40:08.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:15:52.721Z",
+      "blob": "2ff4b72a6440b21490208d925994d38631dad674",
+      "words": 340,
+      "forms": 0
+    },
+    "published": {
+      "at": "2026-11-05T00:15:52.796Z",
+      "path": "content/guidelines/microsoft/knowledge/reporting/currreport-skip-current-trigger-and-later-triggers.md"
+    }
+  },
+  "input_hash": "2ff4b72a6440b21490208d925994d38631dad674",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/reporting/currreport-skip-current-trigger-and-later-triggers.md",
+    "description": "CurrReport.Skip() omits the current record from the report dataset.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [
+      "report",
+      "currreport",
+      "skip",
+      "trigger",
+      "onaftergetrecord",
+      "reportextension",
+      "control-flow",
+      "false-positive"
+    ],
+    "ai_usage": null,
+    "words": 340,
+    "identifiers": [
+      "OnAfterGetRecord",
+      "OnBeforeAfterGetRecord",
+      "OnAfterAfterGetRecord",
+      "OnPostDataItem",
+      "OnPostReport"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "reporting",
+      "keywords": [
+        "report",
+        "currreport",
+        "skip",
+        "trigger",
+        "onaftergetrecord",
+        "reportextension",
+        "control-flow",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "CurrReport.Skip() omits the current record from the report dataset."
+    },
+    "bcq_rule": 1
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2ff4b72a6440b21490208d925994d38631dad674"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13325",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Quality Management] Certificate of analysis shows now full name instead of the ID.",
+  "url": "https://github.com/microsoft/BCApps/pull/13325",
+  "published_at": "2026-11-04T15:05:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-05T00:14:20.359Z"
+    }
+  },
+  "input_hash": "0163e9cfaa525025b7041728ec02551577362692:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13325,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0163e9cfaa525025b7041728ec02551577362692",
+    "author": "6CRIPT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "quality management certificate of analysis shows now full name instead of the id"
+  }
+}

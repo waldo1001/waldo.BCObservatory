@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/yzhums-com/77070",
+  "url": "https://yzhums.com/77070/",
+  "title": "Business Central 2026 release wave 2 (BC29): Match Production Database Configuration",
+  "source": "yzhums-com",
+  "published_at": "2026-11-04T01:58:47.000Z",
+  "words": 471,
+  "summary": "Business Central 2026 wave 2 (BC29) introduces Match Production Database Configuration, a feature that temporarily aligns a sandbox environment's database settings with production for 72 hours to enable accurate performance testing and support cloud migration processes.",
+  "key_points": [
+    "Temporarily matches sandbox database configuration to production for 72 hours, then automatically reverts after the next update window",
+    "Enables more accurate performance testing using the Performance Toolkit by providing the same Azure performance tier as production",
+    "Requires environment restart and should be performed when no users are active",
+    "Feature is available in Admin Center but may still have some readiness issues"
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "release wave 2",
+    "bc29",
+    "sandbox",
+    "production database",
+    "performance testing",
+    "environment configuration"
+  ],
+  "objects": [],
+  "features": [
+    "Match Production Database Configuration",
+    "Performance Toolkit testing",
+    "Cloud Migration support",
+    "Environment restart"
+  ],
+  "versions": [
+    "2026 wave 2",
+    "BC29",
+    "AL Language extension 18.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This action temporarily matches your sandbox environment's database configuration to that of a typical production environment database for 72 hours.",
+      "why_it_matters": "Explains the core functionality that addresses the performance tier difference between sandbox and production environments"
+    },
+    {
+      "text": "Production environments are deployed on dedicated performance tiers in Azure, ensuring a high level of availability and prioritized support.",
+      "why_it_matters": "Clarifies why this feature is needed and the fundamental difference that necessitates matching database configurations for accurate testing"
+    },
+    {
+      "text": "After 72 hours, the environment will automatically be moved back to a sandbox environment database configuration during its next update window.",
+      "why_it_matters": "Important operational detail showing the automatic rollback mechanism that prevents permanent sandbox-to-production conversion"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005258,
+    "posts_in_call": 1
+  }
+}

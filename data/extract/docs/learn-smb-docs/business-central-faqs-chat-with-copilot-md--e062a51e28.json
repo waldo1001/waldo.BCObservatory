@@ -2,25 +2,32 @@
   "item_id": "docs/learn-smb-docs/business-central/faqs-chat-with-copilot.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-chat-with-copilot",
   "title": "Responsible AI FAQ for Chat with Copilot (preview)",
-  "blob": "5ccd4c44e56779bdf9fb40e80f292cb7a4469838",
-  "summary": "Chat with Copilot is a legacy feature (versions up to 28) that provides AI-powered answers about Business Central and business data through natural language questions; replaced by Microsoft Copilot in Business Central from version 29.0.",
+  "blob": "df296b6ffe0a4f55a1fba33fae566ebc0674774c",
+  "summary": "Responsible AI FAQ for Chat with Copilot (preview), the legacy conversational AI assistant in Business Central up to version 28 that answers questions about the product and business data. Use this for understanding Chat with Copilot's capabilities, limitations, security, and evaluation approach.",
   "systems": [
-    "copilot"
+    "copilot",
+    "administration"
   ],
   "topics": [
-    "chat-copilot",
-    "ai-assistant",
-    "natural-language",
-    "business-data-search",
-    "responsible-ai"
+    "responsible ai",
+    "chat",
+    "copilot",
+    "legacy",
+    "faqs",
+    "safety",
+    "security",
+    "limitations"
   ],
   "objects": [],
   "features": [
     "explain and guide",
-    "business data search",
-    "documentation search",
-    "page discovery",
-    "record lookup"
+    "find business data",
+    "related pages",
+    "natural language queries",
+    "microsoft learn search",
+    "data access under user identity",
+    "feedback mechanism",
+    "abuse detection"
   ],
   "versions": [
     "version 28",
@@ -32,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009138,
-      "pages_in_call": 3
+      "cost_usd": 0.005079,
+      "pages_in_call": 1
     }
   ]
 }

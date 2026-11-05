@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12680",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[API tests] Set sales quote document and posting dates in API tests",
+  "url": "https://github.com/microsoft/BCApps/pull/12680",
+  "published_at": "2026-11-04T12:03:30Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-05T00:14:20.359Z"
+    }
+  },
+  "input_hash": "a30321a03afcd3a394256b4d5197fbceacd24daf:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12680,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a30321a03afcd3a394256b4d5197fbceacd24daf",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "api tests set sales quote document and posting dates in api tests"
+  }
+}

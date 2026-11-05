@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13660,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13660",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-04T21:50:38Z",
+  "merge_commit_sha": "f1a3b061b67a44c83e7ab5ac85ac0fd14516b057",
+  "author": "nhsejth",
+  "author_type": "User",
+  "labels": [
+    "Build: scripts & configs",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Use platform-packaged mock assembly probing paths",
+  "body_hash": "df2e966d2a09b0a026a90fc5e940715560ba52afdbf9f1951499af289fd41e57",
+  "fixes_issues": [],
+  "work_items": [
+    557634
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 116,
+    "deletions": 116,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13459",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29x] Additional Reporting Currency Difference After Closing Income Statement - related to 625803",
+  "url": "https://github.com/microsoft/BCApps/pull/13459",
+  "published_at": "2026-11-04T15:51:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-05T00:14:20.359Z"
+    }
+  },
+  "input_hash": "3a7e6bf19575e26cb4d116c36df455036a63f3ef:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13459,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "3a7e6bf19575e26cb4d116c36df455036a63f3ef",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "29x additional reporting currency difference after closing income statement related to 625803"
+  }
+}

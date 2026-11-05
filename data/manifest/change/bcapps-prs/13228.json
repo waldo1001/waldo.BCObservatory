@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13228",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.",
+  "url": "https://github.com/microsoft/BCApps/pull/13228",
+  "published_at": "2026-11-04T20:05:40Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:15:33.565Z",
+      "change_class": "code",
+      "files": 31,
+      "al": 23,
+      "objects": 21,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-11-05T00:15:38.741Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.005114
+    },
+    "linked": {
+      "at": "2026-11-05T00:15:38.878Z",
+      "objects": 21,
+      "unjoined": 2,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-05T00:15:38.913Z",
+      "path": "content/changes/bcapps/13228.md"
+    }
+  },
+  "input_hash": "7793559728a84f722ed6b7cd0495f0e8bb98d061:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13228,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7793559728a84f722ed6b7cd0495f0e8bb98d061",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master dispute status inconsistent on hold and document synchronization on vendor ledger entries"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f25a37b104739dbc112827af4fd904974798f82684e1f2a344cc4e0d755a3874"
+}

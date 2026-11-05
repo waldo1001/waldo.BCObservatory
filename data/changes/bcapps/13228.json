@@ -1,0 +1,505 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13228,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13228",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-04T20:05:40Z",
+  "merge_commit_sha": "7793559728a84f722ed6b7cd0495f0e8bb98d061",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.",
+  "body_hash": "7f068a34b03dcfa31cbc3d692b98b4d95c652913050ddda1e62404e4831ccb39",
+  "fixes_issues": [],
+  "work_items": [
+    656633
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/Tests/ERM/EditPostedDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 185,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/BE/Tests/ERM/EditPostedDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 189,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/ERM/EditPostedDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 231,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/Tests/ERM/EditPostedDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 187,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM/EditPostedDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 193,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/Tests/ERM/EditPostedDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 184,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/Tests/ERM/EditPostedDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 188,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/EditPostedDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 187,
+      "deletions": 2,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 31,
+    "additions": 1911,
+    "deletions": 74,
+    "al": 23
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "is",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/25",
+        "type": "table",
+        "id": 25,
+        "name": "Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/25"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/21"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/FR/BaseApp/Purchases/Payables/VendorLedgerEntry.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "purchasing",
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

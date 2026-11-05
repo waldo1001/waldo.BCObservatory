@@ -6,8 +6,6 @@ summary: Business Central's Base Application follows nine recurring table types 
 tier: official
 language: en
 tags:
-  - tables
-  - table-design
   - naming-conventions
   - primary-key
   - master-table
@@ -25,16 +23,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-29T21:27:45.546Z"
+  at: "2026-11-05T00:15:31.113Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ce82f9b09da758efc69d851a381fdb94a5d95db1
+  input_hash: 1521ded4f619336b536ce353917039cc9bc89b86
 evidence:
   - kind: guideline
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/table-design-must-match-bc-table-type-conventions.md
     title: "microsoft/BCQuality: Tables must match one of Business Central's nine table-type conventions"
-    date: "2026-09-29"
-    commit: a4593a1b1585a0fa663efbf39ff02c60f846d851
+    date: "2026-11-04"
+    commit: c203ebc862a6dc9a35fcb7a50110a96e0bae6f55
     t: null
     quote: null
 links:
@@ -175,4 +173,4 @@ See sample: [`table-design-must-match-bc-table-type-conventions.bad.al`](https:/
 
 ---
 
-From microsoft/BCQuality at a4593a1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at c203ebc, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

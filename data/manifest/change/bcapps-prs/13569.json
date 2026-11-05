@@ -1,0 +1,45 @@
+{
+  "id": "change/bcapps-prs/13569",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Update expense policy defaults, caption, and search terms",
+  "url": "https://github.com/microsoft/BCApps/pull/13569",
+  "published_at": "2026-11-04T17:56:29Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:15:52.699Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "e40f98b30a1bd1041b4c045b2cd505b841c92902:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13569,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e40f98b30a1bd1041b4c045b2cd505b841c92902",
+    "author": "encimita",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Ownership: Manual"
+    ],
+    "community_contribution": false,
+    "title_key": "update expense policy defaults caption and search terms"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fb874b4ca3be9ec6268082132fbdc5edde5500d07210875816ab2008eafa65b8"
+}

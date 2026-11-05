@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Responsible AI FAQ for Chat with Copilot (preview)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-chat-with-copilot",
-  "published_at": "2026-10-05T08:46:22.000Z",
+  "published_at": "2026-11-04T14:48:43.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.379Z",
-      "blob": "5ccd4c44e56779bdf9fb40e80f292cb7a4469838",
-      "words": 1296,
+      "at": "2026-11-05T00:15:31.874Z",
+      "blob": "df296b6ffe0a4f55a1fba33fae566ebc0674774c",
+      "words": 1291,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:01:37.573Z",
+      "at": "2026-11-05T00:15:36.475Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.009138
+      "cost_usd": 0.005079
     },
     "summarized": {
-      "at": "2026-10-06T13:05:54.404Z",
+      "at": "2026-11-05T00:15:36.476Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:05:54.404Z",
+      "at": "2026-11-05T00:15:36.476Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:05:54.404Z",
+      "at": "2026-11-05T00:15:36.477Z",
       "page": false
     }
   },
-  "input_hash": "5ccd4c44e56779bdf9fb40e80f292cb7a4469838",
+  "input_hash": "df296b6ffe0a4f55a1fba33fae566ebc0674774c",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/faqs-chat-with-copilot.md",
     "description": "This FAQ provides information about the AI technology used for chatting with Copilot in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-10-23",
     "ms_topic": "faq",
     "search_form": [],
     "keywords": [
@@ -54,11 +54,11 @@
       "chat"
     ],
     "ai_usage": "ai-assisted",
-    "words": 1296,
+    "words": 1291,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "08597e62550aec2d9b81eb7bde2b32173c3dfe0a05e57482352c78f9e2832a02"
+  "output_hash": "80caf10e44c006b17a85f782188e3bee2d515388d2cace18cdff2ab087290b3d"
 }

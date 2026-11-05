@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/262",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Trim two articles to the 10-keyword limit",
+  "url": "https://github.com/microsoft/BCQuality/pull/262",
+  "published_at": "2026-11-04T11:06:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-05T00:14:20.359Z"
+    }
+  },
+  "input_hash": "c203ebc862a6dc9a35fcb7a50110a96e0bae6f55:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 262,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "c203ebc862a6dc9a35fcb7a50110a96e0bae6f55",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "trim two articles to the 10 keyword limit"
+  }
+}

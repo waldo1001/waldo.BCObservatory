@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13228",
+  "number": 13228,
+  "title": "[Master]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "sales"
+  ],
+  "summary": "Vendor and customer ledger entries now maintain consistent dispute status and on-hold synchronization across posted documents in all localization layers.",
+  "key_points": [
+    "Fixed inconsistent dispute status handling in vendor and customer ledger entries",
+    "Improved on-hold document synchronization for posted documents",
+    "Changes applied across all regional localization layers (W1, NA, GB, FR, ES, IT, NL, BE, FI, CH, APAC, IS, NO, RU)",
+    "Extended test coverage in EditPostedDocuments test codeunits to validate the fixes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005114,
+    "changes_in_call": 1
+  }
+}

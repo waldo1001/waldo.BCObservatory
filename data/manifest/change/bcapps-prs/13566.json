@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13566",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Subcontracting] Bug 648843: Align feature-handler references with CLEAN28",
+  "url": "https://github.com/microsoft/BCApps/pull/13566",
+  "published_at": "2026-11-04T13:31:15Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-05T00:14:20.359Z"
+    }
+  },
+  "input_hash": "fe23a0f952063cef9c753b1541129407ebea5405:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13566,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "fe23a0f952063cef9c753b1541129407ebea5405",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "subcontracting bug 648843 align feature handler references with clean28"
+  }
+}

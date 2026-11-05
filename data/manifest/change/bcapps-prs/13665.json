@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/13665",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix AI Test Toolkit export codeunit ID collision",
+  "url": "https://github.com/microsoft/BCApps/pull/13665",
+  "published_at": "2026-11-04T22:11:03Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-05T00:14:20.359Z"
+    }
+  },
+  "input_hash": "b256d1f3a77074ffaf0de9185dbdbe938f4ca8a6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13665,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b256d1f3a77074ffaf0de9185dbdbe938f4ca8a6",
+    "author": "nikolakukrika",
+    "author_type": "User",
+    "labels": [
+      "AL: Tools",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix ai test toolkit export codeunit id collision"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-05T00:15:31.724Z",
+  "retry_after": null
+}

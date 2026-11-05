@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "CurrReport.Break ends the current trigger",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.md",
-  "published_at": "2026-09-15T08:38:32.000Z",
+  "published_at": "2026-11-04T09:40:08.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,23 +13,23 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-29T21:28:09.146Z",
-      "blob": "ec22ea4862a29aac27f34aacaa8c2bfd8652a812",
-      "words": 161,
+      "at": "2026-11-05T00:15:39.837Z",
+      "blob": "cffcf6224d6ba5880635a220d1890cc6077da4ac",
+      "words": 341,
       "forms": 0
     },
     "published": {
-      "at": "2026-10-29T21:28:09.260Z",
+      "at": "2026-11-05T00:15:39.899Z",
       "path": "content/guidelines/microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.md"
     }
   },
-  "input_hash": "ec22ea4862a29aac27f34aacaa8c2bfd8652a812",
+  "input_hash": "cffcf6224d6ba5880635a220d1890cc6077da4ac",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.md",
-    "description": "CurrReport.Break() inside a report dataitem trigger does more than leave an AL loop. It terminates the current trigger and omits the current record from the dataset. The report runtime still invokes the remaining triggers for that record.",
+    "description": "CurrReport.Break() inside a report dataitem trigger does more than leave an AL loop. It terminates the current trigger and omits the current record from the dataset, so statements after the loop in that trigger do not run.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
@@ -42,8 +42,14 @@
       "control-flow"
     ],
     "ai_usage": null,
-    "words": 161,
-    "identifiers": [],
+    "words": 341,
+    "identifiers": [
+      "OnAfterGetRecord",
+      "OnPostDataItem",
+      "OnPostReport",
+      "OnBeforeAfterGetRecord",
+      "OnAfterAfterGetRecord"
+    ],
     "identifiers_rule": 2,
     "bcq": {
       "domain": "reporting",
@@ -68,11 +74,11 @@
         "all"
       ],
       "kind": "rule",
-      "summary": "CurrReport.Break() inside a report dataitem trigger does more than leave an AL loop. It terminates the current trigger and omits the current record from the dataset. The report runtime still invokes the remaining triggers for that record."
+      "summary": "CurrReport.Break() inside a report dataitem trigger does more than leave an AL loop. It terminates the current trigger and omits the current record from the dataset, so statements after the loop in that trigger do not run."
     },
     "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ec22ea4862a29aac27f34aacaa8c2bfd8652a812"
+  "output_hash": "cffcf6224d6ba5880635a220d1890cc6077da4ac"
 }

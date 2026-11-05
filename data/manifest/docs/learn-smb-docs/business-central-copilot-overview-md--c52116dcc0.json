@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Copilot FAQ",
   "url": "https://learn.microsoft.com/dynamics365/business-central/copilot-overview",
-  "published_at": "2026-10-05T08:46:22.000Z",
+  "published_at": "2026-11-04T14:48:43.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,48 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.271Z",
-      "blob": "cf753b186deccb607ab7dd25c8a44f8d8ff6444e",
-      "words": 1242,
+      "at": "2026-11-05T00:15:23.822Z",
+      "blob": "60bc75d68c871f32b9573471407994d4e2be316d",
+      "words": 1239,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T12:39:35.680Z",
+      "at": "2026-11-05T00:15:31.621Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.009184
+      "cost_usd": 0.005243
     },
     "summarized": {
-      "at": "2026-10-06T12:39:35.685Z",
+      "at": "2026-11-05T00:15:31.623Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T12:39:35.685Z",
+      "at": "2026-11-05T00:15:31.624Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T12:39:35.685Z",
+      "at": "2026-11-05T00:15:31.625Z",
       "page": false
     }
   },
-  "input_hash": "cf753b186deccb607ab7dd25c8a44f8d8ff6444e",
+  "input_hash": "60bc75d68c871f32b9573471407994d4e2be316d",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/copilot-overview.md",
     "description": "This article answers common questions about Copilot in Business Central.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-10-23",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1242,
+    "words": 1239,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "36fc9da261c34af9a7c1baa8eecc26735aff795ee330145d88923d6470470e90"
+  "output_hash": "08a7f0452b7a24855a6a1a8e5a271f07275f04ba9ff796b2c6c29ed981a91c88"
 }

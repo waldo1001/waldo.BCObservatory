@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12683",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[API tests] Return shipment PDF selection and pdfDocument test isolation",
+  "url": "https://github.com/microsoft/BCApps/pull/12683",
+  "published_at": "2026-11-04T13:42:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-05T00:14:20.359Z"
+    }
+  },
+  "input_hash": "325ec2a89f95aa57c652d8ebc91292611936629a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12683,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "325ec2a89f95aa57c652d8ebc91292611936629a",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "api tests return shipment pdf selection and pdfdocument test isolation"
+  }
+}

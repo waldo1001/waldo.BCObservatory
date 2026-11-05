@@ -1,0 +1,48 @@
+{
+  "item_id": "blog/demiliani-com/17586",
+  "url": "https://demiliani.com/2026/11/04/dynamics-365-business-central-service-update-to-net-10-and-upgrade-window/",
+  "title": "Dynamics 365 Business Central: service update to .NET 10 and upgrade window.",
+  "source": "demiliani-com",
+  "published_at": "2026-11-04T14:45:29.000Z",
+  "words": 239,
+  "summary": "Microsoft is transitioning Business Central online and on-premises environments from .NET 8 to .NET 10 before November 10, 2026. The migration happens at cluster level and may cause brief service interruptions outside scheduled maintenance windows, though this is normal and improves security.",
+  "key_points": [
+    ".NET 10 migration is happening across all Business Central releases during a specific timeframe",
+    "For online environments, Microsoft manages the transition automatically at the cluster level, not per environment",
+    "Updates may occur outside your configured maintenance window because they apply to VMs serving multiple environments",
+    "Brief service interruptions can occur during this process, but indicate normal platform enhancement rather than malfunction",
+    "Organizations should verify their maintenance window configuration is set to an optimal time"
+  ],
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "infrastructure",
+    ".net migration",
+    "platform updates",
+    "maintenance windows",
+    "service continuity"
+  ],
+  "objects": [],
+  "features": [
+    ".NET 10 support",
+    "cluster-level patching",
+    "maintenance window configuration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": ".NET 10 update is considered an urgent platform hotfix and this is applied not at the environment level, but at the cluster level (VMs).",
+      "why_it_matters": "Explains why updates can occur outside maintenance windows and affect multiple environments simultaneously"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004605,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13608",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Unable to receive the material returned from subcontracting Vendor",
+  "url": "https://github.com/microsoft/BCApps/pull/13608",
+  "published_at": "2026-11-04T13:11:09Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-05T00:14:20.359Z"
+    }
+  },
+  "input_hash": "f212d6248609d8f24b2ef76b6177df3c0bcfa727:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13608,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f212d6248609d8f24b2ef76b6177df3c0bcfa727",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "unable to receive the material returned from subcontracting vendor"
+  }
+}

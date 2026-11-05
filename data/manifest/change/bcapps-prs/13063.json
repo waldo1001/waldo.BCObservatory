@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/13063",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug][Subscription Billing] Rebilling usage data increases the subscription quantity once per subscription line",
+  "url": "https://github.com/microsoft/BCApps/pull/13063",
+  "published_at": "2026-11-04T11:25:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-05T00:14:20.359Z"
+    }
+  },
+  "input_hash": "e8cff590327ed9935d813f5201152bd0861f656e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13063,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e8cff590327ed9935d813f5201152bd0861f656e",
+    "author": "miljance",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "bug subscription billing rebilling usage data increases the subscription quantity once per subscription line"
+  }
+}

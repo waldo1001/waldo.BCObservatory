@@ -2,26 +2,32 @@
   "item_id": "docs/learn-smb-docs/business-central/about-validated-localization-apps.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/about-validated-localization-apps",
   "title": "Development of validated localization apps",
-  "blob": "7b84f79b6c85d2aad69bb86dfad13ca929b8e11b",
-  "summary": "Requirements and guidelines for developing Validated Localization apps that address regulatory requirements, national standards, and local language support with specific functional and technical standards.",
+  "blob": "197b833835a21380c3df151dad55cd0e7a3d8828",
+  "summary": "Development of Validated Localization apps describes requirements and guidelines for partners building localization extensions for Business Central that address regulatory, national standards, or language needs. Use this when planning a localization app that must meet business, functional, and technical criteria for Microsoft's pilot program.",
   "systems": [
     "localization",
-    "development"
+    "development",
+    "integration"
   ],
   "topics": [
-    "localization",
-    "app development",
-    "regulatory",
+    "validated localization apps",
+    "regulatory requirements",
+    "localization development",
+    "technical requirements",
+    "business requirements",
     "compliance",
-    "validated apps"
+    "app submission"
   ],
   "objects": [],
   "features": [
-    "regulatory compliance apps",
-    "national standards",
-    "language translation",
-    "demo data",
-    "functional documentation"
+    "regulatory requirements and tax reporting",
+    "national standards and address formats",
+    "local language support",
+    "test automation and code coverage",
+    "data classification properties",
+    "setup guides and wizards",
+    "functional documentation",
+    "event policies"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00421,
-      "pages_in_call": 8
+      "cost_usd": 0.004931,
+      "pages_in_call": 1
     }
   ]
 }

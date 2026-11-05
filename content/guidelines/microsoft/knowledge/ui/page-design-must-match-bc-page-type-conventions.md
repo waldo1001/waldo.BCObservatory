@@ -6,8 +6,6 @@ summary: Business Central's page types — RoleCenter, Card, List, CardPart, Lis
 tier: official
 language: en
 tags:
-  - pages
-  - page-design
   - naming-conventions
   - page-type
   - card-page
@@ -25,16 +23,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-29T21:27:46.720Z"
+  at: "2026-11-05T00:15:31.891Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 18f71787a9f370b8f11a8b3972ec403b7e599809
+  input_hash: 9a483844d1177ae8721ea240a024c148ae7e0e7d
 evidence:
   - kind: guideline
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/page-design-must-match-bc-page-type-conventions.md
     title: "microsoft/BCQuality: Pages must match one of Business Central's page-type conventions"
-    date: "2026-09-29"
-    commit: a4593a1b1585a0fa663efbf39ff02c60f846d851
+    date: "2026-11-04"
+    commit: c203ebc862a6dc9a35fcb7a50110a96e0bae6f55
     t: null
     quote: null
 links:
@@ -176,4 +174,4 @@ See sample: [`page-design-must-match-bc-page-type-conventions.bad.al`](https://g
 
 ---
 
-From microsoft/BCQuality at a4593a1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at c203ebc, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13599",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SOA] Setup can be saved while the agent remains inactive without warning",
+  "url": "https://github.com/microsoft/BCApps/pull/13599",
+  "published_at": "2026-11-04T14:21:06Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-05T00:14:20.359Z"
+    }
+  },
+  "input_hash": "2af82714c5045beb21e9da18bc57d109da9e3fd4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13599,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2af82714c5045beb21e9da18bc57d109da9e3fd4",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa setup can be saved while the agent remains inactive without warning"
+  }
+}

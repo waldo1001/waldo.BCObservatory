@@ -2,34 +2,33 @@
   "item_id": "docs/learn-smb-docs/business-central/copilot-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/copilot-overview",
   "title": "Copilot FAQ",
-  "blob": "cf753b186deccb607ab7dd25c8a44f8d8ff6444e",
-  "summary": "Copilot in Business Central is an AI assistant included free with licenses that helps users with creativity, productivity, and task automation. It operates online only, respects user data permissions, and supports various features like chat, analysis assist, and forecasting without requiring training on customer data.",
+  "blob": "60bc75d68c871f32b9573471407994d4e2be316d",
+  "summary": "Copilot in Business Central is an AI-powered assistant included with Business Central licenses that helps users boost productivity across tasks like data analysis, chat, autofill, and marketing text creation. Available only online, it respects user data permissions, supports web search, and can be extended by developers.",
   "systems": [
     "copilot",
-    "integration",
-    "platform"
+    "platform",
+    "integration"
   ],
   "topics": [
-    "copilot overview",
-    "ai assistant",
+    "copilot",
+    "ai assistance",
     "security and privacy",
-    "data governance",
     "responsible ai",
-    "licensing",
-    "web search"
+    "data permissions",
+    "web search",
+    "extensibility",
+    "availability"
   ],
   "objects": [],
   "features": [
+    "Data analysis assist",
     "Chat with Copilot",
-    "Analysis assist",
-    "Autofill with Copilot",
-    "Marketing text suggestions",
-    "Item substitution suggestions",
-    "E-document mapping",
-    "Bank reconciliation assist",
-    "Sales line suggestions",
-    "Number series suggestions",
-    "Web search capability"
+    "Autofill capability",
+    "Marketing text creation",
+    "Web search integration",
+    "Custom page support",
+    "Sales order suggestions",
+    "Bank reconciliation"
   ],
   "versions": [
     "26.3"
@@ -40,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009184,
-      "pages_in_call": 4
+      "cost_usd": 0.005243,
+      "pages_in_call": 1
     }
   ]
 }

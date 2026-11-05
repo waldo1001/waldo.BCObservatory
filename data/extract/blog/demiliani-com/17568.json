@@ -1,0 +1,75 @@
+{
+  "item_id": "blog/demiliani-com/17568",
+  "url": "https://demiliani.com/2026/11/04/giving-an-ai-agent-the-keys-to-business-central-practical-security-tips/",
+  "title": "Giving an AI agent the keys to Business Central: practical security tips.",
+  "source": "demiliani-com",
+  "published_at": "2026-11-04T11:33:12.000Z",
+  "words": 1626,
+  "summary": "Securing AI agents that act on data in Business Central requires deliberate choices about identity, permissions, validation and oversight. The post provides a framework for deploying agents safely using existing tools like MFA, least privilege and change control, ensuring accountability stays with people rather than the agent.",
+  "key_points": [
+    "AI agents need their own application identity with narrow permissions built from the task backwards, not shared logins or broad service accounts",
+    "Treat all data the agent reads (PDFs, emails, fields) as untrusted input vulnerable to prompt injection and validate it with deterministic code before acting",
+    "Require human approval with full evidence (source documents, matched orders, rule violations, agent identity) and enforce posting rights so only humans can finalize records",
+    "Plan for failure before go-live: rehearse disabling the agent, audit trails to trace what it did, and point-in-time restore capability to repair damage",
+    "AI-generated code in development must follow normal engineering gates (branch policies, analyzers, human review) and avoid closed-loop approval by multiple AI systems"
+  ],
+  "systems": [
+    "integration",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "security",
+    "ai agents",
+    "permissions",
+    "access control",
+    "audit",
+    "least privilege",
+    "prompt injection",
+    "approval workflows"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Effective Permissions"
+    },
+    {
+      "type": "page",
+      "name": "Microsoft Entra Applications"
+    }
+  ],
+  "features": [
+    "AI agents and copilots",
+    "Permission sets and role-based access control",
+    "Application identities and service principals",
+    "Audit logs and change tracking",
+    "Multi-factor authentication",
+    "Point-in-time restore",
+    "Application Insights telemetry",
+    "Approval workflows"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The agent can do the work, but accountability stays with people.",
+      "why_it_matters": "Summarizes the core principle: agents execute but humans remain responsible, preventing delegation of accountability"
+    },
+    {
+      "text": "Permitted, plausible and wrong is the failure mode to design against.",
+      "why_it_matters": "Highlights that technical permissions alone cannot prevent incorrect decisions; additional controls and human judgment are required"
+    },
+    {
+      "text": "These checks are boring, testable and impossible to sweet-talk, which is exactly what you want from a control.",
+      "why_it_matters": "Emphasizes that deterministic validation rules are more reliable than trusting the agent's judgment to follow instructions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007574,
+    "posts_in_call": 1
+  }
+}

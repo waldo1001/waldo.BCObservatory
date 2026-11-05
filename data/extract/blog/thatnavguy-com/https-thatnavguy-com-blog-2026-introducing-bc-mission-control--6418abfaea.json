@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/introducing-bc-mission-control/",
+  "url": "https://thatnavguy.com/blog/2026/introducing-bc-mission-control/",
+  "title": "Introducing BC Mission Control",
+  "source": "thatnavguy-com",
+  "published_at": "2026-11-04T00:00:00.000Z",
+  "words": 466,
+  "summary": "BC Mission Control is a web app for managing Business Central cloud environments and local Docker containers from one interface. It helps consultants and developers deploy extensions, compare app versions, check sessions, and handle everyday tasks without switching between multiple tools.",
+  "key_points": [
+    "Runs as a standalone web app on your own computer and manages both cloud environments and local Docker containers",
+    "Uses Business Central Admin Center and Automation APIs for cloud management including environment management, extension deployment, and app updates",
+    "Includes an API Explorer to call Business Central APIs and handles local development tasks with Docker Desktop and BcContainerHelper",
+    "Available on GitHub under MIT license as an executable download requiring Windows, PowerShell 7, and Docker Desktop for container work"
+  ],
+  "systems": [
+    "development",
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "development tools",
+    "cloud environments",
+    "docker containers",
+    "extension deployment",
+    "api explorer",
+    "automation"
+  ],
+  "objects": [],
+  "features": [
+    "Environment management",
+    "Per-tenant extension deployment",
+    "App version comparison",
+    "Session monitoring",
+    "Storage tracking",
+    "API Explorer",
+    "Docker container management",
+    "Platform update scheduling"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The app uses Business Central's Admin Center and Automation APIs for its cloud management features.",
+      "why_it_matters": "Explains the technical foundation that enables cloud environment management capabilities"
+    },
+    {
+      "text": "You do not need to install Node.js or download the source code.",
+      "why_it_matters": "Clarifies that BC Mission Control is a standalone executable requiring minimal setup prerequisites"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004961,
+    "posts_in_call": 1
+  }
+}
