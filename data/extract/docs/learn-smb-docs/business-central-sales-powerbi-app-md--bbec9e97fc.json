@@ -2,18 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-app.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app",
   "title": "Power BI Sales app",
-  "blob": "ed7204a41fd1fcfe4d1e3fff37e661e2c5b08b07",
-  "summary": "Power BI Sales app provides sales analytics for leadership, sales managers, and sales teams with reports on sales trends, performance by salesperson, item, customer, and budget adherence.",
+  "blob": "9383b6d80a28e00fde26b5ec5bc8cd0d6694d8d9",
+  "summary": "Power BI Sales app provides comprehensive sales analytics through reports for different organizational roles including executives, managers, and sales teams to track performance, identify trends, and monitor progress against targets.",
   "systems": [
     "sales",
-    "reporting"
+    "reporting",
+    "copilot"
   ],
   "topics": [
+    "power bi",
     "sales analytics",
-    "power bi app",
+    "reporting",
+    "kpis",
     "sales performance",
-    "customer analysis",
-    "budget tracking"
+    "dashboards"
   ],
   "objects": [],
   "features": [
@@ -34,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00471,
-      "pages_in_call": 8
+      "cost_usd": 0.004515,
+      "pages_in_call": 1
     }
   ]
 }

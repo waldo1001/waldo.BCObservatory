@@ -2,20 +2,22 @@
   "item_id": "docs/learn-smb-docs/business-central/power-bi-faq.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/power-bi-faq",
   "title": "Power BI FAQ",
-  "blob": "d04a604e1df4e8526ef162e630281e48cf3ec28b",
-  "summary": "Answers common questions about using Power BI with Business Central, covering licensing, data access, report publishing, performance, and troubleshooting for analytics.",
+  "blob": "e97f29265a45facd97bc68c6999f09c585312c51",
+  "summary": "Power BI FAQ answers questions about integrating Power BI with Business Central, covering licensing, report access, data connectivity, performance, and troubleshooting for users creating and sharing reports.",
   "systems": [
     "reporting",
     "integration",
-    "platform"
+    "administration"
   ],
   "topics": [
     "power bi",
     "reporting",
-    "analytics",
+    "data connectivity",
     "licensing",
-    "data access",
-    "performance"
+    "performance",
+    "api pages",
+    "web services",
+    "read-only database"
   ],
   "objects": [
     {
@@ -44,18 +46,51 @@
     },
     {
       "type": "page",
-      "name": "Intelligent Cloud Insights"
+      "name": "Order Processor Role Center"
+    },
+    {
+      "type": "page",
+      "name": "Whse. Basic Role Center"
+    },
+    {
+      "type": "page",
+      "name": "Production Planner Role Center"
+    },
+    {
+      "type": "page",
+      "name": "Job Project Manager RC"
+    },
+    {
+      "type": "page",
+      "name": "Service Dispatcher Role Center"
+    },
+    {
+      "type": "page",
+      "name": "Business Manager Role Center"
+    },
+    {
+      "type": "page",
+      "name": "Security Admin Role Center"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Relationship Mgr. RC"
+    },
+    {
+      "type": "page",
+      "name": "Accountant Role Center"
     }
   ],
   "features": [
-    "Power BI integration",
-    "report embedding",
-    "role center reports",
+    "Power BI Report part",
+    "embedded reports from Power BI",
+    "multi-language support",
     "Power BI connector",
-    "web services",
-    "API pages",
+    "Business Central APIs",
+    "read-only database replica",
     "data refresh",
-    "Power BI Desktop"
+    "query folding",
+    "incremental refresh"
   ],
   "versions": [],
   "parts": 1,
@@ -64,8 +99,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009844,
-      "pages_in_call": 5
+      "cost_usd": 0.012481,
+      "pages_in_call": 1
     }
   ]
 }

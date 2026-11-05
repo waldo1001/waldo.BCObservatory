@@ -6,10 +6,21 @@
   "title": "Automate employee payments with ACH bank integration",
   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573618",
   "published_at": "2026-11-04T00:02:09.000Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:17:16.948Z",
+      "from": "snapshot"
+    },
+    "linked": {
+      "at": "2026-11-05T00:17:16.948Z"
+    },
+    "published": {
+      "at": "2026-11-05T00:17:16.969Z",
+      "path": "content/features/573618.md"
     }
   },
   "input_hash": "abe060c3ca4f74b4aec3ed89eba92dd94588da53176dc110cb2581e8c51cf1d8",
@@ -21,5 +32,8 @@
     "ga": "February CY2027",
     "preview": "December CY2026",
     "area": "USA"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "abe060c3ca4f74b4aec3ed89eba92dd94588da53176dc110cb2581e8c51cf1d8"
 }

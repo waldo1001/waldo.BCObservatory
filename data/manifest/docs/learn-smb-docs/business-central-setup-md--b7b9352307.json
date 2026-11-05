@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/setup",
   "published_at": "2026-11-04T09:48:51.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.334Z",
-      "blob": "c88e91a471a6ab480f7c981d597e7441e52e1364",
-      "words": 1088,
+      "at": "2026-11-05T00:17:23.325Z",
+      "blob": "85fdcf5aabc83a1e5d48f83aae7b98bb93981b35",
+      "words": 1084,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:43:32.567Z",
+      "at": "2026-11-05T00:17:35.751Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.007865
+      "cost_usd": 0.005221
     },
     "summarized": {
-      "at": "2026-10-06T18:43:32.576Z",
+      "at": "2026-11-05T00:17:35.752Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:43:34.331Z",
+      "at": "2026-11-05T00:17:35.753Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:43:34.332Z",
+      "at": "2026-11-05T00:17:35.753Z",
       "page": false
     }
   },
@@ -53,11 +53,11 @@
       "initialize"
     ],
     "ai_usage": null,
-    "words": 1088,
+    "words": 1084,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6553580a0599537b4990cc0150285aeb768d1af107393cfe3fddc4a28811a34f"
+  "output_hash": "f70189c47368a5660714c34b48bc984a5c04a63eb1e3d65beabdea98caef1ac8"
 }

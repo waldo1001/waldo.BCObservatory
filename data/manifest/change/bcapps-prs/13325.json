@@ -6,10 +6,35 @@
   "title": "[Quality Management] Certificate of analysis shows now full name instead of the ID.",
   "url": "https://github.com/microsoft/BCApps/pull/13325",
   "published_at": "2026-11-04T15:05:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:17:32.775Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-05T00:17:40.803Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003755
+    },
+    "linked": {
+      "at": "2026-11-05T00:17:40.909Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-05T00:17:40.913Z",
+      "path": "content/changes/bcapps/13325.md"
     }
   },
   "input_hash": "0163e9cfaa525025b7041728ec02551577362692:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "quality management certificate of analysis shows now full name instead of the id"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2f2dd07b574964cacdaae2d7ddfe6aa2e16f207ad0235454197dbce1dcdcc754"
 }

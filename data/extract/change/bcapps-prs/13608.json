@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13608",
+  "number": 13608,
+  "title": "[main] Unable to receive the material returned from subcontracting Vendor",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Subcontracting material returns from vendors now correctly preserve package numbers during reservation transfers and bypass unnecessary validation for zero-quantity production-order-linked lines.",
+  "key_points": [
+    "Package numbers are preserved when transferring reservations for returned subcontracting materials",
+    "Receipt-balance validation is bypassed for production-order-linked subcontracting lines with zero quantities",
+    "Enables proper receipt of materials with lot and package tracking from subcontractors"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "localization"
+  ],
+  "quote": "Preserve package numbers during reservation transfers and bypass receipt-balance validation only for production-order-linked subcontracting lines with zero base quantity",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003257,
+    "changes_in_call": 1
+  }
+}

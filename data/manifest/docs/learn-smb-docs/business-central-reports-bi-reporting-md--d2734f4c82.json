@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports-bi-reporting",
   "published_at": "2026-11-04T09:48:51.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-15T00:25:29.004Z",
-      "blob": "28e7e4d8f8ec95062a4bedf34f8be05efc738221",
+      "at": "2026-11-05T00:17:04.051Z",
+      "blob": "75e670f6e9f064b3d6ab97266d9de117ebd8dee8",
       "words": 1101,
-      "forms": 70
+      "forms": 67
     },
     "extracted": {
-      "at": "2026-10-15T00:25:37.662Z",
+      "at": "2026-11-05T00:17:09.098Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.008497
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-10-15T00:25:37.665Z",
+      "at": "2026-11-05T00:17:09.099Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-15T00:25:37.668Z",
+      "at": "2026-11-05T00:17:09.100Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-15T00:25:37.670Z",
+      "at": "2026-11-05T00:17:09.100Z",
       "page": false
     }
   },
@@ -166,11 +166,6 @@
       {
         "raw": "37007",
         "id": 37007,
-        "kind": null
-      },
-      {
-        "raw": "37008",
-        "id": 37008,
         "kind": null
       },
       {
@@ -329,16 +324,6 @@
         "kind": null
       },
       {
-        "raw": "37040",
-        "id": 37040,
-        "kind": null
-      },
-      {
-        "raw": "37041",
-        "id": 37041,
-        "kind": null
-      },
-      {
         "raw": "37042",
         "id": 37042,
         "kind": null
@@ -409,5 +394,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bcb0e129a701d701784042e68a5913d38e80b261f88c18b795a057ad65e48fa5"
+  "output_hash": "f4b19eb544b14653d7b42c67a55273bbe0f723e9ccc4e5afb4eeded4112cc079"
 }

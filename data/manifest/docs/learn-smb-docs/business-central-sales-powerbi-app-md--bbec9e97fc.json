@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app",
   "published_at": "2026-11-04T09:48:51.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.830Z",
-      "blob": "ed7204a41fd1fcfe4d1e3fff37e661e2c5b08b07",
+      "at": "2026-11-05T00:17:14.873Z",
+      "blob": "9383b6d80a28e00fde26b5ec5bc8cd0d6694d8d9",
       "words": 1019,
-      "forms": 21
+      "forms": 20
     },
     "extracted": {
-      "at": "2026-10-06T14:21:04.321Z",
+      "at": "2026-11-05T00:17:28.784Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00471
+      "cost_usd": 0.004515
     },
     "summarized": {
-      "at": "2026-10-06T14:21:04.329Z",
+      "at": "2026-11-05T00:17:28.785Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:21:04.330Z",
+      "at": "2026-11-05T00:17:28.786Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:21:04.330Z",
+      "at": "2026-11-05T00:17:28.786Z",
       "page": false
     }
   },
@@ -99,11 +99,6 @@
         "kind": null
       },
       {
-        "raw": "37008",
-        "id": 37008,
-        "kind": null
-      },
-      {
         "raw": "37066",
         "id": 37066,
         "kind": null
@@ -164,5 +159,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2bdc5c6d4f2be210fe57151cc86a1e400cac8b0902e599a516ff75fc42f97e94"
+  "output_hash": "dfaa141e41637d6e6e5ed82cadf6efdc90470f9904b9d59f23c1496f8142ba0d"
 }

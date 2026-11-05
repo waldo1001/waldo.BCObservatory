@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13599,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13599",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-04T14:21:06Z",
+  "merge_commit_sha": "2af82714c5045beb21e9da18bc57d109da9e3fd4",
+  "author": "VolodySyn",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[SOA] Setup can be saved while the agent remains inactive without warning",
+  "body_hash": "2dc46dea27a44632f634ab1c0089e31c31b4e833a0dadc122a04565944bcb418",
+  "fixes_issues": [],
+  "work_items": [
+    651658
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Page.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 30,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Page.al",
+        "status": "modified",
+        "key": "page/4400",
+        "type": "page",
+        "id": 4400,
+        "name": "SOA Setup",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "page/4400"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "SalesOrderAgent"
+  ]
+}

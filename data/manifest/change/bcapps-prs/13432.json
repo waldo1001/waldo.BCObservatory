@@ -6,7 +6,7 @@
   "title": "Re-enable GlobalDimensionsWhenDimensionMustBeSameErrorFixWithDrillDownUI (use WorkDate for exchange rates)",
   "url": "https://github.com/microsoft/BCApps/pull/13432",
   "published_at": "2026-11-04T14:33:27Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
@@ -30,5 +30,8 @@
     ],
     "community_contribution": false,
     "title_key": "re enable globaldimensionswhendimensionmustbesameerrorfixwithdrilldownui use workdate for exchange rates"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-05T00:17:37.707Z",
+  "retry_after": null
 }

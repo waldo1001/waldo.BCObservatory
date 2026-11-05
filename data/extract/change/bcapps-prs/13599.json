@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13599",
+  "number": 13599,
+  "title": "[SOA] Setup can be saved while the agent remains inactive without warning",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The Sales Order Agent setup page now shows a confirmation when saving an inactive agent with configuration changes, asking whether to activate it. The first-time setup path was also fixed to actually activate the agent when the user confirms.",
+  "key_points": [
+    "Confirmation appears only when the agent is inactive, setup changed, and the user didn't manually toggle Active",
+    "Confirmation is never shown for Try it out flow, manual Active toggle off, or when nothing changed",
+    "New ActivateAgent() helper ensures activation works correctly in both first-time setup and update flows",
+    "Previously, saying Yes to activate in first-time setup didn't work because FlowField overwrites were not handled",
+    "Only UI flow change, no schema or public API modifications"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "quote": "The agent is configured but not active, so it won't process emails or tasks. Do you want to activate it now?",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004348,
+    "changes_in_call": 1
+  }
+}

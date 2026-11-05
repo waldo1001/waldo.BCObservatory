@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13472",
+  "number": 13472,
+  "title": "[29x]  Payment Slips Summarized by Due Date are not aggregating correlative in the French version",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Payment slip summarization by due date now correctly aggregates credit memos and invoices that are not consecutive in the French payment management reports.",
+  "key_points": [
+    "Fixed aggregation logic in Suggest Customer Payments report",
+    "Fixed aggregation logic in Suggest Vendor Payments report",
+    "Addresses non-consecutive credit memos and invoices handling",
+    "French localization bug fix",
+    "Added test coverage for the payment aggregation scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Payment Slips Summarized by Due Date are not aggregating Credit Memos and Invoices correctly if they are not correlative",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003297,
+    "changes_in_call": 1
+  }
+}

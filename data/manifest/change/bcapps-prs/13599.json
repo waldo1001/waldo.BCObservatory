@@ -6,10 +6,35 @@
   "title": "[SOA] Setup can be saved while the agent remains inactive without warning",
   "url": "https://github.com/microsoft/BCApps/pull/13599",
   "published_at": "2026-11-04T14:21:06Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:17:47.635Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-05T00:17:55.893Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004348
+    },
+    "linked": {
+      "at": "2026-11-05T00:17:55.996Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-05T00:17:56.015Z",
+      "path": "content/changes/bcapps/13599.md"
     }
   },
   "input_hash": "2af82714c5045beb21e9da18bc57d109da9e3fd4:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa setup can be saved while the agent remains inactive without warning"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d4dd936da5b41ab5b41a7a533d5336d1a704cb2aea0e577d523f6bbe851da8cd"
 }

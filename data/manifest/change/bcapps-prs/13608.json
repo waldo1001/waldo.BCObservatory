@@ -6,10 +6,35 @@
   "title": "[main] Unable to receive the material returned from subcontracting Vendor",
   "url": "https://github.com/microsoft/BCApps/pull/13608",
   "published_at": "2026-11-04T13:11:09Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:18:08.408Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-05T00:18:21.611Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003257
+    },
+    "linked": {
+      "at": "2026-11-05T00:18:31.870Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-05T00:18:31.874Z",
+      "path": "content/changes/bcapps/13608.md"
     }
   },
   "input_hash": "f212d6248609d8f24b2ef76b6177df3c0bcfa727:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "unable to receive the material returned from subcontracting vendor"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "520b3f24f87a418c87dea7d3052956eb569f4ebc14db95c7f3592394a2dfe3e8"
 }

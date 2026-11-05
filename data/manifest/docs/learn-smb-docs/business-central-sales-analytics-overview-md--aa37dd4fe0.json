@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-analytics-overview",
   "published_at": "2026-11-04T09:48:51.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.602Z",
-      "blob": "6c8046a0caa317448f18a159d2508d9ed4e557bf",
+      "at": "2026-11-05T00:17:04.036Z",
+      "blob": "d82d47b58a550580a4605ab70701d53e5ec60dcc",
       "words": 1165,
-      "forms": 31
+      "forms": 30
     },
     "extracted": {
-      "at": "2026-10-06T19:26:37.201Z",
+      "at": "2026-11-05T00:17:16.945Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.003631
+      "objects": 0,
+      "cost_usd": 0.004713
     },
     "summarized": {
-      "at": "2026-10-06T19:26:38.921Z",
+      "at": "2026-11-05T00:17:16.946Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:38.922Z",
+      "at": "2026-11-05T00:17:16.947Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:38.923Z",
+      "at": "2026-11-05T00:17:16.947Z",
       "page": false
     }
   },
@@ -129,11 +129,6 @@
         "kind": null
       },
       {
-        "raw": "37008",
-        "id": 37008,
-        "kind": null
-      },
-      {
         "raw": "Report_107",
         "id": 107,
         "kind": "Report"
@@ -217,5 +212,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dcc8bce9b237544857a5976b94d01f53c527ee321fab34b7db47e623897bc9d5"
+  "output_hash": "326e739637e593e1f6d049672e617611466af0ad99939b1a4f995f075af00234"
 }

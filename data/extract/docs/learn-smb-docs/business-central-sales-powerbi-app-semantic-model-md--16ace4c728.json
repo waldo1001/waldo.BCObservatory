@@ -2,11 +2,11 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
   "title": "Power BI Sales app semantic model",
-  "blob": "7d27af050dad34fe7026a9a4aa7daac8f885cc0d",
-  "summary": "Power BI Sales app semantic model uses star schema with fact tables for transactions and dimension tables for context from sales, projects, and opportunities in Business Central.",
+  "blob": "1a305000b7b4c7ca4bd879d06d54fde3d8af43dc",
+  "summary": "The Power BI Sales app semantic model organizes transactional sales data from Business Central using a Star Schema with fact tables (opportunities, sales orders, invoices, credit memos) and dimension tables (customers, items, projects, resources) for analysis and reporting.",
   "systems": [
-    "reporting",
     "sales",
+    "reporting",
     "projects"
   ],
   "topics": [
@@ -14,13 +14,17 @@
     "semantic model",
     "sales analytics",
     "star schema",
-    "fact tables",
-    "dimension tables"
+    "data modeling",
+    "business intelligence"
   ],
   "objects": [
     {
       "type": "table",
       "name": "Opportunity Entries"
+    },
+    {
+      "type": "table",
+      "name": "Sales Budget"
     },
     {
       "type": "table",
@@ -110,12 +114,11 @@
   "features": [
     "fact tables",
     "dimension tables",
+    "star schema",
     "opportunity entries",
-    "sales budget",
-    "project ledger",
-    "sales credit lines",
     "sales invoice lines",
-    "sales lines",
+    "sales credit lines",
+    "project ledger entries",
     "sales value entries"
   ],
   "versions": [
@@ -127,8 +130,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004528,
-      "pages_in_call": 8
+      "cost_usd": 0.015414,
+      "pages_in_call": 1
     }
   ]
 }

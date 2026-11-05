@@ -6,10 +6,21 @@
   "title": "Multiple VAT numbers for a vendor",
   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573616",
   "published_at": "2026-11-04T00:02:09.000Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:17:00.477Z",
+      "from": "snapshot"
+    },
+    "linked": {
+      "at": "2026-11-05T00:17:00.477Z"
+    },
+    "published": {
+      "at": "2026-11-05T00:17:00.498Z",
+      "path": "content/features/573616.md"
     }
   },
   "input_hash": "5b613344a77ddc42661b15bdf124d2eaf535c172b94f5e11b69a7aee1c1518b5",
@@ -21,5 +32,8 @@
     "ga": "October CY2027",
     "preview": "April CY2027",
     "area": "Finance"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5b613344a77ddc42661b15bdf124d2eaf535c172b94f5e11b69a7aee1c1518b5"
 }

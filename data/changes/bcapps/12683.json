@@ -1,0 +1,94 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12683,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12683",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-04T13:42:00Z",
+  "merge_commit_sha": "325ec2a89f95aa57c652d8ebc91292611936629a",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[API tests] Return shipment PDF selection and pdfDocument test isolation",
+  "body_hash": "0922f32851e1f51cfbd27679e474b25926e2a57efa335e080028b84f164e7d8a",
+  "fixes_issues": [],
+  "work_items": [
+    646383,
+    653393,
+    657798
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/APIV2/test/src/APIV2BlPurchOrdersE2E.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/APIV2/test/src/APIV2PurchQuotesE2E.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/APIV2/test/src/APIV2PurchRetShptsE2E.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/DisabledTests/_Exclude_APIV2__Tests/_Exclude_APIV2__Tests.DisabledTest.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 15,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/eServices/EDocument/ReturnShptPDFDocHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 14,
+    "deletions": 28,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/eServices/EDocument/ReturnShptPDFDocHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4999",
+        "type": "codeunit",
+        "id": 4999,
+        "name": "Return Shpt. PDF Doc.Handler",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/4999"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

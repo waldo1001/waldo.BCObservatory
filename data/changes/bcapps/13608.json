@@ -1,0 +1,81 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13608,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13608",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-04T13:11:09Z",
+  "merge_commit_sha": "f212d6248609d8f24b2ef76b6177df3c0bcfa727",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] Unable to receive the material returned from subcontracting Vendor",
+  "body_hash": "a2be22bd6fc75cb71ad328a303f8a03eca8d57717d302e5a91e2c432ccfab4b8",
+  "fixes_issues": [],
+  "work_items": [
+    657836
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Codeunit/SubcontractingPost.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Codeunit/SubcontractingSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 13,
+    "deletions": 0,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Codeunit/SubcontractingPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/18466",
+        "type": "codeunit",
+        "id": 18466,
+        "name": "Subcontracting Post",
+        "app": "INGST",
+        "cc": "in",
+        "page": "codeunit/18466-in"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Codeunit/SubcontractingSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/18469",
+        "type": "codeunit",
+        "id": 18469,
+        "name": "Subcontracting Subscribers",
+        "app": "INGST",
+        "cc": "in",
+        "page": "codeunit/18469-in"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "INGST"
+  ]
+}

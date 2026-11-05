@@ -6,10 +6,35 @@
   "title": "[29x]  Payment Slips Summarized by Due Date are not aggregating correlative in the French version",
   "url": "https://github.com/microsoft/BCApps/pull/13472",
   "published_at": "2026-11-04T15:51:22Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:17:17.087Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-05T00:17:23.119Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003297
+    },
+    "linked": {
+      "at": "2026-11-05T00:17:23.225Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "11bf184798eda1d1104da1324cac5d944742dd2f"
+    },
+    "published": {
+      "at": "2026-11-05T00:17:23.230Z",
+      "path": "content/changes/bcapps/13472.md"
     }
   },
   "input_hash": "1ea4f406c9711f2bd76280dd15852dc1f6241d0c:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "29x payment slips summarized by due date are not aggregating correlative in the french version"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eb27aff4e452c87a53a571f9cf4d9ed79ca769b3e4d36be83d724d90a9901f1c"
 }

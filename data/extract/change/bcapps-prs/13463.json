@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13463",
+  "number": 13463,
+  "title": "[29x] Add Maintenance Code field on purchase order subpage and purchase invoice subpage",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "The Maintenance Code field is now visible on purchase order and purchase invoice subpages across all localizations, enabling users to view and manage maintenance codes directly in these document views.",
+  "key_points": [
+    "Added Maintenance Code field to purchase order subform pages across all localizations",
+    "Added Maintenance Code field to purchase invoice subform pages across all localizations",
+    "Changes applied consistently across W1, NA, APAC, FR, IT, ES, BE, NL, and RU layers",
+    "Field displays maintenance code information for line items in purchasing documents"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": "Add Maintenance Code field on purchase order subpage and purchase invoice subpage",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003886,
+    "changes_in_call": 1
+  }
+}

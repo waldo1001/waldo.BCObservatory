@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12683",
+  "number": 12683,
+  "title": "[API tests] Return shipment PDF selection and pdfDocument test isolation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Return Shipment PDF generation now uses the correct report selection, and API tests for PDF document expansion are fixed by disabling transaction isolation and improving test data reuse.",
+  "key_points": [
+    "Return Shipment PDF handler corrected to use the P.Ret.Shpt. report selection instead of P.Return for posted return shipments",
+    "API tests for blanket orders and purchase quotes disabled transaction isolation to prevent locking conflicts with HTTP calls",
+    "Tests now create their own isolated documents instead of reusing existing data",
+    "Three previously excluded tests re-enabled in the test suite"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004245,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,21 @@
   "title": "Enable SAF-T audit file format",
   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573619",
   "published_at": "2026-11-04T00:02:09.000Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-05T00:17:23.231Z",
+      "from": "snapshot"
+    },
+    "linked": {
+      "at": "2026-11-05T00:17:23.231Z"
+    },
+    "published": {
+      "at": "2026-11-05T00:17:23.255Z",
+      "path": "content/features/573619.md"
     }
   },
   "input_hash": "4ea81545919fef4618859808ad86a8d7159e964074f633a0f971ed0f67987df0",
@@ -21,5 +32,8 @@
     "ga": "April CY2027",
     "preview": "November CY2026",
     "area": "Austria"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4ea81545919fef4618859808ad86a8d7159e964074f633a0f971ed0f67987df0"
 }

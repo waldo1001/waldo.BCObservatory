@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13325",
+  "number": 13325,
+  "title": "[Quality Management] Certificate of analysis shows now full name instead of the ID.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Quality Management reports now display full names instead of IDs for certificates of analysis, general purpose inspections, and non-conformance items.",
+  "key_points": [
+    "Reports updated to show descriptive names rather than numeric identifiers",
+    "Changes applied to certificate of analysis, general purpose inspection, and non-conformance reports",
+    "Report management codeunit logic refactored to support name display",
+    "Both standard and alternate report layouts updated",
+    "Test coverage added for the new functionality"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003755,
+    "changes_in_call": 1
+  }
+}
