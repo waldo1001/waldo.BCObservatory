@@ -8,7 +8,7 @@ import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js"
 import { writeJson, writeText } from "../../pipeline/lib/fsx.js";
 import { ROOT } from "../../pipeline/lib/paths.js";
 import { renderSearchIndex } from "../../pipeline/render/search.js";
-import { ASKS, ATLAS_URL, CHECK_ASK, COPILOT_PLUGIN_CMD, LEARN_URL, MCPB_URL, NODE_REQUIREMENT, PLUGIN_CMD, PLUGIN_INSTALL_CMD, PLUGIN_SERVERS, SERVER_CMD, SKILLS, TOOLS, VSCODE_PLUGIN, installGuide, installSteps, installTabs, mcpMarkdown, nodeMajor } from "../../site/src/lib/mcp.js";
+import { ASKS, ATLAS_URL, CHECK_ASK, COPILOT_PLUGIN_CMD, LEARN_URL, MARKETPLACE_URL, MCPB_URL, NODE_REQUIREMENT, PLUGIN_CMD, PLUGIN_CMD_SPARSE, PLUGIN_INSTALL_CMD, PLUGIN_SERVERS, SERVER_CMD, SKILLS, TOOLS, VSCODE_PLUGIN, installGuide, installSteps, installTabs, mcpMarkdown, nodeMajor } from "../../site/src/lib/mcp.js";
 import { toyModel } from "../helpers/toy-model.js";
 
 const root = new URL("../../", import.meta.url);
@@ -631,7 +631,7 @@ test("INSTALL.md gives the commands, the marketplace, the connectors and the Des
   const market = JSON.parse(read(".claude-plugin/marketplace.json"));
   assert.equal(PLUGIN_INSTALL_CMD, `claude plugin install ${market.plugins[0].name}@${market.name}`);
   const repo = JSON.parse(read("plugin/.claude-plugin/plugin.json")).repository.replace(/^https:\/\/github\.com\//, "");
-  assert.ok(PLUGIN_CMD.endsWith(` ${repo}`) && guide.includes(`\n   ${repo}\n`), "the pasted marketplace is the plugin's repository");
+  assert.ok(PLUGIN_CMD.endsWith(` ${MARKETPLACE_URL}`) && guide.includes(`\n   ${repo}\n`), "Claude Code adds the hosted marketplace (D128); claude.ai pastes the plugin's repository");
   const mcp = JSON.parse(read("plugin/.mcp.json")).mcpServers as Record<string, { command?: string; args?: string[] }>;
   for (const name of Object.keys(mcp)) assert.ok(guide.includes(`**${name}**`), `INSTALL.md names the connector ${name}`);
   const local = mcp["bc-observatory"];
@@ -787,4 +787,26 @@ test("guidelines: a Quality rules layer after Code, type guideline, and the rule
   } finally {
     await client.close();
   }
+});
+
+test("D128: the marketplace on Pages is the repository's marketplace with a git-subdir source, and the guides say how to clean up", () => {
+  const hosted = JSON.parse(read("site/public/marketplace.json"));
+  const market = JSON.parse(read(".claude-plugin/marketplace.json"));
+  const plugin = JSON.parse(read("plugin/.claude-plugin/plugin.json"));
+  assert.equal(hosted.name, market.name);
+  assert.deepEqual(hosted.owner, market.owner);
+  assert.equal(hosted.plugins.length, 1);
+  assert.equal(market.plugins.length, 1);
+  const [h] = hosted.plugins;
+  const [m] = market.plugins;
+  for (const k of ["name", "description", "version"] as const) assert.equal(h[k], m[k], `plugins[0].${k} is the same in both files`);
+  assert.equal(h.version, plugin.version, "the entry's version is the plugin's");
+  assert.equal(m.source, "./plugin", "the repository's marketplace keeps the relative source: claude.ai clones the repository");
+  assert.deepEqual(h.source, { source: "git-subdir", url: `${plugin.repository}.git`, path: "plugin" }, "the hosted entry fetches only plugin/");
+  assert.equal(MARKETPLACE_URL, `${plugin.homepage}marketplace.json`, "served at the site's root");
+  assert.equal(PLUGIN_CMD, `claude plugin marketplace add ${MARKETPLACE_URL}`);
+  assert.ok(PLUGIN_CMD_SPARSE.endsWith(" --sparse .claude-plugin plugin"), PLUGIN_CMD_SPARSE);
+  const guide = read("INSTALL.md");
+  for (const s of ["### Clean up the old marketplace", "temp_git_", "extraKnownMarketplaces", PLUGIN_CMD_SPARSE, "Git clone timed out after 120s"]) assert.ok(guide.includes(s), `INSTALL.md: ${s}`);
+  for (const f of ["README.md", "plugin/README.md"]) assert.ok(read(f).includes("INSTALL.md#clean-up-the-old-marketplace"), `${f} links the clean-up`);
 });

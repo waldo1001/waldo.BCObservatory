@@ -1436,3 +1436,24 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   skills name `bc-observatory`), the `.mcpb` on npm or Pages (a release is what bundles are for, and the URL needs no
   version), a separate workflow (one build keeps code, `VERSION` and D110's telemetry string equal), dropping the config
   file. Spec `docs/specs/mcp-in-claude-chat.md`, issue #24. MCP 0.15.0, plugin 0.11.0.
+- **D128 The Claude Code marketplace is a file on the site, not the repository (2026-11-05, M63).** Reported by a
+  colleague of the owner from a Windows machine: `claude plugin marketplace add waldo1001/waldo.BCObservatory` clones
+  `main` (882 MB in 61,000 files, plus the pack: 1.1 GB on disk) because the marketplace file sits in the content
+  repository; on a slow connection, over a VPN or with Defender scanning, the clone stops at Claude Code's 120-second
+  limit, the marketplace never registers, Claude Code retries at every start, and each try leaves a
+  `temp_git_<timestamp>..clone` folder behind: 71 folders, 10.5 GB, in a week (36 and 24 GB on another machine). The
+  plugin itself needs 100 KB (`plugin/`). Now `site/public/marketplace.json`, served at
+  `https://waldo1001.github.io/waldo.BCObservatory/marketplace.json`, is the marketplace Claude Code users add: a 1 KB
+  download, and its one entry is a `git-subdir` source (`plugin/` of this repository), which Claude Code fetches with a
+  partial clone (measured on 2.1.318: 3 s, 100 KB cached, against 1.1 GB for the repository path).
+  `.claude-plugin/marketplace.json` stays, same name, entry and version, for claude.ai (which clones the repository
+  on its side) and for anyone still on the repository path; `tests/unit/mcp.test.ts` keeps the two files equal except
+  for the source. The marketplace name `bc-observatory` does not change, so `bc-observatory@bc-observatory` and every
+  user's `enabledPlugins` key stay. INSTALL.md tells earlier users how to switch and what to delete (only the
+  `temp_git_*` folders, and a dead `extraKnownMarketplaces` entry that makes Claude Code retry), and gives
+  `--sparse .claude-plugin plugin` to whoever keeps the repository path (9.7 MB, 3 s). Rejected: an orphan `marketplace`
+  branch kept by a workflow (the smallest clone, but a write-permission workflow nobody watches and a branch the
+  nightly and the League must avoid); a separate marketplace repository (a second repository for one file); a fix in
+  the repository alone (a marketplace cannot set `sparsePaths`; only the user's command can). Not changed and not
+  verified here: Copilot CLI's `owner/repo:plugin` form, which has no Copilot CLI on this Mac to measure. That Claude
+  Code leaves a failed clone on disk is a Claude Code bug, reported to Anthropic by the colleague.

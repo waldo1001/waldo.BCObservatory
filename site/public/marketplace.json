@@ -1,0 +1,12 @@
+{
+  "name": "bc-observatory",
+  "owner": { "name": "waldo (Eric Wauters)", "url": "https://github.com/waldo1001" },
+  "plugins": [
+    {
+      "name": "bc-observatory",
+      "source": { "source": "git-subdir", "url": "https://github.com/waldo1001/waldo.BCObservatory.git", "path": "plugin" },
+      "description": "Microsoft Dynamics 365 Business Central knowledge for agents (Learn, AL objects, localizations, roadmap, videos, community posts) via the bc-observatory MCP server, plus bc-code-atlas for AL source bodies and the call graph and the Learn MCP (Microsoft) for reading Learn pages and code samples. On claude.ai: after adding it, open its Connectors tab and select Add on each connector; step by step in INSTALL.md of the repository.",
+      "version": "0.11.0"
+    }
+  ]
+}

@@ -3,10 +3,14 @@
 Plugin `bc-observatory` 0.11.0, with the `bc-observatory` MCP server 0.15.0. Install:
 
 ```bash
-claude plugin marketplace add waldo1001/waldo.BCObservatory     # Claude Code, step 1: the marketplace
-claude plugin install bc-observatory@bc-observatory             # Claude Code, step 2: the plugin
+claude plugin marketplace add https://waldo1001.github.io/waldo.BCObservatory/marketplace.json   # Claude Code, step 1: the marketplace (a 1 KB file on the site)
+claude plugin install bc-observatory@bc-observatory             # Claude Code, step 2: the plugin (fetches this folder alone, about 100 KB)
 copilot plugin install waldo1001/waldo.BCObservatory:plugin  # GitHub Copilot CLI
 ```
+
+The address replaces the repository path `claude plugin marketplace add waldo1001/waldo.BCObservatory` since 2026-11-05 (D128): that form
+clones the whole repository, over 1 GB, and times out on slow machines, leaving `temp_git_*` folders behind. Switch and
+clean up as [INSTALL.md](../INSTALL.md#clean-up-the-old-marketplace) says.
 
 Copilot CLI reads the same manifest; verified with Copilot CLI 1.0.102.
 
