@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Process items that failed a quality inspection",
   "url": "https://learn.microsoft.com/dynamics365/business-central/qms-non-compliant-processing",
-  "published_at": "2026-10-01T12:49:26.000Z",
+  "published_at": "2026-11-05T11:33:58.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.213Z",
-      "blob": "b559065f98f3b5825392ef5ce15923e383c3db05",
-      "words": 741,
+      "at": "2026-11-06T00:20:02.449Z",
+      "blob": "9be81f6856548f7c7b28103d72abcce55778b010",
+      "words": 790,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T13:54:44.438Z",
+      "at": "2026-11-06T00:20:06.616Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.005231
+      "objects": 2,
+      "cost_usd": 0.003965
     },
     "summarized": {
-      "at": "2026-10-06T13:54:44.443Z",
+      "at": "2026-11-06T00:20:06.617Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:54:44.443Z",
+      "at": "2026-11-06T00:20:06.618Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:54:44.443Z",
+      "at": "2026-11-06T00:20:06.618Z",
       "page": false
     }
   },
-  "input_hash": "b559065f98f3b5825392ef5ce15923e383c3db05",
+  "input_hash": "9be81f6856548f7c7b28103d72abcce55778b010",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/qms-non-compliant-processing.md",
     "description": "Learn how to handle noncompliant items, including workflows, inventory movements, and actions for failed quality inspections.",
-    "ms_date": "2026-09-09",
+    "ms_date": "2026-11-04",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -56,11 +56,11 @@
     ],
     "keywords": [],
     "ai_usage": null,
-    "words": 741,
+    "words": 790,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "099cdec29b72e27c1647b691be751deac43c704e997ca1f3db9b7d85907f64a9"
+  "output_hash": "e65eec50688394c8188b0db1612fc387fe907916bd3e7c78c12e8d7b6c375b17"
 }

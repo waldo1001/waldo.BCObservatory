@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13642",
+  "number": 13642,
+  "title": "Preserve work descriptions on posted sales prepayment documents",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Work descriptions are now loaded and preserved on posted sales prepayment invoices and credit memos, matching the behavior of standard sales posting when invoice discount calculation is enabled.",
+  "key_points": [
+    "Work Description BLOB is loaded immediately before TransferFields in prepayment header creation to prevent data loss after discount redistribution",
+    "Fixes issue where prepayment posting reloads the sales header after recalculating discounts, requiring the BLOB to be reloaded",
+    "Four regression tests added covering prepayment invoices and credit memos with automatic invoice discount calculation enabled and disabled",
+    "Changes propagated through Miapp localization mechanism to nine posting codeunits and three test codeunits across multiple regions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004659,
+    "changes_in_call": 1
+  }
+}

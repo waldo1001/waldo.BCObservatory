@@ -2,47 +2,34 @@
   "item_id": "docs/learn-smb-docs/business-central/qms-setup.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/qms-setup",
   "title": "Quality management setup and configuration",
-  "blob": "449dbac985e86b2b60cc736b4691a6a71388fd79",
-  "summary": "Quality Management setup and configuration covers prerequisites, permission sets, base data configuration, assisted setup, and settings for inspection creation, search criteria, workflows, and item tracking.",
+  "blob": "a12883c03a431c7c519b950dd31cf90658aaac4d",
+  "summary": "Quality management setup and configuration guides initial deployment of the Quality Management extension, including prerequisites, permission sets, base data configuration, and trigger settings for automatic inspection creation across purchase, production, and warehouse processes.",
   "systems": [
-    "administration",
     "purchasing",
-    "manufacturing"
+    "manufacturing",
+    "warehouse"
   ],
   "topics": [
-    "quality management setup",
-    "permissions",
+    "quality management",
+    "setup",
     "configuration",
-    "inspection creation options",
-    "base data",
-    "notifications"
+    "permissions",
+    "inspections",
+    "automation",
+    "triggers"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Quality Management Setup"
-    },
-    {
-      "type": "page",
-      "name": "Assisted Setup"
-    },
-    {
-      "type": "page",
-      "name": "My Notifications"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Permission sets",
-    "Inspection creation options",
-    "Inspection search criteria",
-    "Certificate of analysis contact",
-    "Picture handling",
-    "Generation rule trigger defaults",
-    "Bin movements and reclassifications",
-    "Inventory adjustments",
-    "Item tracking requirements",
-    "Quality inspection selection criteria",
-    "Notifications"
+    "Quality Management extension",
+    "permission sets (Quality Admin & Supervisor, Quality Inspector, Quality Auditor)",
+    "inspection creation options",
+    "search criteria for existing inspections",
+    "generation rule triggers",
+    "warehouse receipts trigger",
+    "purchase orders trigger",
+    "production order trigger",
+    "item tracking requirements",
+    "quality inspection selection criteria"
   ],
   "versions": [],
   "parts": 1,
@@ -51,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005457,
-      "pages_in_call": 8
+      "cost_usd": 0.012667,
+      "pages_in_call": 1
     }
   ]
 }

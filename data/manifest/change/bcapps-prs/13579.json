@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13579",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix synchronization error event record context",
+  "url": "https://github.com/microsoft/BCApps/pull/13579",
+  "published_at": "2026-11-05T11:44:30Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-06T00:17:27.413Z"
+    },
+    "fetched": {
+      "at": "2026-11-06T00:20:08.885Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-06T00:20:35.242Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004379
+    },
+    "linked": {
+      "at": "2026-11-06T00:20:35.358Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-06T00:20:35.363Z",
+      "path": "content/changes/bcapps/13579.md"
+    }
+  },
+  "input_hash": "790e932cb42891bbea0434c11c3ffcbcd15f746c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13579,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "790e932cb42891bbea0434c11c3ffcbcd15f746c",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix synchronization error event record context"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "545b45149f56b807323a3f182ff275691738c5ce1a33cfb3acb8c8e3984bcf4b"
+}

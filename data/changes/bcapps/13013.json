@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13013,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13013",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-05T17:33:38Z",
+  "merge_commit_sha": "e65a3e72b0139d9a1a05ef1dab261e7a1c88dc93",
+  "author": "nikolakukrika",
+  "author_type": "User",
+  "labels": [
+    "AL: Tools",
+    "Build: scripts & configs",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Add scoped runtime placeholders for AI test inputs",
+  "body_hash": "79c3669f03cf3c238151b053a0b9e25224bfbd31b673a3ac1746dba4d58a532f",
+  "fixes_issues": [],
+  "work_items": [
+    649445
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 36,
+    "additions": 2556,
+    "deletions": 230,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

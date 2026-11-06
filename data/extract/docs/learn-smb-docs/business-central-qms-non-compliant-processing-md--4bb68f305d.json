@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/qms-non-compliant-processing.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/qms-non-compliant-processing",
   "title": "Process items that failed a quality inspection",
-  "blob": "b559065f98f3b5825392ef5ce15923e383c3db05",
-  "summary": "Handle items that fail quality inspection by blocking lots, moving to quarantine, creating transfers or returns, removing inventory, or reclassifying tracking information.",
+  "blob": "9be81f6856548f7c7b28103d72abcce55778b010",
+  "summary": "Process items that failed quality inspection by blocking lots, quarantining, removing inventory, transferring, or returning to suppliers using inspection actions and workflows.",
   "systems": [
     "inventory",
     "warehouse",
@@ -11,23 +11,31 @@
   ],
   "topics": [
     "quality management",
-    "non-compliant items",
-    "failed inspections",
-    "inventory management"
+    "inventory handling",
+    "item tracking",
+    "lot blocking",
+    "quarantine",
+    "quality inspection"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Quality Inspection"
+    },
+    {
+      "type": "page",
+      "name": "Quality Management Setup"
     }
   ],
   "features": [
-    "move inventory",
-    "internal put-away",
-    "transfer orders",
-    "negative adjustments",
-    "purchase returns",
-    "item tracking changes"
+    "block items from failed lots",
+    "move to quarantine",
+    "remove inventory",
+    "transfer to locations",
+    "return to vendors",
+    "change item tracking",
+    "lot blocking",
+    "quality workflows"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005231,
-      "pages_in_call": 8
+      "cost_usd": 0.003965,
+      "pages_in_call": 1
     }
   ]
 }

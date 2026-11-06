@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13630",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[NL] Fix CBG applies-to ID length handling",
+  "url": "https://github.com/microsoft/BCApps/pull/13630",
+  "published_at": "2026-11-05T11:31:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-06T00:17:27.413Z"
+    }
+  },
+  "input_hash": "ae20629927663e1a7e791db5dc1af50b755a3f5a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13630,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ae20629927663e1a7e791db5dc1af50b755a3f5a",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "nl fix cbg applies to id length handling"
+  }
+}

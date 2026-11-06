@@ -1,0 +1,51 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-87-check-for-microsoft-apps-on-appsource/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-87-check-for-microsoft-apps-on-appsource/",
+  "title": "BC Friday Tips #87 Check for Microsoft Apps on AppSource",
+  "source": "thatnavguy-com",
+  "published_at": "2026-11-06T00:00:00.000Z",
+  "words": 100,
+  "summary": "Not all Microsoft applications for Business Central are installed by default. Before requesting customizations, check AppSource for available Microsoft apps that may provide the needed functionality, such as External Storage for document attachments.",
+  "key_points": [
+    "Microsoft apps for Business Central are distributed across multiple separate applications on AppSource",
+    "Essential features like external document storage require installing dedicated Microsoft apps",
+    "Consultants should verify available Microsoft apps on AppSource before recommending custom development",
+    "Business Central functionality extends beyond the core product through optional Microsoft apps"
+  ],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "appsource",
+    "apps",
+    "extensions",
+    "document attachments",
+    "external storage"
+  ],
+  "objects": [],
+  "features": [
+    "External Storage - Document Attachments",
+    "AppSource integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "not all Microsoft apps are installed in your Business Central environment by default",
+      "why_it_matters": "Explains why expected features may not be available without additional installation steps"
+    },
+    {
+      "text": "Check what's available before assuming you need a customisation",
+      "why_it_matters": "Directs consultants to reduce unnecessary custom development by exploring standard Microsoft solutions first"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003836,
+    "posts_in_call": 1
+  }
+}

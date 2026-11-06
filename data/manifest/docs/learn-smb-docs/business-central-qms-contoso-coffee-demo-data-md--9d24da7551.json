@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Set up Contoso Coffee demo data for quality management",
   "url": "https://learn.microsoft.com/dynamics365/business-central/qms-contoso-coffee-demo-data",
-  "published_at": "2026-10-01T12:49:26.000Z",
+  "published_at": "2026-11-05T11:33:58.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.197Z",
-      "blob": "76f96f2ed6961f36b8bf10290ba4f3ac7033b465",
-      "words": 429,
+      "at": "2026-11-06T00:19:43.811Z",
+      "blob": "c317760502b9213213f2a9a7145a451726a7f0bc",
+      "words": 428,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T13:54:44.438Z",
+      "at": "2026-11-06T00:20:01.682Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.005231
+      "objects": 2,
+      "cost_usd": 0.003716
     },
     "summarized": {
-      "at": "2026-10-06T13:54:44.441Z",
+      "at": "2026-11-06T00:20:01.683Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:54:44.441Z",
+      "at": "2026-11-06T00:20:01.684Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:54:44.442Z",
+      "at": "2026-11-06T00:20:01.684Z",
       "page": false
     }
   },
-  "input_hash": "76f96f2ed6961f36b8bf10290ba4f3ac7033b465",
+  "input_hash": "c317760502b9213213f2a9a7145a451726a7f0bc",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/qms-contoso-coffee-demo-data.md",
     "description": "Install and generate Contoso Coffee demo data to explore quality inspections in Business Central.",
-    "ms_date": "2026-09-09",
+    "ms_date": "2026-11-03",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -61,11 +61,11 @@
     ],
     "keywords": [],
     "ai_usage": null,
-    "words": 429,
+    "words": 428,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "87244c61726e1062eae7d9b245327a65099af3425e263bf8eaf00d391ac4f2c8"
+  "output_hash": "16207f666dbc8dccec92edf1644fcc0782c71a86ad1ea0a935cb50c0570d6403"
 }

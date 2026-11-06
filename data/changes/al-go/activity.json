@@ -10,7 +10,85 @@
       "labels": [],
       "draft": false,
       "created_at": "2026-11-02T10:00:11Z",
-      "updated_at": "2026-11-04T20:47:32Z",
+      "updated_at": "2026-11-05T18:36:08Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2440,
+      "title": "Sort artifacts by creation time when determining latest artifacts for release",
+      "url": "https://github.com/microsoft/AL-Go/pull/2440",
+      "base": "main",
+      "major": null,
+      "author": "mazhelez",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-11-05T12:50:14Z",
+      "updated_at": "2026-11-05T14:25:00Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2441,
+      "title": "Skip test projects when determining release artifacts",
+      "url": "https://github.com/microsoft/AL-Go/pull/2441",
+      "base": "main",
+      "major": null,
+      "author": "mazhelez",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-11-05T12:54:22Z",
+      "updated_at": "2026-11-05T14:18:52Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2431,
+      "title": "Document existing settings and disabled-test conventions",
+      "url": "https://github.com/microsoft/AL-Go/pull/2431",
+      "base": "main",
+      "major": null,
+      "author": "aholstrup1",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-11-03T11:59:41Z",
+      "updated_at": "2026-11-05T13:59:13Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2442,
+      "title": "Document incremental build conflict with releases from release branches",
+      "url": "https://github.com/microsoft/AL-Go/pull/2442",
+      "base": "main",
+      "major": null,
+      "author": "mazhelez",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-11-05T13:19:38Z",
+      "updated_at": "2026-11-05T13:21:23Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2397,
+      "title": "Support calling AL-Go workflows as reusable workflows (workflow_call)",
+      "url": "https://github.com/microsoft/AL-Go/pull/2397",
+      "base": "main",
+      "major": null,
+      "author": "y0m0",
+      "labels": [],
+      "draft": true,
+      "created_at": "2026-10-07T11:05:23Z",
+      "updated_at": "2026-11-05T09:27:00Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2385,
+      "title": "Issue 2336 - Option to fail deployment",
+      "url": "https://github.com/microsoft/AL-Go/pull/2385",
+      "base": "main",
+      "major": null,
+      "author": "thomasroennTRM",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-09-28T08:59:48Z",
+      "updated_at": "2026-11-05T07:35:14Z",
       "community_contribution": false
     },
     {
@@ -66,19 +144,6 @@
       "community_contribution": false
     },
     {
-      "number": 2431,
-      "title": "Document existing settings and disabled-test conventions",
-      "url": "https://github.com/microsoft/AL-Go/pull/2431",
-      "base": "main",
-      "major": null,
-      "author": "aholstrup1",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-11-03T11:59:41Z",
-      "updated_at": "2026-11-03T12:34:01Z",
-      "community_contribution": false
-    },
-    {
       "number": 2425,
       "title": "Admin API for PTE publishing/installing for BC30 and later",
       "url": "https://github.com/microsoft/AL-Go/pull/2425",
@@ -102,19 +167,6 @@
       "draft": true,
       "created_at": "2026-11-02T12:38:32Z",
       "updated_at": "2026-11-02T12:38:32Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2385,
-      "title": "Issue 2336 - Option to fail deployment",
-      "url": "https://github.com/microsoft/AL-Go/pull/2385",
-      "base": "main",
-      "major": null,
-      "author": "thomasroennTRM",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-09-28T08:59:48Z",
-      "updated_at": "2026-11-02T07:28:02Z",
       "community_contribution": false
     },
     {
@@ -167,19 +219,6 @@
       "draft": true,
       "created_at": "2026-10-08T06:39:59Z",
       "updated_at": "2026-10-08T07:20:48Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2397,
-      "title": "Support calling AL-Go workflows as reusable workflows (workflow_call)",
-      "url": "https://github.com/microsoft/AL-Go/pull/2397",
-      "base": "main",
-      "major": null,
-      "author": "y0m0",
-      "labels": [],
-      "draft": true,
-      "created_at": "2026-10-07T11:05:23Z",
-      "updated_at": "2026-10-07T11:34:50Z",
       "community_contribution": false
     },
     {
@@ -289,6 +328,17 @@
   ],
   "issues": [
     {
+      "number": 2439,
+      "title": "[Bug]: Error Message: C# compilation has failed for the application object CodeUnit_6225930.",
+      "url": "https://github.com/microsoft/AL-Go/issues/2439",
+      "labels": [
+        "bug"
+      ],
+      "author": "prosen76",
+      "created_at": "2026-11-05T12:32:43Z",
+      "comments": 4
+    },
+    {
       "number": 2438,
       "title": "[Bug]: Create Release with appVersion \"latest\" picks older artifacts because the artifacts API is not sorted by creation time",
       "url": "https://github.com/microsoft/AL-Go/issues/2438",
@@ -308,17 +358,6 @@
       ],
       "author": "Mkublbock",
       "created_at": "2026-11-04T10:06:15Z",
-      "comments": 0
-    },
-    {
-      "number": 2424,
-      "title": "[Bug]: Publishing with a third-party app source dependency upgrade fails using S2S.",
-      "url": "https://github.com/microsoft/AL-Go/issues/2424",
-      "labels": [
-        "bug"
-      ],
-      "author": "nickgoddard777",
-      "created_at": "2026-10-28T17:21:46Z",
       "comments": 0
     },
     {
@@ -412,7 +451,7 @@
       ],
       "author": "frottke",
       "created_at": "2026-09-17T10:56:07Z",
-      "comments": 0
+      "comments": 1
     },
     {
       "number": 2354,
@@ -457,7 +496,7 @@
       ],
       "author": "PropmanProphecy",
       "created_at": "2026-04-29T16:35:07Z",
-      "comments": 0
+      "comments": 1
     },
     {
       "number": 2151,

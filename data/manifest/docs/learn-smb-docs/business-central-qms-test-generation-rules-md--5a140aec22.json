@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Set up quality inspection generation rules",
   "url": "https://learn.microsoft.com/dynamics365/business-central/qms-test-generation-rules",
-  "published_at": "2026-10-01T12:49:26.000Z",
+  "published_at": "2026-11-05T11:33:58.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.252Z",
-      "blob": "d71b0dde41d25ef1184c327fde052df207ced367",
-      "words": 1400,
+      "at": "2026-11-06T00:20:07.590Z",
+      "blob": "ada882cdff179e3c376f8f3c7a355465178f8cec",
+      "words": 1163,
       "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T13:57:04.634Z",
+      "at": "2026-11-06T00:20:35.368Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.005457
+      "objects": 2,
+      "cost_usd": 0.004902
     },
     "summarized": {
-      "at": "2026-10-06T13:57:04.640Z",
+      "at": "2026-11-06T00:20:35.369Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:57:04.640Z",
+      "at": "2026-11-06T00:20:35.371Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:57:04.640Z",
+      "at": "2026-11-06T00:20:35.374Z",
       "page": false
     }
   },
-  "input_hash": "d71b0dde41d25ef1184c327fde052df207ced367",
+  "input_hash": "ada882cdff179e3c376f8f3c7a355465178f8cec",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/qms-test-generation-rules.md",
     "description": "Learn how to configure inspection generation rules to automate quality inspections based on business transactions.",
-    "ms_date": "2026-09-09",
+    "ms_date": "2026-11-04",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -76,11 +76,11 @@
     ],
     "keywords": [],
     "ai_usage": null,
-    "words": 1400,
+    "words": 1163,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f472fca0f8081ea4646e805d70da02b07f8d03b3faeba7ab19234ca3e2830eb0"
+  "output_hash": "33d0dfa39ef8b94929a2926018aad6fc2c0ccb58a7ae7f2911b5a63d8dbfefac"
 }

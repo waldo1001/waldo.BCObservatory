@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13427",
+  "number": 13427,
+  "title": "[Quality Management] Confirm before finishing on Create Re-inspection",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Quality inspections now ask for confirmation before finishing when creating a re-inspection on an open inspection, preventing unintended state changes if the user declines.",
+  "key_points": [
+    "Confirmation dialog moved before any changes occur for open inspections",
+    "Answering No leaves the inspection open with no automatic finish",
+    "Already finished inspections preserve existing confirmation behavior",
+    "Non-interactive callers like APIs remain unaffected",
+    "New tests validate both accepted and declined scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "The confirmation is now asked before anything changes",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003447,
+    "changes_in_call": 1
+  }
+}

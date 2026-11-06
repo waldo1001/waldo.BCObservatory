@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13561",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Use runtime-generated keys in certificate and signed XML tests",
+  "url": "https://github.com/microsoft/BCApps/pull/13561",
+  "published_at": "2026-11-05T09:09:24Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-06T00:17:27.413Z"
+    }
+  },
+  "input_hash": "071b7c64f141e6b680abb6c596c59dd7a7f37413:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13561,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "071b7c64f141e6b680abb6c596c59dd7a7f37413",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "use runtime generated keys in certificate and signed xml tests"
+  }
+}

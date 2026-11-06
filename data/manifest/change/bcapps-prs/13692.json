@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/13692",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix SharePoint REST upload 404 caused by trailing slash in parent folder",
+  "url": "https://github.com/microsoft/BCApps/pull/13692",
+  "published_at": "2026-11-05T20:06:12Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-06T00:17:27.413Z"
+    }
+  },
+  "input_hash": "7ef28b007af89cb793ca7ef957256765ce6192d6:c1",
+  "attempts": 1,
+  "flags": [],
+  "meta": {
+    "number": 13692,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7ef28b007af89cb793ca7ef957256765ce6192d6",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix sharepoint rest upload 404 caused by trailing slash in parent folder"
+  },
+  "last_error": "fetch failed",
+  "retry_after": "2026-11-06T02:19:55.756Z"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "change/bcapps-prs/9869",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix MS Doc for parameter TagCompanyName of method SetSkippedUpgrade(...)",
+  "url": "https://github.com/microsoft/BCApps/pull/9869",
+  "published_at": "2026-11-05T11:43:35Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-06T00:17:27.413Z"
+    },
+    "fetched": {
+      "at": "2026-11-06T00:20:35.879Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "cf3864f71020fc698eb0380c244adb2044e05844:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9869,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "cf3864f71020fc698eb0380c244adb2044e05844",
+    "author": "MatthiasSchaefer",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: System Application",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "fix ms doc for parameter tagcompanyname of method setskippedupgrade"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "260b2d57e3172046fb93083739df318800106847b66725e8da8e6006df6d35e8"
+}

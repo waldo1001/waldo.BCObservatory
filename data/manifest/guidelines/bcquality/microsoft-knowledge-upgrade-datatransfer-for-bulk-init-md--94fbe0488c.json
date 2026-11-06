@@ -3,9 +3,9 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "Use `DataTransfer` for bulk updates on large tables",
+  "title": "Prefer `DataTransfer` for set-based upgrade field updates",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/datatransfer-for-bulk-init.md",
-  "published_at": "2026-09-09T15:31:03.000Z",
+  "published_at": "2026-11-05T10:13:07.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,52 +13,60 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-29T21:29:08.367Z",
-      "blob": "830dbdb000881e5c9efb28a45932afcaf3b03737",
-      "words": 213,
+      "at": "2026-11-06T00:19:44.276Z",
+      "blob": "a56f85f7e993a09248d364c89a3d3f0d05f6383a",
+      "words": 563,
       "forms": 0
     },
     "published": {
-      "at": "2026-10-29T21:29:08.551Z",
+      "at": "2026-11-06T00:19:56.954Z",
       "path": "content/guidelines/microsoft/knowledge/upgrade/datatransfer-for-bulk-init.md"
     }
   },
-  "input_hash": "830dbdb000881e5c9efb28a45932afcaf3b03737",
+  "input_hash": "a56f85f7e993a09248d364c89a3d3f0d05f6383a",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/upgrade/datatransfer-for-bulk-init.md",
-    "description": "Tables that can contain more than 300,000 records, and any newly added field on an existing table, should be initialized with DataTransfer rather than a repeat ... Modify ... until Next() = 0 loop.",
+    "description": "DataTransfer performs supported field initialization and field-to-field copies using set-based SQL instead of per-record AL writes.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
     "keywords": [
       "datatransfer",
-      "large-dataset",
+      "findset",
+      "modify",
       "bulk-update",
-      "modifyall",
       "copyfields",
-      "new-field"
+      "new-field",
+      "modifyall",
+      "field-copy"
     ],
     "ai_usage": null,
-    "words": 213,
+    "words": 563,
     "identifiers": [
       "DataTransfer",
+      "CopyFields",
+      "SetTables",
       "AddSourceFilter",
       "AddConstantValue",
-      "AddFieldValue"
+      "AddFieldValue",
+      "AddJoin",
+      "ModifyAll"
     ],
     "identifiers_rule": 2,
     "bcq": {
       "domain": "upgrade",
       "keywords": [
         "datatransfer",
-        "large-dataset",
+        "findset",
+        "modify",
         "bulk-update",
-        "modifyall",
         "copyfields",
-        "new-field"
+        "new-field",
+        "modifyall",
+        "field-copy"
       ],
       "bc_version": [
         "21.."
@@ -73,11 +81,11 @@
         "all"
       ],
       "kind": "rule",
-      "summary": "Tables that can contain more than 300,000 records, and any newly added field on an existing table, should be initialized with DataTransfer rather than a repeat ... Modify ... until Next() = 0 loop."
+      "summary": "DataTransfer performs supported field initialization and field-to-field copies using set-based SQL instead of per-record AL writes."
     },
     "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "830dbdb000881e5c9efb28a45932afcaf3b03737"
+  "output_hash": "a56f85f7e993a09248d364c89a3d3f0d05f6383a"
 }

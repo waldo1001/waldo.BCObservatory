@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/264",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "knowledge(upgrade): clarify DataTransfer defaults and bypass safety",
+  "url": "https://github.com/microsoft/BCQuality/pull/264",
+  "published_at": "2026-11-05T10:13:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-06T00:17:27.413Z"
+    }
+  },
+  "input_hash": "9b72501fc3199e6f8c776b4fe3aeb1a11e5dfaee:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 264,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "9b72501fc3199e6f8c776b4fe3aeb1a11e5dfaee",
+    "author": "RaimondStokkel",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "knowledge upgrade clarify datatransfer defaults and bypass safety"
+  }
+}

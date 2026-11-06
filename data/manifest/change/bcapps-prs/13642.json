@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13642",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Preserve work descriptions on posted sales prepayment documents",
+  "url": "https://github.com/microsoft/BCApps/pull/13642",
+  "published_at": "2026-11-05T12:53:18Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-06T00:17:27.413Z"
+    },
+    "fetched": {
+      "at": "2026-11-06T00:20:05.120Z",
+      "change_class": "code",
+      "files": 13,
+      "al": 9,
+      "objects": 5,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-11-06T00:20:10.515Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004659
+    },
+    "linked": {
+      "at": "2026-11-06T00:20:10.655Z",
+      "objects": 5,
+      "unjoined": 4,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-06T00:20:10.672Z",
+      "path": "content/changes/bcapps/13642.md"
+    }
+  },
+  "input_hash": "04bfa4e091204ebc1f6a02edcd8e387081cd1111:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13642,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "04bfa4e091204ebc1f6a02edcd8e387081cd1111",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "preserve work descriptions on posted sales prepayment documents"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b05e94ddbad22457c7cb4ce50d51b8567d99d59a0a9c7d490ca1767ab83dbb97"
+}

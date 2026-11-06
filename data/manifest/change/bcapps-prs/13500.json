@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/13500",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Verify AutoFormat for Format(X, 0, 9) statement",
+  "url": "https://github.com/microsoft/BCApps/pull/13500",
+  "published_at": "2026-11-05T11:31:27Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-06T00:17:27.413Z"
+    }
+  },
+  "input_hash": "1508eefc98298297461abc4793fb1c494c899f41:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13500,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1508eefc98298297461abc4793fb1c494c899f41",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "verify autoformat for format x 0 9 statement"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-06T00:20:36.324Z",
+  "retry_after": null
+}

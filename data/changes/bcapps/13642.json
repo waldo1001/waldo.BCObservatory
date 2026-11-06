@@ -1,0 +1,222 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13642,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13642",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-05T12:53:18Z",
+  "merge_commit_sha": "04bfa4e091204ebc1f6a02edcd8e387081cd1111",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Preserve work descriptions on posted sales prepayment documents",
+  "body_hash": "35f049e22e9a18ba119056da7cefd0082bd8fdfe425bda7a93b42b47755f7e56",
+  "fixes_issues": [
+    8774
+  ],
+  "work_items": [
+    657998
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/Tests/Prepayment/ERMPrepaymentIV.Codeunit.al",
+      "status": "modified",
+      "additions": 117,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/Tests/Prepayment/ERMPrepaymentIV.Codeunit.al",
+      "status": "modified",
+      "additions": 117,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/Tests/Prepayment/ERMPrepaymentIV.Codeunit.al",
+      "status": "modified",
+      "additions": 117,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Prepayment/ERMPrepaymentIV.Codeunit.al",
+      "status": "modified",
+      "additions": 117,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 13,
+    "additions": 486,
+    "deletions": 0,
+    "al": 9
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/442",
+        "type": "codeunit",
+        "id": 442,
+        "name": "Sales-Post Prepayments",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/442"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/442",
+        "type": "codeunit",
+        "id": 442,
+        "name": "Sales-Post Prepayments",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "codeunit/442"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/442",
+        "type": "codeunit",
+        "id": 442,
+        "name": "Sales-Post Prepayments",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/442"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/442",
+        "type": "codeunit",
+        "id": 442,
+        "name": "Sales-Post Prepayments",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/442"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/442",
+        "type": "codeunit",
+        "id": 442,
+        "name": "Sales-Post Prepayments",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/442"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Sales/Posting/SalesPostPrepayments.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ],
+  "issues": [
+    {
+      "number": 8774,
+      "title": "[Bug]: Work Description is not transferred from Sales Order to Prepayment Invoice in BC28 when \"Calc. Inv. Discount\" setting is toggled ON in Sales & Receivables Setup (use to work in BC27)",
+      "state": "closed"
+    }
+  ]
+}

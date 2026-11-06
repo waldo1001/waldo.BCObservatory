@@ -728,6 +728,15 @@
       "title_key": "expense agent give the e2e test approver unlimited approval"
     }
   ],
+  "12308": [
+    {
+      "number": 13626,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-05T07:32:31Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13626",
+      "title_key": "bug 657880 29 x icm 899158677 failed instant approval notification blocks approval workflow"
+    }
+  ],
   "12311": [
     {
       "number": 12452,
@@ -960,6 +969,15 @@
       "merged_at": "2026-10-28T15:25:06Z",
       "url": "https://github.com/microsoft/BCApps/pull/13316",
       "title_key": "financial reports trial balance by period excel should use a query based approach rather than loop and calcfields"
+    }
+  ],
+  "13272": [
+    {
+      "number": 13589,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-05T14:11:17Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13589",
+      "title_key": "keep historical fx balances when unapplying payments"
     }
   ],
   "13303": [
@@ -2255,6 +2273,34 @@
       "merged_at": "2026-11-04T13:24:52Z",
       "url": "https://github.com/microsoft/BCApps/pull/13617",
       "title_key": "unable to receive the material returned from subcontracting vendor"
+    },
+    {
+      "number": 13400,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-05T05:34:40Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13400",
+      "title_key": "incorrect depreciation calculation for assets used less than 180 days under income tax act rules"
+    },
+    {
+      "number": 13047,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-05T14:41:09Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13047",
+      "title_key": "restore parent table relations for comment line configuration imports"
+    },
+    {
+      "number": 13516,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-05T16:34:41Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13516",
+      "title_key": "exposing vat settings on category card"
+    },
+    {
+      "number": 13729,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-05T20:19:57Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13729",
+      "title_key": "bump versions to 29 2"
     }
   ]
 }

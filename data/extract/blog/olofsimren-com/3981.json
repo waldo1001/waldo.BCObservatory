@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/olofsimren-com/3981",
+  "url": "https://www.olofsimren.com/shop-floor-and-warehouse-mobile-for-business-central/",
+  "title": "Shop Floor and Warehouse Mobile for Business Central",
+  "source": "olofsimren-com",
+  "published_at": "2026-11-05T16:22:55.000Z",
+  "words": 1647,
+  "summary": "Shop Floor and Warehouse Mobile is an AL extension for Business Central that enables real-time data capture directly on shop floors and in warehouses through mobile devices with barcode scanning, task-focused pages, and label printing integration. It replaces paper-based workflows and separate systems by consolidating operations, warehouse processing, and time tracking within Business Central itself.",
+  "key_points": [
+    "Real-time barcode scanning and posting eliminate paper travelers, keyboard re-entry delays, and reconciliation overhead",
+    "Task-focused mobile pages let operators start/stop operations, post output/consumption, capture downtime, and handle warehouse receipts, picks, counts, and transfers directly from tablets or Android scanners",
+    "Label printing integrates with BarTender Cloud for rule-based design and printing to physical label printers from any device without separate infrastructure",
+    "Smart barcode system on job cards and labels allows single-scan task execution, preventing errors and reducing manual data entry",
+    "Solution is built entirely as an AL extension inside Business Central, extending existing production orders and warehouse documents rather than requiring external WMS or MES systems"
+  ],
+  "systems": [
+    "warehouse",
+    "manufacturing",
+    "integration"
+  ],
+  "topics": [
+    "mobile app",
+    "barcode scanning",
+    "real-time posting",
+    "shop floor execution",
+    "warehouse documents",
+    "label printing",
+    "task lists"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Time Entry"
+    }
+  ],
+  "features": [
+    "Native barcode scanning",
+    "Real-time output and consumption posting",
+    "Shop floor time capture",
+    "Task list by device or user",
+    "Warehouse receipt, pick, transfer, and count processing",
+    "BarTender Cloud label printing integration",
+    "Downtime registration",
+    "Scrap posting"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Over the last couple of years, Microsoft made the Business Central mobile app surprisingly capable - barcode scanning, tablet layouts, AL hooks.",
+      "why_it_matters": "Explains the Microsoft capabilities that enabled custom shop floor solutions to be built directly in Business Central"
+    },
+    {
+      "text": "No separate WMS or MES database to integrate and maintain - everything lives in Business Central.",
+      "why_it_matters": "Highlights the key advantage of consolidating warehouse and manufacturing operations in a single system without external tools"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007822,
+    "posts_in_call": 1
+  }
+}

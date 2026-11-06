@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13427",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Quality Management] Confirm before finishing on Create Re-inspection",
+  "url": "https://github.com/microsoft/BCApps/pull/13427",
+  "published_at": "2026-11-05T13:00:02Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-06T00:17:27.413Z"
+    },
+    "fetched": {
+      "at": "2026-11-06T00:20:03.363Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-06T00:20:07.267Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003447
+    },
+    "linked": {
+      "at": "2026-11-06T00:20:07.393Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-06T00:20:07.536Z",
+      "path": "content/changes/bcapps/13427.md"
+    }
+  },
+  "input_hash": "618eb6450a3ebd259395d7a42e482d75de33cd09:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13427,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "618eb6450a3ebd259395d7a42e482d75de33cd09",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "quality management confirm before finishing on create re inspection"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "791075968e2e1a3f4af9df93107d0474c6af0fc77d84b96de4eea661b4a1c3fa"
+}
