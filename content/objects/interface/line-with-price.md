@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:45:06.377Z"
+  at: "2026-11-06T00:50:42.930Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 50b2822fcf84c06403cbb4e0cb4e5a243a043c4443264bdea75dea5f7a866ecc
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Layers/W1/BaseApp/Pricing/PriceList/LineWithPrice.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Layers/W1/BaseApp/Pricing/PriceList/LineWithPrice.Interface.al
     title: src/Layers/W1/BaseApp/Pricing/PriceList/LineWithPrice.Interface.al (releases/29.x)
     date: null
-    commit: 1c51b1f77ed32c7267d68456850d9d93296821d3
+    commit: 7af2f8d2e22b684ec7b2455c7baf1007da944ac5
     t: null
     quote: null
 links:
@@ -83,7 +83,7 @@ relations:
 
 > Interface "Line With Price" in Base Application (Microsoft.Pricing.PriceList). 16 public procedures. Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Pricing.PriceList · BC23-30 · [source at 1c51b1f7](https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Layers/W1/BaseApp/Pricing/PriceList/LineWithPrice.Interface.al) · facts from BC29
+Base Application · Microsoft.Pricing.PriceList · BC23-30 · [source at 7af2f8d2](https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Layers/W1/BaseApp/Pricing/PriceList/LineWithPrice.Interface.al) · facts from BC29
 
 ## Procedures
 

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13642",
+  "input_hash": "fa165f0ecf9bd1184036ea70099166fded9c50f35bc815af3abd54872d4fd3b3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-06T01:00:07.909Z",
+  "issues": [
+    "Key point says three test codeunits; the change touches four test copies (three localized plus W1) and nine posting codeunits (eight localized plus W1).",
+    "Summary wording implies the fix applies only when invoice discount calculation is enabled; the load is added in all cases and tests cover both settings."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025872,
+    "changes_in_call": 6
+  }
+}

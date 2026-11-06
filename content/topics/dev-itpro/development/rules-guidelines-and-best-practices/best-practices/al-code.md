@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -59,6 +59,7 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/jeremyvyska-com/1770
     - post/nataliekarolak-com/3494
     - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f
     - post/thinkaboutit-be/8132
@@ -93,7 +94,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: ba956ebb86ef285878ddc0a53474259a24c07dfcd7d43b7bbd61833d0d693b78
@@ -152,6 +153,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#251 Clarify 20-character limit for assignable permission set names](../../../../../changes/bcquality/251.md) (code change): "Assignable permission sets have a 20-character name limit, not the general 30-character limit"
 - [#65 Add data-modeling and appsource knowledge articles (MICROSOFT layer)](../../../../../changes/bcquality/65.md) (code change): "Seven remedial BCQuality knowledge articles added to the MICROSOFT layer covering data-modeling patterns, AppSource conventions, and styling best practices"
 - [#95 style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope](../../../../../changes/bcquality/95.md) (code change): "al-style-review skill recalibrates analyzer-redundant rules to info severity and clarifies domain boundaries"
+- [Fall 2026 Agentic Development Classes: Copilot Refresh, Claude Code, and BCQuality](../../../../../posts/jeremyvyska-com/1770.md) (community post): "GitHub Copilot updates for AL development"
 - [How to write good tooltips as a BC developer](../../../../../posts/nataliekarolak-com/3494.md) (community post): "following patterns like starting with Specifies"
 - [Introducing ALCops — LinterCop's Next Chapter](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f.md) (community post): "It has 30 code fixes compared with LinterCop's five or six, plus correctness fixes"
 - [BCQuality: A Shared Quality Bar for AL Code, Built for Agents](../../../../../posts/thinkaboutit-be/8132.md) (community post): "BCQuality is Microsoft's open repository of quality knowledge for AL code"

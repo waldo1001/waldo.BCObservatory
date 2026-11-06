@@ -2,7 +2,7 @@
 id: topic/business-central/get-started/learn
 type: topic
 title: Learn
-summary: "The Learn section of Business Central covers learning resources: user resource links, a video library, step-by-step business process walkthroughs in the CRONUS demo company, and Contoso Coffee demo data scenarios. It answers where to find training material and how to practice common tasks."
+summary: "The Learn section of Get started collects learning resources for Business Central: guided business process walkthroughs in the CRONUS demo company, Contoso Coffee demo data scenarios, a user resources page and a video library. It helps answer where to practice tasks and find training material."
 tier: official
 language: en
 review:
@@ -11,11 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c0b7ffcc45cf960d6481da55ca9b68dde6a68824a3456ecbe37adbd979063eb1
+  input_hash: 43c472577f1917621c69e92554df094be3d4668deca527feebe4539246dbcc57
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/walkthrough-business-process-walkthroughs
@@ -53,13 +53,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/qms-production-output-testing
-    title: Create a sampled inspection automatically from production output
-    date: "2026-09-09"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/qms-purchase-receipt-testing-warehouse
     title: Create an inspection automatically from a warehouse receipt and reinspect the lot
     date: "2026-09-09"
@@ -70,6 +63,20 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/qms-purchase-receipt-testing-simple
     title: Create an inspection manually from item tracking
     date: "2026-09-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/qms-production-output-testing
+    title: Inspect production output
+    date: "2026-11-04"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/quality-inspect-subcontracted-output
+    title: Inspect subcontracted production operations
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
@@ -174,7 +181,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/qms-contoso-coffee-demo-data
     title: Set up Contoso Coffee demo data for quality management
-    date: "2026-09-09"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
@@ -260,6 +267,7 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/resources-for-users
     - https://learn.microsoft.com/dynamics365/business-central/across-videos
   objects:
+    - object/page/50
     - object/page/103
     - object/page/104
     - object/page/108
@@ -293,6 +301,8 @@ links:
     - object/page/20400
     - object/page/20402
     - object/page/20404
+    - object/page/20405
+    - object/page/20406
     - object/page/20408
     - object/page/20416
     - object/page/30101
@@ -304,6 +314,7 @@ links:
     - object/page/30126
     - object/page/30156
     - object/page/30157
+    - object/page/99000831
   features: []
   topics:
     - topic/business-central/get-started
@@ -322,12 +333,13 @@ children:
   - topic/business-central/get-started/learn/business-process-walkthroughs
   - topic/business-central/get-started/learn/contoso-coffee-demo-data
 coverage:
-  learn: 34
-  code: 44
+  learn: 35
+  code: 48
   video: 0
   blog: 0
   guideline: 0
 bc_forms:
+  - 50
   - 103
   - 104
   - 108
@@ -361,6 +373,8 @@ bc_forms:
   - 20400
   - 20402
   - 20404
+  - 20405
+  - 20406
   - 20408
   - 20416
   - 30101
@@ -372,38 +386,39 @@ bc_forms:
   - 30126
   - 30156
   - 30157
-member_hash: 699e9c1b1a54dd82d30fa8b67fc376d65d9aad6eb58ad3aac80d6a6682a85dc5
+  - 99000831
+member_hash: d1c7a5972ba1f5608c424a05414389e62638b8cd48b702edc78fc070643d9be0
 narrative: generated
 ---
 
 # Learn
 
-> The Learn section of Business Central covers learning resources: user resource links, a video library, step-by-step business process walkthroughs in the CRONUS demo company, and Contoso Coffee demo data scenarios. It answers where to find training material and how to practice common tasks.
+> The Learn section of Get started collects learning resources for Business Central: guided business process walkthroughs in the CRONUS demo company, Contoso Coffee demo data scenarios, a user resources page and a video library. It helps answer where to practice tasks and find training material.
 
 Path: [Get started](../get-started.md) > Learn · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Learn section collects material for getting to know Business Central. Two own pages act as entry points: Resources for users, a curated list of links, and the video library, which links to introduction videos, product videos and the Business Central YouTube channel.
+The Learn section gathers material for people who want to get to know Business Central by doing or watching. Two subtopics provide hands-on practice: business process walkthroughs in the CRONUS demonstration company, and Contoso Coffee demo data, a fictitious company dataset with guided scenarios.
 
-Two subtopics support hands-on practice. Business process walkthroughs (9 pages) are end-to-end scenarios in the CRONUS demonstration company. Contoso Coffee demo data (23 pages) is a fictitious company dataset with walkthroughs for manufacturing, warehousing, service and quality management.
+Two standalone pages cover other ways to learn. Resources for users is a curated list of links to releases, documentation, community, onboarding, reporting, Power Platform integrations, migration assets, telemetry, security guidance and events. The video library links to introduction videos, product videos from Role Centers and the Business Central YouTube channel.
 
-Start with Resources for users or the video library for orientation. Then choose a walkthrough in CRONUS for general finance, sales and warehouse tasks, or set up the Contoso Coffee data for the manufacturing, service and quality scenarios.
+Start with Resources for users for a general map. Use the walkthroughs for general end-to-end tasks, and the Contoso Coffee pages when you want to practice manufacturing, warehousing, service or quality management scenarios.
 
 ## Key points
 
-- Resources for users links to release updates, documentation, community resources, onboarding materials, reporting tools, migration assets, telemetry, security guidance and events.
-- The resources page also covers Marketplace apps, mobile applications, and Power BI, Power Automate and Power Apps integration.
-- The video library offers introduction videos, how-to videos, a Product Videos tile in Role Centers and the Business Central YouTube channel.
-- Business process walkthroughs (9 pages) run in the CRONUS demonstration company.
+- Business process walkthroughs are step-by-step scenarios in the CRONUS demonstration company (9 pages).
 - Walkthrough topics include sales campaigns, prepayments, approval workflows, project WIP, warehouse picking, cash flow forecasts and the Shopify Connector.
-- Contoso Coffee demo data (23 pages) is a fictitious company dataset for learning.
-- Contoso Coffee scenarios cover manufacturing, warehousing, service and quality management, plus demo data setup.
+- Contoso Coffee demo data is a fictitious company dataset for learning (24 pages).
+- Contoso Coffee scenarios cover manufacturing, warehousing, service and quality management, including how to set up the demo data.
+- Resources for users links to releases, marketplace apps, mobile applications, and Power BI, Power Automate and Power Apps integration.
+- The same resources page also points to onboarding, migration assets, telemetry, security guidance and events.
+- The video library offers introduction videos, how-to videos, a Product Videos tile and the Business Central YouTube channel.
 
 ## Subtopics
 
 - [Business process walkthroughs](learn/business-process-walkthroughs.md) (9 pages)
-- [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md) (23 pages)
+- [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md) (24 pages)
 
 ## More Learn pages
 
@@ -429,6 +444,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 9026 "Sales & Relationship Mgr. RC"](../../../objects/page/9026.md) · captioned "Sales and Relationship Manager"
 - [Page 9027 "Accountant Role Center"](../../../objects/page/9027.md) · captioned "Accountant"
 - [Page 9030 "Account Manager Activities"](../../../objects/page/9030.md) · captioned "Activities" · on [Table 9054 "Finance Cue"](../../../objects/table/9054.md)
+- [Page 50 "Purchase Order"](../../../objects/page/50.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
 - [Page 103 "Account Schedule Names"](../../../objects/page/103.md) · captioned "(Financial Report) Row Definitions" · on [Table 84 "Acc. Schedule Name"](../../../objects/table/84.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
 - [Page 104 "Account Schedule"](../../../objects/page/104.md) · captioned "(Financial Report) Row Definition" · on [Table 85 "Acc. Schedule Line"](../../../objects/table/85.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
 - [Page 108 "Financial Reports"](../../../objects/page/108.md) · on [Table 88 "Financial Report"](../../../objects/table/88.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
@@ -447,6 +463,8 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 20400 "Qlty. Management Setup"](../../../objects/page/20400.md) · captioned "Quality Management Setup" · on [Table 20400 "Qlty. Management Setup"](../../../objects/table/20400.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
 - [Page 20402 "Qlty. Inspection Template"](../../../objects/page/20402.md) · captioned "Quality Inspection Template" · on [Table 20402 "Qlty. Inspection Template Hdr."](../../../objects/table/20402.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
 - [Page 20404 "Qlty. Inspection Template List"](../../../objects/page/20404.md) · captioned "Quality Inspection Templates" · on [Table 20402 "Qlty. Inspection Template Hdr."](../../../objects/table/20402.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
+- [Page 20405 "Qlty. Inspection Gen. Rules"](../../../objects/page/20405.md) · captioned "Quality Inspection Generation Rules" · on [Table 20404 "Qlty. Inspection Gen. Rule"](../../../objects/table/20404.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
+- [Page 20406 "Qlty. Inspection"](../../../objects/page/20406.md) · captioned "Quality Inspection" · on [Table 20405 "Qlty. Inspection Header"](../../../objects/table/20405.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
 - [Page 20408 "Qlty. Inspection List"](../../../objects/page/20408.md) · captioned "Quality Inspections" · on [Table 20405 "Qlty. Inspection Header"](../../../objects/table/20405.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
 - [Page 20416 "Qlty. Inspection Result List"](../../../objects/page/20416.md) · captioned "Quality Inspection Results" · on [Table 20411 "Qlty. Inspection Result"](../../../objects/table/20411.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
 - [Page 30101 "Shpfy Shop Card"](../../../objects/page/30101.md) · captioned "Shopify Shop Card" · on [Table 30102 "Shpfy Shop"](../../../objects/table/30102.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
@@ -458,5 +476,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 30126 "Shpfy Products"](../../../objects/page/30126.md) · captioned "Shopify Products" · on [Table 30127 "Shpfy Product"](../../../objects/table/30127.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
 - [Page 30156 "Shpfy Companies"](../../../objects/page/30156.md) · captioned "Shopify Companies" · on [Table 30150 "Shpfy Company"](../../../objects/table/30150.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
 - [Page 30157 "Shpfy Company Card"](../../../objects/page/30157.md) · captioned "Shopify Company Card" · on [Table 30150 "Shpfy Company"](../../../objects/table/30150.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
+- [Page 99000831 "Released Production Order"](../../../objects/page/99000831.md) · on [Table 5405 "Production Order"](../../../objects/table/5405.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

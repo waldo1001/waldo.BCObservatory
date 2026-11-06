@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:02:33.356Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -112,9 +112,10 @@ links:
     - video/DnZJ2iOgIjI
   posts:
     - post/olofsimren-com/3564
-    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf
     - post/yzhums-com/63913
+    - post/yzhums-com/71047
+    - post/yzhums-com/76760
   guidelines: []
   changes:
     - change/bcapps/12152
@@ -130,7 +131,7 @@ coverage:
   learn: 8
   code: 17
   video: 3
-  blog: 4
+  blog: 5
   guideline: 0
 bc_forms:
   - 107
@@ -201,9 +202,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12152 [MCP] Clear environment description after environment copy](../../../../changes/bcapps/12152.md) (code change): "Clear environment description after environment copy"
 - [#12429 Skip enabling incomplete existing retention policies on install/upgrade](../../../../changes/bcapps/12429.md) (code change): "Skip enabling incomplete retention policies during install and upgrade"
 - [Record Deletion Tool for Business Central in AppSource](../../../../posts/olofsimren-com/3564.md) (community post): "Allows cleanup of test transactions in a company."
-- [BC Friday Tips #34 Restore Environment](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08.md) (community post): "recovering accidentally deleted production data when no other backup exists"
 - [BC Friday Tips #79 Change Log Deletion on One Field](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf.md) (community post): "Enable deletion logging on only one field in the primary key"
 - [Dynamics 365 Business Central: How to easily check who created an environment, company and record and when](../../../../posts/yzhums-com/63913.md) (community post): "Every table has four system audit fields created and modified, at and by"
+- [Business Central 2026 release wave 1 (BC28): Show avatars for record creators and modifiers in lists (Created / Updated by) – Display data audit fields without customization](../../../../posts/yzhums-com/71047.md) (community post): "visual avatars in list pages to display which user or agent created or modified records"
+- [Dynamics 365 Business Central: How to import Change Log Setup (Table/Field) using Configuration Packages](../../../../posts/yzhums-com/76760.md) (community post): "Change log tracks all direct modifications users make to database data"
 - [Use Retention Policies to Avoid Unnecessary Database Growth](../../../../videos/564XMP2IyLM.md) (video): "Use Retention Policies to Avoid Unnecessary Database Growth; automated deletion; data governance"
 - [What's New: Customer-Managed Encryption Key (2025 release wave 1)](../../../../videos/b-ixzwDS41c.md) (video): "Customer-Managed Encryption Key; data governance; privacy; security"
 - [What's New: Customer-Managed Encryption Key & Lockbox (2024 release wave 2)](../../../../videos/DnZJ2iOgIjI.md) (video): "customer-managed encryption key; lockbox; security; data encryption; enterprise policy"

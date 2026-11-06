@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13630",
+  "input_hash": "db8e9bf7a4ea4d981794eeb3598e3dce0715a92a20745bb9cef1b1673daca231",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-06T01:00:07.909Z",
+  "issues": [
+    "Summary overstates scope ('all related declarations and APIs'); only two declarations changed.",
+    "Summary omits that failures also occurred during applies-to ID generation and increment, not only payment tolerance processing."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025872,
+    "changes_in_call": 6
+  }
+}

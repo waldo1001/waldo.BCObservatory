@@ -1,24 +1,24 @@
 {
   "hub_id": "topic/business-central/get-started/learn",
-  "input_hash": "c0b7ffcc45cf960d6481da55ca9b68dde6a68824a3456ecbe37adbd979063eb1",
-  "summary": "The Learn section of Business Central covers learning resources: user resource links, a video library, step-by-step business process walkthroughs in the CRONUS demo company, and Contoso Coffee demo data scenarios. It answers where to find training material and how to practice common tasks.",
-  "overview": "The Learn section collects material for getting to know Business Central. Two own pages act as entry points: Resources for users, a curated list of links, and the video library, which links to introduction videos, product videos and the Business Central YouTube channel.\n\nTwo subtopics support hands-on practice. Business process walkthroughs (9 pages) are end-to-end scenarios in the CRONUS demonstration company. Contoso Coffee demo data (23 pages) is a fictitious company dataset with walkthroughs for manufacturing, warehousing, service and quality management.\n\nStart with Resources for users or the video library for orientation. Then choose a walkthrough in CRONUS for general finance, sales and warehouse tasks, or set up the Contoso Coffee data for the manufacturing, service and quality scenarios.",
+  "input_hash": "43c472577f1917621c69e92554df094be3d4668deca527feebe4539246dbcc57",
+  "summary": "The Learn section of Get started collects learning resources for Business Central: guided business process walkthroughs in the CRONUS demo company, Contoso Coffee demo data scenarios, a user resources page and a video library. It helps answer where to practice tasks and find training material.",
+  "overview": "The Learn section gathers material for people who want to get to know Business Central by doing or watching. Two subtopics provide hands-on practice: business process walkthroughs in the CRONUS demonstration company, and Contoso Coffee demo data, a fictitious company dataset with guided scenarios.\n\nTwo standalone pages cover other ways to learn. Resources for users is a curated list of links to releases, documentation, community, onboarding, reporting, Power Platform integrations, migration assets, telemetry, security guidance and events. The video library links to introduction videos, product videos from Role Centers and the Business Central YouTube channel.\n\nStart with Resources for users for a general map. Use the walkthroughs for general end-to-end tasks, and the Contoso Coffee pages when you want to practice manufacturing, warehousing, service or quality management scenarios.",
   "key_points": [
-    "Resources for users links to release updates, documentation, community resources, onboarding materials, reporting tools, migration assets, telemetry, security guidance and events.",
-    "The resources page also covers Marketplace apps, mobile applications, and Power BI, Power Automate and Power Apps integration.",
-    "The video library offers introduction videos, how-to videos, a Product Videos tile in Role Centers and the Business Central YouTube channel.",
-    "Business process walkthroughs (9 pages) run in the CRONUS demonstration company.",
+    "Business process walkthroughs are step-by-step scenarios in the CRONUS demonstration company (9 pages).",
     "Walkthrough topics include sales campaigns, prepayments, approval workflows, project WIP, warehouse picking, cash flow forecasts and the Shopify Connector.",
-    "Contoso Coffee demo data (23 pages) is a fictitious company dataset for learning.",
-    "Contoso Coffee scenarios cover manufacturing, warehousing, service and quality management, plus demo data setup."
+    "Contoso Coffee demo data is a fictitious company dataset for learning (24 pages).",
+    "Contoso Coffee scenarios cover manufacturing, warehousing, service and quality management, including how to set up the demo data.",
+    "Resources for users links to releases, marketplace apps, mobile applications, and Power BI, Power Automate and Power Apps integration.",
+    "The same resources page also points to onboarding, migration assets, telemetry, security guidance and events.",
+    "The video library offers introduction videos, how-to videos, a Product Videos tile and the Business Central YouTube channel."
   ],
   "members_used": 2,
   "subtopics_used": 2,
   "prompt_version": 1,
-  "at": "2026-11-05T00:54:49.981Z",
+  "at": "2026-11-06T01:01:46.234Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011115
+    "cost_usd": 0.011160999999999999
   }
 }

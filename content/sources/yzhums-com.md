@@ -2,7 +2,7 @@
 id: source/yzhums-com
 type: source
 title: Dynamics 365 Lab - Yun Zhu
-summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 392 posts in the knowledge base, 2025-04-28 to 2026-11-04, mostly about development, administration, platform."
+summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 393 posts in the knowledge base, 2025-04-28 to 2026-11-05, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:14:20.359Z"
+  at: "2026-11-06T00:17:27.413Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d70e66c2c4380e045afa09b8fe6e29dedbb05601e38afbb712f18ad84ce8fb3a
+  input_hash: 0c92c36706be2d739296bba7e0a6c7bc0ad917c148a1e8107cd59bd52629587e
 evidence:
   - kind: blog
     url: https://yzhums.com
@@ -425,6 +425,7 @@ links:
     - post/yzhums-com/77021
     - post/yzhums-com/77038
     - post/yzhums-com/77070
+    - post/yzhums-com/76760
   guidelines: []
 source_id: yzhums-com
 kind: blog
@@ -432,13 +433,13 @@ url: https://yzhums.com
 author: Yun Zhu
 mvp: true
 full_text: false
-item_count: 392
+item_count: 393
 footprint:
   systems:
     - id: development
       weight: 285
     - id: administration
-      weight: 203
+      weight: 205
     - id: platform
       weight: 197
     - id: sales
@@ -495,12 +496,12 @@ footprint:
       weight: 5
   features: []
 first_item: "2025-04-28"
-last_item: "2026-11-04"
+last_item: "2026-11-05"
 ---
 
 # Dynamics 365 Lab - Yun Zhu
 
-> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 392 posts in the knowledge base, 2025-04-28 to 2026-11-04, mostly about development, administration, platform.
+> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 393 posts in the knowledge base, 2025-04-28 to 2026-11-05, mostly about development, administration, platform.
 
 [https://yzhums.com](https://yzhums.com) · blog · tier community
 
@@ -509,7 +510,7 @@ last_item: "2026-11-04"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (285) | al development (66) | table Customer (14) |
-| administration (203) | bc28 (27) | table Sales Header (12) |
+| administration (205) | bc28 (27) | table Sales Header (12) |
 | platform (197) | bc27 (23) | page Customer Card (10) |
 | sales (89) | customization (23) | page Item Card (9) |
 | reporting (75) | bc29 (21) | page Item List (9) |
@@ -531,10 +532,11 @@ Items per quarter, oldest first:
 - 2026-Q1: **************************************** 68
 - 2026-Q2: **************************************** 54
 - 2026-Q3: **************************************** 71
-- 2026-Q4: *********************** 23
+- 2026-Q4: ************************ 24
 
 ## Most recent
 
+- [Dynamics 365 Business Central: How to import Change Log Setup (Table/Field) using Configuration Packages](../posts/yzhums-com/76760.md) (2026-11-05)
 - [Business Central 2026 release wave 2 (BC29): Match Production Database Configuration](../posts/yzhums-com/77070.md) (2026-11-04)
 - [Business Central 2026 release wave 2 (BC29): Custom Report Layouts are now deprecated and have been removed](../posts/yzhums-com/77038.md) (2026-10-30)
 - [Business Central 2026 release wave 2 (BC29): Page Scripting enters General Availability with two new capabilities](../posts/yzhums-com/77021.md) (2026-10-29)
@@ -554,6 +556,5 @@ Items per quarter, oldest first:
 - [Business Central 2026 release wave 2 (BC29): Retained DEV extensions (DEV extensions remain installed during environment update)](../posts/yzhums-com/76570.md) (2026-10-08)
 - [Business Central 2026 release wave 2 (BC29): Calculate multiple excise duties per item](../posts/yzhums-com/76445.md) (2026-10-07)
 - [Business Central 2026 release wave 2 (BC29): Faster data loading with improved data model for table extensions (all fields on an AL table are stored in the same table)](../posts/yzhums-com/76505.md) (2026-10-06)
-- [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (October, 2026)](../posts/yzhums-com/76495.md) (2026-10-05)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

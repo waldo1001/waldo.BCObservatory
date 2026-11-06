@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/6857",
+  "input_hash": "7324ef5f5b0b72cac06bcd299cb582e4a936d3d7c350851b6dc32d0bfa96a975",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-06T00:59:56.105Z",
+  "issues": [
+    "The description is almost empty, so the only support is the title and the single rewritten page file.",
+    "The key points about 'additional columns' and 'improvements to user experience' are not supported by what was given, so they were replaced with points that stick to the title and the file change."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02347,
+    "changes_in_call": 4
+  }
+}

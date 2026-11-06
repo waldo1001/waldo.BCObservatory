@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:45:06.377Z"
+  at: "2026-11-06T00:50:42.930Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 18ff19352344cfcd6ceed22d84b53ecfa34100d827be0f06ba2f9d59d811b6a8
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/W1/ReviewGLEntries/app/src/interfaces/GLEntryReviewer.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/ReviewGLEntries/app/src/interfaces/GLEntryReviewer.Interface.al
     title: src/Apps/W1/ReviewGLEntries/app/src/interfaces/GLEntryReviewer.Interface.al (releases/29.x)
     date: null
-    commit: 1c51b1f77ed32c7267d68456850d9d93296821d3
+    commit: 7af2f8d2e22b684ec7b2455c7baf1007da944ac5
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "G/L Entry Reviewer" in ReviewGLEntries (Microsoft.Finance.GeneralLedger.Review). 3 public procedures. Introduced in BC29, still in BC30.
 
-ReviewGLEntries · Microsoft.Finance.GeneralLedger.Review · BC29-30 · [source at 1c51b1f7](https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/W1/ReviewGLEntries/app/src/interfaces/GLEntryReviewer.Interface.al) · facts from BC29
+ReviewGLEntries · Microsoft.Finance.GeneralLedger.Review · BC29-30 · [source at 7af2f8d2](https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/ReviewGLEntries/app/src/interfaces/GLEntryReviewer.Interface.al) · facts from BC29
 
 ## Procedures
 

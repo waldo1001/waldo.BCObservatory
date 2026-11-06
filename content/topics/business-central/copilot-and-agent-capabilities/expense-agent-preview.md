@@ -12,7 +12,7 @@ review:
   at: "2026-10-30T08:08:38.208Z"
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -215,7 +215,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12763 [Master] - Bug 654021: [Expense Agent] [Professional] Online: Creating Production - Setup Data Only Company with Delegated Admin access: "'IndirectInsert' permission on TableData 6913 'Expense Pmt Method" - 2610091420000495](../../../changes/bcapps/12763.md) (code change): "Expense Agent delegated admin partner entitlements are updated to grant"
 - [#12810 ExpenseAgent-CAUS-default-VAT-setup-fails](../../../changes/bcapps/12810.md) (code change): "Fixes the Expense Agent default VAT setup failing"
 - [#12882 [Master] - Bug 651169: [Expense Agent] Exchange rate date limitation](../../../changes/bcapps/12882.md) (code change): "Expense Agent now correctly handles exchange rate dates for transactions"
-- [#12910 [Master] - Bug 652243: [Expense Agent] Validate approval user email](../../../changes/bcapps/12910.md) (code change): "Expense Agent now validates approval user emails correctly"
+- [#12910 [Master] - Bug 652243: [Expense Agent] Validate approval user email](../../../changes/bcapps/12910.md) (code change): "Expense Agent now validates the approval user email"
 - [#12985 [Master] - Bug 654115: [Expense Agent] Cannot submit report with a non-refundable Employee Paid line: 'nothing to refund' blocks release, report stuck in draft](../../../changes/bcapps/12985.md) (code change): "expense reports with non-refundable employee paid lines couldn't be submitted"
 - [#13058 Bug 656064: Expense Agent: Itemization table holds unrounded values, leading to rounding errors. Also missing currency code.](../../../changes/bcapps/13058.md) (code change): "Expense itemization records now store properly rounded currency amounts"
 - [#13184 [29.x] - Bug 656485: [Expense Agent] Add a View rules link below Enforce management rules.](../../../changes/bcapps/13184.md) (code change): "View rules link was added below the Enforce management rules setting"

@@ -2,7 +2,7 @@
 id: source/thatnavguy-com
 type: source
 title: That NAV Guy
-summary: "That NAV Guy (Teddy Herryanto, MVP): 75 posts in the knowledge base, 2025-04-11 to 2026-11-04, mostly about development, administration, platform."
+summary: "That NAV Guy (Teddy Herryanto, MVP): 76 posts in the knowledge base, 2025-04-11 to 2026-11-06, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:14:20.359Z"
+  at: "2026-11-06T00:17:27.413Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 5dcbd83e9de57619edd5b3c633043cb0d105e70b4582ea8633dc5a765520bb2b
+  input_hash: 445417b504a66315cbd78f61494561e356631429424c73fe93e76292c6239da7
 evidence:
   - kind: blog
     url: https://thatnavguy.com
@@ -108,6 +108,7 @@ links:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-85-schedule-pte-extension-updates--b3aee1ab46
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-86-restart-vs-code-extension-host--4b51972468
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-introducing-bc-mission-control--6418abfaea
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-87-check-for-microsoft-apps-on-appsource--f7b48b4e88
   guidelines: []
 source_id: thatnavguy-com
 kind: blog
@@ -115,13 +116,13 @@ url: https://thatnavguy.com
 author: Teddy Herryanto
 mvp: true
 full_text: false
-item_count: 75
+item_count: 76
 footprint:
   systems:
     - id: development
       weight: 74
     - id: administration
-      weight: 28
+      weight: 30
     - id: platform
       weight: 25
     - id: integration
@@ -135,9 +136,9 @@ footprint:
       weight: 22
     - id: user experience
       weight: 9
-    - id: best practices
-      weight: 6
     - id: extensions
+      weight: 7
+    - id: best practices
       weight: 6
     - id: automation
       weight: 5
@@ -178,12 +179,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-04-11"
-last_item: "2026-11-04"
+last_item: "2026-11-06"
 ---
 
 # That NAV Guy
 
-> That NAV Guy (Teddy Herryanto, MVP): 75 posts in the knowledge base, 2025-04-11 to 2026-11-04, mostly about development, administration, platform.
+> That NAV Guy (Teddy Herryanto, MVP): 76 posts in the knowledge base, 2025-04-11 to 2026-11-06, mostly about development, administration, platform.
 
 [https://thatnavguy.com](https://thatnavguy.com) · blog · tier community
 
@@ -192,9 +193,9 @@ last_item: "2026-11-04"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (74) | al development (22) | table Sales Header (4) |
-| administration (28) | user experience (9) | table Sales Invoice Header (3) |
-| platform (25) | best practices (6) | table Item (2) |
-| integration (12) | extensions (6) | table Sales Line (2) |
+| administration (30) | user experience (9) | table Sales Invoice Header (3) |
+| platform (25) | extensions (7) | table Item (2) |
+| integration (12) | best practices (6) | table Sales Line (2) |
 | sales (12) | automation (5) | codeunit Config. Package Management (1) |
 | reporting (11) | developer tools (5) | codeunit Dimension CaptionClass Mgmt (1) |
 |  | performance (5) | codeunit Filter Tokens (1) |
@@ -214,10 +215,11 @@ Items per quarter, oldest first:
 - 2026-Q1: ******* 7
 - 2026-Q2: *********** 11
 - 2026-Q3: ********** 10
-- 2026-Q4: ****** 6
+- 2026-Q4: ******* 7
 
 ## Most recent
 
+- [BC Friday Tips #87 Check for Microsoft Apps on AppSource](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-87-check-for-microsoft-apps-on-appsource--f7b48b4e88.md) (2026-11-06)
 - [Introducing BC Mission Control](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-introducing-bc-mission-control--6418abfaea.md) (2026-11-04)
 - [BC Friday Tips #86 Restart the VS Code Extension Host](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-86-restart-vs-code-extension-host--4b51972468.md) (2026-10-30)
 - [BC Friday Tips #85 Schedule PTE Extension Updates from the Admin Centre](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-85-schedule-pte-extension-updates--b3aee1ab46.md) (2026-10-16)
@@ -237,6 +239,5 @@ Items per quarter, oldest first:
 - [BC Friday Tips #74 Copy Document and Custom Field](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md) (2026-06-26)
 - [BC Tech Days 2026](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-tech-days-2026--908b4ceb5d.md) (2026-06-12)
 - [Same Blog, New Site](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-same-blog-new-site--387af44d7a.md) (2026-06-04)
-- [BC Friday Tips #73 Show All Configuration Package Errors](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-73-show-all-configuration-package-errors--5649986e9b.md) (2026-05-29)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

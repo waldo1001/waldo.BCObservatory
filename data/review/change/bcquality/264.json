@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcquality-prs/264",
+  "input_hash": "c0a553efe376db993840658d119588416110d4e731e3152c501becfbd1401b4e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-06T01:00:07.909Z",
+  "issues": [
+    "change_kind 'feature' is wrong; the PR corrects existing upgrade guidance articles.",
+    "Summary overstates DataTransfer as required regardless of count; the guidance is a preference, not a platform requirement.",
+    "Key points miss that valid ModifyAll calls and needed loops are preserved and that the anti-pattern is limited to unbounded tables."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025872,
+    "changes_in_call": 6
+  }
+}

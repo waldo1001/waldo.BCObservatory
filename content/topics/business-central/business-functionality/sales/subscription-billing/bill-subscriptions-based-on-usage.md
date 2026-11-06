@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:09.180Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -121,6 +121,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12857
+    - change/bcapps/13063
 learn_toc_path:
   - Business functionality
   - Sales
@@ -201,6 +202,7 @@ Start with the overview, then set up a data exchange definition and a supplier b
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12857 [master]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../../changes/bcapps/12857.md) (code change): "Prevents customer credit memo lines from affecting vendor contract billing totals"
+- [#13063 [Bug][Subscription Billing] Rebilling usage data increases the subscription quantity once per subscription line](../../../../../changes/bcapps/13063.md) (code change): "Fixed rebilling of usage data for subscription lines so that subscription quantity increases only once"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -217,6 +217,7 @@ links:
     - post/bertverbeek-nl/1219
     - post/bertverbeek-nl/1237
     - post/bertverbeek-nl/1290
+    - post/jeremyvyska-com/1770
     - post/kauffmann-nl/8436
     - post/yzhums-com/70502
     - post/yzhums-com/71363
@@ -244,7 +245,7 @@ coverage:
   learn: 23
   code: 0
   video: 9
-  blog: 7
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: 2363f50364b2a6e5ec17552aa75d99987877fc7bce7ed791a7189963ccc729d0
@@ -319,6 +320,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Agents in Business Central – part 1 – the architecture](../../../posts/bertverbeek-nl/1219.md) (community post): "Agents in Business Central 27.4 allow you to create"
 - [Agents in Business Central – part 2 – the prompt](../../../posts/bertverbeek-nl/1237.md) (community post): "Building effective agents in Business Central requires well-structured prompts"
 - [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "Agents in Business Central with those created in Copilot"
+- [Fall 2026 Agentic Development Classes: Copilot Refresh, Claude Code, and BCQuality](../../../posts/jeremyvyska-com/1770.md) (community post): "Three standalone agentic development classes for Business Central teams"
 - [Designing Agents for Business Central](../../../posts/kauffmann-nl/8436.md) (community post): "Agent Design Experience in Business Central v27.4 is a sandbox tool for designing, testing, and refining agent instructions"
 - [Business Central 2025 wave 2 (BC27.4): Envision and design AI agents in Business Central (Custom Agent)](../../../posts/yzhums-com/70502.md) (community post): "Custom agents interpret natural language business goals and translate them into actionable steps"
 - [Business Central 2026 release wave 1 (BC28): New template for getting started with creating agents](../../../posts/yzhums-com/71363.md) (community post): "A new Agent template is available via the AL: New Project command"

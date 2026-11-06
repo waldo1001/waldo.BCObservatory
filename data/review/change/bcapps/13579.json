@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13579",
+  "input_hash": "f0cb9ecec72dd4513da1d3a5095cb33454440398bef7919ca52bb98787f5bbde",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-06T01:00:07.909Z",
+  "issues": [
+    "Accurate: OnAfterLogSynchError now receives the inserted local record instead of Rec, with two regression tests."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025872,
+    "changes_in_call": 6
+  }
+}

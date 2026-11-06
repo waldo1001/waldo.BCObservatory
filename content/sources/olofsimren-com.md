@@ -2,7 +2,7 @@
 id: source/olofsimren-com
 type: source
 title: Olof Simren
-summary: "Olof Simren: 13 posts in the knowledge base, 2025-07-29 to 2026-10-26, mostly about manufacturing, administration, copilot."
+summary: "Olof Simren: 14 posts in the knowledge base, 2025-07-29 to 2026-11-05, mostly about manufacturing, administration, copilot."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T08:47:18.430Z"
+  at: "2026-11-06T00:17:27.413Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 87c03ec1665b120b1ba03fbcb4f03dd39d1193c8212ef648c2b306a20352f3a9
+  input_hash: 9043b1dfc27700ca06474adca721c726f7a4f80ae9cfea823bd28b86e571561b
 evidence:
   - kind: blog
     url: https://www.olofsimren.com
@@ -46,6 +46,7 @@ links:
     - post/olofsimren-com/3865
     - post/olofsimren-com/3885
     - post/olofsimren-com/3928
+    - post/olofsimren-com/3981
   guidelines: []
 source_id: olofsimren-com
 kind: blog
@@ -53,11 +54,11 @@ url: https://www.olofsimren.com
 author: Olof Simren
 mvp: false
 full_text: false
-item_count: 13
+item_count: 14
 footprint:
   systems:
     - id: manufacturing
-      weight: 14
+      weight: 15
     - id: administration
       weight: 6
     - id: copilot
@@ -66,14 +67,18 @@ footprint:
       weight: 5
     - id: finance
       weight: 3
-    - id: development
-      weight: 2
+    - id: integration
+      weight: 3
   topics:
     - id: azure openai
+      weight: 2
+    - id: barcode scanning
       weight: 2
     - id: compliance
       weight: 2
     - id: copilot
+      weight: 2
+    - id: mobile app
       weight: 2
     - id: mrp
       weight: 2
@@ -84,10 +89,6 @@ footprint:
     - id: ai development
       weight: 1
     - id: ai explanation
-      weight: 1
-    - id: ai explanations
-      weight: 1
-    - id: ai-driven suggestions
       weight: 1
   objects:
     - id: codeunit 50100
@@ -116,12 +117,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-07-29"
-last_item: "2026-10-26"
+last_item: "2026-11-05"
 ---
 
 # Olof Simren
 
-> Olof Simren: 13 posts in the knowledge base, 2025-07-29 to 2026-10-26, mostly about manufacturing, administration, copilot.
+> Olof Simren: 14 posts in the knowledge base, 2025-07-29 to 2026-11-05, mostly about manufacturing, administration, copilot.
 
 [https://www.olofsimren.com](https://www.olofsimren.com) · blog · tier community
 
@@ -129,16 +130,16 @@ last_item: "2026-10-26"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| manufacturing (14) | azure openai (2) | codeunit 50100 (1) |
-| administration (6) | compliance (2) | codeunit 70666591 (1) |
-| copilot (5) | copilot (2) | other BarcodeScannerProviderAddIn (1) |
-| inventory (5) | mrp (2) | other Capacity Ledger Entries (1) |
-| finance (3) | abc classification (1) | other Copilot Inventory Queries extension (1) |
-| development (2) | access control (1) | other Finished Production Orders (1) |
-|  | ai development (1) | other Item Availability by Event (1) |
-|  | ai explanation (1) | other Item Ledger Entries (1) |
-|  | ai explanations (1) | other Planning Parameter Worksheet (1) |
-|  | ai-driven suggestions (1) | other Planning Worksheet (1) |
+| manufacturing (15) | azure openai (2) | codeunit 50100 (1) |
+| administration (6) | barcode scanning (2) | codeunit 70666591 (1) |
+| copilot (5) | compliance (2) | other BarcodeScannerProviderAddIn (1) |
+| inventory (5) | copilot (2) | other Capacity Ledger Entries (1) |
+| finance (3) | mobile app (2) | other Copilot Inventory Queries extension (1) |
+| integration (3) | mrp (2) | other Finished Production Orders (1) |
+|  | abc classification (1) | other Item Availability by Event (1) |
+|  | access control (1) | other Item Ledger Entries (1) |
+|  | ai development (1) | other Planning Parameter Worksheet (1) |
+|  | ai explanation (1) | other Planning Worksheet (1) |
 |  |  | other Released Production Order (1) |
 |  |  | other Requisition Worksheet (1) |
 
@@ -151,10 +152,11 @@ Items per quarter, oldest first:
 - 2026-Q1: * 1
 - 2026-Q2: ** 2
 - 2026-Q3: ** 2
-- 2026-Q4: *** 3
+- 2026-Q4: **** 4
 
 ## Most recent
 
+- [Shop Floor and Warehouse Mobile for Business Central](../posts/olofsimren-com/3981.md) (2026-11-05)
 - [Business Central Case Study: Engineer-to-Order Manufacturing at Zook](../posts/olofsimren-com/3928.md) (2026-10-26)
 - [Mobile Solutions for Business Central: Why the Native App Is All You Need](../posts/olofsimren-com/3885.md) (2026-10-19)
 - [Business Central Case Study: How World Emblem Automated High-Volume Manufacturing Processes](../posts/olofsimren-com/3865.md) (2026-10-09)

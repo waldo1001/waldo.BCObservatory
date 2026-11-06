@@ -1,23 +1,23 @@
 {
   "week": "2026-W45",
-  "input_hash": "d3cf0b231e021e2d164b808cb7d1f1aa2539bbf0c6a5fd2168bca4d9934b826e",
-  "text": "The one breaking change this week is #13172, which adds structured AI Eval run export and new public GetTaskLogEntryDetails overloads on Agent Task, while removing the old record-based GetLogEntryDetails method. Agent work otherwise centred on Expense Agent and Sales Order Agent: #12985 unblocks reports with non-refundable Employee Paid lines, #13185 fixes itemization rounding and missing currency codes, #13460 escapes special characters in G/L account filters, #13599 warns when saving an inactive agent's setup, and #13495 and #13506 move several AI features to GPT-5.6. Posting and finance fixes include #13396 (partial purchase invoicing across receipts), #13488 (ACY amounts across posting groups), #13417 and #13547 (return orders linked to posted sales invoices), #13336 (reminders when all entries are on hold) and #13228 (dispute status sync). Localization fixes cover French payment slips (#11596, #13472), Swiss SEPA addresses (#13273, #13301) and Belgian Intervat non-deductible VAT (#13481, #13484). Manufacturing got #12161, #12520 and #13608. Smaller items include Fabric read and write scopes (#13476), cloud migration recovery (#13438) and removal of the internal access modifier from E-Document Emailing (#9527). BCQuality added knowledge articles and evaluation changes, including #233 and #253.",
-  "changes": 45,
+  "input_hash": "a8e2483686570a0a3f32f916233bbc13c333de514e8f4bcf7c7cabc6f8563cd6",
+  "text": "The one breaking change this week is #13172 in BCApps: the old record-based GetLogEntryDetails method on Agent Task is removed, GetTaskLogEntryDetails overloads replace it, and AI Eval run data can be exported in structured form. Other behaviour changes are mostly fixes. In posting and finance, #13642 keeps work descriptions on prepayment documents, #13396 fixes partial purchase invoicing across receipts, #13547 and #13417 stop wrong sales order quantity updates after return orders, #13488 corrects ACY amounts when applying across posting groups, and #13336 fixes reminder creation when all entries are on hold. Localization fixes cover NL (#13630), Belgium (#13481, #13484), Switzerland (#13273, #13301) and French payment slips (#13472, #11596). Expense Agent received several fixes and additions, including #12985, #13185, #13460 and #13504. Sales Order Agent changes include #13599, #13469 and a move to GPT-5.6 in #13495, and #13506 does the same for three Copilot features. Quality Management gained #13427, #13560 and #13325. Smaller items include #13579 for the event record context, #13438 for cloud migration recovery and #9527, which removes internal access from E-Document Emailing. BCQuality changes are mainly guidance, such as #255 and #264.",
+  "changes": 55,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.049451999999999996,
-  "at": "2026-11-05T00:14:20.359Z",
+  "cost_usd": 0.057858,
+  "at": "2026-11-06T00:17:27.413Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-05T00:53:59.955Z",
+    "at": "2026-11-06T01:00:37.488Z",
     "verdict": "approve",
     "issues": [
-      "#13506 sits in the Expense Agent and Sales Order Agent sentence, but it upgrades Marketing Text, Sales Lines Suggestions and Item Substitution, not either agent. 'Several AI features' is still accurate, so this is a small framing issue.",
-      "The manufacturing sentence lists #12161, #12520 and #13608 without saying what they fixed (component rounding on production order refresh, Reverse Production Entry with a non-base unit of measure, subcontracting material returns). A short description would help.",
-      "Several flagged behaviour changes are left out, for example #13569, #13504, #13325, #13339, #13340/#13483 and #12683. That is acceptable for a summary of this length."
+      "#13495 moves only the Sales Order Agent's auxiliary model calls to GPT-5.6. 'a move to GPT-5.6' could say this more precisely.",
+      "#9527 is not flagged as a behaviour change. It is listed under 'Smaller items', so the text holds up, but it comes straight after the behaviour-change lists.",
+      "The Quality Management items (#13427, #13560, #13325) are named without saying what they do. A short description of each would make the paragraph more useful."
     ],
-    "input_hash": "d3cf0b231e021e2d164b808cb7d1f1aa2539bbf0c6a5fd2168bca4d9934b826e",
-    "cost_usd": 0.118616,
+    "input_hash": "a8e2483686570a0a3f32f916233bbc13c333de514e8f4bcf7c7cabc6f8563cd6",
+    "cost_usd": 0.143012,
     "applied": [],
     "rejected_edits": []
   }

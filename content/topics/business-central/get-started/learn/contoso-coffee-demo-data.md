@@ -2,20 +2,20 @@
 id: topic/business-central/get-started/learn/contoso-coffee-demo-data
 type: topic
 title: Contoso Coffee demo data
-summary: Contoso Coffee demo data is a fictitious company dataset for learning Business Central. It covers manufacturing, warehousing, service and quality management walkthroughs, and answers questions about setting up the demo data and following each scenario.
+summary: Contoso Coffee demo data is a fictitious company dataset for learning Business Central. It covers manufacturing, warehousing, service and quality management walkthroughs, and answers how to set up the demo data and follow guided scenarios in each area.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:54:17.129Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 1e69c0b614f5aab2112b6ebf519e3915cec60b5f78ef401d4c5e76fe25bad3eb
+  input_hash: 0da6ab6aa263321ac74fa884d5173cde625b6ec7c41d869b02312f6f6ae69876
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/combine-automatic-manual-flushing
@@ -46,13 +46,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/qms-production-output-testing
-    title: Create a sampled inspection automatically from production output
-    date: "2026-09-09"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/qms-purchase-receipt-testing-warehouse
     title: Create an inspection automatically from a warehouse receipt and reinspect the lot
     date: "2026-09-09"
@@ -63,6 +56,20 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/qms-purchase-receipt-testing-simple
     title: Create an inspection manually from item tracking
     date: "2026-09-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/qms-production-output-testing
+    title: Inspect production output
+    date: "2026-11-04"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/quality-inspect-subcontracted-output
+    title: Inspect subcontracted production operations
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
@@ -125,7 +132,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/qms-contoso-coffee-demo-data
     title: Set up Contoso Coffee demo data for quality management
-    date: "2026-09-09"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
@@ -182,14 +189,18 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/contoso-coffee-intro
   objects:
+    - object/page/50
     - object/page/4764
     - object/page/4765
     - object/page/5194
     - object/page/20400
     - object/page/20402
     - object/page/20404
+    - object/page/20405
+    - object/page/20406
     - object/page/20408
     - object/page/20416
+    - object/page/99000831
   features: []
   topics:
     - topic/business-central/get-started/learn
@@ -213,53 +224,57 @@ children:
   - topic/business-central/get-started/learn/contoso-coffee-demo-data/service
   - topic/business-central/get-started/learn/contoso-coffee-demo-data/quality-management
 coverage:
-  learn: 23
-  code: 8
+  learn: 24
+  code: 12
   video: 0
   blog: 0
   guideline: 0
 bc_forms:
+  - 50
   - 4764
   - 4765
   - 5194
   - 20400
   - 20402
   - 20404
+  - 20405
+  - 20406
   - 20408
   - 20416
-member_hash: 08bb5151afcfb9cf7884895c2ea0d16f87da1bbfae107754be6d4483b8b782e8
+  - 99000831
+member_hash: ea289bbb0e8abcc185a9e7089780f8b73a142747cd4857f83a2fc265b5342256
 narrative: generated
 ---
 
 # Contoso Coffee demo data
 
-> Contoso Coffee demo data is a fictitious company dataset for learning Business Central. It covers manufacturing, warehousing, service and quality management walkthroughs, and answers questions about setting up the demo data and following each scenario.
+> Contoso Coffee demo data is a fictitious company dataset for learning Business Central. It covers manufacturing, warehousing, service and quality management walkthroughs, and answers how to set up the demo data and follow guided scenarios in each area.
 
-Path: [Get started](../../get-started.md) > [Learn](../learn.md) > Contoso Coffee demo data · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Get started](../../get-started.md) > [Learn](../learn.md) > Contoso Coffee demo data · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Contoso Coffee demo data gives practitioners a sample company to try Business Central capabilities without using real data. The introduction page explains the demo data and its setup, and lists the modules it covers: manufacturing, warehousing, service and common data, plus configuration.
+Contoso Coffee demo data gives a fictitious company to learn Business Central capabilities without using real data. The introduction page explains the demo data setup and the modules it covers: manufacturing, warehousing, service and common data, plus configuration.
 
-Each subtopic is a set of guided walkthroughs for one area. Manufacturing covers BOMs, routings, capacity, flushing, planning, variants, subcontracting and production orders. Warehousing uses three locations to show basic, mixed and advanced setups. Service covers sample resources, skills, service items and loaner items, with walkthroughs for service orders and contracts. Quality management covers installing its demo data and three inspection scenarios.
+Four subtopics build on it. Manufacturing (11 pages) covers BOMs, routings, capacity, flushing, planning, variants and subcontracting. Warehousing (4 pages) uses three locations to show basic, mixed and advanced setups. Service (3 pages) covers sample resources, skills, service items and loaner items, with walkthroughs for service orders and contracts. Quality management (5 pages) covers inspections in guided scenarios.
 
-Start with the introduction page to set up the demo data, then pick the subtopic that matches the area you want to learn.
+Start with the introduction to set up the demo data, then pick the subtopic for the area you want to learn. Quality management has its own demo data setup page, so use it before running those scenarios.
 
 ## Key points
 
-- The introduction page describes Contoso Coffee as fictitious company data for learning Business Central, covering manufacturing, warehousing, service and common modules.
-- Manufacturing (11 pages): BOMs, routings, capacity, flushing, planning, variants, subcontracting and processing production orders.
-- Warehousing (4 pages): three locations show basic, mixed and advanced configurations for receiving, put-away, picking, moving and shipping.
-- Service (3 pages): sample resources, skills, service items and loaner items, with walkthroughs for service orders and service contracts.
-- Quality management (4 pages): installing the demo data and three inspection scenarios.
-- Quality scenarios: automatic inspection from production output, automatic from a warehouse receipt with reinspection, and manual from purchase item tracking.
+- The introduction page describes Contoso Coffee as fictitious company data for learning Business Central.
+- It spans manufacturing, warehousing, service and common modules, with demo data setup and configuration.
+- Manufacturing walkthroughs (11 pages) cover BOMs, routings, capacity, flushing, planning, variants, subcontracting and production orders.
+- Warehousing (4 pages) has three locations showing basic, mixed and advanced configurations for receiving, put-away, picking, moving and shipping.
+- Service (3 pages) includes sample resources, skills, service items and loaner items, with service order and service contract walkthroughs.
+- Quality management (5 pages) covers demo data setup and inspections from warehouse receipts, item tracking, production output and subcontracted operations.
 
 ## Subtopics
 
 - [Manufacturing](contoso-coffee-demo-data/manufacturing.md) (11 pages)
 - [Warehousing](contoso-coffee-demo-data/warehousing.md) (4 pages)
 - [Service](contoso-coffee-demo-data/service.md) (3 pages)
-- [Quality management](contoso-coffee-demo-data/quality-management.md) (4 pages)
+- [Quality management](contoso-coffee-demo-data/quality-management.md) (5 pages)
 
 ## More Learn pages
 
@@ -270,12 +285,16 @@ Start with the introduction page to set up the demo data, then pick the subtopic
 The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
 
 - [Page 5194 "Contoso Demo Tool"](../../../../objects/page/5194.md) · on [Table 5161 "Contoso Demo Data Module"](../../../../objects/table/5161.md)
+- [Page 50 "Purchase Order"](../../../../objects/page/50.md) · on [Table 38 "Purchase Header"](../../../../objects/table/38.md) · via [Quality management](contoso-coffee-demo-data/quality-management.md)
 - [Page 4764 "Jobs Module Setup"](../../../../objects/page/4764.md) · captioned "Contoso Coffee Project Demo Data" · on [Table 4771 "Jobs Module Setup"](../../../../objects/table/4771.md) · via [Warehousing](contoso-coffee-demo-data/warehousing.md)
 - [Page 4765 "Manufacturing Module Setup"](../../../../objects/page/4765.md) · on [Table 4766 "Manufacturing Module Setup"](../../../../objects/table/4766.md) · via [Manufacturing](contoso-coffee-demo-data/manufacturing.md)
 - [Page 20400 "Qlty. Management Setup"](../../../../objects/page/20400.md) · captioned "Quality Management Setup" · on [Table 20400 "Qlty. Management Setup"](../../../../objects/table/20400.md) · via [Quality management](contoso-coffee-demo-data/quality-management.md)
 - [Page 20402 "Qlty. Inspection Template"](../../../../objects/page/20402.md) · captioned "Quality Inspection Template" · on [Table 20402 "Qlty. Inspection Template Hdr."](../../../../objects/table/20402.md) · via [Quality management](contoso-coffee-demo-data/quality-management.md)
 - [Page 20404 "Qlty. Inspection Template List"](../../../../objects/page/20404.md) · captioned "Quality Inspection Templates" · on [Table 20402 "Qlty. Inspection Template Hdr."](../../../../objects/table/20402.md) · via [Quality management](contoso-coffee-demo-data/quality-management.md)
+- [Page 20405 "Qlty. Inspection Gen. Rules"](../../../../objects/page/20405.md) · captioned "Quality Inspection Generation Rules" · on [Table 20404 "Qlty. Inspection Gen. Rule"](../../../../objects/table/20404.md) · via [Quality management](contoso-coffee-demo-data/quality-management.md)
+- [Page 20406 "Qlty. Inspection"](../../../../objects/page/20406.md) · captioned "Quality Inspection" · on [Table 20405 "Qlty. Inspection Header"](../../../../objects/table/20405.md) · via [Quality management](contoso-coffee-demo-data/quality-management.md)
 - [Page 20408 "Qlty. Inspection List"](../../../../objects/page/20408.md) · captioned "Quality Inspections" · on [Table 20405 "Qlty. Inspection Header"](../../../../objects/table/20405.md) · via [Quality management](contoso-coffee-demo-data/quality-management.md)
 - [Page 20416 "Qlty. Inspection Result List"](../../../../objects/page/20416.md) · captioned "Quality Inspection Results" · on [Table 20411 "Qlty. Inspection Result"](../../../../objects/table/20411.md) · via [Quality management](contoso-coffee-demo-data/quality-management.md)
+- [Page 99000831 "Released Production Order"](../../../../objects/page/99000831.md) · on [Table 5405 "Production Order"](../../../../objects/table/5405.md) · via [Quality management](contoso-coffee-demo-data/quality-management.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

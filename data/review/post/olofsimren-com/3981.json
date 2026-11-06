@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/olofsimren-com/3981",
+  "input_hash": "d0d4fc4efb44e8af63d6ae7b07b73d16ffb2c5b2c2bb2576dc6517b049771dea",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-06T00:59:22.716Z",
+  "issues": [
+    "The summary, key points, features and the Time Entry table are all supported by the post.",
+    "In both quotes, the post's long dashes became hyphens. The wording is otherwise unchanged, so the quotes stay.",
+    "The key point saying BarTender printing needs no separate infrastructure stretches the post slightly, but it is close enough to the post's comparison with print node setups."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031365,
+    "posts_in_call": 3
+  }
+}

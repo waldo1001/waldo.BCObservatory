@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -439,8 +439,8 @@ links:
     - video/xqFpiqmXjk0
   posts:
     - post/olofsimren-com/3545
+    - post/olofsimren-com/3981
     - post/yzhums-com/63708
-    - post/yzhums-com/65570
     - post/yzhums-com/71239
     - post/yzhums-com/72006
     - post/yzhums-com/74091
@@ -672,8 +672,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9803 [master] Variant Code mandatory should not allow to refresh the production order with no variant code](../../../changes/bcapps/9803.md) (code change): "Variant Code mandatory should not allow to refresh the production order"
 - [#9967 [Main]-Production BOM Version certification does not check Variant Mandatory on lines](../../../changes/bcapps/9967.md) (code change): "Production BOM Version certification now validates that variant codes are populated"
 - [Reopen Finished Production Orders](../../../posts/olofsimren-com/3545.md) (community post): "Reopen Finished Production Orders. Business Central now allows users to reopen finished production orders"
+- [Shop Floor and Warehouse Mobile for Business Central](../../../posts/olofsimren-com/3981.md) (community post): "enables real-time data capture directly on shop floors with barcode scanning and task-focused pages"
 - [Business Central 2025 wave 1 (BC26): Experience improved usability in manufacturing](../../../posts/yzhums-com/63708.md) (community post): "improved usability in manufacturing with bulk status changes for production orders"
-- [Dynamics 365 Business Central Blog Series: Adding Barcodes](../../../posts/yzhums-com/65570.md) (community post): "printing barcodes from production orders work without customization"
 - [Business Central 2026 release wave 1 (BC28): Add the Description 2 field to various pages to gain more insight (planning, routing, production order creation, and related processes)](../../../posts/yzhums-com/71239.md) (community post): "Description 2 field is now available for personalization on multiple pages in Business Central 2026"
 - [Business Central 2026 release wave 1 (BC28): Experience improved usability in manufacturing](../../../posts/yzhums-com/72006.md) (community post): "BC28 (2026 wave 1) improves manufacturing usability by enhancing serial-tracked item handling"
 - [Dynamics 365 Business Central: How to quickly create Production Orders from Sales Orders](../../../posts/yzhums-com/74091.md) (community post): "Production orders can be created directly from sales orders in Business Central"

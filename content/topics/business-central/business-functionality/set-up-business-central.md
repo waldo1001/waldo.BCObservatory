@@ -2,20 +2,20 @@
 id: topic/business-central/business-functionality/set-up-business-central
 type: topic
 title: Set up Business Central
-summary: "Set up Business Central covers initial and ongoing configuration: company information, number series, base calendars, report selection, online maps, change auditing, and desktop and mobile apps. It also leads to setup subtopics for finance, sales, purchase, inventory, warehouse, manufacturing, email, printers and data import."
+summary: "Setting up Business Central: company-wide setup (company information, number series, base calendars, report selection, online maps, change log auditing, desktop and mobile apps) plus subtopics for configuring each application area. It answers how-to-configure questions and helps pick the right setup area."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-06T01:02:03.309Z"
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f65afceeee5fde4a570fbf5b6d822075b231be600eb85f713705ad2c7fba71bb
+  input_hash: 3b0924488234a9d5cf53f90e6844b597204ab7ef9a775d83639832c71a0cd94d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-how-enable-application-ledger-entries-different-currencies
@@ -1162,28 +1162,28 @@ narrative: generated
 
 # Set up Business Central
 
-> Set up Business Central covers initial and ongoing configuration: company information, number series, base calendars, report selection, online maps, change auditing, and desktop and mobile apps. It also leads to setup subtopics for finance, sales, purchase, inventory, warehouse, manufacturing, email, printers and data import.
+> Setting up Business Central: company-wide setup (company information, number series, base calendars, report selection, online maps, change log auditing, desktop and mobile apps) plus subtopics for configuring each application area. It answers how-to-configure questions and helps pick the right setup area.
 
-Path: [Business functionality](../business-functionality.md) > Set up Business Central · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../business-functionality.md) > Set up Business Central · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section describes how to get Business Central ready for use. Its own pages cover cross-cutting setup: an overview of setup tasks (assisted setup guides, configuration packages), company information, number series, base calendars, report selection, online maps, and auditing setup changes. Two pages explain how to get the desktop app (Windows, macOS) and the mobile app.
+This section covers what to configure before using Business Central. Its own pages handle company-wide items: an overview of setup tasks, company information and badges, number series, base calendars, report selection, online maps, auditing setup changes with the Change Log, and getting the desktop and mobile apps.
 
-The subtopics go deeper by area. Finance, banking, sales, purchase, inventory, project management, fixed assets, warehouse, manufacturing, quality management and service management each cover the configuration needed before that process can be used. Others cover email, approval workflows from templates, printers, importing data (QuickBooks, Excel, configuration packages), and best practices for costing methods and supply planning.
+The subtopics cover each functional area: finance, banking, sales, purchase, inventory, project management, fixed assets, warehouse management, manufacturing, quality management and service management. Others cover shared services: email, printers, approval workflows and data import. A further subtopic gives best practices for costing methods and supply planning.
 
-Start with "Overview of tasks to set up Business Central" to see the order of tasks. Then set up company information, number series and base calendars, and move to the subtopic for the business area you are configuring.
+Start with "Overview of tasks to set up Business Central" to see the assisted setup guides and the order of tasks. Then set up company information, number series and base calendars, and move on to the area subtopics you need.
 
 ## Key points
 
-- The setup overview covers assisted setup guides, configuration packages, base calendars, number series, email and printer setup.
-- Number series assign unique codes to records, with options for Manual Nos., Default Nos. and Allow Gaps in Nos.
+- Overview page lists setup tasks: assisted setup guides, configuration packages, base calendars, number series, email and printer setup.
+- Company information covers headquarters and warehouse addresses, company badge, display name, company switcher and experience selection.
+- Number series assign unique sequential codes; options include Manual Nos., Default Nos., Allow Gaps in Nos., Number Series Lines and Relationships.
 - Base calendars define working and non-working days for date calculations in orders and production planning.
-- Company information includes addresses, company badge, display name and experience selection.
+- Change Log captures setup changes by table, with email notifications for sensitive fields; automatic tracking of financial report changes starts in 2026 release wave 2.
 - Report selection sets default reports and layouts for printing and emailing sales, purchase, service and other documents.
-- Change Log captures setup changes by table, with email notifications for sensitive fields; automatic financial report tracking starts in 2026 release wave 2.
-- Desktop app runs on Windows and macOS and supports multiple online environments; the mobile app supports cloud and on-premises.
-- Import data offers QuickBooks Desktop and Online migration extensions, or Excel and configuration packages.
+- Desktop app runs on Windows and macOS with multi-environment support; the mobile app is on App Store and Google Play for cloud and on-premises.
+- Area subtopics cover finance, banking, sales, purchase, inventory, projects, fixed assets, warehouse, manufacturing, quality, service, email, printers, approvals and data import.
 
 ## Subtopics
 

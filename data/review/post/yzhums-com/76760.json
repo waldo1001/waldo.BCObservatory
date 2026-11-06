@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/yzhums-com/76760",
+  "input_hash": "a1233adc7e9ac79920208fd0920bdf263f06ae822ed266bb6ef467f04fef4511",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-06T00:59:22.716Z",
+  "issues": [
+    "One key point is wrong: it calls 593 a table, but 593 is the ID of the Change Log Setup (Table) List page. That page and the field list page use the system tables AllObjWithCaption and Field as their sources.",
+    "The post is about setting up the change log through configuration packages, which is administration work, not development. The development system is dropped.",
+    "The summary, the objects and both quotes match the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031365,
+    "posts_in_call": 3
+  }
+}

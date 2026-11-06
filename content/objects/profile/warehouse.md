@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:45:06.377Z"
+  at: "2026-11-06T00:50:42.930Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: db23c8f112aaaeed9edb47696c6257643e85f4c57faec0a6372c16203066d73c
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Layers/W1/BaseApp/Warehouse/RoleCenters/Warehouse.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Layers/W1/BaseApp/Warehouse/RoleCenters/Warehouse.Profile.al
     title: src/Layers/W1/BaseApp/Warehouse/RoleCenters/Warehouse.Profile.al (releases/29.x)
     date: null
-    commit: 1c51b1f77ed32c7267d68456850d9d93296821d3
+    commit: 7af2f8d2e22b684ec7b2455c7baf1007da944ac5
     t: null
     quote: null
 links:
@@ -83,7 +83,7 @@ relations:
 
 > Profile "WAREHOUSE" in Base Application (Microsoft.Warehouse.RoleCenters). Present since at least BC23, still in BC30, changed in BC25.
 
-Base Application · Microsoft.Warehouse.RoleCenters · captioned "Inventory and Warehouse" · BC23-30 · [source at 1c51b1f7](https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Layers/W1/BaseApp/Warehouse/RoleCenters/Warehouse.Profile.al) · facts from BC29
+Base Application · Microsoft.Warehouse.RoleCenters · captioned "Inventory and Warehouse" · BC23-30 · [source at 7af2f8d2](https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Layers/W1/BaseApp/Warehouse/RoleCenters/Warehouse.Profile.al) · facts from BC29
 
 ## Properties
 

@@ -7,14 +7,14 @@
   "words": 352,
   "summary": "The post explains how to import Change Log Setup configuration (tables and fields) efficiently using Configuration Packages. Instead of setting up each table and field individually, you can use three specific tables (Change Log Setup, Change Log Setup (Table), and Change Log Setup (Field)) to bulk import the configuration via packages.",
   "key_points": [
-    "Change log tracks all direct modifications users make to database data in specified tables and fields",
-    "Manual configuration of individual tables and fields is time-consuming",
-    "Three specific tables enable Change Log Setup import via Configuration Packages: tables 402, 403, and 404",
-    "Change Log Setup (Table 593) and Change Log Setup (Field) lists use system tables that cannot be imported directly through packages"
+    "The change log records direct user changes to data in the tables and fields you choose to track",
+    "Setting up each tracked table and field by hand takes a long time",
+    "The setup list pages (593 and 594) are based on the system tables AllObjWithCaption and Field, so importing through those pages is not the route",
+    "Instead, put tables 402 Change Log Setup, 403 Change Log Setup (Table) and 404 Change Log Setup (Field) in a configuration package",
+    "Export a few sample settings first, then use the export as a template for the import"
   ],
   "systems": [
-    "administration",
-    "development"
+    "administration"
   ],
   "topics": [
     "change log",

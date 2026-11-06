@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:35.729Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,7 +43,8 @@ links:
   localizations: []
   videos:
     - video/QfOgUCXg94o
-  posts: []
+  posts:
+    - post/olofsimren-com/3981
   guidelines: []
   changes:
     - change/bcapps/12541
@@ -58,7 +59,7 @@ coverage:
   learn: 2
   code: 0
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 9ccdd9e7e9bad805088944decb0326d86609c8ea8f5410293df87f6fb89326ee
@@ -99,6 +100,7 @@ There are no subtopics. Start with the availability page if you are investigatin
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12541 Preserve transfer line UOM when toggling Direct Transfer](../../../../changes/bcapps/12541.md) (code change): "Warehouse protection is made explicit: mode changes are rejected only when matching warehouse lines exist"
+- [Shop Floor and Warehouse Mobile for Business Central](../../../../posts/olofsimren-com/3981.md) (community post): "Solution is built entirely as an AL extension inside Business Central, extending existing production orders and warehouse documents"
 - [What's New: Concurrency in Warehousing (2024 release wave 1)](../../../../videos/QfOgUCXg94o.md) (video): "Concurrent warehouse entry posting"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

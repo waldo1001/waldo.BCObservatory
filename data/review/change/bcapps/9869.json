@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9869",
+  "input_hash": "f38e359968fe353d16d7d6efbe3f8f27e498812503fdd240634fcee115e7088c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-06T01:00:07.909Z",
+  "issues": [
+    "Key point 'Part of System Application sync' is not supported; it conflates labels."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025872,
+    "changes_in_call": 6
+  }
+}

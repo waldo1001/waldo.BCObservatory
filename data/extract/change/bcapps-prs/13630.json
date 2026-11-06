@@ -6,13 +6,13 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "The NL CBG Statement Line now handles applies-to IDs consistently as Code[50] across all related declarations and APIs, fixing failures when longer valid IDs are processed during payment tolerance management.",
+  "summary": "In the NL CBG Statement Line, New Applies-to ID now returns Code[50] and payment tolerance handling stores the ID as Code[50], matching the existing field length. Longer valid applies-to IDs no longer fail during generation, increment or payment tolerance processing.",
   "key_points": [
-    "Aligns Code[20] declarations in Payment Tolerance Management and New Applies-to ID to the existing Code[50] field",
-    "Enables the first bank ID to retain the full 20-character statement document number plus numeric suffix without truncation",
-    "Adds five new tests covering 10-, 20-, 21-, and 50-character applies-to IDs, numeric carry, persistence, and payment tolerance workflows",
-    "Updates existing 10,000-line counter test to use Code[50] receiving variable",
-    "Preserves existing counter increment, suffix, cash-journal selection and payment tolerance logic"
+    "New Applies-to ID return type and the PmtTolCBGJnl local variable changed from Code[20] to Code[50]",
+    "First bank ID can keep the full 20-character statement document number plus its numeric suffix",
+    "Existing increment, suffix, cash-journal selection and payment tolerance logic are unchanged",
+    "Five tests added covering 10, 20, 21 and 50 character IDs, numeric carry, persistence and payment tolerance",
+    "Existing 10,000-line counter test updated to use a Code[50] variable"
   ],
   "change_kind": "fix",
   "behavior_change": true,

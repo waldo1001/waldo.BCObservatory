@@ -7,12 +7,12 @@ tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-06T01:02:08.355Z"
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -395,7 +395,7 @@ narrative: generated
 
 > Administration of Business Central online covers how internal administrators and delegated partners manage tenants and environments, users, licensing, updates, telemetry, support, onboarding and migration. It answers how-to, limit and reference questions across these tasks.
 
-Path: Administration · tier official · system administration · narrative **unreviewed** (model text not yet checked)
+Path: Administration · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -403,7 +403,7 @@ The section starts with a page on administering Business Central online tenants,
 
 For basics, start with "Understand Business Central online" (tenants, environments, companies, update cycles, limits, availability) and "Entitlements and permissions" (license plans, permission sets). Day-to-day environment work sits in "Admin center", which has an Admin Center API subtopic. Setting up and onboarding new customers is covered in "Prepare Business Central" and "Onboard your customers".
 
-Operations and integration topics follow. "Monitor and analyze telemetry" covers Application Insights, KQL, Power BI, alerts, cost and event IDs. "Manage technical support" covers diagnostics and escalation. "Automation API" and "Cloud Migration API" cover the APIs, and "Migrate to Business Central online" covers moving from on-premises Business Central, NAV, GP, SL or other SQL sources. The summaries for the two API subtopics were not provided.
+Operations and integration topics follow. "Monitor and analyze telemetry" covers Application Insights, KQL, Power BI, alerts, cost and event IDs. "Manage technical support" covers diagnostics and escalation. "Automation API" and "Cloud Migration API" cover the APIs, and "Migrate to Business Central online" covers moving from on-premises Business Central, NAV, GP, SL or other SQL sources.
 
 ## Key points
 

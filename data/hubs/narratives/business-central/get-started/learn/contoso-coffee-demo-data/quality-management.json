@@ -1,34 +1,24 @@
 {
   "hub_id": "topic/business-central/get-started/learn/contoso-coffee-demo-data/quality-management",
-  "input_hash": "ae3c977a8269404a6c6619fd729d29f92f4de03bc97fd54090b62a3c04ddbc71",
-  "summary": "Quality management demo scenarios in the Contoso Coffee demo data. Covers installing the demo data and walking through three inspection scenarios: automatic from production output, automatic from a warehouse receipt with reinspection, and manual from purchase item tracking.",
-  "overview": "This section is part of the Contoso Coffee demo data and is meant for testing and training on quality management. It has no subtopics, only four pages: one setup page and three scenario walkthroughs.\n\nStart with the setup page, which explains how to install and generate the Contoso Coffee demo data for quality management. It provides sample templates, tests, results and generation rules for purchase and production inspections. The three scenario pages then use that data, each showing a different way an inspection gets created: automatically when production output is posted, automatically when a warehouse receipt is posted (followed by a reinspection of the lot), and manually from a purchase order's item-tracking line before the receipt is posted.",
+  "input_hash": "f4b7b4b1915b268578530508ebd611c1485bbe47668735e6cd5262d9398925e4",
+  "summary": "Quality management demos in the Contoso Coffee demo data cover setting up the demo data and running quality inspections from warehouse receipts, item tracking, production output, and subcontracted operations. It answers how to create, trigger and finish inspections in guided scenarios.",
+  "overview": "This section is a set of guided walkthroughs for the Quality Management app, built on Contoso Coffee demo data. The demo data setup page installs the quality tests, templates, results and inspection generation rules that the other pages rely on.\n\nThe scenarios fall into two groups. For purchasing and warehouse, one page creates an inspection automatically when a warehouse receipt is posted and then reinspects a failed lot. Another creates an inspection manually from a purchase order's item-tracking line before the receipt is posted. For production, one page inspects Airpot production output using posting conditions and fixed sample sizes. Another inspects subcontracted operations for serial-tracked items.\n\nStart with the demo data setup page, then pick the scenario that matches the trigger you want to explore: warehouse receipt, manual item tracking, production order output, or subcontracting.",
   "key_points": [
-    "Setup page installs and generates Contoso Coffee demo data for quality management, including templates, tests, results and generation rules for purchase and production inspections.",
-    "Production scenario: posting production output automatically creates a sampled inspection when the production template has tests and a sample amount set (fixed quantity sampling). The walkthrough includes completing the inspection.",
-    "Warehouse scenario: posting a warehouse receipt automatically creates an inspection for lot-tracked items. After the initial inspection fails, a reinspection is created.",
-    "The warehouse scenario also includes registering the warehouse put-away.",
-    "Manual scenario: create an inspection from a purchase order's item-tracking line before posting the receipt, with lot assignment and test value entry.",
-    "The manual scenario also covers a certificate of analysis."
+    "Set up Contoso Coffee demo data first by installing Demo Data. It provides quality tests, templates, results and inspection generation rules.",
+    "Posting a warehouse receipt can automatically create a quality inspection for lot-tracked items. If the inspection fails, you can create a reinspection.",
+    "An inspection can be created manually from a purchase order's item-tracking line before posting the receipt. This includes lot assignment, test value entry and a certificate of analysis.",
+    "Inspecting Airpot production output shows setup time posted without inspections. Run-time postings create inspections with fixed sample sizes.",
+    "Production order triggers, posting conditions and sample source configuration control when production inspections are generated.",
+    "Subcontracted operations use quality inspection templates triggered when production output is posted. The demo uses subcontracting purchase orders and serial-tracked items.",
+    "Inspections for subcontracted work can be filtered by production order."
   ],
-  "members_used": 4,
+  "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-06T14:22:55.575Z",
+  "at": "2026-11-06T01:01:26.910Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.038033000000000004
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:26:12.303Z",
-    "verdict": "fix",
-    "issues": [
-      "Key point 'Each scenario ends with completing the inspection' is not supported. Only the production output page lists inspection completion as a feature. The warehouse receipt and manual item-tracking pages do not mention it, so the point was removed."
-    ],
-    "input_hash": "ae3c977a8269404a6c6619fd729d29f92f4de03bc97fd54090b62a3c04ddbc71",
-    "cost_usd": 0.025775199999999998
+    "cost_usd": 0.015615999999999998
   }
 }

@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:15:36.529Z"
+  at: "2026-11-06T00:17:27.413Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 42d45c866c99c40c59943deca8ef9b3ec321ed3e
@@ -23,7 +23,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/knowledge/al-knowledge.md
     title: "microsoft/BCQuality: AL knowledge consultation"
     date: "2026-11-04"
-    commit: c203ebc862a6dc9a35fcb7a50110a96e0bae6f55
+    commit: 9b72501fc3199e6f8c776b4fe3aeb1a11e5dfaee
     t: null
     quote: null
 links:
@@ -36,6 +36,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/260
     - change/bcquality/222
 repo_path: microsoft/skills/knowledge/al-knowledge.md
 layer: microsoft
@@ -125,8 +126,9 @@ requires a reason and only cites articles actually read; `failed` cites none.
 
 ## Changed by
 
+- [#260 Fix al-knowledge follow-ups and document the skill](../../../../changes/bcquality/260.md), 2026-11-04
 - [#222 Add cited knowledge consultation skill for Business Central](../../../../changes/bcquality/222.md), 2026-10-30
 
 ---
 
-From microsoft/BCQuality at c203ebc, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 9b72501, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

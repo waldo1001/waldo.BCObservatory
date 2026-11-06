@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:19:57.571Z"
+  at: "2026-11-06T00:17:27.413Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 40c7200db8639e81976c3e0e1a14edf918ef8648
@@ -45,6 +45,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/264
     - change/bcquality/174
     - change/bcquality/93
     - change/bcquality/87
@@ -114,6 +115,7 @@ See sample: [`datatransfer-skips-triggers-and-subscribers.bad.al`](https://githu
 
 ## Changed by
 
+- [#264 knowledge(upgrade): clarify DataTransfer defaults and bypass safety](../../../../changes/bcquality/264.md), 2026-11-05
 - [#174 Make BCQuality documentation easier for partners to get started](../../../../changes/bcquality/174.md), 2026-09-09
 - [#93 Fix lifecycle compatibility guidance](../../../../changes/bcquality/93.md), 2026-07-14
 - [#87 Fix knowledge corpus integrity issues](../../../../changes/bcquality/87.md), 2026-07-13

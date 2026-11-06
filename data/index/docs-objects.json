@@ -2,11 +2,11 @@
   "inputs": {
     "commits": {
       "28": "9f093dc322b24589525e7e4bc70177af85620cd2",
-      "29": "1c51b1f77ed32c7267d68456850d9d93296821d3",
+      "29": "7af2f8d2e22b684ec7b2455c7baf1007da944ac5",
       "30": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
     },
-    "forms": 1731,
-    "forms_hash": "647bee07f7cd5fb252a750c7129113696ca229a64ebfebe2dbfb41acd66e57f7"
+    "forms": 1732,
+    "forms_hash": "cf984d52cfe185ecc536aa095e7f58af9af41c63bec95cbe8b00bdb1f216b09d"
   },
   "majors": [
     "28",
@@ -15,11 +15,11 @@
   ],
   "commits": {
     "28": "9f093dc322b24589525e7e4bc70177af85620cd2",
-    "29": "1c51b1f77ed32c7267d68456850d9d93296821d3",
+    "29": "7af2f8d2e22b684ec7b2455c7baf1007da944ac5",
     "30": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
   },
-  "docs": 1595,
-  "links": 5342,
+  "docs": 1596,
+  "links": 5347,
   "by_doc": {
     "docs/learn-devitpro/dev-itpro/administration/apply-company-configuration-packages.md": [
       {
@@ -52352,6 +52352,74 @@
         "obsolete": null
       }
     ],
+    "docs/learn-smb-docs/business-central/quality-inspect-subcontracted-output.md": [
+      {
+        "key": "page/20400",
+        "name": "Qlty. Management Setup",
+        "versions": [
+          "29",
+          "30"
+        ],
+        "countries": [
+          "apps"
+        ],
+        "obsolete": null
+      },
+      {
+        "key": "page/20405",
+        "name": "Qlty. Inspection Gen. Rules",
+        "versions": [
+          "29",
+          "30"
+        ],
+        "countries": [
+          "apps"
+        ],
+        "obsolete": null
+      },
+      {
+        "key": "page/20406",
+        "name": "Qlty. Inspection",
+        "versions": [
+          "29",
+          "30"
+        ],
+        "countries": [
+          "apps"
+        ],
+        "obsolete": null
+      },
+      {
+        "key": "page/99000831",
+        "name": "Released Production Order",
+        "versions": [
+          "28",
+          "29",
+          "30"
+        ],
+        "countries": [
+          "w1"
+        ],
+        "obsolete": null
+      },
+      {
+        "key": "page/50",
+        "name": "Purchase Order",
+        "versions": [
+          "28",
+          "29",
+          "30"
+        ],
+        "countries": [
+          "ca",
+          "it",
+          "mx",
+          "us",
+          "w1"
+        ],
+        "obsolete": null
+      }
+    ],
     "docs/learn-smb-docs/business-central/quick-start-company-information.md": [
       {
         "key": "page/1",
@@ -71839,6 +71907,12 @@
         "id": "docs/learn-smb-docs/business-central/purchasing-how-record-purchases.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-record-purchases",
         "title": "Record purchases with purchase invoices",
+        "via": "ms.search.form"
+      },
+      {
+        "id": "docs/learn-smb-docs/business-central/quality-inspect-subcontracted-output.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/quality-inspect-subcontracted-output",
+        "title": "Inspect subcontracted production operations",
         "via": "ms.search.form"
       },
       {
@@ -93432,7 +93506,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/qms-production-output-testing.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/qms-production-output-testing",
-        "title": "Create a sampled inspection automatically from production output",
+        "title": "Inspect production output",
         "via": "ms.search.form"
       },
       {
@@ -93476,6 +93550,12 @@
         "url": "https://learn.microsoft.com/dynamics365/business-central/qms-troubleshooting",
         "title": "Troubleshoot quality management features",
         "via": "ms.search.form"
+      },
+      {
+        "id": "docs/learn-smb-docs/business-central/quality-inspect-subcontracted-output.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/quality-inspect-subcontracted-output",
+        "title": "Inspect subcontracted production operations",
+        "via": "ms.search.form"
       }
     ],
     "page/20402": [
@@ -93488,7 +93568,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/qms-production-output-testing.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/qms-production-output-testing",
-        "title": "Create a sampled inspection automatically from production output",
+        "title": "Inspect production output",
         "via": "ms.search.form"
       },
       {
@@ -93544,7 +93624,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/qms-production-output-testing.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/qms-production-output-testing",
-        "title": "Create a sampled inspection automatically from production output",
+        "title": "Inspect production output",
         "via": "ms.search.form"
       },
       {
@@ -93590,11 +93670,25 @@
         "via": "ms.search.form"
       }
     ],
+    "page/20405": [
+      {
+        "id": "docs/learn-smb-docs/business-central/quality-inspect-subcontracted-output.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/quality-inspect-subcontracted-output",
+        "title": "Inspect subcontracted production operations",
+        "via": "ms.search.form"
+      }
+    ],
     "page/20406": [
       {
         "id": "docs/learn-smb-docs/business-central/qms-manual-test-creation.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/qms-manual-test-creation",
         "title": "Work with quality inspections",
+        "via": "ms.search.form"
+      },
+      {
+        "id": "docs/learn-smb-docs/business-central/quality-inspect-subcontracted-output.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/quality-inspect-subcontracted-output",
+        "title": "Inspect subcontracted production operations",
         "via": "ms.search.form"
       }
     ],
@@ -93628,7 +93722,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/qms-production-output-testing.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/qms-production-output-testing",
-        "title": "Create a sampled inspection automatically from production output",
+        "title": "Inspect production output",
         "via": "ms.search.form"
       },
       {
@@ -93684,7 +93778,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/qms-production-output-testing.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/qms-production-output-testing",
-        "title": "Create a sampled inspection automatically from production output",
+        "title": "Inspect production output",
         "via": "ms.search.form"
       },
       {
@@ -102713,6 +102807,12 @@
         "id": "docs/learn-smb-docs/business-central/production-about-production-orders.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/production-about-production-orders",
         "title": "About production orders",
+        "via": "ms.search.form"
+      },
+      {
+        "id": "docs/learn-smb-docs/business-central/quality-inspect-subcontracted-output.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/quality-inspect-subcontracted-output",
+        "title": "Inspect subcontracted production operations",
         "via": "ms.search.form"
       },
       {

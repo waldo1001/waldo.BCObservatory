@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:14:20.359Z"
+  at: "2026-11-06T00:17:27.413Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9a483844d1177ae8721ea240a024c148ae7e0e7d
@@ -32,7 +32,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/page-design-must-match-bc-page-type-conventions.md
     title: "microsoft/BCQuality: Pages must match one of Business Central's page-type conventions"
     date: "2026-11-04"
-    commit: c203ebc862a6dc9a35fcb7a50110a96e0bae6f55
+    commit: 9b72501fc3199e6f8c776b4fe3aeb1a11e5dfaee
     t: null
     quote: null
 links:
@@ -176,4 +176,4 @@ See sample: [`page-design-must-match-bc-page-type-conventions.bad.al`](https://g
 
 ---
 
-From microsoft/BCQuality at c203ebc, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 9b72501, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:55.812Z"
   flags: []
 generated:
-  at: "2026-11-02T00:57:11.355Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,6 +43,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/year-close-books
     title: Closing the books
     date: "2024-08-05"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/finance-prepare-audit-pbc-checklist
+    title: Gather information for an audit with reports
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
@@ -115,6 +122,7 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/year-close-years-periods
     - https://learn.microsoft.com/dynamics365/business-central/year-close-income-statement
     - https://learn.microsoft.com/dynamics365/business-central/year-close-books
+    - https://learn.microsoft.com/dynamics365/business-central/finance-prepare-audit-pbc-checklist
     - https://learn.microsoft.com/dynamics365/business-central/year-how-complete-period-end-processes
     - https://learn.microsoft.com/dynamics365/business-central/year-prepare-preclose-reports
     - https://learn.microsoft.com/dynamics365/business-central/year-prepare-close-statement
@@ -174,7 +182,7 @@ toc_file: business-central/TOC.md
 parent: topic/business-central/business-functionality/finance
 children: []
 coverage:
-  learn: 13
+  learn: 14
   code: 24
   video: 0
   blog: 5
@@ -204,7 +212,7 @@ bc_forms:
   - 1394
   - 5629
   - 9401
-member_hash: cf60b84306ed2d68b48915f1b1870b7482e350eab18c093898ebdfa68191cb3c
+member_hash: 036c30f7dd2a0a77f7d30cb3306b300036123b1fadaef0440278a0099e422e6d
 narrative: generated
 ---
 
@@ -241,6 +249,7 @@ Start with "Close fiscal years and accounting periods" or "Closing the books" fo
   - In the observatory: [Report 94 "Close Income Statement"](../../../../objects/report/94.md)
 - [Closing the books](https://learn.microsoft.com/dynamics365/business-central/year-close-books): Learn about the process of closing the books for a fiscal year or period, and what happens after you close at the end of a year.
   - In the observatory: [Page 100 "Accounting Periods"](../../../../objects/page/100.md)
+- [Gather information for an audit with reports](https://learn.microsoft.com/dynamics365/business-central/finance-prepare-audit-pbc-checklist): Match year-end audit PBC requests to Business Central reports and pages, reconcile balances, and identify the supporting documents to gather separately.
 - [Optional activities for closing periods](https://learn.microsoft.com/dynamics365/business-central/year-how-complete-period-end-processes): This article outlines the optional processes and activities for closing accounting periods in Business Central.
   - In the observatory: [Page 108 "Financial Reports"](../../../../objects/page/108.md)
 - [Overview of pre-closing reports to verify account accuracy](https://learn.microsoft.com/dynamics365/business-central/year-prepare-preclose-reports): Provides an overview of the reports you can use to verify the accuracy of accounts before closing the books at the end of a year or period.

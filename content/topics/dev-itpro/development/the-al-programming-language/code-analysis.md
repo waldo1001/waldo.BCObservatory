@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-02T00:57:11.355Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -86,6 +86,7 @@ links:
     - video/tMqCSibSRug
   posts:
     - post/gerardorenteria-blog/11565
+    - post/jeremyvyska-com/1770
     - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f
     - post/vondervoort-be/130
     - post/vondervoort-be/147
@@ -132,7 +133,7 @@ coverage:
   learn: 7
   code: 0
   video: 3
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -189,6 +190,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#204 Validate composed reviews against the expected leaf worklist](../../../../changes/bcquality/204.md) (code change): "Validate composed reviews against the expected leaf worklist. The findings-report validator"
 - [#54 Emit human-readable domain label on review findings](../../../../changes/bcquality/54.md) (code change): "BCQuality review leaves now set an optional human-readable domain label on every finding"
 - [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../../../../posts/gerardorenteria-blog/11565.md) (community post): "Analyzer rule additions validate field classifications (AS0138, AS0139, PTE0026)"
+- [Fall 2026 Agentic Development Classes: Copilot Refresh, Claude Code, and BCQuality](../../../../posts/jeremyvyska-com/1770.md) (community post): "BCQuality integration for consistent code quality"
 - [Introducing ALCops — LinterCop's Next Chapter](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f.md) (community post): "ALCops is a complete replacement for LinterCop that splits code analysis into six domain-specific analyzers"
 - [ALCops: The Next Chapter of LinterCop](../../../../posts/vondervoort-be/130.md) (community post): "code analyzer collection for AL that succeeds LinterCop"
 - [ALCops: The Story So Far](../../../../posts/vondervoort-be/147.md) (community post): "ALCops is a community-driven collection of code analyzers for AL"

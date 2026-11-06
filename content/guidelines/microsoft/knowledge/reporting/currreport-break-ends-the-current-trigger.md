@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:14:20.359Z"
+  at: "2026-11-06T00:17:27.413Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: cffcf6224d6ba5880635a220d1890cc6077da4ac
@@ -28,7 +28,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.md
     title: "microsoft/BCQuality: CurrReport.Break ends the current trigger"
     date: "2026-11-04"
-    commit: c203ebc862a6dc9a35fcb7a50110a96e0bae6f55
+    commit: 9b72501fc3199e6f8c776b4fe3aeb1a11e5dfaee
     t: null
     quote: null
 links:
@@ -41,6 +41,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/255
     - change/bcquality/183
 repo_path: microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.md
 layer: microsoft
@@ -103,8 +104,9 @@ See sample: [`currreport-break-ends-the-current-trigger.bad.al`](https://github.
 
 ## Changed by
 
+- [#255 Correct CurrReport.Skip guidance and retire false fixture expectations](../../../../changes/bcquality/255.md), 2026-11-04
 - [#183 Add reporting review guidance and evaluation fixtures](../../../../changes/bcquality/183.md), 2026-09-15
 
 ---
 
-From microsoft/BCQuality at c203ebc, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 9b72501, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

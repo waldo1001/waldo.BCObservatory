@@ -12,7 +12,7 @@ review:
   at: "2026-10-30T08:08:22.163Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -325,6 +325,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12307
+    - change/bcapps/9869
 learn_toc_path:
   - Business Central on-premises
   - Upgrade
@@ -397,6 +398,7 @@ Start with the supported upgrade paths page to find your route from the source v
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12307 Make UpgradeDefaultDimensions ParentId backfill set-based (via DataTransfer)](../../../changes/bcapps/12307.md) (code change): "UpgradeDefaultDimensions procedure now uses set-based DataTransfer operations"
+- [#9869 Fix MS Doc for parameter TagCompanyName of method SetSkippedUpgrade(...)](../../../changes/bcapps/9869.md) (code change): "SetSkippedUpgrade method in the Upgrade Tag codeunit was corrected"
 - [Dynamics 365 Business Central license keys: what changes from version 28.](../../../posts/demiliani-com/17470.md) (community post): "requiring administrators to download a refreshed license file before each version upgrade"
 - [End of .NET 8 support and what it means for Dynamics 365 Business Central on-prem.](../../../posts/demiliani-com/17480.md) (community post): ".NET 8 and .NET 9 reach end of support on November 10, 2026"
 - [October 2026 Cumulative Updates for Dynamics 365 Business Central](../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-october-2026-cumulative-updates-for-dynamics-365-business-central--a64e9af8be.md) (community post): "Organizations should verify implementation readiness and compatibility with customizations before upgrading"

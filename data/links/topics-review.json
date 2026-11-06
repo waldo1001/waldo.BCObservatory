@@ -734,16 +734,22 @@
       }
     },
     "topic/business-central/business-functionality/design-details/design-details-warehouse-management": {
+      "post/olofsimren-com/3981@6a48e9148f079fae": {
+        "verdict": "keep",
+        "reason": "Mobile extension that extends warehouse documents (receipts, picks, counts, transfers) documented in warehouse management.",
+        "at": "2026-11-06T00:58:43.307Z",
+        "v": 2
+      },
       "post/yzhums-com/75164@7ad3ad432de59596": {
         "verdict": "drop",
-        "reason": "The post is about item ledger entries and the regular Physical Inventory Journal, which are inventory features, not the warehouse management design this section documents.",
-        "at": "2026-10-26T08:19:13.610Z",
+        "reason": "About item journal vs physical inventory journal ledger entries, an inventory topic not covered by warehouse management design details.",
+        "at": "2026-11-06T00:58:43.307Z",
         "v": 2
       },
       "video/QfOgUCXg94o@c0dbc0efb0fb1a46": {
         "verdict": "keep",
-        "reason": "It covers how warehouse entries are posted and numbered at the same time, which is a technical design detail of warehouse management.",
-        "at": "2026-10-26T08:19:13.610Z",
+        "reason": "Covers internal design of warehouse entry posting and concurrency, a warehouse management design detail.",
+        "at": "2026-11-06T00:58:43.307Z",
         "v": 2
       }
     },
@@ -2187,128 +2193,128 @@
     "topic/business-central/business-functionality/manufacturing": {
       "video/GEuUFcgFZF0@d5a016d1740c2cf9": {
         "verdict": "keep",
-        "reason": "Covers production BOMs, versions, phantoms and production orders, which are core manufacturing setup.",
-        "at": "2026-10-29T21:36:42.988Z",
+        "reason": "Covers production BOMs, versions, phantoms and creating production orders, all documented in Manufacturing.",
+        "at": "2026-11-06T00:58:43.685Z",
         "v": 2
       },
       "video/giNi8WtCX_s@fe26185ed2ab7fea": {
         "verdict": "keep",
-        "reason": "Covers new manufacturing features for production BOM design and versioning.",
-        "at": "2026-10-29T21:36:42.988Z",
+        "reason": "About production BOM design features such as versions, certification and attachments, which are manufacturing topics.",
+        "at": "2026-11-06T00:58:43.685Z",
         "v": 2
       },
       "video/oIoH3gxc0uk@1e1066951bf50db3": {
         "verdict": "keep",
-        "reason": "Explains flushing methods for material consumption on production orders, which is manufacturing execution.",
-        "at": "2026-10-29T21:36:42.988Z",
+        "reason": "Explains flushing methods for consuming production order components, a core manufacturing topic.",
+        "at": "2026-11-06T00:58:43.685Z",
         "v": 2
       },
       "video/Pt8LrNv_Lgc@3065588a2728f3ff": {
         "verdict": "keep",
-        "reason": "Covers manufacturing routings, operations, work centers and lead times.",
-        "at": "2026-10-29T21:36:42.988Z",
+        "reason": "Explains routings, routing link codes and lead time on production orders, which Manufacturing documents.",
+        "at": "2026-11-06T00:58:43.685Z",
         "v": 2
       },
       "video/QdWPlIV3Avk@7622051582348f15": {
         "verdict": "keep",
-        "reason": "About subcontracting in manufacturing, which is a listed subtopic of this section.",
-        "at": "2026-10-29T21:36:42.988Z",
+        "reason": "Covers manufacturing subcontracting, which is a listed subtopic of this section.",
+        "at": "2026-11-06T00:58:43.685Z",
         "v": 2
       },
       "video/SdQVQLNXVS0@4ffa0dbf27c6e6f4": {
         "verdict": "keep",
-        "reason": "Covers new production order processing features in manufacturing.",
-        "at": "2026-10-29T21:36:42.988Z",
+        "reason": "Covers production order processing improvements such as status changes, scheduling and output.",
+        "at": "2026-11-06T00:58:43.685Z",
         "v": 2
       },
       "video/sqjb_gsXqM8@b1ef9ef0494bf80c": {
         "verdict": "keep",
-        "reason": "Broad supply chain overview, but it includes manufacturing items: routing and BOM changes, manufacturing journals, WIP posting and subcontracting.",
-        "at": "2026-10-29T21:36:42.988Z",
+        "reason": "A broad SCM overview, but it includes manufacturing items such as routing status, manufacturing journals and subcontracting support.",
+        "at": "2026-11-06T00:58:43.685Z",
         "v": 2
       },
       "video/tzX0qB9tiBs@45d3ec17a7ef538a": {
         "verdict": "keep",
-        "reason": "Covers reversing production order output and consumption transactions, which is manufacturing functionality.",
-        "at": "2026-10-29T21:36:42.988Z",
+        "reason": "Covers reversing production order output and consumption and reopening finished production orders.",
+        "at": "2026-11-06T00:58:43.685Z",
         "v": 2
       },
       "video/vnaySMIKnp8@8c9b7fc9cf513e51": {
         "verdict": "keep",
-        "reason": "Covers how manufacturing connects to the warehouse: put-away for production output and the pick-plus flushing method.",
-        "at": "2026-10-29T21:36:42.988Z",
+        "reason": "Covers put-away of production output and the pick-plus flushing method, where manufacturing meets warehousing.",
+        "at": "2026-11-06T00:58:43.685Z",
         "v": 2
       },
       "video/xqFpiqmXjk0@4b1ddf9de66d89d1": {
         "verdict": "keep",
-        "reason": "Covers production order statuses, components, routings and the production journal.",
-        "at": "2026-10-29T21:36:42.988Z",
+        "reason": "A core walkthrough of production orders, their statuses and the production journal.",
+        "at": "2026-11-06T00:58:43.685Z",
         "v": 2
       },
       "post/olofsimren-com/3545@77b78d050705c847": {
         "verdict": "keep",
-        "reason": "Covers reopening finished production orders and reversing production entries, which are core manufacturing features.",
-        "at": "2026-10-29T21:36:48.649Z",
+        "reason": "Covers reopening finished production orders and reversing production entries, which are core manufacturing functions.",
+        "at": "2026-11-06T00:58:48.766Z",
         "v": 2
       },
       "post/olofsimren-com/3696@fbf81ffd439e5771": {
         "verdict": "drop",
-        "reason": "About the Quality Management module, which the sibling Quality management section documents.",
-        "at": "2026-10-29T21:36:48.649Z",
+        "reason": "Its subject is the Quality Management module, which the Quality management section beside this one documents.",
+        "at": "2026-11-06T00:58:48.766Z",
         "v": 2
       },
-      "post/olofsimren-com/3928@389a1a7eeaf31df1": {
-        "verdict": "drop",
-        "reason": "Case study of a customer's NAV customizations and migration, not Business Central manufacturing features.",
-        "at": "2026-10-29T21:36:48.649Z",
+      "post/olofsimren-com/3981@6a48e9148f079fae": {
+        "verdict": "keep",
+        "reason": "An extension for shop-floor execution that posts output and consumption on production orders, so it works with what Manufacturing documents.",
+        "at": "2026-11-06T00:58:48.766Z",
         "v": 2
       },
       "post/yzhums-com/63708@ed9f15c34b598eb1": {
         "verdict": "keep",
-        "reason": "Covers manufacturing usability improvements: bulk production order status changes and printing.",
-        "at": "2026-10-29T21:36:48.649Z",
+        "reason": "Covers usability improvements to production orders, routings and the standard cost worksheet.",
+        "at": "2026-11-06T00:58:48.766Z",
         "v": 2
       },
       "post/yzhums-com/65570@4962fa05a7c06465": {
-        "verdict": "keep",
-        "reason": "Part of the series covers printing barcodes from production orders, a manufacturing feature.",
-        "at": "2026-10-29T21:36:48.649Z",
+        "verdict": "drop",
+        "reason": "A general barcode series about reports and AL scanning; production orders are only a minor example.",
+        "at": "2026-11-06T00:58:48.766Z",
         "v": 2
       },
       "post/yzhums-com/71239@baa4637c20739138": {
         "verdict": "keep",
-        "reason": "Covers the Description 2 field on manufacturing pages such as routing lines and production order components.",
-        "at": "2026-10-29T21:36:48.649Z",
+        "reason": "Adds the Description 2 field to routing, production BOM and production order pages.",
+        "at": "2026-11-06T00:58:48.766Z",
         "v": 2
       },
       "post/yzhums-com/72006@35b5d17b79026dfe": {
         "verdict": "keep",
-        "reason": "Covers manufacturing changes to output journal item tracking, WIP posting and BOM/routing notifications.",
-        "at": "2026-10-29T21:36:48.649Z",
+        "reason": "Covers manufacturing changes to the output journal, WIP posting and notifications for non-certified BOMs and routings.",
+        "at": "2026-11-06T00:58:48.766Z",
         "v": 2
       },
       "post/yzhums-com/74091@fbfc95b1f88a1f72": {
         "verdict": "keep",
-        "reason": "Explains creating production orders from sales orders, a manufacturing process.",
-        "at": "2026-10-29T21:36:48.649Z",
+        "reason": "Shows how to create production orders from sales orders, a documented manufacturing task.",
+        "at": "2026-11-06T00:58:48.766Z",
         "v": 2
       },
       "post/yzhums-com/74172@68298266e334ae55": {
         "verdict": "keep",
-        "reason": "Shows AL code that extends production order creation from sales orders.",
-        "at": "2026-10-29T21:36:48.649Z",
+        "reason": "A developer extension of the sales-to-production-order creation flow in manufacturing.",
+        "at": "2026-11-06T00:58:48.766Z",
         "v": 2
       },
       "video/6d6iajwQQ-c@c4d52d490b24e69f": {
         "verdict": "drop",
-        "reason": "About sustainability emissions tracking, which the sibling Sustainability management section documents.",
-        "at": "2026-10-29T21:36:48.649Z",
+        "reason": "Its subject is emissions tracking, which the Sustainability management section documents more exactly.",
+        "at": "2026-11-06T00:58:48.766Z",
         "v": 2
       },
       "video/DHODFt_jVO4@dac811e342c1b98b": {
         "verdict": "keep",
-        "reason": "Covers manufacturing costing: production BOMs, routings on SKUs, standard cost calculation and subcontracting.",
-        "at": "2026-10-29T21:36:48.649Z",
+        "reason": "Covers manufacturing costing: production BOMs and routings on stockkeeping units, and standard cost calculation.",
+        "at": "2026-11-06T00:58:48.766Z",
         "v": 2
       }
     },
@@ -3575,64 +3581,64 @@
       }
     },
     "topic/business-central/business-functionality/warehouse-management": {
-      "post/jeremyvyska-com/1524@deffa48576d552ab": {
-        "verdict": "drop",
-        "reason": "About a storytelling framework for AL development; warehouse management is only one example domain.",
-        "at": "2026-10-26T10:54:36.844Z",
-        "v": 2
-      },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1366699589934952404@05517e939ae9481b": {
         "verdict": "keep",
-        "reason": "Covers outbound warehouse handling (pick, shipment, bins) at warehouse-enabled source locations for direct transfers.",
-        "at": "2026-10-26T10:54:36.844Z",
+        "reason": "Covers outbound warehouse handling (pick, shipment, bins) for direct transfers from warehouse-enabled locations.",
+        "at": "2026-11-06T00:58:51.486Z",
+        "v": 2
+      },
+      "post/olofsimren-com/3981@6a48e9148f079fae": {
+        "verdict": "keep",
+        "reason": "Mobile extension that works on warehouse receipts, picks, counts and transfers, extending the documented warehouse processes.",
+        "at": "2026-11-06T00:58:51.486Z",
         "v": 2
       },
       "post/vondervoort-be/67@6d984e46e4639865": {
-        "verdict": "drop",
-        "reason": "Covers integration with D365 SCM Warehouse Only Mode and SharePoint, capabilities not documented in BC warehouse management.",
-        "at": "2026-10-26T10:54:36.844Z",
+        "verdict": "keep",
+        "reason": "Discusses adding advanced warehousing to Business Central through Supply Chain Management Warehouse Only Mode; kept as a related extension option.",
+        "at": "2026-11-06T00:58:51.486Z",
         "v": 2
       },
       "post/yzhums-com/75164@7ad3ad432de59596": {
         "verdict": "drop",
-        "reason": "About item journals versus physical inventory journals, which the Inventory section documents.",
-        "at": "2026-10-26T10:54:36.844Z",
+        "reason": "About item journals versus physical inventory journals in item ledger entries, which the Inventory section documents more exactly.",
+        "at": "2026-11-06T00:58:51.486Z",
         "v": 2
       },
       "video/8KMcu4B_eTk@d4251ec52f9ff6eb": {
         "verdict": "keep",
-        "reason": "Directly covers new warehouse management features such as put-away templates, bin policies and picking.",
-        "at": "2026-10-26T10:54:36.844Z",
+        "reason": "Directly covers warehouse configuration, put-away templates, bin policies and picks.",
+        "at": "2026-11-06T00:58:51.486Z",
         "v": 2
       },
       "video/bnqxycPzbeI@177c811887461117": {
         "verdict": "drop",
-        "reason": "About sustainability emissions tracking on transfer orders, not warehouse processes.",
-        "at": "2026-10-26T10:54:36.844Z",
+        "reason": "About sustainability emissions tracking in transfer orders, which belongs to Sustainability management, not warehouse processes.",
+        "at": "2026-11-06T00:58:51.486Z",
         "v": 2
       },
       "video/QdWPlIV3Avk@7622051582348f15": {
-        "verdict": "drop",
-        "reason": "About manufacturing subcontracting, which the Manufacturing section documents more exactly.",
-        "at": "2026-10-26T10:54:36.844Z",
+        "verdict": "keep",
+        "reason": "Includes warehouse receipts and inventory put-aways for subcontracting, which are inbound warehouse processes.",
+        "at": "2026-11-06T00:58:51.486Z",
         "v": 2
       },
       "video/QfOgUCXg94o@c0dbc0efb0fb1a46": {
         "verdict": "keep",
-        "reason": "Covers concurrent posting of warehouse entries, part of how warehouse processes are posted.",
-        "at": "2026-10-26T10:54:36.844Z",
+        "reason": "Concerns concurrent posting of warehouse entries, which is part of how warehouse documents are posted.",
+        "at": "2026-11-06T00:58:51.486Z",
         "v": 2
       },
       "video/sVlPlmok5U8@441bfafbd7c53dc3": {
         "verdict": "keep",
-        "reason": "Demonstrates warehouse receipts and inventory put-aways for project items, an inbound warehouse process.",
-        "at": "2026-10-26T10:54:36.844Z",
+        "reason": "Shows warehouse receipts and put-aways for project items, which are inbound warehouse processes.",
+        "at": "2026-11-06T00:58:51.486Z",
         "v": 2
       },
       "video/vnaySMIKnp8@8c9b7fc9cf513e51": {
         "verdict": "keep",
-        "reason": "Demonstrates warehouse put-away for production output and picking for consumption, which are internal warehouse processes.",
-        "at": "2026-10-26T10:54:36.844Z",
+        "reason": "Covers put-aways for production output and warehouse picks for consumption, which are internal warehouse processes.",
+        "at": "2026-11-06T00:58:51.486Z",
         "v": 2
       }
     },
@@ -4623,50 +4629,56 @@
     "topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data": {
       "post/olofsimren-com/3564@44dd62e1de94ec0f": {
         "verdict": "keep",
-        "reason": "A free extension for deleting test data in a company, which fits a section on managing and cleaning up your data.",
-        "at": "2026-10-26T08:18:52.162Z",
+        "reason": "A tool for removing test data from a company relates to the data cleanup and control this section covers.",
+        "at": "2026-11-06T00:58:50.603Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-33-restore-environment/@5c7a4cb93e13ddf3": {
-        "verdict": "keep",
-        "reason": "Point-in-time environment restore to recover deleted data is a way to control and protect your data.",
-        "at": "2026-10-26T08:18:52.162Z",
+        "verdict": "drop",
+        "reason": "Restoring an environment from the Admin Center is an environment-administration task, not part of controlling data in the app.",
+        "at": "2026-11-06T00:58:50.603Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-79-change-log-deletion-on-one-field/@5e6511c0218e2b32": {
         "verdict": "keep",
-        "reason": "Setting up the change log to track deletions is about auditing data, which fits data control.",
-        "at": "2026-10-26T08:18:52.162Z",
+        "reason": "Explains how to set up the change log to record deletions, which is part of auditing data changes.",
+        "at": "2026-11-06T00:58:50.603Z",
         "v": 2
       },
       "post/yzhums-com/63913@edf0712566cee338": {
         "verdict": "keep",
-        "reason": "Covers built-in audit fields, the change log, the operations log and field monitoring for tracking who created or changed data.",
-        "at": "2026-10-26T08:18:52.162Z",
+        "reason": "Covers ways to audit who created or changed data: audit fields, the change log and field monitoring.",
+        "at": "2026-11-06T00:58:50.603Z",
         "v": 2
       },
       "post/yzhums-com/71047@b38e90b1acefe54e": {
-        "verdict": "drop",
-        "reason": "A list-page display feature showing avatars for record creators, not about controlling or governing data.",
-        "at": "2026-10-26T08:18:52.162Z",
+        "verdict": "keep",
+        "reason": "New list display of the data audit fields that show who created or modified a record.",
+        "at": "2026-11-06T00:58:50.603Z",
+        "v": 2
+      },
+      "post/yzhums-com/76760@6ee384b69eab7549": {
+        "verdict": "keep",
+        "reason": "Shows how to bulk-import change log setup, which is part of auditing data changes.",
+        "at": "2026-11-06T00:58:50.603Z",
         "v": 2
       },
       "video/564XMP2IyLM@89a3673ba64718ac": {
         "verdict": "keep",
-        "reason": "Retention policies for deleting data automatically are a central data-control feature.",
-        "at": "2026-10-26T08:18:52.162Z",
+        "reason": "Retention policies are a core way to control your data.",
+        "at": "2026-11-06T00:58:50.603Z",
         "v": 2
       },
       "video/b-ixzwDS41c@2c821422121a9263": {
         "verdict": "keep",
-        "reason": "Customer-managed encryption keys give admins control over how their data is encrypted.",
-        "at": "2026-10-26T08:18:52.162Z",
+        "reason": "Customer-managed encryption keys give customers control over how their data is protected.",
+        "at": "2026-11-06T00:58:50.603Z",
         "v": 2
       },
       "video/DnZJ2iOgIjI@6758b0a631a27f7f": {
         "verdict": "keep",
-        "reason": "Customer-managed keys and Lockbox are data-control features for admins.",
-        "at": "2026-10-26T08:18:52.162Z",
+        "reason": "Customer-managed keys and Lockbox control access to and encryption of customer data.",
+        "at": "2026-11-06T00:58:50.603Z",
         "v": 2
       }
     },
@@ -4905,14 +4917,14 @@
     "topic/business-central/development-and-administration/customize-business-central/customize-with-extensions": {
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786@f32ea2d662c4d762": {
         "verdict": "keep",
-        "reason": "Covers installing, updating and uninstalling per-tenant and other extensions, which is part of customizing Business Central with extensions.",
-        "at": "2026-10-26T08:20:05.462Z",
+        "reason": "Covers installing, updating and uninstalling per-tenant extensions and AppSource apps, which is part of customizing with extensions.",
+        "at": "2026-11-06T00:58:41.686Z",
         "v": 2
       },
-      "post/yzhums-com/66463@18e8ae24629dbe13": {
-        "verdict": "drop",
-        "reason": "Its subject is preventing duplicate attachment uploads; the table extension and event subscriber are only how it does this, not a lesson on customizing with extensions.",
-        "at": "2026-10-26T08:20:05.462Z",
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-87-check-for-microsoft-apps-on-appsource/@800d8365bfb4ab17": {
+        "verdict": "keep",
+        "reason": "Advises extending Business Central with optional Microsoft apps from AppSource before custom development, which fits customizing with extensions.",
+        "at": "2026-11-06T00:58:41.686Z",
         "v": 2
       }
     },
@@ -5996,32 +6008,38 @@
     "topic/dev-itpro/business-central-on-premises/upgrade": {
       "post/demiliani-com/17470@daef1b92a1a4eb1d": {
         "verdict": "keep",
-        "reason": "It explains that on-premises admins must download a new 28+ license key before each version upgrade, which is a direct upgrade prerequisite.",
-        "at": "2026-10-26T08:44:40.861Z",
+        "reason": "A change to on-premises license keys adds a step to every version upgrade: download a fresh 28+ license file first.",
+        "at": "2026-11-06T00:58:53.541Z",
         "v": 2
       },
       "post/demiliani-com/17480@faa6c97f526e2a92": {
         "verdict": "keep",
-        "reason": "It covers the .NET 10 runtime that on-premises v27 - v29 servers need and the upgrades or updates required before .NET 8 support ends.",
-        "at": "2026-10-26T08:44:40.861Z",
+        "reason": ".NET 8's end of support affects on-premises BC 27 - 29, so customers must upgrade or apply updates before the deadline.",
+        "at": "2026-11-06T00:58:53.541Z",
+        "v": 2
+      },
+      "post/demiliani-com/17586@74fcece8695a9dc9": {
+        "verdict": "drop",
+        "reason": "It is mainly about Microsoft moving online clusters to .NET 10 and the resulting maintenance-window outages, not the on-premises upgrade process.",
+        "at": "2026-11-06T00:58:53.541Z",
         "v": 2
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/october-2026-cumulative-updates-for-dynamics-365-business-central/@2ed787663cdc95fc": {
         "verdict": "keep",
-        "reason": "It announces the on-premises cumulative updates for v26 - v28 and the v29 release, and advises checking readiness before upgrading.",
-        "at": "2026-10-26T08:44:40.861Z",
+        "reason": "It announces cumulative updates for on-premises versions 26 - 28 and advises checking customizations before upgrading.",
+        "at": "2026-11-06T00:58:53.541Z",
         "v": 2
       },
       "post/yzhums-com/63887@8da8a498d2daaf9e": {
         "verdict": "keep",
-        "reason": "It lists on-premises builds and support dates for v23 - v26 updates, matching the section's per-version subtopics.",
-        "at": "2026-10-26T08:44:40.861Z",
+        "reason": "It lists on-premises builds for BC23 - BC26 and support end dates, which helps readers pick an upgrade target.",
+        "at": "2026-11-06T00:58:53.541Z",
         "v": 2
       },
       "post/yzhums-com/69394@c57246b4bfe6b618": {
         "verdict": "keep",
-        "reason": "It lists on-premises builds and lifecycle dates for v24 - v27 cumulative updates, matching the section's per-version subtopics.",
-        "at": "2026-10-26T08:44:40.861Z",
+        "reason": "It lists on-premises builds for BC24 - BC27 and support dates, which is useful when planning an on-premises upgrade.",
+        "at": "2026-11-06T00:58:53.541Z",
         "v": 2
       }
     },

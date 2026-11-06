@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:47:59.172Z"
+  at: "2026-11-06T00:54:07.187Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 3726ac6711a2421c6513c3a7d7134f2c96f2528c8a48229dc726e87a5d129245
+  input_hash: d5dcb8c0b12898617ed6f4613cb2f845709730bf7fbd11e367a5749ec04e38a7
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/PowerBIReports/app
@@ -235,8 +235,8 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo
     - topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports
     - topic/business-central/business-functionality/sales/sales-analytics/power-bi-sales-app
-    - topic/business-central/business-functionality/manufacturing/manufacturing-analytics/power-bi-manufacturing-app
     - topic/business-central/business-functionality/purchasing/purchasing-analytics/power-bi-purchasing-app
+    - topic/business-central/business-functionality/manufacturing/manufacturing-analytics/power-bi-manufacturing-app
     - topic/business-central/business-functionality/finance/financial-analytics/power-bi-finance-app
     - topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-app
     - topic/business-central/business-functionality/purchasing/purchasing-analytics
@@ -299,8 +299,8 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 - [Analytics, business intelligence, and reporting](../topics/business-central/analytics-business-intelligence-and-repo.md): 67 objects
 - [KPIs, dashboards, and financial reports](../topics/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports.md) (Analytics, business intelligence, and reporting): 67 objects
 - [Power BI Sales app](../topics/business-central/business-functionality/sales/sales-analytics/power-bi-sales-app.md) (Business functionality > Sales > Sales analytics): 23 objects
-- [Power BI manufacturing app](../topics/business-central/business-functionality/manufacturing/manufacturing-analytics/power-bi-manufacturing-app.md) (Business functionality > Manufacturing > Manufacturing analytics): 21 objects
 - [Power BI purchasing app](../topics/business-central/business-functionality/purchasing/purchasing-analytics/power-bi-purchasing-app.md) (Business functionality > Purchasing > Purchasing analytics): 21 objects
+- [Power BI manufacturing app](../topics/business-central/business-functionality/manufacturing/manufacturing-analytics/power-bi-manufacturing-app.md) (Business functionality > Manufacturing > Manufacturing analytics): 19 objects
 - [Power BI finance app](../topics/business-central/business-functionality/finance/financial-analytics/power-bi-finance-app.md) (Business functionality > Finance > Financial analytics): 18 objects
 - [Power BI inventory app](../topics/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-app.md) (Business functionality > Inventory > Inventory analytics): 16 objects
 - [Purchasing analytics](../topics/business-central/business-functionality/purchasing/purchasing-analytics.md) (Business functionality > Purchasing): 15 objects

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -522,6 +522,7 @@ links:
     - change/bcapps/12982
     - change/bcapps/13417
     - change/bcapps/13547
+    - change/bcapps/13642
     - change/bcapps/8914
     - change/bcapps/9096
     - change/bcapps/9118
@@ -805,6 +806,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12982 [29x][All-e]Since Business Central 28.4, we have observed changed behaviour when the VAT Prod](../../../changes/bcapps/12982.md) (code change): "Fixes changed VAT behavior affecting Sales Lines since BC 28.4"
 - [#13417 [Master]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo.](../../../changes/bcapps/13417.md) (code change): "Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice"
 - [#13547 [29.X]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo](../../../changes/bcapps/13547.md) (code change): "Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice"
+- [#13642 Preserve work descriptions on posted sales prepayment documents](../../../changes/bcapps/13642.md) (code change): "Preserve work descriptions on posted sales prepayment documents"
 - [#8914 [Master]- Changing Sales Order Line Description on a Sales Order unexpectedly changes the invoice total amounts.Changes](../../../changes/bcapps/8914.md) (code change): "Fixed an issue where editing a sales order line's description would unexpectedly change"
 - [#9096 Align Bill-to Name 2 editability with the other bill-to address fields on sales documents](../../../changes/bcapps/9096.md) (code change): "Bill-to Name 2 field on sales documents is now editable under the same conditions"
 - [#9118 Bugs/master GitHub event batch 1745](../../../changes/bcapps/9118.md) (code change): "Sales Line and Sales Shipment Line changed in W1 and many localization layers"

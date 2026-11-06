@@ -1,36 +1,36 @@
 {
   "schema": "bcobs-index@1",
-  "pages": 30270,
+  "pages": 30283,
   "shards": [
     {
-      "file": "pages-hubs-7206b43f9c17.json",
+      "file": "pages-hubs-c63b4113dfd7.json",
       "count": 1433,
-      "sha256": "7206b43f9c17fcee64f2619974cb407d65e2c0a4ad375bd7709045362be1ece8",
+      "sha256": "c63b4113dfd781eca1f0539d6c7d1ee366d28e5ebc8f61f290fa560d5417f0f8",
       "kind": "hubs"
     },
     {
-      "file": "pages-media-1daa9dfd9ead.json",
-      "count": 3109,
-      "sha256": "1daa9dfd9ead03a31a63d5c984860e2ecbbb092cd92e92cdd69985ab3e557763",
+      "file": "pages-media-31aa24700c11.json",
+      "count": 3122,
+      "sha256": "31aa24700c1109b3575fc32354ab3b7d1604d8d1a5d50dd648fdd991c4a4af5e",
       "kind": "media"
     },
     {
-      "file": "pages-objects-1-112e085f497e.json",
+      "file": "pages-objects-1-de4ef59ee9a8.json",
       "count": 14420,
-      "sha256": "112e085f497ec3a0ae1c305604363005590e5f025725add52ab08e351eddfa8f",
+      "sha256": "de4ef59ee9a8b5e9887a72f56fbcd6dad569c405c48fd17f634cde5567dbf509",
       "kind": "objects"
     },
     {
-      "file": "pages-objects-2-10cda6593b6f.json",
+      "file": "pages-objects-2-8092b779beb6.json",
       "count": 11308,
-      "sha256": "10cda6593b6fbb729633c3515dd18865a73bd87537fa413bb4cc01139e279a3f",
+      "sha256": "8092b779beb629864cc929b1284d3e7277ade95f9187b29aa89cf22b1b353a55",
       "kind": "objects"
     }
   ],
   "learn": {
-    "file": "learn-21ecd7d4a467.json",
-    "count": 8053,
-    "sha256": "21ecd7d4a467db3c8740bc2ada199b8f62b27553bfe72cbcd4f9ef4718be97be"
+    "file": "learn-5d65a93a3338.json",
+    "count": 8055,
+    "sha256": "5d65a93a3338279a64f392f4412eb1fa9337b22f579b29176bdf85c9539cf1a1"
   },
   "learn_facts": {
     "file": "learn-facts-20af0a004479.json",
@@ -39,14 +39,14 @@
   },
   "by_type": {
     "app": 97,
-    "change": 1358,
+    "change": 1368,
     "digest": 8,
     "feature": 131,
     "guideline": 461,
     "hotfix": 3,
     "localization": 22,
     "object": 25728,
-    "post": 1126,
+    "post": 1129,
     "release": 64,
     "source": 41,
     "topic": 606,

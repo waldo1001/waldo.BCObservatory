@@ -2,7 +2,7 @@
 id: source/bcapps-prs
 type: source
 title: microsoft/BCApps pull requests
-summary: "microsoft/BCApps pull requests: 1215 code changes in the knowledge base, 2026-07-07 to 2026-11-04, mostly about development, finance, integration."
+summary: "microsoft/BCApps pull requests: 1222 code changes in the knowledge base, 2026-07-07 to 2026-11-05, mostly about development, finance, integration."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:14:20.359Z"
+  at: "2026-11-06T00:17:27.413Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 807c86f228a8ab0329fbe77b37a28ec01bdee48c5ef2a5b4b3d5a78036f870bd
+  input_hash: d444b9b8dddb7f7df13f5214923d75a0bcc342b74469ee583c73895243d4c436
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
@@ -1238,6 +1238,8 @@ links:
     - change/bcapps/13504
     - change/bcapps/13172
     - change/bcapps/12910
+    - change/bcapps/6857
+    - change/bcapps/13063
     - change/bcapps/12624
     - change/bcapps/13560
     - change/bcapps/13608
@@ -1250,36 +1252,41 @@ links:
     - change/bcapps/13476
     - change/bcapps/13569
     - change/bcapps/13228
+    - change/bcapps/13630
+    - change/bcapps/9869
+    - change/bcapps/13579
+    - change/bcapps/13642
+    - change/bcapps/13427
 source_id: bcapps-prs
 kind: github-pr
 url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 1215
+item_count: 1222
 footprint:
   systems:
     - id: development
       weight: 625
     - id: finance
-      weight: 498
+      weight: 500
     - id: integration
-      weight: 384
+      weight: 386
     - id: sales
-      weight: 213
+      weight: 217
     - id: inventory
-      weight: 206
+      weight: 208
     - id: manufacturing
       weight: 186
   topics:
     - id: bc30
-      weight: 1118
+      weight: 1125
     - id: main
-      weight: 1118
+      weight: 1125
     - id: fix
-      weight: 750
+      weight: 756
     - id: feature
-      weight: 347
+      weight: 348
     - id: bc29
       weight: 97
     - id: releases/29.x
@@ -1319,12 +1326,12 @@ footprint:
       weight: 13
   features: []
 first_item: "2026-07-07"
-last_item: "2026-11-04"
+last_item: "2026-11-05"
 ---
 
 # microsoft/BCApps pull requests
 
-> microsoft/BCApps pull requests: 1215 code changes in the knowledge base, 2026-07-07 to 2026-11-04, mostly about development, finance, integration.
+> microsoft/BCApps pull requests: 1222 code changes in the knowledge base, 2026-07-07 to 2026-11-05, mostly about development, finance, integration.
 
 [https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -1332,11 +1339,11 @@ last_item: "2026-11-04"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (625) | bc30 (1118) | codeunit Gen. Jnl.-Post Line (32) |
-| finance (498) | main (1118) | page Expense Agent Setup Wizard (18) |
-| integration (384) | fix (750) | table Expense Report Header (18) |
-| sales (213) | feature (347) | permissionset Expense Management - Objects (14) |
-| inventory (206) | bc29 (97) | table Purchase Line (14) |
+| development (625) | bc30 (1125) | codeunit Gen. Jnl.-Post Line (32) |
+| finance (500) | main (1125) | page Expense Agent Setup Wizard (18) |
+| integration (386) | fix (756) | table Expense Report Header (18) |
+| sales (217) | feature (348) | permissionset Expense Management - Objects (14) |
+| inventory (208) | bc29 (97) | table Purchase Line (14) |
 | manufacturing (186) | releases/29.x (97) | table Sales Line (14) |
 |  | refactor (51) | codeunit Create Billing Documents (13) |
 |  | performance (34) | codeunit Item Jnl.-Post Line (13) |
@@ -1350,10 +1357,15 @@ last_item: "2026-11-04"
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 882
-- 2026-Q4: **************************************** 333
+- 2026-Q4: **************************************** 340
 
 ## Most recent
 
+- [#13427 [Quality Management] Confirm before finishing on Create Re-inspection](../changes/bcapps/13427.md) (2026-11-05)
+- [#13642 Preserve work descriptions on posted sales prepayment documents](../changes/bcapps/13642.md) (2026-11-05)
+- [#13579 Fix synchronization error event record context](../changes/bcapps/13579.md) (2026-11-05)
+- [#9869 Fix MS Doc for parameter TagCompanyName of method SetSkippedUpgrade(...)](../changes/bcapps/9869.md) (2026-11-05)
+- [#13630 [NL] Fix CBG applies-to ID length handling](../changes/bcapps/13630.md) (2026-11-05)
 - [#13228 [Master]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](../changes/bcapps/13228.md) (2026-11-04)
 - [#13569 Update expense policy defaults, caption, and search terms](../changes/bcapps/13569.md) (2026-11-04)
 - [#13476 [Fabric] Separate workspace read and write scopes](../changes/bcapps/13476.md) (2026-11-04)
@@ -1366,13 +1378,8 @@ Items per quarter, oldest first:
 - [#13608 [main] Unable to receive the material returned from subcontracting Vendor](../changes/bcapps/13608.md) (2026-11-04)
 - [#13560 [QM] Move Inventory: allow destination location for non-directed item](../changes/bcapps/13560.md) (2026-11-04)
 - [#12624 Align styling in Document Report Experience themes, HF designs and bodies](../changes/bcapps/12624.md) (2026-11-04)
+- [#13063 [Bug][Subscription Billing] Rebilling usage data increases the subscription quantity once per subscription line](../changes/bcapps/13063.md) (2026-11-04)
+- [#6857 [BC Idea][TableInformation] : Enhance Indexes List Part with SIFT details, visual indicators, and improved index management #6856](../changes/bcapps/6857.md) (2026-11-04)
 - [#12910 [Master] - Bug 652243: [Expense Agent] Validate approval user email](../changes/bcapps/12910.md) (2026-11-04)
-- [#13172 Export structured AI eval run data](../changes/bcapps/13172.md) (2026-11-03)
-- [#13504 Exposing-VAT-settings-on-category-card](../changes/bcapps/13504.md) (2026-11-03)
-- [#9527 removed access internal to edocument mailing](../changes/bcapps/9527.md) (2026-11-03)
-- [#11596 [Main]Customer Direct Debit Payment Slip – SEPA File Generation Fails and Credit Memo Is Processed Incorrectly When Invoice and Credit Memo Exist for the Same Customer in the French version.](../changes/bcapps/11596.md) (2026-11-03)
-- [#13340 [Master]-FA Posting Group is not updated in the Fixed Asset List after being changed on the Fixed Asset Card.](../changes/bcapps/13340.md) (2026-11-03)
-- [#13506 Upgrade Marketing Text, Sales Lines Suggestions, and Item Substitution to GPT-5.6](../changes/bcapps/13506.md) (2026-11-03)
-- [#13488 [29.X]-Applying entries across posting groups (Allow Multiple Posting Groups) posts the G/L entries that move the amount between receivables accounts with ACY = 0](../changes/bcapps/13488.md) (2026-11-03)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

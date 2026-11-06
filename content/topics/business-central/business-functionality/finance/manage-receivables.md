@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:28.910Z"
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -414,7 +414,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11209 [29.x]-"The record in table Reminder Line already exists." error appears if you Create Reminders for a Customer with all the Open Entries On Hold and no Reminder Free applied on the Reminder Terms used.](../../../../changes/bcapps/11209.md) (code change): "Fixed an error that occurred when creating reminders for customers with all open"
 - [#12149 [main] Bug 652332 Issuing multiple Reminders or Finance Charge Memos with Print, produces a PDF only for the last one](../../../../changes/bcapps/12149.md) (code change): "issuing multiple reminders or finance charge memos with the print option"
 - [#13159 [29x] Bug 652332 Issuing multiple Reminders or Finance Charge Memos with Print, produces a PDF only for the last one](../../../../changes/bcapps/13159.md) (code change): "printing of multiple Reminders or Finance Charge Memos so all selected documents"
-- [#13228 [Master]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](../../../../changes/bcapps/13228.md) (code change): "customer ledger entries now maintain consistent dispute status and on-hold"
+- [#13228 [Master]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](../../../../changes/bcapps/13228.md) (code change): "matching changes to customer ledger entries, across W1"
 - [#13336 [master] Create Reminders fails with "There is no Reminder Line within the filter" when all overdue entries are On Hold (new communication texts)](../../../../changes/bcapps/13336.md) (code change): "Create Reminders fails with "There is no Reminder Line within the filter" when all overdue entries are On Hold"
 - [#9089 Merge-ES-Excluded-from-Calculation-to-W1](../../../../changes/bcapps/9089.md) (code change): "Customer, vendor, ledger entry and General Ledger Setup tables change"
 - [#9195 Fix Aged Accounts Receivable (Report 120) performance on large ledger history](../../../../changes/bcapps/9195.md) (code change): "Aged Accounts Receivable report (Report 120) now reads only the four columns"

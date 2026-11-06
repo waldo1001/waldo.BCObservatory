@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:01:30.126Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -297,6 +297,7 @@ links:
   videos: []
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-87-check-for-microsoft-apps-on-appsource--f7b48b4e88
   guidelines: []
 learn_toc_path:
   - Development and administration
@@ -309,7 +310,7 @@ coverage:
   learn: 26
   code: 61
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 30
@@ -501,6 +502,7 @@ Start with "Customizing Business Central online using apps" and "Install and uni
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "per-tenant extensions, all reviewed on the admin center Manage Apps page"
+- [BC Friday Tips #87 Check for Microsoft Apps on AppSource](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-87-check-for-microsoft-apps-on-appsource--f7b48b4e88.md) (community post): "Microsoft apps for Business Central are distributed across multiple separate applications on AppSource"
 
 ## Business Central pages and reports
 

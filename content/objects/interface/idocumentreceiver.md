@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:45:06.377Z"
+  at: "2026-11-06T00:50:42.930Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b8dce5c558bc96fd673f16dabeb7a717358b36393ac837bd5803a8d01a0028c0
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/W1/EDocument/app/src/Integration/Interfaces/IDocumentReceiver.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/EDocument/app/src/Integration/Interfaces/IDocumentReceiver.Interface.al
     title: src/Apps/W1/EDocument/app/src/Integration/Interfaces/IDocumentReceiver.Interface.al (releases/29.x)
     date: null
-    commit: 1c51b1f77ed32c7267d68456850d9d93296821d3
+    commit: 7af2f8d2e22b684ec7b2455c7baf1007da944ac5
     t: null
     quote: null
 links:
@@ -77,7 +77,7 @@ relations:
 
 > Interface "IDocumentReceiver" in EDocument (Microsoft.eServices.EDocument.Integration.Interfaces). 2 public procedures. Introduced in BC29, still in BC30.
 
-EDocument · Microsoft.eServices.EDocument.Integration.Interfaces · BC29-30 · [source at 1c51b1f7](https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/W1/EDocument/app/src/Integration/Interfaces/IDocumentReceiver.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument.Integration.Interfaces · BC29-30 · [source at 7af2f8d2](https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/EDocument/app/src/Integration/Interfaces/IDocumentReceiver.Interface.al) · facts from BC29
 
 ## Procedures
 

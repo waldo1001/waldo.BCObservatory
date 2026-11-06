@@ -1,35 +1,23 @@
 {
   "hub_id": "topic/business-central/get-started/learn/contoso-coffee-demo-data",
-  "input_hash": "1e69c0b614f5aab2112b6ebf519e3915cec60b5f78ef401d4c5e76fe25bad3eb",
-  "summary": "Contoso Coffee demo data is a fictitious company dataset for learning Business Central. It covers manufacturing, warehousing, service and quality management walkthroughs, and answers questions about setting up the demo data and following each scenario.",
-  "overview": "Contoso Coffee demo data gives practitioners a sample company to try Business Central capabilities without using real data. The introduction page explains the demo data and its setup, and lists the modules it covers: manufacturing, warehousing, service and common data, plus configuration.\n\nEach subtopic is a set of guided walkthroughs for one area. Manufacturing covers BOMs, routings, capacity, flushing, planning, variants, subcontracting and production orders. Warehousing uses three locations to show basic, mixed and advanced setups. Service covers sample resources, skills, service items and loaner items, with walkthroughs for service orders and contracts. Quality management covers installing its demo data and three inspection scenarios.\n\nStart with the introduction page to set up the demo data, then pick the subtopic that matches the area you want to learn.",
+  "input_hash": "0da6ab6aa263321ac74fa884d5173cde625b6ec7c41d869b02312f6f6ae69876",
+  "summary": "Contoso Coffee demo data is a fictitious company dataset for learning Business Central. It covers manufacturing, warehousing, service and quality management walkthroughs, and answers how to set up the demo data and follow guided scenarios in each area.",
+  "overview": "Contoso Coffee demo data gives a fictitious company to learn Business Central capabilities without using real data. The introduction page explains the demo data setup and the modules it covers: manufacturing, warehousing, service and common data, plus configuration.\n\nFour subtopics build on it. Manufacturing (11 pages) covers BOMs, routings, capacity, flushing, planning, variants and subcontracting. Warehousing (4 pages) uses three locations to show basic, mixed and advanced setups. Service (3 pages) covers sample resources, skills, service items and loaner items, with walkthroughs for service orders and contracts. Quality management (5 pages) covers inspections in guided scenarios.\n\nStart with the introduction to set up the demo data, then pick the subtopic for the area you want to learn. Quality management has its own demo data setup page, so use it before running those scenarios.",
   "key_points": [
-    "The introduction page describes Contoso Coffee as fictitious company data for learning Business Central, covering manufacturing, warehousing, service and common modules.",
-    "Manufacturing (11 pages): BOMs, routings, capacity, flushing, planning, variants, subcontracting and processing production orders.",
-    "Warehousing (4 pages): three locations show basic, mixed and advanced configurations for receiving, put-away, picking, moving and shipping.",
-    "Service (3 pages): sample resources, skills, service items and loaner items, with walkthroughs for service orders and service contracts.",
-    "Quality management (4 pages): installing the demo data and three inspection scenarios.",
-    "Quality scenarios: automatic inspection from production output, automatic from a warehouse receipt with reinspection, and manual from purchase item tracking."
+    "The introduction page describes Contoso Coffee as fictitious company data for learning Business Central.",
+    "It spans manufacturing, warehousing, service and common modules, with demo data setup and configuration.",
+    "Manufacturing walkthroughs (11 pages) cover BOMs, routings, capacity, flushing, planning, variants, subcontracting and production orders.",
+    "Warehousing (4 pages) has three locations showing basic, mixed and advanced configurations for receiving, put-away, picking, moving and shipping.",
+    "Service (3 pages) includes sample resources, skills, service items and loaner items, with service order and service contract walkthroughs.",
+    "Quality management (5 pages) covers demo data setup and inspections from warehouse receipts, item tracking, production output and subcontracted operations."
   ],
   "members_used": 1,
   "subtopics_used": 4,
   "prompt_version": 1,
-  "at": "2026-10-24T00:52:43.245Z",
+  "at": "2026-11-06T01:01:36.581Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011050999999999998
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-24T00:54:17.129Z",
-    "verdict": "approve",
-    "issues": [
-      "Overview says 'common data' where the introduction page lists a 'common module'; the meaning is the same, but 'common module' would match the source exactly.",
-      "Saying the introduction page 'lists the modules' is inferred from the page's feature list rather than stated in its summary; this is acceptable."
-    ],
-    "input_hash": "1e69c0b614f5aab2112b6ebf519e3915cec60b5f78ef401d4c5e76fe25bad3eb",
-    "cost_usd": 0.0292872
+    "cost_usd": 0.011198999999999999
   }
 }

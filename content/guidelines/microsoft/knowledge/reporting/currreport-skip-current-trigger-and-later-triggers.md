@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:15:52.765Z"
+  at: "2026-11-06T00:17:27.413Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2ff4b72a6440b21490208d925994d38631dad674
@@ -30,7 +30,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/reporting/currreport-skip-current-trigger-and-later-triggers.md
     title: "microsoft/BCQuality: CurrReport.Skip: separate current-trigger exit from later triggers"
     date: "2026-11-04"
-    commit: c203ebc862a6dc9a35fcb7a50110a96e0bae6f55
+    commit: 9b72501fc3199e6f8c776b4fe3aeb1a11e5dfaee
     t: null
     quote: null
 links:
@@ -42,7 +42,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/255
 repo_path: microsoft/knowledge/reporting/currreport-skip-current-trigger-and-later-triggers.md
 layer: microsoft
 kind: rule
@@ -93,6 +94,10 @@ Claiming that an increment after a direct `Skip()` must run for the skipped reco
 - Existing [BC 28.4 Windows-container run](https://github.com/aldevtools/BusinessCentral.AL.Language.Tests/actions/runs/41034608607), artifact `nightly-windows-bc28.4-41034608607`: externally supplied results from a third-party suite on the Microsoft runtime, not a BCQuality execution or Microsoft-owned test suite. Its pinned [direct-call source](https://github.com/aldevtools/BusinessCentral.AL.Language.Tests/blob/b8092fd0cf7d132d69fad00a8294554d5629946d/tests/al-language/report/lt-report-requestpage/RptSkipBreakQuit.al#L88-L105), [direct-call assertions](https://github.com/aldevtools/BusinessCentral.AL.Language.Tests/blob/b8092fd0cf7d132d69fad00a8294554d5629946d/tests/al-language/report/lt-report-requestpage/RptSkipBreakQuit.al#L230-L249), and [extension-trigger assertions](https://github.com/aldevtools/BusinessCentral.AL.Language.Tests/blob/b8092fd0cf7d132d69fad00a8294554d5629946d/tests/al-language/errors/lt-ms-refusals-129/P129ReportExtBreak.al#L175-L194) distinguish same-trigger statements from record progression and later dispatch. Processing-only traces do not themselves prove dataset emission.
 - Correction provenance: [issue #200](https://github.com/microsoft/BCQuality/issues/200) and [PR #183 comment](https://github.com/microsoft/BCQuality/pull/183#issuecomment-6497847687).
 
+## Changed by
+
+- [#255 Correct CurrReport.Skip guidance and retire false fixture expectations](../../../../changes/bcquality/255.md), 2026-11-04
+
 ---
 
-From microsoft/BCQuality at c203ebc, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 9b72501, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

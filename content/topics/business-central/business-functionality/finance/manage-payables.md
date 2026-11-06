@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:34.968Z"
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -528,7 +528,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11095 [main] Bug 649204 Validation missing for Deferral Code field on Released Purchase documents.](../../../../changes/bcapps/11095.md) (code change): "Deferral Code field on released purchase line documents now validates"
 - [#12532 [Master]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](../../../../changes/bcapps/12532.md) (code change): "Dispute Status code is not retained in some scenarios within the Vendor"
 - [#12762 [29.X]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](../../../../changes/bcapps/12762.md) (code change): "Dispute status is now retained when editing vendor ledger entries"
-- [#13228 [Master]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](../../../../changes/bcapps/13228.md) (code change): "Vendor and customer ledger entries now maintain consistent dispute status"
+- [#13228 [Master]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](../../../../changes/bcapps/13228.md) (code change): "Fixes inconsistent syncing of On Hold and document dispute status"
 - [#13396 [main] Purchase invoice fails with "quantity larger than item ledger entry" after partial invoicing of multiple receipts with non-base UoM and Qty. Rounding Precision = 1](../../../../changes/bcapps/13396.md) (code change): "partial purchase invoices with non-base units of measure and quantity rounding"
 - [#9133 [Master]-Project consumption: partial invoicing of non-inventory items posts negative adjustment value entry to wrong Item Ledger Entry](../../../../changes/bcapps/9133.md) (code change): "Partial invoicing of non-inventory items consumed on a project"
 - [#9182 Align Pay-to Name 2 editability with the other pay-to address fields on purchase documents](../../../../changes/bcapps/9182.md) (code change): "Pay-to Name 2 editability aligned with other pay-to address fields"

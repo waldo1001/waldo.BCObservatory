@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:16:13.510Z"
+  at: "2026-11-06T00:17:27.413Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6faaf7b0d768b2a5b8f2fd96cc026d92c7e1d1c9
@@ -23,7 +23,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-reporting-review.md
     title: "microsoft/BCQuality: AL reporting review"
     date: "2026-11-04"
-    commit: c203ebc862a6dc9a35fcb7a50110a96e0bae6f55
+    commit: 9b72501fc3199e6f8c776b4fe3aeb1a11e5dfaee
     t: null
     quote: null
 links:
@@ -37,6 +37,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/255
     - change/bcquality/230
     - change/bcquality/183
   related:
@@ -141,9 +142,10 @@ Output conforms to the DO findings-report contract. Every finding this skill emi
 
 ## Changed by
 
+- [#255 Correct CurrReport.Skip guidance and retire false fixture expectations](../../../../changes/bcquality/255.md), 2026-11-04
 - [#230 Knowledge: report layouts and dataset contract, query join and grouping defaults](../../../../changes/bcquality/230.md), 2026-10-20
 - [#183 Add reporting review guidance and evaluation fixtures](../../../../changes/bcquality/183.md), 2026-09-15
 
 ---
 
-From microsoft/BCQuality at c203ebc, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 9b72501, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

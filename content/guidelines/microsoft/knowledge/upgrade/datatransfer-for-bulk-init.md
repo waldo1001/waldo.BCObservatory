@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:19:55.965Z"
+  at: "2026-11-06T00:17:27.413Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a56f85f7e993a09248d364c89a3d3f0d05f6383a
@@ -50,6 +50,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/264
     - change/bcquality/174
     - change/bcquality/87
 repo_path: microsoft/knowledge/upgrade/datatransfer-for-bulk-init.md
@@ -125,6 +126,7 @@ See sample: [`datatransfer-for-bulk-init.bad.al`](https://github.com/microsoft/B
 
 ## Changed by
 
+- [#264 knowledge(upgrade): clarify DataTransfer defaults and bypass safety](../../../../changes/bcquality/264.md), 2026-11-05
 - [#174 Make BCQuality documentation easier for partners to get started](../../../../changes/bcquality/174.md), 2026-09-09
 - [#87 Fix knowledge corpus integrity issues](../../../../changes/bcquality/87.md), 2026-07-13
 

@@ -4,7 +4,7 @@
   "title": "Fix al-knowledge follow-ups and document the skill",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "The al-knowledge skill now accepts JavaScript technology queries alongside AL, and the knowledge response validator now rejects contradictory citation records and duplicate references to prevent validation errors.",
+  "summary": "The al-knowledge skill now declares both AL and JavaScript, so JavaScript consultations are no longer filtered out before retrieval. The knowledge response validator now rejects duplicate reference or suppression paths and articles that are both cited and suppressed. The docs now cover the new skill.",
   "key_points": [
     "Extended al-knowledge skill to support JavaScript technology queries for control-add-in and UI article requests",
     "Validator now rejects articles cited in both references and suppressed lists, and duplicate reference paths",
@@ -13,7 +13,7 @@
     "Added regression tests covering suppression reasons and contradictory duplicate citations"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

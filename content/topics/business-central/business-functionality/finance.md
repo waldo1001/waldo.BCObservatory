@@ -12,7 +12,7 @@ review:
   at: "2026-11-03T01:02:13.138Z"
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -891,7 +891,7 @@ children:
   - topic/business-central/business-functionality/finance/set-up-and-use-e-documents
   - topic/business-central/business-functionality/finance/multi-site-and-international-organizatio
 coverage:
-  learn: 257
+  learn: 258
   code: 525
   video: 5
   blog: 1
@@ -1432,7 +1432,7 @@ bc_forms:
   - 2000020
   - 2000021
   - 2000022
-member_hash: 72e7b7ba21c23a55c47b773273e9ff29c941cabc02251323901f96314d3b65a4
+member_hash: 0b2aa7252a7bfba07c63d63e500ac5ea48fda7e47c597d43477e3a7f59cff81c
 narrative: generated
 ---
 
@@ -1464,7 +1464,7 @@ Start with Financial management or Accounting and bookkeeping for the overall pi
 ## Subtopics
 
 - [Financial analytics](finance/financial-analytics.md) (129 pages)
-- [Closing years and periods](finance/closing-years-and-periods.md) (13 pages)
+- [Closing years and periods](finance/closing-years-and-periods.md) (14 pages)
 - [Work with the chart of accounts and general ledger (G/L)](finance/work-with-the-chart-of-accounts-and-gene.md) (12 pages)
 - [Working with dimensions](finance/working-with-dimensions.md) (3 pages)
 - [Working with currencies](finance/working-with-currencies.md) (2 pages)

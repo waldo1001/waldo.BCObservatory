@@ -11,18 +11,18 @@ tags:
   - extensions
   - document attachments
   - external storage
-system: integration
+system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-06T00:59:22.716Z"
   flags: []
 generated:
-  at: "2026-11-06T00:20:03.427Z"
+  at: "2026-11-06T00:17:27.413Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: f11aced969c5983907872c1a7eebbf86d57f71d979f92f63ecaad30cf8c690dd
+  input_hash: ed668b55e797da24037347c2c7dfe33bbaf2a17f0402ee89c0c1c28730ebff09
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-87-check-for-microsoft-apps-on-appsource/
@@ -69,24 +69,23 @@ quotes:
     why_it_matters: Directs consultants to reduce unnecessary custom development by exploring standard Microsoft solutions first
 code_objects_mentioned: []
 systems:
-  - integration
   - administration
 versions_mentioned: []
 preview:
   embeddable: true
   frame_url: null
-  image: null
+  image: https://thatnavguy.com/_astro/External%20Storage.DTkNcJAl_Z19nvWs.webp
   image_alt: null
   image_w: null
   image_h: null
   site_name: null
-  favicon: null
-  probed_at: "2026-11-05T00:48:32.497Z"
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-11-06T00:54:46.608Z"
 ---
 
 # BC Friday Tips #87 Check for Microsoft Apps on AppSource
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-87-check-for-microsoft-apps-on-appsource/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-11-06 · 100 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-87-check-for-microsoft-apps-on-appsource/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-11-06 · 100 words · tier community · reviewed (checked by Opus)
 
 > Not all Microsoft applications for Business Central are installed by default. Before requesting customizations, check AppSource for available Microsoft apps that may provide the needed functionality, such as External Storage for document attachments.
 
@@ -104,6 +103,6 @@ preview:
 
 ## Context
 
-- Features: External Storage - Document Attachments, AppSource integration
+- Features: External Storage - Document Attachments
 
 Source: That NAV Guy, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

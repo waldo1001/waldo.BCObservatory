@@ -32102,19 +32102,19 @@
     "video/1ugAYeEZLaU": {
       "kind": "video",
       "key": "video/1ugAYeEZLaU",
-      "hash": "7a31b086beed5f997359b0d6970219cfdce45ed6c13e4c7f43ed7e04248646f7",
+      "hash": "d5265a229f723bae694f3b221c7bcf1b7c63da22d1a28a8025397edadf119069",
       "video_id": "1ugAYeEZLaU",
       "title": "Working with Amount Fields",
-      "at": "2026-11-04T00:54:46.276Z",
+      "at": "2026-11-06T00:55:30.303Z",
       "matches": []
     },
     "video/1x3QyBX3swg": {
       "kind": "video",
       "key": "video/1x3QyBX3swg",
-      "hash": "518e4c307a745050700861111b22fcf477f5acebc556382842c49682aca3c580",
+      "hash": "32f478411c1184fc68f1e84399ddea6b955a91077396faffacae0ed35edbc31c",
       "video_id": "1x3QyBX3swg",
       "title": "Microsoft presents: Index management",
-      "at": "2026-10-25T12:31:56.599Z",
+      "at": "2026-11-06T00:55:33.443Z",
       "matches": [
         {
           "feature": 1,
@@ -32134,60 +32134,81 @@
           "feature": 2,
           "name": "Per-Company Index Management",
           "t": 353,
-          "roadmap_id": "573316",
-          "quote": "For company tables, indexes can now be managed on a per-company basis"
+          "roadmap_id": "573314",
+          "quote": "Indexes can be defined with enable false in AL and selectively enabled"
+        },
+        {
+          "feature": 18,
+          "name": "Extension fields merging to base tables in version 29",
+          "t": 1779,
+          "roadmap_id": "573332",
+          "quote": "Extension fields will be merged back into the base table in SQL schema"
+        },
+        {
+          "feature": 19,
+          "name": "Index management upgrade performance impact",
+          "t": 1887,
+          "roadmap_id": "573332",
+          "quote": "Runtime operations will be faster with merged extension fields"
         }
       ]
     },
     "video/1xdpUmeun-s": {
       "kind": "video",
       "key": "video/1xdpUmeun-s",
-      "hash": "d03d4f491e97400667bfb4c0bd6335a41d699c949410528ff19f1b6ad24eacee",
+      "hash": "0a172bea339e2b5717d1c44e11dbaedde192af8142968ba2bc01a59c9414a5d4",
       "video_id": "1xdpUmeun-s",
       "title": "Business Central Under the Hood episode 12: Evolving AL for Performance",
-      "at": "2026-10-25T12:31:58.416Z",
+      "at": "2026-11-06T00:55:31.040Z",
       "matches": []
     },
     "video/2_yYu3RgYwo": {
       "kind": "video",
       "key": "video/2_yYu3RgYwo",
-      "hash": "8ed647a2a37e184f41fc7c3c5e1463a86d7bb1ca02ed1f86c146570d5d2e2856",
+      "hash": "b664164adec8653ac0845fb8809172fb511ff5d005f9136fed00042c0130533f",
       "video_id": "2_yYu3RgYwo",
       "title": "What's New: Default Sustainability Information (2025 release wave 1)",
-      "at": "2026-11-04T00:54:52.247Z",
+      "at": "2026-11-06T00:55:39.369Z",
       "matches": [
+        {
+          "feature": 4,
+          "name": "Sustainability setup enablement",
+          "t": 24,
+          "roadmap_id": "573374",
+          "quote": "New sustainability setup option to enable or disable default sustainability values"
+        },
         {
           "feature": 7,
           "name": "Default sustainability values transfer to purchase documents",
           "t": 296,
           "roadmap_id": "573374",
-          "quote": "Default sustainability values transfer to purchase documents"
+          "quote": "Default sustainability account and emissions values set on master data cards automatically transfer to purchase"
         }
       ]
     },
     "video/205F8ljmInU": {
       "kind": "video",
       "key": "video/205F8ljmInU",
-      "hash": "6749d9942baf0179b43768f3bb5f9dfed928e749e3a20b57ea979ef10fb33101",
+      "hash": "a4df6ff9d44584460f7332d3fb7ecd64543fe5da4b2dbcc76a77bea05a4f2016",
       "video_id": "205F8ljmInU",
       "title": "What's New: The Danish Bookkeeping Act (2023 release wave 2)",
-      "at": "2026-11-04T00:54:53.314Z",
+      "at": "2026-11-06T00:55:32.007Z",
       "matches": []
     },
     "video/22duXC6j_No": {
       "kind": "video",
       "key": "video/22duXC6j_No",
-      "hash": "6aba4d7670e93ccd7888a6601c6cf55f8b835d65d81ba57a70adad9350a03752",
+      "hash": "2cfdc10544af7efc271f3dc13279365ea711f37aef1b6d8798adcebe450da73d",
       "video_id": "22duXC6j_No",
       "title": "Manage all your Apps And Updates in Admin Center for Business Central",
-      "at": "2026-10-25T12:31:58.737Z",
+      "at": "2026-11-06T00:55:31.180Z",
       "matches": [
         {
           "feature": 3,
           "name": "App installation from Admin Center",
           "t": 389,
           "roadmap_id": "576815",
-          "quote": "Users can install new apps directly from Admin Center without going to extension management, choosing installation timing"
+          "quote": "Users can install new apps directly from Admin Center without going to extension management"
         },
         {
           "feature": 2,
@@ -32208,28 +32229,28 @@
     "video/2430rfEywuI": {
       "kind": "video",
       "key": "video/2430rfEywuI",
-      "hash": "1459a8444407585f3108d066c4d2ea684a915be6f2bfcd9a6f2ea4637701bc2c",
+      "hash": "80fc7b94a5964b0009600fd473f7f470728a626844ce5721cebd9de7362e5145",
       "video_id": "2430rfEywuI",
       "title": "GP Assessment Tool - Optimize Your Migration to Dynamics 365 Business Central (2024)",
-      "at": "2026-10-25T12:31:58.569Z",
+      "at": "2026-11-06T00:55:30.630Z",
       "matches": []
     },
     "video/2isrH3RcSK8": {
       "kind": "video",
       "key": "video/2isrH3RcSK8",
-      "hash": "4d5a507480675cd4dafced61904cdd43fda0d144c59a2b6fc106e722e511a230",
+      "hash": "15894f8302b65cf09d0488e68f41b5839d34443c4d5b932833cbb68e435d59e2",
       "video_id": "2isrH3RcSK8",
       "title": "Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening",
-      "at": "2026-11-04T00:54:58.014Z",
+      "at": "2026-11-06T00:55:38.270Z",
       "matches": []
     },
     "video/2N2NhNH7dsk": {
       "kind": "video",
       "key": "video/2N2NhNH7dsk",
-      "hash": "478d5916064d6cfc0d9256efe26dd5d6e1ab562681dbb1ee1dd84872f7a23ae9",
+      "hash": "99408c5eab68dcdafe47a543898f94e84bac45ab6701ea0881fcbc538ee7ba31",
       "video_id": "2N2NhNH7dsk",
       "title": "What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)",
-      "at": "2026-10-25T12:31:57.737Z",
+      "at": "2026-11-06T00:55:34.486Z",
       "matches": [
         {
           "feature": 0,
@@ -32264,10 +32285,10 @@
     "video/2u5_F9Ztt7U": {
       "kind": "video",
       "key": "video/2u5_F9Ztt7U",
-      "hash": "e9a246217da99451b438c3bfe56a7ca5c6d856d9a1e2f26d1a7ae93518895fdc",
+      "hash": "09e60592bcba72dc9bd4f6581ae7ed2e7b25fc55f2783160912b228287379e2c",
       "video_id": "2u5_F9Ztt7U",
       "title": "What's New: Server and Database (2026 release wave 1)",
-      "at": "2026-10-25T12:32:04.918Z",
+      "at": "2026-11-06T00:55:38.015Z",
       "matches": [
         {
           "feature": 1,
@@ -32275,13 +32296,6 @@
           "t": 88,
           "roadmap_id": "576789",
           "quote": "Ability to extract data from Business Central using MCP resources"
-        },
-        {
-          "feature": 4,
-          "name": "Index Usage Insights and Management",
-          "t": 281,
-          "roadmap_id": "573316",
-          "quote": "Ability to remove unused metadata-defined indexes or auto-tune indexes"
         },
         {
           "feature": 6,
@@ -32295,92 +32309,84 @@
           "name": "Layout Lifecycle Control for Report Layouts",
           "t": 449,
           "roadmap_id": "573320",
-          "quote": "Control the lifecycle of any layout in the system through status stages"
+          "quote": "Layout Lifecycle Control for Report Layouts. Organizations can now control the lifecycle"
         },
         {
           "feature": 10,
           "name": "Permission Analysis Page",
           "t": 610,
           "roadmap_id": "576841",
-          "quote": "New page for analyzing permissions that provides a permission overview"
+          "quote": "Permission Analysis Page. New page for analyzing permissions that provides a permission overview"
         }
       ]
     },
     "video/2ujWYYecA2c": {
       "kind": "video",
       "key": "video/2ujWYYecA2c",
-      "hash": "b696de64b24090f5d673fdf0140fb0922573cb129225abe1ebd6a420e86601a0",
+      "hash": "176f7e33a9ed3d3c763d58726a5785608e88d35cc374d09dc7324d498dd64afe",
       "video_id": "2ujWYYecA2c",
       "title": "Getting Started With Agents: Set Up Sales Order Agent - New 'Try it out' experience (2026)",
-      "at": "2026-10-30T01:06:25.268Z",
-      "matches": [
-        {
-          "feature": 0,
-          "name": "Sales Order Agent",
-          "t": 0,
-          "roadmap_id": "578068",
-          "quote": "Sales Order Agent. An agent in Business Central that monitors"
-        }
-      ]
+      "at": "2026-11-06T00:55:38.546Z",
+      "matches": []
     },
     "video/2uXVammbab0": {
       "kind": "video",
       "key": "video/2uXVammbab0",
-      "hash": "db3a26c73d55affacc87b0c9eb6bb495640aea2354369f34c6a691089f84e77f",
+      "hash": "c5c9905a70b84c938088e90749707aa9361aba5ed4dce2ae0aa5656466a0a077",
       "video_id": "2uXVammbab0",
       "title": "What's New: Chat with Copilot (2025 release wave 1)",
-      "at": "2026-10-31T01:00:00.514Z",
+      "at": "2026-11-06T00:55:38.260Z",
       "matches": [
         {
           "feature": 0,
           "name": "Chat with Copilot",
           "t": 4,
           "roadmap_id": "573362",
-          "quote": "Natural language chat interface to interact with business data"
+          "quote": "Natural language chat interface to interact with business data using filters"
         }
       ]
     },
     "video/2vUCR16b85o": {
       "kind": "video",
       "key": "video/2vUCR16b85o",
-      "hash": "a7b949c72f977bfe7ef00e9f7bb7e7ecf9ea43ebc031962b3c938c79cf520454",
+      "hash": "5a5106ac040206415cbf9a766cda1239977386f87bbf8fd34bc5095b7d6b85b1",
       "video_id": "2vUCR16b85o",
       "title": "Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)",
-      "at": "2026-10-25T12:32:09.570Z",
+      "at": "2026-11-06T00:55:42.045Z",
       "matches": []
     },
     "video/2Zz55J8rt8I": {
       "kind": "video",
       "key": "video/2Zz55J8rt8I",
-      "hash": "f85bf33a096eb1546914a50e35d709ef4d96af7c92540e88f2ea45f9224d4e9b",
+      "hash": "5c92babc84151b7fdf54681766cc626d8259cd7fde5d9fc16af35c7214dc1316",
       "video_id": "2Zz55J8rt8I",
       "title": "Use Teaching Tips to Educate and Guide Users",
-      "at": "2026-10-25T12:32:03.351Z",
+      "at": "2026-11-06T00:55:37.135Z",
       "matches": []
     },
     "video/3jr6gUuGem4": {
       "kind": "video",
       "key": "video/3jr6gUuGem4",
-      "hash": "de8b544fed4d08305e0b6cd7794f321e18589e5ad09e1ff413fd94461d4748f3",
+      "hash": "91cce4466b75e259b0e95a69e0d884fd1d876dc6db671deb1d46837fb2b21194",
       "video_id": "3jr6gUuGem4",
       "title": "Modern Action Bar",
-      "at": "2026-10-30T01:06:28.129Z",
+      "at": "2026-11-06T00:55:41.635Z",
       "matches": []
     },
     "video/3tmaVpPTQLw": {
       "kind": "video",
       "key": "video/3tmaVpPTQLw",
-      "hash": "26cdd93126fd3bd64207c072983a245d285048f9d97a2b075121027d1bf78c0b",
+      "hash": "f1ab2cd281e96d2bc448192889ed5897970024506888c4a0dde9e2e5570b6ad5",
       "video_id": "3tmaVpPTQLw",
       "title": "What's New: Shopify Connector B2B Functionality (2024 release wave 1)",
-      "at": "2026-10-31T01:00:06.492Z",
+      "at": "2026-11-06T00:55:48.803Z",
       "matches": [
         {
           "feature": 7,
           "name": "B2B Business Central Integration",
           "t": 442,
           "roadmap_id": "573342",
-          "quote": "B2B Business Central Integration. Enhanced integration between Shopify B2B and Microsoft Business Central"
+          "quote": "Enhanced integration between Shopify B2B and Microsoft Business Central enabling seamless synchronization"
         },
         {
           "feature": 9,
@@ -32415,28 +32421,14 @@
           "name": "Get Catalogs Action",
           "t": 968,
           "roadmap_id": "573342",
-          "quote": "Get Catalogs Action. A new action in Business Central to retrieve catalogs"
+          "quote": "Get Catalogs Action. A new action in Business Central to retrieve catalogs from Shopify"
         },
         {
           "feature": 16,
           "name": "Catalog Price Synchronization",
           "t": 988,
           "roadmap_id": "573342",
-          "quote": "Catalog Price Synchronization. Ability to sync prices from catalogs"
-        },
-        {
-          "feature": 14,
-          "name": "Company-Specific Catalogs",
-          "t": 877,
-          "roadmap_id": "573342",
-          "quote": "Company-Specific Catalogs. B2B customers can be assigned to specific companies"
-        },
-        {
-          "feature": 18,
-          "name": "B2B vs D2C Order Differentiation",
-          "t": 1098,
-          "roadmap_id": "573342",
-          "quote": "B2B vs D2C Order Differentiation. Orders placed by B2B users are assigned"
+          "quote": "Catalog Price Synchronization. Ability to sync prices from catalogs to Shopify"
         },
         {
           "feature": 19,
@@ -32444,13 +32436,6 @@
           "t": 1142,
           "roadmap_id": "573343",
           "quote": "Cancel Order Action. New action to cancel orders imported from Shopify"
-        },
-        {
-          "feature": 20,
-          "name": "Order Status Synchronization",
-          "t": 1162,
-          "roadmap_id": "573343",
-          "quote": "Order Status Synchronization. Order statuses from Business Central are synchronized"
         },
         {
           "feature": 21,
@@ -32467,25 +32452,11 @@
           "quote": "Intelligent Credit Memo Creation. Business Central automatically creates credit memos"
         },
         {
-          "feature": 23,
-          "name": "Order Error Detection for Received Edits",
-          "t": 1568,
-          "roadmap_id": "573343",
-          "quote": "Order Error Detection for Received Edits. The system now detects when an order"
-        },
-        {
           "feature": 24,
           "name": "Synchronize Order from Shopify Action",
           "t": 1588,
           "roadmap_id": "573343",
           "quote": "Synchronize Order from Shopify Action. Main action that allows users to synchronize"
-        },
-        {
-          "feature": 25,
-          "name": "Unlink Process Documents Action",
-          "t": 1644,
-          "roadmap_id": "573343",
-          "quote": "Unlink Process Documents Action. Action that allows users to unlink a processed"
         },
         {
           "feature": 26,
@@ -32495,53 +32466,53 @@
           "quote": "Automatic Credit Memo Creation for Refunds. System can automatically create credit memos"
         },
         {
-          "feature": 27,
-          "name": "Edit and Refund Processing for Paid Orders",
-          "t": 1745,
-          "roadmap_id": "573343",
-          "quote": "Edit and Refund Processing for Paid Orders. For orders already paid in Shopify"
+          "feature": 8,
+          "name": "D2C Customer Synchronization Control",
+          "t": 518,
+          "roadmap_id": "576836",
+          "quote": "D2C Customer Synchronization Control. Improved customer synchronization allowing merchants"
         },
         {
-          "feature": 28,
-          "name": "Edit Support for Unpaid Orders",
-          "t": 1745,
-          "roadmap_id": "573343",
-          "quote": "Edit Support for Unpaid Orders. Shopify allows edits for orders without payments"
+          "feature": 18,
+          "name": "B2B vs D2C Order Differentiation",
+          "t": 1098,
+          "roadmap_id": "576836",
+          "quote": "B2B vs D2C Order Differentiation. Orders placed by B2B users are assigned to the company"
         },
         {
-          "feature": 29,
-          "name": "User Notification for Conflicting Documents",
-          "t": 1786,
-          "roadmap_id": "573343",
-          "quote": "User Notification for Conflicting Documents. When a document in Business Central"
+          "feature": 17,
+          "name": "B2B Checkout with Company Assignment",
+          "t": 1039,
+          "roadmap_id": "576836",
+          "quote": "B2B Checkout with Company Assignment. B2B checkout experience shows company name"
         }
       ]
     },
     "video/3UcLmXqyl44": {
       "kind": "video",
       "key": "video/3UcLmXqyl44",
-      "hash": "4afc975b2bf7aee6efe23642254834cae7a02eb305597bdc50af57c76c792e00",
+      "hash": "19c9d7e3b98ce87233883fb789e79e6164769aedaf670970fd3271e75dddda3e",
       "video_id": "3UcLmXqyl44",
       "title": "What's New: Exporting and Importing Agent in Business Central",
-      "at": "2026-10-30T01:06:28.156Z",
+      "at": "2026-11-06T00:55:44.383Z",
       "matches": []
     },
     "video/3uVf6BEXt1w": {
       "kind": "video",
       "key": "video/3uVf6BEXt1w",
-      "hash": "212023efe4fda62d5b607b215a47d98f360c746e929029e937babf70c6bb99b6",
+      "hash": "7648cc88cc04866c8e9d476b22fe5308e78661e1d39fbd390de88ea3389eeaa2",
       "video_id": "3uVf6BEXt1w",
       "title": "Why Onboarding Experiences are Important",
-      "at": "2026-10-25T12:32:16.026Z",
+      "at": "2026-11-06T00:55:46.362Z",
       "matches": []
     },
     "video/3Xus5tm2xKI": {
       "kind": "video",
       "key": "video/3Xus5tm2xKI",
-      "hash": "01f6c6c04fceab0778016cb4fcdec1b7b13abed479a39ab81d226169595f906e",
+      "hash": "a8d5c6b3e59736919f3cd26b6c9a3f9ddcccc60ab4e11e5c43d878e77a801f8f",
       "video_id": "3Xus5tm2xKI",
       "title": "What's new: Manage PTEs in the Admin Center (2026 release wave 2)",
-      "at": "2026-10-25T12:32:11.672Z",
+      "at": "2026-11-06T00:55:43.880Z",
       "matches": [
         {
           "feature": 0,
@@ -32555,7 +32526,7 @@
           "name": "Flexible deployment schedule for PTE installation",
           "t": 88,
           "roadmap_id": "576815",
-          "quote": "Flexible deployment schedule for PTE installation. When installing PTEs from admin center, users can choose between immediate deployment"
+          "quote": "When installing PTEs from admin center, users can choose between immediate deployment"
         },
         {
           "feature": 3,
@@ -32590,10 +32561,10 @@
     "video/42adOzECiA0": {
       "kind": "video",
       "key": "video/42adOzECiA0",
-      "hash": "9ff25580b8f64003d002325d2121088022101451f437d438ed3aa658c168d3f5",
+      "hash": "d2da6e7c50d2ca7021610d014b4a9b6c7359abfe99a8f5351aa4cc717acd8618",
       "video_id": "42adOzECiA0",
       "title": "What's New: Upgrade to Preview (2025 release wave 2)",
-      "at": "2026-10-23T23:44:46.608Z",
+      "at": "2026-11-06T00:55:46.684Z",
       "matches": []
     },
     "video/4EnvGMwbuBY": {

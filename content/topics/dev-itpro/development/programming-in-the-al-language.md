@@ -12,7 +12,7 @@ review:
   at: "2026-11-03T01:02:12.282Z"
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -364,7 +364,6 @@ links:
     - video/QhHgkCe3kkk
   posts:
     - post/aardvarklabs-blog/2603
-    - post/jeremyvyska-com/1770
     - post/nataliekarolak-com/1855
     - post/nataliekarolak-com/3653
     - post/nataliekarolak-com/4184
@@ -402,7 +401,7 @@ coverage:
   learn: 340
   code: 36
   video: 3
-  blog: 8
+  blog: 7
   guideline: 0
 bc_forms:
   - 16
@@ -501,7 +500,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#155 Add read-only AL development plan guidance](../../../changes/bcquality/155.md) (code change): "Add read-only AL development plan guidance enriching AL development plans with applicable constraints"
 - [#195 Add foundational AL developer knowledge](../../../changes/bcquality/195.md) (code change): "Add foundational AL developer knowledge. Adds seven foundational AL knowledge articles"
 - [Guide to Handling Header and Detail Imports into Business Central with AL](../../../posts/aardvarklabs-blog/2603.md) (community post): "demonstrates how to parse and import delimited files using AL"
-- [Fall 2026 Agentic Development Classes: Copilot Refresh, Claude Code, and BCQuality](../../../posts/jeremyvyska-com/1770.md) (community post): "GitHub Copilot refresh covers agent mode, custom agents, agent skills, instructions files, MCP servers"
 - [Snippet: StrMenu from Enum list](../../../posts/nataliekarolak-com/1855.md) (community post): "AL code snippet that uses StrMenu to let users select from a filtered"
 - [Docs: What’s new in BC 27 for developers](../../../posts/nataliekarolak-com/3653.md) (community post): "New AL methods for GUID creation, truncate operations, text manipulation"
 - [Using Substring to replace CopyStr](../../../posts/nataliekarolak-com/4184.md) (community post): "Using Substring to replace CopyStr for improved code readability"

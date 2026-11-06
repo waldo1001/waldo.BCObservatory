@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:38.147Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-06T01:02:12.564Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -86,6 +86,7 @@ links:
   guidelines: []
   changes:
     - change/bcquality/183
+    - change/bcquality/255
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -150,5 +151,6 @@ Start with the event that matches your scenario. For a printer extension, read O
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#183 Add reporting review guidance and evaluation fixtures](../../../../../changes/bcquality/183.md) (code change): "covering report variable clearing, CurrReport control flow, report extensions"
+- [#255 Correct CurrReport.Skip guidance and retire false fixture expectations](../../../../../changes/bcquality/255.md) (code change): "Corrected the assumption that code after CurrReport.Skip() continues in the same OnAfterGetRecord trigger"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

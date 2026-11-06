@@ -1,38 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/quality-management",
-  "input_hash": "1a2b9bda8d979a57dcd8889545a46d2ec5e01a52b8627d5ad80590743052e7a1",
-  "summary": "Quality management in Business Central is an extension for automatic, manual, and scheduled quality inspections in purchasing, production, assembly, and warehouse processes. It answers questions about running inspections, blocking lots, handling failed items, setup, and troubleshooting.",
-  "overview": "Quality Management is a Microsoft-published extension. It creates inspections automatically at key points in purchasing, production, assembly, and warehouse processes. It can also create them manually or on a schedule. Templates define the inspections, and workflows can respond to the results.\n\nThe pages follow the life of an inspection. The overview explains the extension. The setup subtopic covers prerequisites, permissions, inspection results, templates, generation rules, and workflows. Working with inspections covers assigning owners, entering test values, finishing, printing reports, and reinspecting. Scheduled inspections use job queue entries.\n\nOnce an inspection fails, one page covers blocking lots, serial numbers, and packages. Another covers moving, returning, removing, or reclassifying the items. A troubleshooting page groups common issues by feature area. Start with the overview, then the setup subtopic.",
+  "input_hash": "225f6c18c315b92bbabe00790441cf9e9c1c984e59b319d98ea04305e7456882",
+  "summary": "Quality management in Business Central uses the Microsoft-published Quality Management extension to run automatic, manual, and scheduled quality inspections. It answers questions about creating and working with inspections, blocking lots, handling failed items, setup, and troubleshooting.",
+  "overview": "Quality Management is an extension that adds quality inspections at key points in purchasing, production, assembly, and warehouse processes. Inspections can be created automatically from generation rules, manually from templates or source records, or on a schedule through job queue entries.\n\nThe pages follow the life of an inspection. Start with the overview to see what the extension does, then use the Set up quality management subtopic for installation, permission sets, templates, results, generation rules, and workflows. After that, \"Work with quality inspections\" covers assigning, testing, and finishing inspections, and \"Create scheduled quality inspections\" covers time-based creation such as shelf life monitoring.\n\nOnce an inspection is finished, \"Block or unblock lots\" and \"Process items that failed a quality inspection\" cover what happens to the stock: blocking, quarantine, removal, transfer, or return to the vendor. The troubleshooting page is the place to go when inspections are not created or lots are not blocked as expected.",
   "key_points": [
+    "Quality Management is a Microsoft-published extension for inspections in purchasing, production, assembly, and warehouse processes.",
     "Inspections can be created automatically, manually, or on a schedule, and use templates.",
-    "Scheduled inspections run at regular time intervals through job queue entries, for example for shelf life monitoring.",
-    "Inspections can be assigned to users, completed with test values, and result calculation, then printed as reports or repeated as reinspections.",
-    "Lots, serial numbers, and packages can be blocked or unblocked by workflows or by inspection results, with document-specific restrictions for sales and transfers.",
-    "Failed items can be moved to quarantine, put away internally, sent by transfer order, returned to the vendor by purchase return, removed by negative adjustment, or have item tracking changed.",
-    "The setup subtopic (5 pages) covers prerequisites, permissions, results, templates, generation rules, and workflows.",
-    "The troubleshooting page covers setup, generation rules, scheduled inspections, workflows, templates, warehouse receipt and production output inspections, manual creation, and lot blocking."
+    "Setup covers installing the extension, permission sets, inspection templates, results, generation rules, and workflows.",
+    "Scheduled inspections are created at regular intervals using job queue entries, for example for shelf life monitoring.",
+    "Lots, serial numbers, and packages can be blocked or unblocked through workflows or based on inspection results, with document-specific restrictions for sales, transfers, and other transactions.",
+    "Failed items can be blocked, moved to quarantine, removed from inventory, transferred to other locations, or returned to vendors.",
+    "Working with an inspection includes assigning users, entering test values, verifying item tracking, finishing with passed or failed quantities, printing reports, and reinspecting.",
+    "A troubleshooting page covers generation rules, scheduled inspections, workflows, templates, warehouse receipts, production output, and lot blocking."
   ],
   "members_used": 6,
   "subtopics_used": 1,
   "prompt_version": 1,
-  "at": "2026-10-24T00:52:52.642Z",
+  "at": "2026-11-06T01:01:46.446Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.013739000000000001
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-24T00:55:07.777Z",
-    "verdict": "approve",
-    "issues": [
-      "Key point 3 is awkwardly worded ('completed with test values, and result calculation'). Something like 'test values are entered, results are calculated, and the inspection is finished' would read better.",
-      "The overview puts lot blocking under 'Once an inspection fails'. The source page also covers blocking through workflows and based on inspection results in general, not only failures. Key point 4 describes this correctly.",
-      "'Returned to the vendor by purchase return' goes slightly beyond the source, which only says 'purchase returns'. It is a reasonable inference.",
-      "The troubleshooting key point leaves out the general 'inspections' area listed in the source. The other areas match."
-    ],
-    "input_hash": "1a2b9bda8d979a57dcd8889545a46d2ec5e01a52b8627d5ad80590743052e7a1",
-    "cost_usd": 0.04011920000000001
+    "cost_usd": 0.014361
   }
 }

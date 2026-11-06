@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:45:06.377Z"
+  at: "2026-11-06T00:50:42.930Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 98c19c18be874764452072352aa6818554cc29fbac23c067e6548c3597a9255e
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/US/IRSForms/app/src/Interface/IRS1099IRISXml.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/US/IRSForms/app/src/Interface/IRS1099IRISXml.Interface.al
     title: src/Apps/US/IRSForms/app/src/Interface/IRS1099IRISXml.Interface.al (releases/29.x)
     date: null
-    commit: 1c51b1f77ed32c7267d68456850d9d93296821d3
+    commit: 7af2f8d2e22b684ec7b2455c7baf1007da944ac5
     t: null
     quote: null
 links:
@@ -74,7 +74,7 @@ relations:
 
 > Interface "IRS 1099 IRIS Xml" (US) in the US country layer (Microsoft.Finance.VAT.Reporting). 3 public procedures. Introduced in BC29, still in BC30.
 
-US country layer · Microsoft.Finance.VAT.Reporting · BC29-30 · [source at 1c51b1f7](https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/US/IRSForms/app/src/Interface/IRS1099IRISXml.Interface.al) · facts from BC29
+US country layer · Microsoft.Finance.VAT.Reporting · BC29-30 · [source at 7af2f8d2](https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/US/IRSForms/app/src/Interface/IRS1099IRISXml.Interface.al) · facts from BC29
 
 An object of the [US localization](../../localizations/us.md), not part of W1.
 

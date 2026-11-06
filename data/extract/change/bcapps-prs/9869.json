@@ -8,11 +8,9 @@
   ],
   "summary": "Documentation for the TagCompanyName parameter of the SetSkippedUpgrade method in the Upgrade Tag codeunit was corrected to accurately describe its purpose.",
   "key_points": [
-    "Fixed MS Doc description of TagCompanyName parameter",
-    "Affects SetSkippedUpgrade method in Upgrade Tag codeunit",
-    "Documentation-only change with no code logic modifications",
-    "Improves developer clarity when working with upgrade tags",
-    "Part of System Application sync"
+    "Corrected the doc comment for the TagCompanyName parameter",
+    "Applies to the SetSkippedUpgrade method in the Upgrade Tag codeunit",
+    "Documentation-only change with no code logic modifications"
   ],
   "change_kind": "fix",
   "behavior_change": false,

@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/set-up-business-central/set-up-quality-management",
-  "input_hash": "3fcf857418cb59b6a05cde773abd5ae8ddc7d00fb13abf8b3ddd2a298408d21f",
-  "summary": "Quality management setup in Business Central covers prerequisites, permissions, inspection results, templates, generation rules, and workflows. It answers questions about configuring how quality inspections are created, evaluated, and acted on.",
-  "overview": "This section explains how to prepare Quality Management before inspections are used. It starts with the general setup and configuration page, which covers prerequisites, permission sets, base data, assisted setup, and settings for inspection creation, search criteria, workflows, and item tracking.\n\nThe other pages each cover one building block. Inspection results define the possible outcomes, such as Pass, Fail, and In Progress. Inspection templates define the measurements and attributes to test. Generation rules decide when inspections are created automatically from business transactions. Workflows define what happens after an inspection result, such as blocking a lot or moving inventory.\n\nStart with the setup and configuration page, then configure results and templates, then create generation rules that map templates to sources, and finally set up workflows that respond to result codes.",
+  "input_hash": "9da10e19f26b23664c55f669e4c6fcc61622443e2b6b3e883e690c163fdf0c86",
+  "summary": "Setting up quality management in Business Central covers the Quality Management extension: initial setup and permission sets, inspection results, inspection templates, generation rules, and workflows. It answers questions about configuring automatic inspections and the actions taken on nonconforming items.",
+  "overview": "This section explains how to deploy and configure the Quality Management extension. It starts with the setup and configuration page, which covers prerequisites, permission sets, base data, and the trigger settings that create inspections automatically in purchase, production, and warehouse processes.",
   "key_points": [
-    "The setup and configuration page covers prerequisites, permission sets, base data, and assisted setup.",
-    "Settings include inspection creation options, search criteria, certificate of analysis contact, picture handling, and generation rule trigger defaults.",
-    "Inspection results such as Pass, Fail, and In Progress can be customized with visibility, categories, and lot blocking conditions.",
-    "Templates support test value types: decimal, integer, boolean, text, date, options, and table lookups.",
-    "Templates can be created from scratch or copied and modified, and they include pass/fail criteria and result conditions.",
-    "Generation rules create inspections from transactions like purchase receipts, production output, and warehouse movements.",
-    "Generation rules use sort order, template-to-source mapping, and item, attribute, and condition filters, with an activation trigger.",
-    "Workflows automate lot blocking and unblocking, inventory movements, negative adjustments, and reinspection creation based on result codes."
+    "The setup page covers prerequisites, base data, and permission sets: Quality Admin & Supervisor, Quality Inspector, and Quality Auditor.",
+    "Trigger settings control automatic inspection creation across purchase, production, and warehouse processes, including a warehouse receipts trigger.",
+    "Inspection results such as Pass, Fail, and In Progress can be extended with custom results, visibility, categories, and lot blocking conditions.",
+    "Inspection templates define tests with value types: decimal, integer, boolean, text, date, options, and table lookups.",
+    "Templates can be created from scratch or copied and modified, and include pass/fail criteria and result conditions.",
+    "Generation rules choose templates and tests for production, purchase, warehouse, and assembly operations.",
+    "Rules can be created manually or automatically and use Activation Trigger, Condition, Item, and Attribute filters plus Schedule Group assignment.",
+    "Workflows can block or unblock lots, move inventory, post negative adjustments, and create reinspections based on result codes."
   ],
   "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-24T00:52:42.948Z",
+  "at": "2026-11-06T01:01:36.355Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.012184999999999998
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-24T00:56:17.555Z",
-    "verdict": "approve",
-    "issues": [
-      "The recommended setup order in the overview is the writer's own advice rather than something a page says, but it follows sensibly from how the pieces depend on each other.",
-      "The results page's 'evaluation sequence' feature is not mentioned; leaving it out is acceptable."
-    ],
-    "input_hash": "3fcf857418cb59b6a05cde773abd5ae8ddc7d00fb13abf8b3ddd2a298408d21f",
-    "cost_usd": 0.0395112
+    "cost_usd": 0.011314999999999999
   }
 }

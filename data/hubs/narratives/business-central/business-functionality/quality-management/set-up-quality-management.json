@@ -1,36 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/quality-management/set-up-quality-management",
-  "input_hash": "3fcf857418cb59b6a05cde773abd5ae8ddc7d00fb13abf8b3ddd2a298408d21f",
-  "summary": "Quality management setup in Business Central covers prerequisites, permissions, inspection results, templates, generation rules, and workflows. It answers questions about how to configure the module and automate inspections and responses to their outcomes.",
-  "overview": "This section describes the configuration steps for quality management. The setup and configuration page covers prerequisites, permission sets, base data, assisted setup, and settings for inspection creation, search criteria, workflows, and item tracking. Start there.\n\nAfter the base setup, define the building blocks. Inspection results (such as Pass, Fail, and In Progress) set the possible outcomes, including visibility, categories, and lot blocking behavior. Inspection templates define the measurements and attributes to test, and the test value types they use.\n\nThen connect these pieces to business activity. Generation rules decide when inspections are created automatically, for example on purchase receipts, production output, or warehouse movements. Workflows react to inspection events, such as blocking lots, moving inventory, or posting negative adjustments for nonconforming items.",
+  "input_hash": "9da10e19f26b23664c55f669e4c6fcc61622443e2b6b3e883e690c163fdf0c86",
+  "summary": "Setting up quality management in Business Central: installing and configuring the Quality Management extension, permission sets, inspection templates, results, generation rules, and workflows. It answers questions about initial deployment and how inspections are created and handled automatically.",
+  "overview": "This section covers the setup work needed before quality inspections can run. It starts with the Quality Management extension itself: prerequisites, permission sets, base data and the trigger settings that let inspections be created automatically in purchase, production and warehouse processes.",
   "key_points": [
-    "Start with the setup and configuration page: prerequisites, permission sets, base data, and assisted setup.",
-    "Setup settings include inspection creation options, search criteria, certificate of analysis contact, picture handling, and generation rule trigger defaults.",
-    "Inspection results such as Pass, Fail, and In Progress can be customized, with result visibility, categories, evaluation sequence, and lot blocking conditions.",
-    "Inspection templates define tests with value types: decimal, integer, boolean, text, date, options, and table lookups.",
-    "Templates can be created from scratch or copied and modified; they include pass/fail criteria and result conditions.",
-    "Generation rules map templates to sources, with sort order, condition, item, and attribute filters, and an activation trigger.",
-    "Workflows can block or unblock lots, create inventory movements, post negative adjustments, and create reinspections based on result code conditions."
+    "Start with the setup and configuration page: it covers the Quality Management extension, prerequisites, permission sets and base data.",
+    "Permission sets named in the setup: Quality Admin & Supervisor, Quality Inspector and Quality Auditor.",
+    "Setup includes inspection creation options, search criteria for existing inspections, and triggers such as warehouse receipts.",
+    "Inspection templates define the measurements and attributes to test. They can be created from scratch or copied and changed.",
+    "Test value types include decimal, integer, boolean, text, date, options and table lookups, with pass/fail criteria and result conditions.",
+    "Inspection results such as Pass, Fail and In Progress can be customized, including visibility, categories, evaluation sequence and lot blocking conditions.",
+    "Generation rules pick the template and tests for production, purchase, warehouse and assembly transactions, using activation triggers and condition, item and attribute filters.",
+    "Workflows react to inspection events with lot blocking and unblocking, inventory movement, negative adjustments and reinspection creation, based on result code conditions."
   ],
   "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-24T00:52:43.076Z",
+  "at": "2026-11-06T01:01:37.279Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.012083
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-24T00:56:07.373Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the workflows key point ties reinspection creation to result code conditions. The source lists these as separate features, so the link is inferred, but it is reasonable.",
-      "Minor: the setup order (base setup, then results and templates, then generation rules and workflows) is the narrative's own framing. The page summaries don't state it, but it doesn't contradict them."
-    ],
-    "input_hash": "3fcf857418cb59b6a05cde773abd5ae8ddc7d00fb13abf8b3ddd2a298408d21f",
-    "cost_usd": 0.0268872
+    "cost_usd": 0.011323
   }
 }

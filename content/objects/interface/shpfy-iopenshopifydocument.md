@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:45:06.377Z"
+  at: "2026-11-06T00:50:42.930Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e84057c74461619bd12fd8f91219b7effda81f73acea07ac653ac828db5b421a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/W1/Shopify/app/src/Document%20Links/Interfaces/ShpfyIOpenShopifyDocument.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/Shopify/app/src/Document%20Links/Interfaces/ShpfyIOpenShopifyDocument.Interface.al
     title: src/Apps/W1/Shopify/app/src/Document Links/Interfaces/ShpfyIOpenShopifyDocument.Interface.al (releases/29.x)
     date: null
-    commit: 1c51b1f77ed32c7267d68456850d9d93296821d3
+    commit: 7af2f8d2e22b684ec7b2455c7baf1007da944ac5
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Shpfy IOpenShopifyDocument" in Shopify (Microsoft.Integration.Shopify). 1 public procedures. Introduced in BC29, still in BC30.
 
-Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at 1c51b1f7](https://github.com/microsoft/BCApps/blob/1c51b1f77ed32c7267d68456850d9d93296821d3/src/Apps/W1/Shopify/app/src/Document%20Links/Interfaces/ShpfyIOpenShopifyDocument.Interface.al) · facts from BC29
+Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at 7af2f8d2](https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/Shopify/app/src/Document%20Links/Interfaces/ShpfyIOpenShopifyDocument.Interface.al) · facts from BC29
 
 ## Procedures
 

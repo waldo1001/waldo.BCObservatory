@@ -9712,16 +9712,11 @@
     "change/bcapps/12624": {
       "kind": "change",
       "key": "change/bcapps/12624",
-      "hash": "cb12e2d13477d75508bea27cd8bcf0cf8effb19ff30bc99b4fa509dc4108529b",
+      "hash": "e26bbb36d0a75384d3b45110328e409e36a7d1fa76b17be90b4010bfb68c0486",
       "title": "#12624 Align styling in Document Report Experience themes, HF designs and bodies",
       "source": "bcapps-prs",
-      "at": "2026-11-05T00:50:26.888Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/get-started/get-productive-in-business-central/change-the-look-of-externally-facing-doc/use-obsolete-features",
-          "quote": "Styling of Word report themes, header/footer designs and bodies"
-        }
-      ]
+      "at": "2026-11-06T00:56:58.371Z",
+      "matches": []
     },
     "change/bcapps/12626": {
       "kind": "change",
@@ -9768,11 +9763,16 @@
     "change/bcapps/12683": {
       "kind": "change",
       "key": "change/bcapps/12683",
-      "hash": "9940d44a91da83f2765f975acba85d603a86473c8fa19f5dae144473f10bba60",
+      "hash": "dc4e606fc09838eb32e3a60a8d6dc418613c56df03a97bbdc4871a3a9633b49a",
       "title": "#12683 [API tests] Return shipment PDF selection and pdfDocument test isolation",
       "source": "bcapps-prs",
-      "at": "2026-11-05T00:50:26.702Z",
-      "matches": []
+      "at": "2026-11-06T00:56:59.665Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/web-services/apis",
+          "quote": "The return shipment PDF handler now uses the P.Ret. Shpt. report selection instead of P.Return"
+        }
+      ]
     },
     "change/bcapps/12690": {
       "kind": "change",
@@ -10231,14 +10231,22 @@
     "change/bcapps/12910": {
       "kind": "change",
       "key": "change/bcapps/12910",
-      "hash": "7017c8f6c215d9823a80ea94d869edf3a5b2bafc1f2277da34be7679559a9a16",
+      "hash": "80f794b073eeac30c969bd0423b5d5617474210afc1ae463ba15175e3564a69c",
       "title": "#12910 [Master] - Bug 652243: [Expense Agent] Validate approval user email",
       "source": "bcapps-prs",
-      "at": "2026-11-05T00:50:28.664Z",
+      "at": "2026-11-06T00:56:57.788Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "Expense Agent now validates approval user emails correctly"
+          "quote": "Expense Agent now validates the approval user email"
+        },
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Approval user email validation in the Expense User table"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central/test-copilot-capability-in-al",
+          "quote": "Tests added in the expense and interim approval test codeunits"
         }
       ]
     },
@@ -10500,6 +10508,20 @@
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
           "quote": "Expense itemization records now store properly rounded currency amounts"
+        }
+      ]
+    },
+    "change/bcapps/13063": {
+      "kind": "change",
+      "key": "change/bcapps/13063",
+      "hash": "3b2a390dc26fd6c5f26d4d365c1d225d02fa92d9a7f6671bab99ea985b4180ee",
+      "title": "#13063 [Bug][Subscription Billing] Rebilling usage data increases the subscription quantity once per subscription line",
+      "source": "bcapps-prs",
+      "at": "2026-11-06T00:56:56.456Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/sales/subscription-billing/bill-subscriptions-based-on-usage",
+          "quote": "Fixed rebilling of usage data for subscription lines so that subscription quantity increases only once"
         }
       ]
     },
@@ -10864,18 +10886,18 @@
     "change/bcapps/13228": {
       "kind": "change",
       "key": "change/bcapps/13228",
-      "hash": "a78118025bc0f22c35925c2f9cc0d2c776dffb274f85e9fee467b32d80c0b08a",
+      "hash": "d888e6385d77a51763c22101c1a96cdd786081279fb8c3099c97bc070733c741",
       "title": "#13228 [Master]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.",
       "source": "bcapps-prs",
-      "at": "2026-11-05T00:50:25.353Z",
+      "at": "2026-11-06T00:57:00.836Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/manage-payables",
-          "quote": "Vendor and customer ledger entries now maintain consistent dispute status"
+          "quote": "Fixes inconsistent syncing of On Hold and document dispute status"
         },
         {
           "topic": "topic/business-central/business-functionality/finance/manage-receivables",
-          "quote": "customer ledger entries now maintain consistent dispute status and on-hold"
+          "quote": "matching changes to customer ledger entries, across W1"
         }
       ]
     },
@@ -11094,14 +11116,14 @@
     "change/bcapps/13325": {
       "kind": "change",
       "key": "change/bcapps/13325",
-      "hash": "f5b7a95e8072927de4d016f571e3bcf0f55bfeab0b82be2ebcb4f0a95d034d26",
+      "hash": "4cddbb645447eb57d57b57b851019de3a7ad609cd4ae7906ee7b48e611587dd5",
       "title": "#13325 [Quality Management] Certificate of analysis shows now full name instead of the ID.",
       "source": "bcapps-prs",
-      "at": "2026-11-05T00:50:31.910Z",
+      "at": "2026-11-06T00:57:04.006Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/quality-management",
-          "quote": "Quality Management reports now display full names instead of IDs"
+          "quote": "Certificate of Analysis, General Purpose Inspection and Non-Conformance reports now show a full name"
         }
       ]
     },
@@ -11321,6 +11343,20 @@
         }
       ]
     },
+    "change/bcapps/13427": {
+      "kind": "change",
+      "key": "change/bcapps/13427",
+      "hash": "4424fbac73791244dbac724cc6eef54523996e667b0ef77357f7fe222ea79b63",
+      "title": "#13427 [Quality Management] Confirm before finishing on Create Re-inspection",
+      "source": "bcapps-prs",
+      "at": "2026-11-06T00:57:04.006Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/quality-management",
+          "quote": "Quality inspections now ask for confirmation before finishing when creating a re-inspection"
+        }
+      ]
+    },
     "change/bcapps/13431": {
       "kind": "change",
       "key": "change/bcapps/13431",
@@ -11406,14 +11442,14 @@
     "change/bcapps/13463": {
       "kind": "change",
       "key": "change/bcapps/13463",
-      "hash": "50287b8c2ff9ebe698ee6b5588e54a0880f0ee3dcb7e3a4b22ac89a68cf3f3bd",
+      "hash": "fe4fd1ac4804e235dd95b7b9af51ddf11d8e3ba8c698cacae65e468ff451161b",
       "title": "#13463 [29x] Add Maintenance Code field on purchase order subpage and purchase invoice subpage",
       "source": "bcapps-prs",
-      "at": "2026-11-05T00:50:25.353Z",
+      "at": "2026-11-06T00:57:00.836Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/purchasing",
-          "quote": "Maintenance Code field is now visible on purchase order and purchase invoice"
+          "quote": "Maintenance Code field added to Purchase Order Subform"
         }
       ]
     },
@@ -11581,14 +11617,14 @@
     "change/bcapps/13560": {
       "kind": "change",
       "key": "change/bcapps/13560",
-      "hash": "46747c1a02be03fa49ad11661dd6a6e24a7935fde4b67339362e9dd66b11fe85",
+      "hash": "fd107a1cb3a6ebbb222b69e347d7f1886fba4e25047719522e76bb5eeaa73ad1",
       "title": "#13560 [QM] Move Inventory: allow destination location for non-directed item",
       "source": "bcapps-prs",
-      "at": "2026-11-05T00:50:31.910Z",
+      "at": "2026-11-06T00:57:04.006Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/quality-management",
-          "quote": "Move Inventory report in Quality Management now allows users to specify"
+          "quote": "Quality Management Move Inventory report now allows a destination location to be set"
         }
       ]
     },
@@ -11603,6 +11639,20 @@
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
           "quote": "Expense Agent setups enable policy evaluation by default"
+        }
+      ]
+    },
+    "change/bcapps/13579": {
+      "kind": "change",
+      "key": "change/bcapps/13579",
+      "hash": "34df02f2cdbb849f3d312195708700916891d8c3d5d0d5f22df0be30b7d9a0b6",
+      "title": "#13579 Fix synchronization error event record context",
+      "source": "bcapps-prs",
+      "at": "2026-11-06T00:56:59.665Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-external-systems-using",
+          "quote": "LogSynchError passes the populated, inserted IntegrationSynchJobErrors record to OnAfterLogSynchError event"
         }
       ]
     },
@@ -11634,6 +11684,34 @@
         }
       ]
     },
+    "change/bcapps/13630": {
+      "kind": "change",
+      "key": "change/bcapps/13630",
+      "hash": "6e0a8f60732fab56ccfb4ee006616039bf8a5f0ddbac6c32b51a09fbe83e41a7",
+      "title": "#13630 [NL] Fix CBG applies-to ID length handling",
+      "source": "bcapps-prs",
+      "at": "2026-11-06T00:57:04.455Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/reconcile-bank-accounts",
+          "quote": "The NL CBG Statement Line now handles applies-to IDs consistently during payment tolerance management"
+        }
+      ]
+    },
+    "change/bcapps/13642": {
+      "kind": "change",
+      "key": "change/bcapps/13642",
+      "hash": "e5cbaea1122bada5d08051a77adae0defad8009d80f18ec10c4a23aca2f27e3d",
+      "title": "#13642 Preserve work descriptions on posted sales prepayment documents",
+      "source": "bcapps-prs",
+      "at": "2026-11-06T00:56:56.456Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/sales",
+          "quote": "Preserve work descriptions on posted sales prepayment documents"
+        }
+      ]
+    },
     "change/bcapps/5833": {
       "kind": "change",
       "key": "change/bcapps/5833",
@@ -11647,6 +11725,15 @@
           "quote": "SharePoint Connector now supports Microsoft Graph API as an alternative to REST API"
         }
       ]
+    },
+    "change/bcapps/6857": {
+      "kind": "change",
+      "key": "change/bcapps/6857",
+      "hash": "6c7a17c2282212d1830737e0e014527157de7007133391bf5b83ee2365a2b8e0",
+      "title": "#6857 [BC Idea][TableInformation] : Enhance Indexes List Part with SIFT details, visual indicators, and improved index management #6856",
+      "source": "bcapps-prs",
+      "at": "2026-11-06T00:56:58.093Z",
+      "matches": []
     },
     "change/bcapps/7546": {
       "kind": "change",
@@ -16528,6 +16615,20 @@
       "at": "2026-10-07T13:34:55.904Z",
       "matches": []
     },
+    "change/bcapps/9869": {
+      "kind": "change",
+      "key": "change/bcapps/9869",
+      "hash": "934ed46ad9cbb03f68d7fe0209e6ff77fa6cb088c0236c99317884cf7586ef12",
+      "title": "#9869 Fix MS Doc for parameter TagCompanyName of method SetSkippedUpgrade(...)",
+      "source": "bcapps-prs",
+      "at": "2026-11-06T00:56:58.371Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade",
+          "quote": "SetSkippedUpgrade method in the Upgrade Tag codeunit was corrected"
+        }
+      ]
+    },
     "change/bcapps/9872": {
       "kind": "change",
       "key": "change/bcapps/9872",
@@ -18536,6 +18637,42 @@
         }
       ]
     },
+    "change/bcquality/255": {
+      "kind": "change",
+      "key": "change/bcquality/255",
+      "hash": "4d6474ecf0982db984d4de79218b211650288ef8d2dad1814994366440573473",
+      "title": "#255 Correct CurrReport.Skip guidance and retire false fixture expectations",
+      "source": "bcquality-prs",
+      "at": "2026-11-06T00:57:04.319Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-triggers-and-events",
+          "quote": "Corrected the assumption that code after CurrReport.Skip() continues in the same OnAfterGetRecord trigger"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports",
+          "quote": "Updated reporting guidance to correct false assumptions about CurrReport.Skip behavior in AL triggers"
+        }
+      ]
+    },
+    "change/bcquality/260": {
+      "kind": "change",
+      "key": "change/bcquality/260",
+      "hash": "0279b73b810bef3656b43f67fdf835cca9173238794148594766d5e508058bfd",
+      "title": "#260 Fix al-knowledge follow-ups and document the skill",
+      "source": "bcquality-prs",
+      "at": "2026-11-06T00:57:05.447Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "Extended al-knowledge skill to support JavaScript technology queries"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extensibility/developing-client-add-ins",
+          "quote": "control-add-in and UI article requests"
+        }
+      ]
+    },
     "change/bcquality/262": {
       "kind": "change",
       "key": "change/bcquality/262",
@@ -18547,6 +18684,24 @@
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/objects",
           "quote": "Kept specific technical keywords related to types and properties"
+        }
+      ]
+    },
+    "change/bcquality/264": {
+      "kind": "change",
+      "key": "change/bcquality/264",
+      "hash": "ab4de0c594e16dcd7fa96215eff6411fc312efd2b68d1a1635b5a81d02e81873",
+      "title": "#264 knowledge(upgrade): clarify DataTransfer defaults and bypass safety",
+      "source": "bcquality-prs",
+      "at": "2026-11-06T00:57:05.447Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data",
+          "quote": "DataTransfer should be used regardless of record count"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/migration",
+          "quote": "Emphasizes that new fields alone do not justify bypassing validation"
         }
       ]
     },
@@ -22295,16 +22450,25 @@
     "post/demiliani-com/17586": {
       "kind": "post",
       "key": "post/demiliani-com/17586",
-      "hash": "489ff81ca84716ed58600b842b0a44bd95119a63b481b411514262ecd69b0b34",
+      "hash": "74fcece8695a9dc97a342212730e78978a6ec1ab2a61cbe5a38a90ca6ad26677",
       "title": "Dynamics 365 Business Central: service update to .NET 10 and upgrade window.",
       "source": "demiliani-com",
-      "at": "2026-11-05T00:50:26.888Z",
+      "at": "2026-11-06T00:57:06.454Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/monitor-and-analyze-telemetry",
-          "quote": "Microsoft is transitioning Business Central online and on-premises"
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade",
+          "quote": "Microsoft is transitioning Business Central online and on-premises environments from .NET 8 to .NET 10"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-11-06T00:56:42.380Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/administration/monitor-and-analyze-telemetry",
+            "reason": "About the .NET 10 platform transition and maintenance windows, not telemetry."
+          }
+        ]
+      }
     },
     "post/duiliotacconi-com/1425": {
       "kind": "post",
@@ -24899,14 +25063,22 @@
     "post/jeremyvyska-com/1770": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1770",
-      "hash": "f141c9dcbb6997a390a85ad0f246bc45627931236461926ec9f447a69b07d86f",
+      "hash": "2ea70905f36ae767b121c147084fe2aab8c461c54ac94211135316ec65dd7582",
       "title": "Fall 2026 Agentic Development Classes: Copilot Refresh, Claude Code, and BCQuality",
       "source": "jeremyvyska-com",
-      "at": "2026-11-05T00:50:32.811Z",
+      "at": "2026-11-06T00:57:07.007Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
-          "quote": "GitHub Copilot refresh covers agent mode, custom agents, agent skills, instructions files, MCP servers"
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "Three standalone agentic development classes for Business Central teams"
+        },
+        {
+          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+          "quote": "BCQuality integration for consistent code quality"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
+          "quote": "GitHub Copilot updates for AL development"
         }
       ],
       "second": {
@@ -26489,6 +26661,28 @@
           }
         ]
       }
+    },
+    "post/olofsimren-com/3981": {
+      "kind": "post",
+      "key": "post/olofsimren-com/3981",
+      "hash": "6a48e9148f079fae54192a3a49ac28bd08cb9412384fd39fe0f4238a3e893690",
+      "title": "Shop Floor and Warehouse Mobile for Business Central",
+      "source": "olofsimren-com",
+      "at": "2026-11-06T00:56:58.760Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/warehouse-management",
+          "quote": "warehouse mobile pages let operators handle warehouse receipts, picks, counts, and transfers"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing",
+          "quote": "enables real-time data capture directly on shop floors with barcode scanning and task-focused pages"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-warehouse-management",
+          "quote": "Solution is built entirely as an AL extension inside Business Central, extending existing production orders and warehouse documents"
+        }
+      ]
     },
     "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1316829649948552218": {
       "kind": "post",
@@ -29090,6 +29284,20 @@
       "source": "thatnavguy-com",
       "at": "2026-10-30T01:07:40.309Z",
       "matches": []
+    },
+    "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-87-check-for-microsoft-apps-on-appsource/": {
+      "kind": "post",
+      "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-87-check-for-microsoft-apps-on-appsource/",
+      "hash": "800d8365bfb4ab173a9cf87fe3c6a21a5eab1b2c9c6378d6b0978a35005f2def",
+      "title": "BC Friday Tips #87 Check for Microsoft Apps on AppSource",
+      "source": "thatnavguy-com",
+      "at": "2026-11-06T00:56:59.665Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/development-and-administration/customize-business-central/customize-with-extensions",
+          "quote": "Microsoft apps for Business Central are distributed across multiple separate applications on AppSource"
+        }
+      ]
     },
     "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/": {
       "kind": "post",
@@ -38667,6 +38875,20 @@
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
           "quote": "Five predefined header layouts and five footer layouts can be inserted with one click"
+        }
+      ]
+    },
+    "post/yzhums-com/76760": {
+      "kind": "post",
+      "key": "post/yzhums-com/76760",
+      "hash": "6ee384b69eab7549d7cd29e19510d72aa84ff44ebb0ecd55c7347ad997eaecee",
+      "title": "Dynamics 365 Business Central: How to import Change Log Setup (Table/Field) using Configuration Packages",
+      "source": "yzhums-com",
+      "at": "2026-11-06T00:56:58.093Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data",
+          "quote": "Change log tracks all direct modifications users make to database data"
         }
       ]
     },

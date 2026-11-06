@@ -2,7 +2,7 @@
   "hub_id": "topic/dev-itpro/administration",
   "input_hash": "326506f7ea46304f08aae52af4a26b54bd419fef9d16f9b8d227e28e6156caf9",
   "summary": "Administration of Business Central online covers how internal administrators and delegated partners manage tenants and environments, users, licensing, updates, telemetry, support, onboarding and migration. It answers how-to, limit and reference questions across these tasks.",
-  "overview": "The section starts with a page on administering Business Central online tenants, either as an internal administrator or as a delegated partner. It touches user management, permissions, environment updates, telemetry and partner relationships. The subtopics go into each of these areas.\n\nFor basics, start with \"Understand Business Central online\" (tenants, environments, companies, update cycles, limits, availability) and \"Entitlements and permissions\" (license plans, permission sets). Day-to-day environment work sits in \"Admin center\", which has an Admin Center API subtopic. Setting up and onboarding new customers is covered in \"Prepare Business Central\" and \"Onboard your customers\".\n\nOperations and integration topics follow. \"Monitor and analyze telemetry\" covers Application Insights, KQL, Power BI, alerts, cost and event IDs. \"Manage technical support\" covers diagnostics and escalation. \"Automation API\" and \"Cloud Migration API\" cover the APIs, and \"Migrate to Business Central online\" covers moving from on-premises Business Central, NAV, GP, SL or other SQL sources. The summaries for the two API subtopics were not provided.",
+  "overview": "The section starts with a page on administering Business Central online tenants, either as an internal administrator or as a delegated partner. It touches user management, permissions, environment updates, telemetry and partner relationships. The subtopics go into each of these areas.\n\nFor basics, start with \"Understand Business Central online\" (tenants, environments, companies, update cycles, limits, availability) and \"Entitlements and permissions\" (license plans, permission sets). Day-to-day environment work sits in \"Admin center\", which has an Admin Center API subtopic. Setting up and onboarding new customers is covered in \"Prepare Business Central\" and \"Onboard your customers\".\n\nOperations and integration topics follow. \"Monitor and analyze telemetry\" covers Application Insights, KQL, Power BI, alerts, cost and event IDs. \"Manage technical support\" covers diagnostics and escalation. \"Automation API\" and \"Cloud Migration API\" cover the APIs, and \"Migrate to Business Central online\" covers moving from on-premises Business Central, NAV, GP, SL or other SQL sources.",
   "key_points": [
     "The landing page covers administration by internal administrators or delegated partners: user management, permissions, environment updates, telemetry and partner relationships.",
     "Understand Business Central online explains tenants, environments, companies, environment types, update cycles, version numbers, operation limits, and country and language availability.",
@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.016371
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-06T01:02:08.355Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview ends with \"The summaries for the two API subtopics were not provided.\" This is a note about how the narrative was written, not about the content. It does not help an agent, so it should be removed.",
+      "Minor: the Automation API and Cloud Migration API subtopics have no summaries. The narrative only names them as covering the APIs, which is the right level of detail. It should not add specifics about them.",
+      "Everything else in the summary, overview and key points is supported by the page and subtopic summaries."
+    ],
+    "input_hash": "326506f7ea46304f08aae52af4a26b54bd419fef9d16f9b8d227e28e6156caf9",
+    "cost_usd": 0.053292
   }
 }
