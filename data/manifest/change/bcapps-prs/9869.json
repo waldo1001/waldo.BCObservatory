@@ -6,7 +6,7 @@
   "title": "Fix MS Doc for parameter TagCompanyName of method SetSkippedUpgrade(...)",
   "url": "https://github.com/microsoft/BCApps/pull/9869",
   "published_at": "2026-11-05T11:43:35Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-06T00:17:27.413Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-06T00:20:43.768Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003196
+    },
+    "linked": {
+      "at": "2026-11-06T00:20:43.871Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-06T00:20:43.875Z",
+      "path": "content/changes/bcapps/9869.md"
     }
   },
   "input_hash": "cf3864f71020fc698eb0380c244adb2044e05844:c1",
@@ -42,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "260b2d57e3172046fb93083739df318800106847b66725e8da8e6006df6d35e8"
+  "output_hash": "57e56abf5084ff30d63422ebd1ffe5a0ffbae7ab37e11c05db0f864d2165cbb0"
 }

@@ -1,26 +1,52 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/qms-production-output-testing.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/qms-production-output-testing",
-  "title": "Create a sampled inspection automatically from production output",
-  "blob": "58eae9a6ddd75729abae00af6956d784a7f3a2e0",
-  "summary": "This demo shows how to automatically create a sampled quality inspection when posting production output for an item by configuring a production template with tests and setting a sample amount.",
+  "title": "Inspect production output",
+  "blob": "d5e8a966680aa6f844772dd2ba8db27540a42aba",
+  "summary": "Walkthrough for inspecting Airpot production output using the Quality Management app, demonstrating how to post setup time without inspections and configure run-time postings to automatically create quality inspections with fixed sample sizes.",
   "systems": [
-    "manufacturing"
+    "manufacturing",
+    "reporting"
   ],
   "topics": [
-    "quality inspections",
+    "quality management",
     "production output",
-    "sampling",
-    "contoso coffee demo",
-    "templates"
+    "quality inspections",
+    "posting conditions",
+    "contoso coffee"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Quality Tests"
+    },
+    {
+      "type": "page",
+      "name": "Quality Inspection Templates"
+    },
+    {
+      "type": "page",
+      "name": "Quality Inspection Generation Rules"
+    },
+    {
+      "type": "page",
+      "name": "Released Production Orders"
+    },
+    {
+      "type": "page",
+      "name": "Quality Management Setup"
+    },
+    {
+      "type": "page",
+      "name": "Output Journals"
+    }
+  ],
   "features": [
-    "Automatic inspection creation",
-    "Fixed quantity sampling",
-    "Production output trigger",
-    "Quality test configuration",
-    "Inspection completion"
+    "quality inspection generation",
+    "posting conditions",
+    "sample source configuration",
+    "production order triggers",
+    "run-time posting"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +55,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005457,
-      "pages_in_call": 8
+      "cost_usd": 0.00975,
+      "pages_in_call": 1
     }
   ]
 }

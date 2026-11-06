@@ -1,0 +1,65 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/quality-inspect-subcontracted-output.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/quality-inspect-subcontracted-output",
+  "title": "Inspect subcontracted production operations",
+  "blob": "be4e08825de4e0dd6daa7046c9c714a406ab12a1",
+  "summary": "Inspect subcontracted production operations using quality inspection templates triggered when production output is posted. This walkthrough demonstrates creating and finishing inspections for serial-tracked items received from a subcontractor.",
+  "systems": [
+    "manufacturing",
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "quality inspections",
+    "subcontracting",
+    "production operations",
+    "item tracking",
+    "serial numbers",
+    "quality management"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Prod. Order Routing Line"
+    },
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Quality Tests"
+    },
+    {
+      "type": "page",
+      "name": "Quality Inspection Templates"
+    },
+    {
+      "type": "page",
+      "name": "Released Production Orders"
+    },
+    {
+      "type": "page",
+      "name": "Item Ledger Entries"
+    }
+  ],
+  "features": [
+    "Quality inspection generation rules",
+    "Production order trigger",
+    "Subcontracting purchase orders",
+    "Item tracking with serial numbers",
+    "Quality inspection templates",
+    "Inspection filtering by production order"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010079,
+      "pages_in_call": 1
+    }
+  ]
+}

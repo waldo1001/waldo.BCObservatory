@@ -1,0 +1,75 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9869,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9869",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-05T11:43:35Z",
+  "merge_commit_sha": "cf3864f71020fc698eb0380c244adb2044e05844",
+  "author": "MatthiasSchaefer",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: System Application",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "Fix MS Doc for parameter TagCompanyName of method SetSkippedUpgrade(...)",
+  "body_hash": "4821f3d7ca7cbce5cd9868c45b3800dee311c416696d6a29e52f091ea79501e9",
+  "fixes_issues": [
+    9870
+  ],
+  "work_items": [
+    657900
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Upgrade Tags/src/UpgradeTag.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/System Application/App/Upgrade Tags/src/UpgradeTag.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9999",
+        "type": "codeunit",
+        "id": 9999,
+        "name": "Upgrade Tag",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/9999"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "System Application"
+  ],
+  "issues": [
+    {
+      "number": 9870,
+      "title": "[Bug]: MS Doc for method SetSkippedUpgrade in codeunit Upgrade Tags is wrong.",
+      "state": "closed"
+    }
+  ]
+}

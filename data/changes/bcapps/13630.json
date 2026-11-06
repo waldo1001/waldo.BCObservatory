@@ -1,0 +1,105 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13630,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13630",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-05T11:31:27Z",
+  "merge_commit_sha": "ae20629927663e1a7e791db5dc1af50b755a3f5a",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[NL] Fix CBG applies-to ID length handling",
+  "body_hash": "c0f891304be35c4efb1e5c043cbab73e8dc13dab4c00bf6b07a30064f064475e",
+  "fixes_issues": [
+    9732
+  ],
+  "work_items": [
+    657901
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/ReceivablesPayables/PaymentToleranceManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Local/Bank/Statement/CBGStatementLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/Tests/Local/ERMCashBankGiroJournal.Codeunit.al",
+      "status": "modified",
+      "additions": 133,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NL/Tests/Local/UTTABCashBankGiro.Codeunit.al",
+      "status": "modified",
+      "additions": 87,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 222,
+    "deletions": 6,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/ReceivablesPayables/PaymentToleranceManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/426",
+        "type": "codeunit",
+        "id": 426,
+        "name": "Payment Tolerance Management",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "codeunit/426"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Local/Bank/Statement/CBGStatementLine.Table.al",
+        "status": "modified",
+        "key": "table/11401",
+        "type": "table",
+        "id": 11401,
+        "name": "CBG Statement Line",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/11401-nl"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ],
+  "issues": [
+    {
+      "number": 9732,
+      "title": "CBG Statement Line\".\"Applies-to ID\" field is Code[50] mismatch as variables used in the supporting functions are only Code[20].",
+      "state": "closed"
+    }
+  ]
+}

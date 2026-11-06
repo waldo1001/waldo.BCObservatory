@@ -2,20 +2,22 @@
   "item_id": "docs/learn-smb-docs/business-central/qms-troubleshooting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/qms-troubleshooting",
   "title": "Troubleshoot quality management features",
-  "blob": "f13b87402d5f744150abc7d3308504cf36bfe9f8",
-  "summary": "Troubleshoot quality management features in Business Central by diagnosing and resolving common issues grouped by feature area including setup, test generation rules, scheduled inspections, workflows, templates, inspections, warehouse receipt inspections, production output inspections, manual creation, and lot blocking.",
+  "blob": "3dcded7922825a46adf76c0e6e8f8edcfe3dcfee",
+  "summary": "Troubleshooting guide for quality management features in Business Central, covering setup issues, test generation rules, scheduled inspections, workflows, templates, inspections, warehouse receipts, production output, manual creation, lot blocking, and inspection results.",
   "systems": [
     "manufacturing",
-    "inventory",
-    "warehouse"
+    "warehouse",
+    "inventory"
   ],
   "topics": [
     "quality management",
     "troubleshooting",
     "inspections",
-    "templates",
     "workflows",
-    "lot blocking"
+    "templates",
+    "lot blocking",
+    "test generation",
+    "production output"
   ],
   "objects": [
     {
@@ -23,12 +25,12 @@
       "name": "Quality Management Setup"
     },
     {
-      "type": "report",
-      "name": "20412"
-    },
-    {
       "type": "page",
       "name": "Lot No. Information Card"
+    },
+    {
+      "type": "report",
+      "name": "20412"
     }
   ],
   "features": [
@@ -36,10 +38,13 @@
     "inspection generation rules",
     "test generation rules",
     "scheduled inspections",
-    "quality workflows",
-    "result-based controls",
+    "quality management workflows",
+    "inspection templates",
+    "warehouse receipt inspections",
+    "production output inspections",
+    "manual inspection creation",
     "lot blocking",
-    "manual inspection creation"
+    "quality inspection results"
   ],
   "versions": [],
   "parts": 1,
@@ -48,8 +53,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007092,
-      "pages_in_call": 7
+      "cost_usd": 0.00542,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,0 +1,116 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 264,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/264",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-11-05T10:13:08Z",
+  "merge_commit_sha": "9b72501fc3199e6f8c776b4fe3aeb1a11e5dfaee",
+  "author": "RaimondStokkel",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "knowledge(upgrade): clarify DataTransfer defaults and bypass safety",
+  "body_hash": "6c486389fff8685ed4db510f3d57e3f905a63b23e17114300274df772823dc8a",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/upgrade/datatransfer-for-bulk-init.bad.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/upgrade/datatransfer-for-bulk-init.good.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 16,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/upgrade/datatransfer-for-bulk-init.md",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/upgrade/datatransfer-skips-triggers-and-subscribers.bad.al",
+      "status": "modified",
+      "additions": 59,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/upgrade/datatransfer-skips-triggers-and-subscribers.good.al",
+      "status": "modified",
+      "additions": 59,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/upgrade/datatransfer-skips-triggers-and-subscribers.md",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 5,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 232,
+    "deletions": 63,
+    "al": 6
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/upgrade/datatransfer-for-bulk-init.bad.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/upgrade/datatransfer-for-bulk-init.good.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/upgrade/datatransfer-for-bulk-init.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/upgrade/datatransfer-skips-triggers-and-subscribers.bad.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/upgrade/datatransfer-skips-triggers-and-subscribers.good.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/upgrade/datatransfer-skips-triggers-and-subscribers.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

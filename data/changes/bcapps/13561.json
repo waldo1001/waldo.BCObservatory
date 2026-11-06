@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13561,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13561",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-05T09:09:24Z",
+  "merge_commit_sha": "071b7c64f141e6b680abb6c596c59dd7a7f37413",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Use runtime-generated keys in certificate and signed XML tests",
+  "body_hash": "1d60b22b911be51d865599b129e648a69839657615ed25c7b9d561b422b90f34",
+  "fixes_issues": [],
+  "work_items": [
+    657765
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 61,
+    "deletions": 34,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

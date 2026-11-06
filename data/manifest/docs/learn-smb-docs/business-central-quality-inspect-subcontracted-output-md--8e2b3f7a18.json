@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/quality-inspect-subcontracted-output",
   "published_at": "2026-11-05T11:33:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-06T00:17:27.413Z"
@@ -17,6 +17,25 @@
       "blob": "be4e08825de4e0dd6daa7046c9c714a406ab12a1",
       "words": 766,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-11-06T00:20:45.115Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.010079
+    },
+    "summarized": {
+      "at": "2026-11-06T00:20:45.116Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-11-06T00:20:45.117Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-11-06T00:20:45.117Z",
+      "page": false
     }
   },
   "input_hash": "be4e08825de4e0dd6daa7046c9c714a406ab12a1",
@@ -65,5 +84,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "be4e08825de4e0dd6daa7046c9c714a406ab12a1"
+  "output_hash": "974fd61dbfa0f3bc5fe7b93cd7c4d67824429348c146de8af3938ef08906d0f8"
 }

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/255",
+  "number": 255,
+  "title": "Correct CurrReport.Skip guidance and retire false fixture expectations",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Updated reporting guidance to correct false assumptions about CurrReport.Skip behavior in AL triggers, removing incorrect fixture examples and refocusing on accurate documentation of trigger dispatch and dataset behavior.",
+  "key_points": [
+    "Corrected the assumption that code after CurrReport.Skip() continues in the same OnAfterGetRecord trigger",
+    "Separated guidance for same-trigger exit from later trigger dispatch and dataset omission concerns",
+    "Removed false positive and clean sample pairs that claimed Skip behavior was unsafe within the same trigger",
+    "Retired outdated evaluation registration and fixture expectations for the incorrect Skip guidance",
+    "Preserved correct CurrReport.Break() versus AL break distinction with unchanged documentation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00423,
+    "changes_in_call": 1
+  }
+}

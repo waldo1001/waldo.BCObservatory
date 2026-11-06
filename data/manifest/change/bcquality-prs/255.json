@@ -6,14 +6,35 @@
   "title": "Correct CurrReport.Skip guidance and retire false fixture expectations",
   "url": "https://github.com/microsoft/BCQuality/pull/255",
   "published_at": "2026-11-04T09:40:09Z",
-  "state": "discovered",
+  "state": "linked",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-06T00:22:55.324Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 6,
+      "objects": 0,
+      "unjoined": 6
+    },
+    "extracted": {
+      "at": "2026-11-06T00:23:10.675Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.00423
+    },
+    "linked": {
+      "at": "2026-11-06T00:23:10.676Z",
+      "objects": 0,
+      "unjoined": 6,
+      "commit": null
     }
   },
   "input_hash": "8390a89a0e13ca7117343a07fc9bfcb58eaf7d52:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 255,
@@ -27,6 +48,7 @@
     "community_contribution": false,
     "title_key": "correct currreport skip guidance and retire false fixture expectations"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-05T02:22:01.919Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8a8133a5731312eb41d6969a1f76e931d192a303c2f9d7efa1244061a9454138"
 }

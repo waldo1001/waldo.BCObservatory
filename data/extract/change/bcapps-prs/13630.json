@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13630",
+  "number": 13630,
+  "title": "[NL] Fix CBG applies-to ID length handling",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The NL CBG Statement Line now handles applies-to IDs consistently as Code[50] across all related declarations and APIs, fixing failures when longer valid IDs are processed during payment tolerance management.",
+  "key_points": [
+    "Aligns Code[20] declarations in Payment Tolerance Management and New Applies-to ID to the existing Code[50] field",
+    "Enables the first bank ID to retain the full 20-character statement document number plus numeric suffix without truncation",
+    "Adds five new tests covering 10-, 20-, 21-, and 50-character applies-to IDs, numeric carry, persistence, and payment tolerance workflows",
+    "Updates existing 10,000-line counter test to use Code[50] receiving variable",
+    "Preserves existing counter increment, suffix, cash-journal selection and payment tolerance logic"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004202,
+    "changes_in_call": 1
+  }
+}

@@ -6,14 +6,39 @@
   "title": "Fix al-knowledge follow-ups and document the skill",
   "url": "https://github.com/microsoft/BCQuality/pull/260",
   "published_at": "2026-11-04T09:57:43Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-06T00:22:56.759Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-11-06T00:23:04.665Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.004012
+    },
+    "linked": {
+      "at": "2026-11-06T00:23:04.666Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-06T00:23:10.670Z",
+      "path": "content/changes/bcquality/260.md"
     }
   },
   "input_hash": "a0a48d57d9e2f4eb57af9100faa199a0fd15e3e4:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 260,
@@ -27,6 +52,7 @@
     "community_contribution": false,
     "title_key": "fix al knowledge follow ups and document the skill"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-05T02:21:56.568Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "912e72bde5d6801677e927856b6ceb20259ab5608c7d9618179ca80bed00d561"
 }

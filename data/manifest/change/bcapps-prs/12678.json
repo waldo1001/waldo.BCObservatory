@@ -6,7 +6,7 @@
   "title": "[API tests] Ensure cancellation reason codes in API sales document tests",
   "url": "https://github.com/microsoft/BCApps/pull/12678",
   "published_at": "2026-11-04T12:04:25Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
@@ -31,5 +31,7 @@
     "title_key": "api tests ensure cancellation reason codes in api sales document tests"
   },
   "last_error": "fetch failed",
-  "retry_after": "2026-11-05T02:19:18.490Z"
+  "retry_after": null,
+  "skip": "non-code",
+  "skipped_at": "2026-11-06T00:21:42.690Z"
 }

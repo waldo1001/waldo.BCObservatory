@@ -6,14 +6,39 @@
   "title": "[BC Idea][TableInformation] : Enhance Indexes List Part with SIFT details, visual indicators, and improved index management #6856",
   "url": "https://github.com/microsoft/BCApps/pull/6857",
   "published_at": "2026-11-04T10:16:58Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-06T00:22:37.522Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-06T00:22:45.419Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003041
+    },
+    "linked": {
+      "at": "2026-11-06T00:22:45.525Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-06T00:22:45.530Z",
+      "path": "content/changes/bcapps/6857.md"
     }
   },
   "input_hash": "4f08dac141584f1fb12ee9a2bf59838eee068b3a:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 6857,
@@ -32,6 +57,7 @@
     "community_contribution": true,
     "title_key": "bc idea tableinformation enhance indexes list part with sift details visual indicators and improved index management 6856"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-05T02:21:16.633Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1be07c3cd344b2e362fae23c79a999fdc9d9d6bf19c99169ee7b0049394124dc"
 }

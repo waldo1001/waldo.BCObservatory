@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/264",
+  "number": 264,
+  "title": "knowledge(upgrade): clarify DataTransfer defaults and bypass safety",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Upgrade guidance now clarifies that DataTransfer should be used regardless of record count and that skipping validation is only safe when the correct business logic is maintained, not just because a field is new.",
+  "key_points": [
+    "Removes misleading 300,000-record threshold for DataTransfer usage",
+    "Emphasizes that new fields alone do not justify bypassing validation or triggers",
+    "Requires supported tables, correct filters, and preservation of business logic",
+    "Replaces opaque Base App samples with self-contained examples",
+    "Cites measured performance data from Microsoft Learn rather than unsourced claims"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004167,
+    "changes_in_call": 1
+  }
+}

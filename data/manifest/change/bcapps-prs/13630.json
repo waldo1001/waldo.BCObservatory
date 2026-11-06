@@ -6,10 +6,35 @@
   "title": "[NL] Fix CBG applies-to ID length handling",
   "url": "https://github.com/microsoft/BCApps/pull/13630",
   "published_at": "2026-11-05T11:31:27Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-06T00:17:27.413Z"
+    },
+    "fetched": {
+      "at": "2026-11-06T00:20:37.412Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-06T00:20:50.163Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004202
+    },
+    "linked": {
+      "at": "2026-11-06T00:20:50.261Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-06T00:20:50.267Z",
+      "path": "content/changes/bcapps/13630.md"
     }
   },
   "input_hash": "ae20629927663e1a7e791db5dc1af50b755a3f5a:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "nl fix cbg applies to id length handling"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8b087d1baa65e3c029df2f894c2976bc86960087ab9f2647ecd960f76bc73df9"
 }

@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13500,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13500",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-05T11:31:27Z",
+  "merge_commit_sha": "1508eefc98298297461abc4793fb1c494c899f41",
+  "author": "Alexander-Ya",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Verify AutoFormat for Format(X, 0, 9) statement",
+  "body_hash": "bbbf891fa0fb82b29dae1239be001faa17f0dda821b459ca0eb54b5b115b09f8",
+  "fixes_issues": [],
+  "work_items": [
+    578641
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 102,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13063",
+  "number": 13063,
+  "title": "[Bug][Subscription Billing] Rebilling usage data increases the subscription quantity once per subscription line",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Fixed rebilling of usage data for subscription lines so that subscription quantity increases only once instead of once per subscription line when a subscription has both customer and vendor lines with usage-based pricing.",
+  "key_points": [
+    "Rebilled usage quantity was incorrectly applied multiple times per subscription due to repeated reads of the subscription header quantity",
+    "Captures subscription quantity once per run in a dictionary before processing any lines, eliminating double-counting across customer and vendor lines",
+    "Only affects rebilling scenarios with multiple usage-quantity subscription lines; non-rebilling usage data processing is unchanged",
+    "Existing subscriptions and posted documents are not affected by the behavioral change",
+    "Added test verifying correct single quantity increase when rebilling a subscription with both customer and vendor lines"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "the subscription quantity is now increased by the rebilled quantity once, not once per subscription line",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004103,
+    "changes_in_call": 1
+  }
+}

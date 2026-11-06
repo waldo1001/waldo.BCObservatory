@@ -6,10 +6,35 @@
   "title": "knowledge(upgrade): clarify DataTransfer defaults and bypass safety",
   "url": "https://github.com/microsoft/BCQuality/pull/264",
   "published_at": "2026-11-05T10:13:08Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-06T00:17:27.413Z"
+    },
+    "fetched": {
+      "at": "2026-11-06T00:20:37.198Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 6,
+      "objects": 0,
+      "unjoined": 6
+    },
+    "extracted": {
+      "at": "2026-11-06T00:20:45.121Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004167
+    },
+    "linked": {
+      "at": "2026-11-06T00:20:45.123Z",
+      "objects": 0,
+      "unjoined": 6,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-06T00:20:48.220Z",
+      "path": "content/changes/bcquality/264.md"
     }
   },
   "input_hash": "9b72501fc3199e6f8c776b4fe3aeb1a11e5dfaee:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "knowledge upgrade clarify datatransfer defaults and bypass safety"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1dbf90d80664d1638d5815c1f27dfeda49459a28e700e77a2501a3a4787e5da6"
 }

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9869",
+  "number": 9869,
+  "title": "Fix MS Doc for parameter TagCompanyName of method SetSkippedUpgrade(...)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Documentation for the TagCompanyName parameter of the SetSkippedUpgrade method in the Upgrade Tag codeunit was corrected to accurately describe its purpose.",
+  "key_points": [
+    "Fixed MS Doc description of TagCompanyName parameter",
+    "Affects SetSkippedUpgrade method in Upgrade Tag codeunit",
+    "Documentation-only change with no code logic modifications",
+    "Improves developer clarity when working with upgrade tags",
+    "Part of System Application sync"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "quote": "description of param fixed only",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003196,
+    "changes_in_call": 1
+  }
+}

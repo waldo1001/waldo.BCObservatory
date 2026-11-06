@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/6857",
+  "number": 6857,
+  "title": "[BC Idea][TableInformation] : Enhance Indexes List Part with SIFT details, visual indicators, and improved index management #6856",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "The Indexes List Part page gains SIFT details, visual indicators, and improved index management capabilities for better visibility into table indexes in the Table Information Card.",
+  "key_points": [
+    "SIFT details are now displayed in the indexes list",
+    "Visual indicators added to show index properties",
+    "Enhanced index management interface",
+    "Page redesigned with additional columns and information",
+    "Improvements to user experience when working with table indexes"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003041,
+    "changes_in_call": 1
+  }
+}

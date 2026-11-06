@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/260",
+  "number": 260,
+  "title": "Fix al-knowledge follow-ups and document the skill",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "The al-knowledge skill now accepts JavaScript technology queries alongside AL, and the knowledge response validator now rejects contradictory citation records and duplicate references to prevent validation errors.",
+  "key_points": [
+    "Extended al-knowledge skill to support JavaScript technology queries for control-add-in and UI article requests",
+    "Validator now rejects articles cited in both references and suppressed lists, and duplicate reference paths",
+    "Knowledge-response contract explicitly states each article path appears at most once across references and suppressed arrays",
+    "Updated documentation to include al-knowledge skill in capability lists and troubleshooting guidance",
+    "Added regression tests covering suppression reasons and contradictory duplicate citations"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004012,
+    "changes_in_call": 1
+  }
+}

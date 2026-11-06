@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13063,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13063",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-04T11:25:53Z",
+  "merge_commit_sha": "e8cff590327ed9935d813f5201152bd0861f656e",
+  "author": "miljance",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Bug][Subscription Billing] Rebilling usage data increases the subscription quantity once per subscription line",
+  "body_hash": "f0328806dd16e0bfe4cbe000a1dd6882e3b0adb97211dd8974dcc0d7cc45d90f",
+  "fixes_issues": [
+    12969
+  ],
+  "work_items": [
+    657346
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Codeunits/ProcessUsageDataBilling.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/UBB/UsageBasedRebillingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 51,
+    "deletions": 3,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Codeunits/ProcessUsageDataBilling.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8026",
+        "type": "codeunit",
+        "id": 8026,
+        "name": "Process Usage Data Billing",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8026"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ],
+  "issues": [
+    {
+      "number": 12969,
+      "title": "[Bug][Subscription Billing] Rebilling usage data increases the subscription quantity once per subscription line",
+      "state": "closed"
+    }
+  ]
+}

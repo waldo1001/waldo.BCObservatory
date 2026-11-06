@@ -2,38 +2,44 @@
   "item_id": "docs/learn-smb-docs/business-central/qms-test-generation-rules.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/qms-test-generation-rules",
   "title": "Set up quality inspection generation rules",
-  "blob": "d71b0dde41d25ef1184c327fde052df207ced367",
-  "summary": "Quality inspection generation rules define when and how to automatically create quality inspections in response to business transactions such as purchase receipts, production output, and warehouse movements.",
+  "blob": "ada882cdff179e3c376f8f3c7a355465178f8cec",
+  "summary": "Quality inspection generation rules automatically determine which inspection templates and tests to use for business transactions like production, purchase, warehouse, and assembly operations. Use this page to set up rules that trigger inspections based on document type, location, item, and other filters.",
   "systems": [
-    "purchasing",
     "manufacturing",
+    "purchasing",
     "warehouse"
   ],
   "topics": [
-    "generation rules",
-    "inspection triggers",
-    "template mapping",
-    "source documents",
-    "rule filters"
+    "quality management",
+    "inspection generation rules",
+    "templates",
+    "triggers",
+    "automation",
+    "filtering",
+    "quality assurance"
   ],
   "objects": [
     {
-      "type": "page",
+      "type": "table",
+      "name": "Warehouse Receipt Line"
+    },
+    {
+      "type": "other",
       "name": "Quality Inspection Generation Rules"
     }
   ],
   "features": [
-    "Sort order configuration",
-    "Template-to-source mapping",
-    "Condition filters",
-    "Item filters",
-    "Attribute filters",
-    "Activation trigger selection",
-    "Receiving rule creation",
-    "Bin movement rule creation",
-    "Production rule creation",
-    "Assembly rule creation",
-    "Schedule group configuration"
+    "Activation Trigger settings",
+    "Manual and automatic rule creation",
+    "Condition Filter configuration",
+    "Item Filter options",
+    "Attribute Filter settings",
+    "Schedule Group assignment",
+    "Assisted setup guides for receiving rules",
+    "Bin movement rules",
+    "Production rules",
+    "Assembly rules",
+    "Quality management workflows"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005457,
-      "pages_in_call": 8
+      "cost_usd": 0.004902,
+      "pages_in_call": 1
     }
   ]
 }

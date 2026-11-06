@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12678,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12678",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-04T12:04:25Z",
+  "merge_commit_sha": "03af6eeab79851177ee8a6951600472043c5b669",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[API tests] Ensure cancellation reason codes in API sales document tests",
+  "body_hash": "eaaa6cef9b54c1e708d2115d2c8777f83140b34b89b7b91bd7b5fb5f6c2dc8ab",
+  "fixes_issues": [],
+  "work_items": [
+    646383,
+    653122,
+    653393
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 6,
+    "additions": 60,
+    "deletions": 50,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

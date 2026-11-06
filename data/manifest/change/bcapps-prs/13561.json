@@ -6,7 +6,7 @@
   "title": "Use runtime-generated keys in certificate and signed XML tests",
   "url": "https://github.com/microsoft/BCApps/pull/13561",
   "published_at": "2026-11-05T09:09:24Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-06T00:17:27.413Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "use runtime generated keys in certificate and signed xml tests"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-06T00:21:13.717Z",
+  "retry_after": null
 }

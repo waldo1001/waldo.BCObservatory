@@ -6,14 +6,39 @@
   "title": "[Bug][Subscription Billing] Rebilling usage data increases the subscription quantity once per subscription line",
   "url": "https://github.com/microsoft/BCApps/pull/13063",
   "published_at": "2026-11-04T11:25:53Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-05T00:14:20.359Z"
+    },
+    "fetched": {
+      "at": "2026-11-06T00:22:14.378Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-06T00:22:24.180Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004103
+    },
+    "linked": {
+      "at": "2026-11-06T00:22:24.563Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-06T00:22:24.577Z",
+      "path": "content/changes/bcapps/13063.md"
     }
   },
   "input_hash": "e8cff590327ed9935d813f5201152bd0861f656e:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13063,
@@ -32,6 +57,7 @@
     "community_contribution": true,
     "title_key": "bug subscription billing rebilling usage data increases the subscription quantity once per subscription line"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-05T02:20:31.532Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "64059af748c43e5989832805820ee963e8e5afed195bc7b35ee44d882b68b62a"
 }
