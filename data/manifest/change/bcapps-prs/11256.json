@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/11256",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Add setup option to restore Sales and Purchase Order quantities when posting returns",
+  "url": "https://github.com/microsoft/BCApps/pull/11256",
+  "published_at": "2026-11-06T17:57:06Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-07T00:19:54.415Z",
+      "change_class": "code",
+      "files": 99,
+      "al": 67,
+      "objects": 46,
+      "unjoined": 21
+    },
+    "extracted": {
+      "at": "2026-11-07T00:19:59.624Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.012389
+    },
+    "linked": {
+      "at": "2026-11-07T00:19:59.907Z",
+      "objects": 46,
+      "unjoined": 21,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-07T00:20:00.109Z",
+      "path": "content/changes/bcapps/11256.md"
+    }
+  },
+  "input_hash": "3452841d8a68db52375c227e17141a0481266527:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11256,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3452841d8a68db52375c227e17141a0481266527",
+    "author": "JakovljevicDusan",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "add setup option to restore sales and purchase order quantities when posting returns"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8808972bb8b9db6840b3177673ee7f27c22c07301a05cb6c16c331838c01ba6d"
+}

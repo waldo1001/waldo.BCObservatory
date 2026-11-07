@@ -2,19 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer",
   "title": "Make payments with AMC banking (US) or SEPA credit transfer (EU)",
-  "blob": "744739f817bebba43c8204ab3b13ec1234caedb6",
-  "summary": "Payment export functionality enables vendors to be paid by exporting payment information to SEPA Credit Transfer format or AMC Banking 365 Fundamentals extension for electronic processing through banks.",
+  "blob": "3db137587c3a92e4b026b53c1720364f4f953ee5",
+  "summary": "Set up and process vendor payments by exporting payment files in SEPA Credit Transfer format or using the AMC Banking 365 Fundamentals extension for electronic bank transfers.",
   "systems": [
     "finance",
     "purchasing",
     "integration"
   ],
   "topics": [
-    "payments",
-    "bank-transfers",
-    "sepa",
-    "electronic-payments",
-    "vendor-payments"
+    "sepa credit transfer",
+    "payment export",
+    "electronic payments",
+    "bank setup",
+    "amc banking",
+    "vendor payments"
   ],
   "objects": [
     {
@@ -31,19 +32,41 @@
     },
     {
       "type": "page",
+      "name": "General Journal Batches"
+    },
+    {
+      "type": "page",
       "name": "Payment Methods"
     },
     {
       "type": "page",
+      "name": "Pmt. Export Line Definitions"
+    },
+    {
+      "type": "page",
       "name": "Credit Transfer Registers"
+    },
+    {
+      "type": "page",
+      "name": "Export Electronic Payments"
+    },
+    {
+      "type": "page",
+      "name": "Generate EFT File"
+    },
+    {
+      "type": "page",
+      "name": "Suggest Vendor Payments"
     }
   ],
   "features": [
-    "SEPA Credit Transfer format support",
+    "SEPA Credit Transfer format",
     "AMC Banking 365 Fundamentals extension",
-    "payment file export",
     "bank data conversion",
-    "credit transfer registration tracking",
+    "electronic funds transfer (EFT)",
+    "payment file export",
+    "credit transfer message numbers",
+    "IBAN support",
     "payment export history"
   ],
   "versions": [],
@@ -53,8 +76,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006645,
-      "pages_in_call": 8
+      "cost_usd": 0.012399,
+      "pages_in_call": 1
     }
   ]
 }

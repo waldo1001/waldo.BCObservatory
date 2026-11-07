@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Handle HttpClient platform failure before accessing the response",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.md",
-  "published_at": "2026-09-29T11:03:39.000Z",
+  "published_at": "2026-11-06T11:18:40.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,17 +13,17 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-29T21:27:52.592Z",
-      "blob": "e3dd227fb4111aecf97166cccd076a802bb1b6bb",
-      "words": 193,
+      "at": "2026-11-07T00:18:53.345Z",
+      "blob": "dcdf3aec397952b4b3ef504ac79df1f5da0e5888",
+      "words": 289,
       "forms": 0
     },
     "published": {
-      "at": "2026-10-29T21:27:52.754Z",
+      "at": "2026-11-07T00:19:52.464Z",
       "path": "content/guidelines/microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.md"
     }
   },
-  "input_hash": "e3dd227fb4111aecf97166cccd076a802bb1b6bb",
+  "input_hash": "dcdf3aec397952b4b3ef504ac79df1f5da0e5888",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -42,7 +42,7 @@
       "runtime-error"
     ],
     "ai_usage": null,
-    "words": 193,
+    "words": 289,
     "identifiers": [
       "HttpClient",
       "HttpResponseMessage"
@@ -77,5 +77,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e3dd227fb4111aecf97166cccd076a802bb1b6bb"
+  "output_hash": "dcdf3aec397952b4b3ef504ac79df1f5da0e5888"
 }

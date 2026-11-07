@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13439",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Validate negative Reorder Quantity for Fixed Reorder Qty. planning",
+  "url": "https://github.com/microsoft/BCApps/pull/13439",
+  "published_at": "2026-11-06T17:18:49Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-07T00:20:01.914Z",
+      "change_class": "code",
+      "files": 18,
+      "al": 17,
+      "objects": 17,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-07T00:21:28.491Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004637
+    },
+    "linked": {
+      "at": "2026-11-07T00:21:28.964Z",
+      "objects": 17,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-07T00:21:29.006Z",
+      "path": "content/changes/bcapps/13439.md"
+    }
+  },
+  "input_hash": "b6c24072df9b42b37c837bcee3b015d8de5c2c5d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13439,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b6c24072df9b42b37c837bcee3b015d8de5c2c5d",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "validate negative reorder quantity for fixed reorder qty planning"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3a3d85bf86c801172f0480e40f058cf0702aa71dafeb2241d6e4ef114ba351f0"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13442",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SCM] Post Inventory Cost to G/L: stop using marks, add clean-up for Post Value Entry to G/L",
+  "url": "https://github.com/microsoft/BCApps/pull/13442",
+  "published_at": "2026-11-06T14:38:12Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    }
+  },
+  "input_hash": "184c24a835a04cee7c319504b02a4042a808dc89:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13442,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "184c24a835a04cee7c319504b02a4042a808dc89",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "scm post inventory cost to g l stop using marks add clean up for post value entry to g l"
+  }
+}

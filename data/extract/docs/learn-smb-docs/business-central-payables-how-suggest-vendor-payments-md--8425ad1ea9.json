@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/payables-how-suggest-vendor-payments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-suggest-vendor-payments",
   "title": "Suggest vendor payments",
-  "blob": "6fff15eb506f5ae2dace65d2364b29cb0cd21f29",
-  "summary": "Use the Suggest Vendor Payments batch job to automatically generate payment journal lines based on due dates and available payment discounts, with options to prioritize vendors and set posting dates.",
+  "blob": "80fbf24a0259fbee76d2b8732db6da7dff491ac7",
+  "summary": "The Suggest Vendor Payments batch job on the Payment Journal page automatically generates payment lines based on due dates and available payment discounts, considering vendor priorities and on-hold entries.",
   "systems": [
     "purchasing",
     "finance"
@@ -11,28 +11,26 @@
   "topics": [
     "vendor payments",
     "payment suggestions",
+    "payment journal",
     "payment discounts",
-    "vendor prioritization",
-    "batch jobs",
-    "payment scheduling"
+    "batch job",
+    "posting date"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Payment Journals"
-    },
-    {
-      "type": "page",
-      "name": "Suggest Vendor Payments"
+      "name": "Payment Journal"
     }
   ],
   "features": [
-    "suggest vendor payments",
-    "payment discount detection",
-    "vendor prioritization",
-    "due date calculation",
-    "posting date calculation",
-    "on hold exclusion"
+    "Suggest Vendor Payments batch job",
+    "Vendor prioritization",
+    "Payment discount availability",
+    "Due date calculation",
+    "Calculate Posting Date from Applies-to-Doc. Due Date",
+    "Applies-to-Doc. Due Date Offset",
+    "Batch Total (LCY)",
+    "Summarize per Vendor"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00379,
-      "pages_in_call": 8
+      "cost_usd": 0.004,
+      "pages_in_call": 1
     }
   ]
 }

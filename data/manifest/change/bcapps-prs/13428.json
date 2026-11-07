@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13428",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Quality Management] Keep Sample Size and Pass/Fail Quantity within Quantity (Base)",
+  "url": "https://github.com/microsoft/BCApps/pull/13428",
+  "published_at": "2026-11-06T17:08:28Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    }
+  },
+  "input_hash": "017d3d02cb47724510788b245246428b37c2b555:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13428,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "017d3d02cb47724510788b245246428b37c2b555",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "quality management keep sample size and pass fail quantity within quantity base"
+  }
+}

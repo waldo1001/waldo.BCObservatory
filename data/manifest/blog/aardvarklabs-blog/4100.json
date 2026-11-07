@@ -1,0 +1,45 @@
+{
+  "id": "blog/aardvarklabs-blog/4100",
+  "pillar": "blog",
+  "source": "aardvarklabs-blog",
+  "tier": "community",
+  "title": "Business Central 29: The New IsDirty() Flag — Finally a Smarter Way to Detect Record Changes",
+  "url": "https://aardvarklabs.blog/2026/11/06/business-central-29-the-new-isdirty-flag-finally-a-smarter-way-to-detect-record-changes/",
+  "published_at": "2026-11-06T13:00:00.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-07T00:19:52.995Z",
+      "path": "vault:posts/aardvarklabs-blog/4100.md",
+      "words": 552
+    },
+    "extracted": {
+      "at": "2026-11-07T00:19:59.400Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.005239
+    },
+    "summarized": {
+      "at": "2026-11-07T00:19:59.402Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-11-07T00:19:59.402Z"
+    },
+    "published": {
+      "at": "2026-11-07T00:19:59.569Z",
+      "path": "content/posts/aardvarklabs-blog/4100.md"
+    }
+  },
+  "input_hash": "2026-10-07T00:14:47.000Z",
+  "attempts": 0,
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c819f94e7dcb3bf3dd26e50dea94a39b30628fbe7b0d5456b72752d22b6a1fc6"
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13439",
+  "number": 13439,
+  "title": "Validate negative Reorder Quantity for Fixed Reorder Qty. planning",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Item, Item Template, and Stockkeeping Unit now reject negative Reorder Quantities with a clear validation error, and planning failures for Fixed Reorder Qty. policy are replaced with actionable error messages.",
+  "key_points": [
+    "Added MinValue = 0 constraint to Reorder Quantity field across Item, Item Template, and Stockkeeping Unit tables in all country layers",
+    "Inventory Profile Offsetting codeunit now validates negative reorder quantities and reports them with the actual value instead of hard-coded 0",
+    "Existing negative values fail on next validation instead of causing internal planning errors",
+    "Planning resiliency ensures errors are logged in Planning Error Log with details",
+    "New test added to verify clear error messaging for negative reorder quantities"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004637,
+    "changes_in_call": 1
+  }
+}

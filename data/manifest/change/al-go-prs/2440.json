@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2440",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Sort artifacts by creation time when determining latest artifacts for release",
+  "url": "https://github.com/microsoft/AL-Go/pull/2440",
+  "published_at": "2026-11-06T12:35:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    }
+  },
+  "input_hash": "3e18897fb39a50ed0d9c57e7755f23ed1601728d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2440,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "3e18897fb39a50ed0d9c57e7755f23ed1601728d",
+    "author": "mazhelez",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "sort artifacts by creation time when determining latest artifacts for release"
+  }
+}

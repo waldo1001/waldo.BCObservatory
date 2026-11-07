@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13623",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Dataverse] Fix duplicate sales line numbers with automatic recurring lines",
+  "url": "https://github.com/microsoft/BCApps/pull/13623",
+  "published_at": "2026-11-06T12:14:49Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    }
+  },
+  "input_hash": "9735d327706b4f912d89f43d6949ff3902362156:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13623,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9735d327706b4f912d89f43d6949ff3902362156",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "dataverse fix duplicate sales line numbers with automatic recurring lines"
+  }
+}

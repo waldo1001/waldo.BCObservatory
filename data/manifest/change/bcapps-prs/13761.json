@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/13761",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "SOA search selection adjustments",
+  "url": "https://github.com/microsoft/BCApps/pull/13761",
+  "published_at": "2026-11-06T22:54:59Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    }
+  },
+  "input_hash": "616174f697c0387751fe71ce068b3653ee27adc8:c1",
+  "attempts": 1,
+  "flags": [],
+  "meta": {
+    "number": 13761,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "616174f697c0387751fe71ce068b3653ee27adc8",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa search selection adjustments"
+  },
+  "last_error": "The operation was aborted due to timeout",
+  "retry_after": "2026-11-07T02:19:51.175Z"
+}

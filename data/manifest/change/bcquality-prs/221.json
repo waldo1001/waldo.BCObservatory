@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/221",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Clarify when HttpClient transport errors need translation",
+  "url": "https://github.com/microsoft/BCQuality/pull/221",
+  "published_at": "2026-11-06T11:18:41Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    }
+  },
+  "input_hash": "634aba3df9af1b4579e8a735b186e3efdbf47de2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 221,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "634aba3df9af1b4579e8a735b186e3efdbf47de2",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "clarify when httpclient transport errors need translation"
+  }
+}

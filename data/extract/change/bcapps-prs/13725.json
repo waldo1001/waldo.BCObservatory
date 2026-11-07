@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13725",
+  "number": 13725,
+  "title": "Reduce repeated ILE reads and JIT loads in average cost adjustment",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Codeunit 5895 Inventory Adjustment reduces repeated database reads and JIT loads during average cost calculation by caching Item Ledger Entry data, loading required fields upfront, and removing ineffective LoadFields calls.",
+  "key_points": [
+    "Caches the immutable Positive field from Item Ledger Entry in a dictionary to eliminate repeated lookups",
+    "Loads all required chain fields upfront in ExcludeAvgCostOnValuationDate and IsAvgCostException to prevent JIT loads",
+    "Removes ineffective LoadFields calls in AvgValueEntriesToAdjustExist and CollectOpenValueEntries",
+    "Adds missing fields to load lists: Applied Entry to Adjust and Valuation Date",
+    "Improves performance for high-volume items where processing time grew quadratically with value entries"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004504,
+    "changes_in_call": 1
+  }
+}

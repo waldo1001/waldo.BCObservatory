@@ -5,17 +5,17 @@
   "tier": "official",
   "title": "Monitor and Troubleshoot Microsoft Fabric Synchronization",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export",
-  "published_at": "2026-10-09T09:24:11.000Z",
+  "published_at": "2026-11-06T14:44:41.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
     },
     "fetched": {
-      "at": "2026-10-15T00:25:21.068Z",
-      "blob": "135fc8961295f40cc096e1c886157844d79a438d",
-      "words": 640,
+      "at": "2026-11-07T00:21:29.451Z",
+      "blob": "93ac94604b3e45dc73b3d51103735cfb8c5d1779",
+      "words": 1269,
       "forms": 2
     },
     "extracted": {
@@ -38,14 +38,14 @@
       "page": false
     }
   },
-  "input_hash": "135fc8961295f40cc096e1c886157844d79a438d",
+  "input_hash": "93ac94604b3e45dc73b3d51103735cfb8c5d1779",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-monitor-fabric-export.md",
     "description": "Monitor Business Central synchronization runs, review table-level changes and watermarks, and resolve common Microsoft Fabric connection problems.",
-    "ms_date": "2026-10-08",
+    "ms_date": "2026-10-29",
     "ms_topic": "troubleshooting",
     "search_form": [
       {
@@ -69,11 +69,14 @@
       "watermark"
     ],
     "ai_usage": "ai-assisted",
-    "words": 640,
-    "identifiers": [],
+    "words": 1269,
+    "identifiers": [
+      "fabricExportRuns",
+      "fabricExportDetails"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a6e0368baa41bb8d41068bcad4a9cfeba3480870efd7d0f4b459897ef824606d"
+  "output_hash": "93ac94604b3e45dc73b3d51103735cfb8c5d1779"
 }

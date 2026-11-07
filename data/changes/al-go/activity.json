@@ -1,68 +1,29 @@
 {
   "open": [
     {
-      "number": 2427,
-      "title": "Add opt-in setting to skip draft PR builds",
-      "url": "https://github.com/microsoft/AL-Go/pull/2427",
+      "number": 2428,
+      "title": "Propose a BCQuality knowledge advisor for AL-Go issues and pull requests",
+      "url": "https://github.com/microsoft/AL-Go/pull/2428",
       "base": "main",
       "major": null,
-      "author": "aholstrup1",
+      "author": "javiarmesto",
       "labels": [],
-      "draft": false,
-      "created_at": "2026-11-02T10:00:11Z",
-      "updated_at": "2026-11-05T18:36:08Z",
+      "draft": true,
+      "created_at": "2026-11-02T12:38:32Z",
+      "updated_at": "2026-11-06T15:36:14Z",
       "community_contribution": false
     },
     {
-      "number": 2440,
-      "title": "Sort artifacts by creation time when determining latest artifacts for release",
-      "url": "https://github.com/microsoft/AL-Go/pull/2440",
+      "number": 2444,
+      "title": "Implement retry logic for GitHub App token requests to handle transient errors",
+      "url": "https://github.com/microsoft/AL-Go/pull/2444",
       "base": "main",
       "major": null,
-      "author": "mazhelez",
+      "author": "AlexanderMarcher",
       "labels": [],
       "draft": false,
-      "created_at": "2026-11-05T12:50:14Z",
-      "updated_at": "2026-11-05T14:25:00Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2441,
-      "title": "Skip test projects when determining release artifacts",
-      "url": "https://github.com/microsoft/AL-Go/pull/2441",
-      "base": "main",
-      "major": null,
-      "author": "mazhelez",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-11-05T12:54:22Z",
-      "updated_at": "2026-11-05T14:18:52Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2431,
-      "title": "Document existing settings and disabled-test conventions",
-      "url": "https://github.com/microsoft/AL-Go/pull/2431",
-      "base": "main",
-      "major": null,
-      "author": "aholstrup1",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-11-03T11:59:41Z",
-      "updated_at": "2026-11-05T13:59:13Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2442,
-      "title": "Document incremental build conflict with releases from release branches",
-      "url": "https://github.com/microsoft/AL-Go/pull/2442",
-      "base": "main",
-      "major": null,
-      "author": "mazhelez",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-11-05T13:19:38Z",
-      "updated_at": "2026-11-05T13:21:23Z",
+      "created_at": "2026-11-06T10:26:55Z",
+      "updated_at": "2026-11-06T11:47:35Z",
       "community_contribution": false
     },
     {
@@ -75,7 +36,7 @@
       "labels": [],
       "draft": true,
       "created_at": "2026-10-07T11:05:23Z",
-      "updated_at": "2026-11-05T09:27:00Z",
+      "updated_at": "2026-11-06T08:57:38Z",
       "community_contribution": false
     },
     {
@@ -105,19 +66,6 @@
       "community_contribution": false
     },
     {
-      "number": 2434,
-      "title": "Retry artifact and CI/CD lookup requests",
-      "url": "https://github.com/microsoft/AL-Go/pull/2434",
-      "base": "main",
-      "major": null,
-      "author": "aholstrup1",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-11-03T13:32:18Z",
-      "updated_at": "2026-11-04T08:08:14Z",
-      "community_contribution": false
-    },
-    {
       "number": 2435,
       "title": "Fix CI/CD Build Link Retrieval and Create Release Workflow",
       "url": "https://github.com/microsoft/AL-Go/pull/2435",
@@ -131,19 +79,6 @@
       "community_contribution": false
     },
     {
-      "number": 2433,
-      "title": "Fix workspace compilation with versioning strategy 3",
-      "url": "https://github.com/microsoft/AL-Go/pull/2433",
-      "base": "main",
-      "major": null,
-      "author": "aholstrup1",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-11-03T13:20:37Z",
-      "updated_at": "2026-11-03T13:22:16Z",
-      "community_contribution": false
-    },
-    {
       "number": 2425,
       "title": "Admin API for PTE publishing/installing for BC30 and later",
       "url": "https://github.com/microsoft/AL-Go/pull/2425",
@@ -154,19 +89,6 @@
       "draft": true,
       "created_at": "2026-10-29T12:58:22Z",
       "updated_at": "2026-11-02T15:20:47Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2428,
-      "title": "Propose a BCQuality knowledge advisor for AL-Go issues and pull requests",
-      "url": "https://github.com/microsoft/AL-Go/pull/2428",
-      "base": "main",
-      "major": null,
-      "author": "javiarmesto",
-      "labels": [],
-      "draft": true,
-      "created_at": "2026-11-02T12:38:32Z",
-      "updated_at": "2026-11-02T12:38:32Z",
       "community_contribution": false
     },
     {
@@ -328,15 +250,15 @@
   ],
   "issues": [
     {
-      "number": 2439,
-      "title": "[Bug]: Error Message: C# compilation has failed for the application object CodeUnit_6225930.",
-      "url": "https://github.com/microsoft/AL-Go/issues/2439",
+      "number": 2443,
+      "title": "[Bug]: GitHub App token request is not retried; a transient 404 on the installation lookup fails the workflow",
+      "url": "https://github.com/microsoft/AL-Go/issues/2443",
       "labels": [
         "bug"
       ],
-      "author": "prosen76",
-      "created_at": "2026-11-05T12:32:43Z",
-      "comments": 4
+      "author": "AlexanderMarcher",
+      "created_at": "2026-11-06T10:23:32Z",
+      "comments": 0
     },
     {
       "number": 2438,

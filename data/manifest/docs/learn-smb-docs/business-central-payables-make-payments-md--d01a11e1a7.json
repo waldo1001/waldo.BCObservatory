@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Overview of tasks to manage payments to vendors",
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-make-payments",
-  "published_at": "2025-06-17T11:45:28.000Z",
+  "published_at": "2026-11-06T15:47:25.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.499Z",
-      "blob": "4c99dda367cad4586a61de384d0483f2faad9dce",
-      "words": 423,
+      "at": "2026-11-07T00:20:00.339Z",
+      "blob": "12feccbfb404486e793d72b9563e7f778f7f1b9f",
+      "words": 463,
       "forms": 7
     },
     "extracted": {
-      "at": "2026-10-06T19:23:14.166Z",
+      "at": "2026-11-07T00:21:28.422Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.00277
+      "objects": 2,
+      "cost_usd": 0.003974
     },
     "summarized": {
-      "at": "2026-10-06T19:23:14.184Z",
+      "at": "2026-11-07T00:21:28.423Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:14.185Z",
+      "at": "2026-11-07T00:21:28.424Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:14.186Z",
+      "at": "2026-11-07T00:21:28.424Z",
       "page": false
     }
   },
-  "input_hash": "4c99dda367cad4586a61de384d0483f2faad9dce",
+  "input_hash": "12feccbfb404486e793d72b9563e7f778f7f1b9f",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/payables-make-payments.md",
-    "description": "Outlines tasks to manage payments to vendors or creditors, including posting payment lines and getting an overview of the balance due.",
-    "ms_date": "2025-06-15",
+    "description": "Learn how to make payments in Business Central, including suggesting payment lines, reviewing the batch total, posting, printing checks, and exporting bank files.",
+    "ms_date": "2026-09-09",
     "ms_topic": "overview",
     "search_form": [
       {
@@ -87,17 +87,19 @@
     "keywords": [
       "print check",
       "vendor payment",
+      "payment batch total",
+      "batch total",
       "creditor",
       "debt",
       "balance due",
       "AP"
     ],
     "ai_usage": null,
-    "words": 423,
+    "words": 463,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "571659b0730b510ee78e82b30f99627021040b181434fa1b62e13e59ba7b4449"
+  "output_hash": "6ea9f765dd9eb0adb72aa0c20e880136f51c77aa93db2621cc6ef2dc6d06f4a1"
 }

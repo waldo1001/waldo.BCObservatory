@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/11256",
+  "number": 11256,
+  "title": "[main] Add setup option to restore Sales and Purchase Order quantities when posting returns",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "sales",
+    "platform"
+  ],
+  "summary": "Added optional settings to control whether credit memo and invoice-correction operations restore quantities on originating sales and purchase orders, with both settings enabled by default to maintain current behavior.",
+  "key_points": [
+    "New setup fields added to Sales & Receivables Setup and Purchases & Payables Setup tables to control quantity restoration on corrective operations",
+    "When enabled, existing quantity-restoration behavior is preserved; when disabled, quantities remain unchanged on originating orders",
+    "Restoration-specific confirmations and warnings display only when the setting is enabled",
+    "Prepayment deduction reversals proceed regardless of settings to maintain order consistency",
+    "All existing and new companies default to enabled settings, and comprehensive test coverage includes both enabled and disabled scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "sales"
+  ],
+  "quote": "Adds settings to control whether existing credit-memo and invoice-correction flows restore quantities on originating sales and purchase orders",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012389,
+    "changes_in_call": 1
+  }
+}

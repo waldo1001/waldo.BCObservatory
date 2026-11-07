@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Suggest vendor payments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-suggest-vendor-payments",
-  "published_at": "2025-08-21T10:53:19.000Z",
+  "published_at": "2026-11-06T15:47:25.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,60 +13,62 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.820Z",
-      "blob": "6fff15eb506f5ae2dace65d2364b29cb0cd21f29",
-      "words": 424,
+      "at": "2026-11-07T00:19:57.849Z",
+      "blob": "80fbf24a0259fbee76d2b8732db6da7dff491ac7",
+      "words": 466,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:08:13.765Z",
+      "at": "2026-11-07T00:20:01.944Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.00379
+      "objects": 1,
+      "cost_usd": 0.004
     },
     "summarized": {
-      "at": "2026-10-06T19:08:30.633Z",
+      "at": "2026-11-07T00:20:01.946Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:08:30.634Z",
+      "at": "2026-11-07T00:20:01.947Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:08:30.635Z",
+      "at": "2026-11-07T00:21:28.195Z",
       "page": false
     }
   },
-  "input_hash": "6fff15eb506f5ae2dace65d2364b29cb0cd21f29",
+  "input_hash": "80fbf24a0259fbee76d2b8732db6da7dff491ac7",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/payables-how-suggest-vendor-payments.md",
-    "description": "Use the Suggest Vendor Payments batch job to create payment lines for your vendors based on due dates and payment discounts.",
-    "ms_date": "2024-07-17",
+    "description": "Use the Suggest Vendor Payments batch job to create vendor payment lines based on due dates and discounts, and review the batch total before posting.",
+    "ms_date": "2026-09-09",
     "ms_topic": "how-to",
     "search_form": [
       {
-        "raw": "256",
+        "raw": "Primary_256",
         "id": 256,
-        "kind": null
+        "kind": "Primary"
       }
     ],
     "keywords": [
       "vendor payment",
+      "payment batch total",
+      "batch total",
       "creditor",
       "debt",
       "balance due",
       "AP"
     ],
     "ai_usage": null,
-    "words": 424,
+    "words": 466,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "784f2ca822e782afcf6d33bc2f107946e59f892a43d0418e8154698efac470cc"
+  "output_hash": "61c7aaa3a1403d218e89dac21f701afd25200dc1aa40e75025453a3975b15e2d"
 }

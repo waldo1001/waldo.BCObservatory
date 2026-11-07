@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2441",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Skip test projects when determining release artifacts",
+  "url": "https://github.com/microsoft/AL-Go/pull/2441",
+  "published_at": "2026-11-06T08:32:47Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    }
+  },
+  "input_hash": "881c2b43dd7fd5028c38de332b7937bdaabf2d53:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2441,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "881c2b43dd7fd5028c38de332b7937bdaabf2d53",
+    "author": "mazhelez",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "skip test projects when determining release artifacts"
+  }
+}

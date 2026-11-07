@@ -1,0 +1,86 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/ui/reset-per-row-page-variables-in-onaftergetrecord.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "Define per-record page outputs on every control-flow path",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/reset-per-row-page-variables-in-onaftergetrecord.md",
+  "published_at": "2026-11-06T11:18:04.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-07T00:19:51.478Z",
+      "blob": "84c0fd4aa87e4dd98eb1f2151012febfc19c3916",
+      "words": 374,
+      "forms": 0
+    },
+    "published": {
+      "at": "2026-11-07T00:19:52.593Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/reset-per-row-page-variables-in-onaftergetrecord.md"
+    }
+  },
+  "input_hash": "84c0fd4aa87e4dd98eb1f2151012febfc19c3916",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/ui/reset-per-row-page-variables-in-onaftergetrecord.md",
+    "description": "A global page variable belongs to the page instance, whereas Rec changes as OnAfterGetRecord processes records. Page variables are initialized when the page is loaded; do not assume that each retrieved record clears them.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [
+      "onaftergetrecord",
+      "page-variable",
+      "global-variable",
+      "computed-field",
+      "stale-value",
+      "api-page",
+      "clear",
+      "control-flow"
+    ],
+    "ai_usage": null,
+    "words": 374,
+    "identifiers": [
+      "OnAfterGetRecord",
+      "ClearAll",
+      "OnAfterGetCurrRecord"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "onaftergetrecord",
+        "page-variable",
+        "global-variable",
+        "computed-field",
+        "stale-value",
+        "api-page",
+        "clear",
+        "control-flow"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A global page variable belongs to the page instance, whereas Rec changes as OnAfterGetRecord processes records. Page variables are initialized when the page is loaded; do not assume that each retrieved record clears them."
+    },
+    "bcq_rule": 1
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "84c0fd4aa87e4dd98eb1f2151012febfc19c3916"
+}

@@ -14,16 +14,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-29T21:27:26.975Z"
+  at: "2026-11-07T00:19:57.626Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: bd53a2cf9e2cb364c0131f0d860203693200b082
+  input_hash: 718db08c817f0a403abc41c7d41675d286848d8b
 evidence:
   - kind: guideline
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-ui-review.md
     title: "microsoft/BCQuality: AL UI and accessibility review"
-    date: "2026-10-06"
-    commit: a4593a1b1585a0fa663efbf39ff02c60f846d851
+    date: "2026-11-06"
+    commit: 634aba3df9af1b4579e8a735b186e3efdbf47de2
     t: null
     quote: null
 links:
@@ -165,6 +165,7 @@ A file enters the candidate worklist when its `keywords` intersect the extracted
 
 Apply these high-signal mappings before fuzzy topic ranking:
 
+- A changed page field is bound to a global variable assigned directly or through a helper in `OnAfterGetRecord` — `reset-per-row-page-variables-in-onaftergetrecord.md`. Read the article before evaluating initialization of per-record outputs.
 - A tableextension adds a field to `DropDown` while the corresponding lookup-page control remains `Visible = false` — `dropdown-fieldgroup-respects-lookup-page-visibility`.
 - An editable page part affects a total, FlowField, or FactBox on the parent but does not set `UpdatePropagation = Both` — `updatepropagation-both-refreshes-main-page`.
 - A page or pageextension `Enabled`, `Visible`, `Editable`, or `StyleExpr` value contains an `in [...]` list (compiler: "InListExpression is not valid for client expressions", AL0573 or AL0322), or replaces one with a procedure call — `page-client-expression-must-not-use-in-list`. Plain `=`/`<>` comparisons joined with `and`/`or`, and `in [...]` inside a trigger or procedure body, are valid; do not flag them.
@@ -261,4 +262,4 @@ Output conforms to the DO output contract. Every finding this skill emits MUST s
 
 ---
 
-From microsoft/BCQuality at a4593a1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 634aba3, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

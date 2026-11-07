@@ -674,6 +674,15 @@
       "title_key": "bug fix 536 show all subcontracting return transfer orders"
     }
   ],
+  "12138": [
+    {
+      "number": 13496,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-06T20:01:35Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13496",
+      "title_key": "prevent orphan reservations from transfer shipments"
+    }
+  ],
   "12148": [
     {
       "number": 12578,
@@ -2301,6 +2310,27 @@
       "merged_at": "2026-11-05T20:19:57Z",
       "url": "https://github.com/microsoft/BCApps/pull/13729",
       "title_key": "bump versions to 29 2"
+    },
+    {
+      "number": 12922,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-06T03:15:49Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12922",
+      "title_key": "bug 652243 expense agent validate approval user email"
+    },
+    {
+      "number": 13629,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-06T08:00:28Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13629",
+      "title_key": "fix multiple posting group apply unapply tests and reminder mock ledger entry numbering"
+    },
+    {
+      "number": 13468,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-06T09:49:57Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13468",
+      "title_key": "all e use gln in electronic documents on the company information is not respected when importing e docs from inbound e documents page using the import xml action"
     }
   ]
 }

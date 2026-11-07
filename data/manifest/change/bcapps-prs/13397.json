@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13397",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Incorrect depreciation calculation for assets used less than 180 days under Income Tax Act rules",
+  "url": "https://github.com/microsoft/BCApps/pull/13397",
+  "published_at": "2026-11-06T15:11:07Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    }
+  },
+  "input_hash": "b3b210c20a5325c762adf46e21fda89176ebaa02:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13397,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b3b210c20a5325c762adf46e21fda89176ebaa02",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "incorrect depreciation calculation for assets used less than 180 days under income tax act rules"
+  }
+}

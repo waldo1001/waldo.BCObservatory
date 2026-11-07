@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13598",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix concurrent initialization of My Notifications",
+  "url": "https://github.com/microsoft/BCApps/pull/13598",
+  "published_at": "2026-11-06T10:10:45Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    }
+  },
+  "input_hash": "0cae0511f576d83c600591a1eaa150fc20b68965:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13598,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0cae0511f576d83c600591a1eaa150fc20b68965",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix concurrent initialization of my notifications"
+  }
+}

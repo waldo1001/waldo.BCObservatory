@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13721",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Expense Agent] Create per diem line when approving travel requests with Per Diem Included",
+  "url": "https://github.com/microsoft/BCApps/pull/13721",
+  "published_at": "2026-11-06T18:37:32Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-07T00:19:54.029Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 7,
+      "objects": 7,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-07T00:20:00.132Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004746
+    },
+    "linked": {
+      "at": "2026-11-07T00:20:00.249Z",
+      "objects": 7,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-07T00:20:00.328Z",
+      "path": "content/changes/bcapps/13721.md"
+    }
+  },
+  "input_hash": "f4fc7027e6e4b3270963f26e016a446107369823:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13721,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f4fc7027e6e4b3270963f26e016a446107369823",
+    "author": "claudiuciumedean",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense agent create per diem line when approving travel requests with per diem included"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "09ff4573287daa40c6dd2c5b471d02ae9fbf6c960cdc4538a283778815fbb12d"
+}

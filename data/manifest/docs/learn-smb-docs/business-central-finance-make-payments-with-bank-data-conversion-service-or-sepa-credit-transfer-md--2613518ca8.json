@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Make payments with AMC banking (US) or SEPA credit transfer (EU)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer",
-  "published_at": "2025-08-21T10:53:19.000Z",
+  "published_at": "2026-11-06T15:47:25.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.699Z",
-      "blob": "744739f817bebba43c8204ab3b13ec1234caedb6",
+      "at": "2026-11-07T00:18:53.660Z",
+      "blob": "3db137587c3a92e4b026b53c1720364f4f953ee5",
       "words": 2063,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:06:10.950Z",
+      "at": "2026-11-07T00:19:51.344Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.006645
+      "objects": 10,
+      "cost_usd": 0.012399
     },
     "summarized": {
-      "at": "2026-10-06T19:06:12.780Z",
+      "at": "2026-11-07T00:19:51.372Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:06:12.781Z",
+      "at": "2026-11-07T00:19:51.373Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:06:12.782Z",
+      "at": "2026-11-07T00:19:51.374Z",
       "page": false
     }
   },
-  "input_hash": "744739f817bebba43c8204ab3b13ec1234caedb6",
+  "input_hash": "3db137587c3a92e4b026b53c1720364f4f953ee5",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md",
-    "description": "Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.",
-    "ms_date": "2024-08-26",
+    "description": "Process vendor payments by exporting an EFT or SEPA file from the payment journal after you review the batch total and validate the payment lines.",
+    "ms_date": "2026-09-09",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -87,5 +87,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dafe0a61e0337e8ba4d62611fbe79df15510dc6fd3dfe07323ab1254920b88f7"
+  "output_hash": "28712315dab94d9ba8c877a705f25ed256d6ba0a6e46ea339ced0c336142a88e"
 }

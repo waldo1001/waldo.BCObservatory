@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13429",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Quality Management] Receiving setup guide: don't offer the warehouse receipt Create trigger",
+  "url": "https://github.com/microsoft/BCApps/pull/13429",
+  "published_at": "2026-11-06T17:12:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    }
+  },
+  "input_hash": "70d12120cd69800aceb388cd423e047f7c0e5118:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13429,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "70d12120cd69800aceb388cd423e047f7c0e5118",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "quality management receiving setup guide don t offer the warehouse receipt create trigger"
+  }
+}

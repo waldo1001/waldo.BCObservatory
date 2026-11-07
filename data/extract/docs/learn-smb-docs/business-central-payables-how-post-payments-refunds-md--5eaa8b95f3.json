@@ -2,20 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/payables-how-post-payments-refunds.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-post-payments-refunds",
   "title": "Record payments and refunds in payment journals",
-  "blob": "c102ec4391a2d728032bb51e881711bda82a2e6b",
-  "summary": "Record vendor payments and customer refunds in the payment journal, apply payments to invoices and credit memos, print checks, and submit payments electronically to banks.",
+  "blob": "c5d17d747cb012a3ebdb5debe258a6624ed25f70",
+  "summary": "Payment Journals records vendor payments and customer refunds, with features to apply payments to invoices, suggest vendor payments, print checks, and submit electronic payments to banks.",
   "systems": [
     "finance",
-    "purchasing",
-    "sales"
+    "purchasing"
   ],
   "topics": [
-    "payment journals",
-    "payments",
-    "refunds",
+    "payment journal",
+    "vendor payments",
+    "customer refunds",
+    "bank payments",
     "check payments",
-    "electronic payments",
-    "bank transfers"
+    "electronic payments"
   ],
   "objects": [
     {
@@ -32,13 +31,13 @@
     }
   ],
   "features": [
-    "record payments",
-    "record refunds",
-    "apply to invoices",
-    "suggest vendor payments",
-    "print checks",
-    "electronic payment export",
-    "payment personalization"
+    "Apply payments to invoices or credit memos",
+    "Suggest vendor and employee payments",
+    "Print checks",
+    "Electronic payment submission",
+    "Batch total review",
+    "Positive amount entry",
+    "Refund check issuance"
   ],
   "versions": [],
   "parts": 1,
@@ -47,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00379,
-      "pages_in_call": 8
+      "cost_usd": 0.004384,
+      "pages_in_call": 1
     }
   ]
 }

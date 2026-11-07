@@ -5,17 +5,17 @@
   "tier": "official",
   "title": "Manage Business Central Synchronization with Microsoft Fabric",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export",
-  "published_at": "2026-10-09T09:24:11.000Z",
+  "published_at": "2026-11-06T14:44:41.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
     },
     "fetched": {
-      "at": "2026-10-15T00:25:10.239Z",
-      "blob": "2673389d57f5ac4c3fa9776132e0b21aaf432ae4",
-      "words": 664,
+      "at": "2026-11-07T00:21:29.270Z",
+      "blob": "62722fb3b863ba3de0d7e7d67ec0ca2d8a7b3d62",
+      "words": 1632,
       "forms": 5
     },
     "extracted": {
@@ -38,14 +38,14 @@
       "page": false
     }
   },
-  "input_hash": "2673389d57f5ac4c3fa9776132e0b21aaf432ae4",
+  "input_hash": "62722fb3b863ba3de0d7e7d67ec0ca2d8a7b3d62",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-manage-fabric-export.md",
     "description": "Select Business Central companies and tables, use configuration packages, and control ongoing synchronization with Microsoft Fabric.",
-    "ms_date": "2026-10-08",
+    "ms_date": "2026-10-29",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -84,7 +84,7 @@
       "tables"
     ],
     "ai_usage": "ai-assisted",
-    "words": 664,
+    "words": 1632,
     "identifiers": [
       "BusinessCentral"
     ],
@@ -92,5 +92,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d253367b75468102945c330d93e65feb9f7c206a1afae1ad157a12342bb2f5b4"
+  "output_hash": "62722fb3b863ba3de0d7e7d67ec0ca2d8a7b3d62"
 }

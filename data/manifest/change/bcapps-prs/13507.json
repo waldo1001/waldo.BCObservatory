@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13507",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-Document] Add AKV switch for PA-related LLM calls",
+  "url": "https://github.com/microsoft/BCApps/pull/13507",
+  "published_at": "2026-11-06T11:05:22Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    }
+  },
+  "input_hash": "3fb78674e197f2bdec46114d1270da4b595705d2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13507,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3fb78674e197f2bdec46114d1270da4b595705d2",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "e document add akv switch for pa related llm calls"
+  }
+}

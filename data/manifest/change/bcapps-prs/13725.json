@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13725",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Reduce repeated ILE reads and JIT loads in average cost adjustment",
+  "url": "https://github.com/microsoft/BCApps/pull/13725",
+  "published_at": "2026-11-06T17:25:18Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-07T00:20:01.729Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-07T00:21:29.056Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": false,
+      "cost_usd": 0.004504
+    },
+    "linked": {
+      "at": "2026-11-07T00:21:29.230Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-07T00:21:29.239Z",
+      "path": "content/changes/bcapps/13725.md"
+    }
+  },
+  "input_hash": "7d721539a02ead2ccb73ae84ffdb484967e663ca:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13725,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7d721539a02ead2ccb73ae84ffdb484967e663ca",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "reduce repeated ile reads and jit loads in average cost adjustment"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c6cc38b7721aee4f2a189f24f16ce36e8d20aeb4f1d5e9c75b0c7c4624e29b67"
+}

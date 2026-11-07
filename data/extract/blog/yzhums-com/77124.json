@@ -1,0 +1,64 @@
+{
+  "item_id": "blog/yzhums-com/77124",
+  "url": "https://yzhums.com/77124/",
+  "title": "Business Central 2026 release wave 2 (BC29): New notification bar",
+  "source": "yzhums-com",
+  "published_at": "2026-11-06T02:19:01.000Z",
+  "words": 424,
+  "summary": "Business Central 2026 wave 2 introduces a new notification bar feature that allows nonmodal notifications to appear in the UI without blocking user workflows. In version 30.0 and later, page notifications hide when the Agent Data Review Bar is present, but users can toggle them visible.",
+  "key_points": [
+    "New notification bar feature is disabled by default and currently sandbox-only in BC29.",
+    "Notifications differ from modal messages by providing information without requiring immediate user action.",
+    "In BC 30.0, page notifications hide when the Agent Data Review Bar appears but users can show them with a toggle.",
+    "The feature changes notification bar background color while keeping other content and layout unchanged."
+  ],
+  "systems": [
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "notifications",
+    "user interface",
+    "feature management",
+    "agent review",
+    "release wave 2"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "My Notifications"
+    }
+  ],
+  "features": [
+    "notification bar",
+    "page notifications",
+    "Agent Data Review Bar",
+    "Show other notifications toggle",
+    "nonmodal notifications",
+    "Feature Management"
+  ],
+  "versions": [
+    "BC29",
+    "2026 wave 2",
+    "version 30.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Notifications provide a programmatic way to send nonintrusive information to the User Interface (UI) in the Web client.",
+      "why_it_matters": "Defines the core purpose of the new notification feature as a non-blocking communication method."
+    },
+    {
+      "text": "This feature is currently available only in Sandbox environments and is not yet available in Production.",
+      "why_it_matters": "Important limitation that affects where users can test this notification bar feature."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005301,
+    "posts_in_call": 1
+  }
+}

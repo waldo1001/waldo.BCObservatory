@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/11502",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "feat: Add new event",
+  "url": "https://github.com/microsoft/BCApps/pull/11502",
+  "published_at": "2026-11-06T09:55:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-07T00:15:21.625Z"
+    }
+  },
+  "input_hash": "6055dea80f7663f4badc443ebfa0ce87edd1ebaa:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11502,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6055dea80f7663f4badc443ebfa0ce87edd1ebaa",
+    "author": "fridrichovsky",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "SCM",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "feat add new event"
+  }
+}

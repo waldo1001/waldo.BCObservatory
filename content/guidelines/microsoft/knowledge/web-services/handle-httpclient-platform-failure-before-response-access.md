@@ -19,16 +19,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-29T21:27:52.727Z"
+  at: "2026-11-07T00:19:51.490Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: e3dd227fb4111aecf97166cccd076a802bb1b6bb
+  input_hash: dcdf3aec397952b4b3ef504ac79df1f5da0e5888
 evidence:
   - kind: guideline
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.md
     title: "microsoft/BCQuality: Handle HttpClient platform failure before accessing the response"
-    date: "2026-09-29"
-    commit: a4593a1b1585a0fa663efbf39ff02c60f846d851
+    date: "2026-11-06"
+    commit: 634aba3df9af1b4579e8a735b186e3efdbf47de2
     t: null
     quote: null
 links:
@@ -74,11 +74,15 @@ AL `HttpClient` methods can fail before a usable HTTP response exists because of
 
 When capturing the Boolean return value from `Get`, `Post`, `Put`, `Delete`, or `Send`, stop the current response-processing path immediately when it is `false`. Report or propagate the transport failure without reading status, headers, or content. Omitting the optional Boolean is also valid when fail-fast behavior is intended: the runtime then raises an error if the operation cannot execute.
 
+Both runtime propagation and explicit Boolean handling can be valid. Do not require capturing the Boolean solely to replace the platform exception with a custom error. Report missing transport-error translation only when a visible caller, documented error contract, or concrete user-facing requirement establishes why runtime propagation is insufficient.
+
 See sample: [`handle-httpclient-platform-failure-before-response-access.good.al`](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.good.al).
 
 ## Anti Pattern
 
 Capturing a failed call in a Boolean and then reading `Response.Content()`, parsing the body, or otherwise treating `Response` as usable. Do not report omission of the Boolean by itself; that form deliberately delegates failure propagation to the runtime.
+
+A custom error or label used for completed non-2xx responses does not by itself establish a transport-error translation requirement; its presence or absence alone is not a defect. This allowance does not cover returning success after consuming `false` or interpreting a non-success HTTP response as a success payload.
 
 See sample: [`handle-httpclient-platform-failure-before-response-access.bad.al`](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.bad.al).
 
@@ -98,4 +102,4 @@ See sample: [`handle-httpclient-platform-failure-before-response-access.bad.al`]
 
 ---
 
-From microsoft/BCQuality at a4593a1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 634aba3, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

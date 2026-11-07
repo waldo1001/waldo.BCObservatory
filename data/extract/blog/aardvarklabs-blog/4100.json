@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/aardvarklabs-blog/4100",
+  "url": "https://aardvarklabs.blog/2026/11/06/business-central-29-the-new-isdirty-flag-finally-a-smarter-way-to-detect-record-changes/",
+  "title": "Business Central 29: The New IsDirty() Flag — Finally a Smarter Way to Detect Record Changes",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-11-06T13:00:00.000Z",
+  "words": 552,
+  "summary": "Business Central 29 introduces the IsDirty() method, a built-in flag that detects whether a record has been modified since retrieval. This simplifies validation logic, sync operations, and audit trails by eliminating the need for manual field comparisons or temporary records.",
+  "key_points": [
+    "IsDirty() returns true if a record has changed since being loaded or written, false if untouched",
+    "Replaces error-prone patterns like temporary record copies or manual field tracking",
+    "Works alongside IsEmpty() and IsTemporary() to provide three essential record state checks",
+    "Reduces unnecessary Modify() calls in high-volume or integration scenarios",
+    "Makes code cleaner and easier to maintain by eliminating boilerplate dirty-flag logic"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "record handling",
+    "code quality",
+    "validation logic",
+    "performance optimization"
+  ],
+  "objects": [],
+  "features": [
+    "IsDirty() method",
+    "record change detection",
+    "validation logic simplification",
+    "write operation optimization",
+    "sync and telemetry support"
+  ],
+  "versions": [
+    "Business Central 29"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The new IsDirty() method lets you check whether a record has been modified since it was retrieved or last written.",
+      "why_it_matters": "This is the core capability - it provides a built-in way to detect changes without manual workarounds or hacks."
+    },
+    {
+      "text": "IsDirty() now joins two other small-but-essential record flags that AL developers rely on: IsEmpty() and IsTemporary().",
+      "why_it_matters": "It completes a trio of record state checks that developers use constantly when working with records."
+    },
+    {
+      "text": "It's the kind of quality-of-life upgrade that makes Business Central feel more modern, more predictable, and more fun to build on.",
+      "why_it_matters": "Highlights the practical developer experience improvement from having this built-in capability rather than custom solutions."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005239,
+    "posts_in_call": 1
+  }
+}

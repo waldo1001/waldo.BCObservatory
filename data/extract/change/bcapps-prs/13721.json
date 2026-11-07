@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13721",
+  "number": 13721,
+  "title": "[Expense Agent] Create per diem line when approving travel requests with Per Diem Included",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "When approving travel requests with Per Diem Included, the system now automatically creates a per diem expense line for each traveler based on matching expense rules, with blocking validation if no appropriate rule is found.",
+  "key_points": [
+    "Per diem lines are automatically created during travel request approval when Per Diem Included is enabled",
+    "Category resolution matches rules by location and trip start date, selecting the first active category",
+    "Approval fails with a clear error if no matching rule exists or the rule lacks a Daily Rate condition",
+    "Per diem lines are exempted from merchant and receipt requirements, consistent with mileage handling",
+    "Centralized validation logic in ExpenseRuleValidation.IsMerchantReceiptRequirementApplicable improves maintainability"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "When a travel request with Per Diem Included is approved, each traveler's newly created expense report now gets a per diem line automatically.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004746,
+    "changes_in_call": 1
+  }
+}

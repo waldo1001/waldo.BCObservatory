@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Service items and service item components",
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-setup-service-items",
-  "published_at": "2025-10-19T17:34:20.000Z",
+  "published_at": "2026-11-06T16:08:43.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.411Z",
-      "blob": "c146446bffd1f890c58e229a4f101c6313219322",
-      "words": 532,
+      "at": "2026-11-07T00:18:53.398Z",
+      "blob": "eb33871d7cfbbe440f7581264a7b66a218d85df4",
+      "words": 694,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:00:06.939Z",
+      "at": "2026-11-07T00:19:51.438Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 8,
-      "cost_usd": 0.004759
+      "cost_usd": 0.004842
     },
     "summarized": {
-      "at": "2026-10-06T19:00:07.000Z",
+      "at": "2026-11-07T00:19:51.462Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:00:07.001Z",
+      "at": "2026-11-07T00:19:51.465Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:00:07.002Z",
+      "at": "2026-11-07T00:19:51.465Z",
       "page": false
     }
   },
-  "input_hash": "c146446bffd1f890c58e229a4f101c6313219322",
+  "input_hash": "eb33871d7cfbbe440f7581264a7b66a218d85df4",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/service-how-setup-service-items.md",
     "description": "Learn about the things you must set up before you can use service items, including default values such as response time and service price group.",
-    "ms_date": "2025-10-10",
+    "ms_date": "2026-10-13",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "service item groups",
       "service shelves"
     ],
-    "ai_usage": null,
-    "words": 532,
+    "ai_usage": "ai-assisted",
+    "words": 694,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "12eed9225f2f84d0ed78c6125bd5407caa5aed457ccbbf8f0736f1e07045f1ad"
+  "output_hash": "1468f4f97ba3136cc36a63898fb3cdbd3e1842f7649606fdac7f2f8f709d8b2d"
 }
