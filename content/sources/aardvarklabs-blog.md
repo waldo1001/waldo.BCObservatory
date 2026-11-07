@@ -2,7 +2,7 @@
 id: source/aardvarklabs-blog
 type: source
 title: Aardvark Labs
-summary: "Aardvark Labs (Marcel Chabot): 85 posts in the knowledge base, 2025-04-18 to 2026-10-30, mostly about development, integration, copilot."
+summary: "Aardvark Labs (Marcel Chabot): 86 posts in the knowledge base, 2025-04-18 to 2026-11-06, mostly about development, integration, copilot."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-31T00:15:35.028Z"
+  at: "2026-11-07T00:15:21.625Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 794d400890948db330a6bbba7f09f3115572c71082fa77209cdcfc96dda8312f
+  input_hash: b9faff2314ba3780d610eaa8252c9e304686ade1acb28239e8af221ece1960b4
 evidence:
   - kind: blog
     url: https://aardvarklabs.blog
@@ -118,6 +118,7 @@ links:
     - post/aardvarklabs-blog/4119
     - post/aardvarklabs-blog/4082
     - post/aardvarklabs-blog/4177
+    - post/aardvarklabs-blog/4100
   guidelines: []
 source_id: aardvarklabs-blog
 kind: blog
@@ -125,24 +126,24 @@ url: https://aardvarklabs.blog
 author: Marcel Chabot
 mvp: false
 full_text: false
-item_count: 85
+item_count: 86
 footprint:
   systems:
     - id: development
-      weight: 94
+      weight: 96
     - id: integration
       weight: 45
     - id: copilot
       weight: 38
     - id: platform
-      weight: 31
+      weight: 32
     - id: reporting
       weight: 15
     - id: administration
       weight: 14
   topics:
     - id: al development
-      weight: 20
+      weight: 21
     - id: copilot
       weight: 10
     - id: al code
@@ -188,12 +189,12 @@ footprint:
       weight: 2
   features: []
 first_item: "2025-04-18"
-last_item: "2026-10-30"
+last_item: "2026-11-06"
 ---
 
 # Aardvark Labs
 
-> Aardvark Labs (Marcel Chabot): 85 posts in the knowledge base, 2025-04-18 to 2026-10-30, mostly about development, integration, copilot.
+> Aardvark Labs (Marcel Chabot): 86 posts in the knowledge base, 2025-04-18 to 2026-11-06, mostly about development, integration, copilot.
 
 [https://aardvarklabs.blog](https://aardvarklabs.blog) · blog · tier community
 
@@ -201,10 +202,10 @@ last_item: "2026-10-30"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (94) | al development (20) | table Customer (7) |
+| development (96) | al development (21) | table Customer (7) |
 | integration (45) | copilot (10) | page Customer Card (5) |
 | copilot (38) | al code (8) | table Sales Header (5) |
-| platform (31) | api (6) | table Vendor (3) |
+| platform (32) | api (6) | table Vendor (3) |
 | reporting (15) | json (6) | codeunit ARD_CashFlowAgentFactory (2) |
 | administration (14) | automation (5) | codeunit ARD_CashFlowAgentKPILogging (2) |
 |  | azure openai (5) | codeunit ARD_CashFlowAgentMetadata (2) |
@@ -224,10 +225,11 @@ Items per quarter, oldest first:
 - 2026-Q1: ************* 13
 - 2026-Q2: *************** 15
 - 2026-Q3: ************* 13
-- 2026-Q4: ***** 5
+- 2026-Q4: ****** 6
 
 ## Most recent
 
+- [Business Central 29: The New IsDirty() Flag — Finally a Smarter Way to Detect Record Changes](../posts/aardvarklabs-blog/4100.md) (2026-11-06)
 - [Building the AL Exploration Tool I Always Wanted](../posts/aardvarklabs-blog/4177.md) (2026-10-30)
 - [Business Central’s New API Overview: A Modern Replacement for Web Services](../posts/aardvarklabs-blog/4082.md) (2026-10-23)
 - [Community, Connection, and Business Central Telemetry at Summit NA 2026](../posts/aardvarklabs-blog/4119.md) (2026-10-16)
@@ -247,6 +249,5 @@ Items per quarter, oldest first:
 - [Push Documents from Business Central to SFTP via Power Automate](../posts/aardvarklabs-blog/3704.md) (2026-07-10)
 - [Troubleshooting AL Extension in VS Code: Phantom Errors](../posts/aardvarklabs-blog/3706.md) (2026-07-03)
 - [Step-by-Step Guide to Custom User Controls in Business Central](../posts/aardvarklabs-blog/3680.md) (2026-06-26)
-- [Using Power Automate for Business Central SFTP](../posts/aardvarklabs-blog/3631.md) (2026-06-19)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

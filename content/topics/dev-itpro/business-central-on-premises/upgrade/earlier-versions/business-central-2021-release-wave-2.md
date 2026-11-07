@@ -2,26 +2,26 @@
 id: topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions/business-central-2021-release-wave-2
 type: topic
 title: Business Central 2021 release wave 2
-summary: Upgrading on-premises Business Central to 2021 release wave 2 (version 19) from versions 14 to 18. Covers technical upgrade steps, C/AL to AL conversion with Txt2Al, moving tables between extensions with migration.json, permission set upgrades, installing version 19 cumulative updates, the India data migration toolkit, and the upgrade compatibility matrix.
+summary: Business Central 2021 release wave 2 (version 19) on-premises upgrade documentation. It covers upgrade paths from versions 14 to 18, C/AL to AL conversion, installing version 19 updates, moving tables and fields between extensions, permission set upgrades, and the India data migration toolkit.
 tier: official
 language: en
 system: platform
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:18:56.174Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 41c476edf62f616483e8683e04f7b0b70d7c37fa316cae43323046cd849a2ec6
+  input_hash: c6c12b9ec568a26d038c72106f9a26ff9b7ec71e85190359420982d5d90909b0
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility
     title: Business Central Upgrade Compatibility Matrix
-    date: "2026-10-01"
+    date: "2026-11-06"
     commit: null
     t: null
     quote: null
@@ -162,26 +162,28 @@ narrative: generated
 
 # Business Central 2021 release wave 2
 
-> Upgrading on-premises Business Central to 2021 release wave 2 (version 19) from versions 14 to 18. Covers technical upgrade steps, C/AL to AL conversion with Txt2Al, moving tables between extensions with migration.json, permission set upgrades, installing version 19 cumulative updates, the India data migration toolkit, and the upgrade compatibility matrix.
+> Business Central 2021 release wave 2 (version 19) on-premises upgrade documentation. It covers upgrade paths from versions 14 to 18, C/AL to AL conversion, installing version 19 updates, moving tables and fields between extensions, permission set upgrades, and the India data migration toolkit.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2021 release wave 2 · tier official · system platform · narrative reviewed (checked by Opus)
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2021 release wave 2 · tier official · system platform · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section documents upgrades to Business Central 2021 release wave 2 (version 19). The entry page, "Upgrade to Business Central 2021 Wave 2", describes the two options: a technical upgrade or application refactoring. Pick the path that matches your starting version and how customized your application is.
-Separate articles cover each starting point. From versions 16, 17 or 18 there is a technical upgrade. A base application upgrade covers versions 15, 16, 17 and 18. From version 14 there are three cases: an unmodified C/AL application (version 14 or earlier), a customized C/AL application moved to the Microsoft base application, and a technical upgrade that converts a version 14 application with C/AL customizations to the version 19 platform using AL base application extensions. Supporting pages cover Txt2Al code conversion, permission sets as AL objects, moving tables and fields between extensions with migration.json, and installing a version 19 cumulative update.
-Start with the overview page and the compatibility matrix to confirm your path. Then follow the matching upgrade article. Use the migration and permission pages when you have customizations. The India Data Migration Toolkit page applies only to Dynamics NAV 2016 India upgrades.
+This section collects the Learn pages for upgrading on-premises Business Central to 2021 release wave 2 (version 19). The entry page, "Upgrade to Business Central 2021 Wave 2", describes the two main options: a technical upgrade or application refactoring. The compatibility matrix helps confirm a valid upgrade path before you start.
+
+The remaining pages split by starting point. Versions 15 to 18 use the base application upgrade and technical upgrade pages. Version 14 with C/AL has separate pages for an unmodified application, a customized application moved to the Microsoft base application, and the full technical upgrade. Supporting pages cover Txt2Al code conversion, permission set upgrade, and moving tables and fields between extensions with migration.json, either down or up the dependency graph.
+
+Start with the overview and the compatibility matrix, then choose the page that matches your source version and level of customization. Use the version 19 update page for cumulative updates after you are on version 19.
 
 ## Key points
 
-- Two upgrade options to version 19: technical upgrade or application refactoring.
-- Technical upgrade to version 19 applies from versions 16, 17 or 18, and includes database conversion, extension compilation, tenant mounting and synchronization.
-- A base application upgrade page covers versions 15, 16, 17 and 18, including extension publishing, data upgrade and permission sets.
-- Version 14 C/AL applications, modified or unmodified, move to the Microsoft System and Base Application extensions using the DestinationAppsForMigration server setting. Customized applications also use migration.json for a two-phase table migration.
-- The Txt2Al tool converts version 14 C/AL customizations to AL, including .NET interoperability and test library conversion.
-- Tables and fields can move between extensions using migration.json. Moving down the dependency graph is direct. Moving up needs a two-stage process with a transition extension.
-- Permissions change from legacy data-based permissions to AL object-based Permission Set and Permission Set Extension objects.
-- The India Data Migration Toolkit upgrades Dynamics NAV 2016 India data in two steps. It covers localization data but not customizations.
+- The compatibility matrix lists minimum compatible update versions for upgrades between major releases, from version 14 onward.
+- Upgrade options to version 19 are technical upgrade or application refactoring, from versions 16, 17 or 18 (technical) and from version 14 or earlier (C/AL).
+- Version 14 C/AL customizations are converted to AL with the Txt2Al tool, including .NET interoperability and test library conversion.
+- Moving a C/AL application to the Microsoft system and base applications uses the DestinationAppsForMigration server setting and migration.json.
+- Table and field ownership moves between extensions use migration.json; moving up the dependency graph needs a two-stage process with a transition extension.
+- Permissions move from legacy data-based permissions to AL object-based Permission Set and Permission Set Extension objects.
+- Technical upgrade steps include database conversion, extension compilation, tenant mounting, synchronization, and extension installation.
+- The India Data Migration Toolkit upgrades from Dynamics NAV 2016 India in two steps, covers localization data but not customizations.
 
 ## Learn pages
 

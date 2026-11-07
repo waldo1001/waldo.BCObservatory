@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:17:27.413Z"
+  at: "2026-11-07T00:15:21.625Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 361fc7d4f523b786e32e5cf6d58a713ca2393093
@@ -28,7 +28,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/job-queue-handlers-must-propagate-failures.md
     title: "microsoft/BCQuality: Job queue handlers must propagate execution failures"
     date: "2026-09-15"
-    commit: 9b72501fc3199e6f8c776b4fe3aeb1a11e5dfaee
+    commit: 634aba3df9af1b4579e8a735b186e3efdbf47de2
     t: null
     quote: null
 links:
@@ -96,4 +96,4 @@ See sample: [`job-queue-handlers-must-propagate-failures.bad.al`](https://github
 
 ---
 
-From microsoft/BCQuality at 9b72501, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 634aba3, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

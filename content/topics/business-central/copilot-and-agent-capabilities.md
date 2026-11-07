@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -196,7 +196,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-agent-known-senders
     title: Manage known senders for Payables Agent
-    date: "2026-10-02"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
@@ -224,14 +224,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/faqs-payables-agent
     title: Payables Agent Frequently Asked Questions
-    date: "2026-10-02"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-agent
     title: Payables Agent Overview in Business Central
-    date: "2026-10-02"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null

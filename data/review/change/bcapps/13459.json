@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13459",
+  "input_hash": "aa27db9b01dcc628d6ef56d5e549a710e20c7a13e9dd52afe7656f4c39cd591c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-07T01:03:50.711Z",
+  "issues": [
+    "The summary claims 'currency revaluation handling' was added. Nothing given supports this; the change adds a Close Inc. Stmt. ACY Handler codeunit.",
+    "Gen. Jnl.-Post Line was modified only in the ES layer, and the summary did not mention it."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.035623,
+    "changes_in_call": 4
+  }
+}

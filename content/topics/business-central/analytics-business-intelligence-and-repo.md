@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -124,6 +124,20 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-fabric
+    title: Business Central Data Mirroring to Microsoft Fabric
+    date: "2026-10-29"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/fabric-faq
+    title: Business Central Mirroring to Microsoft Fabric FAQ
+    date: "2026-10-29"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-powerbi-configure-fiscal-calendar
     title: Configure a fiscal calendar for your Power BI reports
     date: "2026-03-03"
@@ -145,13 +159,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/admin-fabric
-    title: Data Mirroring to Microsoft Fabric from Business Central
-    date: "2026-10-08"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-design-word-layouts-business-central-add-in
     title: Design Word Layouts with the Business Central Add-in
     date: "2026-09-09"
@@ -162,13 +169,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/reports-develop-reports
     title: Develop report layouts and datasets
     date: "2022-02-03"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/fabric-faq
-    title: FAQ About Mirroring Business Central Data to Microsoft Fabric
-    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -210,7 +210,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export
     title: Manage Business Central Synchronization with Microsoft Fabric
-    date: "2026-10-08"
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null
@@ -231,7 +231,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export
     title: Monitor and Troubleshoot Microsoft Fabric Synchronization
-    date: "2026-10-08"
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null

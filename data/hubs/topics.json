@@ -1,5 +1,5 @@
 {
-  "hubs": 606,
+  "hubs": 608,
   "generated_by": "pipeline/link/toc.ts",
   "topics": [
     {
@@ -12777,6 +12777,7 @@
       ],
       "members": [
         "docs/learn-devitpro/dev-itpro/whatsnew/overview.md",
+        "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-29-1.md",
         "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-29-0.md",
         "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-5.md",
         "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-4.md",
@@ -12852,7 +12853,7 @@
         "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-15-2.md"
       ],
       "system": null,
-      "member_hash": "2eba0bd53514ef90f1754b747b81d1364209bf6f70a319cd5fb21e22d17acce1"
+      "member_hash": "b4fccb96b33a1ef8fe36f37c5f44990a2aceff17cd27679aa9fa43e238feefeb"
     },
     {
       "id": "topic/dev-itpro/what-s-new-and-planned/updates-for-earlier-major-versions",
@@ -12864,6 +12865,12 @@
       "parent": "topic/dev-itpro/what-s-new-and-planned",
       "children": [],
       "members": [
+        "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-5.md",
+        "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-4.md",
+        "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-3.md",
+        "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-2.md",
+        "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-1.md",
+        "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-0.md",
         "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-27-5.md",
         "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-27-4.md",
         "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-27-3.md",
@@ -12932,7 +12939,7 @@
         "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-15-2.md"
       ],
       "system": null,
-      "member_hash": "0fa344e90b2899491e29207aa2e1826f74ca2bb7fb90ff117e236b97cbe367c2"
+      "member_hash": "92dee38639b8a48ea68d2b218706ede1fb58ae4ebe59b81d2046e9ef7ba427f2"
     },
     {
       "id": "topic/dev-itpro/get-started",
@@ -19281,6 +19288,7 @@
         "topic/dev-itpro/integration/integrating-business-central-with-office",
         "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
         "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor",
+        "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
         "topic/dev-itpro/integration/integrating-with-azure-services",
         "topic/dev-itpro/integration/integrating-with-infrastructure-services",
         "topic/dev-itpro/integration/integrating-with-shopify"
@@ -19642,6 +19650,10 @@
         "docs/learn-devitpro/dev-itpro/developer/devenv-extract-data.md",
         "docs/learn-devitpro/dev-itpro/webservices/web-service-pbi-performance.md",
         "docs/learn-devitpro/dev-itpro/developer/devenv-power-bi-report-parts.md",
+        "docs/learn-smb-docs/business-central/admin-fabric.md",
+        "docs/learn-smb-docs/business-central/admin-set-up-fabric-mirroring.md",
+        "docs/learn-smb-docs/business-central/admin-manage-fabric-export.md",
+        "docs/learn-smb-docs/business-central/admin-monitor-fabric-export.md",
         "docs/learn-devitpro/dev-itpro/ai/create-agent-in-copilot-studio.md",
         "docs/learn-devitpro/dev-itpro/ai/configure-mcp-server.md",
         "docs/learn-smb-docs/business-central/admin-prepare-dynamics-365-for-sales-for-integration.md",
@@ -19662,7 +19674,7 @@
         "docs/learn-smb-docs/business-central/shopify/walkthrough-setting-up-and-using-shopify.md"
       ],
       "system": "integration",
-      "member_hash": "2226963e73c268a710cccae6aa73500791d632882afecff9831f1cec7927c748"
+      "member_hash": "dba77327a5046d319e10fb05e5d556922eefa1f87bbc99bcf259368e11621269"
     },
     {
       "id": "topic/dev-itpro/integration/web-services",
@@ -20914,8 +20926,7 @@
       "children": [
         "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps",
         "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
-        "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi",
-        "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi"
+        "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi"
       ],
       "members": [
         "docs/learn-devitpro/dev-itpro/powerplatform/powerplatform-integration-overview.md",
@@ -20936,12 +20947,10 @@
         "docs/learn-smb-docs/business-central/across-how-use-powerbi-reports-factbox.md",
         "docs/learn-devitpro/dev-itpro/developer/devenv-extract-data.md",
         "docs/learn-devitpro/dev-itpro/webservices/web-service-pbi-performance.md",
-        "docs/learn-devitpro/dev-itpro/developer/devenv-power-bi-report-parts.md",
-        "docs/learn-devitpro/dev-itpro/ai/create-agent-in-copilot-studio.md",
-        "docs/learn-devitpro/dev-itpro/ai/configure-mcp-server.md"
+        "docs/learn-devitpro/dev-itpro/developer/devenv-power-bi-report-parts.md"
       ],
       "system": "platform",
-      "member_hash": "d38828a5643c63d07e0b733d77eb641d79668f662c150e42ba50734f6ad745ea"
+      "member_hash": "a84c192af3a74aa3396a811d6d91cfd00c90e346403ea31a93d2b9f1838e71d0"
     },
     {
       "id": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps",
@@ -21045,14 +21054,56 @@
       "member_hash": "acba99b7a835774b9db004cb2de8d0c52c89c8b48fa9c781fec1d37fc1b9bde2"
     },
     {
-      "id": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi",
+      "id": "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
+      "title": "Integrating with Microsoft Fabric",
+      "toc": "dev-itpro/TOC.md",
+      "breadcrumb": [
+        "Integration"
+      ],
+      "parent": "topic/dev-itpro/integration",
+      "children": [
+        "topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator",
+        "topic/dev-itpro/integration/integrating-with-microsoft-fabric/integrating-with-microsoft-copilot-studi"
+      ],
+      "members": [
+        "docs/learn-smb-docs/business-central/admin-fabric.md",
+        "docs/learn-smb-docs/business-central/admin-set-up-fabric-mirroring.md",
+        "docs/learn-smb-docs/business-central/admin-manage-fabric-export.md",
+        "docs/learn-smb-docs/business-central/admin-monitor-fabric-export.md",
+        "docs/learn-devitpro/dev-itpro/developer/devenv-extract-data.md",
+        "docs/learn-devitpro/dev-itpro/ai/create-agent-in-copilot-studio.md",
+        "docs/learn-devitpro/dev-itpro/ai/configure-mcp-server.md"
+      ],
+      "system": "integration",
+      "member_hash": "42cc0d988f0156676d6a3cfcee8d9329385994d3755fd37b882900698b93107d"
+    },
+    {
+      "id": "topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator",
+      "title": "Administrator",
+      "toc": "dev-itpro/TOC.md",
+      "breadcrumb": [
+        "Integration",
+        "Integrating with Microsoft Fabric"
+      ],
+      "parent": "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
+      "children": [],
+      "members": [
+        "docs/learn-smb-docs/business-central/admin-set-up-fabric-mirroring.md",
+        "docs/learn-smb-docs/business-central/admin-manage-fabric-export.md",
+        "docs/learn-smb-docs/business-central/admin-monitor-fabric-export.md"
+      ],
+      "system": "integration",
+      "member_hash": "c75fcd95b22e2ca7ed759dd8d2b67d91b5fdbcc2c5d0532d356a55493a36afb4"
+    },
+    {
+      "id": "topic/dev-itpro/integration/integrating-with-microsoft-fabric/integrating-with-microsoft-copilot-studi",
       "title": "Integrating with Microsoft Copilot Studio",
       "toc": "dev-itpro/TOC.md",
       "breadcrumb": [
         "Integration",
-        "Integrating with Microsoft Power Platform"
+        "Integrating with Microsoft Fabric"
       ],
-      "parent": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor",
+      "parent": "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
       "children": [],
       "members": [
         "docs/learn-devitpro/dev-itpro/ai/create-agent-in-copilot-studio.md",

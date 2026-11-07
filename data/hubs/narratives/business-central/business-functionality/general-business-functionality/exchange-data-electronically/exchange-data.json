@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/general-business-functionality/exchange-data-electronically/exchange-data",
-  "input_hash": "b211df3a03f862799d98a8550ad4abc9febebf330df2edd52bc88352a38dff5b",
-  "summary": "Exchange data covers how Business Central exchanges data with external files and services: data exchange definitions, bank payment file export and import, SEPA credit transfer and direct debit, Yodlee bank feeds, and sending, receiving and OCR conversion of electronic documents. It answers setup and field-mapping questions.",
-  "overview": "This area explains the data exchange framework and the business tasks built on it. The framework lets you define how data is mapped between Business Central and external files in XML, delimited, fixed-width or JSON formats, using line and column definitions, field mapping and transformation rules. The framework and related areas must be set up before any exchange is processed.\n\nThe other pages apply it to specific tasks. For payments: paying vendors by SEPA credit transfer (EU) or AMC Banking 365 Fundamentals (US), collecting customer payments by SEPA direct debit, importing SEPA CAMT bank files, and automatic bank statement import through Yodlee bank feeds. For documents: sending PEPPOL invoices and credit memos, receiving and converting PEPPOL and OCR documents into purchase documents, and using an OCR service to turn PDFs into e-invoices.\n\nStart with \"Exchanging data\" for the overview, then \"Define how data is exchanged electronically\" for the framework. Move to the payment or document page that fits your task. The two field-mapping pages are reference material for bank export and CAMT import.",
+  "input_hash": "2467e4e8d833a5ccdf92f0946572a3d401f3f10ddd92fecf5200ed759a0763be",
+  "summary": "Electronic data exchange in Business Central: data exchange definitions, bank file import and export (SEPA, AMC Banking 365 Fundamentals, Yodlee feeds), SEPA direct debit, and sending or receiving PEPPOL and OCR e-documents. It answers setup and field-mapping questions for these tasks.",
+  "overview": "This section covers how Business Central exchanges data with external files and services. The base is the data exchange framework: definitions in XML, delimited, fixed-width, or JSON formats, with line and column definitions, field mapping, and transformation rules. The \"Exchanging data\" page gives the general picture and notes that the framework and related areas must be set up before processing.\n\nThe other pages apply the framework to business tasks. For banking, there are pages on vendor payments by SEPA Credit Transfer or AMC Banking 365 Fundamentals, SEPA Direct Debit collections with mandates, Yodlee bank feeds, and field mappings for payment file export and SEPA CAMT import. For documents, there are pages on sending PEPPOL invoices and credit memos, receiving and converting PEPPOL and OCR documents, and using OCR to turn PDFs into e-invoices.\n\nStart with \"Exchanging data\" and \"Define how data is exchanged electronically\", then go to the page for your task. Check the version notes: sending e-documents is described for versions before 2023 release wave 2, and receiving and converting is described for 2023 release wave 2.",
   "key_points": [
-    "Data exchange definitions support XML, delimited, fixed-width and JSON, with column and line definitions, field mapping, transformation rules, XML schema support and field grouping.",
-    "Vendor payments can be exported in SEPA Credit Transfer format (EU) or via the AMC Banking 365 Fundamentals extension (US), with credit transfer registration and export history tracking.",
-    "A reference page maps Business Central bank accounts, general journal lines, customers and vendors (including IBAN and SWIFT) to the AMC payment export file.",
-    "SEPA Direct Debit collects customer payments in EURO; it needs a bank export format, payment methods, mandates and collection entries, then an exported XML file for the bank.",
-    "SEPA CAMT import mapping supports bank statement import and payment reconciliation, including transaction ID verification and automatic payment application.",
-    "Yodlee bank feeds import bank statements into the Payment Reconciliation Journal about every two hours, in supported regions.",
-    "Receiving PEPPOL and OCR invoices and credit memos into purchase documents uses text-to-account mapping; this page is tagged 2023 release wave 2.",
-    "Sending PEPPOL sales invoices and credit memos through a document exchange service is documented for versions before 2023 release wave 2."
+    "Data exchange definitions support XML, delimited, fixed-width, and JSON files, with line definitions, column definitions, field mapping, transformation rules, and field grouping.",
+    "Vendor payments can be made by exporting SEPA Credit Transfer files or by using the AMC Banking 365 Fundamentals extension (US/EFT).",
+    "A field mapping page covers export to bank payment files with AMC Banking 365 Fundamentals, including IBAN and SWIFT code mapping from bank accounts, journal lines, customers, and vendors.",
+    "A field mapping page covers SEPA CAMT import for bank statements and payment reconciliation, including transaction ID verification and automatic payment application.",
+    "SEPA Direct Debit collects customer payments in EURO and needs export formats, payment methods, and mandates. Collection entries are exported as XML to the bank.",
+    "Yodlee bank feeds import bank statements into the Payment Reconciliation Journal about every two hours in supported regions.",
+    "Receiving PEPPOL and OCR invoices and credit memos creates purchase documents, using text-to-account mapping, and is described for 2023 release wave 2.",
+    "Sending PEPPOL sales invoices and credit memos through a document exchange service is described for pre-2023 release wave 2 versions."
   ],
   "members_used": 10,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:04:58.338Z",
+  "at": "2026-11-07T01:05:36.822Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.018567
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:19:58.610Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the 'Exchanging data' page lists currency exchange rates as a feature, but the narrative leaves it out. Adding it is optional.",
-      "Minor: in the key point '(including IBAN and SWIFT)', the parenthesis could be read as covering customers and vendors only. The page lists IBAN and SWIFT mapping as general features of the AMC export mapping, so the claim still holds."
-    ],
-    "input_hash": "b211df3a03f862799d98a8550ad4abc9febebf330df2edd52bc88352a38dff5b",
-    "cost_usd": 0.0421592
+    "cost_usd": 0.021916
   }
 }

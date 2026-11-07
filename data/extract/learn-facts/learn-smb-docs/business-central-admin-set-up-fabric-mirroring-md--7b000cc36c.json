@@ -1,42 +1,42 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/admin-set-up-fabric-mirroring.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring",
-  "title": "Set up Business Central data mirroring to Microsoft Fabric",
-  "blob": "3cad987b6bf7639053ba2a65ca50199970541372",
+  "title": "Set Up Business Central Data Mirroring to Microsoft Fabric",
+  "blob": "26b1af1bf1bf5ec35ef416c621c3ab3578eedd35",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "status",
-      "text": "Production-ready preview planned to become available in October 2026. Delivery timing and functionality might change. Subject to supplemental terms of use."
+      "text": "Data mirroring setup is in preview and requires the Microsoft Fabric Mirroring extension on a compatible Business Central online environment."
     },
     {
       "kind": "prerequisite",
-      "text": "Business Central 2026 release wave 2, version 29.0 or later required."
+      "text": "Your user must have the MS Fabric Mirroring - Admin permission set or equivalent permissions in Business Central."
     },
     {
       "kind": "prerequisite",
-      "text": "Microsoft Fabric Mirroring extension must be installed from Microsoft Marketplace."
+      "text": "The Fabric destination workspace must be assigned to an active capacity, and you must have at least Member role in it."
     },
     {
       "kind": "prerequisite",
-      "text": "Data encryption must be enabled. Business Central stores the app client secret in encrypted isolated storage."
+      "text": "The Fabric workspace must be in the same Microsoft Entra tenant as your Business Central environment."
     },
     {
-      "kind": "prerequisite",
-      "text": "User must have MS Fabric Mirroring - Admin permission set or equivalent permissions to set up mirroring."
+      "kind": "step",
+      "text": "Create an open mirrored database in Microsoft Fabric by signing in, selecting the workspace, opening Create, selecting Mirrored Database and Other, then entering a name."
     },
     {
-      "kind": "prerequisite",
-      "text": "Dedicated app registration in Microsoft Entra ID required. Must provide application client ID, client secret, and service-principal object ID during setup."
+      "kind": "fact",
+      "text": "Business Central uses the Microsoft-provided Dynamics 365 Business Central Fabric Export application (client ID dcc80069-ba40-4ad9-ba8c-60001cea3497) for authentication."
     },
     {
-      "kind": "prerequisite",
-      "text": "Access to active Microsoft Fabric capacity required. User must be Member or Admin of Fabric workspace to add mirroring service principal."
+      "kind": "step",
+      "text": "Create a service principal for the app in your Microsoft Entra tenant using Azure Cloud Shell, Azure CLI, Microsoft Graph PowerShell, or Graph Explorer."
     },
     {
-      "kind": "prerequisite",
-      "text": "Fabric workspace must be in same Microsoft Entra tenant as Business Central environment."
+      "kind": "step",
+      "text": "Grant the service principal at least Contributor access to the Fabric workspace either during Business Central setup or directly in Fabric."
     }
   ],
   "dropped": 0,
@@ -44,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006355,
-      "pages_in_call": 7
+      "cost_usd": 0.007238,
+      "pages_in_call": 5
     }
   ]
 }

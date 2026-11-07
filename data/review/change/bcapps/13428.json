@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/13428",
+  "input_hash": "5801da31f823cb41e8589605987aa9d2dc6246816c1927bd6cef2f6bf344d1dc",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-07T01:03:56.773Z",
+  "issues": [
+    "Key point said Finish applies 'the lesser of Sample Size or Quantity (Base)'; actually it applies Sample Size when above 0, otherwise Quantity (Base), capped at Quantity (Base).",
+    "Key point said stored negative Sample Size values are treated as 0; the description says a negative template Sample Fixed Amount is treated as 0, and existing negative Sample Size values are not migrated."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032335,
+    "changes_in_call": 6
+  }
+}

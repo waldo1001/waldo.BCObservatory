@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T23:46:31.368Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-11-07T00:15:21.625Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -81,7 +81,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:50:05.494Z"
+  probed_at: "2026-11-07T00:57:20.897Z"
 ---
 
 # BC Friday Tips #81 Keep BCContainerHelper Up to Date

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:32.692Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,28 +21,28 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-agent-known-senders
     title: Manage known senders for Payables Agent
-    date: "2026-10-02"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/faqs-payables-agent
     title: Payables Agent Frequently Asked Questions
-    date: "2026-10-02"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-agent
     title: Payables Agent Overview in Business Central
-    date: "2026-10-02"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-agent-setup
     title: Set Up Payables Agent in Business Central
-    date: "2026-10-02"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
@@ -134,9 +134,11 @@ Start with the overview to understand the workflow, then follow the setup page. 
 ## Learn pages
 
 - [Manage known senders for Payables Agent](https://learn.microsoft.com/dynamics365/business-central/payables-agent-known-senders): Manage per-sender email review policies for the Payables Agent to automatically approve or reject emails from trusted or unwanted vendors.
-- [Payables Agent Frequently Asked Questions](https://learn.microsoft.com/dynamics365/business-central/faqs-payables-agent): Learn how AI automates purchase invoice creation in Business Central, including setup, capabilities, limitations, and responsible use.
-- [Payables Agent Overview in Business Central](https://learn.microsoft.com/dynamics365/business-central/payables-agent): Payables Agent automates vendor invoice processing in Business Central. Speed up accounts payable, reduce bottlenecks, and simplify invoice management.
-- [Set Up Payables Agent in Business Central](https://learn.microsoft.com/dynamics365/business-central/payables-agent-setup): Payables Agent lets you automate vendor invoice processing in Business Central. Follow these steps to activate, configure, and manage user access.
+- [Payables Agent Frequently Asked Questions](https://learn.microsoft.com/dynamics365/business-central/faqs-payables-agent): Learn how Payables Agent creates purchase invoices and credit memos in Business Central, including review controls, limitations, and responsible use.
+- [Payables Agent Overview in Business Central](https://learn.microsoft.com/dynamics365/business-central/payables-agent): Payables Agent automates vendor invoice and credit note processing in Business Central. Review purchase drafts and prepare invoices and credit memos for posting.
+  - In the observatory: [Page 6105 "Inbound E-Documents"](../../../objects/page/6105.md), [Page 9308 "Purchase Invoices"](../../../objects/page/9308.md), [Page 9309 "Purchase Credit Memos"](../../../objects/page/9309.md)
+- [Set Up Payables Agent in Business Central](https://learn.microsoft.com/dynamics365/business-central/payables-agent-setup): Set up Payables Agent to process vendor invoices and credit notes in Business Central. Activate the agent, configure email monitoring, and manage user access.
+  - In the observatory: [Page 460 "Purchases & Payables Setup"](../../../objects/page/460.md)
 - [Supervise Agent Activities in Business Central](https://learn.microsoft.com/dynamics365/business-central/supervise-agent-tasks): Review agent-generated documents, approve AI suggestions, give instructions to agents, and manage tasks in Business Central.
 
 ## Videos, posts and code changes

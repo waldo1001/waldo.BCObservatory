@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/united-states
 type: topic
 title: United States
-summary: "United States local functionality in Business Central: tax (sales tax, use and purchase tax, unrealized sales tax, IRS 1099 and 1096 forms), banking and payments (deposits, bank reconciliation, vendor payment export), and a troubleshooting reports page. It answers setup and compliance questions for US companies."
+summary: "United States local functionality in Business Central: tax (sales tax, use and purchase tax, unrealized sales tax, IRS 1099 and 1096 forms), banking and payments (deposits, bank reconciliation, vendor payments), and printing troubleshooting reports. It answers setup and compliance questions for US companies."
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:01:41.836Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 2c428df32be60f23de3a702df61fa475f2beb7e93bb166c3c455accf1232ab5c
+  input_hash: f3073c5424b692fe836e92df82dc04b216d5b908915c6446b94615d7fb25ad7d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/us-tax-setup
@@ -77,7 +77,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
     title: Make payments with AMC banking (US) or SEPA credit transfer (EU)
-    date: "2024-08-26"
+    date: "2026-09-09"
     commit: null
     t: null
     quote: null
@@ -243,28 +243,28 @@ narrative: generated
 
 # United States
 
-> United States local functionality in Business Central: tax (sales tax, use and purchase tax, unrealized sales tax, IRS 1099 and 1096 forms), banking and payments (deposits, bank reconciliation, vendor payment export), and a troubleshooting reports page. It answers setup and compliance questions for US companies.
+> United States local functionality in Business Central: tax (sales tax, use and purchase tax, unrealized sales tax, IRS 1099 and 1096 forms), banking and payments (deposits, bank reconciliation, vendor payments), and printing troubleshooting reports. It answers setup and compliance questions for US companies.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > United States · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > United States · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers features specific to the US version of Business Central. The main page, United States local functionality, lists the topics: basic tax setup, sales tax reporting, use tax and purchase tax, unrealized sales tax, sales payment discounts and IRS 1099 forms. It also mentions the 2027 release wave 1.
+This section covers features specific to the US version of Business Central. The landing page, "United States local functionality", lists the main areas: basic tax setup, sales tax reporting, use tax and purchase tax, unrealized sales tax, sales payment discounts and IRS 1099 forms. It mentions the 2027 release wave 1.
 
-Two subtopics hold the detail. Tax has 11 pages on sales tax setup (tax groups, jurisdictions, areas, details), use and purchase tax, unrealized sales tax, and IRS 1099 and 1096 setup, tracking, reporting and submission. Banking & payments has 3 pages on creating deposits, reconciling bank accounts with the Bank Rec. Worksheet, and exporting vendor payments through AMC Banking 365 Fundamentals or SEPA credit transfer.
+Two subtopics hold the detailed pages. Tax (11 pages) covers sales tax setup with tax groups, jurisdictions, areas and details, use and purchase tax, unrealized sales tax, and the setup, tracking, reporting and submission of IRS 1099 and 1096 forms. Banking & payments (3 pages) covers creating deposits, reconciling bank accounts with the Bank Rec. Worksheet, and paying vendors through AMC Banking 365 Fundamentals or SEPA credit transfer.
 
-Start with the main page for orientation. Then go to Tax for setup and compliance questions, or to Banking & payments for bank workflows. The page on printing troubleshooting reports is for diagnosing issues in the US localization.
+A separate page explains how to print troubleshooting reports for the US localization, which is useful when diagnosing issues. Start with the landing page for orientation, go to Tax for compliance setup, and go to Banking & payments for bank tasks.
 
 ## Key points
 
-- Sales tax setup uses tax groups, jurisdictions, areas and details.
-- Use tax and purchase tax, and unrealized sales tax, are covered in the Tax subtopic.
+- Sales tax setup uses tax groups, jurisdictions, areas and tax details.
+- Use tax, purchase tax and unrealized sales tax are covered under Tax.
 - IRS 1099 and 1096 forms: setup, tracking, reporting and submission.
-- Sales payment discounts are listed among the US local features.
-- Deposits can be created and bank accounts reconciled with the Bank Rec. Worksheet.
-- Vendor payments can be exported through AMC Banking 365 Fundamentals or SEPA credit transfer.
-- A US-specific page explains how to print troubleshooting reports for diagnosing issues.
-- The main page references 2027 release wave 1.
+- Landing page also lists sales payment discounts and sales tax reporting.
+- Deposits can be created in the US localization.
+- Bank accounts are reconciled with the Bank Rec. Worksheet.
+- Vendor payments can be made through AMC Banking 365 Fundamentals or SEPA credit transfer.
+- A dedicated page explains how to print troubleshooting reports for the US.
 
 ## Subtopics
 

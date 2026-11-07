@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:00:05.382Z"
   flags: []
 generated:
-  at: "2026-10-30T08:03:27.657Z"
+  at: "2026-11-07T01:00:13.982Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -148,6 +148,11 @@ links:
       title: Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order
       label: possibly related
       why: both name Page 50 "Purchase Order"
+      by: code
+    - to: https://learn.microsoft.com/dynamics365/business-central/finance-how-use-edocuments-purchase
+      title: Use E-Documents in the purchase process
+      label: possibly related
+      why: names Page 6122 "E-Documents"
       by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/electronic-reporting-france
       title: Use the E-Document Format for E-Reporting [FR]
@@ -351,6 +356,7 @@ No source states these links: they share an object, a model read them, or a pers
 
 - [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 50 "Purchase Order"
 - [Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order](../posts/thedynamicsexplorer-com/9815.md) — possibly related: both name Page 50 "Purchase Order"
+- [Use E-Documents in the purchase process](https://learn.microsoft.com/dynamics365/business-central/finance-how-use-edocuments-purchase) — possibly related: names Page 6122 "E-Documents"
 - [Use the E-Document Format for E-Reporting \[FR\]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/electronic-reporting-france) — possibly related: names Page 6122 "E-Documents"
 - [What's new in SCM: Subcontracting (2026 release wave 2)](../videos/QdWPlIV3Avk.md) — possibly related: both name Page 50 "Purchase Order"
 - [What's New: Designing Generative AI Experiences (2024 Release Wave 1)](../videos/qP0id91bIlA.md) — possibly related: both name Page 50 "Purchase Order"

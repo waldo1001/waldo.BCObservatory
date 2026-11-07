@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:50:42.930Z"
+  at: "2026-11-07T00:52:53.800Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f0f89a8e04627a40a531b1f082edbf53ddf97d1417da40c0cc256cf956b8c4a2
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOACustomerCard.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOACustomerCard.PageCust.al
     title: src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOACustomerCard.PageCust.al (releases/29.x)
     date: null
-    commit: 7af2f8d2e22b684ec7b2455c7baf1007da944ac5
+    commit: 2f228f96c8a299e26ab425fe4d5fc937ebe8d385
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Page customization "SOA Customer Card" in SalesOrderAgent (Microsoft.Agent.SalesOrderAgent). Introduced in BC29, still in BC30.
 
-SalesOrderAgent · Microsoft.Agent.SalesOrderAgent · BC29-30 · [source at 7af2f8d2](https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOACustomerCard.PageCust.al) · facts from BC29
+SalesOrderAgent · Microsoft.Agent.SalesOrderAgent · BC29-30 · [source at 2f228f96](https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOACustomerCard.PageCust.al) · facts from BC29
 
 ## Across versions
 

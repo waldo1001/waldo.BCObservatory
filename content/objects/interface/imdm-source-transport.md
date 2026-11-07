@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:50:42.930Z"
+  at: "2026-11-07T00:52:53.800Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d363cbf171ac9480c4391a0bca76932cf67fa88ade5938404e5e357d1aa4d50d
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMSourceTransport.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMSourceTransport.Interface.al
     title: src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMSourceTransport.Interface.al (releases/29.x)
     date: null
-    commit: 7af2f8d2e22b684ec7b2455c7baf1007da944ac5
+    commit: 2f228f96c8a299e26ab425fe4d5fc937ebe8d385
     t: null
     quote: null
 links:
@@ -78,7 +78,7 @@ relations:
 
 > Interface "IMDM Source Transport" in MasterDataManagement (Microsoft.Integration.MDM). 3 public procedures. Introduced in BC29, still in BC30.
 
-MasterDataManagement · Microsoft.Integration.MDM · BC29-30 · [source at 7af2f8d2](https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMSourceTransport.Interface.al) · facts from BC29
+MasterDataManagement · Microsoft.Integration.MDM · BC29-30 · [source at 2f228f96](https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/W1/MasterDataManagement/app/src/interfaces/IMDMSourceTransport.Interface.al) · facts from BC29
 
 ## Properties
 

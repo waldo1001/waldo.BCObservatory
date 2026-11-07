@@ -12,7 +12,7 @@ review:
   at: "2026-10-30T08:08:51.761Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,6 +79,7 @@ links:
   guidelines: []
   changes:
     - change/bcquality/210
+    - change/bcquality/256
 learn_toc_path:
   - Development
   - Extension lifecycle
@@ -138,6 +139,7 @@ For the technical side, the Upgrading Extensions page describes writing upgrade 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#210 knowledge(upgrade): upgrade code must not use ChangeCompany](../../../../changes/bcquality/210.md) (code change): "upgrade code must not use ChangeCompany. New quality rule and knowledge article prevent upgrade code from using ChangeCompany"
+- [#256 Fixtures: make two samples comply with the sibling articles they trip](../../../../changes/bcquality/256.md) (code change): "Moved upgrade tag registration into a dedicated codeunit with subscriber methods"
 - [Business Central 2025 wave 2 (BC27): UpdateAuditFields Method on DataTransfer is now in Cloud scope](../../../../posts/yzhums-com/67809.md) (community post): "UpdateAuditFields method on DataTransfer was previously OnPrem-only, now available in Cloud scope"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

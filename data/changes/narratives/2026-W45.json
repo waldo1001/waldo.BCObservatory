@@ -1,23 +1,23 @@
 {
   "week": "2026-W45",
-  "input_hash": "a8e2483686570a0a3f32f916233bbc13c333de514e8f4bcf7c7cabc6f8563cd6",
-  "text": "The one breaking change this week is #13172 in BCApps: the old record-based GetLogEntryDetails method on Agent Task is removed, GetTaskLogEntryDetails overloads replace it, and AI Eval run data can be exported in structured form. Other behaviour changes are mostly fixes. In posting and finance, #13642 keeps work descriptions on prepayment documents, #13396 fixes partial purchase invoicing across receipts, #13547 and #13417 stop wrong sales order quantity updates after return orders, #13488 corrects ACY amounts when applying across posting groups, and #13336 fixes reminder creation when all entries are on hold. Localization fixes cover NL (#13630), Belgium (#13481, #13484), Switzerland (#13273, #13301) and French payment slips (#13472, #11596). Expense Agent received several fixes and additions, including #12985, #13185, #13460 and #13504. Sales Order Agent changes include #13599, #13469 and a move to GPT-5.6 in #13495, and #13506 does the same for three Copilot features. Quality Management gained #13427, #13560 and #13325. Smaller items include #13579 for the event record context, #13438 for cloud migration recovery and #9527, which removes internal access from E-Document Emailing. BCQuality changes are mainly guidance, such as #255 and #264.",
-  "changes": 55,
+  "input_hash": "0e5cfc3bfc97b5da89d22abc8bfe7fb4bcf5fa63a9fd302fd96c8e0f07900a80",
+  "text": "The one breaking change this week is #13172 in BCApps: Agent Task gains public GetTaskLogEntryDetails overloads, the record-based GetLogEntryDetails method is removed, and AI Eval run data can be exported in structured form. Other behaviour changes cluster in a few areas. Expense Agent got #13721, which creates per diem lines on approval, plus #13569, #13504, #13182 and #13184, while #12985, #13185, #13460 and #12910 fix submission, rounding, filter and email validation problems. Sales Order Agent and AI features moved to GPT-5.6 in #13495 and #13506. Posting and finance fixes include #13547 and #13417 for return orders and sales order quantities, #13396 for partial purchase invoicing, #13459 and #13488 for additional reporting currency, #13397 for Indian depreciation, and #13642 for work descriptions on prepayments. #11256 adds setup options for restoring order quantities on returns, both on by default. Quality Management received validation fixes in #13428, #13429 and #13427. Localization fixes cover French payment slips (#11596, #13472), Belgian Intervat (#13481, #13484) and Swiss SEPA exports (#13273, #13301). In AL-Go, #2440 and #2433 fix release artifact selection and versioning strategy 3. #13725 reduces repeated reads in inventory cost adjustment, and #13065 and #9527 open E-Document objects to extension.",
+  "changes": 71,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.057858,
-  "at": "2026-11-06T00:17:27.413Z",
+  "cost_usd": 0.073548,
+  "at": "2026-11-07T00:15:21.625Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-06T01:00:37.488Z",
+    "at": "2026-11-07T01:04:23.989Z",
     "verdict": "approve",
     "issues": [
-      "#13495 moves only the Sales Order Agent's auxiliary model calls to GPT-5.6. 'a move to GPT-5.6' could say this more precisely.",
-      "#9527 is not flagged as a behaviour change. It is listed under 'Smaller items', so the text holds up, but it comes straight after the behaviour-change lists.",
-      "The Quality Management items (#13427, #13560, #13325) are named without saying what they do. A short description of each would make the paragraph more useful."
+      "#13427 asks for confirmation before finishing a re-inspection rather than adding validation, so 'validation fixes' fits #13428 and #13429 better than #13427.",
+      "#13725, #13065 and #9527 are not flagged as behaviour changes. They come after the sentence 'Other behaviour changes cluster in a few areas', so a reader could take them for behaviour changes. They are described correctly, though.",
+      "#13182 and #13184 are the same 'View rules' link change on two branches (Master and 29.x). The paragraph lists them without saying what they do, which is acceptable but less informative."
     ],
-    "input_hash": "a8e2483686570a0a3f32f916233bbc13c333de514e8f4bcf7c7cabc6f8563cd6",
-    "cost_usd": 0.143012,
+    "input_hash": "0e5cfc3bfc97b5da89d22abc8bfe7fb4bcf5fa63a9fd302fd96c8e0f07900a80",
+    "cost_usd": 0.175888,
     "applied": [],
     "rejected_edits": []
   }

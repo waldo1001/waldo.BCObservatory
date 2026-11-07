@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -252,7 +252,9 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/11256
     - change/bcapps/12538
+    - change/bcapps/13642
 learn_toc_path:
   - Business functionality
   - Set up Business Central
@@ -383,7 +385,9 @@ Start with the overview page, then register customers and set up pricing. Move o
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11256 [main] Add setup option to restore Sales and Purchase Order quantities when posting returns](../../../../changes/bcapps/11256.md) (code change): "setup option to restore Sales and Purchase Order quantities when posting returns"
 - [#12538 Remove CLEAN27 for Create Item from Item No. setup fields](../../../../changes/bcapps/12538.md) (code change): "Removes CLEAN27 code for the Create Item from Item No. fields in tables 311 and 312"
+- [#13642 Preserve work descriptions on posted sales prepayment documents](../../../../changes/bcapps/13642.md) (code change): "Posting sales prepayment invoices and credit memos now loads the order's Work Description"
 - [Comparing Classes and Templates between Dynamics SL and Dynamics 365 Business Central](../../../../videos/cc6rEVDhlzs.md) (video): "Customer templates in Business Central"
 - [Warn Salespeople That a Product Will Soon be Out of Stock](../../../../videos/gBB0elWQWM8.md) (video): "Stock out warning on sales lines; Stock out warning toggle"
 - [Comparing Classes and Templates between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/tP-0VcN7fcU.md) (video): "Customer templates; Posting groups in customer templates"

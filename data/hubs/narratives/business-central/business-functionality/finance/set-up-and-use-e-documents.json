@@ -1,39 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
-  "input_hash": "eab143d7c707c507001798b92afbfffcb22922b0c74ad47127a6d8d88265758a",
-  "summary": "E-Documents in Business Central covers setting up the E-Documents app and services, connecting to external access points and Microsoft 365, and using e-documents in sales and purchasing. It answers questions about setup, connectors, Peppol formats, status tracking, matching incoming documents, and extending the framework.",
-  "overview": "The E-Documents app manages electronic invoices and other business documents in Business Central. It supports localizations for several countries and has extension points for specific requirements. Start with the overview page, then read \\\"Set Up E-documents\\\". That page covers the E-Documents Service, document sending profiles, the PEPPOL BIS 3.0 format, and the clearance model used in countries such as Spain, India, Mexico, and Italy.\\n\\nThree pages cover connections. One explains connecting to external access points (Pagero, Avalara, Logiq, ExFlow, B2BRouter). Another covers installing the E-Document Core app and connector apps from Microsoft Marketplace, then configuring services, GLN, customers, and workflows for non-Microsoft endpoints. A third covers connecting Outlook, SharePoint, and OneDrive to import vendor invoices and receipts.\\n\\nFor daily work, \\\"Use e-documents in sales\\\" covers creating and sending e-invoices and credit memos, sending them as email attachments, and checking status and logs. \\\"Use E-Documents in the purchase process\\\" covers receiving, matching, vendor setup, and error handling. Developers building localizations or ISV extensions should read \\\"Extending the e-documents functionality\\\".",
+  "input_hash": "c8be5df9a21a370981162ee0397d60d5ef69a0682fb7e65f5bf1edacb2880e94",
+  "summary": "E-Documents in Business Central: how to set up the E-Document Core app and services, connect to external access points and Microsoft 365, send e-documents from sales, receive them in purchasing, and extend the framework. It answers setup, connector, workflow and process questions.",
+  "overview": "E-Documents covers electronic document handling in Business Central. The E-Document Core app is the foundation. It supports sales and purchase documents, local compliance, document status messaging, and PDF analysis for vendor credit notes with Copilot.\n\nStart with the overview, then Set Up E-documents. That page covers the E-Documents Service, document sending profiles, workflows, data exchange definitions, Peppol format and the clearance model for countries such as Spain, Italy, Mexico and India. Next, choose a connection. You can use connectors for external access points (Pagero, Avalara, Logiq, ExFlow, B2BRouter), which are installed from Microsoft Marketplace. Or you can use Outlook, SharePoint and OneDrive to import vendor documents.\n\nFor daily work, one page covers sending e-invoices and credit memos from sales and checking status and logs. Another covers receiving vendor documents in purchasing and turning them into invoices, orders, credit memos or journal entries. Developers of localizations and ISV extensions can use the extending page for formats, service integration, async sending, batch processing and receiving.",
   "key_points": [
-    "The E-Documents app manages sales and purchase e-documents, tracks document status, and supports Peppol formats.",
-    "Setup covers the E-Documents Service, document sending profiles, data exchange, and automatic import and processing. A clearance model is described for countries such as Spain, India, Mexico, and Italy.",
-    "The listed connectors to external access points are Pagero, Avalara, Logiq, ExFlow, and B2BRouter, and they use OAuth 2.0 authentication.",
-    "Connecting to non-Microsoft endpoints requires the E-Document Core app and connector apps from Microsoft Marketplace, plus setup of GLN, customer e-documents, and workflows.",
-    "Microsoft 365 connectors (Outlook, SharePoint, OneDrive) import vendor invoices and receipts for accounts payable, using E-Document Services and Service Integration V2.",
-    "In sales you can create and send e-invoices and credit memos in Peppol formats, view status and logs, and send documents as email attachments.",
-    "Purchasing supports invoices, orders, and credit memos, with automatic matching, purchase order matching with Copilot, text-to-account mapping, and item reference mapping.",
-    "The extension framework covers document format creation, service integration, async sending, batch processing, response handling, and document receiving. The page references 2025 release wave 1."
+    "The E-Document Core app is the foundation and supports multiple localizations.",
+    "Set up involves the E-Documents Service, sending profiles, workflows and data exchange definitions; the clearance model applies to countries such as Spain, Italy, Mexico and India.",
+    "External access point connectors include Pagero, Avalara, Logiq, ExFlow and B2BRouter, and use OAuth 2.0 authentication.",
+    "Connector setup needs the E-Document Core app plus connector apps from Microsoft Marketplace, and includes connection setup, GLN configuration, customer e-document setup and workflow configuration.",
+    "Outlook, SharePoint and OneDrive connectors import vendor invoices and receipts for accounts payable in online environments.",
+    "Sales supports creating and sending e-invoices and credit memos in Peppol formats, with status and log views and email attachment sending.",
+    "Purchasing receives e-documents automatically or by manual import, with vendor matching, error and warning handling, and optional AI-assisted matching with purchase orders.",
+    "The extensibility framework (2025 release wave 1) provides interfaces for document formats, service integration, async sending, batch processing, response handling and receiving."
   ],
   "members_used": 8,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-28T10:59:11.218Z",
+  "at": "2026-11-07T01:06:09.875Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.016993
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-28T11:02:25.424Z",
-    "verdict": "fix",
-    "issues": [
-      "Overview says \"Transmission needs a connector.\" The sources don't say that, and the sales page lists sending e-documents as email attachments. Reworded so connectors are presented as the way to reach access points, not a requirement for every transmission.",
-      "Key point 2 says the clearance model \"applies to Spain, India, Mexico, and Italy\", which reads as a complete list. The source says \"countries like\" these, so it's now worded as examples.",
-      "Key point 8 attaches \"2025 release wave 1\" to the whole extension framework. The source only lists it as a version reference on the page. Reworded to say the page references that release instead of tying every feature to it.",
-      "Minor: Copilot mapping from the overview page and version 24.0 from the setup page are left out. Both omissions are acceptable."
-    ],
-    "input_hash": "eab143d7c707c507001798b92afbfffcb22922b0c74ad47127a6d8d88265758a",
-    "cost_usd": 0.059267200000000006
+    "cost_usd": 0.016689
   }
 }

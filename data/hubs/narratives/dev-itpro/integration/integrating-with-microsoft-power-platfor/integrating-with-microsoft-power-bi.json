@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi",
-  "input_hash": "f348502af655a481de6f2d6b08223c7286ca09f068d59672f262c7134bcfe937",
-  "summary": "Power BI integration with Business Central: how to expose and extract Business Central data, build reports in Power BI Desktop, embed reports in Business Central pages, and tune dataset load performance. It answers setup, report-building, embedding, extraction and performance questions.",
-  "overview": "This section covers the ways Business Central and Power BI work together. Data is exposed through API pages and OData web services. Power BI can then use it through the Power Query connector, Power BI apps for Business Central, dataflows and datamarts, or Power BI Desktop. Reports can also be embedded in Business Central pages.\n\nThe pages fit together by role. The introduction gives the overall picture. The Administrator subtopic covers enabling the integration (licensing, API pages, OData web services, online and on-premises setup) and the architecture. The Report creator subtopic covers building reports with the connector, APIs and OData, and preparing reports for Power BI FactBoxes on list pages.\n\nOther pages cover embedding reports, scorecards and dashboards with the Power BI embed framework, extracting data (ETL, historical and delta loads), and improving dataset load performance. Start with the introduction. Administrators should then go to the Administrator pages, and report authors to the Report creator pages.",
+  "input_hash": "26854007c6e2cdf47ca5c7dc63c07af43be07e00c9ed2be9735cafe14cd81421",
+  "summary": "Power BI integration with Business Central: how to enable it, build reports on Business Central data, embed reports in pages, extract data to warehouses, and tune dataset load performance. It answers setup, report authoring, embedding and performance questions.",
+  "overview": "This section covers the ways Business Central and Power BI work together. Data can be retrieved into Power BI through the Power Query connector, API pages and OData web services, and reports can be shown inside Business Central pages. The introduction page describes the options, including Power BI apps for Business Central, embedded reports, Power BI Desktop, dataflows and datamarts.\n\nThe pages split by role. The Administrator subtopic covers enabling the integration (licensing, API pages, OData web services, online and on-premises setup) and the architecture. The Report creator subtopic covers building reports in Power BI Desktop and preparing them for Power BI FactBoxes on list pages. Separate pages cover embedding reports, scorecards and dashboards with the Power BI embed framework, extraction methods for data warehouses or lakes, and dataset load performance.\n\nStart with the introduction to see the options. Administrators then follow the Administrator pages, and report creators follow the Report creator pages. Use the performance and data extraction pages when volumes grow or data must move to external stores.",
   "key_points": [
-    "Business Central data reaches Power BI through API pages and OData web services, the Power Query connector, Power BI apps, dataflows and datamarts.",
-    "Administrator pages cover licensing, enabling API pages and OData web services, online and on-premises setup, and the integration architecture.",
-    "Report creators build reports in Power BI Desktop and can prepare them to show in Power BI FactBoxes on list pages.",
-    "Reports, scorecards and dashboards can be embedded in pages using the Power BI embed framework, such as the Power BI Embedded Report Part and Power BI Element Addin Host pages.",
-    "Embedding uses context keywords and the SetCurrentListSelection and SetPageContext methods.",
-    "Data extraction supports ETL with historical loads and delta loads. Delta loads use API queries filtered on SystemModifiedAt, with read scale-out and tools like Azure Data Factory and Power BI dataflows.",
+    "The introduction describes retrieving Business Central data through the Power Query connector, API pages and OData, plus Power BI apps, dataflows and datamarts.",
+    "Administrator pages cover licensing, API pages, OData web services, and online and on-premises enablement, plus the architecture.",
+    "Report creator pages cover building reports in Power BI Desktop and preparing reports for Power BI FactBoxes on list pages.",
+    "Embedding uses the Power BI embed framework (pages such as Power BI Embedded Report Part and Power BI Element Addin Host) for reports, scorecards and dashboards.",
+    "Embedding supports context keywords and methods such as SetCurrentListSelection and SetPageContext.",
+    "Data extraction methods include ETL, API-based delta extraction with read scale-out and systemModifiedAt filtering, Azure Data Factory, Power BI dataflows, Microsoft Fabric mirroring and BACPAC export.",
     "To improve dataset load performance, load only the data you need through APIs and web service endpoints.",
     "Web service telemetry lets you monitor usage, performance and errors."
   ],
   "members_used": 4,
   "subtopics_used": 2,
   "prompt_version": 1,
-  "at": "2026-11-05T00:54:42.136Z",
+  "at": "2026-11-07T01:06:09.619Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.014021
+    "cost_usd": 0.014543
   }
 }

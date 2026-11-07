@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:00:59.767Z"
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -154,7 +154,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/match-purchase-invoice-drafts-to-orders
     title: Match Purchase Invoice Drafts to Purchase Orders
-    date: "2026-09-27"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
@@ -439,6 +439,7 @@ links:
     - change/bcapps/11134
     - change/bcapps/11149
     - change/bcapps/11161
+    - change/bcapps/11256
     - change/bcapps/11274
     - change/bcapps/11339
     - change/bcapps/11367
@@ -609,7 +610,7 @@ Start with "Overview of tasks to manage to purchase" for the map of capabilities
 - [Enter external document numbers](https://learn.microsoft.com/dynamics365/business-central/across-enter-external-document-numbers): Enter external document numbers for customers and vendors in sales and purchase orders, invoices, and credit memos. Use these numbers to easily find posted sales and purchase lines.
 - [External document numbers on purchase documents](https://learn.microsoft.com/dynamics365/business-central/purchasing-ext-doc-no): Learn how to record vendor-assigned document numbers using the External Document Number or Your Reference fields, and understand the differences between these options.
 - [Match Purchase Invoice Drafts to Purchase Orders](https://learn.microsoft.com/dynamics365/business-central/match-purchase-invoice-drafts-to-orders): Learn how to match incoming purchase invoice draft lines to purchase orders and receipts, review warnings, and prepare invoices for posting.
-  - In the observatory: [Page 460 "Purchases & Payables Setup"](../../../objects/page/460.md)
+  - In the observatory: [Table 312 "Purchases & Payables Setup"](../../../objects/table/312.md)
 - [Merge Duplicate Customers, Vendors, or Contacts](https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records): Merge duplicate customer, vendor, or contact records in Business Central, choose which field values to keep, and resolve conflicts in related records.
   - In the observatory: [Page 21 "Customer Card"](../../../objects/page/21.md), [Page 702 "Merge Duplicate"](../../../objects/page/702.md), [Page 704 "Merge Duplicate Conflicts"](../../../objects/page/704.md)
 - [Overview of tasks to manage to purchase](https://learn.microsoft.com/dynamics365/business-central/purchasing-manage-purchasing): Outlines tasks to manage your purchasing or procurement processes, including how purchase invoices and purchase orders work.
@@ -641,6 +642,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11134 [Main][All-E][Repair Item] Posted Purchase Invoice Order No. is blank when invoice rounding creates a generated line](../../../changes/bcapps/11134.md) (code change): "Posted Purchase Invoice Order No. is blank when invoice rounding"
 - [#11149 [BE][Purchase Ledger Report] Wrong VAT Amounts on the report](../../../changes/bcapps/11149.md) (code change): "Belgium-specific Purchase Ledger report now displays correct VAT"
 - [#11161 [29.x][BE][Purchase Ledger Report] Wrong VAT Amounts on the report](../../../changes/bcapps/11161.md) (code change): "Belgium-specific Purchase Ledger report now displays correct VAT"
+- [#11256 [main] Add setup option to restore Sales and Purchase Order quantities when posting returns](../../../changes/bcapps/11256.md) (code change): "control whether credit memo and invoice-correction operations restore quantities on originating sales and purchase orders"
 - [#11274 [Master]-[Drop shipment reversal] Undo Shipment fails with blank Bin Code at bin-mandatory location](../../../changes/bcapps/11274.md) (code change): "Undo Shipment fails with blank Bin Code at bin-mandatory location"
 - [#11339 Prevent order matching for invoice lines created by Get Receipt Lines](../../../changes/bcapps/11339.md) (code change): "Matched order line functionality now rejects invoice lines created through Get Receipt"
 - [#11367 [29.X][Repair Item][SaaS][Drop shipment reversal] Undo Shipment fails with blank Bin Code at bin-mandatory location](../../../changes/bcapps/11367.md) (code change): "Undo Shipment fails with blank Bin Code at bin-mandatory location"

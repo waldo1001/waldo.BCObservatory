@@ -12,7 +12,7 @@ review:
   at: "2026-11-06T01:02:04.545Z"
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -180,6 +180,20 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extract-data
+    title: Business Central Data Extraction Methods
+    date: "2026-10-28"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-fabric
+    title: Business Central Data Mirroring to Microsoft Fabric
+    date: "2026-10-29"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-dataverse/dynamics-dataverse-api
     title: Business Central Dataverse API Overview
     date: "2026-09-10"
@@ -284,20 +298,6 @@ evidence:
     commit: null
     t: null
     quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-analytics/resources/dynamics_contact
-    title: contact resource type
-    date: "2026-06-08"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-security-groups
-    title: Control Access Using Security Groups
-    date: "2026-04-07"
-    commit: null
-    t: null
-    quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/admin-integrate-field-service
@@ -358,6 +358,14 @@ links:
     - object/page/30135
     - object/page/30156
     - object/page/30157
+    - object/page/48508
+    - object/page/48509
+    - object/page/48510
+    - object/page/48511
+    - object/page/48512
+    - object/page/48513
+    - object/page/48515
+    - object/page/48519
   features: []
   topics:
     - topic/dev-itpro/integration/web-services
@@ -366,6 +374,7 @@ links:
     - topic/dev-itpro/integration/integrating-business-central-with-office
     - topic/dev-itpro/integration/integrating-with-microsoft-dataverse
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor
+    - topic/dev-itpro/integration/integrating-with-microsoft-fabric
     - topic/dev-itpro/integration/integrating-with-azure-services
     - topic/dev-itpro/integration/integrating-with-infrastructure-services
     - topic/dev-itpro/integration/integrating-with-shopify
@@ -401,12 +410,13 @@ children:
   - topic/dev-itpro/integration/integrating-business-central-with-office
   - topic/dev-itpro/integration/integrating-with-microsoft-dataverse
   - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor
+  - topic/dev-itpro/integration/integrating-with-microsoft-fabric
   - topic/dev-itpro/integration/integrating-with-azure-services
   - topic/dev-itpro/integration/integrating-with-infrastructure-services
   - topic/dev-itpro/integration/integrating-with-shopify
 coverage:
-  learn: 374
-  code: 54
+  learn: 378
+  code: 62
   video: 2
   blog: 0
   guideline: 0
@@ -469,7 +479,15 @@ bc_forms:
   - 30135
   - 30156
   - 30157
-member_hash: 2226963e73c268a710cccae6aa73500791d632882afecff9831f1cec7927c748
+  - 48508
+  - 48509
+  - 48510
+  - 48511
+  - 48512
+  - 48513
+  - 48515
+  - 48519
+member_hash: dba77327a5046d319e10fb05e5d556922eefa1f87bbc99bcf259368e11621269
 narrative: generated
 ---
 
@@ -501,7 +519,8 @@ Integration is the entry point for connecting Business Central to other systems.
 - [Integrating with external systems using events](integration/integrating-with-external-systems-using.md) (2 pages)
 - [Integrating Business Central with Office apps and Microsoft 365](integration/integrating-business-central-with-office.md) (16 pages)
 - [Integrating with Microsoft Dataverse](integration/integrating-with-microsoft-dataverse.md) (22 pages)
-- [Integrating with Microsoft Power Platform](integration/integrating-with-microsoft-power-platfor.md) (21 pages)
+- [Integrating with Microsoft Power Platform](integration/integrating-with-microsoft-power-platfor.md) (19 pages)
+- [Integrating with Microsoft Fabric](integration/integrating-with-microsoft-fabric.md) (7 pages)
 - [Integrating with Azure services](integration/integrating-with-azure-services.md) (5 pages)
 - [Integrating with infrastructure services](integration/integrating-with-infrastructure-services.md) (7 pages)
 - [Integrating with Shopify](integration/integrating-with-shopify.md) (4 pages)
@@ -511,7 +530,7 @@ Integration is the entry point for connecting Business Central to other systems.
 - [Integrate with Microsoft Dynamics 365 Field Service](https://learn.microsoft.com/dynamics365/business-central/admin-integrate-field-service): Integrate Business Central with Field Service.
 - [Integrating with Dynamics 365 Sales](https://learn.microsoft.com/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration): Learn how to get Dynamics 365 Business Central ready to integrate with Dynamics 365 Sales.
   - In the observatory: [Page 9349 "Sales Order Archives"](../../objects/page/9349.md), [Table 112 "Sales Invoice Header"](../../objects/table/112.md), [Table 113 "Sales Invoice Line"](../../objects/table/113.md), [Table 156 "Resource"](../../objects/table/156.md), [Table 204 "Unit of Measure"](../../objects/table/204.md), [Table 27 "Item"](../../objects/table/27.md)
-- [Integration overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/integration-overview): Find links to information about the ways you can integrate Business Central to products and services.
+- [Integration Overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/integration-overview): Explore Business Central integration patterns, including REST APIs, Microsoft Fabric mirroring, and built-in connections to other products and services.
 
 ## Videos, posts and code changes
 
@@ -551,9 +570,9 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 6316 "Sustainability Report Power BI"](../../objects/page/6316.md) · captioned "Sustainability Report (Power BI)" · via [Integrating with Microsoft Power Platform](integration/integrating-with-microsoft-power-platfor.md)
 - [Page 6317 "To Net Zero Carbon Power BI"](../../objects/page/6317.md) · captioned "Journey to Net Zero Carbon (Power BI)" · via [Integrating with Microsoft Power Platform](integration/integrating-with-microsoft-power-platfor.md)
 - [Page 7214 "CDS Companies"](../../objects/page/7214.md) · captioned "Dataverse Companies" · on [Table 5393 "CDS Company"](../../objects/table/5393.md) · via [Integrating with Microsoft Dataverse](integration/integrating-with-microsoft-dataverse.md)
-- [Page 8350 "MCP Config List"](../../objects/page/8350.md) · captioned "Model Context Protocol (MCP) Server Configurations" · via [Integrating with Microsoft Power Platform](integration/integrating-with-microsoft-power-platfor.md)
-- [Page 8351 "MCP Config Card"](../../objects/page/8351.md) · captioned "Model Context Protocol (MCP) Server Configuration" · via [Integrating with Microsoft Power Platform](integration/integrating-with-microsoft-power-platfor.md)
-- [Page 8359 "MCP Config Warning List"](../../objects/page/8359.md) · captioned "MCP Configuration Warnings" · on [Table 8352 "MCP Config Warning"](../../objects/table/8352.md) · via [Integrating with Microsoft Power Platform](integration/integrating-with-microsoft-power-platfor.md)
+- [Page 8350 "MCP Config List"](../../objects/page/8350.md) · captioned "Model Context Protocol (MCP) Server Configurations" · via [Integrating with Microsoft Fabric](integration/integrating-with-microsoft-fabric.md)
+- [Page 8351 "MCP Config Card"](../../objects/page/8351.md) · captioned "Model Context Protocol (MCP) Server Configuration" · via [Integrating with Microsoft Fabric](integration/integrating-with-microsoft-fabric.md)
+- [Page 8359 "MCP Config Warning List"](../../objects/page/8359.md) · captioned "MCP Configuration Warnings" · on [Table 8352 "MCP Config Warning"](../../objects/table/8352.md) · via [Integrating with Microsoft Fabric](integration/integrating-with-microsoft-fabric.md)
 - [Page 8930 "Email View Policy List"](../../objects/page/8930.md) · captioned "User Email View Policies" · on [Table 8930 "Email View Policy"](../../objects/table/8930.md) · via [Integrating with infrastructure services](integration/integrating-with-infrastructure-services.md)
 - [Page 9061 "Plan Configuration List"](../../objects/page/9061.md) · captioned "License Configuration" · on [Table 9017 "Plan Configuration"](../../objects/table/9017.md) · via [Integrating with infrastructure services](integration/integrating-with-infrastructure-services.md)
 - [Page 9062 "User Security Activities"](../../objects/page/9062.md) · on [Table 9062 "User Security Status"](../../objects/table/9062.md) · via [Integrating with infrastructure services](integration/integrating-with-infrastructure-services.md)
@@ -592,6 +611,14 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 30135 "Shpfy Authentication"](../../objects/page/30135.md) · captioned "Waiting for a response - do not close this page" · via [Integrating with Shopify](integration/integrating-with-shopify.md)
 - [Page 30156 "Shpfy Companies"](../../objects/page/30156.md) · captioned "Shopify Companies" · on [Table 30150 "Shpfy Company"](../../objects/table/30150.md) · via [Integrating with Shopify](integration/integrating-with-shopify.md)
 - [Page 30157 "Shpfy Company Card"](../../objects/page/30157.md) · captioned "Shopify Company Card" · on [Table 30150 "Shpfy Company"](../../objects/table/30150.md) · via [Integrating with Shopify](integration/integrating-with-shopify.md)
+- [Page 48508 "Fabric Platform Companies"](../../objects/page/48508.md) · captioned "Fabric Company Configuration" · via [Integrating with Microsoft Fabric](integration/integrating-with-microsoft-fabric.md)
+- [Page 48509 "Fabric Platform Export Details"](../../objects/page/48509.md) · captioned "Fabric Synchronization Details" · via [Integrating with Microsoft Fabric](integration/integrating-with-microsoft-fabric.md)
+- [Page 48510 "Fabric Platform Export Summary"](../../objects/page/48510.md) · captioned "Fabric Synchronization Overview" · via [Integrating with Microsoft Fabric](integration/integrating-with-microsoft-fabric.md)
+- [Page 48511 "Fabric Platform Setup"](../../objects/page/48511.md) · captioned "Microsoft Fabric Mirroring Setup (Preview)" · via [Integrating with Microsoft Fabric](integration/integrating-with-microsoft-fabric.md)
+- [Page 48512 "Fabric Platform Tables"](../../objects/page/48512.md) · captioned "Fabric Table Configuration" · via [Integrating with Microsoft Fabric](integration/integrating-with-microsoft-fabric.md)
+- [Page 48513 "Fabric Config Package Card"](../../objects/page/48513.md) · captioned "Fabric Config Package" · on [Table 48501 "Fabric Config Package"](../../objects/table/48501.md) · via [Integrating with Microsoft Fabric](integration/integrating-with-microsoft-fabric.md)
+- [Page 48515 "Fabric Config Packages"](../../objects/page/48515.md) · captioned "Fabric Configuration Packages" · on [Table 48501 "Fabric Config Package"](../../objects/table/48501.md) · via [Integrating with Microsoft Fabric](integration/integrating-with-microsoft-fabric.md)
+- [Page 48519 "Fabric Platform Setup Wizard"](../../objects/page/48519.md) · captioned "Set Up Microsoft Fabric Mirroring (Preview)" · via [Integrating with Microsoft Fabric](integration/integrating-with-microsoft-fabric.md)
 
 Learn also names 4 objects with no object page: page/9173, page/9830, page/9831, page/9838.
 

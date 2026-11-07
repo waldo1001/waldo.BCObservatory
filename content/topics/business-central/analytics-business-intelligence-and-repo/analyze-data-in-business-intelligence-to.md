@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -34,29 +34,29 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-fabric
-    title: Data Mirroring to Microsoft Fabric from Business Central
-    date: "2026-10-08"
+    title: Business Central Data Mirroring to Microsoft Fabric
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/fabric-faq
-    title: FAQ About Mirroring Business Central Data to Microsoft Fabric
-    date: "2026-10-08"
+    title: Business Central Mirroring to Microsoft Fabric FAQ
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export
     title: Manage Business Central Synchronization with Microsoft Fabric
-    date: "2026-10-08"
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export
     title: Monitor and Troubleshoot Microsoft Fabric Synchronization
-    date: "2026-10-08"
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null
@@ -69,8 +69,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring
-    title: Set up Business Central data mirroring to Microsoft Fabric
-    date: "2026-10-08"
+    title: Set Up Business Central Data Mirroring to Microsoft Fabric
+    date: "2026-10-29"
     commit: null
     t: null
     quote: null

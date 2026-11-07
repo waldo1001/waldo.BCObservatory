@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:50:42.930Z"
+  at: "2026-11-07T00:52:53.800Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 733253ac0344dc0a403283ea65c637233c7ba14533ba0b51db940a0c86e9a4f3
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/System%20Application/App/ControlAddIns/src/PowerBIManagement.ControlAddin.al
+    url: https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/System%20Application/App/ControlAddIns/src/PowerBIManagement.ControlAddin.al
     title: src/System Application/App/ControlAddIns/src/PowerBIManagement.ControlAddin.al (releases/29.x)
     date: null
-    commit: 7af2f8d2e22b684ec7b2455c7baf1007da944ac5
+    commit: 2f228f96c8a299e26ab425fe4d5fc937ebe8d385
     t: null
     quote: null
 links:
@@ -83,7 +83,7 @@ relations:
 
 > Control add-in "PowerBIManagement" in System Application (System.Integration.PowerBI). 18 public procedures. Introduced in BC24, still in BC30, changed in BC25-26, BC28.
 
-System Application · System.Integration.PowerBI · BC24-30 · [source at 7af2f8d2](https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/System%20Application/App/ControlAddIns/src/PowerBIManagement.ControlAddin.al) · facts from BC29
+System Application · System.Integration.PowerBI · BC24-30 · [source at 2f228f96](https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/System%20Application/App/ControlAddIns/src/PowerBIManagement.ControlAddin.al) · facts from BC29
 
 ## Procedures
 

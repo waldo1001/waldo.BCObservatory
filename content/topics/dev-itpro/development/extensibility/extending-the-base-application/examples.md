@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:44.651Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -131,6 +131,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcquality/256
 learn_toc_path:
   - Development
   - Extensibility
@@ -208,6 +210,12 @@ Start with the page that matches your area. Some pages center on implementing in
   - In the observatory: [Codeunit 600 "Data Archive"](../../../../../objects/codeunit/600.md)
 - [Extending the e-documents functionality](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments): Learn how to extend e-documents functionality with specific requirements.
   - In the observatory: [Codeunit 6109 "E-Document Import Helper"](../../../../../objects/codeunit/6109.md), [Codeunit 6115 "E-Document Error Helper"](../../../../../objects/codeunit/6115.md), [Codeunit 6148 "E-Document Helper"](../../../../../objects/codeunit/6148.md), [Enum 6101 "E-Document Format"](../../../../../objects/enum/6101.md), [Enum 6121 "E-Document Type"](../../../../../objects/enum/6121.md), [Enum 6128 "E-Document Processing Phase"](../../../../../objects/enum/6128.md)
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#256 Fixtures: make two samples comply with the sibling articles they trip](../../../../../changes/bcquality/256.md) (code change): "Sample fixtures were corrected to comply with sibling quality articles"
 
 ## Business Central pages and reports
 

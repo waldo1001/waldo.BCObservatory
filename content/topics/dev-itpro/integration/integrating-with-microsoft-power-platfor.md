@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -47,16 +47,9 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/configure-mcp-server
-    title: Configure Business Central MCP Server
-    date: "2026-10-02"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/create-agent-in-copilot-studio
-    title: Create Agents in Copilot Studio that Connect to Business Central
-    date: "2026-10-02"
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extract-data
+    title: Business Central Data Extraction Methods
+    date: "2026-10-28"
     commit: null
     t: null
     quote: null
@@ -78,13 +71,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-setup
     title: Enabling Power BI integration with Business Central
     date: "2026-06-17"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extract-data
-    title: Extract data from Business Central
-    date: "2025-12-23"
     commit: null
     t: null
     quote: null
@@ -172,16 +158,12 @@ links:
   objects:
     - object/page/6316
     - object/page/6317
-    - object/page/8350
-    - object/page/8351
-    - object/page/8359
   features: []
   topics:
     - topic/dev-itpro/integration
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi
-    - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi
   localizations: []
   videos: []
   posts:
@@ -189,6 +171,7 @@ links:
   guidelines: []
   changes:
     - change/al-go/2346
+    - change/bcapps/13692
 learn_toc_path:
   - Integration
   - Integrating with Microsoft Power Platform
@@ -198,20 +181,16 @@ children:
   - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps
   - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat
   - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi
-  - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi
 coverage:
-  learn: 21
-  code: 5
+  learn: 19
+  code: 2
   video: 0
   blog: 1
   guideline: 0
 bc_forms:
   - 6316
   - 6317
-  - 8350
-  - 8351
-  - 8359
-member_hash: d38828a5643c63d07e0b733d77eb641d79668f662c150e42ba50734f6ad745ea
+member_hash: a84c192af3a74aa3396a811d6d91cfd00c90e346403ea31a93d2b9f1838e71d0
 narrative: generated
 ---
 
@@ -244,7 +223,6 @@ Power Pages is covered by a single page in this hub, on virtual tables. Start wi
 - [Integrating with Microsoft Power Apps](integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps.md) (4 pages)
 - [Integrating with Microsoft Power Automate](integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat.md) (5 pages)
 - [Integrating with Microsoft Power BI](integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi.md) (8 pages)
-- [Integrating with Microsoft Copilot Studio](integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi.md) (2 pages)
 
 ## More Learn pages
 
@@ -256,6 +234,7 @@ Power Pages is covered by a single page in this hub, on virtual tables. Start wi
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#2346 Pin all actions that are not currently pinned](../../../changes/al-go/2346.md) (code change): "Unpinned action references are pinned in Power Platform action.yaml files"
+- [#13692 Fix SharePoint REST upload 404 caused by trailing slash in parent folder](../../../changes/bcapps/13692.md) (code change): "SharePoint REST upload 404 caused by trailing slash"
 - [DynamicsMinds 2025 - PortoroÅ¾, Slovenia](../../../posts/wingate365-com/https-blog-wingate365-com-2025-08-dynamicsminds-2025-portoroz-slovenia-html--fc223b1359.md) (community post): "BC to PP integration techniques, from lo-code through Virtual Tables and BC Data Sync"
 
 ## Business Central pages and reports
@@ -264,8 +243,5 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 
 - [Page 6316 "Sustainability Report Power BI"](../../../objects/page/6316.md) · captioned "Sustainability Report (Power BI)" · via [Integrating with Microsoft Power BI](integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi.md)
 - [Page 6317 "To Net Zero Carbon Power BI"](../../../objects/page/6317.md) · captioned "Journey to Net Zero Carbon (Power BI)" · via [Integrating with Microsoft Power BI](integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi.md)
-- [Page 8350 "MCP Config List"](../../../objects/page/8350.md) · captioned "Model Context Protocol (MCP) Server Configurations" · via [Integrating with Microsoft Copilot Studio](integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi.md)
-- [Page 8351 "MCP Config Card"](../../../objects/page/8351.md) · captioned "Model Context Protocol (MCP) Server Configuration" · via [Integrating with Microsoft Copilot Studio](integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi.md)
-- [Page 8359 "MCP Config Warning List"](../../../objects/page/8359.md) · captioned "MCP Configuration Warnings" · on [Table 8352 "MCP Config Warning"](../../../objects/table/8352.md) · via [Integrating with Microsoft Copilot Studio](integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

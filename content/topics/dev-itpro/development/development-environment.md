@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:01:01.729Z"
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -325,6 +325,7 @@ links:
   changes:
     - change/bcapps/10212
     - change/bcapps/10449
+    - change/bcapps/6857
 learn_toc_path:
   - Development
   - Development environment
@@ -401,6 +402,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10212 Add SetReferenceType method to SignedXml and SignedXmlImpl (#10139)](../../../changes/bcapps/10212.md) (code change): "SetReferenceType method is added to the SignedXml codeunit to allow callers"
 - [#10449 Remove permission set ref and move the Page Inspector changes to BCApps](../../../changes/bcapps/10449.md) (code change): "Page Inspector changes are moved from Platform into BCApps"
+- [#6857 [BC Idea][TableInformation] : Enhance Indexes List Part with SIFT details, visual indicators, and improved index management #6856](../../../changes/bcapps/6857.md) (code change): "Indexes List Part page gains SIFT details, visual indicators, and improved index management"
 - [Be careful with Visual Studio Code extensions…](../../../posts/demiliani-com/13761.md) (community post): "Be careful with Visual Studio Code extensions"
 - [Business Central on Linux? Here, hold my beer!](../../../posts/sshadows-dk/https-sshadows-dk-blog-business-central-on-linux--f313e38282.md) (community post): "Running Business Central on Linux via Wine required implementing missing Windows APIs"
 - [Introducing BC Mission Control](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-introducing-bc-mission-control--6418abfaea.md) (community post): "web app for managing Business Central cloud environments and local Docker"

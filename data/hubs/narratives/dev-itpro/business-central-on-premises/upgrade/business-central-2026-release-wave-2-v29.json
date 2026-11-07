@@ -1,39 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-2-v29",
-  "input_hash": "326fa3cb5b9cda768e3484facf63169df477465b923ba1f5002aa6f645f4d5b0",
-  "summary": "Upgrading on-premises Business Central to 2026 release wave 2 (v29). Covers the upgrade overview, things to check before upgrading to v26 and later, the step-by-step upgrade from version 25, 26, 27 or 28 to v29, and how to install a v29 update. Use it for questions about upgrade paths, steps and risks.",
-  "overview": "This section covers moving an on-premises Business Central environment to 2026 release wave 2 (version 29). It has four pages and no subtopics. In order from planning to execution, they are an overview, a considerations page, a full upgrade guide and a page on installing an update.\n\nStart with the overview page. It describes upgrade paths from several source versions, new and changed platform and application features, and deprecated features. Read the considerations page next, before you touch a database. It covers deprecated or redesigned functionality, deleted objects, schema changes, how installed extensions affect performance, and deployment changes.\n\nFor the upgrade itself, use the upgrade guide if you are coming from version 25, 26, 27 or 28. It covers database conversion, extension publishing, tenant mounting and synchronization, data upgrade, permission set migration and license import. The install-update page covers platform-only and application upgrades on single-tenant and multitenant deployments.",
+  "input_hash": "c6133c054d6763d55107f984dfd1be65aea7c3ed3cca9ef2a62faca9e4a7bbdd",
+  "summary": "Upgrading Business Central on-premises to 2026 release wave 2 (version 29): upgrade overview, pre-upgrade considerations for v26 and later, the step-by-step upgrade from versions 25-28, and installing a cumulative update. It answers questions about upgrade paths, steps, and risks.",
+  "overview": "This section covers the on-premises upgrade to Business Central 2026 release wave 2 (version 29). It has four pages: an overview of upgrade paths and new, changed and deprecated features; a considerations page to read before upgrading; a full upgrade guide; and a guide for installing cumulative updates.\n\nStart with the overview to confirm your source version has a supported path. Then read the considerations page for changes that can affect your environment. After that, follow the upgrade guide for a move from version 25, 26, 27 or 28 to 29. Use the cumulative update page for updates within version 29.",
   "key_points": [
-    "The step-by-step guide covers upgrading to v29 from version 25, 26, 27 or 28.",
-    "The upgrade guide covers application database conversion, extension publishing and synchronization, tenant mounting and synchronization, data upgrade, permission set migration and license import.",
-    "The install-update page covers both platform-only and application upgrades, on single-tenant and multitenant deployments.",
-    "The considerations page for v26 and later covers deprecated or redesigned functionality, objects deleted in v24 and earlier, and how installed extensions affect performance.",
-    "The considerations page also notes schema changes in the Subscription Billing extension (v25 to v26 and later) and mentions force sync for schema migration.",
-    "Deployment changes introduced in v23 are listed: server port 7085 and SPN delegation configuration.",
+    "Upgrade to version 29 is documented from versions 25, 26, 27 and 28.",
+    "The upgrade guide covers application database conversion, extension publishing and synchronization, tenant mounting and synchronization, and data upgrade.",
+    "Post-upgrade tasks include permission set migration and license import.",
+    "Pre-upgrade considerations for v26-v29 cover deprecated or redesigned functionality and the performance impact of installed extensions.",
+    "Schema changes in the Subscription Billing extension (v25 to v26 and later) may need force sync for schema migration.",
+    "Deployment changes from v23 include server port 7085 and SPN delegation configuration.",
     "Microsoft recommends moving to AL-based permissions.",
-    "The overview page tracks new and changed platform and application features and deprecated features across W1 and platform."
+    "Cumulative update installation covers platform conversion, extension publishing, database synchronization and data upgrade for single-tenant and multitenant setups."
   ],
   "members_used": 4,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-06T13:39:14.356Z",
+  "at": "2026-11-07T01:06:09.621Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.0510346
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:26:41.609Z",
-    "verdict": "fix",
-    "issues": [
-      "The summary's phrase \"step-by-step upgrade from v25 to v28\" reads as an upgrade that ends at v28. The guide actually upgrades from version 25, 26, 27 or 28 to version 29.",
-      "Key point 1 calls 25 to 28 \"the supported source versions\". The sources only say the step-by-step guide covers those four versions. The overview page mentions upgrade paths from multiple source versions, so the claim is too strong.",
-      "Key point 5 says the Subscription Billing schema changes are handled through force sync. The sources only list force sync for schema migration as a feature of the page, so this was softened.",
-      "Key point 6 said \"deployment changes from v23\". The source says the deployment changes came in v23, so the wording was corrected."
-    ],
-    "input_hash": "326fa3cb5b9cda768e3484facf63169df477465b923ba1f5002aa6f645f4d5b0",
-    "cost_usd": 0.0530592
+    "cost_usd": 0.012365
   }
 }

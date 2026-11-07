@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-service-management
 type: topic
 title: Set up service management
-summary: "Setting up service management in Business Central: service items, components, loaners, service hours, standard service codes, fault reporting, pricing, resource allocation, contracts, order and repair statuses, and troubleshooting guidelines. It answers how-to-configure questions for the Premium service experience."
+summary: Service management setup in Business Central covers service items, fault reporting, pricing, contracts, resource allocation, work hours, statuses, loaners, standard service codes and troubleshooting guidelines. It answers how to configure each part before processing service orders. The overview page notes the Premium experience is required.
 tier: official
 language: en
 system: service
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:18:42.437Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 698e9b81040c91434f498ca4cd9fa4819a15022fbdc8433a2192b01c29fe667a
+  input_hash: 57fb80da1ba5c6b425a37f37f6470a3dcbee27a118483b280339b69523bc1646
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/service-how-to-create-service-items
@@ -42,7 +42,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/service-how-setup-service-items
     title: Service items and service item components
-    date: "2025-10-10"
+    date: "2026-10-13"
     commit: null
     t: null
     quote: null
@@ -161,28 +161,26 @@ narrative: generated
 
 # Set up service management
 
-> Setting up service management in Business Central: service items, components, loaners, service hours, standard service codes, fault reporting, pricing, resource allocation, contracts, order and repair statuses, and troubleshooting guidelines. It answers how-to-configure questions for the Premium service experience.
+> Service management setup in Business Central covers service items, fault reporting, pricing, contracts, resource allocation, work hours, statuses, loaners, standard service codes and troubleshooting guidelines. It answers how to configure each part before processing service orders. The overview page notes the Premium experience is required.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up service management · tier official · system service · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up service management · tier official · system service · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the configuration needed before service orders and contracts can be used. The page "Setting up service management" is the entry point. It lists the main setup areas and notes that the Premium experience is required. Each area then has its own page.
+This section explains how to prepare Business Central for service management. Each page covers one setup area: service items and components, service offerings, fault reporting, pricing and costs, service contracts, resource allocation, work and service hours, order and repair statuses, loaners, standard service codes, and troubleshooting guidelines. A separate page covers general service management processes such as mandatory fields, response times, warranties and posting policies.
 
-The pages fall into a few groups. Service offerings, service items and components, and service item groups define what is serviced. Fault reporting, troubleshooting guidelines, standard service codes, and repair and order statuses define how work is described and tracked. Pricing and costs, service contracts, work and service hours, resource allocation (skills and zones), and loaners cover how service is charged, scheduled, and staffed. "Set up service management processes" covers the general setup: mandatory fields, response time defaults, warranties, and posting policies.
-
-Start with the overview page and the general processes page. Then work through the area you need, such as service items before contracts, or skills and zones before assigning technicians.
+Start with "Setting up service management", which lists the areas and notes that the Premium experience is required. Then use "Set up service management processes" for the core setup, and "Set up service offerings" and "Service items and service item components" to define what you service. The remaining pages build on that: pricing, contracts, hours and resources determine how orders are priced, scheduled and invoiced, while fault codes, statuses, standard codes and troubleshooting guidelines support day-to-day order handling.
 
 ## Key points
 
-- Service items can be created manually or automatically when items are shipped. They can also be blocked from use in service transactions.
-- Service item groups hold defaults such as contract discount %, service price group code, and response time. They can also create a service item on sale.
-- Fault reporting is set up with fault, symptom, fault area, and reason codes. You also set the reporting level and the fault/resolution relationships.
-- Pricing uses service price groups, adjustment groups, and additional costs such as starting fees and travel costs.
-- Service contracts need contract groups, account groups, templates, and customer templates set up first.
-- Resource allocation matches technicians to tasks by skills and service zones. Work hour templates and service hours drive resource capacity and response date calculation.
-- Repair statuses and service order statuses use priority levels, with options for posting allowed and pending.
-- Troubleshooting guidelines can be assigned to service item groups, service items, or items, with an inheritance hierarchy. Loaners are tracked with loaner cards and loan receipts.
+- Service management setup requires the Premium experience.
+- Service items can be created manually or automatically on shipping, and can be blocked from service transactions.
+- Service item groups hold defaults such as contract discount, service price group, response time and automatic registration.
+- Fault reporting uses fault, symptom, fault area and reason codes, plus a reporting level and fault/resolution relationships.
+- Pricing uses service price groups, adjustment groups, service costs, starting fees and travel costs.
+- Service contracts need contract groups, account groups, templates and customer templates set up first.
+- Resource allocation relies on skills, service zones and resource capacity; service hours and work hour templates drive response date calculation.
+- Repair and service order statuses support priority levels, and troubleshooting guidelines can be assigned to groups, items or service items with inheritance.
 
 ## Learn pages
 

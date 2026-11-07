@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator",
+  "input_hash": "bcad82cff3237b16b1027597c93448bd1c40df75abfbb3a50924184cf34c6ba4",
+  "summary": "Administrator tasks for mirroring Business Central online data to Microsoft Fabric: initial setup, managing which companies and tables synchronize, and monitoring and troubleshooting runs. It answers questions about configuring the connection, controlling synchronization, and diagnosing errors.",
+  "overview": "This section covers the administrator side of synchronizing Business Central online data to an open mirrored database in OneLake, where Fabric analytics tools can use it. It has three pages and no subtopics.\n\nStart with the setup page, which explains how to connect using the Connect to Microsoft Fabric assisted setup or the Microsoft Fabric Mirroring Setup page. It also covers choosing companies and tables, and authentication through a service principal and workspace access.\n\nAfter setup, use the management page to control what is synchronized and when, and to start, stop, or reset the export. Use the monitoring page when runs fail or you need to check results. It describes the Fabric Synchronization Overview and Synchronization Details views.",
+  "key_points": [
+    "Mirroring sends Business Central online data to an open mirrored database in OneLake for use with Fabric analytics tools.",
+    "Setup can be done through the Connect to Microsoft Fabric assisted setup or the Microsoft Fabric Mirroring Setup page.",
+    "Authentication uses a service principal, and workspace access must be managed.",
+    "You can select companies and up to 1,000 tables to synchronize.",
+    "Configuration packages provide curated table sets, and permission sets provide role-based access.",
+    "Synchronization schedule and interval can be controlled, and export can be started, stopped, or reset.",
+    "The Fabric Synchronization Overview and Synchronization Details views show run states, errors, and table-level results.",
+    "Monitoring supports error filtering, a company and table details view, and watermark tracking."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-11-07T01:06:08.223Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.011163
+  }
+}

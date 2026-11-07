@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:52.535Z"
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -195,7 +195,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9850 Fix VariantCode lost during Contract Price Update proposal](../../../../../changes/bcapps/9850.md) (code change): "Variant code from subscription header service object is now correctly passed"
 - [#133 Add TransferFields SkipFieldsNotMatchingType guidance](../../../../../changes/bcquality/133.md) (code change): "TransferFields only errors on type mismatches within the same extension"
 - [#209 3 AL/BC patterns: Insert/Delete trigger defaults on master data and declined Confirm in OnValidate](../../../../../changes/bcquality/209.md) (code change): "Record.Insert() and Delete() skip OnInsert and OnDelete by default"
-- [#264 knowledge(upgrade): clarify DataTransfer defaults and bypass safety](../../../../../changes/bcquality/264.md) (code change): "DataTransfer should be used regardless of record count"
+- [#264 knowledge(upgrade): clarify DataTransfer defaults and bypass safety](../../../../../changes/bcquality/264.md) (code change): "DataTransfer is preferred for equivalent field initialization and copies at any record count"
 - [Managing Optional Extensions in Business Central AL Code](../../../../../posts/aardvarklabs-blog/2875.md) (community post): "Use RecordRef and FieldRef with field numbers taken from page inspection"
 - [Dynamics 365 Business Central: finally we’ll have TRUNCATE table in SaaS.](../../../../../posts/demiliani-com/12267.md) (community post): "Rec.Truncate AL method to enable efficient bulk deletion of table rows"
 - [LockTimeoutDuration in AL](../../../../../posts/duiliotacconi-com/1717.md) (community post): "AL code can call Database.LockTimeoutDuration to raise or lower the lock timeout"

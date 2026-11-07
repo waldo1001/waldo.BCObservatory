@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9920693bd7e95c4806b31370bed527d3470c4497897c472bacd24b9531e2ac97
@@ -73,7 +73,8 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/language-elements
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/4100
   guidelines: []
   changes:
     - change/bcquality/216
@@ -89,7 +90,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 9920693bd7e95c4806b31370bed527d3470c4497897c472bacd24b9531e2ac97
@@ -116,5 +117,6 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#216 knowledge(style): a new procedure that changes the page's current record should take it as var Record](../../../../../changes/bcquality/216.md) (code change): "procedures that modify a record should take the record as a var parameter"
+- [Business Central 29: The New IsDirty() Flag — Finally a Smarter Way to Detect Record Changes](../../../../../posts/aardvarklabs-blog/4100.md) (community post): "IsDirty() method, a built-in flag that detects whether a record has been modified"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

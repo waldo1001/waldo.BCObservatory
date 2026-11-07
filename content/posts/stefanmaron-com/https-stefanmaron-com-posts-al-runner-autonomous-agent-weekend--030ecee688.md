@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:47:00.607Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-11-07T00:15:21.625Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -95,7 +95,7 @@ preview:
   image_h: null
   site_name: Stefan Maron
   favicon: https://stefanmaron.com/icons/favicon-32x32.png
-  probed_at: "2026-10-07T11:50:07.945Z"
+  probed_at: "2026-11-07T00:57:20.954Z"
 ---
 
 # AL Runner: A Weekend of Autonomous Agents, a Windows Cross-Check, and 59% of Microsoft's Tests Passing

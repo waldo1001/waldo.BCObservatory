@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:50:42.930Z"
+  at: "2026-11-07T00:52:53.800Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 4d7a639f310aef30ffe0990d228acf50f6cb9c493343a5f55c8f2e103a6d258a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/Shopify/app/src/Translations/Interfaces/ShpfyICreateTranslation.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/W1/Shopify/app/src/Translations/Interfaces/ShpfyICreateTranslation.Interface.al
     title: src/Apps/W1/Shopify/app/src/Translations/Interfaces/ShpfyICreateTranslation.Interface.al (releases/29.x)
     date: null
-    commit: 7af2f8d2e22b684ec7b2455c7baf1007da944ac5
+    commit: 2f228f96c8a299e26ab425fe4d5fc937ebe8d385
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Shpfy ICreate Translation" in Shopify (Microsoft.Integration.Shopify). 1 public procedures. Introduced in BC29, still in BC30.
 
-Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at 7af2f8d2](https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/Shopify/app/src/Translations/Interfaces/ShpfyICreateTranslation.Interface.al) · facts from BC29
+Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at 2f228f96](https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/W1/Shopify/app/src/Translations/Interfaces/ShpfyICreateTranslation.Interface.al) · facts from BC29
 
 ## Properties
 

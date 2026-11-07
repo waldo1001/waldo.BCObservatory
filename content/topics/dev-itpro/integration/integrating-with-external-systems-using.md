@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:51.650Z"
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -62,6 +62,7 @@ links:
     - change/bcapps/12229
     - change/bcapps/12306
     - change/bcapps/12561
+    - change/bcapps/13065
     - change/bcapps/13579
     - change/bcapps/9014
     - change/bcapps/9124
@@ -132,6 +133,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12229 #12144 Enable Inbound E-Documents page extensibility](../../../changes/bcapps/12229.md) (code change): "Inbound E-Documents page is made extensible to allow"
 - [#12306 Warn before releasing a purchase order that was already sent electronically](../../../changes/bcapps/12306.md) (code change): "releasing a purchase order that was already electronically sent"
 - [#12561 [Shopify] Preserve tax match after rate conflict](../../../changes/bcapps/12561.md) (code change): "The internal OnBeforeCreateSalesHeader event can now return an intentional hold message"
+- [#13065 Issue#10580:[Extensibility Request] Make Business Central's E-Document object extensible.](../../../changes/bcapps/13065.md) (code change): "E-Document Purchase Draft page is made extensible. Enables third-party developers to extend"
 - [#13579 Fix synchronization error event record context](../../../changes/bcapps/13579.md) (code change): "LogSynchError passes the populated, inserted IntegrationSynchJobErrors record to OnAfterLogSynchError event"
 - [#9014 [E-Document] Remove Access = Internal from E-Doc. Data Exchange Impl. codeunit](../../../changes/bcapps/9014.md) (code change): "Partners can now call its functions from their own E-Document implementations"
 - [#9124 [E-Document] [Payables Agent] Users can personalize-in the Name column on the draft page](../../../changes/bcapps/9124.md) (code change): "New OnAfterGetMatchedEntityName integration event for connector apps"

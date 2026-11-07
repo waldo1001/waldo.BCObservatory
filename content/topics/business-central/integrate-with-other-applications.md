@@ -11,7 +11,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -174,7 +174,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/integration-overview
     title: Integration overview for Business Central
-    date: "2026-09-22"
+    date: "2026-11-05"
     commit: null
     t: null
     quote: null

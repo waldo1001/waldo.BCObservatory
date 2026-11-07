@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:50:42.930Z"
+  at: "2026-11-07T00:52:53.800Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c13c8c23bde70bd4d9d4a3b08db8190983630f03bf0525d15d725a691af2d160
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/AuditFileExport/app/src/AuditFileExportDataCheck.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/W1/AuditFileExport/app/src/AuditFileExportDataCheck.Interface.al
     title: src/Apps/W1/AuditFileExport/app/src/AuditFileExportDataCheck.Interface.al (releases/29.x)
     date: null
-    commit: 7af2f8d2e22b684ec7b2455c7baf1007da944ac5
+    commit: 2f228f96c8a299e26ab425fe4d5fc937ebe8d385
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Audit File Export Data Check" in AuditFileExport (Microsoft.Finance.AuditFileExport). 2 public procedures. Introduced in BC29, still in BC30.
 
-AuditFileExport · Microsoft.Finance.AuditFileExport · BC29-30 · [source at 7af2f8d2](https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/AuditFileExport/app/src/AuditFileExportDataCheck.Interface.al) · facts from BC29
+AuditFileExport · Microsoft.Finance.AuditFileExport · BC29-30 · [source at 2f228f96](https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/W1/AuditFileExport/app/src/AuditFileExportDataCheck.Interface.al) · facts from BC29
 
 ## Procedures
 

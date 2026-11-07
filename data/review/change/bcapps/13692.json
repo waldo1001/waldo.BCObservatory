@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13692",
+  "input_hash": "fc49fa05e92592993bcf034ab39e344fc55788cdbecbda00656e36ecf8cda793",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-07T01:03:50.711Z",
+  "issues": [
+    "The summary and key points match the description: trailing slashes on parent folders, the SplitPath/GetParentPath fix, InitPath normalization, doubled separators, root handling and the telemetry figures."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.035623,
+    "changes_in_call": 4
+  }
+}

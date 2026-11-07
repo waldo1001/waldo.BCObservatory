@@ -1,33 +1,24 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/canada/banking-and-payments",
-  "input_hash": "c217f80cfee0527bd7cb7c2501e13029ec5bf7a4c821b1b0fcf0f6641351c799",
-  "summary": "Banking and payments for the Canadian version of Business Central: how to create deposits, and how to pay vendors by exporting payment data in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension. Answers questions about deposit setup and electronic vendor payment export.",
-  "overview": "This section is small and has two pages and no subtopics. One page covers creating deposits in the Canadian version. The other covers paying vendors by exporting payment information for electronic processing through banks.\n\nThe payment page describes two routes: SEPA Credit Transfer format, and the AMC Banking 365 Fundamentals extension. Its title mentions AMC banking for the US and SEPA for the EU, so check that the route fits your own banking setup before relying on it.\n\nStart with the deposits page if you manage Canadian bank deposits. Start with the payment export page if you need to send payment files to a bank and track what was exported.",
+  "input_hash": "02b748e42cb8e2ee8ff091b4cf97add6c924dd4427d53808877ca4e9197dc5d1",
+  "summary": "Banking and payments for the Canadian version of Business Central: creating deposits, and making vendor payments through SEPA Credit Transfer export files or the AMC Banking 365 Fundamentals extension. It answers how-to questions on deposits and electronic payment setup.",
+  "overview": "This section holds two pages on banking and payments under Canada local functionality. One covers creating deposits in the Canadian version. The other covers setting up and processing vendor payments by exporting payment files.\n\nThe payments page describes two routes: exporting payment files in SEPA Credit Transfer format, or using the AMC Banking 365 Fundamentals extension for electronic bank transfers. Its title refers to AMC banking (US) and SEPA credit transfer (EU), so check which route fits your region and bank before you start.\n\nStart with the deposits page if you handle Canadian deposit operations. Start with the payments page if you need to send electronic vendor payments or convert bank data.",
   "key_points": [
-    "Deposit creation in the Canadian version is covered on the page 'How to create deposits [CA]'.",
-    "Vendor payments can be made by exporting payment information for electronic processing through banks.",
-    "Supported export routes are SEPA Credit Transfer format and the AMC Banking 365 Fundamentals extension.",
-    "The payment export page covers payment file export and bank data conversion.",
-    "Credit transfer registrations and payment export history can be tracked.",
-    "The page title ties AMC banking to the US and SEPA credit transfer to the EU.",
-    "The section has no subtopics, only two pages."
+    "The section has no subtopics, only two pages.",
+    "The deposits page explains how to create deposits in the Canadian version.",
+    "Vendor payments can be made by exporting payment files in SEPA Credit Transfer format.",
+    "The AMC Banking 365 Fundamentals extension supports electronic bank transfers and bank data conversion.",
+    "The payments page covers electronic funds transfer (EFT) and payment file export.",
+    "Credit transfer message numbers are part of the payment setup described.",
+    "The payments page is titled for AMC banking (US) and SEPA credit transfer (EU), not specifically Canada."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-16T01:18:01.568Z",
+  "at": "2026-11-07T01:05:33.584Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.008726999999999999
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-24T00:56:49.059Z",
-    "verdict": "approve",
-    "issues": [],
-    "input_hash": "c217f80cfee0527bd7cb7c2501e13029ec5bf7a4c821b1b0fcf0f6641351c799",
-    "cost_usd": 0.0259912
+    "cost_usd": 0.011976
   }
 }

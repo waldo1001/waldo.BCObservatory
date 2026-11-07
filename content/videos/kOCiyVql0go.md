@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:44:21.436Z"
   flags: []
 generated:
-  at: "2026-11-01T00:41:18.124Z"
+  at: "2026-11-07T01:00:13.982Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -158,7 +158,7 @@ links:
       why: one of the Fabric permission sets the video shows at 9:11
       by: override
     - to: https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring
-      title: Set up Business Central data mirroring to Microsoft Fabric
+      title: Set Up Business Central Data Mirroring to Microsoft Fabric
       label: documents
       why: the setup the video walks through in three steps
       by: override
@@ -347,7 +347,7 @@ A status with a roadmap link comes from the Microsoft 365 roadmap feature this p
 - [Permission set 48530 "Fabric Exp Admin"](../objects/permissionset/48530.md) — names: one of the Fabric permission sets the video shows at 9:11 (checked by hand)
 - [Permission set 48531 "Fabric Exp Read"](../objects/permissionset/48531.md) — names: one of the Fabric permission sets the video shows at 9:11 (checked by hand)
 - [Permission set 48532 "Fabric Exp Activate"](../objects/permissionset/48532.md) — names: one of the Fabric permission sets the video shows at 9:11 (checked by hand)
-- [Set up Business Central data mirroring to Microsoft Fabric](https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring) — documents: the setup the video walks through in three steps (checked by hand)
+- [Set Up Business Central Data Mirroring to Microsoft Fabric](https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring) — documents: the setup the video walks through in three steps (checked by hand)
 
 ## Possibly related
 

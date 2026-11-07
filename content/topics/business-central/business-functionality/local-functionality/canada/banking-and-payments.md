@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/canada/banking-and-payments
 type: topic
 title: Banking & payments
-summary: "Banking and payments for the Canadian version of Business Central: how to create deposits, and how to pay vendors by exporting payment data in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension. Answers questions about deposit setup and electronic vendor payment export."
+summary: "Banking and payments for the Canadian version of Business Central: creating deposits, and making vendor payments through SEPA Credit Transfer export files or the AMC Banking 365 Fundamentals extension. It answers how-to questions on deposits and electronic payment setup."
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:56:49.059Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c217f80cfee0527bd7cb7c2501e13029ec5bf7a4c821b1b0fcf0f6641351c799
+  input_hash: 02b748e42cb8e2ee8ff091b4cf97add6c924dd4427d53808877ca4e9197dc5d1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-create-deposits
@@ -28,7 +28,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
     title: Make payments with AMC banking (US) or SEPA credit transfer (EU)
-    date: "2024-08-26"
+    date: "2026-09-09"
     commit: null
     t: null
     quote: null
@@ -83,33 +83,33 @@ narrative: generated
 
 # Banking & payments
 
-> Banking and payments for the Canadian version of Business Central: how to create deposits, and how to pay vendors by exporting payment data in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension. Answers questions about deposit setup and electronic vendor payment export.
+> Banking and payments for the Canadian version of Business Central: creating deposits, and making vendor payments through SEPA Credit Transfer export files or the AMC Banking 365 Fundamentals extension. It answers how-to questions on deposits and electronic payment setup.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > Banking & payments · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is small and has two pages and no subtopics. One page covers creating deposits in the Canadian version. The other covers paying vendors by exporting payment information for electronic processing through banks.
+This section holds two pages on banking and payments under Canada local functionality. One covers creating deposits in the Canadian version. The other covers setting up and processing vendor payments by exporting payment files.
 
-The payment page describes two routes: SEPA Credit Transfer format, and the AMC Banking 365 Fundamentals extension. Its title mentions AMC banking for the US and SEPA for the EU, so check that the route fits your own banking setup before relying on it.
+The payments page describes two routes: exporting payment files in SEPA Credit Transfer format, or using the AMC Banking 365 Fundamentals extension for electronic bank transfers. Its title refers to AMC banking (US) and SEPA credit transfer (EU), so check which route fits your region and bank before you start.
 
-Start with the deposits page if you manage Canadian bank deposits. Start with the payment export page if you need to send payment files to a bank and track what was exported.
+Start with the deposits page if you handle Canadian deposit operations. Start with the payments page if you need to send electronic vendor payments or convert bank data.
 
 ## Key points
 
-- Deposit creation in the Canadian version is covered on the page 'How to create deposits [CA]'.
-- Vendor payments can be made by exporting payment information for electronic processing through banks.
-- Supported export routes are SEPA Credit Transfer format and the AMC Banking 365 Fundamentals extension.
-- The payment export page covers payment file export and bank data conversion.
-- Credit transfer registrations and payment export history can be tracked.
-- The page title ties AMC banking to the US and SEPA credit transfer to the EU.
 - The section has no subtopics, only two pages.
+- The deposits page explains how to create deposits in the Canadian version.
+- Vendor payments can be made by exporting payment files in SEPA Credit Transfer format.
+- The AMC Banking 365 Fundamentals extension supports electronic bank transfers and bank data conversion.
+- The payments page covers electronic funds transfer (EFT) and payment file export.
+- Credit transfer message numbers are part of the payment setup described.
+- The payments page is titled for AMC banking (US) and SEPA credit transfer (EU), not specifically Canada.
 
 ## Learn pages
 
 - [How to create deposits [CA]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-create-deposits): Make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos in the Canadian version.
-- [Make payments with AMC banking (US) or SEPA credit transfer (EU)](https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer): Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
-  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 427 "Payment Methods"](../../../../../objects/page/427.md)
+- [Make payments with AMC banking (US) or SEPA credit transfer (EU)](https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer): Process vendor payments by exporting an EFT or SEPA file from the payment journal after you review the batch total and validate the payment lines.
+  - In the observatory: [Page 1227 "Pmt. Export Line Definitions"](../../../../../objects/page/1227.md), [Page 251 "General Journal Batches"](../../../../../objects/page/251.md), [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 427 "Payment Methods"](../../../../../objects/page/427.md)
 
 ## Business Central pages and reports
 

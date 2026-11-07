@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:50:42.930Z"
+  at: "2026-11-07T00:52:53.800Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1ad7b0769d1e9f9976e5f810eb99a0707728aea4f657015b62503b987fd3e263
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/System%20Application/App/Entitlements/AzureADApplicationApi.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/System%20Application/App/Entitlements/AzureADApplicationApi.Entitlement.al
     title: src/System Application/App/Entitlements/AzureADApplicationApi.Entitlement.al (releases/29.x)
     date: null
-    commit: 7af2f8d2e22b684ec7b2455c7baf1007da944ac5
+    commit: 2f228f96c8a299e26ab425fe4d5fc937ebe8d385
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Entitlement "Azure AD Application Api" in System Application (System.Security.AccessControl). Present since at least BC23, still in BC30.
 
-System Application · System.Security.AccessControl · BC23-30 · [source at 7af2f8d2](https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/System%20Application/App/Entitlements/AzureADApplicationApi.Entitlement.al) · facts from BC29
+System Application · System.Security.AccessControl · BC23-30 · [source at 2f228f96](https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/System%20Application/App/Entitlements/AzureADApplicationApi.Entitlement.al) · facts from BC29
 
 ## Across versions
 

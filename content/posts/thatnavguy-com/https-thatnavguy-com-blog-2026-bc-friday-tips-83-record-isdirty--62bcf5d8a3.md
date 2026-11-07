@@ -17,7 +17,7 @@ review:
   at: "2026-10-07T23:46:10.773Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-11-07T00:15:21.625Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -81,7 +81,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:49:41.319Z"
+  probed_at: "2026-11-07T00:57:16.315Z"
 ---
 
 # BC Friday Tips #83 Check Whether a Record Has Changed

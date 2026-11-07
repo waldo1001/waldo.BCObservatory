@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:47:06.819Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-11-07T00:15:21.625Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -84,7 +84,7 @@ preview:
   image_h: null
   site_name: Tech Adventures in Business Central | AL Development & AI Solutions
   favicon: https://tine.staric.net/favicon.ico
-  probed_at: "2026-10-07T11:50:08.606Z"
+  probed_at: "2026-11-07T00:57:21.556Z"
 ---
 
 # Context is a voting chamber

@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/finance/manage-payables/make-payments
 type: topic
 title: Make payments
-summary: "Making vendor payments in Business Central: payment journals, Suggest Vendor Payments, checks (print, void, positive pay), electronic bank export (SEPA Credit Transfer, AMC Banking 365 Fundamentals), immediate settlement of purchase invoices, and general journals. It answers how-to and setup questions on paying vendors."
+summary: Making payments in Business Central covers recording vendor payments and refunds in payment journals, suggesting payments, printing and voiding checks, exporting bank files (SEPA, AMC Banking 365, positive pay), and settling invoices immediately. It answers how-to and setup questions for paying vendors.
 tier: official
 language: en
 system: purchasing
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:20:27.835Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-01T00:45:11.847Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: ba02aed714bb533f7578f81938fb5b42cc28ff2fc3d6a72e7ab434397250a54d
+  input_hash: 2f502b3f636565775bacd23b552018a07ce15a629fa2f7b5ad52fd99258e957b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-how-positive-pay
@@ -42,21 +42,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
     title: Make payments with AMC banking (US) or SEPA credit transfer (EU)
-    date: "2024-08-26"
+    date: "2026-09-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-make-payments
     title: Overview of tasks to manage payments to vendors
-    date: "2025-06-15"
+    date: "2026-09-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-how-post-payments-refunds
     title: Record payments and refunds in payment journals
-    date: "2024-07-17"
+    date: "2026-09-09"
     commit: null
     t: null
     quote: null
@@ -70,7 +70,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-how-suggest-vendor-payments
     title: Suggest vendor payments
-    date: "2024-07-17"
+    date: "2026-09-09"
     commit: null
     t: null
     quote: null
@@ -244,28 +244,24 @@ narrative: generated
 
 # Make payments
 
-> Making vendor payments in Business Central: payment journals, Suggest Vendor Payments, checks (print, void, positive pay), electronic bank export (SEPA Credit Transfer, AMC Banking 365 Fundamentals), immediate settlement of purchase invoices, and general journals. It answers how-to and setup questions on paying vendors.
+> Making payments in Business Central covers recording vendor payments and refunds in payment journals, suggesting payments, printing and voiding checks, exporting bank files (SEPA, AMC Banking 365, positive pay), and settling invoices immediately. It answers how-to and setup questions for paying vendors.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage payables](../manage-payables.md) > Make payments · tier official · system purchasing · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage payables](../manage-payables.md) > Make payments · tier official · system purchasing · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the ways a company pays its vendors. The core tool is the payment journal, where you record vendor payments and customer refunds, apply them to invoices and credit memos, and post them. The Suggest Vendor Payments batch job fills the journal based on due dates and available payment discounts, with options to prioritize vendors and set posting dates.
-
-From the journal you can pay in several ways. You can print computer checks or record manual checks, and void checks that are posted or unposted. You can export a positive pay file for bank validation. You can also export payments electronically with SEPA Credit Transfer or the AMC Banking 365 Fundamentals extension. A separate page explains banking and payment formats supported through partner apps and marketplace solutions.
-
-Start with the overview of tasks to manage payments to vendors, which links the steps together. Then go to the page for the payment method you use. For paying at invoice entry, use the page on settling purchase invoices promptly. The general journals page is a reference for posting directly to the general ledger.
+This section explains how to pay vendors and handle related outgoing payments. The central tool is the Payment Journal, where you record payments and refunds, apply them to invoices or credit memos, and review batch totals. The Suggest Vendor Payments batch job fills the journal based on due dates, payment discounts, vendor priorities and on-hold entries.
 
 ## Key points
 
-- The payment journal records vendor payments and customer refunds and applies them to invoices and credit memos.
-- Suggest Vendor Payments creates journal lines from due dates and payment discounts, can prioritize vendors, and excludes vendors on hold.
-- Checks can be computer-printed or manual, and posted or unposted checks can be voided with the Void Check action.
-- Positive pay export creates a file of vendor and check details for bank validation. The export format is set per bank account, and files can be reexported with confirmation tracking.
-- Electronic payments use SEPA Credit Transfer (EU) or the AMC Banking 365 Fundamentals extension (US), with payment export history and credit transfer registration tracking.
-- Banking and payment formats come mainly from partner apps and marketplace solutions, with built-in options in some countries or regions.
-- To post a purchase invoice payment immediately, set a balancing account on the invoice header when you create the invoice.
-- General journals post directly to G/L and support templates, batches, recurring journals, allocations, standard journals, and reversals.
+- Start with the overview of tasks to manage payments to vendors, then read the payment journal and Suggest Vendor Payments pages.
+- Payment Journals record vendor payments and customer refunds, apply payments to invoices or credit memos, and can suggest vendor and employee payments.
+- Suggest Vendor Payments generates lines from due dates and available discounts, with vendor priorities and on-hold entries considered; it has options such as Calculate Posting Date from Applies-to-Doc. Due Date and Applies-to-Doc. Due Date Offset.
+- Checks are issued through the payment journal as computer checks (Print Check) or manual checks, and can be voided with the Void Check action whether posted or unposted.
+- Electronic payments use SEPA Credit Transfer export or the AMC Banking 365 Fundamentals extension for bank data conversion and EFT.
+- Banking and payment formats come from partner apps and marketplace solutions, with built-in options for select countries/regions.
+- Positive pay export creates files with vendor and check details for bank validation; the export format is set per bank account and files can be reexported with confirmation tracking.
+- To post a purchase invoice payment immediately, set a balancing account on the invoice header for cash or bank transfer payments.
 
 ## Learn pages
 
@@ -274,13 +270,14 @@ Start with the overview of tasks to manage payments to vendors, which links the 
 - [How to use banking and payment formats in Business Central](https://learn.microsoft.com/dynamics365/business-central/banks-formats-faq): Learn how to find and use banking and payment formats that suit your needs and comply with your country and bank requirements in Business Central.
 - [Issue, print, cancel, and void checks](https://learn.microsoft.com/dynamics365/business-central/payables-how-work-checks): Describes how to issue checks using the payment journal, print checks, and void or view check ledger entries in Business Central.
   - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 374 "Check Ledger Entries"](../../../../../objects/page/374.md), [Report 1406 "Bank Account - Check Details"](../../../../../objects/report/1406.md)
-- [Make payments with AMC banking (US) or SEPA credit transfer (EU)](https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer): Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
-  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 427 "Payment Methods"](../../../../../objects/page/427.md)
-- [Overview of tasks to manage payments to vendors](https://learn.microsoft.com/dynamics365/business-central/payables-make-payments): Outlines tasks to manage payments to vendors or creditors, including posting payment lines and getting an overview of the balance due.
-- [Record payments and refunds in payment journals](https://learn.microsoft.com/dynamics365/business-central/payables-how-post-payments-refunds): Read about how to record payments that you make to vendors, and refunds that you make to customers, on the Payment Journal page.
+- [Make payments with AMC banking (US) or SEPA credit transfer (EU)](https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer): Process vendor payments by exporting an EFT or SEPA file from the payment journal after you review the batch total and validate the payment lines.
+  - In the observatory: [Page 1227 "Pmt. Export Line Definitions"](../../../../../objects/page/1227.md), [Page 251 "General Journal Batches"](../../../../../objects/page/251.md), [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 427 "Payment Methods"](../../../../../objects/page/427.md)
+- [Overview of tasks to manage payments to vendors](https://learn.microsoft.com/dynamics365/business-central/payables-make-payments): Learn how to make payments in Business Central, including suggesting payment lines, reviewing the batch total, posting, printing checks, and exporting bank files.
+  - In the observatory: [Report 305 "Vendor - Summary Aging"](../../../../../objects/report/305.md)
+- [Record payments and refunds in payment journals](https://learn.microsoft.com/dynamics365/business-central/payables-how-post-payments-refunds): Learn how to record payments and refunds in the payment journal, review the batch total in local currency, and post the journal.
   - In the observatory: [Page 232 "Apply Customer Entries"](../../../../../objects/page/232.md)
 - [Settle purchase invoices promptly](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-settle-purchase-invoices-promptly): If you need to pay the vendor by cash or check, you can have the necessary posting done when you post the invoice.
-- [Suggest vendor payments](https://learn.microsoft.com/dynamics365/business-central/payables-how-suggest-vendor-payments): Use the Suggest Vendor Payments batch job to create payment lines for your vendors based on due dates and payment discounts.
+- [Suggest vendor payments](https://learn.microsoft.com/dynamics365/business-central/payables-how-suggest-vendor-payments): Use the Suggest Vendor Payments batch job to create vendor payment lines based on due dates and discounts, and review the batch total before posting.
 - [Working with general journals to post directly to G/L](https://learn.microsoft.com/dynamics365/business-central/ui-work-general-journals): Learn about using journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts.
 
 ## Videos, posts and code changes

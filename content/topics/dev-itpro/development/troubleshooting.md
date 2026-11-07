@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:11.040Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -283,6 +283,8 @@ links:
   posts:
     - post/stefanmaron-com/https-stefanmaron-com-posts-fixing-al-debugger-linux-wayland--13617af244
   guidelines: []
+  changes:
+    - change/bcquality/260
 learn_toc_path:
   - Development
   - Troubleshooting
@@ -373,10 +375,11 @@ Start with the overview to pick a tool. Use the client tools to quickly inspect 
 
 - [Troubleshooting tools and guides overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-overview): An overview of tools and processes that help troubleshoot issues in Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#260 Fix al-knowledge follow-ups and document the skill](../../../changes/bcquality/260.md) (code change): "Updated documentation to include al-knowledge skill in capability lists and troubleshooting guidance"
 - [Fixing AL Language Extension Debugger on Linux with Wayland/Hyprland](../../../posts/stefanmaron-com/https-stefanmaron-com-posts-fixing-al-debugger-linux-wayland--13617af244.md) (community post): "The AL Language Extension debugger fails on Linux with Wayland/Hyprland"
 
 ## Business Central pages and reports

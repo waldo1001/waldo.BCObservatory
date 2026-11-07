@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:04:05.144Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,6 +46,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10511
+    - change/bcapps/13630
     - change/bcapps/9068
 learn_toc_path:
   - Business functionality
@@ -100,6 +101,7 @@ Start with the apply and unapply page if your question is about matching entries
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10511 [NL][Telebank] Payment History export crashes when combining entries](../../../../../changes/bcapps/10511.md) (code change): "Payment history export in Dutch telebank functionality no longer crashes"
+- [#13630 [NL] Fix CBG applies-to ID length handling](../../../../../changes/bcapps/13630.md) (code change): "NL CBG applies-to ID length handling"
 - [#9068 [master][ALAppExtensions #30085][Event Request] Codeunit 11000007 "Check BTL91" - OnBeforeCheckFreelyTransferableMaximumAmount](../../../../../changes/bcapps/9068.md) (code change): "Dutch localization now has an OnBeforeCheckFreelyTransferableMaximumAmount event"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

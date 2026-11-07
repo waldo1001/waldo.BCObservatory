@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11256",
+  "input_hash": "008cb5812681750e994b1c5b350badc3d7a1c2a79f4c8e8f61ff47f5719f5650",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-07T01:03:56.773Z",
+  "issues": [
+    "Summary omits sales return-order posting, but key points cover the scope adequately; flags and kind are correct."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032335,
+    "changes_in_call": 6
+  }
+}

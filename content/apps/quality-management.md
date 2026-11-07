@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:46:30.808Z"
+  at: "2026-11-07T00:56:27.777Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 855e754d190c2b6269c4c42c343e4f333f2b3269ca65332d1ec549dc87db26df
+  input_hash: d468b58c750cd151c3392630bbe2d0e38352876dfc7539b69340c8c3ef667750
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/Quality%20Management/app
@@ -277,7 +277,7 @@ First-party app · folder `src/Apps/W1/Quality Management/app` · namespace `Mic
 The topic hubs whose Learn pages name this app's pages and reports (a table counts through the pages on it), by the number of the app's objects they document.
 
 - [Quality management](../topics/business-central/business-functionality/quality-management.md) (Business functionality): 12 objects
-- [Quality management](../topics/business-central/get-started/learn/contoso-coffee-demo-data/quality-management.md) (Get started > Learn > Contoso Coffee demo data): 9 objects
+- [Quality management](../topics/business-central/get-started/learn/contoso-coffee-demo-data/quality-management.md) (Get started > Learn > Contoso Coffee demo data): 12 objects
 - [Set up quality management](../topics/business-central/business-functionality/quality-management/set-up-quality-management.md) (Business functionality > Quality management): 9 objects
 - [Set up quality management](../topics/business-central/business-functionality/set-up-business-central/set-up-quality-management.md) (Business functionality > Set up Business Central): 9 objects
 

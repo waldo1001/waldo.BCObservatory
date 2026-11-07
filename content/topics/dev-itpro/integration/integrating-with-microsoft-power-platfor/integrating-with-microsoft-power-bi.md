@@ -2,7 +2,7 @@
 id: topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi
 type: topic
 title: Integrating with Microsoft Power BI
-summary: "Power BI integration with Business Central: how to expose and extract Business Central data, build reports in Power BI Desktop, embed reports in Business Central pages, and tune dataset load performance. It answers setup, report-building, embedding, extraction and performance questions."
+summary: "Power BI integration with Business Central: how to enable it, build reports on Business Central data, embed reports in pages, extract data to warehouses, and tune dataset load performance. It answers setup, report authoring, embedding and performance questions."
 tier: official
 language: en
 system: reporting
@@ -12,16 +12,23 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f348502af655a481de6f2d6b08223c7286ca09f068d59672f262c7134bcfe937
+  input_hash: 26854007c6e2cdf47ca5c7dc63c07af43be07e00c9ed2be9735cafe14cd81421
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerbi
     title: Building reports in Power BI Desktop to display Business Central data
     date: "2025-10-16"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extract-data
+    title: Business Central Data Extraction Methods
+    date: "2026-10-28"
     commit: null
     t: null
     quote: null
@@ -43,13 +50,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-setup
     title: Enabling Power BI integration with Business Central
     date: "2026-06-17"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extract-data
-    title: Extract data from Business Central
-    date: "2025-12-23"
     commit: null
     t: null
     quote: null
@@ -76,8 +76,8 @@ evidence:
     quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extract-data
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts
     - https://learn.microsoft.com/dynamics365/business-central/admin-powerbi
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-pbi-performance
   objects:
@@ -121,26 +121,26 @@ narrative: generated
 
 # Integrating with Microsoft Power BI
 
-> Power BI integration with Business Central: how to expose and extract Business Central data, build reports in Power BI Desktop, embed reports in Business Central pages, and tune dataset load performance. It answers setup, report-building, embedding, extraction and performance questions.
+> Power BI integration with Business Central: how to enable it, build reports on Business Central data, embed reports in pages, extract data to warehouses, and tune dataset load performance. It answers setup, report authoring, embedding and performance questions.
 
 Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Platform](../integrating-with-microsoft-power-platfor.md) > Integrating with Microsoft Power BI · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the ways Business Central and Power BI work together. Data is exposed through API pages and OData web services. Power BI can then use it through the Power Query connector, Power BI apps for Business Central, dataflows and datamarts, or Power BI Desktop. Reports can also be embedded in Business Central pages.
+This section covers the ways Business Central and Power BI work together. Data can be retrieved into Power BI through the Power Query connector, API pages and OData web services, and reports can be shown inside Business Central pages. The introduction page describes the options, including Power BI apps for Business Central, embedded reports, Power BI Desktop, dataflows and datamarts.
 
-The pages fit together by role. The introduction gives the overall picture. The Administrator subtopic covers enabling the integration (licensing, API pages, OData web services, online and on-premises setup) and the architecture. The Report creator subtopic covers building reports with the connector, APIs and OData, and preparing reports for Power BI FactBoxes on list pages.
+The pages split by role. The Administrator subtopic covers enabling the integration (licensing, API pages, OData web services, online and on-premises setup) and the architecture. The Report creator subtopic covers building reports in Power BI Desktop and preparing them for Power BI FactBoxes on list pages. Separate pages cover embedding reports, scorecards and dashboards with the Power BI embed framework, extraction methods for data warehouses or lakes, and dataset load performance.
 
-Other pages cover embedding reports, scorecards and dashboards with the Power BI embed framework, extracting data (ETL, historical and delta loads), and improving dataset load performance. Start with the introduction. Administrators should then go to the Administrator pages, and report authors to the Report creator pages.
+Start with the introduction to see the options. Administrators then follow the Administrator pages, and report creators follow the Report creator pages. Use the performance and data extraction pages when volumes grow or data must move to external stores.
 
 ## Key points
 
-- Business Central data reaches Power BI through API pages and OData web services, the Power Query connector, Power BI apps, dataflows and datamarts.
-- Administrator pages cover licensing, enabling API pages and OData web services, online and on-premises setup, and the integration architecture.
-- Report creators build reports in Power BI Desktop and can prepare them to show in Power BI FactBoxes on list pages.
-- Reports, scorecards and dashboards can be embedded in pages using the Power BI embed framework, such as the Power BI Embedded Report Part and Power BI Element Addin Host pages.
-- Embedding uses context keywords and the SetCurrentListSelection and SetPageContext methods.
-- Data extraction supports ETL with historical loads and delta loads. Delta loads use API queries filtered on SystemModifiedAt, with read scale-out and tools like Azure Data Factory and Power BI dataflows.
+- The introduction describes retrieving Business Central data through the Power Query connector, API pages and OData, plus Power BI apps, dataflows and datamarts.
+- Administrator pages cover licensing, API pages, OData web services, and online and on-premises enablement, plus the architecture.
+- Report creator pages cover building reports in Power BI Desktop and preparing reports for Power BI FactBoxes on list pages.
+- Embedding uses the Power BI embed framework (pages such as Power BI Embedded Report Part and Power BI Element Addin Host) for reports, scorecards and dashboards.
+- Embedding supports context keywords and methods such as SetCurrentListSelection and SetPageContext.
+- Data extraction methods include ETL, API-based delta extraction with read scale-out and systemModifiedAt filtering, Azure Data Factory, Power BI dataflows, Microsoft Fabric mirroring and BACPAC export.
 - To improve dataset load performance, load only the data you need through APIs and web service endpoints.
 - Web service telemetry lets you monitor usage, performance and errors.
 
@@ -151,9 +151,9 @@ Other pages cover embedding reports, scorecards and dashboards with the Power BI
 
 ## More Learn pages
 
+- [Business Central Data Extraction Methods](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extract-data): Compare Business Central data extraction options, including Microsoft Fabric mirroring, API-based delta loads, and custom ETL pipelines.
 - [Embed Power BI reports in pages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts): Explains how to display Power BI reports on pages in Business Central
   - In the observatory: [Page 6323 "Power BI Element Card"](../../../../objects/page/6323.md), [Page 6324 "Power BI Element Addin Host"](../../../../objects/page/6324.md), [Page 6325 "Power BI Embedded Report Part"](../../../../objects/page/6325.md), [Page 6327 "Power BI Embed Setup Wizard"](../../../../objects/page/6327.md), [Table 6312 "Power BI Displayed Element"](../../../../objects/table/6312.md), [Table 6314 "Power BI Context Settings"](../../../../objects/table/6314.md)
-- [Extract data from Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extract-data): Explains how to extract data from Business Central with different tools
 - [Introduction to Business Central and Power BI](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi): Get an overview of using Power BI to get insights from your Business Central data.
 - [Power BI Dataset Load Performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-pbi-performance): Learn about how to tune the performance of Power BI dataset load time based on Business Central web services and APIs
 

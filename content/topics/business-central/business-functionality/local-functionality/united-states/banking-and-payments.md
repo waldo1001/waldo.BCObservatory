@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/united-states/banking-and-payments
 type: topic
 title: Banking & payments
-summary: "Banking and payments in the US localization of Business Central: creating deposits, reconciling bank accounts with the Bank Rec. Worksheet, and exporting vendor payments through AMC Banking 365 Fundamentals or SEPA credit transfer. It answers how-to questions on these bank workflows."
+summary: "Banking and payments in the US localization of Business Central: creating deposits, reconciling bank accounts with the Bank Rec. Worksheet, and making vendor payments through AMC Banking 365 Fundamentals or SEPA credit transfer. It answers setup and how-to questions for these bank tasks."
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:03:50.623Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d7fdf7bce2479e338e63d100911affb93e313df53c0adb07ff762e7317d064a2
+  input_hash: 24e90a339270996ab9bd5920b18ff10b36be47c3c90a15c5b8af5dab3103919e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-create-deposits
@@ -28,7 +28,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
     title: Make payments with AMC banking (US) or SEPA credit transfer (EU)
-    date: "2024-08-26"
+    date: "2026-09-09"
     commit: null
     t: null
     quote: null
@@ -109,32 +109,34 @@ narrative: generated
 
 # Banking & payments
 
-> Banking and payments in the US localization of Business Central: creating deposits, reconciling bank accounts with the Bank Rec. Worksheet, and exporting vendor payments through AMC Banking 365 Fundamentals or SEPA credit transfer. It answers how-to questions on these bank workflows.
+> Banking and payments in the US localization of Business Central: creating deposits, reconciling bank accounts with the Bank Rec. Worksheet, and making vendor payments through AMC Banking 365 Fundamentals or SEPA credit transfer. It answers setup and how-to questions for these bank tasks.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United States](../united-states.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United States](../united-states.md) > Banking & payments · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers three bank-related tasks for US users of Business Central. It has no subtopics, so all content sits on three pages.
+This section covers three US-specific banking tasks. Deposits let you consolidate customer payments into a bank deposit. Bank reconciliation uses the Bank Rec. Worksheet page to compare bank account ledger entries with bank statements. Payments cover exporting payment files for vendors.
 
-Create deposits explains how to consolidate customer payments into bank deposits. Reconciling Bank Accounts describes the Bank Rec. Worksheet, which matches bank account ledger entries to the bank statement, marks cleared transactions, posts adjustments, and lets you view posted reconciliations and print test reports. The payments page describes exporting vendor payment information, either in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension, so banks can process it electronically.
+The pages are independent and have no subtopics. A common order follows the money: record customer payments and group them into deposits, pay vendors through electronic payment files, then reconcile the bank account against the statement.
 
-A sensible order is deposits first, then reconciliation, since deposits feed the entries you reconcile. Use the payments page when you need to pay vendors electronically.
+Start with "Create deposits [US]" if you handle incoming payments, "Make payments with AMC banking (US) or SEPA credit transfer (EU)" for outgoing vendor payments, and "Reconciling Bank Accounts [US]" for month-end bank matching.
 
 ## Key points
 
-- Create deposits groups customer payments into a bank deposit in the US localization.
-- Bank reconciliation uses the Bank Rec. Worksheet page to match ledger entries with bank statements.
-- Reconciliation steps include marking cleared transactions, posting adjustments, viewing posted reconciliations, and printing test reports.
-- The reconciliation page references 2023 release wave 2.
-- Vendor payments can be exported in SEPA Credit Transfer format or via the AMC Banking 365 Fundamentals extension.
-- Payment export features include payment file export, bank data conversion, credit transfer registration tracking, and payment export history.
+- Deposits consolidate customer payments into a bank deposit in the US localization.
+- Bank reconciliation in the US version uses the Bank Rec. Worksheet page.
+- The worksheet matches bank account ledger entries with statements and marks cleared transactions.
+- You can post reconciliation adjustments, view posted reconciliations, and print test reports.
+- Vendor payments can be exported as SEPA Credit Transfer files.
+- The AMC Banking 365 Fundamentals extension supports electronic bank transfers and bank data conversion.
+- The payment page covers electronic funds transfer (EFT) and credit transfer message numbers.
+- The reconciliation page is tagged 2023 release wave 2.
 
 ## Learn pages
 
 - [Create deposits [US]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-create-deposits): You can make deposits to maintain a transaction record. This record contains information that can be applied to outstanding invoices and credit memos in the US version.
-- [Make payments with AMC banking (US) or SEPA credit transfer (EU)](https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer): Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
-  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 427 "Payment Methods"](../../../../../objects/page/427.md)
+- [Make payments with AMC banking (US) or SEPA credit transfer (EU)](https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer): Process vendor payments by exporting an EFT or SEPA file from the payment journal after you review the batch total and validate the payment lines.
+  - In the observatory: [Page 1227 "Pmt. Export Line Definitions"](../../../../../objects/page/1227.md), [Page 251 "General Journal Batches"](../../../../../objects/page/251.md), [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 427 "Payment Methods"](../../../../../objects/page/427.md)
 - [Reconciling Bank Accounts [US]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts): This article describes how to reconcile bank account ledger entries with bank statements in the North American version.
   - In the observatory: [Table 17 "G/L Entry"](../../../../../objects/table/17.md)
 

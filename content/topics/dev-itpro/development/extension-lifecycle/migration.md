@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:51.613Z"
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,7 +73,6 @@ links:
     - change/bcapps/9220
     - change/bcapps/9363
     - change/bcapps/9438
-    - change/bcquality/264
     - change/bcquality/99
 learn_toc_path:
   - Development
@@ -134,7 +133,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9220 Backport SL Migration - Snapshot Project Transactions](../../../../changes/bcapps/9220.md) (code change): "Support for snapshotting and migrating historical Dynamics SL project transactions"
 - [#9363 GP - Updates 202607](../../../../changes/bcapps/9363.md) (code change): "The GP migration now spreads item transactions across multiple batches"
 - [#9438 SL - Add support for migrating historical project transactions](../../../../changes/bcapps/9438.md) (code change): "A new migration setting enables historical project transactions to be migrated alongside other historical data"
-- [#264 knowledge(upgrade): clarify DataTransfer defaults and bypass safety](../../../../changes/bcquality/264.md) (code change): "Emphasizes that new fields alone do not justify bypassing validation"
 - [#99 Add lifecycle error and privacy knowledge](../../../../changes/bcquality/99.md) (code change): "upgrade phase data writes, install-versus-upgrade dispatch logic, install code dispatch"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

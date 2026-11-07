@@ -1,38 +1,24 @@
 {
   "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
-  "input_hash": "8e965e040aa9ea08f0e67ec95b02a19a81eb32f39038adb9768282051714f174",
-  "summary": "Microsoft Fabric data mirroring from Business Central online: how to set it up, choose companies and tables, manage synchronization, and monitor and troubleshoot runs. It answers questions about replicating Business Central data to OneLake for analytics.",
-  "overview": "Data mirroring connects Business Central online to a Microsoft Fabric open-mirrored database. Selected companies and tables are replicated to OneLake, so analytics and data engineering tools can use the data without repeatedly reading from APIs. The feature is described as a 2026 production-ready preview, and the pages are tied to 2026 release wave 2.\n\nThe pages follow the life cycle of the feature. Start with the overview page to understand what mirroring does, then use the setup page to run the Connect to Microsoft Fabric assisted setup. After that, the management page covers company and table selection, configuration packages, scheduling and failure handling. The monitoring page helps when runs fail or results look wrong. The FAQ covers availability, requirements, synchronization behavior and limits.",
+  "input_hash": "3bb12d6eed0ef647f9e5c5a0b8fef4c33c3327c53f908eca8b437cfd73208b66",
+  "summary": "Business Central data mirroring to Microsoft Fabric replicates Business Central online data into OneLake for analytics. The section answers questions about what mirroring is, how to set it up, how to manage which companies and tables sync, how to monitor and troubleshoot runs, and common FAQ limits.",
+  "overview": "Data mirroring is a managed integration that connects Business Central online to Microsoft Fabric. It copies an initial snapshot and then ongoing changes into an open mirrored database in OneLake, stored in Delta Parquet format, so analytics and data engineering teams do not need to read repeatedly from APIs.\n\nThe pages follow the lifecycle of the integration. Start with the overview page to understand the capability, then use the setup page to connect through the Connect to Microsoft Fabric assisted setup or the Microsoft Fabric Mirroring Setup page. That setup covers service principal authentication, workspace access, and the choice of companies and tables. The management page covers the same setup page for ongoing control: schedules, configuration packages, permission sets, and start, stop, or reset actions.\n\nOnce synchronization runs, the monitoring page explains the Fabric Synchronization Overview and Synchronization Details views for run states, errors, and table-level results. The FAQ covers availability, Fabric capacity needs, schema changes, and latency, and it is marked as preview.",
   "key_points": [
-    "Mirroring replicates selected companies and tables from Business Central online to OneLake via a Fabric open-mirrored database.",
-    "Up to 1000 tables can be selected, and multiple companies are supported.",
-    "Synchronization starts with an initial snapshot and then continues with incremental changes.",
-    "Setup uses the Connect to Microsoft Fabric assisted setup and the Microsoft Fabric Mirroring extension, with service principal access (version 29.0, 2026 release wave 2).",
-    "Configuration packages, scheduling, failure handling and namespace configuration are managed after the initial setup.",
-    "Monitor runs on the Fabric Synchronization Overview and Details pages, through APIs, or in Fabric logging tables, with company and table-level results and error tracking.",
-    "Troubleshooting topics include change-tracking watermarks, incremental synchronization and privacy approval.",
-    "Replicated data can be used for analytics with Power BI, Data Factory and Fabric IQ."
+    "Mirroring replicates an initial snapshot plus incremental changes from Business Central online into OneLake, stored as Delta Parquet.",
+    "Supports multiple Business Central companies and up to 1,000 selected tables.",
+    "Setup uses the Connect to Microsoft Fabric assisted setup or the Microsoft Fabric Mirroring Setup page, with service principal authentication and workspace access management.",
+    "A configuration package provides a curated set of standard tables.",
+    "The Mirroring Setup page controls schedule and interval, permission sets, and start, stop, and reset of data export.",
+    "Monitor runs with the Fabric Synchronization Overview and Synchronization Details, including error filtering, company and table details, and watermark tracking.",
+    "The FAQ covers Fabric capacity requirements, table and field selection, schema change handling, and synchronization latency, and it is marked as preview."
   ],
   "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-17T01:12:55.818Z",
+  "at": "2026-11-07T01:06:08.891Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.013737
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-24T00:55:57.577Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the FAQ summary calls mirroring a capability 'in development' with near real-time replication. The narrative uses only the overview page's '2026 production-ready preview' wording. That wording is supported, but agents should not read it as general availability.",
-      "Minor: 'starts with an initial snapshot and then continues with incremental changes' puts the order in more strongly than the feature list ('initial snapshot and incremental sync') does. It is a reasonable reading.",
-      "Minor: version 29.0 appears only on the setup page. The key point ties it to setup, which matches the source."
-    ],
-    "input_hash": "8e965e040aa9ea08f0e67ec95b02a19a81eb32f39038adb9768282051714f174",
-    "cost_usd": 0.0318952
+    "cost_usd": 0.014527000000000002
   }
 }

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:50:42.930Z"
+  at: "2026-11-07T00:52:53.800Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: ffffd47953d44402bc2bef80adfc9c8c2f20e3e51efcddfb190afaa0d631f78b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EAMicrosoft365Teams.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EAMicrosoft365Teams.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EAMicrosoft365Teams.Entitlement.al (releases/29.x)
     date: null
-    commit: 7af2f8d2e22b684ec7b2455c7baf1007da944ac5
+    commit: 2f228f96c8a299e26ab425fe4d5fc937ebe8d385
     t: null
     quote: null
 links:
@@ -88,7 +88,7 @@ relations:
 
 > Entitlement "EA - Microsoft 365 Teams" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 7af2f8d2](https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EAMicrosoft365Teams.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 2f228f96](https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EAMicrosoft365Teams.Entitlement.al) · facts from BC29
 
 ## Recent changes
 

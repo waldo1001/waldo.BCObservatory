@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/77124",
+  "input_hash": "34dc4aa89053cb12c857992e80689d4550eba4bd9867efa42929b10f83b530d3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-07T01:03:16.217Z",
+  "issues": [
+    "Summary presents nonmodal notifications as the new capability, but the post explains them only as background; the actual change is the bar's background color plus the related behavior with the agent data review bar.",
+    "Summary also leaves out that the feature is off by default in Feature Management and limited to sandboxes.",
+    "Key points, objects and quotes are supported by the post. The copilot system is kept as a judgement call: the post only mentions agent review and never Copilot by name."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034828,
+    "posts_in_call": 2
+  }
+}

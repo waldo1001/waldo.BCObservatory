@@ -11,7 +11,7 @@ review:
   at: "2026-10-28T11:00:56.011Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -363,8 +363,14 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-3
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-4
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-5
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-1
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-2
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-3
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-4
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-5
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-26-0
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-0
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-0
   objects: []
   features: []
   topics:
@@ -380,13 +386,13 @@ toc_file: dev-itpro/TOC.md
 parent: topic/dev-itpro/what-s-new-and-planned
 children: []
 coverage:
-  learn: 66
+  learn: 72
   code: 0
   video: 0
   blog: 0
   guideline: 0
 bc_forms: []
-member_hash: 0fa344e90b2899491e29207aa2e1826f74ca2bb7fb90ff117e236b97cbe367c2
+member_hash: 92dee38639b8a48ea68d2b218706ede1fb58ae4ebe59b81d2046e9ef7ba427f2
 narrative: generated
 ---
 
@@ -489,7 +495,13 @@ Some pages carry version labels that differ from their titles. Examples are 26.1
 - [Update 27.3 for Microsoft Dynamics 365 Business Central 2025 Release Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-3): Get an overview of new and changed capabilities in the 27.3 update of Business Central online, which is part of 2025 release wave 2
 - [Update 27.4 for Microsoft Dynamics 365 Business Central 2025 Release Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-4): Get an overview of new and changed capabilities in the 27.4 update of Business Central online, which is part of 2025 release wave 2
 - [Update 27.5 for Microsoft Dynamics 365 Business Central 2025 Release Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-5): Get an overview of new and changed capabilities in the 27.5 update of Business Central online, which is part of 2025 release wave 2
+- [Update 28.1 for Microsoft Dynamics 365 Business Central 2026 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-1): Get an overview of new and changed capabilities in the 28.1 update of Business Central online, which is part of 2026 release wave 1
+- [Update 28.2 for Microsoft Dynamics 365 Business Central 2026 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-2): Get an overview of new and changed capabilities in the 28.2 update of Business Central online, which is part of 2026 release wave 1
+- [Update 28.3 for Microsoft Dynamics 365 Business Central 2026 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-3): Get an overview of new and changed capabilities in the 28.3 update of Business Central online, which is part of 2026 release wave 1
+- [Update 28.4 for Microsoft Dynamics 365 Business Central 2026 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-4): Get an overview of new and changed capabilities in the 28.4 update of Business Central online, which is part of 2026 release wave 1
+- [Update 28.5 for Microsoft Dynamics 365 Business Central 2026 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-5): Get an overview of new and changed capabilities in the 28.5 update of Business Central online, which is part of 2026 release wave 1
 - [What's New or Changed in Business Central 2025 Release Wave 1 Update 26.0](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-26-0): Get an overview of new and changed capabilities in the 26.0 update of Business Central online, which is part of 2025 release wave 1.
 - [What's New or Changed in Business Central 2025 Release Wave 2 - Update 27.0 preview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-0): Get an overview of new and changed capabilities in the 27.0 update of Business Central online, which is part of 2025 release wave 2.
+- [What's New or Changed in Business Central 2026 release wave 1 - Update 28.0 preview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-0): Get an overview of new and changed capabilities in the 28.0 update of Business Central online, which is part of 2026 release wave 1.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -2,20 +2,20 @@
 id: topic/dev-itpro/business-central-on-premises/deployment/business-central-on-premises-updates
 type: topic
 title: Business Central on-premises updates
-summary: Business Central on-premises update pages list cumulative updates, hotfixes and regulatory features per release wave. They answer which updates exist for versions 26, 27 and 28; the version 26 and 27 pages also give build numbers and support article references. An archive subtopic covers older versions 13 to 25 that no longer receive updates.
+summary: Business Central on-premises updates lists the cumulative updates, hotfixes and regulatory features released per release wave, from 2025 release wave 1 to 2026 release wave 1, plus an archive of versions that no longer get updates. It answers which build or update applies to a given version and what the latest update is.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:18:07.812Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: a6965c17c2702fa3a0db44da3d18da6c5b0e05417015de77cd0ed9f11a6fc341
+  input_hash: 9c1fd32b000dc100ee69b97b2cb5d1cae35d0a0b86d12f418a877feaa45880ee
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/update-versions-13
@@ -62,14 +62,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/update-versions-27
     title: Dynamics 365 Business Central On-premises 2025 Release wave 2 Updates
-    date: "2026-10-01"
+    date: "2026-11-06"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/update-versions-28
     title: Dynamics 365 Business Central on-premises 2026 release wave 1 updates
-    date: "2026-09-01"
+    date: "2026-11-06"
     commit: null
     t: null
     quote: null
@@ -164,26 +164,27 @@ narrative: generated
 
 # Business Central on-premises updates
 
-> Business Central on-premises update pages list cumulative updates, hotfixes and regulatory features per release wave. They answer which updates exist for versions 26, 27 and 28; the version 26 and 27 pages also give build numbers and support article references. An archive subtopic covers older versions 13 to 25 that no longer receive updates.
+> Business Central on-premises updates lists the cumulative updates, hotfixes and regulatory features released per release wave, from 2025 release wave 1 to 2026 release wave 1, plus an archive of versions that no longer get updates. It answers which build or update applies to a given version and what the latest update is.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Business Central on-premises updates · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Business Central on-premises updates · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section tracks the updates released for Business Central on-premises. Each current release wave has its own page: 2025 release wave 1 (version 26), 2025 release wave 2 (version 27) and 2026 release wave 1 (version 28). The pages list updates by version number and cover cumulative updates, hotfixes and regulatory features. The version 26 and 27 pages also give build numbers and support article references for each update and note multi-country support.
+This section is the reference for keeping Business Central on-premises deployments current. Each release wave has its own page that lists the updates released during that wave, including hotfixes and regulatory features for supported regions and local versions.
 
-Older versions that no longer receive updates are kept in the "Versions no longer updated" subtopic. It holds 13 archive pages, from version 13 (October 2018) to version 25 (2024 release wave 2).
+The current pages cover 2025 release wave 1 (version 26, updates 26.1 through 26.18, with build numbers and support article references), 2025 release wave 2 (version 27) and 2026 release wave 1. The 2026 release wave 1 page advises installing the latest available update so a deployment has all fixes and regulatory compliance features. Older versions are in the "Versions no longer updated" subtopic, an archive of 13 pages from version 13 (October 2018) to version 25 (2024 release wave 2).
 
-Start with the page for the release wave you run to find the latest update. Use the archive if you need history for an older version.
+Start with the page for the release wave that matches your version to find the newest update. Use the archive when you need to know which updates existed for an older version and when they were released.
 
 ## Key points
 
-- 2025 release wave 1 (version 26) page lists cumulative updates 26.1 through 26.18.
-- 2025 release wave 2 (version 27) page lists cumulative updates 27.1 through 27.12.
-- 2026 release wave 1 (version 28) page covers hotfixes and regulatory features released between May and October 2026, up to version 28.6.
-- The version 26 and 27 pages give build numbers and support article references for each update.
-- Updates include cumulative updates, hotfixes and regulatory features; the version 26 and 27 pages also note hotfix deployment and multi-country support.
-- The archive subtopic has 13 pages for versions 13 (October 2018) to 25 (2024 release wave 2), which no longer receive updates.
+- Each release wave has a page listing its on-premises updates, including hotfixes and regulatory features.
+- 2025 release wave 1 lists cumulative updates from version 26.1 through 26.18 with build numbers and support article references.
+- 2025 release wave 2 covers version 27 updates for all regions and local versions.
+- 2026 release wave 1 updates cover hotfixes and regulatory features released throughout the wave; install the latest available update.
+- The summaries of the 2025 release wave 2 and 2026 release wave 1 pages list version numbers that look inconsistent (version 24 appears on both), so check the page itself.
+- The archive 'Versions no longer updated' has 13 pages, from version 13 (October 2018) to version 25 (2024 release wave 2).
+- The archive shows which cumulative updates, hotfixes and regulatory features were released for each older version, and when.
 
 ## Subtopics
 

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:50:42.930Z"
+  at: "2026-11-07T00:52:53.800Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: ff8ebb0a7ab38d30863d4a10f7b9938c0e1629a488ac447366549a56e92cd851
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/System%20Application/App/ControlAddIns/src/PageReady.ControlAddin.al
+    url: https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/System%20Application/App/ControlAddIns/src/PageReady.ControlAddin.al
     title: src/System Application/App/ControlAddIns/src/PageReady.ControlAddin.al (releases/29.x)
     date: null
-    commit: 7af2f8d2e22b684ec7b2455c7baf1007da944ac5
+    commit: 2f228f96c8a299e26ab425fe4d5fc937ebe8d385
     t: null
     quote: null
 links:
@@ -80,7 +80,7 @@ relations:
 
 > Control add-in "PageReady" in System Application (System.Utilities). Introduced in BC24, still in BC30.
 
-System Application · System.Utilities · BC24-30 · [source at 7af2f8d2](https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/System%20Application/App/ControlAddIns/src/PageReady.ControlAddin.al) · facts from BC29
+System Application · System.Utilities · BC24-30 · [source at 2f228f96](https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/System%20Application/App/ControlAddIns/src/PageReady.ControlAddin.al) · facts from BC29
 
 ## Across versions
 

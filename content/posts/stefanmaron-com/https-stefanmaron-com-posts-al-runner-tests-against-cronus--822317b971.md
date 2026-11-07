@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:47:50.436Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-11-07T00:15:21.625Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -82,7 +82,7 @@ preview:
   image_h: null
   site_name: Stefan Maron
   favicon: https://stefanmaron.com/icons/favicon-32x32.png
-  probed_at: "2026-10-07T11:50:11.272Z"
+  probed_at: "2026-11-07T00:57:24.153Z"
 ---
 
 # AL Runner: Testing Against Real Cronus Data, Debugging Restored, and Mutation-Ready Coverage

@@ -12,7 +12,7 @@ review:
   at: "2026-10-30T08:08:38.208Z"
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -140,6 +140,7 @@ links:
     - change/bcapps/13460
     - change/bcapps/13504
     - change/bcapps/13569
+    - change/bcapps/13721
 learn_toc_path:
   - Copilot and agent capabilities
   - Expense Agent (preview)
@@ -223,6 +224,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13460 [Master] Fix Expense Agent account filters with special characters](../../../changes/bcapps/13460.md) (code change): "Expense Agent now properly handles G/L account lookups when account names"
 - [#13504 Exposing-VAT-settings-on-category-card](../../../changes/bcapps/13504.md) (code change): "VAT settings are now exposed on the Expense Category Card page"
 - [#13569 Update expense policy defaults, caption, and search terms](../../../changes/bcapps/13569.md) (code change): "Expense Agent setups enable policy evaluation by default"
+- [#13721 [Expense Agent] Create per diem line when approving travel requests with Per Diem Included](../../../changes/bcapps/13721.md) (code change): "Expense Agent Create per diem line when approving travel requests with Per Diem Included"
 - [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../../../posts/thinkaboutit-be/8348.md) (community post): "covers Business Skills, the Expense Agent and what AI interaction means"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../videos/4TE8uwIi91k.md) (video): "Expense agent; mobile app; receipt scanning; mileage tracking"
 - [Expense Agent: Web App Experience (2026 release wave 1)](../../../videos/ARKckFygbWQ.md) (video): "Expense agent; web app experience; receipt capture; receipt extraction; automatic categorization"

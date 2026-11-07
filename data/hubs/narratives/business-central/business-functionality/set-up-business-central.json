@@ -1,37 +1,38 @@
 {
   "hub_id": "topic/business-central/business-functionality/set-up-business-central",
-  "input_hash": "3b0924488234a9d5cf53f90e6844b597204ab7ef9a775d83639832c71a0cd94d",
-  "summary": "Setting up Business Central: company-wide setup (company information, number series, base calendars, report selection, online maps, change log auditing, desktop and mobile apps) plus subtopics for configuring each application area. It answers how-to-configure questions and helps pick the right setup area.",
-  "overview": "This section covers what to configure before using Business Central. Its own pages handle company-wide items: an overview of setup tasks, company information and badges, number series, base calendars, report selection, online maps, auditing setup changes with the Change Log, and getting the desktop and mobile apps.\n\nThe subtopics cover each functional area: finance, banking, sales, purchase, inventory, project management, fixed assets, warehouse management, manufacturing, quality management and service management. Others cover shared services: email, printers, approval workflows and data import. A further subtopic gives best practices for costing methods and supply planning.\n\nStart with \"Overview of tasks to set up Business Central\" to see the assisted setup guides and the order of tasks. Then set up company information, number series and base calendars, and move on to the area subtopics you need.",
+  "input_hash": "2c3dcae4af35ff47b0c9e0961ee9012c1bcae8cd1b13c54c71bac9230db1b958",
+  "summary": "Set up Business Central covers initial and ongoing configuration: company information, number series, base calendars, report selection, online maps, change auditing, and app access, plus subtopics for each functional area (finance, sales, inventory, manufacturing and more). It answers how-to-configure questions.",
+  "overview": "This section is the entry point for configuring Business Central. Its own pages cover company-wide settings: company information (addresses, badge, display name, experience), number series, base calendars for working and non-working days, report selection for document layouts, and online maps. Other pages cover auditing setup changes with the Change Log and getting the desktop and mobile apps.\\n\\nThe subtopics go area by area: finance, banking, sales, purchase, inventory, project management, fixed assets, warehouse management, manufacturing, quality management and service management. Cross-cutting topics are email, printers, approval workflows based on templates, and best practices for costing and supply planning. A separate Import data topic covers migration from QuickBooks, Excel files and configuration packages.\\n\\nStart with \\\"Overview of tasks to set up Business Central\\\" for a list of setup tasks and the assisted setup guides. Then go to the setup topic for the area you need.",
   "key_points": [
-    "Overview page lists setup tasks: assisted setup guides, configuration packages, base calendars, number series, email and printer setup.",
+    "The overview page lists setup tasks: assisted setup guides, configuration packages, base calendars, number series, email and printer setup.",
+    "Number series assign unique sequential codes to customers, vendors, documents and master data. Options include Manual Nos., Default Nos. and Allow Gaps in Nos. for non-financial transactions.",
+    "Base calendars set working and non-working days for the company and business partners. They drive date calculations in orders and production planning.",
+    "Report selection sets default reports and layouts for printing and emailing sales, purchase, service and other documents, including email body, attachment and check layouts.",
+    "The Change Log captures setup changes by table and can send email notifications for sensitive fields. Starting in 2026 release wave 2, it tracks financial report changes automatically.",
     "Company information covers headquarters and warehouse addresses, company badge, display name, company switcher and experience selection.",
-    "Number series assign unique sequential codes; options include Manual Nos., Default Nos., Allow Gaps in Nos., Number Series Lines and Relationships.",
-    "Base calendars define working and non-working days for date calculations in orders and production planning.",
-    "Change Log captures setup changes by table, with email notifications for sensitive fields; automatic tracking of financial report changes starts in 2026 release wave 2.",
-    "Report selection sets default reports and layouts for printing and emailing sales, purchase, service and other documents.",
-    "Desktop app runs on Windows and macOS with multi-environment support; the mobile app is on App Store and Google Play for cloud and on-premises.",
-    "Area subtopics cover finance, banking, sales, purchase, inventory, projects, fixed assets, warehouse, manufacturing, quality, service, email, printers, approvals and data import."
+    "Online maps show locations and route directions for customer and vendor addresses, and the map provider can be customized.",
+    "The desktop app runs on Windows and macOS and supports multiple environments on Business Central online. The mobile app comes from the App Store or Google Play and supports both cloud and on-premises deployments."
   ],
   "members_used": 9,
   "subtopics_used": 16,
   "prompt_version": 1,
-  "at": "2026-11-06T01:01:47.440Z",
+  "at": "2026-11-07T01:06:23.818Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.022393
+    "cost_usd": 0.023079000000000002
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-06T01:02:03.309Z",
-    "verdict": "approve",
+    "at": "2026-11-07T01:06:38.656Z",
+    "verdict": "fix",
     "issues": [
-      "Overview says the setup overview page shows 'the order of tasks'. The source only says it gives an overview of setup tasks and assisted setup guides, so a recommended order isn't directly supported. This is a minor wording point.",
-      "The last key point lists the area subtopics but leaves out the best-practices subtopic on costing methods and supply planning. The overview does mention it, so this is acceptable."
+      "Overview's last paragraph gives a setup order (company information, number series and calendars before area topics) and says the overview page gives a 'sequence of tasks'. The sources don't support either claim. The overview page only lists setup tasks and assisted setup guides.",
+      "App key point: 'for cloud and on-premises' applies only to the mobile app. The desktop app summary mentions multiple environments on Business Central online only. The sentence is reworded so each app gets only what its source says.",
+      "Change Log key point: reworded so it's clear that only the automatic tracking of financial report changes starts in 2026 release wave 2. The source adds no version to email notifications."
     ],
-    "input_hash": "3b0924488234a9d5cf53f90e6844b597204ab7ef9a775d83639832c71a0cd94d",
-    "cost_usd": 0.053976
+    "input_hash": "2c3dcae4af35ff47b0c9e0961ee9012c1bcae8cd1b13c54c71bac9230db1b958",
+    "cost_usd": 0.074336
   }
 }

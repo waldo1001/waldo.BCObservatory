@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcquality-prs/256",
+  "input_hash": "81aa3a4117edb4391b0e1bac963cafa5eee40689fcbd08207a32c9dd2bd1ca68",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-07T01:03:50.235Z",
+  "issues": [
+    "The key point about removing install code describes a revision inside the PR itself. The merged change does not remove install code compared with main.",
+    "The key point about passing checks describes validation, not a change.",
+    "The OnDelete detail was missing: it deletes the point entries filtered on Member No. and adds rd permissions."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020036,
+    "changes_in_call": 6
+  }
+}

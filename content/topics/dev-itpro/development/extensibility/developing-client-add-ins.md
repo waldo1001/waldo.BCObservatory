@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -50,8 +50,6 @@ links:
     - post/yzhums-com/74975
     - post/yzhums-com/75073
   guidelines: []
-  changes:
-    - change/bcquality/260
 learn_toc_path:
   - Development
   - Extensibility
@@ -99,11 +97,10 @@ Then use the Control Add-in Style Guide when the add-in shows charts, maps, or t
 - [Control add-in performance best practices](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-bestpractices): Learn how to provide the best possible experience and performance for control add-ins in Business Central.
 - [Control Add-in Style Guide for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-style): Style control add-ins for Dynamics 365 Business Central with CSS. Choose colors and fonts, and build readable controls with keyboard access.
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#260 Fix al-knowledge follow-ups and document the skill](../../../../changes/bcquality/260.md) (code change): "control-add-in and UI article requests"
 - [Step-by-Step Guide to Custom User Controls in Business Central](../../../../posts/aardvarklabs-blog/3680.md) (community post): "Custom user controls in Business Central use HTML, JavaScript, and AL to create bespoke UI components"
 - [📊 Mermaid Diagrams in Business Central: Dynamic Visual Intelligence 🎨](../../../../posts/gerardorenteria-blog/12801.md) (community post): "JavaScript control add-in bridge, and the Mermaid.js CDN"
 - [Embed Visual Studio Code in Business Central](../../../../posts/jpearson-blog/1583.md) (community post): "Embedding Visual Studio Code's Monaco editor in a Business Central control add-in"

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:03:35.392Z"
   flags: []
 generated:
-  at: "2026-10-30T08:03:27.657Z"
+  at: "2026-11-07T01:00:13.982Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -224,7 +224,9 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573384
+    - feature/577820
   topics: []
   localizations: []
   videos: []
@@ -482,7 +484,9 @@ features:
     status: preview
     t: 1844
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: Scheduled client performance profiler
     status: unclear
     t: 1959
@@ -504,10 +508,12 @@ features:
     verified: false
     status_source: video
   - name: Page scripting in pipelines
-    status: unclear
+    status: ga
     t: 2176
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573384"
 objects_mentioned:
   - other Analysis View
   - other Customer page
@@ -670,12 +676,14 @@ It then covers Power Automate, modern search in preview, column resizing and acc
 | AI usage telemetry for ISVs and partners | status not stated | [27:40](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1660s) |  |
 | AI testing toolkit for copilot solutions | preview | [29:01](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1741s) | "so please take a look at the preview which we published at aka.ms BC ups" ([30:03](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1803s)) |
 | Azure AI Studio integration for harm testing | status not stated | [29:43](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1783s) |  |
-| Managed AI resources private preview | preview | [30:44](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1844s) | "we are gradually coming to the place where we would like to expand this private preview into the public preview so there will definitely" ([31:24](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1884s)) |
+| Managed AI resources private preview | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [30:44](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1844s) | "we are gradually coming to the place where we would like to expand this private preview into the public preview so there will definitely" ([31:24](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1884s)) |
 | Scheduled client performance profiler | status not stated | [32:39](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1959s) |  |
 | Modern search performance improvement | status not stated | [33:39](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2019s) |  |
 | Job queue priority and execution order | status not stated | [34:20](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2060s) |  |
 | Warehouse ledger entry posting pattern refactor | status not stated | [35:00](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2100s) |  |
-| Page scripting in pipelines | status not stated | [36:16](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2176s) |  |
+| Page scripting in pipelines | generally available (roadmap [Page Scripting enters General Availability](../features/573384.md)) | [36:16](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2176s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

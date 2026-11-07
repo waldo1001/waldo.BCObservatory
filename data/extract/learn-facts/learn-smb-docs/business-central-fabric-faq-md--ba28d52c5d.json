@@ -1,51 +1,47 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/fabric-faq.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/fabric-faq",
-  "title": "FAQ About Mirroring Business Central Data to Microsoft Fabric",
-  "blob": "c9e0227816e446c61535167b2deeb33bcd482003",
+  "title": "Business Central Mirroring to Microsoft Fabric FAQ",
+  "blob": "2fa10ae8924d177fa8c48a48858f36310665c84f",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "status",
-      "text": "Currently in private preview. Public preview expected within the next few weeks. Availability, requirements, and limits might change."
+      "text": "The data mirroring feature is in preview as of the article publication date."
     },
     {
       "kind": "prerequisite",
-      "text": "Business Central 2026 release wave 2 required. Final minimum update not confirmed. Expected minimum version is 29.0."
+      "text": "Business Central online environment must support the Microsoft Fabric Mirroring extension."
     },
     {
       "kind": "prerequisite",
-      "text": "Microsoft Fabric capacity required. Currently need F SKU commonly F2 or higher, or existing P SKU capacity."
+      "text": "Fabric workspace must be assigned to an active Microsoft Fabric capacity. Paused or deleted capacity stops replication."
     },
     {
       "kind": "fact",
-      "text": "Business Central does not add licensing or consumption charge for mirroring. Fabric capacity charges apply."
+      "text": "First create an open mirrored database in Fabric, then configure Business Central to replicate data to that database."
     },
     {
       "kind": "fact",
-      "text": "Feature available globally. Geographic and tenant restrictions not identified."
-    },
-    {
-      "kind": "step",
-      "text": "Create open mirrored database in Fabric first, then configure Business Central to replicate to that database."
+      "text": "Enter the service principal Object ID in Principal ID only when using Add to workspace. If access is already granted in Fabric, leave it blank."
     },
     {
       "kind": "fact",
-      "text": "Configuration takes place in both Fabric and Business Central. Create open mirrored database in Fabric, then configure Business Central separately."
+      "text": "Connect to Fabric requests background connection setup. Start synchronization requests continuous exports after at least one company and table are selected."
     },
     {
       "kind": "fact",
-      "text": "Mirroring configured separately for each Business Central environment. On Microsoft Fabric Mirroring Setup page, choose companies and tables."
+      "text": "Deleted records are synchronized along with inserted and updated records."
     }
   ],
-  "dropped": 0,
+  "dropped": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006355,
-      "pages_in_call": 7
+      "cost_usd": 0.007238,
+      "pages_in_call": 5
     }
   ]
 }

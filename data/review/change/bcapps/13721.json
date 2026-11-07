@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13721",
+  "input_hash": "76d693823ca6cd431e4c0d83572bda261a84e0d5e498d0b877ee15d8e97c0c52",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-07T01:03:56.773Z",
+  "issues": [
+    "Key point claiming centralization 'improves maintainability' is an unsupported judgement; replaced with a factual point.",
+    "Added that existing expense reports are not changed, as the description states.",
+    "Other fields are supported by the description."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032335,
+    "changes_in_call": 6
+  }
+}

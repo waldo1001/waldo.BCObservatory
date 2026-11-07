@@ -2,26 +2,26 @@
 id: topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions
 type: topic
 title: Earlier versions
-summary: Earlier versions covers on-premises Business Central upgrade documentation for each release from spring 2019 (v.14) through 2024 release wave 1 (version 24). It answers which upgrade paths exist to a given version, how to run the technical upgrade, convert C/AL to AL, move tables between extensions, and install updates.
+summary: Earlier versions covers on-premises Business Central upgrade documentation for older releases, from spring 2019 (v.14) through 2024 release wave 1 (version 24). It answers which upgrade path applies from a given source version, how to install a version update, and how to handle C/AL to AL conversion, table moves between extensions, and permission set and report changes.
 tier: official
 language: en
 system: platform
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T05:20:49.753Z"
+  at: "2026-11-07T01:06:39.442Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 7398176ee60cba32ce7c5de749086cb136b070cec4f6b6fbdd71f4b6269cc17f
+  input_hash: e2676dbf95f3d4492ab09867b2117a123949043d02fe3bae729e71af2336a787
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility
     title: Business Central Upgrade Compatibility Matrix
-    date: "2026-10-01"
+    date: "2026-11-06"
     commit: null
     t: null
     quote: null
@@ -351,24 +351,24 @@ narrative: generated
 
 # Earlier versions
 
-> Earlier versions covers on-premises Business Central upgrade documentation for each release from spring 2019 (v.14) through 2024 release wave 1 (version 24). It answers which upgrade paths exist to a given version, how to run the technical upgrade, convert C/AL to AL, move tables between extensions, and install updates.
+> Earlier versions covers on-premises Business Central upgrade documentation for older releases, from spring 2019 (v.14) through 2024 release wave 1 (version 24). It answers which upgrade path applies from a given source version, how to install a version update, and how to handle C/AL to AL conversion, table moves between extensions, and permission set and report changes.
 
 Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Earlier versions · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section holds one subtopic per release, from Business Central spring 2019 (v.14) to 2024 release wave 1 (version 24). Each subtopic is a self-contained set of upgrade pages for that target version, so pick the one that matches the version you are upgrading to.
+This section holds one subtopic per earlier release, each with the upgrade documentation for that target version on-premises. The sets run from spring 2019 (v.14) and 2019 release wave 2 (version 15), through the 2020, 2021 and 2022 waves (versions 16 to 21), to 2023 waves 1 and 2 (versions 22 and 23) and 2024 release wave 1 (version 24). The hub has no pages of its own.
 
 ## Key points
 
-- Each release has its own upgrade set: v.14 (spring 2019), 15, 16, 17, 18, 19, 20, 21, 22, 23 and 24.
-- Subtopics list the supported upgrade paths to that version, for example versions 14 through 22 for version 23, and C/AL (version 14) or versions 15-23 for version 24.
-- Later releases cover technical upgrade steps, with separate paths for unmodified and customized C/AL from version 14 (shown for version 21).
-- C/AL to AL conversion is covered, with Txt2Al named in the version 17 and 19 pages.
-- Moving tables and fields between extensions is covered, with migration.json named in the version 16, 17 and 19 pages.
-- Most subtopics include a compatibility matrix for upgrade paths and minimum versions, and several cover installing cumulative updates for that version.
-- Permission set and report changes are covered in the later releases, and the version 19 pages add the India data migration toolkit.
-- The spring 2019 (v.14) pages cover technical upgrade, code merging, single-tenant and multitenant data upgrade, and codeunit 1 replacement.
+- Start with the subtopic for the target version you are upgrading to, then pick the path from your source version.
+- Spring 2019 (v.14) covers technical upgrade, application code merging, single-tenant and multitenant data upgrade, cumulative update installation, and codeunit 1 replacement.
+- Version 15 (2019 wave 2) covers upgrade from version 14, technical versus unmodified-application upgrades, and compatibility checks.
+- Version 16 (2020 wave 1) covers upgrade from versions 13, 14 and 15 and includes the upgrade compatibility matrix.
+- Version 17 (2020 wave 2) and version 18 (2021 wave 1) cover upgrade from versions 14 to 16 and 14 to 17 respectively.
+- Version 19 (2021 wave 2) adds the India data migration toolkit to the usual upgrade topics.
+- Versions 20 to 24 (2022 wave 1 to 2024 wave 1) cover upgrade paths for C/AL and extension-based solutions, moving tables between extensions, permission set changes, and report changes.
+- Most version sets also cover installing an update for that version, and versions 16 to 24 cover moving tables and fields between extensions.
 
 ## Subtopics
 

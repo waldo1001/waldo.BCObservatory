@@ -2,26 +2,26 @@
 id: topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions/business-central-2023-release-wave-1
 type: topic
 title: Business Central 2023 release wave 1
-summary: Upgrade documentation for Business Central on-premises 2023 release wave 1 (version 22). It covers upgrade paths from version 14 and versions 15-21, technical and application upgrade steps, C/AL to AL conversion, table migration between extensions, permissions, reports, and the compatibility matrix.
+summary: "Upgrade guidance for on-premises Business Central 2023 release wave 1 (version 22): upgrade paths from versions 14 through 21, technical upgrade steps, C/AL to AL conversion, table and field migration between extensions, and permission and report changes. It answers how to move a given source version to version 22."
 tier: official
 language: en
 system: platform
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:18:36.641Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0dee248da36f8ca1be7a1caa8e70389f2b3991ee0546c4cc452691f272812e4a
+  input_hash: 966ae00a6f2a54e6b7e085a55513c1d89af2c94e0a7ab04e8e68b64236581226
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility
     title: Business Central Upgrade Compatibility Matrix
-    date: "2026-10-01"
+    date: "2026-11-06"
     commit: null
     t: null
     quote: null
@@ -169,28 +169,28 @@ narrative: generated
 
 # Business Central 2023 release wave 1
 
-> Upgrade documentation for Business Central on-premises 2023 release wave 1 (version 22). It covers upgrade paths from version 14 and versions 15-21, technical and application upgrade steps, C/AL to AL conversion, table migration between extensions, permissions, reports, and the compatibility matrix.
+> Upgrade guidance for on-premises Business Central 2023 release wave 1 (version 22): upgrade paths from versions 14 through 21, technical upgrade steps, C/AL to AL conversion, table and field migration between extensions, and permission and report changes. It answers how to move a given source version to version 22.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2023 release wave 1 · tier official · system platform · narrative reviewed (checked by Opus)
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2023 release wave 1 · tier official · system platform · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is the upgrade guide for Business Central 2023 release wave 1 (version 22) on-premises. It starts with general considerations and an overview page that lists upgrade paths, deprecated features, and the move to online. From there the pages split by starting point: from version 14 (C/AL), or from versions 15-21.
+This section covers upgrading on-premises Business Central to 2023 release wave 1 (version 22). The path depends on the starting version. From versions 20 or 21 there is a direct technical upgrade. Versions 15-21 follow the System and Base Application upgrade procedure. Version 14 C/AL solutions need either the unmodified or the customized route, both of which replace the base application with Microsoft System and Base Application extensions.
 
-For version 14, there are separate routes for an unmodified C/AL application and for a customized one. Both replace the base application with the Microsoft System and Base Application extensions. Customized solutions need code conversion with Txt2Al and data moved with migration.json and the DestinationAppsForMigration setting. A separate page covers the technical upgrade from version 14 to 22, which converts C/AL customizations to an AL base application extension. For versions 20 and 21 there is a technical upgrade page, and another page covers installing a version 22 update.
+Start with the "Upgrade to Business Central 2023 Wave 1" overview and the general considerations page, which list upgrade paths and deprecated features. The compatibility matrix confirms valid minimum versions. Then pick the technical upgrade page that matches your source version. "Install a version 22 update" covers applying a version 22 update on-premises with PowerShell.
 
-Supporting pages cover moving tables and fields between extensions (up or down the dependency graph), upgrading permission sets to AL objects, and report platform changes from version 20. Start with the overview page and the compatibility matrix, then pick the path that matches your current version.
+Supporting pages cover specific tasks. These are C/AL to AL conversion with Txt2Al, migrating tables and fields between extensions with migration.json (moving down or up the dependency graph), upgrading permission sets to AL object-based permissions, and report platform changes from version 20.
 
 ## Key points
 
-- Version 22 is 2023 release wave 1. Upgrade guidance covers sources from version 14 and versions 15-21.
-- The compatibility matrix gives minimum update versions for upgrades between major versions. For later upgrades, it also notes that sources at version 24 or earlier must target version 25 first.
-- Customized version 14 C/AL solutions are converted to AL with the Txt2Al tool, then data is migrated using DestinationAppsForMigration and migration.json.
-- Unmodified version 14 applications are upgraded by replacing the base application with System and Base Application extensions.
-- Technical upgrade steps include database conversion, extension recompilation, tenant mounting and synchronization, permission set upgrade, and add-in copying.
-- Moving table ownership between extensions uses migration.json. Moving up the dependency graph needs a two-stage process with a transition extension.
-- Permissions move from legacy data-based permissions to AL object-based Permission Set and Permission Set Extension objects.
-- Report upgrade guidance for version 20 and later covers the new rendering model, event changes, and Word and custom layouts.
+- Version 22 upgrades from versions 20 or 21 involve database conversion, extension recompilation, and tenant mounting with synchronization.
+- Versions 15-21 are upgraded to version 22 with a step-by-step procedure covering database conversion, extension publishing, data synchronization, and license import.
+- Version 14 upgrades convert C/AL to an AL base application extension. The Txt2Al tool handles the code conversion.
+- Customized and unmodified version 14 paths use the DestinationAppsForMigration server setting and migration.json for table migration.
+- Moving tables and fields down the dependency graph uses migration.json. Moving them up needs a transition extension and a two-stage deployment.
+- Permission sets must move from legacy data-based permissions to AL object-based Permission Set and Permission Set Extension objects.
+- Report upgrades for version 20 and later cover the new rendering model, event changes, and handling of Word and custom report layouts.
+- The compatibility matrix lists minimum compatible update versions for upgrades, from version 14 onward.
 
 ## Learn pages
 

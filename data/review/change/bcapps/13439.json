@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/13439",
+  "input_hash": "70f8f8a73f77783e02af4ccd75c1da746ac3c01da549d403fc83aac434c77dd0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-07T01:03:56.773Z",
+  "issues": [
+    "Key point said MinValue was added to all three tables in all country layers; only Item and Item Templ. were propagated to country layers, Stockkeeping Unit is W1 only.",
+    "Key points on the planning error were slightly muddled; clarified."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032335,
+    "changes_in_call": 6
+  }
+}

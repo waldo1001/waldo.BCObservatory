@@ -2,41 +2,41 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-manage-fabric-export.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export",
   "title": "Manage Business Central Synchronization with Microsoft Fabric",
-  "blob": "2673389d57f5ac4c3fa9776132e0b21aaf432ae4",
+  "blob": "62722fb3b863ba3de0d7e7d67ec0ca2d8a7b3d62",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
-      "kind": "status",
-      "text": "Production-ready preview planned to become available in October 2026. Delivery timing and functionality might change. Subject to supplemental terms of use."
-    },
-    {
       "kind": "permission",
-      "text": "MS Fabric Mirroring - Admin permission set: set up connection, select companies and tables, manage packages, control synchronization, and view monitoring."
-    },
-    {
-      "kind": "permission",
-      "text": "MS Fabric Mirroring - Activate permission set: activate, deactivate, and reapply configuration packages."
-    },
-    {
-      "kind": "permission",
-      "text": "MS Fabric Mirroring - Read permission set: view synchronization overview and detail information."
+      "text": "Three permission sets control access: MS Fabric Mirroring - Admin (setup and control), MS Fabric Mirroring - Activate (activate and reapply packages), and MS Fabric Mirroring - Read (view monitoring…"
     },
     {
       "kind": "step",
-      "text": "Open Microsoft Fabric Mirroring Setup page, select Configuration, then Companies, then Add company, and select a company to synchronize."
-    },
-    {
-      "kind": "step",
-      "text": "Open Microsoft Fabric Mirroring Setup page, select Configuration, then Tables, select Add table, and select one or more Business Central tables. Up to 1,000 tables allowed."
+      "text": "To select companies, open the setup page, select Configuration and Companies, then add each company to synchronize."
     },
     {
       "kind": "fact",
-      "text": "Configuration packages provide curated table sets. MS-STD package contains 256 standard Business Central tables for analytics. Activate, deactivate, or reapply packages from Import/Export…"
+      "text": "Enabled companies synchronize their table data. You can disable a company temporarily without removing its configuration."
     },
     {
       "kind": "limit",
-      "text": "Activating or reapplying a package cannot increase total selection beyond 1,000-table limit."
+      "text": "You can select up to 1,000 tables across manual selections and active configuration packages. External, linked, virtual, and sensitive internal tables are excluded."
+    },
+    {
+      "kind": "step",
+      "text": "To add tables, open Configuration and Tables, select Add table, then choose one or more eligible Business Central tables."
+    },
+    {
+      "kind": "fact",
+      "text": "Configuration packages let you add a curated set of tables at once. The app includes the MS-STD package with 256 standard tables."
+    },
+    {
+      "kind": "fact",
+      "text": "Package operations like Activate add tables to the list, Deactivate removes package selections (other selections keep tables), and Reapply adds missing selections from an updated package version."
+    },
+    {
+      "kind": "fact",
+      "text": "You can import JSON package definitions with table IDs, code, description, and version. Importing the same code with a new version applies changes."
     }
   ],
   "dropped": 0,
@@ -44,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006355,
-      "pages_in_call": 7
+      "cost_usd": 0.007238,
+      "pages_in_call": 5
     }
   ]
 }

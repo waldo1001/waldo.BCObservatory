@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/dev-itpro/integration/integrating-with-microsoft-fabric/integrating-with-microsoft-copilot-studi",
+  "input_hash": "5b90222bffc7d5ed27543e91f66136f1bb6b22df1700ffe964810a84bca6048c",
+  "summary": "Integrating Business Central with Microsoft Copilot Studio covers configuring the Business Central MCP Server and building Copilot Studio agents that connect to Business Central. It answers questions about which APIs and operations agents can use, and how to connect through the connector or MCP server.",
+  "overview": "This section has two pages that work as a pair. The first is for administrators: it explains how to configure the Business Central MCP Server so AI agents can connect to an environment and work with data through API pages and queries. Configurations define which APIs agents can access and which operations they may perform.\n\nThe second page is for agent builders: it shows how to create agents in Copilot Studio that connect to Business Central, either through the Business Central connector or through the MCP server. Agents can read and write records, call APIs, and automate business tasks, with connector actions or MCP connections set up using appropriate Business Central permissions.\n\nStart with the MCP server configuration page so the allowed APIs and operations are defined, then move to the Copilot Studio page to build and connect the agent.",
+  "key_points": [
+    "The Business Central MCP Server lets AI agents read, create, modify, delete, and run actions on Business Central data via API pages and queries.",
+    "Administrators create configurations that define which APIs agents can access and which operations are permitted.",
+    "MCP server features include API Tools, Dynamic Tool Mode, Data Query Tools, and API object discovery (including read-only object discovery).",
+    "Copilot Studio agents can connect to Business Central using the Business Central connector or the MCP server.",
+    "Connector-based agents can find, create, update, and delete records and call API actions.",
+    "Agent tools are configured as connector actions or MCP server connections, with appropriate Business Central permissions.",
+    "Dynamic tool discovery is supported in the Copilot Studio agent scenario."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-11-07T01:06:14.948Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010036999999999999
+  }
+}

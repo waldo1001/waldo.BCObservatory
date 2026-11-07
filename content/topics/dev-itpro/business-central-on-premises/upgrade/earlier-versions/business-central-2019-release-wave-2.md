@@ -2,26 +2,26 @@
 id: topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions/business-central-2019-release-wave-2
 type: topic
 title: Business Central 2019 release wave 2
-summary: Upgrading on-premises Business Central from version 14 (Spring 2019) to version 15 (2019 release wave 2), plus installing version 15 updates and a compatibility matrix for upgrade paths. It answers questions about upgrade strategies, technical upgrade tasks, unmodified application upgrades, and minimum versions for upgrades.
+summary: Business Central 2019 release wave 2 (version 15) on-premises upgrade covers moving from version 14 (Spring 2019), installing version 15 updates, and checking upgrade compatibility. It answers questions about upgrade paths, technical versus unmodified-application upgrades, and cumulative update installation.
 tier: official
 language: en
 system: platform
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:24:54.040Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 5620f852d257262e2d1beff1630dfc9c9e675e2fff6adf4ef7e5e5bae8ed6a9a
+  input_hash: 5bb4b20d80fe309b151423049af7dac66532c4aabde47b35222113b424e25a61
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility
     title: Business Central Upgrade Compatibility Matrix
-    date: "2026-10-01"
+    date: "2026-11-06"
     commit: null
     t: null
     quote: null
@@ -89,23 +89,26 @@ narrative: generated
 
 # Business Central 2019 release wave 2
 
-> Upgrading on-premises Business Central from version 14 (Spring 2019) to version 15 (2019 release wave 2), plus installing version 15 updates and a compatibility matrix for upgrade paths. It answers questions about upgrade strategies, technical upgrade tasks, unmodified application upgrades, and minimum versions for upgrades.
+> Business Central 2019 release wave 2 (version 15) on-premises upgrade covers moving from version 14 (Spring 2019), installing version 15 updates, and checking upgrade compatibility. It answers questions about upgrade paths, technical versus unmodified-application upgrades, and cumulative update installation.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2019 release wave 2 · tier official · system platform · narrative reviewed (checked by Opus)
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2019 release wave 2 · tier official · system platform · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the 2019 release wave 2 (version 15) upgrade for on-premises Business Central. It describes how to move from version 14 and how to apply later cumulative updates to version 15.
+This section covers upgrading on-premises Business Central from version 14 (Spring 2019) to 2019 release wave 2 (version 15), and keeping version 15 current. The entry page describes the migration strategies: a full uptake of the base and system applications, or a minimal upgrade of a customized application using customization extensions and symbols.
+
+Two detailed procedures follow. One is for an unmodified application and one is the technical upgrade, which includes C/AL to AL code conversion. A separate page covers installing cumulative updates for version 15.
+
+Start with the upgrade overview to pick a path. Then follow the matching procedure. Use the compatibility matrix to confirm the minimum update versions required before you begin.
 
 ## Key points
 
-- Start with 'Upgrade to Business Central 2019 Wave 2'. It describes the upgrade paths from version 14: full uptake of the base and system applications, or a minimal upgrade of a customized application.
-- 'Upgrade an unmodified application' covers version 14 to 15 for single-tenant and multitenant deployments. Tasks include converting databases to the new platform, publishing and synchronizing extensions, installing the system and base applications, and running the data upgrade.
-- 'Technical Upgrade' covers moving from version 14 to 15 with C/AL to AL code conversion. Its tasks include database preparation, platform conversion, extension migration, the task scheduler, encryption management and control add-ins.
-- 'Install a version 15 update' covers cumulative updates for 2019 release wave 2. Steps include platform upgrade, application update, extension uninstallation, database conversion, server instance configuration and license import.
-- The compatibility matrix lists minimum update versions for upgrades between major versions (15 to 28), on-premises and online.
-- Per the matrix, upgrades from version 24 or earlier must target version 25 first.
-- The matrix also shows minimum target versions for upgrading from each cumulative update level of version 14 to versions 15 through 25.
+- Two upgrade routes from version 14 to version 15: unmodified application upgrade and technical upgrade.
+- Unmodified application upgrade: convert the database to the new platform, publish and synchronize extensions, install system and base applications, and run the data upgrade. It applies to single-tenant and multitenant deployments.
+- Technical upgrade involves C/AL to AL code conversion, database preparation, platform conversion and extension migration. It also covers the task scheduler, encryption management and control add-ins.
+- Installing a version 15 update involves platform upgrade, application update, extension uninstallation, database conversion, server instance configuration and license import.
+- The compatibility matrix lists minimum compatible update versions for upgrades between major releases and their minor updates, from version 14 through 28+.
+- Use the compatibility matrix to validate an upgrade path before upgrading on-premises or migrating to the cloud.
 
 ## Learn pages
 

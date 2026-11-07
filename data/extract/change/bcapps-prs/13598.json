@@ -6,7 +6,7 @@
   "systems_joined": [
     "administration"
   ],
-  "summary": "My Notifications no longer raises an error when two concurrent sessions initialize the same notification row; instead, the losing session reloads the row inserted by the winning session, preserving both users' settings.",
+  "summary": "My Notifications no longer fails with an 'already exists' error when two sessions of the same user initialize the same notification row at once. The losing session reloads the row the winning session inserted and does not overwrite its saved settings.",
   "key_points": [
     "Fixed race condition where concurrent sessions would both find no notification row and attempt to insert, causing the second session to fail with 'already exists' error",
     "Implemented shared insert-or-get operation for all three default-insert helpers to handle concurrent initialization gracefully",

@@ -12,7 +12,7 @@ review:
   at: "2026-10-30T08:08:32.465Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,7 +91,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/faqs-payables-agent
     title: Payables Agent Frequently Asked Questions
-    date: "2026-10-02"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
@@ -211,7 +211,7 @@ Start with the index page, "Responsible AI FAQs for Dynamics 365 Business Centra
 - [FAQ for Suggest Number Series with Copilot](https://learn.microsoft.com/dynamics365/business-central/faq-suggest-number-series-with-copilot): This FAQ provides information about the AI technology used in Business Central.
 - [FAQ for suggest sales lines with Copilot](https://learn.microsoft.com/dynamics365/business-central/faq-sales-suggest-sales-lines-with-copilot): This FAQ provides information about the AI technology used in Business Central for sales line suggestions.
 - [FAQs for analysis assist (preview)](https://learn.microsoft.com/dynamics365/business-central/faqs-analysis-assist): This FAQ provides information about the AI technology used for analyzing data on pages in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-- [Payables Agent Frequently Asked Questions](https://learn.microsoft.com/dynamics365/business-central/faqs-payables-agent): Learn how AI automates purchase invoice creation in Business Central, including setup, capabilities, limitations, and responsible use.
+- [Payables Agent Frequently Asked Questions](https://learn.microsoft.com/dynamics365/business-central/faqs-payables-agent): Learn how Payables Agent creates purchase invoices and credit memos in Business Central, including review controls, limitations, and responsible use.
 - [Responsible AI FAQ for Advanced Tell Me](https://learn.microsoft.com/dynamics365/business-central/faqs-advanced-tell-me): Learn about the AI technology behind Advanced Tell Me semantic search. Get an overview, evaluation metrics, limits, mitigations, data use, security details, and feedback steps.
 - [Responsible AI FAQ for Autofill (preview)](https://learn.microsoft.com/dynamics365/business-central/faqs-autofill): Learn about the AI technology of Autofill in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
 - [Responsible AI FAQ for Expense Agent (preview)](https://learn.microsoft.com/dynamics365/business-central/expense-management/faqs-expense-agent): Learn how AI automates expenses processing in Business Central, including setup, capabilities, limitations, and responsible use.

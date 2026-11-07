@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:47:06.819Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-11-07T00:15:21.625Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -78,7 +78,7 @@ preview:
   image_h: null
   site_name: Stefan Maron
   favicon: https://stefanmaron.com/icons/favicon-32x32.png
-  probed_at: "2026-10-07T11:50:13.242Z"
+  probed_at: "2026-11-07T00:57:25.422Z"
 ---
 
 # Introducing bcdb: Read a Business Central Backup Without SQL Server

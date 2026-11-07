@@ -2,20 +2,20 @@
 id: topic/business-central/business-functionality/set-up-business-central
 type: topic
 title: Set up Business Central
-summary: "Setting up Business Central: company-wide setup (company information, number series, base calendars, report selection, online maps, change log auditing, desktop and mobile apps) plus subtopics for configuring each application area. It answers how-to-configure questions and helps pick the right setup area."
+summary: "Set up Business Central covers initial and ongoing configuration: company information, number series, base calendars, report selection, online maps, change auditing, and app access, plus subtopics for each functional area (finance, sales, inventory, manufacturing and more). It answers how-to-configure questions."
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-11-06T01:02:03.309Z"
+  at: "2026-11-07T01:06:38.656Z"
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 3b0924488234a9d5cf53f90e6844b597204ab7ef9a775d83639832c71a0cd94d
+  input_hash: 2c3dcae4af35ff47b0c9e0961ee9012c1bcae8cd1b13c54c71bac9230db1b958
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-how-enable-application-ledger-entries-different-currencies
@@ -1162,28 +1162,24 @@ narrative: generated
 
 # Set up Business Central
 
-> Setting up Business Central: company-wide setup (company information, number series, base calendars, report selection, online maps, change log auditing, desktop and mobile apps) plus subtopics for configuring each application area. It answers how-to-configure questions and helps pick the right setup area.
+> Set up Business Central covers initial and ongoing configuration: company information, number series, base calendars, report selection, online maps, change auditing, and app access, plus subtopics for each functional area (finance, sales, inventory, manufacturing and more). It answers how-to-configure questions.
 
 Path: [Business functionality](../business-functionality.md) > Set up Business Central · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers what to configure before using Business Central. Its own pages handle company-wide items: an overview of setup tasks, company information and badges, number series, base calendars, report selection, online maps, auditing setup changes with the Change Log, and getting the desktop and mobile apps.
-
-The subtopics cover each functional area: finance, banking, sales, purchase, inventory, project management, fixed assets, warehouse management, manufacturing, quality management and service management. Others cover shared services: email, printers, approval workflows and data import. A further subtopic gives best practices for costing methods and supply planning.
-
-Start with "Overview of tasks to set up Business Central" to see the assisted setup guides and the order of tasks. Then set up company information, number series and base calendars, and move on to the area subtopics you need.
+This section is the entry point for configuring Business Central. Its own pages cover company-wide settings: company information (addresses, badge, display name, experience), number series, base calendars for working and non-working days, report selection for document layouts, and online maps. Other pages cover auditing setup changes with the Change Log and getting the desktop and mobile apps.\n\nThe subtopics go area by area: finance, banking, sales, purchase, inventory, project management, fixed assets, warehouse management, manufacturing, quality management and service management. Cross-cutting topics are email, printers, approval workflows based on templates, and best practices for costing and supply planning. A separate Import data topic covers migration from QuickBooks, Excel files and configuration packages.\n\nStart with \"Overview of tasks to set up Business Central\" for a list of setup tasks and the assisted setup guides. Then go to the setup topic for the area you need.
 
 ## Key points
 
-- Overview page lists setup tasks: assisted setup guides, configuration packages, base calendars, number series, email and printer setup.
+- The overview page lists setup tasks: assisted setup guides, configuration packages, base calendars, number series, email and printer setup.
+- Number series assign unique sequential codes to customers, vendors, documents and master data. Options include Manual Nos., Default Nos. and Allow Gaps in Nos. for non-financial transactions.
+- Base calendars set working and non-working days for the company and business partners. They drive date calculations in orders and production planning.
+- Report selection sets default reports and layouts for printing and emailing sales, purchase, service and other documents, including email body, attachment and check layouts.
+- The Change Log captures setup changes by table and can send email notifications for sensitive fields. Starting in 2026 release wave 2, it tracks financial report changes automatically.
 - Company information covers headquarters and warehouse addresses, company badge, display name, company switcher and experience selection.
-- Number series assign unique sequential codes; options include Manual Nos., Default Nos., Allow Gaps in Nos., Number Series Lines and Relationships.
-- Base calendars define working and non-working days for date calculations in orders and production planning.
-- Change Log captures setup changes by table, with email notifications for sensitive fields; automatic tracking of financial report changes starts in 2026 release wave 2.
-- Report selection sets default reports and layouts for printing and emailing sales, purchase, service and other documents.
-- Desktop app runs on Windows and macOS with multi-environment support; the mobile app is on App Store and Google Play for cloud and on-premises.
-- Area subtopics cover finance, banking, sales, purchase, inventory, projects, fixed assets, warehouse, manufacturing, quality, service, email, printers, approvals and data import.
+- Online maps show locations and route directions for customer and vendor addresses, and the map provider can be customized.
+- The desktop app runs on Windows and macOS and supports multiple environments on Business Central online. The mobile app comes from the App Store or Google Play and supports both cloud and on-premises deployments.
 
 ## Subtopics
 

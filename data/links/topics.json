@@ -447,6 +447,34 @@
         }
       ]
     },
+    "change/al-go/2433": {
+      "kind": "change",
+      "key": "change/al-go/2433",
+      "hash": "06411858e68853c3ea5187f4bad5407b0f3267b5fca56bd62764deb8c8bbcbe5",
+      "title": "#2433 Fix workspace compilation with versioning strategy 3",
+      "source": "al-go-prs",
+      "at": "2026-11-07T01:00:57.088Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade",
+          "quote": "versioning strategy 3 workspace compilation was failing"
+        }
+      ]
+    },
+    "change/al-go/2440": {
+      "kind": "change",
+      "key": "change/al-go/2440",
+      "hash": "fbc6b16228c9abfe3e9ddefc8702fbc5b5352a4760601f5c86b2208b2e944405",
+      "title": "#2440 Sort artifacts by creation time when determining latest artifacts for release",
+      "source": "al-go-prs",
+      "at": "2026-11-07T01:00:57.088Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade",
+          "quote": "sorts artifacts by creation time when determining latest"
+        }
+      ]
+    },
     "change/bcapps/10005": {
       "kind": "change",
       "key": "change/bcapps/10005",
@@ -5666,6 +5694,24 @@
         }
       ]
     },
+    "change/bcapps/11256": {
+      "kind": "change",
+      "key": "change/bcapps/11256",
+      "hash": "ff79acbf0fe39b44d98e28b1328d70bcdf233dbc6c0be5f152ef5d4974bf7453",
+      "title": "#11256 [main] Add setup option to restore Sales and Purchase Order quantities when posting returns",
+      "source": "bcapps-prs",
+      "at": "2026-11-07T01:00:57.820Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-sales",
+          "quote": "setup option to restore Sales and Purchase Order quantities when posting returns"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/purchasing",
+          "quote": "control whether credit memo and invoice-correction operations restore quantities on originating sales and purchase orders"
+        }
+      ]
+    },
     "change/bcapps/11257": {
       "kind": "change",
       "key": "change/bcapps/11257",
@@ -10525,6 +10571,20 @@
         }
       ]
     },
+    "change/bcapps/13065": {
+      "kind": "change",
+      "key": "change/bcapps/13065",
+      "hash": "5338b2211e10876bbfa0170fcdbbe1e1595e845467f04404e6210004a1b51fdf",
+      "title": "#13065 Issue#10580:[Extensibility Request] Make Business Central's E-Document object extensible.",
+      "source": "bcapps-prs",
+      "at": "2026-11-07T01:00:55.844Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-external-systems-using",
+          "quote": "E-Document Purchase Draft page is made extensible. Enables third-party developers to extend"
+        }
+      ]
+    },
     "change/bcapps/13075": {
       "kind": "change",
       "key": "change/bcapps/13075",
@@ -11287,6 +11347,20 @@
         }
       ]
     },
+    "change/bcapps/13397": {
+      "kind": "change",
+      "key": "change/bcapps/13397",
+      "hash": "60155f02267f87177f9940eeaeada159ec74660f42fe9b3b5558aff5fa762d56",
+      "title": "#13397 [main] Incorrect depreciation calculation for assets used less than 180 days under Income Tax Act rules",
+      "source": "bcapps-prs",
+      "at": "2026-11-07T01:00:58.515Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/fixed-assets",
+          "quote": "Fixed depreciation calculation for Indian fixed assets used less than 180 days"
+        }
+      ]
+    },
     "change/bcapps/13403": {
       "kind": "change",
       "key": "change/bcapps/13403",
@@ -11357,6 +11431,34 @@
         }
       ]
     },
+    "change/bcapps/13428": {
+      "kind": "change",
+      "key": "change/bcapps/13428",
+      "hash": "5327cb768db4d1139a591938fc5587b7409cdfff0400e5f93613370dcc2fe1a6",
+      "title": "#13428 [Quality Management] Keep Sample Size and Pass/Fail Quantity within Quantity (Base)",
+      "source": "bcapps-prs",
+      "at": "2026-11-07T01:01:01.409Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/quality-management/set-up-quality-management",
+          "quote": "Quality Management inspections now enforce that Sample Size and Pass/Fail Quantity cannot exceed Quantity"
+        }
+      ]
+    },
+    "change/bcapps/13429": {
+      "kind": "change",
+      "key": "change/bcapps/13429",
+      "hash": "c092c5fcf2ca9c14e15b57969b03694b1e7654eb3dc08bd3fff931614a5a8fee",
+      "title": "#13429 [Quality Management] Receiving setup guide: don't offer the warehouse receipt Create trigger",
+      "source": "bcapps-prs",
+      "at": "2026-11-07T01:01:01.409Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/quality-management/set-up-quality-management",
+          "quote": "The Receiving setup guide now prevents creating Quality Management rules with unsupported warehouse receipt triggers"
+        }
+      ]
+    },
     "change/bcapps/13431": {
       "kind": "change",
       "key": "change/bcapps/13431",
@@ -11403,6 +11505,20 @@
         }
       ]
     },
+    "change/bcapps/13439": {
+      "kind": "change",
+      "key": "change/bcapps/13439",
+      "hash": "124b44e9ce43d1e976ee5b942abf3e5ed05e51606d71d58d259352c03ba7d16c",
+      "title": "#13439 Validate negative Reorder Quantity for Fixed Reorder Qty. planning",
+      "source": "bcapps-prs",
+      "at": "2026-11-07T01:01:01.409Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning",
+          "quote": "Item, Item Template, and Stockkeeping Unit now reject negative Reorder Quantities with a clear validation error"
+        }
+      ]
+    },
     "change/bcapps/13458": {
       "kind": "change",
       "key": "change/bcapps/13458",
@@ -11422,6 +11538,24 @@
         {
           "topic": "topic/business-central/business-functionality/finance/working-with-dimensions",
           "quote": "When entries are applied across different posting groups Allow Multiple Posting Groups"
+        }
+      ]
+    },
+    "change/bcapps/13459": {
+      "kind": "change",
+      "key": "change/bcapps/13459",
+      "hash": "b47579b0a3ef28e03e39a5287251706b6e9ec9e31e040755e7764343198d4756",
+      "title": "#13459 [29x] Additional Reporting Currency Difference After Closing Income Statement - related to 625803",
+      "source": "bcapps-prs",
+      "at": "2026-11-07T01:01:03.941Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/closing-years-and-periods",
+          "quote": "residual currency differences remained after closing"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/working-with-currencies",
+          "quote": "Additional reporting currency differences appearing after closing"
         }
       ]
     },
@@ -11628,6 +11762,20 @@
         }
       ]
     },
+    "change/bcapps/13566": {
+      "kind": "change",
+      "key": "change/bcapps/13566",
+      "hash": "350072a5bac7959aa5bf85b8ed65fb56b5f742cdfcb6bc1e130e2e1504ac7379",
+      "title": "#13566 [Subcontracting] Bug 648843: Align feature-handler references with CLEAN28",
+      "source": "bcapps-prs",
+      "at": "2026-11-07T01:01:02.419Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
+          "quote": "Subcontracting app handler references are realigned with CLEAN28 boundaries"
+        }
+      ]
+    },
     "change/bcapps/13569": {
       "kind": "change",
       "key": "change/bcapps/13569",
@@ -11653,6 +11801,20 @@
         {
           "topic": "topic/dev-itpro/integration/integrating-with-external-systems-using",
           "quote": "LogSynchError passes the populated, inserted IntegrationSynchJobErrors record to OnAfterLogSynchError event"
+        }
+      ]
+    },
+    "change/bcapps/13598": {
+      "kind": "change",
+      "key": "change/bcapps/13598",
+      "hash": "295fd1427e3464a9cc9365293f1e05f25d5c565c5e25623c2a135ecd89ab829f",
+      "title": "#13598 Fix concurrent initialization of My Notifications",
+      "source": "bcapps-prs",
+      "at": "2026-11-07T01:00:57.167Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/development-and-administration",
+          "quote": "Fixed race condition where concurrent sessions would both find no notification row"
         }
       ]
     },
@@ -11684,31 +11846,103 @@
         }
       ]
     },
+    "change/bcapps/13623": {
+      "kind": "change",
+      "key": "change/bcapps/13623",
+      "hash": "1d14ccb176097387a8d1018997799f018f495e5d194b3a6a2b033a5d55338f8b",
+      "title": "#13623 [Dataverse] Fix duplicate sales line numbers with automatic recurring lines",
+      "source": "bcapps-prs",
+      "at": "2026-11-07T01:00:55.844Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
+          "quote": "creating a Business Central sales order from Dynamics 365 Sales"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization",
+          "quote": "Fixed an issue where creating a Business Central sales order from Dynamics 365 Sales"
+        }
+      ]
+    },
     "change/bcapps/13630": {
       "kind": "change",
       "key": "change/bcapps/13630",
-      "hash": "6e0a8f60732fab56ccfb4ee006616039bf8a5f0ddbac6c32b51a09fbe83e41a7",
+      "hash": "e9c05e238bc9515272d0d50ad31ba3daee464f741465591e8e7d52affe292ace",
       "title": "#13630 [NL] Fix CBG applies-to ID length handling",
       "source": "bcapps-prs",
-      "at": "2026-11-06T00:57:04.455Z",
+      "at": "2026-11-07T01:01:03.941Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/finance/reconcile-bank-accounts",
-          "quote": "The NL CBG Statement Line now handles applies-to IDs consistently during payment tolerance management"
+          "topic": "topic/business-central/business-functionality/local-functionality/netherlands/core-finance",
+          "quote": "NL CBG applies-to ID length handling"
         }
       ]
     },
     "change/bcapps/13642": {
       "kind": "change",
       "key": "change/bcapps/13642",
-      "hash": "e5cbaea1122bada5d08051a77adae0defad8009d80f18ec10c4a23aca2f27e3d",
+      "hash": "c0cb18a9b589c8bdb7e3d282195b6c658d4c79cb741a8daf675e8e61f6115488",
       "title": "#13642 Preserve work descriptions on posted sales prepayment documents",
       "source": "bcapps-prs",
-      "at": "2026-11-06T00:56:56.456Z",
+      "at": "2026-11-07T01:01:02.690Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/sales",
           "quote": "Preserve work descriptions on posted sales prepayment documents"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-sales",
+          "quote": "Posting sales prepayment invoices and credit memos now loads the order's Work Description"
+        }
+      ]
+    },
+    "change/bcapps/13692": {
+      "kind": "change",
+      "key": "change/bcapps/13692",
+      "hash": "deb45af3d8cc5fbf4ec49bd2d8855a0f93a64288bfdef4117f602ef5c3098be2",
+      "title": "#13692 Fix SharePoint REST upload 404 caused by trailing slash in parent folder",
+      "source": "bcapps-prs",
+      "at": "2026-11-07T01:00:57.088Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor",
+          "quote": "SharePoint REST upload 404 caused by trailing slash"
+        }
+      ]
+    },
+    "change/bcapps/13721": {
+      "kind": "change",
+      "key": "change/bcapps/13721",
+      "hash": "34d80a0dd42f4877440470cb9f075ff3b941d1e355482170e7bfca4b55fdfcc1",
+      "title": "#13721 [Expense Agent] Create per diem line when approving travel requests with Per Diem Included",
+      "source": "bcapps-prs",
+      "at": "2026-11-07T01:01:03.631Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Expense Agent Create per diem line when approving travel requests with Per Diem Included"
+        },
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Per diem lines are automatically created during travel request approval when Per Diem Included is enabled"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
+          "quote": "When approving travel requests with Per Diem Included, the system now automatically creates a per diem expense line"
+        }
+      ]
+    },
+    "change/bcapps/13725": {
+      "kind": "change",
+      "key": "change/bcapps/13725",
+      "hash": "d4b5bb93cc344257df5d1d4db9c1853fa63aead73a1cb635854257f2884ed2ae",
+      "title": "#13725 Reduce repeated ILE reads and JIT loads in average cost adjustment",
+      "source": "bcapps-prs",
+      "at": "2026-11-07T01:01:01.409Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-inventory-costing",
+          "quote": "Codeunit 5895 Inventory Adjustment reduces repeated database reads and JIT loads during average cost calculation"
         }
       ]
     },
@@ -11729,11 +11963,16 @@
     "change/bcapps/6857": {
       "kind": "change",
       "key": "change/bcapps/6857",
-      "hash": "6c7a17c2282212d1830737e0e014527157de7007133391bf5b83ee2365a2b8e0",
+      "hash": "0a5d26727d0077f044f2d3846c018019e4485bf9fa0d82b8b3eb4207e332fa04",
       "title": "#6857 [BC Idea][TableInformation] : Enhance Indexes List Part with SIFT details, visual indicators, and improved index management #6856",
       "source": "bcapps-prs",
-      "at": "2026-11-06T00:56:58.093Z",
-      "matches": []
+      "at": "2026-11-07T01:00:57.167Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/development-environment",
+          "quote": "Indexes List Part page gains SIFT details, visual indicators, and improved index management"
+        }
+      ]
     },
     "change/bcapps/7546": {
       "kind": "change",
@@ -16618,14 +16857,14 @@
     "change/bcapps/9869": {
       "kind": "change",
       "key": "change/bcapps/9869",
-      "hash": "934ed46ad9cbb03f68d7fe0209e6ff77fa6cb088c0236c99317884cf7586ef12",
+      "hash": "a79b8a8809ddf9389fd2b82182c701cc13810db89d444f6a8658dcc01f556c48",
       "title": "#9869 Fix MS Doc for parameter TagCompanyName of method SetSkippedUpgrade(...)",
       "source": "bcapps-prs",
-      "at": "2026-11-06T00:56:58.371Z",
+      "at": "2026-11-07T01:00:57.088Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/business-central-on-premises/upgrade",
-          "quote": "SetSkippedUpgrade method in the Upgrade Tag codeunit was corrected"
+          "quote": "SetSkippedUpgrade method in the Upgrade Tag codeunit"
         }
       ]
     },
@@ -18640,36 +18879,54 @@
     "change/bcquality/255": {
       "kind": "change",
       "key": "change/bcquality/255",
-      "hash": "4d6474ecf0982db984d4de79218b211650288ef8d2dad1814994366440573473",
+      "hash": "d997e01ea6c6fbac8fb3bc540ea5466549b8a0d875273321e46c4ac2e0f599c1",
       "title": "#255 Correct CurrReport.Skip guidance and retire false fixture expectations",
       "source": "bcquality-prs",
-      "at": "2026-11-06T00:57:04.319Z",
+      "at": "2026-11-07T01:01:04.855Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-triggers-and-events",
-          "quote": "Corrected the assumption that code after CurrReport.Skip() continues in the same OnAfterGetRecord trigger"
+          "quote": "statements after CurrReport.Skip() keep running in the same OnAfterGetRecord trigger"
+        }
+      ]
+    },
+    "change/bcquality/256": {
+      "kind": "change",
+      "key": "change/bcquality/256",
+      "hash": "0ff8e6609c41dacf6ebc9400aeecd54f9f574ec86790c31f4b8d6a458683637b",
+      "title": "#256 Fixtures: make two samples comply with the sibling articles they trip",
+      "source": "bcquality-prs",
+      "at": "2026-11-07T01:00:58.975Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extensibility/extending-the-base-application/examples",
+          "quote": "Sample fixtures were corrected to comply with sibling quality articles"
         },
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports",
-          "quote": "Updated reporting guidance to correct false assumptions about CurrReport.Skip behavior in AL triggers"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures",
+          "quote": "Added OnDelete handlers to owning tables to properly delete dependent records"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/updating-and-hotfixing",
+          "quote": "Moved upgrade tag registration into a dedicated codeunit with subscriber methods"
         }
       ]
     },
     "change/bcquality/260": {
       "kind": "change",
       "key": "change/bcquality/260",
-      "hash": "0279b73b810bef3656b43f67fdf835cca9173238794148594766d5e508058bfd",
+      "hash": "14c8aeae8645c5fe17972e2614b7b54d43fdd385ef638d931f385fe3cd9a40e9",
       "title": "#260 Fix al-knowledge follow-ups and document the skill",
       "source": "bcquality-prs",
-      "at": "2026-11-06T00:57:05.447Z",
+      "at": "2026-11-07T01:00:58.975Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "Extended al-knowledge skill to support JavaScript technology queries"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+          "quote": "Extended al-knowledge skill to support JavaScript technology queries for control-add-in"
         },
         {
-          "topic": "topic/dev-itpro/development/extensibility/developing-client-add-ins",
-          "quote": "control-add-in and UI article requests"
+          "topic": "topic/dev-itpro/development/troubleshooting",
+          "quote": "Updated documentation to include al-knowledge skill in capability lists and troubleshooting guidance"
         }
       ]
     },
@@ -18690,18 +18947,14 @@
     "change/bcquality/264": {
       "kind": "change",
       "key": "change/bcquality/264",
-      "hash": "ab4de0c594e16dcd7fa96215eff6411fc312efd2b68d1a1635b5a81d02e81873",
+      "hash": "44bf72c3d775c524a5e848c48eeed5bb0c130c6c3f5c37975e30d00e0b1e9b2f",
       "title": "#264 knowledge(upgrade): clarify DataTransfer defaults and bypass safety",
       "source": "bcquality-prs",
-      "at": "2026-11-06T00:57:05.447Z",
+      "at": "2026-11-07T01:00:58.975Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data",
-          "quote": "DataTransfer should be used regardless of record count"
-        },
-        {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/migration",
-          "quote": "Emphasizes that new fields alone do not justify bypassing validation"
+          "quote": "DataTransfer is preferred for equivalent field initialization and copies at any record count"
         }
       ]
     },
@@ -20313,6 +20566,24 @@
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-apis",
           "quote": "AL-defined APIs are the future direction Microsoft is moving toward"
+        }
+      ]
+    },
+    "post/aardvarklabs-blog/4100": {
+      "kind": "post",
+      "key": "post/aardvarklabs-blog/4100",
+      "hash": "8761e77345e1d8861c45f80bbdda1d1a9a52099267ddd1f7d26a801ba128c3d1",
+      "title": "Business Central 29: The New IsDirty() Flag — Finally a Smarter Way to Detect Record Changes",
+      "source": "aardvarklabs-blog",
+      "at": "2026-11-07T01:00:58.975Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/methods",
+          "quote": "IsDirty() method, a built-in flag that detects whether a record has been modified"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
+          "quote": "Makes code cleaner and easier to maintain by eliminating boilerplate dirty-flag logic"
         }
       ]
     },
@@ -29288,14 +29559,14 @@
     "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-87-check-for-microsoft-apps-on-appsource/": {
       "kind": "post",
       "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-87-check-for-microsoft-apps-on-appsource/",
-      "hash": "800d8365bfb4ab173a9cf87fe3c6a21a5eab1b2c9c6378d6b0978a35005f2def",
+      "hash": "cb4fe91e5b3ae22ff8848a1f5dc612c0805100a671a2fccffa5a135089be7e7d",
       "title": "BC Friday Tips #87 Check for Microsoft Apps on AppSource",
       "source": "thatnavguy-com",
-      "at": "2026-11-06T00:56:59.665Z",
+      "at": "2026-11-07T01:00:57.167Z",
       "matches": [
         {
           "topic": "topic/business-central/development-and-administration/customize-business-central/customize-with-extensions",
-          "quote": "Microsoft apps for Business Central are distributed across multiple separate applications on AppSource"
+          "quote": "Microsoft apps for Business Central are distributed across multiple separate applications"
         }
       ]
     },
@@ -38881,14 +39152,14 @@
     "post/yzhums-com/76760": {
       "kind": "post",
       "key": "post/yzhums-com/76760",
-      "hash": "6ee384b69eab7549d7cd29e19510d72aa84ff44ebb0ecd55c7347ad997eaecee",
+      "hash": "bcfeb501632a19248ab210afaefbf34a926bd5238bfeb061e5c507498c51fe44",
       "title": "Dynamics 365 Business Central: How to import Change Log Setup (Table/Field) using Configuration Packages",
       "source": "yzhums-com",
-      "at": "2026-11-06T00:56:58.093Z",
+      "at": "2026-11-07T01:00:57.167Z",
       "matches": [
         {
           "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data",
-          "quote": "Change log tracks all direct modifications users make to database data"
+          "quote": "The change log records direct user changes to data in the tables and fields"
         }
       ]
     },
@@ -39019,6 +39290,20 @@
         {
           "topic": "topic/dev-itpro/administration/cloud-migration-api/setup-cloud-migration",
           "quote": "support cloud migration processes"
+        }
+      ]
+    },
+    "post/yzhums-com/77124": {
+      "kind": "post",
+      "key": "post/yzhums-com/77124",
+      "hash": "488a54dd82c40310d3d4f47bd1f69e21a2824ae41caf6e9e6f6b7dbcf5887b4b",
+      "title": "Business Central 2026 release wave 2 (BC29): New notification bar",
+      "source": "yzhums-com",
+      "at": "2026-11-07T01:00:57.088Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
+          "quote": "page notifications hide when the Agent Data Review Bar is present"
         }
       ]
     },

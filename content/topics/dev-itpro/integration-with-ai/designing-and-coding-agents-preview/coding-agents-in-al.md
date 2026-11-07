@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -191,7 +191,6 @@ links:
     - change/bcquality/222
     - change/bcquality/233
     - change/bcquality/246
-    - change/bcquality/260
 learn_toc_path:
   - Integration with AI
   - Designing and coding agents (preview)
@@ -343,7 +342,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#222 Add cited knowledge consultation skill for Business Central](../../../../changes/bcquality/222.md) (code change): "A new knowledge consultation skill allows AL development agents to request guidance on Business Central solutions"
 - [#233 knowledge(web-services): describe API objects intended for MCP tools](../../../../changes/bcquality/233.md) (code change): "API objects intended for MCP tools to describe entities using AboutText"
 - [#246 Expose plan guidance as a preview plugin skill](../../../../changes/bcquality/246.md) (code change): "exposes plan guidance as a preview plugin skill alongside code review"
-- [#260 Fix al-knowledge follow-ups and document the skill](../../../../changes/bcquality/260.md) (code change): "Extended al-knowledge skill to support JavaScript technology queries"
 - [Step-by-Step Guide: Create Agents in AL Code](../../../../posts/aardvarklabs-blog/3097.md) (community post): "Building agents in Business Central AL involves creating setup tables, pages, codeunits"
 - [Agents in Business Central – part 1 – the architecture](../../../../posts/bertverbeek-nl/1219.md) (community post): "Custom agents need the Custom Agent capability enabled"
 - [Agents in Business Central – part 5 – Creating agent from code](../../../../posts/bertverbeek-nl/1272.md) (community post): "create, configure, and register agents programmatically in Business Central using AL code"

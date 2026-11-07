@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:53.515Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -214,6 +214,7 @@ links:
     - change/bcapps/11714
     - change/bcapps/12868
     - change/bcapps/13220
+    - change/bcapps/13725
     - change/bcapps/9062
     - change/bcapps/9212
     - change/bcapps/9398
@@ -313,6 +314,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11714 [Main]-Adjust Cost creates an additional unexpected variance amount due to rounding precision during cost adjustment.](../../../../changes/bcapps/11714.md) (code change): "Cost adjustment for assembly items now uses unit-amount rounding precision"
 - [#12868 [29x]-Adjust Cost creates an additional unexpected variance amount due to rounding precision during cost adjustment](../../../../changes/bcapps/12868.md) (code change): "Adjust Cost creates an additional unexpected variance amount due to rounding precision"
 - [#13220 Fix average cost adjustment overflow on same-period transfers](../../../../changes/bcapps/13220.md) (code change): "Same-period transfers no longer cause average cost adjustments to overflow"
+- [#13725 Reduce repeated ILE reads and JIT loads in average cost adjustment](../../../../changes/bcapps/13725.md) (code change): "Codeunit 5895 Inventory Adjustment reduces repeated database reads and JIT loads during average cost calculation"
 - [#9062 [Master]-Production Order - WIP shows incorrect consumption amount.](../../../../changes/bcapps/9062.md) (code change): "incorrect consumption amount shown for production orders in the Inventory Valuation - WIP report"
 - [#9212 Bug 629779: [Inventory] Show a single Export/Import item data action pair on Cost Adjustment and Item Card](../../../../changes/bcapps/9212.md) (code change): "Manufacturing-enabled installations route to production data XMLPorts"
 - [#9398 [Main]Incorrect Cost Amount (Actual) in Value Entries after posting Assembly Process and calulating the assembly standard costsInitial commit](../../../../changes/bcapps/9398.md) (code change): "Fixes wrong Cost Amount (Actual) in value entries for assembly orders after Calc. Assembly Std. Cost"

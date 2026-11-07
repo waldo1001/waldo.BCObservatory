@@ -6,11 +6,10 @@
   "systems_joined": [],
   "summary": "Sample fixtures were corrected to comply with sibling quality articles by adding missing OnDelete blocks and properly registering upgrade tags in code snippets used for knowledge validation.",
   "key_points": [
-    "Added OnDelete handlers to owning tables to properly delete dependent records in data-modeling samples",
-    "Moved upgrade tag registration into a dedicated codeunit with subscriber methods to match expected patterns",
-    "Removed unnecessary install code that would fail on reinstall and is not needed for upgrade fixtures",
-    "All preparation checks and review contracts pass without requiring model execution",
-    "Samples now correctly demonstrate the patterns expected by their sibling quality articles"
+    "The Loyalty Member table in the check-blocked bad and good samples gains an OnDelete that deletes its Loyalty Point Entry rows, plus rd permissions",
+    "The upgrade tag in the InitValue good sample is now registered through an Upgrade Tag Definitions codeunit with an OnGetPerCompanyUpgradeTags subscriber",
+    "The primary evidence in each sample is unchanged",
+    "Only samples change; the scorer, the oracle and preparation are untouched"
   ],
   "change_kind": "fix",
   "behavior_change": false,

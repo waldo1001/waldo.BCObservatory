@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T23:46:22.313Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-11-07T00:15:21.625Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -97,7 +97,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:50:03.779Z"
+  probed_at: "2026-11-07T00:57:19.365Z"
 ---
 
 # BC Friday Tips #82 Excel Buffer Character Limit

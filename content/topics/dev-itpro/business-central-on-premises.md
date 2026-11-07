@@ -11,7 +11,7 @@ review:
   at: "2026-10-30T08:08:15.545Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,7 +48,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility
     title: Business Central Upgrade Compatibility Matrix
-    date: "2026-10-01"
+    date: "2026-11-06"
     commit: null
     t: null
     quote: null
@@ -223,14 +223,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/update-versions-27
     title: Dynamics 365 Business Central On-premises 2025 Release wave 2 Updates
-    date: "2026-10-01"
+    date: "2026-11-06"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/update-versions-28
     title: Dynamics 365 Business Central on-premises 2026 release wave 1 updates
-    date: "2026-09-01"
+    date: "2026-11-06"
     commit: null
     t: null
     quote: null

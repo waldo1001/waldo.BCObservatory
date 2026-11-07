@@ -12,7 +12,7 @@ review:
   at: "2026-10-30T08:08:43.615Z"
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,7 +100,6 @@ links:
     - change/bcapps/10630
     - change/bcapps/11055
     - change/bcapps/11056
-    - change/bcapps/13630
 learn_toc_path:
   - Business functionality
   - Finance
@@ -188,7 +187,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10630 Extend OnBeforeCheckBankAcc to skip specific bank reversal checks](../../../../changes/bcapps/10630.md) (code change): "skip specific bank reversal checks when reversing bank account ledger entries"
 - [#11055 Allow bank rec. duplicated transactions surfaced in UI](../../../../changes/bcapps/11055.md) (code change): "Bank reconciliation now exposes UI controls to allow users to process duplicate transactions"
 - [#11056 29.x: Allow bank rec. duplicated transactions surfaced in UI](../../../../changes/bcapps/11056.md) (code change): "Bank Acc. Reconciliation and Payment Reconciliation Journal pages now expose an existing option to allow duplicated transactions"
-- [#13630 [NL] Fix CBG applies-to ID length handling](../../../../changes/bcapps/13630.md) (code change): "The NL CBG Statement Line now handles applies-to IDs consistently during payment tolerance management"
 
 ## Business Central pages and reports
 

@@ -5,7 +5,7 @@
   "source": "yzhums-com",
   "published_at": "2026-11-06T02:19:01.000Z",
   "words": 424,
-  "summary": "Business Central 2026 wave 2 introduces a new notification bar feature that allows nonmodal notifications to appear in the UI without blocking user workflows. In version 30.0 and later, page notifications hide when the Agent Data Review Bar is present, but users can toggle them visible.",
+  "summary": "BC29 (2026 release wave 2) has an undocumented New notification bar feature in Feature Management. It is off by default and available only in sandboxes. When it is turned on, the only visible change is the bar's background color. Microsoft docs say that from version 30.0, page notifications are hidden while the Agent Data Review Bar is shown, and a Show other notifications toggle lets users see them during the review.",
   "key_points": [
     "New notification bar feature is disabled by default and currently sandbox-only in BC29.",
     "Notifications differ from modal messages by providing information without requiring immediate user action.",

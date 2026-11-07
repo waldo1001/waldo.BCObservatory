@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:02.904Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -65,6 +65,7 @@ links:
     - change/bcapps/10225
     - change/bcapps/10364
     - change/bcapps/12469
+    - change/bcapps/13439
     - change/bcapps/9449
 learn_toc_path:
   - Business functionality
@@ -125,6 +126,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10225 [Master]-When we run the Order Planning Worksheet by Project, a supply suggestion is created for items that are already received but not invoiced in Purchase Orders, but only after updating Order and Posting Dates on Purchase Order.](../../../../../changes/bcapps/10225.md) (code change): "Order Planning Worksheet run by project creating supply suggestions for items already received"
 - [#10364 Create released production orders from planning worksheet](../../../../../changes/bcapps/10364.md) (code change): "Create released production orders from planning worksheet"
 - [#12469 [main] carry out overwrites changed req wksh direct unit cost](../../../../../changes/bcapps/12469.md) (code change): "Preserve manually entered direct unit costs in requisition worksheets"
+- [#13439 Validate negative Reorder Quantity for Fixed Reorder Qty. planning](../../../../../changes/bcapps/13439.md) (code change): "Item, Item Template, and Stockkeeping Unit now reject negative Reorder Quantities with a clear validation error"
 - [#9449 [Extensibility Request] issue 30334: fix OnAfterCarryOutToReqWksh record order](../../../../../changes/bcapps/9449.md) (code change): "Restores the parameter order from before version 28.1"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

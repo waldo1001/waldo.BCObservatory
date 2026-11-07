@@ -1,34 +1,34 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/admin-fabric.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-fabric",
-  "title": "Data Mirroring to Microsoft Fabric from Business Central",
-  "blob": "4ed1f9b7fe004b4c98cf2d4dd3f1bfa35c0c5e0c",
+  "title": "Business Central Data Mirroring to Microsoft Fabric",
+  "blob": "980e487ba28adcdaee2819197f9e25a3a3844fec",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "status",
-      "text": "Production-ready preview planned to become available in October 2026. Delivery timing and functionality might change. Subject to supplemental terms of use."
+      "text": "Data mirroring to Microsoft Fabric is in preview as of February 2025."
     },
     {
       "kind": "fact",
-      "text": "Data mirroring connects Business Central online to an open mirrored database in Fabric. You select companies and tables to synchronize into OneLake in Delta Parquet format."
+      "text": "Data mirroring replicates an initial snapshot and ongoing changes from selected Business Central companies and tables into OneLake in Delta Parquet format."
     },
     {
       "kind": "limit",
-      "text": "Up to 1,000 selected tables per tenant supported for synchronization."
+      "text": "You can select up to 1,000 Business Central tables across manual selections and configuration packages."
     },
     {
       "kind": "fact",
-      "text": "Supports multiple Business Central companies, initial snapshot and incremental synchronization, and a Microsoft configuration package with standard tables."
+      "text": "The mirrored data in Fabric supports analytics with Fabric IQ, Power BI, Data Factory, and other experiences without repeatedly calling Business Central APIs."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "An administrator must create an open mirrored database in a Fabric workspace, set up a service principal, and connect Business Central to that workspace and database."
     },
     {
       "kind": "fact",
-      "text": "Administrator tasks include creating open mirrored database in Fabric workspace, connecting Business Central, granting service principal access, selecting companies and tables, and monitoring runs."
-    },
-    {
-      "kind": "fact",
-      "text": "Microsoft plans to provide versions of standard Business Central Power BI apps using Fabric data, including single-company and multicompany versions."
+      "text": "Setup and synchronization operations run asynchronously. Business Central records overview and details for each run."
     }
   ],
   "dropped": 0,
@@ -36,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006355,
-      "pages_in_call": 7
+      "cost_usd": 0.007238,
+      "pages_in_call": 5
     }
   ]
 }

@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/mexico
 type: topic
 title: Mexico
-summary: "Mexico local functionality in Business Central: tax (DIOT reports, RFC and CURP tax IDs, cash-basis VAT), electronic invoicing (CFDI, payment receipts, Carta de Porte), and general features such as electronic accounting export, bank deposits and vendor payment export. It answers setup, reporting and compliance questions for Mexican companies."
+summary: "Mexico local functionality in Business Central: tax (DIOT reports, RFC and CURP tax IDs, cash-basis VAT), electronic invoicing (CFDI, payment receipts, Carta de Porte), and general features such as electronic accounting, bank deposits and vendor payment files. It answers setup, reporting and SAT compliance questions."
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:01:49.407Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 48327f078257d187aa5bde63e4c75a62d2346db9f019711034e14a78ce890f55
+  input_hash: 23801bd893d5b5a13006aea5c1074b89125c1f2c264f24df241622bbc2695410
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/packing-slips-transfer-orders
@@ -56,7 +56,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
     title: Make payments with AMC banking (US) or SEPA credit transfer (EU)
-    date: "2024-08-26"
+    date: "2026-09-09"
     commit: null
     t: null
     quote: null
@@ -194,28 +194,28 @@ narrative: generated
 
 # Mexico
 
-> Mexico local functionality in Business Central: tax (DIOT reports, RFC and CURP tax IDs, cash-basis VAT), electronic invoicing (CFDI, payment receipts, Carta de Porte), and general features such as electronic accounting export, bank deposits and vendor payment export. It answers setup, reporting and compliance questions for Mexican companies.
+> Mexico local functionality in Business Central: tax (DIOT reports, RFC and CURP tax IDs, cash-basis VAT), electronic invoicing (CFDI, payment receipts, Carta de Porte), and general features such as electronic accounting, bank deposits and vendor payment files. It answers setup, reporting and SAT compliance questions.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Mexico · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Mexico · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects the Business Central features built for Mexican legal and tax requirements. The landing page lists the main areas: tax features such as DIOT reports and VAT recalculation, electronic invoicing (CFDI 4.0, Pagos 2.0, Carta de Porte 3.1), and general features like electronic accounting and payments. It is marked for 2025.
+The Mexico section collects the local features that Mexican companies need in Business Central. The landing page introduces three areas: tax, electronic invoicing and general functionality. It lists DIOT reports, tax identification types, VAT recalculation, CFDI 4.0, Pagos 2.0 and Carta de Porte 3.1, and shows 2025 as the version.
 
-The content is split into three subtopics. Tax covers DIOT reports for SAT, tax identification types (RFC and CURP), and cash-basis VAT with exchange-rate adjustments. Electronic invoice covers SAT certificates and PAC web service setup, generating and cancelling CFDI invoices and payment receipts, and Carta de Porte waybills for goods transport. General covers electronic accounting export, bank deposits, vendor payment export, and troubleshooting report printing.
+The Tax subtopic covers DIOT reports for SAT, tax identification types (RFC and CURP), and cash-basis VAT with exchange-rate adjustments. The Electronic invoice subtopic covers setup of SAT certificates and PAC web services, generating and cancelling CFDI invoices and payment receipts, and Carta de Porte waybills. The General subtopic covers electronic accounting export for SAT, bank deposits, vendor payment files, and troubleshooting reports for version 14 and earlier.
 
-Start with the landing page for an overview. Then go to Electronic invoice if you are setting up stamping and certificates, to Tax for VAT and registration questions, or to General for accounting exports and payments.
+Start with the landing page for an overview. For invoicing, begin with the certificate and PAC setup in Electronic invoice before generating documents. For tax registration and VAT questions, go to Tax.
 
 ## Key points
 
 - Tax: DIOT reports for SAT, tax identification types (RFC and CURP), and cash-basis VAT with exchange-rate adjustments.
-- VAT recalculation is listed among the Mexico tax features on the landing page.
-- Electronic invoicing covers CFDI 4.0, Pagos 2.0 payment receipts, and Carta de Porte 3.1 waybills.
-- Electronic invoice setup involves SAT certificates and PAC web services; the pages also cover generating and cancelling CFDI invoices and payment receipts.
-- Electronic accounting export produces XML files for chart of accounts, trial balance, journals, and auxiliary accounts.
-- General pages also cover bank deposits and vendor payment export via SEPA or AMC Banking.
-- A troubleshooting page covers report printing problems.
-- The landing page is marked for version 2025.
+- Landing page also mentions VAT recalculation as a tax feature.
+- Electronic invoicing covers CFDI 4.0, Pagos 2.0 and Carta de Porte 3.1.
+- Invoicing setup requires SAT certificates and PAC web services before stamping.
+- CFDI invoices and payment receipts can be generated and cancelled.
+- Carta de Porte waybills support goods transport compliance.
+- General: electronic accounting export for SAT and bank deposits.
+- Vendor payment files use SEPA Credit Transfer or AMC Banking 365 Fundamentals; troubleshooting reports apply to version 14 and earlier.
 
 ## Subtopics
 

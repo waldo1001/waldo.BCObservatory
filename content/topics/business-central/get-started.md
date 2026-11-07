@@ -6,12 +6,12 @@ summary: "Get started with Business Central covers the entry path: what function
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-07T01:06:33.192Z"
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -491,7 +491,7 @@ narrative: generated
 
 > Get started with Business Central covers the entry path: what functionality the product supports, trying and buying, quick starts, learning resources, everyday use, troubleshooting and support. It answers questions about first setup, trials, practice data, daily tasks and where to get help.
 
-Path: Get started · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: Get started · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

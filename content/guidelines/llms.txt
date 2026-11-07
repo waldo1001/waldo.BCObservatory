@@ -3,7 +3,7 @@
 > Microsoft's BCQuality knowledge base for AL (microsoft/BCQuality, MIT): each rule and review skill as a page with its own text,
 > its good and bad examples, the objects and Learn pages it names and the pull requests that changed it. Frontmatter: schemas/frontmatter.guideline.json.
 
-461 rules and review skills, by domain.
+462 rules and review skills, by domain.
 
 ## performance
 
@@ -100,6 +100,7 @@
 - [Control add-ins cannot use BC color tokens or theming](microsoft/knowledge/ui/control-add-in-has-no-bc-color-tokens.md): A JavaScript control add-in has no access to Business Central's color tokens or theming system. (microsoft)
 - [Cosmetic styles need no textual context](microsoft/knowledge/ui/cosmetic-styles-need-no-textual-context.md): A field's Style property controls text formatting. (microsoft)
 - [Default descending sort on historical pages](microsoft/knowledge/ui/default-descending-sort-on-historical-pages.md): Historical list pages should default to showing the newest records first. (microsoft)
+- [Define per-record page outputs on every control-flow path](microsoft/knowledge/ui/reset-per-row-page-variables-in-onaftergetrecord.md): A global page variable belongs to the page instance, whereas Rec changes as OnAfterGetRecord processes records. (microsoft)
 - [Filter ListPart FactBoxes With SubPageLink To The Parent Record](microsoft/knowledge/ui/factbox-design.md): A FactBox is a page part that surfaces related data beside the main record so users avoid navigating away. (microsoft)
 - [Gate Role Center content by permission with AccessByPermission](microsoft/knowledge/ui/rolecenter-permission-gating-must-use-accessbypermission.md): A page of type RoleCenter cannot have triggers (AL0378, error) or procedures (AL0569, warning that will become an error), and the AL compiler applies both rules to a pageextension whose target is a Role Center. (microsoft)
 - [Grid and fixed-layout data-table heuristic](microsoft/knowledge/ui/grid-data-table-heuristic.md): Business Central renders grid() and fixed() layouts in two modes. (microsoft)

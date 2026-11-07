@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:17:27.413Z"
+  at: "2026-11-07T00:15:21.625Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 42d45c866c99c40c59943deca8ef9b3ec321ed3e
@@ -23,7 +23,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/knowledge/al-knowledge.md
     title: "microsoft/BCQuality: AL knowledge consultation"
     date: "2026-11-04"
-    commit: 9b72501fc3199e6f8c776b4fe3aeb1a11e5dfaee
+    commit: 634aba3df9af1b4579e8a735b186e3efdbf47de2
     t: null
     quote: null
 links:
@@ -131,4 +131,4 @@ requires a reason and only cites articles actually read; `failed` cites none.
 
 ---
 
-From microsoft/BCQuality at 9b72501, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 634aba3, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

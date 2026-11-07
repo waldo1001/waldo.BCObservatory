@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:50:42.930Z"
+  at: "2026-11-07T00:52:53.800Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 189c1936bb92b56d93d5226ae6090fc6e9ffb0aa95f70ef7cd5e9bfe3dae92a9
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/SalesLinesSuggestions/app/Attachment/FileHandlers/FileHandler.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/W1/SalesLinesSuggestions/app/Attachment/FileHandlers/FileHandler.Interface.al
     title: src/Apps/W1/SalesLinesSuggestions/app/Attachment/FileHandlers/FileHandler.Interface.al (releases/29.x)
     date: null
-    commit: 7af2f8d2e22b684ec7b2455c7baf1007da944ac5
+    commit: 2f228f96c8a299e26ab425fe4d5fc937ebe8d385
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "File Handler" in SalesLinesSuggestions (Microsoft.Sales.Document.Attachment). 3 public procedures. Introduced in BC29, still in BC30.
 
-SalesLinesSuggestions · Microsoft.Sales.Document.Attachment · BC29-30 · [source at 7af2f8d2](https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/SalesLinesSuggestions/app/Attachment/FileHandlers/FileHandler.Interface.al) · facts from BC29
+SalesLinesSuggestions · Microsoft.Sales.Document.Attachment · BC29-30 · [source at 2f228f96](https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/W1/SalesLinesSuggestions/app/Attachment/FileHandlers/FileHandler.Interface.al) · facts from BC29
 
 ## Properties
 

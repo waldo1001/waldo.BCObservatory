@@ -4028,130 +4028,136 @@
       }
     },
     "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities": {
-      "post/yzhums-com/70502@de72ba277dfa36dd": {
-        "verdict": "keep",
-        "reason": "It covers setting up custom agents' profiles and permissions and how they use Copilot credits, which are agent-management topics that no sibling section documents.",
-        "at": "2026-11-03T00:57:43.656Z",
-        "v": 2
-      },
-      "post/yzhums-com/72431@03eddc7258b25021": {
-        "verdict": "keep",
-        "reason": "Tracking how many Copilot credits agents use is part of managing Copilot and agent capabilities and their billing.",
-        "at": "2026-11-03T00:57:43.656Z",
-        "v": 2
-      },
-      "post/yzhums-com/72479@282671e86681235b": {
-        "verdict": "drop",
-        "reason": "The agent task pane is about working through tasks agents create, not about managing or turning on Copilot and agent capabilities.",
-        "at": "2026-11-03T00:57:43.656Z",
-        "v": 2
-      },
-      "post/yzhums-com/74431@e096096e3119df5e": {
-        "verdict": "keep",
-        "reason": "Choosing which AI model each agent uses on the Agents page is an admin setting for agents.",
-        "at": "2026-11-03T00:57:43.656Z",
-        "v": 2
-      },
-      "post/yzhums-com/74703@27daa63fb946655c": {
-        "verdict": "keep",
-        "reason": "It explains the Allow data movement toggle on the Copilot & agent capabilities page, which this section documents directly.",
-        "at": "2026-11-03T00:57:43.656Z",
-        "v": 2
-      },
-      "post/yzhums-com/76396@82efd373b718cf8b": {
-        "verdict": "keep",
-        "reason": "Turning off Copilot feedback for the whole tenant is an admin setting for Copilot.",
-        "at": "2026-11-03T00:57:43.656Z",
-        "v": 2
-      },
-      "video/DRUr4byy8xQ@56a5e75a3a1c80fd": {
-        "verdict": "keep",
-        "reason": "Controlling agents' permissions, profiles and users is part of managing agent capabilities.",
-        "at": "2026-11-03T00:57:43.656Z",
-        "v": 2
-      },
-      "video/MKuOgMWXJ_8@c36e072796ffcd3b": {
-        "verdict": "keep",
-        "reason": "It shows agent setup, reduced permission sets and credit-usage tracking, which are management topics covered here.",
-        "at": "2026-11-03T00:57:43.656Z",
-        "v": 2
-      },
-      "video/QK-Qsh_6YL4@8ba69d9b3b8baddb": {
-        "verdict": "drop",
-        "reason": "It's a partner's time-sheet Copilot feature, which this section doesn't document.",
-        "at": "2026-11-03T00:57:43.656Z",
-        "v": 2
-      },
-      "video/UQmuMPRlHek@fcc85d97923a4b32": {
-        "verdict": "keep",
-        "reason": "Its admin tips cover the Copilot and AI capabilities page, turning features off, data movement and permissions.",
-        "at": "2026-11-03T00:57:43.656Z",
-        "v": 2
-      },
       "post/bertverbeek-nl/1252@5813f9b3342cfb72": {
         "verdict": "drop",
-        "reason": "About designing and securing custom agents through role centers and permission sets, not about managing capabilities on the Copilot & agent capabilities page.",
-        "at": "2026-11-03T00:57:45.257Z",
+        "reason": "Covers designing and securing custom agents through role centers and permissions, not turning capabilities on or off.",
+        "at": "2026-11-07T01:02:47.401Z",
         "v": 2
       },
       "post/bertverbeek-nl/1263@cfa8e9550880d3e9": {
         "verdict": "keep",
-        "reason": "Covers the Agent Consumption page for monitoring credit usage, which is part of managing consumption billing for agents.",
-        "at": "2026-11-03T00:57:45.257Z",
+        "reason": "Covers the Agent Consumption page for monitoring credit use, which is part of managing agent capabilities and billing.",
+        "at": "2026-11-07T01:02:47.401Z",
         "v": 2
       },
       "post/demiliani-com/13755@098bf8cd3b3dce3b": {
         "verdict": "drop",
-        "reason": "About deploying custom agents and choosing their model on the Agents page, which this section does not document.",
-        "at": "2026-11-03T00:57:45.257Z",
+        "reason": "About deploying custom agents and choosing their model on the Agents page, which this section doesn't document.",
+        "at": "2026-11-07T01:02:47.401Z",
         "v": 2
       },
       "post/demiliani-com/15935@5a118331e80716b7": {
         "verdict": "keep",
-        "reason": "Explains the Allow data movement toggle and the geography consent rules that this section documents.",
-        "at": "2026-11-03T00:57:45.257Z",
+        "reason": "Explains the Allow data movement toggle and geography consent, both managed in this section.",
+        "at": "2026-11-07T01:02:47.401Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1848764778201254677@415376c0de163a17": {
         "verdict": "drop",
-        "reason": "About the new Copilot chat, which the sibling Microsoft Copilot in Business Central section documents more exactly.",
-        "at": "2026-11-03T00:57:45.257Z",
+        "reason": "About the Copilot chat feature, which the sibling Microsoft Copilot in Business Central section documents more exactly.",
+        "at": "2026-11-07T01:02:47.401Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-45-hide-agents-icon/@df75d9ac8c8bbd76": {
         "verdict": "keep",
         "reason": "Shows deactivating Agents on the Copilot & agent capabilities page.",
-        "at": "2026-11-03T00:57:45.257Z",
+        "at": "2026-11-07T01:02:47.401Z",
         "v": 2
       },
       "post/thinkaboutit-be/8342@0029b05785b67f48": {
         "verdict": "drop",
-        "reason": "About the Copilot chat feature, which the sibling Microsoft Copilot in Business Central section covers; this section gets only a passing mention.",
-        "at": "2026-11-03T00:57:45.257Z",
+        "reason": "Mainly about Copilot Chat's design, which the sibling Microsoft Copilot in Business Central section covers; the admin page is mentioned only in passing.",
+        "at": "2026-11-07T01:02:47.401Z",
         "v": 2
       },
       "post/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html@71a9c33d7457db47": {
         "verdict": "keep",
-        "reason": "Explains the Copilot Credits needed to run the agents, which ties to the consumption billing this section covers.",
-        "at": "2026-11-03T00:57:45.257Z",
+        "reason": "Explains that agents need Copilot Credits, which ties into consumption billing for agent capabilities.",
+        "at": "2026-11-07T01:02:47.401Z",
         "v": 2
       },
       "post/yzhums-com/67462@f8013648de2accef": {
         "verdict": "keep",
-        "reason": "Covers the Billing Type column on the Copilot and Agent Capabilities page.",
-        "at": "2026-11-03T00:57:45.257Z",
+        "reason": "Describes the Billing Type column on the Copilot and Agent Capabilities page.",
+        "at": "2026-11-07T01:02:47.401Z",
         "v": 2
       },
       "post/yzhums-com/68482@6c8f64782f49f44e": {
         "verdict": "keep",
         "reason": "Shows deactivating individual agent capabilities on the Copilot & agent capabilities page.",
-        "at": "2026-11-03T00:57:45.257Z",
+        "at": "2026-11-07T01:02:47.401Z",
         "v": 2
       },
       "post/yzhums-com/68484@d9048cb0d00c21e9": {
         "verdict": "keep",
-        "reason": "Discusses consumption-based billing for agent capabilities, which matches the section's billing content.",
-        "at": "2026-11-03T00:57:45.257Z",
+        "reason": "Covers consumption-based billing for agent capabilities, which is managed in this section.",
+        "at": "2026-11-07T01:02:47.401Z",
+        "v": 2
+      },
+      "post/yzhums-com/70502@de72ba277dfa36dd": {
+        "verdict": "drop",
+        "reason": "About building custom agents with the agent designer, which this section doesn't cover; Copilot credits are only mentioned in passing.",
+        "at": "2026-11-07T01:02:48.583Z",
+        "v": 2
+      },
+      "post/yzhums-com/72431@03eddc7258b25021": {
+        "verdict": "keep",
+        "reason": "Tracking Copilot credit use for agents ties directly to the billing and consumption management this section covers.",
+        "at": "2026-11-07T01:02:48.583Z",
+        "v": 2
+      },
+      "post/yzhums-com/72479@282671e86681235b": {
+        "verdict": "drop",
+        "reason": "About a task pane for working through agent tasks in daily use, not about managing Copilot or agent capabilities.",
+        "at": "2026-11-07T01:02:48.583Z",
+        "v": 2
+      },
+      "post/yzhums-com/74431@e096096e3119df5e": {
+        "verdict": "keep",
+        "reason": "Choosing an AI model for each agent on the Agents page is an admin setting for agents.",
+        "at": "2026-11-07T01:02:48.583Z",
+        "v": 2
+      },
+      "post/yzhums-com/74703@27daa63fb946655c": {
+        "verdict": "keep",
+        "reason": "Covers the Allow data movement consent toggle on the Copilot & agent capabilities page.",
+        "at": "2026-11-07T01:02:48.583Z",
+        "v": 2
+      },
+      "post/yzhums-com/76396@82efd373b718cf8b": {
+        "verdict": "keep",
+        "reason": "An admin control that turns off Copilot feedback across the tenant fits managing Copilot capabilities.",
+        "at": "2026-11-07T01:02:48.583Z",
+        "v": 2
+      },
+      "post/yzhums-com/77124@488a54dd82c40310": {
+        "verdict": "drop",
+        "reason": "About a UI notification bar feature; the Agent Data Review Bar is only mentioned in passing.",
+        "at": "2026-11-07T01:02:48.583Z",
+        "v": 2
+      },
+      "video/DRUr4byy8xQ@56a5e75a3a1c80fd": {
+        "verdict": "keep",
+        "reason": "Controlling agent access through permissions and profiles is part of managing agent capabilities.",
+        "at": "2026-11-07T01:02:48.583Z",
+        "v": 2
+      },
+      "video/MKuOgMWXJ_8@c36e072796ffcd3b": {
+        "verdict": "drop",
+        "reason": "Mainly a walkthrough of the Sales Validation sample agent template, not admin management of capabilities.",
+        "at": "2026-11-07T01:02:48.583Z",
+        "v": 2
+      },
+      "video/QK-Qsh_6YL4@8ba69d9b3b8baddb": {
+        "verdict": "drop",
+        "reason": "A partner Copilot time sheet feature, which this section doesn't document.",
+        "at": "2026-11-07T01:02:48.583Z",
+        "v": 2
+      },
+      "video/UQmuMPRlHek@fcc85d97923a4b32": {
+        "verdict": "keep",
+        "reason": "Covers the Copilot and AI capabilities page, turning features off, data movement and permissions for admins.",
+        "at": "2026-11-07T01:02:48.583Z",
         "v": 2
       }
     },
@@ -4629,56 +4635,56 @@
     "topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data": {
       "post/olofsimren-com/3564@44dd62e1de94ec0f": {
         "verdict": "keep",
-        "reason": "A tool for removing test data from a company relates to the data cleanup and control this section covers.",
-        "at": "2026-11-06T00:58:50.603Z",
+        "reason": "Extension for cleaning up test data in a company works with the data cleanup this section covers.",
+        "at": "2026-11-07T01:02:49.139Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-33-restore-environment/@5c7a4cb93e13ddf3": {
-        "verdict": "drop",
-        "reason": "Restoring an environment from the Admin Center is an environment-administration task, not part of controlling data in the app.",
-        "at": "2026-11-06T00:58:50.603Z",
+        "verdict": "keep",
+        "reason": "Point-in-time environment restore to recover deleted data is related to protecting your data; kept because of doubt.",
+        "at": "2026-11-07T01:02:49.139Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-79-change-log-deletion-on-one-field/@5e6511c0218e2b32": {
         "verdict": "keep",
-        "reason": "Explains how to set up the change log to record deletions, which is part of auditing data changes.",
-        "at": "2026-11-06T00:58:50.603Z",
+        "reason": "Change log setup for tracking deletions is part of auditing changes to your data.",
+        "at": "2026-11-07T01:02:49.139Z",
         "v": 2
       },
       "post/yzhums-com/63913@edf0712566cee338": {
         "verdict": "keep",
-        "reason": "Covers ways to audit who created or changed data: audit fields, the change log and field monitoring.",
-        "at": "2026-11-06T00:58:50.603Z",
+        "reason": "Covers audit fields, change log and field monitoring for tracking data changes.",
+        "at": "2026-11-07T01:02:49.139Z",
         "v": 2
       },
       "post/yzhums-com/71047@b38e90b1acefe54e": {
         "verdict": "keep",
-        "reason": "New list display of the data audit fields that show who created or modified a record.",
-        "at": "2026-11-06T00:58:50.603Z",
+        "reason": "Shows the record audit fields (created/modified by) in lists, which relates to auditing data; borderline.",
+        "at": "2026-11-07T01:02:49.139Z",
         "v": 2
       },
-      "post/yzhums-com/76760@6ee384b69eab7549": {
+      "post/yzhums-com/76760@bcfeb501632a1924": {
         "verdict": "keep",
-        "reason": "Shows how to bulk-import change log setup, which is part of auditing data changes.",
-        "at": "2026-11-06T00:58:50.603Z",
+        "reason": "Explains how to configure change log tracking of tables and fields in bulk.",
+        "at": "2026-11-07T01:02:49.139Z",
         "v": 2
       },
       "video/564XMP2IyLM@89a3673ba64718ac": {
         "verdict": "keep",
-        "reason": "Retention policies are a core way to control your data.",
-        "at": "2026-11-06T00:58:50.603Z",
+        "reason": "Retention policies for automatically deleting data are a core way to control your data.",
+        "at": "2026-11-07T01:02:49.139Z",
         "v": 2
       },
       "video/b-ixzwDS41c@2c821422121a9263": {
         "verdict": "keep",
-        "reason": "Customer-managed encryption keys give customers control over how their data is protected.",
-        "at": "2026-11-06T00:58:50.603Z",
+        "reason": "Customer-managed encryption keys give customers control over how their data is encrypted.",
+        "at": "2026-11-07T01:02:49.139Z",
         "v": 2
       },
       "video/DnZJ2iOgIjI@6758b0a631a27f7f": {
         "verdict": "keep",
-        "reason": "Customer-managed keys and Lockbox control access to and encryption of customer data.",
-        "at": "2026-11-06T00:58:50.603Z",
+        "reason": "Covers customer-managed encryption keys and Lockbox, which control access to and encryption of data.",
+        "at": "2026-11-07T01:02:49.139Z",
         "v": 2
       }
     },
@@ -4917,14 +4923,14 @@
     "topic/business-central/development-and-administration/customize-business-central/customize-with-extensions": {
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786@f32ea2d662c4d762": {
         "verdict": "keep",
-        "reason": "Covers installing, updating and uninstalling per-tenant extensions and AppSource apps, which is part of customizing with extensions.",
-        "at": "2026-11-06T00:58:41.686Z",
+        "reason": "Covers how per-tenant and AppSource extensions are installed, updated and uninstalled, which is how you customize an environment with extensions.",
+        "at": "2026-11-07T01:02:37.305Z",
         "v": 2
       },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-87-check-for-microsoft-apps-on-appsource/@800d8365bfb4ab17": {
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-87-check-for-microsoft-apps-on-appsource/@cb4fe91e5b3ae22f": {
         "verdict": "keep",
-        "reason": "Advises extending Business Central with optional Microsoft apps from AppSource before custom development, which fits customizing with extensions.",
-        "at": "2026-11-06T00:58:41.686Z",
+        "reason": "Recommends adding optional Microsoft extensions from AppSource before building custom code, which is about extending Business Central with extensions.",
+        "at": "2026-11-07T01:02:37.305Z",
         "v": 2
       }
     },
@@ -6388,38 +6394,44 @@
     "topic/dev-itpro/development/development-environment": {
       "post/demiliani-com/13761@0a3155f7e9181960": {
         "verdict": "keep",
-        "reason": "It covers the security risks of VS Code extensions, the tools used to set up and work in the AL development environment.",
-        "at": "2026-10-26T08:18:16.571Z",
+        "reason": "Covers the risks of the VS Code extensions developers use, which belongs to setting up the development environment and its tools; kept despite the withheld summary because doubt favours keeping.",
+        "at": "2026-11-07T01:02:43.580Z",
         "v": 2
       },
       "post/sshadows-dk/https://sshadows.dk/blog/business-central-on-linux/@eafb180164dd5a4e": {
         "verdict": "keep",
-        "reason": "It runs Business Central in Linux containers for faster builds, which relates to the container and sandbox setups this section covers.",
-        "at": "2026-10-26T08:18:16.571Z",
+        "reason": "Runs Business Central containers for builds and development on Linux, which relates to container-based development environments and build tooling.",
+        "at": "2026-11-07T01:02:43.580Z",
+        "v": 2
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/introducing-bc-mission-control/@fbd7bf18bf8297db": {
+        "verdict": "keep",
+        "reason": "A tool that manages sandboxes, Docker containers and extension deployment, so it works alongside the development environment's sandbox and app tooling.",
+        "at": "2026-11-07T01:02:43.580Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/03/09/al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days/@0777ea6471c9f134": {
         "verdict": "keep",
-        "reason": "AL Object ID Ninja is a VS Code development tool, and this post covers its workspace and multi-root configuration, which fits Other tools and Configure projects and workspaces.",
-        "at": "2026-10-26T08:18:16.571Z",
+        "reason": "A VS Code tool for AL object ID management with per-folder settings in multi-root workspaces, which fits other tools and configuring projects and workspaces.",
+        "at": "2026-11-07T01:02:43.580Z",
         "v": 2
       },
       "post/yzhums-com/64148@520530c66b5f8e97": {
         "verdict": "keep",
-        "reason": "It explains how to set up launch.json and developer services so VS Code can connect to an on-premises server, which the section documents directly.",
-        "at": "2026-10-26T08:18:16.571Z",
+        "reason": "Shows how to set up launch.json and Developer Services to connect VS Code to on-premises, which is part of configuring the development environment.",
+        "at": "2026-11-07T01:02:43.580Z",
         "v": 2
       },
       "post/yzhums-com/72539@459e912bdb4f30b9": {
         "verdict": "drop",
-        "reason": "It shows how to customize the Sent Emails page with AL code, which is a coding example and not about the development environment.",
-        "at": "2026-10-26T08:18:16.571Z",
+        "reason": "Its subject is customizing the Sent Emails page with a page extension, not the development environment.",
+        "at": "2026-11-07T01:02:43.580Z",
         "v": 2
       },
       "post/yzhums-com/76570@f88b2c334620eae5": {
         "verdict": "keep",
-        "reason": "It covers how extensions published from VS Code now behave when an environment is updated, which relates to publishing apps and working in sandboxes.",
-        "at": "2026-10-26T08:18:16.571Z",
+        "reason": "Covers what happens to dev-scope extensions published from VS Code to sandboxes when an environment is updated, which relates to working in sandboxes and publishing apps.",
+        "at": "2026-11-07T01:02:43.580Z",
         "v": 2
       }
     },
@@ -9550,34 +9562,46 @@
       }
     },
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code": {
+      "post/aardvarklabs-blog/4100@8761e77345e1d886": {
+        "verdict": "drop",
+        "reason": "Its subject is one new record method (IsDirty), not the AL coding best practices this section documents.",
+        "at": "2026-11-07T01:02:43.711Z",
+        "v": 2
+      },
+      "post/jeremyvyska-com/1770@2ea70905f36ae767": {
+        "verdict": "drop",
+        "reason": "It is an announcement for paid training on agentic AI tools, not guidance on AL coding best practices.",
+        "at": "2026-11-07T01:02:43.711Z",
+        "v": 2
+      },
       "post/nataliekarolak-com/3494@6fc7df835e5a00ad": {
-        "verdict": "keep",
-        "reason": "Covers AL coding conventions for tooltips and the code analyzer rules that enforce them, which falls under AL code best practices.",
-        "at": "2026-10-26T08:20:54.977Z",
+        "verdict": "drop",
+        "reason": "Tooltip writing guidance is covered more exactly by Learn's user assistance and tooltip guidelines than by the AL code best practices page.",
+        "at": "2026-11-07T01:02:43.711Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/@7c539af3ddd905ec": {
         "verdict": "keep",
-        "reason": "ALCops is a set of code analyzers that check AL code quality, so it measures and automates what this section covers.",
-        "at": "2026-10-26T08:20:54.977Z",
+        "reason": "ALCops is a code analyzer suite that checks and enforces AL coding rules, so it works with what this section documents.",
+        "at": "2026-11-07T01:02:43.711Z",
         "v": 2
       },
       "post/thinkaboutit-be/8132@c9bfa41ad7ac66b4": {
         "verdict": "keep",
-        "reason": "BCQuality is a shared set of AL coding standards and review rules, which is directly about AL code best practices.",
-        "at": "2026-10-26T08:20:54.977Z",
+        "reason": "BCQuality is a shared set of AL code quality rules and best practices used during code review, which matches this section.",
+        "at": "2026-11-07T01:02:43.711Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/03/14/context-engineering-the-thing-almost-nobody-is-actually-talking-about/@1756ce6e0d673c86": {
         "verdict": "drop",
-        "reason": "Its subject is supplying context to AI agents, not AL coding guidelines.",
-        "at": "2026-10-26T08:20:54.977Z",
+        "reason": "It is about context engineering for AI agents, not AL coding best practices.",
+        "at": "2026-11-07T01:02:43.711Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/07/01/what-to-do-in-the-age-of-code-printing/@d40e6ff34394e4e3": {
         "verdict": "drop",
-        "reason": "Argues for a team approach to AI code generation and contains no AL coding guidance from this section.",
-        "at": "2026-10-26T08:20:54.977Z",
+        "reason": "It is about how teams organise AI code generation, not AL code best practices.",
+        "at": "2026-11-07T01:02:43.711Z",
         "v": 2
       }
     },

@@ -2,7 +2,7 @@
 id: source/bcquality-prs
 type: source
 title: microsoft/BCQuality pull requests
-summary: "microsoft/BCQuality pull requests: 111 code changes in the knowledge base, 2026-07-09 to 2026-11-05, mostly about development, platform, copilot."
+summary: "microsoft/BCQuality pull requests: 112 code changes in the knowledge base, 2026-07-09 to 2026-11-06, mostly about development, platform, copilot."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:17:27.413Z"
+  at: "2026-11-07T00:15:21.625Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 62023fa0cb050e609a132dc6b33f67bf3e01d8ff091c353ed816aad423302686
+  input_hash: eb33cefe8f90d74242fa122611549bfbe1ad8aef264e7fabf4dd98a951719a3a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
@@ -146,17 +146,18 @@ links:
     - change/bcquality/260
     - change/bcquality/262
     - change/bcquality/264
+    - change/bcquality/256
 source_id: bcquality-prs
 kind: github-pr
 url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 111
+item_count: 112
 footprint:
   systems:
     - id: development
-      weight: 198
+      weight: 200
     - id: platform
       weight: 28
     - id: copilot
@@ -169,11 +170,11 @@ footprint:
       weight: 7
   topics:
     - id: main
-      weight: 111
+      weight: 112
     - id: feature
       weight: 66
     - id: fix
-      weight: 27
+      weight: 28
     - id: other
       weight: 13
     - id: refactor
@@ -181,12 +182,12 @@ footprint:
   objects: []
   features: []
 first_item: "2026-07-09"
-last_item: "2026-11-05"
+last_item: "2026-11-06"
 ---
 
 # microsoft/BCQuality pull requests
 
-> microsoft/BCQuality pull requests: 111 code changes in the knowledge base, 2026-07-09 to 2026-11-05, mostly about development, platform, copilot.
+> microsoft/BCQuality pull requests: 112 code changes in the knowledge base, 2026-07-09 to 2026-11-06, mostly about development, platform, copilot.
 
 [https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -194,9 +195,9 @@ last_item: "2026-11-05"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (198) | main (111) |  |
+| development (200) | main (112) |  |
 | platform (28) | feature (66) |  |
-| copilot (17) | fix (27) |  |
+| copilot (17) | fix (28) |  |
 | administration (8) | other (13) |  |
 | integration (7) | refactor (5) |  |
 | reporting (7) |  |  |
@@ -206,10 +207,11 @@ last_item: "2026-11-05"
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 77
-- 2026-Q4: ********************************** 34
+- 2026-Q4: *********************************** 35
 
 ## Most recent
 
+- [#256 Fixtures: make two samples comply with the sibling articles they trip](../changes/bcquality/256.md) (2026-11-06)
 - [#264 knowledge(upgrade): clarify DataTransfer defaults and bypass safety](../changes/bcquality/264.md) (2026-11-05)
 - [#262 Trim two articles to the 10-keyword limit](../changes/bcquality/262.md) (2026-11-04)
 - [#260 Fix al-knowledge follow-ups and document the skill](../changes/bcquality/260.md) (2026-11-04)
@@ -229,6 +231,5 @@ Items per quarter, oldest first:
 - [#155 Add read-only AL development plan guidance](../changes/bcquality/155.md) (2026-10-20)
 - [#230 Knowledge: report layouts and dataset contract, query join and grouping defaults](../changes/bcquality/230.md) (2026-10-20)
 - [#223 knowledge(data-modeling): code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision](../changes/bcquality/223.md) (2026-10-19)
-- [#225 Performance and style knowledge: compute Role Center headlines in the background; build client links with GetUrl](../changes/bcquality/225.md) (2026-10-19)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

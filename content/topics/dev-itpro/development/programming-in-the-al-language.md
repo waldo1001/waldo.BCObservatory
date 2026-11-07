@@ -12,7 +12,7 @@ review:
   at: "2026-11-03T01:02:12.282Z"
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -375,6 +375,7 @@ links:
     - change/bcapps/11507
     - change/bcquality/155
     - change/bcquality/195
+    - change/bcquality/260
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -499,6 +500,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11507 [Master] Fix Unix timestamp timezone conversion](../../../changes/bcapps/11507.md) (code change): "Unix timestamp conversion in TypeHelper now delegates to"
 - [#155 Add read-only AL development plan guidance](../../../changes/bcquality/155.md) (code change): "Add read-only AL development plan guidance enriching AL development plans with applicable constraints"
 - [#195 Add foundational AL developer knowledge](../../../changes/bcquality/195.md) (code change): "Add foundational AL developer knowledge. Adds seven foundational AL knowledge articles"
+- [#260 Fix al-knowledge follow-ups and document the skill](../../../changes/bcquality/260.md) (code change): "Extended al-knowledge skill to support JavaScript technology queries for control-add-in"
 - [Guide to Handling Header and Detail Imports into Business Central with AL](../../../posts/aardvarklabs-blog/2603.md) (community post): "demonstrates how to parse and import delimited files using AL"
 - [Snippet: StrMenu from Enum list](../../../posts/nataliekarolak-com/1855.md) (community post): "AL code snippet that uses StrMenu to let users select from a filtered"
 - [Docs: What’s new in BC 27 for developers](../../../posts/nataliekarolak-com/3653.md) (community post): "New AL methods for GUID creation, truncate operations, text manipulation"

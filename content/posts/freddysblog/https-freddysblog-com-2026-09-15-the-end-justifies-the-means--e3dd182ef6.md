@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T23:46:25.409Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-11-07T00:15:21.625Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -61,7 +61,7 @@ preview:
   image_h: null
   site_name: Freddys blog
   favicon: https://freddysblog.com/assets/images/site/favicon.png
-  probed_at: "2026-10-07T11:50:04.376Z"
+  probed_at: "2026-11-07T00:57:19.375Z"
 ---
 
 # The End Justifies the Means

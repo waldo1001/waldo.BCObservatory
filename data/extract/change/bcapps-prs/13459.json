@@ -6,12 +6,12 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Additional reporting currency differences appearing after closing the income statement have been fixed by improving the calculation logic in the Close Income Statement report and adding currency revaluation handling.",
+  "summary": "Fixes differences in the additional reporting currency that remained after running the Close Income Statement report. The report is updated in the W1, ES and IT layers, a new Close Inc. Stmt. ACY Handler codeunit is added, and Gen. Jnl.-Post Line is adjusted in the ES layer.",
   "key_points": [
-    "New codeunit added to handle additional currency calculations during income statement closure",
-    "Close Income Statement report modified to properly account for reporting currency differences across multiple locales",
-    "Enhanced test coverage for financial reporting in several country versions to verify the fix",
-    "Addresses issue where residual currency differences remained after closing"
+    "New codeunit Close Inc. Stmt. ACY Handler added for additional reporting currency during income statement closing",
+    "Close Income Statement report changed in the W1, ES and IT layers",
+    "Gen. Jnl.-Post Line adjusted in the ES layer",
+    "Tests added in several country layers to cover the fix"
   ],
   "change_kind": "fix",
   "behavior_change": true,

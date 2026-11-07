@@ -12,7 +12,7 @@ review:
   at: "2026-10-30T08:08:53.967Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -86,6 +86,7 @@ links:
     - change/bcapps/12147
     - change/bcapps/12599
     - change/bcapps/12763
+    - change/bcapps/13721
 learn_toc_path:
   - Business functionality
   - Expense management (preview)
@@ -146,6 +147,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12147 Bugs/add corp card basics](../../../../changes/bcapps/12147.md) (code change): "Implements corporate card transaction import and processing with data exchange providers"
 - [#12599 [Master] - Slice 629913: [Expense Agent][VENDOR] Enforced background itemization required for approvals](../../../../changes/bcapps/12599.md) (code change): "Policy-enforced itemization is required when an enabled policy with text applies"
 - [#12763 [Master] - Bug 654021: [Expense Agent] [Professional] Online: Creating Production - Setup Data Only Company with Delegated Admin access: "'IndirectInsert' permission on TableData 6913 'Expense Pmt Method" - 2610091420000495](../../../../changes/bcapps/12763.md) (code change): "Allows delegated admins to perform administrative operations on expense management"
+- [#13721 [Expense Agent] Create per diem line when approving travel requests with Per Diem Included](../../../../changes/bcapps/13721.md) (code change): "When approving travel requests with Per Diem Included, the system now automatically creates a per diem expense line"
 - [Expense Agent: Mileage Allowances (2026 release wave 1)](../../../../videos/Fz8NLByllRc.md) (video): "Automatic mileage rate calculation; Automatic expense report matching"
 - [What's new in Expense Agent: Project Handling (2026 release wave 2)](../../../../videos/GwrMf1umTFg.md) (video): "Project resource assignment on project card; Project task level resource assignment"
 - [What's new in Expense Agent: Improved Approval Process (2026 release wave 2)](../../../../videos/M0IzeLSn7qU.md) (video): "expense agent; approval process; audit trail; ai policies"

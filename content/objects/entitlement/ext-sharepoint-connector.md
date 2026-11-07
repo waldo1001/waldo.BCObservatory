@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:50:42.930Z"
+  at: "2026-11-07T00:52:53.800Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 664d26605afaecf6a238d564d24cc12c93e6a4cc2d1f9f1667ed77dc9c7654bb
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/External%20File%20Storage%20-%20SharePoint%20Connector/app/Entitlements/ExtSharePointConnector.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/W1/External%20File%20Storage%20-%20SharePoint%20Connector/app/Entitlements/ExtSharePointConnector.Entitlement.al
     title: src/Apps/W1/External File Storage - SharePoint Connector/app/Entitlements/ExtSharePointConnector.Entitlement.al (releases/29.x)
     date: null
-    commit: 7af2f8d2e22b684ec7b2455c7baf1007da944ac5
+    commit: 2f228f96c8a299e26ab425fe4d5fc937ebe8d385
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Ext. SharePoint Connector" in External File Storage - SharePoint Connector (System.ExternalFileStorage). Introduced in BC29, still in BC30.
 
-External File Storage - SharePoint Connector · System.ExternalFileStorage · BC29-30 · [source at 7af2f8d2](https://github.com/microsoft/BCApps/blob/7af2f8d2e22b684ec7b2455c7baf1007da944ac5/src/Apps/W1/External%20File%20Storage%20-%20SharePoint%20Connector/app/Entitlements/ExtSharePointConnector.Entitlement.al) · facts from BC29
+External File Storage - SharePoint Connector · System.ExternalFileStorage · BC29-30 · [source at 2f228f96](https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/W1/External%20File%20Storage%20-%20SharePoint%20Connector/app/Entitlements/ExtSharePointConnector.Entitlement.al) · facts from BC29
 
 ## Across versions
 

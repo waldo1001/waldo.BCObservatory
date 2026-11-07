@@ -2,33 +2,33 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-monitor-fabric-export.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export",
   "title": "Monitor and Troubleshoot Microsoft Fabric Synchronization",
-  "blob": "135fc8961295f40cc096e1c886157844d79a438d",
+  "blob": "93ac94604b3e45dc73b3d51103735cfb8c5d1779",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
-      "kind": "status",
-      "text": "Production-ready preview planned to become available in October 2026. Delivery timing and functionality might change. Subject to supplemental terms of use."
+      "kind": "step",
+      "text": "To monitor synchronization, open the setup page, select Monitoring and Fabric Synchronization Overview, then review run states, times, and error messages."
+    },
+    {
+      "kind": "fact",
+      "text": "The Fabric Synchronization Details page shows company, table, destination entity name, sync type, record counts, watermarks, and errors."
+    },
+    {
+      "kind": "fact",
+      "text": "By default, detail rows with zero changes are hidden. Use Show rows with no changes when investigating missing or failed results."
+    },
+    {
+      "kind": "fact",
+      "text": "Two read-only monitoring APIs are available under publisher microsoft, group fabric, version v1.0: fabricExportRuns and fabricExportDetails."
     },
     {
       "kind": "step",
-      "text": "Open Microsoft Fabric Mirroring Setup page, select Monitoring, then Fabric Synchronization Overview to review run type, state, times, and error messages."
-    },
-    {
-      "kind": "step",
-      "text": "From Fabric Synchronization Overview, select a run and then select Details to review table-level results for that synchronization run."
+      "text": "In Fabric, open the mirrored database and select Monitor replication to check database and table states, row counts, and last completed times."
     },
     {
       "kind": "fact",
-      "text": "Fabric Synchronization Details page shows company, table name, Fabric entity name, run type, record counts, watermarks, and error state for each company and table."
-    },
-    {
-      "kind": "fact",
-      "text": "Monitoring data is available from Business Central pages, APIs, or logging tables in Fabric with default logging namespace BusinessCentral_log."
-    },
-    {
-      "kind": "fact",
-      "text": "Microsoft Fabric Mirroring app provides APIs for synchronization overview and details. Same operational data synchronizes to logging namespace in Fabric."
+      "text": "Setup Complete confirms background connection succeeded. Export Enabled reports whether continuous export is enabled but doesn't confirm particular export success."
     }
   ],
   "dropped": 0,
@@ -36,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006355,
-      "pages_in_call": 7
+      "cost_usd": 0.007238,
+      "pages_in_call": 5
     }
   ]
 }

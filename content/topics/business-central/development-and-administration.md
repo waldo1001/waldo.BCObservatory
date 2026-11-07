@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-07T01:06:39.442Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -482,6 +482,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/13598
     - change/bcapps/9281
     - change/bcapps/9291
 learn_toc_path:
@@ -784,6 +785,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13598 Fix concurrent initialization of My Notifications](../../changes/bcapps/13598.md) (code change): "Fixed race condition where concurrent sessions would both find no notification row"
 - [#9281 Add read isolation support to Isolated Storage Management](../../changes/bcapps/9281.md) (code change): "Isolated Storage Management codeunit now provides Get method overloads"
 - [#9291 Add [NonDebuggable] to Cryptography Management encrypt/decrypt procedures](../../changes/bcapps/9291.md) (code change): "Cryptography Management system application now marks all encryption and decryption procedures"
 - [Introducing: Contoso Demo Tool (2023 release wave 2)](../../videos/bvGdaxC3sq8.md) (video): "demo data; contoso; demo modules; rapid start package"

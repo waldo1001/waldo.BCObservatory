@@ -2,7 +2,7 @@
 id: source/yzhums-com
 type: source
 title: Dynamics 365 Lab - Yun Zhu
-summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 393 posts in the knowledge base, 2025-04-28 to 2026-11-05, mostly about development, administration, platform."
+summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 394 posts in the knowledge base, 2025-04-28 to 2026-11-06, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:17:27.413Z"
+  at: "2026-11-07T00:15:21.625Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 0c92c36706be2d739296bba7e0a6c7bc0ad917c148a1e8107cd59bd52629587e
+  input_hash: d2a50c497a8d7de468daccd29fae48c446449d36920f503db4b4200b2de41f3d
 evidence:
   - kind: blog
     url: https://yzhums.com
@@ -426,6 +426,7 @@ links:
     - post/yzhums-com/77038
     - post/yzhums-com/77070
     - post/yzhums-com/76760
+    - post/yzhums-com/77124
   guidelines: []
 source_id: yzhums-com
 kind: blog
@@ -433,7 +434,7 @@ url: https://yzhums.com
 author: Yun Zhu
 mvp: true
 full_text: false
-item_count: 393
+item_count: 394
 footprint:
   systems:
     - id: development
@@ -441,7 +442,7 @@ footprint:
     - id: administration
       weight: 205
     - id: platform
-      weight: 197
+      weight: 199
     - id: sales
       weight: 89
     - id: reporting
@@ -460,7 +461,7 @@ footprint:
     - id: bc29
       weight: 21
     - id: release wave 2
-      weight: 19
+      weight: 20
     - id: admin center
       weight: 16
     - id: al language
@@ -496,12 +497,12 @@ footprint:
       weight: 5
   features: []
 first_item: "2025-04-28"
-last_item: "2026-11-05"
+last_item: "2026-11-06"
 ---
 
 # Dynamics 365 Lab - Yun Zhu
 
-> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 393 posts in the knowledge base, 2025-04-28 to 2026-11-05, mostly about development, administration, platform.
+> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 394 posts in the knowledge base, 2025-04-28 to 2026-11-06, mostly about development, administration, platform.
 
 [https://yzhums.com](https://yzhums.com) · blog · tier community
 
@@ -511,10 +512,10 @@ last_item: "2026-11-05"
 |---|---|---|
 | development (285) | al development (66) | table Customer (14) |
 | administration (205) | bc28 (27) | table Sales Header (12) |
-| platform (197) | bc27 (23) | page Customer Card (10) |
+| platform (199) | bc27 (23) | page Customer Card (10) |
 | sales (89) | customization (23) | page Item Card (9) |
 | reporting (75) | bc29 (21) | page Item List (9) |
-| integration (70) | release wave 2 (19) | page Customer List (7) |
+| integration (70) | release wave 2 (20) | page Customer List (7) |
 |  | admin center (16) | page Sales Order (7) |
 |  | al language (16) | table Sales Line (7) |
 |  | on-premises (16) | page Vendor Card (6) |
@@ -532,10 +533,11 @@ Items per quarter, oldest first:
 - 2026-Q1: **************************************** 68
 - 2026-Q2: **************************************** 54
 - 2026-Q3: **************************************** 71
-- 2026-Q4: ************************ 24
+- 2026-Q4: ************************* 25
 
 ## Most recent
 
+- [Business Central 2026 release wave 2 (BC29): New notification bar](../posts/yzhums-com/77124.md) (2026-11-06)
 - [Dynamics 365 Business Central: How to import Change Log Setup (Table/Field) using Configuration Packages](../posts/yzhums-com/76760.md) (2026-11-05)
 - [Business Central 2026 release wave 2 (BC29): Match Production Database Configuration](../posts/yzhums-com/77070.md) (2026-11-04)
 - [Business Central 2026 release wave 2 (BC29): Custom Report Layouts are now deprecated and have been removed](../posts/yzhums-com/77038.md) (2026-10-30)
@@ -555,6 +557,5 @@ Items per quarter, oldest first:
 - [Business Central 2026 release wave 2 (BC29): AL developers can turn indexes on/off in AL code](../posts/yzhums-com/76518.md) (2026-10-09)
 - [Business Central 2026 release wave 2 (BC29): Retained DEV extensions (DEV extensions remain installed during environment update)](../posts/yzhums-com/76570.md) (2026-10-08)
 - [Business Central 2026 release wave 2 (BC29): Calculate multiple excise duties per item](../posts/yzhums-com/76445.md) (2026-10-07)
-- [Business Central 2026 release wave 2 (BC29): Faster data loading with improved data model for table extensions (all fields on an AL table are stored in the same table)](../posts/yzhums-com/76505.md) (2026-10-06)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).
