@@ -6,14 +6,39 @@
   "title": "Fix SharePoint REST upload 404 caused by trailing slash in parent folder",
   "url": "https://github.com/microsoft/BCApps/pull/13692",
   "published_at": "2026-11-05T20:06:12Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-06T00:17:27.413Z"
+    },
+    "fetched": {
+      "at": "2026-11-07T00:28:20.976Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-07T00:28:28.495Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.008967
+    },
+    "linked": {
+      "at": "2026-11-07T00:28:28.628Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-07T00:29:00.949Z",
+      "path": "content/changes/bcapps/13692.md"
     }
   },
   "input_hash": "7ef28b007af89cb793ca7ef957256765ce6192d6:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13692,
@@ -30,6 +55,7 @@
     "community_contribution": false,
     "title_key": "fix sharepoint rest upload 404 caused by trailing slash in parent folder"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-11-06T02:19:55.756Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "717053f2e06000e7e9529af34484af450aa8875a27f4e447d22a2bb7c755c8bc"
 }

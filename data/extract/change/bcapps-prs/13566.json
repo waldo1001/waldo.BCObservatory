@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13566",
+  "number": 13566,
+  "title": "[Subcontracting] Bug 648843: Align feature-handler references with CLEAN28",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Subcontracting app handler references are realigned with CLEAN28 boundaries by adding 425 feature-flag guards for handler declarations and calls, plus removing 17 redundant cached-flag checks that depend on those handlers.",
+  "key_points": [
+    "Added CLEAN28 compatibility guards around 425 SubcFeatureFlagHandler references across 81 files to match the handler's existing obsolescence boundary",
+    "Removed 17 checks of the cached SubcontractingEnabled variable that would otherwise create unresolved references when handlers are guarded",
+    "Preserved CLEAN27 guards for Italian legacy-handler references and objects already marked obsolete at 27.0",
+    "No changes to obsoletion tags, schema boundaries, application-area setup, or unrelated tests",
+    "Validated through static source audit confirming exact handler-guard coverage and preservation of non-handler logic"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.016126,
+    "changes_in_call": 1
+  }
+}

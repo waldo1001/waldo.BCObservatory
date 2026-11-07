@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v29",
   "published_at": "2026-11-06T13:55:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:18.861Z",
-      "blob": "4867c6dbe1624b97cd69a424830f061d16ea514f",
+      "at": "2026-11-07T00:23:58.531Z",
+      "blob": "f2554aa210e32ac7b1c176abda79fda31262f7af",
       "words": 2809,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:35:35.737Z",
+      "at": "2026-11-07T00:24:13.178Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.011482
+      "objects": 5,
+      "cost_usd": 0.019512
     },
     "summarized": {
-      "at": "2026-10-06T13:35:35.771Z",
+      "at": "2026-11-07T00:24:13.184Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:35:35.771Z",
+      "at": "2026-11-07T00:24:13.185Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:35:35.771Z",
+      "at": "2026-11-07T00:24:13.185Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/upgrade/upgrading-cumulative-update-v29.md",
     "description": "This article describes the tasks required for getting the monthly version 29 update applied to your Dynamics 365 Business Central on-premises.",
-    "ms_date": "2026-09-23",
+    "ms_date": "2026-11-02",
     "ms_topic": "install-set-up-deploy",
     "search_form": [],
     "keywords": [],
@@ -59,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ec7c624cef355bf16cc04cef7f3f937b1f5b9fc18ccd36764c6434c38cce79c8"
+  "output_hash": "9ed0c3905211c018e113548a54173632df25b5603b7cfe00d2d53d75dc063956"
 }

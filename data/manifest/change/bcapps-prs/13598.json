@@ -6,10 +6,35 @@
   "title": "Fix concurrent initialization of My Notifications",
   "url": "https://github.com/microsoft/BCApps/pull/13598",
   "published_at": "2026-11-06T10:10:45Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-07T00:25:56.175Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-07T00:26:22.365Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004327
+    },
+    "linked": {
+      "at": "2026-11-07T00:26:22.667Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-07T00:26:22.674Z",
+      "path": "content/changes/bcapps/13598.md"
     }
   },
   "input_hash": "0cae0511f576d83c600591a1eaa150fc20b68965:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix concurrent initialization of my notifications"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2f69ed953b040739a0f2bf3fd41f71a99384e0670f5534fc624d765755e4f4db"
 }

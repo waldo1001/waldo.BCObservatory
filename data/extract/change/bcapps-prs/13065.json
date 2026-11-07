@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13065",
+  "number": 13065,
+  "title": "Issue#10580:[Extensibility Request] Make Business Central's E-Document object extensible.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The E-Document Purchase Draft page is modified to support extensibility, allowing third-party developers to build custom integrations on top of the E-Document framework.",
+  "key_points": [
+    "E-Document Purchase Draft page is made extensible",
+    "Enables third-party developers to extend E-Document functionality",
+    "Supports better integration scenarios for new features built on the E-Document framework",
+    "Minimal code change with one line removed",
+    "Addresses extensibility request for the E-Document module"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003608,
+    "changes_in_call": 1
+  }
+}

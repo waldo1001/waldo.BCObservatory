@@ -6,10 +6,35 @@
   "title": "Issue#10580:[Extensibility Request] Make Business Central's E-Document object extensible.",
   "url": "https://github.com/microsoft/BCApps/pull/13065",
   "published_at": "2026-11-06T08:53:44Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-07T00:26:52.140Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-07T00:27:05.355Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003608
+    },
+    "linked": {
+      "at": "2026-11-07T00:27:13.391Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "2f228f96c8a299e26ab425fe4d5fc937ebe8d385"
+    },
+    "published": {
+      "at": "2026-11-07T00:27:13.405Z",
+      "path": "content/changes/bcapps/13065.md"
     }
   },
   "input_hash": "1fa34e8e7d8515ef76fdc7887f67ddc66834c0e0:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "issue 10580 extensibility request make business central s e document object extensible"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "87316f3e1666b6bf5b1941700d6688019ace984bcf6f1c534510168f08487a4e"
 }

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/256",
+  "number": 256,
+  "title": "Fixtures: make two samples comply with the sibling articles they trip",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Sample fixtures were corrected to comply with sibling quality articles by adding missing OnDelete blocks and properly registering upgrade tags in code snippets used for knowledge validation.",
+  "key_points": [
+    "Added OnDelete handlers to owning tables to properly delete dependent records in data-modeling samples",
+    "Moved upgrade tag registration into a dedicated codeunit with subscriber methods to match expected patterns",
+    "Removed unnecessary install code that would fail on reinstall and is not needed for upgrade fixtures",
+    "All preparation checks and review contracts pass without requiring model execution",
+    "Samples now correctly demonstrate the patterns expected by their sibling quality articles"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "sample corrections only. The scorer, the oracle and preparation are unchanged.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004026,
+    "changes_in_call": 1
+  }
+}

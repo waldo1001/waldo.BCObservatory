@@ -2,35 +2,36 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/overview",
   "title": "What's New or Changed in Business Central",
-  "blob": "5c48caac2e3a1fb4f60a2241e1e010a4a91fb5f1",
-  "summary": "Overview of new, changed, and planned capabilities in Dynamics 365 Business Central across release waves and monthly minor updates. Use this to discover what features are available now and plan for upcoming features.",
+  "blob": "03812829766a618b9dc4424d7889a836885acaad",
+  "summary": "Overview of new, changed, and planned capabilities in Dynamics 365 Business Central with information on major six-month release cycles and monthly minor updates. Use this page to discover upcoming features, track rollout progress, and understand current release wave status.",
   "systems": [
     "platform",
-    "administration"
+    "reporting"
   ],
   "topics": [
-    "release cycle",
-    "release waves",
-    "minor updates",
-    "new features",
-    "capability planning"
+    "release notes",
+    "roadmap",
+    "updates",
+    "release cycles",
+    "features",
+    "planning"
   ],
   "objects": [],
   "features": [
     "AI at Work roadmap",
     "six-month release cycle",
+    "major version updates",
     "monthly minor updates",
-    "regulatory updates",
-    "update management"
+    "release waves",
+    "regulatory updates"
   ],
   "versions": [
+    "2026 release wave 2",
+    "2026 release wave 1",
+    "version 29.1",
     "version 29.0",
     "version 28.5",
-    "version 28.4",
-    "version 28.3",
-    "version 28.2",
-    "2026 release wave 2",
-    "2026 release wave 1"
+    "version 28.4"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -38,7 +39,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00363,
+      "cost_usd": 0.003512,
       "pages_in_call": 1
     }
   ]

@@ -13,7 +13,7 @@
     }
   },
   "input_hash": "76013d840407ed91bd04d488e4b28c7d095e12cc:c1",
-  "attempts": 0,
+  "attempts": 1,
   "flags": [],
   "meta": {
     "number": 13690,
@@ -29,5 +29,7 @@
     ],
     "community_contribution": false,
     "title_key": "bug 657870 expenseagent allow assigning interim approvers via api before expense reports are pending approval"
-  }
+  },
+  "last_error": "fetch failed",
+  "retry_after": "2026-11-07T02:28:09.022Z"
 }

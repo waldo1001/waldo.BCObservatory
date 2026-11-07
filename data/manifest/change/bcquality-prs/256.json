@@ -6,10 +6,35 @@
   "title": "Fixtures: make two samples comply with the sibling articles they trip",
   "url": "https://github.com/microsoft/BCQuality/pull/256",
   "published_at": "2026-11-06T11:17:16Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-07T00:24:09.861Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 0,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-11-07T00:24:19.359Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.004026
+    },
+    "linked": {
+      "at": "2026-11-07T00:24:19.360Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-07T00:24:22.461Z",
+      "path": "content/changes/bcquality/256.md"
     }
   },
   "input_hash": "b0f702f4e4eaf52c2a6466575de65dad4f1d7b8f:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "fixtures make two samples comply with the sibling articles they trip"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "70a8b2e216003ec909498c5b5a041ca2e89bbfb6cd48e9a24df93b67895e73da"
 }

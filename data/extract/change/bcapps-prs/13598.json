@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13598",
+  "number": 13598,
+  "title": "Fix concurrent initialization of My Notifications",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "My Notifications no longer raises an error when two concurrent sessions initialize the same notification row; instead, the losing session reloads the row inserted by the winning session, preserving both users' settings.",
+  "key_points": [
+    "Fixed race condition where concurrent sessions would both find no notification row and attempt to insert, causing the second session to fail with 'already exists' error",
+    "Implemented shared insert-or-get operation for all three default-insert helpers to handle concurrent initialization gracefully",
+    "Added five deterministic regression tests covering all three table helpers and the platform get/set paths with competing row insertions",
+    "Solution avoids locks or commits while ensuring the notification page opens successfully for all concurrent sessions",
+    "Covers platform notification status initialization and table-specific/filtered default helpers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration"
+  ],
+  "quote": "Two sessions of the same user can both find no notification row on first use and then race to insert it.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004327,
+    "changes_in_call": 1
+  }
+}

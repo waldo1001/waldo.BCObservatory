@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13636,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13636",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-06T06:19:44Z",
+  "merge_commit_sha": "3c7d7db63d6f97ad161731219e7cecb7fcc9c882",
+  "author": "DhavalMore88",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[master][NAV] - Re-enable EFT payment-journal export test failing during remittance reporting",
+  "body_hash": "c7459d1b286ab690770a789bca6e651cdba0f65111703ab148be5e6b3f559dbf",
+  "fixes_issues": [],
+  "work_items": [
+    657827
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 6,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

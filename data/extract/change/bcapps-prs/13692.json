@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13692",
+  "number": 13692,
+  "title": "Fix SharePoint REST upload 404 caused by trailing slash in parent folder",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "The SharePoint REST connector now correctly handles trailing slashes in folder paths, fixing 404 errors that prevented uploads and file operations through the legacy REST API.",
+  "key_points": [
+    "Removed trailing separators from parent folder paths that caused API rejections",
+    "Fixed SplitPath and GetParentPath logic to work with the newer GetFolderByServerRelativePath method",
+    "Added path normalization in InitPath to handle directory paths from Storage Browser navigation",
+    "Integrated fixes for doubled separators and root folder handling",
+    "Resolves widespread upload failures affecting approximately 70k operations across 66 tenants"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.008967,
+    "changes_in_call": 1
+  }
+}

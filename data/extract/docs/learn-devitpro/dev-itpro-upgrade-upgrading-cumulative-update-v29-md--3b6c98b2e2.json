@@ -2,35 +2,56 @@
   "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrading-cumulative-update-v29.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v29",
   "title": "Install a Business Central 2026 release wave 2 (version 29) Update",
-  "blob": "4867c6dbe1624b97cd69a424830f061d16ea514f",
-  "summary": "Install Business Central 2026 release wave 2 (version 29) updates on-premises by converting databases to the new platform, publishing new extension versions, and synchronizing tenants. Use for platform-only or application upgrades on single-tenant and multitenant deployments.",
+  "blob": "f2554aa210e32ac7b1c176abda79fda31262f7af",
+  "summary": "How to install a Business Central 2026 release wave 2 (version 29) cumulative update on-premises, covering platform conversion, extension publishing, database synchronization, and data upgrade for both single-tenant and multitenant deployments.",
   "systems": [
     "administration",
-    "development",
-    "platform"
+    "platform",
+    "development"
   ],
   "topics": [
     "upgrade",
     "installation",
-    "platform conversion",
-    "extensions",
-    "multitenant",
-    "database synchronization"
+    "database conversion",
+    "extension management",
+    "platform update",
+    "multitenant deployment"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Microsoft_System Application.app"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft_Business Foundation.app"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft_Base Application.app"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft_Application.app"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft__Exclude_ReportLayouts.app"
+    }
+  ],
   "features": [
-    "Platform upgrade",
-    "Application upgrade",
-    "Extension publishing",
-    "Database conversion",
-    "Tenant mounting",
-    "Data upgrade",
-    "License import"
+    "platform upgrade",
+    "application upgrade",
+    "database conversion",
+    "extension publishing",
+    "extension synchronization",
+    "data upgrade",
+    "license import",
+    "control add-ins upgrade"
   ],
   "versions": [
     "2026 release wave 2",
-    "version 29",
-    "Business Central v29"
+    "version 29"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -38,8 +59,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.011482,
-      "pages_in_call": 3
+      "cost_usd": 0.019512,
+      "pages_in_call": 1
     }
   ]
 }

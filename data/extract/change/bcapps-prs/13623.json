@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13623",
+  "number": 13623,
+  "title": "[Dataverse] Fix duplicate sales line numbers with automatic recurring lines",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Fixed an issue where creating a Business Central sales order from Dynamics 365 Sales could fail with duplicate line numbers when automatic recurring lines already existed. The importer now initializes the line counter from the last existing sales line instead of starting from zero.",
+  "key_points": [
+    "LastSalesLineNo counter is now initialized from the last existing sales line for the document",
+    "Counter is reset for every order to prevent number conflicts",
+    "In-memory allocation logic preserved to prevent extended description lines from reusing main line numbers",
+    "Existing recurring lines are preserved during import",
+    "Regression tests added covering single recurring line, multiple recurring lines with products and descriptions, and successive orders"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004285,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13459",
+  "number": 13459,
+  "title": "[29x] Additional Reporting Currency Difference After Closing Income Statement - related to 625803",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Additional reporting currency differences appearing after closing the income statement have been fixed by improving the calculation logic in the Close Income Statement report and adding currency revaluation handling.",
+  "key_points": [
+    "New codeunit added to handle additional currency calculations during income statement closure",
+    "Close Income Statement report modified to properly account for reporting currency differences across multiple locales",
+    "Enhanced test coverage for financial reporting in several country versions to verify the fix",
+    "Addresses issue where residual currency differences remained after closing"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Additional Reporting Currency Difference After Closing Income Statement",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003496,
+    "changes_in_call": 1
+  }
+}

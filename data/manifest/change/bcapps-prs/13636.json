@@ -6,7 +6,7 @@
   "title": "[master][NAV] - Re-enable EFT payment-journal export test failing during remittance reporting",
   "url": "https://github.com/microsoft/BCApps/pull/13636",
   "published_at": "2026-11-06T06:19:44Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
@@ -30,5 +30,8 @@
     ],
     "community_contribution": true,
     "title_key": "master nav re enable eft payment journal export test failing during remittance reporting"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-07T00:27:59.576Z",
+  "retry_after": null
 }

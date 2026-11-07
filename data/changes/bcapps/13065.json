@@ -1,0 +1,66 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13065,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13065",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-06T08:53:44Z",
+  "merge_commit_sha": "1fa34e8e7d8515ef76fdc7887f67ddc66834c0e0",
+  "author": "arvindbinarystream",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "Issue#10580:[Extensibility Request] Make Business Central's E-Document object extensible.",
+  "body_hash": "9d49b5c08eec725933764834ceaf0d133b93582f7a8371dcfd4da9b06a5b32e1",
+  "fixes_issues": [],
+  "work_items": [
+    656728
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/EDocumentPurchaseDraft.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 0,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "2f228f96c8a299e26ab425fe4d5fc937ebe8d385",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/EDocumentPurchaseDraft.Page.al",
+        "status": "modified",
+        "key": "page/6181",
+        "type": "page",
+        "id": 6181,
+        "name": "E-Document Purchase Draft",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6181"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument"
+  ]
+}
