@@ -6,10 +6,35 @@
   "title": "Fix workspace compilation with versioning strategy 3",
   "url": "https://github.com/microsoft/AL-Go/pull/2433",
   "published_at": "2026-11-06T13:37:40Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-07T00:23:00.952Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-07T00:23:10.302Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003624
+    },
+    "linked": {
+      "at": "2026-11-07T00:23:10.303Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-07T00:23:10.314Z",
+      "path": "content/changes/al-go/2433.md"
     }
   },
   "input_hash": "48c905a21b9ff976a58729483be66eeaaef698d1:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "fix workspace compilation with versioning strategy 3"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5655feba2b550cc543026733b22a2f18633f6cab3223dc75795c69af321ff817"
 }

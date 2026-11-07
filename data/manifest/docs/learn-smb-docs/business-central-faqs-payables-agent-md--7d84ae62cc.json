@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-payables-agent",
   "published_at": "2026-11-06T13:57:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.389Z",
-      "blob": "3974b4fd83d03596ac8138d036f76deba67a2b42",
-      "words": 1672,
+      "at": "2026-11-07T00:22:04.540Z",
+      "blob": "a48a0c80c6434542686d4f3c6d103d7f40228581",
+      "words": 1906,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:07:09.755Z",
+      "at": "2026-11-07T00:22:20.690Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.010538
+      "cost_usd": 0.010012
     },
     "summarized": {
-      "at": "2026-10-06T13:07:56.797Z",
+      "at": "2026-11-07T00:22:20.697Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:07:56.797Z",
+      "at": "2026-11-07T00:22:20.698Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:07:56.798Z",
+      "at": "2026-11-07T00:22:20.698Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/faqs-payables-agent.md",
-    "description": "Learn how AI automates purchase invoice creation in Business Central, including setup, capabilities, limitations, and responsible use.",
-    "ms_date": "2026-10-02",
+    "description": "Learn how Payables Agent creates purchase invoices and credit memos in Business Central, including review controls, limitations, and responsible use.",
+    "ms_date": "2026-11-03",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 1672,
+    "words": 1906,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5d0969894c6f81d27e4de3181be001cb5a4343e786f6d71130f4005f603c0558"
+  "output_hash": "4e19adac2cd124a1b433f93b4a3741702ef477c26cdeade8b546b8b080f6d0f8"
 }

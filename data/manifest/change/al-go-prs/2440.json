@@ -6,10 +6,35 @@
   "title": "Sort artifacts by creation time when determining latest artifacts for release",
   "url": "https://github.com/microsoft/AL-Go/pull/2440",
   "published_at": "2026-11-06T12:35:10Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-07T00:23:17.282Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-07T00:23:24.703Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003711
+    },
+    "linked": {
+      "at": "2026-11-07T00:23:24.704Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-07T00:23:24.712Z",
+      "path": "content/changes/al-go/2440.md"
     }
   },
   "input_hash": "3e18897fb39a50ed0d9c57e7755f23ed1601728d:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "sort artifacts by creation time when determining latest artifacts for release"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "98715deb9eb8f99d47c5a373104aaf07a6dfedfcd5dbd96f3b78519972d39085"
 }

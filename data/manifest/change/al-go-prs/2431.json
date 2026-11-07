@@ -6,7 +6,7 @@
   "title": "Document existing settings and disabled-test conventions",
   "url": "https://github.com/microsoft/AL-Go/pull/2431",
   "published_at": "2026-11-06T13:58:35Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
@@ -26,5 +26,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "document existing settings and disabled test conventions"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-07T00:22:58.537Z",
+  "retry_after": null
 }

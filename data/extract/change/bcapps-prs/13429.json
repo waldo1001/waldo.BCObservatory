@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13429",
+  "number": 13429,
+  "title": "[Quality Management] Receiving setup guide: don't offer the warehouse receipt Create trigger",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The Receiving setup guide now prevents creating Quality Management rules with unsupported warehouse receipt triggers that would never fire, limiting trigger options to Never and When Warehouse Receipt is posted.",
+  "key_points": [
+    "The warehouse receipt trigger field now restricts to Never and When Warehouse Receipt is posted options only",
+    "Setup defaults of created trigger are not carried into the guide to prevent invalid rules",
+    "Finish action rejects unsupported trigger combinations with guidance to the Generation Rules page",
+    "Tooltip explains how to manually set up Warehouse Receipt Line rules for the created trigger",
+    "Existing rules and the Generation Rules page remain unchanged for manual rule creation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00387,
+    "changes_in_call": 1
+  }
+}

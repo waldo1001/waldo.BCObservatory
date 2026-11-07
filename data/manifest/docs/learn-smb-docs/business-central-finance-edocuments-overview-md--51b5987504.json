@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-edocuments-overview",
   "published_at": "2026-11-06T13:57:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.601Z",
-      "blob": "c46499b49c19d4fa3d38933f1206855f1f24f57f",
-      "words": 444,
+      "at": "2026-11-07T00:22:04.402Z",
+      "blob": "36011f917e249ca238993bb0d14664c4de7e5b92",
+      "words": 484,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:50:29.761Z",
+      "at": "2026-11-07T00:22:20.709Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005657
+      "cost_usd": 0.004053
     },
     "summarized": {
-      "at": "2026-10-06T18:50:31.955Z",
+      "at": "2026-11-07T00:22:20.714Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:50:31.955Z",
+      "at": "2026-11-07T00:22:20.715Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:50:31.956Z",
+      "at": "2026-11-07T00:22:20.715Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-edocuments-overview.md",
     "description": "Learn about e-documents in Business Central and how they streamline business transactions with automated document management and local compliance features.",
-    "ms_date": "2025-07-17",
+    "ms_date": "2026-11-03",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "e-document",
       "e-invoice"
     ],
-    "ai_usage": null,
-    "words": 444,
+    "ai_usage": "ai-assisted",
+    "words": 484,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "67570584ee860f36bfe150eb78efa3c5dc73406dfe48051dc8339b966b8908d4"
+  "output_hash": "21d0f22db77ba9e9636cbcd8f27c47ecd458d3fd112796bc0ac0ea422522553b"
 }

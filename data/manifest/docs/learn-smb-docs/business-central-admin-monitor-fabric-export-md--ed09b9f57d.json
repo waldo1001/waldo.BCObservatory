@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export",
   "published_at": "2026-11-06T14:44:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
@@ -19,22 +19,22 @@
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-15T00:25:28.945Z",
+      "at": "2026-11-07T00:21:39.335Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.00452
+      "cost_usd": 0.00539
     },
     "summarized": {
-      "at": "2026-10-15T00:25:28.948Z",
+      "at": "2026-11-07T00:21:39.336Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-15T00:25:28.949Z",
+      "at": "2026-11-07T00:21:39.337Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-15T00:25:28.951Z",
+      "at": "2026-11-07T00:21:39.337Z",
       "page": false
     }
   },
@@ -78,5 +78,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "93ac94604b3e45dc73b3d51103735cfb8c5d1779"
+  "output_hash": "487421595550ff06704ba3845ce258530020edf0fd80306d5b589f671b3cf6e4"
 }

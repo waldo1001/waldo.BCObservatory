@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/admin-set-up-fabric-mirroring.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring",
-  "title": "Set up Business Central data mirroring to Microsoft Fabric",
-  "blob": "3cad987b6bf7639053ba2a65ca50199970541372",
-  "summary": "Set up Business Central online to mirror data to a Microsoft Fabric open-mirrored database using the Connect to Microsoft Fabric assisted setup. This enables synchronization of selected companies and tables to OneLake for analytics with Power BI, Data Factory, and Fabric IQ.",
+  "title": "Set Up Business Central Data Mirroring to Microsoft Fabric",
+  "blob": "26b1af1bf1bf5ec35ef416c621c3ab3578eedd35",
+  "summary": "Set up data mirroring from Business Central online to Microsoft Fabric to synchronize Business Central data to an open mirrored database in OneLake for use with Fabric analytics tools. Configure the connection using assisted setup or the Microsoft Fabric Mirroring Setup page, select companies and tables to synchronize, and manage authentication through a service principal.",
   "systems": [
     "integration",
     "administration",
@@ -12,34 +12,32 @@
   "topics": [
     "data mirroring",
     "microsoft fabric",
-    "fabric integration",
-    "data synchronization",
-    "assisted setup",
     "onelake",
-    "analytics"
+    "data synchronization",
+    "fabric export",
+    "analytics",
+    "authentication",
+    "service principal"
   ],
   "objects": [],
   "features": [
     "Connect to Microsoft Fabric assisted setup",
-    "Microsoft Fabric Mirroring extension",
-    "Open mirroring",
-    "Data synchronization",
-    "OneLake",
-    "Service principal access",
-    "Workspace configuration",
-    "Fabric connection security"
+    "Microsoft Fabric Mirroring Setup page",
+    "data synchronization configuration",
+    "company and table selection",
+    "service principal authentication",
+    "workspace access management",
+    "export status monitoring",
+    "fabric synchronization overview"
   ],
-  "versions": [
-    "2026 release wave 2",
-    "version 29.0"
-  ],
+  "versions": [],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005082,
+      "cost_usd": 0.012834,
       "pages_in_call": 1
     }
   ]

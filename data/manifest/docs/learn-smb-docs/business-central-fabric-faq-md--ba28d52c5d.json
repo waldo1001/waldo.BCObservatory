@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "FAQ About Mirroring Business Central Data to Microsoft Fabric",
+  "title": "Business Central Mirroring to Microsoft Fabric FAQ",
   "url": "https://learn.microsoft.com/dynamics365/business-central/fabric-faq",
   "published_at": "2026-11-06T14:44:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
     },
     "fetched": {
-      "at": "2026-10-15T00:25:28.438Z",
-      "blob": "c9e0227816e446c61535167b2deeb33bcd482003",
-      "words": 488,
+      "at": "2026-11-07T00:21:44.550Z",
+      "blob": "2fa10ae8924d177fa8c48a48858f36310665c84f",
+      "words": 1115,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-15T00:25:33.449Z",
+      "at": "2026-11-07T00:22:00.825Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003667
+      "objects": 0,
+      "cost_usd": 0.004566
     },
     "summarized": {
-      "at": "2026-10-15T00:25:33.451Z",
+      "at": "2026-11-07T00:22:00.856Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-15T00:25:33.452Z",
+      "at": "2026-11-07T00:22:00.857Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-15T00:25:33.453Z",
+      "at": "2026-11-07T00:22:00.857Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/fabric-faq.md",
     "description": "Get answers about availability, setup, supported data, synchronization, capacity, and licensing for mirroring Business Central data to Fabric.",
-    "ms_date": "2026-10-08",
+    "ms_date": "2026-10-29",
     "ms_topic": "faq",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 488,
+    "words": 1115,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3ce6672122ced87f1154b7e1426c288aabaee039e1cf672651299d60aedade6b"
+  "output_hash": "b496051237a6ee852f0d471e8e71a42beb1fc47f92d180fec82be16176581741"
 }

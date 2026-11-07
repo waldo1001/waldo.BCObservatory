@@ -1,0 +1,29 @@
+{
+  "item_id": "change/al-go-prs/2440",
+  "number": 2440,
+  "title": "Sort artifacts by creation time when determining latest artifacts for release",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "AL-Go now sorts artifacts by creation time when determining the latest artifacts for release in multi-project repositories, fixing cases where Create Release with app version latest could select artifacts from different CI/CD runs.",
+  "key_points": [
+    "Artifacts are sorted by created_at descending instead of relying on endpoint order which could be by artifact ID",
+    "Resolves latest correctly to the same CI/CD run across all projects in multi-project repos",
+    "Improved error messages now include artifact name, project, and both commit hashes when commits mismatch",
+    "Regression test added to verify the fix handles artifacts returned out of chronological order"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003711,
+    "changes_in_call": 1
+  }
+}

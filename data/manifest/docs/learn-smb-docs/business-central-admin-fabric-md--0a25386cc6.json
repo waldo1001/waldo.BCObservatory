@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-fabric",
   "published_at": "2026-11-06T14:44:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-15T00:25:07.728Z",
+      "at": "2026-11-07T00:21:39.358Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003609
+      "cost_usd": 0.003943
     },
     "summarized": {
-      "at": "2026-10-15T00:25:07.730Z",
+      "at": "2026-11-07T00:21:39.359Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-15T00:25:07.731Z",
+      "at": "2026-11-07T00:21:39.360Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-15T00:25:07.732Z",
+      "at": "2026-11-07T00:21:39.360Z",
       "page": false
     }
   },
@@ -77,5 +77,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "980e487ba28adcdaee2819197f9e25a3a3844fec"
+  "output_hash": "58f0a9cf753bd9363f2210dabcd778d5454871ff6c33e9266eac040c421ee0d5"
 }

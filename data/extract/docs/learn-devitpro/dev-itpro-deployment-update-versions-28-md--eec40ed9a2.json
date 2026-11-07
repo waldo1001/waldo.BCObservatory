@@ -2,8 +2,8 @@
   "item_id": "docs/learn-devitpro/dev-itpro/deployment/update-versions-28.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/update-versions-28",
   "title": "Dynamics 365 Business Central on-premises 2026 release wave 1 updates",
-  "blob": "9ef2138e5e2ea04f89f7a308b8378b68a6f96330",
-  "summary": "Business Central 2026 release wave 1 on-premises updates (version 28) with hotfixes and regulatory features released between May and October 2026.",
+  "blob": "81b2300825a7e9882b53023943344922680f1c2f",
+  "summary": "Business Central 2026 release wave 1 (version 24) on-premises updates include hotfixes and regulatory features released throughout the wave. Customers should install the latest available update to ensure their on-premises deployments have all fixes and regulatory compliance features.",
   "systems": [
     "administration",
     "platform"
@@ -13,23 +13,20 @@
     "updates",
     "hotfixes",
     "release wave 1",
-    "version 28"
+    "version 24",
+    "deployment"
   ],
   "objects": [],
   "features": [
     "hotfixes",
     "regulatory features",
-    "cumulative updates"
+    "cumulative updates",
+    "multi-region support"
   ],
   "versions": [
     "2026 release wave 1",
-    "version 28",
-    "version 28.6",
-    "version 28.5",
-    "version 28.4",
-    "version 28.3",
-    "version 28.2",
-    "version 28.1"
+    "version 24",
+    "version 28"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -37,7 +34,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.016442,
+      "cost_usd": 0.003873,
       "pages_in_call": 1
     }
   ]

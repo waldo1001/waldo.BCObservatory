@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export",
   "published_at": "2026-11-06T14:44:41.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
@@ -19,22 +19,22 @@
       "forms": 5
     },
     "extracted": {
-      "at": "2026-10-15T00:25:15.959Z",
+      "at": "2026-11-07T00:21:39.320Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.004188
+      "objects": 3,
+      "cost_usd": 0.010674
     },
     "summarized": {
-      "at": "2026-10-15T00:25:15.961Z",
+      "at": "2026-11-07T00:21:39.321Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-15T00:25:15.963Z",
+      "at": "2026-11-07T00:21:39.322Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-15T00:25:20.856Z",
+      "at": "2026-11-07T00:21:39.322Z",
       "page": false
     }
   },
@@ -92,5 +92,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "62722fb3b863ba3de0d7e7d67ec0ca2d8a7b3d62"
+  "output_hash": "f6b098582f33d549a4d8afd46f76ce9350af8ab947e3b46a7e3818bbd8c8689d"
 }

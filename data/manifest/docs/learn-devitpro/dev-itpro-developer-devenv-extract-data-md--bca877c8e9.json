@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Extract data from Business Central",
+  "title": "Business Central Data Extraction Methods",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extract-data",
   "published_at": "2026-11-06T13:57:08.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.528Z",
-      "blob": "5fb0d085e557fa763d51accad76e5b3478699459",
-      "words": 1184,
+      "at": "2026-11-07T00:22:54.953Z",
+      "blob": "3310ca420682a0b4dcff035c5012b93f5fbec85a",
+      "words": 1421,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:50:11.533Z",
+      "at": "2026-11-07T00:23:08.412Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00421
+      "objects": 1,
+      "cost_usd": 0.010584
     },
     "summarized": {
-      "at": "2026-10-06T18:50:11.554Z",
+      "at": "2026-11-07T00:23:08.432Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:50:11.555Z",
+      "at": "2026-11-07T00:23:08.432Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:50:11.555Z",
+      "at": "2026-11-07T00:23:08.433Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-extract-data.md",
-    "description": "Explains how to extract data from Business Central with different tools",
-    "ms_date": "2025-12-23",
+    "description": "Compare Business Central data extraction options, including Microsoft Fabric mirroring, API-based delta loads, and custom ETL pipelines.",
+    "ms_date": "2026-10-28",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,8 +55,8 @@
       "data warehouse",
       "etl"
     ],
-    "ai_usage": null,
-    "words": 1184,
+    "ai_usage": "ai-assisted",
+    "words": 1421,
     "identifiers": [
       "SystemModifiedAt",
       "lastModifiedDateTime",
@@ -66,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5b6a156b45f5aade514d1784265b1c8643ab1632eb3e8a475115fd55bc7675b6"
+  "output_hash": "8ebc65432167fcb7ccb6ebaa635fee99525ab5c034c9860c1c2f22cb23cd55e9"
 }

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13397",
+  "number": 13397,
+  "title": "[main] Incorrect depreciation calculation for assets used less than 180 days under Income Tax Act rules",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "fixed-assets"
+  ],
+  "summary": "Fixed depreciation calculation for Indian fixed assets used less than 180 days, which previously applied a 50% reduction twice under Income Tax Act rules. The calculation now counts only days the asset is in use and avoids duplicate reductions.",
+  "key_points": [
+    "Removed duplicate 50% reduction that was applied both from setup and hardcoded logic",
+    "180-day reduction now counts actual days asset was in use in fiscal year, not calculation run duration",
+    "Depreciation calculated against opening fiscal year book value minus already-posted amounts",
+    "Prevents over-reduction to 25% when 50% reduction should apply",
+    "Later calculation runs in same year only top up to annual depreciation amount"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "fixed-assets",
+    "localization"
+  ],
+  "quote": "Removed the duplicate reduction, so the reduction from the depreciation book setup is applied only once.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003598,
+    "changes_in_call": 1
+  }
+}

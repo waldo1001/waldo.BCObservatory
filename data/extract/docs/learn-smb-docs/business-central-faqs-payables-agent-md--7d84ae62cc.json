@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/faqs-payables-agent.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-payables-agent",
   "title": "Payables Agent Frequently Asked Questions",
-  "blob": "3974b4fd83d03596ac8138d036f76deba67a2b42",
-  "summary": "Payables Agent is an autonomous AI-powered agent that automates vendor invoice processing by monitoring email inboxes for PDF invoices, extracting data, matching vendors, classifying accounts, and creating draft purchase invoices for review. Use this to reduce manual data entry and accelerate accounts payable workflows while maintaining human oversight.",
+  "blob": "a48a0c80c6434542686d4f3c6d103d7f40228581",
+  "summary": "Payables Agent is an autonomous AI agent that automates vendor invoice and credit note processing by monitoring email, extracting document data, matching vendors, classifying accounts, and creating draft purchase documents for review without posting.",
   "systems": [
     "purchasing",
     "copilot",
@@ -11,26 +11,28 @@
   ],
   "topics": [
     "payables agent",
-    "vendor invoices",
-    "purchase invoices",
-    "document processing",
+    "invoice processing",
+    "vendor matching",
+    "account classification",
+    "purchase documents",
     "ai automation",
-    "accounts payable",
-    "draft creation"
+    "email integration",
+    "credit notes"
   ],
   "objects": [],
   "features": [
-    "Email Processing",
-    "Document Extraction",
-    "Vendor Identification",
-    "Account Classification",
-    "Purchase Order Matching",
-    "Vendor Creation",
-    "Draft Creation",
-    "Human Oversight",
-    "Agent Identity",
-    "User Permissions and Controls",
-    "Feedback Mechanism"
+    "Email processing and PDF handling",
+    "Document data extraction",
+    "Vendor identification and matching",
+    "Account classification suggestions",
+    "Purchase order matching",
+    "Vendor creation",
+    "Credit note processing",
+    "Draft creation and finalization",
+    "Human oversight and review",
+    "Agent task timeline",
+    "Feedback mechanisms",
+    "User permissions and controls"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.010538,
-      "pages_in_call": 3
+      "cost_usd": 0.010012,
+      "pages_in_call": 1
     }
   ]
 }

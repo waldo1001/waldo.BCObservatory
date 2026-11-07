@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Integration overview for Business Central",
+  "title": "Integration Overview for Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/integration-overview",
   "published_at": "2026-11-06T13:57:08.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.406Z",
-      "blob": "2111df470b8fb7d0c9d813b9fe7b564144c44f4d",
-      "words": 1014,
+      "at": "2026-11-07T00:23:12.713Z",
+      "blob": "f1be36861309e09e8306f3d365510e3989f7ec30",
+      "words": 1224,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:00:06.937Z",
+      "at": "2026-11-07T00:23:24.750Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004759
+      "cost_usd": 0.009765
     },
     "summarized": {
-      "at": "2026-10-06T19:00:06.997Z",
+      "at": "2026-11-07T00:23:24.756Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:00:06.998Z",
+      "at": "2026-11-07T00:23:24.756Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:00:06.999Z",
+      "at": "2026-11-07T00:23:24.757Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/integration-overview.md",
-    "description": "Find links to information about the ways you can integrate Business Central to products and services.",
-    "ms_date": "2025-10-19",
+    "description": "Explore Business Central integration patterns, including REST APIs, Microsoft Fabric mirroring, and built-in connections to other products and services.",
+    "ms_date": "2026-10-28",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1014,
+    "ai_usage": "ai-assisted",
+    "words": 1224,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c4da4b113d8fcd604a471451dc5bd2b62eacdc0c882c78629f3fa7041124532d"
+  "output_hash": "388d084319d19aac3b4e188bfabd1100e6ec272479c662c2264177c0c34737c7"
 }

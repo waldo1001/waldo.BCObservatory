@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up Business Central data mirroring to Microsoft Fabric",
+  "title": "Set Up Business Central Data Mirroring to Microsoft Fabric",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring",
   "published_at": "2026-11-06T14:44:41.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
     },
     "fetched": {
-      "at": "2026-10-15T00:25:21.150Z",
-      "blob": "3cad987b6bf7639053ba2a65ca50199970541372",
-      "words": 1104,
+      "at": "2026-11-07T00:21:44.539Z",
+      "blob": "26b1af1bf1bf5ec35ef416c621c3ab3578eedd35",
+      "words": 2048,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-15T00:25:27.443Z",
+      "at": "2026-11-07T00:22:00.793Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005082
+      "cost_usd": 0.012834
     },
     "summarized": {
-      "at": "2026-10-15T00:25:27.445Z",
+      "at": "2026-11-07T00:22:00.796Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-15T00:25:27.446Z",
+      "at": "2026-11-07T00:22:00.797Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-15T00:25:27.448Z",
+      "at": "2026-11-07T00:22:00.797Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-set-up-fabric-mirroring.md",
     "description": "Prepare Microsoft Fabric, connect Business Central to an open mirrored database, and select the companies and tables to synchronize.",
-    "ms_date": "2026-10-08",
+    "ms_date": "2026-10-29",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -68,7 +68,7 @@
       "synchronization"
     ],
     "ai_usage": "ai-assisted",
-    "words": 1104,
+    "words": 2048,
     "identifiers": [
       "BusinessCentral"
     ],
@@ -76,5 +76,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5fe121b77e808cc8d888d5da1a98edb90397c689352b1bc7d1d7923f529e5f04"
+  "output_hash": "e0f834761aab991f746d4dd8fcf14f1873e4e8a2ec7a70ebe462b6ea5b68bd5a"
 }

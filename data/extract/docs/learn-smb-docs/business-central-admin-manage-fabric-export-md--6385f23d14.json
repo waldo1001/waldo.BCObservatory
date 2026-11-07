@@ -2,47 +2,53 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-manage-fabric-export.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export",
   "title": "Manage Business Central Synchronization with Microsoft Fabric",
-  "blob": "2673389d57f5ac4c3fa9776132e0b21aaf432ae4",
-  "summary": "Manage Business Central data synchronization to Microsoft Fabric by selecting companies and tables, using configuration packages, and controlling synchronization behavior. Use this to configure and monitor ongoing data mirroring after initial setup.",
+  "blob": "62722fb3b863ba3de0d7e7d67ec0ca2d8a7b3d62",
+  "summary": "The Microsoft Fabric Mirroring Setup page controls which companies and tables synchronize to Microsoft Fabric, manages synchronization schedules and behavior, and provides actions to start, stop, or reset data export.",
   "systems": [
     "integration",
-    "reporting",
-    "administration"
+    "administration",
+    "reporting"
   ],
   "topics": [
+    "fabric mirroring",
     "data synchronization",
-    "microsoft fabric",
-    "data mirroring",
     "configuration packages",
+    "export control",
     "permissions",
     "monitoring"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Microsoft Fabric Mirroring Setup"
+      "name": "Microsoft Fabric Mirroring Setup (Preview)"
+    },
+    {
+      "type": "page",
+      "name": "Fabric Synchronization Overview"
+    },
+    {
+      "type": "page",
+      "name": "Fabric Configuration Packages"
     }
   ],
   "features": [
-    "company selection",
-    "table selection",
-    "configuration packages",
-    "synchronization scheduling",
-    "failure handling",
-    "namespace configuration",
-    "start/stop/reset synchronization",
-    "change tracking"
+    "Select companies for synchronization",
+    "Select and manage up to 1,000 tables",
+    "Configuration packages for curated table sets",
+    "Permission sets for role-based access",
+    "Synchronization scheduling and interval control",
+    "Start, stop, and reset synchronization",
+    "Reset individual tables for full snapshots",
+    "Monitoring overview and detail views"
   ],
-  "versions": [
-    "2026 release wave 2"
-  ],
+  "versions": [],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004188,
+      "cost_usd": 0.010674,
       "pages_in_call": 1
     }
   ]

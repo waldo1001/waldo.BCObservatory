@@ -2,27 +2,33 @@
   "item_id": "docs/learn-smb-docs/business-central/finance-edocuments-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-edocuments-overview",
   "title": "E-documents overview",
-  "blob": "c46499b49c19d4fa3d38933f1206855f1f24f57f",
-  "summary": "E-Documents app manages electronic invoices and business documents in Business Central with localization support for multiple countries and extensibility for specific requirements.",
+  "blob": "36011f917e249ca238993bb0d14664c4de7e5b92",
+  "summary": "E-documents overview explains electronic document management capabilities in Business Central, including sales and purchase document handling, compliance with local regulations, PDF analysis for credit notes, and integration with Copilot. The E-Document Core app provides the foundation for efficient e-document handling across multiple supported localizations.",
   "systems": [
     "finance",
+    "purchasing",
     "integration"
   ],
   "topics": [
     "e-documents",
     "electronic invoicing",
-    "compliance",
+    "sales invoices",
+    "purchase invoices",
+    "credit memos",
     "localizations",
-    "document management"
+    "compliance",
+    "pdf analysis"
   ],
   "objects": [],
   "features": [
-    "e-document setup",
-    "sales e-documents",
-    "purchase e-documents",
-    "document status tracking",
-    "copilot mapping",
-    "peppol format support"
+    "E-Document Core app",
+    "PDF analysis for vendor credit notes",
+    "Purchase credit memo drafts",
+    "Document status messaging",
+    "E-document workflow",
+    "Sending profiles",
+    "Retention policies",
+    "Copilot mapping"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005657,
-      "pages_in_call": 8
+      "cost_usd": 0.004053,
+      "pages_in_call": 1
     }
   ]
 }

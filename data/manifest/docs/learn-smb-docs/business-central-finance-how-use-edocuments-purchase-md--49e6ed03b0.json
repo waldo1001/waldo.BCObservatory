@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-edocuments-purchase",
   "published_at": "2026-11-06T13:57:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.906Z",
-      "blob": "994569b43fb73e2e9f537c9631bc477e2f04e2fc",
-      "words": 4189,
+      "at": "2026-11-07T00:22:27.596Z",
+      "blob": "c1f68e3b6de43772be5a3b5383f5bc002bdbc354",
+      "words": 4901,
       "forms": 9
     },
     "extracted": {
-      "at": "2026-10-06T13:30:12.725Z",
+      "at": "2026-11-07T00:22:43.450Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.012185
+      "objects": 10,
+      "cost_usd": 0.021025
     },
     "summarized": {
-      "at": "2026-10-06T13:30:12.740Z",
+      "at": "2026-11-07T00:22:43.453Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:30:12.740Z",
+      "at": "2026-11-07T00:22:43.454Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:30:12.741Z",
+      "at": "2026-11-07T00:22:43.454Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-how-use-edocuments-purchase.md",
     "description": "Learn how to set up vendors and handle purchase invoices, orders, and credit memos using e-documents in Dynamics 365 Business Central.",
-    "ms_date": "2026-09-29",
+    "ms_date": "2026-11-03",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -106,11 +106,11 @@
       "Copilot"
     ],
     "ai_usage": "ai-assisted",
-    "words": 4189,
+    "words": 4901,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9c8dca75c0ccff1c2f7c0871a879f27f85578c0ec8576a769fbcd4a8633cd14c"
+  "output_hash": "6e4014b74e064b9de3a6ec105dbf3305ddddc177cafd48bb3321dddf8bc6861b"
 }

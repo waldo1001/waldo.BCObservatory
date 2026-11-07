@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13428",
+  "number": 13428,
+  "title": "[Quality Management] Keep Sample Size and Pass/Fail Quantity within Quantity (Base)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Quality Management inspections now enforce that Sample Size and Pass/Fail Quantity cannot exceed Quantity (Base), preventing data inconsistencies when Quantity (Base) is reduced after inspection creation or when it is zero.",
+  "key_points": [
+    "Sample Size and template Sample Fixed Amount fields now have MinValue of 0 to prevent negative values",
+    "Validating Quantity (Base) recaps any Sample Size that exceeds the new quantity value",
+    "Finish operation applies the lesser of Sample Size or Quantity (Base), capped at Quantity (Base), fixing cases where Pass/Fail were incorrectly set to 0 or equal to Sample Size on zero-quantity inspections",
+    "Pass/Fail Quantity tooltips now indicate the capping behavior",
+    "Negative Sample Size values already stored are treated as 0 during posting without blocking inspection creation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004459,
+    "changes_in_call": 1
+  }
+}

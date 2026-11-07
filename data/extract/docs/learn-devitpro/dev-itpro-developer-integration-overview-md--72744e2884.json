@@ -1,37 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/integration-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/integration-overview",
-  "title": "Integration overview for Business Central",
-  "blob": "2111df470b8fb7d0c9d813b9fe7b564144c44f4d",
-  "summary": "Integration overview describes architectural patterns and approaches for integrating Business Central with external systems using REST APIs, web services, Office apps, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, Shopify, Azure services, and Copilot extensions.",
+  "title": "Integration Overview for Business Central",
+  "blob": "f1be36861309e09e8306f3d365510e3989f7ec30",
+  "summary": "Integration overview for architects and developers to design integrations to and from Business Central using web services, REST APIs, built-in integrations, and connections to Microsoft 365, Power Platform, Dynamics 365, Dataverse, Fabric, Shopify, and Azure services.",
   "systems": [
     "integration",
-    "platform",
-    "development"
+    "development",
+    "platform"
   ],
   "topics": [
     "integration patterns",
     "rest api",
     "web services",
-    "soap",
-    "odata",
     "dataverse",
     "power platform",
-    "azure integration"
+    "microsoft 365",
+    "azure services",
+    "copilot"
   ],
   "objects": [],
   "features": [
-    "REST API",
-    "SOAP web services",
-    "OData",
-    "HttpClient data type",
+    "REST API stack",
+    "web services",
+    "built-in integrations",
+    "Microsoft Fabric data mirroring",
     "Dataverse integration",
     "Dynamics 365 Sales integration",
     "Dynamics 365 Field Service integration",
-    "Shopify integration",
+    "Shopify connector",
+    "HttpClient data type",
     "Azure services integration",
-    "Power Platform integration",
-    "Copilot AI extension"
+    "Office apps integration",
+    "Power Platform integration"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004759,
-      "pages_in_call": 8
+      "cost_usd": 0.009765,
+      "pages_in_call": 1
     }
   ]
 }

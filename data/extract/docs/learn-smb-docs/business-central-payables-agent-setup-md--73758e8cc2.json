@@ -2,30 +2,53 @@
   "item_id": "docs/learn-smb-docs/business-central/payables-agent-setup.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-agent-setup",
   "title": "Set Up Payables Agent in Business Central",
-  "blob": "1b0461f412459b1de497dc181edc3ea5b359ba68",
-  "summary": "Set up the Payables Agent by configuring email monitoring, document processing, permissions, and activation through an assisted setup guide. Use this to automate vendor invoice processing from PDF attachments.",
+  "blob": "ff1c73574429bfbd588a4f2781dfd3be07bf44da",
+  "summary": "Set up and configure the Payables Agent to automate processing of vendor invoices and credit notes received via email as PDF documents. Configure mailbox monitoring, document processing rules, user access, and manage Copilot credit consumption.",
   "systems": [
-    "purchasing",
     "copilot",
+    "purchasing",
     "integration"
   ],
   "topics": [
     "payables agent",
     "vendor invoices",
-    "email monitoring",
-    "purchase documents",
-    "permissions",
+    "credit notes",
+    "email automation",
+    "agent configuration",
+    "user access",
     "copilot credits"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Configure the Payables Agent"
+    },
+    {
+      "type": "page",
+      "name": "Payables Agent"
+    },
+    {
+      "type": "page",
+      "name": "Select users that can manage or interact with the Agent"
+    },
+    {
+      "type": "page",
+      "name": "Agents"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    }
+  ],
   "features": [
-    "Email account setup and monitoring",
-    "Purchase document draft creation",
-    "Trial mode (50 free invoices)",
+    "Trial mode processing",
+    "Email account monitoring",
+    "Mailbox folder configuration",
+    "Email review policies",
     "Known senders management",
-    "Copilot credit consumption tracking",
-    "User access control",
-    "Language and regional settings"
+    "Purchase order matching",
+    "Credit note processing",
+    "Copilot credit consumption tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +57,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.011398,
-      "pages_in_call": 3
+      "cost_usd": 0.015307,
+      "pages_in_call": 1
     }
   ]
 }

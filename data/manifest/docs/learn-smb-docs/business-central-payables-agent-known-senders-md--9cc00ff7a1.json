@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-agent-known-senders",
   "published_at": "2026-11-06T13:57:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.432Z",
-      "blob": "f5fd42da53b9e982a21c429129e075470824d448",
-      "words": 947,
+      "at": "2026-11-07T00:22:35.305Z",
+      "blob": "db1409e9bdebc7f5cf0d099dad1b6fb2f6cef27c",
+      "words": 990,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T13:07:09.758Z",
+      "at": "2026-11-07T00:22:48.962Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.014668
+      "objects": 3,
+      "cost_usd": 0.004828
     },
     "summarized": {
-      "at": "2026-10-06T13:10:16.801Z",
+      "at": "2026-11-07T00:22:48.963Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:10:16.802Z",
+      "at": "2026-11-07T00:22:48.964Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:10:16.802Z",
+      "at": "2026-11-07T00:22:48.964Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/payables-agent-known-senders.md",
     "description": "Manage per-sender email review policies for the Payables Agent to automatically approve or reject emails from trusted or unwanted vendors.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-11-03",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -61,11 +61,11 @@
     ],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 947,
+    "words": 990,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "91f3e3b7825e388df77b1c1944f8577acfc27c40fbb52bda10bb30ad42bf732c"
+  "output_hash": "b4d5f2abf577af609c250dfb04281f404ab31aff43b0a288724136eb44ffdca6"
 }

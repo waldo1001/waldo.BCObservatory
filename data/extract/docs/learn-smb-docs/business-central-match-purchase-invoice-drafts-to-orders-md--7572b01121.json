@@ -2,19 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/match-purchase-invoice-drafts-to-orders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/match-purchase-invoice-drafts-to-orders",
   "title": "Match Purchase Invoice Drafts to Purchase Orders",
-  "blob": "b31efbee7a84e26f9a6a89af20e4f3784e6769a4",
-  "summary": "Match incoming purchase invoice drafts to purchase orders in Business Central. Review and match draft lines to order lines and receipts, understand order-match warnings, specify receipt lines, and finalize invoices before posting with persistent order and receipt links.",
+  "blob": "4568e2f625c4e0aa40b5e8126ff5d63a15679805",
+  "summary": "Match incoming purchase invoice drafts to purchase orders and receipts with Business Central validation of compatibility, quantities, and receipt requirements. Payables Agent can propose matches for review before finalizing the draft into an unposted invoice.",
   "systems": [
     "purchasing",
+    "copilot",
     "integration"
   ],
   "topics": [
-    "purchase invoices",
-    "e-documents",
-    "order matching",
-    "invoice drafts",
-    "payables",
-    "receipt handling"
+    "invoice matching",
+    "purchase orders",
+    "payables agent",
+    "receipt reconciliation",
+    "order validation",
+    "vendor invoices"
   ],
   "objects": [
     {
@@ -26,22 +27,19 @@
       "name": "Available Purchase Order Lines"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "Purchases & Payables Setup"
     }
   ],
   "features": [
-    "Purchase order matching",
-    "Draft line to order line matching",
-    "Receipt specification",
-    "Order-match warnings",
-    "Unit of measure validation",
+    "Order line matching",
+    "Receipt line allocation",
     "Quantity validation",
     "Price difference detection",
+    "Unit of measure compatibility",
+    "Item tracking requirements",
     "Receipt on Invoice",
-    "Item tracking",
-    "Batch submission",
-    "Manual review process"
+    "E-Document Matching Difference tolerance"
   ],
   "versions": [],
   "parts": 1,
@@ -50,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008326,
-      "pages_in_call": 8
+      "cost_usd": 0.00531,
+      "pages_in_call": 1
     }
   ]
 }

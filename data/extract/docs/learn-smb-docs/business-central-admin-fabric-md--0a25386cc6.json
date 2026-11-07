@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/admin-fabric.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-fabric",
-  "title": "Data Mirroring to Microsoft Fabric from Business Central",
-  "blob": "4ed1f9b7fe004b4c98cf2d4dd3f1bfa35c0c5e0c",
-  "summary": "Data mirroring connects Business Central online to Microsoft Fabric to replicate selected companies and tables to OneLake for analytics and data engineering without repeatedly reading from APIs.",
+  "title": "Business Central Data Mirroring to Microsoft Fabric",
+  "blob": "980e487ba28adcdaee2819197f9e25a3a3844fec",
+  "summary": "Data mirroring connects Business Central online to Microsoft Fabric, replicating an initial snapshot and ongoing changes into OneLake for analytics without repeatedly reading from APIs. Use this managed integration when your organization wants Business Central data available in Fabric for analytics and data engineering.",
   "systems": [
     "integration",
     "reporting",
@@ -11,31 +11,31 @@
   ],
   "topics": [
     "data mirroring",
-    "fabric integration",
+    "microsoft fabric",
     "onelake",
     "data synchronization",
     "analytics",
-    "delta parquet"
+    "data extraction"
   ],
   "objects": [],
   "features": [
-    "multiple company support",
-    "up to 1000 table selection",
-    "initial snapshot and incremental sync",
-    "configuration packages",
-    "synchronization monitoring",
-    "asynchronous operations"
+    "Multiple Business Central companies support",
+    "Up to 1,000 selected tables",
+    "Initial snapshot and incremental synchronization",
+    "Configuration package with standard tables",
+    "Synchronization monitoring",
+    "Delta Parquet format storage",
+    "SQL analytics endpoint",
+    "Asynchronous setup and synchronization"
   ],
-  "versions": [
-    "2026 production-ready preview"
-  ],
+  "versions": [],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003609,
+      "cost_usd": 0.003943,
       "pages_in_call": 1
     }
   ]

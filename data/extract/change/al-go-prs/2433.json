@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2433",
+  "number": 2433,
+  "title": "Fix workspace compilation with versioning strategy 3",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "The versioning strategy 3 workspace compilation was failing because an appBuild sentinel value of -1 was passed to the .NET version constructor. The fix preserves each app's existing build component when the build number is -1 or omitted, while treating an explicit 0 as a valid build number.",
+  "key_points": [
+    "Update-AppJsonProperties now correctly handles the -1 sentinel value from versioning strategy 3",
+    "Existing build components are preserved when build number is -1 or omitted",
+    "Explicitly supplied 0 is now treated as a valid build number instead of being ignored",
+    "Regression tests added to cover app and test-app version scenarios",
+    "Fix documented in release notes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003624,
+    "changes_in_call": 1
+  }
+}

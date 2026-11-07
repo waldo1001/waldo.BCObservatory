@@ -2,40 +2,44 @@
   "item_id": "docs/learn-smb-docs/business-central/payables-agent-known-senders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-agent-known-senders",
   "title": "Manage known senders for Payables Agent",
-  "blob": "f5fd42da53b9e982a21c429129e075470824d448",
-  "summary": "Manage known senders for Payables Agent describes how to configure sender-specific email review policies to control which vendor invoices Payables Agent processes automatically, requires review for, or rejects. Use this to set up trusted vendors and manage invoice processing efficiency.",
+  "blob": "db1409e9bdebc7f5cf0d099dad1b6fb2f6cef27c",
+  "summary": "Configure and manage sender policies in Payables Agent to control how emails from specific vendors are processed during invoice and credit note handling. Use the known senders list to automatically approve trusted vendors, request review for others, or reject unwanted senders.",
   "systems": [
     "purchasing",
     "copilot",
-    "administration"
+    "integration"
   ],
   "topics": [
     "payables agent",
     "known senders",
     "email review",
-    "vendor invoices",
-    "automation",
-    "policies"
+    "sender policies",
+    "vendor management",
+    "automation"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Payables Agent Known Senders"
+      "name": "Manage known senders for Payables Agent"
     },
     {
       "type": "page",
       "name": "Configure Payables Agent"
+    },
+    {
+      "type": "page",
+      "name": "Payables Agent Known Senders"
     }
   ],
   "features": [
     "Known senders list",
     "Sender review policies",
-    "Ask policy",
-    "Approve policy",
-    "Reject policy",
     "Manage per sender email review",
+    "Automatic approval for trusted vendors",
     "Manual sender addition",
-    "Per-sender policy management"
+    "Per-sender policy assignment",
+    "Sender deletion",
+    "Email address management"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.014668,
-      "pages_in_call": 2
+      "cost_usd": 0.004828,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,38 +1,35 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/fabric-faq.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/fabric-faq",
-  "title": "FAQ About Mirroring Business Central Data to Microsoft Fabric",
-  "blob": "c9e0227816e446c61535167b2deeb33bcd482003",
-  "summary": "FAQ about mirroring Business Central data to Microsoft Fabric for near real-time data replication. Use this to understand feature availability, setup requirements, synchronization behavior, and limits for the mirroring capability in development.",
+  "title": "Business Central Mirroring to Microsoft Fabric FAQ",
+  "blob": "2fa10ae8924d177fa8c48a48858f36310665c84f",
+  "summary": "FAQ addressing common questions about mirroring Business Central data to Microsoft Fabric, covering availability, setup, configuration, synchronization behavior, and limits for data replication.",
   "systems": [
-    "reporting",
     "integration",
-    "administration"
+    "administration",
+    "reporting"
   ],
   "topics": [
     "data mirroring",
-    "microsoft fabric",
-    "faq",
+    "fabric",
+    "data synchronization",
+    "cloud integration",
     "setup",
-    "synchronization",
-    "replication"
+    "configuration"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Microsoft Fabric Mirroring Setup"
-    }
-  ],
+  "objects": [],
   "features": [
-    "data mirroring to Fabric",
-    "table synchronization",
-    "field replication",
-    "deleted records sync",
-    "incremental changes",
-    "schema handling"
+    "Data mirroring to Fabric",
+    "Fabric capacity requirements",
+    "Table and field selection",
+    "Company configuration",
+    "Schema change handling",
+    "Synchronization latency control",
+    "Deleted record synchronization",
+    "Configuration package management"
   ],
   "versions": [
-    "2026 release wave 2"
+    "preview"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -40,7 +37,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003667,
+      "cost_usd": 0.004566,
       "pages_in_call": 1
     }
   ]

@@ -2,34 +2,33 @@
   "item_id": "docs/learn-smb-docs/business-central/finance-how-setup-edocuments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-edocuments",
   "title": "Set Up E-documents",
-  "blob": "630342aa3a9a3529b5b3c92b22f32edd340f2dfc",
-  "summary": "Configure electronic documents (e-documents) and the E-Documents Service for e-document communications, including clearance model setup for countries like Spain, India, Mexico, and Italy.",
+  "blob": "a25e4b6260d3c0f3b2ea34e7277dda57f16dc04b",
+  "summary": "Configure electronic documents (e-documents) and the E-Documents Service for e-document communications, including clearance model setup for countries like Spain, Italy, Mexico, and India.",
   "systems": [
     "finance",
-    "sales",
-    "integration"
+    "integration",
+    "localization"
   ],
   "topics": [
     "e-documents",
-    "electronic invoicing",
+    "e-invoicing",
     "clearance model",
-    "document format",
-    "workflows",
-    "peppol",
-    "data exchange"
+    "peppol format",
+    "document workflows",
+    "electronic exchange"
   ],
   "objects": [
     {
-      "type": "page",
-      "name": "E-Document Services"
+      "type": "table",
+      "name": "Posted Sales Invoices"
     },
     {
       "type": "page",
-      "name": "E-Documents Service Setup"
+      "name": "E-Documents Services"
     },
     {
       "type": "page",
-      "name": "Document Sending Profiles"
+      "name": "E-Document Services Setup"
     },
     {
       "type": "page",
@@ -37,7 +36,15 @@
     },
     {
       "type": "page",
-      "name": "Posted Sales Invoices"
+      "name": "Document Sending Profiles"
+    },
+    {
+      "type": "page",
+      "name": "Document Sending Profile"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoice"
     },
     {
       "type": "page",
@@ -49,26 +56,17 @@
     },
     {
       "type": "page",
-      "name": "E-Document"
-    },
-    {
-      "type": "page",
-      "name": "Contoso Demo Tool"
-    },
-    {
-      "type": "table",
-      "name": "Posted Sales Invoices"
+      "name": "E-Document Services"
     }
   ],
   "features": [
     "clearance model",
-    "PEPPOL BIS 3.0 format",
-    "data exchange",
-    "automatic import",
-    "automatic processing",
+    "peppol format",
+    "data exchange definitions",
+    "service integration",
     "document sending profiles",
-    "workflow setup",
-    "e-document retention policies",
+    "e-document workflows",
+    "retention policies",
     "demo data"
   ],
   "versions": [
@@ -80,7 +78,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.015096,
+      "cost_usd": 0.015448,
       "pages_in_call": 1
     }
   ]

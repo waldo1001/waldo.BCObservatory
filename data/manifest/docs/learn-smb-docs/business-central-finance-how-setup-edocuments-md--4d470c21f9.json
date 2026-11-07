@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-edocuments",
   "published_at": "2026-11-06T13:57:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-28T08:59:48.799Z",
-      "blob": "630342aa3a9a3529b5b3c92b22f32edd340f2dfc",
-      "words": 2906,
+      "at": "2026-11-07T00:22:07.309Z",
+      "blob": "a25e4b6260d3c0f3b2ea34e7277dda57f16dc04b",
+      "words": 3015,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-28T09:00:10.069Z",
+      "at": "2026-11-07T00:22:23.088Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 10,
-      "cost_usd": 0.015096
+      "cost_usd": 0.015448
     },
     "summarized": {
-      "at": "2026-10-28T09:00:10.071Z",
+      "at": "2026-11-07T00:22:23.092Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-28T09:00:10.072Z",
+      "at": "2026-11-07T00:22:23.093Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-28T09:00:10.073Z",
+      "at": "2026-11-07T00:22:23.093Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-how-setup-edocuments.md",
     "description": "Learn how to set up e-documents in Business Central with step-by-step configuration of services, formats, workflows, and document sending profiles.",
-    "ms_date": "2026-10-26",
+    "ms_date": "2026-11-03",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -75,12 +75,12 @@
       "e-document",
       "e-invoice"
     ],
-    "ai_usage": null,
-    "words": 2906,
+    "ai_usage": "ai-assisted",
+    "words": 3015,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "95da5cc0e4fa3ee5b973d39f13b44fa158c9a161c7eec0b50f379231a90591dd"
+  "output_hash": "7b1d92a36bec1d7ab9b80e56da4e8b04d49a22feef0a173551340c444c82e055"
 }

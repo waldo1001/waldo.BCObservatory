@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-agent",
   "published_at": "2026-11-06T13:57:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.449Z",
-      "blob": "e872579bccdc5dccd142390d5e17dc7701a8437c",
-      "words": 2346,
+      "at": "2026-11-07T00:22:50.850Z",
+      "blob": "21a4ff5a907eb46053fbbbbcdc2358768c5e0f14",
+      "words": 2696,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T13:11:10.466Z",
+      "at": "2026-11-07T00:23:06.259Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.011398
+      "objects": 4,
+      "cost_usd": 0.012913
     },
     "summarized": {
-      "at": "2026-10-06T13:11:18.440Z",
+      "at": "2026-11-07T00:23:06.269Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:11:18.440Z",
+      "at": "2026-11-07T00:23:06.270Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:11:18.440Z",
+      "at": "2026-11-07T00:23:06.270Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/payables-agent.md",
-    "description": "Payables Agent automates vendor invoice processing in Business Central. Speed up accounts payable, reduce bottlenecks, and simplify invoice management.",
-    "ms_date": "2026-10-02",
+    "description": "Payables Agent automates vendor invoice and credit note processing in Business Central. Review purchase drafts and prepare invoices and credit memos for posting.",
+    "ms_date": "2026-11-03",
     "ms_topic": "overview",
     "search_form": [
       {
@@ -61,11 +61,11 @@
     ],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 2346,
+    "words": 2696,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "85c24083f470dab3382b2a7350a216892fe9665eede3f6023c4ce2616c7e638f"
+  "output_hash": "31c85622c4ddaff7d97e52f6d6e1727ede3bedb2d0d6f630aa4c5107be22fae9"
 }

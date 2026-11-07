@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13623,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13623",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-06T12:14:49Z",
+  "merge_commit_sha": "9735d327706b4f912d89f43d6949ff3902362156",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Dataverse] Fix duplicate sales line numbers with automatic recurring lines",
+  "body_hash": "2c49fa7d2cec581ad5d44b704f4fc1a8b7e7e0199d22c23776bd5c5088cacfd5",
+  "fixes_issues": [],
+  "work_items": [
+    654747
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/D365Sales/CRMSalesOrdertoSalesOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/CRM integration/CRMSalesOrderIntegrTest.Codeunit.al",
+      "status": "modified",
+      "additions": 168,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 175,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/D365Sales/CRMSalesOrdertoSalesOrder.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5343",
+        "type": "codeunit",
+        "id": 5343,
+        "name": "CRM Sales Order to Sales Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5343"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

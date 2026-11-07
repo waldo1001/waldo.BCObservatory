@@ -2,30 +2,30 @@
   "item_id": "docs/learn-devitpro/dev-itpro/deployment/update-versions-27.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/update-versions-27",
   "title": "Dynamics 365 Business Central On-premises 2025 Release wave 2 Updates",
-  "blob": "edec8ecd9740e63d6504039f782eebdd6e9db158",
-  "summary": "Lists all cumulative updates released for Business Central 2025 release wave 2 on-premises from version 27.1 through 27.12, with build numbers and support article references.",
+  "blob": "340986de244af8529e700171d3e30b3686673102",
+  "summary": "Available updates for Dynamics 365 Business Central on-premises 2025 release wave 2, including hotfixes and regulatory features to keep solutions current.",
   "systems": [
     "platform",
     "administration"
   ],
   "topics": [
+    "on-premises",
     "updates",
     "hotfixes",
-    "on-premises",
+    "deployment",
     "release wave 2",
-    "versions"
+    "version 27"
   ],
   "objects": [],
   "features": [
-    "Cumulative updates for Business Central",
-    "Hotfix deployment",
-    "Regulatory features",
-    "Multi-country support"
+    "hotfixes for all regions",
+    "regulatory features",
+    "local version support"
   ],
   "versions": [
     "2025 release wave 2",
-    "version 27.1",
-    "version 27.12"
+    "version 27",
+    "version 24"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -33,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.012185,
-      "pages_in_call": 3
+      "cost_usd": 0.004057,
+      "pages_in_call": 1
     }
   ]
 }

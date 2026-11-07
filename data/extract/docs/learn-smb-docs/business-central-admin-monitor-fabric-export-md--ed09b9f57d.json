@@ -2,25 +2,23 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-monitor-fabric-export.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export",
   "title": "Monitor and Troubleshoot Microsoft Fabric Synchronization",
-  "blob": "135fc8961295f40cc096e1c886157844d79a438d",
-  "summary": "Monitor and troubleshoot Business Central data synchronization with Microsoft Fabric through the Fabric Synchronization Overview and Details pages, APIs, or Fabric logging tables to review synchronization runs, company and table-level results, and resolve common setup and synchronization issues.",
+  "blob": "93ac94604b3e45dc73b3d51103735cfb8c5d1779",
+  "summary": "Monitor and troubleshoot Business Central data synchronization with Microsoft Fabric using the Fabric Mirroring Setup page, Synchronization Overview, and Details views to track run states, errors, and table-level results.",
   "systems": [
     "integration",
-    "administration",
     "reporting"
   ],
   "topics": [
-    "data mirroring",
-    "fabric synchronization",
-    "monitoring",
+    "fabric mirroring",
+    "data export",
+    "synchronization monitoring",
     "troubleshooting",
-    "api",
-    "logging"
+    "apis"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Microsoft Fabric Mirroring Setup"
+      "name": "Microsoft Fabric Mirroring Setup (Preview)"
     },
     {
       "type": "page",
@@ -32,25 +30,23 @@
     }
   ],
   "features": [
-    "synchronization run monitoring",
-    "company and table details",
-    "error tracking",
-    "incremental synchronization",
-    "change-tracking watermarks",
-    "privacy approval",
-    "configuration package management",
-    "max consecutive failed runs"
+    "Fabric Synchronization Overview",
+    "Synchronization Details",
+    "Run monitoring and status tracking",
+    "Error filtering and reporting",
+    "Company and table details view",
+    "Watermark tracking",
+    "Reset table functionality",
+    "Monitoring APIs"
   ],
-  "versions": [
-    "2026 release wave 2"
-  ],
+  "versions": [],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00452,
+      "cost_usd": 0.00539,
       "pages_in_call": 1
     }
   ]

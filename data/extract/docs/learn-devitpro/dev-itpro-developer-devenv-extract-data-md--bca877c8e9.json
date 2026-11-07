@@ -1,40 +1,52 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extract-data.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extract-data",
-  "title": "Extract data from Business Central",
-  "blob": "5fb0d085e557fa763d51accad76e5b3478699459",
-  "summary": "Data extraction methods for Business Central including ETL processes, historical and delta loads using API queries with SystemModifiedAt filtering, and tools like Azure Data Factory and Power BI dataflows.",
+  "title": "Business Central Data Extraction Methods",
+  "blob": "3310ca420682a0b4dcff035c5012b93f5fbec85a",
+  "summary": "Business Central data extraction methods including ETL processes, API-based delta extraction with read scale-out, and tools like Azure Data Factory and Power BI dataflows for moving data from Business Central to data warehouses or lakes.",
   "systems": [
     "integration",
-    "development",
+    "reporting",
     "platform"
   ],
   "topics": [
     "data extraction",
     "etl",
     "api",
-    "delta load",
-    "data warehouse"
-  ],
-  "objects": [],
-  "features": [
-    "ETL process",
-    "historical load",
-    "delta load",
-    "API queries",
+    "data mirroring",
+    "fabric",
     "read scale-out",
-    "SystemModifiedAt filtering",
-    "webhooks"
+    "delta loads",
+    "data integration"
   ],
-  "versions": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Changes API"
+    }
+  ],
+  "features": [
+    "Extract Transform Load (ETL)",
+    "API-based delta extraction",
+    "read scale-out",
+    "Microsoft Fabric data mirroring",
+    "systemModifiedAt filtering",
+    "BACPAC export",
+    "Azure Data Factory",
+    "Power BI dataflows"
+  ],
+  "versions": [
+    "2023 release wave 2",
+    "2024 release wave 1"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00421,
-      "pages_in_call": 8
+      "cost_usd": 0.010584,
+      "pages_in_call": 1
     }
   ]
 }
