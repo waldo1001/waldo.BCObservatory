@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13442",
+  "number": 13442,
+  "title": "[SCM] Post Inventory Cost to G/L: stop using marks, add clean-up for Post Value Entry to G/L",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Report 1002 now stops using marks to delete processed rows and instead filters by value entry numbers, adds automatic cleanup of stale rows, and introduces a new page and report for managing value entries to post to G/L.",
+  "key_points": [
+    "Report 1002 collects processed entries in a temporary table and deletes by filtered ranges instead of using marks, fixing platform issues with row-by-row deletes on large datasets",
+    "Stale rows (fully posted or orphaned entries) are now automatically removed from table 5811 when posting, preventing accumulation that can block future runs",
+    "New page 5813 shows value entries to post to G/L with amounts, accessible from the Inventory Cost Adjustment overview",
+    "New report 5813 allows customers to manually clean up stale rows with a count-only option",
+    "Page 5801 Inventory Cost Adjustment replaces show/hide actions with views and hides obsolete actions"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005585,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "video/yt-hougaard/YBVqwzig8Qc",
+  "pillar": "video",
+  "source": "yt-hougaard",
+  "tier": "community",
+  "title": "What probem? I can stop whenever I want! (More Games in AL and Business Central)",
+  "url": "https://www.youtube.com/watch?v=YBVqwzig8Qc",
+  "published_at": "2026-11-02T11:00:15.000Z",
+  "language": "en",
+  "state": "extracted",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-08T00:19:04.246Z"
+    },
+    "fetched": {
+      "at": "2026-11-08T00:22:42.687Z",
+      "captions": "auto:en-orig",
+      "duration_s": 765
+    },
+    "captioned": {
+      "at": "2026-11-08T00:22:51.716Z",
+      "path": "vault:captions/community/yt-hougaard/YBVqwzig8Qc.vtt",
+      "vtt_sha256": "973d6df1394f958ef0e3839a2b453f5a666f24eabd1d1be34d5806b51a4ae613",
+      "segments": 65,
+      "words": 1621,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-11-08T00:23:18.877Z",
+      "path": "data/extract/video/YBVqwzig8Qc.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "trimmed_for_policy": 1,
+      "features": 5,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.022654
+    }
+  },
+  "input_hash": null,
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "channel_id": "UCcJCTa4PvbOQj50y_HJSxXw",
+    "duration_s": 765,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6fa4211c8421dd9487025a76b23803947db08edd66bd500e62865e61a0226da5"
+}

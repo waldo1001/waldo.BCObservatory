@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2441,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2441",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-11-06T08:32:47Z",
+  "merge_commit_sha": "881c2b43dd7fd5028c38de332b7937bdaabf2d53",
+  "author": "mazhelez",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Skip test projects when determining release artifacts",
+  "body_hash": "561368020fbe455f7f5bbf8413b6ee7d5b2d334f2e73ce70f61dc39bcd07e969",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/DetermineArtifactsForRelease/DetermineArtifactsForRelease.ps1",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Scenarios/settings.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "docs"
+    },
+    {
+      "path": "Tests/DetermineArtifactsForRelease.Test.ps1",
+      "status": "modified",
+      "additions": 54,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 68,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/DetermineArtifactsForRelease/DetermineArtifactsForRelease.ps1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

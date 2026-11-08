@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/8577",
+  "number": 8577,
+  "title": "[Shopify] Fix #7724: Resolve Option 1 Name from existing Shopify Variant records",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Fixed a regression where the Option 1 Name for Shopify product variants was being incorrectly reset to 'Variant' instead of preserving existing names like 'Color' or 'Size'. The fix ensures Option 1 Value is always set when the name is resolved from existing Shopify records.",
+  "key_points": [
+    "Regression in product export where Option 1 Name was reset to 'Variant' for Shopify-origin products with existing variants",
+    "Root cause was missing guard condition to set Option 1 Value when resolved name differed from 'Variant'",
+    "Added JustResolvedOption1Name flag to handle all cases consistently",
+    "Five new test scenarios cover Shopify-origin, BC-origin, and ambiguous variant cases",
+    "All tests pass with no regressions to existing product export functionality"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004257,
+    "changes_in_call": 1
+  }
+}

@@ -6,14 +6,39 @@
   "title": "SOA search selection adjustments",
   "url": "https://github.com/microsoft/BCApps/pull/13761",
   "published_at": "2026-11-06T22:54:59Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-08T00:22:14.368Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-08T00:22:35.272Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003015
+    },
+    "linked": {
+      "at": "2026-11-08T00:22:35.397Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-08T00:22:35.597Z",
+      "path": "content/changes/bcapps/13761.md"
     }
   },
   "input_hash": "616174f697c0387751fe71ce068b3653ee27adc8:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13761,
@@ -30,6 +55,7 @@
     "community_contribution": false,
     "title_key": "soa search selection adjustments"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-07T02:19:51.175Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "34daa067ac73c65f3294ea6c3cd91e091b4b48e2d8b9cfc7f5625cb5c0f64a02"
 }

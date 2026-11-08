@@ -1007,6 +1007,15 @@
       "title_key": "bug 656922 29 x recurring frequency missing from edit in excel"
     }
   ],
+  "13360": [
+    {
+      "number": 13444,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-07T15:17:41Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13444",
+      "title_key": "es verifactu support for digital seal certificate"
+    }
+  ],
   "13403": [
     {
       "number": 13404,
@@ -2331,6 +2340,13 @@
       "merged_at": "2026-11-06T09:49:57Z",
       "url": "https://github.com/microsoft/BCApps/pull/13468",
       "title_key": "all e use gln in electronic documents on the company information is not respected when importing e docs from inbound e documents page using the import xml action"
+    },
+    {
+      "number": 12155,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-07T11:55:24Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12155",
+      "title_key": "bug e documents for germany findedocumentservice always selects last matching service ignoring which service triggered the export backport to releases 29 x"
     }
   ]
 }

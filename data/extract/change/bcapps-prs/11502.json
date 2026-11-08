@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11502",
+  "number": 11502,
+  "title": "feat: Add new event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "A new integration event is added to the VAT Date Handler to allow partners to customize the VAT date validation logic without modifying standard code.",
+  "key_points": [
+    "New integration event added to CheckVATDateCZL",
+    "Enables partners to adjust VAT date validation conditions",
+    "Addresses issue where Original Doc. VAT Date CZL field was incorrectly required at receipt posting",
+    "Event allows customization without direct standard code modification"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "localization"
+  ],
+  "quote": "There is currently no integration event in VAT Date Handler CZL.CheckVATDateCZL allowing partners to adjust this condition without modifying standard code directly.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003368,
+    "changes_in_call": 1
+  }
+}

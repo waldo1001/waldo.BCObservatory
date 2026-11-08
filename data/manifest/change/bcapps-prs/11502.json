@@ -6,14 +6,39 @@
   "title": "feat: Add new event",
   "url": "https://github.com/microsoft/BCApps/pull/11502",
   "published_at": "2026-11-06T09:55:42Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-08T00:22:46.761Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-08T00:22:50.608Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003368
+    },
+    "linked": {
+      "at": "2026-11-08T00:22:50.905Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-08T00:22:50.996Z",
+      "path": "content/changes/bcapps/11502.md"
     }
   },
   "input_hash": "6055dea80f7663f4badc443ebfa0ce87edd1ebaa:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 11502,
@@ -32,6 +57,7 @@
     "community_contribution": true,
     "title_key": "feat add new event"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-07T02:26:18.064Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a6f14112d8652f699254a1e1c7c5c0d0b03d53b9de22b04d73e68ce69f2e8938"
 }

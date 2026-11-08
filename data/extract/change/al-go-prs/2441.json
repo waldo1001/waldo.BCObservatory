@@ -1,0 +1,31 @@
+{
+  "item_id": "change/al-go-prs/2441",
+  "number": 2441,
+  "title": "Skip test projects when determining release artifacts",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "The DetermineArtifactsForRelease action now skips test projects (those with projectsToTest settings) when searching for release artifacts, fixing failures when repositories contain test projects.",
+  "key_points": [
+    "Test projects are now skipped during artifact detection to prevent 'No artifacts found' failures",
+    "The action reads project settings and filters out projects marked as test projects before searching",
+    "Error handling preserved: releases still fail if only test projects exist with no release artifacts",
+    "Added comprehensive Pester tests validating test project skipping and error scenarios",
+    "Documented behavior in settings documentation and release notes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003964,
+    "changes_in_call": 1
+  }
+}

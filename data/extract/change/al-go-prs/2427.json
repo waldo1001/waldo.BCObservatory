@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2427",
+  "number": 2427,
+  "title": "Add opt-in setting to skip draft PR builds",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "AL-Go now offers an opt-in setting to skip draft pull request builds, reducing unnecessary compute consumption before changes are ready for review. The feature adds draft guards to built-in jobs and enables the ready_for_review trigger while keeping custom jobs untouched.",
+  "key_points": [
+    "New skipDraftPullRequests setting (default false) allows repositories to opt out of building draft PRs",
+    "When enabled, draft guards are applied to AL-Go built-in jobs and ready_for_review trigger is added to PR build workflows",
+    "Supports both pull_request and pull_request_target triggers while leaving merge-queue builds unchanged",
+    "Custom jobs remain unmodified, allowing repository owners to manage their own draft conditions",
+    "Feature applies after dependency build generation and before custom jobs are appended"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": "Adds `skipDraftPullRequests` (default `false`) so repositories can opt out without changing existing behavior.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003869,
+    "changes_in_call": 1
+  }
+}

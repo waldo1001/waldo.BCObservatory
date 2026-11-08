@@ -6,14 +6,39 @@
   "title": "WorkCenter/MachineCenter: add Capacity Shown In to Calendar and Load pages",
   "url": "https://github.com/microsoft/BCApps/pull/9214",
   "published_at": "2026-11-06T10:18:05Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-08T00:22:46.799Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 8,
+      "objects": 8,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-08T00:22:51.895Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004571
+    },
+    "linked": {
+      "at": "2026-11-08T00:22:52.013Z",
+      "objects": 8,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-08T00:22:52.029Z",
+      "path": "content/changes/bcapps/9214.md"
     }
   },
   "input_hash": "38206b69b80cd52d2b669e278371ef373686bb71:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 9214,
@@ -31,6 +56,7 @@
     "community_contribution": true,
     "title_key": "workcenter machinecenter add capacity shown in to calendar and load pages"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-07T02:25:34.705Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "43ca72f855a01af16edfe59abfd7d73b9bd1af84667ac347e081dfb8b7b8c114"
 }

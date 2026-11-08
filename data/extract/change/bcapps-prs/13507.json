@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13507",
+  "number": 13507,
+  "title": "[E-Document] Add AKV switch for PA-related LLM calls",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "E-Document AI processing now supports switching between LLM models for PA-related calls via Azure Key Vault configuration, preparing for a future model migration.",
+  "key_points": [
+    "Added AKV-based switching mechanism for model selection in E-Document LLM calls",
+    "Enables toggling between different models for PA-related processing",
+    "Facilitates upcoming migration without requiring code changes",
+    "Changes to both AI Tool Processor and MLLM Handler codunits",
+    "Configuration-driven approach using Azure Key Vault"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "copilot"
+  ],
+  "quote": "Adding a mechanism to switch the model being called for PA-related E-Document-owned LLM calls to prepare for the upcoming migration.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003556,
+    "changes_in_call": 1
+  }
+}

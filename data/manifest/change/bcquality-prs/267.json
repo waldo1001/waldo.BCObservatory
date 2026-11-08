@@ -6,14 +6,39 @@
   "title": "Evaluation: keep standalone BDD tag lines in prepared testing samples",
   "url": "https://github.com/microsoft/BCQuality/pull/267",
   "published_at": "2026-11-06T11:16:31Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-08T00:22:39.640Z",
+      "change_class": "code",
+      "files": 22,
+      "al": 18,
+      "objects": 0,
+      "unjoined": 18
+    },
+    "extracted": {
+      "at": "2026-11-08T00:22:46.170Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.005188
+    },
+    "linked": {
+      "at": "2026-11-08T00:22:46.171Z",
+      "objects": 0,
+      "unjoined": 18,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-08T00:22:46.532Z",
+      "path": "content/changes/bcquality/267.md"
     }
   },
   "input_hash": "2971be34f1a81fc2dcbeb14c4e02fbcfe9c10188:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 267,
@@ -27,6 +52,7 @@
     "community_contribution": false,
     "title_key": "evaluation keep standalone bdd tag lines in prepared testing samples"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-07T02:24:34.073Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c2a8752af76828767c25b83e4b855ede62e5a0ee21edeecb640e5c55acdeff32"
 }

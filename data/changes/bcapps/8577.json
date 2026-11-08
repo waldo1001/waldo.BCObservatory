@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 8577,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/8577",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-06T10:18:05Z",
+  "merge_commit_sha": "1a0269c7f25f6feacd8c3172e19cc48f5b184c74",
+  "author": "Debs-TVT",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "[Shopify] Fix #7724: Resolve Option 1 Name from existing Shopify Variant records",
+  "body_hash": "fc199c88121bdcf3def73f6a9df1239e62333165aa76549a8164ffe02c068b28",
+  "fixes_issues": [
+    7724
+  ],
+  "work_items": [
+    648928
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Products/Codeunits/ShpfyProductExport.Codeunit.al",
+      "status": "modified",
+      "additions": 82,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Products/ShpfyVariantOption1NameTest.Codeunit.al",
+      "status": "added",
+      "additions": 403,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 485,
+    "deletions": 6,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Products/Codeunits/ShpfyProductExport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30178",
+        "type": "codeunit",
+        "id": 30178,
+        "name": "Shpfy Product Export",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30178"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ],
+  "issues": [
+    {
+      "number": 7724,
+      "title": "[Bug]: Shopify variant create uses wrong option name after initial import from Shopify",
+      "state": "closed"
+    }
+  ]
+}

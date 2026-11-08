@@ -6,14 +6,39 @@
   "title": "Skip test projects when determining release artifacts",
   "url": "https://github.com/microsoft/AL-Go/pull/2441",
   "published_at": "2026-11-06T08:32:47Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-08T00:22:47.911Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-08T00:23:18.783Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003964
+    },
+    "linked": {
+      "at": "2026-11-08T00:23:18.783Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-08T00:23:18.786Z",
+      "path": "content/changes/al-go/2441.md"
     }
   },
   "input_hash": "881c2b43dd7fd5028c38de332b7937bdaabf2d53:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 2441,
@@ -27,6 +52,7 @@
     "community_contribution": false,
     "title_key": "skip test projects when determining release artifacts"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-11-07T02:27:13.406Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "35268632958618878b8cf2a354a330932ddb5817a6000469c737f535505b0b40"
 }

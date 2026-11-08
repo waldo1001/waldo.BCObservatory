@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13761",
+  "number": 13761,
+  "title": "SOA search selection adjustments",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The search selection rate in the Sales Order Agent's broader item search feature has been adjusted to improve search behavior.",
+  "key_points": [
+    "Modified search selection rate calculation in SOA Broader Item Search codeunit",
+    "Updated related functionality in SOA Broader Item Search Func codeunit",
+    "Minimal code changes addressing a specific issue with search selection",
+    "Affects item search behavior in sales order processing"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "quote": "Adjust search selection rate",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003015,
+    "changes_in_call": 1
+  }
+}

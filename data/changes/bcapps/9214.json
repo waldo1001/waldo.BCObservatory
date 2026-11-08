@@ -1,0 +1,214 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9214,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9214",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-06T10:18:05Z",
+  "merge_commit_sha": "38206b69b80cd52d2b669e278371ef373686bb71",
+  "author": "Busslar",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "WorkCenter/MachineCenter: add Capacity Shown In to Calendar and Load pages",
+  "body_hash": "4f5e6114a60ee9627395ceefda219614dcd44354f8fe5f6a0e29c55978ca168c",
+  "fixes_issues": [
+    9205
+  ],
+  "work_items": [
+    646407
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenterCalendar.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenterCalendarMatrix.Page.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenterLoad.Page.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenterLoadLines.Page.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterCalendar.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterCalendarMatrix.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterLoad.Page.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterLoadLines.Page.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMManufCalendars.Codeunit.al",
+      "status": "modified",
+      "additions": 146,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Planning/SCMCapacityRequirements.Codeunit.al",
+      "status": "modified",
+      "additions": 155,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 10,
+    "additions": 445,
+    "deletions": 20,
+    "al": 8
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenterCalendar.Page.al",
+        "status": "modified",
+        "key": "page/99000770",
+        "type": "page",
+        "id": 99000770,
+        "name": "Machine Center Calendar",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000770"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenterCalendarMatrix.Page.al",
+        "status": "modified",
+        "key": "page/9293",
+        "type": "page",
+        "id": 9293,
+        "name": "Machine Center Calendar Matrix",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9293"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenterLoad.Page.al",
+        "status": "modified",
+        "key": "page/99000889",
+        "type": "page",
+        "id": 99000889,
+        "name": "Machine Center Load",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000889"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/MachineCenter/MachineCenterLoadLines.Page.al",
+        "status": "modified",
+        "key": "page/99000890",
+        "type": "page",
+        "id": 99000890,
+        "name": "Machine Center Load Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000890"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterCalendar.Page.al",
+        "status": "modified",
+        "key": "page/99000769",
+        "type": "page",
+        "id": 99000769,
+        "name": "Work Center Calendar",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000769"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterCalendarMatrix.Page.al",
+        "status": "modified",
+        "key": "page/9291",
+        "type": "page",
+        "id": 9291,
+        "name": "Work Center Calendar Matrix",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9291"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterLoad.Page.al",
+        "status": "modified",
+        "key": "page/99000887",
+        "type": "page",
+        "id": 99000887,
+        "name": "Work Center Load",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000887"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/WorkCenter/WorkCenterLoadLines.Page.al",
+        "status": "modified",
+        "key": "page/99000888",
+        "type": "page",
+        "id": 99000888,
+        "name": "Work Center Load Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000888"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ],
+  "issues": [
+    {
+      "number": 9205,
+      "title": "[BC Idea]: \"Capacity shown in\" on Work Center and Machine Center Calendar and Load",
+      "state": "closed"
+    }
+  ]
+}

@@ -6,14 +6,39 @@
   "title": "[Shopify] Fix #7724: Resolve Option 1 Name from existing Shopify Variant records",
   "url": "https://github.com/microsoft/BCApps/pull/8577",
   "published_at": "2026-11-06T10:18:05Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-08T00:22:41.623Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-08T00:22:46.556Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004257
+    },
+    "linked": {
+      "at": "2026-11-08T00:22:46.690Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-08T00:22:46.711Z",
+      "path": "content/changes/bcapps/8577.md"
     }
   },
   "input_hash": "1a0269c7f25f6feacd8c3172e19cc48f5b184c74:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 8577,
@@ -32,6 +57,7 @@
     "community_contribution": true,
     "title_key": "shopify fix 7724 resolve option 1 name from existing shopify variant records"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-07T02:25:26.540Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "20a93234fa4d2e2e23842712b9b7cd62eefb82703959d81fada3b880b7451e8e"
 }

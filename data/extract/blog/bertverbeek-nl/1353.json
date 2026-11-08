@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/bertverbeek-nl/1353",
+  "url": "https://www.bertverbeek.nl/blog/2026/11/07/credentials-setup-on-microsoft-fabric-mirroring-in-business-central/",
+  "title": "Credentials setup on Microsoft Fabric Mirroring in Business Central",
+  "source": "bertverbeek-nl",
+  "published_at": "2026-11-07T12:39:10.000Z",
+  "words": 200,
+  "summary": "Setting up credentials for Microsoft Fabric Mirroring in Business Central 29.1 requires configuring either Microsoft's first-party app or a custom app registration with appropriate permissions and secrets.",
+  "key_points": [
+    "Business Central 29.1 introduced Microsoft Fabric Mirroring in preview mode",
+    "You can use Microsoft's first-party app or create your own app registration",
+    "Custom app registration requires specific permissions and a client secret",
+    "Principal ID is obtained from the managed application in local directory",
+    "The app registration must be added to your Fabric workspace either manually or via Business Central action"
+  ],
+  "systems": [
+    "integration",
+    "platform",
+    "reporting"
+  ],
+  "topics": [
+    "fabric mirroring",
+    "credentials",
+    "app registration",
+    "data synchronization",
+    "azure",
+    "authentication"
+  ],
+  "objects": [],
+  "features": [
+    "Microsoft Fabric Mirroring",
+    "Custom app registration",
+    "First-party app integration",
+    "Principal ID configuration",
+    "Client Secret management",
+    "Workspace integration"
+  ],
+  "versions": [
+    "29.1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Since Business Central 29.1 update it out and you can use the Microsoft Fabric Mirroring (preview) is out",
+      "why_it_matters": "Establishes the version requirement and that the feature is in preview status"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004603,
+    "posts_in_call": 1
+  }
+}

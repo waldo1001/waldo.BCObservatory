@@ -6,14 +6,39 @@
   "title": "Retry artifact and CI/CD lookup requests",
   "url": "https://github.com/microsoft/AL-Go/pull/2434",
   "published_at": "2026-11-06T09:11:34Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-08T00:22:47.558Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-11-08T00:22:52.380Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.004036
+    },
+    "linked": {
+      "at": "2026-11-08T00:23:18.768Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-08T00:23:18.771Z",
+      "path": "content/changes/al-go/2434.md"
     }
   },
   "input_hash": "956ab9ecc0eb22269b6c176099857b3d0ff8717e:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 2434,
@@ -27,6 +52,7 @@
     "community_contribution": false,
     "title_key": "retry artifact and ci cd lookup requests"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-11-07T02:26:25.701Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2d2ac7bb79e4740c727a40cf2e368eadb00da8e772abc36d3eb2e8f48d5c4b89"
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9214",
+  "number": 9214,
+  "title": "WorkCenter/MachineCenter: add Capacity Shown In to Calendar and Load pages",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Work Center and Machine Center Calendar and Load pages now include a Capacity Shown In field to display capacity figures in different units of measure (seconds, minutes, hours, or days), matching the functionality already available on Work Center Group pages.",
+  "key_points": [
+    "Added Capacity Shown In field to all eight Calendar and Load pages for Work Center and Machine Center",
+    "Field initializes from Manufacturing Setup and allows users to switch between capacity units of measure",
+    "Calendar matrix pages convert Capacity (Effective) using TimeFactor before display",
+    "Load pages pass the selected unit to their subpages for consistent conversion",
+    "Implementation mirrors existing Work Center Group pages pattern"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Work Center and Machine Center Calendar and Load pages were missing the Capacity Shown In field that the Work Center Group pages already have.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004571,
+    "changes_in_call": 1
+  }
+}

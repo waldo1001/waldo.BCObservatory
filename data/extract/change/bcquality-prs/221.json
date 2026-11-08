@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/221",
+  "number": 221,
+  "title": "Clarify when HttpClient transport errors need translation",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Clarified documentation about when HTTP client transport errors require custom error translation, distinguishing between valid optional propagation and cases needing explicit error contracts without changing code samples.",
+  "key_points": [
+    "Both optional Boolean propagation and explicit handling can be valid approaches for HTTP errors",
+    "Custom error labels for non-2xx responses don't automatically require transport-error translation",
+    "Require visible caller, documented error contract, or user-facing evidence before reporting missing translations",
+    "No changes to existing good/bad code samples or fixture selection",
+    "Documentation-only change with validation of article integrity and fixture coverage"
+  ],
+  "change_kind": "other",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Clarify the existing HTTP platform-failure article without changing its fail-fast alternative",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004164,
+    "changes_in_call": 1
+  }
+}

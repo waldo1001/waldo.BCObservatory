@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/267",
+  "number": 267,
+  "title": "Evaluation: keep standalone BDD tag lines in prepared testing samples",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Quality rules for BDD-style test samples now preserve standalone tag lines (FEATURE, SCENARIO, GIVEN, WHEN, THEN) during text preparation while stripping other comments. Ten selected testing articles have been updated with complete, neutral BDD tags to guide evaluation of test code structure.",
+  "key_points": [
+    "Text preparation regex modified to keep only standalone BDD tag lines, stripping all other comments",
+    "Validation now rejects retained tag lines containing 'Good', 'Bad', or 'anti-pattern' in selected samples",
+    "Ten selected testing articles updated with complete BDD tag coverage (FEATURE, SCENARIO, GIVEN, WHEN, THEN)",
+    "BDD tag placement preserved in bad/good sample pairs when code performs identical operations",
+    "Preparation logic moved to dedicated Review-FixtureText.ps1 script used by harness and regression checks"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005188,
+    "changes_in_call": 1
+  }
+}

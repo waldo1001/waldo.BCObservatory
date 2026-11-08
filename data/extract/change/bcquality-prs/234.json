@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/234",
+  "number": 234,
+  "title": "knowledge(ui): define per-record page outputs on every control-flow path",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "A new quality rule was added to detect when page outputs assigned conditionally in OnAfterGetRecord might retain values from previous records on skipped-assignment paths, with good and bad code examples.",
+  "key_points": [
+    "Requires per-record page outputs to be defined on every control-flow path through OnAfterGetRecord",
+    "Covers list pages, part pages, and API page fields",
+    "Accepts initial clearing, unconditional defaults, complete conditional assignments, and helper initialization",
+    "Grounded in page-instance lifecycle documentation and Microsoft API patterns",
+    "Good example demonstrates clearing and complete-assignment variants; bad example uses conditional lookup retention"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00397,
+    "changes_in_call": 1
+  }
+}

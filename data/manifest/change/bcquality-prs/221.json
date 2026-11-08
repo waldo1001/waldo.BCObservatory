@@ -6,14 +6,39 @@
   "title": "Clarify when HttpClient transport errors need translation",
   "url": "https://github.com/microsoft/BCQuality/pull/221",
   "published_at": "2026-11-06T11:18:41Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-08T00:22:14.938Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-08T00:22:36.347Z",
+      "prompt": "extract-change@1",
+      "kind": "other",
+      "behavior": false,
+      "cost_usd": 0.004164
+    },
+    "linked": {
+      "at": "2026-11-08T00:22:36.348Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-08T00:22:39.184Z",
+      "path": "content/changes/bcquality/221.md"
     }
   },
   "input_hash": "634aba3df9af1b4579e8a735b186e3efdbf47de2:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 221,
@@ -27,6 +52,7 @@
     "community_contribution": false,
     "title_key": "clarify when httpclient transport errors need translation"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-11-07T02:23:54.202Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "30f950502e03a3a9711ad44c5c56d9041734e90180abb149f5a22cbbaedcd0f7"
 }

@@ -1,0 +1,244 @@
+{
+  "video_id": "YBVqwzig8Qc",
+  "item_id": "video/yt-hougaard/YBVqwzig8Qc",
+  "title": "What probem? I can stop whenever I want! (More Games in AL and Business Central)",
+  "duration_s": 765,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al",
+    "game development",
+    "emulation",
+    "z80 processor",
+    "c2al converter",
+    "quake engine",
+    "galaga port",
+    "doom port",
+    "al-go",
+    "code generation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview of game ports in AL",
+      "t_start": 0,
+      "t_end": 47.2
+    },
+    {
+      "title": "Galaga port and arcade games discussion",
+      "t_start": 47.2,
+      "t_end": 91.8
+    },
+    {
+      "title": "How Galaga differs from Doom - assembler vs C source",
+      "t_start": 91.8,
+      "t_end": 227.3
+    },
+    {
+      "title": "Z80 emulator architecture and implementation",
+      "t_start": 227.3,
+      "t_end": 401.1
+    },
+    {
+      "title": "Z80 emulator as generic processor implementation",
+      "t_start": 401.1,
+      "t_end": 473.7
+    },
+    {
+      "title": "Quake port introduction and challenges",
+      "t_start": 473.7,
+      "t_end": 565.7
+    },
+    {
+      "title": "Quake engine in AL and C2AL tool enhancements",
+      "t_start": 565.7,
+      "t_end": 671.7
+    },
+    {
+      "title": "Performance considerations and conclusion",
+      "t_start": 671.7,
+      "t_end": 765
+    }
+  ],
+  "features": [
+    {
+      "name": "Galaga port to AL",
+      "description": "A port of the classic Galaga arcade game running in Business Central using AL. The game was created using the same framework as the Doom port but required building a Z80 emulator since Galaga is written in pure Z80 assembler rather than C.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 81,
+      "t_end": 451,
+      "is_demoed": true,
+      "caveats": [
+        "ROM files must be sourced separately and are not included in the repository",
+        "ROMs are not the presenter's property to distribute"
+      ],
+      "tags": [
+        "galaga",
+        "arcade",
+        "game port",
+        "z80 emulator"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Z80 emulator implementation in AL",
+      "description": "A complete Z80 processor emulator implemented in AL that can run any Z80 code. It includes all Z80 opcodes, register management (A, F, B, C, D, E, H, L and alternative registers), and memory management with ROM mapping capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 227.3,
+      "t_end": 433.6,
+      "is_demoed": true,
+      "caveats": [
+        "Generic implementation could potentially run any Z80 code but has only been demonstrated with Galaga"
+      ],
+      "tags": [
+        "z80 emulator",
+        "processor emulation",
+        "instruction set"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Quake port to AL",
+      "description": "A port of the classic Quake game running in Business Central using the C2AL converter. The port uses soft rendering instead of OpenGL and includes support for pack files and save games stored as a table.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 473.7,
+      "t_end": 705,
+      "is_demoed": true,
+      "caveats": [
+        "Slower performance due to heavy calculations",
+        "Performance degrades with significant scene movement",
+        "Soft rendering instead of OpenGL",
+        "Shareware levels only included"
+      ],
+      "tags": [
+        "quake",
+        "game port",
+        "c2al",
+        "3d rendering"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "C2AL converter enhancements",
+      "description": "The C2AL tool that converts C source code to AL gained significant enhancements to support the Quake port, resulting in a single 64000-line codeunit called Quake engine.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 622.1,
+      "t_end": 645,
+      "is_demoed": true,
+      "caveats": [
+        "Single 64000-line codeunit may have maintainability concerns"
+      ],
+      "tags": [
+        "c2al",
+        "code generation",
+        "tool enhancement"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Doom port to AL",
+      "description": "A working port of Doom running in Business Central that uses a C to AL converter to translate the C source code. Served as the foundation for subsequent game ports and demonstrated the concept of running retro games in AL.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 14.9,
+      "t_end": 134,
+      "is_demoed": true,
+      "caveats": [
+        "Foundation for other ports but not extensively discussed in this video"
+      ],
+      "tags": [
+        "doom",
+        "game port",
+        "c2al",
+        "retro game"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Quake engine",
+      "t": 622.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Merrick",
+      "confidence": "high"
+    },
+    {
+      "name": "Claude",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 27.3,
+      "text": "finally answered the uh each old question uh can it run Doom?",
+      "why_it_matters": "Establishes the core premise of the video series - demonstrating that complex software can run on Business Central's AL platform.",
+      "check": "exact"
+    },
+    {
+      "t": 147.1,
+      "text": "Galaga is not written in C. Galaga is written in pure assembler for the Z80 uh processor.",
+      "why_it_matters": "Explains why a different technical approach was needed for Galaga compared to Doom, requiring emulation rather than code conversion.",
+      "check": "exact"
+    },
+    {
+      "t": 267.8,
+      "text": "The Z80 is a has a 64K RAM address space. So, memory is just an array of integers.",
+      "why_it_matters": "Describes the fundamental architecture decision for implementing the Z80 emulator in AL.",
+      "check": "exact"
+    },
+    {
+      "t": 387.3,
+      "text": "implemented all the op codes for a z80 processor and and and this thing is is more or less generic",
+      "why_it_matters": "Demonstrates that the Z80 emulator is complete and could theoretically run any Z80 code, making it a general-purpose implementation.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 633.9,
+      "text": "The C2AL tool gained a lot of extra functionality in order to do Quake. Uh so, in this case we ...",
+      "why_it_matters": "Shows the scale of the Quake port and the significant enhancements made to the C2AL conversion tool to support it.",
+      "check": "exact"
+    },
+    {
+      "t": 691.9,
+      "text": "if there's a lot of movement in the in in a in a scene, the game goes slower.",
+      "why_it_matters": "Identifies performance limitations of the Quake port related to computational complexity in the AL platform.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022653999999999997
+    }
+  ]
+}

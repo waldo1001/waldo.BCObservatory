@@ -1,0 +1,49 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 221,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/221",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-11-06T11:18:41Z",
+  "merge_commit_sha": "634aba3df9af1b4579e8a735b186e3efdbf47de2",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Clarify when HttpClient transport errors need translation",
+  "body_hash": "50905c2c0f1a5970650fc00bb7aa150a2c7a3e8cc64a5dc8ee7c02b91b64fbc2",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}
