@@ -1,0 +1,28 @@
+{
+  "video_id": "YBVqwzig8Qc",
+  "item_id": "video/yt-hougaard/YBVqwzig8Qc",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary names the presenter as 'Erik Hougaard', but the transcript never says that. The captions only have 'Hey Merrick', so the name comes from outside knowledge and was removed.",
+    "The quote at 633.9 ends with an added ellipsis, so it is not verbatim. It was replaced with a verbatim span from the same segment.",
+    "Rewrote the key point that said the emulator was 'only demonstrated with Galaga' to stick to what the transcript says: it could run any Z80 code, and Galaga is what was built.",
+    "The other quotes, the features and the chapters match the transcript. All feature statuses stay 'unclear' because these are community demo repos, not product releases."
+  ],
+  "input_hash": "b38d29cb8a733a8263fcaa4b16075d3a39e0bb1a049f610541b11c304bb6e1a4",
+  "by": "opus",
+  "at": "2026-11-08T00:23:54.000Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 634s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.099632
+  }
+}

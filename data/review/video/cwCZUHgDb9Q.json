@@ -1,0 +1,27 @@
+{
+  "video_id": "cwCZUHgDb9Q",
+  "item_id": "video/yt-hougaard/cwCZUHgDb9Q",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point says the feature is in preview. The transcript never says that; it only says you can try it for free in a sandbox.",
+    "Key point says dimension mapping must be correct and dimension codes must exist. The transcript does not say this.",
+    "The summary names the presenter 'Erik Hougaard', but the transcript only says 'Eric'. The summary also leaves out the sales order quantity update demo.",
+    "The shortcut dimensions feature description says customer group is mapped automatically. In the transcript, customer group had to be mapped by hand ('we just need to map customer group also'). This is minor.",
+    "All quotes are verbatim and useful. All feature statuses being unclear fits the transcript."
+  ],
+  "input_hash": "20d62257527f6ac7bef094b948cfd66a83680b869e31d4e14e21b770fda6ef6c",
+  "by": "opus",
+  "at": "2026-11-08T00:24:22.727Z",
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.063841
+  }
+}

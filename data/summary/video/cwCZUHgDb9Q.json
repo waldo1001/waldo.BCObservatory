@@ -1,0 +1,27 @@
+{
+  "video_id": "cwCZUHgDb9Q",
+  "item_id": "video/yt-hougaard/cwCZUHgDb9Q",
+  "summary": "Magic Paste app for Business Central tips: paste external data to create several customers with default posting groups, update existing records by mapping a key field, paste a single column such as quantity into existing sales order lines, paste into hidden fields, and fill shortcut dimensions in the general journal. The presenter is Eric.",
+  "overview": "Erik Hougaard shows practical ways to use Magic Paste in Business Central. He starts by creating several customers in one paste, mapping columns to customer number, name and posting groups. He then shows that mapping a key field makes a paste update existing records instead of creating new ones.\n\nThe video also covers pasting only selected columns, such as quantities on sales order lines, where the system asks whether to update the existing rows in order. It ends with pasting into hidden fields via \"show hidden fields\" and mapping department and customer group to shortcut dimensions in the general journal. The video notes the feature is in preview and can be tried for free in a sandbox.",
+  "key_points": [
+    "Pasting customer data lets you map columns to customer number and name, add default values for posting groups such as Domestic, and create multiple customers in one operation.",
+    "If a key field is mapped, the paste updates the existing records instead of inserting new ones. In the demo, three customers got new credit limits rather than three new customers being created.",
+    "You can paste only the column you need, for example quantities on sales lines, without pasting all columns.",
+    "When pasting into existing sales lines, a prompt asks whether to update the existing rows in order (yes) or insert new rows (no).",
+    "'Show hidden fields' makes more fields available, such as gross weight, but only fields that could be brought in through personalization can be selected.",
+    "In the general journal, most columns were mapped automatically, including shortcut dimensions like purchaser and department. Account type and customer group were mapped by hand.",
+    "The app can be tried for free in a sandbox."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "e6000cf3c155319c0522ff0d031348a4d775c8e8ebcfb2d4ac6c5c477489fcdd",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0141084
+  }
+}

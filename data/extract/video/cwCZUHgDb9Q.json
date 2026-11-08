@@ -1,0 +1,268 @@
+{
+  "video_id": "cwCZUHgDb9Q",
+  "item_id": "video/yt-hougaard/cwCZUHgDb9Q",
+  "title": "Tips and Tricks for Better Pasting with Magic Page for Business Central",
+  "duration_s": 482,
+  "systems": [
+    "sales",
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "magic paste",
+    "data entry",
+    "bulk updates",
+    "customer creation",
+    "sales orders",
+    "general journal",
+    "dimension mapping",
+    "field mapping",
+    "hidden fields",
+    "personalization"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and customer creation setup",
+      "t_start": 0,
+      "t_end": 30.1
+    },
+    {
+      "title": "Creating multiple customers with default posting groups",
+      "t_start": 30.1,
+      "t_end": 90.2
+    },
+    {
+      "title": "Updating existing records by mapping keys",
+      "t_start": 90.2,
+      "t_end": 159.4
+    },
+    {
+      "title": "Pasting quantity updates in sales orders",
+      "t_start": 159.4,
+      "t_end": 268
+    },
+    {
+      "title": "Pasting into hidden fields",
+      "t_start": 268,
+      "t_end": 354.1
+    },
+    {
+      "title": "Pasting shortcut dimensions in general journal",
+      "t_start": 354.1,
+      "t_end": 462.7
+    },
+    {
+      "title": "Summary and call to action",
+      "t_start": 462.7,
+      "t_end": 482
+    }
+  ],
+  "features": [
+    {
+      "name": "Magic Paste bulk customer creation",
+      "description": "Paste customer data from external sources and map columns to customer fields including customer number, name, and posting groups. The system creates multiple new customers in a single paste operation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 30.1,
+      "t_end": 90.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "bulk operations",
+        "customer master",
+        "data import",
+        "column mapping"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Magic Paste key-based record updates",
+      "description": "Map a key field to identify existing records and update multiple rows simultaneously with new values instead of creating duplicates. When a key is mapped, pasting updates the existing records rather than inserting new ones.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 107.7,
+      "t_end": 154.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires key field to be mapped"
+      ],
+      "tags": [
+        "bulk updates",
+        "record matching",
+        "key mapping",
+        "upsert operations"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Magic Paste selective column pasting",
+      "description": "Paste only specific columns from copied data without needing to paste all columns. Users can select which column contains the data to update without breaking the operation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 182.4,
+      "t_end": 268,
+      "is_demoed": true,
+      "caveats": [
+        "Only selected columns are pasted"
+      ],
+      "tags": [
+        "column selection",
+        "partial data",
+        "precision pasting"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Magic Paste multi-row update confirmation",
+      "description": "When pasting into existing rows, the system prompts the user to choose between updating existing rows in order or inserting new rows. This prevents accidental data duplication.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 227.5,
+      "t_end": 257.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "user confirmation",
+        "safety",
+        "update vs insert",
+        "multi-row operations"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Magic Paste hidden fields support",
+      "description": "Access and paste into fields that are not visible on the screen by using a 'show hidden fields' option. Pasting into hidden fields is restricted to fields that can be brought in through personalization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 278.2,
+      "t_end": 354.1,
+      "is_demoed": true,
+      "caveats": [
+        "Only fields available through personalization can be used",
+        "Hidden fields must be valid for the record type"
+      ],
+      "tags": [
+        "hidden fields",
+        "field visibility",
+        "personalization",
+        "extended fields"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Magic Paste shortcut dimensions",
+      "description": "Paste data into shortcut dimension fields in the general journal. The system automatically maps dimension data like department and customer group to their corresponding shortcut dimension codes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 384.2,
+      "t_end": 462.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires proper dimension mapping",
+        "Dimension codes must exist"
+      ],
+      "tags": [
+        "dimensions",
+        "dimension mapping",
+        "general journal",
+        "shortcut dimensions"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer",
+      "t": 76.9
+    },
+    {
+      "type": "page",
+      "name": "Sales Order",
+      "t": 159.4
+    },
+    {
+      "type": "page",
+      "name": "General Journal",
+      "t": 354.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 76.9,
+      "text": "we got all three new customers here and we can go and take a look at one of them.",
+      "why_it_matters": "Demonstrates successful bulk creation of multiple customer records from pasted data in a single operation.",
+      "check": "exact"
+    },
+    {
+      "t": 128.9,
+      "text": "when I click okay, I don't get three new customers. No, I get I'm updating those three customers with those specific values.",
+      "why_it_matters": "Shows the key distinction that Magic Paste can update existing records instead of creating duplicates when a key field is mapped.",
+      "check": "exact"
+    },
+    {
+      "t": 240.7,
+      "text": "apply pasted six rows to the six sales line rows already in the destination. Choose yes to update the existing rows in order of",
+      "why_it_matters": "Explains the user confirmation mechanism that prevents accidental data duplication by offering a choice between updating or inserting.",
+      "check": "exact"
+    },
+    {
+      "t": 290,
+      "text": "there might be fields that are not visible. So, we can say, \"Hey, show hidden fields.\" And we get some more fields available.",
+      "why_it_matters": "Reveals that Magic Paste can access hidden fields not normally shown on screen, expanding the fields available for data entry.",
+      "check": "exact"
+    },
+    {
+      "t": 339.7,
+      "text": "The rule is still that the only fields that you can select from hidden fields are those who could be brought in by a",
+      "why_it_matters": "Establishes a safety constraint that hidden fields must be valid for the record type and accessible through standard personalization.",
+      "check": "exact"
+    },
+    {
+      "t": 437.9,
+      "text": "department is mapped to department code and we just need to map customer group also",
+      "why_it_matters": "Shows that Magic Paste automatically recognizes and maps dimension data in the general journal, simplifying dimension entry.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 473.9,
+      "kind": "preview",
+      "text": "You can try it for free in a in a sandbox."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021842
+    }
+  ]
+}

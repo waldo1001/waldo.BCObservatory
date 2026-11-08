@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=cwCZUHgDb9Q",
   "published_at": "2026-11-01T22:24:36.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-08T00:19:04.246Z"
@@ -16,6 +16,58 @@
       "at": "2026-11-08T00:23:19.159Z",
       "captions": "auto:en-orig",
       "duration_s": 482
+    },
+    "captioned": {
+      "at": "2026-11-08T00:23:28.080Z",
+      "path": "vault:captions/community/yt-hougaard/cwCZUHgDb9Q.vtt",
+      "vtt_sha256": "2ec9a3712d81ce6a1829a0f429d5d5a2ab5c567a38de6a864759bb9e4e8bf97b",
+      "segments": 40,
+      "words": 1154,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-11-08T00:23:51.787Z",
+      "path": "data/extract/video/cwCZUHgDb9Q.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 6,
+      "quotes": 6,
+      "quotes_dropped": 1,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.021842
+    },
+    "summarized": {
+      "at": "2026-11-08T00:24:02.883Z",
+      "path": "data/summary/video/cwCZUHgDb9Q.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0141084
+    },
+    "linked": {
+      "at": "2026-11-08T00:24:02.884Z",
+      "systems": [
+        "sales",
+        "finance",
+        "administration"
+      ],
+      "topics": 10,
+      "objects_as_heard": 3
+    },
+    "reviewed": {
+      "at": "2026-11-08T00:24:22.745Z",
+      "path": "data/review/video/cwCZUHgDb9Q.json",
+      "verdict": "fix",
+      "applied": 2,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.063841
+    },
+    "published": {
+      "at": "2026-11-08T00:24:22.991Z",
+      "path": "content/videos/cwCZUHgDb9Q.md"
     }
   },
   "input_hash": null,
@@ -30,5 +82,11 @@
     }
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "1041f41519830de228c6d8ac247fb51a40b07081c359f394a80e593e7b72d8cb",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-08T00:24:22.727Z"
+  }
 }

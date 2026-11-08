@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13690,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13690",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-06T05:43:49Z",
+  "merge_commit_sha": "76013d840407ed91bd04d488e4b28c7d095e12cc",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main] - Bug 657870: [ExpenseAgent] Allow assigning interim approvers via API before expense reports are pending approval",
+  "body_hash": "7ceb6a3c20df29f82e80701c2dd6f2d68ce3ff3f655718f2e3594ddc5d6e95f2",
+  "fixes_issues": [],
+  "work_items": [
+    657870
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Codeunits/ExpenseReportApprovalMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReport.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseInterimApprovalTest.Codeunit.al",
+      "status": "modified",
+      "additions": 188,
+      "deletions": 7,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 216,
+    "deletions": 17,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Approval/Codeunits/ExpenseReportApprovalMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6901",
+        "type": "codeunit",
+        "id": 6901,
+        "name": "Expense Report Approval Mgmt",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6901"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Pages/ExpenseReport.Page.al",
+        "status": "modified",
+        "key": "page/6910",
+        "type": "page",
+        "id": 6910,
+        "name": "Expense Report",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6910"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

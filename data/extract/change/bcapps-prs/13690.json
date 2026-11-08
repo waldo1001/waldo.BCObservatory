@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13690",
+  "number": 13690,
+  "title": "[Main] - Bug 657870: [ExpenseAgent] Allow assigning interim approvers via API before expense reports are pending approval",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Interim approvers can now be assigned via API before an expense report is submitted for approval, allowing them to be configured on Released reports without changing the active approver.",
+  "key_points": [
+    "Interim approver assignment enabled on Released and Pending Approval reports, not just Pending Approval",
+    "On Released reports, interim approver is saved without changing report status or active approver until submission",
+    "Conflicts revalidated when routing on submit, resubmit, or reopen to prevent interim approver from being final approver",
+    "Assignment remains blocked on Open, Interim Approved, and Approved reports with updated error messages",
+    "Added comprehensive regression tests for pre-submission assignment, two-stage approval flow, and validation scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Allow interim approver assignment on Released and Pending Approval reports through a shared status check.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004249,
+    "changes_in_call": 1
+  }
+}

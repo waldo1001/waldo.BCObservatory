@@ -6,14 +6,39 @@
   "title": "[Main] - Bug 657870: [ExpenseAgent] Allow assigning interim approvers via API before expense reports are pending approval",
   "url": "https://github.com/microsoft/BCApps/pull/13690",
   "published_at": "2026-11-06T05:43:49Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
+    },
+    "fetched": {
+      "at": "2026-11-08T00:23:34.775Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-08T00:23:43.860Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004249
+    },
+    "linked": {
+      "at": "2026-11-08T00:23:43.964Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-08T00:23:43.977Z",
+      "path": "content/changes/bcapps/13690.md"
     }
   },
   "input_hash": "76013d840407ed91bd04d488e4b28c7d095e12cc:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13690,
@@ -30,6 +55,7 @@
     "community_contribution": false,
     "title_key": "bug 657870 expenseagent allow assigning interim approvers via api before expense reports are pending approval"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-11-07T02:28:09.022Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "db34306789237e1c8d68eda82b4993eb399a7bcb1fbd1232b7807e9060e60ec0"
 }

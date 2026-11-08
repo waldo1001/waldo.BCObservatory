@@ -1,0 +1,26 @@
+{
+  "video_id": "YBVqwzig8Qc",
+  "item_id": "video/yt-hougaard/YBVqwzig8Qc",
+  "summary": "Demo of retro game ports running in Business Central through AL: Galaga, which needed a Z80 processor emulator written in AL because the game is pure Z80 assembler, and Quake, which uses an enhanced C2AL converter and a soft renderer. Both build on the earlier Doom port's UI and approach. The video also covers ROM sourcing and Quake's performance limits.",
+  "overview": "Erik Hougaard follows up his Doom port with two more games in AL. Galaga is written in pure Z80 assembler rather than C, so the C-to-AL approach used for Doom did not apply. He built a Z80 emulator in AL instead, with all opcodes, the register set and a 64K memory modelled as an array of integers.\n\nQuake was ported with the C2AL converter, which gained a lot of new functionality for this. The result is a single codeunit of about 64000 lines called Quake engine. It uses soft rendering, supports pack files and stores save games in a table. It runs slowly when a scene has a lot of movement.",
+  "key_points": [
+    "Galaga is written in pure Z80 assembler, not C, so it needed an emulator rather than the C-to-AL converter used for Doom.",
+    "The Z80 emulator in AL implements all opcodes and the registers A, F, B, C, D, E, H, L plus alternative registers. Memory is an array of integers over a 64K address space, and the ROMs are mapped into the memory space.",
+    "The emulator is more or less generic and could run any Z80 code, such as code from a Spectrum. The video demonstrates it with Galaga.",
+    "Galaga ROM files are not in the repository and must be sourced separately, because they are not the presenter's to distribute.",
+    "Galaga and Quake reuse the same UI and frame-handling controller as the Doom port.",
+    "The Quake port uses the enhanced C2AL tool and produces one codeunit called Quake engine, about 64,000 lines of code.",
+    "Quake uses soft rendering instead of OpenGL, loads a pack file as a resource, stores save games as a table, and includes only the shareware levels."
+  ],
+  "audience": [
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "6fa4211c8421dd9487025a76b23803947db08edd66bd500e62865e61a0226da5",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.017822
+  }
+}

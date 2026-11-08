@@ -6,7 +6,7 @@
   "title": "Document incremental build conflict with releases from release branches",
   "url": "https://github.com/microsoft/AL-Go/pull/2442",
   "published_at": "2026-11-06T08:27:57Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
@@ -28,5 +28,7 @@
     "title_key": "document incremental build conflict with releases from release branches"
   },
   "last_error": "fetch failed",
-  "retry_after": "2026-11-07T02:27:20.656Z"
+  "retry_after": null,
+  "skip": "non-code",
+  "skipped_at": "2026-11-08T00:23:29.992Z"
 }
