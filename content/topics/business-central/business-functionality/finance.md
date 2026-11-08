@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/finance
 type: topic
 title: Finance
-summary: Finance in Business Central covers general ledger and accounting, period closing, dimensions, currencies, receivables, payables, bank reconciliation, cost accounting, inventory costs, cash flow, VAT, withholding and excise tax, E-Documents, financial analytics and consolidation. It answers setup and how-to questions for finance work.
+summary: Finance in Business Central covers accounting and bookkeeping, general ledger, dimensions, currencies, receivables, payables, bank reconciliation, VAT, withholding and excise tax, cost accounting, inventory costs, cash flow, period closing, analytics, E-Documents, and consolidation. It answers setup and how-to questions for finance work.
 tier: official
 language: en
 system: finance
 review:
-  state: reviewed
-  by: opus
-  at: "2026-11-03T01:02:13.138Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: a4b5a9c7fed7716862da6d788c1307364ce6fec078f69a404359999cd894113a
+  input_hash: 86907cccdbed9adeff7def39786d048790397dde01ee9c84eb23ea1775b285ed
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-about-calculating-standard-cost
@@ -1438,28 +1438,28 @@ narrative: generated
 
 # Finance
 
-> Finance in Business Central covers general ledger and accounting, period closing, dimensions, currencies, receivables, payables, bank reconciliation, cost accounting, inventory costs, cash flow, VAT, withholding and excise tax, E-Documents, financial analytics and consolidation. It answers setup and how-to questions for finance work.
+> Finance in Business Central covers accounting and bookkeeping, general ledger, dimensions, currencies, receivables, payables, bank reconciliation, VAT, withholding and excise tax, cost accounting, inventory costs, cash flow, period closing, analytics, E-Documents, and consolidation. It answers setup and how-to questions for finance work.
 
-Path: [Business functionality](../business-functionality.md) > Finance · tier official · system finance · narrative reviewed (checked by Opus)
+Path: [Business functionality](../business-functionality.md) > Finance · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Finance section groups everything an accountant needs in Business Central. Its own pages give overviews: the financial management summary, the accounting and bookkeeping guide (chart of accounts, posting groups, payment terms and methods, payment tolerance), and the Accountant Role Center with external accountant invitations and the Company Hub. Other pages cover withholding tax for vendors and employees, viewing withholding tax entries, and excise tax registration.
+Finance groups the pages for running accounting in Business Central. The hub's own pages give overviews: financial management, accounting and bookkeeping, and the Accountant role center, which includes external accountant invitations and the Company Hub for several companies. They also cover withholding tax for vendors and employees, viewing withholding tax entries, and excise tax registration.
 
-Subtopics go deeper by area. Core ledger work is in the chart of accounts and G/L, dimensions, currencies, and closing years and periods. Transaction flows are in receivables, payables, prepayments and bank reconciliation. Cost topics are cost accounting and inventory costs. Tax, cash flow, E-Documents, financial analytics and multi-site consolidation complete the section.
+Subtopics go deeper by task. Core ledger work is in the chart of accounts and G/L, dimensions, and currencies. Transaction flows are in receivables, payables, prepayment invoicing, bank reconciliation, and cash flow. Cost topics are cost accounting and inventory costs. Compliance and period-end work are in VAT, closing years and periods, and E-Documents. Financial analytics and multi-site consolidation cover reporting.
 
-Start with Financial management or Accounting and bookkeeping for the overall picture. Then go to the subtopic matching your task. Financial analytics is the largest, at 129 pages.
+Start with Financial management or Accounting and bookkeeping for the overall picture. Then go to the subtopic that matches your task, such as the chart of accounts for setup or Closing years and periods for year-end.
 
 ## Key points
 
-- Accountant Role Center gives access to financial pages and reports; external accountants can be invited, and the Company Hub manages work across several companies.
-- Accounting and bookkeeping covers chart of accounts, posting groups, payment methods and terms, and payment tolerance.
-- Withholding tax is calculated on vendor purchase invoices and orders from posting group setup and a minimum threshold; employee withholding tax supports Gross or Net base and period-based thresholds.
-- Withholding Tax Entries page shows base amount, tax amount, posting groups and party type for vendors and employees.
-- Excise tax registration tracks tax for goods like fuel, alcohol and tobacco without creating G/L entries.
-- Subtopics cover closing years and periods, dimensions, currencies, receivables, payables, prepayments, and bank reconciliation including Copilot assist.
-- Cost accounting, inventory cost management, cash flow forecasting and VAT each have their own subtopic.
-- Financial analytics (Power BI finance app, Financial Reporting, Data Analysis, consolidation) and E-Documents with Peppol formats are separate subtopics.
+- Accountant role center gives access to financial pages and reports, and supports inviting external accountants and managing multiple companies through the Company Hub.
+- Withholding tax for vendors is calculated on purchase invoices and orders from vendor, item, and G/L account setup, once minimum thresholds are met.
+- Employee withholding tax is set up with posting groups, a Gross or Net calculation base, and period-based thresholds. Entries for vendors and employees are viewed on the Withholding Tax Entries page.
+- Excise tax registration tracks tax for goods like fuel, alcohol, and tobacco without creating general ledger entries.
+- Closing years and periods covers pre-closing checks, the Close Income Statement batch job, and the year-end closing entry.
+- Financial analytics is the largest subtopic (129 pages): Power BI finance app, Financial Reporting, Data Analysis, and consolidation.
+- Receivables, payables, and bank reconciliation cover payment application, tolerances, blocking, collections, and Copilot-assisted matching.
+- Cost accounting and inventory cost management are separate subtopics: cost types, centers, and objects versus costing methods, cost adjustment, and revaluation.
 
 ## Subtopics
 

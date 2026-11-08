@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:24.317Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -225,7 +225,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [GP Assessment Tool - Optimize Your Migration to Dynamics 365 Business Central (2024)](../../../../videos/2430rfEywuI.md) (video): "GP Assessment Tool; migration planning; gp to business central"
+- [GP Assessment Tool - Optimize Your Migration to Dynamics 365 Business Central (2024)](../../../../videos/2430rfEywuI.md) (video): "migration planning; cloud migration; gp to business central; assessment report"
 - [Dynamics GP Cloud Migration - Moving to Business Central](../../../../videos/Ry9QvV6D7lg.md) (video): "Dynamics GP Cloud Migration - Moving to Business Central"
 
 ## Business Central pages and reports

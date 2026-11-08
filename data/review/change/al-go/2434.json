@@ -1,0 +1,23 @@
+{
+  "item_id": "change/al-go-prs/2434",
+  "input_hash": "62a6c1c85cbb009af24af2751b1f80a0a9dd0fa24d660f5a67c52a955610b6ff",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-08T00:59:03.780Z",
+  "issues": [
+    "Summary says exponential backoff; the PR specifies three attempts with fixed 5 then 10 second waits.",
+    "behavior_change should be true: failed lookup requests are now retried with waits before failing."
+  ],
+  "applied": [
+    "summary rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024422,
+    "changes_in_call": 6
+  }
+}

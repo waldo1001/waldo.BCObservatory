@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -212,6 +212,7 @@ links:
     - video/Vq9Nk6_uxmQ
     - video/WFAZLsUTk20
     - video/WjF_sESaIPo
+    - video/xqwJTCPD9tA
   posts:
     - post/aardvarklabs-blog/3348
     - post/bertverbeek-nl/1219
@@ -244,7 +245,7 @@ children:
 coverage:
   learn: 23
   code: 0
-  video: 9
+  video: 10
   blog: 8
   guideline: 0
 bc_forms: []
@@ -333,5 +334,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central Under the Hood episode 14: Building Agents in Business Central](../../../videos/Vq9Nk6_uxmQ.md) (video): "Building Agents in Business Central; custom agents; agent instructions; permissions"
 - [What's New: Business Central Agent Instruction History](../../../videos/WFAZLsUTk20.md) (video): "Agent Instruction History Autosave; Download Instructions; View Instruction History"
 - [Interfrucht GmbH](../../../videos/WjF_sESaIPo.md) (video): "Manifest Agent for Business Central; Automated purchase order creation"
+- [Designing Modern Integrations in Business Central](../../../videos/xqwJTCPD9tA.md) (video): "AI agents for integration design; Spec-driven development for integrations; Information flow visualization"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -4,7 +4,7 @@
   "title": "Retry artifact and CI/CD lookup requests",
   "repo": "microsoft/AL-Go",
   "systems_joined": [],
-  "summary": "AL-Go now retries transient artifact and CI/CD lookup requests up to three times with exponential backoff before failing, reducing transient failures in release and baseline discovery workflows.",
+  "summary": "AL-Go now retries failed artifact listing, workflow-run and build-job lookup requests, making three attempts with 5 and 10 second waits, to reduce transient failures during release and CI/CD baseline discovery. Exhausted failures still propagate.",
   "key_points": [
     "Artifact listing requests in DetermineArtifactsForRelease and GetArtifacts now retry up to 3 times",
     "Workflow metadata, artifact listings, and CI/CD baseline discovery requests include retry logic",
@@ -13,7 +13,7 @@
     "Existing tests updated to expect three requests and two waits"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

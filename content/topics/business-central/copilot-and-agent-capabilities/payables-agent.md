@@ -2,21 +2,21 @@
 id: topic/business-central/copilot-and-agent-capabilities/payables-agent
 type: topic
 title: Payables Agent
-summary: Payables Agent in Business Central automates vendor invoice processing from email PDFs into draft purchase invoices. The section covers what the agent does, how to set it up, how to manage known senders, how to supervise its work, and common questions.
+summary: Payables Agent is an autonomous AI agent in Business Central that processes vendor invoices and credit notes from email. This section answers questions about what it does, how to set it up, how to manage known senders, and how supervisors review its work.
 tier: official
 language: en
 system: purchasing
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:24:32.692Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0563794f7bc7c57561be042299f93f6875e7bf90f8a83cc7e4b8fab01bf61271
+  input_hash: 1c32f1badb0c9fdbaf60ba8179632a54cf0bd98031642c2989e2a25c67771d44
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-agent-known-senders
@@ -108,28 +108,28 @@ narrative: generated
 
 # Payables Agent
 
-> Payables Agent in Business Central automates vendor invoice processing from email PDFs into draft purchase invoices. The section covers what the agent does, how to set it up, how to manage known senders, how to supervise its work, and common questions.
+> Payables Agent is an autonomous AI agent in Business Central that processes vendor invoices and credit notes from email. This section answers questions about what it does, how to set it up, how to manage known senders, and how supervisors review its work.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Payables Agent · tier official · system purchasing · narrative reviewed (checked by Opus)
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Payables Agent · tier official · system purchasing · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Payables Agent is an autonomous agent that monitors an email inbox for PDF invoices, extracts the data with Azure Document Intelligence, identifies the vendor (or creates one), classifies accounts, proposes matches to purchase order lines, and creates draft purchase invoices. A supervisor then reviews the drafts, so human oversight stays in place.
+The Payables Agent monitors a mailbox for vendor invoices and credit notes, usually sent as PDFs. It extracts the document data, identifies or creates vendors, suggests account classifications, matches purchase orders, and creates draft purchase invoices or credit memos. It does not post. An agent supervisor reviews the drafts before they are finalized.
 
-The pages follow the life cycle of the agent. The overview and the FAQ explain the workflow and capabilities. The setup page walks through the assisted setup guide: email account and monitoring, draft creation, permissions, user access and activation. The known senders page covers per-sender review policies after setup. The supervision page explains how to review and approve the agent's work.
+Start with the overview page and the FAQ to understand what the agent does. Then use the setup page to configure mailbox monitoring, mailbox folders, email review policies, user access, trial mode, and Copilot credit consumption. The known senders page covers how to control which vendors' emails are processed.
 
-Start with the overview to understand the workflow, then follow the setup page. Use the known senders and supervision pages for day-to-day operation.
+For daily use, the supervision page explains how to review agent work from the Tasks pane or directly on document pages. It covers Business Central agents in general, including the Payables Agent and the Sales Order Agent.
 
 ## Key points
 
-- The agent monitors email, extracts PDF invoice data with Azure Document Intelligence, identifies vendors, matches purchase order lines and creates invoice drafts.
-- Setup runs through an assisted setup guide covering email account monitoring, purchase document draft creation, permissions, user access and activation.
-- Trial mode allows 50 free invoices; Copilot credit consumption can be tracked.
-- Known senders can have a review policy per sender: Ask, Approve or Reject, controlling which invoices are processed automatically, reviewed or rejected.
-- Vendors can be created by the agent when none is identified.
-- Supervisors review work in the Tasks pane or directly on document pages, using the data review bar.
-- During review a supervisor can confirm and approve, give instructions to the agent, or stop the task.
-- Supervision applies to Business Central agents such as Payables Agent and Sales Order Agent.
+- The agent monitors email for vendor invoices and credit notes and extracts data from PDF documents.
+- It identifies and matches vendors, can create vendors, suggests account classifications, and matches purchase orders.
+- It creates draft purchase invoices and credit memos and does not post them. A supervisor reviews and approves them.
+- Setup covers email account monitoring, mailbox folders, email review policies, user access, and a trial mode.
+- Setup also covers managing Copilot credit consumption.
+- The known senders list lets you approve trusted vendors automatically, request review for other senders, or reject unwanted ones.
+- Senders can be added manually, and a policy can be assigned to each sender.
+- Supervisors use the Tasks pane or the data review bar on document pages to confirm and approve, give instructions, or stop a task.
 
 ## Learn pages
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:45.872Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,8 +66,7 @@ links:
     - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise
   localizations: []
   videos: []
-  posts:
-    - post/demiliani-com/13676
+  posts: []
   guidelines: []
 learn_toc_path:
   - Administration
@@ -81,7 +80,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 08adf00c4cd019fa8d5fff8514c6681f2de215ea78b4744e6e5d7a0a4370e9ae
@@ -157,11 +156,5 @@ Start with the overview page to understand the components, then follow Run Cloud
   - Step: Select companies to migrate or choose all companies.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Business Central Cloud Migration: be careful on reusing the same self-hosted runtime.](../../../../../posts/demiliani-com/13676.md) (community post): "Cloud migration requires self-hosted integration runtime for SQL Server databases"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

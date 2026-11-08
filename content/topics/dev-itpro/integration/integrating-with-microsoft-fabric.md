@@ -2,20 +2,21 @@
 id: topic/dev-itpro/integration/integrating-with-microsoft-fabric
 type: topic
 title: Integrating with Microsoft Fabric
-summary: "Learn section Integration > Integrating with Microsoft Fabric: 7 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Integrating Business Central with Microsoft Fabric: data extraction options, mirroring Business Central online data into Fabric OneLake, administrator setup and monitoring, and connecting Copilot Studio agents. It answers questions about choosing an extraction method, configuring and troubleshooting mirroring, and agent access."
 tier: official
 language: en
 system: integration
 review:
-  state: derived
+  state: unreviewed
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 42cc0d988f0156676d6a3cfcee8d9329385994d3755fd37b882900698b93107d
+  prompts:
+    hub-topic: 1
+  input_hash: 48173ba3fcb1705bcebcc761fe5047b9e9f917d66527c85dfc5d35040bc0d418
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extract-data
@@ -89,7 +90,12 @@ links:
     - topic/dev-itpro/integration/integrating-with-microsoft-fabric/integrating-with-microsoft-copilot-studi
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/bertverbeek-nl/1209
+    - post/bertverbeek-nl/1318
+    - post/bertverbeek-nl/1342
+    - post/bertverbeek-nl/1353
+    - post/thinkaboutit-be/8229
   guidelines: []
 learn_toc_path:
   - Integration
@@ -103,7 +109,7 @@ coverage:
   learn: 7
   code: 11
   video: 0
-  blog: 0
+  blog: 5
   guideline: 0
 bc_forms:
   - 8350
@@ -118,14 +124,35 @@ bc_forms:
   - 48515
   - 48519
 member_hash: 42cc0d988f0156676d6a3cfcee8d9329385994d3755fd37b882900698b93107d
-narrative: none
+narrative: generated
 ---
 
 # Integrating with Microsoft Fabric
 
-> Learn section Integration > Integrating with Microsoft Fabric: 7 Microsoft Learn pages in 2 subtopics. Index of what Learn documents here, linked to Learn.
+> Integrating Business Central with Microsoft Fabric: data extraction options, mirroring Business Central online data into Fabric OneLake, administrator setup and monitoring, and connecting Copilot Studio agents. It answers questions about choosing an extraction method, configuring and troubleshooting mirroring, and agent access.
 
-Path: [Integration](../integration.md) > Integrating with Microsoft Fabric · tier official · system integration · no narrative yet
+Path: [Integration](../integration.md) > Integrating with Microsoft Fabric · tier official · system integration · narrative **unreviewed** (model text not yet checked)
+
+## Overview
+
+This section covers how to move Business Central data into analytics platforms and how to connect it to Copilot Studio. It starts with an overview of extraction methods, including ETL, API-based delta extraction with read scale-out, Azure Data Factory, Power BI dataflows, and BACPAC export, so you can compare approaches.
+
+The main managed option is data mirroring to Microsoft Fabric. It replicates an initial snapshot and then ongoing changes from Business Central online into OneLake, without repeatedly reading from APIs. The Administrator subtopic covers the practical work: initial setup, choosing which companies and tables synchronize, and monitoring and troubleshooting runs.
+
+A separate subtopic covers Microsoft Copilot Studio integration: configuring the Business Central MCP Server and building agents that connect through the connector or MCP server.
+
+Start with the data extraction methods page to decide on an approach. If you pick mirroring, read the mirroring page and then the Administrator pages.
+
+## Key points
+
+- Extraction methods page compares ETL, API-based delta extraction with read scale-out, Azure Data Factory, Power BI dataflows, and BACPAC export.
+- Delta extraction can filter on systemModifiedAt.
+- Mirroring replicates Business Central online data into Microsoft Fabric OneLake.
+- Mirroring supports multiple companies and up to 1,000 selected tables.
+- It does an initial snapshot, then incremental synchronization, stored in Delta Parquet format.
+- A configuration package with standard tables is available.
+- Administrator pages cover setup, managing companies and tables, and monitoring and troubleshooting.
+- Copilot Studio integration covers the Business Central MCP Server and agents using the connector or MCP server.
 
 ## Subtopics
 
@@ -144,6 +171,16 @@ Path: [Integration](../integration.md) > Integrating with Microsoft Fabric · ti
   - Setup and synchronization operations run asynchronously. Business Central records overview and details for each run.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Migrate bc2adls from PTE to appsource extension](../../../posts/bertverbeek-nl/1209.md) (community post): "bc2adls extension for exporting Business Central data to Azure Data Lake Storage"
+- [Native connection with Fabric in Business Central](../../../posts/bertverbeek-nl/1318.md) (community post): "Business Central introduces native integration with Microsoft Fabric for data synchronization"
+- [Business Central to Microsoft Fabric is a mirror. But what if you want to know what actually changed?](../../../posts/bertverbeek-nl/1342.md) (community post): "Business Central data mirrored to Microsoft Fabric appears as static copies by default"
+- [Credentials setup on Microsoft Fabric Mirroring in Business Central](../../../posts/bertverbeek-nl/1353.md) (community post): "Setting up credentials for Microsoft Fabric Mirroring in Business Central 29.1"
+- [Business Central Data Mirroring to Microsoft Fabric Is Coming](../../../posts/thinkaboutit-be/8229.md) (community post): "Business Central 2026 release wave 2 introduces data mirroring to Microsoft Fabric"
 
 ## Business Central pages and reports
 

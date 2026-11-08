@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-07T00:52:53.800Z"
+  at: "2026-11-08T00:48:32.366Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f5b5ec37375cc5394700d8f5fd793a9e751668d66605e112ad3cf868d3fee37f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/W1/EmailLogging/app/src/entitlements/Microsoft365EmailLogging.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/7178ca2892e28bbe28fb5d764d4d00dd2e762b35/src/Apps/W1/EmailLogging/app/src/entitlements/Microsoft365EmailLogging.Entitlement.al
     title: src/Apps/W1/EmailLogging/app/src/entitlements/Microsoft365EmailLogging.Entitlement.al (releases/29.x)
     date: null
-    commit: 2f228f96c8a299e26ab425fe4d5fc937ebe8d385
+    commit: 7178ca2892e28bbe28fb5d764d4d00dd2e762b35
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Microsoft 365 - Email Logging" in EmailLogging (Microsoft.CRM.EmailLoggin). Introduced in BC29, still in BC30.
 
-EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at 2f228f96](https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/W1/EmailLogging/app/src/entitlements/Microsoft365EmailLogging.Entitlement.al) · facts from BC29
+EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at 7178ca28](https://github.com/microsoft/BCApps/blob/7178ca2892e28bbe28fb5d764d4d00dd2e762b35/src/Apps/W1/EmailLogging/app/src/entitlements/Microsoft365EmailLogging.Entitlement.al) · facts from BC29
 
 ## Across versions
 

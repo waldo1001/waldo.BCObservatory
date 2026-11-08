@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-07T00:52:53.800Z"
+  at: "2026-11-08T00:48:32.366Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 485ee40202ad158c3a6fb26243205d6449491260a88b86c23320169baa4b032b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/US/IRSForms/app/src/Interface/IRS1099FormBoxCalc.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/7178ca2892e28bbe28fb5d764d4d00dd2e762b35/src/Apps/US/IRSForms/app/src/Interface/IRS1099FormBoxCalc.Interface.al
     title: src/Apps/US/IRSForms/app/src/Interface/IRS1099FormBoxCalc.Interface.al (releases/29.x)
     date: null
-    commit: 2f228f96c8a299e26ab425fe4d5fc937ebe8d385
+    commit: 7178ca2892e28bbe28fb5d764d4d00dd2e762b35
     t: null
     quote: null
 links:
@@ -74,7 +74,7 @@ relations:
 
 > Interface "IRS 1099 Form Box Calc." (US) in the US country layer (Microsoft.Finance.VAT.Reporting). 1 public procedures. Introduced in BC29, still in BC30.
 
-US country layer · Microsoft.Finance.VAT.Reporting · BC29-30 · [source at 2f228f96](https://github.com/microsoft/BCApps/blob/2f228f96c8a299e26ab425fe4d5fc937ebe8d385/src/Apps/US/IRSForms/app/src/Interface/IRS1099FormBoxCalc.Interface.al) · facts from BC29
+US country layer · Microsoft.Finance.VAT.Reporting · BC29-30 · [source at 7178ca28](https://github.com/microsoft/BCApps/blob/7178ca2892e28bbe28fb5d764d4d00dd2e762b35/src/Apps/US/IRSForms/app/src/Interface/IRS1099FormBoxCalc.Interface.al) · facts from BC29
 
 An object of the [US localization](../../localizations/us.md), not part of W1.
 

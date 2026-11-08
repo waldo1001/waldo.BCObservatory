@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:18.682Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -315,7 +315,9 @@ links:
     - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl
   localizations: []
   videos:
+    - video/01GoAUnpBnw
     - video/6bX7Ab4KYMA
+    - video/Gwgpj1U1wxI
     - video/lCXrKdxneKo
     - video/O921cRqXdiw
   posts: []
@@ -333,7 +335,7 @@ children:
 coverage:
   learn: 47
   code: 1
-  video: 3
+  video: 5
   blog: 0
   guideline: 0
 bc_forms:
@@ -418,9 +420,11 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [What's New: Cloud Migration Tooling (2026 release wave 1)](../../../videos/6bX7Ab4KYMA.md) (video): "cloud migration; custom migration tool; migration platform; sql sources"
-- [Introduction to Business Central Cloud Migration Tooling (2022)](../../../videos/lCXrKdxneKo.md) (video): "Cloud Migration Tooling; One-Step Upgrade to Version 21; Direct Cloud Migration"
-- [What's New: Cloud Migration and Upgrade (2023)](../../../videos/O921cRqXdiw.md) (video): "Cloud migration; data replication; Azure Data Factory; cloud migration"
+- [What's New: Migrate Record Links and Notes (2025 release wave 2)](../../../videos/01GoAUnpBnw.md) (video): "cloud migration; record links; notes migration; data replication"
+- [What's New: Cloud Migration Tooling (2026 release wave 1)](../../../videos/6bX7Ab4KYMA.md) (video): "Cloud migration; custom migration tool; migration platform; table mappings"
+- [Introduction to Business Central Cloud Migration (2023)](../../../videos/Gwgpj1U1wxI.md) (video): "Cloud Migration Tooling; Azure Data Factory Pipeline; Integration Runtime; Data Replication"
+- [Introduction to Business Central Cloud Migration Tooling (2022)](../../../videos/lCXrKdxneKo.md) (video): "Cloud Migration Tooling; One-Step Upgrade; Direct Cloud Migration"
+- [What's New: Cloud Migration and Upgrade (2023)](../../../videos/O921cRqXdiw.md) (video): "Cloud migration and upgrade; data replication; performance optimization"
 
 ## Business Central pages and reports
 

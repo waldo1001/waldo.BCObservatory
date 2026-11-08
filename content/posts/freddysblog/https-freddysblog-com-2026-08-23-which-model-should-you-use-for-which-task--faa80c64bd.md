@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:47:06.962Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -85,7 +85,7 @@ preview:
   image_h: null
   site_name: Freddys blog
   favicon: https://freddysblog.com/assets/images/site/favicon.png
-  probed_at: "2026-10-07T11:50:11.629Z"
+  probed_at: "2026-11-08T00:52:47.613Z"
 ---
 
 # Which AI Model Should You Use for Which Task?

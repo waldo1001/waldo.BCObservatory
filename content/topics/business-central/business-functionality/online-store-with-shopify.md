@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:31.349Z"
   flags: []
 generated:
-  at: "2026-10-29T21:38:16.952Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -199,11 +199,8 @@ links:
     - topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector
   localizations: []
   videos:
-    - video/NMO822Jf_4E
-    - video/p-pwG6f5srY
-    - video/StIVhsnOHWY
-    - video/VjYMhjjc3uw
-    - video/YSDfDjrMUb0
+    - video/B-pxLlb-UN0
+    - video/BwBR8JwwQa4
   posts: []
   guidelines: []
   changes:
@@ -231,7 +228,7 @@ children:
 coverage:
   learn: 16
   code: 46
-  video: 5
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -355,11 +352,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9537 [Shopify] Store tax lines linked to order shipping charges](../../../changes/bcapps/9537.md) (code change): "Shopify order imports now persist tax lines linked to shipping charges"
 - [#9581 [Shopify] Add Unlisted to Status for Created Products and update status tooltip](../../../changes/bcapps/9581.md) (code change): "Shopify Status for Created Products option on the Shop Card"
 - [#9959 [Shopify] Add catalog filters to Sync Catalog Prices report](../../../changes/bcapps/9959.md) (code change): "The Sync Catalog Prices report now supports filtering by individual catalogs"
-- [What's New: Processing of Presentment Currencies in Shopify (2026 release wave 1)](../../../videos/NMO822Jf_4E.md) (video): "Processing of Presentment Currencies in Shopify; multi-currency; price synchronization"
-- [What's New: Shopify Connector (2024 release wave 2)](../../../videos/p-pwG6f5srY.md) (video): "Shopify connector; custom fields; meta fields; product synchronization"
-- [What's New in Shopify Connector: Troubleshoot Synchronization (2025 release wave 2)](../../../videos/StIVhsnOHWY.md) (video): "Shopify connector; troubleshooting; synchronization; job queue"
-- [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 2)](../../../videos/VjYMhjjc3uw.md) (video): "Shopify connector; B2B companies; company locations; customer mapping"
-- [What's new in Shopify Connector: Overview (2026 release wave 2)](../../../videos/YSDfDjrMUb0.md) (video): "Shopify connector; product synchronization; tariff codes; b2b"
+- [What's New: Shopify Connector - Overview (2026 release wave 1)](../../../videos/B-pxLlb-UN0.md) (video): "Shopify connector; product information management; item variants; presentment currency; price synchronization"
+- [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)](../../../videos/BwBR8JwwQa4.md) (video): "shopify connector; b2b; company locations; tax id mapping; payment terms"
 
 ## Business Central pages and reports
 

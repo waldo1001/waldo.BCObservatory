@@ -1,23 +1,25 @@
 {
   "week": "2026-W45",
-  "input_hash": "0e5cfc3bfc97b5da89d22abc8bfe7fb4bcf5fa63a9fd302fd96c8e0f07900a80",
-  "text": "The one breaking change this week is #13172 in BCApps: Agent Task gains public GetTaskLogEntryDetails overloads, the record-based GetLogEntryDetails method is removed, and AI Eval run data can be exported in structured form. Other behaviour changes cluster in a few areas. Expense Agent got #13721, which creates per diem lines on approval, plus #13569, #13504, #13182 and #13184, while #12985, #13185, #13460 and #12910 fix submission, rounding, filter and email validation problems. Sales Order Agent and AI features moved to GPT-5.6 in #13495 and #13506. Posting and finance fixes include #13547 and #13417 for return orders and sales order quantities, #13396 for partial purchase invoicing, #13459 and #13488 for additional reporting currency, #13397 for Indian depreciation, and #13642 for work descriptions on prepayments. #11256 adds setup options for restoring order quantities on returns, both on by default. Quality Management received validation fixes in #13428, #13429 and #13427. Localization fixes cover French payment slips (#11596, #13472), Belgian Intervat (#13481, #13484) and Swiss SEPA exports (#13273, #13301). In AL-Go, #2440 and #2433 fix release artifact selection and versioning strategy 3. #13725 reduces repeated reads in inventory cost adjustment, and #13065 and #9527 open E-Document objects to extension.",
-  "changes": 71,
+  "input_hash": "5c00edc76b20e4271f00af2ad3e0ac9126b2319e6b067dfd62fea2cf927d0c33",
+  "text": "The one breaking change this week is #13172 in BCApps: Agent Task gains public GetTaskLogEntryDetails overloads, the old record-based GetLogEntryDetails public method is removed, and AI Eval run data can be exported in structured form. Other behaviour changes cluster around agents. The Expense Agent gets per diem lines on approval (#13721), interim approvers via API (#13690) and a fix for stuck reports with non-refundable lines (#12985). The Sales Order Agent moves auxiliary calls to GPT-5.6 (#13495), and #13506 does the same for Marketing Text, Sales Lines Suggestions and Item Substitution. Posting and finance fixes include sales order quantities after return orders (#13417, #13547), Close Income Statement ACY differences (#13459), cross-group applying (#13488) and a reorder quantity check (#13439). Report 1002 stops using marks in #13442. Regional fixes cover Belgium (#13481, #13484), Switzerland (#13273, #13301), France (#11596, #13472), the Netherlands (#13630) and India depreciation (#13397). Quality Management received several validation fixes, including #13428 and #13429. In AL-Go, #2433, #2434, #2440 and #2441 fix release and versioning behaviour, and #2427 adds an opt-in skip for draft PR builds. #13725 reduces repeated reads in Inventory Adjustment, and #13065 makes the E-Document Purchase Draft page extensible. BCQuality changes are mostly guidance and fixtures.",
+  "changes": 80,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.073548,
-  "at": "2026-11-07T00:15:21.625Z",
+  "cost_usd": 0.08227000000000001,
+  "at": "2026-11-08T00:19:04.246Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-07T01:04:23.989Z",
+    "at": "2026-11-08T00:59:39.737Z",
     "verdict": "approve",
     "issues": [
-      "#13427 asks for confirmation before finishing a re-inspection rather than adding validation, so 'validation fixes' fits #13428 and #13429 better than #13427.",
-      "#13725, #13065 and #9527 are not flagged as behaviour changes. They come after the sentence 'Other behaviour changes cluster in a few areas', so a reader could take them for behaviour changes. They are described correctly, though.",
-      "#13182 and #13184 are the same 'View rules' link change on two branches (Master and 29.x). The paragraph lists them without saying what they do, which is acceptable but less informative."
+      "Small: 'Other behaviour changes cluster around agents' overstates things. Agents are one group, but most of the 70-plus flagged behaviour changes have nothing to do with agents (finance, manufacturing, Quality Management, regional fixes, AL-Go, BCQuality).",
+      "Small: #13439 (rejecting negative Reorder Quantity and clearer error messages when Fixed Reorder Qty. planning fails) is a planning fix, so it doesn't really belong under 'posting and finance fixes'.",
+      "Small: #13442 also adds automatic clean-up of stale rows and a new page and report for value entries to post to G/L. The paragraph only says it stops using marks.",
+      "Small: 'cross-group applying (#13488)' is very short. The fix is about wrong additional currency (ACY) amounts on the G/L entries that move amounts between receivables accounts when entries are applied across posting groups.",
+      "Small: #13725, #13065 and #2427 are not flagged as behaviour changes. The text doesn't call them behaviour changes, so this is fine, but #2427 sits in a sentence alongside AL-Go behaviour fixes."
     ],
-    "input_hash": "0e5cfc3bfc97b5da89d22abc8bfe7fb4bcf5fa63a9fd302fd96c8e0f07900a80",
-    "cost_usd": 0.175888,
+    "input_hash": "5c00edc76b20e4271f00af2ad3e0ac9126b2319e6b067dfd62fea2cf927d0c33",
+    "cost_usd": 0.193596,
     "applied": [],
     "rejected_edits": []
   }

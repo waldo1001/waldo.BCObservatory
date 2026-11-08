@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:10:16.959Z"
   flags: []
 generated:
-  at: "2026-10-26T06:21:45.768Z"
+  at: "2026-11-08T00:54:33.212Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -138,13 +138,13 @@ links:
       label: possibly related
       why: both name Page 16 "Chart of Accounts"
       by: code
+    - to: video/cwCZUHgDb9Q
+      title: Tips and Tricks for Better Pasting with Magic Page for Business Central
+      label: possibly related
+      why: both name Page 39 "General Journal"
+      by: code
     - to: video/q0TxpWfm9rc
       title: "What's New: Enhancements to Copilot Summaries (2025 release wave 2)"
-      label: possibly related
-      why: both name Page 16 "Chart of Accounts"
-      by: code
-    - to: video/u1oO9MEg9kc
-      title: "What's New: Financial Management - G/L Account Revaluations (2024 release wave 1)"
       label: possibly related
       why: both name Page 16 "Chart of Accounts"
       by: code
@@ -329,7 +329,7 @@ No source states these links: they share an object, a model read them, or a pers
 - [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../posts/thedynamicsexplorer-com/8821.md) — possibly related: both name Page 16 "Chart of Accounts"
 - [Dynamics GP to Business Central – What does my migrated GP Historical Data look like in Business Central](../posts/thedynamicsexplorer-com/36822.md) — possibly related: both name Page 16 "Chart of Accounts"
 - [Historical Snapshot (2024)](../videos/mZNfMPpxovE.md) — possibly related: both name Page 16 "Chart of Accounts"
+- [Tips and Tricks for Better Pasting with Magic Page for Business Central](../videos/cwCZUHgDb9Q.md) — possibly related: both name Page 39 "General Journal"
 - [What's New: Enhancements to Copilot Summaries (2025 release wave 2)](../videos/q0TxpWfm9rc.md) — possibly related: both name Page 16 "Chart of Accounts"
-- [What's New: Financial Management - G/L Account Revaluations (2024 release wave 1)](../videos/u1oO9MEg9kc.md) — possibly related: both name Page 16 "Chart of Accounts"
 
 Presenters (as heard): Brian Neilson.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:54.276Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -50,7 +50,8 @@ links:
   topics:
     - topic/business-central/integrate-with-other-applications/microsoft-power-platform
   localizations: []
-  videos: []
+  videos:
+    - video/EVntnDFE1R4
   posts: []
   guidelines: []
 learn_toc_path:
@@ -63,7 +64,7 @@ children: []
 coverage:
   learn: 3
   code: 1
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -102,6 +103,12 @@ Start with the overview to understand the flow types, then read the usage page b
 - [Troubleshoot your automated workflows](https://learn.microsoft.com/dynamics365/business-central/across-flow-troubleshoot): Learn how to troubleshoot the connection between Business Central and Power Automate when you build an automated workflow.
   - In the observatory: [Page 6403 "Sales Document Line Entity"](../../../../objects/page/6403.md), [Page 6405 "Purchase Document Line Entity"](../../../../objects/page/6405.md), [Page 810 "Web Services"](../../../../objects/page/810.md)
 - [Use Power Automate flows in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-flow): Use Power Automate flows to create, edit, and manage business processes. Boost productivity with easy automation.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Business Central Integration with Power Platform (2023 release wave 2)](../../../../videos/EVntnDFE1R4.md) (video): "Approval Workflow Templates in Power Automate; Automated Flow Templates Based on Business Events"
 
 ## Business Central pages and reports
 

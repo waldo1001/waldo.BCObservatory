@@ -2,7 +2,7 @@
 id: source/bcapps-prs
 type: source
 title: microsoft/BCApps pull requests
-summary: "microsoft/BCApps pull requests: 1235 code changes in the knowledge base, 2026-07-07 to 2026-11-06, mostly about development, finance, integration."
+summary: "microsoft/BCApps pull requests: 1242 code changes in the knowledge base, 2026-07-07 to 2026-11-06, mostly about development, finance, integration."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-07T00:15:21.625Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d248c59bd2b18917b071906407efeb5c84d91460f4d6bff45964899a71379e2c
+  input_hash: c45762ca5eb5757f215911f65e56503a8c37334c5fa97bb637b125e10f3535df
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
@@ -1260,9 +1260,15 @@ links:
     - change/bcapps/13642
     - change/bcapps/13427
     - change/bcapps/13692
+    - change/bcapps/13690
     - change/bcapps/13065
+    - change/bcapps/11502
     - change/bcapps/13598
+    - change/bcapps/8577
+    - change/bcapps/9214
+    - change/bcapps/13507
     - change/bcapps/13623
+    - change/bcapps/13442
     - change/bcapps/13397
     - change/bcapps/13428
     - change/bcapps/13429
@@ -1270,36 +1276,37 @@ links:
     - change/bcapps/13725
     - change/bcapps/11256
     - change/bcapps/13721
+    - change/bcapps/13761
 source_id: bcapps-prs
 kind: github-pr
 url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 1235
+item_count: 1242
 footprint:
   systems:
     - id: development
       weight: 625
     - id: finance
-      weight: 502
+      weight: 504
     - id: integration
-      weight: 390
+      weight: 394
+    - id: inventory
+      weight: 218
     - id: sales
       weight: 218
-    - id: inventory
-      weight: 216
     - id: manufacturing
-      weight: 188
+      weight: 190
   topics:
     - id: bc30
-      weight: 1136
+      weight: 1143
     - id: main
-      weight: 1136
+      weight: 1143
     - id: fix
-      weight: 764
+      weight: 767
     - id: feature
-      weight: 351
+      weight: 355
     - id: bc29
       weight: 99
     - id: releases/29.x
@@ -1327,6 +1334,8 @@ footprint:
       weight: 14
     - id: codeunit Create Billing Documents
       weight: 13
+    - id: codeunit Expense Report Approval Mgmt
+      weight: 13
     - id: codeunit Item Jnl.-Post Line
       weight: 13
     - id: page Expense Agent Setup
@@ -1335,8 +1344,6 @@ footprint:
       weight: 13
     - id: table Expense Agent Setup
       weight: 13
-    - id: table Expense Report Line
-      weight: 13
   features: []
 first_item: "2026-07-07"
 last_item: "2026-11-06"
@@ -1344,7 +1351,7 @@ last_item: "2026-11-06"
 
 # microsoft/BCApps pull requests
 
-> microsoft/BCApps pull requests: 1235 code changes in the knowledge base, 2026-07-07 to 2026-11-06, mostly about development, finance, integration.
+> microsoft/BCApps pull requests: 1242 code changes in the knowledge base, 2026-07-07 to 2026-11-06, mostly about development, finance, integration.
 
 [https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -1352,28 +1359,29 @@ last_item: "2026-11-06"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (625) | bc30 (1136) | codeunit Gen. Jnl.-Post Line (33) |
-| finance (502) | main (1136) | table Expense Report Header (19) |
-| integration (390) | fix (764) | page Expense Agent Setup Wizard (18) |
-| sales (218) | feature (351) | permissionset Expense Management - Objects (14) |
-| inventory (216) | bc29 (99) | table Purchase Line (14) |
-| manufacturing (188) | releases/29.x (99) | table Sales Line (14) |
+| development (625) | bc30 (1143) | codeunit Gen. Jnl.-Post Line (33) |
+| finance (504) | main (1143) | table Expense Report Header (19) |
+| integration (394) | fix (767) | page Expense Agent Setup Wizard (18) |
+| inventory (218) | feature (355) | permissionset Expense Management - Objects (14) |
+| sales (218) | bc29 (99) | table Purchase Line (14) |
+| manufacturing (190) | releases/29.x (99) | table Sales Line (14) |
 |  | refactor (52) | codeunit Create Billing Documents (13) |
-|  | performance (35) | codeunit Item Jnl.-Post Line (13) |
-|  | codeunit gen. jnl.-post line (28) | page Expense Agent Setup (13) |
-|  | other (18) | permissionset Expense Agent - Objects (13) |
+|  | performance (35) | codeunit Expense Report Approval Mgmt (13) |
+|  | codeunit gen. jnl.-post line (28) | codeunit Item Jnl.-Post Line (13) |
+|  | other (18) | page Expense Agent Setup (13) |
+|  |  | permissionset Expense Agent - Objects (13) |
 |  |  | table Expense Agent Setup (13) |
-|  |  | table Expense Report Line (13) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 882
-- 2026-Q4: **************************************** 353
+- 2026-Q4: **************************************** 360
 
 ## Most recent
 
+- [#13761 SOA search selection adjustments](../changes/bcapps/13761.md) (2026-11-06)
 - [#13721 [Expense Agent] Create per diem line when approving travel requests with Per Diem Included](../changes/bcapps/13721.md) (2026-11-06)
 - [#11256 [main] Add setup option to restore Sales and Purchase Order quantities when posting returns](../changes/bcapps/11256.md) (2026-11-06)
 - [#13725 Reduce repeated ILE reads and JIT loads in average cost adjustment](../changes/bcapps/13725.md) (2026-11-06)
@@ -1381,18 +1389,17 @@ Items per quarter, oldest first:
 - [#13429 [Quality Management] Receiving setup guide: don't offer the warehouse receipt Create trigger](../changes/bcapps/13429.md) (2026-11-06)
 - [#13428 [Quality Management] Keep Sample Size and Pass/Fail Quantity within Quantity (Base)](../changes/bcapps/13428.md) (2026-11-06)
 - [#13397 [main] Incorrect depreciation calculation for assets used less than 180 days under Income Tax Act rules](../changes/bcapps/13397.md) (2026-11-06)
+- [#13442 [SCM] Post Inventory Cost to G/L: stop using marks, add clean-up for Post Value Entry to G/L](../changes/bcapps/13442.md) (2026-11-06)
 - [#13623 [Dataverse] Fix duplicate sales line numbers with automatic recurring lines](../changes/bcapps/13623.md) (2026-11-06)
+- [#13507 [E-Document] Add AKV switch for PA-related LLM calls](../changes/bcapps/13507.md) (2026-11-06)
+- [#9214 WorkCenter/MachineCenter: add Capacity Shown In to Calendar and Load pages](../changes/bcapps/9214.md) (2026-11-06)
+- [#8577 [Shopify] Fix #7724: Resolve Option 1 Name from existing Shopify Variant records](../changes/bcapps/8577.md) (2026-11-06)
 - [#13598 Fix concurrent initialization of My Notifications](../changes/bcapps/13598.md) (2026-11-06)
+- [#11502 feat: Add new event](../changes/bcapps/11502.md) (2026-11-06)
 - [#13065 Issue#10580:[Extensibility Request] Make Business Central's E-Document object extensible.](../changes/bcapps/13065.md) (2026-11-06)
+- [#13690 [Main] - Bug 657870: [ExpenseAgent] Allow assigning interim approvers via API before expense reports are pending approval](../changes/bcapps/13690.md) (2026-11-06)
 - [#13692 Fix SharePoint REST upload 404 caused by trailing slash in parent folder](../changes/bcapps/13692.md) (2026-11-05)
 - [#13427 [Quality Management] Confirm before finishing on Create Re-inspection](../changes/bcapps/13427.md) (2026-11-05)
 - [#13642 Preserve work descriptions on posted sales prepayment documents](../changes/bcapps/13642.md) (2026-11-05)
-- [#13579 Fix synchronization error event record context](../changes/bcapps/13579.md) (2026-11-05)
-- [#9869 Fix MS Doc for parameter TagCompanyName of method SetSkippedUpgrade(...)](../changes/bcapps/9869.md) (2026-11-05)
-- [#13630 [NL] Fix CBG applies-to ID length handling](../changes/bcapps/13630.md) (2026-11-05)
-- [#13228 [Master]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](../changes/bcapps/13228.md) (2026-11-04)
-- [#13569 Update expense policy defaults, caption, and search terms](../changes/bcapps/13569.md) (2026-11-04)
-- [#13476 [Fabric] Separate workspace read and write scopes](../changes/bcapps/13476.md) (2026-11-04)
-- [#13438 Fix Cloud Migration recovery when Tenant Media is unavailable](../changes/bcapps/13438.md) (2026-11-04)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

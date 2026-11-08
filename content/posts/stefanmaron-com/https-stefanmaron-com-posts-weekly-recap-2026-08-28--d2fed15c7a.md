@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:47:09.390Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -72,7 +72,7 @@ preview:
   image_h: null
   site_name: Stefan Maron
   favicon: https://stefanmaron.com/icons/favicon-32x32.png
-  probed_at: "2026-10-07T11:50:14.745Z"
+  probed_at: "2026-11-08T00:52:45.873Z"
 ---
 
 # Weekly Recap: August 21-28

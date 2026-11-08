@@ -8,11 +8,11 @@
   ],
   "summary": "Work Center and Machine Center Calendar and Load pages now include a Capacity Shown In field to display capacity figures in different units of measure (seconds, minutes, hours, or days), matching the functionality already available on Work Center Group pages.",
   "key_points": [
-    "Added Capacity Shown In field to all eight Calendar and Load pages for Work Center and Machine Center",
-    "Field initializes from Manufacturing Setup and allows users to switch between capacity units of measure",
-    "Calendar matrix pages convert Capacity (Effective) using TimeFactor before display",
-    "Load pages pass the selected unit to their subpages for consistent conversion",
-    "Implementation mirrors existing Work Center Group pages pattern"
+    "Added Capacity Shown In field to the Work Center and Machine Center Calendar and Load pages",
+    "Field initializes from Manufacturing Setup Show Capacity In and lets users switch capacity units",
+    "Calendar matrix Load() gains a capacity unit parameter and converts Capacity (Effective) with TimeFactor",
+    "Load lines SetLines() gains a unit parameter; Capacity, Allocated Qty. and Availability After Orders are converted, Load % unchanged",
+    "Implementation mirrors the existing Work Center Group pages"
   ],
   "change_kind": "feature",
   "behavior_change": true,

@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/13761",
+  "input_hash": "cb16fff52226482a35d4f4bca5da6487df882e14efbdd638e981cda9617aeec8",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-08T00:58:59.369Z",
+  "issues": [
+    "The PR only says the search selection rate was adjusted. The claim that a rate 'calculation' was modified is not supported.",
+    "'To improve search behavior' goes slightly beyond the description.",
+    "Flags and change kind are fine: the PR fixes a work item and changes search behaviour."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025256,
+    "changes_in_call": 6
+  }
+}

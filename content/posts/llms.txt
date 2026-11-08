@@ -3,8 +3,9 @@
 > Business Central blog posts as derived evidence: summary, key points, short verbatim quotes, objects as named, link to the original.
 > Tier community. Frontmatter: schemas/frontmatter.post.json.
 
-1131 posts, newest first.
+1132 posts, newest first.
 
+- [Credentials setup on Microsoft Fabric Mirroring in Business Central](bertverbeek-nl/1353.md): Setting up credentials for Microsoft Fabric Mirroring in Business Central 29.1 requires configuring either Microsoft's first-party app or a custom app registration with appropriate permissions and secrets. (Discover MS BC - Bert Verbeek, 2026-11-07)
 - [Business Central 29: The New IsDirty() Flag — Finally a Smarter Way to Detect Record Changes](aardvarklabs-blog/4100.md): Business Central 29 introduces the IsDirty() method, a built-in flag that detects whether a record has been modified since retrieval. This simplifies validation logic, sync operations, and audit trails by eliminating the need for manual field comparisons or temporary records. (Aardvark Labs, 2026-11-06)
 - [Business Central 2026 release wave 2 (BC29): New notification bar](yzhums-com/77124.md): BC29 (2026 release wave 2) has an undocumented New notification bar feature in Feature Management. It is off by default and available only in sandboxes. When it is turned on, the only visible change is the bar's background color. Microsoft docs say that from version 30.0, page notifications are hidden while the Agent Data Review Bar is shown, and a Show other notifications toggle lets users see them during the review. (Dynamics 365 Lab - Yun Zhu, 2026-11-06)
 - [BC Friday Tips #87 Check for Microsoft Apps on AppSource](thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-87-check-for-microsoft-apps-on-appsource--f7b48b4e88.md): Not all Microsoft applications for Business Central are installed by default. Before requesting customizations, check AppSource for available Microsoft apps that may provide the needed functionality, such as External Storage for document attachments. (That NAV Guy, 2026-11-06)

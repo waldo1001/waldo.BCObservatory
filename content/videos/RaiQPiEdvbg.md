@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:59:02.659Z"
   flags: []
 generated:
-  at: "2026-10-26T06:21:45.768Z"
+  at: "2026-11-08T00:54:33.212Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -101,6 +101,11 @@ links:
       title: Power BI Sustainability app semantic model
       label: possibly related
       why: names Table 6216 "Sustainability Ledger Entry"
+      by: code
+    - to: video/cwCZUHgDb9Q
+      title: Tips and Tricks for Better Pasting with Magic Page for Business Central
+      label: possibly related
+      why: both name Page 39 "General Journal"
       by: code
     - to: video/qPInVj03wkY
       title: "What's New in Sustainability: Reporting CSRD (2025 release wave 2)"
@@ -279,6 +284,7 @@ No source states these links: they share an object, a model read them, or a pers
 - [Dynamics 365 Business Central: How to copy (synchronize) the Incoming Document to all Gen. Journal Lines](../posts/yzhums-com/71645.md) — possibly related: both name Page 39 "General Journal"
 - [Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page](../posts/yzhums-com/56521.md) — possibly related: both name Page 39 "General Journal"
 - [Power BI Sustainability app semantic model](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model) — possibly related: names Table 6216 "Sustainability Ledger Entry"
+- [Tips and Tricks for Better Pasting with Magic Page for Business Central](../videos/cwCZUHgDb9Q.md) — possibly related: both name Page 39 "General Journal"
 - [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../videos/qPInVj03wkY.md) — possibly related: both name Table 6216 "Sustainability Ledger Entry"
 - [What's New: Financial Management - Overview (2024 release wave 1)](../videos/HI7VcPzR2OE.md) — possibly related: both name Page 39 "General Journal"
 - [What's New: Value Chain Automation with Production Orders (2025 release wave 1)](../videos/6d6iajwQQ-c.md) — possibly related: both name Table 6216 "Sustainability Ledger Entry"

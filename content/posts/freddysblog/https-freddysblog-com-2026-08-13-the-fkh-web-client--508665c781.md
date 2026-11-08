@@ -19,7 +19,7 @@ review:
   at: "2026-10-08T01:54:18.053Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -74,7 +74,7 @@ preview:
   image_h: null
   site_name: Freddys blog
   favicon: https://freddysblog.com/assets/images/site/favicon.png
-  probed_at: "2026-10-07T11:50:18.266Z"
+  probed_at: "2026-11-08T00:52:53.196Z"
 ---
 
 # The Fkh Web Client

@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-07T00:19:57.626Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 718db08c817f0a403abc41c7d41675d286848d8b
@@ -39,6 +39,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/234
     - change/bcquality/214
     - change/bcquality/207
     - change/bcquality/157
@@ -246,6 +247,7 @@ Output conforms to the DO output contract. Every finding this skill emits MUST s
 
 ## Changed by
 
+- [#234 knowledge(ui): define per-record page outputs on every control-flow path](../../../../changes/bcquality/234.md), 2026-11-06
 - [#214 UI knowledge: notification recall needs a known Id; open mixed-type documents through Page Management](../../../../changes/bcquality/214.md), 2026-10-06
 - [#207 2 AL/BC UI patterns: client-expression in-list (AL0573) and Role Center AccessByPermission](../../../../changes/bcquality/207.md), 2026-10-02
 - [#157 18 more AL/BC patterns: data-modeling, testing, style, security, error-handling, ui, upgrade, web-services, appsource](../../../../changes/bcquality/157.md), 2026-09-29

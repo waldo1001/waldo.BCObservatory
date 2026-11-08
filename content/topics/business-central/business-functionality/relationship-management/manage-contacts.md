@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:02:52.438Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,8 @@ links:
   topics:
     - topic/business-central/business-functionality/relationship-management
   localizations: []
-  videos: []
+  videos:
+    - video/BwBR8JwwQa4
   posts:
     - post/yzhums-com/67058
     - post/yzhums-com/67162
@@ -98,7 +99,7 @@ children: []
 coverage:
   learn: 6
   code: 2
-  video: 0
+  video: 1
   blog: 3
   guideline: 0
 bc_forms:
@@ -158,6 +159,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: Merge duplicate records (customers, vendors, or contacts)](../../../../posts/yzhums-com/67058.md) (community post): "Merge duplicate records (customers, vendors, or contacts)"
 - [Dynamics 365 Business Central: Search for duplicate contacts (automatic and manual)](../../../../posts/yzhums-com/67162.md) (community post): "Search for duplicate contacts (automatic and manual)"
 - [Business Central 2026 release wave 1 (BC28): Copy contacts from BC to Microsoft 365 (Outlook & Teams)](../../../../posts/yzhums-com/72611.md) (community post): "copy contacts from BC to Microsoft 365 Outlook"
+- [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)](../../../../videos/BwBR8JwwQa4.md) (video): "Shopify B2B company locations import; Tax ID automatic entity mapping; Customer export"
 
 ## Business Central pages and reports
 

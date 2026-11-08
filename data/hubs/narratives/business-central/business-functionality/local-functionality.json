@@ -1,35 +1,38 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality",
-  "input_hash": "9ef033713f0b0edee85f3e40e4796bcd32339644a12fe009e990f50dca7a5d0f",
-  "summary": "Local functionality in Business Central covers country-specific features and regulatory compliance for 20+ countries and regions, plus guidance for partners building localization apps and submitting regulatory alerts. It answers questions about country tax, banking, e-invoicing and reporting setup, and about localization development.",
-  "overview": "This section groups the country and region localizations of Business Central. Each country subtopic describes the features added for local law and practice, such as VAT or GST reporting, banking and payment formats, electronic invoicing, audit exports and core finance reports. Sizes vary a lot: India (87 pages) and Czech Republic (60) are the largest, while Sweden (6) is the smallest.\n\nThree pages sit at the top level. \"Local functionality and localization strategy\" gives the overview of country-specific features and regulatory compliance. \"Development of validated localization apps\" sets out requirements for partners who build localization extensions for Microsoft's pilot program. \"Submit regulatory alerts\" explains how to notify Microsoft through Microsoft Dynamics Lifecycle Services of legislation changes.\n\nTo start, read the strategy page, then open the subtopic for your country. Use the development page if you are a partner building a localization, and the alerts page if a legal change affects compliance.",
+  "input_hash": "7cefeb03a2444cae4bf09e07e718283239349b4ecf57ae961be52093b0c6603e",
+  "summary": "Local functionality in Business Central covers country-specific features and regulatory compliance for more than 20 countries and regions. It also includes partner guidance for building validated localization apps and explains how to submit regulatory alerts. It answers questions on setting up country tax, banking, e-invoicing and reporting.",
+  "overview": "This section describes how Business Central supports local legal, tax and business requirements. A strategy page introduces the country-specific features and regulatory compliance across the supported countries and regions. Each country then has its own subtopic, typically covering tax and VAT, banking and payments, core finance, e-invoicing and general features.\n\nTwo pages are not tied to a single country. One describes requirements and guidelines for partners building Validated Localization apps (regulatory, national standards and language needs) under Microsoft's pilot program. The other explains how to submit regulatory alerts through Microsoft Dynamics Lifecycle Services to notify Microsoft of legislation changes.\n\nStart with the strategy page for the overall picture, then open the subtopic for your country. Larger areas such as India, Czech Republic, Spain and Norway have many pages, while Sweden and Iceland are small.",
   "key_points": [
-    "Covers 22 country or region subtopics, from Australia to the United States.",
-    "Tax and VAT features are common: GST/WHT (Australia, New Zealand), GST/TDS/TCS (India), VAT reporting and SAF-T (Denmark, Norway), ELSTER (Germany), Making Tax Digital (UK), SII and VERI*FACTU (Spain).",
-    "Banking and payment formats are local, for example CODA (Belgium), FIK (Denmark), QR-bills and LSV+ (Switzerland), OCR/KID (Norway), and SEPA in several countries.",
-    "E-invoicing formats include Peppol PINT A-NZ, OIOUBL, EHF, CFDI, Factur-X and UBL 2.1, depending on the country.",
-    "Czech Republic uses Core and Advanced Localization Pack extensions; Iceland's localization is available from version 24.0.",
-    "Partners building localization apps must meet business, functional and technical criteria, including test automation, code coverage, data classification and setup wizards.",
-    "Regulatory alerts are submitted through Microsoft Dynamics Lifecycle Services with a description, law enforcement date and filing deadline."
+    "Covers 22 country and region subtopics, from Australia to the United States.",
+    "Tax and reporting examples: GST/WHT/BAS (Australia), ELSTER and Intrastat (Germany), SII and VERI*FACTU (Spain), Making Tax Digital (UK), GST/TDS/TCS (India).",
+    "E-invoicing formats include Peppol PINT A-NZ, OIOUBL, EHF, CFDI, UBL 2.1 and Factur-X, depending on country.",
+    "Banking and payment features vary by country, e.g. CODA and SEPA (Belgium), FIK (Denmark), QR-bills and LSV+ (Switzerland), OCR/KID (Norway).",
+    "The Czech Republic uses Core and Advanced Localization Pack extensions.",
+    "Iceland's localization is based on the W1 Base App and is available from version 24.0.",
+    "Partners can follow the Validated Localization app guidelines, which cover test automation, code coverage, data classification and setup wizards.",
+    "Regulatory alerts are submitted through Lifecycle Services, with details such as description, law enforcement date and filing deadline."
   ],
   "members_used": 3,
   "subtopics_used": 22,
   "prompt_version": 1,
-  "at": "2026-11-05T00:54:51.248Z",
+  "at": "2026-11-08T01:01:09.488Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.024209
+    "cost_usd": 0.026784000000000002
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-05T00:55:35.921Z",
-    "verdict": "approve",
+    "at": "2026-11-08T01:01:49.908Z",
+    "verdict": "fix",
     "issues": [
-      "Minor: the Spain subtopic summary lists VERI*FACTU under electronic invoices, while the key point groups it with tax and VAT features. This is acceptable because VERI*FACTU is a tax compliance system."
+      "Overview lists Australia (26 pages) among the larger areas. Spain and Norway (42 each), Russia and Switzerland (34 each) and Belgium (33) are larger. Replaced Australia with Spain.",
+      "Overview says the two non-country pages serve 'partners and customers'. The sources describe the validated localization page as being for partners, but they don't say who submits regulatory alerts. Reworded so it no longer claims an audience for that page.",
+      "Summary implies that partners submit regulatory alerts, which the sources don't state. Reworded so partners are linked only to the localization app guidance."
     ],
-    "input_hash": "9ef033713f0b0edee85f3e40e4796bcd32339644a12fe009e990f50dca7a5d0f",
-    "cost_usd": 0.0654258
+    "input_hash": "7cefeb03a2444cae4bf09e07e718283239349b4ecf57ae961be52093b0c6603e",
+    "cost_usd": 0.0705018
   }
 }

@@ -284,14 +284,14 @@
     "change/al-go/2367": {
       "kind": "change",
       "key": "change/al-go/2367",
-      "hash": "d1a5880c63e57023ccb6f4d5b67b93fd2e59e5c864a9980cc84cdb2935084dec",
+      "hash": "a4bf237a6f364f471b956252f2bc8f2457976e64eb5fa49ae4a7dc507c8d34cb",
       "title": "#2367 Enhance NuGet feed selection to support pre-release packages",
       "source": "al-go-prs",
-      "at": "2026-10-16T01:16:09.640Z",
+      "at": "2026-11-08T00:55:45.400Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/get-started/altool",
-          "quote": "AL-Go now supports pre-release NuGet packages by adding"
+          "quote": "AL-Go now supports pre-release NuGet packages by adding an"
         }
       ]
     },
@@ -533,18 +533,14 @@
     "change/bcapps/10010": {
       "kind": "change",
       "key": "change/bcapps/10010",
-      "hash": "a5170df4286cef15a69a47268da6fe21cbc9cd5e9f3445d30ac9af216bcfd4e4",
+      "hash": "41f34b56f19856442a8f9a76d24e99d4fbbb5b71f439bf9a922d93bb1f0c86fb",
       "title": "#10010 Add Report Inbox API pages for automated report retrieval",
       "source": "bcapps-prs",
-      "at": "2026-10-16T01:16:09.640Z",
+      "at": "2026-11-08T00:55:45.400Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "Four new API pages expose Report Inbox data through the automate API group"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
-          "quote": "allowing Power Platform and OData clients to discover and download"
+          "quote": "Four new API pages expose Report Inbox data through the automate"
         }
       ]
     },
@@ -685,10 +681,10 @@
     "change/bcapps/10034": {
       "kind": "change",
       "key": "change/bcapps/10034",
-      "hash": "442b27fd42cdfd1df74ab7238dfe67fc34658733011b3c08d12317f739de9b4f",
+      "hash": "36fde44ac50fa4b11cd797db8d486ceff2d1286aa04a0c9704145aed07eed95a",
       "title": "#10034 [Shopify] Don't block Shops page when user lacks extension permissions",
       "source": "bcapps-prs",
-      "at": "2026-10-16T01:16:09.640Z",
+      "at": "2026-11-08T00:55:45.400Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
@@ -741,14 +737,14 @@
     "change/bcapps/10048": {
       "kind": "change",
       "key": "change/bcapps/10048",
-      "hash": "a72346f11cb1db5c9f0f0e81818c24752099de0281786ca9e181a44695a8a238",
+      "hash": "9d8dcfc05e635f693c399cdd052ba6eaf2cfa696093621485c0cd74e68d49aec",
       "title": "#10048 Add GTIN to XRechnung and ZUGFeRD exports",
       "source": "bcapps-prs",
-      "at": "2026-10-16T01:16:09.640Z",
+      "at": "2026-11-08T00:55:45.400Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/local-functionality/germany",
-          "quote": "GTIN codes from item cards are now exported to XRechnung and ZUGFeRD documents"
+          "topic": "topic/business-central/business-functionality/local-functionality/france/e-invoicing",
+          "quote": "GTIN codes from item cards are now exported to XRechnung and ZUGFeRD"
         }
       ]
     },
@@ -1015,10 +1011,10 @@
     "change/bcapps/10092": {
       "kind": "change",
       "key": "change/bcapps/10092",
-      "hash": "4eb903f4cf7313284bbde01a8e795177a7891bbd4c62f64bc2b05d61b45e3363",
+      "hash": "4c81857bc929ad4ee1f56bc75113b6bf19a0a74fdc63266b6f6f9747b85e6fcc",
       "title": "#10092 [Shopify] Add cues for Skipped Records and API Errors on Activities page",
       "source": "bcapps-prs",
-      "at": "2026-10-16T01:16:09.640Z",
+      "at": "2026-11-08T00:55:45.400Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
@@ -1280,25 +1276,20 @@
     "change/bcapps/10141": {
       "kind": "change",
       "key": "change/bcapps/10141",
-      "hash": "83eba9b529f3c71168e2f7d45cea1e6ee48b3ba3ace60947c282242dea2e9e6e",
+      "hash": "9443669fc6d111c31d6fb21c894f733688789b3f57db7af64da623b8732327a2",
       "title": "#10141 [Quality Management] Make transaction blocked error more understandable and actionable",
       "source": "bcapps-prs",
-      "at": "2026-10-16T01:16:09.640Z",
+      "at": "2026-11-08T00:55:48.961Z",
       "matches": []
     },
     "change/bcapps/10143": {
       "kind": "change",
       "key": "change/bcapps/10143",
-      "hash": "831d4a2628afd36b35c6a2bacd0eed8489208a1bc014f243ad46554208ea811e",
+      "hash": "71994a7f2d5f3eb6e8b0cc80bfb6f1e6e78d55a779791fd960f8390f586dcbe1",
       "title": "#10143 Handle non-invoice or currupt PDF extraction",
       "source": "bcapps-prs",
-      "at": "2026-10-19T01:09:46.203Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration",
-          "quote": "E-document extraction now detects non-invoice or corrupt PDFs"
-        }
-      ]
+      "at": "2026-11-08T00:55:48.961Z",
+      "matches": []
     },
     "change/bcapps/10149": {
       "kind": "change",
@@ -1400,16 +1391,11 @@
     "change/bcapps/10162": {
       "kind": "change",
       "key": "change/bcapps/10162",
-      "hash": "d63230c039544a0af911275319aa1e134992cfa2f3641d599e454d041eb23686",
+      "hash": "64627b31a6c2f2874ac062066e38407ec806e9b2a4841f2d1109536b9a99caa7",
       "title": "#10162 Fix stale start status in e-document import pipeline",
       "source": "bcapps-prs",
-      "at": "2026-10-19T01:09:46.203Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration",
-          "quote": "e-document import pipeline now uses the initial processing status"
-        }
-      ]
+      "at": "2026-11-08T00:55:48.961Z",
+      "matches": []
     },
     "change/bcapps/10164": {
       "kind": "change",
@@ -1650,14 +1636,14 @@
     "change/bcapps/10207": {
       "kind": "change",
       "key": "change/bcapps/10207",
-      "hash": "842a83648e8d25bebc32f320fd9d92c34592bde9236785e4ff15e6e1ad2dc87f",
+      "hash": "cac0ff50cf6816043c93e0903923e1544b80331b89cb927c656ef860a9c7c208",
       "title": "#10207 [Dataverse] Use Truncate for CRM Integration Record cleanup during environment copy",
       "source": "bcapps-prs",
-      "at": "2026-10-19T01:09:46.203Z",
+      "at": "2026-11-08T00:55:48.961Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "CRM Integration Record cleanup during environment copy"
+          "quote": "Use Truncate for CRM Integration Record cleanup during environment copy"
         }
       ]
     },
@@ -1803,16 +1789,11 @@
     "change/bcapps/10230": {
       "kind": "change",
       "key": "change/bcapps/10230",
-      "hash": "50e8a87fbfbd89ef072546ac4d0b15fa950c6827d1449a82a70a2ccf0dcfb525",
+      "hash": "3e87dc90d4e7e71d7850d26b2ab30a207deefa4d5b3907d3f6dca97fdd6d7019",
       "title": "#10230 [Main]<ImporteTAIReglasLocalizacion> node should have negative sign in the SII XML for Sales Credit Memos under One-Stop-Shop regime in the Spanish version",
       "source": "bcapps-prs",
-      "at": "2026-10-19T01:09:46.203Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration",
-          "quote": "Sales credit memos under One-Stop-Shop regime now generate SII XML"
-        }
-      ]
+      "at": "2026-11-08T00:55:48.961Z",
+      "matches": []
     },
     "change/bcapps/10232": {
       "kind": "change",
@@ -1891,11 +1872,16 @@
     "change/bcapps/10251": {
       "kind": "change",
       "key": "change/bcapps/10251",
-      "hash": "99ed1bb9fccf8aaf24e3cf146dac9777cf0ab469779da30b08f2ee1763da023b",
+      "hash": "8377eed26f339a56abfc1ad34d2d338ff0bed1d0d0fa2bd7086ecc2df4ab8b9c",
       "title": "#10251 Ruleset hardening: promote 5 rules from Warning to Error",
       "source": "bcapps-prs",
-      "at": "2026-10-19T01:09:46.203Z",
-      "matches": []
+      "at": "2026-11-08T00:55:48.961Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+          "quote": "promote 5 rules from Warning to Error"
+        }
+      ]
     },
     "change/bcapps/10252": {
       "kind": "change",
@@ -19399,18 +19385,22 @@
     "post/aardvarklabs-blog/2017": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/2017",
-      "hash": "9d60f0fea145d32d0a7ff95c58a5d933eb892207afedf31d0a10ce4146a3aae0",
+      "hash": "93443a5fb6d527a630664ff64879139d9df594d5a52e75e3416d3a02037d099d",
       "title": "Step-by-Step Guide to Business Central API Queries",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-16T01:15:54.656Z",
+      "at": "2026-11-08T00:55:36.780Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "Query objects configured as APIs in Business Central to expose data"
+          "quote": "create Query objects configured as APIs in Business Central"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/using-query-objects",
+          "quote": "Query objects configured with API settings expose data"
         },
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi",
-          "quote": "Query APIs can be directly connected to Power BI using the Dynamics 365 Business Central connector"
+          "quote": "directly connected to Power BI using the Dynamics 365 Business Central connector"
         }
       ]
     },
@@ -19559,18 +19549,22 @@
     "post/aardvarklabs-blog/2565": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/2565",
-      "hash": "542b36717b660c8e661c801c6ef7bc14d87362445f0ef62dcad16d72c6b922ec",
+      "hash": "9e0c07d2ee03ed60acac678f6973f877792b1abf62b7d615c05f32f8d8420dc4",
       "title": "Business Central 2027 release wave 1: Preparing for OData Endpoint Removal",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-16T01:15:54.656Z",
+      "at": "2026-11-08T00:55:36.780Z",
       "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/web-services/apis",
+          "quote": "migrate to Business Central API 2.0, create custom 2.0 APIs"
+        },
         {
           "topic": "topic/dev-itpro/integration/web-services/odata",
           "quote": "Pages exposed as OData web services will no longer be available"
         },
         {
-          "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "create custom Page or Query APIs, or copy Microsoft pages to custom objects"
+          "topic": "topic/dev-itpro/development/extension-lifecycle/deprecating-code",
+          "quote": "Pages exposed as OData web services will no longer be available"
         }
       ]
     },
@@ -19790,28 +19784,36 @@
     "post/aardvarklabs-blog/2838": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/2838",
-      "hash": "103145b803b01f6bd9bace59a9c099c459d9ca7938543b5cc2d9bbce28c6040b",
+      "hash": "bc19963bb21ddd6b320383515debcd8e0d4f4f849d4b26b1e26c67df05044224",
       "title": "Importing Multi-Tab Excel Files into Business Central",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-16T01:15:55.911Z",
+      "at": "2026-11-08T00:55:36.780Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data",
-          "quote": "explains how to import multi-tab Excel files into Business Central with a header/line relationship structure"
+          "quote": "import multi-tab Excel files into Business Central with header line"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+          "quote": "code examples using AL to read separate header and line"
         }
       ]
     },
     "post/aardvarklabs-blog/2866": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/2866",
-      "hash": "12f927a984dd084a70e42b6f22d8df097612f2d5be08fd7f73cf90e86b8bd190",
+      "hash": "ad0fbd69fadaf7462471a983c3ab2f1a23039578e331bc1c34572e7a7bcd11f0",
       "title": "Importing XML into Business Central with AL",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-16T01:15:55.911Z",
+      "at": "2026-11-08T00:55:36.780Z",
       "matches": [
         {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
+          "quote": "parse cXML files in Business Central using AL code"
+        },
+        {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data",
-          "quote": "demonstrates how to parse cXML (commerce eXtensible Markup Language) files in Business Central using AL code"
+          "quote": "extracting purchase order data from an XML file and populating custom tables"
         }
       ]
     },
@@ -19841,14 +19843,18 @@
     "post/aardvarklabs-blog/2907": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/2907",
-      "hash": "16590c110325448ef754e2303eb335e30e75e0404d606dd753e90f0852393e57",
+      "hash": "947b4b9765238694b50671157336e874afe7b081e2a1152cbe941fec7b5a62ed",
       "title": "Debugging Business Event Subscriptions in Business Central",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-16T01:15:55.911Z",
+      "at": "2026-11-08T00:55:36.780Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-external-systems-using",
-          "quote": "Business Central has hidden pages for debugging Business Event Subscriptions (which function as web hooks)"
+          "quote": "Business Event Subscriptions which function as web hooks"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extensibility/using-events",
+          "quote": "Business Event Subscriptions Business Central has hidden pages for debugging"
         }
       ]
     },
@@ -19909,14 +19915,22 @@
     "post/aardvarklabs-blog/2953": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/2953",
-      "hash": "e78fa2a25a9ddb424b65c66508d6c4b07c463b685d09a3dd47f6c39550787db7",
+      "hash": "1579b424cf0b36260337b2a0a46e94e117f85ffc78a924ed25acc4a6a241db48",
       "title": "How to Use External APIs in Business Central",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-16T01:15:55.911Z",
+      "at": "2026-11-08T00:55:36.780Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
-          "quote": "explains how to consume external APIs from within Business Central by making HTTP requests using the HttpClient"
+          "quote": "consume external APIs from within Business Central by making HTTP requests"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+          "quote": "HttpClient data type with complete AL code samples"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security",
+          "quote": "Business Central shows a security prompt when extensions attempt"
         }
       ]
     },
@@ -20214,14 +20228,18 @@
     "post/aardvarklabs-blog/3460": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/3460",
-      "hash": "8f975b4c90e69902e5fbd6acb3ad115316526de6b57bdb985b2112cd7f67921e",
+      "hash": "d0c351745b5df791f0715e16fda762304fa3cefc8529c2e0629d8ce0e1be5abd",
       "title": "Native SFTP Support in Business Central 28",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-16T01:15:55.911Z",
+      "at": "2026-11-08T00:55:37.775Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-infrastructure-services",
-          "quote": "Business Central 28 added a native SFTP Client codeunit (ID 9762) for listing, uploading, downloading and deleting"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
+          "quote": "native SFTP Client codeunit for listing, uploading, downloading and deleting files"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets",
+          "quote": "Sensitive FTP credentials should be stored using Isolated Storage with SecretText"
         }
       ]
     },
@@ -20287,27 +20305,36 @@
     "post/aardvarklabs-blog/3579": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/3579",
-      "hash": "4018628be8fda6eba82eeb5cf79ebfec813779cc17cf0a78c62634020feb84cc",
+      "hash": "04f9e4dae8710d1a6a8d27b188da7a0ee57e4e7058b6ba65f34d1ddab23e8b90",
       "title": "Creating a Low-Cost RFID System with Business Central and Power Automate",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-16T01:15:55.911Z",
-      "matches": []
+      "at": "2026-11-08T00:55:37.775Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
+          "quote": "Building a low-cost RFID scan-in and scan-out system using an ESP32 microcontroller, PN532 RFID reader, Power Automate"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/web-services/apis",
+          "quote": "device avoids OAuth; its HTTP trigger parses the JSON array and sends each scan to a Business Central API page"
+        }
+      ]
     },
     "post/aardvarklabs-blog/3631": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/3631",
-      "hash": "2fe37864fd91ab77fd28bc62e2be3b27652682a55d1e51e14521bcd52380c22f",
+      "hash": "faa854679a128fec2dc886e8bede47ddc18fcf08d34737f841c1e7bef1e28868",
       "title": "Using Power Automate for Business Central SFTP",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-16T01:15:58.139Z",
+      "at": "2026-11-08T00:55:37.775Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
           "quote": "Use Power Automate to retrieve SFTP files and post them to Business Central via the API"
         },
         {
-          "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "Build an API page with System ID and ODataKeyFields to enable Power Automate to interact"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data",
+          "quote": "Create a table with BLOB field to store file content and supporting pages"
         }
       ]
     },
@@ -20328,22 +20355,18 @@
     "post/aardvarklabs-blog/3704": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/3704",
-      "hash": "6920c9137ccf84b631bd726ac0c97d76d48df000175a233518ff7b37fba02998",
+      "hash": "efe85fcec0f09d1864d2780f58cf5c0a8ea4809808aa9a77ef621c7f94d9742c",
       "title": "Push Documents from Business Central to SFTP via Power Automate",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-16T01:15:58.139Z",
+      "at": "2026-11-08T00:55:37.775Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
-          "quote": "Power Automate listens for the business event, retrieves the file and metadata from the staging table"
-        },
-        {
           "topic": "topic/dev-itpro/development/extensibility/using-events",
-          "quote": "codeunit that subscribes to posting events, generates the invoice as a PDF, and fires a business event"
+          "quote": "codeunit subscribes to the OnAfterPostSalesDoc event, generates the invoice as a PDF, and fires a business event"
         },
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports",
-          "quote": "generates the invoice as a PDF, and fires a business event when ready. Report parameters are extracted as XML"
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
+          "quote": "Power Automate listens for the business event, retrieves the file and metadata from the staging table, uploads to SFTP"
         }
       ]
     },
@@ -20487,13 +20510,13 @@
     "post/aardvarklabs-blog/3998": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/3998",
-      "hash": "08248838286b825d980d6f9380d4cef218417add70b21ab0327de9e2d09b4315",
+      "hash": "3abf4df25e9403eb42f6baf1da333d6f9a764a58dbc2d5720160a3ff9d37ad36",
       "title": "Mastering Business Central API for App Management",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-16T01:15:58.139Z",
+      "at": "2026-11-08T00:55:37.775Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/automation-api/extension",
+          "topic": "topic/dev-itpro/administration/admin-center/admin-center-api",
           "quote": "automating extension management in Business Central using the Administration API, including deploying .app files"
         },
         {
@@ -20550,18 +20573,14 @@
     "post/aardvarklabs-blog/4082": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/4082",
-      "hash": "822fda2edb8a8592379d7a06c177901e7ee123a18477a7070d2259f44c8ef777",
+      "hash": "33d5e613c13ac202312d76b1de64ab9916548d8e9898fb4e245a546d4d6c23f6",
       "title": "Business Central’s New API Overview: A Modern Replacement for Web Services",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-24T00:07:09.710Z",
+      "at": "2026-11-08T00:55:37.775Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "API Overview page provides a modern, unified interface to discover all API pages"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/web-services",
-          "quote": "replacing the legacy Web Services page. SOAP endpoints are deprecated"
+          "quote": "Business Central's new API Overview page provides a modern, unified interface to discover all API pages"
         },
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-apis",
@@ -20834,11 +20853,16 @@
     "post/bertverbeek-nl/1209": {
       "kind": "post",
       "key": "post/bertverbeek-nl/1209",
-      "hash": "79e67e16b55ea98f058c8479739c0e1f9c703c4eab8e0d00ce970e7787b72bb1",
+      "hash": "e6a14b19887045d41db93bc2f30e0548fef28e2b5287bd1e1659cb49f2686915",
       "title": "Migrate bc2adls from PTE to appsource extension",
       "source": "bertverbeek-nl",
-      "at": "2026-10-16T01:15:58.139Z",
-      "matches": []
+      "at": "2026-11-08T00:55:36.877Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
+          "quote": "bc2adls extension for exporting Business Central data to Azure Data Lake Storage"
+        }
+      ]
     },
     "post/bertverbeek-nl/1219": {
       "kind": "post",
@@ -20961,17 +20985,17 @@
     "post/bertverbeek-nl/1318": {
       "kind": "post",
       "key": "post/bertverbeek-nl/1318",
-      "hash": "5fbd2bb16b9536fcb5d281563f096c401c7856ecc9bb3d63628e893dc3575cf4",
+      "hash": "66757640fefca2c565b58b7d3ba5885372f67fb1f5704c1e8a58bdbc61b7754f",
       "title": "Native connection with Fabric in Business Central",
       "source": "bertverbeek-nl",
-      "at": "2026-10-16T01:15:58.139Z",
+      "at": "2026-11-08T00:55:36.877Z",
       "matches": [
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
           "quote": "Business Central introduces native integration with Microsoft Fabric for data synchronization"
         },
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi",
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
           "quote": "Native Fabric integration is built on Open Mirroring and syncs from the SQL change log"
         }
       ]
@@ -20979,36 +21003,50 @@
     "post/bertverbeek-nl/1342": {
       "kind": "post",
       "key": "post/bertverbeek-nl/1342",
-      "hash": "21b7b25e74fbdb866640e71e328283444d52347a94f8b0c404e4152b738805d3",
+      "hash": "c17dc7ac9511127e7509c9b214f9968be2b902ed3bb421e350c89fa98d0633cc",
       "title": "Business Central to Microsoft Fabric is a mirror. But what if you want to know what actually changed?",
       "source": "bertverbeek-nl",
-      "at": "2026-11-05T00:50:26.702Z",
+      "at": "2026-11-08T00:55:36.877Z",
       "matches": [
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
-          "quote": "delta change data feeds to track table modifications and version history"
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
+          "quote": "Business Central data mirrored to Microsoft Fabric appears as static copies by default"
         },
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization",
-          "quote": "Business Central data mirrored to Microsoft Fabric appears as static copies"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
+          "quote": "Enable the delta change data feed setting to capture changes to the mirrored tables"
+        }
+      ]
+    },
+    "post/bertverbeek-nl/1353": {
+      "kind": "post",
+      "key": "post/bertverbeek-nl/1353",
+      "hash": "2592d5411db4f5e40beedb98d868e1a52a14def773d9e6009038c7ba0c1487a2",
+      "title": "Credentials setup on Microsoft Fabric Mirroring in Business Central",
+      "source": "bertverbeek-nl",
+      "at": "2026-11-08T00:55:36.877Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
+          "quote": "Setting up credentials for Microsoft Fabric Mirroring in Business Central 29.1"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator",
+          "quote": "Custom app registration requires specific permissions and a client secret"
         }
       ]
     },
     "post/demiliani-com/11654": {
       "kind": "post",
       "key": "post/demiliani-com/11654",
-      "hash": "0366bea976eb5e3f78a9d94fbbd2ca90d54726e49c919bcf53cb0ab4f4ea30f5",
+      "hash": "1531b5e8fae17602f1a4cb4c92a7947bdc6b6c13d9aa077f41d58d334bfcbef0",
       "title": "Dynamics 365 Business Central 2025 Wave 1 release: the state of SOAP deprecation.",
       "source": "demiliani-com",
-      "at": "2026-10-16T01:15:58.574Z",
+      "at": "2026-11-08T00:55:36.877Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/soap",
-          "quote": "SOAP exposure for Microsoft UI pages is disabled by default in version 26"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/web-services/odata",
-          "quote": "Custom OData endpoints for UI pages continue working in version 26 but should migrate to API endpoints"
+          "quote": "Exposing Microsoft UI pages as SOAP endpoints is off by default"
         },
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
@@ -21090,14 +21128,18 @@
     "post/demiliani-com/11817": {
       "kind": "post",
       "key": "post/demiliani-com/11817",
-      "hash": "e896b94c5b5528dc1cc7f4d9e5d2b857e61129c9a38f37c319b63666e5a342c9",
+      "hash": "8a143a847069d4a0a108003edf9230f4414dc008001ba4d3e5140c75afcc6756",
       "title": "Azure Function SQL Trigger: how to use it (and why it can be useful in your Business Central projects)",
       "source": "demiliani-com",
-      "at": "2026-10-16T01:15:58.574Z",
+      "at": "2026-11-08T00:55:36.877Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-azure-services",
-          "quote": "Azure SQL Triggers for Azure Functions enable real-time event-driven integrations with Business Central"
+          "quote": "Azure SQL Triggers for Azure Functions enable real-time event-driven integrations"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-external-systems-using",
+          "quote": "external systems can push data to Business Central automatically when changes occur"
         }
       ]
     },
@@ -21122,41 +21164,42 @@
     "post/demiliani-com/11887": {
       "kind": "post",
       "key": "post/demiliani-com/11887",
-      "hash": "05d3b556553be9a8074a6bdacd23d88b790f160b18d26dee57383e2c6b2b9192",
+      "hash": "84d11ae88fab1c2123178674165d962c148f8dc7b5fceefa8760b2c0ecfbd267",
       "title": "Dynamics 365 Business Central: using a static IP address to access APIs.",
       "source": "demiliani-com",
-      "at": "2026-10-16T01:15:58.574Z",
+      "at": "2026-11-08T00:55:36.933Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-azure-services",
-          "quote": "Azure Function in Premium or Flex Plan acts as a middleware to route requests"
+          "quote": "third-party systems require a static IP address for API calls to Business Central"
         }
       ]
     },
     "post/demiliani-com/11932": {
       "kind": "post",
       "key": "post/demiliani-com/11932",
-      "hash": "499b59de5ddc3ab99328d7a40e507b8d91e2c72c47d336e2a8e1a558f0a75893",
+      "hash": "b0f7c751eeb71c981a398ea5f894c75e589708c183fb3deb2e1ccd5e8557f5d5",
       "title": "High performance workflows with Azure Logic Apps: using Azure SQL as storage provider.",
       "source": "demiliani-com",
-      "at": "2026-10-16T01:15:58.574Z",
-      "matches": []
+      "at": "2026-11-08T00:55:36.933Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
+          "quote": "High performance workflows with Azure Logic Apps: using Azure SQL as storage provider"
+        }
+      ]
     },
     "post/demiliani-com/11962": {
       "kind": "post",
       "key": "post/demiliani-com/11962",
-      "hash": "59c4b3f4f738556fa7120704cdbd08caf91e9310cb82dca45526a88d89524234",
+      "hash": "ddb66ec71d829a79249465658ca3f288a30a2144a48fa241010b8b19fcc86d3b",
       "title": "Dynamics 365 Business Central: compressing API responses at max.",
       "source": "demiliani-com",
-      "at": "2026-10-16T01:15:59.053Z",
+      "at": "2026-11-08T00:55:36.933Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "Business Central APIs compress responses with gzip by default, negotiated via Accept-Encoding"
-        },
-        {
-          "topic": "topic/dev-itpro/performance",
-          "quote": "Brotli significantly decreases bandwidth usage and transfer times for high-volume API calls"
+          "quote": "Brotli compression instead of gzip to reduce the size of OData API responses"
         }
       ]
     },
@@ -21186,18 +21229,14 @@
     "post/demiliani-com/12036": {
       "kind": "post",
       "key": "post/demiliani-com/12036",
-      "hash": "2c9b7f3c2df358224d329cc8aacb85625b6aa6d31ee0d03d9f234571407d5697",
+      "hash": "70735ea0a4f01b061ec201e9469c9f3c121ab9d604f7d13310902c7156b99651",
       "title": "Why not start improving Business Central APIs definitions for supporting AI?",
       "source": "demiliani-com",
-      "at": "2026-10-16T01:15:59.053Z",
+      "at": "2026-11-08T00:55:36.933Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "Business Central APIs lack AI-ready metadata that LLMs need to reliably call functions"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai",
-          "quote": "exposing API descriptions, field types, and OpenAPI specifications would help AI agents"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "Business Central APIs lack AI-ready metadata that LLMs need"
         }
       ]
     },
@@ -21759,10 +21798,10 @@
     "post/demiliani-com/13020": {
       "kind": "post",
       "key": "post/demiliani-com/13020",
-      "hash": "b75badfd55ab0c7f6a721ae4c6b4daa13374aea50b8a0b86c28975b1a8278d9a",
+      "hash": "b65fccecbe28dedd17aa940327d1fcf605aa6e2e2df577927a29bf62b165f4ed",
       "title": "Securing your Azure Storage Account: a guide to enabling Business Central-only access using Network Security Perimeter.",
       "source": "demiliani-com",
-      "at": "2026-10-16T01:15:59.122Z",
+      "at": "2026-11-08T00:55:36.933Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-azure-services",
@@ -21912,10 +21951,10 @@
     "post/demiliani-com/13391": {
       "kind": "post",
       "key": "post/demiliani-com/13391",
-      "hash": "d0e2d6d66f7d17958134c98426919bba37b5f07db8b720247ce76fdf879075c3",
+      "hash": "e601687eedc7e049a6671ddc9bf354da0ae31bca754c88f83e1f73b93d946786",
       "title": "Dynamics 365 Business Central: BCMCPProxy vNext",
       "source": "demiliani-com",
-      "at": "2026-10-16T01:15:59.122Z",
+      "at": "2026-11-08T00:55:36.933Z",
       "matches": []
     },
     "post/demiliani-com/13442": {
@@ -21930,11 +21969,16 @@
     "post/demiliani-com/13470": {
       "kind": "post",
       "key": "post/demiliani-com/13470",
-      "hash": "d4b8a93bc8c736023b38effaa88caf4ce270d25519fc1630181689cf10d8179c",
+      "hash": "315c43b5d77dc93a134864ea450af70951e0193bc535d93dda1ab261dae4c0f0",
       "title": "Creating MCP servers for Dynamics 365 Business Central with Azure Logic Apps.",
       "source": "demiliani-com",
-      "at": "2026-10-16T01:15:59.122Z",
-      "matches": []
+      "at": "2026-11-08T00:55:40.755Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+          "quote": "MCP servers standardize how AI agents interact with external systems"
+        }
+      ]
     },
     "post/demiliani-com/13512": {
       "kind": "post",
@@ -22034,14 +22078,14 @@
     "post/demiliani-com/13640": {
       "kind": "post",
       "key": "post/demiliani-com/13640",
-      "hash": "cda26441af8aa7841ffee07785dc4a8f97cee3ab7bb38821ae1270680b771701",
+      "hash": "abb0e63da6ce6cdc06d9ee2f768484bd80e5ddc83ec1aeade1a7e86d9ffc7450",
       "title": "Dynamics 365 Business Central: using SFTP from AL (the native way)",
       "source": "demiliani-com",
-      "at": "2026-10-16T01:16:06.777Z",
+      "at": "2026-11-08T00:55:40.755Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
-          "quote": "native SFTP Client codeunit for connecting to SFTP servers from AL code"
+          "quote": "Business Central 2026 Wave 1 introduced a native SFTP Client codeunit for connecting to SFTP servers"
         }
       ]
     },
@@ -22057,18 +22101,14 @@
     "post/demiliani-com/13676": {
       "kind": "post",
       "key": "post/demiliani-com/13676",
-      "hash": "411c549461ae75c634a81b7e1bce397e4ba73e882d7361a125eac3c879f5e4a7",
+      "hash": "31d7b25f50646a7696f8690a1d22b9d1dba6dbbb47466313f8e11e39c414c13e",
       "title": "Business Central Cloud Migration: be careful on reusing the same self-hosted runtime.",
       "source": "demiliani-com",
-      "at": "2026-10-16T01:16:06.777Z",
+      "at": "2026-11-08T00:55:40.755Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/replicate-data",
-          "quote": "Do not reuse the same self-hosted integration runtime across different migrations"
-        },
-        {
-          "topic": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/set-up-cloud-migration",
-          "quote": "Cloud migration requires self-hosted integration runtime for SQL Server databases"
+          "quote": "Cloud migration in Dynamics 365 Business Central uses integration runtime to replicate data"
         }
       ]
     },
@@ -22588,14 +22628,14 @@
     "post/demiliani-com/17492": {
       "kind": "post",
       "key": "post/demiliani-com/17492",
-      "hash": "6a6e462903e184e59453e5e15ddba6ec33f4a3b35d47cb89fd07051b1108d389",
+      "hash": "08f87c23334409dee6105dff8ccd145fd2d7fabdc24f2acf21cc1fa0f700caeb",
       "title": "Securing your Azure Storage Account: a guide to enabling Business Central-only access using Network Security Perimeter (part2) – now with Service Tags.",
       "source": "demiliani-com",
-      "at": "2026-10-19T01:09:46.203Z",
+      "at": "2026-11-08T00:55:40.755Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-azure-services",
-          "quote": "Administrators can restrict an Azure Storage Account to Business Central traffic"
+          "quote": "restrict an Azure Storage Account to Business Central traffic by choosing the Dynamics365BusinessCentral service tag"
         }
       ]
     },
@@ -22703,20 +22743,11 @@
     "post/demiliani-com/17568": {
       "kind": "post",
       "key": "post/demiliani-com/17568",
-      "hash": "db697811c661d3475d8c20a5e5dbf7bdfa585dfee27a3f6e41d507dd20a197c2",
+      "hash": "2cd4e8a327de1f9ce70b2734c1464f0da1df6de8447c7fcb41e92e026ba9c384",
       "title": "Giving an AI agent the keys to Business Central: practical security tips.",
       "source": "demiliani-com",
-      "at": "2026-11-05T00:50:26.702Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security",
-          "quote": "Securing AI agents that act on data in Business Central requires deliberate choices"
-        },
-        {
-          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions",
-          "quote": "AI agents need their own application identity with narrow permissions"
-        }
-      ]
+      "at": "2026-11-08T00:55:40.755Z",
+      "matches": []
     },
     "post/demiliani-com/17586": {
       "kind": "post",
@@ -23864,10 +23895,10 @@
     "post/gerardorenteria-blog/11401": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/11401",
-      "hash": "926237e5cd69fa55efdd43be7ca7046481255dd629a14c68a6bc1125434d8c80",
+      "hash": "803429fbc8b9fa920ad4f4ff7f303b1899903f8c176254f56e4c0a2f540d3ef9",
       "title": "🤖 Manage your projects, repositories, and more with Azure DevOps MCP Server ✅",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-16T01:16:06.777Z",
+      "at": "2026-11-08T00:55:40.755Z",
       "matches": []
     },
     "post/gerardorenteria-blog/11452": {
@@ -24321,18 +24352,14 @@
     "post/gerardorenteria-blog/12682": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/12682",
-      "hash": "19ba7967161158316269877d21ac9f2d61e5fe395a3a0c4afff7acc426d3d37a",
+      "hash": "f9e052c6e87216feac0fa9fe722201f8e159ee1d580c674cd655471d279ba7f3",
       "title": "🤖 AboutText: Teaching AI to Understand Your APIs ✨",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-16T01:16:04.706Z",
+      "at": "2026-11-08T00:55:40.247Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "AboutText property, added to APIV2 pages when APIs are exposed through the Model Context Protocol"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "AboutText is a new property in BC 27.1 for APIV2 pages that describes API functionality"
+          "quote": "AboutText is a new property in BC 27.1 for APIV2 pages that describes API functionality to AI systems"
         }
       ]
     },
@@ -24492,10 +24519,10 @@
     "post/gerardorenteria-blog/13166": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/13166",
-      "hash": "b71113c813494bfa1af3fbbfc1dffaa1dd0fcf36b44671563e8f6ad3359d7c98",
+      "hash": "824510627ac3df60adc7c2fcf1dc668e7720480f379fc13ed584afde2e17779e",
       "title": "📡 RSS Feed Reader: Real-Time Information at Your Fingertips 🔔",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-16T01:16:04.706Z",
+      "at": "2026-11-08T00:55:40.247Z",
       "matches": []
     },
     "post/gerardorenteria-blog/13195": {
@@ -25168,10 +25195,10 @@
     "post/jeremyvyska-com/1405": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1405",
-      "hash": "1920708780c2d01232ad66328f3ee4e6a82b5a8fdf3935aeba94bbcde471319c",
+      "hash": "45ac77b8cf23db4b49ff53fe419c41b29bf443b95106699516bc7893dea9ca0f",
       "title": "Creating and Maintaining a Shared Knowledge Source",
       "source": "jeremyvyska-com",
-      "at": "2026-10-28T08:41:34.949Z",
+      "at": "2026-11-08T00:55:40.247Z",
       "matches": []
     },
     "post/jeremyvyska-com/1423": {
@@ -25369,18 +25396,14 @@
     "post/jpearson-blog/1419": {
       "kind": "post",
       "key": "post/jpearson-blog/1419",
-      "hash": "945e90c5157e759f8c4b46c8fd6703fd89c402d784bffa5276314cdf0b90dce0",
+      "hash": "10b747f41e8c650fbfbf079db4f4c1744bb54051507c24729ba05aa8734ce218",
       "title": "Another Look at App Integration in Business Central – Part 2",
       "source": "jpearson-blog",
-      "at": "2026-10-16T01:16:04.706Z",
+      "at": "2026-11-08T00:55:40.247Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/interfaces",
-          "quote": "integrate two independent Business Central apps without creating a direct dependency between them by using interfaces"
-        },
-        {
-          "topic": "topic/dev-itpro/development/extensibility/using-events",
-          "quote": "App Integration codeunit uses a dictionary to store and manage implementations of interfaces from different apps"
+          "quote": "Apps can integrate without direct dependencies by implementing interfaces defined in a shared app integration layer"
         }
       ]
     },
@@ -25405,15 +25428,11 @@
     "post/jpearson-blog/1485": {
       "kind": "post",
       "key": "post/jpearson-blog/1485",
-      "hash": "a73aff8b483129294b31ef9858c0ce758eaa36724983eca20744cdb2a58165a6",
+      "hash": "8dea0139e96e8023b39e44d80d6c770363a451457f1e6f95b5cbab03553442ad",
       "title": "Calling Business Central APIs Without a Client Secret",
       "source": "jpearson-blog",
-      "at": "2026-10-16T01:16:04.706Z",
+      "at": "2026-11-08T00:55:40.247Z",
       "matches": [
-        {
-          "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "Azure Function or Static Web App backend can call Business Central APIs without a client secret"
-        },
         {
           "topic": "topic/dev-itpro/integration/integrating-with-azure-services",
           "quote": "Managed identities assigned to Azure resources can obtain access tokens without needing client secrets"
@@ -25423,18 +25442,14 @@
     "post/jpearson-blog/1535": {
       "kind": "post",
       "key": "post/jpearson-blog/1535",
-      "hash": "654bb4479c916d6ae8b2b1289f88ec3f22dd4a4917f416083ae1831c094c2fba",
+      "hash": "165fcd6854fd68d4d1ec61a0dc90b3fcca3c2f6e85e7075ca24a92b07af54f48",
       "title": "Calling Business Central Directly from a Managed Identity",
       "source": "jpearson-blog",
-      "at": "2026-10-16T01:16:04.706Z",
+      "at": "2026-11-08T00:55:40.247Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "Managed identities can be granted Business Central API permissions directly via PowerShell without requiring federated credentials"
-        },
-        {
           "topic": "topic/dev-itpro/integration/integrating-with-azure-services",
-          "quote": "Azure resources to call Business Central APIs securely without creating or storing client secrets"
+          "quote": "Managed identities can be granted Business Central API permissions directly via PowerShell without requiring federated credentials"
         }
       ]
     },
@@ -25610,18 +25625,22 @@
     "post/kauffmann-nl/8332": {
       "kind": "post",
       "key": "post/kauffmann-nl/8332",
-      "hash": "f185c6bcbc3e7f69a25d1061fceb7ff6c819a60163e84a872178fed1c1938deb",
+      "hash": "88de14cfccb265de95146f1ba48c186c3c7a4bb1628c35210526c6b00ccceea0",
       "title": "OAuth library for the Rest Client",
       "source": "kauffmann-nl",
-      "at": "2026-10-16T01:16:08.184Z",
+      "at": "2026-11-08T00:55:42.629Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
-          "quote": "OAuth library for Business Central's Rest Client module has been released on GitHub"
+          "quote": "OAuth library for Business Central's Rest Client module has been released"
         },
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security",
-          "quote": "certificate-based authentication with easy certificate generation and download via a dedicated page"
+          "quote": "Supports two OAuth flows with certificate-based authentication and security measures"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets",
+          "quote": "Features certificate-based authentication with easy certificate generation"
         }
       ]
     },
@@ -25889,16 +25908,11 @@
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1160169849126032090": {
       "kind": "post",
       "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1160169849126032090",
-      "hash": "aba9ce4f0d6c973e558be055923347742f9d53d5403c035e6f4401f81c69c0d4",
+      "hash": "4a175aa20072288e02895eedf07ddb6f5ffe2b70757d9d1353d1e5c285c32bb5",
       "title": "Why API Templates Don't Work on Business Central Custom API Pages",
       "source": "mohana-blog",
-      "at": "2026-10-16T01:16:08.184Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "API templates in Business Central only work with specific standard API pages because custom API pages lack the ProcessNewRecordFromAPI"
-        }
-      ]
+      "at": "2026-11-08T00:55:42.629Z",
+      "matches": []
     },
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786": {
       "kind": "post",
@@ -26263,22 +26277,14 @@
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7706250162700204847": {
       "kind": "post",
       "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7706250162700204847",
-      "hash": "ce234c0d38625350671cd1eb05eb935895872488bee262499ca9501bddaf8ed3",
+      "hash": "1cf8a564225086f92f030d057cfe8e2f981ffcdfe3403bb835c9975f4c53bd0d",
       "title": "NAV to Business Central: What Actually Moves, and What Needs to Change?",
       "source": "mohana-blog",
-      "at": "2026-10-16T01:16:10.443Z",
+      "at": "2026-11-08T00:55:42.629Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-nav",
-          "quote": "Moving from Dynamics NAV to Business Central requires two separate projects: a technical upgrade"
-        },
-        {
-          "topic": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/replicate-data",
-          "quote": "data only moving as far as code does"
-        },
-        {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/migration",
-          "quote": "customizations must be converted to AL extensions"
+          "quote": "Moving from Dynamics NAV to Business Central requires two separate projects"
         }
       ]
     },
@@ -27251,18 +27257,14 @@
     "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4218333995173748236": {
       "kind": "post",
       "key": "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4218333995173748236",
-      "hash": "5796bb541d8ca1cf0aeac28da82f5fc7f83a1eceac5d5d407039157f0fd50f1a",
+      "hash": "e0dd5ef6e35134706ba9087195072e843c3c70621ba3ce5cbb344b215200c566",
       "title": "How to Export CSV Files from Business Central Using CSV Buffer (Developer Guide)",
       "source": "sauravdhyani-com",
-      "at": "2026-10-16T01:16:10.443Z",
+      "at": "2026-11-08T00:55:42.629Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data",
-          "quote": "how to export data from Business Central to CSV format"
-        },
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data",
-          "quote": "CSV Buffer is a built-in table with Line No., Field No., and Value"
+          "topic": "topic/dev-itpro/integration/integrating-with-external-systems-using",
+          "quote": "export data from Business Central to CSV format using the CSV Buffer table"
         }
       ]
     },
@@ -28442,10 +28444,10 @@
     "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-27-replace-blank-values-using-transformation-rules/": {
       "kind": "post",
       "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-27-replace-blank-values-using-transformation-rules/",
-      "hash": "619a1c2ce6634b7267c1cec57e0b8d074900e604b9098c63f70c3b946ee09dec",
+      "hash": "9f3cf6b85f3da27670931d14ef7c04b348d8d66ae7a61c7b7d47228a5eb20ad9",
       "title": "BC Friday Tips #27 Replace Blank Values using Transformation Rules",
       "source": "thatnavguy-com",
-      "at": "2026-10-16T01:16:10.443Z",
+      "at": "2026-11-08T00:55:42.629Z",
       "matches": []
     },
     "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-28-math-codeunit/": {
@@ -28679,10 +28681,10 @@
     "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-41-line-separator-in-data-exchange-definition/": {
       "kind": "post",
       "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-41-line-separator-in-data-exchange-definition/",
-      "hash": "a9f87d10aef96ce4885bb585541c0de2482dbd4f6f23b9bda6163f2cc569b865",
+      "hash": "f70cce74e1e1ef6ea0e5ecb0a4bf004d3ea790abf9340381fa3c0e11393700f9",
       "title": "BC Friday Tips #41 Line Separator in Data Exchange Definition",
       "source": "thatnavguy-com",
-      "at": "2026-10-16T01:16:10.443Z",
+      "at": "2026-11-08T00:55:42.629Z",
       "matches": []
     },
     "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-42-user-setup-management/": {
@@ -29011,24 +29013,19 @@
     "post/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-add-in-error-the-service-required-to-use-this-feature-is-turn-off-check-your-privacy-settings/": {
       "kind": "post",
       "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-add-in-error-the-service-required-to-use-this-feature-is-turn-off-check-your-privacy-settings/",
-      "hash": "3a9986d68d1a0c6b9815d53b783c868e84dbb04c9a68617497dda79358d30a8b",
+      "hash": "db220a71ca9214b629c47612d4607696bfbc68db76b8399551e4ab56361be0d7",
       "title": "D365 Business Central: How to fix Edit in Excel Add-In Error - The service required to use this feature is turn off. Check your privacy settings.",
       "source": "thatnavguy-com",
-      "at": "2026-10-16T01:16:10.443Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office",
-          "quote": "Edit in Excel allows direct editing of Business Central records in Excel"
-        }
-      ]
+      "at": "2026-11-08T00:55:42.447Z",
+      "matches": []
     },
     "post/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-missing-sales-invoices-in-the-api/": {
       "kind": "post",
       "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-missing-sales-invoices-in-the-api/",
-      "hash": "309347393b212aec8863d92e47e990f0bb2fe143a347f0898d27de02446dd3c0",
+      "hash": "2555293cd48b97a8865685a2ad57fb30083f733914290ea95a8469e33175ed3b",
       "title": "D365 Business Central: How to Fix Missing Sales Invoices in the API",
       "source": "thatnavguy-com",
-      "at": "2026-10-16T01:16:06.655Z",
+      "at": "2026-11-08T00:55:42.447Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
@@ -30085,18 +30082,14 @@
     "post/thinkaboutit-be/7061": {
       "kind": "post",
       "key": "post/thinkaboutit-be/7061",
-      "hash": "0ff29c96290b54071b5867317e5cca6076d3384565b2da173b42742bae46dfbe",
+      "hash": "d018c3b3988646313278eebcb10e625bd6c997b53774caa66e530b3abb6f38ec",
       "title": "Quick Tip: Say Goodbye to OData on Microsoft Pages in Business Central 2027 Wave 1 (version 30.0)",
       "source": "thinkaboutit-be",
-      "at": "2026-10-16T01:16:06.655Z",
+      "at": "2026-11-08T00:55:42.447Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/odata",
           "quote": "Microsoft no longer allows exposing Microsoft-authored pages as OData endpoints"
-        },
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-apis",
-          "quote": "Developers must audit current integrations, migrate to custom extensions or query objects"
         }
       ]
     },
@@ -30664,10 +30657,10 @@
     "post/thinkaboutit-be/7683": {
       "kind": "post",
       "key": "post/thinkaboutit-be/7683",
-      "hash": "3ed0c8348b16f90f23e2e57fc3f0a21d484b49c2314d11d70feb6adb327273b2",
+      "hash": "791ce009cdf73947f49b7e92d0ce3fd99aba5eb3286f3f931743c732dd219723",
       "title": "API Pages vs API Queries in Business Central: When to Use Each",
       "source": "thinkaboutit-be",
-      "at": "2026-10-16T01:16:06.655Z",
+      "at": "2026-11-08T00:55:42.447Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
@@ -31182,13 +31175,13 @@
     "post/thinkaboutit-be/8229": {
       "kind": "post",
       "key": "post/thinkaboutit-be/8229",
-      "hash": "be6eda255137e4a4ad2a8d3890edc4513c478968159466288aa18c6c42e7f46a",
+      "hash": "bdff85f5a4a7b5fa3afc4613cb9fb6e9642ac8605de973d4e4c4147e302ac81e",
       "title": "Business Central Data Mirroring to Microsoft Fabric Is Coming",
       "source": "thinkaboutit-be",
-      "at": "2026-10-16T01:16:06.655Z",
+      "at": "2026-11-08T00:55:42.447Z",
       "matches": [
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
           "quote": "Business Central 2026 release wave 2 introduces data mirroring to Microsoft Fabric"
         }
       ]
@@ -32437,22 +32430,14 @@
     "post/wingate365-com/https://blog.wingate365.com/2025/05/business-central-power-pages-true.html": {
       "kind": "post",
       "key": "post/wingate365-com/https://blog.wingate365.com/2025/05/business-central-power-pages-true.html",
-      "hash": "f6d85d8882c3eedc6e3ed8876049fb26ade26e9be015d15751a35bb26bb1ea5d",
+      "hash": "8aa7c68dd5f6ab88caacbe39ddb02982278fa860bbcdfdd5b799d59e8c30c159",
       "title": "Business Central + Power Pages = TRUE - ColorCloud 2025",
       "source": "wingate365-com",
-      "at": "2026-10-30T01:07:43.691Z",
+      "at": "2026-11-08T00:55:42.447Z",
       "matches": [
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps",
-          "quote": "Power Pages can let external users interact with Business Central through Dataverse Virtual Tables"
-        },
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
           "quote": "Virtual Tables in Dataverse, supported in Power Pages, let external audiences interact with Business Central data"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
-          "quote": "managing external logins from BC Contacts synced to Dataverse, issuing invites through Power Automate"
         }
       ]
     },
@@ -32826,14 +32811,18 @@
     "post/yzhums-com/48974": {
       "kind": "post",
       "key": "post/yzhums-com/48974",
-      "hash": "c98f9625df04cc6a801a718a967489814b6af546d00e5af2212e5b8d05314125",
+      "hash": "5bd901e34c29a59313d9fd1a42bb949334e6fc37e2a6d892a61035a95f497bee",
       "title": "Dynamics 365 Business Central: How to use the OData V4 IN operator in web service queries",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:38.097Z",
+      "at": "2026-11-08T00:55:44.432Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/odata",
           "quote": "OData V4 IN operator simplifies web service queries in Business Central"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/web-services/apis",
+          "quote": "OData IN operator lets developers replace multiple OR conditions with a single IN filter expression"
         }
       ]
     },
@@ -32886,18 +32875,18 @@
     "post/yzhums-com/56046": {
       "kind": "post",
       "key": "post/yzhums-com/56046",
-      "hash": "3ffeb9db3d1d77849f27179ac8ad30f9b703a93816a94c73289c5b8508ac7de6",
+      "hash": "9602d4cf634cab4642ff8f4574d5bbc3717b1708b49f351053a173fda754f994",
       "title": "Dynamics 365 Business Central: Generate barcode through external services/APIs (Telepen, Swiss QR Code, QR codes with colors, images or text……)",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:04.103Z",
+      "at": "2026-11-08T00:55:44.432Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
-          "quote": "external APIs like QuickChart can generate QR codes and other barcode types through HTTP requests in AL code"
+          "quote": "QuickChart API instead. QuickChart QR parameters cover format, margin, size"
         },
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports",
-          "quote": "The standard Barcode module in the System Application adds barcodes to reports"
+          "topic": "topic/business-central/business-functionality/inventory",
+          "quote": "A page extension on Item Card uses HttpClient to request the image and import it"
         }
       ]
     },
@@ -33031,14 +33020,18 @@
     "post/yzhums-com/61951": {
       "kind": "post",
       "key": "post/yzhums-com/61951",
-      "hash": "705db56ffdf574965610d72ad7b49eabdb03258c8304066a7068038ec61ce890",
+      "hash": "e8f92dde5ee3ebbf6bd717aef230d4399852baedb9d9587af8f5b5a04043b0f1",
       "title": "Dynamics 365 Business Central: How to disable/hide Power Automate action group for all users",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:38.097Z",
+      "at": "2026-11-08T00:55:44.432Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
-          "quote": "Disable the Power Automate action group for all Business Central users"
+          "quote": "Disable the Power Automate action group for all Business Central users by marking"
+        },
+        {
+          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions",
+          "quote": "The feature can be hidden per user via permission 9630 Allow Action Automate"
         }
       ]
     },
@@ -33277,28 +33270,36 @@
     "post/yzhums-com/63749": {
       "kind": "post",
       "key": "post/yzhums-com/63749",
-      "hash": "6affa467ee3495334a7d13158632f8c83b1aa1cfdcfdd1c633b94277678bc4b3",
+      "hash": "b475f0f09ab3b5d1ce4b2e79301230b503a736330291b4b3cb0c86e532096443",
       "title": "Dynamics 365 Business Central Blog Series: Integrate Business Central with OneDrive",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:38.097Z",
+      "at": "2026-11-08T00:55:44.432Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-onedrive",
-          "quote": "Integrate Business Central with OneDrive, including file import and export via AL and Graph API"
+          "quote": "File operations between Business Central and OneDrive can be performed using AL code with Graph API"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
+          "quote": "Power Automate offers no-code solutions to synchronize files and data between OneDrive and Business Central"
         }
       ]
     },
     "post/yzhums-com/63762": {
       "kind": "post",
       "key": "post/yzhums-com/63762",
-      "hash": "f4c58a1683466b0171454fa4b2b7fc8952621b8ea022ca6e802d14d7e2fd4227",
+      "hash": "7d6a2acc5b5bc04d69e0253cd7de6a14e5357873aca48d4be8cc6a611c7d4f33",
       "title": "Dynamics 365 Business Central Blog Series: Import and Export data",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:38.097Z",
+      "at": "2026-11-08T00:55:44.432Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data",
-          "quote": "Comprehensive methods for importing and exporting data in Dynamics 365 Business Central"
+          "quote": "Configuration packages and XMLports provide standard approaches for bulk data import/export operations"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
+          "quote": "Power Automate flows allow no-code data transfer between Business Central, CSV files, Google Sheets, and OneDrive"
         }
       ]
     },
@@ -33319,22 +33320,18 @@
     "post/yzhums-com/63801": {
       "kind": "post",
       "key": "post/yzhums-com/63801",
-      "hash": "354ddfa36933341dbda99139cc1ec669cc3ba844a25cafc4170338f93b5acc3b",
+      "hash": "d10858b40e21d62735d4d6063c9bf08a3f6b870ed2145da3a2cae3f4bbb06308",
       "title": "Dynamics 365 Business Central Blog Series: REST API web services (APIs)",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:38.101Z",
+      "at": "2026-11-08T00:55:44.432Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "REST API web services in Dynamics 365 Business Central, including standard and automation APIs"
+          "quote": "Business Central supports multiple API types: standard APIs, automation APIs, and custom APIs"
         },
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "APIs integrate with Microsoft 365 services including Graph API for SharePoint, OneDrive"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/web-services/web-services-security",
-          "quote": "OAuth 2.0 authentication is required for API access as Basic Auth was removed"
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
+          "quote": "APIs integrate with Microsoft 365 services including Graph API for SharePoint, OneDrive, and email logging"
         }
       ]
     },
@@ -33441,10 +33438,10 @@
     "post/yzhums-com/63916": {
       "kind": "post",
       "key": "post/yzhums-com/63916",
-      "hash": "9c361de43f227a20d8e13d89aa6d6f8b8b405751fc31a2e402e41ce53ec8479c",
+      "hash": "7431d83f25323a70f5544fefc0bd51a8b12f3fffc0520d4f7acde8ff6c9c6a13",
       "title": "Dynamics 365 Business Central Blog Series: Integrate with Microsoft Dataverse",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:38.101Z",
+      "at": "2026-11-08T00:55:44.882Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
@@ -33452,11 +33449,11 @@
         },
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization",
-          "quote": "Standard Dataverse connector uses scheduled job queue entries and does not guarantee real-time data consistency"
+          "quote": "data synchronization, connector setup, oauth authentication, table mapping"
         },
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
-          "quote": "OAuth 2.0 with Client Credentials grant type can authenticate Dataverse API calls via tools like Postman"
+          "quote": "Power Automate; virtual tables"
         }
       ]
     },
@@ -33687,18 +33684,18 @@
     "post/yzhums-com/64775": {
       "kind": "post",
       "key": "post/yzhums-com/64775",
-      "hash": "8b57d989aaa742bba5a9fb2e667962c5f5660daf8f87287669052c15d6fc0541",
+      "hash": "f9f3f93cb8eb7dc97ee3bdc6e42a3d2307fd4ccd7a800b5a187b8b3663df4224",
       "title": "Dynamics 365 Business Central: Integrate with Microsoft Dataverse via APIs (Not using the standard Dataverse connector)",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:38.101Z",
+      "at": "2026-11-08T00:55:44.882Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "integrate Dynamics 365 Business Central with Microsoft Dataverse using direct REST APIs instead of the standard connector"
+          "quote": "integrate Dynamics 365 Business Central with Microsoft Dataverse using direct REST APIs"
         },
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
-          "quote": "authenticating with OAuth 2.0 and implementing GET, POST, PATCH, and DELETE operations to synchronize data"
+          "quote": "step-by-step guidance on authenticating with OAuth 2.0 and implementing GET, POST, PATCH, and DELETE operations"
         }
       ]
     },
@@ -33906,10 +33903,10 @@
     "post/yzhums-com/65525": {
       "kind": "post",
       "key": "post/yzhums-com/65525",
-      "hash": "5ee931cd23816686ba16d515d0bb0766f7fc544f64cf347e6797d4e972306e5e",
+      "hash": "023dc93fe1d962771c2a75da89e9eb88d102fac324ce6d7c3bb7f52236cdcdfb",
       "title": "Dynamics 365 Business Central: How to quickly check if a Url is secure (Use https) via AL",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:38.101Z",
+      "at": "2026-11-08T00:55:44.882Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
@@ -34067,15 +34064,11 @@
     "post/yzhums-com/65857": {
       "kind": "post",
       "key": "post/yzhums-com/65857",
-      "hash": "d03ac419b8810e5d5aea99f7f80550c25128a1361b835d9332f1834ed3b9c55d",
+      "hash": "dbd7a83c6bed2a3a7a34e5c05d89c11f83dd10c93f2b67bca16e1f44be90bca0",
       "title": "Dynamics 365 Business Central: How to deprecate external business events (ExternalBusinessEvent)",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:38.101Z",
+      "at": "2026-11-08T00:55:44.882Z",
       "matches": [
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-external-systems-using",
-          "quote": "External business events enable Business Central to notify and trigger actions in external systems like Dataverse and Power Automate"
-        },
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
           "quote": "Business events allow Business Central to notify external systems and trigger reactions in Power Automate"
@@ -34335,18 +34328,14 @@
     "post/yzhums-com/67024": {
       "kind": "post",
       "key": "post/yzhums-com/67024",
-      "hash": "83b08004eba7dd1b224c23bcbde4d7b473b4d4d63e5dd1a0edd2a60bb25565fc",
+      "hash": "96c564d23131d81f199a1c35ef3c2c9749364da56b6cc33605f72875e05d8516",
       "title": "Regarding the recent problem I encountered when opening Power Apps with Zscaler",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:43:35.970Z",
+      "at": "2026-11-08T00:55:44.882Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps",
-          "quote": "opening Power Apps with Zscaler"
-        },
-        {
-          "topic": "topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-apps",
-          "quote": "problem I encountered when opening Power Apps"
+          "quote": "problem I encountered when opening Power Apps with Zscaler"
         }
       ]
     },
@@ -35265,22 +35254,18 @@
     "post/yzhums-com/68672": {
       "kind": "post",
       "key": "post/yzhums-com/68672",
-      "hash": "56989280ff749657e84161dd734e1cdf851a79276d5a9252d18dc4d4ae31c903",
+      "hash": "16648031ef380a70ca20f0ef711551e505f5030ecd1d1519cd7662630297cf49",
       "title": "Dynamics 365 Business Central Blog Series: Handle CSV (comma-separated values) files",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:04.103Z",
+      "at": "2026-11-08T00:55:44.882Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/sales-line-suggestion-preview",
-          "quote": "Since 2024 wave 2 (BC25), Copilot can suggest sales lines from a CSV file"
-        },
-        {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data",
-          "quote": "importing and exporting table data as CSV, bulk importing long text through AL"
+          "quote": "importing and exporting table data as CSV"
         },
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
-          "quote": "Power Automate can export BC data to CSV (JSON to CSV) and import CSV into BC"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/sales-line-suggestion-preview",
+          "quote": "Copilot can suggest sales lines from a CSV file"
         }
       ]
     },
@@ -35744,14 +35729,14 @@
     "post/yzhums-com/69433": {
       "kind": "post",
       "key": "post/yzhums-com/69433",
-      "hash": "373b66da3535df5d6492670fe4a07115cc211c7e9f362db5949951c4afac204a",
+      "hash": "5beea1038e12e2f8d4d897614cdafdb1e4589c424e36206f91d2f83b8a38acd3",
       "title": "Dynamics 365 Business Central: How to use Open in Excel in the browser/web (Excel Online)",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:38.103Z",
+      "at": "2026-11-08T00:55:47.754Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office",
-          "quote": "Open in Excel displays the same rows and columns visible on the Business Central page"
+          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-onedrive",
+          "quote": "When OneDrive for system features is enabled, the Excel workbook opens directly in Excel for the web"
         }
       ]
     },
@@ -36174,14 +36159,14 @@
     "post/yzhums-com/70369": {
       "kind": "post",
       "key": "post/yzhums-com/70369",
-      "hash": "9400e267e603739572c8722072cad730b164fc1c4027589fe592dc69999cb00c",
+      "hash": "68caf23f64bb985af029760742b929b892c819854f01d1e7f00dfcf301baa4ef",
       "title": "Dynamics 365 Business Central: Does the API support Multi-level Expand (Multi layers)",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:38.103Z",
+      "at": "2026-11-08T00:55:47.754Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "Business Central REST API supports multi-level expand using nested parentheses in $expand syntax"
+          "quote": "The Business Central REST API supports multi-level expand (nested data retrieval) using nested parentheses"
         }
       ]
     },
@@ -36352,22 +36337,18 @@
     "post/yzhums-com/70836": {
       "kind": "post",
       "key": "post/yzhums-com/70836",
-      "hash": "a33ee3daaba19922129a391d40f68e64938c7c1dd6bde9e7fb09e6a0d013fc57",
+      "hash": "ff3f6499aad09c3574c61e5e3c0658454fab1e1d4db367e3df7f2fe43198b49a",
       "title": "Dynamics 365 Business Central: Set up access to Business Central with Microsoft 365 licenses within BC (Not in Admin Center)",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:44.751Z",
+      "at": "2026-11-08T00:55:47.754Z",
       "matches": [
         {
           "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/access-with-microsoft-365-licenses",
-          "quote": "Microsoft 365 licensed users can view Business Central data in Teams"
+          "quote": "Microsoft Teams users can access Business Central data using Microsoft 365 licenses instead of Business Central licenses"
         },
         {
           "topic": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-teams",
-          "quote": "Microsoft Teams users can access Business Central data using Microsoft 365 licenses"
-        },
-        {
-          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions",
-          "quote": "Administrators can configure default permission sets, control access via security groups"
+          "quote": "Setup is performed within Business Central via Tell me search for 'Set up access with Microsoft 365 Licenses'"
         }
       ]
     },
@@ -37087,14 +37068,14 @@
     "post/yzhums-com/71914": {
       "kind": "post",
       "key": "post/yzhums-com/71914",
-      "hash": "cb28a31eb9b30e49aa76ed8d51c35404c59e88fffe034f743a0a049d72a0485d",
+      "hash": "b3750077885b9698c81b4e104a57223bff838a5f7bb4cb38b139afef6a91fd0c",
       "title": "Business Central 2026 release wave 1 (BC28): Map new Dataverse fields (New and custom Dataverse tables are readily available for mapping from the lookup on Integration Table column)",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:44.751Z",
+      "at": "2026-11-08T00:55:47.754Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "Map new Dataverse fields directly without writing code"
+          "quote": "Business Central 2026 wave 1 enables administrators to map new Dataverse fields directly without writing code"
         },
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization",
@@ -37805,18 +37786,18 @@
     "post/yzhums-com/74390": {
       "kind": "post",
       "key": "post/yzhums-com/74390",
-      "hash": "e891503f496bc459051f212092e434ae59f22adef56c763c9fc25223d44fec29",
+      "hash": "a4b03aeae99a6145c074ad9a304ae1c8865b93eba976f48a923ba672bf7ccd5b",
       "title": "Business Central 2026 release wave 1 (BC28.2): Use new APIs for analyzing approval workflows for auditors and IT staff",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:44.751Z",
+      "at": "2026-11-08T00:55:47.754Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
           "quote": "Seven new API V2.0 endpoints provide read-only access to workflow approval data"
         },
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi",
-          "quote": "integrate with Power BI, Copilot Studio, and MCP Server for analytics"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central",
+          "quote": "Organizations can integrate with Power BI, Copilot Studio, and MCP Server for analytics"
         }
       ]
     },
@@ -39211,32 +39192,28 @@
     "post/yzhums-com/76918": {
       "kind": "post",
       "key": "post/yzhums-com/76918",
-      "hash": "ef908c38a621d631fc2a75cddc49f186e420cbe4e482262c0c0985693c609c10",
+      "hash": "7196e408032f0b7e3229bcc2460a6e8127c256b3dd5bbe537ac153d1a447f916",
       "title": "Dynamics 365 Business Central: The AL Table Proxy Generator is distributed in the Microsoft.Dynamics.BusinessCentral.Development.Tools.Altpgen NuGet package (altpgen.exe missing from AL Language extension)",
       "source": "yzhums-com",
-      "at": "2026-10-28T10:50:06.752Z",
+      "at": "2026-11-08T00:55:47.754Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "generates proxy tables for integrating Microsoft Dataverse tables into Business Central"
-        },
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-apis",
-          "quote": "AL Table Proxy Generator tool generates proxy tables for integrating"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data",
+          "quote": "Proxy tables act as integration connectors linking Business Central tables to Microsoft Dataverse columns"
         }
       ]
     },
     "post/yzhums-com/76990": {
       "kind": "post",
       "key": "post/yzhums-com/76990",
-      "hash": "37fae2c50185ce1257aa7aa14929303bce9427ed0a617c13f6337d40f81db59a",
+      "hash": "aff9aa2af18dd855850236d8bc5e3677c04448aae4518192ca48776a2fdd8423",
       "title": "Dynamics 365 Business Central: An error occurred when communicating with Dataverse (User does not have required privileges to access the org when it is in Admin Only mode)",
       "source": "yzhums-com",
-      "at": "2026-10-28T10:50:06.752Z",
+      "at": "2026-11-08T00:55:45.400Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "integrating Business Central with Dataverse, users may encounter an error"
+          "quote": "When integrating Business Central with Dataverse, users may encounter an error"
         }
       ]
     },
@@ -39478,22 +39455,14 @@
     "video/-q8Gm7u7R2A": {
       "kind": "video",
       "key": "video/-q8Gm7u7R2A",
-      "hash": "0d67791b5b3025d71515d6dfca86e87d3167c0f15e487af6fe55924388e99191",
+      "hash": "e16abee581663225c21b7580697fe0712461b331c49a56ba3cfb28e06e9f53af",
       "title": "What's New: Business Central Integration with Dataverse (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:46.417Z",
+      "at": "2026-11-08T00:55:29.438Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "Business Central Integration with Dataverse; data synchronization; virtual tables"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization",
-          "quote": "Data synchronization; field mappings; table mappings"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
-          "quote": "power automate; data change events; business events"
+          "quote": "dataverse integration; data synchronization; virtual tables; data change events"
         }
       ]
     },
@@ -39564,14 +39533,14 @@
     "video/01GoAUnpBnw": {
       "kind": "video",
       "key": "video/01GoAUnpBnw",
-      "hash": "e5197f43771980cbe4e863fe0bf51fee82712b6ebc023d962a97d3a7a652a819",
+      "hash": "b3d6ea9d8c0c73f08d130514785feb2ed1360b6ddf4b88393611fe9ea21d04c8",
       "title": "What's New: Migrate Record Links and Notes (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:46.417Z",
+      "at": "2026-11-08T00:55:29.438Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/replicate-data",
-          "quote": "Record links and notes migration; data replication; cloud migration management"
+          "topic": "topic/dev-itpro/administration/migrate-to-business-central-online",
+          "quote": "cloud migration; record links; notes migration; data replication"
         }
       ]
     },
@@ -39600,14 +39569,14 @@
     "video/07G7aC14Y_w": {
       "kind": "video",
       "key": "video/07G7aC14Y_w",
-      "hash": "c90e9dc0c832e22e0475f6b856c15cb92dc9564ffe8f6181ae6900d40066ee44",
+      "hash": "bd1fddab6a1d47528b1c7a418c42a136e024334d3554b5ab45d1aa1bc8f44f73",
       "title": "What's new in E-Documents: Overview (2026 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:46.417Z",
+      "at": "2026-11-08T00:55:29.438Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
-          "quote": "E-Documents; EDI; purchase order; sales order; xml"
+          "quote": "EDI functionality in Business Central; Purchase order EDI document type; Sales order"
         }
       ]
     },
@@ -39891,14 +39860,14 @@
     "video/2430rfEywuI": {
       "kind": "video",
       "key": "video/2430rfEywuI",
-      "hash": "6fc8007473ca112f11738922efd4a887779caf843d14fe41acb2fceba2c90a07",
+      "hash": "61ddb38e22e014a0f16a9f91af9fa4ef2a8e81d1245fbb432ed51c10b456abdb",
       "title": "GP Assessment Tool - Optimize Your Migration to Dynamics 365 Business Central (2024)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:46.417Z",
+      "at": "2026-11-08T00:55:29.438Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp",
-          "quote": "GP Assessment Tool; migration planning; gp to business central"
+          "quote": "migration planning; cloud migration; gp to business central; assessment report"
         }
       ]
     },
@@ -40044,14 +40013,14 @@
     "video/2vUCR16b85o": {
       "kind": "video",
       "key": "video/2vUCR16b85o",
-      "hash": "929b2e40995a13e805e89d512156ce343b03ab515effcf880a19aebdc47171fc",
+      "hash": "ee46c94da21220fded25fa551569b39f889a60ae10fc4abe843e76adb081bd4a",
       "title": "Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)",
       "source": "yt-bcmusings",
-      "at": "2026-10-16T01:15:46.417Z",
+      "at": "2026-11-08T00:55:29.438Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-azure-services",
-          "quote": "external file storage; azure blob storage; storage accounts"
+          "topic": "topic/dev-itpro/integration/integrating-with-infrastructure-services",
+          "quote": "external file storage; azure blob storage; file shares; storage accounts"
         }
       ]
     },
@@ -40099,14 +40068,14 @@
     "video/3tmaVpPTQLw": {
       "kind": "video",
       "key": "video/3tmaVpPTQLw",
-      "hash": "9c37a10548f88a7118dd7ec23a7ffab2f5f808fd71535f1e72ea601791b828db",
+      "hash": "d43305286a88436a678399c1d003ebbb708c8d0744595229cb3622a3f3fa5ae6",
       "title": "What's New: Shopify Connector B2B Functionality (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:46.417Z",
+      "at": "2026-11-08T00:55:29.438Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Shopify Connector B2B Functionality; order editing; company synchronization"
+          "quote": "shopify connector; b2b; order editing; company synchronization; customer synchronization"
         }
       ]
     },
@@ -40379,24 +40348,24 @@
     "video/5OZ0g5IgC8Q": {
       "kind": "video",
       "key": "video/5OZ0g5IgC8Q",
-      "hash": "48b71e66ee3b8ef76f8b6b31ba75d91cdc01181beca12bdd8705d1ff66945571",
+      "hash": "5827ebc23f1fceb69e75868f215c3f3c35584d73adf212536b015d1b178427b1",
       "title": "What's new: Shopify Tax Matching (preview) (2026 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:49.655Z",
+      "at": "2026-11-08T00:55:30.296Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/shopify-tax-matching-preview",
-          "quote": "Shopify Tax Matching AI Capability; Tax Area Code Auto-Population"
+          "quote": "Shopify tax matching (preview) AI capability; tax rate reconciliation"
         }
       ]
     },
     "video/5Qfc7r618OM": {
       "kind": "video",
       "key": "video/5Qfc7r618OM",
-      "hash": "7b2b81fe28d3f0b80a4e46a95d28a79c2447de6397e2daee41623a5207495f3d",
+      "hash": "007d6f8c23923d029b8af0e7f6aed3d0953ea5100a2715bf73c267247c1dac45",
       "title": "What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:49.655Z",
+      "at": "2026-11-08T00:55:30.296Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
@@ -40542,14 +40511,14 @@
     "video/6bX7Ab4KYMA": {
       "kind": "video",
       "key": "video/6bX7Ab4KYMA",
-      "hash": "4b5297adc73fefbb2fc23595765e659ab03fca5d2b928be97477616c96d4bc22",
+      "hash": "8db56e8a98a425190b37fc13d55f8482dfcdc0dbad46569a99da7c5cc2e1a4fa",
       "title": "What's New: Cloud Migration Tooling (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:49.655Z",
+      "at": "2026-11-08T00:55:30.296Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/migrate-to-business-central-online",
-          "quote": "cloud migration; custom migration tool; migration platform; sql sources"
+          "quote": "Cloud migration; custom migration tool; migration platform; table mappings"
         }
       ]
     },
@@ -40705,14 +40674,14 @@
     "video/6vHJQggN4F4": {
       "kind": "video",
       "key": "video/6vHJQggN4F4",
-      "hash": "7429ebec4213b2acf1cf74d55894be5fdbf2ce461551e67f219f1ba460fc4407",
+      "hash": "712879d23d2e04fe80e99908d3acda4145d07126798438cdadbcf8a317b11d14",
       "title": "What's New: Product Information Management in Shopify Connector (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:49.655Z",
+      "at": "2026-11-08T00:55:30.296Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Item Variant Image Export to Shopify; Item Attributes for Shopify Options"
+          "quote": "Product Information Management in Shopify Connector; item variants; image export"
         }
       ]
     },
@@ -40742,18 +40711,14 @@
     "video/6Zb7VAvLVm4": {
       "kind": "video",
       "key": "video/6Zb7VAvLVm4",
-      "hash": "737803c2950120829f337850bf613a8c464bb226f1356592c5d42db4ed7bc014",
+      "hash": "2c9037ccc76e22b835cca0fceff061be0c22874894bcd2256bad60a8fcaf5f86",
       "title": "What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:49.655Z",
+      "at": "2026-11-08T00:55:30.296Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi",
-          "quote": "Power BI Embedded Reports with Full Capabilities; Power BI Report Page Bookmarking"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi",
-          "quote": "Copilot Studio Connector for Business Central; Copilot Studio Generative AI Mode"
+          "quote": "Business Central Integration with Power Platform including Power BI"
         }
       ]
     },
@@ -41488,14 +41453,14 @@
     "video/AR2FiD64wbw": {
       "kind": "video",
       "key": "video/AR2FiD64wbw",
-      "hash": "715a776516c712f0d556a458943c9e9c0c38a7f2bb30e867f722a77411c13bc6",
+      "hash": "2773ace3f16060e65be4244413ba15bbd43a3752cef527604874347be9a0ad8c",
       "title": "What's New: Shopify Connector (2024 release wave 2) in 2 minutes",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:46.499Z",
+      "at": "2026-11-08T00:55:30.296Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "shopify connector; meta fields; data synchronization; language translation; pricing"
+          "quote": "Shopify Connector; meta fields; data synchronization; language translation"
         }
       ]
     },
@@ -41530,18 +41495,14 @@
     "video/auoHUd24Gfw": {
       "kind": "video",
       "key": "video/auoHUd24Gfw",
-      "hash": "705914daca46158a8f58a627225e0e65720ecbdfa1e6828da4c5fbf66c9b3c05",
+      "hash": "283a188d5e281b55976b47c8d2ec4b5e6383c46434ebc6c594157bedfda44ce2",
       "title": "What's New: Using Power Pages with Business Central (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:49.714Z",
+      "at": "2026-11-08T00:55:29.478Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "Multi-company support through Dataverse shared execution variable; Anonymous read-only access for external users"
-        },
-        {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps",
-          "quote": "Custom Dataverse mapping plugin for company targeting; Portal ID retrieval from Power Pages URL"
+          "quote": "Using Power Pages with Business Central; virtual tables; multi-company support; external user access"
         }
       ]
     },
@@ -41617,14 +41578,18 @@
     "video/B-pxLlb-UN0": {
       "kind": "video",
       "key": "video/B-pxLlb-UN0",
-      "hash": "5598392243cfbf4665ff2334ffe9bbfd1002f98c76a1a9798d7c965a4176a065",
+      "hash": "842c2106bdf9ed2117a856882f33b7a1ed80d5cd73f71a7284ba1a60fd1e6d41",
       "title": "What's New: Shopify Connector - Overview (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:46.499Z",
+      "at": "2026-11-08T00:55:31.221Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "shopify connector; product information management; item variants; presentment currency; price synchronization"
+          "topic": "topic/business-central/business-functionality/online-store-with-shopify",
+          "quote": "Shopify connector; product information management; item variants; presentment currency; price synchronization"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector",
+          "quote": "Shopify collections import and mapping; Item import from Shopify with product details"
         }
       ]
     },
@@ -41885,14 +41850,18 @@
     "video/BwBR8JwwQa4": {
       "kind": "video",
       "key": "video/BwBR8JwwQa4",
-      "hash": "40f41864e07d2fc1ff78dd5541dc6aada2eabfcf6749a9d95cdcdbfd264ebc6f",
+      "hash": "33008e7ab070230a10bcbe96a903d67f664e7589536b1ade04c565d40b2143eb",
       "title": "What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:46.499Z",
+      "at": "2026-11-08T00:55:31.221Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-shopify",
+          "topic": "topic/business-central/business-functionality/online-store-with-shopify",
           "quote": "shopify connector; b2b; company locations; tax id mapping; payment terms"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/relationship-management/manage-contacts",
+          "quote": "Shopify B2B company locations import; Tax ID automatic entity mapping; Customer export"
         }
       ]
     },
@@ -42163,18 +42132,14 @@
     "video/cuez5kIanKo": {
       "kind": "video",
       "key": "video/cuez5kIanKo",
-      "hash": "8ee506cf666df583437fd913b7c1709151de74000afaa9d368818ed4bc4aade6",
+      "hash": "109fb2865c58285c9d08e079bf9354333ddf06ec82093fe05eeb4d368e53f615",
       "title": "What's New in Shopify Connector: Activate Sales Channels (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:49.714Z",
+      "at": "2026-11-08T00:55:29.478Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Activate Specific Sales Channels; Multiple Sales Channels Setup; Product Export to Shopify"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/sales",
-          "quote": "Product Export to Shopify; Sales Channel Verification"
+          "quote": "Shopify connector; sales channels; product export; channel activation"
         }
       ]
     },
@@ -42622,14 +42587,18 @@
     "video/e5Dr3jzCLM8": {
       "kind": "video",
       "key": "video/e5Dr3jzCLM8",
-      "hash": "7f021e5741a41ce3c76d60dc6821e4bfefcd97ec2c5d5b89b477b9f13121d0de",
+      "hash": "34d9eff8c95d7107b55ce2884275aceb105ccf5370539ff8018d996d507ab01a",
       "title": "Introducing: Shopify and Dynamics 365 Business Central (2023)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:49.714Z",
+      "at": "2026-11-08T00:55:31.673Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Shopify integration with Business Central; Automatic inventory synchronization; Automatic order fulfillment"
+          "quote": "Shopify integration with Business Central; Automatic inventory synchronization"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/sales",
+          "quote": "Automatic order fulfillment; financial visibility and reporting"
         }
       ]
     },
@@ -42785,14 +42754,18 @@
     "video/EVntnDFE1R4": {
       "kind": "video",
       "key": "video/EVntnDFE1R4",
-      "hash": "8952f0274d79ad1830fa6198b3c089058988de3e9b3633f872e17b0d8ec3d115",
+      "hash": "091ad2f5cb3a34460184d6d36ddd7ed2e86ef85ad1c54040a5c8dacd9ebc6ffc",
       "title": "What's New: Business Central Integration with Power Platform (2023 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:46.499Z",
+      "at": "2026-11-08T00:55:31.221Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
-          "quote": "power automate; power apps; dataverse; virtual tables; business events"
+          "topic": "topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-automate",
+          "quote": "Approval Workflow Templates in Power Automate; Automated Flow Templates Based on Business Events"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
+          "quote": "Dataverse virtual tables for Business Central; Data sync technology for Dataverse"
         },
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi",
@@ -43004,18 +42977,18 @@
     "video/fIOnGEARkKs": {
       "kind": "video",
       "key": "video/fIOnGEARkKs",
-      "hash": "d5412edaf24800f81c80602011d9d025eb04084b52cbe2495945c002abada140",
+      "hash": "04b87130deafc64a415e5a3ae0b35dc4010b901ea9426610461bc51977c678d0",
       "title": "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:49.714Z",
+      "at": "2026-11-08T00:55:31.673Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "Multi-company and multi-environment synchronization; Multi-currency synchronization"
+          "quote": "Multi-company and multi-environment synchronization; Dynamics 365 app integration"
         },
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
-          "quote": "Control over event-based synchronization; Virtual tables visibility during assisted setup"
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization",
+          "quote": "Multi-currency synchronization; Additional field mappings for integration"
         }
       ]
     },
@@ -43225,14 +43198,18 @@
     "video/gAzmWJg9Z5g": {
       "kind": "video",
       "key": "video/gAzmWJg9Z5g",
-      "hash": "e97444afdd7ad34a31381bf5bcd7daa1716227e542f54b50b3ea3c8cc10a0c0f",
+      "hash": "13b9a6c2d94bb58aa454d568bfebbbcd5be6024d53b49c374c3344985cba0935",
       "title": "What's New: Key Updates in Learning Content (docs) for Systems Architects and Integration Developers",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:52.588Z",
+      "at": "2026-11-08T00:55:31.673Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration",
-          "quote": "integration overview; microsoft 365 apps; power platform; dataverse; azure services; web services"
+          "quote": "Integration Overview Documentation; New Integration Landing Page"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor",
+          "quote": "Power Platform Integration Documentation"
         }
       ]
     },
@@ -43491,14 +43468,14 @@
     "video/Gwgpj1U1wxI": {
       "kind": "video",
       "key": "video/Gwgpj1U1wxI",
-      "hash": "598ece5b8d859aac764aeb75db45f099e4d6f9c0fd538ed7c0e22263e1dd26fd",
+      "hash": "d9dea946d4a8524fe4579dc9ac6f5c4f3c95a336e63e97bb83dc3658076d114f",
       "title": "Introduction to Business Central Cloud Migration (2023)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:46.499Z",
+      "at": "2026-11-08T00:55:31.221Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise",
-          "quote": "cloud migration; azure data factory; sql to sql copy; integration runtime; data replication"
+          "topic": "topic/dev-itpro/administration/migrate-to-business-central-online",
+          "quote": "Cloud Migration Tooling; Azure Data Factory Pipeline; Integration Runtime; Data Replication"
         }
       ]
     },
@@ -43577,14 +43554,18 @@
     "video/h5PQI4I4b7c": {
       "kind": "video",
       "key": "video/h5PQI4I4b7c",
-      "hash": "b446284c7703ef8f3bb266db22244e2d33b8e0cdc8185462811ecfe357e09af5",
+      "hash": "cfcc87222a7050121de2c7cfa73f33f0f6dd89802f3785959925a922b89065e2",
       "title": "What's New in Shopify Connector: Metafields (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:52.588Z",
+      "at": "2026-11-08T00:55:31.673Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Metafields synchronization from Shopify; Metafield mapping via extensibility model"
+          "quote": "Shopify connector; Metafields synchronization from Shopify"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extensibility/extending-the-base-application",
+          "quote": "Metafield mapping via extensibility model"
         }
       ]
     },
@@ -44127,14 +44108,14 @@
     "video/inuqqx12yJ8": {
       "kind": "video",
       "key": "video/inuqqx12yJ8",
-      "hash": "4995c826d776cdea1cf3304baca83844b21dd42510c41a947f622bdebbd63955",
+      "hash": "182b9111de3c667e05495884ebee94e615219b028d856d39d9cea5d82e3873a6",
       "title": "What's New in Shopify Connector: Point of Sale (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:52.588Z",
+      "at": "2026-11-08T00:55:31.673Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Shopify POS integration with Business Central; Cash rounding for POS transactions"
+          "quote": "Shopify POS integration with Business Central"
         }
       ]
     },
@@ -44176,16 +44157,11 @@
     "video/ItuCEHpaI1E": {
       "kind": "video",
       "key": "video/ItuCEHpaI1E",
-      "hash": "d6cb41bcfa204311bf45941338fe3997202d82d469384a848535fa5a37f96aac",
+      "hash": "3342a2e149eb7f1d723474e44a0de62072a38ff90ca905083876fd1cee785697",
       "title": "What's New: Auto-Applying Templates in Integration with Dataverse (2024 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:46.499Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "configuration templates; dataverse integration; data synchronization; conditional rules; integration table mappings"
-        }
-      ]
+      "at": "2026-11-08T00:55:31.221Z",
+      "matches": []
     },
     "video/iViHfCgL2L8": {
       "kind": "video",
@@ -44272,14 +44248,18 @@
     "video/Jbo2DOCd7Pw": {
       "kind": "video",
       "key": "video/Jbo2DOCd7Pw",
-      "hash": "7e41f13894cd9e734b98da38236f0b69db43db32f051aa25011ab5c16e904def",
+      "hash": "c47a1efb3b2acbeb6cb14c3faf25c52c94ea1f725d98aa3f8c83e73d89fc3ecb",
       "title": "What's New: Integration with Dynamics 365 Field Service (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:47.434Z",
+      "at": "2026-11-08T00:55:31.221Z",
       "matches": [
         {
           "topic": "topic/business-central/integrate-with-other-applications/dynamics-365-field-service",
-          "quote": "Integration with Dynamics 365 Field Service; data synchronization; dataverse; service order"
+          "quote": "Field Service Integration for Projects; Field Service Integration for Service Management; Data Synchronization"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/service-management",
+          "quote": "Field Service Integration for Service Management; Dataverse Data Sync Technology; Work Order"
         }
       ]
     },
@@ -44706,20 +44686,11 @@
     "video/KbXzMR4n4h8": {
       "kind": "video",
       "key": "video/KbXzMR4n4h8",
-      "hash": "6900dac3fc1d64e00b6acf7e3a53cd315b0910bf9fc193934426f914f127123b",
+      "hash": "abb94e920e2ce310a11b23543bf9ce1ff096edb601726ba8c47f3a5153fdd649",
       "title": "What's New: Commerce Capabilities of Business Central Apps (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:47.434Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/administration/automation-api/extension",
-          "quote": "app monetization; appsource; isv licensing; entitlements; licensing; permissions"
-        },
-        {
-          "topic": "topic/dev-itpro/administration/entitlements-and-permissions",
-          "quote": "Entitlements for AppSource Apps; entitlements mapping; license-conditional functionality"
-        }
-      ]
+      "at": "2026-11-08T00:55:28.947Z",
+      "matches": []
     },
     "video/kCTYPb5t5XQ": {
       "kind": "video",
@@ -45001,14 +44972,14 @@
     "video/lClKXB8xXIE": {
       "kind": "video",
       "key": "video/lClKXB8xXIE",
-      "hash": "963fbbe802a48c9096ad3f9c5ae10e666bcc093ad4e3c3f558becd84b8659222",
+      "hash": "5eb3a4c28784664d91a67b02649fb05b08c3108891a5e859a3b1f31ebe07359d",
       "title": "What's New: Troubleshooting Shopify Integration (2023 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:52.588Z",
+      "at": "2026-11-08T00:55:34.705Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Enhanced Shopify Log Entries View; Request ID for Shopify Support; Logging Mode Option"
+          "quote": "Enhanced Shopify Log Entries View; Request ID for Shopify Support; User Error Section in Log Responses"
         }
       ]
     },
@@ -45052,14 +45023,14 @@
     "video/lCXrKdxneKo": {
       "kind": "video",
       "key": "video/lCXrKdxneKo",
-      "hash": "e4491dd16371f7da8f4c1066d3184a5aae59c6918afbd38789085997e7957aab",
+      "hash": "804cc941114e133bd8aaf66ab97e48ce9cf551bccd3810c6747ca7bf2fbdce38",
       "title": "Introduction to Business Central Cloud Migration Tooling (2022)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:52.588Z",
+      "at": "2026-11-08T00:55:31.673Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/migrate-to-business-central-online",
-          "quote": "Cloud Migration Tooling; One-Step Upgrade to Version 21; Direct Cloud Migration"
+          "quote": "Cloud Migration Tooling; One-Step Upgrade; Direct Cloud Migration"
         }
       ]
     },
@@ -45574,14 +45545,14 @@
     "video/mXvKs6X1DNk": {
       "kind": "video",
       "key": "video/mXvKs6X1DNk",
-      "hash": "f9a011683c808c3a7d29cd375d69fabc532f924b3358c009dffc62c4f31ba3c2",
+      "hash": "813d124fe026d83e584e277a33036ed7be2bd1207e33bbf08b091b1716c2a506",
       "title": "What's new: Cross-environment Master Data Management (2026 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:53.529Z",
+      "at": "2026-11-08T00:55:34.705Z",
       "matches": [
         {
           "topic": "topic/business-central/development-and-administration/synchronize-master-data-across-companies",
-          "quote": "Cross-environment Master Data Management; cross-environment synchronization; multi-tenant"
+          "quote": "Cross-environment Master Data Synchronization; Entra ID-based Authorization; Read-only HQ Data Source"
         }
       ]
     },
@@ -45869,14 +45840,14 @@
     "video/NMO822Jf_4E": {
       "kind": "video",
       "key": "video/NMO822Jf_4E",
-      "hash": "229b7a97a8ed46727f611902d6f846a443af0d12682dd729731aa50da9531f87",
+      "hash": "682e110e37657535c6d7645e8dd32f914f0b958319e6627ee59024405998de9b",
       "title": "What's New: Processing of Presentment Currencies in Shopify (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:47.434Z",
+      "at": "2026-11-08T00:55:28.947Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/online-store-with-shopify",
-          "quote": "Processing of Presentment Currencies in Shopify; multi-currency; price synchronization"
+          "topic": "topic/dev-itpro/integration/integrating-with-shopify",
+          "quote": "Presentment currency support in Shopify order processing"
         }
       ]
     },
@@ -46077,14 +46048,14 @@
     "video/O921cRqXdiw": {
       "kind": "video",
       "key": "video/O921cRqXdiw",
-      "hash": "5fd86644a8679daa6d5aab03257ddc10ee1eb74a2d28fc0bc220755e57fe3c8b",
+      "hash": "4b4cf0ee9d77a2ec504459d02af18d57060a5d151f08e2982de78c2909e297b7",
       "title": "What's New: Cloud Migration and Upgrade (2023)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:47.434Z",
+      "at": "2026-11-08T00:55:28.947Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/migrate-to-business-central-online",
-          "quote": "Cloud migration; data replication; Azure Data Factory; cloud migration"
+          "quote": "Cloud migration and upgrade; data replication; performance optimization"
         }
       ]
     },
@@ -46219,14 +46190,14 @@
     "video/OnC0a5zy-oQ": {
       "kind": "video",
       "key": "video/OnC0a5zy-oQ",
-      "hash": "dfcd237f68897a95667399650d32faa3f2d2139691e63715f550669162e77088",
+      "hash": "019b2af985f8b75e030c824588102e7ffff410afcadaeba3bad9a6a45155878d",
       "title": "What's Cooking in Business Central: Managing Feature Management through an API",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:47.434Z",
+      "at": "2026-11-08T00:55:28.947Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/automation-api/feature-management",
-          "quote": "Feature management; api; automation; get request; activate bound action"
+          "quote": "Feature Management API; Activate Bound Action; Deactivate Bound Action"
         }
       ]
     },
@@ -46301,18 +46272,14 @@
     "video/p-pwG6f5srY": {
       "kind": "video",
       "key": "video/p-pwG6f5srY",
-      "hash": "991c1fbc644af86ba72d33a6fee167f27b6a649da21d0f0eeabffbe3eb12bd2b",
+      "hash": "c783ae3cca7b1a7ae098f535f1465d62b550a15615e21d4911ad7fd786b896a1",
       "title": "What's New: Shopify Connector (2024 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:53.529Z",
+      "at": "2026-11-08T00:55:34.705Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/online-store-with-shopify",
-          "quote": "Shopify connector; custom fields; meta fields; product synchronization"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/sales",
-          "quote": "Return processing; Posted Sales Invoice Synchronization; Multi-Payment Reconciliation"
+          "topic": "topic/dev-itpro/integration/integrating-with-shopify",
+          "quote": "Custom Fields and Meta Fields Support; Translation Synchronization; Add Items as Shopify Variants"
         }
       ]
     },
@@ -47666,14 +47633,14 @@
     "video/sk5CaXnvvng": {
       "kind": "video",
       "key": "video/sk5CaXnvvng",
-      "hash": "672e09e73760838e1ce92bca2a23d3fb19fc7e0c5b1398bf434017067a1f96df",
+      "hash": "dc7c3c706e006cd27153d9c00a42db031e60536cf4b94db748a1617ff46388f0",
       "title": "What's New: Server and Database - More Stable Web Services (2023 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:53.529Z",
+      "at": "2026-11-08T00:55:34.705Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services",
-          "quote": "Web services; odata; http status codes; error handling"
+          "quote": "Editable Property Support in OData for Edit in Excel; HTTP 503 Return Code for Request Queue Timeout"
         }
       ]
     },
@@ -47746,22 +47713,14 @@
     "video/StIVhsnOHWY": {
       "kind": "video",
       "key": "video/StIVhsnOHWY",
-      "hash": "b465ac15d678ab4c62d98d4066003b255c554b93f67ea2ff545c1055333ceb87",
+      "hash": "8a4f4c96cadc434df19404282506cba65813a3bf6910601fecff09bf9f41bd58",
       "title": "What's New in Shopify Connector: Troubleshoot Synchronization (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:49.564Z",
+      "at": "2026-11-08T00:55:28.947Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/online-store-with-shopify",
+          "topic": "topic/dev-itpro/integration/integrating-with-shopify",
           "quote": "Shopify connector; troubleshooting; synchronization; job queue"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/sales",
-          "quote": "Order import; error handling; refunds; Sync orders from Shopify"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/inventory",
-          "quote": "Inventory levels; location filters; Inventory tracking on products"
         }
       ]
     },
@@ -48613,24 +48572,11 @@
     "video/V_ZyGeF5JXE": {
       "kind": "video",
       "key": "video/V_ZyGeF5JXE",
-      "hash": "3ce75df76bbc64f09ac1f8b4ef583d3525c78ba1d42dc79d5b0fd421b5aa74fa",
+      "hash": "00ca910ebe11ebe1af99e069d1b7de80b6f1d1eb4e8a7c83bcd8edc35632a319",
       "title": "What's New: Business Central Integration with Power Platform",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:49.564Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
-          "quote": "Power Automate; approval workflows; connector actions; power platform"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi",
-          "quote": "Copilot Studio Integration; Copilot in Power Automate"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central",
-          "quote": "AI Builder GPT Integration in Approval Templates; GPT-Powered Sales Order"
-        }
-      ]
+      "at": "2026-11-08T00:55:28.947Z",
+      "matches": []
     },
     "video/V2mfuDh8Kfk": {
       "kind": "video",
@@ -48774,18 +48720,14 @@
     "video/VjYMhjjc3uw": {
       "kind": "video",
       "key": "video/VjYMhjjc3uw",
-      "hash": "d6d70dad1495c9bed2ff349805d0b83c7ea60abbef411236684a2b8434ec7f45",
+      "hash": "a3dc1649a8dae4219950f39ac5d9e53a13bfec946ef7ce60dbf108b0b479f8e0",
       "title": "What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:49.564Z",
+      "at": "2026-11-08T00:55:29.478Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/online-store-with-shopify",
-          "quote": "Shopify connector; B2B companies; company locations; customer mapping"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/sales",
-          "quote": "Shopify Orders Import; Order Synchronization with Location Mapping"
+          "topic": "topic/dev-itpro/integration/integrating-with-shopify",
+          "quote": "Shopify B2B Companies with Multiple Locations; Shopify Orders Import; Customer synchronization"
         }
       ]
     },
@@ -48910,22 +48852,14 @@
     "video/VpNQ-CYNrkM": {
       "kind": "video",
       "key": "video/VpNQ-CYNrkM",
-      "hash": "2a098da3bc0dde2b4e8aadb29eb1196fb824c4f92fe3e897db252b70d62f869a",
+      "hash": "2ae7641f25766cc9385f93a5c2249b14fdca2961daa6304e63bd495c699e83a2",
       "title": "What's New: Web Services in Business Central (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:49.564Z",
+      "at": "2026-11-08T00:55:29.478Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services",
-          "quote": "Web Services in Business Central; OData; API performance; web service"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/web-services/odata",
-          "quote": "OData in Operator Support; OData Performance Optimization"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "API Schema Version 2.0 Default; API Version 1 Deprecation"
+          "quote": "Web Services in Business Central; OData; API performance; Web service queue; SOAP deprecation"
         }
       ]
     },
@@ -49788,18 +49722,14 @@
     "video/xqwJTCPD9tA": {
       "kind": "video",
       "key": "video/xqwJTCPD9tA",
-      "hash": "f87d41bca591a38c4bea324eb7807631838190ae50e93a5b50f7fd5544da9041",
+      "hash": "2558a94f5d6bfe2ccd0ee62504ce4bfe0d6101340133dadc6ac309f64f0b0eb2",
       "title": "Designing Modern Integrations in Business Central",
       "source": "yt-mibuso",
-      "at": "2026-10-16T01:15:54.656Z",
+      "at": "2026-11-08T00:55:34.705Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration",
-          "quote": "modern integrations; ai agents; integration messages; spec-driven development"
-        },
-        {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "AI agents for integration design; Agent-generated technical documentation"
+          "quote": "AI agents for integration design; Spec-driven development for integrations; Information flow visualization"
         }
       ]
     },
@@ -50038,18 +49968,14 @@
     "video/YSDfDjrMUb0": {
       "kind": "video",
       "key": "video/YSDfDjrMUb0",
-      "hash": "8fff98e8f9c7fd432687c1bbf02d8fe14090f33f702b78e3550a704a568bc06b",
+      "hash": "dfb0d27729db6b3f012b31161d466dfac0b9d8b550a0792afe237bcd3792a730",
       "title": "What's new in Shopify Connector: Overview (2026 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:49.564Z",
+      "at": "2026-11-08T00:55:29.478Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/online-store-with-shopify",
-          "quote": "Shopify connector; product synchronization; tariff codes; b2b"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/sales",
-          "quote": "Order management; order numbering; returns processing; sales documents"
+          "topic": "topic/dev-itpro/integration/integrating-with-shopify",
+          "quote": "Shopify connector; product synchronization; tariff codes; B2B; company synchronization"
         }
       ]
     },
@@ -50070,22 +49996,14 @@
     "video/YTA8c2XyTX4": {
       "kind": "video",
       "key": "video/YTA8c2XyTX4",
-      "hash": "404d00afda0b17c63dd4814851e59c492034b7723ceb14a1e4f63b580ec67d7b",
+      "hash": "5613768c9ba9520ba3414d0b022db96258beeed5add4a42ac3daea2901810061",
       "title": "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:49.714Z",
+      "at": "2026-11-08T00:55:29.478Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "Virtual Tables General Availability; Power Pages Support via Virtual Tables; Data Change Events"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
-          "quote": "Business Events via Power Automate; Data Change Events via Power Automate"
-        },
-        {
-          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central",
-          "quote": "Microsoft Entra app users for BC data access; Role-based Power Pages table permissions"
+          "quote": "Dataverse integration; virtual tables; data synchronization; business events; external users"
         }
       ]
     },
@@ -50255,18 +50173,14 @@
     "video/zei-IszvYNU": {
       "kind": "video",
       "key": "video/zei-IszvYNU",
-      "hash": "8eb722c8c56e13067f65e3eb6b870f97950d1bb8a4d1fd2ab8f76775ba40348b",
+      "hash": "244b0b60ce997ba7b09142d75d2c48889ac9ae23dc81421f6e8b64993deee688",
       "title": "MCP Server and All Microsoft API's (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-16T01:15:54.656Z",
+      "at": "2026-11-08T00:55:34.705Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "All Microsoft published APIs available in MCP server"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "agents; api configuration; agent development"
+          "quote": "All Microsoft published APIs available in MCP server; Add tools by API group in MCP configuration"
         }
       ]
     },

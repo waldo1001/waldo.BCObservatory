@@ -12,7 +12,7 @@ review:
   at: "2026-11-03T01:02:12.282Z"
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -364,6 +364,8 @@ links:
     - video/QhHgkCe3kkk
   posts:
     - post/aardvarklabs-blog/2603
+    - post/aardvarklabs-blog/2838
+    - post/aardvarklabs-blog/2953
     - post/nataliekarolak-com/1855
     - post/nataliekarolak-com/3653
     - post/nataliekarolak-com/4184
@@ -402,7 +404,7 @@ coverage:
   learn: 340
   code: 36
   video: 3
-  blog: 7
+  blog: 9
   guideline: 0
 bc_forms:
   - 16
@@ -502,6 +504,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#195 Add foundational AL developer knowledge](../../../changes/bcquality/195.md) (code change): "Add foundational AL developer knowledge. Adds seven foundational AL knowledge articles"
 - [#260 Fix al-knowledge follow-ups and document the skill](../../../changes/bcquality/260.md) (code change): "Extended al-knowledge skill to support JavaScript technology queries for control-add-in"
 - [Guide to Handling Header and Detail Imports into Business Central with AL](../../../posts/aardvarklabs-blog/2603.md) (community post): "demonstrates how to parse and import delimited files using AL"
+- [Importing Multi-Tab Excel Files into Business Central](../../../posts/aardvarklabs-blog/2838.md) (community post): "code examples using AL to read separate header and line"
+- [How to Use External APIs in Business Central](../../../posts/aardvarklabs-blog/2953.md) (community post): "HttpClient data type with complete AL code samples"
 - [Snippet: StrMenu from Enum list](../../../posts/nataliekarolak-com/1855.md) (community post): "AL code snippet that uses StrMenu to let users select from a filtered"
 - [Docs: What’s new in BC 27 for developers](../../../posts/nataliekarolak-com/3653.md) (community post): "New AL methods for GUID creation, truncate operations, text manipulation"
 - [Using Substring to replace CopyStr](../../../posts/nataliekarolak-com/4184.md) (community post): "Using Substring to replace CopyStr for improved code readability"

@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:47:35.750Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -80,7 +80,7 @@ preview:
   image_h: null
   site_name: Stefan Maron
   favicon: https://stefanmaron.com/icons/favicon-32x32.png
-  probed_at: "2026-10-07T11:50:17.671Z"
+  probed_at: "2026-11-08T00:52:49.032Z"
 ---
 
 # AL Runner v2.2 and v2.3: Coverage, Quick Scripts, and a Watch Mode You Can Trust

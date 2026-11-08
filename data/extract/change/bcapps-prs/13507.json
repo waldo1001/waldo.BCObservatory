@@ -8,11 +8,10 @@
   ],
   "summary": "E-Document AI processing now supports switching between LLM models for PA-related calls via Azure Key Vault configuration, preparing for a future model migration.",
   "key_points": [
-    "Added AKV-based switching mechanism for model selection in E-Document LLM calls",
-    "Enables toggling between different models for PA-related processing",
-    "Facilitates upcoming migration without requiring code changes",
-    "Changes to both AI Tool Processor and MLLM Handler codunits",
-    "Configuration-driven approach using Azure Key Vault"
+    "Adds an AKV-based switch that selects the model for PA-related E-Document LLM calls",
+    "Touches the E-Doc. AI Tool Processor and E-Document MLLM Handler codeunits",
+    "Prepares for an upcoming model migration",
+    "Processing docs updated to match"
   ],
   "change_kind": "feature",
   "behavior_change": true,

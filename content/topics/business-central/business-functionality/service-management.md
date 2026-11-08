@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:45.537Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -346,6 +346,7 @@ links:
     - topic/business-central/business-functionality/service-management/deliver-service
   localizations: []
   videos:
+    - video/Jbo2DOCd7Pw
     - video/N8Unj6WLB6U
     - video/pEXl-POet_4
     - video/WvG4EOHQuiw
@@ -370,7 +371,7 @@ children:
 coverage:
   learn: 56
   code: 35
-  video: 3
+  video: 4
   blog: 1
   guideline: 0
 bc_forms:
@@ -458,6 +459,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11152 [29.x]Mark as Accepted in posted documents for Spanish SII](../../../changes/bcapps/11152.md) (code change): "Mark as Accepted action was added to posted sales purchase and service invoice"
 - [#12290 Remove CLEAN27 from Service Management](../../../changes/bcapps/12290.md) (code change): "Remove CLEAN27 from Service Management; service documents, history pages, tables and reports"
 - [Business Central 2026 release wave 1 (BC28): Filter receipt and shipment lines to quickly find documents you want to invoice (New filters on the Get Receipt Lines, Get Shipment Lines, and Get Service Shipment Lines pages)](../../../posts/yzhums-com/71648.md) (community post): "Get Service Shipment Lines pages to help users quickly locate"
+- [What's New: Integration with Dynamics 365 Field Service (2025 release wave 1)](../../../videos/Jbo2DOCd7Pw.md) (video): "Field Service Integration for Service Management; Dataverse Data Sync Technology; Work Order"
 - [What's New: Service Management (2024 release wave 1)](../../../videos/N8Unj6WLB6U.md) (video): "Service quote; service order; service contract; service items; invoicing policy"
 - [What's New: Project and Service Management (2024 release wave 1)](../../../videos/pEXl-POet_4.md) (video): "service archiving; service filing; service contract filing improvements"
 - [What's New: Field Service Integration to Service Management (2024 release wave 2)](../../../videos/WvG4EOHQuiw.md) (video): "Field Service Integration to Service Management; Service Management Setup Changes"

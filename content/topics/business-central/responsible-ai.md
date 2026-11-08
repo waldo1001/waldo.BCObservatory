@@ -2,21 +2,21 @@
 id: topic/business-central/responsible-ai
 type: topic
 title: Responsible AI
-summary: Responsible AI in Business Central covers FAQs and application cards for Copilot features and AI agents. It answers questions about what each feature does, its limitations, safety controls, permissions, human review, and how to give feedback.
+summary: Responsible AI documentation for Business Central Copilot features and agents. It answers questions about what each AI feature does, its limits, safety controls, human review steps, and how to give feedback.
 tier: official
 language: en
 system: copilot
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-30T08:08:32.465Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 32c795294d350b921c9d7cbc090684a37bfdb44b2f92ec213409c9aef89df405
+  input_hash: 1abd12e8a096ac9cae272f4cb3580d8620ea1fd4614df7197c0389413f2eb670
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/microsoft-copilot-in-business-central-application-card
@@ -176,28 +176,28 @@ narrative: generated
 
 # Responsible AI
 
-> Responsible AI in Business Central covers FAQs and application cards for Copilot features and AI agents. It answers questions about what each feature does, its limitations, safety controls, permissions, human review, and how to give feedback.
+> Responsible AI documentation for Business Central Copilot features and agents. It answers questions about what each AI feature does, its limits, safety controls, human review steps, and how to give feedback.
 
-Path: Responsible AI · tier official · system copilot · narrative reviewed (checked by Opus)
+Path: Responsible AI · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects responsible AI documentation for Business Central AI capabilities. Each page describes one feature: what it does, how it uses data and user permissions, its limitations, safety measures, and how to send feedback. There are no subtopics, so all pages sit at one level.
+This section collects Responsible AI FAQs and application cards, one per AI feature in Business Central. Each page describes what the feature does, its limitations, safety measures such as permission enforcement and content filtering, and how to give feedback. The index page, "Responsible AI FAQs for Dynamics 365 Business Central", is the best starting point for finding a specific feature.
 
-The pages fall into groups. Copilot assistive features include analysis assist, Autofill, summarize, Advanced Tell Me, marketing text suggestions, item substitutions, sales line suggestions, number series suggestions, and bank reconciliation assist. Agent pages cover the Sales Order Agent, Payables Agent, and Expense Agent. Application cards cover Copilot in Business Central and Shopify Tax Matching.
+The pages cover several groups. Copilot assistance in the UI includes Application Card for Copilot in Business Central, Advanced Tell Me, analysis assist, summarize, Autofill, and marketing text suggestions. Data-entry and setup help includes suggest sales lines, item substitutions, and number series. Finance and trade features include bank reconciliation assist and Shopify Tax Matching. Agents include Sales Order Agent, Payables Agent, and Expense Agent.
 
-Start with the index page, "Responsible AI FAQs for Dynamics 365 Business Central", to find the right document. Then open the page for the feature you are evaluating. Several features are marked preview, so check each page for status.
+Several features are marked preview, so check each page for its status. The e-document matching page is deprecated in favor of the Payables Agent.
 
 ## Key points
 
-- The index page lists Responsible AI FAQs covering data security, Copilot features, agents, and other AI capabilities.
-- The Copilot application card explains that Copilot answers questions about Business Central data using application context, enforces user permissions, and provides references.
-- Shopify Tax Matching maps free-text Shopify tax descriptions to Business Central tax jurisdictions for US-based online organizations, with confidence indicators, rate-conflict detection, and review and approval.
-- Payables Agent monitors email inboxes for PDF invoices, extracts data, matches vendors, classifies accounts, and creates draft purchase invoices for human review.
-- E-documents Matching Assistance with Copilot is deprecated in favor of the Payables Agent.
-- Sales Order Agent handles customer email requests: identifies customers, checks item availability, prepares quotes, and converts them to sales orders, with notifications and approval workflows.
-- Expense Agent (preview) processes receipts, categorizes expenses, validates rules, and produces draft reports for human review before posting.
-- Autofill (preview, version 26.4) uses Azure OpenAI Service and optional Bing Search, works under user permissions, and requires manual review before suggestions are saved.
+- Start with the index page 'Responsible AI FAQs for Dynamics 365 Business Central' to find a feature's FAQ.
+- The Application Card for Copilot in Business Central covers answering questions about business data within user permissions, with references to the information used.
+- Agents covered: Sales Order Agent (quotes and orders from email), Payables Agent (draft vendor invoices and credit notes, no posting), and Expense Agent (preview, draft expense reports for human review).
+- Preview Copilot features documented: bank reconciliation assist, analysis assist, summarize, Autofill, suggest sales lines, and suggest number series.
+- Autofill uses Azure OpenAI Service and optional Bing Search, works under user permissions, and needs manual review before suggestions are saved; the page mentions version 26.4.
+- Shopify Tax Matching maps free-text Shopify tax descriptions to Business Central tax jurisdictions for US-based organizations, with confidence indicators, rate-conflict detection, and review and approval.
+- E-documents Matching Assistance (mapping e-documents with purchase orders) is deprecated in favor of the Payables Agent.
+- Other FAQs cover Advanced Tell Me semantic search, marketing text suggestions, and item substitutions using embeddings.
 
 ## Learn pages
 

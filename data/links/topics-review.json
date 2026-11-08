@@ -7404,112 +7404,64 @@
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services": {
-      "post/aardvarklabs-blog/2953@e78fa2a25a9ddb42": {
+      "post/aardvarklabs-blog/2866@ad0fbd69fadaf746": {
+        "verdict": "drop",
+        "reason": "Covers parsing XML from an imported file with XML types, not calling external services.",
+        "at": "2026-11-08T00:57:52.367Z",
+        "v": 2
+      },
+      "post/aardvarklabs-blog/2953@1579b424cf0b3626": {
         "verdict": "keep",
-        "reason": "Directly explains calling external APIs with HttpClient and parsing JSON responses.",
-        "at": "2026-10-30T08:06:30.957Z",
+        "reason": "Shows calling external APIs with HttpClient and parsing the JSON responses, which this section documents.",
+        "at": "2026-11-08T00:57:52.367Z",
+        "v": 2
+      },
+      "post/aardvarklabs-blog/3460@d0c351745b5df791": {
+        "verdict": "keep",
+        "reason": "Covers the native SFTP Client codeunit for reaching external SFTP servers from AL.",
+        "at": "2026-11-08T00:57:52.367Z",
         "v": 2
       },
       "post/demiliani-com/13588@77847e9e3efdbf67": {
         "verdict": "keep",
-        "reason": "Covers new strict URI validation rules for AL HttpClient outbound requests.",
-        "at": "2026-10-30T08:06:30.957Z",
+        "reason": "Explains the new strict address checks on AL HttpClient calls to external services.",
+        "at": "2026-11-08T00:57:52.367Z",
         "v": 2
       },
-      "post/demiliani-com/13640@cda26441af8aa784": {
+      "post/demiliani-com/13640@abb0e63da6ce6cdc": {
         "verdict": "keep",
-        "reason": "Shows connecting to external SFTP servers from AL via the SFTP Client codeunit.",
-        "at": "2026-10-30T08:06:30.957Z",
+        "reason": "Shows connecting to external SFTP servers from AL with the native SFTP Client.",
+        "at": "2026-11-08T00:57:52.367Z",
         "v": 2
       },
       "post/demiliani-com/14203@48f9cf58ff1ac562": {
         "verdict": "keep",
-        "reason": "Discusses handling external API calls from AL safely given transaction rollback, a practice for calling external services.",
-        "at": "2026-10-30T08:06:30.957Z",
+        "reason": "Describes a practice for making external API calls safe to retry after an AL rollback.",
+        "at": "2026-11-08T00:57:52.367Z",
         "v": 2
       },
       "post/gerardorenteria-blog/14816@d18dad9b14fe94e8": {
         "verdict": "drop",
-        "reason": "Its subject is a World Cup sample extension; importing JSON is only an incidental detail.",
-        "at": "2026-10-30T08:06:30.957Z",
+        "reason": "The subject is a World Cup prediction extension; importing JSON data is only part of the example.",
+        "at": "2026-11-08T00:57:52.367Z",
         "v": 2
       },
-      "post/kauffmann-nl/8332@f185c6bcbc3e7f69": {
+      "post/kauffmann-nl/8332@88de14cfccb265de": {
         "verdict": "keep",
-        "reason": "OAuth library extending the Rest Client module used to call external services from AL.",
-        "at": "2026-10-30T08:06:30.957Z",
+        "reason": "An OAuth library for the Rest Client that adds authentication to calls to external services.",
+        "at": "2026-11-08T00:57:52.367Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643@bcd3363825c3e8ed": {
         "verdict": "drop",
-        "reason": "Its subject is extension upload and management; the admin API call is just how the app works.",
-        "at": "2026-10-30T08:06:30.957Z",
+        "reason": "The subject is extension upload management; calling the admin center API is only how it is done.",
+        "at": "2026-11-08T00:57:52.367Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/02/02/al-object-id-ninja-mcp-server-is-here/@c1a26403c4b8f9b9": {
         "verdict": "drop",
         "reason": "About an MCP server for object ID management, unrelated to calling external services.",
-        "at": "2026-10-30T08:06:30.957Z",
-        "v": 2
-      },
-      "post/wingate365-com/https://blog.wingate365.com/2026/06/graph-api-email-account-types-for-d365.html@dcd034ae34acdb12": {
-        "verdict": "drop",
-        "reason": "Its subject is email account setup for guest users, not documented in this section.",
-        "at": "2026-10-30T08:06:30.957Z",
-        "v": 2
-      },
-      "post/yzhums-com/56046@3ffeb9db3d1d7784": {
-        "verdict": "keep",
-        "reason": "Calls the external QuickChart API from AL with HttpClient to generate barcodes.",
-        "at": "2026-10-30T08:06:32.508Z",
-        "v": 2
-      },
-      "post/yzhums-com/61543@c4fdefff7bfc97e1": {
-        "verdict": "drop",
-        "reason": "About converting stored images to HTML src with Image Helpers; no external service is called.",
-        "at": "2026-10-30T08:06:32.508Z",
-        "v": 2
-      },
-      "post/yzhums-com/63735@80a0b7d071de1243": {
-        "verdict": "keep",
-        "reason": "Series includes calling SharePoint through the Graph API from AL code.",
-        "at": "2026-10-30T08:06:32.508Z",
-        "v": 2
-      },
-      "post/yzhums-com/64775@8b57d989aaa742bb": {
-        "verdict": "keep",
-        "reason": "Shows authenticated REST GET/POST/PATCH/DELETE calls from AL to the Dataverse Web API.",
-        "at": "2026-10-30T08:06:32.508Z",
-        "v": 2
-      },
-      "post/yzhums-com/65391@cfcc0e62a92cf422": {
-        "verdict": "keep",
-        "reason": "Covers the Allow HttpClient Requests setting that outbound HTTP calls from extensions depend on.",
-        "at": "2026-10-30T08:06:32.508Z",
-        "v": 2
-      },
-      "post/yzhums-com/65525@5ee931cd23816686": {
-        "verdict": "keep",
-        "reason": "Web Request Helper URL security check used before calling external services from AL.",
-        "at": "2026-10-30T08:06:32.508Z",
-        "v": 2
-      },
-      "post/yzhums-com/65533@a60b4f1eee9ea3fd": {
-        "verdict": "keep",
-        "reason": "Automates enabling Allow HttpClient Requests so extensions can call external services.",
-        "at": "2026-10-30T08:06:32.508Z",
-        "v": 2
-      },
-      "post/yzhums-com/66461@f1d31fc1c9c7fb3c": {
-        "verdict": "drop",
-        "reason": "About cleaning file names for export, not about calling external services.",
-        "at": "2026-10-30T08:06:32.508Z",
-        "v": 2
-      },
-      "video/qNHUj3ZEang@79cabc8a630d8bbb": {
-        "verdict": "keep",
-        "reason": "Covers the REST Client module's cookie support and error handling for HTTP requests in AL.",
-        "at": "2026-10-30T08:06:32.508Z",
+        "at": "2026-11-08T00:57:52.367Z",
         "v": 2
       }
     },
@@ -11337,82 +11289,64 @@
       }
     },
     "topic/dev-itpro/integration/integrating-with-microsoft-dataverse": {
-      "post/wingate365-com/https://blog.wingate365.com/2025/05/business-central-power-pages-true.html@f6d85d8882c3eedc": {
+      "post/wingate365-com/https://blog.wingate365.com/2025/05/business-central-power-pages-true.html@8aa7c68dd5f6ab88": {
         "verdict": "keep",
-        "reason": "Uses Dataverse virtual tables to expose Business Central data to external users, which falls under the data virtualization this section documents.",
-        "at": "2026-10-30T08:07:09.668Z",
+        "reason": "Covers Dataverse virtual tables exposing Business Central data to Power Pages, which is the data virtualization this section documents.",
+        "at": "2026-11-08T00:57:47.585Z",
         "v": 2
       },
-      "post/yzhums-com/63801@354ddfa36933341d": {
-        "verdict": "drop",
-        "reason": "It is about REST API web services in general, which the Web services section beside this one documents.",
-        "at": "2026-10-30T08:07:09.668Z",
+      "post/yzhums-com/63916@7431d83f25323a70": {
+        "verdict": "keep",
+        "reason": "Directly covers setting up Dataverse integration, the connector, sync and table mappings.",
+        "at": "2026-11-08T00:57:47.585Z",
         "v": 2
       },
-      "post/yzhums-com/63916@9c361de43f227a20": {
+      "post/yzhums-com/64775@f9f3f93cb8eb7dc9": {
         "verdict": "keep",
-        "reason": "It surveys how to integrate Business Central with Dataverse, including the connector, synchronization and table mappings.",
-        "at": "2026-10-30T08:07:09.668Z",
+        "reason": "Covers syncing Business Central data with Dataverse through its APIs, an alternative to the standard connector that readers of this section would find useful.",
+        "at": "2026-11-08T00:57:47.585Z",
         "v": 2
       },
-      "post/yzhums-com/64775@8b57d989aaa742bb": {
+      "post/yzhums-com/71914@b3750077885b9698": {
         "verdict": "keep",
-        "reason": "It shows a way to synchronize Business Central data with Dataverse by calling the APIs directly.",
-        "at": "2026-10-30T08:07:09.668Z",
+        "reason": "Covers mapping new Dataverse fields on the Integration Table Mappings page, which is part of data synchronization.",
+        "at": "2026-11-08T00:57:47.585Z",
         "v": 2
       },
-      "post/yzhums-com/71914@cb28a31eb9b30e49": {
+      "post/yzhums-com/76990@aff9aa2af18dd855": {
         "verdict": "keep",
-        "reason": "It covers mapping new Dataverse fields on the Integration Table Mappings page used for synchronization.",
-        "at": "2026-10-30T08:07:09.668Z",
+        "reason": "Troubleshoots an error hit while setting up the Dataverse integration.",
+        "at": "2026-11-08T00:57:47.585Z",
         "v": 2
       },
-      "post/yzhums-com/76918@ef908c38a621d631": {
+      "video/-q8Gm7u7R2A@e16abee581663225": {
         "verdict": "keep",
-        "reason": "The AL Table Proxy Generator creates the proxy tables needed to integrate Dataverse tables.",
-        "at": "2026-10-30T08:07:09.668Z",
+        "reason": "Covers new Dataverse integration features: synchronization, virtual tables and mappings.",
+        "at": "2026-11-08T00:57:47.585Z",
         "v": 2
       },
-      "post/yzhums-com/76990@37fae2c50185ce12": {
+      "video/EVntnDFE1R4@091ad2f5cb3a3446": {
         "verdict": "keep",
-        "reason": "It troubleshoots an error that blocks setting up the Dataverse integration.",
-        "at": "2026-10-30T08:07:09.668Z",
+        "reason": "Mostly about the Power Platform, but it has dedicated segments on Dataverse virtual tables, their assisted setup, and Dataverse data sync.",
+        "at": "2026-11-08T00:57:47.585Z",
         "v": 2
       },
-      "video/-q8Gm7u7R2A@0d67791b5b3025d7": {
+      "video/fIOnGEARkKs@04b87130deafc64a": {
         "verdict": "keep",
-        "reason": "It covers new Dataverse synchronization and virtual table features.",
-        "at": "2026-10-30T08:07:09.668Z",
-        "v": 2
-      },
-      "video/auoHUd24Gfw@705914daca46158a": {
-        "verdict": "keep",
-        "reason": "Power Pages here works through Dataverse virtual tables, with multi-company support, which is part of data virtualization.",
-        "at": "2026-10-30T08:07:09.668Z",
-        "v": 2
-      },
-      "video/fIOnGEARkKs@d5412edaf24800f8": {
-        "verdict": "keep",
-        "reason": "It covers multi-company synchronization, field mappings and virtual tables for Dataverse.",
-        "at": "2026-10-30T08:07:09.668Z",
-        "v": 2
-      },
-      "video/ItuCEHpaI1E@d6cb41bcfa204311": {
-        "verdict": "keep",
-        "reason": "It covers configuration templates applied automatically during Dataverse synchronization.",
-        "at": "2026-10-30T08:07:09.668Z",
+        "reason": "Covers multi-company Dataverse synchronization, field mappings and virtual table setup.",
+        "at": "2026-11-08T00:57:47.585Z",
         "v": 2
       },
       "video/qPInVj03wkY@1f8feded10ed5ae0": {
         "verdict": "drop",
-        "reason": "Its subject is CSRD sustainability reporting, and Dataverse is only the plumbing underneath.",
-        "at": "2026-10-30T08:07:09.668Z",
+        "reason": "About CSRD sustainability reporting; the Dataverse connection is only how the data gets there, not the lesson.",
+        "at": "2026-11-08T00:57:47.585Z",
         "v": 2
       },
-      "video/YTA8c2XyTX4@404d00afda0b17c6": {
+      "video/YTA8c2XyTX4@5613768c9ba9520b": {
         "verdict": "keep",
-        "reason": "It covers virtual tables reaching general availability, plus data synchronization and events through Dataverse.",
-        "at": "2026-10-30T08:07:09.668Z",
+        "reason": "Covers virtual tables reaching general availability, data synchronization and data change events for Dataverse.",
+        "at": "2026-11-08T00:57:47.585Z",
         "v": 2
       }
     },
@@ -11456,62 +11390,6 @@
         "v": 2
       }
     },
-    "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi": {
-      "post/aardvarklabs-blog/1818@7c11789738d7ef24": {
-        "verdict": "keep",
-        "reason": "Walks through building a Copilot Studio agent that connects to Business Central using the Find Records tool.",
-        "at": "2026-10-26T06:38:12.399Z",
-        "v": 2
-      },
-      "post/bertverbeek-nl/1196@1e6a096bda9854df": {
-        "verdict": "drop",
-        "reason": "Its subject is Fabric Data Agents on mirrored Business Central data; Copilot Studio comes up only in passing.",
-        "at": "2026-10-26T06:38:12.399Z",
-        "v": 2
-      },
-      "post/bertverbeek-nl/1290@c0cc261a9428932c": {
-        "verdict": "keep",
-        "reason": "Compares agents built in Copilot Studio with agents built in Business Central, covering deployment, licensing and integration.",
-        "at": "2026-10-26T06:38:12.399Z",
-        "v": 2
-      },
-      "post/yzhums-com/68873@11c7f202a6cbb9ef": {
-        "verdict": "keep",
-        "reason": "Covers the Business Central MCP connector built into Copilot Studio for connecting agents to Business Central data.",
-        "at": "2026-10-26T06:38:12.399Z",
-        "v": 2
-      },
-      "video/6Zb7VAvLVm4@737803c295012082": {
-        "verdict": "keep",
-        "reason": "Includes the Copilot Studio connector for Business Central and Copilot Studio's generative AI mode.",
-        "at": "2026-10-26T06:38:12.399Z",
-        "v": 2
-      },
-      "video/AMVAiPTfSrU@21493b8d8e455834": {
-        "verdict": "keep",
-        "reason": "Shows partners creating Copilot Studio agents for Business Central through the MCP server.",
-        "at": "2026-10-26T06:38:12.399Z",
-        "v": 2
-      },
-      "video/GK6hM-nBYZk@b73767c4fe5fb771": {
-        "verdict": "keep",
-        "reason": "Dedicated video on Business Central integration with Copilot Studio: agent building, the connector and the MCP server.",
-        "at": "2026-10-26T06:38:12.399Z",
-        "v": 2
-      },
-      "video/uMKLsKfKPc0@7931656655aa3538": {
-        "verdict": "keep",
-        "reason": "Shows building Copilot Studio agents that query Business Central through connectors and the MCP server.",
-        "at": "2026-10-26T06:38:12.399Z",
-        "v": 2
-      },
-      "video/V_ZyGeF5JXE@3ce75df76bbc64f0": {
-        "verdict": "keep",
-        "reason": "Has a Copilot Studio integration segment for Business Central.",
-        "at": "2026-10-26T06:38:12.399Z",
-        "v": 2
-      }
-    },
     "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps": {
       "post/wingate365-com/https://blog.wingate365.com/2025/05/business-central-power-pages-true.html@f6d85d8882c3eedc": {
         "verdict": "keep",
@@ -11539,94 +11417,82 @@
       }
     },
     "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat": {
-      "post/aardvarklabs-blog/3631@2fe37864fd91ab77": {
+      "post/aardvarklabs-blog/3579@04f9e4dae8710d1a": {
         "verdict": "keep",
-        "reason": "Builds a Power Automate flow that pulls SFTP files into Business Central through an API page.",
-        "at": "2026-10-30T08:07:22.717Z",
+        "reason": "Uses a Power Automate HTTP-triggered flow to post scans to a Business Central API page, a concrete Power Automate integration.",
+        "at": "2026-11-08T00:57:53.437Z",
         "v": 2
       },
-      "post/aardvarklabs-blog/3704@6920c9137ccf84b6": {
+      "post/aardvarklabs-blog/3631@faa854679a128fec": {
         "verdict": "keep",
-        "reason": "A Power Automate flow triggered by a Business Central business event moves posted invoice PDFs to SFTP.",
-        "at": "2026-10-30T08:07:22.717Z",
+        "reason": "Demonstrates a Power Automate flow that integrates with Business Central through an API page for SFTP file import.",
+        "at": "2026-11-08T00:57:53.437Z",
+        "v": 2
+      },
+      "post/aardvarklabs-blog/3704@efe85fcec0f09d18": {
+        "verdict": "keep",
+        "reason": "Power Automate flow triggered by a Business Central business event to push documents to SFTP.",
+        "at": "2026-11-08T00:57:53.437Z",
+        "v": 2
+      },
+      "post/demiliani-com/11932@b0f7c751eeb71c98": {
+        "verdict": "drop",
+        "reason": "About Azure Logic Apps storage on Azure SQL, not Power Automate integration with Business Central.",
+        "at": "2026-11-08T00:57:53.437Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-818643009386692123@982baa375093ea02": {
         "verdict": "drop",
-        "reason": "Conference recap about AI agents and partner strategy, not about integrating with Power Automate.",
-        "at": "2026-10-30T08:07:22.717Z",
+        "reason": "Conference recap on AI agents and partner strategy, nothing specific to Power Automate.",
+        "at": "2026-11-08T00:57:53.437Z",
         "v": 2
       },
       "post/thinkaboutit-be/8272@a03bc83cda30588c": {
         "verdict": "drop",
-        "reason": "Mainly about managing report layouts; Power Automate is mentioned only as one possible user of the Report Inbox APIs.",
-        "at": "2026-10-30T08:07:22.717Z",
+        "reason": "Subject is report layout management and Report Inbox APIs; Power Automate is only mentioned as a possible consumer.",
+        "at": "2026-11-08T00:57:53.437Z",
         "v": 2
       },
-      "post/wingate365-com/https://blog.wingate365.com/2025/05/business-central-power-pages-true.html@f6d85d8882c3eedc": {
-        "verdict": "drop",
-        "reason": "About Power Pages with Dataverse virtual tables; Power Automate appears only as a side remark.",
-        "at": "2026-10-30T08:07:22.717Z",
-        "v": 2
-      },
-      "post/yzhums-com/61951@705db56ffdf57496": {
+      "post/yzhums-com/61951@e8f92dde5ee3ebbf": {
         "verdict": "keep",
-        "reason": "Explains how to control the Power Automate (Automate) action group in Business Central for all users.",
-        "at": "2026-10-30T08:07:22.717Z",
+        "reason": "Covers the Power Automate Automate action group in Business Central and how to disable it.",
+        "at": "2026-11-08T00:57:53.437Z",
         "v": 2
       },
-      "post/yzhums-com/63916@9c361de43f227a20": {
-        "verdict": "drop",
-        "reason": "About Dataverse integration methods, which a different section documents.",
-        "at": "2026-10-30T08:07:22.717Z",
-        "v": 2
-      },
-      "post/yzhums-com/65857@d03ac419b8810e5d": {
+      "post/yzhums-com/63749@b475f0f09ab3b5d1": {
         "verdict": "keep",
-        "reason": "About external business events, the mechanism Business Central uses to trigger Power Automate flows.",
-        "at": "2026-10-30T08:07:22.717Z",
+        "reason": "Series includes Power Automate flows syncing files and data between OneDrive and Business Central.",
+        "at": "2026-11-08T00:57:53.437Z",
         "v": 2
       },
-      "post/yzhums-com/68672@56989280ff749657": {
-        "verdict": "drop",
-        "reason": "An index of links about CSV handling with no Power Automate content of its own.",
-        "at": "2026-10-30T08:07:22.717Z",
-        "v": 2
-      },
-      "video/-q8Gm7u7R2A@0d67791b5b3025d7": {
-        "verdict": "drop",
-        "reason": "Mostly new Dataverse integration features; Power Automate is only a listed topic.",
-        "at": "2026-10-30T08:07:22.717Z",
-        "v": 2
-      },
-      "video/EVntnDFE1R4@8952f0274d79ad18": {
+      "post/yzhums-com/63762@7d6a2acc5b5bc04d": {
         "verdict": "keep",
-        "reason": "Covers Power Automate flow templates, the business events trigger and connector changes for Business Central.",
-        "at": "2026-10-30T08:07:22.717Z",
+        "reason": "Series includes Power Automate flows for no-code data transfer with Business Central.",
+        "at": "2026-11-08T00:57:53.437Z",
         "v": 2
       },
-      "video/fIOnGEARkKs@d5412edaf24800f8": {
+      "post/yzhums-com/63801@d10858b40e21d627": {
         "verdict": "drop",
-        "reason": "About syncing Business Central with Dataverse and Dynamics 365 Sales; no Power Automate content.",
-        "at": "2026-10-30T08:07:22.717Z",
+        "reason": "About Business Central REST APIs generally; Power Automate only appears as a tag.",
+        "at": "2026-11-08T00:57:53.437Z",
+        "v": 2
+      },
+      "post/yzhums-com/63916@7431d83f25323a70": {
+        "verdict": "drop",
+        "reason": "About Dataverse integration, a different capability than Power Automate.",
+        "at": "2026-11-08T00:57:53.437Z",
+        "v": 2
+      },
+      "post/yzhums-com/65857@dbd7a83c6bed2a3a": {
+        "verdict": "drop",
+        "reason": "Focuses on deprecating external business events in AL, which business events documentation covers more exactly.",
+        "at": "2026-11-08T00:57:53.437Z",
         "v": 2
       },
       "video/T63y0F_38SI@fc86602ac0f9c07f": {
         "verdict": "keep",
-        "reason": "Shows creating Power Automate flows for Business Central with Copilot, plus flow templates.",
-        "at": "2026-10-30T08:07:22.717Z",
-        "v": 2
-      },
-      "video/V_ZyGeF5JXE@3ce75df76bbc64f0": {
-        "verdict": "keep",
-        "reason": "Covers Power Automate entry points, approval workflows and connector actions for Business Central.",
-        "at": "2026-10-30T08:07:22.717Z",
-        "v": 2
-      },
-      "video/YTA8c2XyTX4@404d00afda0b17c6": {
-        "verdict": "keep",
-        "reason": "Includes demos of business events and data change events used through Power Automate.",
-        "at": "2026-10-30T08:07:22.717Z",
+        "reason": "Shows creating Power Automate flows for Business Central with Copilot and the Business Central templates.",
+        "at": "2026-11-08T00:57:53.437Z",
         "v": 2
       }
     },
@@ -11697,82 +11563,100 @@
       }
     },
     "topic/dev-itpro/integration/integrating-with-shopify": {
+      "video/h5PQI4I4b7c@cfcc87222a705012": {
+        "verdict": "keep",
+        "reason": "Covers Shopify Connector metafield synchronization, part of the Shopify integration this section documents.",
+        "at": "2026-11-08T00:57:39.924Z",
+        "v": 2
+      },
+      "video/inuqqx12yJ8@182b9111de3c667e": {
+        "verdict": "keep",
+        "reason": "Covers Shopify POS integration with Business Central through the Shopify Connector.",
+        "at": "2026-11-08T00:57:39.924Z",
+        "v": 2
+      },
+      "video/lClKXB8xXIE@5eb3a4c28784664d": {
+        "verdict": "keep",
+        "reason": "Covers troubleshooting and logging for the Shopify integration.",
+        "at": "2026-11-08T00:57:39.924Z",
+        "v": 2
+      },
+      "video/NMO822Jf_4E@682e110e37657535": {
+        "verdict": "keep",
+        "reason": "Covers presentment currency handling in Shopify order processing.",
+        "at": "2026-11-08T00:57:39.924Z",
+        "v": 2
+      },
+      "video/p-pwG6f5srY@c783ae3cca7b1a7a": {
+        "verdict": "keep",
+        "reason": "Gives an overview of new Shopify Connector features for the integration.",
+        "at": "2026-11-08T00:57:39.924Z",
+        "v": 2
+      },
+      "video/StIVhsnOHWY@8a4f4c96cadc434d": {
+        "verdict": "keep",
+        "reason": "Covers troubleshooting Shopify Connector synchronization.",
+        "at": "2026-11-08T00:57:39.924Z",
+        "v": 2
+      },
+      "video/VjYMhjjc3uw@a3dc1649a8dae421": {
+        "verdict": "keep",
+        "reason": "Covers syncing Shopify B2B companies and locations with Business Central customers.",
+        "at": "2026-11-08T00:57:39.924Z",
+        "v": 2
+      },
+      "video/YSDfDjrMUb0@dfb0d27729db6b3f": {
+        "verdict": "keep",
+        "reason": "Gives an overview of new Shopify Connector integration features.",
+        "at": "2026-11-08T00:57:39.924Z",
+        "v": 2
+      },
       "post/gerardorenteria-blog/11616@1d6f9ac806446947": {
         "verdict": "drop",
-        "reason": "This post is about the whole 2025 wave 2 release and mostly links to release plans; Shopify gets only one passing mention.",
-        "at": "2026-10-25T17:55:29.242Z",
+        "reason": "This is a general overview of release wave 2 that only mentions Shopify in passing and mostly links to release plans.",
+        "at": "2026-11-08T00:57:41.681Z",
         "v": 2
       },
-      "video/3tmaVpPTQLw@9c37a10548f88a71": {
+      "video/3tmaVpPTQLw@d43305286a88436a": {
         "verdict": "keep",
-        "reason": "It demonstrates the Shopify Connector's B2B features, order editing and syncing.",
-        "at": "2026-10-25T17:55:29.242Z",
+        "reason": "It demonstrates the Shopify Connector's B2B, order-editing and sync features, which this section documents.",
+        "at": "2026-11-08T00:57:41.681Z",
         "v": 2
       },
-      "video/5Qfc7r618OM@7b2b81fe28d3f0b8": {
+      "video/5Qfc7r618OM@007d6f8c23923d02": {
         "verdict": "keep",
-        "reason": "It shows how to troubleshoot Shopify Connector export problems using the skipped records page.",
-        "at": "2026-10-25T17:55:29.242Z",
+        "reason": "It covers troubleshooting Shopify Connector exports with the skipped records page.",
+        "at": "2026-11-08T00:57:41.681Z",
         "v": 2
       },
-      "video/6vHJQggN4F4@7429ebec4213b2ac": {
+      "video/6vHJQggN4F4@712879d23d2e04fe": {
         "verdict": "keep",
-        "reason": "It covers managing product information (variants, attributes, collections) in the Shopify Connector.",
-        "at": "2026-10-25T17:55:29.242Z",
+        "reason": "It demonstrates syncing product information, such as variants and images, through the Shopify Connector.",
+        "at": "2026-11-08T00:57:41.681Z",
         "v": 2
       },
-      "video/AR2FiD64wbw@715a776516c712f0": {
+      "video/AR2FiD64wbw@2773ace3f16060e6": {
         "verdict": "keep",
-        "reason": "It shows Shopify Connector features: metafields, translations, pricing and syncing payments.",
-        "at": "2026-10-25T17:55:29.242Z",
+        "reason": "It covers Shopify Connector sync features such as meta fields, translations, pricing and shipping.",
+        "at": "2026-11-08T00:57:41.681Z",
         "v": 2
       },
-      "video/B-pxLlb-UN0@5598392243cfbf46": {
+      "video/cuez5kIanKo@109fb2865c58285c": {
         "verdict": "keep",
-        "reason": "It gives an overview of new Shopify Connector integration features.",
-        "at": "2026-10-25T17:55:29.242Z",
+        "reason": "It shows how to activate sales channels for products exported through the Shopify Connector.",
+        "at": "2026-11-08T00:57:41.681Z",
         "v": 2
       },
-      "video/BwBR8JwwQa4@40f41864e07d2fc1": {
+      "video/e5Dr3jzCLM8@34d9eff8c95d7107": {
         "verdict": "keep",
-        "reason": "It covers syncing Shopify B2B companies and company locations with Business Central.",
-        "at": "2026-10-25T17:55:29.242Z",
-        "v": 2
-      },
-      "video/cuez5kIanKo@8ee506cf666df583": {
-        "verdict": "keep",
-        "reason": "It shows how to turn on sales channels when exporting products through the Shopify Connector.",
-        "at": "2026-10-25T17:55:29.242Z",
-        "v": 2
-      },
-      "video/e5Dr3jzCLM8@7f021e5741a41ce3": {
-        "verdict": "keep",
-        "reason": "It introduces the Shopify integration with Business Central, including inventory and order syncing.",
-        "at": "2026-10-25T17:55:29.242Z",
+        "reason": "It introduces the Shopify integration with Business Central, including inventory and order sync.",
+        "at": "2026-11-08T00:57:41.681Z",
         "v": 2
       },
       "video/gy_6QnFpiEw@23f7bb92a20daa9f": {
         "verdict": "keep",
-        "reason": "It shows syncing prices for Shopify markets in the connector.",
-        "at": "2026-10-25T17:55:29.242Z",
-        "v": 2
-      },
-      "video/h5PQI4I4b7c@b446284c7703ef8f": {
-        "verdict": "keep",
-        "reason": "It shows syncing Shopify metafields in the connector.",
-        "at": "2026-10-25T17:55:29.242Z",
-        "v": 2
-      },
-      "video/inuqqx12yJ8@4995c826d776cdea": {
-        "verdict": "keep",
-        "reason": "It covers connecting Shopify Point of Sale to Business Central through the connector.",
-        "at": "2026-10-25T17:55:29.242Z",
-        "v": 2
-      },
-      "video/lClKXB8xXIE@963fbbe802a48c90": {
-        "verdict": "keep",
-        "reason": "It shows how to troubleshoot the Shopify integration using logging and data inspection.",
-        "at": "2026-10-25T17:55:29.242Z",
+        "reason": "It covers syncing market prices and importing catalogs in the Shopify Connector.",
+        "at": "2026-11-08T00:57:41.681Z",
         "v": 2
       }
     },
@@ -11809,178 +11693,142 @@
       }
     },
     "topic/dev-itpro/integration/web-services/apis": {
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/@effee6e211629f55": {
-        "verdict": "keep",
-        "reason": "Explores Microsoft's standard API v2 objects as a reference for building and extending APIs.",
-        "at": "2026-10-30T08:07:19.802Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/7683@3ed0c8348b16f90f": {
-        "verdict": "keep",
-        "reason": "Explains API pages versus API queries, which are central to Business Central APIs.",
-        "at": "2026-10-30T08:07:19.802Z",
-        "v": 2
-      },
       "post/thinkaboutit-be/8272@a03bc83cda30588c": {
         "verdict": "keep",
-        "reason": "Covers the new Report Inbox APIs that external apps use with Business Central.",
-        "at": "2026-10-30T08:07:19.802Z",
+        "reason": "Covers the new Report Inbox APIs that let external applications and automation tools work with scheduled reports.",
+        "at": "2026-11-08T00:57:46.595Z",
         "v": 2
       },
-      "post/wingate365-com/https://blog.wingate365.com/2026/04/fixing-email-for-guest-users-in-d365.html@fecdccb86cf6a9fe": {
+      "post/yzhums-com/48974@5bd901e34c29a593": {
         "verdict": "drop",
-        "reason": "About sending email through Microsoft Graph for guest users, not Business Central APIs.",
-        "at": "2026-10-30T08:07:19.802Z",
+        "reason": "OData query filter syntax is documented more exactly in the OData section beside this one.",
+        "at": "2026-11-08T00:57:46.595Z",
         "v": 2
       },
-      "post/yzhums-com/63801@354ddfa36933341d": {
+      "post/yzhums-com/63801@d10858b40e21d627": {
         "verdict": "keep",
-        "reason": "Blog series on Business Central REST APIs: standard, automation and custom APIs.",
-        "at": "2026-10-30T08:07:19.802Z",
+        "reason": "A blog series on Business Central REST APIs: standard, automation and custom APIs, plus authentication.",
+        "at": "2026-11-08T00:57:46.595Z",
         "v": 2
       },
       "post/yzhums-com/64392@e3ba911933be62eb": {
         "verdict": "drop",
-        "reason": "About Dataverse Web API authentication in Postman, not Business Central APIs.",
-        "at": "2026-10-30T08:07:19.802Z",
+        "reason": "About Dataverse Web API access, not Business Central APIs.",
+        "at": "2026-11-08T00:57:46.595Z",
         "v": 2
       },
       "post/yzhums-com/64898@d35f5d392851ff97": {
         "verdict": "drop",
-        "reason": "About inserting AL records with a specified SystemId; APIs are mentioned only in passing.",
-        "at": "2026-10-30T08:07:19.802Z",
+        "reason": "About inserting records with a chosen SystemId in AL; APIs are only mentioned in passing.",
+        "at": "2026-11-08T00:57:46.595Z",
         "v": 2
       },
-      "post/yzhums-com/70369@9400e267e6037395": {
+      "post/yzhums-com/70369@68caf23f64bb985a": {
         "verdict": "keep",
-        "reason": "Shows multi-level $expand in Business Central REST API queries.",
-        "at": "2026-10-30T08:07:19.802Z",
+        "reason": "Explains multi-level $expand queries against the Business Central REST API.",
+        "at": "2026-11-08T00:57:46.595Z",
         "v": 2
       },
-      "post/yzhums-com/74390@e891503f496bc459": {
+      "post/yzhums-com/74390@a4b03aeae99a6145": {
         "verdict": "keep",
-        "reason": "Introduces new API v2.0 endpoints for analyzing approval workflows.",
-        "at": "2026-10-30T08:07:19.802Z",
+        "reason": "Introduces new read-only API v2.0 endpoints for analyzing approval workflows.",
+        "at": "2026-11-08T00:57:46.595Z",
         "v": 2
       },
       "video/1ft4o9lQzsU@a3a9e063fe006870": {
         "verdict": "keep",
-        "reason": "Covers Business Central API structure, authentication and custom APIs for refreshable Excel reports.",
-        "at": "2026-10-30T08:07:19.802Z",
+        "reason": "Shows Business Central API structure, authentication and custom APIs used to make Excel reports refreshable.",
+        "at": "2026-11-08T00:57:46.595Z",
         "v": 2
       },
       "video/2N2NhNH7dsk@ba21dae465950b3b": {
         "verdict": "keep",
-        "reason": "Shows the new Report Inbox APIs and their API overview page.",
-        "at": "2026-10-30T08:07:19.802Z",
+        "reason": "Demonstrates the new Report Inbox APIs and their API overview page.",
+        "at": "2026-11-08T00:57:46.595Z",
         "v": 2
       },
       "video/4HE3BBCcV84@9866712d6b3b6444": {
         "verdict": "keep",
         "reason": "Covers API queries and the Analytics API reference, which is a subtopic of this section.",
-        "at": "2026-10-30T08:07:19.802Z",
+        "at": "2026-11-08T00:57:46.595Z",
         "v": 2
       },
       "video/S5Xw-b8YF-c@fb7f81edcad274c8": {
         "verdict": "keep",
-        "reason": "Shows the new E-Documents APIs for integration.",
-        "at": "2026-10-30T08:07:19.802Z",
+        "reason": "Presents the new E-Documents APIs for integration scenarios.",
+        "at": "2026-11-08T00:57:46.595Z",
         "v": 2
       },
-      "video/VpNQ-CYNrkM@2a098da3bc0dde2b": {
+      "post/aardvarklabs-blog/2017@93443a5fb6d527a6": {
         "verdict": "keep",
-        "reason": "Covers API schema version 2.0 becoming the default, API v1 deprecation and API performance.",
-        "at": "2026-10-30T08:07:19.802Z",
+        "reason": "Shows how to build API queries, a type of Business Central API this section documents.",
+        "at": "2026-11-08T00:57:48.313Z",
         "v": 2
       },
-      "post/aardvarklabs-blog/2017@9d60f0fea145d32d": {
+      "post/aardvarklabs-blog/2565@9e0c07d2ee03ed60": {
         "verdict": "keep",
-        "reason": "Explains building query objects as APIs, which this section documents.",
-        "at": "2026-10-30T08:07:26.942Z",
-        "v": 2
-      },
-      "post/aardvarklabs-blog/2565@542b36717b660c8e": {
-        "verdict": "keep",
-        "reason": "Covers moving integrations to API 2.0 and custom page/query APIs.",
-        "at": "2026-10-30T08:07:26.942Z",
+        "reason": "Explains moving integrations to API v2.0 or custom Page and Query APIs.",
+        "at": "2026-11-08T00:57:48.313Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2812@da5a29d007de8e30": {
         "verdict": "drop",
-        "reason": "About the JSON Management codeunit in AL, not Business Central APIs.",
-        "at": "2026-10-30T08:07:26.942Z",
+        "reason": "About a JSON-handling codeunit in AL, not about Business Central APIs.",
+        "at": "2026-11-08T00:57:48.313Z",
         "v": 2
       },
-      "post/aardvarklabs-blog/3631@2fe37864fd91ab77": {
+      "post/aardvarklabs-blog/3579@04f9e4dae8710d1a": {
         "verdict": "keep",
-        "reason": "Shows building a custom API page that Power Automate calls.",
-        "at": "2026-10-30T08:07:26.942Z",
+        "reason": "Shows sending data to a Business Central API page through Power Automate, a working example of using the APIs.",
+        "at": "2026-11-08T00:57:48.313Z",
         "v": 2
       },
-      "post/aardvarklabs-blog/4082@822fda2edb8a8592": {
+      "post/aardvarklabs-blog/4082@33d5e613c13ac202": {
         "verdict": "keep",
-        "reason": "Covers the API Overview page for finding versioned API pages.",
-        "at": "2026-10-30T08:07:26.942Z",
+        "reason": "Covers the new API Overview page for finding versioned API pages.",
+        "at": "2026-11-08T00:57:48.313Z",
         "v": 2
       },
-      "post/demiliani-com/11654@0366bea976eb5e3f": {
+      "post/demiliani-com/11654@1531b5e8fae17602": {
         "verdict": "drop",
-        "reason": "Mainly about SOAP deprecation, which the SOAP sibling section covers more exactly.",
-        "at": "2026-10-30T08:07:26.942Z",
+        "reason": "Mainly about retiring SOAP and OData endpoints, which the neighbouring SOAP and OData sections cover more exactly.",
+        "at": "2026-11-08T00:57:48.313Z",
         "v": 2
       },
-      "post/demiliani-com/11962@59c4b3f4f738556f": {
+      "post/demiliani-com/11962@ddb66ec71d829a79": {
         "verdict": "keep",
-        "reason": "Covers compressing API responses, a practical aspect of using the APIs.",
-        "at": "2026-10-30T08:07:26.942Z",
-        "v": 2
-      },
-      "post/demiliani-com/12036@2c9b7f3c2df35822": {
-        "verdict": "keep",
-        "reason": "Discusses metadata and OpenAPI support in API definitions.",
-        "at": "2026-10-30T08:07:26.942Z",
+        "reason": "Explains how to make Business Central API responses smaller with compression.",
+        "at": "2026-11-08T00:57:48.313Z",
         "v": 2
       },
       "post/demiliani-com/12975@8148d4d75b43b31c": {
         "verdict": "drop",
-        "reason": "About an MCP server for admin-side extension management, not these APIs.",
-        "at": "2026-10-30T08:07:26.942Z",
-        "v": 2
-      },
-      "post/gerardorenteria-blog/12682@19ba796716115831": {
-        "verdict": "keep",
-        "reason": "Explains the AboutText property on API v2 pages.",
-        "at": "2026-10-30T08:07:26.942Z",
-        "v": 2
-      },
-      "post/jpearson-blog/1485@a73aff8b48312929": {
-        "verdict": "drop",
-        "reason": "Its subject is authentication, which the Web services security sibling covers more exactly.",
-        "at": "2026-10-30T08:07:26.942Z",
-        "v": 2
-      },
-      "post/jpearson-blog/1535@654bb4479c916d6a": {
-        "verdict": "drop",
-        "reason": "Its subject is managed-identity authentication, which the Web services security sibling covers better.",
-        "at": "2026-10-30T08:07:26.942Z",
-        "v": 2
-      },
-      "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1160169849126032090@aba9ce4f0d6c973e": {
-        "verdict": "keep",
-        "reason": "Explains how API templates behave on standard and custom API pages.",
-        "at": "2026-10-30T08:07:26.942Z",
+        "reason": "About installing and removing per-tenant extensions through an MCP server, which this section doesn't cover.",
+        "at": "2026-11-08T00:57:48.313Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7429326284625186983@b26475ef6e557180": {
-        "verdict": "drop",
-        "reason": "Mainly about testing an MCP and Claude setup; APIs appear only in passing.",
-        "at": "2026-10-30T08:07:26.942Z",
+        "verdict": "keep",
+        "reason": "Discusses calling Business Central APIs and when to build custom API pages.",
+        "at": "2026-11-08T00:57:48.313Z",
         "v": 2
       },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-missing-sales-invoices-in-the-api/@309347393b212aec": {
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-missing-sales-invoices-in-the-api/@2555293cd48b97a8": {
         "verdict": "keep",
-        "reason": "Troubleshoots invoices missing from the standard Sales Invoices API.",
-        "at": "2026-10-30T08:07:26.942Z",
+        "reason": "Troubleshoots the standard Sales Invoices API.",
+        "at": "2026-11-08T00:57:48.313Z",
+        "v": 2
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/@effee6e211629f55": {
+        "verdict": "keep",
+        "reason": "Shows where to find Microsoft's standard API v2 objects to use as a reference.",
+        "at": "2026-11-08T00:57:48.313Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/7683@791ce009cdf73947": {
+        "verdict": "keep",
+        "reason": "Explains when to use API pages and when to use API queries.",
+        "at": "2026-11-08T00:57:48.313Z",
         "v": 2
       }
     },

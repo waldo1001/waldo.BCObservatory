@@ -1,0 +1,20 @@
+{
+  "item_id": "change/al-go-prs/2427",
+  "input_hash": "3cd73196499cad6c93141e4f3e4ed33aad8d44fe77c70cc659cee08f980c9e8d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-08T00:59:03.780Z",
+  "issues": [
+    "Opt-in setting defaulting to false, so behavior_change false is consistent with the description.",
+    "Key points match: built-in job guards, ready_for_review trigger, custom jobs untouched, merge queue unchanged."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024422,
+    "changes_in_call": 6
+  }
+}

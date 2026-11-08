@@ -2,7 +2,7 @@
 id: app/microsoftfabricmirroring
 type: app
 title: MicrosoftFabricMirroring
-summary: "MicrosoftFabricMirroring (Microsoft.FabricExport): 38 objects in BC29-30 (18 pages, 13 codeunits, 3 tables, 3 permission sets, 1 enum); documented by 1 Learn hub."
+summary: "MicrosoftFabricMirroring (Microsoft.FabricExport): 38 objects in BC29-30 (18 pages, 13 codeunits, 3 tables, 3 permission sets, 1 enum); documented by 3 Learn hubs."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-30T01:04:48.899Z"
+  at: "2026-11-08T00:52:02.399Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 984576a26338366134688cbe139d69ff593b24754bf8647de32a4482338f14d4
+  input_hash: bb59034faa4280b741aa4a65f3ad29848b313f812458c09d9d8e7d06a2936111
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/MicrosoftFabricMirroring/app
@@ -70,7 +70,9 @@ links:
     - object/permissionset/48532
   features: []
   topics:
+    - topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator
     - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric
+    - topic/dev-itpro/integration/integrating-with-microsoft-fabric
   localizations: []
   videos: []
   posts: []
@@ -88,14 +90,14 @@ counts:
     table: 3
     permissionset: 3
     enum: 1
-  hubs: 1
+  hubs: 3
   videos: 0
   posts: 0
 ---
 
 # MicrosoftFabricMirroring
 
-> MicrosoftFabricMirroring (Microsoft.FabricExport): 38 objects in BC29-30 (18 pages, 13 codeunits, 3 tables, 3 permission sets, 1 enum); documented by 1 Learn hub.
+> MicrosoftFabricMirroring (Microsoft.FabricExport): 38 objects in BC29-30 (18 pages, 13 codeunits, 3 tables, 3 permission sets, 1 enum); documented by 3 Learn hubs.
 
 First-party app · folder `src/Apps/W1/MicrosoftFabricMirroring/app` · namespace `Microsoft.FabricExport` · BC29-30 · system development · facts from the code pillar and the joins, nothing machine-written
 
@@ -103,7 +105,9 @@ First-party app · folder `src/Apps/W1/MicrosoftFabricMirroring/app` · namespac
 
 The topic hubs whose Learn pages name this app's pages and reports (a table counts through the pages on it), by the number of the app's objects they document.
 
+- [Administrator](../topics/dev-itpro/integration/integrating-with-microsoft-fabric/administrator.md) (Integration > Integrating with Microsoft Fabric): 9 objects
 - [Microsoft Fabric](../topics/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric.md) (Analytics, business intelligence, and reporting > Analyze data in business intelligence tools): 9 objects
+- [Integrating with Microsoft Fabric](../topics/dev-itpro/integration/integrating-with-microsoft-fabric.md) (Integration): 2 objects
 
 ## Objects
 

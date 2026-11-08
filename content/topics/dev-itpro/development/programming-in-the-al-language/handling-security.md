@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:20.499Z"
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -188,13 +188,15 @@ links:
     - video/tDcT_51ktqo
   posts:
     - post/aardvarklabs-blog/2640
+    - post/aardvarklabs-blog/2953
     - post/demiliani-com/11796
     - post/demiliani-com/12498
     - post/demiliani-com/15914
-    - post/demiliani-com/17568
+    - post/kauffmann-nl/8332
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-37-inherent-permissions--d71a425273
     - post/yzhums-com/22035
     - post/yzhums-com/64057
+    - post/yzhums-com/65525
     - post/yzhums-com/65762
     - post/yzhums-com/67761
   guidelines: []
@@ -223,7 +225,7 @@ coverage:
   learn: 22
   code: 0
   video: 1
-  blog: 10
+  blog: 12
   guideline: 0
 bc_forms: []
 member_hash: b2776cd836898a8a19e7effa719a058b48cb3a07b751f1ad520ac02281d58fdf
@@ -281,13 +283,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#131 Correct table-level data classification guidance](../../../../changes/bcquality/131.md) (code change): "Privacy guidance now states that a valid table-level DataClassification is inherited by fields"
 - [#92 Correct security and privacy knowledge guidance](../../../../changes/bcquality/92.md) (code change): "Security and privacy knowledge articles were corrected to align with current Business Central APIs"
 - [Securing Sensitive Data in Business Central AL using SecretText](../../../../posts/aardvarklabs-blog/2640.md) (community post): "SecretText protects sensitive values like API keys and authentication credentials"
+- [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "Business Central shows a security prompt when extensions attempt"
 - [Dynamics 365 Business Central: using secrets in JsonObjects.](../../../../posts/demiliani-com/11796.md) (community post): "Handling secrets securely in JSON objects"
 - [Dynamics 365 Business Central: introducing the new MaskedType enum field-level property.](../../../../posts/demiliani-com/12498.md) (community post): "Concealed hides the field value in the UI until the user clicks"
 - [Dynamics 365 Business Central: locking down IsolatedStorage reads.](../../../../posts/demiliani-com/15914.md) (community post): "protecting sensitive data like secret keys, feature flags, and cached tokens"
-- [Giving an AI agent the keys to Business Central: practical security tips.](../../../../posts/demiliani-com/17568.md) (community post): "Securing AI agents that act on data in Business Central requires deliberate choices"
+- [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "Supports two OAuth flows with certificate-based authentication and security measures"
 - [BC Friday Tips #37 Inherent Permissions](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-37-inherent-permissions--d71a425273.md) (community post): "Inherent Permissions in AL allow developers to grant temporary access"
 - [Dynamics 365 Business Central: Do users really need permissions for Temporary Tables? (Permissions and temporary tables)](../../../../posts/yzhums-com/22035.md) (community post): "Setting SourceTableTemporary property to true on a page"
 - [Business Central 2025 wave 1 (BC26.1): New method to add SecretText values to JSON objects – WriteWithSecretsTo](../../../../posts/yzhums-com/64057.md) (community post): "WriteWithSecretsTo is a new method on the JsonObject type that adds SecretText values"
+- [Dynamics 365 Business Central: How to quickly check if a Url is secure (Use https) via AL](../../../../posts/yzhums-com/65525.md) (community post): "HTTPS encryption is critical for protecting sensitive data transmission in external integrations"
 - [Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL](../../../../posts/yzhums-com/65762.md) (community post): "use the Record.WritePermission() method in AL to check whether a user has write permissions"
 - [Business Central 2025 wave 2 (BC27): ‘Concealed’ text field type for sensitive data (New field-level property: MaskType)](../../../../posts/yzhums-com/67761.md) (community post): "MaskType field-level property that allows developers to conceal sensitive text"
 - [What's New: Server and Database - A Faster Runtime (2023 release wave 2)](../../../../videos/tDcT_51ktqo.md) (video): "Error Info Permission Checking; Permissions Work with Security Groups"

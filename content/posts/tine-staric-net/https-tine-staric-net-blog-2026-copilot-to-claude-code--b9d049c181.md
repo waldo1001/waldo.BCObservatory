@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:47:21.935Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -67,7 +67,7 @@ preview:
   image_h: null
   site_name: Tech Adventures in Business Central | AL Development & AI Solutions
   favicon: https://tine.staric.net/favicon.ico
-  probed_at: "2026-10-07T11:50:11.748Z"
+  probed_at: "2026-11-08T00:52:46.613Z"
 ---
 
 # Copilot is agent-first, Claude Code is skill-first

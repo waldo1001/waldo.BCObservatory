@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:47.056Z"
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,9 +41,9 @@ links:
   topics:
     - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise
   localizations: []
-  videos:
-    - video/01GoAUnpBnw
-  posts: []
+  videos: []
+  posts:
+    - post/demiliani-com/13676
   guidelines: []
   changes:
     - change/bcapps/13438
@@ -58,8 +58,8 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 1
-  blog: 0
+  video: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 0ab15c5da299d3b1ab31b23fa5d18e1a931113c5566840f113fdfc46f7579aa3
@@ -119,6 +119,6 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#13438 Fix Cloud Migration recovery when Tenant Media is unavailable](../../../../../changes/bcapps/13438.md) (code change): "Cloud migration recovery now handles Tenant Media read failures gracefully"
-- [What's New: Migrate Record Links and Notes (2025 release wave 2)](../../../../../videos/01GoAUnpBnw.md) (video): "Record links and notes migration; data replication; cloud migration management"
+- [Business Central Cloud Migration: be careful on reusing the same self-hosted runtime.](../../../../../posts/demiliani-com/13676.md) (community post): "Cloud migration in Dynamics 365 Business Central uses integration runtime to replicate data"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

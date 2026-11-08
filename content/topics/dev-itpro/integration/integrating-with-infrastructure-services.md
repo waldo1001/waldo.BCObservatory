@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,9 +107,9 @@ links:
   topics:
     - topic/dev-itpro/integration
   localizations: []
-  videos: []
-  posts:
-    - post/aardvarklabs-blog/3460
+  videos:
+    - video/2vUCR16b85o
+  posts: []
   guidelines: []
 learn_toc_path:
   - Integration
@@ -120,8 +120,8 @@ children: []
 coverage:
   learn: 7
   code: 26
-  video: 0
-  blog: 1
+  video: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 1
@@ -205,7 +205,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Native SFTP Support in Business Central 28](../../../posts/aardvarklabs-blog/3460.md) (community post): "Business Central 28 added a native SFTP Client codeunit (ID 9762) for listing, uploading, downloading and deleting"
+- [Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)](../../../videos/2vUCR16b85o.md) (video): "external file storage; azure blob storage; file shares; storage accounts"
 
 ## Business Central pages and reports
 

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:43:09.127Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-11-08T00:54:33.212Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -94,8 +94,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/573384
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -134,9 +133,7 @@ features:
     status: ga
     t: 20
     verified: true
-    status_source: roadmap
-    roadmap_ids:
-      - "573384"
+    status_source: video
   - name: Page scripting localization
     status: unclear
     t: 73
@@ -220,13 +217,11 @@ The release adds full localization (steps, error messages and tooltips), recordi
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Page scripting tool | generally available (roadmap [Page Scripting enters General Availability](../features/573384.md)) | [0:20](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=20s) | "in this release, we are now moving the page scripting from preview into making it generally available" ([1:00](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=60s)) |
+| Page scripting tool | generally available | [0:20](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=20s) | "in this release, we are now moving the page scripting from preview into making it generally available" ([1:00](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=60s)) |
 | Page scripting localization | status not stated | [1:13](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=73s) |  |
 | Multiple selection in grids | status not stated, demoed | [1:51](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=111s) |  |
 | Message and error dialogue validation | status not stated, demoed | [2:02](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=122s) |  |
 | Agent-generated page scripts | status not stated | [2:29](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=149s) |  |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

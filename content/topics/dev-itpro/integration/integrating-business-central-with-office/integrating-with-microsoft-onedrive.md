@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:45.644Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -45,6 +45,7 @@ links:
   posts:
     - post/yzhums-com/63749
     - post/yzhums-com/63803
+    - post/yzhums-com/69433
     - post/yzhums-com/69812
   guidelines: []
   changes:
@@ -61,7 +62,7 @@ coverage:
   learn: 2
   code: 0
   video: 0
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: d9548fb65d49f5e3b0ab44fc059eee69969b92a3e6608e34968be0a84170ac16
@@ -104,8 +105,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11555 [SharePoint Graph] Follow-up corrections for UpdateListItem and drive item telemetry](../../../../changes/bcapps/11555.md) (code change): "SharePoint Graph client corrections preserve unmodified fields during UpdateListItem operations"
 - [#8051 [Edit in Excel] Expose ExternalizeODataObjectName and add Page Control Field publisher](../../../../changes/bcapps/8051.md) (code change): "Enables integration with Edit in Excel without forking internal conversion logic"
-- [Dynamics 365 Business Central Blog Series: Integrate Business Central with OneDrive](../../../../posts/yzhums-com/63749.md) (community post): "Integrate Business Central with OneDrive, including file import and export via AL and Graph API"
+- [Dynamics 365 Business Central Blog Series: Integrate Business Central with OneDrive](../../../../posts/yzhums-com/63749.md) (community post): "File operations between Business Central and OneDrive can be performed using AL code with Graph API"
 - [Dynamics 365 Business Central: How to disable/hide OneDrive action group for all users](../../../../posts/yzhums-com/63803.md) (community post): "disable or hide OneDrive action groups in Dynamics 365"
+- [Dynamics 365 Business Central: How to use Open in Excel in the browser/web (Excel Online)](../../../../posts/yzhums-com/69433.md) (community post): "When OneDrive for system features is enabled, the Excel workbook opens directly in Excel for the web"
 - [Dynamics 365 Business Central: How to view excel reports (Excel Layout) directly from the web without downloading files (Excel Online)](../../../../posts/yzhums-com/69812.md) (community post): "Use OneDrive for system features is turned on in the OneDrive Setup assisted setup"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

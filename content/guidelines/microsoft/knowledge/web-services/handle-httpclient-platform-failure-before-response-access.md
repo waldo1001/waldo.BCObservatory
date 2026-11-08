@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-07T00:19:51.490Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: dcdf3aec397952b4b3ef504ac79df1f5da0e5888
@@ -41,6 +41,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/221
     - change/bcquality/196
 repo_path: microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.md
 layer: microsoft
@@ -98,6 +99,7 @@ See sample: [`handle-httpclient-platform-failure-before-response-access.bad.al`]
 
 ## Changed by
 
+- [#221 Clarify when HttpClient transport errors need translation](../../../../changes/bcquality/221.md), 2026-11-06
 - [#196 Strengthen review contracts and add AL reliability guidance](../../../../changes/bcquality/196.md), 2026-09-29
 
 ---

@@ -2,20 +2,20 @@
 id: topic/dev-itpro/business-central-on-premises/deployment
 type: topic
 title: Deployment
-summary: "Deployment of Business Central on-premises: planning, component topology, installing with Setup, service accounts, certificates, multitenant databases, and lifecycle policy. It answers how to plan, install and secure an on-premises environment, and points to subtopics for web server, database, mobile app, topologies and updates."
+summary: Deployment for Business Central on-premises covers planning, component topology, installing with Setup, service account and database provisioning, certificates, and lifecycle policy. It answers questions about how to plan, install and configure an on-premises environment and where each component goes.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-30T08:08:19.329Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d8c3492e48b055d2c992f787a81de955efa9652971f948e06a74ca12a8c3f1b2
+  input_hash: 6715a00d3fbecef94f2d655ec61b54e25f057f514eabae0cb5c42d6e4cd0c2b8
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/product-and-architecture-overview
@@ -347,28 +347,28 @@ narrative: generated
 
 # Deployment
 
-> Deployment of Business Central on-premises: planning, component topology, installing with Setup, service accounts, certificates, multitenant databases, and lifecycle policy. It answers how to plan, install and secure an on-premises environment, and points to subtopics for web server, database, mobile app, topologies and updates.
+> Deployment for Business Central on-premises covers planning, component topology, installing with Setup, service account and database provisioning, certificates, and lifecycle policy. It answers questions about how to plan, install and configure an on-premises environment and where each component goes.
 
-Path: [Business Central on-premises](../business-central-on-premises.md) > Deployment · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Business Central on-premises](../business-central-on-premises.md) > Deployment · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers everything needed to get a Business Central on-premises environment running. It starts with planning (network topology, single-tenant versus multitenant, authentication, service account, connection security) and a description of the three core components: web server, server and SQL database, plus development tools and extra components.
+This section is the entry point for putting Business Central on-premises into service. It starts with planning (network topology, single-tenant or multitenant, authentication, service account, connection security) and a description of the three core components: web server, server and SQL database, plus development tools and extra components.
 
-The own pages then cover the main tasks: installing with Setup (wizard, configuration files, command-line options), provisioning the server service account with the needed SQL Server roles, using X.509 certificates for secure connections over WAN, and managing application and tenant databases in a multitenant deployment. Other pages cover the software lifecycle policy and the Windows client FAQ.
+The own pages then cover the hands-on steps: installing with the Setup wizard or command-line options and a configuration file, provisioning the server service account with the needed SQL Server roles, managing application and tenant databases in a multitenant deployment, and using X.509 certificates to secure connections. Other pages explain the software lifecycle policy and the discontinued Windows client.
 
-Subtopics go deeper: system requirements, deployment topologies (demo to three-computer), the IIS web server, databases, the mobile app, and update lists per version. A good path is Plan for Deployment, then Component and System Topology, then Install Business Central Using Setup.
+Subtopics go deeper. Deployment topologies show demonstration, one-, two- and three-computer layouts. Separate sections cover system requirements, the web server on IIS, databases, the mobile app, and the list of on-premises updates. A good order is Plan for Deployment, Component and System Topology, a topology page, then Install Business Central Using Setup.
 
 ## Key points
 
 - Plan for Deployment covers network topology, single-tenant vs multitenant, user authentication, service account and SSL decisions.
-- Component topology: web server, server and SQL database, plus AL development environment, PowerShell modules and web services.
-- Setup install page covers media download, prerequisite checks, wizard, port configuration, saved configuration files and command-line options; versions listed include v24 to v27.
-- The server service account needs SQL Server roles such as dbcreator, db_datareader and db_datawriter; SPN registration and Network Service are also discussed.
-- Multitenant setup: create an application database, configure the server for multitenancy, mount tenant databases, synchronize and publish extensions.
-- X.509 certificates with chain trust secure server-client connections over WAN, including SSL for web services.
-- The Windows client was discontinued from 2019 release wave 2; alternatives are the web client, Windows 10 app, mobile apps, Excel and Outlook add-in.
-- Lifecycle policy page explains Modern and Fixed Lifecycle Policy, mainstream and extended support.
+- Core components are the web server, the server and the SQL database; AL environment and PowerShell modules are development tools.
+- Setup supports a wizard, saved configuration files, port configuration and command-line options; documented for v24 through v27.
+- The server service account is a domain user (or Network Service) needing roles such as dbcreator, db_datareader and db_datawriter, plus SPN registration where relevant.
+- Multitenant setup means creating an application database, configuring the server for multitenancy, mounting tenant databases and synchronizing extensions.
+- X.509 certificates with chain trust secure server-to-client connections over WAN, including SSL for web services.
+- The Windows client was discontinued from 2019 release wave 2; alternatives are the web client, Windows 10 desktop app, mobile apps and Excel/Outlook integrations.
+- Lifecycle policy page explains Modern and Fixed Lifecycle Policy, update schedule, mainstream and extended support.
 
 ## Subtopics
 

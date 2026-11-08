@@ -7,16 +7,15 @@
   "words": 200,
   "summary": "Setting up credentials for Microsoft Fabric Mirroring in Business Central 29.1 requires configuring either Microsoft's first-party app or a custom app registration with appropriate permissions and secrets.",
   "key_points": [
-    "Business Central 29.1 introduced Microsoft Fabric Mirroring in preview mode",
-    "You can use Microsoft's first-party app or create your own app registration",
-    "Custom app registration requires specific permissions and a client secret",
-    "Principal ID is obtained from the managed application in local directory",
-    "The app registration must be added to your Fabric workspace either manually or via Business Central action"
+    "Fabric Mirroring is available in preview from Business Central 29.1",
+    "You can use Microsoft's first-party app, or your own app registration if the first-party app has constraints or does not work",
+    "An own app registration needs the required permissions, admin consent granted, and a client secret plus client ID",
+    "The principal ID is the object ID found under Managed application in local directory",
+    "Personalize Business Central to show and enable the custom app registration field, then add the app to the Fabric workspace manually or with the Add to workspace action"
   ],
   "systems": [
     "integration",
-    "platform",
-    "reporting"
+    "platform"
   ],
   "topics": [
     "fabric mirroring",

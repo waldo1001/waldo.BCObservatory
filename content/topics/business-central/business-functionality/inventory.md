@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:33.447Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -432,6 +432,7 @@ links:
     - post/duiliotacconi-com/1457
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6
+    - post/yzhums-com/56046
     - post/yzhums-com/68852
     - post/yzhums-com/70554
     - post/yzhums-com/70952
@@ -462,7 +463,7 @@ coverage:
   learn: 75
   code: 99
   video: 3
-  blog: 11
+  blog: 12
   guideline: 0
 bc_forms:
   - 30
@@ -652,6 +653,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../../../posts/duiliotacconi-com/1457.md) (community post): "introduces a less-locking inventory posting engine and optimizes FlowField calculations on pages"
 - [Define Item Attributes for Item Variants](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md) (community post): "Define Item Attributes for Item Variants"
 - [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) (community post): "Blocked and Sales Blocked fields on the Item card"
+- [Dynamics 365 Business Central: Generate barcode through external services/APIs (Telepen, Swiss QR Code, QR codes with colors, images or text……)](../../../posts/yzhums-com/56046.md) (community post): "A page extension on Item Card uses HttpClient to request the image and import it"
 - [Dynamics 365 Business Central: Is it possible to change the Variant Code for an item that has already been posted?](../../../posts/yzhums-com/68852.md) (community post): "Changing a variant code for an already-posted item in Business Central"
 - [Dynamics 365 Business Central: Automatically add extended text for items, general ledger accounts, and resources (Automatic Ext. Texts)](../../../posts/yzhums-com/70554.md) (community post): "Extended text allows you to expand descriptions for items, stock-keeping units, general ledger accounts"
 - [Business Central 2026 release wave 1 (BC28): Add pictures to item variants to differentiate product options](../../../posts/yzhums-com/70952.md) (community post): "Users can store images for item variants directly in the Item Variant"

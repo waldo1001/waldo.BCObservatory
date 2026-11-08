@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T23:47:21.935Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -62,7 +62,7 @@ preview:
   image_h: 270
   site_name: DvlprLife.com
   favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
-  probed_at: "2026-10-07T11:50:13.366Z"
+  probed_at: "2026-11-08T00:52:47.702Z"
 ---
 
 # Quick Tips: Find a Field on a Business Central Page

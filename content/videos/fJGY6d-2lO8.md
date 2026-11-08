@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:50:22.575Z"
   flags: []
 generated:
-  at: "2026-11-03T00:54:42.695Z"
+  at: "2026-11-08T00:54:33.212Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -89,8 +89,7 @@ links:
   learn: []
   objects:
     - object/page/9305
-  features:
-    - feature/573319
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -175,9 +174,7 @@ features:
     status: ga
     t: 230
     verified: true
-    status_source: roadmap
-    roadmap_ids:
-      - "573319"
+    status_source: video
   - name: Enhanced Sales Demo Data
     status: unclear
     t: 270
@@ -250,10 +247,8 @@ The video also covers smaller changes. Five sales reports shipped in fall 2025 g
 | Customer Retention Overview and History Reports | status not stated, demoed | [0:55](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=55s) |  |
 | ABC Analysis Report | status not stated, demoed | [2:11](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=131s) |  |
 | Pivot Table Subtotals for Sales Reports | status not stated | [3:07](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=187s) |  |
-| Analysis Views Shipping with AL Apps | generally available (roadmap [Bookmark list views and analysis tabs](../features/573319.md)) | [3:50](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=230s) | "in this release wave we are adding the ability to ship analysis tabs or analysis views with the with with AL apps" ([3:50](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=230s)) |
+| Analysis Views Shipping with AL Apps | generally available | [3:50](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=230s) | "in this release wave we are adding the ability to ship analysis tabs or analysis views with the with with AL apps" ([3:50](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=230s)) |
 | Enhanced Sales Demo Data | status not stated | [4:30](https://www.youtube.com/watch?v=fJGY6d-2lO8&t=270s) |  |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

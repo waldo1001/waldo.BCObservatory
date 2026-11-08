@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/8577",
+  "input_hash": "1bcb0b5bf0e11e5df8f6c342e6a972de37e114e66455f964ae384d4ecd979059",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-08T00:59:03.780Z",
+  "issues": [
+    "Summary, key points and flags match the description: regression fix with a JustResolvedOption1Name flag and five new tests.",
+    "The no-regressions claim is the author's own statement, reported as such."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024422,
+    "changes_in_call": 6
+  }
+}

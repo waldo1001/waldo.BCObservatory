@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:29.802Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -78,14 +78,17 @@ links:
     - video/5Qfc7r618OM
     - video/6vHJQggN4F4
     - video/AR2FiD64wbw
-    - video/B-pxLlb-UN0
-    - video/BwBR8JwwQa4
     - video/cuez5kIanKo
     - video/e5Dr3jzCLM8
     - video/gy_6QnFpiEw
     - video/h5PQI4I4b7c
     - video/inuqqx12yJ8
     - video/lClKXB8xXIE
+    - video/NMO822Jf_4E
+    - video/p-pwG6f5srY
+    - video/StIVhsnOHWY
+    - video/VjYMhjjc3uw
+    - video/YSDfDjrMUb0
   posts: []
   guidelines: []
   changes:
@@ -140,7 +143,7 @@ children: []
 coverage:
   learn: 4
   code: 16
-  video: 12
+  video: 15
   blog: 0
   guideline: 0
 bc_forms:
@@ -244,18 +247,21 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9320 [Shopify] Import HS code and country of origin from Shopify](../../../changes/bcapps/9320.md) (code change): "Shopify connector now imports harmonized system codes and country of origin"
 - [#9321 [Shopify] Add Unlisted product status](../../../changes/bcapps/9321.md) (code change): "Shopify Connector's product status enum now includes the Unlisted value"
 - [#9404 [Shopify] Fix Sync Prices using stale WorkDate from SingleInstance cache](../../../changes/bcapps/9404.md) (code change): "Fixed the Shopify product price calculator to rebuild its cached temporary sales header when the Work Date changes"
-- [What's New: Shopify Connector B2B Functionality (2024 release wave 1)](../../../videos/3tmaVpPTQLw.md) (video): "Shopify Connector B2B Functionality; order editing; company synchronization"
+- [What's New: Shopify Connector B2B Functionality (2024 release wave 1)](../../../videos/3tmaVpPTQLw.md) (video): "shopify connector; b2b; order editing; company synchronization; customer synchronization"
 - [What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)](../../../videos/5Qfc7r618OM.md) (video): "Shopify connector; skipped records; export validation; integration troubleshooting"
-- [What's New: Product Information Management in Shopify Connector (2026 release wave 1)](../../../videos/6vHJQggN4F4.md) (video): "Item Variant Image Export to Shopify; Item Attributes for Shopify Options"
-- [What's New: Shopify Connector (2024 release wave 2) in 2 minutes](../../../videos/AR2FiD64wbw.md) (video): "shopify connector; meta fields; data synchronization; language translation; pricing"
-- [What's New: Shopify Connector - Overview (2026 release wave 1)](../../../videos/B-pxLlb-UN0.md) (video): "shopify connector; product information management; item variants; presentment currency; price synchronization"
-- [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)](../../../videos/BwBR8JwwQa4.md) (video): "shopify connector; b2b; company locations; tax id mapping; payment terms"
-- [What's New in Shopify Connector: Activate Sales Channels (2025 release wave 1)](../../../videos/cuez5kIanKo.md) (video): "Activate Specific Sales Channels; Multiple Sales Channels Setup; Product Export to Shopify"
-- [Introducing: Shopify and Dynamics 365 Business Central (2023)](../../../videos/e5Dr3jzCLM8.md) (video): "Shopify integration with Business Central; Automatic inventory synchronization; Automatic order fulfillment"
+- [What's New: Product Information Management in Shopify Connector (2026 release wave 1)](../../../videos/6vHJQggN4F4.md) (video): "Product Information Management in Shopify Connector; item variants; image export"
+- [What's New: Shopify Connector (2024 release wave 2) in 2 minutes](../../../videos/AR2FiD64wbw.md) (video): "Shopify Connector; meta fields; data synchronization; language translation"
+- [What's New in Shopify Connector: Activate Sales Channels (2025 release wave 1)](../../../videos/cuez5kIanKo.md) (video): "Shopify connector; sales channels; product export; channel activation"
+- [Introducing: Shopify and Dynamics 365 Business Central (2023)](../../../videos/e5Dr3jzCLM8.md) (video): "Shopify integration with Business Central; Automatic inventory synchronization"
 - [What's New in Shopify Connector: Prices for Markets (2025 release wave 2)](../../../videos/gy_6QnFpiEw.md) (video): "Shopify connector; Market Catalog Import; Price Synchronization for Markets"
-- [What's New in Shopify Connector: Metafields (2025 release wave 1)](../../../videos/h5PQI4I4b7c.md) (video): "Metafields synchronization from Shopify; Metafield mapping via extensibility model"
-- [What's New in Shopify Connector: Point of Sale (2025 release wave 2)](../../../videos/inuqqx12yJ8.md) (video): "Shopify POS integration with Business Central; Cash rounding for POS transactions"
-- [What's New: Troubleshooting Shopify Integration (2023 release wave 2)](../../../videos/lClKXB8xXIE.md) (video): "Enhanced Shopify Log Entries View; Request ID for Shopify Support; Logging Mode Option"
+- [What's New in Shopify Connector: Metafields (2025 release wave 1)](../../../videos/h5PQI4I4b7c.md) (video): "Shopify connector; Metafields synchronization from Shopify"
+- [What's New in Shopify Connector: Point of Sale (2025 release wave 2)](../../../videos/inuqqx12yJ8.md) (video): "Shopify POS integration with Business Central"
+- [What's New: Troubleshooting Shopify Integration (2023 release wave 2)](../../../videos/lClKXB8xXIE.md) (video): "Enhanced Shopify Log Entries View; Request ID for Shopify Support; User Error Section in Log Responses"
+- [What's New: Processing of Presentment Currencies in Shopify (2026 release wave 1)](../../../videos/NMO822Jf_4E.md) (video): "Presentment currency support in Shopify order processing"
+- [What's New: Shopify Connector (2024 release wave 2)](../../../videos/p-pwG6f5srY.md) (video): "Custom Fields and Meta Fields Support; Translation Synchronization; Add Items as Shopify Variants"
+- [What's New in Shopify Connector: Troubleshoot Synchronization (2025 release wave 2)](../../../videos/StIVhsnOHWY.md) (video): "Shopify connector; troubleshooting; synchronization; job queue"
+- [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 2)](../../../videos/VjYMhjjc3uw.md) (video): "Shopify B2B Companies with Multiple Locations; Shopify Orders Import; Customer synchronization"
+- [What's new in Shopify Connector: Overview (2026 release wave 2)](../../../videos/YSDfDjrMUb0.md) (video): "Shopify connector; product synchronization; tariff codes; B2B; company synchronization"
 
 ## Business Central pages and reports
 

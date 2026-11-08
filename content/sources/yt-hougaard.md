@@ -2,7 +2,7 @@
 id: source/yt-hougaard
 type: source
 title: Erik Hougaard
-summary: "Erik Hougaard (MVP): 19 videos in the knowledge base, 2026-09-21 to 2026-10-26, mostly about reporting, development, administration."
+summary: "Erik Hougaard (MVP): 21 videos in the knowledge base, 2026-09-21 to 2026-11-02, mostly about reporting, development, sales."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T08:34:08.524Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a61ef4d08111c982ed8dd99e2882971653aa280fa00c84e854956d3974ff1e15
+  input_hash: 07f73e4cdb482a4dfbace97c1ad29caf70467b27a6bf569892d5008b00462620
 evidence:
   - kind: video
     url: https://www.youtube.com/channel/UCcJCTa4PvbOQj50y_HJSxXw
@@ -54,6 +54,8 @@ links:
     - video/LaA6UNdkvso
     - video/vxZqz2LPJsE
     - video/urLsKPqOSbc
+    - video/cwCZUHgDb9Q
+    - video/YBVqwzig8Qc
   posts: []
   guidelines: []
 source_id: yt-hougaard
@@ -62,18 +64,18 @@ url: https://www.youtube.com/channel/UCcJCTa4PvbOQj50y_HJSxXw
 author: Erik Hougaard
 mvp: true
 full_text: false
-item_count: 19
+item_count: 21
 footprint:
   systems:
     - id: reporting
       weight: 10
     - id: development
-      weight: 6
+      weight: 7
+    - id: sales
+      weight: 2
     - id: administration
       weight: 1
     - id: finance
-      weight: 1
-    - id: sales
       weight: 1
   topics:
     - id: advanced spreadsheets
@@ -111,6 +113,8 @@ footprint:
       weight: 1
     - id: codeunit P underscore damage M object
       weight: 1
+    - id: codeunit Quake engine
+      weight: 1
     - id: codeunit SharePoint
       weight: 1
     - id: codeunit SharePoint EFQ
@@ -118,8 +122,6 @@ footprint:
     - id: other AL Build
       weight: 1
     - id: other app.json
-      weight: 1
-    - id: other HTTP client
       weight: 1
   features:
     - id: feature/573315
@@ -129,12 +131,12 @@ footprint:
     - id: feature/573336
       weight: 1
 first_item: "2026-09-21"
-last_item: "2026-10-26"
+last_item: "2026-11-02"
 ---
 
 # Erik Hougaard
 
-> Erik Hougaard (MVP): 19 videos in the knowledge base, 2026-09-21 to 2026-10-26, mostly about reporting, development, administration.
+> Erik Hougaard (MVP): 21 videos in the knowledge base, 2026-09-21 to 2026-11-02, mostly about reporting, development, sales.
 
 [https://www.youtube.com/channel/UCcJCTa4PvbOQj50y_HJSxXw](https://www.youtube.com/channel/UCcJCTa4PvbOQj50y_HJSxXw) · channel · tier community
 
@@ -143,24 +145,24 @@ last_item: "2026-10-26"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | reporting (10) | advanced spreadsheets (6) | table Customer (2) |
-| development (6) | data visualization (4) | table customer ledger entries (2) |
-| administration (1) | live data (4) | codeunit A_FirePistol (1) |
-| finance (1) | ai agent (3) | codeunit codeunits (1) |
-| sales (1) | excel integration (3) | codeunit controller in (1) |
+| development (7) | data visualization (4) | table customer ledger entries (2) |
+| sales (2) | live data (4) | codeunit A_FirePistol (1) |
+| administration (1) | ai agent (3) | codeunit codeunits (1) |
+| finance (1) | excel integration (3) | codeunit controller in (1) |
 |  | slicers (3) | codeunit Mermaid diagram codeunits (1) |
 |  | spreadsheets (3) | codeunit P underscore damage M object (1) |
-|  | advanced spreadsheets and reporting (2) | codeunit SharePoint (1) |
-|  | al development (2) | codeunit SharePoint EFQ (1) |
-|  | charts (2) | other AL Build (1) |
+|  | advanced spreadsheets and reporting (2) | codeunit Quake engine (1) |
+|  | al development (2) | codeunit SharePoint (1) |
+|  | charts (2) | codeunit SharePoint EFQ (1) |
+|  |  | other AL Build (1) |
 |  |  | other app.json (1) |
-|  |  | other HTTP client (1) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
 - 2026-Q3: ************** 14
-- 2026-Q4: ***** 5
+- 2026-Q4: ******* 7
 
 ## Roadmap features it demonstrates
 
@@ -170,6 +172,8 @@ Items per quarter, oldest first:
 
 ## Most recent
 
+- [What probem? I can stop whenever I want! (More Games in AL and Business Central)](../videos/YBVqwzig8Qc.md) (2026-11-02)
+- [Tips and Tricks for Better Pasting with Magic Page for Business Central](../videos/cwCZUHgDb9Q.md) (2026-11-01)
 - [Exploring Rabbit Holes with AL Tool Graphs](../videos/urLsKPqOSbc.md) (2026-10-26)
 - [Introducing Magic Paste for Business Central](../videos/vxZqz2LPJsE.md) (2026-10-21)
 - [Generate Mermaid.js Diagrams with AL Code (2026 Edition)](../videos/LaA6UNdkvso.md) (2026-10-19)
@@ -188,6 +192,5 @@ Items per quarter, oldest first:
 - [Use FlowFields directly inside your Spreadsheet inside Business Central (Advanced Spreadsheets)](../videos/8D8IFkqeTLU.md) (2026-09-21)
 - [Use Data from a Report inside your Spreadsheet with Business Central (Advanced Spreadsheets)](../videos/6dEZQlmBlyI.md) (2026-09-21)
 - [Introducing Spreadsheets for Business Central](../videos/1QuV_vkbNVU.md) (2026-09-21)
-- [Translate your app with an LLM in Business Central](../videos/fWBehdiuDpE.md) (2026-09-21)
 
 Source: videos of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

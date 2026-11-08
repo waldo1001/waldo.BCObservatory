@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -92,16 +92,19 @@ links:
     - video/qNHUj3ZEang
   posts:
     - post/aardvarklabs-blog/2953
+    - post/aardvarklabs-blog/3460
     - post/demiliani-com/13588
     - post/demiliani-com/13640
     - post/demiliani-com/14203
     - post/kauffmann-nl/8332
     - post/yzhums-com/56046
+    - post/yzhums-com/61543
     - post/yzhums-com/63735
     - post/yzhums-com/64775
     - post/yzhums-com/65391
     - post/yzhums-com/65525
     - post/yzhums-com/65533
+    - post/yzhums-com/66461
   guidelines: []
   changes:
     - change/bcapps/10755
@@ -126,7 +129,7 @@ coverage:
   learn: 8
   code: 0
   video: 1
-  blog: 11
+  blog: 14
   guideline: 0
 bc_forms: []
 member_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -180,17 +183,20 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#8499 Adding `IsVerifiedDomain` to the `AzureADTenant` module](../../../../changes/bcapps/8499.md) (code change): "checks whether a domain is among the tenant's verified domains"
 - [#9744 [Email - Outlook REST API] Skip attachments without contentBytes in RetrieveEmails](../../../../changes/bcapps/9744.md) (code change): "Attachments without contentBytes (item and reference attachments) are now skipped"
 - [#9748 Image Analyzer: use Computer Vision v3.2 instead of retiring v1.0](../../../../changes/bcapps/9748.md) (code change): "The Image Analyzer app switches from the retiring Computer Vision v1.0 to v3.2 API"
-- [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "explains how to consume external APIs from within Business Central by making HTTP requests using the HttpClient"
+- [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "consume external APIs from within Business Central by making HTTP requests"
+- [Native SFTP Support in Business Central 28](../../../../posts/aardvarklabs-blog/3460.md) (community post): "native SFTP Client codeunit for listing, uploading, downloading and deleting files"
 - [Dynamics 365 Business Central: new strict URI validation in AL Http Client](../../../../posts/demiliani-com/13588.md) (community post): "Cloud environments enforce this without bypass options"
-- [Dynamics 365 Business Central: using SFTP from AL (the native way)](../../../../posts/demiliani-com/13640.md) (community post): "native SFTP Client codeunit for connecting to SFTP servers from AL code"
+- [Dynamics 365 Business Central: using SFTP from AL (the native way)](../../../../posts/demiliani-com/13640.md) (community post): "Business Central 2026 Wave 1 introduced a native SFTP Client codeunit for connecting to SFTP servers"
 - [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../../posts/demiliani-com/14203.md) (community post): "Job queue entries that call external APIs"
-- [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "OAuth library for Business Central's Rest Client module has been released on GitHub"
-- [Dynamics 365 Business Central: Generate barcode through external services/APIs (Telepen, Swiss QR Code, QR codes with colors, images or text……)](../../../../posts/yzhums-com/56046.md) (community post): "external APIs like QuickChart can generate QR codes and other barcode types through HTTP requests in AL code"
+- [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "OAuth library for Business Central's Rest Client module has been released"
+- [Dynamics 365 Business Central: Generate barcode through external services/APIs (Telepen, Swiss QR Code, QR codes with colors, images or text……)](../../../../posts/yzhums-com/56046.md) (community post): "QuickChart API instead. QuickChart QR parameters cover format, margin, size"
+- [Dynamics 365 Business Central: How to get HTML Image src attribute via AL (The Image Embed element)](../../../../posts/yzhums-com/61543.md) (community post): "extract HTML Image src attributes from images"
 - [Dynamics 365 Business Central Blog Series: Integrate Business Central with SharePoint](../../../../posts/yzhums-com/63735.md) (community post): "uploading SharePoint files through AL and Graph API, saving reports to SharePoint"
-- [Dynamics 365 Business Central: Integrate with Microsoft Dataverse via APIs (Not using the standard Dataverse connector)](../../../../posts/yzhums-com/64775.md) (community post): "authenticating with OAuth 2.0 and implementing GET, POST, PATCH, and DELETE operations to synchronize data"
+- [Dynamics 365 Business Central: Integrate with Microsoft Dataverse via APIs (Not using the standard Dataverse connector)](../../../../posts/yzhums-com/64775.md) (community post): "step-by-step guidance on authenticating with OAuth 2.0 and implementing GET, POST, PATCH, and DELETE operations"
 - [Dynamics 365 Business Central: How to set Allow HttpClient Requests for multiple extensions (selected extensions) at the same time](../../../../posts/yzhums-com/65391.md) (community post): "Allow HttpClient Requests must be enabled per extension to allow outbound HTTP calls"
 - [Dynamics 365 Business Central: How to quickly check if a Url is secure (Use https) via AL](../../../../posts/yzhums-com/65525.md) (community post): "Use codeunit 1299 Web Request Helper and its IsSecureHttpUrl procedure to validate URL security"
 - [Dynamics 365 Business Central: Automatically enable Allow HttpClient Requests after custom extension/app installation](../../../../posts/yzhums-com/65533.md) (community post): "Apps calling external services through HttpClient need Allow HttpClient Requests enabled"
+- [Dynamics 365 Business Central: How to quickly strip not supported chars in File Name via AL](../../../../posts/yzhums-com/66461.md) (community post): "Saving files from Business Central to external systems requires removing unsupported characters"
 - [What's Cooking in Business Central: Cookies and Collectible Errors in the REST Client](../../../../videos/qNHUj3ZEang.md) (video): "Cookie Support in REST Client; Collectible Errors in REST Client"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

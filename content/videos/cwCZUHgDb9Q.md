@@ -23,7 +23,7 @@ review:
   at: "2026-11-08T00:24:22.727Z"
   flags: []
 generated:
-  at: "2026-11-08T00:24:22.960Z"
+  at: "2026-11-08T00:54:33.212Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -76,6 +76,57 @@ links:
   videos: []
   posts: []
   guidelines: []
+  related:
+    - to: video/Vq9Nk6_uxmQ
+      title: "Business Central Under the Hood episode 14: Building Agents in Business Central"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
+      title: Create Purchase Orders from Drop Shipments
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: video/tpAh4q3h8T8
+      title: "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/thedynamicsexplorer-com/10232
+      title: Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central
+      label: possibly related
+      why: both name Page 39 "General Journal"
+      by: code
+    - to: post/yzhums-com/74523
+      title: "Dynamics 365 Business Central Blog Series: Item Attributes"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/yzhums-com/65320
+      title: "Dynamics 365 Business Central: About the size of the value displayed on the card/document page (textbox too small to read?)"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/yzhums-com/70137
+      title: "Dynamics 365 Business Central: Adding comments to Factbox/Report (Displaying Comments in a FactBox/Report)"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/yzhums-com/66037
+      title: "Dynamics 365 Business Central: Can we edit data directly in FactBox?"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
+    - to: post/yzhums-com/71645
+      title: "Dynamics 365 Business Central: How to copy (synchronize) the Incoming Document to all Gen. Journal Lines"
+      label: possibly related
+      why: both name Page 39 "General Journal"
+      by: code
+    - to: post/yzhums-com/56521
+      title: "Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page"
+      label: possibly related
+      why: both name Page 42 "Sales Order"
+      by: code
 video_id: cwCZUHgDb9Q
 channel: yt-hougaard
 source_name: Erik Hougaard
@@ -225,5 +276,20 @@ Not found in BC28-30: page "Customer".
 ## Disclaimers in the video
 
 - [7:53](https://www.youtube.com/watch?v=cwCZUHgDb9Q&t=473s) preview: You can try it for free in a in a sandbox.
+
+## Possibly related
+
+No source states these links: they share an object, a model read them, or a person found the same subject.
+
+- [Business Central Under the Hood episode 14: Building Agents in Business Central](../videos/Vq9Nk6_uxmQ.md) — possibly related: both name Page 42 "Sales Order"
+- [Create Purchase Orders from Drop Shipments](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) — possibly related: both name Page 42 "Sales Order"
+- [Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users](../videos/tpAh4q3h8T8.md) — possibly related: both name Page 42 "Sales Order"
+- [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../posts/thedynamicsexplorer-com/10232.md) — possibly related: both name Page 39 "General Journal"
+- [Dynamics 365 Business Central Blog Series: Item Attributes](../posts/yzhums-com/74523.md) — possibly related: both name Page 42 "Sales Order"
+- [Dynamics 365 Business Central: About the size of the value displayed on the card/document page (textbox too small to read?)](../posts/yzhums-com/65320.md) — possibly related: both name Page 42 "Sales Order"
+- [Dynamics 365 Business Central: Adding comments to Factbox/Report (Displaying Comments in a FactBox/Report)](../posts/yzhums-com/70137.md) — possibly related: both name Page 42 "Sales Order"
+- [Dynamics 365 Business Central: Can we edit data directly in FactBox?](../posts/yzhums-com/66037.md) — possibly related: both name Page 42 "Sales Order"
+- [Dynamics 365 Business Central: How to copy (synchronize) the Incoming Document to all Gen. Journal Lines](../posts/yzhums-com/71645.md) — possibly related: both name Page 39 "General Journal"
+- [Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page](../posts/yzhums-com/56521.md) — possibly related: both name Page 42 "Sales Order"
 
 Presenters (as heard): Eric.

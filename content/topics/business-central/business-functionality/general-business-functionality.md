@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/general-business-functionality
 type: topic
 title: General business functionality
-summary: "General business functionality in Business Central covers cross-area features: posting and batch posting, comments, extended text, archiving, tasks, email, job queues, general journals, external file storage, and Excel export. It also groups incoming documents, workflows and electronic data exchange. It answers how-to and setup questions for these shared tools."
+summary: "General business functionality in Business Central covers features shared across business areas: posting and batch posting, document handling (comments, extended text, archiving, status, email), tasks, job queues, Excel export, external file storage, general journals, incoming documents, workflows and electronic data exchange. It answers setup and how-to questions for these cross-area tools."
 tier: official
 language: en
 review:
@@ -11,11 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: eb690155369b7e7bbdcaf51a51e59810b1c0d43c317ab21f11dbd20e73374b80
+  input_hash: 7f5a70e4398e31a58b44384d3816c390a5d17d9ff8ad4e688478b0fb14388d6d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-about-the-data-exchange-framework
@@ -626,28 +626,28 @@ narrative: generated
 
 # General business functionality
 
-> General business functionality in Business Central covers cross-area features: posting and batch posting, comments, extended text, archiving, tasks, email, job queues, general journals, external file storage, and Excel export. It also groups incoming documents, workflows and electronic data exchange. It answers how-to and setup questions for these shared tools.
+> General business functionality in Business Central covers features shared across business areas: posting and batch posting, document handling (comments, extended text, archiving, status, email), tasks, job queues, Excel export, external file storage, general journals, incoming documents, workflows and electronic data exchange. It answers setup and how-to questions for these cross-area tools.
 
 Path: [Business functionality](../business-functionality.md) > General business functionality · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects features that are used across finance, sales, purchasing and service rather than in one business area. The own pages cover everyday document handling: posting and previewing, batch posting, status values, comments, extended text, archiving, editing posted documents, tracking order lines, sending documents by email, and finding related entries. They also cover general journals, job queue scheduling, user tasks, online maps, Excel export, Copilot-suggested values, digital vouchers and external file storage for attachments.
+This section collects functionality that is not tied to one module but is used in sales, purchasing, finance and other areas. Its own pages cover everyday document work (comments, extended text, status values, archiving, editing posted documents, tracing order lines and related entries, sending documents by email), posting (posting actions, preview, batch posting, general journals), and supporting tools (tasks, job queues, online maps, Excel export, suggested values, digital vouchers, external file storage).
 
-Three subtopics go deeper. Incoming documents covers creating records from files or camera, OCR, and conversion to purchase invoices or journal lines. Workflows covers approval workflow templates and Power Automate flows. Exchange data electronically covers the Data Exchange Framework, PEPPOL, bank file import and export, SEPA, Yodlee bank feeds and currency rates.
+Three subtopics go deeper: Incoming documents (capturing files and converting them to purchase invoices or journal lines), Workflows (approval workflow templates and Power Automate flows), and Exchange data electronically (data exchange definitions, PEPPOL, bank files, SEPA).
 
-Start with "Using general functionality across business areas" for an overview, then go to the specific page for your task. For posting questions, read "Posting documents and journals" and then the preview and batch posting pages.
+A good starting point is "Using general functionality across business areas", which gives the overview. From there, go to the posting pages for transaction questions, or to the subtopics for automation and integration setup.
 
 ## Key points
 
-- Posting actions include Post, Preview Posting, Post and Send and Post and Email. Preview shows the G/L and other ledger entries before posting.
-- Batch posting can run immediately or on a schedule through job queues. Background posting is set up in Sales & Receivables Setup.
-- Job Queue Entries schedules reports and codeunits once or on a recurrence, with status tracking, failure notifications and inactivity timeouts.
-- Documents move through Open, Released, Pending Approval and Pending Prepayment statuses, which control editing.
-- Archived sales, purchase, project and service documents can be restored. Retention policies can manage them automatically.
-- External file storage can keep attachments in Azure Blob Storage, Azure File Share or SharePoint to reduce database use (Business Central 28.1).
+- Posting actions include Post, Preview Posting, Post and Send and Post and Email; preview shows the G/L and other ledger entries before posting.
+- Batch posting can run immediately or on a schedule through job queues, with background posting set up in Sales & Receivables Setup.
+- Job Queue Entries schedules reports and codeunits once or on a recurring basis, with status tracking and failure notifications.
+- Documents move through Open, Released, Pending Approval and Pending Prepayment statuses; releasing moves them to the next stage.
+- Documents can be archived and restored, with retention policies for automatic retention management.
+- External file storage can keep attachments in Azure Blob Storage, Azure File Share or SharePoint to reduce database capacity (Business Central 28.1 page).
 - Posted sales and purchase documents allow limited edits, such as package tracking numbers and payment references.
-- Extended text, comments, user tasks, digital vouchers and online maps add information or control to cards and documents.
+- Digital vouchers can require attachments for specific transactions during posting, for regional compliance.
 
 ## Subtopics
 

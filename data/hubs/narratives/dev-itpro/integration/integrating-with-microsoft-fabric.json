@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
+  "input_hash": "48173ba3fcb1705bcebcc761fe5047b9e9f917d66527c85dfc5d35040bc0d418",
+  "summary": "Integrating Business Central with Microsoft Fabric: data extraction options, mirroring Business Central online data into Fabric OneLake, administrator setup and monitoring, and connecting Copilot Studio agents. It answers questions about choosing an extraction method, configuring and troubleshooting mirroring, and agent access.",
+  "overview": "This section covers how to move Business Central data into analytics platforms and how to connect it to Copilot Studio. It starts with an overview of extraction methods, including ETL, API-based delta extraction with read scale-out, Azure Data Factory, Power BI dataflows, and BACPAC export, so you can compare approaches.\n\nThe main managed option is data mirroring to Microsoft Fabric. It replicates an initial snapshot and then ongoing changes from Business Central online into OneLake, without repeatedly reading from APIs. The Administrator subtopic covers the practical work: initial setup, choosing which companies and tables synchronize, and monitoring and troubleshooting runs.\n\nA separate subtopic covers Microsoft Copilot Studio integration: configuring the Business Central MCP Server and building agents that connect through the connector or MCP server.\n\nStart with the data extraction methods page to decide on an approach. If you pick mirroring, read the mirroring page and then the Administrator pages.",
+  "key_points": [
+    "Extraction methods page compares ETL, API-based delta extraction with read scale-out, Azure Data Factory, Power BI dataflows, and BACPAC export.",
+    "Delta extraction can filter on systemModifiedAt.",
+    "Mirroring replicates Business Central online data into Microsoft Fabric OneLake.",
+    "Mirroring supports multiple companies and up to 1,000 selected tables.",
+    "It does an initial snapshot, then incremental synchronization, stored in Delta Parquet format.",
+    "A configuration package with standard tables is available.",
+    "Administrator pages cover setup, managing companies and tables, and monitoring and troubleshooting.",
+    "Copilot Studio integration covers the Business Central MCP Server and agents using the connector or MCP server."
+  ],
+  "members_used": 2,
+  "subtopics_used": 2,
+  "prompt_version": 1,
+  "at": "2026-11-08T01:01:08.446Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015470000000000001
+  }
+}

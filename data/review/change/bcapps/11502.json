@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/11502",
+  "input_hash": "247f86c1977a6835d7e76395becdfec8855019774e8f928359827ca1c0fbf10f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-08T00:59:03.780Z",
+  "issues": [
+    "Summary was vague about what the event controls; it concerns the Original Doc. VAT Date CZL check in CheckVATDateCZL.",
+    "Description also states the check is restricted to invoiced documents; with a +9 -1 diff it is unclear how much of that is code versus motivation."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024422,
+    "changes_in_call": 6
+  }
+}

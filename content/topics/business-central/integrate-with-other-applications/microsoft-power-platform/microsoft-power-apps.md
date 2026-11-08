@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:41.700Z"
   flags: []
 generated:
-  at: "2026-10-26T08:46:07.995Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,8 +42,7 @@ links:
     - topic/business-central/integrate-with-other-applications/microsoft-power-platform
   localizations: []
   videos: []
-  posts:
-    - post/yzhums-com/67024
+  posts: []
   guidelines: []
 learn_toc_path:
   - Integrate with other applications
@@ -56,7 +55,7 @@ coverage:
   learn: 2
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 4e86e262e5ca34c93b22565c88264b7ae267174c16110401fd7d5b9a0200ed90
@@ -91,11 +90,5 @@ Start with the overview page to see the scenarios. Then use the data guide when 
 
 - [Business Central and Power Apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview): Get an overview Business Central and Power Apps integration
 - [Use your data to create an app\| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerapps): Make your Business Central data available as a data source in Power Apps by specifying the OData URL of your web services to build custom business apps.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Regarding the recent problem I encountered when opening Power Apps with Zscaler](../../../../posts/yzhums-com/67024.md) (community post): "problem I encountered when opening Power Apps"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

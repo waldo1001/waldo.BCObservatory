@@ -2,7 +2,7 @@
 id: source/bcquality-prs
 type: source
 title: microsoft/BCQuality pull requests
-summary: "microsoft/BCQuality pull requests: 112 code changes in the knowledge base, 2026-07-09 to 2026-11-06, mostly about development, platform, copilot."
+summary: "microsoft/BCQuality pull requests: 115 code changes in the knowledge base, 2026-07-09 to 2026-11-06, mostly about development, platform, copilot."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-07T00:15:21.625Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: eb33cefe8f90d74242fa122611549bfbe1ad8aef264e7fabf4dd98a951719a3a
+  input_hash: 10beacd76bba116c197c0733c5c15a122614088bb25171d4ae7ba1e48e4dc54e
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
@@ -146,37 +146,40 @@ links:
     - change/bcquality/260
     - change/bcquality/262
     - change/bcquality/264
+    - change/bcquality/267
     - change/bcquality/256
+    - change/bcquality/234
+    - change/bcquality/221
 source_id: bcquality-prs
 kind: github-pr
 url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 112
+item_count: 115
 footprint:
   systems:
     - id: development
-      weight: 200
+      weight: 204
     - id: platform
       weight: 28
     - id: copilot
       weight: 17
+    - id: integration
+      weight: 9
     - id: administration
       weight: 8
-    - id: integration
-      weight: 7
     - id: reporting
       weight: 7
   topics:
     - id: main
-      weight: 112
+      weight: 115
     - id: feature
-      weight: 66
+      weight: 67
     - id: fix
       weight: 28
     - id: other
-      weight: 13
+      weight: 15
     - id: refactor
       weight: 5
   objects: []
@@ -187,7 +190,7 @@ last_item: "2026-11-06"
 
 # microsoft/BCQuality pull requests
 
-> microsoft/BCQuality pull requests: 112 code changes in the knowledge base, 2026-07-09 to 2026-11-06, mostly about development, platform, copilot.
+> microsoft/BCQuality pull requests: 115 code changes in the knowledge base, 2026-07-09 to 2026-11-06, mostly about development, platform, copilot.
 
 [https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -195,11 +198,11 @@ last_item: "2026-11-06"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (200) | main (112) |  |
-| platform (28) | feature (66) |  |
+| development (204) | main (115) |  |
+| platform (28) | feature (67) |  |
 | copilot (17) | fix (28) |  |
-| administration (8) | other (13) |  |
-| integration (7) | refactor (5) |  |
+| integration (9) | other (15) |  |
+| administration (8) | refactor (5) |  |
 | reporting (7) |  |  |
 
 ## Flight path
@@ -207,11 +210,14 @@ last_item: "2026-11-06"
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 77
-- 2026-Q4: *********************************** 35
+- 2026-Q4: ************************************** 38
 
 ## Most recent
 
+- [#221 Clarify when HttpClient transport errors need translation](../changes/bcquality/221.md) (2026-11-06)
+- [#234 knowledge(ui): define per-record page outputs on every control-flow path](../changes/bcquality/234.md) (2026-11-06)
 - [#256 Fixtures: make two samples comply with the sibling articles they trip](../changes/bcquality/256.md) (2026-11-06)
+- [#267 Evaluation: keep standalone BDD tag lines in prepared testing samples](../changes/bcquality/267.md) (2026-11-06)
 - [#264 knowledge(upgrade): clarify DataTransfer defaults and bypass safety](../changes/bcquality/264.md) (2026-11-05)
 - [#262 Trim two articles to the 10-keyword limit](../changes/bcquality/262.md) (2026-11-04)
 - [#260 Fix al-knowledge follow-ups and document the skill](../changes/bcquality/260.md) (2026-11-04)
@@ -228,8 +234,5 @@ Items per quarter, oldest first:
 - [#226 Performance knowledge: justify low-selectivity fields in key columns](../changes/bcquality/226.md) (2026-10-20)
 - [#237 knowledge(data-modeling): keep business state independent of Job Queue lifetime](../changes/bcquality/237.md) (2026-10-20)
 - [#229 Knowledge: Community Copilot domain (System.AI features) and review skill](../changes/bcquality/229.md) (2026-10-20)
-- [#155 Add read-only AL development plan guidance](../changes/bcquality/155.md) (2026-10-20)
-- [#230 Knowledge: report layouts and dataset contract, query join and grouping defaults](../changes/bcquality/230.md) (2026-10-20)
-- [#223 knowledge(data-modeling): code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision](../changes/bcquality/223.md) (2026-10-19)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

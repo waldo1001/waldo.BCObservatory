@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:47:50.060Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -80,7 +80,7 @@ preview:
   image_h: null
   site_name: Stefan Maron
   favicon: https://stefanmaron.com/icons/favicon-32x32.png
-  probed_at: "2026-10-07T11:50:24.629Z"
+  probed_at: "2026-11-08T00:52:54.629Z"
 ---
 
 # Introducing bc-code-atlas: Real BC Source for Coding Agents, Not a Guess

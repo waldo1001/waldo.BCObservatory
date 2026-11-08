@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:36.352Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -134,6 +134,6 @@ Start with the development overview to see the pieces, then move to the metadata
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Dynamics 365 Business Central: Set up access to Business Central with Microsoft 365 licenses within BC (Not in Admin Center)](../../../../posts/yzhums-com/70836.md) (community post): "Microsoft Teams users can access Business Central data using Microsoft 365 licenses"
+- [Dynamics 365 Business Central: Set up access to Business Central with Microsoft 365 licenses within BC (Not in Admin Center)](../../../../posts/yzhums-com/70836.md) (community post): "Setup is performed within Business Central via Tell me search for 'Set up access with Microsoft 365 Licenses'"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

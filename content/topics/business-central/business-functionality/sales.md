@@ -12,7 +12,7 @@ review:
   at: "2026-11-07T01:06:35.638Z"
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -471,6 +471,7 @@ links:
     - topic/business-central/business-functionality/sales/subscription-billing
   localizations: []
   videos:
+    - video/e5Dr3jzCLM8
     - video/fatcqVFrTXI
     - video/fdP1HKBEDjA
     - video/PIWxU93eCT4
@@ -552,7 +553,7 @@ children:
 coverage:
   learn: 133
   code: 138
-  video: 3
+  video: 4
   blog: 19
   guideline: 0
 bc_forms:
@@ -844,6 +845,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 1 (BC28): Filter receipt and shipment lines to quickly find documents you want to invoice (New filters on the Get Receipt Lines, Get Shipment Lines, and Get Service Shipment Lines pages)](../../../posts/yzhums-com/71648.md) (community post): "Get Shipment Lines, and Get Service Shipment Lines pages to help users"
 - [Dynamics 365 Business Central: Searches for duplicate external document numbers in sales documents and posted documents (Standard function/procedure)](../../../posts/yzhums-com/74940.md) (community post): "searches for duplicate external document numbers in sales documents and posted documents"
 - [Dynamics 365 Business Central: How to add a Signature Pad to the Sales Order page (Capture and Save Customer Signatures)](../../../posts/yzhums-com/75073.md) (community post): "Adding a signature pad to the Sales Order page in Business Central"
+- [Introducing: Shopify and Dynamics 365 Business Central (2023)](../../../videos/e5Dr3jzCLM8.md) (video): "Automatic order fulfillment; financial visibility and reporting"
 - [Comparing Entering Receivables Transactions in Dynamics SL to Dynamics 365 Business Central](../../../videos/fatcqVFrTXI.md) (video): "Sales invoice entry in Business Central"
 - [Comparing entering Receivables Transactions in Dynamics GP to Dynamics 365 Business Central (2024)](../../../videos/fdP1HKBEDjA.md) (video): "Sales invoices document in Business Central"
 - [What's Cooking in Business Central: Edit Sales Price Lists in Excel](../../../videos/PIWxU93eCT4.md) (video): "sales price lists; excel integration; edit prices"

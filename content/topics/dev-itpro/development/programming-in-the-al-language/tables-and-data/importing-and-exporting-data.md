@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:22.537Z"
   flags: []
 generated:
-  at: "2026-11-02T00:57:11.355Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -80,7 +80,7 @@ links:
     - post/aardvarklabs-blog/2603
     - post/aardvarklabs-blog/2838
     - post/aardvarklabs-blog/2866
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c
+    - post/aardvarklabs-blog/3631
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-82-excel-buffer-character-limit--e27af9f4a3
     - post/yzhums-com/63762
     - post/yzhums-com/65326
@@ -158,13 +158,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [How to Work with JSON in Business Central’s AL Code](../../../../../posts/aardvarklabs-blog/1826.md) (community post): "Export records by building JsonObject and JsonArray structures"
 - [Best Practices for Handling Delimited Data Imports into Business Central](../../../../../posts/aardvarklabs-blog/2204.md) (community post): "CSV is an unstructured flat file format where data is separated by delimiters"
 - [Guide to Handling Header and Detail Imports into Business Central with AL](../../../../../posts/aardvarklabs-blog/2603.md) (community post): "parse and import delimited files containing header and detail records"
-- [Importing Multi-Tab Excel Files into Business Central](../../../../../posts/aardvarklabs-blog/2838.md) (community post): "explains how to import multi-tab Excel files into Business Central with a header/line relationship structure"
-- [Importing XML into Business Central with AL](../../../../../posts/aardvarklabs-blog/2866.md) (community post): "demonstrates how to parse cXML (commerce eXtensible Markup Language) files in Business Central using AL code"
-- [How to Export CSV Files from Business Central Using CSV Buffer (Developer Guide)](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c.md) (community post): "how to export data from Business Central to CSV format"
+- [Importing Multi-Tab Excel Files into Business Central](../../../../../posts/aardvarklabs-blog/2838.md) (community post): "import multi-tab Excel files into Business Central with header line"
+- [Importing XML into Business Central with AL](../../../../../posts/aardvarklabs-blog/2866.md) (community post): "extracting purchase order data from an XML file and populating custom tables"
+- [Using Power Automate for Business Central SFTP](../../../../../posts/aardvarklabs-blog/3631.md) (community post): "Create a table with BLOB field to store file content and supporting pages"
 - [BC Friday Tips #82 Excel Buffer Character Limit](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-82-excel-buffer-character-limit--e27af9f4a3.md) (community post): "Excel Buffer in Business Central has a 250-character limit on field values."
-- [Dynamics 365 Business Central Blog Series: Import and Export data](../../../../../posts/yzhums-com/63762.md) (community post): "Comprehensive methods for importing and exporting data in Dynamics 365 Business Central"
+- [Dynamics 365 Business Central Blog Series: Import and Export data](../../../../../posts/yzhums-com/63762.md) (community post): "Configuration packages and XMLports provide standard approaches for bulk data import/export operations"
 - [Dynamics 365 Business Central: How to bulk import marketing text to items – Customization](../../../../../posts/yzhums-com/65326.md) (community post): "Custom AL code using XMLPORT with CSV format allows bulk import while handling large text values"
 - [Dynamics 365 Business Central: How to bulk import big/large text (length exceeds 250 and 2048) from external files via AL](../../../../../posts/yzhums-com/65426.md) (community post): "bulk import text longer than 250 or 2048 characters from external files into Business Central using XMLPort"
-- [Dynamics 365 Business Central Blog Series: Handle CSV (comma-separated values) files](../../../../../posts/yzhums-com/68672.md) (community post): "importing and exporting table data as CSV, bulk importing long text through AL"
+- [Dynamics 365 Business Central Blog Series: Handle CSV (comma-separated values) files](../../../../../posts/yzhums-com/68672.md) (community post): "importing and exporting table data as CSV"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

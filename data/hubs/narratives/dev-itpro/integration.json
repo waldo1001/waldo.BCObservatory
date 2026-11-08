@@ -1,37 +1,38 @@
 {
   "hub_id": "topic/dev-itpro/integration",
-  "input_hash": "8409cff3f7847d035ac659fb50035ef3d6c8f8b857f415f9a3036103a388ab16",
-  "summary": "Integration covers how Business Central connects to external systems and Microsoft services: web services and REST APIs, events and webhooks, Office and Microsoft 365, Dataverse, Power Platform, Azure, infrastructure services, Dynamics 365 Sales and Field Service, and Shopify. It helps choose an integration approach and find setup, security and troubleshooting guidance.",
-  "overview": "Integration is the entry point for connecting Business Central to other systems. The overview page describes the architectural patterns: REST APIs, SOAP web services, OData, the HttpClient data type, Dataverse, Dynamics 365 Sales, Office apps, Power Platform, Shopify, Azure services and Copilot extensions. Start there to pick an approach.",
+  "input_hash": "735e420d801c725128fe55574eb1adf74a655c1a3ae2b6c1f27f80ca8baafe9e",
+  "summary": "Integration in Business Central covers how to connect it to other systems: web services and REST APIs, events and webhooks, Microsoft 365, Dataverse, Power Platform, Fabric, Azure, infrastructure services, Shopify, Dynamics 365 Sales and Field Service. It helps choose an integration approach and find setup, security and troubleshooting guidance.",
+  "overview": "Integration is the entry point for designing data and process connections to and from Business Central. The overview page is written for architects and developers. It maps the options: web services, the REST API stack, built-in integrations, and connections to Microsoft 365, Power Platform, Dynamics 365, Dataverse, Fabric, Shopify and Azure.\n\nThe subtopics split by technology. Web services (the largest, 294 pages) and Connect apps cover OData, SOAP and API endpoints, authentication and point-to-point REST integrations. Events and webhooks cover notification-based integration. Dataverse, Power Platform and Fabric cover synchronization, virtual tables, apps, flows, reports and mirroring to OneLake. Office and Microsoft 365, Azure services, infrastructure services and Shopify cover the product-specific connections.\n\nTwo own pages cover Dynamics 365 products: integration with Dynamics 365 Sales through Dataverse, and with Field Service for work orders and project journals. Start with the overview page, then go to the subtopic that matches your target system or integration style.",
   "key_points": [
-    "The overview page compares patterns: REST API, SOAP, OData, HttpClient, Dataverse and Dynamics 365 Sales integration.",
-    "Web services is the largest subtopic (294 pages): publishing and consuming OData, SOAP and API endpoints, security, and telemetry-based monitoring and tuning.",
-    "Connect apps covers point-to-point REST integrations: API pages and queries, OAuth 2.0, service-to-service authentication, OData filters, batch requests and headers.",
-    "Events: business events (preview) work through Dataverse and Power Automate, and webhooks push notifications when entities change.",
-    "Dynamics 365 Sales integration runs through Dataverse with bidirectional sync, record coupling, unit group mapping, security roles and item availability.",
-    "Field Service integration (2021 release wave 2) syncs work orders with project journals and supports resource scheduling and service order status.",
-    "Dataverse and Power Platform subtopics cover sync, virtual tables, Power Apps, Power Automate, Power BI, Power Pages and Copilot Studio.",
-    "Office/Microsoft 365, Azure (Key Vault, telemetry), infrastructure (Entra ID, MFA, Universal Print) and the Shopify Connector each have their own subtopic."
+    "The overview page compares integration options: web services, REST APIs, built-in integrations, and links to Microsoft 365, Power Platform, Dynamics 365, Dataverse, Fabric, Shopify and Azure.",
+    "Web services cover consuming and publishing OData, SOAP and API endpoints, plus security, tuning and telemetry monitoring.",
+    "Connect apps focuses on REST API integrations with partner solutions: API pages and queries, OAuth 2.0, service-to-service authentication, OData filters and batch requests.",
+    "Dynamics 365 Sales integration runs through Dataverse with bidirectional sync, record coupling, unit group mapping, sales order processing and item availability.",
+    "Dynamics 365 Field Service integration (2021 release wave 2) syncs work orders with project journals and supports resource scheduling and item availability.",
+    "Fabric integration offers mirroring of Business Central online data into OneLake, with admin setup, monitoring and Copilot Studio agent access.",
+    "Events integration includes business events (preview) via Dataverse and Power Automate, and webhooks that push notifications on entity changes.",
+    "Shopify Connector syncs items, prices, inventory, customers and orders, with OAuth setup and troubleshooting."
   ],
   "members_used": 3,
-  "subtopics_used": 9,
+  "subtopics_used": 10,
   "prompt_version": 1,
-  "at": "2026-11-06T01:01:54.207Z",
+  "at": "2026-11-08T01:01:29.073Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.016241
+    "cost_usd": 0.019022999999999998
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-06T01:02:04.545Z",
+    "at": "2026-11-08T01:01:45.873Z",
     "verdict": "approve",
     "issues": [
-      "The Field Service key point puts '2021 release wave 2' in parentheses with no explanation. The page lists that version but does not say what it marks, so a reader may take it as the release that introduced the integration. A plainer wording would be 'the page references 2021 release wave 2'.",
-      "The overview's list of integration patterns leaves out Dynamics 365 Field Service, even though the overview page names it. Field Service is still covered in the key points."
+      "Field Service key point puts '2021 release wave 2' in parentheses. The source only lists that version and does not say it is when the integration was introduced. This is acceptable but should not be read as a launch date.",
+      "The overview says 'Two own pages cover Dynamics 365 products'. The hub has three own pages, and the third is the overview page. The wording is accurate but could be clearer.",
+      "The key point says the overview page 'compares' integration options. The source says it helps design integrations using those options. This is a small difference in wording."
     ],
-    "input_hash": "8409cff3f7847d035ac659fb50035ef3d6c8f8b857f415f9a3036103a388ab16",
-    "cost_usd": 0.044939999999999994
+    "input_hash": "735e420d801c725128fe55574eb1adf74a655c1a3ae2b6c1f27f80ca8baafe9e",
+    "cost_usd": 0.0471458
   }
 }

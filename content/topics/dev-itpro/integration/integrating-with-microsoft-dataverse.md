@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.950Z"
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -185,16 +185,14 @@ links:
   localizations: []
   videos:
     - video/-q8Gm7u7R2A
-    - video/auoHUd24Gfw
+    - video/EVntnDFE1R4
     - video/fIOnGEARkKs
-    - video/ItuCEHpaI1E
     - video/YTA8c2XyTX4
   posts:
     - post/wingate365-com/https-blog-wingate365-com-2025-05-business-central-power-pages-true-html--3e063897e5
     - post/yzhums-com/63916
     - post/yzhums-com/64775
     - post/yzhums-com/71914
-    - post/yzhums-com/76918
     - post/yzhums-com/76990
   guidelines: []
   changes:
@@ -218,8 +216,8 @@ children:
 coverage:
   learn: 22
   code: 1
-  video: 5
-  blog: 6
+  video: 4
+  blog: 5
   guideline: 0
 bc_forms:
   - 7214
@@ -265,7 +263,7 @@ Start with the landing page to pick the approach. Then go to data synchronizatio
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10207 [Dataverse] Use Truncate for CRM Integration Record cleanup during environment copy](../../../changes/bcapps/10207.md) (code change): "CRM Integration Record cleanup during environment copy"
+- [#10207 [Dataverse] Use Truncate for CRM Integration Record cleanup during environment copy](../../../changes/bcapps/10207.md) (code change): "Use Truncate for CRM Integration Record cleanup during environment copy"
 - [#10578 [Extensibility Request] issue 30429: add events to disambiguate CRM integration table mappings](../../../changes/bcapps/10578.md) (code change): "Four integration events are added to allow extensions to select the correct CRM integration table mapping"
 - [#10753 Cross-environment Master Data synchronization (same tenant)](../../../changes/bcapps/10753.md) (code change): "Cross-environment Master Data synchronization subsidiary environments to synchronize master data from a source environment"
 - [#11016 [AI Business Solutions] Enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2 integrations](../../../changes/bcapps/11016.md) (code change): "Enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2 integrations"
@@ -276,15 +274,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9322 [FS Integration] SVCITEM-CUSTASSET mapping ignores "Convert to Customer Asset" flag — every Service Item synced to FS unconditionally](../../../changes/bcapps/9322.md) (code change): "Field Service Integration now respects the Dataverse Product setting Convert to Customer Asset"
 - [Business Central + Power Pages = TRUE - ColorCloud 2025](../../../posts/wingate365-com/https-blog-wingate365-com-2025-05-business-central-power-pages-true-html--3e063897e5.md) (community post): "Virtual Tables in Dataverse, supported in Power Pages, let external audiences interact with Business Central data"
 - [Dynamics 365 Business Central Blog Series: Integrate with Microsoft Dataverse](../../../posts/yzhums-com/63916.md) (community post): "three methods to integrate Business Central with Microsoft Dataverse: using the standard Dataverse connector"
-- [Dynamics 365 Business Central: Integrate with Microsoft Dataverse via APIs (Not using the standard Dataverse connector)](../../../posts/yzhums-com/64775.md) (community post): "integrate Dynamics 365 Business Central with Microsoft Dataverse using direct REST APIs instead of the standard connector"
-- [Business Central 2026 release wave 1 (BC28): Map new Dataverse fields (New and custom Dataverse tables are readily available for mapping from the lookup on Integration Table column)](../../../posts/yzhums-com/71914.md) (community post): "Map new Dataverse fields directly without writing code"
-- [Dynamics 365 Business Central: The AL Table Proxy Generator is distributed in the Microsoft.Dynamics.BusinessCentral.Development.Tools.Altpgen NuGet package (altpgen.exe missing from AL Language extension)](../../../posts/yzhums-com/76918.md) (community post): "generates proxy tables for integrating Microsoft Dataverse tables into Business Central"
-- [Dynamics 365 Business Central: An error occurred when communicating with Dataverse (User does not have required privileges to access the org when it is in Admin Only mode)](../../../posts/yzhums-com/76990.md) (community post): "integrating Business Central with Dataverse, users may encounter an error"
-- [What's New: Business Central Integration with Dataverse (2024 release wave 1)](../../../videos/-q8Gm7u7R2A.md) (video): "Business Central Integration with Dataverse; data synchronization; virtual tables"
-- [What's New: Using Power Pages with Business Central (2024 release wave 1)](../../../videos/auoHUd24Gfw.md) (video): "Multi-company support through Dataverse shared execution variable; Anonymous read-only access for external users"
-- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../../../videos/fIOnGEARkKs.md) (video): "Multi-company and multi-environment synchronization; Multi-currency synchronization"
-- [What's New: Auto-Applying Templates in Integration with Dataverse (2024 release wave 2)](../../../videos/ItuCEHpaI1E.md) (video): "configuration templates; dataverse integration; data synchronization; conditional rules; integration table mappings"
-- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../../../videos/YTA8c2XyTX4.md) (video): "Virtual Tables General Availability; Power Pages Support via Virtual Tables; Data Change Events"
+- [Dynamics 365 Business Central: Integrate with Microsoft Dataverse via APIs (Not using the standard Dataverse connector)](../../../posts/yzhums-com/64775.md) (community post): "integrate Dynamics 365 Business Central with Microsoft Dataverse using direct REST APIs"
+- [Business Central 2026 release wave 1 (BC28): Map new Dataverse fields (New and custom Dataverse tables are readily available for mapping from the lookup on Integration Table column)](../../../posts/yzhums-com/71914.md) (community post): "Business Central 2026 wave 1 enables administrators to map new Dataverse fields directly without writing code"
+- [Dynamics 365 Business Central: An error occurred when communicating with Dataverse (User does not have required privileges to access the org when it is in Admin Only mode)](../../../posts/yzhums-com/76990.md) (community post): "When integrating Business Central with Dataverse, users may encounter an error"
+- [What's New: Business Central Integration with Dataverse (2024 release wave 1)](../../../videos/-q8Gm7u7R2A.md) (video): "dataverse integration; data synchronization; virtual tables; data change events"
+- [What's New: Business Central Integration with Power Platform (2023 release wave 2)](../../../videos/EVntnDFE1R4.md) (video): "Dataverse virtual tables for Business Central; Data sync technology for Dataverse"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../../../videos/fIOnGEARkKs.md) (video): "Multi-company and multi-environment synchronization; Dynamics 365 app integration"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../../../videos/YTA8c2XyTX4.md) (video): "Dataverse integration; virtual tables; data synchronization; business events; external users"
 
 ## Business Central pages and reports
 

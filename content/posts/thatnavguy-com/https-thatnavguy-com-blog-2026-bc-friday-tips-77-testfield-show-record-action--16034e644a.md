@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:54:08.766Z"
   flags: []
 generated:
-  at: "2026-10-26T05:51:10.938Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -104,7 +104,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:50:20.167Z"
+  probed_at: "2026-11-08T00:52:54.696Z"
 ---
 
 # BC Friday Tips #77 TestField Show Record Action

@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T23:47:17.757Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -79,7 +79,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:50:12.072Z"
+  probed_at: "2026-11-08T00:52:48.265Z"
 ---
 
 # BC Friday Tips #80 Business Central Trivia

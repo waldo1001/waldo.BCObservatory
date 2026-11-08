@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13507",
+  "input_hash": "4905dca58ffa455c70da409fca6d976e0c7f39079739ea42a5da85f5b8587636",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-08T00:58:59.369Z",
+  "issues": [
+    "'Without requiring code changes' is not stated in the PR.",
+    "Typo 'codunits'; some key points repeat each other.",
+    "The documentation updates (business-logic.md, CLAUDE.md) are not mentioned."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025256,
+    "changes_in_call": 6
+  }
+}

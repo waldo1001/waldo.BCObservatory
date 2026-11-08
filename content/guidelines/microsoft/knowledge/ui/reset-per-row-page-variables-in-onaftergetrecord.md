@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-07T00:19:52.575Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 84c0fd4aa87e4dd98eb1f2151012febfc19c3916
@@ -43,7 +43,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/234
 repo_path: microsoft/knowledge/ui/reset-per-row-page-variables-in-onaftergetrecord.md
 layer: microsoft
 kind: rule
@@ -104,6 +105,10 @@ See sample: [`reset-per-row-page-variables-in-onaftergetrecord.bad.al`](https://
 ## Names
 
 - [System.ClearAll() Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/system/system-clearall-method) (names ClearAll)
+
+## Changed by
+
+- [#234 knowledge(ui): define per-record page outputs on every control-flow path](../../../../changes/bcquality/234.md), 2026-11-06
 
 ---
 

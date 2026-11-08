@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9214",
+  "input_hash": "adf5d67c2e2cd7f0919e8ed325f020fbc4440ca5db11a8a0dd3b766a0d3b6411",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-08T00:59:03.780Z",
+  "issues": [
+    "Key point claims the field was added to all eight pages; it was added only to the four Calendar and Load pages, while matrix and load lines pages receive the unit via extended Load() and SetLines() parameters.",
+    "Load() and SetLines() signatures were extended with a new parameter; the description does not say if old signatures remain, so callers could be affected. Breaking left false because the PR states no risk."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024422,
+    "changes_in_call": 6
+  }
+}

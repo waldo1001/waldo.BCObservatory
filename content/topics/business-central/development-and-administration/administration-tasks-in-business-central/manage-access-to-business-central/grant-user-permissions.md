@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,6 +68,7 @@ links:
   posts:
     - post/thedynamicsexplorer-com/37042
     - post/yzhums-com/22035
+    - post/yzhums-com/61951
     - post/yzhums-com/64474
     - post/yzhums-com/65999
     - post/yzhums-com/71200
@@ -94,7 +95,7 @@ coverage:
   learn: 2
   code: 21
   video: 2
-  blog: 7
+  blog: 8
   guideline: 0
 bc_forms:
   - 119
@@ -170,6 +171,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9692 Fix effective permission filtering](../../../../../changes/bcapps/9692.md) (code change): "Permission buffer population prioritizes exact object IDs over wildcard object ID 0"
 - [Dynamics 365 Business Central – Why when I create new users do they get full access by default](../../../../../posts/thedynamicsexplorer-com/37042.md) (community post): "New users get default permissions from their security groups and from the licence they are assigned"
 - [Dynamics 365 Business Central: Do users really need permissions for Temporary Tables? (Permissions and temporary tables)](../../../../../posts/yzhums-com/22035.md) (community post): "Temporary tables do not require Table Data permissions"
+- [Dynamics 365 Business Central: How to disable/hide Power Automate action group for all users](../../../../../posts/yzhums-com/61951.md) (community post): "The feature can be hidden per user via permission 9630 Allow Action Automate"
 - [Dynamics 365 Business Central: How to check whether the current user has only the Microsoft 365 Plan in AL](../../../../../posts/yzhums-com/64474.md) (community post): "Use the Users In Plans query filtered by User Security ID to determine license type"
 - [Dynamics 365 Business Central: Remove obsolete permissions from all permission sets](../../../../../posts/yzhums-com/65999.md) (community post): "Permission sets contain permissions for specific database objects and must be assigned to users"
 - [Business Central 2026 release wave 1 (BC28): Audit user and group permissions across apps (new Permissions Overview page)](../../../../../posts/yzhums-com/71200.md) (community post): "Administrators can filter permissions by object, scope, extension, or permission set"

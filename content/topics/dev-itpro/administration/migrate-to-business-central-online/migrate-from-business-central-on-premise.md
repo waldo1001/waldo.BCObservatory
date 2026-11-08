@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:15.176Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -173,7 +173,6 @@ links:
   localizations: []
   videos:
     - video/f_i4_BRz-oA
-    - video/Gwgpj1U1wxI
   posts: []
   guidelines: []
 learn_toc_path:
@@ -191,7 +190,7 @@ children:
 coverage:
   learn: 20
   code: 0
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -251,6 +250,5 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Microsoft presents: Cloud Migration from any SQL](../../../../videos/f_i4_BRz-oA.md) (video): "Cloud Migration Management Page; Replication Progress Tracking"
-- [Introduction to Business Central Cloud Migration (2023)](../../../../videos/Gwgpj1U1wxI.md) (video): "cloud migration; azure data factory; sql to sql copy; integration runtime; data replication"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

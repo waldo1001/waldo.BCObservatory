@@ -3930,6 +3930,8 @@
 {"s":"app/microsoftfabricmirroring","t":"object/table/48501","type":"implements","w":1}
 {"s":"app/microsoftfabricmirroring","t":"object/table/48533","type":"implements","w":1}
 {"s":"app/microsoftfabricmirroring","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","type":"documents","w":1}
+{"s":"app/microsoftfabricmirroring","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":1}
+{"s":"app/microsoftfabricmirroring","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"documents","w":1}
 {"s":"app/microsoftuniversalprint","t":"app/sendtoemailprinter","type":"relates","w":0.5}
 {"s":"app/microsoftuniversalprint","t":"object/codeunit/2750","type":"implements","w":1}
 {"s":"app/microsoftuniversalprint","t":"object/codeunit/2751","type":"implements","w":1}
@@ -7397,12 +7399,18 @@
 {"s":"change/al-go/2413","t":"source/al-go-prs","type":"authored","w":1}
 {"s":"change/al-go/2413","t":"source/al-go-prs","type":"relates","w":1}
 {"s":"change/al-go/2413","t":"topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c","type":"relates","w":1}
+{"s":"change/al-go/2427","t":"source/al-go-prs","type":"authored","w":1}
+{"s":"change/al-go/2427","t":"source/al-go-prs","type":"relates","w":1}
 {"s":"change/al-go/2433","t":"source/al-go-prs","type":"authored","w":1}
 {"s":"change/al-go/2433","t":"source/al-go-prs","type":"relates","w":1}
 {"s":"change/al-go/2433","t":"topic/dev-itpro/business-central-on-premises/upgrade","type":"relates","w":1}
+{"s":"change/al-go/2434","t":"source/al-go-prs","type":"authored","w":1}
+{"s":"change/al-go/2434","t":"source/al-go-prs","type":"relates","w":1}
 {"s":"change/al-go/2440","t":"source/al-go-prs","type":"authored","w":1}
 {"s":"change/al-go/2440","t":"source/al-go-prs","type":"relates","w":1}
 {"s":"change/al-go/2440","t":"topic/dev-itpro/business-central-on-premises/upgrade","type":"relates","w":1}
+{"s":"change/al-go/2441","t":"source/al-go-prs","type":"authored","w":1}
+{"s":"change/al-go/2441","t":"source/al-go-prs","type":"relates","w":1}
 {"s":"change/bcapps/10005","t":"object/codeunit/5813","type":"changes","w":2}
 {"s":"change/bcapps/10005","t":"object/codeunit/5814","type":"changes","w":2}
 {"s":"change/bcapps/10005","t":"object/codeunit/5815","type":"changes","w":2}
@@ -7442,7 +7450,6 @@
 {"s":"change/bcapps/10010","t":"object/table/478","type":"changes","w":2}
 {"s":"change/bcapps/10010","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10010","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/10010","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","type":"relates","w":1}
 {"s":"change/bcapps/10010","t":"topic/dev-itpro/integration/web-services/apis","type":"relates","w":1}
 {"s":"change/bcapps/10011","t":"object/table/115","type":"changes","w":2}
 {"s":"change/bcapps/10011","t":"object/table/125","type":"changes","w":2}
@@ -7564,7 +7571,7 @@
 {"s":"change/bcapps/10048","t":"object/codeunit/13917-de","type":"changes","w":2}
 {"s":"change/bcapps/10048","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10048","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/10048","t":"topic/business-central/business-functionality/local-functionality/germany","type":"relates","w":1}
+{"s":"change/bcapps/10048","t":"topic/business-central/business-functionality/local-functionality/france/e-invoicing","type":"relates","w":1}
 {"s":"change/bcapps/10049","t":"object/table/6840","type":"changes","w":2}
 {"s":"change/bcapps/10049","t":"object/table/6841","type":"changes","w":2}
 {"s":"change/bcapps/10049","t":"object/table/6845","type":"changes","w":2}
@@ -7759,7 +7766,6 @@
 {"s":"change/bcapps/10143","t":"object/codeunit/6406","type":"changes","w":2}
 {"s":"change/bcapps/10143","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10143","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/10143","t":"topic/dev-itpro/integration","type":"relates","w":1}
 {"s":"change/bcapps/10149","t":"object/page/8700","type":"changes","w":2}
 {"s":"change/bcapps/10149","t":"object/page/8704","type":"changes","w":2}
 {"s":"change/bcapps/10149","t":"object/page/8705","type":"changes","w":2}
@@ -7812,7 +7818,6 @@
 {"s":"change/bcapps/10162","t":"object/codeunit/6140","type":"changes","w":2}
 {"s":"change/bcapps/10162","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10162","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/10162","t":"topic/dev-itpro/integration","type":"relates","w":1}
 {"s":"change/bcapps/10164","t":"object/pageextension/36953","type":"changes","w":2}
 {"s":"change/bcapps/10164","t":"object/pageextension/36959","type":"changes","w":2}
 {"s":"change/bcapps/10164","t":"source/bcapps-prs","type":"authored","w":1}
@@ -7949,7 +7954,6 @@
 {"s":"change/bcapps/10230","t":"object/codeunit/10750-es","type":"changes","w":2}
 {"s":"change/bcapps/10230","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10230","t":"source/bcapps-prs","type":"relates","w":1}
-{"s":"change/bcapps/10230","t":"topic/dev-itpro/integration","type":"relates","w":1}
 {"s":"change/bcapps/10232","t":"object/page/4400","type":"changes","w":2}
 {"s":"change/bcapps/10232","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10232","t":"source/bcapps-prs","type":"relates","w":1}
@@ -7982,6 +7986,7 @@
 {"s":"change/bcapps/10251","t":"object/permissionset/1680","type":"changes","w":2}
 {"s":"change/bcapps/10251","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10251","t":"source/bcapps-prs","type":"relates","w":1}
+{"s":"change/bcapps/10251","t":"topic/dev-itpro/development/the-al-programming-language/code-analysis","type":"relates","w":1}
 {"s":"change/bcapps/10252","t":"object/codeunit/8390","type":"changes","w":2}
 {"s":"change/bcapps/10252","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/10252","t":"source/bcapps-prs","type":"relates","w":1}
@@ -10567,6 +10572,9 @@
 {"s":"change/bcapps/11493","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/11493","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/11493","t":"topic/business-central/business-functionality/finance/working-with-value-added-tax-vat","type":"relates","w":1}
+{"s":"change/bcapps/11502","t":"object/codeunit/11742-cz","type":"changes","w":2}
+{"s":"change/bcapps/11502","t":"source/bcapps-prs","type":"authored","w":1}
+{"s":"change/bcapps/11502","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/11507","t":"object/codeunit/10","type":"changes","w":2}
 {"s":"change/bcapps/11507","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/11507","t":"source/bcapps-prs","type":"relates","w":1}
@@ -13196,6 +13204,11 @@
 {"s":"change/bcapps/13439","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/13439","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/13439","t":"topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning","type":"relates","w":1}
+{"s":"change/bcapps/13442","t":"object/page/5801","type":"changes","w":2}
+{"s":"change/bcapps/13442","t":"object/report/1002","type":"changes","w":2}
+{"s":"change/bcapps/13442","t":"object/table/5811","type":"changes","w":2}
+{"s":"change/bcapps/13442","t":"source/bcapps-prs","type":"authored","w":1}
+{"s":"change/bcapps/13442","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/13458","t":"object/codeunit/12","type":"changes","w":2}
 {"s":"change/bcapps/13458","t":"object/codeunit/31315-cz","type":"changes","w":2}
 {"s":"change/bcapps/13458","t":"source/bcapps-prs","type":"authored","w":1}
@@ -13265,6 +13278,10 @@
 {"s":"change/bcapps/13506","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/13506","t":"topic/business-central/copilot-and-agent-capabilities/sales-line-suggestion-preview","type":"relates","w":1}
 {"s":"change/bcapps/13506","t":"topic/business-central/copilot-and-agent-capabilities/suggest-item-substitutions-preview","type":"relates","w":1}
+{"s":"change/bcapps/13507","t":"object/codeunit/6195","type":"changes","w":2}
+{"s":"change/bcapps/13507","t":"object/codeunit/6231","type":"changes","w":2}
+{"s":"change/bcapps/13507","t":"source/bcapps-prs","type":"authored","w":1}
+{"s":"change/bcapps/13507","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/13508","t":"object/codeunit/6195","type":"changes","w":2}
 {"s":"change/bcapps/13508","t":"object/codeunit/6231","type":"changes","w":2}
 {"s":"change/bcapps/13508","t":"source/bcapps-prs","type":"authored","w":1}
@@ -13398,6 +13415,10 @@
 {"s":"change/bcapps/13642","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/13642","t":"topic/business-central/business-functionality/sales","type":"relates","w":1}
 {"s":"change/bcapps/13642","t":"topic/business-central/business-functionality/set-up-business-central/set-up-sales","type":"relates","w":1}
+{"s":"change/bcapps/13690","t":"object/codeunit/6901","type":"changes","w":2}
+{"s":"change/bcapps/13690","t":"object/page/6910","type":"changes","w":2}
+{"s":"change/bcapps/13690","t":"source/bcapps-prs","type":"authored","w":1}
+{"s":"change/bcapps/13690","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/13692","t":"object/codeunit/4609","type":"changes","w":2}
 {"s":"change/bcapps/13692","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/13692","t":"source/bcapps-prs","type":"relates","w":1}
@@ -13418,6 +13439,10 @@
 {"s":"change/bcapps/13725","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/13725","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/13725","t":"topic/business-central/business-functionality/design-details/design-details-inventory-costing","type":"relates","w":1}
+{"s":"change/bcapps/13761","t":"object/codeunit/4596","type":"changes","w":2}
+{"s":"change/bcapps/13761","t":"object/codeunit/4597","type":"changes","w":2}
+{"s":"change/bcapps/13761","t":"source/bcapps-prs","type":"authored","w":1}
+{"s":"change/bcapps/13761","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/5833","t":"object/codeunit/4580","type":"changes","w":2}
 {"s":"change/bcapps/5833","t":"object/codeunit/4608","type":"changes","w":2}
 {"s":"change/bcapps/5833","t":"object/codeunit/4609","type":"changes","w":2}
@@ -13595,6 +13620,9 @@
 {"s":"change/bcapps/8556","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/8556","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/8556","t":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security","type":"relates","w":1}
+{"s":"change/bcapps/8577","t":"object/codeunit/30178","type":"changes","w":2}
+{"s":"change/bcapps/8577","t":"source/bcapps-prs","type":"authored","w":1}
+{"s":"change/bcapps/8577","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/8587","t":"object/codeunit/30272","type":"changes","w":2}
 {"s":"change/bcapps/8587","t":"source/bcapps-prs","type":"authored","w":1}
 {"s":"change/bcapps/8587","t":"source/bcapps-prs","type":"relates","w":1}
@@ -14383,6 +14411,16 @@
 {"s":"change/bcapps/9212","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/9212","t":"topic/business-central/business-functionality/design-details/design-details-inventory-costing","type":"relates","w":1}
 {"s":"change/bcapps/9212","t":"topic/business-central/business-functionality/finance/manage-inventory-costs","type":"relates","w":1}
+{"s":"change/bcapps/9214","t":"object/page/9291","type":"changes","w":2}
+{"s":"change/bcapps/9214","t":"object/page/9293","type":"changes","w":2}
+{"s":"change/bcapps/9214","t":"object/page/99000769","type":"changes","w":2}
+{"s":"change/bcapps/9214","t":"object/page/99000770","type":"changes","w":2}
+{"s":"change/bcapps/9214","t":"object/page/99000887","type":"changes","w":2}
+{"s":"change/bcapps/9214","t":"object/page/99000888","type":"changes","w":2}
+{"s":"change/bcapps/9214","t":"object/page/99000889","type":"changes","w":2}
+{"s":"change/bcapps/9214","t":"object/page/99000890","type":"changes","w":2}
+{"s":"change/bcapps/9214","t":"source/bcapps-prs","type":"authored","w":1}
+{"s":"change/bcapps/9214","t":"source/bcapps-prs","type":"relates","w":1}
 {"s":"change/bcapps/9217","t":"object/tableextension/8054","type":"changes","w":2}
 {"s":"change/bcapps/9217","t":"object/tableextension/8065","type":"changes","w":2}
 {"s":"change/bcapps/9217","t":"source/bcapps-prs","type":"authored","w":1}
@@ -17935,6 +17973,9 @@
 {"s":"change/bcquality/216","t":"topic/dev-itpro/development/programming-in-the-al-language/language-elements/methods","type":"relates","w":1}
 {"s":"change/bcquality/218","t":"source/bcquality-prs","type":"authored","w":1}
 {"s":"change/bcquality/218","t":"source/bcquality-prs","type":"relates","w":1}
+{"s":"change/bcquality/221","t":"guideline/microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access","type":"relates","w":1}
+{"s":"change/bcquality/221","t":"source/bcquality-prs","type":"authored","w":1}
+{"s":"change/bcquality/221","t":"source/bcquality-prs","type":"relates","w":1}
 {"s":"change/bcquality/222","t":"guideline/microsoft/skills/knowledge/al-knowledge","type":"relates","w":1}
 {"s":"change/bcquality/222","t":"source/bcquality-prs","type":"authored","w":1}
 {"s":"change/bcquality/222","t":"source/bcquality-prs","type":"relates","w":1}
@@ -18009,6 +18050,10 @@
 {"s":"change/bcquality/233","t":"source/bcquality-prs","type":"relates","w":1}
 {"s":"change/bcquality/233","t":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al","type":"relates","w":1}
 {"s":"change/bcquality/233","t":"topic/dev-itpro/integration/web-services/apis","type":"relates","w":1}
+{"s":"change/bcquality/234","t":"guideline/microsoft/knowledge/ui/reset-per-row-page-variables-in-onaftergetrecord","type":"relates","w":1}
+{"s":"change/bcquality/234","t":"guideline/microsoft/skills/review/al-ui-review","type":"relates","w":1}
+{"s":"change/bcquality/234","t":"source/bcquality-prs","type":"authored","w":1}
+{"s":"change/bcquality/234","t":"source/bcquality-prs","type":"relates","w":1}
 {"s":"change/bcquality/237","t":"guideline/microsoft/knowledge/data-modeling/business-state-must-have-a-domain-owner","type":"relates","w":1}
 {"s":"change/bcquality/237","t":"guideline/microsoft/skills/review/al-data-modeling-review","type":"relates","w":1}
 {"s":"change/bcquality/237","t":"source/bcquality-prs","type":"authored","w":1}
@@ -18060,6 +18105,8 @@
 {"s":"change/bcquality/264","t":"source/bcquality-prs","type":"authored","w":1}
 {"s":"change/bcquality/264","t":"source/bcquality-prs","type":"relates","w":1}
 {"s":"change/bcquality/264","t":"topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data","type":"relates","w":1}
+{"s":"change/bcquality/267","t":"source/bcquality-prs","type":"authored","w":1}
+{"s":"change/bcquality/267","t":"source/bcquality-prs","type":"relates","w":1}
 {"s":"change/bcquality/49","t":"guideline/microsoft/knowledge/security/compose-permission-sets-with-included-sets","type":"relates","w":1}
 {"s":"change/bcquality/49","t":"guideline/microsoft/knowledge/security/do-not-grant-rights-beyond-a-users-entitlement","type":"relates","w":1}
 {"s":"change/bcquality/49","t":"guideline/microsoft/knowledge/security/prefer-oauth2-over-api-keys-for-external-http-calls","type":"relates","w":1}
@@ -18329,7 +18376,6 @@
 {"s":"feature/573318","t":"video/2N2NhNH7dsk","type":"demonstrates","w":2}
 {"s":"feature/573318","t":"video/qj0VHB2Pmvc","type":"demonstrates","w":2}
 {"s":"feature/573319","t":"source/yt-microsoft","type":"demonstrates","w":1}
-{"s":"feature/573319","t":"video/fJGY6d-2lO8","type":"demonstrates","w":2}
 {"s":"feature/573319","t":"video/ZpzZ6El8GXY","type":"demonstrates","w":2}
 {"s":"feature/573320","t":"source/yt-microsoft","type":"demonstrates","w":1}
 {"s":"feature/573320","t":"video/-vdhfNMNZQk","type":"demonstrates","w":2}
@@ -18438,6 +18484,7 @@
 {"s":"feature/573362","t":"source/yt-mibuso","type":"demonstrates","w":1}
 {"s":"feature/573362","t":"source/yt-microsoft","type":"demonstrates","w":1}
 {"s":"feature/573362","t":"source/yt-saurav","type":"demonstrates","w":1}
+{"s":"feature/573362","t":"video/2uXVammbab0","type":"demonstrates","w":2}
 {"s":"feature/573362","t":"video/mhfjycxWTyY","type":"demonstrates","w":2}
 {"s":"feature/573362","t":"video/TSLXzbeyE7Y","type":"demonstrates","w":2}
 {"s":"feature/573362","t":"video/uMKLsKfKPc0","type":"demonstrates","w":2}
@@ -18473,9 +18520,6 @@
 {"s":"feature/573379","t":"source/yt-microsoft","type":"demonstrates","w":1}
 {"s":"feature/573379","t":"video/lqVWc-Yuots","type":"demonstrates","w":2}
 {"s":"feature/573379","t":"video/t_UXxbvgnHY","type":"demonstrates","w":2}
-{"s":"feature/573384","t":"source/yt-microsoft","type":"demonstrates","w":1}
-{"s":"feature/573384","t":"video/2isrH3RcSK8","type":"demonstrates","w":2}
-{"s":"feature/573384","t":"video/Aqi8Uq2bQyI","type":"demonstrates","w":2}
 {"s":"feature/574126","t":"source/yt-microsoft","type":"demonstrates","w":1}
 {"s":"feature/574126","t":"video/kOCiyVql0go","type":"demonstrates","w":2}
 {"s":"feature/574128","t":"source/yt-microsoft","type":"demonstrates","w":1}
@@ -18483,7 +18527,6 @@
 {"s":"feature/576776","t":"source/yt-microsoft","type":"demonstrates","w":1}
 {"s":"feature/576776","t":"video/OvI9jaA1mJY","type":"demonstrates","w":2}
 {"s":"feature/576789","t":"source/yt-microsoft","type":"demonstrates","w":1}
-{"s":"feature/576789","t":"video/4HE3BBCcV84","type":"demonstrates","w":2}
 {"s":"feature/576789","t":"video/zei-IszvYNU","type":"demonstrates","w":2}
 {"s":"feature/576802","t":"source/yt-microsoft","type":"demonstrates","w":1}
 {"s":"feature/576802","t":"video/-SGaVGOkiF0","type":"demonstrates","w":2}
@@ -18522,9 +18565,11 @@
 {"s":"feature/577820","t":"video/QCo-uIfPs9g","type":"demonstrates","w":2}
 {"s":"feature/577820","t":"video/ytYKvn2MiGs","type":"demonstrates","w":2}
 {"s":"feature/578065","t":"source/yt-microsoft","type":"demonstrates","w":1}
-{"s":"feature/578065","t":"video/1ht5nxubZ9c","type":"demonstrates","w":2}
+{"s":"feature/578065","t":"video/2ujWYYecA2c","type":"demonstrates","w":2}
 {"s":"feature/578065","t":"video/kwGEoxN46hk","type":"demonstrates","w":2}
 {"s":"feature/578068","t":"source/yt-areopa","type":"demonstrates","w":1}
+{"s":"feature/578068","t":"source/yt-microsoft","type":"demonstrates","w":1}
+{"s":"feature/578068","t":"video/2ujWYYecA2c","type":"demonstrates","w":2}
 {"s":"feature/578068","t":"video/nbGw2g3KMXI","type":"demonstrates","w":2}
 {"s":"guideline/microsoft/knowledge/breaking-changes/prefer-email-module","t":"object/codeunit/8904","type":"mentions","w":1}
 {"s":"guideline/microsoft/knowledge/breaking-changes/prefer-email-module","t":"object/enum/8890","type":"mentions","w":1}
@@ -38236,6 +38281,7 @@
 {"s":"object/page/39","t":"topic/business-central/business-functionality/local-functionality","type":"documents","w":1}
 {"s":"object/page/39","t":"topic/business-central/business-functionality","type":"documents","w":1}
 {"s":"object/page/39","t":"video/1ugAYeEZLaU","type":"mentions","w":1}
+{"s":"object/page/39","t":"video/cwCZUHgDb9Q","type":"mentions","w":1}
 {"s":"object/page/39","t":"video/HI7VcPzR2OE","type":"mentions","w":1}
 {"s":"object/page/39","t":"video/RaiQPiEdvbg","type":"mentions","w":1}
 {"s":"object/page/3901","t":"object/page/592","type":"relates","w":0.5}
@@ -38596,6 +38642,7 @@
 {"s":"object/page/42","t":"topic/business-central/business-functionality/sustainability-management","type":"documents","w":1}
 {"s":"object/page/42","t":"topic/business-central/business-functionality","type":"documents","w":1}
 {"s":"object/page/42","t":"video/crDXSPsoIQ8","type":"mentions","w":1}
+{"s":"object/page/42","t":"video/cwCZUHgDb9Q","type":"mentions","w":1}
 {"s":"object/page/42","t":"video/DJ3LPRxn27g","type":"mentions","w":1}
 {"s":"object/page/42","t":"video/qP0id91bIlA","type":"mentions","w":1}
 {"s":"object/page/42","t":"video/tpAh4q3h8T8","type":"mentions","w":1}
@@ -39516,7 +39563,7 @@
 {"s":"object/page/48508","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","type":"documents","w":2}
 {"s":"object/page/48508","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to","type":"documents","w":1}
 {"s":"object/page/48508","t":"topic/business-central/analytics-business-intelligence-and-repo","type":"documents","w":1}
-{"s":"object/page/48508","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":1}
+{"s":"object/page/48508","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":2}
 {"s":"object/page/48508","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"documents","w":1}
 {"s":"object/page/48508","t":"topic/dev-itpro/integration","type":"documents","w":1}
 {"s":"object/page/48509","t":"object/page/48510","type":"relates","w":0.5}
@@ -39529,7 +39576,7 @@
 {"s":"object/page/48509","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","type":"documents","w":2}
 {"s":"object/page/48509","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to","type":"documents","w":1}
 {"s":"object/page/48509","t":"topic/business-central/analytics-business-intelligence-and-repo","type":"documents","w":1}
-{"s":"object/page/48509","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":1}
+{"s":"object/page/48509","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":2}
 {"s":"object/page/48509","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"documents","w":1}
 {"s":"object/page/48509","t":"topic/dev-itpro/integration","type":"documents","w":1}
 {"s":"object/page/4851","t":"object/page/4852","type":"relates","w":0.5}
@@ -39548,7 +39595,7 @@
 {"s":"object/page/48510","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","type":"documents","w":2}
 {"s":"object/page/48510","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to","type":"documents","w":1}
 {"s":"object/page/48510","t":"topic/business-central/analytics-business-intelligence-and-repo","type":"documents","w":1}
-{"s":"object/page/48510","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":1}
+{"s":"object/page/48510","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":2}
 {"s":"object/page/48510","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"documents","w":1}
 {"s":"object/page/48510","t":"topic/dev-itpro/integration","type":"documents","w":1}
 {"s":"object/page/48511","t":"object/page/48512","type":"relates","w":0.5}
@@ -39559,8 +39606,8 @@
 {"s":"object/page/48511","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","type":"documents","w":2}
 {"s":"object/page/48511","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to","type":"documents","w":1}
 {"s":"object/page/48511","t":"topic/business-central/analytics-business-intelligence-and-repo","type":"documents","w":1}
-{"s":"object/page/48511","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":1}
-{"s":"object/page/48511","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"documents","w":1}
+{"s":"object/page/48511","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":2}
+{"s":"object/page/48511","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"documents","w":2}
 {"s":"object/page/48511","t":"topic/dev-itpro/integration","type":"documents","w":1}
 {"s":"object/page/48512","t":"object/page/48513","type":"relates","w":0.5}
 {"s":"object/page/48512","t":"object/page/48515","type":"relates","w":0.5}
@@ -39569,7 +39616,7 @@
 {"s":"object/page/48512","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","type":"documents","w":2}
 {"s":"object/page/48512","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to","type":"documents","w":1}
 {"s":"object/page/48512","t":"topic/business-central/analytics-business-intelligence-and-repo","type":"documents","w":1}
-{"s":"object/page/48512","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":1}
+{"s":"object/page/48512","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":2}
 {"s":"object/page/48512","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"documents","w":1}
 {"s":"object/page/48512","t":"topic/dev-itpro/integration","type":"documents","w":1}
 {"s":"object/page/48513","t":"object/page/48515","type":"relates","w":0.5}
@@ -39578,7 +39625,7 @@
 {"s":"object/page/48513","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","type":"documents","w":2}
 {"s":"object/page/48513","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to","type":"documents","w":1}
 {"s":"object/page/48513","t":"topic/business-central/analytics-business-intelligence-and-repo","type":"documents","w":1}
-{"s":"object/page/48513","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":1}
+{"s":"object/page/48513","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":2}
 {"s":"object/page/48513","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"documents","w":1}
 {"s":"object/page/48513","t":"topic/dev-itpro/integration","type":"documents","w":1}
 {"s":"object/page/48515","t":"object/page/48519","type":"relates","w":0.5}
@@ -39586,14 +39633,14 @@
 {"s":"object/page/48515","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","type":"documents","w":2}
 {"s":"object/page/48515","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to","type":"documents","w":1}
 {"s":"object/page/48515","t":"topic/business-central/analytics-business-intelligence-and-repo","type":"documents","w":1}
-{"s":"object/page/48515","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":1}
+{"s":"object/page/48515","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":2}
 {"s":"object/page/48515","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"documents","w":1}
 {"s":"object/page/48515","t":"topic/dev-itpro/integration","type":"documents","w":1}
 {"s":"object/page/48519","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","type":"documents","w":2}
 {"s":"object/page/48519","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to","type":"documents","w":1}
 {"s":"object/page/48519","t":"topic/business-central/analytics-business-intelligence-and-repo","type":"documents","w":1}
-{"s":"object/page/48519","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":1}
-{"s":"object/page/48519","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"documents","w":1}
+{"s":"object/page/48519","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":2}
+{"s":"object/page/48519","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"documents","w":2}
 {"s":"object/page/48519","t":"topic/dev-itpro/integration","type":"documents","w":1}
 {"s":"object/page/4852","t":"object/table/4850","type":"relates","w":0.5}
 {"s":"object/page/4852","t":"object/table/4851","type":"relates","w":0.5}
@@ -44686,20 +44733,20 @@
 {"s":"object/page/8350","t":"object/table/8352","type":"relates","w":0.5}
 {"s":"object/page/8350","t":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","type":"documents","w":2}
 {"s":"object/page/8350","t":"topic/dev-itpro/integration-with-ai","type":"documents","w":1}
-{"s":"object/page/8350","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/integrating-with-microsoft-copilot-studi","type":"documents","w":1}
+{"s":"object/page/8350","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/integrating-with-microsoft-copilot-studi","type":"documents","w":2}
 {"s":"object/page/8350","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"documents","w":1}
 {"s":"object/page/8350","t":"topic/dev-itpro/integration","type":"documents","w":1}
 {"s":"object/page/8351","t":"object/page/8359","type":"relates","w":0.5}
 {"s":"object/page/8351","t":"object/table/8352","type":"relates","w":0.5}
 {"s":"object/page/8351","t":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","type":"documents","w":2}
 {"s":"object/page/8351","t":"topic/dev-itpro/integration-with-ai","type":"documents","w":1}
-{"s":"object/page/8351","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/integrating-with-microsoft-copilot-studi","type":"documents","w":1}
+{"s":"object/page/8351","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/integrating-with-microsoft-copilot-studi","type":"documents","w":2}
 {"s":"object/page/8351","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"documents","w":1}
 {"s":"object/page/8351","t":"topic/dev-itpro/integration","type":"documents","w":1}
 {"s":"object/page/8359","t":"object/table/8352","type":"relates","w":0.5}
 {"s":"object/page/8359","t":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","type":"documents","w":2}
 {"s":"object/page/8359","t":"topic/dev-itpro/integration-with-ai","type":"documents","w":1}
-{"s":"object/page/8359","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/integrating-with-microsoft-copilot-studi","type":"documents","w":1}
+{"s":"object/page/8359","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/integrating-with-microsoft-copilot-studi","type":"documents","w":2}
 {"s":"object/page/8359","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"documents","w":1}
 {"s":"object/page/8359","t":"topic/dev-itpro/integration","type":"documents","w":1}
 {"s":"object/page/8360","t":"video/9g1vwaXmy2s","type":"mentions","w":1}
@@ -55847,6 +55894,7 @@
 {"s":"object/table/4850","t":"topic/business-central/business-functionality/local-functionality/finland/core-finance","type":"documents","w":1}
 {"s":"object/table/4850","t":"topic/business-central/business-functionality/local-functionality/sweden/core-finance","type":"documents","w":1}
 {"s":"object/table/48501","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","type":"documents","w":1}
+{"s":"object/table/48501","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"documents","w":1}
 {"s":"object/table/4851","t":"topic/business-central/business-functionality/local-functionality/sweden/core-finance","type":"documents","w":1}
 {"s":"object/table/49","t":"object/tableextension/4853","type":"extends","w":1}
 {"s":"object/table/49","t":"post/waldo-be/317951","type":"mentions","w":1}
@@ -57874,6 +57922,7 @@
 {"s":"object/table/83","t":"topic/business-central/business-functionality/sustainability-management/sustainability-value-chain","type":"documents","w":1}
 {"s":"object/table/83","t":"topic/business-central/business-functionality/warehouse-management/internal-warehouse-processes/move-items","type":"documents","w":1}
 {"s":"object/table/8352","t":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","type":"documents","w":1}
+{"s":"object/table/8352","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/integrating-with-microsoft-copilot-studi","type":"documents","w":1}
 {"s":"object/table/8363","t":"object/table/84","type":"relates","w":0.5}
 {"s":"object/table/8363","t":"object/table/85","type":"relates","w":0.5}
 {"s":"object/table/8363","t":"object/table/88","type":"relates","w":0.5}
@@ -58445,14 +58494,8 @@
 {"s":"post/aardvarklabs-blog/1816","t":"video/TY82NR2hGEg","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/1816","t":"video/UgagVZVKCso","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/1816","t":"video/ytYKvn2MiGs","type":"relates","w":0.5}
-{"s":"post/aardvarklabs-blog/1818","t":"post/bertverbeek-nl/1290","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/1818","t":"source/aardvarklabs-blog","type":"authored","w":1}
 {"s":"post/aardvarklabs-blog/1818","t":"source/aardvarklabs-blog","type":"discusses","w":1}
-{"s":"post/aardvarklabs-blog/1818","t":"video/6Zb7VAvLVm4","type":"relates","w":0.5}
-{"s":"post/aardvarklabs-blog/1818","t":"video/AMVAiPTfSrU","type":"relates","w":0.5}
-{"s":"post/aardvarklabs-blog/1818","t":"video/GK6hM-nBYZk","type":"relates","w":0.5}
-{"s":"post/aardvarklabs-blog/1818","t":"video/uMKLsKfKPc0","type":"relates","w":0.5}
-{"s":"post/aardvarklabs-blog/1818","t":"video/V_ZyGeF5JXE","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/1822","t":"post/yzhums-com/31884","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/1822","t":"post/yzhums-com/61561","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/1822","t":"post/yzhums-com/68075","type":"relates","w":0.5}
@@ -58520,6 +58563,7 @@
 {"s":"post/aardvarklabs-blog/2017","t":"post/yzhums-com/74390","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/2017","t":"source/aardvarklabs-blog","type":"authored","w":1}
 {"s":"post/aardvarklabs-blog/2017","t":"source/aardvarklabs-blog","type":"discusses","w":1}
+{"s":"post/aardvarklabs-blog/2017","t":"topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/using-query-objects","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/2017","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/2017","t":"topic/dev-itpro/integration/web-services/apis","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/2017","t":"video/1ft4o9lQzsU","type":"relates","w":0.5}
@@ -58649,6 +58693,7 @@
 {"s":"post/aardvarklabs-blog/2565","t":"post/yzhums-com/74390","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/2565","t":"source/aardvarklabs-blog","type":"authored","w":1}
 {"s":"post/aardvarklabs-blog/2565","t":"source/aardvarklabs-blog","type":"discusses","w":1}
+{"s":"post/aardvarklabs-blog/2565","t":"topic/dev-itpro/development/extension-lifecycle/deprecating-code","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/2565","t":"topic/dev-itpro/integration/web-services/apis","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/2565","t":"topic/dev-itpro/integration/web-services/odata","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/2565","t":"video/1ft4o9lQzsU","type":"relates","w":0.5}
@@ -58760,6 +58805,7 @@
 {"s":"post/aardvarklabs-blog/2838","t":"source/aardvarklabs-blog","type":"authored","w":1}
 {"s":"post/aardvarklabs-blog/2838","t":"source/aardvarklabs-blog","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/2838","t":"topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data","type":"discusses","w":1}
+{"s":"post/aardvarklabs-blog/2838","t":"topic/dev-itpro/development/programming-in-the-al-language","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/2861","t":"source/aardvarklabs-blog","type":"authored","w":1}
 {"s":"post/aardvarklabs-blog/2861","t":"source/aardvarklabs-blog","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/2866","t":"post/aardvarklabs-blog/3348","type":"relates","w":0.5}
@@ -58796,6 +58842,7 @@
 {"s":"post/aardvarklabs-blog/2907","t":"post/yzhums-com/65857","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/2907","t":"source/aardvarklabs-blog","type":"authored","w":1}
 {"s":"post/aardvarklabs-blog/2907","t":"source/aardvarklabs-blog","type":"discusses","w":1}
+{"s":"post/aardvarklabs-blog/2907","t":"topic/dev-itpro/development/extensibility/using-events","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/2907","t":"topic/dev-itpro/integration/integrating-with-external-systems-using","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/2907","t":"video/S5Xw-b8YF-c","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/2921","t":"source/aardvarklabs-blog","type":"authored","w":1}
@@ -58828,6 +58875,8 @@
 {"s":"post/aardvarklabs-blog/2953","t":"source/aardvarklabs-blog","type":"authored","w":1}
 {"s":"post/aardvarklabs-blog/2953","t":"source/aardvarklabs-blog","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/2953","t":"topic/dev-itpro/development/programming-in-the-al-language/calling-external-services","type":"discusses","w":1}
+{"s":"post/aardvarklabs-blog/2953","t":"topic/dev-itpro/development/programming-in-the-al-language/handling-security","type":"discusses","w":1}
+{"s":"post/aardvarklabs-blog/2953","t":"topic/dev-itpro/development/programming-in-the-al-language","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/2965","t":"post/olofsimren-com/3585","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/2965","t":"post/olofsimren-com/3605","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/2965","t":"post/olofsimren-com/3630","type":"relates","w":0.5}
@@ -58972,7 +59021,8 @@
 {"s":"post/aardvarklabs-blog/3460","t":"post/nataliekarolak-com/3995","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/3460","t":"source/aardvarklabs-blog","type":"authored","w":1}
 {"s":"post/aardvarklabs-blog/3460","t":"source/aardvarklabs-blog","type":"discusses","w":1}
-{"s":"post/aardvarklabs-blog/3460","t":"topic/dev-itpro/integration/integrating-with-infrastructure-services","type":"discusses","w":1}
+{"s":"post/aardvarklabs-blog/3460","t":"topic/dev-itpro/development/programming-in-the-al-language/calling-external-services","type":"discusses","w":1}
+{"s":"post/aardvarklabs-blog/3460","t":"topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/3469","t":"source/aardvarklabs-blog","type":"authored","w":1}
 {"s":"post/aardvarklabs-blog/3469","t":"source/aardvarklabs-blog","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/3496","t":"source/aardvarklabs-blog","type":"authored","w":1}
@@ -58994,6 +59044,8 @@
 {"s":"post/aardvarklabs-blog/3564","t":"source/aardvarklabs-blog","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/3579","t":"source/aardvarklabs-blog","type":"authored","w":1}
 {"s":"post/aardvarklabs-blog/3579","t":"source/aardvarklabs-blog","type":"discusses","w":1}
+{"s":"post/aardvarklabs-blog/3579","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","type":"discusses","w":1}
+{"s":"post/aardvarklabs-blog/3579","t":"topic/dev-itpro/integration/web-services/apis","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/3631","t":"post/aardvarklabs-blog/4082","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/3631","t":"post/gerardorenteria-blog/12682","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/3631","t":"post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-66-api-v2-app--9c066fb579","type":"relates","w":0.5}
@@ -59004,11 +59056,12 @@
 {"s":"post/aardvarklabs-blog/3631","t":"post/yzhums-com/74390","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/3631","t":"source/aardvarklabs-blog","type":"authored","w":1}
 {"s":"post/aardvarklabs-blog/3631","t":"source/aardvarklabs-blog","type":"discusses","w":1}
+{"s":"post/aardvarklabs-blog/3631","t":"topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/3631","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","type":"discusses","w":1}
-{"s":"post/aardvarklabs-blog/3631","t":"topic/dev-itpro/integration/web-services/apis","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/3631","t":"video/1ft4o9lQzsU","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/3631","t":"video/EVntnDFE1R4","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/3631","t":"video/T63y0F_38SI","type":"relates","w":0.5}
+{"s":"post/aardvarklabs-blog/3631","t":"video/V_ZyGeF5JXE","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/3680","t":"post/gerardorenteria-blog/12801","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/3680","t":"post/jpearson-blog/1583","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/3680","t":"post/yzhums-com/56521","type":"relates","w":0.5}
@@ -59121,6 +59174,7 @@
 {"s":"post/aardvarklabs-blog/3998","t":"post/yzhums-com/76570","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/3998","t":"source/aardvarklabs-blog","type":"authored","w":1}
 {"s":"post/aardvarklabs-blog/3998","t":"source/aardvarklabs-blog","type":"discusses","w":1}
+{"s":"post/aardvarklabs-blog/3998","t":"topic/dev-itpro/administration/admin-center/admin-center-api","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/3998","t":"topic/dev-itpro/development/extension-lifecycle/deploying-and-installing","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/3998","t":"video/JKsLjwSh0SQ","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/4023","t":"post/thinkaboutit-be/8313","type":"relates","w":0.5}
@@ -59154,7 +59208,6 @@
 {"s":"post/aardvarklabs-blog/4082","t":"source/aardvarklabs-blog","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/4082","t":"topic/dev-itpro/development/programming-in-the-al-language/developing-apis","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/4082","t":"topic/dev-itpro/integration/web-services/apis","type":"discusses","w":1}
-{"s":"post/aardvarklabs-blog/4082","t":"topic/dev-itpro/integration/web-services","type":"discusses","w":1}
 {"s":"post/aardvarklabs-blog/4082","t":"video/1ft4o9lQzsU","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/4082","t":"video/2N2NhNH7dsk","type":"relates","w":0.5}
 {"s":"post/aardvarklabs-blog/4082","t":"video/4HE3BBCcV84","type":"relates","w":0.5}
@@ -59340,6 +59393,7 @@
 {"s":"post/bertverbeek-nl/1196","t":"source/bertverbeek-nl","type":"discusses","w":1}
 {"s":"post/bertverbeek-nl/1209","t":"source/bertverbeek-nl","type":"authored","w":1}
 {"s":"post/bertverbeek-nl/1209","t":"source/bertverbeek-nl","type":"discusses","w":1}
+{"s":"post/bertverbeek-nl/1209","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"discusses","w":1}
 {"s":"post/bertverbeek-nl/1219","t":"post/bertverbeek-nl/1237","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1219","t":"post/bertverbeek-nl/1272","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1219","t":"post/bertverbeek-nl/1290","type":"relates","w":0.5}
@@ -59390,7 +59444,6 @@
 {"s":"post/bertverbeek-nl/1263","t":"post/yzhums-com/67462","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1263","t":"post/yzhums-com/68482","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1263","t":"post/yzhums-com/68484","type":"relates","w":0.5}
-{"s":"post/bertverbeek-nl/1263","t":"post/yzhums-com/70502","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1263","t":"post/yzhums-com/72431","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1263","t":"post/yzhums-com/74431","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1263","t":"post/yzhums-com/74703","type":"relates","w":0.5}
@@ -59399,7 +59452,6 @@
 {"s":"post/bertverbeek-nl/1263","t":"source/bertverbeek-nl","type":"discusses","w":1}
 {"s":"post/bertverbeek-nl/1263","t":"topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities","type":"discusses","w":1}
 {"s":"post/bertverbeek-nl/1263","t":"video/DRUr4byy8xQ","type":"relates","w":0.5}
-{"s":"post/bertverbeek-nl/1263","t":"video/MKuOgMWXJ_8","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1263","t":"video/UQmuMPRlHek","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1272","t":"post/demiliani-com/12644","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1272","t":"post/demiliani-com/13814","type":"relates","w":0.5}
@@ -59420,16 +59472,11 @@
 {"s":"post/bertverbeek-nl/1290","t":"source/bertverbeek-nl","type":"discusses","w":1}
 {"s":"post/bertverbeek-nl/1290","t":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","type":"discusses","w":1}
 {"s":"post/bertverbeek-nl/1290","t":"video/3UcLmXqyl44","type":"relates","w":0.5}
-{"s":"post/bertverbeek-nl/1290","t":"video/6Zb7VAvLVm4","type":"relates","w":0.5}
-{"s":"post/bertverbeek-nl/1290","t":"video/AMVAiPTfSrU","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1290","t":"video/aNRzlbxVPWE","type":"relates","w":0.5}
-{"s":"post/bertverbeek-nl/1290","t":"video/GK6hM-nBYZk","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1290","t":"video/jWqjDTbqjeE","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1290","t":"video/moPzf04Mwlc","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1290","t":"video/nbGw2g3KMXI","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1290","t":"video/nPF84Ufkn4k","type":"relates","w":0.5}
-{"s":"post/bertverbeek-nl/1290","t":"video/uMKLsKfKPc0","type":"relates","w":0.5}
-{"s":"post/bertverbeek-nl/1290","t":"video/V_ZyGeF5JXE","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1290","t":"video/Vq9Nk6_uxmQ","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1290","t":"video/WFAZLsUTk20","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1290","t":"video/WjF_sESaIPo","type":"relates","w":0.5}
@@ -59441,6 +59488,7 @@
 {"s":"post/bertverbeek-nl/1318","t":"source/bertverbeek-nl","type":"authored","w":1}
 {"s":"post/bertverbeek-nl/1318","t":"source/bertverbeek-nl","type":"discusses","w":1}
 {"s":"post/bertverbeek-nl/1318","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","type":"discusses","w":1}
+{"s":"post/bertverbeek-nl/1318","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"discusses","w":1}
 {"s":"post/bertverbeek-nl/1318","t":"video/kOCiyVql0go","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1342","t":"post/demiliani-com/15981","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1342","t":"post/thinkaboutit-be/8229","type":"relates","w":0.5}
@@ -59451,14 +59499,17 @@
 {"s":"post/bertverbeek-nl/1342","t":"source/bertverbeek-nl","type":"authored","w":1}
 {"s":"post/bertverbeek-nl/1342","t":"source/bertverbeek-nl","type":"discusses","w":1}
 {"s":"post/bertverbeek-nl/1342","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","type":"discusses","w":1}
-{"s":"post/bertverbeek-nl/1342","t":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization","type":"discusses","w":1}
+{"s":"post/bertverbeek-nl/1342","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"discusses","w":1}
 {"s":"post/bertverbeek-nl/1342","t":"video/-q8Gm7u7R2A","type":"relates","w":0.5}
 {"s":"post/bertverbeek-nl/1342","t":"video/kOCiyVql0go","type":"relates","w":0.5}
+{"s":"post/bertverbeek-nl/1353","t":"source/bertverbeek-nl","type":"authored","w":1}
+{"s":"post/bertverbeek-nl/1353","t":"source/bertverbeek-nl","type":"discusses","w":1}
+{"s":"post/bertverbeek-nl/1353","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"discusses","w":1}
+{"s":"post/bertverbeek-nl/1353","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"discusses","w":1}
 {"s":"post/demiliani-com/11654","t":"post/thinkaboutit-be/7061","type":"relates","w":0.5}
 {"s":"post/demiliani-com/11654","t":"post/yzhums-com/48974","type":"relates","w":0.5}
 {"s":"post/demiliani-com/11654","t":"source/demiliani-com","type":"authored","w":1}
 {"s":"post/demiliani-com/11654","t":"source/demiliani-com","type":"discusses","w":1}
-{"s":"post/demiliani-com/11654","t":"topic/dev-itpro/integration/web-services/odata","type":"discusses","w":1}
 {"s":"post/demiliani-com/11654","t":"topic/dev-itpro/integration/web-services/soap","type":"discusses","w":1}
 {"s":"post/demiliani-com/11654","t":"video/VpNQ-CYNrkM","type":"relates","w":0.5}
 {"s":"post/demiliani-com/11666","t":"source/demiliani-com","type":"authored","w":1}
@@ -59518,6 +59569,7 @@
 {"s":"post/demiliani-com/11817","t":"source/demiliani-com","type":"authored","w":1}
 {"s":"post/demiliani-com/11817","t":"source/demiliani-com","type":"discusses","w":1}
 {"s":"post/demiliani-com/11817","t":"topic/dev-itpro/integration/integrating-with-azure-services","type":"discusses","w":1}
+{"s":"post/demiliani-com/11817","t":"topic/dev-itpro/integration/integrating-with-external-systems-using","type":"discusses","w":1}
 {"s":"post/demiliani-com/11817","t":"video/2vUCR16b85o","type":"relates","w":0.5}
 {"s":"post/demiliani-com/11858","t":"source/demiliani-com","type":"authored","w":1}
 {"s":"post/demiliani-com/11858","t":"source/demiliani-com","type":"discusses","w":1}
@@ -59555,7 +59607,6 @@
 {"s":"post/demiliani-com/11962","t":"source/demiliani-com","type":"authored","w":1}
 {"s":"post/demiliani-com/11962","t":"source/demiliani-com","type":"discusses","w":1}
 {"s":"post/demiliani-com/11962","t":"topic/dev-itpro/integration/web-services/apis","type":"discusses","w":1}
-{"s":"post/demiliani-com/11962","t":"topic/dev-itpro/performance","type":"discusses","w":1}
 {"s":"post/demiliani-com/11962","t":"video/1ft4o9lQzsU","type":"relates","w":0.5}
 {"s":"post/demiliani-com/11962","t":"video/8D8IFkqeTLU","type":"relates","w":0.5}
 {"s":"post/demiliani-com/11962","t":"video/cZCSi6khZFo","type":"relates","w":0.5}
@@ -59584,8 +59635,7 @@
 {"s":"post/demiliani-com/12036","t":"post/yzhums-com/74390","type":"relates","w":0.5}
 {"s":"post/demiliani-com/12036","t":"source/demiliani-com","type":"authored","w":1}
 {"s":"post/demiliani-com/12036","t":"source/demiliani-com","type":"discusses","w":1}
-{"s":"post/demiliani-com/12036","t":"topic/dev-itpro/integration-with-ai","type":"discusses","w":1}
-{"s":"post/demiliani-com/12036","t":"topic/dev-itpro/integration/web-services/apis","type":"discusses","w":1}
+{"s":"post/demiliani-com/12036","t":"topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c","type":"discusses","w":1}
 {"s":"post/demiliani-com/12036","t":"video/1ft4o9lQzsU","type":"relates","w":0.5}
 {"s":"post/demiliani-com/12076","t":"post/thinkaboutit-be/7496","type":"relates","w":0.5}
 {"s":"post/demiliani-com/12076","t":"post/yzhums-com/65721","type":"relates","w":0.5}
@@ -59897,6 +59947,7 @@
 {"s":"post/demiliani-com/13442","t":"source/demiliani-com","type":"discusses","w":1}
 {"s":"post/demiliani-com/13470","t":"source/demiliani-com","type":"authored","w":1}
 {"s":"post/demiliani-com/13470","t":"source/demiliani-com","type":"discusses","w":1}
+{"s":"post/demiliani-com/13470","t":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","type":"discusses","w":1}
 {"s":"post/demiliani-com/13512","t":"source/demiliani-com","type":"authored","w":1}
 {"s":"post/demiliani-com/13512","t":"source/demiliani-com","type":"discusses","w":1}
 {"s":"post/demiliani-com/13541","t":"source/demiliani-com","type":"authored","w":1}
@@ -59938,7 +59989,7 @@
 {"s":"post/demiliani-com/13657","t":"source/demiliani-com","type":"discusses","w":1}
 {"s":"post/demiliani-com/13676","t":"source/demiliani-com","type":"authored","w":1}
 {"s":"post/demiliani-com/13676","t":"source/demiliani-com","type":"discusses","w":1}
-{"s":"post/demiliani-com/13676","t":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/set-up-cloud-migration","type":"discusses","w":1}
+{"s":"post/demiliani-com/13676","t":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/replicate-data","type":"discusses","w":1}
 {"s":"post/demiliani-com/13695","t":"source/demiliani-com","type":"authored","w":1}
 {"s":"post/demiliani-com/13695","t":"source/demiliani-com","type":"discusses","w":1}
 {"s":"post/demiliani-com/13755","t":"source/demiliani-com","type":"authored","w":1}
@@ -60045,7 +60096,6 @@
 {"s":"post/demiliani-com/15935","t":"post/yzhums-com/67462","type":"relates","w":0.5}
 {"s":"post/demiliani-com/15935","t":"post/yzhums-com/68482","type":"relates","w":0.5}
 {"s":"post/demiliani-com/15935","t":"post/yzhums-com/68484","type":"relates","w":0.5}
-{"s":"post/demiliani-com/15935","t":"post/yzhums-com/70502","type":"relates","w":0.5}
 {"s":"post/demiliani-com/15935","t":"post/yzhums-com/72431","type":"relates","w":0.5}
 {"s":"post/demiliani-com/15935","t":"post/yzhums-com/74431","type":"relates","w":0.5}
 {"s":"post/demiliani-com/15935","t":"post/yzhums-com/74703","type":"relates","w":0.5}
@@ -60054,7 +60104,6 @@
 {"s":"post/demiliani-com/15935","t":"source/demiliani-com","type":"discusses","w":1}
 {"s":"post/demiliani-com/15935","t":"topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities","type":"discusses","w":1}
 {"s":"post/demiliani-com/15935","t":"video/DRUr4byy8xQ","type":"relates","w":0.5}
-{"s":"post/demiliani-com/15935","t":"video/MKuOgMWXJ_8","type":"relates","w":0.5}
 {"s":"post/demiliani-com/15935","t":"video/UQmuMPRlHek","type":"relates","w":0.5}
 {"s":"post/demiliani-com/15968","t":"post/demiliani-com/17538","type":"relates","w":0.5}
 {"s":"post/demiliani-com/15968","t":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4","type":"relates","w":0.5}
@@ -60150,7 +60199,6 @@
 {"s":"post/demiliani-com/17568","t":"post/yzhums-com/67761","type":"relates","w":0.5}
 {"s":"post/demiliani-com/17568","t":"source/demiliani-com","type":"authored","w":1}
 {"s":"post/demiliani-com/17568","t":"source/demiliani-com","type":"discusses","w":1}
-{"s":"post/demiliani-com/17568","t":"topic/dev-itpro/development/programming-in-the-al-language/handling-security","type":"discusses","w":1}
 {"s":"post/demiliani-com/17586","t":"source/demiliani-com","type":"authored","w":1}
 {"s":"post/demiliani-com/17586","t":"source/demiliani-com","type":"discusses","w":1}
 {"s":"post/duiliotacconi-com/1425","t":"post/yzhums-com/67623","type":"relates","w":0.5}
@@ -60703,7 +60751,6 @@
 {"s":"post/gerardorenteria-blog/12682","t":"source/gerardorenteria-blog","type":"authored","w":1}
 {"s":"post/gerardorenteria-blog/12682","t":"source/gerardorenteria-blog","type":"discusses","w":1}
 {"s":"post/gerardorenteria-blog/12682","t":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","type":"discusses","w":1}
-{"s":"post/gerardorenteria-blog/12682","t":"topic/dev-itpro/integration/web-services/apis","type":"discusses","w":1}
 {"s":"post/gerardorenteria-blog/12682","t":"video/0WAOtNaKjws","type":"relates","w":0.5}
 {"s":"post/gerardorenteria-blog/12682","t":"video/1ft4o9lQzsU","type":"relates","w":0.5}
 {"s":"post/gerardorenteria-blog/12682","t":"video/2N2NhNH7dsk","type":"relates","w":0.5}
@@ -60927,7 +60974,6 @@
 {"s":"post/jeremyvyska-com/1763","t":"source/jeremyvyska-com","type":"authored","w":1}
 {"s":"post/jeremyvyska-com/1763","t":"source/jeremyvyska-com","type":"discusses","w":1}
 {"s":"post/jeremyvyska-com/1770","t":"post/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f","type":"relates","w":0.5}
-{"s":"post/jeremyvyska-com/1770","t":"post/thinkaboutit-be/8132","type":"relates","w":0.5}
 {"s":"post/jeremyvyska-com/1770","t":"post/vondervoort-be/130","type":"relates","w":0.5}
 {"s":"post/jeremyvyska-com/1770","t":"post/vondervoort-be/147","type":"relates","w":0.5}
 {"s":"post/jeremyvyska-com/1770","t":"post/yzhums-com/76053","type":"relates","w":0.5}
@@ -60991,6 +61037,7 @@
 {"s":"post/katson-com/4678","t":"source/katson-com","type":"discusses","w":1}
 {"s":"post/katson-com/4678","t":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","type":"discusses","w":1}
 {"s":"post/katson-com/4678","t":"video/0WAOtNaKjws","type":"relates","w":0.5}
+{"s":"post/katson-com/4678","t":"video/AMVAiPTfSrU","type":"relates","w":0.5}
 {"s":"post/katson-com/4678","t":"video/C5cmG3sNjUg","type":"relates","w":0.5}
 {"s":"post/katson-com/4678","t":"video/EpDIrJE0HzA","type":"relates","w":0.5}
 {"s":"post/katson-com/4678","t":"video/GeT5E_f9A9Q","type":"relates","w":0.5}
@@ -60998,6 +61045,7 @@
 {"s":"post/katson-com/4678","t":"video/q3xnjJD32kk","type":"relates","w":0.5}
 {"s":"post/katson-com/4678","t":"video/qs1cg-GoDeQ","type":"relates","w":0.5}
 {"s":"post/katson-com/4678","t":"video/rm-FstU_I80","type":"relates","w":0.5}
+{"s":"post/katson-com/4678","t":"video/uMKLsKfKPc0","type":"relates","w":0.5}
 {"s":"post/katson-com/4678","t":"video/zei-IszvYNU","type":"relates","w":0.5}
 {"s":"post/katson-com/4727","t":"source/katson-com","type":"authored","w":1}
 {"s":"post/katson-com/4727","t":"source/katson-com","type":"discusses","w":1}
@@ -61021,6 +61069,8 @@
 {"s":"post/kauffmann-nl/8332","t":"source/kauffmann-nl","type":"authored","w":1}
 {"s":"post/kauffmann-nl/8332","t":"source/kauffmann-nl","type":"discusses","w":1}
 {"s":"post/kauffmann-nl/8332","t":"topic/dev-itpro/development/programming-in-the-al-language/calling-external-services","type":"discusses","w":1}
+{"s":"post/kauffmann-nl/8332","t":"topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets","type":"discusses","w":1}
+{"s":"post/kauffmann-nl/8332","t":"topic/dev-itpro/development/programming-in-the-al-language/handling-security","type":"discusses","w":1}
 {"s":"post/kauffmann-nl/8436","t":"post/yzhums-com/70502","type":"relates","w":0.5}
 {"s":"post/kauffmann-nl/8436","t":"post/yzhums-com/71363","type":"relates","w":0.5}
 {"s":"post/kauffmann-nl/8436","t":"source/kauffmann-nl","type":"authored","w":1}
@@ -61131,7 +61181,6 @@
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d","t":"post/yzhums-com/74390","type":"relates","w":0.5}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d","t":"source/mohana-blog","type":"authored","w":1}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d","t":"source/mohana-blog","type":"discusses","w":1}
-{"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d","t":"topic/dev-itpro/integration/web-services/apis","type":"discusses","w":1}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d","t":"video/1ft4o9lQzsU","type":"relates","w":0.5}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368","t":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","type":"relates","w":0.5}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368","t":"post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-85-schedule-pte-extension-updates--b3aee1ab46","type":"relates","w":0.5}
@@ -61377,6 +61426,7 @@
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0","t":"topic/business-central/business-functionality/purchasing","type":"discusses","w":1}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0","t":"video/8C9JmtHdExM","type":"relates","w":0.5}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0","t":"video/crDXSPsoIQ8","type":"relates","w":0.5}
+{"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0","t":"video/cwCZUHgDb9Q","type":"relates","w":0.5}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0","t":"video/D56EVy3JgHA","type":"relates","w":0.5}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0","t":"video/DJ3LPRxn27g","type":"relates","w":0.5}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0","t":"video/QdWPlIV3Avk","type":"relates","w":0.5}
@@ -61387,6 +61437,7 @@
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0","t":"video/XhO4oFmoh1M","type":"relates","w":0.5}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7429326284625186983--78752bab68","t":"source/mohana-blog","type":"authored","w":1}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7429326284625186983--78752bab68","t":"source/mohana-blog","type":"discusses","w":1}
+{"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7429326284625186983--78752bab68","t":"topic/dev-itpro/integration/web-services/apis","type":"discusses","w":1}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7706250162700204847--ff7a1d395b","t":"source/mohana-blog","type":"authored","w":1}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7706250162700204847--ff7a1d395b","t":"source/mohana-blog","type":"discusses","w":1}
 {"s":"post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7706250162700204847--ff7a1d395b","t":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-nav","type":"discusses","w":1}
@@ -61455,9 +61506,9 @@
 {"s":"post/nataliekarolak-com/3404","t":"source/nataliekarolak-com","type":"authored","w":1}
 {"s":"post/nataliekarolak-com/3404","t":"source/nataliekarolak-com","type":"discusses","w":1}
 {"s":"post/nataliekarolak-com/3494","t":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee","type":"relates","w":0.5}
-{"s":"post/nataliekarolak-com/3494","t":"post/thinkaboutit-be/8132","type":"relates","w":0.5}
 {"s":"post/nataliekarolak-com/3494","t":"post/thinkaboutit-be/8348","type":"relates","w":0.5}
 {"s":"post/nataliekarolak-com/3494","t":"post/yzhums-com/63730","type":"relates","w":0.5}
+{"s":"post/nataliekarolak-com/3494","t":"post/yzhums-com/63942","type":"relates","w":0.5}
 {"s":"post/nataliekarolak-com/3494","t":"post/yzhums-com/68077","type":"relates","w":0.5}
 {"s":"post/nataliekarolak-com/3494","t":"post/yzhums-com/74975","type":"relates","w":0.5}
 {"s":"post/nataliekarolak-com/3494","t":"source/nataliekarolak-com","type":"authored","w":1}
@@ -61536,6 +61587,7 @@
 {"s":"post/olofsimren-com/3545","t":"video/GEuUFcgFZF0","type":"relates","w":0.5}
 {"s":"post/olofsimren-com/3545","t":"video/oIoH3gxc0uk","type":"relates","w":0.5}
 {"s":"post/olofsimren-com/3545","t":"video/xqFpiqmXjk0","type":"relates","w":0.5}
+{"s":"post/olofsimren-com/3564","t":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","type":"relates","w":0.5}
 {"s":"post/olofsimren-com/3564","t":"post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf","type":"relates","w":0.5}
 {"s":"post/olofsimren-com/3564","t":"post/yzhums-com/63913","type":"relates","w":0.5}
 {"s":"post/olofsimren-com/3564","t":"post/yzhums-com/71047","type":"relates","w":0.5}
@@ -61784,8 +61836,7 @@
 {"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c","t":"post/yzhums-com/76509","type":"relates","w":0.5}
 {"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c","t":"source/sauravdhyani-com","type":"authored","w":1}
 {"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c","t":"source/sauravdhyani-com","type":"discusses","w":1}
-{"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c","t":"topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data","type":"discusses","w":1}
-{"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c","t":"topic/dev-itpro/development/programming-in-the-al-language/tables-and-data","type":"discusses","w":1}
+{"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c","t":"topic/dev-itpro/integration/integrating-with-external-systems-using","type":"discusses","w":1}
 {"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c","t":"video/a1LQ3-SCtPE","type":"relates","w":0.5}
 {"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-426088323488837430--eb8c04886f","t":"source/sauravdhyani-com","type":"authored","w":1}
 {"s":"post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-426088323488837430--eb8c04886f","t":"source/sauravdhyani-com","type":"discusses","w":1}
@@ -62108,6 +62159,7 @@
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-32-unit-of-measure-management-codeunit--bcda67d854","t":"topic/dev-itpro/development/system-and-application-reference-documen","type":"discusses","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-month-enum--b394762bca","t":"source/thatnavguy-com","type":"authored","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-month-enum--b394762bca","t":"source/thatnavguy-com","type":"discusses","w":1}
+{"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-85-schedule-pte-extension-updates--b3aee1ab46","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"post/thinkaboutit-be/7897","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"post/thinkaboutit-be/7930","type":"relates","w":0.5}
@@ -62121,11 +62173,13 @@
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"post/yzhums-com/69185","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"post/yzhums-com/69209","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"post/yzhums-com/69918","type":"relates","w":0.5}
+{"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"post/yzhums-com/71047","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"post/yzhums-com/72089","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"post/yzhums-com/72784","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"post/yzhums-com/75111","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"post/yzhums-com/75370","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"post/yzhums-com/76631","type":"relates","w":0.5}
+{"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"post/yzhums-com/76760","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"source/thatnavguy-com","type":"authored","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"source/thatnavguy-com","type":"discusses","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data","type":"discusses","w":1}
@@ -62136,6 +62190,9 @@
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"video/22duXC6j_No","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"video/3Xus5tm2xKI","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"video/42adOzECiA0","type":"relates","w":0.5}
+{"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"video/564XMP2IyLM","type":"relates","w":0.5}
+{"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"video/b-ixzwDS41c","type":"relates","w":0.5}
+{"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"video/DnZJ2iOgIjI","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"video/HixajKEd-A4","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"video/KNy2KujjheU","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08","t":"video/LerAo-GGl8U","type":"relates","w":0.5}
@@ -62198,7 +62255,6 @@
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0","t":"post/yzhums-com/67462","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0","t":"post/yzhums-com/68482","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0","t":"post/yzhums-com/68484","type":"relates","w":0.5}
-{"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0","t":"post/yzhums-com/70502","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0","t":"post/yzhums-com/72431","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0","t":"post/yzhums-com/74431","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0","t":"post/yzhums-com/74703","type":"relates","w":0.5}
@@ -62207,7 +62263,6 @@
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0","t":"source/thatnavguy-com","type":"discusses","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0","t":"topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities","type":"discusses","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0","t":"video/DRUr4byy8xQ","type":"relates","w":0.5}
-{"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0","t":"video/MKuOgMWXJ_8","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0","t":"video/UQmuMPRlHek","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-46-warning-on-importing-or-applying-a-large-configurat--7ea3f992ed","t":"source/thatnavguy-com","type":"authored","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-46-warning-on-importing-or-applying-a-large-configurat--7ea3f992ed","t":"source/thatnavguy-com","type":"discusses","w":1}
@@ -62333,7 +62388,6 @@
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-add-in-error-the-service-required-to--ef06d9023d","t":"post/yzhums-com/72611","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-add-in-error-the-service-required-to--ef06d9023d","t":"source/thatnavguy-com","type":"authored","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-add-in-error-the-service-required-to--ef06d9023d","t":"source/thatnavguy-com","type":"discusses","w":1}
-{"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-add-in-error-the-service-required-to--ef06d9023d","t":"topic/dev-itpro/integration/integrating-business-central-with-office","type":"discusses","w":1}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9","t":"post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-66-api-v2-app--9c066fb579","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9","t":"post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561","type":"relates","w":0.5}
 {"s":"post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9","t":"post/thinkaboutit-be/7683","type":"relates","w":0.5}
@@ -62729,6 +62783,7 @@
 {"s":"post/thedynamicsexplorer-com/10232","t":"topic/business-central/business-functionality/finance/manage-receivables","type":"discusses","w":1}
 {"s":"post/thedynamicsexplorer-com/10232","t":"video/1ugAYeEZLaU","type":"relates","w":0.5}
 {"s":"post/thedynamicsexplorer-com/10232","t":"video/6WVsS3j-HTw","type":"relates","w":0.5}
+{"s":"post/thedynamicsexplorer-com/10232","t":"video/cwCZUHgDb9Q","type":"relates","w":0.5}
 {"s":"post/thedynamicsexplorer-com/10232","t":"video/Dkd8_cGzIvc","type":"relates","w":0.5}
 {"s":"post/thedynamicsexplorer-com/10232","t":"video/HI7VcPzR2OE","type":"relates","w":0.5}
 {"s":"post/thedynamicsexplorer-com/10232","t":"video/O2RPBlr_GiE","type":"relates","w":0.5}
@@ -62967,7 +63022,6 @@
 {"s":"post/thinkaboutit-be/7061","t":"post/yzhums-com/48974","type":"relates","w":0.5}
 {"s":"post/thinkaboutit-be/7061","t":"source/thinkaboutit-be","type":"authored","w":1}
 {"s":"post/thinkaboutit-be/7061","t":"source/thinkaboutit-be","type":"discusses","w":1}
-{"s":"post/thinkaboutit-be/7061","t":"topic/dev-itpro/development/programming-in-the-al-language/developing-apis","type":"discusses","w":1}
 {"s":"post/thinkaboutit-be/7061","t":"topic/dev-itpro/integration/web-services/odata","type":"discusses","w":1}
 {"s":"post/thinkaboutit-be/7061","t":"video/VpNQ-CYNrkM","type":"relates","w":0.5}
 {"s":"post/thinkaboutit-be/7073","t":"post/thinkaboutit-be/7650","type":"relates","w":0.5}
@@ -63253,7 +63307,7 @@
 {"s":"post/thinkaboutit-be/8229","t":"post/waldo-be/318707","type":"relates","w":0.5}
 {"s":"post/thinkaboutit-be/8229","t":"source/thinkaboutit-be","type":"authored","w":1}
 {"s":"post/thinkaboutit-be/8229","t":"source/thinkaboutit-be","type":"discusses","w":1}
-{"s":"post/thinkaboutit-be/8229","t":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","type":"discusses","w":1}
+{"s":"post/thinkaboutit-be/8229","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"discusses","w":1}
 {"s":"post/thinkaboutit-be/8229","t":"video/kOCiyVql0go","type":"relates","w":0.5}
 {"s":"post/thinkaboutit-be/8250","t":"post/yzhums-com/76147","type":"relates","w":0.5}
 {"s":"post/thinkaboutit-be/8250","t":"post/yzhums-com/76205","type":"relates","w":0.5}
@@ -63639,7 +63693,6 @@
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-05-business-central-power-pages-true-html--3e063897e5","t":"source/wingate365-com","type":"authored","w":1}
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-05-business-central-power-pages-true-html--3e063897e5","t":"source/wingate365-com","type":"discusses","w":1}
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-05-business-central-power-pages-true-html--3e063897e5","t":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","type":"discusses","w":1}
-{"s":"post/wingate365-com/https-blog-wingate365-com-2025-05-business-central-power-pages-true-html--3e063897e5","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps","type":"discusses","w":1}
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-05-business-central-power-pages-true-html--3e063897e5","t":"video/-q8Gm7u7R2A","type":"relates","w":0.5}
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-05-business-central-power-pages-true-html--3e063897e5","t":"video/auoHUd24Gfw","type":"relates","w":0.5}
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-05-business-central-power-pages-true-html--3e063897e5","t":"video/fIOnGEARkKs","type":"relates","w":0.5}
@@ -63677,7 +63730,6 @@
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97","t":"post/yzhums-com/68482","type":"relates","w":0.5}
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97","t":"post/yzhums-com/68484","type":"relates","w":0.5}
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97","t":"post/yzhums-com/69256","type":"relates","w":0.5}
-{"s":"post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97","t":"post/yzhums-com/70502","type":"relates","w":0.5}
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97","t":"post/yzhums-com/72431","type":"relates","w":0.5}
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97","t":"post/yzhums-com/74431","type":"relates","w":0.5}
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97","t":"post/yzhums-com/74703","type":"relates","w":0.5}
@@ -63695,7 +63747,6 @@
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97","t":"video/I7i25zBfyEQ","type":"relates","w":0.5}
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97","t":"video/j6gadQyB4gM","type":"relates","w":0.5}
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97","t":"video/kwGEoxN46hk","type":"relates","w":0.5}
-{"s":"post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97","t":"video/MKuOgMWXJ_8","type":"relates","w":0.5}
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97","t":"video/Qmd6_5vYKDg","type":"relates","w":0.5}
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97","t":"video/UIL8ej7mSKQ","type":"relates","w":0.5}
 {"s":"post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97","t":"video/UQmuMPRlHek","type":"relates","w":0.5}
@@ -63863,6 +63914,7 @@
 {"s":"post/yzhums-com/56046","t":"post/yzhums-com/73513","type":"relates","w":0.5}
 {"s":"post/yzhums-com/56046","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/56046","t":"source/yzhums-com","type":"discusses","w":1}
+{"s":"post/yzhums-com/56046","t":"topic/business-central/business-functionality/inventory","type":"discusses","w":1}
 {"s":"post/yzhums-com/56046","t":"topic/dev-itpro/development/programming-in-the-al-language/calling-external-services","type":"discusses","w":1}
 {"s":"post/yzhums-com/56046","t":"video/8C9JmtHdExM","type":"relates","w":0.5}
 {"s":"post/yzhums-com/56046","t":"video/qNHUj3ZEang","type":"relates","w":0.5}
@@ -63904,6 +63956,7 @@
 {"s":"post/yzhums-com/56521","t":"video/8C9JmtHdExM","type":"relates","w":0.5}
 {"s":"post/yzhums-com/56521","t":"video/B8PLDeZ73Y4","type":"relates","w":0.5}
 {"s":"post/yzhums-com/56521","t":"video/crDXSPsoIQ8","type":"relates","w":0.5}
+{"s":"post/yzhums-com/56521","t":"video/cwCZUHgDb9Q","type":"relates","w":0.5}
 {"s":"post/yzhums-com/56521","t":"video/fpc_XlVEnWw","type":"relates","w":0.5}
 {"s":"post/yzhums-com/56521","t":"video/H7R_m8Ue38g","type":"relates","w":0.5}
 {"s":"post/yzhums-com/56521","t":"video/HI7VcPzR2OE","type":"relates","w":0.5}
@@ -63934,6 +63987,7 @@
 {"s":"post/yzhums-com/57334","t":"video/YTA8c2XyTX4","type":"relates","w":0.5}
 {"s":"post/yzhums-com/61543","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/61543","t":"source/yzhums-com","type":"discusses","w":1}
+{"s":"post/yzhums-com/61543","t":"topic/dev-itpro/development/programming-in-the-al-language/calling-external-services","type":"discusses","w":1}
 {"s":"post/yzhums-com/61561","t":"post/yzhums-com/63736","type":"relates","w":0.5}
 {"s":"post/yzhums-com/61561","t":"post/yzhums-com/67343","type":"relates","w":0.5}
 {"s":"post/yzhums-com/61561","t":"post/yzhums-com/67858","type":"relates","w":0.5}
@@ -63975,6 +64029,7 @@
 {"s":"post/yzhums-com/61951","t":"post/yzhums-com/65857","type":"relates","w":0.5}
 {"s":"post/yzhums-com/61951","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/61951","t":"source/yzhums-com","type":"discusses","w":1}
+{"s":"post/yzhums-com/61951","t":"topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions","type":"discusses","w":1}
 {"s":"post/yzhums-com/61951","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","type":"discusses","w":1}
 {"s":"post/yzhums-com/61951","t":"video/EVntnDFE1R4","type":"relates","w":0.5}
 {"s":"post/yzhums-com/61951","t":"video/T63y0F_38SI","type":"relates","w":0.5}
@@ -64124,12 +64179,14 @@
 {"s":"post/yzhums-com/63749","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/63749","t":"source/yzhums-com","type":"discusses","w":1}
 {"s":"post/yzhums-com/63749","t":"topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-onedrive","type":"discusses","w":1}
+{"s":"post/yzhums-com/63749","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","type":"discusses","w":1}
 {"s":"post/yzhums-com/63762","t":"post/yzhums-com/65326","type":"relates","w":0.5}
 {"s":"post/yzhums-com/63762","t":"post/yzhums-com/65426","type":"relates","w":0.5}
 {"s":"post/yzhums-com/63762","t":"post/yzhums-com/68672","type":"relates","w":0.5}
 {"s":"post/yzhums-com/63762","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/63762","t":"source/yzhums-com","type":"discusses","w":1}
 {"s":"post/yzhums-com/63762","t":"topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data","type":"discusses","w":1}
+{"s":"post/yzhums-com/63762","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","type":"discusses","w":1}
 {"s":"post/yzhums-com/63766","t":"post/yzhums-com/67560","type":"relates","w":0.5}
 {"s":"post/yzhums-com/63766","t":"post/yzhums-com/75896","type":"relates","w":0.5}
 {"s":"post/yzhums-com/63766","t":"post/yzhums-com/76388","type":"relates","w":0.5}
@@ -64141,7 +64198,6 @@
 {"s":"post/yzhums-com/63801","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/63801","t":"source/yzhums-com","type":"discusses","w":1}
 {"s":"post/yzhums-com/63801","t":"topic/dev-itpro/integration/web-services/apis","type":"discusses","w":1}
-{"s":"post/yzhums-com/63801","t":"topic/dev-itpro/integration/web-services/web-services-security","type":"discusses","w":1}
 {"s":"post/yzhums-com/63801","t":"video/1ft4o9lQzsU","type":"relates","w":0.5}
 {"s":"post/yzhums-com/63803","t":"post/yzhums-com/69812","type":"relates","w":0.5}
 {"s":"post/yzhums-com/63803","t":"source/yzhums-com","type":"authored","w":1}
@@ -64405,6 +64461,7 @@
 {"s":"post/yzhums-com/65320","t":"source/yzhums-com","type":"discusses","w":1}
 {"s":"post/yzhums-com/65320","t":"topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/pages","type":"discusses","w":1}
 {"s":"post/yzhums-com/65320","t":"video/crDXSPsoIQ8","type":"relates","w":0.5}
+{"s":"post/yzhums-com/65320","t":"video/cwCZUHgDb9Q","type":"relates","w":0.5}
 {"s":"post/yzhums-com/65320","t":"video/DJ3LPRxn27g","type":"relates","w":0.5}
 {"s":"post/yzhums-com/65320","t":"video/qP0id91bIlA","type":"relates","w":0.5}
 {"s":"post/yzhums-com/65320","t":"video/tpAh4q3h8T8","type":"relates","w":0.5}
@@ -64451,6 +64508,7 @@
 {"s":"post/yzhums-com/65525","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/65525","t":"source/yzhums-com","type":"discusses","w":1}
 {"s":"post/yzhums-com/65525","t":"topic/dev-itpro/development/programming-in-the-al-language/calling-external-services","type":"discusses","w":1}
+{"s":"post/yzhums-com/65525","t":"topic/dev-itpro/development/programming-in-the-al-language/handling-security","type":"discusses","w":1}
 {"s":"post/yzhums-com/65525","t":"video/qNHUj3ZEang","type":"relates","w":0.5}
 {"s":"post/yzhums-com/65533","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/65533","t":"source/yzhums-com","type":"discusses","w":1}
@@ -64559,8 +64617,6 @@
 {"s":"post/yzhums-com/65781","t":"video/YX9UfUF0EsA","type":"relates","w":0.5}
 {"s":"post/yzhums-com/65857","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/65857","t":"source/yzhums-com","type":"discusses","w":1}
-{"s":"post/yzhums-com/65857","t":"topic/dev-itpro/integration/integrating-with-external-systems-using","type":"discusses","w":1}
-{"s":"post/yzhums-com/65857","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","type":"discusses","w":1}
 {"s":"post/yzhums-com/65857","t":"video/EVntnDFE1R4","type":"relates","w":0.5}
 {"s":"post/yzhums-com/65857","t":"video/S5Xw-b8YF-c","type":"relates","w":0.5}
 {"s":"post/yzhums-com/65857","t":"video/T63y0F_38SI","type":"relates","w":0.5}
@@ -64591,6 +64647,7 @@
 {"s":"post/yzhums-com/66037","t":"source/yzhums-com","type":"discusses","w":1}
 {"s":"post/yzhums-com/66037","t":"topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/pages","type":"discusses","w":1}
 {"s":"post/yzhums-com/66037","t":"video/crDXSPsoIQ8","type":"relates","w":0.5}
+{"s":"post/yzhums-com/66037","t":"video/cwCZUHgDb9Q","type":"relates","w":0.5}
 {"s":"post/yzhums-com/66037","t":"video/qP0id91bIlA","type":"relates","w":0.5}
 {"s":"post/yzhums-com/66037","t":"video/tpAh4q3h8T8","type":"relates","w":0.5}
 {"s":"post/yzhums-com/66037","t":"video/Vq9Nk6_uxmQ","type":"relates","w":0.5}
@@ -64640,6 +64697,7 @@
 {"s":"post/yzhums-com/66461","t":"post/yzhums-com/69818","type":"relates","w":0.5}
 {"s":"post/yzhums-com/66461","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/66461","t":"source/yzhums-com","type":"discusses","w":1}
+{"s":"post/yzhums-com/66461","t":"topic/dev-itpro/development/programming-in-the-al-language/calling-external-services","type":"discusses","w":1}
 {"s":"post/yzhums-com/66463","t":"post/yzhums-com/68624","type":"relates","w":0.5}
 {"s":"post/yzhums-com/66463","t":"post/yzhums-com/71463","type":"relates","w":0.5}
 {"s":"post/yzhums-com/66463","t":"source/yzhums-com","type":"authored","w":1}
@@ -64672,7 +64730,6 @@
 {"s":"post/yzhums-com/66721","t":"source/yzhums-com","type":"discusses","w":1}
 {"s":"post/yzhums-com/67024","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/67024","t":"source/yzhums-com","type":"discusses","w":1}
-{"s":"post/yzhums-com/67024","t":"topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-apps","type":"discusses","w":1}
 {"s":"post/yzhums-com/67024","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps","type":"discusses","w":1}
 {"s":"post/yzhums-com/67024","t":"video/auoHUd24Gfw","type":"relates","w":0.5}
 {"s":"post/yzhums-com/67043","t":"source/yzhums-com","type":"authored","w":1}
@@ -64778,7 +64835,6 @@
 {"s":"post/yzhums-com/67446","t":"source/yzhums-com","type":"discusses","w":1}
 {"s":"post/yzhums-com/67462","t":"post/yzhums-com/68482","type":"relates","w":0.5}
 {"s":"post/yzhums-com/67462","t":"post/yzhums-com/68484","type":"relates","w":0.5}
-{"s":"post/yzhums-com/67462","t":"post/yzhums-com/70502","type":"relates","w":0.5}
 {"s":"post/yzhums-com/67462","t":"post/yzhums-com/72431","type":"relates","w":0.5}
 {"s":"post/yzhums-com/67462","t":"post/yzhums-com/74431","type":"relates","w":0.5}
 {"s":"post/yzhums-com/67462","t":"post/yzhums-com/74703","type":"relates","w":0.5}
@@ -64787,7 +64843,6 @@
 {"s":"post/yzhums-com/67462","t":"source/yzhums-com","type":"discusses","w":1}
 {"s":"post/yzhums-com/67462","t":"topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities","type":"discusses","w":1}
 {"s":"post/yzhums-com/67462","t":"video/DRUr4byy8xQ","type":"relates","w":0.5}
-{"s":"post/yzhums-com/67462","t":"video/MKuOgMWXJ_8","type":"relates","w":0.5}
 {"s":"post/yzhums-com/67462","t":"video/UQmuMPRlHek","type":"relates","w":0.5}
 {"s":"post/yzhums-com/67489","t":"post/yzhums-com/70554","type":"relates","w":0.5}
 {"s":"post/yzhums-com/67489","t":"post/yzhums-com/70986","type":"relates","w":0.5}
@@ -65033,13 +65088,16 @@
 {"s":"post/yzhums-com/68438","t":"source/yzhums-com","type":"discusses","w":1}
 {"s":"post/yzhums-com/68438","t":"topic/dev-itpro/development/development-environment/work-in-sandboxes","type":"discusses","w":1}
 {"s":"post/yzhums-com/68438","t":"video/qYW5wo0fKgA","type":"relates","w":0.5}
-{"s":"post/yzhums-com/68482","t":"post/yzhums-com/70502","type":"relates","w":0.5}
+{"s":"post/yzhums-com/68482","t":"post/yzhums-com/68484","type":"relates","w":0.5}
+{"s":"post/yzhums-com/68482","t":"post/yzhums-com/72431","type":"relates","w":0.5}
 {"s":"post/yzhums-com/68482","t":"post/yzhums-com/74431","type":"relates","w":0.5}
 {"s":"post/yzhums-com/68482","t":"post/yzhums-com/74703","type":"relates","w":0.5}
+{"s":"post/yzhums-com/68482","t":"post/yzhums-com/76396","type":"relates","w":0.5}
 {"s":"post/yzhums-com/68482","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/68482","t":"source/yzhums-com","type":"discusses","w":1}
 {"s":"post/yzhums-com/68482","t":"topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities","type":"discusses","w":1}
-{"s":"post/yzhums-com/68484","t":"post/yzhums-com/70502","type":"relates","w":0.5}
+{"s":"post/yzhums-com/68482","t":"video/DRUr4byy8xQ","type":"relates","w":0.5}
+{"s":"post/yzhums-com/68482","t":"video/UQmuMPRlHek","type":"relates","w":0.5}
 {"s":"post/yzhums-com/68484","t":"post/yzhums-com/74431","type":"relates","w":0.5}
 {"s":"post/yzhums-com/68484","t":"post/yzhums-com/74703","type":"relates","w":0.5}
 {"s":"post/yzhums-com/68484","t":"source/yzhums-com","type":"authored","w":1}
@@ -65067,6 +65125,7 @@
 {"s":"post/yzhums-com/68658","t":"video/YTA8c2XyTX4","type":"relates","w":0.5}
 {"s":"post/yzhums-com/68672","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/68672","t":"source/yzhums-com","type":"discusses","w":1}
+{"s":"post/yzhums-com/68672","t":"topic/business-central/copilot-and-agent-capabilities/sales-line-suggestion-preview","type":"discusses","w":1}
 {"s":"post/yzhums-com/68672","t":"topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data","type":"discusses","w":1}
 {"s":"post/yzhums-com/68731","t":"post/yzhums-com/72040","type":"relates","w":0.5}
 {"s":"post/yzhums-com/68731","t":"source/yzhums-com","type":"authored","w":1}
@@ -65279,7 +65338,7 @@
 {"s":"post/yzhums-com/69433","t":"post/yzhums-com/72611","type":"relates","w":0.5}
 {"s":"post/yzhums-com/69433","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/69433","t":"source/yzhums-com","type":"discusses","w":1}
-{"s":"post/yzhums-com/69433","t":"topic/dev-itpro/integration/integrating-business-central-with-office","type":"discusses","w":1}
+{"s":"post/yzhums-com/69433","t":"topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-onedrive","type":"discusses","w":1}
 {"s":"post/yzhums-com/69444","t":"post/yzhums-com/70415","type":"relates","w":0.5}
 {"s":"post/yzhums-com/69444","t":"post/yzhums-com/71008","type":"relates","w":0.5}
 {"s":"post/yzhums-com/69444","t":"post/yzhums-com/71304","type":"relates","w":0.5}
@@ -65438,6 +65497,7 @@
 {"s":"post/yzhums-com/70137","t":"topic/business-central/business-functionality/sales","type":"discusses","w":1}
 {"s":"post/yzhums-com/70137","t":"topic/dev-itpro/development/programming-in-the-al-language/developing-reports","type":"discusses","w":1}
 {"s":"post/yzhums-com/70137","t":"video/crDXSPsoIQ8","type":"relates","w":0.5}
+{"s":"post/yzhums-com/70137","t":"video/cwCZUHgDb9Q","type":"relates","w":0.5}
 {"s":"post/yzhums-com/70137","t":"video/DJ3LPRxn27g","type":"relates","w":0.5}
 {"s":"post/yzhums-com/70137","t":"video/M1S2_bgLd3Q","type":"relates","w":0.5}
 {"s":"post/yzhums-com/70137","t":"video/qP0id91bIlA","type":"relates","w":0.5}
@@ -65492,22 +65552,15 @@
 {"s":"post/yzhums-com/70491","t":"source/yzhums-com","type":"discusses","w":1}
 {"s":"post/yzhums-com/70491","t":"topic/dev-itpro/business-central-on-premises/upgrade/business-central-2025-release-wave-1-v26","type":"discusses","w":1}
 {"s":"post/yzhums-com/70502","t":"post/yzhums-com/71363","type":"relates","w":0.5}
-{"s":"post/yzhums-com/70502","t":"post/yzhums-com/72431","type":"relates","w":0.5}
-{"s":"post/yzhums-com/70502","t":"post/yzhums-com/74431","type":"relates","w":0.5}
-{"s":"post/yzhums-com/70502","t":"post/yzhums-com/74703","type":"relates","w":0.5}
-{"s":"post/yzhums-com/70502","t":"post/yzhums-com/76396","type":"relates","w":0.5}
 {"s":"post/yzhums-com/70502","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/70502","t":"source/yzhums-com","type":"discusses","w":1}
 {"s":"post/yzhums-com/70502","t":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","type":"discusses","w":1}
 {"s":"post/yzhums-com/70502","t":"video/3UcLmXqyl44","type":"relates","w":0.5}
 {"s":"post/yzhums-com/70502","t":"video/aNRzlbxVPWE","type":"relates","w":0.5}
-{"s":"post/yzhums-com/70502","t":"video/DRUr4byy8xQ","type":"relates","w":0.5}
 {"s":"post/yzhums-com/70502","t":"video/jWqjDTbqjeE","type":"relates","w":0.5}
-{"s":"post/yzhums-com/70502","t":"video/MKuOgMWXJ_8","type":"relates","w":0.5}
 {"s":"post/yzhums-com/70502","t":"video/moPzf04Mwlc","type":"relates","w":0.5}
 {"s":"post/yzhums-com/70502","t":"video/nbGw2g3KMXI","type":"relates","w":0.5}
 {"s":"post/yzhums-com/70502","t":"video/nPF84Ufkn4k","type":"relates","w":0.5}
-{"s":"post/yzhums-com/70502","t":"video/UQmuMPRlHek","type":"relates","w":0.5}
 {"s":"post/yzhums-com/70502","t":"video/Vq9Nk6_uxmQ","type":"relates","w":0.5}
 {"s":"post/yzhums-com/70502","t":"video/WFAZLsUTk20","type":"relates","w":0.5}
 {"s":"post/yzhums-com/70502","t":"video/WjF_sESaIPo","type":"relates","w":0.5}
@@ -65852,6 +65905,7 @@
 {"s":"post/yzhums-com/71645","t":"source/yzhums-com","type":"discusses","w":1}
 {"s":"post/yzhums-com/71645","t":"topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene","type":"discusses","w":1}
 {"s":"post/yzhums-com/71645","t":"video/1ugAYeEZLaU","type":"relates","w":0.5}
+{"s":"post/yzhums-com/71645","t":"video/cwCZUHgDb9Q","type":"relates","w":0.5}
 {"s":"post/yzhums-com/71645","t":"video/fIktVTGZkjE","type":"relates","w":0.5}
 {"s":"post/yzhums-com/71645","t":"video/HI7VcPzR2OE","type":"relates","w":0.5}
 {"s":"post/yzhums-com/71645","t":"video/NkYNL_5Zfoc","type":"relates","w":0.5}
@@ -66238,6 +66292,7 @@
 {"s":"post/yzhums-com/74366","t":"topic/dev-itpro/administration/automation-api/permission-set","type":"discusses","w":1}
 {"s":"post/yzhums-com/74390","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/74390","t":"source/yzhums-com","type":"discusses","w":1}
+{"s":"post/yzhums-com/74390","t":"topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central","type":"discusses","w":1}
 {"s":"post/yzhums-com/74390","t":"topic/dev-itpro/integration/web-services/apis","type":"discusses","w":1}
 {"s":"post/yzhums-com/74390","t":"video/1ft4o9lQzsU","type":"relates","w":0.5}
 {"s":"post/yzhums-com/74390","t":"video/2N2NhNH7dsk","type":"relates","w":0.5}
@@ -66250,7 +66305,6 @@
 {"s":"post/yzhums-com/74431","t":"source/yzhums-com","type":"discusses","w":1}
 {"s":"post/yzhums-com/74431","t":"topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities","type":"discusses","w":1}
 {"s":"post/yzhums-com/74431","t":"video/DRUr4byy8xQ","type":"relates","w":0.5}
-{"s":"post/yzhums-com/74431","t":"video/MKuOgMWXJ_8","type":"relates","w":0.5}
 {"s":"post/yzhums-com/74431","t":"video/UQmuMPRlHek","type":"relates","w":0.5}
 {"s":"post/yzhums-com/74458","t":"post/yzhums-com/74523","type":"relates","w":0.5}
 {"s":"post/yzhums-com/74458","t":"post/yzhums-com/75164","type":"relates","w":0.5}
@@ -66299,6 +66353,7 @@
 {"s":"post/yzhums-com/74523","t":"video/8IOEXgk7q5I","type":"relates","w":0.5}
 {"s":"post/yzhums-com/74523","t":"video/Afv-r-eDt90","type":"relates","w":0.5}
 {"s":"post/yzhums-com/74523","t":"video/crDXSPsoIQ8","type":"relates","w":0.5}
+{"s":"post/yzhums-com/74523","t":"video/cwCZUHgDb9Q","type":"relates","w":0.5}
 {"s":"post/yzhums-com/74523","t":"video/DJ3LPRxn27g","type":"relates","w":0.5}
 {"s":"post/yzhums-com/74523","t":"video/Fk6kWTe3f2Y","type":"relates","w":0.5}
 {"s":"post/yzhums-com/74523","t":"video/nbGw2g3KMXI","type":"relates","w":0.5}
@@ -66353,7 +66408,6 @@
 {"s":"post/yzhums-com/74703","t":"source/yzhums-com","type":"discusses","w":1}
 {"s":"post/yzhums-com/74703","t":"topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities","type":"discusses","w":1}
 {"s":"post/yzhums-com/74703","t":"video/DRUr4byy8xQ","type":"relates","w":0.5}
-{"s":"post/yzhums-com/74703","t":"video/MKuOgMWXJ_8","type":"relates","w":0.5}
 {"s":"post/yzhums-com/74703","t":"video/UQmuMPRlHek","type":"relates","w":0.5}
 {"s":"post/yzhums-com/74800","t":"post/yzhums-com/75894","type":"relates","w":0.5}
 {"s":"post/yzhums-com/74800","t":"source/yzhums-com","type":"authored","w":1}
@@ -66647,6 +66701,7 @@
 {"s":"post/yzhums-com/76419","t":"source/yzhums-com","type":"discusses","w":1}
 {"s":"post/yzhums-com/76419","t":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","type":"discusses","w":1}
 {"s":"post/yzhums-com/76419","t":"video/0WAOtNaKjws","type":"relates","w":0.5}
+{"s":"post/yzhums-com/76419","t":"video/AMVAiPTfSrU","type":"relates","w":0.5}
 {"s":"post/yzhums-com/76419","t":"video/C5cmG3sNjUg","type":"relates","w":0.5}
 {"s":"post/yzhums-com/76419","t":"video/EpDIrJE0HzA","type":"relates","w":0.5}
 {"s":"post/yzhums-com/76419","t":"video/GeT5E_f9A9Q","type":"relates","w":0.5}
@@ -66654,6 +66709,7 @@
 {"s":"post/yzhums-com/76419","t":"video/q3xnjJD32kk","type":"relates","w":0.5}
 {"s":"post/yzhums-com/76419","t":"video/qs1cg-GoDeQ","type":"relates","w":0.5}
 {"s":"post/yzhums-com/76419","t":"video/rm-FstU_I80","type":"relates","w":0.5}
+{"s":"post/yzhums-com/76419","t":"video/uMKLsKfKPc0","type":"relates","w":0.5}
 {"s":"post/yzhums-com/76419","t":"video/zei-IszvYNU","type":"relates","w":0.5}
 {"s":"post/yzhums-com/76443","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/76443","t":"source/yzhums-com","type":"discusses","w":1}
@@ -66728,7 +66784,7 @@
 {"s":"post/yzhums-com/76918","t":"post/yzhums-com/76990","type":"relates","w":0.5}
 {"s":"post/yzhums-com/76918","t":"source/yzhums-com","type":"authored","w":1}
 {"s":"post/yzhums-com/76918","t":"source/yzhums-com","type":"discusses","w":1}
-{"s":"post/yzhums-com/76918","t":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","type":"discusses","w":1}
+{"s":"post/yzhums-com/76918","t":"topic/dev-itpro/development/programming-in-the-al-language/tables-and-data","type":"discusses","w":1}
 {"s":"post/yzhums-com/76918","t":"video/-q8Gm7u7R2A","type":"relates","w":0.5}
 {"s":"post/yzhums-com/76918","t":"video/auoHUd24Gfw","type":"relates","w":0.5}
 {"s":"post/yzhums-com/76918","t":"video/fIOnGEARkKs","type":"relates","w":0.5}
@@ -66869,6 +66925,8 @@
 {"s":"source/yt-hougaard","t":"video/crDXSPsoIQ8","type":"demonstrates","w":1}
 {"s":"source/yt-hougaard","t":"video/cV_5MGGdGtQ","type":"authored","w":1}
 {"s":"source/yt-hougaard","t":"video/cV_5MGGdGtQ","type":"demonstrates","w":1}
+{"s":"source/yt-hougaard","t":"video/cwCZUHgDb9Q","type":"authored","w":1}
+{"s":"source/yt-hougaard","t":"video/cwCZUHgDb9Q","type":"demonstrates","w":1}
 {"s":"source/yt-hougaard","t":"video/eDi32pS8eMo","type":"authored","w":1}
 {"s":"source/yt-hougaard","t":"video/eDi32pS8eMo","type":"demonstrates","w":1}
 {"s":"source/yt-hougaard","t":"video/fWBehdiuDpE","type":"authored","w":1}
@@ -66887,6 +66945,8 @@
 {"s":"source/yt-hougaard","t":"video/vxZqz2LPJsE","type":"demonstrates","w":1}
 {"s":"source/yt-hougaard","t":"video/WYd8Qn3wVQQ","type":"authored","w":1}
 {"s":"source/yt-hougaard","t":"video/WYd8Qn3wVQQ","type":"demonstrates","w":1}
+{"s":"source/yt-hougaard","t":"video/YBVqwzig8Qc","type":"authored","w":1}
+{"s":"source/yt-hougaard","t":"video/YBVqwzig8Qc","type":"demonstrates","w":1}
 {"s":"source/yt-hougaard","t":"video/yE6lNV3ALb4","type":"authored","w":1}
 {"s":"source/yt-hougaard","t":"video/yE6lNV3ALb4","type":"demonstrates","w":1}
 {"s":"source/yt-mibuso","t":"video/-_TaZY2Clh0","type":"authored","w":1}
@@ -68056,6 +68116,8 @@
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/ad-hoc-data-analysis","t":"video/ZpzZ6El8GXY","type":"demonstrates","w":1}
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","t":"topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central","type":"relates","w":0.5}
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","t":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization","type":"relates","w":0.5}
+{"s":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"relates","w":0.5}
+{"s":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"relates","w":0.5}
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi","type":"relates","w":0.5}
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","t":"topic/dev-itpro/performance","type":"relates","w":0.5}
 {"s":"topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric","t":"video/kOCiyVql0go","type":"demonstrates","w":1}
@@ -69530,6 +69592,7 @@
 {"s":"topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector","t":"topic/dev-itpro/development/get-started","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector","t":"topic/dev-itpro/get-started","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector","t":"topic/dev-itpro/integration/integrating-with-shopify","type":"relates","w":0.5}
+{"s":"topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector","t":"video/B-pxLlb-UN0","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector","type":"relates","w":2}
 {"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"topic/business-central/copilot-and-agent-capabilities/shopify-tax-matching-preview","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"topic/business-central/development-and-administration/migrate-to-business-central-online","type":"relates","w":0.5}
@@ -69537,11 +69600,8 @@
 {"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"topic/dev-itpro/administration/migrate-to-business-central-online","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"topic/dev-itpro/administration/understand-business-central-online","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"topic/dev-itpro/integration/integrating-with-shopify","type":"relates","w":0.5}
-{"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"video/NMO822Jf_4E","type":"demonstrates","w":1}
-{"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"video/p-pwG6f5srY","type":"demonstrates","w":1}
-{"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"video/StIVhsnOHWY","type":"demonstrates","w":1}
-{"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"video/VjYMhjjc3uw","type":"demonstrates","w":1}
-{"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"video/YSDfDjrMUb0","type":"demonstrates","w":1}
+{"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"video/B-pxLlb-UN0","type":"demonstrates","w":1}
+{"s":"topic/business-central/business-functionality/online-store-with-shopify","t":"video/BwBR8JwwQa4","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/planning","t":"topic/business-central/business-functionality/service-management/planning-service","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/planning","t":"topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/planning","t":"topic/business-central/get-started/get-productive-in-business-central/personalize-business-central","type":"relates","w":0.5}
@@ -69597,6 +69657,7 @@
 {"s":"topic/business-central/business-functionality/relationship-management/manage-contacts","t":"topic/business-central/business-functionality/relationship-management/relationship-management-analytics","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/relationship-management/manage-contacts","t":"topic/business-central/business-functionality/relationship-management/use-dynamics-365-for-sales-from-business","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/relationship-management/manage-contacts","t":"topic/dev-itpro/integration/integrating-business-central-with-office","type":"relates","w":0.5}
+{"s":"topic/business-central/business-functionality/relationship-management/manage-contacts","t":"video/BwBR8JwwQa4","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/relationship-management/manage-interactions","t":"topic/business-central/business-functionality/relationship-management/manage-sales-opportunities","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/relationship-management/manage-interactions","t":"topic/business-central/business-functionality/relationship-management/manage-segments","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/relationship-management/manage-interactions","t":"topic/business-central/business-functionality/relationship-management/relationship-management-analytics","type":"relates","w":0.5}
@@ -69667,6 +69728,7 @@
 {"s":"topic/business-central/business-functionality/sales","t":"topic/dev-itpro/development/data-analytics-and-reporting","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/sales","t":"topic/dev-itpro/development/extensibility/extending-the-base-application","type":"relates","w":0.5}
 {"s":"topic/business-central/business-functionality/sales","t":"topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/using-query-objects","type":"relates","w":0.5}
+{"s":"topic/business-central/business-functionality/sales","t":"video/e5Dr3jzCLM8","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/sales","t":"video/fatcqVFrTXI","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/sales","t":"video/fdP1HKBEDjA","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/sales","t":"video/PIWxU93eCT4","type":"demonstrates","w":1}
@@ -69684,6 +69746,7 @@
 {"s":"topic/business-central/business-functionality/service-management","t":"topic/business-central/business-functionality/service-management/planning-service","type":"relates","w":2}
 {"s":"topic/business-central/business-functionality/service-management","t":"topic/business-central/business-functionality/service-management/service-management-analytics","type":"relates","w":2}
 {"s":"topic/business-central/business-functionality/service-management","t":"topic/business-central/business-functionality/set-up-business-central/set-up-service-management","type":"relates","w":0.5}
+{"s":"topic/business-central/business-functionality/service-management","t":"video/Jbo2DOCd7Pw","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/service-management","t":"video/N8Unj6WLB6U","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/service-management","t":"video/pEXl-POet_4","type":"demonstrates","w":1}
 {"s":"topic/business-central/business-functionality/service-management","t":"video/WvG4EOHQuiw","type":"demonstrates","w":1}
@@ -69978,7 +70041,6 @@
 {"s":"topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities","t":"topic/business-central/copilot-and-agent-capabilities/summarize-preview","type":"relates","w":0.5}
 {"s":"topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities","t":"topic/business-central/development-and-administration","type":"relates","w":0.5}
 {"s":"topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities","t":"topic/dev-itpro/development/programming-in-the-al-language/accessing-device-capabilities","type":"relates","w":0.5}
-{"s":"topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities","t":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","type":"relates","w":0.5}
 {"s":"topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities","t":"video/DRUr4byy8xQ","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities","t":"video/UQmuMPRlHek","type":"demonstrates","w":1}
 {"s":"topic/business-central/copilot-and-agent-capabilities/map-e-documents-preview","t":"topic/business-central/copilot-and-agent-capabilities/marketing-text-suggestions","type":"relates","w":0.5}
@@ -70289,6 +70351,7 @@
 {"s":"topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-apps","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps","type":"relates","w":0.5}
 {"s":"topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-automate","t":"topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi","type":"relates","w":0.5}
 {"s":"topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-automate","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","type":"relates","w":0.5}
+{"s":"topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-automate","t":"video/EVntnDFE1R4","type":"demonstrates","w":1}
 {"s":"topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi","t":"topic/dev-itpro/development/data-analytics-and-reporting","type":"relates","w":0.5}
 {"s":"topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi","t":"topic/dev-itpro/development/extensibility/embedding-power-bi","type":"relates","w":0.5}
 {"s":"topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi","type":"relates","w":0.5}
@@ -70531,7 +70594,6 @@
 {"s":"topic/dev-itpro/administration/entitlements-and-permissions","t":"topic/dev-itpro/administration/monitor-and-analyze-telemetry","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/administration/entitlements-and-permissions","t":"topic/dev-itpro/administration/onboard-your-customers","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/administration/entitlements-and-permissions","t":"topic/dev-itpro/development/programming-in-the-al-language/handling-security/permission-sets-and-entitlements-overvie","type":"relates","w":0.5}
-{"s":"topic/dev-itpro/administration/entitlements-and-permissions","t":"video/KbXzMR4n4h8","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/administration/manage-technical-support","t":"topic/dev-itpro/administration/migrate-to-business-central-online","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/administration/manage-technical-support","t":"topic/dev-itpro/administration/monitor-and-analyze-telemetry","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/administration/manage-technical-support","t":"topic/dev-itpro/administration/onboard-your-customers","type":"relates","w":0.5}
@@ -70551,7 +70613,6 @@
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/replicate-data","t":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/upgrade-data","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/replicate-data","t":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp/replicate-data","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/replicate-data","t":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl/replicate-data","type":"relates","w":0.5}
-{"s":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/replicate-data","t":"video/01GoAUnpBnw","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/set-up-cloud-migration","t":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/upgrade-data","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/set-up-cloud-migration","t":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp/set-up-cloud-migration","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/set-up-cloud-migration","t":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl/set-up-cloud-migration","type":"relates","w":0.5}
@@ -70566,7 +70627,6 @@
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise","t":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-nav","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise","t":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise","t":"video/f_i4_BRz-oA","type":"demonstrates","w":1}
-{"s":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise","t":"video/Gwgpj1U1wxI","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp/overview","t":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp/prepare","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp/overview","t":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp/replicate-data","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp/overview","t":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp/set-up-cloud-migration","type":"relates","w":0.5}
@@ -70606,7 +70666,9 @@
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online","t":"topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl","type":"relates","w":2}
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online","t":"topic/dev-itpro/administration/monitor-and-analyze-telemetry","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online","t":"topic/dev-itpro/administration/onboard-your-customers","type":"relates","w":0.5}
+{"s":"topic/dev-itpro/administration/migrate-to-business-central-online","t":"video/01GoAUnpBnw","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online","t":"video/6bX7Ab4KYMA","type":"demonstrates","w":1}
+{"s":"topic/dev-itpro/administration/migrate-to-business-central-online","t":"video/Gwgpj1U1wxI","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online","t":"video/lCXrKdxneKo","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/administration/migrate-to-business-central-online","t":"video/O921cRqXdiw","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/administration/monitor-and-analyze-telemetry/telemetry-by-area","t":"topic/dev-itpro/business-central-on-premises/administration/analyzing-database-performance","type":"relates","w":0.5}
@@ -70951,6 +71013,7 @@
 {"s":"topic/dev-itpro/development/extensibility/extending-the-base-application","t":"topic/dev-itpro/development/extensibility/extending-the-base-application/examples","type":"relates","w":2}
 {"s":"topic/dev-itpro/development/extensibility/extending-the-base-application","t":"topic/dev-itpro/development/extensibility/extensibility-requests","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/extensibility/extending-the-base-application","t":"topic/dev-itpro/development/extensibility/using-events","type":"relates","w":0.5}
+{"s":"topic/dev-itpro/development/extensibility/extending-the-base-application","t":"video/h5PQI4I4b7c","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/development/extensibility/extensibility-requests","t":"topic/dev-itpro/development/extensibility/using-events","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/extensibility/extensibility-requests","t":"topic/dev-itpro/development/programming-in-the-al-language/events","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/extensibility/using-events","t":"topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-triggers-and-events","type":"relates","w":0.5}
@@ -71343,7 +71406,6 @@
 {"s":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code","t":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code","t":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code","t":"topic/dev-itpro/development/the-al-programming-language/code-analysis","type":"relates","w":0.5}
-{"s":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code","t":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance","t":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/restrictions","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance","t":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance","t":"topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing","type":"relates","w":0.5}
@@ -71467,6 +71529,7 @@
 {"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","t":"video/Vq9Nk6_uxmQ","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","t":"video/WFAZLsUTk20","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","t":"video/WjF_sESaIPo","type":"demonstrates","w":1}
+{"s":"topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview","t":"video/xqwJTCPD9tA","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration-with-ai/develop-ai-with-machine-learning-apis","t":"topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration-with-ai/develop-ai-with-machine-learning-apis","t":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central/build-copilot-user-experience","t":"topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central/test-copilot-capability-in-al","type":"relates","w":0.5}
@@ -71486,6 +71549,7 @@
 {"s":"topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c","t":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c","t":"video/7SSNcUMFtCw","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c","t":"video/lNASlydCidI","type":"demonstrates","w":1}
+{"s":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/integrating-with-microsoft-copilot-studi","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","t":"topic/dev-itpro/integration/web-services/apis","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","t":"video/0WAOtNaKjws","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol","t":"video/AMVAiPTfSrU","type":"demonstrates","w":1}
@@ -71511,6 +71575,7 @@
 {"s":"topic/dev-itpro/integration/connect-apps","t":"topic/dev-itpro/integration/integrating-with-external-systems-using","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/connect-apps","t":"topic/dev-itpro/integration/integrating-with-infrastructure-services","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/connect-apps","t":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","type":"relates","w":0.5}
+{"s":"topic/dev-itpro/integration/connect-apps","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/connect-apps","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/connect-apps","t":"topic/dev-itpro/integration/integrating-with-shopify","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/connect-apps","t":"topic/dev-itpro/integration/web-services","type":"relates","w":0.5}
@@ -71531,40 +71596,46 @@
 {"s":"topic/dev-itpro/integration/integrating-business-central-with-office","t":"topic/dev-itpro/integration/integrating-with-external-systems-using","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-business-central-with-office","t":"topic/dev-itpro/integration/integrating-with-infrastructure-services","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-business-central-with-office","t":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","type":"relates","w":0.5}
+{"s":"topic/dev-itpro/integration/integrating-business-central-with-office","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-business-central-with-office","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-business-central-with-office","t":"topic/dev-itpro/integration/integrating-with-shopify","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-business-central-with-office","t":"topic/dev-itpro/integration/web-services","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-azure-services","t":"topic/dev-itpro/integration/integrating-with-external-systems-using","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-azure-services","t":"topic/dev-itpro/integration/integrating-with-infrastructure-services","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-azure-services","t":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","type":"relates","w":0.5}
+{"s":"topic/dev-itpro/integration/integrating-with-azure-services","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-azure-services","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-azure-services","t":"topic/dev-itpro/integration/integrating-with-shopify","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-azure-services","t":"topic/dev-itpro/integration/web-services","type":"relates","w":0.5}
-{"s":"topic/dev-itpro/integration/integrating-with-azure-services","t":"video/2vUCR16b85o","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-external-systems-using","t":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","type":"relates","w":0.5}
+{"s":"topic/dev-itpro/integration/integrating-with-external-systems-using","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-external-systems-using","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-external-systems-using","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-external-systems-using","t":"topic/dev-itpro/integration/integrating-with-shopify","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-external-systems-using","t":"topic/dev-itpro/integration/web-services","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-external-systems-using","t":"video/S5Xw-b8YF-c","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-infrastructure-services","t":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","type":"relates","w":0.5}
+{"s":"topic/dev-itpro/integration/integrating-with-infrastructure-services","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-infrastructure-services","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-infrastructure-services","t":"topic/dev-itpro/integration/web-services","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-infrastructure-services","t":"topic/dev-itpro/security-privacy-and-compliance/security/application-security","type":"relates","w":0.5}
+{"s":"topic/dev-itpro/integration/integrating-with-infrastructure-services","t":"video/2vUCR16b85o","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization","t":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization/dataverse-api","type":"relates","w":2}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization","t":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-virtualization","type":"relates","w":0.5}
-{"s":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization","t":"video/-q8Gm7u7R2A","type":"demonstrates","w":1}
+{"s":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization","t":"video/fIOnGEARkKs","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","t":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization","type":"relates","w":2}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","t":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-virtualization","type":"relates","w":2}
+{"s":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","t":"topic/dev-itpro/integration/web-services","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","t":"video/-q8Gm7u7R2A","type":"demonstrates","w":1}
-{"s":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","t":"video/auoHUd24Gfw","type":"demonstrates","w":1}
+{"s":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","t":"video/EVntnDFE1R4","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","t":"video/fIOnGEARkKs","type":"demonstrates","w":1}
-{"s":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","t":"video/ItuCEHpaI1E","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-dataverse","t":"video/YTA8c2XyTX4","type":"demonstrates","w":1}
+{"s":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/integrating-with-microsoft-copilot-studi","type":"relates","w":0.5}
+{"s":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi/administrator","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/administrator","type":"relates","w":2}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-fabric","t":"topic/dev-itpro/integration/integrating-with-microsoft-fabric/integrating-with-microsoft-copilot-studi","type":"relates","w":2}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","type":"relates","w":0.5}
@@ -71572,10 +71643,7 @@
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps","t":"video/auoHUd24Gfw","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","t":"topic/dev-itpro/integration/web-services/apis","type":"relates","w":0.5}
-{"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","t":"video/EVntnDFE1R4","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","t":"video/T63y0F_38SI","type":"demonstrates","w":1}
-{"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","t":"video/V_ZyGeF5JXE","type":"demonstrates","w":1}
-{"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","t":"video/YTA8c2XyTX4","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi/administrator","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi/report-creator","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi/administrator","type":"relates","w":2}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi/report-creator","type":"relates","w":2}
@@ -71585,18 +71653,22 @@
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-apps","type":"relates","w":2}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat","type":"relates","w":2}
 {"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor","t":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi","type":"relates","w":2}
+{"s":"topic/dev-itpro/integration/integrating-with-microsoft-power-platfor","t":"video/gAzmWJg9Z5g","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/3tmaVpPTQLw","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/5Qfc7r618OM","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/6vHJQggN4F4","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/AR2FiD64wbw","type":"demonstrates","w":1}
-{"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/B-pxLlb-UN0","type":"demonstrates","w":1}
-{"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/BwBR8JwwQa4","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/cuez5kIanKo","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/e5Dr3jzCLM8","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/gy_6QnFpiEw","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/h5PQI4I4b7c","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/inuqqx12yJ8","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/lClKXB8xXIE","type":"demonstrates","w":1}
+{"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/NMO822Jf_4E","type":"demonstrates","w":1}
+{"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/p-pwG6f5srY","type":"demonstrates","w":1}
+{"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/StIVhsnOHWY","type":"demonstrates","w":1}
+{"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/VjYMhjjc3uw","type":"demonstrates","w":1}
+{"s":"topic/dev-itpro/integration/integrating-with-shopify","t":"video/YSDfDjrMUb0","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/web-services/apis/analytics-api-reference","t":"topic/dev-itpro/integration/web-services/apis/finance-reports-api","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/web-services/apis","t":"topic/dev-itpro/integration/web-services/apis/analytics-api-reference","type":"relates","w":2}
 {"s":"topic/dev-itpro/integration/web-services/apis","t":"topic/dev-itpro/integration/web-services/apis/finance-reports-api","type":"relates","w":2}
@@ -71609,11 +71681,9 @@
 {"s":"topic/dev-itpro/integration/web-services/apis","t":"video/2N2NhNH7dsk","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/web-services/apis","t":"video/4HE3BBCcV84","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/web-services/apis","t":"video/S5Xw-b8YF-c","type":"demonstrates","w":1}
-{"s":"topic/dev-itpro/integration/web-services/apis","t":"video/VpNQ-CYNrkM","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/web-services/odata","t":"topic/dev-itpro/integration/web-services/publishing-pages-and-codeunits-as-odata","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/web-services/odata","t":"topic/dev-itpro/integration/web-services/soap","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/web-services/odata","t":"topic/dev-itpro/integration/web-services/web-services-security","type":"relates","w":0.5}
-{"s":"topic/dev-itpro/integration/web-services/odata","t":"video/VpNQ-CYNrkM","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/integration/web-services/publishing-pages-and-codeunits-as-odata","t":"topic/dev-itpro/integration/web-services/soap","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/web-services/publishing-pages-and-codeunits-as-odata","t":"topic/dev-itpro/integration/web-services/web-services-security","type":"relates","w":0.5}
 {"s":"topic/dev-itpro/integration/web-services/soap","t":"topic/dev-itpro/integration/web-services/web-services-security","type":"relates","w":0.5}
@@ -71636,7 +71706,6 @@
 {"s":"topic/dev-itpro/integration","t":"topic/dev-itpro/integration/integrating-with-shopify","type":"relates","w":2}
 {"s":"topic/dev-itpro/integration","t":"topic/dev-itpro/integration/web-services","type":"relates","w":2}
 {"s":"topic/dev-itpro/integration","t":"video/gAzmWJg9Z5g","type":"demonstrates","w":1}
-{"s":"topic/dev-itpro/integration","t":"video/xqwJTCPD9tA","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/performance","t":"video/D7GxnNiGQ14","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/performance","t":"video/G0avZpiDFtI","type":"demonstrates","w":1}
 {"s":"topic/dev-itpro/performance","t":"video/LW2JNV01sJo","type":"demonstrates","w":1}
@@ -71886,9 +71955,7 @@
 {"s":"video/6WVsS3j-HTw","t":"video/Dkd8_cGzIvc","type":"relates","w":0.5}
 {"s":"video/6WVsS3j-HTw","t":"video/O2RPBlr_GiE","type":"relates","w":0.5}
 {"s":"video/6WVsS3j-HTw","t":"video/UTxX4XPLcgQ","type":"relates","w":0.5}
-{"s":"video/6Zb7VAvLVm4","t":"video/AMVAiPTfSrU","type":"relates","w":0.5}
-{"s":"video/6Zb7VAvLVm4","t":"video/GK6hM-nBYZk","type":"relates","w":0.5}
-{"s":"video/6Zb7VAvLVm4","t":"video/uMKLsKfKPc0","type":"relates","w":0.5}
+{"s":"video/6Zb7VAvLVm4","t":"video/EVntnDFE1R4","type":"relates","w":0.5}
 {"s":"video/6zj34hjbpGU","t":"video/Fk6kWTe3f2Y","type":"relates","w":0.5}
 {"s":"video/6zj34hjbpGU","t":"video/H7R_m8Ue38g","type":"relates","w":0.5}
 {"s":"video/6zj34hjbpGU","t":"video/KmuTVkodRXM","type":"relates","w":0.5}
@@ -71950,10 +72017,7 @@
 {"s":"video/Afv-r-eDt90","t":"video/MKuOgMWXJ_8","type":"relates","w":0.5}
 {"s":"video/Afv-r-eDt90","t":"video/N7RE_UVeH1c","type":"relates","w":0.5}
 {"s":"video/AMVAiPTfSrU","t":"video/EpDIrJE0HzA","type":"relates","w":0.5}
-{"s":"video/AMVAiPTfSrU","t":"video/GK6hM-nBYZk","type":"relates","w":0.5}
 {"s":"video/AMVAiPTfSrU","t":"video/rm-FstU_I80","type":"relates","w":0.5}
-{"s":"video/AMVAiPTfSrU","t":"video/uMKLsKfKPc0","type":"relates","w":0.5}
-{"s":"video/AMVAiPTfSrU","t":"video/V_ZyGeF5JXE","type":"relates","w":0.5}
 {"s":"video/aNRzlbxVPWE","t":"video/nbGw2g3KMXI","type":"relates","w":0.5}
 {"s":"video/aNRzlbxVPWE","t":"video/nPF84Ufkn4k","type":"relates","w":0.5}
 {"s":"video/AR2FiD64wbw","t":"video/BwBR8JwwQa4","type":"relates","w":0.5}
@@ -72038,6 +72102,7 @@
 {"s":"video/cVfZoDwKYpI","t":"video/qZALauRY_So","type":"relates","w":0.5}
 {"s":"video/cVfZoDwKYpI","t":"video/rSGCNMIBcpc","type":"relates","w":0.5}
 {"s":"video/cVfZoDwKYpI","t":"video/vyQnSxRGJDA","type":"relates","w":0.5}
+{"s":"video/cwCZUHgDb9Q","t":"video/tpAh4q3h8T8","type":"relates","w":0.5}
 {"s":"video/cWVhWBMbXb4","t":"video/pjML7lXSsd0","type":"relates","w":0.5}
 {"s":"video/cWVhWBMbXb4","t":"video/qZALauRY_So","type":"relates","w":0.5}
 {"s":"video/cWVhWBMbXb4","t":"video/rSGCNMIBcpc","type":"relates","w":0.5}
@@ -72098,6 +72163,7 @@
 {"s":"video/eUkx_VCcyoU","t":"video/hNom9ZZuca0","type":"relates","w":0.5}
 {"s":"video/eUkx_VCcyoU","t":"video/xr8C3c6WhOI","type":"relates","w":0.5}
 {"s":"video/EVntnDFE1R4","t":"video/T63y0F_38SI","type":"relates","w":0.5}
+{"s":"video/EVntnDFE1R4","t":"video/V_ZyGeF5JXE","type":"relates","w":0.5}
 {"s":"video/EwN3xb2q7vE","t":"video/jWqjDTbqjeE","type":"relates","w":0.5}
 {"s":"video/EwN3xb2q7vE","t":"video/MNwTt06ZxwY","type":"relates","w":0.5}
 {"s":"video/EwN3xb2q7vE","t":"video/V4zCPAsYi_Y","type":"relates","w":0.5}
@@ -72189,8 +72255,6 @@
 {"s":"video/Gjs00Wy0HlI","t":"video/vDGrVHQHLA0","type":"relates","w":0.5}
 {"s":"video/Gjs00Wy0HlI","t":"video/weDf53bJOL4","type":"relates","w":0.5}
 {"s":"video/Gjs00Wy0HlI","t":"video/WU2fLjIQSuU","type":"relates","w":0.5}
-{"s":"video/GK6hM-nBYZk","t":"video/uMKLsKfKPc0","type":"relates","w":0.5}
-{"s":"video/GK6hM-nBYZk","t":"video/V_ZyGeF5JXE","type":"relates","w":0.5}
 {"s":"video/GM0DNxu39LM","t":"video/gVjrKPHlrgM","type":"relates","w":0.5}
 {"s":"video/GM0DNxu39LM","t":"video/h6a8BVzvuZ4","type":"relates","w":0.5}
 {"s":"video/GM0DNxu39LM","t":"video/hba7KVWrIwY","type":"relates","w":0.5}
@@ -72240,6 +72304,7 @@
 {"s":"video/hcu7T3qLdDA","t":"video/mXvKs6X1DNk","type":"relates","w":0.5}
 {"s":"video/hcu7T3qLdDA","t":"video/q0TxpWfm9rc","type":"relates","w":0.5}
 {"s":"video/hcu7T3qLdDA","t":"video/u1oO9MEg9kc","type":"relates","w":0.5}
+{"s":"video/HI7VcPzR2OE","t":"video/cwCZUHgDb9Q","type":"relates","w":0.5}
 {"s":"video/HI7VcPzR2OE","t":"video/d4mYltz4Zwg","type":"relates","w":0.5}
 {"s":"video/HI7VcPzR2OE","t":"video/hSJW3LiOBxg","type":"relates","w":0.5}
 {"s":"video/HI7VcPzR2OE","t":"video/lcpk-gPfGQU","type":"relates","w":0.5}
@@ -72492,6 +72557,7 @@
 {"s":"video/r8HWIk5E0c0","t":"video/zQhtuFbxJm4","type":"relates","w":0.5}
 {"s":"video/rAaUiKByyEE","t":"video/zXoSeH1cmaE","type":"relates","w":0.5}
 {"s":"video/RaiQPiEdvbg","t":"video/bnqxycPzbeI","type":"relates","w":0.5}
+{"s":"video/RaiQPiEdvbg","t":"video/cwCZUHgDb9Q","type":"relates","w":0.5}
 {"s":"video/RaiQPiEdvbg","t":"video/qPInVj03wkY","type":"relates","w":0.5}
 {"s":"video/RdYLc7ebNJ8","t":"video/adsSh_dm9BY","type":"relates","w":0.5}
 {"s":"video/RdYLc7ebNJ8","t":"video/b54ehH4AlFA","type":"relates","w":0.5}
@@ -72558,7 +72624,7 @@
 {"s":"video/UKVp28M5TtU","t":"video/WZUQ9X26MLo","type":"relates","w":0.5}
 {"s":"video/UKVp28M5TtU","t":"video/XYr0xwgpomA","type":"relates","w":0.5}
 {"s":"video/uxQRfChp96c","t":"video/yLKISB83KW8","type":"relates","w":0.5}
-{"s":"video/V_ZyGeF5JXE","t":"video/uMKLsKfKPc0","type":"relates","w":0.5}
+{"s":"video/V_ZyGeF5JXE","t":"video/YTA8c2XyTX4","type":"relates","w":0.5}
 {"s":"video/V2mfuDh8Kfk","t":"video/fIOnGEARkKs","type":"relates","w":0.5}
 {"s":"video/V2mfuDh8Kfk","t":"video/kuKwjRyNcoE","type":"relates","w":0.5}
 {"s":"video/V2mfuDh8Kfk","t":"video/lcu53ikOk7s","type":"relates","w":0.5}
@@ -72586,6 +72652,7 @@
 {"s":"video/VpNQ-CYNrkM","t":"video/sk5CaXnvvng","type":"relates","w":0.5}
 {"s":"video/Vq9Nk6_uxmQ","t":"video/aNRzlbxVPWE","type":"relates","w":0.5}
 {"s":"video/Vq9Nk6_uxmQ","t":"video/crDXSPsoIQ8","type":"relates","w":0.5}
+{"s":"video/Vq9Nk6_uxmQ","t":"video/cwCZUHgDb9Q","type":"relates","w":0.5}
 {"s":"video/Vq9Nk6_uxmQ","t":"video/moPzf04Mwlc","type":"relates","w":0.5}
 {"s":"video/Vq9Nk6_uxmQ","t":"video/nbGw2g3KMXI","type":"relates","w":0.5}
 {"s":"video/Vq9Nk6_uxmQ","t":"video/nPF84Ufkn4k","type":"relates","w":0.5}

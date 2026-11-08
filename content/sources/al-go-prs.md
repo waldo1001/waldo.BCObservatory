@@ -2,7 +2,7 @@
 id: source/al-go-prs
 type: source
 title: microsoft/AL-Go pull requests
-summary: "microsoft/AL-Go pull requests: 37 code changes in the knowledge base, 2026-07-10 to 2026-11-06, mostly about platform, development, copilot."
+summary: "microsoft/AL-Go pull requests: 40 code changes in the knowledge base, 2026-07-10 to 2026-11-06, mostly about platform, development, copilot."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-07T00:15:21.625Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7f7c64125bdfb2270cf7648c9b85f425eeea1a48fbee5245223f2997462b95ae
+  input_hash: ae4c1f33d9fb28bdd48b041a4c1435b6cbfbefe27875e58cd212486c35703c85
 evidence:
   - kind: code
     url: https://github.com/microsoft/AL-Go/pulls?q=is%3Apr+is%3Amerged
@@ -70,6 +70,9 @@ links:
     - change/al-go/2407
     - change/al-go/2293
     - change/al-go/2343
+    - change/al-go/2427
+    - change/al-go/2441
+    - change/al-go/2434
     - change/al-go/2440
     - change/al-go/2433
 source_id: al-go-prs
@@ -78,24 +81,24 @@ url: https://github.com/microsoft/AL-Go/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 37
+item_count: 40
 footprint:
   systems:
     - id: platform
-      weight: 55
+      weight: 60
     - id: development
-      weight: 33
+      weight: 35
     - id: copilot
       weight: 4
     - id: integration
       weight: 2
   topics:
     - id: main
-      weight: 37
+      weight: 40
     - id: fix
-      weight: 24
+      weight: 26
     - id: feature
-      weight: 11
+      weight: 12
     - id: other
       weight: 1
     - id: refactor
@@ -108,7 +111,7 @@ last_item: "2026-11-06"
 
 # microsoft/AL-Go pull requests
 
-> microsoft/AL-Go pull requests: 37 code changes in the knowledge base, 2026-07-10 to 2026-11-06, mostly about platform, development, copilot.
+> microsoft/AL-Go pull requests: 40 code changes in the knowledge base, 2026-07-10 to 2026-11-06, mostly about platform, development, copilot.
 
 [https://github.com/microsoft/AL-Go/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/AL-Go/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -116,9 +119,9 @@ last_item: "2026-11-06"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| platform (55) | main (37) |  |
-| development (33) | fix (24) |  |
-| copilot (4) | feature (11) |  |
+| platform (60) | main (40) |  |
+| development (35) | fix (26) |  |
+| copilot (4) | feature (12) |  |
 | integration (2) | other (1) |  |
 |  | refactor (1) |  |
 
@@ -127,12 +130,15 @@ last_item: "2026-11-06"
 Items per quarter, oldest first:
 
 - 2026-Q3: ************************** 26
-- 2026-Q4: *********** 11
+- 2026-Q4: ************** 14
 
 ## Most recent
 
 - [#2433 Fix workspace compilation with versioning strategy 3](../changes/al-go/2433.md) (2026-11-06)
 - [#2440 Sort artifacts by creation time when determining latest artifacts for release](../changes/al-go/2440.md) (2026-11-06)
+- [#2434 Retry artifact and CI/CD lookup requests](../changes/al-go/2434.md) (2026-11-06)
+- [#2441 Skip test projects when determining release artifacts](../changes/al-go/2441.md) (2026-11-06)
+- [#2427 Add opt-in setting to skip draft PR builds](../changes/al-go/2427.md) (2026-11-06)
 - [#2343 RunTests action](../changes/al-go/2343.md) (2026-10-27)
 - [#2293 Add support for protectedSettings to override lower priority settings](../changes/al-go/2293.md) (2026-10-23)
 - [#2407 Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency](../changes/al-go/2407.md) (2026-10-22)
@@ -148,8 +154,5 @@ Items per quarter, oldest first:
 - [#2378 Retry CI/CD baseline discovery when no eligible run is found](../changes/al-go/2378.md) (2026-09-29)
 - [#2380 Fix device login initialization with a shared authentication action](../changes/al-go/2380.md) (2026-09-29)
 - [#2376 fix: modified files with umlauts](../changes/al-go/2376.md) (2026-09-21)
-- [#2355 Move CreateRelease update check to separate job](../changes/al-go/2355.md) (2026-09-18)
-- [#2328 Use cacheImageName for local development environments](../changes/al-go/2328.md) (2026-09-18)
-- [#2340 Add opt-in unpublishOldVersions setting to unpublish stale PTE app versions after deploy](../changes/al-go/2340.md) (2026-09-17)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

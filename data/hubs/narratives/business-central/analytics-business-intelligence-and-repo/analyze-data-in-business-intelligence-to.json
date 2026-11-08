@@ -1,24 +1,24 @@
 {
   "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to",
-  "input_hash": "8c96ea71c9f85436ea4f3982b281e687cafae7f1b064927a0f8967e0b5ce947c",
-  "summary": "Analyzing Business Central data in external BI tools: exporting data to Microsoft Fabric, Power BI, data warehouses and data lakes, using the v2.0 API, and AL performance guidance. It answers questions about getting data out of Business Central and mirroring it to OneLake.",
-  "overview": "This section covers how to move Business Central data into external tools for analysis. The entry page describes the main options: data mirroring to Microsoft Fabric, Power BI integration, data warehousing, data lake extraction, and the Business Central API.\n\nThe API (v2.0) page is the reference for building connect apps with REST APIs, including API pages, operations, code examples and the transition from v1.0. The Microsoft Fabric subtopic goes deeper on mirroring Business Central online data to OneLake: setup, choosing companies and tables, managing synchronization, and monitoring and troubleshooting runs.\n\nThe Performance Articles for AL Developers page is guidance for tuning applications, including pages, web services, reports, AL patterns and data access. Start with the entry page to pick an approach, then go to the Fabric pages for mirroring or the API reference for custom integrations.",
+  "input_hash": "f9e98bc3fea214544ac59aee96c432c238fa0b27ed8343ac8e7fdbfbb78f5fac",
+  "summary": "Analyzing Business Central data in external BI tools: exporting data to Microsoft Fabric, Power BI, data warehouses and data lakes, using the Business Central API v2.0, and performance guidance for AL developers. It answers questions about choosing an export path, mirroring to Fabric, API use, and tuning.",
+  "overview": "This section covers how to get Business Central data into external business intelligence tools. The entry page describes the main options: data mirroring to Microsoft Fabric, Power BI integration, data warehousing, data lake extraction, and the Business Central API.\n\nThe Microsoft Fabric subtopic (5 pages) explains mirroring of Business Central online data into OneLake. It covers what mirroring is, how to set it up, how to manage which companies and tables sync, how to monitor and troubleshoot runs, and FAQ limits.\n\nTwo reference pages support custom approaches. The API v2.0 page describes building connect apps with REST APIs, API pages and operations, and the transition from v1.0. The performance articles for AL developers cover page design, web services, reports, AL coding patterns, data access and testing. Start with the entry page to pick a route, then go to the Fabric subtopic or the API reference.",
   "key_points": [
-    "The entry page lists the export options: Microsoft Fabric mirroring, Power BI, data warehousing, data lake extraction, and the Business Central API.",
-    "Fabric mirroring replicates Business Central online data to OneLake for analytics.",
-    "The Fabric pages cover setup, choosing companies and tables, managing synchronization, and monitoring and troubleshooting.",
-    "API v2.0 supports connect apps using REST APIs to integrate with third-party services.",
-    "The API page covers API pages, operations, code examples and the transition from v1.0.",
-    "The performance page covers page background tasks, Edit-in-Excel performance, query object optimization, partial records, table extension impact analysis and event subscription performance.",
-    "The performance guidance references 2021 release wave 2, 2023 release wave 1 and 2023 release wave 2."
+    "The entry page lists the export routes: Fabric mirroring, Power BI, data warehousing, data lake extraction and the Business Central API.",
+    "Fabric mirroring replicates Business Central online data into OneLake for analytics.",
+    "The Fabric pages cover setup, choosing which companies and tables sync, monitoring and troubleshooting runs, and FAQ limits.",
+    "API v2.0 uses REST APIs to build connect apps that integrate with third-party services.",
+    "The API page includes guidance on moving from API v1.0 to v2.0, with code examples.",
+    "Performance articles for AL developers cover page background tasks, Edit-in-Excel, query objects, partial records, table extension impact and event subscriptions.",
+    "The performance articles reference 2021 release wave 2, 2023 release wave 1 and 2023 release wave 2."
   ],
   "members_used": 3,
   "subtopics_used": 1,
   "prompt_version": 1,
-  "at": "2026-11-05T00:55:04.475Z",
+  "at": "2026-11-08T01:01:08.238Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011817
+    "cost_usd": 0.015194
   }
 }

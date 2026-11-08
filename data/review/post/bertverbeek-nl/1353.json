@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/bertverbeek-nl/1353",
+  "input_hash": "999efa55bce855e5d611e31f393297da3732a99678c71c11509c0d97d3a787ed",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-08T00:58:10.026Z",
+  "issues": [
+    "Summary is accurate and supported by the post.",
+    "Key points left out two concrete steps the post gives: granting admin consent, and personalizing the page to add and enable the custom app registration field. Rewrote them to include both.",
+    "The post does not mention reporting, so that system was dropped.",
+    "Quote 1 is garbled but appears word for word in the post and gives the version and preview status, so it stays."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034356,
+    "posts_in_call": 1
+  }
+}

@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:47:35.750Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -85,7 +85,7 @@ preview:
   image_h: null
   site_name: Freddys blog
   favicon: https://freddysblog.com/assets/images/site/favicon.png
-  probed_at: "2026-10-07T11:50:13.717Z"
+  probed_at: "2026-11-08T00:52:49.199Z"
 ---
 
 # New feature in Fkh: A KeyVault and secrets handling

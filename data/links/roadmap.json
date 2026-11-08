@@ -32359,36 +32359,58 @@
     "video/2ujWYYecA2c": {
       "kind": "video",
       "key": "video/2ujWYYecA2c",
-      "hash": "176f7e33a9ed3d3c763d58726a5785608e88d35cc374d09dc7324d498dd64afe",
+      "hash": "ff94d73ff16a847fc1b2bfb45522866009a53de103ee74e2aca5523035e0c5ed",
       "video_id": "2ujWYYecA2c",
       "title": "Getting Started With Agents: Set Up Sales Order Agent - New 'Try it out' experience (2026)",
-      "at": "2026-11-06T00:55:38.546Z",
-      "matches": []
+      "at": "2026-11-08T00:53:44.725Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Sales Order Agent",
+          "t": 0,
+          "roadmap_id": "578068",
+          "quote": "An agent in Business Central that monitors sales orders and sales inquiries"
+        },
+        {
+          "feature": 1,
+          "name": "Try It Out Experience",
+          "t": 26,
+          "roadmap_id": "578065",
+          "quote": "A new feature that allows users to create test tasks and experiment with the sales order agent"
+        },
+        {
+          "feature": 5,
+          "name": "Inbox Connection Configuration",
+          "t": 170,
+          "roadmap_id": "578065",
+          "quote": "Users can connect the agent to personal or shared Outlook inboxes, with options"
+        }
+      ]
     },
     "video/2uXVammbab0": {
       "kind": "video",
       "key": "video/2uXVammbab0",
-      "hash": "c5c9905a70b84c938088e90749707aa9361aba5ed4dce2ae0aa5656466a0a077",
+      "hash": "6745ec6f91facb659a403bd10584be2ac096e24a2b9afb545017a15ade9f7fc1",
       "video_id": "2uXVammbab0",
       "title": "What's New: Chat with Copilot (2025 release wave 1)",
-      "at": "2026-11-06T00:55:38.260Z",
+      "at": "2026-11-08T00:53:47.486Z",
       "matches": [
         {
           "feature": 0,
           "name": "Chat with Copilot",
           "t": 4,
           "roadmap_id": "573362",
-          "quote": "Natural language chat interface to interact with business data using filters"
+          "quote": "Natural language chat interface to interact with business data"
         }
       ]
     },
     "video/2vUCR16b85o": {
       "kind": "video",
       "key": "video/2vUCR16b85o",
-      "hash": "5a5106ac040206415cbf9a766cda1239977386f87bbf8fd34bc5095b7d6b85b1",
+      "hash": "6f1a2600f401701578b7f2658ad7bfd7e8f0badef05892539e6941d85cd57964",
       "video_id": "2vUCR16b85o",
       "title": "Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)",
-      "at": "2026-11-06T00:55:42.045Z",
+      "at": "2026-11-08T00:53:46.356Z",
       "matches": []
     },
     "video/2Zz55J8rt8I": {
@@ -32403,26 +32425,26 @@
     "video/3jr6gUuGem4": {
       "kind": "video",
       "key": "video/3jr6gUuGem4",
-      "hash": "91cce4466b75e259b0e95a69e0d884fd1d876dc6db671deb1d46837fb2b21194",
+      "hash": "a1ef13223c2892c765cc5b7d50c0c6e2209f3ddbdf185bd14ce289fa44509518",
       "video_id": "3jr6gUuGem4",
       "title": "Modern Action Bar",
-      "at": "2026-11-06T00:55:41.635Z",
+      "at": "2026-11-08T00:53:46.978Z",
       "matches": []
     },
     "video/3tmaVpPTQLw": {
       "kind": "video",
       "key": "video/3tmaVpPTQLw",
-      "hash": "f1ab2cd281e96d2bc448192889ed5897970024506888c4a0dde9e2e5570b6ad5",
+      "hash": "61cd8e61943d79abf051fbcf004f342fd02919d9f89191a3461e121c1cab5aad",
       "video_id": "3tmaVpPTQLw",
       "title": "What's New: Shopify Connector B2B Functionality (2024 release wave 1)",
-      "at": "2026-11-06T00:55:48.803Z",
+      "at": "2026-11-08T00:53:50.283Z",
       "matches": [
         {
           "feature": 7,
           "name": "B2B Business Central Integration",
           "t": 442,
           "roadmap_id": "573342",
-          "quote": "Enhanced integration between Shopify B2B and Microsoft Business Central enabling seamless synchronization"
+          "quote": "B2B Business Central Integration. Enhanced integration between Shopify B2B and Microsoft Business Central"
         },
         {
           "feature": 9,
@@ -32457,7 +32479,7 @@
           "name": "Get Catalogs Action",
           "t": 968,
           "roadmap_id": "573342",
-          "quote": "Get Catalogs Action. A new action in Business Central to retrieve catalogs from Shopify"
+          "quote": "Get Catalogs Action. A new action in Business Central to retrieve catalogs"
         },
         {
           "feature": 16,
@@ -32499,47 +32521,33 @@
           "name": "Automatic Credit Memo Creation for Refunds",
           "t": 1766,
           "roadmap_id": "573343",
-          "quote": "Automatic Credit Memo Creation for Refunds. System can automatically create credit memos"
+          "quote": "Automatic Credit Memo Creation for Refunds. System can automatically create credit"
         },
         {
-          "feature": 8,
-          "name": "D2C Customer Synchronization Control",
-          "t": 518,
-          "roadmap_id": "576836",
-          "quote": "D2C Customer Synchronization Control. Improved customer synchronization allowing merchants"
-        },
-        {
-          "feature": 18,
-          "name": "B2B vs D2C Order Differentiation",
-          "t": 1098,
-          "roadmap_id": "576836",
-          "quote": "B2B vs D2C Order Differentiation. Orders placed by B2B users are assigned to the company"
-        },
-        {
-          "feature": 17,
-          "name": "B2B Checkout with Company Assignment",
-          "t": 1039,
-          "roadmap_id": "576836",
-          "quote": "B2B Checkout with Company Assignment. B2B checkout experience shows company name"
+          "feature": 27,
+          "name": "Edit and Refund Processing for Paid Orders",
+          "t": 1745,
+          "roadmap_id": "573343",
+          "quote": "Edit and Refund Processing for Paid Orders. For orders already paid in Shopify"
         }
       ]
     },
     "video/3UcLmXqyl44": {
       "kind": "video",
       "key": "video/3UcLmXqyl44",
-      "hash": "19c9d7e3b98ce87233883fb789e79e6164769aedaf670970fd3271e75dddda3e",
+      "hash": "ec0a677464a1c249151fb1e224e9d7142b6601cc4a7c778eebf0d94e19a0474d",
       "video_id": "3UcLmXqyl44",
       "title": "What's New: Exporting and Importing Agent in Business Central",
-      "at": "2026-11-06T00:55:44.383Z",
+      "at": "2026-11-08T00:53:45.656Z",
       "matches": []
     },
     "video/3uVf6BEXt1w": {
       "kind": "video",
       "key": "video/3uVf6BEXt1w",
-      "hash": "7648cc88cc04866c8e9d476b22fe5308e78661e1d39fbd390de88ea3389eeaa2",
+      "hash": "4a97db429be79ba00a39ae244444fc74bd8e78b3edbedef0b01ead1cbabaf265",
       "video_id": "3uVf6BEXt1w",
       "title": "Why Onboarding Experiences are Important",
-      "at": "2026-11-06T00:55:46.362Z",
+      "at": "2026-11-08T00:53:50.985Z",
       "matches": []
     },
     "video/3Xus5tm2xKI": {
@@ -32606,19 +32614,19 @@
     "video/4EnvGMwbuBY": {
       "kind": "video",
       "key": "video/4EnvGMwbuBY",
-      "hash": "71a242011e3b3157510fecd973f42d812bf23d4ba62265298b049c9a9c57cee5",
+      "hash": "46e11372a69f716536da44514f5466819232863273353f6ba7fe373b13e90030",
       "video_id": "4EnvGMwbuBY",
       "title": "Comparing Subaccount Segments and Dimension Setup between Dynamics SL and Dynamics 365 Business",
-      "at": "2026-11-04T00:54:53.530Z",
+      "at": "2026-11-08T00:53:51.592Z",
       "matches": []
     },
     "video/4HE3BBCcV84": {
       "kind": "video",
       "key": "video/4HE3BBCcV84",
-      "hash": "e14a25e2a17a52c18adfee3a03d23b51471acc2c0d93d0ce335774463233a654",
+      "hash": "a9c47d55aa4349473c6149edf31fe63b713ed43b2ba5de715b805e0450395bc3",
       "video_id": "4HE3BBCcV84",
       "title": "MCP Server and API Queries (2026 release wave 1)",
-      "at": "2026-10-30T01:06:32.728Z",
+      "at": "2026-11-08T00:53:50.332Z",
       "matches": [
         {
           "feature": 0,
@@ -32633,74 +32641,81 @@
           "t": 97,
           "roadmap_id": "573312",
           "quote": "MCP server configuration now supports selecting query as object type"
-        },
-        {
-          "feature": 2,
-          "name": "MCP server configuration for object type query",
-          "t": 97,
-          "roadmap_id": "576789",
-          "quote": "access to all analytics API queries grouped under the API group analytics"
         }
       ]
     },
     "video/4IumfDNN8GU": {
       "kind": "video",
       "key": "video/4IumfDNN8GU",
-      "hash": "4fb13044c73f4be588047a129931f9d3829eaf4e7850708912efca441254e8ec",
+      "hash": "5ec386d3f6b80cb591bcd843d7e8524c18b59481170340b325ddcd0150a73f3a",
       "video_id": "4IumfDNN8GU",
       "title": "How to Use Posting Groups in Business Central (2025)",
-      "at": "2026-11-04T00:54:54.982Z",
+      "at": "2026-11-08T00:53:53.725Z",
       "matches": []
     },
     "video/4mD9R50V134": {
       "kind": "video",
       "key": "video/4mD9R50V134",
-      "hash": "6b979a91bcd2cf46721164e9bbea37275aaba401bc639a7f8824a19a354f3c39",
+      "hash": "77dfb81aab5788b9ac3c89eaca248da6cf1f211fe5c228170f2c8bff0a6e4e75",
       "video_id": "4mD9R50V134",
       "title": "What's New: Smarter Pipelines (2025 release wave 2)",
-      "at": "2026-10-25T12:32:20.892Z",
-      "matches": [
-        {
-          "feature": 4,
-          "name": "AL tool with subcommands",
-          "t": 699,
-          "roadmap_id": "573334",
-          "quote": "AL command line tool now supports multiple subcommands accessed via 'al compile'"
-        },
-        {
-          "feature": 4,
-          "name": "AL tool with subcommands",
-          "t": 699,
-          "roadmap_id": "573351",
-          "quote": "AL command line tool now supports multiple subcommands accessed via 'al compile'"
-        }
-      ]
+      "at": "2026-11-08T00:53:55.464Z",
+      "matches": []
     },
     "video/4nFViDASGhg": {
       "kind": "video",
       "key": "video/4nFViDASGhg",
-      "hash": "00c6e9ac1450af1975e000cec6a7057b2c25b1bb73389b597f703035f156fb9f",
+      "hash": "d621ed53d30690ee96a1731abd02415c03200a8c2f1a60b0b628940338c46ab6",
       "video_id": "4nFViDASGhg",
       "title": "What's New: Sales Order Agent Enhancements (2025 release wave 2)",
-      "at": "2026-10-30T07:52:06.719Z",
-      "matches": []
+      "at": "2026-11-08T00:53:55.242Z",
+      "matches": [
+        {
+          "feature": 2,
+          "name": "Custom email signature",
+          "t": 403,
+          "roadmap_id": "578065",
+          "quote": "custom signature that will be used whenever an email is generated by the agent"
+        },
+        {
+          "feature": 3,
+          "name": "Attachment analysis configuration",
+          "t": 480,
+          "roadmap_id": "578065",
+          "quote": "configure whether the agent should analyze attachments in incoming emails"
+        },
+        {
+          "feature": 4,
+          "name": "Autonomous processing for registered senders",
+          "t": 543,
+          "roadmap_id": "578065",
+          "quote": "configured to automatically process emails from registered customers at three levels"
+        },
+        {
+          "feature": 8,
+          "name": "Agent review configuration options",
+          "t": 987,
+          "roadmap_id": "578065",
+          "quote": "configure at which points in the sales document creation process human review is required"
+        }
+      ]
     },
     "video/4Te11l2BxmQ": {
       "kind": "video",
       "key": "video/4Te11l2BxmQ",
-      "hash": "0c7ac14b6fc639281aa73a76cf36d67d2b0abfb7433991149f191ad907bc7351",
+      "hash": "f5b64e9f1a31e910933aee247e9340c1094f6f870a2de08247c0c8fc4ec9f596",
       "video_id": "4Te11l2BxmQ",
       "title": "Simplify Bank Reconciliation with Copilot in Dynamics 365 Business Central (2024)",
-      "at": "2026-11-04T00:54:57.628Z",
+      "at": "2026-11-08T00:53:52.969Z",
       "matches": []
     },
     "video/4TE8uwIi91k": {
       "kind": "video",
       "key": "video/4TE8uwIi91k",
-      "hash": "bc0fc601f3bb2bba7653dc9a8626fdced405c48fc50eb00ba85aaa5b9558aced",
+      "hash": "f876c1525d6266dad74930ace89ecd15ea2a43126bf6131c78a9ee9733d8ffb2",
       "video_id": "4TE8uwIi91k",
       "title": "What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)",
-      "at": "2026-11-04T00:54:52.551Z",
+      "at": "2026-11-08T00:53:54.334Z",
       "matches": [
         {
           "feature": 0,
@@ -32714,21 +32729,28 @@
           "name": "Bulk receipt upload",
           "t": 66,
           "roadmap_id": "573265",
-          "quote": "Ability to upload multiple receipts at the same time"
+          "quote": "upload multiple receipts at the same time from the mobile app"
         },
         {
           "feature": 2,
           "name": "Gallery share functionality for receipts",
           "t": 104,
           "roadmap_id": "573265",
-          "quote": "Integration with operating system share functionality to send photos from gallery"
+          "quote": "Integration with operating system share functionality to send photos"
         },
         {
           "feature": 3,
           "name": "Mileage expense creation on mobile",
           "t": 133,
           "roadmap_id": "573254",
-          "quote": "Create mileage expenses directly from the phone with route selection, vehicle type"
+          "quote": "vehicle type, distance calculation, and automatic per diem rate"
+        },
+        {
+          "feature": 3,
+          "name": "Mileage expense creation on mobile",
+          "t": 133,
+          "roadmap_id": "573265",
+          "quote": "Create mileage expenses directly from the phone with route selection"
         },
         {
           "feature": 4,
@@ -32743,68 +32765,89 @@
           "t": 270,
           "roadmap_id": "573265",
           "quote": "Submit expense reports from the mobile app to approvers"
+        },
+        {
+          "feature": 6,
+          "name": "Expense approval on mobile",
+          "t": 298,
+          "roadmap_id": "573265",
+          "quote": "approve expense reports directly from the mobile app"
+        },
+        {
+          "feature": 7,
+          "name": "Expense categorization and agent processing",
+          "t": 204,
+          "roadmap_id": "573265",
+          "quote": "Automatic recognition and categorization of uploaded expenses"
         }
       ]
     },
     "video/54uIhzZq3Os": {
       "kind": "video",
       "key": "video/54uIhzZq3Os",
-      "hash": "8866f527161311048ac3ce33311080efa536c592cd805e8900aeb03eedfa5754",
+      "hash": "78a881181d916083a6140662f3d14640614335a5d65d7799e8c330ba2497fd6c",
       "video_id": "54uIhzZq3Os",
       "title": "Expense Agent: Finance Controlling (2026 release wave 1)",
-      "at": "2026-11-04T00:54:57.329Z",
+      "at": "2026-11-08T00:53:55.106Z",
       "matches": []
     },
     "video/564XMP2IyLM": {
       "kind": "video",
       "key": "video/564XMP2IyLM",
-      "hash": "9dd775c4395be366037a1f54f40d6ac878a04143c6679e6bb9d3d68859386893",
+      "hash": "496ca93c6d6b719a0617dedbba1cb89e4770999b28b7f89aee12f5d79ebf96d7",
       "video_id": "564XMP2IyLM",
       "title": "Use Retention Policies to Avoid Unnecessary Database Growth",
-      "at": "2026-10-23T23:44:52.251Z",
+      "at": "2026-11-08T00:53:58.419Z",
       "matches": []
     },
     "video/58yOwN3GY2Q": {
       "kind": "video",
       "key": "video/58yOwN3GY2Q",
-      "hash": "1851f94cc2d8236e5230e18366f8ae826f4d13c1add8724b84f04d01edf06ddd",
+      "hash": "651f5f783c41d1c1391dcafb102b0035f0e1825de30758c613de73788d5e8417",
       "video_id": "58yOwN3GY2Q",
       "title": "Microsoft Copilot in Business Central",
-      "at": "2026-11-04T00:54:56.836Z",
+      "at": "2026-11-08T00:53:59.966Z",
       "matches": []
     },
     "video/5E6ikveL6N0": {
       "kind": "video",
       "key": "video/5E6ikveL6N0",
-      "hash": "b9e7ecd3984a45b042e67e233a2f35fdf5a73d1e67b09e22635034e6eb70c278",
+      "hash": "8e3bf3968b62624ddb39a4cfac26972704a1150021af0c8c0006141036c66ede",
       "video_id": "5E6ikveL6N0",
       "title": "Comparing Posting Accounts and Posting Groups Between Dynamics GP and Dynamics Business Central",
-      "at": "2026-11-04T00:54:59.562Z",
+      "at": "2026-11-08T00:54:00.346Z",
       "matches": []
     },
     "video/5GD8S3XzQmA": {
       "kind": "video",
       "key": "video/5GD8S3XzQmA",
-      "hash": "df60107eb8566ee38a0f174719448a9ce1fcc32488428b1adba12d0bf2ffd132",
+      "hash": "0380ff427e5e4f8cf4e809efbedfbcfc48a10f51c4e1caedd3903412456a353a",
       "video_id": "5GD8S3XzQmA",
       "title": "Using the Spotlight Tour Element in Onboarding",
-      "at": "2026-10-23T23:45:00.127Z",
+      "at": "2026-11-08T00:54:01.261Z",
       "matches": []
     },
     "video/5GoAzII20L0": {
       "kind": "video",
       "key": "video/5GoAzII20L0",
-      "hash": "e1109c76925e5cfa16969f5df73a903034a0dac7c86f088a020e1cf633deb65f",
+      "hash": "b899523c02851044dae4585d0d259bc6c8f4a769186d0ef69cc0d8e84473b1d2",
       "video_id": "5GoAzII20L0",
       "title": "What's New: Run Page Scripts in CICD Pipelines (2024 release wave 2)",
-      "at": "2026-10-25T12:32:25.811Z",
+      "at": "2026-11-08T00:53:58.601Z",
       "matches": [
         {
           "feature": 0,
           "name": "Page Scripting Tool",
           "t": 6,
           "roadmap_id": "573384",
-          "quote": "allows customers and consultants to record and replay user actions directly in the web client"
+          "quote": "tool that allows customers and consultants to record and replay user actions"
+        },
+        {
+          "feature": 1,
+          "name": "Page Script Replayer for CI/CD Pipelines",
+          "t": 101,
+          "roadmap_id": "573384",
+          "quote": "Page Script Replayer for CI/CD Pipelines. A standalone page script replayer distributed"
         }
       ]
     },

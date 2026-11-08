@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13442",
+  "input_hash": "3f97ee1a742a83fc4541e76c96c198e80e963b03265b314244019f09b5802978",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-08T00:58:59.369Z",
+  "issues": [
+    "The PR fixes an issue (stale rows piling up because marked deletes fail), so 'fix' fits better than 'feature'. The new page and report support that fix.",
+    "The obsolete hidden Show/hide actions on page 5801 (tag 30.0) are not listed as obsoletions. They cannot be added through these edits.",
+    "The new OnAfterIsFullyPostedToGL event is not mentioned. This is a minor gap."
+  ],
+  "applied": [
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025256,
+    "changes_in_call": 6
+  }
+}

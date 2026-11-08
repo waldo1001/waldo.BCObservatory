@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:54:29.905Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -87,7 +87,7 @@ preview:
   image_h: 270
   site_name: DvlprLife.com
   favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
-  probed_at: "2026-10-07T11:50:25.491Z"
+  probed_at: "2026-11-08T00:52:57.075Z"
 ---
 
 # July 2026 Cumulative Updates for Dynamics 365 Business Central

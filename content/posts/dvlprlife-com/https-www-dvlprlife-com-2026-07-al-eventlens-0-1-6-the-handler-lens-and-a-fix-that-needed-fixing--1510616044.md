@@ -19,7 +19,7 @@ review:
   at: "2026-10-08T01:54:12.946Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -79,7 +79,7 @@ preview:
   image_h: 630
   site_name: DvlprLife.com
   favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
-  probed_at: "2026-10-07T11:50:21.303Z"
+  probed_at: "2026-11-08T00:52:54.565Z"
 ---
 
 # AL EventLens 0.1.6: the handler lens, and a fix that needed fixing

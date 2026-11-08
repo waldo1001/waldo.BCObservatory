@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:47:09.144Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-11-08T00:54:33.212Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -112,19 +112,15 @@ features:
     roadmap_ids:
       - "578065"
   - name: Agent Message Review Settings
-    status: ga
+    status: unclear
     t: 71
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "578065"
+    status_source: video
   - name: Custom Agent Signature
-    status: ga
+    status: unclear
     t: 95
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "578065"
+    status_source: video
   - name: Contact Matching Options for Unknown Senders
     status: ga
     t: 141
@@ -195,8 +191,8 @@ It walks through activating a second agent, giving it a dedicated email folder, 
 |---|---|---|
 | Multiple Sales Order Agents in Parallel | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)), demoed | [0:23](https://www.youtube.com/watch?v=kwGEoxN46hk&t=23s) |
 | Dedicated Folder Configuration for Agents | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)), demoed | [0:57](https://www.youtube.com/watch?v=kwGEoxN46hk&t=57s) |
-| Agent Message Review Settings | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)), demoed | [1:11](https://www.youtube.com/watch?v=kwGEoxN46hk&t=71s) |
-| Custom Agent Signature | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)), demoed | [1:35](https://www.youtube.com/watch?v=kwGEoxN46hk&t=95s) |
+| Agent Message Review Settings | status not stated, demoed | [1:11](https://www.youtube.com/watch?v=kwGEoxN46hk&t=71s) |
+| Custom Agent Signature | status not stated, demoed | [1:35](https://www.youtube.com/watch?v=kwGEoxN46hk&t=95s) |
 | Contact Matching Options for Unknown Senders | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)), demoed | [2:21](https://www.youtube.com/watch?v=kwGEoxN46hk&t=141s) |
 | Agent Statistics and Navigation | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)), demoed | [3:05](https://www.youtube.com/watch?v=kwGEoxN46hk&t=185s) |
 

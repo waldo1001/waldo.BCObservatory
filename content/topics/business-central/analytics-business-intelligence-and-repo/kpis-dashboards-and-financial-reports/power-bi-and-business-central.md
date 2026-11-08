@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,6 +69,7 @@ links:
     - post/thinkaboutit-be/7226
     - post/thinkaboutit-be/7753
     - post/waldo-be/318707
+    - post/yzhums-com/74390
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -81,7 +82,7 @@ coverage:
   learn: 4
   code: 2
   video: 4
-  blog: 4
+  blog: 5
   guideline: 0
 bc_forms:
   - 6316
@@ -130,6 +131,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [How to Install and Configure Power BI Monitor for Business Central](../../../../posts/thinkaboutit-be/7226.md) (community post): "Power BI Monitor extension enables Business Central users to manage Power BI resources directly through Business Central"
 - [Which Power BI License Do You Need for Business Central?](../../../../posts/thinkaboutit-be/7753.md) (community post): "Power BI Pro is required for any practical use of Power BI with Business Central"
 - [Business Central data in Fabric: the way it should be](../../../../posts/waldo-be/318707.md) (community post): "All nine Power BI apps get Fabric-based and multi-company versions"
+- [Business Central 2026 release wave 1 (BC28.2): Use new APIs for analyzing approval workflows for auditors and IT staff](../../../../posts/yzhums-com/74390.md) (community post): "Organizations can integrate with Power BI, Copilot Studio, and MCP Server for analytics"
 - [What's New: Enhanced Power BI and Excel with Business Central (2026 release wave 1)](../../../../videos/DVgclv3alZU.md) (video): "Excel as Client for Power BI Semantic Models; Agentic Excel Capabilities"
 - [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../../videos/fy96_jdL1PQ.md) (video): "PowerBI integration and reporting; PowerBI Data Modeling; PowerBI Dashboards"
 - [What's New: Power BI and Reporting for Developers (2023 release wave 2)](../../../../videos/hSJW3LiOBxg.md) (video): "power bi integration; analytical reports"

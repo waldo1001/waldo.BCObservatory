@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T23:47:06.962Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -119,7 +119,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:50:10.590Z"
+  probed_at: "2026-11-08T00:52:46.541Z"
 ---
 
 # Change Behaviour on VAT Prod. Posting Group - Prices Incl. VAT in v28.2

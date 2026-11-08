@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:55.273Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,8 +49,7 @@ links:
   topics:
     - topic/dev-itpro/administration
   localizations: []
-  videos:
-    - video/KbXzMR4n4h8
+  videos: []
   posts:
     - post/thedynamicsexplorer-com/37042
     - post/yzhums-com/16503
@@ -64,7 +63,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 1
+  video: 0
   blog: 2
   guideline: 0
 bc_forms: []
@@ -119,6 +118,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Dynamics 365 Business Central – Why when I create new users do they get full access by default](../../../posts/thedynamicsexplorer-com/37042.md) (community post): "edit the licence, turn on Customise Permissions and delete permission sets"
 - [Dynamics 365 Business Central Cloud (SaaS): Find out when your license expires (expiration date)](../../../posts/yzhums-com/16503.md) (community post): "Checking Business Central license expiration dates in the Microsoft 365 admin center"
-- [What's New: Commerce Capabilities of Business Central Apps (2024 release wave 1)](../../../videos/KbXzMR4n4h8.md) (video): "Entitlements for AppSource Apps; entitlements mapping; license-conditional functionality"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

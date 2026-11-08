@@ -6,12 +6,12 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "A new integration event is added to the VAT Date Handler to allow partners to customize the VAT date validation logic without modifying standard code.",
+  "summary": "Adds an integration event in CheckVATDateCZL of VAT Date Handler CZL so partners can adjust when Original Doc. VAT Date CZL is required. The PR states the check should only apply when the document is invoiced, not when a purchase receipt is posted.",
   "key_points": [
-    "New integration event added to CheckVATDateCZL",
-    "Enables partners to adjust VAT date validation conditions",
-    "Addresses issue where Original Doc. VAT Date CZL field was incorrectly required at receipt posting",
-    "Event allows customization without direct standard code modification"
+    "New integration event in VAT Date Handler CZL CheckVATDateCZL",
+    "Lets partners adjust the Original Doc. VAT Date CZL check condition without modifying standard code",
+    "Motivated by the field being required at purchase receipt posting although it only matters for invoicing",
+    "No new tests added"
   ],
   "change_kind": "feature",
   "behavior_change": true,

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:59.535Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-08T01:01:49.909Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -47,7 +47,8 @@ links:
   topics:
     - topic/business-central/business-functionality/online-store-with-shopify
   localizations: []
-  videos: []
+  videos:
+    - video/B-pxLlb-UN0
   posts: []
   guidelines: []
   changes:
@@ -68,7 +69,7 @@ children: []
 coverage:
   learn: 2
   code: 6
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -125,6 +126,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9318 [Shopify] Fix Get Catalogs tooltip to explain company dependency](../../../../changes/bcapps/9318.md) (code change): "Fix Get Catalogs tooltip to explain company dependency"
 - [#9320 [Shopify] Import HS code and country of origin from Shopify](../../../../changes/bcapps/9320.md) (code change): "Import HS code and country of origin from Shopify"
 - [#9327 [Shopify] Migrate Shopify Connector to Expiring Offline Access Tokens](../../../../changes/bcapps/9327.md) (code change): "The Shopify Connector now supports Shopify's expiring offline access tokens with automatic refresh-token rotation"
+- [What's New: Shopify Connector - Overview (2026 release wave 1)](../../../../videos/B-pxLlb-UN0.md) (video): "Shopify collections import and mapping; Item import from Shopify with product details"
 
 ## Business Central pages and reports
 

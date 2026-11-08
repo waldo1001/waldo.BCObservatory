@@ -19,7 +19,7 @@ review:
   at: "2026-10-08T01:54:08.766Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-08T00:19:04.246Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -80,7 +80,7 @@ preview:
   image_h: 1024
   site_name: DvlprLife.com
   favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
-  probed_at: "2026-10-07T11:50:20.053Z"
+  probed_at: "2026-11-08T00:52:53.417Z"
 ---
 
 # I Finally Fixed My Note-Taking (It Wasn't a Note-Taking Problem)
