@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -331,11 +331,11 @@ links:
   videos:
     - video/1ft4o9lQzsU
     - video/2N2NhNH7dsk
-    - video/4HE3BBCcV84
     - video/S5Xw-b8YF-c
   posts:
     - post/aardvarklabs-blog/2017
     - post/aardvarklabs-blog/2565
+    - post/aardvarklabs-blog/2724
     - post/aardvarklabs-blog/3579
     - post/aardvarklabs-blog/4082
     - post/demiliani-com/11962
@@ -345,6 +345,7 @@ links:
     - post/thinkaboutit-be/7683
     - post/thinkaboutit-be/8272
     - post/yzhums-com/63801
+    - post/yzhums-com/68873
     - post/yzhums-com/70369
     - post/yzhums-com/74390
   guidelines: []
@@ -371,8 +372,8 @@ children:
 coverage:
   learn: 261
   code: 1
-  video: 4
-  blog: 13
+  video: 3
+  blog: 15
   guideline: 0
 bc_forms:
   - 812
@@ -456,6 +457,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#253 knowledge(performance): add trigger-only fields to API pages with AddLoadFields](../../../../changes/bcquality/253.md) (code change): "add trigger-only fields to API pages with AddLoadFields"
 - [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "create Query objects configured as APIs in Business Central"
 - [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "migrate to Business Central API 2.0, create custom 2.0 APIs"
+- [Exploring Model Context Protocol (MCP) for Business Automation in Business Central](../../../../posts/aardvarklabs-blog/2724.md) (community post): "purpose-built custom APIs should be used to limit which fields are shared"
 - [Creating a Low-Cost RFID System with Business Central and Power Automate](../../../../posts/aardvarklabs-blog/3579.md) (community post): "device avoids OAuth; its HTTP trigger parses the JSON array and sends each scan to a Business Central API page"
 - [Business Central’s New API Overview: A Modern Replacement for Web Services](../../../../posts/aardvarklabs-blog/4082.md) (community post): "Business Central's new API Overview page provides a modern, unified interface to discover all API pages"
 - [Dynamics 365 Business Central: compressing API responses at max.](../../../../posts/demiliani-com/11962.md) (community post): "Brotli compression instead of gzip to reduce the size of OData API responses"
@@ -465,11 +467,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [API Pages vs API Queries in Business Central: When to Use Each](../../../../posts/thinkaboutit-be/7683.md) (community post): "API pages and API queries are two distinct REST API object types in Business Central"
 - [Business Central 29: More Control Over Report Layouts and New Report Inbox APIs](../../../../posts/thinkaboutit-be/8272.md) (community post): "Report Inbox APIs enable external applications and automation tools to interact"
 - [Dynamics 365 Business Central Blog Series: REST API web services (APIs)](../../../../posts/yzhums-com/63801.md) (community post): "Business Central supports multiple API types: standard APIs, automation APIs, and custom APIs"
+- [Business Central 2025 wave 2 (BC27.1): Connect AI agents to Business Central through MCP server (Dynamics 365 Business Central MCP)](../../../../posts/yzhums-com/68873.md) (community post): "MCP is an open standard that lets AI agents discover and invoke Business Central operations"
 - [Dynamics 365 Business Central: Does the API support Multi-level Expand (Multi layers)](../../../../posts/yzhums-com/70369.md) (community post): "The Business Central REST API supports multi-level expand (nested data retrieval) using nested parentheses"
 - [Business Central 2026 release wave 1 (BC28.2): Use new APIs for analyzing approval workflows for auditors and IT staff](../../../../posts/yzhums-com/74390.md) (community post): "Seven new API V2.0 endpoints provide read-only access to workflow approval data"
 - [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../videos/1ft4o9lQzsU.md) (video): "Business Central API structure and authentication; Dynamic API connection using environment variables"
 - [What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)](../../../../videos/2N2NhNH7dsk.md) (video): "Report inbox APIs; API overview page for report inbox"
-- [MCP Server and API Queries (2026 release wave 1)](../../../../videos/4HE3BBCcV84.md) (video): "API queries in MCP server Analytics API reference documentation"
 - [What's New: APIs in E-Documents (2025 release wave 2)](../../../../videos/S5Xw-b8YF-c.md) (video): "E-Documents APIs; E-Document Business Events; Create E-Document"
 
 ## Business Central pages and reports

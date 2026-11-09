@@ -21,7 +21,7 @@ review:
   at: "2026-10-08T01:54:45.108Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-09T00:15:52.409Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -89,7 +89,7 @@ preview:
   image_h: null
   site_name: Tech Adventures in Business Central | AL Development & AI Solutions
   favicon: https://tine.staric.net/favicon.ico
-  probed_at: "2026-10-07T11:50:18.073Z"
+  probed_at: "2026-11-09T00:39:00.314Z"
 ---
 
 # Copilot is just a fancy autocomplete (vol.3) - Steps towards agentic development

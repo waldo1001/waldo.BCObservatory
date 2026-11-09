@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-09T00:45:16.760Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -855,10 +855,12 @@ links:
   videos:
     - video/d4mYltz4Zwg
     - video/HI7VcPzR2OE
+    - video/kDixaZFPYE8
     - video/lcpk-gPfGQU
     - video/N_J1HB_fUCM
     - video/pE19K17wpgI
   posts:
+    - post/gerardorenteria-blog/14595
     - post/yzhums-com/73165
   guidelines: []
   changes:
@@ -893,8 +895,8 @@ children:
 coverage:
   learn: 258
   code: 525
-  video: 5
-  blog: 1
+  video: 6
+  blog: 2
   guideline: 0
 bc_forms:
   - 1
@@ -1440,7 +1442,7 @@ narrative: generated
 
 > Finance in Business Central covers accounting and bookkeeping, general ledger, dimensions, currencies, receivables, payables, bank reconciliation, VAT, withholding and excise tax, cost accounting, inventory costs, cash flow, period closing, analytics, E-Documents, and consolidation. It answers setup and how-to questions for finance work.
 
-Path: [Business functionality](../business-functionality.md) > Finance · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../business-functionality.md) > Finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -1503,9 +1505,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9311 Withholding Tax for Employee](../../../changes/bcapps/9311.md) (code change): "Withholding tax support for employee transactions has been added"
 - [#9341 [main][Change Request] Page 8901 - Add empty "layout" to the RoleCenter](../../../changes/bcapps/9341.md) (code change): "Empty layout section added to the Finance Manager Role Center"
 - [#9391 [Master] - Slice 616928: [Expense Management] [App part] Expense Managements Travel Requisitions 💸](../../../changes/bcapps/9391.md) (code change): "Expense Management adds travel requisition support: new API pages"
+- [New Application Ideas of Dynamics 365 Business Central (2026 APR)](../../../posts/gerardorenteria-blog/14595.md) (community post): "Ideas address both core functionality improvements and localization needs"
 - [Business Central 2026 release wave 1 (BC28.1): Expense Management module (Manage employee expenses)](../../../posts/yzhums-com/73165.md) (community post): "new native Expense Management module that enables employees to create, submit, and track expense reports"
 - [Introducing: Withholding Taxes (2026 release wave 1)](../../../videos/d4mYltz4Zwg.md) (video): "Withholding Tax Posting Groups Configuration; Vendor Withholding Tax Enablement"
 - [What's New: Financial Management - Overview (2024 release wave 1)](../../../videos/HI7VcPzR2OE.md) (video): "Topics: gl revaluation; currency posting; excel reports; consolidation; collection management"
+- [Expense Agent: Countries and Languages (2026 release wave 1)](../../../videos/kDixaZFPYE8.md) (video): "Multilingual receipt processing; Automatic receipt categorization in local languages"
 - [What's New: Excise Taxes Framework (2025 release wave 2)](../../../videos/lcpk-gPfGQU.md) (video): "Excise Tax Framework; Excise Journal; Excise Tax Registration Transaction Logs"
 - [What's new in Finance: Overview (2026 release wave 2)](../../../videos/N_J1HB_fUCM.md) (video): "Topics: excise taxes; self-billing; withholding taxes; cross environment master data; peppol"
 - [What's New: Using Enforced Digital Vouchers (2023 release wave 2)](../../../videos/pE19K17wpgI.md) (video): "Enforced Digital Vouchers; Automatic Digital Voucher Generation;"

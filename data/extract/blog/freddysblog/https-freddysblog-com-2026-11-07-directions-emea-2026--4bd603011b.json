@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/freddysblog/https://freddysblog.com/2026/11/07/directions-emea-2026",
+  "url": "https://freddysblog.com/2026/11/07/directions-emea-2026/",
+  "title": "Directions EMEA 2026 Reflections",
+  "source": "freddysblog",
+  "published_at": "2026-11-07T05:00:00.000Z",
+  "words": 1861,
+  "summary": "Reflections on organizing Directions EMEA 2026, covering session selection from 800+ submissions, conference logistics, and the Developer Zone roundtables. The post shares insights on AI in development, open-source adoption, DevOps trends, and the growing Business Central community.",
+  "key_points": [
+    "Session selection from 800+ submissions balanced audiences, speakers and diversity; the average session score rose to 4.51 from 4.49 the year before",
+    "AI agents are already giving partners efficiency and quality gains, but developers stay responsible for AI-written AL and need ways to verify it",
+    "AL-Go for GitHub is gaining popularity as a partner DevOps choice, and Microsoft is committed to supporting it",
+    "Microsoft has open-sourced the Base Application, System Application and localizations but not the platform; open-source projects need maintenance, support and sponsorship",
+    "A roundtable concluded that the most valuable future Business Central professional may be a solution architect with development skills and deep business process knowledge"
+  ],
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "conference",
+    "community",
+    "ai development",
+    "open source",
+    "devops",
+    "al-go",
+    "agents",
+    "business central"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "BCApps repository"
+    },
+    {
+      "type": "other",
+      "name": "Fkh (Freddy's Kubernetes Helper)"
+    }
+  ],
+  "features": [
+    "AI code generation and ownership",
+    "AL development with agents",
+    "Open-source co-development",
+    "DevOps with AL-Go for GitHub",
+    "Business Central Base Application",
+    "System Application",
+    "Localizations"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "you're responsible for what you ship, so you need a way to verify AI's work. Without that, you're running blindfolded through a minefield.",
+      "why_it_matters": "Highlights the critical requirement for validation and ownership when using AI to generate AL code, addressing a key concern in modern development practices"
+    },
+    {
+      "text": "AI agents are here. Partners who know how to use them are already seeing gains in efficiency, performance, and quality.",
+      "why_it_matters": "Establishes that AI agents are now a practical tool in production use among Business Central partners with measurable business benefits"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012562,
+    "posts_in_call": 1
+  }
+}

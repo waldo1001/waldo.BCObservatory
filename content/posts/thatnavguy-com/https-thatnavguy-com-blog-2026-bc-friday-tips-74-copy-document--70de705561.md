@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:54:36.372Z"
   flags: []
 generated:
-  at: "2026-10-26T05:51:10.938Z"
+  at: "2026-11-09T00:15:52.409Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -151,7 +151,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:50:25.803Z"
+  probed_at: "2026-11-09T00:39:00.992Z"
 ---
 
 # BC Friday Tips #74 Copy Document and Custom Field

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-09T00:45:18.470Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -357,7 +357,7 @@ narrative: generated
 
 > Business Central on-premises upgrade documentation: supported upgrade paths, known issues, and per-release upgrade guides from v14 through v29 (2026 release wave 2). It answers which path applies from a given source version, what steps to follow, and what to check before upgrading.
 
-Path: [Business Central on-premises](../business-central-on-premises.md) > Upgrade · tier official · system platform · narrative **unreviewed** (model text not yet checked)
+Path: [Business Central on-premises](../business-central-on-premises.md) > Upgrade · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

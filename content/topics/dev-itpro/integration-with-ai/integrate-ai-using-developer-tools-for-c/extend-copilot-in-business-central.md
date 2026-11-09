@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:27.474Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -135,22 +135,21 @@ links:
     - topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central/test-copilot-capability-in-al
   localizations: []
   videos:
-    - video/06vgkq2EXmA
+    - video/7SSNcUMFtCw
     - video/jdevJbGgB-k
     - video/lNASlydCidI
+    - video/MNwTt06ZxwY
     - video/NE7NIjpkX3c
-    - video/QCo-uIfPs9g
-    - video/UgagVZVKCso
+    - video/qP0id91bIlA
     - video/ytYKvn2MiGs
   posts:
-    - post/aardvarklabs-blog/1816
-    - post/aardvarklabs-blog/2467
     - post/aardvarklabs-blog/2759
     - post/aardvarklabs-blog/2965
     - post/demiliani-com/12927
     - post/olofsimren-com/3585
     - post/olofsimren-com/3605
     - post/olofsimren-com/3630
+    - post/yzhums-com/67462
   guidelines: []
   changes:
     - change/al-go/2402
@@ -168,7 +167,7 @@ coverage:
   learn: 15
   code: 0
   video: 7
-  blog: 8
+  blog: 7
   guideline: 0
 bc_forms: []
 member_hash: 2ff560236f34656dcd4015f51cfddab4d5ae4484d1dfe47d2ddcd8d76f8788c0
@@ -215,20 +214,19 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#2402 Move Copilot review engine into AL-Go](../../../../changes/al-go/2402.md) (code change): "Copilot pull request review. A new SetupBCQuality"
 - [#229 Knowledge: Community Copilot domain (System.AI features) and review skill](../../../../changes/bcquality/229.md) (code change): "covering System.AI module best practices like capability registration"
-- [Creating Data Driven Text with AI in Business Central](../../../../posts/aardvarklabs-blog/1816.md) (community post): "generates personalized reminder text for overdue customer balances"
-- [Enhancing Business Central with Address Validation AI](../../../../posts/aardvarklabs-blog/2467.md) (community post): "Address validation using Azure OpenAI compares user-entered addresses"
 - [Using CoPilot to Upgrade Service Notes for Invoices in Business Central AL](../../../../posts/aardvarklabs-blog/2759.md) (community post): "use Copilot to automatically upgrade raw service technician notes into professional"
 - [Step-by-Step Guide to AI Campaigns in Business Central](../../../../posts/aardvarklabs-blog/2965.md) (community post): "Leverages Business Central's managed AI resource with Bing Grounded Search"
 - [Dynamics 365 Business Central: prepare your extensions to support the Copilot Chat.](../../../../posts/demiliani-com/12927.md) (community post): "Extending Dynamics 365 Business Central with Copilot Chat support"
 - [Copilot Inventory Queries](../../../../posts/olofsimren-com/3585.md) (community post): "Built with the Copilot capability tools Microsoft provides for AL"
 - [Copilot in Planning Worksheet](../../../../posts/olofsimren-com/3605.md) (community post): "A Copilot extension for Planning Worksheet in Business Central helps planners"
 - [Copilot in Planning Parameter Worksheet](../../../../posts/olofsimren-com/3630.md) (community post): "uses Copilot powered by Azure OpenAI to suggest inventory planning parameters"
-- [Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central](../../../../videos/06vgkq2EXmA.md) (video): "Prompt Engineering with Test-Driven Development; Azure AI Studio Integration"
+- [Business Central 2025 wave 2 (BC27): Understand how each Copilot and agent capability is billed (Billing Type)](../../../../posts/yzhums-com/67462.md) (community post): "Developers must manually set the billing type when registering capabilities"
+- [What's New: Business Central AI Resources (2025 release wave 1)](../../../../videos/7SSNcUMFtCw.md) (video): "System prompts for AI safety; Model deprecation notifications via telemetry; Azure OpenAI Deployments"
 - [Business Central Under the Hood episode 1: Developing AI in Business Central](../../../../videos/jdevJbGgB-k.md) (video): "Business Central Under the Hood episode 1: Developing AI in Business Central"
-- [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../../videos/lNASlydCidI.md) (video): "Copilot for Business Central; System Actions for Generate; AI Module for Copilot Generation"
-- [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../../../videos/NE7NIjpkX3c.md) (video): "Copilot Extension Cloud Deployment; Shared Infrastructure for Copilot"
-- [What's New: Extending Copilot in Business Central (2024 Release Wave 2)](../../../../videos/QCo-uIfPs9g.md) (video): "Copilot Prompt Actions on Card and Document Pages"
-- [Business Central Partner Learnings from the Red Carpet Copilot Program](../../../../videos/UgagVZVKCso.md) (video): "Copilot development; prompt engineering; Copilot Function with Prompt Engineering"
-- [What's New: Extending Copilot Using AL Code (2024 Release Wave 1)](../../../../videos/ytYKvn2MiGs.md) (video): "Extending Copilot Using AL Code; token counting; function calling; copilot actions"
+- [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../../videos/lNASlydCidI.md) (video): "Prompt Dialogue Page Type; Azure OpenAI Text Completion"
+- [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Agent deployment; Production agent deployment via extensions"
+- [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../../../videos/NE7NIjpkX3c.md) (video): "Copilot Extension Cloud Deployment; Function Calling for Copilot"
+- [What's New: Designing Generative AI Experiences (2024 Release Wave 1)](../../../../videos/qP0id91bIlA.md) (video): "Designing Generative AI Experiences copilot; prompt dialogue; unstructured input"
+- [What's New: Extending Copilot Using AL Code (2024 Release Wave 1)](../../../../videos/ytYKvn2MiGs.md) (video): "Extending Copilot Using AL Code (2024 Release Wave 1)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

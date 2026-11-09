@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:20.499Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -189,6 +189,7 @@ links:
   posts:
     - post/aardvarklabs-blog/2640
     - post/aardvarklabs-blog/2953
+    - post/aardvarklabs-blog/3348
     - post/demiliani-com/11796
     - post/demiliani-com/12498
     - post/demiliani-com/15914
@@ -225,7 +226,7 @@ coverage:
   learn: 22
   code: 0
   video: 1
-  blog: 12
+  blog: 13
   guideline: 0
 bc_forms: []
 member_hash: b2776cd836898a8a19e7effa719a058b48cb3a07b751f1ad520ac02281d58fdf
@@ -284,6 +285,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#92 Correct security and privacy knowledge guidance](../../../../changes/bcquality/92.md) (code change): "Security and privacy knowledge articles were corrected to align with current Business Central APIs"
 - [Securing Sensitive Data in Business Central AL using SecretText](../../../../posts/aardvarklabs-blog/2640.md) (community post): "SecretText protects sensitive values like API keys and authentication credentials"
 - [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "Business Central shows a security prompt when extensions attempt"
+- [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../../../../posts/aardvarklabs-blog/3348.md) (community post): "permission sets. Agents still need testing to check they cannot be tricked"
 - [Dynamics 365 Business Central: using secrets in JsonObjects.](../../../../posts/demiliani-com/11796.md) (community post): "Handling secrets securely in JSON objects"
 - [Dynamics 365 Business Central: introducing the new MaskedType enum field-level property.](../../../../posts/demiliani-com/12498.md) (community post): "Concealed hides the field value in the UI until the user clicks"
 - [Dynamics 365 Business Central: locking down IsolatedStorage reads.](../../../../posts/demiliani-com/15914.md) (community post): "protecting sensitive data like secret keys, feature flags, and cached tokens"

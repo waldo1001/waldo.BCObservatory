@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:06:01.677Z"
   flags: []
 generated:
-  at: "2026-11-04T00:55:39.192Z"
+  at: "2026-11-09T00:40:46.035Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -82,8 +82,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/573324
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -132,12 +131,10 @@ features:
     verified: false
     status_source: video
   - name: Financial Reporting Templates
-    status: ga
+    status: unclear
     t: 109
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573324"
+    status_source: video
   - name: Excel Reports for Fixed Assets
     status: unclear
     t: 401
@@ -226,13 +223,11 @@ It also points to new documentation on financial reporting and analytics. The sp
 | Feature | Status | At |
 |---|---|---|
 | Power BI Finance App | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=16s) |
-| Financial Reporting Templates | generally available (roadmap [Trace G/L account usage in finance reports](../features/573324.md)), demoed | [1:49](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=109s) |
+| Financial Reporting Templates | status not stated, demoed | [1:49](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=109s) |
 | Excel Reports for Fixed Assets | status not stated, demoed | [6:41](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=401s) |
 | Ad Hoc Analysis for Fixed Assets | status not stated, demoed | [9:10](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=550s) |
 | Financial Analytics Documentation | status not stated | [7:38](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=458s) |
 | New Demo Data Sets | status not stated | [11:50](https://www.youtube.com/watch?v=5RJ3yZ7m1UU&t=710s) |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

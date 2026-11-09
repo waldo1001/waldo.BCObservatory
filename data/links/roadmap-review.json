@@ -1682,28 +1682,28 @@
     "573317": {
       "docs/learn-devitpro/dev-itpro/administration/telemetry-open-in-excel-trace.md@ccdd5c7a1e716107": {
         "verdict": "keep",
-        "reason": "This page documents the Open in Excel telemetry (RT0056) that tracks data exports, which is exactly what the feature adds.",
-        "at": "2026-10-25T12:47:58.919Z"
+        "reason": "This page documents the Open in Excel telemetry event (RT0056) that the feature adds.",
+        "at": "2026-11-09T00:40:37.591Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-application-insights-for-extensions-data.md@739ee2fbb06f9089": {
         "verdict": "drop",
-        "reason": "This is a general list of platform telemetry events and its text doesn't describe Open in Excel logging.",
-        "at": "2026-10-25T12:47:58.919Z"
+        "reason": "It's a general list of telemetry events and doesn't mention Open in Excel logging.",
+        "at": "2026-11-09T00:40:37.591Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-application-insights-for-extensions.md@6fb8718d64676d6d": {
         "verdict": "drop",
-        "reason": "This covers setting up extension telemetry in general, not logging of Open in Excel actions.",
-        "at": "2026-10-25T12:47:58.919Z"
+        "reason": "It covers general extension telemetry setup, not Open in Excel usage monitoring.",
+        "at": "2026-11-09T00:40:37.591Z"
       },
-      "video/6zj34hjbpGU#1@960bde2dad5dad56": {
+      "video/6zj34hjbpGU#1@5e110c4d8844cd4d": {
         "verdict": "drop",
-        "reason": "It shows the Open/Edit in Excel actions themselves, with no mention of telemetry or auditing.",
-        "at": "2026-10-25T12:47:58.919Z"
+        "reason": "It describes the existing Open/Edit in Excel actions, with nothing about telemetry.",
+        "at": "2026-11-09T00:40:37.591Z"
       },
       "video/Sh3ySQSTw-o#11@e4496cd7c1ef9d3b": {
         "verdict": "keep",
-        "reason": "The segment announces the new RT0056 telemetry for auditing who opens data in Excel.",
-        "at": "2026-10-25T12:47:58.919Z"
+        "reason": "The video announces the new RT0056 telemetry for auditing who opens data in Excel.",
+        "at": "2026-11-09T00:40:37.591Z"
       }
     },
     "573318": {
@@ -1727,112 +1727,112 @@
       "docs/learn-devitpro/dev-itpro/developer/devenv-analysis-view-package.md@6dfb24b9d017bb2b": {
         "verdict": "drop",
         "reason": "Covers packaging analysis views in AL extensions and page customizations, not bookmarking to the Role Center.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "docs/learn-smb-docs/business-central/ad-hoc-analysis-sales.md@6610081b1e4bc21e": {
         "verdict": "drop",
         "reason": "General ad-hoc sales analysis page; it doesn't mention bookmarking.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "docs/learn-smb-docs/business-central/analysis-mode.md@675e6a4f9d6c79ee": {
         "verdict": "keep",
         "reason": "Explicitly documents bookmarking analysis views to the Role Center.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
-      "video/6Zb7VAvLVm4#10@1d6f576b9fa4d3f0": {
+      "video/6Zb7VAvLVm4#10@72dbfafd74308992": {
         "verdict": "drop",
         "reason": "Covers bookmarking Power BI report pages, which is a different capability.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/Afv-r-eDt90#3@19828a3acb0e0da2": {
         "verdict": "drop",
         "reason": "Covers adding analysis views to page customizations and profiles, not bookmarks.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/Afv-r-eDt90#6@19828a3acb0e0da2": {
         "verdict": "drop",
         "reason": "Covers built-in analysis views across application areas, not bookmarking.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/eg3FRViYFNM#22@665fe2433cf9aea3": {
         "verdict": "drop",
         "reason": "General overview of analysis tabs becoming generally available.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/eg3FRViYFNM#23@665fe2433cf9aea3": {
         "verdict": "drop",
         "reason": "Covers sharing analysis tabs through hyperlinks, not bookmarking to the Role Center.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/fJGY6d-2lO8#3@3960cb3a71257bdc": {
         "verdict": "drop",
         "reason": "Covers shipping analysis views with AL apps, which is a different capability.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/fy96_jdL1PQ#1@35837054f782e3e2": {
         "verdict": "drop",
         "reason": "General description of analysis views on list pages.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/jqVt0hYDfz0#0@dc239d6c69643e5c": {
         "verdict": "drop",
         "reason": "Covers exporting analysis tabs to AL extensions, not bookmarking.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/jqVt0hYDfz0#2@dc239d6c69643e5c": {
         "verdict": "drop",
         "reason": "Covers the AL definition file property, not bookmarking.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/jqVt0hYDfz0#3@dc239d6c69643e5c": {
         "verdict": "drop",
         "reason": "Covers analysis views in page customizations for profiles, not bookmarked views.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/qmLVKyHRhNc#0@1825d048a5157ace": {
         "verdict": "drop",
         "reason": "General introduction to analyzing data on list pages.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/qmLVKyHRhNc#1@1825d048a5157ace": {
         "verdict": "drop",
         "reason": "Covers saving the analysis menu state, which is unrelated to bookmarks.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/qmLVKyHRhNc#10@1825d048a5157ace": {
         "verdict": "drop",
         "reason": "Covers company-specific sharing links, not bookmarks.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/qmLVKyHRhNc#2@1825d048a5157ace": {
         "verdict": "drop",
         "reason": "Covers removing the data size limit, which is unrelated.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/qmLVKyHRhNc#3@1825d048a5157ace": {
         "verdict": "drop",
         "reason": "Covers analyzing data on query objects, which is unrelated to bookmarks.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/qmLVKyHRhNc#9@1825d048a5157ace": {
         "verdict": "drop",
         "reason": "Covers sharing analysis definitions through links, not bookmarking.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/ZpzZ6El8GXY#1@0b984cdcd651aeb9": {
         "verdict": "keep",
         "reason": "Shows bookmarking an analysis tab for navigation from the Role Center.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/ZpzZ6El8GXY#2@0b984cdcd651aeb9": {
         "verdict": "keep",
         "reason": "Shows bookmarking list views to the Role Center.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       },
       "video/ZpzZ6El8GXY#4@0b984cdcd651aeb9": {
         "verdict": "keep",
         "reason": "Shows adding bookmarked analysis tabs and list views at the profile level.",
-        "at": "2026-11-08T00:54:29.756Z"
+        "at": "2026-11-09T00:40:32.582Z"
       }
     },
     "573320": {
@@ -1972,30 +1972,30 @@
       }
     },
     "573323": {
-      "video/5RJ3yZ7m1UU#1@3fa3513f11cb269d": {
+      "video/5RJ3yZ7m1UU#0@587c2ed9cc979283": {
         "verdict": "drop",
-        "reason": "Covers the predefined row and column templates for financial reports, not report packs that run several reports into one PDF.",
-        "at": "2026-10-30T08:02:05.651Z"
+        "reason": "Describes the Power BI Finance app, not report packs producing a single PDF.",
+        "at": "2026-11-09T00:40:39.556Z"
       },
       "video/qj0VHB2Pmvc#6@12f1c16cc345f2ee": {
         "verdict": "keep",
-        "reason": "Announces report packs that run multiple reports in one go, produce a single combined PDF and can be scheduled.",
-        "at": "2026-10-30T08:02:05.651Z"
+        "reason": "Directly announces report packs that run multiple reports into one consolidated PDF with scheduling.",
+        "at": "2026-11-09T00:40:39.556Z"
       },
       "video/uxQRfChp96c#5@d361630c8e158753": {
         "verdict": "drop",
-        "reason": "Describes the earlier scheduling of individual reports, not packs that combine several reports.",
-        "at": "2026-10-30T08:02:05.651Z"
+        "reason": "Describes scheduling of individual reports from an earlier wave, not report packs.",
+        "at": "2026-11-09T00:40:39.556Z"
       },
       "video/uxQRfChp96c#6@d361630c8e158753": {
         "verdict": "drop",
-        "reason": "Describes weekly recurrence for scheduled single reports, a different and earlier capability than report packs.",
-        "at": "2026-10-30T08:02:05.651Z"
+        "reason": "Covers recurrence formulas for individual scheduled reports, a different earlier capability.",
+        "at": "2026-11-09T00:40:39.556Z"
       },
       "video/uxQRfChp96c#7@d361630c8e158753": {
         "verdict": "drop",
-        "reason": "Describes custom filters on schedules for individual reports, not combining several reports into one PDF.",
-        "at": "2026-10-30T08:02:05.651Z"
+        "reason": "Covers custom filters for individual report schedules, not multi-report packs.",
+        "at": "2026-11-09T00:40:39.556Z"
       }
     },
     "573324": {
@@ -2194,128 +2194,128 @@
     "573328": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-howto-report-layout.md@e7d4b1f5072107a0": {
         "verdict": "drop",
-        "reason": "General Word layout creation docs; no mention of the new design controls.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "General Word layout creation page; doesn't describe the new design controls.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-hyperlinks-in-word-report-layouts.md@5d8a9bba64241502": {
         "verdict": "drop",
         "reason": "Covers hyperlinks in Word layouts, a different capability.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-using-word-to-author-your-report-layout.md@8f0fd394b10a79ab": {
         "verdict": "drop",
-        "reason": "General Word authoring tips, not the new design components.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "General Word authoring tips; no design controls for addresses, amounts, etc.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "docs/learn-smb-docs/business-central/ui-design-word-layouts-business-central-add-in.md@6811c5b78a461f04": {
         "verdict": "drop",
-        "reason": "Describes earlier add-in functions (fields, tables, hiding content), not address/amount/signature design controls.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "General add-in page about fields, tables and conditional content, not the new design components.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/_JkZCp64jNw#37@82c883e9340b4ac6": {
         "verdict": "drop",
-        "reason": "General Word report customization from 2025 wave 1, not the new design components.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Earlier Word customization add-on capability, not the design controls.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
-      "video/2u5_F9Ztt7U#6@09e60592bcba72dc": {
+      "video/2u5_F9Ztt7U#6@7eeebefe9e4623ee": {
         "verdict": "drop",
-        "reason": "2026 wave 1 add-in update about UI, search and tables, not the design controls.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Earlier add-in update (data picker search, tables), not the design controls.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/9X-IWRkI2GM#6@1e2ec5609b656b93": {
         "verdict": "drop",
-        "reason": "Manufacturing report layouts, a different topic.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Manufacturing report layouts; only shares the topic.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/fy96_jdL1PQ#14@35837054f782e3e2": {
         "verdict": "drop",
-        "reason": "General history of Word layouts and add-in plans; too general.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "General history of Word layouts and the add-in; too general.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/fy96_jdL1PQ#16@35837054f782e3e2": {
         "verdict": "drop",
-        "reason": "Blank zero and conditional visibility, not the design components.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Describes blank zero and conditional visibility, not the design controls.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/mS6NDhj20yI#0@c806ee19884b8096": {
         "verdict": "drop",
-        "reason": "Data picker UX improvements, a different capability.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Data picker UX improvement, a different capability.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/mS6NDhj20yI#1@c806ee19884b8096": {
         "verdict": "drop",
-        "reason": "Data picker search/filter, a different capability.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Data picker search and filter, a different capability.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/mS6NDhj20yI#2@c806ee19884b8096": {
         "verdict": "drop",
-        "reason": "Dark mode for data picker, a different capability.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Dark mode for the data picker, a different capability.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/mS6NDhj20yI#3@c806ee19884b8096": {
         "verdict": "drop",
-        "reason": "Insert table action, not among the listed design controls.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Insert table action, not one of the listed design controls.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/qCqe8uw8Od4#4@086fb8928f54c11a": {
         "verdict": "drop",
-        "reason": "Inventory report layout modernization, a different topic.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Inventory reports getting new layouts; only shares the topic.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/V8CSor5qBRE#0@e4976bba4f262c23": {
         "verdict": "drop",
-        "reason": "Original 2024 wave 2 add-in introduction, an older capability.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Original 2024 add-in release, an older capability.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/V8CSor5qBRE#6@e4976bba4f262c23": {
         "verdict": "drop",
-        "reason": "Word sections with merge data item, a different capability.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Word sections support, a different capability.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/vLcb31rfZ48#0@989ab553aaf1e6db": {
         "verdict": "drop",
-        "reason": "2025 wave 2 data picker, an older capability.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Data picker in the 2025 wave 2 add-in, an older capability.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/vLcb31rfZ48#1@989ab553aaf1e6db": {
         "verdict": "drop",
         "reason": "Add data action, an older capability.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/vLcb31rfZ48#2@989ab553aaf1e6db": {
         "verdict": "drop",
         "reason": "Add field functionality, an older capability.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/vLcb31rfZ48#3@989ab553aaf1e6db": {
         "verdict": "drop",
-        "reason": "Add repeater functionality, an older capability.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Repeater functionality, an older capability.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/XLUAuUWtJDw#2@ec7fe2500c51ea9d": {
         "verdict": "keep",
-        "reason": "Demonstrates the Address design control listed in the feature.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Shows the address design control, one of the feature's listed components.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/XLUAuUWtJDw#3@ec7fe2500c51ea9d": {
         "verdict": "keep",
-        "reason": "Demonstrates the Field group design control listed in the feature.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Shows the field group design control from the feature.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/XLUAuUWtJDw#4@ec7fe2500c51ea9d": {
         "verdict": "keep",
-        "reason": "Demonstrates the Amounts design control listed in the feature.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Shows the amounts design control from the feature.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/XLUAuUWtJDw#5@ec7fe2500c51ea9d": {
         "verdict": "keep",
-        "reason": "Demonstrates the Signature line design control listed in the feature.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Shows the signature line design control from the feature.",
+        "at": "2026-11-09T00:40:44.846Z"
       },
       "video/XLUAuUWtJDw#6@ec7fe2500c51ea9d": {
         "verdict": "keep",
-        "reason": "Demonstrates the Notes design control listed in the feature.",
-        "at": "2026-11-06T00:56:09.697Z"
+        "reason": "Shows the notes design control from the feature.",
+        "at": "2026-11-09T00:40:44.846Z"
       }
     },
     "573329": {
@@ -2385,75 +2385,70 @@
       }
     },
     "573332": {
-      "video/1x3QyBX3swg#18@32f478411c1184fc": {
+      "video/1x3QyBX3swg#19@6b658aba4bd595b4": {
         "verdict": "keep",
-        "reason": "Describes extension fields being merged into the base table in version 29, which is this feature.",
-        "at": "2026-11-06T00:56:08.965Z"
-      },
-      "video/1x3QyBX3swg#19@32f478411c1184fc": {
-        "verdict": "keep",
-        "reason": "Explains the faster runtime operations that come from merging extension fields into the base table.",
-        "at": "2026-11-06T00:56:08.965Z"
+        "reason": "Describes extension fields being merged into one table, with faster runtime operations and one SQL insert instead of two.",
+        "at": "2026-11-09T00:40:46.024Z"
       },
       "video/a1LQ3-SCtPE#0@d78d1d5343b3403b": {
         "verdict": "drop",
-        "reason": "Describes the older 2023 change to a single companion table, not storing fields in the base table.",
-        "at": "2026-11-06T00:56:08.965Z"
+        "reason": "Describes the older 2023 companion table model, not storing fields in the base table.",
+        "at": "2026-11-09T00:40:46.024Z"
       },
       "video/a1LQ3-SCtPE#1@d78d1d5343b3403b": {
         "verdict": "drop",
-        "reason": "The speed gain is for the older 2023 companion table model.",
-        "at": "2026-11-06T00:56:08.965Z"
+        "reason": "Delete speed gains from the older 2023 companion table model, a different capability.",
+        "at": "2026-11-09T00:40:46.024Z"
       },
       "video/a1LQ3-SCtPE#2@d78d1d5343b3403b": {
         "verdict": "drop",
-        "reason": "The speed gain is for the older 2023 companion table model.",
-        "at": "2026-11-06T00:56:08.965Z"
+        "reason": "Insert speed gains from the older 2023 companion table model, a different capability.",
+        "at": "2026-11-09T00:40:46.024Z"
       },
       "video/a1LQ3-SCtPE#3@d78d1d5343b3403b": {
         "verdict": "drop",
-        "reason": "The speed gain is for the older 2023 companion table model.",
-        "at": "2026-11-06T00:56:08.965Z"
+        "reason": "Modify speed gains from the older 2023 companion table schema, a different capability.",
+        "at": "2026-11-09T00:40:46.024Z"
       },
       "video/a1LQ3-SCtPE#4@d78d1d5343b3403b": {
         "verdict": "drop",
-        "reason": "The speed gain is for the older 2023 companion table model.",
-        "at": "2026-11-06T00:56:08.965Z"
+        "reason": "Read speed gains from the older 2023 companion table model, a different capability.",
+        "at": "2026-11-09T00:40:46.024Z"
       },
       "video/a1LQ3-SCtPE#5@d78d1d5343b3403b": {
         "verdict": "drop",
-        "reason": "The database size reduction is for the older 2023 companion table model.",
-        "at": "2026-11-06T00:56:08.965Z"
+        "reason": "Database size reduction from the older 2023 companion table model, a different capability.",
+        "at": "2026-11-09T00:40:46.024Z"
       },
       "video/PZVTTem-nZw#0@045f49d14ae59e33": {
         "verdict": "keep",
-        "reason": "States that in BC29 table extensions are stored in a single SQL table with the base table for better performance.",
-        "at": "2026-11-06T00:56:08.965Z"
+        "reason": "Explains that BC29 stores table extensions in a single SQL table with the base table to improve performance.",
+        "at": "2026-11-09T00:40:46.024Z"
       },
       "video/qABlX4AL3GM#0@49760ada4fba889a": {
         "verdict": "keep",
-        "reason": "Announces that BC29 stores table extension fields in the same table as the base table.",
-        "at": "2026-11-06T00:56:08.965Z"
+        "reason": "Announces that BC29 stores extension fields in the same database table as the base table.",
+        "at": "2026-11-09T00:40:46.024Z"
       },
       "video/qABlX4AL3GM#2@49760ada4fba889a": {
         "verdict": "keep",
-        "reason": "Explains faster data loading because all fields are now in a single table.",
-        "at": "2026-11-06T00:56:08.965Z"
+        "reason": "Explains the faster data loading that comes from storing all fields in one table.",
+        "at": "2026-11-09T00:40:46.024Z"
       },
       "video/Sh3ySQSTw-o#3@e4496cd7c1ef9d3b": {
         "verdict": "keep",
-        "reason": "Describes extension fields being stored back on the base table so no joins are needed.",
-        "at": "2026-11-06T00:56:08.965Z"
+        "reason": "Describes extension fields moving back onto the base table, which removes joins.",
+        "at": "2026-11-09T00:40:46.024Z"
       },
       "video/Sh3ySQSTw-o#4@e4496cd7c1ef9d3b": {
         "verdict": "keep",
-        "reason": "Shows the speed gains from removing joins with the new data model.",
-        "at": "2026-11-06T00:56:08.965Z"
+        "reason": "Shows the performance gains on database operations from the new data model.",
+        "at": "2026-11-09T00:40:46.024Z"
       },
       "video/TH70oJI4Ae0#1@ef7e774bc20a0233": {
         "verdict": "keep",
-        "reason": "Explains that BC29 stores extension fields in the same SQL table as base table fields, with better performance.",
-        "at": "2026-11-06T00:56:08.965Z"
+        "reason": "Explains that BC29 stores extension fields in the base SQL table for better performance.",
+        "at": "2026-11-09T00:40:46.024Z"
       }
     },
     "573333": {
@@ -2889,25 +2884,25 @@
       }
     },
     "573340": {
-      "video/5OZ0g5IgC8Q#6@b9b1eb81926195a8": {
+      "video/5OZ0g5IgC8Q#6@3b6f6d5fea2f5bae": {
         "verdict": "keep",
         "reason": "Describes the new setting that uses the Shopify order number as the Business Central sales document number.",
-        "at": "2026-11-04T00:55:26.795Z"
+        "at": "2026-11-09T00:40:39.560Z"
       },
       "video/StIVhsnOHWY#12@13a821aa5b7fa90a": {
         "verdict": "drop",
         "reason": "Covers the orders-to-import table for selective import, a different capability from controlling sales document creation.",
-        "at": "2026-11-04T00:55:26.795Z"
+        "at": "2026-11-09T00:40:39.560Z"
       },
       "video/StIVhsnOHWY#13@13a821aa5b7fa90a": {
         "verdict": "drop",
         "reason": "Covers selectively importing orders, not order numbering, contact review or return document type.",
-        "at": "2026-11-04T00:55:26.795Z"
+        "at": "2026-11-09T00:40:39.560Z"
       },
       "video/YSDfDjrMUb0#9@383757c6496e1047": {
         "verdict": "keep",
         "reason": "Mentions the new 'use Shopify order number' setting for sales documents, which is part of this feature.",
-        "at": "2026-11-04T00:55:26.795Z"
+        "at": "2026-11-09T00:40:39.560Z"
       }
     },
     "573341": {
@@ -3138,72 +3133,72 @@
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-22-2.md@31ac973f029315a6": {
         "verdict": "drop",
         "reason": "Announces the original 22.2 Shopify returns synchronization, an older capability, not exchange handling.",
-        "at": "2026-11-08T00:54:17.740Z"
+        "at": "2026-11-09T00:40:39.574Z"
       },
       "docs/learn-smb-docs/business-central/shopify/synchronize-orders.md@ad50a3dbcfa31249": {
         "verdict": "drop",
         "reason": "General order sync page that only lists returns and refunds processing without describing exchanges or moving negative lines.",
-        "at": "2026-11-08T00:54:17.740Z"
+        "at": "2026-11-09T00:40:39.574Z"
       },
       "video/3tmaVpPTQLw#19@61cd8e61943d79ab": {
         "verdict": "drop",
         "reason": "Cancel order action is a different capability.",
-        "at": "2026-11-08T00:54:17.740Z"
+        "at": "2026-11-09T00:40:39.574Z"
       },
       "video/3tmaVpPTQLw#21@61cd8e61943d79ab": {
         "verdict": "drop",
         "reason": "Describes 2024 order editing with refunds, an older capability, not the exchange/return processing added here.",
-        "at": "2026-11-08T00:54:17.740Z"
+        "at": "2026-11-09T00:40:39.574Z"
       },
       "video/3tmaVpPTQLw#22@61cd8e61943d79ab": {
         "verdict": "drop",
         "reason": "Older 2024 credit memo filtering for zero-value refunds, not exchange items on credit memos or return orders.",
-        "at": "2026-11-08T00:54:17.740Z"
+        "at": "2026-11-09T00:40:39.574Z"
       },
       "video/3tmaVpPTQLw#24@61cd8e61943d79ab": {
         "verdict": "drop",
         "reason": "Older 2024 re-sync action for order edits, a different capability.",
-        "at": "2026-11-08T00:54:17.740Z"
+        "at": "2026-11-09T00:40:39.574Z"
       },
       "video/3tmaVpPTQLw#26@61cd8e61943d79ab": {
         "verdict": "drop",
         "reason": "Older 2024 automatic credit memo creation for edit refunds, not exchange handling.",
-        "at": "2026-11-08T00:54:17.740Z"
+        "at": "2026-11-09T00:40:39.574Z"
       },
       "video/3tmaVpPTQLw#27@61cd8e61943d79ab": {
         "verdict": "drop",
         "reason": "Older 2024 edit-and-refund processing for paid orders, not the exchange feature.",
-        "at": "2026-11-08T00:54:17.740Z"
+        "at": "2026-11-09T00:40:39.574Z"
       },
-      "video/5OZ0g5IgC8Q#7@b9b1eb81926195a8": {
+      "video/5OZ0g5IgC8Q#7@3b6f6d5fea2f5bae": {
         "verdict": "drop",
         "reason": "About applying tax matching to refund documents, not exchanges or moving negative lines.",
-        "at": "2026-11-08T00:54:17.740Z"
+        "at": "2026-11-09T00:40:39.574Z"
       },
       "video/B-pxLlb-UN0#10@8bba2b4ec9abd436": {
         "verdict": "drop",
         "reason": "Only an API field change for return information, too general to tie to exchange processing.",
-        "at": "2026-11-08T00:54:17.740Z"
+        "at": "2026-11-09T00:40:39.574Z"
       },
       "video/p-pwG6f5srY#7@fa5e45737e3ae6af": {
         "verdict": "drop",
         "reason": "Return location priority setting is a different capability.",
-        "at": "2026-11-08T00:54:17.740Z"
+        "at": "2026-11-09T00:40:39.574Z"
       },
       "video/p-pwG6f5srY#8@fa5e45737e3ae6af": {
         "verdict": "drop",
         "reason": "Shipping charge item charge mapping is unrelated.",
-        "at": "2026-11-08T00:54:17.740Z"
+        "at": "2026-11-09T00:40:39.574Z"
       },
       "video/YSDfDjrMUb0#11@383757c6496e1047": {
         "verdict": "keep",
         "reason": "Describes support for Shopify exchanges and returns that produce multiple lines on sales documents, the core of this feature.",
-        "at": "2026-11-08T00:54:17.740Z"
+        "at": "2026-11-09T00:40:39.574Z"
       },
       "video/YSDfDjrMUb0#12@383757c6496e1047": {
         "verdict": "keep",
         "reason": "Shows processing refunds as return orders with positive and negative quantity lines, matching the exchange behavior.",
-        "at": "2026-11-08T00:54:17.740Z"
+        "at": "2026-11-09T00:40:39.574Z"
       }
     },
     "573344": {
@@ -4412,103 +4407,93 @@
     "573374": {
       "docs/learn-smb-docs/business-central/finance-sustainability-journal.md@5dfe7dfe2f181447": {
         "verdict": "drop",
-        "reason": "General journal Learn page listing journal formulas and purchase document emissions as separate items; it doesn't describe formulas on purchase lines.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "reason": "General journal page listing journal formulas and purchase document emissions as separate existing features, not formulas on purchase documents.",
+        "at": "2026-11-09T00:40:45.556Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-purchase.md@b274b53cf9eb2e3b": {
         "verdict": "drop",
-        "reason": "Describes the existing purchase-document emissions and value chain tracking, not formula calculation on purchase lines.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "reason": "Covers value chain and the existing purchase-document emissions toggle, not formula-based calculation on purchase lines.",
+        "at": "2026-11-09T00:40:45.556Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-setup.md@97eb108e95c84ff1": {
         "verdict": "drop",
-        "reason": "Value chain setup and carbon tracking methods are a different capability.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "reason": "Value chain setup and tracking methods are unrelated to purchase document formulas.",
+        "at": "2026-11-09T00:40:45.556Z"
       },
       "video/_ynMUzh956w#2@2e9b1f36e27e6884": {
         "verdict": "drop",
-        "reason": "Describes the 2024 journal formulas, an older capability, not formulas in purchase documents.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "reason": "Describes the 2024 journal formula capability, which is older and not in purchase documents.",
+        "at": "2026-11-09T00:40:45.556Z"
       },
       "video/_ynMUzh956w#9@2e9b1f36e27e6884": {
         "verdict": "drop",
-        "reason": "Emission factors used in sustainability journal calculations; nothing about purchase documents.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "reason": "Emission factors used in sustainability journal calculations are an older journal capability.",
+        "at": "2026-11-09T00:40:45.556Z"
       },
-      "video/2_yYu3RgYwo#4@b664164adec8653a": {
+      "video/2_yYu3RgYwo#7@e5a87bbd9ad8ec40": {
         "verdict": "drop",
-        "reason": "Default sustainability values setup is a different feature.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "reason": "Default sustainability values transferring to purchase lines is a different capability.",
+        "at": "2026-11-09T00:40:45.556Z"
       },
-      "video/2_yYu3RgYwo#7@b664164adec8653a": {
+      "video/6d6iajwQQ-c#1@2fc32f80bd51d03e": {
         "verdict": "drop",
-        "reason": "Default values carried over to purchase lines is a different capability from formula calculation.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "reason": "Value chain tracking through production documents is unrelated.",
+        "at": "2026-11-09T00:40:45.556Z"
       },
-      "video/6d6iajwQQ-c#1@f99f2d7960a566c9": {
+      "video/6d6iajwQQ-c#4@2fc32f80bd51d03e": {
         "verdict": "drop",
-        "reason": "Value chain tracking for production is unrelated to purchase-line formulas.",
-        "at": "2026-11-06T00:56:13.310Z"
-      },
-      "video/6d6iajwQQ-c#4@f99f2d7960a566c9": {
-        "verdict": "drop",
-        "reason": "Carbon equivalent on production orders is a different capability.",
-        "at": "2026-11-06T00:56:13.310Z"
-      },
-      "video/6d6iajwQQ-c#6@f99f2d7960a566c9": {
-        "verdict": "drop",
-        "reason": "Carbon equivalent on production BOMs is a different capability.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "reason": "Carbon equivalent on production orders is unrelated.",
+        "at": "2026-11-09T00:40:45.556Z"
       },
       "video/JBGuaqk5nXk#0@d3011fa28115c8f7": {
         "verdict": "drop",
         "reason": "Copilot CO2 calculation in journals is a different feature.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "at": "2026-11-09T00:40:45.556Z"
       },
       "video/JBGuaqk5nXk#6@d3011fa28115c8f7": {
         "verdict": "drop",
-        "reason": "Copilot explanations of its calculations are a different feature.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "reason": "Copilot calculation explanations are a different feature.",
+        "at": "2026-11-09T00:40:45.556Z"
       },
       "video/JoGW2xlIq0I#3@95b48d89d0d03acc": {
         "verdict": "drop",
-        "reason": "Collecting emissions for assembly orders is a different value chain capability.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "reason": "Collecting emissions from posted purchase invoices for assembly orders is a different feature.",
+        "at": "2026-11-09T00:40:45.556Z"
       },
       "video/lcy36b9GS38#1@437cd523065442b8": {
         "verdict": "drop",
-        "reason": "General scope 3 value chain overview, not purchase-line formulas.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "reason": "General value chain automation overview, not purchase document formulas.",
+        "at": "2026-11-09T00:40:45.556Z"
       },
       "video/NYG4pOtW-Xw#11@8ef20b3a7c778cb9": {
         "verdict": "drop",
-        "reason": "Manual emission entry on purchase invoices is the older capability, without formulas.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "reason": "Manual emissions entry on purchase invoices is the older capability without formulas.",
+        "at": "2026-11-09T00:40:45.556Z"
       },
       "video/NYG4pOtW-Xw#2@8ef20b3a7c778cb9": {
         "verdict": "drop",
-        "reason": "Direct emission entry in purchase documents is the older capability, without formulas.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "reason": "Direct emissions entry in purchase documents is the older capability, not formula-based calculation.",
+        "at": "2026-11-09T00:40:45.556Z"
       },
       "video/Sc8eGyMkBTA#0@66065a06d447af10": {
         "verdict": "drop",
-        "reason": "Value chain for projects is a different capability.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "reason": "Value chain in projects is a different feature.",
+        "at": "2026-11-09T00:40:45.556Z"
       },
       "video/Sc8eGyMkBTA#5@66065a06d447af10": {
         "verdict": "drop",
-        "reason": "Turning on value chain tracking is a different setup option.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "reason": "Value chain tracking setup field is not the formula toggle.",
+        "at": "2026-11-09T00:40:45.556Z"
       },
       "video/t_UXxbvgnHY#0@13bd58c8ea9ff88a": {
         "verdict": "keep",
-        "reason": "Announces that sustainability formulas are now available on purchase orders and invoices, working the same way as in journals.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "reason": "Directly announces sustainability formulas on purchase orders and invoices that work the same way as in journals.",
+        "at": "2026-11-09T00:40:45.556Z"
       },
       "video/uan4dV9eVCA#4@1c46376c931ac53e": {
         "verdict": "drop",
-        "reason": "Describes emission formulas in general without tying them to purchase documents.",
-        "at": "2026-11-06T00:56:13.310Z"
+        "reason": "Describes general emission formulas in journals without tying them to purchase documents.",
+        "at": "2026-11-09T00:40:45.556Z"
       }
     },
     "573375": {
@@ -4565,48 +4550,53 @@
     "573378": {
       "docs/learn-smb-docs/business-central/finance-sustainability-journal.md@5dfe7dfe2f181447": {
         "verdict": "drop",
-        "reason": "Describes general sustainability journals, not carbon tracking in item or item reclassification journals.",
-        "at": "2026-10-31T01:00:23.000Z"
+        "reason": "Describes general sustainability journals, not emissions tracking in item or item reclassification journals.",
+        "at": "2026-11-09T00:40:40.869Z"
       },
       "docs/learn-smb-docs/business-central/inventory-how-transfer-between-locations.md@dabf2e0d1fd3a6da": {
         "verdict": "drop",
-        "reason": "Covers transferring items between locations with no mention of emissions tracking.",
-        "at": "2026-10-31T01:00:23.000Z"
+        "reason": "Covers transferring inventory between locations with no carbon or emissions content.",
+        "at": "2026-11-09T00:40:40.869Z"
       },
       "docs/learn-smb-docs/business-central/reports/report-6298.md@c059bed0696bf4bf": {
         "verdict": "drop",
-        "reason": "Sales quote report with CO2e figures is a different capability.",
-        "at": "2026-10-31T01:00:23.000Z"
+        "reason": "Sales quote report with CO2e fields is a different capability.",
+        "at": "2026-11-09T00:40:40.869Z"
       },
       "docs/learn-smb-docs/business-central/reports/report-6299.md@d5c3bd192d9e4cd4": {
         "verdict": "drop",
-        "reason": "Sales invoice report with CO2e figures is a different capability.",
-        "at": "2026-10-31T01:00:23.000Z"
+        "reason": "Sales invoice report with CO2e fields is a different capability.",
+        "at": "2026-11-09T00:40:40.869Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-item-journals.md@7de439ca479f5584": {
         "verdict": "keep",
-        "reason": "Documents recording emissions in item journals and item reclassification journals that create sustainability value entries.",
-        "at": "2026-10-31T01:00:23.000Z"
+        "reason": "Documents recording item emissions and reclassifications in item journals to create sustainability value entries.",
+        "at": "2026-11-09T00:40:40.869Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-overview.md@93fee9fb3ff1e4a7": {
         "verdict": "drop",
-        "reason": "General overview of the 2025 wave 1 value chain features; it doesn't describe item journal emissions.",
-        "at": "2026-10-31T01:00:23.000Z"
+        "reason": "General value chain overview from an earlier release that doesn't mention item journals or item reclassification journals.",
+        "at": "2026-11-09T00:40:40.869Z"
       },
-      "video/6d6iajwQQ-c#0@f99f2d7960a566c9": {
+      "video/6d6iajwQQ-c#0@2fc32f80bd51d03e": {
         "verdict": "drop",
-        "reason": "Describes the earlier sustainability value entries for purchase, transfer, assembly and production, not item journals.",
-        "at": "2026-10-31T01:00:23.000Z"
+        "reason": "Covers sustainability value entries for purchases, transfers, assembly and production, not item journals.",
+        "at": "2026-11-09T00:40:40.869Z"
       },
-      "video/6d6iajwQQ-c#5@f99f2d7960a566c9": {
+      "video/6d6iajwQQ-c#5@2fc32f80bd51d03e": {
         "verdict": "drop",
-        "reason": "Covers emissions in production journals, a different capability.",
-        "at": "2026-10-31T01:00:23.000Z"
+        "reason": "Production, consumption and output journal emissions are a different capability.",
+        "at": "2026-11-09T00:40:40.869Z"
+      },
+      "video/Sc8eGyMkBTA#1@66065a06d447af10": {
+        "verdict": "drop",
+        "reason": "Sustainability FastTab on items is a different capability.",
+        "at": "2026-11-09T00:40:40.869Z"
       },
       "video/t_UXxbvgnHY#2@13bd58c8ea9ff88a": {
         "verdict": "keep",
         "reason": "Announces value chain emissions tracking in item journals and item reclassification journals.",
-        "at": "2026-10-31T01:00:23.000Z"
+        "at": "2026-11-09T00:40:40.869Z"
       }
     },
     "573379": {
@@ -4980,53 +4970,48 @@
     "574128": {
       "docs/learn-smb-docs/business-central/shopify-tax-matching-application-card.md@4bde9bbfe2f22dd5": {
         "verdict": "keep",
-        "reason": "This Learn page is specifically about Shopify Tax Matching: it maps free-text tax lines to jurisdictions, with review modes and confidence levels.",
-        "at": "2026-11-04T00:55:13.499Z"
+        "reason": "The application card describes Shopify Tax Matching itself: AI mapping of free-text tax lines to jurisdictions, review modes and confidence levels.",
+        "at": "2026-11-09T00:40:44.735Z"
       },
       "docs/learn-smb-docs/business-central/shopify/shopify-tax-matching.md@f0e4b3cd50e502ef": {
         "verdict": "keep",
-        "reason": "It documents how to set up and use this feature, including review modes and the settings for creating missing jurisdictions and tax areas.",
-        "at": "2026-11-04T00:55:13.499Z"
+        "reason": "The setup page documents how to configure and use Shopify Tax Matching, including review modes and auto-create options.",
+        "at": "2026-11-09T00:40:44.735Z"
       },
       "docs/learn-smb-docs/business-central/shopify/synchronize-orders.md@ad50a3dbcfa31249": {
         "verdict": "keep",
-        "reason": "Its tax handling section names Shopify Tax Matching as a feature of order sync, though it doesn't describe how the feature works.",
-        "at": "2026-11-04T00:55:13.499Z"
+        "reason": "The order sync page lists Shopify Tax Matching as one of its topics, which suggests it has a section documenting the feature.",
+        "at": "2026-11-09T00:40:44.735Z"
       },
-      "video/5OZ0g5IgC8Q#0@b9b1eb81926195a8": {
+      "video/5OZ0g5IgC8Q#0@3b6f6d5fea2f5bae": {
         "verdict": "keep",
-        "reason": "The video introduces the AI capability that matches Shopify tax information to tax jurisdictions.",
-        "at": "2026-11-04T00:55:13.499Z"
+        "reason": "The video segment introduces the AI capability that matches Shopify tax information to tax jurisdictions.",
+        "at": "2026-11-09T00:40:44.735Z"
       },
-      "video/5OZ0g5IgC8Q#1@b9b1eb81926195a8": {
+      "video/5OZ0g5IgC8Q#1@3b6f6d5fea2f5bae": {
         "verdict": "keep",
-        "reason": "It shows the feature assigning tax area codes and creating missing tax areas with a configurable prefix.",
-        "at": "2026-11-04T00:55:13.499Z"
+        "reason": "The video segment shows the AI assigning or creating tax areas, which is part of the feature.",
+        "at": "2026-11-09T00:40:44.735Z"
       },
-      "video/5OZ0g5IgC8Q#2@b9b1eb81926195a8": {
+      "video/5OZ0g5IgC8Q#2@3b6f6d5fea2f5bae": {
         "verdict": "keep",
-        "reason": "It shows the window for reviewing and approving the AI's suggested matches.",
-        "at": "2026-11-04T00:55:13.499Z"
+        "reason": "The video segment shows the review and approval window for AI-suggested jurisdictions and rates.",
+        "at": "2026-11-09T00:40:44.735Z"
       },
-      "video/5OZ0g5IgC8Q#3@b9b1eb81926195a8": {
+      "video/5OZ0g5IgC8Q#4@3b6f6d5fea2f5bae": {
         "verdict": "keep",
-        "reason": "It covers how the TaxMatch capability gets installed for US localizations.",
-        "at": "2026-11-04T00:55:13.499Z"
+        "reason": "The video segment shows the configuration settings: the on/off toggle, permission to create jurisdictions and areas, and the review mode.",
+        "at": "2026-11-09T00:40:44.735Z"
       },
-      "video/5OZ0g5IgC8Q#4@b9b1eb81926195a8": {
+      "video/5OZ0g5IgC8Q#5@3b6f6d5fea2f5bae": {
         "verdict": "keep",
-        "reason": "It shows the feature's settings: the on/off toggle, permission to create jurisdictions and areas, the prefix, and the review mode.",
-        "at": "2026-11-04T00:55:13.499Z"
-      },
-      "video/5OZ0g5IgC8Q#5@b9b1eb81926195a8": {
-        "verdict": "keep",
-        "reason": "It shows rate-difference detection, which always requires review before a sales document is created.",
-        "at": "2026-11-04T00:55:13.499Z"
+        "reason": "The video segment shows how rate differences are detected and resolved, which the feature says always require review.",
+        "at": "2026-11-09T00:40:44.735Z"
       },
       "video/YSDfDjrMUb0#15@383757c6496e1047": {
         "verdict": "drop",
-        "reason": "It describes manually overriding the tax area code and tax liable fields, which is a separate capability from AI tax matching.",
-        "at": "2026-11-04T00:55:13.499Z"
+        "reason": "Manually overriding the tax area code on Shopify orders is a different capability from AI tax-line matching.",
+        "at": "2026-11-09T00:40:44.735Z"
       }
     },
     "576751": {

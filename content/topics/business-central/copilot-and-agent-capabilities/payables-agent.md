@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,16 +70,17 @@ links:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
   videos:
-    - video/_JkZCp64jNw
     - video/FBrZwXpOhmM
     - video/H5EuObmeF4o
     - video/OvI9jaA1mJY
     - video/uh5S1i7uDlo
+    - video/Wc8WlLZUCJc
     - video/YsmwHqxL1Zc
   posts:
     - post/demiliani-com/12076
     - post/thinkaboutit-be/7496
     - post/yzhums-com/65721
+    - post/yzhums-com/68482
     - post/yzhums-com/72842
     - post/yzhums-com/75245
   guidelines: []
@@ -95,7 +96,7 @@ coverage:
   learn: 5
   code: 4
   video: 6
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms:
   - 3304
@@ -148,15 +149,16 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9572 Obsolete E-Document Purchase Order Matching Copilot](../../../changes/bcapps/9572.md) (code change): "E-Document Purchase Order Matching Copilot objects are marked obsolete"
 - [Dynamics 365 Business Central: introducing the Payables Agent.](../../../posts/demiliani-com/12076.md) (community post): "Payables Agent in Business Central; automates accounts payable tasks by sourcing vendor invoices"
 - [Quick Tip: Business Central Update 27.3 – What’s New](../../../posts/thinkaboutit-be/7496.md) (community post): "Payables Agent now matches purchase invoices to orders intelligently"
-- [Business Central 2025 wave 1 (BC26.3): Automate payables processes with the Payables Agent](../../../posts/yzhums-com/65721.md) (community post): "The Payables Agent in Business Central 2025 wave 1 automates accounts payable work."
+- [Business Central 2025 wave 1 (BC26.3): Automate payables processes with the Payables Agent](../../../posts/yzhums-com/65721.md) (community post): "Payables Agent in Business Central 2025 wave 1 automates accounts payable work"
+- [Dynamics 365 Business Central: How to hide the Sales Order Agent and Payables Agent icons in the upper right corner](../../../posts/yzhums-com/68482.md) (community post): "Payables Agent processes vendor invoices end-to-end to reduce accounting bottlenecks"
 - [Business Central 2026 release wave 1 (BC28.1): Create new Purchase Invoice from PDF (Out-of-the-Box)](../../../posts/yzhums-com/72842.md) (community post): "Payables Agent can create purchase invoices from a PDF"
 - [Business Central 2026 release wave 1 (BC28.4): Speed up processing with Known Senders in Payables Agent](../../../posts/yzhums-com/75245.md) (community post): "Known Senders in the Payables Agent, allowing administrators to define trusted email senders"
-- [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../../../videos/_JkZCp64jNw.md) (video): "Payables Agent; E-Document Connector; Purchase Document Draft Page; Payables Agent Public Preview"
-- [What's Cooking in Business Central: Agent Reasoning and Transparency](../../../videos/FBrZwXpOhmM.md) (video): "agent reasoning; transparency; payables agent; trust; ai adoption"
-- [Everything Coming to Business Central 2025 Wave 2 (You Need to Know This)](../../../videos/H5EuObmeF4o.md) (video): "Payables agent contextual invoice drafts; Match purchase invoices"
-- [What's New: Payables Agent (2026 release wave 1)](../../../videos/OvI9jaA1mJY.md) (video): "Payables Agent free trial and credit-based pricing"
-- [Transform Vendor Invoice Processing With the Payables Agent in Dynamics 365 Business Central (2025)](../../../videos/uh5S1i7uDlo.md) (video): "Payables agent; vendor invoice processing; ai automation; intelligent automation"
-- [Introducing: Payables Agent (2025 release wave 1)](../../../videos/YsmwHqxL1Zc.md) (video): "Payables Agent; E-document connector for Microsoft 365; Invoice approval workflow"
+- [What's Cooking in Business Central: Agent Reasoning and Transparency](../../../videos/FBrZwXpOhmM.md) (video): "Agent Reasoning Display; Payables Agent"
+- [Everything Coming to Business Central 2025 Wave 2 (You Need to Know This)](../../../videos/H5EuObmeF4o.md) (video): "Enhanced sales order agent; Payables agent contextual invoice drafts"
+- [What's New: Payables Agent (2026 release wave 1)](../../../videos/OvI9jaA1mJY.md) (video): "payables agent; invoice matching; purchase order lines; e-documents"
+- [Transform Vendor Invoice Processing With the Payables Agent in Dynamics 365 Business Central (2025)](../../../videos/uh5S1i7uDlo.md) (video): "Transform Vendor Invoice Processing With the Payables Agent"
+- [Infinity Group Internal AI Transformation](../../../videos/Wc8WlLZUCJc.md) (video): "Supplier invoicing automation; Data consolidation for AI"
+- [Introducing: Payables Agent (2025 release wave 1)](../../../videos/YsmwHqxL1Zc.md) (video): "Payables Agent; E-document connector for Microsoft 365; Inbound e-document"
 
 ## Business Central pages and reports
 

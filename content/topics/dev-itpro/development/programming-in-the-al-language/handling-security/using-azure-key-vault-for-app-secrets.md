@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:15.866Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,6 +67,7 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/aardvarklabs-blog/1609
     - post/aardvarklabs-blog/2640
     - post/aardvarklabs-blog/3460
     - post/kauffmann-nl/8332
@@ -87,7 +88,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: ded668fce5698d554014a03cb0248739e1b8cce7882db2d6f6f80adf71b920e1
@@ -159,6 +160,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12557 Implement first-party app authentication for Microsoft Fabric Export](../../../../../changes/bcapps/12557.md) (code change): "Implement first-party app authentication for Microsoft Fabric Export"
 - [#13326 [Fabric] Clean up test events, app naming, authentication and telemetry](../../../../../changes/bcapps/13326.md) (code change): "removed the unused Key Vault first-party client-ID lookup"
 - [#8999 Migrate Recommended Apps & Connectivity Apps to Official Marketplace Catalog API](../../../../../changes/bcapps/8999.md) (code change): "Integrated Azure Key Vault for secure API key management"
+- [Integrating AI in Business Central: A Step-by-Step Guide](../../../../../posts/aardvarklabs-blog/1609.md) (community post): "Azure OpenAI resources and credentials must be securely stored in Isolated Storage"
 - [Securing Sensitive Data in Business Central AL using SecretText](../../../../../posts/aardvarklabs-blog/2640.md) (community post): "SecretText can be retrieved from Isolated Storage or Azure Vault"
 - [Native SFTP Support in Business Central 28](../../../../../posts/aardvarklabs-blog/3460.md) (community post): "Sensitive FTP credentials should be stored using Isolated Storage with SecretText"
 - [OAuth library for the Rest Client](../../../../../posts/kauffmann-nl/8332.md) (community post): "Features certificate-based authentication with easy certificate generation"

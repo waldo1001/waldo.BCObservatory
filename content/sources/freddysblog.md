@@ -2,7 +2,7 @@
 id: source/freddysblog
 type: source
 title: Freddys blog
-summary: "Freddys blog (Freddy Kristiansen): 10 posts in the knowledge base, 2026-08-04 to 2026-09-15, mostly about development, platform, administration."
+summary: "Freddys blog (Freddy Kristiansen): 11 posts in the knowledge base, 2026-08-04 to 2026-11-07, mostly about development, platform, administration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-11-09T00:15:52.409Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 66a7ffb459a5815b1b170d960ba09c154f501c5411fb8a952a9a7c3834773222
+  input_hash: 4aeaabbf16aeadebca7d10a828a0bd370ca70f06de67a3c4b3f0bd78282d56ec
 evidence:
   - kind: blog
     url: https://freddysblog.com
@@ -43,6 +43,7 @@ links:
     - post/freddysblog/https-freddysblog-com-2026-08-23-which-model-should-you-use-for-which-task--faa80c64bd
     - post/freddysblog/https-freddysblog-com-2026-08-25-what-is-algoctl--ae9aa76dbf
     - post/freddysblog/https-freddysblog-com-2026-09-15-the-end-justifies-the-means--e3dd182ef6
+    - post/freddysblog/https-freddysblog-com-2026-11-07-directions-emea-2026--4bd603011b
   guidelines: []
 source_id: freddysblog
 kind: blog
@@ -50,17 +51,17 @@ url: https://freddysblog.com
 author: Freddy Kristiansen
 mvp: false
 full_text: false
-item_count: 10
+item_count: 11
 footprint:
   systems:
     - id: development
-      weight: 12
+      weight: 14
     - id: platform
-      weight: 9
+      weight: 10
     - id: administration
       weight: 5
     - id: copilot
-      weight: 4
+      weight: 5
     - id: integration
       weight: 1
   topics:
@@ -70,6 +71,8 @@ footprint:
       weight: 3
     - id: fkh
       weight: 3
+    - id: agents
+      weight: 2
     - id: authentication
       weight: 2
     - id: automation
@@ -78,21 +81,23 @@ footprint:
       weight: 2
     - id: cost optimization
       weight: 2
+    - id: devops
+      weight: 2
     - id: security
       weight: 2
-    - id: agent behavior
+  objects:
+    - id: other BCApps repository
       weight: 1
-    - id: agents
+    - id: other Fkh (Freddy's Kubernetes Helper)
       weight: 1
-  objects: []
   features: []
 first_item: "2026-08-04"
-last_item: "2026-09-15"
+last_item: "2026-11-07"
 ---
 
 # Freddys blog
 
-> Freddys blog (Freddy Kristiansen): 10 posts in the knowledge base, 2026-08-04 to 2026-09-15, mostly about development, platform, administration.
+> Freddys blog (Freddy Kristiansen): 11 posts in the knowledge base, 2026-08-04 to 2026-11-07, mostly about development, platform, administration.
 
 [https://freddysblog.com](https://freddysblog.com) · blog · tier community
 
@@ -100,25 +105,27 @@ last_item: "2026-09-15"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (12) | kubernetes (4) |  |
-| platform (9) | azure (3) |  |
+| development (14) | kubernetes (4) | other BCApps repository (1) |
+| platform (10) | azure (3) | other Fkh (Freddy's Kubernetes Helper) (1) |
 | administration (5) | fkh (3) |  |
-| copilot (4) | authentication (2) |  |
-| integration (1) | automation (2) |  |
+| copilot (5) | agents (2) |  |
+| integration (1) | authentication (2) |  |
+|  | automation (2) |  |
 |  | containers (2) |  |
 |  | cost optimization (2) |  |
+|  | devops (2) |  |
 |  | security (2) |  |
-|  | agent behavior (1) |  |
-|  | agents (1) |  |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
 - 2026-Q3: ********** 10
+- 2026-Q4: * 1
 
 ## Most recent
 
+- [Directions EMEA 2026 Reflections](../posts/freddysblog/https-freddysblog-com-2026-11-07-directions-emea-2026--4bd603011b.md) (2026-11-07)
 - [The End Justifies the Means](../posts/freddysblog/https-freddysblog-com-2026-09-15-the-end-justifies-the-means--e3dd182ef6.md) (2026-09-15)
 - [What is ALGoCtl?](../posts/freddysblog/https-freddysblog-com-2026-08-25-what-is-algoctl--ae9aa76dbf.md) (2026-08-25)
 - [Which AI Model Should You Use for Which Task?](../posts/freddysblog/https-freddysblog-com-2026-08-23-which-model-should-you-use-for-which-task--faa80c64bd.md) (2026-08-23)

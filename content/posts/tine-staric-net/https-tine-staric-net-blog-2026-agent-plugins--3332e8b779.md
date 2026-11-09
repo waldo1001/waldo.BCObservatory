@@ -21,7 +21,7 @@ review:
   at: "2026-10-08T01:54:45.108Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-09T00:15:52.409Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -75,7 +75,7 @@ preview:
   image_h: null
   site_name: Tech Adventures in Business Central | AL Development & AI Solutions
   favicon: https://tine.staric.net/favicon.ico
-  probed_at: "2026-10-07T11:50:15.520Z"
+  probed_at: "2026-11-09T00:38:59.075Z"
 ---
 
 # Distributing Agents with Plugins

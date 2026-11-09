@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:17.006Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,6 +43,8 @@ links:
   localizations: []
   videos:
     - video/_1LhwG2ZgFw
+    - video/2isrH3RcSK8
+    - video/bCIcq1zESKk
     - video/cZCSi6khZFo
   posts:
     - post/yzhums-com/68672
@@ -58,7 +60,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 2
+  video: 4
   blog: 1
   guideline: 0
 bc_forms: []
@@ -103,6 +105,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13506 Upgrade Marketing Text, Sales Lines Suggestions, and Item Substitution to GPT-5.6](../../../changes/bcapps/13506.md) (code change): "Sales Lines Suggestions AI calls updated to GPT-5.6 Ceres latest."
 - [Dynamics 365 Business Central Blog Series: Handle CSV (comma-separated values) files](../../../posts/yzhums-com/68672.md) (community post): "Copilot can suggest sales lines from a CSV file"
 - [What's New: Sales Lines Suggestions with Copilot (2024 release wave 1)](../../../videos/_1LhwG2ZgFw.md) (video): "sales line suggestions; copilot; keyword extraction; context understanding"
-- [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../../../videos/cZCSi6khZFo.md) (video): "Sales Line Suggestion with Copilot; Item Search via Attributes and Catalog"
+- [Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening](../../../videos/2isrH3RcSK8.md) (video): "Copilot item substitution generation; Copilot number series generation"
+- [What's New: Item Substitution with Copilot (2024 release wave 2)](../../../videos/bCIcq1zESKk.md) (video): "Sales line suggestion with Copilot; Data search enhancement"
+- [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../../../videos/cZCSi6khZFo.md) (video): "Sales Lines Suggestions with Copilot; natural language processing"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

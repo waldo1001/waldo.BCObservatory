@@ -12,7 +12,7 @@ review:
   at: "2026-11-07T01:06:35.638Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -474,9 +474,14 @@ links:
     - video/e5Dr3jzCLM8
     - video/fatcqVFrTXI
     - video/fdP1HKBEDjA
+    - video/PB2ZG8fM3EE
     - video/PIWxU93eCT4
+    - video/TSLXzbeyE7Y
   posts:
+    - post/aardvarklabs-blog/2759
+    - post/demiliani-com/11739
     - post/duiliotacconi-com/1667
+    - post/gerardorenteria-blog/14595
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561
@@ -553,8 +558,8 @@ children:
 coverage:
   learn: 133
   code: 138
-  video: 4
-  blog: 19
+  video: 6
+  blog: 22
   guideline: 0
 bc_forms:
   - 7
@@ -826,7 +831,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9947 Allow long localized sales and purchase line type captions](../../../changes/bcapps/9947.md) (code change): "Sales and purchase document subforms no longer fail when a localized line type caption is longer than 20 characters"
 - [#9960 [Extensibility Request] issue 30396: expose sales document lookup](../../../changes/bcapps/9960.md) (code change): "The lookup procedure in the Copy Sales Document report is now public"
 - [#9984 [Main] Error with unposted prepayment amounts on Order](../../../changes/bcapps/9984.md) (code change): "unposted prepayment amounts on sales and purchase orders"
+- [Using CoPilot to Upgrade Service Notes for Invoices in Business Central AL](../../../posts/aardvarklabs-blog/2759.md) (community post): "customer-facing text for invoices in Business Central using Copilot"
+- [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../../posts/demiliani-com/11739.md) (community post): "reads customer emails, clarifies missing details over multi-turn email, checks item availability"
 - [Sorting by Type and Line No. in Sales and Purchase Postings](../../../posts/duiliotacconi-com/1667.md) (community post): "sales and purchase posting process lines ordered by Type and then Line No."
+- [New Application Ideas of Dynamics 365 Business Central (2026 APR)](../../../posts/gerardorenteria-blog/14595.md) (community post): "Community-submitted feature ideas span multiple Business Central modules including finance, sales, purchasing"
 - [How to Email Posted Sales Shipments and Return Receipts in Business Central 2026 Wave 1.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97.md) (community post): "email delivery, PDF generation, and attachment management for Posted Sales Shipments"
 - [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md) (community post): "Shipping Agent Code and Shipping Agent Service Code exist on both Sales Order fields"
 - [BC Friday Tips #74 Copy Document and Custom Field](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md) (community post): "Custom fields added to Sales tables are automatically included when users copy documents"
@@ -848,7 +856,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Introducing: Shopify and Dynamics 365 Business Central (2023)](../../../videos/e5Dr3jzCLM8.md) (video): "Automatic order fulfillment; financial visibility and reporting"
 - [Comparing Entering Receivables Transactions in Dynamics SL to Dynamics 365 Business Central](../../../videos/fatcqVFrTXI.md) (video): "Sales invoice entry in Business Central"
 - [Comparing entering Receivables Transactions in Dynamics GP to Dynamics 365 Business Central (2024)](../../../videos/fdP1HKBEDjA.md) (video): "Sales invoices document in Business Central"
+- [What's New: Autofill Fields with Copilot (2025 release wave 1)](../../../videos/PB2ZG8fM3EE.md) (video): "Copilot autofill for card and document pages; Most recently used"
 - [What's Cooking in Business Central: Edit Sales Price Lists in Excel](../../../videos/PIWxU93eCT4.md) (video): "sales price lists; excel integration; edit prices"
+- [What's new: Explore the new Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../videos/TSLXzbeyE7Y.md) (video): "sales data analysis; customer insights; Copilot recommendations for sales"
 
 ## Business Central pages and reports
 

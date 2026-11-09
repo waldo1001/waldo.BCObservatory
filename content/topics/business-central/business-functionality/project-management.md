@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:19.424Z"
   flags: []
 generated:
-  at: "2026-10-30T01:11:59.976Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -379,7 +379,6 @@ links:
   localizations: []
   videos:
     - video/dD_2NEs3A40
-    - video/GwrMf1umTFg
     - video/MgWlmZAlqGI
     - video/NI6WYze-JSU
     - video/pEXl-POet_4
@@ -404,7 +403,7 @@ children:
 coverage:
   learn: 43
   code: 61
-  video: 7
+  video: 6
   blog: 0
   guideline: 0
 bc_forms:
@@ -528,7 +527,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9280 Project Task Billing Method reverts to original value in project card without validation or error](../../../changes/bcapps/9280.md) (code change): "Project Task Billing Method field now persists correctly when changed from One Customer to Multiple Customers"
 - [#9315 [Projects] Add Assigned Resources to projects and project tasks](../../../changes/bcapps/9315.md) (code change): "Projects now support assigning resources at the project level or to specific posting-type tasks"
 - [What's New: Project Management (2024 release wave 1)](../../../videos/dD_2NEs3A40.md) (video): "Jobs renamed to Projects; Project details box visible by default"
-- [What's new in Expense Agent: Project Handling (2026 release wave 2)](../../../videos/GwrMf1umTFg.md) (video): "Project tracking in Expense Agent web app; Project visibility options"
 - [What's New: Entering and Approving Time Sheets (2024 release wave 1)](../../../videos/MgWlmZAlqGI.md) (video): "time sheet entry; time sheet approval; context-aware actions"
 - [Expense Agent: Project Expenses (2026 release wave 1)](../../../videos/NI6WYze-JSU.md) (video): "Project tracking configuration in Expense Agent setup"
 - [What's New: Project and Service Management (2024 release wave 1)](../../../videos/pEXl-POet_4.md) (video): "directed put-away; warehouse pick; project locations"

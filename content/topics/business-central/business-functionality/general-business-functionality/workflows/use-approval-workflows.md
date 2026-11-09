@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:53.100Z"
   flags: []
 generated:
-  at: "2026-10-29T21:38:16.952Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -82,7 +82,8 @@ links:
   topics:
     - topic/business-central/business-functionality/general-business-functionality/workflows
   localizations: []
-  videos: []
+  videos:
+    - video/qZALauRY_So
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44
     - post/olofsimren-com/3779
@@ -101,7 +102,7 @@ children: []
 coverage:
   learn: 6
   code: 9
-  video: 0
+  video: 1
   blog: 5
   guideline: 0
 bc_forms:
@@ -165,6 +166,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: How to hide the confirmation message (An approval request has been sent) when sending an Approval Request?](../../../../../posts/yzhums-com/70683.md) (community post): "Workflows automate approval processes for sensitive business records"
 - [Business Central 2026 release wave 1 (BC28): Include approvals for requisition worksheets and item journals in your workflows (New standard workflows)](../../../../../posts/yzhums-com/71039.md) (community post): "extends approval workflows to item journals and requisition/planning worksheets"
 - [Business Central 2026 release wave 1 (BC28): Newly added Workflow Templates (Item Journals & Requisition Worksheets) missing in upgraded environments](../../../../../posts/yzhums-com/72806.md) (community post): "Item journals and requisition worksheets now support approval workflows in BC28"
+- [Introducing: Approvals for the Expense Agent (2026 release wave 1)](../../../../../videos/qZALauRY_So.md) (video): "Team-based Approval Setup; Approval Notifications via Email"
 
 ## Business Central pages and reports
 

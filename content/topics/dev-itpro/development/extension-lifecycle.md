@@ -12,7 +12,7 @@ review:
   at: "2026-10-30T08:08:27.409Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -287,6 +287,7 @@ links:
     - video/weDf53bJOL4
     - video/WU2fLjIQSuU
   posts:
+    - post/bertverbeek-nl/1290
     - post/demiliani-com/12116
     - post/demiliani-com/12123
     - post/demiliani-com/12422
@@ -314,7 +315,7 @@ coverage:
   learn: 35
   code: 0
   video: 5
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms:
   - 149000
@@ -380,6 +381,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9601 Reset workflow templates no longer removes steps from active workflows](../../../changes/bcapps/9601.md) (code change): "Reset workflow templates no longer removes steps from active workflows"
 - [#177 Add retention policy knowledge to the privacy domain](../../../changes/bcquality/177.md) (code change): "Added guidance to the privacy domain in BCQuality about registering extension-owned tables"
 - [#93 Fix lifecycle compatibility guidance](../../../changes/bcquality/93.md) (code change): "Knowledge articles and samples on error handling, events, interfaces, upgrade, testing, web services"
+- [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "BC agents suit large-scale email processing and data entry tasks"
 - [Dynamics 365 Business Central: automatic PTE unpublishing after update.](../../../posts/demiliani-com/12116.md) (community post): "automatically unpublishes PTE versions that are no longer installed"
 - [Dynamics 365 Business Central on-prem: be careful when referencing .NET assemblies across versions.](../../../posts/demiliani-com/12123.md) (community post): "extensions must be compiled with .NET Standard assemblies when published to service tiers"
 - [Dynamics 365 Business Central on-premises: accessing embedded in-app resources from runtime packages.](../../../posts/demiliani-com/12422.md) (community post): "Extensions can declare resource folders using the resourceFolders property"

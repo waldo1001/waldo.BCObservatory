@@ -21,7 +21,7 @@ review:
   at: "2026-10-08T01:55:26.425Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-11-09T00:15:52.409Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -103,7 +103,7 @@ preview:
   image_h: null
   site_name: Stefan Maron
   favicon: https://stefanmaron.com/icons/favicon-32x32.png
-  probed_at: "2026-10-07T11:50:30.633Z"
+  probed_at: "2026-11-09T00:39:04.125Z"
 ---
 
 # AL Runner: Run AL Unit Tests Without a BC Service Tier

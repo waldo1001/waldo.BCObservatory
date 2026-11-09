@@ -12,7 +12,7 @@ review:
   at: "2026-10-30T08:08:38.208Z"
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,18 +107,24 @@ links:
   localizations: []
   videos:
     - video/4TE8uwIi91k
+    - video/6rm45dSB6xg
     - video/ARKckFygbWQ
     - video/cVfZoDwKYpI
     - video/cWVhWBMbXb4
+    - video/e_x5QF0vXgs
     - video/Fz8NLByllRc
+    - video/GwrMf1umTFg
+    - video/kDixaZFPYE8
+    - video/M0IzeLSn7qU
+    - video/o94V_lF8oNM
     - video/P1V4jy08YM8
     - video/pjML7lXSsd0
     - video/q-udoJPGUKE
-    - video/qZALauRY_So
     - video/rSGCNMIBcpc
     - video/tj1vvsmAMVs
     - video/vyQnSxRGJDA
   posts:
+    - post/thinkaboutit-be/7977
     - post/thinkaboutit-be/8348
   guidelines: []
   changes:
@@ -151,8 +157,8 @@ children:
 coverage:
   learn: 10
   code: 3
-  video: 12
-  blog: 1
+  video: 17
+  blog: 2
   guideline: 0
 bc_forms:
   - 4400
@@ -225,18 +231,24 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13504 Exposing-VAT-settings-on-category-card](../../../changes/bcapps/13504.md) (code change): "VAT settings are now exposed on the Expense Category Card page"
 - [#13569 Update expense policy defaults, caption, and search terms](../../../changes/bcapps/13569.md) (code change): "Expense Agent setups enable policy evaluation by default"
 - [#13721 [Expense Agent] Create per diem line when approving travel requests with Per Diem Included](../../../changes/bcapps/13721.md) (code change): "Expense Agent Create per diem line when approving travel requests with Per Diem Included"
-- [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../../../posts/thinkaboutit-be/8348.md) (community post): "covers Business Skills, the Expense Agent and what AI interaction means"
+- [Quick Tip: What’s in Business Central Update 28.2](../../../posts/thinkaboutit-be/7977.md) (community post): "Sales Order Agent now supports Belgium and Switzerland"
+- [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../../../posts/thinkaboutit-be/8348.md) (community post): "It also covers Business Skills, the Expense Agent and what AI interaction means"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../videos/4TE8uwIi91k.md) (video): "Expense agent; mobile app; receipt scanning; mileage tracking"
+- [Expense Agent: Feedback (2026 release wave 1)](../../../videos/6rm45dSB6xg.md) (video): "Expense Agent: Feedback (2026 release wave 1). Topics: feedback; agent; user experience"
 - [Expense Agent: Web App Experience (2026 release wave 1)](../../../videos/ARKckFygbWQ.md) (video): "Expense agent; web app experience; receipt capture; receipt extraction; automatic categorization"
-- [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../../videos/cVfZoDwKYpI.md) (video): "Expense Agent; Receipt Extraction via AI; Approval Workflow"
-- [What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)](../../../videos/cWVhWBMbXb4.md) (video): "Date-range mileage allowances; Vehicle-type-specific mileage rates"
+- [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../../videos/cVfZoDwKYpI.md) (video): "Behind the scenes of how we build the new Expense Agent"
+- [What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)](../../../videos/cWVhWBMbXb4.md) (video): "Improved Mileage Handling; date-range mileage allowances"
+- [Expense Agent: Mobile Experience (2026 release wave 1)](../../../videos/e_x5QF0vXgs.md) (video): "Expense Agent: Mobile Experience; AI extraction of expense details"
 - [Expense Agent: Mileage Allowances (2026 release wave 1)](../../../videos/Fz8NLByllRc.md) (video): "Expense Agent: Mileage Allowances; mileage allowances; expense agent"
+- [What's new in Expense Agent: Project Handling (2026 release wave 2)](../../../videos/GwrMf1umTFg.md) (video): "Project tracking in Expense Agent web app"
+- [Expense Agent: Countries and Languages (2026 release wave 1)](../../../videos/kDixaZFPYE8.md) (video): "Expense Agent multilingual support; Expense Agent geographic expansion"
+- [What's new in Expense Agent: Improved Approval Process (2026 release wave 2)](../../../videos/M0IzeLSn7qU.md) (video): "expense agent; approval process; ai policies; approval limits"
+- [What's new in Expense Agent: Travel and Expense Policy Automation (2026 release wave 2)](../../../videos/o94V_lF8oNM.md) (video): "What's new in Expense Agent: Travel and Expense Policy Automation"
 - [Expense Agent: Configuration (2026 release wave 1)](../../../videos/P1V4jy08YM8.md) (video): "Expense Agent; configuration wizard; approval workflow; mileage expenses; per diem"
 - [Introducing: Expense Management (2026 release wave 1)](../../../videos/pjML7lXSsd0.md) (video): "Expense agent with AI-driven categorization; Expense collection and itemization"
-- [Introducing: Web App for Expense Agent (2026 release wave 1)](../../../videos/q-udoJPGUKE.md) (video): "Web App for Expense Agent ai extraction receipt processing expense approval"
-- [Introducing: Approvals for the Expense Agent (2026 release wave 1)](../../../videos/qZALauRY_So.md) (video): "Approvals for the Expense Agent; Pre-approval AI Suggestions; Team-based Approval Setup"
+- [Introducing: Web App for Expense Agent (2026 release wave 1)](../../../videos/q-udoJPGUKE.md) (video): "Introducing: Web App for Expense Agent expense agent; web app; ai extraction"
 - [Expense Agent: Approvals (2026 release wave 1)](../../../videos/rSGCNMIBcpc.md) (video): "Expense Agent: Approvals; approval process; approvers; email notifications"
-- [What's new in Expense Agent: Overview (2026 release wave 2)](../../../videos/tj1vvsmAMVs.md) (video): "Expense agent; mileage allowance; credit card feeds; travel expense policies"
+- [What's new in Expense Agent: Overview (2026 release wave 2)](../../../videos/tj1vvsmAMVs.md) (video): "What's new in Expense Agent: Overview (2026 release wave 2)"
 - [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../videos/vyQnSxRGJDA.md) (video): "Per Diem Allowances; expense agent; itinerary detection; meal reductions"
 
 ## Business Central pages and reports

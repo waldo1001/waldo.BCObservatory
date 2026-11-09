@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:01:30.126Z"
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -298,6 +298,7 @@ links:
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-87-check-for-microsoft-apps-on-appsource--f7b48b4e88
+    - post/yzhums-com/65781
   guidelines: []
 learn_toc_path:
   - Development and administration
@@ -310,7 +311,7 @@ coverage:
   learn: 26
   code: 61
   video: 0
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 30
@@ -503,6 +504,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "per-tenant extensions, all reviewed on the admin center Manage Apps page"
 - [BC Friday Tips #87 Check for Microsoft Apps on AppSource](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-87-check-for-microsoft-apps-on-appsource--f7b48b4e88.md) (community post): "Microsoft apps for Business Central are distributed across multiple separate applications"
+- [Business Central 2025 wave 1 (BC26.3): Chat with Copilot to learn how to use installed add-on apps](../../../../posts/yzhums-com/65781.md) (community post): "Copilot can now answer questions about ISV add-on apps installed"
 
 ## Business Central pages and reports
 

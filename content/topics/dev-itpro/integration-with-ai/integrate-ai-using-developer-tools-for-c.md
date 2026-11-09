@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -204,11 +204,14 @@ links:
     - topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central
   localizations: []
   videos:
-    - video/7SSNcUMFtCw
-    - video/lNASlydCidI
+    - video/juUBVPfIp8A
+    - video/NE7NIjpkX3c
+    - video/QCo-uIfPs9g
   posts:
     - post/aardvarklabs-blog/1609
+    - post/aardvarklabs-blog/1816
     - post/aardvarklabs-blog/1891
+    - post/aardvarklabs-blog/2467
     - post/aardvarklabs-blog/2663
     - post/aardvarklabs-blog/2965
     - post/demiliani-com/12036
@@ -230,8 +233,8 @@ children:
 coverage:
   learn: 24
   code: 0
-  video: 2
-  blog: 6
+  video: 3
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: aeabb0e354c64dab6f26c0a75a3b42f75aacb52e074d17031f180db246dc234e
@@ -290,12 +293,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#155 Add read-only AL development plan guidance](../../../changes/bcquality/155.md) (code change): "extended metadata and JSON schemas while keeping implementation"
 - [#84 Package BCQuality as an installable plugin (experiment)](../../../changes/bcquality/84.md) (code change): "Experimentally packages BCQuality as an installable plugin for Copilot CLI and Claude Code hosts"
 - [Integrating AI in Business Central: A Step-by-Step Guide](../../../posts/aardvarklabs-blog/1609.md) (community post): "building a custom AI-powered Copilot agent in Business Central"
+- [Creating Data Driven Text with AI in Business Central](../../../posts/aardvarklabs-blog/1816.md) (community post): "build a Copilot in Business Central that generates personalized reminder text"
 - [Implementing a Multi-Step Process for AI Recommendations in Business Central](../../../posts/aardvarklabs-blog/1891.md) (community post): "This post demonstrates how to build a multi-step AI-assisted process in Business Central"
+- [Enhancing Business Central with Address Validation AI](../../../posts/aardvarklabs-blog/2467.md) (community post): "Address validation using Azure OpenAI compares user-entered addresses"
 - [Azure OpenAI in Business Central AL: Managed vs Unmanaged](../../../posts/aardvarklabs-blog/2663.md) (community post): "Azure OpenAI in Business Central AL: Managed vs Unmanaged"
 - [Step-by-Step Guide to AI Campaigns in Business Central](../../../posts/aardvarklabs-blog/2965.md) (community post): "Leverages Business Central's managed AI resource with Bing Grounded Search"
 - [Why not start improving Business Central APIs definitions for supporting AI?](../../../posts/demiliani-com/12036.md) (community post): "Business Central APIs lack AI-ready metadata that LLMs need"
-- [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "Developers can now build Copilot extensions using Microsoft-managed Azure OpenAI"
-- [What's New: Business Central AI Resources (2025 release wave 1)](../../../videos/7SSNcUMFtCw.md) (video): "Bring your own Azure OpenAI subscription; System prompts for AI safety"
-- [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../videos/lNASlydCidI.md) (video): "Generative AI Developer Toolkit; Prompt Dialogue Page Type; Sparkle Image Property"
+- [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "build Copilot extensions using Microsoft-managed Azure OpenAI resources"
+- [What's New: AI Development Toolkit (2026 release wave 1)](../../../videos/juUBVPfIp8A.md) (video): "Content filtering policies; Prompt injection protection"
+- [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../../videos/NE7NIjpkX3c.md) (video): "copilot extension; cloud deployment; large language models; prompt engineering"
+- [What's New: Extending Copilot in Business Central (2024 Release Wave 2)](../../../videos/QCo-uIfPs9g.md) (video): "Telemetry for Copilot Features; Managed AI Resources; Temperature and Max Tokens"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

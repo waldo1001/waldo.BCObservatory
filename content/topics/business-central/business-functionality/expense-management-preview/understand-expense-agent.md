@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:10.440Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -62,6 +62,7 @@ links:
   localizations: []
   videos:
     - video/54uIhzZq3Os
+    - video/M0IzeLSn7qU
   posts: []
   guidelines: []
   changes:
@@ -77,7 +78,7 @@ children: []
 coverage:
   learn: 4
   code: 3
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -128,6 +129,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10032 Fix Agent List and Agent Task List filter and refresh issues (AB#646062)](../../../../changes/bcapps/10032.md) (code change): "Fixed filter visibility and refresh issues on Agent List"
 - [#10670 Add Agent Task Log JSON export](../../../../changes/bcapps/10670.md) (code change): "Agent Task Log now supports JSON export of selected rows with detailed context"
 - [Expense Agent: Finance Controlling (2026 release wave 1)](../../../../videos/54uIhzZq3Os.md) (video): "Expense Agent; Default dimensions on employee records; Billable information"
+- [What's new in Expense Agent: Improved Approval Process (2026 release wave 2)](../../../../videos/M0IzeLSn7qU.md) (video): "AI-driven approval policies; Enhanced approval history and audit trail"
 
 ## Business Central pages and reports
 

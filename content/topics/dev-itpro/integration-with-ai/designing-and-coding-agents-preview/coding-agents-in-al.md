@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,12 +93,11 @@ links:
     - video/EwN3xb2q7vE
     - video/jWqjDTbqjeE
     - video/MNwTt06ZxwY
+    - video/nbGw2g3KMXI
+    - video/UgagVZVKCso
     - video/V4zCPAsYi_Y
   posts:
-    - post/aardvarklabs-blog/3097
-    - post/bertverbeek-nl/1219
     - post/bertverbeek-nl/1272
-    - post/demiliani-com/12644
     - post/demiliani-com/13814
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
@@ -201,8 +200,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 4
-  blog: 7
+  video: 6
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 69eac98ac3509b30b15900079714f9d3546b4ea11aac6d5b7228ce8677ee298c
@@ -342,16 +341,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#222 Add cited knowledge consultation skill for Business Central](../../../../changes/bcquality/222.md) (code change): "A new knowledge consultation skill allows AL development agents to request guidance on Business Central solutions"
 - [#233 knowledge(web-services): describe API objects intended for MCP tools](../../../../changes/bcquality/233.md) (code change): "API objects intended for MCP tools to describe entities using AboutText"
 - [#246 Expose plan guidance as a preview plugin skill](../../../../changes/bcquality/246.md) (code change): "exposes plan guidance as a preview plugin skill alongside code review"
-- [Step-by-Step Guide: Create Agents in AL Code](../../../../posts/aardvarklabs-blog/3097.md) (community post): "Building agents in Business Central AL involves creating setup tables, pages, codeunits"
-- [Agents in Business Central – part 1 – the architecture](../../../../posts/bertverbeek-nl/1219.md) (community post): "Custom agents need the Custom Agent capability enabled"
-- [Agents in Business Central – part 5 – Creating agent from code](../../../../posts/bertverbeek-nl/1272.md) (community post): "create, configure, and register agents programmatically in Business Central using AL code"
-- [Dynamics 365 Business Central: debugging agent sessions.](../../../../posts/demiliani-com/12644.md) (community post): "AL Language extension runtime 17.0 introduces debugging support for agent sessions in Business Central"
+- [Agents in Business Central – part 5 – Creating agent from code](../../../../posts/bertverbeek-nl/1272.md) (community post): "Implement IAgentFactory to control agent creation, setup experience, and access"
 - [Dynamics 365 Business Central: new model choice in Agent definition.](../../../../posts/demiliani-com/13814.md) (community post): "AL methods allowing administrators to select between available models"
 - [Weekly Review: Business Central AL Development – May 31–June 6, 2026](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165.md) (community post): "AL APIs (SetModelId, GetModelId, etc.) for code-defined agents"
 - [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (community post): "Partners need to develop AI competency through the AI Development Toolkit and Agent Building Sandbox"
-- [What's New: Coding Business Central Agents with AI Development Toolkit](../../../../videos/EwN3xb2q7vE.md) (video): "Coding Business Central Agents with AI Development Toolkit; Agent Type Definition; Agent Factory Interface"
+- [What's New: Coding Business Central Agents with AI Development Toolkit](../../../../videos/EwN3xb2q7vE.md) (video): "Coding Business Central Agents with AI Development Toolkit"
 - [Introducing: Envision, Design and Code Business Central Agents](../../../../videos/jWqjDTbqjeE.md) (video): "Introducing: Envision, Design and Code Business Central Agents"
-- [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Building and shipping agents in Business Central; agent configuration; permissions"
+- [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Agent creation and configuration; Agent instructions configuration; Agent model selection"
+- [20260713 - From Zero to Agent Building agents in Business Central](../../../../videos/nbGw2g3KMXI.md) (video): "From Zero to Agent Building agents in Business Central; AL Agent Development"
+- [Business Central Partner Learnings from the Red Carpet Copilot Program](../../../../videos/UgagVZVKCso.md) (video): "Copilot Function with Prompt Engineering; Automated Testing for Copilot"
 - [Getting Started With Agent Testing: Test Setup and Structuring (part 3)](../../../../videos/V4zCPAsYi_Y.md) (video): "AI Development Toolkit Evaluation app; AI Test Toolkits; LLM as judge for test validation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

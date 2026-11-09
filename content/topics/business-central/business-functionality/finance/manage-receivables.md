@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:28.910Z"
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -238,6 +238,7 @@ links:
     - video/O2RPBlr_GiE
     - video/UTxX4XPLcgQ
   posts:
+    - post/aardvarklabs-blog/1816
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030
     - post/thedynamicsexplorer-com/10232
     - post/thedynamicsexplorer-com/37202
@@ -270,7 +271,7 @@ coverage:
   learn: 19
   code: 60
   video: 4
-  blog: 4
+  blog: 5
   guideline: 0
 bc_forms:
   - 6
@@ -421,6 +422,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9282 [Main]- Description field in the contact history is showing the number of the original unregistered reminder instead of the registered reminder number when using the reminder automation setup.](../../../../changes/bcapps/9282.md) (code change): "Contact history descriptions in reminder automation now display the registered reminder number"
 - [#9586 [master] Overdue Balance (LCY) filters do not behave as expected if you open the Customer Card from a document or journal.](../../../../changes/bcapps/9586.md) (code change): "The Customer Card now applies a default date filter in the OnAfterGetCurrRecord function"
 - [#9775 [Main]-Issued Reminders are printed without any header or footer in the United Kingdom version](../../../../changes/bcapps/9775.md) (code change): "The Reminder report in the United Kingdom version now displays header and footer content"
+- [Creating Data Driven Text with AI in Business Central](../../../../posts/aardvarklabs-blog/1816.md) (community post): "reminder text for overdue customer balances by combining user input with customer data"
 - [Untangling Your Books: Understanding Application of Entries in Business Central](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030.md) (community post): "Application of entries is the process of matching transactions like invoices and payments"
 - [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../../../../posts/thedynamicsexplorer-com/10232.md) (community post): "application of cash to invoices"
 - [Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?](../../../../posts/thedynamicsexplorer-com/37202.md) (community post): "Payment Tolerance in Business Central can automatically write off small remaining invoice balances"

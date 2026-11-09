@@ -19,7 +19,7 @@ review:
   at: "2026-10-08T01:54:46.335Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-09T00:15:52.409Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -73,7 +73,7 @@ preview:
   image_h: 270
   site_name: DvlprLife.com
   favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
-  probed_at: "2026-10-07T11:50:30.363Z"
+  probed_at: "2026-11-09T00:39:01.499Z"
 ---
 
 # Weekly Review: Business Central AL Development – June 14–20, 2026

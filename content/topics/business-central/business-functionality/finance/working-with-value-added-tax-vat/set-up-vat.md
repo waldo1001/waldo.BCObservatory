@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:50.033Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -87,6 +87,7 @@ links:
   localizations: []
   videos:
     - video/MWXwtRr6-Wk
+    - video/TSLXzbeyE7Y
   posts: []
   guidelines: []
   changes:
@@ -105,7 +106,7 @@ children: []
 coverage:
   learn: 5
   code: 20
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -178,6 +179,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12067 [main] bug 652323 - Move creating VAT Period to setup demo data level](../../../../../changes/bcapps/12067.md) (code change): "VAT Period creation from Master Data to Setup Data level"
 - [#9352 [FI] Obsolete unused 'Print on Invoice' VAT setting](../../../../../changes/bcapps/9352.md) (code change): "Obsolete unused 'Print on Invoice' VAT setting. The unused 'Print on Invoice' VAT field"
 - [What's New: VAT Date in Business Central (2023 release wave 2)](../../../../../videos/MWXwtRr6-Wk.md) (video): "VAT Date Usage field options; Default VAT Date setting; Control VAT Period setup"
+- [What's new: Explore the new Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../../../videos/TSLXzbeyE7Y.md) (video): "Sales tax setup; Sales tax configuration assistance; Sales data analysis"
 
 ## Business Central pages and reports
 

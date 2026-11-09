@@ -20,5 +20,16 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.011875
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-09T00:45:11.850Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the source lists tooltip support only as a feature of the help migration page. The narrative's 'deployed to websites ... including tooltip support' slightly reads into how the two are linked, but it is reasonable."
+    ],
+    "input_hash": "3c947708287edefab68fd96a5346c14f8906db1f966b90f70f5401e9a947947f",
+    "cost_usd": 0.0318
   }
 }

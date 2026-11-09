@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/yzhums-com/77153",
+  "input_hash": "888c429cb62e87daa29621352498f0ef2d98f63dbb046f55498f8c535d5a0cfd",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-09T00:44:02.003Z",
+  "issues": [
+    "Summary implies BC26 received a normal November update, but the post marks its CU18 as end of life.",
+    "Key point 4 combines BC26 end of life with 29.x support dates in a confusing way; split.",
+    "The feature about production and sandbox environment management is only a link title, not something the post discusses; dropped.",
+    "Quote is the opening sentence and only states the release; kept as marginally useful."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.056364,
+    "posts_in_call": 2
+  }
+}

@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:54:15.395Z"
   flags: []
 generated:
-  at: "2026-11-02T00:53:48.322Z"
+  at: "2026-11-09T00:40:46.035Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -68,7 +68,6 @@ links:
     - object/page/6221
   features:
     - feature/573375
-    - feature/573378
   topics: []
   localizations: []
   videos: []
@@ -125,12 +124,10 @@ features:
     verified: false
     status_source: video
   - name: Sustainability Fast Tab on Items
-    status: ga
+    status: unclear
     t: 201
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573378"
+    status_source: video
   - name: Sustainability Fast Tab on Resources
     status: ga
     t: 237
@@ -216,7 +213,7 @@ The demo covers the sustainability configuration, posting a project journal, and
 | Feature | Status | At |
 |---|---|---|
 | Value Chain Automation in Projects | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=60s) |
-| Sustainability Fast Tab on Items | generally available (roadmap [Track your carbon footprint with item journals and item reclassification journals](../features/573378.md)), demoed | [3:21](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=201s) |
+| Sustainability Fast Tab on Items | status not stated, demoed | [3:21](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=201s) |
 | Sustainability Fast Tab on Resources | generally available (roadmap [Estimate your carbon footprint in Service Management](../features/573375.md)), demoed | [3:57](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=237s) |
 | Project Statistics with Emissions Data | status not stated, demoed | [5:49](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=349s) |
 | Scope Three Coverage via Value Chain | status not stated | [1:29](https://www.youtube.com/watch?v=Sc8eGyMkBTA&t=89s) |

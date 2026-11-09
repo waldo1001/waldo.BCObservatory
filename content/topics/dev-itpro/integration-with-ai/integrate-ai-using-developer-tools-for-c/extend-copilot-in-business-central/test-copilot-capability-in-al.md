@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T15:20:37.921Z"
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -141,7 +141,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#12910 [Master] - Bug 652243: [Expense Agent] Validate approval user email](../../../../../changes/bcapps/12910.md) (code change): "Tests added in the expense and interim approval test codeunits"
 - [#13172 Export structured AI eval run data](../../../../../changes/bcapps/13172.md) (code change): "AI Test Toolkit command-line page streams results.json evaluation result files"
-- [What's New: Testing Copilot in Business Central (2024 release wave 2)](../../../../../videos/eA7CENx7se0.md) (video): "Copilot Test Toolkit; Data-Driven Testing for Copilot; Accuracy Testing for Copilot"
+- [What's New: Testing Copilot in Business Central (2024 release wave 2)](../../../../../videos/eA7CENx7se0.md) (video): "Testing Copilot in Business Central; Copilot Test Toolkit"
 - [Getting Started With Agent Testing: Why Are Evaluations Important? (Part 1)](../../../../../videos/xB9kszf93hE.md) (video): "Programmatic evaluation with data-driven testing via YAML"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

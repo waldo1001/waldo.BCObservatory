@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -203,22 +203,21 @@ links:
     - topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al
   localizations: []
   videos:
-    - video/3UcLmXqyl44
     - video/aNRzlbxVPWE
+    - video/juUBVPfIp8A
     - video/jWqjDTbqjeE
+    - video/MNwTt06ZxwY
     - video/moPzf04Mwlc
     - video/nbGw2g3KMXI
     - video/nPF84Ufkn4k
     - video/Vq9Nk6_uxmQ
-    - video/WFAZLsUTk20
-    - video/WjF_sESaIPo
-    - video/xqwJTCPD9tA
   posts:
+    - post/aardvarklabs-blog/3097
     - post/aardvarklabs-blog/3348
-    - post/bertverbeek-nl/1219
     - post/bertverbeek-nl/1237
+    - post/bertverbeek-nl/1272
     - post/bertverbeek-nl/1290
-    - post/jeremyvyska-com/1770
+    - post/demiliani-com/12644
     - post/kauffmann-nl/8436
     - post/yzhums-com/70502
     - post/yzhums-com/71363
@@ -245,8 +244,8 @@ children:
 coverage:
   learn: 23
   code: 0
-  video: 10
-  blog: 8
+  video: 8
+  blog: 9
   guideline: 0
 bc_forms: []
 member_hash: 2363f50364b2a6e5ec17552aa75d99987877fc7bce7ed791a7189963ccc729d0
@@ -317,23 +316,22 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#8967 Ability to archive agents](../../../changes/bcapps/8967.md) (code change): "Agents can now be archived by admins from the Agent List and Card"
 - [#137 Add community guidance and review support for Business Central agents](../../../changes/bcquality/137.md) (code change): "Business Central agent developers gain 20 community-authored guidance rules"
 - [#231 al-agents-review: derive the target BC version from app.json](../../../changes/bcquality/231.md) (code change): "al-agents-review skill now derives the target Business Central version"
-- [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../../../posts/aardvarklabs-blog/3348.md) (community post): "secure AI agents in Business Central by implementing restrictive profiles, page customizations"
-- [Agents in Business Central – part 1 – the architecture](../../../posts/bertverbeek-nl/1219.md) (community post): "Agents in Business Central 27.4 allow you to create"
+- [Step-by-Step Guide: Create Agents in AL Code](../../../posts/aardvarklabs-blog/3097.md) (community post): "Building agents in Business Central AL involves creating setup tables"
+- [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../../../posts/aardvarklabs-blog/3348.md) (community post): "secure AI agents in Business Central by implementing restrictive profiles"
 - [Agents in Business Central – part 2 – the prompt](../../../posts/bertverbeek-nl/1237.md) (community post): "Building effective agents in Business Central requires well-structured prompts"
-- [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "Agents in Business Central with those created in Copilot"
-- [Fall 2026 Agentic Development Classes: Copilot Refresh, Claude Code, and BCQuality](../../../posts/jeremyvyska-com/1770.md) (community post): "Three standalone agentic development classes for Business Central teams"
-- [Designing Agents for Business Central](../../../posts/kauffmann-nl/8436.md) (community post): "Agent Design Experience in Business Central v27.4 is a sandbox tool for designing, testing, and refining agent instructions"
+- [Agents in Business Central – part 5 – Creating agent from code](../../../posts/bertverbeek-nl/1272.md) (community post): "create, configure, and register agents programmatically in Business Central using AL"
+- [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "agents built directly in Business Central with those created in Copilot Studio"
+- [Dynamics 365 Business Central: debugging agent sessions.](../../../posts/demiliani-com/12644.md) (community post): "debug agent sessions directly from Visual Studio Code"
+- [Designing Agents for Business Central](../../../posts/kauffmann-nl/8436.md) (community post): "Production agents require manual conversion to AL code"
 - [Business Central 2025 wave 2 (BC27.4): Envision and design AI agents in Business Central (Custom Agent)](../../../posts/yzhums-com/70502.md) (community post): "Custom agents interpret natural language business goals and translate them into actionable steps"
 - [Business Central 2026 release wave 1 (BC28): New template for getting started with creating agents](../../../posts/yzhums-com/71363.md) (community post): "A new Agent template is available via the AL: New Project command"
-- [What's New: Exporting and Importing Agent in Business Central](../../../videos/3UcLmXqyl44.md) (video): "agent export; agent import; agent definition; xml; agent backup"
 - [Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)](../../../videos/aNRzlbxVPWE.md) (video): "How to Write Agent Evals in AL; agent testing; evals; yaml-driven tests"
+- [What's New: AI Development Toolkit (2026 release wave 1)](../../../videos/juUBVPfIp8A.md) (video): "AI Development Toolkit; agent development and design"
 - [Introducing: Envision, Design and Code Business Central Agents](../../../videos/jWqjDTbqjeE.md) (video): "Introducing: Envision, Design and Code Business Central Agents"
-- [What's New: How To Create Agents in Business Central](../../../videos/moPzf04Mwlc.md) (video): "How To Create Agents in Business Central; agent creation; no-code configuration; task execution"
-- [20260713 - From Zero to Agent Building agents in Business Central](../../../videos/nbGw2g3KMXI.md) (video): "From Zero to Agent Building agents in Business Central"
+- [Microsoft presents: Building and shipping agents in Business Central](../../../videos/MNwTt06ZxwY.md) (video): "agents; agent configuration; permissions; profiles; instructions"
+- [What's New: How To Create Agents in Business Central](../../../videos/moPzf04Mwlc.md) (video): "How To Create Agents in Business Central; agent creation; no-code configuration"
+- [20260713 - From Zero to Agent Building agents in Business Central](../../../videos/nbGw2g3KMXI.md) (video): "agents; custom agents; agent building; sandbox environment"
 - [Business Central Under the Hood episode 13: Inside the Agent Runtime](../../../videos/nPF84Ufkn4k.md) (video): "Business Central Under the Hood episode 13: Inside the Agent Runtime"
-- [Business Central Under the Hood episode 14: Building Agents in Business Central](../../../videos/Vq9Nk6_uxmQ.md) (video): "Building Agents in Business Central; custom agents; agent instructions; permissions"
-- [What's New: Business Central Agent Instruction History](../../../videos/WFAZLsUTk20.md) (video): "Agent Instruction History Autosave; Download Instructions; View Instruction History"
-- [Interfrucht GmbH](../../../videos/WjF_sESaIPo.md) (video): "Manifest Agent for Business Central; Automated purchase order creation"
-- [Designing Modern Integrations in Business Central](../../../videos/xqwJTCPD9tA.md) (video): "AI agents for integration design; Spec-driven development for integrations; Information flow visualization"
+- [Business Central Under the Hood episode 14: Building Agents in Business Central](../../../videos/Vq9Nk6_uxmQ.md) (video): "Custom agents; agent instructions; agent profiles; permissions; prompt engineering"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

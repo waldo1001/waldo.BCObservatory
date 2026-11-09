@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,8 +57,11 @@ links:
   topics: []
   localizations: []
   videos:
-    - video/06vgkq2EXmA
-    - video/NE7NIjpkX3c
+    - video/7SSNcUMFtCw
+    - video/fgWFOMPJd6U
+    - video/juUBVPfIp8A
+    - video/lNASlydCidI
+    - video/qP0id91bIlA
   posts: []
   guidelines: []
 learn_toc_path:
@@ -69,7 +72,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 2
+  video: 5
   blog: 0
   guideline: 0
 bc_forms: []
@@ -112,7 +115,10 @@ Start with the note that matches the feature you build or use. Partners building
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central](../../videos/06vgkq2EXmA.md) (video): "Jailbreak Prevention; Harmful Input Dataset Testing"
-- [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../videos/NE7NIjpkX3c.md) (video): "Hallucinations and Fabrications Management"
+- [What's New: Business Central AI Resources (2025 release wave 1)](../../videos/7SSNcUMFtCw.md) (video): "content safety; data privacy; billing; responsible ai"
+- [Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot](../../videos/fgWFOMPJd6U.md) (video): "Harm testing for AI responses; Accuracy and grounding testing"
+- [What's New: AI Development Toolkit (2026 release wave 1)](../../videos/juUBVPfIp8A.md) (video): "Prompt injection protection; Copilot credit insights in evaluations"
+- [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../videos/lNASlydCidI.md) (video): "Responsible AI Principles and Guidelines; AI-generated Content Disclaimer"
+- [What's New: Designing Generative AI Experiences (2024 Release Wave 1)](../../videos/qP0id91bIlA.md) (video): "responsible ai; risk management; preview and undo"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

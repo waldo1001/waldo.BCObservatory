@@ -19,7 +19,7 @@ review:
   at: "2026-10-08T01:55:04.426Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-09T00:15:52.409Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -84,7 +84,7 @@ preview:
   image_h: null
   site_name: Stefan Maron
   favicon: https://stefanmaron.com/icons/favicon-32x32.png
-  probed_at: "2026-10-07T11:50:27.733Z"
+  probed_at: "2026-11-09T00:39:02.269Z"
 ---
 
 # You don't need the base app to run your unit tests

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:54.276Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,6 +52,7 @@ links:
   localizations: []
   videos:
     - video/EVntnDFE1R4
+    - video/T63y0F_38SI
   posts: []
   guidelines: []
 learn_toc_path:
@@ -64,7 +65,7 @@ children: []
 coverage:
   learn: 3
   code: 1
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -109,6 +110,7 @@ Start with the overview to understand the flow types, then read the usage page b
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New: Business Central Integration with Power Platform (2023 release wave 2)](../../../../videos/EVntnDFE1R4.md) (video): "Approval Workflow Templates in Power Automate; Automated Flow Templates Based on Business Events"
+- [Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)](../../../../videos/T63y0F_38SI.md) (video): "power automate; copilot; flow creation; natural language; power platform integration"
 
 ## Business Central pages and reports
 

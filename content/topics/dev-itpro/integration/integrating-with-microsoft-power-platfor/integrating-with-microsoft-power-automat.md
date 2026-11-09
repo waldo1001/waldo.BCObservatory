@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:03.316Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -133,6 +133,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: How to disable/hide Power Automate action group for all users](../../../../posts/yzhums-com/61951.md) (community post): "Disable the Power Automate action group for all Business Central users by marking"
 - [Dynamics 365 Business Central Blog Series: Integrate Business Central with OneDrive](../../../../posts/yzhums-com/63749.md) (community post): "Power Automate offers no-code solutions to synchronize files and data between OneDrive and Business Central"
 - [Dynamics 365 Business Central Blog Series: Import and Export data](../../../../posts/yzhums-com/63762.md) (community post): "Power Automate flows allow no-code data transfer between Business Central, CSV files, Google Sheets, and OneDrive"
-- [Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)](../../../../videos/T63y0F_38SI.md) (video): "Create Power Automate Flows with Copilot; Power Automate Templates for Business Central"
+- [Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)](../../../../videos/T63y0F_38SI.md) (video): "Create Power Automate Flows with Copilot; Power Automate Templates"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

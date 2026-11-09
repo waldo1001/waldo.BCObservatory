@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -153,10 +153,13 @@ links:
   topics: []
   localizations: []
   videos:
-    - video/7SSNcUMFtCw
-    - video/lNASlydCidI
-    - video/qP0id91bIlA
-  posts: []
+    - video/bCIcq1zESKk
+    - video/cVfZoDwKYpI
+    - video/cWVhWBMbXb4
+    - video/cZCSi6khZFo
+    - video/eA7CENx7se0
+  posts:
+    - post/demiliani-com/15935
   guidelines: []
 learn_toc_path:
   - Responsible AI
@@ -166,8 +169,8 @@ children: []
 coverage:
   learn: 16
   code: 0
-  video: 3
-  blog: 0
+  video: 5
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: f2775e8972cfc70743070e264192dc1ce538505db6e68fedc8c2bce0d391ad5d
@@ -222,8 +225,11 @@ Several features are marked preview, so check each page for its status. The e-do
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [What's New: Business Central AI Resources (2025 release wave 1)](../../videos/7SSNcUMFtCw.md) (video): "content safety; data privacy; responsible ai"
-- [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../videos/lNASlydCidI.md) (video): "Responsible AI Principles and Guidelines; AI-generated Content Disclaimer on Output Screens"
-- [What's New: Designing Generative AI Experiences (2024 Release Wave 1)](../../videos/qP0id91bIlA.md) (video): "Building user trust in AI features; AI-generated content preview and discard; AI confidence level marking"
+- [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../posts/demiliani-com/15935.md) (community post): "The Allow data movement toggle appears only when Business Central environment location differs from Copilot processing geography"
+- [What's New: Item Substitution with Copilot (2024 release wave 2)](../../videos/bCIcq1zESKk.md) (video): "responsible ai; llm; embedding; product information"
+- [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../videos/cVfZoDwKYpI.md) (video): "harmful eval testing and red teaming; eval-driven development"
+- [What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)](../../videos/cWVhWBMbXb4.md) (video): "expense agent; setup configuration. Shows: Date-range mileage allowances"
+- [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../../videos/cZCSi6khZFo.md) (video): "ai-powered search; confidence scoring; item matching"
+- [What's New: Testing Copilot in Business Central (2024 release wave 2)](../../videos/eA7CENx7se0.md) (video): "responsible ai; test automation; external evaluation with Azure AI Studio"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

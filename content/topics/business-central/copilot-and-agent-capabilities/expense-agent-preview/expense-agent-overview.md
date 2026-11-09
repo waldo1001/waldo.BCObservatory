@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:05.364Z"
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-09T00:45:18.475Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,11 +61,11 @@ links:
     - topic/business-central/copilot-and-agent-capabilities/expense-agent-preview
   localizations: []
   videos:
-    - video/6rm45dSB6xg
-    - video/e_x5QF0vXgs
-    - video/GwrMf1umTFg
     - video/NI6WYze-JSU
+    - video/q-udoJPGUKE
+    - video/qZALauRY_So
     - video/vyQnSxRGJDA
+    - video/WFAZLsUTk20
   posts: []
   guidelines: []
   changes:
@@ -147,11 +147,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13182 [Master] - Bug 656364: [Expense Agent] Add a View rules link below Enforce management rules](../../../../changes/bcapps/13182.md) (code change): "View rules link was added below the Enforce management rules setting"
 - [#13721 [Expense Agent] Create per diem line when approving travel requests with Per Diem Included](../../../../changes/bcapps/13721.md) (code change): "Per diem lines are automatically created during travel request approval when Per Diem Included is enabled"
 - [#9910 [SOA] Move attachment processing to direct model reading](../../../../changes/bcapps/9910.md) (code change): "Sales Order Agent now processes PDF and image attachments directly with GPT-4.1 mini"
-- [Expense Agent: Feedback (2026 release wave 1)](../../../../videos/6rm45dSB6xg.md) (video): "Expense Agent; Feedback; user experience; issue reporting"
-- [Expense Agent: Mobile Experience (2026 release wave 1)](../../../../videos/e_x5QF0vXgs.md) (video): "Expense Agent mobile app; Receipt capture with native OS detection; AI extraction of expense details"
-- [What's new in Expense Agent: Project Handling (2026 release wave 2)](../../../../videos/GwrMf1umTFg.md) (video): "What's new in Expense Agent: Project Handling shows project tracking in Expense Agent"
 - [Expense Agent: Project Expenses (2026 release wave 1)](../../../../videos/NI6WYze-JSU.md) (video): "Expense Agent; project tracking; project assignment"
+- [Introducing: Web App for Expense Agent (2026 release wave 1)](../../../../videos/q-udoJPGUKE.md) (video): "Web App for Expense Agent; AI Receipt Extraction; Automatic Expense Report Creation"
+- [Introducing: Approvals for the Expense Agent (2026 release wave 1)](../../../../videos/qZALauRY_So.md) (video): "Approvals for the Expense Agent expense agent; workflow; notification; policy compliance"
 - [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../../videos/vyQnSxRGJDA.md) (video): "Expense Agent Wizard Configuration; Itinerary Detection and Classification"
+- [What's New: Business Central Agent Instruction History](../../../../videos/WFAZLsUTk20.md) (video): "Agent Instruction History Autosave; Manual Save to History; Download Instructions"
 
 ## Business Central pages and reports
 

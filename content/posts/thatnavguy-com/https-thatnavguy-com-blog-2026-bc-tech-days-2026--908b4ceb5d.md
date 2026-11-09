@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:54:52.447Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-09T00:15:52.409Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -81,7 +81,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:50:27.430Z"
+  probed_at: "2026-11-09T00:39:02.256Z"
 ---
 
 # BC Tech Days 2026

@@ -2,7 +2,7 @@
 id: source/yzhums-com
 type: source
 title: Dynamics 365 Lab - Yun Zhu
-summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 394 posts in the knowledge base, 2025-04-28 to 2026-11-06, mostly about development, administration, platform."
+summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 395 posts in the knowledge base, 2025-04-28 to 2026-11-06, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-07T00:15:21.625Z"
+  at: "2026-11-09T00:15:52.409Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d2a50c497a8d7de468daccd29fae48c446449d36920f503db4b4200b2de41f3d
+  input_hash: 0d7ae23c68639fafaa188684daad91db6fe89eb6ae55abc8ca110ec6238dd8b4
 evidence:
   - kind: blog
     url: https://yzhums.com
@@ -427,6 +427,7 @@ links:
     - post/yzhums-com/77070
     - post/yzhums-com/76760
     - post/yzhums-com/77124
+    - post/yzhums-com/77153
   guidelines: []
 source_id: yzhums-com
 kind: blog
@@ -434,15 +435,15 @@ url: https://yzhums.com
 author: Yun Zhu
 mvp: true
 full_text: false
-item_count: 394
+item_count: 395
 footprint:
   systems:
     - id: development
       weight: 285
     - id: administration
-      weight: 205
+      weight: 207
     - id: platform
-      weight: 199
+      weight: 200
     - id: sales
       weight: 89
     - id: reporting
@@ -462,11 +463,11 @@ footprint:
       weight: 21
     - id: release wave 2
       weight: 20
+    - id: on-premises
+      weight: 17
     - id: admin center
       weight: 16
     - id: al language
-      weight: 16
-    - id: on-premises
       weight: 16
     - id: copilot
       weight: 15
@@ -502,7 +503,7 @@ last_item: "2026-11-06"
 
 # Dynamics 365 Lab - Yun Zhu
 
-> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 394 posts in the knowledge base, 2025-04-28 to 2026-11-06, mostly about development, administration, platform.
+> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 395 posts in the knowledge base, 2025-04-28 to 2026-11-06, mostly about development, administration, platform.
 
 [https://yzhums.com](https://yzhums.com) · blog · tier community
 
@@ -511,14 +512,14 @@ last_item: "2026-11-06"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (285) | al development (66) | table Customer (14) |
-| administration (205) | bc28 (27) | table Sales Header (12) |
-| platform (199) | bc27 (23) | page Customer Card (10) |
+| administration (207) | bc28 (27) | table Sales Header (12) |
+| platform (200) | bc27 (23) | page Customer Card (10) |
 | sales (89) | customization (23) | page Item Card (9) |
 | reporting (75) | bc29 (21) | page Item List (9) |
 | integration (70) | release wave 2 (20) | page Customer List (7) |
-|  | admin center (16) | page Sales Order (7) |
-|  | al language (16) | table Sales Line (7) |
-|  | on-premises (16) | page Vendor Card (6) |
+|  | on-premises (17) | page Sales Order (7) |
+|  | admin center (16) | table Sales Line (7) |
+|  | al language (16) | page Vendor Card (6) |
 |  | copilot (15) | codeunit Temp Blob (5) |
 |  |  | codeunit Type Helper (5) |
 |  |  | page Item Ledger Entries (5) |
@@ -533,10 +534,11 @@ Items per quarter, oldest first:
 - 2026-Q1: **************************************** 68
 - 2026-Q2: **************************************** 54
 - 2026-Q3: **************************************** 71
-- 2026-Q4: ************************* 25
+- 2026-Q4: ************************** 26
 
 ## Most recent
 
+- [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (November, 2026)](../posts/yzhums-com/77153.md) (2026-11-06)
 - [Business Central 2026 release wave 2 (BC29): New notification bar](../posts/yzhums-com/77124.md) (2026-11-06)
 - [Dynamics 365 Business Central: How to import Change Log Setup (Table/Field) using Configuration Packages](../posts/yzhums-com/76760.md) (2026-11-05)
 - [Business Central 2026 release wave 2 (BC29): Match Production Database Configuration](../posts/yzhums-com/77070.md) (2026-11-04)
@@ -556,6 +558,5 @@ Items per quarter, oldest first:
 - [Major update of Dynamics 365 Business Central 2026 release wave 2 (BC29) is available for existing customers](../posts/yzhums-com/76631.md) (2026-10-13)
 - [Business Central 2026 release wave 2 (BC29): AL developers can turn indexes on/off in AL code](../posts/yzhums-com/76518.md) (2026-10-09)
 - [Business Central 2026 release wave 2 (BC29): Retained DEV extensions (DEV extensions remain installed during environment update)](../posts/yzhums-com/76570.md) (2026-10-08)
-- [Business Central 2026 release wave 2 (BC29): Calculate multiple excise duties per item](../posts/yzhums-com/76445.md) (2026-10-07)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).
