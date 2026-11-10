@@ -2,18 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-submit-report.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report",
   "title": "Create and Submit Expense Reports",
-  "blob": "53f9a3e1ec03e3512dd8ab2b4dc4a4a82cae8eb5",
-  "summary": "Create, populate, and submit expense reports by adding expense lines, reviewing rule violations, linking travel requests, and preparing reports for approval and posting.",
+  "blob": "04c5a264411872441998cc6eace7163297a4e15c",
+  "summary": "Creating and submitting expense reports in Business Central groups related employee expenses into a single document for approval and reimbursement posting to the general ledger.",
   "systems": [
     "finance",
-    "hr"
+    "hr",
+    "copilot"
   ],
   "topics": [
     "expense management",
     "expense reports",
     "approval workflow",
+    "expense rules",
     "travel requests",
-    "rule compliance"
+    "reimbursement"
   ],
   "objects": [
     {
@@ -23,21 +25,21 @@
     {
       "type": "page",
       "name": "Expense Report"
+    },
+    {
+      "type": "page",
+      "name": "Expense Agent Setup"
     }
   ],
   "features": [
-    "create expense reports",
-    "add expense lines",
-    "get expense line",
-    "rule violation review",
-    "travel request linking",
-    "release report",
-    "submit for approval",
-    "itemizations",
-    "participants",
-    "per diem lines",
-    "mileage entry",
-    "anti-corruption attestation"
+    "Create expense reports",
+    "Add expenses to reports",
+    "Release reports",
+    "Submit for approval",
+    "Review rule violations",
+    "Link travel requests",
+    "Anti-corruption attestation",
+    "Print expense reports"
   ],
   "versions": [],
   "parts": 1,
@@ -46,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009673,
-      "pages_in_call": 4
+      "cost_usd": 0.005119,
+      "pages_in_call": 1
     }
   ]
 }

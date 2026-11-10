@@ -2,18 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-users-teams.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-users-teams",
   "title": "Set Up Expense Users and Teams",
-  "blob": "53490f184b5045ba1117be02a115404513bfda22",
-  "summary": "Expense users are created by linking employees to the system and assigning posting groups, with optional team organization and approver configuration for managing expense workflows.",
+  "blob": "a4f8ed68c573fd242aed09c844c47838abbc6fee",
+  "summary": "Set up expense users and teams in Business Central by linking employees to expense users, assigning posting groups, organizing users into teams, and configuring approvers for expense reports.",
   "systems": [
-    "administration"
+    "finance",
+    "administration",
+    "copilot"
   ],
   "topics": [
-    "expense users",
-    "expense teams",
-    "approvers",
-    "employee setup",
-    "posting groups",
-    "entra id import"
+    "expense management",
+    "user setup",
+    "teams",
+    "approvals",
+    "employee posting groups"
   ],
   "objects": [
     {
@@ -22,7 +23,7 @@
     },
     {
       "type": "page",
-      "name": "Expense User"
+      "name": "Expense User Card"
     },
     {
       "type": "page",
@@ -34,18 +35,22 @@
     },
     {
       "type": "page",
+      "name": "Expense Report"
+    },
+    {
+      "type": "page",
       "name": "User Card"
     }
   ],
   "features": [
-    "expense user creation",
-    "employee linking",
-    "posting group assignment",
-    "team assignment",
-    "team manager role",
-    "microsoft entra id import",
-    "approver setup",
-    "approval relationships"
+    "Expense user creation",
+    "Microsoft Entra ID import",
+    "Employee posting groups",
+    "Expense approvers",
+    "Team manager assignment",
+    "Expense approval workflow",
+    "Interim approver support",
+    "Approval relationships"
   ],
   "versions": [],
   "parts": 1,
@@ -54,8 +59,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.010103,
-      "pages_in_call": 4
+      "cost_usd": 0.004349,
+      "pages_in_call": 1
     }
   ]
 }

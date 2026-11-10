@@ -2,19 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-travel-requisitions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-travel-requisitions",
   "title": "Manage Travel Requests in Business Central",
-  "blob": "bea118b05fb152a15f1bc7986afcbc4d5072a260",
-  "summary": "Travel requests record planned travel details and costs for organizational review and approval before employees incur expenses, with linking to expense reports for spending comparison.",
+  "blob": "baf463f6d97b99cc1bc9592ea4d6e5e957ef70d4",
+  "summary": "Travel requests help organizations review planned travel before employees incur expenses by recording purpose, travelers, dates, estimated costs, and travel policy acknowledgment. After approval, requests can be linked to expense reports to compare actual spending with expected amounts.",
   "systems": [
-    "administration",
     "finance"
   ],
   "topics": [
     "travel requests",
     "expense management",
+    "employee expenses",
     "approval workflow",
-    "travel policy",
-    "per diem",
-    "employee expenses"
+    "cost estimation",
+    "per diem"
   ],
   "objects": [
     {
@@ -27,37 +26,40 @@
     },
     {
       "type": "page",
-      "name": "Expense Users"
-    },
-    {
-      "type": "page",
       "name": "Expense Approval Setup"
     },
     {
       "type": "page",
       "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Posted to G/L"
+    },
+    {
+      "type": "page",
+      "name": "Posting preview"
     }
   ],
   "features": [
-    "travel request creation",
-    "status tracking",
-    "travel policy acknowledgment",
-    "international travel",
-    "expense report linking",
-    "spending comparison",
-    "traveler management"
+    "Travel request creation and management",
+    "Traveler and expense user tracking",
+    "Cost estimation by category or lump sum",
+    "Travel policy acknowledgment",
+    "Per diem calculation",
+    "Request status workflow",
+    "Travel request linking to expense reports",
+    "Posted spending review and comparison"
   ],
-  "versions": [
-    "version 29"
-  ],
+  "versions": [],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.010103,
-      "pages_in_call": 4
+      "cost_usd": 0.004992,
+      "pages_in_call": 1
     }
   ]
 }

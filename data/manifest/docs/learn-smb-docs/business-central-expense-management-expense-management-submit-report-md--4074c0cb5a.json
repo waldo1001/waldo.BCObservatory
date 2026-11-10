@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report",
   "published_at": "2026-11-09T07:47:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T13:37:45.028Z",
+      "at": "2026-11-10T00:19:07.545Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.009673
+      "objects": 3,
+      "cost_usd": 0.005119
     },
     "summarized": {
-      "at": "2026-10-06T13:37:45.054Z",
+      "at": "2026-11-10T00:19:07.545Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:37:45.055Z",
+      "at": "2026-11-10T00:19:07.546Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:37:45.055Z",
+      "at": "2026-11-10T00:19:07.546Z",
       "page": false
     }
   },
@@ -82,5 +82,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "04c5a264411872441998cc6eace7163297a4e15c"
+  "output_hash": "4eb6443bc62803c6bff00497b711cc5aadfe0af9c233401417fdc621d4f90d8b"
 }
