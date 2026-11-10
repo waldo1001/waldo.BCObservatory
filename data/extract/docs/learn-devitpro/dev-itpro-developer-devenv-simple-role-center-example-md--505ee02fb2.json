@@ -2,18 +2,19 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-simple-role-center-example.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-simple-role-center-example",
   "title": "Simple Role Center Code Example in AL",
-  "blob": "cc4b07bdb2968492e7784c6aea6a2585864521d5",
-  "summary": "A simple Role Center example in AL demonstrates creating a custom Role Center page with sections for posted invoices, embedding actions for sales and services, and processing/creation/reporting action areas.",
+  "blob": "03585feea5b0658043e841c0c1a6aaaec90a5a82",
+  "summary": "AL code example that creates a simple role center page and profile with cues, actions, and navigation to commonly used pages. Use this to learn how to build custom role centers for specific user profiles.",
   "systems": [
-    "development"
+    "development",
+    "sales"
   ],
   "topics": [
     "role center",
-    "page design",
     "profile",
-    "actions",
+    "al development",
+    "page design",
     "cues",
-    "layout"
+    "actions"
   ],
   "objects": [
     {
@@ -30,13 +31,11 @@
     }
   ],
   "features": [
-    "role center layout",
-    "sections",
-    "embedding",
-    "processing actions",
-    "creation actions",
-    "reporting actions",
-    "profiles"
+    "role center creation",
+    "profile definition",
+    "cues and action tiles",
+    "navigation actions",
+    "application area configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -45,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004685,
-      "pages_in_call": 8
+      "cost_usd": 0.004176,
+      "pages_in_call": 1
     }
   ]
 }

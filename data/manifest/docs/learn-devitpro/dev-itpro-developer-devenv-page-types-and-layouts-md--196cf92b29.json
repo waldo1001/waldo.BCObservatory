@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-types-and-layouts",
   "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:51:01.719Z",
+      "at": "2026-11-10T00:17:45.601Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 15,
-      "cost_usd": 0.005899
+      "objects": 0,
+      "cost_usd": 0.013942
     },
     "summarized": {
-      "at": "2026-10-06T18:51:01.727Z",
+      "at": "2026-11-10T00:17:45.606Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:51:01.728Z",
+      "at": "2026-11-10T00:17:45.607Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:51:01.729Z",
+      "at": "2026-11-10T00:17:45.608Z",
       "page": false
     }
   },
@@ -73,5 +73,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "23d70f348fa4a95a948fbb80aab2d473d045abf3"
+  "output_hash": "14d4221e14bc8c470ec5c216fde8ca83f3be408a169c816ff588cb27936dcfca"
 }

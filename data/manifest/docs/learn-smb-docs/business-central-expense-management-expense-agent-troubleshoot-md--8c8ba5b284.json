@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-troubleshoot",
   "published_at": "2026-11-09T07:47:17.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.326Z",
-      "blob": "052560ac1b4398ba7962b78afc61d63716468291",
-      "words": 850,
+      "at": "2026-11-10T00:18:08.987Z",
+      "blob": "c04dfc6ca037244ec2cdf287a0375ffec2b9fa59",
+      "words": 1277,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T12:53:07.918Z",
+      "at": "2026-11-10T00:18:20.102Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.007348
+      "objects": 1,
+      "cost_usd": 0.004877
     },
     "summarized": {
-      "at": "2026-10-06T12:57:07.049Z",
+      "at": "2026-11-10T00:18:20.103Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T12:57:07.049Z",
+      "at": "2026-11-10T00:18:20.103Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T12:57:07.049Z",
+      "at": "2026-11-10T00:18:20.104Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/expense-management/expense-agent-troubleshoot.md",
     "description": "Find solutions for common issues in Expense Agent, including sign-in problems, receipt upload failures, and policy violations.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-11-04",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 850,
+    "words": 1277,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "51255dadb378bcacce7098338b65c41abe079ffbf57282e1bf14e751bfb8a5c1"
+  "output_hash": "7d6d1c62644a6f528f7bcda39e7313e2c49e799a0a2ae52929857bbe4c83c575"
 }

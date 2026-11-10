@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview",
   "published_at": "2026-11-09T07:47:17.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.317Z",
-      "blob": "8f99e0c2e0a24a552c16f14e6a7d9d0a79466264",
-      "words": 645,
+      "at": "2026-11-10T00:17:53.574Z",
+      "blob": "7f1d81a42d214d0f1d2bde9d1b4c9c25a4cbf608",
+      "words": 806,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T12:53:07.917Z",
+      "at": "2026-11-10T00:18:05.453Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.007348
+      "cost_usd": 0.004207
     },
     "summarized": {
-      "at": "2026-10-06T12:56:04.680Z",
+      "at": "2026-11-10T00:18:05.454Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T12:56:04.681Z",
+      "at": "2026-11-10T00:18:05.454Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T12:56:04.681Z",
+      "at": "2026-11-10T00:18:05.455Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/expense-management/expense-agent-overview.md",
-    "description": "Learn about Expense Agent, an AI-powered tool that helps employees capture receipts, track expenses, and submit expense reports in Business Central.",
-    "ms_date": "2026-10-02",
+    "description": "Use Expense Agent to capture receipts, track expenses, plan travel requests, and submit expense reports for approval with Business Central.",
+    "ms_date": "2026-11-04",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 645,
+    "words": 806,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "85b5c7cb8968912965169f0264fbd4eb3cae52d9fa06008d7b0f61acb620b9c0"
+  "output_hash": "7d6a91f54561a59279fd9c308daa5dec7e098d742c6edd3a63d4e05cb62b2a2d"
 }

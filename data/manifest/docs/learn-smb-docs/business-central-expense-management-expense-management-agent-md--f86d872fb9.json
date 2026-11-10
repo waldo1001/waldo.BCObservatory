@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent",
   "published_at": "2026-11-09T07:47:17.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.341Z",
-      "blob": "d182c0e7266656fe5ab7cfe462a26b467f7beaba",
-      "words": 413,
+      "at": "2026-11-10T00:18:14.949Z",
+      "blob": "8cff2f58f059e6b1a9bc36b7b4fee743a7b42e67",
+      "words": 474,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T12:53:07.919Z",
+      "at": "2026-11-10T00:18:26.735Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.009249
+      "objects": 4,
+      "cost_usd": 0.00356
     },
     "summarized": {
-      "at": "2026-10-06T12:59:04.039Z",
+      "at": "2026-11-10T00:18:26.736Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T12:59:04.040Z",
+      "at": "2026-11-10T00:18:26.736Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T12:59:04.040Z",
+      "at": "2026-11-10T00:18:26.737Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/expense-management/expense-management-agent.md",
     "description": "Learn how Expense Agent monitors a mailbox, creates expenses from emails, and sends reminders about open expense reports.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-11-04",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -56,11 +56,11 @@
     ],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 413,
+    "words": 474,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a285ca5cc79988eb8863933ff11b54c33e7b127dd4261f473f13823f7927fdfd"
+  "output_hash": "e0a4e45be5efbf6b50f55584c6e30ec599c41a22e86ed484869dd89c3389cf48"
 }

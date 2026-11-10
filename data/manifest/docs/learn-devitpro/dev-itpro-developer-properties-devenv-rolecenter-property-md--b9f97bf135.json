@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "RoleCenter property",
+  "title": "RoleCenter Property in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-rolecenter-property",
   "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-07T18:13:31.703Z",
-      "blob": "abe8bf75d7a2aeebe07c4244ad7c571fbbb79a9f",
-      "words": 57,
+      "at": "2026-11-10T00:17:36.134Z",
+      "blob": "ace0be11b40cba0690de0b3045b24f9588d46e45",
+      "words": 163,
       "forms": 0
     }
   },
@@ -25,17 +25,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/properties/devenv-rolecenter-property.md",
-    "description": "Specifies the Role Center Page for this profile.",
-    "ms_date": "2026-10-01",
+    "description": "Learn how to assign a role center page to a Business Central profile, reuse pages across profiles, and separate profile settings from permissions.",
+    "ms_date": "2026-11-05",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 57,
-    "identifiers": [],
+    "words": 163,
+    "identifiers": [
+      "RoleCenter"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "abe8bf75d7a2aeebe07c4244ad7c571fbbb79a9f"
+  "output_hash": "ace0be11b40cba0690de0b3045b24f9588d46e45"
 }

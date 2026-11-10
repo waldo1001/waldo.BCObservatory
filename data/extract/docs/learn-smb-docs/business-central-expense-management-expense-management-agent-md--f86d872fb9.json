@@ -2,32 +2,46 @@
   "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-agent.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent",
   "title": "How the Expense Agent Processes Emails",
-  "blob": "d182c0e7266656fe5ab7cfe462a26b467f7beaba",
-  "summary": "Expense Agent monitors a configured email mailbox to process expense-related emails, extract key details, create expense records automatically, group them into reports, and send confirmation emails and reminders to expense users.",
+  "blob": "8cff2f58f059e6b1a9bc36b7b4fee743a7b42e67",
+  "summary": "Expense Agent automates email processing for expense management by detecting expense-related emails, creating expense records, assigning them to reports, and sending confirmations and reminders to users.",
   "systems": [
     "copilot",
-    "integration",
-    "administration"
+    "finance"
   ],
   "topics": [
+    "expense management",
     "email processing",
-    "expense automation",
+    "automation",
     "agent",
-    "receipt confirmation",
-    "reminders",
-    "notifications",
-    "access control"
+    "permissions",
+    "notifications"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Configure Expense Agent"
+    },
+    {
+      "type": "page",
+      "name": "Copilot & Agent Capabilities"
+    },
+    {
+      "type": "page",
+      "name": "Agent Access Control"
+    },
+    {
+      "type": "page",
+      "name": "Expense Management Setup"
+    }
+  ],
   "features": [
-    "Email mailbox monitoring",
-    "Receipt and credit card statement detection",
-    "Automatic expense creation",
-    "Expense grouping by reporting period",
-    "Confirmation email sending",
-    "Open report reminders",
-    "Configurable reminder frequency",
-    "Agent access control"
+    "Email monitoring",
+    "Automated expense creation",
+    "Report assignment",
+    "Confirmation emails",
+    "Reminder notifications",
+    "Access control",
+    "Security and permissions"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +50,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009249,
-      "pages_in_call": 3
+      "cost_usd": 0.00356,
+      "pages_in_call": 1
     }
   ]
 }

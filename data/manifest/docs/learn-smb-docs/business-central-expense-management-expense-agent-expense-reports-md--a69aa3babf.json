@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-expense-reports",
   "published_at": "2026-11-09T07:47:17.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-30T00:18:13.199Z",
-      "blob": "8bb12a553642768f69aaddb40af38fe3fa919217",
-      "words": 703,
+      "at": "2026-11-10T00:17:50.949Z",
+      "blob": "07e56912ff1ac053c32f16daab477b097b1d39fd",
+      "words": 902,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-30T00:18:26.196Z",
+      "at": "2026-11-10T00:18:03.883Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003941
+      "cost_usd": 0.004159
     },
     "summarized": {
-      "at": "2026-10-30T00:18:26.196Z",
+      "at": "2026-11-10T00:18:03.884Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-30T00:18:26.197Z",
+      "at": "2026-11-10T00:18:03.895Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-30T00:18:26.198Z",
+      "at": "2026-11-10T00:18:03.896Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/expense-management/expense-agent-expense-reports.md",
     "description": "Learn how to create expense reports, add expenses, move expenses between reports, and submit reports for approval in Expense Agent.",
-    "ms_date": "2026-10-07",
+    "ms_date": "2026-11-04",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 703,
+    "words": 902,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "28770f751284bd23741e4624f2d856d0d9e77d95fc41037ead761122ea17b1bc"
+  "output_hash": "65b98c276922669ed098012dab656857767fd8d84d889da7065401c5c4b23a11"
 }

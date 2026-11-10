@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Approve or Send Back Expense Reports",
+  "title": "Approve Expense Reports and Travel Requests",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-approve-reports",
   "published_at": "2026-11-09T07:47:17.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-30T00:17:32.700Z",
-      "blob": "1078ee01a7f44a3b271a90d6dc002d9a1fb5a326",
-      "words": 508,
+      "at": "2026-11-10T00:17:40.924Z",
+      "blob": "b398367d0e7fecbe6ebf70339e52d5ad925576f2",
+      "words": 1207,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-30T00:17:41.042Z",
+      "at": "2026-11-10T00:17:52.328Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003513
+      "cost_usd": 0.00456
     },
     "summarized": {
-      "at": "2026-10-30T00:17:41.044Z",
+      "at": "2026-11-10T00:17:52.329Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-30T00:17:41.046Z",
+      "at": "2026-11-10T00:17:52.329Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-30T00:17:41.047Z",
+      "at": "2026-11-10T00:17:52.330Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/expense-management/expense-agent-approve-reports.md",
-    "description": "Learn how to review submitted expense reports and policy results, then approve them or send them back with comments in Expense Agent.",
-    "ms_date": "2026-10-07",
+    "description": "Review expense reports, policy results, and planned travel in Expense Agent. Approve reports and travel requests or send them back with comments.",
+    "ms_date": "2026-11-04",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 508,
+    "words": 1207,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a9394a61ba11bce393edc0dfc0d8ea282a9dd0cc7aff6c211d8fd9448db95240"
+  "output_hash": "795a27b1162b350eba276ca1b307346fb249c529341dffaf6c58e3761e970934"
 }

@@ -2,31 +2,31 @@
   "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-agent-expense-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-expense-reports",
   "title": "Create and Submit Expense Reports in Expense Agent",
-  "blob": "8bb12a553642768f69aaddb40af38fe3fa919217",
-  "summary": "Expense Agent allows users to create, organize, and submit expense reports by grouping related expenses together. The page covers how to create reports, add or move expenses, check policies before submission, submit for approval, and view history.",
+  "blob": "07e56912ff1ac053c32f16daab477b097b1d39fd",
+  "summary": "Create and submit expense reports in Expense Agent by grouping related expenses together for review and approval. The feature allows automatic report creation, manual organization, policy checking before submission, and viewing expense report history.",
   "systems": [
     "copilot",
-    "finance",
-    "integration"
+    "integration",
+    "finance"
   ],
   "topics": [
-    "expense reports",
-    "submission workflow",
-    "policy compliance",
     "expense management",
-    "approval process",
-    "draft organization"
+    "expense reports",
+    "approval workflow",
+    "policy compliance",
+    "travel requests",
+    "receipts",
+    "expense tracking"
   ],
   "objects": [],
   "features": [
     "Automatic expense report creation",
-    "Expense grouping by period",
-    "Report renaming",
-    "Add receipts to reports",
+    "Draft report management",
+    "Travel request integration",
+    "Expense policy pre-submission evaluation",
     "Move expenses between reports",
-    "AI-assisted policy evaluation",
-    "Pre-submission policy checking",
-    "Activity timeline history"
+    "Report history timeline",
+    "Policy compliance checking"
   ],
   "versions": [],
   "parts": 1,
@@ -35,7 +35,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003941,
+      "cost_usd": 0.004159,
       "pages_in_call": 1
     }
   ]

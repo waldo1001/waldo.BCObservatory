@@ -2,29 +2,31 @@
   "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-setup.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-setup",
   "title": "Set Up Expense Management in Business Central",
-  "blob": "5722c61bca0ce27ca91c220af244e52aad9e9408",
-  "summary": "Set up expense management configuration including general settings, approval workflows, posting groups, payment methods, VAT reclaim, number series, and notification preferences for employee expense processing.",
+  "blob": "a3349c19eb105dbfd59aaf03f5a529de36e91496",
+  "summary": "Set up expense management features in Business Central including Expense Agent configuration, accounting defaults, expense rules, payment methods, posting groups, and VAT reclaim settings.",
   "systems": [
     "finance",
-    "hr",
-    "administration"
+    "administration",
+    "copilot"
   ],
   "topics": [
-    "expense management setup",
+    "expense management",
+    "setup",
+    "expense agent",
+    "ai-assisted",
+    "receipt processing",
+    "approval workflows",
     "posting groups",
-    "approval workflow",
-    "vat reclaim",
-    "payment methods",
-    "configuration"
+    "vat reclaim"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Expense Management Setup"
+      "name": "Configure Expense Agent"
     },
     {
       "type": "page",
-      "name": "Configure Expense Agent"
+      "name": "Expense Management Setup"
     },
     {
       "type": "page",
@@ -49,19 +51,21 @@
     {
       "type": "page",
       "name": "Expense Approval Setup"
+    },
+    {
+      "type": "page",
+      "name": "Employees"
     }
   ],
   "features": [
-    "assisted setup",
-    "expense agent configuration",
-    "AI policy evaluation",
-    "approval workflow",
-    "posting group assignment",
-    "payment method setup",
-    "VAT reclaim setup",
-    "number series assignment",
-    "notification preferences",
-    "default settings"
+    "Expense Agent activation",
+    "Receipt submission via email",
+    "AI-assisted policy evaluation",
+    "Payment method configuration",
+    "Employee posting groups",
+    "Expense posting groups",
+    "VAT reclaim",
+    "Approval workflows"
   ],
   "versions": [],
   "parts": 1,
@@ -70,8 +74,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009673,
-      "pages_in_call": 4
+      "cost_usd": 0.014398,
+      "pages_in_call": 1
     }
   ]
 }

@@ -2,32 +2,67 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-walkthrough-developing-sales-rep-rolecenter-business-central-tablet-client.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-walkthrough-developing-sales-rep-rolecenter-business-central-tablet-client",
   "title": "Develop a Sales Rep Role Center for the Tablet Client",
-  "blob": "4589fdfee79f92e86de5abab518faf8f8d179ed0",
-  "summary": "Walkthrough for developing a Sales Rep Role Center for the Business Central tablet client by combining existing pages and actions for tablet use.",
+  "blob": "2ba4beff38922d5854bd3e5e60bc40d82f0928bf",
+  "summary": "Walkthrough for creating a sales representative role center for the tablet client by combining existing page parts and actions using AL Development in Business Central 2026 release wave 2.",
   "systems": [
-    "sales",
-    "development"
+    "development",
+    "sales"
   ],
   "topics": [
     "role center",
     "tablet client",
-    "sales representative",
-    "design"
+    "page development",
+    "al code",
+    "sales",
+    "mobile design"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Sales Rep Role Center"
+    },
+    {
+      "type": "page",
+      "name": "O365 Activities"
+    },
+    {
+      "type": "page",
+      "name": "My Customers"
+    },
+    {
+      "type": "page",
+      "name": "Help And Chart Wrapper"
+    },
+    {
+      "type": "page",
+      "name": "Trial Balance"
+    },
+    {
+      "type": "page",
+      "name": "Sales Quote"
+    },
+    {
+      "type": "page",
+      "name": "Customer List"
+    },
+    {
+      "type": "page",
+      "name": "Item List"
     }
   ],
   "features": [
-    "role center",
-    "tablet client",
-    "KPIs",
-    "sales quotes"
+    "role center page creation",
+    "page parts composition",
+    "role center actions",
+    "tablet client layout testing",
+    "activities display",
+    "customer favorites",
+    "chart integration",
+    "profile association"
   ],
   "versions": [
-    "2020 Release Wave 1"
+    "Business Central 2026 release wave 2",
+    "version 29"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -35,8 +70,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005608,
-      "pages_in_call": 8
+      "cost_usd": 0.005321,
+      "pages_in_call": 1
     }
   ]
 }

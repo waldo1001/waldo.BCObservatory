@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page",
   "published_at": "2026-11-09T07:47:17.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.286Z",
-      "blob": "4113fa79cb352d92ce10500f312d51013c0e6fc0",
-      "words": 1784,
+      "at": "2026-11-10T00:17:50.954Z",
+      "blob": "f5d30c7231b5109c593cfe73b195bffeb67b844a",
+      "words": 1841,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T12:39:35.681Z",
+      "at": "2026-11-10T00:18:05.430Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.009184
+      "objects": 5,
+      "cost_usd": 0.010803
     },
     "summarized": {
-      "at": "2026-10-06T12:39:35.687Z",
+      "at": "2026-11-10T00:18:05.431Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T12:39:35.687Z",
+      "at": "2026-11-10T00:18:05.431Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T12:39:35.688Z",
+      "at": "2026-11-10T00:18:05.431Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/expense-management/expense-agent-configuration-page.md",
     "description": "Learn how to set up Expense Agent to automate expense tracking, processing, policy evaluation, and approval workflows in Business Central.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-11-04",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 1784,
+    "words": 1841,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c6d9b8ba617456945a33b1f1c8032eb3ac83456eca4929f569c5081edf5b090e"
+  "output_hash": "6baf3c1f594ad6b43cbc453c2fb575a311f7337851ab71b4c1a4087846bcd042"
 }

@@ -3,14 +3,39 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "expense agent travel requests",
+  "title": "Create and Submit Travel Requests in Expense Agent",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-travel-requests",
   "published_at": "2026-11-09T07:47:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-10T00:14:28.203Z"
+    },
+    "fetched": {
+      "at": "2026-11-10T00:18:08.992Z",
+      "blob": "2af80cddb6cd35001a97b99b7f568a384e239871",
+      "words": 1142,
+      "forms": 0
+    },
+    "extracted": {
+      "at": "2026-11-10T00:18:20.109Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004476
+    },
+    "summarized": {
+      "at": "2026-11-10T00:18:20.110Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-11-10T00:18:20.111Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-11-10T00:18:20.112Z",
+      "page": false
     }
   },
   "input_hash": "2af80cddb6cd35001a97b99b7f568a384e239871",
@@ -18,6 +43,18 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/expense-management/expense-agent-travel-requests.md"
-  }
+    "path": "business-central/expense-management/expense-agent-travel-requests.md",
+    "description": "Plan a business trip in Expense Agent, estimate costs, add travelers and per diem details, and submit a travel request before you incur expenses.",
+    "ms_date": "2026-11-04",
+    "ms_topic": "how-to",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 1142,
+    "identifiers": [],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7f528af196f16c618c07a028cc32bad7a669a5c2d0c6adee583efac9a7c0e973"
 }

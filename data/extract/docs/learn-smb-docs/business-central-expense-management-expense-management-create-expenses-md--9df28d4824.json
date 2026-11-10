@@ -2,19 +2,21 @@
   "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-create-expenses.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-create-expenses",
   "title": "Create and Manage Expenses in Business Central",
-  "blob": "f2b6c1b383af83f5c650b139e522a5ad680cdf63",
-  "summary": "Create and manage individual expenses with itemizations, participants, mileage, per diem details, and reimbursement settings before adding them to expense reports.",
+  "blob": "d0a5fc158ccf9678eedc6fa7dd66387a67751201",
+  "summary": "Create and manage individual expenses in Business Central by recording amount, date, category, receipts, and supporting details, then add them to expense reports for submission and reimbursement processing.",
   "systems": [
-    "finance",
+    "copilot",
+    "hr",
     "projects"
   ],
   "topics": [
     "expense management",
-    "itemization",
+    "expense agent",
+    "receipts",
     "mileage",
     "per diem",
     "reimbursement",
-    "billing"
+    "project billing"
   ],
   "objects": [
     {
@@ -24,18 +26,23 @@
     {
       "type": "page",
       "name": "Expense Itemizations"
+    },
+    {
+      "type": "page",
+      "name": "Expense Card"
     }
   ],
   "features": [
-    "Expense card with category and date",
-    "Receipt attachment and preview",
-    "Itemizations with subcategories",
-    "Participants for business meals",
-    "Mileage expenses with vehicle types",
-    "Per diem calculations by location",
-    "Refundable and reimbursable amounts",
-    "Project and task assignment",
-    "Dimension assignment"
+    "expense creation",
+    "receipt attachment",
+    "itemization",
+    "participant tracking",
+    "mileage expense",
+    "per diem tracking",
+    "project allocation",
+    "reimbursement processing",
+    "customer billing",
+    "expense dimensions"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +51,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009347,
-      "pages_in_call": 4
+      "cost_usd": 0.00533,
+      "pages_in_call": 1
     }
   ]
 }

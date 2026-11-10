@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts",
   "published_at": "2026-11-09T07:47:17.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-30T00:18:06.000Z",
-      "blob": "ef283e353cd864b832fd87592b1cd0561032d75f",
-      "words": 1392,
+      "at": "2026-11-10T00:18:10.321Z",
+      "blob": "6edfe9a3e8bb225389bc85ad92c9b25a8d622550",
+      "words": 1478,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-30T00:18:18.175Z",
+      "at": "2026-11-10T00:18:21.480Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.005609
+      "objects": 1,
+      "cost_usd": 0.005565
     },
     "summarized": {
-      "at": "2026-10-30T00:18:18.177Z",
+      "at": "2026-11-10T00:18:21.480Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-30T00:18:18.178Z",
+      "at": "2026-11-10T00:18:21.481Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-30T00:18:18.179Z",
+      "at": "2026-11-10T00:18:21.481Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/expense-management/expense-agent-upload-receipts.md",
     "description": "Upload receipts to Expense Agent for AI extraction or create mileage expenses with route-based distance calculation in the web app.",
-    "ms_date": "2026-10-07",
+    "ms_date": "2026-11-03",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 1392,
+    "words": 1478,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b452ce400fc112d407d4fa551119edae740a6f673005e3d8eccb4364eb9f1faf"
+  "output_hash": "f9314acc8e7a07d96dcb8c5c80469ec498ac7452e0e442eadee34c5dcd486315"
 }

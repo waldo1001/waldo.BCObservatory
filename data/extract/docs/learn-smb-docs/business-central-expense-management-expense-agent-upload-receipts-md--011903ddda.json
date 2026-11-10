@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-agent-upload-receipts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts",
   "title": "Upload Receipts and Create Mileage Expenses",
-  "blob": "ef283e353cd864b832fd87592b1cd0561032d75f",
-  "summary": "Expense Agent uses AI to scan receipt images and extract merchant name, amount, date, and category, then automatically adds expenses to draft reports. Users can also create mileage expenses by entering trip details, and upload receipts via web app, mobile app, or email.",
+  "blob": "6edfe9a3e8bb225389bc85ad92c9b25a8d622550",
+  "summary": "Expense Agent automatically scans receipt images using AI to extract merchant, amount, date, and category details for expense reports, and supports creating mileage expenses by entering trip details with automatic distance calculation and currency conversion.",
   "systems": [
     "copilot",
     "finance",
@@ -14,29 +14,24 @@
     "receipt scanning",
     "ai extraction",
     "mileage expenses",
-    "vat reclaim",
-    "mobile app",
-    "email submission"
+    "currency conversion",
+    "vat reclaim"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Mileage Rate Setup"
-    },
-    {
-      "type": "page",
-      "name": "Expense reports"
     }
   ],
   "features": [
-    "Receipt upload and AI scanning",
+    "Receipt image scanning with AI",
+    "Automatic data extraction from receipts",
+    "Mileage expense creation with route mapping",
     "Automatic currency conversion",
-    "Mileage expense creation",
-    "Email receipt submission",
-    "VAT reclaim identification",
-    "Real-time processing status",
-    "Mobile app offline support",
-    "Route selection and validation"
+    "Draft report auto-assignment",
+    "VAT capture and tracking",
+    "Email submission of receipts",
+    "Mobile app support"
   ],
   "versions": [],
   "parts": 1,
@@ -45,7 +40,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005609,
+      "cost_usd": 0.005565,
       "pages_in_call": 1
     }
   ]

@@ -2,39 +2,32 @@
   "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-overview",
   "title": "Expense Management Overview in Business Central",
-  "blob": "02e2f2b9839ce1663a9fb9b5cd06205e34e75fc6",
-  "summary": "Manage employee expenses through expense reports with or without Expense Agent, including approval workflows, travel requests, VAT reclaim, and posting to general ledger.",
+  "blob": "820e12dc96a74fa88e956f46a1a31df10169659e",
+  "summary": "Expense management enables employees to submit work-related expenses for reimbursement through manual entry or AI-powered Expense Agent, with support for approval workflows, VAT reclaim, per diem, and mileage allowances.",
   "systems": [
     "finance",
-    "copilot"
+    "hr"
   ],
   "topics": [
     "expense management",
-    "expense reports",
-    "approval workflow",
-    "travel requests",
-    "vat",
-    "posting"
+    "employee expenses",
+    "expense agent",
+    "receipt scanning",
+    "approval workflows",
+    "vat reclaim",
+    "mileage",
+    "per diem"
   ],
-  "objects": [
-    {
-      "type": "table",
-      "name": "Expense Reports"
-    },
-    {
-      "type": "table",
-      "name": "Travel Requests"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Expense report status workflow",
-    "Approval workflows for reports",
-    "Travel request planning and comparison",
+    "Expense Agent receipt scanning and categorization",
+    "expense report creation and posting",
+    "approval workflows",
     "VAT calculation and reclaim",
-    "Rule and policy compliance checking",
-    "Refundable and reimbursable categorization",
-    "Per diem and mileage allowances",
-    "Payment processing tracking"
+    "per diem and mileage allowances",
+    "travel requests",
+    "expense rules and policies",
+    "itemization and participants"
   ],
   "versions": [],
   "parts": 1,
@@ -43,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009347,
-      "pages_in_call": 4
+      "cost_usd": 0.004959,
+      "pages_in_call": 1
     }
   ]
 }

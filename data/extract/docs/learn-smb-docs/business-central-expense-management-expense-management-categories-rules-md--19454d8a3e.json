@@ -2,10 +2,11 @@
   "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-categories-rules.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-categories-rules",
   "title": "Set Up Expense Categories, Rules, and Policies",
-  "blob": "722cda37ee596fd182d31fcee2ee5a917f4d0cf3",
-  "summary": "Set up expense categories, subcategories, groups, locations, rules, and policies to classify and validate business expenses with AI-assisted policy evaluation.",
+  "blob": "5ee3490e4a17d6f0656f73aeb5257f47651cd494",
+  "summary": "Set up expense categories, subcategories, groups, locations, rules, and AI-powered policies to classify and validate employee expenses in Business Central.",
   "systems": [
     "finance",
+    "hr",
     "copilot"
   ],
   "topics": [
@@ -13,28 +14,24 @@
     "categories",
     "rules",
     "policies",
-    "vat reclaim",
-    "withholding tax"
+    "withholding tax",
+    "vat reclaim"
   ],
   "objects": [
     {
-      "type": "table",
+      "type": "page",
       "name": "Expense Categories"
     },
     {
-      "type": "table",
-      "name": "Expense Subcategories"
-    },
-    {
-      "type": "table",
-      "name": "Expense Groups"
-    },
-    {
-      "type": "table",
+      "type": "page",
       "name": "Expense Locations"
     },
     {
-      "type": "table",
+      "type": "page",
+      "name": "Expense Groups"
+    },
+    {
+      "type": "page",
       "name": "Expense Management Rules"
     },
     {
@@ -43,19 +40,22 @@
     },
     {
       "type": "page",
+      "name": "Expense Agent Setup"
+    },
+    {
+      "type": "page",
       "name": "Expense Policies"
     }
   ],
   "features": [
-    "Expense categories with posting groups",
-    "Expense subcategories for itemization",
-    "Expense groups for reporting",
-    "Expense locations for per diem rates",
-    "Merchant requirements and restrictions",
-    "Expense rules with conditions and amounts",
-    "Natural-language expense policies",
-    "Withholding tax configuration",
-    "VAT reclaim with default percentages"
+    "expense categories and subcategories",
+    "expense rules with conditions",
+    "expense policies with AI evaluation",
+    "withholding tax configuration",
+    "VAT reclaim setup",
+    "per diem allowances",
+    "merchant requirements",
+    "rule violations tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -64,8 +64,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009347,
-      "pages_in_call": 4
+      "cost_usd": 0.013025,
+      "pages_in_call": 1
     }
   ]
 }

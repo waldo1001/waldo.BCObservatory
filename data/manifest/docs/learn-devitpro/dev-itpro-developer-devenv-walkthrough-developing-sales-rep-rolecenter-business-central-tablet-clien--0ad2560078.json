@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-walkthrough-developing-sales-rep-rolecenter-business-central-tablet-client",
   "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:36:33.220Z",
+      "at": "2026-11-10T00:17:49.150Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.005608
+      "objects": 8,
+      "cost_usd": 0.005321
     },
     "summarized": {
-      "at": "2026-10-06T19:36:48.276Z",
+      "at": "2026-11-10T00:17:49.150Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:36:48.277Z",
+      "at": "2026-11-10T00:17:49.151Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:36:48.278Z",
+      "at": "2026-11-10T00:17:49.151Z",
       "page": false
     }
   },
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2ba4beff38922d5854bd3e5e60bc40d82f0928bf"
+  "output_hash": "b5d2eb46db41e06889a435c7aa43bef98d7cfc7bb2e4084dbebd87795b9a1077"
 }

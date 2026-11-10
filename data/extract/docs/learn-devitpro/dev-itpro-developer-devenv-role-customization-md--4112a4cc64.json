@@ -1,30 +1,35 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-role-customization.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-role-customization",
-  "title": "Customize the user interface for user roles",
-  "blob": "94524de6adffaf2ec0e87d9cae32ea0752d9a5a3",
-  "summary": "Customizing user interface for roles through layered approach including Role Centers, page extensions, profiles, page customizations, and personalization for tailored user experiences.",
+  "title": "Role-Based Customization in Business Central",
+  "blob": "c3c5b21b755891ac548ee8bde4089a38942d9675",
+  "summary": "Role-based customization in Business Central allows developers, administrators, and users to tailor the user interface at multiple layers: role centers, page extensions, profiles with page customizations, and individual personalization.",
   "systems": [
-    "administration",
-    "development"
+    "development",
+    "administration"
   ],
   "topics": [
-    "role center",
-    "profile",
-    "page extension",
-    "page customization",
-    "personalization",
-    "designer"
-  ],
-  "objects": [],
-  "features": [
-    "Role Center design",
+    "customization",
+    "role centers",
     "page extensions",
-    "Designer tool",
-    "profile creation",
+    "profiles",
+    "personalization",
+    "ui design"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "RoleCenter"
+    }
+  ],
+  "features": [
+    "role-tailored experience",
+    "role centers",
+    "page extensions",
+    "profiles",
     "page customizations",
     "personalization",
-    "user workspace customization"
+    "designer"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.01311,
-      "pages_in_call": 4
+      "cost_usd": 0.003377,
+      "pages_in_call": 1
     }
   ]
 }

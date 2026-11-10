@@ -2,25 +2,29 @@
   "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-agent-policy-compliance.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance",
   "title": "Understand Policy Compliance in Expense Agent",
-  "blob": "ea162174a73c9933d638d1da3b34f6f344080046",
-  "summary": "Policy and rules compliance in Expense Agent separates deterministic Business Central rules from AI-evaluated natural-language policies to flag expenses with rule violations or potential policy issues.",
+  "blob": "465044dd9405eb442658b1ee6ea5cfc2c9d83971",
+  "summary": "Expense Agent policy compliance combines deterministic Business Central rules and AI-assisted policy evaluation to help organizations review and flag non-compliant expenses before and after submission.",
   "systems": [
-    "copilot"
+    "copilot",
+    "finance",
+    "integration"
   ],
   "topics": [
     "expense management",
     "policy compliance",
-    "rules compliance",
-    "ai-assisted evaluation",
-    "expense validation"
+    "expense rules",
+    "ai evaluation",
+    "expense agent",
+    "approval workflow"
   ],
   "objects": [],
   "features": [
-    "deterministic rule checking",
-    "ai-assisted policy evaluation",
-    "compliance indicators",
-    "policy evaluation configuration",
-    "privacy protection for policy evaluation"
+    "Deterministic expense rules",
+    "AI-assisted policy evaluation",
+    "Non-compliant status flagging",
+    "Policy snapshots in activity timeline",
+    "Background evaluation after submission",
+    "Submitter pre-submission checks"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007348,
-      "pages_in_call": 5
+      "cost_usd": 0.004269,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-role-customization",
   "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:10:08.858Z",
+      "at": "2026-11-10T00:17:45.627Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.01311
+      "objects": 1,
+      "cost_usd": 0.003377
     },
     "summarized": {
-      "at": "2026-10-06T18:10:17.005Z",
+      "at": "2026-11-10T00:17:45.628Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:10:17.006Z",
+      "at": "2026-11-10T00:17:45.629Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:10:17.007Z",
+      "at": "2026-11-10T00:17:45.629Z",
       "page": false
     }
   },
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c3c5b21b755891ac548ee8bde4089a38942d9675"
+  "output_hash": "1d6365880d233cd908065591ddab9a3d8acbb91e03e222f762e9c89915e622fe"
 }

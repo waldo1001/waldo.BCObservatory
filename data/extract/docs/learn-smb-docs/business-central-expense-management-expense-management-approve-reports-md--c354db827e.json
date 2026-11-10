@@ -2,39 +2,55 @@
   "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-approve-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-approve-reports",
   "title": "Review and Approve Expense Reports",
-  "blob": "d6f9bc5374dbcbc1828b2d5d56ab25b1c0264ea2",
-  "summary": "Managers and accountants review and approve submitted expense reports against policy compliance and VAT reclaim rules before posting, with separate workflows for approval and VAT verification.",
+  "blob": "95c84e8141629842e36cb9688db5b3026601e157",
+  "summary": "Managers and accountants review, approve, reject, or assign interim approvers to submitted expense reports using Expense Agent or approval workflows. Accountants also validate VAT reclaim decisions before posting.",
   "systems": [
     "hr",
-    "finance"
+    "integration"
   ],
   "topics": [
     "expense management",
     "approval workflow",
+    "expense agent",
     "vat reclaim",
-    "expense reports",
-    "policy compliance",
-    "manager review"
+    "manager approvals",
+    "interim approver"
   ],
   "objects": [
+    {
+      "type": "page",
+      "name": "Expense Reports"
+    },
+    {
+      "type": "page",
+      "name": "Expense Report"
+    },
     {
       "type": "page",
       "name": "Manager Expense Reports"
     },
     {
       "type": "page",
+      "name": "Manager Expense Report"
+    },
+    {
+      "type": "page",
       "name": "Accountant Expense Reports"
+    },
+    {
+      "type": "page",
+      "name": "User Card"
     }
   ],
   "features": [
-    "Expense report approval",
-    "Rule violation detection",
+    "Expense Agent approval",
+    "approval workflow",
+    "interim approver assignment",
     "VAT reclaim review",
-    "VAT specification approval",
-    "Receipt attachment access",
-    "Expense report statistics",
-    "Approval workflow",
-    "Report rejection with comments"
+    "rule violations detection",
+    "receipt attachment access",
+    "report rejection",
+    "reopen approved reports"
   ],
   "versions": [],
   "parts": 1,
@@ -43,8 +59,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00828,
-      "pages_in_call": 4
+      "cost_usd": 0.004986,
+      "pages_in_call": 1
     }
   ]
 }

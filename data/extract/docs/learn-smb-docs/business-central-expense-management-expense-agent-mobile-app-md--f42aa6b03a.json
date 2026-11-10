@@ -2,21 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-agent-mobile-app.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-mobile-app",
   "title": "Use the Expense Agent Mobile App (preview)",
-  "blob": "e6db447d099d44c4fb808d715297e86e8834174f",
-  "summary": "The Expense Agent mobile app for iOS and Android lets users capture receipts, upload files, create mileage expenses, and submit or approve expense reports directly from their phone, with offline viewing and automatic data sync with the web app.",
+  "blob": "b6d64272b2a33257e95bc1f03e2feaec03b84d5c",
+  "summary": "The Expense Agent mobile app for iOS and Android lets users capture receipts with their camera, create expenses, manage travel requests, and submit reports for approval with offline capability.",
   "systems": [
     "copilot",
-    "finance",
     "integration"
   ],
   "topics": [
     "expense management",
     "mobile app",
     "receipt scanning",
-    "expense reports",
-    "mileage tracking",
+    "travel planning",
     "approvals",
-    "offline mode"
+    "ai processing"
   ],
   "objects": [
     {
@@ -29,14 +27,14 @@
     }
   ],
   "features": [
-    "Receipt capture with live edge detection",
+    "Receipt capture with edge detection",
     "Multipage receipt scanning",
-    "Photo and file upload",
     "AI-suggested expense details",
-    "Mileage expense creation",
-    "Expense report submission",
-    "Report approval workflow",
-    "Offline viewing"
+    "Mileage expense calculation",
+    "Travel request planning",
+    "Expense report approval workflow",
+    "Offline viewing and queuing",
+    "Camera and photo library access"
   ],
   "versions": [],
   "parts": 1,
@@ -45,7 +43,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.01144,
+      "cost_usd": 0.012365,
       "pages_in_call": 1
     }
   ]

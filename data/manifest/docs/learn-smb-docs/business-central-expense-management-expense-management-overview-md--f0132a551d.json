@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-overview",
   "published_at": "2026-11-09T07:47:17.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:18.967Z",
-      "blob": "02e2f2b9839ce1663a9fb9b5cd06205e34e75fc6",
-      "words": 1141,
+      "at": "2026-11-10T00:18:28.274Z",
+      "blob": "820e12dc96a74fa88e956f46a1a31df10169659e",
+      "words": 1208,
       "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T13:37:07.420Z",
+      "at": "2026-11-10T00:18:40.211Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.009347
+      "objects": 0,
+      "cost_usd": 0.004959
     },
     "summarized": {
-      "at": "2026-10-06T13:37:07.474Z",
+      "at": "2026-11-10T00:18:40.211Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:37:07.474Z",
+      "at": "2026-11-10T00:18:40.212Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:37:07.475Z",
+      "at": "2026-11-10T00:18:40.212Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/expense-management/expense-management-overview.md",
     "description": "Learn about expense management in Business Central, including how to capture expenses, create reports, get approvals, and post to the general ledger.",
-    "ms_date": "2026-09-26",
+    "ms_date": "2026-11-04",
     "ms_topic": "overview",
     "search_form": [
       {
@@ -76,11 +76,11 @@
     ],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 1141,
+    "words": 1208,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "397e7c19da31d603f8a6da0371c8663ad06c7bafc921527a5a4aecfb1450ada2"
+  "output_hash": "3930f963f83933c6ac9b8d1a40a56f64a47f280584ed64678867566daf902352"
 }

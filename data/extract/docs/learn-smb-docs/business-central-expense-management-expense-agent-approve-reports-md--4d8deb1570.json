@@ -1,29 +1,30 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-agent-approve-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-approve-reports",
-  "title": "Approve or Send Back Expense Reports",
-  "blob": "1078ee01a7f44a3b271a90d6dc002d9a1fb5a326",
-  "summary": "Approve or send back expense reports submitted by employees using Expense Agent. Approvers review expenses, check compliance warnings, and either approve reports to move them forward or send them back with comments for employee revision.",
+  "title": "Approve Expense Reports and Travel Requests",
+  "blob": "b398367d0e7fecbe6ebf70339e52d5ad925576f2",
+  "summary": "Approvers review and approve submitted expense reports and travel requests in Expense Agent, with options to approve or send back with comments. The page covers interim approval workflows, compliance warnings, and how to manage approval history.",
   "systems": [
     "copilot",
-    "finance",
-    "administration"
+    "integration"
   ],
   "topics": [
-    "expense management",
-    "approval workflows",
-    "compliance checking",
-    "policy compliance",
-    "expense reports"
+    "expense reports",
+    "travel requests",
+    "approval workflow",
+    "compliance",
+    "interim approval",
+    "expense agent"
   ],
   "objects": [],
   "features": [
     "Approve expense reports",
     "Send back reports with comments",
     "Review compliance warnings",
-    "Policy issue evaluation",
-    "Approval history tracking",
-    "Expense categories and receipts review"
+    "Interim approval workflow",
+    "Travel request approval",
+    "Approval history",
+    "Policy issue review"
   ],
   "versions": [],
   "parts": 1,
@@ -32,7 +33,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003513,
+      "cost_usd": 0.00456,
       "pages_in_call": 1
     }
   ]
