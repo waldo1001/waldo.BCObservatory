@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13607",
+  "number": 13607,
+  "title": " [Main][ALL-E] Report 713 \"Inventory Custmer Sales\" – Excel (data only) export generates one row per Item Ledger Entry with NULL values instead of one aggregated row per Item/Customer combinationInitial commit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Report 713 now correctly exports aggregated rows per Item/Customer combination in Excel (data only) format instead of generating intermediate rows with NULL customer values.",
+  "key_points": [
+    "The report was emitting dataset rows even when the temporary aggregate buffer was empty",
+    "Null customer values appeared in intermediate rows during Excel export",
+    "Solution adds CurrReport.Skip() to suppress intermediate rows while preserving aggregates and totals",
+    "Word layout and existing subtotals/grand totals remain unaffected",
+    "Test coverage added for the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": "Excel (data only) export generates one row per Item Ledger Entry with NULL values instead of one aggregated row per Item/Customer combination",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003468,
+    "changes_in_call": 1
+  }
+}

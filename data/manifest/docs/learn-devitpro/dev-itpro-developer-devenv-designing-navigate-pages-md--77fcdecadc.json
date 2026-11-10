@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-navigate-pages",
   "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.686Z",
-      "blob": "7a4f8d1c001e9b9c9df8d221f3c5d4662c961a18",
-      "words": 1173,
+      "at": "2026-11-10T00:17:08.362Z",
+      "blob": "7d401873d1a7d7a341bdc01cd495f6b94b15c117",
+      "words": 1030,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:01:49.047Z",
+      "at": "2026-11-10T00:17:22.460Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 6,
-      "cost_usd": 0.006121
+      "objects": 8,
+      "cost_usd": 0.016492
     },
     "summarized": {
-      "at": "2026-10-06T19:01:49.056Z",
+      "at": "2026-11-10T00:17:22.461Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:49.057Z",
+      "at": "2026-11-10T00:17:22.462Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:49.058Z",
+      "at": "2026-11-10T00:17:22.462Z",
       "page": false
     }
   },
@@ -44,25 +44,29 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-designing-navigate-pages.md",
-    "description": "Learn how to create wizards using the NavigatePage page type in Business Central\"",
+    "description": "Learn how to build and register assisted setup guides in Business Central with NavigatePage steps, footer actions, and temporary source records.",
     "ms_date": "2025-10-14",
-    "ms_topic": "install-set-up-deploy",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1173,
+    "words": 1030,
     "identifiers": [
       "NavigatePage",
-      "Step1Visible",
-      "Step2Visible",
       "PreviousRecord",
       "NextRecord",
       "StoreRecordVar",
-      "OnRegisterAssistedSetup"
+      "Step1Visible",
+      "Step2Visible",
+      "Step3Visible",
+      "InFooterBar",
+      "OnRegisterAssistedSetup",
+      "ToDoAssistedSetup",
+      "InsertAssistedSetup"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0ee43a782c74acb881d6de4cb962233aa5db8bc19df299f0b5a9e16ce7a9196b"
+  "output_hash": "1e1d3a0796b8500bde3b28df717e2aa84910e589eedb24a471d53ebbaeee23ae"
 }

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13628",
+  "number": 13628,
+  "title": "[main] Bug 657281 [Drop Shipment] Your Reference, , Vendor Order No., and Vendor Shipment No. are blank on Posted Purchase Receipt Lines",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "sales"
+  ],
+  "summary": "Drop shipment receipts now correctly populate Your Reference, Vendor Order No., and Vendor Shipment No. fields on posted purchase receipt lines when automatically posted from sales orders.",
+  "key_points": [
+    "Fixes blank fields on posted purchase receipt lines in drop shipment scenarios",
+    "Corrects data flow when receipts are automatically posted from sales orders",
+    "Updates purchase and sales posting logic across all localization layers",
+    "Includes test coverage for the drop shipment posting process"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00417,
+    "changes_in_call": 1
+  }
+}

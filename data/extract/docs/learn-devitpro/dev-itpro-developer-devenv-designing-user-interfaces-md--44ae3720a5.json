@@ -1,32 +1,58 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-designing-user-interfaces.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-user-interfaces",
-  "title": "Designing the User Interface",
-  "blob": "dfee31c424b65c297cccc22002cb808032b4d505",
-  "summary": "Designing the User Interface covers page types, role centers, actions, views, queries, and profiles for creating intuitive Business Central user interfaces with multiple client support.",
+  "title": "Designing the User Interface in Business Central",
+  "blob": "5931917498846ab97a416babf30dc1ede4241ade",
+  "summary": "Designing the User Interface in Business Central covers page types, components, and layout options for building clear, efficient interfaces. Use this to learn how to develop role centers, pages, actions, views, and other UI elements.",
   "systems": [
     "development",
+    "administration",
     "platform"
   ],
   "topics": [
-    "ui design",
-    "pages",
+    "user interface design",
+    "page types",
     "role centers",
     "actions",
     "views",
     "profiles",
-    "discoverability"
+    "page discoverability"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Card"
+    },
+    {
+      "type": "page",
+      "name": "Document"
+    },
+    {
+      "type": "page",
+      "name": "ListPlus"
+    },
+    {
+      "type": "page",
+      "name": "List"
+    },
+    {
+      "type": "page",
+      "name": "Worksheet"
+    },
+    {
+      "type": "query",
+      "name": "Query"
+    }
+  ],
   "features": [
-    "Role Centers",
-    "Page types",
-    "Actions",
-    "Views",
-    "Queries",
-    "Profiles",
-    "Tell Me search",
-    "Mobile support"
+    "role centers",
+    "page types and layouts",
+    "actions and action bar",
+    "views with filtering and sorting",
+    "queries for data analysis",
+    "profiles and role customization",
+    "Tell Me discoverability",
+    "Role Explorer"
   ],
   "versions": [
     "version 23"
@@ -37,8 +63,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006054,
-      "pages_in_call": 8
+      "cost_usd": 0.005313,
+      "pages_in_call": 1
     }
   ]
 }

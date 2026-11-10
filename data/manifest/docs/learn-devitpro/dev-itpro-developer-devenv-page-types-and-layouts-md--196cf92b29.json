@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Page types and layouts",
+  "title": "Business Central Page Types and Layouts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-types-and-layouts",
   "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.697Z",
-      "blob": "ac1dac1706cf31a4f158735fbdc05b071c2fd84e",
-      "words": 3274,
+      "at": "2026-11-10T00:17:28.727Z",
+      "blob": "23d70f348fa4a95a948fbb80aab2d473d045abf3",
+      "words": 2993,
       "forms": 0
     },
     "extracted": {
@@ -44,15 +44,18 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-page-types-and-layouts.md",
-    "description": "Understanding page types to be able to create good user experience in Business Central.",
-    "ms_date": "2024-10-01",
-    "ms_topic": "article",
+    "description": "Compare Business Central page types and layout patterns to choose the right page structure, organize controls, and use screen space effectively.",
+    "ms_date": "2026-11-05",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 3274,
+    "words": 2993,
     "identifiers": [
       "PageType",
+      "ReportPreview",
+      "ReportProcessingOnly",
+      "XmlPort",
       "RoleCenter",
       "ListPlus",
       "ListPart",
@@ -70,5 +73,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a878315cfce63a71b96d71ee5a9645aa049b5acd9bea00d413b407043ed60949"
+  "output_hash": "23d70f348fa4a95a948fbb80aab2d473d045abf3"
 }

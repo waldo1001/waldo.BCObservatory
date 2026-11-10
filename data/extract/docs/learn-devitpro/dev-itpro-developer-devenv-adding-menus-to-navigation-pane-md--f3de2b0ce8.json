@@ -2,19 +2,18 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-adding-menus-to-navigation-pane.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-menus-to-navigation-pane",
   "title": "Add Menus to Role Center Navigation",
-  "blob": "fdf410dcc99b1f9da832b56f6cdcb1fd83e27354",
-  "summary": "Adding menus to Role Center navigation involves using area() controls in AL to define navigation menu sections, navigation bar links, and action areas (Creation, Processing, Reporting) for organizing pages, reports, and codeunits.",
+  "blob": "f810c9df4d2559e5f0a9857c9d36fc1144203d2c",
+  "summary": "Defines how to add menus, navigation items, and actions to role center navigation areas using AL area() controls (Sections, Embedding, Creation, Processing, Reporting).",
   "systems": [
-    "development",
-    "administration"
+    "development"
   ],
   "topics": [
-    "role center",
+    "role centers",
     "navigation",
-    "menu",
-    "action area",
-    "page extension",
-    "al development"
+    "al development",
+    "ui customization",
+    "page extensions",
+    "actions"
   ],
   "objects": [
     {
@@ -49,12 +48,12 @@
   "features": [
     "navigation menu",
     "navigation bar",
-    "action area (Creation)",
-    "action area (Processing)",
-    "action area (Reporting)",
-    "page groups and submenus",
-    "area(Sections) control",
-    "area(Embedding) control"
+    "actions area",
+    "Sections area",
+    "Embedding area",
+    "Creation area",
+    "Processing area",
+    "Reporting area"
   ],
   "versions": [],
   "parts": 1,
@@ -63,7 +62,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004554,
+      "cost_usd": 0.004656,
       "pages_in_call": 1
     }
   ]

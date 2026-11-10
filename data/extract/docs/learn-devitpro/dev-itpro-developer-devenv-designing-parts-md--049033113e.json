@@ -1,31 +1,54 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-designing-parts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-parts",
-  "title": "Page Parts Overview",
-  "blob": "11f65509f3b633fcc7a13c280d5be8de6b3cbbe3",
-  "summary": "Page parts are embedded page objects that display information from different tables than the hosting page, enabling reuse across multiple pages and richer user experiences in role centers, factboxes, and document pages.",
+  "title": "Page Parts Overview for Business Central",
+  "blob": "c1f0aa192ff6a7651e09779a555f29bf9cea1c7d",
+  "summary": "Page parts are embeddable pages within other Business Central pages, including ListPart, CardPart, Power BI report parts, and HeadlinePart types. Use parts to display related information across multiple pages and page layouts.",
   "systems": [
     "development",
     "platform"
   ],
   "topics": [
-    "page design",
     "page parts",
-    "listparts",
-    "cardparts",
-    "role center",
-    "factbox",
-    "ui design"
+    "listpart",
+    "cardpart",
+    "headlines",
+    "factboxes",
+    "page design",
+    "embedding",
+    "ui patterns"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "ListPart pages"
+    },
+    {
+      "type": "page",
+      "name": "CardPart pages"
+    },
+    {
+      "type": "page",
+      "name": "HeadlinePart pages"
+    },
+    {
+      "type": "page",
+      "name": "Power BI report parts"
+    },
+    {
+      "type": "page",
+      "name": "RoleCenter"
+    }
+  ],
   "features": [
-    "ListParts",
-    "CardParts",
-    "Power BI Report Parts",
-    "HeadlineParts",
-    "part visibility",
-    "part actions",
-    "part collapsing"
+    "part control",
+    "ListPart pages",
+    "CardPart pages",
+    "HeadlinePart pages",
+    "Power BI report parts",
+    "FactBoxes",
+    "page nesting",
+    "dynamic visibility"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +57,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003414,
-      "pages_in_call": 8
+      "cost_usd": 0.004982,
+      "pages_in_call": 1
     }
   ]
 }

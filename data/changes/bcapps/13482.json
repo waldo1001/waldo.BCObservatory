@@ -1,0 +1,77 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13482,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13482",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-09T16:42:30Z",
+  "merge_commit_sha": "ce21c00aef3437ebfb55d2704cf90166c8ef6b94",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master][all-e]Purchase Invoice Statistics Non-Deductible VAT Amount does not match VAT Entries and G/L Entries when Non-Deductible VAT is enabled.",
+  "body_hash": "584a381378e971c6c2673a89c522cbbbe3e3bb0bf1b47729b6c7d112eaa801e9",
+  "fixes_issues": [],
+  "work_items": [
+    657371
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Calculation/NonDedVATImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/NonDeductibleUT.Codeunit.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/NonDeductibleVATStatistics.Codeunit.al",
+      "status": "modified",
+      "additions": 118,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 148,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/VAT/Calculation/NonDedVATImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6201",
+        "type": "codeunit",
+        "id": 6201,
+        "name": "Non-Ded. VAT Impl.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6201"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

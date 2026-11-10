@@ -1,0 +1,41 @@
+{
+  "item_id": "change/bcapps-prs/9587",
+  "number": 9587,
+  "title": "Concurrent posting for General Ledger entries",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "purchasing",
+    "sales",
+    "fixed-assets",
+    "inventory",
+    "hr",
+    "service",
+    "assembly"
+  ],
+  "summary": "The posting process for General Ledger entries now supports concurrent processing, improving performance when posting multiple journal entries simultaneously across finance, purchasing, and sales modules.",
+  "key_points": [
+    "Concurrent posting enabled for G/L Entry operations across multiple ledger types",
+    "Posting codeunits (Gen. Jnl.-Post Line, Gen. Jnl.-Post Batch) restructured to handle parallel execution",
+    "Register tables and detailed ledger entries updated to support concurrent inserts",
+    "Changes applied consistently across localization layers (APAC, BE, CH, DACH, ES, FI, FR)",
+    "Reports and utility codeunits adjusted to work with concurrent posting logic"
+  ],
+  "change_kind": "performance",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.014777,
+    "changes_in_call": 1
+  }
+}

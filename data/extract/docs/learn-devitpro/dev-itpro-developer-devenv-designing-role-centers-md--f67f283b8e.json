@@ -1,34 +1,46 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-designing-role-centers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-role-centers",
-  "title": "Designing Role Centers",
-  "blob": "92f92c3a68045d38e33bc9e183a521de6953917b",
-  "summary": "Designing Role Centers describes how to create role-tailored home pages with navigation, actions, and content parts for different user profiles, including performance optimization and mobile considerations.",
+  "title": "Role Center Design in Business Central",
+  "blob": "8677cdf703e06152a5f8d60590bc4a1f12af7fb2",
+  "summary": "Role Center Design in Business Central explains how developers design role centers as customized entry points and home pages that help users focus on tasks relevant to their role. Role centers combine navigation areas, action bars, and content parts to provide quick access to important information and frequently used operations.",
   "systems": [
     "development",
-    "administration"
+    "administration",
+    "platform"
   ],
   "topics": [
-    "role centers",
-    "ui design",
+    "role center design",
+    "page layout",
     "navigation",
     "user experience",
-    "mobile"
+    "performance",
+    "profile configuration"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Role Center"
+      "name": "HeadlinePart"
+    },
+    {
+      "type": "page",
+      "name": "CardPart"
+    },
+    {
+      "type": "page",
+      "name": "ListPart"
     }
   ],
   "features": [
+    "headline parts",
+    "data cues",
+    "action cues",
+    "wide cues",
+    "content parts",
     "navigation menus",
     "action bar",
-    "content area",
-    "cues",
-    "headlines",
-    "page background tasks",
-    "designer personalization"
+    "mobile layout",
+    "page background tasks"
   ],
   "versions": [
     "2021 release wave 1"
@@ -39,8 +51,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003381,
-      "pages_in_call": 8
+      "cost_usd": 0.011456,
+      "pages_in_call": 1
     }
   ]
 }

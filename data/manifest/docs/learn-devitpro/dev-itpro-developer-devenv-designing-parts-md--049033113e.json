@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Page Parts Overview",
+  "title": "Page Parts Overview for Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-parts",
   "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:42.583Z",
-      "blob": "11f65509f3b633fcc7a13c280d5be8de6b3cbbe3",
-      "words": 1080,
+      "at": "2026-11-10T00:17:10.599Z",
+      "blob": "c1f0aa192ff6a7651e09779a555f29bf9cea1c7d",
+      "words": 938,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:44:25.670Z",
+      "at": "2026-11-10T00:17:22.467Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003414
+      "objects": 5,
+      "cost_usd": 0.004982
     },
     "summarized": {
-      "at": "2026-10-06T19:44:25.686Z",
+      "at": "2026-11-10T00:17:22.467Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:44:25.688Z",
+      "at": "2026-11-10T00:17:22.468Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:44:25.689Z",
+      "at": "2026-11-10T00:17:22.468Z",
       "page": false
     }
   },
@@ -44,20 +44,22 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-designing-parts.md",
-    "description": "Provides and overview of the parts concept.",
-    "ms_date": "2021-04-01",
+    "description": "Learn how to choose and embed Business Central page parts, link related data, and design part layouts, actions, visibility, and background tasks.",
+    "ms_date": "2026-11-05",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1080,
+    "words": 938,
     "identifiers": [
-      "FactBoxes",
-      "RoleCenter"
+      "RoleCenter",
+      "ListPlus",
+      "CardPart",
+      "FactBoxes"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0ff46c159ac7dcb5388ee3d8815d103f712b81ab9377c45125080710922075b3"
+  "output_hash": "a428690bc4b086a9f84e1268341372fddefc6436ac867682ff627f8b03cfb8fc"
 }

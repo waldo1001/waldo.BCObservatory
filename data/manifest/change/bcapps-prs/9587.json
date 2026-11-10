@@ -6,7 +6,7 @@
   "title": "Concurrent posting for General Ledger entries",
   "url": "https://github.com/microsoft/BCApps/pull/9587",
   "published_at": "2026-11-09T16:48:20Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-10T00:14:28.203Z"
@@ -18,6 +18,23 @@
       "al": 162,
       "objects": 135,
       "unjoined": 27
+    },
+    "extracted": {
+      "at": "2026-11-10T00:16:44.205Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": true,
+      "cost_usd": 0.014777
+    },
+    "linked": {
+      "at": "2026-11-10T00:16:44.330Z",
+      "objects": 135,
+      "unjoined": 27,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-10T00:16:44.346Z",
+      "path": "content/changes/bcapps/9587.md"
     }
   },
   "input_hash": "e367b95d9af8790aecc4fa4124dbc0c41090bc3b:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5335b844fce999ed38a50e1c615ba0a1eda101650647dbf7babb62588216c8f2"
+  "output_hash": "831e31312dcc26f922497b7c1ac71ddf52315ddb799892a5327040096b005e4f"
 }

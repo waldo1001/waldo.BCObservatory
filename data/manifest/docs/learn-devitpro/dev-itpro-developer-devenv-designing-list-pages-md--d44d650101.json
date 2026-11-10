@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-list-pages",
   "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.322Z",
-      "blob": "df7c1c1922eff0cbb9305bc5fec7f4aa1c76711a",
-      "words": 1882,
+      "at": "2026-11-10T00:16:50.909Z",
+      "blob": "429ff2411a0d861e7870aa043f256ae57ecb8d93",
+      "words": 1496,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:38:04.985Z",
+      "at": "2026-11-10T00:17:04.411Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.005573
+      "objects": 1,
+      "cost_usd": 0.010045
     },
     "summarized": {
-      "at": "2026-10-06T19:38:06.713Z",
+      "at": "2026-11-10T00:17:04.412Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:38:06.714Z",
+      "at": "2026-11-10T00:17:04.413Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:38:06.715Z",
+      "at": "2026-11-10T00:17:04.413Z",
       "page": false
     }
   },
@@ -44,17 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-designing-list-pages.md",
-    "description": "Provides and overview of List page design",
-    "ms_date": "2021-04-01",
+    "description": "Learn how to design Business Central list pages with clear layouts, useful actions, filters, tile views, and device-specific behavior.",
+    "ms_date": "2026-11-05",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1882,
-    "identifiers": [],
+    "words": 1496,
+    "identifiers": [
+      "ModifyAllowed",
+      "DropDown"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4e5014f409f38399608dbb5837be8a0f7253024c29762f08e93289e7aa5f4290"
+  "output_hash": "07ae8f3ddb0f29d0c444d95222aa16d1a0dbc0e837472b7c1783ffa2b4231866"
 }

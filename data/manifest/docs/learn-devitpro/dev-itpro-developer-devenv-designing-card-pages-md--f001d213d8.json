@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Designing card pages",
+  "title": "Designing Card Pages in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-card-pages",
   "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.317Z",
-      "blob": "e7c3213d0040616d13f51fd9eca3a1bdc8e1655b",
-      "words": 1539,
+      "at": "2026-11-10T00:16:48.752Z",
+      "blob": "15732ed03866b418a33034945bbf91ab3fb4643e",
+      "words": 1219,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:38:04.984Z",
+      "at": "2026-11-10T00:17:02.814Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.005573
+      "cost_usd": 0.005436
     },
     "summarized": {
-      "at": "2026-10-06T19:38:04.995Z",
+      "at": "2026-11-10T00:17:02.815Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:38:04.997Z",
+      "at": "2026-11-10T00:17:02.816Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:38:06.711Z",
+      "at": "2026-11-10T00:17:02.816Z",
       "page": false
     }
   },
@@ -44,17 +44,23 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-designing-card-pages.md",
-    "description": "Provides and overview of card page design.",
-    "ms_date": "2024-04-26",
+    "description": "Learn how to design Business Central card and document pages with clear FastTabs, fields, actions, subpages, FactBoxes, and mobile layouts.",
+    "ms_date": "2026-11-05",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1539,
-    "identifiers": [],
+    "words": 1219,
+    "identifiers": [
+      "InsertAllowed",
+      "ModifyAllowed",
+      "DeleteAllowed",
+      "ListPart",
+      "DropDown"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9a815550fa44b2b08f7fe1b05c3e44c9b3266e353d5e5cbd23ba85d29f577888"
+  "output_hash": "caa9234da8de6b33ca252bf61ad0354f4a4ad3522ecbd0b8e497ac7e2a31be01"
 }

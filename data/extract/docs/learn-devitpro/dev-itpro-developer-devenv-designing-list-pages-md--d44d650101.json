@@ -2,34 +2,37 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-designing-list-pages.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-list-pages",
   "title": "Designing List Pages for Business Central",
-  "blob": "df7c1c1922eff0cbb9305bc5fec7f4aa1c76711a",
-  "summary": "List pages display collections of records as rows/columns or tiles, enabling users to browse and select entities to work with. List pages typically link to associated card pages for editing individual records.",
+  "blob": "429ff2411a0d861e7870aa043f256ae57ecb8d93",
+  "summary": "Designing list pages in Business Central that display records from tables as rows, columns, or tiles, with guidance on structure, behavior, and mobile optimization.",
   "systems": [
-    "development"
+    "development",
+    "platform"
   ],
   "topics": [
     "list pages",
     "page design",
-    "tile view",
-    "repeater controls"
+    "ui layout",
+    "repeater controls",
+    "factboxes",
+    "promoted actions",
+    "tile views",
+    "mobile design"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Customer Card"
-    },
-    {
-      "type": "page",
-      "name": "Customer List"
+      "name": "List"
     }
   ],
   "features": [
-    "tile view",
-    "factboxes",
-    "filter pane",
-    "promoted actions",
-    "edit in excel",
-    "analysis mode"
+    "List and tile view modes",
+    "Action bar with promoted actions",
+    "FactBox pane",
+    "Search and filter pane",
+    "Edit List capability",
+    "Edit in Excel",
+    "Analysis mode",
+    "Brick field groups for tile display"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005573,
-      "pages_in_call": 8
+      "cost_usd": 0.010045,
+      "pages_in_call": 1
     }
   ]
 }

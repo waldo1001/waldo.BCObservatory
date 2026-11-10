@@ -6,7 +6,7 @@
   "title": "[main] Bug 657281 [Drop Shipment] Your Reference, , Vendor Order No., and Vendor Shipment No. are blank on Posted Purchase Receipt Lines",
   "url": "https://github.com/microsoft/BCApps/pull/13628",
   "published_at": "2026-11-09T16:46:17Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-10T00:14:28.203Z"
@@ -18,6 +18,23 @@
       "al": 22,
       "objects": 19,
       "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-11-10T00:16:41.560Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00417
+    },
+    "linked": {
+      "at": "2026-11-10T00:16:41.692Z",
+      "objects": 19,
+      "unjoined": 3,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-10T00:16:41.698Z",
+      "path": "content/changes/bcapps/13628.md"
     }
   },
   "input_hash": "9090318a1bd88c432554a6ee4dc0b563b83833d5:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b05115b93c79f96d64780949b2b97de0165a2f4b9010bfd7b7e63526e87c77e0"
+  "output_hash": "980638e949db16b248ed370884ae47c0cdb1ec4a07cfb503dc3296fbe28b8a99"
 }

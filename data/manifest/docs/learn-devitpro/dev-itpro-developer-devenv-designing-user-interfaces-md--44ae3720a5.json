@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Designing the User Interface",
+  "title": "Designing the User Interface in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-user-interfaces",
   "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.525Z",
-      "blob": "dfee31c424b65c297cccc22002cb808032b4d505",
-      "words": 1210,
+      "at": "2026-11-10T00:17:12.336Z",
+      "blob": "5931917498846ab97a416babf30dc1ede4241ade",
+      "words": 972,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:28:17.385Z",
+      "at": "2026-11-10T00:17:24.707Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.006054
+      "objects": 6,
+      "cost_usd": 0.005313
     },
     "summarized": {
-      "at": "2026-10-06T18:28:17.398Z",
+      "at": "2026-11-10T00:17:24.708Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:28:17.400Z",
+      "at": "2026-11-10T00:17:24.709Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:28:17.401Z",
+      "at": "2026-11-10T00:17:24.709Z",
       "page": false
     }
   },
@@ -44,19 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-designing-user-interfaces.md",
-    "description": "Provides an overview of the components available when designing a user interface in Business Central",
-    "ms_date": "2024-04-22",
+    "description": "Learn how to design Business Central user interfaces with role centers, pages, actions, views, queries, profiles, and discoverability features.",
+    "ms_date": "2026-11-05",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1210,
+    "words": 972,
     "identifiers": [
-      "ListPlus"
+      "ListPlus",
+      "UsageCategory"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d32da269f24dabc67554ade48341a480e517d1f2fb593ae1bfdcca19bf9ecc9b"
+  "output_hash": "0dd844bbf98b6b5074e30d5d46bcfd6c2d69a979779a4d32283f7a945f9c81cf"
 }

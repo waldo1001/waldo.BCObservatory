@@ -1,38 +1,45 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-designing-card-pages.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-card-pages",
-  "title": "Designing card pages",
-  "blob": "e7c3213d0040616d13f51fd9eca3a1bdc8e1655b",
-  "summary": "Card and document pages display individual records for viewing and editing master data and transactions. Card pages show single records while document pages include sub-pages for related line items.",
+  "title": "Designing Card Pages in Business Central",
+  "blob": "15732ed03866b418a33034945bbf91ab3fb4643e",
+  "summary": "Card and document pages display details for individual records and transactions. Card pages are for master data like customers, while document pages represent business events like orders, and both can include subpages for related line items.",
   "systems": [
-    "development"
+    "development",
+    "platform"
   ],
   "topics": [
+    "page design",
     "card pages",
     "document pages",
-    "page design",
-    "list pages"
+    "subpages",
+    "factboxes",
+    "actions",
+    "mobile design"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Customer Card"
+      "name": "Card"
     },
     {
       "type": "page",
-      "name": "Business Manager Role Center"
+      "name": "Document"
     },
     {
       "type": "page",
-      "name": "Customer List"
+      "name": "ListPart"
     }
   ],
   "features": [
-    "fasttabs",
-    "factboxes",
-    "promoted actions",
-    "mobile optimization",
-    "field importance"
+    "CardPageId property",
+    "PageType property",
+    "Editable property",
+    "Promoted actions",
+    "FastTabs",
+    "FactBoxes",
+    "Importance property",
+    "Gesture property"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005573,
-      "pages_in_call": 8
+      "cost_usd": 0.005436,
+      "pages_in_call": 1
     }
   ]
 }

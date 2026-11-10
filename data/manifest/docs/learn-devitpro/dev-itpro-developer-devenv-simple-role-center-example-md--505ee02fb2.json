@@ -7,15 +7,15 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-simple-role-center-example",
   "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:20.083Z",
-      "blob": "cc4b07bdb2968492e7784c6aea6a2585864521d5",
-      "words": 105,
+      "at": "2026-11-10T00:17:34.175Z",
+      "blob": "03585feea5b0658043e841c0c1a6aaaec90a5a82",
+      "words": 133,
       "forms": 0
     },
     "extracted": {
@@ -44,17 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-simple-role-center-example.md",
-    "description": "Learn from a complete AL code example that builds a simple Role Center page and a profile that assigns the Role Center to users in Business Central.",
-    "ms_date": "2026-08-24",
-    "ms_topic": "concept-article",
+    "description": "Build a simple Business Central role center in AL with headline and cue parts, navigation actions, and a profile that references the page.",
+    "ms_date": "2026-11-05",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 105,
-    "identifiers": [],
+    "words": 133,
+    "identifiers": [
+      "RoleCenterHeadline",
+      "SalesInvoiceCuePage"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eb42f2c054eca0a4d5220846a53a47d4774573058eb4464dd8dc6fb3b30775dc"
+  "output_hash": "03585feea5b0658043e841c0c1a6aaaec90a5a82"
 }

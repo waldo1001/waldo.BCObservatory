@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Designing Profiles",
+  "title": "Designing Profiles in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles",
   "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.312Z",
-      "blob": "3fb3a2127e273306d09a4b95506f3c3d9ae614ad",
-      "words": 535,
+      "at": "2026-11-10T00:16:48.757Z",
+      "blob": "4764e7124d86fef1ae69628dc684532cd5768ef2",
+      "words": 439,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:38:04.983Z",
+      "at": "2026-11-10T00:17:02.809Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.005573
+      "cost_usd": 0.004145
     },
     "summarized": {
-      "at": "2026-10-06T19:38:04.992Z",
+      "at": "2026-11-10T00:17:02.810Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:38:04.993Z",
+      "at": "2026-11-10T00:17:02.811Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:38:04.994Z",
+      "at": "2026-11-10T00:17:02.811Z",
       "page": false
     }
   },
@@ -44,13 +44,13 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-design-profiles.md",
-    "description": "Gives an overview of profiles and page customizations.",
-    "ms_date": "2021-04-01",
+    "description": "Learn how to use AL profiles, profile extensions, and page customizations to tailor Business Central pages to user roles and translate profile text.",
+    "ms_date": "2026-11-05",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 535,
+    "words": 439,
     "identifiers": [
       "ProfileDescription"
     ],
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f0881c67ed2436df1186613568e1b5c51c1d5ef078380a78327c779eed247a97"
+  "output_hash": "1d94a1f8e952e1f50c6762cc6274e557e9235a8b85fa3a03f078ce05d445ade2"
 }

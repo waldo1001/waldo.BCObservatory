@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Customize the user interface for user roles",
+  "title": "Role-Based Customization in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-role-customization",
   "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.000Z",
-      "blob": "94524de6adffaf2ec0e87d9cae32ea0752d9a5a3",
-      "words": 1158,
+      "at": "2026-11-10T00:17:28.722Z",
+      "blob": "c3c5b21b755891ac548ee8bde4089a38942d9675",
+      "words": 1014,
       "forms": 0
     },
     "extracted": {
@@ -44,17 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-role-customization.md",
-    "description": "Description of how to customize the User Interface in Business Central by using user roles.",
-    "ms_date": "2025-01-08",
-    "ms_topic": "how-to",
+    "description": "Understand Business Central customization layers so that you can choose role centers, page extensions, profiles, or personalization for users.",
+    "ms_date": "2026-11-05",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1158,
-    "identifiers": [],
+    "words": 1014,
+    "identifiers": [
+      "RoleCenter"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "030165f9d0edae9b84db631370fb1fe1e682da37819d0331d7cb4f8265427544"
+  "output_hash": "c3c5b21b755891ac548ee8bde4089a38942d9675"
 }

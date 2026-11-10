@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client",
   "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:37:50.193Z",
+      "at": "2026-11-10T00:16:41.537Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.005214
+      "cost_usd": 0.004898
     },
     "summarized": {
-      "at": "2026-10-06T19:37:50.216Z",
+      "at": "2026-11-10T00:16:41.538Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:37:50.217Z",
+      "at": "2026-11-10T00:16:41.538Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:37:50.218Z",
+      "at": "2026-11-10T00:16:41.539Z",
       "page": false
     }
   },
@@ -61,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6a63ac0cb64b00f8c9333ebfc504d60740b55c3e"
+  "output_hash": "02a4e836b6b30035963875659891cc6cc91fc4a67ed77ca619ac425b92f6df37"
 }

@@ -1,19 +1,19 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-design-profiles-using-client.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client",
-  "title": "Using the client to create profiles",
-  "blob": "6352933bc1452e321c5cf5b7acd761fe6d13a107",
-  "summary": "Using the client to create profiles and page customizations provides a user interface alternative to AL code for creating profiles, profile extensions, and page customizations with export/import functionality.",
+  "title": "Using the Client to Create Profiles",
+  "blob": "6a63ac0cb64b00f8c9333ebfc504d60740b55c3e",
+  "summary": "Creating profiles and page customizations directly in the Business Central web client without writing AL code, including exporting and importing profile packages across environments.",
   "systems": [
-    "development",
-    "administration"
+    "administration",
+    "development"
   ],
   "topics": [
     "profiles",
     "page customization",
+    "client design",
     "export import",
-    "client",
-    "user interface"
+    "role centers"
   ],
   "objects": [
     {
@@ -30,16 +30,17 @@
     }
   ],
   "features": [
-    "profile creation",
-    "page customization",
-    "profile export",
-    "profile import",
-    "profile package",
-    "user-created profiles",
-    "extension-based profiles"
+    "Create profiles",
+    "Customize pages for profiles",
+    "Export profiles",
+    "Import profiles",
+    "Profile packages",
+    "Profile extensions",
+    "Page customizations"
   ],
   "versions": [
-    "2024 release wave 2"
+    "2024 release wave 2",
+    "version 25.0"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -47,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005214,
-      "pages_in_call": 8
+      "cost_usd": 0.004898,
+      "pages_in_call": 1
     }
   ]
 }

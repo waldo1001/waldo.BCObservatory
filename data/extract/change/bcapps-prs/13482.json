@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13482",
+  "number": 13482,
+  "title": "[Master][all-e]Purchase Invoice Statistics Non-Deductible VAT Amount does not match VAT Entries and G/L Entries when Non-Deductible VAT is enabled.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed a discrepancy where purchase invoice statistics showed different non-deductible VAT amounts than VAT entries and G/L entries by preserving document-allocated VAT amounts for manual entries and restricting recalculation to automatic journal VAT entries.",
+  "key_points": [
+    "Purchase invoice statistics now correctly matches VAT entries and G/L entries when non-deductible VAT is enabled",
+    "Non-deductible VAT allocations from document posting are preserved for manual VAT entries",
+    "Recalculation of non-deductible VAT is restricted to automatic journal entries only",
+    "Resolves rounding differences caused by line splitting and dimension changes",
+    "Regression tests added for purchase invoices, credit memos, and various VAT scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Purchase Invoice Statistics Non-Deductible VAT Amount does not match VAT Entries and G/L Entries when Non-Deductible VAT is enabled.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00387,
+    "changes_in_call": 1
+  }
+}

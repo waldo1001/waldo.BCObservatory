@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Designing Role Centers",
+  "title": "Role Center Design in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-role-centers",
   "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.167Z",
-      "blob": "92f92c3a68045d38e33bc9e183a521de6953917b",
-      "words": 2082,
+      "at": "2026-11-10T00:17:10.594Z",
+      "blob": "8677cdf703e06152a5f8d60590bc4a1f12af7fb2",
+      "words": 2047,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:21:50.323Z",
+      "at": "2026-11-10T00:17:24.695Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003381
+      "objects": 3,
+      "cost_usd": 0.011456
     },
     "summarized": {
-      "at": "2026-10-06T19:21:53.768Z",
+      "at": "2026-11-10T00:17:24.696Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:21:53.769Z",
+      "at": "2026-11-10T00:17:24.696Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:21:53.770Z",
+      "at": "2026-11-10T00:17:24.697Z",
       "page": false
     }
   },
@@ -44,13 +44,13 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-designing-role-centers.md",
-    "description": "Learn how to create user-focused home pages called role centers that boost productivity and streamline navigation.",
+    "description": "Learn how to design Business Central role centers with navigation, actions, and page parts that help users focus on their daily tasks.",
     "ms_date": "2025-06-21",
-    "ms_topic": "how-to",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 2082,
+    "words": 2047,
     "identifiers": [
       "RoleCenter",
       "HeadlinePart",
@@ -60,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5269b3963f072d7d1abe26dbf2431f4153e4fdb9a937aa746805e09a208ce7ce"
+  "output_hash": "4de57e773de7d42d240b901296316d8345db3f1fd174c0dd76c8080a62c3a4b6"
 }
