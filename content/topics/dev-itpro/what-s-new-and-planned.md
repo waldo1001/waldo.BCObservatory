@@ -6,12 +6,12 @@ summary: What's new and planned in Business Central covers the release cycle, th
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-10T00:57:33.398Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -331,7 +331,7 @@ narrative: generated
 
 > What's new and planned in Business Central covers the release cycle, the 2026 release wave 2 updates 29.0 and 29.1, and release notes for earlier minor updates (15.2 to 28.5). It answers which version introduced a feature, localization change, deprecation or hotfix, and what is planned.
 
-Path: What's new and planned · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: What's new and planned · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

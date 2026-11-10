@@ -1,0 +1,24 @@
+{
+  "week": "2026-W46",
+  "input_hash": "1078955548f622b7ddf2294e9aaed6ba5ba7f0d41c6651df9c1249f9610aa355",
+  "text": "The largest change this week is #9587, which adds concurrent posting for General Ledger entries. It touches G/L Entry, G/L Register, Bank Account Ledger Entry and the Gen. Jnl.-Post Line and Gen. Jnl.-Post Batch codeunits, and the PR description gives no further detail, so partners with posting extensions should test them. Several fixes change posting and reporting behaviour. #13628 fills Your Reference, Vendor Order No. and Vendor Shipment No. on posted purchase receipt lines created by drop shipments. #12770 makes project ledger entries reflect modified invoice discounts on G/L Account purchase lines. #13482 aligns non-deductible VAT amounts in purchase invoice statistics with VAT and G/L entries. #13607 makes report 713 export one aggregated row per Item and Customer in Excel data-only format. #13616 disables table relation validation on SWIFT fields in the Czech localization, so codes missing from the SWIFT Code table are accepted. The Expense Agent gets three changes: #13730 adds an upgrade that initializes missing vendor number series, #13672 adds VAT settings to the setup wizard, and #13792 adds the Is Feature Trial field to the legacy consumption table. Finally, #13765 sets a maximum output token budget in the E-Document MLLM Handler for the upcoming 5.6 model version.",
+  "changes": 10,
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.019285999999999998,
+  "at": "2026-11-10T00:14:28.203Z",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-10T00:55:49.884Z",
+    "verdict": "approve",
+    "issues": [
+      "Calling #9587 'the largest change' is a judgment, but its summary supports it (it touches many localization layers).",
+      "'Several fixes change posting and reporting behaviour' is a bit loose for #13616, which changes field validation rather than posting or reporting; acceptable as framing.",
+      "#13792 and #13765 have no behaviour change flagged; the text does not claim one, so there is no conflict."
+    ],
+    "input_hash": "1078955548f622b7ddf2294e9aaed6ba5ba7f0d41c6651df9c1249f9610aa355",
+    "cost_usd": 0.057080000000000006,
+    "applied": [],
+    "rejected_edits": []
+  }
+}

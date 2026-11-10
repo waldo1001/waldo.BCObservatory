@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:05.688Z"
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -268,9 +268,9 @@ links:
     - video/42adOzECiA0
     - video/HixajKEd-A4
     - video/KNy2KujjheU
-    - video/LerAo-GGl8U
     - video/qYW5wo0fKgA
     - video/TBBlYpwbAFk
+    - video/U1dAdtUjidc
     - video/uv2NsSD5P7U
     - video/wPEZ3U5j4zw
   posts:
@@ -519,9 +519,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New: Upgrade to Preview (2025 release wave 2)](../../../videos/42adOzECiA0.md) (video): "Copy Production Data to Sandbox and Upgrade to Preview"
 - [What's new: Match Production Database Configuration (2026 release wave 2)](../../../videos/HixajKEd-A4.md) (video): "sandbox configuration; production database matching; admin center"
 - [What's new: Database Export Enhancements (2026 release wave 2)](../../../videos/KNy2KujjheU.md) (video): "database export; admin center; operations page; reliability; visibility"
-- [Microsoft presents: Next level administration skills with the admin MCP server and agents](../../../videos/LerAo-GGl8U.md) (video): "Admin MCP Server for Business Central; Multi-Tenant Administration via MCP"
 - [What's Cooking in Business Central: Early Access Preview](../../../videos/qYW5wo0fKgA.md) (video): "sandbox environments; admin center; version 28.0"
 - [What's New: Environment-Level Access Controls for Delegated Administrators (2024 release wave 2)](../../../videos/TBBlYpwbAFk.md) (video): "Partner access control by environment; All partners access mode"
+- [What's New: Admin Center MCP Server (2026 release wave 1)](../../../videos/U1dAdtUjidc.md) (video): "Admin Center MCP Server; Environment Management via Natural Language"
 - [What's New: Flexible Update Management (2024 release wave 2)](../../../videos/uv2NsSD5P7U.md) (video): "update management; major versions; minor updates; grace period; enforced updates"
 - [What's New: Flexible Update Management (2025 release wave 1)](../../../videos/wPEZ3U5j4zw.md) (video): "Flexible update management - General availability; Five-month update period"
 

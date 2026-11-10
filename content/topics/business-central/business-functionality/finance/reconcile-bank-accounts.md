@@ -12,7 +12,7 @@ review:
   at: "2026-10-30T08:08:43.615Z"
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,7 +93,8 @@ links:
   topics:
     - topic/business-central/business-functionality/finance
   localizations: []
-  videos: []
+  videos:
+    - video/4Te11l2BxmQ
   posts: []
   guidelines: []
   changes:
@@ -110,7 +111,7 @@ children: []
 coverage:
   learn: 7
   code: 12
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -187,6 +188,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10630 Extend OnBeforeCheckBankAcc to skip specific bank reversal checks](../../../../changes/bcapps/10630.md) (code change): "skip specific bank reversal checks when reversing bank account ledger entries"
 - [#11055 Allow bank rec. duplicated transactions surfaced in UI](../../../../changes/bcapps/11055.md) (code change): "Bank reconciliation now exposes UI controls to allow users to process duplicate transactions"
 - [#11056 29.x: Allow bank rec. duplicated transactions surfaced in UI](../../../../changes/bcapps/11056.md) (code change): "Bank Acc. Reconciliation and Payment Reconciliation Journal pages now expose an existing option to allow duplicated transactions"
+- [Simplify Bank Reconciliation with Copilot in Dynamics 365 Business Central (2024)](../../../../videos/4Te11l2BxmQ.md) (video): "bank reconciliation; copilot; transaction matching; gl account suggestions"
 
 ## Business Central pages and reports
 

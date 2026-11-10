@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -345,7 +345,7 @@ Start with the Power BI Sales app page for the overall picture. Then read the se
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New: Enhanced Power BI and Excel with Business Central (2026 release wave 1)](../../../../../videos/DVgclv3alZU.md) (video): "Power BI Sales App - Customer Retention Analysis; abc analysis"
-- [What's New: Sales Analytics (2025 release wave 2)](../../../../../videos/rAaUiKByyEE.md) (video): "Updated PowerBI app for sales; Sales forecasting in PowerBI"
+- [What's New: Sales Analytics (2025 release wave 2)](../../../../../videos/rAaUiKByyEE.md) (video): "Sales forecasting in PowerBI; Support for non-item sales types"
 - [What's New: Power BI (for Sales) (2025 release wave 1)](../../../../../videos/zXoSeH1cmaE.md) (video): "Enhanced Power BI Sales App; Opportunity Overview Report; Sales Quote Overview"
 
 ## Business Central pages and reports

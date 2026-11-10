@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-  "input_hash": "6a5886e9468db8adfba172ee370a539343807c74fda2187469988db0d33dda94",
-  "summary": "Expense Agent (preview) in Business Central is an AI agent that automates expenses. This section answers how to set it up, upload receipts, create mileage expenses, review and edit expenses, build and submit reports, approve or send back reports, and use the mobile app.",
-  "overview": "Expense Agent (preview) automates the expense lifecycle in Business Central. It scans receipts, adds expenses to draft reports, and checks them against company rules and policies. The section has an overview subtopic that explains what the agent does and how it handles emails and receipts.\n\nThe task pages follow the process in order. Administrators start with the setup page, which covers assisted setup, submission channels (email and web app), approval workflows, accounting defaults, policy evaluation, and communication settings. Employees then upload receipts or create mileage expenses, review and edit the details, group expenses into reports, and submit them. Approvers review the reports and either approve them or send them back with comments.\n\nA separate page covers the iOS and Android mobile app, which supports receipt capture, mileage, submission, and approval. Start with the overview, then the setup page if you are configuring the agent, or the upload page if you are an end user.",
+  "input_hash": "f617c0707a7e84bcbc15400d53ebecdaac0b8283a62c53c450c2f7e6e379649c",
+  "summary": "Expense Agent (preview) is an AI-powered agent in Business Central for capturing receipts, managing expenses, building expense reports, and handling travel requests and approvals. The section answers questions about setup, daily use for submitters and approvers, and the mobile app.",
+  "overview": "Expense Agent (preview) automates expense tracking in Business Central. It scans receipts with AI, creates and categorizes expenses, groups them into reports, and checks them against policy before submission. The overview subtopic explains what the agent does, how it handles emailed receipts, and how compliance rules are evaluated.\n\nThe pages follow the expense lifecycle. An administrator starts with the guided assisted setup, which covers receipt submission channels (email and web app), accounting defaults, expense rules, policy compliance, and communication settings. Users then upload receipts or create mileage expenses, review and edit the details, and create and submit expense reports. Travel requests can be submitted before a trip to get approval. Approvers use a separate page to approve or send back reports and travel requests.\n\nStart with the overview subtopic to understand the agent, then read the setup page. Submitters can continue with receipts and mileage, expense review, and report pages. The mobile app page covers use on iOS and Android.",
   "key_points": [
-    "Setup is done by administrators through assisted setup: submission channels (email, web app), approval workflows, accounting defaults, policy compliance rules, and communication settings.",
-    "AI scans receipt images and extracts merchant name, amount, date, and category, then adds the expense to a draft report.",
-    "Receipts can be uploaded by web app, mobile app, or email. Currency conversion is automatic and VAT reclaim is identified.",
-    "Mileage expenses are created by entering trip details.",
-    "Users can edit details, categorize or delete expenses, and resolve AI-flagged issues before submission. VAT is displayed.",
-    "Reports group expenses by period. Users can rename them, add receipts, move expenses between reports, and run AI-assisted policy checks before submitting.",
-    "Approvers review categories, receipts, compliance warnings, and approval history, then approve or send back with comments.",
-    "The mobile app (preview, iOS and Android) offers live edge detection, multipage scanning, offline viewing, and sync with the web app."
+    "Setup is done through guided assisted setup: receipt submission channels (email, web app), accounting defaults, expense rules, policy compliance, and communication settings.",
+    "AI scans receipt images and extracts merchant, amount, date, and category; VAT is captured and tracked.",
+    "Mileage expenses are created from trip details with automatic distance calculation and currency conversion.",
+    "Users can edit, categorize, and delete expenses and resolve AI-flagged issues before submission.",
+    "Expense reports can be created automatically or organized manually, with expenses moved between reports and a history timeline; policy is evaluated before submission.",
+    "Travel requests cover traveler details, per diem allowances, and estimated expenses, and support receipt matching.",
+    "Approvers can approve or send back reports and travel requests with comments, review compliance warnings, use interim approval workflows, and see approval history.",
+    "The mobile app for iOS and Android supports camera capture with edge detection, multipage scanning, offline use, and travel request planning."
   ],
-  "members_used": 6,
+  "members_used": 7,
   "subtopics_used": 1,
   "prompt_version": 1,
-  "at": "2026-10-30T01:11:11.596Z",
+  "at": "2026-11-10T00:57:03.351Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.014599
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-30T08:08:38.208Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the summary sentence 'an AI agent that automates expenses' is vague. The source says it automates the expense lifecycle and checks expenses against rules and policies, which would be more informative.",
-      "Minor: the setup page's 'Receipt handling' feature is not mentioned. Leaving it out is acceptable."
-    ],
-    "input_hash": "6a5886e9468db8adfba172ee370a539343807c74fda2187469988db0d33dda94",
-    "cost_usd": 0.036939200000000005
+    "cost_usd": 0.015491000000000001
   }
 }

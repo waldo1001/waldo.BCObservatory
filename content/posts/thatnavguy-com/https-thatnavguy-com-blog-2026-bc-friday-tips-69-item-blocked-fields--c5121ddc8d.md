@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:55:36.135Z"
   flags: []
 generated:
-  at: "2026-10-26T05:51:10.938Z"
+  at: "2026-11-10T00:14:28.203Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -152,7 +152,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:50:41.168Z"
+  probed_at: "2026-11-10T00:49:24.534Z"
 ---
 
 # BC Friday Tips #69 Item Blocked Fields

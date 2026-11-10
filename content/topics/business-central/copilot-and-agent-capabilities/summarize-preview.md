@@ -2,21 +2,21 @@
 id: topic/business-central/copilot-and-agent-capabilities/summarize-preview
 type: topic
 title: Summarize (preview)
-summary: Summarize (preview) covers Copilot's summarize capability in Business Central, which turns records such as customers, items and sales orders into bullet-point insights in the FactBox pane. It answers how to use and control summaries, how responsible AI applies, and how to troubleshoot Expense Agent issues.
+summary: Summarize (preview) covers Copilot's summarize capability in Business Central, which turns records such as customers, items and sales orders into bullet-point insights in the FactBox pane. It answers questions about using and controlling summaries, responsible AI details, and troubleshooting Expense Agent issues.
 tier: official
 language: en
 system: copilot
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:27:48.465Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: dfdb2b77453dc32bd5eb653d73a30254f470ddf76b982a94b27a0d2819b03d6f
+  input_hash: 81814a65515ff4fc273356ac7f6db73cceae344e1897845cb73530f4c536464a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/faqs-summarize
@@ -35,7 +35,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-troubleshoot
     title: Troubleshoot Expense Agent Issues
-    date: "2026-10-02"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
@@ -76,33 +76,33 @@ narrative: generated
 
 # Summarize (preview)
 
-> Summarize (preview) covers Copilot's summarize capability in Business Central, which turns records such as customers, items and sales orders into bullet-point insights in the FactBox pane. It answers how to use and control summaries, how responsible AI applies, and how to troubleshoot Expense Agent issues.
+> Summarize (preview) covers Copilot's summarize capability in Business Central, which turns records such as customers, items and sales orders into bullet-point insights in the FactBox pane. It answers questions about using and controlling summaries, responsible AI details, and troubleshooting Expense Agent issues.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Summarize (preview) · tier official · system copilot · narrative reviewed (checked by Opus)
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Summarize (preview) · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Summarize is a Copilot capability that generates a short, bullet-point summary of a record, for example a customer, item or sales order. The summary appears in a summary part in the FactBox pane. It draws on fields, FactBoxes and related pages, and only on data the user has permission to access.
+Summarize lets Copilot produce a short, bullet-point summary of a record. It draws on fields, FactBoxes and related pages, and only on data the user has permission to access. The summary appears in a Summary part in the FactBox pane and highlights key insights and urgent information.
 
-The section has three pages. "Summarize a record with Copilot" is the practical starting point: it explains where the summary shows up and what you can do with it. "Responsible AI FAQ for summarize (preview)" explains the purpose of the feature, how it highlights key insights and urgent information, and how feedback and harmful content filtering work. A third page, "Troubleshoot Expense Agent Issues", covers a different feature and lists common Expense Agent problems and how to resolve them.
-
-Start with the how-to page to use the feature. Read the FAQ if you need to understand data handling, permissions or the preview status.
+The section has three pages. "Summarize a record with Copilot" is the place to start for how to use the feature. "Responsible AI FAQ for summarize (preview)" explains how the feature works, how data permissions are respected, and how harmful content is filtered. A separate page, "Troubleshoot Expense Agent Issues", covers problems with the Expense Agent, such as sign-in, receipt uploads, policy violations, travel requests and validation failures.
 
 ## Key points
 
-- Copilot summarizes records such as customers, items and sales orders into bullet-point insights.
-- The summary is shown in a summary part in the FactBox pane.
-- Summaries use fields, FactBoxes and related pages, limited to data the user has permission to access.
-- Users can expand the summary, use Show more for additional insights, regenerate it, and copy it.
-- Summaries include hyperlinked references, and users can give feedback on them.
-- Harmful content filtering applies, and the feature is in preview.
-- The Expense Agent troubleshooting page covers sign-in failures, receipt upload problems, AI detection errors, policy violations, network errors, AI quota limits and posting failures.
+- Copilot summarizes records like customers, items and sales orders into bullet-point insights.
+- Summaries appear in a Summary part in the FactBox pane and can be expanded.
+- A Show more button gives additional insights.
+- Users can regenerate a summary or copy it.
+- Summaries only use data the user has permission to access.
+- The responsible AI FAQ notes hyperlinked references, user feedback on summaries, and harmful content filtering.
+- The summarize feature is marked as preview.
+- The troubleshooting page covers Expense Agent issues: receipt upload and AI detection, policy violation checks, travel requests, per diem calculation, expense report posting and email processing.
 
 ## Learn pages
 
 - [Responsible AI FAQ for summarize (preview)](https://learn.microsoft.com/dynamics365/business-central/faqs-summarize): Learn about the AI technology of summarize in Business Central, considerations, details about how AI is used, tested, evaluated, and limitations.
 - [Summarize a record with Copilot](https://learn.microsoft.com/dynamics365/business-central/summarize-with-copilot): Learn how to use the Summarize feature with Copilot in Business Central to get an overview of your data and identify what needs your attention.
 - [Troubleshoot Expense Agent Issues](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-troubleshoot): Find solutions for common issues in Expense Agent, including sign-in problems, receipt upload failures, and policy violations.
+  - In the observatory: [Table 6935 "EA Scheduler Task"](../../../objects/table/6935.md)
 
 ## Videos and posts
 

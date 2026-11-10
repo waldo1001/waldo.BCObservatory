@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/actions
 type: topic
 title: Actions
-summary: "Actions in Business Central AL pages: how to add, organize and promote actions, the modern action bar with split buttons, common promoted action groups, and prompt actions that launch Copilot. Answers questions on actionref syntax, action areas, placement guidelines and release-wave behavior changes."
+summary: "Actions in Business Central AL pages: how to add, organize and promote actions, the action bar (split buttons, Home tab, legacy toggle), actionref syntax, common promoted groups, and prompt actions for Copilot. Answers questions on action design and placement rules."
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:20:18.859Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0ffb401f134b2bfc8d059d163be545b2bf545dad23fa8498453553a4a01b8b70
+  input_hash: 23629b03fb936640c1664dc7b9ce2ffddace8ad23a047e92e1073e06f3d5acd9
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-action-bar-improvements
@@ -29,13 +29,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actions-user-interface
     title: Actions in the user interface
     date: "2025-01-07"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actions-overview
-    title: Actions overview
-    date: "2025-05-15"
     commit: null
     t: null
     quote: null
@@ -68,6 +61,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actions-overview
+    title: Page Actions Overview in Business Central
+    date: "2025-05-15"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-pages-action-bar-improvements
     title: Pages with Action Bar Improvements
     date: "2022-11-03"
@@ -92,11 +92,11 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-action-bar-improvements
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actions-user-interface
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actions-overview
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-actions-to-a-page
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-promoted-actions-behavioral-changes
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-common-promoted-action-groups
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-organizing-promoted-actions
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actions-overview
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-pages-action-bar-improvements
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-promoted-actions
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-prompting-floating-actionbar
@@ -135,38 +135,38 @@ narrative: generated
 
 # Actions
 
-> Actions in Business Central AL pages: how to add, organize and promote actions, the modern action bar with split buttons, common promoted action groups, and prompt actions that launch Copilot. Answers questions on actionref syntax, action areas, placement guidelines and release-wave behavior changes.
+> Actions in Business Central AL pages: how to add, organize and promote actions, the action bar (split buttons, Home tab, legacy toggle), actionref syntax, common promoted groups, and prompt actions for Copilot. Answers questions on action design and placement rules.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Actions · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Actions · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Actions are the commands users run from Business Central pages. This section explains how to define them in AL, place them in action areas and menus (Actions, New Document, Navigate, Report), and promote frequently used ones to the action bar. It also covers icons, keyboard shortcuts, the RunObject property and Power Automate flow integration.
+Actions are the commands users run from a page. This section explains how to define them in AL (action areas, groups, icons, keyboard shortcuts, the RunObject property) and how they are laid out in menus such as Actions, Creation, Navigation and Reports. It also covers Power Automate flow integration.
 
-The pages split into three groups. Basics: Actions overview, Adding actions to a page and Actions in the user interface (page-level and part-level actions, placement, split buttons). Promoted actions: Promoted actions, Organizing Promoted Actions, Common Promoted Action Groups and Behavioral Changes for Promoted Actions, which cover actionref syntax, legacy category syntax, grouping and visibility rules. Action bar changes: Action bar improvements, Pages with Action Bar Improvements, and Prompting using a floating action bar for Copilot prompt actions.
+Promoted actions are the main theme. Pages cover the actionref syntax and split buttons, the legacy category syntax and migration between the two, the behavioral changes in 2022 release wave 2 (visibility inheritance, group merging, recursive group rendering), and design guidance: promote only frequently used actions, vary by page type, and use subgroups beyond 7 actions. A page on common promoted groups (Home/Process, Entity, Approve, Entry, and others) gives standard patterns.
 
-Start with Actions overview and Adding actions to a page. Then read Promoted actions and Organizing Promoted Actions. Check the behavioral changes page if you are migrating older code or see differences in visibility or personalization.
+Two release-specific pages complete the area: the modern action bar became the default in 2024 release wave 1 with a legacy option, and prompt actions in a floating action bar launch Copilot PromptDialog pages. Start with "Page Actions Overview" and "Adding actions to a page", then read "Promoted actions" and "Organizing Promoted Actions".
 
 ## Key points
 
-- Actions are placed in areas and menus such as Actions, New Document, Navigate and Report, and can be grouped, given icons and keyboard shortcuts, and use RunObject.
-- Promoted actions use actionref syntax with split button groups; the legacy PromotedCategory syntax is still supported, with gradual migration between styles.
-- 2022 release wave 2 changed promoted action behavior: new actionref syntax, better personalization, different visibility inheritance and recursive group rendering.
-- Promote only frequently used actions, organize by page type and user needs, and use subgroups when there are more than 7 actions.
-- Common promoted groups give standard patterns, such as Home/Process, Posting, Release, Approve, Entry, and Report.
-- In 2024 release wave 1 the modern action bar is default, with split buttons, a pinned Home tab, and a toggle for the legacy action bar.
-- A list of pages updated with action bar improvements in 2022 release wave 2 (version 21.0) covers card, list, document and worksheet pages.
-- Prompt actions launch Copilot PromptDialog pages from List, Card, Document, ListPart, StandardDialog, ListPlus and Worksheet pages, using a Sparkle image and capability registration (2024 release wave 1, runtime 13 and 14).
+- Actions can be placed in the Actions (processing), Creation, Navigation and Reports menus; the RunObject property, icons and keyboard shortcuts are set when adding them.
+- Promoted actions use actionref syntax with split button groups; the legacy PromotedCategory syntax is still supported and can be migrated gradually.
+- 2022 release wave 2 changed promoted action behavior: new actionref syntax, different visibility inheritance, recursive group rendering and group merging.
+- Guidance: promote only frequently used actions, tailor by page type, and use subgroups when there are more than 7 actions.
+- Common promoted groups include Home/Process, Entity, Approve, Entry, Incoming Document and Item Availability by.
+- In 2024 release wave 1 the modern action bar is default, with split buttons, a pinned Home tab and a toggle for the legacy action bar.
+- A page lists the pages updated with action bar improvements in 2022 release wave 2 (version 21.0).
+- Prompt actions with the Sparkle image launch Copilot PromptDialog pages from List, Card, Document, ListPart, StandardDialog, ListPlus and Worksheet pages (runtime 13 and 14 noted).
 
 ## Learn pages
 
 - [Action bar improvements](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-action-bar-improvements): Introducing the modern action bar in Dynamics 365 Business Central.
 - [Actions in the user interface](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actions-user-interface): Learn about the guidelines for organizing actions when creating, extending, and customizing pages in Business Central.
-- [Actions overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actions-overview): Learn more about displaying actions on the action bar for pages in Business Central.
 - [Adding actions to a page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-actions-to-a-page): Create and display actions in the ribbon of all pages and group them together under Actions, Navigate, Reports tabs and preview it in the Windows Client.
 - [Behavioral Changes for Promoted Actions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-promoted-actions-behavioral-changes): The promoted action framework has been redesigned with Dynamics 365 Business Central 2022 release wave 2.
 - [Common Promoted Action Groups](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-common-promoted-action-groups): Learn about the common promoted action groups in Business Central, their characteristics, and how to use them.
 - [Organizing Promoted Actions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-organizing-promoted-actions): Guidelines for which actions to promote in the action bar for Dynamics 365 Business Central
+- [Page Actions Overview in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actions-overview): Learn how to organize Business Central page actions into menus and groups so that users can find tasks, open pages, and run reports or flows.
 - [Pages with Action Bar Improvements](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-pages-action-bar-improvements): Overview of pages in Dynamics 365 Business Central that contain the action bar improvements
 - [Promoted actions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-promoted-actions): Promoted actions are configured to display on the Home tab for accessing quick daily actions in Dynamics 365 Business Central.
 - [Prompting using a floating action bar](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-prompting-floating-actionbar): Learn how to create prompt actions to promote AI capabilities in Business Central

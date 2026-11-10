@@ -8,10 +8,9 @@
   ],
   "summary": "The E-Document MLLM Handler sets an explicit maximum output token budget to ensure compatibility with the upcoming 5.6 model version.",
   "key_points": [
-    "Configures maximum output tokens for MLLM extraction",
-    "Prepares the E-Document module for a new model version",
-    "Prevents token overflow issues with future models",
-    "Applied to the document processing pipeline"
+    "E-Document MLLM Handler now sets an explicit maximum output token budget",
+    "Done to prepare MLLM extraction for the 5.6 model",
+    "Small change in a single codeunit"
   ],
   "change_kind": "feature",
   "behavior_change": false,

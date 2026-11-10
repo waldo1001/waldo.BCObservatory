@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:33.097Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,7 +49,6 @@ links:
   localizations: []
   videos:
     - video/gHcgL469x_E
-    - video/y_8xralhVMM
   posts: []
   guidelines: []
 learn_toc_path:
@@ -63,7 +62,7 @@ children: []
 coverage:
   learn: 2
   code: 6
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -114,7 +113,6 @@ Start with the overview page to understand the scenario and its capabilities. Th
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New: Financial Management - Consolidation Improvements (2024 release wave 1)](../../../../../videos/gHcgL469x_E.md) (video): "consolidation; currency exchange rates; consolidation status; balance sheet revaluation; multi-subsidiary"
-- [What's New: Cross-Environment Consolidations (2023 release wave 2)](../../../../../videos/y_8xralhVMM.md) (video): "Cross-environment consolidation; Currency mapping in consolidation"
 
 ## Business Central pages and reports
 

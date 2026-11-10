@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:38.985Z"
   flags: []
 generated:
-  at: "2026-10-26T08:46:07.995Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -166,6 +166,7 @@ links:
     - post/yzhums-com/69394
     - post/yzhums-com/70075
     - post/yzhums-com/71227
+    - post/yzhums-com/77153
   guidelines: []
 learn_toc_path:
   - Administration
@@ -178,7 +179,7 @@ coverage:
   learn: 16
   code: 7
   video: 2
-  blog: 8
+  blog: 9
   guideline: 0
 bc_forms:
   - 9
@@ -300,6 +301,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (December, 2025)](../../../posts/yzhums-com/69394.md) (community post): "BC27 CU02 is version 27.2: SaaS uses platform"
 - [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (January, 2026)](../../../posts/yzhums-com/70075.md) (community post): "BC27 update 27.3 uses platform 27.0.44534.0 in the cloud"
 - [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (March, 2026)](../../../posts/yzhums-com/71227.md) (community post): "BC28 (2026 release wave 1) is available as public preview"
+- [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (November, 2026)](../../../posts/yzhums-com/77153.md) (community post): "Lists the November 2026 cumulative updates for Business Central: BC29 CU01"
 - [What's New: Resource Governance for Business Central Online (2023 release wave 2)](../../../videos/9PWBpwv4LhQ.md) (video): "What's New: Resource Governance for Business Central Online"
 - [What's New: Cloud for Sovereignty (2026 release wave 1)](../../../videos/n9HaH2dZUaU.md) (video): "cloud sovereignty; data protection; access controls; encryption"
 

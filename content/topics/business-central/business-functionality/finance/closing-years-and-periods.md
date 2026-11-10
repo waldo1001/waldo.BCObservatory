@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:55.812Z"
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,8 +48,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-prepare-audit-pbc-checklist
-    title: Gather information for an audit with reports
-    date: "2026-11-03"
+    title: Gather information for an audit
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -250,7 +250,7 @@ Start with "Close fiscal years and accounting periods" or "Closing the books" fo
   - In the observatory: [Report 94 "Close Income Statement"](../../../../objects/report/94.md)
 - [Closing the books](https://learn.microsoft.com/dynamics365/business-central/year-close-books): Learn about the process of closing the books for a fiscal year or period, and what happens after you close at the end of a year.
   - In the observatory: [Page 100 "Accounting Periods"](../../../../objects/page/100.md)
-- [Gather information for an audit with reports](https://learn.microsoft.com/dynamics365/business-central/finance-prepare-audit-pbc-checklist): Match year-end audit PBC requests to Business Central reports and pages, reconcile balances, and identify the supporting documents to gather separately.
+- [Gather information for an audit](https://learn.microsoft.com/dynamics365/business-central/finance-prepare-audit-pbc-checklist): Match year-end audit PBC requests to Business Central reports and pages, reconcile balances, and identify the supporting documents to gather separately.
 - [Optional activities for closing periods](https://learn.microsoft.com/dynamics365/business-central/year-how-complete-period-end-processes): This article outlines the optional processes and activities for closing accounting periods in Business Central.
   - In the observatory: [Page 108 "Financial Reports"](../../../../objects/page/108.md)
 - [Overview of pre-closing reports to verify account accuracy](https://learn.microsoft.com/dynamics365/business-central/year-prepare-preclose-reports): Provides an overview of the reports you can use to verify the accuracy of accounts before closing the books at the end of a year or period.
@@ -276,7 +276,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10096 Fix Close Income Statement grouping when no dimensions are selected](../../../../changes/bcapps/10096.md) (code change): "Fixed the Close Income Statement report to properly group G/L entries by account"
 - [#11894 Fix mixed-currency totals in Close Income Statement](../../../../changes/bcapps/11894.md) (code change): "Fixed the Close Income Statement report to correctly process mixed-currency GL entries"
 - [#13203 [main] Bug 656535 Additional Reporting Currency Difference After Closing Income Statement - related to 625803](../../../../changes/bcapps/13203.md) (code change): "Close Income Statement now passes the closed additional reporting currency"
-- [#13459 [29x] Additional Reporting Currency Difference After Closing Income Statement - related to 625803](../../../../changes/bcapps/13459.md) (code change): "residual currency differences remained after closing"
+- [#13459 [29x] Additional Reporting Currency Difference After Closing Income Statement - related to 625803](../../../../changes/bcapps/13459.md) (code change): "Additional Reporting Currency Difference After Closing Income Statement"
 - [#9733 [main] bug 644111 - Reorder "Open Balance Sheet" action in Accountant CZ Role Center CZL page](../../../../changes/bcapps/9733.md) (code change): "Open Balance Sheet action after the Close Balance Sheet action, aligning the menu with the standard year-end closing workflow"
 - [Allow Posting From/To DateFormula: No More Monthly Date Updates from Business Central v28](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8913658799123411419--5a782b6899.md) (community post): "eliminating manual monthly updates to posting period dates"
 - [Allow Posting Date Formula](../../../../posts/olofsimren-com/3853.md) (community post): "supports date formulas for allowed posting dates in General Ledger Setup"

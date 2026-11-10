@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:16.844Z"
   flags: []
 generated:
-  at: "2026-10-31T01:06:04.529Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -103,7 +103,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10090 [Bank Acc. Reconciliation with Copilot] Read the functional part of the prompt from .resources and safety clause from Key Vault](../../../changes/bcapps/10090.md) (code change): "Bank account reconciliation with Copilot now loads the functional part of AI prompts"
 - [#13303 [Bank. Acc. Reconciliation with Copilot] Implement ability to switch LLM with a simple configuration change](../../../changes/bcapps/13303.md) (code change): "Bank Account Reconciliation with Copilot now supports switching between different LLM models"
-- [Simplify Bank Reconciliation with Copilot in Dynamics 365 Business Central (2024)](../../../videos/4Te11l2BxmQ.md) (video): "bank reconciliation; copilot; transaction matching; gl account suggestions"
-- [Introducing: Bank Account Reconciliation Assistance with Copilot (2023 release wave 2)](../../../videos/jhfwx1K0I7Y.md) (video): "Bank Account Reconciliation Assistance with Copilot; Reconcile with Copilot Action"
+- [Simplify Bank Reconciliation with Copilot in Dynamics 365 Business Central (2024)](../../../videos/4Te11l2BxmQ.md) (video): "Copilot for Bank Reconciliation; GL Account Suggestions; Recurring Payment Pattern Recognition"
+- [Introducing: Bank Account Reconciliation Assistance with Copilot (2023 release wave 2)](../../../videos/jhfwx1K0I7Y.md) (video): "Bank Account Reconciliation Assistance with Copilot; ai-assisted matching"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

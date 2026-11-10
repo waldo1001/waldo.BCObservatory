@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:56:29.353Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-10T00:14:28.203Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -73,7 +73,7 @@ preview:
   image_h: null
   site_name: Stefan Maron
   favicon: https://stefanmaron.com/icons/favicon-32x32.png
-  probed_at: "2026-10-07T11:50:39.985Z"
+  probed_at: "2026-11-10T00:49:37.855Z"
 ---
 
 # Turning My Coding Streams Into Blog Posts (With a Little Help From Claude)

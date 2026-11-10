@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:50.033Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,6 +94,7 @@ links:
     - change/bcapps/11657
     - change/bcapps/11734
     - change/bcapps/12067
+    - change/bcapps/13482
     - change/bcapps/9352
 learn_toc_path:
   - Business functionality
@@ -177,6 +178,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11657 Fix VIES integrity check: tolerate country-code prefix on echoed VAT number (uptake fix)](../../../../../changes/bcapps/11657.md) (code change): "VIES integrity check for VAT numbers now tolerates country-code prefixes"
 - [#11734 [VIES Integration] Per-environment daily request rate-limit](../../../../../changes/bcapps/11734.md) (code change): "per-tenant daily rate-limit of 2000 VIES lookups prevents"
 - [#12067 [main] bug 652323 - Move creating VAT Period to setup demo data level](../../../../../changes/bcapps/12067.md) (code change): "VAT Period creation from Master Data to Setup Data level"
+- [#13482 [Master][all-e]Purchase Invoice Statistics Non-Deductible VAT Amount does not match VAT Entries and G/L Entries when Non-Deductible VAT is enabled.](../../../../../changes/bcapps/13482.md) (code change): "Purchase Invoice Statistics Non-Deductible VAT Amount does not match VAT Entries"
 - [#9352 [FI] Obsolete unused 'Print on Invoice' VAT setting](../../../../../changes/bcapps/9352.md) (code change): "Obsolete unused 'Print on Invoice' VAT setting. The unused 'Print on Invoice' VAT field"
 - [What's New: VAT Date in Business Central (2023 release wave 2)](../../../../../videos/MWXwtRr6-Wk.md) (video): "VAT Date Usage field options; Default VAT Date setting; Control VAT Period setup"
 - [What's new: Explore the new Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../../../videos/TSLXzbeyE7Y.md) (video): "Sales tax setup; Sales tax configuration assistance; Sales data analysis"

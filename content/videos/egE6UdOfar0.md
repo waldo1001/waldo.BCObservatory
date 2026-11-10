@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:48:13.593Z"
   flags: []
 generated:
-  at: "2026-10-30T08:03:27.657Z"
+  at: "2026-11-10T00:51:48.195Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -124,13 +124,13 @@ links:
   posts: []
   guidelines: []
   related:
-    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-overview
-      title: Expense Management Overview in Business Central
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report
+      title: Create and Submit Expense Reports
       label: possibly related
       why: names Page 6997 "Expense Reports"
       by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts
-      title: Upload Receipts and Create Mileage Expenses
+    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-overview
+      title: Expense Management Overview in Business Central
       label: possibly related
       why: names Page 6997 "Expense Reports"
       by: code
@@ -394,7 +394,7 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Create and Submit Expense Reports](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report) — possibly related: names Page 6997 "Expense Reports"
 - [Expense Management Overview in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-overview) — possibly related: names Page 6997 "Expense Reports"
-- [Upload Receipts and Create Mileage Expenses](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts) — possibly related: names Page 6997 "Expense Reports"
 
 Presenters (as heard): Alexander Totovic, Monica Ahuja.

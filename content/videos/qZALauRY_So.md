@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:48:01.997Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-10T00:51:48.195Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -89,11 +89,6 @@ links:
   posts: []
   guidelines: []
   related:
-    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-travel-requisitions
-      title: Manage Travel Requests in Business Central
-      label: possibly related
-      why: names Page 6951 "Expense Users"
-      by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-users-teams
       title: Set Up Expense Users and Teams
       label: possibly related
@@ -259,7 +254,6 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
-- [Manage Travel Requests in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-travel-requisitions) — possibly related: names Page 6951 "Expense Users"
 - [Set Up Expense Users and Teams](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-users-teams) — possibly related: names Page 6951 "Expense Users"
 
 Presenters (as heard): Blazej Kotelko, Enrico Csimitan.

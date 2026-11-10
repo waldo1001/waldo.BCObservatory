@@ -2,20 +2,20 @@
 id: topic/dev-itpro/get-started/frequently-asked-questions
 type: topic
 title: Frequently asked questions
-summary: Frequently asked questions for Business Central cover AL development, app testing, submission, updating and lifecycle on the Marketplace, library apps, marketing validation, migration to Business Central Online, and the discontinued Windows client. Use it for short practical answers on these topics.
+summary: Frequently asked questions for Business Central cover AL development, app testing, submission, updating and marketing validation for the marketplace, library and dependency apps, migration to Business Central online, and the discontinued Windows client. Use it for short practical answers on these topics.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-30T08:08:39.319Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 46b45d6414a4f90e66f3c34523f3578361ac376d7d2018f2a6803404833733fb
+  input_hash: f3f6740b6a0308757ec4f8db76eb667e72a9837429d53e29156bf9dd1d6289c4
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-dependencies-libraries
@@ -47,8 +47,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-update
-    title: FAQ about Updating your Business Central App
-    date: "2021-04-01"
+    title: FAQ About Updating Your Business Central App
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -118,28 +118,28 @@ narrative: generated
 
 # Frequently asked questions
 
-> Frequently asked questions for Business Central cover AL development, app testing, submission, updating and lifecycle on the Marketplace, library apps, marketing validation, migration to Business Central Online, and the discontinued Windows client. Use it for short practical answers on these topics.
+> Frequently asked questions for Business Central cover AL development, app testing, submission, updating and marketing validation for the marketplace, library and dependency apps, migration to Business Central online, and the discontinued Windows client. Use it for short practical answers on these topics.
 
-Path: [Get started](../get-started.md) > Frequently asked questions · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Get started](../get-started.md) > Frequently asked questions · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is a set of FAQ pages with no subtopics. Most pages target partners who build and publish apps: developing in AL, testing an app, submitting and managing an offer in Partner Center, updating an app, and the lifecycle of apps and extensions. Two further pages cover library and dependency apps and marketing validation rules for Marketplace listings.
+This section is a set of FAQ pages with no subtopics. Most of them serve partners and developers who build and publish apps: developing in AL, testing an app, submitting and managing an offer in Partner Center, updating a published app, and the app lifecycle in general. Library and dependency apps have their own page.
 
-Two pages address other audiences. The migration FAQ answers questions about moving to Business Central Online, such as system requirements, data limits, SQL connection strings, the self-hosted integration runtime and permissions. The Windows client FAQ explains that the Windows client was discontinued starting with 2019 release wave 2 and points to modern client alternatives.
+Marketing validation has a separate FAQ. It covers what an app listing must say about editions, countries/regions and languages, plus branding, help pages and the manual validation process.
 
-Start with the FAQ that matches your task. App developers can begin with the AL development FAQ, then move to testing, offer submission and updating. Pick the migration or Windows client page if you are an on-premises customer or administrator planning a move.
+Two pages are aimed at customers and administrators. One answers questions about migrating to Business Central online. The other explains that the Windows client was discontinued from 2019 release wave 2, and which clients replace it. Start with the page that matches your task. App publishers can read the AL, testing and submission pages in that order.
 
 ## Key points
 
-- The AL development FAQ covers setup, debugging and snapshot debugging, symbol downloading, app identity, per-tenant extensions and Marketplace submission validation.
-- The testing FAQ covers complete coverage testing, automated and manual testing, country-specific testing, upgrade testing and Docker testing.
-- The offer submission FAQ covers the Partner Center process, the Go Live button, Review and publish, and how validation is queued.
-- The updating and lifecycle FAQs cover app version numbering, validation, update cadence, automatic app updates, force update and avoiding submission delays.
-- Library apps hold shared code for several Marketplace apps and are installed automatically as dependencies; they go through technical validation.
-- The marketing validation FAQ requires statements on supported editions, countries/regions and languages, plus help and support pages, product naming and correct marketplace badge use.
-- The migration FAQ covers system requirements, data limits, SQL connection strings, the self-hosted integration runtime, the intelligent cloud permission set, extension data migration and data compression.
-- The Windows client was discontinued starting with 2019 release wave 2; alternatives include the web client, Windows 10 desktop app, mobile apps, Open/Edit in Excel and the Outlook add-in.
+- Library and dependency apps let developers share common code across marketplace apps. They are installed automatically, based on the dependencies in the app manifest.
+- The offer management FAQ covers the Go Live and Review and publish buttons, the validation queue, technical validation and marketing changes in Partner Center.
+- The testing FAQ covers testing before submission: online environments, the latest version, multi-country support, upgrade testing and 100% test coverage.
+- The update FAQ and the lifecycle FAQ cover submitting new app versions, app identity, versioning, dependency versioning, preview installation, force update and per-tenant extensions.
+- The migration FAQ covers the self-hosted integration runtime, Azure Data Factory, the SQL connection string, the intelligent cloud permission set, extension data migration and data compression.
+- The Windows client was discontinued starting with 2019 release wave 2. Alternatives are the web client, the Windows 10 desktop app, mobile apps, Open in Excel and Edit in Excel, and the Outlook add-in.
+- The AL FAQ covers the AL Extension for Visual Studio Code, debugging and snapshot debugging, symbol downloading, marketplace submission validation and app identity.
+- The marketing validation FAQ requires statements on supported editions, countries/regions and languages, and covers help and support pages, product naming and marketplace badge usage.
 
 ## Learn pages
 
@@ -155,7 +155,7 @@ Start with the FAQ that matches your task. App developers can begin with the AL 
   - Data replication is one way only from on-premises to Business Central online; must stop using on-premises after going live.
   - Limit: On-premises users and permissions do not replicate; users must be manually added and permissions granted in cloud tenant.
 - [FAQ about Testing your Business Central App](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-test): Get answers to some of your questions about testing when you build an app for Dynamics 365 Business Central
-- [FAQ about Updating your Business Central App](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-update): Get answers to some of your questions about updating your app for Dynamics 365 Business Central
+- [FAQ About Updating Your Business Central App](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-update): Find answers about updating Business Central apps, including validation, version compatibility, environment updates, dependencies, and critical hotfixes.
 - [FAQ about Windows Client and Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/faq-win-cli): Get answers to why the Windows client is no longer supported with Business Central.
 - [FAQ for Developing in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dev-faq): Overview of frequently asked questions for development using the AL language.
 - [Lifecycle of apps and extensions FAQ](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-update-app-life-cycle-faq): Overview of the frequently asked questions about updating an app on Marketplace.

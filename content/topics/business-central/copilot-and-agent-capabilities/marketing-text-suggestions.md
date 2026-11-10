@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:47.235Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,6 +51,7 @@ links:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
   videos:
+    - video/ayXdXFyFEjY
     - video/KpQS7c6YGRo
   posts:
     - post/yzhums-com/72069
@@ -64,7 +65,7 @@ children: []
 coverage:
   learn: 3
   code: 1
-  video: 1
+  video: 2
   blog: 1
   guideline: 0
 bc_forms:
@@ -107,6 +108,7 @@ The section has three pages and no subtopics. Start with the overview page to se
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Dynamics 365 Business Central: How to add Marketing Text Factbox to Item List page](../../../posts/yzhums-com/72069.md) (community post): "AI-generated marketing text suggestions are available through Copilot"
+- [Drive Sales with AI-Generated Product Descriptions in Business Central (2024 release wave 1)](../../../videos/ayXdXFyFEjY.md) (video): "product descriptions; copilot; ai-generated content; image analysis"
 - [What's New: Marketing Text Suggestions (2023 release wave 2)](../../../videos/KpQS7c6YGRo.md) (video): "marketing text suggestions; copilot; ai-powered features; product descriptions"
 
 ## Business Central pages and reports

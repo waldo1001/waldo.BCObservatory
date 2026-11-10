@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T00:48:32.366Z"
+  at: "2026-11-10T00:45:19.588Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3a0fbd2f47d74fb9c709048f95e8d57336c9993c6a7f97d058e76e05e3ed5e87
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7178ca2892e28bbe28fb5d764d4d00dd2e762b35/src/System%20Application/App/Retention%20Policy/src/Retention%20Period/RetentionPeriod.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/d46542bef3883b9f0f55e85d7cdf99201b430348/src/System%20Application/App/Retention%20Policy/src/Retention%20Period/RetentionPeriod.Interface.al
     title: src/System Application/App/Retention Policy/src/Retention Period/RetentionPeriod.Interface.al (releases/29.x)
     date: null
-    commit: 7178ca2892e28bbe28fb5d764d4d00dd2e762b35
+    commit: d46542bef3883b9f0f55e85d7cdf99201b430348
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Retention Period" in System Application (System.DataAdministration). 5 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.DataAdministration · BC23-30 · [source at 7178ca28](https://github.com/microsoft/BCApps/blob/7178ca2892e28bbe28fb5d764d4d00dd2e762b35/src/System%20Application/App/Retention%20Policy/src/Retention%20Period/RetentionPeriod.Interface.al) · facts from BC29
+System Application · System.DataAdministration · BC23-30 · [source at d46542be](https://github.com/microsoft/BCApps/blob/d46542bef3883b9f0f55e85d7cdf99201b430348/src/System%20Application/App/Retention%20Policy/src/Retention%20Period/RetentionPeriod.Interface.al) · facts from BC29
 
 ## Procedures
 

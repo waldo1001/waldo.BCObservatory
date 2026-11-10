@@ -2,26 +2,26 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/profiles
 type: topic
 title: Profiles
-summary: "Profiles in Business Central AL development: how to define user roles that control which pages and reports a user sees. It answers questions about profile objects, profile extensions, page customization objects, and creating or moving profiles through the client."
+summary: Profiles in Business Central cover how to tailor the client to user roles, either in AL with profile, profile extension and page customization objects, or in the web client without code. It answers questions about defining role centers, changing page layout and actions per profile, and moving profiles between environments.
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:26:51.589Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 56c3b273565a837b5eeda1fe72bc383986e6ff5444aab7b7885cd5a439a43869
+  input_hash: 11dbca02eac8ad7fb6c37feaf5faeb41e40ffd549bc0f297fb0cb3befb29e5b0
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles
-    title: Designing Profiles
-    date: "2021-04-01"
+    title: Designing Profiles in Business Central
+    date: "2026-11-05"
     commit: null
     t: null
     quote: null
@@ -41,8 +41,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client
-    title: Using the client to create profiles
-    date: "2024-09-30"
+    title: Using the Client to Create Profiles
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
@@ -85,32 +85,35 @@ narrative: generated
 
 # Profiles
 
-> Profiles in Business Central AL development: how to define user roles that control which pages and reports a user sees. It answers questions about profile objects, profile extensions, page customization objects, and creating or moving profiles through the client.
+> Profiles in Business Central cover how to tailor the client to user roles, either in AL with profile, profile extension and page customization objects, or in the web client without code. It answers questions about defining role centers, changing page layout and actions per profile, and moving profiles between environments.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Profiles · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Profiles · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Profiles (roles) tailor the Business Central experience by setting which pages and reports are available and which role center a user gets. In AL you build them with profile objects, profile extension objects, and page customization objects. The client offers a user interface alternative to writing this in code.
+A profile defines the experience for a specific kind of user. In AL, the profile object sets a role center and can point to page customizations that change layout and actions for that profile. The design page explains how profile objects, profile extension objects and page customization objects work together to fit users' daily tasks, and it also mentions translation of profiles.
 
-Start with Designing Profiles for the overall picture, including role centers, profile extensions, and translation support. The Profile object page explains the properties that define a profile: RoleCenter, Enabled, Promoted, and Customizations. The Page customization object page covers changing layout and actions for specific profiles. It offers more limited extensibility than page extensions. Using the client to create profiles covers the no-code route, with export and import of profile packages.
+The page customization object is a lighter alternative to a page extension. It can add layout and action changes, but it cannot hold variables, procedures or triggers, and it applies only to the role centers you specify. It is described for runtime 16.
+
+If you prefer not to write AL, the client-based page explains how to create profiles and page customizations in the web client, and how to export and import profile packages across environments. A good starting order is the design overview, then the profile object and page customization object references, then the client page if you work without code.
 
 ## Key points
 
-- A profile object sets a role center and can list optional page customizations. Its properties include RoleCenter, Enabled, Promoted and Customizations.
-- Page customization objects change page layout and actions for specific profiles and apply only to the role centers they target.
-- Page customization objects cannot add variables, procedures or triggers, so they are less extensible than page extensions. The Learn page lists runtime 16.
-- Page customizations can cover actions, field additions, group management, editable fields and views.
-- Profile extension objects are another AL building block for profiles, and translation is supported.
-- The client lets you create profiles, profile extensions and page customizations without writing AL code. The Learn page lists 2024 release wave 2.
-- Profiles created in the client can be exported and imported as a profile package.
+- The profile object specifies a role center and optional page customizations through properties such as RoleCenter, Enabled, Promoted and Customizations.
+- Page customization objects add layout and action changes, such as field additions, group management, editable fields and views, for specific profiles.
+- Page customization objects cannot contain variables, procedures or triggers, so extensibility is more limited than page extensions.
+- Page customizations apply only to the role centers specified, and the page notes runtime 16.
+- Profile extension objects are part of profile design alongside profile and page customization objects.
+- Profiles and page customizations can be created in the web client without AL code.
+- Profile packages can be exported and imported to move profiles between environments, as described for 2024 release wave 2 (version 25.0).
+- Profile design also covers translating profiles.
 
 ## Learn pages
 
-- [Designing Profiles](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles): Gives an overview of profiles and page customizations.
+- [Designing Profiles in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles): Learn how to use AL profiles, profile extensions, and page customizations to tailor Business Central pages to user roles and translate profile text.
 - [Page customization object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-customization-object): The page customization object in Business Central allows you to add changes to the layout and actions on page that are accessible for a profile.
 - [Profile object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-profile-object): Description of the profile object, which allows you to build an individual experience for each user profile.
-- [Using the client to create profiles](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client): Gives an overview of how to create profiles by using the client together with Visual Studio Code.
+- [Using the Client to Create Profiles](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client): Learn how to create, export, modify, and import Business Central profiles and page customizations by using the client and Visual Studio Code.
   - In the observatory: [Page 22 "Customer List"](../../../../../objects/page/22.md), [Page 9022 "Business Manager Role Center"](../../../../../objects/page/9022.md)
 
 ## Videos, posts and code changes

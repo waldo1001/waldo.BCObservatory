@@ -2,7 +2,7 @@
 id: source/dvlprlife-com
 type: source
 title: DvlprLife
-summary: "DvlprLife (Brad Prendergast): 23 posts in the knowledge base, 2026-05-26 to 2026-10-18, mostly about development, platform, administration."
+summary: "DvlprLife (Brad Prendergast): 24 posts in the knowledge base, 2026-05-26 to 2026-11-09, mostly about development, platform, administration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T00:22:27.986Z"
+  at: "2026-11-10T00:14:28.203Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 24333c05be596c9d67ea9ec9577694ad9874e757a5104af986db19bd76c66c54
+  input_hash: cf6ce8d6cae23878ce51a445182c8f0395311135359956e1cd5cf1bdd8e29db6
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com
@@ -56,6 +56,7 @@ links:
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-october-2026-cumulative-updates-for-dynamics-365-business-central--a64e9af8be
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-trivia-recap-october-12-16-2026--0818250589
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-is-transitioning-to-dotnet-10--d3cb2afda2
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-11-november-2026-cumulative-updates-for-dynamics-365-business-central--702bed97e1
   guidelines: []
 source_id: dvlprlife-com
 kind: blog
@@ -63,15 +64,15 @@ url: https://www.dvlprlife.com
 author: Brad Prendergast
 mvp: false
 full_text: false
-item_count: 23
+item_count: 24
 footprint:
   systems:
     - id: development
       weight: 23
     - id: platform
-      weight: 12
+      weight: 13
     - id: administration
-      weight: 8
+      weight: 10
     - id: copilot
       weight: 5
     - id: reporting
@@ -79,11 +80,13 @@ footprint:
     - id: integration
       weight: 1
   topics:
+    - id: cumulative updates
+      weight: 7
     - id: al development
       weight: 6
-    - id: cumulative updates
-      weight: 6
     - id: community
+      weight: 4
+    - id: on-premises
       weight: 4
     - id: trivia
       weight: 4
@@ -94,8 +97,6 @@ footprint:
     - id: github copilot
       weight: 3
     - id: learning
-      weight: 3
-    - id: on-premises
       weight: 3
     - id: release waves
       weight: 3
@@ -126,12 +127,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2026-05-26"
-last_item: "2026-10-18"
+last_item: "2026-11-09"
 ---
 
 # DvlprLife
 
-> DvlprLife (Brad Prendergast): 23 posts in the knowledge base, 2026-05-26 to 2026-10-18, mostly about development, platform, administration.
+> DvlprLife (Brad Prendergast): 24 posts in the knowledge base, 2026-05-26 to 2026-11-09, mostly about development, platform, administration.
 
 [https://www.dvlprlife.com](https://www.dvlprlife.com) · blog · tier community
 
@@ -139,15 +140,15 @@ last_item: "2026-10-18"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (23) | al development (6) | codeunit Agent (1) |
-| platform (12) | cumulative updates (6) | other Unit of Measure (1) |
-| administration (8) | community (4) | page 9110 (1) |
-| copilot (5) | trivia (4) | page ABC Analysis Setup (1) |
-| reporting (2) | engagement (3) | page Agents (1) |
-| integration (1) | gamification (3) | page Index Management (1) |
-|  | github copilot (3) | page Item Ledger Entries (1) |
-|  | learning (3) | page Report Layouts (1) |
-|  | on-premises (3) | report Item – ABC Analysis (1) |
+| development (23) | cumulative updates (7) | codeunit Agent (1) |
+| platform (13) | al development (6) | other Unit of Measure (1) |
+| administration (10) | community (4) | page 9110 (1) |
+| copilot (5) | on-premises (4) | page ABC Analysis Setup (1) |
+| reporting (2) | trivia (4) | page Agents (1) |
+| integration (1) | engagement (3) | page Index Management (1) |
+|  | gamification (3) | page Item Ledger Entries (1) |
+|  | github copilot (3) | page Report Layouts (1) |
+|  | learning (3) | report Item – ABC Analysis (1) |
 |  | release waves (3) | table General Journal Templates (1) |
 |  |  | table General Ledger Setup (1) |
 |  |  | table User Setup (1) |
@@ -158,10 +159,11 @@ Items per quarter, oldest first:
 
 - 2026-Q2: ******* 7
 - 2026-Q3: ************ 12
-- 2026-Q4: **** 4
+- 2026-Q4: ***** 5
 
 ## Most recent
 
+- [November 2026 Cumulative Updates for Dynamics 365 Business Central](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-11-november-2026-cumulative-updates-for-dynamics-365-business-central--702bed97e1.md) (2026-11-09)
 - [Business Central Is Transitioning to .NET 10, and Here's What You Should Check](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-is-transitioning-to-dotnet-10--d3cb2afda2.md) (2026-10-18)
 - [Business Central Trivia Recap: October 12–16, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-trivia-recap-october-12-16-2026--0818250589.md) (2026-10-18)
 - [October 2026 Cumulative Updates for Dynamics 365 Business Central](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-october-2026-cumulative-updates-for-dynamics-365-business-central--a64e9af8be.md) (2026-10-08)
@@ -181,6 +183,5 @@ Items per quarter, oldest first:
 - [Weekly Review: Business Central AL Development – June 21–27, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-21-27-2026--a323467e2a.md) (2026-06-29)
 - [Weekly Review: Business Central AL Development – June 14–20, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-14-20-2026--dfae053a06.md) (2026-06-22)
 - [Weekly Review: Business Central AL Development – June 7–13, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38.md) (2026-06-15)
-- [Weekly Review: Business Central AL Development – May 31–June 6, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165.md) (2026-06-09)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

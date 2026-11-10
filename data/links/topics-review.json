@@ -3886,100 +3886,124 @@
       }
     },
     "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview": {
-      "post/gerardorenteria-blog/11616@1d6f9ac806446947": {
-        "verdict": "drop",
-        "reason": "This is a general overview of the 2025 wave 2 release and never mentions the Expense Agent.",
-        "at": "2026-10-30T08:05:37.004Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/8348@26fe815ea66cfaf1": {
-        "verdict": "keep",
-        "reason": "It is mostly about Edit with Copilot, but the recap explicitly covers the Expense Agent too, so I kept it.",
-        "at": "2026-10-30T08:05:37.004Z",
-        "v": 2
-      },
-      "post/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html@71a9c33d7457db47": {
-        "verdict": "drop",
-        "reason": "It covers licensing for the Sales Order and Payables agents, which their own sibling sections document; the Expense Agent isn't mentioned.",
-        "at": "2026-10-30T08:05:37.004Z",
-        "v": 2
-      },
-      "post/yzhums-com/71603@bd1401b024142e11": {
-        "verdict": "drop",
-        "reason": "This is a general summary of the BC28 release plan that mentions agents only broadly, not the Expense Agent.",
-        "at": "2026-10-30T08:05:37.004Z",
-        "v": 2
-      },
-      "video/4TE8uwIi91k@eca24fb6bc32f308": {
-        "verdict": "keep",
-        "reason": "It demonstrates the Expense Agent's mobile app features: receipt capture, mileage, submission and approval.",
-        "at": "2026-10-30T08:05:37.004Z",
-        "v": 2
-      },
-      "video/ARKckFygbWQ@46f5d8cf2ca785fb": {
-        "verdict": "keep",
-        "reason": "It shows the Expense Agent's web app: receipt extraction, automatic categorization and compliance checks.",
-        "at": "2026-10-30T08:05:37.004Z",
-        "v": 2
-      },
-      "video/cVfZoDwKYpI@dbbbe2594f712273": {
-        "verdict": "keep",
-        "reason": "It walks through the Expense Agent's setup, features and how it was built.",
-        "at": "2026-10-30T08:05:37.004Z",
-        "v": 2
-      },
-      "video/cWVhWBMbXb4@486e5c7b194b5572": {
-        "verdict": "keep",
-        "reason": "It covers the Expense Agent's mileage settings: date-range allowances and rates by vehicle type.",
-        "at": "2026-10-30T08:05:37.004Z",
-        "v": 2
-      },
       "video/Fz8NLByllRc@7535e141cc6d29ae": {
         "verdict": "keep",
-        "reason": "Shows how the Expense Agent handles mileage allowances, which is part of this section.",
-        "at": "2026-10-30T08:05:43.154Z",
+        "reason": "Shows the Expense Agent's mileage allowance feature, which is part of the agent this section documents.",
+        "at": "2026-11-10T00:54:07.069Z",
         "v": 2
       },
-      "video/P1V4jy08YM8@af86191075ea721a": {
+      "video/GwrMf1umTFg@0f2d2849f34ec42d": {
         "verdict": "keep",
-        "reason": "Walks through the Expense Agent configuration wizard, which this section covers.",
-        "at": "2026-10-30T08:05:43.154Z",
+        "reason": "Covers project handling in the Expense Agent web app, which is part of the documented agent.",
+        "at": "2026-11-10T00:54:07.069Z",
         "v": 2
       },
-      "video/pjML7lXSsd0@34635f1e545df172": {
+      "video/kDixaZFPYE8@070570a075401a46": {
         "verdict": "keep",
-        "reason": "Introduces expense management with the Expense Agent at its centre.",
-        "at": "2026-10-30T08:05:43.154Z",
+        "reason": "Covers the countries and languages the Expense Agent supports, which bears directly on the section overview.",
+        "at": "2026-11-10T00:54:07.069Z",
         "v": 2
       },
-      "video/q-udoJPGUKE@dcd139bc13332a22": {
+      "video/M0IzeLSn7qU@0a880d0c5d8978c0": {
         "verdict": "keep",
-        "reason": "Demonstrates the Expense Agent web app, which extracts receipt data and builds expense reports.",
-        "at": "2026-10-30T08:05:43.154Z",
+        "reason": "Covers the Expense Agent's improved approval process.",
+        "at": "2026-11-10T00:54:07.069Z",
         "v": 2
       },
-      "video/qZALauRY_So@e82e2aeffeac5c48": {
+      "video/o94V_lF8oNM@2f5f258c0a2f57c2": {
         "verdict": "keep",
-        "reason": "Covers how approvals work for the Expense Agent.",
-        "at": "2026-10-30T08:05:43.154Z",
+        "reason": "Covers the Expense Agent's travel and expense policy automation.",
+        "at": "2026-11-10T00:54:07.069Z",
         "v": 2
       },
-      "video/rSGCNMIBcpc@97af4d79293918de": {
+      "video/pjML7lXSsd0@d18c1167cff93de9": {
         "verdict": "keep",
-        "reason": "Demonstrates setting up approvers and the approval process in the Expense Agent.",
-        "at": "2026-10-30T08:05:43.154Z",
+        "reason": "Introduces Expense Management, including the Expense Agent's AI categorization and its expense report workflow.",
+        "at": "2026-11-10T00:54:07.069Z",
         "v": 2
       },
-      "video/tj1vvsmAMVs@f00099f52a4fb437": {
+      "video/q-udoJPGUKE@16263ae56cf01a23": {
         "verdict": "keep",
-        "reason": "Gives an overview of new Expense Agent capabilities.",
-        "at": "2026-10-30T08:05:43.154Z",
+        "reason": "Introduces the Expense Agent web app and its AI receipt extraction.",
+        "at": "2026-11-10T00:54:07.069Z",
+        "v": 2
+      },
+      "video/rSGCNMIBcpc@1e59d2774b2debc7": {
+        "verdict": "keep",
+        "reason": "Shows how approvals are set up and handled in the Expense Agent.",
+        "at": "2026-11-10T00:54:07.069Z",
+        "v": 2
+      },
+      "video/tj1vvsmAMVs@71e136b968a7550d": {
+        "verdict": "keep",
+        "reason": "Gives an overview of what's new in the Expense Agent.",
+        "at": "2026-11-10T00:54:07.069Z",
         "v": 2
       },
       "video/vyQnSxRGJDA@43ba18146723000f": {
         "verdict": "keep",
-        "reason": "Shows how the Expense Agent calculates per diem allowances.",
-        "at": "2026-10-30T08:05:43.154Z",
+        "reason": "Shows per diem allowances and the Expense Agent setup wizard.",
+        "at": "2026-11-10T00:54:07.069Z",
+        "v": 2
+      },
+      "post/gerardorenteria-blog/11616@1d6f9ac806446947": {
+        "verdict": "drop",
+        "reason": "General wave 2 2025 release overview; never mentions the Expense Agent.",
+        "at": "2026-11-10T00:54:08.773Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/7977@c758c354995e0744": {
+        "verdict": "drop",
+        "reason": "Update 28.2 summary covers the Sales Order Agent and other features, not the Expense Agent.",
+        "at": "2026-11-10T00:54:08.773Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8348@6c35f85cccb4784c": {
+        "verdict": "keep",
+        "reason": "Conference recap explicitly covers the Expense Agent alongside Edit with Copilot.",
+        "at": "2026-11-10T00:54:08.773Z",
+        "v": 2
+      },
+      "post/yzhums-com/71603@bd1401b024142e11": {
+        "verdict": "drop",
+        "reason": "Release plan overview mentions autonomous agents generically, nothing specific to the Expense Agent.",
+        "at": "2026-11-10T00:54:08.773Z",
+        "v": 2
+      },
+      "video/4TE8uwIi91k@1262471c4cb1ff9f": {
+        "verdict": "keep",
+        "reason": "Demonstrates Expense Agent mobile app features like receipt scanning and mileage.",
+        "at": "2026-11-10T00:54:08.773Z",
+        "v": 2
+      },
+      "video/6rm45dSB6xg@97441504312ed676": {
+        "verdict": "keep",
+        "reason": "Shows the Expense Agent's in-product feedback mechanism.",
+        "at": "2026-11-10T00:54:08.773Z",
+        "v": 2
+      },
+      "video/ARKckFygbWQ@86d3efa7fbbf81f8": {
+        "verdict": "keep",
+        "reason": "Demonstrates the Expense Agent web app with receipt extraction and categorization.",
+        "at": "2026-11-10T00:54:08.773Z",
+        "v": 2
+      },
+      "video/cVfZoDwKYpI@e71250f55704858f": {
+        "verdict": "keep",
+        "reason": "In-depth walkthrough of Expense Agent setup, configuration and processing.",
+        "at": "2026-11-10T00:54:08.773Z",
+        "v": 2
+      },
+      "video/cWVhWBMbXb4@af70657ee81d869b": {
+        "verdict": "keep",
+        "reason": "Covers Expense Agent mileage allowance and rate setup.",
+        "at": "2026-11-10T00:54:08.773Z",
+        "v": 2
+      },
+      "video/e_x5QF0vXgs@14240eb451d3c53c": {
+        "verdict": "keep",
+        "reason": "Demonstrates the Expense Agent mobile experience and AI extraction.",
+        "at": "2026-11-10T00:54:08.773Z",
         "v": 2
       }
     },
@@ -4029,135 +4053,75 @@
     },
     "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities": {
       "post/bertverbeek-nl/1252@5813f9b3342cfb72": {
-        "verdict": "drop",
-        "reason": "Covers designing and securing custom agents through role centers and permissions, not turning capabilities on or off.",
-        "at": "2026-11-07T01:02:47.401Z",
+        "verdict": "keep",
+        "reason": "Controlling agent permissions and how much an agent can access is part of managing agent capabilities; borderline because it leans toward AL development.",
+        "at": "2026-11-10T00:54:22.785Z",
         "v": 2
       },
       "post/bertverbeek-nl/1263@cfa8e9550880d3e9": {
         "verdict": "keep",
-        "reason": "Covers the Agent Consumption page for monitoring credit use, which is part of managing agent capabilities and billing.",
-        "at": "2026-11-07T01:02:47.401Z",
+        "reason": "Covers the Agent Consumption page for watching credit usage, which is part of managing agent billing.",
+        "at": "2026-11-10T00:54:22.785Z",
         "v": 2
       },
       "post/demiliani-com/13755@098bf8cd3b3dce3b": {
-        "verdict": "drop",
-        "reason": "About deploying custom agents and choosing their model on the Agents page, which this section doesn't document.",
-        "at": "2026-11-07T01:02:47.401Z",
-        "v": 2
-      },
-      "post/demiliani-com/15935@5a118331e80716b7": {
         "verdict": "keep",
-        "reason": "Explains the Allow data movement toggle and geography consent, both managed in this section.",
-        "at": "2026-11-07T01:02:47.401Z",
+        "reason": "Covers the default Copilot model and choosing the model for each agent on the Agents page, which are admin-level capability settings; borderline.",
+        "at": "2026-11-10T00:54:22.785Z",
         "v": 2
       },
-      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1848764778201254677@415376c0de163a17": {
-        "verdict": "drop",
-        "reason": "About the Copilot chat feature, which the sibling Microsoft Copilot in Business Central section documents more exactly.",
-        "at": "2026-11-07T01:02:47.401Z",
+      "post/demiliani-com/15935@c0d6ceb9dcbef380": {
+        "verdict": "keep",
+        "reason": "Explains the Allow data movement toggle and processing geography, which this section documents.",
+        "at": "2026-11-10T00:54:22.785Z",
         "v": 2
       },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-45-hide-agents-icon/@df75d9ac8c8bbd76": {
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-45-hide-agents-icon/@c086f5655add328f": {
         "verdict": "keep",
         "reason": "Shows deactivating Agents on the Copilot & agent capabilities page.",
-        "at": "2026-11-07T01:02:47.401Z",
+        "at": "2026-11-10T00:54:22.785Z",
         "v": 2
       },
-      "post/thinkaboutit-be/8342@0029b05785b67f48": {
+      "post/thinkaboutit-be/8342@4a230f2efa38bf14": {
         "verdict": "drop",
-        "reason": "Mainly about Copilot Chat's design, which the sibling Microsoft Copilot in Business Central section covers; the admin page is mentioned only in passing.",
-        "at": "2026-11-07T01:02:47.401Z",
+        "reason": "Mainly about the new Copilot Chat, which the sibling Microsoft Copilot in Business Central section documents more exactly.",
+        "at": "2026-11-10T00:54:22.785Z",
         "v": 2
       },
-      "post/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html@71a9c33d7457db47": {
+      "post/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html@ccd469fb4452222b": {
         "verdict": "keep",
-        "reason": "Explains that agents need Copilot Credits, which ties into consumption billing for agent capabilities.",
-        "at": "2026-11-07T01:02:47.401Z",
+        "reason": "Discusses Copilot Credits and agent licensing requirements, which relate to managing consumption billing for agents.",
+        "at": "2026-11-10T00:54:22.785Z",
         "v": 2
       },
-      "post/yzhums-com/67462@f8013648de2accef": {
+      "post/yzhums-com/67462@7326f70831dc1c68": {
         "verdict": "keep",
-        "reason": "Describes the Billing Type column on the Copilot and Agent Capabilities page.",
-        "at": "2026-11-07T01:02:47.401Z",
+        "reason": "Covers the Billing Type column on the Copilot and Agent Capabilities page.",
+        "at": "2026-11-10T00:54:22.785Z",
         "v": 2
       },
-      "post/yzhums-com/68482@6c8f64782f49f44e": {
+      "post/yzhums-com/68482@75dc3fca129f91e9": {
         "verdict": "keep",
         "reason": "Shows deactivating individual agent capabilities on the Copilot & agent capabilities page.",
-        "at": "2026-11-07T01:02:47.401Z",
+        "at": "2026-11-10T00:54:22.785Z",
         "v": 2
       },
-      "post/yzhums-com/68484@d9048cb0d00c21e9": {
+      "post/yzhums-com/68484@ddc49eebdc467d51": {
         "verdict": "keep",
-        "reason": "Covers consumption-based billing for agent capabilities, which is managed in this section.",
-        "at": "2026-11-07T01:02:47.401Z",
+        "reason": "Explains consumption-based billing for agent capabilities, which this section covers.",
+        "at": "2026-11-10T00:54:22.785Z",
+        "v": 2
+      },
+      "post/yzhums-com/69256@4777dcfd0e38a86b": {
+        "verdict": "keep",
+        "reason": "About Copilot Credits and consumption billing for agents, which relates to managing agent billing; borderline because it is a promotion.",
+        "at": "2026-11-10T00:54:22.785Z",
         "v": 2
       },
       "post/yzhums-com/70502@de72ba277dfa36dd": {
         "verdict": "drop",
-        "reason": "About building custom agents with the agent designer, which this section doesn't cover; Copilot credits are only mentioned in passing.",
-        "at": "2026-11-07T01:02:48.583Z",
-        "v": 2
-      },
-      "post/yzhums-com/72431@03eddc7258b25021": {
-        "verdict": "keep",
-        "reason": "Tracking Copilot credit use for agents ties directly to the billing and consumption management this section covers.",
-        "at": "2026-11-07T01:02:48.583Z",
-        "v": 2
-      },
-      "post/yzhums-com/72479@282671e86681235b": {
-        "verdict": "drop",
-        "reason": "About a task pane for working through agent tasks in daily use, not about managing Copilot or agent capabilities.",
-        "at": "2026-11-07T01:02:48.583Z",
-        "v": 2
-      },
-      "post/yzhums-com/74431@e096096e3119df5e": {
-        "verdict": "keep",
-        "reason": "Choosing an AI model for each agent on the Agents page is an admin setting for agents.",
-        "at": "2026-11-07T01:02:48.583Z",
-        "v": 2
-      },
-      "post/yzhums-com/74703@27daa63fb946655c": {
-        "verdict": "keep",
-        "reason": "Covers the Allow data movement consent toggle on the Copilot & agent capabilities page.",
-        "at": "2026-11-07T01:02:48.583Z",
-        "v": 2
-      },
-      "post/yzhums-com/76396@82efd373b718cf8b": {
-        "verdict": "keep",
-        "reason": "An admin control that turns off Copilot feedback across the tenant fits managing Copilot capabilities.",
-        "at": "2026-11-07T01:02:48.583Z",
-        "v": 2
-      },
-      "post/yzhums-com/77124@488a54dd82c40310": {
-        "verdict": "drop",
-        "reason": "About a UI notification bar feature; the Agent Data Review Bar is only mentioned in passing.",
-        "at": "2026-11-07T01:02:48.583Z",
-        "v": 2
-      },
-      "video/DRUr4byy8xQ@56a5e75a3a1c80fd": {
-        "verdict": "keep",
-        "reason": "Controlling agent access through permissions and profiles is part of managing agent capabilities.",
-        "at": "2026-11-07T01:02:48.583Z",
-        "v": 2
-      },
-      "video/MKuOgMWXJ_8@c36e072796ffcd3b": {
-        "verdict": "drop",
-        "reason": "Mainly a walkthrough of the Sales Validation sample agent template, not admin management of capabilities.",
-        "at": "2026-11-07T01:02:48.583Z",
-        "v": 2
-      },
-      "video/QK-Qsh_6YL4@8ba69d9b3b8baddb": {
-        "verdict": "drop",
-        "reason": "A partner Copilot time sheet feature, which this section doesn't document.",
-        "at": "2026-11-07T01:02:48.583Z",
-        "v": 2
-      },
-      "video/UQmuMPRlHek@fcc85d97923a4b32": {
-        "verdict": "keep",
-        "reason": "Covers the Copilot and AI capabilities page, turning features off, data movement and permissions for admins.",
-        "at": "2026-11-07T01:02:48.583Z",
+        "reason": "About designing custom agents with the agent designer, which this section does not document.",
+        "at": "2026-11-10T00:54:22.785Z",
         "v": 2
       }
     },
@@ -4196,64 +4160,130 @@
       }
     },
     "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr": {
+      "video/2isrH3RcSK8@96278b9fcbfa908f": {
+        "verdict": "keep",
+        "reason": "Launch event covers Copilot Chat for data inquiries and multilingual support, part of the in-product Copilot chat experience.",
+        "at": "2026-11-10T00:54:10.078Z",
+        "v": 2
+      },
+      "video/bHXEbtsx0JY@0045902d77a690f7": {
+        "verdict": "drop",
+        "reason": "Sustainability emissions calculation Copilot is a separate capability not documented in this section.",
+        "at": "2026-11-10T00:54:10.078Z",
+        "v": 2
+      },
+      "video/BofJJPqgrTI@c0db061a5384c7fa": {
+        "verdict": "drop",
+        "reason": "About Excel report layouts and Excel's Copilot, not Microsoft Copilot in Business Central.",
+        "at": "2026-11-10T00:54:10.078Z",
+        "v": 2
+      },
+      "video/lNASlydCidI@f18c09cb8ec277f1": {
+        "verdict": "drop",
+        "reason": "Developer toolkit for building generative AI features, not the Microsoft Copilot chat experience this section documents.",
+        "at": "2026-11-10T00:54:10.078Z",
+        "v": 2
+      },
+      "video/mhfjycxWTyY@c13bac69b1be408f": {
+        "verdict": "keep",
+        "reason": "Directly covers the new Microsoft Copilot Chat experience in Business Central, including enablement and licensing.",
+        "at": "2026-11-10T00:54:10.078Z",
+        "v": 2
+      },
+      "video/TSLXzbeyE7Y@115b88135d2b7633": {
+        "verdict": "keep",
+        "reason": "Demonstrates Microsoft Copilot Chat in Business Central for data analysis and assistance.",
+        "at": "2026-11-10T00:54:10.078Z",
+        "v": 2
+      },
+      "video/V7NgFOIcGgM@33fa3f6007423f1b": {
+        "verdict": "keep",
+        "reason": "Explains how Microsoft Copilot Chat in Business Central works, including permissions and capability control.",
+        "at": "2026-11-10T00:54:10.078Z",
+        "v": 2
+      },
+      "video/wBx8TkIHJ04@dc3d2b8dd84c6624": {
+        "verdict": "keep",
+        "reason": "Introduces Copilot Chat in Business Central with data queries and permission filtering.",
+        "at": "2026-11-10T00:54:10.078Z",
+        "v": 2
+      },
+      "video/WL3m2dffwU8@875181de76274573": {
+        "verdict": "keep",
+        "reason": "Introduces the unified Microsoft Copilot Chat in Business Central and how it answers questions on BC data.",
+        "at": "2026-11-10T00:54:10.078Z",
+        "v": 2
+      },
+      "video/YX9UfUF0EsA@8d0160ba05894eb6": {
+        "verdict": "keep",
+        "reason": "Covers M365 Copilot chat in Business Central, its data access, licensing, and admin configuration.",
+        "at": "2026-11-10T00:54:10.078Z",
+        "v": 2
+      },
       "post/demiliani-com/12439@560f52bcca4c1aad": {
         "verdict": "drop",
-        "reason": "About the Summary FactBox, which the 'Summarize (preview)' section beside this one documents more exactly.",
-        "at": "2026-11-09T00:43:33.699Z",
+        "reason": "The Summary FactBox is covered more exactly by the sibling Summarize (preview) section.",
+        "at": "2026-11-10T00:54:14.369Z",
         "v": 2
       },
       "post/gerardorenteria-blog/15298@487d245220aeb086": {
         "verdict": "drop",
-        "reason": "About a Copilot skill for AL coding assistants, not Microsoft Copilot inside Business Central.",
-        "at": "2026-11-09T00:43:33.699Z",
+        "reason": "Evidence Flags is a coding-assistant skill for AL development, not the Copilot chat in Business Central.",
+        "at": "2026-11-10T00:54:14.369Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1848764778201254677@0690ec4825bfeb69": {
         "verdict": "keep",
-        "reason": "Covers the unified Microsoft Copilot chat in Business Central and how admins enable it, which is this section's subject.",
-        "at": "2026-11-09T00:43:33.699Z",
+        "reason": "Directly discusses the new unified Microsoft Copilot chat in Business Central and how to turn it on.",
+        "at": "2026-11-10T00:54:14.369Z",
         "v": 2
       },
       "post/thinkaboutit-be/8342@4a230f2efa38bf14": {
         "verdict": "keep",
-        "reason": "Explains the new Microsoft Copilot chat in Business Central 29, including how it works, its permissions and how users check its answers.",
-        "at": "2026-11-09T00:43:33.699Z",
+        "reason": "Explores the new Microsoft Copilot chat, including its data grounding, permissions and ways to check answers.",
+        "at": "2026-11-10T00:54:14.369Z",
         "v": 2
       },
       "post/thinkaboutit-be/8348@6c35f85cccb4784c": {
         "verdict": "keep",
-        "reason": "Edit with Copilot lets users change records in natural language, which extends the Copilot chat this section documents.",
-        "at": "2026-11-09T00:43:33.699Z",
+        "reason": "Edit with Copilot extends the Copilot chat so users can change records in natural language, which is related to this section.",
+        "at": "2026-11-10T00:54:14.369Z",
         "v": 2
       },
       "post/vondervoort-be/84@a07399802f0cdd86": {
         "verdict": "drop",
-        "reason": "About building AI agents and AI pair programming in AL, not the Copilot chat for end users.",
-        "at": "2026-11-09T00:43:33.699Z",
+        "reason": "Covers building AI agents and AI pair programming in AL, not the Copilot chat.",
+        "at": "2026-11-10T00:54:14.369Z",
         "v": 2
       },
       "post/yzhums-com/65781@c7a43bd0a11dba53": {
         "verdict": "keep",
-        "reason": "Covers a Copilot chat capability for answering questions about installed add-on apps.",
-        "at": "2026-11-09T00:43:33.699Z",
+        "reason": "Covers Copilot chat answering questions about installed add-on apps, a capability of the chat this section covers.",
+        "at": "2026-11-10T00:54:14.369Z",
         "v": 2
       },
       "post/yzhums-com/67542@63d1f73752e6bba5": {
         "verdict": "keep",
-        "reason": "Describes Copilot chat features in BC27: language support, finding data and task guidance.",
-        "at": "2026-11-09T00:43:33.699Z",
+        "reason": "Covers Copilot chat features such as finding data, task guidance and language support, which the new chat builds on.",
+        "at": "2026-11-10T00:54:14.369Z",
         "v": 2
       },
       "post/yzhums-com/67675@7aff63ea4e4b18fc": {
-        "verdict": "keep",
-        "reason": "Resizing the Copilot pane affects how users work with the Copilot chat.",
-        "at": "2026-11-09T00:43:33.699Z",
+        "verdict": "drop",
+        "reason": "Mainly about resizing side panes in general, not about Copilot chat features.",
+        "at": "2026-11-10T00:54:14.369Z",
         "v": 2
       },
       "post/yzhums-com/75811@33d6b3d3a1d7f63a": {
         "verdict": "keep",
-        "reason": "Directly describes the unified Microsoft Copilot chat experience in BC29.",
-        "at": "2026-11-09T00:43:33.699Z",
+        "reason": "Directly describes the unified Microsoft Copilot chat experience in BC29 that this section covers.",
+        "at": "2026-11-10T00:54:14.369Z",
+        "v": 2
+      },
+      "video/06vgkq2EXmA@415e929b6b56e8ad": {
+        "verdict": "keep",
+        "reason": "Explains how Copilot Chat in Business Central was built, including grounding and safety.",
+        "at": "2026-11-10T00:54:14.369Z",
         "v": 2
       }
     },
@@ -4364,112 +4394,112 @@
       }
     },
     "topic/business-central/copilot-and-agent-capabilities/sales-order-agent": {
-      "video/7QJeTXzZaEk@3606b3ecbcc1c3b5": {
+      "video/7QJeTXzZaEk@fe53f7ec7a4fecf1": {
         "verdict": "keep",
-        "reason": "Test drive of the Sales Order Agent including email account setup and contact creation.",
-        "at": "2026-10-30T01:09:02.116Z",
+        "reason": "Walkthrough of the Sales Order Agent, including its email integration and contact creation.",
+        "at": "2026-11-10T00:54:07.239Z",
         "v": 2
       },
-      "video/I7i25zBfyEQ@5a83545c719b496d": {
+      "video/I7i25zBfyEQ@ee1071475f8df3b9": {
         "verdict": "keep",
-        "reason": "Demonstrates Sales Order Agent setup, quote creation and approval workflow.",
-        "at": "2026-10-30T01:09:02.116Z",
+        "reason": "Covers Sales Order Agent setup, email mapping and quote creation.",
+        "at": "2026-11-10T00:54:07.239Z",
         "v": 2
       },
-      "video/j6gadQyB4gM@a447a0a6d93ac10a": {
+      "video/j6gadQyB4gM@8fb817ca9982b064": {
         "verdict": "keep",
-        "reason": "Covers a configuration setting (custom email signatures) of the Sales Order Agent.",
-        "at": "2026-10-30T01:09:02.116Z",
+        "reason": "Covers the custom email signature setting of the Sales Order Agent.",
+        "at": "2026-11-10T00:54:07.239Z",
         "v": 2
       },
-      "video/kwGEoxN46hk@a3a7c80d9c7e7223": {
+      "video/kwGEoxN46hk@675e51dcbcbf050b": {
         "verdict": "keep",
-        "reason": "Shows configuring multiple Sales Order Agents, folders, review settings and contact matching.",
-        "at": "2026-10-30T01:09:02.116Z",
+        "reason": "Shows how to set up multiple Sales Order Agent instances and their options.",
+        "at": "2026-11-10T00:54:07.239Z",
         "v": 2
       },
       "video/MKuOgMWXJ_8@c36e072796ffcd3b": {
         "verdict": "drop",
-        "reason": "About a different sample agent (Sales Validation Agent), not the Sales Order Agent.",
-        "at": "2026-10-30T01:09:02.116Z",
+        "reason": "About the Sales Validation sample agent, a different agent from the Sales Order Agent.",
+        "at": "2026-11-10T00:54:07.239Z",
         "v": 2
       },
-      "video/Qmd6_5vYKDg@720332d74a6a74a4": {
+      "video/Qmd6_5vYKDg@81383fd0445b8e2e": {
         "verdict": "keep",
-        "reason": "Explains how the Sales Order Agent searches and matches items from emails.",
-        "at": "2026-10-30T01:09:02.116Z",
+        "reason": "Shows how the Sales Order Agent searches for and matches items.",
+        "at": "2026-11-10T00:54:07.239Z",
         "v": 2
       },
-      "video/qP0id91bIlA@2955d3db6f4e0f12": {
+      "video/qmGxeq5FJis@f77d064e1d9e0331": {
         "verdict": "drop",
-        "reason": "General generative AI design talk on sales line suggestions and other Copilot features documented in sibling sections.",
-        "at": "2026-10-30T01:09:02.116Z",
+        "reason": "About Copilot sales line suggestions, which the sibling Sales line suggestion section documents.",
+        "at": "2026-11-10T00:54:07.239Z",
         "v": 2
       },
-      "video/UIL8ej7mSKQ@04f9acd0b9e4c4a9": {
+      "video/UIL8ej7mSKQ@24814d31abc584d1": {
         "verdict": "keep",
-        "reason": "Release wave video presenting several new Sales Order Agent capabilities.",
-        "at": "2026-10-30T01:09:02.116Z",
+        "reason": "Release overview that covers several new Sales Order Agent capabilities in detail.",
+        "at": "2026-11-10T00:54:07.239Z",
         "v": 2
       },
-      "video/XhO4oFmoh1M@d8636d677abfca91": {
+      "video/XhO4oFmoh1M@ba1558c9f46151a9": {
         "verdict": "keep",
-        "reason": "Introduction to the Sales Order Agent covering configuration, permissions, email processing and quotes.",
-        "at": "2026-10-30T01:09:02.116Z",
+        "reason": "Introduction to the Sales Order Agent covering its configuration, email processing and quote creation.",
+        "at": "2026-11-10T00:54:07.239Z",
         "v": 2
       },
-      "post/demiliani-com/11739@32e1caa7db380894": {
+      "post/demiliani-com/11739@4526778a0429d0cc": {
         "verdict": "keep",
-        "reason": "Explains what the Sales Order Agent does and what running it costs.",
-        "at": "2026-10-30T01:09:06.019Z",
+        "reason": "Explains what the Sales Order Agent does and how its billing works, including linking environments and message pricing.",
+        "at": "2026-11-10T00:54:11.463Z",
         "v": 2
       },
       "post/wingate365-com/https://blog.wingate365.com/2025/05/lets-setup-sales-order-agent-in.html@72a16d998aff4c27": {
         "verdict": "keep",
-        "reason": "Session recap that demos setting up the Sales Order Agent.",
-        "at": "2026-10-30T01:09:06.019Z",
+        "reason": "Recaps a session that demoed setting up the Sales Order Agent and processing orders with it.",
+        "at": "2026-11-10T00:54:11.463Z",
         "v": 2
       },
-      "post/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html@71a9c33d7457db47": {
+      "post/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html@ccd469fb4452222b": {
         "verdict": "keep",
-        "reason": "Covers the license and Copilot Credit requirements for using the Sales Order Agent and describes what it does.",
-        "at": "2026-10-30T01:09:06.019Z",
+        "reason": "Covers what the Sales Order Agent does and the license and Copilot Credits needed to use it.",
+        "at": "2026-11-10T00:54:11.463Z",
         "v": 2
       },
-      "post/yzhums-com/69256@68b78c02cfd0b7ea": {
-        "verdict": "keep",
-        "reason": "Gives the credit cost per Sales Order Agent action and a way to try the agent; a close call, kept when in doubt.",
-        "at": "2026-10-30T01:09:06.019Z",
+      "post/yzhums-com/68482@75dc3fca129f91e9": {
+        "verdict": "drop",
+        "reason": "The task is turning capabilities off on the Copilot & agent capabilities page, which the sibling Manage Copilot and agent capabilities section documents more exactly.",
+        "at": "2026-11-10T00:54:11.463Z",
         "v": 2
       },
       "post/yzhums-com/69476@404823025dc06f63": {
         "verdict": "drop",
-        "reason": "Overview of every Copilot feature that mentions sales order automation only in passing; it fits the parent section.",
-        "at": "2026-10-30T01:09:06.019Z",
+        "reason": "A broad list of all Copilot features that only mentions sales order automation in passing.",
+        "at": "2026-11-10T00:54:11.463Z",
         "v": 2
       },
-      "video/_JkZCp64jNw@2217bab592982dae": {
+      "video/_JkZCp64jNw@adc1eaf9565d4645": {
         "verdict": "keep",
-        "reason": "Launch event that demos several Sales Order Agent features, including item availability, email insights and PDF preview.",
-        "at": "2026-10-30T01:09:06.019Z",
+        "reason": "The launch event demonstrates several Sales Order Agent features, including item availability, email insights, auto-creating customers and PDF preview.",
+        "at": "2026-11-10T00:54:11.463Z",
         "v": 2
       },
-      "video/1ht5nxubZ9c@1248c21a0cb21e8b": {
+      "video/1ht5nxubZ9c@806ec6ced3da77bc": {
         "verdict": "keep",
-        "reason": "Shows how to configure the Sales Order Agent's mailbox folder, personal or shared.",
-        "at": "2026-10-30T01:09:06.019Z",
+        "reason": "Shows how to set up the Sales Order Agent's mailbox with a personal or shared folder.",
+        "at": "2026-11-10T00:54:11.463Z",
         "v": 2
       },
-      "video/2ujWYYecA2c@fca76e02397551a5": {
+      "video/2ujWYYecA2c@3f5290c61e1b5834": {
         "verdict": "keep",
-        "reason": "Walks through setting up and testing the Sales Order Agent.",
-        "at": "2026-10-30T01:09:06.019Z",
+        "reason": "Walks through setting up and testing the Sales Order Agent with the Try it out experience.",
+        "at": "2026-11-10T00:54:11.463Z",
         "v": 2
       },
-      "video/4nFViDASGhg@4be27f32b04abb35": {
+      "video/4nFViDASGhg@5166ba4c88b9db3f": {
         "verdict": "keep",
-        "reason": "Shows the new Sales Order Agent features and settings in 2025 release wave 2.",
-        "at": "2026-10-30T01:09:06.019Z",
+        "reason": "Covers new Sales Order Agent settings, including attachment analysis, custom instructions and review options.",
+        "at": "2026-11-10T00:54:11.463Z",
         "v": 2
       }
     },

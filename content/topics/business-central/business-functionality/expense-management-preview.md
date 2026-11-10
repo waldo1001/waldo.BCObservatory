@@ -2,81 +2,88 @@
 id: topic/business-central/business-functionality/expense-management-preview
 type: topic
 title: Expense management (preview)
-summary: Expense management (preview) in Business Central covers how employee expenses are set up, created, approved, posted and reimbursed, with or without the AI-powered Expense Agent. It answers setup, how-to, concept and troubleshooting questions.
+summary: Expense management (preview) in Business Central covers how employees submit work-related expenses, manually or with the AI-powered Expense Agent, and how they are approved, posted and reimbursed. It answers questions on setup, daily use, how the agent works, and troubleshooting.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-31T01:05:59.861Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-31T01:06:04.529Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 922282fe05179b7e2b60ba1a4f2ebe018b8e768b57c4e3ef16fd21ebd188962a
+  input_hash: 6e437465887144dec4fac07b8dc1537d8f2c888b02b23c3960812eccd6b43dc7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-approve-reports
-    title: Approve or Send Back Expense Reports
-    date: "2026-10-07"
+    title: Approve Expense Reports and Travel Requests
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-create-expenses
     title: Create and Manage Expenses in Business Central
-    date: "2026-09-26"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report
     title: Create and Submit Expense Reports
-    date: "2026-09-26"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-expense-reports
     title: Create and Submit Expense Reports in Expense Agent
-    date: "2026-10-07"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent
-    title: Expense Agent overview for Business Central
-    date: "2026-10-02"
+    url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-travel-requests
+    title: Create and Submit Travel Requests in Expense Agent
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview
     title: Expense Agent Overview for Business Central
-    date: "2026-10-02"
+    date: "2026-11-04"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent
+    title: Expense Agent Overview in Business Central
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-overview
     title: Expense Management Overview in Business Central
-    date: "2026-09-26"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent
     title: How the Expense Agent Processes Emails
-    date: "2026-10-02"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-travel-requisitions
     title: Manage Travel Requests in Business Central
-    date: "2026-09-26"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
@@ -97,14 +104,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/faqs-expense-agent
     title: Responsible AI FAQ for Expense Agent (preview)
-    date: "2026-10-02"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-approve-reports
     title: Review and Approve Expense Reports
-    date: "2026-09-24"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
@@ -118,28 +125,28 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page
     title: Set Up Expense Agent in Business Central
-    date: "2026-10-02"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-categories-rules
     title: Set Up Expense Categories, Rules, and Policies
-    date: "2026-09-25"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-setup
     title: Set Up Expense Management in Business Central
-    date: "2026-09-26"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-users-teams
     title: Set Up Expense Users and Teams
-    date: "2026-09-04"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
@@ -160,28 +167,28 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-troubleshoot
     title: Troubleshoot Expense Agent Issues
-    date: "2026-10-02"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance
     title: Understand Policy Compliance in Expense Agent
-    date: "2026-10-02"
+    date: "2026-10-07"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts
     title: Upload Receipts and Create Mileage Expenses
-    date: "2026-10-07"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-mobile-app
     title: Use the Expense Agent Mobile App (preview)
-    date: "2026-10-07"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
@@ -261,7 +268,7 @@ children:
   - topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent
   - topic/business-central/business-functionality/expense-management-preview/understand-expense-agent
 coverage:
-  learn: 24
+  learn: 25
   code: 49
   video: 0
   blog: 0
@@ -316,46 +323,47 @@ bc_forms:
   - 7130
   - 7136
   - 7137
-member_hash: f0085119afc405ebd69166284b4f29e83f38c720af663dbe7c06327d191a26a3
+member_hash: d04c27c4a8f88ed0b20057de88f00902ac43ee3682b8d40e7c55987d168a7bf3
 narrative: generated
 ---
 
 # Expense management (preview)
 
-> Expense management (preview) in Business Central covers how employee expenses are set up, created, approved, posted and reimbursed, with or without the AI-powered Expense Agent. It answers setup, how-to, concept and troubleshooting questions.
+> Expense management (preview) in Business Central covers how employees submit work-related expenses, manually or with the AI-powered Expense Agent, and how they are approved, posted and reimbursed. It answers questions on setup, daily use, how the agent works, and troubleshooting.
 
-Path: [Business functionality](../business-functionality.md) > Expense management (preview) · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Business functionality](../business-functionality.md) > Expense management (preview) · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Expense management (preview) lets employees record expenses and group them into expense reports. Reports go through a status workflow and approval, can include travel requests, handle VAT reclaim, are checked against rules and policies, and are posted to the general ledger. Expenses are categorized as refundable and reimbursable. The work can be done with or without Expense Agent.
+Expense management lets employees submit work-related expenses for reimbursement. They can enter expenses manually or use the AI-powered Expense Agent. The area supports approval workflows, VAT calculation and reclaim, per diem and mileage allowances, and travel requests.
 
-The pages fit together in four subtopics plus two pages in this section. Start with the overview page for the report workflow and key concepts. Then use "Set up expense management" for general settings, the Expense Agent, categories, rules and policies, users and teams, mileage rates, and per diem and mileage allowances. "Work with expenses in Business Central" covers the manual lifecycle from the expense card to the Payment Journal.
+The pages are split by task. The overview page introduces the concepts. One subtopic covers setup: activating Expense Agent, categories, rules and AI policies, users and teams, approvers, mileage rates and per diem. Two subtopics cover daily use: one for working with expenses in Business Central (reports, travel requests, approval, posting, reimbursement) and one for working with Expense Agent (receipt and mileage capture, review, approval, mobile app). A fourth subtopic explains what the agent does, how it handles email, how policy compliance works, and responsible AI considerations.
 
-For the agent, "Understand Expense Agent" explains what it does, how it processes emails, how policy compliance is checked, and its responsible AI limits. "Work with Expense Agent" covers daily use by employees and approvers. When something fails, the troubleshooting page covers sign-in, receipt upload, AI detection, policy violations, network errors, AI quota limits and posting failures.
+Start with the overview, then read the Understand Expense Agent pages if you plan to use the agent. Next, follow the setup pages before employees submit anything. The troubleshooting page covers sign-in, receipt uploads, policy violations, travel requests, validation failures and email processing.
 
 ## Key points
 
-- Expense reports follow a status workflow and approval workflows, then post to the general ledger.
-- Travel requests can be planned and compared, and VAT calculation and reclaim are supported.
-- Setup covers general settings, Expense Agent, categories, rules and policies, expense users and teams, mileage rates, and per diem and mileage allowances.
-- Manual processing covers creating expenses, travel requests, reports, review and approval, posting, and employee reimbursement through the Payment Journal.
-- Expense Agent is an AI agent that automates the lifecycle from receipt intake to draft expense reports.
-- Employees can upload receipts, create mileage expenses, edit expenses, and build and submit reports; approvers can approve or send reports back; a mobile app (preview) is available.
-- The conceptual section covers email processing, policy compliance checks and responsible AI limits.
-- The troubleshooting page covers sign-in failures, receipt upload problems, AI detection errors, policy violations, network errors, AI quota limits and posting failures.
+- The feature is in preview, and employees can submit expenses manually or through Expense Agent.
+- Expense Agent scans receipts, extracts data, categorizes expenses and drafts expense reports for review.
+- Setup covers agent activation, categories, rules and AI policies, expense users and teams, approvers, mileage rates and per diem allowances.
+- Expense reports and travel requests go through approval, then are posted to the general ledger and reimbursed.
+- VAT calculation and reclaim, per diem and mileage allowances are supported.
+- Expense Agent has a mobile app (preview) for employees and approvers.
+- The Understand section covers email handling, policy compliance and responsible AI considerations.
+- A troubleshooting page covers sign-in, receipt uploads, policy violations, travel requests, per diem, posting and email processing.
 
 ## Subtopics
 
 - [Set up expense management](expense-management-preview/set-up-expense-management.md) (6 pages)
 - [Work with expenses in Business Central](expense-management-preview/work-with-expenses-in-business-central.md) (6 pages)
-- [Work with Expense Agent](expense-management-preview/work-with-expense-agent.md) (6 pages)
+- [Work with Expense Agent](expense-management-preview/work-with-expense-agent.md) (7 pages)
 - [Understand Expense Agent](expense-management-preview/understand-expense-agent.md) (4 pages)
 
 ## More Learn pages
 
 - [Expense Management Overview in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-overview): Learn about expense management in Business Central, including how to capture expenses, create reports, get approvals, and post to the general ledger.
 - [Troubleshoot Expense Agent Issues](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-troubleshoot): Find solutions for common issues in Expense Agent, including sign-in problems, receipt upload failures, and policy violations.
+  - In the observatory: [Table 6935 "EA Scheduler Task"](../../../objects/table/6935.md)
 
 ## Business Central pages and reports
 

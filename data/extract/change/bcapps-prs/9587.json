@@ -13,15 +13,15 @@
     "service",
     "assembly"
   ],
-  "summary": "The posting process for General Ledger entries now supports concurrent processing, improving performance when posting multiple journal entries simultaneously across finance, purchasing, and sales modules.",
+  "summary": "Adds concurrent posting support for General Ledger entries. The change touches G/L posting codeunits, ledger entry and register tables, document posting codeunits, and related reports across many localization layers; the PR description gives no further detail.",
   "key_points": [
-    "Concurrent posting enabled for G/L Entry operations across multiple ledger types",
-    "Posting codeunits (Gen. Jnl.-Post Line, Gen. Jnl.-Post Batch) restructured to handle parallel execution",
-    "Register tables and detailed ledger entries updated to support concurrent inserts",
-    "Changes applied consistently across localization layers (APAC, BE, CH, DACH, ES, FI, FR)",
-    "Reports and utility codeunits adjusted to work with concurrent posting logic"
+    "Title states concurrent posting for General Ledger entries; description has no details",
+    "Modifies Gen. Jnl.-Post Line, Gen. Jnl.-Post Batch and Gen. Jnl.-Post Reverse",
+    "Touches G/L Entry, G/L Register, VAT Entry, bank, detailed customer/vendor/employee and FA ledger tables",
+    "Sales, purchase, service, transfer and assembly posting codeunits and several register and date compress reports are also changed",
+    "Applied across many localization layers (210 files)"
   ],
-  "change_kind": "performance",
+  "change_kind": "feature",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

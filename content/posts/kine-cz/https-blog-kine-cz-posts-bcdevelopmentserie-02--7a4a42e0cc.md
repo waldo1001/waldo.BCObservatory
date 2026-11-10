@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:56:09.637Z"
   flags: []
 generated:
-  at: "2026-10-28T08:47:18.430Z"
+  at: "2026-11-10T00:14:28.203Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -95,7 +95,7 @@ preview:
   image_h: null
   site_name: Kine's info
   favicon: https://blog.kine.cz/favicon.ico?v=1
-  probed_at: "2026-10-07T11:50:27.955Z"
+  probed_at: "2026-11-10T00:49:31.089Z"
 ---
 
 # Business Central Development Serie - Part 2: Using AI for BC development

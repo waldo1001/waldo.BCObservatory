@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T00:48:32.366Z"
+  at: "2026-11-10T00:45:19.588Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 01f1cc1e28ffe41e61d9d8606ee4ccc80467ec154ef38c1ccf92f006ce311226
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7178ca2892e28bbe28fb5d764d4d00dd2e762b35/src/Apps/W1/Quality%20Management/app/src/RoleCenters/QltyManager.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/d46542bef3883b9f0f55e85d7cdf99201b430348/src/Apps/W1/Quality%20Management/app/src/RoleCenters/QltyManager.Profile.al
     title: src/Apps/W1/Quality Management/app/src/RoleCenters/QltyManager.Profile.al (releases/29.x)
     date: null
-    commit: 7178ca2892e28bbe28fb5d764d4d00dd2e762b35
+    commit: d46542bef3883b9f0f55e85d7cdf99201b430348
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Profile "Qlty. Manager" in Quality Management (Microsoft.QualityManagement.RoleCenters). Introduced in BC29, still in BC30.
 
-Quality Management · Microsoft.QualityManagement.RoleCenters · captioned "Quality Manager" · BC29-30 · [source at 7178ca28](https://github.com/microsoft/BCApps/blob/7178ca2892e28bbe28fb5d764d4d00dd2e762b35/src/Apps/W1/Quality%20Management/app/src/RoleCenters/QltyManager.Profile.al) · facts from BC29
+Quality Management · Microsoft.QualityManagement.RoleCenters · captioned "Quality Manager" · BC29-30 · [source at d46542be](https://github.com/microsoft/BCApps/blob/d46542bef3883b9f0f55e85d7cdf99201b430348/src/Apps/W1/Quality%20Management/app/src/RoleCenters/QltyManager.Profile.al) · facts from BC29
 
 ## Properties
 

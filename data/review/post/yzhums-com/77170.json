@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/yzhums-com/77170",
+  "input_hash": "bb4a61bcc5af494a49f92a3a11a7764bd55457d41bbe928109e5788ef9af7c3a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-10T00:54:47.033Z",
+  "issues": [
+    "The key point about Edit with Copilot left out that the early access preview, from October 27, 2026, is open to partners. The point is rewritten.",
+    "The post does not cover the sales system area, so it is dropped.",
+    "AI agent configuration appears in the post as a service partners can offer, not as a product feature. It is dropped from features.",
+    "The pricing, the 300-seat limit, the $6 saving and the BC29 built-in Copilot all match the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 feature(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032016,
+    "posts_in_call": 2
+  }
+}

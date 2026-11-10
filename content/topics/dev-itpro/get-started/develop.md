@@ -11,7 +11,7 @@ review:
   at: "2026-10-30T08:08:26.399Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -251,7 +251,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-customization-update-lifecycle
     title: Update Lifecycle for Tenant Customizations
-    date: "2021-04-01"
+    date: "2026-11-05"
     commit: null
     t: null
     quote: null
@@ -357,7 +357,7 @@ After release, the lifecycle and maintenance pages explain how apps behave throu
 - [Maintain Marketplace apps and per-tenant extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-maintain): Learn about resources available to you as the publisher of an app or per-tenant extension for keeping your code in compliance with the base product.
 - [Microsoft's responsibilities for apps on Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/microsoft-responsibilities): Learn about what Microsoft does for your apps and your customers.
 - [The SMB opportunity for app publishers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher): Learn about the business opportunity we see for software companies in the SMB space if you build your solution on Dynamics 365 Business Central.
-- [Update Lifecycle for Tenant Customizations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-customization-update-lifecycle): Overview of the process of ensuring extension compatibility with update versions
+- [Update Lifecycle for Tenant Customizations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-customization-update-lifecycle): Learn how to keep per-tenant extensions compatible with Business Central online updates, receive validation notifications, and resolve update failures.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -213,7 +213,6 @@ links:
   localizations: []
   videos:
     - video/9g1vwaXmy2s
-    - video/fy96_jdL1PQ
   posts: []
   guidelines: []
 learn_toc_path:
@@ -227,7 +226,7 @@ children:
 coverage:
   learn: 14
   code: 84
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -360,7 +359,6 @@ Two subtopics cover Power BI. "Power BI and Business Central" explains getting d
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's Cooking in Business Central: Financial Report Scheduling](../../../videos/9g1vwaXmy2s.md) (video): "financial report scheduling; recurring schedules; export to excel"
-- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../videos/fy96_jdL1PQ.md) (video): "dashboards; scorecards; PowerBI Scorecards; Scorecards with conditional formatting"
 
 ## Business Central pages and reports
 

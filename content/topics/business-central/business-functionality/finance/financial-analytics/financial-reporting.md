@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -223,6 +223,7 @@ links:
     - video/adsSh_dm9BY
     - video/b54ehH4AlFA
     - video/Fs90uUdWi0M
+    - video/hS8yWS3bxWE
     - video/Oxfai-_UnTI
     - video/qj0VHB2Pmvc
     - video/RdYLc7ebNJ8
@@ -248,7 +249,7 @@ children: []
 coverage:
   learn: 20
   code: 34
-  video: 10
+  video: 11
   blog: 5
   guideline: 0
 bc_forms:
@@ -370,6 +371,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's Cooking in Business Central: Sneak Peek into New Financial Reporting Enhancements (part 1)](../../../../../videos/adsSh_dm9BY.md) (video): "financial reporting; report definitions; internal description"
 - [What's Cooking in Business Central: Financial Reporting Enhancements (part 2): Telemetry](../../../../../videos/b54ehH4AlFA.md) (video): "telemetry; financial reporting; application insights; row definitions"
 - [What's New: Financial Analytics (2025 release wave 2)](../../../../../videos/Fs90uUdWi0M.md) (video): "Dynamic date headers in financial reporting; Additional reporting currency support"
+- [What's New: Telemetry (2025 release wave 1)](../../../../../videos/hS8yWS3bxWE.md) (video): "Financial Reporting Usage Telemetry; Financial Reporting Definition Changes Telemetry"
 - [What’s New: Financial Reporting (for Administrators) (2025 release wave 1)](../../../../../videos/Oxfai-_UnTI.md) (video): "financial reporting; telemetry; audit; change log; permissions; financial report definitions"
 - [What's new: Enhanced Financial Reporting (2026 release wave 2)](../../../../../videos/qj0VHB2Pmvc.md) (video): "financial reporting; chart of accounts; account categories; row definitions"
 - [What’s New: Financial Reporting (for Report Users) (2025 release wave 1)](../../../../../videos/RdYLc7ebNJ8.md) (video): "financial reporting; user interface; negative number formatting; pdf export"

@@ -2,7 +2,7 @@
 id: post/dvlprlife-com/https-www-dvlprlife-com-2026-11-november-2026-cumulative-updates-for-dynamics-365-business-central--702bed97e1
 type: post
 title: November 2026 Cumulative Updates for Dynamics 365 Business Central
-summary: Microsoft released November 2026 cumulative updates for Dynamics 365 Business Central across versions 29.1, 28.7, and 27.13. Online customers will automatically upgrade to version 29.1 and should verify compatibility with their customizations before applying updates.
+summary: "Microsoft released the November 2026 cumulative updates for Business Central on-premises: 29.1 (2026 wave 2), 28.7 (2026 wave 1) and 27.13 (2025 wave 2). Online tenants will be moved to 29.1 automatically over the coming days or weeks, with an email notice. Before applying any update, check that your modifications are compatible and work with a partner to confirm readiness."
 tier: community
 language: en
 tags:
@@ -14,16 +14,16 @@ tags:
   - release wave 1
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-10T00:54:47.033Z"
   flags: []
 generated:
-  at: "2026-11-10T00:16:14.705Z"
+  at: "2026-11-10T00:14:28.203Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 52dab52ffbf525309ba2f11d269b2ea3f93cb1e284709a9e36ad988cfe4f46cd
+  input_hash: 12a1521f367a78e4016495dda7c8fb060d61e304278316fd479dfc631302b75b
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/11/november-2026-cumulative-updates-for-dynamics-365-business-central/
@@ -82,20 +82,20 @@ versions_mentioned:
 preview:
   embeddable: true
   frame_url: null
-  image: null
-  image_alt: null
-  image_w: null
-  image_h: null
-  site_name: null
-  favicon: null
-  probed_at: "2026-11-09T00:39:07.434Z"
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  image_alt: DvlprLife.com
+  image_w: 270
+  image_h: 270
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-11-10T00:49:24.184Z"
 ---
 
 # November 2026 Cumulative Updates for Dynamics 365 Business Central
 
-[Read the post](https://www.dvlprlife.com/2026/11/november-2026-cumulative-updates-for-dynamics-365-business-central/) · DvlprLife (Brad Prendergast) · 2026-11-09 · 139 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://www.dvlprlife.com/2026/11/november-2026-cumulative-updates-for-dynamics-365-business-central/) · DvlprLife (Brad Prendergast) · 2026-11-09 · 139 words · tier community · reviewed (checked by Opus)
 
-> Microsoft released November 2026 cumulative updates for Dynamics 365 Business Central across versions 29.1, 28.7, and 27.13. Online customers will automatically upgrade to version 29.1 and should verify compatibility with their customizations before applying updates.
+> Microsoft released the November 2026 cumulative updates for Business Central on-premises: 29.1 (2026 wave 2), 28.7 (2026 wave 1) and 27.13 (2025 wave 2). Online tenants will be moved to 29.1 automatically over the coming days or weeks, with an email notice. Before applying any update, check that your modifications are compatible and work with a partner to confirm readiness.
 
 ## Key points
 
@@ -111,7 +111,7 @@ preview:
 
 ## Context
 
-- Features: automatic online upgrades, cumulative updates, multi-version support
+- Features: automatic online upgrades, cumulative updates
 - Versions: 29.1, 28.7, 27.13, 2026 Release Wave 2, 2026 Release Wave 1, 2025 Release Wave 2
 
 Source: DvlprLife, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

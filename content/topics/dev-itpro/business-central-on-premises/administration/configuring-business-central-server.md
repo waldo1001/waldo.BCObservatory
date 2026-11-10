@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:56.619Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,8 +41,7 @@ links:
   topics:
     - topic/dev-itpro/business-central-on-premises/administration
   localizations: []
-  videos:
-    - video/KA1vHd1hITY
+  videos: []
   posts:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f
   guidelines: []
@@ -56,7 +55,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 1
+  video: 0
   blog: 1
   guideline: 0
 bc_forms: []
@@ -116,6 +115,5 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [How to Install Microsoft Dynamics 365 Business Central 29 On-Premises](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f.md) (community post): "configuring SQL Server and server instance, setting service ports"
-- [How to Install Business Central 29 On-Premises \| Full Setup](../../../../videos/KA1vHd1hITY.md) (video): "Business Central 29 On-Premises Installation; Service Port Configuration; SQL Server instance configuration"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

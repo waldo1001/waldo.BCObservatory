@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:55:18.848Z"
   flags: []
 generated:
-  at: "2026-10-07T22:55:18.896Z"
+  at: "2026-11-10T00:51:48.195Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,7 +80,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/578065
   topics: []
   localizations: []
   videos: []
@@ -114,10 +115,12 @@ chapters:
     title: Managing Email Accounts and Testing with Colleagues
 features:
   - name: Sales Order Agent
-    status: unclear
+    status: ga
     t: 5
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578065"
   - name: Email Account Integration
     status: unclear
     t: 90
@@ -200,11 +203,13 @@ The presenter sends a test email requesting a quote. The agent reads the email, 
 
 | Feature | Status | At |
 |---|---|---|
-| Sales Order Agent | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=5s) |
+| Sales Order Agent | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)), demoed | [0:05](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=5s) |
 | Email Account Integration | status not stated, demoed | [1:30](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=90s) |
 | Automatic Contact Creation from Email | status not stated, demoed | [2:25](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=145s) |
 | Payables Agent | status not stated | [0:05](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=5s) |
 | Email Accounts Management Page | status not stated, demoed | [3:07](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=187s) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

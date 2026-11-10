@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 61e2a4d07f1a0d5d0861caf2b89566311e9d4f58e240af3c6531aff87ef76f16
@@ -100,6 +100,8 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/11036
+    - change/bcapps/11160
     - change/bcapps/11260
 learn_toc_path:
   - Development
@@ -141,6 +143,8 @@ Path: [Development](../../development.md) > [Development environment](../develop
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11036 Ruleset hardening: promote four compatibility rules to Error](../../../../changes/bcapps/11036.md) (code change): "Four AL compatibility rules are promoted from warnings to errors"
+- [#11160 Ruleset hardening: promote three mechanical rules to Error](../../../../changes/bcapps/11160.md) (code change): "Ruleset hardening: promote three mechanical rules to Error"
 - [#11260 Ruleset hardening: promote four legacy warning rules to Error](../../../../changes/bcapps/11260.md) (code change): "Ruleset hardening: promote four legacy warning rules to Error"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

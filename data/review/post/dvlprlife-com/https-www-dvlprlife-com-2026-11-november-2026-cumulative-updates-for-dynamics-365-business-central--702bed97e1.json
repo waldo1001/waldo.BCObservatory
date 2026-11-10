@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/11/november-2026-cumulative-updates-for-dynamics-365-business-central/",
+  "input_hash": "546723fc9b39fe16b965ad01c5a475775c150b93be8d79afe011288602c84947",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-10T00:54:47.033Z",
+  "issues": [
+    "The summary made checking compatibility sound like it applies only to online customers. The post gives that advice to everyone applying the updates, so the summary is rewritten.",
+    "The feature 'multi-version support' is not something the post describes. It is dropped.",
+    "The key points, quotes, versions and systems match the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032016,
+    "posts_in_call": 2
+  }
+}

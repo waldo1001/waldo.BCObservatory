@@ -2,46 +2,46 @@
 id: topic/business-central/business-functionality/expense-management-preview/set-up-expense-management
 type: topic
 title: Set up expense management
-summary: Expense management (preview) setup in Business Central covers the general settings, the Expense Agent, categories, rules and policies, expense users and teams, mileage rates, and per diem and mileage allowances. Use it to answer questions about what to configure before employees submit and process expenses.
+summary: "Setup of expense management (preview) in Business Central: Expense Agent activation, categories, rules and AI policies, expense users and teams, approvers, mileage rates, and per diem allowances. It answers how to configure each part before employees submit expenses."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-06T15:20:30.221Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 3510cdbbf43f5f4aa8c485ab88405f521960c8d1bc6579eeb8cec114b22b0bfd
+  input_hash: 9479a08dfc96c383aa6739ce37506af392399d6356174fb9a4c7aa5978a16a8e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page
     title: Set Up Expense Agent in Business Central
-    date: "2026-10-02"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-categories-rules
     title: Set Up Expense Categories, Rules, and Policies
-    date: "2026-09-25"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-setup
     title: Set Up Expense Management in Business Central
-    date: "2026-09-26"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-users-teams
     title: Set Up Expense Users and Teams
-    date: "2026-09-04"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
@@ -135,37 +135,39 @@ narrative: generated
 
 # Set up expense management
 
-> Expense management (preview) setup in Business Central covers the general settings, the Expense Agent, categories, rules and policies, expense users and teams, mileage rates, and per diem and mileage allowances. Use it to answer questions about what to configure before employees submit and process expenses.
+> Setup of expense management (preview) in Business Central: Expense Agent activation, categories, rules and AI policies, expense users and teams, approvers, mileage rates, and per diem allowances. It answers how to configure each part before employees submit expenses.
 
-Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Set up expense management · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Set up expense management · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the configuration an administrator completes before employees can submit expenses. It starts with the general expense management setup and the Expense Agent setup. Together they handle submission channels, approval workflows, accounting defaults, policy evaluation and communication settings. Both are available through assisted setup.
+This section covers the configuration work needed before employees submit expenses. It starts with the Expense Agent, which is activated through guided assisted setup. There you set receipt submission channels (email and web app), accounting defaults, rules, policy compliance and communication settings.
 
-The remaining pages cover the master data the setup depends on. Expense categories, subcategories, groups, locations, rules and policies classify and validate expenses, with AI-assisted policy evaluation. Expense users link employees to the system with posting groups, and teams and approvers can be added if needed. Mileage rates and per diem and mileage allowances define how travel reimbursements are calculated.
+The other pages cover the supporting data. One page sets up categories, subcategories, groups, locations, rules and AI-evaluated policies, including withholding tax, VAT reclaim and per diem. One covers expense users and teams: linking employees, assigning posting groups, naming team managers and approvers. Two pages cover travel reimbursement: mileage rates by vehicle type, currency and date, and per diem and mileage allowances with their calculation methods.
 
-Mileage rates and per diem allowances are only needed if employees claim travel costs. Per diem rates depend on the expense locations defined with the categories.
+A good starting point is the general page on setting up expense management in Business Central. It gives the overall picture, including payment methods and posting groups. Then use the Expense Agent page for activation, and the more specific pages for users, categories and policies, and travel allowances.
 
 ## Key points
 
-- General expense management setup covers approval workflow, posting groups, payment methods, VAT reclaim, number series and notification preferences, and is available through assisted setup.
-- Expense Agent setup configures the email and web app submission channels, approval workflows, accounting defaults, receipt handling and policy compliance and evaluation.
-- Expense categories carry posting groups; subcategories allow itemization, groups support reporting, and locations hold per diem rates.
-- Expense rules can set conditions and amounts, and policies can include merchant requirements and restrictions, with AI-assisted policy evaluation.
-- Expense users are created by linking employees and assigning posting groups; teams, team managers and approvers are optional, and users can be imported from Microsoft Entra ID.
-- Mileage rates are defined by vehicle type, currency and effective dates, with fallback to a standard rate and automatic rate selection by date and vehicle.
-- Mileage calculation can double the distance for round trips.
-- Per diem uses location-based rates and calculation methods such as full calendar day, 24-hour rolling period and overnight stay, with partial day rules, meal reduction percentages and vehicle-specific mileage rates.
+- Expense Agent is configured and activated through guided assisted setup, covering receipt channels (email, web app), accounting defaults, rules, policy compliance and communication.
+- Expense categories, subcategories, groups, locations and rules classify and validate expenses; policies can use AI evaluation.
+- Tax-related setup includes withholding tax configuration and VAT reclaim.
+- Payment methods, employee posting groups and expense posting groups are part of the core setup.
+- Expense users are linked to employees, can be imported from Microsoft Entra ID, and are organized into teams with managers and approvers for the approval workflow.
+- Mileage rates are defined by vehicle type, currency and effective date, with fallback to a standard rate and round-trip distance doubling.
+- Rates are selected automatically by date and vehicle.
+- Per diem supports full calendar day, 24-hour rolling period and overnight stay methods, with partial day rules and meal reduction percentages.
 
 ## Learn pages
 
 - [Set Up Expense Agent in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page): Learn how to set up Expense Agent to automate expense tracking, processing, policy evaluation, and approval workflows in Business Central.
+  - In the observatory: [Page 4317 "Agent User Settings"](../../../../objects/page/4317.md)
 - [Set Up Expense Categories, Rules, and Policies](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-categories-rules): Learn how to create expense categories, subcategories, groups, rules, and AI-evaluated policies that control employee expenses in Business Central.
+  - In the observatory: [Page 6996 "Expense Agent Setup"](../../../../objects/page/6996.md)
 - [Set Up Expense Management in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-setup): Learn how to configure Expense Agent, policies, payment methods, posting groups, VAT reclaim, and approval workflows for expenses in Business Central.
   - In the observatory: [Page 6930 "Expense Payment Methods"](../../../../objects/page/6930.md), [Page 6939 "Expense Approval Setup"](../../../../objects/page/6939.md), [Page 6946 "Expense Categories"](../../../../objects/page/6946.md)
 - [Set Up Expense Users and Teams](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-users-teams): Learn how to create expense users, link them to employees, and organize them into teams for expense management in Business Central.
-  - In the observatory: [Page 9807 "User Card"](../../../../objects/page/9807.md)
+  - In the observatory: [Page 6910 "Expense Report"](../../../../objects/page/6910.md), [Page 9807 "User Card"](../../../../objects/page/9807.md)
 - [Set Up Mileage Rates for Expense Management](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-mileage-rate-setup): Configure mileage reimbursement rates by vehicle type, currency, and date range so Business Central applies the correct rate automatically.
 - [Set Up Per Diem and Mileage Allowances](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-per-diem-mileage): Learn how to configure per diem rates, mileage reimbursement, partial day rules, and meal reductions for expense management in Business Central.
   - In the observatory: [Page 6900 "Expense Management Rules"](../../../../objects/page/6900.md), [Page 6937 "Expense Locations"](../../../../objects/page/6937.md)

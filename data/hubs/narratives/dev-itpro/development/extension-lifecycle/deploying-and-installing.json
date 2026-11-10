@@ -1,35 +1,24 @@
 {
   "hub_id": "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing",
-  "input_hash": "10a64106af2dd85b9199412498116b2c5f36d68af9e5040d90398249c555b1ff",
-  "summary": "Deploying and installing covers how to publish, synchronize, install, upgrade, unpublish and uninstall Business Central extensions, plus writing install code and maintaining Marketplace apps and per-tenant extensions. It answers lifecycle and Marketplace offer submission questions.",
-  "overview": "This section covers the operational lifecycle of an extension after it is built. It explains how to publish an extension package to a server, synchronize it with the tenant database and install it, and how to write install code that runs on first install or reinstall.\n\nLater lifecycle steps have their own pages: upgrading Marketplace apps manually in production, removing extensions at three different levels (uninstall, unpublish, schema removal), and keeping apps and per-tenant extensions compatible with Business Central release cycles. A FAQ covers managing and submitting Marketplace offers through Partner Center.\n\nStart with Publishing and Installing an Extension for the basic flow, then Writing extensions installation code if you need setup logic. Use the maintenance and upgrade pages for production operations, and the FAQ for offer submission and validation questions.",
+  "input_hash": "022197fdc3f4f93517c57fda4c25c0c1de0f9e0316224e746e88e7e447522247",
+  "summary": "Deploying and installing covers how Business Central extensions are published, installed, upgraded, unpublished and uninstalled, plus how to write install code and keep Marketplace apps and per-tenant extensions current. It answers questions about cmdlet workflows, install triggers, upgrade steps and Partner Center offer management.",
+  "overview": "This section covers the lifecycle of an extension after it is built. The core workflow is publishing an extension package to a server, synchronizing it with the tenant database, and installing it. Install codeunits let you run logic when an extension is installed or reinstalled.",
   "key_points": [
-    "Publishing and installing uses the publish-navapp, sync-navapp and install-navapp cmdlets, or the Extension Management page.",
-    "Install code is written in install codeunits with OnInstallAppPerCompany and OnInstallAppPerDatabase triggers, and can detect fresh installs versus reinstalls.",
+    "Publishing and installing an extension uses the publish-navapp, sync-navapp and install-navapp cmdlets, or the extension management page.",
+    "Install code uses codeunits with OnInstallAppPerCompany and OnInstallAppPerDatabase triggers, and can detect fresh installs versus reinstalls.",
     "Removal has three levels: uninstall disables the extension on tenants, unpublish removes it from the server instance, and clean-mode synchronization deletes the database schema.",
-    "Marketplace apps in production can be upgraded manually through the Extension Management page or the Admin Center.",
-    "Partners must keep Marketplace apps and per-tenant extensions compatible with major releases, with defined update, grace and enforced update periods.",
-    "Maintenance support includes preview environments, prerelease bits, AppSourceCop analyzer rules and automated extension validation.",
-    "The offer FAQ covers the Partner Center submission process, Go Live, Review and publish, validation queuing and technical validation."
+    "Marketplace apps in production can be upgraded manually from the Extension Management page or the Admin Center.",
+    "Partners must keep Marketplace apps and per-tenant extensions compatible with Business Central release cycles, which include update, grace and enforced update periods for major releases.",
+    "Preview environments, prerelease bits, AppSourceCop analyzer rules and automated extension validation support compatibility testing.",
+    "The Partner Center FAQ explains the Go Live and Review and publish buttons, the validation queue, technical validation and marketing changes."
   ],
   "members_used": 6,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-30T01:11:01.100Z",
+  "at": "2026-11-10T00:56:44.445Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.016334
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-30T08:08:47.161Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the key point presenting the Extension Management page as an alternative ('or') to the publish/sync/install cmdlets is a light inference from the feature list. It is reasonable but not stated explicitly in the page summary."
-    ],
-    "input_hash": "10a64106af2dd85b9199412498116b2c5f36d68af9e5040d90398249c555b1ff",
-    "cost_usd": 0.027043199999999996
+    "cost_usd": 0.011671
   }
 }

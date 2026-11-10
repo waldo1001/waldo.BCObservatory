@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:33.447Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -427,6 +427,7 @@ links:
   videos:
     - video/198d9piIoE0
     - video/64_cQzp8BP4
+    - video/q9Q1fOA0818
     - video/sqjb_gsXqM8
   posts:
     - post/duiliotacconi-com/1457
@@ -462,7 +463,7 @@ children:
 coverage:
   learn: 75
   code: 99
-  video: 3
+  video: 4
   blog: 12
   guideline: 0
 bc_forms:
@@ -664,6 +665,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: How to distinguish Positive and Negative Adjustments from Item Journals vs. Physical Inventory Journals in Item Ledger Entries](../../../posts/yzhums-com/75164.md) (community post): "distinguish between positive and negative adjustments created from Item Journals"
 - [What's New: Reservation Worksheet and Fulfillment Suggestions (2023 release wave 2)](../../../videos/198d9piIoE0.md) (video): "Reservation Worksheet and Fulfillment Suggestions"
 - [What's New: Concurrent Inventory Posting (2025 release wave 1)](../../../videos/64_cQzp8BP4.md) (video): "Enable multiple users to post item ledger entries and value entries at the same time"
+- [Microsoft Dynamics 365 Business Central](../../../videos/q9Q1fOA0818.md) (video): "Inventory management optimization; Automated workflows; Real-time insights"
 - [What's New: Supply Chain Management - overview (2026 release wave 1)](../../../videos/sqjb_gsXqM8.md) (video): "Item Variants with Pictures and Attributes"
 
 ## Business Central pages and reports

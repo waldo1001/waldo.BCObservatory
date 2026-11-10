@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:13.090Z"
   flags: []
 generated:
-  at: "2026-10-25T12:53:09.600Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -88,8 +88,7 @@ links:
   topics:
     - topic/business-central/business-functionality/set-up-business-central/set-up-sales
   localizations: []
-  videos:
-    - video/5xeATIUFiGg
+  videos: []
   posts: []
   guidelines: []
   changes:
@@ -105,7 +104,7 @@ children: []
 coverage:
   learn: 7
   code: 7
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -161,7 +160,6 @@ A sensible order is general setup first, then contract types, packages and lines
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10477 [Bug Fix] #249: Raise populated ErrorInfo for Subscription Billing failures](../../../../../changes/bcapps/10477.md) (code change): "DisplayOrLogErrorFromBillingTemplate and DisplayOrLogErrorFromBillingLine"
-- [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../../../../../videos/5xeATIUFiGg.md) (video): "Setup configuration; posting groups; packages; item types; billing rhythm"
 
 ## Business Central pages and reports
 

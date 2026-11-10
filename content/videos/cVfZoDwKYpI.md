@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:16:41.310Z"
   flags: []
 generated:
-  at: "2026-10-30T08:03:27.657Z"
+  at: "2026-11-10T00:51:48.195Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -93,17 +93,6 @@ links:
   videos: []
   posts: []
   guidelines: []
-  related:
-    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report
-      title: Create and Submit Expense Reports
-      label: possibly related
-      why: names Page 6910 "Expense Report"
-      by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-post-reports
-      title: Post Expense Reports in Business Central
-      label: possibly related
-      why: names Page 6910 "Expense Report"
-      by: code
 video_id: cVfZoDwKYpI
 channel: yt-mibuso
 source_name: mibuso.com / BC TechDays
@@ -735,12 +724,5 @@ Not found in BC28-30: page "expense agent setup page", page "agent consumption p
 - [1:08:45](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=4125s) coming-later: pretty soon uh the expense users will also be able to attach a project from the web app as well. ...
 - [1:10:05](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=4205s) preview: this is a new and still in public preview
 - [1:12:00](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=4320s) coming-later: we are in US only. More regions will come next month
-
-## Possibly related
-
-No source states these links: they share an object, a model read them, or a person found the same subject.
-
-- [Create and Submit Expense Reports](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report) — possibly related: names Page 6910 "Expense Report"
-- [Post Expense Reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-post-reports) — possibly related: names Page 6910 "Expense Report"
 
 Presenters (as heard): Christian, Casim, Michael, Cyprin, Claus, Cloudu, Sepan, Kasim.

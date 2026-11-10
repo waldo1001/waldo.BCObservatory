@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:19.086Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -118,7 +118,8 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts
     - topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-datasets
   localizations: []
-  videos: []
+  videos:
+    - video/fy96_jdL1PQ
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-58-spotting-report-with-savevalues--5715116553
     - post/yzhums-com/72933
@@ -134,7 +135,7 @@ children:
 coverage:
   learn: 12
   code: 6
-  video: 0
+  video: 1
   blog: 2
   guideline: 0
 bc_forms:
@@ -187,6 +188,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [BC Friday Tips #58 Spotting Report with SaveValues](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-58-spotting-report-with-savevalues--5715116553.md) (community post): "The SaveValues property in Business Central reports remembers user-selected options on the request page"
 - [Business Central 2026 release wave 1 (BC28.1): Control the lifecycle of report layouts (Layout Status)](../../../posts/yzhums-com/72933.md) (community post): "Layout statuses control approval stages: Draft, Pending Approval, Approved, and Retired"
+- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../videos/fy96_jdL1PQ.md) (video): "reporting capabilities; training strategy; reporting technologies; power bi; dashboards"
 
 ## Business Central pages and reports
 

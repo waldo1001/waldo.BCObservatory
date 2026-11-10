@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13616",
+  "input_hash": "74d348c089b622541450ae24bf953e4fef1a5d22184f31d75b28f3c7922b8230",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-10T00:55:32.680Z",
+  "issues": [
+    "Title mentions Bank Account fields but description and page correctly describe SWIFT Code fields; page is supported"
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032909,
+    "changes_in_call": 6
+  }
+}

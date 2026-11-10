@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:53.461Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,7 +107,6 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo
   localizations: []
   videos:
-    - video/6zj34hjbpGU
     - video/Afv-r-eDt90
     - video/c3paEbmDNmM
     - video/Fk6kWTe3f2Y
@@ -117,7 +116,6 @@ links:
     - video/PrGBqzTDsLw
     - video/qmLVKyHRhNc
     - video/Rh1AFX9A1x4
-    - video/SHOAw9GehdI
     - video/ZpzZ6El8GXY
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257
@@ -139,7 +137,7 @@ children: []
 coverage:
   learn: 7
   code: 25
-  video: 12
+  video: 10
   blog: 9
   guideline: 0
 bc_forms:
@@ -219,17 +217,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: How to prevent users from adding fields/columns from related tables in analysis mode (Disable/Enable Add Related Fields)](../../../posts/yzhums-com/65708.md) (community post): "Analysis mode allows users to add fields from related tables for advanced data analysis"
 - [Dynamics 365 Business Central: Comparing Years (Year-Over-Year) in Analysis Mode: A Simple 4-Step Guide](../../../posts/yzhums-com/69961.md) (community post): "Analysis Mode allows users to create pivot tables and analysis views on list pages"
 - [Business Central 2026 release wave 1 (BC28): Support for packaging analysis views in extensions (Create analysis views via AL)](../../../posts/yzhums-com/71094.md) (community post): "Analysis views can now be packaged in AL extensions as .analysis.json files"
-- [How Business Central Integrates with Microsoft Excel (2025)](../../../videos/6zj34hjbpGU.md) (video): "Data analysis; edit in excel; publish changes; financial data"
 - [What's New: Enhanced Analysis Mode (2026 release wave 1)](../../../videos/Afv-r-eDt90.md) (video): "analysis mode; analysis views; al extensions; page extensions"
 - [What's New: Server and Database - New Reporting Capabilities (2023 release wave 2)](../../../videos/c3paEbmDNmM.md) (video): "Data Analysis on Queries; Analysis views on queries"
-- [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../../../videos/Fk6kWTe3f2Y.md) (video): "Ad hoc analysis mode; Analysis view dimensions and pivoting"
+- [Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)](../../../videos/Fk6kWTe3f2Y.md) (video): "Analysis views packaged in AL extensions; Copilot for Excel analysis design"
 - [Business Central v29: System Audit Fields Now Available in Analysis Mode](../../../videos/H7R_m8Ue38g.md) (video): "System audit fields in profile customization; Audit fields in analysis mode"
 - [What's Cooking in Business Central: Wanna Filter on Totals in Analysis Mode?](../../../videos/ijaOx9sSfkw.md) (video): "analysis mode; data analysis; filtering; totals; aggregated columns"
 - [What's Cooking in Business Central: Wanna Export Data to Excel in Analysis Mode?](../../../videos/N7RE_UVeH1c.md) (video): "Excel Export via Right-Click; Excel Export via Data Analysis Tab Menu"
 - [Profiling Your Customers](../../../videos/PrGBqzTDsLw.md) (video): "Teaching tips on query objects in analysis mode"
 - [Introducing: Analyze Data on Lists and Queries (2023 release wave 2)](../../../videos/qmLVKyHRhNc.md) (video): "Analyze data on list pages; Analyze data on query objects"
 - [What's New: Data Analysis (2025 release wave 1)](../../../videos/Rh1AFX9A1x4.md) (video): "analysis mode; related tables; data analysis; excel export; list pages"
-- [What's New: Data Analysis (2025 release wave 2)](../../../videos/SHOAw9GehdI.md) (video): "data analysis; analysis mode; copilot; analysis assist; pivot; date hierarchy"
 - [What's new: Data Analysis (2026 release wave 2)](../../../videos/ZpzZ6El8GXY.md) (video): "System fields in analysis mode; Bookmark analysis tab"
 
 ## Business Central pages and reports

@@ -3,21 +3,21 @@
     7,
     [
       1,
-      "7178ca2892e28bbe28fb5d764d4d00dd2e762b35",
+      "d46542bef3883b9f0f55e85d7cdf99201b430348",
       "4",
-      "7178ca2892e28bbe28fb5d764d4d00dd2e762b35",
+      "d46542bef3883b9f0f55e85d7cdf99201b430348",
       "4"
     ]
   ],
   "schema": "bcobs-field-docs@1",
   "major": "29",
   "stats": {
-    "tooltips": 18848,
-    "bound": 12785,
+    "tooltips": 18849,
+    "bound": 12786,
     "unparsed": 2990,
     "unmatched": 3073,
     "tables": 1084,
-    "fields": 8976
+    "fields": 8977
   },
   "tables": {
     "table/4": {
@@ -651,6 +651,11 @@
         "tooltip": "Specifies the number of Subscriptions that have been registered for the customer.",
         "page": "pageextension/8000",
         "control": "Service Objects"
+      },
+      "Use Reg. No. in E-Document": {
+        "tooltip": "Specifies whether the customer registration number is used to identify the customer in electronic documents when the GLN and VAT registration number are blank.",
+        "page": "pageextension/6163",
+        "control": "Use Reg. No. in E-Document"
       }
     },
     "table/21": {

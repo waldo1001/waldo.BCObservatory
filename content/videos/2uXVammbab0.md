@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:01:17.492Z"
   flags: []
 generated:
-  at: "2026-11-08T00:54:33.212Z"
+  at: "2026-11-10T00:51:48.195Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -76,8 +76,7 @@ links:
   learn: []
   objects:
     - object/page/9802
-  features:
-    - feature/573362
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -118,12 +117,10 @@ cautions:
       - "26"
 features:
   - name: Chat with Copilot
-    status: ga
+    status: unclear
     t: 4
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573362"
+    status_source: video
   - name: Citation controls and reference lists
     status: unclear
     t: 322
@@ -229,20 +226,20 @@ It also covers admin setup and context-aware features. Admins can manage Copilot
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Chat with Copilot | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [0:04](https://www.youtube.com/watch?v=2uXVammbab0&t=4s) |
-| Citation controls and reference lists | status not stated, demoed | [5:22](https://www.youtube.com/watch?v=2uXVammbab0&t=322s) |
-| Copilot and Agent Capabilities page | status not stated, demoed | [6:18](https://www.youtube.com/watch?v=2uXVammbab0&t=378s) |
-| Copilot permission set | status not stated, demoed | [6:45](https://www.youtube.com/watch?v=2uXVammbab0&t=405s) |
-| Inventory search by price and category | status not stated, demoed | [7:37](https://www.youtube.com/watch?v=2uXVammbab0&t=457s) |
-| Analysis tabs generation | status not stated, demoed | [9:20](https://www.youtube.com/watch?v=2uXVammbab0&t=560s) |
-| Contextual page capabilities | status not stated, demoed | [10:45](https://www.youtube.com/watch?v=2uXVammbab0&t=645s) |
-| Suggest item substitutes | status not stated, demoed | [10:45](https://www.youtube.com/watch?v=2uXVammbab0&t=645s) |
-| Prompt guide | status not stated, demoed | [11:46](https://www.youtube.com/watch?v=2uXVammbab0&t=706s) |
-| Documentation search including local functionality | status not stated, demoed | [12:11](https://www.youtube.com/watch?v=2uXVammbab0&t=731s) |
+Every feature below: status not stated, demoed.
 
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
+| Feature | At |
+|---|---|
+| Chat with Copilot | [0:04](https://www.youtube.com/watch?v=2uXVammbab0&t=4s) |
+| Citation controls and reference lists | [5:22](https://www.youtube.com/watch?v=2uXVammbab0&t=322s) |
+| Copilot and Agent Capabilities page | [6:18](https://www.youtube.com/watch?v=2uXVammbab0&t=378s) |
+| Copilot permission set | [6:45](https://www.youtube.com/watch?v=2uXVammbab0&t=405s) |
+| Inventory search by price and category | [7:37](https://www.youtube.com/watch?v=2uXVammbab0&t=457s) |
+| Analysis tabs generation | [9:20](https://www.youtube.com/watch?v=2uXVammbab0&t=560s) |
+| Contextual page capabilities | [10:45](https://www.youtube.com/watch?v=2uXVammbab0&t=645s) |
+| Suggest item substitutes | [10:45](https://www.youtube.com/watch?v=2uXVammbab0&t=645s) |
+| Prompt guide | [11:46](https://www.youtube.com/watch?v=2uXVammbab0&t=706s) |
+| Documentation search including local functionality | [12:11](https://www.youtube.com/watch?v=2uXVammbab0&t=731s) |
 
 ## AL objects mentioned
 

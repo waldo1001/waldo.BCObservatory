@@ -2,7 +2,7 @@
 id: topic/business-central/copilot-and-agent-capabilities
 type: topic
 title: Copilot and agent capabilities
-summary: "Copilot and agent capabilities in Business Central: an overview of the AI features, country/region and language availability, the Copilot FAQ, and Advanced Tell Me. Subtopics cover administration, each Copilot feature and each agent (Payables, Sales Order, Expense). Use it for questions on what a feature does, how to set it up and use it, and its limits."
+summary: "Copilot and agent capabilities in Business Central: overview, country/region and language availability, Copilot FAQ, Advanced Tell Me, and subtopics for each Copilot feature and agent. It answers what each feature does, how to set it up and use it, how to administer it, and what its limits are."
 tier: official
 language: en
 system: copilot
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: a0f5e051de7221a95186be84fa50f4219cdecf4738584394972cebe785e93b64
+  input_hash: 4282a294e5360647c9331bca5cd99791c3b71c280b7ca6b974f6a4c372ad9de4
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/item-marketing-text
@@ -48,8 +48,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-approve-reports
-    title: Approve or Send Back Expense Reports
-    date: "2026-10-07"
+    title: Approve Expense Reports and Travel Requests
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
@@ -105,7 +105,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-expense-reports
     title: Create and Submit Expense Reports in Expense Agent
-    date: "2026-10-07"
+    date: "2026-11-04"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-travel-requests
+    title: Create and Submit Travel Requests in Expense Agent
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
@@ -117,16 +124,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent
-    title: Expense Agent overview for Business Central
-    date: "2026-10-02"
+    url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview
+    title: Expense Agent Overview for Business Central
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview
-    title: Expense Agent Overview for Business Central
-    date: "2026-10-02"
+    url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent
+    title: Expense Agent Overview in Business Central
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
@@ -189,7 +196,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent
     title: How the Expense Agent Processes Emails
-    date: "2026-10-02"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
@@ -291,13 +298,6 @@ evidence:
     commit: null
     t: null
     quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-tax-matching
-    title: Set up and use Shopify Tax Matching
-    date: "2026-10-07"
-    commit: null
-    t: null
-    quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/ai-in-bc
@@ -394,7 +394,7 @@ children:
   - topic/business-central/copilot-and-agent-capabilities/suggest-number-series-preview
   - topic/business-central/copilot-and-agent-capabilities/summarize-preview
 coverage:
-  learn: 54
+  learn: 55
   code: 35
   video: 8
   blog: 2
@@ -435,34 +435,34 @@ bc_forms:
   - 9309
   - 9310
   - 9311
-member_hash: a40603fae7e682f82346e345add0423738c6bb772fb0f536dfea2d3f5e16dcaa
+member_hash: 0a01e25dacff814bf56e43aab1b9ef5fc4ac9a13da4e2569f52b38e5b6d3ca6f
 narrative: generated
 ---
 
 # Copilot and agent capabilities
 
-> Copilot and agent capabilities in Business Central: an overview of the AI features, country/region and language availability, the Copilot FAQ, and Advanced Tell Me. Subtopics cover administration, each Copilot feature and each agent (Payables, Sales Order, Expense). Use it for questions on what a feature does, how to set it up and use it, and its limits.
+> Copilot and agent capabilities in Business Central: overview, country/region and language availability, Copilot FAQ, Advanced Tell Me, and subtopics for each Copilot feature and agent. It answers what each feature does, how to set it up and use it, how to administer it, and what its limits are.
 
 Path: Copilot and agent capabilities · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is the entry point for AI in Business Central. The Business Central AI page gives an overview of the Copilot and agent features across finance, inventory, sales and company setup, including chat, analysis assist, summarize, autofill, Payables Agent, Expense Agent, bank reconciliation assist and Sales Order Agent. The Copilot FAQ explains that Copilot is included with Business Central licenses, works online only, respects user data permissions, supports web search and can be extended by developers.
+This section covers the AI features of Business Central. The own pages give the big picture. Business Central AI lists the features across finance, inventory, sales and company setup. The Copilot FAQ explains licensing, permissions and online-only availability. The availability page shows which features work in which country/region and language. A Responsible AI FAQ covers Advanced Tell Me, the semantic search in the Tell Me pane.
 
-Availability pages come next. One page lists which features are supported in which country/region versions and languages. Factors include Azure infrastructure, compliance and language model quality. A responsible AI FAQ covers Advanced Tell Me, a semantic search enhancement for finding pages, reports and queries.
+The subtopics split into two groups. Copilot features work inside pages: Analysis assist, Autofill, Summarize, Bank account reconciliation assist, Marketing text suggestions, Sales line suggestion, Suggest item substitutions, Suggest number series, Shopify tax matching, Map E-Documents, and the read-only Microsoft Copilot chat. Agents work more autonomously: Payables Agent, Sales Order Agent and Expense Agent. Many pages are marked preview.
 
-Each subtopic covers one feature or agent, usually with a how-to page and a FAQ or responsible AI page. Start with Business Central AI and the availability page. Then go to "Manage Copilot and agent capabilities" for admin control, and to the subtopic for the feature you need. Many features are marked preview.
+Start with Business Central AI and the availability page to see what applies to your region. Then use Manage Copilot and agent capabilities to activate features and set permissions, and open the subtopic of the feature you need.
 
 ## Key points
 
-- Business Central AI lists the Copilot and agent features, with 2025 release wave 2 noted on that page.
-- Copilot is included with Business Central licenses, is available only online, and respects user data permissions.
-- Feature availability varies by country/region version, data location and language.
-- Admin topics: the Copilot & agent capabilities page, feature activation, user permissions, cross-geography data movement, Bing Search and Azure OpenAI data handling.
-- Three agents are covered: Payables Agent (vendor invoices and credit notes from email), Sales Order Agent (customer emails to quotes and orders) and Expense Agent (preview).
-- Copilot features include analysis assist, autofill, summarize, bank account reconciliation assist, marketing text suggestions, sales line suggestions, item substitutions, number series suggestions and Shopify tax matching.
-- Map E-Documents is deprecated and replaced by the Payables Agent.
-- Advanced Tell Me adds semantic search with synonyms and acronyms in an Advanced tab of the Tell Me pane.
+- Copilot is included with Business Central licenses, is available only online, and respects user data permissions (Copilot FAQ).
+- Availability depends on country/region version, data location and language; check the availability page before planning rollout.
+- Admins manage features on the Copilot & agent capabilities page: activation, user permissions, cross-geography data movement, Bing Search, and Azure OpenAI data handling.
+- Agents: Payables Agent processes vendor invoices and credit notes from email; Sales Order Agent turns customer emails into quotes and orders; Expense Agent (preview) handles receipts, expense reports and travel requests.
+- In-page Copilot features include Analysis assist, Autofill, Summarize, bank reconciliation assist, marketing text, sales line suggestions, item substitutions and number series suggestions.
+- Shopify tax matching (preview) maps tax descriptions on imported US orders to tax jurisdictions, set up per shop.
+- Map E-Documents (preview) is deprecated and replaced by the Payables Agent.
+- Advanced Tell Me adds semantic search with synonyms and acronyms through an Advanced tab in the Tell Me pane.
 
 ## Subtopics
 
@@ -470,7 +470,7 @@ Each subtopic covers one feature or agent, usually with a how-to page and a FAQ 
 - [Analysis assist](copilot-and-agent-capabilities/analysis-assist.md) (2 pages)
 - [Autofill (preview)](copilot-and-agent-capabilities/autofill-preview.md) (2 pages)
 - [Bank account reconciliation assist](copilot-and-agent-capabilities/bank-account-reconciliation-assist.md) (2 pages)
-- [Expense Agent (preview)](copilot-and-agent-capabilities/expense-agent-preview.md) (10 pages)
+- [Expense Agent (preview)](copilot-and-agent-capabilities/expense-agent-preview.md) (11 pages)
 - [Microsoft Copilot in Business Central (preview)](copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr.md) (4 pages)
 - [Map E-Documents (preview)](copilot-and-agent-capabilities/map-e-documents-preview.md) (2 pages)
 - [Marketing text suggestions](copilot-and-agent-capabilities/marketing-text-suggestions.md) (3 pages)

@@ -1,37 +1,24 @@
 {
   "hub_id": "topic/business-central/business-functionality/expense-management-preview/work-with-expenses-in-business-central",
-  "input_hash": "a0e57150338a859582b6c9756c6dd474fe92ff9153deb4e0697fc95af3592dc7",
-  "summary": "Expense management (preview) in Business Central covers the full expense lifecycle: creating expenses, travel requests, expense reports, review and approval, posting, and employee reimbursement. It answers how-to questions about each step, from the expense card to the Payment Journal.",
-  "overview": "This section walks through the expense process in the order it is used. An employee creates individual expenses (with receipts, itemizations, participants, mileage or per diem), optionally records a travel request for approval before travelling, then collects expenses into an expense report and submits it.\n\nAfter submission, managers and accountants review the report against policy rules and VAT reclaim rules and approve it. The approved report is then posted to the general ledger after a posting preview and VAT reclaim check. The last step is to reimburse the employee through the Payment Journal.\n\nStart with the page on creating and managing expenses if you are setting up the employee side. Start with the review and approve page or the posting page if you work in finance. The travel request page covers planning and comparing planned against actual spending.",
+  "input_hash": "0f84a5ae32904f4330b821bf4c88dd6f67609d3cbd65b88ade7d8201e510169a",
+  "summary": "Expense management (preview) in Business Central covers the full expense flow: recording expenses, building and submitting expense reports, travel requests, approval, posting to the general ledger, and reimbursing employees. It answers how-to questions for employees, managers, and accountants.",
+  "overview": "This section follows an expense from creation to reimbursement. Employees record individual expenses with amount, date, category, and receipts, and can use itemization, participant tracking, mileage, and per diem. Expenses are then grouped into an expense report, which is released and submitted for approval. Travel requests can be created before the trip to review planned costs and then linked to the report.\n\nManagers and accountants review submitted reports using Expense Agent or approval workflows. They can approve, reject, or assign interim approvers, and they check rule violations and VAT reclaim decisions. Approved reports are posted to the general ledger after a preview, and employees are reimbursed through the Payment Journal.\n\nStart with \"Create and Manage Expenses\" if you are an employee, or \"Review and Approve Expense Reports\" if you approve. Accountants will mainly need the posting and reimbursement pages.",
   "key_points": [
-    "Expenses are created on an expense card with category, date, receipt attachment and preview, and itemizations with subcategories.",
-    "Special expense types include business meals with participants, mileage with vehicle types, and per diem calculated by location.",
-    "Expense reports are created, filled with expense lines, checked for rule violations, optionally linked to a travel request, and released for approval.",
-    "Travel requests record planned travel and costs for review and approval before expenses are incurred. They cover status tracking, travel policy acknowledgment, international travel, and linking to expense reports to compare spending. The travel requests page is tied to version 29.",
-    "Reviewers handle approval and policy rule violations, plus a separate VAT reclaim review and VAT specification approval, with access to receipts and report statistics.",
-    "Posting previews entries and verifies VAT reclaim status, then creates expense, employee, general ledger and project ledger entries.",
-    "Reimbursement is made through the Payment Journal against employee accounts, with foreign currency, withholding tax, payment reconciliation and reimbursement notifications supported."
+    "Individual expenses capture amount, date, category, and receipts, with itemization, participant tracking, mileage, and per diem support.",
+    "Expense reports group related expenses into one document that is released and submitted for approval; rule violations can be reviewed before submission.",
+    "Travel requests record purpose, travelers, dates, estimated costs (by category or lump sum), and travel policy acknowledgment, and can be linked to expense reports to compare actual and expected spending.",
+    "Approval can run through Expense Agent or approval workflows, with options to approve, reject, or assign interim approvers.",
+    "Accountants validate VAT reclaim decisions before posting.",
+    "Posting offers a preview and produces expense, employee, general ledger, and project ledger entries.",
+    "Reimbursement is made through the Payment Journal against employee accounts, with foreign currency and withholding tax support, payment reconciliation, and reimbursement notifications."
   ],
   "members_used": 6,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-06T14:23:15.480Z",
+  "at": "2026-11-10T00:56:52.122Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.040375
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-06T15:20:22.971Z",
-    "verdict": "fix",
-    "issues": [
-      "Key point 4 ends with 'the summary cites version 29', which leaks the source summaries into the narrative and reads as meta commentary. It now says the travel requests page is tied to version 29, without claiming a status.",
-      "Everything else checks out against the page summaries: the preview label (from the TOC path), the expense card features, the report workflow, the review and VAT reclaim steps, the posting entries, and reimbursement through the Payment Journal.",
-      "The overview and summary stay unchanged."
-    ],
-    "input_hash": "a0e57150338a859582b6c9756c6dd474fe92ff9153deb4e0697fc95af3592dc7",
-    "cost_usd": 0.09348320000000002
+    "cost_usd": 0.013325
   }
 }

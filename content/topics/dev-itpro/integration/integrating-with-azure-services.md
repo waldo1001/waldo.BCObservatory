@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:15.779Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -72,6 +72,7 @@ links:
     - post/demiliani-com/12002
     - post/demiliani-com/12292
     - post/demiliani-com/12313
+    - post/demiliani-com/13657
     - post/demiliani-com/17492
     - post/jpearson-blog/1485
     - post/jpearson-blog/1535
@@ -89,7 +90,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 9
+  blog: 10
   guideline: 0
 bc_forms: []
 member_hash: 5f81750627e96a1b61a6b2522a5843d9ff2fca65b2e2e1fb45389ef056851762
@@ -158,6 +159,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Azure Logic Apps: are you handling large blobs? Keep memory usage under control.](../../../posts/demiliani-com/12002.md) (community post): "Built-in Azure Logic Apps connectors load entire files into memory"
 - [Azure Logic Apps: Built-in vs Managed Azure Blob Storage Connector.](../../../posts/demiliani-com/12292.md) (community post): "Azure Logic Apps: Built-in vs Managed Azure Blob Storage Connector"
 - [Can I use AI to create and deploy an Azure Logic Apps with Business Central connector?](../../../posts/demiliani-com/12313.md) (community post): "AI successfully created and deployed an Azure Logic App with HTTP trigger"
+- [Azure Blob Storage: optimize costs and performance with the new Smart Tier option.](../../../posts/demiliani-com/13657.md) (community post): "Azure Blob Storage; cloud storage; cost optimization; data tiering"
 - [Securing your Azure Storage Account: a guide to enabling Business Central-only access using Network Security Perimeter (part2) – now with Service Tags.](../../../posts/demiliani-com/17492.md) (community post): "restrict an Azure Storage Account to Business Central traffic by choosing the Dynamics365BusinessCentral service tag"
 - [Calling Business Central APIs Without a Client Secret](../../../posts/jpearson-blog/1485.md) (community post): "Managed identities assigned to Azure resources can obtain access tokens without needing client secrets"
 - [Calling Business Central Directly from a Managed Identity](../../../posts/jpearson-blog/1535.md) (community post): "Managed identities can be granted Business Central API permissions directly via PowerShell without requiring federated credentials"

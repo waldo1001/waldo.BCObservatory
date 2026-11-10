@@ -12,7 +12,7 @@ review:
   at: "2026-11-09T00:45:18.470Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -324,8 +324,6 @@ links:
     - post/yzhums-com/69394
   guidelines: []
   changes:
-    - change/al-go/2433
-    - change/al-go/2440
     - change/bcapps/12307
     - change/bcapps/9869
 learn_toc_path:
@@ -399,8 +397,6 @@ Start with the supported upgrade paths page to find the route from your source v
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#2433 Fix workspace compilation with versioning strategy 3](../../../changes/al-go/2433.md) (code change): "versioning strategy 3 workspace compilation was failing"
-- [#2440 Sort artifacts by creation time when determining latest artifacts for release](../../../changes/al-go/2440.md) (code change): "sorts artifacts by creation time when determining latest"
 - [#12307 Make UpgradeDefaultDimensions ParentId backfill set-based (via DataTransfer)](../../../changes/bcapps/12307.md) (code change): "UpgradeDefaultDimensions procedure now uses set-based DataTransfer operations"
 - [#9869 Fix MS Doc for parameter TagCompanyName of method SetSkippedUpgrade(...)](../../../changes/bcapps/9869.md) (code change): "SetSkippedUpgrade method in the Upgrade Tag codeunit"
 - [Dynamics 365 Business Central license keys: what changes from version 28.](../../../posts/demiliani-com/17470.md) (community post): "requiring administrators to download a refreshed license file before each version upgrade"

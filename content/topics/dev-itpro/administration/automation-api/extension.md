@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: edd07398767903bf2fc94f34ef0b09ff192bc35ad817a8916f5df292c1ac4ce0
@@ -82,6 +82,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11319 [MCP] Allow setting default configuration from card](../../../../changes/bcapps/11319.md) (code change): "Allow setting default configuration from card"
 - [#9569 Enforce permissions when reviewing orphaned extension data](../../../../changes/bcapps/9569.md) (code change): "Permission checks now consistently apply when marking orphaned extension data"
-- [Business Central 29: Manage Per-Tenant Extensions from the Admin Center](../../../../posts/thinkaboutit-be/8313.md) (community post): "Per-Tenant Extension PTE management to the Admin Center, allowing administrators to upload, install, update"
+- [Business Central 29: Manage Per-Tenant Extensions from the Admin Center](../../../../posts/thinkaboutit-be/8313.md) (community post): "Per-Tenant Extension management to the Admin Center, allowing administrators to upload"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

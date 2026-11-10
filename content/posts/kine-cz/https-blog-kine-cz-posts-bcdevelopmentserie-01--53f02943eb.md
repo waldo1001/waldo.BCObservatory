@@ -21,7 +21,7 @@ review:
   at: "2026-10-08T01:56:31.818Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-10T00:14:28.203Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -75,7 +75,7 @@ preview:
   image_h: null
   site_name: Kine's info
   favicon: https://blog.kine.cz/favicon.ico?v=1
-  probed_at: "2026-10-07T11:50:30.670Z"
+  probed_at: "2026-11-10T00:49:32.885Z"
 ---
 
 # Business Central Development Serie - Part 1: Introduction

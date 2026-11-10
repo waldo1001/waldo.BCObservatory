@@ -2,12 +2,12 @@
   "inputs": [
     7,
     [
-      "7178ca2892e28bbe28fb5d764d4d00dd2e762b35",
+      "d46542bef3883b9f0f55e85d7cdf99201b430348",
       "4",
       9476,
-      "7178ca2892e28bbe28fb5d764d4d00dd2e762b35",
+      "d46542bef3883b9f0f55e85d7cdf99201b430348",
       "4",
-      6953
+      6954
     ]
   ],
   "schema": "al-relations@1",
@@ -113136,6 +113136,11 @@
     {
       "s": "tableextension/6173",
       "t": "table/79",
+      "k": "extends"
+    },
+    {
+      "s": "tableextension/6174",
+      "t": "table/18",
       "k": "extends"
     },
     {
@@ -293883,7 +293888,7 @@
   "stats": {
     "runs_on": 737,
     "unresolved_unknown": 1492,
-    "extends": 1832,
+    "extends": 1833,
     "source_table": 3618,
     "card_page": 318,
     "lookup_page": 821,
@@ -293893,7 +293898,7 @@
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
     "subscribes": 5179,
-    "edges": 20568,
+    "edges": 20569,
     "published_events": 26312,
     "dead_events": 22497
   }

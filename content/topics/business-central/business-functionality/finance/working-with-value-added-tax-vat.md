@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:01:48.839Z"
   flags: []
 generated:
-  at: "2026-11-01T00:45:11.847Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -222,6 +222,7 @@ links:
     - change/bcapps/11206
     - change/bcapps/11435
     - change/bcapps/11493
+    - change/bcapps/11502
     - change/bcapps/11632
     - change/bcapps/11736
     - change/bcapps/12119
@@ -380,6 +381,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11206 [CH] When posting with FCY, VAT G/L Entry stores VAT base amount in Source Currency Amount instead of VAT amount](../../../../changes/bcapps/11206.md) (code change): "VAT G/L Entry stores VAT base amount in Source Currency Amount"
 - [#11435 Validate unauthenticated public API responses before use](../../../../changes/bcapps/11435.md) (code change): "Unauthenticated external API responses are now validated for size, schema, and integrity before being used in tax and financial processing"
 - [#11493 [29.X]-VAT Settlement G/L Entries Do Not Populate Source Currency Amount and Source VAT Currency Amount After Running Calculate and Post VAT Settlement](../../../../changes/bcapps/11493.md) (code change): "Calc. and Post VAT Settlement report now fills in Source Currency Amount"
+- [#11502 feat: Add new event](../../../../changes/bcapps/11502.md) (code change): "New integration event in VAT Date Handler CZL CheckVATDateCZL"
 - [#11632 [29.X]-Source Currency Amount calculation causes discrepancies with Foreign Currency G/L Entries whit Reversal Charge VAT.](../../../../changes/bcapps/11632.md) (code change): "G/L entries in a foreign currency with reverse charge VAT"
 - [#11736 [29.x][VIES Integration] Per-environment daily request rate-limit](../../../../changes/bcapps/11736.md) (code change): "VAT Registration Number lookups against the EU VIES service"
 - [#12119 Fixing an APAC-specific issue with applying a posted sales credit memo when using unrealized VAT (GST)](../../../../changes/bcapps/12119.md) (code change): "An infinite loop when applying a posted sales credit memo with unrealized VAT (GST)"

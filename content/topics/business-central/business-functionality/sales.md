@@ -12,7 +12,7 @@ review:
   at: "2026-11-07T01:06:35.638Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -471,6 +471,7 @@ links:
     - topic/business-central/business-functionality/sales/subscription-billing
   localizations: []
   videos:
+    - video/cwCZUHgDb9Q
     - video/e5Dr3jzCLM8
     - video/fatcqVFrTXI
     - video/fdP1HKBEDjA
@@ -558,7 +559,7 @@ children:
 coverage:
   learn: 133
   code: 138
-  video: 6
+  video: 7
   blog: 22
   guideline: 0
 bc_forms:
@@ -807,7 +808,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12461 [29.x][ALL-E] Item charge assignment update Error on sales order when there is no Price. "Sorry, we just updated this page. Reopen it and try again." when running in SaaS](../../../changes/bcapps/12461.md) (code change): "Item charge assignment on sales orders now refreshes record set after bulk updates"
 - [#12551 [Main]- Since Business Central 28.4, we have observed changed behaviour when the VAT Prod.](../../../changes/bcapps/12551.md) (code change): "Fixes a regression in Sales Line behaviour related to the VAT Prod. field"
 - [#12552 [29.x]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/12552.md) (code change): "Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code"
-- [#12554 [Main] - User encounters a "record is not open" error when attaching a document to a posted sales shipment in Dynamics 365 (Base Application v28)](../../../changes/bcapps/12554.md) (code change): "Document attachment uploads now work correctly for posted sales shipments and return receipts"
+- [#12554 [Main] - User encounters a "record is not open" error when attaching a document to a posted sales shipment in Dynamics 365 (Base Application v28)](../../../changes/bcapps/12554.md) (code change): "User encounters a "record is not open" error when attaching a document to a posted sales shipment"
 - [#12806 [main] Closing the BC browser tab during quote-to-order reservation leaves a partial sales order and the source quote](../../../changes/bcapps/12806.md) (code change): "Converting a sales quote to an order now holds off reservation until all quote lines have been copied"
 - [#12982 [29x][All-e]Since Business Central 28.4, we have observed changed behaviour when the VAT Prod](../../../changes/bcapps/12982.md) (code change): "Fixes changed VAT behavior affecting Sales Lines since BC 28.4"
 - [#13417 [Master]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo.](../../../changes/bcapps/13417.md) (code change): "Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice"
@@ -853,6 +854,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 1 (BC28): Filter receipt and shipment lines to quickly find documents you want to invoice (New filters on the Get Receipt Lines, Get Shipment Lines, and Get Service Shipment Lines pages)](../../../posts/yzhums-com/71648.md) (community post): "Get Shipment Lines, and Get Service Shipment Lines pages to help users"
 - [Dynamics 365 Business Central: Searches for duplicate external document numbers in sales documents and posted documents (Standard function/procedure)](../../../posts/yzhums-com/74940.md) (community post): "searches for duplicate external document numbers in sales documents and posted documents"
 - [Dynamics 365 Business Central: How to add a Signature Pad to the Sales Order page (Capture and Save Customer Signatures)](../../../posts/yzhums-com/75073.md) (community post): "Adding a signature pad to the Sales Order page in Business Central"
+- [Tips and Tricks for Better Pasting with Magic Page for Business Central](../../../videos/cwCZUHgDb9Q.md) (video): "Magic Paste bulk customer creation; Magic Paste key-based record updates"
 - [Introducing: Shopify and Dynamics 365 Business Central (2023)](../../../videos/e5Dr3jzCLM8.md) (video): "Automatic order fulfillment; financial visibility and reporting"
 - [Comparing Entering Receivables Transactions in Dynamics SL to Dynamics 365 Business Central](../../../videos/fatcqVFrTXI.md) (video): "Sales invoice entry in Business Central"
 - [Comparing entering Receivables Transactions in Dynamics GP to Dynamics 365 Business Central (2024)](../../../videos/fdP1HKBEDjA.md) (video): "Sales invoices document in Business Central"

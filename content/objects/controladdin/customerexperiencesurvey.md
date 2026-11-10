@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T00:48:32.366Z"
+  at: "2026-11-10T00:45:19.588Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a4e40884c709fb2e34581d0243867f1428a72b35989528e02f5f4f890eacee04
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7178ca2892e28bbe28fb5d764d4d00dd2e762b35/src/System%20Application/App/ControlAddIns/src/CustomerExperienceSurvey.ControlAddIn.al
+    url: https://github.com/microsoft/BCApps/blob/d46542bef3883b9f0f55e85d7cdf99201b430348/src/System%20Application/App/ControlAddIns/src/CustomerExperienceSurvey.ControlAddIn.al
     title: src/System Application/App/ControlAddIns/src/CustomerExperienceSurvey.ControlAddIn.al (releases/29.x)
     date: null
-    commit: 7178ca2892e28bbe28fb5d764d4d00dd2e762b35
+    commit: d46542bef3883b9f0f55e85d7cdf99201b430348
     t: null
     quote: null
 links:
@@ -86,7 +86,7 @@ relations:
 
 > Control add-in "CustomerExperienceSurvey" in System Application (System.Feedback). 1 public procedures. Present since at least BC23, still in BC30, changed in BC24, BC27. Obsolete (Pending since 27.0).
 
-System Application · System.Feedback · BC23-30 · [source at 7178ca28](https://github.com/microsoft/BCApps/blob/7178ca2892e28bbe28fb5d764d4d00dd2e762b35/src/System%20Application/App/ControlAddIns/src/CustomerExperienceSurvey.ControlAddIn.al) · facts from BC29
+System Application · System.Feedback · BC23-30 · [source at d46542be](https://github.com/microsoft/BCApps/blob/d46542bef3883b9f0f55e85d7cdf99201b430348/src/System%20Application/App/ControlAddIns/src/CustomerExperienceSurvey.ControlAddIn.al) · facts from BC29
 
 ## Properties
 

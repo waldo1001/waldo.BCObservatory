@@ -1213,18 +1213,18 @@
     "573307": {
       "docs/learn-smb-docs/business-central/LocalFunctionality/India/Posting-No-series-setup.md@a6bc11cd8cb6b712": {
         "verdict": "drop",
-        "reason": "This is about conditional, location-based number series in the Indian localization, not vendor-specific series for self-billing.",
-        "at": "2026-11-02T00:53:39.567Z"
+        "reason": "Covers location-based conditional number series in the Indian localization, not vendor-specific number series for self-billing.",
+        "at": "2026-11-10T00:51:22.374Z"
       },
-      "video/8VRtBLNAOiI#2@872c9d47249d92ad": {
+      "video/8VRtBLNAOiI#2@d9b62cba40505f7a": {
         "verdict": "drop",
-        "reason": "It covers the earlier single self-billing number series in Purchases & Payables Setup, not the new per-vendor assignment.",
-        "at": "2026-11-02T00:53:39.567Z"
+        "reason": "Describes the earlier single self-billing number series in Purchases & Payables Setup, not per-vendor number series.",
+        "at": "2026-11-10T00:51:22.374Z"
       },
       "video/N_J1HB_fUCM#5@35122e58438517de": {
         "verdict": "keep",
-        "reason": "It shows choosing a number series for each self-billing vendor, falling back to the setup default when none is chosen.",
-        "at": "2026-11-02T00:53:39.567Z"
+        "reason": "Directly announces choosing a number series for each self-billing vendor, falling back to the setup default.",
+        "at": "2026-11-10T00:51:22.374Z"
       }
     },
     "573308": {
@@ -2454,225 +2454,215 @@
     "573333": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-extension-advanced-example-test.md@a27c8da67dace2f1": {
         "verdict": "drop",
-        "reason": "General testing tutorial with no data-driven tests or test handlers.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Covers general test codeunits and UI handlers, not data-driven tests or lifecycle test handlers.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-test-codeunits-and-test-methods.md@fef0d723518378f2": {
         "verdict": "keep",
-        "reason": "Documents the TestDataSource attribute, data-driven tests, the TestHandlers property and lifecycle callbacks.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Documents the TestDataSource attribute, data-driven tests, the TestHandlers property and test lifecycle callbacks.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-testrunner-codeunits.md@dcfb3196dfe1d62d": {
         "verdict": "drop",
-        "reason": "Test runner codeunits are an older, separate capability.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Test runner codeunits are an older, separate mechanism, not the new test handlers or data sources.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
-      "video/9CW5mydS9Vs#2@6a7edfb06c7a44ba": {
-        "verdict": "drop",
-        "reason": "Test permission, type and isolation properties are a different capability.",
-        "at": "2026-10-30T08:01:22.705Z"
-      },
-      "video/9CW5mydS9Vs#9@6a7edfb06c7a44ba": {
+      "video/9CW5mydS9Vs#9@3096d8bfe757d6e2": {
         "verdict": "keep",
-        "reason": "Announces native data-driven tests with test data source attributes.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Announces native data-driven test support with test data source attributes, run once per data point.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/aNRzlbxVPWE#10@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent picker belongs to the agent eval framework, not this feature.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "An agent picker for agent evals is a different capability.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/aNRzlbxVPWE#11@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval YAML setup keyword, a different capability.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "A YAML eval setup keyword in the agent test library is not the native data source feature.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/aNRzlbxVPWE#12@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Test library field defaulting is unrelated to data sources or handlers.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Field defaulting in test libraries is a different capability.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/aNRzlbxVPWE#13@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval suite setup caching, not the test handler feature.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Suite setup caching in agent evals is not the test handler feature.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/aNRzlbxVPWE#14@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent turn helper method, a different capability.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "A run-turn helper for agent evals is unrelated to this feature.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/aNRzlbxVPWE#15@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval expected-data keyword, a different capability.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "An expected-data keyword for agent evals is a different capability.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/aNRzlbxVPWE#16@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval error reason logging, not test handlers.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Logging failures through an error reason field in agent evals is not this feature.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/aNRzlbxVPWE#17@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval turn history logging, a different capability.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Turn history logging in agent evals is a different capability.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/aNRzlbxVPWE#18@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval log download, a different capability.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Downloading agent eval logs is unrelated to test handlers or data sources.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/aNRzlbxVPWE#19@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Library Agent public methods are a different capability.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Agent test library methods are a different capability.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/aNRzlbxVPWE#2@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "YAML-driven agent eval tests from the agent library, not native AL data-driven tests.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "YAML-driven agent eval data sets come from the existing AI test toolkit, not the native data-driven AL tests.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/aNRzlbxVPWE#4@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval YAML syntax, a different capability.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "The YAML eval definition syntax belongs to agent testing, not this feature.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/aNRzlbxVPWE#5@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval YAML turn setup section, a different capability.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "A YAML turn setup section for agent evals is not this feature.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/aNRzlbxVPWE#6@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval message attachments, a different capability.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Agent message attachments in YAML are unrelated.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/aNRzlbxVPWE#7@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval expected data section, a different capability.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Agent expected-data verification is a different capability.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/aNRzlbxVPWE#8@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Multi-turn agent testing is a different capability.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Multi-turn agent conversation testing is unrelated.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/aNRzlbxVPWE#9@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Date placeholders in agent eval YAML, not native data sources.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Date placeholders in YAML agent eval data are a different capability.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/D_Lur52IrIg#12@27cf5cb45e38c4b5": {
         "verdict": "keep",
-        "reason": "Demonstrates the new data-driven test source pattern iterating over reusable data rows.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Shows the new test source pattern where one test method iterates over reusable data rows.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/D_Lur52IrIg#13@27cf5cb45e38c4b5": {
         "verdict": "keep",
-        "reason": "Demonstrates the test handler interface with lifecycle hooks.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Shows the test handler interface with lifecycle hooks at codeunit, procedure and test case level.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/hNom9ZZuca0#0@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Announces data-driven testing in AL.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Announces data-driven testing in AL, where one test method runs with multiple data sets.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/hNom9ZZuca0#1@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Explains the test data source interface for data-driven tests.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Explains the test data source interface for reusable data sources.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/hNom9ZZuca0#2@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Shows data-driven tests integrated with the VS Code test explorer.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Shows data-driven tests working in the VS Code test explorer, part of the feature.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/hNom9ZZuca0#4@e20f8a1a85eebcec": {
         "verdict": "keep",
         "reason": "Explains test handlers for setup and teardown at multiple levels.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/hNom9ZZuca0#5@e20f8a1a85eebcec": {
         "verdict": "keep",
         "reason": "Explains opt-in test handlers declared through the TestHandlers property.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/hNom9ZZuca0#6@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Explains default (global) test handlers.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Explains default test handlers that run on every test, for example for telemetry.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/hNom9ZZuca0#7@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Documents the ITestHandler interface hooks.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Explains the ITestHandler interface and its lifecycle hooks.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/hNom9ZZuca0#8@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Documents the TestHandlers property on test codeunits.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Explains the TestHandlers property for registering handlers on test codeunits.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/hNom9ZZuca0#9@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Shows conditional test case skipping through test handlers.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Shows test handlers skipping test cases, one behavior of the handlers.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/MNwTt06ZxwY#32@08785989a6de2e63": {
         "verdict": "drop",
-        "reason": "Agent test data sets belong to the agent eval framework, not this feature.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "Agent eval data sets are a different capability from native data-driven AL tests.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/MNwTt06ZxwY#35@08785989a6de2e63": {
         "verdict": "drop",
-        "reason": "The AI test type property is a different capability.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "The AI test type property is unrelated to data sources or test handlers.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/MNwTt06ZxwY#39@08785989a6de2e63": {
         "verdict": "drop",
-        "reason": "Agent eval data set framework, not native AL data sources and handlers.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "The data-driven agent test framework is a different, agent-specific capability.",
+        "at": "2026-11-10T00:51:34.531Z"
       },
       "video/V4zCPAsYi_Y#3@513b719e619113d0": {
         "verdict": "drop",
-        "reason": "Agent test YAML/XML configuration, a different capability.",
-        "at": "2026-10-30T08:01:22.705Z"
+        "reason": "YAML and XML agent test configuration is not the native TestDataSource or test handler feature.",
+        "at": "2026-11-10T00:51:34.531Z"
       }
     },
     "573334": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-al-tool.md@e00d614e5fb81565": {
         "verdict": "keep",
-        "reason": "The ALTool reference for 2026 release wave 2 documents test execution and CI/CD integration from the command line.",
-        "at": "2026-10-30T08:02:20.149Z"
+        "reason": "ALTool reference documents command-line test execution with CI/CD integration in 2026 release wave 2.",
+        "at": "2026-11-10T00:51:31.040Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-testrunner-codeunits.md@dcfb3196dfe1d62d": {
         "verdict": "drop",
-        "reason": "Test runner codeunits are an older, separate in-product capability, not running tests with ALTool.",
-        "at": "2026-10-30T08:02:20.149Z"
+        "reason": "Test runner codeunits are a general, older testing mechanism unrelated to ALTool command-line execution.",
+        "at": "2026-11-10T00:51:31.040Z"
       },
-      "video/4mD9R50V134#4@6b979a91bcd2cf46": {
+      "video/9CW5mydS9Vs#17@3096d8bfe757d6e2": {
         "verdict": "drop",
-        "reason": "It covers the AL tool's subcommands (such as compile) from 2025 wave 2 and never mentions running tests.",
-        "at": "2026-10-30T08:02:20.149Z"
-      },
-      "video/9CW5mydS9Vs#17@6a7edfb06c7a44ba": {
-        "verdict": "drop",
-        "reason": "Running tests through the MCP server is a different route; this feature is meant to remove the need for the MCP server.",
-        "at": "2026-10-30T08:02:20.149Z"
+        "reason": "Describes test execution via MCP server, which this feature explicitly aims to not depend on.",
+        "at": "2026-11-10T00:51:31.040Z"
       },
       "video/EurgqGU1jG0#3@a87f41b7493bb751": {
         "verdict": "drop",
-        "reason": "Test reporting in AL-Go for GitHub is a different tool and doesn't show ALTool running the tests.",
-        "at": "2026-10-30T08:02:20.149Z"
+        "reason": "Shows AL-Go for GitHub pipeline test reporting, a different tool than ALTool test execution.",
+        "at": "2026-11-10T00:51:31.040Z"
       },
       "video/hNom9ZZuca0#3@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "It shows data-driven tests being run through the AL tool, which is one piece of command-line test execution.",
-        "at": "2026-10-30T08:02:20.149Z"
+        "reason": "Shows running tests via the AL tool from outside VS Code, part of the ALTool test-execution capability.",
+        "at": "2026-11-10T00:51:31.040Z"
       },
       "video/V4zCPAsYi_Y#7@513b719e619113d0": {
         "verdict": "drop",
-        "reason": "A PowerShell test runner module is a different tool from ALTool.",
-        "at": "2026-10-30T08:02:20.149Z"
+        "reason": "Describes a PowerShell test-runner module, not ALTool's command-line test execution.",
+        "at": "2026-11-10T00:51:31.040Z"
       }
     },
     "573335": {
@@ -3204,13 +3194,13 @@
     "573344": {
       "docs/learn-smb-docs/business-central/shopify/synchronize-items.md@1d2cc92cbb62c881": {
         "verdict": "drop",
-        "reason": "General Learn page on Shopify item sync that only lists 'customs data synchronization' without describing the new HS code/origin sync setting or other features.",
-        "at": "2026-10-25T12:48:25.569Z"
+        "reason": "General Learn page on Shopify item sync that only lists 'customs data synchronization' without describing the HS code and country/region of origin setting or the other improvements.",
+        "at": "2026-11-10T00:51:30.088Z"
       },
-      "video/YSDfDjrMUb0#0@1d4d067169f0a11f": {
+      "video/YSDfDjrMUb0#0@383757c6496e1047": {
         "verdict": "keep",
-        "reason": "Video demonstrates importing and exporting tariff (HS) codes with Shopify, mapped only to existing tariff records, matching the feature.",
-        "at": "2026-10-25T12:48:25.569Z"
+        "reason": "Shows tariff code import and export with Shopify, including the rule that tariff numbers must already exist to be imported.",
+        "at": "2026-11-10T00:51:30.088Z"
       }
     },
     "573345": {
@@ -3341,313 +3331,333 @@
     "573350": {
       "docs/learn-smb-docs/business-central/qms-manual-test-creation.md@89cc65096ed8d34f": {
         "verdict": "drop",
-        "reason": "General Learn page on working with inspections; ownership assignment is mentioned generally, not the new assign-to-myself notification.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "General Learn page on working with inspections; doesn't describe the self-assignment prompt or automatic passed/failed calculation.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "docs/learn-smb-docs/business-central/qms-overview.md@164e3353c106b1f3": {
         "verdict": "drop",
-        "reason": "General Quality Management overview without the specific improvements.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "General overview of the Quality Management extension.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "docs/learn-smb-docs/business-central/qms-production-output-testing.md@7bb3dfee2e02eb7b": {
         "verdict": "drop",
-        "reason": "Demo of automatic sampled inspection creation, a different capability.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Walkthrough of creating inspections from production output; a different capability.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "docs/learn-smb-docs/business-central/qms-purchase-receipt-testing-warehouse.md@4d4b6693dd1536e5": {
         "verdict": "drop",
-        "reason": "Demo of automatic inspection from warehouse receipt and reinspection, not these improvements.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Demo of creating inspections from warehouse receipts and reinspecting; a different capability.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "docs/learn-smb-docs/business-central/qms-quality-workflows.md@f606ca23b9875c7b": {
         "verdict": "drop",
-        "reason": "General workflows page; doesn't describe destination bin selection or the new movement controls.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "General workflows page; doesn't describe the new destination bin selection.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "docs/learn-smb-docs/business-central/qms-test-generation-rules.md@c80b83700fa13e8f": {
         "verdict": "drop",
-        "reason": "Generation rules are a different capability.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Generation rules setup; a different capability.",
+        "at": "2026-11-10T00:51:42.157Z"
+      },
+      "video/8KMcu4B_eTk#16@3343297810912637": {
+        "verdict": "drop",
+        "reason": "2023 warehouse troubleshooting; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
+      },
+      "video/8KMcu4B_eTk#6@3343297810912637": {
+        "verdict": "drop",
+        "reason": "2023 warehouse troubleshooting; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
+      },
+      "video/8KMcu4B_eTk#7@3343297810912637": {
+        "verdict": "drop",
+        "reason": "Pickable quantity analysis; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
+      },
+      "video/8KMcu4B_eTk#8@3343297810912637": {
+        "verdict": "drop",
+        "reason": "Bin availability troubleshooting; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/H5EuObmeF4o#36@56c1d175230d9e97": {
         "verdict": "drop",
-        "reason": "General announcement of the extension.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "General announcement of the Quality Management extension.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#0@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "General introduction of the extension.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "General introduction to the extension.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#1@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Automatic triggering is a different capability.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Automatic test triggering; an older capability.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#10@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Attachments are a different capability.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Document attachments; a different capability.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#11@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Automatic transfer order on failure is an older capability, not destination bin selection.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Automatic transfer order; doesn't cover destination bin selection.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#12@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Item tracking preservation is a different capability.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Item tracking preservation; a different capability.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#13@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Sample size configuration is an older capability, not automatic passed/failed quantities.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Sample size configuration; an older capability.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#14@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Describes sales blocking itself, not the improved error that opens the responsible inspection.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Sales blocking itself; no error details or opening the inspection from the error.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#15@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Reinspection is a different capability.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Reinspection; a different capability.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#16@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Certificate of analysis report is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Certificate of analysis report; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#17@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Non-conformance report is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Non-conformance report; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#18@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Role center is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Role center; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#19@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Setup data is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Setup data; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#20@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Result configuration is a different capability.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Result configuration; an older capability.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#21@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Result visibility settings are unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Result visibility; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#22@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Blocking configuration is an older capability, not the error guidance.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Blocking configuration; no guidance for resolving blocks from the error.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#23@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Test parameters are unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Test parameters; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#24@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Allowable values are unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Allowable values; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#25@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Default test values are a different capability.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Default test values; a different capability.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#26@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Pass/fail conditions are a different capability.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Pass/fail conditions; not the automatic quantity calculation.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#27@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Evaluation sequence is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Evaluation sequence; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#28@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Boolean test type is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Boolean test type; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#29@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Option test type is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Option test type; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#3@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Manual triggering is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Manual triggering; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#30@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Table lookup is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Table lookup; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#31@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Lookup filtering is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Lookup filtering; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#32@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Lookup limits are unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Lookup limits; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#33@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Lookup values table is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Lookup values table; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#34@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Lookup values are unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Lookup values; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#35@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Test types are unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Test types; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#36@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Templates are unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Templates; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#37@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Sampling configuration is an older capability.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Sampling configuration; an older capability.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#38@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Generation rules are unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Generation rules; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#39@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Automatic creation is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Automatic creation; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#40@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Blocking itself is older; no mention of error details or opening the inspection.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Blocking in general; not the new error details or opening the inspection.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#41@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Setup page is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Setup page; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#42@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Existing inspection actions; no destination bin selection described.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "General disposition actions; no destination bin selection described.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#43@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Item tracking change is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Item tracking change; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#44@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Wave 1 quantity selection for adjustments is an older capability, not the new destination bin controls.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Existing quantity options for adjustments; not the new automatic calculation or bin selection.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#45@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Sample quantity field is older and not the auto-calculation.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Sample quantity field; an older capability.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#46@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Workflow events are unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Workflow events; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#47@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Workflow conditions are unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Workflow conditions; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#48@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Tracking number blocking workflow is a different capability.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Tracking number blocking workflow; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#49@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Workflow actions are unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Inspection action workflows; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#5@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "General non-compliant handling mention.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "General handling of non-compliant items.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#50@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Existing movement responses; no destination bin selection.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Movement responses in general; no destination bin selection.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#51@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "API integration is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "API integration; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#52@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Built-in workflows in general are unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Built-in workflows in general.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#6@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Purchase receipt inspection is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Purchase receipt inspection; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#7@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Test execution is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Test execution; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#8@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Test descriptions are unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Test descriptions; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/m8-7-JKq4dc#9@97387fe5e7cdd68a": {
         "verdict": "drop",
-        "reason": "Result determination is a different, older behavior.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Result determination; not the passed/failed quantity calculation.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/SdQVQLNXVS0#8@22da145d9964d251": {
         "verdict": "drop",
-        "reason": "Manufacturing journal item tracking is unrelated.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Manufacturing journal item tracking; unrelated.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/sqjb_gsXqM8#0@3e0f3805f4fc321c": {
         "verdict": "drop",
         "reason": "General extension announcement.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/WACQbAEVOJg#12@d1c052c6d0a19784": {
         "verdict": "keep",
-        "reason": "Shows the recommendation to assign an inspection to the current user when it is modified.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Shows the new prompt to assign an inspection to yourself when you edit it.",
+        "at": "2026-11-10T00:51:42.157Z"
       },
       "video/WACQbAEVOJg#13@d1c052c6d0a19784": {
         "verdict": "keep",
-        "reason": "Shows passed/failed quantities updated automatically from sample size when an inspection is finished.",
-        "at": "2026-11-02T00:53:48.313Z"
+        "reason": "Shows the automatic update of passed/failed quantity from the sample size when an inspection is finished.",
+        "at": "2026-11-10T00:51:42.157Z"
       }
     },
     "573351": {
@@ -3746,108 +3756,123 @@
     "573355": {
       "docs/learn-smb-docs/business-central/design-details-warehouse-management.md@a27ecfbe04886e75": {
         "verdict": "drop",
-        "reason": "This is a general warehouse management overview with nothing on subcontracting inventory activities.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "General warehouse management overview, not subcontracting inventory activities.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "docs/learn-smb-docs/business-central/subcontract-components.md@b497e74429ebe4ce": {
         "verdict": "drop",
-        "reason": "It covers how subcontracting components are supplied and transferred, not inventory put-aways or picks.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Covers component supply in subcontracting, not inventory put-aways or picks.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "docs/learn-smb-docs/business-central/subcontract-order.md@ed9f455a20c25d94": {
         "verdict": "keep",
-        "reason": "The subcontracting order documentation lists inventory put-away handling for subcontracting purchase orders.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Subcontracting order page lists inventory put-away handling for subcontracting purchase orders.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "docs/learn-smb-docs/business-central/subcontract-wip-transfers.md@823621b939a2c3d8": {
         "verdict": "drop",
-        "reason": "It describes WIP transfers in general and doesn't mention inventory picks or put-aways for them.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Describes WIP transfers in general without inventory picks or put-aways.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "docs/learn-smb-docs/business-central/warehouse-how-to-pick-for-production.md@53d077804c93aa45": {
         "verdict": "drop",
-        "reason": "It covers older basic-warehouse picking for production, not subcontracting.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Generic production picking in basic warehouses, not subcontracting.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "docs/learn-smb-docs/business-central/warehouse-how-to-put-away-production-output.md@c85af641d274fdd0": {
         "verdict": "drop",
-        "reason": "It covers putting away regular production output, an older capability that isn't about subcontracting.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Production output put-away in general, not subcontracted output.",
+        "at": "2026-11-10T00:51:32.382Z"
+      },
+      "video/8KMcu4B_eTk#14@3343297810912637": {
+        "verdict": "drop",
+        "reason": "Older basic warehouse enhancements unrelated to subcontracting.",
+        "at": "2026-11-10T00:51:32.382Z"
+      },
+      "video/8KMcu4B_eTk#2@3343297810912637": {
+        "verdict": "drop",
+        "reason": "Bin policy features for basic warehouse, a different capability.",
+        "at": "2026-11-10T00:51:32.382Z"
+      },
+      "video/8KMcu4B_eTk#4@3343297810912637": {
+        "verdict": "drop",
+        "reason": "Picking by bin ranking is a different capability.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "video/pEXl-POet_4#0@f97c37a38a6a87d5": {
         "verdict": "drop",
-        "reason": "It covers directed put-away and pick for projects, a different feature.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Project directed put-away and pick, a different capability.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "video/QdWPlIV3Avk#19@7dc576bf80c600c9": {
         "verdict": "drop",
-        "reason": "It covers warehouse receipts for subcontracting, a different receiving method from inventory put-aways.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Warehouse receipts for subcontracting is a different receiving method than inventory put-aways.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "video/QdWPlIV3Avk#20@7dc576bf80c600c9": {
         "verdict": "keep",
-        "reason": "It shows creating inventory put-aways directly from subcontracting orders at basic warehouse locations.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Shows creating inventory put-aways from subcontracting orders at basic warehouse locations.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "video/QdWPlIV3Avk#22@7dc576bf80c600c9": {
         "verdict": "keep",
-        "reason": "It names inventory put-away as one of the ways to receive subcontracted items.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "States inventory put-away is a supported receiving method for subcontracting.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "video/QdWPlIV3Avk#3@7dc576bf80c600c9": {
         "verdict": "drop",
-        "reason": "It's a general introduction to warehouse integration and doesn't name inventory put-aways or picks.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Too general about warehouse integration to identify inventory put-aways and picks.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "video/sqjb_gsXqM8#14@3e0f3805f4fc321c": {
         "verdict": "drop",
-        "reason": "It's an earlier subcontracting release focused on warehouse receipts and transfer orders, not inventory activities.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Earlier subcontracting capabilities with warehouse receipts, not inventory activities.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "video/sVlPlmok5U8#1@25e0cff40950cb50": {
         "verdict": "drop",
-        "reason": "It covers inventory put-aways for project items, not subcontracting.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Inventory put-aways for project items, not subcontracting.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "video/sVlPlmok5U8#2@25e0cff40950cb50": {
         "verdict": "drop",
-        "reason": "It covers warehouse receipts for project items, a different feature.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Warehouse receipts for project items, a different feature.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "video/vnaySMIKnp8#0@23384c5664f83403": {
         "verdict": "drop",
-        "reason": "It covers warehouse put-away for production output, a different feature.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Warehouse put-away for production output, not subcontracting.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "video/vnaySMIKnp8#1@23384c5664f83403": {
         "verdict": "drop",
-        "reason": "It covers automatic put-away creation for production output, not subcontracting.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Automatic put-away generation for production output, a different feature.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "video/vnaySMIKnp8#2@23384c5664f83403": {
         "verdict": "drop",
-        "reason": "It covers creating production put-aways from the put-away worksheet, a different feature.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Put-away worksheet for production orders, a different feature.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "video/vnaySMIKnp8#4@23384c5664f83403": {
         "verdict": "drop",
-        "reason": "It covers the warehouse over-pick setting, a different feature.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Warehouse over-pick is unrelated to subcontracting.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "video/vnaySMIKnp8#5@23384c5664f83403": {
         "verdict": "drop",
-        "reason": "It covers returning over-picked items, a different feature.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Returning over-picked items is unrelated to subcontracting.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "video/WACQbAEVOJg#1@d1c052c6d0a19784": {
         "verdict": "keep",
-        "reason": "It announces inventory put-aways for subcontracted operations, for both last and non-last operations.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Announces inventory put-away for subcontracted operations, both last and non-last.",
+        "at": "2026-11-10T00:51:32.382Z"
       },
       "video/WACQbAEVOJg#9@d1c052c6d0a19784": {
         "verdict": "drop",
-        "reason": "It covers inventory activities for regular partial transfers, not WIP transfer orders or subcontracting.",
-        "at": "2026-11-02T00:53:46.708Z"
+        "reason": "Inventory activities for general partial transfers, with no mention of WIP or subcontracting.",
+        "at": "2026-11-10T00:51:32.382Z"
       }
     },
     "573356": {
@@ -3980,223 +4005,223 @@
     "573362": {
       "docs/learn-smb-docs/business-central/ai-in-bc.md@b12ae04da7a9bc20": {
         "verdict": "drop",
-        "reason": "General Business Central AI overview listing the legacy Chat with Copilot, not the new Microsoft Copilot chat experience.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "General Business Central AI overview listing the legacy Chat with Copilot, not the new Microsoft Copilot experience.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "docs/learn-smb-docs/business-central/autofill-fields-with-copilot.md@2f02530b7a62fcdb": {
         "verdict": "drop",
         "reason": "Autofill is a different Copilot capability.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "docs/learn-smb-docs/business-central/chat-with-copilot-faq.md@851b9e704df0cf23": {
         "verdict": "keep",
-        "reason": "FAQ for the new Microsoft Copilot experience that replaces Chat with Copilot in version 29.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "FAQ about the new Microsoft Copilot experience that replaces Chat with Copilot in version 29.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "docs/learn-smb-docs/business-central/chat-with-copilot.md@a23be745388d7cd6": {
         "verdict": "keep",
         "reason": "Documents how to use the new Microsoft Copilot in Business Central from version 29.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "docs/learn-smb-docs/business-central/faqs-chat-with-copilot.md@7ad8c858db14dc17": {
         "verdict": "drop",
         "reason": "Covers the legacy Chat with Copilot, not the new experience.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "docs/learn-smb-docs/business-central/microsoft-copilot-in-business-central-application-card.md@175faa5adad9eef4": {
         "verdict": "keep",
-        "reason": "Application card describing how Microsoft Copilot integrates with Business Central, which is the new chat experience.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Application card describing how the new Microsoft Copilot works inside Business Central.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/06vgkq2EXmA#0@703cdd5284a357d2": {
         "verdict": "drop",
-        "reason": "Describes the older built-in Copilot Chat, not the new Microsoft Copilot experience.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Describes the original Copilot Chat, an older capability.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/06vgkq2EXmA#2@703cdd5284a357d2": {
         "verdict": "drop",
-        "reason": "Explains how the legacy Copilot Chat was built internally.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Explains how the old chat handles conversation history internally, not the new experience.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/06vgkq2EXmA#3@703cdd5284a357d2": {
         "verdict": "drop",
-        "reason": "Find and Go is a capability of the legacy chat.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Find-and-go is a feature of the older chat.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
-      "video/2uXVammbab0#0@c5c9905a70b84c93": {
+      "video/2uXVammbab0#0@6745ec6f91facb65": {
         "verdict": "drop",
-        "reason": "Covers the 2025 wave 1 Chat with Copilot, an older capability.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Covers Chat with Copilot as of 2025 release wave 1, the older experience.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/gvIGhtqADS0#0@4622ba51ffb2179e": {
         "verdict": "drop",
-        "reason": "Covers the 2024 wave 1 conversational chat, an older capability.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Covers the 2024 conversational chat, an older capability.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/gvIGhtqADS0#1@4622ba51ffb2179e": {
         "verdict": "drop",
-        "reason": "Shows follow-up questions in the 2024 legacy chat.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Follow-up questions in the older 2024 chat.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/gvIGhtqADS0#2@4622ba51ffb2179e": {
         "verdict": "drop",
-        "reason": "Describes the 2024 legacy chat acting as a virtual assistant.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Virtual assistant behavior in the older 2024 chat.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/j5ULVClJaKU#0@a45c4d537eac2421": {
         "verdict": "drop",
-        "reason": "Introduces the 2024 Chat with Copilot, an older capability.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Introduces the original Chat with Copilot from version 24.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/j5ULVClJaKU#1@a45c4d537eac2421": {
         "verdict": "drop",
-        "reason": "Shows record finding in the legacy chat.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Record finding in the older chat.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/j5ULVClJaKU#13@a45c4d537eac2421": {
         "verdict": "drop",
-        "reason": "Shows field-level help in the legacy chat.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Field-level help in the older chat.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/j5ULVClJaKU#2@a45c4d537eac2421": {
         "verdict": "drop",
-        "reason": "Shows query refinement in the legacy chat.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Query refinement in the older chat.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/j5ULVClJaKU#3@a45c4d537eac2421": {
         "verdict": "drop",
-        "reason": "Shows documentation search in the legacy chat.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Documentation search in the older chat.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/j5ULVClJaKU#4@a45c4d537eac2421": {
         "verdict": "drop",
-        "reason": "Shows custom object support in the legacy chat.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Custom object support in the older chat.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/jdevJbGgB-k#1@bb7fbfc12bea0394": {
         "verdict": "drop",
-        "reason": "Describes the earlier chat Copilot in a general AI development episode.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "General mention of the earlier chat interface.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/lNASlydCidI#27@d217c57d0ea3a871": {
         "verdict": "drop",
-        "reason": "About Copilot being on by default in 2023, not the new chat experience.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "About Copilot being on by default in 2023, unrelated to this chat experience.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/mhfjycxWTyY#0@5ef6cdae76f76745": {
         "verdict": "keep",
-        "reason": "Announces the new modern, unified Microsoft Copilot chat interface for Business Central.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Announces the new modern, unified Copilot chat interface for Business Central.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/mhfjycxWTyY#1@5ef6cdae76f76745": {
         "verdict": "keep",
-        "reason": "Shows the new chat experience reasoning across Business Central data.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Shows the new chat experience reasoning over Business Central data.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/mhfjycxWTyY#5@5ef6cdae76f76745": {
         "verdict": "keep",
-        "reason": "Explains the conversational interaction model of the new chat experience.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Describes the new chat's conversational interaction model.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/mhfjycxWTyY#8@5ef6cdae76f76745": {
         "verdict": "keep",
         "reason": "Demonstrates multi-step reasoning in the new chat experience.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/qP0id91bIlA#16@34178426c0fe2c60": {
         "verdict": "drop",
-        "reason": "The Copilot action menu on list pages is a different capability.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Copilot action menu on list pages is a different feature.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/qP0id91bIlA#17@34178426c0fe2c60": {
         "verdict": "drop",
-        "reason": "The floating Copilot menu overlay is a different capability.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Floating Copilot action overlay is a different feature.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/qP0id91bIlA#7@34178426c0fe2c60": {
         "verdict": "drop",
-        "reason": "The prompt dialog page type is a developer feature, not the chat experience.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Prompt dialog page type is a developer feature, not this chat.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/TSLXzbeyE7Y#0@370cc3ac45f98b9b": {
         "verdict": "keep",
-        "reason": "Introduces Microsoft Copilot Chat built into Business Central in 2026 release wave 2.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Introduces the new Microsoft Copilot Chat built into Business Central.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/uMKLsKfKPc0#26@9325e23695d00c9a": {
         "verdict": "keep",
-        "reason": "Announces M365 Copilot chat coming to Business Central.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Announces Microsoft 365 Copilot chat coming to Business Central.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/V7NgFOIcGgM#0@ccc6a44fd65066b1": {
         "verdict": "keep",
         "reason": "Announces the new Microsoft Copilot Chat for all Business Central users.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/V7NgFOIcGgM#10@ccc6a44fd65066b1": {
         "verdict": "keep",
         "reason": "Shows conversation context and follow-up suggestions in the new chat.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/V7NgFOIcGgM#11@ccc6a44fd65066b1": {
         "verdict": "keep",
         "reason": "Shows rich output formatting in the new chat.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/V7NgFOIcGgM#12@ccc6a44fd65066b1": {
         "verdict": "keep",
-        "reason": "Shows progress messages in the new chat.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Shows the progress messages behavior of the new chat.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/V7NgFOIcGgM#14@ccc6a44fd65066b1": {
         "verdict": "keep",
         "reason": "Shows the new chat using context from the current page.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/V7NgFOIcGgM#4@ccc6a44fd65066b1": {
         "verdict": "keep",
-        "reason": "Shows the new chat combining data from multiple sources.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Shows the new chat combining data from several sources.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/V7NgFOIcGgM#5@ccc6a44fd65066b1": {
         "verdict": "keep",
-        "reason": "Shows citation pills and sources in the new chat.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Shows citations and source verification in the new chat.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/WL3m2dffwU8#0@8c6deb05c030c4e8": {
         "verdict": "keep",
-        "reason": "Introduces the unified Microsoft Copilot Chat experience in Business Central.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Introduces the unified Microsoft Copilot Chat in Business Central.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/WL3m2dffwU8#2@8c6deb05c030c4e8": {
         "verdict": "keep",
-        "reason": "Shows the new Copilot button that opens the updated experience.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Shows the Copilot button that opens the new unified experience.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/WL3m2dffwU8#3@8c6deb05c030c4e8": {
         "verdict": "keep",
-        "reason": "Shows the new chat answering questions about Business Central data and general questions.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Shows the new chat answering questions about Business Central data.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/WL3m2dffwU8#4@8c6deb05c030c4e8": {
         "verdict": "keep",
-        "reason": "Shows side-by-side data viewing in the new chat.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Shows side-by-side viewing of data and answers in the new chat.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/WL3m2dffwU8#5@8c6deb05c030c4e8": {
         "verdict": "keep",
         "reason": "Shows multi-turn conversation in the new chat.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/YX9UfUF0EsA#0@afcf77ac4a6c5c58": {
         "verdict": "keep",
-        "reason": "Explains that M365 Copilot chat becomes the home for all Copilot experiences in Business Central.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Explains Microsoft 365 Copilot chat becoming the home for all Copilot experiences in Business Central.",
+        "at": "2026-11-10T00:51:48.189Z"
       },
       "video/YX9UfUF0EsA#14@afcf77ac4a6c5c58": {
         "verdict": "keep",
-        "reason": "Explains that M365 Copilot replaces the existing Business Central chat.",
-        "at": "2026-11-07T00:59:59.600Z"
+        "reason": "Explains that Microsoft 365 Copilot replaces the existing Business Central chat.",
+        "at": "2026-11-10T00:51:48.189Z"
       }
     },
     "573363": {
@@ -4308,28 +4333,23 @@
     "573366": {
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-0.md@99fb0ace6dfb3876": {
         "verdict": "keep",
-        "reason": "The 28.0 release notes list 'Review content generated by agents on pages' as a feature, which announces it.",
-        "at": "2026-11-05T00:49:37.865Z"
+        "reason": "The release notes list this exact feature, 'Review content generated by agents on pages', so they announce it.",
+        "at": "2026-11-10T00:51:37.532Z"
       },
-      "video/1IIlArcHpOY#11@58baf09ab4e3866c": {
-        "verdict": "drop",
-        "reason": "This is the agent's user review request after a task, which is a different capability from reviewing agent content inline on pages.",
-        "at": "2026-11-05T00:49:37.865Z"
-      },
-      "video/1IIlArcHpOY#3@58baf09ab4e3866c": {
+      "video/1IIlArcHpOY#3@66beea05609579a7": {
         "verdict": "keep",
-        "reason": "It shows users reviewing agent-filled fields, with explanations, before submitting, which is the inline review this feature adds.",
-        "at": "2026-11-05T00:49:37.865Z"
+        "reason": "It shows users reviewing agent-filled fields with explanations before submitting, which is the inline review this feature adds.",
+        "at": "2026-11-10T00:51:37.532Z"
       },
       "video/fgWFOMPJd6U#0@5b733de8c870a091": {
         "verdict": "drop",
-        "reason": "Summarize with Copilot is a different Copilot feature that has nothing to do with reviewing content generated by agents.",
-        "at": "2026-11-05T00:49:37.865Z"
+        "reason": "Summarize with Copilot is a different Copilot feature, not a review of agent-generated content.",
+        "at": "2026-11-10T00:51:37.532Z"
       },
       "video/moPzf04Mwlc#3@368a90323871af98": {
         "verdict": "keep",
-        "reason": "Eye icons and justifications on fields the agent changed show agent-generated content being surfaced for review right on the page.",
-        "at": "2026-11-05T00:49:37.865Z"
+        "reason": "It shows on-page eye icons and justifications marking which fields the agent changed, part of reviewing agent content in context.",
+        "at": "2026-11-10T00:51:37.532Z"
       }
     },
     "573367": {
@@ -5654,115 +5674,130 @@
     "576881": {
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-2.md@a9bb311cc9a398a9": {
         "verdict": "keep",
-        "reason": "The update 28.2 release notes list self-billed invoices as a new feature, which announces this capability.",
-        "at": "2026-10-30T08:02:35.380Z"
+        "reason": "The update 28.2 release notes list self-billed invoices as a new feature, so this announces the capability.",
+        "at": "2026-11-10T00:51:23.928Z"
       },
       "docs/learn-smb-docs/business-central/purchasing-how-register-new-vendors.md@220b80e6106747d9": {
         "verdict": "keep",
-        "reason": "The vendor registration page documents the optional self-billing agreement setup on the vendor card, which is part of this feature.",
-        "at": "2026-10-30T08:02:35.380Z"
+        "reason": "The vendor registration page covers setting up the optional self-billing agreement, which is one of this feature's settings.",
+        "at": "2026-11-10T00:51:23.928Z"
       },
-      "video/8VRtBLNAOiI#0@872c9d47249d92ad": {
+      "video/8VRtBLNAOiI#0@d9b62cba40505f7a": {
         "verdict": "keep",
-        "reason": "The video introduces self-billing invoices that let buyers create invoices on behalf of their vendors.",
-        "at": "2026-10-30T08:02:35.380Z"
+        "reason": "The video introduces self-billing invoices, where buyers create invoices on behalf of their vendors.",
+        "at": "2026-11-10T00:51:23.928Z"
       },
-      "video/8VRtBLNAOiI#1@872c9d47249d92ad": {
+      "video/8VRtBLNAOiI#1@d9b62cba40505f7a": {
         "verdict": "keep",
-        "reason": "The video shows the new Boolean self-billing agreement field on the vendor card, which is a specific setting of this feature.",
-        "at": "2026-10-30T08:02:35.380Z"
+        "reason": "The video shows the new self-billing Boolean field on the Vendor Card, which is part of this feature.",
+        "at": "2026-11-10T00:51:23.928Z"
       }
     },
     "577820": {
       "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-manage-consumption-billing.md@ff7eed8888279db2": {
         "verdict": "drop",
-        "reason": "This page is about billing for the Expense, Payables and Sales Order agents, not AI resources for Copilot extensions.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "General consumption-billing page focused on agent billing and Copilot Credits, not specifically the AI resources for Copilot extensions.",
+        "at": "2026-11-10T00:51:36.883Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/ai-build-capability-in-al.md@eae9338aae60a97a": {
         "verdict": "keep",
-        "reason": "The page covers the billing type and Microsoft Billed option, which are part of using Business Central AI resources in AL.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "Covers the Microsoft Billed billing type for AL Copilot capabilities, part of using Business Central AI resources.",
+        "at": "2026-11-10T00:51:36.883Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/ai-dev-tools-resources.md@aa94da0fd51217c1": {
         "verdict": "keep",
-        "reason": "This page documents the feature directly: managed Azure OpenAI resources, SetManagedResourceAuthorization and the option to bring your own subscription.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "Documents Business Central AI resources, SetManagedResourceAuthorization and bring-your-own subscription.",
+        "at": "2026-11-10T00:51:36.883Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-5.md@3bfb6fe1fdb2caed": {
         "verdict": "keep",
-        "reason": "These release notes for update 28.5 list AI resources for Copilot extensions as a feature.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "Release notes explicitly list AI resources for Copilot extensions.",
+        "at": "2026-11-10T00:51:36.883Z"
       },
       "video/2isrH3RcSK8#37@a72c6e38b59092be": {
         "verdict": "keep",
-        "reason": "It announces the private preview of Microsoft-managed AI resources for ISVs.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "Announces Microsoft-managed AI resources for ISVs instead of their own Azure subscriptions.",
+        "at": "2026-11-10T00:51:36.883Z"
       },
-      "video/7SSNcUMFtCw#0@3705eff7e51e0147": {
+      "video/7SSNcUMFtCw#0@23776697e0f9e5dd": {
         "verdict": "keep",
-        "reason": "It explains Business Central AI resources, including Microsoft-managed models and consumption billing.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "Explains Microsoft-managed Azure OpenAI resources for publishers with consumption billing.",
+        "at": "2026-11-10T00:51:36.883Z"
       },
-      "video/7SSNcUMFtCw#12@3705eff7e51e0147": {
+      "video/7SSNcUMFtCw#12@23776697e0f9e5dd": {
         "verdict": "keep",
-        "reason": "It covers which models the Business Central AI resources offer, which is part of the feature.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "Describes models available through the AI resources.",
+        "at": "2026-11-10T00:51:36.883Z"
       },
-      "video/7SSNcUMFtCw#3@3705eff7e51e0147": {
+      "video/7SSNcUMFtCw#2@23776697e0f9e5dd": {
         "verdict": "keep",
-        "reason": "It demonstrates the SetManagedResourceAuthorization function that the feature uses.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "Shows the built-in content safety protections of the AI resources.",
+        "at": "2026-11-10T00:51:36.883Z"
+      },
+      "video/7SSNcUMFtCw#3@23776697e0f9e5dd": {
+        "verdict": "keep",
+        "reason": "Demonstrates the SetManagedResourceAuthorization method used to access AI resources.",
+        "at": "2026-11-10T00:51:36.883Z"
+      },
+      "video/7SSNcUMFtCw#6@23776697e0f9e5dd": {
+        "verdict": "keep",
+        "reason": "Covers data residency control for AI calls, a stated benefit of the feature.",
+        "at": "2026-11-10T00:51:36.883Z"
+      },
+      "video/7SSNcUMFtCw#7@23776697e0f9e5dd": {
+        "verdict": "keep",
+        "reason": "Explains safety system prompts appended when using the BC AI resources toolkit.",
+        "at": "2026-11-10T00:51:36.883Z"
       },
       "video/H5EuObmeF4o#11@56c1d175230d9e97": {
         "verdict": "keep",
-        "reason": "It describes using the default AI resources through SetManagedResourceAuthorization or your own subscription.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "Describes using default AI resources via set managed resource authorization or own subscription.",
+        "at": "2026-11-10T00:51:36.883Z"
       },
       "video/jdevJbGgB-k#12@bb7fbfc12bea0394": {
         "verdict": "drop",
-        "reason": "It only mentions a general AI toolkit, with nothing about managed AI resources.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "General mention of an AI toolkit without describing managed AI resources.",
+        "at": "2026-11-10T00:51:36.883Z"
       },
       "video/juUBVPfIp8A#2@02c0c6268b27e405": {
         "verdict": "keep",
-        "reason": "It explains the new SetManagedResourceAuthorization signature that no longer needs subscription details.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "Describes the new SetManagedResourceAuthorization signature without subscription details, as in the feature update.",
+        "at": "2026-11-10T00:51:36.883Z"
       },
       "video/NE7NIjpkX3c#0@d5853e1f3b4a55c4": {
         "verdict": "keep",
-        "reason": "It shows Copilot extensions running in sandboxes on Microsoft AI resources without managing the models.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "Shows running Copilot extensions in sandboxes using Microsoft AI resources.",
+        "at": "2026-11-10T00:51:36.883Z"
       },
       "video/QCo-uIfPs9g#5@7deb3ef577765811": {
         "verdict": "keep",
-        "reason": "It announces managed AI resources so partners don't have to bring their own.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "Announces managed AI resources so partners need not bring their own.",
+        "at": "2026-11-10T00:51:36.883Z"
       },
       "video/QCo-uIfPs9g#9@7deb3ef577765811": {
         "verdict": "keep",
-        "reason": "It explains managed resource authorization with Azure OpenAI, which removes the need for partners' own subscriptions.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "Describes managed resource authorization with Azure OpenAI replacing custom subscriptions.",
+        "at": "2026-11-10T00:51:36.883Z"
       },
       "video/ytYKvn2MiGs#12@ee73e82da95ba36c": {
         "verdict": "keep",
-        "reason": "It describes the managed, shared AI resources that remove the need for partners' own Azure OpenAI accounts.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "Describes managed shared AI resources eliminating partner-owned Azure OpenAI accounts.",
+        "at": "2026-11-10T00:51:36.883Z"
       },
       "video/ytYKvn2MiGs#13@ee73e82da95ba36c": {
         "verdict": "drop",
-        "reason": "It describes an AI credit currency, a separate governance concept rather than this feature.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "Describes an older AI credit governance concept, not this feature's capability.",
+        "at": "2026-11-10T00:51:36.883Z"
       },
       "video/ytYKvn2MiGs#14@ee73e82da95ba36c": {
         "verdict": "drop",
-        "reason": "It covers operational limits for fair AI credit use, which is a different capability.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "Describes operational limits under the older AI credit model, not this feature specifically.",
+        "at": "2026-11-10T00:51:36.883Z"
       },
       "video/ytYKvn2MiGs#15@ee73e82da95ba36c": {
         "verdict": "drop",
-        "reason": "It describes AI quota entitlements per license, which is a different capability.",
-        "at": "2026-11-07T01:00:03.382Z"
+        "reason": "Describes a quota entitlement system from the older AI credit design, not this feature.",
+        "at": "2026-11-10T00:51:36.883Z"
       }
     },
     "577878": {

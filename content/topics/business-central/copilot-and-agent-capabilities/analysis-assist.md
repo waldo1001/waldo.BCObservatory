@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:09.958Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,8 +70,6 @@ links:
     - video/mHrY_OI0qNo
     - video/ofq4OBTuPvE
     - video/OvI9jaA1mJY
-    - video/Rh1AFX9A1x4
-    - video/SHOAw9GehdI
   posts:
     - post/yzhums-com/67542
     - post/yzhums-com/68492
@@ -85,7 +83,7 @@ children: []
 coverage:
   learn: 2
   code: 24
-  video: 6
+  video: 4
   blog: 2
   guideline: 0
 bc_forms:
@@ -152,12 +150,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Business Central 2025 wave 2 (BC27): Use enhanced chat with Copilot (Supports 20 more languages)](../../../posts/yzhums-com/67542.md) (community post): "Users can find and open records such as customers, vendors, sales orders"
 - [Business Central 2025 wave 2 (BC27): Use enhanced analysis assist with Copilot](../../../posts/yzhums-com/68492.md) (community post): "Copilot analysis assist enables users to request data analysis views using natural language"
-- [What's New: Analysis Assist with Copilot (2024 release wave 2)](../../../videos/GbMjcJurkFE.md) (video): "Analysis Assist; Copilot toolbar and menu; Field personalization through Analysis Assist"
+- [What's New: Analysis Assist with Copilot (2024 release wave 2)](../../../videos/GbMjcJurkFE.md) (video): "Analysis assist; copilot; prompt guides; analysis tabs; data insights"
 - [Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)](../../../videos/mHrY_OI0qNo.md) (video): "AI-Powered Analysis with Copilot; analysis assist; natural language"
 - [AI-Powered Analysis with Copilot in Dynamics 365 Business Central (2024)](../../../videos/ofq4OBTuPvE.md) (video): "AI-Powered Analysis with Copilot; data exploration; insights; trends and outliers"
 - [What's New: Payables Agent (2026 release wave 1)](../../../videos/OvI9jaA1mJY.md) (video): "Analysis Assist for cost projection; Agent discovery improvements"
-- [What's New: Data Analysis (2025 release wave 1)](../../../videos/Rh1AFX9A1x4.md) (video): "Copilot analysis assist"
-- [What's New: Data Analysis (2025 release wave 2)](../../../videos/SHOAw9GehdI.md) (video): "Analysis Assist Copilot"
 
 ## Business Central pages and reports
 

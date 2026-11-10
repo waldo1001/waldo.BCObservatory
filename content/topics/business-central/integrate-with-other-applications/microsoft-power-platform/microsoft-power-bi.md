@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,7 +93,8 @@ links:
     - topic/business-central/integrate-with-other-applications/microsoft-power-platform
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/74366
   guidelines: []
 learn_toc_path:
   - Integrate with other applications
@@ -106,7 +107,7 @@ coverage:
   learn: 8
   code: 3
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 6316
@@ -152,6 +153,12 @@ For building and using reports, the Power BI Desktop page covers connecting and 
 - [Power BI apps/reports for functional areas](https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-by-functional-area): Get an overview of the landing pages for the Power BI apps available in functional areas in Business Central.
 - [Power BI integration component and architecture overview for Business Central\| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-overview): Learn about the different aspects of Power BI integration with Business Central.
 - [Working with Power BI reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-working-with-powerbi): Get insight, business intelligence, and key performance indicators from your Business Central data with Power BI.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central 2026 release wave 1 (BC28.2): Use new APIs for analyzing permissions for auditors and IT staff](../../../../posts/yzhums-com/74366.md) (community post): "Organizations can integrate APIs with Power BI and Copilot Studio to create advanced auditing reports"
 
 ## Business Central pages and reports
 

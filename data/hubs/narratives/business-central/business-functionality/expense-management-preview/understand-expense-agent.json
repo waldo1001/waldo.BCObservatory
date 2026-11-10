@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/expense-management-preview/understand-expense-agent",
-  "input_hash": "57f7edb44c6c54e272d33394eee6a594e1b5042cfd4f2499101d7d6c6e8605e9",
-  "summary": "Expense Agent in Business Central (preview) is an AI agent that automates the expense lifecycle, from receipt intake to draft expense reports. This section answers questions about what it does, how it processes emails, how policy compliance is checked, and its responsible AI limits.",
-  "overview": "Expense Agent is an AI-powered agent that takes receipts from the web app, mobile app, or email, extracts the data, categorizes and itemizes expenses, creates expense reports, and prepares them for approval and posting in Business Central. It also supports per diem and mileage calculation.\n\nThe four pages cover different angles. The overview describes the full lifecycle and features. The email page explains how the agent monitors a configured mailbox, detects receipts and credit card statements, creates expenses, groups them by reporting period, and sends confirmations and reminders. The policy compliance page explains how deterministic Business Central rules differ from AI-evaluated natural-language policies. The Responsible AI FAQ covers capabilities, limitations, safety, and feedback.\n\nStart with the overview to get the scope, then read the email page if intake is by mailbox, and the policy compliance page if you need to know how violations are flagged. Read the Responsible AI FAQ to understand that drafts are reviewed by a human before posting.",
+  "input_hash": "7049e40e6dac13b4110c4628d15864f5518d731708f543711207eaf2a10dcbe4",
+  "summary": "Expense Agent is an AI-powered agent in Business Central (preview) that captures receipts, extracts data, categorizes expenses and drafts expense reports for review. This section answers questions about what it does, how it handles email, how policy compliance works, and responsible AI considerations.",
+  "overview": "Expense Agent automates expense processing in Business Central. It takes receipts from the web app or a shared mailbox, extracts the data, categorizes and itemizes expenses, groups them and creates draft expense reports. People review and approve the reports, so the agent supports the process and does not replace human decisions.\n\nThe four pages cover different angles. The overview explains the agent's capabilities and channels. The email page describes how the agent detects expense-related emails, creates records, assigns them to reports and sends confirmations and reminders. The policy compliance page explains how deterministic rules and AI-assisted policy evaluation flag non-compliant expenses. The responsible AI FAQ describes the system's purpose and its human-review model.\n\nStart with the overview for the big picture. Then read the email page if you use a shared mailbox, and the policy compliance page if you need to understand flagging and checks before or after submission.",
   "key_points": [
-    "Expense Agent handles receipt intake from web app, mobile app, or email, then extraction, categorization, itemization, and expense report creation.",
-    "It supports per diem calculation and mileage tracking and calculation.",
-    "Email processing: the agent monitors a configured mailbox, detects receipts and credit card statements, and creates expenses automatically.",
-    "Expenses are grouped into reports by reporting period; the agent sends confirmation emails and open report reminders.",
-    "Policy compliance separates deterministic Business Central rule checks from AI-assisted evaluation of natural-language policies.",
-    "Compliance indicators flag expenses with rule violations or potential policy issues; policy evaluation is configurable and includes privacy protection.",
-    "The agent produces draft reports for human review before posting; the feature is in preview.",
-    "The Responsible AI FAQ describes capabilities, limitations, safety features, and feedback mechanisms."
+    "Expense Agent is an AI-powered agent for expense processing, and the feature is in preview.",
+    "Receipts come in through the web app or a shared mailbox.",
+    "It extracts data, categorizes expenses, itemizes them and calculates per diem.",
+    "It creates draft expense reports for human review and approval.",
+    "For email, it detects expense-related emails, creates expense records, assigns them to reports, and sends confirmation emails and reminders.",
+    "Policy compliance combines deterministic Business Central rules with AI-assisted policy evaluation.",
+    "Non-compliant expenses are flagged, and policy snapshots appear in the activity timeline.",
+    "Submitters can run pre-submission checks, and evaluation also runs in the background after submission."
   ],
   "members_used": 4,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-06T13:38:43.744Z",
+  "at": "2026-11-10T00:56:52.619Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.040241
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:25:10.440Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the overview lists categorization but leaves out subcategorization, which the overview page names as a feature. This is not an error.",
-      "Minor: the overview refers to 'the four pages'. That count is correct, but it is wording about the page set rather than about the subject itself."
-    ],
-    "input_hash": "57f7edb44c6c54e272d33394eee6a594e1b5042cfd4f2499101d7d6c6e8605e9",
-    "cost_usd": 0.0270352
+    "cost_usd": 0.011786999999999999
   }
 }

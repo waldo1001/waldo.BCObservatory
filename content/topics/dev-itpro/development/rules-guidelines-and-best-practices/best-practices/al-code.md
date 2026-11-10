@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,7 +57,8 @@ links:
   topics:
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices
   localizations: []
-  videos: []
+  videos:
+    - video/kbRTIWH-nio
   posts:
     - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f
     - post/thinkaboutit-be/8132
@@ -91,7 +92,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 0
+  video: 1
   blog: 2
   guideline: 0
 bc_forms: []
@@ -153,5 +154,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#95 style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope](../../../../../changes/bcquality/95.md) (code change): "al-style-review skill recalibrates analyzer-redundant rules to info severity and clarifies domain boundaries"
 - [Introducing ALCops — LinterCop's Next Chapter](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f.md) (community post): "It has 30 code fixes compared with LinterCop's five or six, plus correctness fixes"
 - [BCQuality: A Shared Quality Bar for AL Code, Built for Agents](../../../../../posts/thinkaboutit-be/8132.md) (community post): "BCQuality is Microsoft's open repository of quality knowledge for AL code"
+- [What's New: Introducing the Business Foundation and the No. Series Module (2024 release wave 1)](../../../../../videos/kbRTIWH-nio.md) (video): "backwards compatibility; non-breaking table movement between apps; deprecation scheme"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

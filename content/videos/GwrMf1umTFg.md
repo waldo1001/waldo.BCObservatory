@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:43:18.606Z"
   flags: []
 generated:
-  at: "2026-10-26T06:21:45.768Z"
+  at: "2026-11-10T00:51:48.195Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -121,20 +121,10 @@ links:
       label: possibly related
       why: both name Page 6996 "Expense Agent Setup"
       by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent
-      title: How the Expense Agent Processes Emails
-      label: possibly related
-      why: names Page 6996 "Expense Agent Setup"
-      by: code
     - to: video/pjML7lXSsd0
       title: "Introducing: Expense Management (2026 release wave 1)"
       label: possibly related
       why: both name Page 6996 "Expense Agent Setup"
-      by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-per-diem-mileage
-      title: Set Up Per Diem and Mileage Allowances
-      label: possibly related
-      why: names Page 6996 "Expense Agent Setup"
       by: code
 video_id: GwrMf1umTFg
 channel: yt-microsoft
@@ -325,6 +315,4 @@ No source states these links: they share an object, a model read them, or a pers
 
 - [Business Central 2025 wave 2 (BC27): Use alternative posting groups for employees](../posts/yzhums-com/67740.md) — possibly related: both name Page 5200 "Employee Card"
 - [Expense Agent: Mileage Allowances (2026 release wave 1)](../videos/Fz8NLByllRc.md) — possibly related: both name Page 6996 "Expense Agent Setup"
-- [How the Expense Agent Processes Emails](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent) — possibly related: names Page 6996 "Expense Agent Setup"
 - [Introducing: Expense Management (2026 release wave 1)](../videos/pjML7lXSsd0.md) — possibly related: both name Page 6996 "Expense Agent Setup"
-- [Set Up Per Diem and Mileage Allowances](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-per-diem-mileage) — possibly related: names Page 6996 "Expense Agent Setup"

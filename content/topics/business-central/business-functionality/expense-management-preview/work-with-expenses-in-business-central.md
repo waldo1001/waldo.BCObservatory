@@ -2,39 +2,39 @@
 id: topic/business-central/business-functionality/expense-management-preview/work-with-expenses-in-business-central
 type: topic
 title: Work with expenses in Business Central
-summary: "Expense management (preview) in Business Central covers the full expense lifecycle: creating expenses, travel requests, expense reports, review and approval, posting, and employee reimbursement. It answers how-to questions about each step, from the expense card to the Payment Journal."
+summary: "Expense management (preview) in Business Central covers the full expense flow: recording expenses, building and submitting expense reports, travel requests, approval, posting to the general ledger, and reimbursing employees. It answers how-to questions for employees, managers, and accountants."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-06T15:20:22.971Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: a0e57150338a859582b6c9756c6dd474fe92ff9153deb4e0697fc95af3592dc7
+  input_hash: 0f84a5ae32904f4330b821bf4c88dd6f67609d3cbd65b88ade7d8201e510169a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-create-expenses
     title: Create and Manage Expenses in Business Central
-    date: "2026-09-26"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report
     title: Create and Submit Expense Reports
-    date: "2026-09-26"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-travel-requisitions
     title: Manage Travel Requests in Business Central
-    date: "2026-09-26"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
@@ -55,7 +55,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-approve-reports
     title: Review and Approve Expense Reports
-    date: "2026-09-24"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
@@ -153,39 +153,40 @@ narrative: generated
 
 # Work with expenses in Business Central
 
-> Expense management (preview) in Business Central covers the full expense lifecycle: creating expenses, travel requests, expense reports, review and approval, posting, and employee reimbursement. It answers how-to questions about each step, from the expense card to the Payment Journal.
+> Expense management (preview) in Business Central covers the full expense flow: recording expenses, building and submitting expense reports, travel requests, approval, posting to the general ledger, and reimbursing employees. It answers how-to questions for employees, managers, and accountants.
 
-Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Work with expenses in Business Central · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Work with expenses in Business Central · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section walks through the expense process in the order it is used. An employee creates individual expenses (with receipts, itemizations, participants, mileage or per diem), optionally records a travel request for approval before travelling, then collects expenses into an expense report and submits it.
+This section follows an expense from creation to reimbursement. Employees record individual expenses with amount, date, category, and receipts, and can use itemization, participant tracking, mileage, and per diem. Expenses are then grouped into an expense report, which is released and submitted for approval. Travel requests can be created before the trip to review planned costs and then linked to the report.
 
-After submission, managers and accountants review the report against policy rules and VAT reclaim rules and approve it. The approved report is then posted to the general ledger after a posting preview and VAT reclaim check. The last step is to reimburse the employee through the Payment Journal.
+Managers and accountants review submitted reports using Expense Agent or approval workflows. They can approve, reject, or assign interim approvers, and they check rule violations and VAT reclaim decisions. Approved reports are posted to the general ledger after a preview, and employees are reimbursed through the Payment Journal.
 
-Start with the page on creating and managing expenses if you are setting up the employee side. Start with the review and approve page or the posting page if you work in finance. The travel request page covers planning and comparing planned against actual spending.
+Start with "Create and Manage Expenses" if you are an employee, or "Review and Approve Expense Reports" if you approve. Accountants will mainly need the posting and reimbursement pages.
 
 ## Key points
 
-- Expenses are created on an expense card with category, date, receipt attachment and preview, and itemizations with subcategories.
-- Special expense types include business meals with participants, mileage with vehicle types, and per diem calculated by location.
-- Expense reports are created, filled with expense lines, checked for rule violations, optionally linked to a travel request, and released for approval.
-- Travel requests record planned travel and costs for review and approval before expenses are incurred. They cover status tracking, travel policy acknowledgment, international travel, and linking to expense reports to compare spending. The travel requests page is tied to version 29.
-- Reviewers handle approval and policy rule violations, plus a separate VAT reclaim review and VAT specification approval, with access to receipts and report statistics.
-- Posting previews entries and verifies VAT reclaim status, then creates expense, employee, general ledger and project ledger entries.
-- Reimbursement is made through the Payment Journal against employee accounts, with foreign currency, withholding tax, payment reconciliation and reimbursement notifications supported.
+- Individual expenses capture amount, date, category, and receipts, with itemization, participant tracking, mileage, and per diem support.
+- Expense reports group related expenses into one document that is released and submitted for approval; rule violations can be reviewed before submission.
+- Travel requests record purpose, travelers, dates, estimated costs (by category or lump sum), and travel policy acknowledgment, and can be linked to expense reports to compare actual and expected spending.
+- Approval can run through Expense Agent or approval workflows, with options to approve, reject, or assign interim approvers.
+- Accountants validate VAT reclaim decisions before posting.
+- Posting offers a preview and produces expense, employee, general ledger, and project ledger entries.
+- Reimbursement is made through the Payment Journal against employee accounts, with foreign currency and withholding tax support, payment reconciliation, and reimbursement notifications.
 
 ## Learn pages
 
 - [Create and Manage Expenses in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-create-expenses): Learn how to record individual expenses, attach receipts, add itemizations and participants, and track per diem and mileage in Business Central.
 - [Create and Submit Expense Reports](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report): Learn how to create expense reports, add expenses, review rule violations, and submit reports for approval in Business Central.
+  - In the observatory: [Page 6996 "Expense Agent Setup"](../../../../objects/page/6996.md)
 - [Manage Travel Requests in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-travel-requisitions): Learn how to create, submit, track, and close travel requests, estimate travel costs, and link approved requests to expense reports in Business Central.
-  - In the observatory: [Page 118 "General Ledger Setup"](../../../../objects/page/118.md), [Page 6939 "Expense Approval Setup"](../../../../objects/page/6939.md), [Page 6951 "Expense Users"](../../../../objects/page/6951.md)
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../objects/page/118.md), [Page 6939 "Expense Approval Setup"](../../../../objects/page/6939.md)
 - [Post Expense Reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-post-reports): Learn how to verify VAT reclaim decisions, preview and post approved expense reports, and review the entries and documents created by posting.
 - [Record and reimburse employees' expenses](https://learn.microsoft.com/dynamics365/business-central/finance-how-record-reimburse-employee-expenses): Post employees' expenses with the general journal to the employee's account then post a payment to their bank account to reimburse the business-related expense.
   - In the observatory: [Page 6998 "Posted Expense Report"](../../../../objects/page/6998.md)
 - [Review and Approve Expense Reports](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-approve-reports): Learn how managers and accountants review expense reports, decide VAT reclaim, approve or reject reports, and prepare them for posting.
-  - In the observatory: [Page 7091 "Accountant Expense Reports"](../../../../objects/page/7091.md)
+  - In the observatory: [Page 6910 "Expense Report"](../../../../objects/page/6910.md), [Page 6997 "Expense Reports"](../../../../objects/page/6997.md), [Page 7091 "Accountant Expense Reports"](../../../../objects/page/7091.md), [Page 9807 "User Card"](../../../../objects/page/9807.md)
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:20.499Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -276,7 +276,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10492 [SOA] Restrict direct deletion of contact overrides](../../../../changes/bcapps/10492.md) (code change): "Inherent delete permission removed from table to prevent unauthorized direct deletion"
 - [#11996 Restrict expense configuration maintenance to admins](../../../../changes/bcapps/11996.md) (code change): "Restrict configuration maintenance for expense management to administrators"
 - [#12140 [Email - SMTP Connector] Fix OAuth Base64URL token parsing](../../../../changes/bcapps/12140.md) (code change): "Base64URL tokens are converted to standard Base64 format before decoding"
-- [#12617 [Security] Move URL checks from Web Request Helper to System Application Uri module](../../../../changes/bcapps/12617.md) (code change): "URL validation moved from Web Request Helper using DotNet System.Uri to native"
+- [#12617 [Security] Move URL checks from Web Request Helper to System Application Uri module](../../../../changes/bcapps/12617.md) (code change): "Move URL checks from Web Request Helper to System Application Uri module"
 - [#9360 Harden SFTP Client module (security review phase 1)](../../../../changes/bcapps/9360.md) (code change): "MD5 host-key fingerprints are no longer supported; only SHA256 prefixes accepted"
 - [#9717 Fix internal admin losing SUPER during customized plan provisioning](../../../../changes/bcapps/9717.md) (code change): "Internal tenant administrators no longer lose SUPER permission set when their customized plan"
 - [#9838 Grant indirect read on Privacy Notice tables in Privacy Notice Impl.](../../../../changes/bcapps/9838.md) (code change): "The Privacy Notice Impl. codeunit now grants indirect read permission on Privacy Notice"

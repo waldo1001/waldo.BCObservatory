@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:56:44.042Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-11-10T00:14:28.203Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -99,7 +99,7 @@ preview:
   image_h: null
   site_name: Stefan Maron
   favicon: https://stefanmaron.com/icons/favicon-32x32.png
-  probed_at: "2026-10-07T11:50:43.194Z"
+  probed_at: "2026-11-10T00:49:40.661Z"
 ---
 
 # Building a Plug & Play Claude Code Dev Container for AL Development

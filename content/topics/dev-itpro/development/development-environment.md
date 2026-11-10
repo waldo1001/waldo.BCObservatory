@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/development-environment
 type: topic
 title: Development environment
-summary: "Development environment for Business Central AL work: setting up VS Code, projects and workspaces, sandboxes, compiling, publishing, debugging, code analysis, testing, app packaging and extra tools. It answers setup, configuration, and day-to-day development workflow questions."
+summary: The Development environment section covers setting up and using the AL development environment for Business Central in Visual Studio Code. It answers questions on configuration, projects and workspaces, code analysis, compiling, publishing, debugging, testing, sandboxes, app.json and apps, and supporting tools.
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:01:01.729Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 884e848f809c04fe926ef7a6bd70b7fca8c83dbbd5d9e62af86a6bf5e663c7de
+  input_hash: d1421f14fc5083453c75f66704bf3401e7df6b29da6a46f146029a821e73cf4a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-resources
@@ -362,28 +362,28 @@ narrative: generated
 
 # Development environment
 
-> Development environment for Business Central AL work: setting up VS Code, projects and workspaces, sandboxes, compiling, publishing, debugging, code analysis, testing, app packaging and extra tools. It answers setup, configuration, and day-to-day development workflow questions.
+> The Development environment section covers setting up and using the AL development environment for Business Central in Visual Studio Code. It answers questions on configuration, projects and workspaces, code analysis, compiling, publishing, debugging, testing, sandboxes, app.json and apps, and supporting tools.
 
-Path: [Development](../development.md) > Development environment · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Development](../development.md) > Development environment · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers everything needed to build AL extensions for Business Central, from preparing the tools to checking the finished app. It starts with configuring the AL Language extension in Visual Studio Code, including performance tuning, container and GitHub Codespaces setups, runtime targeting, and resource exposure policy.
+This section is a set of subtopics that follow the AL development workflow. It starts with configuring the environment (VS Code AL Language extension settings, performance tuning, container and GitHub Codespaces setups, runtime targeting) and configuring projects and workspaces (multi-root workspaces, per-folder settings, project references in app.json).
 
-From there the pages follow the development cycle. Projects and workspaces cover multi-root workspaces and project references in app.json. Sandboxes explain online versus container environments. Working with apps covers app identity, runtime version, and packaging. Compile, publish, and debug covers breakpoints, snapshot debugging, the AL Profiler, and package signing. Code analysis and Testing support quality checks. Other tools adds Page Inspection, Txt2Al, and the table data viewer.
+Next come the day-to-day tasks: code analysis, compiling, publishing and debugging (breakpoints, attach and snapshot debugging, the AL Profiler, package signing), and testing (test codeunits, test pages, test runners, mocking HttpClient, performance testing, page scripting). Sandboxes and Working with apps cover environments (online versus container, Docker and BCContainerHelper, user plans and entitlements) and how apps are identified and packaged through app.json.
 
-A good starting point is Configure the development environment, then Work in sandboxes if you need a container-based setup. Go to Compile, publish, and debug or Testing once a project is running.
+Start with Configure the development environment if you are setting up for the first time. Use Other tools (Page Inspection, Txt2Al, table data viewer) when you need to inspect pages or tables or convert C/AL code. The Code analysis subtopic has no summary here, so check its pages directly.
 
 ## Key points
 
-- Configure the development environment covers AL Language extension settings, performance tuning, container and GitHub Codespaces setups, runtime targeting, and resource exposure policy.
-- Projects and workspaces: multi-root workspaces, per-folder settings, and project references in app.json, including symbol resolution and recovery from publishing failures.
-- Sandboxes: online and container sandboxes differ; containers run with Docker and BCContainerHelper; extensions can be tested under different user plans and entitlements.
-- Compile, publish, and debug covers breakpoints, attach and snapshot debugging, the AL Profiler, compilation scope, package signing, Entra authentication for on-premises, and RAD publishing.
-- Testing covers test codeunits, methods, test pages, handlers, test runners, running tests in VS Code, mocking HttpClient calls, performance testing, and UI acceptance testing with page scripting.
-- Working with apps covers app identity in app.json, runtime version choice, packaging resources and data, and library and dependency apps.
-- Other tools: Page Inspection for page structure and data sources, Txt2Al for converting C/AL objects to AL (such as NAV 14 code), and the table data viewer for tenant tables.
-- Code analysis is a separate subtopic with 9 pages; open it directly for analyzer details.
+- Configuration covers VS Code AL Language extension settings, performance tuning, container and GitHub Codespaces setups, runtime targeting, and resource exposure policy.
+- Multi-root workspaces, per-folder settings, and project references in app.json are covered, including symbol resolution and recovery from publishing failures.
+- Debugging topics include breakpoints, attach debugging, snapshot debugging, and the AL Profiler.
+- Compile and publish pages also cover compilation scope, package signing, Entra authentication for on-premises, and RAD publishing.
+- Testing covers AL test codeunits, test methods, handlers, test pages, test runners, mocking HttpClient calls, performance testing, page scripting, and app validation FAQs.
+- Sandbox pages explain online versus container sandboxes, running containers with Docker and BCContainerHelper, and testing under different user plans and entitlements.
+- Working with apps explains app.json settings (app ID, version, runtime version), bundling resources and data, and library and dependency apps.
+- Other tools: Page Inspection, Txt2Al for converting C/AL objects (NAV 14 code) to AL, and the table data viewer for tenant tables.
 
 ## Subtopics
 

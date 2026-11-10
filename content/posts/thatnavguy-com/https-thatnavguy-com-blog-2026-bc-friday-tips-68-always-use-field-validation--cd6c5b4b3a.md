@@ -19,7 +19,7 @@ review:
   at: "2026-10-08T01:55:47.370Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-11-10T00:14:28.203Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -103,7 +103,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:50:42.941Z"
+  probed_at: "2026-11-10T00:49:26.658Z"
 ---
 
 # BC Friday Tips #68 Always Use Field Validation

@@ -1,37 +1,39 @@
 {
   "hub_id": "topic/business-central/business-functionality",
-  "input_hash": "55b7bb7baac7a75eecc2ee3a3bf7567866bcb50ab058d77e9c880a6976f12fa9",
-  "summary": "Business functionality in Business Central is the main section for business processes: finance, sales, purchasing, inventory, projects, fixed assets, manufacturing, warehouse, service, sustainability, Shopify and local country features. It answers setup, how-to and how-it-works questions and points to the right area.",
-  "overview": "This section groups the documentation for what Business Central does. One overview page lists the supported areas: finance and payments, sales and quotes, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management. Each area has its own subtopic with how-to and setup pages.\n\nThe subtopics fall into a few groups. Core trade and finance areas are Finance, Sales, Purchasing, Inventory and Fixed assets. Operations areas are Project management, Planning, Assembly, Manufacturing, Warehouse, Quality and Service management. Others cover Relationship management, Human resources, Sustainability, Expense management (preview), Online store with Shopify and Company hub. General business functionality holds tools shared across areas, such as posting, job queues and workflows.\n\nStart with the overview page, then go to the subtopic for your process. Use Set up Business Central for configuration, Local functionality for country-specific rules, and Design details when you need to know how calculations and posting work internally.",
+  "input_hash": "203e953824fce35cd8b584d312b36e702a217097af398954e17ec8e72433f6a9",
+  "summary": "Business functionality in Business Central is the top-level section for the business processes the product supports: finance, sales, purchasing, inventory, projects, fixed assets, manufacturing, warehouse, service, sustainability and more. Each functional area has a subtopic for setup and how-to questions. Separate sections cover setup, local functionality and design details across all areas.",
+  "overview": "This section starts with one overview page that lists what Business Central supports: finance and payments, sales and quotes, purchase management, inventory, project management, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management. Use it to see which business process applies, then go to the matching subtopic.\n\nMost subtopics cover one functional area each. Finance, Sales, Purchasing, Inventory, Project management, Fixed assets and Manufacturing hold the core how-to content, and each of the last six has its own analytics or reports subtopic. Other areas include Relationship management, Human resources, Planning, Assembly, Warehouse, Quality, Service (Premium experience only), Sustainability, Expense management (preview), Online store with Shopify and Company hub. General business functionality covers tools shared across areas, such as posting, job queues, workflows and incoming documents.\n\nThree subtopics work across areas. Set up Business Central covers configuration for each area. Local functionality covers country-specific and regulatory features. Design details explains how calculations and posting work internally. For a first look, read the overview page, then the subtopic for your area, then its setup pages.",
   "key_points": [
-    "Finance is the largest functional area (258 pages): general ledger, dimensions, currencies, receivables, payables, bank reconciliation, VAT, cost accounting, cash flow, period closing, E-Documents and consolidation.",
-    "Sales (133 pages) covers quotes, orders, invoices, returns, drop and special orders, prepayments, with Sales analytics and Subscription billing as subtopics.",
-    "Inventory, Purchasing, Project management and Fixed assets each have how-to pages and an analytics or reports subtopic.",
-    "Manufacturing, Planning, Assembly and Warehouse management cover production orders, MPS/MRP runs, assembly orders and inbound/outbound warehouse processes.",
-    "Service management is for the Premium experience only.",
-    "Quality management uses the Microsoft-published Quality Management extension for automatic, manual and scheduled inspections.",
-    "Expense management is a preview and works with or without the AI-powered Expense Agent.",
-    "Local functionality (603 pages) covers more than 20 countries and regions, plus partner guidance for localization apps."
+    "One overview page lists the supported areas: finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service.",
+    "Finance is the largest functional area (258 pages): general ledger, dimensions, currencies, bank reconciliation, VAT, cost accounting, cash flow, consolidation and E-Documents.",
+    "Sales, Purchasing, Inventory, Project management, Fixed assets and Manufacturing cover their main processes, and each has an analytics or reports subtopic.",
+    "General business functionality covers cross-area tools: batch posting, document archiving, job queues, Excel export, workflows and incoming documents.",
+    "Service management is available in the Premium experience only.",
+    "Quality management uses the Microsoft-published Quality Management extension; Expense management is in preview and includes an AI-powered Expense Agent.",
+    "Local functionality (603 pages) covers country-specific tax, banking, e-invoicing and reporting for more than 20 countries and regions, plus partner localization guidance.",
+    "Set up Business Central covers configuration, and Design details explains internal logic such as supply planning, inventory costing and item tracking."
   ],
   "members_used": 1,
   "subtopics_used": 22,
   "prompt_version": 1,
-  "at": "2026-11-09T00:45:05.313Z",
+  "at": "2026-11-10T00:57:18.900Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.025736000000000002
+    "cost_usd": 0.022849
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-09T00:45:15.888Z",
-    "verdict": "approve",
+    "at": "2026-11-10T00:57:46.433Z",
+    "verdict": "fix",
     "issues": [
-      "Key point calling Finance 'the largest functional area (258 pages)' only holds if Local functionality (603 pages) is not counted as a functional area; defensible but could be clearer.",
-      "'Each area has its own subtopic with how-to and setup pages' slightly overgeneralizes; Human resources has only 3 pages and its summary does not mention setup pages."
+      "The overview's list of subtopics leaves out Relationship management (43 pages) and Human resources (3 pages).",
+      "The overview calls Service management a smaller area, but it has 56 pages, more than Project management (43) or Fixed assets (40).",
+      "Key point 3 says the core areas 'cover their full process lifecycles', which only the Sales, Manufacturing and Project management summaries support. All six of those areas have an analytics or reports subtopic, so 'several' undersells it.",
+      "The summary's last sentence ('points to the area that answers setup and how-to questions') is unclear and doesn't name an area."
     ],
-    "input_hash": "55b7bb7baac7a75eecc2ee3a3bf7567866bcb50ab058d77e9c880a6976f12fa9",
-    "cost_usd": 0.060731999999999994
+    "input_hash": "203e953824fce35cd8b584d312b36e702a217097af398954e17ec8e72433f6a9",
+    "cost_usd": 0.099852
   }
 }

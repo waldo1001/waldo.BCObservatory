@@ -2,54 +2,61 @@
 id: topic/business-central/copilot-and-agent-capabilities/expense-agent-preview
 type: topic
 title: Expense Agent (preview)
-summary: Expense Agent (preview) in Business Central is an AI agent that automates expenses. This section answers how to set it up, upload receipts, create mileage expenses, review and edit expenses, build and submit reports, approve or send back reports, and use the mobile app.
+summary: Expense Agent (preview) is an AI-powered agent in Business Central for capturing receipts, managing expenses, building expense reports, and handling travel requests and approvals. The section answers questions about setup, daily use for submitters and approvers, and the mobile app.
 tier: official
 language: en
 system: copilot
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-30T08:08:38.208Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 6a5886e9468db8adfba172ee370a539343807c74fda2187469988db0d33dda94
+  input_hash: f617c0707a7e84bcbc15400d53ebecdaac0b8283a62c53c450c2f7e6e379649c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-approve-reports
-    title: Approve or Send Back Expense Reports
-    date: "2026-10-07"
+    title: Approve Expense Reports and Travel Requests
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-expense-reports
     title: Create and Submit Expense Reports in Expense Agent
-    date: "2026-10-07"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent
-    title: Expense Agent overview for Business Central
-    date: "2026-10-02"
+    url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-travel-requests
+    title: Create and Submit Travel Requests in Expense Agent
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview
     title: Expense Agent Overview for Business Central
-    date: "2026-10-02"
+    date: "2026-11-04"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent
+    title: Expense Agent Overview in Business Central
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent
     title: How the Expense Agent Processes Emails
-    date: "2026-10-02"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
@@ -63,28 +70,28 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page
     title: Set Up Expense Agent in Business Central
-    date: "2026-10-02"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance
     title: Understand Policy Compliance in Expense Agent
-    date: "2026-10-02"
+    date: "2026-10-07"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts
     title: Upload Receipts and Create Mileage Expenses
-    date: "2026-10-07"
+    date: "2026-11-03"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-mobile-app
     title: Use the Expense Agent Mobile App (preview)
-    date: "2026-10-07"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
@@ -92,6 +99,7 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-approve-reports
     - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-expense-reports
+    - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-travel-requests
     - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-edit-expenses
     - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page
     - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts
@@ -117,14 +125,12 @@ links:
     - video/kDixaZFPYE8
     - video/M0IzeLSn7qU
     - video/o94V_lF8oNM
-    - video/P1V4jy08YM8
     - video/pjML7lXSsd0
     - video/q-udoJPGUKE
     - video/rSGCNMIBcpc
     - video/tj1vvsmAMVs
     - video/vyQnSxRGJDA
   posts:
-    - post/thinkaboutit-be/7977
     - post/thinkaboutit-be/8348
   guidelines: []
   changes:
@@ -155,43 +161,43 @@ parent: topic/business-central/copilot-and-agent-capabilities
 children:
   - topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview
 coverage:
-  learn: 10
+  learn: 11
   code: 3
-  video: 17
-  blog: 2
+  video: 16
+  blog: 1
   guideline: 0
 bc_forms:
   - 4400
   - 4410
   - 6996
-member_hash: 1dbc15dfea2bd0a06c575b5fb202e1a9dd1391e5f077d8d4dcf023dc6f4c7b69
+member_hash: 1f1c912996e9007d7fdfed1c36233345f6823392556a39ffa2a42c18ad15a1cd
 narrative: generated
 ---
 
 # Expense Agent (preview)
 
-> Expense Agent (preview) in Business Central is an AI agent that automates expenses. This section answers how to set it up, upload receipts, create mileage expenses, review and edit expenses, build and submit reports, approve or send back reports, and use the mobile app.
+> Expense Agent (preview) is an AI-powered agent in Business Central for capturing receipts, managing expenses, building expense reports, and handling travel requests and approvals. The section answers questions about setup, daily use for submitters and approvers, and the mobile app.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Expense Agent (preview) · tier official · system copilot · narrative reviewed (checked by Opus)
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Expense Agent (preview) · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Expense Agent (preview) automates the expense lifecycle in Business Central. It scans receipts, adds expenses to draft reports, and checks them against company rules and policies. The section has an overview subtopic that explains what the agent does and how it handles emails and receipts.
+Expense Agent (preview) automates expense tracking in Business Central. It scans receipts with AI, creates and categorizes expenses, groups them into reports, and checks them against policy before submission. The overview subtopic explains what the agent does, how it handles emailed receipts, and how compliance rules are evaluated.
 
-The task pages follow the process in order. Administrators start with the setup page, which covers assisted setup, submission channels (email and web app), approval workflows, accounting defaults, policy evaluation, and communication settings. Employees then upload receipts or create mileage expenses, review and edit the details, group expenses into reports, and submit them. Approvers review the reports and either approve them or send them back with comments.
+The pages follow the expense lifecycle. An administrator starts with the guided assisted setup, which covers receipt submission channels (email and web app), accounting defaults, expense rules, policy compliance, and communication settings. Users then upload receipts or create mileage expenses, review and edit the details, and create and submit expense reports. Travel requests can be submitted before a trip to get approval. Approvers use a separate page to approve or send back reports and travel requests.
 
-A separate page covers the iOS and Android mobile app, which supports receipt capture, mileage, submission, and approval. Start with the overview, then the setup page if you are configuring the agent, or the upload page if you are an end user.
+Start with the overview subtopic to understand the agent, then read the setup page. Submitters can continue with receipts and mileage, expense review, and report pages. The mobile app page covers use on iOS and Android.
 
 ## Key points
 
-- Setup is done by administrators through assisted setup: submission channels (email, web app), approval workflows, accounting defaults, policy compliance rules, and communication settings.
-- AI scans receipt images and extracts merchant name, amount, date, and category, then adds the expense to a draft report.
-- Receipts can be uploaded by web app, mobile app, or email. Currency conversion is automatic and VAT reclaim is identified.
-- Mileage expenses are created by entering trip details.
-- Users can edit details, categorize or delete expenses, and resolve AI-flagged issues before submission. VAT is displayed.
-- Reports group expenses by period. Users can rename them, add receipts, move expenses between reports, and run AI-assisted policy checks before submitting.
-- Approvers review categories, receipts, compliance warnings, and approval history, then approve or send back with comments.
-- The mobile app (preview, iOS and Android) offers live edge detection, multipage scanning, offline viewing, and sync with the web app.
+- Setup is done through guided assisted setup: receipt submission channels (email, web app), accounting defaults, expense rules, policy compliance, and communication settings.
+- AI scans receipt images and extracts merchant, amount, date, and category; VAT is captured and tracked.
+- Mileage expenses are created from trip details with automatic distance calculation and currency conversion.
+- Users can edit, categorize, and delete expenses and resolve AI-flagged issues before submission.
+- Expense reports can be created automatically or organized manually, with expenses moved between reports and a history timeline; policy is evaluated before submission.
+- Travel requests cover traveler details, per diem allowances, and estimated expenses, and support receipt matching.
+- Approvers can approve or send back reports and travel requests with comments, review compliance warnings, use interim approval workflows, and see approval history.
+- The mobile app for iOS and Android supports camera capture with edge detection, multipage scanning, offline use, and travel request planning.
 
 ## Subtopics
 
@@ -199,12 +205,14 @@ A separate page covers the iOS and Android mobile app, which supports receipt ca
 
 ## More Learn pages
 
-- [Approve or Send Back Expense Reports](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-approve-reports): Learn how to review submitted expense reports and policy results, then approve them or send them back with comments in Expense Agent.
+- [Approve Expense Reports and Travel Requests](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-approve-reports): Review expense reports, policy results, and planned travel in Expense Agent. Approve reports and travel requests or send them back with comments.
 - [Create and Submit Expense Reports in Expense Agent](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-expense-reports): Learn how to create expense reports, add expenses, move expenses between reports, and submit reports for approval in Expense Agent.
+- [Create and Submit Travel Requests in Expense Agent](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-travel-requests): Plan a business trip in Expense Agent, estimate costs, add travelers and per diem details, and submit a travel request before you incur expenses.
 - [Review and Edit Expenses in Expense Agent](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-edit-expenses): Review and edit expense details in Expense Agent after AI receipt scanning or manual entry. Update the vendor, amount, category, and other fields.
 - [Set Up Expense Agent in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page): Learn how to set up Expense Agent to automate expense tracking, processing, policy evaluation, and approval workflows in Business Central.
+  - In the observatory: [Page 4317 "Agent User Settings"](../../../objects/page/4317.md)
 - [Upload Receipts and Create Mileage Expenses](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts): Upload receipts to Expense Agent for AI extraction or create mileage expenses with route-based distance calculation in the web app.
-  - In the observatory: [Page 6997 "Expense Reports"](../../../objects/page/6997.md), [Page 7128 "Mileage Rate Setup"](../../../objects/page/7128.md)
+  - In the observatory: [Page 7128 "Mileage Rate Setup"](../../../objects/page/7128.md)
 - [Use the Expense Agent Mobile App (preview)](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-mobile-app): Capture receipts on the go with the Business Central Expenses mobile app for iOS and Android, featuring document scanning and offline support.
   - In the observatory: [Page 7128 "Mileage Rate Setup"](../../../objects/page/7128.md)
 
@@ -231,11 +239,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13504 Exposing-VAT-settings-on-category-card](../../../changes/bcapps/13504.md) (code change): "VAT settings are now exposed on the Expense Category Card page"
 - [#13569 Update expense policy defaults, caption, and search terms](../../../changes/bcapps/13569.md) (code change): "Expense Agent setups enable policy evaluation by default"
 - [#13721 [Expense Agent] Create per diem line when approving travel requests with Per Diem Included](../../../changes/bcapps/13721.md) (code change): "Expense Agent Create per diem line when approving travel requests with Per Diem Included"
-- [Quick Tip: What’s in Business Central Update 28.2](../../../posts/thinkaboutit-be/7977.md) (community post): "Sales Order Agent now supports Belgium and Switzerland"
 - [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../../../posts/thinkaboutit-be/8348.md) (community post): "It also covers Business Skills, the Expense Agent and what AI interaction means"
-- [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../videos/4TE8uwIi91k.md) (video): "Expense agent; mobile app; receipt scanning; mileage tracking"
+- [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../videos/4TE8uwIi91k.md) (video): "expense agent; mobile app; receipt scanning; mileage tracking; offline mode"
 - [Expense Agent: Feedback (2026 release wave 1)](../../../videos/6rm45dSB6xg.md) (video): "Expense Agent: Feedback (2026 release wave 1). Topics: feedback; agent; user experience"
-- [Expense Agent: Web App Experience (2026 release wave 1)](../../../videos/ARKckFygbWQ.md) (video): "Expense agent; web app experience; receipt capture; receipt extraction; automatic categorization"
+- [Expense Agent: Web App Experience (2026 release wave 1)](../../../videos/ARKckFygbWQ.md) (video): "Web app experience for expense agent; Automatic receipt data extraction"
 - [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../../videos/cVfZoDwKYpI.md) (video): "Behind the scenes of how we build the new Expense Agent"
 - [What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)](../../../videos/cWVhWBMbXb4.md) (video): "Improved Mileage Handling; date-range mileage allowances"
 - [Expense Agent: Mobile Experience (2026 release wave 1)](../../../videos/e_x5QF0vXgs.md) (video): "Expense Agent: Mobile Experience; AI extraction of expense details"
@@ -244,10 +251,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Expense Agent: Countries and Languages (2026 release wave 1)](../../../videos/kDixaZFPYE8.md) (video): "Expense Agent multilingual support; Expense Agent geographic expansion"
 - [What's new in Expense Agent: Improved Approval Process (2026 release wave 2)](../../../videos/M0IzeLSn7qU.md) (video): "expense agent; approval process; ai policies; approval limits"
 - [What's new in Expense Agent: Travel and Expense Policy Automation (2026 release wave 2)](../../../videos/o94V_lF8oNM.md) (video): "What's new in Expense Agent: Travel and Expense Policy Automation"
-- [Expense Agent: Configuration (2026 release wave 1)](../../../videos/P1V4jy08YM8.md) (video): "Expense Agent; configuration wizard; approval workflow; mileage expenses; per diem"
-- [Introducing: Expense Management (2026 release wave 1)](../../../videos/pjML7lXSsd0.md) (video): "Expense agent with AI-driven categorization; Expense collection and itemization"
+- [Introducing: Expense Management (2026 release wave 1)](../../../videos/pjML7lXSsd0.md) (video): "Expense Agent; AI-driven categorization; expense approval workflow"
 - [Introducing: Web App for Expense Agent (2026 release wave 1)](../../../videos/q-udoJPGUKE.md) (video): "Introducing: Web App for Expense Agent expense agent; web app; ai extraction"
-- [Expense Agent: Approvals (2026 release wave 1)](../../../videos/rSGCNMIBcpc.md) (video): "Expense Agent: Approvals; approval process; approvers; email notifications"
+- [Expense Agent: Approvals (2026 release wave 1)](../../../videos/rSGCNMIBcpc.md) (video): "Expense Agent: Approvals; Default approver setup; Per-user approver override"
 - [What's new in Expense Agent: Overview (2026 release wave 2)](../../../videos/tj1vvsmAMVs.md) (video): "What's new in Expense Agent: Overview (2026 release wave 2)"
 - [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../videos/vyQnSxRGJDA.md) (video): "Per Diem Allowances; expense agent; itinerary detection; meal reductions"
 

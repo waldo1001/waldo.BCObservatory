@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/13628",
+  "input_hash": "628d85129eac5e367b237c8ed64866df84b60b24b43cd458352d4629178b248e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-10T00:55:21.460Z",
+  "issues": [
+    "Key point claims changes across all localization layers; only W1 and some country layers are touched, and FR and NO change only Sales-Post",
+    "Key point about data flow is vague; made it concrete"
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020262,
+    "changes_in_call": 4
+  }
+}

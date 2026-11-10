@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/development-environment/working-with-apps
 type: topic
 title: Working with apps
-summary: "Working with apps covers how to build and manage AL apps (extensions) in Business Central: app identity in app.json, runtime version choice, packaging resources and data, and library and dependency apps. It answers questions about app.json settings and extension packaging."
+summary: Working with apps covers how AL extensions are identified, configured, and packaged in Business Central. It answers questions about app.json settings (app ID, version, runtime version), bundling resources and data, and library and dependency apps.
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:03:23.369Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 531f03897284d9df710ef5df4e09f0b0b4c4320d1dd5b5e3fc498b0bf73384dd
+  input_hash: 67d18f27e480e6ec87b020ae868fa1243346ee2acf22a95dd220188fcdf0d13e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-resources
@@ -88,25 +88,28 @@ narrative: generated
 
 # Working with apps
 
-> Working with apps covers how to build and manage AL apps (extensions) in Business Central: app identity in app.json, runtime version choice, packaging resources and data, and library and dependency apps. It answers questions about app.json settings and extension packaging.
+> Working with apps covers how AL extensions are identified, configured, and packaged in Business Central. It answers questions about app.json settings (app ID, version, runtime version), bundling resources and data, and library and dependency apps.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Working with apps · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Working with apps · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects practical topics for developers handling the app package itself rather than its AL code. Most of them center on the app.json manifest: which identity values it holds, which runtime version it targets, and which resource folders it declares.
+This section collects practical topics for developers who build and maintain AL apps. It centers on the app.json manifest: it defines the app's identity (ID, version, name, publisher, scope) and the AL runtime version, which decides what AL capabilities are available and must be supported by every target environment, including Business Central online.
 
-Start with the app identity page to learn when the app ID, version, name, and publisher can change. Then read the runtime version page to pick a version that every target environment supports, including Business Central online. After that, use the resources page and the extension data page to bundle files and data with the app. The FAQ on library and dependency apps explains shared code across Marketplace apps and how dependencies get installed.
+Other pages cover what an extension can carry besides code. Resources can be packaged through resourceFolders and exposed to other extensions through publicResourceFolders. Data such as permission sets, web services, table data, and custom report layouts can be added so it is imported when the extension is installed. A FAQ explains library and dependency apps, which let several marketplace apps share common code.
+
+Start with the app identity page to understand what app.json fields mean and when they may change. Then read the runtime version page before choosing a target. Use the resources, data, and library FAQ pages as needed for specific packaging or dependency tasks.
 
 ## Key points
 
-- App identity is managed in app.json: app ID, version, name, publisher, and scope, with guidance on when each can change.
-- The AL runtime version is set in app.json and determines available AL capabilities. Pick one supported by all target environments, including Business Central online.
-- The runtime version page covers compiler defaults, version history, and IntelliSense support, with release waves from 2024 wave 2 to 2026 wave 2.
-- resourceFolders packages private resources for local access. publicResourceFolders exposes resources that other extensions can read (runtime version 18.0).
-- Resource limits are 16 MB per file, 128 MB per folder, and 256 files.
-- Extensions can include permission sets, web services, table data, and custom report layouts, imported at install and loaded with NavApp.LoadPackageData.
-- Library apps hold shared code for multiple Marketplace apps and are installed automatically as dependencies. The FAQ covers version control and technical validation.
+- App identity is managed in app.json: app ID, version numbering, name, publisher, and scope, with guidance on when each may be changed.
+- The AL runtime version is set in app.json and determines AL capabilities. Pick one supported by all target environments, including Business Central online.
+- The runtime version page lists history across release waves (2024 wave 2 through 2026 wave 2) and notes AL compiler defaults and IntelliSense support.
+- Resources are packaged with resourceFolders and shared with other extensions through publicResourceFolders (runtime version 18.0).
+- Resource limits: 16 MB per file, 128 MB per folder, and 256 files.
+- Extensions can add permission sets, web services, table data, and custom report layouts to import at install time, using the NavApp.LoadPackageData procedure for table data.
+- Library and dependency apps let multiple marketplace apps share code. Installation is automatic, based on manifest dependencies and dependency chain resolution.
+- Library apps have versioning and technical validation considerations covered in the FAQ.
 
 ## Learn pages
 

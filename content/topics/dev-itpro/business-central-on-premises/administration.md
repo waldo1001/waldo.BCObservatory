@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:53.706Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -310,7 +310,8 @@ links:
     - topic/dev-itpro/business-central-on-premises/administration/monitoring-business-central-server
     - topic/dev-itpro/business-central-on-premises/administration/analyzing-database-performance
   localizations: []
-  videos: []
+  videos:
+    - video/KA1vHd1hITY
   posts: []
   guidelines: []
 learn_toc_path:
@@ -328,7 +329,7 @@ children:
 coverage:
   learn: 38
   code: 3
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -455,6 +456,12 @@ Start with the Administration Shell or Administration Center to learn how instan
   - The add-in enables the Edit in Excel action on list pages, allowing users to push changed data back to Business Central, unlike the basic Open in Excel action.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [How to Install Business Central 29 On-Premises \| Full Setup](../../../videos/KA1vHd1hITY.md) (video): "Business Central 29 On-Premises Installation; Advanced Installation Option; Service tier configuration"
 
 ## Business Central pages and reports
 

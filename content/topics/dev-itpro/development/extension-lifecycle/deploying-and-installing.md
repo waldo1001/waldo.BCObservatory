@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/extension-lifecycle/deploying-and-installing
 type: topic
 title: Deploying and installing
-summary: Deploying and installing covers how to publish, synchronize, install, upgrade, unpublish and uninstall Business Central extensions, plus writing install code and maintaining Marketplace apps and per-tenant extensions. It answers lifecycle and Marketplace offer submission questions.
+summary: Deploying and installing covers how Business Central extensions are published, installed, upgraded, unpublished and uninstalled, plus how to write install code and keep Marketplace apps and per-tenant extensions current. It answers questions about cmdlet workflows, install triggers, upgrade steps and Partner Center offer management.
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-30T08:08:47.161Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 10a64106af2dd85b9199412498116b2c5f36d68af9e5040d90398249c555b1ff
+  input_hash: 022197fdc3f4f93517c57fda4c25c0c1de0f9e0316224e746e88e7e447522247
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-offer
@@ -108,27 +108,23 @@ narrative: generated
 
 # Deploying and installing
 
-> Deploying and installing covers how to publish, synchronize, install, upgrade, unpublish and uninstall Business Central extensions, plus writing install code and maintaining Marketplace apps and per-tenant extensions. It answers lifecycle and Marketplace offer submission questions.
+> Deploying and installing covers how Business Central extensions are published, installed, upgraded, unpublished and uninstalled, plus how to write install code and keep Marketplace apps and per-tenant extensions current. It answers questions about cmdlet workflows, install triggers, upgrade steps and Partner Center offer management.
 
-Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Deploying and installing · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Deploying and installing · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the operational lifecycle of an extension after it is built. It explains how to publish an extension package to a server, synchronize it with the tenant database and install it, and how to write install code that runs on first install or reinstall.
-
-Later lifecycle steps have their own pages: upgrading Marketplace apps manually in production, removing extensions at three different levels (uninstall, unpublish, schema removal), and keeping apps and per-tenant extensions compatible with Business Central release cycles. A FAQ covers managing and submitting Marketplace offers through Partner Center.
-
-Start with Publishing and Installing an Extension for the basic flow, then Writing extensions installation code if you need setup logic. Use the maintenance and upgrade pages for production operations, and the FAQ for offer submission and validation questions.
+This section covers the lifecycle of an extension after it is built. The core workflow is publishing an extension package to a server, synchronizing it with the tenant database, and installing it. Install codeunits let you run logic when an extension is installed or reinstalled.
 
 ## Key points
 
-- Publishing and installing uses the publish-navapp, sync-navapp and install-navapp cmdlets, or the Extension Management page.
-- Install code is written in install codeunits with OnInstallAppPerCompany and OnInstallAppPerDatabase triggers, and can detect fresh installs versus reinstalls.
+- Publishing and installing an extension uses the publish-navapp, sync-navapp and install-navapp cmdlets, or the extension management page.
+- Install code uses codeunits with OnInstallAppPerCompany and OnInstallAppPerDatabase triggers, and can detect fresh installs versus reinstalls.
 - Removal has three levels: uninstall disables the extension on tenants, unpublish removes it from the server instance, and clean-mode synchronization deletes the database schema.
-- Marketplace apps in production can be upgraded manually through the Extension Management page or the Admin Center.
-- Partners must keep Marketplace apps and per-tenant extensions compatible with major releases, with defined update, grace and enforced update periods.
-- Maintenance support includes preview environments, prerelease bits, AppSourceCop analyzer rules and automated extension validation.
-- The offer FAQ covers the Partner Center submission process, Go Live, Review and publish, validation queuing and technical validation.
+- Marketplace apps in production can be upgraded manually from the Extension Management page or the Admin Center.
+- Partners must keep Marketplace apps and per-tenant extensions compatible with Business Central release cycles, which include update, grace and enforced update periods for major releases.
+- Preview environments, prerelease bits, AppSourceCop analyzer rules and automated extension validation support compatibility testing.
+- The Partner Center FAQ explains the Go Live and Review and publish buttons, the validation queue, technical validation and marketing changes.
 
 ## Learn pages
 
@@ -150,7 +146,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "Installing a PTE means choosing a deployment schedule and a sync mode"
 - [BC Friday Tips #85 Schedule PTE Extension Updates from the Admin Centre](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-85-schedule-pte-extension-updates--b3aee1ab46.md) (community post): "Business Central automatically deploys extensions during the scheduled window"
 - [Introducing BC Mission Control](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-introducing-bc-mission-control--6418abfaea.md) (community post): "deploy extensions, compare app versions, check sessions"
-- [Business Central 29: Manage Per-Tenant Extensions from the Admin Center](../../../../posts/thinkaboutit-be/8313.md) (community post): "PTEs can now be deployed through the Admin Center with scheduling options"
+- [Business Central 29: Manage Per-Tenant Extensions from the Admin Center](../../../../posts/thinkaboutit-be/8313.md) (community post): "PTE deployments centrally. The existing Extension Management experience will be deprecated"
 - [Dynamics 365 Business Central: Upload, install, and manage PTEs in the admin center (Remove ability to upload and install PTEs from Extension Management page)](../../../../posts/yzhums-com/74541.md) (community post): "admins can upload, install, schedule and uninstall per-tenant extensions in the Admin Center"
 - [Business Central 2026 release wave 2 (BC29): Retained DEV extensions (DEV extensions remain installed during environment update)](../../../../posts/yzhums-com/76570.md) (community post): "DEV extensions published from VS Code are no longer uninstalled"
 - [What's New in AL: Dependency Publishing (2024 release wave 2)](../../../../videos/JKsLjwSh0SQ.md) (video): "Dependency Publishing Options - Default"

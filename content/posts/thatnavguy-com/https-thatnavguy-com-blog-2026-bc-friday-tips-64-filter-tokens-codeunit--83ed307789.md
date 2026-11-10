@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:56:55.282Z"
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-11-10T00:14:28.203Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -88,7 +88,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:50:48.167Z"
+  probed_at: "2026-11-10T00:49:38.667Z"
 ---
 
 # BC Friday Tips #64 Filter Tokens Codeunit

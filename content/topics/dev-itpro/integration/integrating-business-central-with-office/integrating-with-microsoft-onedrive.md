@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:45.644Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,8 +106,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11555 [SharePoint Graph] Follow-up corrections for UpdateListItem and drive item telemetry](../../../../changes/bcapps/11555.md) (code change): "SharePoint Graph client corrections preserve unmodified fields during UpdateListItem operations"
 - [#8051 [Edit in Excel] Expose ExternalizeODataObjectName and add Page Control Field publisher](../../../../changes/bcapps/8051.md) (code change): "Enables integration with Edit in Excel without forking internal conversion logic"
 - [Dynamics 365 Business Central Blog Series: Integrate Business Central with OneDrive](../../../../posts/yzhums-com/63749.md) (community post): "File operations between Business Central and OneDrive can be performed using AL code with Graph API"
-- [Dynamics 365 Business Central: How to disable/hide OneDrive action group for all users](../../../../posts/yzhums-com/63803.md) (community post): "disable or hide OneDrive action groups in Dynamics 365"
+- [Dynamics 365 Business Central: How to disable/hide OneDrive action group for all users](../../../../posts/yzhums-com/63803.md) (community post): "disable or hide OneDrive action groups in Dynamics 365 Business Central for all users"
 - [Dynamics 365 Business Central: How to use Open in Excel in the browser/web (Excel Online)](../../../../posts/yzhums-com/69433.md) (community post): "When OneDrive for system features is enabled, the Excel workbook opens directly in Excel for the web"
-- [Dynamics 365 Business Central: How to view excel reports (Excel Layout) directly from the web without downloading files (Excel Online)](../../../../posts/yzhums-com/69812.md) (community post): "Use OneDrive for system features is turned on in the OneDrive Setup assisted setup"
+- [Dynamics 365 Business Central: How to view excel reports (Excel Layout) directly from the web without downloading files (Excel Online)](../../../../posts/yzhums-com/69812.md) (community post): "Use OneDrive for system features copies Excel and Word report output to OneDrive"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

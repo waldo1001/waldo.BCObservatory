@@ -8,11 +8,11 @@
   ],
   "summary": "A per-company upgrade initializes missing vendor number series for the Expense Agent, ensuring merchant-driven expense creation works after upgrades when defaults were applied but vendor numbering remained blank.",
   "key_points": [
-    "Adds an upgrade codeunit that fills only blank Expense Vendor Nos. fields while preserving existing configurations",
+    "Adds a tagged per-company upgrade step to the existing upgrade codeunit that fills only blank Expense Vendor Nos. values",
+    "Vendor-only initializer preserves configured number series and existing counters",
     "Repairs the same missing value through default settings and the setup wizard",
     "Enables the default-settings action when the vendor numbering field is empty",
-    "Includes test coverage for upgrade execution, number series preservation, and merchant expense creation",
-    "No schema or localization changes introduced"
+    "Adds tests for upgrade, number series preservation and merchant expense creation (not yet run per the description)"
   ],
   "change_kind": "fix",
   "behavior_change": true,

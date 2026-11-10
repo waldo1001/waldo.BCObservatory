@@ -1,36 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/pages",
-  "input_hash": "0bb61d53330ff5eec559ab3cebe67c78294437f1213319bad056e1371a3cd28b",
-  "summary": "Pages in AL for Business Central: page objects and extensions, page types (card, list, parts, NavigatePage, PromptDialog, ConfigurationDialog), field layout and formatting, and user assistance such as tooltips, Tell me, teaching tips and discoverability. It answers how to design, lay out and extend pages.",
-  "overview": "This section covers building the user interface of Business Central with AL page objects. It starts with the general pages: Pages overview, Page object, Page types and layouts, and Page extension object. Together they explain page types, layout areas, actions, and how to extend existing pages with keywords such as addlast, addafter and modify.\n\nFurther pages cover specific designs: card, document and list pages, with simple examples; page parts (CardPart, ListPart, HeadlinePart, Power BI) and FactBoxes; and layout controls such as FastTabs, grid, fixed control, repeaters, indented hierarchies and tiles. Others cover field formatting, rich text, custom filter tokens, assisted setup guides, and the PromptDialog and ConfigurationDialog page types for Copilot and agents.\n\nA third group covers user assistance and discoverability: tooltips, Tell me, Role Explorer, teaching tips and tours. To start, read Pages overview and Page types and layouts, then go to the page type you need.",
+  "input_hash": "7c233ed2742027e723d689967791b4e0c58c9be01c32514b02d7cc346771f6bc",
+  "summary": "Pages in AL for Business Central: page types and layouts, card, list, part and dialog pages, field arrangement and formatting, FactBoxes, tooltips, discoverability, page extensions, and Copilot PromptDialog pages. It answers how to design, build and extend pages and their user assistance.",
+  "overview": "This section covers how to build the user-facing pages of Business Central in AL. It starts with the basics (Pages overview, Page object, Page types and layouts, Page extension object) and then covers specific page types: card and document pages, list pages, ListPart, CardPart and HeadlinePart parts, NavigatePage setup guides, PromptDialog and ConfigurationDialog.\n\nFurther pages cover layout and field behavior: FastTab arrangement, grid and fixed controls, repeaters, indented hierarchies, tiles and field groups, field formatting, rich text, and embedded Power BI reports. A third group covers user assistance and findability: tooltips, teaching tips and tours, Tell me, page discoverability, and custom filter tokens.\n\nStart with Pages overview and Page Types and Layouts. Then use the simple card and list page examples as templates, and move to the topic pages for parts, dialogs or layout as needed.",
   "key_points": [
-    "Page extension objects change existing pages using addfirst, addlast, addafter, addbefore, modify and move keywords.",
-    "Card, document and list pages have dedicated design guides plus simple card and list code examples using Customer.",
-    "Page parts (CardPart, ListPart, HeadlinePart, Power BI report parts) embed data from other tables and power FactBoxes, Role Centers and document pages.",
-    "Layout controls: FastTab field arrangement with the Importance property, grid control (GridLayout = Columns), fixed control for read-only matrix layouts, repeater properties, and indented hierarchy lists.",
-    "Tile view is customized with a Brick field group; DropDown field groups define dropdown fields.",
-    "Tooltips set on table fields inherit to pages starting in 2024 release wave 1, and page fields can override them (CodeCop rule AA0234).",
-    "Discoverability uses UsageCategory and AdditionalSearchTerms for Tell me, plus teaching tips (AboutTitle, AboutText) and tours.",
-    "PromptDialog (runtime 12.1) and ConfigurationDialog (preview) support Copilot and agent experiences, with prompt guides and inline error handling for prompt dialogs."
+    "Page types include Card, Document, List, Worksheet, RoleCenter, NavigatePage, PromptDialog and ConfigurationDialog (preview); Page extension objects use addfirst, addlast, addafter, addbefore, modify and move keywords.",
+    "Parts (ListPart, CardPart, HeadlinePart, Power BI report parts) embed in other pages; FactBoxes in the right pane are filtered with SubPageLink or SubPageView.",
+    "Layout options: FastTabs with Importance-based promotion (one to three columns), grid control with GridLayout, a read-only fixed control for matrix layouts, and repeaters with Width and FreezeColumn.",
+    "Indented hierarchies use IndentationColumn, IndentationControls, ShowAsTree and TreeInitialState; tile view uses a Brick field group, and DropDown field groups control dropdowns.",
+    "Tooltips set on table fields inherit to pages from 2024 release wave 1 and can be overridden on the page; CodeCop rule AA0234 applies.",
+    "Tell me discoverability depends on UsageCategory, with AdditionalSearchTerms to improve it; teaching tips use AboutTitle and AboutText.",
+    "PromptDialog pages (runtime 12.1) have Prompt, Content, PromptOptions, SystemActions and PromptGuide areas, and from 2024 release wave 2 show errors inline.",
+    "Field formatting uses AutoFormatType, AutoFormatExpression and DecimalPlaces; custom filter tokens resolve through the OnResolveTextFilterToken event."
   ],
   "members_used": 33,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-22T01:11:49.986Z",
+  "at": "2026-11-10T00:56:32.594Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.037778
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-24T00:54:02.327Z",
-    "verdict": "approve",
-    "issues": [
-      "Key point 1 lists a 'move' keyword. The page summary gives movefirst, movelast, moveafter and movebefore, and there is no plain 'move' keyword. This is a small wording issue, but writing out the four move variants would be more accurate."
-    ],
-    "input_hash": "0bb61d53330ff5eec559ab3cebe67c78294437f1213319bad056e1371a3cd28b",
-    "cost_usd": 0.0718872
+    "cost_usd": 0.038094
   }
 }

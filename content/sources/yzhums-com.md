@@ -2,7 +2,7 @@
 id: source/yzhums-com
 type: source
 title: Dynamics 365 Lab - Yun Zhu
-summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 395 posts in the knowledge base, 2025-04-28 to 2026-11-06, mostly about development, administration, platform."
+summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 396 posts in the knowledge base, 2025-04-28 to 2026-11-09, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-09T00:15:52.409Z"
+  at: "2026-11-10T00:14:28.203Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 0d7ae23c68639fafaa188684daad91db6fe89eb6ae55abc8ca110ec6238dd8b4
+  input_hash: ff8272ba57b12f1d1f6a0f96086cc349c372d3627d4142a2b2313df20baa266a
 evidence:
   - kind: blog
     url: https://yzhums.com
@@ -428,6 +428,7 @@ links:
     - post/yzhums-com/76760
     - post/yzhums-com/77124
     - post/yzhums-com/77153
+    - post/yzhums-com/77170
   guidelines: []
 source_id: yzhums-com
 kind: blog
@@ -435,7 +436,7 @@ url: https://yzhums.com
 author: Yun Zhu
 mvp: true
 full_text: false
-item_count: 395
+item_count: 396
 footprint:
   systems:
     - id: development
@@ -449,7 +450,7 @@ footprint:
     - id: reporting
       weight: 75
     - id: integration
-      weight: 70
+      weight: 71
   topics:
     - id: al development
       weight: 66
@@ -498,12 +499,12 @@ footprint:
       weight: 5
   features: []
 first_item: "2025-04-28"
-last_item: "2026-11-06"
+last_item: "2026-11-09"
 ---
 
 # Dynamics 365 Lab - Yun Zhu
 
-> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 395 posts in the knowledge base, 2025-04-28 to 2026-11-06, mostly about development, administration, platform.
+> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 396 posts in the knowledge base, 2025-04-28 to 2026-11-09, mostly about development, administration, platform.
 
 [https://yzhums.com](https://yzhums.com) · blog · tier community
 
@@ -516,7 +517,7 @@ last_item: "2026-11-06"
 | platform (200) | bc27 (23) | page Customer Card (10) |
 | sales (89) | customization (23) | page Item Card (9) |
 | reporting (75) | bc29 (21) | page Item List (9) |
-| integration (70) | release wave 2 (20) | page Customer List (7) |
+| integration (71) | release wave 2 (20) | page Customer List (7) |
 |  | on-premises (17) | page Sales Order (7) |
 |  | admin center (16) | table Sales Line (7) |
 |  | al language (16) | page Vendor Card (6) |
@@ -534,10 +535,11 @@ Items per quarter, oldest first:
 - 2026-Q1: **************************************** 68
 - 2026-Q2: **************************************** 54
 - 2026-Q3: **************************************** 71
-- 2026-Q4: ************************** 26
+- 2026-Q4: *************************** 27
 
 ## Most recent
 
+- [Microsoft Announces New Business Central + Copilot Bundles Starting January 2027](../posts/yzhums-com/77170.md) (2026-11-09)
 - [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (November, 2026)](../posts/yzhums-com/77153.md) (2026-11-06)
 - [Business Central 2026 release wave 2 (BC29): New notification bar](../posts/yzhums-com/77124.md) (2026-11-06)
 - [Dynamics 365 Business Central: How to import Change Log Setup (Table/Field) using Configuration Packages](../posts/yzhums-com/76760.md) (2026-11-05)
@@ -557,6 +559,5 @@ Items per quarter, oldest first:
 - [Business Central 2026 release wave 2 (BC29): Use conditional visibility in the updated Word add-in (Hide If Empty/False in Word Layout)](../posts/yzhums-com/76655.md) (2026-10-14)
 - [Major update of Dynamics 365 Business Central 2026 release wave 2 (BC29) is available for existing customers](../posts/yzhums-com/76631.md) (2026-10-13)
 - [Business Central 2026 release wave 2 (BC29): AL developers can turn indexes on/off in AL code](../posts/yzhums-com/76518.md) (2026-10-09)
-- [Business Central 2026 release wave 2 (BC29): Retained DEV extensions (DEV extensions remain installed during environment update)](../posts/yzhums-com/76570.md) (2026-10-08)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

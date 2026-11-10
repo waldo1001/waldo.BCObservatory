@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -295,7 +295,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12762 [29.X]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](../../../../../changes/bcapps/12762.md) (code change): "editing vendor ledger entries and purchase invoices, matching the behavior"
 - [#13054 [FR] Delocalize delayed VAT and SEPA payment-slip integration](../../../../../changes/bcapps/13054.md) (code change): "SEPA direct debit export now supports filtered and temporary entries"
 - [#13358 [main] bug 656582 Add Maintenance Code field on purchase order subpage and purchase invoice subpage](../../../../../changes/bcapps/13358.md) (code change): "Maintenance Code field added to the Purch. Invoice Subform page"
-- [#9578 [E-Documents Core] - Enabling remittance advice export via E-Documents (payment journal + posted payments)](../../../../../changes/bcapps/9578.md) (code change): "E-Documents now supports exporting remittance advice from payment journals and posted vendor payments"
+- [#9578 [E-Documents Core] - Enabling remittance advice export via E-Documents (payment journal + posted payments)](../../../../../changes/bcapps/9578.md) (code change): "Remittance Advice E-Document type with data assembly, validation, and PEPPOL 3.0 export"
 - [#9984 [Main] Error with unposted prepayment amounts on Order](../../../../../changes/bcapps/9984.md) (code change): "Error with unposted prepayment amounts on Order"
 - [Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central](../../../../../videos/fpc_XlVEnWw.md) (video): "Payment journals; Suggest vendor payments wizard; Vendor priority functionality"
 - [Comparing the Pay Vendor Process in Dynamics GP with Dynamics 365 Business Central (2024)](../../../../../videos/z4Ri5SAqUcc.md) (video): "Payment Journals; Suggest Vendor Payments; Vendor Priority"

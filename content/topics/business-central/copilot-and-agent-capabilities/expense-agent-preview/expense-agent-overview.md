@@ -2,54 +2,54 @@
 id: topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview
 type: topic
 title: Expense Agent overview
-summary: Expense Agent (preview) in Business Central is an AI-powered agent that automates the expense lifecycle. This section answers questions about what it does, how it processes emails and receipts, and how it checks expenses against rules and policies.
+summary: Expense Agent (preview) is an AI-powered agent in Business Central that captures receipts, creates and categorizes expenses, builds expense reports, and checks policy compliance. These pages answer questions about what it does, how it handles emailed receipts, and how compliance rules are evaluated.
 tier: official
 language: en
 system: copilot
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:26:05.364Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9019bae00c0b9df2455cf3f6ce528d4622f70f098abb27139fddbe544bc51de1
+  input_hash: aed82b436f556a90349768130316487d26a3ddfb24c34b2138dc2500a92fd2dd
 evidence:
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent
-    title: Expense Agent overview for Business Central
-    date: "2026-10-02"
+    url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview
+    title: Expense Agent Overview for Business Central
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview
-    title: Expense Agent Overview for Business Central
-    date: "2026-10-02"
+    url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent
+    title: Expense Agent Overview in Business Central
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent
     title: How the Expense Agent Processes Emails
-    date: "2026-10-02"
+    date: "2026-11-04"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance
     title: Understand Policy Compliance in Expense Agent
-    date: "2026-10-02"
+    date: "2026-10-07"
     commit: null
     t: null
     quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent
     - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview
+    - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent
     - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent
     - https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance
   objects:
@@ -61,6 +61,8 @@ links:
     - topic/business-central/copilot-and-agent-capabilities/expense-agent-preview
   localizations: []
   videos:
+    - video/4TE8uwIi91k
+    - video/ARKckFygbWQ
     - video/NI6WYze-JSU
     - video/q-udoJPGUKE
     - video/qZALauRY_So
@@ -89,7 +91,7 @@ children: []
 coverage:
   learn: 4
   code: 3
-  video: 5
+  video: 7
   blog: 0
   guideline: 0
 bc_forms:
@@ -102,34 +104,33 @@ narrative: generated
 
 # Expense Agent overview
 
-> Expense Agent (preview) in Business Central is an AI-powered agent that automates the expense lifecycle. This section answers questions about what it does, how it processes emails and receipts, and how it checks expenses against rules and policies.
+> Expense Agent (preview) is an AI-powered agent in Business Central that captures receipts, creates and categorizes expenses, builds expense reports, and checks policy compliance. These pages answer questions about what it does, how it handles emailed receipts, and how compliance rules are evaluated.
 
-Path: [Copilot and agent capabilities](../../copilot-and-agent-capabilities.md) > [Expense Agent (preview)](../expense-agent-preview.md) > Expense Agent overview · tier official · system copilot · narrative reviewed (checked by Opus)
+Path: [Copilot and agent capabilities](../../copilot-and-agent-capabilities.md) > [Expense Agent (preview)](../expense-agent-preview.md) > Expense Agent overview · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Expense Agent is an AI-powered agent that handles the expense lifecycle in Business Central. It takes in receipts from the web app, mobile app or email, extracts data, categorizes and itemizes expenses, creates expense reports, and prepares them for approval and posting. It also covers per diem calculation, mileage tracking and calculation, and approval workflows with policy compliance checks.
+Expense Agent helps employees manage business expenses in Business Central. It takes in receipts, extracts data, categorizes and itemizes expenses, and creates expense reports for review and approval. Receipts can come in through the web app, mobile, or a shared mailbox. The pages also mention mileage expenses, travel requests, and per diem calculation.
 
-The section has four pages. Two overview pages give the general picture of capabilities and overlap a lot. "How the Expense Agent Processes Emails" explains the mailbox-driven flow: it monitors a configured mailbox, detects receipts and credit card statements, creates expenses, groups them by reporting period, and sends confirmations and reminders. "Understand Policy Compliance in Expense Agent" explains how expenses are checked against deterministic rules and AI-evaluated policies.
+The four pages cover different angles. Two give the general overview of capabilities and channels. One explains how the agent processes emails: it monitors for expense-related messages, creates expenses, assigns them to reports, and sends confirmations and reminders. One explains policy compliance, which combines deterministic Business Central rules with AI-assisted policy evaluation.
 
-Start with an overview page for scope. Read the email page if receipts arrive by mail. Read the policy compliance page if you need to understand flags on expenses or configure policy evaluation.
+Start with the two overview pages to understand the scope, then read the email processing page if you use a shared mailbox, and the policy compliance page if you need to know how non-compliant expenses are flagged.
 
 ## Key points
 
-- Receipts can come in through the web app, mobile app or email, and the agent extracts data, categorizes, subcategorizes and itemizes them.
-- Capabilities include per diem calculation and mileage tracking and calculation.
-- The agent creates expense reports and prepares them for approval and posting in Business Central.
-- Email processing monitors a configured mailbox and detects receipts and credit card statements.
-- Created expenses are grouped into reports by reporting period, and the agent sends confirmation emails and open report reminders to expense users.
-- Policy compliance separates deterministic Business Central rules from AI-evaluated natural-language policies.
-- Expenses are flagged with compliance indicators for rule violations or potential policy issues.
-- Policy evaluation has its own configuration and includes privacy protection.
+- Expense Agent is an AI-powered app/agent for capturing receipts, tracking spending, and submitting expense reports in Business Central.
+- Listed capabilities include receipt scanning, mileage expenses, expense reports, travel requests, and policy compliance.
+- Receipts can be submitted via the web app, mobile, or a shared mailbox, with data extraction, categorization, itemization, and per diem calculation.
+- Email processing detects expense-related emails, creates expense records, assigns them to reports, and sends confirmation and reminder emails.
+- Email processing includes access control.
+- Policy compliance combines deterministic Business Central rules with AI-assisted policy evaluation.
+- Non-compliant expenses are flagged, and policy snapshots appear in the activity timeline.
+- Compliance is evaluated in the background after submission, and submitters can run checks before submitting.
 
 ## Learn pages
 
-- [Expense Agent overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent): Learn how the Expense Agent automates expense processing, including receipt intake, data extraction, categorization, and expense report creation.
-  - In the observatory: [Table 5222 "Employee Ledger Entry"](../../../../objects/table/5222.md), [Table 5223 "Detailed Employee Ledger Entry"](../../../../objects/table/5223.md), [Table 6900 "Expense"](../../../../objects/table/6900.md), [Table 6912 "Expense Ledger Entry"](../../../../objects/table/6912.md)
-- [Expense Agent Overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview): Learn about Expense Agent, an AI-powered tool that helps employees capture receipts, track expenses, and submit expense reports in Business Central.
+- [Expense Agent Overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview): Use Expense Agent to capture receipts, track expenses, plan travel requests, and submit expense reports for approval with Business Central.
+- [Expense Agent Overview in Business Central](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent): Learn how the Expense Agent automates expense processing, including receipt intake, data extraction, categorization, and expense report creation.
 - [How the Expense Agent Processes Emails](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent): Learn how Expense Agent monitors a mailbox, creates expenses from emails, and sends reminders about open expense reports.
 - [Understand Policy Compliance in Expense Agent](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance): Learn how Expense Agent applies real-time expense rules and uses AI to evaluate your organization's natural-language expense policies.
 
@@ -147,6 +148,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13182 [Master] - Bug 656364: [Expense Agent] Add a View rules link below Enforce management rules](../../../../changes/bcapps/13182.md) (code change): "View rules link was added below the Enforce management rules setting"
 - [#13721 [Expense Agent] Create per diem line when approving travel requests with Per Diem Included](../../../../changes/bcapps/13721.md) (code change): "Per diem lines are automatically created during travel request approval when Per Diem Included is enabled"
 - [#9910 [SOA] Move attachment processing to direct model reading](../../../../changes/bcapps/9910.md) (code change): "Sales Order Agent now processes PDF and image attachments directly with GPT-4.1 mini"
+- [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../../videos/4TE8uwIi91k.md) (video): "Receipt scanning with auto capture; Bulk receipt upload; Mileage expense creation"
+- [Expense Agent: Web App Experience (2026 release wave 1)](../../../../videos/ARKckFygbWQ.md) (video): "receipt capture; receipt extraction; automatic categorization; itemization; compliance rules"
 - [Expense Agent: Project Expenses (2026 release wave 1)](../../../../videos/NI6WYze-JSU.md) (video): "Expense Agent; project tracking; project assignment"
 - [Introducing: Web App for Expense Agent (2026 release wave 1)](../../../../videos/q-udoJPGUKE.md) (video): "Web App for Expense Agent; AI Receipt Extraction; Automatic Expense Report Creation"
 - [Introducing: Approvals for the Expense Agent (2026 release wave 1)](../../../../videos/qZALauRY_So.md) (video): "Approvals for the Expense Agent expense agent; workflow; notification; policy compliance"

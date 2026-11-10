@@ -1,37 +1,24 @@
 {
   "hub_id": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
-  "input_hash": "eeef479a0389d36d9aed3f9a8fe1571d3d67231966b95c074051d439a209a451",
-  "summary": "Work with Expense Agent covers day-to-day use of the AI-powered Expense Agent in Business Central, part of Expense management (preview): uploading receipts, creating mileage expenses, editing expenses, building and submitting reports, approving or sending back reports, and using the mobile app (preview). It answers how-to questions for employees and approvers.",
-  "overview": "Expense Agent is an AI-powered expense management app that scans receipts, tracks mileage, groups expenses into reports, checks them against company policy, and routes them through approval. This section has no subtopics. Its six pages follow the order of the expense process.\n\nStart with the overview page for the big picture. Then use the receipt and mileage page to get expenses in, the review and edit page to correct details and resolve AI-flagged issues, and the create and submit page to group expenses into reports and send them for approval. Approvers use the approve or send back page. The mobile app page (preview) covers the same tasks from a phone.",
+  "input_hash": "26e15d41839da9ef43c7d3fefa036446a74cd426d27bfdc9b5687b0c1b0ab4f6",
+  "summary": "Expense Agent is an AI-powered app in Business Central for employees and approvers. This section covers capturing receipts and mileage, reviewing expenses, creating expense reports and travel requests, approving them, and using the mobile app (preview).",
+  "overview": "Expense Agent helps employees manage business expenses in Business Central. It scans receipts with AI, tracks spending, supports mileage expenses, and groups expenses into reports that are checked against company policy before submission. Travel requests let employees get approval for trips before they incur costs.\n\nThe pages follow the expense workflow. Start with the overview, then read about uploading receipts and creating mileage expenses, and reviewing and editing expenses. Next come creating and submitting expense reports and travel requests. The approval page is for approvers. The mobile app page covers the same tasks on iOS and Android, including offline use.",
   "key_points": [
-    "Expense Agent handles receipt scanning, mileage tracking, expense reporting, and approval workflows with policy compliance checks.",
-    "Receipts can be uploaded through the web app, mobile app, or email. AI extracts merchant, amount, date, and category and adds the expense to a draft report.",
-    "Receipt processing includes automatic currency conversion, VAT reclaim identification, and real-time processing status.",
-    "Mileage expenses are created by entering trip details.",
-    "Users can edit merchant, amount, date, category, and payment method, delete expenses, and resolve AI-flagged issues before submission.",
-    "Reports can be created automatically, grouped by period, renamed, and have expenses moved between them. AI-assisted policy evaluation runs before submission.",
-    "Approvers review categories, receipts, compliance warnings, and policy issues, then approve or send back a report with comments. Approval history is tracked.",
-    "The mobile app (preview) for iOS and Android offers live edge detection, multipage scanning, offline viewing, report submission and approval, and sync with the web app."
+    "Expense Agent scans receipt images with AI and extracts merchant, amount, date, and category.",
+    "Mileage expenses are created from trip details, with automatic distance calculation and currency conversion.",
+    "Expenses can be edited, categorized, or deleted, and AI-flagged issues resolved, before submission. VAT is captured and displayed.",
+    "Expense reports can be created automatically or organized manually, with expenses moved between draft reports. Policy is evaluated before submission, and a history timeline is available.",
+    "Travel requests cover traveler details, per diem allowances, and estimated expenses, and go through an approval workflow.",
+    "Approvers can approve or send back expense reports and travel requests with comments. They can also review compliance warnings and approval history, and the page covers interim approval workflows.",
+    "The mobile app (preview) for iOS and Android offers camera capture with edge detection, multipage scanning, AI-suggested details, mileage calculation, travel planning, and offline capability."
   ],
-  "members_used": 6,
+  "members_used": 7,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-30T01:10:58.877Z",
+  "at": "2026-11-10T00:56:52.396Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.01663
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-30T08:08:53.967Z",
-    "verdict": "fix",
-    "issues": [
-      "Only the mobile app is labeled preview, but the hub sits under 'Expense management (preview)' in the Learn TOC, so the whole area is in preview. Leaving that out suggests Expense Agent is generally available. The summary now says it is part of Expense management (preview).",
-      "Minor: the overview line 'This section has no subtopics' is accurate but adds little for an agent."
-    ],
-    "input_hash": "eeef479a0389d36d9aed3f9a8fe1571d3d67231966b95c074051d439a209a451",
-    "cost_usd": 0.044279200000000005
+    "cost_usd": 0.013663
   }
 }

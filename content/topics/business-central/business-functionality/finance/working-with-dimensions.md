@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:20.637Z"
   flags: []
 generated:
-  at: "2026-11-01T00:45:11.847Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,6 +99,7 @@ links:
   localizations: []
   videos:
     - video/4EnvGMwbuBY
+    - video/54uIhzZq3Os
     - video/BC82BSrtng0
     - video/r8HWIk5E0c0
     - video/V2mfuDh8Kfk
@@ -124,7 +125,7 @@ children: []
 coverage:
   learn: 3
   code: 48
-  video: 5
+  video: 6
   blog: 3
   guideline: 0
 bc_forms:
@@ -225,8 +226,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13458 [Master]-Applying entries across posting groups (Allow Multiple Posting Groups) posts the G/L entries that move the amount between receivables accounts with ACY = 0](../../../../changes/bcapps/13458.md) (code change): "When entries are applied across different posting groups Allow Multiple Posting Groups"
 - [Understanding Dimension Set Id in AL for Business Central](../../../../posts/aardvarklabs-blog/3120.md) (community post): "Dimension Set ID deduplicates dimension combinations to reduce data storage"
 - [Dynamics GP to Business Central – How to Control your General Ledger Code and Dimension Combinations using Allowed Values Filter](../../../../posts/thedynamicsexplorer-com/9227.md) (community post): "Allowed Values Filter on the GL Account card restricts which dimension values can be posted"
-- [Dynamics 365 Business Central Blog Series: Work with dimensions](../../../../posts/yzhums-com/69639.md) (community post): "use dimensions in financial reporting, and leverage dimension features across inventory, journals"
+- [Dynamics 365 Business Central Blog Series: Work with dimensions](../../../../posts/yzhums-com/69639.md) (community post): "Dimensions in Dynamics 365 Business Central; default dimensions; shortcut dimensions; dimension setup"
 - [Comparing Subaccount Segments and Dimension Setup between Dynamics SL and Dynamics 365 Business](../../../../videos/4EnvGMwbuBY.md) (video): "Subaccount segments; dimensions; dimension values; flex key"
+- [Expense Agent: Finance Controlling (2026 release wave 1)](../../../../videos/54uIhzZq3Os.md) (video): "dimensions; project billable costs; employee payments; default dimensions"
 - [Comparing Subaccounts Segments and Dimensions Transaction and Reporting Dynamics SL and Dynamics](../../../../videos/BC82BSrtng0.md) (video): "Segments; dimensions; default dimensions; posting; reporting; migration"
 - [Comparing Correcting and Reversing Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/r8HWIk5E0c0.md) (video): "Correct dimension in Business Central"
 - [Comparing Segment and Dimension Setup between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/V2mfuDh8Kfk.md) (video): "segments; dimensions; chart of accounts; migration; global dimensions"

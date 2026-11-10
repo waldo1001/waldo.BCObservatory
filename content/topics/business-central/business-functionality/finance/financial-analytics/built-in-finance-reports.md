@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:23.519Z"
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -484,7 +484,6 @@ links:
     - topic/business-central/business-functionality/finance/financial-analytics
   localizations: []
   videos:
-    - video/gMyp9JkXf9g
     - video/O2RPBlr_GiE
     - video/Of0Dw8V-4Yw
   posts:
@@ -523,7 +522,7 @@ children: []
 coverage:
   learn: 83
   code: 95
-  video: 3
+  video: 2
   blog: 4
   guideline: 0
 bc_forms:
@@ -769,7 +768,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2025 wave 2 (BC27.1): Print the Audit Trail report (report 330 “Audit Trail”)](../../../../../posts/yzhums-com/68932.md) (community post): "New Audit Trail report (report 330) added in BC27.1 for improved compliance"
 - [Deprecated features in Business Central 2026 release wave 1 (BC28)](../../../../../posts/yzhums-com/70904.md) (community post): "Excel reports (Balance Sheet, Income Statement, Cash Flow, etc.) are removed from Business Manager and Accountant Role Centers"
 - [Business Central 2026 release wave 1 (BC28.1): Use enhanced and faster reports for analysis of deferrals and trial balances](../../../../../posts/yzhums-com/73485.md) (community post): "Built-in deferral report Excel layouts now include subtotals to make balance reviews easier"
-- [What's New: Excel Reports for Finance and Sales (2024 release wave 1)](../../../../../videos/gMyp9JkXf9g.md) (video): "Excel Reports for Finance and Sales (2024 release wave 1). Topics: excel reports; trial balance; accounts receivable"
 - [Comparing Trial Balance and Aging Reports between Dynamics SL and Dynamics 365 Business Central](../../../../../videos/O2RPBlr_GiE.md) (video): "trial balance; aging reports; accounts receivable aging; accounts payable aging"
 - [Comparing Trial Balance and Aging Reports Between Dynamics GP and Dynamics Business Central (2024)](../../../../../videos/Of0Dw8V-4Yw.md) (video): "trial balance report; aging report; accounts receivable; general ledger"
 

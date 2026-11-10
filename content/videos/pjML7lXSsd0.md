@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:48:09.176Z"
   flags: []
 generated:
-  at: "2026-10-30T08:03:27.657Z"
+  at: "2026-11-10T00:51:48.195Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -168,16 +168,6 @@ links:
       title: "Expense Agent: Mileage Allowances (2026 release wave 1)"
       label: possibly related
       why: both name Page 6996 "Expense Agent Setup"
-      by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent
-      title: How the Expense Agent Processes Emails
-      label: possibly related
-      why: names Page 6996 "Expense Agent Setup"
-      by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-per-diem-mileage
-      title: Set Up Per Diem and Mileage Allowances
-      label: possibly related
-      why: names Page 6996 "Expense Agent Setup"
       by: code
     - to: video/GwrMf1umTFg
       title: "What's new in Expense Agent: Project Handling (2026 release wave 2)"
@@ -580,8 +570,6 @@ As heard in the captions. A name that matches one object page by exact type and 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Expense Agent: Mileage Allowances (2026 release wave 1)](../videos/Fz8NLByllRc.md) — possibly related: both name Page 6996 "Expense Agent Setup"
-- [How the Expense Agent Processes Emails](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent) — possibly related: names Page 6996 "Expense Agent Setup"
-- [Set Up Per Diem and Mileage Allowances](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-per-diem-mileage) — possibly related: names Page 6996 "Expense Agent Setup"
 - [What's new in Expense Agent: Project Handling (2026 release wave 2)](../videos/GwrMf1umTFg.md) — possibly related: both name Page 6996 "Expense Agent Setup"
 
 Presenters (as heard): Isaac Sattelmeier.

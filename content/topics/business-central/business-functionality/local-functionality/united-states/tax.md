@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:02:05.120Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -126,6 +126,7 @@ links:
   localizations: []
   videos:
     - video/k0pugXY4CEw
+    - video/WI_3mjpQ2JU
   posts: []
   guidelines: []
   changes:
@@ -141,7 +142,7 @@ children: []
 coverage:
   learn: 11
   code: 11
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -228,7 +229,8 @@ For IRS reporting, start with the 1099 overview, then Set Up IRS 1099 Forms Repo
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10884 [Bug Fix] Fix recurring journal background posting for IRS 1099 invoice lines (US)](../../../../../changes/bcapps/10884.md) (code change): "Background posting of recurring journals no longer fails with a 'scheduled for posting' error on IRS 1099 invoice lines"
-- [What's New: IRS1099 Integration with IRIS (2025 release wave 2)](../../../../../videos/k0pugXY4CEw.md) (video): "1099 electronic filing to IRS; 1099 form documents"
+- [What's New: IRS1099 Integration with IRIS (2025 release wave 2)](../../../../../videos/k0pugXY4CEw.md) (video): "1099 forms; irs integration; electronic filing; tax compliance"
+- [What's New: Automated IRS1099 Reporting (2024 release wave 1)](../../../../../videos/WI_3mjpQ2JU.md) (video): "Automated IRS1099 Reporting, US tax forms, vendor setup"
 
 ## Business Central pages and reports
 

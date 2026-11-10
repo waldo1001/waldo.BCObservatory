@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/development-environment/testing
 type: topic
 title: Testing
-summary: Testing in Business Central covers writing AL tests (test codeunits, methods, test pages, handlers, test runners), running them in Visual Studio Code, mocking HttpClient calls, performance testing, and UI acceptance testing with page scripting. It answers how-to and setup questions for testing apps.
+summary: Testing in Business Central development covers writing AL test codeunits, test methods, handlers, test pages and test runners, running tests in Visual Studio Code, mocking HttpClient calls, performance testing, page scripting for acceptance tests, and app validation testing FAQs. It answers how-to and setup questions for automated testing.
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:20:01.735Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f871c73d3f458fa1ebd194ecd471504522373f156c55d02a13fb629f2c31bead
+  input_hash: ab37f4f7145a501576f100083f1740b60be12cd9e024681b607ab32953eb44ab
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-test-application-example-purchase-invoice-discounts
@@ -118,6 +118,8 @@ links:
   posts:
     - post/yzhums-com/67705
   guidelines: []
+  changes:
+    - change/bcapps/13598
 learn_toc_path:
   - Development
   - Development environment
@@ -147,27 +149,27 @@ narrative: generated
 
 # Testing
 
-> Testing in Business Central covers writing AL tests (test codeunits, methods, test pages, handlers, test runners), running them in Visual Studio Code, mocking HttpClient calls, performance testing, and UI acceptance testing with page scripting. It answers how-to and setup questions for testing apps.
+> Testing in Business Central development covers writing AL test codeunits, test methods, handlers, test pages and test runners, running tests in Visual Studio Code, mocking HttpClient calls, performance testing, page scripting for acceptance tests, and app validation testing FAQs. It answers how-to and setup questions for automated testing.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Testing · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Testing · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The section describes how to build and run automated tests for Business Central apps. It starts with an overview of application testing, then goes into the building blocks: test codeunits and test methods, test pages that simulate user interaction, handler methods that intercept messages, confirmations, pages, reports and notifications, and test runner codeunits that control execution and logging.
+This section explains how to build and run automated tests for Business Central code in AL. It starts with an overview of application testing, then covers the building blocks: test codeunits and test methods, handler methods that intercept UI such as messages and confirmations, test pages that simulate user interaction, and test runner codeunits that control execution and logging.
 
-Further pages cover running tests. Test Explorer in Visual Studio Code discovers and runs AL tests with run profiles and code coverage. The page scripting tool records and replays web client interactions for acceptance testing, and the Performance Toolkit extension simulates workloads to find performance regressions. A separate page explains how to mock outbound HttpClient calls during tests, which is available on-premises only. A worked example for purchase invoice discounts shows the pieces together, and an FAQ lists what testing an app needs.
+Practical pages show how to apply these. One example walks through testing purchase invoice discounts with test libraries and GIVEN-WHEN-THEN notation. Others cover running tests in Visual Studio Code with Test Explorer and code coverage, and mocking outbound HttpClient calls (on-premises only).
 
-Start with the testing overview, then the test codeunits and test pages articles, and use the purchase invoice discount example as a template. Go to the FAQ for testing expectations such as country and upgrade testing.
+Beyond code-level tests, the page scripting tool records and replays web client interactions for acceptance testing, and the Performance Toolkit extension simulates workloads to find performance regressions. The FAQ covers testing expectations before submitting an app for validation. Start with the overview, then the test codeunits page.
 
 ## Key points
 
-- Test codeunits and test methods use attributes such as TransactionModel and TestDataSource, plus the TestIsolation and TestHandlers properties.
-- Handler methods (MessageHandler, ConfirmHandler, StrMenuHandler, PageHandler, ModalPageHandler, ReportHandler) replace user interaction in automated tests.
+- Test codeunits and test methods use attributes such as TransactionModel and TestDataSource, plus properties TestIsolation and TestHandlers.
+- Handler methods (MessageHandler, ConfirmHandler, StrMenuHandler, PageHandler, ModalPageHandler, ReportHandler) let tests run without user interaction.
 - Test runner codeunits use the TestRunner subtype with OnRun, OnBeforeTestRun and OnAfterTestRun triggers for unattended runs and result logging.
-- Test pages simulate user actions: reading and changing fields, filtering, invoking actions, and navigating records.
-- Mocking outbound HttpClient calls uses HttpClientHandler and HandlerFunctions attributes and request policies; it is available on-premises only.
-- Test Explorer in Visual Studio Code supports test discovery, run profiles, code coverage and debugger use; the page is tagged with 2026 release wave 1 (version 28.0).
-- The page scripting tool records and replays web client interactions, supports validation, conditional and wait steps and parameters, and runs in pipelines with bc-replay.
+- Test pages simulate user actions: read and change fields, filter data, invoke actions, navigate records, and access subpages.
+- Mocking outbound HttpClient calls uses HttpClientHandler and HandlerFunctions attributes and is available on-premises only.
+- Run AL Tests in VS Code uses Test Explorer with run profiles, code coverage and debugger integration (2026 release wave 1, version 28.0).
+- The page scripting tool records and replays web client interactions, and the bc-replay script player runs them in pipelines.
 - The Performance Toolkit lets ISVs and VARs simulate concurrent sessions, compare to baselines, and report through telemetry and Power BI.
 
 ## Learn pages
@@ -185,10 +187,11 @@ Start with the testing overview, then the test codeunits and test pages articles
 - [Testing the application overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-testing-application): Learn about how to use automated tests in Business Central
 - [Use the page scripting tool for acceptance testing](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-scripting): Learn how to record, edit, replay, and automate page scripts in Business Central to validate business processes and user acceptance tests.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13598 Fix concurrent initialization of My Notifications](../../../../changes/bcapps/13598.md) (code change): "Added five deterministic regression tests covering all three table helpers"
 - [Business Central 2025 wave 2 (BC27): Record and edit easier with enhanced page scripting tool](../../../../posts/yzhums-com/67705.md) (community post): "page scripting tool, including improved script recording and editing"
 - [In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)](../../../../videos/B8cWQGwajwQ.md) (video): "user acceptance testing; page scripting tool; script recording and playback"
 

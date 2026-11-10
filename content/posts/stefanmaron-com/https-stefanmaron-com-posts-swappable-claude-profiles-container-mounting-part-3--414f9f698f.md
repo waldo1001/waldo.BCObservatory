@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:56:06.715Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-10T00:14:28.203Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -74,7 +74,7 @@ preview:
   image_h: null
   site_name: Stefan Maron
   favicon: https://stefanmaron.com/icons/favicon-32x32.png
-  probed_at: "2026-10-07T11:50:32.473Z"
+  probed_at: "2026-11-10T00:49:30.153Z"
 ---
 
 # Swappable Claude Profiles: Per-Project Configs via Container Mounting (Part 3)

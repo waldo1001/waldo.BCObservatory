@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -80,6 +80,7 @@ links:
   topics: []
   localizations: []
   videos:
+    - video/1x3QyBX3swg
     - video/D7GxnNiGQ14
     - video/G0avZpiDFtI
     - video/LW2JNV01sJo
@@ -109,7 +110,7 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 5
+  video: 6
   blog: 12
   guideline: 0
 bc_forms: []
@@ -151,6 +152,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Troubleshooting Series – Ep2 – Admin Center – Sessions](../../posts/waldo-be/317739.md) (community post): "to improve system performance and resolve resource issues"
 - [Troubleshooting Series – Ep3 – Missing Indexes](../../posts/waldo-be/318212.md) (community post): "careful analysis using telemetry to track missing indexes over time"
 - [Business Central 2026 release wave 2 (BC29): Match Production Database Configuration](../../posts/yzhums-com/77070.md) (community post): "Enables more accurate performance testing using the Performance Toolkit"
+- [Microsoft presents: Index management](../../videos/1x3QyBX3swg.md) (video): "performance tuning; fragmentation; missing indexes; disabled indexes"
 - [20260223 - If You Can’t Make It Fast, Make It Feel Fast](../../videos/D7GxnNiGQ14.md) (video): "If You Can't Make It Fast, Make It Feel Fast"
 - [What's New: Server and Database (2025 release wave 1)](../../videos/G0avZpiDFtI.md) (video): "Faster Copy Company; Database Missing Indexes Page Enhancements"
 - [Meet the OptimAL Performance Initiative](../../videos/LW2JNV01sJo.md) (video): "Meet the OptimAL Performance Initiative"

@@ -12,7 +12,7 @@ review:
   at: "2026-11-03T01:02:13.361Z"
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -501,7 +501,6 @@ links:
     - topic/business-central/business-functionality/finance/financial-analytics/built-in-finance-reports
   localizations: []
   videos:
-    - video/fxrVyBD8UoU
     - video/z7UTBiCNOo8
   posts:
     - post/yzhums-com/68328
@@ -524,7 +523,7 @@ children:
 coverage:
   learn: 129
   code: 188
-  video: 2
+  video: 1
   blog: 2
   guideline: 0
 bc_forms:
@@ -761,7 +760,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11848 [main] Report 11564, Foreign Currency Layout: foreign currency opening balance is not included](../../../../changes/bcapps/11848.md) (code change): "Report 11564 now correctly includes foreign currency opening balances"
 - [Business Central 2025 wave 2 (BC27): Deferral reporting enhancements (Replacing RDL layouts with Word and Excel formats and adding three new list pages)](../../../../posts/yzhums-com/68328.md) (community post): "deferral reporting by replacing RDL layouts with Word and Excel formats for three summary reports"
 - [Dynamics 365 Business Central: Comparing Years (Year-Over-Year) in Analysis Mode: A Simple 4-Step Guide](../../../../posts/yzhums-com/69961.md) (community post): "Year-over-year analysis compares current year data against same periods in previous years"
-- [What's New: Enhanced Financial Analytics (2026 release wave 1)](../../../../videos/fxrVyBD8UoU.md) (video): "Enhanced Financial Analytics (2026 release wave 1). Topics: financial analytics; excel layouts; deferral reports"
 - [What's Cooking in Business Central: Excel Reports that Become Generally Available](../../../../videos/z7UTBiCNOo8.md) (video): "Finance Analytics Documentation; Alternative Analysis Methods Documentation"
 
 ## Business Central pages and reports

@@ -21,7 +21,7 @@ review:
   at: "2026-10-08T01:56:04.075Z"
   flags: []
 generated:
-  at: "2026-10-26T05:51:10.938Z"
+  at: "2026-11-10T00:14:28.203Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -165,7 +165,7 @@ preview:
   image_h: null
   site_name: Kine's info
   favicon: https://blog.kine.cz/favicon.ico?v=1
-  probed_at: "2026-10-07T11:50:24.080Z"
+  probed_at: "2026-11-10T00:49:27.506Z"
 ---
 
 # Business Central Development Serie - Part 2b: AI for BC Development — The Knowledge Gap That Ships to Production

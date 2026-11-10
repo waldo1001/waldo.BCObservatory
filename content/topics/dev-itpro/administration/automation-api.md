@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1d6937bc7522f4fcd17782da067506160a0f9765f6b2c87c2ea479425c455483
@@ -326,6 +326,7 @@ links:
   videos: []
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-introducing-bc-mission-control--6418abfaea
+    - post/yzhums-com/67896
   guidelines: []
 learn_toc_path:
   - Administration
@@ -354,7 +355,7 @@ coverage:
   learn: 55
   code: 0
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 1d6937bc7522f4fcd17782da067506160a0f9765f6b2c87c2ea479425c455483
@@ -407,5 +408,6 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Introducing BC Mission Control](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-introducing-bc-mission-control--6418abfaea.md) (community post): "Uses Business Central Admin Center and Automation APIs for cloud management"
+- [Business Central 2025 wave 2 (BC27): Tenant administrators can set Feature Management switches with an API (page 30092 “APIV2 – Feature Management”)](../../../posts/yzhums-com/67896.md) (community post): "automation API that allows tenant administrators to manage Feature Management switches programmatically"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

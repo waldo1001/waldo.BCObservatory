@@ -17,7 +17,7 @@ review:
   at: "2026-10-08T01:55:47.943Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-10T00:14:28.203Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -79,7 +79,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:50:44.182Z"
+  probed_at: "2026-11-10T00:49:28.947Z"
 ---
 
 # BC Friday Tips #67 Reset Page Number in RDLC

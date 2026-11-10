@@ -1,0 +1,26 @@
+{
+  "item_id": "change/bcapps-prs/9587",
+  "input_hash": "228dc178081335e9217f1359c24b903d4850736a0d40f4ac1e786cb8a9826deb",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-10T00:55:32.680Z",
+  "issues": [
+    "PR description is empty; performance improvement and parallel execution claims are not supported",
+    "Key points about restructuring for parallel execution and concurrent inserts are speculative",
+    "Localization list only reflects the first visible files of 210",
+    "change_kind performance not supported; title describes a new capability"
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind feature"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032909,
+    "changes_in_call": 6
+  }
+}

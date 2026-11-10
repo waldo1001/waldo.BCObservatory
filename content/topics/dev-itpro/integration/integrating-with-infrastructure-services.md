@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,6 +109,7 @@ links:
   localizations: []
   videos:
     - video/2vUCR16b85o
+    - video/qqWj_2uM0ek
   posts: []
   guidelines: []
 learn_toc_path:
@@ -120,7 +121,7 @@ children: []
 coverage:
   learn: 7
   code: 26
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -206,6 +207,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)](../../../videos/2vUCR16b85o.md) (video): "external file storage; azure blob storage; file shares; storage accounts"
+- [20260420 - What is GitOps and why should you care](../../../videos/qqWj_2uM0ek.md) (video): "GitOps infrastructure as code; devops; pull-based deployment"
 
 ## Business Central pages and reports
 

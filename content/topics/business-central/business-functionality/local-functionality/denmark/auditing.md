@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:29.576Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -54,7 +54,8 @@ links:
   topics:
     - topic/business-central/business-functionality/local-functionality/denmark
   localizations: []
-  videos: []
+  videos:
+    - video/205F8ljmInU
   posts: []
   guidelines: []
 learn_toc_path:
@@ -68,7 +69,7 @@ children: []
 coverage:
   learn: 3
   code: 5
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -113,6 +114,12 @@ Start with the standard chart of accounts page to set up the mapping. Then use t
 - [Export the SAF-T audit file format in Denmark](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-use-saft-audit-files-export): This article explains how to export all required data according to the SAF-T format in Denmark.
 - [Standard chart of accounts in Denmark](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa): This article explains how to set up a standard chart of accounts in Denmark.
   - In the observatory: [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md)
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: The Danish Bookkeeping Act (2023 release wave 2)](../../../../../videos/205F8ljmInU.md) (video): "Mandatory Digital Vouchers; SAF-T Module; NemHandle Registration Notification; E-invoicing for Denmark"
 
 ## Business Central pages and reports
 

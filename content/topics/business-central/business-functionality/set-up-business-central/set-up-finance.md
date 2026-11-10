@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -326,6 +326,7 @@ links:
     - video/5E6ikveL6N0
     - video/5zXQ_aIT03s
     - video/NPhOSQTheXw
+    - video/P1V4jy08YM8
     - video/XJ0JHHQ7GzA
   posts:
     - post/yzhums-com/67740
@@ -343,7 +344,7 @@ children: []
 coverage:
   learn: 26
   code: 88
-  video: 5
+  video: 6
   blog: 1
   guideline: 0
 bc_forms:
@@ -529,6 +530,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Comparing Posting Accounts and Posting Groups Between Dynamics GP and Dynamics Business Central](../../../../videos/5E6ikveL6N0.md) (video): "Posting groups; posting accounts; default posting accounts; business posting groups"
 - [Control When People Can Post to the General Ledger](../../../../videos/5zXQ_aIT03s.md) (video): "Control When People Can Post to the General Ledger. Topics: posting control; general ledger setup"
 - [How to Set Up Sales Tax in Business Central (2025)](../../../../videos/NPhOSQTheXw.md) (video): "Sales tax setup; tax groups; tax area codes; tax calculation"
+- [Expense Agent: Configuration (2026 release wave 1)](../../../../videos/P1V4jy08YM8.md) (video): "configuration wizard; approval workflow; posting groups; mileage expenses"
 - [Comparing Posting Accounts and posting groups between Dynamics SL and Dynamics 365 Business Cent](../../../../videos/XJ0JHHQ7GzA.md) (video): "posting groups; posting setup; general posting setup; business posting groups; product posting groups"
 
 ## Business Central pages and reports

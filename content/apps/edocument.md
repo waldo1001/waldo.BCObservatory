@@ -2,7 +2,7 @@
 id: app/edocument
 type: app
 title: EDocument
-summary: "EDocument (Microsoft.eServices): 390 objects in BC29-30 (125 codeunits, 57 pages, 48 page extensions, 42 tables, 38 enums, ...); documented by 5 Learn hubs; 1 video."
+summary: "EDocument (Microsoft.eServices): 391 objects in BC29-30 (125 codeunits, 57 pages, 48 page extensions, 42 tables, 38 enums, ...); documented by 5 Learn hubs; 1 video."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:46:30.808Z"
+  at: "2026-11-10T00:48:43.535Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 9e1319517c698606e865a3142f7336414daa543c2cea5275a94437dd464fa4df
+  input_hash: 345b7d2da8bb05b8082a17b848ef0413b5cca038b00eb675ca9c31110015f48d
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/EDocument/app
@@ -89,6 +89,7 @@ links:
     - object/tableextension/6171
     - object/tableextension/6172
     - object/tableextension/6173
+    - object/tableextension/6174
     - object/tableextension/6536
     - object/page/6100
     - object/page/6101
@@ -229,7 +230,6 @@ links:
     - object/codeunit/6132
     - object/codeunit/6133
     - object/codeunit/6134
-    - object/codeunit/6135
   features: []
   topics:
     - topic/business-central/business-functionality/finance/set-up-and-use-e-documents
@@ -248,7 +248,7 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 390
+  objects: 391
   by_type:
     codeunit: 125
     page: 57
@@ -256,7 +256,7 @@ counts:
     table: 42
     enum: 38
     interface: 38
-    tableextension: 18
+    tableextension: 19
     reportextension: 6
     permissionset: 6
     enumextension: 4
@@ -272,7 +272,7 @@ counts:
 
 # EDocument
 
-> EDocument (Microsoft.eServices): 390 objects in BC29-30 (125 codeunits, 57 pages, 48 page extensions, 42 tables, 38 enums, ...); documented by 5 Learn hubs; 1 video.
+> EDocument (Microsoft.eServices): 391 objects in BC29-30 (125 codeunits, 57 pages, 48 page extensions, 42 tables, 38 enums, ...); documented by 5 Learn hubs; 1 video.
 
 First-party app · folder `src/Apps/W1/EDocument/app` · namespace `Microsoft.eServices` · BC29-30 · system integration · facts from the code pillar and the joins, nothing machine-written
 
@@ -288,7 +288,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-390 objects, by type.
+391 objects, by type.
 
 ### Tables (42)
 
@@ -337,7 +337,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6433 | [E-Doc. Payment Occurrence](../objects/table/6433.md) | E-Document Payment Occurrence |
 | 6434 | [E-Doc. External Reference](../objects/table/6434.md) | E-Document External Reference |
 
-### Table extensions (18)
+### Table extensions (19)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -358,6 +358,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6171 | [Posted Service CrMemo with QR](../objects/tableextension/6171.md) |  |
 | 6172 | [E-Doc. Sales Header](../objects/tableextension/6172.md) |  |
 | 6173 | [E-Doc. Company Information](../objects/tableextension/6173.md) |  |
+| 6174 | [E-Document Customer](../objects/tableextension/6174.md) |  |
 | 6536 | [E-Doc. Item Charge](../objects/tableextension/6536.md) |  |
 
 ### Pages (57)

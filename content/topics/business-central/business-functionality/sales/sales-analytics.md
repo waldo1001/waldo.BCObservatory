@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -376,7 +376,6 @@ links:
   localizations: []
   videos:
     - video/fJGY6d-2lO8
-    - video/rAaUiKByyEE
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6634996257036493772--55ed189793
     - post/yzhums-com/73030
@@ -394,7 +393,7 @@ children:
 coverage:
   learn: 61
   code: 63
-  video: 2
+  video: 1
   blog: 2
   guideline: 0
 bc_forms:
@@ -518,7 +517,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [You can't see your stale documents, and that's why they're stale](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6634996257036493772--55ed189793.md) (community post): "Consolidates sales quotes, orders, and unposted invoices into one read-only view"
 - [Business Central 2026 release wave 1 (BC28): Analyze customer loyalty and other sales scenarios](../../../../posts/yzhums-com/73030.md) (community post): "New analysis views on the Sales Orders list are planned for expected sales volume"
 - [What's New: Enhanced Sales Analytics (2026 release wave 1)](../../../../videos/fJGY6d-2lO8.md) (video): "customer retention; churn analysis; abc analysis; power bi; sales analytics"
-- [What's New: Sales Analytics (2025 release wave 2)](../../../../videos/rAaUiKByyEE.md) (video): "Modernized analytical reports; Customer item sales report"
 
 ## Business Central pages and reports
 

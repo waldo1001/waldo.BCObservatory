@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface
 type: topic
 title: Pages and the user interface
-summary: "Pages and the user interface in AL for Business Central: designing pages, role centers, actions, views, profiles, deep links and mobile app development. It answers how to build, lay out, extend, tailor, inspect and link to the UI for different user roles and clients."
+summary: Pages and the user interface in Business Central AL development covers designing and building pages, role centers, actions, views, profiles, deep links and mobile app extensions. It answers how to design, extend, customize, inspect and link to the client UI, including control add-in styling.
 tier: official
 language: en
 system: development
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: ee908bd60c1ce64e0bd6c4196e6da0d20219c040924d715b69aa22efdca6549b
+  input_hash: 32d808ff2693e5e62fd5a941fc5daac7f62305ad190f6f6ae153a5d228369f49
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-action-bar-improvements
@@ -33,13 +33,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actions-overview
-    title: Actions overview
-    date: "2025-05-15"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-a-factbox-to-page
     title: Add FactBoxes to Business Central Pages
     date: "2026-10-06"
@@ -49,7 +42,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-menus-to-navigation-pane
     title: Add Menus to Role Center Navigation
-    date: "2026-10-06"
+    date: "2026-11-05"
     commit: null
     t: null
     quote: null
@@ -103,6 +96,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-types-and-layouts
+    title: Business Central Page Types and Layouts
+    date: "2026-11-05"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-cardparts
     title: CardPart Pages in Business Central
     date: "2026-08-24"
@@ -139,15 +139,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-cues-action-tiles
-    title: Creating and Customizing Cues
+    title: Creating and Customizing Business Central Cues
     date: "2024-07-03"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-role-customization
-    title: Customize the user interface for user roles
-    date: "2025-01-08"
     commit: null
     t: null
     quote: null
@@ -167,8 +160,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-card-pages
-    title: Designing card pages
-    date: "2024-04-26"
+    title: Designing Card Pages in Business Central
+    date: "2026-11-05"
     commit: null
     t: null
     quote: null
@@ -189,28 +182,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-list-pages
     title: Designing List Pages for Business Central
-    date: "2021-04-01"
+    date: "2026-11-05"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles
-    title: Designing Profiles
-    date: "2021-04-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-role-centers
-    title: Designing Role Centers
-    date: "2025-06-21"
+    title: Designing Profiles in Business Central
+    date: "2026-11-05"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-user-interfaces
-    title: Designing the User Interface
-    date: "2024-04-22"
+    title: Designing the User Interface in Business Central
+    date: "2026-11-05"
     commit: null
     t: null
     quote: null
@@ -298,12 +284,26 @@ evidence:
     commit: null
     t: null
     quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-introducing-business-central-mobile-app
+    title: Introducing the Dynamics 365 Business Central Mobile App
+    date: "2021-04-01"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-link-to-mobile-app
+    title: Linking to the Dynamics 365 Business Central App
+    date: "2021-04-01"
+    commit: null
+    t: null
+    quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-style
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-role-customization
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-user-interfaces
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-role-customization
   objects: []
   features: []
   topics:
@@ -326,8 +326,6 @@ links:
     - post/nataliekarolak-com/3494
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee
     - post/yzhums-com/61902
-    - post/yzhums-com/63730
-    - post/yzhums-com/63942
     - post/yzhums-com/68077
     - post/yzhums-com/74975
   guidelines: []
@@ -357,7 +355,7 @@ coverage:
   learn: 69
   code: 0
   video: 1
-  blog: 11
+  blog: 9
   guideline: 0
 bc_forms: []
 member_hash: 4b85c5a961bfa013683b351bf15cdd48537c4ed457c3eb55957b8da3fe6729b7
@@ -366,28 +364,26 @@ narrative: generated
 
 # Pages and the user interface
 
-> Pages and the user interface in AL for Business Central: designing pages, role centers, actions, views, profiles, deep links and mobile app development. It answers how to build, lay out, extend, tailor, inspect and link to the UI for different user roles and clients.
+> Pages and the user interface in Business Central AL development covers designing and building pages, role centers, actions, views, profiles, deep links and mobile app extensions. It answers how to design, extend, customize, inspect and link to the client UI, including control add-in styling.
 
 Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Pages and the user interface · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how the Business Central user interface is built in AL. "Designing the User Interface" is the entry point and introduces page types, role centers, actions, views, queries and profiles, with support for multiple clients. "Customize the user interface for user roles" explains the layered approach: Role Centers, page extensions, profiles, page customizations and personalization.
-
-The subtopics go into each building block. Pages covers page objects, extensions, page types and user assistance. Actions covers adding, organizing and promoting actions. Role centers, Views and Profiles handle role-tailored home pages, alternative list layouts and user roles. Deep links and the mobile app subtopic cover how to open content by URL and how to build for tablet and phone.
-
-Two standalone pages help with quality and debugging. The Control Add-in Style Guide gives CSS colors, fonts and sizes so add-ins match Business Central. Inspecting pages describes Page Inspection in the web client, which shows page structure, data sources, extensions and filters without reading code. Start with Designing the User Interface, then go to Pages.
+This section is about everything a user sees in the Business Central client and how AL developers shape it. It starts with general UI design guidance on page types, components and layouts, then goes into subtopics for pages, role centers, actions, views and profiles.
+Customization works in layers: role centers, page extensions, profiles with page customizations, and individual personalization. The Role-Based Customization page explains how these layers relate. Profiles let you change layout and actions per role in AL or in the web client without code.
+Supporting pages cover Page Inspection, a web client feature for seeing page structure, source tables, extensions and filters when debugging, and a Control Add-in Style Guide with colors, fonts and sizes. Separate subtopics cover deep link URLs and developing for the mobile app. Start with "Designing the User Interface in Business Central" and the Pages subtopic, then move to the area you need.
 
 ## Key points
 
-- Designing the User Interface introduces page types, role centers, actions, views, queries and profiles (version 23 noted).
-- Role-based customization is layered: Role Centers, page extensions, profiles, page customizations and personalization.
-- Pages subtopic (33 pages) covers card, list, parts, NavigatePage, PromptDialog and ConfigurationDialog types, plus tooltips, Tell me and teaching tips.
-- Actions subtopic covers actionref syntax, action areas, the modern action bar with split buttons, and prompt actions that launch Copilot.
-- Views define alternative filtering, sorting and layout for list pages; legacy Role Center views can be migrated to modern list views.
-- Profiles control which pages and reports a user sees, using profile, profile extension and page customization objects.
-- Deep links use URL parameters such as company, page, report, table, mode, profile, filter and bookmark, and the ms-businesscentral URI scheme.
-- Page Inspection (2023 release wave 2) in the web client shows page structure, source table fields, extensions and filters.
+- Designing the User Interface in Business Central introduces page types, layouts, role centers, actions, views, queries and profiles (version 23).
+- Customization layers: role centers, page extensions, profiles with page customizations, and personalization.
+- Pages subtopic (33 pages) covers card, list, part and dialog pages, FactBoxes, tooltips, page extensions and Copilot PromptDialog pages.
+- Actions subtopic covers action bar, split buttons, actionref syntax, promoted groups and Copilot prompt actions.
+- Views define alternative filtering, sorting and layout for list pages, and legacy Role Center views can be migrated to modern list views.
+- Page Inspection (2023 release wave 2) shows page structure, source table fields, extensions and filters in the web client.
+- Control Add-in Style Guide gives CSS color palettes, fonts, sizes, status and chart colors, contrast and focus guidance.
+- Deep links use URL parameters such as company, page, report, table, mode, profile, filter and bookmark, plus the ms-businesscentral URI scheme for the mobile app.
 
 ## Subtopics
 
@@ -402,9 +398,9 @@ Two standalone pages help with quality and debugging. The Control Add-in Style G
 ## More Learn pages
 
 - [Control Add-in Style Guide for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-style): Style control add-ins for Dynamics 365 Business Central with CSS. Choose colors and fonts, and build readable controls with keyboard access.
-- [Customize the user interface for user roles](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-role-customization): Description of how to customize the User Interface in Business Central by using user roles.
-- [Designing the User Interface](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-user-interfaces): Provides an overview of the components available when designing a user interface in Business Central
+- [Designing the User Interface in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-user-interfaces): Learn how to design Business Central user interfaces with role centers, pages, actions, views, queries, profiles, and discoverability features.
 - [Inspecting pages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages): Learn about the structure of a page and its' underlying data.
+- [Role-Based Customization in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-role-customization): Understand Business Central customization layers so that you can choose role centers, page extensions, profiles, or personalization for users.
 
 ## Videos, posts and code changes
 
@@ -424,8 +420,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [How to write good tooltips as a BC developer](../../../../posts/nataliekarolak-com/3494.md) (community post): "write good tooltips as a BC developer"
 - [Business Central ToolTip and ToolTipML Properties Are Now Available on Pages](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee.md) (community post): "ToolTip and ToolTipML properties directly on page objects"
 - [Dynamics 365 Business Central: Why are customer pictures round and item pictures square?](../../../../posts/yzhums-com/61902.md) (community post): "ExtendedDatatype property set to Person for customer images, which the client renders"
-- [Dynamics 365 Business Central Blog Series: Preview files directly in the web client](../../../../posts/yzhums-com/63730.md) (community post): "preview various file types (PDF, images, Word, Excel, PowerPoint, video, and more) directly in the Business Central web client"
-- [Dynamics 365 Business Central: How to preview Word (.docx) in web client without downloading (No control add-in and APIs)](../../../../posts/yzhums-com/63942.md) (community post): "preview Word (.docx) files in Business Central 2025 wave 1 without downloading"
 - [Business Central 2025 wave 2 (BC27): Support for new ExtendedDataType value: Document (display/preview a PDF as a portrait image in FactBox)](../../../../posts/yzhums-com/68077.md) (community post): "Document for Media and MediaSet fields, enabling portrait-oriented content like PDFs"
 - [Dynamics 365 Business Central: Add a calculator to the sales order page](../../../../posts/yzhums-com/74975.md) (community post): "Control add-ins are inserted into pages using the usercontrol keyword"
 - [Business Central Under the Hood episode 7: Designing Business Central's UI, From Concept To Code](../../../../videos/ugHFHtSxTlw.md) (video): "Designing Business Central's UI, From Concept To Code"

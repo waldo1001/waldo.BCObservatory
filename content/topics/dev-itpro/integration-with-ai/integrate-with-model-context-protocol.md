@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:51.814Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,6 +89,7 @@ links:
     - video/q3xnjJD32kk
     - video/qs1cg-GoDeQ
     - video/rm-FstU_I80
+    - video/U1dAdtUjidc
     - video/UIL8ej7mSKQ
     - video/uMKLsKfKPc0
     - video/V7NgFOIcGgM
@@ -113,7 +114,7 @@ children: []
 coverage:
   learn: 6
   code: 3
-  video: 16
+  video: 17
   blog: 9
   guideline: 0
 bc_forms:
@@ -179,10 +180,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Introducing MCP Server Configurations for Business Central (Part 2)](../../../videos/GeT5E_f9A9Q.md) (video): "MCP Server Configurations; Dynamic Tool Mode"
 - [Everything Coming to Business Central 2025 Wave 2 (You Need to Know This)](../../../videos/H5EuObmeF4o.md) (video): "MCP server for Business Central"
 - [Introducing MCP Server for Business Central (Part 1)](../../../videos/iViHfCgL2L8.md) (video): "Introducing MCP Server for Business Central"
-- [Microsoft presents: Next level administration skills with the admin MCP server and agents](../../../videos/LerAo-GGl8U.md) (video): "admin MCP server and agents. Topics: mcp server; admin center api"
+- [Microsoft presents: Next level administration skills with the admin MCP server and agents](../../../videos/LerAo-GGl8U.md) (video): "Admin MCP Server for Business Central; Model Context Protocol (MCP) Fundamentals; OAuth 2.1 Authentication"
 - [What's new: MCP Server (2026 release wave 2)](../../../videos/q3xnjJD32kk.md) (video): "MCP Server query tools; data analysis; agent capabilities; al queries"
 - [What's new: MCP Server (2026 release wave 2)](../../../videos/qs1cg-GoDeQ.md) (video): "MCP Server data tools; query tool; agents; al queries"
 - [20260831 - Business Central MCP Server, standard and custom](../../../videos/rm-FstU_I80.md) (video): "model context protocol; mcp server; copilot studio; business central integration"
+- [What's New: Admin Center MCP Server (2026 release wave 1)](../../../videos/U1dAdtUjidc.md) (video): "Admin Center MCP Server; Environment Management via Natural Language"
 - [Dynamics 365 Business Central 2025 Release Wave 2](../../../videos/UIL8ej7mSKQ.md) (video): "MCP server for Business Central"
 - [Microsoft presents: Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat](../../../videos/uMKLsKfKPc0.md) (video): "MCP server connection for Business Central"
 - [What's new: Demystifying the New Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../videos/V7NgFOIcGgM.md) (video): "MCP Server Technology"

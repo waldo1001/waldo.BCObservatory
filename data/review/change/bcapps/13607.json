@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13607",
+  "input_hash": "ccd89526e242e20b8a5075de8769e8153da1c2118eda7d5d6428fc8da5f6c77e",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-10T00:55:21.460Z",
+  "issues": [
+    "Matches the description: CurrReport.Skip() on empty aggregate buffer, tests added"
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020262,
+    "changes_in_call": 4
+  }
+}

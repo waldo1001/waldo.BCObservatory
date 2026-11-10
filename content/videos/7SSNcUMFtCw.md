@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:56:08.282Z"
   flags: []
 generated:
-  at: "2026-10-30T08:03:27.657Z"
+  at: "2026-11-10T00:51:48.195Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -258,10 +258,12 @@ features:
     verified: true
     status_source: video
   - name: Content safety with blocking policy
-    status: unclear
+    status: preview
     t: 314
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: Set managed resource authorization function
     status: preview
     t: 489
@@ -280,15 +282,19 @@ features:
     verified: false
     status_source: video
   - name: Data residency control for AI calls
-    status: unclear
+    status: preview
     t: 670
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: System prompts for AI safety
-    status: unclear
+    status: preview
     t: 702
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: Model deprecation notifications via telemetry
     status: unclear
     t: 749
@@ -415,12 +421,12 @@ It then covers how developers use them. The set managed resource authorization f
 |---|---|---|---|
 | Business Central AI Resources | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [0:06](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=6s) | "we're moving BC or Business Central AI resources from private preview, that means by invitation only, uh to a public preview" ([0:39](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=39s)) |
 | Consumption-based billing for AI resource use | announced | [0:56](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=56s) | "So this will be a consumptionbased uh approach where the customers will build directly from Microsoft." ([17:06](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=1026s)) |
-| Content safety with blocking policy | status not stated | [5:14](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=314s) |  |
+| Content safety with blocking policy | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [5:14](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=314s) |  |
 | Set managed resource authorization function | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)), demoed | [8:09](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=489s) |  |
 | Bring your own Azure OpenAI subscription | status not stated, demoed | [1:23](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=83s) |  |
 | Conditional code pattern for development and production | status not stated, demoed | [10:01](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=601s) |  |
-| Data residency control for AI calls | status not stated | [11:10](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=670s) |  |
-| System prompts for AI safety | status not stated | [11:42](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=702s) |  |
+| Data residency control for AI calls | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [11:10](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=670s) |  |
+| System prompts for AI safety | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [11:42](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=702s) |  |
 | Model deprecation notifications via telemetry | status not stated | [12:29](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=749s) |  |
 | Azure OpenAI Deployments code unit | status not stated | [9:18](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=558s) |  |
 | Data source capabilities in AI Resources | status not stated | [13:32](https://www.youtube.com/watch?v=7SSNcUMFtCw&t=812s) |  |

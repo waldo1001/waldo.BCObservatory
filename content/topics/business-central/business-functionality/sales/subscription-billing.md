@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:17.722Z"
   flags: []
 generated:
-  at: "2026-11-01T00:45:11.847Z"
+  at: "2026-11-10T00:57:46.434Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -465,7 +465,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12857 [master]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../changes/bcapps/12857.md) (code change): "Billing totals now filter by both Subscription Contract No. and Partner type"
 - [#12967 [29.x]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../changes/bcapps/12967.md) (code change): "Billing total calculations now filter by both subscription contract number and partner"
 - [#13240 [Main]-Test disabled after BCApps uptake: Contract Renewal Test.TestIfContractRenewalSelectionIsUpdateOnAfterValidateCalcBasePercentage fails](../../../../changes/bcapps/13240.md) (code change): "Subscription Billing app, Finance team"
-- [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../../../../videos/5xeATIUFiGg.md) (video): "subscription billing; recurring invoicing; contract management; revenue deferrals"
+- [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../../../../videos/5xeATIUFiGg.md) (video): "subscription billing recurring invoicing contract management revenue deferrals billing templates"
 - [What's New: Subscription Billing (2024 release wave 2)](../../../../videos/jJxBswIy_Xw.md) (video): "subscription billing; recurring invoicing; service commitments; deferrals; revenue recognition"
 - [Subscription Billing](../../../../videos/ywyaIenKix8.md) (video): "Subscription billing; recurring billing; revenue recognition; usage-based billing"
 
