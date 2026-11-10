@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13616",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] but 657849 - Refactor TableRelation logic and disable validation for Bank Account fields in multiple table extensions",
+  "url": "https://github.com/microsoft/BCApps/pull/13616",
+  "published_at": "2026-11-09T16:48:54Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-10T00:14:28.203Z"
+    },
+    "fetched": {
+      "at": "2026-11-10T00:16:17.788Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-10T00:16:33.448Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004037
+    },
+    "linked": {
+      "at": "2026-11-10T00:16:33.564Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-10T00:16:33.571Z",
+      "path": "content/changes/bcapps/13616.md"
+    }
+  },
+  "input_hash": "4b94d4867be901ed3279d150e1ef03147ab63c50:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13616,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4b94d4867be901ed3279d150e1ef03147ab63c50",
+    "author": "DavidHolusa",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "but 657849 refactor tablerelation logic and disable validation for bank account fields in multiple table extensions"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6768a03a3f7a30c04fb1d7afc806fcefe0b6429690609272c0783a51d3ba3c3c"
+}

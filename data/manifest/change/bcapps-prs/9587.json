@@ -1,0 +1,44 @@
+{
+  "id": "change/bcapps-prs/9587",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Concurrent posting for General Ledger entries",
+  "url": "https://github.com/microsoft/BCApps/pull/9587",
+  "published_at": "2026-11-09T16:48:20Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-10T00:14:28.203Z"
+    },
+    "fetched": {
+      "at": "2026-11-10T00:16:34.496Z",
+      "change_class": "code",
+      "files": 210,
+      "al": 162,
+      "objects": 135,
+      "unjoined": 27
+    }
+  },
+  "input_hash": "e367b95d9af8790aecc4fa4124dbc0c41090bc3b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9587,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e367b95d9af8790aecc4fa4124dbc0c41090bc3b",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "Build: scripts & configs",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "concurrent posting for general ledger entries"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5335b844fce999ed38a50e1c615ba0a1eda101650647dbf7babb62588216c8f2"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "change/bcapps-prs/13672",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Expense Agent: expose VAT setup in configuration wizard",
+  "url": "https://github.com/microsoft/BCApps/pull/13672",
+  "published_at": "2026-11-09T23:18:04Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-10T00:14:28.203Z"
+    },
+    "fetched": {
+      "at": "2026-11-10T00:16:15.023Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-10T00:16:19.417Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003981
+    },
+    "linked": {
+      "at": "2026-11-10T00:16:19.546Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-10T00:16:19.550Z",
+      "path": "content/changes/bcapps/13672.md"
+    }
+  },
+  "input_hash": "218a250dc6494a06299e3667561e1944c6d483fe:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13672,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "218a250dc6494a06299e3667561e1944c6d483fe",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Ownership: Manual",
+      "Ownership: Needs Review"
+    ],
+    "community_contribution": false,
+    "title_key": "expense agent expose vat setup in configuration wizard"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f977aa7dbd1fe7fb7c199f87303ffdc9f744bd14d453f7790ce46005213cd715"
+}

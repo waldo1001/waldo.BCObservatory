@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Actions overview",
+  "title": "Page Actions Overview in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actions-overview",
-  "published_at": "2026-06-02T11:41:47.000Z",
+  "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,51 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.362Z",
-      "blob": "ef56aeebd9b2289bb83c3bd19156f11f636043ce",
-      "words": 1623,
+      "at": "2026-11-10T00:16:18.945Z",
+      "blob": "f2e6af48bc161b8249be495d375fe62a3e3b7d31",
+      "words": 1380,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:23:30.383Z",
+      "at": "2026-11-10T00:16:33.376Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.005051
+      "objects": 0,
+      "cost_usd": 0.005099
     },
     "summarized": {
-      "at": "2026-10-06T18:23:30.401Z",
+      "at": "2026-11-10T00:16:33.376Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:23:30.402Z",
+      "at": "2026-11-10T00:16:33.377Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:23:30.403Z",
+      "at": "2026-11-10T00:16:33.377Z",
       "page": false
     }
   },
-  "input_hash": "ef56aeebd9b2289bb83c3bd19156f11f636043ce",
+  "input_hash": "f2e6af48bc161b8249be495d375fe62a3e3b7d31",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-actions-overview.md",
-    "description": "Learn more about displaying actions on the action bar for pages in Business Central.",
+    "description": "Learn how to organize Business Central page actions into menus and groups so that users can find tasks, open pages, and run reports or flows.",
     "ms_date": "2025-05-15",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1623,
-    "identifiers": [],
+    "words": 1380,
+    "identifiers": [
+      "OnAfterGetRecord",
+      "OnNextRecord"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b107fe165d80e9f046804e5dde6f99e28c187383955425a83058ff94f56c86a1"
+  "output_hash": "20a6902a9ce262cdaf96d618e87cc8f92193f24ca763a47a84b71d6d7d38e43d"
 }

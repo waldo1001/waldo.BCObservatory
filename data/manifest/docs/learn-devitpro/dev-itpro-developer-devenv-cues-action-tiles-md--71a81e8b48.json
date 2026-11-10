@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Creating and Customizing Cues",
+  "title": "Creating and Customizing Business Central Cues",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-cues-action-tiles",
-  "published_at": "2025-05-06T19:26:23.000Z",
+  "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.303Z",
-      "blob": "a16f57c8987671bdd843871f67b2821d439a36c5",
-      "words": 1817,
+      "at": "2026-11-10T00:16:33.575Z",
+      "blob": "fbe08837b0970443a9e110a4f04e345c4071f8e1",
+      "words": 1506,
       "forms": 0
     },
     "extracted": {
@@ -38,22 +38,24 @@
       "page": false
     }
   },
-  "input_hash": "a16f57c8987671bdd843871f67b2821d439a36c5",
+  "input_hash": "fbe08837b0970443a9e110a4f04e345c4071f8e1",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-cues-action-tiles.md",
-    "description": "Get an overview of cues and action tiles and the tasks involved in customizing them on Role Centers.",
+    "description": "Learn how to create Business Central cues and action tiles with AL, choose layouts, calculate cue values, and configure tile actions and images.",
     "ms_date": "2024-07-03",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1817,
+    "words": 1506,
     "identifiers": [
-      "CalcFormula",
+      "FlowField",
+      "CardPart",
       "CuegroupLayout",
+      "OnAction",
       "TileNew",
       "TileYellow",
       "TileBlue",
@@ -63,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "906054c2d3679e446e24c565a84a06254db8a10c4474ce5940b4db3f7ae44def"
+  "output_hash": "fbe08837b0970443a9e110a4f04e345c4071f8e1"
 }

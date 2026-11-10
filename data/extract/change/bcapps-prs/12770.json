@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/12770",
+  "number": 12770,
+  "title": "[Main]-Project Ledger Entry does not get the modified amount from Purchase Order Statistics if the Purchase line is of type G/L Account in the Spanish version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "projects"
+  ],
+  "summary": "Fixed a bug where project ledger entries did not reflect modified invoice discounts on G/L Account lines in purchase orders, even though G/L entries were correct.",
+  "key_points": [
+    "Project ledger entries now use the correct unit cost when partial invoices are posted with modified invoice discounts on G/L Account lines",
+    "Two new procedures calculate and apply the per-unit invoice discount difference to project posting",
+    "The fix accounts for indirect costs, prices including VAT, and currency conversions",
+    "Item lines were not affected by the bug and remain unchanged",
+    "The fix applies across all localization layers (W1, NA, BE, CH, ES, FI, GB, IT, RU, APAC)"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "projects"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004657,
+    "changes_in_call": 1
+  }
+}

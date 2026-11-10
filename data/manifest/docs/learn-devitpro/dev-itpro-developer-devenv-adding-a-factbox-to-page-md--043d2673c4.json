@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Add FactBoxes to Business Central Pages",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-a-factbox-to-page",
-  "published_at": "2026-10-07T10:38:00.000Z",
+  "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,32 +13,32 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-07T18:13:39.973Z",
-      "blob": "b25a7bf2853de589a177d84f223b4b32ec2c4ceb",
-      "words": 1375,
+      "at": "2026-11-10T00:16:19.687Z",
+      "blob": "00ff93f27bd73f4beb3b899c1f91edf6c2dd05e7",
+      "words": 1363,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-07T18:13:48.930Z",
+      "at": "2026-11-10T00:16:33.433Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.009978
+      "objects": 3,
+      "cost_usd": 0.010809
     },
     "summarized": {
-      "at": "2026-10-07T18:13:48.933Z",
+      "at": "2026-11-10T00:16:33.434Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-07T18:13:48.935Z",
+      "at": "2026-11-10T00:16:33.437Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-07T18:13:48.936Z",
+      "at": "2026-11-10T00:16:33.441Z",
       "page": false
     }
   },
-  "input_hash": "b25a7bf2853de589a177d84f223b4b32ec2c4ceb",
+  "input_hash": "00ff93f27bd73f4beb3b899c1f91edf6c2dd05e7",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -50,7 +50,7 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1375,
+    "words": 1363,
     "identifiers": [
       "CardPart",
       "ListPart",
@@ -58,12 +58,11 @@
       "SubPageView",
       "ListPlus",
       "DefaultSummaryPart",
-      "FactBoxes",
       "OnOpenPage"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "45f3bfaa6ee04ca2fa4ac6851210060e95b9129fd1ffab7774dbc4d8e2bbc29f"
+  "output_hash": "04f42bf05edfa674d58e50c41157983d38c2b42e9beb884f59f3a72759fe39c4"
 }

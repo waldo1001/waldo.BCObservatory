@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Using the client to create profiles",
+  "title": "Using the Client to Create Profiles",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client",
-  "published_at": "2025-05-06T19:26:23.000Z",
+  "published_at": "2026-11-09T13:07:22.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.308Z",
-      "blob": "6352933bc1452e321c5cf5b7acd761fe6d13a107",
-      "words": 1524,
+      "at": "2026-11-10T00:16:33.627Z",
+      "blob": "6a63ac0cb64b00f8c9333ebfc504d60740b55c3e",
+      "words": 1382,
       "forms": 0
     },
     "extracted": {
@@ -38,23 +38,28 @@
       "page": false
     }
   },
-  "input_hash": "6352933bc1452e321c5cf5b7acd761fe6d13a107",
+  "input_hash": "6a63ac0cb64b00f8c9333ebfc504d60740b55c3e",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-design-profiles-using-client.md",
-    "description": "Gives an overview of how to create profiles by using the client together with Visual Studio Code.",
-    "ms_date": "2024-09-30",
+    "description": "Learn how to create, export, modify, and import Business Central profiles and page customizations by using the client and Visual Studio Code.",
+    "ms_date": "2026-11-03",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1524,
-    "identifiers": [],
+    "words": 1382,
+    "identifiers": [
+      "MyProfile",
+      "CaptionML",
+      "ProfileDescriptionML",
+      "RoleCenter"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5a3c4386341b5cdf989c912f54dada2b7136d7ecf4efc424764f3feeb45fdc14"
+  "output_hash": "6a63ac0cb64b00f8c9333ebfc504d60740b55c3e"
 }

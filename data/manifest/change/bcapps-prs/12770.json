@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/12770",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Project Ledger Entry does not get the modified amount from Purchase Order Statistics if the Purchase line is of type G/L Account in the Spanish version.",
+  "url": "https://github.com/microsoft/BCApps/pull/12770",
+  "published_at": "2026-11-09T23:18:04Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-10T00:14:28.203Z"
+    },
+    "fetched": {
+      "at": "2026-11-10T00:16:03.675Z",
+      "change_class": "code",
+      "files": 16,
+      "al": 14,
+      "objects": 12,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-11-10T00:16:14.537Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004657
+    },
+    "linked": {
+      "at": "2026-11-10T00:16:14.677Z",
+      "objects": 12,
+      "unjoined": 2,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-10T00:16:14.683Z",
+      "path": "content/changes/bcapps/12770.md"
+    }
+  },
+  "input_hash": "efa587dd76a698dc3028fa28989eae8cdbcfaad0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12770,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "efa587dd76a698dc3028fa28989eae8cdbcfaad0",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "project ledger entry does not get the modified amount from purchase order statistics if the purchase line is of type g l account in the spanish version"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7b0252f51ab7a914668be02a1cef038d5cc60e515a1f10b52d8773fa7724d00e"
+}

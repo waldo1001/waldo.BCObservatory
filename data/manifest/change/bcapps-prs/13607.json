@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13607",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": " [Main][ALL-E] Report 713 \"Inventory Custmer Sales\" – Excel (data only) export generates one row per Item Ledger Entry with NULL values instead of one aggregated row per Item/Customer combinationInitial commit",
+  "url": "https://github.com/microsoft/BCApps/pull/13607",
+  "published_at": "2026-11-09T10:03:09Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-10T00:14:28.203Z"
+    }
+  },
+  "input_hash": "0307eb401b0e49b83779b7f70bf012825c75ab51:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13607,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0307eb401b0e49b83779b7f70bf012825c75ab51",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "main all e report 713 inventory custmer sales excel data only export generates one row per item ledger entry with null values instead of one aggregated row per item customer combinationinitial commit"
+  }
+}

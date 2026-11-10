@@ -2,27 +2,29 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/app-faq-test.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-test",
   "title": "FAQ about Testing your Business Central App",
-  "blob": "878ca1e4942269b35c81cbb4db2a69670d194d61",
-  "summary": "Testing your Business Central app FAQ provides guidance on comprehensive testing requirements including online-only testing, version testing, country testing, and upgrade testing.",
+  "blob": "6661e00e0d2c77ec9f7b8dbaed75fd09f40d9696",
+  "summary": "FAQ about testing Business Central apps before validation submission, covering testing environments, versions, coverage, upgrades, and multi-country support requirements.",
   "systems": [
-    "development",
-    "administration"
+    "development"
   ],
   "topics": [
     "app testing",
     "validation",
     "quality assurance",
     "upgrade testing",
-    "marketplace apps"
+    "marketplace apps",
+    "testing coverage",
+    "docker containers"
   ],
   "objects": [],
   "features": [
-    "complete coverage testing",
-    "automated testing",
-    "manual testing",
-    "country-specific testing",
+    "100% test coverage",
+    "automated and manual testing",
+    "online environment testing",
+    "latest version testing",
+    "multi-country testing",
     "upgrade testing",
-    "Docker testing",
+    "extensive app data testing",
     "maintenance testing"
   ],
   "versions": [],
@@ -32,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003157,
-      "pages_in_call": 8
+      "cost_usd": 0.003725,
+      "pages_in_call": 1
     }
   ]
 }

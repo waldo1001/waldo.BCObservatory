@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13730",
+  "number": 13730,
+  "title": "[Expense Agent] Initialize missing vendor numbering after upgrade",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "A per-company upgrade initializes missing vendor number series for the Expense Agent, ensuring merchant-driven expense creation works after upgrades when defaults were applied but vendor numbering remained blank.",
+  "key_points": [
+    "Adds an upgrade codeunit that fills only blank Expense Vendor Nos. fields while preserving existing configurations",
+    "Repairs the same missing value through default settings and the setup wizard",
+    "Enables the default-settings action when the vendor numbering field is empty",
+    "Includes test coverage for upgrade execution, number series preservation, and merchant expense creation",
+    "No schema or localization changes introduced"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Existing companies can have default number series marked as applied while Expense Vendor Nos. remains blank.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004194,
+    "changes_in_call": 1
+  }
+}

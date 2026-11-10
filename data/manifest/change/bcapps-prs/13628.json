@@ -1,0 +1,43 @@
+{
+  "id": "change/bcapps-prs/13628",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Bug 657281 [Drop Shipment] Your Reference, , Vendor Order No., and Vendor Shipment No. are blank on Posted Purchase Receipt Lines",
+  "url": "https://github.com/microsoft/BCApps/pull/13628",
+  "published_at": "2026-11-09T16:46:17Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-10T00:14:28.203Z"
+    },
+    "fetched": {
+      "at": "2026-11-10T00:16:34.814Z",
+      "change_class": "code",
+      "files": 24,
+      "al": 22,
+      "objects": 19,
+      "unjoined": 3
+    }
+  },
+  "input_hash": "9090318a1bd88c432554a6ee4dc0b563b83833d5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13628,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9090318a1bd88c432554a6ee4dc0b563b83833d5",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 657281 drop shipment your reference vendor order no and vendor shipment no are blank on posted purchase receipt lines"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b05115b93c79f96d64780949b2b97de0165a2f4b9010bfd7b7e63526e87c77e0"
+}

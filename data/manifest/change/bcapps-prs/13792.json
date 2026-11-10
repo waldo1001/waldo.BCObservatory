@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13792",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Add Is Feature Trial to legacy Expense Agent Consumption",
+  "url": "https://github.com/microsoft/BCApps/pull/13792",
+  "published_at": "2026-11-09T18:20:24Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-10T00:14:28.203Z"
+    },
+    "fetched": {
+      "at": "2026-11-10T00:16:15.981Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-10T00:16:20.722Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.004122
+    },
+    "linked": {
+      "at": "2026-11-10T00:16:20.843Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-10T00:16:20.854Z",
+      "path": "content/changes/bcapps/13792.md"
+    }
+  },
+  "input_hash": "493e96268b1564573dafac1cb4ec14b06ed3c163:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13792,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "493e96268b1564573dafac1cb4ec14b06ed3c163",
+    "author": "encimita",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "add is feature trial to legacy expense agent consumption"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "92299fc2f729d9c17e93b2b67c5f9b82f2d1c1a8f9c89c11b6c9e887810f4ae5"
+}

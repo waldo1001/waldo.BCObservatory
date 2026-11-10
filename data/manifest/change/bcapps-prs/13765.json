@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13765",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-Document] Set max output tokens for MLLM extraction",
+  "url": "https://github.com/microsoft/BCApps/pull/13765",
+  "published_at": "2026-11-09T16:46:17Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-10T00:14:28.203Z"
+    }
+  },
+  "input_hash": "50e8c76e863294b52225db4a24ba1830e0a05295:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13765,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "50e8c76e863294b52225db4a24ba1830e0a05295",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "e document set max output tokens for mllm extraction"
+  }
+}

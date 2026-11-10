@@ -2,31 +2,44 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-adding-a-factbox-to-page.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-a-factbox-to-page",
   "title": "Add FactBoxes to Business Central Pages",
-  "blob": "b25a7bf2853de589a177d84f223b4b32ec2c4ceb",
-  "summary": "FactBoxes surface related information in a page's right pane using CardPart or ListPart pages, charts, cues, and system parts like Notes and Links. The article explains how to add FactBox areas to pages, pass context data, and optimize performance through controlled loading sequences.",
+  "blob": "00ff93f27bd73f4beb3b899c1f91edf6c2dd05e7",
+  "summary": "FactBoxes display related at-a-glance information in the right pane of Business Central pages, hosting CardPart or ListPart pages, charts, cues, and system parts like Notes and Links. Learn how to add FactBoxes, filter data with SubPageLink or SubPageView, manage visibility including the new Summary part control, and optimize page-loading performance.",
   "systems": [
     "development",
-    "platform"
+    "platform",
+    "administration"
   ],
   "topics": [
-    "factbox",
-    "page development",
-    "ui design",
+    "factboxes",
+    "page design",
+    "page parts",
     "performance optimization",
-    "subpagelink",
-    "system parts"
+    "al development",
+    "ui customization"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Acc. Sched. KPI Web Srv. Lines"
+    },
+    {
+      "type": "page",
+      "name": "Customer Details FactBox"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    }
+  ],
   "features": [
     "FactBox area container",
-    "CardPart pages",
-    "ListPart pages",
-    "SubPageLink property",
-    "SubPageView property",
-    "Notes system part",
-    "Links system part",
-    "Summary system part",
-    "FactBox visibility control"
+    "CardPart and ListPart hosting",
+    "SubPageLink filtering",
+    "SubPageView sorting",
+    "Summary part visibility control",
+    "Notes and Links system parts",
+    "Deferred FactBox loading",
+    "Page background tasks"
   ],
   "versions": [
     "2025 release wave 2"
@@ -37,7 +50,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009978,
+      "cost_usd": 0.010809,
       "pages_in_call": 1
     }
   ]

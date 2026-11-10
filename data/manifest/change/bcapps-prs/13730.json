@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/13730",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Expense Agent] Initialize missing vendor numbering after upgrade",
+  "url": "https://github.com/microsoft/BCApps/pull/13730",
+  "published_at": "2026-11-09T23:20:33Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-10T00:14:28.203Z"
+    },
+    "fetched": {
+      "at": "2026-11-10T00:16:03.505Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-10T00:16:13.669Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004194
+    },
+    "linked": {
+      "at": "2026-11-10T00:16:13.785Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-10T00:16:13.899Z",
+      "path": "content/changes/bcapps/13730.md"
+    }
+  },
+  "input_hash": "9accdfd6d55debfe1966b6ecc367f21b21d66a2e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13730,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9accdfd6d55debfe1966b6ecc367f21b21d66a2e",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense agent initialize missing vendor numbering after upgrade"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2ae50b1797d3ce670e7952a4045c7189a2fd8b08fce6f935c683295bff39a81c"
+}

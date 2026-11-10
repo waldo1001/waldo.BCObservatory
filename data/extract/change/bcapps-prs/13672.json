@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13672",
+  "number": 13672,
+  "title": "Expense Agent: expose VAT setup in configuration wizard",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The Expense Agent Setup Wizard now exposes VAT configuration controls (Default VAT Business Posting Group, Allow VAT Reclaim, and a link to VAT Posting Setup) within the wizard interface instead of requiring administrators to leave the wizard to access these settings.",
+  "key_points": [
+    "VAT configuration fields added to the accounting defaults section of the setup wizard",
+    "Controls use the existing temporary setup record and call ConfigUpdated() to mark changes without early persistence",
+    "Default VAT Business Posting Group field is positioned first to satisfy table validation requirements",
+    "Navigation to standard VAT Posting Setup page uses the same modal pattern as other wizard links",
+    "Update and Cancel operations flow through existing save/discard logic"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003981,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/13616",
+  "number": 13616,
+  "title": "[main] but 657849 - Refactor TableRelation logic and disable validation for Bank Account fields in multiple table extensions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "sales"
+  ],
+  "summary": "SWIFT Code validation is made consistent across Czech localization by disabling table relation validation on SWIFT fields in purchase and sales headers and ledger entries, allowing codes not in the SWIFT Code table to work like bank accounts do.",
+  "key_points": [
+    "Disables ValidateTableRelation for SWIFT Code fields in purchase headers, sales headers, vendor ledger entries, and customer ledger entries",
+    "Allows SWIFT codes that don't exist in the SWIFT Code table to be used, consistent with vendor bank account behavior",
+    "Fixes an issue where Update Document action on posted purchase invoices failed when changing unrelated fields like Constant Symbol",
+    "Table relations are retained but validation is disabled",
+    "Applies only to Czech Core Localization Pack extensions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing",
+    "sales"
+  ],
+  "quote": "Aligns document and ledger entry validation with the existing bank account behavior.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004037,
+    "changes_in_call": 1
+  }
+}

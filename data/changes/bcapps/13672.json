@@ -1,0 +1,66 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13672,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13672",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-09T23:18:04Z",
+  "merge_commit_sha": "218a250dc6494a06299e3667561e1944c6d483fe",
+  "author": "Alexander-Ya",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "ExpenseManagement",
+    "Ownership: Manual",
+    "Ownership: Needs Review"
+  ],
+  "community_contribution": false,
+  "title": "Expense Agent: expose VAT setup in configuration wizard",
+  "body_hash": "e41701184112650613e31fe187a60b8d9beb5eba07b0af67c3e2ee67372eb463",
+  "fixes_issues": [],
+  "work_items": [
+    647481
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetupWizard.Page.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 34,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/6991",
+        "type": "page",
+        "id": 6991,
+        "name": "Expense Agent Setup Wizard",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6991"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

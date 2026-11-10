@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13792",
+  "number": 13792,
+  "title": "[main] Add Is Feature Trial to legacy Expense Agent Consumption",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Added the missing Is Feature Trial Boolean field to the legacy Expense Agent Consumption table to restore schema parity with the corresponding environment consumption table.",
+  "key_points": [
+    "Field 7 (Is Feature Trial) added as Boolean to table 6968",
+    "Matches schema from table 6969 Expense Agent Env. Consumption",
+    "Additive change only, no logic or behavior modifications",
+    "Existing records default to false value",
+    "No impact on permissions, keys, obsoletion state, or preprocessor guards"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004122,
+    "changes_in_call": 1
+  }
+}

@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-actions-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actions-overview",
-  "title": "Actions overview",
-  "blob": "ef56aeebd9b2289bb83c3bd19156f11f636043ce",
-  "summary": "Actions overview describes how to create and organize page actions in Business Central menus including Actions, New Document, Navigate, and Report areas, plus promoted actions and Power Automate flow integration.",
+  "title": "Page Actions Overview in Business Central",
+  "blob": "f2e6af48bc161b8249be495d375fe62a3e3b7d31",
+  "summary": "Page Actions Overview explains how to organize and display actions on Business Central pages across different menus (Actions, Navigation, Reports) and provides guidance on promoted actions, action grouping, and Power Automate flow integration.",
   "systems": [
     "development",
     "platform"
@@ -11,31 +11,21 @@
   "topics": [
     "page actions",
     "action bar",
-    "user interface",
-    "workflow",
-    "power automate"
+    "ui design",
+    "al development",
+    "promoted actions",
+    "power automate",
+    "navigation"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Role Center"
-    },
-    {
-      "type": "page",
-      "name": "Card page"
-    },
-    {
-      "type": "page",
-      "name": "List page"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Action areas",
-    "Action menus",
+    "Actions menu (processing)",
+    "Creation menu (creation)",
+    "Navigation menu (navigation)",
+    "Reports menu (reporting)",
     "Promoted actions",
-    "Power Automate flows",
-    "Action grouping",
-    "Custom actions"
+    "Power Automate flow integration",
+    "Action grouping in submenus"
   ],
   "versions": [
     "2022 release wave 2"
@@ -46,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005051,
-      "pages_in_call": 8
+      "cost_usd": 0.005099,
+      "pages_in_call": 1
     }
   ]
 }

@@ -2,25 +2,27 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/app-faq-offer.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-offer",
   "title": "FAQ about managing and submitting your Business Central offer",
-  "blob": "16ef2291fb49be0821502ecc01b2aab27725d898",
-  "summary": "FAQ about managing and submitting Business Central Marketplace offers covers the Partner Center submission process, validation queuing, and app publishing.",
+  "blob": "ec85d5a63de294f42e186c522114ae1e8837ecde",
+  "summary": "FAQ addressing common questions about managing Business Central app offers in Partner Center, including the validation process, review and publish workflows, and technical validation requirements.",
   "systems": [
-    "administration",
-    "development"
+    "development",
+    "administration"
   ],
   "topics": [
-    "marketplace",
-    "partner center",
+    "faq",
     "app submission",
+    "partner center",
+    "marketplace",
     "validation",
-    "publishing"
+    "app lifecycle",
+    "offer management"
   ],
   "objects": [],
   "features": [
     "Go Live button",
-    "Review and publish",
-    "validation process",
+    "Review and publish button",
     "technical validation",
+    "validation queue",
     "marketing changes"
   ],
   "versions": [],
@@ -30,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003157,
-      "pages_in_call": 8
+      "cost_usd": 0.002872,
+      "pages_in_call": 1
     }
   ]
 }
