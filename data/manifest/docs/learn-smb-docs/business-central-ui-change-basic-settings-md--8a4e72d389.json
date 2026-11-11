@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Change basic settings for the current user",
+  "title": "Change Basic Settings",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.882Z",
-      "blob": "40854c40ab11b4625c1d6b57c28ec43b31f83447",
-      "words": 1252,
+      "at": "2026-11-11T00:20:34.829Z",
+      "blob": "ff0497539fb613c69b767eb855aafca2b857fc3f",
+      "words": 1214,
       "forms": 17
     },
     "extracted": {
-      "at": "2026-10-06T18:39:28.803Z",
+      "at": "2026-11-11T00:21:04.201Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.004528
+      "objects": 0,
+      "cost_usd": 0.00408
     },
     "summarized": {
-      "at": "2026-10-06T18:39:30.783Z",
+      "at": "2026-11-11T00:21:04.202Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:39:30.785Z",
+      "at": "2026-11-11T00:21:04.203Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:39:30.787Z",
+      "at": "2026-11-11T00:21:04.204Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-change-basic-settings.md",
     "description": "Learn how to change some basic settings in Business Central, for example, your role and Role Center, company, work date, and time zones.",
-    "ms_date": "2025-03-26",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -141,12 +141,12 @@
       "change work date",
       "decimal separator"
     ],
-    "ai_usage": null,
-    "words": 1252,
+    "ai_usage": "ai-assisted",
+    "words": 1214,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2af9c34ac7480dcaab805801391a65d6a275df5b60889e920d706e9808dc9f70"
+  "output_hash": "37098e2632d71bf21291a0f8017ff088d0447d323104716aec89eea6c8f64a46"
 }

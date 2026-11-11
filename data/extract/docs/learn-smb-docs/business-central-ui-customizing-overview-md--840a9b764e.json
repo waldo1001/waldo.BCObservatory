@@ -1,26 +1,28 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-customizing-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-customizing-overview",
-  "title": "Customizing Business Central",
-  "blob": "6b6546a06304b619261512954ef38d2b66b5fe29",
-  "summary": "Overview of customization approaches available to administrators and users for tailoring Business Central interface, features, and functionality.",
+  "title": "Customize Business Central",
+  "blob": "5828b018b7d9df482b071a8c394874052c573aa8",
+  "summary": "Customize Business Central describes multiple methods to customize the application for users and organizations, including customizing profiles, changing UI experience levels, setting up colored cues, and installing apps.",
   "systems": [
-    "administration"
+    "administration",
+    "platform"
   ],
   "topics": [
     "customization",
-    "workspace",
-    "user experience",
-    "role profiles",
+    "personalization",
+    "role centers",
+    "user interface",
+    "profile management",
     "apps"
   ],
   "objects": [],
   "features": [
-    "profile customization",
-    "experience settings",
-    "colored indicators on cues",
-    "app installation",
-    "page personalization"
+    "Role Center customization",
+    "Experience setting",
+    "Colored cues indicator",
+    "Page personalization",
+    "App installation"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002277,
-      "pages_in_call": 8
+      "cost_usd": 0.003212,
+      "pages_in_call": 1
     }
   ]
 }

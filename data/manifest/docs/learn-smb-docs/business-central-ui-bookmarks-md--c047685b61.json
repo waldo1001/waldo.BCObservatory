@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Bookmark link to page or report on role center",
+  "title": "Bookmark a Page or Report on Your Role Center",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-bookmarks",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.743Z",
-      "blob": "ae4dac22e0679dfb62267cb7ab7627d75c671b22",
-      "words": 919,
+      "at": "2026-11-11T00:20:33.548Z",
+      "blob": "677baeafe71be2f823e2d2cb371657bc250415b4",
+      "words": 928,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:00.779Z",
+      "at": "2026-11-11T00:20:47.004Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002502
+      "cost_usd": 0.003888
     },
     "summarized": {
-      "at": "2026-10-06T19:27:02.504Z",
+      "at": "2026-11-11T00:20:47.006Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:02.505Z",
+      "at": "2026-11-11T00:20:47.006Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:02.506Z",
+      "at": "2026-11-11T00:20:47.007Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-bookmarks.md",
-    "description": "Using the bookmark icon, you can add an action that opens a page or report from the navigation menu of your role center.",
+    "description": "Add bookmarks to the navigation menu on your Business Central Role Center so you can quickly open frequently used pages, reports, and business tasks.",
     "ms_date": "2024-07-25",
-    "ms_topic": "article",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 919,
+    "ai_usage": "ai-assisted",
+    "words": 928,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "78f01ac3ffa8e9604d837bade7542c38a40e847d7f986e798c585204e2ac9e8c"
+  "output_hash": "934ddd4c21949fdc3c437bfab82cb44a9511c0b9b1d33e03d35135013af13cb2"
 }

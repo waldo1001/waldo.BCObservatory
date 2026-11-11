@@ -1,36 +1,33 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-  "title": "Change basic settings for the current user",
-  "blob": "40854c40ab11b4625c1d6b57c28ec43b31f83447",
-  "summary": "My Settings page allows users to configure basic settings including role, company, work date, region, language, time zone, and notifications for their workspace.",
+  "title": "Change Basic Settings",
+  "blob": "ff0497539fb613c69b767eb855aafca2b857fc3f",
+  "summary": "The My Settings page lets users manage basic settings that affect their workspace, including role, company, work date, region, language, time zone, and notifications.",
   "systems": [
     "administration",
     "platform"
   ],
   "topics": [
-    "user settings",
-    "preferences",
+    "settings",
+    "user preferences",
     "role center",
     "company",
     "work date",
-    "language"
-  ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "My Settings"
-    }
-  ],
-  "features": [
-    "role",
-    "company",
-    "work date",
-    "region",
     "language",
-    "time zone",
-    "notifications",
-    "teaching tips"
+    "region",
+    "time zone"
+  ],
+  "objects": [],
+  "features": [
+    "Role selection",
+    "Company switching",
+    "Work date management",
+    "Region formatting",
+    "Language selection",
+    "Time zone configuration",
+    "Notification management",
+    "Teaching tips"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004528,
-      "pages_in_call": 8
+      "cost_usd": 0.00408,
+      "pages_in_call": 1
     }
   ]
 }

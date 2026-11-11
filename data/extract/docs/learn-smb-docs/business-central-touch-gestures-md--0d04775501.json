@@ -1,33 +1,26 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/touch-gestures.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/touch-gestures",
-  "title": "Touch and pen gestures",
-  "blob": "37dcb46acb518b9176e7eb4bcd5685f4da8d6cda",
-  "summary": "Describes touch and pen gestures for interacting with Business Central on tablets and phones, including chart tooltips, list scrolling, tile actions, and Power BI report controls.",
+  "title": "Touch and Pen Gestures for Tablets and Phones",
+  "blob": "02e729ccffe30c4d330392c4aeeee7612ca88f5d",
+  "summary": "Touch and pen gestures for tablets and phones in Business Central, including tapping, swiping, and holding actions for charts, lists, and Power BI reports.",
   "systems": [
     "platform"
   ],
   "topics": [
-    "touch",
-    "gestures",
-    "mobile",
+    "touch gestures",
     "tablet",
     "phone",
-    "interaction"
+    "mobile",
+    "user interface"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Power BI Report Selection"
-    }
-  ],
+  "objects": [],
   "features": [
-    "tap and hold",
+    "tap and hold for tooltips",
+    "horizontal list scrolling",
+    "tile options menu",
     "swipe actions",
-    "horizontal scrolling",
-    "chart tooltips",
-    "tile menu",
-    "report selection"
+    "Power BI report selection"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +29,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003855,
-      "pages_in_call": 8
+      "cost_usd": 0.00297,
+      "pages_in_call": 1
     }
   ]
 }

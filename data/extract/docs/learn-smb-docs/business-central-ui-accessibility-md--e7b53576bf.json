@@ -1,30 +1,30 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-accessibility.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-accessibility",
-  "title": "Assistive features",
-  "blob": "f84e6a8041536cb18b56da203fcabeecb7b18dbc",
-  "summary": "Explains accessibility features in Business Central including keyboard shortcuts, touch gestures, navigation support, heading structure, alternative text, assistive technology support, zoom, and tooltips.",
+  "title": "Accessibility and Keyboard Shortcuts",
+  "blob": "807b7a0497a30e4f19349dd08ece4a258b2b980a",
+  "summary": "Accessibility and keyboard shortcuts in Business Central including navigation, headings, alternative text, assistive technology support, zoom, and tooltips to make the application available to people with disabilities.",
   "systems": [
     "platform"
   ],
   "topics": [
     "accessibility",
-    "keyboard",
-    "navigation",
+    "keyboard shortcuts",
     "assistive technology",
-    "screen reader",
-    "zoom"
+    "navigation",
+    "zoom",
+    "tooltips",
+    "screen reader"
   ],
   "objects": [],
   "features": [
-    "keyboard shortcuts",
-    "tab navigation",
-    "heading structure",
-    "image alt text",
-    "link titles",
-    "screen reader support",
-    "zoom in/out",
-    "tooltips"
+    "keyboard navigation",
+    "touch and pen gestures",
+    "semantic markup",
+    "alternative text for images",
+    "zoom in and out",
+    "tooltips on UI elements",
+    "screen reader support"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003855,
-      "pages_in_call": 8
+      "cost_usd": 0.003832,
+      "pages_in_call": 1
     }
   ]
 }

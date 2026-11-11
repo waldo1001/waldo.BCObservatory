@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Post multiple documents at the same time",
+  "title": "Post Multiple Documents at the Same Time",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-batch-posting",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.901Z",
-      "blob": "3116afa3d6653c5aca956d3edd4db1ae8f599014",
-      "words": 1436,
+      "at": "2026-11-11T00:20:33.556Z",
+      "blob": "59242434346c6b89afc5d825dd60ede0751a90f7",
+      "words": 1438,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T16:50:33.199Z",
+      "at": "2026-11-11T00:20:46.997Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 17,
-      "cost_usd": 0.009806
+      "objects": 18,
+      "cost_usd": 0.006684
     },
     "summarized": {
-      "at": "2026-10-06T16:50:33.219Z",
+      "at": "2026-11-11T00:20:46.998Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T16:50:33.220Z",
+      "at": "2026-11-11T00:20:46.999Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T16:50:33.221Z",
+      "at": "2026-11-11T00:20:47.000Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-batch-posting.md",
-    "description": "Learn how to select multiple nonposted documents in a list for immediate or scheduled batch posting in Business Central.",
-    "ms_date": "2026-07-03",
+    "description": "Learn how to select multiple unposted sales or purchase documents for immediate batch posting or schedule background posting in Business Central.",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1436,
+    "ai_usage": "ai-assisted",
+    "words": 1438,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "54186088ebc7df261415efac500a5ed0c8789316c1bea49007f0aa52a84b8645"
+  "output_hash": "665c07b8f0505994c7774e68492ba61f9025c97a57bf53eda2cbc09911e29b01"
 }

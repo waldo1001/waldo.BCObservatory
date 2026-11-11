@@ -1,21 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-batch-posting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-batch-posting",
-  "title": "Post multiple documents at the same time",
-  "blob": "3116afa3d6653c5aca956d3edd4db1ae8f599014",
-  "summary": "Batch posting posts multiple sales or purchase documents immediately or on a schedule via job queues. Set up background posting in Sales & Receivables Setup, create batch post job queue entries, and monitor results on Job Queue Entries page.",
+  "title": "Post Multiple Documents at the Same Time",
+  "blob": "59242434346c6b89afc5d825dd60ede0751a90f7",
+  "summary": "Post multiple purchase and sales documents immediately or schedule them for batch posting using the job queue to avoid performance issues and allow supervisors to manage posting workflows.",
   "systems": [
-    "sales",
     "purchasing",
+    "sales",
     "administration"
   ],
   "topics": [
     "batch posting",
-    "background posting",
-    "job queues",
+    "job queue",
     "document posting",
-    "scheduling",
-    "performance"
+    "background processing",
+    "sales orders",
+    "purchase orders"
   ],
   "objects": [
     {
@@ -24,11 +24,15 @@
     },
     {
       "type": "page",
-      "name": "Batch Post Purchase Order"
+      "name": "Sales & Receivables Setup"
     },
     {
       "type": "page",
-      "name": "Sales & Receivables Setup"
+      "name": "Batch Post Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "Error Message Register"
     },
     {
       "type": "page",
@@ -36,7 +40,11 @@
     },
     {
       "type": "page",
-      "name": "Error Message Register"
+      "name": "Job Queue Log Entries"
+    },
+    {
+      "type": "report",
+      "name": "Batch Post Sales Orders"
     },
     {
       "type": "report",
@@ -68,10 +76,6 @@
     },
     {
       "type": "report",
-      "name": "Batch Post Sales Orders"
-    },
-    {
-      "type": "report",
       "name": "Batch Post Sales Return Orders"
     },
     {
@@ -88,13 +92,14 @@
     }
   ],
   "features": [
-    "immediate batch posting",
-    "scheduled batch posting",
-    "background posting setup",
-    "post and print with job queue",
+    "batch posting",
+    "immediate posting",
+    "job queue scheduling",
+    "background posting",
+    "post with job queue",
+    "post & print with job queue",
     "job queue categories",
-    "posting date handling",
-    "error review"
+    "job queue status monitoring"
   ],
   "versions": [],
   "parts": 1,
@@ -103,8 +108,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009806,
-      "pages_in_call": 3
+      "cost_usd": 0.006684,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Touch and pen gestures",
+  "title": "Touch and Pen Gestures for Tablets and Phones",
   "url": "https://learn.microsoft.com/dynamics365/business-central/touch-gestures",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.621Z",
-      "blob": "37dcb46acb518b9176e7eb4bcd5685f4da8d6cda",
+      "at": "2026-11-11T00:20:11.550Z",
+      "blob": "02e729ccffe30c4d330392c4aeeee7612ca88f5d",
       "words": 204,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:26:38.957Z",
+      "at": "2026-11-11T00:20:28.931Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003855
+      "objects": 0,
+      "cost_usd": 0.00297
     },
     "summarized": {
-      "at": "2026-10-06T19:26:39.009Z",
+      "at": "2026-11-11T00:20:28.932Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:39.016Z",
+      "at": "2026-11-11T00:20:28.932Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:39.017Z",
+      "at": "2026-11-11T00:20:28.933Z",
       "page": false
     }
   },
@@ -44,7 +44,7 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/touch-gestures.md",
-    "description": "Learn about touch and pen gestures that help you work efficiently with your data from tablets and phones.",
+    "description": "Learn which touch and pen gestures help you use charts, scroll lists, open tile actions, and select Power BI reports on tablets and phones.",
     "ms_date": "2021-04-29",
     "ms_topic": "article",
     "search_form": [],
@@ -54,12 +54,12 @@
       "charts",
       "tiles"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 204,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "91873c189125048b4c27752a010387e96bcc3b5a615ceeb745035aa786f4768b"
+  "output_hash": "fc7660140dcdb686dc9f6e7a6b0ae287e23cff8e51f16e88afae3a2f331af60d"
 }

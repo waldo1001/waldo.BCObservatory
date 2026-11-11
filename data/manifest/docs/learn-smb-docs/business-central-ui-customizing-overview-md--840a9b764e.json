@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Customizing Business Central",
+  "title": "Customize Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-customizing-overview",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.998Z",
-      "blob": "6b6546a06304b619261512954ef38d2b66b5fe29",
-      "words": 320,
+      "at": "2026-11-11T00:21:04.190Z",
+      "blob": "5828b018b7d9df482b071a8c394874052c573aa8",
+      "words": 333,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:43:16.894Z",
+      "at": "2026-11-11T00:21:33.137Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002277
+      "cost_usd": 0.003212
     },
     "summarized": {
-      "at": "2026-10-06T19:43:19.033Z",
+      "at": "2026-11-11T00:21:33.138Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:43:19.034Z",
+      "at": "2026-11-11T00:21:37.264Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:43:20.832Z",
+      "at": "2026-11-11T00:21:37.265Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-customizing-overview.md",
     "description": "Read about the different ways of customizing Business Central to improve access to functionality and features you need most as suits your daily work.",
-    "ms_date": "2021-06-23",
+    "ms_date": "2026-11-10",
     "ms_topic": "overview",
     "search_form": [
       {
@@ -65,12 +65,12 @@
       "extend",
       "customize"
     ],
-    "ai_usage": null,
-    "words": 320,
+    "ai_usage": "ai-assisted",
+    "words": 333,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d7f41d1234adad9a419607d9382124829138d3122951cf4e1eb5c3e0aeb8d68d"
+  "output_hash": "a6915979994ad1285950201a3943fad4cb6fbc212cbc0e218a19fb0683886191"
 }

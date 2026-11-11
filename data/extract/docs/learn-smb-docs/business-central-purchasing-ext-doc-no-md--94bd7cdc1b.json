@@ -1,20 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/purchasing-ext-doc-no.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-ext-doc-no",
-  "title": "External document numbers on purchase documents",
-  "blob": "a91cbdc6b449550523bffd68251e6f5a4cca1b59",
-  "summary": "Specify external document numbers on purchase documents to reference supplier invoice numbers or other external identifiers for tracking and reconciliation purposes.",
+  "title": "External Document Numbers on Purchase Documents",
+  "blob": "4cb0af6138daba6ede19d2ee9d4bf078f3930eb1",
+  "summary": "External document numbers on purchase documents allow you to specify additional document identifiers when processing purchases.",
   "systems": [
-    "purchasing"
+    "purchasing",
+    "integration"
   ],
   "topics": [
     "external document numbers",
     "purchase documents",
-    "vendor identification"
+    "document management"
   ],
   "objects": [],
   "features": [
-    "external document number entry"
+    "external document numbers"
   ],
   "versions": [],
   "parts": 1,
@@ -23,8 +24,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003247,
-      "pages_in_call": 8
+      "cost_usd": 0.002524,
+      "pages_in_call": 1
     }
   ]
 }

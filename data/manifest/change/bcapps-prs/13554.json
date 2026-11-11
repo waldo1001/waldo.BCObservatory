@@ -13,7 +13,7 @@
     }
   },
   "input_hash": "207c41f8a7ed16092cde1c4d72b3bd44ca68ddf5:c1",
-  "attempts": 0,
+  "attempts": 1,
   "flags": [],
   "meta": {
     "number": 13554,
@@ -32,5 +32,7 @@
     ],
     "community_contribution": true,
     "title_key": "add procedures to import configuration packages and manage table operations in fabric api"
-  }
+  },
+  "last_error": "The operation was aborted due to timeout",
+  "retry_after": "2026-11-11T02:20:20.297Z"
 }

@@ -1,0 +1,77 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13805,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13805",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-10T09:46:00Z",
+  "merge_commit_sha": "0a9b1247ccb87b5bc07df76f78d277a836c89123",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29.x][all-e]Purchase Invoice Statistics Non-Deductible VAT Amount does not match VAT Entries and G/L Entries when Non-Deductible VAT is enabled. - CopyInitial commit",
+  "body_hash": "20e32489e36cf1b2a72c49766e1fd8a7332d2968d27fd079f16b00d746dcf2e1",
+  "fixes_issues": [],
+  "work_items": [
+    658351
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Calculation/NonDedVATImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/NonDeductibleUT.Codeunit.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/NonDeductibleVATStatistics.Codeunit.al",
+      "status": "modified",
+      "additions": 118,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 148,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "2c932722a2917f4592f1541d4d85dc247c8942ac",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/VAT/Calculation/NonDedVATImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6201",
+        "type": "codeunit",
+        "id": 6201,
+        "name": "Non-Ded. VAT Impl.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6201"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

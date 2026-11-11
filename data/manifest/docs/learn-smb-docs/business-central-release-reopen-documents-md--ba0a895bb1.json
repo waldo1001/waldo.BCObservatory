@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Release and reopen sales and purchase documents",
+  "title": "Release and Reopen Sales and Purchase Documents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/release-reopen-documents",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.972Z",
-      "blob": "5ca28456a097095cd2d91075cf0c92179c4fcf14",
-      "words": 290,
+      "at": "2026-11-11T00:20:08.359Z",
+      "blob": "15895f39f498d683bada0650c772665bcc42f664",
+      "words": 311,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:43:19.020Z",
+      "at": "2026-11-11T00:20:28.937Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004095
+      "cost_usd": 0.006232
     },
     "summarized": {
-      "at": "2026-10-06T19:43:20.859Z",
+      "at": "2026-11-11T00:20:28.937Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:43:20.860Z",
+      "at": "2026-11-11T00:20:28.937Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:43:20.860Z",
+      "at": "2026-11-11T00:20:28.938Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/release-reopen-documents.md",
-    "description": "Learn how to release or reopen sales and purchase documents like order, invoices, and quotes.",
-    "ms_date": "2024-04-16",
+    "description": "Release sales and purchase documents to make them ready for further processing. Reopen documents when you need to change them before posting.",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 290,
+    "ai_usage": "ai-assisted",
+    "words": 311,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6a3c6bc0660aa8fa28609318da3d6393d3bde4dd670d64edb3a0240edfc10390"
+  "output_hash": "ded181377e0f903c3d07adc14a2d9f3e29b07418db803d0aaf869c2c189ddbd2"
 }
