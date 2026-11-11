@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13315",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]Incorrect Country/Region Code in VAT Entry after applying Alternative Customer VAT Registration on a Sales Invoice in the Belgian version.",
+  "url": "https://github.com/microsoft/BCApps/pull/13315",
+  "published_at": "2026-11-10T05:31:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    }
+  },
+  "input_hash": "4689885b0d4953511d0fbd781c2473679901481d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13315,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4689885b0d4953511d0fbd781c2473679901481d",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "incorrect country region code in vat entry after applying alternative customer vat registration on a sales invoice in the belgian version"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12516",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.",
+  "url": "https://github.com/microsoft/BCApps/pull/12516",
+  "published_at": "2026-11-10T12:00:18Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    }
+  },
+  "input_hash": "db50aef61686984a689f771b2d899d029533a311:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12516,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "db50aef61686984a689f771b2d899d029533a311",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "master unposted purchase return orders and credit memos should be added to the find entries"
+  }
+}

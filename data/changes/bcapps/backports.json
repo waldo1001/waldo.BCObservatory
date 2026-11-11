@@ -647,6 +647,15 @@
       "title_key": "bug 651670 29 x icm 873674109 irs forms upgrade fails for form box codes containing parentheses"
     }
   ],
+  "12068": [
+    {
+      "number": 12165,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-10T17:51:06Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12165",
+      "title_key": "bug 658055 29 x warehouse pick is not generated for make to order subassembly after registered put away"
+    }
+  ],
   "12080": [
     {
       "number": 12158,
@@ -854,6 +863,15 @@
       "title_key": "fix tracked direct transfer inventory put away posting"
     }
   ],
+  "12691": [
+    {
+      "number": 13574,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-09T16:19:49Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13574",
+      "title_key": "support customer registration number as e document party identifier for de"
+    }
+  ],
   "12696": [
     {
       "number": 12899,
@@ -1025,6 +1043,24 @@
       "title_key": "bug 657096 29 x suggest lines fails with a duplicate ecsl vat report line relation record in gb environment"
     }
   ],
+  "13427": [
+    {
+      "number": 13796,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-10T08:27:44Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13796",
+      "title_key": "backport releases 29 x quality management confirm before finishing on create re inspection"
+    }
+  ],
+  "13429": [
+    {
+      "number": 13798,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-10T08:30:59Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13798",
+      "title_key": "backport releases 29 x quality management receiving setup guide don t offer the warehouse receipt create trigger"
+    }
+  ],
   "13431": [
     {
       "number": 13461,
@@ -1032,6 +1068,15 @@
       "merged_at": "2026-11-04T10:42:40Z",
       "url": "https://github.com/microsoft/BCApps/pull/13461",
       "title_key": "extend sales document edit permissions with subscription billing edit"
+    }
+  ],
+  "13439": [
+    {
+      "number": 13799,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-10T17:43:28Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13799",
+      "title_key": "backport releases 29 x validate negative reorder quantity for fixed reorder qty planning"
     }
   ],
   "13469": [
@@ -1043,6 +1088,15 @@
       "title_key": "soa do not show duplicate contact notification on outgoing email"
     }
   ],
+  "13476": [
+    {
+      "number": 13477,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-09T08:53:33Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13477",
+      "title_key": "fabric separate workspace read and write scopes"
+    }
+  ],
   "13599": [
     {
       "number": 13600,
@@ -1050,6 +1104,33 @@
       "merged_at": "2026-11-04T12:51:49Z",
       "url": "https://github.com/microsoft/BCApps/pull/13600",
       "title_key": "soa setup can be saved while the agent remains inactive without warning"
+    }
+  ],
+  "13692": [
+    {
+      "number": 13693,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-09T08:02:27Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13693",
+      "title_key": "fix sharepoint rest upload 404 caused by trailing slash in parent folder ab 658006"
+    }
+  ],
+  "13721": [
+    {
+      "number": 13788,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-09T17:53:54Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13788",
+      "title_key": "expense agent create per diem line when approving travel requests with per diem included"
+    }
+  ],
+  "13730": [
+    {
+      "number": 13731,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-09T13:33:13Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13731",
+      "title_key": "expense agent initialize missing vendor numbering after upgrade"
     }
   ],
   "unmatched": [
@@ -2347,6 +2428,55 @@
       "merged_at": "2026-11-07T11:55:24Z",
       "url": "https://github.com/microsoft/BCApps/pull/12155",
       "title_key": "bug e documents for germany findedocumentservice always selects last matching service ignoring which service triggered the export backport to releases 29 x"
+    },
+    {
+      "number": 13793,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-09T12:52:09Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13793",
+      "title_key": "add is feature trial to legacy expense agent consumption"
+    },
+    {
+      "number": 13619,
+      "base": "main",
+      "merged_at": "2026-11-09T18:20:24Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13619",
+      "title_key": "but 657853 refactor tablerelation logic and disable validation for bank account fields in multiple table extensions"
+    },
+    {
+      "number": 13703,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-10T09:00:40Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13703",
+      "title_key": "bug 657870 expenseagent allow assigning interim approvers via api before expense reports are pending approval"
+    },
+    {
+      "number": 13555,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-10T09:40:01Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13555",
+      "title_key": "bug 656372 expense agent fix itemization rounding and missing currency code"
+    },
+    {
+      "number": 13705,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-10T13:55:54Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13705",
+      "title_key": "sustainability contoso coffee demo dataset es not installed during environment upgrade"
+    },
+    {
+      "number": 13816,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-10T14:40:22Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13816",
+      "title_key": "fix stale expense report lines when regenerating per diems"
+    },
+    {
+      "number": 13896,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-10T17:01:46Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13896",
+      "title_key": "fix cloud migration company delete removing the wrong hybrid company"
     }
   ]
 }

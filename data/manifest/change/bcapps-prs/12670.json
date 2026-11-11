@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/12670",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] - Slice 580818: [Expense Management][VENDOR] Role Centers updates 💸",
+  "url": "https://github.com/microsoft/BCApps/pull/12670",
+  "published_at": "2026-11-10T15:00:11Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    }
+  },
+  "input_hash": "bad143c18c78839ec8f7ece051e982d25cb39bcb:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12670,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "bad143c18c78839ec8f7ece051e982d25cb39bcb",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master slice 580818 expense management vendor role centers updates"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/13755",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Refine placeholder tests and record trigger flags",
+  "url": "https://github.com/microsoft/BCApps/pull/13755",
+  "published_at": "2026-11-10T20:33:15Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    }
+  },
+  "input_hash": "0bf112b7d1e32ade9d36194354178847bdec35eb:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13755,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0bf112b7d1e32ade9d36194354178847bdec35eb",
+    "author": "nikolakukrika",
+    "author_type": "User",
+    "labels": [
+      "AL: Tools",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "refine placeholder tests and record trigger flags"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-11T00:17:39.835Z",
+  "retry_after": null
+}

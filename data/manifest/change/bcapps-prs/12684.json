@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12684",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[API tests] Improve APIV1 fixture and verification reliability",
+  "url": "https://github.com/microsoft/BCApps/pull/12684",
+  "published_at": "2026-11-10T00:44:39Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    }
+  },
+  "input_hash": "f817ff05958093fee20bdf6a4798e6608ee159d5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12684,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f817ff05958093fee20bdf6a4798e6608ee159d5",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "api tests improve apiv1 fixture and verification reliability"
+  }
+}

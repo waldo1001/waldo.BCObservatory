@@ -1,0 +1,150 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13724,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13724",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-10T22:26:26Z",
+  "merge_commit_sha": "e8732f464399fee1b23593b1c478628d39a8f50c",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 651757: Allow warehouse pick for MTO subassembly after registered put-away",
+  "body_hash": "9df9ec8a7dc02f5a6901696b07ad319c4bf3de95541e34dd6d84625f4a35b75f",
+  "fixes_issues": [
+    12068,
+    12165
+  ],
+  "work_items": [
+    651757,
+    658055
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderComponent.Table.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderComponent.Table.al",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProductionOrder.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Request/MfgGetOutboundSourceDocs.ReportExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Request/MfgWhseSourceCreateDocument.ReportExt.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMProdWhseHandling.Codeunit.al",
+      "status": "modified",
+      "additions": 293,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMProdWhsePickRunner.Codeunit.al",
+      "status": "added",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 386,
+    "deletions": 8,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderComponent.Table.al",
+        "status": "modified",
+        "key": "table/5407",
+        "type": "table",
+        "id": 5407,
+        "name": "Prod. Order Component",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5407"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProductionOrder.Table.al",
+        "status": "modified",
+        "key": "table/5405",
+        "type": "table",
+        "id": 5405,
+        "name": "Production Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5405"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Request/MfgGetOutboundSourceDocs.ReportExt.al",
+        "status": "modified",
+        "key": "reportextension/99000836",
+        "type": "reportextension",
+        "id": 99000836,
+        "name": "Mfg. Get Outbound Source Docs",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "reportextension/99000836"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Warehouse/Request/MfgWhseSourceCreateDocument.ReportExt.al",
+        "status": "modified",
+        "key": "reportextension/7305",
+        "type": "reportextension",
+        "id": 7305,
+        "name": "Mfg. WhseSourceCreateDocument",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "reportextension/7305"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderComponent.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "manufacturing",
+    "warehouse"
+  ],
+  "apps": [
+    "Base Application"
+  ],
+  "issues": []
+}

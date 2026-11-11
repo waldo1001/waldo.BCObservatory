@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/13689",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] - Bug 657990 Sustainability Contoso Coffee Demo Dataset (ES) Not Installed During Environment Upgrade",
+  "url": "https://github.com/microsoft/BCApps/pull/13689",
+  "published_at": "2026-11-10T10:17:16Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    }
+  },
+  "input_hash": "ae68b4c49133d6463b10bd1c74d014eedc619fb4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13689,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ae68b4c49133d6463b10bd1c74d014eedc619fb4",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 657990 sustainability contoso coffee demo dataset es not installed during environment upgrade"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12773",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Expense tests] Verify the expected 404 in the Expense Users API negative test",
+  "url": "https://github.com/microsoft/BCApps/pull/12773",
+  "published_at": "2026-11-10T11:46:30Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    }
+  },
+  "input_hash": "e39001c23b0a56d918154109c2ff1b60264aeca0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12773,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e39001c23b0a56d918154109c2ff1b60264aeca0",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense tests verify the expected 404 in the expense users api negative test"
+  }
+}

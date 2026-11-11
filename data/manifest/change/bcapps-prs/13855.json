@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13855",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main][ALL-E] Item Attributes (Decimal): Unable to Enter 0 After Clearing the Attribute Value to blank ",
+  "url": "https://github.com/microsoft/BCApps/pull/13855",
+  "published_at": "2026-11-10T13:24:09Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    }
+  },
+  "input_hash": "72850e5e7ff23b4bcb76b72cac194f9a701a0b79:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13855,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "72850e5e7ff23b4bcb76b72cac194f9a701a0b79",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "all e item attributes decimal unable to enter 0 after clearing the attribute value to blank"
+  }
+}

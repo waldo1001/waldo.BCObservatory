@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13724",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 651757: Allow warehouse pick for MTO subassembly after registered put-away",
+  "url": "https://github.com/microsoft/BCApps/pull/13724",
+  "published_at": "2026-11-10T22:26:26Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    },
+    "fetched": {
+      "at": "2026-11-11T00:17:28.760Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 5,
+      "objects": 4,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-11T00:17:40.351Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004396
+    },
+    "linked": {
+      "at": "2026-11-11T00:17:40.539Z",
+      "objects": 4,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-11T00:17:40.733Z",
+      "path": "content/changes/bcapps/13724.md"
+    }
+  },
+  "input_hash": "e8732f464399fee1b23593b1c478628d39a8f50c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13724,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e8732f464399fee1b23593b1c478628d39a8f50c",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 651757 allow warehouse pick for mto subassembly after registered put away"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2a9bfb5944b3819087a42f05d977dab3f8350d87c8bc03763ae20bb6cc589d69"
+}

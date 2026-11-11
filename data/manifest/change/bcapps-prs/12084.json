@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12084",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 652154: [Subcontracting] Add feature uptake telemetry",
+  "url": "https://github.com/microsoft/BCApps/pull/12084",
+  "published_at": "2026-11-10T13:28:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    }
+  },
+  "input_hash": "7eb6e43dab5f1ce6a4fe4e4780ab99d5900daf90:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12084,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7eb6e43dab5f1ce6a4fe4e4780ab99d5900daf90",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 652154 subcontracting add feature uptake telemetry"
+  }
+}

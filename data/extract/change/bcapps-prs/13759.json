@@ -1,0 +1,47 @@
+{
+  "item_id": "change/bcapps-prs/13759",
+  "number": 13759,
+  "title": "[Layers, Apps] Remove CLEAN27 obsolete code",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales",
+    "finance",
+    "purchasing",
+    "platform",
+    "development",
+    "integration",
+    "administration",
+    "crm",
+    "inventory",
+    "assembly",
+    "service",
+    "hr",
+    "manufacturing",
+    "fixed-assets",
+    "projects"
+  ],
+  "summary": "Obsolete code guarded by CLEAN27 preprocessor tags is removed from W1 and regional/country apps, including 140 deleted AL files for entirely obsolete objects and unwrapped replacement code throughout the application layers.",
+  "key_points": [
+    "766 AL files modified across W1, regional, and country-specific implementations to remove CLEAN27 conditional branches",
+    "140 entire AL files deleted where objects were entirely obsolete and no replacement code remained",
+    "Dependent code cleaned up including GB Sales Line and Sales Document Test reports that called removed VAT reverse-charge helpers",
+    "Seven unchanged copies recorded in Miapp exclusion snapshot where no CLEAN27 gates applied to country-specific implementations",
+    "Validation completed using preprocessor configuration audit across 1,328 configurations"
+  ],
+  "change_kind": "obsoletion",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": "Remove obsolete code guarded by `CLEAN27` throughout `src/Layers` and `src/Apps`, selecting the branches used when `CLEAN27` is defined.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.028381,
+    "changes_in_call": 1
+  }
+}

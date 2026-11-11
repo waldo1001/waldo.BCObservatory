@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13618",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Serial numbers selected on Assembly Order component lines are deleted when running Calculate Regenerative Plan, without carrying out action messages",
+  "url": "https://github.com/microsoft/BCApps/pull/13618",
+  "published_at": "2026-11-10T08:50:20Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    }
+  },
+  "input_hash": "ff2af85c442b65fe0835255a8db0f244b1a70564:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13618,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ff2af85c442b65fe0835255a8db0f244b1a70564",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master serial numbers selected on assembly order component lines are deleted when running calculate regenerative plan without carrying out action messages"
+  }
+}

@@ -1,6 +1,58 @@
 {
   "open": [
     {
+      "number": 2444,
+      "title": "Implement retry logic for GitHub App token requests to handle transient errors",
+      "url": "https://github.com/microsoft/AL-Go/pull/2444",
+      "base": "main",
+      "major": null,
+      "author": "AlexanderMarcher",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-11-06T10:26:55Z",
+      "updated_at": "2026-11-10T18:03:04Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2449,
+      "title": "Optional builds for PR validation",
+      "url": "https://github.com/microsoft/AL-Go/pull/2449",
+      "base": "main",
+      "major": null,
+      "author": "ChrisBlankDe",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-11-10T16:21:10Z",
+      "updated_at": "2026-11-10T16:26:57Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2425,
+      "title": "Admin API for PTE publishing/installing for BC30 and later",
+      "url": "https://github.com/microsoft/AL-Go/pull/2425",
+      "base": "main",
+      "major": null,
+      "author": "spetersenms",
+      "labels": [],
+      "draft": true,
+      "created_at": "2026-10-29T12:58:22Z",
+      "updated_at": "2026-11-10T10:10:52Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2446,
+      "title": "Add top-level token permissions to issue workflows",
+      "url": "https://github.com/microsoft/AL-Go/pull/2446",
+      "base": "main",
+      "major": null,
+      "author": "mazhelez",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-11-09T12:10:10Z",
+      "updated_at": "2026-11-09T12:14:26Z",
+      "community_contribution": false
+    },
+    {
       "number": 2428,
       "title": "Propose a BCQuality knowledge advisor for AL-Go issues and pull requests",
       "url": "https://github.com/microsoft/AL-Go/pull/2428",
@@ -11,19 +63,6 @@
       "draft": true,
       "created_at": "2026-11-02T12:38:32Z",
       "updated_at": "2026-11-07T08:49:26Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2444,
-      "title": "Implement retry logic for GitHub App token requests to handle transient errors",
-      "url": "https://github.com/microsoft/AL-Go/pull/2444",
-      "base": "main",
-      "major": null,
-      "author": "AlexanderMarcher",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-11-06T10:26:55Z",
-      "updated_at": "2026-11-06T11:47:35Z",
       "community_contribution": false
     },
     {
@@ -76,19 +115,6 @@
       "draft": true,
       "created_at": "2026-11-03T13:36:42Z",
       "updated_at": "2026-11-03T13:40:22Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2425,
-      "title": "Admin API for PTE publishing/installing for BC30 and later",
-      "url": "https://github.com/microsoft/AL-Go/pull/2425",
-      "base": "main",
-      "major": null,
-      "author": "spetersenms",
-      "labels": [],
-      "draft": true,
-      "created_at": "2026-10-29T12:58:22Z",
-      "updated_at": "2026-11-02T15:20:47Z",
       "community_contribution": false
     },
     {
@@ -249,6 +275,15 @@
     }
   ],
   "issues": [
+    {
+      "number": 2445,
+      "title": "BuildReferenceDocumentation release loop ignores artifactUrl input",
+      "url": "https://github.com/microsoft/AL-Go/issues/2445",
+      "labels": [],
+      "author": "soarkit",
+      "created_at": "2026-11-09T09:55:04Z",
+      "comments": 1
+    },
     {
       "number": 2443,
       "title": "[Bug]: GitHub App token request is not retried; a transient 404 on the installation lookup fails the workflow",
@@ -413,8 +448,7 @@
       "title": "[Bug]: Orverwritesettings fail with custom Al-Go Template",
       "url": "https://github.com/microsoft/AL-Go/issues/2228",
       "labels": [
-        "bug",
-        "stale"
+        "bug"
       ],
       "author": "PropmanProphecy",
       "created_at": "2026-04-29T16:35:07Z",

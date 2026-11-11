@@ -1,27 +1,29 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-browser-settings.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-browser-settings",
-  "title": "Setting up your browser",
-  "blob": "a8e0daa80a1b242d0815b639f6645385eab55263",
-  "summary": "Browser setup and troubleshooting guide for Business Central Web Client covering JavaScript, cookies, and pop-ups configuration for supported browsers.",
+  "title": "Set Up and Troubleshoot Your Browser for the Business Central Web Client",
+  "blob": "d68b1606fc7c15a1148ca4dcaef61fb1e4b0bed1",
+  "summary": "Browser setup and troubleshooting guide for the Business Central web client, covering JavaScript, cookies, and pop-up permissions in supported browsers like Microsoft Edge.",
   "systems": [
-    "platform"
+    "platform",
+    "administration"
   ],
   "topics": [
-    "browser",
+    "browser setup",
     "web client",
+    "troubleshooting",
     "javascript",
     "cookies",
     "pop-ups",
-    "edge",
-    "settings"
+    "microsoft edge"
   ],
   "objects": [],
   "features": [
-    "JavaScript enablement",
-    "Cookie configuration",
-    "Pop-up allowance",
-    "Browser compatibility"
+    "JavaScript permissions",
+    "cookie settings",
+    "pop-up allowlisting",
+    "supported browsers",
+    "Microsoft Edge configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004171,
-      "pages_in_call": 8
+      "cost_usd": 0.003332,
+      "pages_in_call": 1
     }
   ]
 }

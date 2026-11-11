@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13572",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix cloud migration company delete removing the wrong hybrid company",
+  "url": "https://github.com/microsoft/BCApps/pull/13572",
+  "published_at": "2026-11-10T17:31:19Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    },
+    "fetched": {
+      "at": "2026-11-11T00:17:47.925Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-11T00:18:03.719Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.0044
+    },
+    "linked": {
+      "at": "2026-11-11T00:18:03.865Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-11T00:18:03.869Z",
+      "path": "content/changes/bcapps/13572.md"
+    }
+  },
+  "input_hash": "cc9a13111aa74f28b62873155cea3e7580f62fe9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13572,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "cc9a13111aa74f28b62873155cea3e7580f62fe9",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix cloud migration company delete removing the wrong hybrid company"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bf3e3d71f6ce16c8b6fa87c2cd57e916577b224b8993c6aa3a72f8e646b8bbf6"
+}

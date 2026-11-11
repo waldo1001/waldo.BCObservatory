@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13499",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Expense Agent] Defer per-diem policy invalidation until the parent line is saved",
+  "url": "https://github.com/microsoft/BCApps/pull/13499",
+  "published_at": "2026-11-10T16:03:54Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    }
+  },
+  "input_hash": "d63214dc2c84c211518c23d600ae877afd6d940c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13499,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d63214dc2c84c211518c23d600ae877afd6d940c",
+    "author": "encimita",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense agent defer per diem policy invalidation until the parent line is saved"
+  }
+}

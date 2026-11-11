@@ -1,20 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-edit-posted-document.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document",
-  "title": "Edit posted sales and purchase documents",
-  "blob": "7a2c426d387d01b6198c3033c2708fc50a09f0e7",
-  "summary": "Edit posted sales and purchase documents to update fields like package tracking numbers and payment references. Functionality covers Posted Sales Shipments, Posted Purchase Invoices, Posted Return Shipments, and Posted Return Receipts across supported markets, with additional document types in specific regions.",
+  "title": "Edit Posted Documents",
+  "blob": "adbba1333300f471987116ffe60386e1619208c1",
+  "summary": "Edit posted documents to update relevant information like shipping tracking numbers or payment references after they've been posted. The functionality works across sales, purchase, and service documents in all supported markets.",
   "systems": [
     "sales",
     "purchasing",
-    "integration"
+    "service"
   ],
   "topics": [
-    "document editing",
     "posted documents",
+    "document editing",
     "sales shipments",
     "purchase invoices",
-    "tracking numbers"
+    "service documents",
+    "tracking information"
   ],
   "objects": [
     {
@@ -24,17 +25,18 @@
     {
       "type": "page",
       "name": "Posted Sales Shipments"
-    },
-    {
-      "type": "page",
-      "name": "Posted Purchase Invoices"
     }
   ],
   "features": [
-    "edit posted documents",
-    "package tracking updates",
-    "payment reference updates",
-    "multi-market support"
+    "Edit Posted Sales Shipment",
+    "Edit Posted Sales Invoice",
+    "Edit Posted Sales Credit Memo",
+    "Edit Posted Purchase Invoice",
+    "Edit Posted Purchase Credit Memo",
+    "Edit Posted Return Shipment",
+    "Edit Posted Return Receipt",
+    "Edit Posted Service Shipment",
+    "Edit Posted Service Invoice"
   ],
   "versions": [],
   "parts": 1,
@@ -43,8 +45,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003554,
-      "pages_in_call": 8
+      "cost_usd": 0.003541,
+      "pages_in_call": 1
     }
   ]
 }

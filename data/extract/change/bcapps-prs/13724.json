@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/13724",
+  "number": 13724,
+  "title": "Bug 651757: Allow warehouse pick for MTO subassembly after registered put-away",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing",
+    "warehouse"
+  ],
+  "summary": "Warehouse pick selection for make-to-order subassemblies now allows higher-level supplied components after production output put-away is registered, completing a fix that enables proper warehouse workflows for MTO items.",
+  "key_points": [
+    "Extended warehouse-picking eligibility to include Planning Level 1 components when output put-away has been registered",
+    "Maintained consistent eligibility rules across production-order action, warehouse source reports, and worksheet source selection",
+    "Removed incorrect comparison between supplying-line output put-away and component picks that was blocking valid pick scenarios",
+    "Added comprehensive test cases covering full output, staged output, worksheet picking, and mixed stock scenarios",
+    "Propagated changes to Italian localization layer through Miapp"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "warehouse",
+    "assembly"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004396,
+    "changes_in_call": 1
+  }
+}

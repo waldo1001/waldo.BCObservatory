@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Archive sales, purchase, project, and service documents",
+  "title": "Archive Documents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-  "published_at": "2025-10-29T13:40:09.000Z",
+  "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.190Z",
-      "blob": "1051a6a6ab62be08710f4d8dca6e340cd7281ceb",
-      "words": 661,
+      "at": "2026-11-11T00:17:43.403Z",
+      "blob": "e3081e75699621f8fcbe0f485c9a28a8ed0cffba",
+      "words": 719,
       "forms": 18
     },
     "extracted": {
-      "at": "2026-10-06T18:57:32.080Z",
+      "at": "2026-11-11T00:17:47.955Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.004358
+      "objects": 6,
+      "cost_usd": 0.004274
     },
     "summarized": {
-      "at": "2026-10-06T18:57:33.892Z",
+      "at": "2026-11-11T00:17:47.956Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:57:33.893Z",
+      "at": "2026-11-11T00:17:47.957Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:57:33.894Z",
+      "at": "2026-11-11T00:17:47.958Z",
       "page": false
     }
   },
-  "input_hash": "1051a6a6ab62be08710f4d8dca6e340cd7281ceb",
+  "input_hash": "e3081e75699621f8fcbe0f485c9a28a8ed0cffba",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-how-to-archive-documents.md",
-    "description": "Archive sales, purchase, project, and service documents such as orders, quotes, return orders, and blanket orders.",
-    "ms_date": "2025-10-15",
+    "description": "Archive sales, purchase, and service documents and projects to keep earlier versions. Restore eligible records and delete archives with retention policies.",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -140,12 +140,12 @@
       }
     ],
     "keywords": [],
-    "ai_usage": null,
-    "words": 661,
+    "ai_usage": "ai-assisted",
+    "words": 719,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2aa01c53dc53ae59bf99c983929efcedc3c9d5d3d6d40d8a2ff728d7522cf657"
+  "output_hash": "bf496c2a2c16ead7a246f95adfad7dec9a63942e8fe26f25a3cd1997fc31856a"
 }

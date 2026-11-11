@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Setting up your browser",
+  "title": "Set Up and Troubleshoot Your Browser for the Business Central Web Client",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-browser-settings",
-  "published_at": "2025-10-29T13:40:09.000Z",
+  "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.126Z",
-      "blob": "a8e0daa80a1b242d0815b639f6645385eab55263",
-      "words": 493,
+      "at": "2026-11-11T00:17:26.591Z",
+      "blob": "d68b1606fc7c15a1148ca4dcaef61fb1e4b0bed1",
+      "words": 433,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:56:57.582Z",
+      "at": "2026-11-11T00:17:38.585Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004171
+      "cost_usd": 0.003332
     },
     "summarized": {
-      "at": "2026-10-06T18:57:00.560Z",
+      "at": "2026-11-11T00:17:38.587Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:57:00.561Z",
+      "at": "2026-11-11T00:17:38.587Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:57:00.563Z",
+      "at": "2026-11-11T00:17:38.588Z",
       "page": false
     }
   },
-  "input_hash": "a8e0daa80a1b242d0815b639f6645385eab55263",
+  "input_hash": "d68b1606fc7c15a1148ca4dcaef61fb1e4b0bed1",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-browser-settings.md",
-    "description": "Describes how to set up browsers to work with Business Central and products that integrate with it.",
-    "ms_date": "2025-10-13",
+    "description": "Fix browser problems with the Business Central web client by checking supported browsers and allowing JavaScript, cookies, and required pop-ups.",
+    "ms_date": "2026-11-10",
     "ms_topic": "get-started",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "troubleshooting",
       "errors"
     ],
-    "ai_usage": null,
-    "words": 493,
+    "ai_usage": "ai-assisted",
+    "words": 433,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bd19233df59973bc0cc0b75bb55e04eafd2447f5b7d7b0bb8c25c43bfec67f5b"
+  "output_hash": "8d2452447c724de246ed62770ad86def7d79af0a7a26c882bd8d8633d9fc47eb"
 }

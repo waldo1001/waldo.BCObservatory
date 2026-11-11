@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/13722",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[API tests] Mount parallel test tenants with app database write access",
+  "url": "https://github.com/microsoft/BCApps/pull/13722",
+  "published_at": "2026-11-10T00:47:30Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    }
+  },
+  "input_hash": "e87df4a24098229ad530efe568ce352fe2bdc3f9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13722,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e87df4a24098229ad530efe568ce352fe2bdc3f9",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "api tests mount parallel test tenants with app database write access"
+  }
+}

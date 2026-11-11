@@ -1,8 +1,189 @@
 {
   "open": [
     {
+      "number": 13909,
+      "title": "User by Security Group",
+      "url": "https://github.com/microsoft/BCApps/pull/13909",
+      "base": "main",
+      "major": "30",
+      "author": "shuyusheng",
+      "labels": [
+        "ADO: Sync",
+        "From Fork",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-11-10T23:52:51Z",
+      "updated_at": "2026-11-10T23:54:58Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13876,
+      "title": "[Bug]: Data Migration list-empty notification: check table and G/L entries (#13275)",
+      "url": "https://github.com/microsoft/BCApps/pull/13876",
+      "base": "main",
+      "major": "30",
+      "author": "pri-kise",
+      "labels": [
+        "From Fork",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-11-10T09:57:51Z",
+      "updated_at": "2026-11-10T23:48:12Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13904,
+      "title": "[29.X]-Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.",
+      "url": "https://github.com/microsoft/BCApps/pull/13904",
+      "base": "releases/29.x",
+      "major": "29",
+      "author": "neeleshsinghal",
+      "labels": [
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-11-10T15:21:29Z",
+      "updated_at": "2026-11-10T23:48:00Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13899,
+      "title": "Bugfix/issue 13425 shopify wrong curr amount refund",
+      "url": "https://github.com/microsoft/BCApps/pull/13899",
+      "base": "main",
+      "major": "30",
+      "author": "frankmortensen",
+      "labels": [
+        "AL: Apps (W1)",
+        "From Fork",
+        "Team: Integrations",
+        "needs-approval"
+      ],
+      "draft": false,
+      "created_at": "2026-11-10T13:51:11Z",
+      "updated_at": "2026-11-10T23:47:56Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13893,
+      "title": "Add index management actions to update statistics per table or index",
+      "url": "https://github.com/microsoft/BCApps/pull/13893",
+      "base": "main",
+      "major": "30",
+      "author": "mbaranovych",
+      "labels": [
+        "AL: System Application",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-11-10T12:27:02Z",
+      "updated_at": "2026-11-10T23:47:53Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13883,
+      "title": "[Shopify] Initialize return processing for existing shops on upgrade",
+      "url": "https://github.com/microsoft/BCApps/pull/13883",
+      "base": "main",
+      "major": "30",
+      "author": "onbuyuka",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-11-10T10:59:37Z",
+      "updated_at": "2026-11-10T23:47:38Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13753,
+      "title": "[Shopify Connector] - Shopify B2B: Configure separate customer templates for companies",
+      "url": "https://github.com/microsoft/BCApps/pull/13753",
+      "base": "main",
+      "major": "30",
+      "author": "GediminasGaubys",
+      "labels": [
+        "AL: Apps (W1)",
+        "From Fork",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-11-06T11:24:21Z",
+      "updated_at": "2026-11-10T23:47:35Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13748,
+      "title": "[Shopify Connector] - Discover payment methods before order import",
+      "url": "https://github.com/microsoft/BCApps/pull/13748",
+      "base": "main",
+      "major": "30",
+      "author": "GediminasGaubys",
+      "labels": [
+        "AL: Apps (W1)",
+        "From Fork",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-11-06T10:16:51Z",
+      "updated_at": "2026-11-10T23:47:31Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13747,
+      "title": "[Shopify Connector] - Add alternative VAT registration handling",
+      "url": "https://github.com/microsoft/BCApps/pull/13747",
+      "base": "main",
+      "major": "30",
+      "author": "GediminasGaubys",
+      "labels": [
+        "AL: Apps (W1)",
+        "From Fork",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-11-06T09:14:11Z",
+      "updated_at": "2026-11-10T23:47:27Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13744,
+      "title": "[Shopify Connector] - Actionable incomplete order mappings",
+      "url": "https://github.com/microsoft/BCApps/pull/13744",
+      "base": "main",
+      "major": "30",
+      "author": "GediminasGaubys",
+      "labels": [
+        "AL: Apps (W1)",
+        "From Fork",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-11-06T08:48:50Z",
+      "updated_at": "2026-11-10T23:47:24Z",
+      "community_contribution": true
+    },
+    {
+      "number": 12772,
+      "title": "Bug 654042: [DocumentReporting] Exporting Word layout themes uses the wrong file extension",
+      "url": "https://github.com/microsoft/BCApps/pull/12772",
+      "base": "main",
+      "major": "30",
+      "author": "nhsejth",
+      "labels": [
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-10-13T14:31:41Z",
+      "updated_at": "2026-11-10T23:47:16Z",
+      "community_contribution": false
+    },
+    {
       "number": 12453,
-      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2800707",
+      "title": "Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2803912",
       "url": "https://github.com/microsoft/BCApps/pull/12453",
       "base": "main",
       "major": "30",
@@ -14,93 +195,39 @@
       ],
       "draft": false,
       "created_at": "2026-10-06T23:37:44Z",
-      "updated_at": "2026-11-08T23:39:23Z",
+      "updated_at": "2026-11-10T23:41:28Z",
       "community_contribution": false
     },
     {
-      "number": 13783,
-      "title": "[E-Document] Add public purchase draft writer for external structured readers",
-      "url": "https://github.com/microsoft/BCApps/pull/13783",
+      "number": 12682,
+      "title": "[API tests] Use the API session's work date in page-vs-API comparison tests",
+      "url": "https://github.com/microsoft/BCApps/pull/12682",
       "base": "main",
       "major": "30",
-      "author": "marcus905",
+      "author": "t-prda",
       "labels": [
-        "ADO: Sync",
         "AL: Apps (W1)",
-        "Build: Automation",
-        "From Fork",
-        "Team: Integrations",
-        "needs-approval"
+        "Team: Integrations"
       ],
       "draft": false,
-      "created_at": "2026-11-08T13:24:53Z",
-      "updated_at": "2026-11-08T23:14:21Z",
-      "community_contribution": true
-    },
-    {
-      "number": 11156,
-      "title": "Allow controlled changes to item tracking codes",
-      "url": "https://github.com/microsoft/BCApps/pull/11156",
-      "base": "main",
-      "major": "30",
-      "author": "AleksandricMarko",
-      "labels": [
-        "Team: SCM"
-      ],
-      "draft": true,
-      "created_at": "2026-09-07T15:10:58Z",
-      "updated_at": "2026-11-08T16:50:12Z",
+      "created_at": "2026-10-12T10:07:53Z",
+      "updated_at": "2026-11-10T23:31:20Z",
       "community_contribution": false
     },
     {
-      "number": 13587,
-      "title": "Update Corp Card manual selection",
-      "url": "https://github.com/microsoft/BCApps/pull/13587",
+      "number": 12270,
+      "title": "[MX] Upgrade CFDI and Carta Port to new E-Documents Framework",
+      "url": "https://github.com/microsoft/BCApps/pull/12270",
       "base": "main",
       "major": "30",
-      "author": "Alexander-Ya",
+      "author": "v-rosariom",
       "labels": [
-        "AL: Apps (W1)",
-        "ExpenseManagement",
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-11-03T13:51:40Z",
-      "updated_at": "2026-11-08T14:18:15Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13760,
-      "title": "[Expense Agent] Allow receipt submission with unresolved VAT setup",
-      "url": "https://github.com/microsoft/BCApps/pull/13760",
-      "base": "main",
-      "major": "30",
-      "author": "Alexander-Ya",
-      "labels": [
-        "AL: Apps (W1)",
-        "Team: Finance"
-      ],
-      "draft": true,
-      "created_at": "2026-11-06T14:08:35Z",
-      "updated_at": "2026-11-08T12:28:58Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13759,
-      "title": "[Layers, Apps] Remove CLEAN27 obsolete code",
-      "url": "https://github.com/microsoft/BCApps/pull/13759",
-      "base": "main",
-      "major": "30",
-      "author": "Alexander-Ya",
-      "labels": [
-        "AL: Apps (W1)",
         "Build: scripts & configs",
-        "Ownership: Needs Review",
-        "Team: Other"
+        "Team: Finance"
       ],
       "draft": true,
-      "created_at": "2026-11-06T13:43:24Z",
-      "updated_at": "2026-11-08T10:27:49Z",
+      "created_at": "2026-10-02T15:24:09Z",
+      "updated_at": "2026-11-10T23:21:56Z",
       "community_contribution": false
     },
     {
@@ -117,25 +244,26 @@
       ],
       "draft": false,
       "created_at": "2026-09-21T12:52:25Z",
-      "updated_at": "2026-11-08T10:18:03Z",
+      "updated_at": "2026-11-10T22:56:08Z",
       "community_contribution": true
     },
     {
-      "number": 9695,
-      "title": "621963 Deprecate table 9650 \"Custom Report Layout\" (Pending, tag 30.0) + country forks",
-      "url": "https://github.com/microsoft/BCApps/pull/9695",
+      "number": 12667,
+      "title": "Expose edocument send recreate",
+      "url": "https://github.com/microsoft/BCApps/pull/12667",
       "base": "main",
       "major": "30",
-      "author": "V-CWurtzen",
+      "author": "BernardHorvaticBeTerna",
       "labels": [
+        "ADO: Sync",
         "AL: Apps (W1)",
-        "Ownership: Needs Review",
-        "Team: Other"
+        "From Fork",
+        "Team: Integrations"
       ],
       "draft": false,
-      "created_at": "2026-07-23T12:57:09Z",
-      "updated_at": "2026-11-08T00:44:44Z",
-      "community_contribution": false
+      "created_at": "2026-10-11T20:46:39Z",
+      "updated_at": "2026-11-10T22:07:18Z",
+      "community_contribution": true
     },
     {
       "number": 11205,
@@ -149,180 +277,104 @@
       ],
       "draft": false,
       "created_at": "2026-09-08T11:01:25Z",
-      "updated_at": "2026-11-08T00:43:51Z",
+      "updated_at": "2026-11-10T21:51:13Z",
       "community_contribution": false
     },
     {
-      "number": 13213,
-      "title": "[29x] Bug 653921 Warehouse pick fails with \"Nothing to handle\" when an earlier unshipped pick uses a non-default shipment bin",
-      "url": "https://github.com/microsoft/BCApps/pull/13213",
-      "base": "releases/29.x",
-      "major": "29",
-      "author": "MSNehaNawal",
-      "labels": [
-        "Team: SCM"
-      ],
-      "draft": false,
-      "created_at": "2026-10-23T13:07:52Z",
-      "updated_at": "2026-11-08T00:40:37Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13344,
-      "title": "[29.x]- Bug 647007 Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced' reverted back on original Purchase Order",
-      "url": "https://github.com/microsoft/BCApps/pull/13344",
-      "base": "releases/29.x",
-      "major": "29",
-      "author": "MSNehaNawal",
-      "labels": [
-        "Team: SCM"
-      ],
-      "draft": false,
-      "created_at": "2026-10-28T05:34:54Z",
-      "updated_at": "2026-11-08T00:40:19Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13554,
-      "title": "Add procedures to import configuration packages and manage table operations in Fabric API",
-      "url": "https://github.com/microsoft/BCApps/pull/13554",
+      "number": 13641,
+      "title": "Bug 647022: [Subcontracting] Use alternative worksheet names and migrate the legacy page",
+      "url": "https://github.com/microsoft/BCApps/pull/13641",
       "base": "main",
       "major": "30",
-      "author": "Bertverbeek4PS",
+      "author": "ChethanT",
       "labels": [
-        "ADO: Sync",
         "AL: Apps (W1)",
-        "From Fork",
+        "Team: SCM"
+      ],
+      "draft": false,
+      "created_at": "2026-11-04T11:02:43Z",
+      "updated_at": "2026-11-10T21:21:32Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13878,
+      "title": "Bug 651006: Validate production ID ranges across source manifests",
+      "url": "https://github.com/microsoft/BCApps/pull/13878",
+      "base": "main",
+      "major": "30",
+      "author": "ChethanT",
+      "labels": [
+        "Build: Automation",
+        "Build: scripts & configs",
         "Ownership: Needs Review",
         "Team: Other"
       ],
       "draft": false,
-      "created_at": "2026-11-03T08:04:52Z",
-      "updated_at": "2026-11-08T00:39:27Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13606,
-      "title": "Bug 657603: Withholding tax for employees - wrong calculation",
-      "url": "https://github.com/microsoft/BCApps/pull/13606",
-      "base": "main",
-      "major": "30",
-      "author": "ViditGupta1277",
-      "labels": [
-        "AL: Apps (W1)",
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-11-04T03:48:37Z",
-      "updated_at": "2026-11-08T00:38:49Z",
+      "created_at": "2026-11-10T10:23:05Z",
+      "updated_at": "2026-11-10T21:09:03Z",
       "community_contribution": false
     },
     {
-      "number": 13607,
-      "title": " [Main][ALL-E] Report 713 \"Inventory Custmer Sales\" – Excel (data only) export generates one row per Item Ledger Entry with NULL values instead of one aggregated row per Item/Customer combinationInitial commit",
-      "url": "https://github.com/microsoft/BCApps/pull/13607",
+      "number": 13201,
+      "title": "[main] Bug 592028 Retention policy fails: Bin Mandatory must be equal to 'No' in Location. Current value is 'Yes'.",
+      "url": "https://github.com/microsoft/BCApps/pull/13201",
+      "base": "main",
+      "major": "30",
+      "author": "MSNehaNawal",
+      "labels": [
+        "Ownership: Needs Review",
+        "Team: Other"
+      ],
+      "draft": false,
+      "created_at": "2026-10-23T08:18:08Z",
+      "updated_at": "2026-11-10T20:47:44Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12701,
+      "title": "Remove duplicate FR customer and vendor ledger entry tables",
+      "url": "https://github.com/microsoft/BCApps/pull/12701",
+      "base": "main",
+      "major": "30",
+      "author": "djukicmilica",
+      "labels": [
+        "ADO: Sync",
+        "From Fork",
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-10-12T20:35:35Z",
+      "updated_at": "2026-11-10T20:47:16Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13872,
+      "title": "Concurrent Posting for General Ledger (follow up 1)",
+      "url": "https://github.com/microsoft/BCApps/pull/13872",
+      "base": "main",
+      "major": "30",
+      "author": "Alexander-Ya",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-11-10T09:25:26Z",
+      "updated_at": "2026-11-10T20:45:33Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13818,
+      "title": "[Master][ALL-E] Total (LCY) on the Vendor Card FactBox is incorrectly calculated when an unposted Purchase Invoice is linked to a Purchase Order",
+      "url": "https://github.com/microsoft/BCApps/pull/13818",
       "base": "main",
       "major": "30",
       "author": "sanjmaurya",
       "labels": [
-        "Team: SCM"
-      ],
-      "draft": false,
-      "created_at": "2026-11-04T04:17:59Z",
-      "updated_at": "2026-11-08T00:38:46Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13613,
-      "title": "[main] Incorrect Additional Currency Base and Additional Currency Amount calculation in VAT/GST Entries when Line Discount is applied on Sales Invoice in the Australian version",
-      "url": "https://github.com/microsoft/BCApps/pull/13613",
-      "base": "main",
-      "major": "30",
-      "author": "Shikhverma",
-      "labels": [
         "Team: Finance"
       ],
       "draft": false,
-      "created_at": "2026-11-04T06:13:07Z",
-      "updated_at": "2026-11-08T00:38:41Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13616,
-      "title": "[main] but 657849 - Refactor TableRelation logic and disable validation for Bank Account fields in multiple table extensions",
-      "url": "https://github.com/microsoft/BCApps/pull/13616",
-      "base": "main",
-      "major": "30",
-      "author": "DavidHolusa",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-11-04T07:14:31Z",
-      "updated_at": "2026-11-08T00:38:37Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13622,
-      "title": "[Main]- Edit in Excel insert fails on Price List Lines (Page 7001) — Unit of Measure Code validated before Product No. is set causing NavTestFieldException on Price Asset (Table 7003)",
-      "url": "https://github.com/microsoft/BCApps/pull/13622",
-      "base": "main",
-      "major": "30",
-      "author": "DhavalMore88",
-      "labels": [
-        "ADO: Sync",
-        "From Fork",
-        "Team: SCM"
-      ],
-      "draft": false,
-      "created_at": "2026-11-04T08:17:24Z",
-      "updated_at": "2026-11-08T00:38:30Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13627,
-      "title": "[E-Documents] Fix division by zero importing zero-amount purchase order lines",
-      "url": "https://github.com/microsoft/BCApps/pull/13627",
-      "base": "main",
-      "major": "30",
-      "author": "gggdttt",
-      "labels": [
-        "AL: Apps (W1)",
-        "Team: Integrations"
-      ],
-      "draft": false,
-      "created_at": "2026-11-04T09:29:02Z",
-      "updated_at": "2026-11-08T00:38:26Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13633,
-      "title": "[Master] Fix ERM Invoice and Reminder mock customer ledger entries colliding with posted entries",
-      "url": "https://github.com/microsoft/BCApps/pull/13633",
-      "base": "main",
-      "major": "30",
-      "author": "neeleshsinghal",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": true,
-      "created_at": "2026-11-04T10:16:45Z",
-      "updated_at": "2026-11-08T00:38:18Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13634,
-      "title": "[main] Preserve job queue log subscriber changes during finalization",
-      "url": "https://github.com/microsoft/BCApps/pull/13634",
-      "base": "main",
-      "major": "30",
-      "author": "darjoo",
-      "labels": [
-        "Team: Integrations"
-      ],
-      "draft": true,
-      "created_at": "2026-11-04T10:23:05Z",
-      "updated_at": "2026-11-08T00:38:15Z",
+      "created_at": "2026-11-09T13:35:53Z",
+      "updated_at": "2026-11-10T20:45:30Z",
       "community_contribution": false
     },
     {
@@ -337,458 +389,204 @@
       ],
       "draft": false,
       "created_at": "2026-11-04T17:38:11Z",
-      "updated_at": "2026-11-08T00:37:59Z",
+      "updated_at": "2026-11-10T20:45:26Z",
       "community_contribution": false
     },
     {
-      "number": 12926,
-      "title": "Re-land native HttpClient for OCR Service Mgt. and obsolete Http Web Request Mgt.",
-      "url": "https://github.com/microsoft/BCApps/pull/12926",
+      "number": 13671,
+      "title": "Expense Agent: configure posting groups per subcategory",
+      "url": "https://github.com/microsoft/BCApps/pull/13671",
       "base": "main",
       "major": "30",
-      "author": "darjoo",
-      "labels": [
-        "Team: Integrations"
-      ],
-      "draft": false,
-      "created_at": "2026-10-16T08:51:00Z",
-      "updated_at": "2026-11-07T23:20:38Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13724,
-      "title": "Bug 651757: Allow warehouse pick for MTO subassembly after registered put-away",
-      "url": "https://github.com/microsoft/BCApps/pull/13724",
-      "base": "main",
-      "major": "30",
-      "author": "ChethanT",
-      "labels": [
-        "Team: SCM"
-      ],
-      "draft": true,
-      "created_at": "2026-11-05T13:46:45Z",
-      "updated_at": "2026-11-07T23:05:57Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13103,
-      "title": "Main [All-E] Vendor-supplied component purchase lines use incorrect requirement and Order DatesInitial commit",
-      "url": "https://github.com/microsoft/BCApps/pull/13103",
-      "base": "main",
-      "major": "30",
-      "author": "sanjmaurya",
+      "author": "Alexander-Ya",
       "labels": [
         "AL: Apps (W1)",
-        "Team: SCM"
+        "ExpenseManagement",
+        "Team: Finance"
       ],
       "draft": false,
-      "created_at": "2026-10-21T09:45:22Z",
-      "updated_at": "2026-11-07T19:16:41Z",
+      "created_at": "2026-11-04T15:28:05Z",
+      "updated_at": "2026-11-10T20:45:23Z",
       "community_contribution": false
     },
     {
-      "number": 13776,
-      "title": "Allow the DEVELOPMENT preprocessor symbol in PR validation",
-      "url": "https://github.com/microsoft/BCApps/pull/13776",
+      "number": 13361,
+      "title": "Base block for Payables Agent V2.0",
+      "url": "https://github.com/microsoft/BCApps/pull/13361",
       "base": "main",
       "major": "30",
       "author": "mynjj",
       "labels": [
-        "Build: Automation",
+        "AL: Apps (W1)",
         "Build: scripts & configs",
-        "Ownership: Needs Review",
-        "Team: Other"
+        "Team: Finance"
       ],
-      "draft": true,
-      "created_at": "2026-11-06T19:33:27Z",
-      "updated_at": "2026-11-07T18:50:57Z",
+      "draft": false,
+      "created_at": "2026-10-28T10:29:30Z",
+      "updated_at": "2026-11-10T20:45:19Z",
       "community_contribution": false
     },
     {
-      "number": 12772,
-      "title": "Bug 654042: [DocumentReporting] Exporting Word layout themes uses the wrong file extension",
-      "url": "https://github.com/microsoft/BCApps/pull/12772",
+      "number": 13015,
+      "title": "Bug/648925 VAT charged in Sales Invoice with Cash Basis (Unrealized VAT) is not paid on Sales Credit Note applied to that Posted Sales Invoice if we use a similar Cash Basis VAT Prod Posting Group in the Mexican version - regression.",
+      "url": "https://github.com/microsoft/BCApps/pull/13015",
       "base": "main",
       "major": "30",
-      "author": "nhsejth",
+      "author": "v-mjofre",
       "labels": [
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-10-19T21:09:28Z",
+      "updated_at": "2026-11-10T20:45:16Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13627,
+      "title": "[E-Documents] Fix division by zero importing zero-amount purchase order lines",
+      "url": "https://github.com/microsoft/BCApps/pull/13627",
+      "base": "main",
+      "major": "30",
+      "author": "gggdttt",
+      "labels": [
+        "AL: Apps (W1)",
         "Team: Integrations"
       ],
       "draft": false,
-      "created_at": "2026-10-13T14:31:41Z",
-      "updated_at": "2026-11-07T13:46:47Z",
+      "created_at": "2026-11-04T09:29:02Z",
+      "updated_at": "2026-11-10T20:35:20Z",
       "community_contribution": false
     },
     {
-      "number": 13778,
-      "title": "[]Main[ALL-E] Dimensions of components are incorrectly populated when creating Production Order through Order Planning",
-      "url": "https://github.com/microsoft/BCApps/pull/13778",
+      "number": 13908,
+      "title": "first commit",
+      "url": "https://github.com/microsoft/BCApps/pull/13908",
       "base": "main",
       "major": "30",
+      "author": "DavidHolusa",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": true,
+      "created_at": "2026-11-10T20:25:30Z",
+      "updated_at": "2026-11-10T20:26:44Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13012,
+      "title": "[Subcontracting] Assign worksheet suggestions to existing purchase orders",
+      "url": "https://github.com/microsoft/BCApps/pull/13012",
+      "base": "main",
+      "major": "30",
+      "author": "stevengrossGOB",
+      "labels": [
+        "ADO: Sync",
+        "AL: Apps (W1)",
+        "From Fork",
+        "Team: SCM",
+        "needs-approval"
+      ],
+      "draft": false,
+      "created_at": "2026-10-19T14:52:33Z",
+      "updated_at": "2026-11-10T19:24:00Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13704,
+      "title": "[Subcontracting] Add quantity-ready-to-start tracking for production routing operations",
+      "url": "https://github.com/microsoft/BCApps/pull/13704",
+      "base": "main",
+      "major": "30",
+      "author": "stevengrossGOB",
+      "labels": [
+        "ADO: Sync",
+        "AL: Apps (W1)",
+        "From Fork",
+        "Subcontracting",
+        "Team: SCM",
+        "needs-approval"
+      ],
+      "draft": false,
+      "created_at": "2026-11-05T09:59:54Z",
+      "updated_at": "2026-11-10T19:12:21Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13898,
+      "title": "[29.x][ALL-E] Item Attributes (Decimal): Unable to Enter 0 After Clearing the Attribute Value to blank",
+      "url": "https://github.com/microsoft/BCApps/pull/13898",
+      "base": "releases/29.x",
+      "major": "29",
       "author": "sanjmaurya",
       "labels": [
         "Team: SCM"
       ],
-      "draft": true,
-      "created_at": "2026-11-07T03:34:15Z",
-      "updated_at": "2026-11-07T13:41:26Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13462,
-      "title": "Extract Intercompany into one app with country compilation symbols",
-      "url": "https://github.com/microsoft/BCApps/pull/13462",
-      "base": "main",
-      "major": "30",
-      "author": "Alexander-Ya",
-      "labels": [
-        "AL: Apps (W1)",
-        "Build: Automation",
-        "Build: scripts & configs",
-        "Ownership: Needs Review",
-        "Team: Other"
-      ],
-      "draft": true,
-      "created_at": "2026-10-30T08:53:34Z",
-      "updated_at": "2026-11-07T11:49:35Z",
-      "community_contribution": false
-    },
-    {
-      "number": 9326,
-      "title": "[FI] Delocalize Depreciation Differences into a first-party extension",
-      "url": "https://github.com/microsoft/BCApps/pull/9326",
-      "base": "main",
-      "major": "30",
-      "author": "djukicmilica",
-      "labels": [
-        "AL: Apps (W1)",
-        "Build: scripts & configs",
-        "Team: Finance"
-      ],
       "draft": false,
-      "created_at": "2026-07-11T11:55:02Z",
-      "updated_at": "2026-11-07T08:24:13Z",
+      "created_at": "2026-11-10T13:42:17Z",
+      "updated_at": "2026-11-10T19:11:39Z",
       "community_contribution": false
     },
     {
-      "number": 12701,
-      "title": "Remove duplicate FR ledger entry tables",
-      "url": "https://github.com/microsoft/BCApps/pull/12701",
-      "base": "main",
-      "major": "30",
-      "author": "djukicmilica",
-      "labels": [
-        "ADO: Sync",
-        "From Fork",
-        "Team: Finance"
-      ],
-      "draft": true,
-      "created_at": "2026-10-12T20:35:35Z",
-      "updated_at": "2026-11-07T07:56:52Z",
-      "community_contribution": true
-    },
-    {
-      "number": 12462,
-      "title": "Fix ZUGFeRD ship-to address in E-Documents for Germany",
-      "url": "https://github.com/microsoft/BCApps/pull/12462",
-      "base": "main",
-      "major": "30",
-      "author": "pri-kise",
-      "labels": [
-        "From Fork",
-        "Team: Finance"
-      ],
-      "draft": true,
-      "created_at": "2026-10-07T07:07:10Z",
-      "updated_at": "2026-11-07T07:37:33Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13112,
-      "title": " [Main][ALL-E] Canceling a posted purchase invoice fails or misallocates item charges assigned to posted document types other than Purchase ReceiptsInitial commit",
-      "url": "https://github.com/microsoft/BCApps/pull/13112",
-      "base": "main",
-      "major": "30",
-      "author": "sanjmaurya",
-      "labels": [
-        "Ownership: Needs Review",
-        "Team: Other"
-      ],
-      "draft": false,
-      "created_at": "2026-10-21T12:06:14Z",
-      "updated_at": "2026-11-07T03:40:11Z",
-      "community_contribution": false
-    },
-    {
-      "number": 12634,
-      "title": "Migrate Questionnaire Management off XML DOM Management",
-      "url": "https://github.com/microsoft/BCApps/pull/12634",
-      "base": "main",
-      "major": "30",
-      "author": "darjoo",
-      "labels": [
-        "Team: Integrations"
-      ],
-      "draft": false,
-      "created_at": "2026-10-09T21:32:06Z",
-      "updated_at": "2026-11-07T00:38:38Z",
-      "community_contribution": false
-    },
-    {
-      "number": 12670,
-      "title": "[Master] - Slice 580818: [Expense Management][VENDOR] Role Centers updates 💸",
-      "url": "https://github.com/microsoft/BCApps/pull/12670",
-      "base": "main",
-      "major": "30",
-      "author": "v-rohangarg20",
-      "labels": [
-        "AL: Apps (W1)",
-        "ExpenseManagement",
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-10-12T09:13:53Z",
-      "updated_at": "2026-11-07T00:38:20Z",
-      "community_contribution": false
-    },
-    {
-      "number": 12682,
-      "title": "[API tests] Ignore localized fields in API document comparisons",
-      "url": "https://github.com/microsoft/BCApps/pull/12682",
-      "base": "main",
-      "major": "30",
-      "author": "t-prda",
-      "labels": [
-        "AL: Apps (W1)",
-        "Team: Integrations"
-      ],
-      "draft": false,
-      "created_at": "2026-10-12T10:07:53Z",
-      "updated_at": "2026-11-07T00:38:14Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13060,
-      "title": "[Extensibility Request][Subscription Billing] Extension points for a partner billing extension: Billing Proposal visibility, purchase-side event parity, usage-based billing period, document line creation",
-      "url": "https://github.com/microsoft/BCApps/pull/13060",
-      "base": "main",
-      "major": "30",
-      "author": "miljance",
-      "labels": [
-        "ADO: Sync",
-        "AL: Apps (W1)",
-        "From Fork",
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-10-20T14:56:02Z",
-      "updated_at": "2026-11-07T00:36:40Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13225,
-      "title": "Fix Bug 656636 CompAuxNum and CompAuxLib columns should be informed for Payment Discount lines on Unapplied Entries in the French Audit File",
-      "url": "https://github.com/microsoft/BCApps/pull/13225",
-      "base": "releases/29.x",
-      "major": "29",
-      "author": "v-praghav",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-10-25T06:51:18Z",
-      "updated_at": "2026-11-07T00:36:13Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13243,
-      "title": "[main] Wrong Financial entries in Import Duty GST Calculation",
-      "url": "https://github.com/microsoft/BCApps/pull/13243",
-      "base": "main",
-      "major": "30",
-      "author": "Shikhverma",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-10-26T08:08:04Z",
-      "updated_at": "2026-11-07T00:36:09Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13244,
-      "title": "[Master] - Slice 617064: [Expense Management][VENDOR] Expense Spend Limit",
-      "url": "https://github.com/microsoft/BCApps/pull/13244",
-      "base": "main",
-      "major": "30",
-      "author": "v-rohangarg20",
-      "labels": [
-        "AL: Apps (W1)",
-        "ExpenseManagement",
-        "Ownership: Manual",
-        "Ownership: Needs Review"
-      ],
-      "draft": false,
-      "created_at": "2026-10-26T08:51:13Z",
-      "updated_at": "2026-11-07T00:36:06Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13414,
-      "title": "[Main]Payment Discount with Prices Incl. VAT provides unexpected results in the Spanish version",
-      "url": "https://github.com/microsoft/BCApps/pull/13414",
-      "base": "main",
-      "major": "30",
-      "author": "sanjmaurya",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-10-29T06:42:21Z",
-      "updated_at": "2026-11-07T00:35:44Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13562,
-      "title": "[29.X]-Production Order Fails to Finish Due to Quantity Rounding Difference Between Component Consumption and Item Tracking Quantity - Copy",
-      "url": "https://github.com/microsoft/BCApps/pull/13562",
+      "number": 13900,
+      "title": "[29.X]-W2 2026 - Bug Bash I: Employee No. get exhausted very quickly for our bug bash tenant.",
+      "url": "https://github.com/microsoft/BCApps/pull/13900",
       "base": "releases/29.x",
       "major": "29",
       "author": "neeleshsinghal",
       "labels": [
+        "AL: Apps (W1)",
         "Team: SCM"
       ],
       "draft": false,
-      "created_at": "2026-11-03T10:11:44Z",
-      "updated_at": "2026-11-07T00:34:47Z",
+      "created_at": "2026-11-10T14:12:00Z",
+      "updated_at": "2026-11-10T19:11:29Z",
       "community_contribution": false
     },
     {
-      "number": 13573,
-      "title": "[EAP] Add Administration listings and optional ADO slice metadata",
-      "url": "https://github.com/microsoft/BCApps/pull/13573",
+      "number": 9197,
+      "title": "Obsolete banking and payment functionality in FI BaseApp",
+      "url": "https://github.com/microsoft/BCApps/pull/9197",
       "base": "main",
       "major": "30",
-      "author": "JesperSchulz",
+      "author": "ventselartur",
       "labels": [
-        "AL: System Application",
-        "Team: Integrations"
-      ],
-      "draft": false,
-      "created_at": "2026-11-03T13:04:50Z",
-      "updated_at": "2026-11-07T00:34:35Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13577,
-      "title": "Create Katherine Hull with the regular Demo Tool employees",
-      "url": "https://github.com/microsoft/BCApps/pull/13577",
-      "base": "main",
-      "major": "30",
-      "author": "Alexander-Ya",
-      "labels": [
-        "ExpenseManagement",
         "Team: Finance"
       ],
-      "draft": false,
-      "created_at": "2026-11-03T13:13:03Z",
-      "updated_at": "2026-11-07T00:34:19Z",
+      "draft": true,
+      "created_at": "2026-07-07T19:25:28Z",
+      "updated_at": "2026-11-10T17:06:48Z",
       "community_contribution": false
     },
     {
-      "number": 13582,
-      "title": "[main] Price Groups of Subscription Packages are not considered.",
-      "url": "https://github.com/microsoft/BCApps/pull/13582",
+      "number": 10834,
+      "title": "Slice 578380: [Application] Expand ledger entry numbers to 64 bit",
+      "url": "https://github.com/microsoft/BCApps/pull/10834",
       "base": "main",
       "major": "30",
-      "author": "Shikhverma",
+      "author": "BardurKnudsen",
       "labels": [
         "AL: Apps (W1)",
+        "Ownership: Needs Review",
+        "Team: Other"
+      ],
+      "draft": false,
+      "created_at": "2026-08-31T12:56:11Z",
+      "updated_at": "2026-11-10T15:53:58Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13907,
+      "title": "[main] Bug 653145 The <SistemaInformatico> node in the Spanish Verifactu XML ",
+      "url": "https://github.com/microsoft/BCApps/pull/13907",
+      "base": "main",
+      "major": "30",
+      "author": "MSNehaNawal",
+      "labels": [
         "Team: Finance"
       ],
-      "draft": false,
-      "created_at": "2026-11-03T13:34:21Z",
-      "updated_at": "2026-11-07T00:34:12Z",
-      "community_contribution": false
-    },
-    {
-      "number": 12185,
-      "title": "Fix orphaned field monitoring flags in change log setup",
-      "url": "https://github.com/microsoft/BCApps/pull/12185",
-      "base": "main",
-      "major": "30",
-      "author": "gggdttt",
-      "labels": [
-        "Team: Integrations"
-      ],
-      "draft": false,
-      "created_at": "2026-10-01T08:06:45Z",
-      "updated_at": "2026-11-06T23:43:49Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13080,
-      "title": "Effective Permissions Overview",
-      "url": "https://github.com/microsoft/BCApps/pull/13080",
-      "base": "main",
-      "major": "30",
-      "author": "shuyusheng",
-      "labels": [
-        "From Fork",
-        "Team: Integrations",
-        "needs-approval"
-      ],
-      "draft": false,
-      "created_at": "2026-10-20T23:34:31Z",
-      "updated_at": "2026-11-06T23:43:41Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13513,
-      "title": "[API tests] Check the response code in negative API tests",
-      "url": "https://github.com/microsoft/BCApps/pull/13513",
-      "base": "main",
-      "major": "30",
-      "author": "t-prda",
-      "labels": [
-        "AL: Apps (W1)",
-        "Team: Integrations"
-      ],
-      "draft": false,
-      "created_at": "2026-11-02T14:56:09Z",
-      "updated_at": "2026-11-06T23:43:37Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13732,
-      "title": "Initialize report filename defaults for new and existing companies",
-      "url": "https://github.com/microsoft/BCApps/pull/13732",
-      "base": "main",
-      "major": "30",
-      "author": "gggdttt",
-      "labels": [
-        "AL: Apps (W1)",
-        "Team: Integrations"
-      ],
-      "draft": false,
-      "created_at": "2026-11-05T15:28:26Z",
-      "updated_at": "2026-11-06T23:43:29Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13755,
-      "title": "Refine placeholder tests and record trigger flags",
-      "url": "https://github.com/microsoft/BCApps/pull/13755",
-      "base": "main",
-      "major": "30",
-      "author": "nikolakukrika",
-      "labels": [
-        "AL: Tools",
-        "Team: Integrations"
-      ],
-      "draft": false,
-      "created_at": "2026-11-06T11:36:37Z",
-      "updated_at": "2026-11-06T23:43:25Z",
+      "draft": true,
+      "created_at": "2026-11-10T15:43:19Z",
+      "updated_at": "2026-11-10T15:44:57Z",
       "community_contribution": false
     },
     {
@@ -804,97 +602,216 @@
       ],
       "draft": false,
       "created_at": "2026-11-06T12:00:50Z",
-      "updated_at": "2026-11-06T23:43:16Z",
+      "updated_at": "2026-11-10T15:37:09Z",
       "community_contribution": false
     },
     {
-      "number": 13764,
-      "title": "List the SIFT of a key that is disabled in metadata on the Indexes part",
-      "url": "https://github.com/microsoft/BCApps/pull/13764",
+      "number": 13905,
+      "title": "Exclude WorkIQ feature key from demo data feature enablement",
+      "url": "https://github.com/microsoft/BCApps/pull/13905",
       "base": "main",
       "major": "30",
-      "author": "ehenriksen9",
+      "author": "SVinchi",
       "labels": [
-        "ADO: Sync",
+        "AL: Apps (W1)",
+        "Ownership: Needs Review",
+        "Team: Other"
+      ],
+      "draft": true,
+      "created_at": "2026-11-10T15:23:01Z",
+      "updated_at": "2026-11-10T15:24:32Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12544,
+      "title": "Slice 626931: [Expense Agent] Lost receipt workflow and document creation (November '26)",
+      "url": "https://github.com/microsoft/BCApps/pull/12544",
+      "base": "main",
+      "major": "30",
+      "author": "BardurKnudsen",
+      "labels": [
+        "AL: Apps (W1)",
+        "ExpenseManagement",
+        "Ownership: Manual",
+        "Ownership: Needs Review"
+      ],
+      "draft": false,
+      "created_at": "2026-10-08T08:52:12Z",
+      "updated_at": "2026-11-10T15:22:39Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13903,
+      "title": "Add V2 AI consumption APIs and quota checks",
+      "url": "https://github.com/microsoft/BCApps/pull/13903",
+      "base": "main",
+      "major": "30",
+      "author": "encimita",
+      "labels": [
         "AL: System Application",
-        "From Fork",
         "Team: Integrations"
       ],
-      "draft": false,
-      "created_at": "2026-11-06T15:10:19Z",
-      "updated_at": "2026-11-06T23:43:13Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13765,
-      "title": "[E-Document] Set max output tokens for MLLM extraction",
-      "url": "https://github.com/microsoft/BCApps/pull/13765",
-      "base": "main",
-      "major": "30",
-      "author": "mynjj",
-      "labels": [
-        "AL: Apps (W1)",
-        "Team: Integrations"
-      ],
-      "draft": false,
-      "created_at": "2026-11-06T15:22:53Z",
-      "updated_at": "2026-11-06T23:43:09Z",
+      "draft": true,
+      "created_at": "2026-11-10T15:12:11Z",
+      "updated_at": "2026-11-10T15:13:49Z",
       "community_contribution": false
     },
     {
-      "number": 13766,
-      "title": "[E-Document] Set max output tokens for MLLM extraction (29.x)",
-      "url": "https://github.com/microsoft/BCApps/pull/13766",
-      "base": "releases/29.x",
-      "major": "29",
-      "author": "mynjj",
+      "number": 13820,
+      "title": "[main] NO SAF-T: preserve category casing and show full identifiers",
+      "url": "https://github.com/microsoft/BCApps/pull/13820",
+      "base": "main",
+      "major": "30",
+      "author": "AleksanderGladkov",
       "labels": [
-        "AL: Apps (W1)",
-        "Team: Integrations"
+        "Team: Finance"
       ],
       "draft": false,
-      "created_at": "2026-11-06T15:23:09Z",
-      "updated_at": "2026-11-06T23:43:06Z",
+      "created_at": "2026-11-09T13:46:33Z",
+      "updated_at": "2026-11-10T15:12:47Z",
       "community_contribution": false
     },
     {
-      "number": 12270,
-      "title": "[MX] Upgrade CFDI and Carta Port to new E-Documents Framework",
-      "url": "https://github.com/microsoft/BCApps/pull/12270",
+      "number": 13633,
+      "title": "[Master] Fix ERM Invoice and Reminder mock customer ledger entries colliding with posted entries",
+      "url": "https://github.com/microsoft/BCApps/pull/13633",
       "base": "main",
       "major": "30",
-      "author": "v-rosariom",
+      "author": "neeleshsinghal",
       "labels": [
         "Team: Finance"
       ],
       "draft": true,
-      "created_at": "2026-10-02T15:24:09Z",
-      "updated_at": "2026-11-06T20:44:16Z",
+      "created_at": "2026-11-04T10:16:45Z",
+      "updated_at": "2026-11-10T15:05:45Z",
       "community_contribution": false
     },
     {
-      "number": 13072,
-      "title": "[Bug][Subscription Billing] 67 Subscription Billing tests are disabled in CI on every localization without a tracked reason",
-      "url": "https://github.com/microsoft/BCApps/pull/13072",
+      "number": 13244,
+      "title": "[Master] - Slice 617064: [Expense Management][VENDOR] Expense Spend Limit",
+      "url": "https://github.com/microsoft/BCApps/pull/13244",
       "base": "main",
       "major": "30",
-      "author": "miljance",
+      "author": "v-rohangarg20",
+      "labels": [
+        "AL: Apps (W1)",
+        "ExpenseManagement",
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-10-26T08:51:13Z",
+      "updated_at": "2026-11-10T14:55:37Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13718,
+      "title": "Float BCPlatform to latest 29.0 on releases/29.x",
+      "url": "https://github.com/microsoft/BCApps/pull/13718",
+      "base": "releases/29.x",
+      "major": "29",
+      "author": "mazhelez",
+      "labels": [
+        "Build: scripts & configs",
+        "Ownership: Needs Review",
+        "Team: Other"
+      ],
+      "draft": false,
+      "created_at": "2026-11-05T11:08:37Z",
+      "updated_at": "2026-11-10T14:46:24Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13558,
+      "title": "Add logging table management during installation and upgrade processes",
+      "url": "https://github.com/microsoft/BCApps/pull/13558",
+      "base": "main",
+      "major": "30",
+      "author": "Bertverbeek4PS",
       "labels": [
         "ADO: Sync",
         "AL: Apps (W1)",
         "From Fork",
-        "Team: Finance",
+        "Ownership: Needs Review",
+        "Team: Other",
         "needs-approval"
       ],
       "draft": false,
-      "created_at": "2026-10-20T20:04:30Z",
-      "updated_at": "2026-11-06T20:19:46Z",
+      "created_at": "2026-11-03T09:03:35Z",
+      "updated_at": "2026-11-10T14:35:39Z",
       "community_contribution": true
     },
     {
-      "number": 13730,
-      "title": "[Expense Agent] Initialize missing vendor numbering after upgrade",
-      "url": "https://github.com/microsoft/BCApps/pull/13730",
+      "number": 13824,
+      "title": "Implement namespace normalization for Fabric Data and Logging in setup pages and platform management",
+      "url": "https://github.com/microsoft/BCApps/pull/13824",
+      "base": "main",
+      "major": "30",
+      "author": "Bertverbeek4PS",
+      "labels": [
+        "AL: Apps (W1)",
+        "From Fork",
+        "Ownership: Needs Review",
+        "Team: Other",
+        "needs-approval"
+      ],
+      "draft": false,
+      "created_at": "2026-11-09T15:13:30Z",
+      "updated_at": "2026-11-10T14:34:30Z",
+      "community_contribution": true
+    },
+    {
+      "number": 9326,
+      "title": "[FI] Delocalize Depreciation Differences into a first-party extension",
+      "url": "https://github.com/microsoft/BCApps/pull/9326",
+      "base": "main",
+      "major": "30",
+      "author": "djukicmilica",
+      "labels": [
+        "AL: Apps (W1)",
+        "Build: scripts & configs",
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-07-11T11:55:02Z",
+      "updated_at": "2026-11-10T14:34:30Z",
+      "community_contribution": false
+    },
+    {
+      "number": 9002,
+      "title": "Port NAV Extract-ES-Cartera changes from bugs branch",
+      "url": "https://github.com/microsoft/BCApps/pull/9002",
+      "base": "main",
+      "major": "30",
+      "author": "Alexander-Ya",
+      "labels": [
+        "Delocalization",
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-07-01T14:47:12Z",
+      "updated_at": "2026-11-10T14:30:42Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13606,
+      "title": "Bug 657603: Withholding tax for employees - wrong calculation",
+      "url": "https://github.com/microsoft/BCApps/pull/13606",
+      "base": "main",
+      "major": "30",
+      "author": "ViditGupta1277",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-11-04T03:48:37Z",
+      "updated_at": "2026-11-10T14:28:25Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13587,
+      "title": "Update Corp Card manual selection",
+      "url": "https://github.com/microsoft/BCApps/pull/13587",
       "base": "main",
       "major": "30",
       "author": "Alexander-Ya",
@@ -904,8 +821,23 @@
         "Team: Finance"
       ],
       "draft": false,
-      "created_at": "2026-11-05T14:42:37Z",
-      "updated_at": "2026-11-06T20:19:36Z",
+      "created_at": "2026-11-03T13:51:40Z",
+      "updated_at": "2026-11-10T14:27:52Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13717,
+      "title": "[Main]- Export Electronic Payments: one vendor's missing email can clear another vendor's Document No.",
+      "url": "https://github.com/microsoft/BCApps/pull/13717",
+      "base": "main",
+      "major": "30",
+      "author": "DeepsShukla",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-11-05T11:05:35Z",
+      "updated_at": "2026-11-10T14:27:48Z",
       "community_contribution": false
     },
     {
@@ -923,116 +855,13 @@
       ],
       "draft": false,
       "created_at": "2026-11-06T16:17:54Z",
-      "updated_at": "2026-11-06T20:14:51Z",
+      "updated_at": "2026-11-10T14:27:44Z",
       "community_contribution": true
     },
     {
-      "number": 9587,
-      "title": "Concurrent posting for General Ledger entries",
-      "url": "https://github.com/microsoft/BCApps/pull/9587",
-      "base": "main",
-      "major": "30",
-      "author": "Alexander-Ya",
-      "labels": [
-        "Build: scripts & configs",
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-07-18T15:36:48Z",
-      "updated_at": "2026-11-06T20:00:40Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13597,
-      "title": "[Subcontracting] Bug 652154: Add feature uptake telemetry",
-      "url": "https://github.com/microsoft/BCApps/pull/13597",
-      "base": "main",
-      "major": "30",
-      "author": "ChethanT",
-      "labels": [
-        "AL: Apps (W1)",
-        "Team: SCM"
-      ],
-      "draft": false,
-      "created_at": "2026-11-03T14:35:58Z",
-      "updated_at": "2026-11-06T19:13:10Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13059,
-      "title": "[Bug]: [Subscription Billing] Create Billing Documents assigns the document no. to Usage Data Billing rows outside the billing line period",
-      "url": "https://github.com/microsoft/BCApps/pull/13059",
-      "base": "main",
-      "major": "30",
-      "author": "miljance",
-      "labels": [
-        "ADO: Sync",
-        "AL: Apps (W1)",
-        "From Fork",
-        "Team: Finance",
-        "needs-approval"
-      ],
-      "draft": false,
-      "created_at": "2026-10-20T14:55:47Z",
-      "updated_at": "2026-11-06T16:34:24Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13570,
-      "title": "[E-Document] Force GPT-5.6 Ceres for PA validation job (do not merge)",
-      "url": "https://github.com/microsoft/BCApps/pull/13570",
-      "base": "main",
-      "major": "30",
-      "author": "mynjj",
-      "labels": [
-        "AL: Apps (W1)",
-        "Team: Integrations"
-      ],
-      "draft": true,
-      "created_at": "2026-11-03T12:20:46Z",
-      "updated_at": "2026-11-06T15:47:22Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13214,
-      "title": "[E-Documents] ZUGFeRD: Events to override buyer and delivery values and to extend ApplicableHeaderTradeDelivery",
-      "url": "https://github.com/microsoft/BCApps/pull/13214",
-      "base": "main",
-      "major": "30",
-      "author": "DanielGoehler",
-      "labels": [
-        "ADO: Sync",
-        "From Fork",
-        "Team: Integrations",
-        "needs-approval"
-      ],
-      "draft": false,
-      "created_at": "2026-10-23T13:11:58Z",
-      "updated_at": "2026-11-06T14:48:27Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13208,
-      "title": "[E-Documents] XRechnung: Events to override buyer, delivery and order reference values",
-      "url": "https://github.com/microsoft/BCApps/pull/13208",
-      "base": "main",
-      "major": "30",
-      "author": "DanielGoehler",
-      "labels": [
-        "ADO: Sync",
-        "From Fork",
-        "Team: Integrations",
-        "needs-approval"
-      ],
-      "draft": false,
-      "created_at": "2026-10-23T11:43:43Z",
-      "updated_at": "2026-11-06T14:48:24Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13631,
-      "title": "[main] bug 646068 - Add support for disabling incremental exchange gain/loss posting in General Ledger Setup",
-      "url": "https://github.com/microsoft/BCApps/pull/13631",
+      "number": 13868,
+      "title": "[main] bug 658615 - Fix print of VAT Statement with Opposite Sign option",
+      "url": "https://github.com/microsoft/BCApps/pull/13868",
       "base": "main",
       "major": "30",
       "author": "DavidHolusa",
@@ -1040,454 +869,215 @@
         "Team: Finance"
       ],
       "draft": false,
-      "created_at": "2026-11-04T10:11:31Z",
-      "updated_at": "2026-11-06T14:35:43Z",
+      "created_at": "2026-11-10T08:58:41Z",
+      "updated_at": "2026-11-10T14:27:16Z",
       "community_contribution": false
     },
     {
-      "number": 13671,
-      "title": "Expense Agent: configure posting groups per subcategory",
-      "url": "https://github.com/microsoft/BCApps/pull/13671",
+      "number": 13880,
+      "title": "Resolve Payables Agent line accounts before PO matching",
+      "url": "https://github.com/microsoft/BCApps/pull/13880",
       "base": "main",
       "major": "30",
-      "author": "Alexander-Ya",
+      "author": "dayland",
       "labels": [
         "AL: Apps (W1)",
         "Team: Finance"
       ],
       "draft": false,
-      "created_at": "2026-11-04T15:28:05Z",
-      "updated_at": "2026-11-06T14:35:39Z",
+      "created_at": "2026-11-10T10:42:01Z",
+      "updated_at": "2026-11-10T14:26:57Z",
       "community_contribution": false
     },
     {
-      "number": 13102,
-      "title": "Create putaway template bin validation",
-      "url": "https://github.com/microsoft/BCApps/pull/13102",
+      "number": 13720,
+      "title": "Split the MS-STD configuration package into functional-area packages",
+      "url": "https://github.com/microsoft/BCApps/pull/13720",
       "base": "main",
       "major": "30",
-      "author": "CrematoRina",
+      "author": "Bertverbeek4PS",
       "labels": [
+        "ADO: Sync",
+        "AL: Apps (W1)",
         "From Fork",
-        "Team: SCM",
         "needs-approval"
       ],
       "draft": false,
-      "created_at": "2026-10-21T08:59:29Z",
-      "updated_at": "2026-11-06T14:35:39Z",
+      "created_at": "2026-11-05T11:48:12Z",
+      "updated_at": "2026-11-10T14:08:14Z",
       "community_contribution": true
     },
     {
-      "number": 13762,
-      "title": "SOA: Adjust search selection rate",
-      "url": "https://github.com/microsoft/BCApps/pull/13762",
+      "number": 13513,
+      "title": "[API tests] Check the response code in negative API tests",
+      "url": "https://github.com/microsoft/BCApps/pull/13513",
       "base": "main",
       "major": "30",
-      "author": "VolodySyn",
+      "author": "t-prda",
       "labels": [
         "AL: Apps (W1)",
-        "Team: SCM"
+        "Team: Integrations"
       ],
-      "draft": true,
-      "created_at": "2026-11-06T14:22:59Z",
-      "updated_at": "2026-11-06T14:24:19Z",
+      "draft": false,
+      "created_at": "2026-11-02T14:56:09Z",
+      "updated_at": "2026-11-10T13:29:56Z",
       "community_contribution": false
     },
     {
-      "number": 13758,
-      "title": "Add OptimizeForTextSearch to \"Post Code\" on Vendor and Customer table",
-      "url": "https://github.com/microsoft/BCApps/pull/13758",
+      "number": 13822,
+      "title": "Fix XRechnung export truncating item name to 40 characters",
+      "url": "https://github.com/microsoft/BCApps/pull/13822",
       "base": "main",
       "major": "30",
-      "author": "mha1908",
+      "author": "pri-kise",
       "labels": [
         "From Fork",
-        "Team: Finance",
-        "needs-approval"
+        "Team: Finance"
       ],
       "draft": false,
-      "created_at": "2026-11-06T12:06:22Z",
-      "updated_at": "2026-11-06T14:22:59Z",
+      "created_at": "2026-11-09T14:27:41Z",
+      "updated_at": "2026-11-10T13:26:59Z",
       "community_contribution": true
     },
     {
-      "number": 11940,
-      "title": "Bug 650504: [Subcontracting] Fix vendor-supplied component purchase dates",
-      "url": "https://github.com/microsoft/BCApps/pull/11940",
-      "base": "main",
-      "major": "30",
-      "author": "ChethanT",
-      "labels": [
-        "AL: Apps (W1)",
-        "Team: SCM"
-      ],
-      "draft": false,
-      "created_at": "2026-09-26T22:46:13Z",
-      "updated_at": "2026-11-06T14:11:21Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13738,
-      "title": "Run disabled-isolation tests in a second app-level phase",
-      "url": "https://github.com/microsoft/BCApps/pull/13738",
-      "base": "main",
-      "major": "30",
-      "author": "aholstrup1",
-      "labels": [
-        "Build: Automation",
-        "Build: scripts & configs",
-        "Ownership: Needs Review",
-        "Team: Other"
-      ],
-      "draft": false,
-      "created_at": "2026-11-05T19:55:11Z",
-      "updated_at": "2026-11-06T14:09:30Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13565,
-      "title": "Log churn-based test proposals without skipping tests",
-      "url": "https://github.com/microsoft/BCApps/pull/13565",
-      "base": "main",
-      "major": "30",
-      "author": "aholstrup1",
-      "labels": [
-        "Build: Automation",
-        "Build: scripts & configs",
-        "Ownership: Needs Review",
-        "Team: Other"
-      ],
-      "draft": false,
-      "created_at": "2026-11-03T10:34:49Z",
-      "updated_at": "2026-11-06T13:37:44Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13749,
-      "title": "[Extensibility Request] issue 12032: Add a getter procedure for CalledFromHeader in Job Planning Line",
-      "url": "https://github.com/microsoft/BCApps/pull/13749",
-      "base": "main",
-      "major": "30",
-      "author": "Sivaguru-Muralidharan",
-      "labels": [
-        "ADO: Sync",
-        "From Fork",
-        "Team: SCM",
-        "needs-approval"
-      ],
-      "draft": false,
-      "created_at": "2026-11-06T10:28:27Z",
-      "updated_at": "2026-11-06T13:15:33Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13750,
-      "title": "[Extensibility Request] issue 12033: Add a getter procedure for CalledFromHeader in Job Task",
-      "url": "https://github.com/microsoft/BCApps/pull/13750",
-      "base": "main",
-      "major": "30",
-      "author": "Sivaguru-Muralidharan",
-      "labels": [
-        "ADO: Sync",
-        "From Fork",
-        "Team: SCM",
-        "needs-approval"
-      ],
-      "draft": false,
-      "created_at": "2026-11-06T10:28:29Z",
-      "updated_at": "2026-11-06T13:15:23Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13751,
-      "title": "[Extensibility Request] issue 11919: Allow handling reservation entry confirmation in Job Planning Line",
-      "url": "https://github.com/microsoft/BCApps/pull/13751",
-      "base": "main",
-      "major": "30",
-      "author": "Sivaguru-Muralidharan",
-      "labels": [
-        "ADO: Sync",
-        "From Fork",
-        "Team: SCM",
-        "needs-approval"
-      ],
-      "draft": false,
-      "created_at": "2026-11-06T10:28:31Z",
-      "updated_at": "2026-11-06T13:15:14Z",
-      "community_contribution": true
-    },
-    {
-      "number": 12770,
-      "title": "[Main]-Project Ledger Entry does not get the modified amount from Purchase Order Statistics if the Purchase line is of type G/L Account in the Spanish version.",
-      "url": "https://github.com/microsoft/BCApps/pull/12770",
-      "base": "main",
-      "major": "30",
-      "author": "DhavalMore88",
-      "labels": [
-        "ADO: Sync",
-        "From Fork",
-        "Team: SCM"
-      ],
-      "draft": false,
-      "created_at": "2026-10-13T13:40:36Z",
-      "updated_at": "2026-11-06T12:55:20Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13628,
-      "title": "[main] Bug 657281 [Drop Shipment] Your Reference, , Vendor Order No., and Vendor Shipment No. are blank on Posted Purchase Receipt Lines",
-      "url": "https://github.com/microsoft/BCApps/pull/13628",
-      "base": "main",
-      "major": "30",
+      "number": 13213,
+      "title": "[29x] Bug 653921 Warehouse pick fails with \"Nothing to handle\" when an earlier unshipped pick uses a non-default shipment bin",
+      "url": "https://github.com/microsoft/BCApps/pull/13213",
+      "base": "releases/29.x",
+      "major": "29",
       "author": "MSNehaNawal",
       "labels": [
         "Team: SCM"
       ],
       "draft": false,
-      "created_at": "2026-11-04T09:45:15Z",
-      "updated_at": "2026-11-06T12:53:52Z",
+      "created_at": "2026-10-23T13:07:52Z",
+      "updated_at": "2026-11-10T13:26:32Z",
       "community_contribution": false
     },
     {
-      "number": 13699,
-      "title": "[main] Registering a Warehouse Movement with \"Breakbulk Filter\" enabled registers only the visible lines; hidden breakbulk lines remain unregistered",
-      "url": "https://github.com/microsoft/BCApps/pull/13699",
-      "base": "main",
-      "major": "30",
-      "author": "Shikhverma",
-      "labels": [
-        "Team: SCM"
-      ],
-      "draft": false,
-      "created_at": "2026-11-05T09:39:27Z",
-      "updated_at": "2026-11-06T12:52:03Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13739,
-      "title": "[Master]-Sales/Purchase Price List activation allows Duplicate Lines when the Price List is Inactive.",
-      "url": "https://github.com/microsoft/BCApps/pull/13739",
-      "base": "main",
-      "major": "30",
+      "number": 13862,
+      "title": "[29.X]-Serial numbers selected on Assembly Order component lines are deleted when running Calculate Regenerative Plan, without carrying out action messages.",
+      "url": "https://github.com/microsoft/BCApps/pull/13862",
+      "base": "releases/29.x",
+      "major": "29",
       "author": "neeleshsinghal",
       "labels": [
         "Team: SCM"
       ],
       "draft": false,
-      "created_at": "2026-11-06T04:42:19Z",
-      "updated_at": "2026-11-06T12:51:14Z",
+      "created_at": "2026-11-10T07:56:31Z",
+      "updated_at": "2026-11-10T13:26:19Z",
       "community_contribution": false
     },
     {
-      "number": 13753,
-      "title": "[Shopify Connector] - Shopify B2B: Configure separate customer templates for companies",
-      "url": "https://github.com/microsoft/BCApps/pull/13753",
-      "base": "main",
-      "major": "30",
-      "author": "GediminasGaubys",
+      "number": 13865,
+      "title": "Backport Bug 652365 from Main to 29.x https://github.com/microsoft/BCApps/pull/12161",
+      "url": "https://github.com/microsoft/BCApps/pull/13865",
+      "base": "releases/29.x",
+      "major": "29",
+      "author": "v-praghav",
       "labels": [
         "AL: Apps (W1)",
-        "From Fork",
-        "Team: Integrations",
-        "needs-approval"
-      ],
-      "draft": true,
-      "created_at": "2026-11-06T11:24:21Z",
-      "updated_at": "2026-11-06T12:43:07Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13748,
-      "title": "[Shopify Connector] - Discover payment methods before order import",
-      "url": "https://github.com/microsoft/BCApps/pull/13748",
-      "base": "main",
-      "major": "30",
-      "author": "GediminasGaubys",
-      "labels": [
-        "AL: Apps (W1)",
-        "From Fork",
-        "Team: Integrations",
-        "needs-approval"
-      ],
-      "draft": true,
-      "created_at": "2026-11-06T10:16:51Z",
-      "updated_at": "2026-11-06T12:42:55Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13747,
-      "title": "[Shopify Connector] - Add alternative VAT registration handling",
-      "url": "https://github.com/microsoft/BCApps/pull/13747",
-      "base": "main",
-      "major": "30",
-      "author": "GediminasGaubys",
-      "labels": [
-        "AL: Apps (W1)",
-        "From Fork",
-        "Team: Integrations",
-        "needs-approval"
-      ],
-      "draft": true,
-      "created_at": "2026-11-06T09:14:11Z",
-      "updated_at": "2026-11-06T12:42:38Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13744,
-      "title": "[Shopify Connector] - Actionable incomplete order mappings",
-      "url": "https://github.com/microsoft/BCApps/pull/13744",
-      "base": "main",
-      "major": "30",
-      "author": "GediminasGaubys",
-      "labels": [
-        "AL: Apps (W1)",
-        "From Fork",
-        "Team: Integrations",
-        "needs-approval"
-      ],
-      "draft": true,
-      "created_at": "2026-11-06T08:48:50Z",
-      "updated_at": "2026-11-06T12:42:24Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13670,
-      "title": "[Shopify Connector] - Recurring synchronization setup",
-      "url": "https://github.com/microsoft/BCApps/pull/13670",
-      "base": "main",
-      "major": "30",
-      "author": "GediminasGaubys",
-      "labels": [
-        "AL: Apps (W1)",
-        "From Fork",
-        "Team: Integrations",
-        "needs-approval"
-      ],
-      "draft": true,
-      "created_at": "2026-11-04T14:41:47Z",
-      "updated_at": "2026-11-06T12:42:07Z",
-      "community_contribution": true
-    },
-    {
-      "number": 12544,
-      "title": "Slice 626931: [Expense Agent] Lost receipt workflow and document creation (November '26)",
-      "url": "https://github.com/microsoft/BCApps/pull/12544",
-      "base": "main",
-      "major": "30",
-      "author": "BardurKnudsen",
-      "labels": [
-        "AL: Apps (W1)",
-        "ExpenseManagement",
-        "Ownership: Manual",
-        "Ownership: Needs Review",
-        "needs-approval"
-      ],
-      "draft": false,
-      "created_at": "2026-10-08T08:52:12Z",
-      "updated_at": "2026-11-06T11:48:27Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13754,
-      "title": "[Main][All-e]Generate Lines from Allocation Account Line leaves incorrect Non-deductible VAT amounts when Prices Including VAT is enabled.Initial commit",
-      "url": "https://github.com/microsoft/BCApps/pull/13754",
-      "base": "main",
-      "major": "30",
-      "author": "Shikhverma",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": true,
-      "created_at": "2026-11-06T11:25:54Z",
-      "updated_at": "2026-11-06T11:27:19Z",
-      "community_contribution": false
-    },
-    {
-      "number": 10295,
-      "title": "#10288 - Always load attachments",
-      "url": "https://github.com/microsoft/BCApps/pull/10295",
-      "base": "main",
-      "major": "30",
-      "author": "g-Bergsma",
-      "labels": [
-        "AL: Apps (W1)",
-        "From Fork",
-        "Team: Integrations"
-      ],
-      "draft": false,
-      "created_at": "2026-08-17T10:24:51Z",
-      "updated_at": "2026-11-06T11:18:24Z",
-      "community_contribution": true
-    },
-    {
-      "number": 12494,
-      "title": "[Bug][SubscriptionBilling] Incorrect deferral amount sign for negative lines in contract invoices and credit memos",
-      "url": "https://github.com/microsoft/BCApps/pull/12494",
-      "base": "main",
-      "major": "30",
-      "author": "miljance",
-      "labels": [
-        "ADO: Sync",
-        "AL: Apps (W1)",
-        "From Fork",
-        "Team: Finance",
-        "needs-approval"
-      ],
-      "draft": false,
-      "created_at": "2026-10-07T12:53:48Z",
-      "updated_at": "2026-11-06T10:48:30Z",
-      "community_contribution": true
-    },
-    {
-      "number": 13722,
-      "title": "[API tests] Mount parallel test tenants with app database write access",
-      "url": "https://github.com/microsoft/BCApps/pull/13722",
-      "base": "main",
-      "major": "30",
-      "author": "t-prda",
-      "labels": [
-        "Build: scripts & configs",
-        "Ownership: Needs Review",
-        "Team: Other"
-      ],
-      "draft": false,
-      "created_at": "2026-11-05T13:19:30Z",
-      "updated_at": "2026-11-06T10:32:34Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13667,
-      "title": "Consolidate Service Management localizations with country compilation",
-      "url": "https://github.com/microsoft/BCApps/pull/13667",
-      "base": "main",
-      "major": "30",
-      "author": "Alexander-Ya",
-      "labels": [
         "Build: Automation",
         "Build: scripts & configs",
-        "Ownership: Needs Review",
-        "Team: Other"
+        "Team: SCM"
       ],
-      "draft": true,
-      "created_at": "2026-11-04T14:12:24Z",
-      "updated_at": "2026-11-06T10:13:18Z",
+      "draft": false,
+      "created_at": "2026-11-10T08:22:29Z",
+      "updated_at": "2026-11-10T13:26:15Z",
       "community_contribution": false
     },
     {
-      "number": 10834,
-      "title": "Slice 578380: [Application] Expand ledger entry numbers to 64 bit",
-      "url": "https://github.com/microsoft/BCApps/pull/10834",
+      "number": 13871,
+      "title": "[Master]-W2 2026 - Bug Bash I: Employee No. get exhausted very quickly for our bug bash tenant",
+      "url": "https://github.com/microsoft/BCApps/pull/13871",
       "base": "main",
       "major": "30",
-      "author": "BardurKnudsen",
+      "author": "neeleshsinghal",
       "labels": [
         "AL: Apps (W1)",
+        "Team: SCM"
+      ],
+      "draft": false,
+      "created_at": "2026-11-10T09:19:31Z",
+      "updated_at": "2026-11-10T13:26:11Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13895,
+      "title": "TEST CERES",
+      "url": "https://github.com/microsoft/BCApps/pull/13895",
+      "base": "main",
+      "major": "30",
+      "author": "VolodySyn",
+      "labels": [
+        "Team: Integrations"
+      ],
+      "draft": true,
+      "created_at": "2026-11-10T12:41:58Z",
+      "updated_at": "2026-11-10T12:43:22Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13801,
+      "title": "[29.x][ALL-E] Report 713 \"Inventory Custmer Sales\" – Excel (data only) export generates one row per Item Ledger Entry with NULL values instead of one aggregated row per Item/Customer combination - Copy",
+      "url": "https://github.com/microsoft/BCApps/pull/13801",
+      "base": "releases/29.x",
+      "major": "29",
+      "author": "sanjmaurya",
+      "labels": [
+        "Team: SCM"
+      ],
+      "draft": false,
+      "created_at": "2026-11-09T09:50:17Z",
+      "updated_at": "2026-11-10T11:56:13Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13886,
+      "title": "[E-Document] Unify outgoing self-billing across formats",
+      "url": "https://github.com/microsoft/BCApps/pull/13886",
+      "base": "main",
+      "major": "30",
+      "author": "djukicmilica",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: Integrations"
+      ],
+      "draft": true,
+      "created_at": "2026-11-10T11:25:14Z",
+      "updated_at": "2026-11-10T11:34:41Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13885,
+      "title": "[Main]- Final sales invoice uses item Gen. Prod. Posting Group on prepayment deduction line",
+      "url": "https://github.com/microsoft/BCApps/pull/13885",
+      "base": "main",
+      "major": "30",
+      "author": "DeepsShukla",
+      "labels": [
+        "Team: SCM"
+      ],
+      "draft": true,
+      "created_at": "2026-11-10T11:18:34Z",
+      "updated_at": "2026-11-10T11:34:12Z",
+      "community_contribution": false
+    },
+    {
+      "number": 11715,
+      "title": "Slice 440258: Fixed Asset Journal Approval",
+      "url": "https://github.com/microsoft/BCApps/pull/11715",
+      "base": "main",
+      "major": "30",
+      "author": "ViditGupta1277",
+      "labels": [
         "Ownership: Needs Review",
         "Team: Other"
       ],
       "draft": false,
-      "created_at": "2026-08-31T12:56:11Z",
-      "updated_at": "2026-11-06T09:32:14Z",
+      "created_at": "2026-09-22T09:37:38Z",
+      "updated_at": "2026-11-10T11:30:58Z",
       "community_contribution": false
     },
     {
@@ -1504,8 +1094,225 @@
       ],
       "draft": false,
       "created_at": "2026-08-10T08:16:04Z",
-      "updated_at": "2026-11-06T08:31:38Z",
+      "updated_at": "2026-11-10T10:55:13Z",
       "community_contribution": true
+    },
+    {
+      "number": 13783,
+      "title": "[E-Document] Add public purchase draft writer for external structured readers",
+      "url": "https://github.com/microsoft/BCApps/pull/13783",
+      "base": "main",
+      "major": "30",
+      "author": "marcus905",
+      "labels": [
+        "ADO: Sync",
+        "AL: Apps (W1)",
+        "Build: Automation",
+        "From Fork",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-11-08T13:24:53Z",
+      "updated_at": "2026-11-10T10:35:39Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13751,
+      "title": "[Extensibility Request] issue 11919: Allow handling reservation entry confirmation in Job Planning Line",
+      "url": "https://github.com/microsoft/BCApps/pull/13751",
+      "base": "main",
+      "major": "30",
+      "author": "Sivaguru-Muralidharan",
+      "labels": [
+        "ADO: Sync",
+        "From Fork",
+        "Team: SCM"
+      ],
+      "draft": false,
+      "created_at": "2026-11-06T10:28:31Z",
+      "updated_at": "2026-11-10T10:31:15Z",
+      "community_contribution": true
+    },
+    {
+      "number": 12679,
+      "title": "[API tests] Handle localized purchase invoice payment discounts in APIV1 tests",
+      "url": "https://github.com/microsoft/BCApps/pull/12679",
+      "base": "main",
+      "major": "30",
+      "author": "t-prda",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-10-12T10:07:43Z",
+      "updated_at": "2026-11-10T10:29:54Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13830,
+      "title": "Fixes #10082 LogTestField enum caption lookup for ordinal gaps",
+      "url": "https://github.com/microsoft/BCApps/pull/13830",
+      "base": "main",
+      "major": "30",
+      "author": "zanhrepevnik",
+      "labels": [
+        "From Fork",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-11-09T17:46:42Z",
+      "updated_at": "2026-11-10T10:29:44Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13758,
+      "title": "Add OptimizeForTextSearch to \"Post Code\" on Vendor and Customer table",
+      "url": "https://github.com/microsoft/BCApps/pull/13758",
+      "base": "main",
+      "major": "30",
+      "author": "mha1908",
+      "labels": [
+        "From Fork",
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-11-06T12:06:22Z",
+      "updated_at": "2026-11-10T10:19:43Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13750,
+      "title": "[Extensibility Request] issue 12033: Add a getter procedure for CalledFromHeader in Job Task",
+      "url": "https://github.com/microsoft/BCApps/pull/13750",
+      "base": "main",
+      "major": "30",
+      "author": "Sivaguru-Muralidharan",
+      "labels": [
+        "ADO: Sync",
+        "From Fork",
+        "Team: SCM"
+      ],
+      "draft": false,
+      "created_at": "2026-11-06T10:28:29Z",
+      "updated_at": "2026-11-10T10:19:34Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13749,
+      "title": "[Extensibility Request] issue 12032: Add a getter procedure for CalledFromHeader in Job Planning Line",
+      "url": "https://github.com/microsoft/BCApps/pull/13749",
+      "base": "main",
+      "major": "30",
+      "author": "Sivaguru-Muralidharan",
+      "labels": [
+        "ADO: Sync",
+        "From Fork",
+        "Team: SCM"
+      ],
+      "draft": false,
+      "created_at": "2026-11-06T10:28:27Z",
+      "updated_at": "2026-11-10T10:19:32Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13728,
+      "title": "[DE] ZUGFeRD: align embedded XML profile with PDF/A-3 XMP metadata",
+      "url": "https://github.com/microsoft/BCApps/pull/13728",
+      "base": "main",
+      "major": "30",
+      "author": "danielgorski-bynd365",
+      "labels": [
+        "From Fork",
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-11-05T14:31:22Z",
+      "updated_at": "2026-11-10T10:19:23Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13764,
+      "title": "List the SIFT of a key that is disabled in metadata on the Indexes part",
+      "url": "https://github.com/microsoft/BCApps/pull/13764",
+      "base": "main",
+      "major": "30",
+      "author": "ehenriksen9",
+      "labels": [
+        "ADO: Sync",
+        "AL: System Application",
+        "From Fork",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-11-06T15:10:19Z",
+      "updated_at": "2026-11-10T10:19:08Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13877,
+      "title": "Bug 572435 Transfer Order reservation for Inbound not possible message fully reserved appears, but no entries in the reservation table.",
+      "url": "https://github.com/microsoft/BCApps/pull/13877",
+      "base": "main",
+      "major": "30",
+      "author": "v-praghav",
+      "labels": [
+        "Team: SCM"
+      ],
+      "draft": true,
+      "created_at": "2026-11-10T10:16:02Z",
+      "updated_at": "2026-11-10T10:17:35Z",
+      "community_contribution": false
+    },
+    {
+      "number": 11849,
+      "title": "[Master] - Slice 611452: [AT][IC][RegF] Enable Danish SAF-T to be used in Austria and Iceland",
+      "url": "https://github.com/microsoft/BCApps/pull/11849",
+      "base": "main",
+      "major": "30",
+      "author": "v-rohangarg20",
+      "labels": [
+        "AL: Apps (W1)",
+        "Build: scripts & configs",
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-09-24T10:05:56Z",
+      "updated_at": "2026-11-10T10:11:29Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13573,
+      "title": "[EAP] Add Administration listings and optional ADO slice metadata",
+      "url": "https://github.com/microsoft/BCApps/pull/13573",
+      "base": "main",
+      "major": "30",
+      "author": "JesperSchulz",
+      "labels": [
+        "AL: System Application",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-11-03T13:04:50Z",
+      "updated_at": "2026-11-10T10:04:27Z",
+      "community_contribution": false
+    },
+    {
+      "number": 11610,
+      "title": "Obsoletion Skill: Add and fix CLEANSCHEMA tags",
+      "url": "https://github.com/microsoft/BCApps/pull/11610",
+      "base": "main",
+      "major": "30",
+      "author": "ChethanT",
+      "labels": [
+        "AL: Apps (W1)",
+        "Ownership: Needs Review",
+        "Team: Other"
+      ],
+      "draft": false,
+      "created_at": "2026-09-18T13:00:32Z",
+      "updated_at": "2026-11-10T09:52:35Z",
+      "community_contribution": false
     },
     {
       "number": 9522,
@@ -1522,72 +1329,234 @@
       ],
       "draft": false,
       "created_at": "2026-07-16T07:12:24Z",
-      "updated_at": "2026-11-06T08:21:45Z",
+      "updated_at": "2026-11-10T09:42:34Z",
       "community_contribution": true
     },
     {
-      "number": 13618,
-      "title": "[Master]-Serial numbers selected on Assembly Order component lines are deleted when running Calculate Regenerative Plan, without carrying out action messages",
-      "url": "https://github.com/microsoft/BCApps/pull/13618",
+      "number": 13670,
+      "title": "[Shopify Connector] - Recurring synchronization setup",
+      "url": "https://github.com/microsoft/BCApps/pull/13670",
       "base": "main",
       "major": "30",
-      "author": "neeleshsinghal",
+      "author": "GediminasGaubys",
       "labels": [
-        "Team: SCM"
+        "AL: Apps (W1)",
+        "From Fork",
+        "Team: Integrations",
+        "needs-approval"
       ],
       "draft": false,
-      "created_at": "2026-11-04T07:27:43Z",
-      "updated_at": "2026-11-06T07:14:20Z",
+      "created_at": "2026-11-04T14:41:47Z",
+      "updated_at": "2026-11-10T09:22:22Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13869,
+      "title": "[FR] Support outbound self-billing invoices and credit memos",
+      "url": "https://github.com/microsoft/BCApps/pull/13869",
+      "base": "main",
+      "major": "30",
+      "author": "djukicmilica",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": true,
+      "created_at": "2026-11-10T09:04:14Z",
+      "updated_at": "2026-11-10T09:05:39Z",
       "community_contribution": false
     },
     {
-      "number": 12942,
-      "title": "Doc. Attachment List Factbox: tighten the unfiltered-delete guard (follow-up to #12609)",
-      "url": "https://github.com/microsoft/BCApps/pull/12942",
+      "number": 13853,
+      "title": "Defer report layout discovery warnings during compiler rollout",
+      "url": "https://github.com/microsoft/BCApps/pull/13853",
       "base": "main",
       "major": "30",
-      "author": "darjoo",
+      "author": "thloke",
       "labels": [
-        "Team: Integrations"
-      ],
-      "draft": false,
-      "created_at": "2026-10-16T13:25:42Z",
-      "updated_at": "2026-11-06T07:02:03Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13718,
-      "title": "Float BCPlatform to latest 29.0 on releases/29.x",
-      "url": "https://github.com/microsoft/BCApps/pull/13718",
-      "base": "releases/29.x",
-      "major": "29",
-      "author": "mazhelez",
-      "labels": [
-        "Build: scripts & configs",
+        "ADO: Sync",
+        "From Fork",
         "Ownership: Needs Review",
         "Team: Other"
       ],
       "draft": false,
-      "created_at": "2026-11-05T11:08:37Z",
-      "updated_at": "2026-11-06T06:59:17Z",
+      "created_at": "2026-11-10T04:13:35Z",
+      "updated_at": "2026-11-10T08:47:06Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13766,
+      "title": "[E-Document] Set max output tokens for MLLM extraction (29.x)",
+      "url": "https://github.com/microsoft/BCApps/pull/13766",
+      "base": "releases/29.x",
+      "major": "29",
+      "author": "mynjj",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-11-06T15:23:09Z",
+      "updated_at": "2026-11-10T08:40:15Z",
       "community_contribution": false
     },
     {
-      "number": 12153,
-      "title": "[Main]-Adjust Cost Creates an Output Value Entry with Entry Type = Variance and Expected Cost = Yes After Reversing a Finished Production Order.",
-      "url": "https://github.com/microsoft/BCApps/pull/12153",
+      "number": 13447,
+      "title": "[master]\"El título Importe pendiente resulta ambiguo entre varios campos de la tabla Mov. proveedor.\" error if you try to Create Payment for some Vendor Ledger Entries filtered by Remaining Amount <> 0 in the Spanish version.",
+      "url": "https://github.com/microsoft/BCApps/pull/13447",
+      "base": "main",
+      "major": "30",
+      "author": "neeleshsinghal",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-10-29T20:18:13Z",
+      "updated_at": "2026-11-10T08:36:32Z",
+      "community_contribution": false
+    },
+    {
+      "number": 10153,
+      "title": "Add DriveId overloads for SharePoint Graph Client drive item operations",
+      "url": "https://github.com/microsoft/BCApps/pull/10153",
+      "base": "main",
+      "major": "30",
+      "author": "diederiklensink",
+      "labels": [
+        "ADO: Sync",
+        "AL: System Application",
+        "From Fork",
+        "Team: Integrations",
+        "needs-approval"
+      ],
+      "draft": false,
+      "created_at": "2026-08-11T14:46:51Z",
+      "updated_at": "2026-11-10T08:33:01Z",
+      "community_contribution": true
+    },
+    {
+      "number": 13787,
+      "title": "[Main]error in allocation account function",
+      "url": "https://github.com/microsoft/BCApps/pull/13787",
+      "base": "main",
+      "major": "30",
+      "author": "Shikhverma",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-11-09T07:34:35Z",
+      "updated_at": "2026-11-10T08:24:58Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13807,
+      "title": "[main[ Bug 657914 Total Number of Supplies has incorrect type and tooltip in the VAT Report page of the German version.",
+      "url": "https://github.com/microsoft/BCApps/pull/13807",
+      "base": "main",
+      "major": "30",
+      "author": "MSNehaNawal",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-11-09T10:02:05Z",
+      "updated_at": "2026-11-10T08:24:54Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13760,
+      "title": "[Expense Agent] Allow receipt submission with unresolved VAT setup",
+      "url": "https://github.com/microsoft/BCApps/pull/13760",
+      "base": "main",
+      "major": "30",
+      "author": "Alexander-Ya",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-11-06T14:08:35Z",
+      "updated_at": "2026-11-10T08:02:55Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13103,
+      "title": "Main [All-E] Vendor-supplied component purchase lines use incorrect requirement and Order DatesInitial commit",
+      "url": "https://github.com/microsoft/BCApps/pull/13103",
+      "base": "main",
+      "major": "30",
+      "author": "sanjmaurya",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: SCM"
+      ],
+      "draft": false,
+      "created_at": "2026-10-21T09:45:22Z",
+      "updated_at": "2026-11-10T07:41:47Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13582,
+      "title": "[main] Price Groups of Subscription Packages are not considered.",
+      "url": "https://github.com/microsoft/BCApps/pull/13582",
+      "base": "main",
+      "major": "30",
+      "author": "Shikhverma",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-11-03T13:34:21Z",
+      "updated_at": "2026-11-10T05:42:02Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13699,
+      "title": "[main] Registering a Warehouse Movement with \"Breakbulk Filter\" enabled registers only the visible lines; hidden breakbulk lines remain unregistered",
+      "url": "https://github.com/microsoft/BCApps/pull/13699",
+      "base": "main",
+      "major": "30",
+      "author": "Shikhverma",
+      "labels": [
+        "Team: SCM"
+      ],
+      "draft": false,
+      "created_at": "2026-11-05T09:39:27Z",
+      "updated_at": "2026-11-10T05:41:48Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13854,
+      "title": "[Main]-All VAT Entries are gone through without filters with \"Set G/L Account No.\" function.",
+      "url": "https://github.com/microsoft/BCApps/pull/13854",
       "base": "main",
       "major": "30",
       "author": "DhavalMore88",
       "labels": [
         "ADO: Sync",
         "From Fork",
+        "Team: Finance"
+      ],
+      "draft": true,
+      "created_at": "2026-11-10T04:37:14Z",
+      "updated_at": "2026-11-10T04:38:50Z",
+      "community_contribution": true
+    },
+    {
+      "number": 12162,
+      "title": "Bug 649448: [Subcontracting] Prevent reopening completed legacy WIP purchase lines",
+      "url": "https://github.com/microsoft/BCApps/pull/12162",
+      "base": "main",
+      "major": "30",
+      "author": "ChethanT",
+      "labels": [
         "Team: SCM"
       ],
       "draft": false,
-      "created_at": "2026-09-30T14:40:40Z",
-      "updated_at": "2026-11-06T04:58:31Z",
-      "community_contribution": true
+      "created_at": "2026-09-30T19:30:27Z",
+      "updated_at": "2026-11-10T01:13:10Z",
+      "community_contribution": false
     },
     {
       "number": 13503,
@@ -1604,22 +1573,150 @@
       ],
       "draft": false,
       "created_at": "2026-11-02T13:31:16Z",
-      "updated_at": "2026-11-06T04:44:07Z",
+      "updated_at": "2026-11-10T00:44:06Z",
       "community_contribution": true
     },
     {
-      "number": 13497,
-      "title": "[Main] [ALL-E] Error in the allocation account functionNew",
-      "url": "https://github.com/microsoft/BCApps/pull/13497",
+      "number": 13565,
+      "title": "Log churn-based test proposals without skipping tests",
+      "url": "https://github.com/microsoft/BCApps/pull/13565",
       "base": "main",
       "major": "30",
-      "author": "Shikhverma",
+      "author": "aholstrup1",
       "labels": [
+        "Build: Automation",
+        "Build: scripts & configs",
+        "Ownership: Needs Review",
+        "Team: Other"
+      ],
+      "draft": false,
+      "created_at": "2026-11-03T10:34:49Z",
+      "updated_at": "2026-11-10T00:43:39Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13673,
+      "title": "Expose active expense approver and expense app navigation",
+      "url": "https://github.com/microsoft/BCApps/pull/13673",
+      "base": "main",
+      "major": "30",
+      "author": "encimita",
+      "labels": [
+        "AL: Apps (W1)",
         "Team: Finance"
       ],
       "draft": true,
-      "created_at": "2026-11-02T11:13:42Z",
-      "updated_at": "2026-11-06T04:29:08Z",
+      "created_at": "2026-11-04T15:59:54Z",
+      "updated_at": "2026-11-10T00:42:45Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13674,
+      "title": "Add controls for expense interim approvals",
+      "url": "https://github.com/microsoft/BCApps/pull/13674",
+      "base": "main",
+      "major": "30",
+      "author": "encimita",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: Finance"
+      ],
+      "draft": true,
+      "created_at": "2026-11-04T15:59:54Z",
+      "updated_at": "2026-11-10T00:42:41Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13762,
+      "title": "SOA: Adjust search selection rate",
+      "url": "https://github.com/microsoft/BCApps/pull/13762",
+      "base": "main",
+      "major": "30",
+      "author": "VolodySyn",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: SCM"
+      ],
+      "draft": true,
+      "created_at": "2026-11-06T14:22:59Z",
+      "updated_at": "2026-11-10T00:41:29Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12926,
+      "title": "Re-land native HttpClient for OCR Service Mgt. and obsolete Http Web Request Mgt.",
+      "url": "https://github.com/microsoft/BCApps/pull/12926",
+      "base": "main",
+      "major": "30",
+      "author": "darjoo",
+      "labels": [
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-10-16T08:51:00Z",
+      "updated_at": "2026-11-09T23:19:49Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12947,
+      "title": "[MCP] Provide environment and company descriptions to the platform",
+      "url": "https://github.com/microsoft/BCApps/pull/12947",
+      "base": "main",
+      "major": "30",
+      "author": "onbuyuka",
+      "labels": [
+        "AL: System Application",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-10-16T15:29:14Z",
+      "updated_at": "2026-11-09T23:19:45Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13811,
+      "title": "Enable custom agent task creation from the timeline",
+      "url": "https://github.com/microsoft/BCApps/pull/13811",
+      "base": "main",
+      "major": "30",
+      "author": "nikolakukrika",
+      "labels": [
+        "AL: Apps (W1)",
+        "Team: Integrations"
+      ],
+      "draft": false,
+      "created_at": "2026-11-09T10:59:00Z",
+      "updated_at": "2026-11-09T23:19:37Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13786,
+      "title": "[29.X]-Sales/Purchase Price List activation allows Duplicate Lines when the Price List is Inactive.",
+      "url": "https://github.com/microsoft/BCApps/pull/13786",
+      "base": "releases/29.x",
+      "major": "29",
+      "author": "neeleshsinghal",
+      "labels": [
+        "Team: SCM"
+      ],
+      "draft": false,
+      "created_at": "2026-11-09T05:02:25Z",
+      "updated_at": "2026-11-09T10:11:41Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13562,
+      "title": "[29.X]-Production Order Fails to Finish Due to Quantity Rounding Difference Between Component Consumption and Item Tracking Quantity - Copy",
+      "url": "https://github.com/microsoft/BCApps/pull/13562",
+      "base": "releases/29.x",
+      "major": "29",
+      "author": "neeleshsinghal",
+      "labels": [
+        "Team: SCM"
+      ],
+      "draft": false,
+      "created_at": "2026-11-03T10:11:44Z",
+      "updated_at": "2026-11-09T08:13:11Z",
       "community_contribution": false
     },
     {
@@ -1641,7 +1738,22 @@
       ],
       "draft": false,
       "created_at": "2026-10-23T07:33:32Z",
-      "updated_at": "2026-11-05T18:49:32Z",
+      "updated_at": "2026-11-09T08:06:00Z",
+      "community_contribution": false
+    },
+    {
+      "number": 13467,
+      "title": "[29.x[All-e]Payment Discount with Prices Incl. VAT provides unexpected results in the Spanish version",
+      "url": "https://github.com/microsoft/BCApps/pull/13467",
+      "base": "releases/29.x",
+      "major": "29",
+      "author": "sanjmaurya",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-10-30T10:25:46Z",
+      "updated_at": "2026-11-09T03:36:45Z",
       "community_contribution": false
     },
     {
@@ -1673,21 +1785,6 @@
       "draft": false,
       "created_at": "2026-10-31T02:09:17Z",
       "updated_at": "2026-11-04T05:46:07Z",
-      "community_contribution": false
-    },
-    {
-      "number": 13467,
-      "title": "[29.x[All-e]Payment Discount with Prices Incl. VAT provides unexpected results in the Spanish version",
-      "url": "https://github.com/microsoft/BCApps/pull/13467",
-      "base": "releases/29.x",
-      "major": "29",
-      "author": "sanjmaurya",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-10-30T10:25:46Z",
-      "updated_at": "2026-11-04T00:40:47Z",
       "community_contribution": false
     },
     {
@@ -1744,36 +1841,63 @@
   ],
   "issues": [
     {
-      "number": 13777,
-      "title": "[Bug]: Email Message.DeleteOrphanedMessages deletes retrieved (Email Inbox) messages",
-      "url": "https://github.com/microsoft/BCApps/issues/13777",
-      "labels": [
-        "Team: Integrations"
-      ],
-      "author": "yannstlo",
-      "created_at": "2026-11-06T22:42:54Z",
-      "comments": 1
-    },
-    {
-      "number": 13752,
-      "title": "[Bug]: Item Availability omits inventory for a location when another location has open negative Item Ledger Entries because of sorting.",
-      "url": "https://github.com/microsoft/BCApps/issues/13752",
-      "labels": [
-        "Team: SCM"
-      ],
-      "author": "GTLarsen",
-      "created_at": "2026-11-06T10:38:51Z",
-      "comments": 1
-    },
-    {
-      "number": 13746,
-      "title": "[Bug]: [CZ Advance Payments] ApplyAdvanceLetter validates a different ledger entry than the one PostAdvanceLetterApplying posts against",
-      "url": "https://github.com/microsoft/BCApps/issues/13746",
+      "number": 13906,
+      "title": "[W1][Event Request] Codeunit 1231 \"SEPA DD-Fill Export Buffer\" - FillExportBuffer - OnAfterFillExportBuffer",
+      "url": "https://github.com/microsoft/BCApps/issues/13906",
       "labels": [
         "Team: Finance"
       ],
-      "author": "hiimnit",
-      "created_at": "2026-11-06T09:00:01Z",
+      "author": "angeloeo-pangea",
+      "created_at": "2026-11-10T15:39:31Z",
+      "comments": 1
+    },
+    {
+      "number": 13902,
+      "title": "[ES] No Taxable Mgt. - events to set custom fields per posted line and to extend the No Taxable Entry grouping",
+      "url": "https://github.com/microsoft/BCApps/issues/13902",
+      "labels": [
+        "Team: Finance"
+      ],
+      "author": "angeloeo-pangea",
+      "created_at": "2026-11-10T14:46:53Z",
+      "comments": 1
+    },
+    {
+      "number": 13897,
+      "title": "[Event Request] Codeunit 181 \"Copy Gen. Journal Mgt.\"",
+      "url": "https://github.com/microsoft/BCApps/issues/13897",
+      "labels": [
+        "Team: Finance",
+        "missing-info"
+      ],
+      "author": "bogdangarkusha",
+      "created_at": "2026-11-10T13:02:55Z",
+      "comments": 1
+    },
+    {
+      "number": 13887,
+      "title": "[Contribution Process Bug]: Problematic new procedure in Codeunit 8060 \"Create Billing Documents\" in Subscription Billing Version 28.4.53241",
+      "url": "https://github.com/microsoft/BCApps/issues/13887",
+      "labels": [
+        "Contribution-Bug",
+        "Ownership: Needs Review",
+        "Team: Other"
+      ],
+      "author": "AydinKelky",
+      "created_at": "2026-11-10T11:34:24Z",
+      "comments": 0
+    },
+    {
+      "number": 13832,
+      "title": "[W1][Event Request] Codeunit 8060 \"Create Billing Documents\" - Add OnAfterIsNewPurchaseHeaderNeeded event to CreatePurchaseDocumentsPerVendor",
+      "url": "https://github.com/microsoft/BCApps/issues/13832",
+      "labels": [
+        "Approved",
+        "Team: Finance",
+        "event-request"
+      ],
+      "author": "KennyTangBS",
+      "created_at": "2026-11-09T22:20:26Z",
       "comments": 1
     }
   ],

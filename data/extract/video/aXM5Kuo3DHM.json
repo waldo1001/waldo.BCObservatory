@@ -1,0 +1,241 @@
+{
+  "video_id": "aXM5Kuo3DHM",
+  "item_id": "video/yt-hougaard/aXM5Kuo3DHM",
+  "title": "FTP, FTPS, SFTP, What's the difference, and what about AL and Business Central",
+  "duration_s": 806,
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "sftp",
+    "ftps",
+    "ftp",
+    "file transfer",
+    "ssh",
+    "encryption",
+    "al development",
+    "business central api",
+    "azure functions",
+    "fingerprint verification"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to file transfer protocols",
+      "t_start": 0,
+      "t_end": 42.7
+    },
+    {
+      "title": "FTP protocol history and basics",
+      "t_start": 42.7,
+      "t_end": 68.8
+    },
+    {
+      "title": "FTP active and passive modes",
+      "t_start": 68.8,
+      "t_end": 196.3
+    },
+    {
+      "title": "FTPS and SFTP encryption approaches",
+      "t_start": 196.3,
+      "t_end": 280.7
+    },
+    {
+      "title": "SFTP adoption and Business Central cloud solutions",
+      "t_start": 280.7,
+      "t_end": 342.4
+    },
+    {
+      "title": "SFTP client demo in Business Central",
+      "t_start": 342.4,
+      "t_end": 492.7
+    },
+    {
+      "title": "SFTP code unit methods and initialization",
+      "t_start": 492.7,
+      "t_end": 610.7
+    },
+    {
+      "title": "File upload workflow and SFTP operations",
+      "t_start": 610.7,
+      "t_end": 683.6
+    },
+    {
+      "title": "Implementation details and closing remarks",
+      "t_start": 683.6,
+      "t_end": 806
+    }
+  ],
+  "features": [
+    {
+      "name": "SFTP client in Business Central",
+      "description": "A new SFTP client capability in Business Central's system application that allows direct file transfer without requiring Azure functions as a proxy.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 330.8,
+      "t_end": 376.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires SSH port 22",
+        "Supports both password and private key authentication"
+      ],
+      "tags": [
+        "sftp",
+        "file transfer",
+        "cloud",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "SFTP code unit methods",
+      "description": "The SFTP client code unit provides methods including add fingerprint, initialize, list files, get file as stream, file exist, delete file, disconnect, put file, set working directory, is connected, and create directory.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 517.7,
+      "t_end": 542.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sftp",
+        "code unit",
+        "al development",
+        "api"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "SSH fingerprint verification",
+      "description": "The SFTP client supports server fingerprint verification as part of the SSH connection negotiation, allowing clients to verify the identity of the remote server.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 445.1,
+      "t_end": 480.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "security",
+        "sftp",
+        "ssh",
+        "fingerprint"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Private key authentication for SFTP",
+      "description": "SFTP file transfers can be authenticated using private and public key pairs instead of passwords, which is common for bank uploads.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 409.1,
+      "t_end": 433.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "security",
+        "sftp",
+        "authentication",
+        "private key"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "SFTP operation response structure",
+      "description": "The SFTP code unit returns operation responses with a similar structure to Azure blob storage code units, allowing consistent error handling and response checking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 598.6,
+      "t_end": 640,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "code unit",
+        "response handling",
+        "al development"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "SFTP code client code unit",
+      "t": 517.7
+    },
+    {
+      "type": "codeunit",
+      "name": "Azure blob storage code units",
+      "t": 610.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 68.8,
+      "text": "classic FTP came about in '71. Um and it runs on port 21.",
+      "why_it_matters": "Establishes FTP as a 55-year-old protocol, explaining why it uses very low port numbers and is considered legacy technology.",
+      "check": "exact"
+    },
+    {
+      "t": 222.3,
+      "text": "One was FTPS, which was just FTP, but you had a a TLS-based encryption on top of it, just like ...",
+      "why_it_matters": "Clarifies that FTPS is simply FTP with TLS encryption added, drawing a parallel to HTTPS for easier understanding.",
+      "check": "exact"
+    },
+    {
+      "t": 291.7,
+      "text": "encrypted version of the old one sftp is the secure file transfer protocol but inside ssh",
+      "why_it_matters": "Defines the key difference between FTPS and SFTP as two completely different protocols despite similar naming.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 330.8,
+      "text": "now we have in Business Central if we go and look here, so here I just built a quick demo app. So, if we",
+      "why_it_matters": "Announces the availability of a native SFTP client in Business Central, eliminating the need for Azure function workarounds.",
+      "check": "exact"
+    },
+    {
+      "t": 445.1,
+      "text": "a part of the SSH connection negotiation, it says, Hang on. This remote server has a fingerprint that looks like this.",
+      "why_it_matters": "Explains how SSH fingerprint verification works as a security mechanism within the SFTP client.",
+      "check": "exact"
+    },
+    {
+      "t": 740.1,
+      "text": "Microsoft has used the the Ren C uh and I think this is actually easiest way to go about this go to the explorer.",
+      "why_it_matters": "Reveals that the SFTP client implementation uses the Renci.SSH .NET open source library as its underlying technology.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02345
+    }
+  ]
+}

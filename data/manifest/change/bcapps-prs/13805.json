@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13805",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x][all-e]Purchase Invoice Statistics Non-Deductible VAT Amount does not match VAT Entries and G/L Entries when Non-Deductible VAT is enabled. - CopyInitial commit",
+  "url": "https://github.com/microsoft/BCApps/pull/13805",
+  "published_at": "2026-11-10T09:46:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    }
+  },
+  "input_hash": "0a9b1247ccb87b5bc07df76f78d277a836c89123:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13805,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "0a9b1247ccb87b5bc07df76f78d277a836c89123",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "all e purchase invoice statistics non deductible vat amount does not match vat entries and g l entries when non deductible vat is enabled copyinitial commit"
+  }
+}

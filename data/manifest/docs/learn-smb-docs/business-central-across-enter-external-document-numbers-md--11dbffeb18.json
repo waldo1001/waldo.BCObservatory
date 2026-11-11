@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Enter external document numbers",
+  "title": "Enter External Document Numbers",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-enter-external-document-numbers",
-  "published_at": "2025-10-29T13:40:09.000Z",
+  "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.140Z",
-      "blob": "dd55cf1648c7d293e0ff2073f88e533e8dfb543f",
-      "words": 172,
+      "at": "2026-11-11T00:17:39.863Z",
+      "blob": "38657b1be2e9a51d55bee1e86423e62d7bc66d7c",
+      "words": 214,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:57:26.660Z",
+      "at": "2026-11-11T00:17:43.375Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003554
+      "cost_usd": 0.002915
     },
     "summarized": {
-      "at": "2026-10-06T18:57:32.087Z",
+      "at": "2026-11-11T00:17:43.375Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:57:32.088Z",
+      "at": "2026-11-11T00:17:43.376Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:57:32.090Z",
+      "at": "2026-11-11T00:17:43.376Z",
       "page": false
     }
   },
-  "input_hash": "dd55cf1648c7d293e0ff2073f88e533e8dfb543f",
+  "input_hash": "38657b1be2e9a51d55bee1e86423e62d7bc66d7c",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-enter-external-document-numbers.md",
-    "description": "Enter external document numbers for customers and vendors in sales and purchase orders, invoices, and credit memos. Use these numbers to easily find posted sales and purchase lines.",
-    "ms_date": "2025-10-14",
+    "description": "Enter customer and vendor document numbers on sales and purchase documents so you can find related entries and avoid duplicate purchase invoices.",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "purchase order",
       "sales order"
     ],
-    "ai_usage": null,
-    "words": 172,
+    "ai_usage": "ai-assisted",
+    "words": 214,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "943b861b0d2d9835c40e0400ee32d07f30af65afb7e3b3b4162477e7f9d9935e"
+  "output_hash": "55518d1569cf83c380e5c793ad09cc413c12ee997ccdcc6aac9bfd7ddb25d369"
 }

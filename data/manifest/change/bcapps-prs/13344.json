@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13344",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x]- Bug 647007 Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced' reverted back on original Purchase Order",
+  "url": "https://github.com/microsoft/BCApps/pull/13344",
+  "published_at": "2026-11-10T05:00:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    }
+  },
+  "input_hash": "4d8001e81169dd4ece994db84222d06a0fba866e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13344,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "4d8001e81169dd4ece994db84222d06a0fba866e",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 647007 copy document on a purchase credit memo quantity received and quantity invoiced reverted back on original purchase order"
+  }
+}

@@ -1,40 +1,55 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-  "title": "Archive sales, purchase, project, and service documents",
-  "blob": "1051a6a6ab62be08710f4d8dca6e340cd7281ceb",
-  "summary": "Archive and restore sales, purchase, project, and service documents to maintain document history and automate retention management using retention policies.",
+  "title": "Archive Documents",
+  "blob": "e3081e75699621f8fcbe0f485c9a28a8ed0cffba",
+  "summary": "Archive documents describes how to automatically or manually archive sales, purchase, service, and project documents in Business Central, and how to restore archived sales documents or copy archived content.",
   "systems": [
     "sales",
     "purchasing",
-    "projects"
+    "service"
   ],
   "topics": [
     "document archiving",
-    "retention policy",
+    "archive management",
     "document restoration",
-    "version control"
+    "retention policies",
+    "document history"
   ],
   "objects": [
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Project Setup"
+    },
+    {
+      "type": "page",
+      "name": "Service Management Setup"
+    },
     {
       "type": "page",
       "name": "Sales Orders"
     },
     {
       "type": "page",
-      "name": "Archived Sales Orders"
-    },
-    {
-      "type": "page",
-      "name": "Sales & Receivables Setup"
+      "name": "Sales Order Archives"
     }
   ],
   "features": [
-    "Archive Documents",
-    "Restore Documents",
-    "Automatic Archiving",
-    "Retention Policy",
-    "Version Control"
+    "automatic document archiving",
+    "manual document archiving",
+    "document restoration",
+    "archive versioning",
+    "retention policies",
+    "copy document action",
+    "status-based archiving"
   ],
   "versions": [],
   "parts": 1,
@@ -43,8 +58,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004358,
-      "pages_in_call": 8
+      "cost_usd": 0.004274,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13867",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Exclude concurrent test buffer from replication (AB#658568)",
+  "url": "https://github.com/microsoft/BCApps/pull/13867",
+  "published_at": "2026-11-10T17:23:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    }
+  },
+  "input_hash": "7bc680de16bcd1298d9c0d5e28cfba436c552bc7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13867,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7bc680de16bcd1298d9c0d5e28cfba436c552bc7",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "exclude concurrent test buffer from replication ab 658568"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12681",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[API tests] Assign a number series to API vendor payment journals",
+  "url": "https://github.com/microsoft/BCApps/pull/12681",
+  "published_at": "2026-11-10T00:44:39Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    }
+  },
+  "input_hash": "80607a916b05ac4bd62b263037b0e85036b43497:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12681,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "80607a916b05ac4bd62b263037b0e85036b43497",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "api tests assign a number series to api vendor payment journals"
+  }
+}

@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Edit posted sales and purchase documents",
+  "title": "Edit Posted Documents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document",
-  "published_at": "2025-10-29T13:40:09.000Z",
+  "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.135Z",
-      "blob": "7a2c426d387d01b6198c3033c2708fc50a09f0e7",
-      "words": 270,
+      "at": "2026-11-11T00:17:26.603Z",
+      "blob": "adbba1333300f471987116ffe60386e1619208c1",
+      "words": 258,
       "forms": 8
     },
     "extracted": {
-      "at": "2026-10-06T18:57:26.659Z",
+      "at": "2026-11-11T00:17:38.807Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.003554
+      "objects": 2,
+      "cost_usd": 0.003541
     },
     "summarized": {
-      "at": "2026-10-06T18:57:26.667Z",
+      "at": "2026-11-11T00:17:38.808Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:57:26.668Z",
+      "at": "2026-11-11T00:17:38.809Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:57:26.668Z",
+      "at": "2026-11-11T00:17:38.809Z",
       "page": false
     }
   },
-  "input_hash": "7a2c426d387d01b6198c3033c2708fc50a09f0e7",
+  "input_hash": "adbba1333300f471987116ffe60386e1619208c1",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-edit-posted-document.md",
     "description": "Learn how to update posted sales and purchase documents, such as shipments or invoices, when details like tracking numbers or payment references need to be changed.",
-    "ms_date": "2025-10-14",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -100,12 +100,12 @@
       "update posted document",
       "change posted document"
     ],
-    "ai_usage": null,
-    "words": 270,
+    "ai_usage": "ai-assisted",
+    "words": 258,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "906b1c3a075f0e99c9c3e8ae0d7bb808c6443e6ed4437dd41e107b8eab12614b"
+  "output_hash": "e025ebf11584b6169232d9b7dff23be03ffb903c7895bf1eea16b8b1d78f4bda"
 }

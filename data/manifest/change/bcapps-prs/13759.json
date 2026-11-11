@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/13759",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Layers, Apps] Remove CLEAN27 obsolete code",
+  "url": "https://github.com/microsoft/BCApps/pull/13759",
+  "published_at": "2026-11-10T17:41:35Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    },
+    "fetched": {
+      "at": "2026-11-11T00:17:47.771Z",
+      "change_class": "code",
+      "files": 802,
+      "al": 679,
+      "objects": 477,
+      "unjoined": 202
+    },
+    "extracted": {
+      "at": "2026-11-11T00:18:03.424Z",
+      "prompt": "extract-change@1",
+      "kind": "obsoletion",
+      "behavior": false,
+      "cost_usd": 0.028381
+    },
+    "linked": {
+      "at": "2026-11-11T00:18:03.631Z",
+      "objects": 477,
+      "unjoined": 202,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-11T00:18:03.710Z",
+      "path": "content/changes/bcapps/13759.md"
+    }
+  },
+  "input_hash": "d024725cbbbecf94f9b8a0d9cd63b499555c208a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13759,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d024725cbbbecf94f9b8a0d9cd63b499555c208a",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Build: scripts & configs",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "layers apps remove clean27 obsolete code"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "19eceadaa94b75f735c32594f3115c37c619da1a09b6596cbad2004cf0976100"
+}

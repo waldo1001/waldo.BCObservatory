@@ -1,0 +1,58 @@
+{
+  "id": "video/yt-hougaard/aXM5Kuo3DHM",
+  "pillar": "video",
+  "source": "yt-hougaard",
+  "tier": "community",
+  "title": "FTP, FTPS, SFTP, What's the difference, and what about AL and Business Central",
+  "url": "https://www.youtube.com/watch?v=aXM5Kuo3DHM",
+  "published_at": "2026-11-09T11:00:23.000Z",
+  "language": "en",
+  "state": "extracted",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-11T00:15:47.902Z"
+    },
+    "fetched": {
+      "at": "2026-11-11T00:17:30.192Z",
+      "captions": "auto:en-orig",
+      "duration_s": 806
+    },
+    "captioned": {
+      "at": "2026-11-11T00:17:35.625Z",
+      "path": "vault:captions/community/yt-hougaard/aXM5Kuo3DHM.vtt",
+      "vtt_sha256": "26787949dedad818c2b05afa50fa0a74adc55cbaf49d62ebff892e11ab08fe75",
+      "segments": 68,
+      "words": 1663,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-11-11T00:18:03.381Z",
+      "path": "data/extract/video/aXM5Kuo3DHM.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "trimmed_for_policy": 1,
+      "features": 5,
+      "quotes": 6,
+      "quotes_dropped": 1,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.02345
+    }
+  },
+  "input_hash": null,
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "channel_id": "UCcJCTa4PvbOQj50y_HJSxXw",
+    "duration_s": 806,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b4fdcec45304b1ded97442a9f11d9d14b668c72cc962baa45d7880fc1a381876"
+}
