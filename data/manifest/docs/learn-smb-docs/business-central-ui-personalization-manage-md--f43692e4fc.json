@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-personalization-manage",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:11:13.786Z",
+      "at": "2026-11-11T00:23:21.335Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.003606
+      "objects": 4,
+      "cost_usd": 0.00534
     },
     "summarized": {
-      "at": "2026-10-06T19:11:15.612Z",
+      "at": "2026-11-11T00:23:21.336Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:11:15.614Z",
+      "at": "2026-11-11T00:23:21.337Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:11:15.615Z",
+      "at": "2026-11-11T00:23:21.337Z",
       "page": false
     }
   },
@@ -69,5 +69,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "afcdf66693355b06328c1b9bc89fe11850b03f98"
+  "output_hash": "746143eed5d44e19dd514cb099793828a62d8332930b078cda3e704c2f0cf9f6"
 }

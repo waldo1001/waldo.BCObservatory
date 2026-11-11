@@ -2,19 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/finance-financial-reporting-integrate-financial-reports-with-excel.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-integrate-financial-reports-with-excel",
   "title": "Integrate financial reports with Excel",
-  "blob": "176f3d8cf3cd3c7523da7f3b040f8d4f7eb3bd75",
-  "summary": "Financial Reporting integration with Excel enables downloading reports to Excel, uploading Excel templates as layouts, and defining default layouts for generating formatted financial statements. Use this to create customized monthly and yearly financial reports in Excel.",
+  "blob": "04433931892bbbb0cc1b311ff700f549e1c223e6",
+  "summary": "Financial Reporting integration with Excel enables downloading reports, uploading Excel templates as layouts, and defining default layouts for formatted financial statements. Use this to create and manage monthly financial reports with custom formatting.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
-    "financial reports",
-    "excel layouts",
+    "financial reporting",
     "excel integration",
     "report formatting",
-    "financial statements",
-    "agentic excel"
+    "excel layouts",
+    "templates",
+    "copilot"
   ],
   "objects": [
     {
@@ -31,14 +31,12 @@
     }
   ],
   "features": [
-    "Download report to Excel",
-    "Upload Excel templates as layouts",
-    "Define default Excel layout",
-    "Open in Excel using layout",
-    "Excel Layouts action",
-    "Export/Run action",
-    "Agentic Excel formatting",
-    "Update existing documents"
+    "Download reports to Excel",
+    "Upload and store Excel templates",
+    "Default Excel layout",
+    "Copilot in Excel formatting",
+    "Excel layouts management",
+    "Export/Run layouts"
   ],
   "versions": [],
   "parts": 1,
@@ -47,7 +45,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00493,
+      "cost_usd": 0.004879,
       "pages_in_call": 1
     }
   ]

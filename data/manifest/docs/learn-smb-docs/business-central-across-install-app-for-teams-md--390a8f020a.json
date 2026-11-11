@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Install the Business Central app in Microsoft Teams",
+  "title": "Install the Business Central App in Microsoft Teams",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-install-app-for-teams",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.276Z",
-      "blob": "76316194ecb3cf4b035200f7d3877cb82767f310",
-      "words": 470,
+      "at": "2026-11-11T00:23:48.758Z",
+      "blob": "e82b3393c6c5344a3026c9dbc572744f38349ccd",
+      "words": 515,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:58:38.337Z",
+      "at": "2026-11-11T00:24:02.684Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003112
+      "cost_usd": 0.003527
     },
     "summarized": {
-      "at": "2026-10-06T18:59:05.643Z",
+      "at": "2026-11-11T00:24:02.685Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:59:05.644Z",
+      "at": "2026-11-11T00:24:02.685Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:59:05.645Z",
+      "at": "2026-11-11T00:24:02.686Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-install-app-for-teams.md",
-    "description": "Learn how to install the Business Central app for Microsoft Teams using different methods.",
-    "ms_date": "2025-10-16",
-    "ms_topic": "get-started",
+    "description": "Install the Business Central app for Microsoft Teams from Teams, a direct link, or Business Central to share records and look up contacts.",
+    "ms_date": "2026-11-09",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "Teams",
@@ -59,12 +59,12 @@
       "collaboration",
       "teamwork"
     ],
-    "ai_usage": null,
-    "words": 470,
+    "ai_usage": "ai-assisted",
+    "words": 515,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0d0a3b63112d6830a8f4f5fa5fec4a14f1907351d2376b49aad07a5b6b13ba9a"
+  "output_hash": "faf028a7678c52eb86db348453e6b177f95e6239b470a671de25abc9ce85d09b"
 }

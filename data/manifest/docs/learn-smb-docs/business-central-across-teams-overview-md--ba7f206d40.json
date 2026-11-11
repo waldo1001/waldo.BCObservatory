@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Business Central and Microsoft Teams Integration",
+  "title": "Integrate Business Central with Microsoft Teams",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-teams-overview",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.328Z",
-      "blob": "55417aa4d85c4d37655ab6504dceb73db57e19e0",
-      "words": 596,
+      "at": "2026-11-11T00:24:02.715Z",
+      "blob": "016999b74998560bada7dbe0008d06298474b92d",
+      "words": 601,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:59:36.760Z",
+      "at": "2026-11-11T00:24:07.052Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003654
+      "cost_usd": 0.003697
     },
     "summarized": {
-      "at": "2026-10-06T18:59:36.824Z",
+      "at": "2026-11-11T00:24:07.053Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:59:36.825Z",
+      "at": "2026-11-11T00:24:07.054Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:59:36.826Z",
+      "at": "2026-11-11T00:24:07.055Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-teams-overview.md",
-    "description": "Share Business Central records directly in a Teams conversation.",
-    "ms_date": "2025-10-21",
+    "description": "Connect Business Central to Microsoft Teams to share records in conversations, look up business contacts, and add tabs that display business data.",
+    "ms_date": "2026-11-09",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -59,12 +59,12 @@
       "collaboration",
       "teamwork"
     ],
-    "ai_usage": null,
-    "words": 596,
+    "ai_usage": "ai-assisted",
+    "words": 601,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fefe7593b5ee75b69d0fd09bd4a93d8e61f2a12cbe51b2f66b35d8d1ffc52ff2"
+  "output_hash": "9ed488de7974077ec90f5b7eb18f73ea04ee4a5df43ad18c5b21ee4ce2a4ffc9"
 }

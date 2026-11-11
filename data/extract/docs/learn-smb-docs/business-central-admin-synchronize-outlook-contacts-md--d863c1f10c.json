@@ -2,41 +2,28 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-synchronize-outlook-contacts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-synchronize-outlook-contacts",
   "title": "Synchronize Contacts with Microsoft Outlook (Legacy)",
-  "blob": "2d6712942fdd7086596c09b0925879b02d9b4c38",
-  "summary": "Legacy contact synchronization between Business Central and Microsoft Outlook allows sales users to keep contacts in sync across both applications with manual or automated scheduling options available through 2025 release wave 2.",
+  "blob": "7aa820e67e6505a6abbc90e89da818ee5126d1d0",
+  "summary": "Synchronize Business Central contacts with Microsoft Outlook contacts to keep information consistent across both applications. This legacy feature applies to versions 2025 release wave 2 and earlier.",
   "systems": [
     "crm",
     "integration",
     "administration"
   ],
   "topics": [
-    "contact synchronization",
-    "outlook integration",
-    "legacy feature",
-    "exchange sync",
-    "contact filtering",
-    "background synchronization"
+    "contacts",
+    "outlook",
+    "synchronization",
+    "exchange",
+    "legacy"
   ],
   "objects": [
     {
-      "type": "page",
+      "type": "other",
       "name": "Exchange Sync. Setup"
     },
     {
-      "type": "page",
+      "type": "other",
       "name": "Contact Sync. Setup"
-    },
-    {
-      "type": "page",
-      "name": "Job Queue Entry Card"
-    },
-    {
-      "type": "page",
-      "name": "User Card"
-    },
-    {
-      "type": "page",
-      "name": "Users"
     },
     {
       "type": "codeunit",
@@ -44,17 +31,19 @@
     }
   ],
   "features": [
-    "contact synchronization",
-    "outlook integration",
-    "manual sync",
-    "full sync",
-    "background synchronization",
-    "job queue scheduling",
-    "contact filtering",
-    "exchange sync setup"
+    "Contact synchronization",
+    "Exchange connection validation",
+    "Sync filters",
+    "Manual synchronization",
+    "Automated synchronization",
+    "Full sync",
+    "Incremental sync",
+    "Background synchronization"
   ],
   "versions": [
-    "2025 release wave 2 (v27)"
+    "2025 release wave 2",
+    "2024 release wave 1",
+    "2023 release wave 2"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -62,7 +51,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004895,
+      "cost_usd": 0.004642,
       "pages_in_call": 1
     }
   ]

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Managing OneDrive Integration with Business Central",
+  "title": "Manage OneDrive Integration with Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-onedrive-integration",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.536Z",
-      "blob": "c6e5af45425619c9a8bc2f53951483fe4a1cca49",
-      "words": 915,
+      "at": "2026-11-11T00:24:14.614Z",
+      "blob": "2de109ce10d52df6b7f5e262e90fec5e0f6dd98f",
+      "words": 885,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:05:19.653Z",
+      "at": "2026-11-11T00:24:19.607Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.004037
+      "objects": 1,
+      "cost_usd": 0.004929
     },
     "summarized": {
-      "at": "2026-10-06T19:05:19.675Z",
+      "at": "2026-11-11T00:24:19.609Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:05:19.676Z",
+      "at": "2026-11-11T00:24:19.610Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:05:19.676Z",
+      "at": "2026-11-11T00:24:19.611Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-onedrive-integration.md",
-    "description": "Learn about things you can do to manage an integration between Business Central and OneDrive for Business.",
-    "ms_date": "2024-06-13",
+    "description": "Configure OneDrive integration for a Business Central environment, control file handling features, and manage privacy and sharing for your users.",
+    "ms_date": "2026-11-09",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -59,12 +59,12 @@
       "share",
       "browser"
     ],
-    "ai_usage": null,
-    "words": 915,
+    "ai_usage": "ai-assisted",
+    "words": 885,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4913ab30c1558cf2f32cd91b72114e25db7e765eac3c76e2d4dbbd9f6da109aa"
+  "output_hash": "c81e036379fc7be20409d91ac33e723c889d89e6065451aa7be002cac6d5f77c"
 }

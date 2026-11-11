@@ -2,20 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-access-with-m365-license-setup.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-setup",
   "title": "Set Up Access with Microsoft 365 Licenses",
-  "blob": "c19e928762b023d0683611f96cbeefddfaf32ef9",
-  "summary": "Describes the setup steps for enabling Business Central access in Teams with Microsoft 365 licenses, including permissions configuration, environment setup, security groups, and testing.",
+  "blob": "056c3894ad5088b3403d534593f79011956e071d",
+  "summary": "How to set up Business Central access for Microsoft 365 licensed users by configuring permissions, enabling access in the environment, assigning security groups, and deploying the Teams app.",
   "systems": [
     "administration",
     "integration",
     "platform"
   ],
   "topics": [
-    "microsoft 365 license",
+    "microsoft 365 licenses",
     "teams integration",
-    "setup",
-    "configuration",
+    "access control",
     "permissions",
-    "deployment"
+    "security groups",
+    "setup"
   ],
   "objects": [
     {
@@ -25,19 +25,15 @@
     {
       "type": "page",
       "name": "Users"
-    },
-    {
-      "type": "page",
-      "name": "Assisted Setup"
     }
   ],
   "features": [
-    "License Configuration",
-    "Permission sets",
-    "Access with Microsoft 365 licenses",
+    "Microsoft 365 license access",
+    "Permission sets configuration",
     "Security group assignment",
+    "Teams app deployment",
     "Centralized deployment",
-    "D365 Read permission set"
+    "Assisted setup guide"
   ],
   "versions": [],
   "parts": 1,
@@ -46,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.010525,
-      "pages_in_call": 3
+      "cost_usd": 0.005305,
+      "pages_in_call": 1
     }
   ]
 }

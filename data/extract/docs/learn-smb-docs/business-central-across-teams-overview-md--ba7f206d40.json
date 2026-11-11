@@ -1,30 +1,28 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-teams-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-teams-overview",
-  "title": "Business Central and Microsoft Teams Integration",
-  "blob": "55417aa4d85c4d37655ab6504dceb73db57e19e0",
-  "summary": "Business Central app for Microsoft Teams enabling users to look up contacts, share records with interactive cards, share page links, and add Business Central tabs to Teams channels and chats.",
+  "title": "Integrate Business Central with Microsoft Teams",
+  "blob": "016999b74998560bada7dbe0008d06298474b92d",
+  "summary": "Integrate Business Central with Microsoft Teams using the Business Central app to look up contacts, share records and links in conversations, and add Business Central tabs to Teams channels.",
   "systems": [
-    "platform",
     "integration",
+    "sales",
     "crm"
   ],
   "topics": [
     "teams integration",
+    "contact lookup",
+    "record sharing",
     "collaboration",
-    "contacts",
-    "records sharing",
-    "business data"
+    "microsoft 365"
   ],
   "objects": [],
   "features": [
-    "look up contacts",
-    "share records",
-    "interactive cards",
-    "share to teams",
-    "teams tabs",
-    "contact details",
-    "interaction history"
+    "Look up customer and vendor details",
+    "Share record links in Teams conversations",
+    "Share page links to Teams",
+    "Add Business Central tab to Teams",
+    "Interactive record cards in Teams"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003654,
-      "pages_in_call": 8
+      "cost_usd": 0.003697,
+      "pages_in_call": 1
     }
   ]
 }

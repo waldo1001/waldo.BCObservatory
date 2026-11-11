@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Searching for contacts from Microsoft Teams",
+  "title": "Search for Business Central Contacts in Microsoft Teams",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-search-contacts-teams",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.307Z",
-      "blob": "50535e7699ab25d239460ea4ee5475fd97cd2bce",
-      "words": 804,
+      "at": "2026-11-11T00:23:59.753Z",
+      "blob": "f231441d95bb02635b03d410b771245d5bdd9474",
+      "words": 916,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:59:26.627Z",
+      "at": "2026-11-11T00:24:06.051Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002605
+      "cost_usd": 0.00408
     },
     "summarized": {
-      "at": "2026-10-06T18:59:34.948Z",
+      "at": "2026-11-11T00:24:06.051Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:59:36.702Z",
+      "at": "2026-11-11T00:24:06.052Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:59:36.704Z",
+      "at": "2026-11-11T00:24:06.052Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-search-contacts-teams.md",
-    "description": "Learn how to look up Business Central customers, vendors, and other contacts from Microsoft Teams.",
-    "ms_date": "2025-10-20",
-    "ms_topic": "get-started",
+    "description": "Look up Business Central customers, vendors, and other contacts in Microsoft Teams, share contact cards, and view related details in conversations.",
+    "ms_date": "2026-11-09",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "Teams",
@@ -59,12 +59,12 @@
       "search",
       "messaging extensions"
     ],
-    "ai_usage": null,
-    "words": 804,
+    "ai_usage": "ai-assisted",
+    "words": 916,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d5e31b83f7b71746566a48f7f80c7773adfe20a34abfa3130b98c91c34771393"
+  "output_hash": "6acb880de5b1e1ac1eeb4c6afe46e472c218c11e8563543355ebc630b8642198"
 }

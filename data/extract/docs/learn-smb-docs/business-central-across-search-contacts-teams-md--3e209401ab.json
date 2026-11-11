@@ -1,26 +1,31 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-search-contacts-teams.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-search-contacts-teams",
-  "title": "Searching for contacts from Microsoft Teams",
-  "blob": "50535e7699ab25d239460ea4ee5475fd97cd2bce",
-  "summary": "Search for and share Business Central contacts like customers, vendors, and prospects from Microsoft Teams using the command box or message compose area.",
+  "title": "Search for Business Central Contacts in Microsoft Teams",
+  "blob": "f231441d95bb02635b03d410b771245d5bdd9474",
+  "summary": "Search for and share Business Central contacts (customers, vendors, prospects) directly from Microsoft Teams using the command box or message compose area, viewing contact details and interaction history without leaving Teams.",
   "systems": [
     "integration",
     "crm"
   ],
   "topics": [
-    "teams integration",
+    "microsoft teams",
     "contact search",
     "contact sharing",
-    "teams app"
+    "teams integration",
+    "contact lookup",
+    "customer information"
   ],
   "objects": [],
   "features": [
-    "contact lookup",
-    "contact sharing",
-    "teams command box",
-    "message compose",
-    "contact details"
+    "contact search from Teams command box",
+    "contact search from message compose box",
+    "contact card sharing",
+    "contact details view",
+    "interaction history",
+    "outstanding payments view",
+    "open documents view",
+    "simplified user interface"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002605,
-      "pages_in_call": 8
+      "cost_usd": 0.00408,
+      "pages_in_call": 1
     }
   ]
 }

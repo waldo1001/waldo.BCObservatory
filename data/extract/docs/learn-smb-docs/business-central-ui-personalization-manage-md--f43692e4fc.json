@@ -1,12 +1,11 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-personalization-manage.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-personalization-manage",
-  "title": "Customizing Pages for Roles",
-  "blob": "cae832921173dad88881a156041d7c3a60244b53",
-  "summary": "Customize page layouts for profiles and roles to control which fields and actions are available to users. Administrators can add fields from source tables, lock editing, and manage customizations.",
+  "title": "Customize Pages for Profiles",
+  "blob": "afcdf66693355b06328c1b9bc89fe11850b03f98",
+  "summary": "Administrators customize page layouts for specific profiles to control what fields and actions users see based on their role or department. Customization differs from personalization by allowing display of hidden table fields and offers centralized control before users apply personal preferences.",
   "systems": [
-    "administration",
-    "development"
+    "administration"
   ],
   "topics": [
     "page customization",
@@ -14,7 +13,8 @@
     "roles",
     "personalization",
     "field management",
-    "page layouts"
+    "layout control",
+    "user experience"
   ],
   "objects": [
     {
@@ -23,16 +23,25 @@
     },
     {
       "type": "page",
+      "name": "Profile (Role)"
+    },
+    {
+      "type": "page",
       "name": "Customized Pages"
+    },
+    {
+      "type": "codeunit",
+      "name": "Add Table Field To Page"
     }
   ],
   "features": [
-    "add fields to page",
-    "lock editing",
-    "unlock editing",
+    "page layout customization",
+    "field visibility control",
+    "add fields from source tables",
+    "lock and unlock field editing",
     "manage customized pages",
-    "clear customizations",
-    "field visibility"
+    "clear all customizations",
+    "delete individual page customizations"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +50,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003606,
-      "pages_in_call": 8
+      "cost_usd": 0.00534,
+      "pages_in_call": 1
     }
   ]
 }

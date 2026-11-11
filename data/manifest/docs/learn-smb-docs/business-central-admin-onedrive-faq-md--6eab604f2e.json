@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-onedrive-faq",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.575Z",
-      "blob": "0583ef1a4c888c30e4311a27c391635eb6da42cc",
-      "words": 1088,
+      "at": "2026-11-11T00:24:11.606Z",
+      "blob": "ea7d27eb4eb1185cead3c7b410e2971509789b37",
+      "words": 1132,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:50:29.755Z",
+      "at": "2026-11-11T00:24:16.790Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.005657
+      "objects": 3,
+      "cost_usd": 0.005341
     },
     "summarized": {
-      "at": "2026-10-06T18:50:31.935Z",
+      "at": "2026-11-11T00:24:16.791Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:50:31.936Z",
+      "at": "2026-11-11T00:24:16.792Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:50:31.937Z",
+      "at": "2026-11-11T00:24:16.792Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-onedrive-faq.md",
     "description": "Get answers for some typical questions about working with OneDrive for work or school (formerly known as OneDrive for Business) and Business Central.",
-    "ms_date": "2025-01-28",
-    "ms_topic": "get-started",
+    "ms_date": "2026-11-09",
+    "ms_topic": "faq",
     "search_form": [],
     "keywords": [
       "OneDrive",
@@ -54,12 +54,12 @@
       "share",
       "browser"
     ],
-    "ai_usage": null,
-    "words": 1088,
+    "ai_usage": "ai-assisted",
+    "words": 1132,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8cfe3eb29f09d1963822753849eebf449a2ea729568b112ed078d701a594362e"
+  "output_hash": "45dcf7f9b3a6f7fdf19fa16afabfaad7a8c5c111548a65068c08cf47be0e40de"
 }

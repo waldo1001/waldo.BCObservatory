@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Opening Business Central Files in OneDrive",
+  "title": "Open and Share Business Central Files in OneDrive",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-share-onedrive",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.324Z",
-      "blob": "9d96ea6bc2b98c9db9245ab491e0a9c68de8d4e6",
-      "words": 961,
+      "at": "2026-11-11T00:24:02.689Z",
+      "blob": "2f9588d33b1737cc1da9c710ef743c31a2892dca",
+      "words": 1015,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:59:36.759Z",
+      "at": "2026-11-11T00:24:06.853Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003654
+      "cost_usd": 0.004326
     },
     "summarized": {
-      "at": "2026-10-06T18:59:36.821Z",
+      "at": "2026-11-11T00:24:06.854Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:59:36.822Z",
+      "at": "2026-11-11T00:24:06.855Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:59:36.823Z",
+      "at": "2026-11-11T00:24:06.857Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-share-onedrive.md",
-    "description": "Learn how you can share Business Central data through OneDrive for Business.",
-    "ms_date": "2025-10-21",
+    "description": "Learn how to open and share Business Central reports and attachments in OneDrive, manage existing copies, and find your company's files in cloud storage.",
+    "ms_date": "2026-11-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "share files",
       "OneDrive"
     ],
-    "ai_usage": null,
-    "words": 961,
+    "ai_usage": "ai-assisted",
+    "words": 1015,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4f202001235710899a6cfded6372f093ae86897f915c4c400847375df32f7b4b"
+  "output_hash": "5eb3be9438f8e0adacc846087b6436a48b984aee5e329fe07ebc694de867faeb"
 }

@@ -1,32 +1,23 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/admin-deploy-excel-addin.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-deploy-excel-addin",
-  "title": "Getting the Business Central add-in for Excel",
-  "blob": "9de9c14c3b6a9dfe885827c6ceff7785b4915b3f",
-  "summary": "Deploy and configure the Microsoft Dynamics Office Add-in for Excel to enable users to edit Business Central data directly in Excel. Covers individual acquisition, centralized deployment through Microsoft 365, manual installation, and troubleshooting.",
+  "title": "Deploy the Business Central Add-in for Excel",
+  "blob": "9b521ef37c6042e994c477eae54f096faad90ff8",
+  "summary": "Deploy the Business Central Add-in for Excel using Centralized Deployment in Microsoft 365 admin center or manual installation for individual users. Covers deployment options, setup steps, troubleshooting, and known limitations.",
   "systems": [
     "integration",
     "administration",
     "platform"
   ],
   "topics": [
-    "excel integration",
-    "add-in deployment",
+    "excel add-in",
+    "deployment",
     "centralized deployment",
-    "office marketplace",
-    "edit in excel",
-    "configuration",
+    "office integration",
+    "installation",
     "troubleshooting"
   ],
   "objects": [
-    {
-      "type": "page",
-      "name": "Excel Add-in Centralized Deployment"
-    },
-    {
-      "type": "page",
-      "name": "Web Services"
-    },
     {
       "type": "page",
       "name": "Customer Card"
@@ -41,11 +32,19 @@
     },
     {
       "type": "page",
-      "name": "Ship-to Address List"
+      "name": "Sales Orders"
     },
     {
       "type": "page",
       "name": "Project Journal"
+    },
+    {
+      "type": "page",
+      "name": "Ship-to Address List"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
     }
   ],
   "features": [
@@ -53,19 +52,21 @@
     "Centralized Deployment",
     "Individual acquisition",
     "Manual installation",
-    "Server URL configuration",
-    "Environment and company selection",
-    "Exclude Non-Editable FlowFields",
-    "Exclude Fields Outside of the Repeater"
+    "Microsoft Dynamics Office Add-in",
+    "Excel for Windows",
+    "Excel for web",
+    "OData web services"
   ],
-  "versions": [],
+  "versions": [
+    "July 2022 Update"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.016028,
+      "cost_usd": 0.016027,
       "pages_in_call": 1
     }
   ]

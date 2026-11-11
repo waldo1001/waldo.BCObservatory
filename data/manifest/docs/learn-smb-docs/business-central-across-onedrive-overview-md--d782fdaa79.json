@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-onedrive-overview",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.285Z",
-      "blob": "f8488fc20f4a60b9279dd305fe6a91be3c73c0df",
-      "words": 607,
+      "at": "2026-11-11T00:23:57.233Z",
+      "blob": "0fdacb81e21e6c79560ad90ea95bb123e392ba00",
+      "words": 615,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:59:26.622Z",
+      "at": "2026-11-11T00:24:04.548Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002605
+      "cost_usd": 0.003634
     },
     "summarized": {
-      "at": "2026-10-06T18:59:34.932Z",
+      "at": "2026-11-11T00:24:04.549Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:59:34.933Z",
+      "at": "2026-11-11T00:24:04.549Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:59:34.934Z",
+      "at": "2026-11-11T00:24:04.550Z",
       "page": false
     }
   },
@@ -44,20 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-onedrive-overview.md",
-    "description": "Learn how to use OneDrive for Business to store, manage, and share files—such as reports and attachments—in Business Central. Also covers scenarios where OneDrive may be spelled as \"One Drive.\"",
-    "ms_date": "2025-10-17",
+    "description": "Learn how OneDrive integration in Business Central helps you open, manage, and share reports, Excel workbooks, and files attached to business records.",
+    "ms_date": "2026-11-09",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
       "OneDrive",
       "OneDrive integration"
     ],
-    "ai_usage": null,
-    "words": 607,
+    "ai_usage": "ai-assisted",
+    "words": 615,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6a721b15e7d8c1197cc9691a3ab3c1e611271574f8812b25cefb281bad4d4881"
+  "output_hash": "5b259a066de9bbc51174dec62963fef80ece04ceb3f2b31e776c3e0176a4783d"
 }

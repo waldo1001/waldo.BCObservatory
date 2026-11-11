@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-faq",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.300Z",
-      "blob": "d1c78edc8b45ad87712563438c3c2e8585463537",
-      "words": 2348,
+      "at": "2026-11-11T00:24:06.892Z",
+      "blob": "bf3bbcef59711de51d867168a1ce84e878e70d64",
+      "words": 2360,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:49:41.418Z",
+      "at": "2026-11-11T00:24:11.562Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.010525
+      "objects": 0,
+      "cost_usd": 0.010813
     },
     "summarized": {
-      "at": "2026-10-06T18:49:43.240Z",
+      "at": "2026-11-11T00:24:11.566Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:49:43.241Z",
+      "at": "2026-11-11T00:24:11.567Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:49:43.242Z",
+      "at": "2026-11-11T00:24:11.568Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-access-with-m365-license-faq.md",
-    "description": "Get answers to common questions about accessing Business Central with Microsoft 365 licenses.",
-    "ms_date": "2023-09-28",
+    "description": "Find answers about permissions, setup, licensing, and read-only access when employees view Business Central data in Teams with Microsoft 365 licenses.",
+    "ms_date": "2026-11-09",
     "ms_topic": "faq",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 2348,
+    "ai_usage": "ai-assisted",
+    "words": 2360,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "22d79e0d6503037cf2e9f7db4b407f3798abea5a99693244de692970b4d4154b"
+  "output_hash": "e7cce9b07866a8448384083de46bf3f81156e034c1e9d218c583e20bbfa7cae8"
 }

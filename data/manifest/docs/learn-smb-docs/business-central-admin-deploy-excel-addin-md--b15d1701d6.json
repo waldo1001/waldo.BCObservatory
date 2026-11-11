@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Getting the Business Central add-in for Excel",
+  "title": "Deploy the Business Central Add-in for Excel",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-deploy-excel-addin",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:24.335Z",
-      "blob": "9de9c14c3b6a9dfe885827c6ceff7785b4915b3f",
-      "words": 2972,
+      "at": "2026-11-11T00:24:11.206Z",
+      "blob": "9b521ef37c6042e994c477eae54f096faad90ff8",
+      "words": 2971,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T17:54:44.117Z",
+      "at": "2026-11-11T00:24:16.713Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 7,
-      "cost_usd": 0.016028
+      "cost_usd": 0.016027
     },
     "summarized": {
-      "at": "2026-10-06T17:55:55.062Z",
+      "at": "2026-11-11T00:24:16.714Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:55:55.064Z",
+      "at": "2026-11-11T00:24:16.715Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:55:55.064Z",
+      "at": "2026-11-11T00:24:16.715Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-deploy-excel-addin.md",
-    "description": "Learn how to get users the Business Central Add-in for Excel.",
-    "ms_date": "2026-06-17",
+    "description": "Learn how to deploy the Business Central Excel add-in centrally, install it for yourself, configure connections, and troubleshoot editing data.",
+    "ms_date": "2026-11-09",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -62,8 +62,8 @@
       "individual acquisition",
       "appsource"
     ],
-    "ai_usage": null,
-    "words": 2972,
+    "ai_usage": "ai-assisted",
+    "words": 2971,
     "identifiers": [
       "SourceTable",
       "CardPart",
@@ -73,5 +73,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bebd00ae56740dad925b56dfa8d221be741e8e4c2867f6719c9be3121d5dfc77"
+  "output_hash": "c71c53c5837a07e192403f644f9f43049345e5f256325e5bcad91201e439ad10"
 }

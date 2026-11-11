@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:24.325Z",
-      "blob": "2981bee5447d46e4d6ab336dfaeeaebe8125828d",
-      "words": 1101,
+      "at": "2026-11-11T00:24:10.289Z",
+      "blob": "7759ac42f6fe651c2633de1bced1441c221f67db",
+      "words": 1252,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T17:54:44.115Z",
+      "at": "2026-11-11T00:24:14.582Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.006011
+      "cost_usd": 0.010136
     },
     "summarized": {
-      "at": "2026-10-06T17:55:52.968Z",
+      "at": "2026-11-11T00:24:14.583Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:55:52.970Z",
+      "at": "2026-11-11T00:24:14.583Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:55:52.971Z",
+      "at": "2026-11-11T00:24:14.584Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-access-with-m365-license.md",
     "description": "Discover how users can view Business Central data in Microsoft Teams with only a Microsoft 365 license. Learn setup steps and requirements.",
-    "ms_date": "2026-06-17",
+    "ms_date": "2026-11-09",
     "ms_topic": "overview",
     "search_form": [
       {
@@ -63,12 +63,12 @@
       "Teams",
       "Microsoft Teams"
     ],
-    "ai_usage": null,
-    "words": 1101,
+    "ai_usage": "ai-assisted",
+    "words": 1252,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "430ee74f0103a2b1281f7ad97c4218bafcf86a709ebfa9439cce2784302b35ad"
+  "output_hash": "91787bcfe368e2b65ffdc32d446ad48519608191a30bea2eb1ed2655b00a35fd"
 }

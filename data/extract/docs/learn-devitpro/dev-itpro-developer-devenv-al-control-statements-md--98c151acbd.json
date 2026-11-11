@@ -2,26 +2,29 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-al-control-statements.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-control-statements",
   "title": "AL control statements",
-  "blob": "924cb3637446eeec8f975cb52fdc4d8ee661364e",
-  "summary": "AL control statements reference documenting flow control structures including conditionals (if-then-else, case), loops (for, foreach, while, repeat-until), break and continue statements, with syntax and programming conventions.",
+  "blob": "910ed575b0b77f6465fa69083137c5ad786e6120",
+  "summary": "AL control statements guide for managing code flow using compound, conditional, and repetitive structures including if-then-else, case, for, foreach, while, and repeat-until loops.",
   "systems": [
     "development"
   ],
   "topics": [
     "al language",
-    "control flow",
+    "control structures",
     "loops",
-    "conditionals",
-    "syntax"
+    "conditional statements",
+    "programming conventions",
+    "code flow"
   ],
   "objects": [],
   "features": [
+    "compound statements",
     "if-then-else statements",
     "case statements",
     "for loops",
     "foreach loops",
     "while loops",
     "repeat-until loops",
+    "exit statement",
     "break statement",
     "continue statement"
   ],
@@ -34,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005587,
-      "pages_in_call": 8
+      "cost_usd": 0.01539,
+      "pages_in_call": 1
     }
   ]
 }

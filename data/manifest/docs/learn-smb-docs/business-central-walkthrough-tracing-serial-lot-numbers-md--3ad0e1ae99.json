@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Walkthrough - Tracing Serial-Lot Numbers",
+  "title": "Walkthrough: Trace Serial and Lot Numbers",
   "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-tracing-serial-lot-numbers",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.095Z",
-      "blob": "3fed9a623300b4ef637bc86ca896d81c5d447939",
-      "words": 2686,
+      "at": "2026-11-11T00:23:26.924Z",
+      "blob": "3ee7a96ca809b5f3e69fca7871c1da6be653f9f9",
+      "words": 2671,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:12:06.042Z",
+      "at": "2026-11-11T00:23:50.422Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 11,
-      "cost_usd": 0.015488
+      "objects": 10,
+      "cost_usd": 0.014744
     },
     "summarized": {
-      "at": "2026-10-06T19:12:27.282Z",
+      "at": "2026-11-11T00:23:50.422Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:12:27.283Z",
+      "at": "2026-11-11T00:23:50.423Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:12:27.284Z",
+      "at": "2026-11-11T00:23:50.423Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/walkthrough-tracing-serial-lot-numbers.md",
     "description": "This topic describes the actions that are needed to take to prevent selling a defective item, and also how to trace and recall items when needed.",
-    "ms_date": "2021-06-24",
-    "ms_topic": "article",
+    "ms_date": "2026-11-10",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 2686,
+    "ai_usage": "ai-assisted",
+    "words": 2671,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "52fbd5982479c1adeaca8c8afab44822f78e55d69089667184d2bf538d33359e"
+  "output_hash": "fd1c0f31c5b92fe6226fb3620d488d99cbe4f010653e2d2c99cbd5fe17876863"
 }

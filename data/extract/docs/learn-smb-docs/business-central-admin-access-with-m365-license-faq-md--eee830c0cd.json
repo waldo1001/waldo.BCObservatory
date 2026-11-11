@@ -2,52 +2,35 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-access-with-m365-license-faq.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-faq",
   "title": "Access with Microsoft 365 Licenses FAQ",
-  "blob": "d1c78edc8b45ad87712563438c3c2e8585463537",
-  "summary": "Answers frequently asked questions about accessing Business Central data in Microsoft Teams using Microsoft 365 licenses, covering permissions, setup, licensing, and usage.",
+  "blob": "bf3bbcef59711de51d867168a1ce84e878e70d64",
+  "summary": "Access with Microsoft 365 Licenses FAQ addresses frequently asked questions about how users with Microsoft 365 licenses can access Business Central data in Microsoft Teams, covering permissions, setup, licensing, and usage scenarios.",
   "systems": [
     "administration",
     "integration",
     "platform"
   ],
   "topics": [
-    "microsoft 365 license",
-    "teams access",
+    "microsoft 365 licenses",
+    "teams integration",
     "permissions",
-    "licensing",
-    "user groups",
-    "read-only access"
+    "access control",
+    "user licensing",
+    "row-level security",
+    "security groups"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "License Configuration"
-    },
-    {
-      "type": "page",
-      "name": "Users"
-    },
-    {
-      "type": "page",
-      "name": "Profiles (Roles)"
-    },
-    {
-      "type": "page",
-      "name": "User Groups"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Microsoft 365 license access",
-    "Teams data access",
-    "Permission sets",
-    "Employee profile",
-    "Microsoft Teams Internal Users group",
-    "Row-level security",
-    "Security groups",
-    "License enforcement"
+    "read-only access in Teams",
+    "microsoft 365 license support",
+    "permission sets configuration",
+    "security groups",
+    "employee profile",
+    "license configuration",
+    "row-level security enforcement"
   ],
   "versions": [
-    "21.1",
-    "Update 21.1"
+    "version 21.1",
+    "version 25"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -55,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.010525,
-      "pages_in_call": 3
+      "cost_usd": 0.010813,
+      "pages_in_call": 1
     }
   ]
 }

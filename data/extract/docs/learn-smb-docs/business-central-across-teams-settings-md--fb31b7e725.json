@@ -1,27 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-teams-settings.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-teams-settings",
-  "title": "Changing company and other settings in Teams",
-  "blob": "67b82a6f401489afb8040008ede61e54a7fa0357",
-  "summary": "Changing company and other settings in the Business Central app for Microsoft Teams, including switching environments, companies, and managing account connections.",
+  "title": "Change Company and Other Settings in Teams",
+  "blob": "001d16ddaf70661abaca96aa89b1a28540053605",
+  "summary": "The Settings page in the Business Central app for Teams allows users to switch environments and companies, view their account information, and manage their connection to Business Central.",
   "systems": [
-    "platform",
-    "integration"
+    "integration",
+    "administration"
   ],
   "topics": [
     "teams",
     "settings",
     "company",
     "environment",
-    "account"
+    "account management"
   ],
   "objects": [],
   "features": [
-    "settings page",
+    "Settings page",
     "environment switching",
     "company switching",
-    "account management",
-    "sign in/out"
+    "account viewing",
+    "sign out and in"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003654,
-      "pages_in_call": 8
+      "cost_usd": 0.003056,
+      "pages_in_call": 1
     }
   ]
 }

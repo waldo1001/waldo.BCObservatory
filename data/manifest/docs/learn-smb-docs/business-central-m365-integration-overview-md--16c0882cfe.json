@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Integrating with Office apps and Microsoft 365",
+  "title": "Integrate Business Central with Microsoft 365 Apps",
   "url": "https://learn.microsoft.com/dynamics365/business-central/m365-integration-overview",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:23.214Z",
-      "blob": "7e06639c49556d3cf7ba210230e64a709f812545",
-      "words": 947,
+      "at": "2026-11-11T00:24:21.718Z",
+      "blob": "04feaff21eeb2215b4c9de7591ffda751aca7eb0",
+      "words": 954,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T17:50:52.821Z",
+      "at": "2026-11-11T00:24:40.846Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004641
+      "cost_usd": 0.004776
     },
     "summarized": {
-      "at": "2026-10-06T17:50:54.506Z",
+      "at": "2026-11-11T00:24:40.847Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:50:54.507Z",
+      "at": "2026-11-11T00:24:40.848Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:50:54.508Z",
+      "at": "2026-11-11T00:24:40.849Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/m365-integration-overview.md",
-    "description": "Learn how to integrate Business Central with Office apps and Microsoft 365.",
-    "ms_date": "2026-06-19",
+    "description": "Learn how Business Central integrates with Excel, OneDrive, Outlook, Teams, and Word to help you analyze data, share files, and work with customers.",
+    "ms_date": "2026-11-09",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 947,
+    "ai_usage": "ai-assisted",
+    "words": 954,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "88c056e8684b2abe200be897f982fed2bf01a9a330b91f2130f4a34efe34ca97"
+  "output_hash": "3fb419b4aa9bd7d20412cdeae1c9bcc2b60000d9237cabaeb1e0c5ce4e211465"
 }

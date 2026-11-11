@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-outlook",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.753Z",
-      "blob": "1492c3003f43b2e4bd3f89f7c55892dd6f1fe00a",
-      "words": 1161,
+      "at": "2026-11-11T00:24:16.744Z",
+      "blob": "3c76312a7db2345799dc00a4bbf7ae29acdd8e81",
+      "words": 1137,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T18:45:29.158Z",
+      "at": "2026-11-11T00:24:21.295Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.006308
+      "cost_usd": 0.005148
     },
     "summarized": {
-      "at": "2026-10-06T18:45:30.254Z",
+      "at": "2026-11-11T00:24:21.296Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:45:30.254Z",
+      "at": "2026-11-11T00:24:21.297Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:45:30.255Z",
+      "at": "2026-11-11T00:24:21.297Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-outlook.md",
-    "description": "Learn how to install the Business Central add-in for Outlook for your organization or for your own use.",
-    "ms_date": "2026-03-10",
+    "description": "Learn how to download and install the Business Central add-in for Outlook for your own use, or deploy it to users and groups in your organization.",
+    "ms_date": "2026-11-09",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -65,12 +65,12 @@
       "Microsoft 365",
       "Outlook"
     ],
-    "ai_usage": null,
-    "words": 1161,
+    "ai_usage": "ai-assisted",
+    "words": 1137,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "216067efca26aa75362dba0ca0109b60c9bba63ec4d056ec5d484faeb934e2e4"
+  "output_hash": "064a85dd8260de93607ece1844752895d23dbeedb6ee67d04f7ae0804b9dca54"
 }

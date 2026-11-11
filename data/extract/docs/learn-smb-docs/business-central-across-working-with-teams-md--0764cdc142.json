@@ -1,26 +1,30 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-working-with-teams.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-working-with-teams",
-  "title": "Sharing Business Central records in Microsoft Teams",
-  "blob": "136078344400e9b9a9bfb8fcb0b71be90bb7497a",
-  "summary": "Share Business Central records and page links in Microsoft Teams through interactive cards with the Business Central app for Teams or by sharing direct page links to conversations.",
+  "title": "Share Business Central Records in Microsoft Teams",
+  "blob": "4b8aea5fb47af07ba052347987c8f3ad74081994",
+  "summary": "Share Business Central records and page links in Microsoft Teams using interactive cards and direct links, enabling team collaboration without leaving Teams.",
   "systems": [
     "integration",
-    "administration"
+    "platform"
   ],
   "topics": [
-    "teams",
-    "sharing",
+    "teams integration",
+    "record sharing",
+    "page links",
+    "teams app",
     "collaboration",
-    "records"
+    "business data"
   ],
   "objects": [],
   "features": [
-    "Business Central app for Teams",
-    "interactive cards",
-    "Share Link",
-    "Share to Teams",
-    "record details viewing"
+    "Share Business Central card in Teams conversation",
+    "Copy link to page",
+    "View card details in Teams",
+    "Share page link to Teams",
+    "Interactive card display",
+    "Edit data in Teams",
+    "Access with Microsoft 365 licenses"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003628,
-      "pages_in_call": 5
+      "cost_usd": 0.004511,
+      "pages_in_call": 1
     }
   ]
 }

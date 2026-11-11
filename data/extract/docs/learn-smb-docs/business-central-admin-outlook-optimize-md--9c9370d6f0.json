@@ -1,24 +1,28 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/admin-outlook-optimize.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-outlook-optimize",
-  "title": "Optimize Outlook for your Business Inbox",
-  "blob": "6ee4c9bc15edbbfb6620c82d5044f20142658f0e",
-  "summary": "This guide provides optimization recommendations for using Business Central's Business Inbox in Microsoft Outlook, including updating Outlook to version 2012 or newer and installing Microsoft Edge WebView2.",
+  "title": "Optimize Outlook for Your Business Inbox",
+  "blob": "c60671b3c15783aa03e1003799bf5868c83694ed",
+  "summary": "Optimize Outlook for your business inbox by updating Outlook to a supported version, installing Microsoft Edge WebView2 Runtime on Windows, and using a supported browser for the best experience with Business Central.",
   "systems": [
-    "integration",
-    "administration"
+    "administration",
+    "platform"
   ],
   "topics": [
-    "outlook",
-    "integration",
+    "outlook integration",
+    "business inbox",
     "email",
-    "configuration"
+    "outlook configuration",
+    "system requirements",
+    "webview2"
   ],
   "objects": [],
   "features": [
-    "Business Inbox",
-    "Outlook add-in",
-    "Microsoft Edge WebView2"
+    "Outlook Business Inbox",
+    "Microsoft Edge WebView2 Runtime",
+    "Outlook version management",
+    "Outlook for the Web",
+    "Office add-ins"
   ],
   "versions": [],
   "parts": 1,
@@ -27,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003631,
-      "pages_in_call": 8
+      "cost_usd": 0.003774,
+      "pages_in_call": 1
     }
   ]
 }

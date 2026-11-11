@@ -1,32 +1,40 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-import-data-configuration-packages.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages",
-  "title": "Use Excel to import data",
-  "blob": "d57fc66bb846b71b5ad799c04eb5bad17e413b70",
-  "summary": "Import business data from other finance systems into Business Central using Excel files or configuration packages, with default package supporting 27 tables for master data and transactions.",
+  "title": "Import Business Data into Business Central with Excel",
+  "blob": "b85ce8ce9940833873fd7c0db4f4ee5b2757ccc4",
+  "summary": "Import business data into Business Central from Excel files and other finance systems using assisted setup guides, data migration wizards, and configuration packages for customers, vendors, inventory, and accounts.",
   "systems": [
-    "administration",
-    "integration"
+    "finance",
+    "integration",
+    "administration"
   ],
   "topics": [
     "data import",
     "excel",
+    "migration",
     "configuration packages",
-    "data migration",
-    "master data"
+    "setup",
+    "quickbooks"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Configuration Packages"
+    },
+    {
+      "type": "page",
+      "name": "Configuration Package Card"
     }
   ],
   "features": [
-    "Configuration packages",
-    "Excel import",
-    "Master data migration",
-    "Data transformation",
-    "Default configuration package"
+    "Excel add-in",
+    "data migration wizards",
+    "configuration packages",
+    "QuickBooks migration",
+    "Dynamics GP migration",
+    "Dynamics NAV migration",
+    "XML manipulation in Excel"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006011,
-      "pages_in_call": 7
+      "cost_usd": 0.003961,
+      "pages_in_call": 1
     }
   ]
 }

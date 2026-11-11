@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-integrate-financial-reports-with-excel",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-03T00:20:59.807Z",
-      "blob": "176f3d8cf3cd3c7523da7f3b040f8d4f7eb3bd75",
-      "words": 1238,
+      "at": "2026-11-11T00:24:21.325Z",
+      "blob": "04433931892bbbb0cc1b311ff700f549e1c223e6",
+      "words": 1250,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-03T00:21:27.284Z",
+      "at": "2026-11-11T00:24:40.761Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.00493
+      "cost_usd": 0.004879
     },
     "summarized": {
-      "at": "2026-11-03T00:21:27.286Z",
+      "at": "2026-11-11T00:24:40.762Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-03T00:21:27.286Z",
+      "at": "2026-11-11T00:24:40.763Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-03T00:21:27.287Z",
+      "at": "2026-11-11T00:24:40.765Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-financial-reporting-integrate-financial-reports-with-excel.md",
     "description": "Describes how to use financial reporting together with Excel.",
-    "ms_date": "2026-10-23",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -63,12 +63,12 @@
       "financial report",
       "Excel"
     ],
-    "ai_usage": null,
-    "words": 1238,
+    "ai_usage": "ai-assisted",
+    "words": 1250,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9fedd06b8c0ec210d8675f9a6999384aab1b8bff2c1fcd4d3ee94120c9634b66"
+  "output_hash": "49c700382b48622677f0de3089db384c08266568493be77b0de93bc51cbae69e"
 }

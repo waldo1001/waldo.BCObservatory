@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Changing company and other settings in Teams",
+  "title": "Change Company and Other Settings in Teams",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-teams-settings",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.332Z",
-      "blob": "67b82a6f401489afb8040008ede61e54a7fa0357",
-      "words": 211,
+      "at": "2026-11-11T00:24:02.866Z",
+      "blob": "001d16ddaf70661abaca96aa89b1a28540053605",
+      "words": 227,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:59:36.761Z",
+      "at": "2026-11-11T00:24:06.727Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003654
+      "cost_usd": 0.003056
     },
     "summarized": {
-      "at": "2026-10-06T18:59:36.828Z",
+      "at": "2026-11-11T00:24:06.728Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:59:36.829Z",
+      "at": "2026-11-11T00:24:06.729Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:59:36.830Z",
+      "at": "2026-11-11T00:24:06.729Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-teams-settings.md",
-    "description": "Learn how to change Business Central connection settings from Microsoft Teams.",
-    "ms_date": "2025-10-21",
-    "ms_topic": "get-started",
+    "description": "Change the Business Central environment and company connected to Microsoft Teams, check your signed-in account, or sign out and use another account.",
+    "ms_date": "2026-11-09",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "Teams",
@@ -58,12 +58,12 @@
       "settings",
       "search"
     ],
-    "ai_usage": null,
-    "words": 211,
+    "ai_usage": "ai-assisted",
+    "words": 227,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "548530bca9026606db38d46278adeadcf917997fdb219ac51d50aa7115bb6529"
+  "output_hash": "95e917607e23ef397efd026b196227885c6320c34644f213a44f958707a030c4"
 }

@@ -1,21 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/walkthrough-tracing-serial-lot-numbers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-tracing-serial-lot-numbers",
-  "title": "Walkthrough - Tracing Serial-Lot Numbers",
-  "blob": "3fed9a623300b4ef637bc86ca896d81c5d447939",
-  "summary": "This walkthrough demonstrates how to trace serial and lot numbers through purchase, production, and sales transactions to identify defective items and manage recalls using the Item Tracing and Find Entries features.",
+  "title": "Walkthrough: Trace Serial and Lot Numbers",
+  "blob": "3ee7a96ca809b5f3e69fca7871c1da6be653f9f9",
+  "summary": "Walkthrough for identifying defective items using serial and lot number tracing across purchase, production, and sales transactions to determine product origins and usage for quality control management.",
   "systems": [
     "inventory",
-    "sales",
-    "purchasing"
+    "warehouse",
+    "manufacturing"
   ],
   "topics": [
+    "serial number tracking",
+    "lot number tracking",
+    "defects management",
     "item tracing",
-    "serial numbers",
-    "lot numbers",
-    "defect management",
-    "item tracking",
-    "traceability"
+    "quality control",
+    "recall management"
   ],
   "objects": [
     {
@@ -24,19 +24,19 @@
     },
     {
       "type": "page",
-      "name": "Items"
-    },
-    {
-      "type": "page",
-      "name": "Item Units of Measure"
-    },
-    {
-      "type": "page",
-      "name": "Purchase Orders"
+      "name": "Find entries"
     },
     {
       "type": "page",
       "name": "Item Tracking Lines"
+    },
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Orders"
     },
     {
       "type": "page",
@@ -52,25 +52,21 @@
     },
     {
       "type": "page",
-      "name": "Find entries"
+      "name": "Production BOM"
     },
     {
       "type": "page",
       "name": "Production BOM List"
-    },
-    {
-      "type": "page",
-      "name": "Production BOM"
     }
   ],
   "features": [
-    "item tracing",
-    "serial number tracking",
-    "lot number tracking",
+    "serial number filtering",
+    "lot number filtering",
     "usage to origin tracing",
     "origin to usage tracing",
-    "find entries",
-    "defect tracking"
+    "trace opposite function",
+    "show components",
+    "find entries integration"
   ],
   "versions": [],
   "parts": 1,
@@ -79,8 +75,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.015488,
-      "pages_in_call": 2
+      "cost_usd": 0.014744,
+      "pages_in_call": 1
     }
   ]
 }

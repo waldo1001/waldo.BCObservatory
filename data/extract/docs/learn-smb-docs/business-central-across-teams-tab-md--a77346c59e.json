@@ -1,29 +1,31 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-teams-tab.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-teams-tab",
-  "title": "Add Business Central tab in Microsoft Teams",
-  "blob": "6c2bd400e104e1e3bf2860e25c79deec721dce6d",
-  "summary": "Adding Business Central tabs to Microsoft Teams channels and chats to display list and card pages with interactive content, using recommended content or page links.",
+  "title": "Add a Business Central Tab in Microsoft Teams",
+  "blob": "0667c63609875bd33a0d36b82527668456e14b1b",
+  "summary": "Add a Business Central tab in Microsoft Teams channels and chats to display list and card pages with interactive data access. Users with Microsoft 365 licenses have read-only access, while Business Central licenses allow full functionality based on assigned permissions.",
   "systems": [
-    "platform",
-    "integration"
+    "integration",
+    "administration",
+    "platform"
   ],
   "topics": [
-    "teams",
+    "teams integration",
     "tabs",
-    "list pages",
-    "card pages",
-    "recommended content"
+    "collaboration",
+    "data access",
+    "permissions",
+    "microsoft 365"
   ],
   "objects": [],
   "features": [
-    "add tab",
-    "recommended content",
-    "page links",
-    "tab configuration",
-    "preferred views",
-    "tab options",
-    "content modification"
+    "Business Central tab configuration",
+    "recommended content selection",
+    "page link integration",
+    "tab customization",
+    "environment and company switching",
+    "view management",
+    "role-based permissions"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003654,
-      "pages_in_call": 8
+      "cost_usd": 0.004629,
+      "pages_in_call": 1
     }
   ]
 }

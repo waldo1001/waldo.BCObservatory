@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Viewing and editing in Excel from Business Central",
+  "title": "View and Edit Business Central Data in Excel",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.696Z",
-      "blob": "b3555110dc0539e92ef7e45906b7e5b2ea78984a",
-      "words": 1250,
+      "at": "2026-11-11T00:24:06.088Z",
+      "blob": "4e9bbcb36d655bde1777d865862bd334b1604118",
+      "words": 1309,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:46:55.868Z",
+      "at": "2026-11-11T00:24:10.256Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00441
+      "cost_usd": 0.005088
     },
     "summarized": {
-      "at": "2026-10-06T18:46:57.702Z",
+      "at": "2026-11-11T00:24:10.257Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:46:57.703Z",
+      "at": "2026-11-11T00:24:10.257Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:46:57.704Z",
+      "at": "2026-11-11T00:24:10.258Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-work-with-excel.md",
-    "description": "Learn how to open pages in Microsoft Excel from Business Central for better data analysis.",
-    "ms_date": "2026-01-26",
+    "description": "Learn when to open Business Central lists in Excel for analysis and when to use the Excel add-in to edit records and publish your changes.",
+    "ms_date": "2026-11-09",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -59,12 +59,12 @@
       "accounting",
       "financial report"
     ],
-    "ai_usage": null,
-    "words": 1250,
+    "ai_usage": "ai-assisted",
+    "words": 1309,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a5df976e56228d4fcd037bb7c7beb9c776bb6faacdb1fe3eead6699196de3038"
+  "output_hash": "f7501c0fdb99ddf3fee847962f0cb3a8de821bb99a8f0712bb98295384f9acf3"
 }

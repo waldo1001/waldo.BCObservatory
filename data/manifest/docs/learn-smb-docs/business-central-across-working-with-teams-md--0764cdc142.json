@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Sharing Business Central records in Microsoft Teams",
+  "title": "Share Business Central Records in Microsoft Teams",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-working-with-teams",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.367Z",
-      "blob": "136078344400e9b9a9bfb8fcb0b71be90bb7497a",
-      "words": 1120,
+      "at": "2026-11-11T00:24:06.758Z",
+      "blob": "4b8aea5fb47af07ba052347987c8f3ad74081994",
+      "words": 1166,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:00:02.153Z",
+      "at": "2026-11-11T00:24:11.240Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003628
+      "cost_usd": 0.004511
     },
     "summarized": {
-      "at": "2026-10-06T19:00:06.972Z",
+      "at": "2026-11-11T00:24:11.241Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:00:06.974Z",
+      "at": "2026-11-11T00:24:11.241Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:00:06.975Z",
+      "at": "2026-11-11T00:24:11.242Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-working-with-teams.md",
-    "description": "Learn how to use the Business Central app for Microsoft Teams.",
-    "ms_date": "2025-10-23",
+    "description": "Share Business Central records and page links in Microsoft Teams, review card contents before sending, and open record details without leaving Teams.",
+    "ms_date": "2026-11-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -60,12 +60,12 @@
       "teamwork",
       "share records"
     ],
-    "ai_usage": null,
-    "words": 1120,
+    "ai_usage": "ai-assisted",
+    "words": 1166,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "59621cd718e7ce2e8718ea94b9cafd5b401d2cc7981a80662cb129b50e52248e"
+  "output_hash": "4f5ea9e4f08d39c3e25c90b2455906f867bbe4dc1b6c4b399bc3f12029c82277"
 }

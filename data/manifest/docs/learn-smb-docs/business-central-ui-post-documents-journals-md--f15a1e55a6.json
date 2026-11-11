@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-post-documents-journals",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-11-03T00:21:56.390Z",
+      "at": "2026-11-11T00:23:36.735Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003135
+      "cost_usd": 0.003042
     },
     "summarized": {
-      "at": "2026-11-03T00:21:56.391Z",
+      "at": "2026-11-11T00:23:36.736Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-03T00:21:56.392Z",
+      "at": "2026-11-11T00:23:36.736Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-03T00:21:56.393Z",
+      "at": "2026-11-11T00:23:36.737Z",
       "page": false
     }
   },
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "66f97dc43a290bb7351922c3a6b5fb8eadcf561b"
+  "output_hash": "12bdc36e232b6a6bc203881145ba4c73d69077feeac468d1c49b67592ddb3b18"
 }

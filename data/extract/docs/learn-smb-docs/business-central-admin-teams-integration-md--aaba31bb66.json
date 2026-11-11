@@ -1,45 +1,44 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/admin-teams-integration.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-teams-integration",
-  "title": "Managing Microsoft Teams Integration with Business Central| Microsoft Docs",
-  "blob": "f186752f09cbc78cc52e227fcc1aeb6c5a29bd79",
-  "summary": "Managing Microsoft Teams integration controls how Business Central app features work in Teams, including licensing requirements, permissions, card data visibility, and app deployment. Configure Teams app setup policies, data retention, and compliance settings as an administrator.",
+  "title": "Manage Microsoft Teams Integration with Business Central",
+  "blob": "7ff6b1968f5aff39922e1a547dbaebe686af9f11",
+  "summary": "Managing Microsoft Teams integration with Business Central covers licensing requirements, permissions, app installation via centralized deployment, and privacy controls for card sharing in Teams conversations.",
   "systems": [
     "integration",
     "administration"
   ],
   "topics": [
     "teams integration",
-    "app management",
-    "permissions",
-    "data visibility",
+    "app deployment",
+    "user permissions",
     "compliance",
-    "messaging policies",
+    "card settings",
     "centralized deployment"
   ],
   "objects": [
     {
       "type": "codeunit",
-      "name": "2718 Page Summary Provider"
+      "name": "Page Summary Provider"
     },
     {
-      "type": "page",
-      "name": "Teams App Centralized Deployment"
+      "type": "table",
+      "name": "Contact"
     },
     {
-      "type": "page",
-      "name": "Card Settings"
+      "type": "table",
+      "name": "Page Summary Settings"
     }
   ],
   "features": [
-    "Teams licensing",
-    "contact search",
-    "card sharing",
-    "record summary visibility",
+    "Microsoft Teams app deployment",
+    "contact search in Teams",
+    "card preview for records",
     "centralized deployment",
+    "record data visibility",
     "messaging policies",
-    "information barriers",
-    "data loss prevention"
+    "data retention policies",
+    "eDiscovery"
   ],
   "versions": [],
   "parts": 1,
@@ -48,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006174,
-      "pages_in_call": 8
+      "cost_usd": 0.01051,
+      "pages_in_call": 1
     }
   ]
 }

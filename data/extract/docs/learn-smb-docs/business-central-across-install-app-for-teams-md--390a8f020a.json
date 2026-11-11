@@ -1,25 +1,26 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-install-app-for-teams.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-install-app-for-teams",
-  "title": "Install the Business Central app in Microsoft Teams",
-  "blob": "76316194ecb3cf4b035200f7d3877cb82767f310",
-  "summary": "Install the Business Central app for Microsoft Teams from the Teams marketplace or a direct link to search contacts and share records.",
+  "title": "Install the Business Central App in Microsoft Teams",
+  "blob": "e82b3393c6c5344a3026c9dbc572744f38349ccd",
+  "summary": "Install the Business Central app in Microsoft Teams from the Teams marketplace or from within Business Central. The app requires an online user account and administrator-granted access to Business Central data.",
   "systems": [
     "integration",
-    "sales"
+    "administration"
   ],
   "topics": [
-    "teams integration",
-    "app installation",
     "microsoft teams",
-    "contact search",
-    "record sharing"
+    "app installation",
+    "integration",
+    "collaboration"
   ],
   "objects": [],
   "features": [
-    "teams app installation",
-    "link-based installation",
-    "app store installation",
+    "Teams app installation",
+    "Teams desktop app",
+    "Teams web app",
+    "Teams mobile app",
+    "Business Central data access",
     "contact search",
     "record sharing"
   ],
@@ -30,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003112,
-      "pages_in_call": 7
+      "cost_usd": 0.003527,
+      "pages_in_call": 1
     }
   ]
 }

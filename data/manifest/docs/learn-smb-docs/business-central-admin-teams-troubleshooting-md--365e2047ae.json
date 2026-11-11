@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Troubleshooting Microsoft Teams Integration",
+  "title": "Troubleshoot Business Central Integration with Teams",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-teams-troubleshooting",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.322Z",
-      "blob": "4076615d2ee9053d59c925e4d10335adcde2e4b4",
-      "words": 1715,
+      "at": "2026-11-11T00:24:19.070Z",
+      "blob": "dced7f690e6511bd849fcac5975166fdb87e7eb0",
+      "words": 1744,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:49:35.258Z",
+      "at": "2026-11-11T00:24:40.749Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.005672
+      "cost_usd": 0.011157
     },
     "summarized": {
-      "at": "2026-10-06T18:49:41.426Z",
+      "at": "2026-11-11T00:24:40.750Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:49:41.427Z",
+      "at": "2026-11-11T00:24:40.751Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:49:41.428Z",
+      "at": "2026-11-11T00:24:40.752Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-teams-troubleshooting.md",
-    "description": "Learn about what you can do as an administrator to control Microsoft Teams integration and fix problems.",
-    "ms_date": "2025-01-06",
-    "ms_topic": "get-started",
+    "description": "Identify and fix issues with Business Central in Microsoft Teams, including sign-in problems, missing card previews, permissions, and tab content.",
+    "ms_date": "2026-11-09",
+    "ms_topic": "troubleshooting",
     "search_form": [],
     "keywords": [
       "Teams",
@@ -61,12 +61,12 @@
       "troubleshooting",
       "errors"
     ],
-    "ai_usage": null,
-    "words": 1715,
+    "ai_usage": "ai-assisted",
+    "words": 1744,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ca17d8442a8d1415da4cae889f12067e98f127b66631417a35b9e3590c77385c"
+  "output_hash": "b90306a92fa52e42e1dc2f0a77d4ff411d0e7ddbb8d38a495c53a2aecbbde266"
 }

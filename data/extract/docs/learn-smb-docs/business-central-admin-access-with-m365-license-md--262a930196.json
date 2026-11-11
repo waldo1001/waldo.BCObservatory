@@ -2,26 +2,29 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-access-with-m365-license.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license",
   "title": "Business Central Access with Microsoft 365 Licenses",
-  "blob": "2981bee5447d46e4d6ab336dfaeeaebe8125828d",
-  "summary": "Enable Business Central access for Microsoft 365 license holders to view and interact with data through Teams with a simplified interface for read-only access without full licensing.",
+  "blob": "7759ac42f6fe651c2633de1bced1441c221f67db",
+  "summary": "Business Central access with Microsoft 365 licenses allows organizations to grant read-only data access to employees without Business Central licenses through Microsoft Teams, enabling broader organizational access while managing licensing costs.",
   "systems": [
     "administration",
-    "platform"
+    "platform",
+    "integration"
   ],
   "topics": [
-    "microsoft 365",
     "licensing",
-    "teams",
-    "access control",
-    "simplified interface"
+    "microsoft 365",
+    "microsoft teams",
+    "user access",
+    "data access control",
+    "permission sets"
   ],
   "objects": [],
   "features": [
-    "Microsoft 365 license access",
-    "Teams integration",
-    "Read-only access",
-    "Simplified user interface",
-    "Data access control"
+    "Read-only access through Microsoft Teams",
+    "Microsoft 365 license integration",
+    "Simplified Teams interface",
+    "Security filters",
+    "Permission set assignment",
+    "Cross-organization data sharing"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006011,
-      "pages_in_call": 7
+      "cost_usd": 0.010136,
+      "pages_in_call": 1
     }
   ]
 }

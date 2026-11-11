@@ -1,23 +1,24 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/admin-no-outlook.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-no-outlook",
-  "title": "Using Business Central without Outlook",
-  "blob": "023f9a4911e095b3aaae7f85bf0db2b3ce51121e",
-  "summary": "Explains how to use Business Central without Outlook by setting up email functionality through an assisted setup guide or using technical mail server information.",
+  "title": "Use Business Central Without Outlook",
+  "blob": "bb9b7d8aab0321157f6e29539fd52c71cf202af8",
+  "summary": "Set up email in Business Central without Outlook using the Set Up Email assisted setup guide, which supports various email connectors including SMTP accounts.",
   "systems": [
-    "administration",
-    "integration"
+    "integration",
+    "administration"
   ],
   "topics": [
     "email",
-    "outlook",
-    "communication",
-    "setup"
+    "setup",
+    "configuration",
+    "outlook alternative"
   ],
   "objects": [],
   "features": [
-    "email sending",
-    "assisted setup"
+    "Set Up Email assisted setup guide",
+    "email connector",
+    "SMTP support"
   ],
   "versions": [],
   "parts": 1,
@@ -26,8 +27,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003231,
-      "pages_in_call": 8
+      "cost_usd": 0.002697,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,28 +1,32 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-work-with-excel.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel",
-  "title": "Viewing and editing in Excel from Business Central",
-  "blob": "b3555110dc0539e92ef7e45906b7e5b2ea78984a",
-  "summary": "Viewing and editing Business Central data in Excel using Open in Excel and Edit in Excel actions. Use this to export list data for analysis or to make changes and publish them back to Business Central.",
+  "title": "View and Edit Business Central Data in Excel",
+  "blob": "4e9bbcb36d655bde1777d865862bd334b1604118",
+  "summary": "Export and edit Business Central lists in Excel using Open in Excel or Edit in Excel actions, with options to publish changes back or use Copilot in Excel for data preparation and analysis.",
   "systems": [
-    "platform",
-    "integration"
+    "integration",
+    "reporting"
   ],
   "topics": [
-    "excel",
+    "excel integration",
     "data export",
-    "editing",
-    "agent mode"
+    "copilot in excel",
+    "edit in excel",
+    "open in excel",
+    "data analysis",
+    "excel add-in"
   ],
   "objects": [],
   "features": [
-    "open in excel",
-    "edit in excel",
-    "filter support",
-    "excel add-in",
-    "multi-environment support",
-    "agent mode",
-    "data refresh"
+    "Open in Excel action",
+    "Edit in Excel action",
+    "Excel Add-in pane",
+    "Copilot in Excel",
+    "Multi-step workflows",
+    "Data cleaning and preparation",
+    "Financial report formatting",
+    "Company and environment switching"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00441,
-      "pages_in_call": 8
+      "cost_usd": 0.005088,
+      "pages_in_call": 1
     }
   ]
 }

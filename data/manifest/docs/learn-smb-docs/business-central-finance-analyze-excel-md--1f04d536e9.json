@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Work with financial overviews in Excel (legacy)",
+  "title": "Analyzing Financial Statements in Microsoft Excel (legacy)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-analyze-excel",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:41.126Z",
-      "blob": "f7b3d1e586b602af791313b4bfa5c4a914a011d5",
-      "words": 621,
+      "at": "2026-11-11T00:24:19.662Z",
+      "blob": "99e0dcb189080b5e1c7d6b13b2483aec7bc85780",
+      "words": 660,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:43:43.695Z",
+      "at": "2026-11-11T00:24:40.830Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004041
+      "cost_usd": 0.004001
     },
     "summarized": {
-      "at": "2026-10-06T19:43:43.702Z",
+      "at": "2026-11-11T00:24:40.831Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:43:43.703Z",
+      "at": "2026-11-11T00:24:40.832Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:43:43.704Z",
+      "at": "2026-11-11T00:24:40.832Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-analyze-excel.md",
-    "description": "Learn about how you can open the financial statements in Microsoft Excel from Business Central for better analysis.",
-    "ms_date": "2025-02-13",
+    "description": "Learn about legacy Excel financial statement workbooks in Business Central and find current alternatives for financial reporting and analysis.",
+    "ms_date": "2026-11-09",
     "ms_topic": "overview",
     "search_form": [
       {
@@ -59,12 +59,12 @@
       "accounting",
       "financial report"
     ],
-    "ai_usage": null,
-    "words": 621,
+    "ai_usage": "ai-assisted",
+    "words": 660,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a9495b0b09a4e1cfa7c3510843d8381be17cb79c5d94b36e41f822b563bda0fa"
+  "output_hash": "813e6f1a0772978c3bc3f3b191f81983dafe2bc994c6f0c7004f3ffa5065dacd"
 }

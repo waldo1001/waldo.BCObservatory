@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Use Excel to import data",
+  "title": "Import Business Data into Business Central with Excel",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:24.305Z",
-      "blob": "d57fc66bb846b71b5ad799c04eb5bad17e413b70",
-      "words": 657,
+      "at": "2026-11-11T00:23:48.772Z",
+      "blob": "b85ce8ce9940833873fd7c0db4f4ee5b2757ccc4",
+      "words": 683,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T17:54:44.110Z",
+      "at": "2026-11-11T00:24:02.707Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.006011
+      "objects": 2,
+      "cost_usd": 0.003961
     },
     "summarized": {
-      "at": "2026-10-06T17:55:52.953Z",
+      "at": "2026-11-11T00:24:02.708Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:55:52.954Z",
+      "at": "2026-11-11T00:24:02.708Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:55:52.956Z",
+      "at": "2026-11-11T00:24:02.709Z",
       "page": false
     }
   },
@@ -44,21 +44,21 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-import-data-configuration-packages.md",
-    "description": "Use the default configuration package to add customer data in Excel and import the data back into Business Central.",
-    "ms_date": "2026-06-17",
-    "ms_topic": "article",
+    "description": "Learn how to prepare business data in Excel, import it through Business Central configuration packages, and validate the data before applying it.",
+    "ms_date": "2026-11-09",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "migration",
       "Excel",
       "business data import"
     ],
-    "ai_usage": null,
-    "words": 657,
+    "ai_usage": "ai-assisted",
+    "words": 683,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "26ccdc1264995efd69389bdae0f64dc8d70a924bea997eafecc93e0eb9dc91f8"
+  "output_hash": "43dbbac95f14e4f783f5b6e904139fe82b8bf4c19837cf83013f92baff54ecdd"
 }

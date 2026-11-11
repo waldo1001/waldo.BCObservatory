@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Optimize Outlook for your Business Inbox",
+  "title": "Optimize Outlook for Your Business Inbox",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-outlook-optimize",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.607Z",
-      "blob": "6ee4c9bc15edbbfb6620c82d5044f20142658f0e",
-      "words": 374,
+      "at": "2026-11-11T00:24:14.848Z",
+      "blob": "c60671b3c15783aa03e1003799bf5868c83694ed",
+      "words": 480,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:26:37.202Z",
+      "at": "2026-11-11T00:24:19.005Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003631
+      "cost_usd": 0.003774
     },
     "summarized": {
-      "at": "2026-10-06T19:26:38.924Z",
+      "at": "2026-11-11T00:24:19.005Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:38.925Z",
+      "at": "2026-11-11T00:24:19.006Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:38.926Z",
+      "at": "2026-11-11T00:24:19.006Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-outlook-optimize.md",
-    "description": "Learn about things you can do to improve experience with the Business Inbox in Microsoft Outlook.",
-    "ms_date": "2023-12-06",
+    "description": "Learn how Outlook updates, Microsoft Edge WebView2, and supported browsers can help improve your Business Central add-in experience in Outlook.",
+    "ms_date": "2026-11-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "addin",
       "add-in"
     ],
-    "ai_usage": null,
-    "words": 374,
+    "ai_usage": "ai-assisted",
+    "words": 480,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "85fb2f073930b27a6c9cdf009e541d8dc22b10fa85ddd5f34f5aec1f021b4668"
+  "output_hash": "293465bc98dc9cd11d566caefc350b1a369983699747af135ac6446b10e1ebe3"
 }

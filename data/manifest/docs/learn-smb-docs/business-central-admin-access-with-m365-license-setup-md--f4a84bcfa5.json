@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-setup",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.305Z",
-      "blob": "c19e928762b023d0683611f96cbeefddfaf32ef9",
-      "words": 1205,
+      "at": "2026-11-11T00:24:08.991Z",
+      "blob": "056c3894ad5088b3403d534593f79011956e071d",
+      "words": 1260,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:49:41.419Z",
+      "at": "2026-11-11T00:24:13.165Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.010525
+      "objects": 2,
+      "cost_usd": 0.005305
     },
     "summarized": {
-      "at": "2026-10-06T18:49:43.244Z",
+      "at": "2026-11-11T00:24:13.166Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:49:43.245Z",
+      "at": "2026-11-11T00:24:13.167Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:49:43.246Z",
+      "at": "2026-11-11T00:24:13.167Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-access-with-m365-license-setup.md",
-    "description": "A guide to how administrators can configure access to Business Central with Microsoft 365 licenses.",
-    "ms_date": "2024-08-12",
+    "description": "Configure Business Central permissions, enable access with Microsoft 365 licenses, deploy the Teams app, and test read-only access for your users.",
+    "ms_date": "2026-11-09",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -63,12 +63,12 @@
       "Teams",
       "Microsoft Teams"
     ],
-    "ai_usage": null,
-    "words": 1205,
+    "ai_usage": "ai-assisted",
+    "words": 1260,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6a9f7c5dfeb1863c2ab73b0da236e596185ca77b9d70c812a81977026c100aaa"
+  "output_hash": "965e79562b38cd1b2264fd9a8f4ad4f69ff9bee087a26b4865d455f38818f1eb"
 }

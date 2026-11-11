@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Add Business Central tab in Microsoft Teams",
+  "title": "Add a Business Central Tab in Microsoft Teams",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-teams-tab",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.337Z",
-      "blob": "6c2bd400e104e1e3bf2860e25c79deec721dce6d",
-      "words": 1044,
+      "at": "2026-11-11T00:24:04.578Z",
+      "blob": "0667c63609875bd33a0d36b82527668456e14b1b",
+      "words": 1090,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:59:36.765Z",
+      "at": "2026-11-11T00:24:08.961Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003654
+      "cost_usd": 0.004629
     },
     "summarized": {
-      "at": "2026-10-06T18:59:36.832Z",
+      "at": "2026-11-11T00:24:08.962Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:59:36.832Z",
+      "at": "2026-11-11T00:24:08.962Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:59:36.833Z",
+      "at": "2026-11-11T00:24:08.963Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-teams-tab.md",
-    "description": "Learn how to add tabs in Teams that display Business Central pages.",
-    "ms_date": "2025-10-21",
+    "description": "Add a Microsoft Teams tab that displays a Business Central list or card page, using recommended content or a page link to share data with coworkers.",
+    "ms_date": "2026-11-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -61,12 +61,12 @@
       "share records",
       "tab"
     ],
-    "ai_usage": null,
-    "words": 1044,
+    "ai_usage": "ai-assisted",
+    "words": 1090,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4ac5bfa0fb399d5a26653bfc053f1698992fd6c0971e0c3d38f60f25961776fd"
+  "output_hash": "ba801a4db83abded13b88e15bb88691d6edd4279112a2618fae9c6d7ef783a6e"
 }

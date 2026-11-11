@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-flow",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.454Z",
-      "blob": "09f1aa7591a6481b86e43f5fdee775662da2dd0f",
-      "words": 291,
+      "at": "2026-11-11T00:24:07.089Z",
+      "blob": "b1e556726fbb91bfd7d4a18ed2d358d82d30d6de",
+      "words": 282,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:26:12.200Z",
+      "at": "2026-11-11T00:24:11.176Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003525
+      "cost_usd": 0.003268
     },
     "summarized": {
-      "at": "2026-10-06T19:26:13.942Z",
+      "at": "2026-11-11T00:24:11.177Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:13.943Z",
+      "at": "2026-11-11T00:24:11.177Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:13.945Z",
+      "at": "2026-11-11T00:24:11.178Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-access-with-m365-license-flow.md",
     "description": "Get an overview of what happens when a user accesses Business Central data using their Microsoft 365 license for the first time.",
-    "ms_date": "2022-11-03",
-    "ms_topic": "article",
+    "ms_date": "2026-11-09",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "License",
@@ -57,12 +57,12 @@
       "Teams",
       "Microsoft Teams"
     ],
-    "ai_usage": null,
-    "words": 291,
+    "ai_usage": "ai-assisted",
+    "words": 282,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f2b483d7c80f231b7183891bc54a5dea126f5fcef9a6499b54552c63f09a4b4e"
+  "output_hash": "e9e967317ab2bf20e5305091ee79bfa5c9e23c4a93ee0448925e93cd63eab96e"
 }

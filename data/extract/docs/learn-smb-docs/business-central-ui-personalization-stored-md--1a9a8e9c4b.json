@@ -1,26 +1,31 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-personalization-stored.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-personalization-stored",
-  "title": "Where is personalization stored?",
-  "blob": "3b30cbb56259542f2efe922c0bed0e9ce09c4b24",
-  "summary": "Personalization storage explains which UI adjustments roam across devices and browsers versus those stored locally in the browser.",
+  "title": "Where Is Personalization Stored?",
+  "blob": "4393250e76412e3e3349fb30e10a6eb0491947f7",
+  "summary": "Personalization in Business Central web client is saved either as roaming personalization in the service (synced across devices/browsers) or local personalization in the browser (affecting only that browser). Roaming changes persist across devices, while local changes are deleted if browser cookies and site data are cleared.",
   "systems": [
-    "platform"
+    "platform",
+    "administration"
   ],
   "topics": [
     "personalization",
-    "ui settings",
-    "user experience",
-    "client settings"
+    "ui customization",
+    "roaming settings",
+    "local settings",
+    "browser storage",
+    "user preferences"
   ],
   "objects": [],
   "features": [
-    "Roaming personalization",
-    "Local personalization",
-    "Field reordering",
-    "Column hiding",
-    "List view customization",
-    "Navigation menu pinning"
+    "roaming personalization",
+    "local personalization",
+    "field reordering",
+    "column resizing",
+    "list view management",
+    "role center customization",
+    "action bar customization",
+    "navigation menu personalization"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003637,
-      "pages_in_call": 8
+      "cost_usd": 0.003753,
+      "pages_in_call": 1
     }
   ]
 }

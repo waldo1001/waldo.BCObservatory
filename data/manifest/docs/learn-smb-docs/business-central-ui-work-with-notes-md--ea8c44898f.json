@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Adding Information to Records to Yourself | Microsoft Docs",
+  "title": "Add and View Notes on Records",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-work-with-notes",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.649Z",
-      "blob": "7c9dab74aa3aaa4c2bc90dc5a665ad56a7867d40",
-      "words": 357,
+      "at": "2026-11-11T00:23:21.328Z",
+      "blob": "b9f38fe9cbc2d8ab5e3fa7b66da354726e175cbe",
+      "words": 152,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:26:38.978Z",
+      "at": "2026-11-11T00:23:48.753Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003855
+      "objects": 0,
+      "cost_usd": 0.002764
     },
     "summarized": {
-      "at": "2026-10-06T19:26:39.055Z",
+      "at": "2026-11-11T00:23:48.754Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:39.056Z",
+      "at": "2026-11-11T00:23:48.755Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:39.057Z",
+      "at": "2026-11-11T00:23:48.755Z",
       "page": false
     }
   },
@@ -44,19 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-work-with-notes.md",
-    "description": "Attach a note to any record in the application. For example, if you have extra information about a sales order that does not fit in any of the fields on the sales order, you can write a note.",
-    "ms_date": "2021-04-01",
+    "description": "Add notes to sales orders and other records in Business Central so that colleagues can find extra information and instructions when they work.",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [],
-    "keywords": [
-      "[object Object]"
-    ],
-    "ai_usage": null,
-    "words": 357,
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 152,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "aede17d18e5fd05431c536e7f1e25e88e97881d08b678ca2ba7c51685ac8d3f9"
+  "output_hash": "cc5822a21ce4e91b9333def1e2b638841fbf816d3e16fcb3754af158a51f2fb6"
 }

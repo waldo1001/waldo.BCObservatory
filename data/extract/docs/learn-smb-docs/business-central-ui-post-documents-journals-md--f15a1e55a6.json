@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-post-documents-journals.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-post-documents-journals",
-  "title": "Posting documents and journals",
-  "blob": "5838c54b2521f3ccf76f18a244e30285fc3250fa",
-  "summary": "Posting documents and journals records business transactions in company ledgers through various posting actions like Post, Preview Posting, Post and Send, and Post and Email available in Business Central documents and journals.",
+  "title": "Post Documents and Journals",
+  "blob": "66f97dc43a290bb7351922c3a6b5fb8eadcf561b",
+  "summary": "Posting documents and journals records business transactions in company ledgers, with actions like Post, Preview Posting, Post and Send, or Post and Email available depending on the document type.",
   "systems": [
     "finance",
     "sales",
@@ -13,9 +13,9 @@
     "posting",
     "documents",
     "journals",
-    "accounting",
     "transactions",
-    "ledgers"
+    "ledgers",
+    "accounting"
   ],
   "objects": [],
   "features": [
@@ -34,7 +34,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003135,
+      "cost_usd": 0.003042,
       "pages_in_call": 1
     }
   ]
