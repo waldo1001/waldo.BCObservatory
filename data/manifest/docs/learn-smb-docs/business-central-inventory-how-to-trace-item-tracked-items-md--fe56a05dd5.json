@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Trace item-tracked items",
+  "title": "Trace Item-Tracked Items",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-to-trace-item-tracked-items",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.790Z",
-      "blob": "2624bb1d8b017a8c004d665e8830db636871c1d0",
-      "words": 592,
-      "forms": 0
+      "at": "2026-11-11T00:19:40.138Z",
+      "blob": "39e72ee74e7aa8676744c5088315739c1398d9a3",
+      "words": 609,
+      "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:07:07.234Z",
+      "at": "2026-11-11T00:20:02.225Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003942
+      "cost_usd": 0.003986
     },
     "summarized": {
-      "at": "2026-10-06T19:07:49.047Z",
+      "at": "2026-11-11T00:20:02.226Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:07:49.048Z",
+      "at": "2026-11-11T00:20:02.227Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:07:49.049Z",
+      "at": "2026-11-11T00:20:02.227Z",
       "page": false
     }
   },
@@ -44,17 +44,23 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/inventory-how-to-trace-item-tracked-items.md",
-    "description": "You can see where an item-tracked item was used, including how and when it was received, produced, or returned with Item Tracing and Find Entries features.",
-    "ms_date": "2024-05-16",
+    "description": "Use Item Tracing to follow posted transactions for serial, lot, and package numbers. Find related posted entries and open records with Find Entries.",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
-    "search_form": [],
+    "search_form": [
+      {
+        "raw": "6520",
+        "id": 6520,
+        "kind": null
+      }
+    ],
     "keywords": [],
-    "ai_usage": null,
-    "words": 592,
+    "ai_usage": "ai-assisted",
+    "words": 609,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3c9d9346876b9ee14e320576c76702074a39af97ce8a4652d82ea7a8759d95c9"
+  "output_hash": "30fb52121ba60b5461ef9ddc6c2e81bc6f62549e0d5ac0de917e591bffb73e8e"
 }

@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "View table information",
+  "title": "View Table Information",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.743Z",
-      "blob": "5c25f80fa9e6054d384bcf21c9620651d290f6ea",
-      "words": 452,
+      "at": "2026-11-11T00:19:19.716Z",
+      "blob": "7d2d19bdfc6d928d09c8183f92a9ed33587372bd",
+      "words": 467,
       "forms": 2
     },
     "extracted": {
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-view-table-information.md",
-    "description": "Learn how you can view information about the database tables in Business Central.",
-    "ms_date": "2025-02-21",
-    "ms_topic": "concept-article",
+    "description": "View table information in Business Central to check record counts, data and index sizes, and compression when you troubleshoot database performance.",
+    "ms_date": "2026-11-10",
+    "ms_topic": "reference",
     "search_form": [
       {
         "raw": "8700_Primary",
@@ -60,12 +60,12 @@
       }
     ],
     "keywords": [],
-    "ai_usage": null,
-    "words": 452,
+    "ai_usage": "ai-assisted",
+    "words": 467,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cd69c4ddd93a993304a44a9a8a4677928ad885201fd8cf99606079bc5dc707a5"
+  "output_hash": "7d2d19bdfc6d928d09c8183f92a9ed33587372bd"
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-archive-data",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.566Z",
-      "blob": "53ac854a9b2be7864fea3ed60b61e3558efbe433",
-      "words": 457,
+      "at": "2026-11-11T00:18:44.421Z",
+      "blob": "93fc2a7f25f1c6d212c0ce38c9dc8101834c2ecd",
+      "words": 447,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:50:31.931Z",
+      "at": "2026-11-11T00:18:58.122Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003453
+      "cost_usd": 0.003408
     },
     "summarized": {
-      "at": "2026-10-06T18:50:33.714Z",
+      "at": "2026-11-11T00:18:58.123Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:50:33.715Z",
+      "at": "2026-11-11T00:18:58.124Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:50:33.716Z",
+      "at": "2026-11-11T00:18:58.124Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-archive-data.md",
-    "description": "Archiving data creates a low-cost backup of your records.",
-    "ms_date": "2023-01-30",
-    "ms_topic": "article",
+    "description": "Preserve records before date compression deletes them. Learn how to view data archives, export them to Excel or CSV, and manage archived data.",
+    "ms_date": "2026-11-10",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "630",
@@ -55,12 +55,12 @@
       }
     ],
     "keywords": [],
-    "ai_usage": null,
-    "words": 457,
+    "ai_usage": "ai-assisted",
+    "words": 447,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8148f461f068e39d6573169dd2cda7482f95f11755be5f2e72561202e061bbc5"
+  "output_hash": "569dd61892f67b88a811035533ca57499a603262157f3c0c1078bfb07128f9a6"
 }

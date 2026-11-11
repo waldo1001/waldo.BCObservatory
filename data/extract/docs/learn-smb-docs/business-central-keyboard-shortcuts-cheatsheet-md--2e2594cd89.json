@@ -1,11 +1,11 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/keyboard-shortcuts-cheatsheet.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/keyboard-shortcuts-cheatsheet",
-  "title": "Keyboard quick reference - PC only",
-  "blob": "7b822ecf2d8a9f6360642468a10dbf9bf17529c7",
-  "summary": "PC keyboard quick reference for Business Central navigation, data entry, filtering, sorting, and common actions with keyboard shortcuts and access keys.",
+  "title": "Keyboard Quick Reference - PC Only",
+  "blob": "be66658acba941af7eadd06b45134af780dab4d7",
+  "summary": "PC keyboard shortcuts for Business Central including navigation, data entry, filtering, and common actions like creating records, searching, and copying data.",
   "systems": [
-    "platform"
+    "administration"
   ],
   "topics": [
     "keyboard shortcuts",
@@ -13,19 +13,17 @@
     "navigation",
     "data entry",
     "filtering",
-    "sorting",
-    "quick reference"
+    "shortcuts"
   ],
   "objects": [],
   "features": [
+    "access keys",
     "factbox pane",
-    "tell me",
+    "tell me search",
     "find entries",
-    "new record creation",
-    "column sorting",
-    "search toggle",
-    "filter pane",
-    "quick entry fields",
+    "my settings",
+    "role explorer",
+    "quick entry",
     "report preview"
   ],
   "versions": [],
@@ -35,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007547,
-      "pages_in_call": 8
+      "cost_usd": 0.004032,
+      "pages_in_call": 1
     }
   ]
 }

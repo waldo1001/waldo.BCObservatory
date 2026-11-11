@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13499",
+  "number": 13499,
+  "title": "[Expense Agent] Defer per-diem policy invalidation until the parent line is saved",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Per-diem policy invalidation on expense report lines is deferred until the parent record saves, preventing stale parent buffers when child records are added during bulk generation. Policy state changes are now coalesced into a single version increment rather than multiple invalidations.",
+  "key_points": [
+    "Child-record insert/modify/delete triggers retain normal policy invalidation for direct API calls",
+    "Parent invalidation is suppressed only for local child instances used by bulk generation",
+    "Pending child-detail changes are marked on the parent buffer and consumed during parent save",
+    "Policy evaluation confirmation is rejected if pending child changes haven't been saved yet",
+    "Four new tests cover location-triggered generation, child-only regeneration, date-range extension, and pending change validation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Suppress parent invalidation only on the local child-record instance used by bulk generation; retain the child insert trigger and its existing validations.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004176,
+    "changes_in_call": 1
+  }
+}

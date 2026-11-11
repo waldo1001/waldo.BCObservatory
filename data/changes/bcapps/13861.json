@@ -1,0 +1,238 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13861,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13861",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-10T15:35:50Z",
+  "merge_commit_sha": "cd690fea0369445a70211f68a0998319dffc0a15",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master]- Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.",
+  "body_hash": "5e95a4e517a52864ffecf3b68f87139f0cd3e22ed2a1274496f4ee0fece2a3b6",
+  "fixes_issues": [],
+  "work_items": [
+    656633
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 8,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 11,
+    "additions": 10,
+    "deletions": 18,
+    "al": 11
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "is",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/21"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/21",
+        "type": "table",
+        "id": 21,
+        "name": "Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/21"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/FR/BaseApp/Sales/Receivables/CustLedgerEntry.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

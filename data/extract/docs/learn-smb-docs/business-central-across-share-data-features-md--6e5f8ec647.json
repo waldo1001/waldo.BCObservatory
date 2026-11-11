@@ -1,32 +1,32 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-share-data-features.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-share-data-features",
-  "title": "Sharing data",
-  "blob": "8ac071c9bbe10dfc20482da4333e365f40011c0f",
-  "summary": "Data sharing features in Business Central including copying links, sharing to Teams, OneDrive integration, Excel export, and copy-paste functionality for collaborating on business records and documents.",
+  "title": "Share Business Data from Business Central",
+  "blob": "d3d00a4415d023d2964fa1b7f2de559908ecd601",
+  "summary": "Features and methods for sharing business data from Business Central including copying links, sharing to Teams, OneDrive integration, Excel export, and copying rows or tables.",
   "systems": [
-    "platform",
-    "integration"
+    "integration",
+    "administration",
+    "platform"
   ],
   "topics": [
     "data sharing",
     "collaboration",
-    "teams integration",
     "onedrive",
-    "excel",
+    "teams",
+    "excel export",
+    "permissions",
     "links"
   ],
   "objects": [],
   "features": [
-    "copy link",
-    "share to teams",
-    "teams integration",
-    "onedrive sharing",
-    "open in excel",
-    "copy and paste",
-    "filtered views",
-    "data analysis mode",
-    "page links"
+    "Copy Link",
+    "Share to Teams",
+    "Share through OneDrive",
+    "Open in Excel",
+    "Share rows or tables",
+    "Filtered views",
+    "Data analysis mode"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003654,
-      "pages_in_call": 8
+      "cost_usd": 0.004015,
+      "pages_in_call": 1
     }
   ]
 }

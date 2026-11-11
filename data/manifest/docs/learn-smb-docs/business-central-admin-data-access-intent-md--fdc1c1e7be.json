@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Manage database access intent in Business Central",
+  "title": "Manage Database Access Intent",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-data-access-intent",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.512Z",
-      "blob": "76d8ef2b688f8dba58400eaa88ec811ed185348c",
-      "words": 347,
+      "at": "2026-11-11T00:18:55.124Z",
+      "blob": "f3526945aaf0befa53f60171c48af03e4ed8ca5b",
+      "words": 366,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:05:19.647Z",
+      "at": "2026-11-11T00:19:10.649Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.004037
+      "objects": 3,
+      "cost_usd": 0.003706
     },
     "summarized": {
-      "at": "2026-10-06T19:05:19.659Z",
+      "at": "2026-11-11T00:19:10.650Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:05:19.660Z",
+      "at": "2026-11-11T00:19:10.651Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:05:19.661Z",
+      "at": "2026-11-11T00:19:10.651Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-data-access-intent.md",
-    "description": "Change the database access intent for reports, API pages, and queries.",
-    "ms_date": "2021-04-01",
+    "description": "Manage database access intent for reports, API pages, and queries in Business Central to use read-only replicas and reduce the load on the primary database.",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -55,12 +55,12 @@
       }
     ],
     "keywords": [],
-    "ai_usage": null,
-    "words": 347,
+    "ai_usage": "ai-assisted",
+    "words": 366,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "23cb3ed718788dea4e91bcf9f11faf83ff627a228f411f544cceefdb3ab0fa28"
+  "output_hash": "42331b3f9d23ee58ccd4982b84c4aecee48add8f56367164d6de6d3e55c71ab0"
 }

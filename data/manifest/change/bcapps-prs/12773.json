@@ -6,7 +6,7 @@
   "title": "[Expense tests] Verify the expected 404 in the Expense Users API negative test",
   "url": "https://github.com/microsoft/BCApps/pull/12773",
   "published_at": "2026-11-10T11:46:30Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-11T00:15:47.902Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "expense tests verify the expected 404 in the expense users api negative test"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-11T00:19:45.764Z",
+  "retry_after": null
 }

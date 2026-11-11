@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up your customized colored indicators for a Cue's activity",
+  "title": "Set Up Colored Indicators on Cues for a Company or User",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-set-up-colored-indicator-on-cues",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.516Z",
-      "blob": "6988768e59718beeff583ed2f86a4a091463b5b2",
-      "words": 692,
+      "at": "2026-11-11T00:18:58.107Z",
+      "blob": "107646f914283e0e90047c351a138e766236a651",
+      "words": 678,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:05:19.649Z",
+      "at": "2026-11-11T00:19:12.755Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.004037
+      "cost_usd": 0.004091
     },
     "summarized": {
-      "at": "2026-10-06T19:05:19.662Z",
+      "at": "2026-11-11T00:19:12.755Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:05:19.663Z",
+      "at": "2026-11-11T00:19:12.756Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:05:19.664Z",
+      "at": "2026-11-11T00:19:12.756Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-how-set-up-colored-indicator-on-cues.md",
     "description": "As an administrator, you can set up Cues that appear on the users' Role Centers to include an indicator that changes color based on the data values in the Cues.",
-    "ms_date": "2021-04-01",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -60,12 +60,12 @@
       }
     ],
     "keywords": [],
-    "ai_usage": null,
-    "words": 692,
+    "ai_usage": "ai-assisted",
+    "words": 678,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6807e7168165c79d7507188d69e515030e1518a1990f1a5e1fcd7a0efe999b92"
+  "output_hash": "8bfb85896c61230619ce429e31aa7dd956f5356a7150dc59a2b6f79c3bfda2ff"
 }

@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13867,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13867",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-10T17:23:53Z",
+  "merge_commit_sha": "7bc680de16bcd1298d9c0d5e28cfba436c552bc7",
+  "author": "Alexander-Ya",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] Exclude concurrent test buffer from replication (AB#658568)",
+  "body_hash": "487d2b8c173ebbe0dd3ceb079fc7189c7f5193028cebe574622b86cd97dc36bd",
+  "fixes_issues": [],
+  "work_items": [
+    658568
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

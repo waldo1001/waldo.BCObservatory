@@ -6,10 +6,35 @@
   "title": "[]Main[ALL-E] Dimensions of components are incorrectly populated when creating Production Order through Order Planning",
   "url": "https://github.com/microsoft/BCApps/pull/13778",
   "published_at": "2026-11-10T13:28:35Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-11T00:15:47.902Z"
+    },
+    "fetched": {
+      "at": "2026-11-11T00:18:58.231Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-11T00:19:05.717Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003687
+    },
+    "linked": {
+      "at": "2026-11-11T00:19:05.825Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-11T00:19:05.829Z",
+      "path": "content/changes/bcapps/13778.md"
     }
   },
   "input_hash": "fd4fb199e3e835f3327e941edb7acd3ae9357e0e:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "main all e dimensions of components are incorrectly populated when creating production order through order planning"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e990060a6a0f7f9c98c8b2c709f5781c8f5306f119cb8417b647edaa25e01517"
 }

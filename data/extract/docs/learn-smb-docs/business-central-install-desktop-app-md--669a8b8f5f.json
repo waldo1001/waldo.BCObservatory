@@ -1,10 +1,11 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/install-desktop-app.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/install-desktop-app",
-  "title": "Get Business Central on your desktop",
-  "blob": "3baaff5a5a435126199179c38abd13040cb8d402",
-  "summary": "Install and use the Business Central desktop app for Windows and macOS. The app provides faster performance, easier access from the Start menu, and support for multiple environments on Business Central online.",
+  "title": "Get the Business Central Desktop App",
+  "blob": "a21effb5b470acff4c17adfa3a1c0b4a47fdd272",
+  "summary": "Business Central desktop app installation for Windows and macOS that works with online and on-premises environments. Use this page to install the app from Microsoft Store, browser, or for on-premises deployments.",
   "systems": [
+    "administration",
     "platform"
   ],
   "topics": [
@@ -12,15 +13,17 @@
     "installation",
     "windows",
     "macos",
+    "progressive web app",
     "multiple environments"
   ],
   "objects": [],
   "features": [
-    "Desktop app installation",
-    "Microsoft Store installation",
-    "Browser installation",
-    "Environment management",
-    "Multi-environment support"
+    "Desktop app installation from Microsoft Store",
+    "Browser-based app installation",
+    "Multiple environment support",
+    "On-premises app deployment",
+    "Start menu integration",
+    "Taskbar pinning"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004095,
-      "pages_in_call": 8
+      "cost_usd": 0.003627,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Sharing data",
+  "title": "Share Business Data from Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-share-data-features",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.319Z",
-      "blob": "8ac071c9bbe10dfc20482da4333e365f40011c0f",
-      "words": 805,
+      "at": "2026-11-11T00:18:17.993Z",
+      "blob": "d3d00a4415d023d2964fa1b7f2de559908ecd601",
+      "words": 856,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:59:36.757Z",
+      "at": "2026-11-11T00:18:30.880Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003654
+      "cost_usd": 0.004015
     },
     "summarized": {
-      "at": "2026-10-06T18:59:36.809Z",
+      "at": "2026-11-11T00:18:30.881Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:59:36.815Z",
+      "at": "2026-11-11T00:18:30.882Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:59:36.819Z",
+      "at": "2026-11-11T00:18:30.882Z",
       "page": false
     }
   },
@@ -44,20 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-share-data-features.md",
-    "description": "Learn about the different ways to share business data from Business Central.",
-    "ms_date": "2025-10-21",
+    "description": "Compare ways to share Business Central pages, records, analysis tabs, and files through links, Microsoft Teams, OneDrive, Excel, or copy and paste.",
+    "ms_date": "2026-11-10",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "business data",
       "data sharing"
     ],
-    "ai_usage": null,
-    "words": 805,
+    "ai_usage": "ai-assisted",
+    "words": 856,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2c00a5947e2f244b28704fcb375bf0dadc414fe572d4ca175a124939104791de"
+  "output_hash": "619fbbaf470036516cba3772ad6bb73d9c7d2feaff1e0083d35b4c571c0bbfa4"
 }

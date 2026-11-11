@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12084",
+  "number": 12084,
+  "title": "Bug 652154: [Subcontracting] Add feature uptake telemetry",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Telemetry instrumentation added to track Subcontracting feature adoption from discovery through setup to operational use, centralizing event tracking while preserving existing signals.",
+  "key_points": [
+    "New telemetry codeunit centralizes Subcontracting feature name and event IDs for consistent tracking",
+    "Captures discovery when opening the Subcontracting Worksheet",
+    "Tracks setup completion via assisted setup, work center assignment, or subcontractor price creation",
+    "Records operational use when creating subcontracting purchase-order lines",
+    "Backfills missing earlier states to maintain proper Discovered -> Set up -> Used transition for existing companies"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Add the complete feature uptake funnel for the Subcontracting app so adoption can be measured from discovery through configuration and real operational use.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004406,
+    "changes_in_call": 1
+  }
+}

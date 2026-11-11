@@ -1,32 +1,41 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/admin-data-access-intent.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-data-access-intent",
-  "title": "Manage database access intent in Business Central",
-  "blob": "76d8ef2b688f8dba58400eaa88ec811ed185348c",
-  "summary": "Database Access Intent lets administrators override predefined database access settings for reports, API pages, and queries to optimize performance using read-only replicas. Configure these settings on the Database Access Intent List page.",
+  "title": "Manage Database Access Intent",
+  "blob": "f3526945aaf0befa53f60171c48af03e4ed8ca5b",
+  "summary": "Database access intent lets administrators override the predefined database access intent for reports, API pages, and queries to improve performance by using read-only replicas when available.",
   "systems": [
     "platform",
-    "reporting"
+    "reporting",
+    "administration"
   ],
   "topics": [
-    "database",
-    "performance",
-    "read-only",
+    "database access intent",
     "read scale-out",
-    "access intent"
+    "performance",
+    "read-only replica",
+    "administrator settings"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Database Access Intent List"
+    },
+    {
+      "type": "page",
+      "name": "Edit - Database Access Intent List"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
     }
   ],
   "features": [
-    "read-only replica access",
-    "primary database access",
-    "database access intent override",
-    "write allowance",
-    "performance optimization"
+    "DatabaseAccessIntent property override",
+    "read-only replica support",
+    "Allow Write setting",
+    "Read Only setting",
+    "Default access intent setting"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004037,
-      "pages_in_call": 8
+      "cost_usd": 0.003706,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Ad-hoc data analysis by functional area",
+  "title": "Ad-Hoc Data Analysis by Functional Area",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-data-analysis-by-functional-area",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.887Z",
-      "blob": "99ebd11bc2c3a1d3f3d07248fe740da6d6d2bc98",
+      "at": "2026-11-11T00:18:36.878Z",
+      "blob": "d7ef80b1ede8060ccf077a133ac00e7acaf40bf5",
       "words": 37,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:39:59.285Z",
+      "at": "2026-11-11T00:18:51.173Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003231
+      "cost_usd": 0.005604
     },
     "summarized": {
-      "at": "2026-10-06T19:40:01.162Z",
+      "at": "2026-11-11T00:18:51.174Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:40:01.163Z",
+      "at": "2026-11-11T00:18:51.175Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:40:01.165Z",
+      "at": "2026-11-11T00:18:51.178Z",
       "page": false
     }
   },
@@ -44,19 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ad-hoc-data-analysis-by-functional-area.md",
-    "description": "Provides an overview of functional area specific landing pages for ad-hoc data analysis in Business Central.",
-    "ms_date": "2024-05-01",
-    "ms_topic": "get-started",
+    "description": "Find guidance for analyzing Business Central data by functional area, including finance, sales, purchasing, inventory, sustainability, and auditing.",
+    "ms_date": "2026-11-10",
+    "ms_topic": "overview",
     "search_form": [],
     "keywords": [
       "feature overview"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 37,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c77d4d7df9533a5953b10cd72a16135b70e786cd848b22a725b33806e98b88a9"
+  "output_hash": "21ceba67019a87aad4b7d1c81529b2a6eb4d3911e2fd394967bb901a54d827fb"
 }

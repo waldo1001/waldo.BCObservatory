@@ -1,36 +1,70 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-store-document-attachments-externally.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally",
-  "title": "External file storage for document attachments",
-  "blob": "824e6940a0dc21925508cca736faa70665bf6b7a",
-  "summary": "Store document attachments in external cloud storage like Azure Blob Storage, Azure File Share, or SharePoint to reduce database capacity usage and improve performance. Set up file accounts, enable the scenario, and manage attachment lifecycle with features for deletion synchronization and file migration.",
+  "title": "Store Document Attachments in External File Storage",
+  "blob": "23cf3f3b7586c986319ab76e951e1b49b87bdd8a",
+  "summary": "Configure external file storage for document attachments using Azure Blob Storage, Azure File Share, or SharePoint to reduce database capacity, improve performance, and lower storage costs.",
   "systems": [
     "administration",
     "integration",
     "platform"
   ],
   "topics": [
-    "document attachments",
     "external storage",
-    "azure",
+    "document attachments",
+    "azure blob storage",
     "sharepoint",
-    "file management",
-    "capacity",
-    "storage accounts"
+    "capacity management",
+    "file storage"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "External File Accounts"
+    },
+    {
+      "type": "page",
+      "name": "File Scenario Assignment"
+    },
+    {
+      "type": "page",
+      "name": "External Storage Setup"
+    },
+    {
+      "type": "page",
+      "name": "File Scenarios"
+    },
+    {
+      "type": "page",
+      "name": "Document Attachments - External Storage"
+    },
+    {
+      "type": "page",
+      "name": "Attached Documents"
+    },
+    {
+      "type": "page",
+      "name": "External Storage Browser"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order"
+    }
+  ],
   "features": [
-    "External File Storage framework",
+    "External file storage framework",
     "Azure Blob Storage support",
     "Azure File Share support",
-    "SharePoint integration",
+    "SharePoint document library support",
     "Storage Sync action",
-    "External Storage Browser",
     "Migrate Files action",
-    "Delete External File on Attachment Delete toggle"
+    "Storage Browser",
+    "External file cleanup"
   ],
   "versions": [
-    "Business Central 28.1"
+    "Business Central 28.0",
+    "Business Central 28.1",
+    "Business Central 29"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -38,8 +72,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.016837,
-      "pages_in_call": 2
+      "cost_usd": 0.013113,
+      "pages_in_call": 1
     }
   ]
 }

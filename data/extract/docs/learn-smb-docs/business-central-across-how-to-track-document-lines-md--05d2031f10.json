@@ -1,17 +1,16 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-how-to-track-document-lines.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-track-document-lines",
-  "title": "Track order lines to related documents",
-  "blob": "54b039be1eefa6966cf4f6f93c015dab2239cef7",
-  "summary": "Track order lines to related documents like quotes, shipments, receipts, and blanket orders through the Document Line Tracking feature for sales and purchase orders.",
+  "title": "Track Document Lines",
+  "blob": "f0faf43dceed49cfe78c585726996fbc07010e7c",
+  "summary": "Track documents related to sales, purchase, and blanket order lines to view shipments, receipts, invoices, and other associated documents.",
   "systems": [
     "sales",
     "purchasing"
   ],
   "topics": [
     "document tracking",
-    "order lines",
-    "related documents",
+    "order management",
     "sales orders",
     "purchase orders"
   ],
@@ -23,9 +22,11 @@
   ],
   "features": [
     "document line tracking",
-    "sales order tracking",
-    "purchase order tracking",
-    "blanket order tracking"
+    "related document viewing",
+    "archived order lines",
+    "shipment tracking",
+    "receipt tracking",
+    "invoice tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003112,
-      "pages_in_call": 7
+      "cost_usd": 0.002854,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "External file storage for document attachments",
+  "title": "Store Document Attachments in External File Storage",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:18.920Z",
-      "blob": "824e6940a0dc21925508cca736faa70665bf6b7a",
-      "words": 2318,
+      "at": "2026-11-11T00:18:36.888Z",
+      "blob": "23cf3f3b7586c986319ab76e951e1b49b87bdd8a",
+      "words": 2328,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:36:41.449Z",
+      "at": "2026-11-11T00:18:51.143Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.016837
+      "objects": 8,
+      "cost_usd": 0.013113
     },
     "summarized": {
-      "at": "2026-10-06T13:36:41.493Z",
+      "at": "2026-11-11T00:18:51.144Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:36:41.493Z",
+      "at": "2026-11-11T00:18:51.144Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:36:41.494Z",
+      "at": "2026-11-11T00:18:51.145Z",
       "page": false
     }
   },
@@ -45,20 +45,22 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-store-document-attachments-externally.md",
     "description": "Learn how to store document attachments in Azure or SharePoint external file storage to reduce database usage in Business Central.",
-    "ms_date": "2026-09-23",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
-      "open files",
-      "share files",
-      "OneDrive"
+      "document attachments",
+      "external storage",
+      "SharePoint",
+      "Azure Blob Storage",
+      "Azure Files"
     ],
-    "ai_usage": null,
-    "words": 2318,
+    "ai_usage": "ai-assisted",
+    "words": 2328,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5dc50f7127665591df0d4839f66c1452b8a5bdba931a7af5920de2949d6ffaff"
+  "output_hash": "8bd02470b0f1db731d71b57d7b41be933ba5ba992b1b9008a27aef5cfd0524c3"
 }

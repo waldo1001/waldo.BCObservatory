@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Keyboard quick reference - PC only",
+  "title": "Keyboard Quick Reference - PC Only",
   "url": "https://learn.microsoft.com/dynamics365/business-central/keyboard-shortcuts-cheatsheet",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.118Z",
-      "blob": "7b822ecf2d8a9f6360642468a10dbf9bf17529c7",
-      "words": 336,
+      "at": "2026-11-11T00:19:40.114Z",
+      "blob": "be66658acba941af7eadd06b45134af780dab4d7",
+      "words": 343,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:51:07.568Z",
+      "at": "2026-11-11T00:19:50.294Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.007547
+      "cost_usd": 0.004032
     },
     "summarized": {
-      "at": "2026-10-06T13:51:07.574Z",
+      "at": "2026-11-11T00:20:00.346Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:51:07.574Z",
+      "at": "2026-11-11T00:20:00.348Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:51:07.574Z",
+      "at": "2026-11-11T00:20:00.348Z",
       "page": false
     }
   },
@@ -44,7 +44,7 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/keyboard-shortcuts-cheatsheet.md",
-    "description": "A print-friendly reference sheet containing the most popular keyboard shortcuts for PC users.",
+    "description": "Use this print-friendly reference for common Business Central keyboard shortcuts on a PC, including navigation, data entry, filtering, and reports.",
     "ms_date": "2025-08-04",
     "ms_topic": "article",
     "search_form": [],
@@ -54,12 +54,12 @@
       "keyboarding",
       "keys"
     ],
-    "ai_usage": null,
-    "words": 336,
+    "ai_usage": "ai-assisted",
+    "words": 343,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7b742ff24632649e240d272da794bf61c37b56e1f18cc76ab9c5fafad93af959"
+  "output_hash": "0acde2e679c1e6dbbb7e56ceb30598bac34107eb7394b4132855cf3039c3f9f0"
 }

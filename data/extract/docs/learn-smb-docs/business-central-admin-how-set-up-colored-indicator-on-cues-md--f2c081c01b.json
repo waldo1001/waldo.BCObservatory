@@ -1,20 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/admin-how-set-up-colored-indicator-on-cues.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-set-up-colored-indicator-on-cues",
-  "title": "Set up your customized colored indicators for a Cue's activity",
-  "blob": "6988768e59718beeff583ed2f86a4a091463b5b2",
-  "summary": "Colored Cue Indicators provide visual status signals on Role Center tiles based on data thresholds. Administrators can set up different colors for low, middle, and high value ranges on the Cue Setup page for company-wide or individual users.",
+  "title": "Set Up Colored Indicators on Cues for a Company or User",
+  "blob": "107646f914283e0e90047c351a138e766236a651",
+  "summary": "Set up colored indicator bars on Cue tiles in Role Centers to display status based on data thresholds, with options to apply settings company-wide or per user.",
   "systems": [
-    "platform",
     "administration"
   ],
   "topics": [
     "cues",
-    "visual indicators",
+    "indicators",
     "role centers",
-    "status display",
-    "color coding",
-    "threshold values"
+    "visual status",
+    "thresholds",
+    "personalization"
   ],
   "objects": [
     {
@@ -29,9 +28,10 @@
   "features": [
     "colored indicators",
     "threshold values",
-    "low/middle/high ranges",
-    "color styles",
-    "personalization",
+    "low range style",
+    "middle range style",
+    "high range style",
+    "user-level personalization",
     "company-wide settings"
   ],
   "versions": [],
@@ -41,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004037,
-      "pages_in_call": 8
+      "cost_usd": 0.004091,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-comments",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T18:58:38.332Z",
+      "at": "2026-11-11T00:18:12.066Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003112
+      "objects": 3,
+      "cost_usd": 0.003488
     },
     "summarized": {
-      "at": "2026-10-06T18:59:05.632Z",
+      "at": "2026-11-11T00:18:12.067Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:59:05.633Z",
+      "at": "2026-11-11T00:18:12.068Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:59:05.634Z",
+      "at": "2026-11-11T00:18:12.068Z",
       "page": false
     }
   },
@@ -70,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "aac5e480b97dce960fa06a22eeb6ff72781e7f3a"
+  "output_hash": "1ec1e3d78cc787f8f5af5c1600683a65504c9a45edf70a5354014b69d72d9dfe"
 }

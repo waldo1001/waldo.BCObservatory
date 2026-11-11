@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-inspect-page.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-inspect-page",
-  "title": "Inspecting pages in Business Central",
-  "blob": "713b7b2ee411c91fc5747342975fc124cd31aed4",
-  "summary": "Inspect pages to view details about page design, elements, and data sources for troubleshooting and learning the data model.",
+  "title": "Inspect Pages in Business Central",
+  "blob": "a4b8e2b29efccd11c840be790ca67a5b3f33ae70",
+  "summary": "Page inspection enables administrators, developers, and support personnel to view detailed information about page design, elements, and data sources. Use it to troubleshoot page issues or understand the data model behind pages.",
   "systems": [
     "development",
     "administration"
@@ -13,32 +13,38 @@
     "debugging",
     "troubleshooting",
     "page design",
-    "data model"
+    "developer tools"
   ],
   "objects": [
     {
-      "type": "page",
-      "name": "Help & Support"
+      "type": "other",
+      "name": "System object 5330 - Tools, Zoom"
+    },
+    {
+      "type": "table",
+      "name": "AllObjWithCaption"
+    },
+    {
+      "type": "table",
+      "name": "NAV App Installed App"
     }
   ],
   "features": [
     "page inspection pane",
-    "element selection",
-    "page information display",
+    "element highlighting",
+    "source code investigation",
     "visual studio code integration",
-    "permission control"
+    "permissions control"
   ],
-  "versions": [
-    "2023 release wave 2"
-  ],
+  "versions": [],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003112,
-      "pages_in_call": 7
+      "cost_usd": 0.003621,
+      "pages_in_call": 1
     }
   ]
 }

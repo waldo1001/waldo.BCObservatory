@@ -6,10 +6,35 @@
   "title": "[Main][ALL-E] Item Attributes (Decimal): Unable to Enter 0 After Clearing the Attribute Value to blank ",
   "url": "https://github.com/microsoft/BCApps/pull/13855",
   "published_at": "2026-11-10T13:24:09Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-11T00:15:47.902Z"
+    },
+    "fetched": {
+      "at": "2026-11-11T00:19:24.209Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-11T00:19:33.266Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003481
+    },
+    "linked": {
+      "at": "2026-11-11T00:19:33.387Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-11T00:19:33.394Z",
+      "path": "content/changes/bcapps/13855.md"
     }
   },
   "input_hash": "72850e5e7ff23b4bcb76b72cac194f9a701a0b79:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "all e item attributes decimal unable to enter 0 after clearing the attribute value to blank"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cf08275641b158d996a022491898f4aac376efea3d59a7627e667b3904e80ca9"
 }

@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12773,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12773",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-10T11:46:30Z",
+  "merge_commit_sha": "e39001c23b0a56d918154109c2ff1b60264aeca0",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Expense tests] Verify the expected 404 in the Expense Users API negative test",
+  "body_hash": "1e9038d4e87ff12b9e795dd23ae7c4c703e1daa35958cd44d41879757a2ac576",
+  "fixes_issues": [],
+  "work_items": [
+    654047
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

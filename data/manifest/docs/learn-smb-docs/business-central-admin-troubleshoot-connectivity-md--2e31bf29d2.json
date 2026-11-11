@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Troubleshoot connectivity",
+  "title": "Troubleshoot Connectivity for Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-troubleshoot-connectivity",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.907Z",
-      "blob": "97a34f4bf2074308e13f19adbe62bc09675e94b4",
-      "words": 812,
+      "at": "2026-11-11T00:19:04.447Z",
+      "blob": "91a888184eb4ea584137284e7a03b4eccf038124",
+      "words": 813,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:40:01.105Z",
+      "at": "2026-11-11T00:19:18.147Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003231
+      "cost_usd": 0.00385
     },
     "summarized": {
-      "at": "2026-10-06T19:40:01.241Z",
+      "at": "2026-11-11T00:19:18.148Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:40:01.241Z",
+      "at": "2026-11-11T00:19:18.148Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:40:01.243Z",
+      "at": "2026-11-11T00:19:18.149Z",
       "page": false
     }
   },
@@ -46,19 +46,19 @@
     "path": "business-central/admin-troubleshoot-connectivity.md",
     "description": "Describes how to use the Troubleshoot Connectivity page to identify and fix problems connecting to Business Central online.",
     "ms_date": "2024-01-09",
-    "ms_topic": "get-started",
+    "ms_topic": "troubleshooting",
     "search_form": [],
     "keywords": [
       "connectivity",
       "troubleshooting",
       "connection problems"
     ],
-    "ai_usage": null,
-    "words": 812,
+    "ai_usage": "ai-assisted",
+    "words": 813,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0cdc1107d872198834fd29c079c368d00882819ee03ffd58027814defa532eb7"
+  "output_hash": "c8ce08b6410b02fc443fe1fe05514cbd916e184500b6ff35e88d1eb46589d562"
 }

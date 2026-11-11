@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Manage work across multiple companies in the company hub",
+  "title": "Manage Work Across Multiple Companies in the Company Hub",
   "url": "https://learn.microsoft.com/dynamics365/business-central/company-hub",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:23.090Z",
-      "blob": "8651e67568756bdfb509e04bec2962330be2c0b6",
-      "words": 1009,
+      "at": "2026-11-11T00:19:22.575Z",
+      "blob": "3a9fa7c1bcd189785989d7901752901146747fa8",
+      "words": 987,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T17:43:42.391Z",
+      "at": "2026-11-11T00:19:35.199Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.005543
+      "cost_usd": 0.004264
     },
     "summarized": {
-      "at": "2026-10-06T17:44:15.024Z",
+      "at": "2026-11-11T00:19:35.199Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:44:15.041Z",
+      "at": "2026-11-11T00:19:35.200Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:44:15.043Z",
+      "at": "2026-11-11T00:19:35.200Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/company-hub.md",
-    "description": "Learn about the company hub in Dynamics 365 Business Central that you use to manage your work across multiple companies.",
-    "ms_date": "2025-10-03",
-    "ms_topic": "article",
+    "description": "Use the Business Central company hub to view company summaries, open connected companies, and prioritize assigned tasks across online environments.",
+    "ms_date": "2026-11-10",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "1151",
@@ -74,12 +74,12 @@
       "accounting",
       "financial report"
     ],
-    "ai_usage": null,
-    "words": 1009,
+    "ai_usage": "ai-assisted",
+    "words": 987,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4f800a27d14120dfcc5afd994bda6070f486d27a86fb4064196eaadc65dab7ab"
+  "output_hash": "875b98e940fa09619ba7f5a2506733a1036bc31c409220d6bd6579ef8ab31127"
 }

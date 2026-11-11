@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "External document numbers on purchase documents",
+  "title": "External Document Numbers on Purchase Documents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-ext-doc-no",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.633Z",
-      "blob": "a91cbdc6b449550523bffd68251e6f5a4cca1b59",
-      "words": 40,
+      "at": "2026-11-11T00:19:43.085Z",
+      "blob": "4cb0af6138daba6ede19d2ee9d4bf078f3930eb1",
+      "words": 41,
       "forms": 0
     },
     "extracted": {
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchasing-ext-doc-no.md",
-    "description": "Learn how to record vendor-assigned document numbers using the External Document Number or Your Reference fields, and understand the differences between these options.",
+    "description": "Learn how to record vendor document numbers on purchase documents, make numbers mandatory, and use external document numbers to find posted entries.",
     "ms_date": "2025-10-03",
-    "ms_topic": "article",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "external document number",
@@ -56,12 +56,12 @@
       "purchase credit memo",
       "vendor document number"
     ],
-    "ai_usage": null,
-    "words": 40,
+    "ai_usage": "ai-assisted",
+    "words": 41,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "af7f2521cdc8f3469c12c99170117ff2267a085de74252053364d5c669b49947"
+  "output_hash": "4cb0af6138daba6ede19d2ee9d4bf078f3930eb1"
 }

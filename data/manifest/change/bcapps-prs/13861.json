@@ -6,10 +6,35 @@
   "title": "[Master]- Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.",
   "url": "https://github.com/microsoft/BCApps/pull/13861",
   "published_at": "2026-11-10T15:35:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-11T00:15:47.902Z"
+    },
+    "fetched": {
+      "at": "2026-11-11T00:18:32.790Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 11,
+      "objects": 10,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-11T00:18:40.234Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003678
+    },
+    "linked": {
+      "at": "2026-11-11T00:18:40.368Z",
+      "objects": 10,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-11T00:18:40.372Z",
+      "path": "content/changes/bcapps/13861.md"
     }
   },
   "input_hash": "cd690fea0369445a70211f68a0998319dffc0a15:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master dispute status inconsistent on hold and document synchronization on vendor ledger entries"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2913d3598da4d45a97f874f635b27d22fe158b2fa52076e7a8c2047ab05a46af"
 }

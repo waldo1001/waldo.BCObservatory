@@ -194,7 +194,7 @@
     {
       "t": 222.3,
       "text": "One was FTPS, which was just FTP, but you had a a TLS-based encryption on top of it, just like ...",
-      "why_it_matters": "Clarifies that FTPS is simply FTP with TLS encryption added, drawing a parallel to HTTPS for easier understanding.",
+      "why_it_matters": "Defines FTPS as FTP with TLS encryption, as distinct from SFTP.",
       "check": "exact"
     },
     {
@@ -204,9 +204,15 @@
       "check": "fuzzy"
     },
     {
-      "t": 330.8,
-      "text": "now we have in Business Central if we go and look here, so here I just built a quick demo app. So, if we",
-      "why_it_matters": "Announces the availability of a native SFTP client in Business Central, eliminating the need for Azure function workarounds.",
+      "t": 355.5,
+      "text": "we can see now that we actually have in the system application, now we have an SFTP client.",
+      "why_it_matters": "Establishes that the SFTP client is part of the Business Central system application.",
+      "check": "exact"
+    },
+    {
+      "t": 376.3,
+      "text": "and with this, we don't have to go to uh to Azure functions. We don't have to do all of that.",
+      "why_it_matters": "Explains that the native client replaces the old Azure function proxy approach.",
       "check": "exact"
     },
     {
@@ -216,9 +222,9 @@
       "check": "exact"
     },
     {
-      "t": 740.1,
-      "text": "Microsoft has used the the Ren C uh and I think this is actually easiest way to go about this go to the explorer.",
-      "why_it_matters": "Reveals that the SFTP client implementation uses the Renci.SSH .NET open source library as its underlying technology.",
+      "t": 763.1,
+      "text": "And we can see that it is the Ren C client that Microsoft has used the dot net client.",
+      "why_it_matters": "Identifies the underlying .NET library used by the implementation.",
       "check": "exact"
     }
   ],

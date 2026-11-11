@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13572",
+  "number": 13572,
+  "title": "Fix cloud migration company delete removing the wrong hybrid company",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "Cloud migration company deletion now removes the correct hybrid company and intelligent cloud status records instead of potentially deleting records for unrelated companies. The webhook subscription is moved to the first remaining company when the subscribed company is deleted.",
+  "key_points": [
+    "HandleCompanyDelete now uses the deleted company (Rec) instead of a local Company variable to identify which records to remove",
+    "Webhook handling refactored into separate methods IsCompanyWebhookCompany and MoveWebhookSubscription",
+    "Webhook moves to first remaining company to keep cloud migration subscriptions functional",
+    "Fixes issue where deleting the company holding webhook subscription caused deletion of wrong hybrid company records",
+    "Tests added for company deletion and webhook transfer scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.0044,
+    "changes_in_call": 1
+  }
+}

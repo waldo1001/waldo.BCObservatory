@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13778",
+  "number": 13778,
+  "title": "[]Main[ALL-E] Dimensions of components are incorrectly populated when creating Production Order through Order Planning",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory",
+    "finance"
+  ],
+  "summary": "Order Planning now calculates component dimensions using the same inheritance and priority rules as Production Order Refresh, ensuring consistent dimension assignment for production order components regardless of creation method.",
+  "key_points": [
+    "Component dimensions in Order Planning now follow Production Order source code and dimension-priority rules",
+    "Parent requisition line dimensions are inherited as Production Order Line dimensions",
+    "Non-conflicting component defaults are preserved while conflicting defaults no longer override parent dimensions",
+    "Planning Worksheet behavior remains unchanged",
+    "Added regression tests for no priorities, item priority, and parent priority scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Apply the Production Order source code and dimension-priority rules when calculating Order Planning component dimensions.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003687,
+    "changes_in_call": 1
+  }
+}

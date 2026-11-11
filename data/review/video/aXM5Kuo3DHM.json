@@ -1,0 +1,32 @@
+{
+  "video_id": "aXM5Kuo3DHM",
+  "item_id": "video/yt-hougaard/aXM5Kuo3DHM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Quote at 222.3 ends in an inserted ellipsis and is not verbatim. Replaced it with the full span that runs into the next segment.",
+    "Quote at 330.8 is verbatim but says little. Replaced it with the clearer system application statement at 355.5.",
+    "Quote at 740.1 is mostly filler. Replaced it with the clearer Renci library statement at 763.1.",
+    "The key point on operation responses overstated the transcript. The speaker only says they are 'kind of the same structure' and 'very similar in concept' to the Azure blob storage codeunits.",
+    "Added key points on put/get vocabulary and the Renci .NET library.",
+    "The transcript does not state a release status (preview or GA) for any feature, so all features stay unclear."
+  ],
+  "input_hash": "df43e9da1ffdeb4e704af87ca96640413c3660732f99f4b7784ba533a9fd6c7c",
+  "by": "opus",
+  "at": "2026-11-11T00:18:36.770Z",
+  "applied": [
+    "dropped 3 quote(s)",
+    "quote at 222s",
+    "quote at 356s",
+    "quote at 376s",
+    "quote at 763s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.099416
+  }
+}

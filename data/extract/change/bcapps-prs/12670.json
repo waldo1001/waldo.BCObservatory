@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12670",
+  "number": 12670,
+  "title": "[Master] - Slice 580818: [Expense Management][VENDOR] Role Centers updates 💸",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Expense Management role centers now display activity cues showing expense report statuses and policy-violated expenses, visible to Accountant, Accounts Payable Administrator, and Business Manager users.",
+  "key_points": [
+    "Added Expense Activities page and cue table with FlowField-based counts",
+    "Extended Accountant, Accounts Payable Administrator, and Business Manager role centers with expense activity indicators",
+    "Displays interim approved, released, and policy-violated expense cues",
+    "Updated permission sets to include access to new expense activity objects"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Add Expense Activities cues to the Accountant, Accounts Payable Administrator, and Business Manager role centers.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003858,
+    "changes_in_call": 1
+  }
+}
